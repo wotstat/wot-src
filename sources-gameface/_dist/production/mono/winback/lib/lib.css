@@ -63,6 +63,152 @@
   --color-team-killer-rgb: 9, 226, 255;
 } /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
+.Textbutton_b1283086 {
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  font-size: 12rem;
+  position: relative;
+  cursor: pointer;
+}
+.Textbutton_base__right_78d4c03f {
+  flex-direction: row-reverse;
+}
+
+.Textbutton_icon_9ba4c60 {
+  width: 32rem;
+  height: 32rem;
+  background: no-repeat center/contain;
+  position: relative;
+}
+.Textbutton_icon__back_599b35e4,
+.Textbutton_icon__forward_4ef35d4d {
+  margin: -1rem -5rem;
+  background-image: url("R.images.gui.maps.icons.components.text_button.back");
+  transform: translateY(1rem);
+}
+.Textbutton_icon__forward_4ef35d4d {
+  transform: rotate(180deg) translateY(1rem);
+}
+.Textbutton_icon__close_b2af8bd5 {
+  margin: -1rem 0;
+  background-image: url("R.images.gui.maps.icons.components.text_button.close");
+}
+.Textbutton_icon__info_6cbc7293 {
+  margin: -1rem -5rem;
+  background-image: url("R.images.gui.maps.icons.components.text_button.info");
+}
+
+.Textbutton_glow_1ddc70ba {
+  width: 100%;
+  height: 100%;
+  background: no-repeat center/contain;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity 0.16s;
+}
+.Textbutton_icon__back_599b35e4 .Textbutton_glow_1ddc70ba,
+.Textbutton_icon__forward_4ef35d4d .Textbutton_glow_1ddc70ba {
+  background-image: url("R.images.gui.maps.icons.components.text_button.back_hover");
+}
+.Textbutton_icon__close_b2af8bd5 .Textbutton_glow_1ddc70ba {
+  background-image: url("R.images.gui.maps.icons.components.text_button.close_hover");
+}
+.Textbutton_icon__info_6cbc7293 .Textbutton_glow_1ddc70ba {
+  background-image: url("R.images.gui.maps.icons.components.text_button.info_hover");
+}
+.Textbutton_b1283086:hover .Textbutton_glow_1ddc70ba {
+  opacity: 1;
+}
+.Textbutton_b1283086:active .Textbutton_glow_1ddc70ba {
+  opacity: 0;
+}
+
+.Textbutton_caption_4350685c {
+  position: relative;
+  transition:
+    color 0.16s,
+    text-shadow 0.16s;
+}
+.Textbutton_caption__back_599b35e4,
+.Textbutton_caption__forward_599b35e4,
+.Textbutton_caption__close_c29bdb5 {
+  color: #ffdd99;
+  text-shadow:
+    0 0 10rem #ff2a00,
+    0 0 10rem rgba(255, 42, 0, 0.4),
+    0 0 10rem rgba(255, 42, 0, 0.4),
+    0 0 2rem rgba(255, 42, 0, 0.4),
+    0 0 1rem rgba(255, 42, 0, 0.4),
+    0 0 2rem rgba(255, 42, 0, 0.4),
+    0 0 1rem rgba(255, 42, 0, 0.4);
+}
+.Textbutton_b1283086:hover .Textbutton_caption__back_599b35e4,
+.Textbutton_b1283086:hover .Textbutton_caption__forward_599b35e4,
+.Textbutton_b1283086:hover .Textbutton_caption__close_c29bdb5 {
+  color: #fffa9f;
+}
+.Textbutton_b1283086:active .Textbutton_caption__back_599b35e4,
+.Textbutton_b1283086:active .Textbutton_caption__forward_599b35e4,
+.Textbutton_b1283086:active .Textbutton_caption__close_c29bdb5 {
+  color: #ffdd99;
+}
+.Textbutton_caption__info_ccd96b67 {
+  padding: 0 5rem;
+  color: #ccffff;
+  text-shadow:
+    0 0 12rem rgba(31, 68, 255, 0.8),
+    0 0 8rem #00eaff;
+}
+.Textbutton_b1283086:hover .Textbutton_caption__info_ccd96b67 {
+  color: #e3ffff;
+  text-shadow:
+    0 0 12rem rgba(31, 68, 255, 0.8),
+    0 0 12rem #00eaff,
+    0 0 8rem #00eaff;
+}
+.Textbutton_b1283086:active .Textbutton_caption__info_ccd96b67 {
+  color: #ccffff;
+  text-shadow:
+    0 0 12rem rgba(31, 68, 255, 0.6),
+    0 0 8rem #00eaff;
+}
+
+.Textbutton_goto_d2c81cbd {
+  color: #7c7c6c;
+}
+.Textbutton_base__left_599b35e4 .Textbutton_goto_d2c81cbd {
+  margin-left: 8rem;
+}
+.Textbutton_base__right_78d4c03f .Textbutton_goto_d2c81cbd {
+  margin-right: 8rem;
+}
+
+.Textbutton_shine_527e4656 {
+  width: 90rem;
+  height: 40rem;
+  background: url("R.images.gui.maps.icons.components.text_button.shine") no-repeat center/contain;
+  opacity: 0;
+  position: absolute;
+  top: -4rem;
+  transition: opacity 0.16s;
+  pointer-events: none;
+}
+.Textbutton_base__left_599b35e4 .Textbutton_shine_527e4656 {
+  left: -4rem;
+}
+.Textbutton_base__right_78d4c03f .Textbutton_shine_527e4656 {
+  right: -4rem;
+  transform: rotate(180deg);
+}
+.Textbutton_b1283086:hover .Textbutton_shine_527e4656 {
+  opacity: 1;
+}
+.Textbutton_b1283086:active .Textbutton_shine_527e4656 {
+  opacity: 0;
+} /* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
 .Cbutton_24fc9a0c {
   display: flex;
   justify-content: center;
@@ -270,152 +416,6 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 }
 .Cbutton_base__disabled_96f239bb .Cbutton_content_faaa9067 {
   opacity: 0.6;
-} /* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.Textbutton_b1283086 {
-  display: flex;
-  align-items: center;
-  padding: 0 3rem;
-  font-size: 12rem;
-  position: relative;
-  cursor: pointer;
-}
-.Textbutton_base__right_78d4c03f {
-  flex-direction: row-reverse;
-}
-
-.Textbutton_icon_9ba4c60 {
-  width: 32rem;
-  height: 32rem;
-  background: no-repeat center/contain;
-  position: relative;
-}
-.Textbutton_icon__back_599b35e4,
-.Textbutton_icon__forward_4ef35d4d {
-  margin: -1rem -5rem;
-  background-image: url("R.images.gui.maps.icons.components.text_button.back");
-  transform: translateY(1rem);
-}
-.Textbutton_icon__forward_4ef35d4d {
-  transform: rotate(180deg) translateY(1rem);
-}
-.Textbutton_icon__close_b2af8bd5 {
-  margin: -1rem 0;
-  background-image: url("R.images.gui.maps.icons.components.text_button.close");
-}
-.Textbutton_icon__info_6cbc7293 {
-  margin: -1rem -5rem;
-  background-image: url("R.images.gui.maps.icons.components.text_button.info");
-}
-
-.Textbutton_glow_1ddc70ba {
-  width: 100%;
-  height: 100%;
-  background: no-repeat center/contain;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  transition: opacity 0.16s;
-}
-.Textbutton_icon__back_599b35e4 .Textbutton_glow_1ddc70ba,
-.Textbutton_icon__forward_4ef35d4d .Textbutton_glow_1ddc70ba {
-  background-image: url("R.images.gui.maps.icons.components.text_button.back_hover");
-}
-.Textbutton_icon__close_b2af8bd5 .Textbutton_glow_1ddc70ba {
-  background-image: url("R.images.gui.maps.icons.components.text_button.close_hover");
-}
-.Textbutton_icon__info_6cbc7293 .Textbutton_glow_1ddc70ba {
-  background-image: url("R.images.gui.maps.icons.components.text_button.info_hover");
-}
-.Textbutton_b1283086:hover .Textbutton_glow_1ddc70ba {
-  opacity: 1;
-}
-.Textbutton_b1283086:active .Textbutton_glow_1ddc70ba {
-  opacity: 0;
-}
-
-.Textbutton_caption_4350685c {
-  position: relative;
-  transition:
-    color 0.16s,
-    text-shadow 0.16s;
-}
-.Textbutton_caption__back_599b35e4,
-.Textbutton_caption__forward_599b35e4,
-.Textbutton_caption__close_c29bdb5 {
-  color: #ffdd99;
-  text-shadow:
-    0 0 10rem #ff2a00,
-    0 0 10rem rgba(255, 42, 0, 0.4),
-    0 0 10rem rgba(255, 42, 0, 0.4),
-    0 0 2rem rgba(255, 42, 0, 0.4),
-    0 0 1rem rgba(255, 42, 0, 0.4),
-    0 0 2rem rgba(255, 42, 0, 0.4),
-    0 0 1rem rgba(255, 42, 0, 0.4);
-}
-.Textbutton_b1283086:hover .Textbutton_caption__back_599b35e4,
-.Textbutton_b1283086:hover .Textbutton_caption__forward_599b35e4,
-.Textbutton_b1283086:hover .Textbutton_caption__close_c29bdb5 {
-  color: #fffa9f;
-}
-.Textbutton_b1283086:active .Textbutton_caption__back_599b35e4,
-.Textbutton_b1283086:active .Textbutton_caption__forward_599b35e4,
-.Textbutton_b1283086:active .Textbutton_caption__close_c29bdb5 {
-  color: #ffdd99;
-}
-.Textbutton_caption__info_ccd96b67 {
-  padding: 0 5rem;
-  color: #ccffff;
-  text-shadow:
-    0 0 12rem rgba(31, 68, 255, 0.8),
-    0 0 8rem #00eaff;
-}
-.Textbutton_b1283086:hover .Textbutton_caption__info_ccd96b67 {
-  color: #e3ffff;
-  text-shadow:
-    0 0 12rem rgba(31, 68, 255, 0.8),
-    0 0 12rem #00eaff,
-    0 0 8rem #00eaff;
-}
-.Textbutton_b1283086:active .Textbutton_caption__info_ccd96b67 {
-  color: #ccffff;
-  text-shadow:
-    0 0 12rem rgba(31, 68, 255, 0.6),
-    0 0 8rem #00eaff;
-}
-
-.Textbutton_goto_d2c81cbd {
-  color: #7c7c6c;
-}
-.Textbutton_base__left_599b35e4 .Textbutton_goto_d2c81cbd {
-  margin-left: 8rem;
-}
-.Textbutton_base__right_78d4c03f .Textbutton_goto_d2c81cbd {
-  margin-right: 8rem;
-}
-
-.Textbutton_shine_527e4656 {
-  width: 90rem;
-  height: 40rem;
-  background: url("R.images.gui.maps.icons.components.text_button.shine") no-repeat center/contain;
-  opacity: 0;
-  position: absolute;
-  top: -4rem;
-  transition: opacity 0.16s;
-  pointer-events: none;
-}
-.Textbutton_base__left_599b35e4 .Textbutton_shine_527e4656 {
-  left: -4rem;
-}
-.Textbutton_base__right_78d4c03f .Textbutton_shine_527e4656 {
-  right: -4rem;
-  transform: rotate(180deg);
-}
-.Textbutton_b1283086:hover .Textbutton_shine_527e4656 {
-  opacity: 1;
-}
-.Textbutton_b1283086:active .Textbutton_shine_527e4656 {
-  opacity: 0;
 } /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .FormatText_db904f12 {

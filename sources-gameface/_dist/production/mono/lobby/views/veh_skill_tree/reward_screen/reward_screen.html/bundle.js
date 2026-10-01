@@ -1,77 +1,77 @@
 import {
   j as e,
   f as t,
-  t as a,
+  D as a,
   r as s,
   R as r,
   o as n,
   e as o,
   F as i,
   h as c,
-  k as l,
-  s as d,
-  m as _,
-  n as m,
+  s as l,
+  q as d,
+  k as _,
+  l as m,
   E as u,
   G as h,
   H as b,
 } from "../../../../chunks/vendor.js";
 import {
-  i as f,
-  m as p,
-  J as g,
+  d as f,
+  aH as p,
+  e as g,
   aN as v,
   aO as y,
   aP as x,
-  r as N,
-  F as j,
-  a1 as w,
-  g as k,
-  u as P,
+  o as N,
+  ax as j,
+  H as w,
+  O as k,
+  av as P,
   aQ as E,
-  a9 as B,
-  aR as I,
-  ae as C,
-  aS as S,
+  I,
+  aR as B,
+  Q as S,
+  aS as C,
   aT as $,
-  aU as A,
-  ar as D,
+  aU as D,
+  a3 as A,
   aV as M,
   aW as T,
   aX as z,
   aY as F,
-  P as L,
+  ay as L,
   aZ as O,
-  Q as H,
+  s as H,
   a_ as G,
   a$ as V,
   b0 as W,
-  o as q,
+  aL as q,
   b1 as Q,
-  h as U,
-  aC as X,
+  aF as U,
+  ag as X,
   b2 as Z,
-  aH as Y,
+  al as Y,
   b3 as J,
-  ag as K,
-  aA as ee,
-  e as te,
+  R as K,
+  ad as ee,
+  aD as te,
   b4 as ae,
   b5 as se,
-  a5 as re,
+  F as re,
   b6 as ne,
-  s as oe,
+  aA as oe,
   b7 as ie,
-  B as ce,
-  t as le,
-  M as de,
+  P as ce,
+  az as le,
+  k as de,
   b8 as _e,
-  aF as me,
-  V as ue,
-  b as he,
-  k as be,
-  c as fe,
-  U as pe,
+  aj as me,
+  af as ue,
+  aq as he,
+  ac as be,
+  au as fe,
+  at as pe,
 } from "../../../../chunks/lib.js";
 const [ge, ve] = f()(
   ({ observableModel: e }) => ({
@@ -176,7 +176,7 @@ const Pe = {
       children: e.jsx("div", { className: Pe.level, children: a }),
     });
   },
-  Be = {
+  Re = {
     root: "Award_root_1ed03553",
     base: "Award_cc70f470",
     background: "Award_background_db1f8ace",
@@ -194,7 +194,7 @@ const Pe = {
     achieved__show: "Award_achieved__show_f4eff0f6",
     check: "Award_check_13a829f3",
   },
-  Re = a(function ({
+  Ie = a(function ({
     name: a,
     icon: s,
     level: r,
@@ -219,10 +219,10 @@ const Pe = {
         args: { level: r },
       };
     return e.jsxs("div", {
-      className: t(Be.base, Be[`base__${i}`]),
+      className: t(Re.base, Re[`base__${i}`]),
       children: [
         i === ye.Progress &&
-          e.jsx(B, {
+          e.jsx(I, {
             path: "skillTree.prestige.rays.small.rays",
             width: 320,
             height: 474,
@@ -230,24 +230,24 @@ const Pe = {
               large: { width: 405, height: 600, path: "skillTree.prestige.rays.big.rays" },
               extraLarge: { width: 460, height: 682 },
             },
-            className: Be.background,
+            className: Re.background,
           }),
-        e.jsx("div", { className: Be.emblem, children: e.jsx(Ee, { level: r, state: i }) }),
+        e.jsx("div", { className: Re.emblem, children: e.jsx(Ee, { level: r, state: i }) }),
         e.jsx("div", {
-          className: Be.reward,
-          children: e.jsx(I, {
+          className: Re.reward,
+          children: e.jsx(B, {
             image: we({ name: a, icon: s }, u),
             name: s,
             size: u,
-            classNames: { image: Be.image, overlay: Be.overlay },
+            classNames: { image: Re.image, overlay: Re.overlay },
             tooltipArgs: h,
             special: "attachment" === a ? l : void 0,
           }),
         }),
         e.jsx("div", {
-          className: t(Be.container, c && Be.container__show),
+          className: t(Re.container, c && Re.container__show),
           children: e.jsx("div", {
-            className: Be.preview,
+            className: Re.preview,
             onClick: () => {
               return (
                 (e = r),
@@ -262,20 +262,20 @@ const Pe = {
           }),
         }),
         e.jsxs("div", {
-          className: Be.textContainer,
+          className: Re.textContainer,
           children: [
-            e.jsx("div", { className: Be.rewardName, children: n }),
-            n && o && e.jsx(ke, { className: Be.rewardType, subtitle: o, rarity: l }),
+            e.jsx("div", { className: Re.rewardName, children: n }),
+            n && o && e.jsx(ke, { className: Re.rewardType, subtitle: o, rarity: l }),
           ],
         }),
         e.jsx("div", {
-          className: t(Be.achieved, i === ye.Achieved && Be.achieved__show),
-          children: e.jsx("div", { className: Be.check }),
+          className: t(Re.achieved, i === ye.Achieved && Re.achieved__show),
+          children: e.jsx("div", { className: Re.check }),
         }),
       ],
     });
   }),
-  Ie = {
+  Be = {
     root: "Progression_root_61efd8f5",
     wrapper: "Progression_wrapper_a3b670b1",
     element: "Progression_element_1dcdd841",
@@ -287,20 +287,20 @@ const Pe = {
     content__horizontal: "Progression_content__horizontal_4ee67b69",
     horizontalBar: "Progression_horizontalBar_c07ecaf4",
   },
-  Ce = C("Wrapper", Ie.wrapper),
-  Se = C("Element", Ie.element),
+  Se = S("Wrapper", Be.wrapper),
+  Ce = S("Element", Be.element),
   $e = "both",
-  Ae = "left",
-  De = "right",
+  De = "left",
+  Ae = "right",
   Me = "none";
 function Te({ elements: a }) {
   const { api: n } = $(),
     { animationScroll: o, applyScroll: i } = n,
-    c = A(n, F.horizontal),
+    c = D(n, F.horizontal),
     [l, d] = s.useState();
   s.useEffect(
     () =>
-      D(() => {
+      A(() => {
         "idle" === c.type && o.scrollPosition.idle && i(o.scrollPosition.get());
       }),
     [o.scrollPosition, c, i],
@@ -310,12 +310,12 @@ function Te({ elements: a }) {
       a = n.getContainerSize() ?? 0,
       s = n.getWrapperSize() ?? 0,
       r = n.getBounds()[1];
-    d(s >= a ? Me : t <= 30 ? De : t >= r - 30 ? Ae : $e);
+    d(s >= a ? Me : t <= 30 ? Ae : t >= r - 30 ? De : $e);
   });
   return (
     r.useLayoutEffect(() => {
       function e() {
-        D(() => {
+        A(() => {
           _();
         });
       }
@@ -336,16 +336,16 @@ function Te({ elements: a }) {
       ),
       [n, _],
     ),
-    e.jsxs(Ce, {
+    e.jsxs(Se, {
       children: [
         e.jsx(T, {
           classNames: {
-            wrapper: t(Ie.scrollWrapper, Ie[`scrollWrapper__${l}`]),
-            content: t(Ie.content, Ie.content__horizontal),
+            wrapper: t(Be.scrollWrapper, Be[`scrollWrapper__${l}`]),
+            content: t(Be.content, Be.content__horizontal),
           },
-          children: p(a, (t, a) => e.jsx(Se, { children: t }, a)),
+          children: p(a, (t, a) => e.jsx(Ce, { children: t }, a)),
         }),
-        e.jsx(z, { classNames: { base: Ie.horizontalBar } }),
+        e.jsx(z, { classNames: { base: Be.horizontalBar } }),
       ],
     })
   );
@@ -353,8 +353,8 @@ function Te({ elements: a }) {
 a(function () {
   const { model: t } = Ne(),
     a = t.rewards.get();
-  return e.jsx(S, {
-    children: e.jsx(Te, { elements: a.map((t) => e.jsx(Re, { ...t }, t.level)) }),
+  return e.jsx(C, {
+    children: e.jsx(Te, { elements: a.map((t) => e.jsx(Ie, { ...t }, t.level)) }),
   });
 });
 var ze = ((e) => (
@@ -389,7 +389,7 @@ a(function () {
     className: t(Fe.base, Fe[`base__${o}`], r && Fe.base__completed),
     children: [
       r &&
-        e.jsx(B, {
+        e.jsx(I, {
           path: "skillTree.prestige.vanity_bg.small.vanity_bg",
           width: 450,
           height: 120,
@@ -1002,17 +1002,17 @@ function Pt({
   });
 }
 const Et = "Glare_95e181ec",
-  Bt = "Glare_1be1be9",
-  Rt = { x: "-55rem", y: "-55rem", rotateZ: "-45deg", opacity: 0 },
-  It = [
-    { ...Rt, opacity: 1 },
+  Rt = "Glare_1be1be9",
+  It = { x: "-55rem", y: "-55rem", rotateZ: "-45deg", opacity: 0 },
+  Bt = [
+    { ...It, opacity: 1 },
     { opacity: 1, x: "45rem", y: "45rem", rotateZ: "-45deg" },
   ];
-const Ct = "Points_ebbc956c",
-  St = "Points_arrowContainer_2bd78abc",
+const St = "Points_ebbc956c",
+  Ct = "Points_arrowContainer_2bd78abc",
   $t = "Points_arrow_cd1850ae",
-  At = "Points_arrow__top_2e330546",
-  Dt = "Points_arrow__right_fa74c47",
+  Dt = "Points_arrow__top_2e330546",
+  At = "Points_arrow__right_fa74c47",
   Mt = "Points_arrow__bottom_1b669f6e",
   Tt = "Points_arrow__left_1453abe0",
   zt = "Points_outsideGlow_8ec52358",
@@ -1020,15 +1020,15 @@ const Ct = "Points_ebbc956c",
   Lt = "Wrapper_3f1ea42a",
   Ot = m(({ style: a }) =>
     e.jsxs(m.div, {
-      className: Ct,
+      className: St,
       style: a,
       children: [
         e.jsx("div", { className: zt }),
         e.jsxs("div", {
-          className: St,
+          className: Ct,
           children: [
-            e.jsx("div", { className: t($t, At) }),
             e.jsx("div", { className: t($t, Dt) }),
+            e.jsx("div", { className: t($t, At) }),
             e.jsx("div", { className: t($t, Mt) }),
             e.jsx("div", { className: t($t, Tt) }),
           ],
@@ -1044,9 +1044,9 @@ const Ct = "Points_ebbc956c",
       style: t,
       children: e.jsx(Pt, {
         maskPath: `skillTree.tree.perks.special.skills.${a.value}.mask`,
-        classNames: Bt,
-        pointAnimation: It,
-        startAnimation: Rt,
+        classNames: Rt,
+        pointAnimation: Bt,
+        startAnimation: It,
       }),
     });
   });
@@ -1683,7 +1683,7 @@ const fa = "Container_2a42bba9",
       r.useLayoutEffect(() => {
         const e = new ee(),
           t = () => {
-            D(() => {
+            A(() => {
               l();
             });
           };
@@ -1792,7 +1792,7 @@ const wa = a(function () {
                   }),
           },
         }),
-        r > 1 && e.jsx(B, { width: 24, height: 24, path: "skillTree.info_icon", ...i }),
+        r > 1 && e.jsx(I, { width: 24, height: 24, path: "skillTree.info_icon", ...i }),
       ],
     });
   }),
@@ -1883,19 +1883,19 @@ a(function () {
     ],
   });
 });
-const [Ba, Ra] = f()(
+const [Ra, Ia] = f()(
     ({ observableModel: e }) => ({ tree: e.object("tree"), ...e.primitives(["locationId"]) }),
     de,
   ),
-  Ia = "EntryPoint_28a00af8",
-  Ca = "EntryPoint_bg_1daedee",
-  Sa = "EntryPoint_base__vanity_25e6c411",
+  Ba = "EntryPoint_28a00af8",
+  Sa = "EntryPoint_bg_1daedee",
+  Ca = "EntryPoint_base__vanity_25e6c411",
   $a = "EntryPoint_hover_4ee0996f",
-  Aa = "EntryPoint_glare_c5ebb1f5",
-  Da = N.resolve("views");
+  Da = "EntryPoint_glare_c5ebb1f5",
+  Aa = N.resolve("views");
 a(function (t) {
   const a = P({ value: "small" }, { large: { value: "big" } }),
-    { model: s } = Ra(),
+    { model: s } = Ia(),
     { isProgressionCompleted: n, isPrestigeGlareShown: o } = s.tree.get(),
     i = k(),
     c = _e(
@@ -1903,7 +1903,7 @@ a(function (t) {
       r.useMemo(
         () => ({
           isUnlocked: n,
-          resId: Da.read((e) => e.mono.vehicle_hub.tooltips.vanity_entry_point_tooltip("resId")),
+          resId: Aa.read((e) => e.mono.vehicle_hub.tooltips.vanity_entry_point_tooltip("resId")),
         }),
         [n],
       ),
@@ -1912,7 +1912,7 @@ a(function (t) {
       "back_to_main_progression",
       r.useMemo(
         () => ({
-          resId: Da.read((e) =>
+          resId: Aa.read((e) =>
             e.mono.vehicle_hub.tooltips.back_to_main_progression_tooltip("resId"),
           ),
         }),
@@ -1922,7 +1922,7 @@ a(function (t) {
     _ = t.vanity ? d : c;
   return e.jsx("div", {
     ..._,
-    className: l(Ia, t.vanity && Sa),
+    className: l(Ba, t.vanity && Ca),
     onClick: function () {
       (_.onClick(), t.onClick());
     },
@@ -1930,14 +1930,14 @@ a(function (t) {
       (_.onMouseEnter(e), i.play("mouse-enter", { target: "EntryPoint" }));
     },
     children: e.jsxs("div", {
-      className: Ca,
+      className: Sa,
       children: [
         !t.vanity &&
           n &&
           !o &&
           e.jsx(Pt, {
             maskPath: `skillTree.entryPoint.progression.${a.value}.vanityProgressionMask`,
-            classNames: Aa,
+            classNames: Da,
           }),
         e.jsx("div", { className: $a }),
       ],
@@ -1968,7 +1968,7 @@ function Ta({
     children: [
       e.jsx("div", {
         className: Ma.reward,
-        children: e.jsx(I, {
+        children: e.jsx(B, {
           image: we({ name: s, icon: t }, c.size),
           name: t,
           size: c.size,

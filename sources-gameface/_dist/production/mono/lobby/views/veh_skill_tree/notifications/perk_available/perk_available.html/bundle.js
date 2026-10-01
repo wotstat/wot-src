@@ -1,14 +1,14 @@
-import { t as s, j as e, f as o } from "../../../../../chunks/vendor.js";
+import { D as s, j as e, f as o } from "../../../../../chunks/vendor.js";
 import {
-  i as a,
-  a1 as i,
+  d as a,
+  H as i,
   bb as l,
-  a9 as c,
-  B as t,
-  t as r,
-  s as n,
-  c as p,
-  U as d,
+  I as c,
+  P as t,
+  az as r,
+  aA as n,
+  au as p,
+  at as d,
 } from "../../../../../chunks/lib.js";
 const [b, _] = a()(
     ({ observableModel: s }) => ({
@@ -26,19 +26,19 @@ const [b, _] = a()(
   j = "App_text_61805f6f",
   v = "App_icon_5880875b",
   x = "App_button_aa1b2d3f",
-  f = "App_buttonText_6f445e5d",
-  k = R.strings.veh_skill_tree.notifications.perkAvailable,
-  A = s(function () {
+  A = "App_buttonText_6f445e5d",
+  f = R.strings.veh_skill_tree.notifications.perkAvailable,
+  k = s(function () {
     const { model: s, controls: a } = _(),
       p = s.vehicle.get(),
       d = s.isDisabled.get(),
-      b = i({ body: k.disabledButtonTooltip() });
+      b = i({ body: f.disabledButtonTooltip() });
     return e.jsx(l, {
       children: e.jsxs("div", {
         className: o(h, s.isPopUp.get() && m),
         children: [
           s.isPopUp.get() && e.jsx("div", { className: g, onClick: a.close }),
-          e.jsx("div", { className: j, children: k.title() }),
+          e.jsx("div", { className: j, children: f.title() }),
           e.jsx(c, {
             path: `skillTree.notifications.perk_available.vehicles.${p.techName}`,
             className: v,
@@ -50,10 +50,10 @@ const [b, _] = a()(
             onClick: a.goToProgression,
             classNames: { base: x },
             disabled: d,
-            children: e.jsx("div", { className: f, children: k.goToProgression() }),
+            children: e.jsx("div", { className: A, children: f.goToProgression() }),
           }),
         ],
       }),
     });
   });
-p(e.jsx(b, { children: e.jsx(d, { children: e.jsx(A, {}) }) }));
+p(e.jsx(b, { children: e.jsx(d, { children: e.jsx(k, {}) }) }));

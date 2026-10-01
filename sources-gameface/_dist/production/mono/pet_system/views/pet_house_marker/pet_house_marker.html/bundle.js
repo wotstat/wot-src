@@ -1,13 +1,13 @@
 import { s as e, R as s, r as a, j as t, f as r } from "../../../chunks/vendor.js";
 import {
   i as p,
-  t as i,
+  o as i,
   r as l,
   j as n,
-  v as c,
-  w as d,
-  x as m,
-  k as o,
+  p as c,
+  q as d,
+  t as o,
+  k as m,
   U as f,
 } from "../../../chunks/lib.js";
 /* empty css                    */ const [h, _] = p()(
@@ -27,7 +27,7 @@ import {
       { model: p } = _(),
       i = p.isVisible.get(),
       l = p.petNameID.get(),
-      o = p.hasUpdate.get();
+      m = p.hasUpdate.get();
     return (
       a.useEffect(() => {
         const s = e.current;
@@ -58,12 +58,12 @@ import {
             }),
             t.jsx(d.Root, {
               className: N,
-              hidden: !o,
-              children: t.jsx(d.Icon, { type: m.bubble }),
+              hidden: !m,
+              children: t.jsx(d.Icon, { type: o.bubble }),
             }),
           ],
         }),
       })
     );
   });
-o(t.jsx(f, { children: t.jsx(h, { children: t.jsx(g, {}) }) }));
+m(t.jsx(f, { children: t.jsx(h, { children: t.jsx(g, {}) }) }));

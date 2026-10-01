@@ -1,4 +1,4 @@
-import { dk as e, r as n, ax as a } from "./lib.js";
+import { du as e, r as n, M as a } from "./lib.js";
 import { j as s, f as i } from "./vendor.js";
 const r = -1,
   t = 1,
@@ -6,12 +6,12 @@ const r = -1,
   l = "new_skill",
   c = -1,
   f = 6,
-  d = 100,
-  u = "doge_role",
+  u = 100,
+  d = "doge_role",
   v = 8,
-  k = "new_skill",
-  m = "brotherhood",
-  b = "default",
+  m = "new_skill",
+  b = "brotherhood",
+  k = "default",
   g = "active",
   _ = "activeDisable",
   h = "disable",
@@ -39,9 +39,9 @@ function L(n) {
       nativeTank: c,
       vehicleBonusDetails: f,
     } = n,
-    d = [];
+    u = [];
   for (const e of s)
-    d.push({
+    u.push({
       id: a,
       name: e.name,
       state: e.state,
@@ -51,11 +51,11 @@ function L(n) {
       nativeTank: c,
       instruction: B(f),
     });
-  for (let u = 0; u < i; u++) {
-    const n = 100 !== r && u === i - 1 ? e.learning : e.learned;
-    d.push({ id: a, name: k, state: n, vehEfficacy: t, efficacy: o, role: l, nativeTank: c });
+  for (let d = 0; d < i; d++) {
+    const n = 100 !== r && d === i - 1 ? e.learning : e.learned;
+    u.push({ id: a, name: m, state: n, vehEfficacy: t, efficacy: o, role: l, nativeTank: c });
   }
-  return d;
+  return u;
 }
 function C(e) {
   const {
@@ -81,7 +81,7 @@ function C(e) {
     vehicleBonusDetails: c,
   });
 }
-function x(n) {
+function N(n) {
   const {
     id: a,
     bonusPerks: s,
@@ -110,14 +110,14 @@ function x(n) {
       ? 1
       : n.state !== e.learning && a.state === e.learning
         ? -1
-        : n.name === k && a.name !== k
+        : n.name === m && a.name !== m
           ? 1
-          : n.name !== k && a.name === k
+          : n.name !== m && a.name === m
             ? -1
             : 0,
   );
 }
-function N({
+function x({
   state: n,
   vehEfficacy: a,
   efficacy: s,
@@ -131,7 +131,7 @@ function N({
   return t
     ? o
       ? g
-      : b
+      : k
     : n !== e.learning || l || r
       ? r && n === e.learning
         ? o
@@ -151,7 +151,7 @@ function N({
                   ? n === e.learning
                     ? T
                     : y
-                  : b
+                  : k
       : o
         ? _
         : g;
@@ -159,9 +159,9 @@ function N({
 const A = "optDevices",
   S = "shells",
   F = "consumables",
-  O = "battleBoosters",
-  V = "battleAbilities",
-  M = {
+  M = "battleBoosters",
+  O = "battleAbilities",
+  V = {
     border: "TankmanLevel_border_7a3d6e33",
     borderImage: "TankmanLevel_borderImage_f52e6b8f",
     base: "TankmanLevel_888fe938",
@@ -175,9 +175,9 @@ function z({ value: e, main: n, ...a }) {
   return s.jsxs(q, {
     ...a,
     children: [
-      n && s.jsx("div", { className: M.border }),
+      n && s.jsx("div", { className: V.border }),
       s.jsx("div", {
-        className: i(M.borderImage, n && M.borderImage__noise),
+        className: i(V.borderImage, n && V.borderImage__noise),
         style: { borderImageSource: `url(${$.readOrEmpty(r)})` },
       }),
       e,
@@ -186,27 +186,27 @@ function z({ value: e, main: n, ...a }) {
 }
 export {
   v as A,
-  O as B,
+  M as B,
   F as C,
-  u as D,
+  d as D,
   f as M,
   l as N,
   A as O,
-  m as P,
+  b as P,
   r as S,
   c as T,
   t as a,
-  d as b,
-  k as c,
+  u as b,
+  m as c,
   I as d,
-  x as e,
-  V as f,
-  N as g,
+  N as e,
+  O as f,
+  x as g,
   S as h,
   z as i,
   o as j,
   B as k,
   C as m,
   j as n,
-  M as s,
+  V as s,
 };

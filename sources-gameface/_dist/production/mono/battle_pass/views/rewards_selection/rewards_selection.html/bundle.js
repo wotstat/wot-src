@@ -11,11 +11,11 @@ import {
 import {
   r as d,
   E as l,
-  a3 as i,
+  a4 as i,
   i as _,
   e as b,
   bJ as u,
-  aq as m,
+  ar as m,
   h as p,
   j as f,
   bb as g,
@@ -24,16 +24,16 @@ import {
   F as v,
   b6 as h,
   f as y,
-  a4 as x,
-  a5 as k,
-  a6 as j,
+  a5 as x,
+  a6 as k,
+  a7 as j,
   cb as N,
   m as I,
   cc as T,
-  a7 as B,
-  a8 as S,
+  a8 as B,
+  a9 as S,
   n as E,
-  aY as O,
+  H as O,
   B as A,
   o as G,
   g as $,
@@ -43,13 +43,13 @@ import {
   A as L,
   x as U,
   y as D,
-  z as q,
-  ae as P,
+  z as P,
+  af as q,
   a$ as F,
   b as H,
   bi as J,
-  C as Y,
-  J as K,
+  C as K,
+  J as Y,
   U as Q,
   d as V,
 } from "../../../chunks/lib.js";
@@ -596,7 +596,7 @@ const ye = ({ type: e = "plus", isEnabled: t = !0, onClick: a }) =>
         className: o(Oe.base, Oe[`base__${C}`]),
         children: [
           n.jsxs(U, {
-            size: q.large,
+            size: P.large,
             theme: D.custom,
             active: g,
             children: [
@@ -659,7 +659,7 @@ const ye = ({ type: e = "plus", isEnabled: t = !0, onClick: a }) =>
                 children: () =>
                   n.jsx("div", {
                     className: o(Oe.contentTab, d && Oe.contentTab__shown),
-                    children: n.jsx(P, { children: n.jsx(Re, { onScrollableChange: u }) }),
+                    children: n.jsx(q, { children: n.jsx(Re, { onScrollableChange: u }) }),
                   }),
               }),
             ],
@@ -705,7 +705,7 @@ const ye = ({ type: e = "plus", isEnabled: t = !0, onClick: a }) =>
     });
   }),
   De = "RewardSelection_496b50e",
-  qe = s(({ title: e, subTitle: t, classNames: a, buttonsSize: s }) => {
+  Pe = s(({ title: e, subTitle: t, classNames: a, buttonsSize: s }) => {
     const { model: r } = pe(),
       o = r.tabs.get();
     return n.jsx("div", {
@@ -716,8 +716,8 @@ const ye = ({ type: e = "plus", isEnabled: t = !0, onClick: a }) =>
           : n.jsx(Ue, {}),
     });
   }),
-  Pe = ({ title: e = "", subTitle: t = "", modelProviderContext: a }) =>
-    n.jsx(me, { options: { context: a }, children: n.jsx(qe, { title: e, subTitle: t }) }),
+  qe = ({ title: e = "", subTitle: t = "", modelProviderContext: a }) =>
+    n.jsx(me, { options: { context: a }, children: n.jsx(Pe, { title: e, subTitle: t }) }),
   [Fe, He] = _()(
     ({ observableModel: e }) => ({ ...{ root: e.object() } }),
     ({ externalModel: e }) => ({
@@ -725,8 +725,8 @@ const ye = ({ type: e = "plus", isEnabled: t = !0, onClick: a }) =>
     }),
   ),
   Je = "App_285de3af",
-  Ye = "App_background_189ce663",
-  Ke = "App_backgroundBlur_b6c090aa",
+  Ke = "App_background_189ce663",
+  Ye = "App_backgroundBlur_b6c090aa",
   Qe = "App_shadow_b56b33f2",
   Ve = "App_content_54c70e4",
   Xe = "App_close_fbc86043",
@@ -758,17 +758,17 @@ const ye = ({ type: e = "plus", isEnabled: t = !0, onClick: a }) =>
     return n.jsxs("div", {
       className: Je,
       children: [
-        n.jsx("div", { className: Ye, style: l, children: n.jsx("div", { className: Ke }) }),
+        n.jsx("div", { className: Ke, style: l, children: n.jsx("div", { className: Ye }) }),
         n.jsx("div", { className: Qe }),
         c &&
           n.jsxs("div", {
             className: Ve,
             children: [
-              n.jsx(Y, { className: Xe, onClose: t.close }),
-              n.jsx(Pe, { modelProviderContext: "model.selectableRewardModel", title: Ze.title() }),
+              n.jsx(K, { className: Xe, onClose: t.close }),
+              n.jsx(qe, { modelProviderContext: "model.selectableRewardModel", title: Ze.title() }),
             ],
           }),
       ],
     });
   });
-V(new K().add(Q).add(Fe).render(n.jsx(et, {})));
+V(new Y().add(Q).add(Fe).render(n.jsx(et, {})));

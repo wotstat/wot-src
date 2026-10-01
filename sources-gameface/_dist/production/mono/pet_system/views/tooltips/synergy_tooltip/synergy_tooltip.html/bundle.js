@@ -1,6 +1,6 @@
 import { s, j as e } from "../../../../chunks/vendor.js";
-import { i as r, t as a, r as i, af as o, ag as t, k as c } from "../../../../chunks/lib.js";
-/* empty css                       */ const [l, d] = r()(
+import { i as r, o as a, r as o, af as i, ag as c, k as l } from "../../../../chunks/lib.js";
+/* empty css                       */ const [t, d] = r()(
     ({ observableModel: s }) => ({ root: s.object() }),
     a,
   ),
@@ -10,13 +10,13 @@ import { i as r, t as a, r as i, af as o, ag as t, k as c } from "../../../../ch
   j = "App_progress_790cf5a6",
   h = "App_title_2eabf3c8",
   _ = "App_content_d43d99eb",
-  x = i.resolve("strings"),
+  x = o.resolve("strings"),
   v = s(function () {
     const { model: s } = d(),
       { progress: r } = s.root.get(),
       a = 100 === r;
-    return e.jsx(o, {
-      children: e.jsx(o.Decorator, {
+    return e.jsx(i, {
+      children: e.jsx(i.Decorator, {
         children: e.jsxs("div", {
           className: n,
           children: [
@@ -31,7 +31,7 @@ import { i as r, t as a, r as i, af as o, ag as t, k as c } from "../../../../ch
                       className: h,
                       children: x.readOrEmpty("pet_system.synergyTooltip.title"),
                     }),
-                    e.jsx(t, { value: r, size: "small", maxValue: 100 }),
+                    e.jsx(c, { value: r, size: "small", maxValue: 100 }),
                   ],
                 }),
               ],
@@ -47,4 +47,4 @@ import { i as r, t as a, r as i, af as o, ag as t, k as c } from "../../../../ch
       }),
     });
   });
-c(e.jsx(l, { children: e.jsx(v, {}) }), { withMedia: !1 });
+l(e.jsx(t, { children: e.jsx(v, {}) }), { withMedia: !1 });

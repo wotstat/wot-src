@@ -1,7 +1,7 @@
-import { a5 as e, a6 as o, a7 as r, g as s, a8 as t } from "./lib.js";
+import { S as e, L as o, O as r, g as s, P as t } from "./lib.js";
 import { d as n } from "./vendor.js";
 var i = ((e) => ((e.Common = "common"), (e.Rare = "rare"), (e.Epic = "epic"), e))(i || {});
-class a extends e {
+class d extends e {
   constructor(e, o) {
     (super(), (this.root = e), (this.prefix = o));
   }
@@ -26,11 +26,11 @@ class a extends e {
     return this.readOr(e, () => "", o);
   }
 }
-const d = "lootbox_images",
+const a = "lootbox_images",
   c = "lootbox_sounds";
-(s.register(d, n(() => new t(window.R.images)).singleton()),
-  s.register(c, n(() => new a(window.R.sounds)).singleton()),
-  s.resolve(d),
+(s.register(a, n(() => new t(window.R.images)).singleton()),
+  s.register(c, n(() => new d(window.R.sounds)).singleton()),
+  s.resolve(a),
   s.resolve("videos"),
   s.resolve(c),
   s.resolve("strings"),
