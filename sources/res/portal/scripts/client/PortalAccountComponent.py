@@ -21,7 +21,6 @@ class PortalAccountComponent(BaseAccountExtensionComponent):
         events.onAccountBecomeNonPlayer += self.onAccountBecomeNonPlayer
         events.onAccountBecomePlayer += self.onAccountBecomePlayer
         self.__accountSettingsHandler = AccountEventSettingsHandler(PORTAL_ACCOUNT_SETTINGS_KEY, PORTAL_EXPIRE_DATE_ACCOUNT_SETTINGS, self.__portalEventController)
-        events.onAccountBecomePlayer += self.__accountSettingsHandler.migrateAccount
         return
 
     def enqueueBattle(self, queueType, vehInvID, battleLevel):
