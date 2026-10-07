@@ -14,23 +14,23 @@ import {
   i as c,
   e as _,
   m,
-  K as p,
+  N as p,
   h as u,
   j as b,
-  ah as w,
+  ai as w,
   p as g,
   bM as h,
   c8 as T,
   bL as A,
   bK as f,
-  ag as x,
-  H as v,
+  ah as x,
+  G as v,
   bB as P,
   bC as y,
   bF as S,
-  G as L,
+  L,
   r as B,
-  af as j,
+  ag as j,
   t as N,
   E,
   b$ as k,
@@ -47,8 +47,8 @@ import {
 } from "../../../chunks/lib.js";
 import { u as z, H as D } from "../../../chunks/useKeyup.js";
 import { g as G } from "../../../chunks/filename.js";
-import { e as H, i as q, c as K } from "../../../chunks/utils.js";
-/* empty css                    */ var J = ((e) => (
+import { e as H, i as q, c as J } from "../../../chunks/utils.js";
+/* empty css                    */ var K = ((e) => (
   (e.BUY_BATTLE_PASS = "buyBattlePassReason"),
   (e.BUY_BATTLE_PASS_LEVELS = "buyBattlePassLevelsReason"),
   (e.BUY_MULTIPLE_BATTLE_PASS = "buyMultipleBattlePassReason"),
@@ -56,7 +56,7 @@ import { e as H, i as q, c as K } from "../../../chunks/utils.js";
   (e.STYLE_UPGRADE = "styleUpgradeReason"),
   (e.DEFAULT = "defaultReason"),
   e
-))(J || {});
+))(K || {});
 const [X, Q] = c()(
     ({ observableModel: s }) => {
       const t = {
@@ -69,20 +69,20 @@ const [X, Q] = c()(
         },
         i = a(() => {
           const { reason: e } = t.root.get();
-          return e === J.BUY_BATTLE_PASS;
+          return e === K.BUY_BATTLE_PASS;
         }),
         r = a(() => {
           const { reason: e } = t.root.get();
-          return e === J.BUY_BATTLE_PASS_WITH_LEVELS;
+          return e === K.BUY_BATTLE_PASS_WITH_LEVELS;
         }),
         n = a(() => {
           const { reason: e } = t.root.get();
-          return e === J.BUY_MULTIPLE_BATTLE_PASS;
+          return e === K.BUY_MULTIPLE_BATTLE_PASS;
         }),
         o = a(() => i() || n() || r()),
         l = a(() => {
           const { reason: e } = t.root.get();
-          return e === J.STYLE_UPGRADE;
+          return e === K.STYLE_UPGRADE;
         }),
         d = a(
           () =>
@@ -111,7 +111,7 @@ const [X, Q] = c()(
           const { isFinalReward: e } = t.root.get();
           return (2 !== g().length && e) || o() || l();
         }),
-        R = [J.BUY_BATTLE_PASS_LEVELS, J.BUY_BATTLE_PASS_WITH_LEVELS, J.DEFAULT].includes(
+        R = [K.BUY_BATTLE_PASS_LEVELS, K.BUY_BATTLE_PASS_WITH_LEVELS, K.DEFAULT].includes(
           t.root.get().reason,
         ),
         f = a(() => {
@@ -274,19 +274,19 @@ const [X, Q] = c()(
       m = s.computes.isReasonBuyCurrently(),
       p = ((e, a, s) => {
         switch (e) {
-          case J.BUY_BATTLE_PASS:
+          case K.BUY_BATTLE_PASS:
             return r.jsx(L, {
               text: Pe.mainReward.bpBuyAwardsCaption(),
               binding: { chapter: R.strings.battle_pass.chapter.fullName.$num(a) },
             });
-          case J.BUY_BATTLE_PASS_WITH_LEVELS:
+          case K.BUY_BATTLE_PASS_WITH_LEVELS:
             return r.jsx(L, {
               text: Pe.mainReward.bpBuyWithLevels(),
               binding: { chapter: R.strings.battle_pass.chapter.fullName.$num(a) },
             });
-          case J.BUY_MULTIPLE_BATTLE_PASS:
+          case K.BUY_MULTIPLE_BATTLE_PASS:
             return Pe.footer.allChaptersText();
-          case J.STYLE_UPGRADE:
+          case K.STYLE_UPGRADE:
             return s ? Pe.footer.bpDescriptionGotStyle() : "";
           default:
             return "";
@@ -467,7 +467,7 @@ const Be = "ChapterLogo_aa1334cf",
                   vehicleName: l,
                   vehicleType: d,
                   isElite: c || !1,
-                  isWide: a === Je.Wide,
+                  isWide: a === Ke.Wide,
                 })
               : r.jsx(ze, { type: t, value: i }),
         }),
@@ -497,8 +497,8 @@ const Be = "ChapterLogo_aa1334cf",
     windowIn: "Reward_windowIn_21f091ec",
     fadeOut: "Reward_fadeOut_21f091ec",
   },
-  Ke = R.strings.battle_pass;
-var Je = ((e) => ((e.Normal = "normal"), (e.Wide = "wide"), (e.Small = "small"), e))(Je || {});
+  Je = R.strings.battle_pass;
+var Ke = ((e) => ((e.Normal = "normal"), (e.Wide = "wide"), (e.Small = "small"), e))(Ke || {});
 const Xe = [k.BattlaPassFinalAchievement, k.TmanToken, k.Vehicles],
   Qe = [
     I.credits,
@@ -547,7 +547,7 @@ const Xe = [k.BattlaPassFinalAchievement, k.TmanToken, k.Vehicles],
             children: [
               r.jsx("div", {
                 className: qe.image,
-                style: K(e),
+                style: J(e),
                 children:
                   u && r.jsx($e, { className: n(qe.compensation, qe[`compensation__${A}`]) }),
               }),
@@ -556,7 +556,7 @@ const Xe = [k.BattlaPassFinalAchievement, k.TmanToken, k.Vehicles],
               g &&
                 r.jsx("div", {
                   className: qe.count,
-                  children: r.jsx(L, { text: Ke.common.multiplier(), binding: { multiplier: b } }),
+                  children: r.jsx(L, { text: Je.common.multiplier(), binding: { multiplier: b } }),
                 }),
             ],
           }),
@@ -663,32 +663,32 @@ const Xe = [k.BattlaPassFinalAchievement, k.TmanToken, k.Vehicles],
       : Na.battlePassAwardsView.header.bpTitleWithoutChapter(),
   ka = (e, a) => {
     switch (e) {
-      case J.BUY_BATTLE_PASS:
-      case J.BUY_MULTIPLE_BATTLE_PASS:
-      case J.BUY_BATTLE_PASS_WITH_LEVELS:
+      case K.BUY_BATTLE_PASS:
+      case K.BUY_MULTIPLE_BATTLE_PASS:
+      case K.BUY_BATTLE_PASS_WITH_LEVELS:
         return Na.battlePassAwardsView.header.bpTitleWithoutChapter();
-      case J.BUY_BATTLE_PASS_LEVELS:
-      case J.STYLE_UPGRADE:
-      case J.DEFAULT:
+      case K.BUY_BATTLE_PASS_LEVELS:
+      case K.STYLE_UPGRADE:
+      case K.DEFAULT:
         return Ea(a);
     }
     return (console.warn("Unknown title reason: ", e), Ea(a));
   },
   Ua = (e, a, s) => {
     switch (e) {
-      case J.BUY_BATTLE_PASS:
-      case J.BUY_MULTIPLE_BATTLE_PASS:
-      case J.BUY_BATTLE_PASS_WITH_LEVELS:
+      case K.BUY_BATTLE_PASS:
+      case K.BUY_MULTIPLE_BATTLE_PASS:
+      case K.BUY_BATTLE_PASS_WITH_LEVELS:
         return Na.battlePassAwardsView.header.bpBoughtText();
-      case J.BUY_BATTLE_PASS_LEVELS:
+      case K.BUY_BATTLE_PASS_LEVELS:
         return a
           ? Na.battlePassAwardsView.header.bpFinalLevelText()
           : Na.battlePassAwardsView.header.bpLevelsText();
-      case J.STYLE_UPGRADE:
+      case K.STYLE_UPGRADE:
         return s
           ? Na.battlePassAwardsView.header.styleReceivedText()
           : Na.battlePassAwardsView.header.styleUpgradedText();
-      case J.DEFAULT:
+      case K.DEFAULT:
         return a
           ? Na.battlePassAwardsView.header.bpFinalLevelText()
           : Na.battlePassAwardsView.header.bpLevelsText();

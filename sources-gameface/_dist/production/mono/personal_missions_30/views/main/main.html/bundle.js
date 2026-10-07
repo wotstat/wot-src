@@ -10,84 +10,84 @@ import {
   r as l,
   s as c,
   z as d,
-  m as _,
+  l as _,
   j as m,
-  n as u,
+  m as u,
   f as p,
-  l as g,
+  n as g,
   R as f,
   A as h,
   B as b,
 } from "../../../chunks/vendor.js";
 import {
-  X as N,
-  c as v,
-  i as I,
+  w as N,
+  c as I,
+  i as v,
   f as x,
   k as E,
-  Y as y,
+  x as y,
   e as S,
   b as O,
   r as C,
   n as w,
   I as j,
   B as A,
-  Z as M,
-  _ as T,
-  $ as D,
+  y as M,
+  z as T,
+  D,
   a as P,
   h as L,
   v as k,
-  L as V,
+  A as V,
   F as B,
-  M as H,
-  a0 as $,
-  a1 as Q,
-  a2 as W,
-  a3 as F,
-  a4 as U,
-  a5 as q,
-  a6 as Y,
-  a7 as z,
-  H as G,
-  J as K,
+  C as H,
+  S as $,
+  E as Q,
+  L as W,
+  M as F,
+  H as U,
+  G as q,
+  T as Y,
+  J as z,
+  K as G,
+  N as K,
   l as X,
-  y as Z,
-  a8 as J,
-  a9 as ee,
+  O as Z,
+  P as J,
+  Q as ee,
   R as se,
-  z as ae,
-  aa as te,
-  ab as ie,
-  ac as ne,
-  ad as oe,
-  ae as re,
-  af as le,
-  ag as ce,
+  W as ae,
+  X as te,
+  Y as ie,
+  Z as ne,
+  _ as oe,
+  $ as re,
+  a0 as le,
+  a1 as ce,
   u as de,
-  ah as _e,
-  ai as me,
-  aj as ue,
-  ak as pe,
-  al as ge,
-  am as fe,
-  an as he,
-  ao as be,
+  a2 as _e,
+  a3 as me,
+  a4 as ue,
+  a5 as pe,
+  a6 as ge,
+  a7 as fe,
+  a8 as he,
+  a9 as be,
   q as Ne,
-  ap as ve,
-  aq as Ie,
-  ar as xe,
-  as as Ee,
+  aa as Ie,
+  ab as ve,
+  ac as xe,
+  ad as Ee,
   V as ye,
-  at as Se,
-  au as Oe,
-  av as Ce,
+  ae as Se,
+  af as Oe,
+  ag as Ce,
   m as we,
-  E as je,
-  K as Ae,
-  aw as Me,
-  ax as Te,
-  ay as De,
+  ah as je,
+  ai as Ae,
+  aj as Me,
+  ak as Te,
+  al as De,
   d as Pe,
   U as Le,
 } from "../../../chunks/lib.js";
@@ -215,8 +215,8 @@ function fs(e, s) {
 const hs = "missions",
   bs = "assembling",
   Ns = "progression",
-  vs = { carouselButton: v("carouselButton"), bp_slide: v("bp_slide") },
-  Is = { step: { ...N.step, factor: 9 }, animationConfig: { ...N.animationConfig, tension: 120 } },
+  Is = { carouselButton: I("carouselButton"), bp_slide: I("bp_slide") },
+  vs = { step: { ...N.step, factor: 9 }, animationConfig: { ...N.animationConfig, tension: 120 } },
   xs = {
     opacity: 0,
     transform: "translateY(-20rem)",
@@ -229,7 +229,7 @@ const hs = "missions",
     delay: 300,
     config: { duration: 300, easing: t.easeOutQuart },
   },
-  [ys, Ss] = I()(
+  [ys, Ss] = v()(
     (e) => {
       const s = {
         ...e.observableModel.primitives([
@@ -372,7 +372,7 @@ const hs = "missions",
         from: { opacity: 0 },
         config: { duration: 300, easing: S.easeOutQuart },
       })),
-      [v, I] = _(() => ({
+      [I, v] = _(() => ({
         from: { opacity: 1, transform: "translateY(0rem)" },
         config: { duration: 200 },
       })),
@@ -419,7 +419,7 @@ const hs = "missions",
                     pointerEvents: "none",
                     config: { duration: 300, easing: S.easeInQuart },
                   }),
-                  I.start({
+                  v.start({
                     opacity: 0,
                     delay: "additional" === n.operationType ? 300 : 0,
                     transform:
@@ -447,7 +447,7 @@ const hs = "missions",
               fs(
                 [
                   g.start({ ...Es, delay: 620 }),
-                  I.start({
+                  v.start({
                     opacity: 1,
                     transform: "translateY(0rem)",
                     config: { easing: S.easeOutCirc },
@@ -592,7 +592,7 @@ const hs = "missions",
           case ns:
             (a.setCurrentState(Ns),
               g.set({ transform: "translateY(20rem)", opacity: 0 }),
-              I.set({ transform: "translateY(0rem)", opacity: 1 }),
+              v.set({ transform: "translateY(0rem)", opacity: 1 }),
               fs(
                 [
                   E.start(Es),
@@ -639,20 +639,20 @@ const hs = "missions",
         u,
         A,
         w,
-        I,
+        v,
         E,
         a,
       ]),
       l.useEffect(() => {
         i === os &&
-          I.start({
+          v.start({
             opacity: 0,
             transform: "translateY(10rem)",
             config: { easing: S.easeInQuart, duration: 300 },
             onRest: () => {
               (a.handleOperationStatusButtonClick(),
                 t?.operationState === Re.COMPLETED
-                  ? I.start({
+                  ? v.start({
                       opacity: 1,
                       transform: "translateY(0rem)",
                       config: { easing: S.easeOutCirc },
@@ -664,7 +664,7 @@ const hs = "missions",
                   : ds.send({ type: "TO_IDLE" }));
             },
           });
-      }, [a, i, t?.operationState, I]),
+      }, [a, i, t?.operationState, v]),
       m.jsx(Os.Provider, {
         value: {
           completedStateStyle: b,
@@ -674,7 +674,7 @@ const hs = "missions",
           detailInfoStyle: M,
           zoomOutStyle: j,
           bannerStyle: C,
-          statusStyle: v,
+          statusStyle: I,
           menuStyle: x,
           introAnimationDone: o.current,
         },
@@ -861,7 +861,7 @@ const Xs = "assault",
 function oa(e, s, a) {
   return e.find((e) => e[s] === a);
 }
-const [ra, la] = I()(({ observableModel: e }) => {
+const [ra, la] = v()(({ observableModel: e }) => {
     const s = { ...e.primitives(["missionsCategory"]), allMissions: e.arrayClone("allMissions") },
       a = x.model((e) => {
         const a = oa(s.allMissions.get(), "operationId", e);
@@ -1014,7 +1014,7 @@ const ga = {
   ha = "small",
   ba = "medium",
   Na = "large",
-  va = l.forwardRef(function (
+  Ia = l.forwardRef(function (
     { arrowDirection: e = fa.right, size: s, className: a, classNames: t, ...i },
     n,
   ) {
@@ -1028,8 +1028,8 @@ const ga = {
       children: m.jsx("div", { className: p(ga.icon, t?.icon) }),
     });
   });
-va.direction = fa;
-const Ia = "ShadowLine_a5bf2ece",
+Ia.direction = fa;
+const va = "ShadowLine_a5bf2ece",
   xa = "ShadowLine_glow_2c471335",
   Ea = "ShadowLine_line_f4e55e79",
   ya = "ShadowLine_dash_24e41869",
@@ -1037,7 +1037,7 @@ const Ia = "ShadowLine_a5bf2ece",
   Oa = "ShadowLine_dash__right_81c6c0e4";
 function Ca({ children: e }) {
   return m.jsxs("div", {
-    className: Ia,
+    className: va,
     children: [
       e,
       m.jsx("div", { className: xa }),
@@ -1239,8 +1239,8 @@ const Qa = (e, s) => window.getComputedStyle(e, null).getPropertyValue(s),
       [u, p] = l.useState(!1),
       [f, h] = l.useState([]),
       [b, N] = l.useState(0),
-      v = Z(),
-      I = l.useMemo(() => document.createElement("canvas"), []),
+      I = Z(),
+      v = l.useMemo(() => document.createElement("canvas"), []),
       x = l.useCallback(() => (_.current ? _.current.getBoundingClientRect().height : 0), []),
       E = l.useCallback(
         (e) => {
@@ -1258,16 +1258,16 @@ const Qa = (e, s) => window.getComputedStyle(e, null).getPropertyValue(s),
             const n = e.reduce((e, s) => e + s.length, 0),
               o = a.slice(n);
             if (i === s - 1) return (e.push(o), e);
-            const r = Fa({ start: 0, end: o.length, words: o, element: d.current, canvas: I });
+            const r = Fa({ start: 0, end: o.length, words: o, element: d.current, canvas: v });
             return (e.push(o.slice(0, r)), e);
           }, []);
         h(t);
-      }, [I, E, s, e]),
+      }, [v, E, s, e]),
       S = l.useCallback(() => {
-        v.run(() => {
+        I.run(() => {
           (N(x() * s), y());
         });
-      }, [x, s, v, y]);
+      }, [x, s, I, y]);
     return (
       l.useEffect(S, [S]),
       J(S, [S]),
@@ -1590,8 +1590,8 @@ const Nt = {
     button__left: "ScrollableCards_button__left_3baf8988",
     button__right: "ScrollableCards_button__right_619f434e",
   },
-  vt = "visible",
-  It = c(function ({ currentAnimationState: e }) {
+  It = "visible",
+  vt = c(function ({ currentAnimationState: e }) {
     const { model: s } = Ss(),
       { model: a } = la(),
       { breakpoint: t } = G(),
@@ -1618,13 +1618,13 @@ const Nt = {
             s &&
             a &&
             (u.animationScroll.scrollPosition.get() > e.offsetLeft + e.offsetWidth
-              ? (s.classList.add(vt), a.classList.remove(vt))
+              ? (s.classList.add(It), a.classList.remove(It))
               : e.offsetLeft > u.animationScroll.scrollPosition.get() + t
-                ? (a.classList.add(vt), s.classList.remove(vt))
-                : (a.classList.remove(vt), s.classList.remove(vt)));
+                ? (a.classList.add(It), s.classList.remove(It))
+                : (a.classList.remove(It), s.classList.remove(It)));
         });
       }),
-      v = l.useCallback(
+      I = l.useCallback(
         function (e) {
           const s = u.getWrapperSize(),
             a = c.current[e];
@@ -1632,23 +1632,23 @@ const Nt = {
         },
         [u],
       ),
-      I = l.useCallback(
+      v = l.useCallback(
         function (e) {
           const s = u.animationScroll.scrollPosition.get(),
-            a = v(e);
+            a = I(e);
           (0 === s && a < 0) || s === a || (f.play("bp_slide"), u.applyScroll(a));
         },
-        [u, v, f],
+        [u, I, f],
       );
     (l.useEffect(() => {
       if (void 0 === r) return;
       const e = u.animationScroll.scrollPosition.get(),
-        s = v(r);
+        s = I(r);
       ((0 === e && s < 0) || e === s) && N();
-    }, [r, u.animationScroll.scrollPosition, v, N]),
+    }, [r, u.animationScroll.scrollPosition, I, N]),
       l.useEffect(() => {
-        void 0 !== r && e === cs && g.run(() => I(r));
-      }, [r, I, g, e, u, N]),
+        void 0 !== r && e === cs && g.run(() => v(r));
+      }, [r, v, g, e, u, N]),
       l.useEffect(
         () => (
           u.events.on("change", N),
@@ -1680,7 +1680,7 @@ const Nt = {
         ),
       );
     function S() {
-      (void 0 !== r && I(r), f.play("carouselButton"), E.onClick());
+      (void 0 !== r && v(r), f.play("carouselButton"), E.onClick());
     }
     function O(e) {
       (f.play("mouse-enter"), E.onMouseEnter(e));
@@ -1700,7 +1700,7 @@ const Nt = {
         void 0 !== r &&
           m.jsxs(m.Fragment, {
             children: [
-              m.jsx(va, {
+              m.jsx(Ia, {
                 silent: !0,
                 ...E,
                 ref: d,
@@ -1710,7 +1710,7 @@ const Nt = {
                 onMouseEnter: O,
                 className: p(Nt.button, Nt.button__left, Nt.button__hidden),
               }),
-              m.jsx(va, {
+              m.jsx(Ia, {
                 silent: !0,
                 ...E,
                 size: i,
@@ -1864,8 +1864,8 @@ const Nt = {
           m.jsx(u.div, {
             style: b,
             children: m.jsx(fe, {
-              settings: Is,
-              children: m.jsx(It, { currentAnimationState: n }),
+              settings: vs,
+              children: m.jsx(vt, { currentAnimationState: n }),
             }),
           }),
         ],
@@ -2038,8 +2038,8 @@ const Xt = new Set([Re.COMPLETED, Re.COMPLETED_WITH_HONORS]),
   ei = "Fill_done__doneStatic_b04e330e",
   si = u(j),
   ai = l.memo(function ({ animationConfig: e, classNames: s }) {
-    const a = ve(),
-      { activeComponents: t } = ve(),
+    const a = Ie(),
+      { activeComponents: t } = Ie(),
       i = 100 * a.percentage,
       n = 100 * (a.previous?.percentage ?? 0),
       o = void 0 === a.previous ? i : n,
@@ -2049,7 +2049,7 @@ const Xt = new Set([Re.COMPLETED, Re.COMPLETED_WITH_HONORS]),
       l.useEffect(() => {
         r.run(() =>
           d.start(
-            Ie({
+            ve({
               baseValue: o,
               newValue: i,
               animationType: a.animationType,
@@ -2155,8 +2155,8 @@ function bi({ earnedPoint: e, id: s, maxPoint: a }) {
   });
 }
 const Ni = "NotReceived_wrapper_4d14069c",
-  vi = "NotReceived_button_75c05936",
-  Ii = "NotReceived_buttonContent_bee7d2fd",
+  Ii = "NotReceived_button_75c05936",
+  vi = "NotReceived_buttonContent_bee7d2fd",
   xi = "NotReceived_glareAttention_c2d53c79",
   Ei = c(function ({ firstElementByStatus: e, id: s, onClaim: a }) {
     const { controls: t } = Ss(),
@@ -2191,8 +2191,8 @@ const Ni = "NotReceived_wrapper_4d14069c",
             disabled: !e,
             theme: "primary",
             size: "small",
-            className: vi,
-            classNames: { content: Ii },
+            className: Ii,
+            classNames: { content: vi },
             ...o,
             onClick: function () {
               (o.onClick(), n || a(s));
@@ -2242,9 +2242,9 @@ const Ni = "NotReceived_wrapper_4d14069c",
       f = r.computes.requiredDetailsPoint(),
       [h, b] = l.useState(s),
       N = r.computes.firstDetailIndexByStatus(Mt.NOT_RECEIVED) === e,
-      v = r.activeDetailId.get(),
-      I = h.status === Mt.DONE,
-      x = v === h.id,
+      I = r.activeDetailId.get(),
+      v = h.status === Mt.DONE,
+      x = I === h.id,
       { animationInProgress: E } = ws(),
       y = w(
         ke.CUSTOM_SIMPLE,
@@ -2266,7 +2266,7 @@ const Ni = "NotReceived_wrapper_4d14069c",
       (g === Ns &&
         (r.activeDetailId.set(s), ds.send({ type: "TO_DETAIL_INFO", detailId: s, action: e })),
         g === bs &&
-          ("" === v
+          ("" === I
             ? (e === ps && (r.activeDetailId.set(s), c.showDetailInfo(s)),
               e === us && ds.send({ type: "HIDE_DETAIL_INFO", detailId: s, action: e }))
             : ds.send({ type: "HIDE_DETAIL_INFO", detailId: s, action: e })));
@@ -2275,7 +2275,7 @@ const Ni = "NotReceived_wrapper_4d14069c",
       (y.onClick(),
         x ||
           E ||
-          (I && (o.play("yes1"), A(ps, e)),
+          (v && (o.play("yes1"), A(ps, e)),
           N && (c.updateAnimationState(Ye.ANIMATION_STARTED), A(us, e))));
     }
     if (
@@ -2297,7 +2297,7 @@ const Ni = "NotReceived_wrapper_4d14069c",
           yi.base,
           yi[`base__${h.status}`],
           yi[`base__${d.operationState}`],
-          x && I && yi.base__selected,
+          x && v && yi.base__selected,
           N && yi.base__firstNotReceived,
           t,
         ),
@@ -2332,10 +2332,10 @@ const Ni = "NotReceived_wrapper_4d14069c",
               m.jsx(j, {
                 path: `personal_missions_30.vehicle_detail.c_400x150.${h.id}`,
                 className: yi.detail,
-                ...(!x && !I && y),
+                ...(!x && !v && y),
                 onClick: () => M(h.id),
                 onMouseEnter: function (e) {
-                  (!x && !I && y.onMouseEnter(e), ((I && !x) || N) && o.play("bp_improved_reward"));
+                  (!x && !v && y.onMouseEnter(e), ((v && !x) || N) && o.play("bp_improved_reward"));
                 },
               }),
               m.jsx(j, {
@@ -2663,8 +2663,8 @@ const ji = c(
       f = _e(t, ue.horizontal, void 0, { gapBeforeStart: 5 }),
       { model: b } = Ss(),
       N = b.computes.activeOperation(),
-      v = b.activeOperationId.get(),
-      I = b.operations.get(),
+      I = b.activeOperationId.get(),
+      v = b.operations.get(),
       x = b.computes.firstDetailIndexByStatus(Mt.NOT_RECEIVED),
       y = b.computes.firstDetailIndexByStatus(Mt.IN_PROGRESS),
       S = -1 === x ? y : x,
@@ -2716,10 +2716,10 @@ const ji = c(
       P(E.ARROW_RIGHT, () => k(E.ARROW_RIGHT)),
       l.useEffect(() => {
         void 0 !== S && (r !== cs || (c !== Ge && void 0 !== c) || R(S));
-      }, [v, r]),
+      }, [I, r]),
       l.useEffect(() => {
         t.recalculateContent();
-      }, [I]),
+      }, [v]),
       l.useEffect(() => {
         const e = () => {
           const e = s.current,
@@ -2783,7 +2783,7 @@ const ji = c(
               }),
             ],
           }),
-          m.jsx(va, {
+          m.jsx(Ia, {
             silent: !0,
             size: ha,
             arrowDirection: "left",
@@ -2796,7 +2796,7 @@ const ji = c(
               "left" === u && Yi.arrowButton__visible,
             ),
           }),
-          m.jsx(va, {
+          m.jsx(Ia, {
             silent: !0,
             size: ha,
             arrowDirection: "right",
@@ -2863,7 +2863,7 @@ const ji = c(
       f = Xi[c],
       h = c === Dt.COMPLETED ? "secondary" : "primary",
       { statusStyle: b } = ws(),
-      [N, v] = _(() => ({
+      [N, I] = _(() => ({
         from: { transform: "translate(10%, -220%) rotate(30deg)" },
         to: { transform: "translate(-60%, 30%) rotate(30deg)" },
         loop: !0,
@@ -3139,8 +3139,8 @@ var hn = ((e) => (
 ))(hn || {});
 const bn = "NewOperationBanner_8e4ab8a",
   Nn = "NewOperationBanner_flag_7964203e",
-  vn = "NewOperationBanner_glow_b7bd7fdc",
-  In = "NewOperationBanner_border_8238287a",
+  In = "NewOperationBanner_glow_b7bd7fdc",
+  vn = "NewOperationBanner_border_8238287a",
   xn = "NewOperationBanner_background_53154b2a",
   En = "NewOperationBanner_badge_56abcb78",
   yn = "NewOperationBanner_attentionBorder_12528814",
@@ -3193,7 +3193,7 @@ const bn = "NewOperationBanner_8e4ab8a",
         t &&
           m.jsxs(m.Fragment, {
             children: [
-              m.jsx(u.div, { style: c, className: vn }),
+              m.jsx(u.div, { style: c, className: In }),
               m.jsx(u.div, {
                 style: c,
                 className: On,
@@ -3227,7 +3227,7 @@ const bn = "NewOperationBanner_8e4ab8a",
               path: "personal_missions_30.main.new_operation_banner.border",
               width: "100%",
               height: "100%",
-              className: In,
+              className: vn,
             }),
             m.jsx(j, {
               path: "personal_missions_30.main.new_operation_banner.background",
@@ -3596,7 +3596,7 @@ const Jn = "DefaultCard_2c35f6e",
       [f, h] = l.useState({ currentPoints: e, maxPoints: s, completed: g, progressShown: u }),
       { animationInProgress: b } = ws(),
       N = d(ds, (e) => e.value),
-      v = w(
+      I = w(
         ke.PM3_POINTS,
         l.useMemo(
           () => ({
@@ -3638,7 +3638,7 @@ const Jn = "DefaultCard_2c35f6e",
               children: [
                 m.jsxs("div", {
                   className: uo.status,
-                  ...v,
+                  ...I,
                   children: [
                     m.jsx(j, {
                       path: `personal_missions_30.main.additional_card.${a}`,
@@ -3708,8 +3708,8 @@ const Jn = "DefaultCard_2c35f6e",
     });
   }),
   No = "Progression_dc19a034",
-  vo = "Progression_missions_a14a8547",
-  Io = "Progression_banner_ade22754",
+  Io = "Progression_missions_a14a8547",
+  vo = "Progression_banner_ade22754",
   xo = "Progression_completed_95b1e94b",
   Eo = "Progression_menu_ad782db3",
   yo = c(function () {
@@ -3721,10 +3721,10 @@ const Jn = "DefaultCard_2c35f6e",
       className: No,
       children: [
         m.jsx(fn, { className: Eo }),
-        s?.operationId !== i && t && m.jsx("div", { className: Io, children: m.jsx(Tn, {}) }),
+        s?.operationId !== i && t && m.jsx("div", { className: vo, children: m.jsx(Tn, {}) }),
         s?.operationState === Re.COMPLETED_WITH_HONORS
           ? m.jsx($n, { className: xo }, a)
-          : m.jsx(bo, { className: vo }),
+          : m.jsx(bo, { className: Io }),
       ],
     });
   }),
@@ -3820,7 +3820,7 @@ const Jn = "DefaultCard_2c35f6e",
               m.jsx(u.div, {
                 style: i,
                 className: So.progress,
-                children: m.jsx(fe, { settings: Is, children: m.jsx(zi, {}) }),
+                children: m.jsx(fe, { settings: vs, children: m.jsx(zi, {}) }),
               }),
             ],
           }),
@@ -3830,7 +3830,7 @@ const Jn = "DefaultCard_2c35f6e",
   });
 Pe(
   m.jsx(ys, {
-    children: m.jsx(Cs, { children: m.jsx(Le, { soundsOverrides: vs, children: m.jsx(Oo, {}) }) }),
+    children: m.jsx(Cs, { children: m.jsx(Le, { soundsOverrides: Is, children: m.jsx(Oo, {}) }) }),
   }),
   { fullScreen: !0 },
 ).then(() => Te(!1));

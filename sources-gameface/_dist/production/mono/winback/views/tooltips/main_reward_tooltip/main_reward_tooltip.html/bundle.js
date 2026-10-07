@@ -1,8 +1,8 @@
-import { x as e, j as a } from "../../../../chunks/vendor.js";
+import { y as e, j as a } from "../../../../chunks/vendor.js";
 import {
   x as s,
-  h as l,
-  j as i,
+  e as l,
+  h as i,
   I as r,
   i as c,
   n as d,
@@ -12,7 +12,7 @@ import {
   R as m,
   F as o,
   a6 as t,
-  b as h,
+  v as h,
   U as _,
 } from "../../../../chunks/lib.js";
 import { R as j } from "../../../../chunks/winback_reward_view_model.js";
@@ -30,8 +30,8 @@ import { R as j } from "../../../../chunks/winback_reward_view_model.js";
   T = "App_vehicle_4ade442a",
   k = "App_vehicleLevel_1a558fca",
   R = "App_discount_8b0e8a4b",
-  C = n.resolve("strings"),
-  S = e(function () {
+  y = n.resolve("strings"),
+  C = e(function () {
     const { model: e } = b(),
       c = ((e) =>
         s(e, (e) => ({
@@ -48,11 +48,11 @@ import { R as j } from "../../../../chunks/winback_reward_view_model.js";
         children: [
           a.jsx("div", {
             className: L,
-            children: C.readOrEmpty("winback.mainRewardTooltip.title"),
+            children: y.readOrEmpty("winback.mainRewardTooltip.title"),
           }),
           a.jsx("div", {
             className: E,
-            children: C.readOrEmpty("winback.mainRewardTooltip.description"),
+            children: y.readOrEmpty("winback.mainRewardTooltip.description"),
           }),
           a.jsxs("div", {
             className: N,
@@ -94,4 +94,4 @@ import { R as j } from "../../../../chunks/winback_reward_view_model.js";
       }),
     });
   });
-h(a.jsx(x, { children: a.jsx(_, { children: a.jsx(S, {}) }) }), { immediateLayout: !1 });
+h(a.jsx(x, { children: a.jsx(_, { children: a.jsx(C, {}) }) }), { immediateLayout: !1 });

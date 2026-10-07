@@ -1,27 +1,27 @@
-import { j as e, f as s, t as a, r as t } from "../../../../../chunks/vendor.js";
+import { j as e, f as s, D as a, r as t } from "../../../../../chunks/vendor.js";
 import {
-  r as i,
-  g as o,
-  aC as l,
+  o,
+  O as i,
+  ag as l,
   b9 as r,
-  a9 as c,
-  ae as n,
-  u as d,
-  s as m,
-  B as p,
-  t as v,
-  V as h,
+  I as c,
+  Q as n,
+  av as d,
+  aA as m,
+  P as p,
+  az as v,
+  af as h,
   ba as _,
-  i as u,
-  m as f,
-  J as g,
-  b as j,
-  k as x,
-  Q as N,
-  aF as y,
-  p as C,
-  c as b,
-  U as k,
+  d as u,
+  aH as f,
+  e as g,
+  aq as j,
+  ac as x,
+  s as N,
+  aj as y,
+  aM as C,
+  au as b,
+  at as k,
 } from "../../../../../chunks/lib.js";
 const E = {
   base: "Card_24797002",
@@ -31,8 +31,8 @@ const E = {
   name: "Card_name_99ab4a1d",
 };
 function I({ type: a, iconName: t, pressed: n, onClick: d, nodeID: m }) {
-  const p = i.resolve("strings"),
-    v = o(),
+  const p = o.resolve("strings"),
+    v = i(),
     {
       onMouseEnter: h,
       onMouseLeave: _,
@@ -70,63 +70,63 @@ function I({ type: a, iconName: t, pressed: n, onClick: d, nodeID: m }) {
     ],
   });
 }
-const S = "Footer_info_b48c491b",
-  T = "Footer_separator_3f705b18",
-  A = "Footer_button_197c4535",
-  O = n("AlternateConfigurationFooter", "Footer_fb231f23");
-function F({ onClose: s, ...a }) {
-  const t = i.resolve("strings"),
-    o = d({ size: m.small }, { medium: { size: m.medium } });
-  return e.jsxs(O, {
+const A = "Footer_info_b48c491b",
+  O = "Footer_separator_3f705b18",
+  S = "Footer_button_197c4535",
+  T = n("AlternateConfigurationFooter", "Footer_fb231f23");
+function M({ onClose: s, ...a }) {
+  const t = o.resolve("strings"),
+    i = d({ size: m.small }, { medium: { size: m.medium } });
+  return e.jsxs(T, {
     ...a,
     children: [
       e.jsx("div", {
-        className: S,
+        className: A,
         children: t.readOrEmpty("veh_skill_tree.dialog.altConfiguration.info"),
       }),
-      e.jsx("div", { className: T }),
+      e.jsx("div", { className: O }),
       e.jsx(p, {
-        className: A,
+        className: S,
         theme: v.primary,
-        size: o.size,
+        size: i.size,
         onClick: s,
         children: t.readOrEmpty("veh_skill_tree.dialog.common.accept"),
       }),
     ],
   });
 }
-const M = {
+const z = {
   vehicle: "Header_vehicle_2fc02200",
   vehicleTier: "Header_vehicleTier_135eaea3",
   vehicleName: "Header_vehicleName_135eaea3",
   title: "Header_title_1c6e5cde",
   description: "Header_description_edbe210e",
 };
-function z({ level: s, type: a, name: t, premium: o }) {
-  const l = i.resolve("strings");
+function D({ level: s, type: a, name: t, premium: i }) {
+  const l = o.resolve("strings");
   return e.jsxs("div", {
-    className: M.base,
+    className: z.base,
     children: [
       e.jsxs(h, {
-        className: M.vehicle,
+        className: z.vehicle,
         children: [
-          e.jsx(h.Level, { className: M.vehicleTier, value: s }),
-          a && e.jsx(h.Type, { type: a, size: _.x64x64, premium: o }),
-          e.jsx(h.Name, { children: e.jsx("div", { className: M.vehicleName, children: t }) }),
+          e.jsx(h.Level, { className: z.vehicleTier, value: s }),
+          a && e.jsx(h.Type, { type: a, size: _.x64x64, premium: i }),
+          e.jsx(h.Name, { children: e.jsx("div", { className: z.vehicleName, children: t }) }),
         ],
       }),
       e.jsx("div", {
-        className: M.title,
+        className: z.title,
         children: l.readOrEmpty("veh_skill_tree.dialog.altConfiguration.title"),
       }),
       e.jsx("div", {
-        className: M.description,
+        className: z.description,
         children: l.readOrEmpty("veh_skill_tree.dialog.altConfiguration.description"),
       }),
     ],
   });
 }
-const [D, H] = u()(
+const [H, F] = u()(
     ({ observableModel: e }) => {
       const s = {
           vehicleInfo: e.transform(
@@ -152,23 +152,23 @@ const [D, H] = u()(
   w = "App_170f5fe6",
   L = "App_cards_2833612d",
   $ = "App_footer_d8aec517",
-  J = a(function () {
-    const { model: s, controls: a } = H();
+  P = a(function () {
+    const { model: s, controls: a } = F();
     (j(x.ESCAPE, a.close), j(x.ENTER, () => a.affirmate(c)));
-    const i = s.vehicleInfo.get(),
-      o = s.loadouts.get(),
+    const o = s.vehicleInfo.get(),
+      i = s.loadouts.get(),
       l = s.nodeID.get(),
       r = s.computeds.loadoutStates(),
       [c, n] = t.useState(r);
-    N.log(y(i.type), `Incorrect vehicle type: ${i.type}`);
-    const d = y(i.type) ? i.type : void 0;
+    N.log(y(o.type), `Incorrect vehicle type: ${o.type}`);
+    const d = y(o.type) ? o.type : void 0;
     return e.jsxs("div", {
       className: w,
       children: [
-        e.jsx(z, { ...i, type: d }),
+        e.jsx(D, { ...o, type: d }),
         e.jsx("div", {
           className: L,
-          children: o.map(({ type: s, iconName: a }, t) =>
+          children: i.map(({ type: s, iconName: a }, t) =>
             e.jsx(
               I,
               {
@@ -184,9 +184,9 @@ const [D, H] = u()(
             ),
           ),
         }),
-        e.jsx(F, { className: $, onClose: () => a.affirmate(c) }),
+        e.jsx(M, { className: $, onClose: () => a.affirmate(c) }),
       ],
     });
   }),
-  V = C({ click: { select: "yes1", deselect: "yes" } });
-b(e.jsx(k, { soundsOverrides: V, children: e.jsx(D, { children: e.jsx(J, {}) }) }));
+  q = C({ click: { select: "yes1", deselect: "yes" } });
+b(e.jsx(k, { soundsOverrides: q, children: e.jsx(H, { children: e.jsx(P, {}) }) }));

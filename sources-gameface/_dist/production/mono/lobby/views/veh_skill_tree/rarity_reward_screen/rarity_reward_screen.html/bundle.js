@@ -1,20 +1,20 @@
-import { t as e, r as a, j as s, k as t } from "../../../../chunks/vendor.js";
+import { D as a, r as e, j as s, s as t } from "../../../../chunks/vendor.js";
 import {
-  i,
-  r as o,
-  b as r,
-  k as c,
-  u as n,
-  o as l,
-  F as p,
-  c as _,
-  U as m,
+  d as i,
+  o,
+  aq as r,
+  ac as c,
+  av as n,
+  aL as l,
+  ax as p,
+  au as _,
+  at as d,
 } from "../../../../chunks/lib.js";
-const [d, u] = i()(
-    ({ observableModel: e }) => ({ root: e.object() }),
-    ({ externalModel: e }) => ({ close: e.createCallbackNoArgs("onClose") }),
+const [m, u] = i()(
+    ({ observableModel: a }) => ({ root: a.object() }),
+    ({ externalModel: a }) => ({ close: a.createCallbackNoArgs("onClose") }),
   ),
-  b = {
+  x = {
     root: "App_root_0",
     base: "App_680dbe67",
     backgroundAlpha: "App_backgroundAlpha_0",
@@ -30,10 +30,10 @@ const [d, u] = i()(
     title: "App_title_167b9150",
     subTitle: "App_subTitle_dc235974",
   },
-  x = e(function () {
-    const { model: e, controls: i } = u(),
-      { name: _, title: m, rarity: d } = e.root.get(),
-      [x, f] = a.useState(!0),
+  b = a(function () {
+    const { model: a, controls: i } = u(),
+      { name: _, title: d, rarity: m } = a.root.get(),
+      [b, f] = e.useState(!0),
       h = o.resolve("intl"),
       A = o.resolve("strings"),
       j = o.resolve("videos");
@@ -42,42 +42,42 @@ const [d, u] = i()(
         { size: "s400x300" },
         { large: { size: "s600x450" }, extraLarge: { size: "s900x675" } },
       ),
-      y = a.useCallback(() => {
+      y = e.useCallback(() => {
         (f(!1), i.close());
       }, [i]);
     return s.jsx("div", {
-      className: b.base,
+      className: x.base,
       children: s.jsxs("div", {
-        className: b.content,
+        className: x.content,
         children: [
           s.jsxs("div", {
-            className: b.animationWrapper,
+            className: x.animationWrapper,
             children: [
               s.jsx("div", {
-                className: b.icon,
+                className: x.icon,
                 style: {
                   backgroundImage: `url('R.images.gui.maps.vehicles.attachments.${v.size}.${_}')`,
                 },
               }),
-              x &&
+              b &&
                 s.jsx(l, {
-                  className: b.animation,
-                  src: j.readOrEmpty(`rarity.intro_${d}`),
+                  className: x.animation,
+                  src: j.readOrEmpty(`rarity.intro_${m}`),
                   autoplay: !0,
                   onEnded: y,
                 }),
               s.jsx(l, {
-                className: t(b.animation, x && b.animation__hidden),
-                src: j.readOrEmpty(`rarity.cycle_${d}`),
-                autoplay: !x,
+                className: t(x.animation, b && x.animation__hidden),
+                src: j.readOrEmpty(`rarity.cycle_${m}`),
+                autoplay: !b,
                 loop: !0,
               }),
             ],
           }),
           s.jsxs("div", {
-            className: t(b.footer, b[`footer__${d}`]),
+            className: t(x.footer, x[`footer__${m}`]),
             children: [
-              s.jsx("div", { className: b.title, children: h.toUpperCase(m) }),
+              s.jsx("div", { className: x.title, children: h.toUpperCase(d) }),
               s.jsx(p, {
                 text: A.readOrEmpty(
                   "vehicle_customization.customization.RarityRewardScreen.subtitle",
@@ -85,10 +85,10 @@ const [d, u] = i()(
                 upgradeLegacy: !0,
                 params: {
                   rarity: h.toUpperCase(
-                    A.readOrEmpty(`vehicle_customization.customization.rarity.${d}`),
+                    A.readOrEmpty(`vehicle_customization.customization.rarity.${m}`),
                   ),
                 },
-                className: b.subTitle,
+                className: x.subTitle,
               }),
             ],
           }),
@@ -96,4 +96,4 @@ const [d, u] = i()(
       }),
     });
   });
-_(s.jsx(d, { children: s.jsx(m, { children: s.jsx(x, {}) }) }));
+_(s.jsx(m, { children: s.jsx(d, { children: s.jsx(b, {}) }) }));

@@ -1,7 +1,7 @@
 import { w as e, j as s, f as a } from "../../../chunks/vendor.js";
 import {
   i as c,
-  R as l,
+  S as l,
   bX as i,
   h as d,
   j as n,
@@ -10,7 +10,7 @@ import {
   bC as o,
   bF as m,
   q as h,
-  H as _,
+  G as _,
   bR as b,
   J as j,
   U as p,
@@ -32,10 +32,10 @@ import { a as w } from "../../../chunks/utils.js";
   E = "VehicleAward_image_e1085013",
   T = "VehicleAward_score_9fcd64fb",
   $ = "VehicleAward_scoreIcon_79b6ff35",
-  H = "VehicleAward_level_be403845",
+  S = "VehicleAward_level_be403845",
   B = "VehicleAward_name_db659683",
-  L = "VehicleAward_title_d2db4e25",
-  S = "VehicleAward_levelIcon_c18df12e",
+  H = "VehicleAward_title_d2db4e25",
+  L = "VehicleAward_levelIcon_c18df12e",
   W = "VehicleAward_light_8a441018",
   q = "VehicleAward_rays_79b688e2",
   z = e(() => {
@@ -79,10 +79,10 @@ import { a as w } from "../../../chunks/utils.js";
             ],
           }),
           s.jsxs("span", {
-            className: L,
+            className: H,
             children: [
-              s.jsx("span", { className: H, children: w(n) }),
-              s.jsx("div", { className: S, style: o }),
+              s.jsx("span", { className: S, children: w(n) }),
+              s.jsx("div", { className: L, style: o }),
               s.jsx("span", { className: B, children: d }),
             ],
           }),
@@ -92,12 +92,12 @@ import { a as w } from "../../../chunks/utils.js";
   }),
   D = "Content_deaba007",
   F = "Content_subTitle_15c1ed7d",
-  J = "Content_bonusPoints_20fbc1ad",
-  K = "Content_bonusIcon_3cb2baa3",
-  M = "Content_2d9b5dc0",
-  U = "Content_bottom_6af58715",
-  X = "Content_reward_32d9fa9",
-  G = "Content_buttonWrapper_c4ef9224",
+  G = "Content_bonusPoints_20fbc1ad",
+  J = "Content_bonusIcon_3cb2baa3",
+  K = "Content_2d9b5dc0",
+  M = "Content_bottom_6af58715",
+  U = "Content_reward_32d9fa9",
+  X = "Content_buttonWrapper_c4ef9224",
   O = R.strings.battle_pass.battlePassVehicleAwardView,
   Q = e(() => {
     const { model: e } = f(),
@@ -109,24 +109,24 @@ import { a as w } from "../../../chunks/utils.js";
       children: [
         s.jsx(g, { title: O.content.title(), status: O.content.description() }),
         s.jsxs("div", {
-          className: M,
+          className: K,
           children: [
             s.jsx(z, {}),
             s.jsxs("div", {
-              className: U,
+              className: M,
               children: [
                 s.jsxs("div", {
-                  className: X,
+                  className: U,
                   children: [
                     s.jsx("div", { className: F, children: O.content.subTitle() }),
-                    s.jsxs("span", { className: J, children: [a, s.jsx("div", { className: K })] }),
+                    s.jsxs("span", { className: G, children: [a, s.jsx("div", { className: J })] }),
                   ],
                 }),
                 s.jsx(t, {
                   type: m.primary,
                   size: l ? o.medium : o.small,
                   onClick: () => r.close(),
-                  mixClass: G,
+                  mixClass: X,
                   children: O.button(),
                 }),
               ],

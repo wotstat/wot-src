@@ -1,9 +1,9 @@
 import { j as s, f as e, w as a } from "../../../../chunks/vendor.js";
 import {
   i as t,
-  R as i,
+  S as i,
   a as n,
-  G as c,
+  L as c,
   cd as r,
   J as d,
   U as o,
@@ -59,10 +59,10 @@ import {
   k = "Content_title_53d25156",
   w = "Content_subtitle_9986b7c5",
   D = "Content_messageWrapper_563c2e09",
-  G = "Content_description_bf1180f1",
-  J = "Content_separatorWrapper_162c2d2f",
+  J = "Content_description_bf1180f1",
+  L = "Content_separatorWrapper_162c2d2f",
   P = R.strings.battle_pass.tooltips.notChosen,
-  T = a(() => {
+  S = a(() => {
     const { model: e } = j(),
       { points: a } = e.root.get();
     return s.jsxs("div", {
@@ -72,10 +72,10 @@ import {
         s.jsx("div", { className: w, children: P.subTitle() }),
         a > 0
           ? s.jsx("div", { className: D, children: s.jsx(C, { points: a }) })
-          : s.jsx("div", { className: J, children: s.jsx("div", { className: W }) }),
-        s.jsx("div", { className: G, children: P.description() }),
+          : s.jsx("div", { className: L, children: s.jsx("div", { className: W }) }),
+        s.jsx("div", { className: J, children: P.description() }),
       ],
     });
   }),
-  U = () => s.jsx(r, { children: s.jsx(r.Decorator, { children: s.jsx(T, {}) }) });
-l(new d().add(o).addWithProps(_, {}).render(s.jsx(U, {})));
+  T = () => s.jsx(r, { children: s.jsx(r.Decorator, { children: s.jsx(S, {}) }) });
+l(new d().add(o).addWithProps(_, {}).render(s.jsx(T, {})));

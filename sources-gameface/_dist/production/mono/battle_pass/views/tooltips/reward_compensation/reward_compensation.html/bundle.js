@@ -3,14 +3,14 @@ import {
   i as r,
   e as t,
   bJ as i,
-  R as o,
-  a2 as l,
+  S as o,
+  a3 as l,
   cl as d,
   s as c,
   cm as _,
   cn as f,
   r as m,
-  af as b,
+  ag as b,
   co as p,
   F as w,
   d as u,
@@ -18,7 +18,7 @@ import {
 } from "../../../../chunks/lib.js";
 import { T as j } from "../../../../chunks/tank_name.js";
 import { g as x } from "../../../../chunks/utils.js";
-/* empty css                       */ const [h, R] = r()(({ observableModel: a }) => {
+/* empty css                       */ const [h, I] = r()(({ observableModel: a }) => {
     const s = {
         root: a.object(),
         initialRewardsArray: a.array("initialReward"),
@@ -28,10 +28,10 @@ import { g as x } from "../../../../chunks/utils.js";
       r = e((e = 0) => i(s.compensationRewardsArray.get().items, e), { equals: t });
     return { ...s, computes: { initialReward: n, compensationReward: r } };
   }, o),
-  I = "Arrow_c612004f",
+  R = "Arrow_c612004f",
   N = "Arrow_icon_ca620234";
 function g({ className: e }) {
-  return a.jsx("div", { className: s(I, e), children: a.jsx("div", { className: N }) });
+  return a.jsx("div", { className: s(R, e), children: a.jsx("div", { className: N }) });
 }
 const k = {
     base: "Divider_d6b67ddd",
@@ -83,22 +83,22 @@ const O = {
       children: "string" == typeof i ? i : r,
     });
   };
-function E({ reward: e }) {
+function S({ reward: e }) {
   const { value: s, tooltipArgs: n, ...r } = x(e);
   return a.jsxs("div", { className: O.base, children: [a.jsx(l, { ...r }), C(e)] });
 }
-const S = "Content_c10787ee",
+const E = "Content_c10787ee",
   F = "Content_highlight_209aac4a",
   L = "Content_arrow_e7a821c";
 function U({ initialReward: e, compensationReward: s }) {
   return a.jsxs("div", {
-    className: S,
+    className: E,
     children: [
       a.jsx("div", { className: F }),
       a.jsx(A, { position: y }),
-      a.jsx(E, { reward: e }),
+      a.jsx(S, { reward: e }),
       a.jsx(g, { className: L }),
-      a.jsx(E, { reward: s }),
+      a.jsx(S, { reward: s }),
       a.jsx(A, { position: D }),
     ],
   });
@@ -132,7 +132,7 @@ function J({ rewardName: e }) {
 }
 const M = "App_fc800ea3",
   V = n(() => {
-    const { model: e } = R(),
+    const { model: e } = I(),
       s = e.computes.initialReward(),
       n = e.computes.compensationReward();
     return a.jsxs("div", {

@@ -1,5 +1,5 @@
 import { s as e, j as s } from "../../../../chunks/vendor.js";
-import { i as t, t as a, r as p, af as r, F as m, p as o, k as d } from "../../../../chunks/lib.js";
+import { i as t, o as a, r as p, af as r, F as m, x as o, k as d } from "../../../../chunks/lib.js";
 import { B as l } from "../../../../chunks/breed.js";
 /* empty css                       */ const [c, i] = t("PetTooltipModel")(
     ({ observableModel: e }) => ({ root: e.object(), bonuses: e.arrayClone("promotionBonuses") }),
@@ -8,8 +8,8 @@ import { B as l } from "../../../../chunks/breed.js";
   n = "App_e5b11dda",
   _ = "App_bgFlare_c6313b44",
   b = "App_petIcon_d684143d",
-  j = "App_divider_5947fd2b",
-  x = "App_tooltipBase_c42f572b",
+  x = "App_divider_5947fd2b",
+  j = "App_tooltipBase_c42f572b",
   y = "App_header_ffbe7d49",
   N = "App_title_0",
   u = "App_petName_b49c6143",
@@ -33,7 +33,7 @@ import { B as l } from "../../../../chunks/breed.js";
           style: { backgroundImage: `url(${E.readOrEmpty(`petSystem.pets.x96x96.pet_${a}`)})` },
         }),
         s.jsxs(r.Decorator, {
-          className: x,
+          className: j,
           children: [
             s.jsx("div", {
               className: _,
@@ -50,13 +50,13 @@ import { B as l } from "../../../../chunks/breed.js";
                 }),
               ],
             }),
-            s.jsx("div", { className: j }),
+            s.jsx("div", { className: x }),
             s.jsx(m, {
               text: O.readOrEmpty(`pet_system.petDescription.${t}`),
               className: v,
               split: !0,
             }),
-            s.jsx("div", { className: j }),
+            s.jsx("div", { className: x }),
             s.jsx("div", {
               className: A,
               children: o(c, (e) =>

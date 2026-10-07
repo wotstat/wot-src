@@ -1,5 +1,5 @@
 import { j as s, f as a, R as r } from "./vendor.js";
-import { av as e } from "./lib.js";
+import { P as e } from "./lib.js";
 const n = "Divider_9939af4b";
 function t(r) {
   return s.jsx(e, { path: "ui.noise", className: a(n, r.className), fit: "cover" });

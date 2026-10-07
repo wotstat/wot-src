@@ -11,28 +11,28 @@ import {
   r as n,
   B as r,
   l as c,
-  av as d,
-  aF as u,
+  P as d,
+  b0 as u,
   i as m,
   c as p,
-  bc as h,
-  aD as y,
-  au as b,
-  bA as g,
-  bG as v,
-  di as _,
+  bs as h,
+  a$ as y,
+  Z as b,
+  bN as g,
+  bS as v,
+  af as _,
   J as f,
   E as x,
   F as j,
-  da as z,
-  db as N,
+  dg as z,
+  dh as N,
 } from "../../../../chunks/lib.js";
 import {
   i as C,
-  I as A,
-  t as k,
-  j as O,
-  c as S,
+  I as k,
+  t as A,
+  j as S,
+  c as O,
   f as w,
   k as I,
   l as T,
@@ -70,7 +70,7 @@ import {
       extraLarge: { size: r.sizes.large },
     },
   };
-function F({ buttons: t, onAction: s }) {
+function J({ buttons: t, onAction: s }) {
   const a = u($.default, $.breakpoints);
   return e.jsx("div", {
     className: B.buttonsBase,
@@ -92,7 +92,7 @@ function F({ buttons: t, onAction: s }) {
     ),
   });
 }
-const [J, M] = m()(
+const [M, V] = m()(
     ({ observableModel: e }) => {
       const t = e.primitives(["params", "type"]),
         l = p.primitive(() => {
@@ -104,7 +104,7 @@ const [J, M] = m()(
         }),
         o = p.shallow(() => {
           try {
-            return s(A, JSON.parse(t.params.get()));
+            return s(k, JSON.parse(t.params.get()));
           } catch (e) {
             return (console.error("Can't parse import overlay params", e), { titles: new Set() });
           }
@@ -113,16 +113,16 @@ const [J, M] = m()(
     },
     ({ externalModel: e, model: t }) => {
       const s = e.createCallback(
-          (e) => ({ action: k.import, data: JSON.stringify(e.initial) }),
+          (e) => ({ action: A.import, data: JSON.stringify(e.initial) }),
           "onAction",
         ),
         a = e.createCallback((e) => ({ action: e }), "onAction");
       return {
         import: l((e) => {
-          s({ initial: S(w(t.importParams().titles, "playlists.defaultName"), e) });
+          s({ initial: O(w(t.importParams().titles, "playlists.defaultName"), e) });
         }),
         doAction: (e) => {
-          if (e === O.import)
+          if (e === S.import)
             console.error('Unsupported type to doAction, please use "import" function from DL');
           else a(e);
         },
@@ -130,82 +130,82 @@ const [J, M] = m()(
       };
     },
   ),
-  V = "AlertOverlay_6a914e50",
+  F = "AlertOverlay_6a914e50",
   D = "AlertOverlay_close_c8fc8fba",
-  G = "AlertOverlay_content_be3b87d6",
-  R = "AlertOverlay_glow_2370fdef",
-  U = "AlertOverlay_icon_ec1d1576",
-  W = "AlertOverlay_divider_ffb30a39",
+  R = "AlertOverlay_content_be3b87d6",
+  U = "AlertOverlay_glow_2370fdef",
+  W = "AlertOverlay_icon_ec1d1576",
+  Z = "AlertOverlay_divider_ffb30a39",
   q = "AlertOverlay_title_f9ee7b93",
-  H = { iconSize: 157, glowSize: [998, 639] },
-  K = {
+  G = { iconSize: 157, glowSize: [998, 639] },
+  H = {
     medium: { iconSize: 188, glowSize: [1200, 768] },
     extraLarge: { iconSize: 256, glowSize: [1632, 1044] },
   },
-  Q = function ({ titlePath: t, titleParams: s }) {
-    const a = u(H, K);
+  K = function ({ titlePath: t, titleParams: s }) {
+    const a = u(G, H);
     return e.jsxs("div", {
-      className: G,
+      className: R,
       children: [
         e.jsx(d, {
           path: "hangar.playlists.overlay_glow",
           width: a.glowSize[0],
           height: a.glowSize[1],
-          className: R,
+          className: U,
         }),
         e.jsx(d, {
           path: "library.icon_alert_256x256",
           width: a.iconSize,
           height: a.iconSize,
-          className: U,
+          className: W,
         }),
         e.jsx(b, { className: q, path: t, params: s }),
-        e.jsx(d, { path: "ui.noise", className: W, fit: "contain" }),
+        e.jsx(d, { path: "ui.noise", className: Z, fit: "contain" }),
       ],
     });
   };
-function X(e) {
+function Q(e) {
   const t = `playlists.dialogs.${e}.button.submit`,
     s = `playlists.dialogs.${e}.button.cancel`;
   switch (e) {
-    case k.delete:
+    case A.delete:
       return [
-        { action: O.delete, title: t, soundTarget: "vehicle:playlists:overlay:submit_button" },
-        { action: O.cancel, title: s, soundTarget: "vehicle:playlists:overlay:cancel_button" },
+        { action: S.delete, title: t, soundTarget: "vehicle:playlists:overlay:submit_button" },
+        { action: S.cancel, title: s, soundTarget: "vehicle:playlists:overlay:cancel_button" },
       ];
-    case k.save:
+    case A.save:
       return [
-        { action: O.save, title: t, soundTarget: "vehicle:playlists:overlay:submit_button" },
-        { action: O.discard, title: s, soundTarget: "vehicle:playlists:overlay:cancel_button" },
+        { action: S.save, title: t, soundTarget: "vehicle:playlists:overlay:submit_button" },
+        { action: S.discard, title: s, soundTarget: "vehicle:playlists:overlay:cancel_button" },
       ];
     default:
       return [
         {
-          action: O.submit,
+          action: S.submit,
           title: "dialogs.common.submit",
           soundTarget: "vehicle:playlists:overlay:submit_button",
         },
         {
-          action: O.cancel,
+          action: S.cancel,
           title: "dialogs.common.cancel",
           soundTarget: "vehicle:playlists:overlay:cancel_button",
         },
       ];
   }
 }
-const Y = o(function () {
-    const t = M(),
+const X = o(function () {
+    const t = V(),
       s = t.model.type.get(),
-      a = { playlistTitle: s === k.delete ? t.model.playlistTitle() : "" };
+      a = { playlistTitle: s === A.delete ? t.model.playlistTitle() : "" };
     return (
       h(y.ESCAPE, t.controls.close),
       e.jsxs("div", {
-        className: V,
+        className: F,
         children: [
           e.jsx(L, { onClick: t.controls.close, className: D }),
-          e.jsx(Q, { titlePath: `playlists.dialogs.${s}.title`, titleParams: a }),
-          e.jsx(F, {
-            buttons: X(s),
+          e.jsx(K, { titlePath: `playlists.dialogs.${s}.title`, titleParams: a }),
+          e.jsx(J, {
+            buttons: Q(s),
             onAction: function (e) {
               t.controls.doAction(e);
             },
@@ -214,7 +214,7 @@ const Y = o(function () {
       })
     );
   }),
-  Z = {
+  Y = {
     base: "Input_1c7ccc50",
     decoration: "Input_decoration_85fbd35d",
     field: "Input_field_17ca5da5",
@@ -228,15 +228,15 @@ const Y = o(function () {
       size: a.size,
       state: s.state.valid.get() ? g.states.default : g.states.alert,
       children: e.jsxs("div", {
-        className: t(Z.base, s.className),
+        className: t(Y.base, s.className),
         children: [
           e.jsxs(g.Decoration, {
-            className: Z.decoration,
+            className: Y.decoration,
             children: [
               e.jsx(g.Field, {
                 onChange: (e) => s.state.setCode(e.currentTarget.value),
-                className: Z.field,
-                classNames: { placeholder: Z.placeholder },
+                className: Y.field,
+                classNames: { placeholder: Y.placeholder },
                 "data-test-id": "playlistCodeInput",
                 children: ee.readOrEmpty("playlists.dialogs.import.input.message"),
               }),
@@ -245,7 +245,7 @@ const Y = o(function () {
           }),
           e.jsx(g.Message, {
             visible: !s.state.valid.get(),
-            className: Z.message,
+            className: Y.message,
             children: ee.readOrEmpty("playlists.dialogs.import.input.alert"),
           }),
         ],
@@ -270,7 +270,7 @@ const se = "Import_40d148c8",
   },
   ue = o(function ({ state: t }) {
     const s = u(de.default, de.breakpoints),
-      a = M();
+      a = V();
     function l() {
       const e = t.code.get(),
         s = I(e);
@@ -303,7 +303,7 @@ const se = "Import_40d148c8",
             autoAlignContent: !1,
             theme: r.themes.secondary,
             size: s.size,
-            onClick: () => a.controls.doAction(O.cancel),
+            onClick: () => a.controls.doAction(S.cancel),
             soundTarget: "vehicle:playlists:overlay:cancel_button",
             "data-test-id": "cancelImportPlaylist",
             children: ce.readOrEmpty("dialogs.common.cancel"),
@@ -313,7 +313,7 @@ const se = "Import_40d148c8",
     );
   }),
   me = o(function () {
-    const t = M(),
+    const t = V(),
       s = i(() => {
         const e = a.box(!0),
           t = a.box("");
@@ -348,18 +348,18 @@ const se = "Import_40d148c8",
     );
   }),
   pe = o(function () {
-    const t = M().model.type.get();
+    const t = V().model.type.get();
     switch (t) {
-      case k.import:
+      case A.import:
         return e.jsx(me, {});
-      case k.delete:
-      case k.save:
-        return e.jsx(Y, {});
+      case A.delete:
+      case A.save:
+        return e.jsx(X, {});
       default:
         return (console.error(`The overlay type for ${t} is not supported`), null);
     }
   }),
   he = _(E);
-j(new f().addWithProps(x, { soundsOverrides: he }).add(J).render(e.jsx(pe, {})))
+j(new f().addWithProps(x, { soundsOverrides: he }).add(M).render(e.jsx(pe, {})))
   .then(() => z(document.getElementById("root")))
   .then(() => N());

@@ -1,5 +1,5 @@
 import { r as s, j as e, f as t, w as a } from "../../../../chunks/vendor.js";
-import { i, G as n, ck as r, cd as d, J as c, U as o, d as l } from "../../../../chunks/lib.js";
+import { i, L as n, ck as r, cd as d, J as c, U as o, d as l } from "../../../../chunks/lib.js";
 /* empty css                       */ const [x, m] = i()(
     ({ observableModel: s }) => ({ root: s.object() }),
     () => ({}),

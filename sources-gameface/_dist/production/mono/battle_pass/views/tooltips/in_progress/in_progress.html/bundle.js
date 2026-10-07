@@ -1,22 +1,22 @@
 import { j as e, f as s, w as a, r as t } from "../../../../chunks/vendor.js";
 import {
   i as o,
-  R as r,
-  G as l,
+  S as r,
+  L as l,
   cf as n,
   cg as i,
   bI as d,
   ch as c,
-  ap as _,
+  aq as _,
   ci as m,
   cj as h,
-  ah as b,
+  ai as b,
   bL as p,
   bM as x,
   b$ as u,
-  ag as f,
-  cd as g,
-  J as w,
+  ah as f,
+  cd as w,
+  J as g,
   U as P,
   d as j,
 } from "../../../../chunks/lib.js";
@@ -297,7 +297,7 @@ const [O, L] = o()(
   xe = "Points_pointsCurrent_b498b3a9",
   ue = "Points_pointsMax_2f7dc8fa",
   fe = "Points_pointsIcon_615fd6e8",
-  ge = ({ currentPoints: a, maxPoints: t, className: o = "" }) =>
+  we = ({ currentPoints: a, maxPoints: t, className: o = "" }) =>
     e.jsxs("div", {
       className: s(pe, o),
       children: [
@@ -307,20 +307,20 @@ const [O, L] = o()(
         e.jsx("div", { className: fe }),
       ],
     }),
-  we = "Progression_5cdbad76",
+  ge = "Progression_5cdbad76",
   Pe = "Progression_progressionBar_6bb904d3",
-  Re = "Progression_points_fa2aa3d9",
-  je = a(({ isDisabled: a = !1, className: t = "" }) => {
+  je = "Progression_points_fa2aa3d9",
+  Re = a(({ isDisabled: a = !1, className: t = "" }) => {
     const { model: o } = L(),
       { currentPoints: r, maxPoints: l } = o.root.get();
     return e.jsxs("div", {
-      className: s(we, t),
+      className: s(ge, t),
       children: [
         e.jsx("div", {
           className: Pe,
           children: e.jsx(i, { value: r, maxValue: l, theme: d, disabled: a }),
         }),
-        e.jsx(ge, { maxPoints: l, currentPoints: r, className: Re }),
+        e.jsx(we, { maxPoints: l, currentPoints: r, className: je }),
       ],
     });
   }),
@@ -386,7 +386,7 @@ const [O, L] = o()(
           ],
         }),
         e.jsx(be, {}),
-        e.jsx(je, {}),
+        e.jsx(Re, {}),
       ],
     });
   }),
@@ -516,7 +516,7 @@ const [O, L] = o()(
       children: [
         e.jsx("div", { className: Fe, children: Ye.header() }),
         e.jsx(be, {}),
-        e.jsx(je, {}),
+        e.jsx(Re, {}),
       ],
     }),
   Ve = {
@@ -600,6 +600,6 @@ const [O, L] = o()(
     const { model: s } = L(),
       { chapterType: a } = s.root.get(),
       t = a === S.POST_PROGRESSION ? e.jsx(os, {}) : e.jsx(Ue, {});
-    return e.jsx(g, { children: e.jsx(g.Decorator, { children: t }) });
+    return e.jsx(w, { children: e.jsx(w.Decorator, { children: t }) });
   });
-j(new w().add(P).addWithProps(O, {}).render(e.jsx(rs, {})));
+j(new g().add(P).addWithProps(O, {}).render(e.jsx(rs, {})));

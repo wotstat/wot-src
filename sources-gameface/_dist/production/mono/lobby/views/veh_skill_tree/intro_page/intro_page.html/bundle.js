@@ -1,32 +1,32 @@
-import { j as s, t as e, r as a, E as i, f as c, n as l } from "../../../../chunks/vendor.js";
+import { j as s, D as e, r as a, E as i, f as c, l } from "../../../../chunks/vendor.js";
 import {
-  f as n,
-  i as o,
-  J as t,
-  aG as d,
-  Q as r,
-  b as p,
-  k as m,
-  B as _,
-  t as b,
-  s as x,
-  c as h,
-  U as j,
+  aE as o,
+  d as n,
+  e as t,
+  ak as d,
+  s as r,
+  aq as p,
+  ac as m,
+  P as _,
+  az as b,
+  aA as u,
+  au as x,
+  at as h,
 } from "../../../../chunks/lib.js";
-const u = "Description_9a429ac6",
+const j = "Description_9a429ac6",
   f = "Description_icon_61bd7cae",
   v = "Description_title_fd356bf",
   N = "Description_9c2cbcb1",
   y = ({ icon: e, title: a, description: i }) =>
     s.jsxs("div", {
-      className: u,
+      className: j,
       children: [
         s.jsx("div", { className: v, children: a }),
         s.jsx("div", { className: f, style: { backgroundImage: `url(${e})` } }),
-        s.jsx("div", { className: N, children: i && n(i) }),
+        s.jsx("div", { className: N, children: i && o(i) }),
       ],
     }),
-  [C, g] = o()(
+  [C, A] = n()(
     ({ observableModel: s }) => {
       const e = { slides: s.arrayClone("slides"), ...s.primitives(["title", "buttonLabel"]) },
         a = t.shallow((s) => {
@@ -37,56 +37,56 @@ const u = "Description_9a429ac6",
     },
     ({ externalModel: s }) => ({ onClose: s.createCallbackNoArgs("onClose") }),
   ),
-  A = "App_508c0064",
+  g = "App_508c0064",
   k = "App_content_3c8fdc2c",
-  B = "App_slidesWrapper_2389a8ac",
+  E = "App_slidesWrapper_2389a8ac",
   w = "App_slide_24421c1a",
-  E = "App_counter_1ccae048",
+  B = "App_counter_1ccae048",
   D = "App_arrowButton_4108196b",
   S = "App_arrowButton__left_1ff87043",
   $ = "App_arrowButton__disabled_6db15a44",
   I = e(function () {
-    const { model: e, controls: n } = g(),
-      [o, t] = a.useState(0),
+    const { model: e, controls: o } = A(),
+      [n, t] = a.useState(0),
       d = e.slides.get().length;
-    (p(m.ESCAPE, n.onClose), p(m.ENTER, n.onClose));
-    const r = i(o, {
-      key: o,
+    (p(m.ESCAPE, o.onClose), p(m.ENTER, o.onClose));
+    const r = i(n, {
+      key: n,
       from: { opacity: 0 },
       enter: { opacity: 1 },
       leave: { opacity: 0 },
       config: { tension: 280, friction: 60 },
     });
     return s.jsxs("div", {
-      className: A,
+      className: g,
       children: [
         s.jsxs("div", {
           className: k,
           children: [
             s.jsx(_, {
-              classNames: { base: c(D, S, 0 === o && $) },
-              disabled: 0 === o,
+              classNames: { base: c(D, S, 0 === n && $) },
+              disabled: 0 === n,
               theme: b.secondary,
               onClick: () => {
                 t((s) => s - 1);
               },
             }),
             s.jsx("div", {
-              className: B,
+              className: E,
               children: r((a, i) =>
                 s.jsxs(l.div, {
                   className: w,
                   style: a,
                   children: [
-                    s.jsx("div", { className: E, children: `${i + 1} / ${d}` }),
+                    s.jsx("div", { className: B, children: `${i + 1} / ${d}` }),
                     s.jsx(y, { ...e.computed.getSlideByIndex(i) }),
                   ],
                 }),
               ),
             }),
             s.jsx(_, {
-              classNames: { base: c(D, o === d - 1 && $) },
-              disabled: o === d - 1,
+              classNames: { base: c(D, n === d - 1 && $) },
+              disabled: n === d - 1,
               theme: b.secondary,
               onClick: () => {
                 t((s) => s + 1);
@@ -95,12 +95,12 @@ const u = "Description_9a429ac6",
           ],
         }),
         s.jsx(_, {
-          size: x.medium,
+          size: u.medium,
           theme: b.primary,
-          onClick: n.onClose,
+          onClick: o.onClose,
           children: e.buttonLabel.get(),
         }),
       ],
     });
   });
-h(s.jsx(C, { children: s.jsx(j, { children: s.jsx(I, {}) }) }));
+x(s.jsx(C, { children: s.jsx(h, { children: s.jsx(I, {}) }) }));
