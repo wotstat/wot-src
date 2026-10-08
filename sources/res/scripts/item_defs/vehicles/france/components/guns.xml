@@ -4240,7 +4240,7 @@
 				<recoilEffect>large</recoilEffect>
 			</recoil>
 			<effects>shot_largeext</effects>
-			<reloadEffect>reload115_152</reloadEffect>
+			<reloadEffect>reload_automat_reloading_115_152</reloadEffect>
 			<pitchLimits>
 				<minPitch>0.0 -15.0 1.0 -15.0</minPitch>
 				<maxPitch>0.0 8.0 1.0 8.0</maxPitch>
@@ -5128,7 +5128,7 @@
 					<speed>450</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>400 400</piercingPower>
+					<piercingPower>300 250</piercingPower>
 				</_47mm_Odr_mle._1892_portal>
 			</shots>
 		</_47mm_SA34_portal>

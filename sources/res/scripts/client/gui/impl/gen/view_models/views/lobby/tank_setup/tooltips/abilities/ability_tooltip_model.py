@@ -1,12 +1,10 @@
-from frameworks.wulf import Array
 from frameworks.wulf import ViewModel
 from gui.impl.gen.view_models.common.bonuses_model import BonusesModel
-from gui.impl.gen.view_models.views.lobby.tank_setup.tooltips.abilities.ability_tooltip_extra_param_item_model import AbilityTooltipExtraParamItemModel
 
 class AbilityTooltipModel(ViewModel):
     __slots__ = ()
 
-    def __init__(self, properties=10, commands=0):
+    def __init__(self, properties=9, commands=0):
         super(AbilityTooltipModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -74,17 +72,6 @@ class AbilityTooltipModel(ViewModel):
         self._setBool(8, value)
         return
 
-    def getExtraParams(self):
-        return self._getArray(9)
-
-    def setExtraParams(self, value):
-        self._setArray(9, value)
-        return
-
-    @staticmethod
-    def getExtraParamsType():
-        return AbilityTooltipExtraParamItemModel
-
     def _initialize(self):
         super(AbilityTooltipModel, self)._initialize()
         self._addViewModelProperty(b'bonuses', BonusesModel())
@@ -96,5 +83,4 @@ class AbilityTooltipModel(ViewModel):
         self._addStringProperty(b'userString', b'')
         self._addStringProperty(b'description', b'')
         self._addBoolProperty(b'lightAdditional', True)
-        self._addArrayProperty(b'extraParams', Array())
         return

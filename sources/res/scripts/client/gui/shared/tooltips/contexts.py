@@ -769,6 +769,9 @@ class PreviewContext(HangarContext):
     def getVehicle(self):
         return g_currentPreviewVehicle.item
 
+    def buildItem(self, roleName, *args, **kwargs):
+        return roleName
+
 
 class VehCmpConfigurationContext(HangarContext):
 

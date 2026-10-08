@@ -9,7 +9,6 @@ from gui.battle_control.battle_context_hints.common import HintId
 from gui.battle_control.controllers.consumables.ammo_ctrl import IAmmoListener
 from gui.shared.gui_items import getKpiAbilityFormatter
 from gui.shared.items_parameters.formatters import formatParameter
-from gui.shared.items_parameters.comparator import PARAM_STATE, rateParameterState
 from gui.shared.utils import DISTANCE_DAMAGE_PROP_NAME, DAMAGE_PROP_NAME, SHOT_SPEED_ACCELERATED_PROP_NAME
 from gui.shared.utils import PIERCING_POWER_PROP_NAME
 from helpers.vehicle_components_helpers import VehicleComponentDispatcher
@@ -110,9 +109,6 @@ class ConsumablesPanel(IAmmoListener, ConsumablesPanelMeta, BattleGUIKeyHandler,
     _R_ARTEFACT_ICON = R.images.gui.maps.icons.artefact
     _ABILITY_EQUIPMENT_IDX = 6
     _DEFAULT_DAMAGE_MULTIPLIER = 1
-    _PARAM_STYLES = {(PARAM_STATE.WORSE): (text_styles.critical), 
-       (PARAM_STATE.BETTER): (text_styles.statInfo), 
-       (PARAM_STATE.NORMAL): (lambda val: val)}
 
     def __init__(self):
         super(ConsumablesPanel, self).__init__()
@@ -291,16 +287,6 @@ class ConsumablesPanel(IAmmoListener, ConsumablesPanelMeta, BattleGUIKeyHandler,
         self.as_updateTooltipS(idx=idx, tooltipStr=toolTip)
         return
 
-    def _updateShellTooltip(self, item=None, damageMultiplier=0.0):
-        for _, tooltipData in self.__shellsTooltipData.iteritems():
-            shellCD, descriptor, gunSettings = tooltipData
-            if shellCD not in self._cds:
-                return
-            toolTip = self.__makeShellTooltip(descriptor, gunSettings, shellCD, item, 1 + damageMultiplier)
-            self.as_updateTooltipS(idx=self._cds.index(shellCD), tooltipStr=toolTip)
-
-        return
-
     def _buildEquipmentSlotTooltipText(self, item):
         descriptor = item.getDescriptor()
         if self.__isAbilityEquipment(item):
@@ -388,7 +374,6 @@ class ConsumablesPanel(IAmmoListener, ConsumablesPanelMeta, BattleGUIKeyHandler,
         self._updateEquipmentGlow(idx, item)
         self._updateActivatedSlot(idx, item)
         self._updateEquipmentSlotTooltipText(idx, item)
-        self._updateShellTooltip(item=item)
         return
 
     def _updateEquipmentGlow(self, idx, item):
@@ -491,7 +476,11 @@ class ConsumablesPanel(IAmmoListener, ConsumablesPanelMeta, BattleGUIKeyHandler,
     def __onUpdateDamageModifier(self, intCD, value):
         if intCD not in self._cds:
             return
-        self._updateShellTooltip(damageMultiplier=value)
+        for _, tooltipData in self.__shellsTooltipData.iteritems():
+            shellCD, descriptor, gunSettings = tooltipData
+            toolTip = self.__makeShellTooltip(descriptor, gunSettings, shellCD, 1 + value)
+            self.as_updateTooltipS(idx=self._cds.index(shellCD), tooltipStr=toolTip)
+
         self.as_setAbilityModifierS(int(round(value * 100)), False)
         return
 
@@ -655,27 +644,9 @@ class ConsumablesPanel(IAmmoListener, ConsumablesPanelMeta, BattleGUIKeyHandler,
             sfKey = getScaleformKey(bwKey)
         return (bwKey, sfKey)
 
-    def __colorizeParam(self, val, paramState):
-        return self._PARAM_STYLES.get(paramState, (lambda x: x))(val)
-
-    def __getParamVal(self, baseValue, factor, fmtFunc):
-        roundedBase = int(round(baseValue))
-        paramState, _ = rateParameterState(b'', roundedBase * factor, roundedBase)
-        return self.__colorizeParam(fmtFunc(int(round(roundedBase * factor))), paramState)
-
-    def __addParam(self, params, resKey, baseValue, factor, fmtFunc):
-        value = self.__getParamVal(baseValue, factor, fmtFunc)
-        params.append(backport.text(resKey(), value=value))
-        return
-
-    def __makeShellTooltip(self, descriptor, gunSettings, intCD, item=None, damageMultiplier=_DEFAULT_DAMAGE_MULTIPLIER):
+    def __makeShellTooltip(self, descriptor, gunSettings, intCD, damageMultiplier=_DEFAULT_DAMAGE_MULTIPLIER):
         kind = descriptor.kind
         hasDistanceFactor = descriptor.distanceFactor is not None
-        isActiveAbility = item and self.__isAbilityEquipment(item) and item.getStage() == EQUIPMENT_STAGES.ACTIVE
-        eqFactors = {f.name: f.value for f in getattr(item.getDescriptor(), b'factors', [])} if isActiveAbility else {}
-        eqDamageFactor = eqFactors.get(b'armorDamageFactor', 1.0)
-        eqPiercingFactor = eqFactors.get(b'gun/piercing', 1.0)
-        eqSpeedFactor = eqFactors.get(b'gun/shellSpeedFactor', 1.0)
         if hasDistanceFactor:
             newKind = kind + b'_DF'
             dynAccessor = R.strings.ingame_gui.shells_kinds.dyn(newKind)
@@ -693,19 +664,19 @@ class ConsumablesPanel(IAmmoListener, ConsumablesPanelMeta, BattleGUIKeyHandler,
                 params.append(backport.text(R.strings.ingame_gui.shells_kinds.params.damagePerShot(), value=backport.getNiceNumberFormat(descriptor.avgDamage)))
                 params.append(backport.text(R.strings.ingame_gui.shells_kinds.params.damagePerCassete(), value=backport.getNiceNumberFormat(int(round(descriptor.avgDamage * gunSettings.clip.size)))))
             else:
-                params.append(self.__getDamageParam(descriptor, damageMultiplier, eqDamageFactor))
+                params.append(self.__getDamageParam(descriptor, damageMultiplier))
             if piercingPower[0] > 0 and piercingPower[1] > 0:
                 if hasDistanceFactor:
                     params.append(backport.text(R.strings.ingame_gui.shells_kinds.params.distanceFactorPiercingPower(), value=formatParameter(PIERCING_POWER_PROP_NAME, piercingPower)))
                 else:
-                    self.__addParam(params, R.strings.ingame_gui.shells_kinds.params.piercingPower, piercingPower[0], eqPiercingFactor, backport.getNiceNumberFormat)
+                    params.append(backport.text(R.strings.ingame_gui.shells_kinds.params.piercingPower(), value=backport.getNiceNumberFormat(int(round(piercingPower[0])))))
             if hasDistanceFactor:
                 minSpeed, maxSpeed = minMaxShotSpeed
                 minSpeed = int(minSpeed / projSpeedFactor)
                 maxSpeed = int(maxSpeed / projSpeedFactor)
                 params.append(backport.text(R.strings.ingame_gui.shells_kinds.params.shotSpeedAccelerated(), value=formatParameter(SHOT_SPEED_ACCELERATED_PROP_NAME, (minSpeed, maxSpeed))))
             else:
-                self.__addParam(params, R.strings.ingame_gui.shells_kinds.params.shotSpeed, shotSpeed / projSpeedFactor, eqSpeedFactor, backport.getIntegralFormat)
+                params.append(backport.text(R.strings.ingame_gui.shells_kinds.params.shotSpeed(), value=backport.getIntegralFormat(int(round(shotSpeed / projSpeedFactor)))))
             if kind == SHELL_TYPES.HIGH_EXPLOSIVE and descriptor.type.explosionRadius > 0.0:
                 params.append(backport.text(R.strings.ingame_gui.shells_kinds.params.explosionRadius(), value=backport.getNiceNumberFormat(descriptor.type.explosionRadius)))
             if descriptor.hasStun and self.lobbyContext.getServerSettings().spgRedesignFeatures.isStunEnabled():
@@ -721,19 +692,19 @@ class ConsumablesPanel(IAmmoListener, ConsumablesPanelMeta, BattleGUIKeyHandler,
             fmt = TOOLTIP_NO_BODY_FORMAT
         return fmt.format(header, body)
 
-    def __getDamageParam(self, descriptor, damageMultiplier=_DEFAULT_DAMAGE_MULTIPLIER, equipmentDamageFactor=1.0):
-        if descriptor.distanceDmg is not None:
+    def __getDamageParam(self, descriptor, damageMultiplier):
+        if descriptor.distanceDmg is None:
+            if descriptor.distanceFactor is not None:
+                localization = R.strings.ingame_gui.shells_kinds.params.damageRange()
+                value = formatParameter(DAMAGE_PROP_NAME, descriptor.randomizationDmgLimits)
+            else:
+                localization = R.strings.ingame_gui.shells_kinds.params.damage()
+                value = backport.getNiceNumberFormat(int(round(descriptor.avgDamage * damageMultiplier)))
+        else:
             localization = R.strings.ingame_gui.shells_kinds.params.damageRange()
             damage = descriptor.distanceDmg.damage
             currentDistanceDmg = DistanceDamageParams.MinMax(int(round(damage.min * damageMultiplier)), int(round(damage.max * damageMultiplier)))
             value = formatParameter(DISTANCE_DAMAGE_PROP_NAME, currentDistanceDmg)
-        elif descriptor.distanceFactor is not None:
-            localization = R.strings.ingame_gui.shells_kinds.params.damageRange()
-            value = formatParameter(DAMAGE_PROP_NAME, descriptor.randomizationDmgLimits)
-        else:
-            localization = R.strings.ingame_gui.shells_kinds.params.damage()
-            avgDamage = descriptor.avgDamage * damageMultiplier
-            value = self.__getParamVal(avgDamage, equipmentDamageFactor, backport.getNiceNumberFormat)
         if damageMultiplier != self._DEFAULT_DAMAGE_MULTIPLIER:
             value = text_styles.premiumVehicleName(value)
         return backport.text(localization, value=value)

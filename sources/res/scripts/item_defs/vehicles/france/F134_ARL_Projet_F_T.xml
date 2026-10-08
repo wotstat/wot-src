@@ -2192,14 +2192,18 @@
 						<maxPitch>0.00000 8.00 0.01667 5.00 0.04722 5.00 0.05000 8.00 0.40000 8.00 0.44000 6.00 0.56000 6.00 0.60000 8.00 1.00000 8.00</maxPitch>
 					</pitchLimits>
 					<invisibilityFactorAtShot>0.144</invisibilityFactorAtShot>
-					<reloadTime>13.5</reloadTime>
-					<aimingTime>2.4</aimingTime>
+					<reloadTime>32</reloadTime>
+					<clip>
+						<count>3</count>
+						<rate>15</rate>
+					</clip>
+					<aimingTime>2.5</aimingTime>
 					<shotDispersionFactors>
 						<turretRotation>0.14</turretRotation>
 						<afterShot>3.0</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
-					<shotDispersionRadius>0.35</shotDispersionRadius>
+					<shotDispersionRadius>0.4</shotDispersionRadius>
 					<customizationSlots>
 						<slot>
 							<slotType>paint</slotType>

@@ -5117,10 +5117,14 @@ class RES_ICONS(object):
     MAPS_ICONS_DAILY_QUESTS_TABS_SELECTED_BIG = b'../maps/icons/daily/quests/tabs/selected_big.png'
     MAPS_ICONS_DAILY_QUESTS_TABS_SEPARATOR = b'../maps/icons/daily/quests/tabs/separator.png'
     MAPS_ICONS_DAILY_QUESTS_TABS_WARNING = b'../maps/icons/daily/quests/tabs/warning.png'
-    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_BG = b'../maps/icons/daily/sessionProgressRewardScreen/bg.png'
-    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_RADIAL_LINES = b'../maps/icons/daily/sessionProgressRewardScreen/radial_lines.png'
-    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_RAYS = b'../maps/icons/daily/sessionProgressRewardScreen/rays.png'
-    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_RIBBON_GOLD = b'../maps/icons/daily/sessionProgressRewardScreen/ribbon_gold.png'
+    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_BG_LARGE = b'../maps/icons/daily/sessionProgressRewardScreen/bg_large.png'
+    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_BG_MEDIUM = b'../maps/icons/daily/sessionProgressRewardScreen/bg_medium.png'
+    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_BG_SMALL = b'../maps/icons/daily/sessionProgressRewardScreen/bg_small.png'
+    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_RAYS_MEDIUM = b'../maps/icons/daily/sessionProgressRewardScreen/rays_medium.png'
+    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_RAYS_SMALL = b'../maps/icons/daily/sessionProgressRewardScreen/rays_small.png'
+    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_RIBBON_GOLD_LARGE = b'../maps/icons/daily/sessionProgressRewardScreen/ribbon_gold_large.png'
+    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_RIBBON_GOLD_MEDIUM = b'../maps/icons/daily/sessionProgressRewardScreen/ribbon_gold_medium.png'
+    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_RIBBON_GOLD_SMALL = b'../maps/icons/daily/sessionProgressRewardScreen/ribbon_gold_small.png'
     MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_TOOLTIP_COMPENSATIONARROW = b'../maps/icons/daily/sessionProgressRewardScreen/tooltip/compensationArrow.png'
     MAPS_ICONS_DAILY_WEEKLYREWARDSCREEN_RAYS = b'../maps/icons/daily/weeklyRewardScreen/rays.png'
     MAPS_ICONS_DAILY_WEEKLYREWARDSCREEN_RIBBON = b'../maps/icons/daily/weeklyRewardScreen/ribbon.png'
@@ -15242,6 +15246,7 @@ class RES_ICONS(object):
     MAPS_ICONS_QUESTS_BONUSES_S296X222_BRCOIN = b'../maps/icons/quests/bonuses/s296x222/brcoin.png'
     MAPS_ICONS_QUESTS_BONUSES_S296X222_BROCHURE_GIFT = b'../maps/icons/quests/bonuses/s296x222/brochure_gift.png'
     MAPS_ICONS_QUESTS_BONUSES_S296X222_BUMBLEBEE_COIN = b'../maps/icons/quests/bonuses/s296x222/bumblebee_coin.png'
+    MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGE = b'../maps/icons/quests/bonuses/s296x222/camouflage.png'
     MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGEBATTLEBOOSTER = b'../maps/icons/quests/bonuses/s296x222/camouflageBattleBooster.png'
     MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGENET = b'../maps/icons/quests/bonuses/s296x222/camouflageNet.png'
     MAPS_ICONS_QUESTS_BONUSES_S296X222_CHOCOLATE = b'../maps/icons/quests/bonuses/s296x222/chocolate.png'
@@ -17219,16 +17224,11 @@ class RES_ICONS(object):
     MAPS_ICONS_ROLESKILLS_48X48_CONCENTRATION = b'../maps/icons/roleSkills/48x48/concentration.png'
     MAPS_ICONS_ROLESKILLS_48X48_COOLANT_TANK = b'../maps/icons/roleSkills/48x48/coolant_tank.png'
     MAPS_ICONS_ROLESKILLS_48X48_JUGGERNAUT = b'../maps/icons/roleSkills/48x48/juggernaut.png'
-    MAPS_ICONS_ROLESKILLS_48X48_JUGGERNAUT_OLD = b'../maps/icons/roleSkills/48x48/juggernaut_old.png'
     MAPS_ICONS_ROLESKILLS_48X48_NOT_FOUND_ARTEFACT = b'../maps/icons/roleSkills/48x48/not_found_artefact.png'
     MAPS_ICONS_ROLESKILLS_48X48_RECOIL_RECUPERATOR = b'../maps/icons/roleSkills/48x48/recoil_recuperator.png'
-    MAPS_ICONS_ROLESKILLS_48X48_RECOIL_RECUPERATOR_OLD = b'../maps/icons/roleSkills/48x48/recoil_recuperator_old.png'
     MAPS_ICONS_ROLESKILLS_48X48_SHOT_PASSION = b'../maps/icons/roleSkills/48x48/shot_passion.png'
-    MAPS_ICONS_ROLESKILLS_48X48_SHOT_PASSION_OLD = b'../maps/icons/roleSkills/48x48/shot_passion_old.png'
     MAPS_ICONS_ROLESKILLS_48X48_SURE_SHOT = b'../maps/icons/roleSkills/48x48/sure_shot.png'
-    MAPS_ICONS_ROLESKILLS_48X48_SURE_SHOT_OLD = b'../maps/icons/roleSkills/48x48/sure_shot_old.png'
     MAPS_ICONS_ROLESKILLS_48X48_TANK_RAM = b'../maps/icons/roleSkills/48x48/tank_ram.png'
-    MAPS_ICONS_ROLESKILLS_48X48_TANK_RAM_OLD = b'../maps/icons/roleSkills/48x48/tank_ram_old.png'
     MAPS_ICONS_ROLESKILLS_80X80_COMP7_AGGRESSIVE_DETECTION = b'../maps/icons/roleSkills/80x80/comp7_aggressive_detection.png'
     MAPS_ICONS_ROLESKILLS_80X80_COMP7_ALLY_SUPPORT = b'../maps/icons/roleSkills/80x80/comp7_ally_support.png'
     MAPS_ICONS_ROLESKILLS_80X80_COMP7_AOE_HEAL = b'../maps/icons/roleSkills/80x80/comp7_aoe_heal.png'
@@ -19770,13 +19770,6 @@ class RES_ICONS(object):
     MAPS_ICONS_VEHPARAMS_BIG_ENGINEPOWER = b'../maps/icons/vehParams/big/enginePower.png'
     MAPS_ICONS_VEHPARAMS_BIG_ENGINEPOWERPERTON = b'../maps/icons/vehParams/big/enginePowerPerTon.png'
     MAPS_ICONS_VEHPARAMS_BIG_EQUIPMENTPREPARATIONTIME = b'../maps/icons/vehParams/big/equipmentPreparationTime.png'
-    MAPS_ICONS_VEHPARAMS_BIG_EXTRAABILITYPARAMCHASSISROTATIONSPEED = b'../maps/icons/vehParams/big/extraAbilityParamChassisRotationSpeed.png'
-    MAPS_ICONS_VEHPARAMS_BIG_EXTRAABILITYPARAMGUNCLIPCOOLDOWN = b'../maps/icons/vehParams/big/extraAbilityParamGunClipCooldown.png'
-    MAPS_ICONS_VEHPARAMS_BIG_EXTRAABILITYPARAMSHELLDAMAGE = b'../maps/icons/vehParams/big/extraAbilityParamShellDamage.png'
-    MAPS_ICONS_VEHPARAMS_BIG_EXTRAABILITYPARAMSHELLPIERCING = b'../maps/icons/vehParams/big/extraAbilityParamShellPiercing.png'
-    MAPS_ICONS_VEHPARAMS_BIG_EXTRAABILITYPARAMSHELLSPEED = b'../maps/icons/vehParams/big/extraAbilityParamShellSpeed.png'
-    MAPS_ICONS_VEHPARAMS_BIG_EXTRAABILITYPARAMSPEEDBONUS = b'../maps/icons/vehParams/big/extraAbilityParamSpeedBonus.png'
-    MAPS_ICONS_VEHPARAMS_BIG_EXTRAABILITYPARAMTURRETROTATIONSPEED = b'../maps/icons/vehParams/big/extraAbilityParamTurretRotationSpeed.png'
     MAPS_ICONS_VEHPARAMS_BIG_FIREEXTINGUISHINGRATE = b'../maps/icons/vehParams/big/fireExtinguishingRate.png'
     MAPS_ICONS_VEHPARAMS_BIG_FLAMEMAXDISTANCE = b'../maps/icons/vehParams/big/flameMaxDistance.png'
     MAPS_ICONS_VEHPARAMS_BIG_FOLIAGEMASKINGFACTOR = b'../maps/icons/vehParams/big/foliageMaskingFactor.png'
@@ -19904,13 +19897,6 @@ class RES_ICONS(object):
     MAPS_ICONS_VEHPARAMS_SMALL_ENGINEPOWER = b'../maps/icons/vehParams/small/enginePower.png'
     MAPS_ICONS_VEHPARAMS_SMALL_ENGINEPOWERPERTON = b'../maps/icons/vehParams/small/enginePowerPerTon.png'
     MAPS_ICONS_VEHPARAMS_SMALL_EQUIPMENTPREPARATIONTIME = b'../maps/icons/vehParams/small/equipmentPreparationTime.png'
-    MAPS_ICONS_VEHPARAMS_SMALL_EXTRAABILITYPARAMCHASSISROTATIONSPEED = b'../maps/icons/vehParams/small/extraAbilityParamChassisRotationSpeed.png'
-    MAPS_ICONS_VEHPARAMS_SMALL_EXTRAABILITYPARAMGUNCLIPCOOLDOWN = b'../maps/icons/vehParams/small/extraAbilityParamGunClipCooldown.png'
-    MAPS_ICONS_VEHPARAMS_SMALL_EXTRAABILITYPARAMSHELLDAMAGE = b'../maps/icons/vehParams/small/extraAbilityParamShellDamage.png'
-    MAPS_ICONS_VEHPARAMS_SMALL_EXTRAABILITYPARAMSHELLPIERCING = b'../maps/icons/vehParams/small/extraAbilityParamShellPiercing.png'
-    MAPS_ICONS_VEHPARAMS_SMALL_EXTRAABILITYPARAMSHELLSPEED = b'../maps/icons/vehParams/small/extraAbilityParamShellSpeed.png'
-    MAPS_ICONS_VEHPARAMS_SMALL_EXTRAABILITYPARAMSPEEDBONUS = b'../maps/icons/vehParams/small/extraAbilityParamSpeedBonus.png'
-    MAPS_ICONS_VEHPARAMS_SMALL_EXTRAABILITYPARAMTURRETROTATIONSPEED = b'../maps/icons/vehParams/small/extraAbilityParamTurretRotationSpeed.png'
     MAPS_ICONS_VEHPARAMS_SMALL_FIREEXTINGUISHINGRATE = b'../maps/icons/vehParams/small/fireExtinguishingRate.png'
     MAPS_ICONS_VEHPARAMS_SMALL_FLAMEMAXDISTANCE = b'../maps/icons/vehParams/small/flameMaxDistance.png'
     MAPS_ICONS_VEHPARAMS_SMALL_FOLIAGEMASKINGFACTOR = b'../maps/icons/vehParams/small/foliageMaskingFactor.png'
@@ -22844,6 +22830,7 @@ class RES_ICONS(object):
      MAPS_ICONS_QUESTS_BONUSES_S296X222_BRCOIN,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_BROCHURE_GIFT,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_BUMBLEBEE_COIN,
+     MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGE,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGEBATTLEBOOSTER,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGENET,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_CHOCOLATE,
@@ -28477,6 +28464,7 @@ class RES_ICONS(object):
      MAPS_ICONS_QUESTS_BONUSES_S296X222_BRCOIN,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_BROCHURE_GIFT,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_BUMBLEBEE_COIN,
+     MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGE,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGEBATTLEBOOSTER,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGENET,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_CHOCOLATE,
@@ -33679,6 +33667,7 @@ class RES_ICONS(object):
      MAPS_ICONS_QUESTS_BONUSES_S296X222_BRCOIN,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_BROCHURE_GIFT,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_BUMBLEBEE_COIN,
+     MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGE,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGEBATTLEBOOSTER,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_CAMOUFLAGENET,
      MAPS_ICONS_QUESTS_BONUSES_S296X222_CHOCOLATE,

@@ -7515,7 +7515,6 @@ def _readImpactParams(xmlCtx, section, paramName):
             params.damageAbsorptionType = DamageAbsorptionLabelToType.get(label)
         params.useEffectiveArmor = subsection.has_key(b'useEffectiveArmor')
         params.isActive = params.radius and (params.damages[0] or params.damages[1])
-        params.useFactorAfterCalcDamage = subsection.has_key(b'useFactorAfterCalcDamage')
         return params
 
 

@@ -216,55 +216,25 @@
   animation: Content_slideUp_ed 0.4s cubic-bezier(0.07, 0.82, 0.17, 1) 0.7s forwards;
   width: 1366rem;
   height: 356rem;
-  margin-top: -80rem;
-  background: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.ribbon_gold") no-repeat
-    center / contain;
+  margin-top: -100rem;
+  background: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.ribbon_gold_small")
+    no-repeat center / contain;
   position: absolute;
   top: 50%;
   left: auto;
-  z-index: 1;
+  z-index: 0;
 }
 .mediaMedium .Content_ribbon_43 {
   width: 1600rem;
   height: 417rem;
   margin-top: -90rem;
+  background-image: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.ribbon_gold_medium");
 }
 .mediaLarge .Content_ribbon_43 {
   width: 1920rem;
   height: 500rem;
   margin-top: -110rem;
-}
-.Content_radialLinesWrapper_19 {
-  width: 940rem;
-  height: 940rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 0;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
-.mediaLarge .Content_radialLinesWrapper_19 {
-  width: 1120rem;
-  height: 1120rem;
-}
-.Content_radialLines_60 {
-  opacity: 0;
-  animation-name: Content_raysAppearance_3e, Content_rotate_fe;
-  animation-duration: 0.4s, 120s;
-  animation-fill-mode: forwards, forwards;
-  animation-timing-function: cubic-bezier(0.07, 0.82, 0.17, 1), linear;
-  animation-delay: 0.9s, 1.1s;
-  animation-iteration-count: 1, infinite;
-  width: 100%;
-  height: 100%;
-  background: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.radial_lines")
-    no-repeat center / cover;
-  opacity: 0.8;
-  mix-blend-mode: screen;
-  position: absolute;
-  top: 0;
-  left: 0;
+  background-image: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.ribbon_gold_large");
 }
 .Content_raysWrapper_4b {
   width: 940rem;
@@ -272,7 +242,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  z-index: 0;
+  z-index: 1;
   transform: translate(-50%, -50%);
   pointer-events: none;
 }
@@ -290,12 +260,15 @@
   animation-iteration-count: 1, infinite;
   width: 100%;
   height: 100%;
-  background: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.rays") no-repeat
+  background: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.rays_small") no-repeat
     center / contain;
   mix-blend-mode: screen;
   position: absolute;
   top: 0;
   left: 0;
+}
+.mediaMedium .Content_rays_de {
+  background-image: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.rays_medium");
 }
 .Content_mainRewards_a9 {
   display: flex;
@@ -1391,11 +1364,17 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 .App_bg_69 {
   width: 100%;
   height: 100%;
-  background: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.bg") no-repeat center /
-    cover;
+  background: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.bg_small") no-repeat
+    center / cover;
   position: absolute;
   top: 0;
   left: 0;
+}
+.mediaMedium .App_bg_69 {
+  background-image: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.bg_medium");
+}
+.mediaLarge .App_bg_69 {
+  background-image: url("R.images.gui.maps.icons.daily.sessionProgressRewardScreen.bg_large");
 }
 .App_header_04 {
   position: absolute;

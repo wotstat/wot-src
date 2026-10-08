@@ -105,7 +105,7 @@ class PortalBattleUISound(CONST_CONTAINER):
     POSTMORTEM_OFF = b'ev_portal_gameplay_postmortem_off'
     GAMEPLAY_ENTER = b'ev_portal_gameplay_enter'
     GAMEPLAY_EXIT = b'ev_portal_gameplay_exit'
-    PREBATTLE_TO_BATTLE_TIMER = 10
+    PREBATTLE_TO_BATTLE_TIMER = 2
     PREBATTLE_TO_BATTLE_ON = b'ev_portal_prebattle_tobattle_transition_on'
     PREBATTLE_TO_BATTLE_OFF = b'ev_portal_prebattle_tobattle_transition_off'
     HANGAR_ENTER = b'ev_portal_hangar_enter'

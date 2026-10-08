@@ -4,6 +4,10 @@
   width: 766rem;
 }
 
+.App_base__compact_74 {
+  width: 516rem;
+}
+
 .mediaSmall .App_base_a6 {
   width: 826rem;
 }
@@ -914,6 +918,48 @@
   position: relative;
 }
 
+.RewardCard_base_7a:nth-child(5n) {
+  margin-right: 0;
+}
+
+.mediaLarge .RewardCard_base_7a:nth-child(5n) {
+  margin-right: 0;
+}
+
+.RewardCard_base__compact_26 {
+  width: 126rem;
+  height: 126rem;
+}
+
+.RewardCard_base__compact_26:nth-child(4n) {
+  margin-right: 0;
+}
+
+.RewardCard_base__compact_26:nth-child(5n) {
+  margin-right: 4rem;
+}
+
+.RewardCard_base__compact_26.RewardCard_base__final_cf {
+  width: 256rem;
+  height: 126rem;
+}
+
+.RewardCard_base__compact_26 .RewardCard_rewards_49 {
+  padding: 0 11rem;
+}
+
+.RewardCard_base__compact_26 .RewardCard_finalMain_74 {
+  width: 152rem;
+  height: 113rem;
+  top: 6rem;
+  left: 24rem;
+}
+
+.RewardCard_base__compact_26 .RewardCard_finalAside_7e {
+  top: 8rem;
+  right: 24rem;
+}
+
 .mediaSmall .RewardCard_base_7a {
   width: 162rem;
   height: 162rem;
@@ -928,10 +974,6 @@
   width: 212rem;
   height: 212rem;
   margin: 0 8rem 8rem 0;
-}
-
-.RewardCard_base_7a:nth-child(5n) {
-  margin-right: 0;
 }
 
 .RewardCard_base__final_cf {

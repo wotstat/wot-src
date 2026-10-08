@@ -2656,6 +2656,10 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   width: 766rem;
 }
 
+.App_base__compact_74 {
+  width: 516rem;
+}
+
 .mediaSmall .App_base_a6 {
   width: 826rem;
 }
@@ -3104,6 +3108,48 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   position: relative;
 }
 
+.RewardCard_base_7a:nth-child(5n) {
+  margin-right: 0;
+}
+
+.mediaLarge .RewardCard_base_7a:nth-child(5n) {
+  margin-right: 0;
+}
+
+.RewardCard_base__compact_26 {
+  width: 126rem;
+  height: 126rem;
+}
+
+.RewardCard_base__compact_26:nth-child(4n) {
+  margin-right: 0;
+}
+
+.RewardCard_base__compact_26:nth-child(5n) {
+  margin-right: 4rem;
+}
+
+.RewardCard_base__compact_26.RewardCard_base__final_cf {
+  width: 256rem;
+  height: 126rem;
+}
+
+.RewardCard_base__compact_26 .RewardCard_rewards_49 {
+  padding: 0 11rem;
+}
+
+.RewardCard_base__compact_26 .RewardCard_finalMain_74 {
+  width: 152rem;
+  height: 113rem;
+  top: 6rem;
+  left: 24rem;
+}
+
+.RewardCard_base__compact_26 .RewardCard_finalAside_7e {
+  top: 8rem;
+  right: 24rem;
+}
+
 .mediaSmall .RewardCard_base_7a {
   width: 162rem;
   height: 162rem;
@@ -3118,10 +3164,6 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   width: 212rem;
   height: 212rem;
   margin: 0 8rem 8rem 0;
-}
-
-.RewardCard_base_7a:nth-child(5n) {
-  margin-right: 0;
 }
 
 .RewardCard_base__final_cf {
@@ -4500,6 +4542,14 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   padding: 48rem 0 0;
 }
 
+.MainPage_base__compact_21 .MainPage_contentWrapper_03 {
+  width: 516rem;
+}
+
+.MainPage_base__compact_21 .MainPage_scroll_e6 {
+  width: 516rem;
+}
+
 .mediaMedium .MainPage_base_fa {
   padding: 58rem 0 0;
 }
@@ -4516,12 +4566,12 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   width: 806rem;
   height: 100%;
   min-height: 0;
   margin-left: 60rem;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .mediaSmall .MainPage_contentWrapper_03 {
@@ -4537,9 +4587,22 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 }
 
 .MainPage_scroll_e6 {
-  width: 100%;
+  width: 766rem;
   height: 100%;
   min-height: 0;
+  position: relative;
+}
+
+.mediaSmall .MainPage_scroll_e6 {
+  width: 826rem;
+}
+
+.mediaMedium .MainPage_scroll_e6 {
+  width: 976rem;
+}
+
+.mediaLarge .MainPage_scroll_e6 {
+  width: 1092rem;
 }
 
 .MainPage_scrollArea_2e {
@@ -4549,6 +4612,26 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 
 .MainPage_scrollContent_27 {
   width: 100%;
+}
+
+.MainPage_scrollBar_d6 {
+  flex: none;
+  width: 13rem;
+  height: 100%;
+  padding: 10rem 0;
+  position: absolute;
+  top: 0;
+  right: -12rem;
+  z-index: 1;
+  transform: translateX(100%);
+}
+
+.mediaSmall .MainPage_scrollBar_d6 {
+  right: -16rem;
+}
+
+.mediaMedium .MainPage_scrollBar_d6 {
+  right: -20rem;
 }
 
 @keyframes App_hiddenBlink_62 {

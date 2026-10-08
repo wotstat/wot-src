@@ -6437,50 +6437,51 @@
           I = t(7701),
           H = t(2344),
           Q = t(8025),
-          U = t(9440),
-          G = t(2603),
-          W = t(648),
-          $ = t(4528),
-          j = t(7613),
-          q = t(3415),
-          z = t(6373),
-          Z = t(7727);
-        const X = "TabCathegory_base_76",
-          Y = "TabCathegory_info_bd",
-          V = "TabCathegory_battleModes_cb",
-          K = "TabCathegory_battleModeIcon_35",
-          J = "TabCathegory_battleModeHidden_22",
-          ee = ({ label: e, infoTooltipAgs: u, battleModes: t, onInfoClick: a }) => {
+          U = t(2102),
+          G = t(4381),
+          W = t(2603),
+          $ = t(648),
+          j = t(4528),
+          q = t(7613),
+          z = t(3415),
+          Z = t(6373),
+          X = t(7727);
+        const Y = "TabCathegory_base_76",
+          V = "TabCathegory_info_bd",
+          K = "TabCathegory_battleModes_cb",
+          J = "TabCathegory_battleModeIcon_35",
+          ee = "TabCathegory_battleModeHidden_22",
+          ue = ({ label: e, infoTooltipAgs: u, battleModes: t, onInfoClick: a }) => {
             const r = t.slice(0, 3);
             return n().createElement(
               "div",
-              { className: X },
+              { className: Y },
               n().createElement("div", null, e),
               n().createElement(
-                z.i,
+                Z.i,
                 u,
                 n().createElement("div", {
-                  className: Y,
+                  className: V,
                   onClick: () => {
-                    ((0, Z.G)(R.sounds.play()), a());
+                    ((0, X.G)(R.sounds.play()), a());
                   },
-                  onMouseEnter: Z.$.playHighlight,
+                  onMouseEnter: X.$.playHighlight,
                 }),
               ),
               n().createElement(
-                q.l,
+                z.l,
                 {
                   tooltipArgs: {
                     contentId: R.views.lobby.daily.tooltips.ModeSelectorTooltip("resId"),
                   },
-                  className: V,
+                  className: K,
                 },
                 n().createElement(
                   n().Fragment,
                   null,
                   r.map((e, u) =>
                     n().createElement("div", {
-                      className: K,
+                      className: J,
                       style: {
                         backgroundImage: `url(R.images.gui.maps.icons.battleTypeIcons.c_32x32.c_${e})`,
                       },
@@ -6488,119 +6489,124 @@
                     }),
                   ),
                   t.length > 3 &&
-                    n().createElement(j.ZP, {
-                      className: J,
+                    n().createElement(q.ZP, {
+                      className: ee,
                       text: R.strings.quests.dailyQuests.tab.hiddenBattleTypes(),
                     }),
                 ),
               ),
             );
           },
-          ue = "Tabs_base_5f",
-          te = R.strings.quests,
-          ae = R.views.lobby,
-          re = (0, v.Pi)(({ selectedTabIndex: e, onTabClick: u }) => {
+          te = "Tabs_base_5f",
+          ae = R.strings.quests,
+          re = R.views.lobby,
+          ne = (0, v.Pi)(({ selectedTabIndex: e, onTabClick: u }) => {
             const t = k(),
               a = t.model,
               r = t.controls,
               s = a.computes.isSerialEnterEnabled();
             return n().createElement(
               "div",
-              { className: ue },
+              { className: te },
               s &&
                 n().createElement(
                   n().Fragment,
                   null,
-                  n().createElement(ee, {
-                    label: te.missions.tab.serialEnter.header(),
+                  n().createElement(ue, {
+                    label: ae.missions.tab.serialEnter.header(),
                     infoTooltipAgs: {
-                      header: te.dailyQuests.tab.cathegory.tooltip.serialEnter.header(),
-                      body: te.dailyQuests.tab.cathegory.tooltip.serialEnter.body(),
+                      header: ae.dailyQuests.tab.cathegory.tooltip.serialEnter.header(),
+                      body: ae.dailyQuests.tab.cathegory.tooltip.serialEnter.body(),
                     },
                     onInfoClick: r.onShowInfo,
                     battleModes: a.computes.getSerialEnterBattleTypes(),
                   }),
-                  n().createElement($.B, {
-                    resId: ae.daily.SerialEnterTabView("resId"),
+                  n().createElement(j.B, {
+                    resId: re.daily.SerialEnterTabView("resId"),
                     onClick: u,
                     isSelected: e === T.g.SerialEnter,
                   }),
                 ),
-              n().createElement(ee, {
-                label: te.missions.tab.daily.header(),
+              n().createElement(ue, {
+                label: ae.missions.tab.daily.header(),
                 infoTooltipAgs: {
-                  header: te.dailyQuests.tab.cathegory.tooltip.daily.header(),
-                  body: te.dailyQuests.tab.cathegory.tooltip.daily.body(),
+                  header: ae.dailyQuests.tab.cathegory.tooltip.daily.header(),
+                  body: ae.dailyQuests.tab.cathegory.tooltip.daily.body(),
                 },
                 onInfoClick: r.infoClick,
                 battleModes: a.computes.getDailyBattleTypes(),
               }),
-              n().createElement(W._, {
-                resId: ae.daily.DailyQuestRegularTabView("resId"),
+              n().createElement($._, {
+                resId: re.daily.DailyQuestRegularTabView("resId"),
                 onClick: u,
                 isSelected: e === T.g.DailyQuests,
               }),
-              n().createElement(G.V, {
-                resId: ae.daily.DailyQuestPremiumTabView("resId"),
+              n().createElement(W.V, {
+                resId: re.daily.DailyQuestPremiumTabView("resId"),
                 onClick: u,
                 isSelected: e === T.g.PremiumQuests,
               }),
             );
           }),
-          ne = "MainPage_base_fa",
-          se = "MainPage_contentWrapper_03",
-          ie = "MainPage_scroll_e6",
-          oe = "MainPage_scrollArea_2e",
-          le = "MainPage_scrollContent_27",
-          ce = (0, v.Pi)(() => {
+          se = "MainPage_base_fa",
+          ie = "MainPage_base__compact_21",
+          oe = "MainPage_contentWrapper_03",
+          le = "MainPage_scroll_e6",
+          ce = "MainPage_scrollArea_2e",
+          de = "MainPage_scrollContent_27",
+          me = "MainPage_scrollBar_d6",
+          _e = (0, v.Pi)(() => {
             const e = k(),
               u = e.model,
               t = e.controls,
               a = u.computes.isSerialEnterEnabled(),
               s = u.computes.getCurrentTabIndex(),
-              i = (0, r.useState)(s),
-              o = i[0],
-              l = i[1],
-              c = (0, H.tp)(o, 500),
-              d = (0, I.c4)();
+              o = (0, r.useState)(s),
+              l = o[0],
+              d = o[1],
+              m = (0, H.tp)(l, 500),
+              _ = (0, I.c4)(),
+              E = (0, c.GS)().remScreenWidth,
+              A = (0, U.xD)(E);
             (0, r.useEffect)(() => {
-              l(s);
+              d(s);
             }, [s]);
-            const m = (0, r.useCallback)(
+            const g = (0, r.useCallback)(
                 (e) => {
-                  (l(e), t.tabClick(e));
+                  (d(e), t.tabClick(e));
                 },
                 [t],
               ),
-              _ = (0, r.useMemo)(() => (a || c !== T.g.SerialEnter ? c : s), [c, a, s]),
-              E = _ === T.g.DailyQuests || _ === T.g.PremiumQuests,
-              A = a && _ === T.g.SerialEnter;
+              D = (0, r.useMemo)(() => (a || m !== T.g.SerialEnter ? m : s), [m, a, s]),
+              p = D === T.g.DailyQuests || D === T.g.PremiumQuests,
+              F = a && D === T.g.SerialEnter;
             return n().createElement(
               "div",
-              { className: ne },
-              n().createElement(re, { selectedTabIndex: o, onTabClick: m }),
+              { className: i()(se, A && ie) },
+              n().createElement(ne, { selectedTabIndex: l, onTabClick: g }),
               n().createElement(
                 "div",
-                { className: se },
-                E &&
+                { className: oe },
+                p &&
                   n().createElement(Q.Q, {
                     resId: R.views.lobby.daily.DailyQuestsRegularView("resId"),
                   }),
-                A &&
+                F &&
                   n().createElement(
                     O.X.Vertical.Default,
                     {
-                      className: ie,
-                      scrollClassName: oe,
-                      scrollClassNames: { content: le },
-                      api: d,
+                      className: le,
+                      scrollClassName: ce,
+                      scrollClassNames: { content: de },
+                      barClassNames: { base: me },
+                      api: _,
                     },
-                    n().createElement(U.k, { resId: R.views.lobby.daily.SerialEnterView("resId") }),
+                    n().createElement(G.k, { resId: R.views.lobby.daily.SerialEnterView("resId") }),
                   ),
               ),
             );
           }),
-          de = {
+          Ee = {
             base: "App_base_db",
             background: "App_background_4b",
             background__dailyQuests: "App_background__dailyQuests_ab",
@@ -6619,7 +6625,7 @@
             lightIn: "App_lightIn_57",
             lightInIcon: "App_lightInIcon_5e",
           },
-          me = (0, v.Pi)(() => {
+          Ae = (0, v.Pi)(() => {
             var e;
             const u = k(),
               t = u.model;
@@ -6639,19 +6645,19 @@
               });
             return n().createElement(
               "div",
-              { className: i()(de.base, de[`base__${a}`]) },
+              { className: i()(Ee.base, Ee[`base__${a}`]) },
               r((e, u) =>
                 n().createElement(w.animated.div, {
                   style: e,
-                  className: i()(de.background, de[`background__${u}`]),
+                  className: i()(Ee.background, Ee[`background__${u}`]),
                 }),
               ),
-              n().createElement(ce, null),
+              n().createElement(_e, null),
             );
           });
         engine.whenReady.then(() => {
           B().render(
-            n().createElement(p, null, n().createElement(L, null, n().createElement(me, null))),
+            n().createElement(p, null, n().createElement(L, null, n().createElement(Ae, null))),
             document.getElementById("root"),
           );
         });
@@ -6925,42 +6931,41 @@
             return r().createElement(A, { options: u }, r().createElement(f, e));
           });
       },
-      9440: (e, u, t) => {
+      4381: (e, u, t) => {
         "use strict";
         t.d(u, { k: () => le });
         var a = t(6179),
           r = t.n(a),
-          n = t(8515),
-          s = t(5415);
-        const i = "App_base_a6",
-          o = "App_grid_61",
-          l = "App_lastRow_97";
-        var c = t(6483),
-          d = t.n(c),
-          m = t(5739),
-          _ = t(7613),
-          E = t(2862);
-        const A = (e) => e === E.E4.Vehicles,
-          g = (e) => (e >= s.cJ.Medium ? E.h2.Big : E.h2.Small);
-        let D;
+          n = t(6483),
+          s = t.n(n),
+          i = t(5415),
+          o = t(8515);
+        const l = "App_base_a6",
+          c = "App_base__compact_74",
+          d = "App_grid_61",
+          m = "App_lastRow_97";
+        var _ = t(5739),
+          E = t(7613),
+          A = t(2102);
+        let g;
         !(function (e) {
           ((e.Disabled = "disabled"),
             (e.Current = "current"),
             (e.NeedRelogin = "needRelogin"),
             (e.Today = "today"),
             (e.Completed = "completed"));
-        })(D || (D = {}));
-        const p = [D.Completed, D.Today],
-          F = [D.Current, D.NeedRelogin],
-          B = (e) => p.includes(e),
-          C = (e, u, t, a) => {
+        })(g || (g = {}));
+        const D = [g.Completed, g.Today],
+          p = [g.Current, g.NeedRelogin],
+          F = (e) => D.includes(e),
+          B = (e, u, t, a) => {
             if (t && void 0 !== e.base__claiming) return e.base__claiming;
             if (a && void 0 !== e.base__today) return e.base__today;
-            return e[`base__${u === D.NeedRelogin ? D.Current : u}`];
+            return e[`base__${u === g.NeedRelogin ? g.Current : u}`];
           };
-        var b = t(122),
-          f = t(6970);
-        const h = (e) => {
+        var C = t(122),
+          b = t(6970);
+        const f = (e) => {
             const u = (0, a.useState)(!1),
               t = u[0],
               r = u[1],
@@ -6968,27 +6973,27 @@
               s = n[0],
               i = n[1],
               o = (0, a.useRef)(!1),
-              l = e === D.Today || s;
+              l = e === g.Today || s;
             return (
               (0, a.useEffect)(() => {
-                if (e === D.Current && !o.current)
+                if (e === g.Current && !o.current)
                   return (
                     (o.current = !0),
-                    (0, b.F)(
+                    (0, C.F)(
                       () => (
                         r(!0),
-                        (0, b.F)(() => {
+                        (0, C.F)(() => {
                           (r(!1), i(!0));
-                        }, f.i$)
+                        }, b.i$)
                       ),
-                      f.ul,
+                      b.ul,
                     )
                   );
               }, [e]),
               { isClaiming: t, isTodayStyle: l }
             );
           },
-          v = {
+          h = {
             base: "CalendarHeader_base_70",
             base__current: "CalendarHeader_base__current_43",
             border: "CalendarHeader_border_93",
@@ -7019,9 +7024,9 @@
             titleMain: "CalendarHeader_titleMain_50",
             subtitle: "CalendarHeader_subtitle_24",
           };
-        function w() {
+        function v() {
           return (
-            (w =
+            (v =
               Object.assign ||
               function (e) {
                 for (var u = 1; u < arguments.length; u++) {
@@ -7030,72 +7035,72 @@
                 }
                 return e;
               }),
-            w.apply(this, arguments)
+            v.apply(this, arguments)
           );
         }
-        const y = R.strings.quests.serialEnter.calendar,
-          S = r().memo(function ({ dayData: e }) {
+        const w = R.strings.quests.serialEnter.calendar,
+          y = r().memo(function ({ dayData: e }) {
             const u = e.day,
               t = e.rewards,
               a = e.state,
-              n = (0, s.GS)().mediaSize,
-              i = g(n),
-              o = h(a),
-              l = o.isClaiming,
-              c = o.isTodayStyle,
-              E = B(a) || c || l;
+              n = (0, i.GS)().mediaSize,
+              o = (0, A.yf)(n),
+              l = f(a),
+              c = l.isClaiming,
+              d = l.isTodayStyle,
+              m = F(a) || d || c;
             return r().createElement(
               "div",
-              { className: d()(v.base, C(v, a, l, c)) },
-              l &&
+              { className: s()(h.base, B(h, a, c, d)) },
+              c &&
                 r().createElement(
                   r().Fragment,
                   null,
                   r().createElement("div", {
-                    className: d()(v.claimBg, v.claimBg__today, v.claimBg__in),
+                    className: s()(h.claimBg, h.claimBg__today, h.claimBg__in),
                   }),
                   r().createElement("div", {
-                    className: d()(v.claimBg, v.claimBg__current, v.claimBg__out),
+                    className: s()(h.claimBg, h.claimBg__current, h.claimBg__out),
                   }),
                   r().createElement("div", {
-                    className: d()(v.border, v.border__today, v.border__in),
+                    className: s()(h.border, h.border__today, h.border__in),
                   }),
                   r().createElement("div", {
-                    className: d()(v.border, v.border__current, v.border__out),
+                    className: s()(h.border, h.border__current, h.border__out),
                   }),
                 ),
-              !l && r().createElement("div", { className: v.border }),
-              r().createElement(_.ZP, { className: v.day, text: String(u) }),
-              E && r().createElement("div", { className: v.check }),
+              !c && r().createElement("div", { className: h.border }),
+              r().createElement(E.ZP, { className: h.day, text: String(u) }),
+              m && r().createElement("div", { className: h.check }),
               r().createElement(
                 "div",
-                { className: v.content },
+                { className: h.content },
                 r().createElement(
                   "div",
-                  { className: v.rewards },
+                  { className: h.rewards },
                   t.map((e, u) =>
                     r().createElement(
-                      m.Q,
-                      w({ key: `header-${e.name}-${u}` }, e, { size: i, className: v.reward }),
+                      _.Q,
+                      v({ key: `header-${e.name}-${u}` }, e, { size: o, className: h.reward }),
                     ),
                   ),
                 ),
-                r().createElement("div", { className: v.separator }),
+                r().createElement("div", { className: h.separator }),
                 r().createElement(
                   "div",
-                  { className: v.textBlock },
+                  { className: h.textBlock },
                   r().createElement(
                     "div",
-                    { className: v.title },
-                    r().createElement(_.ZP, { className: v.titleMain, text: y.title() }),
+                    { className: h.title },
+                    r().createElement(E.ZP, { className: h.titleMain, text: w.title() }),
                   ),
-                  r().createElement(_.ZP, { className: v.subtitle, text: y.description() }),
+                  r().createElement(E.ZP, { className: h.subtitle, text: w.description() }),
                 ),
               ),
             );
           });
-        var P = t(7727);
-        const x = {
+        var S = t(7727);
+        const P = {
             base: "Preview_base_1f",
             base__hovered: "Preview_base__hovered_ee",
             icon: "Preview_icon_f3",
@@ -7105,7 +7110,7 @@
             label: "Preview_label_2e",
             base__visibleLabel: "Preview_base__visibleLabel_92",
           },
-          N = [
+          x = [
             "label",
             "isVisibleLabel",
             "autofocus",
@@ -7121,9 +7126,9 @@
             "onFocus",
             "onBlur",
           ];
-        function T() {
+        function N() {
           return (
-            (T =
+            (N =
               Object.assign ||
               function (e) {
                 for (var u = 1; u < arguments.length; u++) {
@@ -7132,25 +7137,25 @@
                 }
                 return e;
               }),
-            T.apply(this, arguments)
+            N.apply(this, arguments)
           );
         }
-        let M;
+        let T;
         !(function (e) {
           ((e.SMALL = "small"), (e.NORMAL = "normal"));
-        })(M || (M = {}));
-        const L = (0, a.memo)((e) => {
+        })(T || (T = {}));
+        const M = (0, a.memo)((e) => {
           let u = e.label,
             t = e.isVisibleLabel,
             n = void 0 !== t && t,
-            s = e.autofocus,
-            i = void 0 !== s && s,
-            o = e.soundHover,
-            l = void 0 === o ? "highlight" : o,
-            c = e.soundClick,
-            m = void 0 === c ? "play" : c,
+            i = e.autofocus,
+            o = void 0 !== i && i,
+            l = e.soundHover,
+            c = void 0 === l ? "highlight" : l,
+            d = e.soundClick,
+            m = void 0 === d ? "play" : d,
             _ = e.size,
-            E = void 0 === _ ? M.NORMAL : _,
+            E = void 0 === _ ? T.NORMAL : _,
             A = e.classNames,
             g = e.onClick,
             D = e.onMouseEnter,
@@ -7167,14 +7172,14 @@
                 n = Object.keys(e);
               for (a = 0; a < n.length; a++) ((t = n[a]), u.indexOf(t) >= 0 || (r[t] = e[t]));
               return r;
-            })(e, N);
+            })(e, x);
           const h = (0, a.useState)(!1),
             v = h[0],
             w = h[1],
             y = (0, a.useState)(!1),
-            S = y[0],
-            R = y[1],
-            L = (0, a.useState)(i),
+            R = y[0],
+            M = y[1],
+            L = (0, a.useState)(o),
             k = L[0],
             O = L[1],
             I = (0, a.useRef)(null),
@@ -7197,8 +7202,8 @@
             [Q],
           ),
             (0, a.useEffect)(() => {
-              O(i);
-            }, [i]));
+              O(o);
+            }, [o]));
           const U = (0, a.useCallback)(
               (e) => {
                 g && g(e);
@@ -7207,9 +7212,9 @@
             ),
             G = (0, a.useCallback)(
               (e) => {
-                (w(!0), F && F(e), m && (0, P.G)(m), i && H());
+                (w(!0), F && F(e), m && (0, S.G)(m), o && H());
               },
-              [i, F, H, m],
+              [o, F, H, m],
             ),
             W = (0, a.useCallback)(
               (e) => {
@@ -7219,13 +7224,13 @@
             ),
             $ = (0, a.useCallback)(
               (e) => {
-                (D && D(e), l && (0, P.G)(l), R(!0));
+                (D && D(e), c && (0, S.G)(c), M(!0));
               },
-              [D, l],
+              [D, c],
             ),
             j = (0, a.useCallback)(
               (e) => {
-                (w(!1), R(!1), p && p(e));
+                (w(!1), M(!1), p && p(e));
               },
               [p],
             ),
@@ -7241,19 +7246,19 @@
               },
               [b],
             ),
-            Z = d()(
-              x.base,
-              n && x.base__visibleLabel,
-              v && x.base__mouseDown,
-              S && x.base__hovered,
-              k && x.base__focused,
+            Z = s()(
+              P.base,
+              n && P.base__visibleLabel,
+              v && P.base__mouseDown,
+              R && P.base__hovered,
+              k && P.base__focused,
               null == A ? void 0 : A.base,
             ),
-            X = d()(x.icon, x[`icon__${E}`], null == A ? void 0 : A.icon),
-            Y = d()(x.label, null == A ? void 0 : A.label);
+            X = s()(P.icon, P[`icon__${E}`], null == A ? void 0 : A.icon),
+            Y = s()(P.label, null == A ? void 0 : A.label);
           return r().createElement(
             "div",
-            T(
+            N(
               {
                 ref: I,
                 className: Z,
@@ -7271,17 +7276,21 @@
             r().createElement("div", { className: Y }, u),
           );
         });
-        var k = t(3415),
+        var L = t(2862),
+          k = t(3415),
           O = t(3017);
         const I = {
             base: "RewardCard_base_7a",
+            base__compact: "RewardCard_base__compact_26",
             base__final: "RewardCard_base__final_cf",
+            rewards: "RewardCard_rewards_49",
+            finalMain: "RewardCard_finalMain_74",
+            finalAside: "RewardCard_finalAside_7e",
             base__disabled: "RewardCard_base__disabled_58",
             bg: "RewardCard_bg_c6",
             border: "RewardCard_border_b7",
             day: "RewardCard_day_4e",
             reward: "RewardCard_reward_4b",
-            finalMain: "RewardCard_finalMain_74",
             base__current: "RewardCard_base__current_dc",
             base__today: "RewardCard_base__today_0a",
             base__completed: "RewardCard_base__completed_9c",
@@ -7307,7 +7316,6 @@
             border__today: "RewardCard_border__today_96",
             border__out: "RewardCard_border__out_ff",
             border__in: "RewardCard_border__in_f9",
-            rewards: "RewardCard_rewards_49",
             rewards__final: "RewardCard_rewards__final_76",
             topReward: "RewardCard_topReward_ec",
             bottomRow: "RewardCard_bottomRow_5f",
@@ -7315,7 +7323,6 @@
             finalMainTooltip: "RewardCard_finalMainTooltip_b1",
             preview: "RewardCard_preview_9e",
             previewButton: "RewardCard_previewButton_5f",
-            finalAside: "RewardCard_finalAside_7e",
           },
           H = R.strings.quests.serialEnter.calendar,
           Q = (e, u) => () => {
@@ -7323,7 +7330,7 @@
           },
           U = (e, u, t, a = !0) => {
             var n;
-            return r().createElement(m.Q, {
+            return r().createElement(_.Q, {
               key: `${e}-${u.name}-${null != (n = u.value) ? n : ""}-${u.image}`,
               name: u.name,
               image: u.image,
@@ -7337,45 +7344,48 @@
           G = r().memo(function ({ dayData: e, onPreviewVehicle: u }) {
             var t, a;
             const n = e.day,
-              i = e.rewards,
-              o = e.isFinal,
-              l = e.state,
-              c = (0, s.GS)().mediaSize,
-              m = g(c),
-              p = E.h2.S180x135,
-              b = c >= s.cJ.Large ? M.NORMAL : M.SMALL,
-              f = h(l),
-              v = f.isClaiming,
-              w = f.isTodayStyle,
-              y = o ? i : i.slice(0, 3),
-              S = !o && 3 === y.length,
-              R = S ? y[0] : null,
-              P = S ? y.slice(1) : y,
-              x = B(l) || w || v,
-              N = (((e) => F.includes(e))(l) && !w) || v,
-              T = w || v,
-              G = y[0],
-              W =
-                null == G || null == (t = G.tooltipArgs) || null == (a = t.args) ? void 0 : a[O.WO],
-              $ = Boolean(o && G && A(G.name) && W);
+              o = e.rewards,
+              l = e.isFinal,
+              c = e.state,
+              d = (0, i.GS)(),
+              m = d.mediaSize,
+              _ = d.remScreenWidth,
+              D = (0, A.yf)(m),
+              C = (0, A.xD)(_),
+              b = L.h2.S180x135,
+              h = m >= i.cJ.Large ? T.NORMAL : T.SMALL,
+              v = f(c),
+              w = v.isClaiming,
+              y = v.isTodayStyle,
+              S = l ? o : o.slice(0, 3),
+              R = !l && 3 === S.length,
+              P = R ? S[0] : null,
+              x = R ? S.slice(1) : S,
+              N = F(c) || y || w,
+              G = (((e) => p.includes(e))(c) && !y) || w,
+              W = y || w,
+              $ = S[0],
+              j =
+                null == $ || null == (t = $.tooltipArgs) || null == (a = t.args) ? void 0 : a[O.WO],
+              q = Boolean(l && $ && (0, A.xj)($.name) && j);
             return r().createElement(
               "div",
-              { className: d()(I.base, o && I.base__final, C(I, l, v, w)) },
-              v
+              { className: s()(I.base, l && I.base__final, C && I.base__compact, B(I, c, w, y)) },
+              w
                 ? r().createElement(
                     r().Fragment,
                     null,
                     r().createElement("div", {
-                      className: d()(I.claimBg, I.claimBg__today, I.claimBg__in),
+                      className: s()(I.claimBg, I.claimBg__today, I.claimBg__in),
                     }),
                     r().createElement("div", {
-                      className: d()(I.claimBg, I.claimBg__current, I.claimBg__out),
+                      className: s()(I.claimBg, I.claimBg__current, I.claimBg__out),
                     }),
                     r().createElement("div", {
-                      className: d()(I.border, I.border__today, I.border__in),
+                      className: s()(I.border, I.border__today, I.border__in),
                     }),
                     r().createElement("div", {
-                      className: d()(I.border, I.border__current, I.border__out),
+                      className: s()(I.border, I.border__current, I.border__out),
                     }),
                   )
                 : r().createElement(
@@ -7384,21 +7394,21 @@
                     r().createElement("div", { className: I.bg }),
                     r().createElement("div", { className: I.border }),
                   ),
-              l === D.Disabled && r().createElement("div", { className: I.disabledOverlay }),
-              T &&
+              c === g.Disabled && r().createElement("div", { className: I.disabledOverlay }),
+              W &&
                 r().createElement("div", {
-                  className: d()(I.glow, I.glow__today, v && I.glow__in),
+                  className: s()(I.glow, I.glow__today, w && I.glow__in),
                 }),
-              N &&
+              G &&
                 r().createElement("div", {
-                  className: d()(I.glow, I.glow__current, v && I.glow__out),
+                  className: s()(I.glow, I.glow__current, w && I.glow__out),
                 }),
-              r().createElement(_.ZP, { className: I.day, text: String(n) }),
-              x && r().createElement("div", { className: I.check }),
+              r().createElement(E.ZP, { className: I.day, text: String(n) }),
+              N && r().createElement("div", { className: I.check }),
               r().createElement(
                 "div",
-                { className: d()(I.rewards, o && I.rewards__final) },
-                o && G
+                { className: s()(I.rewards, l && I.rewards__final) },
+                l && $
                   ? r().createElement(
                       r().Fragment,
                       null,
@@ -7408,19 +7418,19 @@
                         r().createElement("div", { className: I.finalMainLight }),
                         r().createElement(
                           k.l,
-                          { tooltipArgs: G.tooltipArgs, className: I.finalMainTooltip },
+                          { tooltipArgs: $.tooltipArgs, className: I.finalMainTooltip },
                           r().createElement(
                             r().Fragment,
                             null,
-                            U(n, G, p, !1),
-                            $ &&
+                            U(n, $, b, !1),
+                            q &&
                               r().createElement(
                                 "div",
                                 { className: I.preview },
-                                r().createElement(L, {
+                                r().createElement(M, {
                                   classNames: { base: I.previewButton },
-                                  size: b,
-                                  onClick: Q(u, W),
+                                  size: h,
+                                  onClick: Q(u, j),
                                   soundClick: "",
                                   isVisibleLabel: !0,
                                   label: H.preview(),
@@ -7432,17 +7442,17 @@
                       r().createElement(
                         "div",
                         { className: I.finalAside },
-                        y.slice(1).map((e) => U(n, e, m)),
+                        S.slice(1).map((e) => U(n, e, D)),
                       ),
                     )
                   : r().createElement(
                       r().Fragment,
                       null,
-                      R && r().createElement("div", { className: I.topReward }, U(n, R, m)),
+                      P && r().createElement("div", { className: I.topReward }, U(n, P, D)),
                       r().createElement(
                         "div",
                         { className: I.bottomRow },
-                        P.map((e) => U(n, e, m)),
+                        x.map((e) => U(n, e, D)),
                       ),
                     ),
               ),
@@ -7483,7 +7493,7 @@
             const a = new Map();
             return (
               e.forEach((e) => {
-                ((e) => e.name === E.E4.Items && void 0 !== e.item && ee.has(e.item))(e) &&
+                ((e) => e.name === L.E4.Items && void 0 !== e.item && ee.has(e.item))(e) &&
                   e.item &&
                   !a.has(e.item) &&
                   a.set(e.item, e);
@@ -7492,10 +7502,10 @@
             );
           },
           ae = (e, u) =>
-            e.name === E.E4.Vehicles
+            e.name === L.E4.Vehicles
               ? ((e) => `R.images.gui.maps.shop.vehicles.c_360x270.${e.value}`)(e)
               : (0, W.ry)(e, u),
-          re = (e, u = E.h2.Small) => {
+          re = (e, u = L.h2.Small) => {
             if (null == e || !e.length) return [];
             return ((e, u, t) => {
               const a = K.map((u) => te(e, u, t)).filter((e) => null !== e),
@@ -7508,7 +7518,7 @@
                 ((e, u) => ({
                   name: e.name,
                   image: ae(e, u),
-                  value: A(e.name) ? "" : e.value,
+                  value: (0, A.xj)(e.name) ? "" : e.value,
                   valueType: (0, W.p3)(e.name),
                   tooltipArgs: (0, W.pI)({ [O.WO]: e.tooltipId }, Number(e.tooltipContentId), {
                     ignoreShowDelay: !0,
@@ -7517,14 +7527,14 @@
               (e) =>
                 ((e) => {
                   return {
-                    name: E.E4.Items,
+                    name: L.E4.Items,
                     image:
                       ((u = e[0]),
                       void 0 !== (null == u ? void 0 : u.item) && J.has(u.item)
                         ? X.combinedRewardsBig()
                         : X.combinedRewards()),
                     value: "",
-                    valueType: E.$h.MULTI,
+                    valueType: L.$h.MULTI,
                     tooltipArgs: ue(e),
                     isCombined: !0,
                   };
@@ -7536,7 +7546,7 @@
             ({ observableModel: e }) => {
               const u = { root: e.object(), days: e.array("days", []) },
                 t = (0, Z.Om)(
-                  (e = E.h2.Small) =>
+                  (e = L.h2.Small) =>
                     (0, z.c)(u.days.get()).map((u) => ({
                       day: u.day,
                       state: u.state,
@@ -7553,36 +7563,42 @@
           ),
           se = ne[0],
           ie = ne[1],
-          oe = (0, n.Pi)(function () {
+          oe = (0, o.Pi)(function () {
             const e = ie(),
               u = e.model,
               t = e.controls,
-              n = g((0, s.GS)().mediaSize),
-              c = u.computes.getDays(n),
-              d = (0, a.useMemo)(() => {
-                if (!c.length) return { headerDay: void 0, fullRowsDays: [], lastRowDays: [] };
-                const e = c[0],
-                  u = c.slice(1),
+              n = (0, i.GS)(),
+              o = n.mediaSize,
+              _ = n.remScreenWidth,
+              E = (0, A.yf)(o),
+              g = u.computes.getDays(E),
+              D = (0, A.OF)(_),
+              p = (0, A.xD)(_),
+              F = (0, a.useMemo)(() => {
+                if (!g.length) return { headerDay: void 0, fullRowsDays: [], lastRowDays: [] };
+                const e = g[0],
+                  u = g.slice(1),
                   t = u.filter((e) => !e.isFinal),
-                  a = u.filter((e) => e.isFinal);
+                  a = u.filter((e) => e.isFinal),
+                  r = (0, A.ES)(t.length, D, a.length);
                 return {
                   headerDay: e,
-                  fullRowsDays: t.slice(0, 10),
-                  lastRowDays: [...t.slice(10), ...a],
+                  fullRowsDays: t.slice(0, r),
+                  lastRowDays: [...t.slice(r), ...a],
                 };
-              }, [c]),
-              m = d.headerDay,
-              _ = d.fullRowsDays,
-              E = d.lastRowDays;
-            return m
+              }, [D, g]),
+              B = F.headerDay,
+              C = F.fullRowsDays,
+              b = F.lastRowDays;
+            return B
               ? r().createElement(
                   "div",
-                  { className: i },
-                  r().createElement(S, { dayData: m }),
+                  { className: s()(l, p && c) },
+                  r().createElement(y, { dayData: B }),
                   r().createElement(
                     "div",
-                    { className: o },
-                    _.map((e) =>
+                    { className: d },
+                    C.map((e) =>
                       r().createElement(G, {
                         key: e.day,
                         dayData: e,
@@ -7592,8 +7608,8 @@
                   ),
                   r().createElement(
                     "div",
-                    { className: l },
-                    E.map((e) =>
+                    { className: m },
+                    b.map((e) =>
                       r().createElement(G, {
                         key: e.day,
                         dayData: e,
@@ -7614,6 +7630,21 @@
         t.d(u, { i$: () => r, ul: () => a });
         const a = 1e3,
           r = Math.max(800, 700);
+      },
+      2102: (e, u, t) => {
+        "use strict";
+        t.d(u, { ES: () => l, OF: () => o, xD: () => i, xj: () => n, yf: () => s });
+        var a = t(2862),
+          r = t(5415);
+        const n = (e) => e === a.E4.Vehicles,
+          s = (e) => (e >= r.cJ.Medium ? a.h2.Big : a.h2.Small),
+          i = (e) => e <= r.cJ.ExtraSmall,
+          o = (e) => (i(e) ? 4 : 5),
+          l = (e, u, t) => {
+            if (5 === u) return 10;
+            const a = e % u;
+            return a > u - 2 * t ? e : e - a;
+          };
       },
       9922: (e, u, t) => {
         "use strict";

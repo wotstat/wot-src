@@ -17,7 +17,6 @@ class RES_COMMON(object):
     MAPS_ICONS_CUSTOMIZATION_CART_BG = b'../maps/icons/customization/cart/bg.png'
     MAPS_ICONS_CUSTOMIZATION_PROGRESSION_STYLES_STAGE_SWITCHER_BG = b'../maps/icons/customization/progression_styles/stage_switcher/bg.png'
     MAPS_ICONS_CUSTOMIZATION_TOOLBAR_EXTENDED_BG = b'../maps/icons/customization/toolbar/extended/bg.png'
-    MAPS_ICONS_DAILY_SESSIONPROGRESSREWARDSCREEN_BG = b'../maps/icons/daily/sessionProgressRewardScreen/bg.png'
     MAPS_ICONS_DEDICATION_BG = b'../maps/icons/dedication/bg.png'
     MAPS_ICONS_DEMOUNTKIT_BG = b'../maps/icons/demountKit/bg.png'
     MAPS_ICONS_EARLY_ACCESS_BUY_TOKENS_CARD_BIG_BG = b'../maps/icons/early_access/buy_tokens/card_big/bg.png'

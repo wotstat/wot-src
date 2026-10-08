@@ -610,6 +610,7 @@ package net.wg.gui.lobby.hangar
             this._portalEventModifiersInject.height = App.appHeight - BOTTOM_MARGIN;
             addChild(this._portalEventModifiersInject);
             registerFlashComponentS(this._portalEventModifiersInject,HANGAR_CONSTS.PORTAL_EVENT_MODIFIERS);
+            this.teaser.visible = false;
          }
       }
       
@@ -648,6 +649,18 @@ package net.wg.gui.lobby.hangar
          this.teaser.hideTimer();
       }
       
+      public function as_setBattleModifiersVisible(param1:Boolean) : void
+      {
+         if(param1 && !this._battleModifiersPanelInject)
+         {
+            this.addBattleModifiers();
+         }
+         if(!param1 && Boolean(this._battleModifiersPanelInject))
+         {
+            this.removeBattleModifiers();
+         }
+      }
+      
       public function as_setCarousel(param1:String, param2:String) : void
       {
          if(this._carousel != null)
@@ -666,6 +679,29 @@ package net.wg.gui.lobby.hangar
          registerFlashComponentS(this._carousel,this._carouselAlias);
          this._carousel.validateNow();
          invalidate(INVALIDATE_CAROUSEL_SIZE);
+      }
+      
+      public function as_setCarouselEnabled(param1:Boolean) : void
+      {
+         this.carousel.enabled = param1;
+      }
+      
+      public function as_setControlsVisible(param1:Boolean) : void
+      {
+         if(param1 != this.isControlsVisible)
+         {
+            this._isControlsVisible = param1;
+         }
+      }
+      
+      public function as_setDQWidgetLayout(param1:int) : void
+      {
+         this._forcedWidgetLayout = param1;
+      }
+      
+      public function as_setTeaserTimer(param1:String) : void
+      {
+         this.teaser.setTime(param1);
       }
       
       public function as_setVehicleParams(param1:String, param2:String) : void
@@ -687,41 +723,6 @@ package net.wg.gui.lobby.hangar
          this._vehicleParams.visible = _loc3_;
          this._vehicleParams.validateNow();
          invalidate(PARAMS_POSITION_INVALID);
-      }
-      
-      public function as_setCarouselEnabled(param1:Boolean) : void
-      {
-         this.carousel.enabled = param1;
-      }
-      
-      public function as_setBattleModifiersVisible(param1:Boolean) : void
-      {
-         if(param1 && !this._battleModifiersPanelInject)
-         {
-            this.addBattleModifiers();
-         }
-         if(!param1 && Boolean(this._battleModifiersPanelInject))
-         {
-            this.removeBattleModifiers();
-         }
-      }
-      
-      public function as_setControlsVisible(param1:Boolean) : void
-      {
-         if(param1 != this.isControlsVisible)
-         {
-            this._isControlsVisible = param1;
-         }
-      }
-      
-      public function as_setDQWidgetLayout(param1:int) : void
-      {
-         this._forcedWidgetLayout = param1;
-      }
-      
-      public function as_setTeaserTimer(param1:String) : void
-      {
-         this.teaser.setTime(param1);
       }
       
       public function as_setVisible(param1:Boolean) : void
@@ -826,6 +827,12 @@ package net.wg.gui.lobby.hangar
          this.updateElementsPosition();
       }
       
+      public function removeBattleModifiers() : void
+      {
+         this.removeBattleModifiersPanel();
+         invalidate(INVALIDATE_BATTLE_MODIFIERS_VISIBILITY);
+      }
+      
       public function removeBattleRoyaleComponent(param1:String) : void
       {
          if(isFlashComponentRegisteredS(param1))
@@ -843,12 +850,6 @@ package net.wg.gui.lobby.hangar
             this.removeBattleRoyaleComponent(BATTLEROYALE_ALIASES.PROXY_CURRENCY_PANEL_COMPONENT);
             this.removeBattleRoyaleComponent(BATTLEROYALE_ALIASES.TECH_PARAMETERS_COMPONENT);
          }
-      }
-      
-      public function removeBattleModifiers() : void
-      {
-         this.removeBattleModifiersPanel();
-         invalidate(INVALIDATE_BATTLE_MODIFIERS_VISIBILITY);
       }
       
       public function setAnimatorVisibility(param1:Boolean) : void
@@ -1232,11 +1233,6 @@ package net.wg.gui.lobby.hangar
          return this._eventsEntryContainer;
       }
       
-      public function onAmmunitionViewHideAnimCompleteHandler(param1:Event) : void
-      {
-         invalidate(INVALIDATE_CAROUSEL_SIZE);
-      }
-      
       public function get miniClient() : HangarMiniClientComponent
       {
          return this._miniClient;
@@ -1246,6 +1242,11 @@ package net.wg.gui.lobby.hangar
       {
          this._carouselVisible = param1;
          this.carousel.visible = this._carouselVisible;
+      }
+      
+      public function onAmmunitionViewHideAnimCompleteHandler(param1:Event) : void
+      {
+         invalidate(INVALIDATE_CAROUSEL_SIZE);
       }
       
       private function onTeaserTeaserClickHandler(param1:TeaserEvent) : void
