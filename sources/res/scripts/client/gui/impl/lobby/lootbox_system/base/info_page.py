@@ -96,7 +96,9 @@ class InfoPage(ViewComponent):
          (
           self.__lootBoxes.onStatusChanged, self.__onStatusChange),
          (
-          self.__lootBoxes.onBoxesAvailabilityChanged, self.__onStatusChange))
+          self.__lootBoxes.onBoxesAvailabilityChanged, self.__onStatusChange),
+         (
+          self.__lootBoxes.onBoxesCountChanged, self.__onBoxesCountChange))
 
     def __sortedSlotsIDs(self, slotsInfo):
         return sorted(slotsInfo.keys()) or []
@@ -104,6 +106,10 @@ class InfoPage(ViewComponent):
     def __onStatusChange(self):
         if self.__lootBoxes.isAvailable(self.__eventName) and self.__lootBoxes.getActiveBoxes(self.__eventName):
             self.__updateState()
+        return
+
+    def __onBoxesCountChange(self):
+        self.__updateBoxes()
         return
 
     def __fillChosenCategory(self, category=b'', box=None):
@@ -138,6 +144,7 @@ class InfoPage(ViewComponent):
     def __updateBoxes(self, model=None):
         boxes = model.getBoxes()
         boxes.clear()
+        self.__tooltipData.clear()
         for box in self.__lootBoxes.getActiveBoxes(self.__eventName):
             boxes.addViewModel(self._setLootBox(box))
 

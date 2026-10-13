@@ -135,13 +135,12 @@
       },
       5900: (e, t, n) => {
         "use strict";
-        n.d(t, { At: () => u });
-        var a = n(8978),
-          r = n(7363),
-          i = n.n(r),
-          s = n(1855);
+        n.d(t, { At: () => o });
+        var a = n(7363),
+          r = n.n(a),
+          i = n(1855);
         n(5187);
-        const l = [
+        const s = [
           "width",
           "height",
           "getImageSource",
@@ -156,9 +155,9 @@
           "onAnimationComplete",
           "poster",
         ];
-        function o() {
+        function l() {
           return (
-            (o = Object.assign
+            (l = Object.assign
               ? Object.assign.bind()
               : function (e) {
                   for (var t = 1; t < arguments.length; t++) {
@@ -167,29 +166,29 @@
                   }
                   return e;
                 }),
-            o.apply(null, arguments)
+            l.apply(null, arguments)
           );
         }
-        const u = (0, r.memo)(function (e) {
+        const o = (0, a.memo)(function (e) {
             let t = e.width,
               n = e.height,
-              u = e.getImageSource,
-              m = e.frameCount,
-              g = e.onAnimate,
-              b = e.frameTime,
-              E = void 0 === b ? s.O.FRAME_TIME : b,
-              f = e.initialFrameIndex,
-              p = void 0 === f ? s.O.INITIAL_FRAME_INDEX : f,
-              v = e.lastFrameIndex,
-              h = void 0 === v ? m - 1 : v,
-              A = e.loop,
-              w = void 0 === A ? s.O.LOOP : A,
-              C = e.state,
-              k = void 0 === C ? s.O.STATE : C,
-              D = e.onAnimationDone,
-              y = e.onAnimationComplete,
-              F = e.poster,
-              S = (function (e, t) {
+              o = e.getImageSource,
+              _ = e.frameCount,
+              m = e.onAnimate,
+              g = e.frameTime,
+              b = void 0 === g ? i.O.FRAME_TIME : g,
+              E = e.initialFrameIndex,
+              f = void 0 === E ? i.O.INITIAL_FRAME_INDEX : E,
+              p = e.lastFrameIndex,
+              v = void 0 === p ? _ - 1 : p,
+              h = e.loop,
+              A = void 0 === h ? i.O.LOOP : h,
+              w = e.state,
+              C = void 0 === w ? i.O.STATE : w,
+              k = e.onAnimationDone,
+              D = e.onAnimationComplete,
+              y = e.poster,
+              F = (function (e, t) {
                 if (null == e) return {};
                 var n = {};
                 for (var a in e)
@@ -198,44 +197,40 @@
                     n[a] = e[a];
                   }
                 return n;
-              })(e, l);
-            const B = (0, r.useRef)(null),
-              N = (0, r.useState)(!0),
-              x = N[0],
-              L = N[1];
+              })(e, s);
+            const S = (0, a.useRef)(null);
             return (
-              (0, r.useEffect)(() => (0, a.v)(() => (0, a.v)(() => L(!1))), []),
-              (0, r.useEffect)(() => {
-                const e = B.current;
+              (0, a.useEffect)(() => {
+                const e = S.current;
                 if (!e) return;
                 const t = e.getContext("2d"),
                   n = (n) => {
                     (t.clearRect(0, 0, e.width, e.height), t.drawImage(n.img, -n.x, -n.y));
                   };
-                switch (k) {
+                switch (C) {
                   case "play":
                     return (function () {
-                      const e = _(p, h, u),
-                        t = c(p, h),
+                      const e = d(f, v, o),
+                        t = u(f, v),
                         a = window.setInterval(() => {
                           const r = t(),
                             i = e.get(r);
                           i
-                            ? (null == g || g(r, i),
+                            ? (null == m || m(r, i),
                               n(i),
-                              r === h &&
-                                (null == y || y(),
-                                w || (null == D || D(), window.clearInterval(a))))
+                              r === v &&
+                                (null == D || D(),
+                                A || (null == k || k(), window.clearInterval(a))))
                             : console.error("frameImage was not provided in frameImages Map");
-                        }, E);
+                        }, b);
                       return () => window.clearInterval(a);
                     })();
                   case "stop":
                     return (function () {
-                      const e = 0 === p && F ? { path: F, x: 0, y: 0 } : u(p),
+                      const e = 0 === f && y ? { path: y, x: 0, y: 0 } : o(f),
                         t = new Image();
                       t.src = e.path;
-                      const a = () => n(d(e, t));
+                      const a = () => n(c(e, t));
                       return (
                         t.addEventListener("load", a),
                         () => t.removeEventListener("load", a)
@@ -244,25 +239,25 @@
                   default:
                     return console.error("[CanvasSequence] Unreachable state!");
                 }
-              }, [E, u, p, h, w, g, y, D, F, k, x]),
-              i().createElement("canvas", o({}, S, { width: t, height: n, ref: B }))
+              }, [b, o, f, v, A, m, D, k, y, C]),
+              r().createElement("canvas", l({}, F, { width: t, height: n, ref: S }))
             );
           }),
-          c = (e, t) => {
+          u = (e, t) => {
             let n = e;
             return () => {
               const a = n;
               return ((n += 1), n > t && (n = e), a);
             };
           },
-          d = (e, t) => Object.assign({}, e, { img: t }),
-          _ = (e, t, n) => {
+          c = (e, t) => Object.assign({}, e, { img: t }),
+          d = (e, t, n) => {
             const a = new Map(),
               r = {};
             for (let i = e; i <= t; i++) {
               const e = n(i),
                 t = r[e.path];
-              if (t) a.set(i, d(e, t));
+              if (t) a.set(i, c(e, t));
               else {
                 const t = new Image();
                 ((r[e.path] = t),
@@ -274,7 +269,7 @@
                       `(${e.x},${e.y})`,
                     );
                   }),
-                  a.set(i, d(e, t)));
+                  a.set(i, c(e, t)));
               }
             }
             return a;
@@ -1133,24 +1128,6 @@
           MEDIUM: "mediaMedium",
           LARGE: "mediaLarge",
           EXTRA_LARGE: "mediaExtraLarge",
-        };
-      },
-      8978: (e, t, n) => {
-        "use strict";
-        n.d(t, { v: () => a });
-        const a = (e) => {
-          let t,
-            n = null;
-          return (
-            (n = requestAnimationFrame(() => {
-              n = requestAnimationFrame(() => {
-                ((n = null), (t = e()));
-              });
-            })),
-            () => {
-              ("function" == typeof t && t(), null !== n && cancelAnimationFrame(n));
-            }
-          );
         };
       },
       9352: (e, t, n) => {
@@ -2721,11 +2698,10 @@
       },
       7910: (e, t, n) => {
         "use strict";
-        n.d(t, { yZ: () => o });
-        var a = n(8978),
-          r = n(7363),
-          i = n.n(r);
-        const s = [
+        n.d(t, { yZ: () => l });
+        var a = n(7363),
+          r = n.n(a);
+        const i = [
           "width",
           "height",
           "getSrcByFrame",
@@ -2738,9 +2714,9 @@
           "onAnimationComplete",
           "revers",
         ];
-        function l() {
+        function s() {
           return (
-            (l = Object.assign
+            (s = Object.assign
               ? Object.assign.bind()
               : function (e) {
                   for (var t = 1; t < arguments.length; t++) {
@@ -2749,36 +2725,36 @@
                   }
                   return e;
                 }),
-            l.apply(null, arguments)
+            s.apply(null, arguments)
           );
         }
-        let o = (function (e) {
+        let l = (function (e) {
           return ((e.Play = "play"), (e.Stop = "stop"), e);
         })({});
-        const u = (e, t, n) => {
+        const o = (e, t, n) => {
           const a = new Image();
           ((a.src = n(t)), e.push(a));
         };
-        (0, r.memo)((e) => {
+        (0, a.memo)((e) => {
           let t = e.width,
             n = e.height,
-            c = e.getSrcByFrame,
-            d = e.frameCount,
-            _ = e.onAnimate,
-            m = void 0 === _ ? () => {} : _,
-            g = e.frameTime,
-            b = void 0 === g ? 33 : g,
-            E = e.initialFrameIndex,
-            f = void 0 === E ? 0 : E,
-            p = e.loop,
-            v = void 0 === p || p,
-            h = e.state,
-            A = void 0 === h ? o.Play : h,
-            w = e.onAnimationComplete,
-            C = void 0 === w ? () => {} : w,
-            k = e.revers,
-            D = void 0 !== k && k,
-            y = (function (e, t) {
+            u = e.getSrcByFrame,
+            c = e.frameCount,
+            d = e.onAnimate,
+            _ = void 0 === d ? () => {} : d,
+            m = e.frameTime,
+            g = void 0 === m ? 33 : m,
+            b = e.initialFrameIndex,
+            E = void 0 === b ? 0 : b,
+            f = e.loop,
+            p = void 0 === f || f,
+            v = e.state,
+            h = void 0 === v ? l.Play : v,
+            A = e.onAnimationComplete,
+            w = void 0 === A ? () => {} : A,
+            C = e.revers,
+            k = void 0 !== C && C,
+            D = (function (e, t) {
               if (null == e) return {};
               var n = {};
               for (var a in e)
@@ -2787,23 +2763,19 @@
                   n[a] = e[a];
                 }
               return n;
-            })(e, s);
-          const F = (0, r.useRef)(null),
-            S = (0, r.useState)(!0),
-            B = S[0],
-            N = S[1];
+            })(e, i);
+          const y = (0, a.useRef)(null);
           return (
-            (0, r.useEffect)(() => (0, a.v)(() => N(!1)), []),
-            (0, r.useEffect)(() => {
-              const e = F.current;
+            (0, a.useEffect)(() => {
+              const e = y.current;
               if (!e) return;
-              const a = d - 1,
+              const a = c - 1,
                 r = e.getContext("2d"),
                 i = (a) => {
                   (r.clearRect(0, 0, e.width, e.height), r.drawImage(a, 0, 0, t, n));
                 };
-              if ("stop" === A) {
-                const e = c(0),
+              if ("stop" === h) {
+                const e = u(0),
                   t = new Image();
                 t.src = e;
                 const n = () => i(t);
@@ -2811,29 +2783,29 @@
               }
               const s = ((e, t, n) => {
                   const a = [];
-                  if (n) for (let n = e; n >= 0; n--) u(a, n, t);
-                  else for (let n = 0; n < e; n++) u(a, n, t);
+                  if (n) for (let n = e; n >= 0; n--) o(a, n, t);
+                  else for (let n = 0; n < e; n++) o(a, n, t);
                   return a;
-                })(d, c, D),
+                })(c, u, k),
                 l = ((e, t = 0) => {
                   let n = t;
                   return () => {
                     const t = n;
                     return ((n += 1), n > e && (n = 0), t);
                   };
-                })(a, f),
-                o = setInterval(() => {
+                })(a, E),
+                d = setInterval(() => {
                   const e = l(),
                     t = s[e];
-                  (i(s[e]), m(e, t), e === a && (C(), v || clearInterval(o)));
-                }, b);
-              return () => clearInterval(o);
-            }, [B, d, b, c, n, f, v, m, C, A, t, D]),
-            i().createElement("canvas", l({}, y, { width: t, height: n, ref: F }))
+                  (i(s[e]), _(e, t), e === a && (w(), p || clearInterval(d)));
+                }, g);
+              return () => clearInterval(d);
+            }, [c, g, u, n, E, p, _, w, h, t, k]),
+            r().createElement("canvas", s({}, D, { width: t, height: n, ref: y }))
           );
         });
       },
-      4088: (e, t, n) => {
+      1605: (e, t, n) => {
         "use strict";
         var a = {};
         (n.r(a),
@@ -3053,9 +3025,22 @@
             }),
           ),
           S = F[0],
-          B = F[1];
-        var N = n(8978);
-        const x = (e, t, n) => (n < e ? e : n > t ? t : n),
+          B = F[1],
+          N = (e) => {
+            let t,
+              n = null;
+            return (
+              (n = requestAnimationFrame(() => {
+                n = requestAnimationFrame(() => {
+                  ((n = null), (t = e()));
+                });
+              })),
+              () => {
+                ("function" == typeof t && t(), null !== n && cancelAnimationFrame(n));
+              }
+            );
+          },
+          x = (e, t, n) => (n < e ? e : n > t ? t : n),
           L = [];
         function I(e) {
           const t = (0, s.useRef)(e);
@@ -3287,7 +3272,7 @@
                   );
                 })(
                   () =>
-                    (0, N.v)(() => {
+                    N(() => {
                       const e = d.current;
                       e &&
                         (h(l(e, f.scrollPosition.goal), { immediate: !0 }),
@@ -3446,16 +3431,16 @@
                   })(),
                     p());
                 });
-              ((0, s.useEffect)(() => (0, N.v)(v)),
+              ((0, s.useEffect)(() => N(v)),
                 (0, s.useEffect)(
                   () =>
-                    (0, N.v)(() => {
+                    N(() => {
                       const t = () => {
                         p();
                       };
                       let n = te;
                       const a = () => {
-                        (n(), (n = (0, N.v)(v)));
+                        (n(), (n = N(v)));
                       };
                       return (
                         e.events.on("recalculateContent", v),
@@ -3600,7 +3585,7 @@
             );
           },
           se = ({ api: e, className: t, classNames: n, children: a }) => (
-            (0, s.useEffect)(() => (0, N.v)(e.recalculateContent)),
+            (0, s.useEffect)(() => N(e.recalculateContent)),
             l().createElement(
               "div",
               { className: d()(re.base, t) },
@@ -3712,7 +3697,7 @@
                     (p(), v());
                   });
                 });
-              ((0, s.useEffect)(() => (0, N.v)(h)),
+              ((0, s.useEffect)(() => N(h)),
                 (0, s.useEffect)(() => {
                   const t = () => {
                     ve(e, () => {
@@ -3721,7 +3706,7 @@
                   };
                   let n = Ee;
                   const a = () => {
-                    (n(), (n = (0, N.v)(h)));
+                    (n(), (n = N(h)));
                   };
                   return (
                     e.events.on("recalculateContent", h),
@@ -3864,7 +3849,7 @@
             );
           },
           ke = ({ className: e, classNames: t, children: n, api: a }) => (
-            (0, s.useEffect)(() => (0, N.v)(a.recalculateContent)),
+            (0, s.useEffect)(() => N(a.recalculateContent)),
             l().createElement(
               "div",
               { className: d()(we.base, e), ref: a.wrapperRef, onWheel: a.handleMouseWheel },
@@ -5052,7 +5037,7 @@
               c = o[1];
             return (
               (0, s.useEffect)(() =>
-                (0, N.v)(() => {
+                N(() => {
                   const e = i.current;
                   e && e.offsetWidth >= e.scrollWidth && c(!1);
                 }),
@@ -5211,7 +5196,7 @@
               [p, f.events, r],
             ),
               (0, s.useEffect)(() => {
-                if (t && null !== n) return (0, N.v)(h);
+                if (t && null !== n) return N(h);
               }, [a, h, n, t]),
               (0, s.useEffect)(() => {
                 const e = () => {
@@ -5492,7 +5477,7 @@
                     n;
                 a !== P.current.listAbove && ((P.current.listAbove = a), G(a));
               }, [t]);
-              (0, s.useEffect)(() => (0, N.v)(() => (0, N.v)(X)), [X, i, n.length]);
+              (0, s.useEffect)(() => N(() => N(X)), [X, i, n.length]);
               const K = (0, s.useCallback)(
                   (e) => {
                     const t = U.findIndex((t) => t === e) > -1;
@@ -8979,7 +8964,10 @@
                 {
                   args: B,
                   isEnabled:
-                    !l && !a.isCurrentLayoutSkillsTraining && !a.isCurrentLayoutMentorAssigment,
+                    -1 !== n.tankmanID &&
+                    !l &&
+                    !a.isCurrentLayoutSkillsTraining &&
+                    !a.isCurrentLayoutMentorAssigment,
                   targetId: R.views.lobby.crew.widgets.CrewWidget("resId"),
                 },
                 i().createElement(
@@ -9536,6 +9524,6 @@
         n = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (n.forEach(t.bind(null, 0)), (n.push = t.bind(null, n.push.bind(n))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [9056], () => __webpack_require__(4088));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [9056], () => __webpack_require__(1605));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

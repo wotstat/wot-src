@@ -135,13 +135,12 @@
       },
       5900: (e, t, n) => {
         "use strict";
-        n.d(t, { At: () => l });
-        var a = n(8978),
-          r = n(7363),
-          s = n.n(r),
-          i = n(1855);
+        n.d(t, { At: () => u });
+        var a = n(7363),
+          r = n.n(a),
+          s = n(1855);
         n(5187);
-        const o = [
+        const i = [
           "width",
           "height",
           "getImageSource",
@@ -156,9 +155,9 @@
           "onAnimationComplete",
           "poster",
         ];
-        function u() {
+        function o() {
           return (
-            (u = Object.assign
+            (o = Object.assign
               ? Object.assign.bind()
               : function (e) {
                   for (var t = 1; t < arguments.length; t++) {
@@ -167,29 +166,29 @@
                   }
                   return e;
                 }),
-            u.apply(null, arguments)
+            o.apply(null, arguments)
           );
         }
-        const l = (0, r.memo)(function (e) {
+        const u = (0, a.memo)(function (e) {
             let t = e.width,
               n = e.height,
-              l = e.getImageSource,
-              _ = e.frameCount,
-              g = e.onAnimate,
-              E = e.frameTime,
-              b = void 0 === E ? i.O.FRAME_TIME : E,
-              p = e.initialFrameIndex,
-              f = void 0 === p ? i.O.INITIAL_FRAME_INDEX : p,
-              v = e.lastFrameIndex,
-              h = void 0 === v ? _ - 1 : v,
-              A = e.loop,
-              C = void 0 === A ? i.O.LOOP : A,
-              F = e.state,
-              y = void 0 === F ? i.O.STATE : F,
-              D = e.onAnimationDone,
-              w = e.onAnimationComplete,
-              k = e.poster,
-              B = (function (e, t) {
+              u = e.getImageSource,
+              m = e.frameCount,
+              _ = e.onAnimate,
+              g = e.frameTime,
+              E = void 0 === g ? s.O.FRAME_TIME : g,
+              b = e.initialFrameIndex,
+              p = void 0 === b ? s.O.INITIAL_FRAME_INDEX : b,
+              f = e.lastFrameIndex,
+              v = void 0 === f ? m - 1 : f,
+              h = e.loop,
+              A = void 0 === h ? s.O.LOOP : h,
+              C = e.state,
+              F = void 0 === C ? s.O.STATE : C,
+              y = e.onAnimationDone,
+              D = e.onAnimationComplete,
+              w = e.poster,
+              k = (function (e, t) {
                 if (null == e) return {};
                 var n = {};
                 for (var a in e)
@@ -198,44 +197,40 @@
                     n[a] = e[a];
                   }
                 return n;
-              })(e, o);
-            const S = (0, r.useRef)(null),
-              N = (0, r.useState)(!0),
-              I = N[0],
-              T = N[1];
+              })(e, i);
+            const B = (0, a.useRef)(null);
             return (
-              (0, r.useEffect)(() => (0, a.v)(() => (0, a.v)(() => T(!1))), []),
-              (0, r.useEffect)(() => {
-                const e = S.current;
+              (0, a.useEffect)(() => {
+                const e = B.current;
                 if (!e) return;
                 const t = e.getContext("2d"),
                   n = (n) => {
                     (t.clearRect(0, 0, e.width, e.height), t.drawImage(n.img, -n.x, -n.y));
                   };
-                switch (y) {
+                switch (F) {
                   case "play":
                     return (function () {
-                      const e = m(f, h, l),
-                        t = c(f, h),
+                      const e = d(p, v, u),
+                        t = l(p, v),
                         a = window.setInterval(() => {
                           const r = t(),
                             s = e.get(r);
                           s
-                            ? (null == g || g(r, s),
+                            ? (null == _ || _(r, s),
                               n(s),
-                              r === h &&
-                                (null == w || w(),
-                                C || (null == D || D(), window.clearInterval(a))))
+                              r === v &&
+                                (null == D || D(),
+                                A || (null == y || y(), window.clearInterval(a))))
                             : console.error("frameImage was not provided in frameImages Map");
-                        }, b);
+                        }, E);
                       return () => window.clearInterval(a);
                     })();
                   case "stop":
                     return (function () {
-                      const e = 0 === f && k ? { path: k, x: 0, y: 0 } : l(f),
+                      const e = 0 === p && w ? { path: w, x: 0, y: 0 } : u(p),
                         t = new Image();
                       t.src = e.path;
-                      const a = () => n(d(e, t));
+                      const a = () => n(c(e, t));
                       return (
                         t.addEventListener("load", a),
                         () => t.removeEventListener("load", a)
@@ -244,25 +239,25 @@
                   default:
                     return console.error("[CanvasSequence] Unreachable state!");
                 }
-              }, [b, l, f, h, C, g, w, D, k, y, I]),
-              s().createElement("canvas", u({}, B, { width: t, height: n, ref: S }))
+              }, [E, u, p, v, A, _, D, y, w, F]),
+              r().createElement("canvas", o({}, k, { width: t, height: n, ref: B }))
             );
           }),
-          c = (e, t) => {
+          l = (e, t) => {
             let n = e;
             return () => {
               const a = n;
               return ((n += 1), n > t && (n = e), a);
             };
           },
-          d = (e, t) => Object.assign({}, e, { img: t }),
-          m = (e, t, n) => {
+          c = (e, t) => Object.assign({}, e, { img: t }),
+          d = (e, t, n) => {
             const a = new Map(),
               r = {};
             for (let s = e; s <= t; s++) {
               const e = n(s),
                 t = r[e.path];
-              if (t) a.set(s, d(e, t));
+              if (t) a.set(s, c(e, t));
               else {
                 const t = new Image();
                 ((r[e.path] = t),
@@ -274,7 +269,7 @@
                       `(${e.x},${e.y})`,
                     );
                   }),
-                  a.set(s, d(e, t)));
+                  a.set(s, c(e, t)));
               }
             }
             return a;
@@ -4370,11 +4365,10 @@
       },
       7910: (e, t, n) => {
         "use strict";
-        n.d(t, { yZ: () => u });
-        var a = n(8978),
-          r = n(7363),
-          s = n.n(r);
-        const i = [
+        n.d(t, { yZ: () => o });
+        var a = n(7363),
+          r = n.n(a);
+        const s = [
           "width",
           "height",
           "getSrcByFrame",
@@ -4387,9 +4381,9 @@
           "onAnimationComplete",
           "revers",
         ];
-        function o() {
+        function i() {
           return (
-            (o = Object.assign
+            (i = Object.assign
               ? Object.assign.bind()
               : function (e) {
                   for (var t = 1; t < arguments.length; t++) {
@@ -4398,36 +4392,36 @@
                   }
                   return e;
                 }),
-            o.apply(null, arguments)
+            i.apply(null, arguments)
           );
         }
-        let u = (function (e) {
+        let o = (function (e) {
           return ((e.Play = "play"), (e.Stop = "stop"), e);
         })({});
-        const l = (e, t, n) => {
+        const u = (e, t, n) => {
           const a = new Image();
           ((a.src = n(t)), e.push(a));
         };
-        (0, r.memo)((e) => {
+        (0, a.memo)((e) => {
           let t = e.width,
             n = e.height,
-            c = e.getSrcByFrame,
-            d = e.frameCount,
-            m = e.onAnimate,
-            _ = void 0 === m ? () => {} : m,
-            g = e.frameTime,
-            E = void 0 === g ? 33 : g,
-            b = e.initialFrameIndex,
-            p = void 0 === b ? 0 : b,
-            f = e.loop,
-            v = void 0 === f || f,
-            h = e.state,
-            A = void 0 === h ? u.Play : h,
-            C = e.onAnimationComplete,
-            F = void 0 === C ? () => {} : C,
-            y = e.revers,
-            D = void 0 !== y && y,
-            w = (function (e, t) {
+            l = e.getSrcByFrame,
+            c = e.frameCount,
+            d = e.onAnimate,
+            m = void 0 === d ? () => {} : d,
+            _ = e.frameTime,
+            g = void 0 === _ ? 33 : _,
+            E = e.initialFrameIndex,
+            b = void 0 === E ? 0 : E,
+            p = e.loop,
+            f = void 0 === p || p,
+            v = e.state,
+            h = void 0 === v ? o.Play : v,
+            A = e.onAnimationComplete,
+            C = void 0 === A ? () => {} : A,
+            F = e.revers,
+            y = void 0 !== F && F,
+            D = (function (e, t) {
               if (null == e) return {};
               var n = {};
               for (var a in e)
@@ -4436,23 +4430,19 @@
                   n[a] = e[a];
                 }
               return n;
-            })(e, i);
-          const k = (0, r.useRef)(null),
-            B = (0, r.useState)(!0),
-            S = B[0],
-            N = B[1];
+            })(e, s);
+          const w = (0, a.useRef)(null);
           return (
-            (0, r.useEffect)(() => (0, a.v)(() => N(!1)), []),
-            (0, r.useEffect)(() => {
-              const e = k.current;
+            (0, a.useEffect)(() => {
+              const e = w.current;
               if (!e) return;
-              const a = d - 1,
+              const a = c - 1,
                 r = e.getContext("2d"),
                 s = (a) => {
                   (r.clearRect(0, 0, e.width, e.height), r.drawImage(a, 0, 0, t, n));
                 };
-              if ("stop" === A) {
-                const e = c(0),
+              if ("stop" === h) {
+                const e = l(0),
                   t = new Image();
                 t.src = e;
                 const n = () => s(t);
@@ -4460,25 +4450,25 @@
               }
               const i = ((e, t, n) => {
                   const a = [];
-                  if (n) for (let n = e; n >= 0; n--) l(a, n, t);
-                  else for (let n = 0; n < e; n++) l(a, n, t);
+                  if (n) for (let n = e; n >= 0; n--) u(a, n, t);
+                  else for (let n = 0; n < e; n++) u(a, n, t);
                   return a;
-                })(d, c, D),
+                })(c, l, y),
                 o = ((e, t = 0) => {
                   let n = t;
                   return () => {
                     const t = n;
                     return ((n += 1), n > e && (n = 0), t);
                   };
-                })(a, p),
-                u = setInterval(() => {
+                })(a, b),
+                d = setInterval(() => {
                   const e = o(),
                     t = i[e];
-                  (s(i[e]), _(e, t), e === a && (F(), v || clearInterval(u)));
-                }, E);
-              return () => clearInterval(u);
-            }, [S, d, E, c, n, p, v, _, F, A, t, D]),
-            s().createElement("canvas", o({}, w, { width: t, height: n, ref: k }))
+                  (s(i[e]), m(e, t), e === a && (C(), f || clearInterval(d)));
+                }, g);
+              return () => clearInterval(d);
+            }, [c, g, l, n, b, f, m, C, h, t, y]),
+            r().createElement("canvas", i({}, D, { width: t, height: n, ref: w }))
           );
         });
       },
@@ -4516,6 +4506,7 @@
             notification__symbol: "HorizontalTabs_notification__symbol_a2760",
             notification__small: "HorizontalTabs_notification__small_c3149",
             notification__large: "HorizontalTabs_notification__large_d46a5",
+            notification__single: "HorizontalTabs_notification__single_c6053",
             notification__dot: "HorizontalTabs_notification__dot_faa1d",
             notification__medium: "HorizontalTabs_notification__medium_f6177",
           },
@@ -4599,6 +4590,9 @@
                           _.notification,
                           _[`notification__${i.type}`],
                           _[`notification__${null != (l = i.size) ? l : "medium"}`],
+                          "value" === i.type &&
+                            1 === String(i.value).length &&
+                            _.notification__single,
                           null == u ? void 0 : u.notification,
                         ),
                       },
@@ -5497,60 +5491,65 @@
       },
       285: (e, t, n) => {
         "use strict";
-        n.d(t, { C: () => p });
+        n.d(t, { C: () => f });
         var a = n(9849),
           r = n.n(a),
-          s = n(7363),
-          i = n.n(s);
-        const o = "NumberRange_base_fab6b",
-          u = "NumberRange_base__animation_d9d14",
-          l = "NumberRange_from_aa86f",
-          c = "NumberRange_from__red_ce35d",
-          d = "NumberRange_separator_fd341",
-          m = i().memo(function ({ from: e, to: t, className: n }) {
-            return i().createElement(
+          s = n(828),
+          i = n(7363),
+          o = n.n(i);
+        const u = "NumberRange_base_fab6b",
+          l = "NumberRange_base__animation_d9d14",
+          c = "NumberRange_from_aa86f",
+          d = "NumberRange_from__red_ce35d",
+          m = "NumberRange_separator_fd341",
+          _ = o().memo(function ({ from: e, to: t, isAnimated: n, isFromRed: a, className: s }) {
+            return o().createElement(
               "div",
-              { className: r()(o, e <= 0 && u, n) },
-              i().createElement("div", { className: r()(l, e <= 0 && t > 0 && c) }, e),
-              e !== t &&
-                i().createElement(
-                  i().Fragment,
+              { className: r()(u, n && l, s) },
+              o().createElement("div", { className: r()(c, a && d) }, e),
+              void 0 !== t &&
+                o().createElement(
+                  o().Fragment,
                   null,
-                  i().createElement("div", { className: d }, "/"),
-                  i().createElement("div", null, t),
+                  o().createElement("div", { className: m }, "/"),
+                  o().createElement("div", null, t),
                 ),
             );
           }),
-          _ = "NumberRangeWithLabel_base_e56d6",
-          g = "NumberRangeWithLabel_title_ea468",
-          E = "NumberRangeWithLabel_counter_cf012",
-          b = "NumberRangeWithLabel_counterGlow_bb198",
-          p = ({
+          g = "NumberRangeWithLabel_base_e56d6",
+          E = "NumberRangeWithLabel_title_ea468",
+          b = "NumberRangeWithLabel_counter_cf012",
+          p = "NumberRangeWithLabel_counterGlow_bb198",
+          f = ({
             title: e,
             isGlowVisible: t = !1,
             className: n,
             classNames: a,
-            from: o,
-            to: u,
+            from: u,
+            to: l,
           }) => {
-            const l = (0, s.useMemo)(
-              () => ({
-                left: o !== u ? 7 * String(o).length + 4 : Math.round((7 * String(o).length) / 2),
-              }),
-              [o, u],
-            );
-            return i().createElement(
+            const c = s.Z5.getNumberFormat(u, s.B3.INTEGRAL),
+              d = (0, i.useMemo)(
+                () => ({ left: u !== l ? 7 * c.length + 4 : Math.round((7 * c.length) / 2) }),
+                [c, u, l],
+              );
+            return o().createElement(
               "div",
-              { className: r()(_, n) },
-              i().createElement("div", { className: g }, e),
-              i().createElement(
+              { className: r()(g, n) },
+              o().createElement("div", { className: E }, e),
+              o().createElement(
                 "div",
-                { className: E },
-                i().createElement(m, { from: o, to: u }),
+                { className: b },
+                o().createElement(_, {
+                  from: c,
+                  to: u !== l ? s.Z5.getNumberFormat(l, s.B3.INTEGRAL) : void 0,
+                  isAnimated: u <= 0,
+                  isFromRed: u <= 0 && l > 0,
+                }),
                 t &&
-                  i().createElement("div", {
-                    style: l,
-                    className: r()(b, null == a ? void 0 : a.counterGlow),
+                  o().createElement("div", {
+                    style: d,
+                    className: r()(p, null == a ? void 0 : a.counterGlow),
                   }),
               ),
             );
@@ -11117,7 +11116,10 @@
                 {
                   args: S,
                   isEnabled:
-                    !o && !a.isCurrentLayoutSkillsTraining && !a.isCurrentLayoutMentorAssigment,
+                    -1 !== n.tankmanID &&
+                    !o &&
+                    !a.isCurrentLayoutSkillsTraining &&
+                    !a.isCurrentLayoutMentorAssigment,
                   targetId: R.views.lobby.crew.widgets.CrewWidget("resId"),
                 },
                 s().createElement(

@@ -310,6 +310,6 @@ class LobbyView(LobbyPageMeta, IWaitingWidget, IGlobalListener):
         self.__currIgrType = roomType
         return
 
-    def __onWalletChanged(self, status):
-        self.as_setWalletStatusS(status)
+    def __onWalletChanged(self, _):
+        self.as_setWalletStatusS(self.wallet.componentsStatuses)
         return

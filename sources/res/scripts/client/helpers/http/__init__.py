@@ -1,4 +1,7 @@
-import urllib2
+from __future__ import absolute_import
+from future.moves.urllib.request import Request, build_opener, BaseHandler
+from future.moves.urllib.response import addinfourl
+from future.moves.urllib.error import HTTPError, URLError
 from debug_utils import LOG_WARNING, LOG_ERROR
 from helpers import feedparser, time_utils, getFullClientVersion
 _CLIENT_VERSION = None
@@ -111,19 +114,19 @@ def openUrl(url, timeout=_DEFAULT_TIMEOUT, modified=None, agent=b''):
         agent = _getClientVersion()
     try:
         try:
-            request = urllib2.Request(url)
+            request = Request(url)
             request.add_header(b'User-Agent', agent)
             if modified:
                 request.add_header(b'If-Modified-Since', formatdate(modified))
-                urlOpener = urllib2.build_opener(_NotModifiedHandler())
+                urlOpener = build_opener(_NotModifiedHandler())
                 response = urlOpener.open(request, timeout=timeout)
             else:
-                urlOpener = urllib2.build_opener(urllib2.BaseHandler())
+                urlOpener = build_opener(BaseHandler())
                 response = urlOpener.open(request, timeout=timeout)
             return _HttpResponse(response)
-        except urllib2.HTTPError as e:
+        except HTTPError as e:
             LOG_WARNING(b'urllib2.HTTPError', e.code, url)
-        except urllib2.URLError as e:
+        except URLError as e:
             LOG_WARNING(b'urllib2.URLError', e.reason, url)
         except Exception as e:
             LOG_ERROR(b"Client couldn't download file", e, url)
@@ -152,9 +155,9 @@ def openPage(connection, page, modified=None, agent=b''):
     return _HttpConnResponse(response)
 
 
-class _NotModifiedHandler(urllib2.BaseHandler):
+class _NotModifiedHandler(BaseHandler):
 
     def http_error_304(self, req, fp, code, message, headers):
-        addinfourl = urllib2.addinfourl(fp, headers, req.get_full_url())
-        addinfourl.code = code
-        return addinfourl
+        info = addinfourl(fp, headers, req.get_full_url())
+        info.code = code
+        return info

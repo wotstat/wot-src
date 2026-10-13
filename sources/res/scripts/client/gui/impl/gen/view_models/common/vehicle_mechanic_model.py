@@ -45,6 +45,7 @@ class MechanicsEnum(Enum):
     AUXILIARY_ROCKET_LAUNCHER = b'auxiliaryRocketLauncher'
     SHELL_PARAMS_SWITCHER = b'shellParamsSwitcher'
     BUSTLE_FEED = b'bustleFeed'
+    COMBAT_THROTTLE = b'combatThrottle'
 
 
 class MechanicsRank(Enum):

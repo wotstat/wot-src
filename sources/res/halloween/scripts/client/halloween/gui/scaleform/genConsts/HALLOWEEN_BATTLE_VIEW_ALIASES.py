@@ -1,0 +1,13 @@
+class HALLOWEEN_BATTLE_VIEW_ALIASES(object):
+    BOSS_HPBAR = b'bossHPBar'
+    PHASE_INDICATOR = b'phaseIndicator'
+    POINT_COUNTER = b'pointCounter'
+    BUFF_NOTIFICATION_SYSTEM = b'buffNotificationSystem'
+    BOSS_INDICATOR_PROGRESS = b'bossIndicatorProgress'
+    PINNABLE_BATTLE_HINT = b'pinnableBattleHint'
+    PROGRESS_BAR_BATTLE_HINT = b'progressBarBattleHint'
+    HW_PLAYERS_PANEL = b'hwPlayersPanel'
+    SUBTITLES = b'subtitles'
+    ANOMALY_RECIPES_VIEW = b'anomalyReceipesView'
+    PHASE_MODIFIER_WIDGET = b'phaseModifierWidget'
+    PHASE_MODIFIER_HINT = b'phaseModifierHint'

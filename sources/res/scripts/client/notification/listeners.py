@@ -1,7 +1,9 @@
+from __future__ import absolute_import
 import json, logging, time, uuid, weakref
-from abc import ABCMeta
+from builtins import range
 from collections import defaultdict
 from functools import partial
+from future.utils import viewitems, viewvalues
 from typing import TYPE_CHECKING
 from account_helpers.AccountSettings import INTEGRATED_AUCTION_NOTIFICATIONS, IS_BATTLE_PASS_EXTRA_START_NOTIFICATION_SEEN, IS_BATTLE_PASS_START_NOTIFICATION_SEEN, LOOT_BOXES_WAS_FINISHED, LOOT_BOXES_WAS_STARTED, PROGRESSIVE_REWARD_VISITED, RECRUITS_NOTIFICATIONS, SENIORITY_AWARDS_COINS_REMINDER_SHOWN_TIMESTAMP, VEH_SKILL_TREE_POPUP_SHOWN, VEH_SKILL_TREE_RECORDED_NOFITICATION_NODE, BattleMatters, CHALLENGES_START_SEEN_NOTIFICATION, CHALLENGES_REMINDER_SEEN_NOTIFICATION
 from account_helpers.settings_core.settings_constants import SeniorityAwardsStorageKeys
@@ -404,7 +406,7 @@ class BaseReminderListener(_NotificationListener):
     def _createNotificationData(self, **ctx):
         return
 
-    def _createDecorator(self, notificationData):
+    def _createDecorator(self, data):
         raise NotImplementedError
         return
 
@@ -549,7 +551,7 @@ class PrbInvitesListener(_NotificationListener, IGlobalListener):
         else:
             model.removeNotificationsByType(NOTIFICATION_TYPE.INVITE)
             invites = self.prbInvites.getReceivedInvites()
-            invites = sorted(invites, cmp=(lambda invite, other: cmp(invite.createTime, other.createTime)))
+            invites = sorted(invites, key=(lambda inv: inv.createTime))
             for invite in invites:
                 model.addNotification(PrbInviteDecorator(invite))
 
@@ -666,17 +668,18 @@ class _ClanNotificationsCommonListener(_WGNCNotificationListener, ClanListener):
         g_wgncEvents.onProxyDataItemShowByDefault += self._onProxyDataItemShow
         self.__startTime = time_utils.getCurrentTimestamp()
         if not self._canBeShown():
-            return
-        storedItems = self._getStoredReceivedItems()
-        itemsByTypeCount = len(storedItems)
-        LOG_DEBUG(b'Clan WGNC new notifications count with type "%d": %d' % (
-         self._getNewReceivedItemType(), itemsByTypeCount))
-        if itemsByTypeCount:
-            if itemsByTypeCount > 1:
-                self._addMultiNotification(storedItems)
-            else:
-                self._addSingleNotification(storedItems[0])
-        return result
+            return None
+        else:
+            storedItems = self._getStoredReceivedItems()
+            itemsByTypeCount = len(storedItems)
+            LOG_DEBUG(b'Clan WGNC new notifications count with type "%d": %d' % (
+             self._getNewReceivedItemType(), itemsByTypeCount))
+            if itemsByTypeCount:
+                if itemsByTypeCount > 1:
+                    self._addMultiNotification(storedItems)
+                else:
+                    self._addSingleNotification(storedItems[0])
+            return result
 
     def stop(self):
         self.stopClanListening()
@@ -794,7 +797,7 @@ class _ClanAppsListener(_ClanNotificationsCommonListener, UsersInfoHelper):
         return
 
     def onUserNamesReceived(self, names):
-        for userDBID, userName in names.iteritems():
+        for userDBID, userName in viewitems(names):
             if userDBID in self.__userNamePendingNotifications:
                 model = self._model()
                 for appId in self.__userNamePendingNotifications[userDBID]:
@@ -834,7 +837,7 @@ class _ClanAppsListener(_ClanNotificationsCommonListener, UsersInfoHelper):
         processedClamAPPs = self._getNotMarkedItemsByType(wgnc_settings.WGNC_DATA_PROXY_TYPE.CLAN_APP_ACCEPTED_FOR_MEMBERS)
         processedClamAPPs.extend(self._getNotMarkedItemsByType(wgnc_settings.WGNC_DATA_PROXY_TYPE.CLAN_APP_DECLINED_FOR_MEMBERS))
         for processedAPP in processedClamAPPs:
-            for i in xrange(len(storedClanAPPs) - 1, -1, -1):
+            for i in range(len(storedClanAPPs) - 1, -1, -1):
                 storedAPP = storedClanAPPs[i]
                 if processedAPP.getApplicationID() == storedAPP.getApplicationID():
                     del storedClanAPPs[i]
@@ -1155,7 +1158,7 @@ class SwitcherListener(_NotificationListener):
         return
 
     def __onServerSettingsChange(self, diff):
-        for feature, data in _FEATURES_DATA.iteritems():
+        for feature, data in viewitems(_FEATURES_DATA):
             if feature in diff:
                 isEnabled = data[_FUNCTION]()
                 self.__addMessage(feature, isEnabled)
@@ -1164,7 +1167,7 @@ class SwitcherListener(_NotificationListener):
         return
 
     def __fillCurrentStates(self):
-        for featureName, value in _FEATURES_DATA.iteritems():
+        for featureName, value in viewitems(_FEATURES_DATA):
             self.__currentStates[featureName] = value[_FUNCTION]()
 
         return
@@ -1636,15 +1639,15 @@ class RecruitReminderListener(BaseReminderListener):
         savedData = {b'count': recruitsCount, b'expiryTime': expiryTime}
         return NotificationData(entityID, savedData, priorityLevel, None)
 
-    def _createDecorator(self, notificationData):
+    def _createDecorator(self, data):
         rMessage = R.strings.messenger.serviceChannelMessages
         messageTemplate = rMessage.recruitReminderTermless.text()
-        recruitsCount = notificationData.savedData.get(b'count')
-        expiryTime = notificationData.savedData.get(b'expiryTime')
+        recruitsCount = data.savedData.get(b'count')
+        expiryTime = data.savedData.get(b'expiryTime')
         if expiryTime:
             messageTemplate = rMessage.recruitReminder.text()
         message = backport.text(messageTemplate, count=recruitsCount, date=expiryTime)
-        return RecruitReminderMessageDecorator(notificationData.entityID, message, notificationData.savedData, notificationData.priorityLevel)
+        return RecruitReminderMessageDecorator(data.entityID, message, data.savedData, data.priorityLevel)
 
     def _cmpNotifications(self, new, prev):
         return new.getSavedData().get(b'count') == prev.getSavedData().get(b'count') and new.isNotify == prev.isNotify
@@ -1982,12 +1985,12 @@ class IntegratedAuctionListener(_NotificationListener):
         return
 
     def __clearNotifiers(self):
-        for notifier in self.__startNotifiers.itervalues():
+        for notifier in viewvalues(self.__startNotifiers):
             notifier.stopNotification()
             notifier.clear()
 
         self.__startNotifiers.clear()
-        for notifier in self.__finishNotifiers.itervalues():
+        for notifier in viewvalues(self.__finishNotifiers):
             notifier.stopNotification()
             notifier.clear()
 
@@ -2348,7 +2351,6 @@ class PrestigeListener(_NotificationListener):
 
 
 class BaseExchangeRateWithDiscountsListener(BaseReminderListener):
-    __metaclass__ = ABCMeta
     __TEMPLATE = b'ExchangeRatePersonalDiscount'
     __ENTITY_ID = 0
     __PRIORITY_LEVEL = NotificationPriorityLevel.LOW

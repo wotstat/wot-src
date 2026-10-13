@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import BigWorld, Math, AnimationSequence, CGF, math_utils
 from cgf_script.registration import ComponentProperty, registerComponent
 from components_base.component import Component
@@ -19,6 +20,7 @@ class ModelComponent(Component):
         return self.__baseModel
 
     def __init__(self, compoundModel, **kwargs):
+        super(ModelComponent, self).__init__()
         offset = kwargs.get(b'offset', 0.0)
         self.__offset = (0.0, offset, 0.0)
         self.__baseModel = compoundModel
@@ -68,6 +70,7 @@ class ModelComponent(Component):
 class SequenceComponent(Component):
 
     def __init__(self, sequenceAnimator):
+        super(SequenceComponent, self).__init__()
         self.__sequenceAnimator = sequenceAnimator
         return
 
@@ -195,6 +198,7 @@ class _SequenceAnimatorTimer(object):
 class TerrainAreaComponent(Component):
 
     def __init__(self, area):
+        super(TerrainAreaComponent, self).__init__()
         self.area = area
         return
 
@@ -202,6 +206,7 @@ class TerrainAreaComponent(Component):
 class EffectPlayer(Component):
 
     def __init__(self, effectsListSectionRoot, effectsListName):
+        super(EffectPlayer, self).__init__()
         timeline = EffectsList.effectsFromSection(effectsListSectionRoot[effectsListName])
         self.effectsListTimeLine = timeline
         self.__effectID = None

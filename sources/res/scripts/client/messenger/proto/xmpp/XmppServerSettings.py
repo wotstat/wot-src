@@ -1,4 +1,6 @@
-import random, types
+from __future__ import absolute_import
+import random
+from future.utils import lfilter, viewitems
 from debug_utils import LOG_ERROR
 from gui.shared.utils import getPlayerDatabaseID
 from messenger.proto.interfaces import IProtoSettings
@@ -22,7 +24,7 @@ def _validateConnection(record):
         host, port = record
         if not host:
             result = False
-        if not isinstance(port, types.IntType):
+        if not isinstance(port, int):
             result = False
     else:
         result = False
@@ -51,7 +53,7 @@ class ConnectionsIterator(object):
     def hasNext(self):
         return len(self.__tcp) > 0 or len(self.__bosh) > 0
 
-    def next(self):
+    def __next__(self):
         if self.__tcp:
             cType = CONNECTION_IMPL_TYPE.TCP
             host, port = self.__tcp.pop(0)
@@ -61,6 +63,8 @@ class ConnectionsIterator(object):
         else:
             raise StopIteration
         return (cType, host, port)
+
+    next = __next__
 
 
 class XmppServerSettings(IProtoSettings):
@@ -85,15 +89,15 @@ class XmppServerSettings(IProtoSettings):
 
     def update(self, data):
         if b'xmpp_connections' in data:
-            self.connections = filter(_validateConnection, data[b'xmpp_connections'])
+            self.connections = lfilter(_validateConnection, data[b'xmpp_connections'])
         else:
             self.connections = []
         if b'xmpp_alt_connections' in data:
-            self.altConnections = filter(_validateConnection, data[b'xmpp_alt_connections'])
+            self.altConnections = lfilter(_validateConnection, data[b'xmpp_alt_connections'])
         else:
             self.altConnections = []
         if b'xmpp_bosh_connections' in data:
-            self.boshConnections = filter(_validateConnection, data[b'xmpp_bosh_connections'])
+            self.boshConnections = lfilter(_validateConnection, data[b'xmpp_bosh_connections'])
         else:
             self.boshConnections = []
         if b'xmpp_host' in data:
@@ -156,7 +160,7 @@ class XmppServerSettings(IProtoSettings):
     def isMucServiceAllowed(self, service=b'', hostname=b''):
         if not self.enabled:
             return False
-        for serviceType, serviceData in self.mucServices.iteritems():
+        for serviceType, serviceData in viewitems(self.mucServices):
             if serviceType == service or hostname and hostname in serviceData[b'hostname']:
                 return serviceData[b'enabled']
 

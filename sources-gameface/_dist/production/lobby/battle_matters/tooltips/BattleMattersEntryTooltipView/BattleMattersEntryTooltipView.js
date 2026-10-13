@@ -46,7 +46,7 @@
             displayStatus: () => R,
             displayStatusIs: () => au,
             enableFullScreenModeSupported: () => iu,
-            events: () => P,
+            events: () => y,
             extraSize: () => su,
             forceTriggerMouseMove: () => uu,
             freezeTextureBeforeResize: () => V,
@@ -165,8 +165,8 @@
           },
           b = { highlight: "highlight", click: "play", yes1: "yes1" },
           f = Object.keys(b).reduce((u, e) => ((u[e] = () => _(b[e])), u), {}),
-          v = { play: Object.assign({}, f, { sound: _ }), setRTPC: m };
-        var h = t(308);
+          h = { play: Object.assign({}, f, { sound: _ }), setRTPC: m };
+        var v = t(308);
         function w(u, e, t = 1) {
           return viewEnv.getChildTexturePath(u, e.width, e.height, t);
         }
@@ -174,7 +174,7 @@
           return `url(${w(u, e, t)})`;
         }
         const R = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
-          P = {
+          y = {
             onTextureFrozen: o("self.onTextureFrozen"),
             onTextureReady: o("self.onTextureReady"),
             onDomBuilt: o("self.onDomBuilt"),
@@ -190,7 +190,7 @@
               onRequestPosition: o("children.requestPosition"),
             },
           },
-          y = ["args"];
+          P = ["args"];
         const S = 2,
           O = 16,
           x = 32,
@@ -208,7 +208,7 @@
                       t[n] = u[n];
                     }
                   return t;
-                })(e, y);
+                })(e, P);
               return void 0 !== r
                 ? viewEnv.handleViewEvent(
                     Object.assign({ __Type: t, type: u }, a, {
@@ -303,7 +303,7 @@
             let u = [];
             return () => (0 === u.length && (u = Object.keys(viewEnv.getFontsConfig())), u);
           })(),
-          nu = h.cg;
+          nu = v.cg;
         function ru() {
           return viewEnv.getExternalPaddingsRem();
         }
@@ -321,7 +321,7 @@
           },
           ou = Promise.all([
             new Promise((u) => {
-              window.isDomBuilt ? u() : P.onDomBuilt(u);
+              window.isDomBuilt ? u() : y.onDomBuilt(u);
             }),
             engine.whenReady,
           ]);
@@ -342,7 +342,7 @@
           }
           (e(), engine.on("self.onPaddingsUpdated", () => e()));
         }
-        const Eu = { view: s, client: r, sound: v, intl: p };
+        const Eu = { view: s, client: r, sound: h, intl: p };
       },
       20: (u, e, t) => {
         t.d(e, { n: () => n });
@@ -809,6 +809,11 @@
           const D = o().useRef(null);
           var d;
           return (
+            (0, s.useLayoutEffect)(() => {
+              const u = a.O.client.getSize("rem");
+              ((document.body.style.width = `${u.width}rem`),
+                (document.body.style.height = `${u.height}rem`));
+            }, []),
             (d = () => {
               const u = D.current;
               if (!u)
@@ -818,7 +823,9 @@
               const e = new ResizeObserver(() => {
                 const e = u.scrollWidth,
                   t = u.scrollHeight;
-                a.O.view.resize(e, t);
+                (a.O.view.resize(e, t),
+                  (document.body.style.width = `${e}px`),
+                  (document.body.style.height = `${t}px`));
                 const n = window.getComputedStyle(u);
                 a.O.view.setSidePaddingsRem({
                   left: parseInt(n.getPropertyValue("padding-left"), 10),
@@ -891,7 +898,7 @@
             }
           },
           f = (u, e, t = m.left) => u.split(e).reduce(t === m.left ? p : b, []),
-          v = (() => {
+          h = (() => {
             const u = new RegExp(
               [
                 /[\(\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?[ %\+\x2D-9A-Za-\{\}\xA0\xC0-\u0237\u2013\u2014\u2026]+[\)\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3002\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\uFF01\uFF0C\uFF1A\uFF1B\uFF1F\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?/gmu,
@@ -909,10 +916,10 @@
                 .replace(/ /g, " ")
                 .match(u);
           })(),
-          h = ["zh_cn", "zh_sg", "zh_tw"],
+          v = ["zh_cn", "zh_sg", "zh_tw"],
           w = (u, e = m.left) => {
             const t = R.strings.settings.LANGUAGE_CODE().toLowerCase();
-            if (h.includes(t)) return v(u);
+            if (v.includes(t)) return h(u);
             if ("ja" === t) {
               return (0, _.D4)()
                 .parse(u)
@@ -927,13 +934,13 @@
             })(u, e);
           };
         var T = t(828),
-          P = t(609);
-        const y = 1e3,
+          y = t(609);
+        const P = 1e3,
           S = 60,
           O = 3600,
           x = 86400,
-          k = (Date.now(), P.Ew.getRegionalDateTime);
-        P.Ew.getFormattedDateTime;
+          k = (Date.now(), y.Ew.getRegionalDateTime);
+        y.Ew.getFormattedDateTime;
         const N = () => {},
           M = (u = 0, e, t = 0, n = N) => {
             const r = (0, s.useState)(u),
@@ -946,10 +953,10 @@
                   const r = Date.now(),
                     a = setInterval(
                       () => {
-                        const e = u - Math.floor((Date.now() - r) / y);
+                        const e = u - Math.floor((Date.now() - r) / P);
                         null !== t && e <= t ? (o(t), n && n(), clearInterval(a)) : o(e);
                       },
-                      (e || (u > 120 ? S : 1)) * y,
+                      (e || (u > 120 ? S : 1)) * P,
                     );
                   return () => {
                     clearInterval(a);
@@ -1053,7 +1060,7 @@
           j = "Timer_base_d60a2",
           V = "Timer_icon_b6407",
           Y = (0, s.memo)(({ endDate: u, className: e }) => {
-            const t = Math.floor(Date.now() / y),
+            const t = Math.floor(Date.now() / P),
               n = (function (u = 0) {
                 let e = u;
                 const t = Math.trunc(e / x);
@@ -1670,8 +1677,8 @@
           pu = gu[0],
           bu = gu[1],
           fu = "App_divider_a8359",
-          vu = "App_base_c96f8",
-          hu = "App_timer_b5185",
+          hu = "App_base_c96f8",
+          vu = "App_timer_b5185",
           wu = {
             divider: "Header_divider_c5998",
             gradient: "Header_gradient_c25c7",
@@ -1701,7 +1708,7 @@
                 ),
             );
           }),
-          Pu = [
+          yu = [
             "children",
             "contentId",
             "args",
@@ -1717,7 +1724,7 @@
             "onShow",
             "onHide",
           ];
-        function yu(u) {
+        function Pu(u) {
           return Object.entries(u || {}).map(([u, e]) => {
             const t = { __Type: "GFValueProxy", name: u };
             switch (typeof e) {
@@ -1778,7 +1785,7 @@
                     t[n] = u[n];
                   }
                 return t;
-              })(u, Pu);
+              })(u, yu);
             const b = (0, s.useRef)({
                 timeoutId: 0,
                 isVisible: !1,
@@ -1808,13 +1815,13 @@
                   })().resId,
                 [B],
               ),
-              v = (0, s.useCallback)(() => {
+              h = (0, s.useCallback)(() => {
                 (b.current.isVisible && b.current.timeoutId) ||
-                  (Su(t, D, { isMouseEvent: !0, on: !0, arguments: yu(n) }, f),
+                  (Su(t, D, { isMouseEvent: !0, on: !0, arguments: Pu(n) }, f),
                   C && C(),
                   (b.current.isVisible = !0));
               }, [t, D, n, f, C]),
-              h = (0, s.useCallback)(() => {
+              v = (0, s.useCallback)(() => {
                 if (b.current.isVisible || b.current.timeoutId) {
                   const u = b.current.timeoutId;
                   (u > 0 && (clearTimeout(u), (b.current.timeoutId = 0)),
@@ -1828,7 +1835,7 @@
                   ((b.current.prevTarget = document.elementFromPoint(u.clientX, u.clientY)),
                   (b.current.hideTimerId = window.setTimeout(() => {
                     const e = document.elementFromPoint(u.clientX, u.clientY);
-                    e && !e.isSameNode(b.current.prevTarget) && h();
+                    e && !e.isSameNode(b.current.prevTarget) && v();
                   }, 200)));
               }, []);
             ((0, s.useEffect)(() => {
@@ -1842,16 +1849,16 @@
               );
             }, []),
               (0, s.useEffect)(() => {
-                !1 === _ && h();
-              }, [_, h]),
+                !1 === _ && v();
+              }, [_, v]),
               (0, s.useEffect)(
                 () => (
-                  window.addEventListener("mouseleave", h),
+                  window.addEventListener("mouseleave", v),
                   () => {
-                    (window.removeEventListener("mouseleave", h), h());
+                    (window.removeEventListener("mouseleave", v), v());
                   }
                 ),
-                [h],
+                [v],
               ));
             return _
               ? (0, s.cloneElement)(
@@ -1863,18 +1870,18 @@
                         (u) => {
                           (u.clientX === window.innerWidth && u.clientY === window.innerHeight) ||
                             (clearTimeout(b.current.timeoutId),
-                            (b.current.timeoutId = window.setTimeout(v, E ? 100 : 400)),
+                            (b.current.timeoutId = window.setTimeout(h, E ? 100 : 400)),
                             r && r(u),
                             T && T(u));
                         }),
                       onMouseLeave: ((u) => (e) => {
-                        (h(), null == a || a(e), null == u || u(e));
+                        (v(), null == a || a(e), null == u || u(e));
                       })(e.props.onMouseLeave),
                       onClick: ((u) => (e) => {
-                        (!1 === c && h(), null == i || i(e), null == u || u(e));
+                        (!1 === c && v(), null == i || i(e), null == u || u(e));
                       })(e.props.onClick),
                       onMouseDown: ((u) => (e) => {
-                        (!1 === c && h(), null == o || o(e), null == u || u(e));
+                        (!1 === c && v(), null == o || o(e), null == u || u(e));
                       })(e.props.onMouseDown),
                     },
                     p,
@@ -2432,11 +2439,11 @@
                   [c, u],
                 ),
                 f = (0, s.useMemo)(() => Object.assign({ width: "0%" }, pe(u), Ce(c)), [c, u]),
-                v = (0, s.useMemo)(
+                h = (0, s.useMemo)(
                   () => Object.assign({ width: "0%" }, ge(c, n), pe(u)),
                   [n, c, u],
                 ),
-                h = (0, s.useMemo)(
+                v = (0, s.useMemo)(
                   () => Object.assign({ width: `${Math.abs(i - n)}%` }, ge(c, n), pe(u)),
                   [n, c, i, u],
                 );
@@ -2444,7 +2451,7 @@
               const w = r()(_e, A, c && 0 === i && me);
               return o().createElement(
                 "div",
-                { style: m ? v : h, className: w },
+                { style: m ? h : v, className: w },
                 o().createElement(
                   "div",
                   { style: C ? f : b, className: Be },
@@ -2506,8 +2513,8 @@
               );
             },
           ),
-          ve = "ProgressBarDeltaSimple_base_cfcd3",
-          he = "ProgressBarDeltaSimple_delta_dc2b6",
+          he = "ProgressBarDeltaSimple_base_cfcd3",
+          ve = "ProgressBarDeltaSimple_delta_dc2b6",
           we = (0, s.memo)(
             ({
               transitionDuration: u,
@@ -2572,10 +2579,10 @@
                 ? null
                 : o().createElement(
                     "div",
-                    { className: ve, style: g },
+                    { className: he, style: g },
                     o().createElement(
                       "div",
-                      { style: _ ? B : C, className: he },
+                      { style: _ ? B : C, className: ve },
                       o().createElement(Ee, { size: r }),
                     ),
                   );
@@ -2626,9 +2633,9 @@
             },
           ),
           Re = ["onComplete", "onEndAnimation"];
-        function Pe() {
+        function ye() {
           return (
-            (Pe = Object.assign
+            (ye = Object.assign
               ? Object.assign.bind()
               : function (u) {
                   for (var e = 1; e < arguments.length; e++) {
@@ -2637,10 +2644,10 @@
                   }
                   return u;
                 }),
-            Pe.apply(null, arguments)
+            ye.apply(null, arguments)
           );
         }
-        const ye = (0, s.memo)((u) => {
+        const Pe = (0, s.memo)((u) => {
             let e = u.onComplete,
               t = u.onEndAnimation,
               n = (function (u, e) {
@@ -2662,9 +2669,9 @@
               }, [a, e, t, n.to]);
             switch (n.animationSettings.type) {
               case oe.Simple:
-                return o().createElement(Te, Pe({}, n, { onEndAnimation: l, isComplete: a }));
+                return o().createElement(Te, ye({}, n, { onEndAnimation: l, isComplete: a }));
               case oe.Growing:
-                return o().createElement(fe, Pe({}, n, { onEndAnimation: l, isComplete: a }));
+                return o().createElement(fe, ye({}, n, { onEndAnimation: l, isComplete: a }));
               default:
                 return null;
             }
@@ -2720,7 +2727,7 @@
           return (
             (n.current.from = a),
             o().createElement(
-              ye,
+              Pe,
               xe({}, t, {
                 onEndAnimation: r,
                 key: `${a}-${t.to}-${null == t ? void 0 : t.additionalKey}`,
@@ -2779,7 +2786,7 @@
               };
               return s.withStack
                 ? o().createElement(ke, A)
-                : o().createElement(ye, Ne({ key: `${r}-${e}-${a}` }, A));
+                : o().createElement(Pe, Ne({ key: `${r}-${e}-${a}` }, A));
             },
           ),
           Ie = (u) => {
@@ -3036,7 +3043,7 @@
               case mu:
                 return o().createElement(
                   "div",
-                  { className: vu },
+                  { className: hu },
                   o().createElement(Ru, null),
                   o().createElement("div", { className: fu }),
                   o().createElement(Ze, null),
@@ -3052,14 +3059,14 @@
               case Bu:
                 return o().createElement(
                   "div",
-                  { className: vu },
+                  { className: hu },
                   o().createElement(Ru, null),
                   o().createElement(re, null),
                 );
               case Cu:
                 return o().createElement(
                   "div",
-                  { className: vu },
+                  { className: hu },
                   o().createElement(Ru, null),
                   o().createElement(re, null),
                   n &&
@@ -3074,7 +3081,7 @@
                       o().Fragment,
                       null,
                       o().createElement("div", { className: fu }),
-                      o().createElement(Y, { endDate: r, className: hu }),
+                      o().createElement(Y, { endDate: r, className: vu }),
                     ),
                 );
               default:

@@ -21,6 +21,7 @@ COLOR_SCHEME = (
  text_styles.stats, text_styles.bonusAppliedText)
 NEUTRAL_STYLE = COLOR_SCHEME[0]
 TOOLTIPS_PATH = b'gui/ability_tooltips.xml'
+_logger = logging.getLogger(__name__)
 
 def _getTextStyle(idx):
     return COLOR_SCHEME[idx > 0]
@@ -374,11 +375,8 @@ class BattleAbilityTooltipManager(object):
 
     def _validateTooltipsData(self, tooltipsSettings):
         for itemName, data in viewitems(tooltipsSettings):
-            name = data.name
-            localised = i18n.makeString(name)
-            if name.endswith(localised):
-                logger = logging.getLogger(__name__)
-                logger.error(b"[ERROR] BattleAbilityTooltipManager: %s: Localization for '%s' not found.", itemName, data.name)
+            if not i18n.doesTextExist(data.name):
+                _logger.error(b"[ERROR] BattleAbilityTooltipManager: %s: Localization for '%s' not found.", itemName, data.name)
             if g_battleAbilityParamsRenderers.get(data.renderer) is None:
                 raise SoftException((b"{}: '{}' No renderer with the name '{}' exists. Allowed are {}.").format(TOOLTIPS_PATH, itemName, data.renderer, list(g_battleAbilityParamsRenderers)))
 
@@ -412,8 +410,7 @@ class BattleAbilityTooltipManager(object):
         for tooltipIdentifier in curLvlEq.tooltipIdentifiers:
             tooltipInfo = self.__tooltipsSettings.get(tooltipIdentifier, None)
             if tooltipInfo is None:
-                logger = logging.getLogger(__name__)
-                logger.error(b'[ERROR] createBattleAbilityTooltipRenderers: Failed to find tooltipInfo %(ttid)s for %(us)s (%(name)s).', {b'ttid': tooltipIdentifier, b'us': (curLvlEq.userString), 
+                _logger.error(b'[ERROR] createBattleAbilityTooltipRenderers: Failed to find tooltipInfo %(ttid)s for %(us)s (%(name)s).', {b'ttid': tooltipIdentifier, b'us': (curLvlEq.userString), 
                    b'name': (curLvlEq.name)})
                 continue
             renderer = g_battleAbilityParamsRenderers.get(tooltipInfo.renderer)

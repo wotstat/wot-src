@@ -3809,7 +3809,7 @@
               a().createElement(Xt, {
                 onChange: e,
                 classMix: en,
-                options: { debounceTime: 0 },
+                options: { debounceTime: 0, selectOnFocus: !1 },
                 size: Rt,
               }),
             ),

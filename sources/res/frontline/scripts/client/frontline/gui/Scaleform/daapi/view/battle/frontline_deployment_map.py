@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import GUI
 from frontline.gui.Scaleform.daapi.view.meta.FrontlineDeploymentMapMeta import FrontlineDeploymentMapMeta
 from frontline.gui.Scaleform.daapi.view.battle.frontline_minimap import _FRONT_LINE_DEV_VISUALIZATION_SUPPORTED, DevelopmentRespawnEntriesPlugin, EpicGlobalSettingsPlugin, HeadquartersStatusEntriesPlugin, MINIMAP_SCALE_TYPES, ProtectionZoneEntriesPlugin, RespawningPersonalEntriesPlugin, RecoveringVehiclesPlugin, SectorBaseEntriesPlugin, SectorOverlayEntriesPlugin, SectorStatusEntriesPlugin, StepRepairPointEntriesPlugin, EpicMinimapPingPlugin
@@ -39,7 +40,7 @@ class FrontlineDeploymentMapComponent(FrontlineDeploymentMapMeta):
     def setEntryParameters(self, id_, doClip=True, scaleType=MINIMAP_SCALE_TYPES.REAL_SCALE):
         return
 
-    def onZoomModeChanged(self, mode):
+    def onZoomModeChanged(self, change):
         return
 
     def updateSectorStates(self, states):
@@ -48,21 +49,21 @@ class FrontlineDeploymentMapComponent(FrontlineDeploymentMapMeta):
     def _getFlashName(self):
         return b'ovmap'
 
-    def _setupPlugins(self, visitor):
-        setup = super(FrontlineDeploymentMapComponent, self)._setupPlugins(visitor)
+    def _setupPlugins(self, arenaVisitor):
+        setup = super(FrontlineDeploymentMapComponent, self)._setupPlugins(arenaVisitor)
         setup[b'settings'] = EpicGlobalSettingsPlugin
         setup[b'personal'] = RespawningPersonalEntriesPlugin
         setup[b'pinging'] = EpicMinimapPingPlugin
-        if visitor.hasSectors():
+        if arenaVisitor.hasSectors():
             setup[b'epic_bases'] = DeploymentSectorBaseEntriesPlugin
             setup[b'epic_sector_overlay'] = SectorOverlayEntriesPlugin
-        if visitor.hasRespawns() and visitor.hasSectors():
+        if arenaVisitor.hasRespawns() and arenaVisitor.hasSectors():
             setup[b'epic_sector_states'] = SectorStatusEntriesPlugin
             setup[b'protection_zones'] = ProtectionZoneEntriesPlugin
             setup[b'vehicles'] = RecoveringVehiclesPlugin
-        if visitor.hasDestructibleEntities():
+        if arenaVisitor.hasDestructibleEntities():
             setup[b'epic_hqs'] = DeploymentHeadquartersStatusEntriesPlugin
-        if visitor.hasStepRepairPoints():
+        if arenaVisitor.hasStepRepairPoints():
             setup[b'repairs'] = StepRepairPointEntriesPlugin
         if _FRONT_LINE_DEV_VISUALIZATION_SUPPORTED:
             setup[b'epic_frontline'] = DevelopmentRespawnEntriesPlugin

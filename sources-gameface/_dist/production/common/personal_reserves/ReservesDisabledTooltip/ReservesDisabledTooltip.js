@@ -7,7 +7,7 @@
         (t.r(o),
           t.d(o, {
             mouse: () => E,
-            off: () => b,
+            off: () => y,
             on: () => h,
             onMinimize: () => w,
             onResize: () => m,
@@ -24,7 +24,7 @@
             setRTPC: () => P,
           }));
         var r = {};
-        (t.r(r), t.d(r, { getBgUrl: () => k, getTextureUrl: () => D }));
+        (t.r(r), t.d(r, { getBgUrl: () => $, getTextureUrl: () => D }));
         var a = {};
         (t.r(a),
           t.d(a, {
@@ -32,10 +32,10 @@
             addPreloadTexture: () => W,
             arabic2roman: () => ve,
             children: () => r,
-            displayStatus: () => F,
+            displayStatus: () => k,
             displayStatusIs: () => ge,
             enableFullScreenModeSupported: () => we,
-            events: () => G,
+            events: () => F,
             extraSize: () => me,
             forceTriggerMouseMove: () => de,
             freezeTextureBeforeResize: () => ne,
@@ -80,8 +80,8 @@
           p = f("self.onScaleUpdated"),
           w = f("clientMinimized"),
           h = (e, n) => engine.on(e, n),
-          b = (e, n) => engine.off(e, n),
-          y = { down: f("mousedown"), up: f("mouseup"), move: f("mousemove") };
+          y = (e, n) => engine.off(e, n),
+          b = { down: f("mousedown"), up: f("mouseup"), move: f("mousemove") };
         const E = (function () {
           const e = { listeners: 0, enabled: !0, initialized: !1 };
           function n() {
@@ -109,7 +109,7 @@
                   e.listeners += 1;
                   let i = !0;
                   const r = `mouse${n}`,
-                    a = y[n]((e) => t([e, "outside"]));
+                    a = b[n]((e) => t([e, "outside"]));
                   function s(e) {
                     t([e, "inside"]);
                   }
@@ -183,11 +183,11 @@
         function D(e, n, t = 1) {
           return viewEnv.getChildTexturePath(e, n.width, n.height, t);
         }
-        function k(e, n, t) {
+        function $(e, n, t) {
           return `url(${D(e, n, t)})`;
         }
-        const F = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
-          G = {
+        const k = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
+          F = {
             onTextureFrozen: f("self.onTextureFrozen"),
             onTextureReady: f("self.onTextureReady"),
             onDomBuilt: f("self.onDomBuilt"),
@@ -203,12 +203,12 @@
               onRequestPosition: f("children.requestPosition"),
             },
           },
-          N = ["args"];
-        const A = 2,
-          B = 16,
-          I = 32,
-          U = 64,
-          $ = (e, n) => {
+          G = ["args"];
+        const N = 2,
+          A = 16,
+          B = 32,
+          I = 64,
+          U = (e, n) => {
             const t = "GFViewEventProxy";
             if (void 0 !== n) {
               const i = n.args,
@@ -221,7 +221,7 @@
                       t[o] = e[o];
                     }
                   return t;
-                })(n, N);
+                })(n, G);
               return void 0 !== i
                 ? viewEnv.handleViewEvent(
                     Object.assign({ __Type: t, type: e }, r, {
@@ -247,13 +247,13 @@
           },
           H = {
             close(e) {
-              $("popover" === e ? A : I);
+              U("popover" === e ? N : B);
             },
             minimize() {
-              $(U);
+              U(I);
             },
             move(e) {
-              $(B, { isMouseEvent: !0, on: e });
+              U(A, { isMouseEvent: !0, on: e });
             },
           },
           Q = 15;
@@ -320,8 +320,8 @@
         function fe() {
           return viewEnv.getExternalPaddingsRem();
         }
-        const ge = Object.keys(F).reduce(
-            (e, n) => ((e[n] = () => viewEnv.getShowingStatus() === F[n]), e),
+        const ge = Object.keys(k).reduce(
+            (e, n) => ((e[n] = () => viewEnv.getShowingStatus() === k[n]), e),
             {},
           ),
           me = {
@@ -334,7 +334,7 @@
           },
           pe = Promise.all([
             new Promise((e) => {
-              window.isDomBuilt ? e() : G.onDomBuilt(e);
+              window.isDomBuilt ? e() : F.onDomBuilt(e);
             }),
             engine.whenReady,
           ]);
@@ -355,8 +355,8 @@
           }
           (n(), engine.on("self.onPaddingsUpdated", () => n()));
         }
-        const be = { view: a, client: i, sound: M, intl: O };
-        const ye = {
+        const ye = { view: a, client: i, sound: M, intl: O };
+        const be = {
             base: "TooltipDecorator_base_bf61f",
             "base__theme-default": "TooltipDecorator_base__theme-default_bf8f8",
             decorator: "TooltipDecorator_decorator_f4de8",
@@ -394,6 +394,11 @@
             const d = l().useRef(null);
             var u;
             return (
+              (0, s.useLayoutEffect)(() => {
+                const e = ye.client.getSize("rem");
+                ((document.body.style.width = `${e.width}rem`),
+                  (document.body.style.height = `${e.height}rem`));
+              }, []),
               (u = () => {
                 const e = d.current;
                 if (!e)
@@ -403,9 +408,11 @@
                 const n = new ResizeObserver(() => {
                   const n = e.scrollWidth,
                     t = e.scrollHeight;
-                  be.view.resize(n, t);
+                  (ye.view.resize(n, t),
+                    (document.body.style.width = `${n}px`),
+                    (document.body.style.height = `${t}px`));
                   const o = window.getComputedStyle(e);
-                  be.view.setSidePaddingsRem({
+                  ye.view.setSidePaddingsRem({
                     left: parseInt(o.getPropertyValue("padding-left"), 10),
                     top: parseInt(o.getPropertyValue("padding-top"), 10),
                     right: parseInt(o.getPropertyValue("padding-right"), 10),
@@ -418,12 +425,12 @@
               l().createElement(
                 "div",
                 xe({}, a, {
-                  className: v()(ye.base, ye[`base__theme-${r}`], o),
+                  className: v()(be.base, be[`base__theme-${r}`], o),
                   ref: function (e) {
                     ((d.current = e), "function" == typeof n ? n(e) : n && (n.current = e));
                   },
                 }),
-                l().createElement("div", { className: ye.decorator }, t),
+                l().createElement("div", { className: be.decorator }, t),
               )
             );
           }),

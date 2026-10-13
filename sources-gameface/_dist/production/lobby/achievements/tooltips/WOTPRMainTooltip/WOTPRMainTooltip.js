@@ -20,11 +20,11 @@
             getMouseGlobalPosition: () => T,
             getSize: () => S,
             graphicsQuality: () => _,
-            playSound: () => P,
-            setRTPC: () => x,
+            playSound: () => x,
+            setRTPC: () => P,
           }));
         var r = {};
-        (t.r(r), t.d(r, { getBgUrl: () => k, getTextureUrl: () => D }));
+        (t.r(r), t.d(r, { getBgUrl: () => $, getTextureUrl: () => D }));
         var a = {};
         (t.r(a),
           t.d(a, {
@@ -32,10 +32,10 @@
             addPreloadTexture: () => W,
             arabic2roman: () => ve,
             children: () => r,
-            displayStatus: () => A,
+            displayStatus: () => k,
             displayStatusIs: () => ge,
             enableFullScreenModeSupported: () => we,
-            events: () => F,
+            events: () => A,
             extraSize: () => pe,
             forceTriggerMouseMove: () => le,
             freezeTextureBeforeResize: () => ne,
@@ -142,12 +142,12 @@
             },
           });
         })();
-        function P(e) {
+        function x(e) {
           engine.call("PlaySound", e).catch((n) => {
             console.error(`playSound('${e}'): `, n);
           });
         }
-        function x(e, n) {
+        function P(e, n) {
           engine.call("SetRTPCGlobal", e, n).catch((t) => {
             console.error(`setRTPC('${e}', '${n}'): `, t);
           });
@@ -170,8 +170,8 @@
             toLowerCase: (e) => window.systemLocale.toLowerCase(e),
           },
           z = { highlight: "highlight", click: "play", yes1: "yes1" },
-          C = Object.keys(z).reduce((e, n) => ((e[n] = () => P(z[n])), e), {}),
-          M = { play: Object.assign({}, C, { sound: P }), setRTPC: x },
+          C = Object.keys(z).reduce((e, n) => ((e[n] = () => x(z[n])), e), {}),
+          M = { play: Object.assign({}, C, { sound: x }), setRTPC: P },
           j = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
           L = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
         function V(e) {
@@ -183,11 +183,11 @@
         function D(e, n, t = 1) {
           return viewEnv.getChildTexturePath(e, n.width, n.height, t);
         }
-        function k(e, n, t) {
+        function $(e, n, t) {
           return `url(${D(e, n, t)})`;
         }
-        const A = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
-          F = {
+        const k = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
+          A = {
             onTextureFrozen: f("self.onTextureFrozen"),
             onTextureReady: f("self.onTextureReady"),
             onDomBuilt: f("self.onDomBuilt"),
@@ -203,11 +203,11 @@
               onRequestPosition: f("children.requestPosition"),
             },
           },
-          G = ["args"];
-        const B = 2,
-          I = 16,
-          U = 32,
-          $ = 64,
+          F = ["args"];
+        const G = 2,
+          B = 16,
+          I = 32,
+          U = 64,
           N = (e, n) => {
             const t = "GFViewEventProxy";
             if (void 0 !== n) {
@@ -221,7 +221,7 @@
                       t[i] = e[i];
                     }
                   return t;
-                })(n, G);
+                })(n, F);
               return void 0 !== o
                 ? viewEnv.handleViewEvent(
                     Object.assign({ __Type: t, type: e }, r, {
@@ -247,13 +247,13 @@
           },
           H = {
             close(e) {
-              N("popover" === e ? B : U);
+              N("popover" === e ? G : I);
             },
             minimize() {
-              N($);
+              N(U);
             },
             move(e) {
-              N(I, { isMouseEvent: !0, on: e });
+              N(B, { isMouseEvent: !0, on: e });
             },
           },
           Q = 15;
@@ -320,8 +320,8 @@
         function fe() {
           return viewEnv.getExternalPaddingsRem();
         }
-        const ge = Object.keys(A).reduce(
-            (e, n) => ((e[n] = () => viewEnv.getShowingStatus() === A[n]), e),
+        const ge = Object.keys(k).reduce(
+            (e, n) => ((e[n] = () => viewEnv.getShowingStatus() === k[n]), e),
             {},
           ),
           pe = {
@@ -334,7 +334,7 @@
           },
           me = Promise.all([
             new Promise((e) => {
-              window.isDomBuilt ? e() : F.onDomBuilt(e);
+              window.isDomBuilt ? e() : A.onDomBuilt(e);
             }),
             engine.whenReady,
           ]);
@@ -362,9 +362,9 @@
             decorator: "TooltipDecorator_decorator_f4de8",
           },
           Ee = ["children", "className", "theme"];
-        function Pe() {
+        function xe() {
           return (
-            (Pe = Object.assign
+            (xe = Object.assign
               ? Object.assign.bind()
               : function (e) {
                   for (var n = 1; n < arguments.length; n++) {
@@ -373,10 +373,10 @@
                   }
                   return e;
                 }),
-            Pe.apply(null, arguments)
+            xe.apply(null, arguments)
           );
         }
-        const xe = d().forwardRef(function (e, n) {
+        const Pe = d().forwardRef(function (e, n) {
             let t = e.children,
               i = e.className,
               o = e.theme,
@@ -394,6 +394,11 @@
             const l = d().useRef(null);
             var u;
             return (
+              (0, s.useLayoutEffect)(() => {
+                const e = ye.client.getSize("rem");
+                ((document.body.style.width = `${e.width}rem`),
+                  (document.body.style.height = `${e.height}rem`));
+              }, []),
               (u = () => {
                 const e = l.current;
                 if (!e)
@@ -403,7 +408,9 @@
                 const n = new ResizeObserver(() => {
                   const n = e.scrollWidth,
                     t = e.scrollHeight;
-                  ye.view.resize(n, t);
+                  (ye.view.resize(n, t),
+                    (document.body.style.width = `${n}px`),
+                    (document.body.style.height = `${t}px`));
                   const i = window.getComputedStyle(e);
                   ye.view.setSidePaddingsRem({
                     left: parseInt(i.getPropertyValue("padding-left"), 10),
@@ -417,7 +424,7 @@
               (0, s.useEffect)(u, []),
               d().createElement(
                 "div",
-                Pe({}, a, {
+                xe({}, a, {
                   className: v()(be.base, be[`base__theme-${r}`], i),
                   ref: function (e) {
                     ((l.current = e), "function" == typeof n ? n(e) : n && (n.current = e));
@@ -433,7 +440,7 @@
           _e = R.strings.achievements_page.tooltips.wotprMainTooltip,
           Oe = () =>
             d().createElement(
-              xe,
+              Pe,
               null,
               d().createElement(
                 "div",

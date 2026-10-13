@@ -24,7 +24,7 @@
             setRTPC: () => v,
           }));
         var D = {};
-        (F.r(D), F.d(D, { getBgUrl: () => S, getTextureUrl: () => T }));
+        (F.r(D), F.d(D, { getBgUrl: () => T, getTextureUrl: () => S }));
         var B = {};
         (F.r(B),
           F.d(B, {
@@ -176,11 +176,11 @@
           return A;
         }
         ["ko", "no"].includes(R.strings.settings.LANGUAGE_CODE());
-        function T(u, A, F = 1) {
+        function S(u, A, F = 1) {
           return viewEnv.getChildTexturePath(u, A.width, A.height, F);
         }
-        function S(u, A, F) {
-          return `url(${T(u, A, F)})`;
+        function T(u, A, F) {
+          return `url(${S(u, A, F)})`;
         }
         const O = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
           z = {
@@ -200,8 +200,8 @@
             },
           },
           k = ["args"];
-        const M = 2,
-          $ = 16,
+        const $ = 2,
+          M = 16,
           j = 32,
           L = 64,
           I = (u, A) => {
@@ -243,13 +243,13 @@
           },
           G = {
             close(u) {
-              I("popover" === u ? M : j);
+              I("popover" === u ? $ : j);
             },
             minimize() {
               I(L);
             },
             move(u) {
-              I($, { isMouseEvent: !0, on: u });
+              I(M, { isMouseEvent: !0, on: u });
             },
           },
           N = 15;
@@ -392,6 +392,11 @@
           const t = du().useRef(null);
           var C;
           return (
+            (0, cu.useLayoutEffect)(() => {
+              const u = lu.client.getSize("rem");
+              ((document.body.style.width = `${u.width}rem`),
+                (document.body.style.height = `${u.height}rem`));
+            }, []),
             (C = () => {
               const u = t.current;
               if (!u)
@@ -401,7 +406,9 @@
               const A = new ResizeObserver(() => {
                 const A = u.scrollWidth,
                   F = u.scrollHeight;
-                lu.view.resize(A, F);
+                (lu.view.resize(A, F),
+                  (document.body.style.width = `${A}px`),
+                  (document.body.style.height = `${F}px`));
                 const e = window.getComputedStyle(u);
                 lu.view.setSidePaddingsRem({
                   left: parseInt(e.getPropertyValue("padding-left"), 10),
@@ -451,7 +458,7 @@
             }
           },
           Ru = (u, A, F = wu.left) => u.split(A).reduce(F === wu.left ? _u : Pu, []),
-          Tu = (() => {
+          Su = (() => {
             const u = new RegExp(
               [
                 /[\(\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?[ %\+\x2D-9A-Za-\{\}\xA0\xC0-\u0237\u2013\u2014\u2026]+[\)\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3002\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\uFF01\uFF0C\uFF1A\uFF1B\uFF1F\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?/gmu,
@@ -468,10 +475,10 @@
                 .replace(/ /g, " ")
                 .match(u);
           })(),
-          Su = ["zh_cn", "zh_sg", "zh_tw"],
+          Tu = ["zh_cn", "zh_sg", "zh_tw"],
           Ou = (u, A = wu.left) => {
             const F = R.strings.settings.LANGUAGE_CODE().toLowerCase();
-            if (Su.includes(F)) return Tu(u);
+            if (Tu.includes(F)) return Su(u);
             if ("ja" === F) {
               return (0, hu.D4)()
                 .parse(u)
@@ -512,8 +519,8 @@
               ),
             );
           };
-        var Mu = F(41);
-        const $u = "DogTag_base_cb781",
+        var $u = F(41);
+        const Mu = "DogTag_base_cb781",
           ju = "DogTag_engraving_ca9f2",
           Lu = "DogTag_background_c6df2",
           Iu = R.strings.settings.LANGUAGE_CODE(),
@@ -531,7 +538,7 @@
           const D = Gu.includes(Iu) ? `_${Iu}` : "";
           return du().createElement(
             "div",
-            { className: n()($u, E) },
+            { className: n()(Mu, E) },
             du().createElement("div", {
               className: Lu,
               style: {
@@ -781,7 +788,7 @@
           AA = "App_subTitle_db4fe",
           FA = "App_dogTag_bfe5e",
           eA = "App_description_efaf5",
-          EA = (0, Mu.Pi)(() => {
+          EA = (0, $u.Pi)(() => {
             const u = Ku().model.root.get(),
               A = u.engravingId,
               F = u.backgroundId,

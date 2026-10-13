@@ -522,10 +522,10 @@ class ConsumablesPanel(IAmmoListener, ConsumablesPanelMeta, CallbackDelayer):
             feedbackCtrl.onVehicleFeedbackReceived += self.__onVehicleFeedbackReceived
         return
 
-    def _onSlotWaited(self, index, quantity):
+    def _onSlotWaited(self, slotId, quantity):
         return
 
-    def _onSlotBlocked(self, index, quantity):
+    def _onSlotBlocked(self, slotId, quantity):
         return
 
     def _removeListeners(self):

@@ -1,5 +1,7 @@
-from helpers import aop
+from __future__ import absolute_import
+from future.utils import viewitems
 from typing import TYPE_CHECKING
+from helpers import aop
 if TYPE_CHECKING:
     from typing import Dict, Sequence
 
@@ -11,7 +13,7 @@ class _FlashDisableSettingsAspect(aop.Aspect):
         return
 
     def atCall(self, cd):
-        for itemId, guiPath in self.__disabledSettings.iteritems():
+        for itemId, guiPath in viewitems(self.__disabledSettings):
             self.__disableControl(cd, itemId, guiPath)
 
         return

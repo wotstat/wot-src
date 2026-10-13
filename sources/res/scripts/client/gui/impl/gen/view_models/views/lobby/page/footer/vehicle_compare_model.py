@@ -1,4 +1,5 @@
-from frameworks.wulf import ViewModel
+from frameworks.wulf import Array, ViewModel
+from gui.impl.gen.view_models.views.lobby.common.vehicle_model import VehicleModel
 
 class VehicleCompareModel(ViewModel):
     __slots__ = ()
@@ -7,22 +8,26 @@ class VehicleCompareModel(ViewModel):
         super(VehicleCompareModel, self).__init__(properties=properties, commands=commands)
         return
 
-    def getVehicleCount(self):
-        return self._getNumber(0)
-
-    def setVehicleCount(self, value):
-        self._setNumber(0, value)
-        return
-
     def getIsEnabled(self):
-        return self._getBool(1)
+        return self._getBool(0)
 
     def setIsEnabled(self, value):
-        self._setBool(1, value)
+        self._setBool(0, value)
         return
+
+    def getVehicles(self):
+        return self._getArray(1)
+
+    def setVehicles(self, value):
+        self._setArray(1, value)
+        return
+
+    @staticmethod
+    def getVehiclesType():
+        return VehicleModel
 
     def _initialize(self):
         super(VehicleCompareModel, self)._initialize()
-        self._addNumberProperty(b'vehicleCount', 0)
         self._addBoolProperty(b'isEnabled', False)
+        self._addArrayProperty(b'vehicles', Array())
         return

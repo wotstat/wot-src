@@ -86,7 +86,7 @@ class RetrainSingleDialog(BaseCrewDialogTemplateView):
          (
           b'inventory.1.compDescr', self._onVehiclesInventoryUpdate),
          (
-          b'cache.mayConsumeWalletResources', self._onConsumeWalletUpdate))
+          b'cache.isResourcesConsumptionAllowed', self._onConsumeWalletUpdate))
 
     def _getEvents(self):
         return (
@@ -127,7 +127,7 @@ class RetrainSingleDialog(BaseCrewDialogTemplateView):
     def _onPriceChange(self, index=None):
         submitBtn = self.getButton(DialogButtons.SUBMIT)
         if submitBtn is not None:
-            isWGMAvailable = self._itemsCache.items.stats.mayConsumeWalletResources
+            isWGMAvailable = self._itemsCache.items.stats.isResourcesConsumptionAllowed
             submitBtn.isDisabled = index is None or not isWGMAvailable
         with self.viewModel.transaction() as vm:
             self._updateTankmanAfter(vm)

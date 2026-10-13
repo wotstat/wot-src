@@ -212,14 +212,14 @@
             getSize: () => _,
             getViewGlobalPosition: () => D,
             initExternalPaddings: () => R,
-            isEventHandled: () => h,
+            isEventHandled: () => v,
             isFocused: () => f,
             pxToRem: () => p,
             remToPx: () => g,
             resize: () => d,
             sendEvent: () => a.qP,
             setAnimateWindow: () => b,
-            setEventHandled: () => v,
+            setEventHandled: () => h,
             setInputPaddingsRem: () => l,
             setSidePaddingsRem: () => A,
             whenTutorialReady: () => P,
@@ -273,10 +273,10 @@
         function f() {
           return viewEnv.isFocused();
         }
-        function v() {
+        function h() {
           return viewEnv.setEventHandled();
         }
-        function h() {
+        function v() {
           return viewEnv.isEventHandled();
         }
         function m() {
@@ -695,7 +695,7 @@
           };
         var b = t(5533);
         const f = r.instance,
-          v = {
+          h = {
             DataTracker: o.Z,
             ViewModel: b.Z,
             ViewEventType: a,
@@ -784,7 +784,7 @@
             SystemLocale: i.Z5,
             UserLocale: i.cy,
           };
-        window.ViewEnvHelper = v;
+        window.ViewEnvHelper = h;
       },
       6609: (u, e, t) => {
         t.d(e, { Z5: () => n, cy: () => r });
@@ -846,6 +846,11 @@
           const _ = a().useRef(null);
           var d;
           return (
+            (0, i.useLayoutEffect)(() => {
+              const u = o.O.client.getSize("rem");
+              ((document.body.style.width = `${u.width}rem`),
+                (document.body.style.height = `${u.height}rem`));
+            }, []),
             (d = () => {
               const u = _.current;
               if (!u)
@@ -855,7 +860,9 @@
               const e = new ResizeObserver(() => {
                 const e = u.scrollWidth,
                   t = u.scrollHeight;
-                o.O.view.resize(e, t);
+                (o.O.view.resize(e, t),
+                  (document.body.style.width = `${e}px`),
+                  (document.body.style.height = `${t}px`));
                 const n = window.getComputedStyle(u);
                 o.O.view.setSidePaddingsRem({
                   left: parseInt(n.getPropertyValue("padding-left"), 10),
@@ -1053,7 +1060,7 @@
               ),
             );
           },
-          v = (u) => {
+          h = (u) => {
             let e = u.children,
               t = u.contentId,
               n = u.args,
@@ -1072,8 +1079,8 @@
               B = u.targetId,
               C = void 0 === B ? 0 : B,
               p = u.onShow,
-              v = u.onHide,
-              h = (function (u, e) {
+              h = u.onHide,
+              v = (function (u, e) {
                 if (null == u) return {};
                 var t = {};
                 for (var n in u)
@@ -1123,10 +1130,10 @@
                   const u = m.current.timeoutId;
                   (u > 0 && (clearTimeout(u), (m.current.timeoutId = 0)),
                     f(t, _, { on: !1 }, w),
-                    m.current.isVisible && v && v(),
+                    m.current.isVisible && h && h(),
                     (m.current.isVisible = !1));
                 }
-              }, [t, _, w, v]),
+              }, [t, _, w, h]),
               x = (0, i.useCallback)((u) => {
                 m.current.isVisible &&
                   ((m.current.prevTarget = document.elementFromPoint(u.clientX, u.clientY)),
@@ -1181,13 +1188,13 @@
                         (!1 === F && k(), null == a || a(e), null == u || u(e));
                       })(e.props.onMouseDown),
                     },
-                    h,
+                    v,
                   ),
                 )
               : e;
             var T;
           },
-          h = ["children"];
+          v = ["children"];
         function m() {
           return (
             (m = Object.assign
@@ -1213,9 +1220,9 @@
                     t[n] = u[n];
                   }
                 return t;
-              })(u, h);
+              })(u, v);
             return a().createElement(
-              v,
+              h,
               m(
                 {
                   contentId:
@@ -1268,7 +1275,7 @@
               return u;
             }, [o, t, n, r, s]);
             return a().createElement(
-              v,
+              h,
               k(
                 {
                   contentId:
@@ -1303,7 +1310,7 @@
           if (e.header || e.body) return a().createElement(T, e, n);
           const r = e.contentId;
           return r
-            ? a().createElement(v, O({}, e, { contentId: r }), n)
+            ? a().createElement(h, O({}, e, { contentId: r }), n)
             : a().createElement(w, e, n);
         };
         var L = t(1311);
@@ -1396,8 +1403,8 @@
           z = "renderers_lineBreak_f90ed",
           X = "renderers_newLine_ee778",
           G = "renderers_word_ac32d",
-          H = (u) => ({ color: `#${u}` }),
-          K = ({ elementList: u, textBlock: e, key: t }) => {
+          $ = (u) => ({ color: `#${u}` }),
+          H = ({ elementList: u, textBlock: e, key: t }) => {
             const n = e.colorTag;
             return n
               ? U[n]
@@ -1408,7 +1415,7 @@
                   )
                 : a().createElement(
                     "span",
-                    { key: t, "data-block-type": e.blockType, className: G, style: H(n) },
+                    { key: t, "data-block-type": e.blockType, className: G, style: $(n) },
                     u,
                   )
               : a().createElement(
@@ -1417,9 +1424,9 @@
                   u,
                 );
           },
-          $ = {
-            [N.Word]: K,
-            [N.NoBreakSymbol]: K,
+          K = {
+            [N.Word]: H,
+            [N.NoBreakSymbol]: H,
             [N.Binding]: ({ elementList: u, textBlock: e, key: t }) =>
               a().createElement(
                 "span",
@@ -1445,7 +1452,7 @@
                 if (((u) => void 0 !== u.childList)(r)) {
                   const u = r,
                     e = u.blockType,
-                    t = Y(u, $[e], i);
+                    t = Y(u, K[e], i);
                   n.push(...t);
                 } else n.push(e({ elementList: [r], textBlock: u, key: i }));
               }),
@@ -1460,7 +1467,7 @@
                   ...((u, e) => {
                     const t = [],
                       n = u.blockType,
-                      r = $[n],
+                      r = K[n],
                       o = Y(u, r, e);
                     return (
                       n === N.NoBreakWrapper
@@ -2054,10 +2061,10 @@
           gu = Cu[1],
           bu = "QuickTrainingDiscountTooltipApp_base_df38c",
           fu = "QuickTrainingDiscountTooltipApp_title_ef7eb",
-          vu = "QuickTrainingDiscountTooltipApp_label_b1e9d",
-          hu = (u, e, t) =>
+          hu = "QuickTrainingDiscountTooltipApp_label_b1e9d",
+          vu = (u, e, t) =>
             a().createElement(Eu, {
-              classMix: vu,
+              classMix: hu,
               text: u,
               binding: {
                 freeXp: a().createElement(p, {
@@ -2079,12 +2086,12 @@
                 { className: fu },
                 R.strings.crew_books.tooltip.sale.header(),
               ),
-              hu(
+              vu(
                 R.strings.crew_books.tooltip.sale.oldRate(),
                 u.oldFreeXpBaseValue.get(),
                 u.oldXpExchangeValue.get(),
               ),
-              hu(
+              vu(
                 R.strings.crew_books.tooltip.sale.newRate(),
                 u.newFreeXpBaseValue.get(),
                 u.newXpExchangeValue.get(),

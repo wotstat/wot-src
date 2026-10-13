@@ -40,3 +40,4 @@ class COMMON(object):
     RELATIVEDATETIME_YESTERDAY = b'#common:relativeDateTime/yesterday'
     PROGRESS = b'#common:progress'
     CLOSE = b'#common:close'
+    UIKIT_SELECT_PLACEHOLDER = b'#common:uikit/select/placeholder'

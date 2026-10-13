@@ -1,5 +1,7 @@
+from __future__ import absolute_import
 import logging
 from collections import defaultdict
+from future.utils import viewitems, viewvalues
 from helpers import dependency
 from gui.Scaleform.genConsts.TUTORIAL_TRIGGER_TYPES import TUTORIAL_TRIGGER_TYPES
 from skeletons.tutorial import ITutorialLoader
@@ -126,7 +128,7 @@ class ShowChainHint(ApplicationEffect):
         if layout and effectID:
             layout.closeInteractiveHint(self._hintsDict.pop(effectID))
         elif layout:
-            for itemId in self._hintsDict.itervalues():
+            for itemId in viewvalues(self._hintsDict):
                 layout.closeInteractiveHint(itemId)
 
         return
@@ -201,7 +203,7 @@ class SetTriggerEffect(ApplicationEffect):
         itemID, actionType = effectID, effectSubType
         if itemID is None:
             if layout is not None:
-                for _itemID in self._triggersByItem.iterkeys():
+                for _itemID in self._triggersByItem:
                     layout.clearTriggers(_itemID)
 
             self._triggersByItem.clear()
@@ -237,14 +239,14 @@ class EffectsPlayer(object):
         return
 
     def iterEffects(self):
-        for name, effect in self._effects.iteritems():
+        for name, effect in viewitems(self._effects):
             yield (
              name, effect)
 
         return
 
     def filterByName(self, *names):
-        for name, effect in self._effects.iteritems():
+        for name, effect in viewitems(self._effects):
             if name in names:
                 yield effect
 
@@ -273,13 +275,13 @@ class EffectsPlayer(object):
         return
 
     def cancel(self, scopeType, scopeName):
-        for effect in self._effects.itervalues():
+        for effect in viewvalues(self._effects):
             effect.cancel(scopeType, scopeName)
 
         return
 
     def stopAll(self):
-        for effect in self._effects.itervalues():
+        for effect in viewvalues(self._effects):
             effect.stop()
 
         return

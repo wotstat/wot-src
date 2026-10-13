@@ -170,6 +170,8 @@ class PrebattleHighlightsController(IArenaPeriodController, ViewComponentsContro
         return
 
     def handleEscClose(self):
+        if self.windowHandler.inFade:
+            return
         if self.windowHandler.isReady() and self.__displayingHighlights:
             SoundGroups.g_instance.playSound2D(PbhSounds.ESC_EVENT)
             self.__uiLogger.logStopViewingAction(PrebattleHighlightsLogKeys.ESC)
