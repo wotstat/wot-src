@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Fornece invulnerabilidade."
+
+msgid "damageShield/long_special"
+msgstr "Habilidade de Combate. Cria um escudo de energia que protege seu veículo de qualquer tipo de dano, exceto por colisão, afogamento e impacto durante 7 segundos. A habilidade é gasta se for usada uma vez em batalha, podendo ser reabastecida usando créditos. Não há necessidade de reabastecimento se não for usada.<br /><br />Disponível apenas durante o evento <font color='#cbac77'>Babilônia: Torre Negra.</font><br /><br />Todas as habilidades não usadas serão removidas e compensadas em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "damageShield/name"
+msgstr "Escudo de Energia"
+
+msgid "damageShield/onUse"
+msgstr "Cria um escudo de energia que protege seu veículo de qualquer tipo de dano, exceto por impacto, afogamento e queda durante 7 s."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Fornece invulnerabilidade."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Aumenta a taxa de disparo / recarga do carregador."
+
+msgid "fastReload/long_special"
+msgstr "Habilidade de Combate. Acelera de forma significativa a recarga de um canhão cíclico por um período de tempo, ou recarrega os canhões com carregador de forma instantânea. A habilidade é gasta se for usada uma vez em batalha, podendo ser reabastecida usando créditos. Não há necessidade de reabastecimento se não for usada. <br /><br />Disponível apenas durante o evento <font color='#cbac77'>Babilônia: Torre Negra.</font><br /><br />Todas as habilidades não usadas serão removidas e compensadas em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "fastReload/name"
+msgstr "Recarregamento Rápido"
+
+msgid "fastReload/onUse"
+msgstr "Acelera significativamente o carregamento de um canhão cíclico por um período de tempo ou recarrega instantaneamente canhões com sistemas carregamento."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Aumenta a taxa de disparo / recarga do carregador."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Restaura os pontos de vida, apaga incêndios, remove atordoamento e repara módulos danificados."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Habilidade de Combate. Restaura pontos de vida, apaga incêndios e repara módulos danificados. Pode ser usada várias vezes em uma batalha. Removida após ser usada pelo menos uma vez em uma batalha.<br /><br />Disponível apenas durante o evento <font color='#cbac77'>Projeto Babilônia</font>.<br /><br />Todas as habilidades não utilizadas serão removidas e compensadas em créditos no valor de 50% do seu custo com o lançamento da próxima atualização."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Reparos de Emergência"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Restaura instantaneamente 400 pontos de vida ao seu veículo.\n•Restaura 300 pontos de vida extras dentro de 30 s.\n•A restauração é interrompida se o veículo receber dano.\n•Apaga incêndios, remove o efeito do atordoamento e repara módulos danificados.\n•Só pode ser ativada após receber danos."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Restaura os pontos de vida, apaga incêndios, remove atordoamento e repara módulos danificados."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Custo de Mirium para usar em batalha:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nCusto em Mirium: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Custo de Mirium para usar em batalha:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "O disparo danifica e atordoa o alvo, além de veículos adversários próximos."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Habilidade de Combate. Efetua um disparo que atordoa o alvo e todos os veículos inimigos dentro de um alcance de 35 m. A habilidade é gasta se for usada uma vez em batalha, podendo ser reabastecida usando créditos. Não há necessidade de reabastecimento se não for usada.<br/><br/>Disponível apenas durante o evento <font color='#cbac77'>Babilônia: Torre Negra.</font><br/><br/>Todas as habilidades não usadas serão removidas e compensadas em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Disparo de Energia"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Um disparo que danifica e atordoa o alvo, além de todos os veículos inimigos em um raio de 35 m."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "O disparo danifica e atordoa o alvo, além de veículos adversários próximos."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Um disparo que converte o dano causado ao alvo e aos inimigos próximos em pontos de vida."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Habilidade de Combate. Efetua um disparo que restaura pontos de vida roubando-os do alvo e veículos inimigos dentro de um alcance de 35 m, além de reparar módulos danificados e remover o efeito de atordoamento. A habilidade é gasta se for usada uma vez em batalha, podendo ser reabastecida usando créditos. Não há necessidade de reabastecimento se não for usada.<br/><br/>Disponível apenas durante o evento <font color='#cbac77'>Babilônia: Torre Negra.</font><br/><br/>Todas as habilidades não usadas serão removidas e compensadas em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Disparo Vampírico"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Um disparo que converte o dano causado do alvo e dos inimigos próximos em um raio de 35 m, repara módulos danificados e remove efeitos de atordoamento."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Um disparo que converte o dano causado ao alvo e aos inimigos próximos em pontos de vida."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "O disparo atordoa o alvo e veículos adversários próximos."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Habilidade de Combate. O disparo atordoa o alvo e veículos adversários próximos num raio de 35 m. Pode ser usado várias vezes em batalha. Removido após ser usado pelo menos uma vez em batalha.<br /><br />Disponível apenas durante o evento <font color='#cbac77'>Projeto Babilônia</font>.<br /><br />Todas as habilidades não utilizadas serão removidas e compensadas em créditos no valor de 50% do seu custo com o lançamento da próxima atualização."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Disparo de Atordoamento"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Um disparo que atordoa o alvo e todos os veículos inimigos em um raio de 35 m."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "O disparo atordoa o alvo e veículos adversários próximos."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Deixa seu veículo invisível para os inimigos, restaura pontos de vida, repara módulos e apaga incêndios."
+
+msgid "hwInvisibility/long_special"
+msgstr "Deixa seu veículo invisível para inimigos por 10 s. Restaura 35 HP por segundo, repara módulos, remove todos os efeitos negativos e concede invulnerabilidade para corrosão. Disparar ou receber dano de um veículo inimigo (por disparo, impacto ou ao usar as Habilidades de Combate) irá revelar sua posição imediatamente. Não pode ser interrompido por disparos inimigos 3 s após a ativação. A habilidade é gasta se for usada uma vez em batalha, podendo ser reabastecida usando créditos. Não há necessidade de reabastecimento se não for usada.<br/><br/>Disponível apenas durante o evento <font color='#cbac77'>Babilônia: Torre Negra</font>.<br/><br/>Todas as habilidades não usadas serão removidas e compensadas em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "hwInvisibility/name"
+msgstr "Cura Furtiva"
+
+msgid "hwInvisibility/onUse"
+msgstr "Deixa seu veículo invisível para inimigos por 10 s. Restaura 35 HP por segundo, repara módulos, remove todos os efeitos negativos e concede invulnerabilidade para corrosão. Disparar ou receber dano de um veículo inimigo (por disparo, impacto ou ao usar as Habilidades de Combate) irá revelar sua posição imediatamente. Não pode ser interrompido por disparos inimigos 3 s após a ativação."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Esconde seu veículo dos inimigos, restaura HP, repara módulos, apaga incêndios, remove o atordoamento e cura a tripulação."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Acelera seu veículo por um tempo limitado\ne aumenta os danos provocados por impacto."
+
+msgid "nitroRamDamage/name"
+msgstr "Turbocompressor"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Aumenta temporariamente a velocidade do seu veículo e o dano provocado por impacto."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Repara e restaura pontos de vida de veículos aliados dentro de seu raio."
+
+msgid "teamRepairKit/long_special"
+msgstr "Habilidade de Combate. Repara módulos, apaga incêndios, remove o efeito do atordoamento e restaura alguns pontos de vida dos veículos aliados instantaneamente dentro da sua área de efeito. A habilidade é gasta se for usada uma vez em batalha, podendo ser reabastecida usando créditos. Não há necessidade de reabastecimento se não for usada. <br/><br />Disponível apenas durante o evento <font color='#cbac77'>Babilônia: Torre Negra.</font><br/><br/>Todas as habilidades não usadas serão removidas e compensadas em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "teamRepairKit/name"
+msgstr "Reparos de Grupo"
+
+msgid "teamRepairKit/onUse"
+msgstr "Repara módulos danificados, apaga incêndios, remove atordoamento e restaura parte dos pontos de vida dos veículos aliados dentro do raio de efeito."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Repara e restaura pontos de vida de veículos aliados dentro de seu raio."

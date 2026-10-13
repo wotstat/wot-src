@@ -96,7 +96,7 @@ class BaseHintAction(Block, HintsMeta):
         raise NotImplementedError
         return
 
-    def _doAction(self, receiver, hintId):
+    def _doAction(self, controller, hintId):
         raise NotImplementedError
         return
 

@@ -3304,12 +3304,6 @@ msgstr "Restricciones de pelotón"
 msgid "details/conditions/additional"
 msgstr "Haz clic para ver la condición secundaria de esta misión."
 
-msgid "devMaps/body"
-msgstr "Libra batallas en mapas que tengan eventos aleatorios (como trenes o aviones que se estrellan) que modifican la dinámica del campo de batalla y crean nuevas oportunidades tácticas."
-
-msgid "devMaps/header"
-msgstr "Jugar en mapas con eventos aleatorios"
-
 msgid "deviceFits/already_installed/header"
 msgstr "Montado en:"
 
@@ -6670,6 +6664,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/fisherman/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/fr_spark/desc"
+msgstr "Ningún lugar fue nunca un verdadero hogar para Lacie \"Chispa\" Paxton. Crecer viajando entre bases militares junto a su padre, ingeniero en comunicaciones, la hizo cosmopolita, adaptable y asombrosamente hábil para detectar patrones. Luego, Chispa demostró ser tan capaz dentro de un vehículo blindado como detrás de un equipo de inteligencia. Lidera con humor seco y nunca arriesga a su tripulación a la ligera. Cuando el Sector 3 formó una unidad para interceptar las transmisiones del Arquitecto, Chispa fue la elección natural para comandarla. Bautizó su primera misión como \"Operación Navaja\", y la unidad aceptó el nombre."
+
+msgid "notrecruitedtankman/fr_spark/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/fr_spark/label"
+msgstr "Señal negra"
+
 msgid "notrecruitedtankman/freeSkillsTitle"
 msgstr "Pericias a cero"
 
@@ -6709,6 +6712,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/girls_und_panzer_erwin/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/desc"
+msgstr "Hoshino es una artillera capaz que despacha a sus oponentes con una sonrisa, además de ser una conductora experta en su tiempo libre."
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/girls_und_panzer_kei/desc"
 msgstr "Kei, gracias a su personalidad extrovertida y su impecable sentido del juego limpio, es la divertida y hábil comandante del equipo Sensha-Dō de la Saunders University High School. Es el pilar espiritual del equipo y siempre les recuerda a sus compañeras que la victoria se disfruta más cuando está acompañada por una generosa dosis de diversión."
 
@@ -6716,6 +6728,15 @@ msgid "notrecruitedtankman/girls_und_panzer_kei/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_kei/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/desc"
+msgstr "La despreocupada comandante y operadora de radio del equipo Leoponsan siempre mantiene la cabeza fría en pleno combate."
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_naomi/desc"
@@ -6752,6 +6773,24 @@ msgid "notrecruitedtankman/girls_und_panzer_saunders/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_saunders/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/desc"
+msgstr "Suzuki tiene modales suaves, pero los proyectiles que carga golpean con fuerza a sus oponentes."
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/desc"
+msgstr "Puedes intentar decirle a Tsuchiya que no haga drift, pero no esperes que te escuche."
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/howToGet"
@@ -6935,6 +6974,15 @@ msgid "notrecruitedtankman/lunar26_commander/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/lunar26_commander/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/desc"
+msgstr "El reconocido ingeniero convertido en comandante, Emil Diachenko, se siente igual de cómodo cuando le dispara a tanques enemigos que cuando abre el compartimento del motor para improvisar mejoras. Este verdadero inconformista se ha convertido en una especie de leyenda urbana en el cuartel: sus hombres juran que nunca duerme. Emil conoce los rumores y prefiere no confirmarlos ni desmentirlos; un hombre con debilidad por lo extraordinario, sería el último en frenar la imaginación de nadie. De hecho, cuando no está tramando su próxima locura, se lo puede ver dibujando turbocompresores caseros que parecen imposibles de construir... o eso parece."
+
+msgid "notrecruitedtankman/mustached_engineer/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/ny19men/desc"
@@ -11616,6 +11664,12 @@ msgstr "Tiempo entre el disparo del último proyectil en el cargador (o de ambos
 
 msgid "tank_params/desc/coincidenceElectromechanicalSightDuration"
 msgstr "Duración del efecto de la Mira electromecánica de coincidencia tras su activación."
+
+msgid "tank_params/desc/combatThrottleCooldown"
+msgstr "Demora antes de que el acelerador se pueda volver a usar después de activarlo."
+
+msgid "tank_params/desc/combatThrottleDuration"
+msgstr "Duración del efecto del acelerador después de activarlo."
 
 msgid "tank_params/desc/concentrationModeCooldown"
 msgstr "Demora antes de que el estabilizador se pueda volver a usar luego de activarlo."

@@ -1,6 +1,8 @@
+from __future__ import absolute_import
 import weakref, typing, BigWorld
 from aih_constants import CTRL_MODES
-from constants import DEFAULT_GUN_INSTALLATION_INDEX
+from constants import DEFAULT_GUN_INSTALLATION_INDEX, EQUIPMENT_STAGES
+from items import vehicles
 from visual_script import ASPECT
 from visual_script.ability_common import Stage
 from visual_script.block import Meta, Block, InitParam, buildStrKeysValue
@@ -10,7 +12,6 @@ from visual_script.slot_types import SLOT_TYPE, arrayOf
 from visual_script.type import VScriptEnum
 from visual_script.tunable_event_block import TunableEventBlock
 from visual_script_client.vehicle_common import TunablePlayerVehicleEventBlock, getPartState, getPartNames, getPartName, TriggerListener
-from items import vehicles
 if typing.TYPE_CHECKING:
     from Vehicle import StunInfo
 helpers, TriggersManager, gun_marker_ctrl, equipment_ctrl, Avatar = dependencyImporter(b'helpers', b'TriggersManager', b'AvatarInputHandler.gun_marker_ctrl', b'gui.battle_control.controllers.consumables.equipment_ctrl', b'Avatar')
@@ -41,8 +42,9 @@ class PlayerMeta(Meta):
     def _avatar(self):
         if helpers.isPlayerAvatar():
             return BigWorld.player()
-        errorVScript(self, b'BigWorld.player is not player avatar.')
-        return
+        else:
+            errorVScript(self, b'BigWorld.player is not player avatar.')
+            return
 
 
 class PlayerEventMeta(PlayerMeta):
@@ -90,7 +92,8 @@ class GetPlayerGunMarkerInfo(Block, PlayerMeta):
         avatar = self._avatar
         if avatar:
             return avatar.gunRotator.markerInfo
-        return
+        else:
+            return
 
     def _getPosition(self):
         markerInfo = self._markerInfo
@@ -815,7 +818,10 @@ class GetPlayerEquipmentState(Block, PlayerMeta):
         self._equipped = self._makeDataOutputSlot(b'isEquipped', SLOT_TYPE.BOOL, self._isEquipped)
         self._availableToUse = self._makeDataOutputSlot(b'isAvailableToUse', SLOT_TYPE.BOOL, self._isAvailableToUse)
         self._canActivate = self._makeDataOutputSlot(b'canBeActivated', SLOT_TYPE.BOOL, self._canBeActivated)
+        self._isReady = self._makeDataOutputSlot(b'isReady', SLOT_TYPE.BOOL, self._getIsReady)
         self._stage = self._makeDataOutputSlot(b'stage', Stage.slotType(), self._getStage)
+        self._prevStage = self._makeDataOutputSlot(b'prevStage', Stage.slotType(), self._getPrevStage)
+        self._remainingTime = self._makeDataOutputSlot(b'remainingTime', SLOT_TYPE.FLOAT, self._getTotalTime)
         return
 
     @property
@@ -853,6 +859,26 @@ class GetPlayerEquipmentState(Block, PlayerMeta):
         item = self._equipment
         if item is not None:
             self._stage.setValue(item.getStage())
+        return
+
+    def _getPrevStage(self):
+        item = self._equipment
+        if item is not None:
+            self._prevStage.setValue(item.getPrevStage())
+        return
+
+    def _getTotalTime(self):
+        item = self._equipment
+        if item is not None:
+            self._remainingTime.setValue(item.getTimeRemaining())
+        return
+
+    def _getIsReady(self):
+        item = self._equipment
+        if item is not None:
+            currentStage = item.getStage()
+            ready = currentStage == EQUIPMENT_STAGES.READY
+            self._isReady.setValue(ready)
         return
 
 

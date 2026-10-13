@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Otorga invulnerabilidad."
+
+msgid "damageShield/long_special"
+msgstr "Habilidad de combate. Crea un escudo de energía que protege al vehículo de todo tipo de daño, excepto las embestidas, el ahogamiento y los impactos durante 7 s. Si se usa al menos una vez en batalla, la habilidad se gasta y se puede reabastecer usando créditos. Si no se usa, no hace falta reabastecerla.<br /><br />Solo disponible durante el evento <font color='#cbac77'>Babylon: Torre oscura</font>.<br /><br />Las habilidades sin usar desaparecerán, y recibirás una compensación en créditos equivalente al 50 % de su valor en la próxima actualización."
+
+msgid "damageShield/name"
+msgstr "Escudo de energía"
+
+msgid "damageShield/onUse"
+msgstr "Crea un escudo de energía que protege a tu vehículo de todo el daño, excepto del daño por embestidas, ahogamiento e impacto, durante 7 s."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Otorga invulnerabilidad."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Aumenta la cadencia de fuego/recarga el cargador."
+
+msgid "fastReload/long_special"
+msgstr "Habilidad de combate. Acelera mucho la carga de un cañón cíclico temporalmente o recarga al instante los cañones que tienen un sistema de recarga de cargador. Si se usa al menos una vez en batalla, la habilidad se gasta y se puede reabastecer usando créditos. Si no se usa, no hace falta reabastecerla.<br /><br />Solo disponible durante el evento <font color='#cbac77'>Babylon: Torre oscura</font>.<br /><br />Las habilidades sin usar desaparecerán, y recibirás una compensación en créditos equivalente al 50 % de su valor en la próxima actualización."
+
+msgid "fastReload/name"
+msgstr "Recarga rápida"
+
+msgid "fastReload/onUse"
+msgstr "Acelera mucho la carga de un cañón cíclico temporalmente o recarga al instante los cañones que tienen un sistema de recarga de cargador."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Aumenta la cadencia de fuego/recarga el cargador."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Restaura puntos de vida, apaga los incendios, elimina el aturdimiento y repara los módulos dañados."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Habilidad de combate. Restaura PV, apaga los incendios, elimina el aturdimiento y repara los módulos dañados. Se puede usar varias veces en cada batalla. Se elimina luego de usarlo al menos una vez en una batalla.<br /><br />Solo disponible durante el evento <font color='#cbac77'>Proyecto Babylon</font>.<br /><br />En la próxima actualización, las habilidades no utilizadas se eliminarán y se compensarán en créditos por un importe equivalente al 50 % de su costo."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Reparación de emergencia"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Restaura de inmediato 400 puntos de vida a tu vehículo.\n• Restaura otros 300 puntos de vida en total durante 30 s.\n• La curación se interrumpe si recibes daño.\n• Apaga los incendios, elimina el aturdimiento y repara los módulos dañados.\n• Solo se puede activar si recibes daño."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Restaura puntos de vida, apaga los incendios, elimina el aturdimiento y repara los módulos dañados."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Costo de mirium para usar en batalla:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nCosto de mirium: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Costo de mirium para usar en batalla:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Dispara un proyectil que daña y aturde al objetivo y a los vehículos enemigos cercanos."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Habilidad de combate. Dispara un proyectil que daña y aturde al objetivo y a los vehículos enemigos ubicados en un radio de 35 m. Si se usa al menos una vez en batalla, la habilidad se gasta y se puede reabastecer usando créditos. Si no se usa, no hace falta reabastecerla.<br/><br/>Solo disponible durante el evento <font color='#cbac77'>Babylon: Torre oscura</font>.<br/><br/>Las habilidades sin usar desaparecerán, y recibirás una compensación en créditos equivalente al 50 % de su valor en la próxima actualización."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Disparo energético"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Dispara un proyectil que daña y aturde al objetivo y a todos los vehículos enemigos ubicados en un radio de 35 m."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Dispara un proyectil que daña y aturde al objetivo y a los vehículos enemigos cercanos."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Dispara un proyectil que restaura los puntos de vida al robárselos al objetivo y a los vehículos enemigos cercanos."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Habilidad de combate. Dispara un proyectil que restaura puntos de vida al robárselos al objetivo y a los vehículos enemigos cercanos ubicados en un radio de 35 m. También repara los módulos dañados y quita el aturdimiento. Si se usa al menos una vez en batalla, la habilidad se gasta y se puede reabastecer usando créditos. Si no se usa, no hace falta reabastecerla.<br/><br/>Solo disponible durante el evento <font color='#cbac77'>Babylon: Torre oscura</font>.<br/><br/>Las habilidades sin usar desaparecerán, y recibirás una compensación en créditos equivalente al 50 % de su valor en la próxima actualización."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Disparo vampírico"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Dispara un proyectil que restaura los puntos de vida al robárselos al objetivo y a los vehículos enemigos cercanos ubicados en un radio de 35 m, además de reparar los módulos dañados y eliminar el aturdimiento."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Dispara un proyectil que restaura los puntos de vida al robárselos al objetivo y a los vehículos enemigos cercanos."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Dispara un proyectil que aturde al objetivo y a los vehículos enemigos cercanos."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Habilidad de combate. Dispara un proyectil que aturde al objetivo y a todos los vehículos enemigos ubicados en un radio de 35 m. Se puede usar varias veces en cada batalla. Se elimina luego de usarlo al menos una vez en una batalla.<br /><br />Solo disponible durante el evento <font color='#cbac77'>Proyecto Babylon</font>.<br /><br />Las habilidades sin usar desaparecerán, y recibirás una compensación en créditos equivalente al 50 % de su valor en la próxima actualización."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Disparo aturdidor"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Dispara un proyectil que aturde al objetivo y a todos los vehículos enemigos ubicados en un radio de 35 m."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Dispara un proyectil que aturde al objetivo y a los vehículos enemigos cercanos."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Hace que tu vehículo sea invisible para los enemigos, restaura los puntos de vida, repara módulos y apaga incendios."
+
+msgid "hwInvisibility/long_special"
+msgstr "Habilidad de combate. Hace que el vehículo sea invisible a ojos de los enemigos durante 10 s. Restaura 35 PV por segundo, repara módulos, elimina todos los efectos negativos y otorga invulnerabilidad a la corrosión. Al disparar o recibir daño de un vehículo enemigo (por disparo, embestida o habilidades de combate), se revelará tu posición inmediatamente. Durante 3 s luego de la activación, los disparos enemigos no pueden interrumpirla. Si se usa al menos una vez en batalla, la habilidad se gasta y se puede reabastecer usando créditos. Si no se usa, no hace falta reabastecerla.<br/><br/>Solo disponible durante el evento <font color='#cbac77'>Babylon: Torre oscura</font>.<br/><br/>Las habilidades sin usar desaparecerán, y recibirás una compensación en créditos equivalente al 50 % de su valor en la próxima actualización."
+
+msgid "hwInvisibility/name"
+msgstr "Cura sigilosa"
+
+msgid "hwInvisibility/onUse"
+msgstr "Hace que el vehículo sea invisible a ojos de los enemigos durante 10 s. Restaura 35 PV por segundo, repara módulos, elimina todos los efectos negativos y otorga invulnerabilidad a la corrosión. Al disparar o recibir daño de un vehículo enemigo (por disparo, embestida o habilidades de combate), se revelará tu posición inmediatamente. Durante 3 s luego de la activación, los disparos enemigos no pueden interrumpirla."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Te oculta de los enemigos, restaura PV, repara módulos, apaga incendios, elimina el aturdimiento y cura a los tripulantes."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Acelera tu vehículo durante un período limitado\ny aumenta el daño por embestida."
+
+msgid "nitroRamDamage/name"
+msgstr "Turbocargador"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Aumenta temporalmente la velocidad de tu vehículo y el daño que causa al embestir."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Repara y restaura algunos puntos de vida de los vehículos aliados ubicados dentro del radio de acción."
+
+msgid "teamRepairKit/long_special"
+msgstr "Habilidad de combate. Repara módulos al instante, apaga incendios, elimina el aturdimiento y restaura algunos puntos de vida a los vehículos aliados ubicados dentro del radio de acción. Si se usa al menos una vez en batalla, la habilidad se gasta y se puede reabastecer usando créditos. Si no se usa, no hace falta reabastecerla.<br/><br />Solo disponible durante el evento <font color='#cbac77'>Babylon: Torre oscura</font>.<br/><br/>Las habilidades sin usar desaparecerán, y recibirás una compensación en créditos equivalente al 50 % de su valor en la próxima actualización."
+
+msgid "teamRepairKit/name"
+msgstr "Reparaciones grupales"
+
+msgid "teamRepairKit/onUse"
+msgstr "Repara al instante los módulos, apaga los incendios, elimina el aturdimiento y restaura una parte de los puntos de vida de los vehículos aliados ubicados dentro del radio de acción."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Repara y restaura algunos puntos de vida de los vehículos aliados ubicados dentro del radio de acción."

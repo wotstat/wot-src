@@ -1,0 +1,12 @@
+from halloween.gui.impl.gen.view_models.views.lobby.dialogs.hw_dialog_model import HwDialogModel
+
+class AbilitiesInclompleteDialogModel(HwDialogModel):
+    __slots__ = ()
+
+    def __init__(self, properties=0, commands=3):
+        super(AbilitiesInclompleteDialogModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def _initialize(self):
+        super(AbilitiesInclompleteDialogModel, self)._initialize()
+        return

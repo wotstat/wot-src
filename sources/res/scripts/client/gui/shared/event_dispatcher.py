@@ -80,6 +80,7 @@ if typing.TYPE_CHECKING:
     from uilogging.wot_plus.logging_constants import WotPlusInfoPageSource
     from gui.impl.lobby.crew.widget.crew_widget import BuildedMessage
     from gui.Scaleform.daapi.view.lobby.hangar.Hangar import Hangar
+    from gui.impl.gen.view_models.views.lobby.customization.attachments_preview.attachments_preview_model import AttachmentsPreviewFeature
 _logger = logging.getLogger(__name__)
 
 class SettingsTabIndex(object):
@@ -2420,9 +2421,9 @@ def showChallengesAwardsWindow(challenge, rewardsData, notificationMgr=None):
     return
 
 
-def showAttachmentsSetPreview(setTokenID):
+def showAttachmentsSetPreview(setTokenID, feature=b''):
     from gui.impl.lobby.customization.attachments_preview.attachments_preview import AttachmentsPreviewWindow
-    window = AttachmentsPreviewWindow(setTokenID)
+    window = AttachmentsPreviewWindow(setTokenID, feature)
     window.load()
     return
 

@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from sound_gui_manager import CommonSoundSpaceSettings
 GAMEMODE_GROUP = b'STATE_gamemode'
 GAMEMODE_STATE = b'STATE_gamemode_story_mode'

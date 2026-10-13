@@ -1,6 +1,7 @@
 from __future__ import absolute_import
 import BigWorld
 from constants import IS_DEVELOPMENT, IS_CELLAPP
+from debug_utils import LOG_DEBUG, LOG_ERROR
 from visual_script.block import Block, Meta, InitParam, buildStrKeysValue
 from visual_script.misc import ASPECT, BLOCK_MODE, EDITOR_TYPE
 from visual_script.slot_types import SLOT_TYPE, arrayOf
@@ -72,6 +73,30 @@ class Assert(Block, QAMeta):
 
     def _execute(self):
         self._out.call()
+        return
+
+
+class AssertExt(Block, QAMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(AssertExt, self).__init__(*args, **kwargs)
+        self._in = self._makeEventInputSlot(b'in', AssertExt.execute)
+        self._outSuccess = self._makeEventOutputSlot(b'success')
+        self._outFailure = self._makeEventOutputSlot(b'failure')
+        self._condition = self._makeDataInputSlot(b'condition', SLOT_TYPE.BOOL)
+        self._prefixes = self._makeDataInputSlot(b'prefixes', arrayOf(SLOT_TYPE.STR))
+        self._messageSuccess = self._makeDataInputSlot(b'messageSuccess', SLOT_TYPE.STR)
+        self._messageFail = self._makeDataInputSlot(b'messageFail', SLOT_TYPE.STR)
+        return
+
+    def execute(self):
+        if self._condition.getValue():
+            if self._messageSuccess.hasValue():
+                LOG_DEBUG((b' ').join(self._prefixes.getValue() + [self._messageSuccess.getValue()]))
+            self._outSuccess.call()
+        elif self._messageFail.hasValue():
+            LOG_ERROR((b' ').join(self._prefixes.getValue() + [self._messageFail.getValue()]))
+        self._outFailure.call()
         return
 
 

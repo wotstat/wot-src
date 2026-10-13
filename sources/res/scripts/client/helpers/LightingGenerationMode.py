@@ -29,7 +29,7 @@ class CameraTransform:
 
 
 PROFILE_CAMERA_TRANSFORMS_XML_NAME = b'scripts/profile_camera_transforms.xml'
-g_cameraTransforms = list()
+g_cameraTransforms = []
 g_curCameraTransform = 0
 
 def _clampCameraTransformIdx(val):

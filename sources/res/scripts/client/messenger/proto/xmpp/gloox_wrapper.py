@@ -1,5 +1,7 @@
+from __future__ import absolute_import
+import weakref
 from collections import defaultdict
-import weakref, BigWorld
+import BigWorld
 from debug_utils import LOG_CURRENT_EXCEPTION
 from external_strings_utils import unicode_from_utf8
 from messenger.proto.xmpp.extensions.wg_items import makeWGInfoFromPresence
@@ -308,7 +310,6 @@ class ClientDecorator(object):
 
 
 class ClientHolder(object):
-    __slots__ = (b'_client',)
     _client = None
 
     @classmethod

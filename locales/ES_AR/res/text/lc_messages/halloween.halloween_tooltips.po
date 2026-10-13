@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Tiempo de recuperación: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Costo de mirium para usar en batalla: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Cuando se usa:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Bonificaciones pasivas en batalla"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Completa la dificultad Normal para desbloquear la dificultad Difícil y acceder al sistema de combos de anomalías."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Los combos de anomalías no están disponibles"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Aumenta la efectividad en combate y se conserva de una fase a otra, incluso si destruyen tu vehículo."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Al recibirla:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomalías"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Ecoanomalía"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Anomalía recolectable"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Anomalía básica"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Anomalía secreta"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Solo se obtiene del botín."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "No tiene combos."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "No cuenta para obtener la medalla Coleccionista de anomalías."
+
+msgid "bannerTooltip/available"
+msgstr "Evento disponible por %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode): modo de juego. Haz clic para ver."
+
+msgid "bannerTooltip/description"
+msgstr "Un modo JcE especial que te adentrará en el mundo del misterioso Proyecto Babylon. Domina siete vehículos únicos mientras luchas por destruir a las oscuras fuerzas enemigas. ¡Habrá recompensas exclusivas y mucho más!"
+
+msgid "bannerTooltip/header"
+msgstr "Babylon: Torre oscura"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "El rendimiento de tu computadora es insuficiente para este modo. Es posible que experimentes problemas con los gráficos y el movimiento de vehículos. También es probable que el cliente presente errores graves."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Este modo requiere de un alto rendimiento de la computadora. Experimentarás problemas con la carga de mapas, gráficos y movimiento de vehículos. En caso de que el desempeño sea insuficiente, cambia a una calidad inferior de gráficos en Configuración."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Bajo rendimiento"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Posibilidad de rendimiento reducido"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Ya son amigos."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Esperando la confirmación de la solicitud de amigos."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Eliminar jugador de tu lista negra."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Añadir a lista de amigos."
+
+msgid "battleResult/interaction/menu"
+msgstr "Haz clic para abrir el menú de interacción con este jugador."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Añadir al pelotón."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Jugador ya en pelotón."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Invitación ya enviada."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Solo el comandante del pelotón puede invitar a jugadores a unirse."
+
+msgid "battleResult/secretReward/header"
+msgstr "Recompensa secreta"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Recibirás una recompensa especial según tu decisión al final del evento."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Recompensa única del evento"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Reutilización: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Costo de mirium: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Disponible hasta el {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Recompensas:"
+
+msgid "dailyQuests/status"
+msgstr "Nueva misión diaria en {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Asigna a los cuatro tripulantes del evento con líneas de voz (%(crew_members_names)s) a cualquier vehículo en tu garage (uno de ellos debe ser el comandante) para activar las conversaciones dinámicas del equipo durante la batalla.\nEn el caso de los vehículos con cinco o seis roles, los roles restantes pueden ocuparse con cualquier otro tripulante."
+
+msgid "groupVoiceover/header"
+msgstr "Conversaciones dinámicas del equipo"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "El objetivo para desbloquear este vehículo ya se seleccionó. Consulta las condiciones en la esquina superior derecha de la pantalla."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Objetivo seleccionado"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Elige un vehículo disponible para ir a la batalla."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "No disponible"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Las batallas en la dificultad/modo que elegiste no están disponibles temporalmente por motivos técnicos."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "No disponible"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Espera a que el pelotón vuelva de la batalla anterior para ingresar a una nueva."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "No disponible"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Nivel de dificultad incompatible para el pelotón."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "No disponible"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Una tripulación única de cuatro tanquistas."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Tripulación única completa"
+
+msgid "keyCard/body"
+msgstr "Haz clic para ver las formas disponibles de obtener la moneda del evento."
+
+msgid "keys/accrued"
+msgstr "Recibido:"
+
+msgid "keys/battles"
+msgstr "• En batallas del evento"
+
+msgid "keys/body"
+msgstr "Una moneda única que sirve para progresar en el evento Babylon: Torre oscura y recibir objetos valiosos, incluida la recompensa principal del evento. Se puede ganar en batallas de evento y comprar en paquetes. Destruye los vehículos enemigos en Babylon: Torre oscura para recoger toda la materia posible y ganar llaves."
+
+msgid "keys/boss"
+msgstr "• Jefe derrotado:"
+
+msgid "keys/bottom"
+msgstr "Cuando termine el evento (%(date)s), se eliminarán las llaves sin usar."
+
+msgid "keys/bundles"
+msgstr "• Compra en paquetes del evento"
+
+msgid "keys/daily"
+msgstr "• Misión diaria de vehículo:"
+
+msgid "keys/effective"
+msgstr "• Eficacia en batalla:"
+
+msgid "keys/gold"
+msgstr "• Compra por oro"
+
+msgid "keys/header"
+msgstr "Llaves descifradoras"
+
+msgid "keys/howToEarn"
+msgstr "Cómo conseguir"
+
+msgid "keys/howToUse"
+msgstr "Cómo usar"
+
+msgid "keys/howToUseDescr"
+msgstr "Usa llaves para descifrar registros, desbloquear nuevos objetivos y progresar hacia la recompensa principal del evento. También puedes gastar llaves para omitir objetivos y alcanzar las recompensas más rápido."
+
+msgid "keys/inStock"
+msgstr "disponible"
+
+msgid "keys/secret"
+msgstr "• Recompensa secreta:"
+
+msgid "metaWidget/body"
+msgstr "Haz clic para ver todos los objetivos y recompensas del evento."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Completa la condición de batalla de este registro para descifrarlo. Esto no se puede omitir."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Descifrado no disponible"
+
+msgid "metaWidget/header"
+msgstr "TRAMO DE RECOMPENSA"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Haz clic para elegir cómo termina esta historia. La decisión general de la comunidad determinará los próximos eventos. Consulta el portal del juego para ver más información."
+
+msgid "missionTooltip/bottom"
+msgstr "Descifra todos los registros (algunos objetivos se pueden omitir) para alcanzar la recompensa principal antes de que el evento termine el %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Objetivo %(current)s completado; recompensas recibidas"
+
+msgid "missionTooltip/count"
+msgstr "Objetivo %(current)s de %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Descifrar"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Completa el objetivo para desbloquear el descifrado."
+
+msgid "missionTooltip/kingReward"
+msgstr "Recompensa principal del evento"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Recompensa principal del evento recibida"
+
+msgid "missionTooltip/received"
+msgstr "Objetivo %(current)s completado, pero el registro no se descifró."
+
+msgid "missionTooltip/rewards"
+msgstr "Completa el objetivo para recibir recompensas."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Descifra el registro para recibir recompensas."
+
+msgid "missionTooltip/skip"
+msgstr "Omitir"
+
+msgid "shopWidget/body"
+msgstr "Haz clic para abrir una sección especial de la tienda del juego con objetos exclusivos del evento."
+
+msgid "shopWidget/header"
+msgstr "Paquetes del evento"
+
+msgid "teamList/actions/body"
+msgstr "Acciones rápidas para crear un pelotón y añadir/eliminar amigos."
+
+msgid "teamList/actions/header"
+msgstr "Acciones rápidas"
+
+msgid "teamList/anomalies/header"
+msgstr "Anomalías activas"
+
+msgid "teamList/bossDamage/body"
+msgstr "Ordenar solo por el daño infligido durante la fase 4 (pelea contra el jefe).\nEl daño no se tendrá en cuenta para las recompensas clave si el equipo no derrota al jefe."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "El daño no se tendrá en cuenta para las recompensas clave, ya que el equipo no derrotó al jefe."
+
+msgid "teamList/bossDamage/header"
+msgstr "Daño infligido en la pelea contra el jefe"
+
+msgid "teamList/damage/body"
+msgstr "Ordenar por daño infligido en las fases 1-3."
+
+msgid "teamList/damage/header"
+msgstr "Daño infligido"
+
+msgid "teamList/keys/body"
+msgstr "Ordenar por llaves obtenidas (la cantidad que figura no incluye las llaves adicionales obtenidas por completar la misión diaria correspondiente)."
+
+msgid "teamList/keys/header"
+msgstr "Llaves obtenidas"
+
+msgid "teamList/kills/body"
+msgstr "Ordenar por vehículos enemigos destruidos."
+
+msgid "teamList/kills/header"
+msgstr "Vehículos enemigos destruidos"
+
+msgid "teamList/name/header"
+msgstr "Nombre del jugador"
+
+msgid "teamList/place/body"
+msgstr "Ordenar por posición en el equipo."
+
+msgid "teamList/place/header"
+msgstr "Posición en el equipo"
+
+msgid "teamList/squad/header"
+msgstr "Un pelotón es una unidad táctica de jugadores que cooperan en batalla."
+
+msgid "teamList/vehicle/body"
+msgstr "Ordenar por tipo y nombre de vehículo."
+
+msgid "teamList/vehicle/header"
+msgstr "Vehículos"
+
+msgid "teamList/warned/body"
+msgstr "Se sancionó a este jugador por inacción/deserción; no recibió recompensas por esta batalla."
+
+msgid "teamList/warned/header"
+msgstr "Advertencia"
+
+msgid "teamList/warned/self/body"
+msgstr "Se te sancionó por inacción/deserción; no recibiste recompensas por esta batalla."
+
+msgid "teamList/warned/self/header"
+msgstr "Advertencia"
+
+msgid "vehicle/bonusTitle"
+msgstr "Ganancias"
+
+msgid "vehicle/eventBonus"
+msgstr "Puedes ganar llaves adicionales por completar una misión diaria en este vehículo."
+
+msgid "vehicle/state/default/title"
+msgstr "Listo para la batalla"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "En batalla"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "En unidad táctica"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "En cola"
+
+msgid "vehicle/state/locked/title"
+msgstr "Bloqueado"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Un cargador de 5 proyectiles te permite infligir grandes cantidades de daño rápidamente."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Cargador"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Un sistema de 3 proyectiles que reduce el tiempo estándar de autorrecarga de proyectiles."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Cañón de autorrecarga mejorado"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Un cañón con sistema de disparo continuo."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Cañón automático"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Aumenta la probabilidad de dañar módulos en los vehículos enemigos."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Cañón de daño crítico"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Un cañón HE con un formidable sistema de autorrecarga de 2 proyectiles."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Cañón de autorrecarga"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Te permite elegir entre disparo cíclico y secuencial."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Cañón doble"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Brinda protección total contra el daño crítico a los módulos de tu vehículo."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Resistencia al daño crítico"

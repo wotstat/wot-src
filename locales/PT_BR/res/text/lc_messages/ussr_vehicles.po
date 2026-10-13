@@ -283,6 +283,9 @@ msgstr "LTG improved"
 msgid "Chassis_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
 
+msgid "Chassis_R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
+
 msgid "Chassis_R133_KV_122"
 msgstr "KV-122"
 
@@ -550,7 +553,13 @@ msgstr "SU-100I"
 msgid "Chassis_R228_KR_1"
 msgstr "KR-1"
 
+msgid "Chassis_R228_KR_1_7x7"
+msgstr "KR-1"
+
 msgid "Chassis_R230_Object_432U"
+msgstr "Object 432U"
+
+msgid "Chassis_R230_Object_432U_7x7"
 msgstr "Object 432U"
 
 msgid "Chassis_R231_Buryan"
@@ -564,6 +573,9 @@ msgstr "KB-52"
 
 msgid "Chassis_R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "Chassis_R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
 
 msgid "Chassis_R239_Object_Veles"
 msgstr "Veles"
@@ -898,6 +910,9 @@ msgstr "GMC 6046I"
 msgid "GTD_3T"
 msgstr "GTD-3T"
 
+msgid "GTD_3T_7x7"
+msgstr "GTD-3T"
+
 msgid "GTD_700P"
 msgstr "GTD-700P"
 
@@ -976,9 +991,6 @@ msgstr "Varyag"
 msgid "KV-13_descr"
 msgstr "O KV-13 (Object 233) é um tanque médio soviético da Segunda Guerra Mundial. Desenvolvido pela Special Design Bureau na fábrica de Kirov em Chelyabinsk no início de 1941-fim de 1942. O veículo foi projetado como um \"tanque universal\" para substituir tanto o tanque médio T-34 como o tanque pesado KV. O primeiro protótipo foi construído na primavera de 1942. Os ensaios revelaram a baixa durabilidade de seus módulos. Além disso, o veículo exigiu blindagem melhorada e uma nova torre para três tripulantes. Embora os requisitos tenham sido cumpridos e o desenvolvimento de dois protótipos melhorados iniciados em dezembro de 1942, o projeto de tanque médio KV-13 foi descontinuado em favor do T-34. Os dois protótipos foram posteriormente utilizados para o projeto do tanque pesado IS-1, produzido em massa, desenvolvido em 1943."
 
-msgid "KV-2"
-msgstr "KV-2"
-
 msgid "KV-220"
 msgstr "KV-220-2"
 
@@ -1025,6 +1037,9 @@ msgid "KV_1"
 msgstr "KV-1"
 
 msgid "KV_2"
+msgstr "KV-2"
+
+msgid "KV_2_A"
 msgstr "KV-2"
 
 msgid "KV_descr"
@@ -1663,6 +1678,9 @@ msgstr "R-123M"
 msgid "R123U"
 msgstr "R-123U"
 
+msgid "R123_FR"
+msgstr "R-123"
+
 msgid "R123_K"
 msgstr "R-123K"
 
@@ -1809,6 +1827,15 @@ msgstr "LTG"
 
 msgid "R132_VNII_100LT"
 msgstr "T-100 LT"
+
+msgid "R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
+
+msgid "R132_VNII_100LT_FR_descr"
+msgstr "Um projeto de um tanque leve com o armamento do T-100. Desenvolvido em conjunto pelo Instituto de Pesquisa Nº 100 e a GSKB-47 (Departamento Estatal de Projetos Especializados) em meados da década de 1960. O veículo possuía blindagem decente que poderia protegê-lo de\nprojéteis de 90 mm (em caso de impacto frontal) a qualquer distância."
+
+msgid "R132_VNII_100LT_FR_short"
+msgstr "T-100 LT BS"
 
 msgid "R132_VNII_100LT_descr"
 msgstr "Um projeto de um tanque leve com o armamento do T-100. Desenvolvido em conjunto pelo Instituto de Pesquisa Nº 100 e a GSKB-47 (Bureau de Projetos Especializados do Estado) em meados da década de 1960. O veículo possuía blindagem decente que poderia protegê-lo de projéteis de 90 mm (em caso de impacto frontal) a qualquer distância."
@@ -2794,6 +2821,18 @@ msgstr "Excelente penetração e bom dano por disparo"
 msgid "R228_KR_1"
 msgstr "KR-1"
 
+msgid "R228_KR_1_7x7"
+msgstr "KR-1 7x7"
+
+msgid "R228_KR_1_7x7_descr"
+msgstr "Um projeto para um tanque pesado com parâmetros extremos, desenvolvido na década de 1960 para combate com armas de destruição em massa. Os designers fizeram amplo uso das promissoras soluções de construção de tanques do país na época."
+
+msgid "R228_KR_1_7x7_long_special"
+msgstr "Um clássico tanque pesado revolucionário da escola soviética, o KR-1 combina excelente mobilidade com blindagem confiável para capturar posições-chave e desferir ataques extremamente rápidos contra inimigos desavisados. Particularmente eficaz em combate corpo a corpo, ele lidera a linha de frente com um poderoso canhão de 136 mm capaz de devastar qualquer um que cruze seu caminho."
+
+msgid "R228_KR_1_7x7_short"
+msgstr "KR-1 7x7"
+
 msgid "R228_KR_1_descr"
 msgstr "Um projeto para um tanque pesado com parâmetros extremos, desenvolvido na década de 1960 para combate com armas de destruição em massa. Os designers fizeram amplo uso das promissoras soluções de construção de tanques do país na época."
 
@@ -2805,6 +2844,18 @@ msgstr "KR-1"
 
 msgid "R230_Object_432U"
 msgstr "Object 432U"
+
+msgid "R230_Object_432U_7x7"
+msgstr "Object 432U 7x7"
+
+msgid "R230_Object_432U_7x7_descr"
+msgstr "Um projeto para um tanque reforçado que deveria superar significativamente os veículos inimigos em termos de proteção e poder de fogo. Os designers planejaram montar um canhão com alta pressão dentro do cano, possibilitando o uso de munição avançada com melhor desempenho do que as alternativas da época. Uma câmara de liberação de pressão foi introduzida para permitir o uso normal da munição. Além disso, o tanque recebeu blindagem extra na torre e no casco, bem como telas anti-HEAT. O desenvolvimento revelou-se muito caro e foi interrompido na fase preliminar do projeto."
+
+msgid "R230_Object_432U_7x7_long_special"
+msgstr "O Object 432U é um tanque médio potente que se sente mais à vontade na linha de frente. Com blindagem confiável e um canhão de alto calibre, ele pode enfrentar tanques pesados ​​com segurança, mas é móvel o suficiente para se reposicionar em áreas-chave do campo de batalha quando necessário. Seu potencial de poder de fogo também pode ser aprimorado para proporcionar resultados devastadores."
+
+msgid "R230_Object_432U_7x7_short"
+msgstr "Obj. 432U 7x7"
 
 msgid "R230_Object_432U_descr"
 msgstr "Um projeto para um tanque reforçado que deveria superar significativamente os veículos inimigos em termos de proteção e poder de fogo. Os projetistas planejaram montar um canhão com alta pressão dentro do cano, possibilitando o uso de munição avançada com melhor desempenho do que as alternativas da época. Uma câmara de liberação de pressão foi introduzida para permitir o uso normal da munição. Além disso, o tanque recebeu blindagem extra na torre e no casco, bem como telas anti-HEAT. O desenvolvimento revelou-se muito caro e foi interrompido na fase preliminar do projeto."
@@ -2877,6 +2928,21 @@ msgstr "Blindagem do casco e torre decentes, usa um carregador"
 
 msgid "R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
+
+msgid "R236_Object_265_II_CFE_A_descr"
+msgstr "O veículo de codinome \"Eclipse\" foi descoberto no interior da Anomalia, em uma fase próxima às ruínas da entidade conhecida como \"Torre Negra\". O espécime foi encaminhado ao centro de pesquisas Babylon para uma análise minuciosa por especialistas.\n\nO veículo está equipado com uma unidade experimental de supressão de sinal de banda larga, alimentada por Mirium de ultra-alta densidade. Segundo nossos dados, o dispositivo foi desenvolvido pelos engenheiros da expedição para desativar os sistemas de defesa da Torre Negra. A julgar pelos vestígios encontrados no local, o tanque participou da batalha final na Torre para neutralizar a gigantesca Aranha mecânica, sendo abandonado logo em seguida. É provável que a tripulação do tanque tenha sido evacuada a bordo da Marduk, que então prosseguiu com a expedição rumo às profundezas da Anomalia.\n\nO design do Eclipse foi considerado um sucesso excepcional: um veículo durável e altamente resistente a condições ambientais hostis. Após a conclusão da investigação, a comissão militar recomendou o retorno do veículo ao serviço ativo."
+
+msgid "R236_Object_265_II_CFE_A_long_special"
+msgstr "O Eclipse é um tanque pesado de Nível IX. O veículo combina uma excelente blindagem no casco e na torre com dois canhões de 122 mm. Sua blindagem resistente permite que ele defenda posições, especialmente pela sua torre montada na traseira, algo que torna o side-scraping mais conveniente. Os canhões duplos provocam dano massivo, especialmente ao usar a mecânica de rajada."
+
+msgid "R236_Object_265_II_CFE_A_short"
+msgstr "Eclipse"
+
+msgid "R236_Object_265_II_CFE_A_short_special"
+msgstr "Sistema de canhão duplo, blindagem confiável no casco e na torre"
 
 msgid "R236_Object_265_II_descr"
 msgstr "Uma versão de canhão duplo do projeto Object 265, desenvolvida no final da década de 1950. Suas soluções não convencionais (uso de novos sistemas de controle e localização do motorista na torre) dificultaram a busca por um comprador. Como resultado, o projeto foi encerrado para concentrar esforços na modificação do T-10 (Object 730)."
@@ -3247,7 +3313,13 @@ msgstr "R-123B"
 msgid "R_123C"
 msgstr "R-123C"
 
+msgid "R_123C_7x7"
+msgstr "R-123C"
+
 msgid "R_123KR"
+msgstr "R-123KR"
+
+msgid "R_123KR_7x7"
 msgstr "R-123KR"
 
 msgid "R_123V"
@@ -3508,9 +3580,6 @@ msgstr "T-80"
 msgid "T80_descr"
 msgstr "Desenvolvido no verão e outono de 1942 no Escritório de Produção da Fábrica de Automóveis Gorky, sob a supervisão de N. A. Astrov. O veículo entrou em serviço em dezembro de 1942. Um total de 85 veículos foram produzidos em série."
 
-msgid "TD-30"
-msgstr "M-50D"
-
 msgid "TD_12"
 msgstr "TD-12"
 
@@ -3519,6 +3588,9 @@ msgstr "TD-12"
 
 msgid "TD_30"
 msgstr "TD-30"
+
+msgid "TD_30_A"
+msgstr "M-50D"
 
 msgid "T_50_2"
 msgstr "T-50-2"
@@ -3705,6 +3777,9 @@ msgstr "LTG"
 
 msgid "Turret_1_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
+
+msgid "Turret_1_R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
 
 msgid "Turret_1_R133_KV_122"
 msgstr "KV-122"
@@ -3937,7 +4012,13 @@ msgstr "SU-100I"
 msgid "Turret_1_R228_KR_1"
 msgstr "KR-1"
 
+msgid "Turret_1_R228_KR_1_7x7"
+msgstr "KR-1"
+
 msgid "Turret_1_R230_Object_432U"
+msgstr "Object 432U"
+
+msgid "Turret_1_R230_Object_432U_7x7"
 msgstr "Object 432U"
 
 msgid "Turret_1_R231_Buryan"
@@ -3954,6 +4035,9 @@ msgstr "KB-52"
 
 msgid "Turret_1_R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "Turret_1_R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
 
 msgid "Turret_1_R239_Object_Veles"
 msgstr "Veles"
@@ -4258,6 +4342,9 @@ msgstr "IS-7"
 msgid "UTD_20"
 msgstr "UTD-20"
 
+msgid "UTD_20_FR"
+msgstr "UTD-20"
+
 msgid "UTD_45A"
 msgstr "UTD-45A"
 
@@ -4266,9 +4353,6 @@ msgstr "UTD-50M1 Barnaulskiy"
 
 msgid "V-11"
 msgstr "V-11"
-
-msgid "V-11-IS-3"
-msgstr "V-11-IS-3"
 
 msgid "V-11-IS-3_S"
 msgstr "V-11-IS-3A"
@@ -4296,9 +4380,6 @@ msgstr "V-12 A"
 
 msgid "V-12V"
 msgstr "V-12 V"
-
-msgid "V-14"
-msgstr "V-14"
 
 msgid "V-16FN"
 msgstr "V-16FN"
@@ -4350,9 +4431,6 @@ msgstr "V-2-10 forced"
 
 msgid "V-2IS_R_CN"
 msgstr "V-2-10 C"
-
-msgid "V-2K"
-msgstr "V-2K"
 
 msgid "V-2KT"
 msgstr "V-2SN"
@@ -4408,6 +4486,9 @@ msgstr "V-11 (704)"
 msgid "V_11_IS_3"
 msgstr "V-11 (IS-3)"
 
+msgid "V_11_IS_3_A"
+msgstr "V-11-IS-3"
+
 msgid "V_11_Kirovets_1"
 msgstr "V-11-Kirovets-1"
 
@@ -4439,6 +4520,9 @@ msgid "V_12_5B"
 msgstr "V-12-5B"
 
 msgid "V_12_5C"
+msgstr "V-12-5C"
+
+msgid "V_12_5C_CFE_A"
 msgstr "V-12-5C"
 
 msgid "V_12_5F"
@@ -4477,6 +4561,9 @@ msgstr "V-14"
 msgid "V_14UM"
 msgstr "V-14M"
 
+msgid "V_14_A"
+msgstr "V-14"
+
 msgid "V_16"
 msgstr "V-16"
 
@@ -4499,6 +4586,9 @@ msgid "V_2IS_SU"
 msgstr "V-2IS (SU)"
 
 msgid "V_2K"
+msgstr "V-2K"
+
+msgid "V_2K1"
 msgstr "V-2K"
 
 msgid "V_2K_KV_1"
@@ -4759,13 +4849,22 @@ msgstr "3UOF (LM)"
 msgid "_100mm_3VBB"
 msgstr "3VBB"
 
+msgid "_100mm_3VBB_FR"
+msgstr "3VBB"
+
 msgid "_100mm_3VBM"
 msgstr "3VBM"
 
 msgid "_100mm_3VBM2_SH"
 msgstr "3VBM-2"
 
+msgid "_100mm_3VBM_FR"
+msgstr "3VBM"
+
 msgid "_100mm_3VOF"
+msgstr "3VOF"
+
+msgid "_100mm_3VOF_FR"
 msgstr "3VOF"
 
 msgid "_100mm_BR-412A"
@@ -4880,6 +4979,9 @@ msgid "_100mm_S_34D_IS_2_II"
 msgstr "100 mm S-34D (IS-2-II)"
 
 msgid "_100mm_T_100"
+msgstr "100 mm T-100"
+
+msgid "_100mm_T_100_FR"
 msgstr "100 mm T-100"
 
 msgid "_100mm_T_12A"
@@ -5311,14 +5413,14 @@ msgstr "10RK-DV"
 msgid "_10RK_W"
 msgstr "10RK"
 
-msgid "_10RT-26E"
-msgstr "10RT-26"
-
 msgid "_10RT-26M"
 msgstr "10RT-26M"
 
 msgid "_10RT_26E"
 msgstr "10RT-26E"
+
+msgid "_10RT_26E1"
+msgstr "10RT-26"
 
 msgid "_12.7mm_AP_B32"
 msgstr "B-32"
@@ -5482,6 +5584,9 @@ msgstr "122 mm BL-13"
 msgid "_122mm_BL_13D_dualgun"
 msgstr "122 mm BL-13D-SD"
 
+msgid "_122mm_BL_13D_dualgun_CFE_A"
+msgstr "122 mm BL-13D-SD"
+
 msgid "_122mm_BL_13_1_257"
 msgstr "122 mm BL-13-1 (257)"
 
@@ -5533,6 +5638,9 @@ msgstr "BP-460A (KV-1S)"
 msgid "_122mm_BP_471BMM"
 msgstr "BP 471BMM"
 
+msgid "_122mm_BP_471BMM_CFE_A"
+msgstr "BP 471BMM"
+
 msgid "_122mm_BP_471D"
 msgstr "BP-471D"
 
@@ -5543,6 +5651,9 @@ msgid "_122mm_BR-471D_P"
 msgstr "BR-471DP"
 
 msgid "_122mm_BR_471BMM"
+msgstr "BR 471BMM"
+
+msgid "_122mm_BR_471BMM_CFE_A"
 msgstr "BR 471BMM"
 
 msgid "_122mm_BR_471DS_SU"
@@ -5729,6 +5840,9 @@ msgid "_122mm_OF_462"
 msgstr "OF-462"
 
 msgid "_122mm_OF_471BMM"
+msgstr "OF 471BMM"
+
+msgid "_122mm_OF_471BMM_CFE_A"
 msgstr "OF 471BMM"
 
 msgid "_122mm_S34_II"
@@ -5992,13 +6106,25 @@ msgstr "122 mm Howitzer mod. 1910/1930"
 msgid "_125mm_3BK7_61"
 msgstr "3BK7-61"
 
+msgid "_125mm_3BK7_61_7x7"
+msgstr "3BK7-61"
+
 msgid "_125mm_3BM9_61"
+msgstr "3BM9-61"
+
+msgid "_125mm_3BM9_61_7x7"
 msgstr "3BM9-61"
 
 msgid "_125mm_3OF22_61"
 msgstr "3OF22-61"
 
+msgid "_125mm_3OF22_61_7x7"
+msgstr "3OF22-61"
+
 msgid "_125mm_D_181"
+msgstr "125 mm D-181"
+
+msgid "_125mm_D_181_7x7"
 msgstr "125 mm D-181"
 
 msgid "_12LL"
@@ -6008,6 +6134,9 @@ msgid "_12RT"
 msgstr "12RT"
 
 msgid "_12RT_B"
+msgstr "12RT-B"
+
+msgid "_12RT_B_CFE_A"
 msgstr "12RT-B"
 
 msgid "_12RT_Roz"
@@ -6211,13 +6340,25 @@ msgstr "ZBK60M"
 msgid "_136mm_BK_79"
 msgstr "BK-79"
 
+msgid "_136mm_BK_79_7x7"
+msgstr "BK-79"
+
 msgid "_136mm_BR_79"
+msgstr "BR-79"
+
+msgid "_136mm_BR_79_7x7"
 msgstr "BR-79"
 
 msgid "_136mm_D_79"
 msgstr "136 mm D-79"
 
+msgid "_136mm_D_79_7x7"
+msgstr "136 mm D-79"
+
 msgid "_136mm_OF_79"
+msgstr "OF-79"
+
+msgid "_136mm_OF_79_7x7"
 msgstr "OF-79"
 
 msgid "_140mm_BR_482A"
@@ -6844,9 +6985,6 @@ msgstr "UBR-243SP (T-70)"
 msgid "_45mm_UOF-240A"
 msgstr "UOF-240A"
 
-msgid "_45mm_UOF-243"
-msgstr "UOF-243"
-
 msgid "_45mm_UOF-243U"
 msgstr "UOF-243U"
 
@@ -6869,6 +7007,9 @@ msgid "_45mm_UOF_240A_T_70"
 msgstr "UOF-240A (T-70)"
 
 msgid "_45mm_UOF_243"
+msgstr "UOF-243"
+
+msgid "_45mm_UOF_243_A"
 msgstr "UOF-243"
 
 msgid "_45mm_UOF_243_A_20"
@@ -7039,6 +7180,9 @@ msgstr "5TDF-SM"
 msgid "_5TD_2"
 msgstr "5TD-2"
 
+msgid "_5TD_2_7x7"
+msgstr "5TD-2"
+
 msgid "_6TD"
 msgstr "6TD"
 
@@ -7087,10 +7231,10 @@ msgstr "BP-354IT"
 msgid "_76mm_BP_350A_T_28"
 msgstr "BP-350A (T-28)"
 
-msgid "_76mm_BR-350A"
+msgid "_76mm_BR_350A"
 msgstr "BR-350A"
 
-msgid "_76mm_BR_350A"
+msgid "_76mm_BR_350A1"
 msgstr "BR-350A"
 
 msgid "_76mm_BR_350A_1"
@@ -7102,13 +7246,13 @@ msgstr "BR-350A"
 msgid "_76mm_BR_350_P_T"
 msgstr "BP-354 T"
 
-msgid "_76mm_F-32"
-msgstr "76 mm F-32"
-
 msgid "_76mm_F-34S_A"
 msgstr "76 mm S-1"
 
 msgid "_76mm_F_32"
+msgstr "76 mm F-32"
+
+msgid "_76mm_F_32_A"
 msgstr "76 mm F-32"
 
 msgid "_76mm_F_34"

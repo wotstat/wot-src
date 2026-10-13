@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Vanguarda-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Provoque %(goal)s HP de dano em veículos inimigos que atingirem seu veículo"
+msgstr "Provoque %(goal)s HP de dano em veículos inimigos que danificaram seu veículo"
 
 msgid "pm3_10_1_14_short"
 msgstr "Vanguarda-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Emboscada-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Provoque %(goal)s HP de dano sem ser detectado no momento em que o dano é provocado"
+msgstr "Provoque %(goal)s HP de dano enquanto não estiver visível para os inimigos"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Destrua um tanque pesado inimigo atirando nele, provocando pelo menos %(damageDealt)s HP de dano"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Emboscada-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Provoque dano %(hits)s vezes em veículos inimigos que não estejam detectados quando o dano for causado"
+msgstr "Provoque dano %(hits)s vezes em veículos inimigos que não estejam visíveis para você quando o dano for provocado"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Destrua %(goal)s veículos inimigos de %(uniqueGoal)s tipos diferentes"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Assistência-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Permita que seus aliados provoquem %(goal)s HP de dano aos veículos detectados por você. Permaneça sem ser detectado no momento em que o dano for provocado"
+msgstr "Permita que seus aliados provoquem %(goal)s HP de dano aos veículos detectados por você. Não esteja visível para os inimigos quando o dano for provocado"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Atordoe tanques pesados inimigos %(goal)s vezes"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Vanguarda-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Provoque %(goal)s HP de dano em veículos inimigos que atingirem seu veículo"
+msgstr "Provoque %(goal)s HP de dano em veículos inimigos que danificaram seu veículo"
 
 msgid "pm3_8_1_9_short"
 msgstr "Vanguarda-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Emboscada-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Provoque %(goal)s HP de dano sem ser detectado no momento em que o dano é provocado"
+msgstr "Provoque %(goal)s HP de dano enquanto não estiver visível para os inimigos"
 
 msgid "pm3_8_2_9_short"
 msgstr "Emboscada-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Vanguarda-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Provoque %(goal)s HP de dano em veículos inimigos que atingirem seu veículo"
+msgstr "Provoque %(goal)s HP de dano em veículos inimigos que danificaram seu veículo"
 
 msgid "pm3_9_1_14_short"
 msgstr "Vanguarda-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Emboscada-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Provoque %(goal)s HP de dano sem ser detectado no momento em que o dano é provocado"
+msgstr "Provoque %(goal)s HP de dano enquanto não estiver visível para os inimigos"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Destrua um veículo inimigo provocando pelo menos %(damageDealt)s HP de dano nele"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Emboscada-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Provoque %(damageDealt)s HP de dano em veículos inimigos que não estejam detectados quando o dano for causado"
+msgstr "Provoque %(damageDealt)s HP de dano em veículos inimigos que não estejam visíveis para você quando o dano for provocado"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Destrua %(goal)s veículos inimigos de %(uniqueGoal)s tipos diferentes"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Assistência-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Permita que seus aliados provoquem %(goal)s HP de dano aos veículos detectados por você. Permaneça sem ser detectado no momento em que o dano for provocado"
+msgstr "Permita que seus aliados provoquem %(goal)s HP de dano aos veículos detectados por você. Não esteja visível para os inimigos quando o dano for provocado"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Atordoe tanques pesados inimigos por um total de %(goal)s segundos. A duração potencial do atordoamento é contada"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Assistência-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Provoque %(damageDealt)s HP de dano em veículos inimigos que não estejam detectados quando o dano for causado"
+msgstr "Provoque %(damageDealt)s HP de dano em veículos inimigos que não estejam visíveis para você quando o dano for provocado"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Destrua %(goal)s tanques leves inimigos ou artilharias"

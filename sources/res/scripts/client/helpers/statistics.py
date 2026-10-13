@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import BigWorld, ResMgr, Settings, Sound
 from constants import ARENA_PERIOD, INVALID_CLIENT_STATS
 from account_helpers.settings_core.settings_constants import GRAPHICS, SOUND, SoundPhysicsQuality
@@ -5,6 +6,7 @@ from gui.shared.utils.graphics import getGraphicsEngineValue
 from gui.shared.utils import monitor_settings
 from debug_utils import LOG_DEBUG, LOG_NOTE
 from helpers import dependency, isPlayerAvatar
+from math_common import round_py2_style_int
 from skeletons.account_helpers.settings_core import ISettingsCore
 from skeletons.connection_mgr import IConnectionManager
 from skeletons.gui.battle_session import IBattleSessionProvider
@@ -54,18 +56,16 @@ class HANGAR_LOADING_STATE(object):
 
 _HANGAR_LOADING_STATES_PREFIX = b'HANGAR LOADING STATE'
 _HANGAR_LOADING_STATES = [
- 25, 26, 27, 28, 29, 30, 
- 31, 32, 33, 
- 34, 35, 
- 36, 37, 38, 
- 39]
+ 27, 28, 29, 30, 31, 32, 
+ 33, 34, 35, 
+ 36, 37, 
+ 38, 39, 40, 
+ 41]
 _HANGAR_LOADING_STATES_IDS = [HANGAR_LOADING_STATE.FINISH_LOADING_VEHICLE,
  HANGAR_LOADING_STATE.FINISH_LOADING_SPACE,
  HANGAR_LOADING_STATE.FINISH_LOADING_TUTORIAL,
  HANGAR_LOADING_STATE.HANGAR_READY]
 _IMPORTANT_GRAPHICS_SETTINGS_SET = {
- 40, 
- 41, 
  42, 
  43, 
  44, 
@@ -73,10 +73,10 @@ _IMPORTANT_GRAPHICS_SETTINGS_SET = {
  46, 
  47, 
  48, 
- 49}
-_OTHER_GRAPHICS_SETTINGS_SET = {
+ 49, 
  50, 
- 51, 
+ 51}
+_OTHER_GRAPHICS_SETTINGS_SET = {
  52, 
  53, 
  54, 
@@ -84,7 +84,9 @@ _OTHER_GRAPHICS_SETTINGS_SET = {
  56, 
  57, 
  58, 
- 59}
+ 59, 
+ 60, 
+ 61}
 _VIDEO_MODE_SIZE_CHANGE_SET = {
  GRAPHICS.WINDOW_SIZE,
  GRAPHICS.RESOLUTION,
@@ -274,7 +276,7 @@ class StatisticsCollector(IStatisticsCollector):
            b'screen_res_width': (resolutionContainer.width), 
            b'screen_res_height': (resolutionContainer.height), 
            b'window_mode': (windowModeLUT.get(windowMode, 0)), 
-           b'drr_scale': (int(round(BigWorld.getDRRScale() * 100))), 
+           b'drr_scale': (round_py2_style_int(BigWorld.getDRRScale() * 100)), 
            b'game_session_duration': (statisticsDict[b'gameSessionDuration']), 
            b'arena_id': (self.__lastArenaUniqueID), 
            b'periphery_id': (getClientPeripheryID()), 

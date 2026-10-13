@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from gui.shared.events import OpenLinkEvent
 from messenger.gui.Scaleform.data.faq_data import FAQList
 from messenger.gui.Scaleform.meta.FAQWindowMeta import FAQWindowMeta
@@ -15,8 +16,8 @@ class FAQWindow(FAQWindowMeta):
         self.destroy()
         return
 
-    def onLinkClicked(self, eventType):
-        self.fireEvent(OpenLinkEvent(eventType))
+    def onLinkClicked(self, name):
+        self.fireEvent(OpenLinkEvent(name))
         return
 
     def updateData(self):

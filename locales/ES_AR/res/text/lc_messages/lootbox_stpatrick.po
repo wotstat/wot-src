@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Volver a los cofres"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Se garantiza que haya un vehículo de nivel VIII-IX cada %(guaranteed0)
 msgid "infoPage/header/description"
 msgstr "¡Abre el cofre para tener la oportunidad de recibir objetos valiosos del juego! Más detalles a continuación."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "De %(name) (%(boxesCount) cofres abiertos)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "No tienes cofres. \nPuedes conseguirlos en la tienda del juego."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Cofres disponibles: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "No hay cofres disponibles"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Si ya tienes todos los vehículos incluidos en los cofres, las próximas veces que recibas vehículos de los cofres, obtendrás una compensación en oro."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) cofre"
 msgstr[1] "%(remainingCount) cofres"
 msgstr[2] "%(remainingCount) cofres"
 
-msgid "singleRewardView/tooltip/subtitle/"
-msgstr "La recompensa garantizada es un vehículo de la lista del posible contenido del cofre.\nSi abres %(remainingCount) y no recibes dicho vehículo, lo conseguirás cuando abras el cofre %(count). Cuando esto suceda, el contador se reiniciará."
+msgid "singleRewardView/tooltip/subtitle"
+msgstr "La recompensa garantizada es un vehículo de la lista del posible contenido del cofre.\nSi abres %(remainingCount) y no recibes dicho vehículo, lo conseguirás cuando abras el cofre %(count). Cuando esto suceda, el contador se reiniciará."

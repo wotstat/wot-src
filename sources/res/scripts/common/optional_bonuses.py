@@ -148,8 +148,8 @@ def __mergeEntitlements(total, key, value, isLeaf=False, count=1, *args):
 
 
 def __mergeEntitlementList(total, key, value, isLeaf=False, count=1, *args):
-    entitlementList = total.setdefault(key, {})
-    entitlementList.setdefault(b'items', []).extend(value.get(b'items', []) * count)
+    entitlementList = total.setdefault(key, [])
+    entitlementList.extend(value)
     return
 
 

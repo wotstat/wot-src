@@ -1,0 +1,10 @@
+class HALLOWEEN_HANGAR_ALIASES(object):
+    HALLOWEEN_MODULE_INFO = b'HalloweenModuleInfoWindow'
+    HALLOWEEN_BROWSER = b'HalloweenBrowser'
+    HALLOWEEN_VEHICLE_PREVIEW = b'HalloweenVehiclePreview'
+    HALLOWEEN_HERO_PREVIEW = b'HalloweenHeroPreview'
+    HALLOWEEN_ENTRY_POINT = b'HalloweenEntryPoint'
+    HALLOWEEN_HANGAR = b'HalloweenHangar'
+    HALLOWEEN_REWARD_PATH = b'HalloweenRewardPath'
+    HALLOWEEN_BESTIARY = b'HalloweenBestiary'
+    HALLOWEEN_ANOMALIES = b'HalloweenAnomalies'

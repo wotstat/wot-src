@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s a la EXP libre y de tripulación durante %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "Bonificación de %(effectValue)s por %(effectHours)s de experiencia ganada en batalla"
+msgstr "%(effectValue)s a la XP de combate durante %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "Bonificación del %(effectValue)s a los créditos ganados en la batalla durante %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Este vehículo está equipado con un lanzacohetes montado en el mantelet
 msgid "moduleInfo/closeBtn"
 msgstr "Cerrar"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Acelerador de combate"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Equipado con sistema de carga automático en los vehículos:"
 
@@ -6162,6 +6165,12 @@ msgstr "(artículo(s))"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Duración de Mira electromecánica de coincidencia"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Recuperación"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Duración"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Recuperación"

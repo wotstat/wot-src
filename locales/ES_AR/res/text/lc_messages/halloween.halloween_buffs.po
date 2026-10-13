@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Reduce la dispersión del cañón durante el movimiento y durante la rotación del chasis y la torreta en un {{@ class $highlightClass}}%(generalValue)s %%{{/}}."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s a la dispersión en movimiento\ny durante la rotación del chasis."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Reduce\nla dispersión del cañón."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Reduce la dispersión del cañón en movimiento y durante la rotación del chasis y la torreta."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Francotirador"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s %%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Hace que tu vehículo sea {{@ class $highlightClass}}invulnerable{{/}} al {{@ class $highlightClass}}daño por explosión{{/}} del Erizo y el Erizo alfa.\nEl vehículo de todos modos recibirá daño por embestida de los Erizos al impactar."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Hace que tu vehículo sea invulnerable\nal daño por explosión del Erizo."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Protege a tu vehículo del daño por explosión del Erizo."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Hace que tu vehículo sea invulnerable al daño por explosión del Erizo y el Erizo alfa.\nEl vehículo de todos modos recibirá daño por embestida de los Erizos al impactar."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Invulnerabilidad a explosiones"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Elimina el posible rango de daño de {{@ class $highlightClass}}±25 %{{/}}, lo que hace que el impacto de los disparos sea más predecible."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Los disparos no tienen rango de daño\nde ±25 %%."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Los disparos no tienen rango de daño de ±25 %."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Elimina el posible rango de daño de ±25 %, lo que hace que el impacto de los disparos sea más predecible."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Daño controlado"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Reduce el daño recibido* (incluido el de disparos, incendio, embestidas, zonas de daño, fase de corrosión, daño a módulos, etc.) en un {{@ class $highlightClass}}%(mitigation)s %%{{/}}.\n*No se aplica al daño por caídas ni durante la fase de ejecución."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s al daño recibido."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Reduce el daño recibido."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Reduce el daño recibido* (incluido el de disparos, incendio, embestidas, zonas de daño, fase de corrosión, daño a módulos, etc.).\n*No se aplica al daño por caídas ni durante la fase de ejecución."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Absorción de daño"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s %%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Otorga un {{@ class $highlightClass}}%(chance)s %%{{/}} de probabilidad de restaurar un {{@ class $highlightClass}}%(heal)s{{/}} de los puntos de vida de tu vehículo al infligirles daño a los vehículos enemigos con disparos."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s a la probabilidad de restaurar PV\nal causar daño con disparos."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Puede restaurar puntos de vida\nal causar daño con disparos."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Brinda una oportunidad de restaurar los puntos de vida de tu vehículo al infligirles daño a los vehículos enemigos con disparos."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Mordida de vampiro"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s %%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Aumenta un {{@ class $highlightClass}}%(health)s %%{{/}} los puntos de vida de tu vehículo."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s a los puntos de vida del vehículo."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Aumenta\nlos puntos de vida de tu vehículo."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Aumenta la durabilidad del vehículo."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Durabilidad"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s %%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Aumenta un {{@ class $highlightClass}}%(chance)s %%{{/}} la probabilidad de incendiar un vehículo enemigo cuando le inflige daño con disparos."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s a la probabilidad de incendiar\nun vehículo enemigo."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Aumenta\nla probabilidad de incendio."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Aumenta la probabilidad de incendiar un vehículo enemigo cuando se le inflige daño con disparos."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Aguja caliente"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s %%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Aumenta un {{@ class $highlightClass}}%(damageFactor)s %%{{/}} el daño causado a vehículos enemigos."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s al daño infligido."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Aumenta\nel daño causado."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Aumenta el daño infligido."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Núcleo de cerámica"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s %%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Aumenta un {{@ class $highlightClass}}%(reloadTime)s %%{{/}} la velocidad de recarga."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s a la velocidad de recarga."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Aumenta\nla velocidad de recarga."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Aumenta la velocidad de recarga."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Ametralladora"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s %%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Restaura poco a poco los puntos de vida de tu vehículo hasta el máximo.\nEl efecto se interrumpe al recibir daño."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Restaura poco a poco\nlos puntos de vida de tu vehículo."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Restaura\npuntos de vida."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Restaura poco a poco los puntos de vida de tu vehículo hasta el máximo. El efecto se interrumpe al recibir daño."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Regeneración"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Hace que la capacidad de almacenamiento de mirium de un vehículo en batalla sea {{@ class $highlightClass}}ilimitada{{/}}."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Hace que la capacidad de mirium sea ilimitada."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Hace que la capacidad de mirium sea ilimitada."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Hace que la capacidad de almacenamiento de mirium de un vehículo en batalla sea ilimitada."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Colector sin fondo"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Aumenta un {{@ class $highlightClass}}%(crewLevelIncrease)s %%{{/}} la bonificación de la eficiencia de tripulación de todos los tripulantes."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s a la bonificación de la eficiencia de tripulación."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Mejora\nla eficiencia de tripulación."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Mejora la eficiencia de tripulación."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Inspiración"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s %%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Si a un vehículo enemigo le queda un {{@ class $highlightClass}}%(hpThreshold)s %%{{/}} de PV o menos después de recibir el impacto de tu disparo, se destruirá instantáneamente.\nLos jefes son inmunes a este efecto."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Los enemigos con un %(value)s de PV o menos\ndespués de tu disparo se destruyen instantáneamente."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Los enemigos con pocos PV después de tu disparo se destruyen instantáneamente."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Si a un vehículo enemigo le quedan pocos PV después de recibir el impacto de tu disparo, se destruirá instantáneamente.\nLos jefes son inmunes a este efecto."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Golpe de gracia"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s %%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Aumenta la velocidad máxima hacia adelante y en reversa del vehículo."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Aumenta la velocidad máxima hacia adelante\ny en reversa del vehículo."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Aumenta la velocidad máxima hacia adelante y en reversa del vehículo."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Aumenta la velocidad máxima hacia adelante y en reversa del vehículo."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Aceleración"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Aumenta en un {{@ class $highlightClass}}%(miriumAmountFactor)s %%{{/}} la cantidad de mirium que recibes al dañar enemigos en batalla."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s al mirium recibido\nde los enemigos."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Aumenta el mirium recibido de los enemigos."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Aumenta el mirium recibido al dañar enemigos en batalla."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Extracción de mirium"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s %%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Aumenta en {{@ class $highlightClass}}%(miriumAmount)s{{/}} la capacidad máxima de almacenamiento de mirium de un vehículo en batalla."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s a la capacidad máxima de mirium."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Aumenta la capacidad máxima de mirium."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Aumenta la capacidad máxima de almacenamiento de mirium de un vehículo en batalla."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Colector espacioso"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Si el vehículo es destruido en batalla, conservas todo el mirium al reaparecer."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Todo el mirium se conserva\nen el vehículo tras reaparecer."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Conserva todo el mirium tras reaparecer."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Conserva todo el mirium tras reaparecer."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Guardián de mirium"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Reduce en un {{@ class $highlightClass}}%(cost)s %%{{/}} el costo en mirium de las habilidades de combate en batalla."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s al costo en mirium de las habilidades."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Reduce el costo en mirium de las habilidades."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Reduce considerablemente el costo en mirium de las habilidades de combate en batalla."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Eficiencia de mirium"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s %%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Restaura un {{@ class $highlightClass}}%(refundAmount)s %%{{/}} del costo en mirium de la habilidad de combate al usarla."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s de mirium restaurado\nal usar la habilidad."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Restaura parcialmente el mirium al usar la habilidad."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Restaura parcialmente el costo en mirium de la habilidad de combate al usarla."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Devolución de mirium"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s %%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Aumenta un {{@ class $highlightClass}}%(power)s %%{{/}} la potencia del motor y un {{@ class $highlightClass}}%(rotationSpeed)s %%{{/}} la velocidad de rotación de la torreta."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s a la potencia del motor."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s a la velocidad de rotación de la torreta."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Aumenta la potencia del motor\ny la velocidad de rotación de la torreta."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Aumenta la potencia del motor y la velocidad de rotación de la torreta."
+
+msgid "buffs/buffMobility/header"
+msgstr "Movilidad"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s %%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s %%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Vuelve a todos los módulos del vehículo invulnerables al daño."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Vuelve a todos los módulos del vehículo invulnerables\nal daño."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Protege\nlos módulos del daño."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Vuelve a todos los módulos del vehículo invulnerables al daño."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Módulos invulnerables"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Anomalía predeterminada de Malaquita, siempre activa."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Aumenta en un {{@ class $highlightClass}}%(shellPen)s %%{{/}} la penetración de todos los proyectiles."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s a la penetración de proyectiles."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Aumenta la penetración de todos los proyectiles."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Aumenta la penetración de todos los proyectiles."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Proyectiles perforantes"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s %%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Si el vehículo es destruido en batalla, conservas todos los proyectiles alternativos al reaparecer."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Todos los proyectiles alternativos\nse conservan tras reaparecer."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Conserva todos los proyectiles alternativos tras reaparecer."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Si el vehículo es destruido en batalla, conservas todos los proyectiles alternativos al reaparecer."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Guardián de proyectiles"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Aumenta en {{@ class $highlightClass}}%(soulsBonus)s{{/}} la cantidad de mirium recibida al comienzo de cada nueva fase o tras reaparecer. Aumenta en {{@ class $highlightClass}}%(miriumAmount)s{{/}} la capacidad máxima de almacenamiento de mirium de un vehículo en batalla."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s al mirium recibido\nen una nueva fase o tras reaparecer."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s a la capacidad máxima de mirium."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Aumenta la capacidad de mirium y la cantidad recibida en una nueva fase o tras reaparecer."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Aumenta la cantidad de mirium recibida al comienzo de cada nueva fase o tras reaparecer. Aumenta la capacidad máxima de almacenamiento de mirium de un vehículo en batalla."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Reserva de mirium"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Aumenta en un {{@ class $highlightClass}}%(timeLength)s %%{{/}} la duración de Turbo y reduce en {{@ class $highlightClass}}%(reloadTime)s s{{/}} el tiempo de recuperación."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s a la duración de Turbo."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s s al tiempo de recuperación de Turbo."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Aumenta la duración de Turbo y reduce el tiempo de recuperación."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Aumenta la duración de Turbo y reduce el tiempo de recuperación."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Potenciador de Turbo"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s %%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Otorga la posibilidad de infligir una cantidad específica de daño al disparar:\n• {{@ class $highlightClass}}%(chance1)s %%{{/}} de probabilidad de infligir un {{@ class $highlightClass}}%(damage1)s %%{{/}} de daño;\n• {{@ class $highlightClass}}%(chance2)s %%{{/}} de probabilidad de infligir un {{@ class $highlightClass}}%(damage2)s %%{{/}} de daño;\n• {{@ class $highlightClass}}%(chance3)s %%{{/}} de probabilidad de infligir un {{@ class $highlightClass}}%(damage3)s %%{{/}} de daño;\n• {{@ class $highlightClass}}%(chance4)s %%{{/}} de probabilidad de infligir un {{@ class $highlightClass}}%(damage4)s %%{{/}} de daño."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "El daño del disparo varía\nde bajo a muy alto."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "El daño del disparo varía de bajo a muy alto."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Otorga la posibilidad de infligir una cantidad de daño que es menor a la habitual o muy alta."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Disparos cuánticos"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s %"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s %"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s %"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s %"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s %"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s %"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s %"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s %"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Detalles"

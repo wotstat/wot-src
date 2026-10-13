@@ -889,6 +889,15 @@ msgstr "• Otorgado durante La Gran Carrera 2019."
 msgid "Fest19Racer_descr"
 msgstr "Obtener la primera recompensa de la barra de progreso personal."
 
+msgid "FortRushMedal_2026"
+msgstr "Interceptor"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "Se otorga a todos los agentes de Navaja que completaron todas las etapas de progreso del evento Señal negra 2026. Una marca de una misión ejecutada sin fallas: se interceptó la señal y el mundo ganó una noche tranquila más."
+
+msgid "FortRushMedal_2026_descr"
+msgstr "Completa el progreso del evento Señal negra 2026."
+
 msgid "HE17A1"
 msgstr "La marca de la bestia"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "Explorador de Mirny-13"
 
 msgid "hw2019Medal1_condition"
-msgstr "• Se otorga a todos los jugadores que cumplieron con las condiciones pertinentes durante el evento del juego especial."
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2020."
 
 msgid "hw2019Medal1_descr"
 msgstr "Completa todas las fases en dificultad de una estrella durante la operación en Mirny-13."
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "Veterano de Mirny-13"
 
 msgid "hw2019Medal2_condition"
-msgstr "• Se otorga a todos los jugadores que cumplieron con las condiciones pertinentes durante el evento del juego especial."
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2020."
 
 msgid "hw2019Medal2_descr"
 msgstr "Completa todas las fases en dificultad de dos estrellas durante la operación en Mirny-13."
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "Héroe de Mirny-13"
 
 msgid "hw2019Medal3_condition"
-msgstr "• Se otorga a todos los jugadores que cumplieron con las condiciones pertinentes durante el evento del juego especial."
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2020."
 
 msgid "hw2019Medal3_descr"
 msgstr "Completa todas las fases en dificultad de tres estrellas durante la operación en Mirny-13."
 
 msgid "hw2019Medal_condition"
-msgstr "• Se otorga a todos los jugadores que cumplieron con las condiciones pertinentes durante el evento del juego especial."
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2020."
 
 msgid "hw2019Medal_descr"
 msgstr "Recibe todos los estilos durante la operación en Mirny-13."
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "Domar a la bestia"
 
 msgid "hw2021Medal1_condition"
-msgstr "• Se otorga a todos los jugadores que cumplieron con las condiciones pertinentes durante el evento del juego especial."
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2021."
 
 msgid "hw2021Medal1_descr"
 msgstr "Completa todas las fases del evento \"Mirny: Esperanza\" en dificultad media."
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "El elegido"
 
 msgid "hw2021Medal2_condition"
-msgstr "• Se otorga a todos los jugadores que cumplieron con las condiciones pertinentes durante el evento del juego especial."
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2021."
 
 msgid "hw2021Medal2_descr"
 msgstr "Completa todas las fases del evento \"Mirny: Esperanza\" en dificultad alta."
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "Una aventura escalofriante"
 
 msgid "hw2022Medal01_condition"
-msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones especiales durante el evento."
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2022."
 
 msgid "hw2022Medal01_descr"
 msgstr "Completa todas las misiones relacionadas con habilidades de combate durante el evento Fiesta de calabazas."
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "La Parca"
 
 msgid "hw2022Medal02_condition"
-msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones especiales durante el evento."
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2022."
 
 msgid "hw2022Medal02_descr"
 msgstr "Gana 65 000 puntos de Halloween durante el evento Fiesta de calabazas."
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "Quienes regresaron"
 
 msgid "hw2023Medal_condition"
-msgstr "Obtenido en Mirny: Esperanza perdida 2023."
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2023."
 
 msgid "hw2023Medal_descr"
 msgstr "Descifra todas las cintas durante el evento Mirny: Esperanza perdida."
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "Investigador de Babylon"
 
 msgid "hw2024Medal_condition"
-msgstr "Se obtiene durante Proyecto Babylon 2024."
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2024."
 
 msgid "hw2024Medal_descr"
 msgstr "Descifra todos los registros durante el evento Proyecto Babylon."
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "Conocimiento prohibido"
 
 msgid "hw2025Medal_condition"
-msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento."
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2025."
 
 msgid "hw2025Medal_descr"
 msgstr "Descifra todos los registros del evento Babylon: Zona prohibida."
+
+msgid "hw2026Medal_1"
+msgstr "No abandonamos a nadie"
+
+msgid "hw2026Medal_1_condition"
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2026."
+
+msgid "hw2026Medal_1_descr"
+msgstr "Descifra todos los registros del evento Babylon: Torre oscura. ¡Te negaste a dejar a Alex atrás!"
+
+msgid "hw2026Medal_2"
+msgstr "Su hogar es el mirium"
+
+msgid "hw2026Medal_2_condition"
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2026."
+
+msgid "hw2026Medal_2_descr"
+msgstr "Descifra todos los registros del evento Babylon: Torre oscura. ¡Dejaste que Alex se adentrara en el mirium!"
+
+msgid "hw2026Medal_3"
+msgstr "Coleccionista de anomalías"
+
+msgid "hw2026Medal_3_condition"
+msgstr "Se otorga a todos los jugadores que cumplieron con las condiciones durante el evento de 2026."
+
+msgid "hw2026Medal_3_descr"
+msgstr "Recolecta todas las anomalías del evento Babylon: Torre oscura."
 
 msgid "impenetrable"
 msgstr "A prueba de Balas"

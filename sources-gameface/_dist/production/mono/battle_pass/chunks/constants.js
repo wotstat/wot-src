@@ -1,3 +1,3 @@
-const s = 3600,
-  a = "new_skill";
-export { a as N, s as T };
+var a = 3e3,
+  e = "new_skill";
+export { a as n, e as t };

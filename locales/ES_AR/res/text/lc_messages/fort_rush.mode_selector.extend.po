@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "mode/fort_rush_battle/condition"
+msgstr "7 contra 7 %(parSecondary_open)s|%(parSecondary_close)s Nivel&nbsp;X"
+
+msgid "mode/fort_rush_battle/description"
+msgstr "Toma el control de las antenas. Mantén la red. Asegura la transmisión."
+
+msgid "mode/fort_rush_battle/performance/highRisk/description"
+msgstr "El rendimiento de tu computadora es insuficiente para este modo. Podrías experimentar problemas con los gráficos y el movimiento de vehículos. También es probable que el cliente presente errores graves."
+
+msgid "mode/fort_rush_battle/performance/highRisk/header"
+msgstr "Bajo rendimiento"
+
+msgid "mode/fort_rush_battle/performance/highRisk/headerIcon"
+msgstr "%(icon) Bajo rendimiento"
+
+msgid "mode/fort_rush_battle/performance/mediumRisk/description"
+msgstr "Este modo requiere de un alto rendimiento de la computadora. Experimentarás problemas con la carga de mapas, gráficos y movimiento de vehículos. En caso de que el desempeño sea insuficiente, cambia a una calidad inferior de gráficos en la Configuración."
+
+msgid "mode/fort_rush_battle/performance/mediumRisk/header"
+msgstr "Rendimiento reducido"
+
+msgid "mode/fort_rush_battle/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Rendimiento reducido"

@@ -1,4 +1,7 @@
-import logging, math, BigWorld, GUI
+from __future__ import absolute_import, division
+import logging, math
+from builtins import range
+import BigWorld, GUI
 from Math import Vector2, Vector3, Matrix
 import BattleReplay, Settings, constants, math_utils
 from AvatarInputHandler import AimingSystems
@@ -8,6 +11,8 @@ from AvatarInputHandler.DynamicCameras import CameraDynamicConfig, CameraWithSet
 from AvatarInputHandler.DynamicCameras import createCrosshairMatrix, createOscillatorFromSection, AccelerationSmoother
 from AvatarInputHandler.cameras import readFloat, readVec3, ImpulseReason, FovExtended
 from BattleReplay import CallbackDataNames
+from account_helpers.AccountSettings import AccountSettings
+from account_helpers.settings_core.settings_constants import CONTROLS
 from debug_utils import LOG_WARNING, LOG_DEBUG
 from helpers.CallbackDelayer import CallbackDelayer
 _logger = logging.getLogger(__name__)
@@ -77,7 +82,11 @@ class SniperCamera(CameraWithSettings, CallbackDelayer):
     def _getConfigsKey():
         return SniperCamera.__name__
 
+    def _getMouseSensitivitySettingKey(self):
+        return CONTROLS.MOUSE_SNIPER_SENS
+
     def _handleSettingsChange(self, diff):
+        super(SniperCamera, self)._handleSettingsChange(diff)
         if b'increasedZoom' in diff:
             self._cfg[b'increasedZoom'] = diff[b'increasedZoom']
             self.__updateZoom()
@@ -180,13 +189,11 @@ class SniperCamera(CameraWithSettings, CallbackDelayer):
 
     def applyDistantImpulse(self, position, impulseValue, reason=ImpulseReason.ME_HIT):
         impulse = self.__cam.position - position
-        distance = impulse.length
-        if distance < 1.0:
-            distance = 1.0
+        distance = max(impulse.length, 1.0)
         impulse.normalise()
         if reason == ImpulseReason.OTHER_SHOT and distance <= self.__dynamicCfg[b'maxShotImpulseDistance']:
             impulse *= impulseValue / distance
-        elif reason == ImpulseReason.SPLASH or reason == ImpulseReason.HE_EXPLOSION:
+        elif reason in (ImpulseReason.SPLASH, ImpulseReason.HE_EXPLOSION):
             impulse *= impulseValue / distance
         elif reason == ImpulseReason.VEHICLE_EXPLOSION and distance <= self.__dynamicCfg[b'maxExplosionImpulseDistance']:
             impulse *= impulseValue / distance
@@ -395,8 +402,8 @@ class SniperCamera(CameraWithSettings, CallbackDelayer):
             deviation.z = 0
         curZoomIdx = 0
         zooms = self._cfg[b'zooms']
-        for idx in xrange(len(zooms)):
-            if self.__zoom == zooms[idx]:
+        for idx, zoomVal in enumerate(zooms):
+            if self.__zoom == zoomVal:
                 curZoomIdx = idx
                 break
 
@@ -468,7 +475,7 @@ class SniperCamera(CameraWithSettings, CallbackDelayer):
         ucfg[b'sniperModeByShift'] = False
         ucfg[b'zoom'] = readFloat(dataSec, b'zoom', bcfg[b'zooms'][0], bcfg[b'zooms'][-1], bcfg[b'zooms'][0])
         ucfg[b'keySensitivity'] = readFloat(dataSec, b'keySensitivity', 0.0, 10.0, 1.0)
-        ucfg[b'sensitivity'] = readFloat(dataSec, b'sensitivity', 0.0, 10.0, 1.0)
+        ucfg[b'sensitivity'] = AccountSettings.getSettings(CONTROLS.MOUSE_SNIPER_SENS)
         ucfg[b'scrollSensitivity'] = readFloat(dataSec, b'scrollSensitivity', 0.0, 10.0, 1.0)
         return
 
@@ -499,7 +506,6 @@ class SniperCamera(CameraWithSettings, CallbackDelayer):
         ds.writeBool(b'sniperMode/camera/horzInvert', ucfg[b'horzInvert'])
         ds.writeBool(b'sniperMode/camera/vertInvert', ucfg[b'vertInvert'])
         ds.writeFloat(b'sniperMode/camera/keySensitivity', ucfg[b'keySensitivity'])
-        ds.writeFloat(b'sniperMode/camera/sensitivity', ucfg[b'sensitivity'])
         ds.writeFloat(b'sniperMode/camera/scrollSensitivity', ucfg[b'scrollSensitivity'])
         ds.writeFloat(b'sniperMode/camera/zoom', self._cfg[b'zoom'])
         return

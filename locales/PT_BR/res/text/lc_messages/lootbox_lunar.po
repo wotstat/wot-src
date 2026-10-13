@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Voltar aos Tesouros"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "A cada %(guaranteed0)s Tesouros Flamejantes, é garantido conter um veí
 msgid "infoPage/header/description"
 msgstr "Abra os Tesouros Flamejantes para ter a chance de receber itens valiosos! Confira os detalhes abaixo."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "De %(name) (%(boxesCount) Tesouros Flamejantes abertos)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Você não possui nenhum Tesouro Flamejante.\nVocê pode comprá-los na Loja do jogo."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Tesouros disponíveis: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Nenhum Tesouro disponível"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Se você já possui todos os veículos da lista de possíveis conteúdos dos Tesouros Flamejantes, todos os veículos subsequentes que você receber dos Tesouros Flamejantes serão compensados ​​em ouro."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) Tesouro Flamejante"
 msgstr[1] "%(remainingCount) Tesouros Flamejantes"
 msgstr[2] "%(remainingCount) Tesouros Flamejantes"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "A Recompensa Garantida é um veículo da lista de possíveis itens dos Tesouros Flamejantes.\nCaso você abra %(remainingCount) Tesouros Flamejantes sem obter um veículo, ele vai dropar no %(count)° Tesouro Flamejante. Quando isso acontecer, o contador será reiniciado."

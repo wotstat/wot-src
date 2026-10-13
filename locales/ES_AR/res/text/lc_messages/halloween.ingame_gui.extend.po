@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Corrosión"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Daño por zona"
+
+msgid "damageLog/static_death_zone"
+msgstr "Daño por zona"
+
+msgid "damageShieldReady"
+msgstr "Escudo de energía listo."
+
+msgid "fastReloadReady"
+msgstr "Recarga rápida lista."
+
+msgid "hitMarker/useless"
+msgstr "¡No sirve de nada!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Reparación de emergencia lista."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Disparo energético listo."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Disparo vampírico listo."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Disparo aturdidor listo."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "para ver las reglas del modo"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Presiona"
+
+msgid "hwInvisibilityReady"
+msgstr "Cura sigilosa está lista."
+
+msgid "nitroRamDamageReady"
+msgstr "Turbocargador listo."
+
+msgid "pickupSouls"
+msgstr "Objetos de mirium recogidos: %(souls)s"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "No puedes usar [%(name)s]: el cañón está dañado."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "El vehículo no está dañado."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "No puedes usar [%(name)s]: el motor está destruido."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "No puedes usar [%(name)s]: no hay mirium suficiente para activar la habilidad."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "No puedes usar [%(name)s]: el vehículo está incendiado."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "No puedes usar [%(name)s]: el vehículo se está hundiendo."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "No puedes usar [%(name)s]: el vehículo está incendiado."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "No puedes usar [%(name)s]: el vehículo está dado vuelta."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "El cañón está cargado."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "La corrosión destruyó al aliado %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "%(attacker)s aplastó al aliado %(target)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Aliado %(target)s destruido por una explosión enemiga (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "El aliado %(target)s se estrelló."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Aliado %(target)s destruido por la zona de destrucción."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "El aura enemiga destruyó al aliado %(target)s."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "%(target)s aliado/s destruido/s por la zona de destrucción."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Aliado %(target)s destruido."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Vehículo destruido por Golpe energético"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Vehículo destruido por Piroquinesis"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Vehículo destruido por Robo de vida"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Vehículo destruido por una explosión"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Vehículo destruido por la zona de destrucción"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Vehículo destruido por el aura enemiga"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Vehículo destruido por corrosión"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Vehículo estrellado"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Vehículo destruido al ser aplastado"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Vehículo destruido. No llegaste al Magnus."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Vehículo destruido. No lograste destruir al jefe."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Vehículo destruido. El Magnus no está lleno."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "El módulo [%(device)s] explotó por el disparo de un jugador."
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Vehículo destruido por incendio"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Vehículo destruido por un disparo enemigo"
+
+msgid "teamRepairKitReady"
+msgstr "Reparaciones grupales lista."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s activó Reparaciones grupales."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Reparaciones grupales activadas."

@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Todos os Blocos de Dados foram concluídos!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Bloco de Dados {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Assuma o controle das antenas. Mantenha a rede. Garanta a transmissão."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "O modo estará disponível para"
+
+msgid "bannerTooltip/header"
+msgstr "Sinal Sombrio"
+
+msgid "bannerTooltip/mode"
+msgstr "MODO"
+
+msgid "bannerTooltip/modeHint"
+msgstr "— trocando para outro modo de jogo"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "O desempenho do seu computador é insuficiente para este modo. Você terá problemas com gráficos e movimento do veículo. Falhas no cliente do jogo também são prováveis."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "Tente diminuir as configurações gráficas no caso de uma performance insuficiente."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Este modo exige alto desempenho do computador. Você terá problemas com o carregamento de mapas, gráficos e movimentação de veículos. Em caso de desempenho insuficiente, tente uma qualidade gráfica inferior em Configurações."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Desempenho Baixo"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "O modo está demandando do seu computador"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Desempenho Reduzido"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "Pontos de Vida recuperados"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Pontos de Serviço"
+
+msgid "battleLoading/description"
+msgstr "Assuma o controle das antenas. Mantenha a rede. Garanta a transmissão."
+
+msgid "battleLoading/header"
+msgstr "Sinal Sombrio"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "Capturar uma antena restaura uma pequena quantidade de HP do seu veículo. Use este bônus para manter a posição e se preparar para o contra-ataque."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Proteja e Recupere"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "As antenas não podem ser capturadas enquanto veículos inimigos estiverem presentes. Elimine quaisquer intrusos para continuar protegendo um objetivo."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Captura Contestada"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "Seu veículo fica protegido contra dano por 10 segundos após o reposicionamento. Use este tempo para voltar ao combate ou procurar cobertura."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Proteção de Reposicionamento"
+
+msgid "battleQueue/title"
+msgstr "Sinal Sombrio"
+
+msgid "capturingIndicator/captured"
+msgstr "Antena Capturada"
+
+msgid "capturingIndicator/capturing"
+msgstr "Capturando Antena"
+
+msgid "capturingIndicator/contesting"
+msgstr "Antena Contestada"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "Neutralizando Antena"
+
+msgid "endGame/reason/210"
+msgstr "Ambas as equipes alcançaram o limite de Pontos de Sinal"
+
+msgid "endGame/reason/3"
+msgstr "Limite de tempo alcançado"
+
+msgid "endGame/reason/6/lose"
+msgstr "O inimigo alcançou o limite de Pontos de Sinal"
+
+msgid "endGame/reason/6/win"
+msgstr "Sua equipe alcançou o limite de Pontos de Sinal"
+
+msgid "endGame/reason/7"
+msgstr "Limite de tempo alcançado"
+
+msgid "notifications/progression/header"
+msgstr "Parabéns!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Detalhes"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Recompensas por completar a etapa da Progressão&nbsp;%(stageIdx)s: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Todos os Blocos de Dados foram concluídos."
+
+msgid "progression/completedTitle"
+msgstr "Progressão concluída!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Tempo Restante:"
+
+msgid "progression/dailyMissions/title"
+msgstr "Ordens de Campo"
+
+msgid "progression/description"
+msgstr "Cumpra as missões diárias nas batalhas do Sinal Sombrio para avançar na Progressão."
+
+msgid "progression/info_button/body"
+msgstr "Clique para obter mais informações"
+
+msgid "progression/info_button/header"
+msgstr "Sobre o Sinal Sombrio"
+
+msgid "progression/widget/stageLabel"
+msgstr "Informações %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Você completou todos os Blocos de Dados!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Concluídas"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Recompensas do Bloco de Dados"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Bloco de Dados Atual"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "Reinício das missões diárias em:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Sinal Sombrio"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Progresso Atual"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "A Progressão está temporariamente indisponível."
+
+msgid "progression/widget/unavailable"
+msgstr "Progressão Indisponível"
+
+msgid "progressionView/stateHeader"
+msgstr "Progressão do Sinal Sombrio"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Cancelar"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Sua equipe ainda precisa de você! Se você sair da batalha, sua equipe vai ficar em desvantagem, você não vai receber nenhum bônus e nem progredir nas missões."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Sair"
+
+msgid "quitBattle/leaver/title"
+msgstr "Você está saindo da batalha"
+
+msgid "respawnTimer/description"
+msgstr "Uma posição de reposicionamento diferente pode lhe dar uma vantagem estratégica."
+
+msgid "respawnTimer/title"
+msgstr "Posicionamento em:"
+
+msgid "rewardScreen/button"
+msgstr "Afirmativo!"
+
+msgid "rewardScreen/title"
+msgstr "Recompensas do Bloco de Dados Desbloqueadas"
+
+msgid "timersPanel/invulnerable"
+msgstr "Invulnerável"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Ganhe Pacotes de Dados para completar Blocos de Dados e obter recursos valiosos, incluindo uma recompensa significativa. Os Pacotes de Dados podem ser obtidos ao causar dano, destruir inimigos em batalha, capturar pontos e cumprir missões diárias."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Pacote de Dados"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Todos os Veículos"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Redefinir Filtros"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Redefina os filtros para exibir os veículos disponíveis"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "Esta playlist não contém nenhum veículo adequado para este modo."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Nenhum veículo adequado"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Nenhum veículo correspondente encontrado"
+
+msgid "welcomeScreen/button"
+msgstr "Continuar"
+
+msgid "welcomeScreen/description1"
+msgstr "Você faz parte de uma força-tarefa blindada com a ordem de proteger e manter uma rede secreta em uma zona de conflito. Mantenha a rede sob seu controle a todo custo."
+
+msgid "welcomeScreen/description2"
+msgstr "Alguém se esforçou muito para manter esta informação secreta. Complete missões para recuperar fragmentos criptografados."
+
+msgid "welcomeScreen/description3"
+msgstr "Complete os Blocos de Dados para receber recompensas valiosas das missões do evento."
+
+msgid "welcomeScreen/header1"
+msgstr "Capture as Antenas"
+
+msgid "welcomeScreen/header2"
+msgstr "Decodifique a Transmissão"
+
+msgid "welcomeScreen/header3"
+msgstr "Progressão e Recompensas"
+
+msgid "welcomeScreen/title"
+msgstr "Sinal Sombrio"

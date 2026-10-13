@@ -10,6 +10,9 @@ msgstr "Permite disparar varios proyectiles del cargador uno a la vez, y cada un
 msgid "abilities/common/description/autoShootGun"
 msgstr "Dispara una veloz ráfaga de proyectiles que inflige una gran cantidad de daño en poco tiempo a expensas de la penetración y precisión. Ideal para el combate a corta distancia."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Activa el acelerador para obtener una mejora temporal a la potencia del motor, la velocidad y la maniobrabilidad, sin perder el manejo confiable del cañón. Así obtienes un estilo de juego ágil y dinámico sin comprometer la eficacia en combate."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Dispara proyectiles estrellados que infligen daño máximo a 50 m de distancia o menos. La cantidad de daño infligido por los proyectiles disminuye con la distancia. Por lo tanto, son ideales para el combate a corta distancia."
 
@@ -61,6 +64,9 @@ msgstr "Autorrecargador mejorado"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Cañón automático"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Acelerador de combate"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Cañón muy estriado"
 
@@ -102,6 +108,15 @@ msgstr "Modo Turbo"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Modo Disparo de salva"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Aumenta la maniobrabilidad sin afectar el manejo del cañón."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "El sistema permite disparar de forma continua sin recargar y controla cómo genera calor el cañón al disparar."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "El cañón cuenta con dispositivos especiales que permiten modificar algunos parámetros del proyectil antes de disparar."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Cuando te quedas inmóvil o avanzas lentamente, obtienes niveles de precisión para mejorar la certeza de tu próximo disparo.\nCon el nivel de precisión máximo, tendrás un control del cañón decente y con menos dispersión, incluso mientras te mueves o cuando la torreta o el chasis rotan."
@@ -355,6 +370,15 @@ msgstr "Permite disparar ambos cañones al mismo tiempo a expensas de un mayor t
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Una mecánica especial que aumenta la potencia del motor, la aceleración y la velocidad máxima durante un breve período."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Activa el acelerador para obtener una mejora temporal a la potencia del motor, la velocidad y la maniobrabilidad, sin perder el manejo confiable del cañón. Así obtienes un estilo de juego ágil y dinámico sin comprometer la eficacia en combate."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "El cañón puede disparar de forma continua sin necesidad de recargar. Cada disparo genera calor: cuanto mayor es su temperatura, más cambian algunos de sus parámetros. El disparo continuo provocará que el cañón se sobrecaliente, lo que impedirá seguir disparando hasta que se enfríe."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "El cañón del vehículo cuenta con dispositivos especiales que permiten modificar algunos parámetros del proyectil antes de disparar. La configuración muestra qué parámetros quedarán afectados al cambiar entre los modos de disparo."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Al permanecer inmóvil o avanzar a una velocidad menor a cierto umbral, tu vehículo calibrará su dispositivo análogo de cálculo balístico y aumentará los niveles de precisión para mejorar la precisión de tu próximo disparo. Si superas el límite de velocidad, el progreso en la mejora de los niveles de precisión se detendrá hasta que reduzcas la velocidad. En el nivel de precisión más alto, tu vehículo obtiene una estabilización del cañón aceptable, con una menor dispersión debida al movimiento o a la rotación de la torreta o el chasis. El efecto desaparece al disparar."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Esta modificación mecánica aumenta considerablemente la aceleración del vehículo, la potencia del motor y la velocidad máxima tanto hacia delante como en reversa durante un breve período. Estos aumentos te permiten reaccionar rápido ante los ataques enemigos y tomar desprevenidos a tus oponentes con maniobras dinámicas. Al mantener una velocidad de movimiento elevada, se acelera el tiempo de recuperación de la mecánica."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Todos los valores indicados son los máximos posibles para el vehículo. El equipamiento, las directivas y los consumibles pueden modificar estos valores, pero esos cambios no se muestran aquí."
+msgstr "Todos los valores indicados son los mejores posibles para el vehículo. El equipamiento, las directivas y los consumibles pueden modificar estos valores, pero esos cambios no se muestran aquí."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "Proyectil AP calibrable"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "créditos por cada batalla"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "transferencia de tripulación de cualquier clase de vehículo sin penalización"
+msgstr "transferencia de tripulación de cualquier tipo de vehículo sin penalización"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "XP de combate y de tripulación"

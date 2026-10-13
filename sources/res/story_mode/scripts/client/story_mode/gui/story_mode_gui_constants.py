@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from constants_utils import ConstInjector
 from gui.Scaleform.daapi.settings import views
 from gui.prb_control import settings
@@ -32,7 +33,6 @@ IS_STORY_MODE_FADE_IN_OUT_ON = True
 STORY_MODE_FADE_IN_DURATION = 0.4
 STORY_MODE_FADE_OUT_DURATION = 0.4
 BONUS_ORDER = [
- 13, 
  14, 
  15, 
  16, 
@@ -42,7 +42,8 @@ BONUS_ORDER = [
  20, 
  21, 
  22, 
- 23]
+ 23, 
+ 24]
 INFO_PAGE_STORY_MODE = b'infoPageStoryMode'
 INFO_PAGE_STORY_MODE_EVENT = b'infoPageStoryMode_event'
 ABILITY_ON_COOLDOWN_ACTIVATION_ERROR_KEY = b'ability_on_cooldown'

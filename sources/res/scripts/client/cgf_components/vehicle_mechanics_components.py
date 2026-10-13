@@ -102,27 +102,6 @@ class SupportWeaponEffects(object):
 
 
 @registerComponent
-class PillboxSiegeModeSoundEffects(object):
-    category = b'Vehicle Mechanics'
-    editorTitle = b'Pillbox Siege Mode Sound Effects'
-    domain = CGF.Domain.Client
-    longpressActivation = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Long press activation 2D', value=b'gui_abl_pillbox_activation_longpress')
-    longpressDeactivation = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Long press deactivation 2D', value=b'gui_abl_pillbox_deactivation_longpress')
-    longpressError = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Long press unavailable 2D', value=b'gui_abl_button_not_ready')
-    abilityActivationStart = ComponentProperty(CGF.PropertyType.String, editorName=b'Ability activation start 2D', value=b'gui_abl_pillbox_activation_phase_start')
-    abilityActivationStartEngine = ComponentProperty(CGF.PropertyType.String, editorName=b'Ability activation start Engine', value=b'gp_abl_pillbox_engine_activation_phase_start')
-    abilityActivationStop = ComponentProperty(CGF.PropertyType.String, editorName=b'Ability activation stop 2D', value=b'gui_abl_pillbox_activation_phase_stop ')
-    abilityActivationStopEngine = ComponentProperty(CGF.PropertyType.String, editorName=b'Ability activation stop Engine', value=b'gp_abl_pillbox_engine_activation_phase_stop')
-    abilityDeactivationStart = ComponentProperty(CGF.PropertyType.String, editorName=b'Ability deactivation start 2D', value=b'gui_abl_pillbox_deactivation_phase_start')
-    abilityDeactivationStartEngine = ComponentProperty(CGF.PropertyType.String, editorName=b'Ability deactivation start Engine', value=b'gp_abl_pillbox_engine_deactivation_phase_start')
-    abilityDeactivationStop = ComponentProperty(CGF.PropertyType.String, editorName=b'Ability deactivation stop 2D', value=b'gui_abl_pillbox_deactivation_phase_stop')
-    abilityDeactivationStopEngine = ComponentProperty(CGF.PropertyType.String, editorName=b'Ability deactivation stop Engine', value=b'gp_abl_pillbox_engine_deactivation_phase_stop')
-    engineStateGroup = ComponentProperty(CGF.PropertyType.String, editorName=b'Engine state group', value=b'STATE_ext_abl_pillbox_engine_damage')
-    engineDamageOn = ComponentProperty(CGF.PropertyType.String, editorName=b'Engine damage on', value=b'STATE_ext_abl_pillbox_engine_damage_on')
-    engineDamageOff = ComponentProperty(CGF.PropertyType.String, editorName=b'Engine damage off', value=b'STATE_ext_abl_pillbox_engine_damage_off')
-
-
-@registerComponent
 class OverheatStacksEffects(object):
     category = _VEHICLE_MECHANICS_CATEGORY
     editorTitle = b'Overheat Stacks mechanic effects'
@@ -336,3 +315,18 @@ class SightPointerEffects(object):
     soundEnemyEnterSector = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Enemy enter sector sound event', value=b'gui_abl_sp_enemy_indication_on')
     soundEnemyLeftSector = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Enemy left sector sound event', value=b'gui_abl_sp_enemy_indication_off')
     soundStop = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Stop ability utility sound event', value=b'gui_abl_sp_utility_stop')
+
+
+@registerComponent
+class CombatThrottleEffects(object):
+    category = _VEHICLE_MECHANICS_CATEGORY
+    editorTitle = b'Combat Throttle Effects'
+    domain = CGF.Domain.Client
+    soundTransitionReady = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Transition to ready state sound', value=b'gui_abl_ct_ready')
+    soundTransitionBlocked = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Transition to blocked state sound', value=b'gui_abl_ct_blocked')
+    soundActivation = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Activation button sound', value=b'gui_abl_ct_button_trigger')
+    soundActivationDisabled = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Disabled activation sound', value=b'gui_abl_ct_button_not_ready')
+    soundActivationPC = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Activate sound (PC)', value=b'gp_abl_ct_activation_pc')
+    soundDeactivationPC = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Deactivate sound (PC)', value=b'gp_abl_ct_deactivation_pc')
+    soundActivationNPC = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Activate sound (NPC)', value=b'gp_abl_ct_activation_npc')
+    soundDeactivationNPC = ComponentProperty(type=CGF.PropertyType.String, editorName=b'Deactivate sound (NPC)', value=b'gp_abl_ct_deactivation_npc')

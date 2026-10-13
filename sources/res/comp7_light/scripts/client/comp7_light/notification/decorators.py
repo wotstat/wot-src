@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from comp7_light.skeletons.gui.game_control import IComp7LightProgressionController
 from helpers import dependency
 from notification.decorators import MessageDecorator
@@ -16,9 +17,9 @@ class Comp7LightProgressionLockButtonDecorator(MessageDecorator):
         super(Comp7LightProgressionLockButtonDecorator, self).clear()
         return
 
-    def _make(self, formatted=None, settings=None):
+    def _make(self, entity=None, settings=None):
         self.__updateEntityButtons()
-        super(Comp7LightProgressionLockButtonDecorator, self)._make(formatted, settings)
+        super(Comp7LightProgressionLockButtonDecorator, self)._make(entity, settings)
         return
 
     def __updateEntityButtons(self):

@@ -1981,9 +1981,6 @@ msgstr "Erro de serviço \"%(vehName)s\". Títulos insuficientes para comprar co
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Erro de serviço \"%(vehName)s\". Ouro insuficiente para comprar consumíveis. Tente novamente mais tarde."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Operação impossível. Todo o seu ouro estará disponível após as operações da WG Wallet serem restauradas automaticamente."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Erro de serviço \"%(vehName)s\". Não foi possível reabastecer os consumíveis. Tente novamente mais tarde."
 
@@ -1995,9 +1992,6 @@ msgstr "Erro de serviço \"%(vehName)s\". Créditos insuficientes para comprar p
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Erro de serviço \"%(vehName)s\". Ouro insuficiente para comprar projéteis."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Operação impossível. Todo o seu ouro estará disponível após as operações da WG Wallet serem restauradas automaticamente."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Erro de serviço \"%(vehName)s\". O veículo está bloqueado."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "Veículo %(userString)s pesquisado. Pontos não distribuídos de experiência gastos: %(unspentXP)s. Experiência Livre gasta: %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "O sistema de Recompensas Elite agora está disponível para o %(vehicle)s"
+msgstr "O sistema de Recompensas Elite agora está disponível para o %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Recompensas Elite"

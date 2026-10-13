@@ -1,5 +1,7 @@
+from __future__ import absolute_import
 import typing
 from collections import defaultdict
+from past.builtins import long
 import BigWorld
 from adisp import adisp_process
 from CurrentVehicle import g_currentVehicle
@@ -47,7 +49,7 @@ from shared_utils import first
 from skeletons.gui.battle_results import IBattleResultsService
 from skeletons.gui.challenges import IChallengesController
 from skeletons.gui.customization import ICustomizationService
-from skeletons.gui.game_control import IBattlePassController, IBattleRoyaleController, IBrowserController, ICollectionsSystemController, IMapboxController, IRankedBattlesController, ISeniorityAwardsController, IWinbackController, ISteamCompletionController, ILootBoxSystemController
+from skeletons.gui.game_control import IBattlePassController, IBattleRoyaleController, IBrowserController, ICollectionsSystemController, IMapboxController, IRankedBattlesController, ISeniorityAwardsController, IWinbackController, ILootBoxSystemController
 from skeletons.gui.impl import INotificationWindowController
 from skeletons.gui.lobby_context import ILobbyContext
 from skeletons.gui.platform.wgnp_controllers import IWGNPSteamAccRequestController
@@ -161,7 +163,7 @@ class _ShowArenaResultHandler(NavigationDisabledActionHandler):
             notification.update(formatted)
         return
 
-    def _showWindow(self, notification, arenaUniqueID):
+    def _showWindow(self, notification, data):
         return
 
     def _showI18nMessage(self, key, msgType):
@@ -484,8 +486,8 @@ class ShowBattleResultsHandler(_ShowArenaResultHandler):
         return True
 
     @decorators.adisp_process(b'loadStats')
-    def _showWindow(self, notification, arenaUniqueID):
-        uniqueID = long(arenaUniqueID)
+    def _showWindow(self, notification, data):
+        uniqueID = long(data)
         result = yield self.battleResults.requestResults(RequestResultsContext(uniqueID, showImmediately=False, showIfPosted=True, resetCache=False))
         if not result:
             self._updateNotification(notification)
@@ -666,10 +668,7 @@ class WGNCActionsHandler(ActionHandler):
         if not self._canNavigate():
             return
         notification = model.collection.getItem(NOTIFICATION_TYPE.WGNC_POP_UP, entityID)
-        if notification:
-            actorName = notification.getSavedData()
-        else:
-            actorName = b''
+        actorName = notification.getSavedData() if notification else b''
         g_wgncProvider.doAction(entityID, action, actorName)
         return
 
@@ -1556,8 +1555,7 @@ class _WotPlusExpiredNotification(NavigationDisabledActionHandler):
         return (b'wotPlusExtend',)
 
     def doAction(self, model, entityID, action):
-        steamRegistrationCtrl = dependency.instance(ISteamCompletionController)
-        if IS_CHINA or steamRegistrationCtrl.isSteamAccount:
+        if IS_CHINA:
             showShop(getWotPlusShopUrl())
         else:
             showSubscriptionsPage()
