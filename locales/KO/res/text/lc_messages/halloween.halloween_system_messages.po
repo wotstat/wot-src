@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "전투 능력"
+
+msgid "make_choice/server_error"
+msgstr "일시적으로 작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "충원"
+
+msgid "notification/crew_reward/recruited"
+msgstr "충원"
+
+msgid "notification/crew_reward/title"
+msgstr "보상 수령"
+
+msgid "open_artefact/server_error"
+msgstr "일시적으로 작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "해독 열쇠 획득: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "획득"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "해독 열쇠 제거: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "해독"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "%s의 전투 능력 재보급에 실패했습니다. 기술적 문제가 발생했습니다."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "%s의 전투 능력 재보급에 실패했습니다. 자금이 부족합니다."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "%s의 전투 능력 재보급을 완료했습니다. 소모:"
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "해독 열쇠 획득"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "기록 해독 가능"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "모드: 바빌론: 어둠의 탑"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "바빌론: 어둠의 탑 (보통)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "바빌론: 어둠의 탑 (어려움)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "바빌론: 어둠의 탑 (악몽)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "보스 격퇴"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "난이도"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "보통"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "어려움"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "악몽"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "페이즈 완료: %(curPhase)s / %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "목표 완료!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "목표 완료!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "전차"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "소모 %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "내역"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "바빌론: 어둠의 탑 차고에서 난이도를 선택할 수 있습니다."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "어려움 난이도 해제"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "바빌론: 어둠의 탑 차고에서 난이도를 선택할 수 있습니다."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "악몽 난이도 해제"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "이제 바빌론: 어둠의 탑 전투에서 %(vehicle)s 전차를 이용할 수 있습니다."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "일시적으로 바빌론: 어둠의 탑 전투에 참여할 수 없습니다.\n나중에 다시 시도해 주십시오."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "일시적으로 바빌론: 어둠의 탑(%(difficulty)s) 전투에 참여할 수 없습니다.\n나중에 다시 시도해 주십시오."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "현재 바빌론: 어둠의 탑을 이용할 수 없습니다. 게임 포털에서 관련 소식을 확인해 보십시오."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "소대장이 %(level)s 난이도로 변경했습니다."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "%(userName)s 님이 난이도를 해제하지 않았습니다."

@@ -1981,9 +1981,6 @@ msgstr "「%(vehName)s」的後勤發生錯誤。沒有足夠的點券以購買�
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "「%(vehName)s」的後勤發生錯誤。沒有足夠的金幣以購買消耗品。請稍後再試。"
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "「%(vehName)s」的後勤發生錯誤。無法補充消耗品。請稍後再試。"
 
@@ -1995,9 +1992,6 @@ msgstr "「%(vehName)s」的後勤發生錯誤。沒有足夠的銀幣以購買�
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "「%(vehName)s」的後勤發生錯誤。沒有足夠的金幣以購買砲彈。"
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "「%(vehName)s」的後勤發生錯誤。車輛已被鎖。"
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "%(userString)s 已研發。 花費戰鬥經驗：%(unspentXP)s、花費自由經驗：%(freeXP)s。"
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "已解鎖 %(vehicle)s 的精英獎勵"
+msgstr "已解鎖 %(vehicle)s 的精英獎勵。"
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "精英獎勵"

@@ -1,2 +1,2 @@
-const s = "style_3d";
-export { s as S };
+var t = "style_3d";
+export { t };

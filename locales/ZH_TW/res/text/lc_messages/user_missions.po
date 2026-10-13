@@ -328,6 +328,9 @@ msgstr "領取獎勵"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "領取獎勵"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "完成的每個一般、加值或獎勵任務都會計入您的進度。"
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "可用"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "再戰沙場！完成每日任務以獲取史詩獎勵：{progres}"
+msgstr "再戰沙場！完成每日任務以獲取史詩獎勵：{{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "一旦您完成 3 個一般任務，將解鎖帶來更珍貴獎勵的獎勵任務。獎勵任務必須在當天結束前完成，否則將會過期。"
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "盾牌"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "車輛限制："
+msgstr "戰車限制："
 
 msgid "tooltip/weekly_mission"
 msgstr "每週任務"

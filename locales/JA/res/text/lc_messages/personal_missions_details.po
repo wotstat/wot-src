@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Vanguard-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "自車輌に砲撃を命中させた敵車輌に%(goal)sHPのダメージを与える"
+msgstr "自車輌にダメージを与えた敵車輌に%(goal)sHPのダメージを与える"
 
 msgid "pm3_10_1_14_short"
 msgstr "Vanguard-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Ambush-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "非発見状態で%(goal)sHPのダメージを与える (ダメージが発生した瞬間に自車輌が非発見状態のダメージだけがカウントされる)"
+msgstr "非発見状態で敵に%(goal)sHPのダメージを与える"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "敵の重戦車1輌に対して砲撃により%(damageDealt)sHP以上のダメージを与え、かつ撃破する"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Ambush-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "非発見状態の敵車輌に%(hits)s回ダメージを与える"
+msgstr "ダメージを与えた時点で自車輌から発見できていない敵車輌に%(hits)s回ダメージを与える"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "異なる%(uniqueGoal)sタイプの敵車輌を%(goal)s輌撃破する"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Vanguard-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "自車輌に砲撃を命中させた敵車輌に%(goal)sHPのダメージを与える"
+msgstr "自車輌にダメージを与えた敵車輌に%(goal)sHPのダメージを与える"
 
 msgid "pm3_8_1_9_short"
 msgstr "Vanguard-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Ambush-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "非発見状態で%(goal)sHPのダメージを与える (ダメージが発生した瞬間に自車輌が非発見状態のダメージだけがカウントされる)"
+msgstr "非発見状態で敵に%(goal)sHPのダメージを与える"
 
 msgid "pm3_8_2_9_short"
 msgstr "Ambush-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Vanguard-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "自車輌に砲撃を命中させた敵車輌に%(goal)sHPのダメージを与える"
+msgstr "自車輌にダメージを与えた敵車輌に%(goal)sHPのダメージを与える"
 
 msgid "pm3_9_1_14_short"
 msgstr "Vanguard-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Ambush-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "非発見状態で%(goal)sHPのダメージを与える (ダメージが発生した瞬間に自車輌が非発見状態のダメージだけがカウントされる)"
+msgstr "非発見状態で敵に%(goal)sHPのダメージを与える"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "1輌の敵車輌に対して%(damageDealt)sHP以上のダメージを与え、かつ撃破する"

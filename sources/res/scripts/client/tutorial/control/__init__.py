@@ -1,4 +1,4 @@
-from abc import ABCMeta, abstractmethod
+from __future__ import absolute_import
 import BigWorld
 from helpers.aop import Weaver
 from tutorial.logger import LOG_ERROR
@@ -68,7 +68,6 @@ class ContentQuery(TutorialProxyHolder):
 
 
 class ControlsFactory(object):
-    __meta__ = ABCMeta
 
     def __init__(self, funcEffects, contentQueries, customFuncConditions=None):
         self._funcEffects = funcEffects
@@ -76,20 +75,20 @@ class ControlsFactory(object):
         self._customFuncConditions = customFuncConditions or {}
         return
 
-    @abstractmethod
     def createBonuses(self, completed):
+        raise NotImplementedError
         return
 
-    @abstractmethod
     def createSoundPlayer(self):
+        raise NotImplementedError
         return
 
-    @abstractmethod
     def createFuncScene(self, sceneModel):
+        raise NotImplementedError
         return
 
-    @abstractmethod
     def createFuncChapterCtx(self):
+        raise NotImplementedError
         return
 
     def createContentQuery(self, name):

@@ -1,3 +1,4 @@
 from __future__ import absolute_import
-from vehicles.mechanics.common.mechanic_interfaces import IMechanicComponent, IMechanicComponentLogic
-__all__ = (b'IMechanicComponent', b'IMechanicComponentLogic')
+from vehicles.mechanics.common.mechanic_interfaces import IMechanicComponent, IMechanicComponentLogic, IMechanicWithVariants
+from vehicles.mechanics.common.mechanic_models import MechanicParamsWithVariants
+__all__ = (b'IMechanicComponent', b'IMechanicComponentLogic', b'IMechanicWithVariants', b'MechanicParamsWithVariants')

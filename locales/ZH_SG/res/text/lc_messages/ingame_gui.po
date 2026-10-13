@@ -97,31 +97,31 @@ msgstr "注意<小地图上的方格>!"
 msgid "chat_example/attention_to_position"
 msgstr "注意地点！"
 
-msgid "chat_example/global_msg/atk/focus_hq"
+msgid "chat_example/global_msg_atk_focus_hq"
 msgstr "摧毁目标"
 
-msgid "chat_example/global_msg/atk/save_tanks"
-msgstr "保存你的坦克！"
+msgid "chat_example/global_msg_atk_save_tanks"
+msgstr "保护好您的战车！"
 
-msgid "chat_example/global_msg/atk/time"
+msgid "chat_example/global_msg_atk_time"
 msgstr "占领区域"
 
-msgid "chat_example/global_msg/def/focus_hq"
+msgid "chat_example/global_msg_def_focus_hq"
 msgstr "防守目标"
 
-msgid "chat_example/global_msg/def/save_tanks"
-msgstr "保存你的坦克！"
+msgid "chat_example/global_msg_def_save_tanks"
+msgstr "保护好您的战车！"
 
-msgid "chat_example/global_msg/def/time"
+msgid "chat_example/global_msg_def_time"
 msgstr "防守区域"
 
-msgid "chat_example/global_msg/lane/center"
+msgid "chat_example/global_msg_lane_center"
 msgstr "增援区域"
 
-msgid "chat_example/global_msg/lane/east"
+msgid "chat_example/global_msg_lane_east"
 msgstr "增援区域"
 
-msgid "chat_example/global_msg/lane/west"
+msgid "chat_example/global_msg_lane_west"
 msgstr "增援区域"
 
 msgid "chat_example/going_there"
@@ -232,32 +232,32 @@ msgstr "我来防守基地！"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "我正在防守基地%(strArg1)s！"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "摧毁目标！"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
-msgstr "我们有足够的时间，保存你的坦克！"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
+msgstr "我们有足够的时间，保护好您的战车！"
 
-msgid "chat_shortcuts/global_msg/atk/time"
-msgstr "时间不多了，努力占领基地！"
+msgid "chat_shortcuts/global_msg_atk_time"
+msgstr "时间不多了，全力占领基地！"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "防守目标！"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
-msgstr "我们要守住，保存你的坦克！"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
+msgstr "我们需要坚持住，保护好您的战车！"
 
-msgid "chat_shortcuts/global_msg/def/time"
-msgstr "时间不多了，不惜代价守住区域！"
+msgid "chat_shortcuts/global_msg_def_time"
+msgstr "时间不多了，不惜一切代价守住各区域！"
 
-msgid "chat_shortcuts/global_msg/lane/center"
-msgstr "区域%(strArg1)s需要帮助，请增援！"
+msgid "chat_shortcuts/global_msg_lane_center"
+msgstr "%(strArg1)s区域需要帮助，请前往增援！"
 
-msgid "chat_shortcuts/global_msg/lane/east"
-msgstr "区域%(strArg1)s需要帮助，请增援！"
+msgid "chat_shortcuts/global_msg_lane_east"
+msgstr "%(strArg1)s区域需要帮助，请前往增援！"
 
-msgid "chat_shortcuts/global_msg/lane/west"
-msgstr "区域%(strArg1)s需要帮助，请增援！"
+msgid "chat_shortcuts/global_msg_lane_west"
+msgstr "%(strArg1)s区域需要帮助，请前往增援！"
 
 msgid "chat_shortcuts/going_there"
 msgstr "正在前往该位置！"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "按下"
 
 msgid "devMaps/mapInfo/info"
-msgstr "随机事件可能会在此地图上发生。可在游戏设置中关闭这类地图。"
+msgstr "随机事件可能会在此地图上发生。"
 
 msgid "devMaps/mapInfo/text"
 msgstr "带有随机事件的地图"
@@ -2879,10 +2879,10 @@ msgid "statistics/final/reasons/reason1lose"
 msgstr "所有战车被击毁。"
 
 msgid "statistics/final/reasons/reason1tie"
-msgstr "所有战车被击毁！"
+msgstr "所有战车都被摧毁！"
 
 msgid "statistics/final/reasons/reason1win"
-msgstr "击毁所有敌方战车。"
+msgstr "所有敌方战车都被摧毁。"
 
 msgid "statistics/final/reasons/reason2"
 msgstr "基地占领！"

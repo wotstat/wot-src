@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Thời gian hồi: {{cooldown}} giây"
+
+msgid "ability/miriumCost"
+msgstr "Chi phí Mirium để dùng trong trận: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Khi sử dụng:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Buff thụ động trong trận"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Hoàn thành độ khó Thường để mở khóa độ khó Cao và truy cập hệ thống Combo Dị điểm."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Combo Dị điểm hiện không khả dụng"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Tăng hiệu quả chiến đấu và duy trì từ Pha này sang Pha khác ngay cả khi xe của bạn bị phá hủy."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Khi nhận:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Dị điểm"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Dị điểm Echo"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Dị điểm Pick-Up"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Dị điểm Basic"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Dị điểm Secret"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Chỉ lấy được từ lút đồ."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Không có combo."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Không tính vào tiến độ nhận huy chương Anomaly Collector."
+
+msgid "bannerTooltip/available"
+msgstr "Sự kiện khả dụng trong %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — Chế độ chơi. Bấm xem"
+
+msgid "bannerTooltip/description"
+msgstr "Một chế độ PvE đặc biệt cuốn bạn vào sâu trong thế giới Babylon Project đầy bí hiểm. Thuần hóa 7 chiếc xe độc đáo trong cuộc chiến chống lại thế lực đen tối. Phần thưởng xịn xò và hơn nữa đang chờ đón!"
+
+msgid "bannerTooltip/header"
+msgstr "Babylon: Dark Tower"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Hiệu suất máy tính của bạn không đủ mạnh cho chế độ này. Bạn có thể gặp vấn đề với đồ họa và chuyển động xe. Client trò chơi cũng có khả năng gặp sự cố."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Hiệu suất Thấp"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Có thể Giảm Hiệu suất"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Đã là Bạn bè rồi."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Đang đợi chấp nhận yêu cầu kết bạn."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Xóa người chơi khỏi Sổ đen của bạn."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Thêm vào DS Bạn bè."
+
+msgid "battleResult/interaction/menu"
+msgstr "Click để mở menu tương tác với người chơi này."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Thêm vào Trung đội."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Người chơi trong Trung đội rồi."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Đã mời rồi."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Chỉ huy Trung đội là người duy nhất có thể mời game thủ khác gia nhập."
+
+msgid "battleResult/secretReward/header"
+msgstr "Quà bí mật"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Bạn sẽ nhận được phần thưởng đặc biệt dựa trên quyết định của mình vào cuối sự kiện."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Danh hiệu Sự kiện Độc đáo"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Chờ hồi phục: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Chi phí Mirium: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Khả dụng đến {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Phần thưởng:"
+
+msgid "dailyQuests/status"
+msgstr "Nhiệm vụ hàng ngày mới sau {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Chỉ định cả bốn thành viên kíp lái có tiếng thoại (%(crew_members_names)s) vào bất kỳ xe nào trong Ga-ra (một trong số họ phải là chỉ huy) để kích hoạt \"Chém gió tập thể\" trong trận.\nỞ xe có năm hoặc sáu vai trò, các vai trò còn lại có thể được bổ nhiệm cho ai cũng được."
+
+msgid "groupVoiceover/header"
+msgstr "Chém gió tập thể"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Mục tiêu để mở khóa phương tiện này đã được chọn. Xem điều kiện của nó ở góc trên bên phải màn hình."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Mục tiêu đã được chọn"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Chọn một xe khả dụng để tham chiến."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Bất khả dụng"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Chiến trận ở độ khó/chế độ đã chọn tạm thời không khả dụng vì lý do kỹ thuật."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Bất khả dụng"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Hãy đợi Trung đội trở lại từ trận trước để vào trận mới."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Bất khả dụng"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Độ khó không khớp cho Trung đội."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Bất khả dụng"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Một kíp lái độc đáo gồm bốn tăng thủ."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Kíp lái Độc đáo, Đầy đủ"
+
+msgid "keyCard/body"
+msgstr "Nhấp để xem các cách hiện có để kiếm loại tiền tệ sự kiện."
+
+msgid "keys/accrued"
+msgstr "Nhận được:"
+
+msgid "keys/battles"
+msgstr "• Trong chiến trận sự kiện"
+
+msgid "keys/body"
+msgstr "Một loại tiền tệ độc đáo dùng để thăng tiến trong Babylon: Dark Tower và lấy hàng giá trị, gồm cả phần thưởng chính. Có thể kiếm được từ chiến trận sự kiện cũng như những gói mua tại Cửa hàng. Diệt xe địch trong các cuộc đụng độ ở Babylon: Dark Tower để thu nhiều vật chất nhất có thể và kiếm Chìa."
+
+msgid "keys/boss"
+msgstr "• Đánh bại Trùm:"
+
+msgid "keys/bottom"
+msgstr "Sau khi sự kiện kết thúc (%(date)s), số Chìa không dùng sẽ bị xóa bỏ."
+
+msgid "keys/bundles"
+msgstr "• Mua từ các gói sự kiện"
+
+msgid "keys/daily"
+msgstr "• Nhiệm vụ hàng ngày cho xe:"
+
+msgid "keys/effective"
+msgstr "• Đánh tốt trong trận:"
+
+msgid "keys/gold"
+msgstr "• Dùng vàng để mua"
+
+msgid "keys/header"
+msgstr "Chìa Giải mã"
+
+msgid "keys/howToEarn"
+msgstr "Cách Lấy"
+
+msgid "keys/howToUse"
+msgstr "Cách Dùng"
+
+msgid "keys/howToUseDescr"
+msgstr "Dùng Chìa để giải mã Báo cáo, mở khóa Mục tiêu mới và tiến đến phần thưởng chính của sự kiện. Bạn cũng có thể tiêu Chìa để bỏ qua Mục tiêu, ẵm quà xịn sớm hơn."
+
+msgid "keys/inStock"
+msgstr "khả dụng"
+
+msgid "keys/secret"
+msgstr "• Quà bí mật:"
+
+msgid "metaWidget/body"
+msgstr "Click để xem mọi Mục tiêu và phần thưởng sự kiện."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Hoàn tất điều kiện chiến đấu của Báo cáo để giải mã nó. Không thể bỏ qua bước này."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Không thể Giải mã"
+
+msgid "metaWidget/header"
+msgstr "Đường Phần thưởng"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Click để chọn kết truyện. Quyết định chung của cộng đồng sẽ định hình những sự kiện sắp tới. Xem trang chủ game để cập nhật."
+
+msgid "missionTooltip/bottom"
+msgstr "Giải mã mọi Báo cáo (vài Mục tiêu có thể bỏ qua) để ẵm phần thưởng chính trước khi sự kiện kết thúc vào %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Đã hoàn tất Mục tiêu %(current)s, phần thưởng nhận được"
+
+msgid "missionTooltip/count"
+msgstr "Mục tiêu %(current)s trên %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Giải mã"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Hoàn thành Mục tiêu để mở khóa giải mã."
+
+msgid "missionTooltip/kingReward"
+msgstr "Phần thưởng chính ở sự kiện"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Đã nhận phần thưởng chính ở sự kiện"
+
+msgid "missionTooltip/received"
+msgstr "Đã hoàn tất Mục tiêu %(current)s, nhưng chưa giải mã được Báo cáo"
+
+msgid "missionTooltip/rewards"
+msgstr "Hoàn thành Mục tiêu để nhận thưởng."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Giải mã Báo cáo để nhận thưởng."
+
+msgid "missionTooltip/skip"
+msgstr "Bỏ qua"
+
+msgid "shopWidget/body"
+msgstr "Click để mở mục đặc biệt tại Cửa hàng trong game với hàng độc của sự kiện."
+
+msgid "shopWidget/header"
+msgstr "Gói sự kiện"
+
+msgid "teamList/actions/body"
+msgstr "Lệnh nóng để tạo Trung đội và thêm/bớt bạn bè."
+
+msgid "teamList/actions/header"
+msgstr "Lệnh Nóng"
+
+msgid "teamList/anomalies/header"
+msgstr "Dị điểm đang Tác dụng"
+
+msgid "teamList/bossDamage/body"
+msgstr "Sắp xếp chỉ theo sát thương gây ra trong Pha 4 (Đấu Trùm).\nSát thương này không được tính để thưởng chìa nếu team thua trùm."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Sát thương này không được tính để thưởng chìa, vì team thua trùm."
+
+msgid "teamList/bossDamage/header"
+msgstr "Thiệt hại Gây ra khi Đấu Trùm"
+
+msgid "teamList/damage/body"
+msgstr "Sắp xếp theo thiệt hại gây ra ở Pha 1–3."
+
+msgid "teamList/damage/header"
+msgstr "Thiệt hại đã Gây ra"
+
+msgid "teamList/keys/body"
+msgstr "Sắp xếp theo số Chìa kiếm được (giá trị hiển thị không tính Chìa thưởng từ việc làm xong nhiệm vụ hàng ngày tương ứng)."
+
+msgid "teamList/keys/header"
+msgstr "Chìa Kiếm được"
+
+msgid "teamList/kills/body"
+msgstr "Sắp xếp theo số xe địch đã bắn hạ."
+
+msgid "teamList/kills/header"
+msgstr "Số Xe Địch đã Bắn Hạ"
+
+msgid "teamList/name/header"
+msgstr "Người chơi"
+
+msgid "teamList/place/body"
+msgstr "Sắp xếp theo vị thứ trong phe."
+
+msgid "teamList/place/header"
+msgstr "Vị thứ trong Phe"
+
+msgid "teamList/squad/header"
+msgstr "Trung đội là một đơn vị tác chiến để người chơi phối hợp hiệp đồng trong trận."
+
+msgid "teamList/vehicle/body"
+msgstr "Sắp xếp theo loại và tên xe."
+
+msgid "teamList/vehicle/header"
+msgstr "Xe"
+
+msgid "teamList/warned/body"
+msgstr "Người này đã bị phạt vì không hoạt động/bỏ trận và không nhận được bất kỳ phần thưởng nào cho trận tương ứng."
+
+msgid "teamList/warned/header"
+msgstr "Cảnh báo"
+
+msgid "teamList/warned/self/body"
+msgstr "Bạn đã bị phạt vì không hoạt động/bỏ trận và không nhận được bất kỳ phần thưởng nào cho trận này."
+
+msgid "teamList/warned/self/header"
+msgstr "Cảnh báo"
+
+msgid "vehicle/bonusTitle"
+msgstr "Thu nhập"
+
+msgid "vehicle/eventBonus"
+msgstr "Có Chìa Thưởng khi hoàn tất nhiệm vụ hàng ngày bằng xe này."
+
+msgid "vehicle/state/default/title"
+msgstr "Sẵn sàng chiến đấu"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "Trong trận"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "Trong đv tác chiến"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "Đang chờ"
+
+msgid "vehicle/state/locked/title"
+msgstr "Bị khóa"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Băng đạn 5 viên cho phép nhanh chóng gây sát thương lớn."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Băng đạn"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Hệ thống 3-viên giúp rút ngắn thời gian thường tái nạp đạn."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Súng tái nạp tự động"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Một khẩu súng có hệ thống bắn liên tục."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Autocannon"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Tăng khả năng gây hư hại các mô-đun trên xe địch."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Súng Sát Thương Chí Mạng"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Súng bắn HE với hệ thống tái nạp tự động 2-viên đáng sợ."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Súng tái nạp tự động"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Cho lựa chọn giữa chế độ bắn tuần hoàn và theo loạt."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Súng đôi"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Mang lại khả năng bảo vệ toàn diện mô-đun xe khỏi hư hỏng nghiêm trọng."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Kháng sát thương chí mạng"

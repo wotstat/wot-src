@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "กลับไปยังสมบัติ"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "ทุกๆสมบัติโชติช่วงกล่องท
 msgid "infoPage/header/description"
 msgstr "เปิดสมบัติโชติช่วงเพื่อโอกาสในการได้รับสิ่งของที่มีค่าในเกมกัน! มาดูรายละเอียดกันได้ที่ด้านล่าง"
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "จาก %(name) (เปิดสมบัติโชติช่วง ไป %(boxesCount) กล่อง)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "ถ้าคุณไม่มีสมบัติโชติช่วงใดๆ\nคุณสามารถหามันได้จากร้านค้าในเกม"
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "มีสมบัติให้: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "ไม่มีสมบัติให้"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "ถ้าคุณมีพาหนะทั้งหมดจากรายการสิ่งของที่เป็นไปได้ของสมบัติโชติช่วงแล้ว พาหนะคันต่อๆไปที่คุณได้รับจากสมบัติโชติช่วงจะได้รับการชดเชยเป็นทอง"
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) สมบัติโชติช่วง"
 msgstr[1] "%(remainingCount) สมบัติโชติช่วง"
 msgstr[2] "%(remainingCount) สมบัติโชติช่วง"
 
-msgid "singleRewardView/tooltip/subtitle/"
-msgstr "รางวัลรับประกันเป็นพาหนะจากรายการของสิ่งของสมบัติโชติช่วงที่เป็นไปได้\nถ้าคุณเปิด %(remainingCount) กล่องโดยไม่ได้รับหนึ่งในพาหนะดังกล่าว มันจะมอบให้เมื่อคุณเปิดสมบัติโชติช่วงที่ %(count) และเมื่อได้รับพาหนะดังกล่าว ตัวนับจะถูกตั้งใหม่อีกครั้ง"
+msgid "singleRewardView/tooltip/subtitle"
+msgstr "รางวัลรับประกันเป็นพาหนะจากรายการของสิ่งของสมบัติโชติช่วงที่เป็นไปได้\nถ้าคุณเปิด %(remainingCount) กล่องชิ้นส่วนโดยไม่ได้รับหนึ่งในพาหนะดังกล่าว มันจะมอบให้เมื่อคุณเปิดสมบัติโชติช่วงที่ %(count) และเมื่อได้รับพาหนะดังกล่าว ตัวนับจะถูกตั้งใหม่อีกครั้ง"

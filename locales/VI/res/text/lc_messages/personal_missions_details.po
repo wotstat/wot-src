@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Vanguard-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Gây %(goal)s HP thiệt hại cho kẻ địch đã bắn xe của bạn"
+msgstr "Gây %(goal)s HP thiệt hại cho kẻ địch đã sát thương xe của mình"
 
 msgid "pm3_10_1_14_short"
 msgstr "Vanguard-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Ambush-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Gây %(goal)s HP thiệt hại mà không bị phát hiện tại thời điểm sát thương"
+msgstr "Gây %(goal)s HP sát thương khi không bị địch nhìn thấy"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Diệt một tăng hạng nặng địch bằng cách bắn nó, gây ít nhất %(damageDealt)s HP thiệt hại"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Ambush-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "%(hits)s lần gây thiệt hại cho xe địch chưa bị phát hiện tại thời điểm sát thương"
+msgstr "%(hits)s lần sát thương xe địch mà bản thân không nhìn thấy"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Diệt %(goal)s xe địch thuộc %(uniqueGoal)s loại khác nhau"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Assistance-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Giúp đồng đội gây %(goal)s HP thiệt hại cho xe địch do chính mình phát hiện. Không để lộ diện tại thời điểm sát thương được gây ra"
+msgstr "Khiến đồng đội sát thương %(goal)s HP lên xe địch do mình soi ra. Không bị kẻ thù phát hiện khi thiệt hại được gây ra."
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Làm choáng tăng hạng nặng địch %(goal)s lần"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Vanguard-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Gây %(goal)s HP thiệt hại cho kẻ địch đã bắn xe của bạn"
+msgstr "Gây %(goal)s HP thiệt hại cho kẻ địch đã sát thương xe của mình"
 
 msgid "pm3_8_1_9_short"
 msgstr "Vanguard-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Ambush-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Gây %(goal)s HP thiệt hại mà không bị phát hiện tại thời điểm sát thương"
+msgstr "Gây %(goal)s HP sát thương khi không bị địch nhìn thấy"
 
 msgid "pm3_8_2_9_short"
 msgstr "Ambush-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Vanguard-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Gây %(goal)s HP thiệt hại cho kẻ địch đã bắn xe của bạn"
+msgstr "Gây %(goal)s HP thiệt hại cho kẻ địch đã sát thương xe của mình"
 
 msgid "pm3_9_1_14_short"
 msgstr "Vanguard-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Ambush-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Gây %(goal)s HP thiệt hại mà không bị phát hiện tại thời điểm sát thương"
+msgstr "Gây %(goal)s HP sát thương khi không bị địch nhìn thấy"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Diệt một xe địch, gây ít nhất %(damageDealt)s HP sát thương cho nó"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Ambush-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Gây %(damageDealt)s HP thiệt hại cho xe địch chưa bị phát hiện tại thời điểm sát thương"
+msgstr "Gây %(damageDealt)s HP thiệt hại cho xe địch mà bản thân không thấy tại thời điểm sát thương"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Diệt %(goal)s xe địch thuộc %(uniqueGoal)s loại khác nhau"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Assistance-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Giúp đồng đội gây %(goal)s HP thiệt hại cho xe địch do chính mình phát hiện. Không để lộ diện tại thời điểm sát thương được gây ra"
+msgstr "Khiến đồng đội sát thương %(goal)s HP lên xe địch do mình soi ra. Không bị kẻ thù phát hiện khi thiệt hại được gây ra."
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Làm choáng tăng hạng nặng địch tổng cộng %(goal)s giây. Tính cả thời gian choáng lý thuyết"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Assistance-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Gây %(damageDealt)s HP thiệt hại cho xe địch chưa bị phát hiện tại thời điểm sát thương"
+msgstr "Gây %(damageDealt)s HP thiệt hại cho xe địch mà bản thân không thấy tại thời điểm sát thương"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Diệt %(goal)s tăng hạng nhẹ hoặc pháo tự hành của địch"

@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "移動、車体旋回、砲塔旋回に伴う散布界の拡大を{{@ class $highlightClass}}%(generalValue)s%%{{/}}軽減します。"
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "移動および旋回に伴う\n散布界の拡大%(value)s"
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "主砲の散布界を\n縮小します。"
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "移動、車体旋回、砲塔旋回に伴う散布界の拡大を軽減します。"
+
+msgid "buffs/buffAccuracy/header"
+msgstr "照準調整機構"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "−%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "自車輌が「Hedgehog」および「Alpha Hedgehog」の{{@ class $highlightClass}}爆発ダメージ{{/}}に対して、完全に{{@ class $highlightClass}}無敵{{/}}になります。\nただし、「Hedgehog」との衝突による体当たりダメージは受けます。"
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "自車輌が「Hedgehog」の爆発ダメージに対して無敵になります\n。"
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "「Hedgehog」の爆発ダメージから自車輌を保護します。"
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "「Hedgehog」および「Alpha Hedgehog」の爆発ダメージに対して、自車輌を完全に無敵にします。\nただし、「Hedgehog」との衝突による体当たりダメージは受けます。"
+
+msgid "buffs/buffBomberResist/header"
+msgstr "爆発ダメージ無効"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "{{@ class $highlightClass}}+/−25%{{/}}のダメージ変動幅をなくし、砲撃の結果をより予測しやすくします。"
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "射撃ダメージの+/−25%%の変動幅がなくなります。"
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "射撃ダメージの+/−25%の変動幅がなくなります。"
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "+/−25%のダメージ変動幅をなくし、砲撃の結果をより予測しやすくします。"
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "ダメージの制御"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "被ダメージ*(射撃、火災、体当たり、ダメージゾーン、コロージョン・フェーズ、モジュールへのダメージなどを含む) を{{@ class $highlightClass}}%(mitigation)s%%{{/}}軽減します。\n*落下によるダメージおよびエグゼキューション・フェーズ中のダメージには適用されません。"
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "被ダメージに%(value)s"
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "被ダメージを軽減します。"
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "被ダメージ*(射撃、火災、体当たり、ダメージゾーン、コロージョン・フェーズ、モジュールへのダメージなどを含む) を軽減します。\n*落下によるダメージおよびエグゼキューション・フェーズ中のダメージには適用されません。"
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "ダメージ吸収"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "砲撃により敵車輌にダメージを与えた際に{{@ class $highlightClass}}%(chance)s%%{{/}}の確率で自車輌のHPを{{@ class $highlightClass}}%(heal)s{{/}}回復させます。"
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "砲撃でダメージを与えた際のHP回復率%(value)s"
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "砲撃により敵車輌にダメージを与えた際に\n一定の確率で車輌HPを回復させます。"
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "射撃により敵車輌にダメージを与えた際に一定の確率で自車輌のHPを回復させます。"
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "吸血弾"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "自車輌のHPを{{@ class $highlightClass}}%(health)s%%{{/}}増加させます。"
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "自車輌のHP%(value)s"
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "自車輌のHPを\n増加させます。"
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "自車輌のHPを増加させます。"
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "耐久性強化材"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "砲撃により敵車輌にダメージを与えた際に火災を誘発できる確率を{{@ class $highlightClass}}%(chance)s%%{{/}}向上させます。"
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "火災の誘発率%(value)s"
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "火災の誘発率を\n向上させます。"
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "射撃により敵車輌にダメージを与えた際に火災を誘発できる確率を向上させます。"
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "強化火薬"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "与ダメージを{{@ class $highlightClass}}%(damageFactor)s%%{{/}}向上させます。"
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "与ダメージ%(value)s"
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "与ダメージを\n向上させます。"
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "与ダメージを向上させます。"
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "セラミック弾"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "装填速度を{{@ class $highlightClass}}%(reloadTime)s%%{{/}}向上させます。"
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "装填速度%(value)s"
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "装填速度を\n向上させます。"
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "装填速度を向上させます。"
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "装填加速グリス"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "車輌HPが満タンになるまで徐々に回復させます。\nダメージを受けると効果が停止してしまいます。"
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "自車輌のHPを\n少しずつ回復"
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "車輌HPを\n回復させます。"
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "車輌HPが満タンになるまで徐々に回復させます。ダメージを受けると効果が停止してしまいます。"
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "自動回復装置"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "戦闘中の車輌のミリウム容量を{{@ class $highlightClass}}無制限{{/}}にします。"
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "ミリウム容量を無制限にします。"
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "ミリウム容量を無制限にします。"
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "戦闘中の車輌のミリウム容量を無制限にします。"
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "底なしの回収機"
+
+msgid "buffs/buffInspiration/body"
+msgstr "全搭乗員の職能適性に{{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}のボーナスが加算されます。"
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "職能適性に%(value)sのボーナス"
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "職能適性を\n向上させます。"
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "職能適性を向上させます。"
+
+msgid "buffs/buffInspiration/header"
+msgstr "霊感"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "自車輌の砲撃の命中により車輌HPが{{@ class $highlightClass}}%(hpThreshold)s%%{{/}}以下になった敵車輌を即座に撃破します。\nボスにはこの効果は適用されません。"
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "自車輌の砲撃が命中し、HPが%(value)s以下に\nなった敵を即座に撃破します。"
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "自車輌の砲撃が命中した、車輌HPの低い敵車輌を即座に撃破します。"
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "自車輌の砲弾の命中により車輌HPが低くなった敵車輌を即座に撃破します。\nボスにはこの効果は適用されません。"
+
+msgid "buffs/buffInstakill/header"
+msgstr "フィニッシャー"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "車輌の最大前進速度と最大後退速度を上昇させます。"
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "車輌の最大前進速度と\n最大後退速度を上昇させます。"
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "車輌の最大前進速度と最大後退速度を上昇させます。"
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "車輌の最大前進速度と最大後退速度を上昇させます。"
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "スピードアップ"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "戦闘中、敵にダメージを与えた際に取得できる「ミリウム」の量が{{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}増加します。"
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "敵から取得する「ミリウム」%(value)s"
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "敵から取得する「ミリウム」の量を増加させます。"
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "戦闘中、敵にダメージを与えた際に取得できる「ミリウム」の量を増加させます。"
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "ミリウム・エクストラクション"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "戦闘中の車輌の「ミリウム」の最大容量が{{@ class $highlightClass}}%(miriumAmount)s{{/}}増加します。"
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "「ミリウム」の最大容量に%(value)s"
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "「ミリウム」の最大容量が増加します。"
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "戦闘中の車輌の「ミリウム」最大容量を増加させます。"
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "スペーシャス・コレクター"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "戦闘中に車輌が大破しても、復活時にすべての「ミリウム」が保持されます。"
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "復活後、集めた\n「ミリウム」がすべて保持されます。"
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "復活後にすべての「ミリウム」を保持します。"
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "復活後にすべての「ミリウム」を保持します。"
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "ミリウム・キーパー"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "戦闘中の特殊アビリティーの消費ミリウムを{{@ class $highlightClass}}%(cost)s%%{{/}}軽減します。"
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "アビリティーの消費ミリウムを%(value)s"
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "アビリティーの消費ミリウムを軽減します。"
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "戦闘中の特殊アビリティーの消費ミリウムを大幅に軽減します。"
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "ミリウム・エフィシェンシー"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "使用時に特殊アビリティーの消費ミリウムの{{@ class $highlightClass}}%(refundAmount)s%%{{/}}を還元します。"
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "アビリティー使用時にミリウムを%(value)s還元"
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "アビリティー使用時にミリウムを一部還元します"
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "使用時に特殊アビリティーの消費ミリウムを一部還元します。"
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "ミリウム・リターン"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "エンジン出力を{{@ class $highlightClass}}%(power)s%%{{/}}、砲塔の旋回速度を{{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}向上させます。"
+
+msgid "buffs/buffMobility/description/1"
+msgstr "エンジン出力%(value)s"
+
+msgid "buffs/buffMobility/description/2"
+msgstr "砲塔旋回速度%(value)s"
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "エンジン出力と\n砲塔旋回速度を向上させます。"
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "エンジン出力と砲塔旋回速度を向上"
+
+msgid "buffs/buffMobility/header"
+msgstr "高純度ガソリン"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "モジュールに対するあらゆるダメージを無効化します。"
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "モジュールに対する\nダメージを無効化"
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "モジュールを損傷から保護します"
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "モジュールに対するあらゆるダメージを無効化します。"
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "モジュール保護材"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "「Malachite」のデフォルト「特殊アイテム」で、常時発動しています。"
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "全砲弾の貫通力を{{@ class $highlightClass}}%(shellPen)s%%{{/}}向上させます。"
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "砲弾貫通力に%(value)s"
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "全砲弾の貫通力を向上させます。"
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "全砲弾の貫通力を向上させます。"
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "ピアシング・シェル"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "戦闘中に車輌が大破した場合、復活時にすべての代替砲弾が保持されます。"
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "すべての代替砲弾が\n復活後も保持されます。"
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "復活後もすべての代替砲弾が保持されます。"
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "戦闘中に車輌が大破した場合、復活時にすべての代替砲弾が保持されます。"
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "シェル・キーパー"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "各新フェーズ開始時または復活後に入手する「ミリウム」の量が{{@ class $highlightClass}}%(soulsBonus)s{{/}}増加します。戦闘中の車輌のミリウム最大容量が{{@ class $highlightClass}}%(miriumAmount)s{{/}}増加します。"
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "新フェーズ\nまたは復活後に入手する「ミリウム」%(value)s"
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "「ミリウム」の最大容量に%(value)s"
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "ミリウム容量と、新フェーズ開始時または復活時に入手する「ミリウム」の量を増加させます。"
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "各新フェーズ開始時または復活後に入手する「ミリウム」の量を増加させます。戦闘中の車輌のミリウム最大容量を増加させます。"
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "ミリウム・キャッシュ"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "スーパーチャージャーの効果時間を{{@ class $highlightClass}}%(timeLength)s%%{{/}}延長し、クールダウンを{{@ class $highlightClass}}%(reloadTime)s秒{{/}}短縮する。"
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "スーパーチャージャーの効果時間%(value)s"
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "スーパーチャージャーのクールダウン%(value)s秒"
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "スーパーチャージャーの効果時間を延長し、クールダウンを短縮します。"
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "スーパーチャージャーの効果時間を延長し、クールダウンを短縮します。"
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "ターボ・エンハンサー"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "−%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "砲撃時に以下の確率で特定のダメージを与えます。\n• {{@ class $highlightClass}}%(chance1)s%%{{/}}の確率で{{@ class $highlightClass}}%(damage1)s%%{{/}}のダメージ\n• {{@ class $highlightClass}}%(chance2)s%%{{/}}の確率で{{@ class $highlightClass}}%(damage2)s%%{{/}}のダメージ\n• {{@ class $highlightClass}}%(chance3)s%%{{/}}の確率で{{@ class $highlightClass}}%(damage3)s%%{{/}}のダメージ\n• {{@ class $highlightClass}}%(chance4)s%%{{/}}の確率で{{@ class $highlightClass}}%(damage4)s%%{{/}}のダメージ"
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "単発ダメージが低い値から\n極端に高い値まで変動します。"
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "単発ダメージが低い値から極端に高い値まで変動します。"
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "与ダメージが通常よりも大きく下振れ、あるいは極端に上振れすることがあります。"
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "クォンタム・ショット"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "詳細"

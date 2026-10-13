@@ -1,4 +1,6 @@
+from __future__ import absolute_import
 import typing
+from future.utils import viewitems, viewvalues
 from account_helpers.AccountSettings import AccountSettings, COMP7_UI_SECTION, COMP7_SHOP_SEEN_PRODUCTS
 from comp7.gui.impl.gen.view_models.views.lobby.base_product_model import BaseProductModel, ProductTypes, ProductState
 from comp7.gui.impl.gen.view_models.views.lobby.reward_product_model import RewardProductModel
@@ -22,8 +24,8 @@ _PRODUCT_TYPE_TO_MODEL = {(ProductTypes.VEHICLE): VehicleProductModel,
 _PRODUCT_TYPE_ORDER = [
  ProductTypes.VEHICLE, ProductTypes.STYLE3D, ProductTypes.REWARD]
 _COMP7_PREV_SEASON_PRODUCTS = {
- 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 
- 34}
+ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 
+ 36}
 if typing.TYPE_CHECKING:
     from comp7.gui.game_control.comp7_shop_controller import ShopPageProductInfo
 
@@ -43,10 +45,9 @@ def setProductModelData(productData, productModel):
     if not productCD:
         LOG_WARNING((b'Unknown product with data: {}').format(productData))
         return
-    else:
-        _setGenericData(productModel, productCD, productType, productData)
-        _setSpecificData(productModel, productCD, productType)
-        return
+    _setGenericData(productModel, productCD, productType, productData)
+    _setSpecificData(productModel, productCD, productType)
+    return
 
 
 @dependency.replace_none_kwargs(itemsCache=IItemsCache)
@@ -82,7 +83,7 @@ def addSeenProduct(product):
 
 def hasUnseenProduct(products):
     seenProducts = getSeenProducts()
-    for product in products.itervalues():
+    for product in viewvalues(products):
         cd, _ = _getProductTypeData(product)
         if cd not in seenProducts and cd not in _COMP7_PREV_SEASON_PRODUCTS:
             return True
@@ -91,7 +92,7 @@ def hasUnseenProduct(products):
 
 
 def _getProductTypeData(product):
-    for cd, entitlementType in product.entitlements.iteritems():
+    for cd, entitlementType in viewitems(product.entitlements):
         itemType = getItemType(getCDFromId(entitlementType, cd))
         if itemType == GUI_ITEM_TYPE.VEHICLE:
             return (cd, ProductTypes.VEHICLE)

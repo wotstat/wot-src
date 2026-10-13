@@ -3304,12 +3304,6 @@ msgstr "ข้อจำกัดหมวดรถถัง"
 msgid "details/conditions/additional"
 msgstr "คลิกเพื่อดูเงื่อนไขรองของภารกิจนี้"
 
-msgid "devMaps/body"
-msgstr "ออกรบในแผนที่ที่มีเหตุการณ์เกิดขึ้นแบบสุ่มเช่นรถไฟตกรางหรือเครื่องบินตกที่เปลี่ยนสภาวะสนามรบและสร้างโอกาสทางยุทธวิธีใหม่ขึ้นมา"
-
-msgid "devMaps/header"
-msgstr "เล่นบนแผนที่มีเหตุการณ์สุ่ม"
-
 msgid "deviceFits/already_installed/header"
 msgstr "ติดตั้งไว้:"
 
@@ -6670,6 +6664,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/fisherman/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/fr_spark/desc"
+msgstr "ไม่มีที่ไหนเป็นบ้านได้นานสำหรับเลซี่ \"สปาร์ก\" แพกซ์ตัน จากการที่ต้องโตมากับการเดินทางไปมาระหว่างฐานทัพกับพ่อของเธอซึ่งเป็นวิศวกรการสื่อสารทำให้เธอรอบรู้, ปรับตัวได้เก่งและมีทักษะในการจับทิศทางรูปแบบ ต่อมาสปาร์กเองก็ได้พิสูจน์ฝีมือให้เห็นว่าเธอมีความสามารถในการควบคุมยานเกราะมากพอๆกับการใช้อุปกรณ์หาข่าว เธอนำหน่วยรบด้วยไหวพริบและไม่เคยเสี่ยงพลรถถังโดยไม่จำเป็น เมื่อเขต 3 ตั้งหน่วยเพื่อสกัดกั้นการส่งสัญญาณของสถาปนิก สปาร์กก็เป็นตัวเลือกแรกที่จะมาบัญชาการหน่วยดังกล่าว เธอเรียกภารกิจแรกของเธอว่า ปฏิบัติการมีดพับ และนั่นก็กลายเป็นชื่อของหน่วยที่เธอควบคุม"
+
+msgid "notrecruitedtankman/fr_spark/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/fr_spark/label"
+msgstr "สัญญาณมืด"
+
 msgid "notrecruitedtankman/freeSkillsTitle"
 msgstr "ความสามารถศูนย์"
 
@@ -6709,6 +6712,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/girls_und_panzer_erwin/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/desc"
+msgstr "โฮชิโนะเป็นพลปืนที่มีความสามารถในการกำจัดข้าศึกด้วยรอยยิ้มอีกทั้งยังเป็นนักแข่งเลือดร้อนในยามว่างอีกด้วย "
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/girls_und_panzer_kei/desc"
 msgstr "ด้วยบุคลิคที่ชอบเข้าสังคมและนิยมการเล่นอย่างยุติธรรม Kei นั้นก็เป็นผู้การที่ชอบการเล่นแต่ก็มีทักษะของทีม Sensha-Dō ของโรงเรียนมัธยมมหาวิทยาลัย Saunders ตัวเธอเองถือเป็นบุคคลสำคัญของทีมและช่วยให้เพื่อนร่วมทีมรู้ว่าชัยชนะนั้นดียิ่งขึ้นถ้าสนุกไปด้วยกัน"
 
@@ -6716,6 +6728,15 @@ msgid "notrecruitedtankman/girls_und_panzer_kei/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_kei/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/desc"
+msgstr "ผู้การที่ไปไหนไปกันของทีมลีโอพอนซังและพลวิทยุที่ใจเย็นเสมอแม้ในการรบที่ร้อนแรง"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_naomi/desc"
@@ -6752,6 +6773,24 @@ msgid "notrecruitedtankman/girls_und_panzer_saunders/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_saunders/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/desc"
+msgstr "ซูซูกิอาจจะเป็นคนเรียบร้อยแต่กระสุนที่เธอบรรจุเข้าปืนนั้นยิงข้าศึกได้อย่างหนักหน่วง"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/desc"
+msgstr "คุณสามารถบอกให้สึชิยะพยายามไม่ดริฟท์แต่อย่าหวังว่าเธอจะฟัง"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/howToGet"
@@ -6935,6 +6974,15 @@ msgid "notrecruitedtankman/lunar26_commander/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/lunar26_commander/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/desc"
+msgstr "วิศวกรชื่อดังซึ่งกลายเป็นผู้การรถถังอีมิล เดียเชงโกนั้นคุ้นเคยกับการเปิดฉากยิงรถถังข้าศึกพอๆกับการเปิดห้องเครื่องยนต์เพื่อเพิ่มส่วนยกระดับเข้าไป เขาคือคนหัวรั้นที่เหมือนจะกลายเป็นตำนานในค่ายทหาร คนของเขาสาบานว่าไม่เคยเห็นเขาเข้านอน อีมิลก็รู้เกี่ยวกับข่าวลือเหล่านี้และพอใจที่จะไม่ยืนยันหรือปฏิเสธข่าวลือดกังล่าว เขาเป็นคนที่ชอบสิ่งที่ไม่ธรรมดา เขาจะเป็นคนสุดท้ายที่จะขังขวางจินตนาการของใครก็ตาม แน่นอนว่าเมื่อเขาไม่ได้พยายามวางแผนอันบ้าคลั่งครั้งต่อไปของเรา เขาก็จะมาขึ้นร่างแบบตัวอัดอากาศเทอร์โบที่ที่เขานึกขึ้นมาเองซึ่งดูแล้วไม่น่าจะทำงานได้...หรือนั่นก็เป็นสิ่งที่ทำให้รู้สึกเมื่อแรกเห็น"
+
+msgid "notrecruitedtankman/mustached_engineer/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/ny19men/desc"
@@ -11616,6 +11664,12 @@ msgstr "เวลาระหว่างการยิงกระสุนน
 
 msgid "tank_params/desc/coincidenceElectromechanicalSightDuration"
 msgstr "ช่วงเวลาของผลของศูนย์เล็งกลไกไฟฟ้าภาพเหลื่อมซ้อนหลังเปิดใช้งาน"
+
+msgid "tank_params/desc/combatThrottleCooldown"
+msgstr "เวลาที่ต้องใช้ก่อนคันเร่งจะถูกใช้อีกครั้งหลังจากใช้ไปแล้ว"
+
+msgid "tank_params/desc/combatThrottleDuration"
+msgstr "เวลาผลใช้งานของคันเร่งหลังจากสั่งใช้งาน"
 
 msgid "tank_params/desc/concentrationModeCooldown"
 msgstr "เวลาที่ต้องใช้ก่อนตัวปรับเสถียรจะเปิดอีกครั้งหลังจากใช้ไปแล้ว"

@@ -3070,7 +3070,7 @@
                   id: M,
                   itemInstalledSetupIdx: y,
                   isMountedMoreThanOne: I,
-                  contextMenuDisabled: v,
+                  contextMenuDisabled: v || z,
                   isSetupSwitching: s,
                 };
               return i().createElement(

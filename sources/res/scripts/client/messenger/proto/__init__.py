@@ -1,4 +1,6 @@
+from __future__ import absolute_import
 import weakref
+from future.utils import viewitems, viewvalues
 from helpers.ro_property import ROPropertyMeta
 from messenger.m_constants import PROTO_TYPE, PROTO_TYPE_NAMES
 from messenger.proto.bw import BWProtoPlugin
@@ -10,6 +12,7 @@ from messenger.proto.migration import MigrationPlugin
 from messenger.proto.migration.MigrationServerSettings import MigrationServerSettings
 from messenger.proto.xmpp import XmppPlugin, XmppServerSettings
 from messenger.proto.xmpp.xmpp_constants import XMPP_MUC_CHANNEL_TYPE
+from py2to3.patched_future import with_metaclass
 __all__ = (b'BWProtoPlugin', b'BWProtoPlugin_chat2', b'XmppPlugin', b'MigrationPlugin')
 _SUPPORTED_PROTO_PLUGINS = {(PROTO_TYPE.BW): (BWProtoPlugin()), 
    (PROTO_TYPE.BW_CHAT2): (BWProtoPlugin_chat2()), 
@@ -20,9 +23,8 @@ _SUPPORTED_PROTO_SETTINGS = {(PROTO_TYPE.BW): (BWServerSettings()),
    (PROTO_TYPE.XMPP): (XmppServerSettings()), 
    (PROTO_TYPE.MIGRATION): (MigrationServerSettings())}
 
-class ProtoPluginsDecorator(IProtoPlugin):
-    __metaclass__ = ROPropertyMeta
-    __readonly__ = {PROTO_TYPE_NAMES[k]: v for k, v in _SUPPORTED_PROTO_PLUGINS.iteritems()}
+class ProtoPluginsDecorator(with_metaclass(ROPropertyMeta, IProtoPlugin)):
+    __readonly__ = {PROTO_TYPE_NAMES[k]: v for k, v in viewitems(_SUPPORTED_PROTO_PLUGINS)}
 
     def __repr__(self):
         return (b'ProtoPluginsDecorator(id=0x{0:08X}, ro={1!r:s})').format(id(self), self.__readonly__.keys())
@@ -48,41 +50,40 @@ class ProtoPluginsDecorator(IProtoPlugin):
         return
 
     def init(self):
-        for plugin in self.__readonly__.itervalues():
+        for plugin in viewvalues(self.__readonly__):
             plugin.init()
 
         return
 
     def clear(self):
-        for plugin in self.__readonly__.itervalues():
+        for plugin in viewvalues(self.__readonly__):
             plugin.clear()
 
         return
 
     def _invoke(self, method, *args):
         settings = ServerSettings.__readonly__
-        for protoName, plugin in self.__readonly__.iteritems():
+        for protoName, plugin in viewitems(self.__readonly__):
             if protoName in settings and settings[protoName].isEnabled():
                 getattr(plugin, method)(*args)
 
         return
 
 
-class ServerSettings(object):
-    __metaclass__ = ROPropertyMeta
-    __readonly__ = {PROTO_TYPE_NAMES[k]: v for k, v in _SUPPORTED_PROTO_SETTINGS.iteritems()}
+class ServerSettings(with_metaclass(ROPropertyMeta, object)):
+    __readonly__ = {PROTO_TYPE_NAMES[k]: v for k, v in viewitems(_SUPPORTED_PROTO_SETTINGS)}
 
     def __repr__(self):
         return (b'ServerSettings(id=0x{0:08X}, ro={1!r:s})').format(id(self), self.__readonly__.keys())
 
     def update(self, data):
-        for settings in self.__readonly__.itervalues():
+        for settings in viewvalues(self.__readonly__):
             settings.update(data)
 
         return
 
     def clear(self):
-        for settings in self.__readonly__.itervalues():
+        for settings in viewvalues(self.__readonly__):
             settings.clear()
 
         return

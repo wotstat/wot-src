@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "เวลาพักใช้: {{cooldown}} วิ"
+
+msgid "ability/miriumCost"
+msgstr "ค่ามิเรียมที่ตั้งใช้ในการรบ: {{value}}"
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "ในระหว่างการใช้:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "พลังเสริมไม่ต้องสั่งใช้ในการรบ"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "ผ่านความยากปกติเพื่อปลดล็อคแบบยากและเข้าถึงระบบพลังแปรปรวนผสม"
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "พลังแปรปรวนผสมไม่มีให้"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "เพิ่มประสิทธิภาพในการรบและส่งข้ามผ่านห้วงต่างๆแม้ว่าพาหนะของคุณจะถูกทำลาย"
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "เมื่อได้รับ:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "พลังแปรปรวน"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "พลังแปรปรวนเสียงสะท้อน"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "พลังแปรปรวนเก็บ"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "พลังแปรปรวนปกติ"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "พลังแปรปรวนลับ"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "ยึดได้จากเสบียงเชลยเท่านั้น"
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "ไม่มีการผสม"
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "ไม่นับเข้าในการได้รับเหรียญผู้สะสมพลังแปรปรวน"
+
+msgid "bannerTooltip/available"
+msgstr "กิจกรรมมีให้ %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "รูปแบบเกม %(mode) คลิกเพื่อสำรวจ"
+
+msgid "bannerTooltip/description"
+msgstr "รูปแบบ PvE พิเศษที่จะพาคุณลึกเข้าไปยังโลกอันลึกลับของโครงการบาบิลอน มาปราบพยศยานเกราะเฉพาะเจ็ดคันระหว่างที่คุณต่อสู้เหล่าพลังความมืดกัน รางวัลเฉพาะและอื่นๆอีกมากกำลังรอคุณ"
+
+msgid "bannerTooltip/header"
+msgstr "บาบิลอน: หอคอยมืด"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "สมรรถนะคอมพิวเตอร์ของคุณนั้นไม่เพียงพอสำหรับรูปแบบนี้ คุณอาจจะพบปัญหาทางเทคนิคกับกราฟฟิคและการเคลื่อนที่ของพาหนะ และเป็นไปได้ที่โปรแกรมลูกข่ายเกมจะล่ม"
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองลดคุณภาพกราฟฟิคในการตั้งค่าลง"
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "สมรรถนะต่ำ"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "สมรรถนะอาจจะต่ำลง"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "คุณเป็นเพื่อนกันอยู่แล้ว"
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "กำลังรอการยืนยันคำขอเป็นเพื่อน"
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "ปลดผู้เล่นจากรายชื่อกีดกันของคุณ"
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "เพิ่มเข้ารายชื่อเพื่อน"
+
+msgid "battleResult/interaction/menu"
+msgstr "คลิกเพื่อเปิดรายการโต้ตอบกับผู้เล่นคนนี้"
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "เพิ่มเข้าหมวดรถถัง"
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "ผู้เล่นอยู่ในหมวดรถถังแล้ว"
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "ส่งคำเชิญแล้ว"
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "มีเพียงผู้การหมวดรถถังเท่านั้นที่จะเชิญผู้เล่นเข้าหมวดรถถังได้"
+
+msgid "battleResult/secretReward/header"
+msgstr "รางวัลลับ"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "คุณจะได้รับรางวัลพิเศษซึ่งจะขึ้นกับการตัดสินใจของคุณเมื่อจบกิจกรรม"
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "รางวัลกิจกรรมเฉพาะ"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "ช่วงพัก: %(cooldownSeconds)s วิ"
+
+msgid "consumables/params/usageCost"
+msgstr "ค่า Mirium: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} มีให้ถึง {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "รางวัล:"
+
+msgid "dailyQuests/status"
+msgstr "ภารกิจประจำวันใหม่ใน {{icon}}{{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "มอบหมายสมาชิกพลรถถังกิจกรรมมีเสียงทั้งสี่คน (%(crew_members_names)s) เข้าประจำพาหนะใดก็ได้ในโรงรถของคุณ (ต้องมีหนึ่งคนเป็นผู้การ) เพื่อเปิดใช้การสนทนาแปรผันของทีมระหว่างการรบ\nในพาหนะที่มีห้าหรือหกบทบาท บทที่เหลือจะสามารถเติมด้วยสมาชิกพลรถถังคนอื่นๆก็ได้"
+
+msgid "groupVoiceover/header"
+msgstr "การสนทนาแปรผันของทีม"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "ทำการเลือกเป้าหมายสำหรับการปลดล็อคพาหนะคันนี้แล้ว มาดูที่เงื่อนไขได้ที่มุมขวาบนของหน้าจอ"
+
+msgid "hangar/objectiveBtn/header"
+msgstr "เลือกเป้าหมายแล้ว"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "เลือกพาหหนะที่มีให้เพื่อออกรบ"
+
+msgid "hangar/startBtn/lock/header"
+msgstr "ไม่มีให้"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "การรบในระดับความยากที่เลือกเอาไว้ไม่มีให้ชั่วคราวอันเนื่องด้วยเหตุทางเทคนิค"
+
+msgid "hangar/startBtn/offline/header"
+msgstr "ไม่มีให้"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "รอจนกว่าหมวดรถถังจะกลับจากการรบครั้งก่อนเพื่อเข้าการรบครั้งใหม่"
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "ไม่มีให้"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "ความยากไม่พอสำหรับหมวดรถถัง"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "ไม่มีให้"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "พลรถถังเฉพาะสี่คน"
+
+msgid "hw_bonus_crew_100/header"
+msgstr "พลรถถังเฉพาะแบบเต็ม"
+
+msgid "keyCard/body"
+msgstr "คลิกเพื่อดูตัวเลือกที่มีในการหาสกุลเงินในเกม"
+
+msgid "keys/accrued"
+msgstr "ได้รับ:"
+
+msgid "keys/battles"
+msgstr "• ในการรบกิจกรรม"
+
+msgid "keys/body"
+msgstr "สกุลเงินเฉพาะใช้ในการก้าวหน้าผ่านกิจกรรมบาบิลอน: หอคอยมืดและรับสิ่งของที่มีค่ารวมไปถึงรางวัลกิจกรรมหลัก สามารถได้รับในการรบกิจกรรมและซื้อเป็นชุดสินค้า ทำลายพาหนะข้าศึกในการรบบาบิลอน: หอคอยมืดเพื่อสะสมสสารนี้ให้มากที่สุดเท่าที่จะทำได้แล้วหากุญแจมาใช้"
+
+msgid "keys/boss"
+msgstr "• ทำลายหัวหน้าใหญ่ได้:"
+
+msgid "keys/bottom"
+msgstr "หลังจากกิจกรรมจบลง (%(date)s) กุญแจที่ไม่ได้ใช้ของคุณจะถูกลบออกไป"
+
+msgid "keys/bundles"
+msgstr "• ซื้อจากชุดสินค้ากิจกรรม"
+
+msgid "keys/daily"
+msgstr "• ภารกิจพาหนะประจำวัน:"
+
+msgid "keys/effective"
+msgstr "• ประสิทธิภาพในการรบ"
+
+msgid "keys/gold"
+msgstr "• ซื้อได้ด้วยทอง"
+
+msgid "keys/header"
+msgstr "กุญแจถอดรหัส"
+
+msgid "keys/howToEarn"
+msgstr "วิธีการหา"
+
+msgid "keys/howToUse"
+msgstr "วิธีการใช้"
+
+msgid "keys/howToUseDescr"
+msgstr "ใช้กุญแจในการถอดรหัสบันทึก, ปลดล็อคเป้าหมายใหม่และก้าวหน้าไปยังรางวัลกิจกรรมหลัก คุณยังสามารถใช้กุญแจเพื่อข้ามเป้าหมายและไปยังรางวัลเร็วขึ้น"
+
+msgid "keys/inStock"
+msgstr "มีให้"
+
+msgid "keys/secret"
+msgstr "• รางวัลลับ:"
+
+msgid "metaWidget/body"
+msgstr "คลิกเพื่อดูเป้าหมายกิจกรรมและรางวัลทั้งหมด"
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "ผ่านเงื่อนไขการรบของบันทึกนี้เพื่อทำการถอดรหัสมัน ส่วนนี้ไม่สามารถข้ามได้"
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "ไม่มีการถอดรหัสให้"
+
+msgid "metaWidget/header"
+msgstr "เส้นทางรางวัล"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "คลิกเพื่อเลือกว่าเรื่องราวจะจบอย่างไร การตัดสินใจโดยรวมของชุมชนจะมีผลกับเรื่องราวของกิจกรรมที่จะตามมา โปรดคอยติดตามเวบท่าเกมสำหรับข่าวใหม่"
+
+msgid "missionTooltip/bottom"
+msgstr "ถอดรหัสบันทึกทั้งหมด (บางเป้าหมายข้ามได้) เพื่อไปยังรางวัลหลักก่อนกิจกรรมจบลงใน %(date)s"
+
+msgid "missionTooltip/completed"
+msgstr "ผ่าน %(current)s เป้าหมายแล้ว ได้รับรางวัล"
+
+msgid "missionTooltip/count"
+msgstr "เป้าหมาย %(current)s จาก %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "ถอดรหัส"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "ผ่านเป้าหมายเพื่อทำการถอดรหัส"
+
+msgid "missionTooltip/kingReward"
+msgstr "รางวัลกิจกรรมหลัก"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "ได้รับรางวัลกิจกรรมหลักแล้ว"
+
+msgid "missionTooltip/received"
+msgstr "บรรลุเป้าหมาย %(current)s แล้ว แต่ม้วนเทปยังไม่ได้ถอดรหัส"
+
+msgid "missionTooltip/rewards"
+msgstr "ผ่านเป้าหมายเพื่อรับรางวัล"
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "ถอดรหัสบันทึกเพื่อรับรางวัล"
+
+msgid "missionTooltip/skip"
+msgstr "ข้าม"
+
+msgid "shopWidget/body"
+msgstr "คลิกเพื่อเปิดส่วนพิเศษของร้านค้าในเกมพร้อมด้วยสิ่งของกิจกรรมเฉพาะ"
+
+msgid "shopWidget/header"
+msgstr "ชุดสินค้ากิจกรรม"
+
+msgid "teamList/actions/body"
+msgstr "การดำเนินการด่วนสำหรับการสร้างหมวดรถถังและเพิ่ม/ลบเพื่อน"
+
+msgid "teamList/actions/header"
+msgstr "การดำเนินการด่วน"
+
+msgid "teamList/anomalies/header"
+msgstr "พลังแปรปรวนที่กำลังเกิดอยู่"
+
+msgid "teamList/bossDamage/body"
+msgstr "เรียงตามความเสียหายที่ทำในห้วง 4 (การสู้กับหัวหน้า) เท่านั้น\nความเสียหายนี้ไม่ได้นับเข้ากับรางวัลหลักถ้าทีมเอาชนะหัวหน้าไม่ได้"
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "ความเสียหายนี้ไม่ได้นับเข้ากับรางวัลหลักถ้าทีมเอาชนะหัวหน้าไม่ได้"
+
+msgid "teamList/bossDamage/header"
+msgstr "ความเสียหายที่ทำให้การต่อสู้กับหัวหน้า"
+
+msgid "teamList/damage/body"
+msgstr "เรียงตามความเสียหายที่ทำให้ห้วง 1-3"
+
+msgid "teamList/damage/header"
+msgstr "ความเสียหายที่ทำได้"
+
+msgid "teamList/keys/body"
+msgstr "จัดเรียงตามกุญแจที่ได้รับ (ค่าที่แสดงนั้นไม่นับกุญแจที่ได้รับจากการปฏิบัติภารกิจประจำวันสำเร็จ)"
+
+msgid "teamList/keys/header"
+msgstr "กุญแจที่หาได้"
+
+msgid "teamList/kills/body"
+msgstr "เรียงตามพาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "teamList/kills/header"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "teamList/name/header"
+msgstr "ผู้เล่น"
+
+msgid "teamList/place/body"
+msgstr "เรียงตามตำแหน่งในทีม"
+
+msgid "teamList/place/header"
+msgstr "ตำแหน่งในทีม"
+
+msgid "teamList/squad/header"
+msgstr "หมวดรถถังเป็นหน่วยรบสำหรับผู้เล่นร่วมมือกันในการรบ"
+
+msgid "teamList/vehicle/body"
+msgstr "เรียงตามชนิดและชื่อพาหนะ"
+
+msgid "teamList/vehicle/header"
+msgstr "พาหนะ"
+
+msgid "teamList/warned/body"
+msgstr "ผู้เล่นนี้ถูกลงโทษจากการนิ่งเฉยและการหนีการรบและจะไม่ได้รับรางวัลใดสำหรับการรบนี้"
+
+msgid "teamList/warned/header"
+msgstr "เตือน"
+
+msgid "teamList/warned/self/body"
+msgstr "คุณถูกลงโทษจากการนิ่งเฉยและการหนีการรบและจะไม่ได้รับรางวัลใดสำหรับการรบนี้"
+
+msgid "teamList/warned/self/header"
+msgstr "เตือน"
+
+msgid "vehicle/bonusTitle"
+msgstr "รายได้"
+
+msgid "vehicle/eventBonus"
+msgstr "กุญแจโบนัสมีให้สำหรับการผ่านภารกิจประจำวันด้วยพาหนะนี้"
+
+msgid "vehicle/state/default/title"
+msgstr "พร้อมรบ"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "อยู่ในการรบ"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "ในหน่วยยุทธวิธี"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "อยู่ในคิว"
+
+msgid "vehicle/state/locked/title"
+msgstr "ล็อคไว้"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "ซองกระสุน 5 นัดที่จะทำให้คุณทำความเสียหายมหาศาลได้อย่างรวดเร็ว"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "ซองกระสุน"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "ระบบกระสุน 3 นัดที่ลดเวลาบรรจุของกระสุนเติมอัตโนมัติ"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "ปืนเติมกระสุนอัตโนมัติปรับปรุง"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "ปืนมีระบบยิงต่อเนื่อง"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "ปืนใหญ่อัตโนมัติ"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "เพิ่มโอกาสในการทำความเสียหายร้ายแรงกับชิ้นส่วนพาหนะข้าศึก"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "ปืนทำความเสียหายร้ายแรง"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "ปืนกระสุนระเบิดแรงสูงที่มีระบบป้อนกระสุนอัตโนมัติ 2 นัด"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "ปืนเติมกระสุนอัตโนมัติ"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "ทำให้คุณเลือกระหว่างการยิงปกติกับการยิงต่อเนื่อง"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "ปืนคู่"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "ทำให้ชิ้นส่วนพาหนะของคุณได้รับการป้องกันโดยสมบูรณ์จากความเสียหายร้ายแรง"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "การต้านทานความเสียหายร้ายแรง"

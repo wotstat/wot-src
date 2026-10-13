@@ -1,0 +1,9 @@
+class HW_RADIAL_MENU_CONSTS(object):
+    HW_COLLECTOR = b'HWCollector'
+    HW_COLLECTOR_HELP = b'HWCollectorHelp'
+    HW_CAMP = b'HWCamp'
+    HW_CAMP_HELP = b'HWCampHelp'
+    HW_CANCEL = b'HWNo'
+    TARGET_STATE_HW_COLLECTOR = b'hwCollector'
+    TARGET_STATE_HW_CAMP = b'hwCamp'
+    WHITE_TARGET_STATES = [TARGET_STATE_HW_COLLECTOR, TARGET_STATE_HW_CAMP]

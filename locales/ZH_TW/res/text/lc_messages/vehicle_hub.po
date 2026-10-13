@@ -10,6 +10,9 @@ msgstr "逐一射擊彈匣中的數發砲彈，每一發會隨著時間自動裝
 msgid "abilities/common/description/autoShootGun"
 msgstr "快速發射完彈匣中的砲彈，藉此在短時間內造成較高傷害，但也犧牲了穿透力與準度。在近距離戰鬥時最為高效。"
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "啟用油門可暫時提高引擎功率、速度與操控性，同時維持可靠的炮管操控性。這讓此車輛能採取敏捷且機動性高的玩法，且不影響戰鬥效率。"
+
 msgid "abilities/common/description/damageMutable"
 msgstr "發射星盤彈，在 50 公尺內造成的傷害最高。砲彈傷害隨距離降低，因此在近距離戰鬥時最為高效。"
 
@@ -61,6 +64,9 @@ msgstr "改良的自動再裝填火炮"
 msgid "abilities/common/name/autoShootGun"
 msgstr "自動火炮"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "戰鬥油門"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "深膛線炮管"
 
@@ -102,6 +108,15 @@ msgstr "渦輪模式"
 
 msgid "abilities/common/name/twinGun"
 msgstr "齊射模式"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "提升車輛操控性，且不影響炮管操控性。"
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "此系統讓炮管能持續射擊，同時調控射擊時炮管產生的熱能。"
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "炮管具有特殊裝置，可在射擊前修改部分砲彈參數。"
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "保持靜止或緩慢移動，可累積準度等級來提升下一發砲彈的準度。\n當達到最高準度等級時，您的車輛將具有不錯的炮管穩定性，移動時或炮塔/車身迴轉時的擴散度亦會降低。"
@@ -355,6 +370,15 @@ msgstr "可在犧牲裝填時間的情況下，同時發射兩門炮管。"
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "特殊機制，可在一小段時間期間提高引擎功率、加速度與最高速度。"
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "啟用油門可暫時提高引擎功率、速度與操控性，同時維持可靠的炮管操控性。這讓此車輛能採取敏捷且機動性高的玩法，且不影響戰鬥效率。"
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "炮管可持續射擊而不需要進行裝填。每次發射砲彈都會產生熱能：炮管溫度越高，部分受影響參數的變動就越顯著。持續射擊將導致炮管過熱，直到降溫前，炮管將無法再次射擊。"
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "此車輛的炮管具有特殊裝置，可在射擊前修改部分砲彈參數。武裝配置會顯示受切換射擊模式影響的參數。"
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "保持靜止或以低於特定數值的速度移動，可讓您校正車輛的「類比彈道計算裝置」並累積準度等級，提高您下一發砲彈的準度。若您超過速限，您的準度等級累積進度將暫停，直到您降低速度。當達到最高準度等級時，您的車輛將具有不錯的炮管穩定性，移動時或炮塔/車身迴轉時的擴散度亦會降低。此效果會在射擊後移除。"
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "此機械改裝可在一小段時間內顯著提高車輛的加速度、引擎功率，以及最高前進與後退速度，讓您快速因應敵人攻擊，展現動態機動來讓對手措手不及。保持高速移動可加快此機制的冷卻速度。"
 
 msgid "characteristics/abilities/special/notes"
-msgstr "顯示的所有數值均為此車輛的可能最大值。可以藉由裝備、技術指南與消耗品變更這些數值，但此處未反映相關變化。"
+msgstr "顯示的所有數值均為此車輛的可能最佳數值。可以藉由裝備、技術指南與消耗品變更這些數值，但此處未反映相關變化。"
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "可校準 AP 彈"

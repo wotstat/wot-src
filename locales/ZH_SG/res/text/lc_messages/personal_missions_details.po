@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "先锋-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "对命中您的敌方战车造成%(goal)s血量伤害"
+msgstr "对伤害您的敌方战车造成%(goal)s点伤害"
 
 msgid "pm3_10_1_14_short"
 msgstr "先锋-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "伏击-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "造成%(goal)s血量伤害，在造成伤害时保持不被侦察"
+msgstr "在不被敌人侦察到的情况下造成%(goal)s点伤害"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "通过射击摧毁一辆敌方重型坦克，对其造成至少%(damageDealt)s血量伤害"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "伏击-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "对敌方战车造成伤害%(hits)s次，造成伤害时未侦察到这些敌方战车"
+msgstr "对敌方战车造成伤害%(hits)s次，造成伤害时您未侦察到这些敌方战车"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "摧毁%(goal)s辆%(uniqueGoal)s种不同类型的敌方战车"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "支援-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "通过侦察，协助队友对敌方战车造成%(goal)s血量伤害。在造成伤害时保持不被侦察"
+msgstr "通过侦察，协助队友对敌方战车造成%(goal)s点伤害。在造成伤害时保持不被侦察"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "震晕敌方重型坦克%(goal)s次"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "先锋-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "对命中您的敌方战车造成%(goal)s血量伤害"
+msgstr "对伤害您的敌方战车造成%(goal)s点伤害"
 
 msgid "pm3_8_1_9_short"
 msgstr "先锋-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "伏击-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "造成%(goal)s血量伤害，在造成伤害时保持不被侦察"
+msgstr "在不被敌人侦察到的情况下造成%(goal)s点伤害"
 
 msgid "pm3_8_2_9_short"
 msgstr "伏击-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "先锋-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "对命中您的敌方战车造成%(goal)s血量伤害"
+msgstr "对伤害您的敌方战车造成%(goal)s点伤害"
 
 msgid "pm3_9_1_14_short"
 msgstr "先锋-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "伏击-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "造成%(goal)s血量伤害，在造成伤害时保持不被侦察"
+msgstr "在不被敌人侦察到的情况下造成%(goal)s点伤害"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "摧毁一辆敌方战车，对其造成至少%(damageDealt)s血量伤害"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "伏击-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "对一辆敌方战车造成%(damageDealt)s血量伤害，造成伤害时未侦察到该敌方战车"
+msgstr "对敌方战车造成%(damageDealt)s点伤害，造成伤害时您未侦察到这些敌方战车"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "摧毁%(goal)s辆%(uniqueGoal)s种不同类型的敌方战车"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "支援-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "通过侦察，协助队友对敌方战车造成%(goal)s血量伤害。在造成伤害时保持不被侦察"
+msgstr "通过侦察，协助队友对敌方战车造成%(goal)s点伤害。在造成伤害时保持不被侦察"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "震晕敌方重型坦克总计%(goal)s秒。包含潜在震晕时长"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "支援-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "对一辆敌方战车造成%(damageDealt)s血量伤害，造成伤害时未侦察到该敌方战车"
+msgstr "对敌方战车造成%(damageDealt)s点伤害，造成伤害时您未侦察到这些敌方战车"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "摧毁%(goal)s辆敌方轻型坦克或自行火炮"

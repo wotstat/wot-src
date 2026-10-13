@@ -25,7 +25,7 @@ msgstr "了解！"
 msgid "autoOpenView/title"
 msgstr "入手した報酬"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "了解!"
 
 msgid "awardViews/footer/caption/attemptsLeft"
@@ -70,7 +70,7 @@ msgstr "2Dスタイル"
 msgid "bonuses/description/style3D"
 msgstr "3Dスタイル"
 
-msgid "bonuses/label/blueprints/nationalFragment/"
+msgid "bonuses/label/blueprints/nationalFragment"
 msgstr "設計図のピース (%(nation)s)"
 
 msgid "bonuses/label/blueprints/universalFragment"
@@ -205,16 +205,16 @@ msgstr "%(count)個"
 msgid "guaranteed/tooltip/count/third"
 msgstr "%(count)個"
 
-msgid "guaranteed/tooltip/description/count/"
-msgstr "%(count)開封すると"
+msgid "guaranteed/tooltip/description/count"
+msgstr "%(count)個開封すると"
 
-msgid "guaranteed/tooltip/description/item/"
+msgid "guaranteed/tooltip/description/item"
 msgstr "車輌"
 
-msgid "guaranteed/tooltip/description0/"
+msgid "guaranteed/tooltip/description0"
 msgstr "%(count)少なくとも%(item)が1輌ドロップします。それより前にドロップした場合、カウンターはリセットされます。"
 
-msgid "guaranteed/tooltip/description1/"
+msgid "guaranteed/tooltip/description1"
 msgstr "ドロップしうる車輌をすべてガレージに所有済みの場合は、代わりにゴールドを受け取ることができます。"
 
 msgid "guaranteedTitle/text"
@@ -242,7 +242,7 @@ msgid "infoPage/footer/description/compensation/default"
 msgstr "ボックスからドロップする可能性のある車輌をすべて所有済みの場合、次にボックスから車輌がドロップした際は、補償として車輌価格の全額に相当するゴールドを受け取ります。"
 
 msgid "infoPage/footer/description/guaranteed/default"
-msgstr "%(guaranteed)s個開封すると、Tier VIII～X車輌が最低でも1輌はドロップします。Tier VIII～X車輌が1輌もドロップしていない状態で%(guaranteed)s&zwnbsp;個目 (ボックスの種類によって変化) のボックスを開封すると、ガレージに所有していないTier VIII～X車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
+msgstr "ボックスを%(guaranteed)s&zwnbsp;個開封すると、Tier&nbsp;VIII～X車輌が最低でも1輌はドロップします。Tier&nbsp;VIII～X車輌が1輌もドロップしていない状態で%(guaranteed)s&zwnbsp;個目 (ボックスの種類によって変化) のボックスを開封すると、ガレージに所有していないTier&nbsp;VIII～X車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
 
 msgid "infoPage/footer/description/reroll/default"
 msgstr "ボックスからドロップした報酬に満足できない場合、再開封することで同じリストから別のアイテムを入手できる可能性があります。各ボックスには再開封できる回数に上限があります。"
@@ -280,22 +280,22 @@ msgstr "|"
 msgid "infoPage/rewards/percent"
 msgstr "%"
 
-msgid "multipleRewardView/footer/openNextButton/"
+msgid "multipleRewardView/footer/openNextButton"
 msgstr "さらに開封"
 
-msgid "multipleRewardView/header/subTitle/"
-msgstr "%(name)からドロップ（%(boxesCount)箱開封）"
+msgid "multipleRewardView/header/subTitle"
+msgstr "%(name)からドロップ (%(boxesCount)個開封)"
 
-msgid "multipleRewardView/header/title/"
+msgid "multipleRewardView/header/title"
 msgstr "入手した報酬"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "ボックスはゲーム内ショップから入手できます。"
 
-msgid "noBoxesView/getBoxes/"
+msgid "noBoxesView/getBoxes"
 msgstr "ショップへ"
 
-msgid "noBoxesView/goToButton/"
+msgid "noBoxesView/goToButton"
 msgstr "所有中のボックスへ"
 
 msgid "preview/backLabel"
@@ -397,13 +397,13 @@ msgstr "プレミアム車輌や貴重なアイテムを入手できるのは%(d
 msgid "serviceChannelMessages/statisticReset/server_error/text"
 msgstr "ボックス統計をリセットできません。時間をおいて再度お試しください。"
 
-msgid "singleRewardView/extraReward/text/"
+msgid "singleRewardView/extraReward/text"
 msgstr "その他の報酬"
 
-msgid "singleRewardView/footer/openNextButton/"
+msgid "singleRewardView/footer/openNextButton"
 msgstr "さらに開封"
 
-msgid "singleRewardView/header/title/"
+msgid "singleRewardView/header/title"
 msgstr "入手した報酬"
 
 msgid "singleRewardView/uniqueTankman"

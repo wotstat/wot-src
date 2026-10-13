@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "ลดการกระจายของกระสุนในช่วงการแล่นหรือการหมุนตัวถังและป้อมปืนอีก  {{@ class $highlightClass}}%(generalValue)s%%{{/}}"
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s ให้กับการกระจายของกระสุนในการแล่นขยับ\nและหมุนตัวถัง"
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "ลดการกระจาย\nของกระสุน"
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "ลดการกระจายกระสุนระหว่างแล่นและระหว่างหมุนตัวถังกับป้อมปืน"
+
+msgid "buffs/buffAccuracy/header"
+msgstr "พลซุ่มยิง"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "ทำให้พาหนะของคุณ{{@ class $highlightClass}}เป็นอมตะ{{/}}จาก{{@ class $highlightClass}}ความเสียหายระเบิด{{/}}ของเม่นและเม่นใหญ่โดยสิ้นเชิง\nพาหนะจะยังได้รับความเสียหายจากการพุ่งชนของเม่นเมื่อโดนชน"
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "ทำให้พาหนะของคุณเป็นอมตะ\nจากความเสียหายระเบิดของเม่น"
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "ป้องกันพาหนะของคุณจากความเสียหายระเบิดของเม่น"
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "ทำให้พาหนะของคุณเป็นอมตะจากความเสียหายระเบิดของเม่นและเม่นใหญ่โดยสิ้นเชิง\nพาหนะจะยังได้รับความเสียหายจากการพุ่งชนของเม่นเมื่อโดนชน"
+
+msgid "buffs/buffBomberResist/header"
+msgstr "อมตะจากการระเบิด"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "ลบช่วงแกว่งความเสียหาย{{@ class $highlightClass}}±25%{{/}} ที่เป็นไปได้ทำให้การยิงกระสุนคาดเดาได้มากขึ้น"
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "กระสุนไม่มีช่วงแกว่ง\nความเสียหาย ±25%%"
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "กระสุนไม่มีช่วงแกว่งความเสียหาย ±25%"
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "ลบช่วงแกว่งความเสียหาย ±25% ที่เป็นไปได้ทำให้การยิงกระสุนคาดเดาได้มากขึ้น"
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "ความเสียหายควบคุม"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "ลดความเสียหายที่ได้รับ* (รวมถึงจากกระสุน, ไฟไหม้, การพุ่งชน, เขตความเสียหาย, ช่วงการกัดกร่อน, ชิ้นส่วนเสียหาย, อื่นๆ) ลงอีก {{@ class $highlightClass}}%(mitigation)s%%{{/}}\n*ไม่ใช้กับความเสียหายตกจากที่สูงและช่วงยิงประหาร"
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s ให้ความเสียหายที่ได้รับ"
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "ลดความเสียหายที่ได้รับ"
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "ลดความเสียหายที่ได้รับ* (รวมถึงจากกระสุน, ไฟไหม้, การพุ่งชน, เขตความเสียหาย, ช่วงการกัดกร่อน, ชิ้นส่วนเสียหาย, อื่นๆ) ลง\n*ไม่ใช้กับความเสียหายตกจากที่สูงและช่วงยิงประหาร"
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "การซับความเสียหาย"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "เพิ่มโอกาส {{@ class $highlightClass}}%(chance)s%%{{/}} ในการคืน {{@ class $highlightClass}}%(heal)s{{/}} ของความทนทานพาหนะคุณเมื่อทำความเสียหายข้าศึกด้วยการยิงกระสุนใส่"
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s ให้กับโอกาสในการคืนความทนทาน\nเมื่อทำความเสียหายด้วยการยิง"
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "สามารถคืนความทนทาน\nเมื่อทำความเสียหายด้วยการยิงกระสุนใส่ข้าศึก"
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "ทำให้มีโอกาสคืนความทนทานพาหนะของคุณด้วยการทำความเสียหายพาหนะข้าศึกด้วยการยิงใส่"
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "ดูดเลือด"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "เพิ่มความทนทานพาหนะของคุณอีก {{@ class $highlightClass}}%(health)s%%{{/}}"
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s ให้กับความทนทานพาหนะ"
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "เพิ่ม\nความทนทานพาหนะคุณ"
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "เพิ่มความทนทานของพาหนะ"
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "ความทนทาน"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "เพิ่มโอกาสในการทำให้พาหนะข้าศึกไฟไหม้อีก {{@ class $highlightClass}}%(chance)s%%{{/}} เมื่อทำความเสียหายด้วยการยิงใส่ข้าศึก"
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s ให้กับโอกาสที่จะทำให้\nพาหนะข้าศึกไฟไหม้"
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "เพิ่มโอกาส\nทำให้เกิดไฟไหม้"
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "เพิ่มโอกาสในการทำให้พาหนะข้าศึกไฟไหม้เมื่อทำความเสียหายด้วยการยิงใส่ข้าศึก"
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "เข็มร้อน"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "เพิ่มความเสียหายที่ทำต่อพาหนะข้าศึกอีก {{@ class $highlightClass}}%(damageFactor)s%%{{/}}"
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s ให้ความเสียหายที่ทำได้"
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "เพิ่มความเสียหาย\nที่ทำได้"
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "เพิ่มความเสียหายที่ทำได้"
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "แกนเซรามิค"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "เพิ่มความเร็วการบรรจุอีก {{@ class $highlightClass}}%(reloadTime)s%%{{/}}"
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s ให้กับความเร็วการบรรจุ"
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "เพิ่มความเร็ว\nการบรรจุ"
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "เพิ่มความเร็วการบรรจุ"
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "ปืนกล"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "ค่อยๆคืนความทนทานพาหนะของคุณจนเต็มที่\nผลจะหยุดลงเมื่อได้รับความเสียหาย"
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "ค่อยๆคืนความทนทาน\nพาหนะของคุณจนเต็มที่"
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "คืน\nความทนทาน"
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "ค่อยๆคืนความทนทานพาหนะของคุณจนเต็มที่ ผลจะหยุดลงเมื่อได้รับความเสียหาย"
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "คืนพลัง"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "ทำการคลังเก็บมิเรียมของพาหนะในการรบ{{@ class $highlightClass}}ไม่จำกัด{{/}}"
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "ทำการคลังเก็บมิเรียมไม่จำกัด"
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "ทำการคลังเก็บมิเรียมไม่จำกัด"
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "ทำการคลังเก็บมิเรียมของพาหนะในการรบไม่จำกัด"
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "หน่วยเก็บไร้จำกัด"
+
+msgid "buffs/buffInspiration/body"
+msgstr "เพิ่มโบนัสประสิทธิภาพพลรถถังสำหรับสมาชิกพลรถถังทั้งหมดอีก {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}"
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "เพิ่มประสิทธิภาพ\nพลรถถัง"
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "เพิ่มประสิทธิภาพพลรถถัง"
+
+msgid "buffs/buffInspiration/header"
+msgstr "ปลุกใจ"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "ถ้าพาหนะข้าศึกยังมีความทนทานเหลือ {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} หรือน้อยกว่าหลังจากถูกยิงโดยกระสุนของคุณ พวกมันจะถูกทำลายโดยทันที\nพวกหัวหน้าจะไม่ได้สนผลเหล่านี้"
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "ข้าศึกมีความทนทาน %(value)s หน่วยหรือน้อยกว่า\nเมื่อถูกคุณยิงใส่จะถูกทำลายโดยทันที"
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "ข้าศึกมีความทนทานเหลือน้อยเมื่อถูกคุณยิงใส่จะถูกทำลายโดยทันที"
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "ถ้าพาหนะข้าศึกยังมีความทนทานเหลือหลังจากถูกยิงโดยกระสุนของคุณ พวกมันจะถูกทำลายโดยทันที\nพวกหัวหน้าจะไม่สนผลนี้"
+
+msgid "buffs/buffInstakill/header"
+msgstr "หน่วยกวาดล้าง"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "เพิ่มความเร็วเดินหน้าและถอยหลังสูงสุดของพาหนะ"
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "เพิ่มความเร็วเดินหน้า\nและถอยหลังสูงสุดของพาหนะ"
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "เพิ่มความเร็วเดินหน้าและถอยหลังสูงสุดของพาหนะ"
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "เพิ่มความเร็วเดินหน้าและถอยหลังสูงสุดของพาหนะ"
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "เร่งความเร็ว"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "เพิ่มจำนวนมิเรียมที่ได้รับจากการทำความเสียหายข้าศึกในการรบอีก {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}"
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s ให้มิเรียมที่ได้รับ\nจากข้าศึก"
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "เพิ่มมิเรียมที่ได้รับจากข้าศึก"
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "เพิ่มมิเรียมที่ได้รับจากการทำความเสียหายข้าศึกในการรบ"
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "การสกัดมิเรียม"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "เพิ่มพิกัดบรรทุกมิเรียมสูงสุดของพาหนะในการรบอีก {{@ class $highlightClass}}%(miriumAmount)s{{/}}"
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s ให้กับพิกัดบรรรทุกมิเรียมสูงสุด"
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "เพิ่มพิกัดบรรทุกมิเรียมสูงสุด"
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "เพิ่มพิกัดบรรทุกมิเรียมสูงสุดของพาหนะในการรบ"
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "หน่วยเก็บพิกัดสูง"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "มิเรียมทั้งหมดจะเก็บไว้เมื่อเกิดใหม่ถ้าพาหนะถูกทำลายในการรบ"
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "มิเรียมทั้งหมดจะเก็บไว้บนพาหนะ\nหลังเกิดใหม่"
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "เก็บรักษามิเรียมทั้งหมดหลังเกิดใหม่"
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "เก็บรักษามิเรียมทั้งหมดหลังเกิดใหม่"
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "ผู้รักษามิเรียม"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "ลดค่ามิเรียมของความสามารถรบในการรบอีก {{@ class $highlightClass}}%(cost)s%%{{/}}"
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s ให้ค่ามิเรียมของความสามารถ"
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "ลดค่ามิเรียมของความสามารถ"
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "ลดค่ามิเรียมของความสามารถรบในการรบอย่างมาก"
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "ประสิทธิภาพมิเรียม"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "คืน {{@ class $highlightClass}}%(refundAmount)s%%{{/}} ของค่ามิเรียมของความสามารถรบเมื่อใช้งาน"
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s ของมิเรียมที่คืนให้\nเมื่อใช้ความสามารถ"
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "คืนมิเรียมส่วนหนึ่งให้เมื่อใช้ความสามารถ"
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "คืนค่ามิเรียมเมื่อสั่งใช้ความสามารถรบ"
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "การคืนมิเรียม"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "เพิ่มกำลังเครื่องยนต์อีก {{@ class $highlightClass}}%(power)s%%{{/}}  และความเร็วการหมุนป้อมปืนอีก {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}"
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s ให้กับกำลังเครื่องยนต์"
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s ให้ความเร็วการหมุนป้อมปืน"
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "เพิ่มกำลังเครื่องยนต์\nและความเร็วการหมุนป้อมปืน"
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "เพิ่มกำลังเครื่องยนต์และความเร็วการหมุนป้อมปืน"
+
+msgid "buffs/buffMobility/header"
+msgstr "ความคล่องตัว"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "ทำให้ชิ้นส่วนพาหนะเป็นอมตะจากความเสียหายใดๆ"
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "ทำให้ชิ้นส่วนพาหนะเป็นอมตะ\nจากความเสียหายใดๆ"
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "ป้องกันชิ้นส่วน\nจากความเสียหาย"
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "ทำให้ชิ้นส่วนพาหนะเป็นอมตะจากความเสียหายใดๆ"
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "ชิ้นส่วนอมตะ"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "พลังแปรปรวนปกติของมาลาไคท์ เปิดใช้อยู่เสมอ"
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "เพิ่มการเจาะเกราะของกระสุนทั้งหมดอีก {{@ class $highlightClass}}%(shellPen)s%%{{/}}"
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s ให้การเจาะเกราะกระสุน"
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "เพิ่มการเจาะเกราะของกระสุนทั้งหมด"
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "เพิ่มการเจาะเกราะของกระสุนทั้งหมด"
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "กระสุนเจาะทะุล"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "กระสุนตัวเลือกทั้งหมดจะเก็บไว้เมื่อเกิดใหม่ถ้าพาหนะถูกทำลายในการรบ"
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "กระสุนตัวเลือกทั้งหมดจะเก็บไว้\nหลังเกิดใหม่"
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "เก็บกระสุนตัวเลือกทั้งหมดเอาไว้หลังเกิดใหม่"
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "กระสุนตัวเลือกทั้งหมดจะเก็บไว้เมื่อเกิดใหม่ถ้าพาหนะถูกทำลายในการรบ"
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "ผู้รักษากระสุน"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "เพิ่มจำนวนมิเรียมที่ได้รับในช่วงต้นของแต่ละช่วงใหม่หรือหลังจากการเกิดใหม่อีก {{@ class $highlightClass}}%(soulsBonus)s{{/}} เพิ่มการพิกัดบรรทุกมิเรียมสูงสุดของพาหนะในการรบอีก {{@ class $highlightClass}}%(miriumAmount)s{{/}}"
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s ให้กับมิเรียมที่ได้รับในช่วงใหม่\nหรือหลังเกิดใหม่"
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s ให้กับพิกัดบรรรทุกมิเรียมสูงสุด"
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "เพิ่มพิกัดบรรรทุกมิเรียมและจำนวนที่ได้รับในช่วงใหม่หรือหลังเกิดใหม่"
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "เพิ่มจำนวนมิเรียมที่ได้รับเมื่อเริ่มแต่ละช่วงใหม่หรือหลังเกิดใหม่ เพิ่มพิกัดบรรรทุกมิเรียมสูงสุดของพาหนะในการรบ"
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "คลังมิเรียม"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "เพิ่มช่วงเวลาเทอร์โบอีก {{@ class $highlightClass}}%(timeLength)s%%{{/}} และลดเวลาช่วงพักอีก {{@ class $highlightClass}}%(reloadTime)s วิ{{/}}"
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s ให้ช่วงเวลาเทอร์โบ"
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s วิให้ช่วงพักเทอร์โบ"
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "เพิ่มช่วงเวลาเทอร์โบและลดเวลาพักใช้"
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "เพิ่มช่วงเวลาเทอร์โบและลดเวลาพักใช้"
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "ตัวเร่งเทอร์โบ"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "ทำให้มีโอกาสในการทำความเสียหายระดับหนึ่งเมื่อทำการยิง:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} จะทำความเสียหาย {{@ class $highlightClass}}%(damage1)s%%{{/}} หน่วย\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} จะทำความเสียหาย {{@ class $highlightClass}}%(damage2)s%%{{/}} หน่วย\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} จะทำความเสียหาย  {{@ class $highlightClass}}%(damage3)s%%{{/}} หน่วย\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} จะทำความเสียหาย {{@ class $highlightClass}}%(damage4)s%%{{/}} หน่วย"
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "ความเสียหายกระสุนแกว่งจากต่ำ\nไปถึงสูงมาก"
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "ความเสียหายกระสุนแกว่งจากต่ำไปถึงสูงมาก"
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "ทำให้มีโอกาสทำความเสียหายต่ำกว่าปกติหรือสูงกว่าปกติมาก"
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "กระสุนควอนตัม"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "รายละเอียด"

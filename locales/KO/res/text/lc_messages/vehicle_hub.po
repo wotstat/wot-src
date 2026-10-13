@@ -10,6 +10,9 @@ msgstr "클립에 장전된 포탄을 한 발씩 발사합니다. 각 포탄은 
 msgid "abilities/common/description/autoShootGun"
 msgstr "포탄을 빠르게 연사하여 짧은 시간 동안 큰 피해를 주지만, 대신 관통력과 명중률이 낮습니다. 접근전에서 효과적입니다."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "출력 증폭기를 활성화하면 엔진 출력, 속력, 기동성, 주포 안정성이 일시적으로 향상됩니다. 해당 기능을 활용하여 교전 효율을 유지하며 민첩하고 역동적인 플레이를 펼쳐 보십시오."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "50m 거리에서 최대 피해를 기록하는 유성탄을 발사합니다. 거리가 멀어질수록 포탄 공격력이 감소하므로 접근전에서 효과적입니다."
 
@@ -61,6 +64,9 @@ msgstr "개량형 자동 재장전 주포"
 msgid "abilities/common/name/autoShootGun"
 msgstr "자동포"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "전투 출력 증폭기"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "강선 주포"
 
@@ -102,6 +108,15 @@ msgstr "터보 모드"
 
 msgid "abilities/common/name/twinGun"
 msgstr "일제 사격 모드"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "기동성이 향상됩니다. 주포 조작성에 불이익이 적용되지 않습니다."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "재장전 없이 연속으로 사격하고 포열 발생 시 열을 제어하는 시스템입니다."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "주포에 탑재된 특별 장치로 사격 전 일부 포탄 성능을 변경할 수 있습니다."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "정지 상태를 유지하거나 천천히 이동하면 다음 포탄의 명중률이 단계적으로 상승합니다.\n명중률 최고 단계에 도달하면 기동 또는 포탑/차체 회전 시 분산도가 감소하는 등 전차 주포 안정성이 준수한 수준으로 향상됩니다."
@@ -350,10 +365,19 @@ msgid "abilities/special/shortDescription/targetDesignator"
 msgstr "표식이 적용된 적이 발각된 상태로 유지되는 시간과 해당 적이 받는 피해량이 증가합니다. 또는 특별한 표식으로 적의 위치를 강조합니다."
 
 msgid "abilities/special/shortDescription/twinGun"
-msgstr "두 주포를 동시에 사격할 수 있습니다. 대신 재장전 시간이 증가합니다."
+msgstr "두 주포를 동시에 사격할 수 있지만, 재장전 시간이 증가합니다."
 
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "일시적으로 엔진 출력, 가속력, 최고 속력을 향상하는 특별 시스템입니다."
+
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "출력 증폭기를 활성화하면 엔진 출력, 속력, 기동성, 주포 안정성이 일시적으로 향상됩니다. 해당 기능을 활용하여 교전 효율을 유지하며 민첩하고 역동적인 플레이를 펼쳐 보십시오."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "해당 주포는 재장전 없이 연속으로 사격할 수 있습니다. 사격 시마다 열이 발생하며, 포열이 높아질수록 일부 성능의 편차가 커질 수 있습니다. 연속 사격으로 주포가 과열되면 냉각될 때까지 사격할 수 없는 상태가 됩니다."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "해당 전차의 주포에 장착된 특별 장치를 사용하여 사격 전 일부 포탄 성능을 변경할 수 있습니다. 사격 모드 전환 시 변경되는 성능은 구성에서 확인할 수 있습니다."
 
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "정지 상태를 유지하거나 일정 속력 이하로 이동하면 전차의 아날로그식 탄도 계산기가 보정됨에 따라 명중률 단계가 증가하여 다음 사격 명중률이 향상됩니다. 속력 제한을 초과하면 속력을 줄일 때까지 명중률 단계 상승이 중단됩니다. 명중률 최고 단계에 도달하면 기동 또는 포탑/차체 회전 시 분산도가 감소하는 등 전차 주포 안정성이 준수한 수준으로 향상됩니다. 사격 시 효과가 사라집니다."
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "해당 기계식 개조 장치를 사용하면 일정 시간 동안 전차의 가속력, 엔진 출력, 최고 전진 및 후진 속력을 크게 높여, 적의 공격에 신속하게 대응하고 역동적인 기동으로 적을 기습할 수 있습니다. 이동 시 높은 속력을 유지하면 해당 기능의 재사용 시간이 단축됩니다."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "표시된 수치는 해당 전차의 최대 성능치입니다. 해당 수치는 장비, 지휘명령, 소모품에 따라 변동될 수 있지만, 그와 같은 변동 사항은 이곳에 반영되지 않습니다."
+msgstr "표시된 수치는 해당 전차의 최고 성능치입니다. 해당 수치는 장비, 지휘명령, 소모품에 따라 변동될 수 있지만, 그와 같은 변동 사항은 이곳에 반영되지 않습니다."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "보정 가능 철갑탄"

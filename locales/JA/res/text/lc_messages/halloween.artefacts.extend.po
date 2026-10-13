@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "自車輌を半無敵状態にします。"
+
+msgid "damageShield/long_special"
+msgstr "敵からの自車輌へのダメージを無効化する特殊なシールドを7秒間にわたって展開します。ただし体当たり、衝撃、水没による被ダメージからは守られません。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。<br /><br />イベント「<font color='#cbac77'>〈バビロン〉シュヴァルツタワー</font>」専用の特殊アビリティーです。イベントモードでしか使用できません。<br /><br />イベント終了時に未使用のアビリティーが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "damageShield/name"
+msgstr "エナジーシールド"
+
+msgid "damageShield/onUse"
+msgstr "敵からの自車輌へのダメージを無効化する特殊なシールドを7秒間にわたって展開します。ただし体当たり、衝撃、水没による被ダメージからは守られません。"
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "自車輌を半無敵状態にします。"
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "発射速度を向上させる、または弾倉を即座に再装填します。"
+
+msgid "fastReload/long_special"
+msgstr "一定時間が経過するまで装填速度を大幅に向上させます。弾倉式の主砲の場合は即座に弾倉を再装填します。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。<br /><br />イベント「<font color='#cbac77'>〈バビロン〉シュヴァルツタワー</font>」専用の特殊アビリティーです。イベントモードでしか使用できません。<br /><br />イベント終了時に未使用のアビリティーが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "fastReload/name"
+msgstr "ファストリロード"
+
+msgid "fastReload/onUse"
+msgstr "一定時間が経過するまで装填速度を大幅に向上させます。連射が可能な主砲の場合は即座に弾倉を再装填し、弾倉内の装填速度を向上させます。"
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "発射速度を向上させる、または弾倉を即座に再装填します。"
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "車輌HPの回復、火災の消火、スタン効果の解消、損傷したモジュールの修理を行います。"
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "車輌HPの回復、火災の消火、スタン効果の解消、損傷したモジュールの修理を行います。1戦中に複数回にわたって使用することができます。ただし、戦闘中に1度でも使用すると消費されてしまいます。<br /><br />イベント「<font color='#cbac77'>プロジェクト・バビロン</font>」専用の特殊アビリティーです。イベントモードでしか使用できません。<br /><br />イベント終了時に未使用のアビリティーが残っている場合は、次のアップデートの実装時に購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "アージェントリペア"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• 発動と同時に自車輌のHPを400ポイント回復させます。\n• 続く30秒間で自車輌のHPをさらに最大300ポイント回復させます。\n• モジュールの修理と火災の消火を行い、スタン効果を解消します。\n• 発動中にダメージを受けると効果が停止してしまいます。\n• 車輌がダメージを受けていない場合は発動できません。"
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "車輌HPの回復、火災の消火、スタン効果の解消、損傷したモジュールの修理を行います。"
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• 戦闘で使用する際に必要なミリウム:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \n消費ミリウム: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "戦闘で使用する際に必要なミリウム:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "目標およびその周囲の敵車輌にダメージとスタン効果を与えます。"
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "着弾点とその半径35 m以内の敵車輌にダメージとスタン効果を与えます。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。 <br/><br/>イベント「<font color='#cbac77'>〈バビロン〉シュヴァルツタワー</font>」専用の特殊アビリティーです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のアビリティーが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "エナジーブラスト"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "目標およびその35 m以内の敵車輌にダメージとスタン効果を与えます。"
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "目標およびその周囲の敵車輌にダメージとスタン効果を与えます。"
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "目標およびその周辺の敵車輌からHPを奪って自車輌のHPを回復します。"
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "着弾点とその半径35 m以内の敵車輌からHPを奪って自車輌のHPを回復するとともに、損傷したモジュールを修理し、スタン効果を解消します。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。 <br/><br/>イベント「<font color='#cbac77'>〈バビロン〉シュヴァルツタワー</font>」専用の特殊アビリティーです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のアビリティーが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "ヴァンプショット"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "目標および半径35 m以内の敵車輌からHPを奪って自車輌のHPを回復し、損傷したモジュールを修理し、スタン効果を解消します。"
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "目標およびその周辺の敵車輌からHPを奪って自車輌のHPを回復します。"
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "目標およびその周囲の敵車輌にスタン効果を与えます。"
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "目標および半径35 m以内の敵車輌にスタン効果を与えます。1戦中に複数回にわたって使用することができます。ただし、戦闘中に1度でも使用すると消費されてしまいます。<br /><br />イベント「<font color='#cbac77'>プロジェクト・バビロン</font>」専用の特殊アビリティーです。イベントモードでしか使用できません。<br /><br />イベント終了時に未使用のアビリティーが残っている場合は、次のアップデートの実装時に購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "スタンショット"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "目標およびその35 m以内の敵車輌にスタン効果を与えます。"
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "目標およびその周囲の敵車輌にスタン効果を与えます。"
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "自車輌を敵車輌から視認されない状態に変化させ、車輌HPの回復、モジュールの修理、火災の消火を行います。"
+
+msgid "hwInvisibility/long_special"
+msgstr "10秒が経過するまで自車輌を敵車輌から視認されない状態に変化させます。効果発動中は1秒ごとに自車輌のHPが35ポイント回復するほか、発動時に全モジュールの修理、全ペナルティーの解消を行うほか、腐食ダメージを無効化します。ただし、その後は射撃や体当たり、または戦闘アビリティーの使用によって敵車輌にダメージを与えたり、敵車輌からダメージを受けると、即座に自車輌の位置が捕捉されます。発動後3秒間は敵の射撃を受けても透過効果が中断されることはありません。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。 <br/><br/>イベント「<font color='#cbac77'>〈バビロン〉シュヴァルツタワー</font>」専用の特殊アビリティーです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のアビリティーが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "hwInvisibility/name"
+msgstr "ステルスヒール"
+
+msgid "hwInvisibility/onUse"
+msgstr "10秒が経過するまで自車輌を敵車輌から視認されない状態に変化させます。効果発動中は1秒ごとに自車輌のHPが35ポイント回復するほか、発動時に全モジュールの修理、全ペナルティーの解消を行うほか、腐食ダメージを無効化します。ただし、その後は射撃や体当たり、または戦闘アビリティーの使用によって敵車輌にダメージを与えたり、敵車輌からダメージを受けると、即座に自車輌の位置が捕捉されます。発動後3秒間は敵の射撃を受けても透過効果が中断されることはありません。"
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "敵から身を隠し、車輌HPの回復、モジュールの修理、火災の消火、スタン効果の解消、搭乗員の治療を行います。"
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "一定時間が経過するまで自車輌の動力性能と\n体当たりによる与ダメージを向上させる。"
+
+msgid "nitroRamDamage/name"
+msgstr "スーパーチャージャー"
+
+msgid "nitroRamDamage/onUse"
+msgstr "一定時間が経過するまで自車輌の走行速度と体当たりによる与ダメージを向上させます。"
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "効果範囲内の味方車輌を対象に、モジュールの修理や一定量の車輌HPの回復を行います。"
+
+msgid "teamRepairKit/long_special"
+msgstr "全モジュールの修理、火災の消火、スタン効果の解消、一定量の車輌HPの回復を行います。効果範囲内の全味方車輌が対象です。1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。<br/><br />イベント「<font color='#cbac77'>〈バビロン〉シュヴァルツタワー</font>」でのみ使用できます。<br/><br/>イベント終了時に未使用のアビリティーが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "teamRepairKit/name"
+msgstr "ゾーンリペア"
+
+msgid "teamRepairKit/onUse"
+msgstr "全モジュールの修理、火災の消火、スタン効果の解消、一定量の車輌HPの回復を行います。効果範囲内の全味方車輌が対象です。"
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "効果範囲内の味方車輌を対象に、モジュールの修理や一定量の車輌HPの回復を行います。"

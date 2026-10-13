@@ -134,7 +134,7 @@ class BasePriceList(ViewImpl):
          (
           b'inventory.8.compDescr', self._onTankmanChanged),
          (
-          b'cache.mayConsumeWalletResources', self._onConsumeWalletUpdate))
+          b'cache.isResourcesConsumptionAllowed', self._onConsumeWalletUpdate))
 
     def _updateViewModel(self):
         with self.viewModel.transaction() as vm:

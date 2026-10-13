@@ -1981,9 +1981,6 @@ msgstr "Lỗi máy chủ: \"%(vehName)s\". Không đủ trái phiếu để mua 
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Lỗi bảo trì \"%(vehName)s\". Không đủ Vàng để mua vật phẩm. Hãy thử lại sau."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Lỗi bảo trì \"%(vehName)s\". Không thể tái tiếp tế vật phẩm. Hãy thử lại sau."
 
@@ -1995,9 +1992,6 @@ msgstr "Lỗi bảo trì \"%(vehName)s\". Không đủ bạc để mua đạn."
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Lỗi bảo trì \"%(vehName)s\". Không đủ Vàng để mua đạn."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Lỗi bảo trì \"%(vehName)s\". Xe đang bị khóa."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "%(userString)s đã được nghiên cứu. EXP đã sử dụng: %(unspentXP)s. EXP Tự do đã dùng hết: %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Hệ thống Phần thưởng Elite giờ đã khả dụng cho %(vehicle)s"
+msgstr "Hệ thống Phần thưởng Elite giờ đã khả dụng cho %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Phần thưởng Elite"

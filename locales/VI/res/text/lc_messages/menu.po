@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s XP Tự do và XP Kíp lái trong %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s cho %(effectHours)s đối với kinh nghiệm kiếm được trong trận"
+msgstr "%(effectValue)s XP Chiến đấu trong %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "Thêm %(effectValue)s bạc kiếm được trong trận đánh cho %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Xe này trang bị ống phóng tên lửa gắn trên mặt nạ súng.
 msgid "moduleInfo/closeBtn"
 msgstr "Tắt"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Combat Throttle"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Được trang bị hệ thống nạp đạn theo băng trên:"
 
@@ -6162,6 +6165,12 @@ msgstr "(viên)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Thời lượng Sight cơ-điện Coincidence"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "TG hồi"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Thời lượng"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Cooldown"

@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "腐食"
+
+msgid "damageLog/personal_death_zone"
+msgstr "ゾーンによるダメージ"
+
+msgid "damageLog/static_death_zone"
+msgstr "ゾーンによるダメージ"
+
+msgid "damageShieldReady"
+msgstr "「エナジーシールド」を使用可能"
+
+msgid "fastReloadReady"
+msgstr "「ファストリロード」を使用可能"
+
+msgid "hitMarker/useless"
+msgstr "効果なし！"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "「アージェントリペア」を使用可能"
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "「エナジーブラスト」を使用可能"
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "「ヴァンプショット」を使用可能"
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "「スタンショット」を使用可能"
+
+msgid "hwHelpScreen/hint/description"
+msgstr "でモードの詳細を確認"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "ショートカット:"
+
+msgid "hwInvisibilityReady"
+msgstr "「ステルスヒール」を使用可能"
+
+msgid "nitroRamDamageReady"
+msgstr "「スーパーチャージャー」を使用可能"
+
+msgid "pickupSouls"
+msgstr "自車輌が%(souls)s個のミリウムを回収"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "主砲が損傷しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "回復や修理は不要"
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "エンジンが大破しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "ミリウムが不足しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "火災が発生しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "車輌が水没しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "火災が発生しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "車輌が転覆しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "主砲が装填済みのため使用不可"
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "味方 %(target)s が腐食により大破"
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "味方 %(target)s が %(attacker)s に踏み潰された"
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "味方%(target)sが敵の爆発 (%(attacker)s) により大破"
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "味方 %(target)s がクラッシュにより大破"
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "味方 %(target)s が破壊ゾーンのダメージにより大破"
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "味方 %(target)s が敵のオーラにより大破"
+
+msgid "player_messages/killedByDeathZone"
+msgstr "味方 %(target)s が破壊ゾーンで大破"
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "味方 %(target)s が大破"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "エナジーストライクにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "パイロキネシスにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "ヴァンパイアにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "爆発により大破"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "破壊ゾーンのダメージにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "敵のオーラにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "腐食により大破"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "クラッシュにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "踏み潰しにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "マグナスへの到達に失敗したため大破"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "ボスの撃破に失敗したため大破"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "ミリウムの運搬に失敗したため大破"
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "モジュール [%(device)s] が敵の射撃により誘爆"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "火災により大破"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "敵の砲撃により大破"
+
+msgid "teamRepairKitReady"
+msgstr "「ゾーンリペア」を使用可能"
+
+msgid "teamRepairKitUsed"
+msgstr "味方 %(player)s が「ゾーンリペア」を発動"
+
+msgid "teamRepairKitUsedSelf"
+msgstr "自車輌が「ゾーンリペア」を発動"

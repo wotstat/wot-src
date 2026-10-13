@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "クールダウン時間: {{cooldown}}秒"
+
+msgid "ability/miriumCost"
+msgstr "戦闘で使用する際に必要な「ミリウム」: {{value}}"
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "効果"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "戦闘中の自動的なバフ効果"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "難易度「ノーマル」を達成すると、難易度「ハード」がアンロックされ、「アノマリー・コンボ」システムが利用できるようになります。"
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "特殊アイテム・コンボは利用できません"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "戦闘における車輌の性能を向上させるバフ効果です。車輌が大破したり、次のフェーズに移行してもそのまま引き継がれます。"
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "効果"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "特殊アイテム"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "エコー特殊アイテム"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "回収型特殊アイテム"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "基本特殊アイテム"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "シークレット特殊アイテム"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "戦利品からのみ入手可能。"
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "コンボなし。"
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "勲章「アノマリー・コレクター」の取得条件にはカウントされません。"
+
+msgid "bannerTooltip/available"
+msgstr "イベント期間残り%(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — ゲームモードの詳細を確認できます"
+
+msgid "bannerTooltip/description"
+msgstr "謎に包まれた「プロジェクト・バビロン」の世界をさらに深く体験できるPvEモードです。7輌の車輌を乗りこなして邪悪な敵に打ち勝つと、限定報酬などが手に入ります。"
+
+msgid "bannerTooltip/header"
+msgstr "〈バビロン〉シュヴァルツタワー"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "お使いのPCが本モードのシステム要件を満たしていません。グラフィックや車輌の操作に不具合が生じたり、クライアントがクラッシュする可能性があります。"
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "低パフォーマンス"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "パフォーマンス低下の可能性あり"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "フレンドリストに登録済み"
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "フレンドリクエストの承認待ち"
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "ブラックリストから削除"
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "フレンドリストに追加"
+
+msgid "battleResult/interaction/menu"
+msgstr "連絡先リストの管理オプションを表示します。"
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "小隊に招待"
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "プレイヤーは小隊に参加中"
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "招待済み"
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "小隊にプレイヤーを招待できるのは指揮官のみとなっています。"
+
+msgid "battleResult/secretReward/header"
+msgstr "秘密の報酬"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "イベントの最後に、あなたの選択に応じて特別な報酬が授与されます。"
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "イベント特別報酬"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "クールダウン: %(cooldownSeconds)s秒"
+
+msgid "consumables/params/usageCost"
+msgstr "消費ミリウム: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} {{date}}まで獲得可能"
+
+msgid "dailyQuests/rewards"
+msgstr "報酬"
+
+msgid "dailyQuests/status"
+msgstr "新たなデイリーミッションまで{{icon}}{{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "戦闘中にチームメンバー同士の会話を聞くためには、オリジナル音声パック付きのイベント搭乗員 (%(crew_members_names)s) を4名配属し、その内1名を車長とする必要があります。なお配属する車輌の種類は問いません。\n5つまたは6つの職能を必要とする車輌では、残りの職能を他の搭乗員で埋めることができます。"
+
+msgid "groupVoiceover/header"
+msgstr "チームメンバー同士の会話"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "この車輌をアンロックするためのも目標はすでに選択されています。目標の達成条件は画面の右上に表示されています。"
+
+msgid "hangar/objectiveBtn/header"
+msgstr "目標を選択済み"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "出撃するにはロックされていない車輌を選択する必要があります。"
+
+msgid "hangar/startBtn/lock/header"
+msgstr "出撃不可"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "技術的な理由により、一時的に選択した難易度およびモードでの戦闘に出撃できません。"
+
+msgid "hangar/startBtn/offline/header"
+msgstr "出撃不可"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "小隊の全メンバーが帰還するまで次の戦闘に出撃できません。"
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "出撃不可"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "難易度の選択に問題があります。"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "出撃不可"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "4名の戦車兵によって構成された限定搭乗員1組です。"
+
+msgid "hw_bonus_crew_100/header"
+msgstr "限定搭乗員"
+
+msgid "keyCard/body"
+msgstr "イベント専用の通貨を入手するための方法を確認できます。"
+
+msgid "keys/accrued"
+msgstr "入手:"
+
+msgid "keys/battles"
+msgstr "• イベントの戦闘で取得"
+
+msgid "keys/body"
+msgstr "イベント「〈バビロン〉シュヴァルツタワー」の進行に必要となるイベント専用リソースです。イベントのメイン報酬を含む、貴重な報酬を手に入れる際にも必要となります。「解読キー」はイベント・モードの戦闘で《ミリウム》を多く集めることで手に入るほか、パックとして購入することもできます。"
+
+msgid "keys/boss"
+msgstr "• ボスの撃破報酬:"
+
+msgid "keys/bottom"
+msgstr "%(date)sにイベントが終了すると、未使用の「解読キー」は削除されます。"
+
+msgid "keys/bundles"
+msgstr "• イベントの特別パックで購入"
+
+msgid "keys/daily"
+msgstr "• 車輌ごとのデイリーミッション:"
+
+msgid "keys/effective"
+msgstr "• 戦闘でのパフォーマンス:"
+
+msgid "keys/gold"
+msgstr "• ゴールドで購入"
+
+msgid "keys/header"
+msgstr "解読キー"
+
+msgid "keys/howToEarn"
+msgstr "入手方法"
+
+msgid "keys/howToUse"
+msgstr "使用方法"
+
+msgid "keys/howToUseDescr"
+msgstr "「解読キー」は、「暗号レコード」を解読する際に必要になるイベント専用リソースです。また目標の達成が困難な場合は、解読する際よりも多くの「キー」を使うことで、その目標をスキップして報酬を素早く手に入れることができます。"
+
+msgid "keys/inStock"
+msgstr "所有中"
+
+msgid "keys/secret"
+msgstr "• 秘密の報酬:"
+
+msgid "metaWidget/body"
+msgstr "イベントの全目標および全報酬を確認できます。"
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "この「暗号レコード」を解読するには戦闘条件を達成する必要があります。この手順はスキップできません。"
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "解読不可"
+
+msgid "metaWidget/header"
+msgstr "報酬ルート"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "クリックして物語の結末を選択してください。コミュニティー全体の決断が今後のイベントを左右します。最新情報は公式サイトでご確認ください。"
+
+msgid "missionTooltip/bottom"
+msgstr "「暗号レコード」の解読 (一部の「目標」はスキップ可能) やメイン報酬の獲得はイベント終了日の%(date)sまでに行う必要があります。"
+
+msgid "missionTooltip/completed"
+msgstr "目標%(current)sの達成報酬を獲得しました。"
+
+msgid "missionTooltip/count"
+msgstr "目標%(current)s / %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "解読"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "条件を達成すると解読できます。"
+
+msgid "missionTooltip/kingReward"
+msgstr "イベントのメイン報酬"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "イベントのメイン報酬を入手済み"
+
+msgid "missionTooltip/received"
+msgstr "目標%(current)sを達成しましたが「暗号レコード」は解読されていません"
+
+msgid "missionTooltip/rewards"
+msgstr "目標を達成すると報酬を入手できます。"
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "「暗号レコード」を解読すると報酬を入手できます。"
+
+msgid "missionTooltip/skip"
+msgstr "スキップ"
+
+msgid "shopWidget/body"
+msgstr "ゲーム内ショップのイベント特設セクションに移動します。"
+
+msgid "shopWidget/header"
+msgstr "イベントパック"
+
+msgid "teamList/actions/body"
+msgstr "小隊の作成やフレンドの追加および削除を行うことができます。"
+
+msgid "teamList/actions/header"
+msgstr "クイックアクション"
+
+msgid "teamList/anomalies/header"
+msgstr "入手した特殊アイテム"
+
+msgid "teamList/bossDamage/body"
+msgstr "フェーズ4 (ボス戦) での与ダメージのみで並べ替えます。\nチームがボスの撃破に失敗した場合、このダメージは戦闘で取得できる「キー」の数に影響しません。"
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "チームがボスの撃破に失敗したため、このダメージは戦闘で取得できる「キー」の数に影響しません。"
+
+msgid "teamList/bossDamage/header"
+msgstr "ボス戦での与ダメージ"
+
+msgid "teamList/damage/body"
+msgstr "フェーズ1～3での与ダメージで並べ替えます。"
+
+msgid "teamList/damage/header"
+msgstr "与ダメージ"
+
+msgid "teamList/keys/body"
+msgstr "入手した「解読キー」の数で並べ替えます。デイリーミッションの達成報酬として手に入る「解読キー」は対象に含まれません。"
+
+msgid "teamList/keys/header"
+msgstr "解読キー"
+
+msgid "teamList/kills/body"
+msgstr "撃破した敵車輌の数で並べ替えます。"
+
+msgid "teamList/kills/header"
+msgstr "撃破した敵車輌数"
+
+msgid "teamList/name/header"
+msgstr "プレイヤー名"
+
+msgid "teamList/place/body"
+msgstr "チーム内順位で並べ替えます。"
+
+msgid "teamList/place/header"
+msgstr "チーム内での順位"
+
+msgid "teamList/squad/header"
+msgstr "小隊を組むことで戦闘中に他のプレイヤーと連携を取ることができます。"
+
+msgid "teamList/vehicle/body"
+msgstr "車輌タイプで並べ替えます。"
+
+msgid "teamList/vehicle/header"
+msgstr "車輌名"
+
+msgid "teamList/warned/body"
+msgstr "このプレイヤーは不行動および離脱によりペナルティーを受けたため、この戦闘での報酬を受け取っていません。"
+
+msgid "teamList/warned/header"
+msgstr "警告"
+
+msgid "teamList/warned/self/body"
+msgstr "あなたは不行動および離脱によりペナルティーを受けたため、この戦闘での報酬を受け取っていません。"
+
+msgid "teamList/warned/self/header"
+msgstr "警告"
+
+msgid "vehicle/bonusTitle"
+msgstr "取得リソース"
+
+msgid "vehicle/eventBonus"
+msgstr "こちらの車輌でデイリーミッションを達成すると「解読キー」が追加で手に入ります。"
+
+msgid "vehicle/state/default/title"
+msgstr "戦闘準備完了"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "戦闘中"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "小隊に参加中"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "待機中"
+
+msgid "vehicle/state/locked/title"
+msgstr "ロック中"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "装弾数5発の弾倉により、短時間で大ダメージを与えることができます。"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "弾倉"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "装弾数3発のシステムで、通常の自動再装填時間を短縮します。"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "改良型自動再装填砲"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "連射システムを採用した主砲です。"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "自動連射砲"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "敵車輌のモジュールに損傷を与える確率を向上させます。"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "重大な損傷を誘発する主砲"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "HE弾を発射できる強力な2発自動再装填砲です。"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "自動再装填砲"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "単発砲撃と連続砲撃を選択できます。"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "2連装砲"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "自車輌のモジュールを重大な損傷から完全に保護します。"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "重大損傷耐性"

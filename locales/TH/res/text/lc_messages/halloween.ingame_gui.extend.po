@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "การกัดกร่อน"
+
+msgid "damageLog/personal_death_zone"
+msgstr "ความเสียหายจากเขต"
+
+msgid "damageLog/static_death_zone"
+msgstr "ความเสียหายจากเขต"
+
+msgid "damageShieldReady"
+msgstr "ม่านพลังพร้อมใช้แล้ว"
+
+msgid "fastReloadReady"
+msgstr "การบรรจุเร็วพร้อมใช้แล้ว"
+
+msgid "hitMarker/useless"
+msgstr "ใช้ไม่ได้!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "การซ่อมฉุกเฉินพร้อมใช้แล้ว"
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "กระสุนพลังงานพร้อมใช้แล้ว"
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "กระสุนดูดพลังพร้อมใช้แล้ว"
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "กระสุนมึนงงพร้อมใช้แล้ว"
+
+msgid "hwHelpScreen/hint/description"
+msgstr "ในการอ่านกฎของรูปแบบ"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "กด"
+
+msgid "hwInvisibilityReady"
+msgstr "การซ่อมล่องหนพร้อมใช้งาน"
+
+msgid "nitroRamDamageReady"
+msgstr "ตัวอัดอากาศเทอร์โบพร้อมใช้งาน"
+
+msgid "pickupSouls"
+msgstr "คุณได้เก็บแร่ Mirium %(souls)s อัน"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "ไม่สามารถใช้ [%(name)s]: ปืนเสียหายอยู่"
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "พาหนะไม่ได้เสียหาย"
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "ไม่สามารถใช้ [%(name)s]: เครื่องยนต์ถูกทำลาย"
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "ไม่สามารถใช้ [%(name)s]: มี Mirium ไม่พอเปิดใช้ความสามารถ"
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "ไม่สามารถใช้ [%(name)s]: พาหนะกำลังไฟไหม้"
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "ไม่สามารถใช้ [%(name)s]: พาหนะกำลังจมน้ำ"
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "ไม่สามารถใช้ [%(name)s]: พาหนะกำลังไฟไหม้"
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "ไม่สามารถใช้ [%(name)s]: พาหนะกำลังคว่ำอยู่"
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "ปืนบรรจุกระสุนไว้แล้ว"
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยการกัดกร่อน"
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "พันธมิตร %(target)s ถูกกระทืบโดย %(attacker)s"
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยการระเบิดของข้าศึก (%(attacker)s)"
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "พันธมิตร %(target)s ถูกชน"
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยเขตทำลาย"
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยรังสีข้าศึก"
+
+msgid "player_messages/killedByDeathZone"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยเขตทำลาย"
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "พันธมิตร %(target)s ถูกทำลาย"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "พาหนะถูกทำลายโดยพลังโจมตี"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "พาหนะถูกทำลายโดยพลังเพลิง"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "พาหนะถูกทำลายโดยดูดชีวิต"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "พาหนะถูกทำลายโดยการระเบิด"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "พาหนะถูกทำลายโดยเขตทำลาย"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "พาหนะถูกทำลายโดยรังสีข้าศึก"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "พาหนะถูกทำลายโดยการกัดกร่อน"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "พาหนะชนพัง"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "พาหนะถูกทำลายจากการกระทืบ"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "พาหนะถูกทำลาย คุณไปไม่ถึง Magnus"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "พาหนะถูกทำลาย คุณไม่ได้ทำลายหัวหน้าใหญ่"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "พาหนะถูกทำลาย Magnus ยังไม่เต็ม"
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "ชิ้นส่วน [%(device)s] ถูกทำลายจากการยิงของผู้เล่น"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "พาหนะถูกทำลายโดยไฟไหม้"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "พาหนะถูกทำลายโดยกระสุนข้าศึก"
+
+msgid "teamRepairKitReady"
+msgstr "การซ่อมเป็นกลุ่มพร้อมใช้งาน"
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s เปิดใช้การซ่อมเป็นกลุ่ม"
+
+msgid "teamRepairKitUsedSelf"
+msgstr "เปิดใช้การซ่อมเป็นกลุ่มแล้ว"

@@ -106,7 +106,7 @@ class PostProgressionCfgComponentView(PostProgressionBaseComponentView):
         super(PostProgressionCfgComponentView, self)._onLoading(intCD, **kwargs)
         return
 
-    def _updateAll(self):
+    def _updateAll(self, *_):
         super(PostProgressionCfgComponentView, self)._updateAll()
         self.__updateLastSeenModification()
         return

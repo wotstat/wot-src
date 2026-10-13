@@ -24,7 +24,7 @@
             setRTPC: () => C,
           }));
         var a = {};
-        (t.r(a), t.d(a, { getBgUrl: () => O, getTextureUrl: () => P }));
+        (t.r(a), t.d(a, { getBgUrl: () => y, getTextureUrl: () => P }));
         var E = {};
         function i(u) {
           return (e) => (
@@ -43,7 +43,7 @@
             addPreloadTexture: () => $,
             arabic2roman: () => Eu,
             children: () => a,
-            displayStatus: () => y,
+            displayStatus: () => O,
             displayStatusIs: () => ou,
             enableFullScreenModeSupported: () => Fu,
             events: () => S,
@@ -177,10 +177,10 @@
         function P(u, e, t = 1) {
           return viewEnv.getChildTexturePath(u, e.width, e.height, t);
         }
-        function O(u, e, t) {
+        function y(u, e, t) {
           return `url(${P(u, e, t)})`;
         }
-        const y = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
+        const O = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
           S = {
             onTextureFrozen: i("self.onTextureFrozen"),
             onTextureReady: i("self.onTextureReady"),
@@ -314,8 +314,8 @@
         function iu() {
           return viewEnv.getExternalPaddingsRem();
         }
-        const ou = Object.keys(y).reduce(
-            (u, e) => ((u[e] = () => viewEnv.getShowingStatus() === y[e]), u),
+        const ou = Object.keys(O).reduce(
+            (u, e) => ((u[e] = () => viewEnv.getShowingStatus() === O[e]), u),
             {},
           ),
           su = {
@@ -889,6 +889,11 @@
           const A = r().useRef(null);
           var F;
           return (
+            (0, n.useLayoutEffect)(() => {
+              const u = g.O.client.getSize("rem");
+              ((document.body.style.width = `${u.width}rem`),
+                (document.body.style.height = `${u.height}rem`));
+            }, []),
             (F = () => {
               const u = A.current;
               if (!u)
@@ -898,7 +903,9 @@
               const e = new ResizeObserver(() => {
                 const e = u.scrollWidth,
                   t = u.scrollHeight;
-                g.O.view.resize(e, t);
+                (g.O.view.resize(e, t),
+                  (document.body.style.width = `${e}px`),
+                  (document.body.style.height = `${t}px`));
                 const n = window.getComputedStyle(u);
                 g.O.view.setSidePaddingsRem({
                   left: parseInt(n.getPropertyValue("padding-left"), 10),
@@ -940,8 +947,8 @@
                 (n = window.subViews[t].id));
             return { callerUrl: r, caller: t, stack: e, resId: n };
           },
-          O = (u, e) => u.split(".").reduce((u, e) => u && u[e], e),
-          y = (u) => {
+          y = (u, e) => u.split(".").reduce((u, e) => u && u[e], e),
+          O = (u) => {
             const e = (0, n.useRef)(!1);
             e.current || (u(), (e.current = !0));
           },
@@ -950,7 +957,7 @@
           x = (u) =>
             ((u, e) =>
               u.split(".").reduce((u, t) => {
-                const n = O(`${u}.${t}`, window);
+                const n = y(`${u}.${t}`, window);
                 return S(n) ? e(u, t, n) : `${u}.${t}`;
               }))(u, (u, e) => `${u}.${e}.value`),
           N = (u) => {
@@ -967,7 +974,7 @@
               const u = [n[0]];
               return (
                 n.reduce((e, n) => {
-                  const r = O(k(t, `${e}.${n}`), window);
+                  const r = y(k(t, `${e}.${n}`), window);
                   return S(r) ? (u.push(r.id), `${e}.${n}.value`) : (u.push(n), `${e}.${n}`);
                 }),
                 u.reduce((u, e) => u + "." + e)
@@ -995,7 +1002,7 @@
             }, [E, i, u]),
             A = (0, n.useState)(() =>
               ((u) => {
-                const e = O(u, window);
+                const e = y(u, window);
                 for (const u in e) "function" == typeof e[u] && (e[u] = e[u].bind(e));
                 return S(e) ? e.value : e;
               })(x(s)),
@@ -1004,7 +1011,7 @@
             D = A[1],
             l = (0, n.useRef)(-1);
           return (
-            y(() => {
+            O(() => {
               if (
                 ("boolean" == typeof e &&
                   ((e = e ? U.Deep : U.None),
@@ -1876,7 +1883,7 @@
           );
         }
         const Pu = R.strings.tooltips.additionalRewards,
-          Ou = (u) => {
+          yu = (u) => {
             switch (u.name) {
               case $.Credits:
               case $.Gold:
@@ -1911,7 +1918,7 @@
                 return r().createElement("span", null, u.label);
             }
           },
-          yu = ["isLast"];
+          Ou = ["isLast"];
         function Su() {
           return (
             (Su = Object.assign
@@ -1937,7 +1944,7 @@
                   t[n] = u[n];
                 }
               return t;
-            })(u, yu);
+            })(u, Ou);
           return r().createElement(
             "div",
             { className: o()(mu, e && pu) },
@@ -1949,7 +1956,7 @@
                 r().createElement("div", { className: wu }),
               r().createElement(_u, Su({}, t, { size: q.Small })),
             ),
-            r().createElement("div", { className: gu }, r().createElement(Ou, t)),
+            r().createElement("div", { className: gu }, r().createElement(yu, t)),
           );
         };
         function xu() {

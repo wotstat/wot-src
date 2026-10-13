@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s ให้ประสบการณ์อิสระและพลรถถังเป็นเวลา %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "โบนัส %(effectValue)s เป็นเวลา %(effectHours)s ให้กับประสบการณ์ที่ได้รับในการรบ"
+msgstr "%(effectValue)s ให้ประสบการณ์รบเป็นเวลา %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s โบนัสให้กับเงินที่ได้รับในการรบเป็นเวลา %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "ยานเกราะคันนี้ติดตั้งเคร
 msgid "moduleInfo/closeBtn"
 msgstr "ปิด"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "คันเร่งรบ"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "ยานเกราะที่มีการติดตั้ังระบบบรรจุซองกระสุน:"
 
@@ -6162,6 +6165,12 @@ msgstr "(นัด)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "ช่วงเวลาศูนย์เล็งกลไกไฟฟ้าภาพเหลื่อมซ้อน"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "ช่วงพัก"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "ระยะเวลา"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "ช่วงพัก"

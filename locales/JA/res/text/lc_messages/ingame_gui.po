@@ -97,32 +97,32 @@ msgstr "<ミニマップセクター>に注意せよ!"
 msgid "chat_example/attention_to_position"
 msgstr "この場所に注意せよ!"
 
-msgid "chat_example/global_msg/atk/focus_hq"
-msgstr "目標群を撃破せよ"
+msgid "chat_example/global_msg_atk_focus_hq"
+msgstr "目標群を破壊せよ"
 
-msgid "chat_example/global_msg/atk/save_tanks"
+msgid "chat_example/global_msg_atk_save_tanks"
 msgstr "自車輌を守れ!"
 
-msgid "chat_example/global_msg/atk/time"
-msgstr "ゾーンを占領せよ"
+msgid "chat_example/global_msg_atk_time"
+msgstr "ゾーンを確保せよ"
 
-msgid "chat_example/global_msg/def/focus_hq"
+msgid "chat_example/global_msg_def_focus_hq"
 msgstr "目標群を防衛せよ"
 
-msgid "chat_example/global_msg/def/save_tanks"
+msgid "chat_example/global_msg_def_save_tanks"
 msgstr "自車輌を守れ!"
 
-msgid "chat_example/global_msg/def/time"
+msgid "chat_example/global_msg_def_time"
 msgstr "ゾーンを防衛せよ"
 
-msgid "chat_example/global_msg/lane/center"
-msgstr "ゾーンに増援を送れ"
+msgid "chat_example/global_msg_lane_center"
+msgstr "ゾーンへ増援に向かえ"
 
-msgid "chat_example/global_msg/lane/east"
-msgstr "ゾーンに増援を送れ"
+msgid "chat_example/global_msg_lane_east"
+msgstr "ゾーンへ増援に向かえ"
 
-msgid "chat_example/global_msg/lane/west"
-msgstr "ゾーンに増援を送れ"
+msgid "chat_example/global_msg_lane_west"
+msgstr "ゾーンへ増援に向かえ"
 
 msgid "chat_example/going_there"
 msgstr "この地点に移動する！"
@@ -232,32 +232,32 @@ msgstr "陣地を防衛する！"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "陣地%(strArg1)sを防衛する！"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "目標群を破壊せよ!"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
-msgstr "時間は充分にある、自車輌を守れ!"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
+msgstr "時間は十分にある、自車輌を守れ!"
 
-msgid "chat_shortcuts/global_msg/atk/time"
+msgid "chat_shortcuts/global_msg_atk_time"
 msgstr "もう時間がない、全力でゾーンを占領せよ!"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "目標群を防衛せよ!"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
 msgstr "持ちこたえるんだ、自車輌を守れ!"
 
-msgid "chat_shortcuts/global_msg/def/time"
+msgid "chat_shortcuts/global_msg_def_time"
 msgstr "もう時間がない、全力でゾーンを防衛せよ!"
 
-msgid "chat_shortcuts/global_msg/lane/center"
-msgstr "ゾーン %(strArg1)sを増援せよ！"
+msgid "chat_shortcuts/global_msg_lane_center"
+msgstr "ゾーン %(strArg1)sへ増援に向かえ!"
 
-msgid "chat_shortcuts/global_msg/lane/east"
-msgstr "ゾーン %(strArg1)sを増援せよ！"
+msgid "chat_shortcuts/global_msg_lane_east"
+msgstr "ゾーン %(strArg1)sへ増援に向かえ!"
 
-msgid "chat_shortcuts/global_msg/lane/west"
-msgstr "ゾーン %(strArg1)sを増援せよ！"
+msgid "chat_shortcuts/global_msg_lane_west"
+msgstr "ゾーン %(strArg1)sへ増援に向かえ!"
 
 msgid "chat_shortcuts/going_there"
 msgstr "この地点に移動する！"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "ショートカット:"
 
 msgid "devMaps/mapInfo/info"
-msgstr "このマップでは「ランダムイベント」が発生する可能性があります。設定メニューから「ランダムイベント」マップにマッチしないように設定を変更できます。"
+msgstr "このマップでは「ランダムイベント」が発生する可能性があります。"
 
 msgid "devMaps/mapInfo/text"
 msgstr "「ランダムイベント」が発生するマップ"

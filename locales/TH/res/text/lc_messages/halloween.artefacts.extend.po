@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "ทำให้เป็นอมตะ"
+
+msgid "damageShield/long_special"
+msgstr "ความสามารถรบ  สร้างม่านพลังที่ปกป้องพาหนะของคุณจากความเสียหายทุกแบบยกเว้นการพุ่งชน,  การจมน้ำและการตกจากที่สูงเป็นเวลา 7 วินาที สามารถใช้ได้หลายครั้งในการรบ  จะหายไปหลังถูกใช้อย่างน้อยหนึ่งครั้งในการรบ<br /><br />มีให้เฉพาะในช่วงกิจกรรม<font color='#cbac77'>บาบิลอน: หอคอยมืด</font><br /><br />ความสามารถที่ไม่ได้ใช้จะถูกลบไปและชดเชยด้วยเงินเท่ากับ 50% ของราคาของมันในอัพเดตถัดไป"
+
+msgid "damageShield/name"
+msgstr "ม่านพลัง"
+
+msgid "damageShield/onUse"
+msgstr "สร้างม่านพลังที่ปกป้องพาหนะของคุณจากความเสียหายทุกแบบยกเว้นการพุ่งชน, การจมน้ำและการตกจากที่สูงเป็นเวลา 7 วินาที"
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "ทำให้เป็นอมตะ"
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "เพิ่มอัตราการยิง/บรรจุโม่กระสุน"
+
+msgid "fastReload/long_special"
+msgstr "ความสามารถรบ เพิ่มเวลาบรรจุปืนปกติเป็นเวลาระยะหนึ่งอย่างมากหรือทำการบรรจุโม่กระสุนโดยทันที ถ้าหากใช้อย่างน้อยหนึ่งครั้งในการรบ ความสามารถจะถูกใช้ไปและเติมได้ด้วยเงิน ถ้าไม่ใช้ไปก็จะไม่จำเป็นต้องเติมใหม่<br /><br />มีให้เฉพาะในกิจกรรม<font color='#cbac77'>บาบิลอน: หอคอยมืด</font><br /><br />ความสามารถที่ไม่ได้ใช้จะถูกลบไปและชดเชยด้วยเงินเท่ากับ 50% ของราคาของมันในอัพเดตถัดไป"
+
+msgid "fastReload/name"
+msgstr "การบรรจุเร็ว"
+
+msgid "fastReload/onUse"
+msgstr "เพิ่มความเร็วการบรรจุปืนแบบปกติอย่างมากในช่วงเวลาหนึ่งหรือทำการบรรจุกระสุนในซองกระสุนทันทีสำหรับปืนที่มีระบบป้อนซองกระสุน"
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "เพิ่มอัตราการยิง/บรรจุโม่กระสุน"
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "คืนความทนทาน, ดับเพลิง, ลบสภาวะมึนงงและซ่อมชิ้นส่วนที่เสียหาย"
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "ความสามารถรบ คืนความทนทาน, ดับไฟ, ลบสภาวะมึนงงและซ่อมชิ้นส่วนที่เสียหาย สามารถใช้ได้หลายครั้งในการรบ จะหายไปหลังถูกใช้อย่างน้อยหนึ่งครั้งในการรบ <br /><br />มีให้เฉพาะในช่วงกิจกรรม<font color='#cbac77'>โครงการบาบิลอน</font><br /><br />ความสามารถทั้งหมดที่ไม่ได้ใช้จะถูกลบออกไปและชดเชยเป็นเงินเทียบเท่า 50% ของราคาเมื่อทำการเปิดตัวอัพเดตถัดไป"
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "การซ่อมฉุกเฉิน"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• คืนความทนทานพาหนะของคุณ 400 หน่วยโดยทันที\n• คืนความทนทานเพิ่มเติม 300 หน่วยในเวลาอีก 30 วินาที\n• การคืนความทนทานจะหยุดหากได้รับความเสียหาย\n• ดับเพลิง, ลบสภาวะมึนงงและซ่อมชิ้นส่วนที่เสียหาย\n• สามารถเปิดใช้ได้เมื่อเกิดความเสียหายเท่านั้น"
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "คืนความทนทาน, ดับเพลิง, ลบสภาวะมึนงงและซ่อมชิ้นส่วนที่เสียหาย"
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• สสาร Mirium ที่จะใช้ในการรบ:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nค่า Mirium: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "สสาร Mirium ที่จะใช้ในการรบ:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "ยิงกระสุนที่ทำความเสียหายและทำให้เป้าหมายและข้าศึกโดยรอบมึนงง"
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "ความสามารถรบ ยิงกระสุนที่ทำความเสียหายและทำให้เป้าหมายและพาหนะข้าศึกทุกคันในรัศมี 35 เมตรมึนงง ถ้าใช้อย่างน้อยหนึ่งครั้งในการรบ ความสามารถจะถูกใช้ไปและสามารถเติมได้ด้วยเงิน ถ้าหากไม่ใช้ จะไม่ต้องทำการเติมใหม่<br/><br/>มีให้เฉพาะในกิจกรรม<font color='#cbac77'>บาบิลอน: หอคอยมืด</font><br/><br/>ความสามารถที่ไม่ได้ใช้จะถูกลบไปและชดเชยด้วยเงินเท่ากับ 50% ของราคาของมันในอัพเดตถัดไป"
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "กระสุนพลังงาน"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "ยิงกระสุนที่ทำความเสียหายและทำให้เป้าหมายและข้าศึกโดยรอบในรัศมี 35 เมตรมึนงง"
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "ยิงกระสุนที่ทำความเสียหายและทำให้เป้าหมายและข้าศึกโดยรอบมึนงง"
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "ยิงกระสุนที่คืนความทนทานด้วยการขโมยความทนทานจากข้าศึกและพาหนะข้าศึกโดยรอบ"
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "ความสามารถรบ ยิงกระสุนที่คืนความทนทานด้วยการขโมยความทนทานจากเป้าหมายและพาหนะข้าศึกใกล้ๆกันในรัศมี 35 เมตรรวมไปถึงซ่อมชิ้นส่วนเสียหายและลบสภาวะมึนงง ถ้าถูกใช้อย่างน้อยหนึ่งครั้งในการรบ ความสามารถจะถูกใช้ไปและสามารถเติมได้ด้วยเงิน ถ้าหากไม่ใช้ จะไม่ต้องทำการเติมใหม่<br/><br/>มีให้เฉพาะในกิจกรรม<font color='#cbac77'>บาบิลอน: หอคอยมืด</font><br/><br/>ความสามารถที่ไม่ได้ใช้จะถูกลบไปและชดเชยด้วยเงินเท่ากับ 50% ของราคาของมันในอัพเดตถัดไป"
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "กระสุนดูดพลัง"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "ยิงกระสุนที่คืนความทนทานด้วยการขโมยความทนทานจากข้าศึกและพาหนะข้าศึกโดยรอบในรัศมี 35 เมตรรวมไปถึงซ่อมชิ้นส่วนที่เสียหายและลบสภาวะมึนงง"
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "ยิงกระสุนที่คืนความทนทานด้วยการขโมยความทนทานจากข้าศึกและพาหนะข้าศึกโดยรอบ"
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "ยิงกระสุนที่ทำให้เป้าหมายและข้าศึกโดยรอบมึนงง"
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "ความสามารถรบ ยิงกระสุนที่ทำให้เป้าหมายและข้าศึกโดยรอบในรัศมี 35 เมตรมึนงง สามารถใช้ได้หลายครั้งในการรบ จะหายไปหลังถูกใช้อย่างน้อยหนึ่งครั้งในการรบ <br /><br />มีให้เฉพาะในช่วงกิจกรรม<font color='#cbac77'>โครงการบาบิลอน</font><br /><br />ความสามารถทั้งหมดที่ไม่ได้ใช้จะถูกลบออกไปและชดเชยเป็นเงินเทียบเท่า 50% ของราคาเมื่อทำการเปิดตัวอัพเดตถัดไป"
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "กระสุนมึนงง"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "ยิงกระสุนที่ทำให้เป้าหมายและข้าศึกโดยรอบในรัศมี 35 เมตรมึนงง"
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "ยิงกระสุนที่ทำให้เป้าหมายและข้าศึกโดยรอบมึนงง"
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "ทำให้พาหนะของคุณล่องหนต่อข้าศึก, คืนความทนทาน, ซ่อมชิ้นส่วนและดับเพลิงที่เกิดขึ้น"
+
+msgid "hwInvisibility/long_special"
+msgstr "ความสามารถรบ ทำให้ข้าศึกมองไม่เห็นพาหนะเป็นเวลา 10 วินาที คืนความทนทาน 35 หน่วยต่อวินาที, ซ่อมชิ้นส่วน, ลบสภาวะมึนงงและทำให้เป็นอมตะจากการกัดกร่อน การยิงหรือได้รับความเสียหายจากพาหนะข้าศึก (ด้วยการยิง, พุ่งชนหรือใช้ความสามารถรบ) จะเปิดเผยตำแหน่งของคุณทันที ไม่สามารถถูกสกัดด้วยการยิงของข้าศึกเป็นเวลา 3 วินาทีหลังเปิดใช้ ถ้าใช้อย่างน้อยหนึ่งครั้งในการรบ ความสามารถจะถูกใช้ไปและสามารถเติมได้ด้วยเงิน หากไม่ได้ใช้ก็จะไม่จำเป็นต้องทำการเติม<br/><br/>มีให้เฉพาะในกิจกรรม<font color='#cbac77'>บาบิลอน: หอคอยมืด</font><br/><br/>ความสามารถที่ไม่ได้ใช้จะถูกลบไปและชดเชยด้วยเงินเท่ากับ 50% ของราคาของมันในอัพเดตถัดไป"
+
+msgid "hwInvisibility/name"
+msgstr "การซ่อมล่องหน"
+
+msgid "hwInvisibility/onUse"
+msgstr "ทำให้ข้าศึกมองไม่เห็นพาหนะเป็นเวลา 10 วินาที คืนความทนทาน 35 หน่วยต่อวินาที, ซ่อมชิ้นส่วน, ลบสภาวะมึนงงและทำให้เป็นอมตะจากการกัดกร่อน การยิงหรือได้รับความเสียหายจากพาหนะข้าศึก (ด้วยการยิง, พุ่งชนหรือใช้ความสามารถรบ) จะเปิดเผยตำแหน่งของคุณทันที ไม่สามารถถูกสกัดด้วยการยิงของข้าศึกเป็นเวลา 3 วินาทีหลังเปิดใช้"
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "ซ่อนคุณจากข้าศึก, คืนความทนทาน, ซ่อมชิ้นส่วน, ดับเพลิง, ลบสภาวะมึนงงและรักษาพลรถถัง"
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "เร่งความเร็วพาหนะของคุณเป็นช่วงเวลาหนึ่ง\nและเพิ่มความเสียหายจากการพุ่งชน"
+
+msgid "nitroRamDamage/name"
+msgstr "ตัวอัดอากาศเทอร์โบ"
+
+msgid "nitroRamDamage/onUse"
+msgstr "เพิ่มความเร็วและความเสียหายจากการชนของพาหนะคุณชั่วขณะหนึ่ง"
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "ซ่อมและคืนความทนทานบางส่วนให้กับพาหนะพันธมิตรในรัศมี"
+
+msgid "teamRepairKit/long_special"
+msgstr "ความสามารถรบ ซ่อมชิ้นส่วนโดยทันที, ดับเพลิง, ลบสภาวะมึนงงและคืนความทนทานบางส่วนให้พาหนะพันธมิตรในรัศมี ถ้าใช้อย่างน้อยหนึ่งครั้งในการรบ ความสามารถจะถูกใช้ไปและสามารถเติมได้ด้วยเงิน ถ้าหากไม่ใช้ จะไม่ต้องทำการเติมใหม่<br/><br />มีให้เฉพาะในกิจกรรม<font color='#cbac77'>บาบิลอน: หอคอยมืด</font><br/><br/>ความสามารถที่ไม่ได้ใช้จะถูกลบไปและชดเชยด้วยเงินเท่ากับ 50% ของราคาของมันในอัพเดตถัดไป"
+
+msgid "teamRepairKit/name"
+msgstr "การซ่อมเป็นกลุ่ม"
+
+msgid "teamRepairKit/onUse"
+msgstr "ซ่อมชิ้นส่วนที่เสียหาย, ดับไฟ, ลบสภาวะมึนงงและคืนความทนทานบางส่วนโดยทันทีให้กับพาหนะพันธมิตรที่อยู่ในรัศมี"
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "ซ่อมและคืนความทนทานบางส่วนให้กับพาหนะพันธมิตรในรัศมี"

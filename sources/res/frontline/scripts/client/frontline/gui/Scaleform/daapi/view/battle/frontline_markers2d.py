@@ -1,4 +1,7 @@
-import logging, BigWorld
+from __future__ import absolute_import
+import logging
+from future.utils import viewitems, viewvalues
+import BigWorld
 from Math import Vector3, Vector4, Matrix, WGTerrainMP, WGClampMP, Vector2
 from arena_component_system.epic_sector_warning_component import WARNING_TYPE
 from chat_commands_consts import BATTLE_CHAT_COMMAND_NAMES, INVALID_MARKER_ID, INVALID_MARKER_SUBTYPE, MarkerType, DefaultMarkerSubType, INVALID_TARGET_ID, INVALID_COMMAND_ID
@@ -109,7 +112,7 @@ class FrontlineMissionsPlugin(plugins.MarkerPlugin):
     @staticmethod
     def _getAnyMarkerRepliedByPlayer(markerList):
         somethingRepliedByMe = False
-        for marker in markerList.itervalues():
+        for marker in viewvalues(markerList):
             if marker.getIsRepliedByPlayer():
                 somethingRepliedByMe = True
                 break
@@ -206,8 +209,8 @@ class SectorBasesPlugin(FrontlineMissionsPlugin, ChatCommunicationComponent):
         return MarkerType.BASE_MARKER_TYPE
 
     def getTargetIDFromMarkerID(self, markerID):
-        for targetID in self._markers:
-            if self._markers[targetID].getMarkerID() == markerID:
+        for targetID, marker in viewitems(self._markers):
+            if marker.getMarkerID() == markerID:
                 return targetID
 
         return INVALID_TARGET_ID
@@ -451,7 +454,7 @@ class HeadquartersPlugin(FrontlineMissionsPlugin, ChatCommunicationComponent):
             destructibleComponent.onDestructibleEntityHealthChanged += self.__onDestructibleEntityHealthChanged
             destructibleComponent.onDestructibleEntityIsActiveChanged += self.__activateDestructibleMarker
             hqs = destructibleComponent.destructibleEntities
-            for hq in hqs.itervalues():
+            for hq in viewvalues(hqs):
                 self.__onDestructibleEntityAdded(hq)
 
         else:
@@ -478,7 +481,7 @@ class HeadquartersPlugin(FrontlineMissionsPlugin, ChatCommunicationComponent):
             ctrl.onRemoveCommandReceived -= self.__onRemoveCommandReceived
             ctrl.setInFocusForPlayer -= self.__setInFocusForPlayer
             ctrl.onVehicleFeedbackReceived -= self._onVehicleFeedbackReceived
-        for marker in self._markers.itervalues():
+        for marker in viewvalues(self._markers):
             self._destroyMarker(marker.getMarkerID())
 
         self._markers.clear()
@@ -503,7 +506,7 @@ class HeadquartersPlugin(FrontlineMissionsPlugin, ChatCommunicationComponent):
         return MarkerType.HEADQUARTER_MARKER_TYPE
 
     def getTargetIDFromMarkerID(self, markerID):
-        for targetID, marker in self._markers.iteritems():
+        for targetID, marker in viewitems(self._markers):
             if marker.getMarkerID() == markerID:
                 return targetID
 
@@ -582,7 +585,7 @@ class HeadquartersPlugin(FrontlineMissionsPlugin, ChatCommunicationComponent):
                 return
             hq, targetID = destructibleComponent.getDestructibleEntityAndDestructibleIDByEntityID(hqEntityID)
             if hq is None:
-                _logger.error(b'Expected DestructibleEntity not present! Id: ' + str(hqEntityID))
+                _logger.error(b'Expected DestructibleEntity not present! Id: %s', hqEntityID)
                 self._setMarkerObjectInFocus(markerID, entityInFocusData.isInFocus)
                 return
             focusedMarker = self._markers.get(targetID, None)
@@ -620,7 +623,7 @@ class HeadquartersPlugin(FrontlineMissionsPlugin, ChatCommunicationComponent):
             destructibleComponent = getattr(self.sessionProvider.arenaVisitor.getComponentSystem(), b'destructibleEntityComponent', None)
             if destructibleComponent is not None:
                 hqs = destructibleComponent.destructibleEntities
-                for hqId, _ in hqs.iteritems():
+                for hqId in hqs:
                     self.__activateDestructibleMarker(hqId, True)
 
             else:
@@ -683,7 +686,7 @@ class HeadquartersPlugin(FrontlineMissionsPlugin, ChatCommunicationComponent):
                 return
             hq = destructibleComponent.getDestructibleEntity(entityId)
             if hq is None:
-                _logger.error(b'Expected DestructibleEntity not present! Id: ' + str(entityId))
+                _logger.error(b'Expected DestructibleEntity not present! Id: %d', entityId)
                 return
             markerID = marker.getMarkerID()
             self._setMarkerMatrix(markerID, self.__getMarkerMatrix(hq))
@@ -901,7 +904,7 @@ class SectorWarningPlugin(plugins.MarkerPlugin):
 
     def __init__(self, parentObj):
         super(SectorWarningPlugin, self).__init__(parentObj)
-        self.__markers = dict()
+        self.__markers = {}
         return
 
     def init(self):
@@ -919,7 +922,7 @@ class SectorWarningPlugin(plugins.MarkerPlugin):
         sectorWarningComponent = getattr(self.sessionProvider.arenaVisitor.getComponentSystem(), b'sectorWarningComponent', None)
         if sectorWarningComponent is not None:
             if sectorWarningComponent.warnings is not None:
-                for edgeID, warning in sectorWarningComponent.warnings.iteritems():
+                for edgeID, warning in viewitems(sectorWarningComponent.warnings):
                     self.__onShowSectorWarning(edgeID, warning.type, warning.targetSectorGroup)
 
         else:

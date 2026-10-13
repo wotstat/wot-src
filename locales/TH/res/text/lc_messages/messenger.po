@@ -1516,9 +1516,6 @@ msgstr "มีตัวคูณประสบการณ์จัดการ
 msgid "serviceChannelMessages/additionalXP/unavailable/title"
 msgstr "ไม่มีตัวคูณประสบการณ์จัดการได้ของ WoT Plus ให้"
 
-msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
-msgstr "ล้มเหลวในการเติมยุทธปัจจัยบน %s ทองทั้งหมดของคุณจะใช้ได้เมื่อ การใช้งานของ WG Wallet ได้รับการกู้คืนโดยอัตโนมัติ"
-
 msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
 msgstr "ไม่สามารถเติมคำสั่งสำหรับ %s ได้ การดำเนินการทำไม่ได้ชั่วคราวเนื่องด้วยยังอยู่ในการบำรุงรักษา"
 
@@ -1537,9 +1534,6 @@ msgstr "ไม่สามารถเติมยุทธปัจจัยบ
 msgid "serviceChannelMessages/autoEquipError"
 msgstr "ไม่สามารถเติมยุทธปัจจัยบนรถถัง %s ได้เพราะเงินไม่พอ"
 
-msgid "serviceChannelMessages/autoEquipErrorNoWallet"
-msgstr "ล้มเหลวในการเติมยุทธปัจจัยบน %s ทองทั้งหมดของคุณจะใช้ได้เมื่อ การใช้งานของ WG Wallet ได้รับการกู้คืนโดยอัตโนมัติ"
-
 msgid "serviceChannelMessages/autoEquipSkipped"
 msgstr "ล้มเหลวในการเติมยุทธปัจจัยให้กับรถถัง %s โดยอัตโนมัติ ให้บรรจุยุทธปัจจัยด้วยตัวเอง"
 
@@ -1552,9 +1546,6 @@ msgstr "ล้มเหลวในการเติมกระสุนบน
 msgid "serviceChannelMessages/autoLoadError"
 msgstr "ไม่สามารถเติมกระสุนบนรถถัง %s ได้เพราะเงินไม่พอ"
 
-msgid "serviceChannelMessages/autoLoadErrorNoWallet"
-msgstr "ล้มเหลวในการเติมกระสุนบน %s ทองทั้งหมดของคุณจะใช้ได้เมื่อการใช้งานของ WG Wallet ได้รับการกู้คืนโดยอัตโนมัติ"
-
 msgid "serviceChannelMessages/autoLoadSkipped"
 msgstr "ล้มเหลวในการเติมกระสุนให้กับรถถัง %s โดยอัตโนมัติ ให้เติมกระสุนด้วยตัวเอง"
 
@@ -1566,9 +1557,6 @@ msgstr "ล้มเหลวในการขยายการเช่าร
 
 msgid "serviceChannelMessages/autoRentStyleError"
 msgstr "ล้มเหลวในการขยายการเช่ารูปแบบในราคา %s เงินไม่พอ"
-
-msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
-msgstr "ล้มเหลวในการขยายการเช่ารูปแบบในราคา %s ทองทั้งหมดของคุณจะมีให้ภายหลังการใช้งาน WG Wallet กลับคืนมาโดยอัตโนมัติ"
 
 msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
 msgstr "ขยายช่วงการเช่า"
@@ -1596,9 +1584,6 @@ msgstr "ล้มเหลวที่จะซ่อมรถถัง %s"
 
 msgid "serviceChannelMessages/autoRepairError"
 msgstr "ไม่สามารถซ่อมรถถัง %s ได้เพราะเงินไม่พอ"
-
-msgid "serviceChannelMessages/autoRepairErrorNoWallet"
-msgstr "ล้มเหลวในการซ่อมแซม %s ทองทั้งหมดของคุณจะสามารถใช้ได้เมื่อการใช้งานของ WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
 
 msgid "serviceChannelMessages/autoRepairSkipped"
 msgstr "ล้มเหลวที่จะซ่อม %s โดยอัตโนมัติ ให้ซ่อมยานเกราะด้วยตัวเอง"

@@ -1516,9 +1516,6 @@ msgstr "WoT 플러스 선택식 경험치 보너스 이용 가능"
 msgid "serviceChannelMessages/additionalXP/unavailable/title"
 msgstr "WoT 플러스 선택식 경험치 보너스 이용 불가"
 
-msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
-msgstr "%s의 소모품 재보급에 실패했습니다. 계정 통합 계좌가 복구되는 대로 다시 골드를 사용할 수 있습니다."
-
 msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
 msgstr "%s의 지휘명령 재보급에 실패했습니다. 서버 점검으로 인해 일시적으로 작업을 수행할 수 없습니다."
 
@@ -1537,9 +1534,6 @@ msgstr "%s의 소모품 재보급에 실패했습니다. 소모품을 골드로 
 msgid "serviceChannelMessages/autoEquipError"
 msgstr "크레딧이 부족하여 %s의 소모품 재보급에 실패했습니다."
 
-msgid "serviceChannelMessages/autoEquipErrorNoWallet"
-msgstr "%s의 소모품 재보급에 실패했습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
-
 msgid "serviceChannelMessages/autoEquipSkipped"
 msgstr "%s의 소모품 자동 재보급에 실패했습니다. 정비창에서 수동으로 보급하여 주십시오."
 
@@ -1552,9 +1546,6 @@ msgstr "%s의 포탄 재보급에 실패했습니다. 포탄을 골드로 구매
 msgid "serviceChannelMessages/autoLoadError"
 msgstr "크레딧이 부족하여 %s의 포탄 재보급에 실패했습니다."
 
-msgid "serviceChannelMessages/autoLoadErrorNoWallet"
-msgstr "%s의 포탄 자동 재보급에 실패했습니다. 정비창에서 수동으로 보급하여 주십시오."
-
 msgid "serviceChannelMessages/autoLoadSkipped"
 msgstr "%s의 포탄 자동 보급에 실패했습니다. 정비창에서 수동으로 보급하여 주십시오."
 
@@ -1566,9 +1557,6 @@ msgstr "%s 스타일 대여 기간 연장에 실패했습니다. 골드로 스�
 
 msgid "serviceChannelMessages/autoRentStyleError"
 msgstr "%s 스타일 대여 기간 연장에 실패했습니다. 크레딧 또는 골드가 부족합니다."
-
-msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
-msgstr "%s 스타일 대여 기간 연장에 실패했습니다. 잠시 후 계정 통합 계좌가 복구되는 대로 다시 골드를 사용하실 수 있습니다."
 
 msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
 msgstr "대여 기간 연장"
@@ -1596,9 +1584,6 @@ msgstr "%s 수리에 실패했습니다."
 
 msgid "serviceChannelMessages/autoRepairError"
 msgstr "크레딧이 부족하여 %s의 수리에 실패했습니다."
-
-msgid "serviceChannelMessages/autoRepairErrorNoWallet"
-msgstr "%s 수리에 실패했습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
 
 msgid "serviceChannelMessages/autoRepairSkipped"
 msgstr "%s의 자동 수리에 실패했습니다. 정비창에서 수동으로 수리하여 주십시오."

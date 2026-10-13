@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "기동 시/차체 및 포탑 회전 시 주포 분산도가 {{@ class $highlightClass}}%(generalValue)s%%{{/}} 감소합니다."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "기동 시/ 차체 회전 시\n분산도 %(value)s"
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "주포 분산도가\n감소합니다."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "기동 시/ 차체 및 포탑 회전 시 주포 분산도가 감소합니다."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "저격수"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "고슴도치 및 알파 고슴도치의 {{@ class $highlightClass}}폭발 피해{{/}}에 전차가 완전히 {{@ class $highlightClass}}면역{{/}}이 됩니다.\n고슴도치와 충돌 시에는 충돌 피해를 받습니다."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "고슴도치 폭발 피해에\n면역이 됩니다."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "고슴도치 폭발 피해로부터 전차를 보호합니다."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "고슴도치 및 알파 고슴도치의 폭발 피해에 전차가 완전히 면역이 됩니다.\n고슴도치와 충돌 시에는 충돌 피해를 받습니다."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "폭발 면역"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "기대 피해 범위 {{@ class $highlightClass}}±25%{{/}}가 제거되어 사격 시 피해량을 더 정확하게 예측할 수 있습니다."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "사격 시 기대 피해 범위\n±25%%가 적용되지 않습니다."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "사격 시 기대 피해 범위 ±25%가 적용되지 않습니다."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "기대 피해 범위 ±25%가 제거되어 사격 시 피해량을 더 정확하게 예측할 수 있습니다."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "공격력 제어"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "받는 피해*(사격, 화재, 충돌, 피해 유발 구역, 부식 페이즈, 부품 피해 등)가 {{@ class $highlightClass}}%(mitigation)s%%{{/}} 감소합니다.\n*추락하거나 처형 페이즈에서 받는 피해에는 적용되지 않습니다."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "받는 피해가 %(value)s 감소합니다."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "받는 피해가 감소합니다."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "받는 피해*(사격, 화재, 충돌, 피해 유발 구역, 부식 페이즈, 부품 피해 등)가 감소합니다.\n*추락하거나 처형 페이즈에서 받는 피해에는 적용되지 않습니다."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "피해 흡수"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "사격으로 적 전차에 피해를 입히면 {{@ class $highlightClass}}%(chance)s%%{{/}} 확률로 자신의 전차 내구도가 {{@ class $highlightClass}}%(heal)s{{/}} 회복됩니다."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "사격으로 피해 기록 시 내구도가\n회복될 확률이 %(value)s 증가합니다."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "사격으로 피해를 입히면\n내구도를 회복합니다."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "사격으로 적 전차에 피해를 입히면 일정 확률로 자신의 전차 내구도가 회복됩니다."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "흡혈귀의 이빨"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "전차 내구도가 {{@ class $highlightClass}}%(health)s%%{{/}} 증가합니다."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "전차 내구도 %(value)s"
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "전차 내구도가\n증가합니다."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "전차 내구도가 증가합니다."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "내구도"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "사격으로 적 전차에 피해를 입힐 때 화재를 유발할 확률이 {{@ class $highlightClass}}%(chance)s%%{{/}} 증가합니다."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "화재 유발 확률이\n%(value)s 증가합니다."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "화재 유발\n확률이 증가합니다."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "사격으로 적 전차에 피해를 입힐 때 화재를 유발할 확률이 증가합니다."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "뜨거운 바늘"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "적 전차에 입히는 피해량이 {{@ class $highlightClass}}%(damageFactor)s%%{{/}} 증가합니다."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "적 전차에 입히는 피해량 %(value)s"
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "입히는 피해가\n증가합니다."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "입히는 피해량이 증가합니다."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "세라믹 코어"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "재장전 속도가 {{@ class $highlightClass}}%(reloadTime)s%%{{/}} 증가합니다."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "재장전 속도 %(value)s"
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "재장전 속도가\n증가합니다."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "재장전 속도가 증가합니다."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "기관총"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "전차 내구도가 최대치까지 점차 회복됩니다.\n피해를 받으면 효과가 중단됩니다. "
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "전차 내구도\n점차 회복"
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "내구도가\n회복됩니다."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "전차 내구도가 최대치까지 점차 회복됩니다. 피해를 받으면 효과가 중단됩니다. "
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "재생"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "전투 중 전차에 보유할 수 있는 미륨 수량이 {{@ class $highlightClass}}무제한{{/}}이 됩니다."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "보유할 수 있는 미륨 수량이 무제한이 됩니다."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "보유할 수 있는 미륨 수량이 무제한이 됩니다."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "전투 중 전차에 보유할 수 있는 미륨 수량이 무제한이 됩니다."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "무제한 수집"
+
+msgid "buffs/buffInspiration/body"
+msgstr "모든 승무원의 숙련도 보너스가 {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}} 증가합니다."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s 승무원 숙련도 보너스"
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "승무원 숙련도가\n증가합니다."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "승무원 숙련도가 증가합니다."
+
+msgid "buffs/buffInspiration/header"
+msgstr "사기 강화"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "사격으로 피해를 입힌 후 내구도가 {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} 이하인 적을 즉시 격파합니다.\n보스에게는 해당 효과가 적용되지 않습니다."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "사격으로 피해를 입힌 후 내구도가\n%(value)s 이하인 적을 즉시 격파합니다."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "사격으로 피해를 입힌 후 내구도가 일정량 이하인 적을 즉시 격파합니다."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "사격으로 피해를 입힌 후 내구도가 일정량 이하인 적을 즉시 격파합니다.\n보스에게는 해당 효과가 적용되지 않습니다."
+
+msgid "buffs/buffInstakill/header"
+msgstr "마무리 일격"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "전차의 최고 전진 및 후진 속력이 증가합니다."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "전차의 최고 전진 및\n후진 속력이 증가합니다."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "전차의 최고 전진 및 후진 속력이 증가합니다."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "전차의 최고 전진 및 후진 속력이 증가합니다."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "속력 증가"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "전투 중 적에게 피해를 입혀 획득하는 미륨 수량이 {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}} 증가합니다."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "적으로부터 획득하는\n미륨이 %(value)s 증가합니다."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "적으로부터 획득하는 미륨 수량이 증가합니다."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "전투 중 적에게 피해를 입혀 획득하는 미륨 수량이 증가합니다."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "미륨 추출"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "전투 중 전차의 최대 미륨 보유량이 {{@ class $highlightClass}}%(miriumAmount)s{{/}} 증가합니다."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "최대 미륨 보유량이 %(value)s 증가합니다."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "최대 미륨 보유량이 증가합니다."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "전투 중 전차의 최대 미륨 보유량이 증가합니다."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "넉넉한 수집"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "전투 중 전차가 파괴 및 재생성되어도 모든 미륨을 유지합니다."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "재생성 후에도\n모든 미륨을 유지합니다."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "재생성 후에도 모든 미륨을 유지합니다."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "재생성 후에도 모든 미륨을 유지합니다."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "미륨 보존"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "전투 중 전투 능력 사용 시 소모되는 미륨이 {{@ class $highlightClass}}%(cost)s%%{{/}} 감소합니다."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "능력 사용 시 소모되는 미륨이 %(value)s 감소합니다."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "능력 사용 시 소모되는 미륨이 감소합니다."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "전투 중 전투 능력 사용 시 소모되는 미륨이 크게 감소합니다."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "미륨 효율"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "전투 능력 사용 시 소모한 미륨의 {{@ class $highlightClass}}%(refundAmount)s%%{{/}}를 회수합니다."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "능력 사용 시 소모한\n미륨의 %(value)s를 회수합니다."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "능력 사용 시 소모한 미륨을 일부 회수합니다."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "전투 능력 사용 시 소모한 미륨을 일부 회수합니다."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "미륨 회수"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "엔진 출력이 {{@ class $highlightClass}}%(power)s%%{{/}}, 포탑 회전 속도가 {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}} 증가합니다."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "엔진 출력 %(value)s"
+
+msgid "buffs/buffMobility/description/2"
+msgstr "포탑 회전 속도 %(value)s"
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "엔진 출력 및 포탑 회전 속도가\n증가합니다."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "엔진 출력 및 포탑 회전 속도가 증가합니다."
+
+msgid "buffs/buffMobility/header"
+msgstr "기동"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "전차의 모든 부품이 피해 면역 상태가 됩니다."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "전차의 모든 부품\n피해 면역"
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "부품 손상을\n방지합니다."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "전차의 모든 부품이 피해 면역 상태가 됩니다."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "부품 피해 면역"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Malachite의 기본 변체로 항상 활성화 상태를 유지합니다."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "모든 포탄의 관통력이 {{@ class $highlightClass}}%(shellPen)s%%{{/}} 증가합니다&nbsp;."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "포탄 관통력이 %(value)s 증가합니다."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "모든 포탄의 관통력이 증가합니다."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "모든 포탄의 관통력이 증가합니다."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "포탄 관통력"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "전투 중 전차가 파괴되어도 재생성 후 대체 포탄을 유지합니다."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "재생성 후에도 대체 포탄을\n그대로 유지합니다."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "재생성 후 모든 대체 포탄을 유지합니다."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "전투 중 전차가 파괴되어도 재생성 후 대체 포탄을 유지합니다."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "포탄 보관"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "새로운 페이즈가 시작되거나 재생성 시마다 획득하는 미륨이 {{@ class $highlightClass}}%(soulsBonus)s{{/}} 증가합니다. 전투 중 전차의 최대 미륨 보유량이 {{@ class $highlightClass}}%(miriumAmount)s{{/}} 증가합니다."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "새로운 페이즈 시작 또는 재생성 시\n획득하는 미륨이 %(value)s 증가합니다."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "최대 미륨 보유량이 %(value)s 증가합니다."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "새로운 페이즈 시작 또는 재생성 시 획득하는 미륨 수량과 최대 미륨 보유량이 증가합니다."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "새로운 페이즈가 시작되거나 재생성 시마다 획득하는 미륨 수량이 증가합니다. 전투 중 전차의 최대 미륨 보유량 또한 증가합니다."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "미륨 저장고"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "터보 지속 시간이 {{@ class $highlightClass}}%(timeLength)s%%{{/}} 증가하고 재사용 시간이 {{@ class $highlightClass}}%(reloadTime)s초{{/}} 감소합니다."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "터보 지속 시간이 %(value)s 증가합니다."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "터보 재사용 시간이 %(value)s초 감소합니다."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "터보 지속 시간이 증가하고 재사용 시간이 감소합니다."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "터보 지속 시간이 증가하고 재사용 시간이 감소합니다."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "터보 강화기"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "사격 시 다음 확률에 따라 피해량이 달라집니다.\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} 확률로 {{@ class $highlightClass}}%(damage1)s%%{{/}} 피해 기록\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} 확률로 {{@ class $highlightClass}}%(damage2)s%%{{/}} 피해 기록\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} 확률로 {{@ class $highlightClass}}%(damage3)s%%{{/}} 피해 기록\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} 확률로 {{@ class $highlightClass}}%(damage4)s%%{{/}} 피해 기록"
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "사격 피해가 낮은 수치부터\n매우 높은 수치까지 변동합니다."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "사격 피해가 낮은 수치부터 매우 높은 수치까지 변동합니다."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "일정 확률로 일반 피해량보다 낮거나 매우 높은 피해량을 기록합니다."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "양자 사격"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "세부 정보"

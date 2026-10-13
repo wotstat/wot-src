@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "移動時、車身與炮塔迴轉時的炮管擴散度降低 {{@ class $highlightClass}}%(generalValue)s%%{{/}}。"
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s 移動時與車身迴轉時的\n炮管擴散度。"
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "降低\n炮管擴散度。"
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "降低移動時、車身與炮塔迴轉時的炮管擴散度。"
+
+msgid "buffs/buffAccuracy/header"
+msgstr "狙擊快瞄"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "讓您的車輛完全{{@ class $highlightClass}}不會受到{{/}}刺蝟與阿爾發刺蝟的{{@ class $highlightClass}}爆炸傷害{{/}}。\n車輛碰撞時，仍會受到來自刺蝟的衝撞傷害。"
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "讓您的車輛不會受到\n刺蝟的爆炸傷害。"
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "保護您的車輛不受刺蝟的爆炸傷害。"
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "讓您的車輛完全不會受到刺蝟與阿爾發刺蝟的爆炸傷害。\n車輛碰撞時，仍會受到來自刺蝟的衝撞傷害。"
+
+msgid "buffs/buffBomberResist/header"
+msgstr "爆炸免疫"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "移除 {{@ class $highlightClass}}±25%{{/}} 的潛在傷害浮動範圍，讓射擊結果較容易預測。"
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "射擊無 ±25%% 的傷害\n浮動範圍。"
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "射擊無 ±25% 的傷害浮動範圍。"
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "移除 ±25% 的潛在傷害浮動範圍，讓射擊結果較容易預測。"
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "傷害控制"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "受到的傷害*（包括來自射擊、火災、衝撞、傷害區域、腐蝕階段、配件受損等）降低 {{@ class $highlightClass}}%(mitigation)s%%{{/}}。\n*不適用於墜落與處決階段的傷害。"
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s 受到的傷害。"
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "降低受到的傷害。"
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "降低受到的傷害*（包括來自射擊、火災、衝撞、傷害區域、腐蝕階段、配件受損等）。\n*不適用於墜落與處決階段的傷害。"
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "傷害吸收"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "透過射擊造成敵方車輛傷害時，有 {{@ class $highlightClass}}%(chance)s%%{{/}} 的機率來為您的車輛恢復 {{@ class $highlightClass}}%(heal)s{{/}} 血量。"
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s 透過射擊造成傷害\n來恢復自身血量的機率。"
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "透過射擊造成傷害時\n有機會為您的車輛恢復血量。"
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "透過射擊造成敵方車輛傷害時，有機會為您的車輛恢復血量。"
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "吸血鬼之吻"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "您車輛的生命值提高 {{@ class $highlightClass}}%(health)s%%{{/}}。"
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s 車輛的生命值。"
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "提高\n您車輛的生命值。"
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "提高車輛的耐久性。"
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "耐久提升"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "透過射擊造成傷害時，敵方車輛起火的機率提高 {{@ class $highlightClass}}%(chance)s%%{{/}}。"
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s 敵方車輛\n起火的機率。"
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "提高\n造成起火的機率。"
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "透過射擊造成傷害時，提高敵方車輛起火的機率。"
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "熾熱針刺"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "對敵方車輛造成的傷害提高 {{@ class $highlightClass}}%(damageFactor)s%%{{/}}。"
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s 造成的傷害。"
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "提高\n造成的傷害。"
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "提高造成的傷害。"
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "陶瓷彈頭"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "裝填速度提高 {{@ class $highlightClass}}%(reloadTime)s%%{{/}}。"
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s 裝填速度。"
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "提高\n裝填速度。"
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "提高裝填速度。"
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "機槍速射"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "逐漸將您車輛的血量恢復至最高耐久性。\n效果在受到傷害時中斷。"
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "逐漸恢復您車輛的血量。"
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "恢復\n血量。"
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "逐漸將您車輛的血量完全恢復。效果在受到傷害時中斷。"
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "血量漸增"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "使戰鬥中車輛的迷離物質儲存容量{{@ class $highlightClass}}無上限{{/}}。"
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "使迷離物質儲存容量無上限。"
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "使迷離物質儲存容量無上限。"
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "使戰鬥中車輛的迷離物質儲存容量無上限。"
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "無限收集器"
+
+msgid "buffs/buffInspiration/body"
+msgstr "所有乘員的乘員熟練度加成提高 {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}。"
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s 乘員熟練度加成。"
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "提高乘員\n熟練度。"
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "提升乘員熟練度。"
+
+msgid "buffs/buffInspiration/header"
+msgstr "士氣提振"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "命中敵方車輛並造成傷害後，若其剩餘血量低於或等於 {{@ class $highlightClass}}%(hpThreshold)s%%{{/}}，則立將其摧毀。\n魔王對此效果免疫。"
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "命中敵方車輛並造成傷害後，若其剩餘血量低於或等於 %(value)s\n，則立將其摧毀。"
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "命中敵方車輛並造成傷害後，若其剩餘血量過低，則立即將其摧毀。"
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "命中敵方車輛並造成傷害後，若其剩餘血量過低，則立即將其摧毀。\n魔王對此效果免疫。"
+
+msgid "buffs/buffInstakill/header"
+msgstr "殘血終結"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "提高車輛的最高前進與後退速度。"
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "提高車輛的最高\n前進與後退速度。"
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "提高車輛的最高前進與後退速度。"
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "提高車輛的最高前進與後退速度。"
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "提速衝鋒"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "戰鬥中對敵人造成傷害所獲得的迷離物質數量增加 {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}。"
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s 從敵人獲得的\n迷離物質。"
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "增加從敵人獲得的迷離物質。"
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "增加戰鬥中對敵人造成傷害所獲得的迷離物質。"
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "迷離物質萃取"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "戰鬥中車輛的迷離物質儲存容量上限增加 {{@ class $highlightClass}}%(miriumAmount)s{{/}}。"
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s 迷離物質儲存容量上限。"
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "增加迷離物質儲存容量上限。"
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "增加戰鬥中車輛的迷離物質儲存容量上限。"
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "大容量收集器"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "若車輛在戰鬥中遭摧毀，重生後將保有所有的迷離物質。"
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "重生後，車輛保有所有的\n迷離物質。"
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "重生後保有所有的迷離物質。"
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "重生後保有所有的迷離物質。"
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "迷離物質守護者"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "在戰鬥中使用戰鬥能力的迷離物質費用降低 {{@ class $highlightClass}}%(cost)s%%{{/}}。"
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s 能力的迷離物質費用。"
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "降低使用能力的迷離物質費用。"
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "大幅降低在戰鬥中使用戰鬥能力的迷離物質費用。"
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "迷離物質高效運用"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "啟用戰鬥能力時，恢復 {{@ class $highlightClass}}%(refundAmount)s%%{{/}} 迷離物質花費。"
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "啟用戰鬥能力時，恢復 %(value)s \n迷離物質花費。"
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "啟用戰鬥能力時，恢復部分迷離物質花費。"
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "啟用戰鬥能力時，恢復部分迷離物質花費。"
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "迷離物質恢復"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "引擎功率提高 {{@ class $highlightClass}}%(power)s%%{{/}} 且炮塔迴轉速度提高 {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}。"
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s 引擎功率。"
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s 炮塔迴轉速度。"
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "提高引擎功率\n與炮塔迴轉速度。"
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "提高引擎功率與炮塔迴轉速度。"
+
+msgid "buffs/buffMobility/header"
+msgstr "全力衝刺"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "使所有車輛配件不會受到任何傷害。"
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "使所有車輛配件\n不會受到任何傷害。"
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "保護配件\n不受傷害。"
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "使所有車輛配件不會受到任何傷害。"
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "配件強化"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "孔雀石的預設異化劑，總是處於啟用狀態。"
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "所有砲彈的穿透力提高 {{@ class $highlightClass}}%(shellPen)s%%{{/}}。"
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s 砲彈穿透力。"
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "提高所有砲彈的穿透力。"
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "提高所有砲彈的穿透力。"
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "穿甲彈頭"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "若車輛在戰鬥中遭摧毀，重生時將保留所有替代砲彈。"
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "重生後保留所有\n替代砲彈。"
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "重生後保留所有替代砲彈。"
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "若車輛在戰鬥中遭摧毀，重生時將保留所有替代砲彈。"
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "砲彈守護者"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "在每個新階段開始時或重生後，獲得的迷離物質數量增加 {{@ class $highlightClass}}%(soulsBonus)s{{/}}。戰鬥中車輛的迷離物質儲存容量上限提高{{@ class $highlightClass}}%(miriumAmount)s{{/}}。"
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s 在新階段開始時\n或重生後，獲得的迷離物質。"
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s 迷離物質儲存容量上限。"
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "提高迷離物質儲存容量，以及增加在新階段開始時或重生後獲得的數量。"
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "增加在每個新階段開始時或重生後，獲得的迷離物質數量。提高戰鬥中車輛的迷離物質儲存容量上限。"
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "迷離物質增量"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "「渦輪增壓器」持續時間延長 {{@ class $highlightClass}}%(timeLength)s%%{{/}} 且冷卻時間縮短 {{@ class $highlightClass}}%(reloadTime)s 秒{{/}}。"
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s「渦輪增壓器」持續時間。"
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s 秒「渦輪增壓器」冷卻時間。"
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "延長「渦輪增壓器」持續時間並縮短冷卻時間。"
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "延長「渦輪增壓器」持續時間並縮短冷卻時間。"
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "渦輪強化器"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "射擊時有機會造成特定傷害量：\n• 有 {{@ class $highlightClass}}%(chance1)s%%{{/}} 的機率造成 {{@ class $highlightClass}}%(damage1)s%%{{/}} 的傷害；\n• 有 {{@ class $highlightClass}}%(chance2)s%%{{/}} 的機率造成 {{@ class $highlightClass}}%(damage2)s%%{{/}} 的傷害；\n• 有 {{@ class $highlightClass}}%(chance3)s%%{{/}} 的機率造成 {{@ class $highlightClass}}%(damage3)s%%{{/}} 的傷害；\n• 有 {{@ class $highlightClass}}%(chance4)s%%{{/}} 的機率造成 {{@ class $highlightClass}}%(damage4)s%%{{/}} 的傷害。"
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "射擊傷害在低到\n極高之間浮動。"
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "射擊傷害在低到極高之間浮動。"
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "有機會造成低於一般或極高的傷害量。"
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "量子射擊"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "詳情"

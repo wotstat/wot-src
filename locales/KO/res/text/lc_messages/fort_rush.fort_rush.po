@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "모든 데이터 블록 완료!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "데이터 블록 {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "안테나를 장악하고, 네트워크를 사수하고, 통신을 확보하십시오."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "모드 남은 시간:"
+
+msgid "bannerTooltip/header"
+msgstr "검은 신호"
+
+msgid "bannerTooltip/mode"
+msgstr "모드"
+
+msgid "bannerTooltip/modeHint"
+msgstr "— 다른 게임 모드로 전환"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "사용 중인 컴퓨터 사양이 해당 모드를 플레이하기에 부족합니다. 그래픽 왜곡 및 전차 이동 문제를 경험할 수 있으며 게임 클라이언트가 충돌할 수도 있습니다."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "고사양 컴퓨터가 필요한 모드입니다. 지도 불러오기 시간 지연, 그래픽 왜곡, 전차 이동 문제 등을 경험할 수도 있습니다. 사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "고사양 모드"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "고사양 모드"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "고사양 모드"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "내구도 회복"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "공로 점수"
+
+msgid "battleLoading/description"
+msgstr "안테나를 장악하고, 네트워크를 사수하고, 통신을 확보하십시오."
+
+msgid "battleLoading/header"
+msgstr "검은 신호"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "안테나를 점령하면 전차 내구도가 소량 회복됩니다. 해당 보너스를 활용하여 거점을 사수하고 반격에 대비하십시오."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "확보 및 회복"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "적 전차가 있으면 안테나를 점령할 수 없습니다. 방해하는 적을 처리하고 군사 시설을 계속 확보하십시오."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "점령 경쟁"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "재배치 후 10초 동안 전차가 피해로부터 보호됩니다. 주어진 시간을 활용하여 전투에 복귀하거나 엄폐하십시오."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "재배치 보호"
+
+msgid "battleQueue/title"
+msgstr "검은 신호"
+
+msgid "capturingIndicator/captured"
+msgstr "안테나 점령 완료"
+
+msgid "capturingIndicator/capturing"
+msgstr "안테나 점령 중"
+
+msgid "capturingIndicator/contesting"
+msgstr "안테나 점령 방해"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "안테나 무력화"
+
+msgid "endGame/reason/210"
+msgstr "양 팀 신호 점수 제한 도달"
+
+msgid "endGame/reason/3"
+msgstr "시간 제한 도달"
+
+msgid "endGame/reason/6/lose"
+msgstr "적군 신호 점수 제한 도달"
+
+msgid "endGame/reason/6/win"
+msgstr "아군 신호 점수 제한 도달"
+
+msgid "endGame/reason/7"
+msgstr "시간 제한 도달"
+
+msgid "notifications/progression/header"
+msgstr "축하합니다!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "세부 정보"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "진행 단계 완료 보상&nbsp;%(stageIdx)s: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "모든 데이터 블록을 완료했습니다."
+
+msgid "progression/completedTitle"
+msgstr "진행 완료!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "남은 시간:"
+
+msgid "progression/dailyMissions/title"
+msgstr "야전 명령"
+
+msgid "progression/description"
+msgstr "검은 신호 전투에서 일일 임무를 완료하여 진행도를 높이십시오."
+
+msgid "progression/info_button/body"
+msgstr "추가 정보 확인"
+
+msgid "progression/info_button/header"
+msgstr "검은 신호 정보"
+
+msgid "progression/widget/stageLabel"
+msgstr "데이터 블록 %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "모든 데이터 블록을 완료했습니다!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "완료"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "데이터 블록 보상"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "현재 데이터 블록"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "일일 임무 초기화까지:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "검은 신호"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "현재 진행 상황"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "일시적으로 진행 상황을 이용할 수 없습니다."
+
+msgid "progression/widget/unavailable"
+msgstr "진행 상황 이용 불가"
+
+msgid "progressionView/stateHeader"
+msgstr "검은 신호 진행"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "취소"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "팀에 아직 전차장님이 필요합니다! 전장을 이탈하면 팀이 불리해지며, 전차장님은 보너스를 획득할 수 없고 임무도 진행되지 않습니다."
+
+msgid "quitBattle/leaver/submit"
+msgstr "나가기"
+
+msgid "quitBattle/leaver/title"
+msgstr "전장 이탈"
+
+msgid "respawnTimer/description"
+msgstr "다른 지점에 재배치하면 전략적 우위를 점할 수 있습니다."
+
+msgid "respawnTimer/title"
+msgstr "배치까지"
+
+msgid "rewardScreen/button"
+msgstr "확인"
+
+msgid "rewardScreen/title"
+msgstr "데이터 블록 보상 해제"
+
+msgid "timersPanel/invulnerable"
+msgstr "무적"
+
+msgid "tooltips/eventPoints/body"
+msgstr "데이터 패킷을 획득하여 데이터 블록을 완료하고 주요 보상과 값진 자원을 획득해 보십시오. 데이터 패킷은 피해 기록, 적 전차 격파, 거점 점령, 일일 임무 완료 시 획득할 수 있습니다."
+
+msgid "tooltips/eventPoints/header"
+msgstr "데이터 패킷"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "모든 전차"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "필터 초기화"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "이용 가능한 전차를 확인하려면 필터를 초기화하십시오."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "해당 선별 전차 목록에는 모드에 적합한 전차가 없습니다."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "적합한 전차 없음"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "일치하는 전차 없음"
+
+msgid "welcomeScreen/button"
+msgstr "계속"
+
+msgid "welcomeScreen/description1"
+msgstr "플레이어는 분쟁 지역에 있는 비밀 네트워크를 확보하고 사수하라는 명령을 받은 기갑 부대의 일원입니다. 어떤 대가를 치르더라도 네트워크를 장악해야 합니다."
+
+msgid "welcomeScreen/description2"
+msgstr "누군가 정보를 숨기기 위해 엄청난 노력을 기울였습니다. 임무를 완료하여 암호화된 조각을 복구하십시오."
+
+msgid "welcomeScreen/description3"
+msgstr "데이터 블록을 완료하면 이벤트 임무의 값진 보상을 획득할 수 있습니다."
+
+msgid "welcomeScreen/header1"
+msgstr "안테나 점령"
+
+msgid "welcomeScreen/header2"
+msgstr "통신 해독"
+
+msgid "welcomeScreen/header3"
+msgstr "진행 및 보상"
+
+msgid "welcomeScreen/title"
+msgstr "검은 신호"

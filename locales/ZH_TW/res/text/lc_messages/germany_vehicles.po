@@ -280,6 +280,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Chassis_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Chassis_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Chassis_G122_VK6501H"
 msgstr "VK 65.01 (H)"
 
@@ -509,7 +512,7 @@ msgid "Chassis_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Chassis_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Chassis_G23_Grille"
 msgstr "Grille"
@@ -549,6 +552,9 @@ msgstr "VK 30.01 (P) verstärkteketten"
 
 msgid "Chassis_G27_VK3001P_2_short"
 msgstr "VK 30.01 (P)\nverstärkteketten"
+
+msgid "Chassis_G28_PzIII_IV"
+msgstr "Pz.Kpfw. III/IV"
 
 msgid "Chassis_G37_Ferdinand"
 msgstr "Ferdinand"
@@ -730,6 +736,9 @@ msgstr "Indien-Panzer"
 msgid "Chassis_G89_Leopard1"
 msgstr "Leopard 1"
 
+msgid "Chassis_G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
 msgid "Chassis_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A1"
 
@@ -892,10 +901,10 @@ msgstr "Continental AOS-895-3"
 msgid "Continental_AOS-895-3_short"
 msgstr "Continental\nAOS-895-3"
 
-msgid "Continental_AVI_1790_8"
+msgid "Continental_AVI_1790_8A"
 msgstr "Continental AVI-1790-8"
 
-msgid "Continental_AVI_1790_8_short"
+msgid "Continental_AVI_1790_8A_short"
 msgstr "Continental\nAVI-1790-8"
 
 msgid "DB_603_A1"
@@ -1549,8 +1558,17 @@ msgstr "出色的戰車炮與良好的機動性"
 msgid "G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
+msgid "G121_Grille_15_L63_FR_descr"
+msgstr "1942 年夏季，Waffenamt（德意志陸軍兵器局）與 Krupp 和 Rheinmetall 公司簽署了以 Panther 戰車底盤設計驅逐戰車的協議。車輛預計裝上 128 毫米 K 43 炮管或 150 毫米 sFH 43 榴彈炮。計畫被命名為 Grille 12 與 Grille 15，車輛配備後置戰鬥室，只在火炮系統類型上有所差異。之後 Grille 15 裝載了一門長達 63 倍徑的 150 毫米炮管，使其能夠在 4,000 公尺外穿透 200 毫米的裝甲。然而，研發進度緩慢，Grille 15 最終也僅存於藍圖。"
+
+msgid "G121_Grille_15_L63_FR_short"
+msgstr "Grille 15 BS"
+
 msgid "G121_Grille_15_L63_descr"
-msgstr "1942 年夏季，Waffenamt（德意志陸軍兵器局）與 Krupp 和 Rheinmetall 公司簽署了以 Panther 戰車底盤設計驅逐戰車的協議。車輛預計裝上 128 毫米 K 43 戰車炮或 150 毫米 sFH 43 榴彈炮。計畫被命名為 Grille 12 與 Grille 15，車輛配備後置戰鬥室，只在火炮系統類型上有所差異。之後 Grille 15 裝載了一門長達 63 倍徑的 150 毫米戰車炮，使其能夠在 4,000 公尺外穿透 200 毫米的裝甲。然而，研發進度緩慢，Grille 15 最終也僅存於藍圖。"
+msgstr "1942 年夏季，Waffenamt（德意志陸軍兵器局）與 Krupp 和 Rheinmetall 公司簽署了以 Panther 戰車底盤設計驅逐戰車的協議。車輛預計裝上 128 毫米 K 43 炮管或 150 毫米 sFH 43 榴彈炮。計畫被命名為 Grille 12 與 Grille 15，車輛配備後置戰鬥室，只在火炮系統類型上有所差異。之後 Grille 15 裝載了一門長達 63 倍徑的 150 毫米炮管，使其能夠在 4,000 公尺外穿透 200 毫米的裝甲。然而，研發進度緩慢，Grille 15 最終也僅存於藍圖。"
 
 msgid "G121_Grille_15_L63_short"
 msgstr "Grille 15"
@@ -2351,7 +2369,7 @@ msgid "G195_HWK_40_short"
 msgstr "HWK 40"
 
 msgid "G195_HWK_40_short_special"
-msgstr "良好的機動性，容易操控的炮管"
+msgstr "砲彈校準系統，容易操控的炮管"
 
 msgid "G196_Versuchspanzer_57"
 msgstr "Versuchspanzer 57"
@@ -2399,16 +2417,16 @@ msgid "G200_Chi_Go_short_special"
 msgstr "不錯的炮塔裝甲，較高的單發平均傷害"
 
 msgid "G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_descr"
-msgstr "?empty?"
+msgstr "Pz.Kpfw. VI Ausf.P，更廣為人知的名稱為 VK 45.01 (P) 或 Porsche Tiger，是最奇特的德國重型戰車之一。裝備兩具 Typ 101 氣冷式引擎與電子傳動系統，但由於動力裝置過於複雜且不可靠，導致此車輛從未進入量產。多虧了大洗女子學園，它才得以重獲新生。這輛戰車在學園艦的底部被發現，並由汽車部的成員修復，她們後來也成為其乘員 — 豹獅隊。憑藉高超的機械工程技術，她們不僅讓這輛脾氣暴躁的 Porsche Tiger 維持備戰狀態，還進行了升級，為其安裝可短暫提升速度的裝置。"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_long_special"
-msgstr "VK 45.01 (P) 為德國 VI 階重型戰車，擁有堅固的正面裝甲，可穩定抵擋同階中型與重型戰車的標準砲彈。其炮管具有良好的每分鐘傷害，以及可靠的穿透力與單發平均傷害。儘管速度較慢，但其獨特的系統可暫時提升機動性，使其能快速加速至最高速度。"
+msgstr "Tiger (P) Leoponsan 為德國 VI 階重型戰車，擁有堅固的正面裝甲，可穩定抵擋同階中型與重型戰車的標準砲彈。其炮管具有良好的每分鐘傷害，以及可靠的穿透力與單發平均傷害。儘管速度較慢，但其獨特的系統可暫時提升機動性，使其能快速達到最高速度。"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leo"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short_special"
 msgstr "堅固的正面裝甲，機動性改良系統"
@@ -2787,6 +2805,21 @@ msgstr "Indien-Pz."
 
 msgid "G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_descr"
+msgstr "Automaton 雖令人驚嘆，卻談不上優雅。一頭充滿蠻力的巨獸，活塞如工廠衝壓機般敲擊，排氣孔如鑄造廠般吐出廢氣。誕生於偉大的蒸汽機時代，比打造自身那雙沾滿煤灰的手更長壽；現代戰爭中的那些鋼鐵巨獸，在其宏大的發條裝置面前黯然失色。與採用新式引擎的戰車並肩作戰，發出雷鳴般的聲響，而當柴油引擎發出的刺耳戰鬥聲響終於平息時，就只剩 Automaton 穩定且不知疲倦的鏗鏘聲。"
+
+msgid "G89_Leopard1_CFE_A_long_special"
+msgstr "Automaton 為德國 X 階中型戰車，擁有近乎完美的炮管參數。此車輛無顯著弱點，擅長遠距離戰鬥與在轉角處快速探頭射擊。出色的機動性，讓其進一步提升作戰效率，能迅速變換位置，並在戰場上的任何區域發揮影響力。"
+
+msgid "G89_Leopard1_CFE_A_short"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_short_special"
+msgstr "絕佳的準度，出色的機動性"
 
 msgid "G89_Leopard1_descr"
 msgstr "德意志聯邦共和國的主力戰車。於 1956 年開始研發。第一輛原型車是在 1965 年的 Krauss-Maffei 工廠生產完成。Leopard 1 曾於超過 10 個國家軍隊中服役。"
@@ -3167,6 +3200,12 @@ msgid "MTU_MB_838_CaM_500"
 msgstr "MTU MB 838 CaM-500"
 
 msgid "MTU_MB_838_CaM_500A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A_short"
 msgstr "MTU MB 838 CaM-500A"
 
 msgid "MTU_MB_838_CaM_500A_short"
@@ -3637,6 +3676,9 @@ msgstr "Maybach Neues Projekt A"
 msgid "Maybach_HL_234P60_short"
 msgstr "Maybach Neues Projekt"
 
+msgid "Maybach_HL_234_FR"
+msgstr "Maybach HL 234"
+
 msgid "Maybach_HL_234_TRM_P30"
 msgstr "Maybach HL 234 TRM P30"
 
@@ -3934,9 +3976,6 @@ msgstr "Pz. 38 (t)"
 msgid "PzI"
 msgstr "Pz.Kpfw. I"
 
-msgid "PzIII-IV"
-msgstr "Pz.Kpfw. III/IV"
-
 msgid "PzIII-IV_ausf_B"
 msgstr "Pz.Kpfw. III/IV verstärkteketten"
 
@@ -4225,6 +4264,9 @@ msgstr "SEM 25"
 msgid "SEM25_1"
 msgstr "SEM 25A"
 
+msgid "SEM25_1_CFE_A"
+msgstr "SEM 25A"
+
 msgid "SEM_25A"
 msgstr "SEM 25A"
 
@@ -4489,6 +4531,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Turret_1_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Turret_1_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Turret_1_G122_VK6501H"
 msgstr "VK 65.01 (H) S.W."
 
@@ -4688,7 +4733,7 @@ msgid "Turret_1_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Turret_1_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P) Turm"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Turret_1_G23_Grille"
 msgstr "Grille"
@@ -4797,6 +4842,9 @@ msgstr "Indien-Panzer"
 
 msgid "Turret_1_G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "Turret_1_G89_Leopard1_CFE_A"
+msgstr "Automaton"
 
 msgid "Turret_1_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A2"
@@ -5170,11 +5218,17 @@ msgstr "10,5 cm Bordkanone L7"
 msgid "_105mm_Bordkanone_L7A3"
 msgstr "10,5 cm Bordkanone L7A3"
 
+msgid "_105mm_Bordkanone_L7A3_CFE_A"
+msgstr "10,5 cm Bordkanone L7A3"
+
 msgid "_105mm_DM11"
 msgstr "DM11"
 
 msgid "_105mm_DM11_A"
 msgstr "DM11 (A)"
+
+msgid "_105mm_DM11_CFE_A"
+msgstr "DM11"
 
 msgid "_105mm_DM11_Kurz"
 msgstr "DM11 Kurz"
@@ -5215,6 +5269,9 @@ msgstr "DM13-20"
 msgid "_105mm_DM13_A"
 msgstr "DM13 (A)"
 
+msgid "_105mm_DM13_CFE_A"
+msgstr "DM13"
+
 msgid "_105mm_DM13_Kurz"
 msgstr "DM13 Kurz"
 
@@ -5229,6 +5286,9 @@ msgstr "DM23"
 
 msgid "_105mm_DM23_A"
 msgstr "DM23 (A)"
+
+msgid "_105mm_DM23_CFE_A"
+msgstr "DM23"
 
 msgid "_105mm_DM502"
 msgstr "DM502"
@@ -5374,9 +5434,6 @@ msgstr "Pzgr 39 LV"
 msgid "_105mm_PzGrRot"
 msgstr "PzGr rot"
 
-msgid "_105mm_Pzgr.40"
-msgstr "Pzgr 40"
-
 msgid "_105mm_Pzgr.40L1"
 msgstr "Pzgr 40 L1"
 
@@ -5427,6 +5484,9 @@ msgstr "Pzgr. 40 (180B)"
 
 msgid "_105mm_Pzgr_40_45"
 msgstr "Pzgr. 40/45"
+
+msgid "_105mm_Pzgr_40_A"
+msgstr "Pzgr 40"
 
 msgid "_105mm_Pzgr_40_E"
 msgstr "Pzgr. 40 E"
@@ -5535,6 +5595,9 @@ msgstr "10WSc"
 
 msgid "_10WSc_CFE_T"
 msgstr "10WSc T"
+
+msgid "_10WSc_FR"
+msgstr "10WSc"
 
 msgid "_10WSc_P"
 msgstr "10WSc P"
@@ -6133,6 +6196,9 @@ msgstr "Gr. 44 Hl/A"
 msgid "_150mm_Gr_HL"
 msgstr "Gr. HL"
 
+msgid "_150mm_Gr_HL_FR"
+msgstr "Gr. HL"
+
 msgid "_150mm_Gr_Hl_A"
 msgstr "Gr. Hl/A"
 
@@ -6155,6 +6221,9 @@ msgid "_150mm_Pak_L_44"
 msgstr "15 cm Pak L/44"
 
 msgid "_150mm_Pak_L_63"
+msgstr "15 cm Pak L/63"
+
+msgid "_150mm_Pak_L_63_FR"
 msgstr "15 cm Pak L/63"
 
 msgid "_150mm_PzGr39H2_SH"
@@ -6181,6 +6250,9 @@ msgstr "Pzgr. 42 (WT IV) T"
 msgid "_150mm_Pzgr_44"
 msgstr "Pzgr. 44"
 
+msgid "_150mm_Pzgr_FR"
+msgstr "Pzgr."
+
 msgid "_150mm_Pzgr_m_Hb"
 msgstr "Pzgr. (m.Hb)"
 
@@ -6204,6 +6276,9 @@ msgstr "Sprgr. 18 (Grille)"
 
 msgid "_150mm_Sprgr_36"
 msgstr "Sprgr. 36"
+
+msgid "_150mm_Sprgr_FR"
+msgstr "Sprgr."
 
 msgid "_150mm_Sprgr_G"
 msgstr "Sprgr. G"

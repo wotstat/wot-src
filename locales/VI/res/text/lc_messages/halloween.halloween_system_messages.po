@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Khả năng Chiến đấu"
+
+msgid "make_choice/server_error"
+msgstr "Tác vụ tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "TUYỂN QUÂN"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Đã tuyển"
+
+msgid "notification/crew_reward/title"
+msgstr "Đã lấy thưởng"
+
+msgid "open_artefact/server_error"
+msgstr "Tác vụ tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Đã nhận Chìa Giải mã: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Biên nhận"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Chìa Giải mã bị bỏ: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Giải mã"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Thất bại khi tái tiếp tế Khả năng Chiến đấu cho %s. Lỗi kỹ thuật."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Thất bại khi tái tiếp tế Khả năng Chiến đấu cho %s. Không đủ nguồn lực."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Đã tái tiếp tế Khả năng Chiến đấu cho %s. Chi phí "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Đã nhận Chìa Giải mã"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Có Báo cáo khả dụng để giải mã"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Chế độ: Babylon: Dark Tower"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr ": Babylon: Dark Tower (Thường)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr ": Babylon: Dark Tower (Cao)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr ": Babylon: Dark Tower (Ác mộng)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Trùm đã bị đánh bại"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Độ khó"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Thường"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Cao"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Ác mộng"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Số Pha hoàn tất: %(curPhase)s trên %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Hoàn thành Mục tiêu!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Hoàn thành Mục tiêu!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Xe"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Chi phí: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Giao dịch Tài chính"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Bạn có thể chọn độ khó ở Ga-ra của Babylon: Dark Tower."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Đã Mở Khóa Độ Khó Cao"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Bạn có thể chọn độ khó ở Ga-ra của Babylon: Dark Tower."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Đã Mở Khóa Độ Khó Ác mộng"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "%(vehicle)s giờ đã khả dụng cho chiến trận Babylon: Dark Tower."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Chiến trận trong Babylon: Dark Tower tạm thời không khả dụng.\nHãy thử lại sau."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Chiến trận trong Babylon: Dark Tower (%(difficulty)s) tạm thời không khả dụng.\nHãy thử lại sau."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Babylon: Dark Tower tạm thời không khả dụng. Hãy dõi theo tin tức cập nhật trên trang chủ."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Chỉ huy Trung đội đã đổi độ khó sang mức: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Người chơi %(userName)s chưa mở khóa được một trong các độ khó."

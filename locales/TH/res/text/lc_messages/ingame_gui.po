@@ -97,31 +97,31 @@ msgstr "ดูที่ <เขตบนแผนที่ย่อ>!"
 msgid "chat_example/attention_to_position"
 msgstr "ระวังตำแหน่งดังกล่าว!"
 
-msgid "chat_example/global_msg/atk/focus_hq"
+msgid "chat_example/global_msg_atk_focus_hq"
 msgstr "ทำลายเป้าหมาย"
 
-msgid "chat_example/global_msg/atk/save_tanks"
+msgid "chat_example/global_msg_atk_save_tanks"
 msgstr "รักษารถถังของคุณ!"
 
-msgid "chat_example/global_msg/atk/time"
+msgid "chat_example/global_msg_atk_time"
 msgstr "ยึดเขต"
 
-msgid "chat_example/global_msg/def/focus_hq"
+msgid "chat_example/global_msg_def_focus_hq"
 msgstr "ปกป้องเป้าหมาย"
 
-msgid "chat_example/global_msg/def/save_tanks"
+msgid "chat_example/global_msg_def_save_tanks"
 msgstr "รักษารถถังของคุณ!"
 
-msgid "chat_example/global_msg/def/time"
+msgid "chat_example/global_msg_def_time"
 msgstr "ป้องกันเขต"
 
-msgid "chat_example/global_msg/lane/center"
+msgid "chat_example/global_msg_lane_center"
 msgstr "เข้าเสริมกำลังเขต"
 
-msgid "chat_example/global_msg/lane/east"
+msgid "chat_example/global_msg_lane_east"
 msgstr "เข้าเสริมกำลังเขต"
 
-msgid "chat_example/global_msg/lane/west"
+msgid "chat_example/global_msg_lane_west"
 msgstr "เข้าเสริมกำลังเขต"
 
 msgid "chat_example/going_there"
@@ -232,31 +232,31 @@ msgstr "ฉันจะป้องกันฐานเอง!"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "ฉันกำลังป้องกันฐาน %(strArg1)s!"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "ทำลายเป้าหมาย!"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
 msgstr "เรายังมีเวลาพอ รักษารถถังของคุณไว้ให้ดี!"
 
-msgid "chat_shortcuts/global_msg/atk/time"
+msgid "chat_shortcuts/global_msg_atk_time"
 msgstr "เวลากำลังจะหมด ยึดเขตด้วยทุกอย่างที่คุณมีให้ได้!"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "ป้องกันเป้าหมายให้ได้!"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
 msgstr "เราต้องรักษาตำแหน่งให้ได้ พยายามปกป้องรถถังของคุณเอาไว้!"
 
-msgid "chat_shortcuts/global_msg/def/time"
+msgid "chat_shortcuts/global_msg_def_time"
 msgstr "เวลากำลังจะหมด ปกป้องเขตต่างๆเอาไว้ให้ได้!"
 
-msgid "chat_shortcuts/global_msg/lane/center"
+msgid "chat_shortcuts/global_msg_lane_center"
 msgstr "เขต %(strArg1)s ต้องการความช่วยเหลือ เข้าเสริมกำลังเร็ว!"
 
-msgid "chat_shortcuts/global_msg/lane/east"
+msgid "chat_shortcuts/global_msg_lane_east"
 msgstr "เขต %(strArg1)s ต้องการความช่วยเหลือ เข้าเสริมกำลังเร็ว!"
 
-msgid "chat_shortcuts/global_msg/lane/west"
+msgid "chat_shortcuts/global_msg_lane_west"
 msgstr "เขต %(strArg1)s ต้องการความช่วยเหลือ เข้าเสริมกำลังเร็ว!"
 
 msgid "chat_shortcuts/going_there"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "กด"
 
 msgid "devMaps/mapInfo/info"
-msgstr "อาจจะมีเหตุการณ์สุ่มเกิดขึ้นในแผนที่นี้ แผนที่แบบนี้จะถูกปิดได้ในการตั้งค่าเกม"
+msgstr "อาจจะมีเหตุการณ์สุ่มเกิดขึ้นในแผนที่นี้"
 
 msgid "devMaps/mapInfo/text"
 msgstr "แผนที่มีเหตุการณ์สุ่ม"

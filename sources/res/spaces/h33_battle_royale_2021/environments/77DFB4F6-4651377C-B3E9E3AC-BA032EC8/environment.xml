@@ -284,6 +284,6 @@
 		<waterReflectionAttenuation>1</waterReflectionAttenuation>
 	</SimplifiedDeferred>
 	<VisibilityTunnel>
-		<shouldOverrideSettings>false</shouldOverrideSettings>
+		<overrideMode>none</overrideMode>
 	</VisibilityTunnel>
 </root>

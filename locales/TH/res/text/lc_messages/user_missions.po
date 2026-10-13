@@ -328,6 +328,9 @@ msgstr "รับรางวัล"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "รับรางวัล"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "ทุกๆภารกิจปกติ, ภารกิจพิเศษหรือภารกิจโบนัสทั้งหมดจะเพิ่มความก้าวหน้าให้คุณ"
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "มีให้"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "กลับมาออกรบ! ปฏิบัติภารกิจประจำวันเพื่อรับรางวัลมหากาพย์: {progres}"
+msgstr "กลับมาออกรบกัน! ปฏิบัติภารกิจประจำวันให้สำเร็จเพื่อคว้ารางวัลมหากาพย์: {{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "เมื่อคุณปฏิบัติสามภารกิจปกติสำเร็จ ก็จะมีภารกิจโบนัสให้โดยจะมีรางวัลให้มากกว่าเดิม ภารกิจโบนัสจะต้องปฏิบัติให้สำเร็จภายในวันที่ได้รับก่อนที่มันจะหมดอายุไป"
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "โล่"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "ข้อจำกัดพาหนะ:"
+msgstr "ผ่านด้วย"
 
 msgid "tooltip/weekly_mission"
 msgstr "ภารกิจประจำสัปดาห์"

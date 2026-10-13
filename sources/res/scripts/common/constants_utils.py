@@ -26,14 +26,16 @@ class ConstInjector(with_metaclass(ConstInjectorMeta, object)):
     @classmethod
     def inject(cls, personality=None):
         origin = cls.__bases__[0]
-        originValues = {originValue for originAttr, originValue in viewitems(origin.__dict__) if originAttr[0] != b'_' and cls._isEligible(originValue)}
+        originValues = {originValue: originAttr for originAttr, originValue in viewitems(origin.__dict__) if originAttr[0] != b'_' and cls._isEligible(originValue)}
         for attr in cls._extra_attrs:
             value = getattr(cls, attr)
-            msg = b"{cls}: origin {origin} already has attr '{attr}' with value '{value}'"
             if hasattr(origin, attr) and cls._isEligible(value):
+                msg = b"{cls}: origin {origin} already has attr '{attr}' with value '{value}'"
                 raise SoftException(msg.format(cls=cls, origin=origin, attr=attr, value=getattr(origin, attr)))
-            if value in originValues:
-                raise SoftException(msg.format(cls=cls, origin=origin, attr=attr, value=value))
+            attrName = originValues.get(value)
+            if attrName:
+                msg = b"'{extAttr}' of {cls}: has the same value '{value}' as '{attr}' in origin {origin}"
+                raise SoftException(msg.format(cls=cls, origin=origin, extAttr=attr, attr=attrName, value=value))
             setattr(origin, attr, value)
 
         LOG_DEBUG((b'{extraAttrs} was injected to {origin}. Personality: {personality}').format(extraAttrs=cls.getExtraAttrs(), origin=origin, personality=personality))
@@ -327,6 +329,11 @@ def addQuestBonusTypes(bonusNames, personality):
 
     QUEST_BONUS_TYPES.update(bonusNames)
     LOG_DEBUG((b'bonusNames:{bonusNames} was added to QUEST_BONUS_TYPES. Personality: {p}').format(bonusNames=bonusNames, p=personality))
+    return
+
+
+def addArenaFinishReasonFromExtension(extArenaFinishReason, personality):
+    extArenaFinishReason.inject(personality)
     return
 
 
@@ -788,9 +795,9 @@ class AbstractBattleMode(object):
 
     def registerGuiType(self):
         from gui.prb_control import prb_utils
-        from gui.Scaleform.daapi.settings.views import addViewBattlePageAliasByArenaGUIType
+        from gui.Scaleform.daapi.settings.views import addViewBattlePageConfigByArenaGUIType
         prb_utils.addArenaDescrs(self._ARENA_GUI_TYPE, self._client_arenaDescrClass, self._personality)
-        addViewBattlePageAliasByArenaGUIType(self._ARENA_GUI_TYPE, self._CLIENT_BATTLE_PAGE, self._personality)
+        addViewBattlePageConfigByArenaGUIType(self._ARENA_GUI_TYPE, self._CLIENT_BATTLE_PAGE, self._personality)
         return
 
     def registerClientSelector(self):

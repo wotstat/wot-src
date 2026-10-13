@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "ความสามารถรบ"
+
+msgid "make_choice/server_error"
+msgstr "ปฏิบัติการทำไม่ได้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "เกณฑ์"
+
+msgid "notification/crew_reward/recruited"
+msgstr "เกณฑ์แล้ว"
+
+msgid "notification/crew_reward/title"
+msgstr "รับรางวัลแล้ว"
+
+msgid "open_artefact/server_error"
+msgstr "ปฏิบัติการทำไม่ได้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "ได้รับกุญแจถอดรหัส: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "สิ่งที่ได้รับ"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "ถอดกุญแจถอดรหัสไป: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "การถอดรหัส"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "ล้มเหลวในการเติมความสามารถรบสำหรับ %s การล้มเหลวทางเทคนิค"
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "ล้มเหลวในการเติมความสามารถรบสำหรับ %s เงินทุนไม่พอ"
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "เติมความสามารถรบสำหรับ %s คุณใช้ไป"
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "ได้รับกุญแจถอดรหัส"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "มีบันทึกให้ทำการถอดรหัส"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "รูปแบบ: บาบิลอน: หอคอยมืด"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "บาบิลอน: หอคอยมืด (ปกติ)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "บาบิลอน: หอคอยมืด (ยาก)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "บาบิลอน: หอคอยมืด (ฝันร้าย)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "ทำลายหัวหน้าใหญ่ได้"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "ความยาก"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "ปกติ"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "ยาก"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "ฝันร้าย"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "ผ่านช่วงแล้ว: %(curPhase)s จาก %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "บรรลุเป้าหมายแล้ว!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "บรรลุเป้าหมายแล้ว!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "พาหนะ"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "ใช้ไป %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "ธุรกรรมเงิน"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "คุณสามารถเลือกขั้นความยากได้ในโรงรถบาบิลอน: หอคอยมืด"
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "ปลดล็อคระดับความยากแบบยากแล้ว"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "คุณสามารถเลือกขั้นความยากได้ในโรงรถบาบิลอน: หอคอยมืด"
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "ปลดล็อคระดับความยากแบบฝันร้ายแล้ว"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "%(vehicle)s ตอนนี้มีให้แล้วในการรบบาบิลอน: หอคอยมืดแล้ว"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "การรบบาบิลอน: หอคอยมืดนั้นไม่มีให้ชั่วคราว\nโปรดลองใหม่ภายหลัง"
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "การรบในบาบิลอน: หอคอยมืด (%(difficulty)s) นั้นไม่มีให้ชั่วคราว\nโปรดลองใหม่ภายหลัง"
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "บาบิลอน: หอคอยมืดตอนนี้ไม่มีให้ชั่วคราว โปรดตรวจสอบเวบท่าเกมสำหรับข่าวล่าสุด"
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "ผู้การหมวดรถถังได้เปลี่ยนความยากเป็น: %(level)s"
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "ผู้เล่น %(userName)s ไม่ได้ปลดล็อคหนึ่งในระดับความยากที่มี"

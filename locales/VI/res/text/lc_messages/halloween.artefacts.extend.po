@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Đem lại khả năng bất tử."
+
+msgid "damageShield/long_special"
+msgstr "Khả năng Chiến đấu. Tạo một khiên năng lượng giúp bảo vệ xe của bạn khỏi bất cứ thiệt hại nào (trừ đâm/húc, ngập nước và va chạm) trong 7 giây. Nếu sử dụng ít nhất một lần trong trận, khả năng sẽ tiêu hao nhưng tái tiếp tế được bằng bạc. Không cần tái tiếp tế nếu không dùng tới.<br /><br />Chỉ khả dụng trong sự kiện <font color='#cbac77'>Babylon: Dark Tower</font>.<br /><br />Mọi khả năng chưa dùng sẽ bị bỏ và được đền bù bằng bạc theo tỷ giá 50% chi phí của chúng khi bản cập nhật tiếp theo phát hành."
+
+msgid "damageShield/name"
+msgstr "Khiên Năng lượng"
+
+msgid "damageShield/onUse"
+msgstr "Tạo một khiên năng lượng giúp bảo vệ xe của bạn khỏi bất cứ thiệt hại nào (trừ đâm/húc, ngập nước và va chạm) trong 7 giây."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Đem lại khả năng bất tử."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Tăng tốc độ bắn / nạp lại băng đạn."
+
+msgid "fastReload/long_special"
+msgstr "Khả năng Chiến đấu. Trong một khoảng thời gian, tăng đáng kể tốc độ nạp của súng bắn theo chu kỳ, hoặc lập tức nạp đầy cho súng bắn theo băng. Nếu sử dụng ít nhất một lần trong trận, khả năng sẽ tiêu hao nhưng tái tiếp tế được bằng bạc. Không cần tái tiếp tế nếu không dùng tới.<br /><br />Chỉ khả dụng trong sự kiện <font color='#cbac77'>Babylon: Dark Tower</font>.<br /><br />Mọi khả năng chưa dùng sẽ bị bỏ và được đền bù bằng bạc theo tỷ giá 50% chi phí của chúng khi bản cập nhật tiếp theo phát hành."
+
+msgid "fastReload/name"
+msgstr "Nạp Nhanh"
+
+msgid "fastReload/onUse"
+msgstr "Tăng đáng kể tốc độ nạp cho súng bắn theo chu kỳ trong một khoảng thời gian, hoặc lập tức nạp đầy băng cho súng có magazine loading system."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Tăng tốc độ bắn / nạp lại băng đạn."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Hồi phục sức kháng cự, dập lửa, loại bỏ hiệu ứng choáng và sửa mô-đun bị hư hại."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Khả năng Chiến đấu. Hồi phục sức kháng cự, dập lửa, loại bỏ hiệu ứng choáng và sửa mô-đun bị hư hại. Có thể dùng nhiều lần một trận. Sẽ mất đi sau trận nếu đã được sử dụng ít nhất một lần.<br /><br />Chỉ khả dụng trong sự kiện <font color='#cbac77'>Babylon Project</font>.<br /><br />Mọi khả năng chưa dùng sẽ bị bỏ và được đền bù bằng bạc theo tỷ giá 50% chi phí của chúng khi bản cập nhật tiếp theo phát hành."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Sửa Gấp"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Ngay lập tức khôi phục 400 HP cho xe của bạn.\n• Khôi phục thêm 300 HP trong 30 giây.\n• Quá trình khôi phục bị vô hiệu khi hứng chịu thiệt hại.\n• Dập lửa, loại bỏ hiệu ứng choáng và sửa mô-đun bị hư hỏng.\n• Chỉ kích hoạt được khi đã chịu thiệt hại."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Hồi phục sức kháng cự, dập lửa, loại bỏ hiệu ứng choáng và sửa mô-đun bị hư hại."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Chi phí Mirium để dùng trong trận:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nChi phí Mirium: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Chi phí Mirium để dùng trong trận:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Bắn một phát súng gây thiệt hại và làm choáng cho mục tiêu cùng các xe địch gần đó."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Khả năng Chiến đấu. Bắn một phát súng gây thiệt hại và làm choáng mục tiêu cùng mọi xe địch nội trong bán kính 35 m. Nếu sử dụng ít nhất một lần trong trận, khả năng sẽ tiêu hao nhưng tái tiếp tế được bằng bạc. Không cần tái tiếp tế nếu không dùng tới.<br/><br/>Chỉ khả dụng trong sự kiện <font color='#cbac77'>Babylon: Dark Tower</font>.<br/><br/>Mọi khả năng chưa dùng sẽ bị bỏ và được đền bù bằng bạc theo tỷ giá 50% chi phí của chúng khi bản cập nhật tiếp theo phát hành."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Đạn Tăng lực"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Bắn một phát súng gây thiệt hại và làm choáng cho mục tiêu cùng mọi xe địch nội trong bán kính 35 m."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Bắn một phát súng gây thiệt hại và làm choáng cho mục tiêu cùng các xe địch gần đó."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Bắn một phát súng khôi phục các điểm trúng bằng cách đánh cắp từ mục tiêu và các xe kẻ thù gần đó."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Khả năng Chiến đấu. Bắn một phát súng khôi phục sức kháng cự bằng cách cướp HP từ mục tiêu và các xe địch nội trong bán kính 35 m, đồng thời sửa mô-đun hư hại cũng như loại bỏ hiệu ứng choáng. Nếu sử dụng ít nhất một lần trong trận, khả năng sẽ tiêu hao nhưng tái tiếp tế được bằng bạc. Không cần tái tiếp tế nếu không dùng tới.<br/><br/>Chỉ khả dụng trong sự kiện <font color='#cbac77'>Babylon: Dark Tower</font>.<br/><br/>Mọi khả năng chưa dùng sẽ bị bỏ và được đền bù bằng bạc theo tỷ giá 50% chi phí của chúng khi bản cập nhật tiếp theo phát hành."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Đạn Cà rồng"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Bắn một phát súng khôi phục sức kháng cự bằng cách cướp HP từ mục tiêu và các xe địch nội trong bán kính 35 m, cũng như sửa mô-đun hư hại và loại bỏ hiệu ứng gây choáng."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Bắn một phát súng khôi phục các điểm trúng bằng cách đánh cắp từ mục tiêu và các xe kẻ thù gần đó."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Bắn một phát súng gây choáng cho mục tiêu và các xe địch gần đó."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Khả năng Chiến đấu. Bắn một phát súng gây choáng cho mục tiêu và mọi xe địch nội trong bán kính 35 m. Có thể dùng nhiều lần một trận. Sẽ mất đi sau trận nếu đã được sử dụng ít nhất một lần.<br /><br />Chỉ khả dụng trong sự kiện <font color='#cbac77'>Babylon Project</font>.<br /><br />Mọi khả năng chưa dùng sẽ bị bỏ và được đền bù bằng bạc theo tỷ giá 50% chi phí của chúng khi bản cập nhật tiếp theo phát hành."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Đạn Choáng"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Bắn một phát súng gây choáng cho mục tiêu và mọi xe địch nội trong bán kính 35 m."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Bắn một phát súng gây choáng cho mục tiêu và các xe địch gần đó."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Khiến xe của bạn tàng hình trước mắt địch, khôi phục HP, sửa mô-đun và dập lửa."
+
+msgid "hwInvisibility/long_special"
+msgstr "Khả năng Chiến đấu. Biến xe của bạn tàng hình trước mắt địch trong 10 s. Khôi phục 35 HP mỗi giây, sửa mô-đun, dập lửa, loại bỏ mọi hiệu ứng tiêu cực và giúp miễn nhiễm thiệt hại ăn mòn. Sẽ lộ vị trí ngay nếu bạn sát thương địch hoặc hứng chịu thiệt hại (theo cách bắn, đâm/húc hoặc dùng Khả năng Chiến đấu). Không thể bị đạn địch làm gián đoạn trong 3 giây sau lúc kích hoạt. Nếu sử dụng ít nhất một lần trong trận, khả năng sẽ tiêu hao nhưng tái tiếp tế được bằng bạc. Không cần tái tiếp tế nếu không dùng tới.<br/><br/>Chỉ khả dụng trong sự kiện <font color='#cbac77'>Babylon: Dark Tower</font>.<br/><br/>Mọi khả năng chưa dùng sẽ bị bỏ và được đền bù bằng bạc theo tỷ giá 50% chi phí của chúng khi bản cập nhật tiếp theo phát hành."
+
+msgid "hwInvisibility/name"
+msgstr "Stealth Heal"
+
+msgid "hwInvisibility/onUse"
+msgstr "Biến xe của bạn tàng hình trước mắt địch trong 10 s. Khôi phục 35 HP mỗi giây, sửa mô-đun, dập lửa, loại bỏ mọi hiệu ứng tiêu cực và giúp miễn nhiễm thiệt hại ăn mòn. Sẽ lộ vị trí ngay nếu bạn sát thương địch hoặc hứng chịu thiệt hại (theo cách bắn, đâm/húc hoặc dùng Khả năng Chiến đấu). Không thể bị đạn địch làm gián đoạn trong 3 giây sau lúc kích hoạt."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Ẩn mình khỏi địch, hồi HP, sửa mô-đun, dập lửa, loại bỏ choáng và chữa trị tổ lái."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Tăng tốc xe của bạn trong một khoảng thời gian nhất định\nvà tăng thiệt hại gây ra khi đâm/húc."
+
+msgid "nitroRamDamage/name"
+msgstr "Turbocharger"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Tạm thời nâng cao tốc độ cho xe của bạn và tăng sát thương gây ra khi đâm/húc."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Sửa chữa và khôi phục một lượng HP cho xe đồng đội nội trong bán kính tác dụng."
+
+msgid "teamRepairKit/long_special"
+msgstr "Khả năng Chiến đấu. Lập tức sửa mô-đun, dập lửa, loại bỏ hiệu ứng choáng và hồi phục một lượng HP cho xe đồng đội nội trong bán kính tác dụng. Nếu sử dụng ít nhất một lần trong trận, khả năng sẽ tiêu hao nhưng tái tiếp tế được bằng bạc. Không cần tái tiếp tế nếu không dùng tới.<br/><br />Chỉ khả dụng trong sự kiện <font color='#cbac77'>Babylon: Dark Tower</font>.<br/><br/>Mọi khả năng chưa dùng sẽ bị bỏ và được đền bù bằng bạc theo tỷ giá 50% chi phí của chúng khi bản cập nhật tiếp theo phát hành."
+
+msgid "teamRepairKit/name"
+msgstr "Sửa Sạch"
+
+msgid "teamRepairKit/onUse"
+msgstr "Lập tức sửa mô-đun, dập lửa, loại bỏ hiệu ứng choáng và hồi phục một lượng HP cho xe đồng đội nội trong bán kính tác dụng."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Sửa chữa và khôi phục một lượng HP cho xe đồng đội nội trong bán kính tác dụng."

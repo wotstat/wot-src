@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s全局和乘员经验持续%(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectHours)s内%(effectValue)s战斗获得的经验加成"
+msgstr "%(effectValue)s战斗经验持续%(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "战斗中获得的银币加成%(effectValue)s，持续%(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "此战车在炮盾上安装了火箭发射器。激活能力来切换至
 msgid "moduleInfo/closeBtn"
 msgstr "关闭"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "战斗油门"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "在战车上安装弹匣装填系统："
 
@@ -6162,6 +6165,12 @@ msgstr " (发)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "重叠电机观测镜持续时间"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "冷却时间"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "持续时间"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "冷却时间"

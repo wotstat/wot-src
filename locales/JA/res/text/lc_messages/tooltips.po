@@ -3304,12 +3304,6 @@ msgstr "小隊に関する制限"
 msgid "details/conditions/additional"
 msgstr "このミッションの副条件を確認します。"
 
-msgid "devMaps/body"
-msgstr "列車の衝突や飛行機の墜落などの「ランダム・イベント」が発生するマップです。イベントは、マップ内の特定のオブジェクトや地形そのものに変化を及ぼし、新たな戦術的局面を生み出します。"
-
-msgid "devMaps/header"
-msgstr "「ランダムイベント」が発生するマップ"
-
 msgid "deviceFits/already_installed/header"
 msgstr "搭載中:"
 
@@ -6670,6 +6664,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/fisherman/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/fr_spark/desc"
+msgstr "Lacie \"Spark\" Paxtonにとって、長く留まれる故郷はどこにもなかった。通信技師だった父親とともに軍事基地を転々として育った彼女は、世慣れて順応性が高く、パターンを見抜く驚異的な能力を身に着けた。諜報機器の扱いに長けているが、同じくらい戦車長としても秀でていることを買われている。ドライなウィットを交えながら部隊を率い、自分の搭乗員を軽々しく危険に晒すことは決してない。「セクター3」が《アーキテクト》の通信を傍受するための部隊を結成した際、Sparkはその部隊の指揮官としてうってつけの人物だった。彼女は最初のミッションを「スイッチブレード」作戦と名付けたことから、その名前がそのまま部隊名として定着している。"
+
+msgid "notrecruitedtankman/fr_spark/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/fr_spark/label"
+msgstr "ブラック・シグナル"
+
 msgid "notrecruitedtankman/freeSkillsTitle"
 msgstr "ゼロパーク"
 
@@ -6709,6 +6712,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/girls_und_panzer_erwin/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/desc"
+msgstr "レオポンさんチームの砲手で、自信たっぷりの笑顔を見せながら敵を撃破していく。自動車のドライバーとしての腕も折り紙つき。"
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/girls_und_panzer_kei/desc"
 msgstr "ケイはサンダース大学付属高校の戦車チームの隊長。外向的な性格と非の打ち所がないフェアプレイ精神を持ち合わせており、遊び心がありながらも、隊長としての手腕に疑いの余地はなく、チームの精神的主柱となっている。勝敗にかかわらず、試合を楽しむ戦車道の心構えを大切にしている。"
 
@@ -6716,6 +6728,15 @@ msgid "notrecruitedtankman/girls_und_panzer_kei/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_kei/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/desc"
+msgstr "レオポンさんチームの車長兼通信手。大らかな性格で、熱い試合の最中にあっても常に落ち着いている。"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_naomi/desc"
@@ -6752,6 +6773,24 @@ msgid "notrecruitedtankman/girls_und_panzer_saunders/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_saunders/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/desc"
+msgstr "物腰柔らかでソフトな雰囲気とは裏腹に、彼女が装填する砲弾は相手に強烈なダメージを与える。"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/desc"
+msgstr "大のドリフト好き。戦車でドリフトなんてできないと何度も言われているが、まったく聞く耳を持たない。"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/howToGet"
@@ -6935,6 +6974,15 @@ msgid "notrecruitedtankman/lunar26_commander/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/lunar26_commander/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/desc"
+msgstr "高名な技術者から車長へと転身したEmil Diachenkoは、敵車輌に砲撃を加えるときも、エンジン室を開けて即席の改良を施すときも、等しくその能力を発揮する。真の異端児である彼は兵舎では都市伝説的存在となっており、部下たちは彼が眠らないと断言する。Emilはその噂を知っているが、肯定も否定もしない。非凡なものを好む彼は、誰かの想像力をかき消すような真似はしないのである。実際、突飛な企みを練っているとき以外、彼は決して機能するはずのないように見える自家製ターボチャージャーのスケッチを描いている。"
+
+msgid "notrecruitedtankman/mustached_engineer/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/ny19men/desc"
@@ -11616,6 +11664,12 @@ msgstr "左から順に、弾倉内の全弾または両門の主砲を撃ち切
 
 msgid "tank_params/desc/coincidenceElectromechanicalSightDuration"
 msgstr "同時計測エレキ・サイト発動後の効果持続時間を表します。"
+
+msgid "tank_params/desc/combatThrottleCooldown"
+msgstr "スロットルの再発動までに要する時間を表します。"
+
+msgid "tank_params/desc/combatThrottleDuration"
+msgstr "スロットル発動後の効果持続時間です。"
 
 msgid "tank_params/desc/concentrationModeCooldown"
 msgstr "安定装置の再発動までに要する時間を表します。"

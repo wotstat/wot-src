@@ -20,6 +20,7 @@ from items.components.supply_slot_categories import SupplySlotFilter, LevelsFact
 from items.vehicles import VehicleDescriptor, _readPriceForOperation
 from items.tankmen import MAX_SKILL_LEVEL
 from soft_exception import SoftException
+from vehicle_filters import getVehicleFilters
 if IS_CLIENT:
     from helpers import i18n
 elif IS_WEB:
@@ -2342,6 +2343,18 @@ class VisualScriptEquipment(Equipment):
         self._exportParams[ExportParamsTag.VSE.value].clear()
         return
 
+    def isActivationConfirmed(self, args):
+        return bool(args)
+
+
+_APPLICATION_POSITION_KEY = b'applicationPosition'
+
+class PointVisualScriptEquipment(VisualScriptEquipment):
+    __slots__ = ()
+
+    def isActivationConfirmed(self, args):
+        return isinstance(args, dict) and _APPLICATION_POSITION_KEY in args
+
 
 class LevelBasedVisualScriptEquipment(VisualScriptEquipment):
     _LEVEL_BASED_SLOTS = (b'radius',)
@@ -2382,7 +2395,7 @@ class PoiRadarEquipment(VisualScriptEquipment):
         return
 
 
-class PoiIlluminationFlareEquipment(VisualScriptEquipment, BaseMarkerConfigReader):
+class PoiIlluminationFlareEquipment(PointVisualScriptEquipment, BaseMarkerConfigReader):
     __slots__ = BaseMarkerConfigReader._MARKER_SLOTS_ + (b'duration', b'startRadius', b'endRadius', b'unSpotDuration', b'delay', b'areaPrefabColorAlly', b'areaPrefabColorEnemy', b'areaPrefabColorEnemyCB', b'startYFlare', b'endYFlare', b'damageIncomeFactor', b'decayPhaseDuration')
 
     def __init__(self):
@@ -2425,7 +2438,7 @@ class PoiIlluminationFlareEquipment(VisualScriptEquipment, BaseMarkerConfigReade
         return
 
 
-class PoiArtilleryEquipment(VisualScriptEquipment, BaseMarkerConfigReader, EffectsConfigReader):
+class PoiArtilleryEquipment(PointVisualScriptEquipment, BaseMarkerConfigReader, EffectsConfigReader):
     __slots__ = BaseMarkerConfigReader._MARKER_SLOTS_ + EffectsConfigReader._EFFECTS_SLOTS_ + (b'delay', b'radius', b'damage', b'stunDuration', b'duration', b'areaShow', b'fraction', b'requireAssists')
 
     def __init__(self):
@@ -2504,4 +2517,35 @@ class Circle(object):
     def readConfig(self, xmlCtx, section):
         self.abilityRadius = _xml.readFloat(xmlCtx, section, b'abilityRadius', 0.0)
         self.safeZoneRadius = _xml.readFloat(xmlCtx, section, b'safeZoneRadius', 0.0)
+        return
+
+
+class CGFEquipmentItem(Equipment):
+    __slots__ = (b'durationSeconds', b'prefab', b'filters')
+
+    def __init__(self):
+        super(CGFEquipmentItem, self).__init__()
+        self.durationSeconds = 0
+        self.prefab = b''
+        self.filters = []
+        return
+
+    def _readConfig(self, xmlCtx, scriptSection):
+        super(CGFEquipmentItem, self)._readConfig(xmlCtx, scriptSection)
+        self.durationSeconds = _xml.readFloat(xmlCtx, scriptSection, b'durationSeconds', 0)
+        self.prefab = _xml.readNonEmptyString(xmlCtx, scriptSection, b'prefab')
+        if scriptSection.has_key(b'filters'):
+            filtersModel = getVehicleFilters()
+            filterNames = filtersModel.getFilterNames()
+            collectedFilters = set()
+            for filterSection in scriptSection[b'filters'].values():
+                filterName = _xml.readNonEmptyString(xmlCtx, filterSection, b'name')
+                prefab = _xml.readNonEmptyString(xmlCtx, filterSection, b'prefab')
+                if filterName not in filterNames:
+                    raise SoftException((b'Unknown filter {}').format(filterName))
+                if filterName in collectedFilters:
+                    raise SoftException((b'Duplicated filter {}').format(filterName))
+                self.filters.append((filterName, prefab))
+                collectedFilters.add(filterName)
+
         return

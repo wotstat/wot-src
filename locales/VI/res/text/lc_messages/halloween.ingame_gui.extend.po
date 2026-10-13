@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Corrosion"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Thiệt hại bởi Khu vực chết"
+
+msgid "damageLog/static_death_zone"
+msgstr "Thiệt hại bởi vùng chết"
+
+msgid "damageShieldReady"
+msgstr "\"Khiên Năng lượng\" sẵn sàng sử dụng."
+
+msgid "fastReloadReady"
+msgstr "\"Nạp Nhanh\" sẵn sàng sử dụng."
+
+msgid "hitMarker/useless"
+msgstr "Vô dụng!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "\"Sửa Gấp\" sẵn sàng sử dụng."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "\"Đạn Tăng lực\" sẵn sàng sử dụng."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "\"Đạn Cà rồng\" sẵn sàng sử dụng."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "\"Đạn Choáng\" sẵn sàng sử dụng."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "để xem các nguyên tắc của chế độ"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Bấm"
+
+msgid "hwInvisibilityReady"
+msgstr "\"Stealth Heal\" sẵn sàng sử dụng."
+
+msgid "nitroRamDamageReady"
+msgstr "Turbocharger sẵn sàng sử dụng."
+
+msgid "pickupSouls"
+msgstr "Bạn đã thu được %(souls)s Mirium"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Không thể dùng [%(name)s]: Súng bị hư hại."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Xe chưa bị hư hại."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Không thể dùng [%(name)s]: Động cơ bị hỏng."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Không thể dùng [%(name)s]: Thiếu Mirium để kích hoạt Khả năng."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Không thể dùng [%(name)s]: Xe đang cháy."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Không thể dùng [%(name)s]: Xe đang chìm."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Không thể dùng [%(name)s]: Xe đang cháy."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Không thể dùng [%(name)s]: Xe đang lật."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Súng đã được nạp."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Đồng đội %(target)s đã chết do ăn mòn."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Đồng đội %(target)s bị giẫm đạp bởi %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Đồng đội %(target)s đã bị địch phá hủy bởi vụ nổ (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Đồng đội %(target)s đã chết do va chạm."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Đồng đội %(target)s đã bị phá hủy bởi vùng chết."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Đồng đội %(target)s đã bị tiêu diệt bởi hào quang của địch."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Đồng đội %(target)s đã bị phá hủy bởi vùng chết."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Đồng đội %(target)s đã chết."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Xe đã bị phá hủy do Xả Năng lượng"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Xe đã bị phá hủy do Hỏa sinh"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Xe đã bị phá hủy do Hút máu"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Xe đã bị phá huỷ bởi vụ nổ"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Xe đã bị phá huỷ bởi vùng chết"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Xe bị tiêu diệt bởi hào quang của địch"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Xe bị phá hủy do ăn mòn"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Xe đã bị dập nát"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Xe bị phá hủy do giẫm đạp"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Xe đã bị phá hủy. Bạn không đến Magnus kịp."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Xe đã bị phá hủy. Bạn không diệt được Trùm."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Xe bị phá hủy. Magnus chưa đầy."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Mô-đun [%(device)s] đã nổ do trúng đạn"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Xe đã bị phá hủy do cháy"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Xe bị phá huỷ bởi phát bắn của địch"
+
+msgid "teamRepairKitReady"
+msgstr "\"Sửa Sạch\" sẵn sàng sử dụng."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s đã kích hoạt \"Sửa Sạch\"."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "\"Sửa Sạch\" đã được kích hoạt."

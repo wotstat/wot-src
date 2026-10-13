@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, 전투 시간: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "보통 난이도"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "어려움 난이도"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "악몽 난이도"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "바빌론 이상 구역 – {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "재생성 횟수: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "제재 적용: 자리 비움/전장 이탈\n보상이 지급되지 않습니다."
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "전투 패배: 첫 번째 페이즈 실패\n보상이 지급되지 않습니다."
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s"
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s"
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)"
+
+msgid "hw_battle_result/status/lose"
+msgstr "전투 종료"
+
+msgid "hw_battle_result/status/win"
+msgstr "승리"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "전투 종료"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "어둠을 물리쳤습니다! 멋진 팀플레이였습니다!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "전투 종료"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "페이즈 %(phaseNumber)s 완료"
+msgstr[1] "페이즈 %(phaseNumber)s 완료"
+msgstr[2] "페이즈 %(phaseNumber)s 완료"
+
+msgid "hw_battle_result/title/win"
+msgstr "보스 격퇴"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "아군 전차가 모두 파괴되었습니다."
+
+msgid "hw_finish/reason/3/lose"
+msgstr "시간이 종료되었습니다."
+
+msgid "hw_finish/reason/5/lose"
+msgstr "아군이 모두 전장을 떠났습니다."
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "어둠의 탑으로 가는 길이 열렸습니다."
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "훌륭합니다!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "적을 몰아내는 데 성공했지만, 아직 끝난 게 아닙니다."
+
+msgid "teamList/actions"
+msgstr "빠른 작업"
+
+msgid "teamList/teammates"
+msgstr "아군"

@@ -1,0 +1,1007 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "abilitiesIncomplete/title"
+msgstr "ความสามารถรบไม่ครบ"
+
+msgid "abilitiesIncomplete/toAbilities"
+msgstr "ความสามารถ"
+
+msgid "abilitiesIncomplete/toBattle"
+msgstr "ไปยังการรบ"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "พาหนะที่เลือกเอาไว้ขาดความสามารถรบหนึ่งอย่างหรือมากกว่า นี่อาจจะมีผลกับสมรรถนะการรบของคุณอย่างมาก เลือกที่จะเข้ารบ?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "คุณสามารถปรับแต่งการตั้งปุ่มลัดกิจกรรมล่วงหน้าสำหรับความสามารถรบและกระสุนได้\nการเปลี่ยนแปลงนี้จะมีผลกับการรบกิจกรรมเท่านั้นและจะไม่มีผลกับรูปแบบอื่นๆ\nคุณสามารถปรับแต่งปุ่มลัดเฉพาะนี้ได้ในรายการ - การตั้งค่า - การควบคุม (ใต้ยุทธปัจจัย)"
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "การเปลี่ยนปุ่มลัดยุทธปัจจัยตั้งเอาไว้ล่วงหน้า"
+
+msgid "anomaliesView/description_1"
+msgstr "เหล่านี้เป็นโบนัสพลรถถังในการรบ ในความยาก {{@ style (color #EEEDE9B2) (bold)}}ยาก{{/}} กับ {{@ style (color #EEEDE9B2) (bold)}}ฝันร้าย{{/}} เลือกพลังแปรปรวนระหว่างการรบแล้วใช้ผสมกันเพื่อปลดล็อค {{@ style (color #C293FFCC) (bold)}}พลังแปรปรวนเสียงสะท้อน{{/}} ขั้นสูงสุด"
+
+msgid "anomaliesView/description_2"
+msgstr "บทแนะนำนี้จะแสดงพลังแปรปรวนที่คุณได้รับในช่วงการรบก่อนๆรวมไปถึงพลังที่ยังไม่ได้พบ ในการเปิดรายการพลังแปรปรวนในการรบ ให้ {{@ style (color #EEEDE9B2) (bold)}}กดปุ่ม N{{/}} (ปุ่มมาตรฐาน)"
+
+msgid "anomaliesView/header"
+msgstr "พลังแปรปรวน"
+
+msgid "anomaliesView/quote_1/author"
+msgstr "—วัตถุ 66, คนเงียบ\nลือกันว่าเขาไม่เคยถูกส่งไปร่วมกองรบสำรวจ แต่ก็มีคนอื่นที่พบเขาในห้วงพลังแปรปรวน เขาเดินมาส่งบทบันทึกใหม่อย่างเงียบๆแล้วก็เดินจากไป"
+
+msgid "anomaliesView/quote_1/message"
+msgstr "ขอให้มิเรียมเติมเต็มคุณ"
+
+msgid "anomaliesView/quote_2/author"
+msgstr "—วัตถุ 6 นักเป่าปี่\nวิศวกรที่กลับมาจากกองรบสำรวจและสร้างตัวทำลายคลื่น บางคนบอกว่ามิเรียมเปลี่ยนเขา แต่บางกลุ่มก็บอกว่าเขาเป็นแบบนี้มานานแล้ว"
+
+msgid "anomaliesView/quote_2/message"
+msgstr "คุณได้ยินมันไหม?\nนั่นคือเสียงเรียกของมิเรียม"
+
+msgid "anomaliesView/quote_3/author"
+msgstr "—วัตถุ 12 นกสาลิกา\nผู้ช่วยห้องทดลองจากกองรบสำรวจครั้งก่อน ถูกระบุว่าสูญหายระหว่างปฏิบัติการ แต่เธอก็กลับมา ไม่ใช่ถูกที่และถูกเวลาและไม่เหมือนกับคนเดิมในก่อนที่หายตัวไป"
+
+msgid "anomaliesView/quote_3/message"
+msgstr "ไม่ว่ากี่ครั้งที่คุณจะออกจากพลังแปรปรวน มันจะพยายามดึงคุณกลับ"
+
+msgid "anomaliesView/title"
+msgstr "พลังแปรปรวนผสม"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "ปฏิบัติภารกิจปัจจุบันให้สำเร็จเพื่อรับตราเฉพาะบาบิลอน: เขตต้องห้ามกัน"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "ภารกิจความสำเร็จมหากาพย์"
+
+msgid "bestiaryView/carousel/card/new"
+msgstr "ใหม่"
+
+msgid "bestiaryView/carousel/card/state/locked"
+msgstr "ล็อคไว้"
+
+msgid "bestiaryView/carousel/card/tooltip/locked/body"
+msgstr "ปฏิบัติภารกิจให้สำเร็จ {number} ภารกิจเพื่อปลดล็อคเอกสารข้าศึก"
+
+msgid "bestiaryView/carousel/card/tooltip/style/body"
+msgstr "แปลงร่างเป็นข้าศึกในการรบแบบสุ่มด้วยรูปแบบสามมิติอันบิดเบี้ยวของบาบิลอนจากร้านค้ากิจกรรม"
+
+msgid "bestiaryView/info/about/czech_Cz34_Vz_71_Tesak_HW_BOT"
+msgstr "?empty?"
+
+msgid "bestiaryView/info/about/france_F110_Lynx_6x6_HW_BOT"
+msgstr "ข้าศึกที่เบาและรวดเร็วสามารถยิงพลังงานตรงใส่เป้าหมายได้"
+
+msgid "bestiaryView/info/about/france_F17_AMX_13_90_HW_BOT"
+msgstr "รถถังแตนสาบสูญตอนนี้ไล่ล่าพันธมิตรเก่าของมัน ความเกลียดชังของมันถูกแปลงเป็นพลังงานรวมที่สามารถทำให้ข้าศึกไฟไหม้ได้ด้วยกระสุนทุกนัดที่มันยิงออกไป"
+
+msgid "bestiaryView/info/about/germany_G00_Bomber_Hell"
+msgstr "ก้อนกลมสีดำเคลื่อนที่ได้เองปกคลุมด้วยหนามเหล็กราวกับทุ่นระเบิดใต้น้ำ เม่นนั้นมักจะปรากฎเป็นกลุ่มเสมอ มันมีความเร็วและคล่องตัวแต่ทำความเสียหายจากการพุ่งชนเท่านั้น การถูกชนด้วยเม่นตัวเดียวอาจจะอันตราย แต่หลายตัวเข้ามาพร้อมกันก็สามารถถึงฆาตได้"
+
+msgid "bestiaryView/info/about/germany_G00_K_bomber__HW_21_AI"
+msgstr "เหมือนกับเม่นปกติทั้งในด้านคุณลักษณะและพฤติกรรม แต่เม่นใหญ่สามารถสร้างปัญหาได้มากกว่า เมื่อพบมัน ทั้งกองรบก็ควรจะรุมทำลายมันก่อนที่จะเข้าใกล้ได้"
+
+msgid "bestiaryView/info/about/germany_G113_SP_I_C_HW_BOT"
+msgstr "กลุ่มรถถังที่รวมเข้าเป็นโครงสร้างเดียว ความเสียหายที่ทำต่อคันหนึ่งจะถูกแบ่งให้ส่วนอื่นๆทั้งหมด มันจะยืนหยัดหรือล้มไปพร้อมๆกัน"
+
+msgid "bestiaryView/info/about/germany_G142_M48RPz_HW_BOT"
+msgstr "ข้าศึกปกติที่อยู่ในพลังแปรปรวนซึ่งปกป้องตำแหน่งที่พบสสารดังกล่าว เมื่อคุณเข้าใกล้ค่าย องครักษ์ทั้งหมดที่ซ่อนตัวอยู่จะเปิดเผยตัวและออกโจมตี พวกมันคือสิ่งที่สร้างจากมิเรียมและหายตัวโดยไร้ร่องรอยเมื่อถูกทำลาย"
+
+msgid "bestiaryView/info/about/germany_G171_E77_HW_BOT"
+msgstr "ราชานั้นเป็นเหมือนกับสมอให้กับทั้งรังและทำให้ทุกคันทำการรบต่อได้"
+
+msgid "bestiaryView/info/about/germany_G181_E100_Autocannon_Boss_HW25_bot"
+msgstr "?empty?"
+
+msgid "bestiaryView/info/about/germany_G25_PzII_Luchs_HELL_HALL"
+msgstr "ข้าศึกที่ขี้ขลาดและระวังตัวซึ่งชอบถอนตัวเมื่อรู้ตัวว่าถูกพบ ไม่ได้อันตรายมากแต่น่าสนใจเพราะเป็นเป้าหมายที่ไม่ยากและเป็นแหล่งมิเรียมที่หาได้ง่าย"
+
+msgid "bestiaryView/info/about/germany_G64_Panther_II_Hall_minion"
+msgstr "รถถังกลางที่สามารถไล่ตามพวกเราผ่านทั้งห้วงพลังแปรปรวน กระสุนระเบิดแรงสูงที่ทรงพลังของมันสามารถทำความเสียหายอย่างมากกับพันธมิตรที่มีเกราะบาง"
+
+msgid "bestiaryView/info/about/germany_G73_E50_Ausf_M_Hall_minion"
+msgstr "รถถังหนักทรงพลังที่มักนำกลุ่มองครักษ์ที่ค่าย ความทนทานมหาศาลและความเสียหายสูงของมันทำให้มันเป็นภัยร้ายแรง"
+
+msgid "bestiaryView/info/about/italy_It19_Progetto_C50_mod_66_HW_BOT"
+msgstr "รุ่นที่มิเรียมคัดลอกให้บิดเบี้ยวจาก Legio Ferrata ที่ตอนนี้กลับมาต่อสู้พันธมิตรเดิมด้วยอำนาจที่มากยิ่งกว่าเดิม"
+
+msgid "bestiaryView/info/about/uk_GB100_Manticore_HW_BOT"
+msgstr "ข้าศึกรูปทรงต่ำที่รวดเร็วมีความเร็วและความทนทานสูง ด้วยตีนตะขาบที่ไม่สามารถถูกทำลายได้ทำให้มันมีมิเรียมจำนวนมหาศาลและจะพยายามหนีเมื่อถูกพบทันที"
+
+msgid "bestiaryView/info/about/uk_GB125_Saladin_HW_BOT"
+msgstr "ข้าศึกนี้ไม่มีอาวุธปกติแต่มันจะพยายามเข้าประชิดและทำลายตัวเองและส่งคลื่นกระแทกที่ทำให้พาหนะทุกคันที่อยู่ในรัศมีระเบิดมึนงง"
+
+msgid "bestiaryView/info/about/uk_GB24_Centurion_Mk3_HW_BOT"
+msgstr "เซอร์เบอรัสที่สาบสูญในพลังแปรปรวนที่มีเป้าหมายเดียวในการไล่ล่าผู้ที่พยายามชิงมิเรียมของมัน"
+
+msgid "bestiaryView/info/about/usa_A100_T49_HW_BOT"
+msgstr "ทหารพลระเบิดสาบสูญที่สามารถพบได้ในห้วงพลังแปรปรวน ความเสียหายที่มากของมันและระบบชี้เป้าด้วยเลเซอร์ทำให้มันเป็นข้าศึกที่น่ากลัว"
+
+msgid "bestiaryView/info/about/ussr_R171_IS_3_II_HW_BOT"
+msgstr "รถถังหนักที่ทำการโจมตีอันหนักหน่วงด้วยการพุ่งชน มันมักจะแล่นนำระลอกข้าศึกและสร้างความปั่นป่วน เมื่อโจมตีสำเร็จมันสามารถทำลายเป้าหมายได้ด้วยการชนเพียงครั้งเดียว"
+
+msgid "bestiaryView/info/about/ussr_R40_T-54_HW_BOT"
+msgstr "มาลาไคท์สาบสูญในห้วงพลังแปรปรวนและตอนนี้อันตรายอย่างมาก ยังคงรักษาความสามารถเดิมของมันและพยายามเข้าประชิดคุณให้ใกล้ที่สุดเท่าที่จะทำได้"
+
+msgid "bestiaryView/info/about/ussr_R77_KV2_turret_2"
+msgstr "เมื่อแรกเห็นอาจจะดูเป็นเป้าหมายที่ง่ายแต่อย่าให้มันหลอกได้ เกราะหน้าที่หนักของมันและปืนที่แม่นยำอย่างมากทำให้มันเป็นภัยที่น่ากลัวในการรบซึ่งๆหน้า"
+
+msgid "bestiaryView/info/description/ability_1"
+msgstr "ไม่สามารถออกจากพื้นที่คุ้มกันและไล่ตามพาหนะที่กำลังถอนตัวได้"
+
+msgid "bestiaryView/info/description/ability_10"
+msgstr "ทำความเสียหายพาหนะข้าศึกที่อยู่ใกล้เป็นช่วงๆด้วยคลื่นพลังงานที่กำเนิดจากขดพลังงาน"
+
+msgid "bestiaryView/info/description/ability_11"
+msgstr "พลังแปรปรวนได้แปลงปืนของยานเกราะคันนี้และรวมพลังการยิงที่กระสุนของมันทำให้เป้าหมายไฟไหม้ได้"
+
+msgid "bestiaryView/info/description/ability_12"
+msgstr "ยิงกระสุนระเบิดแรงสูงจากระบบป้อนกระสุนอัตโนมัติสองนัด"
+
+msgid "bestiaryView/info/description/ability_13"
+msgstr "มันจะเผาพลังของจักรกลด้วยรัศมีคลื่นพลังและจะดึงมิเรียมที่ผู้เล่นเก็บได้ด้วย"
+
+msgid "bestiaryView/info/description/ability_14"
+msgstr "กระสุนขั้นสูงเสริมด้วยพลังเสียงสะท้อนทำให้สามารถการทำความเสียหายข้าศึกเพิ่ิมขึ้นอย่างมาก"
+
+msgid "bestiaryView/info/description/ability_15"
+msgstr "สร้างอาณาเขตรอบตัวเอง หลังจากช่วงหน่วงสั้นๆ เขตดังกล่าวจะระเบิด พาหนะพันธมิตรที่อยู่ในวงดังกล่าวจะมึนงง ทำลายตัวจุดระเบิดให้ได้ก่อนที่มันจะระเบิดและทำให้รถถังเสียงสะท้อนรอบๆมึนงงแทน"
+
+msgid "bestiaryView/info/description/ability_16"
+msgstr "มันจะไม่ขยับและเป็นเหมือนป้อมปืนอยู่กับที่และทำการยิงข้าศึกด้วยกระสุนที่แม่นยำ"
+
+msgid "bestiaryView/info/description/ability_17"
+msgstr "เป็นเหมือนกับตัวเชื่อมชีวิตของทั้งกลุ่มทำให้การอยู่รอดของทุกคันขึ้นกับผู้นำของกลุ่ม"
+
+msgid "bestiaryView/info/description/ability_18"
+msgstr "ตัวเชื่อมโดยตรงที่ผูกแกนหน่วยรบเข้ากับราชา เมื่อหัวหน้าของมันถูกทำลายตัวเชื่อมก็จะขาดและโครงสร้างหน่วยจะถูกทำลายในเวลาไม่นาน"
+
+msgid "bestiaryView/info/description/ability_19"
+msgstr "เมื่อถูกทำลาย ข้าศึกคันนี้จะทิ้งพลังแปรปรวนเข้มข้นเอาไว้ซึ่งเมื่อเก็บได้จะทำให้ทีมได้รับพลังแปรปรวนเก็บพิเศษ"
+
+msgid "bestiaryView/info/description/ability_2"
+msgstr "ใช้พลังประจุเพื่อพุ่งเข้าประชิดเป้าหมายแล้วชนเพื่อทำความเสียหายจำนวนมาก"
+
+msgid "bestiaryView/info/description/ability_3"
+msgstr "นายพรานจะตรวจจับข้าศึกจากระยะไกลและทำการยิงกระสุนระเบิดแรงสูงความเร็วต่ำจากระยะดังกล่าวที่เป็นอันตรายอย่างมากกับรถถังเบาและยังเป็นภัยกับเกราะข้างและเกราะหลังของรถถังกลางและแม้กระทั่งรถถังหนักด้วย"
+
+msgid "bestiaryView/info/description/ability_4"
+msgstr "ใช้มิเรียมเพื่อสร้างกับดักบนพื้นใต้เหยื่อของมัน เขตเหล่านี้จะระเบิดหลายวินาทีให้หลัง รีบหนีหรือโดนระเบิด"
+
+msgid "bestiaryView/info/description/ability_5"
+msgstr "หนีด้วยความเร็วสูงสุงเมื่อถูกพบและนำมิเรียมหนีไปพร้อมกับมัน"
+
+msgid "bestiaryView/info/description/ability_6"
+msgstr "ล็อคเป้าหมายที่ใกล้ที่สุดแล้วพุ่งเข้าหาด้วยความเร็วสูงสุดและระเบิดเมื่อพุ่งชน แรงระเบิดสามารถทำให้พาหนะรอบๆเสียหายด้วย"
+
+msgid "bestiaryView/info/description/ability_7"
+msgstr "เมื่อถูกทำลายเม่นใหญ่จะแตกออกเป็นเม่นปกติหลายตัว (โดยมากจะสามตัวแต่อาจจะแตกต่างกันไป) ซึ่งจะวิ่งไล่พันธมิตรของคุณเพื่อพุ่งชนและระเบิดใส่"
+
+msgid "bestiaryView/info/description/ability_8"
+msgstr "ส่งคลื่นมิเรียมรอบตัวที่กร่อนเกราะของพาหนะรอบๆและดูดสสารที่เสียไปเพื่อคืนสภาพตัวเอง"
+
+msgid "bestiaryView/info/description/ability_9"
+msgstr "อาวุธของมันมีอัตราการยิงเพิ่มขึ้นทำให้สามารถทำความเสียหายเพิ่มได้"
+
+msgid "bestiaryView/info/tacticalAdvise/czech_Cz34_Vz_71_Tesak_HW_BOT"
+msgstr "{UL}tacticalAdvise_czech_Cz34_Vz_71_Tesak_HW_BOT {UL}{LI}{f7f6f299Bold_open}Tactic_1{f7f6f299Bold_close}: do_1.{UL}{LI}{f7f6f299Bold_open}Tactic_2{f7f6f299Bold_close}: do_2.{UL}{LI}{f7f6f299Bold_open}Tactic_3{f7f6f299Bold_close}: do_3 ."
+
+msgid "bestiaryView/info/tacticalAdvise/france_F110_Lynx_6x6_HW_BOT"
+msgstr "{UL}มันจะไม่ปล่อยให้คุณปฏิบัติภารกิจให้สำเร็จ! รุมทำลายนักวางกับดักก่อน{UL}{LI}{{@ style (bold)}}กระจายตัวให้ห่างกัน{{/}}: ถ้าพันธมิตรอยู่ใกล้กันเกินไป คุณอาจจะตกอยู่ในเขตความเสียหายอื่นในขณะกำลังหนีเขตที่คุณกำลังอยู่{UL}{LI}{{@ style (bold)}}หลีกเลี่ยงเส้นทางแคบ{{/}}: พยายามรักษาความคล่องตัวสูงสุด{UL}{LI}{{@ style (bold)}}ใช้ความสามารถพาหนะ{{/}}: ม่านพลังจะป้องกันคุณจากเขตความเสียหา ในขณะที่การอำพรางจะกันไม่ให้นักวางกับดักจับเป้าคุณได้ตั้งแต่แรก อย่างไรก็ตาม โปรดระวังว่าการอำพรางจะไม่ช่วยคุณถ้าคุณตกอยู่ในเขตความเสียหายอยู่แล้ว"
+
+msgid "bestiaryView/info/tacticalAdvise/france_F17_AMX_13_90_HW_BOT"
+msgstr "{UL}นับกระสุนให้ดีเพราะมันมีแต่ละนัดให้คันในทีมของคุณ!{UL}{LI}{{@ style (bold)}}เป้าหมายเร่งด่วน{{/}}: จากความสามารถที่ไม่ธรรมดาของมันทำให้มันเป็นภัยสำคัญกับทั้งทีมของคุณ{UL}{LI}{{@ style (bold)}}ชัยชนะทางยุทธวิธี{{/}}: การอำพรางและการซ่อมกลุ่มสามารถดับไฟและช่วยให้คุณหรือพันธมิตรคุณไม่ไฟไหม้จนถูกทำลาย{UL}{LI}{{@ style (bold)}}โค่นมันให้ได้{{/}}: ใช้เทอร์โบเพื่อพุ่งชนมันให้ระเบิดไปในทีเดียว!"
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G00_Bomber_Hell"
+msgstr "{UL}เมื่อพบแล้ว เหล่าเม่นควรเป็นเป้าหมายเร่งด่วนของทีม!{UL}{LI}{{@ style (bold)}}จุดอ่อน{{/}}: การที่พวกมันแทบไม่มีเกราะทำให้ทำลายด้วยอาวุธใดก็ได้อย่างง่ายดาย{UL}{LI}{{@ style (bold)}}ยุทธวิธีกลุ่ม{{/}}: ข้าศึกเหล่านี้มักโจมตีเป็นฝูงฉะนั้นให้ระวังตัวและอย่าปล่อยให้มันเข้ามาในจังหวะที่คุณไม่ระวังตัวได้{UL}{LI}{{@ style (bold)}}ความได้เปรียบจากพลังรอบตัว{{/}}: ใช้ความสามารถที่มีสร้างพื้นที่ผลกระทบเช่นกระสุนพลังงานหรือกระสุนดูดพลังเพื่อทำลายทั้งกลุ่มด้วยการยิงเพียงครั้งเดียว"
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G00_K_bomber__HW_21_AI"
+msgstr "{UL}เมื่อคุณเก็บเม่นใหญ่แล้วก็เตรียมตัวจัดการกับเม่นปกติ!{UL}{LI}{{@ style (bold)}}ความเสียหายวงกว้าง{{/}}: ใช้ความสามารถรบของคุณ การโจมตีวงรอบครั้งเดียวนั้นเพียงพอสำหรับการทำลายทั้งกลุ่มด้วยการยิงเพียงครั้งเดียว{UL}{LI}{{@ style (bold)}}การกะเวลาใช้ม่านพลัง{{/}}: ใช้ม่านพลังงานของคุณเพื่อดูดความเสีหยายจากเม่นที่พุ่งชน แต่กะเวลาให้ดีเพื่อให้ใช้งานทันก่อนที่เม่านจะชนคุณ{UL}{LI}{{@ style (bold)}}พยายามแล่นอยู่ตลอด{{/}}: ถ้าพาหนะของคุณเกราะบาง ให้ใช้ความเร็วและเทอร์โบเพื่อหลบหลีกฝูงเม่นแล้วค่อยๆเก็บพวกมันจากระยะไกล"
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G113_SP_I_C_HW_BOT"
+msgstr "{UL}สี่หัว หนึ่งแกน{UL}{LI}{{@ style (bold)}}โครงสร้างร่วมกัน{{/}}: กระสุนทุกนัดนั้นสำคัญโดยไม่สนว่ายิงโดนรถถังคันใด การทำความเสียหายหน่วยใดๆในกลุ่มจะค่อยๆกร่อนโครงสร้างร่วมของพวกมัน{UL}{LI}{{@ style (bold)}}อำนาจการยิงต่อเนื่อง{{/}}: จากการที่พวกมันมีโครงสร้างเดียวกัน คุณจะไม่สามารถลดอำนาจการยิงของพวกมันด้วยการทำลายทีละหน่วยเพราะมันจะยังคงยิงจนกว่าหน่วยสุดท้ายจะถูกทำลาย{UL}{LI}{{@ style (bold)}}กำไรสูงสุด{{/}}: พยายามทำลายทั้งรังให้ได้เพื่อเติมหน่วยเก็บและได้รับมิเรียมมากขึ้น"
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G142_M48RPz_HW_BOT"
+msgstr "{UL}ภายในพลังแปรปรวน การทำงานเป็นทีมคือกุญแจสู่ความสำเร็จ{UL}{LI}{{@ style (bold)}}ประสานการโจมตี{{/}}: เข้าโจมตีค่ายร่วมกันเท่านั้น อย่าพยายามฉายเดี่ยว!{UL}{LI}{{@ style (bold)}}ความได้เปรียบของปืน{{/}}: ข้าศึกที่ถูกทำลายจะทำความเสียหายไม่ได้ อย่าปล่อยให้มีใครรอด{UL}{LI}{{@ style (bold)}}การถอนตัวทางยุทธวิธี{{/}}: ถ้ากำลังเสี่ยงถูกทำลาย คุณสามารถหนีออกจากค่ายเพื่อให้พาหนะของคุณรอดได้"
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G171_E77_HW_BOT"
+msgstr "{UL}ตัดหัวของมันแล้วร่างก็จะร่วงไปตาม!{UL}{LI}{{@ style (bold)}}โจมตีที่หัวใจ{{/}}: ใช้เทอร์โบของคุณเพื่อตีฝ่าฝูงข้าศึกแล้วทำลายราชา{UL}{LI}{{@ style (bold)}}เป้าหมายที่ง่าย{{/}}: ตัวราชานั้นไม่ได้เป็นเป้าหมายที่ทำลายได้ยาก{UL}{LI}{{@ style (bold)}}ตัวเลือกยุทธศาสตร์{{/}}: เลือกลำดับสำคัญของคุณ เก็บราชาเพื่อจบการรบทันทีหรือเก็บรถถังรังผึ้งก่อนเพื่อเติมหน่วยเก็บและได้รับมิเรียมมากขึ้น"
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G181_E100_Autocannon_Boss_HW25_bot"
+msgstr "{UL}tacticalAdvise_germany_G181_E100_Autocannon_Boss_HW25_bot {UL}{LI}{f7f6f299Bold_open}Tactic_1{f7f6f299Bold_close}: do_1.{UL}{LI}{f7f6f299Bold_open}Tactic_2{f7f6f299Bold_close}: do_2.{UL}{LI}{f7f6f299Bold_open}Tactic_3{f7f6f299Bold_close}: do_3 ."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G25_PzII_Luchs_HELL_HALL"
+msgstr "{UL}อย่าปล่อยให้มันหนี!{UL}{LI}{{@ style (bold)}}ความสามารถอยู่รอดต่ำ{{/}}: สามารถถูกทำลายได้ด้วยการยิงเพียงหนึ่งหรือสองนัดแม้จะใช้ปืนพลังทำลายต่ำก็ตาม{UL}{LI}{{@ style (bold)}}รีบเก็บกระต่ายที่อยู่ไกลก่อน{{/}}: อย่าให้พวกมันหนีไปได้ ถ้าจำเป็นให้ยิงตีนตะขาบก่อน{UL}{LI}{{@ style (bold)}}ใช้เทอร์โบ{{/}}: ความสามารถนี้จะช่วยให้คุณไล่ตามกระต่ายที่กำลังหนีได้หรือทำลายมันด้วยผลจากการพุ่งชนที่ไม่แรงมาก"
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G64_Panther_II_Hall_minion"
+msgstr "{UL}นายพรานจะไล่ล่าคุณข้ามทั้งแผนที่ฉะนั้นการหนีจะไม่ใช่ตัวเลือก{UL}{LI}{{@ style (bold)}}พยายามระวังตัว{{/}}: เข้าปะทะกับนายพรานเมื่อคุณจัดการกับกองรบหลักข้าศึกแล้วหรือก่อนเข้าปะทะใหม่{UL}{LI}{{@ style (bold)}}พยายามแล่นตลอด{{/}}: คุณสามารถหลบกระสุนระเบิดแรงสูงความเร็วต่ำได้ด้วยการแล่นอยู่ตลอด{UL}{LI}{{@ style (bold)}}ดอกไม้ไฟกระสุน{{/}}: เกราะข้างของนายพรานนั้นเป็นส่วนเกราะบางและเป็นที่เก็บกระสุนระเบิดแรงสูง ให้เล็งที่จุดดังกล่าวเพื่อทำลายมัน"
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G73_E50_Ausf_M_Hall_minion"
+msgstr "{UL}ใหญ่และอุ้ยอ้าย ใช้นั่นเพื่อชิงความได้เปรียบของคุณ!{UL}{LI}{{@ style (bold)}}รูปทรงที่ใหญ่{{/}}: พยายามเข้าใกล้ส่วนด้านข้างของข้าศึกเพื่อให้ปืนของมันเล็งมาหาคุณไม่ได้{UL}{LI}{{@ style (bold)}}ใช้ภูมิประเทศให้เป็นประโยชน์{{/}}: หาความได้เปรียบจากสภาพแวดล้อม การอยู่ในที่โล่งเมื่อเผชิญกับปืนใหญ่ของมันคือความผิดพลาดร้ายแรง{UL}{LI}{{@ style (bold)}}ประสานการโจมตี{{/}}: จากความทนทานที่มหาศาลของมัน คิดให้ดีก่อนที่จะพยายามจะทำลายมันด้วยตัวคุณคนเดียว"
+
+msgid "bestiaryView/info/tacticalAdvise/header"
+msgstr "คำแนะนำยุทธวิธี"
+
+msgid "bestiaryView/info/tacticalAdvise/italy_It19_Progetto_C50_mod_66_HW_BOT"
+msgstr "{UL}แบบจำลองเสียงสะท้อนนี้จะคืนสภาพของมันจากความผิดพลาดของคุณ!{UL}{LI}{{@ style (bold)}}เป้าหมายเร่งด่วน{{/}}: จากความสามารถที่ไม่ธรรมดาของมันทำให้มันเป็นภัยอย่างร้ายแรงกับทั้งทีมของคุณ{UL}{LI}{{@ style (bold)}}รักษาระยะห่างเอาไว้{{/}}: ข้าศึกนี้ทำลายได้ยากกว่าถ้ามันซ่อมแซมตัวเองจากการพลาดของคุณ{UL}{LI}{{@ style (bold)}}หลีกเลี่ยงการดวล{{/}}: แบบจำลองบิดเบี้ยวนี้สามารถเอาชนะรถถังของคุณได้อย่างง่ายดายในการปะทะหนึ่งต่อหนึ่ง"
+
+msgid "bestiaryView/info/tacticalAdvise/uk_GB100_Manticore_HW_BOT"
+msgstr "{UL}คว้ามันในขณะที่คุณยังทำได้ มันจะไม่มีโอกาสที่สองในการชิงความได้เปรียบอีก!{UL}{LI}{{@ style (bold)}}โอกาสครั้งเดียว{{/}}: หน่วยเก็บกู้มีมิเรียมจำนวนมากและมีพลังแปรปรวนเฉพาะตัว ถ้าคุณไล่ตามมันไม่ทัน ทั้งหน่วยเก็บกู้และของมีค่าของมันจะหายไปตลอดการรบ{UL}{LI}{{@ style (bold)}}ไม่ต้องสนตีนตะขาบ{{/}}: ข้าศึกนี้มีตีนตะขาบที่ทำลายไม่ได้ ใช้ความสามารถเพิ่มความเสียหายเพื่อยิงทะลุเกราะมันแทน{UL}{LI}{{@ style (bold)}}ระวังหลังของคุณ{{/}}: อย่าปล่อยให้ข้าศึกคันอื่นๆหาจังหวะมายิงคุณได้ระหว่างที่คุณกำลังไล่ตามอยู่"
+
+msgid "bestiaryView/info/tacticalAdvise/uk_GB125_Saladin_HW_BOT"
+msgstr "{UL}พยายามอยู่ห่างและทำลายมันอย่างรวดเร็ว!{UL}{LI}{{@ style (bold)}}รักษาระยะเอาไว้{{/}}: อย่าปล่อยให้ตัวจุดระเบิดเข้าใกล้ได้{UL}{LI}{{@ style (bold)}}พลิกสถานการณ์{{/}}: ถ้าคุณทำลายตัวจุดระเบิดได้ก่อนที่มันจะทำลายตัวเอง คลื่นกระแทกจะทำให้รถถังข้าศึกทั้งหมดในพื้นที่มึนงง{UL}{LI}{{@ style (bold)}}เตรียมการซ่อมของคุณ{{/}}: ถ้าคุณหรือพันธมิตรของคุณตกอยู่ในวงระเบิด ให้ใช้การซ่อมกลุ่มเพื่อลบสภาวะมึนงงโดยทันที"
+
+msgid "bestiaryView/info/tacticalAdvise/uk_GB24_Centurion_Mk3_HW_BOT"
+msgstr "{UL}อย่าให้มันเจอคุณในที่โล่ง!{UL}{LI}{{@ style (bold)}}เป้าหมายเร่งด่วน{{/}}: จากความสามารถที่ไม่ธรรมดาของมันทำให้มันเป็นภัยอย่างร้ายแรงกับทั้งทีมของคุณ{UL}{LI}{{@ style (bold)}}ชัยชนะทางยุทธวิธี{{/}}: เมื่อปะทะกับข้าศึกแบบนี้ พยายามเตรียมให้โล่พลังงานหรือการอำพรางของคุณพร้อมใช้เพื่อหลีกเลี่ยงความเสียหายร้ายแรง{UL}{LI}{{@ style (bold)}}สู้ไฟด้วยไฟ{{/}}: ใช้การบรรจุเร็วเพื่อป่นเกราะของมันและทำลายตัวเลียนแบบเซอร์เบอรัสนี้ให้เร็วที่สุด"
+
+msgid "bestiaryView/info/tacticalAdvise/usa_A100_T49_HW_BOT"
+msgstr "{UL}พลาดครั้งเดียวก็ไม่รอด!{UL}{LI}{{@ style (bold)}}เป้าหมายเร่งด่วน{{/}}: เนื่องจากความสามารถที่แปลกของมัน รถถังคันนี้เป็นภัยใหญ่หลวงกับทั้งทีม{UL}{LI}{{@ style (bold)}}เกราะบาง{{/}}: บรรจุกระสุนระเบิดแรงสู.เพื่อจัดการกับมันได้เร็วขึ้น{UL}{LI}{{@ style (bold)}}ข้าศึกตีโอบ{{/}}: อย่าปล่อยให้มันตีโอบทีมของคุณได้ ให้เผชิญหน้ากับมันซึ่งๆหน้า"
+
+msgid "bestiaryView/info/tacticalAdvise/ussr_R171_IS_3_II_HW_BOT"
+msgstr "{UL}ทำลายแท่นพุ่งชนก่อนที่มันจะเข้าถึงตัว! นี่เป็นเป้าหมายเร่งด่วนในทุกระลอก{UL}{LI}{{@ style (bold)}}ยิงที่ตีนตะขาบ{{/}}: นี่จะทำให้หน่วยพุ่งชนแล่นไม่ได้และกลายเป็นเป้าหมายที่ง่ายสำหรับพันธมิตรของคุณ{UL}{LI}{{@ style (bold)}}รุมยิงข้าศึก{{/}}: ทำลายข้าศึกนี้ให้ได้ก่อนมันจะแล่นอีกครั้ง ถ้าจำเป็นให้ยิงตีนตะขาบอีกครั้ง{UL}{LI}{{@ style (bold)}}หลบการชน{{/}}: ถ้าหน่วยพุ่งชนตีฝ่าเข้ามาหาคุณ เปิดใช้การหายตัวหรือแล่นหลบหลีกเพื่อออกจากแนวโจมตีของมัน"
+
+msgid "bestiaryView/info/tacticalAdvise/ussr_R40_T-54_HW_BOT"
+msgstr "{UL}พยายามจับตาดูให้ดีเพราะมันจะพยายามเข้าประชิดตัวก่อนที่คุณจะรู้ตัว{UL}{LI}{{@ style (bold)}}เป้าหมายเร่งด่วน{{/}}: เนื่องจากความสามารถที่แปลกของมัน รถถังคันนี้เป็นภัยใหญ่หลวงกับทั้งทีม{UL}{LI}{{@ style (bold)}}พยายามอยู่ห่างเข้าไว้{{/}}: ข้าศึกแบบนี้จะแผ่สนามพลังงานทำความเสียหาย หน่วยรบใดๆที่เข้าในรัศศมีจะได้รับความเสียหายอย่างมาก{UL}{LI}{{@ style (bold)}}ยิงถล่มมันให้ได้{{/}}: ใช้การบรรจุเร็วหรือยุทธวิธีอื่นเพื่อโค่นมันให้ได้ก่อนที่มันจะเข้าใกล้เกินไป"
+
+msgid "bestiaryView/info/tacticalAdvise/ussr_R77_KV2_turret_2"
+msgstr "{UL}พยายามอย่าอยู่นิ่งและหลบแนวโดนยิงสวน!{UL}{LI}{f7f6f299Bold_open}ภัยอยู่นิ่ง{f7f6f299Bold_close}: เนื่องจากข้าศึกแบบนี้แล่นไม่ได้ ให้ใช้สภาพแวดล้อมโดยรอบให้เป็นประโยชน์ ใช้เนินและอุปสรรคเพื่อหลบจากแนวการมองเห็นและหลบการยิงของมัน{UL}{LI}{f7f6f299Bold_open}อย่าดวลกันซึ่งๆหน้า{f7f6f299Bold_close}: แผ่นเกราะหน้าของมันนั้นหนาอย่างมาก แทนที่จะยิงแลกกับมัน ให้หาวิธีเข้าตีโอบหรือรอจังหวะเปิดเพื่อยิงด้านข้างที่บางกว่า{UL}{LI}{f7f6f299Bold_open}เตรียมม่านพลังของคุณ{f7f6f299Bold_close}: ข้าศึกนี้ยิงได้หนักหน่วง กระสุนความเสียหายสูงของมันสามารถทำให้ยานเกราะของคุณพิการได้ฉะนั้นเก็บม่านพลังงานของคุณให้พร้อมเพื่อลดความเสียหายที่ยิงมา"
+
+msgid "bestiaryView/info/title/ability_1"
+msgstr "ยานป้องกัน"
+
+msgid "bestiaryView/info/title/ability_10"
+msgstr "คลื่นกระแทก"
+
+msgid "bestiaryView/info/title/ability_11"
+msgstr "กระสุนเพลิง"
+
+msgid "bestiaryView/info/title/ability_12"
+msgstr "คู่ปัญหา"
+
+msgid "bestiaryView/info/title/ability_13"
+msgstr "รังสีสัตว์ร้าย"
+
+msgid "bestiaryView/info/title/ability_14"
+msgstr "กระสุนเสียงสะท้อน"
+
+msgid "bestiaryView/info/title/ability_15"
+msgstr "คลื่นมึึนงง"
+
+msgid "bestiaryView/info/title/ability_16"
+msgstr "รูปแบบยิงเร็ว"
+
+msgid "bestiaryView/info/title/ability_17"
+msgstr "สวิตช์ตัด"
+
+msgid "bestiaryView/info/title/ability_18"
+msgstr "สายเชื่อมสำคัญ"
+
+msgid "bestiaryView/info/title/ability_19"
+msgstr "ยานขนพลังแปรปรวน"
+
+msgid "bestiaryView/info/title/ability_2"
+msgstr "แท่นพุ่งชน"
+
+msgid "bestiaryView/info/title/ability_3"
+msgstr "ระดมยิงระเบิดแรงสูง"
+
+msgid "bestiaryView/info/title/ability_4"
+msgstr "กับดักมิเรียม"
+
+msgid "bestiaryView/info/title/ability_5"
+msgstr "เผ่นหนี"
+
+msgid "bestiaryView/info/title/ability_6"
+msgstr "ระเบิด!!!"
+
+msgid "bestiaryView/info/title/ability_7"
+msgstr "ฝูงเม่น"
+
+msgid "bestiaryView/info/title/ability_8"
+msgstr "คลื่นดูดเลือด"
+
+msgid "bestiaryView/info/title/ability_9"
+msgstr "ยิงเร็ว"
+
+msgid "bestiaryView/title"
+msgstr "คลังรถถังเสียงสะท้อน"
+
+msgid "bundleView/btn/keys"
+msgstr "ซื้อ"
+
+msgid "bundleView/btn/shop"
+msgstr "ดูในร้านค้า"
+
+msgid "bundleView/bundle/header/bundleGroupEventPack"
+msgstr "รวมตัวเหล่าองครักษ์"
+
+msgid "bundleView/bundle/header/bundleGroupLuxuryEventPack"
+msgstr "ลุยเต็มที่"
+
+msgid "bundleView/bundle/header/bundleGroupStyle"
+msgstr "ปรับแต่ง"
+
+msgid "bundleView/bundle/header/hw26bundle_keys"
+msgstr "ซื้อกุญแจ"
+
+msgid "bundleView/bundle/serviceChannelMessages/hw26bundle_keys"
+msgstr "ซื้อกุญแจแล้ว"
+
+msgid "bundleView/bundle/subHeader/bundleGroupEventPack"
+msgstr "ชุดสินค้าพิเศษเพื่อเร่งความก้าวหน้าของคุณผ่านบาบิลอน: หอคอยมืด"
+
+msgid "bundleView/bundle/subHeader/bundleGroupLuxuryEventPack"
+msgstr "ข้อเสนอเฉพาะบาบิลอน: หอคอยมืดสำหรับชุดสินค้าสุดยอด"
+
+msgid "bundleView/bundle/subHeader/bundleGroupStyle"
+msgstr "รูปแบบสามมิติและองค์ประกอบอื่นๆที่สร้างบรรยากาศให้กิจกรรม"
+
+msgid "bundleView/bundle/subHeader/hw26bundle_keys"
+msgstr "กุญแจนั้นใช้ในการถอดรหัสม้วนเทป กุญแจหนึ่งอันมีราคา {cost} เหรียญ"
+
+msgid "bundleView/eventName"
+msgstr "โครงการบาบิลอน"
+
+msgid "bundleView/reward/hw_artefact_key"
+msgstr "กุญแจถอดรหัส (โบนัส)"
+
+msgid "bundleView/subTitle"
+msgid_plural "plural/bundleView/subTitle"
+msgstr[0] "ต้องใช้อีก {key} สำหรับบันทึก {slide}"
+msgstr[1] "ต้องใช้อีก {key} สำหรับบันทึก {slide}"
+msgstr[2] "ต้องใช้อีก {key} สำหรับบันทึก {slide}"
+
+msgid "bundleView/title"
+msgstr "กุญแจถอดรหัส"
+
+msgid "bundleView/title/default"
+msgstr "เลือกวิธีการซื้อกุญแจ"
+
+msgid "bundleView/title/onlyKeysBundle"
+msgstr "เลือกจำนวนกุญแจที่จะซื้อ"
+
+msgid "bundleView/title/onlyShopBundle"
+msgstr "เลือกชุดสินค้ากิจกรรม"
+
+msgid "bundleView/tooltip/cerfToken/body"
+msgstr "สมาชิกพลรถถังช่วงกิจกรรมพิเศษที่เลือกได้พร้อมเสียงพากย์"
+
+msgid "bundleView/tooltip/cerfToken/header"
+msgstr "สมาชิกพลรถถังกิจกรรมให้เลือกได้"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "ตัวเลือกในการได้รับประสบการณ์ ×5 เริ่มตั้งแต่การชนะครั้งที่สองของวันในพาหนะใดก็ได้"
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "ภารกิจประสบการณ์ x5 ที่ได้รับในการรบ"
+
+msgid "bundleView/tooltip/stepper/body"
+msgstr "ตั้งจำนวนกุญแจเพื่อถอดรหัสหรือข้ามบันทึกที่ล็อคเอาไว้"
+
+msgid "bundleView/tooltip/stepper/header"
+msgstr "กุญแจในการถอดรหัสบันทึกที่ล็อคไว้"
+
+msgid "carousel/card/inBattle"
+msgstr "อยู่ในการรบ"
+
+msgid "carousel/card/inPlatoon"
+msgstr "ในหน่วยยุทธวิธี"
+
+msgid "carousel/card/inQueue"
+msgstr "อยู่ในคิว"
+
+msgid "carousel/card/locked"
+msgstr "ถูกล็อก"
+
+msgid "carousel/daily/header"
+msgstr "ภารกิจพาหนะประจำวัน"
+
+msgid "common/back"
+msgstr "กลับ"
+
+msgid "common/btnContinue"
+msgstr "ดำเนินการต่อ"
+
+msgid "common/close"
+msgstr "ปิด"
+
+msgid "common/new"
+msgstr "ใหม่"
+
+msgid "common/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "common/toEvent"
+msgstr "ไปยังกิจกรรม"
+
+msgid "common/toRewardPath"
+msgstr "ไปยังเส้นทางรางวัล"
+
+msgid "common/yes"
+msgstr "รับทราบ!"
+
+msgid "comparisonWindow/categoryName/maxHealth"
+msgstr "ความทนทาน\n(หน่วย)"
+
+msgid "comparisonWindow/categoryName/relativePower"
+msgstr "อำนาจการยิง\n(หน่วย)"
+
+msgid "comparisonWindow/categoryName/speedLimit"
+msgstr "ความเร็วสูงสุด\n(กม./ชม.)"
+
+msgid "comparisonWindow/tank/ttcType/france_F17_AMX_13_90_Halloween_event"
+msgstr "ซองกระสุน&nbsp;ห้านัด&nbsp;"
+
+msgid "comparisonWindow/tank/ttcType/italy_It19_Progetto_C50_mod_66_hw21"
+msgstr "ระบบป้อนกระสุนอัตโนมัติแบบ 3 นัดที่พัฒนาให้ดีขึ้น"
+
+msgid "comparisonWindow/tank/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event"
+msgstr "ปืนระบบยิงต่อเนื่อง"
+
+msgid "comparisonWindow/tank/ttcType/uk_GB24_Centurion_Mk3_Halloween_event"
+msgstr "เพิ่มโอกาสในการทำความเสียหายชิ้นส่วนพาหนะข้าศึก"
+
+msgid "comparisonWindow/tank/ttcType/usa_A100_T49_Halloween_event"
+msgstr "ปืนกระสุนระเบิดแรงสูงที่มี&nbsp;ระบบป้อนกระสุนอัตโนมัติ 2 นัด"
+
+msgid "comparisonWindow/tank/ttcType/ussr_R171_IS_3_II_hw21"
+msgstr "ระบบปืนคู่"
+
+msgid "comparisonWindow/tank/ttcType/ussr_R40_T_54_Halloween_event"
+msgstr "การป้องกันสำหรับชิ้นส่วน&nbsp;พาหนะของคุณ"
+
+msgid "comparisonWindow/title"
+msgstr "การเปรียบเทียบพาหนะ"
+
+msgid "crewShowcase/play"
+msgstr "เล่น"
+
+msgid "crewShowcase/status/inBaseReward"
+msgstr "ในรางวัลพื้นฐาน"
+
+msgid "crewShowcase/status/inShop"
+msgstr "ในชุดสินค้าพิเศษ"
+
+msgid "crewShowcase/status/received"
+msgstr "ได้รับ"
+
+msgid "crewShowcase/subTitle"
+msgstr "สมาชิกพลรถถังทั้งหมดมีประสบการณ์พลรถถังพอฝึกสามความสามารถถึง 100%"
+
+msgid "crewShowcase/title"
+msgstr "สมาชิกพลรถถังเฉพาะ"
+
+msgid "crewShowcase/viewInStore"
+msgstr "ดูในร้านค้า"
+
+msgid "decrypt/affirmative"
+msgstr "รับทราบ!"
+
+msgid "decrypt/arrow/disabled/body"
+msgstr "ปฏิบัติเป้าหมายถัดไปให้สำเร็จแล้วถอดรหัสด้วยกุญแจเพื่อก้าวหน้าต่อ"
+
+msgid "decrypt/arrow/disabled/header"
+msgstr "เป้าหมายถัดไป"
+
+msgid "decrypt/arrowPrev/disabled/body"
+msgstr "ปฏิบัติเป้าหมายก่อนหน้าให้สำเร็จแล้วถอดรหัสด้วยกุญแจเพื่อก้าวหน้าต่อ"
+
+msgid "decrypt/arrowPrev/disabled/header"
+msgstr "เป้าหมายก่อนหน้า"
+
+msgid "decrypt/completed"
+msgstr "บรรลุเป้าหมายแล้ว ได้รับรางวัล:"
+
+msgid "decrypt/hideShow"
+msgstr "ซ่อน/แสดงแผงโต้ตอบผู้ใช้"
+
+msgid "decrypt/outroVideo"
+msgstr "วีดิโอบทปิด"
+
+msgid "decrypt/outroVideoTooltip/active"
+msgstr "ชมวีดิโอบทปิด"
+
+msgid "decrypt/outroVideoTooltip/disabled"
+msgstr "คุณสามารถชมวีดิโอบทปิดได้จากหน้าจอนี้อีกครั้งหลังจากได้รับรางวัลทั้งหมดแล้ว"
+
+msgid "decrypt/voiceover"
+msgstr "การพากย์"
+
+msgid "decrypt/voiceoverTooltip"
+msgstr "เปิดหรือปิดการบรรยายเสียงบนหน้าจอที่มีบันทึกถอดรหัสแล้ว"
+
+msgid "difficult/disabled/body"
+msgstr "คุณอยู่ในหมวดรถถัง มีเพียงผู้การหมวดรถถังเท่านั้นที่จะสามารถเปลี่ยนขั้นความยากได้"
+
+msgid "difficult/disabled/header"
+msgstr "ไม่สามารถเปลี่ยนความยากได้"
+
+msgid "difficult/level_1"
+msgstr "ปกติ"
+
+msgid "difficult/level_2"
+msgstr "ยาก"
+
+msgid "difficult/level_3"
+msgstr "ฝันร้าย"
+
+msgid "difficult/new"
+msgstr "ใหม่"
+
+msgid "difficult/tooltip/description/level1"
+msgstr "ข้าศึกมีความทนทานต่ำและเกราะบาง รางวัลการรบมาตรฐษน"
+
+msgid "difficult/tooltip/description/level2"
+msgstr "ข้าศึกมีเกราะที่ทนทานขึ้นในขณะที่รางวัลและจำนวนกุญแจที่ได้รับต่อการรบจะเพิ่มขึ้น"
+
+msgid "difficult/tooltip/description/level3"
+msgstr "จะมีข้าศึกมีเกราะดีขึ้นกว่าเดิม รางวัลและจำนวนกุญแจที่ได้รับต่อการรบจะเพิ่มขึ้นตาม"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "ปกติ"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "ยาก"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "ฝันร้าย"
+
+msgid "difficult/tooltip/locked"
+msgstr "ถูกล็อก"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "ในการปลดล็อคความยากระดับนี้ ให้ชนะหัวหน้าในระดับความยากปกติก่อน"
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "ในการปลดล็อคความยากระดับนี้ ให้ชนะหัวหน้าในระดับความยากยากก่อน"
+
+msgid "difficult/tooltip/state/default"
+msgstr "มีให้"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "เลือกไว้"
+
+msgid "difficult/tooltip/subHeader/level1"
+msgstr "4 ช่วง"
+
+msgid "difficult/tooltip/subHeader/level2"
+msgstr "4 ช่วง"
+
+msgid "difficult/tooltip/subHeader/level3"
+msgstr "4 ช่วง"
+
+msgid "difficult/uppercase/level_1"
+msgstr "ปกติ"
+
+msgid "difficult/uppercase/level_2"
+msgstr "ยาก"
+
+msgid "difficult/uppercase/level_3"
+msgstr "ฝันร้าย"
+
+msgid "difficultyWindow/anomalies/button"
+msgstr "ไปยังพลังแปรปรวน"
+
+msgid "difficultyWindow/anomalies/label"
+msgstr "พลังแปรปรวนผสมปลดล็อคแล้ว"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "ข้าศึกมีเกราะที่ทนทานขึ้นในขณะที่รางวัลและจำนวนกุญแจที่ได้รับต่อการรบจะเพิ่มขึ้น"
+
+msgid "difficultyWindow/description/level_3"
+msgstr "จะมีข้าศึกมีเกราะดีขึ้นกว่าเดิม รางวัลและจำนวนกุญแจที่ได้รับต่อการรบจะเพิ่มขึ้นตาม"
+
+msgid "difficultyWindow/header/level_2"
+msgstr "ระดับความยากแบบยาก"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "ระดับความยากฝันร้าย"
+
+msgid "difficultyWindow/title"
+msgstr "มีให้"
+
+msgid "hangar/about"
+msgstr "เกี่ยวกับกิจกรรม"
+
+msgid "hangar/exit"
+msgstr "ออกจากกิจกรรม"
+
+msgid "hangar/header/keys"
+msgstr "กุญแจ: {{value}}"
+
+msgid "hangar/tooltipAbout"
+msgstr "อ่านเพิ่มเติมเกี่ยวกับกิจกรรมบาบิลอน: หอคอยมืด"
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "ความสามารถรบ"
+
+msgid "headerButtons/battle/types/halloween"
+msgstr "บาบิลอน: หอคอยมืด"
+
+msgid "iconButton/comparison/default"
+msgstr "การเปรียบเทียบพาหนะ"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "การเปรียบเทียบพาหนะไม่มีให้"
+
+msgid "iconButton/enemyPreview/isDisabled"
+msgstr "ผ่านและถอดรหัสเป้าหมายปัจจุบันทั้งหมดเพื่อเข้าถึงเอกสารของข้าศึก"
+
+msgid "iconButton/preview/default"
+msgstr "ตัวอย่างพาหนะ"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "ตัวอย่างพาหนะไม่มีให้"
+
+msgid "infoBestiary/button/name"
+msgstr "คลังรถถังเสียงสะท้อน"
+
+msgid "infoBestiary/simpleTooltip/body/disabled"
+msgstr "ผ่านและถอดรหัสบันทึกเพื่อเข้าถึงแฟ้มข้อมูล"
+
+msgid "infoBestiary/simpleTooltip/body/enabled"
+msgstr "ศึกษาข้าศึกและความสามารถของพวกมันแล้วเรียนรู้วิธีที่มีประสิทธิภาพสูงสุดในการทำลายมัน"
+
+msgid "infoBestiary/simpleTooltip/header/disabled"
+msgstr "คลัังรถถังเสียงสะท้อนไม่มีให้"
+
+msgid "keyCard/name"
+msgstr "กุญแจถอดรหัส"
+
+msgid "keys/get"
+msgstr "รับ"
+
+msgid "kingRewardCongratsView/btn/garage"
+msgstr "ดูในโรงรถ"
+
+msgid "kingRewardCongratsView/btn/outro"
+msgstr "ไปยังบทสรุปของเรื่องราว"
+
+msgid "kingRewardCongratsView/header"
+msgstr "ได้รับรางวัลหลักแล้ว"
+
+msgid "kingRewardCongratsView/reward/crew100/value"
+msgstr "100%"
+
+msgid "kingRewardCongratsView/rewardsTitle"
+msgstr "รางวัล:"
+
+msgid "kingRewardCongratsView/tankName"
+msgstr "{level}{icon}{userName}"
+
+msgid "kingRewardCongratsView/title"
+msgstr "บรรลุเป้าหมายสุดท้ายแล้ว"
+
+msgid "medalWidget/tooltipBody"
+msgstr "ปลดล็อคพลังแปรปรวนทั้งหมดที่อยู่ในรายการพลังแปรปรวน"
+
+msgid "medalWidget/tooltipHeader"
+msgstr "ภารกิจเหรียญตรามหากาพย์"
+
+msgid "meta/btn/decrypt"
+msgstr "ถอดรหัส"
+
+msgid "meta/btn/skip"
+msgstr "ข้าม"
+
+msgid "meta/btn/view"
+msgstr "ดู"
+
+msgid "meta/receive/description"
+msgstr "สะสม %(keys) / %(decrypt) %(icon)\n เพื่อถอดรหัสบันทึกนี้"
+
+msgid "meta/shortStory/hw_artefact_1"
+msgstr "มันเจ้าเล่ห์กว่าทุกอย่างที่เราได้เคยพบและมันก็มีไพ่เด็ดที่เรายังไม่มีวิธีแก้ได้"
+
+msgid "meta/shortStory/hw_artefact_10"
+msgstr "คนส่งข้ามฟากนำอเลกซ์ไปยังหอคอยโดยรู้ว่าเธอจะไม่ชอบมัน  เขาเป็นจอมชักใยแต่ก็ไม่ได้อยากฆ่าตัวตาย นี่หมายความว่าเขามีแผนอยู่  เราต้องรู้ให้ได้ว่ามันคืออะไร"
+
+msgid "meta/shortStory/hw_artefact_11"
+msgstr "ฉันไม่เคยมีบ้านของตัวเอง แต่ตอนนี้ฉันก็มีแล้วและฉันก็เพิ่งรู้ว่าฉันเตรียมอะไรไว้เพื่อรักษามัน"
+
+msgid "meta/shortStory/hw_artefact_12"
+msgstr "มันใช้ได้! คลื่นความถี่ถูกบล็อคแล้ว! ยิงเลยสมิธ! ทำลายมันให้ได้!"
+
+msgid "meta/shortStory/hw_artefact_13"
+msgstr "เราทำได้แล้ว เจ้าแมงมุมหมดสภาพและหอคอยก็ถูกทำลาย ตอนนี้เราต้องตัดสินใจกับชะตากรรมของอเลกซ์แล้ว เราทุกคนต้องทำการเลือก"
+
+msgid "meta/shortStory/hw_artefact_2"
+msgstr "ลานซ่อม, ห้องส่วนตัว, กลิ่นกาแฟร้อนในโรงอาหาร บ้านที่อบอุ่นกลางห้วงพลังแปรปรวนนี้ แต่มีความคิดหนึ่งที่ทำให้ผมกังวล..."
+
+msgid "meta/shortStory/hw_artefact_3"
+msgstr "ผมมีแผนและรถถังก็พร้อมจะออกปฏิบัติการแล้ว ตอนนี้ก็เหลือเพียงแค่อย่างเดียวที่ขาดไปและมีเพียงคุณคนเดียวที่จะช่วยได้"
+
+msgid "meta/shortStory/hw_artefact_4"
+msgstr "พวกนายมาเพื่อทำลายหอคอย ทำลายบ้านของฉัน นายเรียกมันเป็นอันตรายแต่นั่นคือคำโกหก พวกนายแค่ต้องการอำนาจ"
+
+msgid "meta/shortStory/hw_artefact_5"
+msgstr "เราไม่ได้พยายามที่จะช่วยโลก เราแค่ทำสิ่งที่คนส่งข้ามฟากบอกให้เราทำ เขาใช้พวกเราเหมือนกับหมากเบี้ย ชักใยทุกก้าวของเราและผมก็นำอเลกซ์ตรงเข้าสู่กับดักของเขา"
+
+msgid "meta/shortStory/hw_artefact_6"
+msgstr "มิเรียมที่อยู่ในตัวฉันกำลังส่งกระแสและนำฉันลึกเข้าไปในหอคอย คำตอบกำลังรอฉันอยู่ที่นั่น คนที่เรียกฉันกำลังรอฉันอยู่ที่นั่น..."
+
+msgid "meta/shortStory/hw_artefact_7"
+msgstr "คนส่งข้ามฟากไม่ได้พยายามหาพิกัดของหอคอยมืด เขารู้ตำแหน่งทั้งหมดอยู่แล้ว เขาแค่ต้องการให้กองสำรวจของเราออกไปทำงานบางอย่างและตอนนี้ผมคิดว่าผมพอจะเข้าใจแล้วว่ามันคืออะไร"
+
+msgid "meta/shortStory/hw_artefact_8"
+msgstr "คุณพ่อตั้งชื่อให้ฉัน เกรทเชน วอน เอคฮาร์ท พ่อเรียกฉันว่าไข่มุก ฉันคือคนพิเศษของคุณพ่อ"
+
+msgid "meta/shortStory/hw_artefact_9"
+msgstr "ผู้ที่เกิดที่นี่นั้นสามารถทำได้มากกว่า เราสามารถปรับมิเรียมและควบคุมมัน นี่เป็นครั้งแรกในชีวิตที่ฉันรู้สึกว่าตัวเองสมบูรณ์"
+
+msgid "meta/story/hw_artefact_1"
+msgstr "{{@ class $titleClass}} มันเจ้าเล่ห์กว่าทุกอย่างที่เราได้เคยพบและมันก็มีไพ่เด็ดที่เรายังไม่มีวิธีแก้ได้{{/}}\n\nบ้าเอ้ย! ทำไมมันไม่มีอะไรง่ายเลย? แผนแรกล้มเหลว มันดูไปได้สวยและปราดเปรื่องแต่ก็ยังล้มเหลว\n\nทุกคนคิดว่า{{@ class $keyWordViolet}}มาร์ดุค{{/}} เป็นไพ่เด็ดของเรา เรือเหาะบินได้พร้อมปืนที่ใหญ่กว่าปืนใหญ่ของดอร่า\n\nการระดมยิงเพียงครั้งเดียวก็พอที่จะแก้ปัญหาทั้งหมดของเรา {{@ class $keyWordViolet}}หอคอยมืด{{/}} ถูกทำลาย พวกนาซีหรืออะไรก็ตามที่หลงเหลืออยู่ถูกกำจัด และรถถังนับพันที่ได้เตรียมทำการรบตั้งแต่ปี 1940 ก็น่าจะขึ้นสนิมในนั้นตลอดไป\n\nแต่ผมลืมกฎข้อที่หนึ่งไป ในห้วงพลังแปรปรวน ไม่มีอะไรง่ายเสมอ กระสุนพุ่งไปติดกับโล่และในการเอามันออก เราก็ต้องทำลายสิ่งที่กำเนิดมันขึ้นมา\n\nแต่ {{@ class $keyWordViolet}}เจ้าแมงมุม{{/}} เจ้าเล่ห์กว่าทุกอย่างที่เราได้เคยพบ และเมื่อถึงเวลาในการส่งหมัดสังหาร มันก็เปิดใช้แมกนัสและหนีกลับรังไปเลียแผลตัวเองและโยนเรากลับไปหลายห้วงมิติ \n\nเอาล่ะ หมดเวลาตัดพ้อละ ถึงเวลาลุยกันต่อ เรามีแค่ปิดโล่นั่นแล้วระเบิดหอคอยเป็นจุลหรือเราจะติดอยู่ในนี้ตลอดไป \n\nกองบัญชาการสร้างเรือเหาะนี้ขึ้นมาอีกทั้งยังตั้งชื่อมันตามเทพโบราณแล้วคิดว่าจะแก้ปัญหาได้ แต่ที่สุดแล้วเราก็มาถึงจุดนี้อีกครั้ง เหล่าทวยเทพอาจทำให้เราผิดหวัง แต่รถถังของเราจะไม่เป็นเช่นนั้น\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"ใช้แผนที่ยุทธวิธีแล้วประสานงานของพวกคุณ ทำเครื่องหมายจุดที่คุณกำลังมุ่งหน้าไปเพื่อให้หมวดรถถังไปพร้อมกันกับคุณ หรือไปยังตำแหน่งที่ผู้การคนอื่นกำหนดเอาไว้ พยายามอยู่รวมกลุ่มอยู่เสมอ\"{{/}}"
+
+msgid "meta/story/hw_artefact_10"
+msgstr "{{@ class $titleClass}}คนส่งข้ามฟากนำอเลกซ์ไปยังหอคอยโดยรู้ว่าเธอจะไม่ชอบมัน เขาเป็นจอมชักใยแต่ก็ไม่ได้อยากฆ่าตัวตาย นี่หมายความว่าเขามีแผนอยู่ เราต้องรู้ให้ได้ว่ามันคืออะไร{{/}}\n\nเราอยู่ในกับดัก ในใยที่เธอกำลังชักอยู่ อเลกซ์กำลังเรียนรู้ มันไม่สำคัญว่าเราจะแพ้หรือชนะ เพราะในการรบแต่ละครั้งเธอจะแข็งแกร่งขึ้น มันเหมือนกับว่าเธอกำลังเล่นกับเราและทดสอบว่าเจ้าแมงมุมทำอะไรได้\n\nผมอดคิดไม่ได้ว่าทุกอย่างกำลังเป็นไปตามแผนของคนส่งข้ามฟาก แต่ผมก็ไม่เข้าใจตรรกะของเขา เขาเป็นจอมบงการแต่ก็ไม่กล้าพอที่จะฆ่าตัวตาย เขานำเธอไปยังหอคอยโดยรู้ว่าเธอจะไม่ชอบมัน เขาวางแผนอะไรไว้เพื่อควบคุมเธอ?\n\nยังไงซะ มันก็สายเกินไปแล้ว สมิิธมัวแต่หวังว่าเขาจะคุยกับเธอและทำให้เธอกลับใจได้ เขาอยากจะช่วยเธอ ผมเองก็เช่นกันแต่นั่นมันไม่ใช่อเลกซ์อีกต่อไป\n\nผมอ่านคลังข้อมูลของเยอรมัน พวกเขาพยายามดึงหน่วยปฏิบัติการออก พยายามถึงสิบเจ็ดครั้งแต่รอดได้เพียงแค่สี่รายและไม่มีใครดึงสติกลับมาเหมือนเดิม พวกเขาหายใจ หัวใจก็ยังเต้นแต่เหมือนไม่มีวิญญาณอยู่ในร่าง แต่ก็จริงอยู่ที่... อเลกซ์นั้นไม่ใช่หน่วยปฏิบัติการปกติ\n\nแต่พอละ เราไม่มีเวลาสำหรับเรื่องนี้ เราต้องทำลายหอคอยมืดให้ได้\n\nคทาพิฆาต, ไม่สิ สุริยคราสนั้นพร้อมแล้ว ผมเองก็เต็มไปด้วย {{@ class $keyWordViolet}}มิเรียมแบบเข้มข้น{{/}} ตอนนี้เราก็มีโอกาสเพียงครั้งเดียวและเราก็ต้องแน่ใจว่าเราหาคลื่นความถี่ที่ถูกต้อง\n\nนำรถถังเสียงสะท้อนชนิดสุดท้ายเข้ามาแล้วเราก็จะพร้อม เมื่อเราเปิดใช้\"{{@ class $keyWordViolet}}เครื่องรบกวนสัญญาณ{{/}}\" เราก็จะมีช่วงเวลาเพียงสามสิบวินาที เจ้าแมงมุมจะหยุดรับสัญญาณจากหอคอยและจะไม่สามารถหลบหนีได้ นั่นคือโอกาสเดียวของเราในการส่งหมัดสั่ง\n\nนำตัวอย่างสุดท้ายเข้ามา\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"ภายในพลังแปรปรวน กลไกเฉพาะจะเปลี่ยนกฎการรบ ระวังการแจ้งเตือนที่แสดงเอาไว้ที่ช่วงเริ่มของห้วงที่สาม พลังกลไกบางอย่างจะบังคับให้คุณต้องไปให้เร็วขึ้น ส่วนบางกลไกจะทำให้คุณต้องระวังยุทธวิธีและเพิ่มความใส่ใจ\"{{/}}"
+
+msgid "meta/story/hw_artefact_11"
+msgstr "{{@ class $titleClass}}ฉันไม่เคยมีบ้านของตัวเอง แต่ตอนนี้ฉันก็มีแล้วและฉันก็เพิ่งรู้ว่าฉันเตรียมอะไรไว้เพื่อรักษามัน{{/}}\n\nฉันรู้สึกได้ถึงมิเรียม มันไม่ใช่สิ่งชั่วร้าย ไม่ได้โดดเดี่ยว มันไม่ใช่อะไรทั้งนั้น มันไม่ได้คิด มันแค่มีอยู่ของมัน มันรวมตัวกับต้นร่างแล้วเสริมพลังให้ถ้าร่างนั้นสามารถรับมือได้\n\nแต่มันเป็นไปได้ไหมที่จะปลดปล่อยตัวเองให้เป็นอิสระจากร่างของตัวเอง? เพื่อ {{@ class $keyWordViolet}}รวมตัวกับมิเรียม{{/}}? ในการกลายเป็นส่วนหนึ่งของมัน นั่นน่าจะช่วยให้ฉันรอดได้\n\nพวกทหารต้องการทำลายหอคอยมืด แต่ฉันล่ะ? สมิธพยายามจะพูดกับฉันอยู่ตลอด เขายืนยันว่าเขาต้องการช่วยฉัน แต่ฉันเชื่อเขาได้ไหม? ถ้าเกิดเขาเป็นแค่หมากอีกตัวของการชักใยของคนส่งข้ามฟากล่ะ?  \n\nคนส่งข้ามฟาก ทั้งหมดนี้เกิดขึ้นก็เพราะเขา เขาต้องการอำนาจ เขาต้องการยึดวิทยาการ เขาต้องการใช้ฉัน และพวกทหารก็กำลังช่วยให้เขาบรรลุเป้าหมายนั้นแม้ว่าพวกทหารจะไม่รู้ตัวก็ตาม \n\nพวกเขาใกล้เข้ามาแล้ว ฉันต้องการเวลามากกว่านี้ ฉันจะสมบูรณ์แบบในที่สุด ตลอดชีวิตของฉัน ฉันไม่เคยมีบ้านของตัวเอง ตอนนี้ฉันก็มีแล้วและฉันก็รู็ว่าฉันเตรียมอะไรไว้เพื่อรักษามัน \n\nนายอยู่ในเรื่องทั้งหมดนี้ แต่ฉันจะไม่เป็นหุ่นเชิดให้นายอีกต่อไป!\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"ถ้าคุณมีม่านพลัง ใช้มันก็ต่อเมื่อเป็นทางเลือกสุดท้ายเท่านั้นเช่น ถ้าความทนทานของคุณต่ำหรือก่อนเผชิญหน้ากับเหล่าเม่น\"{{/}}"
+
+msgid "meta/story/hw_artefact_12"
+msgstr "{{@ class $titleClass}}มันได้ผล! ความถี่ถูกบล็อคแล้ว! สมิธ ยิงมันเลย! ทำลายมันให้ได้!{{/}}\n\nมอเรล: มันเสียหายพอแล้ว! สมิธ เจ้าแมงมุมกำลังย้ายมิติ! ผมกำลังจะเปิดตัวตัดสัญญาณ... ใช่! มันได้ผล! ความถี่ถูกบล็อคแล้ว! สมิธ ยิงมันเลย! ทำลายมันให้ได้!\n\nสมิธ: ...\n\nมอเรล: ทำไมล่ะ สมิธ?! ยิงสิ! อย่าช้า!\n\nสมิธ: บ้าเอ้ย... อเลกซ์ยังอยู่ในหคอยนั่น ถ้าผมทำลายแมงมุม เธอก็จะตายเช่นกัน เราต้องช่วยเธอหรืออย่างน้อยเราก็ต้องลองพยายามดู!\n\nมอเรล: บ้าเอ้ย สมิธ! นายต้องเลือกนะว่าเธอจะตายหรือเราจะตายทั้งหมด!\n\nสมิธ: เราทำแบบนั้นไม่ได้ มันต้องมีทางอื่น เราต้องพาเธอออกมาให้ได้! ผมฆ่าเธอไม่ลง!\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"พยายามดูแผนที่ยุทธวิธีและดูว่าเขตความเสียหายเปลี่ยนไปอย่างไรในระหว่างการรบกับหัวหน้า ทันทีที่หัวหน้าพยายามจะหนี ให้ไล่ตามโดยใช้เส้นทางในเขตปลอดภัย เมื่อออกจากเขตปลอดภัยแล้ว ให้ใช้ตัวอัดอากาศเทอร์โบเพื่อลดความเสียหายที่เกิดกับพาหนะของคุณ\"{{/}}"
+
+msgid "meta/story/hw_artefact_13"
+msgstr "{{@ class $titleClass}}เราทำได้แล้ว เจ้าแมงมุมหมดสภาพและหอคอยก็ถูกทำลาย ตอนนี้เราต้องตัดสินใจกับชะตากรรมของอเลกซ์แล้ว เราทุกคนต้องทำการเลือก{{/}}\n\nเธอทำได้! อเลกซ์ในจังหวะสุดท้าย ถ้าแปลง {{@ class $keyWordViolet}}เป็นร่างมิเรียมล้วน{{/}} แล้วทำลายเจ้าแมงมุมนั่น โล่พลังงานถูกปิดลง กระสุนของมาร์ดุคพุ่งเข้าเป้าหมายและชั้นบนของหอคอยก็ถูกทำลาย ชั้นล่างๆนั้นยังคงอยู่ซึ่งเราก็พบสัญญาณภายในที่ถือว่าอ่อนแต่ก็ยังเสถียรอยู่ นั่นเป็นสัญญาณของอเลกซ์ มิเรียมกำลังรักษาชีวิตของเธอในระหว่างนี้\n\nเมื่อเราลดระดับลง เราก็พบดักแด้ที่มีร่างของเธออยู่ข้างในและบันทึกสุดท้ายของเธอ เธอได้เลือกของเธอเอง อเลกซ์ทำลายแมงมุมเพื่อทำลายหอคอยไปพร้อมกับร่างมนุษย์ขงอเธอเพื่อรวมร่างกับมิเรียมในที่สุด\n\nสมิธไม่เชื่อว่านั่นเป็นสิ่งที่เธอตัดสินใจด้วยตัวเองเพราะเขาเชื่อว่ามิเรียมอาจจะชักนำให้เธอตัดสินใจเช่นนั้นได้ เขาจำได้ว่าในบันทึกของเธอเธอยอมรับว่าเธอไม่สามารถควบคุมความคิดตัวเองได้เสมอ ผู้การนั้นตั้งใจที่จะนำร่างของเธอขึ้นยานแล้วเชื่อมเข้ากับระบบของยาน เขาต้องการรักษาเธอให้ได้ไม่ว่าจะยังไงก็ตามและหาวิธีปลดปล่อยเธอจากมิเรียมและดึงจิตของเธอให้กลับมาเป็นคนปกติอีกครั้ง\n\nอเลกซ์เขียนว่าเธอรู้สึกเหมือนได้อยู่บ้านเป็นครั้งแรก เธอไม่ได้ทำลายแมงมุมนั่นตามคำสั่งของเรา แต่เธอตัดสินใจที่จะทำลายมันด้วยตัวเอง บ้านของเธอไม่ใช่หอคอยนี้ บ้านของเธอคือมิเรียม\n\nถ้าเราทำลายหอคอย อเลกซ์ก็จะเกิดใหม่อีกครั้ง เธอจะรวมตัวกับสสารนี้และไม่ได้เป็นแค่หน่วยปฏิบัติการปกติแต่เป็นบางอย่างที่ถือว่าใหม่กว่าโดยสิ้นเชิง\n\nนั่นมันจะมีผลกับเราทุกคน ทุกคนที่ได้ต่อสู้ในหอคอยแห่งนี้ ถึงเวลาตัดสินใจแล้ว"
+
+msgid "meta/story/hw_artefact_2"
+msgstr "{{@ class $titleClass}}ลานซ่อม, ห้องส่วนตัว, กลิ่นกาแฟร้อนในโรงอาหาร บ้านที่อบอุ่นกลางห้วงพลังแปรปรวนนี้ แต่มีความคิดหนึ่งที่ทำให้ผมกังวล...{{/}}\n\nบ้าเอ้ย นั่นเกือบไปแล้ว ผมเล็งเจ้าแมงมุมในศูนย์เล็งแต่ก็ช้าไปไม่ถึงวินาที\n\nผมไม่เคยคุ้นเคยกับยานมาร์ดุคนี่ ก่อนหน้านี้เราอยู่ที่ฐานในบาบิลอน ทุกครั้งที่เข้าพลังแปรปรวนนั้นเท่ากับการกระโดดเข้าขุมนรก เรากลับออกมาแบบหมดแรงและหมดสภาพราวกับว่าเป็นคนแปลกหน้าของโลกนี้ แต่ตอนนี้เราก็มีเรือเหาะมาร์ดุคนี้...\n\nมันมีระบบแมกนัสในตัวที่ทำให้เรากระโดดข้ามมิติข้ามไปห้วงใดก็ได้ เราแค่ต้องมีเส้นทางที่แน่นอน{{@ class $keyWordViolet}}มอเรล{{/}} หัวหน้าวิศวกรของเราบอกว่ามิเรียมไม่ได้เป็นแค่ชั้นเปลือกหุ้มทับกัน มันเหมือนกับเครือข่ายของลวดลายที่เชื่อมกันด้วยเส้นทางที่ซับซ้อน {{@ class $keyWordViolet}}เขาวงกต{{/}} และถ้าไม่มีแผนที่ เราก็สามารถหลงและติดอยู่ในนั้นตลอดไป และก็ต้องเดินทางข้ามห้วงไปมาโดยไม่รู้ว่าเรากำลังใกล้จะออกมาได้หรือเข้าลึกไปกว่าเดิม\n\nแต่ตอนนี้เราอยู่ในที่ที่เราควรจะอยู่แล้วและมีทุกอย่างที่ต้องมี เรือเหาะใหญ่, ผู้การรถถังมีประสบการณ์และมอเรลที่มีวิทยาการใหม่ของเขา ตอนนี้เรายังสามารถยึดรถถังเสียงสะท้อนแล้วเก็บมันในสภาพปกติได้โดยปรับเสถียรและหยุดมันจากการกลายเป็นมิเรียมเหลว มอเรลกำลับถอดรถถังออกแล้วทำการศึกษาเพื่อหาวิธีการเอาชนะเจ้าแมงมุม ทางเราเองก็กำลังออกรบตีฝ่าม่านพลังป้องกันนี้อยู่\n\nพูดตรงๆแล้วเราก็มีทุกอย่างที่นี่ ลานซ่อม, ห้องพักส่วนตัว, ยิมและแม้กระทั่งกาแฟร้อนในโรงอาหาร บ้านน่าอยู่เล็กๆท่ามกลางพลังแปรปรวนบ้าๆนี่ ผมเริ่มจะคุ้นเคยกับความสบายและนั่นคือสิ่งที่ผมกังวล ความน่ากลัวที่อยู่รอบตัวเรากำลังกลายเป็นเรื่องปกติ เราต้องจัดการหอคอยบ้านี้ให้เร็วที่สุดแล้วกลับไปบ้านจริงๆของเรากัน\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"อย่าพยายามทำลายรถถังอมตะ อย่าเสียเวลาและกระสุนของคุณ อย่าอยู่นิ่ง พยายามแล่นและอย่าให้ข้าศึกต้อนคุณจนจนมุมได้\"{{/}}"
+
+msgid "meta/story/hw_artefact_3"
+msgstr "{{@ class $titleClass}}ผมมีแผนและรถถังก็พร้อมจะออกปฏิบัติการแล้ว ตอนนี้ก็เหลือเพียงแค่อย่างเดียวที่ขาดไปและมีเพียงคุณคนเดียวที่จะช่วยได้{{/}}\n\nหนึ่งวินาที แค่หนึ่งวินาที... เอาล่ะ เราต้องปรับเสถียร {{@ class $keyWordViolet}}สนามพลังสถิตย์{{/}} เพราะถ้าไม่อย่างนั้น มันจะกลายสภาพเป็นมิเรียมเหลวในโรงประกอบของผม\n\nตอนนี้ผมสามารถแนะนำตัวได้ละ ยินดีที่ได้รู้จัก{{@ class $keyWordViolet}}จาคส์ มอเรล{{/}} ขอขอบคุณที่นำตัวอย่างกลับมาที่นี่แบบสมประกอบ ปกติแล้วผมได้เจอเศษซากและที่เก็บมิเรียมเหลว แต่นี่เป็นของที่เราสามารถทำงานกับมันได้\n\nผมมีความคิดอยู่ รถถังเสียงสะท้อนนั้นถูกควบคุมโดยหอคอยมืด นั่นคือข้อเท็จจริง มันเหมือนกับหุ่นเชิดคุมโดยใยที่ไม่มีใครเห็น เจ้าแมงมุมนั่นก็เช่นกัน อืม...ช่างเป็นเครื่องจักรที่น่าสนใจ ทำไมพวกมันถึงสร้างมันเป็นแบบนี้ล่ะ? มันต้องเกี่ยวอะไรกับแรงโน้มถ่วงแน่นอน...\n\nขอโทษด้วย ผมคิดเรื่อยเปื่อยไปหน่อย เพื่อให้จับเจ้าแมงมุมและกันไม่ให้มันหนีไปได้ เราต้องตัดใยชักนำของมัน ตัดคลื่นสัญญาณแต่มันก็มีใยให้ต้องตัดหลายเส้นซึ่งแต่ละเส้นก็มีคลื่นความถี่ของตัวเอง ถ้าคุณนำตัวอย่างรถถังเสียงสะท้อนของแต่ละชนิดมาให้ผมได้ ผมจะศึกษาคลื่นความถี่ของมันแล้วกรองคลื่นเพื่อให้เรารู้ว่าคลื่นไหนที่เจ้าแมงมุมใช้รับคำสั่ง\n\nแล้วคทาพิฆาตก็จะมารับหน้าที่ของมัน มันคือสัญลักษณ์ของพลังและปัญญาของเหล่าเทพที่เอาชนะความไร้ระเบียบและทำลายเหล่าข้าศึกได้ดั่งเช่นคทาของเทพนินนูรทาที่เป็นตำนาน พวกคุณไม่ต้องไปจำชื่อพวกนี้ มันแค่ตั้งมาให้ตามธรรมเนียม ทุกอย่างที่นี่ได้ชื่อตามตำนานสุเมเรียนโบราณทั้งหมด ในเอกสารผมจะทำให้ทุกอย่างชัดเจนกว่านี้: {{@ class $keyWordViolet}}สุริยคราส{{/}} รถถังเกราะหนักที่สามารถเข้าประชิดแมงมุมและตัดคลื่นสัญญาณของมันได้ มันต้องถูกปรับแก้ให้สมบูรณ์และตั้งคลื่นความถี่ให้ถูกต้อง เราเพียงแค่ต้องสะสมรถถังเสียงสะท้อนทุกชนิดให้ครบ\n\nผมเองก็อยากจะทำงานนี้เอง แต่... ผมหลอกคุณไม่ได้หรอกเพราะผมทำงานได้ถ้าไม่มีพวกคุณ\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"พยายามอยู่ด้วยกันเสมอ จำไว้ว่า: เมื่อคุณออกห่างจากหมวดรถถังและไปยังจุดอื่นเพียงลำพัง คุณเสี่ยงจากการโจมตีจากรถถังเสียงสะท้อน เมื่อพาหนะของคุณถูกทำลายมันก็จะเริ่มโจมตีพันธมิตรจากข้างหลัง อย่าเพิ่มความเสี่ยงล้มเหลวให้กับภารกิจของคุณ\"{{/}}"
+
+msgid "meta/story/hw_artefact_4"
+msgstr "{{@ class $titleClass}}นายมาเพื่อทำลายหอคอย ทำลายบ้านของฉัน นายเรียกมันว่าอันตรายแต่นั่นโกหกทั้งเพ นายแค่ต้องการอำนาจ{{/}}\n\nกลับไปซะ พวกนายไม่ควรจะอยู่ที่นี่\n\nเสียงกระทบของตีนตะขาบ... เมื่อก่อน เสียงนี้เหมือนจะเป็นการช่วยเหลือแต่ตอนนี้... ตอนนี้พวกนายมาเพื่อทำลายหอคอย ทำลายบ้านของฉัน นายเรียกมันว่าอันตรายแต่นั่นโกหกทั้งเพ นายแค่ต้องการอำนาจ นายต้องการครอบครองสิ่งที่ตัวนายเองก็ไม่เข้าใจ นายต้องการควบคุมมิเรียมแล้วแปลงมันเป็นอาวุธและทำให้ฉันกลายเป็นของเล่นที่เชื่อฟังนาย\n\nพวกที่มาก่อนนายก็พยายามจะควบคุมมัน พวกมันสร้าง, ยึดและควบคุมแต่สุดท้ายพวกมันก็เสียสติ\n\nออกไปซะ! นายไม่รู้อะไรและก็ไม่เข้าใจอะไรทั้งนั้น พวกนายเป็นแค่หุ่นเชิดในมือของตานั่น{{@ class $keyWordViolet}}คนส่งข้ามฟาก{{/}} กำลังชักใยพวกเราทั้งหมด พวกเราไม่มีความหมายอะไรมากกว่านี้\n\nและตอนนี้ตานั่นก็นำพวกนายมาที่บ้านของฉัน เขาต้องการทำลายฉันแต่พวกนายมาช้าไป ฉันไม่ต้องให้ใครมาช่วยอีกต่อไป ตอนนี้ฉันดูแลตัวเองได้แล้ว\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"อย่าพึ่งพาเกราะรถถังของคุณอย่างเดียว ให้หาที่กำบังและซ่อนจุดอ่อนจากข้าศึก มันอาจฟังดูน่าเบื่อแต่หลายคนก็ลืมไปว่าตัวเองอยู่ในพลังแปรปรวนที่คาดเดาได้ยากกว่า บางทีนั่นก็น่าจะมาจากอิทธิพลของมิเรียมกับจิตของพวกเรา\"{{/}}"
+
+msgid "meta/story/hw_artefact_5"
+msgstr "{{@ class $titleClass}}เราไม่ได้พยายามที่จะช่วยโลก เราแค่ทำสิ่งที่คนส่งข้ามฟากบอกให้เราทำ เขาใช้พวกเราเหมือนกับหมากเบี้ย ชักใยทุกก้าวของเราและผมก็นำอเลกซ์ตรงเข้าสู่กับดักของเขา{{/}}\n\nบ้าเอ้ย... เสียงจากวิทยุที่ผมได้ยินนั้นมันเป็นเสียงของเธอ {{@ class $keyWordViolet}}อเลกซ์{{/}} ช่างภาพที่เข้าสู่เขตต้องห้าม เธอค้นพบแหล่งต้นตอของการโจมตีและส่งภาพบันทึกของเธอให้เราและให้เราไปรับตัวเธอ เธอรอให้ผมมาหาเธอแต่ผม...ผมเลือกปฏิบัติตามคำสั่งแทน \"สิ่งสำคัญที่สุดคือการยับยั้งภัยให้ได้\" \"การอพยพนั้นไม่สำคัญเท่า\" ผมปล่อยให้เธอติดอยู่ที่นั่นเพียงลำพัง\n\nมอเรลได้ยืนยันสิ่งที่ผมกลัวที่สุด คนส่งข้ามฟาก ไอเลวจากฝ่ายความมั่นคงเป็นคนวางแผนทุกอย่าง เขารู้ว่าเธอเป็นลูกของนายพลคนเดียวกันที่บัญชาการหอคอยนั้น{{@ class $keyWordViolet}}เกรทเชน วอน เอคฮาร์ท{{/}} มันเป็นเสียงตอนเด็กของเธอที่ติดอยู่ในเสียงสะท้อนที่เราได้ยินในห้วงพลังแปรปรวน\n\nเราไม่ได้พยายามที่จะช่วยโลก เราแค่ทำสิ่งที่คนส่งข้ามฟากบอกให้เราทำ  เขาใช้พวกเราเหมือนกับหมากเบี้ย ชักใยทุกก้าวของเราและผมก็นำอเลกซ์ตรงเข้าสู่กับดักของเขา\n\nมอเรลบอกว่าเธอไม่ได้เป็นมนุษย์อีกต่อไป และมิเรียมก็ได้เข้าสวมร่างของเธอและไม่มีอะไรที่จะแก้มันกลับได้ แต่คนสาบสูญไม่พูดแบบนั้น เธอยังไม่ได้เสียสติไป เธอแค่ยังอยู่ที่นั่นเพียงลำพัง\n\nผมต้องช่วยเธอให้ได้ไม่ว่าจะอย่างไร\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"ทำเครื่องหมายพาหนะที่คุณกำลังจะประสานการยิงและบอกพันธมิตรของคุณให้รุมยิงข้าศึกคันเดียว ใช้อำนาจการยิงกลุ่มให้เป็นประโยชน์\"{{/}}"
+
+msgid "meta/story/hw_artefact_6"
+msgstr "{{@ class $titleClass}}มิเรียมที่อยู่ในตัวฉันกำลังส่งกระแสและนำฉันลึกเข้าไปในหอคอย คำตอบกำลังรอฉันอยู่ที่นั่น คนที่เรียกฉันกำลังรอฉันอยู่ที่นั่น...{{/}}\n\n[เจ็ดวันก่อนจะถึงการบุก]\n\nการบันทึก... แต่ฉันจำไม่ได้ว่าอันไหน ฉันเองก็ไม่รู้ว่าเวลาผ่านไปเท่าใดแล้วตั้งแต่เข้าห้วงพลังแปรปรวน เครื่องย้ายมิติไม่ได้นำฉันไปยังบาบิลอนแต่ทำให้ฉันมาอยู่ที่หอคอยมืดแทน\n\nมิเรียมที่อยู่ในตัวฉันกำลังส่งกระแสและนำฉัน {{@ class $keyWordViolet}}ห้องควบคุม{{/}} อีกครั้งหนึ่งที่เหมือนกับว่าฉันเคยมาที่นี่แล้ว ทุกอย่างดูคุ้นเคย ดักแด้ {{@ class $keyWordViolet}} ที่ว่างเปล่านี้{{/}} และอันที่เธออยู่ในนั้น มันเป็นเธอหรือเปล่าที่เรียกหาฉัน?\n\nเธอเป็นใครกัน? เธอดูเกือบเหมือนจะเป็นอมนุษย์ ผิวซีดที่มีเพียงกระแสของมิเรียมไหลผ่านเส้นเลือดและทำให้เธอยังมีชีวิต ถ้าคุณเรียกนั่นว่ามีชีวิตได้\n\nเธอต้องรู้คำตอบทั้งหมดแน่ๆ เธอต้องอธิบายให้ฉันรู้ว่าเกิดอะไรที่นี่ ฉันจะพูดกับเธอได้อย่างไร? ต้องมาสวม{{@ class $keyWordViolet}}หมวก{{/}}แบบเดียวกันหรือ? ไม่ ก่อนอื่น ในระหว่างที่ฉันยังมีแรง ฉันต้องไปให้ทั่วหอคอยก่อน\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"พยายามจับตาดูความทนทานพาหนะพันธมิตร ถ้าคุณมีการซ่อมแซมกลุ่ม ให้คืนความทนทานสมาชิกหมวดรถถังที่เสียหาย เพราะพาหนะที่เสียไปแม้แต่คันเดียวก็ทำให้ภารกิจอาจล้มเหลวได้\"{{/}}"
+
+msgid "meta/story/hw_artefact_7"
+msgstr "{{@ class $titleClass}}คนส่งข้ามฟากนั้นไม่ได้กำลังหาพิกัดของหอคอยมืด เขารู้มันอยู่แล้ว เขาแค่ต้องให้กองสำรวจทั้งหมดของเราไปทำงานอย่างอื่น และตอนนี้ก็ดูเหมือนว่าผมพอจะเข้าใจอะไรบางอย่างแล้ว{{/}}\n\nนั่นคุณใช่ไหม? คุณได้ยินไหม? คนส่งข้ามฟากหายตัวไปแล้ว เขาน่าจะหนีและเดินทางตามแผนขั้นต่อไปของเขา เขาไม่ได้พยายามหาตำแหน่งหอคอยมืด เขารู้พวกมันหมดแล้ว การเดินทางสำรวจทั้งหมดของเรา ความสูญเสียทั้งหมดนั้นต้องเกิดขึ้นเพื่อบางอย่างที่ต่างออกไป\n\nยังไงซะก็ขอขอบคุณตัวอย่างที่คุณนำเข้ามา ผมพอเข้าใจว่าทำไมเขาถึงต้องใช้อเลกซ์ แต่คนอื่นๆล่ะ?\n\nฟังนะ: จากคลังข้อมูลของเยอรมัน มันมี {{@ class $keyWordViolet}}หน่วยปฏิบัติการ{{/}} ในหอคอยมืดที่ส่งคำสั่งไปยังรถถังเสียงสะท้อน แต่จิตมนุษย์ปกติไม่สามารถควบคุมยานเกราะนับพันคันพร้อมกันได้แน่นอนและทำให้มันเป็นกลุ่มเล็กๆออกมาปะทะกับเราเสมอ สิบห้าคัน นั่นคือขีดจำกัดของหนวยปฏิบัติการหนึ่งคน หอคอยต้องมีจิตใหม่ที่เข้ากันได้\n\nอเลกซ์ไม่ใช่แค่ช่างภาพที่ไหนก็ไม่รู้ที่เข้าห้วงพลังแปรปรวน เพราะอย่างที่เรารู้ เธอคือเกรทเชน วอน เอคฮาร์ท{{@ class $keyWordViolet}}ลูกสาวของนายพล{{/}} ที่บัญชาการหอคอยนี้\n\nชื่อของเกรทเชนมาจากชื่อมาร์กาเรทในภาษากรีกที่แปลว่าไข่มุก ซึ่งไม่ใช่เรื่องบังเอิญแน่นอน นั่นคือเหตุว่าทำไมพ่อของเธอเรียกเธอเมื่อเขาเห็นบางอย่างพิเศษในตัวเธอ มันน่าจะเป็นไปได้ว่าเธอคือหนึ่งในคนที่คลังข้อมูลเยอรมันเรียกว่า อือเบอร์เลงเคอร์หรือ {{@ class $keyWordViolet}}หน่วยปฏิบัติการชั้นยอด{{/}}\n\nถ้าสิ่งทีี่อเลกซ์กลายร่างเป็นปลดปล่อยศักยภาพทั้งหมดของมัน ถ้ามันจำวิธีการควบคุมมิเรียมได้ รถถังนับพันก็จะพุ่งออกจากห้วงพลังแปรปรวนได้ทันที\n\nเราต้องรีบแล้ว เวลาไม่ได้อยู่ข้างเรา\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"เมื่อปะทะกับหัวหน้า ให้ใช้กระสุนพิเศษที่เก็บมาได้ในห้วงต่างๆพร้อมๆกับความสามารถพิเศษของพาหนะคุณเพื่อทำความเสียหายจุดอ่อนบนเกราะของข้าศึกให้มากขึ้นกว่าเดิม\"{{/}}"
+
+msgid "meta/story/hw_artefact_8"
+msgstr "{{@ class $titleClass}}คุณพ่อตั้งชื่อให้ฉัน เกรทเชน วอน เอคฮาร์ท พ่อเรียกฉันว่าไข่มุก ฉันคือคนพิเศษของคุณพ่อ{{/}}\n\n[เจ็ดวันก่อนการบุก]\n\nฉันชื่อเกรทเชน\n\n{{@ class $keyWordViolet}}โครงการเกลปเนียร์{{/}} พวกเยอรมันได้ค้นหาวิธีการปราบพยศมิเรียม แต่พวกเขาก็เข้าใจว่าคนธรรมดานั้นไม่ค่อยมีประโยชน์และการควบคุมยานเกราะสองสามคันก็ถือว่ายากแล้ว คนที่เหมาะต้องเกิดที่นี่ในห้วงพลังแปรปรวนนี้เพราะพวกเขาเป็นคนที่สามารถรับรู้สิ่งที่เกิดขึ้นกับมิเรียมได้\n\nฉันคือผลของการทดลองนั้น พวกเราจริงๆไม่ได้มีแม้แต่ชื่อด้วยซ้ำ{{@ class $keyWordViolet}}เครื่องส่งสัญญาณชีวภาพ{{/}}, วัตถุ, ทรัพยากร  แต่สำหรับคุณพ่อแล้วฉันเป็นคนพิเศษ คุณพ่อปิดป้ายเอาไว้ในช่องชื่อว่า เกรทเชน วอน เอคฮาร์ท พ่อเรียกฉันว่าไข่มุก\n\nตัวอย่างการทดลองที่ประสบความสำเร็จรายแรก ความสามารถสูงมากและต้านทานการเสื่อมสภาพจากมิเรียมได้... ฉันเป็นเพียงอาวุธที่ถูกมุ่งหมายให้บัญชาการกองทัพรถถังเสียงสะท้อนข้ามประตูมิติ หน่วยปฏิบัติการปกตินั้นจะค่อยๆเสียสติไปและกลายเป็นหุ่นเชิดของจิตอื่น จิตของคนเหล่านี้ค่อยๆซึมเข้ามิเรียมแล้วทำให้เกิดพลังแปรปรวนใหม่ซึ่งพวกเขาเองก็พยายามจะหนีออกมา และเมื่อพวกเขาควบคุมไม่ได้ พวกเขาก็เลือกที่จะปิดมันลง บุคลิกของคนเหล่านี้แตกออกแล้วสร้างพลังแปรปรวนใหม่ในเสียงสะท้อน ส่วนร่างของพวกเขา... มันก็เหมือนจะยังมีชีวิตแต่คนที่อยู่ข้างในนั้นหายไปนานแล้ว\n\nแต่นั่นคือผู้ปฏิบัติการปกติ มันไม่มีอะไรในเอกสารที่ระบุกับกลุ่มคนของฉัน ฉันเองก็กำลังอ่อนแรงและร่างของฉันอาจจะอยู่ได้ไม่นาน แต่ถ้าฉันรวมตัวเข้ากับมิเรียมได้ล่ะ?\n\nความคิดของฉันกำลังละลายหายไป หรือว่ามิเรียมกำลังเข้ามายึดมันได้? ฉันเองก็ไม่รู้ มันยังมีคำถามอีกมากมาญ\n\nฉันต้องพูดกับมัน ถึงเวลาสวมหมวกแล้วออกไปหาความจริงทั้งหมด!\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"ตัวอัดอากาศเทอร์โบไม่ต้องใช้มิเรียมในการเปิดใช้งาน แต่มันจะมีช่วงเวลาพักใช้ ให้ใช้ตัวอัดอากาศเทอร์โบเมื่อจำเป็นเท่านั้นเช่นการหนีจากเม่น, การหลบหน่วยพุ่งชน, หนีออกจากรัศมีรถถังอมตะหรือพุ่งไปยังแมกนัสเมื่อทุกคนพร้อมจะย้ายมิติแล้ว\"{{/}}"
+
+msgid "meta/story/hw_artefact_9"
+msgstr "{{@ class $titleClass}}ผู้ที่เกิดที่นี่นั้นสามารถทำได้มากกว่า เราสามารถปรับมิเรียมและควบคุมมัน นี่เป็นครั้งแรกในชีวิตที่ฉันรู้สึกว่าตัวเองสมบูรณ์{{/}}\n\n[เจ็ดวันก่อนการบุก]\n\nมันดัง ดังเกินไป สัญญาณเป็นพัน, เสียงรบกวน, เสียงกระซิบ คำสั่งในภาษาเยอรมัน คำสั่งที่เยือกเย็นและตายซาก   \n\nคุณได้ยินผมไหม? คุณอยู่ที่นี่หรือเปล่า?\n\nมันไม่มีอะไรเหลือที่เป็นของเธอแล้ว ผู้หญิงคนนี้อยู่ในดักแด้ตอนนี้เธอเป็นแค่ {{@ class $keyWordViolet}}ตัวส่งสัญญาณ{{/}} แล้ว นั่นเป็นสิ่งที่รอฉันอยู่ในอนาคตเหมือนกันหรือเปล่า? กลายเป็นแค่เสียงสะท้อนของคำสั่งเดิม?\n\nไม่ ในเอกสารมันบอกว่าผู้ที่เกิดที่นี่นั้นสามารถทำได้มากกว่านี้ เราสามารถต้านทานอิทธิพลของมิเรียมแล้วควบคุมและแปรรูปมันได้\n\nฉันต้องพยายาม ลองนึกว่าอนุภาครวมตัวเข้าด้วยกัน\n\nฉันรู้สึกบางอย่าง นี่แปลก น่ากลัว แต่ก็เป็นครั้งแรกที่ฉันรู้สึกว่าตัวเองสมบูรณ์ ฉันรู้สึกว่าในที่สุดฉันก็มีพลัง\n\n{{@ class $titleManual}}จากคู่มือ:{{/}}\n{{@ class $textManual}}\"จำไว้ว่า เมื่อเข้าสู่ห้วงใหม่ พลังแปรปรวนจะมีพลกับพลรถถังและคุณจะได้รับพลังเสริม ศึกษามันและเปลี่ยนยุทธวิธีของคุณตามตัวเลือกใหม่ที่มีมาให้\"{{/}}"
+
+msgid "metaCmp/completed"
+msgstr "%(icon) ได้รับรางวัลแล้ว"
+
+msgid "metaCmp/name"
+msgstr "เส้นทางรางวัล"
+
+msgid "metaIntro/description/fight"
+msgstr "ต่อสู้ในการรบของกิจกรรมแล้วรับกุญแจถอดรหัสเพื่อก้าวหน้าผ่านเป้าหมายไปยังรางวัลหลักของกิจกรรม"
+
+msgid "metaIntro/description/progress"
+msgstr "ถอดรหัสบันทึกทั้งหมดด้วยกุญแจถอดรหัสที่ได้รับจากการรบกิจกรรม"
+
+msgid "metaIntro/description/reward"
+msgstr "บรรลุเป้าหมายทั้งหมดและถอดรหัสบันทึกทั้งหมดเพื่อรับรางวัลหลักของกิจกรรมเป็น รถถังหนักพิเศษเฉพาะ {whiteSpanish_Start}%(tankName)s{whiteSpanish_End}ระดับ%(level)s"
+
+msgid "metaIntro/header/fight"
+msgstr "การบุกรบ"
+
+msgid "metaIntro/header/progress"
+msgstr "กำลังถอดรหัสบันทึก"
+
+msgid "metaIntro/header/reward"
+msgstr "รางวัลเฉพาะตัว"
+
+msgid "metaIntro/title"
+msgstr "เกี่ยวกับเป้าหมาย"
+
+msgid "missionWidget/complete"
+msgstr "ภารกิจสำเร็จแล้ว\nโปรดกลับมาใหม่ในวันพรุ่งนี้"
+
+msgid "missionWidget/tooltipBody"
+msgstr "ปฏิบัติภารกิจประจำวันให้สำเร็จที่จะมีให้ในทุก 24 ชั่วโมงเพื่อรับรางวัล ภารกิจของวันนี้:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "ภารกิจประจำวัน"
+
+msgid "preBattle/leave"
+msgstr "ออกจากการรบ"
+
+msgid "preBattle/mainTip"
+msgstr "ใช้เวลานานไปในการหาหมู่ลาดตระเวน? ลองเปลี่ยนระดับความยากดู"
+
+msgid "preBattle/searching"
+msgstr "กำลังค้นหาพันธมิตร..."
+
+msgid "preBattle/tips/1"
+msgstr "ประตูมิติไปยังห้วงพลังแปรปรวนบาบิลอนกำลังปรับเสถียร เตรียมตัวสำหรับการข้าม"
+
+msgid "preBattle/tips/2"
+msgstr "การปฏิบัติการของคุณในห้วงพลังแปรปรวนบาบิลอนสำคัญกับเรามาก โปรดรอการอนุมัติประตูมิติ"
+
+msgid "preBattle/tips/3"
+msgstr "ช่องทางสื่อสารในห้วงพลังแปรปรวนบาบิลอนนั้นกำลังเกินพิกัด แต่อย่าพึ่งสิ้นหวัง เตรียมตัวรอทำการข้ามฟากก่อน"
+
+msgid "preBattle/uppercase/leave"
+msgstr "ออกจากการรบ"
+
+msgid "promoWindow/btn"
+msgstr "รับทราบ!"
+
+msgid "promoWindow/header"
+msgstr "เล่นบาบิลอน: หอคอยมืด"
+
+msgid "promoWindow/subheader"
+msgstr "มาสำรวจรูปแบบเกม PvE พิเศษใหม่นี้กัน{dateRange}\nบรรลุ {regularArtefactsLength} เป้าหมายเพื่อรับพาหนะเฉพาะ &nbsp;{level}{icon}{userName}"
+
+msgid "reward/rest"
+msgstr "และอีก %(count)s"
+
+msgid "rewardPath/about"
+msgstr "เกี่ยวกับเป้าหมาย"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "อ่านเพิ่มเติมเกี่ยวกับกิจกรรม"
+
+msgid "rewardPath/completed"
+msgstr "ได้รับรางวัลหลักแล้ว"
+
+msgid "rewardPath/crewMembers"
+msgstr "สมาชิก\nพลรถถัง"
+
+msgid "rewardPath/crewMembersTooltip"
+msgstr "คลิกเพื่อดูสมาชิกพลรถถังกิจกรรมทั้งหมด"
+
+msgid "rewardPath/description"
+msgstr "ถอดรหัสบันทึกอีก %(count)s ชุดเพื่อไปให้ถึงรางวัลหลัก"
+
+msgid "rewardPath/intro"
+msgstr "บทเปิด"
+
+msgid "rewardPath/introTooltip"
+msgstr "ชมวีดิโอบทเปิด"
+
+msgid "rewardPath/title"
+msgstr "เส้นทางรางวัล"
+
+msgid "rewardPathCard/name"
+msgstr "เส้นทางรางวัล"
+
+msgid "rewardPathCard/storyChoice"
+msgstr "เลือกว่าเรื่องราวจะจบลงอย่างไร!"
+
+msgid "rewardSelection/button"
+msgstr "รับรางวัล"
+
+msgid "rewardSelection/crew"
+msgstr "สมาชิกพลรถถัง"
+
+msgid "rewardSelection/limit"
+msgstr "ถึงขีดจำกัดแล้ว"
+
+msgid "rewardSelection/limitTooltip"
+msgstr "คุณมีจำนวนสูงสุดแล้ว ปลดเลือกสมาชิกพลรถถังออกเพื่อเปลี่ยนการเลือกของคุณ"
+
+msgid "rewardSelection/title"
+msgstr "เลือกรางวัลของคุณ"
+
+msgid "shopCard/name"
+msgstr "ชุดสินค้ากิจกรรม"
+
+msgid "shopCmp/name"
+msgstr "ชุดสินค้ากิจกรรม"
+
+msgid "shopStyleWidget/description/button"
+msgstr "ไปยังร้านค้า"
+
+msgid "shopStyleWidget/description/notOwned"
+msgstr "มีให้สำหรับ"
+
+msgid "shopStyleWidget/description/owned"
+msgstr "มีอยู่แล้ว"
+
+msgid "shopStyleWidget/header"
+msgstr "รูปแบบสามมิติสำหรับ {name}"
+
+msgid "squad/goToAnother/cancel"
+msgstr "ยกเลิก"
+
+msgid "squad/goToAnother/message"
+msgstr "หมวดรถถังจะถูกยุบไป"
+
+msgid "squad/goToAnother/submit"
+msgstr "ออก"
+
+msgid "squad/goToAnother/title"
+msgstr "ออกจากกิจกรรมบาบิลอน: หอคอยมืด?"
+
+msgid "squad/leave/cancel"
+msgstr "ยกเลิก"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "หมวดรถถังจะถูกยุบไป"
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "รับทราบ!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "กิจกรรมบาบิลอน: หอคอยมืดจบลงแล้ว"
+
+msgid "squad/leave/message"
+msgstr "หมวดรถถังจะถูกยุบไป"
+
+msgid "squad/leave/submit"
+msgstr "ออก"
+
+msgid "squad/leave/title"
+msgstr "ออกจากหมวดรถถังบาบิลอน: หอคอยมืด?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "ดำเนินการ"
+
+msgid "squad/leaveDisabled/message"
+msgstr "คุณอยู่ในหมวดรถถังและพร้อมออกรบแล้ว"
+
+msgid "squad/leaveDisabled/title"
+msgstr "คุณออกจากหมวดรถถังไม่ได้!"
+
+msgid "storyChoice/main_view/button/side_option_1"
+msgstr "พาอเลกซ์กลับ"
+
+msgid "storyChoice/main_view/button/side_option_2"
+msgstr "ปล่อยอเลกซ์ไป"
+
+msgid "storyChoice/main_view/description/side_option_1"
+msgstr "สมิธ: อเลกซ์ไม่รู้ตัวว่าเธอเอาตัวเองไปเกี่ยวข้องกับอะไร! เธอไม่รู้เลยว่าเธอยังคงเป็นตัวเธอเองหรือจะตาย ผมปล่อยเธอไปไม่ได้อีกต่อไป เราจะต่อเธอเข้ากับระบบของยานแล้วหาวิธีดึงจิตของเธอกลับมา เราจะไม่มีวันทิ้งคนของเรา"
+
+msgid "storyChoice/main_view/description/side_option_2"
+msgstr "มอเรล: เราต้องทำลายหอคอยไปพร้อมๆกับร่างของเธอทั้งหมด ทำลายระบบเชื่อมที่ยังทำให้อเลกซ์มีชีวิต เราต้องปล่อยเธอไป นั่นน่าจะเป็นสิ่งที่เธอจะเลือก นี่คือวิธีเดียวที่เธอจะเกิดใหม่และกลายเป็นบางอย่างที่ใหม่กว่าได้"
+
+msgid "storyChoice/main_view/header"
+msgstr "เลือกว่าเรื่องราวจะจบอย่างไร:"
+
+msgid "storyChoiceAward/community"
+msgstr "ตัวเลือกโดยรวมของชุมชนจะเป็นตัวกำหนดที่กำลังจะตามมา\nโปรดติดตามเวบท่าเกมสำหรับข่าวใหม่"
+
+msgid "storyChoiceAward/option_1/title"
+msgstr "คุณพาอเลกซ์ขึ้นมาร์ดุค"
+
+msgid "storyChoiceAward/option_2/title"
+msgstr "คุณทิ้งอเลกซ์ไว้กับมิเรียม"
+
+msgid "storyChoiceAward/subtitle"
+msgstr "คุณเลือกแล้ว!"
+
+msgid "storyChoiceConfirm/cancel"
+msgstr "กลับไป"
+
+msgid "storyChoiceConfirm/description"
+msgstr "ผลจะเปิดเผยเมื่อกิจกรรมจบลง มาดูที่เวบท่าเกมสำหรับอัพเดตต่างๆ"
+
+msgid "storyChoiceConfirm/option_1/confirm"
+msgstr "พาอเลกซ์กลับ"
+
+msgid "storyChoiceConfirm/option_1/title"
+msgstr "พาอเลกซ์กลับ?"
+
+msgid "storyChoiceConfirm/option_2/confirm"
+msgstr "ปล่อยอเลกซ์ไป"
+
+msgid "storyChoiceConfirm/option_2/title"
+msgstr "ปล่อยอเลกซ์ไป?"
+
+msgid "storyChoiceConfirm/warning"
+msgstr "ตัวเลือกนี้ถือว่าเป็นที่สิ้นสุด ตัวเลือกโดยรวมของชุมชนจะมีอิทธิพลกับเรื่องราวของบทถัดไป"
+
+msgid "vehicle/rent/label"
+msgstr "บรลลุ{cream_open}%(number)s เป้าหมาย{cream_close}หรือซื้อ{cream_open}ชุดสินค้ากิจกรรม{cream_close} เพื่อให้เข้าถึงพาหนะนี้"
+
+msgid "vehicle/rent/packs"
+msgstr "ไปยังชุดสินค้ากิจกรรม"
+
+msgid "vehicle/rent/tasks"
+msgstr "ไปยังเป้าหมาย"
+
+msgid "vehicle/tasks/locked"
+msgstr "ผ่าน{cream_open}%(number)s เป้าหมายงานปัจจุบัน{cream_close}หรือซื้อ{cream_open}ชุดสินค้ากิจกรรม{cream_close} เพื่อให้เข้าถึงพาหนะนี้"

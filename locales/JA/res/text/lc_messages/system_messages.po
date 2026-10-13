@@ -1981,9 +1981,6 @@ msgstr "修理・補給エラー「%(vehName)s」。消耗品を購入するの�
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "修理・補給エラー「%(vehName)s」。消耗品を購入するのにゴールドが不足しています。後ほど再試行してください。"
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "修理・補給エラー「%(vehName)s」。消耗品の補給不能。後で再試行してください。"
 
@@ -1995,9 +1992,6 @@ msgstr "修理・補給エラー「%(vehName)s」。砲弾を購入するのに�
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "修理・補給エラー「%(vehName)s」。砲弾を購入するのにゴールドが不足しています。"
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "修理・補給エラー「%(vehName)s」。車輌がロックされています。"
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "%(userString)s 研究完了。EXP消費: %(unspentXP)s フリーEXP消費: %(freeXP)s"
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "%(vehicle)sの「エリート報酬システム」がアンロックされました"
+msgstr "%(vehicle)sの「エリート報酬システム」がアンロックされました。"
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "エリート報酬"

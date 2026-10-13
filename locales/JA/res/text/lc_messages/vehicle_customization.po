@@ -145,25 +145,31 @@ msgstr "精鋭の紋章"
 msgid "attachment/Challenger_s_Bounty/Cus_233_Challenges_Armor"
 msgstr "灼熱の砲弾"
 
-msgid "attachment/Doomguys_Keepsakes"
+msgid "attachment/Dark_Tower_Trophies"
+msgstr "シュヴァルツタワーの戦利品"
+
+msgid "attachment/Dark_Tower_Trophies/Cus_290_HW_MagneticHarpoon"
+msgstr "固定銃座ハープーン"
+
+msgid "attachment/Doomgyus_Keepsakes"
 msgstr "Doomguyの記念品"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_309_Classic_HUD"
+msgid "attachment/Doomgyus_Keepsakes/Cus_309_Classic_HUD"
 msgstr "クラシックHUD"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_309_Classic_HUD/description"
+msgid "attachment/Doomgyus_Keepsakes/Cus_309_Classic_HUD/description"
 msgstr "ヘルスとアーマー、そして固い決意を備えた固定視点。孤高の海兵隊員が、《招かれざる客》の大群を手厚く歓迎し、全員まとめてブッ飛ばすには、これさえあれば十分だ。"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_310_DOOM_Ornament"
+msgid "attachment/Doomgyus_Keepsakes/Cus_310_DOOM_Ornament"
 msgstr "DOOMオーナメント"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_311_Chaingun"
+msgid "attachment/Doomgyus_Keepsakes/Cus_311_Chaingun"
 msgstr "チェインガン"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_312_Demon_Disposal_Kit"
+msgid "attachment/Doomgyus_Keepsakes/Cus_312_Demon_Disposal_Kit"
 msgstr "デーモン駆除キット"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_313_Marines_Stash"
+msgid "attachment/Doomgyus_Keepsakes/Cus_313_Marines_Stash"
 msgstr "海兵隊の貯蔵品"
 
 msgid "attachment/Expedition_Essentials"
@@ -204,6 +210,18 @@ msgstr "回収砲塔"
 
 msgid "attachment/Field_Salvage/Cus_238_LS_TrophyWheels"
 msgstr "回収車輪"
+
+msgid "attachment/Field_Salvage/Cus_289_HW_SpiderSpotlight"
+msgstr "エコー光学照準器"
+
+msgid "attachment/Field_Salvage/Cus_291_HW_SpareBatteries"
+msgstr "ハープーン蓄電装置"
+
+msgid "attachment/Field_Salvage/Cus_292_HW_PowerCollector"
+msgstr "超高密度ミリウム回収装置"
+
+msgid "attachment/Field_Salvage/Cus_293_HW_SpiderMines"
+msgstr "Monarchの地雷"
 
 msgid "attachment/Football_Fever"
 msgstr "サッカー・フィーバー"
@@ -390,6 +408,24 @@ msgstr "燕凧"
 
 msgid "attachment/Traditional_Toys/Cus_263_FCN_Tricycle"
 msgstr "賑やかな三輪車"
+
+msgid "attachment/Transmission_Tech"
+msgstr "トランスミッション機器"
+
+msgid "attachment/Transmission_Tech/Cus_314_Telemetry_Plotter"
+msgstr "遠隔測定プロッター"
+
+msgid "attachment/Transmission_Tech/Cus_315_Orbiter_Prototype"
+msgstr "試作型オービター"
+
+msgid "attachment/Transmission_Tech/Cus_316_EMP_Jammer"
+msgstr "EMP電波妨害装置"
+
+msgid "attachment/Transmission_Tech/Cus_317_Satellite_Tracker"
+msgstr "衛星トラッカー"
+
+msgid "attachment/Transmission_Tech/Cus_318_Encryption_Station"
+msgstr "暗号化ステーション"
 
 msgid "attachment/Zero_Legacy"
 msgstr "ゼロ・レガシー"
@@ -4855,6 +4891,9 @@ msgstr "?empty?"
 msgid "camouflage/fort/label"
 msgstr "工業資源"
 
+msgid "camouflage/fr26_style1/label"
+msgstr "シグナル・ハンター"
+
 msgid "camouflage/france/bicolor/Winter/description"
 msgstr "東部戦線において枢軸軍側で戦った鹵獲フランス車輌に使用された冬季迷彩。"
 
@@ -5298,6 +5337,12 @@ msgstr "継続高校"
 
 msgid "camouflage/girls_und_panzer_kabasan/label"
 msgstr "カバさんチーム"
+
+msgid "camouflage/girls_und_panzer_leopon/label"
+msgstr "?empty?"
+
+msgid "camouflage/girls_und_panzer_team_leoponsan/label"
+msgstr "?empty?"
 
 msgid "camouflage/give_paw/description"
 msgstr "?empty?"
@@ -5931,6 +5976,18 @@ msgstr "?empty?"
 
 msgid "camouflage/lunar_ny_ox/label"
 msgstr "猛き雄牛"
+
+msgid "camouflage/maneuvers_2026_1/label"
+msgstr "アトラスの砲弾"
+
+msgid "camouflage/maneuvers_2026_2/label"
+msgstr "戦鬼の角"
+
+msgid "camouflage/maneuvers_2026_3/label"
+msgstr "スコーピオンの針"
+
+msgid "camouflage/maneuvers_2026_4/label"
+msgstr "カメレオンのヴェール"
 
 msgid "camouflage/manners/description"
 msgstr "?empty?"
@@ -8223,6 +8280,24 @@ msgstr "将軍の指揮"
 
 msgid "camouflage/wci2025_progressive_st3/label"
 msgstr "勝利への一手"
+
+msgid "camouflage/wci2026_progressive_st1/description"
+msgstr "装甲板からフェニックスの黒いシルエットがかすかに浮かび上がる様は、トーナメントへの道が始まったばかりであることを示している。スタイルを購入した者なら誰でも利用できる基本ステージ。"
+
+msgid "camouflage/wci2026_progressive_st1/label"
+msgstr "フェニックスの覚醒"
+
+msgid "camouflage/wci2026_progressive_st2/description"
+msgstr "フェニックスが翼を広げると、黒い金属の上にシルバーのラインが浮かび上がる。"
+
+msgid "camouflage/wci2026_progressive_st2/label"
+msgstr "フェニックスの飛翔"
+
+msgid "camouflage/wci2026_progressive_st3/description"
+msgstr "ゴールドと紫の炎の中でフェニックスが舞い上がる様は、まさに王者にふさわしい。最後まで戦い抜き、勝利を手にした者のためのスタイルの最終ステージ。"
+
+msgid "camouflage/wci2026_progressive_st3/label"
+msgstr "フェニックスの偉勲"
 
 msgid "camouflage/wci_2024_1/description"
 msgstr "?empty?"
@@ -10984,6 +11059,9 @@ msgstr "1UP"
 msgid "emblem/cool/sticker_74"
 msgstr "雪の結晶"
 
+msgid "emblem/cool/sticker_75"
+msgstr "?empty?"
+
 msgid "emblem/group1/animal_1"
 msgstr "ライオン"
 
@@ -13662,6 +13740,15 @@ msgstr "決戦の日"
 
 msgid "emblem/special/sticker_884"
 msgstr "カウモフラージュ"
+
+msgid "emblem/special/sticker_886"
+msgstr "シグナル・ハンター"
+
+msgid "emblem/special/sticker_887"
+msgstr "レオポンさん"
+
+msgid "emblem/special/sticker_888"
+msgstr "WCI 2026"
 
 msgid "filter/popover/bonusType/title"
 msgstr "ボーナスタイプ"
@@ -16633,6 +16720,12 @@ msgstr "デンジャー・ボルテージ"
 msgid "inscription/special/special_885"
 msgstr "フィール・ザ・パワー"
 
+msgid "inscription/special/special_886"
+msgstr "ブロードキャスト・セキュア"
+
+msgid "inscription/special/special_887"
+msgstr "コムズ・チェック"
+
 msgid "inscription/special/special_90"
 msgstr "グランドファイナル 2017、モスクワ"
 
@@ -19564,6 +19657,9 @@ msgstr "ケイ"
 msgid "projection_decals/pin_up/projection_decal_72"
 msgstr "エルヴィン"
 
+msgid "projection_decals/pin_up/projection_decal_73"
+msgstr "ナカジマ"
+
 msgid "projection_decals/progression"
 msgstr "プログレッシブ"
 
@@ -20107,17 +20203,41 @@ msgstr "思考する電脳"
 msgid "projection_decals/special/projection_decal_1114"
 msgstr "緑のオバケ"
 
+msgid "projection_decals/special/projection_decal_1119"
+msgstr "サテライト"
+
 msgid "projection_decals/special/projection_decal_112"
 msgstr "メタルウォーズ TOP 10"
 
 msgid "projection_decals/special/projection_decal_112/description"
 msgstr "グローバルマップ上のイベント「メタルウォーズ」で TOP 10 入りしたクランのメンバーに対して授与。"
 
+msgid "projection_decals/special/projection_decal_1120"
+msgstr "スイッチブレード"
+
+msgid "projection_decals/special/projection_decal_1121"
+msgstr "チビナカジマ"
+
+msgid "projection_decals/special/projection_decal_1122"
+msgstr "川辺のロープウェイ"
+
+msgid "projection_decals/special/projection_decal_1122/description"
+msgstr "開催都市の象徴であるロープウェイが川の上に吊り下げられている。大会の開催地と、頂点を目指す道のりを表現したデザイン。"
+
+msgid "projection_decals/special/projection_decal_1123"
+msgstr "火鍋"
+
+msgid "projection_decals/special/projection_decal_1123/description"
+msgstr "グツグツと煮えたぎる燃えるような火鍋。開催都市を象徴する料理を味わうための箸も添えられている。"
+
 msgid "projection_decals/special/projection_decal_113"
 msgstr "メタルウォーズ TOP 100"
 
 msgid "projection_decals/special/projection_decal_113/description"
 msgstr "グローバルマップ上のイベント「メタルウォーズ」で TOP 100 入りしたクランのメンバーに対して授与。"
+
+msgid "projection_decals/special/projection_decal_1135"
+msgstr "ターボチャージャー"
 
 msgid "projection_decals/special/projection_decal_114"
 msgstr "メタルウォーズ参加者"
@@ -24415,6 +24535,9 @@ msgstr "スプレー・ペイント"
 msgid "repaint/forged_flame"
 msgstr "炎の鍛造"
 
+msgid "repaint/fr26_style1"
+msgstr "シグナル・ハンター"
+
 msgid "repaint/france_base_color"
 msgstr "フランス基本カラー"
 
@@ -24517,11 +24640,17 @@ msgstr "チャコール"
 msgid "repaint/girls_und_panzer_kabasan_style"
 msgstr "カバさんチーム"
 
+msgid "repaint/girls_und_panzer_leopon"
+msgstr "?empty?"
+
 msgid "repaint/girls_und_panzer_rabbit"
 msgstr "モスグリーン"
 
 msgid "repaint/girls_und_panzer_saunders"
 msgstr "サンダース大学付属高校"
+
+msgid "repaint/girls_und_panzer_team_leoponsan"
+msgstr "?empty?"
 
 msgid "repaint/girls_und_panzer_turtle"
 msgstr "サンドブラウン"
@@ -26377,6 +26506,12 @@ msgstr "シュナイデ戦闘団"
 msgid "special_style/G16_PzVIB_Tiger_II_3DSt_NEx_desc/long"
 msgstr "「プランBについて知りたいわけか。いいだろう、聞かせてやる。この1週間、俺たちは寝る間も惜しんで燃料を探してるわけだよな。大破した兵器の残骸を見つけては中を漁り、残った燃料やまだ使えそうな装備をかき集める。ゴミ溜めに巣食うドブネズミみたいに、このクソッタレ車輌と互換性がありそうなものならなんでもだ。唯一の幸運はここら一帯には兵器の残骸が腐るほど転がってるってことくらいだ。辺りをひと通り漁ったら移動を開始する。数キロ進んだらまたゴミ漁りをしなきゃならない。燃料が尽きるか、どこかしらが壊れるからだ。無線もなけりゃ地図もない。とりあえずそれらしい方向に真っすぐ進んじゃいるが、どこに行きつくか知れたもんじゃない。戦況がどうなってるのかはおろか、本隊がどこにいるのかも、挙句は今日が何月何日なのかも分からない始末。分かってるのは何も分からないってことだけだ。プランBについてお前のほかに誰も何も聞こうとしない理由が分かったか？\n\n俺たちにゃプランAすらないんだよ」"
 
+msgid "special_style/G171_E77_HW26_3Dst"
+msgstr "Monarch"
+
+msgid "special_style/G171_E77_HW26_3Dst_desc/long"
+msgstr "「あのイカれた鉄の塊がこっちを見てやがる!\n\n光学照準器が、まるで知性を持っているかのように輝いている。装甲に包まれた獣の息遣いが聞こえてくるかのようだ。車体にくくりつけられた地雷は、今にもこちらに飛びかかろうと小さな脚をピクピクさせている。地雷? そんなもんがどこから湧いて出たのかって? いい質問だ。野郎どもが、この車輌を現実世界と異世界の狭間のような深い亀裂から引きずり出してきたんだ。奴らは絶対に安全で、夢のように操縦性が良いと言う。ああ、そうかい……。\n\nだが、この機械が生きているという感覚が拭えない。それに……ちくしょう、こいつを戦闘で試してみたくてたまらない!」"
+
 msgid "special_style/G172_PzVIB_Tiger_II_DIT_3DSt"
 msgstr "エリカ"
 
@@ -26418,6 +26553,12 @@ msgstr "カバさんチーム 通常"
 
 msgid "special_style/G191_StuG_IIIF_A_3Dst_desc/long"
 msgstr "《大洗女子学園》の学園内を探索中、湖で長らく行方不明だった「Ⅲ号突撃砲F型」を発見した《カバさんチーム》の面々は、かつての栄光を取り戻すべく修復に尽力した。かつては派手な装飾をしていたが、彼女たちは本車輌をより実用的な野戦灰色へと塗り直し、隠蔽と待ち伏せの技量を磨き上げている。"
+
+msgid "special_style/G204_PzVI_Tiger_P_CFE_A_3Dst"
+msgstr "Tiger (P) Leoponsan"
+
+msgid "special_style/G204_PzVI_Tiger_P_CFE_A_3Dst_desc/long"
+msgstr "「VK 45.01 (P)」や「Porsche Tiger」の名で知られる「Pz.Kpfw. VI Ausf.P」は、数あるドイツ重戦車の中でも特に変わった1輌である。本車輌は2基のTyp 101空冷エンジンと電気式トランスミッションを搭載していた。複雑で信頼性の低いパワーユニットが原因で量産には至らなかったものの、《大洗女子学園》のおかげで再び活躍の機会を得た。学園艦の船底で発見された本車輌は、のちに搭乗員となる自動車部のメンバー、《レオポンさんチーム》によって修復された。彼女たちはその卓越した技術力で、気難しい「Porsche Tiger」を常に戦闘可能な状態に維持するだけでなく、短時間で急加速できる装置を取り付けるなどの改良も加えた。"
 
 msgid "special_style/G42_Maus_BPXVIII_3Dst"
 msgstr "アイゼンブリック"
@@ -26475,6 +26616,12 @@ msgstr "ドラグーン"
 
 msgid "special_style/G89_Leopard1_BVII_3DSt_desc/long"
 msgstr "「ようやくだ。これでこのしみったれた兵舎ともお別れだ。まさかこんな場所で2週間も過ごす羽目になるとは。だが通信兵どもがしかめっ面で暗号解読に勤しむ姿を眺めるのもお終いだ。こちらの通信が傍受されていたようだが、本部はそれを逆手に取って偽の情報を流した。だがその連絡が俺たちまでちゃんと伝達されず、俺たちまで偽の情報に踊らされることになった。それに気づいた本部がようやく作戦中止命令を下したってわけだ。まったく、こんな無駄なやり取りに付き合わされるくらいなら、戦車を塗装して乾くまで眺めている方がよっぽどマシだ。それにしても今度の命令は平気なんだろうな。すでに出撃準備が始まってるが、今回も偽の情報でした、なんてことは勘弁してもらいたいぜ。まぁ、重戦車で市街地に向かうならばなんとかなるだろう。俺は市街戦には慣れているしな。騎兵隊の一員として治安維持にあたっていただけとはいえ。\n\nリヒャルト、アインス・ノイン・ジーベン・ノイン、送信完了」"
+
+msgid "special_style/G89_Leopard1_KS_3Dst"
+msgstr "オートマトン"
+
+msgid "special_style/G89_Leopard1_KS_3Dst_desc/long"
+msgstr "その姿は壮麗であったが、「Automaton」に優雅さなど微塵もなかった。それは圧倒的な力の巨獣であり、ピストンは工場のプレス機のように打ち付けられ、排気口は鋳造所のように咳き込んだ。偉大なる蒸気の時代に生まれ、煤に汚れた製作者の手を離れても生き続け、その時計じかけの威容の前では色褪せる近代戦の鋼鉄の巨体よりも輝きを放った。新しいエンジンとともに戦場に轟音を響かせ、ディーゼル燃料が奏でる不協和音がついに静まると、そこには「Automaton」の規則正しく、疲れを知らない騒音だけが残った。"
 
 msgid "special_style/G89_Leopard1_WT24_Mini_Boss_3Dst"
 msgstr "EOS 1"
@@ -26559,6 +26706,12 @@ msgstr "王と国家"
 
 msgid "special_style/GB136_Churchill_BPXIV_3Dst_desc/long"
 msgstr "「正直言うと、戦争の前はフランスについてほぼ何も知らなかった。マンチェスターはフランスよりもアイルランド寄りだからな。ああ、でも父はベルギーで戦ったそうだ。それについてあまり詳しくは語りたがらなかったが。今となっては、あれを「大戦争」と呼んでいたと考えると違和感があるな。あんな戦争はもう二度と起きないだろうと、当然のように思っていたからこそそう名付けたんだろう。そんな訳ないのにな。人類の歴史とは戦争の歴史なんだ。そして時が来て、戦争が始まったとき……俺にも果たすべき役割があると確信していた。国王、国家、義務、名誉……それを信じ、守るべきだと教えられてきた。どんな代償を払ってでも、な」"
+
+msgid "special_style/GB142_FV230_Canopener_HW26_3Dst"
+msgstr "スピアフィッシャー"
+
+msgid "special_style/GB142_FV230_Canopener_HW26_3Dst_desc/long"
+msgstr "「どの《エコー車輌》の内部でも、ミリウム・リアクターのようなものが作動している。それがミリウムを車輌の形に維持しているんだ。敵が一定の損害を受けると、コアはその形を維持できなくなり、ミリウムは液状に戻ってしまう。こうなってしまった時点で、研究できるものは何も残らない。\n\nだが、私は特殊な弾薬を開発することに成功した。原理は単純だ。車輌を無力化すると同時に、充填済みの重力アンカーを撃ち込んでやる。するとアンカーがミリウム・リアクターを制御して、回収チームが検体を保管チャンバーに移すまで《エコー車輌》の形を維持するんだ。スミス大尉はこのテクノロジーをほとんど信用していない。毎朝、彼は格納庫に下りては、装置の周りを歩き回り、指で車体を叩いて確認している。彼はいつかそのうちの1輌が目を覚まし、我々の朝を《非常に刺激的なもの》にしてしまうのではないかと心配しているんだ。気持ちは分からなくもない。ただ、私は自分の計算を信じていて、彼は自分の直感を信じている。そういうものさ」"
 
 msgid "special_style/GB142_FV230_Canopener_KS_3Dst"
 msgstr "双璧の守護者"
@@ -26878,6 +27031,12 @@ msgstr "Hurricane"
 msgid "special_style/Pl21_CS_63_OSP3_3DSt_desc/long"
 msgstr "雪のように白く、大きな翼を持つと言われる伝説の生き物、ペガサスを思わせるポーランド中戦車。このペガサスは、ベレロフォンにもゼウスにも手懐けることはできない。選ばれた者のみがその傍らに立ち、世界の果てまでともに戦うことを許される。"
 
+msgid "special_style/Pl27_SDP_Wz_66T_WCI_3Dst"
+msgstr "夢追い人"
+
+msgid "special_style/Pl27_SDP_Wz_66T_WCI_3Dst_desc/long"
+msgstr "「Dream Chaser」(夢追い人) は、前進を止めないすべての挑戦者に捧げられる。一歩一歩の前進が、尽きることのない情熱と不断の努力の証。鋼の車体を流れる黒と金のフェニックスの羽根は、まるで心に深く燃える揺るぎない信念のようである。どんなに厳しい道のりでも、困難を乗り越え、栄光の瞬間を迎えるだろう。"
+
 msgid "special_style/Pl29_NC_Wz_70T_BPXVI_3Dst"
 msgstr "密林の熱風"
 
@@ -26958,6 +27117,12 @@ msgstr "Obsidian"
 
 msgid "special_style/R205_Tank_Rozanova_3Dst_HW23_desc/long"
 msgstr "「なぁ、中でメモを見つけたよ。他人が勝手に見るのは良くねぇ気もするが、これも任務だからなぁ。『……ガスマスクを取り、ハッチを開けて、新鮮な空気を胸いっぱいに吸い込む。何物にも代えがたい幸せだ。これ以上は後戻りできなくなる？ そんなのは俺の知ったことじゃない。俺はここを出るぞ。たかが戦車、空薬莢みたく捨てちまえばいい。《ミリウム》の思い通りにはさせない。その力、必ず支配してみせる。俺は自分がなすべきと思ったことをなすだけだ。Hope、悲しむことなど何もない』"
+
+msgid "special_style/R236_Object_265_II_HW26_3Dst"
+msgstr "日蝕"
+
+msgid "special_style/R236_Object_265_II_HW26_3Dst_desc/long"
+msgstr "コードネーム《Eclipse》は、《超常空間》内部、《シュヴァルツタワー》として知られる存在の遺跡付近のフェーズで発見された車輌である。この個体は専門家による徹底的な調査のため、《バビロン研究施設》に送られた。\n\nこの車輌には、超高密度ミリウムを動力源とする実験的な広帯域信号抑制ユニットが搭載されている。我々の諜報データによると、この装置は遠征隊の技術者によって《シュヴァルツタワー》の防衛システムを無力化するために開発されたようだ。現地で発見された痕跡から判断すると、この車輌はタワーでの最終決戦に参加し、巨大な《Spider》を無力化した後に放棄されたようだ。搭乗員は《マルデューク》に避難し、その後、遠征隊は《超常空間》の深部へと進んだ可能性が高い。\n\n《Eclipse》の設計は非常に優れていると判断された。耐久性が高く、過酷な環境条件にも高い耐性を備えている。調査完了後、軍事委員会はこの車輌を現役復帰させることを勧告した。"
 
 msgid "special_style/R40_T-54_3Dst_HW20"
 msgstr "Malachite"
@@ -29527,6 +29692,15 @@ msgstr "鉄壁の拠点"
 msgid "special_style/fort_desc"
 msgstr "共に戦い、共に勝利したクランに贈られる「拠点戦」をテーマにしたオールシーズンスタイル。"
 
+msgid "special_style/fr26_style1"
+msgstr "シグナル・ハンター"
+
+msgid "special_style/fr26_style1_desc"
+msgstr "ノイズを掻き消す戦術的なオールシーズンスタイル。"
+
+msgid "special_style/fr26_style1_desc/long"
+msgstr "(車長ログ)\n\n「何者かがそこにいる。正体を突き止めるのが我々の任務だ。これまでに得られたのは、奇妙な無線通信だけ。複雑な暗号でスクランブル化され、いくつものセグメントに分割されている。送信者は……何かを隠すために、多大な労力を費やしたようだ。そして、その何かが良い報せであるはずがない。\n\nメッセージを復元するには、中継アンテナを占領し、全てのデータを受信するのに十分な時間、確保し続ける必要がある。だが、それを狙っているのは我々だけではない。敵対勢力が迫っており、彼らもまた、そのインテルを手に入れようと\n\n必死だ。競争が始まる」"
+
 msgid "special_style/frontline_alliance"
 msgstr "西部戦線"
 
@@ -29746,6 +29920,15 @@ msgstr "高名なカバさんチームのエンブレムをあしらったオー
 msgid "special_style/girls_und_panzer_kabasan_desc/long"
 msgstr "「それだ！」のキャッチフレーズでお馴染みのカバさんチームは、歴女で構成された戦車道チームである。試合中は、それぞれが持つ歴史上の知識を活用しながら戦っていく。シックなグレーの塗装に身を包んだ車輌は、長砲身の対戦車砲を積んでおり、物陰からの狙撃は侮れない火力を誇る。カバさんチームのエンブレムは、どんな戦車道チームにとっても、試合中には目にしたくない標章と言える。"
 
+msgid "special_style/girls_und_panzer_leopon"
+msgstr "レオポンさん"
+
+msgid "special_style/girls_und_panzer_leopon_desc"
+msgstr "レオポンさんチームのかわいいマスコットをモチーフにしたオールシーズンスタイル。"
+
+msgid "special_style/girls_und_panzer_leopon_desc/long"
+msgstr "レオポンさんチームは、大洗女子学園の自動車部員で構成されるチームで、元々は戦車道チームの整備を担当していた。メンバーは、基本的に何があっても慌てないマイペースな性格で、いつもトレードマークのオレンジ色のつなぎを着ている。チームのマスコットのレオポンが、ヒョウとライオンの間に生まれた誇り高い動物であるように、レオポンさんチームも、エンジニアと戦車道の二刀流を見事にこなしている。"
+
 msgid "special_style/girls_und_panzer_saunders"
 msgstr "サンダース大学付属高校"
 
@@ -29754,6 +29937,15 @@ msgstr "戦車の保有数全国一を誇るサンダース大学付属高校の
 
 msgid "special_style/girls_und_panzer_saunders_desc/long"
 msgstr "サンダース大学付属高校は、お金持ちの学校として知られており、戦車の保有数は全国一を誇る強豪校である。戦車道選手の数も非常に多く、大量に保有している「M4シャーマン」を自慢したり、豪華なパーティーを催すことでも知られている。特に生徒たちは、ファーストフードを山のように用意して、ゲストを驚愕させることを楽しんでいるようだ。ただし、この開放的な雰囲気をお人好しで懐柔しやすい校風だと勘違いしてはいけない。試合になれば、物量を活かした攻撃を仕掛け、正確な砲撃と巧みな戦術を使ってくる。"
+
+msgid "special_style/girls_und_panzer_team_leoponsan"
+msgstr "レオポンさんチーム"
+
+msgid "special_style/girls_und_panzer_team_leoponsan_desc"
+msgstr "機械いじり好きが揃うレオポンさんチームのエンブレムをあしらったオールシーズンスタイル。"
+
+msgid "special_style/girls_und_panzer_team_leoponsan_desc/long"
+msgstr "レオポンさんチームは、大洗女子学園の自動車部員で構成されるチームで、元々は戦車道チームの整備を担当していた。メンバーは、基本的に何があっても慌てないマイペースな性格で、いつもトレードマークのオレンジ色のつなぎを着ている。どんな車輌でも稼働可能な状態に修理できてしまうなど、メカニックとしての腕も相当なもので、搭乗する「Tiger (P)」を試合中に走行させながら修理をしてみせたこともある。いつの日かグランプリに出場するという共通の夢を持っており、次の戦車道の試合の準備をしていない時は、クラシックカーをいじったり、ドリフト・レーシングを楽しんだりしている。"
 
 msgid "special_style/give_paw"
 msgstr "なんばーワンっ！"
@@ -30315,6 +30507,42 @@ msgstr "悪しきものを遠ざける門神に捧ぐオールシーズンスタ
 
 msgid "special_style/lunar_ny_2025_3_desc/long"
 msgstr "中国に言い伝えられる門や扉を守る神……その名も《門神》は人々に尊敬される存在である。恐ろしい表情で武器を構えた姿で描かれる門神は、悪しきものを遠ざける力を持っているとされる。春節の期間中、人々は自宅の入り口に色鮮やかな門神の絵を飾り、その力にあやかって平和と安全、そして幸運に満ちた新年を迎えられるよう願うのだ。"
+
+msgid "special_style/maneuvers_2026_1"
+msgstr "アトラスの砲弾"
+
+msgid "special_style/maneuvers_2026_1_desc"
+msgstr "古代の哨兵のごとく、あらゆる強襲に耐えるストイックなオールシーズンスタイル。"
+
+msgid "special_style/maneuvers_2026_1_desc/long"
+msgstr "背中に全世界を背負う巨像として語り継がれる亀は、永遠の不屈の精神を象徴する。その幾重にも重なった装甲板は絶え間ない攻撃を吸収し、刻まれた傷跡は広大な神話のキャンバスに描かれた筆跡のようだ。不可能に耐える運命を背負った守護者として、その使命を揺るぎなく遂行する。"
+
+msgid "special_style/maneuvers_2026_2"
+msgstr "戦鬼の角"
+
+msgid "special_style/maneuvers_2026_2_desc"
+msgstr "雷鳴を轟かせ敵陣を突き進む、大地を揺るがすオールシーズンスタイル。"
+
+msgid "special_style/maneuvers_2026_2_desc/long"
+msgstr "臆することなく圧倒的な力で突進する野獣は、あらゆる抵抗を物ともせず咆哮する。それはさながら肉体を得た雪崩。角を持つ戦鬼は剥き出しの攻撃性で進路上にあるものすべてを蹴散らし、破壊の爪痕を残していく。その余波は、戦場が静まり返った後も長く感じられるだろう。"
+
+msgid "special_style/maneuvers_2026_3"
+msgstr "スコーピオンの針"
+
+msgid "special_style/maneuvers_2026_3_desc"
+msgstr "警告なく一撃を食らわせる、狡猾なオールシーズンスタイル。"
+
+msgid "special_style/maneuvers_2026_3_desc/long"
+msgstr "静かで計算高いサソリは、効率的に獲物を仕留める存在だ。その力は腕力などではなく、とぐろを巻いた尾にある。痛烈な一撃を与える毒を携えて砂の下に隠れた捕食者は、ただ待ち構える……。\n\nそして、一瞬のうちに勝敗を決すのだ。"
+
+msgid "special_style/maneuvers_2026_4"
+msgstr "カメレオンのヴェール"
+
+msgid "special_style/maneuvers_2026_4_desc"
+msgstr "周囲の環境に完璧に溶け込み、虚空から一撃を食らわせる、巧妙なオールシーズンスタイル。"
+
+msgid "special_style/maneuvers_2026_4_desc/long"
+msgstr "カメレオンは迷彩と適応の達人である。絶えず変化することで認識を欺き、樹皮の地衣類のように白昼堂々と姿を消す。この発見困難な狩人にとって、隠蔽の術は戦術と分かちがたい。なぜなら、最も恐ろしい武器とは目に見えないものだからだ。"
 
 msgid "special_style/manners"
 msgstr "礼節が人を作る"
@@ -32490,6 +32718,15 @@ msgstr "中国の蘇州で開催の「World of Tanks Championship International 
 
 msgid "special_style/wci2025_progressive_desc/long"
 msgstr "壮絶な戦場の決戦は、シャンチーの知的な規律とは別世界に見えるかもしれない。しかし戦闘車輌を指揮するにも同種の緻密で段取りの効いた精度が必須である。盤面のように地形を見渡し、敵の動きを追いながら、己の車輌を最適な位置へ配置する。達人が《車》を操って《馬》をおびき寄せたり《将》を護るように、戦車長の決断は、振るう火力と同じくらい戦局を形作る。このスタイルはその熟達を映し出し、明確に異なる3つのレベルへと進化していく。"
+
+msgid "special_style/wci2026_progressive"
+msgstr "フェニックス・アセンダント"
+
+msgid "special_style/wci2026_progressive_desc"
+msgstr "3段階のステージに進化するスタイル。フェニックスのモチーフが控えめなシルエットから鮮やかなラインワークへと変化し、最後には炎となって燃え上がる。"
+
+msgid "special_style/wci2026_progressive_desc/long"
+msgstr "トーナメントをテーマにした本スタイルは、フェニックスの3つの異なるステージを表現している。最初は鳥の姿がかろうじて見える控えめなシルエットから始まり、次に金色のラインワークが装甲全体に広がって鮮やかさを増し、最後には金色と紫色の炎となって咲き誇る。どのステージもそれ自体で完成された見た目でありながら、全体としてひとつの連続した進化を形成している。"
 
 msgid "special_style/wci_2024_1"
 msgstr "不断の努力"

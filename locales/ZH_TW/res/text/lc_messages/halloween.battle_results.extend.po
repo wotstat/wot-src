@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s，持續時間：%(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "普通難度"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "困難難度"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "噩夢難度"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "巴比倫異常空間：{difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "重生次數：{count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "無法接受的表現：掛機或擅離職守。\n未獲得獎勵。"
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "您的隊伍失敗了：第一階段未完成。\n未獲得獎勵。"
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s：%(amount)s。"
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s。"
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s（%(number)s）。"
+
+msgid "hw_battle_result/status/lose"
+msgstr "戰鬥已結束"
+
+msgid "hw_battle_result/status/win"
+msgstr "勝利"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "戰鬥已結束"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "已驅逐黑暗！出色的團隊合作！"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "戰鬥已結束"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "已完成 %(phaseNumber)s 個階段"
+msgstr[1] "已完成 %(phaseNumber)s 個階段"
+msgstr[2] "已完成 %(phaseNumber)s 個階段"
+
+msgid "hw_battle_result/title/win"
+msgstr "魔王被擊敗了"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "所有我方車輛都被摧毀。"
+
+msgid "hw_finish/reason/3/lose"
+msgstr "時間到。"
+
+msgid "hw_finish/reason/5/lose"
+msgstr "所有隊友都已離開戰鬥。"
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "通往黑塔的道路現在暢通了。"
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "太棒了，我們辦到了！"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "我們把它逼退了，但一切尚未結束。"
+
+msgid "teamList/actions"
+msgstr "快捷操作"
+
+msgid "teamList/teammates"
+msgstr "我方"

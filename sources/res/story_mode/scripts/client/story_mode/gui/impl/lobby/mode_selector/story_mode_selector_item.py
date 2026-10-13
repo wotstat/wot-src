@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from frameworks.wulf import WindowLayer
 from gui import GUI_SETTINGS
 from gui.impl import backport
@@ -15,7 +16,7 @@ _rMode = R.strings.sm_lobby.mode
 EVENT_SUFFIX = b'_event'
 
 class StoryModeSelectorItem(ModeSelectorLegacyItem):
-    __slots__ = (b'_uiLogger', b'_storyModeCtrl')
+    __slots__ = (b'_uiLogger',)
     _storyModeCtrl = dependency.descriptor(IStoryModeController)
 
     def __init__(self, oldSelectorItem):

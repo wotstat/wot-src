@@ -1,3 +1,4 @@
+from __future__ import absolute_import, division
 from math import pi, copysign, atan2, sqrt
 import BigWorld
 from Math import slerp, Vector2, Vector3, Matrix, MatrixProduct
@@ -8,7 +9,8 @@ from AvatarInputHandler.DynamicCameras import createOscillatorFromSection, Camer
 from AvatarInputHandler.DynamicCameras.camera_switcher import CameraSwitcher, SwitchTypes, CameraSwitcherCollection, SwitchToPlaces, TRANSITION_DIST_HYSTERESIS
 from AvatarInputHandler.cameras import readFloat, readVec2, ImpulseReason
 from ProjectileMover import collideDynamicAndStatic
-from account_helpers.settings_core.settings_constants import GAME, SPGAim
+from account_helpers.AccountSettings import AccountSettings
+from account_helpers.settings_core.settings_constants import CONTROLS, GAME, SPGAim
 from aih_constants import CTRL_MODE_NAME
 from debug_utils import LOG_WARNING
 from helpers.CallbackDelayer import CallbackDelayer
@@ -110,6 +112,9 @@ class ArtyCamera(CameraWithSettings, CallbackDelayer):
     def _getConfigsKey():
         return ArtyCamera.__name__
 
+    def _getMouseSensitivitySettingKey(self):
+        return CONTROLS.MOUSE_ASSIST_AIM_SENS
+
     def create(self, onChangeControlMode=None):
         super(ArtyCamera, self).create()
         self.__onChangeControlMode = onChangeControlMode
@@ -205,9 +210,9 @@ class ArtyCamera(CameraWithSettings, CallbackDelayer):
     def getCamTransitionDist(self):
         return self._cfg[b'transitionDist']
 
-    def update(self, dx, dy, dz, updateByKeyboard=False):
-        self.__curSense = self._cfg[b'keySensitivity'] if updateByKeyboard else self._cfg[b'sensitivity']
-        self.__autoUpdatePosition = updateByKeyboard
+    def update(self, dx, dy, dz, updatedByKeyboard=False):
+        self.__curSense = self._cfg[b'keySensitivity'] if updatedByKeyboard else self._cfg[b'sensitivity']
+        self.__autoUpdatePosition = updatedByKeyboard
         self.__dxdydz = Vector3(dx if not self._cfg[b'horzInvert'] else -dx, dy if not self._cfg[b'vertInvert'] else -dy, dz)
         return
 
@@ -221,12 +226,10 @@ class ArtyCamera(CameraWithSettings, CallbackDelayer):
         return
 
     def applyDistantImpulse(self, position, impulseValue, reason=ImpulseReason.ME_HIT):
-        if reason != ImpulseReason.SPLASH and reason != ImpulseReason.PROJECTILE_HIT:
+        if reason not in (ImpulseReason.SPLASH, ImpulseReason.PROJECTILE_HIT):
             return
         impulse = BigWorld.player().getOwnVehiclePosition() - position
-        distance = impulse.length
-        if distance <= 1.0:
-            distance = 1.0
+        distance = max(impulse.length, 1.0)
         impulse.normalise()
         if reason == ImpulseReason.PROJECTILE_HIT:
             if not cameras.isPointOnScreen(position):
@@ -245,7 +248,6 @@ class ArtyCamera(CameraWithSettings, CallbackDelayer):
         ds.writeBool(b'artyMode/camera/horzInvert', ucfg[b'horzInvert'])
         ds.writeBool(b'artyMode/camera/vertInvert', ucfg[b'vertInvert'])
         ds.writeFloat(b'artyMode/camera/keySensitivity', ucfg[b'keySensitivity'])
-        ds.writeFloat(b'artyMode/camera/sensitivity', ucfg[b'sensitivity'])
         ds.writeFloat(b'artyMode/camera/scrollSensitivity', ucfg[b'scrollSensitivity'])
         ds.writeFloat(b'artyMode/camera/camDist', self._cfg[b'camDist'])
         return
@@ -486,7 +488,7 @@ class ArtyCamera(CameraWithSettings, CallbackDelayer):
         ucfg[b'horzInvert'] = False
         ucfg[b'vertInvert'] = False
         ucfg[b'keySensitivity'] = readFloat(dataSec, b'keySensitivity', 0.0, 10.0, 1.0)
-        ucfg[b'sensitivity'] = readFloat(dataSec, b'sensitivity', 0.0, 10.0, 1.0)
+        ucfg[b'sensitivity'] = AccountSettings.getSettings(CONTROLS.MOUSE_ASSIST_AIM_SENS)
         ucfg[b'scrollSensitivity'] = readFloat(dataSec, b'scrollSensitivity', 0.0, 10.0, 1.0)
         ucfg[b'camDist'] = readFloat(dataSec, b'camDist', 0.0, 60.0, 0.0)
         return

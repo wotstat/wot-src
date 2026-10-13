@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "mode/fort_rush_battle/condition"
+msgstr "7v7 %(parSecondary_open)sI%(parSecondary_close)s&nbsp;X级"
+
+msgid "mode/fort_rush_battle/description"
+msgstr "控制天线。守住网络。确保通讯。"
+
+msgid "mode/fort_rush_battle/performance/highRisk/description"
+msgstr "您电脑的性能不支持此模式。您可能会遇到画面和战车移动的相关问题，且游戏客户端很可能会崩溃。"
+
+msgid "mode/fort_rush_battle/performance/highRisk/header"
+msgstr "低性能"
+
+msgid "mode/fort_rush_battle/performance/highRisk/headerIcon"
+msgstr "%(icon)低性能"
+
+msgid "mode/fort_rush_battle/performance/mediumRisk/description"
+msgstr "此模式需要较高的电脑性能。您将会遇到与地图加载、画面和战车移动相关的问题。如果性能不足，请尝试在设置中选用较低的图形质量。"
+
+msgid "mode/fort_rush_battle/performance/mediumRisk/header"
+msgstr "性能偏低"
+
+msgid "mode/fort_rush_battle/performance/mediumRisk/headerIcon"
+msgstr "%(icon)性能偏低"

@@ -1981,9 +1981,6 @@ msgstr "维护“%(vehName)s”失败。没有足够的点券购买消耗品。"
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "维护“%(vehName)s”失败。没有足够的金币购买消耗品。请稍后重试。"
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "维护“%(vehName)s”失败。无法补给消耗品。请稍后重试。"
 
@@ -1995,9 +1992,6 @@ msgstr "维护“%(vehName)s”失败。没有足够的银币购买炮弹。"
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "维护“%(vehName)s”失败。没有足够的金币购买炮弹。"
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "维护“%(vehName)s”失败。战车被锁定。"
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "坦克 %(userString)s 已研发，花费个人经验： %(unspentXP)s。全局经验： %(freeXP)s。"
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "已解锁%(vehicle)s的精英奖励"
+msgstr "已解锁%(vehicle)s的精英奖励。"
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "精英奖励"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "チェスト画面に戻る"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "チェストを%(guaranteed0)s箱開封すると、Tier VIII～IX車輌
 msgid "infoPage/header/description"
 msgstr "チェストからは貴重なゲーム内アイテムの数々がドロップします。詳細は下記よりご確認ください。"
 
-msgid "multipleRewardView/header/subTitle/"
-msgstr "%(name)からドロップ (%(boxesCount)箱開封)"
+msgid "multipleRewardView/header/subTitle"
+msgstr "%(name)からドロップ (%(boxesCount)個開封)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "チェストがありません。\nゲーム内ショップで入手できます。"
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "所有中のチェスト: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "チェストなし"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "チェストからドロップしうる車輌をすべて所有済みの状態で車輌がドロップした場合、補償としてゴールドを受け取ります。"
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount)箱"
 msgstr[1] "%(remainingCount)箱"
 msgstr[2] "%(remainingCount)箱"
 
-msgid "singleRewardView/tooltip/subtitle/"
-msgstr "「確約報酬」とは、チェストからドロップする報酬のリストの中にある車輌のいずれか1輌のことを指します。\nもしチェストを%(remainingCount)開けてもリストにある車輌がドロップしなかった場合、%(count)箱目から必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
+msgid "singleRewardView/tooltip/subtitle"
+msgstr "「確約報酬」とは、チェストからドロップする報酬のリストの中にある車輌のいずれか1輌のことを指します。\nもしチェストを%(remainingCount)個開けてもリストにある車輌がドロップしなかった場合、%(count)個目から必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"

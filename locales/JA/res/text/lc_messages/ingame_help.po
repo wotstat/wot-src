@@ -167,13 +167,13 @@ msgid "detailsHelp/devMaps/headerTitle"
 msgstr "マップを変える新メカニズム"
 
 msgid "detailsHelp/devMaps/markers/description"
-msgstr "「ランダムイベント」の発生が確定すると、\nマップ上の発生場所にスモークが発生し、ミニマップの対応する箇所にはマーカーが表示されます。 \n設定メニューの「一般」タブを開いて対応する項目からチェックを外すと、「ランダムイベント」マップにマッチしないように設定を変更できます。"
+msgstr "「ランダムイベント」の発生が確定すると、\nマップ上の発生場所にスモークが発生し、ミニマップの対応する箇所にはマーカーが表示されます。"
 
 msgid "detailsHelp/devMaps/title"
 msgstr "「ランダムイベント」が発生するマップ"
 
 msgid "detailsHelp/devMaps/zone/description"
-msgstr "「ランダムイベント」が発生するエリアでは、飛行機の墜落などに巻き込まれて自車輌が大破することがあります。\n設定メニューの「一般」タブを開いて対応する項目からチェックを外すと、「ランダムイベント」マップにマッチしないように設定を変更できます。"
+msgstr "「ランダムイベント」が発生するエリアでは、飛行機の墜落などに巻き込まれて自車輌が大破することがあります。"
 
 msgid "detailsHelp/dualGun/quick_fire"
 msgstr "この射撃システムを搭載した車輌は、射撃時に砲を自動で切り替えます。最初に発射された砲は自動的に再装填が始まり、2 つ目の砲はしばらくしてから射撃可能になります。"
@@ -279,6 +279,12 @@ msgstr "敵車輌の装甲を2回貫通すると、「バースト・モード�
 
 msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
 msgstr "バースト・モード"
+
+msgid "detailsHelp/mechanics/combatThrottle/page1/description"
+msgstr "スロットルを起動すると、安定した主砲の取り回しを維持したまま、エンジン出力、速度、機動性が一時的に向上する。これにより、戦闘効果を損なうことなく、俊敏でダイナミックなプレイが可能となる。"
+
+msgid "detailsHelp/mechanics/combatThrottle/page1/title"
+msgstr "交戦用スロットル"
 
 msgid "detailsHelp/mechanics/concentrationMode/page1/description"
 msgstr "「油気圧式ジャイロ安定装置」が発動すると、移動中、車体および砲塔の旋回中の主砲の安定性が短い間、最大まで向上する。これにより、さらに正確な射撃が可能になるほか、敵の奇襲に対して迅速に対応できるようになる。\n次のキーを押すことで発動できます。"

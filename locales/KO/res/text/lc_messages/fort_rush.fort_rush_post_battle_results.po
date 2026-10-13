@@ -1,0 +1,86 @@
+msgid "battleInfo/all_from_battle"
+msgstr "지난 전투에 참전한 모든 전차"
+
+msgid "battleInfo/arena"
+msgstr "{{arenaName}}, 검은 신호 – {{finishReason}}"
+
+msgid "battleInfo/finishReason/10lose"
+msgstr "군사 시설 생존"
+
+msgid "battleInfo/finishReason/10win"
+msgstr "군사 시설 파괴"
+
+msgid "battleInfo/finishReason/1lose"
+msgstr "모든 아군 전차 파괴"
+
+msgid "battleInfo/finishReason/1tie"
+msgstr "모든 전차 파괴"
+
+msgid "battleInfo/finishReason/1win"
+msgstr "모든 적 전차 격파"
+
+msgid "battleInfo/finishReason/2"
+msgstr "기지 점령"
+
+msgid "battleInfo/finishReason/3"
+msgstr "전투 시간 만료"
+
+msgid "battleInfo/finishReason/4"
+msgstr "시스템 오류로 전투 종료"
+
+msgid "battleInfo/finishReason/5"
+msgstr "전략 패배"
+
+msgid "battleInfo/finishReason/8"
+msgstr "아군 파괴"
+
+msgid "battleInfo/finishReason/9"
+msgstr "전차 파괴"
+
+msgid "battleInfo/labels_objectivesDestroyed"
+msgstr "군사 시설 파괴"
+
+msgid "battleInfo/labels_objectivesReached"
+msgstr "군사 시설 도달"
+
+msgid "battleInfo/labels_zoneCaptured"
+msgstr "구역 점령"
+
+msgid "battleInfo/leaver/body"
+msgstr "전장 이탈 후 획득한 임무 진행 상황은 집계되지 않았습니다. 전투 결과에 따라 지급되는 데이터 패킷이 지급되지 않았습니다."
+
+msgid "battleInfo/leaver/header"
+msgstr "규정 위반: 자리 비움/전장 이탈"
+
+msgid "battleInfo/no"
+msgstr "실패"
+
+msgid "battleInfo/time"
+msgstr "{{date}}, {{time}} (전투 시간: {{duration}})"
+
+msgid "battleInfo/timeLeft/minutesAndSeconds"
+msgstr "{{minutes}}분 {{seconds}}초"
+
+msgid "battleInfo/timeLeft/minutesOnly"
+msgstr "{{minutes}}분"
+
+msgid "battleInfo/timeLeft/secondsOnly"
+msgstr "{{seconds}}초"
+
+msgid "battleInfo/yes"
+msgstr "성공"
+
+msgid "currencies/credits/body"
+msgstr "게임 내 주요 통화입니다.\n전투를 통해 획득하거나\n골드로 구매할 수 있습니다."
+
+msgid "currencies/credits/header"
+msgstr "크레딧"
+
+msgid "detailedPersonalEfficiency/fortRushScore/body"
+msgstr "안테나 점령, 적군이 점령한 안테나 무력화, 적군의 안테나 점령 방해, 안테나 근처에서 적에게 피해 기록 및 적 격파 시 점수를 획득합니다."
+
+msgid "detailedPersonalEfficiency/fortRushScore/header"
+msgstr "공로 점수"
+
+msgid "state/title"
+msgstr "전투 결과"

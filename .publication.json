@@ -1,24 +1,24 @@
 {
   "branch": "wot-asia",
   "client_type": "sd",
-  "commit_subject": "2.4.0.2 #965",
+  "commit_subject": "2.4.1.0 #969",
   "counts": {
     "locales": {
-      "EN": 298,
-      "JA": 298,
-      "KO": 298,
-      "TH": 298,
-      "VI": 298,
-      "ZH_SG": 298,
-      "ZH_TW": 298
+      "EN": 320,
+      "JA": 320,
+      "KO": 320,
+      "TH": 320,
+      "VI": 320,
+      "ZH_SG": 320,
+      "ZH_TW": 320
     },
-    "sources": 16811,
-    "sources_as3": 6568,
-    "sources_gameface": 1654,
-    "stubs": 97
+    "sources": 17500,
+    "sources_as3": 6446,
+    "sources_gameface": 1694,
+    "stubs": 100
   },
   "default_locale": "EN",
-  "descriptor_sha256": "70ffd5de6c98d6657dad1105a1ce55c28a5592718b6ed668f2085c0fc0d97680",
+  "descriptor_sha256": "1441092b8822305bff4d645a4ea5a2072d5339d28806e485c7e1ad13bc778aba",
   "languages": [
     "EN",
     "JA",
@@ -31,8 +31,8 @@
   "publisher": "wargaming",
   "schema_version": 1,
   "snapshot_contract_version": "1.1.0",
-  "snapshot_created_at": "2026-10-01T20:14:44.991886Z",
-  "snapshot_id": "sha256:39908371d27e4059098847694cf3b024d7e2186ebbfe09f86f6b4fd1b28f6328",
+  "snapshot_created_at": "2026-10-13T22:21:52.049728Z",
+  "snapshot_id": "sha256:8f1d6913f1e5ac07ff389c585ef6f7c7cd4d574b01d64e4c3f2cec29e64f4dc1",
   "target": "wot-asia",
-  "version_name": "2.4.0.5471"
+  "version_name": "2.4.1.5486"
 }

@@ -118,6 +118,9 @@ msgstr "SR C45"
 msgid "C45_CFE_A"
 msgstr "SR C45"
 
+msgid "C45_FR"
+msgstr "SR C45"
+
 msgid "C45_c_7x7"
 msgstr "SR C45"
 
@@ -373,6 +376,9 @@ msgstr "Gabler’s Destroyer"
 msgid "Chassis_GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "Chassis_GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver"
+
 msgid "Chassis_GB148_FV227_Conceiver"
 msgstr "FV227 Conceiver"
 
@@ -411,6 +417,9 @@ msgstr "FV214t"
 
 msgid "Chassis_GB158_Executor"
 msgstr "Executor"
+
+msgid "Chassis_GB159_FV4602_Victorious"
+msgstr "Victorious"
 
 msgid "Chassis_GB15_Stuart_I"
 msgstr "Stuart I"
@@ -679,6 +688,9 @@ msgstr "Centurion Action X"
 msgid "Chassis_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
 
+msgid "Chassis_GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
+
 msgid "Chassis_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
 
@@ -739,7 +751,7 @@ msgstr "Continental AOI-1195-5A"
 msgid "Continental_AOI_1195_5A_short"
 msgstr "Continental\nAOI-1195-5A"
 
-msgid "Continental_W-670-9A"
+msgid "Continental_W_670_9A1"
 msgstr "Continental W-670-9A"
 
 msgid "Crysler_A57"
@@ -1262,13 +1274,13 @@ msgid "GB132_Taurus_CAT_desc"
 msgstr "皇家裝甲兵團於 1968 年推動一項具前景的戰車計畫，命名為「戰鬥單位戰車」（COMBAT ARM TANK）。該戰車計畫的研發優先順序為：火力、機動性、防護能力，同時盡可能精簡乘員編制。原規劃供皇家裝甲兵團與步兵（作戰單位）使用；然而，隨著英國陸軍發展方向的調整，此計畫不再有必要性並遭終止。"
 
 msgid "GB132_Taurus_CAT_long_special"
-msgstr "Taurus CAT 為英國 VIII 階驅逐戰車。為首輛搭載液氣壓式懸吊的英國車輛，也是其中首輛以自動裝填火炮而非循環發射式炮管的此類車輛。此車輛速度快且靈活，配合射速較高的自動裝填火炮，能讓您較為主動且積極地發動攻勢。"
+msgstr "Taurus CAT 為英國 IX 階驅逐戰車，採用與瑞典車輛相似的攻城模式與自動裝填火炮。主要特色為移動模式下的彈匣裝填時間，遠短於攻城模式。憑藉較短的彈匣內短裝填時間，炮管能進行爆發射擊，而傾斜的正面裝甲則能反彈砲彈並提供一定程度的防護。"
 
 msgid "GB132_Taurus_CAT_short"
 msgstr "Taurus CAT"
 
 msgid "GB132_Taurus_CAT_short_special"
-msgstr "自動裝填火炮，液氣壓式懸吊"
+msgstr "液氣壓式懸吊，自動裝填火炮"
 
 msgid "GB133_Charioteer_MkVII"
 msgstr "Charioteer Nomad"
@@ -1447,6 +1459,18 @@ msgstr "彈匣裝填系統，出色的機動性"
 msgid "GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver 7x7"
+
+msgid "GB147_FV4025_Contriver_7x7_descr"
+msgstr "1950 年代末期至 1960 年代初期，英國積極開發具雙管火炮的海岸防禦戰車。過程中研發人員發現戰車重量過重，導致接地壓力過高，亟需大幅降低，後續也衍生出四履帶戰車的概念。此設計參考從蘇聯獲取的 Object 279 戰車情報資料，並在概念上有所改變：外側履帶比內側履帶要輕，懸吊系統替換為英國製的垂直螺旋彈簧系統，整個底盤安裝於開放式的鉚接 C 型框架。然而最終仍因整體結構過於複雜，導致計畫在展開前即告終止。"
+
+msgid "GB147_FV4025_Contriver_7x7_long_special"
+msgstr "FV4025 Contriver 為各方面甚為均衡的重型戰車，無明顯弱點，無論是攜手其他重型戰車進行定位戰鬥，或是抵擋敵軍來鞏固防線，面對任何戰況均能扮演好自身角色。採用的雙管火炮系統賦予其更多戰術選擇，可根據當下需求來精確單發射擊，或朝對手祭出毀滅力十足的雙管齊射。"
+
+msgid "GB147_FV4025_Contriver_7x7_short"
+msgstr "Contriver 7x7"
+
 msgid "GB147_FV4025_Contriver_descr"
 msgstr "1950 年代末期至 1960 年代初期，英國積極開發具雙管火炮的海岸防禦戰車。過程中研發人員發現戰車重量過重，導致地面接觸面的壓力因子過高，亟需大幅降低，後續也衍生出四履帶戰車的概念。來自蘇聯 Object 279 戰車的情報資料，因此被用於此車輛的開發，然而概念上有所改變。外側履帶比內側履帶要輕，懸吊系統替換為英國製的垂直螺旋彈簧系統，整個底盤安裝於開放式的鉚接 C 型框架。然而最終仍因整體結構過於複雜，導致計畫在展開前即告終止。"
 
@@ -1587,6 +1611,21 @@ msgstr "Executor 結合了輪式車輛的底盤、精密的強大引擎與出色
 
 msgid "GB158_Executor_short"
 msgstr "Executor"
+
+msgid "GB159_FV4602_Victorious"
+msgstr "FV4602 Victorious"
+
+msgid "GB159_FV4602_Victorious_descr"
+msgstr "1970 年代後半，英國公司 Leyland 提出具前瞻性的戰車方案，旨在取代 Chieftain。主要重點放在機動性與火力；然而，此車輛過於複雜且昂貴，因此軍方並未接受此計畫，轉而選擇未來的 Challenger。"
+
+msgid "GB159_FV4602_Victorious_long_special"
+msgstr "FV4602 Victorious 為英國 X 階重型戰車。強大的炮管能重創任何對手，令人印象深刻且可靠的正面裝甲則足以抵擋最猛烈的攻擊。此外，具備的獨特機制，可讓此車輛暫時獲得速度、機動性與炮管穩定性的大幅加成。"
+
+msgid "GB159_FV4602_Victorious_short"
+msgstr "Victorious"
+
+msgid "GB159_FV4602_Victorious_short_special"
+msgstr "暫時提升機動性與炮管穩定性，較高的單發傷害"
 
 msgid "GB15_Stuart_I"
 msgstr "Stuart I-IV"
@@ -2131,8 +2170,17 @@ msgstr "Triumphant"
 msgid "GB86_Centurion_Action_X_CFE_A_short_special"
 msgstr "白馬銀槍透長坂，\n\n雲台列將耀汗青。"
 
+msgid "GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
+
+msgid "GB86_Centurion_Action_X_FR_descr"
+msgstr "Action X 炮塔原先預計用在之後的 Centurion 戰車型號上。一座原型炮塔被裝在 Centurion Mark 7 的底盤上，另一座炮塔則投入了彈道測試。帶有 Action X 炮塔的車輛皆未被大量生產或投入服役。"
+
+msgid "GB86_Centurion_Action_X_FR_short"
+msgstr "Cent. AX BS"
+
 msgid "GB86_Centurion_Action_X_descr"
-msgstr "Action X 炮塔原先預計用在之後的 Centurion 戰車型號上。一座原型炮塔被裝在 Centurion Mark 7 的底盤上，另一輛原型車則投入了彈道測試。帶有 Action X 炮塔的車輛皆未被大量生產或投入服役。"
+msgstr "Action X 炮塔原先預計用在之後的 Centurion 戰車型號上。一座原型炮塔被裝在 Centurion Mark 7 的底盤上，另一座炮塔則投入了彈道測試。帶有 Action X 炮塔的車輛皆未被大量生產或投入服役。"
 
 msgid "GB86_Centurion_Action_X_short"
 msgstr "Centurion AX"
@@ -2632,6 +2680,12 @@ msgstr "PRC 352"
 msgid "Parson_s_Turbine_No_2983"
 msgstr "Parson's Turbine No. 2983"
 
+msgid "Parson_s_Turbine_No_2983_7x7"
+msgstr "Parson's Turbine No. 2983"
+
+msgid "Parson_s_Turbine_No_2985"
+msgstr "Parson's Turbine No. 2985"
+
 msgid "Paxman_Ricardo"
 msgstr "Paxman 12TP"
 
@@ -2953,6 +3007,9 @@ msgstr "Rolls-Royce Meteor TTSC"
 msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_CFE_A"
 msgstr "Rolls-Royce Meteor TTSC"
 
+msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_FR"
+msgstr "Rolls-Royce Meteor TTSC"
+
 msgid "Rolls_Royce_Meteorite_202"
 msgstr "Rolls-Royce Meteorite Mk. 202"
 
@@ -3015,6 +3072,12 @@ msgstr "SR C42I"
 
 msgid "SR_C42O"
 msgstr "SR C42O"
+
+msgid "SR_C42O_7x7"
+msgstr "SR C42O"
+
+msgid "SR_C42V"
+msgstr "SR C42V"
 
 msgid "SR_C42_B"
 msgstr "SR C42 B"
@@ -3196,6 +3259,9 @@ msgstr "Gabler’s Destroyer"
 msgid "Turret_1_GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "Turret_1_GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver"
+
 msgid "Turret_1_GB148_FV227_Conceiver"
 msgstr "FV227 Conceiver"
 
@@ -3225,6 +3291,9 @@ msgstr "FV214t"
 
 msgid "Turret_1_GB158_Executor"
 msgstr "Executor"
+
+msgid "Turret_1_GB159_FV4602_Victorious"
+msgstr "Victorious"
 
 msgid "Turret_1_GB15_Stuart_I"
 msgstr "Stuart I"
@@ -3378,6 +3447,9 @@ msgstr "Centurion Action X"
 
 msgid "Turret_1_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
+
+msgid "Turret_1_GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
 
 msgid "Turret_1_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
@@ -3580,6 +3652,9 @@ msgstr "Twin 32-pdr Gun MBC Mk. 2"
 msgid "Twin_4_5_in_Gun_MBC"
 msgstr "Twin 4.5-in. Gun MBC"
 
+msgid "Twin_4_5_in_Gun_MBC_7x7"
+msgstr "Twin 4.5-in. Gun MBC"
+
 msgid "Twin_OQF_77mm_Gun_Mk_II"
 msgstr "Twin OQF 77 mm Gun Mk. II"
 
@@ -3688,6 +3763,9 @@ msgstr "APDS L-28 (5321)"
 msgid "_105mm_APDS_L_28_5321_CFE_A"
 msgstr "APDS L-28"
 
+msgid "_105mm_APDS_L_28_5321_FR"
+msgstr "APDS L-28 (5321)"
+
 msgid "_105mm_AP_EX20"
 msgstr "105 mm AP EX20"
 
@@ -3727,6 +3805,9 @@ msgstr "105 mm Gun L7A2"
 msgid "_105mm_Gun_L7_HEAT_CFE_A"
 msgstr "105 mm Gun L7A2"
 
+msgid "_105mm_Gun_L7_HEAT_FR"
+msgstr "105 mm Gun L7A2"
+
 msgid "_105mm_Gun_L7_HEAT_SH"
 msgstr "105 mm Gun L7A2"
 
@@ -3737,6 +3818,9 @@ msgid "_105mm_HEAT_L7"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_CFE_A"
+msgstr "US HEAT M456"
+
+msgid "_105mm_HEAT_L7_FR"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_SH"
@@ -3771,6 +3855,9 @@ msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_35_5321_CFE_A"
 msgstr "HESH-T L-35"
+
+msgid "_105mm_HESH_L_35_5321_FR"
+msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_37_4015"
 msgstr "HESH L-37 (4015)"
@@ -4110,6 +4197,18 @@ msgstr "Q.F. 13-Pr. Mk. III"
 
 msgid "_13pdr_HE"
 msgstr "HE Mk. III"
+
+msgid "_140_mm_L33A1"
+msgstr "140 mm L33A1"
+
+msgid "_140mm_APDS_Mk_2"
+msgstr "140 mm APDS Mk. 2"
+
+msgid "_140mm_AP_Mk_1"
+msgstr "140 mm AP Mk. 1"
+
+msgid "_140mm_HESH_Mk_1"
+msgstr "140 mm HESH Mk. 1"
 
 msgid "_150mm_AP_Mk_1"
 msgstr "6-inch S.A.P."
@@ -4783,10 +4882,19 @@ msgstr "QF HE Mk. IT"
 msgid "_4_5_in_APDS_MBC"
 msgstr "APDS MBC"
 
+msgid "_4_5_in_APDS_MBC_7x7"
+msgstr "APDS MBC"
+
 msgid "_4_5_in_AP_MBC"
 msgstr "AP MBC"
 
+msgid "_4_5_in_AP_MBC_7x7"
+msgstr "AP MBC"
+
 msgid "_4_5_in_HE_MBC"
+msgstr "HE MBC"
+
+msgid "_4_5_in_HE_MBC_7x7"
 msgstr "HE MBC"
 
 msgid "_4_5_in_HE_Mk_XIII"

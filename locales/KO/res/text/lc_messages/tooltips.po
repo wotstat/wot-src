@@ -3304,12 +3304,6 @@ msgstr "소대 제한"
 msgid "details/conditions/additional"
 msgstr "임무 부가 조건을 확인합니다."
 
-msgid "devMaps/body"
-msgstr "열차 탈선, 비행기 추락 등 돌발 상황이 발생하는 지도에서 전투를 펼쳐 보십시오. 전장의 역학 관계가 변동되어 새로운 전술을 시도해 볼 수 있습니다."
-
-msgid "devMaps/header"
-msgstr "돌발 상황 발생 지도 플레이"
-
 msgid "deviceFits/already_installed/header"
 msgstr "장착"
 
@@ -6670,6 +6664,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/fisherman/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/fr_spark/desc"
+msgstr "Lacie \"Spark\" Paxton에게 집이라고 부를 만한 곳은 오랫동안 없었습니다. 통신 기술자인 아버지를 따라 군사 기지를 옮겨 다니며 자란 그녀는 세상 물정에 밝고 적응력이 뛰어났으며, 패턴을 발견하는 데 비범한 재능을 보였습니다. 이후 Spark는 정보 장비를 다루는 실력만큼이나 전차 조종에도 뛰어난 재능을 보였습니다. 무미건조한 유머로 부대를 이끌며 승무원을 위험에 빠뜨리는 법이 없었습니다. 제3 섹터에서 설계자의 통신을 가로채기 위한 부대를 창설했을 때, Spark는 지휘관으로 가장 적합한 인물이었습니다. 그녀는 첫 임무를 \"스위치블레이드 작전\"이라 명명했고, 이는 부대명으로 굳어졌습니다."
+
+msgid "notrecruitedtankman/fr_spark/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/fr_spark/label"
+msgstr "검은 신호"
+
 msgid "notrecruitedtankman/freeSkillsTitle"
 msgstr "기본 보유 능력"
 
@@ -6709,6 +6712,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/girls_und_panzer_erwin/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/desc"
+msgstr "Hoshino는 미소를 지으며 상대를 처리하는 유능한 포수이며, 여가 시간에는 조종사로 활동하며 실력을 뽐내기도 합니다."
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/girls_und_panzer_kei/desc"
 msgstr "외향적인 성격과 완벽한 페어플레이 정신을 자랑하는 Kei는 장난기와 실력을 동시에 갖춘 선더스 대학 부속 고교 전차도 팀의 대장입니다. 팀의 정신적 지주로서 항상 팀원들에게 승리란 즐거움이 함께해야 비로소 달콤한 법임을 알려줍니다."
 
@@ -6716,6 +6728,15 @@ msgid "notrecruitedtankman/girls_und_panzer_kei/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_kei/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/desc"
+msgstr "Team-Leoponsan의 여유로운 전차장이자 무전수인 그녀는 치열한 전투 속에서도 항상 침착함을 유지합니다."
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_naomi/desc"
@@ -6752,6 +6773,24 @@ msgid "notrecruitedtankman/girls_und_panzer_saunders/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_saunders/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/desc"
+msgstr "Suzuki의 부드러운 성격과 달리 그녀가 장전하는 포탄은 강렬하게 상대를 타격할 것입니다."
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/desc"
+msgstr "Tsuchiya에게 드리프트를 자제하라고 말해 보십시오. 그러면 곧장 드리프트를 펼치는 그녀의 모습을 볼 수 있을 것입니다."
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/howToGet"
@@ -6935,6 +6974,15 @@ msgid "notrecruitedtankman/lunar26_commander/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/lunar26_commander/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/desc"
+msgstr "저명한 기술자 출신의 전차장 Emil Diachenko는 적 전차에 포탄을 퍼붓는 것과 엔진실을 열어 즉석에서 개조하는 것 모두에 능숙합니다. 타고난 괴짜인 그는 이미 막사에서도 전설적인 인물로 통하며, 부하들은 그가 잠을 자는 모습을 본 적이 없다고 말하기도 합니다. Emil 역시 그런 소문을 알고 있지만, 긍정도 부정도 하지 않습니다. 남다른 것을 사랑하는 그로서는 다른 사람의 상상력을 억누르는 것은 원하지 않기 때문이죠. 실제로 기상천외한 계획을 구상하지 않을 때면 터보 과급기 설계도면을 직접 그리곤 합니다. 언뜻 보기에는 실패작처럼 보이지만, 어떻게 될지는 아무도 모르는 법이죠."
+
+msgid "notrecruitedtankman/mustached_engineer/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/ny19men/desc"
@@ -11616,6 +11664,12 @@ msgstr "클립(또는 모든 주포) 재장전 시간/클립, 주포, 탄대 재
 
 msgid "tank_params/desc/coincidenceElectromechanicalSightDuration"
 msgstr "동시 회로 전기기계식 조준 장치 활성화 후 효과 지속 시간입니다."
+
+msgid "tank_params/desc/combatThrottleCooldown"
+msgstr "출력 증폭기 재사용이 가능해질 때까지 걸리는 시간입니다."
+
+msgid "tank_params/desc/combatThrottleDuration"
+msgstr "활성화 이후 효과 지속 시간입니다."
 
 msgid "tank_params/desc/concentrationModeCooldown"
 msgstr "안정기 재사용이 가능해질 때까지 걸리는 시간입니다."

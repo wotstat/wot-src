@@ -1516,9 +1516,6 @@ msgstr "WoT PlusのEXPボーナスを適用できます"
 msgid "serviceChannelMessages/additionalXP/unavailable/title"
 msgstr "WoT PlusのEXPボーナスを適用できません"
 
-msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
-msgstr "%s への消耗品の補給に失敗しました。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的にご利用可能になります。"
-
 msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
 msgstr "%s 用のディレクティブの補給に失敗しました。メンテナンスのため、一時的に操作できません。"
 
@@ -1537,9 +1534,6 @@ msgstr "%s への消耗品の補給に失敗しました。ゴールドで消耗
 msgid "serviceChannelMessages/autoEquipError"
 msgstr "%s への消耗品を補給に失敗しました。クレジット不足です。"
 
-msgid "serviceChannelMessages/autoEquipErrorNoWallet"
-msgstr "%s への消耗品の補給に失敗しました。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的にご利用可能になります。"
-
 msgid "serviceChannelMessages/autoEquipSkipped"
 msgstr "%s に消耗品を自動補給できませんでした。手動で補給してください。"
 
@@ -1552,9 +1546,6 @@ msgstr "%s への砲弾の補給に失敗しました。ゴールドでの砲弾
 msgid "serviceChannelMessages/autoLoadError"
 msgstr "%s への砲弾の補給に失敗しました。クレジットが不足しています。"
 
-msgid "serviceChannelMessages/autoLoadErrorNoWallet"
-msgstr "%s への砲弾の補給に失敗しました。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的にご利用可能になります。"
-
 msgid "serviceChannelMessages/autoLoadSkipped"
 msgstr "%s への砲弾の補給に失敗しました。手動で補給を行う必要があります。"
 
@@ -1566,9 +1557,6 @@ msgstr "%s 用のスタイル・レンタルを延長できませんでした。
 
 msgid "serviceChannelMessages/autoRentStyleError"
 msgstr "%s 用のスタイル・レンタルを延長できませんでした。資金不足です。"
-
-msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
-msgstr "%s 用のスタイル・レンタルを延長できませんでした。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的にご利用可能になります。"
 
 msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
 msgstr "レンタル期間の延長"
@@ -1596,9 +1584,6 @@ msgstr "%s の修理に失敗しました。"
 
 msgid "serviceChannelMessages/autoRepairError"
 msgstr "%s の修理に失敗しました。クレジット不足です。"
-
-msgid "serviceChannelMessages/autoRepairErrorNoWallet"
-msgstr "%s の修理に失敗しました。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的にご利用可能になります。"
 
 msgid "serviceChannelMessages/autoRepairSkipped"
 msgstr "%s を自動修理できませんでした。手動で修理してください。"

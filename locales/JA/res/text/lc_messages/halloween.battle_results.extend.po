@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s 戦闘時間: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "難易度「ノーマル」"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "難易度「ハード」"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "難易度「ナイトメア」"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "バビロンの超常空間 – {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "再出撃の回数: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "違反行為が確認されました。\n報酬は授与されません。"
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "第1フェーズの突破に失敗しました。\n報酬は授与されません。"
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s"
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s個"
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s個)"
+
+msgid "hw_battle_result/status/lose"
+msgstr "戦闘終了"
+
+msgid "hw_battle_result/status/win"
+msgstr "勝利"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "戦闘終了"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "闇は祓われた! 素晴らしいチームワークだ!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "戦闘終了"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "%(phaseNumber)sフェーズ突破"
+msgstr[1] "%(phaseNumber)sフェーズ突破"
+msgstr[2] "%(phaseNumber)sフェーズ突破"
+
+msgid "hw_battle_result/title/win"
+msgstr "ボスを撃破"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "味方が全滅"
+
+msgid "hw_finish/reason/3/lose"
+msgstr "時間切れ"
+
+msgid "hw_finish/reason/5/lose"
+msgstr "全味方車輌が戦闘を離脱"
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "シュヴァルツタワーへの道が開けた"
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "やったぞ!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "撤退させたがまだ終わりじゃない"
+
+msgid "teamList/actions"
+msgstr "クイックアクション"
+
+msgid "teamList/teammates"
+msgstr "味方"

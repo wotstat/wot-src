@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, ระยะเวลา: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "ความยากปกติ"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "ความยากมาก"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "ความยากฝันร้าย"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "พลังแปรปรวนบาบิลอน - {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "เวลาเกิดใหม่: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "ผลงานยอมรับไม่ได้: การนิ่งเฉย/การหนีกองทัพ\nไม่ได้รับรางวัล"
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "ทีมของคุณล้มเหลว: ยังไม่ผ่านช่วงแรก\nไม่ได้รับรางวัล"
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s"
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s"
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)"
+
+msgid "hw_battle_result/status/lose"
+msgstr "การรบสิ้นสุด"
+
+msgid "hw_battle_result/status/win"
+msgstr "ชัยชนะ"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "การรบสิ้นสุดแล้ว"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "ขับไล่ความมืดออกไปได้แล้ว! เล่นเป็นทีมได้เยี่ยมมาก!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "การรบสิ้นสุด"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "ผ่าน %(phaseNumber)s ช่วงแล้ว"
+msgstr[1] "ผ่าน %(phaseNumber)s ช่วงแล้ว"
+msgstr[2] "ผ่าน %(phaseNumber)s ช่วงแล้ว"
+
+msgid "hw_battle_result/title/win"
+msgstr "ทำลายหัวหน้าใหญ่ได้"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "พาหนะพันธมิตรทั้งหมดถูกทำลาย"
+
+msgid "hw_finish/reason/3/lose"
+msgstr "หมดเวลาแล้ว"
+
+msgid "hw_finish/reason/5/lose"
+msgstr "พันธมิตรทั้งหมดออกจากการรบแล้ว"
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "เส้นทางสู่หอคอยมืดเปิดแล้ว"
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "ใช่แล้ว เราทำได้!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "เราถูกบังคับให้ต้องถอนตัว แต่นี่ยังไม่จบ"
+
+msgid "teamList/actions"
+msgstr "การดำเนินการด่วน"
+
+msgid "teamList/teammates"
+msgstr "พันธมิตร"

@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import logging, operator, weakref
 from collections import namedtuple, deque
 import BigWorld, BattleReplay
@@ -490,8 +491,8 @@ class BattleChatCommandHandler(bw2_provider.ResponseDictHandler, IBattleCommandF
     def createByObjectiveIndex(self, idx, isAtk, actionName):
         return self.__factory.createByObjectiveIndex(idx, isAtk, actionName)
 
-    def createByBaseIndexAndName(self, pointId, commandName, baseName):
-        return self.__factory.createByBaseIndexAndName(pointId, commandName, baseName)
+    def createByBaseIndexAndName(self, pointID, commandName, baseName):
+        return self.__factory.createByBaseIndexAndName(pointID, commandName, baseName)
 
     def createByGlobalMsgName(self, actionID, baseName=b''):
         return self.__factory.createByGlobalMsgName(actionID, baseName)

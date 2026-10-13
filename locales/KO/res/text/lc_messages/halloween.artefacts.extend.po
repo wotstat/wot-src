@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "피해 면역 상태가 됩니다."
+
+msgid "damageShield/long_special"
+msgstr "전투 능력: 7초 동안 충돌, 침수, 충격 피해를 제외한 모든 피해를 막아주는 에너지 보호막을 생성합니다. 전투 중 한 번이라도 사용하면 소모됩니다. 소모한 전투 능력은 크레딧으로 재보급할 수 있습니다. 사용하지 않았다면 재보급이 필요하지 않습니다.<br /><br /><font color='#cbac77'>바빌론: 어둠의 탑</font> 이벤트에서만 사용할 수 있습니다.<br /><br />사용하지 않은 모든 능력은 다음 업데이트 적용 후 원래 가격의 50%에 해당하는 크레딧으로 전환됩니다."
+
+msgid "damageShield/name"
+msgstr "에너지 보호막"
+
+msgid "damageShield/onUse"
+msgstr "7초 동안 충돌, 침수, 충격 피해를 제외한 모든 피해를 막아주는 에너지 보호막을 생성합니다."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "피해 면역 상태가 됩니다."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "연사력이 향상되고 클립식 주포가 즉시 재장전됩니다."
+
+msgid "fastReload/long_special"
+msgstr "전투 능력: 순환식 주포는 일정 시간 동안 장전 속도가 크게 증가하고, 클립식 재장전 시스템을 탑재한 주포는 클립이 즉시 재장전됩니다. 전투 중 한 번이라도 사용하면 소모됩니다. 소모한 전투 능력은 크레딧으로 재보급할 수 있습니다. 사용하지 않았다면 재보급이 필요하지 않습니다.<br /><br /><font color='#cbac77'>바빌론: 어둠의 탑</font> 이벤트에서만 사용할 수 있습니다.<br /><br />사용하지 않은 모든 능력은 다음 업데이트 적용 후 원래 가격의 50%에 해당하는 크레딧으로 전환됩니다."
+
+msgid "fastReload/name"
+msgstr "재장전 가속"
+
+msgid "fastReload/onUse"
+msgstr "순환식 주포는 일정 시간 동안 장전 속도가 크게 증가하고, 클립식 주포는 클립이 즉시 재장전됩니다."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "연사력이 향상되고 클립식 주포가 즉시 재장전됩니다."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "내구도가 회복되고, 화재가 진압되고, 폭발 충격 효과가 제거되고, 손상된 부품이 수리됩니다."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "전투 능력: 내구도가 회복되고, 화재가 진압되고, 폭발 충격 효과가 제거되고, 손상된 부품이 수리됩니다. 한 전투에서 여러 번 사용할 수 있습니다. 전투 중 한 번이라도 사용하면 소모됩니다.<br /><br /><font color='#cbac77'>바빌론 프로젝트</font> 이벤트에서만 사용할 수 있습니다.<br /><br />사용하지 않은 모든 능력은 다음 업데이트 적용 후 원래 가격의 50%에 해당하는 크레딧으로 전환됩니다."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "긴급 수리"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• 전차 내구도가 400 즉시 회복됩니다.\n• 30초에 걸쳐 내구도가 300 추가로 회복됩니다.\n• 피해를 받으면 회복이 중단됩니다.\n• 화재가 진압되고, 폭발 충격 효과가 제거되고, 손상된 부품이 수리됩니다.\n• 피해를 받은 상태에서만 사용할 수 있습니다."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "내구도가 회복되고, 화재가 진압되고, 폭발 충격 효과가 제거되고, 손상된 부품이 수리됩니다."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• 전투에서 사용 시 필요한 미륨:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \n필요한 미륨: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "전투에서 사용 시 필요한 미륨:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "목표물과 주변 적 전차에 피해를 입히고 폭발 충격을 가하는 포탄을 발사합니다."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "전투 능력: 목표물 및 목표물로부터 35m 범위 내에 있는 모든 적 전차에 피해를 입히고 폭발 충격을 가하는 포탄을 발사합니다. 전투 중 한 번이라도 사용하면 소모됩니다. 소모한 전투 능력은 크레딧으로 재보급할 수 있습니다. 사용하지 않았다면 재보급이 필요하지 않습니다.<br/><br/><font color='#cbac77'>바빌론: 어둠의 탑</font> 이벤트에서만 사용할 수 있습니다.<br/><br/>사용하지 않은 모든 능력은 다음 업데이트 적용 후 원래 가격의 50%에 해당하는 크레딧으로 전환됩니다."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "에너지 포탄"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "목표물 및 목표물로부터 35m 범위 내에 있는 모든 적 전차에 피해를 입히고 폭발 충격을 가하는 포탄을 발사합니다."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "목표물과 주변 적 전차에 피해를 입히고 폭발 충격을 가하는 포탄을 발사합니다."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "목표물과 주변 적 전차의 내구도를 강탈하여 자신의 전차 내구도를 회복하는 포탄을 발사합니다."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "전투 능력: 목표물 및 목표물로부터 35m 범위 내에 있는 모든 적 전차의 내구도를 강탈하여 자신의 전차 내구도를 회복하는 포탄을 발사합니다. 손상된 부품이 수리되고 폭발 충격 효과도 제거됩니다. 전투 중 한 번이라도 사용하면 소모됩니다. 소모한 전투 능력은 크레딧으로 재보급할 수 있습니다. 사용하지 않았다면 재보급이 필요하지 않습니다.<br/><br/><font color='#cbac77'>바빌론: 어둠의 탑</font> 이벤트에서만 사용할 수 있습니다.<br/><br/>사용하지 않은 모든 능력은 다음 업데이트 적용 후 원래 가격의 50%에 해당하는 크레딧으로 전환됩니다."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "흡혈 포탄"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "목표물 및 목표물로부터 35m 범위 내에 있는 모든 적 전차의 내구도를 강탈하여 자신의 전차 내구도를 회복하는 포탄을 발사합니다. 손상된 부품이 수리되고 폭발 충격 효과도 제거됩니다."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "목표물과 주변 적 전차의 내구도를 강탈하여 자신의 전차 내구도를 회복하는 포탄을 발사합니다."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "목표물과 주변 적 전차에 폭발 충격을 가하는 포탄을 발사합니다."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "전투 능력: 목표물 및 목표물로부터 35m 범위 내에 있는 모든 적 전차에 폭발 충격을 가하는 포탄을 발사합니다. 한 전투에서 여러 번 사용할 수 있습니다. 전투 중 한 번이라도 사용하면 소모됩니다.<br /><br /><font color='#cbac77'>바빌론 프로젝트</font> 이벤트에서만 사용할 수 있습니다.<br /><br />사용하지 않은 모든 능력은 다음 업데이트 적용 후 원래 가격의 50%에 해당하는 크레딧으로 전환됩니다."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "충격 포탄"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "목표물 및 목표물로부터 35m 범위 내에 있는 모든 적 전차에 폭발 충격을 가하는 포탄을 발사합니다."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "목표물과 주변 적 전차에 폭발 충격을 가하는 포탄을 발사합니다."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "전차가 투명 상태가 되고, 내구도가 회복되고, 부품이 수리되고, 화재가 진압됩니다."
+
+msgid "hwInvisibility/long_special"
+msgstr "전투 능력: 전차가 10초 동안 적이 볼 수 없는 투명 상태가 됩니다. 내구도가 매초 35씩 회복되고, 부품이 수리되고, 부정적인 효과가 모두 제거되고, 부식에 면역이 됩니다. 사격하거나, 포탄, 충돌, 전투 능력으로 피해를 입히거나 받으면 위치가 즉시 드러납니다. 활성화 후 3초 동안은 적의 공격에 의해 중단되지 않습니다. 전투 중 한 번이라도 사용하면 소모됩니다. 소모한 전투 능력은 크레딧으로 재보급할 수 있습니다. 사용하지 않았다면 재보급이 필요하지 않습니다.<br/><br/><font color='#cbac77'> 바빌론: 어둠의 탑</font> 이벤트에서만 사용할 수 있습니다.<br/><br/>사용하지 않은 모든 능력은 다음 업데이트 적용 후 원래 가격의 50%에 해당하는 크레딧으로 전환됩니다."
+
+msgid "hwInvisibility/name"
+msgstr "은신 회복"
+
+msgid "hwInvisibility/onUse"
+msgstr "전차가 10초 동안 적이 볼 수 없는 투명 상태가 됩니다. 내구도가 매초 35씩 회복되고, 부품이 수리되고, 부정적인 효과가 모두 제거되고, 부식에 면역이 됩니다. 사격하거나, 포탄, 충돌, 전투 능력으로 피해를 입히거나 받으면 위치가 즉시 드러납니다. 활성화 후 3초 동안은 적의 공격에 의해 중단되지 않습니다."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "적으로부터 모습을 감추고, 내구도가 회복되고, 부품이 수리되고, 화재가 진압되고, 폭발 충격 효과가 제거되며 부상당한 승무원이 치료됩니다."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "일정 시간 동안 전차 가속력\n및 충돌 피해가 증가합니다."
+
+msgid "nitroRamDamage/name"
+msgstr "터보 과급기"
+
+msgid "nitroRamDamage/onUse"
+msgstr "일시적으로 전차의 속력이 향상되고 충돌 피해가 증가합니다."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "범위 내 아군 전차의 부품이 수리되고 내구도가 일정량 회복됩니다."
+
+msgid "teamRepairKit/long_special"
+msgstr "전투 능력: 범위 내 아군 전차의 부품이 수리되고, 화재가 진압되고, 폭발 충격 효과가 제거되고, 내구도가 일정량 회복됩니다. 전투 중 한 번이라도 사용하면 소모됩니다. 소모한 전투 능력은 크레딧으로 재보급할 수 있습니다. 사용하지 않았다면 재보급이 필요하지 않습니다.<br/><br /><font color='#cbac77'>바빌론: 어둠의 탑</font> 이벤트에서만 사용할 수 있습니다.<br/><br/>사용하지 않은 모든 능력은 다음 업데이트 적용 후 원래 가격의 50%에 해당하는 크레딧으로 전환됩니다."
+
+msgid "teamRepairKit/name"
+msgstr "종합 정비"
+
+msgid "teamRepairKit/onUse"
+msgstr "범위 내 아군 전차의 부품이 수리되고, 화재가 진압되고, 폭발 충격 효과가 제거되고, 내구도가 일정량 회복됩니다."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "범위 내 아군 전차의 부품이 수리되고 내구도가 일정량 회복됩니다."

@@ -328,6 +328,9 @@ msgstr "领取奖励"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "领取奖励"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "完成的每个普通、高级或红利任务都会计入您的进度。"
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "可用"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "再战沙场！完成每日任务以获取史诗奖励：{progres}"
+msgstr "再战沙场！完成每日任务以获取史诗奖励：{{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "完成3个普通任务后将开启1个红利任务，完成后能获得更好的奖励。红利任务必须在当天完成，否则会过期。"
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "盾牌"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "战车限制："
+msgstr "完成任务需使用"
 
 msgid "tooltip/weekly_mission"
 msgstr "每周任务"

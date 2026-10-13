@@ -328,6 +328,9 @@ msgstr "보상 수령"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "보상 수령"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "일반 임무, 프리미엄 임무, 보너스 임무 완료 시 모두 진행 상황에 반영됩니다."
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "이용 가능"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "실전 복귀! 일일 임무를 완료하고 특무 보상 획득: {progres}"
+msgstr "실전 복귀! 일일 임무를 완료하고 특무 보상 획득: {{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "일반 임무 3개 완료 시 더욱더 값진 보상을 획득할 수 있는 보너스 임무를 진행할 수 있습니다. 보너스 임무는 획득한 당일 완료해야 하며 미완료 시 해당 임무가 사라집니다."
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "보호막"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "전차 제한"
+msgstr "운용 가능 전차"
 
 msgid "tooltip/weekly_mission"
 msgstr "주간 임무"

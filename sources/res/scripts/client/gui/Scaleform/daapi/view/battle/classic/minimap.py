@@ -58,13 +58,13 @@ class GlobalSettingsPlugin(common.SimplePlugin):
     def start(self):
         super(GlobalSettingsPlugin, self).start()
         if GUI_SETTINGS.minimapSize:
-            g_eventBus.addListener(events.GameEvent.MINIMAP_CMD, self.__handleMinimapCmd, scope=EVENT_BUS_SCOPE.BATTLE)
+            g_eventBus.addListener(events.GameEvent.MINIMAP_CMD, self._handleMinimapCmd, scope=EVENT_BUS_SCOPE.BATTLE)
             g_repeatKeyHandlers.add(self.__handleRepeatKeyEvent)
         return
 
     def stop(self):
         if GUI_SETTINGS.minimapSize:
-            g_eventBus.removeListener(events.GameEvent.MINIMAP_CMD, self.__handleMinimapCmd, scope=EVENT_BUS_SCOPE.BATTLE)
+            g_eventBus.removeListener(events.GameEvent.MINIMAP_CMD, self._handleMinimapCmd, scope=EVENT_BUS_SCOPE.BATTLE)
             g_repeatKeyHandlers.discard(self.__handleRepeatKeyEvent)
         super(GlobalSettingsPlugin, self).stop()
         return
@@ -133,7 +133,7 @@ class GlobalSettingsPlugin(common.SimplePlugin):
             self.__handleKey(event.key)
         return
 
-    def __handleMinimapCmd(self, event):
+    def _handleMinimapCmd(self, event):
         self.__handleKey(event.ctx[b'key'])
         return
 

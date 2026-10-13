@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "腐蚀"
+
+msgid "damageLog/personal_death_zone"
+msgstr "区域造成的伤害"
+
+msgid "damageLog/static_death_zone"
+msgstr "区域造成的伤害"
+
+msgid "damageShieldReady"
+msgstr "能量盾已就绪。"
+
+msgid "fastReloadReady"
+msgstr "快速装填已就绪。"
+
+msgid "hitMarker/useless"
+msgstr "无效！"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "紧急修复已就绪。"
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "爆能炮弹已就绪。"
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "吸血炮弹已就绪。"
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "震荡炮弹已就绪。"
+
+msgid "hwHelpScreen/hint/description"
+msgstr "查看模式规则"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "按下"
+
+msgid "hwInvisibilityReady"
+msgstr "隐身治疗已就绪。"
+
+msgid "nitroRamDamageReady"
+msgstr "涡轮增压器已就绪。"
+
+msgid "pickupSouls"
+msgstr "您已收集%(souls)s个迷离物质"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "无法使用[%(name)s]：火炮损坏。"
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "战车未受损。"
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "无法使用[%(name)s]：发动机已损毁。"
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "无法使用 [%(name)s]：迷离物质不足以激活能力。"
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "无法使用[%(name)s]：战车起火。"
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "无法使用 [%(name)s]：战车沉没。"
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "无法使用[%(name)s]：战车起火。"
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "无法使用 [%(name)s]：战车翻倒。"
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "火炮已装填。"
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s摧毁了%(target)s。"
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s击毁了%(target)s。"
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s击毁了%(target)s。"
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "队友%(target)s被腐蚀摧毁。"
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "队友%(target)s被%(attacker)s踩踏。"
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "队友%(target)s被敌人（%(attacker)s）炸毁。"
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "队友%(target)s被撞毁。"
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "队友%(target)s被摧毁区域摧毁。"
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "队友%(target)s被敌方光环摧毁。"
+
+msgid "player_messages/killedByDeathZone"
+msgstr "队友%(target)s被摧毁区域摧毁。"
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "队友%(target)s被击毁。"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "战车被能量打击摧毁"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "战车被意念控火摧毁"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "战车被血量汲取摧毁"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "战车被炸毁"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "战车被摧毁区域摧毁"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "战车被敌方光环摧毁"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "战车被腐蚀摧毁"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "战车撞毁"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "战车被踩踏摧毁"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "战车被摧毁。您未能抵达马格努斯收集器所在的位置。"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "战车被摧毁。您未能摧毁魔王。"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "战车被摧毁。马格努斯收集器未被填满。"
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "模块[%(device)s]由于被玩家击中爆炸"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "战车由于起火损毁"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "战车被敌方射击摧毁"
+
+msgid "teamRepairKitReady"
+msgstr "集体修复已就绪。"
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s已激活集体修复。"
+
+msgid "teamRepairKitUsedSelf"
+msgstr "集体修复已激活。"

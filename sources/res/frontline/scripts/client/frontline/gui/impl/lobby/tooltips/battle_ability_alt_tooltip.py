@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from frameworks.wulf import ViewSettings
 from gui.Scaleform.genConsts.TOOLTIPS_CONSTANTS import TOOLTIPS_CONSTANTS
 from gui.game_control.epic_meta_game_ctrl import EpicMetaGameSkill
@@ -33,18 +34,15 @@ class BattleAbilityAltTooltipView(ViewImpl):
         item = self.__itemsCache.items.getItemByCD(self.intCD)
         if not item:
             return
-        else:
-            with self.getViewModel().transaction() as model:
-                skill = self.__epicSkills[item.innationID]
-                info = skill.getSkillInfo()
-                model.setName(info.name)
-                model.setDescription(info.longDescr)
-                movieKey = item.getGUIEmblemID()
-                movieName = None
-                if movieKey in MODULE_MOVIES:
-                    movieName = MODULE_MOVIES[movieKey]
-                model.setVideoName(movieName)
-            return
+        with self.getViewModel().transaction() as model:
+            skill = self.__epicSkills[item.innationID]
+            info = skill.getSkillInfo()
+            model.setName(info.name)
+            model.setDescription(info.longDescr)
+            movieKey = item.getGUIEmblemID()
+            movieName = MODULE_MOVIES.get(movieKey, b'')
+            model.setVideoName(movieName)
+        return
 
 
 class BattleAbilityAltTooltipData(ToolTipBaseData):

@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "冷卻時間：{{cooldown}} 秒"
+
+msgid "ability/miriumCost"
+msgstr "戰鬥中啟用能力需花費的迷離物質：{{value}}。"
+
+msgid "ability/required"
+msgstr "（{{required}} {{value}}）"
+
+msgid "ability/use/label"
+msgstr "使用時："
+
+msgid "anomaliesEntryPoint/description"
+msgstr "戰鬥中的被動增益"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "完成「普通」難度以解鎖「困難」難度，並開啟「異化劑組合」系統。"
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "異化劑組合無法使用"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "提升您的戰鬥表現且能帶往後續階段，就算您的車輛遭摧毀亦同。"
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "獲得時："
+
+msgid "anomaliesEntryPoint/title"
+msgstr "異化劑"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "回聲型異化劑"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "拾取型異化劑"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "基本異化劑"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "神秘異化劑"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "僅能從物資中獲取。"
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "無組合。"
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "不計入 Anomaly Collector 勳章的獲取進度。"
+
+msgid "bannerTooltip/available"
+msgstr "活動開放 %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — 遊戲模式。點擊以探索"
+
+msgid "bannerTooltip/description"
+msgstr "特殊 PvE 模式，將帶您深入神秘「巴比倫計畫」的世界。在您戰鬥並摧毀黑暗敵方勢力的過程中，馴服 7 輛獨特戰車。專屬獎勵與其他豐富內容等著您！"
+
+msgid "bannerTooltip/header"
+msgstr "巴比倫：黑塔"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "您的電腦效能不足以進行這個模式。您可能遇到畫質及車輛移動的問題。遊戲客戶端也很可能會當掉。"
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "這個模式需要較高的電腦效能。您可能遇到地圖載入、畫質及車輛移動的問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "效能不足"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "效能可能會降低"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "您們已互加好友。"
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "等待好友請求確認。"
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "從您的黑名單中移除玩家。"
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "加入好友名單。"
+
+msgid "battleResult/interaction/menu"
+msgstr "點擊以開啟與這名玩家的互動選單。"
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "加入裝甲排。"
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "玩家已加入裝甲排。"
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "邀請已送出。"
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "僅有裝甲排指揮官能邀請玩家加入裝甲排。"
+
+msgid "battleResult/secretReward/header"
+msgstr "神秘獎勵"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "活動結束時，您將依自身決定獲得相應的特殊獎勵。"
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "獨特活動獎勵"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "冷卻時間：%(cooldownSeconds)s 秒"
+
+msgid "consumables/params/usageCost"
+msgstr "所需的迷離物質：%(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} 開放至 {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "獎勵："
+
+msgid "dailyQuests/status"
+msgstr "全新每日任務開放於 {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "指派全部四名附有配音的活動乘員（%(crew_members_names)s）到您車庫中的任何車輛（其中一名必須為車長），即可在戰鬥中啟用車組乘員互動語音。\n在設有五個或六個專長的車輛，剩餘專長可由任何乘員填補。"
+
+msgid "groupVoiceover/header"
+msgstr "車組乘員互動語音"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "已選擇可解鎖此車輛的目標。在畫面右上角查看目標條件。"
+
+msgid "hangar/objectiveBtn/header"
+msgstr "目標已選擇"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "選擇可用車輛以進入戰鬥。"
+
+msgid "hangar/startBtn/lock/header"
+msgstr "無法進入戰鬥"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "由於技術性問題，所選難度/模式的戰鬥暫時無法進行。"
+
+msgid "hangar/startBtn/offline/header"
+msgstr "無法進入戰鬥"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "等待裝甲排從前一場戰鬥返回以進入全新戰鬥。"
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "無法進入戰鬥"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "難度等級與裝甲排不相容。"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "無法進入戰鬥"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "由四名戰車兵組成的一組獨特乘員。"
+
+msgid "hw_bonus_crew_100/header"
+msgstr "完整的一組獨特乘員"
+
+msgid "keyCard/body"
+msgstr "點擊以查看活動貨幣的獲取方式。"
+
+msgid "keys/accrued"
+msgstr "已獲得："
+
+msgid "keys/battles"
+msgstr "• 進行活動戰鬥"
+
+msgid "keys/body"
+msgstr "獨特貨幣，用來在「巴比倫：黑塔」活動期間推進進度並獲取珍貴獎勵，當中包括活動主要獎勵。您可以在活動戰鬥或透過購買組合包來獲取此貨幣。在「巴比倫：黑塔」戰鬥摧毀敵方車輛，並盡全力收集越多迷離物質，藉此入手密鑰。"
+
+msgid "keys/boss"
+msgstr "• 擊敗魔王："
+
+msgid "keys/bottom"
+msgstr "所有未使用的密鑰將在活動結束後移除；活動截止於 %(date)s。"
+
+msgid "keys/bundles"
+msgstr "• 購買活動組合包"
+
+msgid "keys/daily"
+msgstr "• 每日車輛任務："
+
+msgid "keys/effective"
+msgstr "• 戰鬥表現："
+
+msgid "keys/gold"
+msgstr "• 花費金幣購買"
+
+msgid "keys/header"
+msgstr "解碼密鑰"
+
+msgid "keys/howToEarn"
+msgstr "如何獲得"
+
+msgid "keys/howToUse"
+msgstr "如何使用"
+
+msgid "keys/howToUseDescr"
+msgstr "解鎖全新目標，使用密鑰來解碼紀錄，推進獲取活動主要獎勵的進度。您也可使用更多密鑰來跳過目標並加快獲取獎勵的速度。"
+
+msgid "keys/inStock"
+msgstr "可用"
+
+msgid "keys/secret"
+msgstr "• 神秘獎勵："
+
+msgid "metaWidget/body"
+msgstr "點擊以檢視所有的活動目標與獎勵。"
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "完成此紀錄相應的戰鬥條件以進行解碼。此項目無法跳過。"
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "解碼無法使用"
+
+msgid "metaWidget/header"
+msgstr "獎勵之路"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "點擊以選擇此故事的結局。社群的多數決定將影響未來的發展。請前往遊戲入口網站查看最新消息。"
+
+msgid "missionTooltip/bottom"
+msgstr "在活動結束前解碼所有紀錄（部分目標可跳過）來獲取主要獎勵；活動截止於 %(date)s。"
+
+msgid "missionTooltip/completed"
+msgstr "已完成目標 %(current)s，已獲得獎勵"
+
+msgid "missionTooltip/count"
+msgstr "目標 %(current)s / %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "解碼"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "完成目標以進行解碼。"
+
+msgid "missionTooltip/kingReward"
+msgstr "活動主要獎勵"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "已獲得活動主要獎勵"
+
+msgid "missionTooltip/received"
+msgstr "已完成目標 %(current)s，但紀錄尚未解碼"
+
+msgid "missionTooltip/rewards"
+msgstr "完成目標以獲取獎勵。"
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "解碼紀錄以獲取獎勵。"
+
+msgid "missionTooltip/skip"
+msgstr "跳過"
+
+msgid "shopWidget/body"
+msgstr "點擊以打開遊戲內商店的特殊區塊，內有活動專屬物品。"
+
+msgid "shopWidget/header"
+msgstr "活動組合包"
+
+msgid "teamList/actions/body"
+msgstr "建立裝甲排與新增/移除好友的快捷操作。"
+
+msgid "teamList/actions/header"
+msgstr "快捷操作"
+
+msgid "teamList/anomalies/header"
+msgstr "啟用的異化劑"
+
+msgid "teamList/bossDamage/body"
+msgstr "僅依照在階段 4（魔王戰）中造成的傷害排序。\n若隊伍未擊敗魔王，該傷害不計入密鑰獎勵進度。"
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "由於隊伍未擊敗魔王，該傷害不計入密鑰獎勵進度。"
+
+msgid "teamList/bossDamage/header"
+msgstr "在魔王戰造成的傷害"
+
+msgid "teamList/damage/body"
+msgstr "按照在階段 1–3 中造成的傷害排序。"
+
+msgid "teamList/damage/header"
+msgstr "造成的傷害"
+
+msgid "teamList/keys/body"
+msgstr "按照獲得的密鑰數來排序（顯示的數值未計入完成相應每日任務獲取的額外密鑰數）。"
+
+msgid "teamList/keys/header"
+msgstr "獲得的密鑰數"
+
+msgid "teamList/kills/body"
+msgstr "按照摧毀敵方車輛數來排序。"
+
+msgid "teamList/kills/header"
+msgstr "摧毀敵方車輛數"
+
+msgid "teamList/name/header"
+msgstr "玩家名稱"
+
+msgid "teamList/place/body"
+msgstr "按照在隊伍中的排名來排序。"
+
+msgid "teamList/place/header"
+msgstr "在隊伍中的排名"
+
+msgid "teamList/squad/header"
+msgstr "裝甲排為讓玩家在戰鬥中合作而組成的戰術單位。"
+
+msgid "teamList/vehicle/body"
+msgstr "按照車輛類型與名稱來排序。"
+
+msgid "teamList/vehicle/header"
+msgstr "車輛"
+
+msgid "teamList/warned/body"
+msgstr "此玩家已因掛機/擅離職守遭懲罰，未從該場戰鬥獲得任何獎勵。"
+
+msgid "teamList/warned/header"
+msgstr "警告"
+
+msgid "teamList/warned/self/body"
+msgstr "您已因掛機/擅離職守遭懲罰，未從該場戰鬥獲得任何獎勵。"
+
+msgid "teamList/warned/self/header"
+msgstr "警告"
+
+msgid "vehicle/bonusTitle"
+msgstr "收益"
+
+msgid "vehicle/eventBonus"
+msgstr "以此車輛完成每日任務可獲得額外密鑰。"
+
+msgid "vehicle/state/default/title"
+msgstr "戰鬥準備就緒"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "戰鬥中"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "於戰術單位中"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "佇列中"
+
+msgid "vehicle/state/locked/title"
+msgstr "已鎖定"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "五發裝彈匣，讓您可快速造成大量傷害。"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "彈匣"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "三發裝系統，可縮短自動再裝填砲彈的標準時間。"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "改良的自動再裝填火炮"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "具有連續射擊系統的炮管。"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "自動火炮"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "提高對敵方車輛配件造成傷害的機率。"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "可造成重傷的炮管"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "搭載威力強大的雙發裝自動再裝填系統的 HE 炮管。"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "自動再裝填火炮"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "可讓您在循環式射擊與齊射間進行選擇。"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "雙管火炮"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "賦予您車輛的配件免於重傷的完全防護。"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "重傷抗性"

@@ -2087,25 +2087,11 @@
           u >= 90 ? Iu.Third : u >= 60 ? Iu.Second : u >= 30 ? Iu.First : Iu.Default;
         const Wu = "Achievement_base_e7d99",
           Hu = "Achievement_shine_b67fa",
-          Vu = (u) => {
-            let e,
-              t = null;
-            return (
-              (t = requestAnimationFrame(() => {
-                t = requestAnimationFrame(() => {
-                  ((t = null), (e = u()));
-                });
-              })),
-              () => {
-                ("function" == typeof e && e(), null !== t && cancelAnimationFrame(t));
-              }
-            );
-          },
-          ju = 33,
-          zu = 0,
-          Uu = !0,
-          qu = "play";
-        function Gu(u) {
+          Vu = 33,
+          ju = 0,
+          zu = !0,
+          Uu = "play";
+        function qu(u) {
           const e = u.chunk,
             t = e.rows * e.columns;
           return (n) => {
@@ -2115,7 +2101,7 @@
             return { path: u.getChunkPath(Math.trunc(n / t)), x: r, y: i };
           };
         }
-        const Ku = [
+        const Gu = [
           "width",
           "height",
           "getImageSource",
@@ -2130,9 +2116,9 @@
           "onAnimationComplete",
           "poster",
         ];
-        function Yu() {
+        function Ku() {
           return (
-            (Yu = Object.assign
+            (Ku = Object.assign
               ? Object.assign.bind()
               : function (u) {
                   for (var e = 1; e < arguments.length; e++) {
@@ -2141,25 +2127,25 @@
                   }
                   return u;
                 }),
-            Yu.apply(null, arguments)
+            Ku.apply(null, arguments)
           );
         }
-        const Zu = (0, n.memo)(function (u) {
+        const Yu = (0, n.memo)(function (u) {
             let e = u.width,
               t = u.height,
               r = u.getImageSource,
               i = u.frameCount,
               s = u.onAnimate,
               o = u.frameTime,
-              E = void 0 === o ? ju : o,
+              E = void 0 === o ? Vu : o,
               A = u.initialFrameIndex,
-              c = void 0 === A ? zu : A,
+              c = void 0 === A ? ju : A,
               l = u.lastFrameIndex,
               F = void 0 === l ? i - 1 : l,
               D = u.loop,
-              d = void 0 === D ? Uu : D,
+              d = void 0 === D ? zu : D,
               B = u.state,
-              C = void 0 === B ? qu : B,
+              C = void 0 === B ? Uu : B,
               _ = u.onAnimationDone,
               m = u.onAnimationComplete,
               g = u.poster,
@@ -2172,13 +2158,9 @@
                     t[n] = u[n];
                   }
                 return t;
-              })(u, Ku);
-            const b = (0, n.useRef)(null),
-              v = (0, n.useState)(!0),
-              f = v[0],
-              p = v[1];
+              })(u, Gu);
+            const b = (0, n.useRef)(null);
             return (
-              (0, n.useEffect)(() => Vu(() => Vu(() => p(!1))), []),
               (0, n.useEffect)(() => {
                 const u = b.current;
                 if (!u) return;
@@ -2189,8 +2171,8 @@
                 switch (C) {
                   case "play":
                     return (function () {
-                      const u = Ju(c, F, r),
-                        e = Qu(c, F),
+                      const u = Xu(c, F, r),
+                        e = Zu(c, F),
                         n = window.setInterval(() => {
                           const a = e(),
                             r = u.get(a);
@@ -2209,7 +2191,7 @@
                       const u = 0 === c && g ? { path: g, x: 0, y: 0 } : r(c),
                         e = new Image();
                       e.src = u.path;
-                      const n = () => t(Xu(u, e));
+                      const n = () => t(Qu(u, e));
                       return (
                         e.addEventListener("load", n),
                         () => e.removeEventListener("load", n)
@@ -2218,25 +2200,25 @@
                   default:
                     return console.error("[CanvasSequence] Unreachable state!");
                 }
-              }, [E, r, c, F, d, s, m, _, g, C, f]),
-              a().createElement("canvas", Yu({}, h, { width: e, height: t, ref: b }))
+              }, [E, r, c, F, d, s, m, _, g, C]),
+              a().createElement("canvas", Ku({}, h, { width: e, height: t, ref: b }))
             );
           }),
-          Qu = (u, e) => {
+          Zu = (u, e) => {
             let t = u;
             return () => {
               const n = t;
               return ((t += 1), t > e && (t = u), n);
             };
           },
-          Xu = (u, e) => Object.assign({}, u, { img: e }),
-          Ju = (u, e, t) => {
+          Qu = (u, e) => Object.assign({}, u, { img: e }),
+          Xu = (u, e, t) => {
             const n = new Map(),
               a = {};
             for (let r = u; r <= e; r++) {
               const u = t(r),
                 e = a[u.path];
-              if (e) n.set(r, Xu(u, e));
+              if (e) n.set(r, Qu(u, e));
               else {
                 const e = new Image();
                 ((a[u.path] = e),
@@ -2248,15 +2230,15 @@
                       `(${u.x},${u.y})`,
                     );
                   }),
-                  n.set(r, Xu(u, e)));
+                  n.set(r, Qu(u, e)));
               }
             }
             return n;
           },
-          ue = "Shine_base_de925";
-        function ee() {
+          Ju = "Shine_base_de925";
+        function ue() {
           return (
-            (ee = Object.assign
+            (ue = Object.assign
               ? Object.assign.bind()
               : function (u) {
                   for (var e = 1; e < arguments.length; e++) {
@@ -2265,32 +2247,32 @@
                   }
                   return u;
                 }),
-            ee.apply(null, arguments)
+            ue.apply(null, arguments)
           );
         }
-        const te = {
+        const ee = {
           width: 400,
           height: 400,
           frameCount: 50,
           chunk: { count: 2, rows: 5, columns: 5 },
           getChunkPath:
-            ((ne = "R.images.gui.maps.icons.sequence.sun_shine_big_sprite.sprite_"),
-            (u) => `${ne}${u}`),
+            ((te = "R.images.gui.maps.icons.sequence.sun_shine_big_sprite.sprite_"),
+            (u) => `${te}${u}`),
         };
-        var ne;
-        const ae = ({ duration: u, isPlaying: e, onAnimationComplete: t, className: r }) => {
+        var te;
+        const ne = ({ duration: u, isPlaying: e, onAnimationComplete: t, className: r }) => {
             const i = (function (u = {}, e = []) {
                 var t, a, r, i;
-                const s = (0, n.useState)(null != (t = u.state) ? t : qu),
+                const s = (0, n.useState)(null != (t = u.state) ? t : Uu),
                   o = s[0],
                   E = s[1],
-                  A = (0, n.useState)(null != (a = u.initialFrameIndex) ? a : zu),
+                  A = (0, n.useState)(null != (a = u.initialFrameIndex) ? a : ju),
                   c = A[0],
                   l = A[1],
-                  F = (0, n.useState)(null != (r = u.frameTime) ? r : ju),
+                  F = (0, n.useState)(null != (r = u.frameTime) ? r : Vu),
                   D = F[0],
                   d = F[1],
-                  B = (0, n.useState)(null != (i = u.loop) ? i : Uu),
+                  B = (0, n.useState)(null != (i = u.loop) ? i : zu),
                   C = B[0],
                   _ = B[1],
                   m = (0, n.useRef)(c),
@@ -2345,21 +2327,21 @@
               }, [E, e, i]),
               a().createElement(
                 k.animated.div,
-                { style: o, className: p()(ue, r) },
+                { style: o, className: p()(Ju, r) },
                 a().createElement(
-                  Zu,
-                  ee({}, i.props, {
-                    width: te.width,
-                    height: te.height,
-                    frameCount: te.frameCount,
+                  Yu,
+                  ue({}, i.props, {
+                    width: ee.width,
+                    height: ee.height,
+                    frameCount: ee.frameCount,
                     frameTime: 50,
-                    getImageSource: Gu(te),
+                    getImageSource: qu(ee),
                   }),
                 ),
               )
             );
           },
-          re = (0, E.Pi)(
+          ae = (0, E.Pi)(
             ({ isVisible: u, onAppearAnimationEnd: e, onHideAnimationEnd: t, className: r }) => {
               const i = v().model,
                 s = i.computes.firstAchievement(),
@@ -2405,7 +2387,7 @@
               return a().createElement(
                 "div",
                 { className: p()(Wu, r) },
-                a().createElement(ae, {
+                a().createElement(ne, {
                   duration: 700,
                   isPlaying: A,
                   onAnimationComplete: () => {
@@ -2432,21 +2414,21 @@
               var _, m;
             },
           ),
-          ie = "Background_base_e11fb",
-          se = "Background_gradient_b312e",
-          oe = "Background_base__hover_a85f1",
-          Ee = "Background_icon_c7e5e",
-          Ae = "Background_pattern_f2dc6",
-          ce = ({ isTrophy: u, isHover: e, className: t }) =>
+          re = "Background_base_e11fb",
+          ie = "Background_gradient_b312e",
+          se = "Background_base__hover_a85f1",
+          oe = "Background_icon_c7e5e",
+          Ee = "Background_pattern_f2dc6",
+          Ae = ({ isTrophy: u, isHover: e, className: t }) =>
             a().createElement(
               "div",
-              { className: p()(ie, e && oe, t) },
-              a().createElement("div", { className: se }),
-              u && a().createElement("div", { className: Ee }),
-              a().createElement("div", { className: Ae }),
+              { className: p()(re, e && se, t) },
+              a().createElement("div", { className: ie }),
+              u && a().createElement("div", { className: oe }),
+              a().createElement("div", { className: Ee }),
             ),
-          le = "FormatText_base_f27a4",
-          Fe = ({
+          ce = "FormatText_base_f27a4",
+          le = ({
             binding: u,
             text: e = "",
             classMix: t,
@@ -2461,7 +2443,7 @@
               s.split("\n").map((e, i) =>
                 a().createElement(
                   "div",
-                  { className: p()(le, t), key: `${e}-${i}` },
+                  { className: p()(ce, t), key: `${e}-${i}` },
                   ((u, e, t) =>
                     u.split(/%\((.*?)\)(?:[sd])?/g).map((u) => (t && u in t ? t[u] : ou(u, e))))(
                     e,
@@ -2472,11 +2454,11 @@
               ),
             );
           },
-          De = "TextOverflow_base_f252d",
-          de = ["content", "classMix", "className"];
-        function Be() {
+          Fe = "TextOverflow_base_f252d",
+          De = ["content", "classMix", "className"];
+        function de() {
           return (
-            (Be = Object.assign
+            (de = Object.assign
               ? Object.assign.bind()
               : function (u) {
                   for (var e = 1; e < arguments.length; e++) {
@@ -2485,10 +2467,10 @@
                   }
                   return u;
                 }),
-            Be.apply(null, arguments)
+            de.apply(null, arguments)
           );
         }
-        const Ce = (u) => {
+        const Be = (u) => {
             let e = u.content,
               t = u.classMix,
               r = u.className,
@@ -2501,14 +2483,27 @@
                     t[n] = u[n];
                   }
                 return t;
-              })(u, de);
+              })(u, De);
             const s = (0, n.useRef)(null),
               o = (0, n.useState)(!0),
               E = o[0],
               A = o[1];
             return (
               (0, n.useEffect)(() =>
-                Vu(() => {
+                ((u) => {
+                  let e,
+                    t = null;
+                  return (
+                    (t = requestAnimationFrame(() => {
+                      t = requestAnimationFrame(() => {
+                        ((t = null), (e = u()));
+                      });
+                    })),
+                    () => {
+                      ("function" == typeof e && e(), null !== t && cancelAnimationFrame(t));
+                    }
+                  );
+                })(() => {
                   const u = s.current;
                   u && u.offsetWidth >= u.scrollWidth && A(!1);
                 }),
@@ -2516,16 +2511,16 @@
               a().createElement(
                 H,
                 { isEnabled: E, body: e },
-                a().createElement("div", Be({}, i, { ref: s, className: p()(De, r, t) }), e),
+                a().createElement("div", de({}, i, { ref: s, className: p()(Fe, r, t) }), e),
               )
             );
           },
-          _e = "Details_base_e4643",
-          me = "Details_title_a5bfa",
-          ge = "Details_description_fe0fb",
-          he = R.strings.advanced_achievements,
-          be = R.strings.achievements_page.earningNotification,
-          ve = (0, E.Pi)(({ className: u }) => {
+          Ce = "Details_base_e4643",
+          _e = "Details_title_a5bfa",
+          me = "Details_description_fe0fb",
+          ge = R.strings.advanced_achievements,
+          he = R.strings.achievements_page.earningNotification,
+          be = (0, E.Pi)(({ className: u }) => {
             const e = v().model,
               t = e.computes.achievementsList(),
               n = e.computes.firstAchievement(),
@@ -2542,9 +2537,9 @@
                         stage: e,
                       }),
                     );
-              })(i, s, he.name.$dyn(r)),
+              })(i, s, ge.name.$dyn(r)),
               A = ((u, e, t) => {
-                const n = e ? be.trophy : be.achievement;
+                const n = e ? he.trophy : he.achievement;
                 return t > 1
                   ? {
                       title: eu(n.title.multiple(), { count: t }),
@@ -2556,21 +2551,21 @@
               l = A.description;
             return a().createElement(
               "div",
-              { className: p()(_e, u) },
-              a().createElement(Ce, { content: c, classMix: me }),
+              { className: p()(Ce, u) },
+              a().createElement(Be, { content: c, classMix: _e }),
               e.computes.isMultiple()
-                ? a().createElement(Fe, {
+                ? a().createElement(le, {
                     text: l,
-                    binding: { name: a().createElement(Ce, { content: E, classMix: ge }) },
-                    classMix: ge,
+                    binding: { name: a().createElement(Be, { content: E, classMix: me }) },
+                    classMix: me,
                   })
-                : a().createElement(Ce, { content: l, classMix: ge }),
+                : a().createElement(Be, { content: l, classMix: me }),
             );
           }),
-          fe = "Glow_base_b3401",
-          pe = "Glow_glowContainer_e5689",
-          xe = "Glow_glow_e91a3",
-          we = ({ isVisible: u, isHover: e }) => {
+          ve = "Glow_base_b3401",
+          fe = "Glow_glowContainer_e5689",
+          pe = "Glow_glow_e91a3",
+          xe = ({ isVisible: u, isHover: e }) => {
             const t = (0, k.useSpring)(() => ({
                 from: { opacity: 0, x: "120%" },
                 config: { duration: 3500, easing: x.easeOutBack },
@@ -2598,22 +2593,22 @@
               }, [e]),
               a().createElement(
                 "div",
-                { className: fe },
+                { className: ve },
                 a().createElement(
                   k.animated.div,
-                  { style: r, className: pe },
-                  a().createElement("div", { className: xe }),
+                  { style: r, className: fe },
+                  a().createElement("div", { className: pe }),
                 ),
               )
             );
           },
-          ye = { beginning: { x: "0rem" }, end: { x: "-340rem" } },
-          Se = { beginning: { x: "105%", opacity: 1 }, end: { x: "0%", opacity: 1 } },
-          ke = {
+          we = { beginning: { x: "0rem" }, end: { x: "-340rem" } },
+          ye = { beginning: { x: "105%", opacity: 1 }, end: { x: "0%", opacity: 1 } },
+          Se = {
             beginning: (u) => ({ opacity: 0, x: `-${6 * (u + 1)}rem`, y: `-${6 * (u + 1)}rem` }),
             end: { x: "0rem", y: "0rem" },
           },
-          Oe = {
+          ke = {
             base: "Notification_base_a8127",
             base__disabled: "Notification_base__disabled_f6311",
             moveWrapper: "Notification_moveWrapper_bbc98",
@@ -2631,7 +2626,7 @@
             points: "Notification_points_b59a8",
             pointsIcon: "Notification_pointsIcon_dea75",
           },
-          Te = (0, E.Pi)(() => {
+          Oe = (0, E.Pi)(() => {
             const u = v(),
               e = u.model,
               t = u.controls,
@@ -2641,13 +2636,13 @@
               E = r.isTrophy,
               A = !E,
               c = (0, k.useSpring)(() => ({
-                from: ye.beginning,
+                from: we.beginning,
                 config: { duration: 700, easing: x.easeInOutQuad },
               })),
               l = c[0],
               F = c[1],
               D = (0, k.useSpring)(() => ({
-                from: Se.beginning,
+                from: ye.beginning,
                 config: { duration: 700, easing: x.easeInOutQuad },
               })),
               d = D[0],
@@ -2661,7 +2656,7 @@
               g = (0, k.useSprings)(
                 2,
                 (u) => ({
-                  from: ke.beginning(u),
+                  from: Se.beginning(u),
                   config: { duration: 300, easing: x.easeOutCirc },
                 }),
                 [],
@@ -2682,16 +2677,16 @@
               j = () => {
                 if (W) {
                   (T(!1),
-                    s && b.start(ke.beginning),
+                    s && b.start(Se.beginning),
                     y(
                       s
                         ? R.sounds.ach_notification_multi_out()
                         : R.sounds.ach_notification_single_out(),
                     ));
                   const u = s ? 300 : 0;
-                  (F.start({ to: ye.beginning, delay: u }),
+                  (F.start({ to: we.beginning, delay: u }),
                     B.start({
-                      to: Object.assign({}, Se.beginning, { opacity: 0 }),
+                      to: Object.assign({}, ye.beginning, { opacity: 0 }),
                       delay: u,
                       onRest: () => H(!1),
                     }));
@@ -2707,7 +2702,7 @@
               a().createElement(
                 "div",
                 {
-                  className: p()(Oe.base, !O && Oe.base__disabled, E && Oe.base__trophy),
+                  className: p()(ke.base, !O && ke.base__disabled, E && ke.base__trophy),
                   onMouseEnter: () => {
                     (G(!0), P.clear(), M.clear(), y(R.sounds.ach_notification_hover()));
                   },
@@ -2720,32 +2715,32 @@
                 },
                 a().createElement(
                   "div",
-                  { className: Oe.moveWrapper },
+                  { className: ke.moveWrapper },
                   a().createElement(
                     k.animated.div,
-                    { style: d, className: Oe.content },
-                    a().createElement(ce, {
+                    { style: d, className: ke.content },
+                    a().createElement(Ae, {
                       isTrophy: E,
                       isHover: q,
-                      className: p()(Oe.background, Oe.background__1),
+                      className: p()(ke.background, ke.background__1),
                     }),
                     a().createElement("div", {
-                      className: Oe.close,
+                      className: ke.close,
                       onMouseEnter: S.playHighlight,
                       onClick: (u) => {
                         (u.stopPropagation(), H(!1), j(), y(R.sounds.cancelcloseno()));
                       },
                     }),
-                    a().createElement(ve, { className: Oe.details }),
+                    a().createElement(be, { className: ke.details }),
                     A &&
                       a().createElement(
                         k.animated.div,
-                        { style: _, className: Oe.pointsWrapper },
+                        { style: _, className: ke.pointsWrapper },
                         a().createElement(U, {
                           size: V.S48x48,
                           points: i,
-                          className: Oe.points,
-                          classNames: { icon: Oe.pointsIcon },
+                          className: ke.points,
+                          classNames: { icon: ke.pointsIcon },
                         }),
                       ),
                   ),
@@ -2757,40 +2752,40 @@
                       {
                         style: u,
                         key: e,
-                        className: p()(Oe.background, Oe[`background__${e + 2}`]),
+                        className: p()(ke.background, ke[`background__${e + 2}`]),
                       },
-                      a().createElement(ce, { isHover: q }),
+                      a().createElement(Ae, { isHover: q }),
                     ),
                   ),
                 a().createElement(
                   k.animated.div,
-                  { style: l, className: Oe.achievementMoveWrapper },
-                  a().createElement(re, {
+                  { style: l, className: ke.achievementMoveWrapper },
+                  a().createElement(ae, {
                     isVisible: W,
                     onAppearAnimationEnd: () => {
                       (F.start({
-                        to: ye.end,
+                        to: we.end,
                         delay: 50,
                         onRest: () => {
                           (T(!0),
                             A && m.start({ opacity: 1, transform: "scale(1)" }),
-                            s && b.start({ from: { opacity: 1 }, to: ke.end }),
+                            s && b.start({ from: { opacity: 1 }, to: Se.end }),
                             M.run(() => I(!0), 1800),
                             P.run(j, 1e4));
                         },
                       }),
-                        B.start(Se.end));
+                        B.start(ye.end));
                     },
                     onHideAnimationEnd: t.animationShown,
-                    className: Oe.achievement,
+                    className: ke.achievement,
                   }),
                 ),
-                a().createElement(we, { isVisible: L, isHover: q }),
+                a().createElement(xe, { isVisible: L, isHover: q }),
               )
             );
           }),
-          Pe = "App_base_d4625",
-          Me = (0, E.Pi)(() => {
+          Te = "App_base_d4625",
+          Pe = (0, E.Pi)(() => {
             const u = v().model,
               e = u.root.get().isAnimationPlaying,
               t = u.computes.achievementsList();
@@ -2818,14 +2813,14 @@
               }, i),
               a().createElement(
                 "div",
-                { className: Pe },
-                t.length > 0 && a().createElement(Te, { key: u.computes.notificationUniqueKey() }),
+                { className: Te },
+                t.length > 0 && a().createElement(Oe, { key: u.computes.notificationUniqueKey() }),
               )
             );
           });
         engine.whenReady.then(() => {
           i().render(
-            a().createElement(b, null, a().createElement(Me, null)),
+            a().createElement(b, null, a().createElement(Pe, null)),
             document.getElementById("root"),
           );
         });

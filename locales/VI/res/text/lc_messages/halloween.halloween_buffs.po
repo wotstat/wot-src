@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Giảm {{@ class $highlightClass}}%(generalValue)s%%{{/}} độ phân tán của súng lúc di chuyển, quay thân và tháp pháo."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s độ phân tán lúc di chuyển\nvà quay thân."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Giảm\nđộ phân tán của súng."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Giảm độ phân tán của súng lúc di chuyển, quay thân và tháp pháo."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Bắn tỉa"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Khiến xe của bạn hoàn toàn {{@ class $highlightClass}}miễn nhiễm{{/}} với {{@ class $highlightClass}}thiệt hại từ các vụ nổ{{/}} gây ra bởi Hedgehog và Alpha Hedgehog.\nXe vẫn sẽ chịu sát thương khi Hedgehog đâm/húc."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Khiến xe của bạn miễn nhiễm\nthiệt hại từ các vụ nổ bởi Hedgehog."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Bảo vệ xe của bạn khỏi thiệt hại do Hedgehog phát nổ gây ra."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Khiến xe của bạn hoàn toàn miễn nhiễm với thiệt hại từ các vụ nổ gây ra bởi Hedgehog và Alpha Hedgehog.\nXe vẫn sẽ chịu sát thương khi Hedgehog đâm/húc."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Miễn nhiễm nổ"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Loại bỏ biên độ sát thương lý thuyết {{@ class $highlightClass}}±25%{{/}}, giúp phát bắn dễ dự đoán tác động hơn."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Phát bắn không bị dao động\nsát thương ±25%%."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Phát bắn không bị dao động sát thương ±25%."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Loại bỏ biên độ sát thương lý thuyết ±25%, giúp phát bắn dễ dự đoán tác động hơn."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Thiệt hại kiểm soát"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Giảm {{@ class $highlightClass}}%(mitigation)s%%{{/}} sát thương hứng chịu* (gồm cả từ đạn bắn, lửa, đâm/húc, vùng chết, pha ăn mòn Corrosion, thiệt hại mô-đun, v.v.).\n*Không áp dụng cho thiệt hại vì rơi rớt và trong pha Execution."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s thiệt hại phải nhận."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Giảm sát thương nhận vào."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Giảm sát thương hứng chịu* (gồm cả từ đạn bắn, lửa, đâm/húc, vùng chết, pha ăn mòn Corrosion, thiệt hại mô-đun, v.v.).\n*Không áp dụng cho thiệt hại vì rơi rớt và trong pha Execution."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Hấp thụ sát thương"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Đem lại xác suất {{@ class $highlightClass}}%(chance)s%%{{/}} khôi phục {{@ class $highlightClass}}%(heal)s{{/}} sức kháng cự cho xe của bạn khi sát thương xe địch bằng cách bắn."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s xác suất hồi HP\nkhi gây sát thương bằng cách bắn."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Có thể khôi phục sức kháng cự\nkhi sát thương bằng cách bắn."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Đem lại xác suất cơ hội khôi phục sức kháng cự cho xe của bạn khi sát thương xe địch bằng cách bắn."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Ma cà rồng"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Tăng {{@ class $highlightClass}}%(health)s%%{{/}} sức kháng cự cho xe của bạn."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s sức kháng cự cho xe."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Tăng\nsức kháng cự của xe."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Tăng sức kháng cự cho xe."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Độ bền"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Tăng {{@ class $highlightClass}}%(chance)s%%{{/}} xác suất làm cháy xe địch khi sát thương nó bằng cách bắn."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)sxác suất làm\ncháy xe địch."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Tăng\nxác suất làm cháy."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Tăng xác suất làm cháy xe địch khi sát thương nó bằng cách bắn."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Kim Nóng"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Tăng {{@ class $highlightClass}}%(damageFactor)s%%{{/}} sát thương gây ra cho xe địch."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s sát thương gây ra."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Tăng\nsát thương gây ra."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Tăng sát thương gây ra."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Lõi Sứ"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Tăng {{@ class $highlightClass}}%(reloadTime)s%%{{/}} tốc độ nạp đạn."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s tốc độ nạp đạn."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Tăng\ntốc độ nạp đạn."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Tăng tốc độ nạp đạn."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Súng Máy"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Khôi phục dần sức kháng cự cho xe của bạn đến mức tối đa.\nQuá trình khôi phục bị vô hiệu khi hứng chịu thiệt hại."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Khôi phục dần\nsức kháng cự cho xe của bạn."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Khôi phục\nHP"
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Khôi phục dần sức kháng cự cho xe của bạn đến mức tối đa. Quá trình khôi phục bị vô hiệu khi hứng chịu thiệt hại."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Tái tạo"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Khiến sức chứa Mirium của xe trong trận thành {{@ class $highlightClass}}vô hạn{{/}}."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Khiến sức chứa Mirium của xe trong trận thành vô hạn."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Khiến sức chứa Mirium của xe trong trận thành vô hạn."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Khiến sức chứa Mirium của xe trong trận thành vô hạn."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Hút vô tận"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Tăng {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}} khoản tăng hiệu suất kíp lái cho mọi thành viên tổ lính."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s cho khoản tăng hiệu suất kíp lái."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Tăng hiệu suất\nkíp lái."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Tăng hiệu suất kíp lái."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Tiếp Nhuệ khí"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Nếu địch còn {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} HP trở xuống sau khi trúng đạn của bạn, kẻ đó sẽ bị phá hủy ngay lập tức.\nTrùm miễn nhiễm hiệu ứng này."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Địch còn %(value)s HP trở xuống sau phát bắn\ncủa bạn sẽ bị phá hủy ngay lập tức."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Địch còn ít HP sau phát bắn của bạn sẽ bị phá hủy ngay lập tức."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Nếu địch còn ít HP sau khi trúng đạn của bạn, kẻ đó sẽ bị phá hủy ngay lập tức.\nTrùm miễn nhiễm hiệu ứng này."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Dứt điểm"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Tăng tốc độ tối đa của xe khi tiến và lùi."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Tăng tốc độ tối đa của xe\nkhi tiến và lùi."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Tăng tốc độ tối đa của xe khi tiến và lùi."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Tăng tốc độ tối đa của xe khi tiến và lùi."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Tông tắc"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Tăng {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}} lượng Mirium nhận được khi sát thương địch trong trận."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s vào Mirium nhận được\ntừ địch."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Tăng Mirium nhận được từ địch."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Tăng lượng Mirium nhận được khi sát thương địch trong trận."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Chiết xuất Mirium"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Tăng {{@ class $highlightClass}}%(miriumAmount)s{{/}} sức chứa Mirium tối đa của xe trong trận."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s dung lượng Mirium tối đa."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Tăng dung lượng Mirium tối đa."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Tăng dung lượng lưu trữ Mirium tối đa của xe trong trận."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Thu rộng"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Toàn bộ Mirium sẽ được giữ lại khi tái xuất nếu xe bị phá hủy trong trận."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Toàn bộ Mirium được giữ lại trên xe\nsau khi hồi sinh."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Giữ lại toàn bộ Mirium sau khi hồi sinh."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Giữ lại toàn bộ Mirium sau khi hồi sinh."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Thần canh Mirium"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Giảm {{@ class $highlightClass}}%(cost)s%%{{/}} chi phí Mirium của các Khả năng Chiến đấu trong trận."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s chi phí Mirium của các khả năng."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Giảm chi phí Mirium của các khả năng."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Giảm đáng kể chi phí Mirium của các Khả năng Chiến đấu trong trận."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Hiệu suất Mirium"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Hoàn lại {{@ class $highlightClass}}%(refundAmount)s%%{{/}} chi phí Mirium của Khả năng Chiến đấu khi sử dụng."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "Hồi phục %(value)s Mirium\nkhi sử dụng khả năng."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Phục hồi một phần Mirium khi sử dụng khả năng."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Hoàn lại một phần Mirium tiêu hao khi dùng Khả năng Chiến đấu."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Hoàn Mirium"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Tăng {{@ class $highlightClass}}%(power)s%%{{/}} công suất động cơ và {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}} tốc độ quay tháp pháo."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s công suất động cơ."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s tốc độ quay tháp pháo."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Tăng công suất động cơ\nvà tốc độ xoay tháp pháo."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Tăng công suất động cơ và tốc độ xoay tháp pháo."
+
+msgid "buffs/buffMobility/header"
+msgstr "Di động"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Khiến mọi mô-đun của xe miễn nhiễm mọi loại thiệt hại."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Khiến mọi mô-đun của xe miễn nhiễm\nmọi loại thiệt hại."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Bảo vệ mô-đun\nkhỏi thiệt hại."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Khiến mọi mô-đun của xe miễn nhiễm mọi loại thiệt hại."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Mô-đun Bất tử"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Dị điểm mặc định của Malachite, luôn hoạt động."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Tăng khả năng xuyên giáp của mọi loại đạn thêm {{@ class $highlightClass}}%(shellPen)s%%{{/}}."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s độ xuyên của đạn."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Tăng khả năng xuyên giáp của tất cả đạn."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Tăng khả năng xuyên giáp của tất cả đạn."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Đạn xuyên phá"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Toàn bộ đạn loại thay thế, dễ xoay chuyển tình huống sẽ được giữ lại khi tái xuất nếu xe bị phá hủy trong trận."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Tất cả đạn loại thay thế, dễ xoay chuyển tình huống đều được giữ nguyên\nsau khi hồi sinh."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Giữ lại tất cả đạn loại thay thế, dễ xoay chuyển tình huống sau khi hồi sinh."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Toàn bộ đạn loại thay thế, dễ xoay chuyển tình huống sẽ được giữ lại khi tái xuất nếu xe bị phá hủy trong trận."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Đạn đổ vỏ"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Tăng {{@ class $highlightClass}}%(soulsBonus)s{{/}} Mirium nhận được đầu mỗi pha mới hoặc sau khi hồi sinh. Tăng {{@ class $highlightClass}}%(miriumAmount)s{{/}} sức chứa Mirium tối đa của xe trong trận."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s Mirium nhận được ở pha mới\nhoặc sau khi hồi sinh."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s dung lượng Mirium tối đa."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Tăng sức chứa Mirium và lượng Mirium nhận được ở đầu pha mới hoặc sau khi hồi sinh."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Tăng Mirium nhận được đầu mỗi pha mới hoặc sau khi hồi sinh. Tăng sức chứa Mirium tối đa của xe trong trận."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Đệm Mirium"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Tăng thời lượng Turbo thêm {{@ class $highlightClass}}%(timeLength)s%%{{/}} và giảm  {{@ class $highlightClass}}%(reloadTime)s giây{{/}} thời gian hồi phục."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s thời lượng Turbo."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s giây thời gian hồi Turbo."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Tăng thời lượng Turbo và giảm thời gian hồi phục."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Tăng thời lượng Turbo và giảm thời gian hồi phục."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Cường Turbo"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Cho xác suất gây ra một lượng sát thương cụ thể khi bắn:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} gây {{@ class $highlightClass}}%(damage1)s%%{{/}} thiệt hại;\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} gây {{@ class $highlightClass}}%(damage2)s%%{{/}} thiệt hại;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} gây {{@ class $highlightClass}}%(damage3)s%%{{/}} thiệt hại;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} gây {{@ class $highlightClass}}%(damage4)s%%{{/}} thiệt hại."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Sát thương phát bắn dao động từ thấp\nđến cực cao."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Sát thương phát bắn dao động từ thấp đến cực cao."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Cho xác suất gây ra lượng sát thương thấp hơn bình thường hoặc cực cao."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Đạn lượng tử"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Chi tiết"

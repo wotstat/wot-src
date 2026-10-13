@@ -39,8 +39,8 @@
         }
         (t.r(i),
           t.d(i, {
-            addModelObserver: () => X,
-            addPreloadTexture: () => U,
+            addModelObserver: () => W,
+            addPreloadTexture: () => V,
             arabic2roman: () => iu,
             children: () => o,
             displayStatus: () => P,
@@ -50,7 +50,7 @@
             extraSize: () => su,
             forceTriggerMouseMove: () => nu,
             freezeTextureBeforeResize: () => H,
-            getBrowserTexturePath: () => W,
+            getBrowserTexturePath: () => z,
             getDisplayStatus: () => ru,
             getExternalPaddingsRem: () => au,
             getFontNames: () => ou,
@@ -63,11 +63,11 @@
             pxToRem: () => Z,
             remToPx: () => Q,
             resize: () => G,
-            sendEvent: () => q,
+            sendEvent: () => $,
             setAnimateWindow: () => J,
             setEventHandled: () => eu,
-            setInputPaddingsRem: () => $,
-            setSidePaddingsRem: () => z,
+            setInputPaddingsRem: () => U,
+            setSidePaddingsRem: () => X,
             whenTutorialReady: () => Au,
           }));
         const s = a("clientResized"),
@@ -239,7 +239,7 @@
             return viewEnv.handleViewEvent({ __Type: t, type: u });
             var n;
           },
-          q = {
+          $ = {
             close(u) {
               I("popover" === u ? N : M);
             },
@@ -250,21 +250,21 @@
               I(L, { isMouseEvent: !0, on: u });
             },
           },
-          V = 15;
-        function U(u) {
+          q = 15;
+        function V(u) {
           viewEnv.addPreloadTexture(u);
         }
-        function $(u) {
-          viewEnv.setHitAreaPaddingsRem(u, u, u, u, V);
+        function U(u) {
+          viewEnv.setHitAreaPaddingsRem(u, u, u, u, q);
         }
-        function W(u, e, t, n = 1) {
+        function z(u, e, t, n = 1) {
           return viewEnv.getWebBrowserTexturePath(u, e, t, n);
         }
-        function X(u, e, t) {
+        function W(u, e, t) {
           return viewEnv.addDataChangedCallback(u, e, t);
         }
-        function z(u) {
-          viewEnv.setHitAreaPaddingsRem(u.top, u.right, u.bottom, u.left, V);
+        function X(u) {
+          viewEnv.setHitAreaPaddingsRem(u.top, u.right, u.bottom, u.left, q);
         }
         function j(u = "px") {
           return "rem" === u ? viewEnv.getViewSizeRem() : viewEnv.getViewSizePx();
@@ -1034,26 +1034,26 @@
         var I = t(7085);
         s.Sw.instance;
         s.Sw.instance;
-        const q = S,
-          V = "Countdown_base_d0c0c",
-          U = "Countdown_icon_a453a",
-          $ = "Countdown_description_ee2e0",
-          W = (u) => u.toString().padStart(2, "0"),
-          X = (u, e) => {
+        const $ = S,
+          q = "Countdown_base_d0c0c",
+          V = "Countdown_icon_a453a",
+          U = "Countdown_description_ee2e0",
+          z = (u) => u.toString().padStart(2, "0"),
+          W = (u, e) => {
             switch (e) {
               case B.Description:
                 return L(u);
               case B.Short:
-                return `${W(u.minutes)}:${W(u.seconds)}`;
+                return `${z(u.minutes)}:${z(u.seconds)}`;
               case B.Long:
-                return `${W(u.hours)}:${W(u.minutes)}:${W(u.seconds)}`;
+                return `${z(u.hours)}:${z(u.minutes)}:${z(u.seconds)}`;
               case B.Extended:
-                return `${m(R.strings.common.duration.days(), { days: u.days })} | ${W(u.hours)}:${W(u.minutes)}:${W(u.seconds)}`;
+                return `${m(R.strings.common.duration.days(), { days: u.days })} | ${z(u.hours)}:${z(u.minutes)}:${z(u.seconds)}`;
             }
           },
-          z = R.images.gui.maps.icons.components.countdown,
+          X = R.images.gui.maps.icons.components.countdown,
           j = (u, e) => {
-            const t = 2 === e ? z.big : z;
+            const t = 2 === e ? X.big : X;
             switch (u) {
               case l.Timer:
                 return t.clock();
@@ -1075,7 +1075,7 @@
                 classNames: s = {},
               }) => {
                 const A = null != i ? i : t !== B.Description ? 1 : void 0,
-                  F = q(u, A),
+                  F = $(u, A),
                   c = (() => {
                     const u = (0, n.useState)(I.O.view.getScale()),
                       e = u[0],
@@ -1096,16 +1096,16 @@
                     );
                   })();
                 o && o[F] && o[F]();
-                const D = X(N(F), t);
+                const D = W(N(F), t);
                 return r().createElement(
                   "div",
-                  { className: E()(V, a) },
+                  { className: E()(q, a) },
                   e !== l.None &&
                     r().createElement("div", {
-                      className: E()(U, s.icon),
+                      className: E()(V, s.icon),
                       style: { backgroundImage: `url('${j(e, c)}')` },
                     }),
-                  r().createElement("div", { className: E()($, s.text) }, D),
+                  r().createElement("div", { className: E()(U, s.text) }, D),
                 );
               },
             ),
@@ -1502,11 +1502,11 @@
               v = o.minBonus.get(),
               g = o.maxBonus.get(),
               b = Math.max(0, Math.floor((1e3 * o.inactivationTime.get() - Date.now()) / 1e3)),
-              f = q(b, 1),
+              f = $(b, 1),
               w = L(N(f), !1),
               h = o.state.get() === Y.Active && f > 0,
               y = Math.max(0, Math.floor((1e3 * o.nextExpirationTime.get() - Date.now()) / 1e3)),
-              x = q(y, 1),
+              x = $(y, 1),
               k = y < P,
               T = k ? O(x) : L(N(x), !1),
               M =
@@ -1521,10 +1521,10 @@
                 R.images.gui.maps.icons.personal_reserves.tooltips[
                   k ? "expirable_glow_today" : "expirable_glow_soon"
                 ](),
-              V = R.strings.tooltips.boostersWindow.booster.activateInfo.bonusValueTime.$dyn(
+              q = R.strings.tooltips.boostersWindow.booster.activateInfo.bonusValueTime.$dyn(
                 n.primitives.reserveKind.get(),
               ),
-              U = {
+              V = {
                 effectValue: r().createElement(
                   "span",
                   { className: au.bonus },
@@ -1536,17 +1536,17 @@
                 effectTime: r().createElement(
                   "span",
                   null,
-                  X(N(o.totalDuration.get()), B.Description),
+                  W(N(o.totalDuration.get()), B.Description),
                 ),
               },
-              $ = {
+              U = {
                 amount: r().createElement("span", { className: au.stock_amount }, p),
                 icon: r().createElement("img", {
                   className: au.stock_icon,
                   src: R.images.gui.maps.icons.personal_reserves.tooltips.icon_normal(),
                 }),
               },
-              W = {
+              z = {
                 amount: r().createElement("span", { className: au.stock_amount }, d),
                 icon: r().createElement(
                   r().Fragment,
@@ -1561,7 +1561,7 @@
                   }),
                 ),
               },
-              z = { time: r().createElement("span", { className: au.status_timeLeftLabel }, w) },
+              X = { time: r().createElement("span", { className: au.status_timeLeftLabel }, w) },
               j = {
                 count: r().createElement("span", { className: au.expiration_timer_count }, m),
                 time: r().createElement(
@@ -1594,7 +1594,7 @@
               r().createElement(
                 "div",
                 { className: au.effect },
-                r().createElement(K, { text: V, binding: U }),
+                r().createElement(K, { text: q, binding: V }),
               ),
               r().createElement("div", { className: au.line }),
               r().createElement(
@@ -1631,7 +1631,7 @@
                     { className: au.stock_item },
                     r().createElement(K, {
                       text: `%(amount)%(icon)${R.strings.tooltips.boostersWindow.booster.activateInfo.nonExpirableReserves()}`,
-                      binding: $,
+                      binding: U,
                     }),
                   ),
                 Boolean(d) &&
@@ -1640,7 +1640,7 @@
                     { className: au.stock_item },
                     r().createElement(K, {
                       text: `%(amount)%(icon)${R.strings.tooltips.boostersWindow.booster.activateInfo.expirableReserves()}`,
-                      binding: W,
+                      binding: z,
                     }),
                   ),
               ),
@@ -1712,7 +1712,7 @@
                         { className: au.status_timeLeft },
                         r().createElement(K, {
                           text: R.strings.tooltips.boostersWindow.booster.activateInfo.timeLeft(),
-                          binding: z,
+                          binding: X,
                         }),
                       ),
                     )
@@ -1762,6 +1762,11 @@
           const A = r().useRef(null);
           var F;
           return (
+            (0, n.useLayoutEffect)(() => {
+              const u = I.O.client.getSize("rem");
+              ((document.body.style.width = `${u.width}rem`),
+                (document.body.style.height = `${u.height}rem`));
+            }, []),
             (F = () => {
               const u = A.current;
               if (!u)
@@ -1771,7 +1776,9 @@
               const e = new ResizeObserver(() => {
                 const e = u.scrollWidth,
                   t = u.scrollHeight;
-                I.O.view.resize(e, t);
+                (I.O.view.resize(e, t),
+                  (document.body.style.width = `${e}px`),
+                  (document.body.style.height = `${t}px`));
                 const n = window.getComputedStyle(u);
                 I.O.view.setSidePaddingsRem({
                   left: parseInt(n.getPropertyValue("padding-left"), 10),

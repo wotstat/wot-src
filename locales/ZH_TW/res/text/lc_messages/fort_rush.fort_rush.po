@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "所有數據區塊已完成！"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "數據區塊 {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "控制天線。守住網路。確保通訊。"
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "模式將可用"
+
+msgid "bannerTooltip/header"
+msgstr "黑色信號"
+
+msgid "bannerTooltip/mode"
+msgstr "模式"
+
+msgid "bannerTooltip/modeHint"
+msgstr "— 切換為另一個遊戲模式"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "您的電腦效能不足以執行此模式。您將遇到圖形運算及車輛移動相關問題。遊戲客戶端很有可能會當掉。"
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "在效能不足的情況下，可嘗試降低畫質設定。"
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "這個模式需要較高的電腦效能。您可能遇到地圖載入、畫質及車輛移動的問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "效能不足"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "此模式需要一定的電腦效能"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "效能偏低"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "恢復的血量"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "行動積分"
+
+msgid "battleLoading/description"
+msgstr "控制天線。守住網路。確保通訊。"
+
+msgid "battleLoading/header"
+msgstr "黑色信號"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "佔領天線可為您的車輛恢復少量血量。利用此加成來守住陣地並為反擊做好準備。"
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "固守與恢復"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "當天線範圍內有敵方車輛時，無法佔領天線。解決入侵者以繼續固守目標。"
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "爭奪佔領"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "重新部署後，您的車輛將在 10 秒內免受傷害。利用這段時間返回戰圈或尋找掩護。"
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "重新部署保護"
+
+msgid "battleQueue/title"
+msgstr "黑色信號"
+
+msgid "capturingIndicator/captured"
+msgstr "天線已佔領"
+
+msgid "capturingIndicator/capturing"
+msgstr "正在佔領天線"
+
+msgid "capturingIndicator/contesting"
+msgstr "正在爭奪天線"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "正在中斷佔領天線"
+
+msgid "endGame/reason/210"
+msgstr "雙方隊伍達到信號點數上限"
+
+msgid "endGame/reason/3"
+msgstr "已達時間限制"
+
+msgid "endGame/reason/6/lose"
+msgstr "敵方隊伍達到信號點數上限"
+
+msgid "endGame/reason/6/win"
+msgstr "我方隊伍達到信號點數上限"
+
+msgid "endGame/reason/7"
+msgstr "已達時間限制"
+
+msgid "notifications/progression/header"
+msgstr "恭喜!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "詳情"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "完成進度階段&nbsp;%(stageIdx)s 的獎勵：%(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "所有數據區塊已完成。"
+
+msgid "progression/completedTitle"
+msgstr "進度已完成！"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "剩餘時間："
+
+msgid "progression/dailyMissions/title"
+msgstr "戰地命令"
+
+msgid "progression/description"
+msgstr "在「黑色信號」戰鬥中完成每日任務來推進進度。"
+
+msgid "progression/info_button/body"
+msgstr "點擊以查看額外資訊"
+
+msgid "progression/info_button/header"
+msgstr "關於黑色信號"
+
+msgid "progression/widget/stageLabel"
+msgstr "數據區塊 %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "您已完成所有數據區塊！"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "已完成"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "數據區塊獎勵"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "當前數據區塊"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "每日任務重置於："
+
+msgid "progression/widget/tooltip/title"
+msgstr "黑色信號"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "當前進度"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "進度暫時無法使用。"
+
+msgid "progression/widget/unavailable"
+msgstr "進度無法使用"
+
+msgid "progressionView/stateHeader"
+msgstr "「黑色信號」進度"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "取消"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "您的隊伍仍需要您！若您離開戰鬥，您的隊伍將陷入劣勢，同時您將不會獲得任何獎勵，也無法推進任務進度。"
+
+msgid "quitBattle/leaver/submit"
+msgstr "離開"
+
+msgid "quitBattle/leaver/title"
+msgstr "您將離開戰鬥"
+
+msgid "respawnTimer/description"
+msgstr "重新部署到不同位置，能為您帶來戰略優勢。"
+
+msgid "respawnTimer/title"
+msgstr "部署於："
+
+msgid "rewardScreen/button"
+msgstr "了解!"
+
+msgid "rewardScreen/title"
+msgstr "數據區塊獎勵已解鎖"
+
+msgid "timersPanel/invulnerable"
+msgstr "不受傷害"
+
+msgid "tooltips/eventPoints/body"
+msgstr "獲得「數據包」來完成數據區塊並獲取珍貴資源，其中包括一個重要獎勵。可透過造成傷害，在戰鬥中摧毀敵人，佔領點位，以及完成每日任務來獲取數據包。"
+
+msgid "tooltips/eventPoints/header"
+msgstr "數據包"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "所有車輛"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "重置過濾"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "重置過濾以檢視可用車輛"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "此遊玩清單未包含任何適用於此模式的車輛。"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "沒有適合的車輛"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "找不到符合的車輛"
+
+msgid "welcomeScreen/button"
+msgstr "繼續"
+
+msgid "welcomeScreen/description1"
+msgstr "您隸屬於一支裝甲特遣隊，奉命在爭議地區控制並守住一個秘密通訊網路。務必不惜一切代價，確保該網路始終掌握在我方手中。"
+
+msgid "welcomeScreen/description2"
+msgstr "看來有人費盡心思要將這些情報隱藏起來。完成任務以回收加密的情報碎片。"
+
+msgid "welcomeScreen/description3"
+msgstr "透過活動任務完成數據區塊，即可獲得珍貴獎勵。"
+
+msgid "welcomeScreen/header1"
+msgstr "佔領天線"
+
+msgid "welcomeScreen/header2"
+msgstr "解碼通訊"
+
+msgid "welcomeScreen/header3"
+msgstr "進度與獎勵"
+
+msgid "welcomeScreen/title"
+msgstr "黑色信號"

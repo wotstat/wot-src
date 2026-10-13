@@ -280,6 +280,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Chassis_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Chassis_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Chassis_G122_VK6501H"
 msgstr "VK 65.01 (H)"
 
@@ -509,7 +512,7 @@ msgid "Chassis_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Chassis_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Chassis_G23_Grille"
 msgstr "Grille"
@@ -549,6 +552,9 @@ msgstr "VK 30.01 (P) verstärkteketten"
 
 msgid "Chassis_G27_VK3001P_2_short"
 msgstr "VK 30.01 (P)\nverstärkteketten"
+
+msgid "Chassis_G28_PzIII_IV"
+msgstr "Pz.Kpfw. III/IV"
 
 msgid "Chassis_G37_Ferdinand"
 msgstr "Ferdinand"
@@ -730,6 +736,9 @@ msgstr "Indien-Panzer"
 msgid "Chassis_G89_Leopard1"
 msgstr "Leopard 1"
 
+msgid "Chassis_G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
 msgid "Chassis_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A1"
 
@@ -892,10 +901,10 @@ msgstr "Continental AOS-895-3"
 msgid "Continental_AOS-895-3_short"
 msgstr "Continental\nAOS-895-3"
 
-msgid "Continental_AVI_1790_8"
+msgid "Continental_AVI_1790_8A"
 msgstr "Continental AVI-1790-8"
 
-msgid "Continental_AVI_1790_8_short"
+msgid "Continental_AVI_1790_8A_short"
 msgstr "Continental\nAVI-1790-8"
 
 msgid "DB_603_A1"
@@ -1548,6 +1557,15 @@ msgstr "Súng tuyệt vời và cơ động tốt"
 
 msgid "G121_Grille_15_L63"
 msgstr "Grille 15"
+
+msgid "G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
+msgid "G121_Grille_15_L63_FR_descr"
+msgstr "Vào mùa hè năm 1942, Waffenamt (Cơ quan Vũ khí Lục quân Đức) đã ký kết thỏa thuận với hai công ty Krupp và Rheinmetall nhằm thiết kế một pháo chống tăng dựa trên khung gầm xe tăng Panther. Theo kế hoạch, chiếc pháo chống tăng này sẽ lắp được súng 128-mm K 43 hoặc pháo nòng ngắn 150-mm sFH 43. Các dự án trên có tên lần lượt là Grille 12 và Grille 15, đặc trưng với khoang chiến đấu đặt phía đuôi và chỉ khác nhau ở loại hệ thống pháo. Về sau, Grille 15 nhận được một khẩu 150 mm với độ dài gấp 63 lần cỡ nòng, có khả năng xuyên thủng 200 mm giáp từ cự ly 4000 m. Tuy nhiên, quá trình phát triển diễn ra quá chậm, khiến Grille 15 chỉ tồn tại trên bản vẽ."
+
+msgid "G121_Grille_15_L63_FR_short"
+msgstr "Grille 15 BS"
 
 msgid "G121_Grille_15_L63_descr"
 msgstr "Vào mùa hè năm 1942, Waffenamt (Cơ quan Vũ khí Lục quân Đức) đã ký kết thỏa thuận với hai công ty Krupp và Rheinmetall nhằm thiết kế một pháo chống tăng dựa trên khung gầm xe tăng Panther. Theo kế hoạch, chiếc pháo chống tăng này sẽ lắp được súng 128-mm K 43 hoặc pháo nòng ngắn 150-mm sFH 43. Các dự án trên có tên lần lượt là Grille 12 và Grille 15, đặc trưng với khoang chiến đấu đặt phía đuôi và chỉ khác nhau ở loại hệ thống pháo. Về sau, Grille 15 nhận được một khẩu 150 mm với độ dài gấp 63 lần cỡ nòng, có khả năng xuyên thủng 200 mm giáp từ cự ly 4000 m. Tuy nhiên, quá trình phát triển diễn ra quá chậm, khiến Grille 15 chỉ tồn tại trên bản vẽ."
@@ -2351,7 +2369,7 @@ msgid "G195_HWK_40_short"
 msgstr "HWK 40"
 
 msgid "G195_HWK_40_short_special"
-msgstr "Cơ động tốt, súng vận hành mượt"
+msgstr "Hệ thống hiệu chuẩn đạn, súng dễ thao tác"
 
 msgid "G196_Versuchspanzer_57"
 msgstr "Versuchspanzer 57"
@@ -2399,16 +2417,16 @@ msgid "G200_Chi_Go_short_special"
 msgstr "Tháp pháo giáp khá tốt, sát thương mỗi phát cao"
 
 msgid "G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_descr"
-msgstr "?empty?"
+msgstr "Pz.Kpfw. VI Ausf.P, được biết đến nhiều hơn với tên gọi VK 45.01 (P) hoặc Porsche Tiger, là một trong những tăng hạng nặng Đức kỳ lạ nhất. Nó có 2 động cơ Typ 101 làm mát bằng không khí và hệ truyền động điện. Cụm động lực phức tạp, thiếu tin cậy khiến chiếc xe không bao giờ đi vào sản xuất hàng loạt, nhưng nhờ Oarai Girls' High School, nó có cơ hội thứ hai. Chiếc tăng được tìm thấy dưới đáy con tàu của trường học và phục chế bởi các thành viên câu lạc bộ ô tô; về sau, họ trở thành kíp lái của nó — Team-Leoponsan. Nhờ kỹ thuật xuất sắc, những cô gái không chỉ duy trì khả năng sẵn sàng chiến đấu của chiếc Porsche Tiger đỏng đảnh, mà còn nâng cấp, lắp đặt nhiều thiết bị cho phép bứt tốc quãng ngắn."
 
 msgid "G204_PzVI_Tiger_P_CFE_A_long_special"
-msgstr "VK 45.01 (P) là tăng hạng nặng Cấp VI của Đức với giáp trước cứng, tự vệ đáng tin cậy trước đạn tiêu chuẩn từ tăng hạng trung và hạng nặng cùng cấp. Súng có DPM tốt, độ xuyên, sát thương mỗi phát mạnh. Dù chậm, nó sở hữu một hệ thống độc đáo: Đẩy mạnh khả năng cơ động trong thời gian ngắn, cho phép bứt phá, đạt tốc độ tối đa nhanh."
+msgstr "Tiger (P) Leoponsan là tăng hạng nặng Cấp VI của Đức với giáp trước cứng, tự vệ đáng tin cậy trước đạn tiêu chuẩn từ tăng hạng trung và hạng nặng cùng cấp. Súng có DPM tốt, độ xuyên, sát thương mỗi phát mạnh. Dù chậm, nó sở hữu một hệ thống độc đáo: Đẩy mạnh khả năng cơ động trong thời gian ngắn, cho phép bứt phá, đạt tốc độ tối đa nhanh."
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leo"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short_special"
 msgstr "Giáp trước cứng, hệ thống cơ động tiên tiến"
@@ -2787,6 +2805,21 @@ msgstr "Indien-Pz."
 
 msgid "G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_descr"
+msgstr "Tuy kỳ vĩ khi nhìn, Automaton không giả tạo thanh lịch. Nó là một con quái vật của sức mạnh thô bạo, các pít-tông đập như máy ép công nghiệp, lỗ xả hơi nổ như xưởng đúc. Sinh ra từ thời đại hơi nước huyền thoại, sống lâu hơn những bàn tay nhuộm khói bụi đã chế tạo nó, vượt trội hơn bao tảng thép khổng lồ ở chiến tranh hiện đại, vốn nhạt nhòa trước sự vĩ đại của bộ máy đồng hồ. Gầm rú vào trận bên cạnh những động cơ mới hơn, và khi sự hỗn loạn chiến tranh nhiên liệu diesel cuối cùng lắng xuống, chỉ còn tiếng lạch cạch đều đặn, không mệt mỏi của Automaton."
+
+msgid "G89_Leopard1_CFE_A_long_special"
+msgstr "Automaton là tăng hạng trung Cấp X của Đức với đặc tính súng gần như hoàn hảo. Không có điểm yếu đáng kể, nó xuất sắc cả tầm xa lẫn đọ súng chớp nhoáng quanh góc đường. Độ cơ động tuyệt vời càng nâng cao hiệu quả, cho phép đảo vị trí nhanh chóng, ảnh hưởng trên mọi khu vực chiến trường."
+
+msgid "G89_Leopard1_CFE_A_short"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_short_special"
+msgstr "Chính xác phi thường, cơ động xuất sắc"
 
 msgid "G89_Leopard1_descr"
 msgstr "Là xe tăng chiến đấu chủ lực của Cộng Hòa Liên Bang Đức. Quá trình phát triển bắt đầu từ năm 1956. Nguyên mẫu đầu tiên được sản xuất vào năm 1965 tại nhà máy Krauss-Maffei. Leopard 1 đã phục vụ trong biên chế quân đội của hơn 10 quốc gia."
@@ -3167,6 +3200,12 @@ msgid "MTU_MB_838_CaM_500"
 msgstr "MTU MB 838 CaM-500"
 
 msgid "MTU_MB_838_CaM_500A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A_short"
 msgstr "MTU MB 838 CaM-500A"
 
 msgid "MTU_MB_838_CaM_500A_short"
@@ -3637,6 +3676,9 @@ msgstr "Maybach Neues Projekt A"
 msgid "Maybach_HL_234P60_short"
 msgstr "Maybach Neues Projekt"
 
+msgid "Maybach_HL_234_FR"
+msgstr "Maybach HL 234"
+
 msgid "Maybach_HL_234_TRM_P30"
 msgstr "Maybach HL 234 TRM P30"
 
@@ -3934,9 +3976,6 @@ msgstr "Pz. 38 (t)"
 msgid "PzI"
 msgstr "Pz.Kpfw. I"
 
-msgid "PzIII-IV"
-msgstr "Pz.Kpfw. III/IV"
-
 msgid "PzIII-IV_ausf_B"
 msgstr "Pz.Kpfw. III/IV verstärkteketten"
 
@@ -4225,6 +4264,9 @@ msgstr "SEM 25"
 msgid "SEM25_1"
 msgstr "SEM 25A"
 
+msgid "SEM25_1_CFE_A"
+msgstr "SEM 25A"
+
 msgid "SEM_25A"
 msgstr "SEM 25A"
 
@@ -4489,6 +4531,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Turret_1_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Turret_1_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Turret_1_G122_VK6501H"
 msgstr "VK 65.01 (H) S.W."
 
@@ -4688,7 +4733,7 @@ msgid "Turret_1_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Turret_1_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P) Turm"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Turret_1_G23_Grille"
 msgstr "Grille"
@@ -4797,6 +4842,9 @@ msgstr "Indien-Panzer"
 
 msgid "Turret_1_G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "Turret_1_G89_Leopard1_CFE_A"
+msgstr "Automaton"
 
 msgid "Turret_1_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A2"
@@ -5170,11 +5218,17 @@ msgstr "10,5 cm Bordkanone L7"
 msgid "_105mm_Bordkanone_L7A3"
 msgstr "10,5 cm Bordkanone L7A3"
 
+msgid "_105mm_Bordkanone_L7A3_CFE_A"
+msgstr "10,5 cm Bordkanone L7A3"
+
 msgid "_105mm_DM11"
 msgstr "DM11"
 
 msgid "_105mm_DM11_A"
 msgstr "DM11 (A)"
+
+msgid "_105mm_DM11_CFE_A"
+msgstr "DM11"
 
 msgid "_105mm_DM11_Kurz"
 msgstr "DM11 Kurz"
@@ -5215,6 +5269,9 @@ msgstr "DM13-20"
 msgid "_105mm_DM13_A"
 msgstr "DM13 (A)"
 
+msgid "_105mm_DM13_CFE_A"
+msgstr "DM13"
+
 msgid "_105mm_DM13_Kurz"
 msgstr "DM13 Kurz"
 
@@ -5229,6 +5286,9 @@ msgstr "DM23"
 
 msgid "_105mm_DM23_A"
 msgstr "DM23 (A)"
+
+msgid "_105mm_DM23_CFE_A"
+msgstr "DM23"
 
 msgid "_105mm_DM502"
 msgstr "DM502"
@@ -5374,9 +5434,6 @@ msgstr "Pzgr 39 LV"
 msgid "_105mm_PzGrRot"
 msgstr "PzGr rot"
 
-msgid "_105mm_Pzgr.40"
-msgstr "Pzgr 40"
-
 msgid "_105mm_Pzgr.40L1"
 msgstr "Pzgr 40 L1"
 
@@ -5427,6 +5484,9 @@ msgstr "Pzgr. 40 (180B)"
 
 msgid "_105mm_Pzgr_40_45"
 msgstr "Pzgr. 40/45"
+
+msgid "_105mm_Pzgr_40_A"
+msgstr "Pzgr 40"
 
 msgid "_105mm_Pzgr_40_E"
 msgstr "Pzgr. 40 E"
@@ -5535,6 +5595,9 @@ msgstr "10WSc"
 
 msgid "_10WSc_CFE_T"
 msgstr "10WSc T"
+
+msgid "_10WSc_FR"
+msgstr "10WSc"
 
 msgid "_10WSc_P"
 msgstr "10WSc P"
@@ -6133,6 +6196,9 @@ msgstr "Gr. 44 Hl/A"
 msgid "_150mm_Gr_HL"
 msgstr "Gr. HL"
 
+msgid "_150mm_Gr_HL_FR"
+msgstr "Gr. HL"
+
 msgid "_150mm_Gr_Hl_A"
 msgstr "Gr. Hl/A"
 
@@ -6155,6 +6221,9 @@ msgid "_150mm_Pak_L_44"
 msgstr "15 cm Pak L/44"
 
 msgid "_150mm_Pak_L_63"
+msgstr "15 cm Pak L/63"
+
+msgid "_150mm_Pak_L_63_FR"
 msgstr "15 cm Pak L/63"
 
 msgid "_150mm_PzGr39H2_SH"
@@ -6181,6 +6250,9 @@ msgstr "Pzgr. 42 (WT IV) T"
 msgid "_150mm_Pzgr_44"
 msgstr "Pzgr. 44"
 
+msgid "_150mm_Pzgr_FR"
+msgstr "Pzgr."
+
 msgid "_150mm_Pzgr_m_Hb"
 msgstr "Pzgr. (m.Hb)"
 
@@ -6204,6 +6276,9 @@ msgstr "Sprgr. 18 (Grille)"
 
 msgid "_150mm_Sprgr_36"
 msgstr "Sprgr. 36"
+
+msgid "_150mm_Sprgr_FR"
+msgstr "Sprgr."
 
 msgid "_150mm_Sprgr_G"
 msgstr "Sprgr. G"

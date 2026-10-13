@@ -27,15 +27,16 @@ class SchemaDependentModel(models.Model):
 
 
 class CommonHintPropsModel(BattleTypesModel):
-    __slots__ = (b'name', b'scope', b'component', b'unique', b'priority', b'_uniqueName')
+    __slots__ = (b'name', b'scope', b'component', b'unique', b'priority', b'skipOverlay', b'_uniqueName')
 
-    def __init__(self, name, scope, component, unique, priority, battleTypes):
+    def __init__(self, name, scope, component, unique, priority, skipOverlay, battleTypes):
         super(CommonHintPropsModel, self).__init__(battleTypes)
         self.name = name
         self.scope = scope
         self.component = component
         self.unique = unique
         self.priority = priority
+        self.skipOverlay = skipOverlay
         self._uniqueName = (b'{}.{}').format(scope, name) if scope else name
         return
 
@@ -111,7 +112,8 @@ class CommonHintPropsSchema(BattleTypesSchema[HMCPropsType]):
                     validate.NoneOf(RESERVED_SCOPES)])), 
            b'priority': (fields.Integer(required=False, default=DEFAULT_PRIORITY, deserializedValidators=validate.Range(minValue=0, maxValue=MAX_PRIORITY))), 
            b'component': (fields.String(required=False, default=DEFAULT_COMPONENT, deserializedValidators=validate.Length(minValue=1, maxValue=50))), 
-           b'unique': (fields.Boolean(required=False, default=False))}, checkUnknown=False, serializedValidators=serializedValidators, deserializedValidators=[
+           b'unique': (fields.Boolean(required=False, default=False)), 
+           b'skipOverlay': (fields.Boolean(required=False, default=False))}, checkUnknown=False, serializedValidators=serializedValidators, deserializedValidators=[
          validateCommonHintPropsModel] + validate.prepareValidators(deserializedValidators), modelClass=modelClass)
         return
 

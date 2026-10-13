@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s 自由與乘員經驗，持續 %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "戰鬥的經驗收入 %(effectValue)s 加成，持續 %(effectHours)s"
+msgstr "%(effectValue)s 戰鬥經驗，持續 %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "戰鬥中獲得的銀幣 %(effectValue)s 加成，持續 %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "此車輛在炮盾上安裝了火箭發射器。啟用能力來切換至
 msgid "moduleInfo/closeBtn"
 msgstr "關閉"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "戰鬥油門"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "裝有彈匣裝填系統的車輛："
 
@@ -6162,6 +6165,12 @@ msgstr " (顆)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "重疊電機觀測鏡作用時間"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "冷卻時間"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "持續時間"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "冷卻時間"

@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "全データ・ブロックを制覇！"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "データ・ブロック {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "「アンテナ」を占領してデータを確保し、通信を解読せよ。"
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "プレイ期間:"
+
+msgid "bannerTooltip/header"
+msgstr "ブラック・シグナル"
+
+msgid "bannerTooltip/mode"
+msgstr "モード"
+
+msgid "bannerTooltip/modeHint"
+msgstr "— 別のゲームモードに切り替え中"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "お使いのPCは、本モードのシステム要件を満たしていません。グラフィックや車輌の操作に問題が生じたり、クライアントがクラッシュする可能性があります。"
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "ゲームのパフォーマンスに問題がある場合は「グラフィック品質」の変更をお試しください。"
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "このモードを快適にプレイいただくには高性能PC が必要です。現在ご使用中のPCではマップの読み込み、グラフィック、車輌の操作に問題が生じる可能性が考えられます。パフォーマンスが不充分である場合には、設定から画質を下げてみてください。"
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "パフォーマンス低下"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "本モードを快適にプレイいただくには高性能PCが必要です"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "パフォーマンス低下"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "HP回復量"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "サービス・スコア"
+
+msgid "battleLoading/description"
+msgstr "「アンテナ」を占領してデータを確保し、通信を解読せよ。"
+
+msgid "battleLoading/header"
+msgstr "ブラック・シグナル"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "「アンテナ」を占領すると、自車輌のHPが少量回復します。HP回復のボーナスを活用することで、安定してポジションを防衛し、反撃に備えることができます。"
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "占領と回復"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "「アンテナ」の近くに敵車輌がいる場合、占領が進みません。敵を排除できれば、目標の確保を続けることができます。"
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "アンテナ争奪戦"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "リスポーン直後の10秒間はダメージを受けません。この時間を利用して戦線に復帰できるほか、交戦エリアを逃れるのも手です。"
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "リスポーン直後の保護"
+
+msgid "battleQueue/title"
+msgstr "ブラック・シグナル"
+
+msgid "capturingIndicator/captured"
+msgstr "アンテナを占領"
+
+msgid "capturingIndicator/capturing"
+msgstr "アンテナ占領中"
+
+msgid "capturingIndicator/contesting"
+msgstr "アンテナ争奪中"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "アンテナを無効化中"
+
+msgid "endGame/reason/210"
+msgstr "両チームのシグナル・ポイントが上限に到達"
+
+msgid "endGame/reason/3"
+msgstr "時間切れ"
+
+msgid "endGame/reason/6/lose"
+msgstr "敵のシグナルポイントが上限に到達"
+
+msgid "endGame/reason/6/win"
+msgstr "自チームのシグナルポイントが上限に到達"
+
+msgid "endGame/reason/7"
+msgstr "時間切れ"
+
+msgid "notifications/progression/header"
+msgstr "おめでとうございます!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "詳細"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "進捗ステップ&nbsp;%(stageIdx)sの達成報酬: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "全データ・ブロックを制覇済み。"
+
+msgid "progression/completedTitle"
+msgstr "進捗を制覇!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "残り時間:"
+
+msgid "progression/dailyMissions/title"
+msgstr "野戦指令"
+
+msgid "progression/description"
+msgstr "「ブラック・シグナル」の戦闘を対象としたデイリーミッションを達成すると、イベントを進行できます。"
+
+msgid "progression/info_button/body"
+msgstr "詳細はこちら"
+
+msgid "progression/info_button/header"
+msgstr "「ブラック・シグナル」について"
+
+msgid "progression/widget/stageLabel"
+msgstr "データ・\nブロック%(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "全てデータ・ブロックを制覇!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "達成済み"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "データ・ブロックの達成報酬"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "現在のデータ・ブロック"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "ミッション更新まで:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "ブラック・シグナル"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "現在の進捗状況"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "進行は一時的に利用不能。"
+
+msgid "progression/widget/unavailable"
+msgstr "進捗が利用できません"
+
+msgid "progressionView/stateHeader"
+msgstr "ブラック・シグナルの進捗"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "キャンセル"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "戦闘はまだ終了していません。戦闘から離脱すると自チームが不利な状況に陥ります。また今回の戦闘からはボーナスを獲得できず、ミッションを進めることもできません。"
+
+msgid "quitBattle/leaver/submit"
+msgstr "離脱"
+
+msgid "quitBattle/leaver/title"
+msgstr "戦場から離脱しますか?"
+
+msgid "respawnTimer/description"
+msgstr "戦略的にリスポーン地点を変えることで、戦闘を有利に進めることができます。"
+
+msgid "respawnTimer/title"
+msgstr "リスポーンまで:"
+
+msgid "rewardScreen/button"
+msgstr "了解!"
+
+msgid "rewardScreen/title"
+msgstr "データ・ブロック報酬をアンロック"
+
+msgid "timersPanel/invulnerable"
+msgstr "無敵時間"
+
+msgid "tooltips/eventPoints/body"
+msgstr "「データ・パケット」を集めて「データ・ブロック」を達成すると、貴重な報酬が手に入ります。「データ・パケット」は、戦闘でダメージを与えたり、敵を撃破したり、ポイントを占領したり、デイリーミッションを達成したりすることで取得できます。"
+
+msgid "tooltips/eventPoints/header"
+msgstr "データ・パケット"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "全車輌"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "フィルターをリセット"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "モードの適合車輌を表示するにはフィルターをリセットしてください"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "このプレイリストには、このモードの適合車輌が含まれていません。"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "適合車輌なし"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "条件に一致する車輌が見つかりません"
+
+msgid "welcomeScreen/button"
+msgstr "続行"
+
+msgid "welcomeScreen/description1"
+msgstr "このモードでは、係争地帯に点在する秘匿通信の拠点を占領し、データを確保するよう命じられた機甲任務部隊の一員として戦います。拠点を占領下に置き続けることが勝利のカギを握ります。"
+
+msgid "welcomeScreen/description2"
+msgstr "受信するのは、何者かが多大な労力を費やして隠蔽した情報です。ミッションを達成すると、暗号化されたデータの一部を解読できます。"
+
+msgid "welcomeScreen/description3"
+msgstr "イベント専用ミッションを達成して、「データ・ブロック」と呼ばれる進捗ステップを進めると、貴重な報酬が手に入ります。"
+
+msgid "welcomeScreen/header1"
+msgstr "アンテナを占領せよ"
+
+msgid "welcomeScreen/header2"
+msgstr "データを解読せよ"
+
+msgid "welcomeScreen/header3"
+msgstr "進捗と報酬"
+
+msgid "welcomeScreen/title"
+msgstr "ブラック・シグナル"

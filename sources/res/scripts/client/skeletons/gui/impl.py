@@ -2,15 +2,15 @@ from __future__ import absolute_import
 import typing
 from skeletons.gui.game_control import IGameController
 if typing.TYPE_CHECKING:
-    from typing import Callable
     from Event import Event
-    from frameworks.wulf import ViewModel
     from frameworks.wulf.resource_manager import ResourceManager
     from frameworks.wulf.system_locale import SystemLocale
     from frameworks.wulf.formatters import Formatters
     from frameworks.wulf.tutorial import Tutorial
     from frameworks.wulf.ui_logger import UILogger
     from frameworks.wulf.windows_system.windows_manager import WindowsManager
+    from frameworks.wulf.view.layout_manager import LayoutManager
+    from gui.impl.gui_factories import GuiEntitiesFactories
 
 class IGuiLoader(object):
     __slots__ = ()
@@ -22,6 +22,11 @@ class IGuiLoader(object):
 
     @property
     def windowsManager(self):
+        raise NotImplementedError
+        return
+
+    @property
+    def layoutManager(self):
         raise NotImplementedError
         return
 
@@ -50,7 +55,12 @@ class IGuiLoader(object):
         raise NotImplementedError
         return
 
-    def init(self, tutorialModel, uiLoggerModel, serverTimeCallback):
+    @property
+    def entitiesFactory(self):
+        raise NotImplementedError
+        return
+
+    def init(self):
         raise NotImplementedError
         return
 

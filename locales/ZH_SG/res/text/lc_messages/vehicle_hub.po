@@ -10,6 +10,9 @@ msgstr "逐一射击弹匣中的数发炮弹，每一发会随着时间自动装
 msgid "abilities/common/description/autoShootGun"
 msgstr "快速发射完弹匣中的炮弹，藉此在短时间内造成较高伤害，但也牺牲了穿透力与准度。在近距离战斗时最为高效。"
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "激活油门可暂时提高发动机功率、速度和机动性，同时保持可靠的火炮操控性。这让玩家能够灵活机动地作战，又不会牺牲战斗效率。"
+
 msgid "abilities/common/description/damageMutable"
 msgstr "发射星盘弹，在50米内造成的伤害最高。炮弹伤害随距离降低，因此在近距离战斗时最为高效。"
 
@@ -61,6 +64,9 @@ msgstr "改进型自动再装填火炮"
 msgid "abilities/common/name/autoShootGun"
 msgstr "自动火炮"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "战斗油门"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "深膛线火炮"
 
@@ -102,6 +108,15 @@ msgstr "涡轮模式"
 
 msgid "abilities/common/name/twinGun"
 msgstr "齐射模式"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "提升机动性，且不影响火炮操控性。"
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "该系统支持连续射击而无需重新装填，并控制火炮射击时产生的热能。"
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "火炮配备特殊装置，可在射击前修改部分炮弹参数。"
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "保持静止或缓慢移动，可累积准度等级来提升下一发炮弹的准度。\n当达到最高准度等级时，您的战车将具有不错的火炮稳定性，移动时或炮塔/车体转向时的散布误差亦会降低。"
@@ -355,6 +370,15 @@ msgstr "可在牺牲装填时间的情况下，同时发射两门火炮。"
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "特殊机制，可在短时间期间提升发动机功率、加速能力与最高速度。"
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "激活油门可暂时提高发动机功率、速度和机动性，同时保持可靠的火炮操控性。这让玩家能够灵活机动地作战，又不会牺牲战斗效率。"
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "火炮可持续射击而不需要进行装填。每次发射炮弹都会生成热能：温度越高，部分参数受到的影响越大。持续射击将导致火炮过热，直到降温前，火炮将无法再次射击。"
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "此战车的火炮配备特殊装置，可在射击前修改部分炮弹参数。武装配置会显示受切换射击模式影响的参数。"
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "保持静止或以低于特定数值的速度移动，可让您校正战车的“模拟弹道计算设备”并累计准度等级，提升您下一发炮弹的准度。若您超过速限，您的准度等级累计进度将暂停，直到您降低速度。当达到最高准度等级时，您的战车将具有不错的火炮稳定性，移动时或炮塔/车体转动时的散布误差亦会降低。此效果会在射击后移除。"
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "此机械改装可在短时间内大幅提升战车的加速能力、发动机功率，以及最高前进与倒车速度，让您快速应对敌人的攻击，展现动态机动来让对手措手不及。保持高速移动可加快此机制的冷却速度。"
 
 msgid "characteristics/abilities/special/notes"
-msgstr "显示的所有数值均为此战车的可能最大值。可以通过装备、指令与消耗品更改这些数值，但此处未反映相关变化。"
+msgstr "显示的所有数值均为此战车的理论最佳值。可以通过装备、指令与消耗品更改这些数值，但此处未反映相关变化。"
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "可校准AP弹"

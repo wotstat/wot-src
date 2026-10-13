@@ -1,4 +1,7 @@
-import math, time, BigWorld, GUI, Keys, Math, math_utils
+from __future__ import absolute_import, division
+import math, time
+from future.utils import viewitems
+import BigWorld, GUI, Keys, Math, math_utils
 from aih_constants import CTRL_MODE_NAME
 from AvatarInputHandler import AimingSystems
 from AvatarInputHandler.cameras import ICamera
@@ -56,7 +59,7 @@ class KeySensor(object):
         return False
 
     def evaluateSensitivityKeys(self, delta):
-        for senseKey, acceleration in self._sensitivityKeys.iteritems():
+        for senseKey, acceleration in viewitems(self._sensitivityKeys):
             if senseKey in self._currentKeys:
                 self.sensitivity += acceleration * delta
 
@@ -64,7 +67,7 @@ class KeySensor(object):
 
     def update(self, delta):
         self.evaluateSensitivityKeys(delta)
-        for mappingKey, shift in self.keyMappings.iteritems():
+        for mappingKey, shift in viewitems(self.keyMappings):
             if mappingKey in self._currentKeys:
                 addValue = shift * self.sensitivity
                 if self.currentVelocity is None:
@@ -118,7 +121,7 @@ class _AlignerToLand(object):
         self.__downPointDistance = 1000
         return
 
-    def updateLandHeight(self, pos, delta):
+    def updateLandHeight(self, pos, deltaTime):
         return
 
     def enable(self, position, aboveSeaLevel=False):
@@ -388,7 +391,7 @@ class VideoCamera(ICamera, CallbackDelayer, TimeDeltaMeter):
                 return True
             if self._handleMoveAndSensitivityKeys(key, isDown):
                 return True
-            return
+            return False
 
     def _handleKeySwitches(self, key, isDown):
         if isDown:
@@ -424,13 +427,13 @@ class VideoCamera(ICamera, CallbackDelayer, TimeDeltaMeter):
                 if self._verticalMovementSensor.handleKeyEvent(key, isDown) and key not in self._verticalMovementSensor.keyMappings:
                     self.__isVerticalVelocitySeparated = True
                     return True
-                for velocityKey, velocity in self.__predefinedVerticalVelocities.iteritems():
+                for velocityKey, velocity in viewitems(self.__predefinedVerticalVelocities):
                     if velocityKey == key:
                         self._verticalMovementSensor.sensitivity = velocity
                         self.__isVerticalVelocitySeparated = True
                         return True
 
-            for velocityKey, velocity in self.__predefinedVelocities.iteritems():
+            for velocityKey, velocity in viewitems(self.__predefinedVelocities):
                 if velocityKey == key:
                     self._movementSensor.sensitivity = velocity
                     return True
@@ -559,7 +562,7 @@ class VideoCamera(ICamera, CallbackDelayer, TimeDeltaMeter):
         self._keySwitches[b'keyRevertVerticalVelocity'] = getattr(Keys, configDataSec.readString(b'keyRevertVerticalVelocity', b'KEY_Z'))
         self._mouseSensitivity = configDataSec.readFloat(b'sensitivity', 1.0)
         self._scrollSensitivity = configDataSec.readFloat(b'scrollSensitivity', 1.0)
-        rotationMappings = dict()
+        rotationMappings = {}
         rotationMappings[getattr(Keys, configDataSec.readString(b'keyRotateLeft', b'KEY_LEFTARROW'))] = Vector3(-1, 0, 0)
         rotationMappings[getattr(Keys, configDataSec.readString(b'keyRotateRight', b'KEY_RIGHTARROW'))] = Vector3(1, 0, 0)
         rotationMappings[getattr(Keys, configDataSec.readString(b'keyRotateUp', b'KEY_UPARROW'))] = Vector3(0, -1, 0)
@@ -568,7 +571,7 @@ class VideoCamera(ICamera, CallbackDelayer, TimeDeltaMeter):
         rotationMappings[getattr(Keys, configDataSec.readString(b'keyRotateCClockwise', b'KEY_END'))] = Vector3(0, 0, 1)
         self._readRotationSettings(configDataSec, rotationMappings)
         self._keySwitches[b'keySetDefaultRoll'] = getattr(Keys, configDataSec.readString(b'keySetDefaultRoll', b'KEY_R'))
-        zoomMappings = dict()
+        zoomMappings = {}
         zoomMappings[getattr(Keys, configDataSec.readString(b'keyZoomGrowUp', b'KEY_INSERT'))] = -1
         zoomMappings[getattr(Keys, configDataSec.readString(b'keyZoomGrowDown', b'KEY_DELETE'))] = 1
         self._readZoomSettings(configDataSec, zoomMappings)
@@ -576,7 +579,7 @@ class VideoCamera(ICamera, CallbackDelayer, TimeDeltaMeter):
         self._movementInertia = _Inertia(configDataSec.readFloat(b'linearFriction', 0.1))
         self._rotationInertia = _Inertia(configDataSec.readFloat(b'rotationFriction', 0.1))
         self._keySwitches[b'keySwitchRotateAroundPoint'] = getattr(Keys, configDataSec.readString(b'keySwitchRotateAroundPoint', b'KEY_C'))
-        aroundPointMappings = dict()
+        aroundPointMappings = {}
         aroundPointMappings[getattr(Keys, configDataSec.readString(b'keyTargetRadiusIncrement', b'KEY_NUMPAD7'))] = 1
         aroundPointMappings[getattr(Keys, configDataSec.readString(b'keyTargetRadiusDecrement', b'KEY_NUMPAD1'))] = -1
         aroundPointRadiusVelocity = configDataSec.readFloat(b'targetRadiusVelocity', 3.0)
@@ -602,7 +605,7 @@ class VideoCamera(ICamera, CallbackDelayer, TimeDeltaMeter):
         return
 
     def _readMovementSettings(self, configDataSec):
-        movementMappings = dict()
+        movementMappings = {}
         movementMappings[getattr(Keys, configDataSec.readString(b'keyMoveLeft', b'KEY_A'))] = Vector3(-1, 0, 0)
         movementMappings[getattr(Keys, configDataSec.readString(b'keyMoveRight', b'KEY_D'))] = Vector3(1, 0, 0)
         keyMoveUp = getattr(Keys, configDataSec.readString(b'keyMoveUp', b'KEY_PGUP'))

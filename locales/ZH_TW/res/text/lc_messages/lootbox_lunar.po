@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "回到寶藏"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "每 %(guaranteed0)s 個「烈焰寶藏」保證會開出一輛 VIII–IX
 msgid "infoPage/header/description"
 msgstr "打開烈焰寶藏即有機會獲取珍貴遊戲內物品！請在下方閱讀詳情。"
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "從「%(name)」(已打開 %(boxesCount) 個烈焰寶藏)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "您無任何烈焰寶藏。\n您可在遊戲內商店中獲取。"
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "可用的寶藏：%(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "沒有可用的寶藏"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "若您車庫中已有烈焰寶藏可能開出的所有車輛，後續從烈焰寶藏開出任何車輛時，您將獲金幣補償。"
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) 個烈焰寶藏"
 msgstr[1] "%(remainingCount) 個烈焰寶藏"
 msgstr[2] "%(remainingCount) 個烈焰寶藏"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "「保證可獲得的獎勵」為烈焰寶藏可能開出的車輛。\n若您打開 %(remainingCount)時仍未開出此類車輛，將會在打開%(count)烈焰寶藏時開出您未在車庫中擁有的此類車輛。開出車輛後，計數器將重置。"

@@ -97,32 +97,32 @@ msgstr "\"<미니맵 좌표> 지역을 주시하라!\""
 msgid "chat_example/attention_to_position"
 msgstr "지정한 위치를 주목하라!"
 
-msgid "chat_example/global_msg/atk/focus_hq"
-msgstr "\"군사 시설을 파괴하라!\""
+msgid "chat_example/global_msg_atk_focus_hq"
+msgstr "군사 시설을 파괴하라"
 
-msgid "chat_example/global_msg/atk/save_tanks"
-msgstr "\"주의하라!\""
+msgid "chat_example/global_msg_atk_save_tanks"
+msgstr "주의하라!"
 
-msgid "chat_example/global_msg/atk/time"
-msgstr "\"기지를 점령하라!\""
+msgid "chat_example/global_msg_atk_time"
+msgstr "구역을 점령하라"
 
-msgid "chat_example/global_msg/def/focus_hq"
-msgstr "\"군사 시설을 방어하라!\""
+msgid "chat_example/global_msg_def_focus_hq"
+msgstr "군사 시설을 방어하라"
 
-msgid "chat_example/global_msg/def/save_tanks"
-msgstr "\"주의하라!\""
+msgid "chat_example/global_msg_def_save_tanks"
+msgstr "주의하라!"
 
-msgid "chat_example/global_msg/def/time"
-msgstr "\"기지를 방어하라!\""
+msgid "chat_example/global_msg_def_time"
+msgstr "구역을 방어하라"
 
-msgid "chat_example/global_msg/lane/center"
-msgstr "\"기지에 증원이 필요하다\""
+msgid "chat_example/global_msg_lane_center"
+msgstr "구역에 증원이 필요하다"
 
-msgid "chat_example/global_msg/lane/east"
-msgstr "\"기지에 증원이 필요하다\""
+msgid "chat_example/global_msg_lane_east"
+msgstr "구역에 증원이 필요하다"
 
-msgid "chat_example/global_msg/lane/west"
-msgstr "\"기지에 증원이 필요하다\""
+msgid "chat_example/global_msg_lane_west"
+msgstr "구역에 증원이 필요하다"
 
 msgid "chat_example/going_there"
 msgstr "이곳으로 이동 중!"
@@ -232,32 +232,32 @@ msgstr "기지를 방어하겠다!"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "%(strArg1)s 기지 방어 중!"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "군사 시설을 파괴하라!"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
-msgstr "시간은 충분하다, 대피하라!"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
+msgstr "시간은 충분하다, 주의하라!"
 
-msgid "chat_shortcuts/global_msg/atk/time"
-msgstr "시간이 없다. 반드시 기지를 점령하라!"
+msgid "chat_shortcuts/global_msg_atk_time"
+msgstr "시간이 없다, 반드시 구역을 점령하라!"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "군사 시설을 방어하라!"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
-msgstr "버텨야 한다. 주의하라!"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
+msgstr "버텨야 한다, 주의하라!"
 
-msgid "chat_shortcuts/global_msg/def/time"
-msgstr "시간이 없다. 반드시 기지를 방어하라!"
+msgid "chat_shortcuts/global_msg_def_time"
+msgstr "시간이 없다, 반드시 구역을 방어하라!"
 
-msgid "chat_shortcuts/global_msg/lane/center"
-msgstr "%(strArg1)s 기지에 도움이 필요하다. 지원하라!"
+msgid "chat_shortcuts/global_msg_lane_center"
+msgstr "%(strArg1)s 구역에 도움이 필요하다, 지원하라!"
 
-msgid "chat_shortcuts/global_msg/lane/east"
-msgstr "%(strArg1)s 기지에 도움이 필요하다. 지원하라!"
+msgid "chat_shortcuts/global_msg_lane_east"
+msgstr "%(strArg1)s 구역에 도움이 필요하다, 지원하라!"
 
-msgid "chat_shortcuts/global_msg/lane/west"
-msgstr "%(strArg1)s 기지에 도움이 필요하다. 지원하라!"
+msgid "chat_shortcuts/global_msg_lane_west"
+msgstr "%(strArg1)s 구역에 도움이 필요하다, 지원하라!"
 
 msgid "chat_shortcuts/going_there"
 msgstr "해당 위치로 이동 중!"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "단축키"
 
 msgid "devMaps/mapInfo/info"
-msgstr "해당 지도에서는 돌발 상황이 발생할 수 있습니다. 게임 설정에서 돌발 상황 발생 지도 선정을 비활성화할 수 있습니다."
+msgstr "해당 지도에서는 돌발 상황이 발생할 수 있습니다."
 
 msgid "devMaps/mapInfo/text"
 msgstr "돌발 상황 발생 지도"

@@ -213,12 +213,12 @@
             getViewGlobalPosition: () => B,
             initExternalPaddings: () => R,
             isEventHandled: () => b,
-            isFocused: () => h,
+            isFocused: () => f,
             pxToRem: () => p,
             remToPx: () => v,
             resize: () => D,
             sendEvent: () => a.qP,
-            setAnimateWindow: () => f,
+            setAnimateWindow: () => h,
             setEventHandled: () => m,
             setInputPaddingsRem: () => E,
             setSidePaddingsRem: () => A,
@@ -267,10 +267,10 @@
         function v(u) {
           return viewEnv.remToPx(u);
         }
-        function f(u, e) {
+        function h(u, e) {
           viewEnv.setAnimateWindow(u, e);
         }
-        function h() {
+        function f() {
           return viewEnv.isFocused();
         }
         function m() {
@@ -693,11 +693,11 @@
           v = (u, e) => {
             u.keyCode === F.n.ESCAPE && e();
           };
-        var f = t(5533);
-        const h = r.instance,
+        var h = t(5533);
+        const f = r.instance,
           m = {
             DataTracker: o.Z,
-            ViewModel: f.Z,
+            ViewModel: h.Z,
             ViewEventType: a,
             NumberFormatType: s,
             RealFormatType: c,
@@ -780,7 +780,7 @@
                 }
               return t;
             },
-            ClickOutsideManager: h,
+            ClickOutsideManager: f,
             SystemLocale: i.Z5,
             UserLocale: i.cy,
           };
@@ -846,6 +846,11 @@
           const d = a().useRef(null);
           var D;
           return (
+            (0, i.useLayoutEffect)(() => {
+              const u = o.O.client.getSize("rem");
+              ((document.body.style.width = `${u.width}rem`),
+                (document.body.style.height = `${u.height}rem`));
+            }, []),
             (D = () => {
               const u = d.current;
               if (!u)
@@ -855,7 +860,9 @@
               const e = new ResizeObserver(() => {
                 const e = u.scrollWidth,
                   t = u.scrollHeight;
-                o.O.view.resize(e, t);
+                (o.O.view.resize(e, t),
+                  (document.body.style.width = `${e}px`),
+                  (document.body.style.height = `${t}px`));
                 const n = window.getComputedStyle(u);
                 o.O.view.setSidePaddingsRem({
                   left: parseInt(n.getPropertyValue("padding-left"), 10),
@@ -948,8 +955,8 @@
               D = u.isEnabled,
               p = void 0 === D || D,
               v = u.targetId,
-              f = void 0 === v ? 0 : v,
-              h = u.onShow,
+              h = void 0 === v ? 0 : v,
+              f = u.onShow,
               m = u.onHide,
               b = (function (u, e) {
                 if (null == u) return {};
@@ -969,7 +976,7 @@
               }),
               w = (0, i.useMemo)(
                 () =>
-                  f ||
+                  h ||
                   ((u = 1) => {
                     const e = new Error().stack;
                     let t,
@@ -988,14 +995,14 @@
                       { callerUrl: r, caller: t, stack: e, resId: n }
                     );
                   })().resId,
-                [f],
+                [h],
               ),
               y = (0, i.useCallback)(() => {
                 (g.current.isVisible && g.current.timeoutId) ||
                   (C(t, d, { isMouseEvent: !0, on: !0, arguments: _(n) }, w),
-                  h && h(),
+                  f && f(),
                   (g.current.isVisible = !0));
-              }, [t, d, n, w, h]),
+              }, [t, d, n, w, f]),
               T = (0, i.useCallback)(() => {
                 if (g.current.isVisible || g.current.timeoutId) {
                   const u = g.current.timeoutId;
@@ -1066,9 +1073,9 @@
             var x;
           },
           v = ["children"];
-        function f() {
+        function h() {
           return (
-            (f = Object.assign
+            (h = Object.assign
               ? Object.assign.bind()
               : function (u) {
                   for (var e = 1; e < arguments.length; e++) {
@@ -1077,10 +1084,10 @@
                   }
                   return u;
                 }),
-            f.apply(null, arguments)
+            h.apply(null, arguments)
           );
         }
-        const h = (u) => {
+        const f = (u) => {
             let e = u.children,
               t = (function (u, e) {
                 if (null == u) return {};
@@ -1094,7 +1101,7 @@
               })(u, v);
             return a().createElement(
               p,
-              f(
+              h(
                 {
                   contentId:
                     R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent(
@@ -1182,7 +1189,7 @@
           const r = e.contentId;
           return r
             ? a().createElement(p, y({}, e, { contentId: r }), n)
-            : a().createElement(h, e, n);
+            : a().createElement(f, e, n);
         };
         var k = t(1311);
         const x = {
@@ -1352,24 +1359,24 @@
               e
             );
           },
-          Y = (u, e, t, n) => {
+          $ = (u, e, t, n) => {
             let r = e.exec(u),
               o = 0;
             for (; r;)
               (o !== r.index && t(u.slice(o, r.index)), n(r), (o = e.lastIndex), (r = e.exec(u)));
             o !== u.length && t(u.slice(o));
           },
-          $ = new RegExp("[฀-๿][ัำ-ฺ็-๎]*|[^฀-๿]", "gu"),
+          Y = new RegExp("[฀-๿][ัำ-ฺ็-๎]*|[^฀-๿]", "gu"),
           Z = (u) => {
             const e = [];
             return (
-              Y(
+              $(
                 u,
                 /\S\s+/g,
                 (u) => {
                   var t;
                   "th" === R.strings.settings.LANGUAGE_CODE().toLowerCase()
-                    ? e.push(...((t = u), t.match($) || []))
+                    ? e.push(...((t = u), t.match(Y) || []))
                     : e.push(...u.split(""));
                 },
                 (u) => {
@@ -1383,7 +1390,7 @@
             ? (u) => {
                 const e = [];
                 return (
-                  Y(
+                  $(
                     u,
                     /[^a-zA-Z0-9]+/g,
                     (u) => {
@@ -1411,7 +1418,7 @@
           Q = (u, e = "", t) => {
             const n = [];
             return (
-              Y(
+              $(
                 u,
                 /(\n+|[\xa0\ufeff]+)/g,
                 (u) => {
@@ -1447,7 +1454,7 @@
                 .replace(/(.)(、|。|，|ー)/g, "$1\ufeff$2")
                 .replace(/\d+(?:[ \-.,]\d+)* ?%?/g, (u) => u.split("").join("\ufeff"));
             return (
-              Y(
+              $(
                 o,
                 /(?:%\(|{)(.*?)[)}][sd]?/g,
                 (u) => {
@@ -1493,7 +1500,7 @@
               ((u, e, t) => {
                 const n = [];
                 return (
-                  Y(
+                  $(
                     u,
                     /(?:%\(|{)(\w*)(?:_[Oo]pen|_Start)(?:\)s|})([\s\S]*?)(?:%\(|{)\w*(?:_[Cc]lose|_End)(?:\)s|})(\s*)/g,
                     (u) => {
@@ -1621,7 +1628,7 @@
                       targetId: E,
                     };
                 }, [n, o, E, u, c, _.isTruncated]),
-                f = (0, i.useCallback)(
+                h = (0, i.useCallback)(
                   (u) => {
                     ((D.current.width = u.contentRect.width),
                       (D.current.height = u.contentRect.height));
@@ -1632,7 +1639,7 @@
                   },
                   [t, A, p],
                 ),
-                h = (0, i.useMemo)(() => ({ justifyContent: l, alignContent: F }), [F, l]);
+                f = (0, i.useMemo)(() => ({ justifyContent: l, alignContent: F }), [F, l]);
               return (
                 ((u, e, t = !0) => {
                   const n = (0, i.useCallback)(
@@ -1652,7 +1659,7 @@
                       }
                     );
                   }, [n, t, u]);
-                })(d, f, s),
+                })(d, h, s),
                 a().createElement(
                   "div",
                   {
@@ -1662,7 +1669,7 @@
                       x.base__zeroPadding,
                       s && x.base__isTruncationAvailable,
                     ),
-                    style: h,
+                    style: f,
                   },
                   a().createElement("div", { className: x.unTruncated, ref: d }, p),
                   a().createElement(
@@ -1682,7 +1689,7 @@
                           x.truncated,
                           !_.isTruncateFinished && s && x.truncated__hide,
                         ),
-                        style: h,
+                        style: f,
                       },
                       _.isTruncateFinished && s ? _.elementList : p,
                     ),
@@ -1944,17 +1951,17 @@
           ),
           pu = Cu[0],
           vu = Cu[1],
-          fu = "DirectiveIcon_base_dd3fa",
-          hu = "DirectiveIcon_icon_ed40e",
+          hu = "DirectiveIcon_base_dd3fa",
+          fu = "DirectiveIcon_icon_ed40e",
           mu = "DirectiveIcon_highlight_bff7c",
           bu = "DirectiveIcon_overlay_d6fce",
           gu = ({ directiveName: u }) =>
             a().createElement(
               "div",
-              { className: fu },
+              { className: hu },
               a().createElement("div", { className: mu }),
               a().createElement("div", {
-                className: hu,
+                className: fu,
                 style: {
                   backgroundImage: `url(${R.images.gui.maps.icons.quests.bonuses.big.$dyn(u)})`,
                 },

@@ -1,10 +1,11 @@
+from __future__ import absolute_import, division
 import logging, math
 from collections import namedtuple
 from enum import Enum
 from typing import Callable
+import BigWorld, Math, BattleReplay, math_utils
 from AvatarInputHandler.DynamicCameras.arcade_camera_helper import MinMax
 from constants import IS_DEVELOPMENT
-import BattleReplay, BigWorld, Math, math_utils
 from AvatarInputHandler.DynamicCameras.ArcadeCamera import ArcadeCamera
 from Math import MatrixAnimation, Vector2, Vector3
 from gui.shared.events import DeathCamEvent
@@ -12,8 +13,8 @@ from helpers import dependency
 from helpers.CallbackDelayer import CallbackPauseManager
 from skeletons.gui.battle_session import IBattleSessionProvider
 _logger = logging.getLogger(__name__)
-PausedMomentInfo = namedtuple(b'PausedMomentInfo', [14, 15, 16, 17, 
- 18, 19, 20, 21, 22])
+PausedMomentInfo = namedtuple(b'PausedMomentInfo', [15, 16, 17, 18, 
+ 19, 20, 21, 22, 23])
 _MIN_TIME_TO_PLAYER = 2.0
 _MAX_TIME_TO_PLAYER = 4.0
 _MIN_DISTANCE_TO_PLAYER = 50

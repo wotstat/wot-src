@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "返回宝藏"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "每%(guaranteed0)s个烈焰宝藏必定包含一辆VIII–IX级战车。
 msgid "infoPage/header/description"
 msgstr "开启烈焰宝藏有几率获得珍贵的游戏内物品！在下方查看详情。"
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "%(name)内容(已开启%(boxesCount)个烈焰宝藏)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "您没有烈焰宝藏。\n您可以在游戏内商店中购买烈焰宝藏。"
 
 msgid "preview/backLabel"
@@ -79,8 +79,8 @@ msgstr "持有宝藏：%(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "无宝藏"
 
-msgid "singleRewardView/tooltip/description/"
-msgstr "如果您已在车库中拥有烈焰宝藏掉落列表的所有战车，烈焰宝藏后续掉落的所有战车将补偿您金币。"
+msgid "singleRewardView/tooltip/description"
+msgstr "如果您车库中已拥有烈焰宝藏掉落列表中的所有战车，烈焰宝藏后续掉落的所有战车将补偿您金币。"
 
 msgid "singleRewardView/tooltip/remainingCount"
 msgid_plural "plural/singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount)个烈焰宝藏"
 msgstr[1] "%(remainingCount)个烈焰宝藏"
 msgstr[2] "%(remainingCount)个烈焰宝藏"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "保底奖励为烈焰宝藏掉落列表中的一辆战车。\n如果您开启%(remainingCount)仍未掉落此类战车，那么您在开启%(count)烈焰宝藏时必定掉落您车库中没有的此类战车。掉落后计数器重置。"

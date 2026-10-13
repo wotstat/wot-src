@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "戦闘アビリティー"
+
+msgid "make_choice/server_error"
+msgstr "こちらの操作は一時的に実行できません。時間をおいて再度お試しください。"
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "採用"
+
+msgid "notification/crew_reward/recruited"
+msgstr "採用済み"
+
+msgid "notification/crew_reward/title"
+msgstr "報酬を入手"
+
+msgid "open_artefact/server_error"
+msgstr "こちらの操作は一時的に実行できません。時間をおいて再度お試しください。"
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "「解読キー」を入手: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "入手"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "消費した「解読キー」: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "解読"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "技術的なエラーにより「%s」への特殊アビリティーの補給に失敗しました。"
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "残高不足により「%s」への特殊アビリティーの補給に失敗しました。"
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "「%s」の特殊アビリティーの補給が完了しました。費用: "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "「解読キー」を入手"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "「暗号レコード」を解読可能"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "モード: 〈バビロン〉シュヴァルツタワー"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "〈バビロン〉シュヴァルツタワー (ノーマル)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "〈バビロン〉シュヴァルツタワー (ハード)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "〈バビロン〉シュヴァルツタワー (ナイトメア)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "ボスに勝利"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "難易度"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "ノーマル"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "ハード"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "ナイトメア"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "突破したフェーズ: %(curPhase)s / %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "目標を達成！"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "目標を達成！"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "車輌"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "消費: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "取引明細"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "「〈バビロン〉シュヴァルツタワー」専用ガレージで難易度を選択できます。"
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "難易度「ハード」をアンロック"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "「〈バビロン〉シュヴァルツタワー」専用ガレージで難易度を選択できます。"
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "難易度「ナイトメア」をアンロック"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "「〈バビロン〉シュヴァルツタワー」の戦闘で「%(vehicle)s」を使用できるようになりました。"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "一時的に「〈バビロン〉シュヴァルツタワー」での戦闘を行うことができません。\n時間をおいて再度お試しください。"
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "一時的に「〈バビロン〉シュヴァルツタワー」(%(difficulty)s) での戦闘を行うことができません。\n時間をおいて再度お試しください。"
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "「〈バビロン〉シュヴァルツタワー」は現在ご利用いただけません。公式サイトより最新情報をご確認ください。"
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "指揮官が難易度を「%(level)s」に変更しました。"
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "プレイヤー「%(userName)s」が選択中の難易度をアンロックしていません。"

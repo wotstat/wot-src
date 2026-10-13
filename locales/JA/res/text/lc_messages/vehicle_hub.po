@@ -10,6 +10,9 @@ msgstr "1発ずつ砲弾を発射し、時間経過により次の砲弾が自�
 msgid "abilities/common/description/autoShootGun"
 msgstr "急速な連射を行い、短時間で高ダメージを与えます。貫通力と精度は低いものの、近接戦闘で最も効果的です。"
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "スロットルを起動すると、安定した主砲の取り回しを維持したまま、エンジン出力、速度、機動性が一時的に向上する。これにより、戦闘効果を損なうことなく、俊敏でダイナミックなプレイが可能となる。"
+
 msgid "abilities/common/description/damageMutable"
 msgstr "50 m以内の至近距離で砲弾を貫通させると最大火力を発揮する星型弾底弾を発射します。敵との距離が開くほどダメージが減少するため、近接戦で最も効果的です。"
 
@@ -61,6 +64,9 @@ msgstr "改良型自動再装填砲"
 msgid "abilities/common/name/autoShootGun"
 msgstr "自動連射砲"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "交戦用スロットル"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "深溝ライフル砲"
 
@@ -102,6 +108,15 @@ msgstr "ターボモード"
 
 msgid "abilities/common/name/twinGun"
 msgstr "斉射モード"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "主砲の取り回しを損なうことなく機動性を向上させる。"
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "装填を挟まずに連続で砲撃でき、砲撃時に主砲がどのように熱を発生させるかを制御する。"
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "砲撃前に一部の砲弾パラメーターを変更できる特殊装置が主砲に搭載されている。"
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "静止または低速で移動している間、次の射撃の精度を向上させる「精度レベル」が貯まっていく。\n最大レベルまで貯まると、射撃精度が大幅に向上するほか、移動や砲塔および車体の旋回に伴う散布界の拡大が著しく抑えられる。"
@@ -355,6 +370,15 @@ msgstr "射撃後の装填速度が低下する代わりに、2連装砲から�
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "短時間、エンジン出力、加速性能、最大速度を向上させる特殊システム。"
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "スロットルを起動すると、安定した主砲の取り回しを維持したまま、エンジン出力、速度、機動性が一時的に向上する。これにより、戦闘効果を損なうことなく、俊敏でダイナミックなプレイが可能となる。"
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "装填を挟まずに連続で砲撃できる主砲。砲撃を行うたびに熱が発生し、温度が上がるほど一部のパラメーターがさらに変化する。連続砲撃を続けると主砲が過熱し、冷えるまで射撃不能となる。"
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "砲撃前に砲弾のパラメーターの一部を変更できる特殊な装置が主砲に搭載されている。選択したモードによって異なる砲弾のパラメーターが変化し、各モードを使用することでさまざまな戦況に素早く適応できる。"
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "静止、または一定の速度以下で移動している間、次の射撃の精度を向上させる「精度レベル」が「アナログ弾道演算装置」に貯まっていく。自車輌が一定の速度を超えた場合、再び速度が下がるまで、レベルの上昇が一時停止する。最大レベルまで貯まると、射撃精度が大幅に向上するほか、移動や砲塔および車体の旋回に伴う散布界の拡大が著しく抑えられる。射撃を行うと効果はリセットされる。"
 
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "戦闘での取得クレジットへのボーナス"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "車輌タイプを問わずペナルティーなし"
+msgstr "車輌タイプを問わず乗せ換え時のペナルティーなし"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "戦闘での取得EXPや搭乗員EXPへのボーナス"

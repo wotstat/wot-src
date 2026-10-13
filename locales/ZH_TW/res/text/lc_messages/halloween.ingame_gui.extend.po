@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "腐蝕"
+
+msgid "damageLog/personal_death_zone"
+msgstr "受到區域傷害"
+
+msgid "damageLog/static_death_zone"
+msgstr "受到區域傷害"
+
+msgid "damageShieldReady"
+msgstr "「能量盾」已可使用。"
+
+msgid "fastReloadReady"
+msgstr "「快速裝填」已可使用。"
+
+msgid "hitMarker/useless"
+msgstr "無法造成傷害！"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "「緊急維修」已可使用。"
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "「爆能砲彈」已可使用。"
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "「吸血砲彈」已可使用。"
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "「震盪砲彈」已可使用。"
+
+msgid "hwHelpScreen/hint/description"
+msgstr "以檢視模式規則"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "按下"
+
+msgid "hwInvisibilityReady"
+msgstr "「隱身治療」已可使用。"
+
+msgid "nitroRamDamageReady"
+msgstr "「渦輪增壓器」已可使用。"
+
+msgid "pickupSouls"
+msgstr "您已收集了 %(souls)s 個迷離物質"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "無法使用 [%(name)s]：炮管受損。"
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "車輛並未受損。"
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "無法使用 [%(name)s]：引擎已毀。"
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "無法使用 [%(name)s]：迷離物質不足，無法啟用能力。"
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "無法使用 [%(name)s]：車輛起火。"
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "無法使用 [%(name)s]：車輛淹沒。"
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "無法使用 [%(name)s]：車輛起火。"
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "無法使用 [%(name)s]：車輛翻覆。"
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "炮管已裝填完畢。"
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "隊友 %(target)s 遭腐蝕摧毀。"
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "隊友 %(target)s 遭%(attacker)s踩踏。"
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "隊友 %(target)s 被敵人 %(attacker)s 的爆炸摧毀。"
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "隊友 %(target)s 墜毀。"
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "隊友 %(target)s 在摧毀區域遭摧毀。"
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "隊友 %(target)s 被敵人的光環摧毀。"
+
+msgid "player_messages/killedByDeathZone"
+msgstr "隊友 %(target)s 在摧毀區域遭摧毀。"
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "隊友 %(target)s 被摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "車輛因「能量打擊」而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "車輛因「意念控火」而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "車輛因「血量汲取」而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "車輛因爆炸而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "車輛因摧毀區域而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "車輛因敵人的光環而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "車輛因腐蝕而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "車輛墜毀"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "車輛因踩踏而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "車輛被摧毀。您未能抵達麥格尼斯集合器。"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "車輛被摧毀。您未能摧毀魔王。"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "車輛被摧毀。麥格尼斯集合器尚未填滿。"
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "配件 [%(device)s] 因玩家的射擊而摧毀"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "車輛因火災而摧毀"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "車輛因敵人的射擊而摧毀"
+
+msgid "teamRepairKitReady"
+msgstr "「集體修復」已可使用。"
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s 啟用了「集體修復」。"
+
+msgid "teamRepairKitUsedSelf"
+msgstr "「集體修復」已啟用。"

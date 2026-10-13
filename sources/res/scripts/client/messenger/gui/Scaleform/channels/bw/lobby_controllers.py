@@ -1,4 +1,5 @@
-import types, BigWorld, constants
+from __future__ import absolute_import
+import BigWorld, constants
 from chat_shared import CHAT_MEMBER_GROUP
 from debug_utils import LOG_DEBUG
 from gui.prb_control.dispatcher import g_prbLoader
@@ -56,7 +57,7 @@ class _ChannelController(LobbyLayout):
         return
 
     def _format(self, message, doFormatting=True):
-        isString = isinstance(message, types.StringType)
+        isString = isinstance(message, str)
         if not doFormatting or isString:
             if isString:
                 return message

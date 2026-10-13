@@ -10,6 +10,9 @@ msgstr "Cho phép bắn sê-ri đạn từ băng magazine từng viên một, v�
 msgid "abilities/common/description/autoShootGun"
 msgstr "Bắn cả tràng liên thanh dồn sát thương mạnh, đổi lại xuyên kém và dễ lệch. Cận chiến là hiệu quả nhất."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Đạp ga Combat Throttle để tạm thời tăng công suất động cơ, tốc độ và sự linh hoạt, đồng thời duy trì khả năng điều khiển súng ổn định. Điều này cho phép thích ứng nhanh, năng động mà không làm giảm hiệu quả chiến đấu."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Bắn đạn mâm hình sao, sát thương cao nhất trong bán kính 50 m. Xa hơn thì yếu dần, cận chiến chuẩn bài."
 
@@ -61,6 +64,9 @@ msgstr "Tái nạp tự động cải tiến"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Autocannon"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Combat Throttle"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Súng rãnh xoắn sâu"
 
@@ -102,6 +108,15 @@ msgstr "Chế độ tăng áp"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Chế độ bắn song song"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Tăng cơ động mà không làm giảm độ mượt vận hành súng."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Hệ thống cho phép bắn liên thanh mà không cần chờ nạp đạn và kiểm soát cách súng sinh nhiệt khi khai hỏa."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Súng có các thiết bị đặc biệt cho phép điều chỉnh thông số đạn trước khi bắn."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Bằng cách đứng yên hoặc di chuyển chậm, bạn dần xây dựng các mức chính xác để cải thiện phát bắn tiếp theo.\nỞ mức chính xác cao nhất, súng vận hành mượt, phân tán thấp ngay cả khi di chuyển hoặc xoay tháp pháo/thân xe."
@@ -355,6 +370,15 @@ msgstr "Cho phép bắn đồng thời cả hai súng, nhưng thời gian nạp 
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Một cơ chế đặc biệt giúp tăng công suất động cơ, khả năng tăng tốc và tốc độ tối đa trong khoảng thời gian ngắn."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Đạp ga Combat Throttle để tạm thời tăng công suất động cơ, tốc độ và sự linh hoạt, đồng thời duy trì khả năng điều khiển súng ổn định. Điều này cho phép thích ứng nhanh, năng động mà không làm giảm hiệu quả chiến đấu."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Súng này có thể bắn liên thanh mà không phải dừng chờ nạp viên tiếp theo. Tuy nhiên, mỗi phát đều sinh nhiệt: Càng nóng sẽ càng thay đổi thông số. Khai hỏa lâu khiến nòng quá nóng, không thể bắn cho đến khi nguội."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Súng của xe có các thiết bị đặc biệt cho phép điều chỉnh thông số đạn trước khi bắn. Cấu hình hiển thị thông số nào sẽ bị ảnh hưởng khi chuyển đổi giữa các chế độ bắn."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Đứng yên hoặc chạy chậm dưới một tốc độ nhất định giúp xe của bạn hiệu chỉnh Device tính đạn đạo Analog, tích lũy mức chính xác, khiến phát bắn kế tiếp chuẩn hơn. Vượt quá giới hạn tốc độ sẽ làm tạm dừng quá trình tích lũy cho tới lúc giảm tốc. Ở mức chính xác cao nhất, súng xe gần như ổn định hoàn hảo, phân tán cực thấp khi di chuyển hoặc xoay tháp pháo/thân. Hiệu ứng mất đi lúc khai hỏa."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Sửa đổi cơ khí này nâng đáng kể khả năng tăng tốc, công suất động cơ và tốc độ tiến/lùi tối đa trong khoảng thời gian ngắn, cho phép phản ứng nhanh, khiến đối thủ bất ngờ bằng những pha cơ động linh hoạt. Giữ tốc độ cao sẽ tăng tốc hồi phục cơ chế."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Mọi giá trị được hiển thị là cao nhất có thể đối với xe. Ứng dụng kỹ thuật, thiết bị và vật phẩm có thể ảnh hưởng đến chúng nhưng sẽ không hiện ở đây."
+msgstr "Mọi giá trị được hiển thị là tốt nhất có thể đối với xe. Ứng dụng kỹ thuật, thiết bị và vật phẩm có thể ảnh hưởng đến chúng nhưng sẽ không hiện ở đây."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "calibratable AP shell"

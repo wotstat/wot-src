@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from items import vehicles
 __author__ = b'a_jorov'
 

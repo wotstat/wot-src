@@ -1,6 +1,9 @@
-import logging, re
+from __future__ import absolute_import
+import logging, re, typing
+from builtins import range
 from itertools import chain
-import typing, constants
+from future.utils import viewitems
+import constants
 from adisp import adisp_async, adisp_process
 from shared_utils import first
 from helpers import dependency, time_utils
@@ -57,7 +60,7 @@ class TokenQuestsSubFormatter(ITokenQuestsSubFormatter):
         questsPopUP = set()
         for achievesID, achievesCount in data.get(b'popUpRecords', set()):
             achievesRecord = DB_ID_TO_RECORD[achievesID]
-            for questID, questData in data.get(b'detailedRewards', {}).iteritems():
+            for questID, questData in viewitems(data.get(b'detailedRewards', {})):
                 for dossierRecord in chain.from_iterable(questData.get(b'dossier', {}).values()):
                     if achievesRecord == dossierRecord and self._isQuestOfThisGroup(questID):
                         questsPopUP.add((achievesID, achievesCount))
@@ -183,7 +186,7 @@ class RankedSeasonTokenQuestFormatter(RankedTokenQuestFormatter):
         return result
 
     def __packSeasonExtra(self, data):
-        extraAwards = dict()
+        extraAwards = {}
         badges = self.__processBadges(data)
         if len(badges) > 1:
             extraAwards[b'badges'] = EOL.join(badges)
@@ -197,7 +200,7 @@ class RankedSeasonTokenQuestFormatter(RankedTokenQuestFormatter):
         return extraAwards
 
     def __processBadges(self, data):
-        result = list()
+        result = []
         for block in data.get(b'dossier', {}).values():
             if isinstance(block, dict):
                 for record in block.keys():
@@ -207,7 +210,7 @@ class RankedSeasonTokenQuestFormatter(RankedTokenQuestFormatter):
         return result
 
     def __processStyles(self, data):
-        result = list()
+        result = []
         customizations = data.get(b'customizations', [])
         for customizationItem in customizations:
             customizationType = customizationItem[b'custType']
@@ -280,7 +283,7 @@ class RankedSeasonTokenQuestFormatter(RankedTokenQuestFormatter):
         return tokenForLeague
 
     def __packSeasonAwards(self, awardsDict):
-        result = list()
+        result = []
         if awardsDict:
             result.extend(self._achievesFormatter.packAwards(awardsDict, self.__seasonAwardsFormatters))
         return EOL.join(result)

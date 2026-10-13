@@ -889,6 +889,15 @@ msgstr "• 2019 위대한 레이스에서 획득 가능"
 msgid "Fest19Racer_descr"
 msgstr "개인 진행 첫 번째 보상 획득"
 
+msgid "FortRushMedal_2026"
+msgstr "감청 요원"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "검은 신호 2026 이벤트의 모든 스테이지를 완료한 모든 스위치블레이드 요원에게 지급, 통신을 가로채 세상에 또 하루의 고요한 밤을 선사하며 임무를 완벽하게 수행했다는 증표"
+
+msgid "FortRushMedal_2026_descr"
+msgstr "검은 신호 2026 이벤트 진행 완료"
+
 msgid "HE17A1"
 msgstr "야수의 표식"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "미르니-13 정찰"
 
 msgid "hw2019Medal1_condition"
-msgstr "• 특별 게임 이벤트 기간에 특정 조건을 달성한 모든 플레이어에게 수여"
+msgstr "2020년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
 
 msgid "hw2019Medal1_descr"
 msgstr "미르니-13 작전 기간에 별 1개 난이도에서 모든 페이즈 완료"
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "미르니-13 베테랑"
 
 msgid "hw2019Medal2_condition"
-msgstr "• 특별 게임 이벤트 기간에 특정 조건을 달성한 모든 플레이어에게 수여"
+msgstr "2020년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
 
 msgid "hw2019Medal2_descr"
 msgstr "미르니-13 작전 기간에 별 2개 난이도에서 모든 페이즈 완료"
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "미르니-13 영웅"
 
 msgid "hw2019Medal3_condition"
-msgstr "• 특별 게임 이벤트 기간에 특정 조건을 달성한 모든 플레이어에게 수여"
+msgstr "2020년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
 
 msgid "hw2019Medal3_descr"
 msgstr "미르니-13 작전 기간에 별 3개 난이도에서 모든 페이즈 완료"
 
 msgid "hw2019Medal_condition"
-msgstr "• 특별 게임 이벤트 기간에 특정 조건을 달성한 모든 플레이어에게 수여"
+msgstr "2020년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
 
 msgid "hw2019Medal_descr"
 msgstr "미르니-13 작전 기간에 모든 스타일 획득"
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "야수 통제"
 
 msgid "hw2021Medal1_condition"
-msgstr "• 특별 게임 이벤트 기간에 특정 조건을 달성한 모든 플레이어에게 수여"
+msgstr "2021년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
 
 msgid "hw2021Medal1_descr"
 msgstr "미르니: 희망 이벤트 기간에 중급 난이도로 모든 페이즈 완료"
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "선택받은 자"
 
 msgid "hw2021Medal2_condition"
-msgstr "• 특별 게임 이벤트 기간에 특정 조건을 달성한 모든 플레이어에게 수여"
+msgstr "2021년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
 
 msgid "hw2021Medal2_descr"
 msgstr "미르니: 희망 이벤트 기간에 상급 난이도로 모든 페이즈 완료"
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "오싹한 모험"
 
 msgid "hw2022Medal01_condition"
-msgstr "이벤트 기간에 특별 조건을 달성한 모든 플레이어에게 지급"
+msgstr "2022년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
 
 msgid "hw2022Medal01_descr"
 msgstr "호박 강타 이벤트 기간에 전투 능력 보상이 포함된 임무 모두 완료"
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "죽음의 신"
 
 msgid "hw2022Medal02_condition"
-msgstr "이벤트 기간에 특별 조건을 달성한 모든 플레이어에게 지급"
+msgstr "2022년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
 
 msgid "hw2022Medal02_descr"
 msgstr "호박 강타 이벤트 기간에 핼러윈 점수 65,000점 수집"
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "무사 귀환"
 
 msgid "hw2023Medal_condition"
-msgstr "2023 미르니: 사라진 희망 기간에 수여됩니다."
+msgstr "2023년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
 
 msgid "hw2023Medal_descr"
 msgstr "미르니: 사라진 희망 이벤트 기간에 모든 릴 해독"
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "바빌론 연구원"
 
 msgid "hw2024Medal_condition"
-msgstr "2024 바빌론 프로젝트 기간에 지급"
+msgstr "2024년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
 
 msgid "hw2024Medal_descr"
 msgstr "바빌론 프로젝트 이벤트 기간에 모든 기록 해독"
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "금단의 지식"
 
 msgid "hw2025Medal_condition"
-msgstr "이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
+msgstr "2025년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
 
 msgid "hw2025Medal_descr"
 msgstr "바빌론: 금지 구역 이벤트에서 모든 기록 해독"
+
+msgid "hw2026Medal_1"
+msgstr "전원 생존"
+
+msgid "hw2026Medal_1_condition"
+msgstr "2026년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
+
+msgid "hw2026Medal_1_descr"
+msgstr "바빌론: 어둠의 탑 이벤트의 모든 기록을 해독했습니다. 당신은 Alex를 포기하지 않았습니다!"
+
+msgid "hw2026Medal_2"
+msgstr "미륨의 품으로 돌아간 그녀"
+
+msgid "hw2026Medal_2_condition"
+msgstr "2026년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
+
+msgid "hw2026Medal_2_descr"
+msgstr "바빌론: 어둠의 탑 이벤트의 모든 기록을 해독했습니다. 당신은 Alex를 미륨의 세계로 보내주었습니다."
+
+msgid "hw2026Medal_3"
+msgstr "변체 수집가"
+
+msgid "hw2026Medal_3_condition"
+msgstr "2026년 이벤트 기간에 조건을 달성한 모든 플레이어에게 지급"
+
+msgid "hw2026Medal_3_descr"
+msgstr "바빌론: 어둠의 탑 이벤트에서 모든 변체 수집"
 
 msgid "impenetrable"
 msgstr "방탄"

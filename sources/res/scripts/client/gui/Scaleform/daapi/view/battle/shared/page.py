@@ -5,7 +5,7 @@ import BigWorld, BattleReplay, aih_constants
 from AvatarInputHandler import aih_global_binding
 from Event import EventsSubscriber
 from frameworks.wulf import WindowLayer
-from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS, BattleSharedLayoutType
 from gui.Scaleform.daapi.view.battle.shared import crosshair, kill_cam_sound_player
 from gui.Scaleform.daapi.view.battle.shared import indicators
 from gui.Scaleform.daapi.view.battle.shared import markers2d
@@ -169,6 +169,7 @@ class SharedPage(BattlePageMeta):
     @uniprof.regionDecorator(label=b'avatar.show_gui', scope=b'enter')
     def _populate(self):
         self._startBattleSession()
+        self._setupLayout()
         super(SharedPage, self)._populate()
         for component in self._external:
             component.createExternalComponent()
@@ -195,6 +196,12 @@ class SharedPage(BattlePageMeta):
         self.addListener(events.DeathCamEvent.DEATH_CAM_SPECTATOR_MODE, self.__handleDeathCamSpectatorModeEvent, scope=EVENT_BUS_SCOPE.BATTLE)
         self.addListener(events.GameEvent.TOGGLE_DEBUG_PIERCING_PANEL, self.__toggleDebugPiercingPanel, scope=EVENT_BUS_SCOPE.BATTLE)
         self.gameplay.postStateEvent(PlayerEventID.AVATAR_SHOW_GUI)
+        return
+
+    def _setupLayout(self):
+        layoutID = self.guiLoader.layoutManager.getLayoutByName(app_settings.APP_NAME_SPACE.SF_BATTLE, BattleSharedLayoutType.CROSSHAIR)
+        if layoutID > 0:
+            self.as_setLayoutS(layoutID)
         return
 
     @uniprof.regionDecorator(label=b'avatar.show_gui', scope=b'exit')

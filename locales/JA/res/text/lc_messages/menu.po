@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "フリーEXPと搭乗員EXP%(effectValue)s （%(effectHours)s時間）"
 
 msgid "booster/bonus/booster_xp"
-msgstr "戦闘で取得するEXP%(effectValue)s (%(effectHours)s)"
+msgstr "戦闘EXP%(effectValue)s (%(effectHours)s時間)"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "戦闘で取得するクレジットに対するボーナス %(effectValue)s (%(effectTime)s)"
@@ -4165,6 +4165,9 @@ msgstr "本車輌は防盾にロケット砲を搭載している。アビリテ
 msgid "moduleInfo/closeBtn"
 msgstr "閉じる"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "交戦用スロットル"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "自動装填装置を搭載した車輌:"
 
@@ -6162,6 +6165,12 @@ msgstr "(個)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "同時計測エレキ・サイトの持続時間"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "クールダウン"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "持続時間"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "クールダウン"

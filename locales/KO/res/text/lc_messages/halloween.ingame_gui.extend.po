@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "부식"
+
+msgid "damageLog/personal_death_zone"
+msgstr "구역 피해"
+
+msgid "damageLog/static_death_zone"
+msgstr "구역 피해"
+
+msgid "damageShieldReady"
+msgstr "에너지 보호막을 사용할 수 있습니다."
+
+msgid "fastReloadReady"
+msgstr "재장전 가속을 사용할 수 있습니다."
+
+msgid "hitMarker/useless"
+msgstr "소용없습니다!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "긴급 수리를 사용할 수 있습니다."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "에너지 포탄을 사용할 수 있습니다."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "흡혈 포탄을 사용할 수 있습니다."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "충격 포탄을 사용할 수 있습니다."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "입력 시 모드 규칙 표시"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "단축키"
+
+msgid "hwInvisibilityReady"
+msgstr "은신 회복을 사용할 수 있습니다."
+
+msgid "nitroRamDamageReady"
+msgstr "터보 과급기를 사용할 수 있습니다."
+
+msgid "pickupSouls"
+msgstr "미륨 %(souls)s개 수집 완료"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "[%(name)s] 사용 불가: 주포가 손상되었습니다."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "전차가 손상되지 않았습니다."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "[%(name)s] 사용 불가: 엔진이 손상되었습니다."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "[%(name)s] 사용 불가: 능력을 활성화할 미륨이 부족합니다."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "[%(name)s] 사용 불가: 전차에 화재가 발생했습니다."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "[%(name)s] 사용 불가: 전차가 침수되고 있습니다."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "[%(name)s] 사용 불가: 전차에 화재가 발생했습니다."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "[%(name)s] 사용 불가: 전차가 전복되어 있습니다."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "주포가 장전되어 있습니다."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s에 의해 %(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s에 의해 %(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s에 의해 %(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "부식에 의해 아군 %(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "%(attacker)s의 접촉 피해로 인해 아군 %(target)s 파괴"
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "적군 %(attacker)s 폭발에 의해 아군 %(target)s 파괴"
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "아군 %(target)s 충돌"
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "폐쇄 구역에 의해 아군 %(target)s 파괴"
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "적의 기운에 의해 아군 %(target)s 파괴"
+
+msgid "player_messages/killedByDeathZone"
+msgstr "폐쇄 구역에 의해 아군 %(target)s 파괴"
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "아군 %(target)s 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "에너지 충격에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "염화에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "에너지 강탈에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "폭발에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "폐쇄 구역에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "적의 기운에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "부식에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "전차 충돌"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "접촉 피해에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "전차가 파괴되었습니다. 매그너스에 도달하지 못했습니다."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "전차가 파괴되었습니다. 보스를 격파하지 못했습니다."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "전차가 파괴되었습니다. 매그너스가 충전되지 않았습니다."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "사격으로 [%(device)s] 부품 폭발"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "화재에 의해 전차 파괴"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "적 포탄에 의해 전차 파괴"
+
+msgid "teamRepairKitReady"
+msgstr "종합 정비를 사용할 수 있습니다."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s 님이 종합 정비를 활성화했습니다."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "종합 정비를 활성화했습니다."

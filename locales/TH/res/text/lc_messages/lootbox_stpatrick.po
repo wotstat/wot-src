@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "กลับไปยังหีบ"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "ทุกๆ %(guaranteed0)s หีบจะรับประกัน�
 msgid "infoPage/header/description"
 msgstr "เปิดหีบดังกล่าวเพื่อโอกาสในการได้รับสิ่งของที่มีค่าในเกมกัน! มาดูรายละเอียดกันได้ที่ด้านล่าง"
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "จาก %(name) (เปิดไป %(boxesCount) หีบ)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "ถ้าคุณไม่มีหีบใดๆ\nคุณสามารถหามันได้จากร้านค้าในเกม"
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "มีหีบให้: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "ไม่มีหีบให้"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "ถ้าคุณได้รับพาหนะทั้งหมดจากรายการเนื้อหาที่เป็นไปได้แล้วพาหนะทั้งหมดที่เหลือที่คุณได้รับจากหีบก็จะทำการชดเชยให้เป็นทองแทน"
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) หีบ"
 msgstr[1] "%(remainingCount) หีบ"
 msgstr[2] "%(remainingCount) หีบ"
 
-msgid "singleRewardView/tooltip/subtitle/"
-msgstr "รางวัลรับประกันเป็นพาหนะจากรายการของสิ่งของหีบ ที่เป็นไปได้\nถ้าคุณเปิด %(remainingCount) โดยไม่ได้รับหนึ่งในพาหนะดังกล่าว มันจะมอบให้เมื่อคุณเปิดหีบที่ %(count) และเมื่อได้รับพาหนะดังกล่าว ตัวนับจะถูกตั้งใหม่อีกครั้ง"
+msgid "singleRewardView/tooltip/subtitle"
+msgstr "รางวัลรับประกันเป็นพาหนะจากรายการของสิ่งของหีบที่เป็นไปได้\nถ้าคุณเปิด %(remainingCount) โดยไม่ได้รับหนึ่งในพาหนะดังกล่าว มันจะมอบให้เมื่อคุณเปิดหีบที่ %(count) และเมื่อได้รับพาหนะดังกล่าว ตัวนับจะถูกตั้งใหม่อีกครั้ง"

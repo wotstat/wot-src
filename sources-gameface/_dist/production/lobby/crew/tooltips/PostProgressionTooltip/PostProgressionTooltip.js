@@ -846,6 +846,11 @@
           const F = a().useRef(null);
           var _;
           return (
+            (0, i.useLayoutEffect)(() => {
+              const e = o.O.client.getSize("rem");
+              ((document.body.style.width = `${e.width}rem`),
+                (document.body.style.height = `${e.height}rem`));
+            }, []),
             (_ = () => {
               const e = F.current;
               if (!e)
@@ -855,7 +860,9 @@
               const u = new ResizeObserver(() => {
                 const u = e.scrollWidth,
                   t = e.scrollHeight;
-                o.O.view.resize(u, t);
+                (o.O.view.resize(u, t),
+                  (document.body.style.width = `${u}px`),
+                  (document.body.style.height = `${t}px`));
                 const n = window.getComputedStyle(e);
                 o.O.view.setSidePaddingsRem({
                   left: parseInt(n.getPropertyValue("padding-left"), 10),
@@ -1416,7 +1423,7 @@
             I.apply(null, arguments)
           );
         }
-        const j = ({ children: e, tooltipArgs: u, className: t }) => {
+        const z = ({ children: e, tooltipArgs: u, className: t }) => {
           if (!u) return e;
           const n = a().createElement("div", { className: t }, e);
           if (u.header || u.body) return a().createElement(M, u, n);
@@ -1425,7 +1432,7 @@
             ? a().createElement(x, I({}, u, { contentId: r }), n)
             : a().createElement(P, u, n);
         };
-        var z = t(1311);
+        var j = t(1311);
         const V = {
           base: "ExtendedText_base_d9fc1",
           base__zeroPadding: "ExtendedText_base__zeroPadding_d1a1c",
@@ -1442,7 +1449,7 @@
           "tooltip__align-flex-end": "ExtendedText_tooltip__align-flex-end_fc0e0",
         };
         t(8354);
-        const W = (e) => e.replace(/&nbsp;/g, " ");
+        const $ = (e) => e.replace(/&nbsp;/g, " ");
         (() => {
           const e = new RegExp(
             [
@@ -1456,7 +1463,7 @@
             "gum",
           );
         })();
-        let $ = (function (e) {
+        let W = (function (e) {
             return (
               (e[(e.Word = 0)] = "Word"),
               (e[(e.LineBreak = 1)] = "LineBreak"),
@@ -1479,9 +1486,9 @@
             return ((e.NBSP = " "), (e.ZWNBSP = "\ufeff"), (e.NEW_LINE = "\n"), e);
           })({});
         const q = {
-            [U.NBSP]: $.NoBreakSymbol,
-            [U.ZWNBSP]: $.NoBreakSymbol,
-            [U.NEW_LINE]: $.LineBreak,
+            [U.NBSP]: W.NoBreakSymbol,
+            [U.ZWNBSP]: W.NoBreakSymbol,
+            [U.NEW_LINE]: W.LineBreak,
           },
           H = ["zh_cn", "zh_sg", "zh_tw", "ja", "th"].includes(
             R.strings.settings.LANGUAGE_CODE().toLowerCase(),
@@ -1537,22 +1544,22 @@
                 );
           },
           ue = {
-            [$.Word]: ee,
-            [$.NoBreakSymbol]: ee,
-            [$.Binding]: ({ elementList: e, textBlock: u, key: t }) =>
+            [W.Word]: ee,
+            [W.NoBreakSymbol]: ee,
+            [W.Binding]: ({ elementList: e, textBlock: u, key: t }) =>
               a().createElement(
                 "span",
                 { key: t, "data-block-type": u.blockType },
                 e.map((e) => a().createElement(a().Fragment, { key: t }, e)),
               ),
-            [$.LineBreak]: ({ key: e }) =>
-              a().createElement("span", { key: e, "data-block-type": $.LineBreak, className: Z }),
-            [$.NewLine]: ({ elementList: e, key: u }) =>
-              a().createElement("span", { key: u, "data-block-type": $.NewLine, className: X }, e),
-            [$.NoBreakWrapper]: ({ elementList: e, key: u }) =>
+            [W.LineBreak]: ({ key: e }) =>
+              a().createElement("span", { key: e, "data-block-type": W.LineBreak, className: Z }),
+            [W.NewLine]: ({ elementList: e, key: u }) =>
+              a().createElement("span", { key: u, "data-block-type": W.NewLine, className: X }, e),
+            [W.NoBreakWrapper]: ({ elementList: e, key: u }) =>
               a().createElement(
                 "span",
-                { key: u, "data-block-type": $.NoBreakWrapper, className: Y },
+                { key: u, "data-block-type": W.NoBreakWrapper, className: Y },
                 e,
               ),
           },
@@ -1582,7 +1589,7 @@
                       r = ue[n],
                       o = te(e, r, u);
                     return (
-                      n === $.NoBreakWrapper
+                      n === W.NoBreakWrapper
                         ? t.push(r({ elementList: o, textBlock: e, key: `${u}` }))
                         : t.push(...o),
                       t
@@ -1656,20 +1663,20 @@
                 e,
                 /(\n+|[\xa0\ufeff]+)/g,
                 (e) => {
-                  n.push({ blockType: $.Word, colorTag: u, childList: ae(e, t) });
+                  n.push({ blockType: W.Word, colorTag: u, childList: ae(e, t) });
                 },
                 (e) => {
                   const t = e[0],
                     r = q[t.charAt(0)];
-                  r === $.LineBreak
+                  r === W.LineBreak
                     ? n.push(
                         ...((e) => {
                           const u = [
-                            { blockType: $.LineBreak, colorTag: "", childList: [e.charAt(0)] },
+                            { blockType: W.LineBreak, colorTag: "", childList: [e.charAt(0)] },
                           ];
                           for (let t = 0; t < e.length - 1; t++)
                             u.push({
-                              blockType: $.NewLine,
+                              blockType: W.NewLine,
                               colorTag: "",
                               childList: [e.charAt(0)],
                             });
@@ -1699,7 +1706,7 @@
                     i = void 0 === u[o] ? e[0] : u[o];
                   "string" == typeof i || "number" == typeof i
                     ? r.push(...se(String(i), t, n))
-                    : r.push({ blockType: $.Binding, colorTag: t, childList: [i] });
+                    : r.push({ blockType: W.Binding, colorTag: t, childList: [i] });
                 },
               ),
               r
@@ -1709,11 +1716,11 @@
             if (!e) return [u];
             const t = [],
               n = Object.assign({}, u, { childList: u.childList.splice(0, 1) });
-            if (e.blockType === $.NoBreakWrapper) (e.childList.push(n), t.push(e));
+            if (e.blockType === W.NoBreakWrapper) (e.childList.push(n), t.push(e));
             else {
               const u = Object.assign({}, e, { childList: e.childList.splice(-1) });
               (e.childList.length > 0 && t.push(e),
-                t.push({ blockType: $.NoBreakWrapper, colorTag: "", childList: [u, n] }));
+                t.push({ blockType: W.NoBreakWrapper, colorTag: "", childList: [u, n] }));
             }
             return (u.childList.length > 0 && t.push(u), t);
           },
@@ -1724,7 +1731,7 @@
               let t = !1;
               return (
                 e.forEach((e) => {
-                  e.blockType === $.NoBreakSymbol
+                  e.blockType === W.NoBreakSymbol
                     ? ((t = !0), u.push(...ce(u.pop(), e)))
                     : (t ? u.push(...ce(u.pop(), e)) : u.push(e), (t = !1));
                 }),
@@ -1746,7 +1753,7 @@
                   ),
                   n
                 );
-              })(W(e).replace(/&zwnbsp;/g, "\ufeff"), u, t),
+              })($(e).replace(/&zwnbsp;/g, "\ufeff"), u, t),
             );
             return ne(n);
           },
@@ -1772,7 +1779,7 @@
             for (let l = t; l >= 0; l--) {
               const t = e[l],
                 c = Number(e[l].getAttribute("data-block-type"));
-              if (c === $.LineBreak || c === $.NewLine || c === $.Binding) continue;
+              if (c === W.LineBreak || c === W.NewLine || c === W.Binding) continue;
               const d = t.textContent || "";
               if (!(t.childElementCount > 1)) {
                 const e = Fe(t, n, r),
@@ -1885,7 +1892,7 @@
                   );
                   (0, i.useEffect)(() => {
                     if (!e.current || !t) return;
-                    const u = new z.Z((e) => n(e));
+                    const u = new j.Z((e) => n(e));
                     return (
                       u.observe(e.current),
                       () => {
@@ -1907,7 +1914,7 @@
                   },
                   a().createElement("div", { className: V.unTruncated, ref: F }, p),
                   a().createElement(
-                    j,
+                    z,
                     {
                       tooltipArgs: g,
                       className: r()(
@@ -2072,13 +2079,13 @@
               e
             );
           })({}),
-          je = (function (e) {
+          ze = (function (e) {
             return ((e.Idle = "Idle"), (e.In = "In"), (e.End = "End"), e);
           })({});
-        const ze = "ProgressBarDeltaGrow_base_f4d46",
+        const je = "ProgressBarDeltaGrow_base_f4d46",
           Ve = "ProgressBarDeltaGrow_base__withoutBounce_b1398",
-          We = "ProgressBarDeltaGrow_glow_c912d",
-          $e = (e) => (e ? { left: 0 } : { right: 0 }),
+          $e = "ProgressBarDeltaGrow_glow_c912d",
+          We = (e) => (e ? { left: 0 } : { right: 0 }),
           Ge = (e, u) => (e ? { right: 100 - u + "%" } : { left: `${u}%` }),
           Ue = (e) => ({ transitionDuration: `${e}ms` }),
           qe = (0, i.memo)(
@@ -2125,10 +2132,10 @@
                         : void (m && l && l());
               }, [C, t, m, B, D, p, l, u, e]);
               const b = (0, i.useMemo)(
-                  () => Object.assign({ width: "100%" }, Ue(e), $e(E)),
+                  () => Object.assign({ width: "100%" }, Ue(e), We(E)),
                   [E, e],
                 ),
-                f = (0, i.useMemo)(() => Object.assign({ width: "0%" }, Ue(e), $e(E)), [E, e]),
+                f = (0, i.useMemo)(() => Object.assign({ width: "0%" }, Ue(e), We(E)), [E, e]),
                 h = (0, i.useMemo)(
                   () => Object.assign({ width: "0%" }, Ge(E, n), Ue(e)),
                   [n, E, e],
@@ -2138,13 +2145,13 @@
                   [n, E, s, e],
                 );
               if (m) return null;
-              const w = r()(ze, d, E && 0 === s && Ve);
+              const w = r()(je, d, E && 0 === s && Ve);
               return a().createElement(
                 "div",
                 { style: D ? h : v, className: w },
                 a().createElement(
                   "div",
-                  { style: p ? f : b, className: We },
+                  { style: p ? f : b, className: $e },
                   a().createElement(Se, { size: o }),
                 ),
               );
@@ -2217,12 +2224,12 @@
               onChangeAnimationState: l,
             }) => {
               const c = o < n,
-                d = (0, i.useState)(je.Idle),
+                d = (0, i.useState)(ze.Idle),
                 E = d[0],
                 A = d[1],
-                F = E === je.In,
-                _ = E === je.End,
-                m = E === je.Idle,
+                F = E === ze.In,
+                _ = E === ze.End,
+                m = E === ze.Idle,
                 D = (0, i.useCallback)(
                   (e) => {
                     (A(e), l && l(e));
@@ -2232,14 +2239,14 @@
               ((0, i.useEffect)(() => {
                 if (m && !t) {
                   return Me(() => {
-                    D(je.In);
+                    D(ze.In);
                   }, u);
                 }
               }, [D, t, m, u]),
                 (0, i.useEffect)(() => {
                   if (F) {
                     return Me(() => {
-                      (s && s(), D(je.End));
+                      (s && s(), D(ze.End));
                     }, e + u);
                   }
                 }, [D, F, s, u, e]));

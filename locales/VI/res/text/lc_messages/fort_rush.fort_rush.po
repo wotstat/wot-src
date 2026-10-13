@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Đã hoàn tất mọi Data Block!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Data Block {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Kiểm soát các ăng-ten. Duy trì mạng lưới. Bảo đảm đường truyền."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "Chế độ sẽ khả dụng trong"
+
+msgid "bannerTooltip/header"
+msgstr "Black Signal"
+
+msgid "bannerTooltip/mode"
+msgstr "CHẾ ĐỘ"
+
+msgid "bannerTooltip/modeHint"
+msgstr "— chuyển sang chế độ game khác"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Hiệu suất máy tính hiện tại không đủ mạnh cho chế độ này. Bạn sẽ gặp vấn đề với đồ họa và chuyển động xe. Client trò chơi cũng có khả năng gặp sự cố."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "Nếu không đáp ứng được, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Hiệu suất Thấp"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Chế độ đòi hỏi nhiều tài nguyên máy tính"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Hiệu suất bị Giảm"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "HP đã khôi phục"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Service Score"
+
+msgid "battleLoading/description"
+msgstr "Kiểm soát các ăng-ten. Duy trì mạng lưới. Bảo đảm đường truyền."
+
+msgid "battleLoading/header"
+msgstr "Black Signal"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "Chiếm được một ăng-ten sẽ hồi phục chút HP cho xe của bạn. Tận dụng lợi thế này để giữ vững vị trí và chuẩn bị chống phản công."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Củng cố và Hồi phục"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "Không thể chiếm ăng-ten khi xe địch còn hiện diện. Hãy xử lý mọi kẻ xâm nhập để tiếp tục kiểm soát mục tiêu."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Tranh Chiếm"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "Sau khi tái triển khai, xe của bạn sẽ được bảo vệ khỏi sát thương trong 10 giây. Tận dụng thời gian này để quay lại chiến đấu hoặc tìm chỗ nấp."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Bảo vệ Tái triển khai"
+
+msgid "battleQueue/title"
+msgstr "Black Signal"
+
+msgid "capturingIndicator/captured"
+msgstr "Đã chiếm Ăng-ten"
+
+msgid "capturingIndicator/capturing"
+msgstr "Đang chiếm Ăng-ten"
+
+msgid "capturingIndicator/contesting"
+msgstr "Tranh chấp Ăng-ten"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "Vô hiệu hóa Ăng-ten"
+
+msgid "endGame/reason/210"
+msgstr "Cả 2 phe đã đạt giới hạn Điểm Signal Point"
+
+msgid "endGame/reason/3"
+msgstr "Hết giờ"
+
+msgid "endGame/reason/6/lose"
+msgstr "Địch đã đạt giới hạn Điểm Signal Point"
+
+msgid "endGame/reason/6/win"
+msgstr "Phe ta đã đạt giới hạn Điểm Signal Point"
+
+msgid "endGame/reason/7"
+msgstr "Hết giờ"
+
+msgid "notifications/progression/header"
+msgstr "Xin chúc mừng!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Chi tiết"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Thưởng khi hoàn tất bước Tiến trình&nbsp;%(stageIdx)s: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Mọi Data Block đã được hoàn thành."
+
+msgid "progression/completedTitle"
+msgstr "Tiến trình đã hoàn tất!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Thời gian còn:"
+
+msgid "progression/dailyMissions/title"
+msgstr "Lệnh công tác"
+
+msgid "progression/description"
+msgstr "Hoàn thành nhiệm vụ hằng ngày trong các trận Black Signal để phát triển Tiến trình."
+
+msgid "progression/info_button/body"
+msgstr "Click để biết thêm thông tin"
+
+msgid "progression/info_button/header"
+msgstr "Chi tiết Black Signal"
+
+msgid "progression/widget/stageLabel"
+msgstr "Data Block %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Bạn đã hoàn thành mọi Data Block!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Đã hoàn tất"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Thưởng Data Block"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Data Block hiện tại"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "Nhiệm vụ hằng ngày đặt lại sau:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Black Signal"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Tiến trình hiện tại"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "Tiến trình tạm thời không khả dụng."
+
+msgid "progression/widget/unavailable"
+msgstr "Tiến trình bất khả dụng"
+
+msgid "progressionView/stateHeader"
+msgstr "Tiến trình Black Signal"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Hủy bỏ"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Đồng đội vẫn cần bạn! Nếu bỏ trận, phe ta phải chịu thiệt thòi lớn, còn bạn sẽ không được ghi nhận bất cứ tiến độ nhiệm vụ hay phần thưởng nào."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Thoát"
+
+msgid "quitBattle/leaver/title"
+msgstr "Bạn đang bỏ trận"
+
+msgid "respawnTimer/description"
+msgstr "Một vị trí tái triển khai khác có thể mang lại lợi thế chiến lược."
+
+msgid "respawnTimer/title"
+msgstr "Triển khai ở:"
+
+msgid "rewardScreen/button"
+msgstr "Rõ!"
+
+msgid "rewardScreen/title"
+msgstr "Đã mở khóa Thưởng Data Block"
+
+msgid "timersPanel/invulnerable"
+msgstr "Miễn nhiễm"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Kiếm Data Packet để hoàn thành Data Block và nhận tài nguyên giá trị, gồm cả phần thưởng lớn. Data Packet có thể thu được bằng cách gây sát thương, diệt địch trong trận, chiếm điểm, làm nhiệm vụ hằng ngày."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Data Packet"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Tất cả xe"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Đặt lại bộ lọc"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Đặt lại bộ lọc để xem xe khả dụng"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "Playlist này không chứa xe nào phù hợp với chế độ."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Không có xe phù hợp"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Không tìm thấy xe nào"
+
+msgid "welcomeScreen/button"
+msgstr "Tiếp tục"
+
+msgid "welcomeScreen/description1"
+msgstr "Đồng chí là một phần của lực lượng đặc nhiệm thiết giáp, được lệnh chiếm giữ và kiểm soát mạng lưới bí mật, trải dài khắp khu vực tranh chấp. Duy trì quyền kiểm soát bằng mọi giá."
+
+msgid "welcomeScreen/description2"
+msgstr "Có kẻ bỏ nhiều công sức để che giấu thông tin tình báo này. Hoàn thành nhiệm vụ, thu hồi các mảnh dữ liệu mã hóa."
+
+msgid "welcomeScreen/description3"
+msgstr "Hoàn thành các Data Block để nhận phần thưởng giá trị từ nhiệm vụ sự kiện."
+
+msgid "welcomeScreen/header1"
+msgstr "Chiếm ăng-ten"
+
+msgid "welcomeScreen/header2"
+msgstr "Giải mã tín hiệu"
+
+msgid "welcomeScreen/header3"
+msgstr "Tiến trình và Phần thưởng"
+
+msgid "welcomeScreen/title"
+msgstr "Black Signal"
