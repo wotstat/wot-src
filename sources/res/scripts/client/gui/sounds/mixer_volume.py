@@ -1,9 +1,9 @@
-import WWISE
-from PlayerEvents import g_playerEvents
+import WWISE, SoundGroups
 from gui.SystemMessages import pushMessage, SM_TYPE
 from helpers import dependency
 from skeletons.connection_mgr import IConnectionManager
 MIN_SOUND_SYSTEM_MIXER_VALUE = 10
+RECOMMENDED_SOUND_SYSTEM_MIXER_VALUE = 100
 
 class SystemMixerVolumeCtrl(object):
     connectionMgr = dependency.descriptor(IConnectionManager)
@@ -15,12 +15,10 @@ class SystemMixerVolumeCtrl(object):
 
     def init(self):
         self.connectionMgr.onConnected += self.__onConnected
-        g_playerEvents.onAvatarBecomeNonPlayer += self.__onAvatarBecomeNonPlayer
         return
 
     def fini(self):
         self.connectionMgr.onConnected -= self.__onConnected
-        g_playerEvents.onAvatarBecomeNonPlayer -= self.__onAvatarBecomeNonPlayer
         return
 
     def isSystemMixerVolumeDisabled(self):
@@ -29,13 +27,13 @@ class SystemMixerVolumeCtrl(object):
             self.__invAppMixerVolume = False
         return self.__appMixerVolume <= MIN_SOUND_SYSTEM_MIXER_VALUE
 
-    def markNeedInvAppMixerVolume(self):
+    def fixSystemMixerVolume(self):
+        WWISE.WW_setAppMixerVolume(RECOMMENDED_SOUND_SYSTEM_MIXER_VALUE)
         self.__invAppMixerVolume = True
         return
 
-    def __onAvatarBecomeNonPlayer(self):
+    def markNeedInvAppMixerVolume(self):
         self.__invAppMixerVolume = True
-        self.__checkSoundSystemOffStatus()
         return
 
     def __onConnected(self):
@@ -44,6 +42,6 @@ class SystemMixerVolumeCtrl(object):
         return
 
     def __checkSoundSystemOffStatus(self):
-        if self.isSystemMixerVolumeDisabled():
+        if self.isSystemMixerVolumeDisabled() and SoundGroups.g_instance.getMasterVolume() > 0:
             pushMessage(b'', SM_TYPE.SystemMixerVolumeDisabled, None, None)
         return
