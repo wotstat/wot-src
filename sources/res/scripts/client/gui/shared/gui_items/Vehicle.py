@@ -27,7 +27,6 @@ from gui.Scaleform.locale.ITEM_TYPES import ITEM_TYPES
 from gui.Scaleform.locale.RES_ICONS import RES_ICONS
 from gui.impl import backport
 from gui.impl.gen import R
-from gui.impl.gen_utils import INVALID_RES_ID
 from gui.prb_control import prb_getters, prbDispatcherProperty
 from gui.prb_control.settings import PREBATTLE_SETTING_NAME
 from gui.shared.economics import calcRentPackages, getActionPrc, calcVehicleRestorePrice
@@ -64,6 +63,7 @@ if typing.TYPE_CHECKING:
     from typing import Any, Dict, List, Optional, Tuple, Iterable
     from skeletons.gui.shared import IItemsRequester
     from items.customizations import CustomizationOutfit
+    from items.vehicle_mechanics_types import VehicleMechanicKey
     from items.vehicles import VehicleDescr
     from vehicle_outfit.outfit import Outfit
     from gui.shared.gui_items.vehicle_mechanics.vehicle_mechanic_item import VehicleMechanicItem
@@ -687,10 +687,10 @@ class Vehicle(FittingItem):
     @property
     def icon(self):
         unicName = getIconResourceName(self.name)
-        resID = R.images.gui.maps.icons.dyn(self.itemTypeName).dyn(unicName)()
-        if resID == INVALID_RES_ID:
+        res = R.images.gui.maps.icons.dyn(self.itemTypeName).dyn(unicName)
+        if not res.exists():
             return super(Vehicle, self).icon
-        return backport.image(resID)
+        return backport.image(res())
 
     def getExtraIconInfo(self, _=None):
         return
@@ -698,10 +698,10 @@ class Vehicle(FittingItem):
     @property
     def iconSmall(self):
         unicName = getIconResourceName(self.name)
-        resID = R.images.gui.maps.icons.dyn(self.itemTypeName).small.dyn(unicName)()
-        if resID == INVALID_RES_ID:
+        res = R.images.gui.maps.icons.dyn(self.itemTypeName).small.dyn(unicName)
+        if not res.exists():
             return super(Vehicle, self).iconSmall
-        return backport.image(resID)
+        return backport.image(res())
 
     @property
     def iconContour(self):
@@ -2256,9 +2256,9 @@ def getLevelIconPath(vehLevel):
 
 def getIconPath(vehicleName):
     unicName = getIconResourceName(vehicleName)
-    resID = R.images.gui.maps.icons.vehicle.dyn(unicName)()
-    if resID != -1:
-        return backport.image(resID)
+    res = R.images.gui.maps.icons.vehicle.dyn(unicName)
+    if res.exists():
+        return backport.image(res())
     return b''
 
 
@@ -2284,7 +2284,7 @@ def getIconShopResource(vehicleName, size):
 def getIconResource(vehicleName):
     rName = getIconResourceName(vehicleName=vehicleName)
     image = R.images.gui.maps.icons.vehicle.dyn(rName)
-    if image.isValid():
+    if image.exists():
         return image()
     else:
         return
@@ -2296,18 +2296,18 @@ def getIconResourceName(vehicleName):
 
 def getContourIconPath(vehicleName):
     unicName = getIconResourceName(vehicleName)
-    resID = R.images.gui.maps.icons.vehicle.contour.dyn(unicName)()
-    if resID == INVALID_RES_ID:
-        resID = R.images.gui.maps.icons.vehicle.contour.noImage()
-    return backport.image(resID)
+    res = R.images.gui.maps.icons.vehicle.contour.dyn(unicName)
+    if not res.exists():
+        res = R.images.gui.maps.icons.vehicle.contour.noImage
+    return backport.image(res())
 
 
 def getSmallIconPath(vehicleName):
     unicName = getIconResourceName(vehicleName)
-    resID = R.images.gui.maps.icons.vehicle.small.dyn(unicName)()
-    if resID == INVALID_RES_ID:
-        resID = R.images.gui.maps.icons.vehicle.small.noImage()
-    return backport.image(resID)
+    res = R.images.gui.maps.icons.vehicle.small.dyn(unicName)
+    if not res.exists():
+        res = R.images.gui.maps.icons.vehicle.small.noImage
+    return backport.image(res())
 
 
 def getUniqueIconPath(vehicleName, withLightning=False):
@@ -2331,9 +2331,9 @@ def getTypeVPanelIconPath(vehicleType):
 
 
 def getShopVehicleIconPath(size, name):
-    resID = R.images.gui.maps.shop.vehicles.num(size).dyn(replaceHyphenToUnderscore(name))()
-    if resID != -1:
-        return backport.image(resID)
+    res = R.images.gui.maps.shop.vehicles.num(size).dyn(replaceHyphenToUnderscore(name))
+    if res.exists():
+        return backport.image(res())
     return b''
 
 

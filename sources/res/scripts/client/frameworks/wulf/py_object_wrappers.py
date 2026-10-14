@@ -1,5 +1,6 @@
-from constants import IS_EDITOR, IS_WEB
-if not (IS_EDITOR or IS_WEB):
+from __future__ import absolute_import
+from constants import IS_EDITOR, IS_WEB, IS_CGF_DUMP
+if not (IS_EDITOR or IS_WEB or IS_CGF_DUMP):
     import _wulf as _py_objects
 else:
     import wulf_wrapper as _py_objects
@@ -15,6 +16,7 @@ PyObjectViewModel = _py_objects.PyObjectViewModel
 PyObjectWindowSettings = _py_objects.PyObjectWindowSettings
 PyObjectWindow = _py_objects.PyObjectWindow
 PyObjectWindowsArea = _py_objects.PyObjectWindowsArea
+PyResAccessor = _py_objects.ResAccessor
 isTranslatedKeyValid = _py_objects.isTranslatedKeyValid
 isTranslatedTextExisted = _py_objects.isTranslatedTextExisted
 getTranslatedText = _py_objects.getTranslatedText
@@ -30,4 +32,4 @@ getRealFormat = _py_objects.getRealFormat
 getTimeFormat = _py_objects.getTimeFormat
 getDateFormat = _py_objects.getDateFormat
 caseMap = _py_objects.caseMap
-__all__ = (b'ValueType', b'Resource', b'PyObjectArray', b'PyObjectMap', b'PyObjectCommand', b'PyGuiApplication', b'PyObjectViewSettings', b'PyObjectView', b'PyObjectViewModel', b'PyObjectWindowSettings', b'PyObjectWindow', b'PyObjectWindowsArea', b'isTranslatedKeyValid', b'isTranslatedTextExisted', b'getTranslatedText', b'getTranslatedPluralText', b'getImagePath', b'getSoundEffectId', b'getLayoutPath', b'getTranslatedTextByResId', b'getTranslatedPluralTextByResId', b'getTranslatedKey', b'getNumberFormat', b'getRealFormat', b'getTimeFormat', b'getDateFormat', b'caseMap')
+__all__ = (b'ValueType', b'Resource', b'PyObjectArray', b'PyObjectMap', b'PyObjectCommand', b'PyGuiApplication', b'PyObjectViewSettings', b'PyObjectView', b'PyObjectViewModel', b'PyObjectWindowSettings', b'PyObjectWindow', b'PyObjectWindowsArea', b'PyResAccessor', b'isTranslatedKeyValid', b'isTranslatedTextExisted', b'getTranslatedText', b'getTranslatedPluralText', b'getImagePath', b'getSoundEffectId', b'getLayoutPath', b'getTranslatedTextByResId', b'getTranslatedPluralTextByResId', b'getTranslatedKey', b'getNumberFormat', b'getRealFormat', b'getTimeFormat', b'getDateFormat', b'caseMap')

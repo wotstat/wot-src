@@ -889,6 +889,15 @@ msgstr "• Dodeljuje se tokom Velike trke 2019."
 msgid "Fest19Racer_descr"
 msgstr "Zaradi prvu nagradu na skali ličnog napredka."
 
+msgid "FortRushMedal_2026"
+msgstr "Presretač"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "Dodeljuje se svim agentima Skakavca koji su završili svaku etapu napretka događaja Crni signal 2026. Oznaka misije je pravilna: signal je presretnut i svetu je poklonjena još jedna mirna noć."
+
+msgid "FortRushMedal_2026_descr"
+msgstr "Završi napredak događaja Crni signal 2026"
+
 msgid "HE17A1"
 msgstr "Znak zveri"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "Skaut Mirny-13"
 
 msgid "hw2019Medal1_condition"
-msgstr "• Dodeljuje se svim igračima koji su ispunili respektivne zahteve tokom specijalnog dogadjaja u igri."
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2020."
 
 msgid "hw2019Medal1_descr"
 msgstr "Završi sve faze na težini od jedne zvezdice tokom operacije u Mirny-13."
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "Veteran Mirny-13"
 
 msgid "hw2019Medal2_condition"
-msgstr "• Dodeljuje se svim igračima koji su ispunili respektivne zahteve tokom specijalnog dogadjaja u igri."
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2020."
 
 msgid "hw2019Medal2_descr"
 msgstr "Završi sve faze na težini od dve zvezdice tokom operacije u Mirny-13."
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "Heroj Mirny-13"
 
 msgid "hw2019Medal3_condition"
-msgstr "• Dodeljuje se svim igračima koji su ispunili respektivne zahteve tokom specijalnog dogadjaja u igri."
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2020."
 
 msgid "hw2019Medal3_descr"
 msgstr "Završi sve faze na težini od tri zvezdice tokom operacije u Mirny-13."
 
 msgid "hw2019Medal_condition"
-msgstr "• Dodeljuje se svim igračima koji su ispunili respektivne zahteve tokom specijalnog dogadjaja u igri."
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2020."
 
 msgid "hw2019Medal_descr"
 msgstr "Primi sve stilove tokom operacije Mirny-13."
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "Ukroti zver"
 
 msgid "hw2021Medal1_condition"
-msgstr "• Dodeljuje se svim igračima koji su ispunili respektivne zahteve tokom specijalnog dogadjaja u igri."
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2021."
 
 msgid "hw2021Medal1_descr"
 msgstr "Završi sve faze na srednjoj težini tokom događaja Mirni: Nada"
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "Izabrani"
 
 msgid "hw2021Medal2_condition"
-msgstr "• Dodeljuje se svim igračima koji su ispunili respektivne zahteve tokom specijalnog dogadjaja u igri."
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2021."
 
 msgid "hw2021Medal2_descr"
 msgstr "Završi sve faze na velikoj težini tokom događaja Mirni: Nada"
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "Sablasna avantura"
 
 msgid "hw2022Medal01_condition"
-msgstr "Dodeljuje se svim igračima koji su ispunili zahteve tokom događaja."
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2022."
 
 msgid "hw2022Medal01_descr"
 msgstr "Završi sve misije koje uključuju Borbene veštine tokom događaja Udar Bundeva."
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "Kosač"
 
 msgid "hw2022Medal02_condition"
-msgstr "Dodeljuje se svim igračima koji su ispunili zahteve tokom događaja."
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2022."
 
 msgid "hw2022Medal02_descr"
 msgstr "Zaradi 65000 poena Noći veštica tokom Udara Bundeva."
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "Povratnik"
 
 msgid "hw2023Medal_condition"
-msgstr "Dodeljuje se tokom Mirni: Izgubljena nada 2023."
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2023."
 
 msgid "hw2023Medal_descr"
 msgstr "Dešifruj sve rolne tokom događaja Mirni: Izgubljena nada."
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "Vavilonski istraživač"
 
 msgid "hw2024Medal_condition"
-msgstr "Dodeljuje se tokom Vavilon projekat 2024."
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2024."
 
 msgid "hw2024Medal_descr"
 msgstr "Dešifruj sve ploče tokom događaja Vavilon projekat."
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "Zabranjeno znanje"
 
 msgid "hw2025Medal_condition"
-msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja."
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2025."
 
 msgid "hw2025Medal_descr"
 msgstr "Dešifruj sve zapise u događaju: Vavilon: Zabranjena zona."
+
+msgid "hw2026Medal_1"
+msgstr "Nikoga ne ostavljamo iza"
+
+msgid "hw2026Medal_1_condition"
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2026."
+
+msgid "hw2026Medal_1_descr"
+msgstr "Dešifruj sve zapise i događaju Vavilon: Mračni toranj. Odbio si da ostaviš Aleks!"
+
+msgid "hw2026Medal_2"
+msgstr "Njen dom je Mirium"
+
+msgid "hw2026Medal_2_condition"
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2026."
+
+msgid "hw2026Medal_2_descr"
+msgstr "Dešifruj sve zapise i događaju Vavilon: Mračni toranj. Pustio si Aleks da ode u Mirium!"
+
+msgid "hw2026Medal_3"
+msgstr "Sakupljač anomalija"
+
+msgid "hw2026Medal_3_condition"
+msgstr "Dodeljuje se igračima koji su ispunili uslove tokom događaja 2026."
+
+msgid "hw2026Medal_3_descr"
+msgstr "Sakupi sve anomalije u događaju Vavilon: Mračni toranj."
 
 msgid "impenetrable"
 msgstr "Neprobojan"

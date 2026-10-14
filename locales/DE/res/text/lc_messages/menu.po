@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s Freie EP und Besatzungs-EP für %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s Bonus auf die im Gefecht verdiente Erfahrung für %(effectHours)s"
+msgstr "%(effectValue)s Gefechts-XP für %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s Bonus auf die im Gefecht verdienten Kreditpunkte für %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Das Fahrzeug ist mit einem Raketenwerfer ausgestattet, der in der Kanone
 msgid "moduleInfo/closeBtn"
 msgstr "Schließen"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Gefechtsbeschleunigung"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Ausgestattet mit Magazinladeautomat auf Fahrzeugen:"
 
@@ -6162,6 +6165,12 @@ msgstr "(Stück)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Dauer für elektromechanisches Fügungssichtgerät"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Abklingzeit"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Dauer"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Abkühlzeit"

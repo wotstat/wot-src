@@ -97,31 +97,31 @@ msgstr "Увага на <Квадрат на міні-мапі>!"
 msgid "chat_example/attention_to_position"
 msgstr "Увага на позицію!"
 
-msgid "chat_example/global_msg/atk/focus_hq"
+msgid "chat_example/global_msg_atk_focus_hq"
 msgstr "Знищте цілі"
 
-msgid "chat_example/global_msg/atk/save_tanks"
+msgid "chat_example/global_msg_atk_save_tanks"
 msgstr "Не втрачайте своєї техніки!"
 
-msgid "chat_example/global_msg/atk/time"
+msgid "chat_example/global_msg_atk_time"
 msgstr "Захопіть зону"
 
-msgid "chat_example/global_msg/def/focus_hq"
+msgid "chat_example/global_msg_def_focus_hq"
 msgstr "Бороніть цілі"
 
-msgid "chat_example/global_msg/def/save_tanks"
+msgid "chat_example/global_msg_def_save_tanks"
 msgstr "Не втрачайте своєї техніки!"
 
-msgid "chat_example/global_msg/def/time"
+msgid "chat_example/global_msg_def_time"
 msgstr "Захищайте зони"
 
-msgid "chat_example/global_msg/lane/center"
+msgid "chat_example/global_msg_lane_center"
 msgstr "В зоні потрібно підкріплення"
 
-msgid "chat_example/global_msg/lane/east"
+msgid "chat_example/global_msg_lane_east"
 msgstr "В зоні потрібно підкріплення"
 
-msgid "chat_example/global_msg/lane/west"
+msgid "chat_example/global_msg_lane_west"
 msgstr "В зоні потрібно підкріплення"
 
 msgid "chat_example/going_there"
@@ -232,31 +232,31 @@ msgstr "Я захищатиму базу!"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "Я захищаю базу %(strArg1)s!"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "Знищуйте цілі!"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
 msgstr "У нас вистачає часу, не втрачайте своєї техніки!"
 
-msgid "chat_shortcuts/global_msg/atk/time"
+msgid "chat_shortcuts/global_msg_atk_time"
 msgstr "Час вичерпується! Киньте всі сили на захоплення!"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "Бороніть цілі!"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
 msgstr "Нам потрібно стримати натиск, не втрачайте своєї техніки!"
 
-msgid "chat_shortcuts/global_msg/def/time"
+msgid "chat_shortcuts/global_msg_def_time"
 msgstr "Час вичерпується! Захищайтеся щосили!"
 
-msgid "chat_shortcuts/global_msg/lane/center"
+msgid "chat_shortcuts/global_msg_lane_center"
 msgstr "Потрібно підкріплення в зоні %(strArg1)s!"
 
-msgid "chat_shortcuts/global_msg/lane/east"
+msgid "chat_shortcuts/global_msg_lane_east"
 msgstr "Потрібно підкріплення в зоні %(strArg1)s!"
 
-msgid "chat_shortcuts/global_msg/lane/west"
+msgid "chat_shortcuts/global_msg_lane_west"
 msgstr "Потрібно підкріплення в зоні %(strArg1)s!"
 
 msgid "chat_shortcuts/going_there"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "Натисніть"
 
 msgid "devMaps/mapInfo/info"
-msgstr "На цій мапі можуть траплятися випадкові події. Такі мапи можна вимкнути в налаштуваннях гри."
+msgstr "На цій мапі можуть траплятися випадкові події."
 
 msgid "devMaps/mapInfo/text"
 msgstr "Мапа з випадковими подіями"

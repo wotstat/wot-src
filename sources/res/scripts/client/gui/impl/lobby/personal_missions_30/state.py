@@ -289,13 +289,6 @@ class _PersonalMissionsChildState(LobbyState):
             self.addNavigationTransition(lsm.getStateByCls(ShopState), record=True)
         return
 
-    def _onEntered(self, event):
-        super(_PersonalMissionsChildState, self)._onEntered(event)
-        self._cachedParams = dict(event.params)
-        operationID = self._cachedParams.get(b'operationID')
-        self._canOpenOperationPage = operationID and canOpenOperationPage(operationID)
-        return
-
     def readyToEnter(self):
         mainView = self.getMachine().getRelatedView(self)
         return mainView and mainView.viewStatus in (ViewStatus.LOADED, ViewStatus.LOADING) and self.assemblingManager.isVehicleGOForOperationReady(self._cachedParams.get(b'operationID'))
@@ -303,6 +296,19 @@ class _PersonalMissionsChildState(LobbyState):
     def getNavigationDescription(self):
         return LobbyStateDescription(title=self._getNavigationDescriptionTitle(), infos=(
          LobbyStateDescription.Info(type=LobbyStateDescription.Info.Type.INFO, onMoreInfoRequested=self.__onMoreInfoRequested, tooltipBody=backport.text(R.strings.personal_missions.pages.button.infopage.description())),))
+
+    def goBack(self):
+        if self.getParent().isAnimationPlayed():
+            return
+        super(_PersonalMissionsChildState, self).goBack()
+        return
+
+    def _onEntered(self, event):
+        super(_PersonalMissionsChildState, self)._onEntered(event)
+        self._cachedParams = dict(event.params)
+        operationID = self._cachedParams.get(b'operationID')
+        self._canOpenOperationPage = operationID and canOpenOperationPage(operationID)
+        return
 
     def _getNavigationDescriptionTitle(self):
         raise NotImplementedError

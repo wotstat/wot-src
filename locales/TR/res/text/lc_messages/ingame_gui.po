@@ -97,31 +97,31 @@ msgstr "<Miniharitada Sektör>'e Dikkat!"
 msgid "chat_example/attention_to_position"
 msgstr "Konuma dikkat!"
 
-msgid "chat_example/global_msg/atk/focus_hq"
+msgid "chat_example/global_msg_atk_focus_hq"
 msgstr "Hedefleri yok edin"
 
-msgid "chat_example/global_msg/atk/save_tanks"
+msgid "chat_example/global_msg_atk_save_tanks"
 msgstr "Tanklarınızı koruyun!"
 
-msgid "chat_example/global_msg/atk/time"
+msgid "chat_example/global_msg_atk_time"
 msgstr "Alanı ele geçirin"
 
-msgid "chat_example/global_msg/def/focus_hq"
+msgid "chat_example/global_msg_def_focus_hq"
 msgstr "Hedefleri savunun"
 
-msgid "chat_example/global_msg/def/save_tanks"
+msgid "chat_example/global_msg_def_save_tanks"
 msgstr "Tanklarınızı koruyun!"
 
-msgid "chat_example/global_msg/def/time"
+msgid "chat_example/global_msg_def_time"
 msgstr "Alanları savunun"
 
-msgid "chat_example/global_msg/lane/center"
+msgid "chat_example/global_msg_lane_center"
 msgstr "Alanı güçlendirin"
 
-msgid "chat_example/global_msg/lane/east"
+msgid "chat_example/global_msg_lane_east"
 msgstr "Alanı güçlendirin"
 
-msgid "chat_example/global_msg/lane/west"
+msgid "chat_example/global_msg_lane_west"
 msgstr "Alanı güçlendirin"
 
 msgid "chat_example/going_there"
@@ -232,31 +232,31 @@ msgstr "Ben üssü koruyacağım!"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "%(strArg1)s üssünü savunuyorum!"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "Hedefleri yok edin!"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
 msgstr "Yeterli vaktimiz var, tanklarınızı koruyun!"
 
-msgid "chat_shortcuts/global_msg/atk/time"
+msgid "chat_shortcuts/global_msg_atk_time"
 msgstr "Vaktimiz kalmadı, elinizdeki her şey ile bir alanı ele geçirin!"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "Hedefleri savunun!"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
 msgstr "Dayanmamız gerekli, tanklarınızı koruyun!"
 
-msgid "chat_shortcuts/global_msg/def/time"
+msgid "chat_shortcuts/global_msg_def_time"
 msgstr "Vakit kalmadı, her ne pahasına olursa olsun alanları savunun!"
 
-msgid "chat_shortcuts/global_msg/lane/center"
+msgid "chat_shortcuts/global_msg_lane_center"
 msgstr "%(strArg1)s alanının yardıma ihtiyacı var, güçlendirin!"
 
-msgid "chat_shortcuts/global_msg/lane/east"
+msgid "chat_shortcuts/global_msg_lane_east"
 msgstr "%(strArg1)s alanının yardıma ihtiyacı var, güçlendirin!"
 
-msgid "chat_shortcuts/global_msg/lane/west"
+msgid "chat_shortcuts/global_msg_lane_west"
 msgstr "%(strArg1)s alanının yardıma ihtiyacı var, güçlendirin!"
 
 msgid "chat_shortcuts/going_there"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "Şu tuşa basarak:"
 
 msgid "devMaps/mapInfo/info"
-msgstr "Bu haritada rastgele olaylar gerçekleşebilir. Bu tür haritaları oyunun ayarlarından kapatabilirsiniz."
+msgstr "Bu haritada rastgele olaylar gerçekleşebilir."
 
 msgid "devMaps/mapInfo/text"
 msgstr "Rastgele Olaylı Harita"

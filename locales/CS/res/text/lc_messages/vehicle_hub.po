@@ -10,6 +10,9 @@ msgstr "Umožňuje vystřelit ze zásobníku sérii granátů jeden po druhém, 
 msgid "abilities/common/description/autoShootGun"
 msgstr "Střílí rychlé dávky granátů, které za cenu průbojnosti a přesnosti v krátkém čase způsobují velké poškození. Nejefektivnější v boji zblízka."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Aktivujte škrtící klapku pro dočasné zvýšení výkonu motoru, rychlosti a pohyblivosti při zachování spolehlivého ovládání děla. To umožňuje hbitou a dynamickou hru, aniž by tím byla ohrožena bojová efektivita."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Střílí granáty s hvězdicovým pláštěm, které způsobují maximální poškození na vzdálenost do 50 m. Poškození způsobené granátem se snižuje se zvětšující se vzdáleností, což činí granáty nejefektivnější v boji zblízka."
 
@@ -61,6 +64,9 @@ msgstr "Vylepšené automatické dobíjení"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Automatické dělo"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Bojová škrtící klapka"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Dělo s hlubokým vývrtem"
 
@@ -102,6 +108,15 @@ msgstr "Turbo režim"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Režim palby salvou"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Zlepšuje obratnost bez omezení ovládání děla."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Systém umožňuje nepřetržitou palbu bez nutnosti nabíjení a řídí způsob, jakým dělo při palbě generuje teplo."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Dělo je vybavené speciálními zařízeními, která umožňují před výstřelem upravit některé parametry granátu."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Stáním na místě nebo pomalou jízdou získáváte úrovně přesnosti, které vylepší přesnost vašeho dalšího výstřelu.\nNa nejvyšší úrovni přesnosti získáte dobré ovládání děla se sníženým rozptylem i za pohybu nebo při otáčení věže/korby."
@@ -355,6 +370,15 @@ msgstr "Umožňuje střílet z obou děl současně, ale za cenu delší doby n
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Speciální mechanika, která na krátkou dobu zvyšuje výkon motoru, zrychlení a maximální rychlost."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Aktivujte škrtící klapku pro dočasné zvýšení výkonu motoru, rychlosti a pohyblivosti při zachování spolehlivého ovládání děla. To umožňuje hbitou a dynamickou hru, aniž by tím byla ohrožena bojová efektivita."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Dělo může střílet nepřetržitě bez nutnosti nabíjení. Každý výstřel generuje teplo: čím vyšší je jeho teplota, tím více se mění některé parametry děla. Nepřetržitá palba způsobí přehřátí děla, což znemožní další palbu, dokud se dělo neochladí."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Dělo tohoto vozidla je vybaveno speciálními zařízeními, která umožňují před výstřelem upravit některé parametry granátů. V přehledu výbavy je uvedeno, na které parametry má vliv přepínání mezi režimy palby."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Zůstanete-li stát na místě nebo se budete pohybovat rychlostí nižší než určitá hodnota, vaše vozidlo bude moci kalibrovat svůj Analogový balistický počítač a zvýšit úrovně přesnosti, čímž se zvýší přesnost vašeho dalšího výstřelu. Pokud překročíte rychlostní limit, váš postup ve zvyšování úrovně přesnosti se pozastaví, dokud nezpomalíte. Na nejvyšší úrovni přesnosti získá vaše vozidlo téměř dokonalou stabilizaci děla s minimálním rozptylem za pohybu nebo při otáčení věže/korby. Tento efekt se po výstřelu zruší."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Tato mechanická úprava na krátkou dobu výrazně zvyšuje zrychlení vozidla, výkon motoru a maximální rychlost vpřed i vzad, což vám umožní rychle reagovat na nepřátelské útoky a zaskočit protivníky dynamickými manévry. Udržování vysoké rychlosti jízdy zkracuje dobu obnovení této mechaniky."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Všechny uvedené hodnoty představují maximální možné hodnoty pro dané vozidlo. Tyto hodnoty může změnit výbava, směrnice a spotřební doplňky, ale tyto změny zde nejsou zohledněny."
+msgstr "Všechny uvedené hodnoty představují nejlepší možné hodnoty pro dané vozidlo. Tyto hodnoty může změnit výbava, směrnice a spotřební doplňky, ale tyto změny zde nejsou zohledněny."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "kalibrovatelný AP granát"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "kredity za každou bitvu"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "přesunutí posádky z jakékoliv třídy vozidla bez postihu"
+msgstr "přesunutí posádky z jakékoliv typu vozidla bez postihu"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "Bojové zkušenosti a zkušenosti posádky"

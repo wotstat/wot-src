@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Vermindert kanonspreiding tijdens beweging en het draaien van de romp en koepel met {{@ class $highlightClass}}%(generalValue)s%%{{/}}."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s spreiding tijdens beweging\nen het draaien van de romp."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Vermindert\nkanonspreiding."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Vermindert de kanonspreiding tijdens beweging en het draaien van de romp en koepel."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Scherpschutter"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Maakt je voertuig {{@ class $highlightClass}}onkwetsbaar{{/}} voor {{@ class $highlightClass}}explosieschade{{/}} van Egel en Alfa Egel.\nHet voertuig zal nog steeds ramschade ontvangen van botsingen met Egels."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Maakt je voertuig onkwetsbaar\nvoor explosieschade van Egels."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Beschermt je voertuig tegen explosieschade van Egels."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Maakt je voertuig onkwetsbaar voor explosieschade van Egel en Alfa Egel.\nHet voertuig zal nog steeds ramschade ontvangen van botsingen met Egels."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Explosie-onkwetsbaarheid"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Verwijdert de {{@ class $highlightClass}}±25%{{/}} variatie van schade, waardoor schoten voorspelbaarder worden."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Schoten hebben geen ±25%% variatie\nvan schade."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Schoten hebben geen ±25% variatie van schade."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Verwijdert de ±25% variatie van schade, waardoor schoten voorspelbaarder worden."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Gecontroleerde schade"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Vermindert ontvangen schade* (inclusief schade van schoten, vijandelijk vuur, rammen, schadezones, corrosiefase, moduleschade, etc.) met {{@ class $highlightClass}}%(mitigation)s%%{{/}}.\n*Niet van toepassing op schade door vallen en tijdens de executiefase."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s ontvangen schade."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Vermindert ontvangen schade."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Vermindert ontvangen schade* (inclusief schade van schoten, vijandelijk vuur, rammen, schadezones, corrosiefase, moduleschade, etc.).\n*Niet van toepassing op schade door vallen en tijdens de executiefase."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Schadeabsorptie"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Geeft {{@ class $highlightClass}}%(chance)s%%{{/}} kans om {{@ class $highlightClass}}%(heal)s{{/}} van je levenspunten te herstellen wanneer je schade veroorzaakt aan vijandelijke voertuigen door ze te beschieten."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s kans om HP te herstellen\nwanneer je schade veroorzaakt door te schieten."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Kan levenspunten herstellen\nwanneer je schade veroorzaakt door te schieten"
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Geeft een bepaalde kans om je levenspunten te herstellen wanneer je schade veroorzaakt aan vijandelijke voertuigen door ze te beschieten."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Vampierbeet"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Verhoogt het aantal levenspunten van je voertuig met {{@ class $highlightClass}}%(health)s%%{{/}}."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s levenspunten"
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Verhoogt het aantal\nlevenspunten van je voertuig."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Verbetert de duurzaamheid van je voertuig."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Duurzaamheid"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Verhoogt de kans om een vijandelijk voertuig in brand te zetten met {{@ class $highlightClass}}%(chance)s%%{{/}} wanneer je het met een schot beschadigt."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s kans om een vijandelijk\nvoertuig in brand te zetten."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Verhoogt de kans\nom brand te veroorzaken."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Verhoogt de kans om een vijandelijk voertuig in brand te zetten wanneer je het voertuig met een schot beschadigt."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Hete naald"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Verhoogt de aan vijandelijke voertuigen veroorzaakte schade met {{@ class $highlightClass}}%(damageFactor)s%%{{/}}."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s veroorzaakte schade."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Verhoogt\nveroorzaakte schade."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Verhoogt de veroorzaakte schade."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Keramische kern"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Verhoogt de herlaadsnelheid met {{@ class $highlightClass}}%(reloadTime)s%%{{/}}."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s herlaadsnelheid."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Verhoogt\nde herlaadsnelheid."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Verhoogt de herlaadsnelheid"
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Machinegeweer"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Herstelt geleidelijk aan de levenspunten van je voertuig tot het maximum is bereikt.\nHet effect wordt onderbroken wanneer je wordt beschadigd."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Herstelt geleidelijk aan\nje levenspunten."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Herstelt\nlevenspunten."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Herstelt geleidelijk aan de levenspunten van je voertuig tot het maximum is bereikt. Het effect wordt onderbroken wanneer je wordt beschadigd."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Regeneratie"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Maakt de Mirium-opslagcapaciteit van een voertuig {{@ class $highlightClass}}onbeperkt groot{{/}}."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Maakt Mirium-capaciteit onbeperkt."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Maakt Mirium-capaciteit onbeperkt."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Maakt de Mirium-opslagcapaciteit van een voertuig onbeperkt groot."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Bodemloze verzamelaar"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Verhoogt de bemanningsefficiëntiebonus van alle bemanningsleden met {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s bemanningsefficiëntiebonus."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Verbetert\nbemanningsefficiëntie."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Verbetert de efficiëntie van de bemanning."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Inspireren"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Als een vijandelijk voertuig na jouw voltreffer nog {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} HP of minder overheeft, zal die meteen worden vernietigd.\nBazen zijn immuun voor dit effect."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Vijanden met %(value)s HP of minder na jouw\nschot worden meteen vernietigd."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Vijanden met weinig HP na jouw schot worden meteen vernietigd."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Als een vijandelijk voertuig na jouw voltreffer weinig HP overheeft, zal die meteen worden vernietigd.\nBazen zijn immuun voor dit effect."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Afmaker"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Verhoogt de maximale voorwaartse en achterwaartse snelheid van het voertuig."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Verhoogt de maximale voorwaartse\nen achterwaartse snelheid van het voertuig."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Verhoogt de maximale voorwaartse en achterwaartse snelheid van het voertuig."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Verhoogt de maximale voorwaartse en achterwaartse snelheid van het voertuig."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Vlugger"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Verhoogt de hoeveelheid ontvangen Mirium door vijanden te beschadigen met {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s ontvangen Mirium\nvan vijanden."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Verhoogt ontvangen Mirium van vijanden."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Verhoogt ontvangen Mirium door vijanden te beschadigen."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Miriumextractie"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Verhoogt de maximale Mirium-opslagcapaciteit van een voertuig met {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s maximale Mirium-capaciteit."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Verhoogt de maximale Mirium-capaciteit."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Verhoogt de maximale Mirium-opslagcapaciteit van een voertuig."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Ruime verzamelaar"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Bij een respawn wordt alle Mirium behouden als het voertuig in de strijd is vernietigd."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Bij een respawn wordt\nalle Mirium behouden."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Behoudt alle Mirium na een respawn."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Behoudt alle Mirium na een respawn."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Miriumbewaarder"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Vermindert de Mirium-kosten van gevechtsbekwaamheden met {{@ class $highlightClass}}%(cost)s%%{{/}}."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s Mirium-kosten van bekwaamheden."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Vermindert de Mirium-kosten van bekwaamheden."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Vermindert de Mirium-kosten van bekwaamheden aanzienlijk."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Miriumefficiëntie"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Herstelt {{@ class $highlightClass}}%(refundAmount)s%%{{/}} van de Mirium-kosten van gevechtsbekwaamheden."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s van Mirium hersteld\nbij activatie van bekwaamheid."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Herstelt gedeeltelijk de Mirium-kosten van bekwaamheden."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Herstelt gedeeltelijk de Mirium-kosten van gevechtsbekwaamheden."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Miriumteruggave"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Verhoogt het motorvermogen met {{@ class $highlightClass}}%(power)s%%{{/}} en de koepeldraaisnelheid met {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s motorvermogen."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s koepeldraaisnelheid"
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Verhoogt het motorvermogen\nen de koepeldraaisnelheid."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Verhoogt het motorvermogen en de koepeldraaisnelheid."
+
+msgid "buffs/buffMobility/header"
+msgstr "Mobiliteit"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Maakt alle voertuigmodules onkwetsbaar voor alle soorten schade."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Maakt alle voertuigmodules onkwetsbaar\nvoor alle soorten schade."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Beschermt modules\ntegen schade."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Maakt alle voertuigmodules onkwetsbaar voor alle soorten schade."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Module-onkwetsbaarheid"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Malachiets standaard anomalie, altijd actief."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Verhoogt de penetratie van alle granaten met {{@ class $highlightClass}}%(shellPen)s%%{{/}}."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s granaatpenetratie."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Verhoogt de penetratie van alle granaten."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Verhoogt de penetratie van alle granaten."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Doorborende granaten"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Bij een respawn worden alle alternatieve granaten behouden als het voertuig in de strijd is vernietigd."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Bij een respawn worden alle\nalternatieve granaten behouden."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Behoudt alle alternatieve granaten na een respawn."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Bij een respawn worden alle alternatieve granaten behouden als het voertuig in de strijd is vernietigd."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Granatenbewaarder"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Verhoogt de hoeveelheid ontvangen Mirium aan het begin van elke nieuwe fase of na een respawn met {{@ class $highlightClass}}%(soulsBonus)s{{/}}. Verhoogt de maximale Mirium-opslagcapaciteit van een voertuig met {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s Mirium ontvangen in een nieuwe fase\nof na een respawn."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s maximale Mirium-capaciteit."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Verhoogt de Mirium-capaciteit en de hoeveelheid ontvangen in een nieuwe fase of na een respawn."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Verhoogt de hoeveelheid ontvangen Mirium aan het begin van elke nieuwe fase of na een respawn. Verhoogt de maximale Mirium-opslagcapaciteit van een voertuig."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Miriumvoorraad"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Verlengt de duur van Turbo met {{@ class $highlightClass}}%(timeLength)s%%{{/}} en vermindert de cooldown met {{@ class $highlightClass}}%(reloadTime)s s{{/}}."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s duur van Turbo."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s cooldown van Turbo."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Verlengt de duur van Turbo en vermindert de cooldown."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Verlengt de duur van Turbo en vermindert de cooldown."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Turboverbeteraar"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Geeft de kans om een specifieke hoeveelheid schade te veroorzaken met een schot:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} kans om {{@ class $highlightClass}}%(damage1)s%%{{/}} schade te veroorzaken;\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} kans om {{@ class $highlightClass}}%(damage2)s%%{{/}} schade te veroorzaken;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} kans om {{@ class $highlightClass}}%(damage3)s%%{{/}} schade te veroorzaken;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} kans om {{@ class $highlightClass}}%(damage4)s%%{{/}} schade te veroorzaken."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Schade van een schot varieert van laag\ntot extreem hoog."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Schade van een schot varieert van laag tot extreem hoog."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Geeft de kans om minder schade dan normaal of juist veel meer schade te veroorzaken."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Kwantumschoten"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Details"

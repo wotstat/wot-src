@@ -10,6 +10,9 @@ msgstr "Magazinden bir seri merminin birer birer ateş edilmesini sağlar, her m
 msgid "abilities/common/description/autoShootGun"
 msgstr "Hızlı mermi salvoları atarak kısa sürede yüksek hasar verir, karşılığında delme gücü ve isabetliliği zayıftır. En çok kısa mesafe çatışmalarında etkilidir."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Güvenilir top kullanımını korurken motor gücüne, hıza ve manevra kabiliyetine geçici bir takviye için gaz pedalını etkinleştirin. Böylece savaş etkinliğinden ödün vermeden çevik, dinamik bir oynanış imkânı kazanırsınız."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Yıldız mermiler atar, 50 m içerisinde maksimum hasarı verir. Mesafe ile mermilerin hasarı düşer, bu nedenle en çok yakın mesafe çatışmalarında etkilidir."
 
@@ -61,6 +64,9 @@ msgstr "İyileştirilmiş Otomatik Yeniden Yükleyici"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Otomatik Top"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Savaş Gaz Pedalı"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Derin Yivli Top"
 
@@ -102,6 +108,15 @@ msgstr "Turbo Modu"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Salvo Atış Modu"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Top kullanımını zayıflatmadan manevra kabiliyetini artırır."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Sistem, yükleme gerekmeden sürekli ateş etmeye imkan sağlar ve ateş ederken topun ısı üretiminin nasıl olacağını belirler."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Topta, ateş etmeden önce bazı mermi parametrelerinin değiştirilmesine olanak tanıyan özel cihazlar bulunmaktadır."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Sabit kalarak veya yavaş hareket ederek isabetlilik seviyeleri kazanıp bir sonraki atışınızın hassasiyetini artırırsınız.\nEn yüksek isabetlilik seviyesinde iyi top kullanımına ulaşırsınız, hareket veya kule/gövde dönüşünde dağılım azalır."
@@ -355,6 +370,15 @@ msgstr "Daha uzun yükleme süresi karşılığında iki topu birlikte ateş etm
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Motor gücünü, ivmelenmeyi ve azami hızı kısa bir süreliğine artıran özel bir mekanik."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Güvenilir top kullanımını korurken motor gücüne, hıza ve manevra kabiliyetine geçici bir takviye için gaz pedalını etkinleştirin. Böylece savaş etkinliğinden ödün vermeden çevik, dinamik bir oynanış imkânı kazanırsınız."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Top, yükleme ihtiyacı duymadan sürekli ateş edebilir. Her atış ısı üretir: Sıcaklığı ne kadar yüksekse bazı parametreleri o kadar değişir. Sürekli ateş etmek topun aşırı ısınmasına yol açar, soğuyana kadar ateş etmeyi engeller."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Aracın topunda, ateş etmeden önce bazı mermi parametrelerinin değiştirilmesine olanak tanıyan özel cihazlar bulunmaktadır. Savaş yükü, atış modları arasında geçiş yapıldığında hangi parametrelerin etkileneceğini gösterir."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Hareketsiz kalmak veya belirli bir hızın altında hareket etmek, aracınızın Analog Balistik Hesaplama Cihazı kalibre etmesine ve isabet seviyelerini yükseltmesine olanak tanır; bu da bir sonraki atışınızın isabetini artırır. Hız sınırını aşarsanız, hızınızı düşürene kadar isabet seviyelerini yükseltme süreciniz duraklatılır. En yüksek isabet seviyesinde, aracınızın makul top stabilizasyonuna sahiptir, hareket veya kule/gövde dönüşünden kaynaklanan dağılım azalır. Bu etki, ateş edildiğinde ortadan kalkar."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Bu mekanik modifikasyon, kısa bir süreliğine aracın ivmelenmesini, motor gücünü ve azami ileri-geri hızını önemli ölçüde artırarak düşman saldırılarına hızlı tepki vermenizi ve dinamik manevralarla rakiplerinizi gafil avlamanızı sağlar. Yüksek hareket hızını korumak, mekaniğin soğumasını hızlandırır."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Gösterilen tüm değerler araç için olabilecek en yüksek değerlerdir. Donanım, yönergeler ve sarf malzemeleri bu değerleri değiştirebilir ancak bu değişiklikler burada yansıtılmamıştır."
+msgstr "Gösterilen tüm değerler araç için olabilecek en iyi değerlerdir. Donanım, yönergeler ve sarf malzemeleri bu değerleri değiştirebilir ancak bu değişiklikler burada yansıtılmamıştır."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "kalibre edilebilir AP mermi"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "kredi, her savaşta"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "herhangi bir araç sınıfından cezasız mürettebat aktarma"
+msgstr "herhangi bir araç türünden cezasız mürettebat aktarma"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "Savaş Deneyimi ve Mürettebat Deneyimi"

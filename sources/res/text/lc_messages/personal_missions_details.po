@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Vanguard-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Cause %(goal)s HP of damage to enemy vehicles that hit your vehicle"
+msgstr "Cause %(goal)s HP of damage to enemy vehicles that damaged your vehicle"
 
 msgid "pm3_10_1_14_short"
 msgstr "Vanguard-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Ambush-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Cause %(goal)s HP of damage while remaining unspotted at the moment the damage is caused"
+msgstr "Cause %(goal)s HP of damage while not visible to enemies"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Destroy an enemy heavy tank by shooting it, causing at least %(damageDealt)s HP of damage"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Ambush-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Cause damage %(hits)s times to enemy vehicles that are unspotted when the damage is caused"
+msgstr "Cause damage to enemy vehicles that are not visible to you when the damage is caused %(hits)s times"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Destroy %(goal)s enemy vehicles of %(uniqueGoal)s different types"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Assistance-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Enable your allies to cause %(goal)s HP of damage to enemy vehicles spotted by you. Remain unspotted at the moment when damage is caused"
+msgstr "Enable your allies to cause %(goal)s HP of damage to enemy vehicles spotted by you. Do not be visible to enemies when the damage is caused"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Stun enemy heavy tanks %(goal)s times"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Vanguard-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Cause %(goal)s HP of damage to enemy vehicles that hit your vehicle"
+msgstr "Cause %(goal)s HP of damage to enemy vehicles that damaged your vehicle"
 
 msgid "pm3_8_1_9_short"
 msgstr "Vanguard-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Ambush-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Cause %(goal)s HP of damage while remaining unspotted at the moment the damage is caused"
+msgstr "Cause %(goal)s HP of damage while not visible to enemies"
 
 msgid "pm3_8_2_9_short"
 msgstr "Ambush-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Vanguard-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Cause %(goal)s HP of damage to enemy vehicles that hit your vehicle"
+msgstr "Cause %(goal)s HP of damage to enemy vehicles that damaged your vehicle"
 
 msgid "pm3_9_1_14_short"
 msgstr "Vanguard-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Ambush-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Cause %(goal)s HP of damage while remaining unspotted at the moment the damage is caused"
+msgstr "Cause %(goal)s HP of damage while not visible to enemies"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Destroy an enemy vehicle, causing at least %(damageDealt)s HP of damage to it"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Ambush-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Cause %(damageDealt)s HP of damage to enemy vehicles that are unspotted when the damage is caused"
+msgstr "Cause %(damageDealt)s HP of damage to enemy vehicles that are not visible to you when the damage is caused"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Destroy %(goal)s enemy vehicles of %(uniqueGoal)s different types"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Assistance-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Enable your allies to cause %(goal)s HP of damage to enemy vehicles spotted by you. Remain unspotted at the moment when damage is caused"
+msgstr "Enable your allies to cause %(goal)s HP of damage to enemy vehicles spotted by you. Do not be visible to enemies when the damage is caused"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Stun enemy heavy tanks for %(goal)s seconds in total. Potential stun duration is counted"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Assistance-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Cause %(damageDealt)s HP of damage to enemy vehicles that are unspotted when the damage is caused"
+msgstr "Cause %(damageDealt)s HP of damage to enemy vehicles that are not visible to you when the damage is caused"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Destroy %(goal)s enemy light tanks or SPGs"

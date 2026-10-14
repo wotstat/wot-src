@@ -3652,6 +3652,12 @@ RECORDS = (
  (
   b'singleAchievements', b'hw2025Medal', b'p', b'B', 1),
  (
+  b'singleAchievements', b'hw2026Medal_1', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'hw2026Medal_2', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'hw2026Medal_3', b'p', b'B', 1),
+ (
   b'singleAchievements', b'grinch_medal_2026', b'p', b'B', 1),
  (
   b'singleAchievements', b'NY26_AtmsphrLevel', b'p', b'B', 1),
@@ -3661,6 +3667,8 @@ RECORDS = (
   b'singleAchievements', b'LunarNY2026CN', b'p', b'B', 1),
  (
   b'singleAchievements', b'wot16thAnniversary', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'FortRushMedal_2026', b'p', b'B', 1),
  (
   b'singleAchievements', b'wt2026progression', b'p', b'B', 1),
  (
@@ -5665,7 +5673,11 @@ RECORD_DB_IDS = {(b'total', b'creationTime'): 68,
    (b'singleAchievements', b'comp7_6_yearly_silver'): 2169, 
    (b'singleAchievements', b'comp7_6_yearly_gold'): 2170, 
    (b'singleAchievements', b'comp7_6_yearly_champion'): 2171, 
-   (b'singleAchievements', b'comp7_6_yearly_legend'): 2172}
+   (b'singleAchievements', b'comp7_6_yearly_legend'): 2172, 
+   (b'singleAchievements', b'hw2026Medal_1'): 2173, 
+   (b'singleAchievements', b'hw2026Medal_2'): 2174, 
+   (b'singleAchievements', b'hw2026Medal_3'): 2175, 
+   (b'singleAchievements', b'FortRushMedal_2026'): 2176}
 DB_ID_TO_RECORD = {value: key for key, value in viewitems(RECORD_DB_IDS)}
 RECORD_DB_IDS.update({(b'vehTypeFrags', b''): 863, 
    (b'a15x15Cut', b''): 864, 

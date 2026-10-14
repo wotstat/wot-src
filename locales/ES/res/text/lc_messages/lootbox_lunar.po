@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Volver a los tesoros"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "Se garantiza la entrega de un vehículo del nivel VIII al X cada %(gu
 msgid "infoPage/header/description"
 msgstr "¡Abre tesoros ardientes y podrás recibir artículos valiosos del juego! Más detalles a continuación."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "De %(name) (%(boxesCount) tesoros ardientes abiertos)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "No tienes ningún tesoro ardiente.\nPuedes comprarlos en la tienda del juego."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Tesoros disponibles: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "No hay tesoros disponibles"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Si ya tienes todos los vehículos de la lista de posible contenido de los tesoros ardientes, recibirás oro como compensación por los siguientes vehículos que aparezcan en los tesoros."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) tesoro ardiente"
 msgstr[1] "%(remainingCount) tesoros ardientes"
 msgstr[2] "%(remainingCount) tesoros ardientes"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "La recompensa garantizada es un vehículo de la lista de contenido de los tesoros ardientes.\nSi abres %(remainingCount) tesoros sin que aparezca uno de estos vehículos, este aparecerá cuando abras el %(count).º tesoro. Cuando esto suceda, se reiniciará el contador."

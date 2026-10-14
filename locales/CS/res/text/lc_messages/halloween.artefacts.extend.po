@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Poskytuje nezničitelnost."
+
+msgid "damageShield/long_special"
+msgstr "Bojová schopnost. Vytvoří energetický štít, který po dobu 7 s chrání vozidlo před jakýmkoliv poškozením, kromě poškození nárazem, utopením a poškozením dopadem. Pokud je v bitvě použita alespoň jednou, je schopnost vyčerpána a lze ji doplnit za kredity. Pokud není použita, není nutné ji doplňovat.<br /><br />Dostupná pouze během akce <font color='#cbac77'>„Babylon: Temná věž“</font>.<br /><br />Se spuštěním další aktualizace budou všechny nepoužité schopnosti odstraněny a obdržíte kompenzaci v kreditech odpovídající 50 % jejich ceny."
+
+msgid "damageShield/name"
+msgstr "Energetický štít"
+
+msgid "damageShield/onUse"
+msgstr "Vytváří energetický štít, který 7 s chrání vaše vozidlo před jakýmkoliv poškozením, kromě poškození nárazem, utopením a dopadem."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Poskytuje nezničitelnost."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Zvýší rychlost palby / nabije zásobník."
+
+msgid "fastReload/long_special"
+msgstr "Bojová schopnost. Po určitou dobu výrazně urychluje nabíjení cyklického děla nebo okamžitě nabije děla se systémem nabíjení zásobníku. Pokud je v bitvě použita alespoň jednou, je schopnost vyčerpána a lze ji doplnit za kredity. Pokud není použita, není nutné ji doplňovat.<br /><br />Dostupná pouze během akce <font color='#cbac77'>„Babylon: Temná věž“</font>.<br /><br />Se spuštěním další aktualizace budou všechny nepoužité schopnosti odstraněny a obdržíte kompenzaci v kreditech odpovídající 50 % jejich ceny."
+
+msgid "fastReload/name"
+msgstr "Rychlé nabíjení"
+
+msgid "fastReload/onUse"
+msgstr "Po určitou dobu výrazně urychluje nabíjení cyklického děla nebo okamžitě nabije děla se systémem nabíjení zásobníku."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Zvýší rychlost palby / nabije zásobník."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Obnovuje body výdrže, hasí požár, odstraňuje efekt ochromení a opravuje poškozené moduly."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Bojová schopnost. Obnovuje body výdrže, hasí požáry, odstraňuje efekt ochromení a opravuje poškozené moduly. V bitvě lze použít vícekrát. Odstraněna poté, co byla v bitvě alespoň jednou použita.<br /><br />Dostupná pouze během akce <font color='#cbac77'>„Projekt Babylon“</font>.<br /><br />Se spuštěním další aktualizace budou všechny nepoužité schopnosti odstraněny a obdržíte kompenzaci v kreditech odpovídající 50 % jejich ceny."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Nouzové opravy"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Okamžitě obnovuje 400 bodů výdrže vašeho vozidla.\n• Obnovuje dodatečných 300 bodů výdrže během 30 s\n• Obnovení je přerušeno při obdržení poškození.\n• Hasí požár, odstraňuje efekt ochromení a opravuje poškozené moduly.\n• Lze ji aktivovat pouze v případě poškození."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Obnovuje body výdrže, hasí požár, odstraňuje efekt ochromení a opravuje poškozené moduly."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Cena v Miriu za použití v bitvě:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nCena v Miriu: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Cena v Miriu za použití v bitvě:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Vypálí výstřel, který poškodí a ochromí cíl a okolní nepřátelská vozidla."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Bojová schopnost. Vypálí výstřel, který poškodí a ochromí cíl a všechna nepřátelská vozidla v okruhu 35 m. Pokud je v bitvě použita alespoň jednou, je schopnost vyčerpána a lze ji doplnit za kredity. Pokud není použita, není nutné ji doplňovat.<br/><br/>Dostupná pouze během akce <font color='#cbac77'>„Babylon: Temná věž“</font>.<br/><br/>Se spuštěním další aktualizace budou všechny nepoužité schopnosti odstraněny a obdržíte kompenzaci v kreditech odpovídající 50 % jejich ceny."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Energetický výboj"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Vypálí výstřel, který poškodí a ochromí cíl a všechna nepřátelská vozidla v okruhu 35 m."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Vypálí výstřel, který poškodí a ochromí cíl a okolní nepřátelská vozidla."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Vypálí výstřel, který ukradne body výdrže cíli a nepřátelským vozidlům poblíž a obnoví je hráči."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Bojová schopnost. Vypálí výstřel, který ukradne body výdrže cíli a nepřátelským vozidlům v okruhu 35 m a obnoví je hráči; odstraní také ochromení a opraví poškozené moduly. Pokud je v bitvě použita alespoň jednou, je schopnost vyčerpána a lze ji doplnit za kredity. Pokud není použita, není nutné ji doplňovat.<br/><br/>Dostupná pouze během akce <font color='#cbac77'>„Babylon: Temná věž“</font>.<br/><br/>Se spuštěním další aktualizace budou všechny nepoužité schopnosti odstraněny a obdržíte kompenzaci v kreditech odpovídající 50 % jejich ceny."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Upíří střela"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Vypálí výstřel, který ukradne body výdrže cíli a nepřátelským vozidlům v okruhu 35 m a obnoví je hráči; odstraní také ochromení a opraví poškozené moduly."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Vypálí výstřel, který ukradne body výdrže cíli a nepřátelským vozidlům poblíž a obnoví je hráči."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Vypálí výstřel, který ochromí cíl a okolní nepřátelská vozidla."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Bojová schopnost. Vypálí výstřel, který ochromí cíl a všechna nepřátelská vozidla v okruhu 35 m. V bitvě lze použít vícekrát. Odstraněna poté, co byla v bitvě alespoň jednou použita.<br /><br />Dostupná pouze během akce <font color='#cbac77'>„Projekt Babylon“</font>.<br /><br />Se spuštěním další aktualizace budou všechny nepoužité schopnosti odstraněny a obdržíte kompenzaci v kreditech odpovídající 50 % jejich ceny."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Ochromující střela"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Vypálí výstřel, který ochromí cíl a všechna nepřátelská vozidla v okruhu 35 m."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Vypálí výstřel, který ochromí cíl a okolní nepřátelská vozidla."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Činí vaše vozidlo pro nepřátele neviditelným, obnovuje body výdrže, opravuje moduly a hasí požár."
+
+msgid "hwInvisibility/long_special"
+msgstr "Bojová schopnost. Na 10 s učiní vaše vozidlo pro nepřátele neviditelné. Obnovuje 35 bodů výdrže za sekundu, opravuje moduly, odstraňuje všechny negativní efekty a vaše vozidlo nelze poškodit žíravým poškozením. Palba nebo obdržení poškození od nepřátelského vozidla (palbou, nárazem nebo použitím bojových schopností) okamžitě odhalí vaši pozici. Schopnost nelze přerušit nepřátelskými výstřely 3 s po její aktivaci. Pokud je v bitvě použita alespoň jednou, je schopnost vyčerpána a lze ji doplnit za kredity. Pokud není použita, není nutné ji doplňovat.<br/><br/>Dostupná pouze během akce <font color='#cbac77'>„Babylon: Temná věž“</font>.<br/><br/>Se spuštěním další aktualizace budou všechny nepoužité schopnosti odstraněny a obdržíte kompenzaci v kreditech odpovídající 50 % jejich ceny."
+
+msgid "hwInvisibility/name"
+msgstr "Skryté léčení"
+
+msgid "hwInvisibility/onUse"
+msgstr "Na 10 s učiní vaše vozidlo pro nepřátele neviditelné. Obnovuje 35 bodů výdrže za sekundu, opravuje moduly, odstraňuje všechny negativní efekty a vaše vozidlo nelze poškodit žíravým poškozením. Palba nebo obdržení poškození od nepřátelského vozidla (palbou, nárazem nebo použitím bojových schopností) okamžitě odhalí vaši pozici. Schopnost nelze přerušit nepřátelskými výstřely 3 s po její aktivaci."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Skrývá vás před nepřáteli, obnovuje body výdrže, opravuje moduly, hasí požár, odstraňuje ochromení a léčí posádku."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Na omezenou dobu zrychluje vaše vozidlo\na zvyšuje poškození způsobené nárazem."
+
+msgid "nitroRamDamage/name"
+msgstr "Turbodmychadlo"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Dočasně zvyšuje rychlost vašeho vozidla a zvyšuje poškození způsobené nárazem."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Opravuje a obnovuje část bodů výdrže spojeneckým vozidlům v dosahu."
+
+msgid "teamRepairKit/long_special"
+msgstr "Bojová schopnost. Okamžitě opravuje moduly, hasí požáry, odstraňuje efekt ochromení a obnovuje část bodů výdrže spojeneckým vozidlům v dosahu. Pokud je v bitvě použita alespoň jednou, je schopnost vyčerpána a lze ji doplnit za kredity. Pokud není použita, není nutné ji doplňovat.<br/><br />Dostupná pouze během akce <font color='#cbac77'>„Babylon: Temná věž“</font>.<br/><br/>Se spuštěním další aktualizace budou všechny nepoužité schopnosti odstraněny a obdržíte kompenzaci v kreditech odpovídající 50 % jejich ceny."
+
+msgid "teamRepairKit/name"
+msgstr "Skupinové opravy"
+
+msgid "teamRepairKit/onUse"
+msgstr "Okamžitě opravuje poškozené moduly, hasí požáry, odstraňuje efekt ochromení a obnovují nějaké body výdrže spojeneckým vozidlům v dosahu."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Opravuje a obnovuje část bodů výdrže spojeneckým vozidlům v dosahu."

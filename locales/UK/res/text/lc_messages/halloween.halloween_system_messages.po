@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Бойове вміння"
+
+msgid "make_choice/server_error"
+msgstr "Операція тимчасово недоступна. Спробуйте пізніше."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "РЕКРУТУВАТИ"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Рекрутовано"
+
+msgid "notification/crew_reward/title"
+msgstr "Нагороду отримано"
+
+msgid "open_artefact/server_error"
+msgstr "Операція тимчасово недоступна. Спробуйте пізніше."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Отримано ключів дешифрування: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Отримання"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Списано ключів дешифрування: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Розшифрування"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Не вдалося поповнити бойові вміння на %s. Стався технічний збій."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Не вдалося поповнити бойові вміння на %s. Недостатньо коштів."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Бойові вміння для %s поповнено. Витрачено "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Отримано ключі дешифрування"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Записи, доступні для дешифрування"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Режим: «Вавилон: Темна вежа»"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Вавилон: Темна вежа (нормально)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Вавилон: Темна вежа (важко)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Вавилон: Темна вежа (кошмар)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Боса переможено"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Складність"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Нормально"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Важко"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Кошмар"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Пройдено фаз: %(curPhase)s з %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Ціль виконано!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Цілі виконані!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Машина"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Витрачено %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Фінансова операція"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Рівень складності можна вибрати в Гаражі події «Вавилон: Темна вежа»."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Важка складність розблокована"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Рівень складності можна вибрати в Гаражі події «Вавилон: Темна вежа»."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Кошмарна складність розблокована"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "%(vehicle)s тепер можна використовувати в боях події «Вавилон: Темна вежа»."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Бої в події «Вавилон: Темна вежа» тимчасово недоступні.\nСпробуйте пізніше."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Бої в події «Вавилон: Темна вежа» (%(difficulty)s) тимчасово недоступні.\nСпробуйте пізніше."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Подія «Вавилон: Темна вежа» наразі недоступна. Слідкуйте за новинами на порталі гри."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Командир взводу змінив рівень складності на: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Гравець %(userName)s ще не відкрив один із рівнів складності."

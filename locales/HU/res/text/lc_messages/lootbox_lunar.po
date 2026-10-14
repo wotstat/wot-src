@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Vissza a kincsekhez"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,11 +64,11 @@ msgstr "Minden %(guaranteed0)s. lángoló kincs garantáltan tartalmaz egy VIII�
 msgid "infoPage/header/description"
 msgstr "Nyisd ki a lángoló kincseket, hogy értékes játékbeli tárgyakat szerezz! További részleteket alább olvashatsz."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Ebből: %(name) (%(boxesCount) lángoló kincs kinyitva)"
 
-msgid "noBoxesView/description/"
-msgstr "Nincsenek lángoló kincseid.\nA játékbeli Boltban vásárolhatod meg őket."
+msgid "noBoxesView/description"
+msgstr "Nincsenek Lángoló kincseid.\nA játékbeli Boltban vásárolhatsz Lángoló kincseket."
 
 msgid "preview/backLabel"
 msgstr "A KINCSEKHEZ"
@@ -79,8 +79,8 @@ msgstr "Elérhető kincsek: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Nincs elérhető kincsed"
 
-msgid "singleRewardView/tooltip/description/"
-msgstr "Ha már rendelkezel a lángoló kincsek lehetséges tartalmának listáján szereplő összes járművel, akkor a lángoló kincsekből kapott minden további járművet aranyban kompenzáljuk."
+msgid "singleRewardView/tooltip/description"
+msgstr "Ha már rendelkezel az összes járművel a Lángoló kincsek lehetséges tartalmainak listájáról, akkor a Lángoló kincsekből kapott minden további járműért aranykompenzációt kapsz."
 
 msgid "singleRewardView/tooltip/remainingCount"
 msgid_plural "plural/singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) Lángoló kincs"
 msgstr[1] "%(remainingCount) Lángoló kincs"
 msgstr[2] "%(remainingCount) Lángoló kincs"
 
-msgid "singleRewardView/tooltip/subtitle/"
-msgstr "A garantált jutalom egy jármű a Lángoló kincsek lehetséges tartalmainak listájáról.\nHa kinyitsz %(remainingCount) kincset anélkül, hogy kapnál egy ilyen járművet, akkor %(count). Lángoló kincsed kinyitásakor kapsz egyet. Amikor egy ilyen járművet kapsz, a számláló visszaáll alaphelyzetbe."
+msgid "singleRewardView/tooltip/subtitle"
+msgstr "A garantált jutalom egy jármű a Lángoló kincsek lehetséges tartalmainak listájáról.\nHa kinyitsz %(remainingCount) kincset anélkül, hogy kapnál egy ilyen járművet, akkor a(z) %(count). Lángoló kincsed kinyitásakor kapsz egyet. Ha kapsz egy járművet, a számláló visszaáll."

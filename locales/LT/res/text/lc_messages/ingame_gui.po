@@ -97,32 +97,32 @@ msgstr "Dėmesio į <Sektorius žemėlapyje>!"
 msgid "chat_example/attention_to_position"
 msgstr "Dėmesio į poziciją!"
 
-msgid "chat_example/global_msg/atk/focus_hq"
+msgid "chat_example/global_msg_atk_focus_hq"
 msgstr "Sunaikinkite taikinius"
 
-msgid "chat_example/global_msg/atk/save_tanks"
+msgid "chat_example/global_msg_atk_save_tanks"
 msgstr "Saugokite savo tankus!"
 
-msgid "chat_example/global_msg/atk/time"
+msgid "chat_example/global_msg_atk_time"
 msgstr "Užimkite zoną"
 
-msgid "chat_example/global_msg/def/focus_hq"
+msgid "chat_example/global_msg_def_focus_hq"
 msgstr "Ginkite taikinius"
 
-msgid "chat_example/global_msg/def/save_tanks"
+msgid "chat_example/global_msg_def_save_tanks"
 msgstr "Saugokite savo tankus!"
 
-msgid "chat_example/global_msg/def/time"
+msgid "chat_example/global_msg_def_time"
 msgstr "Ginkite zonas"
 
-msgid "chat_example/global_msg/lane/center"
-msgstr "Pastiprinkite zoną"
+msgid "chat_example/global_msg_lane_center"
+msgstr "Įsitvirtinkite zonoje"
 
-msgid "chat_example/global_msg/lane/east"
-msgstr "Pastiprinkite zoną"
+msgid "chat_example/global_msg_lane_east"
+msgstr "Įsitvirtinkite zonoje"
 
-msgid "chat_example/global_msg/lane/west"
-msgstr "Pastiprinkite zoną"
+msgid "chat_example/global_msg_lane_west"
+msgstr "Įsitvirtinkite zonoje"
 
 msgid "chat_example/going_there"
 msgstr "Važiuoju čia!"
@@ -232,31 +232,31 @@ msgstr "Aš ginsiu bazę!"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "Aš ginu bazę %(strArg1)s!"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "Sunaikinkite taikinius!"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
 msgstr "Mes turim užtektinai laiko, išsaugokite tankus!"
 
-msgid "chat_shortcuts/global_msg/atk/time"
+msgid "chat_shortcuts/global_msg_atk_time"
 msgstr "Laikas baigiasi, užimkite zoną nepaisydami nuostolių!"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "Ginkite taikinius!"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
 msgstr "Mes turime atsilaikyti, išsaugokite tankus!"
 
-msgid "chat_shortcuts/global_msg/def/time"
+msgid "chat_shortcuts/global_msg_def_time"
 msgstr "Laikas baigiasi, ginkite zonas iš visų jėgų!"
 
-msgid "chat_shortcuts/global_msg/lane/center"
+msgid "chat_shortcuts/global_msg_lane_center"
 msgstr "Zonoje %(strArg1)s reikia pastiprinimo!"
 
-msgid "chat_shortcuts/global_msg/lane/east"
+msgid "chat_shortcuts/global_msg_lane_east"
 msgstr "Zonoje %(strArg1)s reikia pastiprinimo!"
 
-msgid "chat_shortcuts/global_msg/lane/west"
+msgid "chat_shortcuts/global_msg_lane_west"
 msgstr "Zonoje %(strArg1)s reikia pastiprinimo!"
 
 msgid "chat_shortcuts/going_there"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "Paspauskite"
 
 msgid "devMaps/mapInfo/info"
-msgstr "Šiame žemėlapyje gali įvykti atsitiktiniai įvykiai. Tokius žemėlapius galima išimti žaidimo nustatymus."
+msgstr "Šiame žemėlapyje gali įvykti atsitiktiniai įvykiai."
 
 msgid "devMaps/mapInfo/text"
 msgstr "Žemėlapis su atsitiktiniais įvykiais"

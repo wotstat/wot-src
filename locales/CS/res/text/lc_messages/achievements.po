@@ -889,6 +889,15 @@ msgstr "• Uděloval se během Velkého závodu 2019."
 msgid "Fest19Racer_descr"
 msgstr "Získejte první odměnu na panelu osobního postupu."
 
+msgid "FortRushMedal_2026"
+msgstr "Interceptor"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "Udělována všem agentům Switchblade, kteří dokončili všechny fáze postupu akce „Černý signál 2026“. Značka bezchybně splněné mise: signál byl zachycen a svět si tak mohl užít další klidnou noc."
+
+msgid "FortRushMedal_2026_descr"
+msgstr "Dokončete postup akcí „Černý signál 2026“."
+
 msgid "HE17A1"
 msgstr "Znamení šelmy"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "Průzkumník Mirny-13"
 
 msgid "hw2019Medal1_condition"
-msgstr "• Uděluje se všem hráčům, kteří během speciální herní akce splnili příslušné podmínky."
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2020 splnili podmínky."
 
 msgid "hw2019Medal1_descr"
 msgstr "Dokončete během operace Mirny-13 všechny fáze na jednohvězdičkovou obtížnost."
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "Veterán Mirny-13"
 
 msgid "hw2019Medal2_condition"
-msgstr "• Uděluje se všem hráčům, kteří během speciální herní akce splnili příslušné podmínky."
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2020 splnili podmínky."
 
 msgid "hw2019Medal2_descr"
 msgstr "Dokončete během operace Mirny-13 všechny fáze na dvouhvězdičkovou obtížnost."
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "Hrdina Mirny-13"
 
 msgid "hw2019Medal3_condition"
-msgstr "• Uděluje se všem hráčům, kteří během speciální herní akce splnili příslušné podmínky."
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2020 splnili podmínky."
 
 msgid "hw2019Medal3_descr"
 msgstr "Dokončete během operace Mirny-13 všechny fáze na tříhvězdičkovou obtížnost."
 
 msgid "hw2019Medal_condition"
-msgstr "• Uděluje se všem hráčům, kteří během speciální herní akce splnili příslušné podmínky."
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2020 splnili podmínky."
 
 msgid "hw2019Medal_descr"
 msgstr "Získejte během operace Mirny-13 všechny styly."
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "Zkroťte bestii"
 
 msgid "hw2021Medal1_condition"
-msgstr "• Uděluje se všem hráčům, kteří během speciální herní akce splnili příslušné podmínky."
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2021 splnili podmínky."
 
 msgid "hw2021Medal1_descr"
 msgstr "Dokončete všechny fáze akce „Mirny: naděje“ na střední obtížnost."
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "Vyvolený"
 
 msgid "hw2021Medal2_condition"
-msgstr "• Uděluje se všem hráčům, kteří během speciální herní akce splnili příslušné podmínky."
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2021 splnili podmínky."
 
 msgid "hw2021Medal2_descr"
 msgstr "Dokončete všechny fáze akce „Mirny: naděje“ na vysokou obtížnost."
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "Strašidelné dobrodružství"
 
 msgid "hw2022Medal01_condition"
-msgstr "Uděluje se všem hráčům, kteří během akce splní speciální podmínky."
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2022 splnili podmínky."
 
 msgid "hw2022Medal01_descr"
 msgstr "Splňte během akce „Dýňové slavnosti“ všechny mise zahrnující bojové schopnosti."
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "Smrťák"
 
 msgid "hw2022Medal02_condition"
-msgstr "Uděluje se všem hráčům, kteří během akce splní speciální podmínky."
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2022 splnili podmínky."
 
 msgid "hw2022Medal02_descr"
 msgstr "Získejte během akce „Dýňové slavnosti“ 65 000 halloweenských bodů."
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "Navrátilec"
 
 msgid "hw2023Medal_condition"
-msgstr "Udělovaná během Mirny: Naděje ztracena 2023."
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2023 splnili podmínky."
 
 msgid "hw2023Medal_descr"
 msgstr "Dešifrujte během akce „Mirny: Naděje ztracena“ všechny cívky."
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "Výzkumník Babylonu"
 
 msgid "hw2024Medal_condition"
-msgstr "Udělováno během akce „Projekt Babylon 2024“."
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2024 splnili podmínky."
 
 msgid "hw2024Medal_descr"
 msgstr "Dešifrujte všechny nahrávky během akce „Projekt Babylon“."
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "Zakázané vědění"
 
 msgid "hw2025Medal_condition"
-msgstr "Uděluje se všem hráčům, kteří během akce splnili podmínky."
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2025 splnili podmínky."
 
 msgid "hw2025Medal_descr"
 msgstr "Dešifrujte všechny nahrávky v akci „Babylon: Zakázaná zóna“."
+
+msgid "hw2026Medal_1"
+msgstr "Nikoho tam nenecháme"
+
+msgid "hw2026Medal_1_condition"
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2026 splnili podmínky."
+
+msgid "hw2026Medal_1_descr"
+msgstr "Dešifrujte všechny záznamy v akci „Babylon: Temná věž“. Odmítli jste tam Alex nechat!"
+
+msgid "hw2026Medal_2"
+msgstr "Jejím domovem je Mirium."
+
+msgid "hw2026Medal_2_condition"
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2026 splnili podmínky."
+
+msgid "hw2026Medal_2_descr"
+msgstr "Dešifrujte všechny záznamy v akci „Babylon: Temná věž“. Nechali jste Alex odejít do Miria!"
+
+msgid "hw2026Medal_3"
+msgstr "Sběratel anomálií"
+
+msgid "hw2026Medal_3_condition"
+msgstr "Uděluje se všem hráčům, kteří během akce z roku 2026 splnili podmínky."
+
+msgid "hw2026Medal_3_descr"
+msgstr "Sesbírejte během akce „Babylon: Temná věž“ všechny anomálie."
 
 msgid "impenetrable"
 msgstr "Neprůstřelný"

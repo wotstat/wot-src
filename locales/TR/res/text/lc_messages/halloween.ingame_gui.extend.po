@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Paslanma"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Bölgeden Alınan Hasar"
+
+msgid "damageLog/static_death_zone"
+msgstr "Alandan alınan hasar"
+
+msgid "damageShieldReady"
+msgstr "Enerji Kalkanı kullanıma hazır."
+
+msgid "fastReloadReady"
+msgstr "Hızlı Yükleme kullanıma hazır."
+
+msgid "hitMarker/useless"
+msgstr "İşe yaramıyor!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Acil Durum Onarımı kullanıma hazır."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Enerji Atışı kullanıma hazır."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Vampir Atışı kullanıma hazır."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Şok Atışı kullanıma hazır."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "kip kurallarına bakın"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Şu tuşa basarak:"
+
+msgid "hwInvisibilityReady"
+msgstr "Gizli İyileşme kullanmaya hazır."
+
+msgid "nitroRamDamageReady"
+msgstr "Turboşarj kullanıma hazır."
+
+msgid "pickupSouls"
+msgstr "%(souls)s parça Mirium topladınız"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Kullanılamıyor [%(name)s]: Top hasarlı."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Araç hasarlı değil."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "[%(name)s] kullanılamıyor: Motor imha oldu."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "[%(name)s] kullanılamıyor: Yeteneği etkinleştirecek yeterli Mirium yok."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "[%(name)s] kullanılamıyor: Araç yanıyor."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "[%(name)s] kullanılamıyor: Araç batıyor."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "[%(name)s] kullanılamıyor: Araç yanıyor."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "[%(name)s] kullanılamıyor: Araç ters dönük."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Top yüklü."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(target)s %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(target)s, %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(target)s, %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Müttefik %(target)s paslanma tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Müttefik %(target)s %(attacker)s tarafından tepildi."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Müttefik %(target)s, düşman patlaması (%(attacker)s) tarafından yok edildi."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Müttefik %(target)s düşerek yok oldu."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Müttefik %(target)s imha alanı tarafından yok edildi."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Müttefik %(target)s düşman aurası tarafından yok edildi."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Müttefik %(target)s imha alanı tarafından yok edildi."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Müttefik %(target)s yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Araç, Enerji Darbesi tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Araç, Ateşbaz tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Araç, Can Çalıcı tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Araç bir patlama tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Araç imha alanı tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Araç düşman aurası tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Araç paslanma tarafından yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Araç düştü"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Araç tepinme yoluyla yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Araç yok edildi. Magnus'a ulaşamadınız."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Araç yok edildi. Boss'u yok edemediniz."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Araç yok edildi. Magnus dolmadı."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "[%(device)s] parçası oyuncu ateşi sonucu patladı"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Araç yanarak imha oldu"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Araç bir düşman atışı tarafından yok edildi"
+
+msgid "teamRepairKitReady"
+msgstr "Grup Tamiri kullanıma hazır."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s Grup Tamirini etkinleştirdi."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Grup Tamiri etkinleştirildi."

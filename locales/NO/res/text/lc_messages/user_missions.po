@@ -328,6 +328,9 @@ msgstr "Hent belønning"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "Hent belønninger"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "Hvert fullførte standard-, premium- eller bonusoppdrag teller med i fremgangen din."
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "Tilgjengelig"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "Fullfør daglige oppdrag for å tjene episke belønninger: {progres}"
+msgstr "Tilbake! Fullfør daglige oppdrag for å tjene episke belønninger: {{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "Etter å ha fullført 3 standardoppdrag blir et bonusoppdrag tilgjengelig som byr på enda mer verdifulle belønninger. Bonusoppdraget må fullføres før dagen er omme. Etter det utløper bonusoppdraget."
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "Skjold"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "Restriksjoner på kjøretøy:"
+msgstr "Fullfør ved å bruke"
 
 msgid "tooltip/weekly_mission"
 msgstr "Ukeoppdrag"

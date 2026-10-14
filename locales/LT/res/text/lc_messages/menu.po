@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s laisvajai ir įgulos patirčiai %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s bonusas %(effectHours)s patirčiai mūšyje"
+msgstr "%(effectValue)s kovinei patirčiai %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s bonusas kreditams mūšyje %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Ši mašina turi prie ginklo plokštės pritvirtintą raketsvaidį. Akty
 msgid "moduleInfo/closeBtn"
 msgstr "Uždaryti"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Koviniai pajėgumai"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Su kasetinio užtaisymo sistema tankuose:"
 
@@ -6162,6 +6165,12 @@ msgstr "(vnt.)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Elektromechaninio žvilgsnio trukmė"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Atsistatymo laikas"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Trukmė"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Atsistatymo laikas"

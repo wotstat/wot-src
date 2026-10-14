@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Giver usårlighed."
+
+msgid "damageShield/long_special"
+msgstr "Kampevne. Danner et energiskjold, der beskytter køretøjet mod skade, undtagen fra påkørsler, drukning og faldskade, i 7 sekunder. Hvis den har været brugt mindst én gang i en kamp, er evnen brugt op og kan genforsynes med credits. Hvis den ikke har været brugt er genforsyning ikke nødvendig.<br /><br />Kun tilgængelig under <font color='#cbac77'>Babylon: Dark Tower</font>-eventet.<br /><br />Alle ubrugte evner vil blive fjernet og kompenseres med credits lig 50% af deres pris i den næste opdatering."
+
+msgid "damageShield/name"
+msgstr "Energiskjold"
+
+msgid "damageShield/onUse"
+msgstr "Danner et energiskjold, der beskytter dit køretøj fra alle typer skade, på nær påkørsel, drukning og faldskade i 7 s."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Giver usårlighed."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Forøger skudkadence / lader magasin."
+
+msgid "fastReload/long_special"
+msgstr "Kampevne. Forkorter markant ladehastigheden for en cyklisk kanon i en periode, eller lader straks kanoner med ladesystem i magasin. Hvis den har været brugt mindst én gang i en kamp, er evnen brugt op og kan genforsynes med credits. Hvis den ikke har været brugt er genforsyning ikke nødvendig.<br /><br />Kun tilgængelig under <font color='#cbac77'>Babylon: Dark Tower</font>-eventet. <br /><br />Alle ubrugte evner vil blive fjernet og kompenseres med credits lig 50% af deres pris i den næste opdatering."
+
+msgid "fastReload/name"
+msgstr "Kort ladetid"
+
+msgid "fastReload/onUse"
+msgstr "Forkorter markant ladetiden på en cyklisk kanon i en periode, eller lader straks kanoner med ladesystem i magasin."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Forøger skudkadence / lader magasin."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Gendanner hp, slukker brande, fjerner fortumlet effekt og reparerer skadede moduler."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Kampevne. Gendanner hp, slukker brande, fjerner fortumlet effekt og reparerer skadede moduler. Kan bruges flere gange i en kamp. Fjernes efter at have været brugt mindst én gang i en kamp.<br /><br />Kun tilgængelig under <font color='#cbac77'>Babylon Project</font>-eventet.<br /><br />Alle ubrugte evner vil blive fjernet og kompenseret med credits lig med 50% af deres pris i den næste opdatering."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Nødreparationer"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Gendanner straks 400 hp til dit køretøj.\n• Gendanner yderligere 300 hp på 30 s.\n• Gendannelsen afbrydes hvis der modtages skade.\n• Slukker brande, fjerner fortumlet effekt og reparerer skadede moduler.\n• Kan kun aktiveres efter at have modtaget skade."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Gendanner hp, slukker brande, fjerner fortumlet effekt og reparerer skadede moduler."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Pris i Mirium ved brug i kamp:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nPris i Mirium: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Pris i Mirium ved brug i kamp:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Affyrer et skud, der uddeler skade og gør målet, og fjendtlige køretøjer i nærheden, fortumlede."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Kampevne. Affyrer et skud, der uddeler skade og gør målet og alle fjendtlige køretøjer i en radius på 35 m fortumlet. Hvis den har været brugt mindst én gang i en kamp, er evnen brugt op og kan genforsynes med credits. Hvis den ikke har været brugt er genforsyning ikke nødvendig.<br/><br/>Kun tilgængelig under <font color='#cbac77'>Babylon: Dark Tower</font>-eventet.<br/><br/>Alle ubrugte evner vil blive fjernet og kompenseres med credits lig 50% af deres pris i den næste opdatering."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Energiskud"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Affyrer et skud, der uddeler skade og gør målet, og alle fjendtlige køretøjer i en radius på 35 m, fortumlede."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Affyrer et skud, der uddeler skade og gør målet, og fjendtlige køretøjer i nærheden, fortumlede."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Affyrer et skud, der gendanner hp ved at stjæle dem fra målet og fjendtlige køretøjer i nærheden."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Kampevne. Affyrer et skud, der gendanner hp ved at stjæle dem fra målet og fra fjendtlige køretøjer i en radius på 35 m, samt reparerer skadede moduler og fjerner fortumlet effekt. Hvis den har været brugt mindst én gang i en kamp, er evnen brugt op og kan genforsynes med credits. Hvis den ikke har været brugt er genforsyning ikke nødvendig.<br/><br/>Kun tilgængelig under <font color='#cbac77'>Babylon: Dark Tower</font>-eventet.<br/><br/>Alle ubrugte evner vil blive fjernet og kompenseres med credits lig 50% af deres pris i den næste opdatering."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Vampyrskud"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Affyrer et skud, der gendanner hp ved at stjæle dem fra målet og fjendtlige køretøjer i en radius på 35 m, samt reparerer skadede moduler og fjerner fortumlet effekt."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Affyrer et skud, der gendanner hp ved at stjæle dem fra målet og fjendtlige køretøjer i nærheden."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Affyrer et skud, der gør målet, og fjendtlige køretøjer i nærheden, fortumlede."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Kampevne. Affyrer et skud, der gør målet, og alle fjendtlige køretøjer i en radius på 35 m, fortumlede. Kan bruges flere gange i en kamp. Fjernes efter at have været brugt mindst én gang i en kamp.<br /><br />Kun tilgængelig under <font color='#cbac77'>Babylon Project</font>-eventet.<br /><br />Alle ubrugte evner vil blive fjernet og kompenseret med credits lig med 50% af deres pris i den næste opdatering."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Fortumlingsskud"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Affyr et skud, der gør målet, og alle fjendtlige køretøjer i en radius på 35 m, fortumlede."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Affyrer et skud, der gør målet, og fjendtlige køretøjer i nærheden, fortumlede."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Gør dit køretøj usynligt over for fjender, gendanner hp, reparerer moduler og slukker brand."
+
+msgid "hwInvisibility/long_special"
+msgstr "Kampevne. Gør dit køretøj usynligt over for fjender i 10 s. Gendanner 35 hp per sekund, reparerer moduler, fjerner alle negative effekter og giver usårlighed mod rustskade. Hvis du afgiver skud eller modtager skade fra et fjendtligt køretøj (ved skud, påkørsel eller ved brug af kampevner), vil din position straks blive afsløret. Kan ikke afbrydes af fjendtlige skud i 3 s efter aktivering. Hvis den har været brugt mindst én gang i en kamp, er evnen brugt op og kan genforsynes med credits. Hvis den ikke har været brugt er genforsyning ikke nødvendig. <br/><br/>Kun tilgængelig under<font color='#cbac77'>Babylon: Dark Tower</font>-eventet.<br/><br/>Alle ubrugte evner vil blive fjernet og kompenseret med credits lig med 50% af deres pris i den næste opdatering."
+
+msgid "hwInvisibility/name"
+msgstr "Stealth-helbredelse"
+
+msgid "hwInvisibility/onUse"
+msgstr "Gør dit køretøj usynligt for fjender i 10 s. Gendanner 35 hp per sekund, reparerer moduler, fjerner alle negative effekter og giver usårlighed mod rustskade. Hvis du afgiver skud eller modtager skade fra et fjendtligt køretøj (ved skud, påkørsel eller ved brug af kampevner), vil din position straks blive afsløret. Kan ikke afbrydes af fjendtlige skud i 3 s efter aktivering."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Skjuler dig fra fjender, gendanner hp, reparerer moduler, slukker brand, fjerner fortumlet effekt og behandler såret mandskab."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Accelererer dit køretøj i en begrænset periode\nog forøger skaden uddelt ved sammenstød."
+
+msgid "nitroRamDamage/name"
+msgstr "Turbolader"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Forøger midlertidigt dit køretøjs hastighed og skaden uddelt ved påkørsler."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Reparerer og gendanner nogle hp til allierede køretøjer i dens radius."
+
+msgid "teamRepairKit/long_special"
+msgstr "Kampevne. Reparerer straks moduler, slukker brand, fjerner fortumlet effekt og gendanner nogle hp på allierede køretøjer i dens radius. Hvis den har været brugt mindst én gang i en kamp, er evnen brugt op og kan genforsynes med credits. Hvis den ikke har været brugt er genforsyning ikke nødvendig.<br/><br />Kun tilgængelig under <font color='#cbac77'>Babylon: Dark Tower</font>-eventet.<br/><br/>Alle ubrugte evner vil blive fjernet og kompenseres med credits lig 50% af deres pris i den næste opdatering."
+
+msgid "teamRepairKit/name"
+msgstr "Gruppereparation"
+
+msgid "teamRepairKit/onUse"
+msgstr "Reparerer straks moduler, slukker brande, fjerner fortumlet effekt og gendanner nogle hp til allierede køretøjer i dens radius."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Reparerer og gendanner nogle hp til allierede køretøjer i dens radius."

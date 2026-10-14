@@ -3304,12 +3304,6 @@ msgstr "Ограничения по взводам"
 msgid "details/conditions/additional"
 msgstr "Нажмите, чтобы посмотреть дополнительное условие данной задачи."
 
-msgid "devMaps/body"
-msgstr "Сражайтесь на картах с такими случайными событиями, как крушение поезда или самолёта, которые динамически меняют поле боя и создают новые тактические возможности."
-
-msgid "devMaps/header"
-msgstr "Играть на картах со случайными событиями"
-
 msgid "deviceFits/already_installed/header"
 msgstr "Установлено на:"
 
@@ -6670,6 +6664,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/fisherman/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/fr_spark/desc"
+msgstr "Лэйси Пэкстон по прозвищу «Искорка» нигде не задерживалась надолго. Её воспитывал отец, инженер связи, и они постоянно переезжали с одной военной базы на другую. Благодаря этому она повидала мир, научилась приспосабливаться к любым условиям и приобрела поразительную способность замечать закономерности. Позже Искорка доказала, что одинаково хорошо управляется как с разведывательным оборудованием, так и с бронетехникой. Она руководит с присущим ей сухим остроумием и никогда зря не рискует своим экипажем. Когда «Сектор 3» сформировал подразделение для перехвата передач Архитектора, Искорка стала очевидным кандидатом на роль его командира. Свою первую операцию она назвала «Выкидной нож», и это название закрепилось за всем подразделением."
+
+msgid "notrecruitedtankman/fr_spark/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/fr_spark/label"
+msgstr "Есть сигнал"
+
 msgid "notrecruitedtankman/freeSkillsTitle"
 msgstr "«Нулевые» навыки"
 
@@ -6709,6 +6712,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/girls_und_panzer_erwin/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/desc"
+msgstr "Хосино — способная наводчица, которая с улыбкой расправляется с соперниками и любит погонять на машине в свободное время."
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/girls_und_panzer_kei/desc"
 msgstr "В лице Кей ученицы школы «Сандерс» обрели опытную предводительницу, для которой честная игра превыше всего. Кей никогда не унывает и поддерживает моральный дух товарищей, напоминая: чем больше в игре веселья, тем слаще победа."
 
@@ -6716,6 +6728,15 @@ msgid "notrecruitedtankman/girls_und_panzer_kei/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_kei/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/desc"
+msgstr "Невозмутимая командир и радистка команды «Леопон», которая остаётся хладнокровной даже в самом жарком бою."
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_naomi/desc"
@@ -6752,6 +6773,24 @@ msgid "notrecruitedtankman/girls_und_panzer_saunders/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_saunders/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/desc"
+msgstr "Может, у Сузуки и нежная натура, но снаряды, которые она заряжает, бьют больно."
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/desc"
+msgstr "Вы можете попросить Цутию не дрифтовать. Но не ждите, что она послушает."
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/howToGet"
@@ -6935,6 +6974,15 @@ msgid "notrecruitedtankman/lunar26_commander/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/lunar26_commander/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/desc"
+msgstr "Знаменитый инженер, ставший командиром, Эмиль Дьяченко одинаково уверенно чувствует себя, ведя огонь по танкам противника или вскрывая моторный отсек, чтобы установить очередное импровизированное улучшение. Настоящий индивидуалист, он стал легендой в казарме — его люди клянутся, что он никогда не спит. Эмиль знает об этих слухах и предпочитает не подтверждать и не опровергать их. Как большой любитель всего необычного, он никогда не станет сдерживать чьё-либо воображение. И действительно, когда он не замышляет очередную безумную авантюру, то чертит самодельные турбонагнетатели, которые никак не могут работать... по крайней мере, на первый взгляд."
+
+msgid "notrecruitedtankman/mustached_engineer/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/ny19men/desc"
@@ -11616,6 +11664,12 @@ msgstr "Время между полной разрядкой магазина (
 
 msgid "tank_params/desc/coincidenceElectromechanicalSightDuration"
 msgstr "Продолжительность эффекта параллаксного электромеханического прицела после активации."
+
+msgid "tank_params/desc/combatThrottleCooldown"
+msgstr "Время до повторного использования «Боевого форсажа»."
+
+msgid "tank_params/desc/combatThrottleDuration"
+msgstr "Продолжительность действия «Боевого форсажа» после активации."
 
 msgid "tank_params/desc/concentrationModeCooldown"
 msgstr "Время до повторного использования стабилизатора."

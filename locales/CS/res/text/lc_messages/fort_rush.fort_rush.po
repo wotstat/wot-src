@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Všechny datové bloky dokončeny!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Datový blok {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Převezměte kontrolu nad anténami. Udržte síť. Zajistěte přenos."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "Režim bude k dispozici po dobu"
+
+msgid "bannerTooltip/header"
+msgstr "Černý signál"
+
+msgid "bannerTooltip/mode"
+msgstr "REŽIM"
+
+msgid "bannerTooltip/modeHint"
+msgstr " – přepínání do jiného režimu hry"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Výkon vašeho počítače není pro tento režim hry dostačující. Budete mít potíže s grafikou a pohybem vozidla. Možné jsou také pády herního klienta."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "V případě nedostatečného výkonu zkuste snížit nastavení grafiky."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Tento režim hry vyžaduje vysoký výpočetní výkon. Můžete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Nízký výkon"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Tento režim je pro počítač náročný."
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Snížený výkon"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "Obnovené body výdrže"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Služební skóre"
+
+msgid "battleLoading/description"
+msgstr "Převezměte kontrolu nad anténami. Udržte síť. Zajistěte přenos."
+
+msgid "battleLoading/header"
+msgstr "Černý signál"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "Získáním antény se obnoví malé množství bodů výdrže vašeho vozidla. Využijte tento bonus k udržení pozice a připravte se na protiútok."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Zajištění a obnovení"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "Antény nelze obsadit, dokud se v okolí nachází nepřátelská vozidla. Zlikvidujte všechny vetřelce, abyste mohli pokračovat v zajišťování cíle."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Blokované obsazení"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "Po vašem opětovném nasazení je vaše vozidlo 10 sekund chráněné před poškozením. Využijte tento čas pro návrat do boje nebo pro ukrytí se."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Ochrana při opětovném nasazení"
+
+msgid "battleQueue/title"
+msgstr "Černý signál"
+
+msgid "capturingIndicator/captured"
+msgstr "Anténa obsazena"
+
+msgid "capturingIndicator/capturing"
+msgstr "Obsazování antény"
+
+msgid "capturingIndicator/contesting"
+msgstr "Anténa je blokovaná"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "Neutralizování antény"
+
+msgid "endGame/reason/210"
+msgstr "Oba týmy dosáhly limitu signálních bodů"
+
+msgid "endGame/reason/3"
+msgstr "Dosažen časový limit signálních bodů"
+
+msgid "endGame/reason/6/lose"
+msgstr "Nepřátelský tým dosáhl limitu signálních bodů"
+
+msgid "endGame/reason/6/win"
+msgstr "Váš tým dosáhl limitu signálních bodů"
+
+msgid "endGame/reason/7"
+msgstr "Dosažen časový limit"
+
+msgid "notifications/progression/header"
+msgstr "Blahopřejeme!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Podrobnosti"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Odměny za dokončení kroku postupu&nbsp;%(stageIdx)s: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Všechny datové bloky byly dokončeny."
+
+msgid "progression/completedTitle"
+msgstr "Postup dokončen!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Zbývající čas:"
+
+msgid "progression/dailyMissions/title"
+msgstr "Polní rozkazy"
+
+msgid "progression/description"
+msgstr "Pro pokračování v postupu plňte denní mise v bitvách Černého signálu."
+
+msgid "progression/info_button/body"
+msgstr "Klikněte pro další informace"
+
+msgid "progression/info_button/header"
+msgstr "O Černém signálu"
+
+msgid "progression/widget/stageLabel"
+msgstr "Datový blok %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s/%(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Dokončili jste všechny datové bloky!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Dokončeno"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Odměny datového bloku"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Stávající datový blok"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "Denní mise se obnoví za:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Černý signál"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Stávající postup"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "Postup je dočasně nedostupný."
+
+msgid "progression/widget/unavailable"
+msgstr "Postup není dostupný"
+
+msgid "progressionView/stateHeader"
+msgstr "Postup Černým signálem"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Zrušit"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Váš tým vás stále potřebuje! Pokud opustíte bitvu, váš tým bude v nevýhodě a vy nezískáte žádné bonusy ani postup misí."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Opustit"
+
+msgid "quitBattle/leaver/title"
+msgstr "Opouštíte bitvu"
+
+msgid "respawnTimer/description"
+msgstr "Jiné místo opětovného nasazení vám může poskytnout strategickou výhodu."
+
+msgid "respawnTimer/title"
+msgstr "Nasazení za:"
+
+msgid "rewardScreen/button"
+msgstr "Potvrzuji!"
+
+msgid "rewardScreen/title"
+msgstr "Odměny datového bloku odemčeny"
+
+msgid "timersPanel/invulnerable"
+msgstr "Nezranitelný"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Pro dokončení datových bloků a získání cenných zdrojů, včetně výrazné odměny, získávejte datové balíčky. Datové balíčky lze získat za způsobování poškození, ničení nepřátel v bitvě, obsazování bodů a plnění denních misí."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Datový balíček"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Všechna vozidla"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Vynulovat filtry"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Vynulovat filtry pro zobrazení dostupných vozidel"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "Tento seznam oblíbených vozidel neobsahuje žádná vhodná vozidla pro tento režim."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Žádná vhodná vozidla"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Nebyla nalezena žádná odpovídající vozidla"
+
+msgid "welcomeScreen/button"
+msgstr "Pokračovat"
+
+msgid "welcomeScreen/description1"
+msgstr "Jste součástí obrněné zásahové jednotky, která má za úkol zajistit a udržet pod kontrolou tajnou síť v oblasti, o kterou se vedou boje. Udržte síť pod svou kontrolou za každou cenu."
+
+msgid "welcomeScreen/description2"
+msgstr "Někdo vynaložil velké úsilí, aby tyto informace utajil. Splňte mise a získejte zašifrované fragmenty."
+
+msgid "welcomeScreen/description3"
+msgstr "Dokončete datové bloky a z misí akce získejte hodnotné odměny."
+
+msgid "welcomeScreen/header1"
+msgstr "Obsaďte antény"
+
+msgid "welcomeScreen/header2"
+msgstr "Dešifrujte zprávu"
+
+msgid "welcomeScreen/header3"
+msgstr "Postup a odměny"
+
+msgid "welcomeScreen/title"
+msgstr "Černý signál"

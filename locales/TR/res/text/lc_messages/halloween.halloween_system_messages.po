@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Savaş Yeteneği"
+
+msgid "make_choice/server_error"
+msgstr "İşlem geçici olarak yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "ÜYE ALIMI"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Üye Alındı"
+
+msgid "notification/crew_reward/title"
+msgstr "Ödül alındı"
+
+msgid "open_artefact/server_error"
+msgstr "İşlem geçici olarak yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Alınan Deşifre Anahtarları: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Alındı"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Çıkarılan Deşifre Anahtarları: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Deşifre"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "%s için Savaş Yetenekleri ikmal edilemedi. Teknik sorun."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "%s için Savaş Yetenekleri ikmal edilemedi. Yetersiz para."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "%s için Savaş Yetenekleri ikmal edildi. Harcadığınız: "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Deşifre Anahtarları alındı"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Deşifre edilebilecek kayıtlar"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Kip: Babil: Kara Kule"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babil: Kara Kule (Normal)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babil: Kara Kule (Yüksek)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babil: Kara Kule (Kâbus)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Boss yenildi"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Zorluk Seviyesi"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normal"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Yüksek"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Kâbus"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Tamamlanan fazlar: %(curPhase)s / %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Hedef tamamlandı!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Hedefler tamamlandı!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Araç"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "%(money)s harcandı"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finansal İşlem"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Babil: Kara Kule etkinliğinin zorluk seviyesini Garajınızdan seçebilirsiniz."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Yüksek Zorluk Seviyesi Açıldı"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Babil: Kara Kule etkinliğinin zorluk seviyesini Garajınızdan seçebilirsiniz."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Kâbus Zorluk Seviyesi Açıldı"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "%(vehicle)s artık Babil: Kara Kule savaşlarında kullanılabilir."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Babil: Kara Kule savaşları geçici olarak devre dışıdır.\nDaha sonra tekrar deneyin."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Babil: Kara Kule (%(difficulty)s) savaşları geçici olarak devre dışıdır.\nDaha sonra tekrar deneyin."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Babil: Kara Kule hâlihazırda devre dışı. Güncellemeler için oyun portalına bakın."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Takım Komutanı zorluk seviyesini %(level)s olarak değiştirdi."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "%(userName)s oyuncusu zorluk seviyelerinden birini açmadı."

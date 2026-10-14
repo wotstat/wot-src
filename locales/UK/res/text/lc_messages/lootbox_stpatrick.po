@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Повернутися до скринь"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Кожна %(guaranteed0)s скриня гарантовано міст
 msgid "infoPage/header/description"
 msgstr "Відкривайте скрині заради шансу отримати цінне ігрове майно! Подробиці нижче."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "З: %(name) (відкрито скринь: %(boxesCount))"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "У вас немає скринь.\nЇх можна придбати в ігровому Магазині."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Скринь у наявності: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Немає скринь у наявності"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Якщо вже маєте всю техніку зі списку можливого вмісту скринь, за всі подальші машини з них ви отримуватимете золото як компенсацію."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) скриня"
 msgstr[1] "%(remainingCount) скрині"
 msgstr[2] "%(remainingCount) скринь"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Гарантована нагорода — машина зі списку можливого вмісту скринь.\nЯкщо після відкриття %(remainingCount) скринь ви так і не отримали техніку, вона гарантовано випаде з %(count)-ї скрині. Після цього лічильник буде скинуто."

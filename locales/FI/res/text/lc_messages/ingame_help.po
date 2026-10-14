@@ -167,13 +167,13 @@ msgid "detailsHelp/devMaps/headerTitle"
 msgstr "Kartan ominaisuudet"
 
 msgid "detailsHelp/devMaps/markers/description"
-msgstr "Satunnaistapahtuman sijainti merkitään\nkartalle savulla ja pienoiskartalle merkillä.\nSatunnaistapahtumia sisältävät kartat voi poistaa kierrosta asetusten \"Peli\" -välilehdeltä."
+msgstr "Satunnaistapahtuman sijainti merkitään\nkartalle savulla ja pienoiskartalle merkillä."
 
 msgid "detailsHelp/devMaps/title"
 msgstr "Kartat satunnaistapahtumilla"
 
 msgid "detailsHelp/devMaps/zone/description"
-msgstr "Vaunusi voi tuhoutua satunnaistapahtuman alueella (esimerkiksi lentokoneen maahansyöksyn aikana).\nSatunnaistapahtumia sisältävät kartat voi poistaa kierrosta asetusten \"Peli\" -välilehdeltä."
+msgstr "Vaunusi voi tuhoutua satunnaistapahtuman alueella (esimerkiksi lentokoneen maahansyöksyn aikana)."
 
 msgid "detailsHelp/dualGun/quick_fire"
 msgstr "Tällä ampumajärjestelmällä varustetut vaunut vaihtavat tykkejä ammuttaessa. Ammuttu tykki aloittaa lataamisen automaattisesti ja toisen ladatun tykin pitää odottaa pieni hetki."
@@ -279,6 +279,12 @@ msgstr "Kahden panssarin läpäisevän osuman aikaan saaminen vihollisvaunuihin 
 
 msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
 msgstr "Sarjatila"
+
+msgid "detailsHelp/mechanics/combatThrottle/page1/description"
+msgstr "Aktivoi kaasu saadaksesi väliaikaisesti lisätehoa moottorille, vauhtiin ja ohjattavuuteen samalla, kun tykki säilyy luotettavasti käsiteltävänä. Tämä mahdollistaa ketterän, dynaamisen pelaamisen taistelutehokkuutta vaarantamatta."
+
+msgid "detailsHelp/mechanics/combatThrottle/page1/title"
+msgstr "Taistelukaasu"
 
 msgid "detailsHelp/mechanics/concentrationMode/page1/description"
 msgstr "Pneumaattinen gyrovakaaja tarjoaa lyhyeksi ajaksi parhaan mahdollisen vakauden runkoa ja tornia käännettäessä mahdollistaen tarkemman ampumisen liikkeestä ja nopeat reaktiot yllättäviin uhkiin.\nAktivoidaksesi paina näppäintä:"

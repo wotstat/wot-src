@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Дає невразливість."
+
+msgid "damageShield/long_special"
+msgstr "Бойове вміння. Створює енергетичний щит, що захищає вашу машину від будь-якої шкоди, окрім тарана, потоплень і зіткнень, упродовж 7 с. Якщо хоч раз використане в бою, вміння витрачається й може бути поповнене за кредити. Якщо не використане, поповнення не потрібне.<br /><br />Доступно лише впродовж події <font color='#cbac77'>«Вавилон: Темна вежа»</font>.<br /><br />Усі невикористані вміння буде списано й компенсовано в кредитах (50% від вартості) у наступному оновленні."
+
+msgid "damageShield/name"
+msgstr "Енергетичний щит"
+
+msgid "damageShield/onUse"
+msgstr "Створює енергетичний щит, що захищає вашу машину від будь-якої шкоди, окрім тарана, потоплень і зіткнень, упродовж 7 с."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Дає невразливість."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Підвищує скорострільність/перезаряджає магазин."
+
+msgid "fastReload/long_special"
+msgstr "Бойове вміння. На деякий час значно пришвидшує заряджання циклічної гармати або миттєво перезаряджає гармати з магазинною системою заряджання. Якщо хоч раз використане в бою, вміння витрачається й може бути поповнене за кредити. Якщо не використане, поповнення не потрібне.<br /><br />Доступно лише впродовж події <font color='#cbac77'>«Вавилон: Темна вежа»</font>.<br /><br />Усі невикористані вміння буде списано й компенсовано в кредитах (50% від вартості) у наступному оновленні."
+
+msgid "fastReload/name"
+msgstr "Швидке перезаряджання"
+
+msgid "fastReload/onUse"
+msgstr "На деякий час значно пришвидшує перезаряджання циклічної гармати або миттєво перезаряджає гармати з магазинною системою заряджання."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Підвищує скорострільність/перезаряджає магазин."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Відновлює очки міцності, гасить пожежу, знімає ефект оглушення й лагодить пошкоджені модулі."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Бойове вміння. Відновлює очки міцності, гасить пожежу, знімає ефект оглушення й лагодить пошкоджені модулі. Можна використати кілька разів за бій. Списується після хоча б одного використання в бою.<br /><br />Доступно лише протягом події <font color='#cbac77'>«Проєкт \"Вавилон\"»</font>.<br /><br />Усі невикористані вміння буде списано й компенсовано в кредитах (50% від вартості) в наступному оновленні."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Екстрений ремонт"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Миттєво відновлює 400 од. міцності вашій машині.\n• Відновлює додаткові 300 од. міцності впродовж 30 с.\n• Відновлення переривається, якщо зазнати шкоди.\n• Гасить пожежу, знімає ефект оглушення й лагодить пошкоджені модулі.\n• Можна активувати тільки в разі отримання шкоди."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Відновлює очки міцності, гасить пожежу, знімає ефект оглушення й лагодить пошкоджені модулі."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Миріуму треба для використання в бою:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nТреба миріуму: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Миріуму треба для використання в бою:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Робить постріл, що пошкоджує й оглушує ціль та всю техніку супротивника поблизу."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Бойове вміння. Робить постріл, що пошкоджує та оглушує ціль і всю техніку супротивника в радіусі 35 м. Якщо хоч раз використане в бою, вміння витрачається й може бути поповнене за кредити. Якщо не використане, поповнення не потрібне.<br/><br/>Доступно лише впродовж події <font color='#cbac77'>«Вавилон: Темна вежа»</font>.<br/><br/>Усі невикористані вміння буде списано й компенсовано в кредитах (50% від вартості) у наступному оновленні."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Енергетичний заряд"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Робить постріл, що пошкоджує та оглушує ціль і всю техніку супротивника в радіусі 35 м."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Робить постріл, що пошкоджує й оглушує ціль та всю техніку супротивника поблизу."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Робить постріл, що відновлює очки міцності, викрадаючи їх у цілі й техніки супротивника поблизу."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Бойове вміння. Робить постріл, що відновлює очки міцності, викрадаючи їх у цілі й техніки супротивника в радіусі 35 м, а також лагодить пошкоджені модулі та знімає ефект оглушення. Якщо хоч раз використане в бою, вміння витрачається й може бути поповнене за кредити. Якщо не використане, поповнення не потрібне.<br/><br/>Доступно лише впродовж події <font color='#cbac77'>«Вавилон: Темна вежа»</font>.<br/><br/>Усі невикористані вміння буде списано й компенсовано в кредитах (50% від вартості) у наступному оновленні."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Постріл вампіра"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Робить постріл, що відновлює очки міцності, викрадаючи їх у цілі й техніки супротивника в радіусі 35 м, а також лагодить пошкоджені модулі та знімає ефект оглушення."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Робить постріл, що відновлює очки міцності, викрадаючи їх у цілі й техніки супротивника поблизу."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Робить постріл, що оглушує ціль і техніку супротивника поблизу."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Бойове вміння. Робить постріл, що оглушує ціль і всю техніку супротивника в радіусі 35 м. Можна використати кілька разів за бій. Списується після хоча б одного використання в бою.<br /><br />Доступно лише впродовж події <font color='#cbac77'>«Проєкт \"Вавилон\"»</font>.<br /><br />Усі невикористані вміння буде списано й компенсовано в кредитах (50% від вартості) у наступному оновленні."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Ударний заряд"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Робить постріл, що оглушує ціль і техніку супротивника в радіусі 35 м."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Робить постріл, що оглушує ціль і техніку супротивника поблизу."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Робить вашу машину невидимою для супротивника, відновлює міцність, лагодить модулі й гасить пожежу."
+
+msgid "hwInvisibility/long_special"
+msgstr "Бойове вміння. Робить вашу машину невидимою для супротивника на 10 с. Відновлює 35 од. міцності за секунду, лагодить модулі, знімає всі негативні ефекти й забезпечує невразливість до корозії. Вогонь по техніці супротивника чи зазнавання шкоди від неї (постріл, таран чи бойове вміння) негайно викриють вашу позицію. Не може бути перерване пострілами супротивника впродовж 3 с після активації. Якщо хоч раз використане в бою, вміння витрачається й може бути поповнене за кредити. Якщо не використане, поповнення не потрібне.<br/><br/>Доступно лише впродовж події <font color='#cbac77'> «Вавилон: Темна вежа»</font>.<br/><br/>Усі невикористані вміння буде списано й компенсовано в кредитах (50% від вартості) у наступному оновленні."
+
+msgid "hwInvisibility/name"
+msgstr "Приховане зцілення"
+
+msgid "hwInvisibility/onUse"
+msgstr "Робить вашу машину невидимою для супротивника на 10 с. Відновлює 35 од. міцності за секунду, лагодить модулі, знімає всі негативні ефекти й забезпечує невразливість до корозії. Вогонь по техніці супротивника чи зазнавання шкоди від неї (постріл, таран чи бойове вміння) негайно викриють вашу позицію. Не може бути перерване пострілами супротивника впродовж 3 с після активації."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Ховає вас від супротивників, відновлює міцність, лагодить модулі, гасить пожежу, знімає оглушення й лікує екіпаж."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Прискорює вашу машину на деякий час,\nа також збільшує шкоду тараном."
+
+msgid "nitroRamDamage/name"
+msgstr "Ривок"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Тимчасово збільшує швидкість руху та шкоду тараном."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Лагодить і відновлює міцність союзних машин в області дії."
+
+msgid "teamRepairKit/long_special"
+msgstr "Бойове вміння. Миттєво лагодить модулі, гасить пожежу, знімає ефект оглушення й відновлює частину міцності союзним машинам в області дії. Якщо хоч раз використане в бою, вміння витрачається й може бути поповнене за кредити. Якщо не використане, поповнення не потрібне.<br/><br />Доступно лише впродовж події <font color='#cbac77'>«Вавилон: Темна вежа»</font>.<br/><br/>Усі невикористані вміння буде списано й компенсовано в кредитах (50% від вартості) у наступному оновленні."
+
+msgid "teamRepairKit/name"
+msgstr "Груповий ремонт"
+
+msgid "teamRepairKit/onUse"
+msgstr "Миттєво лагодить модулі, гасить пожежу, знімає ефект оглушення й відновлює певну кількість очок міцності союзним машинам в області дії."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Лагодить і відновлює міцність союзних машин в області дії."

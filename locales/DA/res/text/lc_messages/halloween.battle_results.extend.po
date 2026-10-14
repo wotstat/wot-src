@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, varighed: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "Normal sværhedsgrad"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "Hård sværhedsgrad"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "Mareridt sværhedsgrad"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "Babylon Anomaly – {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "Antal respawn: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "Uacceptabel præstation: Inaktivitet/desertering.\nBelønning ikke modtaget."
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "Dit hold fejlede: Den første fase blev ikke fuldført.\nBelønning ikke modtaget."
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s."
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s."
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)."
+
+msgid "hw_battle_result/status/lose"
+msgstr "KAMP SLUTTET"
+
+msgid "hw_battle_result/status/win"
+msgstr "SEJR"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "Kamp sluttet"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "Mørket er blevet løftet! Fremragende holdspil!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "KAMP SLUTTET"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "%(phaseNumber)s FASE FULDFØRT"
+msgstr[1] "%(phaseNumber)s FASER FULDFØRT"
+msgstr[2] "%(phaseNumber)s FASER FULDFØRT"
+
+msgid "hw_battle_result/title/win"
+msgstr "BOSS NEDKÆMPET"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "Alle allierede køretøjer er blevet ødelagt."
+
+msgid "hw_finish/reason/3/lose"
+msgstr "Tiden er omme."
+
+msgid "hw_finish/reason/5/lose"
+msgstr "Alle allierede har forladt kampen."
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "Vejen til Det mørke tårn er ryddet nu."
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "Ja! Vi gjorde det!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "Vi tvang det på retræte, men det er ikke forbi."
+
+msgid "teamList/actions"
+msgstr "Kvikhandlinger"
+
+msgid "teamList/teammates"
+msgstr "Allierede"

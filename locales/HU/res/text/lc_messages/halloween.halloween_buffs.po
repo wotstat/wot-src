@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "{{@ class $highlightClass}}%(generalValue)s%%{{/}}-kal csökkenti a löveg szórását mozgás közben, valamint a járműtest és a torony forgatása közben."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s a szóráshoz mozgás\nés a járműtest forgása közben."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Csökkenti a\nlöveg szórását."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Csökkenti a löveg szórását mozgás közben, valamint a járműtest és a torony forgatása közben."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Mesterlövész"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Teljesen {{@ class $highlightClass}}sebezhetetlenné{{/}} teszi a járművedet a Sündisznók és Alfa sündisznók {{@ class $highlightClass}}robbanási sebzésével{{/}} szemben.\nA jármű ugyanúgy sebződik a Sündisznók becsapódásakor elszenvedett ütközési sebzéstől."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Sebezhetetlenné teszi a járművedet\na Sündisznók robbanási sebzésével szemben."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Megvédi a járművedet a Sündisznók robbanási sebzésével szemben."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Teljesen sebezhetetlenné teszi a járművedet a Sündisznók és Alfa sündisznók robbanási sebzésével szemben.\nA jármű ugyanúgy sebződik a Sündisznók becsapódásakor elszenvedett ütközési sebzéstől."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Robbanásállóság"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Megszünteti a {{@ class $highlightClass}}±25%{{/}}-os potenciális sebzési tartományt, kiszámíthatóbbá téve a lövések hatását."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "A lövéseknek nincs ±25%%-os\nsebzéstartománya."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "A lövéseknek nincs ±25%-os sebzéstartománya."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Megszünteti a ±25%-os potenciális sebzési tartományt, kiszámíthatóbbá téve a lövések hatását."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Kontrollált sebzés"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "{{@ class $highlightClass}}%(mitigation)s%%{{/}}-kal csökkenti az elszenvedett sebzést* (beleértve a lövések, tűz, ütközés, sebzési zóna, korróziós fázis, modulsebzés és egyebek általi sebzést).\n*Nem vonatkozik a zuhanásból és a kivégzési fázis során elszenvedett sebzésre."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s-kal csökkenti az elszenvedett sebzést."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Csökkenti az elszenvedett sebzést."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Csökkenti az elszenvedett sebzést* (beleértve a lövések, tűz, ütközés, sebzési zóna, korróziós fázis, modulsebzés és egyebek általi sebzést).\n*Nem vonatkozik a zuhanásból és a kivégzési fázis során elszenvedett sebzésre."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Sebzéselnyelés"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "{{@ class $highlightClass}}%(chance)s%%{{/}}-os esélyt ad arra, hogy visszaállítson {{@ class $highlightClass}}%(heal)s{{/}} életerőt a járművednek, ha lövéssel sebzést okozol ellenséges járműveknek."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s esélyt ad az életerő visszaállítására,\nha lövéssel okozol sebzést."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Életerőt állíthat vissza,\nha lövéssel okozol sebzést."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Lehetővé teszi, hogy visszaállítsd a járműved életerejét, ha lövéssel okozol sebzést ellenséges járműveknek."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Vámpírharapás"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "{{@ class $highlightClass}}%(health)s%%{{/}}-kal növeli a járműved életerejét."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s a jármű életerejéhez."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Növeli\na járműved életerejét."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Megnöveli a jármű tartósságát."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Tartósság"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "{{@ class $highlightClass}}%(chance)s%%{{/}}-kal növeli az esélyét, hogy a lövéssel okozott sebzéssel felgyújts egy ellenséges járművet."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s-kal növeli az esélyét,\nhogy felgyújts egy ellenséges járművet."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Növeli\na járművek felgyújtásának az esélyét."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Megnöveli annak az esélyét, hogy lövéssel okozott sebzéssel felgyújtsd az ellenséges járművet."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Forró fullánk"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "{{@ class $highlightClass}}%(damageFactor)s%%{{/}}-kal növeli az ellenséges járműveknek okozott sebzést."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s az okozott sebzéshez."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Növeli\naz okozott sebzést."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Megnöveli az okozott sebzést."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Kerámiamag"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "{{@ class $highlightClass}}%(reloadTime)s%%{{/}}-kal növeli az újratöltési sebességet."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s az újratöltés sebességéhez."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Növeli\naz újratöltési sebességet."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Megnöveli az újratöltés sebességét."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Géppuska"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Fokozatosan visszaállítja járműved életerejét a maximális tartósságig.\nA hatás megszakad, ha sebzést kapsz."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Fokozatosan visszaállítja\na járműved életerejét."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Életerőt\nállít vissza."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Fokozatosan visszaállítja járműved életerejét a maximális tartósságig. A hatás megszakad, ha sebzést kapsz."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Regenerálódás"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "{{@ class $highlightClass}}Korlátlanná{{/}} teszi a jármű mirium-tárolókapacitását a csatában."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Korlátlanná teszi a miriumkapacitást."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Korlátlanná teszi a miriumkapacitást."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Korlátlanná teszi a jármű mirium-tárolókapacitását a csatában."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Feneketlen kollektor"
+
+msgid "buffs/buffInspiration/body"
+msgstr "{{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}-kal növeli az összes harckocsizó legénységi hatékonyságát."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s a legénység hatékonysági bónuszához."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Növeli a legénység\nhatékonyságát."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Növeli a legénység hatékonyságát."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Ösztönzés"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Ha egy ellenséges járműnek legfeljebb {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} életereje marad, miután meglőtted, akkor azonnal megsemmisül.\nA fő ellenségek immunisak erre a hatásra."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "A lövésed után legfeljebb %(value)s életerejű ellenségek\nazonnal megsemmisülnek."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "A lövésed után alacsony életerőn maradt ellenségek azonnal megsemmisülnek."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Ha egy ellenséges járműnek alacsony életereje marad, miután meglőtted, akkor azonnal megsemmisül.\nA fő ellenségek immunisak erre a hatásra."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Befejező"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Növeli a jármű végsebességét és maximális tolatási sebességet."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Növeli a jármű végsebességét\nés maximális tolatási sebességet."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Növeli a jármű végsebességét és maximális tolatási sebességet."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Növeli a jármű végsebességét és maximális tolatási sebességet."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Gyorsítás"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "{{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}-kal növeli a csatában az ellenségek sebzéséből kapott mirium mennyiségét."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s-kal több miriumot kapsz\naz ellenségektől."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Növeli az ellenségektől szerzett mirium mennyiségét."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Növeli a csatában az ellenségek sebzéséből kapott mirium mennyiségét."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Miriumkinyerés"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "{{@ class $highlightClass}}%(miriumAmount)s{{/}} egységgel növeli a jármű maximális mirium-tárolókapacitását a csatában."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s egységgel növeli a maximális miriumkapacitást."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Növeli a maximális miriumkapacitást."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Növeli a jármű maximális mirium-tárolókapacitását a csatában."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Méretes kollektor"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Az összes mirium megmarad újraéledéskor, ha a jármű megsemmisül a csatában."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Az összes mirium megmarad a járművön\nújraéledés után."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Megőrzi az összes miriumot újraéledés után."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Megőrzi az összes miriumot újraéledés után."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Miriumőr"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "{{@ class $highlightClass}}%(cost)s%%{{/}}-kal csökkenti a harci képességek miriumköltségét a csatában."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s-kal csökkenti a képességek miriumköltségét."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Csökkenti a képességek miriumköltségét."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Jelentősen csökkenti a harci képességek miriumköltségét a csatában."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Miriumhatékonyság"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Használatakor visszaállítja a harci képességek miriumköltségének {{@ class $highlightClass}}%(refundAmount)s%%{{/}}-át."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "Visszaállítja a mirium %(value)s-át\na képesség használatakor."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Részben visszaállítja a miriumot a képesség használatakor."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Részben visszaállítja a harci képesség miriumköltségét a használatkor."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Mirium-visszatérítés"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "{{@ class $highlightClass}}%(power)s%%{{/}}-kal növeli a motor teljesítményét és {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}-kal a torony forgási sebességét."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s a motor teljesítményéhez."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s a torony forgási sebességéhez."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Növeli a motor teljesítményét\nés a torony forgási sebességét."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Növeli a motor teljesítményét és a torony forgási sebességét."
+
+msgid "buffs/buffMobility/header"
+msgstr "Mobilitás"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "A jármű összes modulját sebezhetetlenné teszi bármilyen sérüléssel szemben."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "A jármű összes modulját sebezhetetlenné teszi\nbármilyen sérüléssel szemben."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Megvédi a modulokat\na sérülésektől"
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "A jármű összes modulját sebezhetetlenné teszi bármilyen sérüléssel szemben."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Sebezhetetlen modulok"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "A Malachit alapértelmezett anomáliája, mindig aktív."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "{{@ class $highlightClass}}%(shellPen)s%%{{/}}-kal növeli az összes lőszer páncélátütését."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s-kal növeli a lőszer páncélátütését."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Növeli az összes lőszer páncélátütését."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Növeli az összes lőszer páncélátütését."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Páncélszaggató lövedékek"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Az összes alternatív lőszer megmarad újraéledéskor, ha a jármű megsemmisül a csatában."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Az összes alternatív lőszer megmarad a járművön\nújraéledés után."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Megőrzi az összes alternatív lőszert újraéledés után."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Az összes alternatív lőszer megmarad újraéledéskor, ha a jármű megsemmisül a csatában."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Lőszerőr"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "{{@ class $highlightClass}}%(soulsBonus)s{{/}} egységgel növeli az új fázisok elején, illetve az újraéledést követően kapott mirium mennyiségét. {{@ class $highlightClass}}%(miriumAmount)s{{/}} egységgel növeli a jármű maximális mirium-tárolókapacitását a csatában."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s egység az új fázisokban vagy újraéledés után\nkapott mirium mennyiségéhez."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s egységgel növeli a maximális miriumkapacitást."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Növeli a miriumkapacitást, valamint az új fázisokban és újraéledés után kapott mirium mennyiségét."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Növeli az új fázisok elején, illetve az újraéledést követően kapott mirium mennyiségét. Növeli a jármű maximális mirium-tárolókapacitását a csatában."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Miriumgyorstár"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "{{@ class $highlightClass}}%(timeLength)s%%{{/}}-kal növeli a Turbó időtartamát, és {{@ class $highlightClass}}%(reloadTime)s mp{{/}}-cel csökkenti a visszatöltési idejét."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s-kal növeli a Turbó időtartamát."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s mp-cel csökkenti a Turbó visszatöltését."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Növeli a Turbó időtartamát, és csökkenti a visszatöltési idejét."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Növeli a Turbó időtartamát, és csökkenti a visszatöltési idejét."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Turbóerősítő"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Esélyt ad arra, hogy lövéskor meghatározott mennyiségű sebzést okozz:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}}-os esély {{@ class $highlightClass}}%(damage1)s%%{{/}}-os sebzés okozására;\n• {{@ class $highlightClass}}%(chance2)s%%{{/}}-os esély {{@ class $highlightClass}}%(damage2)s%%{{/}}-os sebzés okozására;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}}-os esély {{@ class $highlightClass}}%(damage3)s%%{{/}}-os sebzés okozására;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}}-os esély {{@ class $highlightClass}}%(damage4)s%%{{/}}-os sebzés okozására."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "A lövés által okozott sebzés az alacsonytól\na rendkívül magasig terjedhet."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "A lövés által okozott sebzés az alacsonytól a rendkívül magasig terjedhet."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Esélyt ad arra, hogy a szokásosnál alacsonyabb vagy éppen rendkívül nagy mennyiségű sebzést okozz."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Kvantumlövések"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Részletek"

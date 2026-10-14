@@ -1,0 +1,1007 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Habilidades de Combate Incompletas"
+
+msgid "abilitiesIncomplete/toAbilities"
+msgstr "Para as Habilidades"
+
+msgid "abilitiesIncomplete/toBattle"
+msgstr "Para a Batalha"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "O veículo selecionado não possui uma ou mais Habilidades de Combate. Isto pode afetar significativamente o seu desempenho em batalha. Deseja entrar na batalha mesmo assim?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Pode personalizar as predefinições das teclas de atalho do evento padrão das Habilidades de Combate e projéteis.\nEsta alteração aplica-se apenas a batalhas de eventos e não afetará quaisquer outros modos.\nPode ainda modificar teclas de atalho individuais em Menu — Definições — Controlos (sob Consumíveis)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Alteração de Predefinições de Teclas de Atalho dos Consumíveis"
+
+msgid "anomaliesView/description_1"
+msgstr "Estes são os bónus da tripulação em combate. Nos níveis de dificuldade {{@ style (color #EEEDE9B2) (bold)}}Difícil{{/}} e {{@ style (color #EEEDE9B2) (bold)}}Pesadelo{{/}}, selecione Anomalias durante o combate e combine-as para desbloquear uma {{@ style (color #C293FFCC) (bold)}}Anomalia Eco{{/}} definitiva."
+
+msgid "anomaliesView/description_2"
+msgstr "Este guia apresenta as Anomalias que obteve em batalhas anteriores, bem como aquelas que ainda não foram descobertas. Para abrir o Menu de Anomalias durante a batalha, {{@ style (color #EEEDE9B2) (bold)}}prima N{{/}} (tecla predefinida)."
+
+msgid "anomaliesView/header"
+msgstr "ANOMALIAS"
+
+msgid "anomaliesView/quote_1/author"
+msgstr "—Objeto 66, O Silencioso\nDizem que ele nunca foi enviado numa expedição. No entanto, há quem o tenha encontrado no interior da Anomalia. Ele entrega novas notas em silêncio e afasta-se."
+
+msgid "anomaliesView/quote_1/message"
+msgstr "Que o Mirium o preencha."
+
+msgid "anomaliesView/quote_2/author"
+msgstr "—Objeto 6, Pied Piper\nUm engenheiro que regressou de uma expedição e construiu o Wavebreaker. Há quem diga que o Mirium o transformou. Outros afirmam que ele sempre foi assim."
+
+msgid "anomaliesView/quote_2/message"
+msgstr "Consegue ouvir?\nÉ o Mirium a chamar."
+
+msgid "anomaliesView/quote_3/author"
+msgstr "—Objeto 12, Magpie\nUma assistente de laboratório de uma das primeiras expedições, dada como desaparecida em ação. Mas ela regressou. Não no sítio certo, não na altura certa e não como a pessoa que tinha partido."
+
+msgid "anomaliesView/quote_3/message"
+msgstr "Por mais vezes que saia da Anomalia, ela continuará a atrai-lo de volta."
+
+msgid "anomaliesView/title"
+msgstr "Combos da Anomalia"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Conclua a missão atual para receber um crachá único Babilónia: Zona Proibida:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Missão de Conquista Épica"
+
+msgid "bestiaryView/carousel/card/new"
+msgstr "NOVO"
+
+msgid "bestiaryView/carousel/card/state/locked"
+msgstr "Bloqueado"
+
+msgid "bestiaryView/carousel/card/tooltip/locked/body"
+msgstr "Conclua a Missão {number} para desbloquear o ficheiro do inimigo."
+
+msgid "bestiaryView/carousel/card/tooltip/style/body"
+msgstr "Assuma a forma do inimigo no modo Batalha Aleatória com um estilo 3D inspirado em Babilónia, disponível na loja do evento."
+
+msgid "bestiaryView/info/about/czech_Cz34_Vz_71_Tesak_HW_BOT"
+msgstr "?empty?"
+
+msgid "bestiaryView/info/about/france_F110_Lynx_6x6_HW_BOT"
+msgstr "Um inimigo leve e ágil, capaz de lançar ataques energéticos contra os seus alvos."
+
+msgid "bestiaryView/info/about/france_F17_AMX_13_90_HW_BOT"
+msgstr "Um tanque Hornet perdido que agora persegue os seus antigos aliados. O seu ódio absoluto transformou-se em fogo concentrado, capaz de incendiar os inimigos a cada tiro."
+
+msgid "bestiaryView/info/about/germany_G00_Bomber_Hell"
+msgstr "Esferas pretas autopropulsadas, cobertas de espinhos como minas navais. Os Hedgehogs aparecem sempre em grupos. Rápidos e altamente manobráveis, só causam danos ao explodirem com o impacto. Um único impacto é perigoso. Vários ao mesmo tempo podem ser fatais."
+
+msgid "bestiaryView/info/about/germany_G00_K_bomber__HW_21_AI"
+msgstr "Com características e comportamento semelhantes aos dos Hedgehogs comuns, o Alpha Hedgehog pode causar ainda mais problemas. Quando esta criatura for detetada, recomenda-se vivamente que todo o esquadrão se concentre em destruí-la."
+
+msgid "bestiaryView/info/about/germany_G113_SP_I_C_HW_BOT"
+msgstr "Um grupo de tanques unidos numa única estrutura. Os danos infligidos a um deles são partilhados por todos. Ou sobrevivem juntos ou perecem juntos."
+
+msgid "bestiaryView/info/about/germany_G142_M48RPz_HW_BOT"
+msgstr "Um inimigo comum dentro da Anomalia que guarda os locais onde se encontra a Matéria. Quando se aproxima do acampamento, todos os Guardas que ali se escondem revelam-se e atacam. São criações de Mirium e desaparecem sem deixar rasto assim que são destruídos."
+
+msgid "bestiaryView/info/about/germany_G171_E77_HW_BOT"
+msgstr "O Monarch funciona como âncora da Colmeia, sustentando todas as unidades nas proximidades."
+
+msgid "bestiaryView/info/about/germany_G181_E100_Autocannon_Boss_HW25_bot"
+msgstr "?empty?"
+
+msgid "bestiaryView/info/about/germany_G25_PzII_Luchs_HELL_HALL"
+msgstr "Um inimigo cobarde e cauteloso que prefere recuar ao primeiro sinal de que foi detetado. Não é perigoso, mas é interessante por ser um alvo fácil e uma fonte de Mirium."
+
+msgid "bestiaryView/info/about/germany_G64_Panther_II_Hall_minion"
+msgstr "Um tanque médio capaz de perseguir as nossas tripulações por toda a Anomalia. Os seus poderosos projéteis de alto poder explosivo podem causar danos consideráveis a aliados com blindagem reduzida."
+
+msgid "bestiaryView/info/about/germany_G73_E50_Ausf_M_Hall_minion"
+msgstr "Um tanque pesado e poderoso que costuma liderar o grupo de guardas nos acampamentos. A sua imensa resistência e elevado poder de fogo tornam-no uma ameaça letal."
+
+msgid "bestiaryView/info/about/italy_It19_Progetto_C50_mod_66_HW_BOT"
+msgstr "Uma versão distorcida da Legio Ferrata, copiada pela Mirium, que agora se voltou contra os seus antigos aliados com um poder ainda maior."
+
+msgid "bestiaryView/info/about/uk_GB100_Manticore_HW_BOT"
+msgstr "Um adversário veloz e discreto, que se destaca pela sua elevada velocidade e resistência. Equipado com lagartas inquebráveis, transporta uma enorme quantidade de Mirium e tentará fugir imediatamente assim que for detetado."
+
+msgid "bestiaryView/info/about/uk_GB125_Saladin_HW_BOT"
+msgstr "Este inimigo não possui armas convencionais. Em vez disso, tenta aproximar-se e autodestruir-se, libertando uma onda de choque que atordoa todos os veículos que se encontram no seu raio de explosão."
+
+msgid "bestiaryView/info/about/uk_GB24_Centurion_Mk3_HW_BOT"
+msgstr "Um Cerberus perdido na Anomalia, cujo único objetivo é agora caçar aqueles que tentam apoderar-se do seu Mirium."
+
+msgid "bestiaryView/info/about/usa_A100_T49_HW_BOT"
+msgstr "Um Grenadier Perdido que ainda pode ser encontrado dentro da Anomalia. O seu elevado poder de fogo e o seu sistema de orientação a laser tornam-no um adversário formidável."
+
+msgid "bestiaryView/info/about/ussr_R171_IS_3_II_HW_BOT"
+msgstr "Um tanque pesado que realiza ataques de abalroamento devastadores. Normalmente, avança à frente das ondas inimigas e semeia o caos na equipa adversária. Com um ataque bem-sucedido, consegue destruir o seu alvo com um único golpe."
+
+msgid "bestiaryView/info/about/ussr_R40_T-54_HW_BOT"
+msgstr "Um Malachite perdido na Anomalia, agora extremamente perigoso. Manteve as suas capacidades originais e tenta aproximar-se o mais possível de si."
+
+msgid "bestiaryView/info/about/ussr_R77_KV2_turret_2"
+msgstr "À primeira vista, isto pode parecer um alvo fácil, mas não se deixe enganar. A sua pesada blindagem frontal e a sua arma de grande precisão tornam-no uma ameaça formidável num confronto direto."
+
+msgid "bestiaryView/info/description/ability_1"
+msgstr "Não é possível sair da zona vigiada e perseguir os veículos em retirada."
+
+msgid "bestiaryView/info/description/ability_10"
+msgstr "Causa danos periodicamente a todos os veículos nas proximidades através de uma onda de energia gerada nas suas bobinas."
+
+msgid "bestiaryView/info/description/ability_11"
+msgstr "A Anomalia transformou a arma deste veículo, criando um fogo concentrado que faz com que cada tiro incendeie o seu alvo."
+
+msgid "bestiaryView/info/description/ability_12"
+msgstr "Dispara projéteis altamente explosivos a partir de um carregador automático com um carregador de duas munições."
+
+msgid "bestiaryView/info/description/ability_13"
+msgstr "Destrui a potência das máquinas dentro do raio da sua aura e também retira a Matéria recolhida pelos jogadores."
+
+msgid "bestiaryView/info/description/ability_14"
+msgstr "Munição melhorada com energia de eco concentrada, que proporciona um bónus substancial de danos a todos os impactos."
+
+msgid "bestiaryView/info/description/ability_15"
+msgstr "Cria uma zona à sua volta. Após um breve atraso, a zona detona: qualquer veículo aliado que se encontre no seu interior fica atordoado. Se destruir o Detonator antes da explosão, o efeito de atordoamento atinge, em vez disso, os tanques eco circundantes."
+
+msgid "bestiaryView/info/description/ability_16"
+msgstr "Não se move, funcionando como uma torre fixa e atingindo os tanques inimigos com disparos precisos."
+
+msgid "bestiaryView/info/description/ability_17"
+msgstr "Atua como o elo vital principal do grupo, fazendo com que a sobrevivência de todas as unidades dependa deste líder."
+
+msgid "bestiaryView/info/description/ability_18"
+msgstr "Uma ligação direta que une o núcleo desta unidade ao seu Monarch. Quando o mestre cai, a ligação rompe-se e a estrutura desta unidade desmorona-se momentos depois."
+
+msgid "bestiaryView/info/description/ability_19"
+msgstr "Ao ser destruído, este inimigo deixa para trás uma Anomalia concentrada que, quando recolhida, concede à equipa uma Anomalia de Recolha especial."
+
+msgid "bestiaryView/info/description/ability_2"
+msgstr "Utilize a habilidade Carga para se aproximar rapidamente do alvo e embatê-lo, causando danos consideráveis."
+
+msgid "bestiaryView/info/description/ability_3"
+msgstr "Os Caçadores detetam inimigos a grandes distâncias e disparam projéteis HE de baixa velocidade de longe, o que pode revelar-se extremamente perigoso não só para os tanques ligeiros, mas também para os flancos e a retaguarda dos tanques médios e até mesmo dos pesados."
+
+msgid "bestiaryView/info/description/ability_4"
+msgstr "Utilize o Mirium para colocar armadilhas no chão, por baixo da sua presa. Estas zonas detonam segundos depois. Mova-se ou será despedaçado."
+
+msgid "bestiaryView/info/description/ability_5"
+msgstr "Foge à velocidade máxima quando é detetado, levando Mirium consigo."
+
+msgid "bestiaryView/info/description/ability_6"
+msgstr "Fixa o alvo mais próximo e avança a toda a velocidade, detonando no impacto. A explosão também pode causar danos aos veículos nas proximidades."
+
+msgid "bestiaryView/info/description/ability_7"
+msgstr "Quando é destruído, o Alpha Hedgehog divide-se em vários Hedgehogs normais (normalmente três, mas o número pode variar), que perseguem o aliado mais próximo, embatem nele e explodem."
+
+msgid "bestiaryView/info/description/ability_8"
+msgstr "Emite uma aura de Mirium que corrói a blindagem dos veículos próximos, absorvendo o material perdido para se regenerar."
+
+msgid "bestiaryView/info/description/ability_9"
+msgstr "A maior cadência de tiro da sua arma permite que este inimigo cause dano adicional."
+
+msgid "bestiaryView/info/tacticalAdvise/czech_Cz34_Vz_71_Tesak_HW_BOT"
+msgstr "{UL}tacticalAdvise_czech_Cz34_Vz_71_Tesak_HW_BOT {UL}{LI}{f7f6f299Bold_open}Tactic_1{f7f6f299Bold_close}: do_1.{UL}{LI}{f7f6f299Bold_open}Tactic_2{f7f6f299Bold_close}: do_2.{UL}{LI}{f7f6f299Bold_open}Tactic_3{f7f6f299Bold_close}: do_3 ."
+
+msgid "bestiaryView/info/tacticalAdvise/france_F110_Lynx_6x6_HW_BOT"
+msgstr "{UL}Não o vai deixar completar a missão em paz! Concentre-se em destruir o Trapper primeiro.{UL}{LI}{{@ style (bold)}}Espalhem-se{{/}}: Se um aliado estiver demasiado perto, pode acabar na zona de dano dele enquanto tenta escapar da sua.{UL}{LI}{{@ style (bold)}} Evite passagens estreitas{{/}}: Mantenha a máxima manobrabilidade.{UL}{LI}{{@ style (bold)}}Utilize as capacidades do veículo{{/}}: O Escudo irá protege-lo do dano de zona, enquanto a Furtividade impede que o Trapper o escolha como alvo desde o início. No entanto, tenha em conta que a Furtividade não o ajudará se já estiver dentro de uma zona de dano."
+
+msgid "bestiaryView/info/tacticalAdvise/france_F17_AMX_13_90_HW_BOT"
+msgstr "{UL}Conte os projéteis, há um para cada membro da sua equipa!{UL}{LI}{{@ style (bold)}}Alvo de alta prioridade{{/}}: Devido às suas capacidades anómalas, este tanque representa uma ameaça significativa para toda a equipa.{UL}{LI}{{@ style (bold)}} Táticas vencedoras{{/}}: A Furtividade e a Reparação em Grupo podem extinguir o fogo e ajuda-lo a si ou aos seus aliados a não arderem completamente.{UL}{LI}{{@ style (bold)}}Destruí-lo{{/}}: Utilize o Turbo para o abalroar com um único golpe rápido!"
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G00_Bomber_Hell"
+msgstr "{UL}Assim que forem detetados, os Hedgehogs devem tornar-se a principal prioridade da equipa!{UL}{LI}{{@ style (bold)}}Vulnerabilidade{{/}}: A sua falta de blindagem torna-os extremamente fáceis de destruir com qualquer arma.{UL}{LI}{{@ style (bold)}}Táticas de grupo{{/}}: Estes inimigos costumam atacar em enxames, por isso mantenha-se alerta e não deixe que o apanhem de surpresa.{UL}{LI}{{@ style (bold)}}Vantagem de área de efeito{{/}}: Utilize habilidades de área de efeito, como o Tiro de Energia ou o Tiro Vampírico, para destruir todo o enxame de uma só vez."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G00_K_bomber__HW_21_AI"
+msgstr "{UL}Depois de ter derrotado o Alfa, prepare-se para enfrentar os Hedgehogs normais!{UL}{LI}{{@ style (bold)}} Dano de área{{/}}: Use as suas Habilidades de Combate — um único ataque de área pode ser suficiente para destruir todo o grupo de uma só vez.{UL}{LI}{{@ style (bold)}}Tempo de ativação do escudo{{/}}: Use o seu Escudo de Energia para absorver o dano causado pelos Hedgehogs que se lançam contra si, mas calcule bem o momento para que esteja ativo mesmo antes de eles o atingirem.{UL}{LI}{{@ style (bold)}}Mantenha-se em movimento{{/}}: Se o seu veículo for frágil, use a velocidade e o turbo para contornar o enxame e eliminá-los a uma distância segura."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G113_SP_I_C_HW_BOT"
+msgstr "{UL}Quatro torres, um núcleo.{UL}{LI}{{@ style (bold)}}Estrutura partilhada{{/}}: Cada tiro conta, independentemente do tanque que atingir. Causar danos a qualquer unidade do agrupamento desgasta a sua estrutura partilhada.{UL}{LI}{{@ style (bold)}}Potência de fogo constante{{/}}: Como partilham uma única estrutura, não é possível reduzir o seu poder de fogo destruindo unidades individuais mais cedo — todas continuam a disparar até a última cair.{UL}{LI}{{@ style (bold)}}Maximizar o lucro{{/}}: Certifique-se de que elimina completamente toda a Colmeia para encher o coletor e colher mais Mirium."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G142_M48RPz_HW_BOT"
+msgstr "{UL}Dentro da Anomalia, o trabalho em equipa é a chave para o sucesso.{UL}{LI}{{@ style (bold)}}Coordenar o ataque{{/}}: Atacem o acampamento apenas com um ataque conjunto, nunca sozinhos!{UL}{LI}{{@ style (bold)}}Vantagem de fogo{{/}}: Um inimigo destruído não pode causar danos. Não deixem nenhum sobrevivente para trás.{UL}{LI}{{@ style (bold)}}Retirada tática{{/}}: Se houver risco de destruição, podem recuar para além do acampamento para salvar o veículo."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G171_E77_HW_BOT"
+msgstr "{UL}Corte a cabeça e o corpo cairá!{UL}{LI}{{@ style (bold)}}Ataque o coração{{/}}: Utilize o seu Turbo para romper o enxame e eliminar o Monarca.{UL}{LI}{{@ style (bold)}} Alvo fácil{{/}}: O próprio Monarca não é um adversário difícil de destruir.{UL}{LI}{{@ style (bold)}}Escolha estratégica{{/}}: Escolha a sua prioridade — mate o Monarca para terminar a luta imediatamente ou elimine primeiro os tanques da Colmeia para encher o coletor e recolher mais Mirium."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G181_E100_Autocannon_Boss_HW25_bot"
+msgstr "{UL}tacticalAdvise_germany_G181_E100_Autocannon_Boss_HW25_bot {UL}{LI}{f7f6f299Bold_open}Tactic_1{f7f6f299Bold_close}: do_1.{UL}{LI}{f7f6f299Bold_open}Tactic_2{f7f6f299Bold_close}: do_2.{UL}{LI}{f7f6f299Bold_open}Tactic_3{f7f6f299Bold_close}: do_3 ."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G25_PzII_Luchs_HELL_HALL"
+msgstr "{UL}Não os deixe escapar!{UL}{LI}{{@ style (bold)}}Baixa capacidade de sobrevivência{{/}}: Podem ser destruídos com apenas um ou dois tiros, mesmo com armas de baixo poder.{UL}{LI}{{@ style (bold)}}Dê prioridade aos Rabbits distantes{{/}}: Não os deixe escapar. Se necessário, dispare contra os seus rastos.{UL}{LI}{{@ style (bold)}}Use o Turbo{{/}}: Esta habilidade irá ajudá-lo a perseguir um Rabbit em fuga ou a destruí-lo com um impacto de colisão mínimo."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G64_Panther_II_Hall_minion"
+msgstr "{UL}Os Caçadores irão persegui-lo por todo o mapa, pelo que recuar não é uma opção.{UL}{LI}{{@ style (bold)}}Mantenha-se alerta{{/}}: Enfrente os Caçadores assim que tiver lidado com as principais forças inimigas ou antes de iniciar um novo confronto.{UL}{LI}{{@ style (bold)}} Mantenha-se em movimento{{/}}: Pode esquivar-se dos projéteis HE de velocidade lenta mantendo-se em movimento.{UL}{LI}{{@ style (bold)}}Fogos de artifício de projéteis{{/}}: Os flancos do Caçador são uma área de armazenamento direto dos seus projéteis vulneráveis e explosivos — aponte para lá."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G73_E50_Ausf_M_Hall_minion"
+msgstr "{UL}Grande e desajeitado, use isso a seu favor!{UL}{LI}{{@ style (bold)}}Perfil alto{{/}}: Tente aproximar-se e posicionar-se ao lado do inimigo, mantendo-se na linha de fogo dele.{UL}{LI}{{@ style (bold)}}Use o terreno{{/}}: Aproveite o ambiente. Ficar à vista, exposto à arma gigantesca, é um erro fatal.{UL}{LI}{{@ style (bold)}}Ataque coordenado{{/}}: Devido à sua enorme resistência, pense duas vezes antes de tentar derrotá-lo sozinho."
+
+msgid "bestiaryView/info/tacticalAdvise/header"
+msgstr "Conselho Tático"
+
+msgid "bestiaryView/info/tacticalAdvise/italy_It19_Progetto_C50_mod_66_HW_BOT"
+msgstr "{UL}Esta cópia-eco irá regenerar-se através dos seus erros!{UL}{LI}{{@ style (bold)}}Alvo de alta prioridade{{/}}: Devido às suas capacidades anómalas, este tanque representa uma ameaça extrema para toda a equipa.{UL}{LI}{{@ style (bold)}} Mantenha a distância{{/}}: Este inimigo é muito mais difícil de destruir se se reparar às suas custas.{UL}{LI}{{@ style (bold)}}Evite um duelo{{/}}: Esta cópia corrompida pode facilmente eliminar o seu tanque num confronto um contra um."
+
+msgid "bestiaryView/info/tacticalAdvise/uk_GB100_Manticore_HW_BOT"
+msgstr "{UL}Aproveite enquanto pode — não há segundas oportunidades para ganhar vantagem!{UL}{LI}{{@ style (bold)}}Oportunidade única{{/}}: O Scavenger transporta uma grande quantidade de Mirium e uma Anomalia única. Se o perder, tanto o Scavanger como os seus bens valiosos desaparecem pelo resto da batalha.{UL}{LI}{{@ style (bold)}}Ignore as lagartas{{/}}: Este inimigo tem lagartas invulneráveis. Em vez disso, use habilidades que aumentam o dano para perfurar a sua blindagem.{UL}{LI}{{@ style (bold)}}Tenha cuidado{{/}}: Não deixe que outros inimigos o apanhem desprevenido enquanto está distraído com a perseguição."
+
+msgid "bestiaryView/info/tacticalAdvise/uk_GB125_Saladin_HW_BOT"
+msgstr "{UL}Mantenha-se afastado e destrua-o — depressa!{UL}{LI}{{@ style (bold)}}Mantenha a distância{{/}}: Não deixe que o Detonator se aproxime.{UL}{LI}{{@ style (bold)}} Inverta a situação{{/}}: Se destruir o Detonator antes que ele se autodestrua, a sua onda de choque atordoará todos os tanques inimigos na área.{UL}{LI}{{@ style (bold)}}Prepare as suas reparações{{/}}: Se você ou os seus aliados forem apanhados pela explosão, use a Reparação em Grupo para eliminar imediatamente o efeito de atordoamento."
+
+msgid "bestiaryView/info/tacticalAdvise/uk_GB24_Centurion_Mk3_HW_BOT"
+msgstr "{UL}Não deixe que o apanhe em campo aberto!{UL}{LI}{{@ style (bold)}}Alvo de alta prioridade{{/}}: Devido às suas capacidades anómalas, este tanque representa uma ameaça extrema para toda a equipa.{UL}{LI}{{@ style (bold)}} A tática vence{{/}}: Ao enfrentar este adversário, mantenha o seu escudo ou a sua camuflagem prontos para neutralizar o seu elevado dano infligido.{UL}{LI}{{@ style (bold)}}Combata fogo com fogo{{/}}: Use a sua habilidade Recarregamento Rápido para perfurar a armadura dele e eliminar esta pálida imitação de um verdadeiro Cérbero o mais rapidamente possível."
+
+msgid "bestiaryView/info/tacticalAdvise/usa_A100_T49_HW_BOT"
+msgstr "{UL}Um passo em falso e está fora!{UL}{LI}{{@ style (bold)}}Alvo de alta prioridade{{/}}: Devido às suas capacidades anómalas, este tanque representa uma ameaça significativa para toda a equipa.{UL}{LI}{{@ style (bold)}} Blindagem fraca{{/}}: Carregue projéteis HE para o eliminar mais rapidamente.{UL}{LI}{{@ style (bold)}}Inimigo a flanquear{{/}}: Não deixe que este inimigo flanqueie a sua equipa. Enfrente-o de frente."
+
+msgid "bestiaryView/info/tacticalAdvise/ussr_R171_IS_3_II_HW_BOT"
+msgstr "{UL}Destrua o aríete antes que ele ataque! Este é um alvo prioritário em qualquer onda.{UL}{LI}{{@ style (bold)}}Dispare contra as lagartas{{/}}: Isto irá imobilizar o Charger e torná-lo um alvo fácil para os seus aliados.{UL}{LI}{{@ style (bold)}}Concentre o seu fogo{{/}}: Destrua o inimigo antes que ele se recupere. Se necessário, atire novamente nas lagartas.{UL}{LI}{{@ style (bold)}}Evite ser abalroado{{/}}: Se o Charger se aproximar de si, ative a invisibilidade ou faça manobras bruscas para sair da linha de ataque."
+
+msgid "bestiaryView/info/tacticalAdvise/ussr_R40_T-54_HW_BOT"
+msgstr "{UL}Fique atento, porque vai estar bem perto antes que se aperceba.{UL}{LI}{{@ style (bold)}}Alvo de alta prioridade{{/}}: Devido às suas capacidades anómalas, este tanque representa uma ameaça significativa para toda a equipa.{UL}{LI}{{@ style (bold)}}Mantenha a distância{{/}}: Este inimigo emite um campo de energia que causa danos. Qualquer unidade apanhada dentro do raio sofre danos significativos.{UL}{LI}{{@ style (bold)}}Derrube-o rapidamente{{/}}: Use o Recarregamento Rápido ou outras táticas para o derrubar antes que se aproxime demasiado."
+
+msgid "bestiaryView/info/tacticalAdvise/ussr_R77_KV2_turret_2"
+msgstr "{UL}Mantenha-se em movimento e afaste-se do fogo cruzado!{UL}{LI}{f7f6f299Bold_open}Ameaça imóvel{f7f6f299Bold_close}: Uma vez que este adversário não se pode mover, use o ambiente a seu favor. Aproveite as colinas e os obstáculos para bloquear a sua linha de visão e evitar o fogo inimigo.{UL}{LI}{f7f6f299Bold_open}Não entre em duelo frontal{f7f6f299Bold_close}: A sua blindagem frontal é excecionalmente espessa. Em vez de trocar tiros, procure uma forma de o flanquear ou espere por uma oportunidade para atacar os seus flancos mais vulneráveis.{UL}{LI}{f7f6f299Bold_open}Prepare os Seus Escudos{f7f6f299Bold_close}: Este inimigo é muito poderoso. Os seus projéteis de elevado dano podem danificar gravemente o seu veículo, por isso mantenha o seu escudo de energia pronto para mitigar os danos."
+
+msgid "bestiaryView/info/title/ability_1"
+msgstr "Defensor"
+
+msgid "bestiaryView/info/title/ability_10"
+msgstr "Onda de Explosão"
+
+msgid "bestiaryView/info/title/ability_11"
+msgstr "Tiro Incendiário"
+
+msgid "bestiaryView/info/title/ability_12"
+msgstr "Sarilho Duplo"
+
+msgid "bestiaryView/info/title/ability_13"
+msgstr "A aura de um monstro"
+
+msgid "bestiaryView/info/title/ability_14"
+msgstr "Munições Eco"
+
+msgid "bestiaryView/info/title/ability_15"
+msgstr "Pulso Deslumbrante"
+
+msgid "bestiaryView/info/title/ability_16"
+msgstr "Modo de Cerco"
+
+msgid "bestiaryView/info/title/ability_17"
+msgstr "Interruptor de Emergência"
+
+msgid "bestiaryView/info/title/ability_18"
+msgstr "Ligação Vital"
+
+msgid "bestiaryView/info/title/ability_19"
+msgstr "Portador de Anomalia"
+
+msgid "bestiaryView/info/title/ability_2"
+msgstr "Aríete"
+
+msgid "bestiaryView/info/title/ability_3"
+msgstr "Salva de Munições Explosivo"
+
+msgid "bestiaryView/info/title/ability_4"
+msgstr "Armadilha de Mirium"
+
+msgid "bestiaryView/info/title/ability_5"
+msgstr "Fuga Rápida"
+
+msgid "bestiaryView/info/title/ability_6"
+msgstr "Explosão!!!"
+
+msgid "bestiaryView/info/title/ability_7"
+msgstr "Enxame de Ouriços"
+
+msgid "bestiaryView/info/title/ability_8"
+msgstr "Pulso Vampírico"
+
+msgid "bestiaryView/info/title/ability_9"
+msgstr "Fogo Rápido"
+
+msgid "bestiaryView/title"
+msgstr "Cofre do Tanque de Eco DO TANQUE ECO"
+
+msgid "bundleView/btn/keys"
+msgstr "Adquirir"
+
+msgid "bundleView/btn/shop"
+msgstr "Ver na Loja"
+
+msgid "bundleView/bundle/header/bundleGroupEventPack"
+msgstr "MOBILIZAR SENTINELAS"
+
+msgid "bundleView/bundle/header/bundleGroupLuxuryEventPack"
+msgstr "IR COM TUDO"
+
+msgid "bundleView/bundle/header/bundleGroupStyle"
+msgstr "PERSONALIZAR"
+
+msgid "bundleView/bundle/header/hw26bundle_keys"
+msgstr "ADQUIRIR CHAVES"
+
+msgid "bundleView/bundle/serviceChannelMessages/hw26bundle_keys"
+msgstr "Chaves adquiridas"
+
+msgid "bundleView/bundle/subHeader/bundleGroupEventPack"
+msgstr "Um pacote especial para impulsionar o seu progresso pela Babilónia: Torre Negra."
+
+msgid "bundleView/bundle/subHeader/bundleGroupLuxuryEventPack"
+msgstr "Uma oferta exclusiva da Babilónia: Torre Negra para o derradeiro pacote."
+
+msgid "bundleView/bundle/subHeader/bundleGroupStyle"
+msgstr "Estilos 3D e outros elementos que capturam a atmosfera do evento."
+
+msgid "bundleView/bundle/subHeader/hw26bundle_keys"
+msgstr "As chaves são usadas para descodificar ou saltar Registos. Uma chave custa {cost} ouro."
+
+msgid "bundleView/eventName"
+msgstr "Projeto Babilónia"
+
+msgid "bundleView/reward/hw_artefact_key"
+msgstr "Chaves de Descodificação (Bónus)"
+
+msgid "bundleView/subTitle"
+msgid_plural "plural/bundleView/subTitle"
+msgstr[0] "NECESSÁRIO MAIS {key} PARA O REGISTO {slide}"
+msgstr[1] "NECESSÁRIO MAIS {key} PARA O REGISTO {slide}"
+msgstr[2] "NECESSÁRIO MAIS {key} PARA O REGISTO {slide}"
+
+msgid "bundleView/title"
+msgstr "CHAVES DE DESCODIFICAÇÃO"
+
+msgid "bundleView/title/default"
+msgstr "SELECIONE O MÉTODO DE AQUISIÇÃO DE CHAVES"
+
+msgid "bundleView/title/onlyKeysBundle"
+msgstr "SELECIONE A QUANTIDADE DE CHAVES PARA ADQUIRIR"
+
+msgid "bundleView/title/onlyShopBundle"
+msgstr "SELECIONE UM PACOTE DE EVENTO"
+
+msgid "bundleView/tooltip/cerfToken/body"
+msgstr "Um membro da tripulação especial do evento à sua escolha com voz."
+
+msgid "bundleView/tooltip/cerfToken/header"
+msgstr "Membro da tripulação do evento a selecionar"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "A opção de ganhar x5 EXP após a segunda vitória do dia em qualquer veículo."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Missão para ×5 EXP ganha em batalha"
+
+msgid "bundleView/tooltip/stepper/body"
+msgstr "Defina o número de Chaves para descodificar ou ignore os Registos bloqueados."
+
+msgid "bundleView/tooltip/stepper/header"
+msgstr "Chaves para descodificar os Registos bloqueados"
+
+msgid "carousel/card/inBattle"
+msgstr "Em batalha"
+
+msgid "carousel/card/inPlatoon"
+msgstr "Em unidade táctica"
+
+msgid "carousel/card/inQueue"
+msgstr "Na fila"
+
+msgid "carousel/card/locked"
+msgstr "Bloqueado"
+
+msgid "carousel/daily/header"
+msgstr "Missão diária do veículo"
+
+msgid "common/back"
+msgstr "VOLTAR"
+
+msgid "common/btnContinue"
+msgstr "CONTINUAR"
+
+msgid "common/close"
+msgstr "FECHAR"
+
+msgid "common/new"
+msgstr "NOVO"
+
+msgid "common/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "common/toEvent"
+msgstr "PARA O EVENTO"
+
+msgid "common/toRewardPath"
+msgstr "PARA O CAMINHO DA RECOMPENSA"
+
+msgid "common/yes"
+msgstr "AFIRMATIVO!"
+
+msgid "comparisonWindow/categoryName/maxHealth"
+msgstr "Durabilidade\n(PE)"
+
+msgid "comparisonWindow/categoryName/relativePower"
+msgstr "Poder de Fogo\n(unidades)"
+
+msgid "comparisonWindow/categoryName/speedLimit"
+msgstr "Velocidade Máxima\n(km/h)"
+
+msgid "comparisonWindow/tank/ttcType/france_F17_AMX_13_90_Halloween_event"
+msgstr "Um magazine de &nbsp;5 munições&nbsp;"
+
+msgid "comparisonWindow/tank/ttcType/italy_It19_Progetto_C50_mod_66_hw21"
+msgstr "Um sistema melhorado de carregamento automático de 3 munições"
+
+msgid "comparisonWindow/tank/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event"
+msgstr "Uma arma com um sistema de disparo contínuo"
+
+msgid "comparisonWindow/tank/ttcType/uk_GB24_Centurion_Mk3_Halloween_event"
+msgstr "Uma oportunidade melhorada de danificar os módulos de veículos inimigos"
+
+msgid "comparisonWindow/tank/ttcType/usa_A100_T49_Halloween_event"
+msgstr "Uma arma HE com um &nbsp;sistema de autocarregamento de 2 munições"
+
+msgid "comparisonWindow/tank/ttcType/ussr_R171_IS_3_II_hw21"
+msgstr "Sistema de Arma Dupla"
+
+msgid "comparisonWindow/tank/ttcType/ussr_R40_T_54_Halloween_event"
+msgstr "Proteção para os&nbsp;módulos do seu veículo"
+
+msgid "comparisonWindow/title"
+msgstr "COMPARAÇÃO DE VEÍCULOS"
+
+msgid "crewShowcase/play"
+msgstr "Jogar"
+
+msgid "crewShowcase/status/inBaseReward"
+msgstr "Nas Recompensas Base"
+
+msgid "crewShowcase/status/inShop"
+msgstr "Num pacote especial"
+
+msgid "crewShowcase/status/received"
+msgstr "Recebido"
+
+msgid "crewShowcase/subTitle"
+msgstr "Todos os membros da tripulação têm EXP de Tripulação suficiente para treinar três aptidões até 100%."
+
+msgid "crewShowcase/title"
+msgstr "MEMBROS DE TRIPULAÇÃO ÚNICOS"
+
+msgid "crewShowcase/viewInStore"
+msgstr "Ver na Loja"
+
+msgid "decrypt/affirmative"
+msgstr "AFIRMATIVO!"
+
+msgid "decrypt/arrow/disabled/body"
+msgstr "Conclua o próximo Objetivo e descodifique o seu Registo com as Chaves para continuar."
+
+msgid "decrypt/arrow/disabled/header"
+msgstr "Próximo Objetivo"
+
+msgid "decrypt/arrowPrev/disabled/body"
+msgstr "Conclua o Objetivo anterior e descodifique o seu Registo com as Chaves para continuar."
+
+msgid "decrypt/arrowPrev/disabled/header"
+msgstr "Objetivo Anterior"
+
+msgid "decrypt/completed"
+msgstr "Objetivo concluído. Recompensas recebidas:"
+
+msgid "decrypt/hideShow"
+msgstr "Ocultar/mostrar a interface do utilizador"
+
+msgid "decrypt/outroVideo"
+msgstr "Vídeo de Encerramento"
+
+msgid "decrypt/outroVideoTooltip/active"
+msgstr "Veja o vídeo de encerramento."
+
+msgid "decrypt/outroVideoTooltip/disabled"
+msgstr "Podes voltar a ver o vídeo de encerramento a partir deste ecrã depois de receber todas as suas recompensas."
+
+msgid "decrypt/voiceover"
+msgstr "Voz"
+
+msgid "decrypt/voiceoverTooltip"
+msgstr "Ativa ou desativa a narração de voz em todas as janelas com Registos descodificados."
+
+msgid "difficult/disabled/body"
+msgstr "Está num Pelotão. Apenas o Comandante pode alterar o nível de dificuldade."
+
+msgid "difficult/disabled/header"
+msgstr "Mudança de Dificuldade Indisponível"
+
+msgid "difficult/level_1"
+msgstr "Normal"
+
+msgid "difficult/level_2"
+msgstr "Difícil"
+
+msgid "difficult/level_3"
+msgstr "Pesadelo"
+
+msgid "difficult/new"
+msgstr "NOVO"
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Os inimigos têm baixa durabilidade e blindagem mais fraca. Recompensa de batalha normal."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Os inimigos têm blindagem mais forte, enquanto que a recompensa e o número de Chaves ganhas foram aumentadas."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Há mais inimigos com blindagem mais forte. O número de recompensas e de Chaves ganhas por batalha foi aumentado."
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Normal"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Difícil"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Pesadelo"
+
+msgid "difficult/tooltip/locked"
+msgstr "Bloqueado"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Para desbloquear este nível de dificuldade, derrote o chefe na dificuldade Normal."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Para desbloquear este nível de dificuldade, derrote o chefe na dificuldade Difícil."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Disponível"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Seleccionada"
+
+msgid "difficult/tooltip/subHeader/level1"
+msgstr "4 Fases"
+
+msgid "difficult/tooltip/subHeader/level2"
+msgstr "4 Fases"
+
+msgid "difficult/tooltip/subHeader/level3"
+msgstr "4 Fases"
+
+msgid "difficult/uppercase/level_1"
+msgstr "NORMAL"
+
+msgid "difficult/uppercase/level_2"
+msgstr "DIFÍCIL"
+
+msgid "difficult/uppercase/level_3"
+msgstr "PESADELO"
+
+msgid "difficultyWindow/anomalies/button"
+msgstr "PARA AS ANOMALIAS"
+
+msgid "difficultyWindow/anomalies/label"
+msgstr "COMBOS DE ANOMALIA DESBLOQUEADA"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Os inimigos têm blindagem mais forte, enquanto que a recompensa e o número de Chaves ganhas foram aumentadas."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Há mais inimigos com blindagem mais forte. O número de recompensas e de Chaves ganhas por batalha foi aumentado."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "NÍVEL DE DIFICULDADE NORMAL"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "NÍVEL DE DIFICULDADE PESADELO"
+
+msgid "difficultyWindow/title"
+msgstr "DISPONÍVEL"
+
+msgid "hangar/about"
+msgstr "SOBRE O EVENTO"
+
+msgid "hangar/exit"
+msgstr "SAIR DO EVENTO"
+
+msgid "hangar/header/keys"
+msgstr "Chaves: {{value}}"
+
+msgid "hangar/tooltipAbout"
+msgstr "Saiba mais sobre o evento Babilónia: Torre Negra."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "HABILIDADES DE COMBATE"
+
+msgid "headerButtons/battle/types/halloween"
+msgstr "Babilónia: Torre Negra"
+
+msgid "iconButton/comparison/default"
+msgstr "Comparação de veículos"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "A comparação de veículos está indisponível"
+
+msgid "iconButton/enemyPreview/isDisabled"
+msgstr "Conclua e descodifique o Objetivo atual para obter acesso ao ficheiro do inimigo."
+
+msgid "iconButton/preview/default"
+msgstr "Pré-visualização do veículo"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "A pré-visualização do veículo está indisponível."
+
+msgid "infoBestiary/button/name"
+msgstr "Cofre do Tanque de Eco"
+
+msgid "infoBestiary/simpleTooltip/body/disabled"
+msgstr "Preencha e descodifique os registos para obter acesso ao ficheiro."
+
+msgid "infoBestiary/simpleTooltip/body/enabled"
+msgstr "Estude os seus inimigos e as suas capacidades e descubra as formas mais eficazes de os derrotar."
+
+msgid "infoBestiary/simpleTooltip/header/disabled"
+msgstr "O Cofre do Tanque de Eco não está disponível"
+
+msgid "keyCard/name"
+msgstr "Chaves de Desencriptação"
+
+msgid "keys/get"
+msgstr "RECEBER"
+
+msgid "kingRewardCongratsView/btn/garage"
+msgstr "Ver na Garagem"
+
+msgid "kingRewardCongratsView/btn/outro"
+msgstr "Para a Conclusão da História"
+
+msgid "kingRewardCongratsView/header"
+msgstr "RECOMPENSA PRINCIPAL RECEBIDA"
+
+msgid "kingRewardCongratsView/reward/crew100/value"
+msgstr "100%"
+
+msgid "kingRewardCongratsView/rewardsTitle"
+msgstr "Recompensas:"
+
+msgid "kingRewardCongratsView/tankName"
+msgstr "{level}{icon}{userName}"
+
+msgid "kingRewardCongratsView/title"
+msgstr "OBJETIVO FINAL CONCLUÍDO"
+
+msgid "medalWidget/tooltipBody"
+msgstr "Desbloqueia todas as anomalias listadas no Menu Anomalias."
+
+msgid "medalWidget/tooltipHeader"
+msgstr "Missão de Medalha Épica"
+
+msgid "meta/btn/decrypt"
+msgstr "DESCODIFICAR"
+
+msgid "meta/btn/skip"
+msgstr "SALTAR"
+
+msgid "meta/btn/view"
+msgstr "VER"
+
+msgid "meta/receive/description"
+msgstr "Recolha %(keys) / %(decrypt) %(icon)\npara descodificar este Registo"
+
+msgid "meta/shortStory/hw_artefact_1"
+msgstr "É mais astuto do que tudo aquilo com que já nos deparámos. E tem um truque para o qual ainda não há forma de nos defendermos."
+
+msgid "meta/shortStory/hw_artefact_10"
+msgstr "O Barqueiro levou a Alex até à Torre, sabendo que ela iria detestar o lugar. Ele é um manipulador, mas não é suicida. Isso significa que tinha um plano. Temos de descobrir qual era."
+
+msgid "meta/shortStory/hw_artefact_11"
+msgstr "Nunca tive um lar. Agora tenho. E acabei de perceber o que estou disposto a fazer para o manter."
+
+msgid "meta/shortStory/hw_artefact_12"
+msgstr "Funciona! A frequência está bloqueada! Dispara, Smith! Destrói-a!"
+
+msgid "meta/shortStory/hw_artefact_13"
+msgstr "Conseguimos. A Aranha já não existe. A Torre foi destruída. Agora temos de decidir o destino da Alex. Cada um de nós tem de fazer uma escolha."
+
+msgid "meta/shortStory/hw_artefact_2"
+msgstr "Doca de reparação, cabines privadas, o cheiro a café quente na cafetaria. Um lar acolhedor no meio desta maldita anomalia. Mas há um pensamento que me preocupa..."
+
+msgid "meta/shortStory/hw_artefact_3"
+msgstr "Tenho um plano e um tanque quase pronto para o pôr em prática. Só falta uma peça. E só você pode ajudar com isso."
+
+msgid "meta/shortStory/hw_artefact_4"
+msgstr "Veio para destruir a Torre. Para destruir a minha casa. Diz que é um perigo, mas isso é mentira. Só quer poder."
+
+msgid "meta/shortStory/hw_artefact_5"
+msgstr "Não estávamos a salvar o mundo. Estávamos a fazer o que o Barqueiro precisava que fizéssemos. Ele estava a usar-nos como peões. A manipular cada um dos nossos movimentos. E eu levei a Alex direitinho para a armadilha dele."
+
+msgid "meta/shortStory/hw_artefact_6"
+msgstr "O Mirium que há em mim pulsa e conduz-me até às profundezas da Torre. Lá, as respostas esperam-me. Aquele que me chamou espera-me lá..."
+
+msgid "meta/shortStory/hw_artefact_7"
+msgstr "O Barqueiro não estava à procura das coordenadas da Torre Negra. Ele já as conhecia. Precisava de todas as nossas expedições para outra coisa. E agora parece que compreendo o quê."
+
+msgid "meta/shortStory/hw_artefact_8"
+msgstr "O meu pai deu-me um nome. Gretchen von Eckhardt. Ele chamava-me «pérola». Eu era especial."
+
+msgid "meta/shortStory/hw_artefact_9"
+msgstr "Quem nasceu aqui é capaz de muito mais. Podemos moldar Mirium, controlá-la. Pela primeira vez na minha vida, sinto-me completa."
+
+msgid "meta/story/hw_artefact_1"
+msgstr "{{@ class $titleClass}}É mais astuto do que tudo aquilo com que já nos deparámos. E tem um truque para o qual ainda não há forma de nos defendermos.{{/}}\n\nRaios! Porque é que as coisas nunca são fáceis? O Plano A falhou. Foi belo, espetacular, mas falhou.\n\nTodos pensavam que o {{@ class $keyWordViolet}}Marduk{{/}} era o nosso trunfo. Uma enorme nave voadora com armas maiores do que o canhão da Dora.\n\nUma salva e todos os nossos problemas estariam resolvidos. {{@ class $keyWordViolet}}A Torre Negra{{/}} destruída; os Nazis, ou o que restava deles, neutralizados. E todos aqueles milhares de tanques que tinham preparado para o ataque nos anos 40 ficariam aqui a enferrujar para sempre.\n\nMas esqueci-me da regra número um: na anomalia, as coisas nunca são fáceis. Os projéteis ficaram presos naquele maldito escudo. E para o derrubar, teríamos de destruir aquilo que o gera.\n\nMas aquela {{@ class $keyWordViolet}}Aranha{{/}} é mais astuta do que qualquer coisa com que já nos deparámos. Primeiro, é preciso chegar até ela. E depois, quando já só falta desferir o golpe final, ela ativa o maldito Magnus e recua para o seu covil para lamber as feridas. E atira-nos algumas fases para trás.\n\nMuito bem, chega de poesia. Está na hora de agir. Ou desativamos aquele escudo e mandamos a Torre para o inferno, ou ficaremos aqui para sempre.\n\nO comando construiu a sua enorme nave, chegou mesmo a dar-lhe o nome de um deus e pensou que o problema estava resolvido. Mas, no fim de contas, aqui estamos nós outra vez. Os deuses falham-nos. Os tanques não.\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"Utilize o mapa tático e coordene as suas ações. Marque o ponto para onde se dirige, para que o pelotão se desloque consigo. Ou dirija-se para uma posição escolhida por outro comandante. Mantenha-se sempre junto do grupo.\"{{/}}"
+
+msgid "meta/story/hw_artefact_10"
+msgstr "{{@ class $titleClass}}O Barqueiro levou a Alex até à Torre, sabendo que ela iria detestar o local. Ele é um manipulador, mas não é suicida. Isso significa que tinha um plano. Temos de descobrir qual era.{{/}}\n\nEstamos numa armadilha. Na teia dela. A Alex está a aprender. Não importa se ganhamos ou perdemos — a cada batalha, ela fica mais forte. Parece que ela está apenas a brincar connosco, a testar o que a Aranha é capaz de fazer.\n\nNão consigo deixar de pensar que tudo está a decorrer de acordo com o guião do Barqueiro. Mas não consigo compreender a sua lógica. Ele é um manipulador, mas não é suicida. Levou-a até à Torre sabendo que ela iria detestar aquilo. Como é que ele planeava controlá-la?\n\nSeja como for, é tarde demais. O Smith continua na esperança de poder falar com ela e fazê-la recuar. Ele quer salvá-la. Eu também gostaria, mas essa já não é a Alex.\n\nLi os arquivos Alemães. Tentaram extrair os operadores. Dezassete tentativas. Quatro sobreviveram, mas nenhum deles recuperou a consciência. Respiravam, os corações batiam, mas ninguém estava presente. E, no entanto... a Alex não é uma operadora comum.\n\nJá chega. Não temos tempo para isto. Temos de destruir a Torre Negra.\n\nO Sharur, quer dizer, o Eclipse, está pronto. Estou a carregá-lo com {{@ class $keyWordViolet}}Mirium superdenso{{/}} neste momento. Só temos uma oportunidade e temos de ter a certeza de que encontrámos a frequência certa.\n\nTragam o último tipo de tanque de eco e estaremos prontos. Assim que ativarmos o \"{{@ class $keyWordViolet}}bloqueador{{/}}\", teremos uma janela de trinta segundos. A Aranha deixará de receber o sinal da Torre e não conseguirá escapar. Essa é a nossa única oportunidade de desferir o golpe decisivo.\n\nTragam o espécime final.\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"Dentro da Anomalia, mecânicas únicas alteram as regras. Preste atenção à notificação exibida no início da terceira fase. Algumas mecânicas obrigam-o a mover-se mais rapidamente, outras exigem táticas e atenção.\"{{/}}"
+
+msgid "meta/story/hw_artefact_11"
+msgstr "{{@ class $titleClass}}Nunca tive um lar. Agora tenho. E acabei de perceber o que estou disposta a fazer para o manter.{{/}}\n\nSinto-o. Mirium. Não é maléfico. Não é solitário. Não é nada. Não pensa, simplesmente existe. Fund-se com o hospedeiro e fortalece-o, se este for capaz de o suportar.\n\nMas será possível libertar-se completamente do próprio corpo? Para {{@ class $keyWordViolet}}fundir-se com o Mirium{{/}}? Tornar-se parte dele. Isso poderia salvar-me.\n\nOs soldados querem destruir a Torre Negra. E eu? O Smith está constantemente a tentar falar comigo. Insiste que quer salvar-me. Mas será que se pode acreditar nele? E se ele for apenas mais uma das manipulações do Barqueiro?\n\nO Barqueiro. Tudo isto é por causa dele. Ele quer poder. Quer apoderar-se da tecnologia. Quer apoderar-se de mim. E os soldados estão a ajudá-lo a fazê-lo, mesmo que não se apercebam disso. \n\nJá estão perto. Preciso de mais tempo. Finalmente me tornei completo. Durante toda a minha vida, nunca tive um lar, agora tenho. Acabei de perceber o que estou disposto a fazer para o manter. \n\nVocês estão todos envolvidos nisto. Mas não voltarei a ser o vosso fantoche!\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"Se tiver um Escudo de Energia, use-o apenas como último recurso — se os seus pontos de energia estiverem baixos ou antes de um confronto com um Ouriço.\"{{/}}"
+
+msgid "meta/story/hw_artefact_12"
+msgstr "{{@ class $titleClass}}Funcionou! A frequência está bloqueada! Dispara, Smith! Destrói-a!{{/}}\n\nMOREL: Já está suficientemente danificada! Smith, a Aranha está a preparar-se para saltar! Vou ligar o bloqueador... Sim! Está a funcionar! A frequência está bloqueada! Dispara, Smith! Destrói-a!\n\nSMITH: ...\n\nMOREL: Smith?! Dispara! Vá lá!\n\nSMITH: Bolas... A Alex ainda está lá, na Torre. Se eu destruir a Aranha, ela também morre. Temos de a salvar... pelo menos tentar!\n\nMOREL: Smith, maldito sejas! Ou é ela ou somos todos nós!\n\nSMITH: Não podemos fazer isso. Tem de haver outra maneira. Temos de a tirar de lá! Não consigo!\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"Preste atenção ao mapa tático e à forma como a zona de dano muda durante a luta contra o boss. Assim que o boss tentar escapar, persiga-o mantendo-se na zona segura. Assim que sair da zona segura, use o Turbo para evitar danos no seu veículo.\"{{/}}"
+
+msgid "meta/story/hw_artefact_13"
+msgstr "{{@ class $titleClass}}Conseguimos. A Aranha já não existe. A Torre foi destruída. Agora temos de decidir o destino da Alex. Cada um de nós tem de fazer uma escolha.{{/}}\n\nEla conseguiu! A Alex. No último momento, assumiu {{@ class $keyWordViolet}}a forma de Mirium puro{{/}} e destruiu a Aranha. O escudo foi desativado. Os projéteis do Marduk atingiram o alvo. Os andares superiores da Torre estão destruídos, mas os inferiores sobreviveram, e registámos um sinal no interior. Fraco, mas estável. É a Alex. O Mirium está a mantê-la viva, por enquanto.\n\nDesceram. Encontraram o casulo com o corpo dela e as suas últimas notas. Ela fez uma escolha. A Alex destruiu a Aranha para destruir a Torre juntamente com o seu invólucro humano e, finalmente, fundir-se com o Mirium.\n\nO Smith não acredita que tenha sido uma escolha consciente da parte dela. Está convencido de que o Mirium simplesmente obscureceu o seu julgamento. Ele recorda que, nas notas, ela admitiu que nem sempre conseguia controlar os seus próprios pensamentos. O capitão tenciona pegar no corpo dela e ligá-lo aos sistemas da nave. Ele quer preservá-la a qualquer custo, encontrar uma forma de a libertar do Mirium e devolvê-la à consciência. Torná-la novamente uma pessoa normal.\n\nA Alex escreveu que se sentiu em casa pela primeira vez. Ela não destruiu a Aranha sob as nossas ordens. Foi ela própria que decidiu fazê-lo. O lar dela não é esta Torre. O lar dela é o Mirium.\n\nSe destruirmos a Torre, a Alex renascerá. Ela fundir-se-á com a matéria, não como uma operadora comum, mas como algo inteiramente novo.\n\nIsso afeta-nos a todos. Todos os que lutaram nesta Torre. Decidam."
+
+msgid "meta/story/hw_artefact_2"
+msgstr "{{@ class $titleClass}}Doca de reparação, cabines privadas, o cheiro a café quente na cafetaria. Um lar acolhedor no meio desta maldita anomalia. Mas há um pensamento que me preocupa...{{/}}\n\nRaios, foi por pouco. Tinha o Spider na minha mira. Faltaram-me milésimos de segundo.\n\nNunca me vou habituar ao Marduk. Antes, quando estávamos na nossa base na Babilónia, cada viagem para a anomalia era um salto para o abismo. \"Ressurgíamos\" exaustos, desanimados e como se fôssemos estranhos. Mas agora temos esta nave. O Marduk...\n\nTem Magnuses integrados e agora podemos \"saltar\" para quase qualquer fase. Só precisamos de uma rota exata. {{@ class $keyWordViolet}}Morel{{/}}, o nosso engenheiro-chefe, diz que Mirium não é apenas camadas colocadas umas em cima das outras. É mais como uma rede de padrões, ligados por caminhos complexos. {{@ class $keyWordViolet}}Um labirinto{{/}}. E se não houver um mapa, é fácil perder-se nele e ficar lá para sempre. Vagar eternamente pelas fases sem saber se estamos a aproximar-nos de casa ou a afastar-nos.\n\nMas agora estamos onde devemos estar. E temos tudo o que precisamos: uma nave enorme, tripulantes experientes e o Morel com a sua nova tecnologia. Agora conseguimos até capturar tanques de eco e mantê-los no estado sólido. Estabilizá-los e não deixar que voltem a transformar-se em Mirium líquido. O Morel está a abri-los, a estudá-los, à procura de uma forma de derrotar a Aranha. E continuamos a abrir caminho através deste campo protetor.\n\nBasicamente, temos tudo aqui: docas de reparação, cabines privadas, um ginásio e até café quente na cafetaria. Um lar acolhedor no meio desta maldita anomalia. Estou a começar a habituar-me ao conforto, e isso preocupa-me. O terror que nos rodeia está a tornar-se a norma. Temos de acabar com esta maldita Torre mais depressa e regressar ao nosso verdadeiro lar.\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"Não tente destruir o Imortal. Não desperdice o seu tempo nem munições. Não fique parado. Mova-se e não se deixe encurralar.\"{{/}}"
+
+msgid "meta/story/hw_artefact_3"
+msgstr "{{@ class $titleClass}}Tenho um plano e um tanque quase pronto para o pôr em prática. Só falta uma peça. E só tu podes ajudar com isso.{{/}}\n\nUm segundo, um segundo... Muito bem, precisamos de estabilizar {{@ class $keyWordViolet}}o campo de estase{{/}}; caso contrário, aquela coisa vai transformar-se em Mirium líquido aqui mesmo na minha oficina.\n\nAgora já posso apresentar-me. É um prazer conhecê-lo. {{@ class $keyWordViolet}}Jacques Morel{{/}}. Obrigado por trazer este espécime inteiro. Normalmente, só me dão fragmentos e recipientes com Mirium líquido. Mas com isto podemos trabalhar.\n\nTenho uma ideia. Os tanques eco são controlados a partir da Torre Negra. Isso é um facto. São como marionetas movidas por fios invisíveis. A Aranha também. Hmm... uma máquina extremamente interessante. Por que escolheram este tipo de plataforma? Está claramente ligada à gravidade de alguma forma...\n\nDesculpe, distraí-me. Para apanhar a Aranha e não a deixar escapar, precisamos de cortar esses fios. Interferir no sinal. Mas há muitos fios. Cada um na sua própria frequência. Neste momento, os meus sensores estão a captar todo um coro em diferentes comprimentos de onda. Se me trouxeres amostras de cada tipo do tanque de eco, vou estudar as suas frequências, filtrá-las e descobriremos em que frequência exata a Aranha recebe as suas ordens.\n\nE aí é que o Sharur entrará em ação. Um símbolo do poder divino e do intelecto que prevalece sobre o caos. Tal como a lendária maça de Ninurta, esmagará os nossos adversários. Não se preocupe em memorizar todos estes nomes. É apenas uma homenagem à tradição — tudo aqui tem nomes em honra da mitologia Suméria. Na documentação, vou explicar as coisas de forma mais simples: {{@ class $keyWordViolet}}Eclipse{{/}}. Um tanque fortemente blindado que consegue aproximar-se da Aranha e interferir no seu sinal. Só precisa de ser finalizado e sintonizado na frequência certa. Temos simplesmente de recolher todos os tipos de tanques eco.\n\nEu próprio o faria, mas... Está bem, quem é que estou a enganar? Não conseguiria sem vocês.\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"Mantenham-se sempre juntos. Lembrem-se: quando se separam do pelotão e vão sozinhos para outro ponto, provocam os tanques eco. Assim que o vosso veículo for destruído, eles começarão a atacar os vossos aliados pelas costas. Não ponham em risco a vossa missão.”{{/}}"
+
+msgid "meta/story/hw_artefact_4"
+msgstr "{{@ class $titleClass}}Vieste para destruir a Torre. Destruir a minha casa. Chamas-lhe um perigo, mas isso é uma mentira. Só queres poder.{{/}}\n\nVai-te embora. Não pertences aqui.\n\nO barulho das tuas lagartas... Antes, esse som significava salvação, agora... Agora vieste para destruir a Torre. Destruir o meu lar. Chamas-lhe um perigo, mas isso é uma mentira. Só queres poder. Queres possuir aquilo que não consegues compreender. Queres controlar Mirium, transformá-la numa arma e fazer de mim o teu brinquedo obediente.\n\nAqueles que vieram antes de ti também tentaram controlá-la. Construíram, capturaram, possuíram, mas, no fim, perderam-se a si próprios.\n\nDesaparece! Não sabes de nada. Não compreendes nada. São todos marionetas nas mãos DELE. {{@ class $keyWordViolet}}O Barqueiro{{/}} está simplesmente a brincar connosco a todos. Não somos ninguém para ele.\n\nE agora ele encaminhou-te para a minha casa. Ele quer-me destruída. Mas chegaste tarde demais. Já não preciso de ser salva. Agora consigo cuidar de mim própria.\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"Não confie apenas na blindagem do seu tanque. Procure abrigo e esconda as suas áreas vulneráveis. É um conselho banal, mas muitos esquecem-se disso na anomalia. Talvez devido à forma como o Mirium afeta as nossas mentes.\"{{/}}"
+
+msgid "meta/story/hw_artefact_5"
+msgstr "{{@ class $titleClass}}Não estávamos a salvar o mundo. Estávamos a fazer o que o Barqueiro precisava que fizéssemos. Ele estava a usar-nos como peões. A manipular cada um dos nossos movimentos. E eu levei a Alex direitinho para a armadilha dele.{{/}}\n\nRaios... Aquela voz que ouço pelo rádio. É ela. {{@ class $keyWordViolet}}Alex{{/}}. A fotógrafa que entrou na Zona Proibida. Ela descobriu a origem do ataque, transmitiu-nos as gravações, pediu-nos para a levarmos. Ela esperou que eu fosse buscá-la, mas eu... eu segui ordens. \"A prioridade é neutralizar as ameaças.\" \"A evacuação é impraticável.\" Deixei-a lá. Sozinha.\n\nO Morel confirmou os meus piores receios. O Barqueiro, aquele filho da mãe do gabinete de segurança, planeou tudo. Ele sabia que ela era filha do mesmo general que comandava aquela Torre. {{@ class $keyWordViolet}}Gretchen von Eckhardt{{/}}. É a voz dela de criança que permaneceu no eco que ouvimos na anomalia.\n\nNão estávamos a salvar o mundo. Estávamos a fazer o que o Barqueiro precisava que fizéssemos. Ele estava a brincar connosco como se fôssemos peões. A manipular cada um dos nossos movimentos. E eu levei o Alex direitinho para a armadilha dele.\n\nA Morel diz que já não é humana. Que o Mirium se apoderou dela e que isso é irreversível. Mas os Perdidos não falam assim. Ela não perdeu a consciência. Ainda está aqui. Sozinha.\n\nTenho de a salvar. Tenho mesmo de o fazer.\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"Marque os veículos que vai atacar para coordenar o fogo e incentivar os seus aliados a concentrarem-se num único inimigo. Assegure uma vantagem de poder de fogo local.\"{{/}}"
+
+msgid "meta/story/hw_artefact_6"
+msgstr "{{@ class $titleClass}}O Mirium dentro de mim pulsa e conduz-me às profundezas da Torre. Lá esperam-me respostas. Aquele que me chamou espera por mim lá...{{/}}\n\n[Sete dias para o assalto]\n\nUma gravação... mas não sei qual. Quanto tempo passou desde que entrei na anomalia — também não sei. O teletransportador não me levou para a Babilónia. Acabei na Torre Negra.\n\nO Mirium dentro de mim pulsa, toma conta dos meus pensamentos, guia-me. Guia-me até {{@ class $keyWordViolet}}à sala de controlo{{/}}. Parece-me, mais uma vez, que já aqui estive antes. Tudo me é familiar. Estes {{@ class $keyWordViolet}}casulos{{/}} vazios. E aquele em que ela se encontra. Foi ela que me chamou?\n\nQuem é ela? Parece quase desumana. Pele pálida, apenas o Mirium roxo pulsa nas suas veias. Mantém-na viva. Se é que se pode chamar a isso estar viva.\n\nEla tem de saber todas as respostas. Tem de-me explicar o que se passa aqui. Como posso falar com ela? Colocar o mesmo {{@ class $keyWordViolet}}capacete{{/}}? Não. Primeiro, enquanto ainda tenho forças, preciso de dar uma vista de olhos pela Torre.\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"Fique atento aos pontos de energia dos veículos aliados. Se tiver Reparações de Grupo, restaure os pontos de energia dos membros do pelotão danificados. Mesmo um único veículo perdido compromete toda a missão.\"{{/}}"
+
+msgid "meta/story/hw_artefact_7"
+msgstr "{{@ class $titleClass}}O Barqueiro não estava à procura das coordenadas da Torre Negra. Ele já as conhecia. Precisava de todas as nossas expedições para outra coisa. E agora parece que compreendo o quê.{{/}}\n\nÉs tu? Já ouviste? O Barqueiro desapareceu. Fugiu e provavelmente passou para a próxima fase do seu plano. Ele não estava à procura das coordenadas da Torre Negra. Ele já as conhecia. Todas as nossas expedições, todas aquelas perdas eram necessárias para outra coisa.\n\nBem, graças aos espécimes que trouxeste, percebi porque é que ele precisava do Alex. Mas os outros?\n\nOlha: a julgar pelos arquivos Alemães, há {{@ class $keyWordViolet}}operadores{{/}} na Torre Negra que enviam comandos para os tanques eco. Mas uma mente humana normal não consegue controlar milhares de máquinas em simultâneo, por isso surge sempre um pequeno grupo de quinze para nos enfrentar. Esse é o limite de um operador. A Torre precisa de novas \"mentes\". Mentes frescas e compatíveis.\n\nA Alex não é apenas uma fotógrafa qualquer que se meteu na anomalia. Como agora sabemos, ela é a Gretchen von Eckhardt, {{@ class $keyWordViolet}}a filha do general{{/}} que comandou esta Torre.\n\nO nome Gretchen deriva do Grego \"Margaret\" e significa \"pérola\". Não é por acaso. Foi assim que o pai dela a chamou quando viu algo de especial nela. É provável que ela seja aquela a quem os arquivos Alemães chamavam de \"Überlenker\", ou {{@ class $keyWordViolet}}superoperadora{{/}}.\n\n Se aquilo em que o Alex se transformou libertar o seu potencial, se se lembrar de como controlar o Mirium, milhares de tanques irão jorrar da anomalia de uma só vez.\n\nTemos de nos apressar. O tempo está contra nós.\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"Ao lutar contra o boss, use a munição especial recolhida nas fases, juntamente com as vantagens especiais do seu veículo, para causar mais dano aos pontos vulneráveis da blindagem do seu inimigo.\"{{/}}"
+
+msgid "meta/story/hw_artefact_8"
+msgstr "{{@ class $titleClass}}O meu pai deu-me um nome. Gretchen von Eckhardt. Chamava-me \"pérola\". Eu era especial.{{/}}\n\n[Sete dias para o ataque]\n\nO meu nome é Gretchen.\n\n{{@ class $keyWordViolet}}Projeto Gleipnir{{/}}. Os Alemães procuravam uma forma de subjugar o Mirium. Perceberam que as pessoas comuns são ineficazes e têm dificuldade em lidar até com apenas alguns veículos. Deviam ter nascido aqui, na anomalia. Aqueles que são capazes de sentir o Mirium.\n\nSou o resultado de uma experiência. Nem sequer tínhamos nomes. {{@ class $keyWordViolet}}Transmissor biológico{{/}}, objeto, recurso. Mas, para o Pai, eu era especial. Ele deixou uma etiqueta nos campos: Gretchen von Eckhardt. Chamava-me \"pérola\".\n\nO primeiro espécime bem-sucedido. Elevadas capacidades, resiliência contra a degradação causada pelo Mirium... Sou simplesmente uma arma que deveria guiar exércitos de tanques eco através das fendas. Os operadores comuns foram perdendo gradualmente a razão, tornando-se executores irracionais da vontade alheia. A sua consciência passou parcialmente para o Mirium, o eco. Tentavam alcançá-lo, tentavam escapar. E quando ficaram fora de controlo, foram simplesmente desligados. As suas personalidades dividiram-se, gerando novas anomalias no eco, e os seus corpos... os seus corpos ainda mantinham a vida, mas as próprias pessoas já se tinham ido há muito.\n\nMas esses eram operadores comuns. Os documentos não dizem nada sobre pessoas como eu. Estou a ficar mais fraco. O meu corpo não vai aguentar por muito tempo. E se eu conseguir entrar totalmente no Mirium?\n\nOs meus pensamentos estão a escapar-me. Ou será que o Mirium se está a apoderar deles? Não sei. Ainda há tantas perguntas.\n\nTenho de falar com aquilo. Colocar o capacete e descobrir toda a verdade!\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"O Turbo não utiliza o Mirium para se ativar. No entanto, tem um período de cooldown. Use o Turbo quando for absolutamente necessário: para fugir do Ouriço, esquivar-se do Charger, saltar para fora da aura do Imortal ou correr até ao Magnus quando todos estiverem prontos para se teletransportarem.”{{/}}"
+
+msgid "meta/story/hw_artefact_9"
+msgstr "{{@ class $titleClass}}Quem nasceu aqui é capaz de mais. Podemos moldar Mirium, controlá-lo. Pela primeira vez na minha vida, sinto-me completa.{{/}}\n\n[Sete dias para o assalto]\n\nEstá barulhento. Demasiado barulhento. Milhares de sinais, ruído, sussurros. Ordens em Alemão — ordens frias e sem vida.   \n\nConsegues ouvir-me? Estás aqui?\n\nNão resta nada dela. Esta mulher no casulo, agora é apenas {{@ class $keyWordViolet}}um transmissor{{/}}. Será que é mesmo isso que o meu futuro me reserva também? Tornar-me um eco de ordens antigas?\n\nNão. Nos documentos diz-se que quem nasce aqui é capaz de mais. Conseguimos resistir à influência do Mirium, controlá-lo, moldá-lo.\n\nTenho de tentar. Imagina as partículas a reunirem-se.\n\nSinto algo. Isto é estranho. Assustador. Mas, pela primeira vez, sinto-me completa. Sinto que finalmente tenho poder.\n\n{{@ class $titleManual}}Do manual:{{/}}\n{{@ class $textManual}}\"Lembre-se: ao passar para uma nova fase, a Anomalia afeta a tripulação e recebe melhorias. Estude-as e altere as suas táticas tendo em conta as novas opções.\"{{/}}"
+
+msgid "metaCmp/completed"
+msgstr "%(icon) Recompensa recebida"
+
+msgid "metaCmp/name"
+msgstr "Caminho de Recompensas"
+
+msgid "metaIntro/description/fight"
+msgstr "Combata em batalhas do evento e ganhe Chaves de Descodificação para progredir pelos Objetivos até à recompensa principal do evento."
+
+msgid "metaIntro/description/progress"
+msgstr "Descodifique todos os Registos utilizando Chaves de Descodificação ganhas em batalhas do evento."
+
+msgid "metaIntro/description/reward"
+msgstr "Conclua todos os Objetivos e descodifique todos os Registos para receber a recompensa principal do evento - o único {whiteSpanish_Start}%(tankName)s - tanque pesado Premium de {whiteSpanish_End}Nível %(level)s."
+
+msgid "metaIntro/header/fight"
+msgstr "Batalhas de Ataque"
+
+msgid "metaIntro/header/progress"
+msgstr "Descodificar os Registos"
+
+msgid "metaIntro/header/reward"
+msgstr "Recompensas Únicas"
+
+msgid "metaIntro/title"
+msgstr "SOBRE OS OBJETIVOS"
+
+msgid "missionWidget/complete"
+msgstr "Missão concluída.\nVolte amanhã."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Conclua a Missão Diária atual que está disponível a cada 24 horas para receber a recompensa. Missão de hoje:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Missão Diária"
+
+msgid "preBattle/leave"
+msgstr "Sair da Batalha"
+
+msgid "preBattle/mainTip"
+msgstr "A demorar muito tempo para encontrar um Esquadrão de Reconhecimento? Tente mudar o nível de dificuldade."
+
+msgid "preBattle/searching"
+msgstr "À PROCURA DE ALIADOS"
+
+msgid "preBattle/tips/1"
+msgstr "O portal para a Anomalia de Babilónia está a estabilizar. Aguarde a transferência."
+
+msgid "preBattle/tips/2"
+msgstr "O seu trabalho na Anomalia de Babilónia é muito importante para nós. Por favor, aguarde a autorização para aceder ao portal."
+
+msgid "preBattle/tips/3"
+msgstr "Os canais de comunicação com a Anomalia de Babilónia estão sobrecarregados. Não perca a esperança. Mantenha-se disponível para o transporte."
+
+msgid "preBattle/uppercase/leave"
+msgstr "SAIR DA BATALHA"
+
+msgid "promoWindow/btn"
+msgstr "AFIRMATIVO!"
+
+msgid "promoWindow/header"
+msgstr "JOGUE BABILÓNIA: TORRE NEGRA"
+
+msgid "promoWindow/subheader"
+msgstr "Explore este novo modo de jogo especial PvE {dateRange}.\nConclua {regularArtefactsLength} Objetivos para ganhar um veículo exclusivo, o&nbsp;{level}{icon}{userName}."
+
+msgid "reward/rest"
+msgstr "E mais %(count)s"
+
+msgid "rewardPath/about"
+msgstr "SOBRE OS OBJETIVOS"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Saiba mais sobre o evento."
+
+msgid "rewardPath/completed"
+msgstr "Recompensa principal recebida"
+
+msgid "rewardPath/crewMembers"
+msgstr "MEMBROS DA\nTRIPULAÇÃO"
+
+msgid "rewardPath/crewMembersTooltip"
+msgstr "Clique para ver todos os membros da tripulação dos eventos."
+
+msgid "rewardPath/description"
+msgstr "Descodifique mais %(count)s Registos para alcançar a recompensa principal"
+
+msgid "rewardPath/intro"
+msgstr "INTRODUÇÃO"
+
+msgid "rewardPath/introTooltip"
+msgstr "Veja o vídeo introdutório."
+
+msgid "rewardPath/title"
+msgstr "CAMINHO DE RECOMPENSA"
+
+msgid "rewardPathCard/name"
+msgstr "Caminho de Recompensas"
+
+msgid "rewardPathCard/storyChoice"
+msgstr "Escolha como a história termina!"
+
+msgid "rewardSelection/button"
+msgstr "RECLAMAR RECOMPENSA"
+
+msgid "rewardSelection/crew"
+msgstr "Membros da tripulação"
+
+msgid "rewardSelection/limit"
+msgstr "Limite alcançado"
+
+msgid "rewardSelection/limitTooltip"
+msgstr "Atingiu o número máximo. Desselecione um membro da tripulação para alterar a sua seleção."
+
+msgid "rewardSelection/title"
+msgstr "SELECIONE A SUA RECOMPENSA"
+
+msgid "shopCard/name"
+msgstr "Pacotes de Evento"
+
+msgid "shopCmp/name"
+msgstr "Pacotes de Evento"
+
+msgid "shopStyleWidget/description/button"
+msgstr "Para a Loja"
+
+msgid "shopStyleWidget/description/notOwned"
+msgstr "Disponível por"
+
+msgid "shopStyleWidget/description/owned"
+msgstr "Adquirido"
+
+msgid "shopStyleWidget/header"
+msgstr "Estilo 3D para o {name}"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Cancelar"
+
+msgid "squad/goToAnother/message"
+msgstr "O Pelotão vai ser dispensado."
+
+msgid "squad/goToAnother/submit"
+msgstr "Sair"
+
+msgid "squad/goToAnother/title"
+msgstr "Sair do evento Babilónia: Torre Negra?"
+
+msgid "squad/leave/cancel"
+msgstr "Cancelar"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "O Pelotão vai ser dispensado."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Afirmativo!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "O evento Babilónia: Torre Negra terminou"
+
+msgid "squad/leave/message"
+msgstr "O Pelotão vai ser dispensado."
+
+msgid "squad/leave/submit"
+msgstr "Sair"
+
+msgid "squad/leave/title"
+msgstr "Deixar o Pelotão Babilónia: Torre Negra?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Continuar"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Está no Pelotão e pronto para a batalha."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Não pode sair do Pelotão!"
+
+msgid "storyChoice/main_view/button/side_option_1"
+msgstr "LEVAR A ALEX"
+
+msgid "storyChoice/main_view/button/side_option_2"
+msgstr "DEIXAR A ALEX IR"
+
+msgid "storyChoice/main_view/description/side_option_1"
+msgstr "SMITH: A Alex não se apercebe no que se está a meter! Ela não faz ideia se continuará a ser ela própria ou se simplesmente perecerá. Não posso abandoná-la outra vez. Vamos ligá-la aos sistemas da nave e encontrar uma forma de a trazer de volta à consciência. Não abandonamos os nossos. Nunca."
+
+msgid "storyChoice/main_view/description/side_option_2"
+msgstr "MOREL: Temos de destruir completamente a Torre, juntamente com o corpo dela. Destruir a ligação que mantém a Alex presa. Temos de a deixar partir — essa seria a escolha dela. É a única forma de ela poder renascer e tornar-se algo completamente novo."
+
+msgid "storyChoice/main_view/header"
+msgstr "Escolha como a história termina:"
+
+msgid "storyChoiceAward/community"
+msgstr "A escolha geral da comunidade irá determinar os acontecimentos futuros.\nConsulte o portal do jogo para obter atualizações."
+
+msgid "storyChoiceAward/option_1/title"
+msgstr "Levou a Alex no Marduk"
+
+msgid "storyChoiceAward/option_2/title"
+msgstr "Deixou a Alex com o Mirium"
+
+msgid "storyChoiceAward/subtitle"
+msgstr "A escolha foi feita!"
+
+msgid "storyChoiceConfirm/cancel"
+msgstr "Voltar"
+
+msgid "storyChoiceConfirm/description"
+msgstr "O resultado será revelado no final do evento. Consulte o portal do jogo para obter atualizações."
+
+msgid "storyChoiceConfirm/option_1/confirm"
+msgstr "LEVAR A ALEX"
+
+msgid "storyChoiceConfirm/option_1/title"
+msgstr "Levar a Alex?"
+
+msgid "storyChoiceConfirm/option_2/confirm"
+msgstr "Deixar a Alex Ir"
+
+msgid "storyChoiceConfirm/option_2/title"
+msgstr "Deixar a Alex Ir?"
+
+msgid "storyChoiceConfirm/warning"
+msgstr "Esta escolha é definitiva. A escolha geral da comunidade irá influenciar o desenrolar do próximo capítulo."
+
+msgid "vehicle/rent/label"
+msgstr "Conclua o {cream_open}Objetivo %(number)s{cream_close} ou adquira um {cream_open}pacote do evento{cream_close} para ter acesso a este veículo."
+
+msgid "vehicle/rent/packs"
+msgstr "Para o Pacote do Evento"
+
+msgid "vehicle/rent/tasks"
+msgstr "Para o Objetivo"
+
+msgid "vehicle/tasks/locked"
+msgstr "Conclua a tarefa atual ({cream_open}Objetivo %(number)s{cream_close}) ou adquira um {cream_open}pacote de evento{cream_close} para obter acesso a este veículo."

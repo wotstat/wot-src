@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Élharcos-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Okozz %(goal)s HP sebzést olyan ellenséges járműveknek, amelyek eltalálták a járművedet"
+msgstr "Okozz %(goal)s életerőnyi sebzést olyan ellenséges járműveknek, amelyek sebzést okoztak a járművednek!"
 
 msgid "pm3_10_1_14_short"
 msgstr "Élharcos-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Rajtaütés-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Okozz %(goal)s HP sebzést, és mindeközben maradj észrevétlen a sebzés okozásának pillanatában"
+msgstr "Okozz %(goal)s életerőnyi sebzést, miközben láthatatlan vagy az ellenségek számára!"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Semmisíts meg egy ellenséges nehéz harckocsit lövéssel, legalább %(damageDealt)s HP sebzést okozva"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Rajtaütés-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Okozz sebzést %(hits)s alkalommal olyan ellenséges járműveknek, amelyek még nincsenek felderítve a sebzés pillanatában"
+msgstr "Okozz sebzést olyan ellenséges járműveknek, amelyek nem láthatók a sebzés okozásának pillanatában, összesen %(hits)s alkalommal!"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Semmisíts meg %(goal)s ellenséges járművet %(uniqueGoal)s különböző típusból"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Közreműködés-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Tedd lehetővé a csapattársaidnak, hogy %(goal)s HP sebzést okozzanak általad felderített ellenséges járműveknek. Maradj észrevétlen a sebzés okozásának pillanatában"
+msgstr "Tedd lehetővé a csapattársaid számára, hogy %(goal)s életerőnyi sebzést okozzanak az általad felderített járműveknek! Maradj észrevétlen a sebzés okozásának pillanatában!"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Kábíts el ellenséges nehéz tankokat %(goal)s alkalommal"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Élharcos-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Okozz %(goal)s HP sebzést olyan ellenséges járműveknek, amelyek eltalálták a járművedet"
+msgstr "Okozz %(goal)s életerőnyi sebzést olyan ellenséges járműveknek, amelyek sebzést okoztak a járművednek!"
 
 msgid "pm3_8_1_9_short"
 msgstr "Élharcos-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Rajtaütés-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Okozz %(goal)s HP sebzést, és mindeközben maradj észrevétlen a sebzés okozásának pillanatában"
+msgstr "Okozz %(goal)s életerőnyi sebzést, miközben láthatatlan vagy az ellenségek számára!"
 
 msgid "pm3_8_2_9_short"
 msgstr "Rajtaütés-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Élharcos-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Okozz %(goal)s HP sebzést olyan ellenséges járműveknek, amelyek eltalálták a járművedet"
+msgstr "Okozz %(goal)s életerőnyi sebzést olyan ellenséges járműveknek, amelyek sebzést okoztak a járművednek!"
 
 msgid "pm3_9_1_14_short"
 msgstr "Élharcos-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Rajtaütés-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Okozz %(goal)s HP sebzést, és mindeközben maradj észrevétlen a sebzés okozásának pillanatában"
+msgstr "Okozz %(goal)s életerőnyi sebzést, miközben láthatatlan vagy az ellenségek számára!"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Semmisíts meg egy ellenséges járművet legalább %(damageDealt)s HP sebzést okozva"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Rajtaütés-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Okozz %(damageDealt)s HP sebzést olyan ellenséges járműveknek, amelyek még nincsenek felderítve a sebzés pillanatában"
+msgstr "Okozz %(damageDealt)s életerőnyi sebzést olyan ellenséges járműveknek, amelyek nem láthatók a sebzés okozásának pillanatában!"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Semmisíts meg %(goal)s ellenséges járművet %(uniqueGoal)s különböző típusból"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Közreműködés-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Tedd lehetővé a csapattársaidnak, hogy %(goal)s HP sebzést okozzanak általad felderített ellenséges járműveknek. Maradj észrevétlen a sebzés okozásának pillanatában"
+msgstr "Tedd lehetővé a csapattársaid számára, hogy %(goal)s életerőnyi sebzést okozzanak az általad felderített járműveknek! Maradj észrevétlen a sebzés okozásának pillanatában!"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Kábíts el ellenséges nehéz tankokat összesen %(goal)s másodpercre. A potenciális kábítási időtartam számít"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Közreműködés-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Okozz %(damageDealt)s HP sebzést olyan ellenséges járműveknek, amelyek nincsenek felderítve a sebzés okozásának pillanatában"
+msgstr "Okozz %(damageDealt)s életerőnyi sebzést olyan ellenséges járműveknek, amelyek nem láthatók a sebzés okozásának pillanatában!"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Semmisíts meg %(goal)s ellenséges könnyű tankot vagy önjáró löveget"

@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Sumažina ginklo išbarstymą judėjimo ir sukimosi metu {{@ class $highlightClass}}%(generalValue)s%%{{/}}."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s išbarstymo judėjimo\nir sukimosi metu."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Sumažina\nginklo išbarstymą."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Sumažina ginklo išbarstymą judėjimo ir sukimosi metu."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Snaiperis"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Padaro jūsų mašiną visiškai {{@ class $highlightClass}}atsparią{{/}} dygliuočių ir alfa dygliuočių daromai {{@ class $highlightClass}}sprogimų žalai{{/}}.\nMašinai vis tiek bus padaryta tarano žalos smūgio su dygliuočiu metu."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Suteikia jums atsparumą\ndygliuočių sprogimams."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Apsaugo jūsų mašiną nuo dygliuočių sprogimų žalos."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Padaro jūsų mašiną visiškai atsparią dygliuočių ir alfa dygliuočių daromai sprogimų žalai.\nMašinai vis tiek bus padaryta tarano žalos smūgio su dygliuočiu metu."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Apsauga nuo sprogimų"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Visiškai anuliuoja potencialios žalos {{@ class $highlightClass}}±25%{{/}} kaitą, tad šūvių žala labiau nuspėjama."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Šūvių žala\nnebekinta ±25%%."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Šūvių žala nebekinta ±25%."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Visiškai anuliuoja potencialios žalos ±25% kaitą, tad šūvių žala labiau nuspėjama."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Kontroliuojama žala"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Sumažina gaunamą žalą* (sviedinių, gaisro, tarano, pavojingų zonų, korozijos, žalą moduliams ir t. t.) {{@ class $highlightClass}}%(mitigation)s%%{{/}}.\n*Netaikoma kritimo žalai ir vykdymo fazėje."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s gaunamai žalai."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Sumažina gaunamą žalą."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Sumažina gaunamą žalą* (sviedinių, gaisro, tarano, pavojingų zonų, korozijos, žalą moduliams ir t. t.).\n*Netaikoma kritimo žalai ir vykdymo fazėje."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Žalos sugėrimas"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Suteikia {{@ class $highlightClass}}%(chance)s%%{{/}} šansą atstatyti {{@ class $highlightClass}}%(heal)s{{/}} jūsų mašinos patvarumo taškų padarius žalos priešui šūviu."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s tikimybė atgauti patvarumo taškų\npadarius žalos priešui šūviu."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Gali atstatyti patvarumo taškų\npašovus priešą."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Suteikia šansą atstatyti patvarumo taškų padarius priešui žalą šūviu."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Vampyro įkandimas"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Padidina jūsų mašinos patvarumo taškus {{@ class $highlightClass}}%(health)s%%{{/}}."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s mašinos patvarumo taškų."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Suteikia mašinai\npatvarumo taškų."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Padidina mašinos patvarumą."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Patvarumas"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Padidina šansą uždegti priešą {{@ class $highlightClass}}%(chance)s%%{{/}} sužeidus jį šūviu."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s tikimybei\nuždegti priešą."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Suteikia\nužsiliepsnojimo tikymybę."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Padidina šansą uždegti priešą sužeidus jį šūviu."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Įkaitinta adata"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Padidina priešams daromą žalą {{@ class $highlightClass}}%(damageFactor)s%%{{/}}."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s daromai žalai."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Padidina\ndaromą žalą."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Padidina daromą žalą."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Keramikinė šerdis"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Padidina užtaisymo greitį {{@ class $highlightClass}}%(reloadTime)s%%{{/}}."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s užtaisymo greičiui."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Padidina\nužsitaisymo greitį."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Padidina užtaisymo greitį."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Kulkosvaidis"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Palaipsniui atstato jūsų patvarumo taškus iki kol atstato visus.\nEfektas nutraukiamas gavus žalos."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Palaipsniui atstato\njūsų patvarumo taškus."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Atstato\npatvarumo taškų."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Palaipsniui atstato jūsų patvarumo taškus iki kol atstato visus. Efektas nutraukiamas gavus žalos."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Regeneracija"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Leidžia mašinai laikyti {{@ class $highlightClass}}neribotą{{/}} Mirium kiekį."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Leidžia laikyti neribotą Mirium kiekį."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Leidžia laikyti neribotą Mirium kiekį."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Leidžia mašinai laikyti neribotą Mirium kiekį."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Bedugnis kolektorius"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Padidina įgulos efektyvumo bonusą {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}} visiems įgulos nariams."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s įgulos efektyvumo bonusui."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Padidina\nįgulos efektyvumą."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Pagerina įgulos efektyvumą."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Motyvacija"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Jei priešo mašinai po jūsų šūvio liko {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} ar mažiau patvarumo taškų, jie akimirksniu sunaikinami.\nBosams šis efektas netaikomas."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Priešai su %(value)s ar mažiau patvarumo taškų po\njūsų šūvio akimirksniu sunaikinami."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Priešai su mažai patvarumo taškų akimirksniu sunaikinami."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Jei priešo mašinai po jūsų šūvio liko mažai patvarumo taškų, jie akimirksniu sunaikinami.\nBosams šis efektas netaikomas."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Užbaigimas"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Padidina mašinos maksimalų greitį pirmyn ir atgal."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Padidina mašinos maksimalų\ngreitį pirmyn ir atgal."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Padidina mašinos maksimalų greitį pirmyn ir atgal."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Padidina mašinos maksimalų greitį pirmyn ir atgal."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Pagreitinimas"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Padidina mūšiuose už priešų pažeidimą uždirbamo Mirium kiekį {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s iš priešų\nuždirbamam Mirium."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Suteikia daugiau Mirium iš priešų."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Suteikia daugiau Mirium mūšyje darant žalą priešams."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Mirium išgavimas"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Leidžia mašinai mūšyje sukaupti {{@ class $highlightClass}}%(miriumAmount)s{{/}} Mirium daugiau."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "Leidžia laikyti %(value)s Mirium daugiau."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Leidžia laikyti daugiau Mirium."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Leidžia mašinai mūšyje laikyti didesnį Mirium kiekį."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Erdvus kolektorius"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Sugrįžus į mūšį atgaunamas visas Mirium, jei mašina buvo sunaikinta."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Sugrįžus į mūšį\nišsaugomas visas Mirium."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Sugrįžus į mūšį išsaugo Mirium."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Sugrįžus į mūšį išsaugo Mirium."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Mirium išsaugojimas"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Sumažina kovinių gebėjimų Mirium kainą {{@ class $highlightClass}}%(cost)s%%{{/}}."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s gebėjimų Mirium kainai."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Sumažina gebėjimų Mirium kainą."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Ženkliai sumažina Kovinių gebėjimų Mirium kainą mūšyje."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Mirium efektyvumas"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Panaudojus atstato {{@ class $highlightClass}}%(refundAmount)s%%{{/}} kovinio gebėjimo Mirium kainos."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "Atstato %(value)s Mirium\npanaudojus gebėjimą."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Atstato dalį Mirium panaudojus gebėjimą."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Panaudojus kovinį gebėjimą atstato dalį jo kainos."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Mirium atgavimas"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Padidina variklio galią {{@ class $highlightClass}}%(power)s%%{{/}} ir bokštelio sukimosi greitį {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s variklio galiai."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s bokštelio sukimosi greičiui."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Padidina variklio galią\nir bokštelio sukimosi greitį."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Padidina variklio galią ir bokštelio sukimosi greitį."
+
+msgid "buffs/buffMobility/header"
+msgstr "Mobilumas"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Padaro visus mašinos modulius atsparius bet kokiai žalai."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Padaro visus mašinos modulius atsparius\nbet kokiai žalai."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Apsaugo modulius\nnuo pažeidimų."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Padaro visus mašinos modulius atsparius bet kokiai žalai."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Modulių nepažeidžiamumas"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Standartinė Malachito anomalija, visada aktyvi."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Padidina visų sviedinių pramušimą {{@ class $highlightClass}}%(shellPen)s%%{{/}}."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s sviedinių pramušimui."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Padidina visų sviedinių pramušimą."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Padidina visų sviedinių pramušimą."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Skvarbūs sviediniai"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Visi alternatyvūs sviediniai išsaugomi sugrįžus į mūšį, jei buvote sunaikinti."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Sugrįžus į mūšį\nalternatyvūs sviediniai išsaugomi."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Sugrįžus į mūšį visi alternatyvūs sviediniai išsaugomi."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Visi alternatyvūs sviediniai išsaugomi sugrįžus į mūšį, jei buvote sunaikinti."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Sviedinių išsaugojimas"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Padidina kiekvienos fazės pradžioje suteikiamo Mirium kiekį {{@ class $highlightClass}}%(soulsBonus)s{{/}}. Leidžia mašinai laikyti {{@ class $highlightClass}}%(miriumAmount)s{{/}} daugiau Mirium."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "Prasidėjus naujai fazei ar sugrįžus į mūšį\nsuteikia %(value)s Mirium daugiau."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "Leidžia laikyti %(value)s Mirium daugiau."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Padidina Mirium talpą ir suteikia jo daugiau fazės pradžioje ar sugrįžus į mūšį."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Padidina kiekvienos fazės pradžioje suteikiamo Mirium kiekį. Leidžia mašinai mūšyje laikyti daugiau Mirium."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Mirium slėptuvė"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Padidina Turbo veikimo laiką {{@ class $highlightClass}}%(timeLength)s%%{{/}} ir sumažina atsistatymo laiką {{@ class $highlightClass}}%(reloadTime)s s{{/}}."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s Turbo veikimo laikui."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s s Turbo atsistatymo laikui."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Padidina Turbo veikimo laiką ir sumažina atsistatymo laiką."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Padidina Turbo veikimo laiką ir sumažina atsistatymo laiką."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Turbo stiprintuvas"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Suteikia tikimybę kiekvienu šūviu padaryti specifinį žalos kiekį: \n• {{@ class $highlightClass}}%(chance1)s%%{{/}} padaryti {{@ class $highlightClass}}%(damage1)s%%{{/}} žalos;\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} padaryti {{@ class $highlightClass}}%(damage2)s%%{{/}} žalos;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} padaryti {{@ class $highlightClass}}%(damage3)s%%{{/}} žalos;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} padaryti {{@ class $highlightClass}}%(damage4)s%%{{/}} žalos."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Šūvių žala šokinėja tarp mažos\nir labai didelės."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Šūvių žala šokinėja tarp mažos ir labai didelės."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Leidžia jums daryti arba mažiau žalos, nei įprastai, arba labai daug."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Kvantiniai sviediniai"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Detaliau"

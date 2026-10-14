@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Toate blocurile de date sunt finalizate!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Blocul de date {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Preia controlul antenelor. Menține controlul rețelei. Asigură transmisiunea."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "Modul va fi disponibil timp de"
+
+msgid "bannerTooltip/header"
+msgstr "Semnalul Negru"
+
+msgid "bannerTooltip/mode"
+msgstr "MOD"
+
+msgid "bannerTooltip/modeHint"
+msgstr ": se schimbă către alt mod de joc"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Performanțele computerului tău sunt insuficiente pentru acest mod. Vei avea probleme de grafică și cu mișcarea vehiculului. Sunt posibile și erori ale clientului de joc."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "Dacă performanța e insuficientă, încearcă să reduci setările grafice."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Acest mod cere un computer foarte performant. Vei avea probleme cu încărcarea hărții, grafica și mișcarea vehiculului. Poți încerca să reduci calitatea grafică în Setări pentru a spori performanțele jocului."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Performanță scăzută"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Modul necesită resurse importante"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Performanță redusă"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "Puncte de integritate recuperate"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Scor de Serviciu"
+
+msgid "battleLoading/description"
+msgstr "Preia controlul antenelor. Menține controlul rețelei. Asigură transmisiunea."
+
+msgid "battleLoading/header"
+msgstr "Semnalul Negru"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "Capturarea unei antene reface un cantitate mică din HP-ul vehiculului. Utilizează acest bonus pentru a menține poziția și a te pregăti de contraatac."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Ocupă și reface"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "Antenele nu pot fi capturate atâta timp cât vehicule inamice sunt prezente. Elimină-i pe intruși pentru a continua asigurarea obiectivului."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Capturare contestată"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "După reamplasare, vehiculul tău este imun la daune timp de 10 secunde. Profită de acest timp pentru a reveni în luptă sau a te acoperi."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Protecția reamplasării"
+
+msgid "battleQueue/title"
+msgstr "Semnalul Negru"
+
+msgid "capturingIndicator/captured"
+msgstr "Antenă capturată"
+
+msgid "capturingIndicator/capturing"
+msgstr "Se capturează antena"
+
+msgid "capturingIndicator/contesting"
+msgstr "Antenă contestată"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "Se neutralizează antena"
+
+msgid "endGame/reason/210"
+msgstr "Ambele echipe au atins limita de Puncte de semnal"
+
+msgid "endGame/reason/3"
+msgstr "Limita de timp a fost atinsă"
+
+msgid "endGame/reason/6/lose"
+msgstr "Echipa inamică a atins limita de Puncte de semnal"
+
+msgid "endGame/reason/6/win"
+msgstr "Echipa ta a atins limita de Puncte de semnal"
+
+msgid "endGame/reason/7"
+msgstr "Limita de timp a fost atinsă"
+
+msgid "notifications/progression/header"
+msgstr "Felicitări!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Detalii"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Recompense pentru finalizarea pasului&nbsp;%(stageIdx)s al Progresului: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Toate blocurile de date au fost finalizate."
+
+msgid "progression/completedTitle"
+msgstr "Progres finalizat!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Timp rămas:"
+
+msgid "progression/dailyMissions/title"
+msgstr "Ordine de teren"
+
+msgid "progression/description"
+msgstr "Finalizează misiuni zilnice în luptele Semnalul Negru pentru a avansa în progres."
+
+msgid "progression/info_button/body"
+msgstr "Clic pentru informații suplimentare"
+
+msgid "progression/info_button/header"
+msgstr "Despre Semnalul Negru"
+
+msgid "progression/widget/stageLabel"
+msgstr "Bloc de date %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Ai finalizat fiecare bloc de date!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Finalizate"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Recompensele Blocului de date"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Blocul de date actual"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "Misiunile zilnice se resetează în:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Semnalul Negru"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Progresul actual"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "Progresul e momentan indisponibil."
+
+msgid "progression/widget/unavailable"
+msgstr "Progres indisponibil"
+
+msgid "progressionView/stateHeader"
+msgstr "Progresul Semnalul Negru"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Anulează"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Echipa ta are nevoie de tine! Dacă părăsești lupta, echipa ta va fi dezavantajată, iar tu nu vei obține bonusuri sau avansa în progresul misiunii."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Ies"
+
+msgid "quitBattle/leaver/title"
+msgstr "Părăsești lupta"
+
+msgid "respawnTimer/description"
+msgstr "O poziție de reamplasare diferită îți poate conferi un avantaj strategic."
+
+msgid "respawnTimer/title"
+msgstr "Amplasare în:"
+
+msgid "rewardScreen/button"
+msgstr "Recepționat!"
+
+msgid "rewardScreen/title"
+msgstr "Recompensele Blocului de date au fost deblocate"
+
+msgid "timersPanel/invulnerable"
+msgstr "Invulnerabil"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Obține pachete de date pentru a completa blocurile de date și a obține resurse valoroase, inclusiv o recompensă semnificativă. Pachetele de date pot fi obținute prin provocarea de daune, distrugerea inamicilor în luptă, capturarea punctelor și finalizarea de misiuni zilnice."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Pachet de date"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Toate vehiculele"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Resetează filtrele"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Resetează filtrele pentru a afișa vehiculele disponibile"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "Această listă nu conține vehicule potrivite pentru acest mod."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Niciun vehicul potrivit"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Nu s-au găsit vehicule potrivite"
+
+msgid "welcomeScreen/button"
+msgstr "Continuare"
+
+msgid "welcomeScreen/description1"
+msgstr "Faci parte dintr-o forță blindată căreia i s-a ordonat să asigure și să mențină o rețea secretă într-o zonă contestată. Menține controlul rețelei cu orice preț."
+
+msgid "welcomeScreen/description2"
+msgstr "Cineva a muncit mult pentru a ascunde aceste informații. Finalizează misiuni pentru a recupera fragmente criptate."
+
+msgid "welcomeScreen/description3"
+msgstr "Completează blocurile de date pentru a obține recompense valoroase din misiunile evenimentului."
+
+msgid "welcomeScreen/header1"
+msgstr "Ocupă antenele"
+
+msgid "welcomeScreen/header2"
+msgstr "Decodează transmisiunea"
+
+msgid "welcomeScreen/header3"
+msgstr "Progresul și recompensele"
+
+msgid "welcomeScreen/title"
+msgstr "Semnalul Negru"

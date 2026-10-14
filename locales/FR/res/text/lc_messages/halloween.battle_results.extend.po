@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, durée : %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "Difficulté Normal"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "Difficulté Difficile"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "Difficulté Cauchemar"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "Anomalie de Babylone - {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "Nombre de réapparitions : {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "Performance inacceptable : inaction/désertion.\nRécompense non reçue."
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "Votre équipe a échoué : la première phase n'a pas été accomplie.\nRécompense non reçue."
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s : %(amount)s."
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s."
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)."
+
+msgid "hw_battle_result/status/lose"
+msgstr "BATAILLE TERMINÉE"
+
+msgid "hw_battle_result/status/win"
+msgstr "VICTOIRE"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "Bataille terminée"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "Les ténèbres ont été dissipées ! Super jeu d'équipe !"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "BATAILLE TERMINÉE"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "%(phaseNumber)s PHASE TERMINÉE"
+msgstr[1] "%(phaseNumber)s PHASES TERMINÉES"
+msgstr[2] "%(phaseNumber)s PHASES TERMINÉES"
+
+msgid "hw_battle_result/title/win"
+msgstr "BOSS VAINCU"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "Tous les véhicules alliés ont été détruits."
+
+msgid "hw_finish/reason/3/lose"
+msgstr "Le temps est écoulé."
+
+msgid "hw_finish/reason/5/lose"
+msgstr "Tous les alliés ont quitté la bataille."
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "La voie vers la Tour sombre est désormais libre."
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "Bon sang, on a réussi !"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "On l'a forcé à battre en retraite, mais ce n'est pas terminé."
+
+msgid "teamList/actions"
+msgstr "Actions rapides"
+
+msgid "teamList/teammates"
+msgstr "Alliés"

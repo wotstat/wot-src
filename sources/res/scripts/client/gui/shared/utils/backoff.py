@@ -47,12 +47,10 @@ class AbstractBackoff(object):
         self._tries += value
         return
 
-    def __next__(self):
+    def nextDelay(self):
         delay = self.addRandom(self.calcDelay())
         self._tries += 1
         return self.normalize(delay)
-
-    next = __next__
 
     def getTries(self):
         return self._tries

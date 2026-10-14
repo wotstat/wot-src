@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Kaikki datablokit on saatu valmiiksi!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Datablokki {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Ota antennit haltuusi. Pidä verkko. Turvaa lähetys."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "Pelimuoto on saatavilla"
+
+msgid "bannerTooltip/header"
+msgstr "Musta signaali"
+
+msgid "bannerTooltip/mode"
+msgstr "MODE"
+
+msgid "bannerTooltip/modeHint"
+msgstr "– vaihdetaan toiseen pelimuotoon"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Tietokoneesi suorituskyky ei riitä tähän pelimuotoon. Kohtaat ongelmia grafiikan ja vaunujen liikkumisen kanssa. Pelin kaatuminen on myös todennäköistä."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "Kokeile grafiikka-asetusten heikentämistä, mikäli suorituskyky ei riitä."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta heikentää grafiikan laatua asetuksista."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Heikko suorituskyky"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Tämä pelimuoto vaatii tietokoneelta enemmän"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Heikentynyt suorituskyky"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "Kestopisteitä saatu takaisin"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Palveluspisteet"
+
+msgid "battleLoading/description"
+msgstr "Ota antennit haltuusi. Pidä verkko. Turvaa lähetys."
+
+msgid "battleLoading/header"
+msgstr "Musta signaali"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "Antennin valtaaminen palauttaa pienen määrän vaunusi kestopisteitä. Käytä tätä bonusta pitääksesi asemasi ja valmistautuaksesi vastahyökkäykseen."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Varmista ja palauta"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "Antenneja ei voi vallata, kun vihollisvaunuja on paikalla. Hoitele kaikki häiritsijät ennen kuin varmistat kohteen."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Estetty valtaus"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "Taisteluun palattuasi vaunusi on suojattu vahingolta 10 sekunnin ajan. Käytä tämä aika palataksesi taisteluun tai etsiäksesi suojaa."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Taisteluun palaamisen suoja"
+
+msgid "battleQueue/title"
+msgstr "Musta signaali"
+
+msgid "capturingIndicator/captured"
+msgstr "Antenni vallattu"
+
+msgid "capturingIndicator/capturing"
+msgstr "Antennia vallataan"
+
+msgid "capturingIndicator/contesting"
+msgstr "Antennista taistellaan"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "Antennia neutraloidaan"
+
+msgid "endGame/reason/210"
+msgstr "Molemmat joukkueet saavuttivat signaalipisterajan"
+
+msgid "endGame/reason/3"
+msgstr "Aikaraja saavutettu"
+
+msgid "endGame/reason/6/lose"
+msgstr "Vihollinen saavutti signaalipisterajan"
+
+msgid "endGame/reason/6/win"
+msgstr "Joukkueesi saavutti signaalipisterajan"
+
+msgid "endGame/reason/7"
+msgstr "Aikaraja saavutettu"
+
+msgid "notifications/progression/header"
+msgstr "Onneksi olkoon!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Lisätiedot"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Palkinnot edistymisen askeleen&nbsp;%(stageIdx)s suorittamisesta: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Kaikki datablokit on saatu valmiiksi."
+
+msgid "progression/completedTitle"
+msgstr "Edistyminen suoritetu!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Aikaa jäljellä:"
+
+msgid "progression/dailyMissions/title"
+msgstr "Kenttäkäskyt"
+
+msgid "progression/description"
+msgstr "Suorita päivittäisiä tehtäviä Mustan signaalin taisteluissa edetäksesi läpi edistymisen."
+
+msgid "progression/info_button/body"
+msgstr "Klikkaa saadaksesi lisätietoa"
+
+msgid "progression/info_button/header"
+msgstr "Mustasta signaalista"
+
+msgid "progression/widget/stageLabel"
+msgstr "Datablokki %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Olet saanut jokaisen datablokin valmiiksi!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Suoritettu"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Datablokkipalkinnot"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Tämän hetkinen datablokki"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "Päivittäisten tehtävien nollautumiseen:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Musta signaali"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Tämän hetkinen edistyminen"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "Edistyminen ei ole väliaikaisesti saatavilla."
+
+msgid "progression/widget/unavailable"
+msgstr "Edistyminen ei saatavilla"
+
+msgid "progressionView/stateHeader"
+msgstr "Mustan signaalin edistyminen"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Peruuta"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Joukkueesi tarvitsee yhä sinua! Jos poistut taistelusta, joukkueesi jää alakynteen, etkä saa mitään bonuksia tai edisty missään tehtävissä."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Poistu"
+
+msgid "quitBattle/leaver/title"
+msgstr "Olet poistumassa taistelusta"
+
+msgid "respawnTimer/description"
+msgstr "Uusi taisteluun palaamisen paikka voi antaa sinulle strategisen edun."
+
+msgid "respawnTimer/title"
+msgstr "Taisteluun:"
+
+msgid "rewardScreen/button"
+msgstr "Selvä!"
+
+msgid "rewardScreen/title"
+msgstr "Datablokkipalkinnot avattu"
+
+msgid "timersPanel/invulnerable"
+msgstr "Haavoittumaton"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Ansaitse datapaketteja saadaksesi datablokkeja valmiiksi ja hankkiaksesi arvokkaita resursseja, joiden mukana on merkittävä palkinto. Datapaketteja voidaan ansaita tekemällä vahinkoa, tuhoamalla vihollisia taistelussa, valtaamalla pisteitä ja suorittamalla päivittäisiä tehtäviä."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Datapaketti"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Kaikki vaunut"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Nollaa suodattimet"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Nollaa suodattimet nähdäksesi saatavilla olevat vaunut"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "Tämä pelilista ei sisällä yhtään tähän pelimuotoon soveltuvaa vaunua."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Ei soveltuvia vaunuja"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Soveltuvia vaunuja ei löytynyt"
+
+msgid "welcomeScreen/button"
+msgstr "Jatka"
+
+msgid "welcomeScreen/description1"
+msgstr "Olet osa panssaroitua iskuryhmää, jolla on käsky ottaa haltuunsa salamyhkäinen verkko kiistanalaisella alueella. Pidä verkko hallussasi hinnalla millä hyvänsä."
+
+msgid "welcomeScreen/description2"
+msgstr "Joku näki valtavasti vaivaa pitääkseen tämän tiedon salassa. Suorita tehtävät saadaksesi salattuja fragmentteja."
+
+msgid "welcomeScreen/description3"
+msgstr "Kokoa datablokkeja valmiiksi saadaksesi arvokkaita palkintoja tapahtuman tehtävistä."
+
+msgid "welcomeScreen/header1"
+msgstr "Ota antennit haltuusi"
+
+msgid "welcomeScreen/header2"
+msgstr "Pura lähetyksen salaus"
+
+msgid "welcomeScreen/header3"
+msgstr "Edistyminen ja palkinnot"
+
+msgid "welcomeScreen/title"
+msgstr "Musta signaali"

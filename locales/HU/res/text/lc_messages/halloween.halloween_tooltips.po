@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Visszatöltési idő: {{cooldown}} mp"
+
+msgid "ability/miriumCost"
+msgstr "Felhasználás költsége a csatában, miriumban: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Használatban:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Passzív erősítők a csatában"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Ha teljesíted a Normál nehézségi szintet, feloldod a Nehéz nehézségi szintet, és hozzáférést kapsz az anomália kombórendszeréhez."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Az anomáliakombók nem érhetők el"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Növeli a harci hatékonyságodat, és fázisról fázisra magaddal viheted, akkor is, ha a járműved megsemmisül."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Megszerzésekor:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomáliák"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Echo anomália"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Felvételi anomália"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Alap anomália"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Titkos anomália"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Csak zsákmányból szerezhető be."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Nincsenek kombói."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Nem számít bele az Anomáliagyűjtő medál megszerzésébe."
+
+msgid "bannerTooltip/available"
+msgstr "Az esemény végéig hátravan: %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) – Játékmód. Kattints a felfedezéséhez"
+
+msgid "bannerTooltip/description"
+msgstr "Egy különleges PvE-mód, amely elrepít a titokzatos Babilon-projekt világába. Szelídíts meg hét egyedi járművet, miközben a sötét ellenséges erők elpusztításán fáradozol! Exkluzív jutalmak és sok más finomság vár!"
+
+msgid "bannerTooltip/header"
+msgstr "Babilon: Sötét torony"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "A számítógéped teljesítménye nem megfelelő ehhez a módhoz. Problémákat tapasztalhatsz a grafikával és a jármű mozgásával kapcsolatban. Előfordulhat, hogy a játékkliens összeomlik."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a beállítások között!"
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Alacsony teljesítmény"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Csökkentett teljesítmény lehetséges"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Már barátok vagytok."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Várakozás a barátfelkérés elfogadására."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "A játékos eltávolítása a tiltólistádról."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Hozzáadás a barátlistához."
+
+msgid "battleResult/interaction/menu"
+msgstr "Kattints az interakciós menü megnyitásához ezzel a játékossal."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Hozzáadás a szakaszhoz."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "A játékos már tagja egy szakasznak."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "A meghívót már elküldtük."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Csak a szakaszparancsnok hívhat meg játékosokat a szakaszba."
+
+msgid "battleResult/secretReward/header"
+msgstr "Titkos jutalom"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Az esemény végén a döntésed eredményeként különleges jutalmat kapsz."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Egyedi eseményjutalom"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Visszatöltési idő: %(cooldownSeconds)s mp"
+
+msgid "consumables/params/usageCost"
+msgstr "Miriumköltség: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Eddig érhető el: {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Jutalmak:"
+
+msgid "dailyQuests/status"
+msgstr "Új napi küldetés {{icon}} {{timer}} múlva"
+
+msgid "groupVoiceover/body"
+msgstr "Ültesd be mind a négy hangot kapott harckocsizót (%(crew_members_names)s) a Garázsodban található bármelyik járműbe (egyiküknek kell lennie a parancsnoknak), hogy aktiváld a dinamikus csapatbeszélgetéseket a csata során.\nAz öt vagy hat szereppel rendelkező járművek esetében a megmaradt szerepeket bármilyen más harckocsizóval betöltheted."
+
+msgid "groupVoiceover/header"
+msgstr "Dinamikus csapatbeszélgetések"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Már kiválasztottad a jármű feloldásához szükséges feladatot. A feladat feltételeit a képernyő jobb felső sarkában láthatod."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Feladat kiválasztva"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "A csatába lépéshez válassz egy elérhető járművet!"
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Nem érhető el"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "A kiválasztott nehézségi szinten / módban a csaták technikai okok miatt átmenetileg nem érhetők el."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Nem érhető el"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Várd meg, amíg a szakasz visszatér az előző csatából, hogy új csatába léphess!"
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Nem érhető el"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "A szakasz nem kompatibilis ezzel a nehézségi szinttel."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Nem érhető el"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Egy négy harckocsizóból álló egyedi legénység."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Teljes egyedi legénység"
+
+msgid "keyCard/body"
+msgstr "Kattints ide, hogy megtekintsd az esemény fizetőeszközének megszerzési módjait."
+
+msgid "keys/accrued"
+msgstr "Megszerezve:"
+
+msgid "keys/battles"
+msgstr "• Eseménycsatákban"
+
+msgid "keys/body"
+msgstr "Egyedi fizetőeszköz, amellyel teljesítheted a Babilon: Sötét torony eseményt, és értékes jutalmakat szerezhetsz, köztük az esemény fő jutalmát. Az esemény csatáiban szerezheted meg vagy megvásárolhatod a csomagok részeként. Semmisíts meg ellenséges járműveket a Babilon: Sötét torony csatáiban, és gyűjts annyi anyagot, amennyit csak tudsz, hogy kulcsokat kapj értük."
+
+msgid "keys/boss"
+msgstr "• Fő ellenség legyőzve:"
+
+msgid "keys/bottom"
+msgstr "Az esemény végeztével (%(date)s) a megmaradt kulcsokat eltávolítjuk."
+
+msgid "keys/bundles"
+msgstr "• Vásárold meg eseménycsomagokban!"
+
+msgid "keys/daily"
+msgstr "• Napi járműküldetés:"
+
+msgid "keys/effective"
+msgstr "• Hatékonyság a csatában:"
+
+msgid "keys/gold"
+msgstr "• Vásárold meg aranyért!"
+
+msgid "keys/header"
+msgstr "Kódfejtő kulcsok"
+
+msgid "keys/howToEarn"
+msgstr "Így gyűjtheted"
+
+msgid "keys/howToUse"
+msgstr "Így használhatod fel"
+
+msgid "keys/howToUseDescr"
+msgstr "A kulcsok segítségével dekódolhatod a feljegyzéseket, új feladatokat oldhatsz fel és közelebb kerülhetsz az esemény fő jutalmához. A kulcsokkal átugorhatod a feladatokat és gyorsabban elérheted a jutalmakat."
+
+msgid "keys/inStock"
+msgstr "elérhető"
+
+msgid "keys/secret"
+msgstr "• Titkos jutalom:"
+
+msgid "metaWidget/body"
+msgstr "Kattints ide az összes eseményfeladat és jutalom megtekintéséhez!"
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Teljesítsd ennek a feljegyzésnek a harci feltételét, hogy dekódold. Ezt nem lehet átugrani."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "A dekódolás nem érhető el"
+
+msgid "metaWidget/header"
+msgstr "JUTALOMSÁV"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Kattints ide, hogy kiválaszd, hogyan végződjön ez a történet. A közösség többségi döntése fogja meghatározni a további eseményeket. A frissítéseket a játékportálon találod."
+
+msgid "missionTooltip/bottom"
+msgstr "Dekódold az összes feljegyzést, hogy eljuss a fő jutalomhoz (néhány feladatot át lehet ugrani), mielőtt az esemény a következő időpontban véget ér: %(date)s!"
+
+msgid "missionTooltip/completed"
+msgstr "%(current)s feladat teljesítve, jutalmak megszerezve"
+
+msgid "missionTooltip/count"
+msgstr "Feladat: %(current)s/%(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Dekódolás"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Teljesítsd a feladatot a dekódolás feloldásához."
+
+msgid "missionTooltip/kingReward"
+msgstr "Fő eseményjutalom"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Megkaptad a fő jutalmat"
+
+msgid "missionTooltip/received"
+msgstr "Teljesítetted a(z) %(current)s feladatot, de nem dekódoltál feljegyzést"
+
+msgid "missionTooltip/rewards"
+msgstr "Teljesítsd a feladatot jutalmakért!"
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Dekódold a feljegyzést jutalmakért!"
+
+msgid "missionTooltip/skip"
+msgstr "Átugrás"
+
+msgid "shopWidget/body"
+msgstr "Kattints ide a játékon belüli Bolt egy különleges szekciójának megnyitásához, ahol exkluzív eseménytárgyakat találsz!"
+
+msgid "shopWidget/header"
+msgstr "Az esemény csomagjai"
+
+msgid "teamList/actions/body"
+msgstr "Gyors műveletek szakasz létrehozásához és barátok felvételéhez/eltávolításához."
+
+msgid "teamList/actions/header"
+msgstr "Gyors műveletek"
+
+msgid "teamList/anomalies/header"
+msgstr "Aktív anomáliák"
+
+msgid "teamList/bossDamage/body"
+msgstr "Rendezés kizárólag a 4. fázisban (a fő ellenség elleni harcban) okozott sebzés alapján.\nEz a sebzés nem számít bele a kulcsjutalmakba, ha a csapat nem győzi le a fő ellenséget."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Ez a sebzés nem számít bele a kulcsjutalmakba, mert a csapatnak nem sikerült legyőznie a fő ellenséget."
+
+msgid "teamList/bossDamage/header"
+msgstr "A fő ellenség elleni harcban okozott sebzés"
+
+msgid "teamList/damage/body"
+msgstr "Rendezés az 1-3. fázisban okozott sebzés alapján."
+
+msgid "teamList/damage/header"
+msgstr "Okozott sebzés"
+
+msgid "teamList/keys/body"
+msgstr "Rendezés megszerzett kulcsok szerint (a megjelenített érték nem tartalmazza a hozzá tartozó napi küldetés teljesítéséért kapott bónuszkulcsokat)."
+
+msgid "teamList/keys/header"
+msgstr "Megszerzett kulcsok"
+
+msgid "teamList/kills/body"
+msgstr "Rendezés megsemmisített ellenséges járművek szerint."
+
+msgid "teamList/kills/header"
+msgstr "Megsemmisített ellenséges járművek"
+
+msgid "teamList/name/header"
+msgstr "A játékos neve"
+
+msgid "teamList/place/body"
+msgstr "Rendezés a csapatban elért helyezés alapján."
+
+msgid "teamList/place/header"
+msgstr "Helyezés a csapatban"
+
+msgid "teamList/squad/header"
+msgstr "A szakasz egy taktikai egység, amelyben a játékosok együttműködnek a csatákban."
+
+msgid "teamList/vehicle/body"
+msgstr "Rendezés a járművek típusa és neve szerint."
+
+msgid "teamList/vehicle/header"
+msgstr "Járművek"
+
+msgid "teamList/warned/body"
+msgstr "Ezt a játékost megbüntettük inaktivitásért / dezertálásért, így nem kapott jutalmakat ezért a csatáért."
+
+msgid "teamList/warned/header"
+msgstr "Figyelmeztetés"
+
+msgid "teamList/warned/self/body"
+msgstr "Megbüntettünk inaktivitásért / dezertálásért, így nem kaptál jutalmakat ezért a csatáért."
+
+msgid "teamList/warned/self/header"
+msgstr "Figyelmeztetés"
+
+msgid "vehicle/bonusTitle"
+msgstr "Szerzemények"
+
+msgid "vehicle/eventBonus"
+msgstr "Bónuszkulcsokat szerezhetsz, ha ezzel a járművel teljesítesz egy napi küldetést."
+
+msgid "vehicle/state/default/title"
+msgstr "Harcra kész"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "Csatában"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "Taktikai egységben"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "Sorban áll"
+
+msgid "vehicle/state/locked/title"
+msgstr "Zárolva"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Ötlövedékes tár, amelynek segítségével gyorsan jelentős sebzést oszthatsz ki."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Tár"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Háromlövedékes rendszer, amely lerövidíti a lőszer automatikus újratöltésének szokásos idejét."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Fejlesztett automata újratöltő"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Folyamatos tüzelési rendszerű löveg."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Gépágyú"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Növeli annak az esélyét, hogy az ellenséges járművek moduljai megsérüljenek."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Kritikus sérülést okozó löveg"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "R.RO löveg kétlövedékes automata újratöltő rendszerrel"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Automata újratöltő löveg"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Lehetővé teszi, hogy válassz a ciklikus és a szekvenciális tüzelés közül."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Dupla löveg"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Teljes körű védelmet biztosít járműved moduljainak kritikus sérülése ellen."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Kritikus sérülés védelem"

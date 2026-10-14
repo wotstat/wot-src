@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, durata: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "Difficoltà Normale"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "Difficoltà Difficile"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "Difficoltà Incubo"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "Anomalia Babylon – {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "Numero di rischieramenti: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "Prestazione inaccettabile: inattività/diserzione.\nRicompensa non ricevuta."
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "La tua squadra ha fallito: la prima Fase non è stata completata.\nRicompensa non ricevuta."
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s."
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s."
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)."
+
+msgid "hw_battle_result/status/lose"
+msgstr "BATTAGLIA TERMINATA"
+
+msgid "hw_battle_result/status/win"
+msgstr "VITTORIA"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "Battaglia terminata"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "L'oscurità è stata dissipata! Ottimo gioco di squadra!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "BATTAGLIA TERMINATA"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "%(phaseNumber)s FASE COMPLETATA"
+msgstr[1] "%(phaseNumber)s FASI COMPLETATE"
+msgstr[2] "%(phaseNumber)s FASI COMPLETATE"
+
+msgid "hw_battle_result/title/win"
+msgstr "BOSS SCONFITTO"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "Tutti i veicoli alleati sono stati distrutti."
+
+msgid "hw_finish/reason/3/lose"
+msgstr "Il tempo è scaduto."
+
+msgid "hw_finish/reason/5/lose"
+msgstr "Tutti gli alleati hanno lasciato la battaglia."
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "La strada verso la Torre nera è libera ora."
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "Sì, ce l'abbiamo fatta!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "Lo abbiamo costretto a ritirarsi, ma non finisce qui."
+
+msgid "teamList/actions"
+msgstr "Azioni rapide"
+
+msgid "teamList/teammates"
+msgstr "Alleati"

@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Habilidad de combate"
+
+msgid "make_choice/server_error"
+msgstr "La operación no está disponible en este momento. Inténtalo de nuevo más tarde."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "RECLUTAR"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Reclutada"
+
+msgid "notification/crew_reward/title"
+msgstr "Recompensa recibida"
+
+msgid "open_artefact/server_error"
+msgstr "La operación no está disponible temporalmente. Inténtalo de nuevo más tarde."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Llaves de descifrado recibidas: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Recibo"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Llaves de descifrado eliminadas: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Descifrado"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "No se han podido reabastecer las habilidades de combate del %s. Problema técnico."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "No se han podido reabastecer las habilidades de combate del %s. Fondos insuficientes."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Habilidades de combate del %s abastecidas. Has gastado "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Llaves de descifrado recibidas"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Registros disponibles para descifrar"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Modo: Babylon: Torre oscura"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babylon: Torre oscura (Normal)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babylon: Torre oscura (Difícil)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babylon: Torre oscura (Pesadilla)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Jefe derrotado"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Dificultad"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normal"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Difícil"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Infernal"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Fases completadas: %(curPhase)s de %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "¡Objetivo completado!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "¡Objetivos completados!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vehículo"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Gastado: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Transacción financiera"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Puedes elegir el nivel de dificultad en el garaje de Babylon: Torre oscura."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Dificultad Difícil desbloqueada"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Puedes elegir el nivel de dificultad en el garaje de Babylon: Torre oscura."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Dificultad Infernal desbloqueada"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "El %(vehicle)s ya está disponible para las batallas de Babylon: Torre oscura."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Las batallas en Babylon: Torre oscura no están disponibles en este momento.\nInténtalo de nuevo más tarde."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Las batallas de Babylon: Torre oscura (%(difficulty)s) no están disponibles en este momento.\nInténtalo de nuevo más tarde."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "El evento «Babylon: Torre oscura» no está disponible en este momento. Consulta el portal del juego para estar al tanto."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "El comandante del pelotón ha cambiado la dificultad a %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "El jugador %(userName)s no ha desbloqueado uno de los niveles de dificultad."

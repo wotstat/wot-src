@@ -1,0 +1,398 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "anomalyMatrixHotkeyHint/part1"
+msgstr "Натиснете"
+
+msgid "anomalyMatrixHotkeyHint/part2"
+msgstr ", за да отворите менюто на аномалията."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Внимание към зона: %(gridId)s"
+
+msgid "arena/marker/attention_to_volot"
+msgstr "Внимание към Магнус!"
+
+msgid "arena/marker/get_to_volot"
+msgstr "Достигнете\nМагнус"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Карам към зоната!"
+
+msgid "arena/marker/move_to_volot"
+msgstr "Карам към Магнус!"
+
+msgid "arena/marker/need_matter_in_volot"
+msgstr "Събирайте мирий"
+
+msgid "arena/phase"
+msgstr "Фаза %(current)s от %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Таралежите&nbsp;наближават!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Алфа Таралеж&nbsp;наближава!"
+
+msgid "battleHint/bossFightSpiderEscapedFirstTime"
+msgstr "Спайдър бяга. Преследвайте го!"
+
+msgid "battleHint/bossFightSpiderEscapedSecondTime"
+msgstr "Отново избяга. Довърши работата!"
+
+msgid "battleHint/bossFightSpiderPhase1"
+msgstr "Спайдър е тук, унищожи го!"
+
+msgid "battleHint/bossFightSpiderPhase2"
+msgstr "Врагът се завърна! Повали го!"
+
+msgid "battleHint/bossIsShield"
+msgstr "Защитниците идват да защитят боса!"
+
+msgid "battleHint/bossesAreShield"
+msgstr "Защитниците идват да защитят босовете!"
+
+msgid "battleHint/bossfight_phase_1"
+msgstr "Врагът е уязвим! Унищожете го!"
+
+msgid "battleHint/bossfight_phase_2"
+msgstr "Врагът се върна! Пригответе се!"
+
+msgid "battleHint/bossfight_phase_3"
+msgstr "Врагът се върна! Пригответе се!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Разчистете зоната!"
+
+msgid "battleHint/collectSouls"
+msgstr "Унищожете вражеските машини, за да съберете мирий и&nbsp;напълните&nbsp;Магнус!"
+
+msgid "battleHint/deathZoneShrinking"
+msgstr "Внимание! Зоната се свива!"
+
+msgid "battleHint/destroyTheMinions"
+msgstr "Врагът е защитаван! Първо унищожете&nbsp;&nbsp;подчинените&nbsp;!"
+
+msgid "battleHint/enemyIsProtected"
+msgstr "Врагът е защитаван!\nПърво унищожете подчинените!"
+
+msgid "battleHint/enemyIsVulnerable"
+msgstr "Врагът е уязвим! Унищожете го!"
+
+msgid "battleHint/getToCollector"
+msgstr "Магнус е пълен. Достигнете&nbsp;&nbsp;преходната&nbsp;точка."
+
+msgid "battleHint/hunter"
+msgstr "Ловците&nbsp;наближават!"
+
+msgid "battleHint/leftToCollect"
+msgstr "Оставащ мирий за събиране:"
+
+msgid "battleHint/missing_squad"
+msgstr "Изгубеният взвод наближава!"
+
+msgid "battleHint/modifierName/chronostorm"
+msgstr "Хроносторм"
+
+msgid "battleHint/modifierName/corrosion"
+msgstr "Корозия"
+
+msgid "battleHint/modifierName/execution"
+msgstr "Изпълнение"
+
+msgid "battleHint/modifierName/miriumization"
+msgstr "Мириумизация"
+
+msgid "battleHint/modifierRule/chronostorm"
+msgstr "Времето намалява бързо. Победете враговете, за да удължите времето."
+
+msgid "battleHint/modifierRule/corrosion"
+msgstr "Точките живот се изнизват непрекъснато. Нанесете поражения, за да оцелеете."
+
+msgid "battleHint/modifierRule/execution"
+msgstr "Всеки изстрел, който уцели, е фатален. Избягвайте да получавате поражения."
+
+msgid "battleHint/modifierRule/miriumization"
+msgstr "Нивата на мирий намаляват непредсказуемо. Продължавайте да проверявате брояча."
+
+msgid "battleHint/phase/1"
+msgstr "Първа фаза"
+
+msgid "battleHint/phase/2"
+msgstr "Втора фаза"
+
+msgid "battleHint/phase/3"
+msgstr "Трета фаза"
+
+msgid "battleHint/trapper"
+msgstr "Унищожете трапера, за да&nbsp;спрете енергийните удари."
+
+msgid "battleHint/turret"
+msgstr "Комарите се събудиха!"
+
+msgid "bossAura/leaveDamageAreaWarningHealth"
+msgstr "Аурата на боса топи бронята ви!\nНапуснете опасната зона!"
+
+msgid "bossAura/leaveDamageAreaWarningSouls"
+msgstr "Аурата на боса изгаря мирия ви!\nНапуснете опасната зона!"
+
+msgid "bossFight/boss1"
+msgstr "Sturmbringer"
+
+msgid "bossFight/boss2"
+msgstr "Спайдър"
+
+msgid "bossFight/boss3"
+msgstr "Спайдър"
+
+msgid "common/close"
+msgstr "ЗАТВОРИ"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Продължителност: %(time)s с"
+
+msgid "efficiencyRibbons/additionFormat"
+msgstr "+%(value)s"
+
+msgid "efficiencyRibbons/anomalyPickup"
+msgstr "Получена е аномалия"
+
+msgid "efficiencyRibbons/anomalyReceive"
+msgstr "Аномалия от"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Опожаряване чрез пирокинетика"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Поражения от енергиен удар"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Поражения от експлозия"
+
+msgid "efficiencyRibbons/bossAuraDamage"
+msgstr "Получени поражения"
+
+msgid "efficiencyRibbons/buffBomberResist"
+msgstr "Неуязвимост от експлозия"
+
+msgid "efficiencyRibbons/buffInstakill"
+msgstr "Финишър"
+
+msgid "efficiencyRibbons/corrosionDamage"
+msgstr "Поражения от корозия"
+
+msgid "efficiencyRibbons/counterFormat"
+msgstr "x%(value)s"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Поражения от вампиризъм"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Поражения от енергиен изстрел"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Поражения от вампирски изстрел"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Поражения от зашеметяващ изстрел"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Модулна неуязвимост"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Изцерение"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Машината е поправена"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Машината е поправена от съюзник"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Поправени съюзници"
+
+msgid "efficiencyRibbons/secretReward"
+msgstr "Тайна награда"
+
+msgid "efficiencyRibbons/secretRewardReceive"
+msgstr "Тайна награда от"
+
+msgid "efficiencyRibbons/shellsPickup"
+msgstr "Получени са снаряди"
+
+msgid "efficiencyRibbons/shellsReceived"
+msgstr "Снаряди от"
+
+msgid "efficiencyRibbons/soulsDrained"
+msgstr "Изцеден мирий"
+
+msgid "efficiencyRibbons/soulsPickup"
+msgstr "Събран мирий"
+
+msgid "efficiencyRibbons/soulsReceive"
+msgstr "Мирий от"
+
+msgid "efficiencyRibbons/soulsRefund"
+msgstr "Възстановен мирий"
+
+msgid "efficiencyRibbons/stompingDamage"
+msgstr "Поражения от настъпване"
+
+msgid "efficiencyRibbons/subtractionFormat"
+msgstr "-%(value)s"
+
+msgid "eventStats/activePhase"
+msgstr "Фаза %(num)s"
+
+msgid "eventStats/buffsCaption"
+msgstr "Вашите аномалии"
+
+msgid "eventStats/difficulty"
+msgstr "Трудност: %(difficulty)"
+
+msgid "eventStats/eventName"
+msgstr "Вавилон: Тъмната кула"
+
+msgid "eventStats/globalTask"
+msgstr "Цел: Унищожете вражески машини и преминете през фазите,\nза да се върнете у дома."
+
+msgid "eventStats/tableCaption"
+msgstr "Членове на отряда"
+
+msgid "help/description_0"
+msgstr "Съберете мирий чрез унищожаване на вражески машини. Той автоматично пълни Магнус, осигурява енергия\nза активиране на бойни способности и временна защита от аурата на Безсмъртния."
+
+msgid "help/description_1"
+msgstr "След като се напълни с мирий, Магнус ще ви телепортира в следващата фаза. Достигнете го, за да се евакуирате\nпреди да изтече времето за битка."
+
+msgid "help/description_2"
+msgstr "Неуязвимият е изключително опасен враг, който може да краде мирий с аурата си.\nНе се опитвайте да го нападате по време на фази 1—3."
+
+msgid "help/description_3"
+msgstr "Бойните способности, които оборудвате преди битка, и пасивните аномалии, които вашият екипаж получава\n,могат да се окажат изключително мощна комбинация. Можете също да използвате Турбо за ускорение и таран."
+
+msgid "help/title"
+msgstr "ВАВИЛОН: ТЪМНАТА КУЛА"
+
+msgid "help/title_0"
+msgstr "Събиране на мирий"
+
+msgid "help/title_1"
+msgstr "Магнус"
+
+msgid "help/title_2"
+msgstr "Неуязвимият"
+
+msgid "help/title_3"
+msgstr "Оцеляване"
+
+msgid "loading/description_0"
+msgstr "Съберете мирий, като унищожавате вражески машини. Той автоматично\nзапълва Магнус, осигурява енергия, която се използва за активиране на Бойни способности\nи дава временна защита от аурата на Неуязвимия."
+
+msgid "loading/description_1"
+msgstr "След като се напълни с мирий, Магнус ще ви телепортира\nв следващата фаза. Достигнете го, за да се евакуирате\nпреди да изтече времето за битка."
+
+msgid "loading/description_2"
+msgstr "Неуязвимият е изключително опасен враг,\nкойто може да краде мирий с аурата си.\nНе се опитвайте да го нападате по време на фази 1—3."
+
+msgid "loading/description_3"
+msgstr "Бойните способности, които оборудвате преди битка\n, и пасивните аномалии, които вашият екипаж получава\n,могат да се окажат изключително мощна комбинация.\nМожете също да използвате Турбо за ускорение и таран."
+
+msgid "loading/title_0"
+msgstr "СЪБИРАНЕ НА МИРИЙ"
+
+msgid "loading/title_1"
+msgstr "МАГНУС"
+
+msgid "loading/title_2"
+msgstr "БЕЗСМЪРТНИЯТ"
+
+msgid "loading/title_3"
+msgstr "ОЦЕЛЯВАНЕ"
+
+msgid "lootCapturing/loot"
+msgstr "Улавяне на плячка"
+
+msgid "marker/phaseTime"
+msgstr "+%(time)s сек"
+
+msgid "nitroPanel/label"
+msgstr "ТУРБО"
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Ако отрядът ви успее да влезе в следващата фаза."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "ЩЕ СЕ ВЪРНЕТЕ ОБРАТНО"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Вашата битка приключи.\nСправихте се добре!"
+
+msgid "prebattle/description/message"
+msgstr "Цел: Унищожете вражески машини, за да напълните Магнус и да се приберете"
+
+msgid "prebattle/description/title"
+msgstr "Тъмната кула: %(difficulty)s"
+
+msgid "prebattle/difficulty/101"
+msgstr "Нормална трудност"
+
+msgid "prebattle/difficulty/102"
+msgstr "Висока трудност"
+
+msgid "prebattle/difficulty/103"
+msgstr "Кошмарна трудност"
+
+msgid "prebattle/waiting/title"
+msgstr "Чакат се играчи..."
+
+msgid "radialMenu/attention_here"
+msgstr "Внимание към позиция!"
+
+msgid "radialMenu/cancel"
+msgstr "Отмени"
+
+msgid "radialMenu/confirm"
+msgstr "Тъй вярно!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Карам към зоната!"
+
+msgid "radialMenu/move_to_soul_collector"
+msgstr "Карам към Магнус!"
+
+msgid "statusNotificationTimers/collectorFull"
+msgstr "Изчакайте съюзниците си,\nза да завършите прехода"
+
+msgid "statusNotificationTimers/leaveDamagingZone"
+msgstr "Избягвайте\nзоната на поражения!"
+
+msgid "statusNotificationTimers/leaveIgnitingZone"
+msgstr "Напуснете\nопожарената зона!"
+
+msgid "statusNotificationTimers/leaveStunningZone"
+msgstr "Напуснете\nзоната на зашеметяване!"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Обратно в строя..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Напуснете\nопасната зона!"
+
+msgid "statusNotificationTimers/phaseEnd"
+msgstr "Достигнете \"Магнус\",\nза да избегнете поражения"
+
+msgid "teamList/teammates"
+msgstr "Съюзници"
+
+msgid "upgradePanel/anomaly/combo"
+msgstr "КОМБО"
+
+msgid "upgradePanel/anomaly/new"
+msgstr "НОВО"
+
+msgid "upgradePanel/delimiter"
+msgstr "ИЛИ"
+
+msgid "upgradePanel/title/default"
+msgstr "Налична е нова аномалия"

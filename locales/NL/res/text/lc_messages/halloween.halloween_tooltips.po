@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Herlaadtijd: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Benodigd Mirium voor activatie: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Bij gebruik:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Passieve buffs in het gevecht"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Voltooi moeilijkheidsgraad normaal om moeilijkheidsgraad moeilijk te ontgrendelen en toegang te krijgen tot het Anomaliecombo-systeem."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Anomaliecombo's zijn onbeschikbaar"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Verhogen je effectiviteit in de strijd en blijven behouden tussen fases, ook als je voertuig wordt vernietigd."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Bij ontvangst:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomalieën"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Echo-anomalie"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Opraapanomalie"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Standaard anomalie"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Geheime anomalie"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Alleen te vinden in buit."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Heeft geen combo's."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Telt niet mee voor het verdienen van de Anomalieverzamelaar medaille."
+
+msgid "bannerTooltip/available"
+msgstr "Evenement beschikbaar voor %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) – spelmodus. Klik en ontdek"
+
+msgid "bannerTooltip/description"
+msgstr "Een speciale PvE-modus waarin je diep in de wereld van het mysterieuze Babylon Project duikt. Beveel zeven unieke voertuigen en bestrijd duistere vijandelijke krachten. Exclusieve beloningen liggen in het verschiet!"
+
+msgid "bannerTooltip/header"
+msgstr "Babylon: Duistere Toren"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "De prestatie van jouw computer is voor deze modus onvoldoende. Je kunt problemen ervaren met graphics en voertuigbeweging. Het is ook waarschijnlijk dat de spelclient crasht."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Deze modus vereist een hoge computerprestatie. Je zult problemen ervaren met graphics, voertuigbeweging en het laden van de kaart. Probeer in het geval van een onvoldoende prestatie om in de instellingen de graphics te verlagen."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Lage prestatie"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Mogelijk verminderde prestatie"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Jullie zijn al vrienden."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Wachtend op bevestiging vriendschapsverzoek."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Verwijder speler van je zwarte lijst."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Toevoegen aan vriendenlijst."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klik om het interactiemenu met deze speler te openen."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Toevoegen aan peloton."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Speler reeds in peloton."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Uitnodiging reeds verstuurd."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Alleen de pelotoncommandant kan spelers uitnodigen voor een peloton."
+
+msgid "battleResult/secretReward/header"
+msgstr "Geheime beloning"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Je zult een speciale onderscheiding ontvangen op basis van je beslissing aan het einde van het evenement."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Unieke evenementonderscheiding"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Herlaadtijd: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Kosten in Mirium: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Beschikbaar t/m {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Beloningen:"
+
+msgid "dailyQuests/status"
+msgstr "Nieuwe dagelijkse missie over {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Plaats alle vier de ingesproken bemanningsleden van het evenement (%(crew_members_names)s) in een voertuig in je garage (eentje moet de commandant zijn) om dynamische teamgesprekken te activeren.\nIn voertuigen met vijf of zes bemanningsleden, kunnen andere bemanningsleden de resterende plekken innemen."
+
+msgid "groupVoiceover/header"
+msgstr "Dynamische teamgesprekken"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "De doelstelling voor het ontgrendelen van dit voertuig is al geselecteerd. Bekijk de voorwaarden in de rechterbovenhoek van het scherm."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Doelstelling geselecteerd"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Selecteer een beschikbaar voertuig om het gevecht in te gaan."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Onbeschikbaar"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Gevechten in de geselecteerde moeilijkheidsgraad/modus zijn om technische redenen tijdelijk onbeschikbaar."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Onbeschikbaar"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Wacht tot het peloton terugkeert van het vorige gevecht om een nieuw gevecht in te gaan."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Onbeschikbaar"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Onbeschikbare moeilijkheidsgraad voor het peloton."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Onbeschikbaar"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Een unieke, vierkoppige bemanning."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Voltallige unieke bemanning"
+
+msgid "keyCard/body"
+msgstr "Klik om te zien hoe je de evenementvaluta kunt ontvangen."
+
+msgid "keys/accrued"
+msgstr "Ontvangen:"
+
+msgid "keys/battles"
+msgstr "• In evenementgevechten"
+
+msgid "keys/body"
+msgstr "Een unieke valuta die gebruikt wordt om door het 'Babylon: Duistere Toren' evenement te vorderen en waardevolle items te ontvangen, waaronder de hoofdbeloning. Kan worden verdiend in evenementgevechten of gekocht in bundels. Vernietig vijandelijke voertuigen in 'Babylon: Duistere Toren' gevechten om zoveel mogelijk materie te verzamelen en sleutels te verdienen."
+
+msgid "keys/boss"
+msgstr "• Baas verslagen:"
+
+msgid "keys/bottom"
+msgstr "Na afloop van het evenement (%(date)s) zullen alle ongebruikte sleutels worden verwijderd."
+
+msgid "keys/bundles"
+msgstr "• Gekocht in evenementbundels"
+
+msgid "keys/daily"
+msgstr "• Dagelijkse voertuigmissie:"
+
+msgid "keys/effective"
+msgstr "• Efficiëntie in gevecht:"
+
+msgid "keys/gold"
+msgstr "• Gekocht met goud"
+
+msgid "keys/header"
+msgstr "Ontcijferingssleutels"
+
+msgid "keys/howToEarn"
+msgstr "Hoe je ze verdient"
+
+msgid "keys/howToUse"
+msgstr "Hoe je ze gebruikt"
+
+msgid "keys/howToUseDescr"
+msgstr "Gebruik sleutels om dossiers te ontcijferen, nieuwe doelstellingen te ontgrendelen, en voortgang te boeken richting de hoofdbeloning. Je kunt ook sleutels uitgeven om doelstellingen over te slaan en sneller beloningen te bereiken."
+
+msgid "keys/inStock"
+msgstr "beschikbaar"
+
+msgid "keys/secret"
+msgstr "• Geheime beloning:"
+
+msgid "metaWidget/body"
+msgstr "Klik om alle doelstellingen en beloningen van het evenement te bekijken."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Voltooi de gevechtsvoorwaarde van dit dossier om het te ontcijferen. Dit kan niet worden overgeslagen."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Ontcijfering onbeschikbaar"
+
+msgid "metaWidget/header"
+msgstr "Beloningspad"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Klik om te kiezen hoe dit verhaal eindigt. De keuze van de community als geheel zal de komende evenementen vormgeven. Check de website van het spel voor updates."
+
+msgid "missionTooltip/bottom"
+msgstr "Ontcijfer alle dossiers (sommige doelstellingen kun je overslaan) om de hoofdbeloning te bereiken voordat het evenement op %(date)s eindigt."
+
+msgid "missionTooltip/completed"
+msgstr "Doelstelling %(current)s bereikt, beloningen ontvangen"
+
+msgid "missionTooltip/count"
+msgstr "Doelstelling %(current)s van %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Ontcijferen"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Bereik de doelstelling om te ontcijferen."
+
+msgid "missionTooltip/kingReward"
+msgstr "Hoofdbeloning van het evenement"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Hoofdbeloning van het evenement ontvangen"
+
+msgid "missionTooltip/received"
+msgstr "Doelstelling %(current)s bereikt, maar dossier niet ontcijferd"
+
+msgid "missionTooltip/rewards"
+msgstr "Bereik de doelstelling om beloningen te ontvangen."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Ontcijfer het dossier om beloningen te ontvangen."
+
+msgid "missionTooltip/skip"
+msgstr "Overslaan"
+
+msgid "shopWidget/body"
+msgstr "Klik om een speciale sectie van de in-game winkel met exclusieve evenementartikelen te openen."
+
+msgid "shopWidget/header"
+msgstr "Evenementbundels"
+
+msgid "teamList/actions/body"
+msgstr "Snelle acties voor het creëren van een peloton en toevoegen/verwijderen van vrienden."
+
+msgid "teamList/actions/header"
+msgstr "Snelle acties"
+
+msgid "teamList/anomalies/header"
+msgstr "Actieve anomalieën"
+
+msgid "teamList/bossDamage/body"
+msgstr "Sorteer op veroorzaakte schade in fase 4 (baasgevecht).\nDeze schade telt niet mee voor de sleutelbeloningen als het team de baas niet verslaat."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Deze schade telt niet mee voor de sleutelbeloningen omdat het team de baas niet heeft verslagen."
+
+msgid "teamList/bossDamage/header"
+msgstr "Veroorzaakte schade in het baasgevecht"
+
+msgid "teamList/damage/body"
+msgstr "Sorteer op veroorzaakte schade in fases 1–3."
+
+msgid "teamList/damage/header"
+msgstr "Veroorzaakte schade"
+
+msgid "teamList/keys/body"
+msgstr "Sorteer op verdiende sleutels (de getoonde waarde is exclusief bonussleutels die ontvangen zijn voor het voltooien van de bijbehorende dagelijkse missie)."
+
+msgid "teamList/keys/header"
+msgstr "Sleutels verdiend"
+
+msgid "teamList/kills/body"
+msgstr "Sorteer op aantal vernietigde vijandelijke voertuigen."
+
+msgid "teamList/kills/header"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "teamList/name/header"
+msgstr "Spelersnaam"
+
+msgid "teamList/place/body"
+msgstr "Sorteer op positie in het team."
+
+msgid "teamList/place/header"
+msgstr "Plek in het team"
+
+msgid "teamList/squad/header"
+msgstr "Een peloton is een tactische eenheid voor spelers om in gevechten samen te werken."
+
+msgid "teamList/vehicle/body"
+msgstr "Sorteer op voertuigtype en naam."
+
+msgid "teamList/vehicle/header"
+msgstr "Voertuigen"
+
+msgid "teamList/warned/body"
+msgstr "Deze speler is bestraft voor inactiviteit/desertie en heeft voor dit gevecht geen beloningen ontvangen."
+
+msgid "teamList/warned/header"
+msgstr "Let op"
+
+msgid "teamList/warned/self/body"
+msgstr "Je bent bestraft voor inactiviteit/desertie en hebt voor dit gevecht geen beloningen ontvangen."
+
+msgid "teamList/warned/self/header"
+msgstr "Let op"
+
+msgid "vehicle/bonusTitle"
+msgstr "Inkomsten"
+
+msgid "vehicle/eventBonus"
+msgstr "Er zijn bonussleutels beschikbaar voor het voltooien van een dagelijkse missie met dit voertuig."
+
+msgid "vehicle/state/default/title"
+msgstr "Klaar voor gevecht"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "In gevecht"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "In tactische eenheid"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "In de wachtrij"
+
+msgid "vehicle/state/locked/title"
+msgstr "Vergrendeld"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Met een vijfschots magazijn kun je snel veel schade veroorzaken."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Magazijn"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Een drieschots systeem dat de standaard tijd voor het autoherladen van granaten vermindert."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Verbeterd autoherladend kanon"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Een kanon met een continu vuursysteem."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Automatisch kanon"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Vergroot de kans om modules van vijandelijke voertuigen te beschadigen."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Kritisch beschadigend kanon"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Een HE-kanon met een formidabel tweeschots autoherlaadsysteem."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Autoherladend kanon"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Stelt je in staat om te kiezen tussen cyclisch en opeenvolgend vuren."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Dubbelloops kanon"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Geeft de modules van je voertuig volledige bescherming tegen kritische schade."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Weerstand tegen kritische schade"

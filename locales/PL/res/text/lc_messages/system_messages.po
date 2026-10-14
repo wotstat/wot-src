@@ -1981,9 +1981,6 @@ msgstr "Błąd usługi „%(vehName)s”. Za mało obligacji na kupno materiał�
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Błąd usługi „%(vehName)s”. Za mało złota na zakup materiałów eksploatacyjnych. Spróbuj później."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Operacja nie może być zrealizowana. Twoje złoto zostanie przywrócone, kiedy tylko Portfel WG powróci do działania."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Błąd usługi „%(vehName)s”. Nie udało się uzupełnić materiałów eksploatacyjnych. Spróbuj później."
 
@@ -1995,9 +1992,6 @@ msgstr "Błąd usługi „%(vehName)s”. Za mało kredytów na zakup pocisków.
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Błąd usługi „%(vehName)s”. Za mało złota na zakup pocisków."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Operacja nie może być zrealizowana. Twoje złoto zostanie przywrócone, kiedy tylko Portfel WG powróci do działania."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Błąd usługi „%(vehName)s”. Pojazd jest zablokowany."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "Czołg %(userString)s został opracowany. Wydano doświadczenia: %(unspentXP)s pkt., wolnego doświadczenia %(freeXP)s pkt."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "System nagród elitarnych jest teraz dostępny dla %(vehicle)s"
+msgstr "System nagród elitarnych jest teraz dostępny dla %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Nagrody elitarne"

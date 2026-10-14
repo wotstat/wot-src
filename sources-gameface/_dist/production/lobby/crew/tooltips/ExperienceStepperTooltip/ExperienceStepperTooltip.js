@@ -846,6 +846,11 @@
           const d = a().useRef(null);
           var D;
           return (
+            (0, i.useLayoutEffect)(() => {
+              const u = o.O.client.getSize("rem");
+              ((document.body.style.width = `${u.width}rem`),
+                (document.body.style.height = `${u.height}rem`));
+            }, []),
             (D = () => {
               const u = d.current;
               if (!u)
@@ -855,7 +860,9 @@
               const e = new ResizeObserver(() => {
                 const e = u.scrollWidth,
                   t = u.scrollHeight;
-                o.O.view.resize(e, t);
+                (o.O.view.resize(e, t),
+                  (document.body.style.width = `${e}px`),
+                  (document.body.style.height = `${t}px`));
                 const n = window.getComputedStyle(u);
                 o.O.view.setSidePaddingsRem({
                   left: parseInt(n.getPropertyValue("padding-left"), 10),
@@ -1359,7 +1366,7 @@
             o !== u.length && t(u.slice(o));
           },
           Y = new RegExp("[฀-๿][ัำ-ฺ็-๎]*|[^฀-๿]", "gu"),
-          Z = (u) => {
+          $ = (u) => {
             const e = [];
             return (
               K(
@@ -1378,7 +1385,7 @@
               e
             );
           },
-          $ = M
+          Z = M
             ? (u) => {
                 const e = [];
                 return (
@@ -1389,7 +1396,7 @@
                       e.push(u);
                     },
                     (u) => {
-                      e.push(...Z(u[0]));
+                      e.push(...$(u[0]));
                     },
                   ),
                   e
@@ -1414,7 +1421,7 @@
                 u,
                 /(\n+|[\xa0\ufeff]+)/g,
                 (u) => {
-                  n.push({ blockType: O.Word, colorTag: e, childList: $(u, t) });
+                  n.push({ blockType: O.Word, colorTag: e, childList: Z(u, t) });
                 },
                 (u) => {
                   const t = u[0],

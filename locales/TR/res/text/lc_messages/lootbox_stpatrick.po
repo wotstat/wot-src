@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Sandıklara Dön"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Her %(guaranteed0)s sandıkta bir Seviye VIII-IX araç bulunması garant
 msgid "infoPage/header/description"
 msgstr "Değerli oyun içi ürünler alma şansı için sandığı açın! Detayları aşağıda bulabilirsiniz."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "%(name) içinden (%(boxesCount) sandık açıldı)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Hiç sandığınız yok.\nBunları oyun içi Dükkândan alabilirsiniz."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Mevcut sandıklar: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Hiç sandık yok"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Olası sandık içeriği listesindeki tüm araçlara zaten sahipseniz sandıklardan alacağınız sonraki tüm araçlar altın ile telafi edilecek."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) sandık"
 msgstr[1] "%(remainingCount) sandık"
 msgstr[2] "%(remainingCount) sandık"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Garantili Ödül, olası sandık içeriği listesinden bir araçtır.\n%(remainingCount) sandık açtığınız halde böyle bir araç çıkmazsa açacağınız %(count). sandıktan çıkacaktır. Araç çıktığında sayaç sıfırlanır."

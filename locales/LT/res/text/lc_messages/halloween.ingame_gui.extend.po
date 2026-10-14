@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Korozija"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Zonos žala"
+
+msgid "damageLog/static_death_zone"
+msgstr "Zonos žala"
+
+msgid "damageShieldReady"
+msgstr "Energijos skydas paruoštas."
+
+msgid "fastReloadReady"
+msgstr "Greitas užtaisymas paruoštas."
+
+msgid "hitMarker/useless"
+msgstr "Nenaudojamas!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Avarinis remontas paruoštas."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Energijos sviedinys paruoštas."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Siurbiantis šūvis paruoštas."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Apkurtinantis sviedinys paruoštas."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "norėdami peržiūrėti režimo taisykles"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Paspauskite,"
+
+msgid "hwInvisibilityReady"
+msgstr "Užmaskuotas gydymas paruoštas."
+
+msgid "nitroRamDamageReady"
+msgstr "Turbokompresorius paruoštas."
+
+msgid "pickupSouls"
+msgstr "Jūs surinkote %(souls)s vnt. Mirium"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Negalima panaudoti [%(name)s]: pabūklas pažeistas."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Mašina nepažeista."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Negalima naudoti [%(name)s]: variklis sunaikintas."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Negalima naudoti [%(name)s]: gebėjimo aktyvavimui nepakanka Mirium."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Negalima panaudoti [%(name)s]: mašina dega."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Negalima panaudoti [%(name)s]: mašina skęsta."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Negalima panaudoti [%(name)s]: mašina dega."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Negalima panaudoti [%(name)s]: mašina apversta."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Ginklas užtaisytas."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Mūsiškį %(target)s sunaikino korozija."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Mūsiškį %(target)s sutraiškė %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Mūsiškį %(target)s sunaikino priešininko (%(attacker)s) sprogimas."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Mūsiškis %(target)s sudužo."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Mūsiškį %(target)s sunaikino sunaikinimo zona."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Mūsiškį %(target)s sunaikino priešo aura."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Mūsiškį %(target)s sunaikino sunaikinimo zona."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Mūsiškis %(target)s sunaikintas."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Mašiną sunaikino Energijos smūgis"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Mašiną sunaikino Pirokinezė"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Mašiną sunaikino Vampyrizmas"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Mašiną sunaikino sprogimas"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Mašiną sunaikino sunaikinimo zona"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Mašiną sunaikino priešo aura"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Mašiną sunaikino korozija"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Mašina sudužo"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Mašina buvo sutrypta"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Mašina sunaikinta. Nepasiekėte Magnuso."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Mašina sunaikinta. Nesunaikinote boso."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Mašina sunaikinta. Magnus neužpildytas."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modulį [%(device)s] susprogdino žaidėjo šūvis"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Mašina sudegė"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Mašiną sunaikino priešo šūvis"
+
+msgid "teamRepairKitReady"
+msgstr "Grupinis remontas paruoštas."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s aktyvavo Grupinį remontą."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Grupinis remontas aktyvuotas."

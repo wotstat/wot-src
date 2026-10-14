@@ -1981,9 +1981,6 @@ msgstr "Помилка під час обслуговування «%(vehName)s�
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Помилка під час обслуговування «%(vehName)s». Недостатньо золота для купівлі спорядження."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Операція неможлива. Все ваше золото буде доступним після автоматичного відновлення працездатності Єдиного гаманця."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Помилка під час обслуговування «%(vehName)s». Неможливо поповнити спорядження. Спробуйте пізніше."
 
@@ -1995,9 +1992,6 @@ msgstr "Помилка під час обслуговування «%(vehName)s�
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Помилка під час обслуговування «%(vehName)s». Недостатньо золота для купівлі снарядів."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Операція неможлива. Все ваше золото буде доступним після автоматичного відновлення працездатності Єдиного гаманця."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Помилка під час обслуговування «%(vehName)s». Машину заблоковано."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "%(userString)s досліджено. Витрачено нерозподіленого досвіду %(unspentXP)s, вільного досвіду %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Система елітних нагород доступна для %(vehicle)s"
+msgstr "Система елітних нагород доступна для %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Елітні нагороди"

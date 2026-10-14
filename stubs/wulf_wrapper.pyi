@@ -11,6 +11,7 @@ PyObjectViewSettings: Any
 PyObjectWindow: Any
 PyObjectWindowSettings: Any
 PyObjectWindowsArea: Any
+ResAccessor: Any
 Resource: Any
 ValueType: Any
 caseMap: Any

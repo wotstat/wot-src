@@ -4165,6 +4165,9 @@ msgstr "Машина оснащена ракетной пусковой уста
 msgid "moduleInfo/closeBtn"
 msgstr "Закрыть"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Боевой форсаж"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Оснащается магазинной системой заряжания на технике:"
 
@@ -6162,6 +6165,12 @@ msgstr "(шт)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Время действия параллаксного электромеханического прицела"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Время подготовки"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Время действия"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Время перезарядки"

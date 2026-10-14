@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Coroziune"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Daune după zonă"
+
+msgid "damageLog/static_death_zone"
+msgstr "Daune după zonă"
+
+msgid "damageShieldReady"
+msgstr "Scutul energetic e gata de utilizare."
+
+msgid "fastReloadReady"
+msgstr "Reîncărcarea rapidă e gata de utilizare."
+
+msgid "hitMarker/useless"
+msgstr "Inutilizabil!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Reparațiile de urgență sunt gata de utilizare."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Lovitura energetică e gata de utilizare."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Lovitura vampirică e gata de utilizare."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Lovitura de șoc e gata de utilizare."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "pentru a vedea regulile modului"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Apasă"
+
+msgid "hwInvisibilityReady"
+msgstr "Vindecare camuflată e gata de utilizare"
+
+msgid "nitroRamDamageReady"
+msgstr "Turbocompresorul e gata de utilizare."
+
+msgid "pickupSouls"
+msgstr "Ai strâns %(souls)s articol(e) Mirium"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Nu pot utiliza [%(name)s]: tunul e avariat."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Vehiculul nu e avariat."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Nu pot utiliza [%(name)s]: motorul e distrus."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Nu pot utiliza [%(name)s]: insuficient Mirium pentru a activa abilitatea."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Nu pot utiliza [%(name)s]: vehiculul e incendiat."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Nu pot utiliza [%(name)s]: vehiculul se îneacă."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Nu pot utiliza [%(name)s]: vehiculul e incendiat."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Nu pot utiliza [%(name)s]: vehiculul e răsturnat."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Tunul e încărcat."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Aliatul %(target)s a fost distrus de coroziune."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Aliatul %(target)s zdrobit de %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Aliatul %(target)s distrus de explozia inamică (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Aliatul %(target)s zdrobit."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Aliatul %(target)s distrus de zona de distrugere."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Aliatul %(target)s distrus de aura inamică."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Aliatul %(target)s distrus de zona de distrugere."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Aliatul %(target)s distrus."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Vehicul distrus de Lovitura energetică"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Vehicul distrus de Pirokinezie"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Vehicul distrus de Vampir"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Vehicul distrus de explozie"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Vehicul distrus de zona de distrugere"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Vehicul distrus de aura inamică"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Vehicul distrus de coroziune"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Vehicul zdrobit"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Vehicul distrus prin zdrobire"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Vehicul distrus. Nu ai reușit să ajungi la Magnus."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Vehicul distrus. Nu ai reușit să distrugi Boss-ul."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Vehicul distrus. Magnus nu e umplut."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modulul [%(device)s] a explodat lovit de jucător"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Vehicul distrus în incendiu"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Vehicul distrus de proiectil inamic"
+
+msgid "teamRepairKitReady"
+msgstr "Reparațiile de grup sunt gata de utilizare."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s a activat Reparații de grup."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Reparații de grup activate."

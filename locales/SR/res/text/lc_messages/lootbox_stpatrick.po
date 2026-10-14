@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Povratak na sanduke"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Svaki %(guaranteed0)s sanduk garantovano sadrži vozila nivoa VIII - IX.
 msgid "infoPage/header/description"
 msgstr "Otvori sanduk za šansu da dobiješ vredne stvari iz igre! Pogledaj detalje ispod."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Iz %(name) (%(boxesCount) otvorenih sanduka)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Nemaš više sanduka.\nMožeš da ih nabaviš u prodavnici u igri."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Dostupno sanduka: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Nema dostupnih sanduka"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Ako već imaš sva vozila sa liste mogućih iz sanduka, onda će sva sledeća vozila koja dobiješ iz sanduka biti kompenzovana u zlatu."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) sanduk"
 msgstr[1] "%(remainingCount) sanduka"
 msgstr[2] "%(remainingCount) sanduka"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Zagarntovana nagrada je vozilo sa liste mogućeg sadržaja sanduka.\nAko otvoriš %(remainingCount) sanduka a takvo vozilo ne dobiješ, dobićeš ga kada otvoriš %(count). sanduk. Kada ga dobiješ brojač se poništava."

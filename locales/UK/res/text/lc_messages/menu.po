@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s на %(effectHours)s до вільного досвіду та досвіду екіпажу"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s на %(effectHours)s до досвіду за бій"
+msgstr "%(effectValue)s до бойового досвіду на %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "Бонус %(effectValue)s до кредитів за бій на %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Ця машина оснащена ракетною установкою
 msgid "moduleInfo/closeBtn"
 msgstr "Закрити"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Бойовий форсаж"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Оснащується магазинною системою заряджання на техніці:"
 
@@ -6162,6 +6165,12 @@ msgstr "(шт)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Тривалість дії електромеханічного далекоміра"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Час перезаряджання"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Час дії"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Час перезаряджання"

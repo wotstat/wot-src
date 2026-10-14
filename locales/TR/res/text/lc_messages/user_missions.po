@@ -328,6 +328,9 @@ msgstr "Ödülü Alın"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "Ödülleri Alın"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "Tamamladığınız her Standart, Premium veya Bonus Görev, gelişiminize katkıda bulunur."
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "Mevcut"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "Devam! Ödüller kazanmak için Günlük Görevleri tamamlayın: {progres}"
+msgstr "Devam! Ödüller kazanmak için Günlük Görevleri tamamlayın: {{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "Üç Standart Görev tamamladıktan sonra daha da değerli ödüller içeren bir Bonus Görev açılır. Bonus Görev günün sonuna kadar tamamlanmalıdır, aksi takdirde süresi tükenecektir."
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "Kalkanlar"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "Araç kısıtlamaları:"
+msgstr "Şu araçla tamamlayın:"
 
 msgid "tooltip/weekly_mission"
 msgstr "Haftalık Görev"

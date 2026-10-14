@@ -889,6 +889,15 @@ msgstr "• Myönnetään \"Suuri kilpailu 2019\" -tapahtuman aikana."
 msgid "Fest19Racer_descr"
 msgstr "Ansaitse henkilökohtaisen edistymisen palkin ensimmäinen palkinto."
 
+msgid "FortRushMedal_2026"
+msgstr "Signaalin kaappaaja"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "Myönnetään kaikille Switchblade-agenteille, jotka suorittivat \"Musta signaali 2026\" -tapahtuman edistymisen jokaisen vaiheen. Siististi hoidetun tehtävän tunnistaa siitä, että signaali on kaapattu ja maailmalle on tarjottu vielä yksi rauhallinen yö."
+
+msgid "FortRushMedal_2026_descr"
+msgstr "Suorita \"Musta signaali 2026\" -tapahtuman edistyminen."
+
 msgid "HE17A1"
 msgstr "Pedon merkki"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "Mirny-13:sta tiedustelija"
 
 msgid "hw2019Medal1_condition"
-msgstr "• Myönnetään kaikille pelaajille, jotka täyttivät asiaankuuluvat ehdot pelissä erikoistapahtuman aikana."
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2020 tapahtuman aikana."
 
 msgid "hw2019Medal1_descr"
 msgstr "Suorita kaikki vaiheet yhden tähden vaikeusasteella Mirny-13:sta operaation aikana."
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "Mirny-13:sta veteraani"
 
 msgid "hw2019Medal2_condition"
-msgstr "• Myönnetään kaikille pelaajille, jotka täyttivät asiaankuuluvat ehdot pelissä erikoistapahtuman aikana."
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2020 tapahtuman aikana."
 
 msgid "hw2019Medal2_descr"
 msgstr "Suorita kaikki vaiheet kahden tähden vaikeusasteella Mirny-13:sta operaation aikana."
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "Mirny-13:sta sankari"
 
 msgid "hw2019Medal3_condition"
-msgstr "• Myönnetään kaikille pelaajille, jotka täyttivät asiaankuuluvat ehdot pelissä erikoistapahtuman aikana."
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2020 tapahtuman aikana."
 
 msgid "hw2019Medal3_descr"
 msgstr "Suorita kaikki vaiheet kolmen tähden vaikeusasteella Mirny-13:sta operaation aikana."
 
 msgid "hw2019Medal_condition"
-msgstr "• Myönnetään kaikille pelaajille, jotka täyttivät asiaankuuluvat ehdot pelissä erikoistapahtuman aikana."
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2020 tapahtuman aikana."
 
 msgid "hw2019Medal_descr"
 msgstr "Kerää kaikki tyylit Mirny-13:sta operaation aikana."
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "Kesytä peto"
 
 msgid "hw2021Medal1_condition"
-msgstr "• Myönnetään kaikille pelaajille, jotka täyttivät asiaankuuluvat ehdot pelissä erikoistapahtuman aikana."
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2021 tapahtuman aikana."
 
 msgid "hw2021Medal1_descr"
 msgstr "Suorita kaikki vaiheet keskivaikealla vaikeustasolla \"Mirny: Toivo\" -tapahtuman aikana."
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "Valittu"
 
 msgid "hw2021Medal2_condition"
-msgstr "• Myönnetään kaikille pelaajille, jotka täyttivät asiaankuuluvat ehdot pelissä erikoistapahtuman aikana."
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2021 tapahtuman aikana."
 
 msgid "hw2021Medal2_descr"
 msgstr "Suorita kaikki vaiheet vaikealla vaikeustasolla \"Mirny: Toivo\" -tapahtuman aikana."
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "Pelottava seikkailu"
 
 msgid "hw2022Medal01_condition"
-msgstr "Myönnetään kaikille pelaajille, jotka täyttivät erityiset ehdot tapahtuman aikana."
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2022 tapahtuman aikana."
 
 msgid "hw2022Medal01_descr"
 msgstr "Suorita kaikki taistelukykyihin liittyvät tehtävät \"Kurpitsakuritus\" -tapahtuman aikana."
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "Viikatemies"
 
 msgid "hw2022Medal02_condition"
-msgstr "Myönnetään kaikille pelaajille, jotka täyttivät erityiset ehdot tapahtuman aikana."
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2022 tapahtuman aikana."
 
 msgid "hw2022Medal02_descr"
 msgstr "Ansaitse 65 000 halloween-pistettä \"Kurpitsakuritus\" -tapahtuman aikana."
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "Palannut"
 
 msgid "hw2023Medal_condition"
-msgstr "Myönnetään Mirny: Menetetty toivo 2023 aikana"
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2023 tapahtuman aikana."
 
 msgid "hw2023Medal_descr"
 msgstr "Pura kaikkien nauhojen salauksen \"Mirny: Menetetty toivo\" -tapahtuman aikana."
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "Babylonin tutkija"
 
 msgid "hw2024Medal_condition"
-msgstr "Myönnetään Babylon-projekti 2024:n aikana."
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2024 tapahtuman aikana."
 
 msgid "hw2024Medal_descr"
 msgstr "Pura kaikki tallenteiden salauksen \"Babylon-projekti\" -tapahtuman aikana."
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "Kielletty tieto"
 
 msgid "hw2025Medal_condition"
-msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot tapahtuman aikana."
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2025 tapahtuman aikana."
 
 msgid "hw2025Medal_descr"
 msgstr "Pura kaikki tallenteet \"Babylon: Kielletty alue\" -tapahtumassa."
+
+msgid "hw2026Medal_1"
+msgstr "Ketään ei jätetä"
+
+msgid "hw2026Medal_1_condition"
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2026 tapahtuman aikana."
+
+msgid "hw2026Medal_1_descr"
+msgstr "Pura kaikki tallenteet \"Babylon: Pimeä torni\" -tapahtumassa. Et suostunut jättämään Alexia jälkeen!"
+
+msgid "hw2026Medal_2"
+msgstr "Hänen kotinsa on mirium"
+
+msgid "hw2026Medal_2_condition"
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2026 tapahtuman aikana."
+
+msgid "hw2026Medal_2_descr"
+msgstr "Pura kaikki tallenteet \"Babylon: Pimeä torni\" -tapahtumassa. Päästit Alexin menemään miriumiin!"
+
+msgid "hw2026Medal_3"
+msgstr "Anomaliakeräilijä"
+
+msgid "hw2026Medal_3_condition"
+msgstr "Myönnetään kaikille pelaajille, jotka täyttivät ehdot 2026 tapahtuman aikana."
+
+msgid "hw2026Medal_3_descr"
+msgstr "Kerää kaikki anomaliat \"Babylon: Pimeä torni\" -tapahtumassa."
 
 msgid "impenetrable"
 msgstr "Läpäisemätön"

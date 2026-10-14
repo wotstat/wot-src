@@ -97,31 +97,31 @@ msgstr "Attention à <secteur de la minicarte> !"
 msgid "chat_example/attention_to_position"
 msgstr "Attention à l'emplacement !"
 
-msgid "chat_example/global_msg/atk/focus_hq"
+msgid "chat_example/global_msg_atk_focus_hq"
 msgstr "Détruisez les objectifs"
 
-msgid "chat_example/global_msg/atk/save_tanks"
+msgid "chat_example/global_msg_atk_save_tanks"
 msgstr "Sauvez vos chars !"
 
-msgid "chat_example/global_msg/atk/time"
+msgid "chat_example/global_msg_atk_time"
 msgstr "Capturez la zone"
 
-msgid "chat_example/global_msg/def/focus_hq"
+msgid "chat_example/global_msg_def_focus_hq"
 msgstr "Défendez les objectifs"
 
-msgid "chat_example/global_msg/def/save_tanks"
+msgid "chat_example/global_msg_def_save_tanks"
 msgstr "Sauvez vos chars !"
 
-msgid "chat_example/global_msg/def/time"
+msgid "chat_example/global_msg_def_time"
 msgstr "Défendez les zones"
 
-msgid "chat_example/global_msg/lane/center"
+msgid "chat_example/global_msg_lane_center"
 msgstr "Renforcez la zone"
 
-msgid "chat_example/global_msg/lane/east"
+msgid "chat_example/global_msg_lane_east"
 msgstr "Renforcez la zone"
 
-msgid "chat_example/global_msg/lane/west"
+msgid "chat_example/global_msg_lane_west"
 msgstr "Renforcez la zone"
 
 msgid "chat_example/going_there"
@@ -232,31 +232,31 @@ msgstr "Je vais défendre la base !"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "Je défends la base %(strArg1)s !"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "Détruisez les objectifs !"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
 msgstr "Nous avons assez de temps, sauvez vos chars !"
 
-msgid "chat_shortcuts/global_msg/atk/time"
+msgid "chat_shortcuts/global_msg_atk_time"
 msgstr "Le temps touche à sa fin, capturez une zone avec tout ce qu'il vous reste !"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "Défendez les objectifs !"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
 msgstr "Nous devons tenir le coup, sauvez vos chars !"
 
-msgid "chat_shortcuts/global_msg/def/time"
+msgid "chat_shortcuts/global_msg_def_time"
 msgstr "Le temps touche à sa fin, défendez les zones à tout prix !"
 
-msgid "chat_shortcuts/global_msg/lane/center"
+msgid "chat_shortcuts/global_msg_lane_center"
 msgstr "La zone %(strArg1)s a besoin d'aide, renforcez-la !"
 
-msgid "chat_shortcuts/global_msg/lane/east"
+msgid "chat_shortcuts/global_msg_lane_east"
 msgstr "La zone %(strArg1)s a besoin d'aide, renforcez-la !"
 
-msgid "chat_shortcuts/global_msg/lane/west"
+msgid "chat_shortcuts/global_msg_lane_west"
 msgstr "La zone %(strArg1)s a besoin d'aide, renforcez-la !"
 
 msgid "chat_shortcuts/going_there"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "Appuyez sur"
 
 msgid "devMaps/mapInfo/info"
-msgstr "Des évènements aléatoires peuvent se produire sur cette carte. Ce type de carte peut être désactivé dans les paramètres du jeu."
+msgstr "Des évènements aléatoires peuvent se produire sur cette carte."
 
 msgid "devMaps/mapInfo/text"
 msgstr "Carte avec évènements aléatoires"

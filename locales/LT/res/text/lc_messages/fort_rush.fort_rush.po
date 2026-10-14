@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Visi duomenų blokai užbaigti!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Duomenų blokas {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Perimkite antenų kontrolę. Palaikykite ryšį. Perduokite žinutę."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "Režimas pasiekiamas dar"
+
+msgid "bannerTooltip/header"
+msgstr "Juodasis signalas"
+
+msgid "bannerTooltip/mode"
+msgstr "MODE"
+
+msgid "bannerTooltip/modeHint"
+msgstr "— persijungimas į kitą žaidimo režimą"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Jūsų kompiuterio galingumo šiam režimui nepakanka. Jus galite pamatyti grafikos iškraipymus bei patirti nesklandumų judant mašinai. Gali nulūžti žaidimo klientas."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "Jei žaidimas neveikia norimu pajėgumu, pabandykite žemesnius grafikos nustatymus."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Žema greitaveika"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Režimas reikalauja daug kompiuterio resursų"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Sumažinta greitaveika"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "Atstatyta patvarumo taškų"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Tarnystės taškai"
+
+msgid "battleLoading/description"
+msgstr "Perimkite antenų kontrolę. Palaikykite ryšį. Perduokite žinutę."
+
+msgid "battleLoading/header"
+msgstr "Juodasis signalas"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "Perėmę anteną atgaunate šiek tiek mašinos patvarumo taškų. Jie padės jums atlaikyti poziciją ir pasiruošti kontratakai."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Perimkite ir atsigaukite"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "Negalite perimti antenos, kol netoliese yra priešo mašinų. Užduočiai atlikti turite susidoroti su įsibrovėliais."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Sudėtingas perėmimas"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "Sugrįžus į mūšį jūsų mašina 10 sekundžių bus apsaugota nuo žalos. Per šį laiką galite sugrįžti į kovą ir surasti priedangą."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Sugrįžimo apsauga"
+
+msgid "battleQueue/title"
+msgstr "Juodasis signalas"
+
+msgid "capturingIndicator/captured"
+msgstr "Antena perimta"
+
+msgid "capturingIndicator/capturing"
+msgstr "Antena perimama"
+
+msgid "capturingIndicator/contesting"
+msgstr "Dėl antenos varžomasi"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "Antena neutralizuojama"
+
+msgid "endGame/reason/210"
+msgstr "Abi komandos pasiekė signalo taškų limitą"
+
+msgid "endGame/reason/3"
+msgstr "Pasiektas laiko limitas"
+
+msgid "endGame/reason/6/lose"
+msgstr "Priešininkai pasiekė signalo taškų limitą"
+
+msgid "endGame/reason/6/win"
+msgstr "Jūsų komanda pasiekė signalo taškų limitą"
+
+msgid "endGame/reason/7"
+msgstr "Pasiektas laiko limitas"
+
+msgid "notifications/progression/header"
+msgstr "Sveikiname!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Detaliau"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Apdovanojimai už įvykdytą sekos etapą&nbsp;%(stageIdx)s: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Visi duomenų blokai užbaigti."
+
+msgid "progression/completedTitle"
+msgstr "Seka įvykdyta!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Liko laiko:"
+
+msgid "progression/dailyMissions/title"
+msgstr "Kovinės užduotys"
+
+msgid "progression/description"
+msgstr "Seka yra vykdoma atliekant Juodojo signalo kasdienes misijas."
+
+msgid "progression/info_button/body"
+msgstr "Paspaudę sužinosite daugiau"
+
+msgid "progression/info_button/header"
+msgstr "Apie Juodąjį signalą"
+
+msgid "progression/widget/stageLabel"
+msgstr "Žinutės dalis %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Jūs užbaigėte kiekvieną duomenų bloką!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Įvykdyta"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Duomenų bloko apdovanojimai"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Dabartinis duomenų blokas"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "Kasdienės misijos atsistatys po:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Juodasis signalas"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Dabartinis progresas"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "Seka laikinai nepasiekiama."
+
+msgid "progression/widget/unavailable"
+msgstr "Seka nepasiekiama"
+
+msgid "progressionView/stateHeader"
+msgstr "Juodojo signalo seka"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Atšaukti"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Komandai reikia jūsų! Jei paliksite mūšį, paliksite komandą nelaimėje, o patys negausite bonusų ir neįvykdysite misijų."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Išeiti"
+
+msgid "quitBattle/leaver/title"
+msgstr "Jūs paliekate mūšį"
+
+msgid "respawnTimer/description"
+msgstr "Sugrįžę į mūšį kitoje vietoje galite įgyti strateginį pranašumą."
+
+msgid "respawnTimer/title"
+msgstr "Iki sugrįžimo liko:"
+
+msgid "rewardScreen/button"
+msgstr "Tikrai taip!"
+
+msgid "rewardScreen/title"
+msgstr "Duomenų bloko apdovanojimai atrakinti"
+
+msgid "timersPanel/invulnerable"
+msgstr "Nepažeidžiamumas"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Rinkite duomenų paketus ir užbaikite duomenų blokus, iš kurių gausite vertingų resursų ir ypatingą apdovanojimą. Duomenų paketų uždirbsite darydami žalą, sunaikindami priešus, perimdami pozicijas ir vykdydami kasdienes misijas."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Duomenų paketas"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Visa technika"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Atstatyti filtrus"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Turimas mašinas pamatysite atstatę filtrus"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "Šioje grupėje nėra režimui tinkamų mašinų."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Nėra tinkamų mašinų"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Nerasta tokių mašinų"
+
+msgid "welcomeScreen/button"
+msgstr "Tęsti"
+
+msgid "welcomeScreen/description1"
+msgstr "Jūs esate šarvuotųjų mašinų pulke, kurio užduotis yra perimti ir išlaikyti prieigą prie slapto tinklo pilkojoje karo zonoje. Išlaikykite tinklo kontrolę bet kokia kaina."
+
+msgid "welcomeScreen/description2"
+msgstr "Kažkas labai stengėsi išlaikyti šią informaciją slaptą. Įvykdykite misiją ir išgaukite užšifruotus fragmentus."
+
+msgid "welcomeScreen/description3"
+msgstr "Užbaigę duomenų blokus iš renginio misijų gausite vertingų daiktų."
+
+msgid "welcomeScreen/header1"
+msgstr "Perimkite antenas"
+
+msgid "welcomeScreen/header2"
+msgstr "Iššifruokite žinutę"
+
+msgid "welcomeScreen/header3"
+msgstr "Renginio seka ir prizai"
+
+msgid "welcomeScreen/title"
+msgstr "Juodasis signalas"

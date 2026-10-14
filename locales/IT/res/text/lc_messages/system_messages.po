@@ -1981,9 +1981,6 @@ msgstr "Errore manutenzione \"%(vehName)s\". Titoli insufficienti per l'acquisto
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Errore manutenzione \"%(vehName)s\". Oro insufficiente per comprare i consumabili. Riprova più tardi."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Operazione non disponibile. Tutto il tuo oro sarà nuovamente disponibile quando il funzionamento del Portafoglio WG verrà ripristinato automaticamente."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Errore manutenzione \"%(vehName)s\". Impossibile rifornire i consumabili. Riprova più tardi."
 
@@ -1995,9 +1992,6 @@ msgstr "Errore manutenzione \"%(vehName)s\". Crediti insufficienti per comprare 
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Errore manutenzione \"%(vehName)s\". Oro insufficiente per comprare i proiettili."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Operazione non disponibile. Tutto il tuo oro sarà nuovamente disponibile quando il funzionamento del Portafoglio WG verrà ripristinato automaticamente."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Errore manutenzione \"%(vehName)s\". Veicolo bloccato."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "Il carro %(userString)s è stato ricercato. Esperienza utilizzata: %(unspentXP)s. Esperienza tecnica utilizzata: %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Ora %(vehicle)s può accedere al sistema di ricompense Elite"
+msgstr "Ora %(vehicle)s può accedere al sistema di ricompense Elite."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Ricompense Elite"

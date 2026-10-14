@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s à l'EXP. libre et l'EXP. d'équipage pendant %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s pendant %(effectHours)s à l'expérience gagnée en bataille"
+msgstr "%(effectValue)s à l'EXP. de bataille pendant %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s bonus aux crédits gagnés en bataille pendant %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Ce véhicule est équipé d'un lance-roquettes monté dans le mantelet d
 msgid "moduleInfo/closeBtn"
 msgstr "Fermer"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Accélérateur de combat"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Équipé d'un système de chargement de barillet sur les véhicules :"
 
@@ -6162,6 +6165,12 @@ msgstr "(objet(s))"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Durée de la coïncidence du viseur électromagnétique"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Temps de rechargement"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Durée"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Temps de rechargement"

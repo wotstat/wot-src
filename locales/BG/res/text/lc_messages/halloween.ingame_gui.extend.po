@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Корозия"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Поражения от зоната"
+
+msgid "damageLog/static_death_zone"
+msgstr "Поражения от зоната"
+
+msgid "damageShieldReady"
+msgstr "Енергийният щит е готов за употреба."
+
+msgid "fastReloadReady"
+msgstr "Бързото презареждане е готово за употреба."
+
+msgid "hitMarker/useless"
+msgstr "Безполезно!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Спешният ремонт е готов за употреба."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Енергийният изстрел е готов за употреба."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Вампирският изстрел е готов за употреба."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Зашеметяващият изстрел е готов за употреба."
+
+msgid "hwHelpScreen/hint/description"
+msgstr ", за да видите правилата на режима"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Натиснете"
+
+msgid "hwInvisibilityReady"
+msgstr "Стелт лечение е готово за употреба."
+
+msgid "nitroRamDamageReady"
+msgstr "Турбокомпресорът е готов за употреба."
+
+msgid "pickupSouls"
+msgstr "Събрахте %(souls)s предмет(а) от мирий"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Не може да се използва [%(name)s]: оръдието е повредено."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Машината не е повредена."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Не може да се използва [%(name)s]: двигателят е унищожен."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Не може да се използва [%(name)s]: няма достатъчно мирий за активиране на способността."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Не може да се използва [%(name)s]: машината гори."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Не може да се използва [%(name)s]: машината се дави."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Не може да се използва [%(name)s]: машината гори."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Не може да се използва [%(name)s]: машината е прекатурена."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Оръдието е заредено."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Съюзник %(target)s е унищожен от корозия."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Съюзник %(target)s е стъпкан от %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Съюзник %(target)s е унищожен от вражеска експлозия (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Съюзник %(target)s се разби."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Съюзник %(target)s е унищожен от зоната на унищожение."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Съюзник %(target)s е унищожен от вражеска аура."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Съюзник %(target)s е унищожен от зоната на унищожение."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Съюзник %(target)s е унищожен."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Машината е унищожена от енергиен удар"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Машината е унищожена от пирокинетика"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Машината е унищожена от вампиризъм"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Машината е унищожена от експлозия"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Машината е унищожена от зоната на унищожение"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Машината е унищожена от вражеска аура"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Машината е унищожена от корозия"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Машината се разби"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Машината е унищожена от стъпкване"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Машината е унищожена. Не успяхте да стигнете до Магнус."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Машината е унищожена. Не унищожихте боса."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Машината е унищожена. \"Магнус\" не е напълнен."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Устройство [%(device)s] експлоадира при изстрел на играча"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Машината е унищожена при пожар"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Машината е унищожена от вражески изстрел"
+
+msgid "teamRepairKitReady"
+msgstr "Груповият ремонт е готов за употреба."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s активира групов ремонт."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Активиран е групов ремонт."

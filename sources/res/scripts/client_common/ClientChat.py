@@ -7,7 +7,6 @@ from debug_utils import LOG_CURRENT_EXCEPTION, LOG_ERROR, LOG_DEBUG
 from chat_shared import CHAT_RESPONSES, CHAT_ACTIONS, CHAT_COMMANDS, parseCommandMessage, ChatCommandError, isCommandMessage, buildChatActionData, ChatError, ChatCommandInCooldown, SYS_MESSAGE_TYPE
 from ids_generators import SequenceIDGenerator
 from invites import INVITE_TYPES
-from messenger import MessengerEntry
 from constants import USER_SEARCH_MODE, IS_CLIENT
 
 class ClientChat(object):
@@ -91,6 +90,7 @@ class ClientChat(object):
         return
 
     def onChatActionFailure(self, actionData):
+        from messenger import MessengerEntry
         MessengerEntry.g_instance.protos.BW.onChatActionFailure(actionData)
         return
 

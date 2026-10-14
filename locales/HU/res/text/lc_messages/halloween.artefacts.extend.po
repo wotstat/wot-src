@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Sebezhetetlenséget biztosít."
+
+msgid "damageShield/long_special"
+msgstr "Harci képesség. Energiapajzsot hoz létre a járműved körül, hogy 7 másodpercen át megvédje azt minden sérüléstől, kivéve az ütközést, a fulladást és a leesést. Ha egy csatában legalább egyszer használtad, a képesség eltűnik, és kreditért töltheted újra. Ha nem használtad fel, nem kell újratöltened.<br /><br />Csak a <font color='#cbac77'>Babilon: Sötét torony</font> esemény során érhető el.<br /><br />A következő frissítéskor minden fel nem használt képességet eltávolítunk, és az áruk 50%-ának megfelelő kreditkompenzációt adunk értük."
+
+msgid "damageShield/name"
+msgstr "Energiapajzs"
+
+msgid "damageShield/onUse"
+msgstr "Energiapajzsot hoz létre, amely 7 másodpercen át megvédi a járművedet minden sérüléstől, kivéve az ütközést, a fulladást és a leesést."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Sebezhetetlenséget biztosít."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Növeli a tűzgyorsaságot / újratölti a tárat."
+
+msgid "fastReload/long_special"
+msgstr "Harci képesség. Jelentősen felgyorsítja a ciklikus lövegek töltését egy bizonyos időre, vagy azonnal újratölti a tártöltő rendszerrel ellátott lövegeket. Ha egy csatában legalább egyszer használtad, a képesség eltűnik, és kreditért töltheted újra. Ha nem használtad fel, nem kell újratöltened.<br /><br />Csak a <font color='#cbac77'>Babilon: Sötét torony</font> esemény során érhető el.<br /><br />A következő frissítéskor minden fel nem használt képességet eltávolítunk, és az áruk 50%-ának megfelelő kreditkompenzációt adunk értük."
+
+msgid "fastReload/name"
+msgstr "Gyors újratöltés"
+
+msgid "fastReload/onUse"
+msgstr "Jelentősen felgyorsítja a ciklikus löveg újratöltését egy bizonyos időre, illetve azonnal betölti a tárat a tártöltős rendszerek esetében."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Növeli a tűzgyorsaságot / újratölti a tárat."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Visszaállítja az életerőt, eloltja a tüzet, eltávolítja a kábítást és megjavítja a sérült modulokat."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Harci képesség. Visszaállítja az életerőt, eloltja a tüzet, eltávolítja a kábítást és megjavítja a sérült modulokat. Egy csatában többször is használható. A csata után eltűnik, ha legalább egyszer használtad.<br /><br />Csak a <font color='#cbac77'>Babilon-projekt</font> esemény során érhető el.<br /><br />A fel nem használt képességeket eltávolítjuk, és a következő frissítéskor a költségük 50%-ának megfelelő kreditkompenzációt kapsz."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Vészhelyzeti javítás"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Azonnal visszaállít 400 életerőt a járműveden.\n• További 300 életerőt állít vissza a következő 30 másodpercben.\n• A visszaállítás folyamata megszakad, ha a járműved közben megsérül.\n• Eloltja a tüzet, eltávolítja a kábítást és megjavítja a sérült modulokat.\n• Csak akkor aktiválhatod, ha a járműved megsérült."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Visszaállítja az életerőt, eloltja a tüzet, eltávolítja a kábítást és megjavítja a sérült modulokat."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Felhasználás költsége a csatában, miriumban:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nA költsége miriumban: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Felhasználás költsége a csatában, miriumban:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Lead egy lövést, amely megsebzi és elkábítja a célpontot, valamint az ahhoz közeli ellenséges járműveket."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Harci képesség. Lead egy lövést, amely megsebzi és elkábítja a célpontot és minden ellenséges járművet a célpont 35 méteres sugarú körzetében. Ha egy csatában legalább egyszer használtad, a képesség eltűnik, és kreditért töltheted újra. Ha nem használtad fel, nem kell újratöltened.<br/><br/>Csak a <font color='#cbac77'>Babilon: Sötét torony</font> esemény során érhető el.<br/><br/>A következő frissítéskor minden fel nem használt képességet eltávolítunk, és az áruk 50%-ának megfelelő kreditkompenzációt adunk értük."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Energialövés"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Lead egy lövést, amely megsebzi és elkábítja a célpontot és minden ellenséges járművet a célpont 35 méteres sugarú körzetében."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Lead egy lövést, amely megsebzi és elkábítja a célpontot, valamint az ahhoz közeli ellenséges járműveket."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Lead egy lövést, amely életerőt állít vissza úgy, hogy ellopja azt a célponttól és az ahhoz közeli ellenséges járművektől."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Harci képesség. Lead egy lövést, amely életerőt állít vissza úgy, hogy ellopja azt a célponttól és a célpont 35 méteres sugarú körzetében lévő ellenséges járművektől, továbbá megjavítja a sérült modulokat és eltávolítja a kábítást. Ha egy csatában legalább egyszer használtad, a képesség eltűnik, és kreditért töltheted újra. Ha nem használtad fel, nem kell újratöltened.<br/><br/>Csak a <font color='#cbac77'>Babilon: Sötét torony</font> esemény során érhető el.<br/><br/>A következő frissítéskor minden fel nem használt képességet eltávolítunk, és az áruk 50%-ának megfelelő kreditkompenzációt adunk értük."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Vámpírlövés"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Lead egy lövést, amely életerőt állít vissza úgy, hogy ellopja azt a célponttól és a célpont 35 méteres sugarú körzetében lévő ellenséges járművektől, továbbá megjavítja a sérült modulokat és eltávolítja a kábítást."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Lead egy lövést, amely életerőt állít vissza úgy, hogy ellopja azt a célponttól és az ahhoz közeli ellenséges járművektől."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Lead egy lövést, amely elkábítja a célpontot és az ahhoz közeli ellenséges járműveket."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Harci képesség. Lead egy lövést, amely elkábítja a célpontot és minden ellenséges járművet a célpont 35 méteres sugarú körzetében. Egy csatában többször is használható. A csata után eltűnik, ha legalább egyszer használtad.<br /><br />Csak a <font color='#cbac77'>Babilon-projekt</font> esemény során érhető el.<br /><br />A következő frissítéskor minden fel nem használt képességet eltávolítunk, és az áruk 50%-ának megfelelő kreditkompenzációt adunk értük."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Kábítólövés"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Lead egy lövést, amely elkábítja a célpontot és minden ellenséges járművet a célpont 35 méteres sugarú körzetében."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Lead egy lövést, amely elkábítja a célpontot és az ahhoz közeli ellenséges járműveket."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Láthatatlanná teszi a járművedet az ellenség számára, életerőpontokat állít vissza, megjavítja a modulokat és eloltja a tüzet."
+
+msgid "hwInvisibility/long_special"
+msgstr "Harci képesség. Láthatatlanná teszi a járművedet az ellenség számára 10 másodpercig. Másodpercenként 35 életerőt állít vissza, megjavítja a modulokat, eltávolít minden negatív hatást és védelmet nyújt a korróziós sebzéssel szemben. Ha sebzést okozol vagy szenvedsz el egy ellenséges járműtől (tüzeléssel, ütközéssel vagy a harci képességek használatával), azonnal láthatóvá válsz. Az aktiválás után 3 másodpercig az ellenséges lövések nem szakíthatják meg. Ha egy csatában legalább egyszer használtad, a képesség eltűnik, és kreditért töltheted újra. Ha nem használtad fel, nem kell újratöltened.<br/><br/>Csak a <font color='#cbac77'>Babilon: Sötét torony</font> esemény során érhető el.<br/><br/>A következő frissítéskor minden fel nem használt képességet eltávolítunk, és az áruk 50%-ának megfelelő kreditkompenzációt adunk értük."
+
+msgid "hwInvisibility/name"
+msgstr "Lopakodó gyógyítás"
+
+msgid "hwInvisibility/onUse"
+msgstr "Láthatatlanná teszi a járművedet az ellenség számára 10 másodpercig. Másodpercenként 35 életerőt állít vissza, megjavítja a modulokat, eltávolít minden negatív hatást és védelmet nyújt a korróziós sebzéssel szemben. Ha sebzést okozol vagy szenvedsz el egy ellenséges járműtől (tüzeléssel, ütközéssel vagy a harci képességek használatával), azonnal láthatóvá válsz. Az aktiválás után 3 másodpercig az ellenséges lövések nem szakíthatják meg."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Elrejt az ellenségek elől, életerőt állít vissza, megjavítja a modulokat, eloltja a tüzet, megszünteti a kábítást és meggyógyítja a legénységet."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Korlátozott időre felgyorsítja a járművet,\nés növeli az ütközéssel okozott sebzést."
+
+msgid "nitroRamDamage/name"
+msgstr "Turbótöltő"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Átmenetileg megnöveli a járműved sebességét és az ütközéssel okozott sebzésedet."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Megjavítja a hatósugarában tartózkodó szövetséges járműveket, és visszaállít azoknak valamennyi életerőt."
+
+msgid "teamRepairKit/long_special"
+msgstr "Harci képesség. Azonnal megjavítja a modulokat, eloltja a tüzet, eltávolítja a kábítást, és visszaállít valamennyi életerőt a hatósugarában lévő szövetséges járműveknek. Ha egy csatában legalább egyszer használtad, a képesség eltűnik, és kreditért töltheted újra. Ha nem használtad fel, nem kell újratöltened.<br/><br />Csak a <font color='#cbac77'>Babilon: Sötét torony</font> esemény során érhető el.<br/><br/>A következő frissítéskor minden fel nem használt képességet eltávolítunk, és az áruk 50%-ának megfelelő kreditkompenzációt adunk értük."
+
+msgid "teamRepairKit/name"
+msgstr "Csoportos javítás"
+
+msgid "teamRepairKit/onUse"
+msgstr "Azonnal megjavítja a modulokat, eloltja a tüzet, eltávolítja a kábítást, és visszaállít valamennyi életerőt a hatósugarában lévő szövetséges járműveknek."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Megjavítja a hatósugarában tartózkodó szövetséges járműveket, és visszaállít azoknak valamennyi életerőt."

@@ -1,11 +1,14 @@
+from __future__ import absolute_import, division
 import math, logging, typing
 from collections import namedtuple
+from future.utils import viewitems, viewvalues
 import Event, BigWorld, Math, SimulatedVehicle, math_utils, CGF
 from GenericComponents import Sequence, StateSwitcherComponent
 import AreaDestructibles
 from avatar_components.avatar_postmortem_component import SimulatedVehicleType
 from avatar_components.CombatEquipmentManager import CombatEquipmentManager
 from battleground.kill_cam_visuals import EffectsController
+from battleground.simulation_movement_tracker import SimulationMovementTracker, SimulationMovementData
 from cgf_components.sequence_components import SequencePauseComponent, SequenceSnapshotComponent
 from cgf_components_common.vehicle_components import VehicleSequenceParamsAttachedComponent
 from constants import SHELL_TYPES, DEFAULT_GUN_INSTALLATION_INDEX
@@ -13,8 +16,8 @@ from gui.shared.gui_items.Vehicle import VEHICLE_CLASS_NAME
 from helpers import dependency
 from helpers.CallbackDelayer import CallbackPauseManager, TimeDeltaMeter
 from items.components.gun_installation_components import GunInstallationSlot
+from math_common import decimal_round
 from skeletons.map_activities import IMapActivities
-from simulation_movement_tracker import SimulationMovementTracker, SimulationMovementData
 from VehicleEffects import DamageFromShotDecoder
 from vehicle_systems.tankStructure import TankPartNames
 from vehicles.mechanics.gun_mechanics.low_charge_shot.public.mechanic_events import postLowChargeShotInitialEvent
@@ -27,8 +30,8 @@ ANIMATION_DURATION_BEFORE_SHOT = 3.0
 ANIMATION_REAL_TIME_DURATION = 1.0
 DATA_POINTS_AMOUNT = 5
 _GAMEPLAY_ENTITIES_TO_HIDE = [
- 25, 26, 27, 28, 29, 30, 
- 31, 32]
+ 28, 29, 30, 31, 32, 33, 
+ 34, 35]
 PostEffectSettings = namedtuple(b'PostEffectSettings', b'contrast, saturation, vignette')
 _logger = logging.getLogger(__name__)
 
@@ -113,7 +116,7 @@ class SimulatedScene(object):
             killerPosition = None
         playerPosition = Math.Vector3(self.__rawSimulationData.get(b'player').get(b'position'))
         self.__animatorsInProgress = len(self.__vehicleAnimators)
-        for simVehID, animator in self.__vehicleAnimators.iteritems():
+        for simVehID, animator in viewitems(self.__vehicleAnimators):
             simVehicle = BigWorld.entity(simVehID)
             if not simVehicle:
                 self.__onAnimatorFinished()
@@ -152,7 +155,7 @@ class SimulatedScene(object):
             return
         else:
             _logger.info(b'[SimulatedScene] disableScene() Disabling Kill Cam Scene')
-            for animator in self.__vehicleAnimators.itervalues():
+            for animator in viewvalues(self.__vehicleAnimators):
                 animator.onFinished -= self.__onAnimatorFinished
                 animator.destroy()
 
@@ -187,7 +190,7 @@ class SimulatedScene(object):
         else:
             timeScale = _SimulationTimeScale.REAL_TIME / ANIMATION_DURATION_BEFORE_SHOT
         BigWorld.wg_setWorldTimeScale(timeScale)
-        for animator in self.__vehicleAnimators.itervalues():
+        for animator in viewvalues(self.__vehicleAnimators):
             animator.setTimeScale(timeScale)
 
         return
@@ -209,7 +212,7 @@ class SimulatedScene(object):
 
     def pauseOrResumeAnimations(self, isPause):
         self.updateParticlesTimeScale(isPause)
-        for animator in self.__vehicleAnimators.itervalues():
+        for animator in viewvalues(self.__vehicleAnimators):
             animator.pause(isPause)
 
         return
@@ -353,7 +356,7 @@ class SimulatedScene(object):
         return
 
     def __isVehicleAnimationInProgress(self):
-        for animator in self.__vehicleAnimators.itervalues():
+        for animator in viewvalues(self.__vehicleAnimators):
             if animator.isInProcess():
                 return True
 
@@ -451,7 +454,7 @@ class SimulatedScene(object):
             return
 
         def __getDefaultSettings(self):
-            self.__defaultPostEffectSettings = PostEffectSettings(round(BigWorld.getColorContrast(), 2), BigWorld.getColorSaturation(), BigWorld.WGRenderSettings().getVignetteSettings())
+            self.__defaultPostEffectSettings = PostEffectSettings(decimal_round(BigWorld.getColorContrast(), 2), BigWorld.getColorSaturation(), BigWorld.WGRenderSettings().getVignetteSettings())
             return
 
         def enablePostEffects(self):
@@ -583,8 +586,9 @@ class SimulationAnimator(CallbackPauseManager, TimeDeltaMeter):
         self._simulatedVehicle.appearance.changeEngineMode(self._engineMode)
         if et >= d:
             self.__initSection(self.__section + 1)
-            return
-        return 0.0
+            return None
+        else:
+            return 0.0
 
     def __stopTick(self):
         self.clearCallbacks()

@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Hareket, gövde ve kule dönüşü sırasında top dağılımını {{@ class $highlightClass}}%%%(generalValue)s{{/}} azaltır."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "Hareket hâlinde ve gövde dönüşünde\ndağılıma %(value)s."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Top dağılımını\nazaltır."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Hareket hâlinde, gövde ve kule dönüşü esnasında top dağılımını azaltır."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Keskin Nişancı"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%%%(generalValue)s"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Aracınızı Kirpi ve Alfa Kirpi {{@ class $highlightClass}}patlama hasarına{{/}} karşı tamamen {{@ class $highlightClass}}dokunulmaz{{/}} hale getirir.\nAracınız yine de darbeden çarpma hasarı alır."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Aracınızı Kirpi patlama hasarına\nkarşı dokunulmaz hale getirir."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Aracınızı Kirpi patlama hasarından korur."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Aracınızı Kirpi ve Alfa Kirpi patlama hasarına karşı tamamen dokunulmaz hale getirir.\nAracınız yine de darbeden çarpma hasarı alır."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Patlama Dokunulmazlığı"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Potansiyel {{@ class $highlightClass}}±%25{{/}} hasar aralığını kaldırır, atış darbelerini daha öngörülebilir hale getirir."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Atışların ±%%25 hasar aralığı\nyoktur."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Atışların ±%25 hasar aralığı yoktur."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Potansiyel ±%25 hasar aralığını kaldırır, atış darbelerini daha öngörülebilir hale getirir."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Kontrollü Hasar"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Alınan hasarı* (isabetlerden, yangından, çarpmadan, hasar alanlarından, paslanma fazından, parça hasarından, vb.) {{@ class $highlightClass}}%%%(mitigation)s{{/}} azaltır.\n*Düşme yoluyla ve ifa evresi sırasında alınan hasara uygulanmaz."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "Alınan hasara %(value)s"
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Alınan hasarı azaltır."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Alınan hasarı* (isabetlerden, yangından, çarpmadan, hasar alanlarından, paslanma fazından, parça hasarından, vb.) azaltır.\n*Düşme yoluyla ve ifa evresi sırasında alınan hasara uygulanmaz."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Hasar Soğurma"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%%%(mitigation)s"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Düşman araçlarına ateş ederek hasar verdiğinizde {{@ class $highlightClass}}%%%(chance)s{{/}} olasılıkla aracınızın can puanının {{@ class $highlightClass}}%(heal)s{{/}} kadarını geri kazanma imkânı verir."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "Ateş ederek hasar verdiğinizde\nCP geri kazanma şansına %(value)s"
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Ateş ederek hasar verdiğinizde\ncan puanı geri kazandırabilir."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Düşman araçlarına ateş ederek hasar verdiğinizde aracınızın can puanını geri kazanma fırsatı verir."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Vampir Isırığı"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%%%(chance)s"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Aracınızın can puanını {{@ class $highlightClass}}%%%(health)s{{/}} artırır."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "Aracınızın can puanına %(value)s."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Aracınızın\ncan puanını artırır."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Araç dayanıklılığını artırır."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Dayanıklılık"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%%%(health)s"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Düşman aracına ateş ederek hasar verdiğinizde o araçta yangın çıkarma şansını {{@ class $highlightClass}}%%%(chance)s{{/}} artırır."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "Düşman aracında yangın\nçıkarma olasılığına %(value)s."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Yangın çıkarma olasılığını\nartırır."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Araca ateş ederek hasar verdiğinizde düşman aracında yangın çıkarma şansını artırır."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Sıcak İğne"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%%%(chance)s"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Düşman araçlarına verilen hasarı {{@ class $highlightClass}}%%%(damageFactor)s{{/}} artırır."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "Verilen hasara %(value)s."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Verilen hasarı\nartırır."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Verilen hasarı artırır."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Seramik Çekirdek"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%%%(damageFactor)s"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Yükleme hızını {{@ class $highlightClass}}%%%(reloadTime)s{{/}} artırır."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "Yükleme hızına %(value)s."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Yükleme hızını\nartırır."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Yükleme hızını artırır."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Makineli Tüfek"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%%%(reloadTime)s"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Yavaş yavaş aracınızın can puanını maksimum dayanıklılığa kadar geri kazandırır.\nHasar alınca etkisi kesilir."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Yavaş yavaş aracınızın\ncan puanını geri kazandırır."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Can puanı\ngeri kazandırır."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Yavaş yavaş aracınızın can puanını maksimum dayanıklılığa kadar geri kazandırır. Hasar alınca etkisi kesilir."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Yenilenme"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Savaşta aracın Mirium saklama kapasitesini {{@ class $highlightClass}}sınırsız{{/}} hale getirir."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Mirium kapasitesi sınırsız hale gelir."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Mirium kapasitesi sınırsız hale gelir."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Savaşta aracın Mirium saklama kapasitesini sınırsız hale getirir."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Dipsiz Toplayıcı"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Tüm mürettebat üyeleri için mürettebat etkinlik bonusunu {{@ class $highlightClass}}%%%(crewLevelIncrease)s{{/}} artırır."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "Mürettebat etkinlik bonusuna %(value)s."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Mürettebat etkinliğini\nartırır."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Mürettebat etkinliğini artırır."
+
+msgid "buffs/buffInspiration/header"
+msgstr "İlham"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%%%(crewLevelIncrease)s"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Düşman aracı sizin atışınızla {{@ class $highlightClass}}%%%(hpThreshold)s{{/}} CP veya daha azı ile kalırsa anında yok edilir.\nBosslar bu etkiden muaftır."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Atışınızdan sonra %(value)s CP veya daha azda\nkalan düşmanlar anında yok edilir."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Atışınızdan sonra düşük CP'de kalan düşmanlar anında yok edilir."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Düşman aracı sizin atışınızla düşük CP'de kalırsa anında yok edilir.\nBosslar bu etkiden muaftır."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Bitirici"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%%%(hpThreshold)s"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Aracın azami ileri ve geri hızını artırır."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Aracın azami ileri\nve geri hızını artırır."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Aracın azami ileri ve geri hızını artırır."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Aracın azami ileri ve geri hızını artırır."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Hızlanma"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Savaşta düşmanlara hasar vermekten alınan Mirium miktarını {{@ class $highlightClass}}%%%(miriumAmountFactor)s{{/}} artırır."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "Düşmanlardan alınan\nMirium'a %(value)s."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Düşmanlardan alınan Mirium'u artırır."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Savaşta düşmanlara hasar vererek alınan Mirium'u artırır."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Mirium Çıkarma"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%%%(miriumAmountFactor)s"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Bir aracın savaştaki azami Mirium saklama kapasitesini {{@ class $highlightClass}}%(miriumAmount)s{{/}} artırır."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "Azami Mirium kapasitesine %(value)s."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Azami Mirium kapasitesini artırır."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Bir aracın savaştaki azami Mirium saklama kapasitesini artırır."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Geniş Toplayıcı"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Araç savaşta yok edilirse yeniden doğduğunda tüm Mirium korunur."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Yeniden doğduktan sonra\ntüm Mirium korunur."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Yeniden doğduktan sonra tüm Mirium'u korur."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Yeniden doğduktan sonra tüm Mirium'u korur."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Mirium Tutucu"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Savaşta iken Savaş Yeteneklerinin Mirium maliyetini {{@ class $highlightClass}}%%%(cost)s{{/}} azaltır."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "Yeteneklerin Mirium maliyetine %(value)s."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Yeteneklerin Mirium maliyetini azaltır."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Savaşta iken Savaş Yeteneklerinin Mirium maliyetini oldukça azaltır."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Mirium Verimliliği"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%%%(cost)s"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Kullanıldığında Savaş Yeteneği Mirium maliyetinin {{@ class $highlightClass}}%%%(refundAmount)s{{/}} kadarını geri kazandırır."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "Yetenek kullanımında Mirium'un\n%(value)s kadarı geri kazanılır."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Yetenek kullanımında Mirium'u kısmen geri kazandırır."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Kullanıldığında Savaş Yeteneği Mirium maliyetini kısmen geri kazandırır."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Mirium İadesi"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%%%(refundAmount)s"
+
+msgid "buffs/buffMobility/body"
+msgstr "Motor gücünü {{@ class $highlightClass}}%%%(power)s{{/}} ve kule dönüş hızını {{@ class $highlightClass}}%%%(rotationSpeed)s{{/}} artırır."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "Motor gücüne %(value)s."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "Kule dönüş hızına %(value)s."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Motor gücünü ve\nkule dönüş hızını artırır."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Motor gücünü ve kule dönüş hızını artırır."
+
+msgid "buffs/buffMobility/header"
+msgstr "Mobilite"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%%%(power)s"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%%%(rotationSpeed)s"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Tüm araç parçalarını hasar almaz hâle getirir."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Tüm araç parçalarını her türlü hasara karşı\nhasar almaz hâle getirir."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Parçaları hasara\nkarşı korur."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Tüm araç parçalarını hasar almaz hâle getirir."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Parça Dokunulmazlığı"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Malahit'in normal anomalisi, her zaman aktiftir."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Tüm mermilerin delme gücünü {{@ class $highlightClass}}%%%(shellPen)s{{/}} artırır."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "Mermi delme gücüne %(value)s."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Tüm mermilerin delme gücünü artırır."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Tüm mermilerin delme gücünü artırır."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Delici Mermiler"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%%%(shellPen)s"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Araç savaşta yok edilirse yeniden doğduğunda tüm alternatif mermiler korunur."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Yeniden doğduktan sonra tüm\nalternatif mermiler korunur."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Yeniden doğduktan sonra tüm alternatif mermiler korunur."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Araç savaşta yok edilirse yeniden doğduğunda tüm alternatif mermiler korunur."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Mermi Koruyucu"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Her yeni fazın başında veya yeniden doğduktan sonra alınan Mirium miktarını {{@ class $highlightClass}}%(soulsBonus)s{{/}} artırır. Savaşta aracın azami Mirium saklama kapasitesini {{@ class $highlightClass}}%(miriumAmount)s{{/}} artırır."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "Yeni bir fazda veya yeniden doğduktan sonra\nalınan Mirium'a %(value)s."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "Azami Mirium kapasitesine %(value)s."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Mirium kapasitesini ve teni bir fazda veya yeniden doğduktan sonra alınan miktarı artırır."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Her yeni fazın başında veya yeniden doğduktan sonra alınan Mirium miktarını artırır. Savaşta aracın azami Mirium saklama kapasitesini artırır."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Mirium Zulası"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Turbo uzunluğunu {{@ class $highlightClass}}%%%(timeLength)s{{/}} artırır ve soğuma süresini {{@ class $highlightClass}}%(reloadTime)s sn.{{/}} kısaltır."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "Turbo uzunluğuna %(value)s."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "Turbo soğuma süresine %(value)s sn."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Turbo uzunluğunu artırır ve soğuma süresini kısaltır."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Turbo uzunluğunu artırır ve soğuma süresini kısaltır."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Turbo Geliştirici"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%%%(timeLength)s"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Atış sırasında belirli miktarda hasar verme şansı sağlar:\n• {{@ class $highlightClass}}%%%(chance1)s{{/}} olasılıkla {{@ class $highlightClass}}%%%(damage1)s{{/}} hasar verir;\n• {{@ class $highlightClass}}%%%(chance2)s{{/}} olasılıkla {{@ class $highlightClass}}%%%(damage2)s{{/}} hasar verir; \n• {{@ class $highlightClass}}%%%(chance3)s{{/}} olasılıkla {{@ class $highlightClass}}%%%(damage3)s{{/}} hasar verir; \n• {{@ class $highlightClass}}%%%(chance4)s{{/}} olasılıkla {{@ class $highlightClass}}%%%(damage4)s{{/}} hasar verir."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Atış hasarı düşükten çok yüksek\ndeğerlere kadar değişir."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Atış hasarı düşükten çok yüksek değerlere kadar değişir."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Normal yerine ya düşük ya da son derece yüksek miktarda hasar verme imkanı sağlar."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Quantum Atışlar"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%%(chance1)s"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%%(damage1)s"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%%(chance2)s"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%%(damage2)s"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%%(chance3)s"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%%(damage3)s"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%%(chance4)s"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%%(damage4)s"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Detaylar"

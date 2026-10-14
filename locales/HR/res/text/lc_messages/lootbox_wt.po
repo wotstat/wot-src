@@ -7,20 +7,20 @@ msgstr[0] "%(count) preostali modul"
 msgstr[1] "%(count) preostalih modula"
 msgstr[2] "%(count) preostalih modula"
 
-msgid "awardViews/footer/backButton/"
-msgstr "Nazad na module"
+msgid "awardViews/footer/backButton"
+msgstr "Nazad na Module"
 
 msgid "boxTooltip/description/text/wt"
 msgstr "Kada su otvoreni, ovi moduli vam mogu dati premium vozila, valute u igri i ostale vrijedne nagrade."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Moduli su sada dostupni u prodavaonici u igri."
+msgstr "Paradoksmoduli se mogu kupiti u prodavaonici u igri ili premium prodavaonici."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Modul"
+msgstr "Paradoksmodul"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "MODUL"
+msgstr "PARADOKSMODUL"
 
 msgid "common/getButton/lowerCase"
 msgstr "Uzmi module"
@@ -31,17 +31,11 @@ msgstr "UZMI MODULE"
 msgid "common/loader"
 msgstr "Otvaranje modula..."
 
-msgid "common/selectTooltip"
-msgstr "Nedovoljno modula za otvaranje pet odjednom"
-
 msgid "common/statistics/emptyHeader"
 msgstr "Otvorite module za pregled statistike."
 
 msgid "common/statistics/header"
-msgstr "Otvoreno modula:"
-
-msgid "confirmRerollLootBox/description/wt"
-msgstr "Modul će biti ponovno otvoren za priliku primitka drugačije vrijedne nagrade."
+msgstr "Otvoreno modula: %(count)"
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Sve informacije o otvorenim modulima će biti izbrisane."
@@ -50,7 +44,7 @@ msgid "entryPoint/boxes"
 msgstr "NA MODULE"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Ovo su posebni moduli koji sadrže nove i jedinstvene predmete. Mogu se dobiti u prodavaonici u igri."
+msgstr "Ovo su posebni moduli koji sadrže nove i jedinstvene predmete, uključujući premium vozila, elemente prilagodbe, valutu u igri i ostale vrijedne nagrade.\nModuli se mogu dobiti u prodavaonici u igri ili premium prodavaonici."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Moduli se trenutno ne mogu dobiti ili otvoriti iz tehničkih razloga. Ispričavamo se zbog privremenih neugodnosti."
@@ -59,10 +53,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Moduli su privremeno nedostupni"
 
 msgid "eventName/lowerCase"
-msgstr "Zajaši oluju"
+msgstr "Slomi paradoks"
 
 msgid "eventName/upperCase"
-msgstr "ZAJAŠI OLUJU"
+msgstr "SLOMI PARADOKS"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Zajamčena nagrada u sljedećem modulu!"
@@ -70,35 +64,23 @@ msgstr "Zajamčena nagrada u sljedećem modulu!"
 msgid "guaranteedTitle/text"
 msgstr "Najviše modula prije zajamčene nagrade: %(count)"
 
-msgid "infoPage/footer/description/autoOpen/wt"
+msgid "infoPage/footer/description/autoOpen"
 msgstr "Ako ne otvorite module prije kraja akcije, oni će biti automatski otvoreni."
 
-msgid "infoPage/footer/description/compensation/wt"
+msgid "infoPage/footer/description/compensation"
 msgstr "Ako već imate sva vozila sa spiska mogućeg sadržaja modula, sva slijedeća vozila koja dobijete iz modula će biti kompenzirana zlatom jednakom njihovoj vrijednosti."
 
-msgid "infoPage/footer/description/guaranteed/wt"
-msgstr "Svaki %(guaranteed)s modul jamačno sadrži vozilo. Ako ih otvorite bez primitka takvog vozila, tada će vozilo koje još nemate biti primljeno kada otvorite %(guaranteed)s. modul. Kada primite, brojač se poništava."
-
-msgid "infoPage/footer/description/reroll/wt"
-msgstr "Ako niste zadovoljni s nagradama iz modula, možete ga ponovno otvoriti za primitak različitih predmeta sa istog spiska. Svaki modul se može ponovno otvoriti ograničeni broj puta:"
-
-msgid "infoPage/footer/title/autoOpen"
-msgstr "Automatsko otvaranje"
-
-msgid "infoPage/footer/title/compensation"
-msgstr "Nadoknada"
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Svaki %(guaranteed0)s modul jamačno sadrži premium vozilo. Ako ih otvorite bez primitka takvog vozila, tada će premium vozilo koje još nemate biti primljeno kada otvorite %(guaranteed0)s. modul. Kada primite, brojač se poništava."
 
 msgid "infoPage/header/description"
 msgstr "Otvorite modul za priliku primitka vrijednih predmeta u igri! Pogledajte više detalja ispod."
 
-msgid "multipleRewardView/header/subTitle/"
-msgstr "Od %(name) (otvoreno %(boxesCount) modula)"
+msgid "multipleRewardView/header/subTitle"
+msgstr "Od %(name) (otvoreno %(boxesCount) Modula)"
 
-msgid "noBoxesView/description/"
-msgstr "Moduli su sada dostupni u prodavaonici u igri"
-
-msgid "noBoxesView/goToButton/"
-msgstr "Na dostupne module"
+msgid "noBoxesView/description"
+msgstr "Nemate nijedan modul. Možete ih uzeti\nu prodavaonici u igri ili premium prodavaonici."
 
 msgid "preview/backLabel"
 msgstr "NA MODULE"
@@ -107,9 +89,9 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Dostupno modula: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Nema više modula"
+msgstr "Nema dostupnih modula"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Ako već imate sva vozila razine sa spiska mogućeg sadržaja modula, sva slijedeća vozila koja dobijete iz modula će biti kompenzirana zlatom."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -118,8 +100,5 @@ msgstr[0] "%(remainingCount) modul"
 msgstr[1] "%(remainingCount) modula"
 msgstr[2] "%(remainingCount) modula"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Zajamčena nagrada je vozilo sa spiska mogućeg sadržaja modula.\nAko otvorite %(remainingCount) bez primitka takvog vozila, dobit ćete ga kada otvorite %(count) modul. Kada ga dobijete, brojač se poništava."
-
-msgid "tooltip/reroll/text/wt"
-msgstr "Ponovno otvaranje modula vam daje priliku primitka drugačije nagrade sa istog spiska."

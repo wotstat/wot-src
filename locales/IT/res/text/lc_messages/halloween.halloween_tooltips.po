@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Tempo di ricarica: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Costo in Mirium per utilizzarla in battaglia: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Quando attivato:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Bonus passivi in battaglia"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Completa la difficoltà Normale per sbloccare quella Difficile e accedere al sistema di Combinazioni di Anomalie."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Le Combinazioni di Anomalie non sono disponibili"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Aumentano l'efficacia in battaglia e sono conservate di Fase in Fase, anche se il tuo veicolo venisse distrutto."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Quando ricevute:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomalie"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Anomalia eco"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Anomalia raccolta"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Anomalia base"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Anomalia segreta"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Ottenibile solo dal bottino."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Non ha combinazioni."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Non viene considerata per l'ottenimento della medaglia Collezionista di Anomalie."
+
+msgid "bannerTooltip/available"
+msgstr "Evento disponibile per %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — Modalità di gioco. Clicca per scoprirla"
+
+msgid "bannerTooltip/description"
+msgstr "Una speciale modalità PvE che ti porterà nel profondo del mondo del misterioso \"Progetto Babylon\". Doma sette veicoli unici mentre combatti per distruggere le oscure forze nemiche. Ti aspettano ricompense esclusive e molto altro!"
+
+msgid "bannerTooltip/header"
+msgstr "Babylon: Torre nera"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Le prestazioni del tuo computer sono insufficienti per questa modalità. Potresti riscontrare problemi con grafica e movimento dei veicoli. Sono possibili anche crash del client di gioco."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Questa modalità richiede prestazioni del computer elevate. Potresti riscontrare problemi con caricamento delle mappe, grafica e movimento dei veicoli. In caso di prestazioni insufficienti, prova ad abbassare la qualità grafica dalle Impostazioni."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Basse prestazioni"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Possibili prestazioni ridotte"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Siete già amici."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Attesa della conferma della richiesta di amicizia."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Rimuovi giocatore dalla tua lista Ignorati."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Aggiungi alla lista Amici."
+
+msgid "battleResult/interaction/menu"
+msgstr "Clicca per aprire il menu d'interazione con questo giocatore."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Aggiungi al Plotone."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Giocatore già nel Plotone."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Invito già inviato."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Solo il Comandante del Plotone può invitare i giocatori a unirsi a un Plotone."
+
+msgid "battleResult/secretReward/header"
+msgstr "Ricompensa segreta"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Riceverai un'onorificenza speciale in base alla tua decisione al termine dell'evento."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Onorificenza per l'evento unico"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Tempo di ricarica: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Costo in Mirium: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Disponibile fino al {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Ricompense:"
+
+msgid "dailyQuests/status"
+msgstr "Nuova missione giornaliera tra {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Assegna tutti e quattro i membri dell'equipaggio dell'evento doppiati (%(crew_members_names)s) a qualsiasi veicolo nel tuo garage (uno di loro deve essere il comandante) per attivare conversazioni di squadra dinamiche durante la battaglia.\nNei veicoli con cinque o sei ruoli, i ruoli rimanenti possono essere ricoperti da qualsiasi altro membro dell'equipaggio."
+
+msgid "groupVoiceover/header"
+msgstr "Conversazioni dinamiche di squadra"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "L'obiettivo per sbloccare questo veicolo è già selezionato. Visualizza le sue condizioni nell'angolo in alto a destra dello schermo."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Obiettivo selezionato"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Seleziona un veicolo disponibile per entrare in battaglia."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Indisponibile"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Le battaglie nella difficoltà/modalità selezionata sono temporaneamente indisponibili per ragioni tecniche."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Indisponibile"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Attendi il ritorno del Plotone dalla battaglia precedente per iniziare una nuova battaglia."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Indisponibile"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Livello di difficoltà incompatibile con il Plotone."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Indisponibile"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Un equipaggio unico di quattro carristi."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Equipaggio unico al completo"
+
+msgid "keyCard/body"
+msgstr "Clicca per visualizzare i modi disponibili per ottenere la valuta dell'evento."
+
+msgid "keys/accrued"
+msgstr "Ricevute:"
+
+msgid "keys/battles"
+msgstr "• Nelle battaglie dell'evento"
+
+msgid "keys/body"
+msgstr "Una valuta unica utilizzata per avanzare nell'evento Babylon: Torre nera e ricevere articoli preziosi, tra cui la ricompensa principale dell'evento. Può essere ottenuta nelle battaglie dell'evento e acquistata in pacchetti. Distruggi veicoli nemici nelle battaglie di Babylon: Torre nera per raccogliere quanta più materia possibile e ottenere Chiavi."
+
+msgid "keys/boss"
+msgstr "• Boss sconfitto:"
+
+msgid "keys/bottom"
+msgstr "Al termine dell'evento (%(date)s), tutte le Chiavi inutilizzate saranno rimosse."
+
+msgid "keys/bundles"
+msgstr "• Acquistale in pacchetti dell'evento"
+
+msgid "keys/daily"
+msgstr "• Missione giornaliera del veicolo:"
+
+msgid "keys/effective"
+msgstr "• Efficienza in battaglia:"
+
+msgid "keys/gold"
+msgstr "• Acquista in cambio di oro"
+
+msgid "keys/header"
+msgstr "Chiavi di decodifica"
+
+msgid "keys/howToEarn"
+msgstr "Come ottenerle"
+
+msgid "keys/howToUse"
+msgstr "Come usarle"
+
+msgid "keys/howToUseDescr"
+msgstr "Utilizza le Chiavi per decodificare le Registrazioni, sbloccare nuovi obiettivi e avanzare verso la ricompensa principale dell'evento. Puoi anche spendere più Chiavi per saltare gli obiettivi e raggiungere le ricompense più rapidamente."
+
+msgid "keys/inStock"
+msgstr "disponibili"
+
+msgid "keys/secret"
+msgstr "• Ricompensa segreta:"
+
+msgid "metaWidget/body"
+msgstr "Clicca per visualizzare tutti gli obiettivi e le ricompense dell'evento."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Completa le condizioni di battaglia di questa Registrazione per decodificarla. Non può essere saltata."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Decodifica non disponibile"
+
+msgid "metaWidget/header"
+msgstr "Percorso delle ricompense"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Clicca per scegliere come finisce questa storia. La decisione collettiva della community determinerà gli eventi futuri. Controlla il portale del gioco per gli aggiornamenti."
+
+msgid "missionTooltip/bottom"
+msgstr "Decodifica tutte le Registrazioni (alcuni obiettivi possono essere saltati) per raggiungere la ricompensa principale prima che l'evento termini il %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Obiettivo %(current)s completato, ricompense ricevute"
+
+msgid "missionTooltip/count"
+msgstr "Obiettivo %(current)s di %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Decodifica"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Completa l'obiettivo per sbloccare la decodifica."
+
+msgid "missionTooltip/kingReward"
+msgstr "Ricompensa principale dell'evento"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Ricompensa principale dell'evento ricevuta"
+
+msgid "missionTooltip/received"
+msgstr "Obiettivo %(current)s completato, ma Registrazione non decodificata"
+
+msgid "missionTooltip/rewards"
+msgstr "Completa l'obiettivo per ricevere le ricompense."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Decodifica la Registrazione per ricevere ricompense."
+
+msgid "missionTooltip/skip"
+msgstr "Salta"
+
+msgid "shopWidget/body"
+msgstr "Clicca per aprire una sezione speciale della Fabbrica con esclusivi articoli dell'evento."
+
+msgid "shopWidget/header"
+msgstr "Pacchetti dell'evento"
+
+msgid "teamList/actions/body"
+msgstr "Azioni rapide per creare un Plotone e aggiungere/rimuovere amici."
+
+msgid "teamList/actions/header"
+msgstr "Azioni rapide"
+
+msgid "teamList/anomalies/header"
+msgstr "Anomalie attive"
+
+msgid "teamList/bossDamage/body"
+msgstr "Ordine solo in base ai danni inflitti durante la Fase 4 (combattimento contro il boss).\nQuesti danni non vengono conteggiati per le ricompense chiave se la squadra non riesce a sconfiggere il boss."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Questo danno non viene conteggiato ai fini delle ricompense chiave, poiché la squadra non è riuscita a sconfiggere il boss."
+
+msgid "teamList/bossDamage/header"
+msgstr "Danni causati durante il combattimento contro il boss"
+
+msgid "teamList/damage/body"
+msgstr "Ordina per danni causati nelle fasi 1-3."
+
+msgid "teamList/damage/header"
+msgstr "Danno causato"
+
+msgid "teamList/keys/body"
+msgstr "Ordina per Chiavi ottenute (il valore visualizzato non tiene conto delle Chiavi bonus ricevute per aver completato la missione giornaliera corrispondente)."
+
+msgid "teamList/keys/header"
+msgstr "Chiavi ottenute"
+
+msgid "teamList/kills/body"
+msgstr "Ordina per veicoli nemici distrutti."
+
+msgid "teamList/kills/header"
+msgstr "Veicoli nemici distrutti"
+
+msgid "teamList/name/header"
+msgstr "Nome giocatore"
+
+msgid "teamList/place/body"
+msgstr "Ordina per posizione nella squadra."
+
+msgid "teamList/place/header"
+msgstr "Posizione nella squadra"
+
+msgid "teamList/squad/header"
+msgstr "Un Plotone è un'unità tattica pensata per far cooperare i giocatori nelle battaglie."
+
+msgid "teamList/vehicle/body"
+msgstr "Ordina per tipo e nome del veicolo."
+
+msgid "teamList/vehicle/header"
+msgstr "Veicoli"
+
+msgid "teamList/warned/body"
+msgstr "Questo giocatore è stato penalizzato per inattività/diserzione e non ha ricevuto alcuna ricompensa per questa battaglia."
+
+msgid "teamList/warned/header"
+msgstr "Attenzione"
+
+msgid "teamList/warned/self/body"
+msgstr "Sei è stato penalizzato per inattività/diserzione e non hai ricevuto alcuna ricompensa per questa battaglia."
+
+msgid "teamList/warned/self/header"
+msgstr "Attenzione"
+
+msgid "vehicle/bonusTitle"
+msgstr "Guadagni"
+
+msgid "vehicle/eventBonus"
+msgstr "Sono disponibili Chiavi bonus per il completamento di una missione giornaliera con questo veicolo."
+
+msgid "vehicle/state/default/title"
+msgstr "Pronto per la battaglia"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "In battaglia"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "In unità tattica"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "In coda"
+
+msgid "vehicle/state/locked/title"
+msgstr "Bloccato"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Un caricatore a 5 proiettili ti permette di causare rapidamente grandi quantità di danni."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Caricatore"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Un sistema a 3 proiettili che riduce il tempo standard necessario per l'autoricarica dei proiettili."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Cannone ad autoricarica migliorato"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Un cannone con un sistema di tiro a fuoco continuo."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Cannone automatico"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Aumenta la probabilità di danneggiare i moduli dei veicoli nemici."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Cannone per danni critici"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Un cannone HE con un formidabile sistema di autoricarica a 2 colpi."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Cannone autoricaricatore"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Ti permette di scegliere tra il fuoco ciclico e sequenziale."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Doppia canna"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Fornisce ai moduli del tuo veicolo protezione totale dai danni critici."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Resistenza ai danni critici"

@@ -1981,9 +1981,6 @@ msgstr "Erreur lors de la maintenance « %(vehName)s ». Obligations insuffis
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Erreur lors de la maintenance « %(vehName)s ». Or insuffisant pour acheter les consommables. Réessayez plus tard."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Opération impossible. Tout votre or sera disponible après le retour automatique du fonctionnement du portefeuille unifié Wargaming."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Erreur lors de la maintenance « %(vehName)s ». Impossible de vous réapprovisionner en consommables. Réessayez plus tard."
 
@@ -1995,9 +1992,6 @@ msgstr "Erreur lors de la maintenance « %(vehName)s ». Crédits insuffisants
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Erreur lors de la maintenance « %(vehName)s ». Or insuffisant pour acheter les obus."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Opération impossible. Tout votre or sera disponible après le retour automatique du fonctionnement du portefeuille unifié Wargaming."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Erreur lors de la maintenance « %(vehName)s ». Le véhicule est verrouillé."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "%(userString)s a été recherché. Expérience dépensée : %(unspentXP)s. Expérience libre dépensée : %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Le système des récompenses d'élite est maintenant disponible pour le %(vehicle)s."
+msgstr "Le système de récompenses d'élite est maintenant disponible pour le %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Récompenses d'élite"

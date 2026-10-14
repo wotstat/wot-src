@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Reducerer kanonens spredning i bevægelse og under drejning af skrog eller tårn med {{@ class $highlightClass}}%(generalValue)s%%{{/}}."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s til spredning i bevægelse\nog ved drejning af skrog."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Reducerer\nkanonens spredning."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Reducerer kanonens spredning i bevægelse og under drejning af skrog eller tårn."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Snigskytte"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Gør dit køretøj helt {{@ class $highlightClass}}usårligt{{/}} mod Hedgehogs og Alpha Hedgehogs {{@ class $highlightClass}}eksplosionsskade{{/}}.\nKøretøjet vil stadig modtage påkørselsskade fra Hedgehogs ved sammenstød."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Gør dit køretøj usårligt\nmod Hedgehogs eksplosionsskade."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Beskytter dit køretøj mod Hedgehogs eksplosionsskade."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Gør dit køretøj helt usårligt mod Hedgehogs og Alpha Hedgehogs eksplosionsskade.\nKøretøjet vil stadig modtage påkørselsskade fra Hedgehogs ved sammenstød."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Usårlig mod eksplosioner"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Fjerner de potentielle {{@ class $highlightClass}}±25%{{/}} i skadeudfaldet, og gør effekten af skud mere forudsigelig."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Skud har ikke ±25%% udfald i\nskade."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Skud har ikke ±25% udfald i skade."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Fjerner de potentielle ±25% i skadeudfaldet, og gør effekten af skud mere forudsigelig."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Kontrolleret skade"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Reducerer modtaget skade* (herunder fra skud, brand, påkørsel, skadeområder, rustfaser, modulskade, etc.) med {{@ class $highlightClass}}%(mitigation)s%%{{/}}.\n*Gælder ikke skade fra fald og i henrettelsesfasen."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s til modtaget skade."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Reducerer modtaget skade."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Reducerer modtaget skade* (herunder fra skud, brand, påkørsel, skadeområder, rustfaser, modulskade, etc.).\n*Gælder ikke skade fra fald og i henrettelsesfasen."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Absorbering af skade"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Giver en {{@ class $highlightClass}}%(chance)s%%{{/}} chance for at gendanne {{@ class $highlightClass}}%(heal)s{{/}} af dit køretøjs hp, når du uddeler skade til fjendtlige køretøjer ved at skyde mod dem."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s til chancen for at gendanne hp\nved at uddele skade ved skud."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Kan gendanne hp\nved at uddele skade ved skud."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Giver mulighed for at gendanne dit køretøjs hp ved at uddele skade til fjendtlige køretøjer ved at skyde mod dem."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Vampyrbid"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Forøger dit køretøjs hp med {{@ class $highlightClass}}%(health)s%%{{/}}."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s til køretøjs hp."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Forøger\ndit køretøjs hp."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Forøger køretøjets holdbarhed."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Holdbarhed"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Forøger chancen for at sætte ild til et fjendtligt køretøj med {{@ class $highlightClass}}%(chance)s%%{{/}} ved at uddele skade ved skud."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s til chancen for at sætte ild til\net fjendtligt køretøj."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Forøger\nchancen for ildspåsættelse."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Forøger chancen for at sætte ild til et fjendtligt køretøj ved at uddele skade ved skud mod køretøjet."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Varm nål"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Forøger skade uddelt til fjendtlige køretøjer med {{@ class $highlightClass}}%(damageFactor)s%%{{/}}."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s til uddelt skade."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Forøger\nuddelt skade."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Forøger uddelt skade."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Keramisk kerne"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Forøger ladehastigheden med {{@ class $highlightClass}}%(reloadTime)s%%{{/}}."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s til ladehastighed."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Forøger\nladehastigheden."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Forøger ladehastighed."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Maskingevær"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Gendanner gradvist dit køretøjs hp op til maksimal holdbarhed.\nEffekten afbrydes ved modtagelse af skade."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Gendanner gradvist\ndit køretøjs hp."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Gendanner\nhp."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Gendanner gradvist dit køretøjs hp op til maksimal holdbarhed. Effekten afbrydes ved modtagelse af skade."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Regenerering"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Gør et køretøjs lagerevne af Mirium {{@ class $highlightClass}}ubegrænset{{/}} i kamp."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Gør lagerevne af Mirium ubegrænset."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Gør lagerevne af Mirium ubegrænset."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Gør et køretøjs lagerevne af Mirium ubegrænset i kamp."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Bundløs samler"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Forøger mandskabets effektivitetsbonus for alle mandskabsmedlemmer med {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s til mandskabets effektivitetsbonus."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Forøger mandskabets\neffektivitet."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Forbedrer mandskabets effektivitet."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Inspiration"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Hvis et fjendtligt køretøj står tilbage med {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} hp eller mindre, efter at være blevet ramt af dit skud, vil de straks blive ødelagt.\nBosser er immune mod denne effekt."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Fjender med %(value)s hp eller mindre efter dit\nskud, bliver straks ødelagt."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Fjender med få hp efter dit skud bliver straks ødelagt."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Hvis et fjendtligt køretøj står tilbage med få hp, efter at være blevet ramt af dit skud, vil de straks blive ødelagt.\nBosser er immune mod denne effekt."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Afslutter"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Forøger køretøjets maksimale hastighed frem og tilbage."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Forøger køretøjets maksimale\nhastighed frem og tilbage."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Forøger køretøjets maksimale hastighed frem og tilbage."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Forøger køretøjets maksimale hastighed frem og tilbage."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Sæt farten op"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Forøger mængden af Mirium modtaget ved at skade fjender i kamp med {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s til Mirium modtaget\nfra fjender."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Forøger Mirium modtaget fra fjender."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Forøger Mirium modtaget ved at skade fjender i kamp."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Miriumsudvinding"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Forøger et køretøjs maksimale lagerevne af Mirium i kamp med {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s til maksimal lagerevne af Mirium."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Forøger maksimal lagerevne af Mirium."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Forøger et køretøjs maksimale lagerevne af Mirium i kamp."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Rummelig samler"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Al Mirium beholdes ved respawn, hvis køretøjet bliver ødelagt i kamp."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Al Mirium beholdes på køretøjet\nefter respawn."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Beholder al Mirium efter respawn."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Beholder al Mirium efter respawn."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Miriumholder"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Reducerer prisen i Mirium på kampevner i brug med {{@ class $highlightClass}}%(cost)s%%{{/}}."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s til prisen i Mirium på evner."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Reducerer prisen i Mirium på evner."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Reducerer markant prisen i Mirium på kampevner i brug."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Mirium-effektivitet"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Gendanner {{@ class $highlightClass}}%(refundAmount)s%%{{/}} af en kampevnes pris i Mirium ved brug."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s af Mirium gendannet\nved evnens brug."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Gendanner delvist Mirium ved brug af evne."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Gendanner delvist prisen i Mirium på kampevner ved brug."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Mirium-retur"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Forøger motorkraft med {{@ class $highlightClass}}%(power)s%%{{/}} og tårnets drejehastighed med {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s til motorkraft."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s til tårnets drejehastighed."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Forøger motorkraft\nog drejehastighed på tårnet."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Forøger motorkraft og drejehastighed på tårnet."
+
+msgid "buffs/buffMobility/header"
+msgstr "Mobilitet"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Gør alle køretøjets moduler usårlige mod enhver type skade."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Gør alle køretøjets moduler usårlige\nmod enhver type skade."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Beskytter moduler\nfra skade."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Gør alle køretøjets moduler usårlige mod enhver type skade."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Modul usårligt"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Malachites standard-anomali, altid aktiv."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Forøger gennembrydningen på granater med {{@ class $highlightClass}}%(shellPen)s%%{{/}}."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s til granats gennembrydning."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Forøger gennembrydning af alle granater."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Forøger gennembrydning af alle granater."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Gennembrydende granater"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Alle alternative granater beholdes ved respawn, hvis køretøjet bliver ødelagt i kamp."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Alle alternative granater beholdes\nefter respawn."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Beholder alle alternative granater efter respawn."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Alle alternative granater beholdes ved respawn, hvis køretøjet bliver ødelagt i kamp."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Granat-holder"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Forøger mængden af Mirium modtaget i begyndelsen af hver ny fase, eller efter respawn, med {{@ class $highlightClass}}%(soulsBonus)s{{/}}. Forøger et køretøjs maksimale lagerevne af Mirium i kamp med {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s til Mirium modtaget i en ny fase\neller efter respawn."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s til maksimal lagerevne af Mirium."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Forøger lagerevne af Mirium og mængden, der modtages i en ny fase, eller efter respawn."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Forøger mængden af Mirium modtaget i begyndelsen af hver ny fase, eller efter respawn. Forøger et køretøjs maksimale lagerevne af Mirium i kamp."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Mirium-lager"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Forøger varigheden af Turbo med {{@ class $highlightClass}}%(timeLength)s%%{{/}} og reducerer cooldown med {{@ class $highlightClass}}%(reloadTime)s s{{/}}."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s til varighed af Turbo."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s s til cooldown på Turbo."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Forøger varighed af og reducerer cooldown på Turbo."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Forøger varighed af og reducerer cooldown på Turbo."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Turboforstærker"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Giver mulighed for at uddele en specifik mængde skade ved skud:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} til at uddele {{@ class $highlightClass}}%(damage1)s%%{{/}} skade;\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} til at uddele {{@ class $highlightClass}}%(damage2)s%%{{/}} skade;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} til at uddele {{@ class $highlightClass}}%(damage3)s%%{{/}} skade;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} til at uddele {{@ class $highlightClass}}%(damage4)s%%{{/}} skade."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Skade fra skud varierer fra lav\ntil ekstremt høj."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Skade fra skud varierer fra lav til ekstremt høj."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Giver mulighed for at uddele en enten mindre end normal mængde eller ekstremt høj mængde skade."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Kvanteskud"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Detaljer"

@@ -328,6 +328,9 @@ msgstr "A jutalom átvétele"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "A jutalmak átvétele"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "Minden teljesített normál, prémium vagy bónuszküldetés beleszámít az előrehaladásodba."
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "Elérhető"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "Teljesíts napi küldetéseket, hogy mesés jutalmakat szerezz: {progres}"
+msgstr "Újra akcióban! Teljesíts napi küldetéseket, hogy mesés jutalmakat szerezz: {{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "Ha teljesítesz három normál küldetést, elérhetővé válik egy bónuszküldetés, amely még értékesebb jutalmakat ad. A bónuszküldetéseket a nap végéig teljesítened kell, különben lejárnak."
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "Pajzsok"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "Járműkorlátozások:"
+msgstr "Teljesítsd a következővel:"
 
 msgid "tooltip/weekly_mission"
 msgstr "Heti küldetés"

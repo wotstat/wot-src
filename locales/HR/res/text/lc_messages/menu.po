@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s na slobodno i iskustvo posade na %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s za %(effectHours)s na iskustvo zarađeno u bitci"
+msgstr "%(effectValue)s na borbeno iskustvo za %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s bonus na kredite zarađene u bitci za %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Ovo vozilo je opremljeno lanserom raketa montiranim na blendu topa. Akti
 msgid "moduleInfo/closeBtn"
 msgstr "Zatvori"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Borbeni gas"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Opremljen magazinskim sustavom punjenja na vozilima:"
 
@@ -6162,6 +6165,12 @@ msgstr "(kom)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Trajanje Koincidentnog elektromehaničkog ciljnika"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Hlađenje"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Trajanje"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Hlađenje"

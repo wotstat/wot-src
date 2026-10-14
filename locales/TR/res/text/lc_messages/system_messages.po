@@ -1981,9 +1981,6 @@ msgstr "Servis hatası: \"%(vehName)s\". Sarf malzemesi satın almak için yeter
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Servis hatası \"%(vehName)s\". Sarf malzemesi satın almak için yeterli altın yok. Daha sonra tekrar deneyin."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Servis hatası \"%(vehName)s\". Sarf malzemeleri ikmal edilemiyor. Daha sonra tekrar deneyin."
 
@@ -1995,9 +1992,6 @@ msgstr "Servis hatası \"%(vehName)s\". Mermi almak için yeterli kredi yok."
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Servis hatası \"%(vehName)s\". Mermi almak için yeterli altın yok."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Servis hatası \"%(vehName)s\". Araç kilitli."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "%(userString)s araştırıldı. Harcanan dağıtılmamış deneyim: %(unspentXP)s. Harcanan serbest deneyim: %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Elit Ödül sistemi artık %(vehicle)s için açık"
+msgstr "Elit Ödül sistemi artık %(vehicle)s için açık."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Elit Ödüller"

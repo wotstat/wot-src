@@ -1,8 +1,10 @@
+from __future__ import absolute_import
 import random
 from functools import partial
 from itertools import groupby
 from logging import getLogger
-from types import NoneType
+from future.utils import viewitems
+from past.builtins import basestring
 from ClientSelectableCameraObject import ClientSelectableCameraObject
 from CurrentVehicle import g_currentVehicle
 from account_helpers import AccountSettings
@@ -44,12 +46,12 @@ REQUIRED_ITEM_FIELDS = {
 REQUIRED_COMPENSATION_FIELDS = {b'type', b'value'}
 REQUIRED_CUSTOMCREW_FIELDS = {b'extra'}
 REQUIRED_TANKMAN_FIELDS = {
- 47, 
- 48, 
  49, 
  50, 
  51, 
- 52}
+ 52, 
+ 53, 
+ 54}
 DEFAULT_STYLED_VEHICLES = (
  15697,
  6193,
@@ -136,7 +138,7 @@ def _validateItemsCustomCrewRequiredFields(items):
                 raise SoftException(b'Invalid custom crew spec')
             if b'tankmen' not in item[b'extra']:
                 raise SoftException(b'Invalid custom crew extra spec')
-            if not all([REQUIRED_TANKMAN_FIELDS.issubset(tankman) for tankman in item[b'extra'][b'tankmen']]):
+            if not all(REQUIRED_TANKMAN_FIELDS.issubset(tankman) for tankman in item[b'extra'][b'tankmen']):
                 raise SoftException(b'Invalid custom crew tankman spec')
 
     return
@@ -266,7 +268,7 @@ def _parseRent(offer):
             key = b'cycles'
             values = (int(rent[b'cycle']) for rent in rentInfo)
         else:
-            key, value = first(rentInfo).iteritems().next()
+            key, value = next(iter(viewitems(first(rentInfo))))
             values = (int(value),)
         return (key, values)
     raise SoftException(b'invalid rent collection')
@@ -307,7 +309,7 @@ def _buyPriceValidator(value, *_):
 
 
 def _validatePrice(tData, errorStr=b''):
-    for pKey, pValue in tData.iteritems():
+    for pKey, pValue in viewitems(tData):
         if pValue is not None:
             if isinstance(pValue, dict):
                 _validatePrice(pValue, (b'Field "{}". ').format(pKey))
@@ -331,7 +333,7 @@ class _VehiclePreviewSchema(W2CSchema):
 
 class _VehicleOffersPreviewSchema(W2CSchema):
     vehicle_id = Field(required=True, type=int)
-    offers = Field(required=True, type=(list, NoneType))
+    offers = Field(required=True, type=(list, type(None)))
     buy_params = Field(required=False, type=dict)
     back_url = Field(required=False, type=basestring)
 
@@ -340,7 +342,7 @@ class _VehiclePackPreviewSchema(W2CSchema):
     title = Field(required=True, type=basestring)
     end_date = Field(required=False, type=basestring)
     buy_price = Field(required=True, type=dict, validator=_buyPriceValidator)
-    items = Field(required=True, type=(list, NoneType), validator=_validateItemsPack)
+    items = Field(required=True, type=(list, type(None)), validator=_validateItemsPack)
     back_url = Field(required=False, type=basestring)
     buy_params = Field(required=False, type=dict)
     obtaining_method = Field(required=False, type=basestring, validator=_isValidObtainingMethod, default=ObtainingMethods.BUY.value)
@@ -348,7 +350,7 @@ class _VehiclePackPreviewSchema(W2CSchema):
 
 class _MarathonVehiclePackPreviewSchema(W2CSchema):
     title = Field(required=True, type=basestring)
-    items = Field(required=True, type=(list, NoneType), validator=_validateItemsPack)
+    items = Field(required=True, type=(list, type(None)), validator=_validateItemsPack)
     marathon_prefix = Field(required=True, type=basestring)
 
 
@@ -390,7 +392,7 @@ class _VehicleListStylePreviewSchema(W2CSchema):
     style_id = Field(required=True, type=int)
     vehicle_min_level = Field(required=False, type=int, default=10)
     vehicle_list = Field(required=False, type=(
-     list, NoneType), validator=(lambda value, _: _validateVehiclesCDList(value)), default=DEFAULT_STYLED_VEHICLES)
+     list, type(None)), validator=(lambda value, _: _validateVehiclesCDList(value)), default=DEFAULT_STYLED_VEHICLES)
     back_btn_descr = Field(required=True, type=basestring)
     back_url = Field(required=False, type=basestring)
     level = Field(required=False, type=int)
@@ -422,7 +424,7 @@ class _VehicleStylePreviewWithTabsSchema(W2CSchema):
     style_id = Field(required=True, type=int)
     back_btn_descr = Field(required=False, type=basestring)
     back_url = Field(required=False, type=basestring)
-    items = Field(required=True, type=(list, NoneType), validator=_validateItemsPack)
+    items = Field(required=True, type=(list, type(None)), validator=_validateItemsPack)
 
 
 class VehicleSellWebApiMixin(object):
@@ -536,7 +538,7 @@ class VehiclePreviewWebApiMixin(object):
             accDossier = self.__itemsCache.items.getAccountDossier()
             vehiclesStats = accDossier.getRandomStats().getVehicles()
             vehicleGetter = self.__itemsCache.items.getItemByCD
-            vehiclesStats = {vehicle: value for vehicle, value in vehiclesStats.iteritems() if vehicleGetter(vehicle).level >= cmd.vehicle_min_level}
+            vehiclesStats = {vehicle: value for vehicle, value in viewitems(vehiclesStats) if vehicleGetter(vehicle).level >= cmd.vehicle_min_level}
             if vehiclesStats:
                 sortedVehicles = sorted(vehiclesStats.items(), key=(lambda vStat: vStat[1].battlesCount), reverse=True)
                 styledVehicleCD = sortedVehicles[0][0]
@@ -626,7 +628,7 @@ class VehiclePreviewWebApiMixin(object):
             accDossier = self.__itemsCache.items.getAccountDossier()
             vehiclesStats = accDossier.getRandomStats().getVehicles()
             vehicleGetter = self.__itemsCache.items.getItemByCD
-            vehiclesStats = {vehicleCD: value for vehicleCD, value in vehiclesStats.iteritems() if not vehicleGetter(vehicleCD).descriptor.type.isCustomizationLocked and style.mayInstall(vehicleGetter(vehicleCD))}
+            vehiclesStats = {vehicleCD: value for vehicleCD, value in viewitems(vehiclesStats) if not vehicleGetter(vehicleCD).descriptor.type.isCustomizationLocked and style.mayInstall(vehicleGetter(vehicleCD))}
             if vehiclesStats:
                 sortedVehicles = sorted(vehiclesStats.items(), key=(lambda vStat: vStat[1].battlesCount), reverse=True)
                 styledVehicleCD = sortedVehicles[0][0] if sortedVehicles else None

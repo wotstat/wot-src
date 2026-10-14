@@ -10,10 +10,6 @@ class VoiceChatManagerMeta(BaseDAAPIComponent):
         self._printOverrideError(b'isVivox')
         return
 
-    def isYY(self):
-        self._printOverrideError(b'isYY')
-        return
-
     def isVOIPEnabled(self):
         self._printOverrideError(b'isVOIPEnabled')
         return

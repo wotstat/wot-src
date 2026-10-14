@@ -87,6 +87,11 @@
 					<destroyed>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_TXVII_3Dst/crash/lod0/Hull.model</destroyed>
 					<exploded>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_TXVII_3Dst/crash/lod0/Hull.model</exploded>
 				</GB142_FV230_Canopener_TXVII_3Dst>
+				<GB142_FV230_Canopener_HW26_3Dst>
+					<undamaged>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/normal/lod0/Hull.model</undamaged>
+					<destroyed>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/crash/lod0/Hull.model</destroyed>
+					<exploded>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/crash/lod0/Hull.model</exploded>
+				</GB142_FV230_Canopener_HW26_3Dst>
 			</sets>
 		</models>
 		<swinging>
@@ -762,6 +767,50 @@
 				<clipAngle>1.3046</clipAngle>
 			</slot>
 			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15060</slotId>
+				<position>0.270334005 1.19275606 2.91038895</position>
+				<rotation>0.676075 -0.000004 3.14159</rotation>
+				<scale>0.572288 0.3 0.572288</scale>
+				<tags>formfactor_square</tags>
+				<compatibleModels>GB142_FV230_Canopener_HW26_3Dst</compatibleModels>
+				<showOn>16</showOn>
+				<clipAngle>1.3046</clipAngle>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15061</slotId>
+				<position>1.45938 1.41225 2.8972</position>
+				<rotation>0.043518 -0.000001 3.14159</rotation>
+				<scale>0.561352015 0.281581014 0.561353028</scale>
+				<tags>formfactor_square</tags>
+				<compatibleModels>GB142_FV230_Canopener_HW26_3Dst</compatibleModels>
+				<showOn>16</showOn>
+				<clipAngle>1.3046</clipAngle>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15062</slotId>
+				<position>-2.07567 0.882884 -2.07559</position>
+				<rotation>1.56903601 -0.00305299996 -1.57225597</rotation>
+				<scale>0.649093986 0.162797004 0.649093986</scale>
+				<tags>formfactor_square</tags>
+				<compatibleModels>GB142_FV230_Canopener_HW26_3Dst</compatibleModels>
+				<showOn>16</showOn>
+				<clipAngle>1.3046</clipAngle>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15063</slotId>
+				<position>2.076 0.882884 -2.07559</position>
+				<rotation>1.56903601 0.00310799992 1.572299</rotation>
+				<scale>0.649093986 0.162797004 0.649093986</scale>
+				<tags>formfactor_square</tags>
+				<compatibleModels>GB142_FV230_Canopener_HW26_3Dst</compatibleModels>
+				<showOn>16</showOn>
+				<clipAngle>1.3046</clipAngle>
+			</slot>
+			<slot>
 				<slotType>attachment</slotType>
 				<slotId>18000</slotId>
 				<position>-2.0332129 -0.0235939994 -1.599859</position>
@@ -843,6 +892,11 @@
 						<destroyed>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_TXVII_3Dst/crash/lod0/Chassis.model</destroyed>
 						<exploded>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_TXVII_3Dst/crash/lod0/Chassis.model</exploded>
 					</GB142_FV230_Canopener_TXVII_3Dst>
+					<GB142_FV230_Canopener_HW26_3Dst>
+						<undamaged>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/normal/lod0/Chassis.model</undamaged>
+						<destroyed>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/crash/lod0/Chassis.model</destroyed>
+						<exploded>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/crash/lod0/Chassis.model</exploded>
+					</GB142_FV230_Canopener_HW26_3Dst>
 				</sets>
 			</models>
 			<traces>
@@ -911,6 +965,15 @@
 								<boxCollider>0.300000012 0 0 0 1 0 0 0 8.22256565 -2.11879396 0.954171002 -0.420785993</boxCollider>
 							</hullCollider>
 							<hullCollider>
+								<modelsSet>GB142_FV230_Canopener_HW26_3Dst</modelsSet>
+								<boxCollider>2.08512306 -0 0 -0 1.62100005 0 -0 -0 9.14999962 0 1.25857103 -0.123999998</boxCollider>
+								<boxCollider>4.02763224 0 -0 0 0.56912601 0 0 -0 8.29199982 0 1.602494 -0.63499999</boxCollider>
+								<boxCollider>4.04099989 -9.99999997e-07 0 0 0.238212004 0.182358995 -0 -0.372853994 0.487051994 -0 1.31260896 3.55550599</boxCollider>
+								<boxCollider>4.05800009 -0 -9.99999997e-07 -0 0.213744 -0.210507005 0 0.583893001 0.592872024 0 1.37494898 -4.30082178</boxCollider>
+								<boxCollider>0.44600001 0 0 0 1 0 0 0 8.22256565 -2.21199989 0.954171002 -0.420785993</boxCollider>
+								<boxCollider>4.25199986 0 -0 0 0.542918026 -0 0 0 1.01199996 0 0.545718014 4.23199987</boxCollider>
+							</hullCollider>
+							<hullCollider>
 								<modelsSet>GB142_FV230_Canopener_TXVII_3Dst</modelsSet>
 								<boxCollider>2.08512306 0 0 0 1.49269402 0 0 0 7.8661871 0 1.25857103 -0.610700011</boxCollider>
 								<boxCollider>4.02763224 0 0 0 0.56912601 0 0 0 7.62705278 0 1.602494 -0.354481995</boxCollider>
@@ -971,6 +1034,15 @@
 								<boxCollider>4.02762985 9.99999997e-07 -9.99999997e-07 -0 0.238212004 0.182358995 0 -0.372853994 0.487051994 0 1.31260896 3.55550599</boxCollider>
 								<boxCollider>4.02762985 -0 9.99999997e-07 0 0.213744 -0.210507005 -0 0.583893001 0.592872024 -0 1.37494898 -4.30082178</boxCollider>
 								<boxCollider>0.300000012 0 0 0 1 0 0 0 8.22256565 2.11879396 0.954171002 -0.420785993</boxCollider>
+							</hullCollider>
+							<hullCollider>
+								<modelsSet>GB142_FV230_Canopener_HW26_3Dst</modelsSet>
+								<boxCollider>2.08511996 -0 0 -0 1.62100005 0 -0 -0 9.14999962 0 1.25856996 -0.123999998</boxCollider>
+								<boxCollider>4.02762985 0 -0 0 0.56912601 0 0 -0 8.29199982 0 1.60248995 -0.63499999</boxCollider>
+								<boxCollider>4.04099989 -9.99999997e-07 0 0 0.238212004 0.182358995 -0 -0.372853994 0.487051994 -0 1.31261003 3.55551004</boxCollider>
+								<boxCollider>4.05800009 -0 -9.99999997e-07 -0 0.213744 -0.210507005 0 0.583893001 0.592872024 0 1.37495005 -4.30081987</boxCollider>
+								<boxCollider>0.44600001 -0 -0 0 1 0 0 0 8.22257042 2.21199989 0.954171002 -0.420785993</boxCollider>
+								<boxCollider>4.25199986 0 -0 0 0.542918026 -0 0 0 1.01199996 0 0.545718014 4.23199987</boxCollider>
 							</hullCollider>
 							<hullCollider>
 								<modelsSet>GB142_FV230_Canopener_TXVII_3Dst</modelsSet>
@@ -1165,6 +1237,12 @@
 						<UTiles>1</UTiles>
 						<VTiles>1</VTiles>
 					</atlas>
+					<modelSets>
+						<GB142_FV230_Canopener_HW26_3Dst>
+							<segmentModelLeft>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/track/segment.model</segmentModelLeft>
+							<segmentModelRight>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/track/segment.model</segmentModelRight>
+						</GB142_FV230_Canopener_HW26_3Dst>
+					</modelSets>
 				</trackPair>
 				<lodDist>SPLINE_TRACK</lodDist>
 			</splineDesc>
@@ -1179,6 +1257,11 @@
 						<model>vehicles/british/GB142_FV230_Canopener/track/segment.model</model>
 						<length>0.151896</length>
 					</mainSegment>
+					<modelSets>
+						<GB142_FV230_Canopener_HW26_3Dst>
+							<mainSegmentModel>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/track/segment.model</mainSegmentModel>
+						</GB142_FV230_Canopener_HW26_3Dst>
+					</modelSets>
 					<springsLength>
 						<backwardMovement>
 							<back>0.151341006</back>
@@ -1328,6 +1411,11 @@
 						<model>vehicles/british/GB142_FV230_Canopener/track/segment.model</model>
 						<length>0.151883006</length>
 					</mainSegment>
+					<modelSets>
+						<GB142_FV230_Canopener_HW26_3Dst>
+							<mainSegmentModel>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/track/segment.model</mainSegmentModel>
+						</GB142_FV230_Canopener_HW26_3Dst>
+					</modelSets>
 					<springsLength>
 						<backwardMovement>
 							<back>0.151341006</back>
@@ -1735,6 +1823,26 @@
 							<compatibleModels>GB142_FV230_Canopener_TXVII_3Dst</compatibleModels>
 							<size>0.52</size>
 						</slot>
+						<slot>
+							<slotType>insigniaOnGun</slotType>
+							<slotId>49004</slotId>
+							<rayStart>-0.22 -0.003 2.48</rayStart>
+							<rayEnd>-0.22 -0.003 3</rayEnd>
+							<rayUp>0.15 0 0</rayUp>
+							<compatibleModels>GB142_FV230_Canopener_HW26_3Dst</compatibleModels>
+							<size>0.52</size>
+							<applyToFabric>false</applyToFabric>
+						</slot>
+						<slot>
+							<slotType>insigniaOnGun</slotType>
+							<slotId>49005</slotId>
+							<rayStart>0.22 -0.003 2.48</rayStart>
+							<rayEnd>0.22 -0.003 3</rayEnd>
+							<rayUp>0.15 0 0</rayUp>
+							<compatibleModels>GB142_FV230_Canopener_HW26_3Dst</compatibleModels>
+							<size>0.52</size>
+							<applyToFabric>false</applyToFabric>
+						</slot>
 					</customizationSlots>
 					<customization>
 						<customizableVehicleAreas>
@@ -1752,6 +1860,11 @@
 								<destroyed>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_TXVII_3Dst/crash/lod0/Gun_01.model</destroyed>
 								<exploded>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_TXVII_3Dst/crash/lod0/Gun_01.model</exploded>
 							</GB142_FV230_Canopener_TXVII_3Dst>
+							<GB142_FV230_Canopener_HW26_3Dst>
+								<undamaged>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/normal/lod0/Gun_01.model</undamaged>
+								<destroyed>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/crash/lod0/Gun_01.model</destroyed>
+								<exploded>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/crash/lod0/Gun_01.model</exploded>
+							</GB142_FV230_Canopener_HW26_3Dst>
 						</sets>
 					</models>
 					<hitTester>
@@ -1775,6 +1888,11 @@
 						<destroyed>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_TXVII_3Dst/crash/lod0/Turret_01.model</destroyed>
 						<exploded>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_TXVII_3Dst/crash/lod0/Turret_01.model</exploded>
 					</GB142_FV230_Canopener_TXVII_3Dst>
+					<GB142_FV230_Canopener_HW26_3Dst>
+						<undamaged>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/normal/lod0/Turret_01.model</undamaged>
+						<destroyed>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/crash/lod0/Turret_01.model</destroyed>
+						<exploded>vehicles/british/GB142_FV230_Canopener/_skins/GB142_FV230_Canopener_HW26_3Dst/crash/lod0/Turret_01.model</exploded>
+					</GB142_FV230_Canopener_HW26_3Dst>
 				</sets>
 			</models>
 			<hitTester>
@@ -2163,6 +2281,42 @@
 					<scale>0.532387972 0.0987709984 0.532392025</scale>
 					<showOn>256</showOn>
 					<clipAngle>0.620845973</clipAngle>
+					<anchorShift>0.03</anchorShift>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35030</slotId>
+					<position>-0.353455 2.77373 0.59854</position>
+					<rotation>0 0 3.1413</rotation>
+					<scale>0.384197 0.071278 0.3842</scale>
+					<tags>formfactor_square</tags>
+					<compatibleModels>GB142_FV230_Canopener_HW26_3Dst</compatibleModels>
+					<showOn>256</showOn>
+					<clipAngle>0.620846987</clipAngle>
+					<anchorShift>0.03</anchorShift>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35031</slotId>
+					<tags>formfactor_square</tags>
+					<compatibleModels>GB142_FV230_Canopener_HW26_3Dst</compatibleModels>
+					<position>-1.25509501 2.28585291 0.551280975</position>
+					<rotation>1.27246201 -1.57254303 3.14159107</rotation>
+					<scale>0.414414 0.21466 0.414416</scale>
+					<showOn>256</showOn>
+					<clipAngle>0.620846987</clipAngle>
+					<anchorShift>0.03</anchorShift>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35032</slotId>
+					<tags>formfactor_square</tags>
+					<compatibleModels>GB142_FV230_Canopener_HW26_3Dst</compatibleModels>
+					<position>1.255 2.28585 0.551281</position>
+					<rotation>1.27251899 1.572541 3.14159298</rotation>
+					<scale>0.414413989 0.214659005 0.414415985</scale>
+					<showOn>256</showOn>
+					<clipAngle>0.620846987</clipAngle>
 					<anchorShift>0.03</anchorShift>
 				</slot>
 				<slot>

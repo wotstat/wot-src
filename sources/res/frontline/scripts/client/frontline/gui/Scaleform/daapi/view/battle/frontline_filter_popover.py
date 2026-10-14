@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from frontline.gui.Scaleform.daapi.view.meta.FrontlineCarouselFilterPopoverMeta import FrontlineCarouselFilterPopoverMeta
 from gui.filters.carousel_filter import FILTER_KEYS
 from gui.Scaleform.daapi.view.common.common_constants import FILTER_POPOVER_SECTION
@@ -14,14 +15,14 @@ class FrontlineBattleTankCarouselFilterPopover(FrontlineCarouselFilterPopoverMet
         dataVO[b'specialSectionVisible'] = True
         dataVO[b'searchSectionVisible'] = True
         dataVO[b'progressionsSectionVisible'] = False
-        vehicleLevels = self._carousel.getCustomParams().get(b'vehicleLevelsFilter', list())
+        vehicleLevels = self._carousel.getCustomParams().get(b'vehicleLevelsFilter', [])
         if self._carousel is not None and not len(vehicleLevels) > 1:
             dataVO[b'tankTierSectionVisible'] = False
         return dataVO
 
     def _generateMapping(self, hasRented, hasEvent, hasRoles, hasCustomization, **kwargs):
         mapping = super(FrontlineBattleTankCarouselFilterPopover, self)._generateMapping(hasRented, hasEvent, hasRoles, hasCustomization, **kwargs)
-        vehicleLevels = kwargs.get(b'vehicleLevelsFilter', list())
+        vehicleLevels = kwargs.get(b'vehicleLevelsFilter', [])
         if len(vehicleLevels) > 1:
             mapping[FILTER_POPOVER_SECTION.LEVELS] = [(b'level_{}').format(lvl) for lvl in vehicleLevels]
         else:

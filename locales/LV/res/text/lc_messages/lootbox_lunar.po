@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Atpakaļ pie dārgumiem"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "Katrs %(guaranteed0)s Liesmojošais dārgums garantēti satur VIII–IX 
 msgid "infoPage/header/description"
 msgstr "Atver Liesmojošos dārgumus, lai iegūtu vērtīgus spēles priekšmetus!"
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "No atvērtiem %(name)%(boxesCount) Liesmojošajiem dārgumiem"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Tev nav neviena Liesmojošā dārguma.\nTos vari iegūt Spēles veikalā."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Pieejamie dārgumi: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Nav pieejamu dārgumu"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Ja tev jau pieder visi tanki no Liesmojošā dārguma iespējamo saturu saraksta, visi nākamie tanki tiks kompensēti zeltā."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) Liesmojošais dārgums"
 msgstr[1] "%(remainingCount) Liesmojošie dārgumi"
 msgstr[2] "%(remainingCount) Liesmojošie dārgumi"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Garantētā balva ir tanks no iespējamā Liesmojoša dārguma satura saraksta.\nJa jūs atverat %(remainingCount), neiegūstot šādu tanku, tas tiks piešķirts, kad atvērsiet%(count) Liesmojošas dārgumus. Kad tas notiks, skaitītājs tiks atiestatīts."

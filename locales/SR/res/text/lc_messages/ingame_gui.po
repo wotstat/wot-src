@@ -97,31 +97,31 @@ msgstr "Pažnja na sektor <Sektor na Mini mapi>!"
 msgid "chat_example/attention_to_position"
 msgstr "Pažnja na lokaciju!"
 
-msgid "chat_example/global_msg/atk/focus_hq"
+msgid "chat_example/global_msg_atk_focus_hq"
 msgstr "Uništi ciljeve"
 
-msgid "chat_example/global_msg/atk/save_tanks"
+msgid "chat_example/global_msg_atk_save_tanks"
 msgstr "Sačuvaj svoje tenkove!"
 
-msgid "chat_example/global_msg/atk/time"
+msgid "chat_example/global_msg_atk_time"
 msgstr "Zauzmi zonu"
 
-msgid "chat_example/global_msg/def/focus_hq"
+msgid "chat_example/global_msg_def_focus_hq"
 msgstr "Brani ciljeve"
 
-msgid "chat_example/global_msg/def/save_tanks"
+msgid "chat_example/global_msg_def_save_tanks"
 msgstr "Sačuvaj svoje tenkove!"
 
-msgid "chat_example/global_msg/def/time"
+msgid "chat_example/global_msg_def_time"
 msgstr "Brani zone"
 
-msgid "chat_example/global_msg/lane/center"
+msgid "chat_example/global_msg_lane_center"
 msgstr "Zona pojačanja"
 
-msgid "chat_example/global_msg/lane/east"
+msgid "chat_example/global_msg_lane_east"
 msgstr "Zona pojačanja"
 
-msgid "chat_example/global_msg/lane/west"
+msgid "chat_example/global_msg_lane_west"
 msgstr "Zona pojačanja"
 
 msgid "chat_example/going_there"
@@ -232,31 +232,31 @@ msgstr "Braniću bazu!"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "Branim bazu %(strArg1)s!"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "Uništi ciljeve!"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
 msgstr "Imamo dovoljno vremena, sačuvaj svoje tenkove!"
 
-msgid "chat_shortcuts/global_msg/atk/time"
+msgid "chat_shortcuts/global_msg_atk_time"
 msgstr "Vreme ističe, zauzmite zonu sa svim što imate!"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "Brani ciljeve!"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
 msgstr "Moramo da izdržimo, sačuvaj svoje tenkove!"
 
-msgid "chat_shortcuts/global_msg/def/time"
+msgid "chat_shortcuts/global_msg_def_time"
 msgstr "Vreme ističe, brani zone po svaku cenu!"
 
-msgid "chat_shortcuts/global_msg/lane/center"
+msgid "chat_shortcuts/global_msg_lane_center"
 msgstr "Zona %(strArg1)s traži pomoć, pojačaj je!"
 
-msgid "chat_shortcuts/global_msg/lane/east"
+msgid "chat_shortcuts/global_msg_lane_east"
 msgstr "Zona %(strArg1)s traži pomoć, pojačaj je!"
 
-msgid "chat_shortcuts/global_msg/lane/west"
+msgid "chat_shortcuts/global_msg_lane_west"
 msgstr "Zona %(strArg1)s traži pomoć, pojačaj je!"
 
 msgid "chat_shortcuts/going_there"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "Pritisni"
 
 msgid "devMaps/mapInfo/info"
-msgstr "Moguće je da se slučajni događaji dogode na ovoj mapi. Ovakve mape se mogu isključiti u podešavanjima igre."
+msgstr "Moguće je da se slučajni događaji dogode na ovoj mapi."
 
 msgid "devMaps/mapInfo/text"
 msgstr "Mapa sa slučajnim događajima"

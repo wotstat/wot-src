@@ -889,6 +889,15 @@ msgstr "• Megszerezhető a 2019-es Nagy verseny során."
 msgid "Fest19Racer_descr"
 msgstr "Szerezd meg a személyes fejlődési vonalon az első jutalmat."
 
+msgid "FortRushMedal_2026"
+msgstr "Az elfogó"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "Minden Rugóskés-ügynök megkapja, aki teljesítette a Fekete jel 2026 esemény előrehaladásának összes szakaszát. A tökéletesen végrehajtott küldetés jelképe: elfogták a jelet, és még egy nyugodt éjszakát nyertek a világnak."
+
+msgid "FortRushMedal_2026_descr"
+msgstr "Teljesítsd a Fekete jel 2026 esemény előrehaladását!"
+
 msgid "HE17A1"
 msgstr "A fenevad jele"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "Mirny-13 felderítője"
 
 msgid "hw2019Medal1_condition"
-msgstr "• Azon játékosok jutalma, akik teljesítik a szükséges feltételeket a különleges játékesemény során."
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2020-as esemény során."
 
 msgid "hw2019Medal1_descr"
 msgstr "Teljesítsd az összes fázist egycsillagos nehézségi fokozaton a hadművelet során Mirny-13-ban."
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "Mirny-13 veteránja"
 
 msgid "hw2019Medal2_condition"
-msgstr "• Azon játékosok jutalma, akik teljesítik a szükséges feltételeket a különleges játékesemény során."
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2020-as esemény során."
 
 msgid "hw2019Medal2_descr"
 msgstr "Teljesítsd az összes fázist kétcsillagos nehézségi fokozaton a hadművelet során Mirny-13-ban."
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "Mirny-13 hőse"
 
 msgid "hw2019Medal3_condition"
-msgstr "• Azon játékosok jutalma, akik teljesítik a szükséges feltételeket a különleges játékesemény során."
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2020-as esemény során."
 
 msgid "hw2019Medal3_descr"
 msgstr "Teljesítsd az összes fázist háromcsillagos nehézségi fokozaton a hadművelet során Mirny-13-ban."
 
 msgid "hw2019Medal_condition"
-msgstr "• Azon játékosok jutalma, akik teljesítik a szükséges feltételeket a különleges játékesemény során."
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2020-as esemény során."
 
 msgid "hw2019Medal_descr"
 msgstr "Szerezd meg az összes stílust a hadművelet során Mirny-13-ban."
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "Szelídítsd meg a bestiát"
 
 msgid "hw2021Medal1_condition"
-msgstr "• Azon játékosok jutalma, akik teljesítik a szükséges feltételeket a különleges játékesemény során."
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2021-es esemény során."
 
 msgid "hw2021Medal1_descr"
 msgstr "Teljesíts minden szakaszt közepes nehézségen a Mirny: Remény esemény során."
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "A kiválasztott"
 
 msgid "hw2021Medal2_condition"
-msgstr "• Azon játékosok jutalma, akik teljesítik a szükséges feltételeket a különleges játékesemény során."
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2021-es esemény során."
 
 msgid "hw2021Medal2_descr"
 msgstr "Teljesíts minden szakaszt magas nehézségen a Mirny: Remény esemény során."
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "Hátborzongató kaland"
 
 msgid "hw2022Medal01_condition"
-msgstr "Azon játékosok jutalma, akik teljesítik a speciális feltételeket az esemény során."
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2022-es esemény során."
 
 msgid "hw2022Medal01_descr"
 msgstr "Teljesítsd az összes harci képességet tartalmazó küldetést a Tökfesztivál esemény során."
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "Kaszás"
 
 msgid "hw2022Medal02_condition"
-msgstr "Azon játékosok jutalma, akik teljesítik a speciális feltételeket az esemény során."
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2022-es esemény során."
 
 msgid "hw2022Medal02_descr"
 msgstr "Szerezz 65 000 Halloween-pontot a Tökfesztivál esemény során."
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "A visszatérő"
 
 msgid "hw2023Medal_condition"
-msgstr "A 2023-as Mirny: Reménytelenség során volt megszerezhető."
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2023-as esemény során."
 
 msgid "hw2023Medal_descr"
 msgstr "Fejts meg minden tekercset a Mirny: Reménytelenség esemény során."
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "A Babilon kutatója"
 
 msgid "hw2024Medal_condition"
-msgstr "A 2024-es Babilon-projekt során szerezhető meg."
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2024-es esemény során."
 
 msgid "hw2024Medal_descr"
 msgstr "Dekódold az összes feljegyzést a Babilon-projekt esemény során!"
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "Tiltott tudás"
 
 msgid "hw2025Medal_condition"
-msgstr "Azok a játékosok kapják, akik teljesítették a feltételeket az esemény során."
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2025-ös esemény során."
 
 msgid "hw2025Medal_descr"
 msgstr "Dekódold az összes feljegyzést a Babilon: Tiltott zóna esemény során."
+
+msgid "hw2026Medal_1"
+msgstr "Senkit sem hagyunk hátra"
+
+msgid "hw2026Medal_1_condition"
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2026-os esemény során."
+
+msgid "hw2026Medal_1_descr"
+msgstr "Dekódold az összes feljegyzést a Babilon: Sötét torony eseményen. Nem hagytad hátra Alexet!"
+
+msgid "hw2026Medal_2"
+msgstr "Az ő otthona a mirium"
+
+msgid "hw2026Medal_2_condition"
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2026-os esemény során."
+
+msgid "hw2026Medal_2_descr"
+msgstr "Dekódold az összes feljegyzést a Babilon: Sötét torony eseményen. Hagytad, hogy Alex bemenjen a miriumba!"
+
+msgid "hw2026Medal_3"
+msgstr "Anomáliagyűjtő"
+
+msgid "hw2026Medal_3_condition"
+msgstr "Azon játékosok jutalma, akik teljesítették a feltételeket a 2026-os esemény során."
+
+msgid "hw2026Medal_3_descr"
+msgstr "Gyűjtsd össze az összes anomáliát a Babilon: Sötét torony esemény során."
 
 msgid "impenetrable"
 msgstr "Golyóálló"

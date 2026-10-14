@@ -283,6 +283,9 @@ msgstr "LTG förbättrad"
 msgid "Chassis_R132_VNII_100LT"
 msgstr "T-100 LT (Artikel 64992)"
 
+msgid "Chassis_R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
+
 msgid "Chassis_R133_KV_122"
 msgstr "KV-122"
 
@@ -550,8 +553,14 @@ msgstr "SU-100I"
 msgid "Chassis_R228_KR_1"
 msgstr "KR-1"
 
+msgid "Chassis_R228_KR_1_7x7"
+msgstr "KR-1"
+
 msgid "Chassis_R230_Object_432U"
 msgstr "Objekt 432U"
+
+msgid "Chassis_R230_Object_432U_7x7"
+msgstr "Objekt 432U"
 
 msgid "Chassis_R231_Buryan"
 msgstr "Buryan"
@@ -564,6 +573,9 @@ msgstr "KB-52"
 
 msgid "Chassis_R236_Object_265_II"
 msgstr "Objekt 265-II"
+
+msgid "Chassis_R236_Object_265_II_CFE_A"
+msgstr "Eklips"
 
 msgid "Chassis_R239_Object_Veles"
 msgstr "Veles"
@@ -898,6 +910,9 @@ msgstr "GMC 6046I"
 msgid "GTD_3T"
 msgstr "GTD-3T"
 
+msgid "GTD_3T_7x7"
+msgstr "GTD-3T"
+
 msgid "GTD_700P"
 msgstr "GTD-700P"
 
@@ -976,9 +991,6 @@ msgstr "Varjag"
 msgid "KV-13_descr"
 msgstr "KV-13 (Objekt 233) var en experimentell sovjetisk medeltung stridsvagn som utvecklades av den speciella designbyrån vid Kirovfrabriken i Tjeljabinsk i början av 1941 och fram till slutet av 1942. Vagnen skulle vara en universalstridsvagn som kunde ersätta både de medeltunga T-34- och de tunga KV-vagnarna. Den första prototypen byggdes under våren 1942. Tester visade dock att vagnen hade problem med hållbarhet i vissa moduler och den behövde bättre pansar och ett nytt torn som kunde hålla tre besättningsmedlemmar. Dessa problem kunde dock lösas och konstruktionen av två nya prototyper med alla förbättringar påbörjades i december 1942. Projektet senare avslutades till förmån för en modernisering av T-34 och de två prototyperna användes som bas för utvecklingen av den nya IS-serien och fick benämningen IS-1 när massproduktionen påbörjades 1943."
 
-msgid "KV-2"
-msgstr "KV-2"
-
 msgid "KV-220"
 msgstr "KV-220-2"
 
@@ -1025,6 +1037,9 @@ msgid "KV_1"
 msgstr "KV-1"
 
 msgid "KV_2"
+msgstr "KV-2"
+
+msgid "KV_2_A"
 msgstr "KV-2"
 
 msgid "KV_descr"
@@ -1663,6 +1678,9 @@ msgstr "R-123M"
 msgid "R123U"
 msgstr "R-123U"
 
+msgid "R123_FR"
+msgstr "R-123"
+
 msgid "R123_K"
 msgstr "R-123K"
 
@@ -1809,6 +1827,15 @@ msgstr "LTG"
 
 msgid "R132_VNII_100LT"
 msgstr "T-100 LT"
+
+msgid "R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
+
+msgid "R132_VNII_100LT_FR_descr"
+msgstr "Ett projekt för att designa en lätt stridsvagn bestyckad med kanonen från en T-100. Utvecklingen var ett samarbete mellan Forskningsinstitut Nr. 100 och GSKB-47 (Statens speciella designbyrå) i mitten av 1960-talet. Vagnen hade relativt kraftigt pansar som skulle stå emot\n90-mm granater (i fronten) från alla avstånd."
+
+msgid "R132_VNII_100LT_FR_short"
+msgstr "T-100 LT BS"
 
 msgid "R132_VNII_100LT_descr"
 msgstr "Ett projekt för att designa en lätt stridsvagn bestyckad med kanonen från en T-100. Utvecklingen var ett samarbete mellan Forskningsinstitut Nr. 100 och GSKB-47 (Statens speciella designbyrå) i mitten av 1960-talet. Vagnen hade relativt kraftigt pansar som skulle stå emot 90-mm granater (i fronten) från alla avstånd."
@@ -2794,6 +2821,18 @@ msgstr "Utmärkt genomslagsförmåga, bra skadeverkan"
 msgid "R228_KR_1"
 msgstr "KR-1"
 
+msgid "R228_KR_1_7x7"
+msgstr "KR-1 7x7"
+
+msgid "R228_KR_1_7x7_descr"
+msgstr "Ett projekt för en tung stridsvagn från 1960-talet, utvecklad med extrema krav för strid i NBC-miljö. Designen utnyttjade många lovande inhemska tekniska lösningar."
+
+msgid "R228_KR_1_7x7_long_special"
+msgstr "KR-1 är en klassisk tung genombrottsvagn efter den sovjetiska skolan med utmärkt manöverförmåga och pålitligt pansar som låter den ta avgörande ställningar och leverera blixtanfall mot intet ont anande fiender. Den är speciellt effektiv i närstrid med sin kraftiga 136 mm kanon som krossar alla i sin väg."
+
+msgid "R228_KR_1_7x7_short"
+msgstr "KR-1 7x7"
+
 msgid "R228_KR_1_descr"
 msgstr "Ett projekt för en tung stridsvagn från 1960-talet, utvecklad med extrema krav för strid i NBC-miljö. Designen utnyttjade många lovande inhemska tekniska lösningar."
 
@@ -2805,6 +2844,18 @@ msgstr "KR-1"
 
 msgid "R230_Object_432U"
 msgstr "Objekt 432U"
+
+msgid "R230_Object_432U_7x7"
+msgstr "Objekt 432U 7x7"
+
+msgid "R230_Object_432U_7x7_descr"
+msgstr "Ett projekt för en förstärkt stridsvagn som skulle överträffa alla tänkbara motståndare i fråga om eldkraft och skydd. Designteamet planerade en högtryckskanon som kunde utnyttja avancerad ammunition med bättre effekt än samtida alternativ. Den skulle även ha en dekompressionskammare för att kunna använda vanlig ammunition. Vagnen hade dessutom extra torn- och skrovpansar samt RSV-skärmar. Utvecklingen blev dock för dyr och lades ned under det preliminära designstadiet."
+
+msgid "R230_Object_432U_7x7_long_special"
+msgstr "Objekt 432U är en medeltung stridsvagn med ordentlig eldkraft som passar bäst längst fram i fronten. Med pålitligt pansar och en kraftigt kanon kan den möta tunga stridsvagnar med tillförsikt, men den är även rörlig nog att snabbt nå avgörande positioner vid behov. Dess eldkraft kan dessutom förstärkas för förödande verkan."
+
+msgid "R230_Object_432U_7x7_short"
+msgstr "Obj. 432U 7x7"
 
 msgid "R230_Object_432U_descr"
 msgstr "Ett projekt för en förstärkt stridsvagn som skulle överträffa alla tänkbara motståndare i fråga om eldkraft och skydd. Designteamet planerade en högtryckskanon som kunde utnyttja avancerad ammunition med bättre effekt än samtida alternativ. Den skulle även ha en dekompressionskammare för att kunna använda vanlig ammunition. Vagnen hade dessutom extra torn- och skrovpansar samt RSV-skärmar. Utvecklingen blev dock för dyr och lades ned under det preliminära designstadiet."
@@ -2877,6 +2928,21 @@ msgstr "Pålitligt torn- och skrovpansar, automatladdare"
 
 msgid "R236_Object_265_II"
 msgstr "Objekt 265-II"
+
+msgid "R236_Object_265_II_CFE_A"
+msgstr "Eklips"
+
+msgid "R236_Object_265_II_CFE_A_descr"
+msgstr "Vagnen med kodnamnet Eklips påträffades inne i anomalin, i en fas nära ruinerna av det så kallade Mörka tornet. Exemplaret skickades till forskningscentret Babylon för en grundlig undersökning.\n\nVagnen är utrustad med en experimentell bredbandig signalstörningsenhet som drivs av ultratät mirium. Enligt våra uppgifter utvecklades anordningen av expeditionens ingenjörer för att slå ut Mörka tornets försvarssystem. Att döma av spåren som hittades på platsen deltog stridsvagnen i det sista slaget vid tornet för att neutralisera den enorma mekaniska spindeln, varefter den övergavs. Stridsvagnens besättning evakuerades troligen ombord på Marduk, som sedan fortsatte expeditionen djupt in i anomalin.\n\nEklips design bedömdes vara exceptionellt framgångsrik: hållbar och mycket motståndskraftig mot livsfarliga förhållanden. Efter att undersökningen slutförts rekommenderade militärkommissionen att vagnen skulle återföras i aktiv tjänst."
+
+msgid "R236_Object_265_II_CFE_A_long_special"
+msgstr "Eklips är en tung stridsvagn, klass IX. Vagnen kombinerar alltigenom kraftigt pansar med dubbla 122 mm kanoner. Det kraftiga pansaret låter den hålla ställningar, vilket förstärks av ett aktermonterat torn som förenklar sidskrapning. Dubbelpjäsen har enorm skadepotential, speciellt vid salveld."
+
+msgid "R236_Object_265_II_CFE_A_short"
+msgstr "Eklips"
+
+msgid "R236_Object_265_II_CFE_A_short_special"
+msgstr "Dubbelpjäs, pålitligt skrov- och tornpansar"
 
 msgid "R236_Object_265_II_descr"
 msgstr "En variant av Objekt 265 med dubbelpjäs som utvecklades under sent 1950-tal. Dess okonventionella lösningar (ett nytt kontrollsystem och förarplats i tornet) gjorde det svårt att hitta intressenter. Projektet lades därför ned till förmån för vidareutveckling av T-10 (Objekt 730)."
@@ -3247,7 +3313,13 @@ msgstr "R-123B"
 msgid "R_123C"
 msgstr "R-123C"
 
+msgid "R_123C_7x7"
+msgstr "R-123C"
+
 msgid "R_123KR"
+msgstr "R-123KR"
+
+msgid "R_123KR_7x7"
 msgstr "R-123KR"
 
 msgid "R_123V"
@@ -3508,9 +3580,6 @@ msgstr "T-80"
 msgid "T80_descr"
 msgstr "Utvecklad under sommaren och hösten 1942 på konstruktionsbyrån vid Automobilfabriken i Gorky (GAZ) under överinseende av N A Astrov. Vagnen togs i tjänst i december 1942. Totalt 85 exemplar tillverkades."
 
-msgid "TD-30"
-msgstr "M-50D"
-
 msgid "TD_12"
 msgstr "TD-12"
 
@@ -3519,6 +3588,9 @@ msgstr "TD-12"
 
 msgid "TD_30"
 msgstr "TD-30"
+
+msgid "TD_30_A"
+msgstr "M-50D"
 
 msgid "T_50_2"
 msgstr "T-50-2"
@@ -3705,6 +3777,9 @@ msgstr "LTG"
 
 msgid "Turret_1_R132_VNII_100LT"
 msgstr "T-100 LT (Artikel 64992)"
+
+msgid "Turret_1_R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
 
 msgid "Turret_1_R133_KV_122"
 msgstr "KV-122"
@@ -3937,8 +4012,14 @@ msgstr "SU-100I"
 msgid "Turret_1_R228_KR_1"
 msgstr "KR-1"
 
+msgid "Turret_1_R228_KR_1_7x7"
+msgstr "KR-1"
+
 msgid "Turret_1_R230_Object_432U"
 msgstr "Objekt 432U"
+
+msgid "Turret_1_R230_Object_432U_7x7"
+msgstr "Objekt 432U"
 
 msgid "Turret_1_R231_Buryan"
 msgstr "Buryan"
@@ -3954,6 +4035,9 @@ msgstr "KB-52"
 
 msgid "Turret_1_R236_Object_265_II"
 msgstr "Objekt 265-II"
+
+msgid "Turret_1_R236_Object_265_II_CFE_A"
+msgstr "Eklips"
 
 msgid "Turret_1_R239_Object_Veles"
 msgstr "Veles"
@@ -4258,6 +4342,9 @@ msgstr "IS-7"
 msgid "UTD_20"
 msgstr "UTD-20"
 
+msgid "UTD_20_FR"
+msgstr "UTD-20"
+
 msgid "UTD_45A"
 msgstr "UTD-45A"
 
@@ -4266,9 +4353,6 @@ msgstr "UTD-50M1 Barnaulskiy"
 
 msgid "V-11"
 msgstr "V-11"
-
-msgid "V-11-IS-3"
-msgstr "V-11-IS-3"
 
 msgid "V-11-IS-3_S"
 msgstr "V-11-IS-3A"
@@ -4296,9 +4380,6 @@ msgstr "V-12 A"
 
 msgid "V-12V"
 msgstr "V-12 V"
-
-msgid "V-14"
-msgstr "V-14"
 
 msgid "V-16FN"
 msgstr "V-16FN"
@@ -4350,9 +4431,6 @@ msgstr "V-2-10 forcerad"
 
 msgid "V-2IS_R_CN"
 msgstr "V-2-10 C"
-
-msgid "V-2K"
-msgstr "V-2K"
 
 msgid "V-2KT"
 msgstr "V-2SN"
@@ -4408,6 +4486,9 @@ msgstr "V-11 (704)"
 msgid "V_11_IS_3"
 msgstr "V-11 (IS-3)"
 
+msgid "V_11_IS_3_A"
+msgstr "V-11-IS-3"
+
 msgid "V_11_Kirovets_1"
 msgstr "V-11-Kirovets-1"
 
@@ -4439,6 +4520,9 @@ msgid "V_12_5B"
 msgstr "V-12-5B"
 
 msgid "V_12_5C"
+msgstr "V-12-5C"
+
+msgid "V_12_5C_CFE_A"
 msgstr "V-12-5C"
 
 msgid "V_12_5F"
@@ -4477,6 +4561,9 @@ msgstr "V-14"
 msgid "V_14UM"
 msgstr "V-14M"
 
+msgid "V_14_A"
+msgstr "V-14"
+
 msgid "V_16"
 msgstr "V-16"
 
@@ -4499,6 +4586,9 @@ msgid "V_2IS_SU"
 msgstr "V-2IS (SU)"
 
 msgid "V_2K"
+msgstr "V-2K"
+
+msgid "V_2K1"
 msgstr "V-2K"
 
 msgid "V_2K_KV_1"
@@ -4759,13 +4849,22 @@ msgstr "3UOF (LM)"
 msgid "_100mm_3VBB"
 msgstr "3VBB"
 
+msgid "_100mm_3VBB_FR"
+msgstr "3VBB"
+
 msgid "_100mm_3VBM"
 msgstr "3VBM"
 
 msgid "_100mm_3VBM2_SH"
 msgstr "3VBM-2"
 
+msgid "_100mm_3VBM_FR"
+msgstr "3VBM"
+
 msgid "_100mm_3VOF"
+msgstr "3VOF"
+
+msgid "_100mm_3VOF_FR"
 msgstr "3VOF"
 
 msgid "_100mm_BR-412A"
@@ -4880,6 +4979,9 @@ msgid "_100mm_S_34D_IS_2_II"
 msgstr "100 mm S-34D (IS-2-II)"
 
 msgid "_100mm_T_100"
+msgstr "100 mm T-100"
+
+msgid "_100mm_T_100_FR"
 msgstr "100 mm T-100"
 
 msgid "_100mm_T_12A"
@@ -5311,14 +5413,14 @@ msgstr "10RK-DV"
 msgid "_10RK_W"
 msgstr "10RK"
 
-msgid "_10RT-26E"
-msgstr "10RT-26"
-
 msgid "_10RT-26M"
 msgstr "10RT-26M"
 
 msgid "_10RT_26E"
 msgstr "10RT-26E"
+
+msgid "_10RT_26E1"
+msgstr "10RT-26"
 
 msgid "_12.7mm_AP_B32"
 msgstr "B-32"
@@ -5482,6 +5584,9 @@ msgstr "122 mm BL-13"
 msgid "_122mm_BL_13D_dualgun"
 msgstr "122 mm BL-13D-SD"
 
+msgid "_122mm_BL_13D_dualgun_CFE_A"
+msgstr "122 mm BL-13D-SD"
+
 msgid "_122mm_BL_13_1_257"
 msgstr "122 mm BL-13-1 (257)"
 
@@ -5533,6 +5638,9 @@ msgstr "BP-460A (KV-1S)"
 msgid "_122mm_BP_471BMM"
 msgstr "BP 471BMM"
 
+msgid "_122mm_BP_471BMM_CFE_A"
+msgstr "BP 471BMM"
+
 msgid "_122mm_BP_471D"
 msgstr "BP-471D"
 
@@ -5543,6 +5651,9 @@ msgid "_122mm_BR-471D_P"
 msgstr "BR-471DP"
 
 msgid "_122mm_BR_471BMM"
+msgstr "BR 471BMM"
+
+msgid "_122mm_BR_471BMM_CFE_A"
 msgstr "BR 471BMM"
 
 msgid "_122mm_BR_471DS_SU"
@@ -5729,6 +5840,9 @@ msgid "_122mm_OF_462"
 msgstr "OF-462"
 
 msgid "_122mm_OF_471BMM"
+msgstr "OF 471BMM"
+
+msgid "_122mm_OF_471BMM_CFE_A"
 msgstr "OF 471BMM"
 
 msgid "_122mm_S34_II"
@@ -5992,13 +6106,25 @@ msgstr "122 mm Howitzer mod. 1910/1930"
 msgid "_125mm_3BK7_61"
 msgstr "3BK7-61"
 
+msgid "_125mm_3BK7_61_7x7"
+msgstr "3BK7-61"
+
 msgid "_125mm_3BM9_61"
+msgstr "3BM9-61"
+
+msgid "_125mm_3BM9_61_7x7"
 msgstr "3BM9-61"
 
 msgid "_125mm_3OF22_61"
 msgstr "3OF22-61"
 
+msgid "_125mm_3OF22_61_7x7"
+msgstr "3OF22-61"
+
 msgid "_125mm_D_181"
+msgstr "125 mm D-181"
+
+msgid "_125mm_D_181_7x7"
 msgstr "125 mm D-181"
 
 msgid "_12LL"
@@ -6008,6 +6134,9 @@ msgid "_12RT"
 msgstr "12RT"
 
 msgid "_12RT_B"
+msgstr "12RT-B"
+
+msgid "_12RT_B_CFE_A"
 msgstr "12RT-B"
 
 msgid "_12RT_Roz"
@@ -6211,13 +6340,25 @@ msgstr "ZBK60M"
 msgid "_136mm_BK_79"
 msgstr "BK-79"
 
+msgid "_136mm_BK_79_7x7"
+msgstr "BK-79"
+
 msgid "_136mm_BR_79"
+msgstr "BR-79"
+
+msgid "_136mm_BR_79_7x7"
 msgstr "BR-79"
 
 msgid "_136mm_D_79"
 msgstr "136 mm D-79"
 
+msgid "_136mm_D_79_7x7"
+msgstr "136 mm D-79"
+
 msgid "_136mm_OF_79"
+msgstr "OF-79"
+
+msgid "_136mm_OF_79_7x7"
 msgstr "OF-79"
 
 msgid "_140mm_BR_482A"
@@ -6844,9 +6985,6 @@ msgstr "UBR-243SP (T-70)"
 msgid "_45mm_UOF-240A"
 msgstr "UOF-240A"
 
-msgid "_45mm_UOF-243"
-msgstr "UOF-243"
-
 msgid "_45mm_UOF-243U"
 msgstr "UOF-243U"
 
@@ -6869,6 +7007,9 @@ msgid "_45mm_UOF_240A_T_70"
 msgstr "UOF-240A (T-70)"
 
 msgid "_45mm_UOF_243"
+msgstr "UOF-243"
+
+msgid "_45mm_UOF_243_A"
 msgstr "UOF-243"
 
 msgid "_45mm_UOF_243_A_20"
@@ -7039,6 +7180,9 @@ msgstr "5TDF-SM"
 msgid "_5TD_2"
 msgstr "5TD-2"
 
+msgid "_5TD_2_7x7"
+msgstr "5TD-2"
+
 msgid "_6TD"
 msgstr "6TD"
 
@@ -7087,10 +7231,10 @@ msgstr "BP-354IT"
 msgid "_76mm_BP_350A_T_28"
 msgstr "BP-350A (T-28)"
 
-msgid "_76mm_BR-350A"
+msgid "_76mm_BR_350A"
 msgstr "BR-350A"
 
-msgid "_76mm_BR_350A"
+msgid "_76mm_BR_350A1"
 msgstr "BR-350A"
 
 msgid "_76mm_BR_350A_1"
@@ -7102,13 +7246,13 @@ msgstr "BR-350A"
 msgid "_76mm_BR_350_P_T"
 msgstr "BP-354 T"
 
-msgid "_76mm_F-32"
-msgstr "76 mm F-32"
-
 msgid "_76mm_F-34S_A"
 msgstr "76 mm S-1"
 
 msgid "_76mm_F_32"
+msgstr "76 mm F-32"
+
+msgid "_76mm_F_32_A"
 msgstr "76 mm F-32"
 
 msgid "_76mm_F_34"

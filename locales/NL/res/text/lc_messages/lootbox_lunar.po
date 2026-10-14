@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Terug naar Schatten"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "Elke %(guaranteed0)s Vlammende Schatten bevatten gegarandeerd een niveau
 msgid "infoPage/header/description"
 msgstr "Open Vlammende Schatten om kans te maken op waardevolle in-game items! Kijk hieronder voor meer informatie."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Uit de %(name) (%(boxesCount) Vlammende Schatten geopend)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Je hebt geen Vlammende Schatten.\nJe kunt ze in de in-game winkel kopen."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Schatten beschikbaar: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Geen Schatten beschikbaar"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Als je alle voertuigen uit de lijst met mogelijke inhoud van de Vlammende Schatten al hebt, dan zul je in plaats van alle voertuigen die daarna in Vlammende Schatten zitten goud ontvangen."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) Vlammende Schat"
 msgstr[1] "%(remainingCount) Vlammende Schatten"
 msgstr[2] "%(remainingCount) Vlammende Schatten"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "De gegarandeerde beloning is een voertuig uit de lijst met mogelijke inhoud van de Vlammende Schat.\nAls je er %(remainingCount) opent zonder een dergelijk voertuig te ontvangen, dan zal de %(count)e Vlammende Schat het voertuig bevatten. Als dat gebeurt, wordt de teller gereset."

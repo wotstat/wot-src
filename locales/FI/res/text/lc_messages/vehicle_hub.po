@@ -10,6 +10,9 @@ msgstr "Antaa mahdollisuuden ampua lippaasta sarjan laukauksia yksi kerrallaan j
 msgid "abilities/common/description/autoShootGun"
 msgstr "Ampuu lyhyessä ajassa hurjaa vahinkoa tekeviä sarjoja läpäisyn ja tarkkuuden kustannuksella. Tehokkaimmillaan lähitaistelussa."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Aktivoi kaasu saadaksesi väliaikaisesti lisätehoa moottorille, vauhtiin ja ohjattavuuteen samalla, kun tykki säilyy luotettavasti käsiteltävänä. Tämä mahdollistaa ketterän, dynaamisen pelaamisen taistelutehokkuutta vaarantamatta."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Ampuu tähtiammuksia, jotka aiheuttavat maksimivahingon 50 m kantamalla. Ammuksen vahinko pienenee etäisyyden kasvaessa, mikä tekee niistä tehokkaimpia lähitaistelussa."
 
@@ -61,6 +64,9 @@ msgstr "Paranneltu automaattilataaja"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Konetykki"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Taistelukaasu"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Syvärihlattu tykki"
 
@@ -102,6 +108,15 @@ msgstr "Turbomoodi"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Yhteislaukaus"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Tehostaa liikettä haittaamatta tykin käsiteltävyyttä."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Järjestelmä mahdollistaa jatkuvan ampumisen lataamatta ja hallitsee tykin lämmöntuottoa ammuttaessa."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Tykissä on erikoislaitteita, jotka mahdollistavat ammusten joidenkin ominaisuuksien muokkaamisen ennen ampumista."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Keräät tarkkuustasojasi pysymällä paikallasi tai liikkumalla hitaasti parantaaksesi seuraavan laukauksesi tarkkuutta.\nKorkeimmalla tarkkuustasolla tykkisi on kelpo käsiteltävä pienennetyllä hajonnalla jopa liikkeessä tai runkoa/tornia käännettäessä."
@@ -355,6 +370,15 @@ msgstr "Mahdollistaa molempien tykkien yhtä aikaa ampumisen latausajan kustannu
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Erikoismekaniikka, joka lisää moottoritehoa, kiihtyvyyttä ja huippunopeutta lyhyeksi ajaksi."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Aktivoi kaasu saadaksesi väliaikaisesti lisätehoa moottorille, vauhtiin ja ohjattavuuteen samalla, kun tykki säilyy luotettavasti käsiteltävänä. Tämä mahdollistaa ketterän, dynaamisen pelaamisen taistelutehokkuutta vaarantamatta."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Tykki voi ampua jatkuvasti ilman tarvetta ladata. Jokainen laukaus tuottaa lämpöä: mitä korkeampi tykin lämpötila, sitä enemmän sen ominaisuudet muuttuvat. Jatkuvat tulitus saa tykin ylikuumenemaan, mikä estää sitä ampumasta, kunnes se on taas jäähtynyt."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Vaunun tykissä on erikoislaitteita, jotka mahdollistavat ammusten joidenkin parametrien muokkaamisen ennen alkamista."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Paikallaan tai tietyn nopeuden alapuolella pysyminen mahdollistaa vaunullesi sen analogisen ballistisen laskentalaitteen kalibroinnin ja tarkkuustasojen kerryttämisen, mikä parantaa seuraavan laukauksesi tarkkuutta. Tarkkuustasojen kertyminen keskeytyy, mikäli ylität nopeusrajan, aina siihen asti, että hidastat uudelleen. Suurimmalla tarkkuustasolla vaunusi saavuttaa kelpo tykin vakauden pienennetyllä hajonnalla liikkeen tai rungon/tornin kääntämisen takia. Vaikutus poistetaan ammuttaessa."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Tämä mekaaninen apuväline tehostaa merkittävästi lyhyeksi aikaa vaunun kiihtyvyyttä, moottoritehoa ja huippunopeutta eteen- ja taaksepäin. Näin voit reagoida nopeasti vihollisen hyökkäyksiin tai yllättää vihollisesi näyttävillä liikkeillä. Suuren liikenopeuden ylläpitäminen nopeuttaa mekaniikan jäähtymistä."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Kaikki näytetyt arvot ovat suurimpia mahdollisia vaunulle. Varusteet, direktiivit ja kulutustarvikkeet voivat muuttaa näitä arvoja, mutta nämä muutokset eivät näy täällä."
+msgstr "Kaikki näytetyt arvot ovat parhaita mahdollisia vaunulle. Varusteet, direktiivit ja kulutustarvikkeet voivat muuttaa näitä arvoja, mutta nämä muutokset eivät näy täällä."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "kalibroitava panssarikranaatti"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "krediittejä jokaisesta taistelusta"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "miehistön siirto mistä hyvänsä vaunuluokasta ilman rangaistusta"
+msgstr "miehistön siirto mistä hyvänsä vaunutyypistä ilman rangaistusta"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "taistelu- ja miehistökokemusta"

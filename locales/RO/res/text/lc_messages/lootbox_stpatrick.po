@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Înapoi la cufere"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "La fiecare %(guaranteed0)s cufere, ai garanția apariției unui vehicul 
 msgid "infoPage/header/description"
 msgstr "Deschide cufărul pentru șansa de a obține articole valoroase în joc! Află mai multe detalii mai jos."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "De la %(name) (%(boxesCount) cufere deschise)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Nu deții cufere.\nLe poți cumpăra din Magazinul din joc."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Cufere disponibile: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Nu există cufere disponibile"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Dacă deții deja toate vehiculele din lista conținutului posibil al cuferelor, toate vehiculele ulterioare obținute vor fi compensate cu aur."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) cufăr"
 msgstr[1] "%(remainingCount) cufere"
 msgstr[2] "%(remainingCount) cufere"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Recompensa garantată constă într-un vehicul din lista de conținut posibil.\nDacă deschizi %(remainingCount) fără ca dintr-una să apară un astfel de vehicul, acesta va apărea la deschiderea celui de-al %(count) cufăr. Apoi, contorul va fi resetat."

@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Borbena veština"
+
+msgid "make_choice/server_error"
+msgstr "Operacija je trenutno nedostupna. Pokušaj ponovo kasnije."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "REGRUT"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Regrutovana"
+
+msgid "notification/crew_reward/title"
+msgstr "Primljena nagrada"
+
+msgid "open_artefact/server_error"
+msgstr "Operacija je trenutno nedostupna. Pokušaj ponovo kasnije."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Primljeni ključevi za dešifrovanje: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Račun"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Uklonjeno ključeva za dešifrovanje: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Dešifrovanje"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Neuspešna dopuna borbenih veština za %s. Tehnička greška."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Neuspešna dopuna borbenih veština za %s. Nedovoljno fondova."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Borbene sposobnosti za %s su uspešno dopunjene. Potrošio si"
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Ključvei za dešifrovanje primljeni"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Dostupne ploče za dešifrovanje"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Režim Vavilon: Mračni toranj"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Vavilon: Mračni toranj (normalno)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Vavilon: Mračni toranj (teško)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Vavilon: Mračni toranj (noćna mora)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Bos je pobeđen"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Težina"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normalna"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Teško"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Noćna mora"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Završene faze: %(curPhase)s od %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Cilj je završen!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Ciljevi su završeni!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vozila"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Potrošeno %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finansijska transakcija"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Možeš da odabereš nivo težine u garaži Vavilon: Mračni toranj."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Težina \"teško\" je otključana"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Možeš da odabereš nivo težine u garaži Vavilon: Mračni toranj."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Težina noćna mora je otključana"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "%(vehicle)s je sada dostupno za borbe u Vavilon: Mračni toranj."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Borbe u Vavilon: Mračni toranj su trenutno nedostupne.\nPokušaj ponovo kasnije."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Borbe u Vavilon: Mračni toranj (%(difficulty)s) su trenutno nedostupne.\nPokušaj ponovo kasnije."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Vavilon: Mračni toranj je trenutno nedostupan. Proveri portal igre za vesti."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Komandir voda je promenio težinu na: %(level)s"
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Igrač %(userName)s nije otključao jedan od nivoa težine."

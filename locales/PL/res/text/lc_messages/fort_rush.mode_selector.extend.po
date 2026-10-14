@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "mode/fort_rush_battle/condition"
+msgstr "7 na 7 %(parSecondary_open)sI%(parSecondary_close)s Poziom&nbsp;X"
+
+msgid "mode/fort_rush_battle/description"
+msgstr "Przejmij kontrolę nad antenami. Utrzymaj sieć. Zabezpiecz transmisję."
+
+msgid "mode/fort_rush_battle/performance/highRisk/description"
+msgstr "Wydajność Twojego komputera nie jest wystarczająca do tego trybu. Możesz zaobserwować problemy z grafiką i ruchem pojazdu. Możliwe są również krytyczne błędy klienta."
+
+msgid "mode/fort_rush_battle/performance/highRisk/header"
+msgstr "Niska wydajność"
+
+msgid "mode/fort_rush_battle/performance/highRisk/headerIcon"
+msgstr "%(icon) Niska wydajność"
+
+msgid "mode/fort_rush_battle/performance/mediumRisk/description"
+msgstr "Ten tryb wymaga wysokiej wydajności komputera. Zaobserwujesz problemy z wczytywaniem mapy, grafiką i ruchem pojazdu. W przypadku niewystarczającej wydajności spróbuj obniżyć jakość grafiki w ustawieniach."
+
+msgid "mode/fort_rush_battle/performance/mediumRisk/header"
+msgstr "Zmniejszona wydajność"
+
+msgid "mode/fort_rush_battle/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Zmniejszona wydajność"

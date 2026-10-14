@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Czas przygotowania: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Koszt w Mirium, aby użyć w bitwie: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Podczas użytkowania:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Pasywne wzmocnienia w bitwie"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Ukończ Normalny poziom, aby odblokować Trudny poziom i uzyskać dostęp do systemu kombinacji anomalii."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Kombinacje anomalii są niedostępne"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Zwiększ skuteczność w walce i zachowaj w kolejnych fazach, nawet jeśli Twój pojazd zostanie zniszczony."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Po otrzymaniu:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomalie"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Anomalia echa"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Podnieś anomalię"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Podstawowa anomalia"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Tajna anomalia"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Można zdobyć wyłącznie jako łup."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Nie ma kombinacji."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Nie wlicza się do zdobycia medalu Kolekcjoner anomalii."
+
+msgid "bannerTooltip/available"
+msgstr "Wydarzenie będzie dostępne przez: %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) – tryb gry. Kliknij, aby dowiedzieć się więcej"
+
+msgid "bannerTooltip/description"
+msgstr "Specjalny tryb PvE, który zabierze Cię głęboko w świat tajemniczego „Projektu Babilon”. Oswój siedem unikalnych pojazdów, niszcząc mroczne siły przeciwnika. Czekają ekskluzywne nagrody i wiele więcej!"
+
+msgid "bannerTooltip/header"
+msgstr "Babilon: Mroczna Wieża"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Wydajność Twojego komputera nie wystarcza do tego trybu. Możesz zaobserwować problemy z grafiką i ruchem pojazdu. Możliwe są również krytyczne błędy klienta."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Ten tryb wymaga wysokiej wydajności komputera. Zaobserwujesz problemy z wczytywaniem mapy, grafiką i ruchem pojazdu. W przypadku niewystarczającej wydajności spróbuj obniżyć jakość grafiki w ustawieniach."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Niska wydajność"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Możliwe obniżenie wydajności"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Już jesteście znajomymi."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Oczekiwanie na odpowiedź na prośbę o dołączenie do znajomych."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Usuń gracza z listy ignorowanych."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Dodaj do listy znajomych."
+
+msgid "battleResult/interaction/menu"
+msgstr "Kliknij, aby otworzyć menu interakcji z tym graczem."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Dodaj do plutonu."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Gracz już jest w plutonie."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Już wysłano zaproszenie."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Tylko dowódca plutonu może zapraszać graczy do dołączenia do plutonu."
+
+msgid "battleResult/secretReward/header"
+msgstr "Tajemnicza nagroda"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Po zakończeniu wydarzenia otrzymasz specjalną nagrodę zależną od Twojej decyzji."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Unikalna nagroda wydarzenia"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Czas przygotowania: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Koszt w Mirium: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Dostępne do {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Nagrody:"
+
+msgid "dailyQuests/status"
+msgstr "Nowa misja dzienna za {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Przypisz wszystkich czworo członków załogi z podkładem głosowym (%(crew_members_names)s) do dowolnego pojazdu w garażu (jeden z nich musi być dowódcą), aby aktywować dynamiczne rozmowy drużyny podczas bitwy.\nW pojazdach z pięcioma lub sześcioma rolami pozostałe role mogą być obsadzone przez dowolnych członków załogi."
+
+msgid "groupVoiceover/header"
+msgstr "Dynamiczne rozmowy drużyny"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Cel odblokowania tego pojazdu jest już wybrany. Zobacz jego warunki w prawym górnym rogu ekranu."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Wybrano cel"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Wybierz dostępny pojazd, aby wejść do bitwy."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Niedostępne"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Bitwy wybranego poziomu trudności/trybu są tymczasowo niedostępne z powodów technicznych."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Niedostępne"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Aby wejść do nowej bitwy, poczekaj, aż pluton powróci z poprzedniej bitwy."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Niedostępne"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Niekompatybilny poziom trudności dla plutonu."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Niedostępne"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Unikalna załoga czterech czołgistów."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Pełna unikalna załoga"
+
+msgid "keyCard/body"
+msgstr "Kliknij, aby wyświetlić dostępne sposoby zdobycia waluty wydarzenia."
+
+msgid "keys/accrued"
+msgstr "Otrzymywana:"
+
+msgid "keys/battles"
+msgstr "• W bitwach wydarzenia"
+
+msgid "keys/body"
+msgstr "Unikalna waluta używana do postępów w wydarzeniu Babilon: Mroczna Wieża i otrzymywania cennych przedmiotów, w tym głównej nagrody wydarzenia. Można zdobyć w bitwach wydarzenia i kupić w zestawach. Niszcz pojazdy przeciwnika w bitwach trybu Babilon: Mroczna Wieża, aby zbierać jak najwięcej materii i zdobyć klucze."
+
+msgid "keys/boss"
+msgstr "• Boss pokonany:"
+
+msgid "keys/bottom"
+msgstr "Po zakończeniu wydarzenia (%(date)s) wszystkie niewykorzystane klucze zostaną usunięte."
+
+msgid "keys/bundles"
+msgstr "• Kup w zestawach wydarzenia"
+
+msgid "keys/daily"
+msgstr "• Dzienna misja pojazdu:"
+
+msgid "keys/effective"
+msgstr "• Skuteczność w bitwie:"
+
+msgid "keys/gold"
+msgstr "• Kup za złoto"
+
+msgid "keys/header"
+msgstr "Klucze deszyfrujące"
+
+msgid "keys/howToEarn"
+msgstr "Jak zdobyć"
+
+msgid "keys/howToUse"
+msgstr "Jak używać"
+
+msgid "keys/howToUseDescr"
+msgstr "Używaj kluczy, aby odszyfrować nagrania, odblokować nowe cele i robić postępy do głównej nagrody wydarzenia. Możesz też wydać klucze, aby pominąć cele i szybciej zdobyć nagrody."
+
+msgid "keys/inStock"
+msgstr "dostępne"
+
+msgid "keys/secret"
+msgstr "• Tajemnicza nagroda:"
+
+msgid "metaWidget/body"
+msgstr "Kliknij, aby wyświetlić wszystkie cele i nagrody wydarzenia."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Wypełnij warunek bitewny tego nagrania, aby je odszyfrować. Nie można tego pominąć."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Odszyfrowanie niedostępne"
+
+msgid "metaWidget/header"
+msgstr "Ścieżka nagród"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Kliknij, aby wybrać zakończenie tej historii. Ogólna decyzja społeczności wpłynie na dalszy przebieg wydarzeń. Sprawdzaj aktualizacje na portalu gry."
+
+msgid "missionTooltip/bottom"
+msgstr "Odszyfruj wszystkie nagrania (niektóre cele mogą być pominięte), aby zdobyć główną nagrodę przed zakończeniem wydarzenia %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Osiągnięto %(current)s cel, otrzymano nagrody"
+
+msgid "missionTooltip/count"
+msgstr "Cel %(current)s z %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Odszyfruj"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Osiągnij cel, aby odblokować odszyfrowanie."
+
+msgid "missionTooltip/kingReward"
+msgstr "Główna nagroda wydarzenia"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Otrzymano główną nagrodę wydarzenia"
+
+msgid "missionTooltip/received"
+msgstr "Cel %(current)s osiągnięty, ale nagranie nie zostało odszyfrowane"
+
+msgid "missionTooltip/rewards"
+msgstr "Osiągnij cel, aby otrzymać nagrody."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Odszyfruj nagranie, aby otrzymać nagrody."
+
+msgid "missionTooltip/skip"
+msgstr "Pomiń"
+
+msgid "shopWidget/body"
+msgstr "Kliknij, aby otworzyć specjalny dział w Sklepie w grze z ekskluzywnymi przedmiotami wydarzenia."
+
+msgid "shopWidget/header"
+msgstr "Zestawy wydarzenia"
+
+msgid "teamList/actions/body"
+msgstr "Szybkie akcje do tworzenia plutonu i dodawania lub usuwania znajomych."
+
+msgid "teamList/actions/header"
+msgstr "Szybkie akcje"
+
+msgid "teamList/anomalies/header"
+msgstr "Aktywne anomalie"
+
+msgid "teamList/bossDamage/body"
+msgstr "Sortuj według uszkodzeń zadanych tylko w fazie 4 (walka z bossem).\nTe uszkodzenia nie liczą się do głównych nagród, jeśli drużynie nie uda się pokonać bossa."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Te uszkodzenia nie liczą się do głównych nagród, bo drużynie nie udało się pokonać bossa."
+
+msgid "teamList/bossDamage/header"
+msgstr "Uszkodzenia zadane w walce z bossem"
+
+msgid "teamList/damage/body"
+msgstr "Sortuj według uszkodzeń zadanych w fazach 1–3."
+
+msgid "teamList/damage/header"
+msgstr "Zadane uszkodzenia"
+
+msgid "teamList/keys/body"
+msgstr "Sortuj wg zdobytych kluczy (wyświetlana wartość nie uwzględnia kluczy bonusowych za wypełnienie odpowiedniej misji dziennej)."
+
+msgid "teamList/keys/header"
+msgstr "Zdobyte klucze"
+
+msgid "teamList/kills/body"
+msgstr "Sortuj wg zniszczonych pojazdów przeciwnika."
+
+msgid "teamList/kills/header"
+msgstr "Zniszczone pojazdy przeciwnika"
+
+msgid "teamList/name/header"
+msgstr "Nazwa gracza"
+
+msgid "teamList/place/body"
+msgstr "Sortuj wg miejsca w drużynie."
+
+msgid "teamList/place/header"
+msgstr "Miejsce w drużynie"
+
+msgid "teamList/squad/header"
+msgstr "Pluton to jednostka taktyczna, w ramach której gracze mogą współpracować w bitwach."
+
+msgid "teamList/vehicle/body"
+msgstr "Sortuj wg typu i nazwy pojazdu."
+
+msgid "teamList/vehicle/header"
+msgstr "Pojazdy"
+
+msgid "teamList/warned/body"
+msgstr "Ten gracz został ukarany za bezczynność lub dezercję i nie otrzymał żadnych nagród za tę bitwę."
+
+msgid "teamList/warned/header"
+msgstr "Ostrzeżenie"
+
+msgid "teamList/warned/self/body"
+msgstr "Zostałeś ukarany za bezczynność/dezercję i nie otrzymałeś żadnych nagród za tę bitwę."
+
+msgid "teamList/warned/self/header"
+msgstr "Ostrzeżenie"
+
+msgid "vehicle/bonusTitle"
+msgstr "Zdobycze"
+
+msgid "vehicle/eventBonus"
+msgstr "Bonusowe klucze są dostępne za wypełnienie misji dziennej w tym pojeździe."
+
+msgid "vehicle/state/default/title"
+msgstr "Gotowy do bitwy"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "W bitwie"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "W jednostce taktycznej"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "W kolejce"
+
+msgid "vehicle/state/locked/title"
+msgstr "Zablokowany"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Magazynek na 5 pocisków pozwala szybko zadać wysokie uszkodzenia."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Magazynek"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Magazynek na 3 pociski, który skraca standardowy czas automatycznego przeładowania pocisków."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Ulepszone działo z automatycznym ładowaniem"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Działo z systemem prowadzenia ognia ciągłego."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Działko automatyczne"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Zwiększa szansę na uszkodzenie modułów pojazdów przeciwnika."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Krytycznie uszkadzające działo"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Działo OB z potężnym systemem automatycznego przeładowania na 2 pociski."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Działo z automatycznym przeładowaniem"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Umożliwia wybór między ostrzałem cyklicznym i sekwencyjnym."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Podwójne działo"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Zapewnia modułom Twojego pojazdu pełną ochronę przed uszkodzeniami krytycznymi."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Odporność na uszkodzenia krytyczne"

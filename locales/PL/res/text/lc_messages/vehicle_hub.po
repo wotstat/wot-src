@@ -10,6 +10,9 @@ msgstr "Umożliwia wystrzelenie serii pocisków z magazynka jeden po drugim, z�
 msgid "abilities/common/description/autoShootGun"
 msgstr "Wystrzeliwuje szybkie serie pocisków, zadając duże uszkodzenia w krótkim czasie kosztem penetracji i celności. Najskuteczniejsze w walce w zwarciu."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Aktywowanie przepustnicy daje tymczasowe zwiększenie mocy silnika, prędkości i zwrotności, zachowując przy tym niezawodne prowadzenie działa. Pozwala to na zwinną, dynamiczną grę bez uszczerbku dla skuteczności bojowej."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Wystrzeliwuje pociski z dnem w kształcie gwiazdy, zadając maksymalne uszkodzenia na dystansie do 50 m. Uszkodzenia pocisków maleją wraz z odległością, co powoduje, że są najskuteczniejsze w walce w zwarciu."
 
@@ -61,6 +64,9 @@ msgstr "Ulepszone automatyczne przeładowanie"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Działko automatyczne"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Bojowa przepustnica"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Działo z lufą głęboko gwintowaną"
 
@@ -102,6 +108,15 @@ msgstr "Tryb turbo"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Tryb ognia salwą"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Zwiększa manewrowość bez pogarszania parametrów działa."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "System pozwala na prowadzenie ciągłego ognia bez przeładowania i kontroluje generowanie ciepła przez działo podczas strzelania."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Działo ma specjalne urządzenia, które pozwalają modyfikować niektóre parametry pocisku przed wystrzałem."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Pozostając w bezruchu lub poruszając się powoli, budujesz poziomy celności, aby poprawić precyzję następnego strzału.\nPrzy maksymalnym poziomie celności uzyskujesz przyzwoite prowadzenie działa ze zmniejszonym rozrzutem nawet podczas ruchu lub obrotu wieży/kadłuba."
@@ -355,6 +370,15 @@ msgstr "Umożliwia strzelanie z obu luf jednocześnie kosztem wydłużenia czas
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Specjalna mechanika, która na krótki czas zwiększa moc silnika, przyspieszenie oraz prędkość maksymalną jazdy do przodu i do tyłu."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Aktywowanie przepustnicy daje tymczasowe zwiększenie mocy silnika, prędkości i zwrotności, zachowując przy tym niezawodne prowadzenie działa. Pozwala to na zwinną, dynamiczną grę bez uszczerbku dla skuteczności bojowej."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Działo może strzelać ciągle, bez potrzeby przeładowania. Każdy strzał generuje ciepło, a wraz ze wzrostem temperatury zmieniają się niektóre parametry uzbrojenia. Prowadzenie ognia ciągłego spowoduje przegrzanie się działa, co uniemożliwi dalszy ostrzał aż do czasu jego schłodzenia."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Działo pojazdu ma specjalne urządzenia, które pozwalają na modyfikację niektórych parametrów pocisku przed oddaniem strzału. Zestaw amunicji pokazuje, które parametry zostaną zmienione przez przełączanie się między trybami ognia."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Pozostawanie w bezruchu lub poruszanie się z prędkością poniżej określonego limitu pozwala pojazdowi skalibrować Analogowe balistyczne urządzenie obliczeniowe i nabudować poziomy celności, zwiększając celność kolejnego strzału. Jeśli przekroczysz limit prędkości, postępy nabudowania poziomów celności zostaną zatrzymane do momentu zwolnienia. Na najwyższym poziomie celności pojazd zyskuje znaczną stabilizację działa, co zapewnia zmniejszony rozrzut od ruchu lub obrotów wieży i kadłuba. Efekt znika po oddaniu strzału."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Ta mechaniczna modyfikacja na krótki czas znacznie zwiększa przyspieszenie pojazdu, moc silnika oraz maksymalną prędkość jazdy do przodu i do tyłu, co pozwala szybko reagować na ataki przeciwnika i zaskakiwać go dynamicznymi manewrami. Utrzymywanie wysokiej prędkości skraca czas przygotowania tej mechaniki."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Wszystkie podane wartości stanowią wartości maksymalne dla danego pojazdu. Wyposażenie, dyrektywy i materiały eksploatacyjne mogą wpływać na te wartości, ale te zmiany nie zostały tutaj uwzględnione."
+msgstr "Wszystkie podane parametry stanowią najlepsze możliwe wartości dla pojazdu. Wyposażenie, dyrektywy i materiały eksploatacyjne mogą wpływać na te wartości, ale te zmiany nie zostały tutaj uwzględnione."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "kalibrowalny pocisk PP"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "kredytów z każdej bitwy"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "przeniesienie załogi z dowolnej klasy pojazdów bez kary"
+msgstr "przeniesienie załogi z dowolnego typu pojazdu bez kary"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "PD bojowego i PD załogi"

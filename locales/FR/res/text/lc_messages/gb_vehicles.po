@@ -118,6 +118,9 @@ msgstr "SR C45"
 msgid "C45_CFE_A"
 msgstr "SR C45"
 
+msgid "C45_FR"
+msgstr "SR C45"
+
 msgid "C45_c_7x7"
 msgstr "SR C45"
 
@@ -373,6 +376,9 @@ msgstr "Gabler’s Destroyer"
 msgid "Chassis_GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "Chassis_GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver"
+
 msgid "Chassis_GB148_FV227_Conceiver"
 msgstr "FV227 Conceiver"
 
@@ -411,6 +417,9 @@ msgstr "FV214t"
 
 msgid "Chassis_GB158_Executor"
 msgstr "Executor"
+
+msgid "Chassis_GB159_FV4602_Victorious"
+msgstr "Victorious"
 
 msgid "Chassis_GB15_Stuart_I"
 msgstr "Stuart I"
@@ -679,6 +688,9 @@ msgstr "Centurion Action X"
 msgid "Chassis_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
 
+msgid "Chassis_GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
+
 msgid "Chassis_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
 
@@ -739,7 +751,7 @@ msgstr "Continental AOI-1195-5A"
 msgid "Continental_AOI_1195_5A_short"
 msgstr "Continental\nAOI-1195-5A"
 
-msgid "Continental_W-670-9A"
+msgid "Continental_W_670_9A1"
 msgstr "Continental W-670-9A"
 
 msgid "Crysler_A57"
@@ -1262,13 +1274,13 @@ msgid "GB132_Taurus_CAT_desc"
 msgstr "Un projet de char prometteur développé par le Royal Armoured Corps en 1968 et nommé COMBAT ARM TANK. La priorité a été donnée à ces éléments lors du développement du véhicule : puissance de feu, mobilité, défense et un équipage le plus petit possible. Ce char était destiné à être utilisé par le Royal Armoured Corps ainsi que par l'infanterie (armes de combat) ; cependant, en raison d'un changement dans les plans de développement de l'armée britannique, ce véhicule n'était plus nécessaire et le projet fut abandonné."
 
 msgid "GB132_Taurus_CAT_long_special"
-msgstr "Le Taurus CAT est un chasseur de chars britannique de rang VIII. Il s'agit du premier véhicule britannique doté d'une suspension hydropneumatique, et le premier équipé d'un barillet en lieu et place d'un canon cyclique classique. Ce véhicule est rapide et agile, et l'apport d'un barillet à tir rapide vous permet de jouer de façon plus active et agressive."
+msgstr "Le Taurus CAT est un chasseur de chars britannique de rang IX doté d'un mode tir de style suédois et d'un canon à barillet. Sa principale caractéristique est son rechargement de barillet bien plus rapide en mode déplacement qu'en mode tir. Son canon inflige des rafales concentrées grâce à un rechargement rapide entre les tirs, tandis que son blindage frontal incliné peut faire ricocher les obus et lui offrir une certaine protection."
 
 msgid "GB132_Taurus_CAT_short"
 msgstr "Taurus CAT"
 
 msgid "GB132_Taurus_CAT_short_special"
-msgstr "Barillet, suspension hydropneumatique"
+msgstr "Suspension hydropneumatique, barillet"
 
 msgid "GB133_Charioteer_MkVII"
 msgstr "Charioteer Nomad"
@@ -1447,6 +1459,18 @@ msgstr "Système de chargement à barillet, excellente mobilité"
 msgid "GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver 7x7"
+
+msgid "GB147_FV4025_Contriver_7x7_descr"
+msgstr "De la fin des années 1950 au début des années 1960, le Royaume-Uni a activement travaillé sur des chars de défense côtière à double canon. Au cours de ce processus, il est devenu clair qu'en raison de leur grand poids, ces véhicules avaient un facteur de pression de contact très élevé qu'il fallait fortement réduire. L'idée d'un char à quatre chenilles a donc émergé. Les renseignements collectés au sujet de l'Object 279 obtenus en URSS ont été appliqués à ce véhicule en cours de développement, mais le concept s'en est retrouvé altéré. Les chenilles extérieures ont été rendues plus légères que celles de l'intérieur, tandis que le système de suspension a été remplacé par une version britannique avec des barres de ressorts verticaux. L'ensemble du châssis a été installé sur un cadre en C ouvert et riveté ; cependant, la construction était si complexe que le projet fut abandonné avant même qu'il ne commence."
+
+msgid "GB147_FV4025_Contriver_7x7_long_special"
+msgstr "Le FV4025 Contriver est un char lourd bien équilibré sans points faibles majeurs, capable de tenir le coup dans n'importe quelle situation sur le champ de bataille, qu'il s'agisse des luttes positionnelles avec d'autres chars lourds ou de tenir la ligne de défense face aux forces ennemies en approche. Son système à double canon fait passer sa polyvalence au niveau supérieur, laissant le choix entre des tirs uniques précis ou des salves destructrices en fonction de ce que la situation exige."
+
+msgid "GB147_FV4025_Contriver_7x7_short"
+msgstr "Contriver 7x7"
+
 msgid "GB147_FV4025_Contriver_descr"
 msgstr "De la fin des années 1950 au début des années 1960, le Royaume-Uni a activement travaillé sur des chars de défense côtière à double canon. Au cours de ce processus, il est devenu clair qu'en raison de leur grand poids, ces véhicules avaient un facteur de pression de contact très élevé qu'il fallait fortement réduire. L'idée d'un char à quatre chenilles a donc émergé. Les renseignements collectés au sujet de l'Object 279 obtenus en URSS ont été appliqués à ce véhicule en cours de développement, mais le concept s'en est retrouvé altéré. Les chenilles extérieures ont été rendues plus légères que celles de l'intérieur, tandis que le système de suspension a été remplacé par une version britannique avec des barres de ressorts verticaux. L'ensemble du châssis a été installé sur un cadre en C ouvert et riveté ; cependant, la construction était si complexe que le projet fut abandonné avant même qu'il ne commence."
 
@@ -1587,6 +1611,21 @@ msgstr "Combinant un châssis à roues, un moteur puissant et sophistiqué, ains
 
 msgid "GB158_Executor_short"
 msgstr "Executor"
+
+msgid "GB159_FV4602_Victorious"
+msgstr "FV4602 Victorious"
+
+msgid "GB159_FV4602_Victorious_descr"
+msgstr "Dans la seconde moitié des années 1970, la société britannique Leyland a proposé sa propre version d'un char potentiel pour remplacer le Chieftain. L'accent a été mis principalement sur la mobilité et la puissance de feu ; cependant, le véhicule s'est avéré trop complexe et onéreux. Par conséquent, l'armée n'a pas accepté le projet, optant pour le futur Challenger."
+
+msgid "GB159_FV4602_Victorious_long_special"
+msgstr "Le FV4602 Victorious est un char lourd britannique de rang X. Son puissant canon est conçu pour anéantir n'importe quel adversaire, et son blindage frontal impressionnant et fiable est capable de résister aux coups les plus puissants. De plus, une mécanique unique permet à ce véhicule de recevoir temporairement d'importantes améliorations de vitesse, de mobilité et de stabilisation du canon."
+
+msgid "GB159_FV4602_Victorious_short"
+msgstr "Victorious"
+
+msgid "GB159_FV4602_Victorious_short_special"
+msgstr "Boost temporaire de la mobilité et de la stabilisation du canon, dégâts par tir élevés"
 
 msgid "GB15_Stuart_I"
 msgstr "Stuart I-IV"
@@ -2131,6 +2170,15 @@ msgstr "Triumphant"
 msgid "GB86_Centurion_Action_X_CFE_A_short_special"
 msgstr "Monté sur son destrier blanc avec une lance d'argent dans les plaines de Changban,\n\nSon nom s'inscrit parmi les héros, figurant à jamais dans les histoires d'antan."
 
+msgid "GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
+
+msgid "GB86_Centurion_Action_X_FR_descr"
+msgstr "La tourelle Action X était prévue pour être utilisée sur les chars Centurion de versions ultérieures. Un prototype de la tourelle a été installé sur le châssis du Centurion Mark 7 et un autre prototype a été utilisé pour des essais balistiques. Ces véhicules équipés d'une tourelle Action X n'ont jamais été produits en série ni mis en service."
+
+msgid "GB86_Centurion_Action_X_FR_short"
+msgstr "Cent. AX BS"
+
 msgid "GB86_Centurion_Action_X_descr"
 msgstr "La tourelle Action X était prévue pour être utilisée sur les chars Centurion de versions ultérieures. Un prototype de la tourelle a été installé sur le châssis du Centurion Mark 7 et un autre prototype a été utilisé pour des essais balistiques. Ce véhicule équipé d'une tourelle Action X n'a jamais été produit en série ni mis en service."
 
@@ -2632,6 +2680,12 @@ msgstr "PRC 352"
 msgid "Parson_s_Turbine_No_2983"
 msgstr "Parson's Turbine No. 2983"
 
+msgid "Parson_s_Turbine_No_2983_7x7"
+msgstr "Parson's Turbine No. 2983"
+
+msgid "Parson_s_Turbine_No_2985"
+msgstr "Parson's Turbine No. 2985"
+
 msgid "Paxman_Ricardo"
 msgstr "Paxman 12TP"
 
@@ -2953,6 +3007,9 @@ msgstr "Rolls-Royce Meteor TTSC"
 msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_CFE_A"
 msgstr "Rolls-Royce Meteor TTSC"
 
+msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_FR"
+msgstr "Rolls-Royce Meteor TTSC"
+
 msgid "Rolls_Royce_Meteorite_202"
 msgstr "Rolls-Royce Meteorite Mk. 202"
 
@@ -3015,6 +3072,12 @@ msgstr "SR C42I"
 
 msgid "SR_C42O"
 msgstr "SR C42O"
+
+msgid "SR_C42O_7x7"
+msgstr "SR C42O"
+
+msgid "SR_C42V"
+msgstr "SR C42V"
 
 msgid "SR_C42_B"
 msgstr "SR C42 B"
@@ -3196,6 +3259,9 @@ msgstr "Gabler’s Destroyer"
 msgid "Turret_1_GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "Turret_1_GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver"
+
 msgid "Turret_1_GB148_FV227_Conceiver"
 msgstr "FV227 Conceiver"
 
@@ -3225,6 +3291,9 @@ msgstr "FV214t"
 
 msgid "Turret_1_GB158_Executor"
 msgstr "Executor"
+
+msgid "Turret_1_GB159_FV4602_Victorious"
+msgstr "Victorious"
 
 msgid "Turret_1_GB15_Stuart_I"
 msgstr "Stuart I"
@@ -3378,6 +3447,9 @@ msgstr "Centurion Action X"
 
 msgid "Turret_1_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
+
+msgid "Turret_1_GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
 
 msgid "Turret_1_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
@@ -3580,6 +3652,9 @@ msgstr "Twin 32-pdr Gun MBC Mk. 2"
 msgid "Twin_4_5_in_Gun_MBC"
 msgstr "Twin 4.5-in. Gun MBC"
 
+msgid "Twin_4_5_in_Gun_MBC_7x7"
+msgstr "Twin 4.5-in. Gun MBC"
+
 msgid "Twin_OQF_77mm_Gun_Mk_II"
 msgstr "Twin OQF 77 mm Gun Mk. II"
 
@@ -3688,6 +3763,9 @@ msgstr "APDS L-28 (5321)"
 msgid "_105mm_APDS_L_28_5321_CFE_A"
 msgstr "APDS L-28"
 
+msgid "_105mm_APDS_L_28_5321_FR"
+msgstr "APDS L-28 (5321)"
+
 msgid "_105mm_AP_EX20"
 msgstr "105 mm AP EX20"
 
@@ -3727,6 +3805,9 @@ msgstr "105 mm Gun L7A2"
 msgid "_105mm_Gun_L7_HEAT_CFE_A"
 msgstr "105 mm Gun L7A2"
 
+msgid "_105mm_Gun_L7_HEAT_FR"
+msgstr "105 mm Gun L7A2"
+
 msgid "_105mm_Gun_L7_HEAT_SH"
 msgstr "105 mm Gun L7A2"
 
@@ -3737,6 +3818,9 @@ msgid "_105mm_HEAT_L7"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_CFE_A"
+msgstr "US HEAT M456"
+
+msgid "_105mm_HEAT_L7_FR"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_SH"
@@ -3771,6 +3855,9 @@ msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_35_5321_CFE_A"
 msgstr "HESH-T L-35"
+
+msgid "_105mm_HESH_L_35_5321_FR"
+msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_37_4015"
 msgstr "HESH L-37 (4015)"
@@ -4110,6 +4197,18 @@ msgstr "Q.F. 13-Pr. Mk. III"
 
 msgid "_13pdr_HE"
 msgstr "HE Mk. III"
+
+msgid "_140_mm_L33A1"
+msgstr "140 mm L33A1"
+
+msgid "_140mm_APDS_Mk_2"
+msgstr "140 mm APDS Mk. 2"
+
+msgid "_140mm_AP_Mk_1"
+msgstr "140 mm AP Mk. 1"
+
+msgid "_140mm_HESH_Mk_1"
+msgstr "140 mm HESH Mk. 1"
 
 msgid "_150mm_AP_Mk_1"
 msgstr "6-inch S.A.P."
@@ -4783,10 +4882,19 @@ msgstr "QF HE Mk. IT"
 msgid "_4_5_in_APDS_MBC"
 msgstr "APDS MBC"
 
+msgid "_4_5_in_APDS_MBC_7x7"
+msgstr "APDS MBC"
+
 msgid "_4_5_in_AP_MBC"
 msgstr "AP MBC"
 
+msgid "_4_5_in_AP_MBC_7x7"
+msgstr "AP MBC"
+
 msgid "_4_5_in_HE_MBC"
+msgstr "HE MBC"
+
+msgid "_4_5_in_HE_MBC_7x7"
 msgstr "HE MBC"
 
 msgid "_4_5_in_HE_Mk_XIII"

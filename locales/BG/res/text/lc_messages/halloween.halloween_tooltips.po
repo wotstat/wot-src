@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Време за подготовка: {{cooldown}} сек."
+
+msgid "ability/miriumCost"
+msgstr "Цена в мирий за използване в битка: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "При употреба:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Пасивни подобрения в битка"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Завършете нормална трудност, за да отключите висока и да получите достъп до системата за аномални комбинации."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Аномалните комбинации са недостъпни"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Увеличете ефективността си в битка и преминавайте от фаза на фаза, дори ако машината ви бъде унищожена."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "При получаване:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Аномалии"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Ехо аномалии"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Аномалия при вземане"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Основна аномалия"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Тайна аномалия"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Само заловени от плячка."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Няма комбинации."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Не се брои за получаване на медала \"Колекционер на аномалии\"."
+
+msgid "bannerTooltip/available"
+msgstr "Събитието е налично за %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) - режим на игра. Натиснете, за да разучите"
+
+msgid "bannerTooltip/description"
+msgstr "Специален PvE режим, който ще ви отведе дълбоко в света на мистериозния \"Проект Вавилон\". Овладейте седем уникални машини, докато се биете, за да унищожите тъмните вражески сили. Ексклузивни награди и много повече ви очакват!"
+
+msgid "bannerTooltip/header"
+msgstr "Вавилон: Тъмната кула"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Производителността на вашия компютър е недостатъчна за този режим. Може да се наблюдават проблеми с графиката и движението на машините. Възможно е и блокиране на клиента на играта."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Този режим изисква висока производителност на компютъра. Ще имате проблеми със зареждане на картите, графиката и движението на машините. В случай на недостатъчна производителност, опитайте по-ниски настройки на графиката."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Ниска производителност"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Възможно е понижаване на производителността"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Вече сте приятели."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Покана за приятелство, очакваща потвърждение"
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Премахни играча от списъка \"Игнорирани\"."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Добави в списъка с приятели."
+
+msgid "battleResult/interaction/menu"
+msgstr "Натиснете, за да отворите менюто за взаимодействие с този играч."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Добави във взвод."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Играчът вече е във взвода."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Вече е изпратена покана."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Само командирът на взвода може да покани играчи да се присъединят към взвода."
+
+msgid "battleResult/secretReward/header"
+msgstr "Тайна награда"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Ще получите специална награда въз основа на вашето решение в края на събитието."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Уникална награда за събитието"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Охлаждане: %(cooldownSeconds)s секунди"
+
+msgid "consumables/params/usageCost"
+msgstr "Цена в мирий: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Достъпно чрез {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Награди:"
+
+msgid "dailyQuests/status"
+msgstr "Нова ежедневна мисия след {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Назначете и четиримата озвучени членове на екипажа на събитието (%(crew_members_names)s) към всяка машина в Парка си (единият от тях трябва да е командирът), за да активирате динамични отборни разговори по време на битка.\nПри машини с пет или шест роли, останалите роли могат да бъдат заети от всеки друг член на екипажа."
+
+msgid "groupVoiceover/header"
+msgstr "Динамични отборни разговори"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Целта за отключване на тази машина вече е избрана. Вижте условията ѝ в горния десен ъгъл на екрана."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Избрана цел"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Изберете налична машина, за да влезете в битка."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Недостъпно"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Битките в избраната трудност/режим са временно недостъпни поради технически причини."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Недостъпно"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Изчакайте взводът да се върне от предишната битка, за да влезете в нова битка."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Недостъпно"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Несъвместимо ниво на трудност за взвода."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Недостъпно"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Уникален екипаж от 4 танкисти."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Пълен уникален екипаж"
+
+msgid "keyCard/body"
+msgstr "Кликнете, за да видите наличните начини за получаване на валута за събитието."
+
+msgid "keys/accrued"
+msgstr "Получено:"
+
+msgid "keys/battles"
+msgstr "• Битки в събитието"
+
+msgid "keys/body"
+msgstr "Уникална валута, използвана за напредък в събитието \"Вавилон: Тъмната кула\" и получаване на ценни предмети, включително основната награда за събитието. Може да бъде спечелена в битки за събитието и закупена с пакети. Унищожавайте вражески машини в битките на Вавилон: Тъмната кула, за да съберете възможно най-много материя и да спечелите ключове."
+
+msgid "keys/boss"
+msgstr "• Босът е победен:"
+
+msgid "keys/bottom"
+msgstr "След края на събитието (%(date)s), неизползваните ви ключове ще бъдат премахнати."
+
+msgid "keys/bundles"
+msgstr "• Покупка в пакети за събитието"
+
+msgid "keys/daily"
+msgstr "• Ежедневна мисия за машина:"
+
+msgid "keys/effective"
+msgstr "• Ефективност в битка:"
+
+msgid "keys/gold"
+msgstr "• Покупка за злато"
+
+msgid "keys/header"
+msgstr "Ключове за дешифриране"
+
+msgid "keys/howToEarn"
+msgstr "Как се печели"
+
+msgid "keys/howToUse"
+msgstr "Как се използва"
+
+msgid "keys/howToUseDescr"
+msgstr "Използвайте ключове, за да дешифрирате записи, да отключите нови цели и да преминете към основната награда за събитието. Можете също така да изразходвате повече ключове, за да пропускате цели и да достигате до наградите по-скоро."
+
+msgid "keys/inStock"
+msgstr "в наличност"
+
+msgid "keys/secret"
+msgstr "• Тайна награда:"
+
+msgid "metaWidget/body"
+msgstr "Кликнете, за да видите всички цели и награди на събитието."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Изпълнете бойното условие на този запис, за да го дешифрирате. Това не може да бъде пропуснато."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Дешифрирането не е налично"
+
+msgid "metaWidget/header"
+msgstr "Път на наградата"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Натиснете, за да изберете как ще завърши тази история. Цялостното решение на общността ще оформи бъдещите събития. Проверявайте портала на играта за актуализации."
+
+msgid "missionTooltip/bottom"
+msgstr "Дешифрирайте всички записи (някои цели могат да бъдат пропуснати), за да достигнете основната награда преди края на събитието на %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Цел %(current)s е изпълнена, получени са награди"
+
+msgid "missionTooltip/count"
+msgstr "Цел %(current)s от %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Дешифриране"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Изпълнете целта, за да отключите дешифрирането."
+
+msgid "missionTooltip/kingReward"
+msgstr "Основна награда за събитието"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Основната награда за събитието е получена"
+
+msgid "missionTooltip/received"
+msgstr "Цел %(current)s е изпълнена, но записът не е дешифриран"
+
+msgid "missionTooltip/rewards"
+msgstr "Изпълнете целта, за да получите награди."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Дешифрирайте записа, за да получите награди."
+
+msgid "missionTooltip/skip"
+msgstr "Пропусни"
+
+msgid "shopWidget/body"
+msgstr "Щракнете, за да отворите специална секция на Магазина в играта с ексклузивни артикули за събитието."
+
+msgid "shopWidget/header"
+msgstr "Пакети за събитието"
+
+msgid "teamList/actions/body"
+msgstr "Бързи действия за създаване на взвод и добавяне/премахване на приятели."
+
+msgid "teamList/actions/header"
+msgstr "Бързи действия"
+
+msgid "teamList/anomalies/header"
+msgstr "Активни аномалии"
+
+msgid "teamList/bossDamage/body"
+msgstr "Сортирай по нанесени поражения само по време на Фаза 4 (Битката с боса).\nТези поражения не се зачитат за ключови награди, ако отборът не успее да победи боса."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Тези поражения не се броят за ключови награди, тъй като отборът не успя да победи боса."
+
+msgid "teamList/bossDamage/header"
+msgstr "Нанесени поражения в битката с боса"
+
+msgid "teamList/damage/body"
+msgstr "Подреди по поражения, нанесени във фаза 1-3."
+
+msgid "teamList/damage/header"
+msgstr "Нанесени поражения"
+
+msgid "teamList/keys/body"
+msgstr "Сортирайте по спечелени ключове (показаната стойност не отчита бонус ключове, получени за изпълнение на съответната ежедневна мисия)."
+
+msgid "teamList/keys/header"
+msgstr "Спечелени ключове"
+
+msgid "teamList/kills/body"
+msgstr "Сортирай по унищожени вражески машини."
+
+msgid "teamList/kills/header"
+msgstr "Унищожени вражески машини"
+
+msgid "teamList/name/header"
+msgstr "Име на играча"
+
+msgid "teamList/place/body"
+msgstr "Сортирай по позиция в отбора."
+
+msgid "teamList/place/header"
+msgstr "Позиция в отбора"
+
+msgid "teamList/squad/header"
+msgstr "Взводът е тактическа единица за играчи, които да си сътрудничат в битки."
+
+msgid "teamList/vehicle/body"
+msgstr "Сортирай по име и тип на машината."
+
+msgid "teamList/vehicle/header"
+msgstr "Машини"
+
+msgid "teamList/warned/body"
+msgstr "Този играч е наказан за бездействие/дезертьорство и не е получил никакви награди за тази битка."
+
+msgid "teamList/warned/header"
+msgstr "Внимание"
+
+msgid "teamList/warned/self/body"
+msgstr "Наказан сте за бездействие/дезертьорство и не получавате никакви награди за тази битка."
+
+msgid "teamList/warned/self/header"
+msgstr "Внимание"
+
+msgid "vehicle/bonusTitle"
+msgstr "Приходи"
+
+msgid "vehicle/eventBonus"
+msgstr "Налични са бонус ключове за изпълнение на ежедневна мисия с тази машина."
+
+msgid "vehicle/state/default/title"
+msgstr "Готов за битка"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "В битка"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "Във формирование"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "На опашка"
+
+msgid "vehicle/state/locked/title"
+msgstr "Заключена"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "5-зарядната касета ви позволява бързо да нанесете големи поражения."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Касета"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Система с 3 снаряда, която намалява стандартното време за автоматично презареждане на снарядите."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Подобрено автоматично презареждащо се оръдие"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Оръдие със система за непрекъснат огън"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Автоматично оръдие"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Увеличава шанса за повреждане на модули на вражески машини."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Критично поразяващо оръдие"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "ОФ оръдие с внушителна система за автоматично презареждане с 2 снаряда."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Автоматично презареждащо се оръдие"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Позволява ви да избирате между циклично и последователно задействане."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Сдвоено оръдие"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Осигурява пълна защита на модулите на машината ви от критични повреди."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Защита от критични повреди"

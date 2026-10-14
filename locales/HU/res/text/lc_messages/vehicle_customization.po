@@ -145,25 +145,31 @@ msgstr "Elit címer"
 msgid "attachment/Challenger_s_Bounty/Cus_233_Challenges_Armor"
 msgstr "Perzselő lövedék"
 
-msgid "attachment/Doomguys_Keepsakes"
+msgid "attachment/Dark_Tower_Trophies"
+msgstr "Sötét torony trófeák"
+
+msgid "attachment/Dark_Tower_Trophies/Cus_290_HW_MagneticHarpoon"
+msgstr "Sztázis szigony"
+
+msgid "attachment/Doomgyus_Keepsakes"
 msgstr "Doomguy emléktárgyai"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_309_Classic_HUD"
+msgid "attachment/Doomgyus_Keepsakes/Cus_309_Classic_HUD"
 msgstr "Klasszikus HUD"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_309_Classic_HUD/description"
+msgid "attachment/Doomgyus_Keepsakes/Cus_309_Classic_HUD/description"
 msgstr "Életerő, páncélzat és nagyon elszánt ábrázat. Egy tengerészgyalogosnak mindössze ennyi kell ahhoz, hogy szembeszálljon a nemkívánatos vendégek csapatával, és mindet felrobbantsa."
 
-msgid "attachment/Doomguys_Keepsakes/Cus_310_DOOM_Ornament"
+msgid "attachment/Doomgyus_Keepsakes/Cus_310_DOOM_Ornament"
 msgstr "DOOM-dísz"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_311_Chaingun"
+msgid "attachment/Doomgyus_Keepsakes/Cus_311_Chaingun"
 msgstr "Géppuska"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_312_Demon_Disposal_Kit"
+msgid "attachment/Doomgyus_Keepsakes/Cus_312_Demon_Disposal_Kit"
 msgstr "Démonirtó készlet"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_313_Marines_Stash"
+msgid "attachment/Doomgyus_Keepsakes/Cus_313_Marines_Stash"
 msgstr "Tengerészgyalogos-felszerelés"
 
 msgid "attachment/Expedition_Essentials"
@@ -204,6 +210,18 @@ msgstr "Zsákmányolt torony"
 
 msgid "attachment/Field_Salvage/Cus_238_LS_TrophyWheels"
 msgstr "Zsákmányolt kerekek"
+
+msgid "attachment/Field_Salvage/Cus_289_HW_SpiderSpotlight"
+msgstr "Echo optika"
+
+msgid "attachment/Field_Salvage/Cus_291_HW_SpareBatteries"
+msgstr "Szigony akkumulátorcsomag"
+
+msgid "attachment/Field_Salvage/Cus_292_HW_PowerCollector"
+msgstr "Ultra sűrű mirium kollektor"
+
+msgid "attachment/Field_Salvage/Cus_293_HW_SpiderMines"
+msgstr "Az Uralkodó bányái"
 
 msgid "attachment/Football_Fever"
 msgstr "Futball-láz"
@@ -390,6 +408,24 @@ msgstr "Fecskesárkány"
 
 msgid "attachment/Traditional_Toys/Cus_263_FCN_Tricycle"
 msgstr "Telepakolt tricikli"
+
+msgid "attachment/Transmission_Tech"
+msgstr "Jelátviteli technológia"
+
+msgid "attachment/Transmission_Tech/Cus_314_Telemetry_Plotter"
+msgstr "Telemetriai ábrázoló"
+
+msgid "attachment/Transmission_Tech/Cus_315_Orbiter_Prototype"
+msgstr "Orbiter prototípus"
+
+msgid "attachment/Transmission_Tech/Cus_316_EMP_Jammer"
+msgstr "EMP-zavaró"
+
+msgid "attachment/Transmission_Tech/Cus_317_Satellite_Tracker"
+msgstr "Műholdkövető"
+
+msgid "attachment/Transmission_Tech/Cus_318_Encryption_Station"
+msgstr "Titkosítóállomás"
 
 msgid "attachment/Zero_Legacy"
 msgstr "Zero öröksége"
@@ -4855,6 +4891,9 @@ msgstr "?empty?"
 msgid "camouflage/fort/label"
 msgstr "Ipari nyersanyag"
 
+msgid "camouflage/fr26_style1/label"
+msgstr "Jelvadász"
+
 msgid "camouflage/france/bicolor/Winter/description"
 msgstr "Egy téli mintázat, amit azokra a zsákmányolt francia járművekre vittek fel, amik harcoltak a keleti fronton a tengelyhatalmak páncélos erőinél."
 
@@ -5298,6 +5337,12 @@ msgstr "Jatkosota Gimnázium"
 
 msgid "camouflage/girls_und_panzer_kabasan/label"
 msgstr "Team-Kabasan"
+
+msgid "camouflage/girls_und_panzer_leopon/label"
+msgstr "?empty?"
+
+msgid "camouflage/girls_und_panzer_team_leoponsan/label"
+msgstr "?empty?"
 
 msgid "camouflage/give_paw/description"
 msgstr "?empty?"
@@ -5931,6 +5976,18 @@ msgstr "?empty?"
 
 msgid "camouflage/lunar_ny_ox/label"
 msgstr "Bika lovasság"
+
+msgid "camouflage/maneuvers_2026_1/label"
+msgstr "Atlasz páncélja"
+
+msgid "camouflage/maneuvers_2026_2/label"
+msgstr "A háborúhozó kürtje"
+
+msgid "camouflage/maneuvers_2026_3/label"
+msgstr "A skorpió fullánkja"
+
+msgid "camouflage/maneuvers_2026_4/label"
+msgstr "A kaméleon leple"
 
 msgid "camouflage/manners/description"
 msgstr "?empty?"
@@ -8223,6 +8280,24 @@ msgstr "A tábornok parancsa"
 
 msgid "camouflage/wci2025_progressive_st3/label"
 msgstr "Győzelmi csapás"
+
+msgid "camouflage/wci2026_progressive_st1/description"
+msgstr "A páncéllemezeken alig vehető ki a főnix sötét sziluettje, ami azt hivatott szimbolizálni, hogy a torna megnyeréséhez vezető út még csak most kezdődik. Az alapszint, amely mindenki számára elérhető, aki megvásárolja a stílust."
+
+msgid "camouflage/wci2026_progressive_st1/label"
+msgstr "Főnix: Ébredés"
+
+msgid "camouflage/wci2026_progressive_st2/description"
+msgstr "Ezüstös vonalak jelennek meg a sötét fém felületén, ahogy a főnix kiterjeszti a szárnyait."
+
+msgid "camouflage/wci2026_progressive_st2/label"
+msgstr "Főnix: Felemelkedés"
+
+msgid "camouflage/wci2026_progressive_st3/description"
+msgstr "A főnix aranyszínű és lila lángok közepette emelkedik a magasba, bajnokhoz méltó alakban. A stílus végső szintje azok számára, akik végigjárták az utat és győzelmet arattak."
+
+msgid "camouflage/wci2026_progressive_st3/label"
+msgstr "Főnix: Diadal"
 
 msgid "camouflage/wci_2024_1/description"
 msgstr "?empty?"
@@ -10984,6 +11059,9 @@ msgstr "1UP"
 msgid "emblem/cool/sticker_74"
 msgstr "Hópehely"
 
+msgid "emblem/cool/sticker_75"
+msgstr "?empty?"
+
 msgid "emblem/group1/animal_1"
 msgstr "Lev"
 
@@ -13662,6 +13740,15 @@ msgstr "Meccsnap"
 
 msgid "emblem/special/sticker_884"
 msgstr "Tehénálca"
+
+msgid "emblem/special/sticker_886"
+msgstr "Jelvadász"
+
+msgid "emblem/special/sticker_887"
+msgstr "Leopon"
+
+msgid "emblem/special/sticker_888"
+msgstr "WCI 2026"
 
 msgid "filter/popover/bonusType/title"
 msgstr "Bónusz típusok"
@@ -16633,6 +16720,12 @@ msgstr "Veszély! Magasfeszültség"
 msgid "inscription/special/special_885"
 msgstr "Érezd az erőt!"
 
+msgid "inscription/special/special_886"
+msgstr "A közvetítés biztosítva"
+
+msgid "inscription/special/special_887"
+msgstr "Kommunikációs ellenőrzés"
+
 msgid "inscription/special/special_90"
 msgstr "2017. Nagydöntő, Moszkva"
 
@@ -19564,6 +19657,9 @@ msgstr "Pin-up Kei"
 msgid "projection_decals/pin_up/projection_decal_72"
 msgstr "Erwin kitűző"
 
+msgid "projection_decals/pin_up/projection_decal_73"
+msgstr "Nakajima kitűző"
+
 msgid "projection_decals/progression"
 msgstr "Progresszív"
 
@@ -20107,17 +20203,41 @@ msgstr "Elektromos elme"
 msgid "projection_decals/special/projection_decal_1114"
 msgstr "Zöld szellem"
 
+msgid "projection_decals/special/projection_decal_1119"
+msgstr "Műhold"
+
 msgid "projection_decals/special/projection_decal_112"
 msgstr "Metal Wars Top 10"
 
 msgid "projection_decals/special/projection_decal_112/description"
 msgstr "A Metal Wars esemény során a világ térképen 10 legjobbnak bizonyult klán tagjainak jutalma."
 
+msgid "projection_decals/special/projection_decal_1120"
+msgstr "Rugóskés"
+
+msgid "projection_decals/special/projection_decal_1121"
+msgstr "Chibi-Nakajima"
+
+msgid "projection_decals/special/projection_decal_1122"
+msgstr "Folyóparti felvonó"
+
+msgid "projection_decals/special/projection_decal_1122/description"
+msgstr "A rendezőváros jellegzetes felvonója, amely a folyó felett lebeg. Egy kis tisztelgés a rendezvény helyszíne és a csúcs felé vezető út előtt."
+
+msgid "projection_decals/special/projection_decal_1123"
+msgstr "Hotpot"
+
+msgid "projection_decals/special/projection_decal_1123/description"
+msgstr "Egy bugyogó, tüzes hotpot evőpálcikákkal, hogy megkóstolhasd a rendezőváros legjellegzetesebb fogását."
+
 msgid "projection_decals/special/projection_decal_113"
 msgstr "Metal Wars Top 100"
 
 msgid "projection_decals/special/projection_decal_113/description"
 msgstr "A Metal Wars esemény során a világ térképen 100 legjobbnak bizonyult klán tagjainak jutalma."
+
+msgid "projection_decals/special/projection_decal_1135"
+msgstr "Turbótöltő"
 
 msgid "projection_decals/special/projection_decal_114"
 msgstr "Metal Wars résztvevő"
@@ -24415,6 +24535,9 @@ msgstr "Festék spray"
 msgid "repaint/forged_flame"
 msgstr "Lángban edzett"
 
+msgid "repaint/fr26_style1"
+msgstr "Jelvadász"
+
 msgid "repaint/france_base_color"
 msgstr "Francia alapszín"
 
@@ -24517,11 +24640,17 @@ msgstr "Faszén"
 msgid "repaint/girls_und_panzer_kabasan_style"
 msgstr "Team-Kabasan"
 
+msgid "repaint/girls_und_panzer_leopon"
+msgstr "?empty?"
+
 msgid "repaint/girls_und_panzer_rabbit"
 msgstr "Moha"
 
 msgid "repaint/girls_und_panzer_saunders"
 msgstr "Saunders Egyetemi Középiskola"
+
+msgid "repaint/girls_und_panzer_team_leoponsan"
+msgstr "?empty?"
 
 msgid "repaint/girls_und_panzer_turtle"
 msgstr "Homok"
@@ -26377,6 +26506,12 @@ msgstr "Kampfgruppe Schneide"
 msgid "special_style/G16_PzVIB_Tiger_II_3DSt_NEx_desc/long"
 msgstr "\"Van B tervünk? Nézd meg, Kurt, mit csináltunk az elmúlt héten. A dicsőséges harci utunk éjszakai gyalogos üzemanyagkereső utakból áll. Patkányként szökdösünk egyik tönkrement járműről a másikra, próbálunk egy kannában üzemanyagot szerezni, hogy újraéleszthessük ezt az átkozott tankot. Keresünk pótalkatrészeket, működő fegyverzetet, felszerelést... Bármit, ami ebbe a tankba való. Szerencsére rengeteg üzemképtelen jármű van itt. Egy éjszaka üzemanyag- és alkatrészvadászat, majd másnap néhány kilométert menetelünk. Amíg valami el nem törik, vagy az üzemanyagtartály ki nem ürül megint. Egyenesen előre. Nincs térkép vagy rádió - csak haladunk előre, remélve, hogy legalább valakit találunk magunk mellett. Milyen nap van ma, Kurt? Hol van a Kampfgruppe? Nyertünk vagy sem? Ez az a háború, amire készültünk? Természetesen nem tudsz nekem válaszolni, kedves barátom. Biztos elvesztettem az eszem, ha már megint a törött jelződdel beszélek.\n\nVan B tervünk? Még A tervünk sincs...\""
 
+msgid "special_style/G171_E77_HW26_3Dst"
+msgstr "Uralkodó"
+
+msgid "special_style/G171_E77_HW26_3Dst_desc/long"
+msgstr "„Az a rohadt fémdarab egyenesen rám bámul!\n\nAz optikái úgy csillognak, mintha élne. Mintha az a szörnyeteg a páncélja alatt lélegezne, miközben a testére szíjazott aknák a kis lábaikkal rángatóznak, készen arra, hogy leugorjanak. Azt kérditek, milyen aknák? Hogy honnan kerültek ide? Jó kérdés. A srácok ezt a harckocsit a valóság egyik mély repedéséből húzták elő. Azt mondják, teljesen biztonságos, és álomszerűen kezelhető. Ja, persze...\n\nDe képtelen vagyok szabadulni attól az érzéstől, hogy ez a gép él. És a fenébe is, ki akarom próbálni harcban!”"
+
 msgid "special_style/G172_PzVIB_Tiger_II_DIT_3DSt"
 msgstr "Erika"
 
@@ -26418,6 +26553,12 @@ msgstr "Team-Kabasan normál"
 
 msgid "special_style/G191_StuG_IIIF_A_3Dst_desc/long"
 msgstr "Miután az Oarai Girls' High School területén egy tóban rábukkantak a rég elveszett StuG III Ausf. F-re, a Team-Kabasan lányai keményen dolgoztak, hogy visszaállítsák a járművet régi fényébe. Korábban feltűnő díszítésekkel látták el, ám azóta praktikus tábori szürkére festették, ami a csapat rejtőzködésben és rajtaütési taktikákban szerzett nagyobb szakértelmét tükrözi."
+
+msgid "special_style/G204_PzVI_Tiger_P_CFE_A_3Dst"
+msgstr "Tiger (P) Leoponsan"
+
+msgid "special_style/G204_PzVI_Tiger_P_CFE_A_3Dst_desc/long"
+msgstr "A Pz.Kpfw. VI Ausf.P, közismertebb nevén VK 45.01 (P) vagy Porsche Tiger az egyik legkülönlegesebb német nehéz harckocsi volt. Két léghűtéses Typ 101 motorral és elektromos váltóval szerelték fel. A bonyolult és megbízhatatlan hajtásrendszere miatt a jármű sosem került sorozatgyártásba, de az Oarai Lánygimnáziumnak köszönhetően kapott egy második esélyt. Ezt a harckocsit az iskola hajójának mélyén találták, és az autóklub tagjai állították helyre, később pedig belőlük lett a jármű legénysége – a Team-Leoponsan. A műszaki jártasságuknak köszönhetően a lányok nemcsak megőrizték a szeszélyes Porsche Tiger harckészültségét, hanem rövid gyorsításokra alkalmas eszközök felszerelésével tovább is fejlesztették a harckocsit."
 
 msgid "special_style/G42_Maus_BPXVIII_3Dst"
 msgstr "Eisenblick"
@@ -26475,6 +26616,12 @@ msgstr "Reiter"
 
 msgid "special_style/G89_Leopard1_BVII_3DSt_desc/long"
 msgstr "\"Végre! Két hétig bezártak minket a barakkokba. Most itt jön egy kis tisztánlátás a tettek mezején! Az egységnek nincs semmi dolga. Mi csak ülünk itt és nézzük a rádiósok és a dekóderek közötti csendes háborút. Úgy tudom, hogy a parancsunkat tartalmazó rádióadásokat folyamatosan elfogták, aztán a parancsnokság hamis információt továbbított, de azt nem vették észre, és a mieink azt hitték, hogy valódi. Aztán törölték. Vagy azt is elfogták? Fúúú, micsoda felhajtás... Inkább nézném a festék száradását. Mindegy, már úton vagyunk, és valami azt súgja nekem, hogy nehéz tankokat küldeni városi környezetbe... nem éppen az, amire számítottunk? Remélem, senki sem veszi észre, hogy nem tudom, melyik parancsnokság küldte ezt a parancsot. Eléggé hozzászoktam a városi utcákon való harcokhoz. De van egy bökkenő: Legutóbb lovassági katona voltam.\n\nRichard eins neun sieben neun - adás vége.\""
+
+msgid "special_style/G89_Leopard1_KS_3Dst"
+msgstr "Az Automaton"
+
+msgid "special_style/G89_Leopard1_KS_3Dst_desc/long"
+msgstr "Bár csodálatos látványt nyújt, az Automaton nem törekszik az eleganciára. A nyers erő óriása, a dugattyúi úgy kalapálnak, mint a gyárak prései, a kipufogónyílásai pedig úgy hörögnek, mint egy öntöde. A gőzgépek dicső korszakából született, túlélte a kormos kezeket, amelyek megalkották, és felülmúlta a modern hadviselés acélóriásait, amelyek elhalványultak az óraművi nagyszerűsége mellett. Az újabb motorok mellett mennydörögve rohant a csatába, és amikor a dízelüzemű csatazaj végre elcsendesedett, csak az Automaton egyenletes és fáradhatatlan zörgése hallatszott."
 
 msgid "special_style/G89_Leopard1_WT24_Mini_Boss_3Dst"
 msgstr "EOS 1"
@@ -26559,6 +26706,12 @@ msgstr "Király és haza"
 
 msgid "special_style/GB136_Churchill_BPXIV_3Dst_desc/long"
 msgstr "„Őszintén szólva, a háború előtt keveset tudtam Franciaországról. Manchester közelebb van Írországhoz, mint Franciaországhoz. Viszont apám harcolt Belgiumban, nem mintha sokat beszélt volna róla. Furcsa belegondolni, hogy régen „a nagy háborúnak” neveztük – mintha soha többé nem ismétlődhetne meg. Talán naivitás volt ezt gondolni. Az emberiség történetét háborúk kísérik végig. És tudtam, hogy amikor eljön az idő – a háború –, nekem is szerepem lesz benne. Király, haza, kötelesség, becsület – erre neveltek, ebben hittem, és arra tanítottak, hogy ezeket kell védeni. Mindenáron.“"
+
+msgid "special_style/GB142_FV230_Canopener_HW26_3Dst"
+msgstr "Szigonyos"
+
+msgid "special_style/GB142_FV230_Canopener_HW26_3Dst_desc/long"
+msgstr "„Minden echo-tank belsejében valami mirium-reaktorhoz hasonló működik. Ettől marad tank formájú az anyag. Amikor túl sok sebzés éri, a mag már nem tudja fenntartani ezt a formát, és a mirium visszatér folyékony állapotba. Ekkor már nincs mit tanulmányozni.\n\nDe sikerült kifejlesztenem egy speciális típusú lőszert. Az elve egyszerű: amint hatástalanítunk egy tankot, belelövünk egy „töltött gravitációs horgonyt”. A horgony felülírja a mirium-reaktor működését, és az echo-tank megőrzi az alakját, amíg a mentőcsapat át nem helyezi a mintát egy sztáziskamrába. Smith kapitány még mindig alig bízik ebben a technológiában. Minden reggel lement a hangárba, és körbejárja a tankokat, az ujjaival végigkopogtatva őket. Ellenőrzi őket. Attól tart, hogy egy napon valamelyik felébred, és egy izgalmas reggelünk lesz. Megértem őt. De én bízom a számításaimban, ő pedig az ösztöneiben. Így mennek itt a dolgok.”"
 
 msgid "special_style/GB142_FV230_Canopener_KS_3Dst"
 msgstr "Ikervédelmezők"
@@ -26878,6 +27031,12 @@ msgstr "Hurricane"
 msgid "special_style/Pl21_CS_63_OSP3_3DSt_desc/long"
 msgstr "Ez a lengyel közepes harckocsi a Pegazus, a mitikus, hatalmas szárnyakkal rendelkező hófehér paripa megtestesítője. Ezúttal sem Bellerophón, sem Zeusz nem tudja megszelídíteni, és csak az arra érdemeseknek adatik meg, hogy hűséges harcostársuk legyen. Készen áll, hogy elmenjen a világ végéig, és lesújtson mindenkire, aki az útjába áll."
 
+msgid "special_style/Pl27_SDP_Wz_66T_WCI_3Dst"
+msgstr "Dream Chaser"
+
+msgid "special_style/Pl27_SDP_Wz_66T_WCI_3Dst_desc/long"
+msgstr "A Dream Chaser azoknak a kihívóknak készült, akik mindig többre törekednek. Minden egyes roham a határtalan szenvedély és kitartás bizonyítéka. Fekete és arany színű főnix­tollak futnak végig az acéltestén, akár a szíved mélyén lobogó, megingathatatlan hit. Bármilyen nehéz is legyen az út, leküzdöd az akadályokat, és elérkezik a saját dicsőséged pillanata."
+
 msgid "special_style/Pl29_NC_Wz_70T_BPXVI_3Dst"
 msgstr "Upał"
 
@@ -26958,6 +27117,12 @@ msgstr "Obszidián"
 
 msgid "special_style/R205_Tank_Rozanova_3Dst_HW23_desc/long"
 msgstr "A tankban találtak egy cetlit: „Szállj ki a tankból, vedd le a gázálarcot, és szippants egy mélyet a friss levegőből... nincs is ennél jobb dolog”. Azt mondják, ezután már nincs visszaút. De ez nem számít. Kiszállok, és a tankot üres burokként hagyom magam után. Saját kezembe veszem a mirium hatalmát, és megteszem, amit meg kell tennem. Hope, ne számíts rám!”"
+
+msgid "special_style/R236_Object_265_II_HW26_3Dst"
+msgstr "Eclipse"
+
+msgid "special_style/R236_Object_265_II_HW26_3Dst_desc/long"
+msgstr "Az „Eclipse” kódnevű járművet az Anomália belsejében fedezték fel, a „Sötét torony” néven ismert entitás romjai közelében található fázisban. A példányt a Babilon kutatóközpontba szállították, hogy a szakértők alapos vizsgálatoknak vessék alá.\n\nA jármű egy kísérleti szélessávú jelelnyomó egységgel van felszerelve, amely ultrasűrű miriummal működik. Az adataink szerint a készüléket az expedíció mérnökei fejlesztették ki a Sötét torony védelmi rendszereinek hatástalanítására. A helyszínen talált nyomok alapján a harckocsi részt vett a toronynál zajló végső csatában a hatalmas mechanikus Pók ellen, majd ezt követően hátrahagyták. A harckocsi legénységét valószínűleg a Marduk fedélzetére evakuálták, amely ezt követően folytatta az expedíciót az Anomália mélyére.\n\nAz Eclipse kialakítását rendkívül sikeresnek ítélték: tartós és meglehetősen ellenálló az ellenséges környezeti viszonyokkal szemben. A vizsgálat befejezését követően a katonai bizottság azt javasolta, hogy a járművet állítsák vissza aktív szolgálatba."
 
 msgid "special_style/R40_T-54_3Dst_HW20"
 msgstr "Malachit"
@@ -29527,6 +29692,15 @@ msgstr "Erőd"
 msgid "special_style/fort_desc"
 msgstr "Egy négy évszakos Erődítmény stílus, amelyet azok a klánok ihlettek, akik együtt építkeznek – és együtt nyernek."
 
+msgid "special_style/fr26_style1"
+msgstr "Jelvadász"
+
+msgid "special_style/fr26_style1_desc"
+msgstr "Törj át a zajon ebben a taktikus négy évszakos stílusban!"
+
+msgid "special_style/fr26_style1_desc/long"
+msgstr "Parancsnoki napló:\n\n„Van ott valaki, és a mi feladatunk kideríteni, hogy ki az. Eddig csak egy furcsa rádióüzenetünk van, amelyet bonyolult titkosítással kódoltak és szakaszokra osztottak. Akárki is küldte, nagy erőfeszítéseket tett, hogy elrejtsen… valamit. És bármi is legyen az a valami, biztosan nem jó hír.\n\nAhhoz, hogy visszaállítsuk az üzenetet, el kell foglalnunk és elég hosszú ideig meg kell tartanunk az átjátszóantennákat, hogy az egészet rögzíthessük. Sajnos nem mi vagyunk az egyetlenek, akik erre vadásznak. Egy rivális erő közeledik, és ők is ugyanolyan elszántan meg akarják szerezni az információt.\n\nA verseny elkezdődött.”"
+
 msgid "special_style/frontline_alliance"
 msgstr "Nyugati front"
 
@@ -29746,6 +29920,15 @@ msgstr "Négyévszakos stílus, amely a híres Team-Kabasan képét viseli."
 msgid "special_style/girls_und_panzer_kabasan_desc/long"
 msgstr "Így van! Ez a csatában edzett, történelemrajongókból álló csapat töretlenül tör előre, évszázadok hadászati tapasztalatára támaszkodva döntő csapást mér az ellenfeleire. Büszkén viselik víziló-emblémájukat, és elsöprő hatékonysággal, kifogástalan stílussal sújtanak le, ami bármely Sensha-Dō eseményen félelmetes ellenféllé teszi őket."
 
+msgid "special_style/girls_und_panzer_leopon"
+msgstr "Leopon"
+
+msgid "special_style/girls_und_panzer_leopon_desc"
+msgstr "Négy évszakos stílus a Team-Leoponsan aranyos kabalafigurájával."
+
+msgid "special_style/girls_und_panzer_leopon_desc/long"
+msgstr "A Team-Leoponsant az Oarai Leánygimnázium Autóklubjának benzingőzimádó tagjai alapították, akik korábban az iskola harckocsijainak karbantartását végezték. A csapat a tagjai laza és nyugodt viselkedéséről, valamint jellegzetes narancssárga overáljáról ismert. Ahogyan a kabalájuk is büszkén hirdeti hibrid természetét – a leopon részben oroszlán, részben leopárd, mégis teljesen egyedi bestia –, úgy a lányok is lenyűgöző eredménnyel ötvözik két mesterségüket, a mérnöki tudományt és a Sensha-Dō művészetét."
+
 msgid "special_style/girls_und_panzer_saunders"
 msgstr "Saunders Egyetemi Középiskola"
 
@@ -29754,6 +29937,15 @@ msgstr "A tekintélyes Saunders University High School jelvényeit viselő négy
 
 msgid "special_style/girls_und_panzer_saunders_desc/long"
 msgstr "A mesésen gazdag Saunders Egyetemi Gimnázium hatalmas amerikai tankarzenállal büszkélkedhet. Az egyetlen dolog, amit a hatalmas számú Sensha-Dō játékosok jobban szeretnek, mint a lenyűgöző M4 Sherman flottájuk mutogatását, az az extravagáns partik rendezése – és imádnak a döbbent vendégek arckifejezésében gyönyörködni a felkínált gyorséttermi ételek hegyei láttán! Ne téveszd azonban össze a lányok vendégszeretetét a szelídséggel – stratégiájuk az ellenfelek számbeli fölénnyel való legyőzésére épül, ami gyakran pontos lövéseket és okos taktikát igényel."
+
+msgid "special_style/girls_und_panzer_team_leoponsan"
+msgstr "Team-Leoponsan"
+
+msgid "special_style/girls_und_panzer_team_leoponsan_desc"
+msgstr "Négy évszakos stílus a műszaki szemléletű Team-Leoponsan jelvényével."
+
+msgid "special_style/girls_und_panzer_team_leoponsan_desc/long"
+msgstr "A Team-Leoponsant az Oarai Leánygimnázium Autóklubjának benzingőzimádó tagjai alapították, akik korábban az iskola harckocsijainak karbantartását végezték. A csapat a tagjai laza és nyugodt viselkedéséről, valamint jellegzetes narancssárga overáljáról ismert. A Team-Leoponsan mind a négy tagja tehetséges szerelő, akik bármilyen járművet képesek eredeti, kifogástalan állapotba hozni, és nem haboznak megjavítani a Tiger (P) harckocsijukat még a mérkőzés közben sem. Amikor éppen nem a következő Sensha-Dō-összecsapásra készülnek, a Team-Leoponsan tagjai előszeretettel bütykölnek klasszikus autókat és vesznek részt driftversenyeken, hogy megvalósítsák a közös álmukat, és egy nap részt vehessenek egy grand prix-n."
 
 msgid "special_style/give_paw"
 msgstr "Mancstasztikus"
@@ -30315,6 +30507,42 @@ msgstr "Egy négy évszakos stílus a menshenek tiszteletére – isteni harcoso
 
 msgid "special_style/lunar_ny_2025_3_desc/long"
 msgstr "A kapuk és ajtók felett őrködő ádáz harcosok, a menshenek – vagy más néven „ajtóistenek” – nagy tiszteletnek örvendő alakok a kínai néphagyományban. Ezeket az isteni őrzőket kegyetlen arckifejezéssel és félelmetes fegyverekkel ábrázolják, és azért imádják őket, mert képesek elűzni a gonosz szellemeket. A holdújévi ünnepségek során a családok az istenségek vibráló színű képeivel díszítik az ajtóikat, így kérve a védelmüket a negatív energiák ellen, és áldásukat, hogy a következő év békét, biztonságot és jólétet hozzon."
+
+msgid "special_style/maneuvers_2026_1"
+msgstr "Atlasz páncélja"
+
+msgid "special_style/maneuvers_2026_1_desc"
+msgstr "Mint egy ősi őrszem, úgy állhatsz ellen a támadásoknak ebben a sztoikus négy évszakos stílusban."
+
+msgid "special_style/maneuvers_2026_1_desc/long"
+msgstr "A kolosszus, amely a legendák szerint az egész világot hordozza a hátán. Ez a teknős az örök kitartást szimbolizálja. A réteges páncélzata elnyeli a szüntelen ütéseket, és minden sebhely egy ecsetvonás ezen a hatalmas, mitikus vásznon. Egy őrző, akinek az a sorsa, hogy a lehetetlennek is ellenálljon, és soha nem inog meg a kötelesség súlya alatt."
+
+msgid "special_style/maneuvers_2026_2"
+msgstr "A háborúhozó kürtje"
+
+msgid "special_style/maneuvers_2026_2_desc"
+msgstr "Vágj át az ellenséges vonalakon ebben a szeizmikus négy évszakos stílusban!"
+
+msgid "special_style/maneuvers_2026_2_desc/long"
+msgstr "Egy zabolátlan és elsöprő erejű, rohamozó bestia, amely beleordít az ellenállás arcába. Ez az orrszarvú pusztítógép úgy söpör el mindent az útjából, mint egy testet öltött lavina, és a nyers agresszió zűrzavara után olyan pusztítás marad a nyomában, amelynek a hatása még jóval azután is érezhető, hogy a csatatér már elcsendesedett."
+
+msgid "special_style/maneuvers_2026_3"
+msgstr "A skorpió fullánkja"
+
+msgid "special_style/maneuvers_2026_3_desc"
+msgstr "Csapj le figyelmeztetés nélkül ezzel az alattomos négy évszakos stílussal!"
+
+msgid "special_style/maneuvers_2026_3_desc/long"
+msgstr "Csendes és számító, a skorpió egy halálos hatékonyságú lény. Az ereje nem a nyers erőben rejlik, hanem a feltekert farkában, amelynek mérge a sors maró csípését hordozza. Egy ragadozó, amely a homok alatt rejtőzik, és vár…\n\nMajd egy pillanat alatt a csata már el is dőlt."
+
+msgid "special_style/maneuvers_2026_4"
+msgstr "A kaméleon leple"
+
+msgid "special_style/maneuvers_2026_4_desc"
+msgstr "Olvadj bele tökéletesen a környezetedbe, majd támadj a semmiből ezzel az észrevehetetlen négy évszakos stílussal!"
+
+msgid "special_style/maneuvers_2026_4_desc/long"
+msgstr "A kaméleon az álcázás és az alkalmazkodás mestere. A folyamatosan változó megjelenésével képes becsapni az érzékszerveinket és eltűnni a szemünk előtt. Ennek a megfoghatatlan ragadozónak az álcázás művészete elválaszthatatlan a háború művészetétől, hiszen a leghalálosabb fegyver az, amely láthatatlan marad."
 
 msgid "special_style/manners"
 msgstr "A stílus teszi az embert"
@@ -32490,6 +32718,15 @@ msgstr "Egy tematikus progresszív 2D-stílus, amely a kínai Szucsouban rendeze
 
 msgid "special_style/wci2025_progressive_desc/long"
 msgstr "A nagyszabású harctéri leszámolások úgy tűnhetnek, hogy távol állnak a kínai sakk által követelt fegyelemtől, de egy tank irányítása hasonló módszertani pontosságot igényel. A terepet mint egy játéktáblát vizsgálod, követed az ellenség mozgását, hogy a járművedet a legjobban elhelyezhesd. Ahogy a nagymester manőverezik a bástyával, hogy a huszárt csalogassa, vagy sakkot adjon a királynak, a döntéseid éppúgy alakítják a csata menetét, mint az általad használt tűzerő. Ez a stílus tükrözi ezt a mesteri képességet, három különböző szinten át fejleszthető."
+
+msgid "special_style/wci2026_progressive"
+msgstr "A főnix felemelkedése"
+
+msgid "special_style/wci2026_progressive_desc"
+msgstr "Egy stílus, amelynek három szintje van: a főnixmotívum a finom sziluettől az élénk vonalvezetésig fejlődik, végül teljesen lángra lobban."
+
+msgid "special_style/wci2026_progressive_desc/long"
+msgstr "A torna köré épülő stílus a főnixet három különböző szakaszban ábrázolja. A kompozíció egy finom sziluettel kezdődik, ahol a madár alakja alig vehető ki, majd egyre élénkebbé válik, ahogy az arany vonalak végigfutnak a páncélon, végül pedig aranyszínű és lila lángokba borul. Minden szakasz önmagában is teljes megjelenést alkot, együtt pedig a folyamatos fejlődést jelenítik meg."
 
 msgid "special_style/wci_2024_1"
 msgstr "Kitartás"

@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Jäähtymisaika: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Taistelussa käyttämisen hinta miriumissa: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Käytössä ollessa:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Passiivisia tehosteita taistelussa"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Suorita normaali vaikeustaso avataksesi vaikean ja saadaksesi pääsyn anomalia-yhdistelmiin."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Anomalia-yhdistelmät eivät ole saatavilla"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Parantaa tehokkuutta taistelussa ja kulkee mukana vaiheesta vaiheeseen, vaikka vaunusi tuhoutuisi."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Saataessa:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomaliat"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Kaiku-anomalia"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Poimittava anomalia"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Perusanomalia"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Salainen anomalia"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Saadaan vain saaliista."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Ei yhdistelmiä."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Ei lasketa \"Anomaliakeräilijä\" -mitaliin."
+
+msgid "bannerTooltip/available"
+msgstr "Saatavilla %(timer) ajan"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) – Pelimuoto. Klikkaa tutkiaksesi"
+
+msgid "bannerTooltip/description"
+msgstr "Erityinen PvE-pelimuoto, joka vie sinut syvälle mystisen Babylon-projektin maailmaan. Kesytä seitsemän ainutlaatuista vaunua taistellessasi synkkää vihollista vastaan. Eksklusiiviset palkinnot ja paljon muuta odottavat!"
+
+msgid "bannerTooltip/header"
+msgstr "Babylon: Pimeä torni"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Tietokoneesi suorituskyky ei riitä tähän pelitilaan. Voit kohdata ongelmia grafiikan ja vaunujen liikkumisen kanssa. Pelin kaatuminen on myös todennäköistä."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta heikentää grafiikan laatua asetuksista."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Heikko suorituskyky"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Mahdollisesti heikentynyt suorituskyky"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Olette jo kavereita."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Odotetaan kaverikutsun vahvistusta."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Poista pelaaja mustalta listaltasi."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Lisää kaverilistalle."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klikkaa avataksesi toimintovalikko tämän pelaajan suhteen."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Lisää osastoon."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Pelaaja on jo osastossa."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Kutsu jo lähetetty."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Vain osaston komentaja voi kutsua pelaajia liittymään osastoon."
+
+msgid "battleResult/secretReward/header"
+msgstr "Salainen palkinto"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Saat erikoispalkinnon päätökseesi perustuen tapahtuman päättyessä."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Ainutlaatuinen tapahtumapalkinto"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Jäähtymisaika: %(cooldownSeconds)s"
+
+msgid "consumables/params/usageCost"
+msgstr "Mirium-hinta: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Saatavilla {{date}} ajan"
+
+msgid "dailyQuests/rewards"
+msgstr "Palkinnot:"
+
+msgid "dailyQuests/status"
+msgstr "Uuden päivittäisen tehtävän saamiseen {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Aseta kaikki ääninäyteltyä tapahtuman miehistön jäsentä (%(crew_members_names)s) mihin hyvänsä vaunuun tallissasi (yhden heistä tulee olla komentaja) aktivoidaksesi dynaamiset joukkuekeskustelut taistelussa.\nVaunuilla, joilla on viisi tai kuusi roolia, voi jäljellä olevat roolit täyttää millä hyvänsä miehistön jäsenillä."
+
+msgid "groupVoiceover/header"
+msgstr "Dynaamiset joukkuekeskustelut"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Tavoite tämän vaunun avaamiseksi on jo valittu. Katso sen ehdot ruudun oikeasta yläkulmasta."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Tavoite valittu"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Valitse vaunu liittyäksesi taisteluun."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Ei saatavilla"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Taistelut valitulla vaikeustasolla tai valitussa pelimuodossa eivät ole väliaikaisesti saatavilla teknisistä syistä."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Ei saatavilla"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Odota osaston palaavan edellisestä taistelusta liittyäksesi uuteen."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Ei saatavilla"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Yhteensopimaton vaikeustaso osastolle."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Ei saatavilla"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Ainutlaatuinen neljän henkilön miehistö."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Täysi, ainutlaatuinen miehistö"
+
+msgid "keyCard/body"
+msgstr "Klikkaa nähdäksesi saatavilla olevat keinot tapahtumavaluutan hankkimiseen."
+
+msgid "keys/accrued"
+msgstr "Saatu:"
+
+msgid "keys/battles"
+msgstr "• Tapahtumataisteluissa"
+
+msgid "keys/body"
+msgstr "Ainutlaatuista valuuttaa, jota käytetään etenemään \"Babylon: Pimeä torni\" -tapahtumassa ja saamaan arvokkaita tavaroita, joiden joukossa tapahtuman pääpalkinto. Voidaan ansaita tapahtuman taisteluissa ja ostaa paketeissa. Tuhoa vihollisvaunuja Babylon: Pimeän tornin taisteluissa kerätäksesi niin paljon materiaa kuin mahdollista ja ansaitaksesi avaimia."
+
+msgid "keys/boss"
+msgstr "• Pomo päihitetty:"
+
+msgid "keys/bottom"
+msgstr "Tapahtuman päättyessä (%(date)s) kaikki käyttämättömät avaimet poistetaan."
+
+msgid "keys/bundles"
+msgstr "• Osta tapahtuman paketeista"
+
+msgid "keys/daily"
+msgstr "• Päivittäinen vaunutehtävä"
+
+msgid "keys/effective"
+msgstr "• Tehokkuus taistelussa:"
+
+msgid "keys/gold"
+msgstr "• Osta kullalla"
+
+msgid "keys/header"
+msgstr "Salausavaimet"
+
+msgid "keys/howToEarn"
+msgstr "Miten ansaitaan"
+
+msgid "keys/howToUse"
+msgstr "Mihin käytetään"
+
+msgid "keys/howToUseDescr"
+msgstr "Käytä avaimia purkamaan tallenteiden salauksia, avaa uusia tavoitteita ja etene kohti tapahtuman pääpalkintoa. Voit myös käyttää lisää avaimia ohittaaksesi tavoitteita ja saavuttaaksesi palkinnot nopeammin."
+
+msgid "keys/inStock"
+msgstr "saatavilla"
+
+msgid "keys/secret"
+msgstr "• Salainen palkinto:"
+
+msgid "metaWidget/body"
+msgstr "Klikkaa nähdäksesi kaikki tapahtuman tavoitteet ja palkinnot."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Suorita tämän tallenteen taisteluehto purkaaksesi sen salauksen. Tätä ei voida jättää väliin."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Salauksen purkaminen ei saatavilla"
+
+msgid "metaWidget/header"
+msgstr "PALKINTOPOLKU"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Klikkaa valitaksesi, miten tämä tarina päättyy. Yhteisön suosuin valinta muovaa tulevia tapahtumia. Seuraa pelin portaalia päivitysten toivossa."
+
+msgid "missionTooltip/bottom"
+msgstr "Pura kaikkien tallenteiden salaus (osa tavoitteista voidaan ohittaa) saavuttaaksesi pääpalkinnon ennen tapahtuman päättymistä %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Tavoite %(current)s suoritettu, palkinnot saatu"
+
+msgid "missionTooltip/count"
+msgstr "Tavoite %(current)s / %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Pura salaus"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Suorita tavoite avataksesi salauksen purkamisen."
+
+msgid "missionTooltip/kingReward"
+msgstr "Tapahtuman pääpalkinto"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Tapahtuman pääpalkinto saatu"
+
+msgid "missionTooltip/received"
+msgstr "Tavoite %(current)s suoritettu, mutta tallenteen salausta ei purettu"
+
+msgid "missionTooltip/rewards"
+msgstr "Suorita tavoite saadaksesi palkintoja."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Pura tallenteen salaus saadaksesi palkinnot."
+
+msgid "missionTooltip/skip"
+msgstr "Ohita"
+
+msgid "shopWidget/body"
+msgstr "Klikkaa avataksesi pelinsisäisen Kaupan erikoisosio, jossa on eksklusiivisia tapahtuman tavaroita."
+
+msgid "shopWidget/header"
+msgstr "Tapahtumapaketit"
+
+msgid "teamList/actions/body"
+msgstr "Pikatoiminnot osastojen luomiseen ja kavereiden lisäämiseen/poistamiseen."
+
+msgid "teamList/actions/header"
+msgstr "Pikatoiminnot"
+
+msgid "teamList/anomalies/header"
+msgstr "Aktiiviset anomaliat"
+
+msgid "teamList/bossDamage/body"
+msgstr "Lajittele vain vaiheen 4 (pomotaistelu) aikana tehdyn vahingon mukaan.\nTätä vahinkoa ei lasketa mukaan avainpalkintoihin, mikäli joukkue epäonnistuu pomon päihittämisessä."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Tätä vahinkoa ei lasketa mukaan avainpalkintoihin, sillä joukkue epäonnistui pomon päihittämisessä."
+
+msgid "teamList/bossDamage/header"
+msgstr "Pomotaistelussa aiheutettu vahinko"
+
+msgid "teamList/damage/body"
+msgstr "Lajittele vaiheissa 1–3 aiheutetun vahingon mukaan."
+
+msgid "teamList/damage/header"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "teamList/keys/body"
+msgstr "Järjestä ansaittujen avaimien mukaan (näytetty arvo ei laske bonusavaimia, joita saa niitä vastaavan päivittäisen tehtävän suorittamisesta)."
+
+msgid "teamList/keys/header"
+msgstr "Avaimia ansaittu"
+
+msgid "teamList/kills/body"
+msgstr "Järjestä tuhottujen vihollisvaunujen mukaan."
+
+msgid "teamList/kills/header"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "teamList/name/header"
+msgstr "Pelaajan nimi"
+
+msgid "teamList/place/body"
+msgstr "Järjestä pelaajan sijoituksen mukaan."
+
+msgid "teamList/place/header"
+msgstr "Sijoitus joukkueen sisällä"
+
+msgid "teamList/squad/header"
+msgstr "Osasto on taktinen yksikkö pelaajien välistä yhteistyötä varten."
+
+msgid "teamList/vehicle/body"
+msgstr "Järjestä vaunutyypin ja nimen mukaan."
+
+msgid "teamList/vehicle/header"
+msgstr "Ajoneuvot"
+
+msgid "teamList/warned/body"
+msgstr "Tätä pelaajaa on rangaistu toimettomuudesta/karkuruudesta, eikä hän ole saanut mitään palkintoja tästä taistelusta."
+
+msgid "teamList/warned/header"
+msgstr "Varoitus"
+
+msgid "teamList/warned/self/body"
+msgstr "Sinua on rangaistu toimettomuudesta/karkuruudesta, etkä saanut mitään palkintoja tästä taistelusta."
+
+msgid "teamList/warned/self/header"
+msgstr "Varoitus"
+
+msgid "vehicle/bonusTitle"
+msgstr "Tuotot"
+
+msgid "vehicle/eventBonus"
+msgstr "Bonusavaimia on saatavilla päivittäisen tehtävän suorittamisesta tällä vaunulla."
+
+msgid "vehicle/state/default/title"
+msgstr "Valmiina taisteluun"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "Taistelussa"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "Taktisessa osastossa"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "Jonossa"
+
+msgid "vehicle/state/locked/title"
+msgstr "Lukittu"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Viiden ammuksen lipas antaa mahdollisuuden tehdä nopeasti suuria määriä vahinkoa."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Lipas"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Kolmen ammuksen järjestelmä, joka lyhentää tavanomaista aikaa automaattilataavien ammusten välissä."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Paranneltu automaattilataava tykki"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Tykki, jolla voi ampua jatkuvaa tulta"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Konetykki"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Parantaa vihollisvaunujen moduulien vahingoittamisen todennäköisyyttä."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Kriittisesti vahingoittava tykki"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Sirpalekranaatti-tykki kahden ammuksen automaattilatausjärjestelmällä."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Automaattilataava tykki"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Antaa valita syklisen ja peräkkäisen ampumisen välillä."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Kaksoistykki"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Antaa vaunusi moduuleille täyden suojan kriittiseltä vahingolta."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Kriittisen vahingon sietokyky"

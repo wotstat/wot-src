@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Abilità di combattimento"
+
+msgid "make_choice/server_error"
+msgstr "Operazione momentaneamente non disponibile. Riprova più tardi."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "RECLUTA"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Reclutato"
+
+msgid "notification/crew_reward/title"
+msgstr "Ricompensa ricevuta"
+
+msgid "open_artefact/server_error"
+msgstr "Operazione momentaneamente non disponibile. Riprova più tardi."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Chiavi di decodifica ricevute: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Ricevuta"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Chiavi di decodifica rimosse: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Decodifica"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Impossibile rifornire le Abilità di combattimento di %s. Problema tecnico."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Impossibile rifornire le Abilità di combattimento di %s. Fondi insufficienti."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Abilità di combattimento di %s rifornite. Hai speso "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Chiavi di decodifica ricevute"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Registrazioni disponibili per la decodifica"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Modalità: Babylon: Torre nera"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babylon: Torre nera (Normale)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babylon: Torre nera (Difficile)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babylon: Torre nera (Incubo)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Boss sconfitto"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Difficoltà"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normale"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Difficile"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Incubo"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Fasi completate: %(curPhase)s di %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Obiettivo completato!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Obiettivi completati!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Veicolo"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Speso: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Transazione finanziaria"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Puoi selezionare il livello di difficoltà nell'Officina di Babylon: Torre nera."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Difficoltà Difficile sbloccata"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Puoi selezionare il livello di difficoltà nell'Officina di Babylon: Torre nera."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Difficoltà Incubo sbloccata"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "Il veicolo %(vehicle)s è ora disponibile per le battaglie di Babylon: Torre nera."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Le battaglie di Babylon: Torre nera non sono al momento disponibili.\nRiprova più tardi."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Le battaglie di Babylon: Torre nera (%(difficulty)s) non sono al momento disponibili.\nRiprova più tardi."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Babylon: Torre nera non è al momento disponibile. Controlla il portale di gioco per aggiornamenti."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Il Comandante del Plotone ha cambiato la difficoltà in: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Il giocatore %(userName)s non ha sbloccato uno dei livelli di difficoltà."

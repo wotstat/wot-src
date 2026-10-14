@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s Vrije en Bemannings-XP voor %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "Voor %(effectHours)s %(effectValue)s ervaring verdiend in gevechten"
+msgstr "%(effectValue)s Gevechts-XP voor %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s credits verdiend in gevechten voor %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Dit voertuig is uitgerust met een raketwerper in de kanonmantel. Activee
 msgid "moduleInfo/closeBtn"
 msgstr "Sluiten"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Gevechtsgashendel"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Uitgerust met magazijnlaadsysteem op voertuigen:"
 
@@ -6162,6 +6165,12 @@ msgstr "(item(s))"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Samenvallend elektromechanisch vizier duur"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Cooldown"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Duur"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Cooldown"

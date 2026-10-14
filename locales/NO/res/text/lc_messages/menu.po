@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s på fri erfaring og besetningserfaring i %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s bonus for %(effectHours)s på erfaring tjent i kamp"
+msgstr "%(effectValue)s på erfaringspoeng i %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s i bonus for credits tjent i kamp for %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Dette kjøretøyet er utstyrt med en rakettutkaster montert i kanonens m
 msgid "moduleInfo/closeBtn"
 msgstr "Avslutt"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Gasspådrag"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Utstyrt med magasinladesystem på kjøretøy:"
 
@@ -6162,6 +6165,12 @@ msgstr "(stk)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Varighet for elektromekanisk stereoskopisk siktejustering"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Nedkjøling"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Varighet"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Nedkjøling"

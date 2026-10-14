@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Todos os Blocos de Dados estão concluídos!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Bloco de Dados {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Assuma o controlo das antenas. Mantenha a rede. Proteja a transmissão."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "O modo estará disponível por"
+
+msgid "bannerTooltip/header"
+msgstr "Sinal Negro"
+
+msgid "bannerTooltip/mode"
+msgstr "MODO"
+
+msgid "bannerTooltip/modeHint"
+msgstr "- mudar para outro modo de jogo"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "O desempenho do seu computador é insuficiente para este modo. Irá sofrer alguns problemas com os gráficos e o movimento do veículo. O encerramento do cliente também é provável."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "No caso de desempenho insuficiente, tente baixar as definições dos gráficos."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Este modo necessita de um alto desempenho do seu computador. Poderá sofrer alguns problemas com o carregamento dos mapas, gráficos e o movimento do veículo. No caso do desempenho ser insuficiente, experimente uma qualidade gráfica mais baixa nas Definições."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Baixo Desempenho"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "O modo é exigente com o computador"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Desempenho Reduzido"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "Pontos de Energia recuperados"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Pontuação de Serviço"
+
+msgid "battleLoading/description"
+msgstr "Assuma o controlo das antenas. Mantenha a rede. Proteja a transmissão."
+
+msgid "battleLoading/header"
+msgstr "Sinal Negro"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "Capturar uma antena restaura uma pequena quantidade de PE do seu veículo. Utilize este bónus para manter a posição e preparar-se para o contra-ataque."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Proteger e Recuperar"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "As antenas não podem ser capturadas enquanto veículos inimigos estiverem presentes. Elimine quaisquer intrusos para continuar a proteger um objetivo."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Captura Disputada"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "Após o reposicionamento, o seu veículo fica protegido contra danos durante 10 segundos. Utilize este tempo para regressar ao combate ou procurar cobertura."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Protecção de Reposicionamento"
+
+msgid "battleQueue/title"
+msgstr "Sinal Negro"
+
+msgid "capturingIndicator/captured"
+msgstr "Antena Capturada"
+
+msgid "capturingIndicator/capturing"
+msgstr "A Capturar Antena"
+
+msgid "capturingIndicator/contesting"
+msgstr "Antena Disputada"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "A Neutralizar Antena"
+
+msgid "endGame/reason/210"
+msgstr "Ambas as equipas alcançaram o limite de Pontos de Sinal"
+
+msgid "endGame/reason/3"
+msgstr "Limite de tempo atingido"
+
+msgid "endGame/reason/6/lose"
+msgstr "O inimigo alcançou o limite de Pontos de Sinal"
+
+msgid "endGame/reason/6/win"
+msgstr "A sua equipa alcançou o limite de Pontos de Sinal"
+
+msgid "endGame/reason/7"
+msgstr "Limite de tempo atingido"
+
+msgid "notifications/progression/header"
+msgstr "Parabéns!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Detalhes"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Recompensas por concluir a etapa de Progressão&nbsp;%(stageIdx)s: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Todos os Blocos de Dados foram concluídos."
+
+msgid "progression/completedTitle"
+msgstr "Progressão concluída!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Tempo Restante:"
+
+msgid "progression/dailyMissions/title"
+msgstr "Ordens de Campo"
+
+msgid "progression/description"
+msgstr "Conclua missões diárias em batalhas do Sinal Negro para avançar na Progressão."
+
+msgid "progression/info_button/body"
+msgstr "Clique para informação adicional"
+
+msgid "progression/info_button/header"
+msgstr "Sobre o Sinal Negro"
+
+msgid "progression/widget/stageLabel"
+msgstr "Bloco Dados %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Concluiu todos os Blocos de Dados!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Concluídas"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Recompensas do Bloco de Dados"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Bloco de Dados Atual"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "As missões diárias reiniciam em:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Sinal Negro"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Progresso Atual"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "A Progressão está temporariamente indisponível."
+
+msgid "progression/widget/unavailable"
+msgstr "Progressão Indisponível"
+
+msgid "progressionView/stateHeader"
+msgstr "Progressão do Sinal Negro"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Cancelar"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "A sua equipa ainda precisa de si! Se abandonar a batalha, a sua equipa ficará em desvantagem e não receberá nenhum bónus nem progredirá na missão."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Sair"
+
+msgid "quitBattle/leaver/title"
+msgstr "Está a abandonar a batalha"
+
+msgid "respawnTimer/description"
+msgstr "Uma posição de reposicionamento diferente pode dar-lhe uma vantagem estratégica."
+
+msgid "respawnTimer/title"
+msgstr "Lançamento em:"
+
+msgid "rewardScreen/button"
+msgstr "Afirmativo!"
+
+msgid "rewardScreen/title"
+msgstr "Recompensas do Bloco de Dados Desbloqueadas"
+
+msgid "timersPanel/invulnerable"
+msgstr "Invulnerável"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Ganhe Pacotes de Dados para concluir Blocos de Dados e obter recursos valiosos, incluindo uma recompensa significativa. Os Pacotes de Dados podem ser ganhos ao causar dano, destruir inimigos em batalha, capturar pontos e concluir missões diárias."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Pacote de Dados"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Todos os Veículos"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Reiniciar Filtros"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Reinicie os filtros para ver os veículos disponíveis"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "Esta lista não contém veículos adequados para este modo."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Sem veículos adequados"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Nenhum veículo correspondente encontrado"
+
+msgid "welcomeScreen/button"
+msgstr "Continuar"
+
+msgid "welcomeScreen/description1"
+msgstr "Você faz parte de uma força especial blindada com a missão de proteger e manter uma rede secreta numa zona contestada. Mantenha a rede sob o seu controlo a todo o custo."
+
+msgid "welcomeScreen/description2"
+msgstr "Alguém se deu a um grande trabalho para manter estas informações secretas. Conclua missões para recuperar fragmentos encriptados."
+
+msgid "welcomeScreen/description3"
+msgstr "Conclua os Blocos de Dados para receber recompensas valiosas das missões do evento."
+
+msgid "welcomeScreen/header1"
+msgstr "Capture as Antenas"
+
+msgid "welcomeScreen/header2"
+msgstr "Descodifique a Transmissão"
+
+msgid "welcomeScreen/header3"
+msgstr "Progressão e Recompensas"
+
+msgid "welcomeScreen/title"
+msgstr "Sinal Negro"

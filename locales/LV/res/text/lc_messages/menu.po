@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s Brīvajai un Apkalpes Pieredzei uz %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s bonuss uz %(effectHours)s uz pieredzi nopelnītu kaujā"
+msgstr "%(effectValue)s kaujas XP uz %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s bonuss kaujā nopelnītajiem kredītiem uz %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Šis tanks ir aprīkots ar raķešu palaišanas iekārtu, kas uzstādīt
 msgid "moduleInfo/closeBtn"
 msgstr "Aizvērt"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Kaujas droselis"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Aprīkots ar magazīnu pārlādēšanās sistēmu bruņutehnikā:"
 
@@ -6162,6 +6165,12 @@ msgstr "(gab.)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Saskaņotā elektromehāniskā tēmēkļa darbības ilgums"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Atjaunošanās laiks"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Darbības ilgums"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Atjaunošanās laiks"

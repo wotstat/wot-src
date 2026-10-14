@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Zpět na truhly"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Každá %(guaranteed0)s. truhla zaručeně obsahuje vozidlo VIII.–IX.
 msgid "infoPage/header/description"
 msgstr "Otevřete truhlu pro šanci získat cenné herní předměty! Více podrobností níže."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Z %(name) (otevřeno %(boxesCount) truhel)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Nemáte žádné truhly.\nMůžete si je pořídit v herním obchodě."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Dostupné truhly: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Nejsou dostupné žádné truhly"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Pokud již vlastníte všechna vozidla ze seznamu možného obsahu truhly, pak všechna následující vozidla, která z truhel získáte, budou kompenzována ve zlaťácích."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) truhla"
 msgstr[1] "%(remainingCount) truhly"
 msgstr[2] "%(remainingCount) truhel"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Zaručená odměna je vozidlo ze seznamu možného obsahu truhly.\nPokud otevřete %(remainingCount) truhel, aniž by vám takové vozidlo padlo, při otevření %(count). truhly takové vozidlo padne. Když k tomu dojde, počítadlo se vynuluje."

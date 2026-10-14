@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Habilidade de Combate"
+
+msgid "make_choice/server_error"
+msgstr "A operação está temporariamente indisponível. Tente novamente mais tarde."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "RECRUTA"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Recrutado"
+
+msgid "notification/crew_reward/title"
+msgstr "Recompensa reclamada"
+
+msgid "open_artefact/server_error"
+msgstr "A operação está temporariamente indisponível. Tente novamente mais tarde."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Chaves de Desencriptação recebidas: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Recibo"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Chaves de Desencriptação removidas: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Desencriptação"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Falha a reabastecer as Habilidades de Combate para o %s. Falha técnica."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Falhou a reabastecer as Habilidades de Combate para o %s. Fundos insuficientes."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Habilidades de Combate para o %s foram reabastecidas. Gastou "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Chaves de Descodificação recebidas"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Registos disponíveis para descodificação"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Modo: Babilónia: Torre Negra"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babilónia: Torre Negra (Normal)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babilónia: Torre Negra (Difícil)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babilónia: Torre Negra (Pesadelo)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Boss derrotado"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Dificuldade"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normal"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Difícil"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Pesadelo"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Fases concluídas: %(curPhase)s de %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Objetivo concluído!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Objetivos concluídos!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Veículo"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Gasto%(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Transação Financeira"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Pode selecionar o nível de dificuldade na Garagem Babilónia: Torre Negra."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Dificuldade Difícil Desbloqueada"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Pode selecionar o nível de dificuldade na Garagem Babilónia: Torre Negra."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Dificuldade Pesadelo Desbloqueada"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "O %(vehicle)s está agora disponível para as batalhas do Babilónia: Torre Negra."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "As batalhas em Babilónia: Torre Negra estão temporariamente indisponíveis.\nTente novamente mais tarde."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "As batalhas em Babilónia: Torre Negra (%(difficulty)s) estão temporariamente indisponíveis.\nTente novamente mais tarde."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "O Babilónia: Torre Negra está atualmente indisponível. Verifique o portal do jogo para atualizações."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "O Comandante do Pelotão alterou a dificuldade para: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "O jogador %(userName)s não desbloqueou um dos níveis de dificuldade."

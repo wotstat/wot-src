@@ -145,25 +145,31 @@ msgstr "Eliittiristi"
 msgid "attachment/Challenger_s_Bounty/Cus_233_Challenges_Armor"
 msgstr "Repivä ammus"
 
-msgid "attachment/Doomguys_Keepsakes"
+msgid "attachment/Dark_Tower_Trophies"
+msgstr "Pimeän tornin palkinnot"
+
+msgid "attachment/Dark_Tower_Trophies/Cus_290_HW_MagneticHarpoon"
+msgstr "Stasis-harppuuna"
+
+msgid "attachment/Doomgyus_Keepsakes"
 msgstr "Doomguyn matkamuistot"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_309_Classic_HUD"
+msgid "attachment/Doomgyus_Keepsakes/Cus_309_Classic_HUD"
 msgstr "Klassinen HUD"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_309_Classic_HUD/description"
+msgid "attachment/Doomgyus_Keepsakes/Cus_309_Classic_HUD/description"
 msgstr "Terveys, panssari ja yksi hyvin päättäväinen muki. Kaikki, mitä merijalkaväen mies tarvitsee tervehtiäkseen koko joukkoa kutsumattomia vieraita ja laittaakseen ne kaikki räjähtämään."
 
-msgid "attachment/Doomguys_Keepsakes/Cus_310_DOOM_Ornament"
+msgid "attachment/Doomgyus_Keepsakes/Cus_310_DOOM_Ornament"
 msgstr "Doom-koriste"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_311_Chaingun"
+msgid "attachment/Doomgyus_Keepsakes/Cus_311_Chaingun"
 msgstr "Ketjutykki"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_312_Demon_Disposal_Kit"
+msgid "attachment/Doomgyus_Keepsakes/Cus_312_Demon_Disposal_Kit"
 msgstr "Demoninhävitystarvikkeet"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_313_Marines_Stash"
+msgid "attachment/Doomgyus_Keepsakes/Cus_313_Marines_Stash"
 msgstr "Merijalkaväkeläisen kätkö"
 
 msgid "attachment/Expedition_Essentials"
@@ -204,6 +210,18 @@ msgstr "Kannibalisoitu torni"
 
 msgid "attachment/Field_Salvage/Cus_238_LS_TrophyWheels"
 msgstr "Kannibalisoidut pyörät"
+
+msgid "attachment/Field_Salvage/Cus_289_HW_SpiderSpotlight"
+msgstr "Kaikuoptiikat"
+
+msgid "attachment/Field_Salvage/Cus_291_HW_SpareBatteries"
+msgstr "Harppuunan akkupakkaus"
+
+msgid "attachment/Field_Salvage/Cus_292_HW_PowerCollector"
+msgstr "Ultratiheän miriumin kerääjä"
+
+msgid "attachment/Field_Salvage/Cus_293_HW_SpiderMines"
+msgstr "Monarkin miinat"
 
 msgid "attachment/Football_Fever"
 msgstr "Jalkapallokuume"
@@ -390,6 +408,24 @@ msgstr "Pääskysleija"
 
 msgid "attachment/Traditional_Toys/Cus_263_FCN_Tricycle"
 msgstr "Kolmipyörä"
+
+msgid "attachment/Transmission_Tech"
+msgstr "Lähetystekniikka"
+
+msgid "attachment/Transmission_Tech/Cus_314_Telemetry_Plotter"
+msgstr "Telemetrian kartoittaja"
+
+msgid "attachment/Transmission_Tech/Cus_315_Orbiter_Prototype"
+msgstr "Satelliitin prototyyppi"
+
+msgid "attachment/Transmission_Tech/Cus_316_EMP_Jammer"
+msgstr "EMP-jammeri"
+
+msgid "attachment/Transmission_Tech/Cus_317_Satellite_Tracker"
+msgstr "Satelliitin jäljitin"
+
+msgid "attachment/Transmission_Tech/Cus_318_Encryption_Station"
+msgstr "Koodausasema"
 
 msgid "attachment/Zero_Legacy"
 msgstr "Zeron perintö"
@@ -4855,6 +4891,9 @@ msgstr "?empty?"
 msgid "camouflage/fort/label"
 msgstr "Teollisuusresurssit"
 
+msgid "camouflage/fr26_style1/label"
+msgstr "Signaalin metsästäjä"
+
 msgid "camouflage/france/bicolor/Winter/description"
 msgstr "Talvikuvio, joka maalattiin vallattujen ranskalaisvaunujen päälle, jotka taistelivat akselivaltojen panssarivoimien kanssa Itärintamalla."
 
@@ -5298,6 +5337,12 @@ msgstr "Jatkosota-lukio"
 
 msgid "camouflage/girls_und_panzer_kabasan/label"
 msgstr "Kabasanin joukkue"
+
+msgid "camouflage/girls_und_panzer_leopon/label"
+msgstr "?empty?"
+
+msgid "camouflage/girls_und_panzer_team_leoponsan/label"
+msgstr "?empty?"
 
 msgid "camouflage/give_paw/description"
 msgstr "?empty?"
@@ -5931,6 +5976,18 @@ msgstr "?empty?"
 
 msgid "camouflage/lunar_ny_ox/label"
 msgstr "Härkäratsuväki"
+
+msgid "camouflage/maneuvers_2026_1/label"
+msgstr "Atlaksen ammus"
+
+msgid "camouflage/maneuvers_2026_2/label"
+msgstr "Sodantuojan torvi"
+
+msgid "camouflage/maneuvers_2026_3/label"
+msgstr "Skorpionin pisto"
+
+msgid "camouflage/maneuvers_2026_4/label"
+msgstr "Kameleontin häive"
 
 msgid "camouflage/manners/description"
 msgstr "?empty?"
@@ -8223,6 +8280,24 @@ msgstr "Kenraalin käsky"
 
 msgid "camouflage/wci2025_progressive_st3/label"
 msgstr "Voittava isku"
+
+msgid "camouflage/wci2026_progressive_st1/description"
+msgstr "Summa feeniksin siluetti hädin tuskin kiiluu panssarin läpi merkkinä sitä, että tie turnaukseen on vasta alkanut. Perusvaihe, joka on saatavilla kaikille tyylin ostaneille."
+
+msgid "camouflage/wci2026_progressive_st1/label"
+msgstr "Feeniks herää"
+
+msgid "camouflage/wci2026_progressive_st2/description"
+msgstr "Hopeiset linjat nousevat tumman metallin pintaan feeniksin levittäessä siipensä."
+
+msgid "camouflage/wci2026_progressive_st2/label"
+msgstr "Feeniks nousee"
+
+msgid "camouflage/wci2026_progressive_st3/description"
+msgstr "Feeniks nousee kultaisista ja violeteista liekeistä mestarille sopivalla arvolla. Tyylin viieinen vaihe, joka on heille, jotka kulkivat koko matkan ja nappasivat voiton."
+
+msgid "camouflage/wci2026_progressive_st3/label"
+msgstr "Feeniksin voitto"
 
 msgid "camouflage/wci_2024_1/description"
 msgstr "?empty?"
@@ -10984,6 +11059,9 @@ msgstr "1UP"
 msgid "emblem/cool/sticker_74"
 msgstr "Lumihiutale"
 
+msgid "emblem/cool/sticker_75"
+msgstr "?empty?"
+
 msgid "emblem/group1/animal_1"
 msgstr "Leijona"
 
@@ -13662,6 +13740,15 @@ msgstr "Pelipäivä"
 
 msgid "emblem/special/sticker_884"
 msgstr "Lehmäkuvio"
+
+msgid "emblem/special/sticker_886"
+msgstr "Signaalin metsästäjä"
+
+msgid "emblem/special/sticker_887"
+msgstr "Leopon"
+
+msgid "emblem/special/sticker_888"
+msgstr "WCI 2026"
 
 msgid "filter/popover/bonusType/title"
 msgstr "Bonustyypit"
@@ -16633,6 +16720,12 @@ msgstr "Vaara! Korkeajännite"
 msgid "inscription/special/special_885"
 msgstr "Tunne voima"
 
+msgid "inscription/special/special_886"
+msgstr "Lähetys varmistettu"
+
+msgid "inscription/special/special_887"
+msgstr "Lähetysvälineet tarkastettu"
+
 msgid "inscription/special/special_90"
 msgstr "Suurfinaalit 2017, Moskova"
 
@@ -19564,6 +19657,9 @@ msgstr "Pin-up Kei"
 msgid "projection_decals/pin_up/projection_decal_72"
 msgstr "Pin-Up Erwin"
 
+msgid "projection_decals/pin_up/projection_decal_73"
+msgstr "Pin-Up Nakajima"
+
 msgid "projection_decals/progression"
 msgstr "Kehittyvät"
 
@@ -20107,17 +20203,41 @@ msgstr "Sähköäly"
 msgid "projection_decals/special/projection_decal_1114"
 msgstr "Vihreä aave"
 
+msgid "projection_decals/special/projection_decal_1119"
+msgstr "Satelliitti"
+
 msgid "projection_decals/special/projection_decal_112"
 msgstr "Metallisodat Top-10"
 
 msgid "projection_decals/special/projection_decal_112/description"
 msgstr "Myönnetään maailmankartan \"Metallisodat\" -tapahtuman 10 parhaan klaanin jäsenille."
 
+msgid "projection_decals/special/projection_decal_1120"
+msgstr "Switchblade"
+
+msgid "projection_decals/special/projection_decal_1121"
+msgstr "Chibi-Nakajima"
+
+msgid "projection_decals/special/projection_decal_1122"
+msgstr "Jokivarren köysirata"
+
+msgid "projection_decals/special/projection_decal_1122/description"
+msgstr "Isäntäkaupungin ikoninen köysirata, joka keinuu joen yläpuolella. Tunnustus tapahtuman kodille ja matkalle kohti huippua."
+
+msgid "projection_decals/special/projection_decal_1123"
+msgstr "Tulipata"
+
+msgid "projection_decals/special/projection_decal_1123/description"
+msgstr "Kupliva, tulinen pata syömätikkujen kanssa valmiina jakamaan isäntäkaupungin ikonisimman ruokalajin makua."
+
 msgid "projection_decals/special/projection_decal_113"
 msgstr "Metallisodat Top-100"
 
 msgid "projection_decals/special/projection_decal_113/description"
 msgstr "Myönnetään maailmankartan \"Metallisodat\" -tapahtuman 100 parhaan klaanin jäsenille."
+
+msgid "projection_decals/special/projection_decal_1135"
+msgstr "Turboahdin"
 
 msgid "projection_decals/special/projection_decal_114"
 msgstr "Metallisotien osallistuja"
@@ -24415,6 +24535,9 @@ msgstr "Spraymaali"
 msgid "repaint/forged_flame"
 msgstr "Liekeissä taottu"
 
+msgid "repaint/fr26_style1"
+msgstr "Signaalin metsästäjä"
+
 msgid "repaint/france_base_color"
 msgstr "Ranskan perusväri"
 
@@ -24517,11 +24640,17 @@ msgstr "Hiilenmusta"
 msgid "repaint/girls_und_panzer_kabasan_style"
 msgstr "Kabasanin joukkue"
 
+msgid "repaint/girls_und_panzer_leopon"
+msgstr "?empty?"
+
 msgid "repaint/girls_und_panzer_rabbit"
 msgstr "Sammal"
 
 msgid "repaint/girls_und_panzer_saunders"
 msgstr "Saunders Universityn lukio"
+
+msgid "repaint/girls_und_panzer_team_leoponsan"
+msgstr "?empty?"
 
 msgid "repaint/girls_und_panzer_turtle"
 msgstr "Hiekka"
@@ -26377,6 +26506,12 @@ msgstr "Kampfgruppe Schneide"
 msgid "special_style/G16_PzVIB_Tiger_II_3DSt_NEx_desc/long"
 msgstr "\"Onko sinulla varasuunnitelmaa? Katso nyt Kurt, mitä olemme tehneet viime viikon. Kunniakas taistelumatkamme koostuu öisitä patikkareissuista polttoaineen hakuun. Syöksymme tuhoutuneelta ajoneuvolta toiselle rottien lailla yrittäen pihistää hieman polttoainetta herättääksemme tämän kirotun vaunun henkiin. Etsimme varaosia, aseita, varusteita... Mitä hyvänsä, mikä sopii tähän vaunuun. Luojan kiitos täällä on paljon hylättyjä vaunuja. Yöllä metsästämme osia ja polttoainetta, sen jälkeen etenemme muutaman kilometrin seuraavana päivänä. Kunnes jotain hajoaa tai polttoainetankki kuivuu taas. Suoraan eteenpäin. Ei karttoja tai radioa – vain eteenpäin toivoen, että löydämme edes jonkun omalla puolellamme olevan. Mikä päivä on Kurt? Missä on kampfgruppemme? Olemmeko voitolla vai häviöllä? Onko tämä se sota, johon olemme valmistautuneet? Tietenkään et voi vastata minulle, rakas ystäväni. Olen tulossa hulluksi, jos puhun taas katkaistulle tuntolaatallesi.\n\nOnko meillä varasuunnitelmaa? Meillä ei ole edes varsinaista suunnitelmaa...\""
 
+msgid "special_style/G171_E77_HW26_3Dst"
+msgstr "Monarkki"
+
+msgid "special_style/G171_E77_HW26_3Dst_desc/long"
+msgstr "\"Tuo pirun metalliläjä katsoo suoraan minuun!\n\nSen optiikat kiiltävät kuin se olisi tietoinen olento. Aivan kuin järkäle hengittäisi panssarinsa sisällä, kun taas sen kylkiin vyötetyt miinat näyttävät sätkyttelevän pieniä jalkojaan valmiina hyppäämään. Mitkä miinat, saatat kysyä? Mistä ne tulivat? Hyvä kysymys. Tyypit kiskoivat tämän vaunun jostain syvästä raosta itsessään todellisuudessa. Ne sanovat, että se on täysin turvallinen ja on loistava ajaa. Ihan varmasti...\n\nMutta en pääse eroon tunteesta, että tämä kone on elossa. Ja piru vieköön, että haluankin kokeilla sitä taistelussa!\""
+
 msgid "special_style/G172_PzVIB_Tiger_II_DIT_3DSt"
 msgstr "Erika"
 
@@ -26418,6 +26553,12 @@ msgstr "Kabasanin joukkueen lippu"
 
 msgid "special_style/G191_StuG_IIIF_A_3Dst_desc/long"
 msgstr "Löydettyään pitkään kadoksissa olleen StuG III Ausf. F vaunun järvestä etsintöjen aikana Oarain tyttölukion mailla Kabasanin joukkue työskenteli ankarasti palauttaakseen vaunun kunnian päiviensä kuosiin. Vaunu oli aikanaan koristeltu räikeästi, mutta on sen jälkeen maalattu käytännöllisellä harmaalla, joka heijastelee joukkueen osaamista naamioitumisessa ja väijytyksissä."
+
+msgid "special_style/G204_PzVI_Tiger_P_CFE_A_3Dst"
+msgstr "Tiger (P) Leoponsan"
+
+msgid "special_style/G204_PzVI_Tiger_P_CFE_A_3Dst_desc/long"
+msgstr "Pz.Kpfw. VI Ausf.P tai tutummin VK 45.01 (P) tai Prosche Tiger oli yksi omaleimaisimmista saksalaisista raskaista vaunuista. Se oli varustettu kahdella ilmajäähdytetyllä Typ 101 moottorilla ja sähköisellä vaihteistolla. Monimutkaisen ja epäluotettavan virtalähteen vuoksi vaunua ei koskaan massatuotettu. Oarain tyttölukion ansiosta se on saanut kuitenkin uuden elämän. Tämä vaunu löydettiin koululaivan pohjalta ja se palautettiin loistoonsa autokerhon toimesta, josta tuli myöhemmin sen miehistö: Leoponsan-joukkue. Insinööritaitojensa ansiosta tytöt eivät ainoastaan ylläpitäneet temperamenttisen Porsche Tigerin taisteluvalmiutta, vaan myös päivittivät sitä laitteilla, jotka tarjoavat lyhyitä vauhtipyrähdyksiä."
 
 msgid "special_style/G42_Maus_BPXVIII_3Dst"
 msgstr "Eisenblick"
@@ -26475,6 +26616,12 @@ msgstr "Reiter"
 
 msgid "special_style/G89_Leopard1_BVII_3DSt_desc/long"
 msgstr "\"Lopultakin! Kahden viikon ajan meitä pidettiin kasarmille suljettuina. Nyt viimein tarjolla on pään selvittävää toimintaa! Yksiköllä ei ole mitään tekemistä. Me vain istumme täällä seuraamassa hiljaista sotaa radio-operaattorien ja koodinpurkajien kesken. Uskon, että käskymme sisältävät radioviestit kaapataan kerta toisensa jälkeen, joten siksi päämaja lähettää väärääkin tietoa. Mutta he eivät ottaneet huomioon, että meidän väkemme luulee sitä oikeaksi. Sitten he saivat peruutuksen. Vai oliko sekin kaapattu sanoma? Mikä sotku! Katselisin mieluummin maalin kuivumista. No, joka tapauksessa olemme liikkeellä ja jokin kertoo, minulle, että raskaiden vaunujen lähettäminen kaupunkiympäristöön on... ei ainakaan sitä, mitä odotimme? Toivottavasti kukaan ei tajua, etten ole varma, mikä päämaja tämän käskyn lähetti. Olen sangen tottunut kaupunkien katuihin. Mutta viime kerralla niillä käydessäni olin ratsuväkeä.\n\nRichard eins neun sieben neun–lähetys päättyy.\""
+
+msgid "special_style/G89_Leopard1_KS_3Dst"
+msgstr "Automaton"
+
+msgid "special_style/G89_Leopard1_KS_3Dst_desc/long"
+msgstr "Vaikka Automaton on ihmeellinen katsoa, ei se vaivaudu tavoittelemaan eleganssia. Se on raa'an voiman ruumiillistuma; männät iskevät kuin tehtaan koneet, pakoputket savuavat kuin tehtaan piiput. Höyryn mahtavana aikakautena syntynyt vaunu eli pidempään kuin noen tahraamat kädet, jotka takoivat sen, ja se näytti kaapin paikan modernin sodan teräsjäteille, jotka kalpenivat sen kellopelimäisen loiston edessä. Se jyrisi taisteluun uudempien koneiden rinnalla ja taistelun dieselinhuruisen kakofonian lopulta vaiettua jäljelle jäi vain Automatonin vakaa, väsymätön kolina."
 
 msgid "special_style/G89_Leopard1_WT24_Mini_Boss_3Dst"
 msgstr "EOS 1"
@@ -26559,6 +26706,12 @@ msgstr "Kuningas ja kotimaa"
 
 msgid "special_style/GB136_Churchill_BPXIV_3Dst_desc/long"
 msgstr "\"Totta puhuen tiesin Ranskasta vain vähän ennen sotaa. Manchester on lähempänä Irlantia kuin Ranskaa. Isä toki soti Belgiassa. Ei hän siitä paljoa puhunut. On outoa, miten me tapasimme kutsua sitä Suureksi sodaksi – ainoaksi laatuaan kuin ikinä ei voisi olla enää toista sen kaltaista. Ehkä oli naiivia ajatella niin. Ihmiskunnan historia on sodan historiaa. Ja minä tiesin, että ajan koittaessa – ja sodan koittaessa – minulla olisi siinä oma osani esitettäväksi. Kuningas, kotimaa, kunnia, velvollisuus – niihin minut opetettiin uskomaan ja niitä puolustamaan. Hinnalla millä hyvänsä.\""
+
+msgid "special_style/GB142_FV230_Canopener_HW26_3Dst"
+msgstr "Harpuunoija"
+
+msgid "special_style/GB142_FV230_Canopener_HW26_3Dst_desc/long"
+msgstr "\"Jokaisen kaikuvaunun sisällä toimii eräänlainen mirium-reaktori. Se pitää materiaa vaunun muodossa. Kun vihollinen kärsii tarpeeksi vahinkoa, ei ydin enää voi ylläpitää tuota muotoa ja mirium palaa nestemäiseen tilaansa. Silloin jäljelle ei jää mitään tutkittavaa.\n\nMutta onnistuin kehittämään erikoisammuksen. Periaate sen takana on yksinkertainen: heti saatuamme vaunun avutomaksi ammumme siihen \"ladatun gravitaatio ankkurin\". Ankkuri ottaa ohjat mirium-reaktorilta ja säilyttää kaikuvaunun muodon, kunnes noutotiimi saa siirrettyä näytteen staasikammioon. Kapteeni Smith hädin tuskin luottaa tähän teknologiaan. Hän menee hangaariin joka aamu kierrokselleen ja koputtaa rystysillään runkoja. Tarkastaa ne. Hän on huolissaan, että jonain päivänä yksi niistä herää ja tarjoilee meille tarpeettoman jännittävän aamun. Ymmärrän häntä. Mutta luotan laskelmiini ja hän luottaa vaistoihinsa. Näin se menee.\""
 
 msgid "special_style/GB142_FV230_Canopener_KS_3Dst"
 msgstr "Kaksosvartijat"
@@ -26878,6 +27031,12 @@ msgstr "Hurrikaani"
 msgid "special_style/Pl21_CS_63_OSP3_3DSt_desc/long"
 msgstr "Tämä puolalainen keskiraskas vaunu on myyttisen, lumivalkean ja siivekkään Pegasos-ratsun ruumiillistuma. Tällä kertaa sitä ei voi kesyttää Bellerofon tai Zeus ja vain sen arvoiset komentajat saavat siitä taisteluihinsa luotettavan toverin, joka on valmis matkaamaan maailman ääriin ja lyömään polvilleen jokaisen, joka asettuu sen tielle."
 
+msgid "special_style/Pl27_SDP_Wz_66T_WCI_3Dst"
+msgstr "Dream Chaser"
+
+msgid "special_style/Pl27_SDP_Wz_66T_WCI_3Dst_desc/long"
+msgstr "Dream Chaser on omistettu kaikille haastajille, jotka eivät koskaan lakkaa etenemästä. Jokainen lataus on osoitus loputtomasta intohimosta ja sinnikkyydestä. Mustat ja kultaiset feeniksin höyhenet virtaavat sen teräsrungon läpi kuin horjumaton usko, joka palaa syvällä sydämessäsi. Olipa matka kuinka vaikea tahansa, voitat vastoinkäymiset ja koet oman kunnian hetkesi."
+
 msgid "special_style/Pl29_NC_Wz_70T_BPXVI_3Dst"
 msgstr "Upał"
 
@@ -26958,6 +27117,12 @@ msgstr "Obsidiaani"
 
 msgid "special_style/R205_Tank_Rozanova_3Dst_HW23_desc/long"
 msgstr "\"Vaunun sisältä löytyi viesti: \"Poistu vaunusta, ota kaasunaamari pois päältä ja vedä syvä henkäys raikasta ilmaa... mikä voisi olla parempaa? Sanotaan, ettei sen jälkeen voi kääntyä takaisin. Mutta sillä ei ole väliä. Lähden ulos täältä ja jätän vaunun kuin tyhjän kuoren. Otan miriumin voiman omiin käsiini ja teen, mitä pitää. Älä jää ikävöimään minua, Hope.\""
+
+msgid "special_style/R236_Object_265_II_HW26_3Dst"
+msgstr "Pimennys"
+
+msgid "special_style/R236_Object_265_II_HW26_3Dst_desc/long"
+msgstr "Koodinimen \"Pimennys\" saanut vaunu löydettiin anomalian vaiheesta lähellä Pimeänä tornina tunnettua kokonaisuutta olevasta vaiheesta. Näyte tuotiin Babylon -tutkimuskeskukseen asiantuntijoiden läpikotaisin tutkittavaksi.\n\nVaunu on varustettu kokeellisella laajakaistaisella signaalin vaimennusyksiköllä, joka saa virtansa ultratiheästä miriumista. Tietojemme mukaan laitteen kehittivät tutkimusmatkalla olleet insinöörit tavoitteenaan kytkeä Pimeän tornin puolustusjärjestelmät pois käytöstä. Paikalta löytyneistä jäljistä päätellen vaunu otti osaa viimeiseen taisteluun Tornilla massiivisen mekaanisen Hämähäkin neutraloimiseksi. Se hylättiin pian tämän jälkeen. Vaunun miehistö evakuoitiin todennäköisesti Mardukin kyydissä, joka jatkoi sitten matkaansa syvemmälle anomaliaan.\n\nPimennyksen järjestelmiä pidettiin äärimmäisen tehkkaina: se oli kestävä ja pärjäsi loistavasti vihamielisissa olosuhteissa. Tutkimusten päätteeksi sotilaskomitea päätti suosittaa vaunun palauttamista aktiivipalvelukseen."
 
 msgid "special_style/R40_T-54_3Dst_HW20"
 msgstr "Malakiitti"
@@ -28292,7 +28457,7 @@ msgid "special_style/bp2026_october_3_desc"
 msgstr "Jaa kipua tässä brutaalissa kaikkien vuodenaikojen tyylissä."
 
 msgid "special_style/bp2026_october_3_desc/long"
-msgstr "\"Tulen ja hävityksen aikakaudella, kun Helvetin legioonat ensi kerran astuivat Argent D'Nuriin, tuli toinenkin... ulkopuolinen, jonka tie heidän maailmaansa oli verestä taottu, sillä demonit eivät voineet paeta hänen vihaansa.\"\n\nDemonit pyyhkäisivät kuolevaisten valtakuntien halki. Nyt taas yksi maailma seisoi tuhon partaalla. Vartijat taistelivat urheasti, mutta kukaan ei kyennyt vastustamaan loputtomia laumoja. Paitsi yksi. He eivät tienneet hänen nimeään eivätkä hänen alkuperäänsä. He tiesivät vain, että yksin hänellä oli voima repiä ja raastaa heidän pelastuksensa pois kadotuksen kidasta. \n\nJa niin, kun kaikki toivo näytti menetetyltä, he lähettivät matkaan Slayerin."
+msgstr "\"Tulen ja hävityksen aikakaudella, kun Helvetin legioonat ensi kerran astuivat Argent D'Nuriin, tuli toinenkin... ulkopuolinen, jonka tie heidän maailmaansa oli verestä taottu, sillä demonit eivät voineet paeta hänen vihaansa.\"\n\nDemonit pyyhkäisivät kuolevaisten valtakuntien halki. Nyt taas yksi maailma seisoi tuhon partaalla. Vartijat taistelivat urheasti, mutta kukaan ei kyennyt vastustamaan loputtomia laumoja. Paitsi yksi. He eivät tienneet hänen nimeään eivätkä hänen alkuperäänsä. He tiesivät vain, että yksin hänellä oli voima repiä ja raastaa heidän pelastuksensa pois kadotuksen kidasta.\n\nJa niin, kun kaikki toivo näytti menetetyltä, he lähettivät matkaan Slayerin."
 
 msgid "special_style/bp2026_september_dune"
 msgstr "Dyynimaali"
@@ -29527,6 +29692,15 @@ msgstr "Linnake"
 msgid "special_style/fort_desc"
 msgstr "Kaikkien vuodenaikojen linnaketyyli, joka on omistettu klaaneille, jotka rakentavat – ja voittavat – yhdessä."
 
+msgid "special_style/fr26_style1"
+msgstr "Signaalin metsästäjä"
+
+msgid "special_style/fr26_style1_desc"
+msgstr "Räjäytä tiesi kohinan läpi tällä taktisella kaikkien vuodenaikojen tyylillä."
+
+msgid "special_style/fr26_style1_desc/long"
+msgstr "Komentajan loki:\n\n\"Tuolla on jotain ja meidän tehtävämme on saada selville, kuka. Tähän mennessä meillä on vain outo radiolähetys, joka on sotkettu monimutkaisella salauksella ja jaettu osiin. Kuka ikinä lähettikään sen on nähnyt valtavasti vaivaa piilottaakseen... jotain. Ja mitä ikinä se jokin onkaan, ei se voi tarkoittaa hyvää.\n\nViestin selvittämiseksi meidän tulee ottaa ja pitää hallussamme välitysantenneja riittävän pitkäksi aikaa, jotta saamme nauhoitettua koko viestin. Sääli, ettemme ole ainoita sen perässä. Jokin kilpaileva joukko lähestyy ja he ovat aivan yhtä päättäväisiä halussaan saada tiedot käsiinsä.\n\nKisa on alkanut.\""
+
 msgid "special_style/frontline_alliance"
 msgstr "Länsirintama"
 
@@ -29746,6 +29920,15 @@ msgstr "Kaikkien vuodenaikojen tyyli, jossa esiintyy kuuluisa Kabasanin joukkue.
 msgid "special_style/girls_und_panzer_kabasan_desc/long"
 msgstr "Aivan oikein! Tämä taisteluiden karaisema joukko historian ystäviä ajaa alati eteenpäin ammentaen vuosisatojen tietämyksestä sodankäynnin taidosta antaakseen vihollisilleen ratkaisevan iskun. Vaunu kantaa ylpeänä heidän tunnustaan ja se iskee tuhovoimasella teholla ja erehtymttömällä tyylillä tehden joukkueesta varteenotettavan vastustajan missä hyvänsä Sensha-Dō -tapahtumassa."
 
+msgid "special_style/girls_und_panzer_leopon"
+msgstr "Leopon"
+
+msgid "special_style/girls_und_panzer_leopon_desc"
+msgstr "Kaikkien vuodenaikojen tyyli, jossa esiintyy Leoponsan-joukkueen ihastuttava maskotti."
+
+msgid "special_style/girls_und_panzer_leopon_desc/long"
+msgstr "Oarain tyttölukion autokerhon bensanhuuruja rakastavien jäsenten ja aiemmin koulun vaunuja huoltaneiden tyttöjen muodostama Leoponsan-joukkue tunnetaan leppoisasta tunnelmastaan sekä kaukaa erottuvista oransseista haalareistaan. Aivan kuten heidän maskottinsakin kantaa hybridiluonnettaan ylpeänä – leopon on osaksi leijona, osaksi leopardi, mutta täysin oma petonsa – myös tytöt yhdistävät vaikuttavalla tavalla kaksi taitoa: insinööritaidon ja Sensha-Dōn."
+
 msgid "special_style/girls_und_panzer_saunders"
 msgstr "Saunders Universityn lukio"
 
@@ -29754,6 +29937,15 @@ msgstr "Kaikkien vuodenaikojen tyyli, josta löytyy upean Saunders Universityn l
 
 msgid "special_style/girls_und_panzer_saunders_desc/long"
 msgstr "Uskomattoman rikkaalta Saunders Universityn lukiolta löytyy vaikuttava valikoima amerikkalaisia vaunuja. Itse asiassa sen laaja joukko Sensha-Dōn pelaajia rakastaa ainoastaan hulppeiden juhlien järjestämistä yhtä paljon kuin vaikuttavan M4 Sherman -laivueensa esittelyä. Heistä on riemastuttavaa katsella vieraidensa leukojen loksahtavan, kun näkevät, millainen määrä pikaruokaa on laitettu tarjolle! Älä kuitenkaan erehdy pitämään näiden tyttöjen vieraanvaraisuutta heikkoutena. Heidän strategiansa luottaa vihollisen nurjertamiseen ylivoimalla, joka taas usein vaatii tarkkoja laukauksia ja viimeistä huutoa olevia taktiikoita."
+
+msgid "special_style/girls_und_panzer_team_leoponsan"
+msgstr "Leoponsan-joukkue"
+
+msgid "special_style/girls_und_panzer_team_leoponsan_desc"
+msgstr "Kaikkien vuodenaikojen tyyli, josta löytyy mekaniikka rakastavan Leoponsan-joukkueen tunnus."
+
+msgid "special_style/girls_und_panzer_team_leoponsan_desc/long"
+msgstr "Oarain tyttölukion autokerhon bensanhuuruja rakastavien jäsenten ja aiemmin koulun vaunuja huoltaneiden tyttöjen muodostama Leoponsan-joukkue tunnetaan leppoisasta tunnelmastaan sekä kaukaa erottuvista oransseista haalareistaan. Kaikki neljä Leoponsan-joukkueen tyttöä ovat lahjakkaita mekaanikkoja, jotka voivat palauttaa vaunun kuin vaunun uudenveroiseksi ja jotka eivät kavahda ajatusta Tiger (P) vaununsa korjaamisesta vaikka sitten kesken ottelun. Jos he eivät ole kiireisiä seuraavana Shensa-Dō mittelöönsä valmistautuessaan he nauttivat klassikkoautojen rassaamisesta ja driftauskisojen ajamisesta tavoitteenaan yhteinen unelmansa kilpailla yhtenä päivänä Grand Prix -kisassa."
 
 msgid "special_style/give_paw"
 msgstr "Tassukasta"
@@ -30315,6 +30507,42 @@ msgstr "Kaikkien vuodenaikojen tyyli, joka on omistettu Mensheneille – taivaal
 
 msgid "special_style/lunar_ny_2025_3_desc/long"
 msgstr "Menshenit – \"ovisoturit\" – ovat hurjia sotureita, jotka seisovat vahdissa porteilla ja ovilla. Ne ovat kunnioitettuja hahmoja kiinalaisessa kansantarustossa. Ne kuvataan hurjailmeisinä ja pelottavia aseita kantavina. Näitä taivaallisia vartijoita ylistetään niiden kyvystä suojata pahoilta hengiltä. Kiinalaisen uuden vuoden juhlissa perheet koristavat ovensa värikkäillä jumalkuvilla pyytäen suojaa negatiivisia energioita vastaan ja toivoen siunauksena rauhaa, turvallisuutta ja vaurautta tulevalle vuodelle."
+
+msgid "special_style/maneuvers_2026_1"
+msgstr "Atlaksen ammus"
+
+msgid "special_style/maneuvers_2026_1_desc"
+msgstr "Kestä muinaisen vartijan tapaan mikä hyvänsä hyökkäys tässä stoalaisessa kaikkein vuodenaikojen tyylissä."
+
+msgid "special_style/maneuvers_2026_1_desc/long"
+msgstr "Tarujen kolossi, joka kantaa kokonaista maailmaa selässään; kilpikonna ilmentää ikuista kestävyyttä. Sen kerrostunut panssari kestää armotonta rankaisua ja jokainen arpi on kuin siveltimenveto laajalla, myyttisellä kankaalla. Vartija, jonka kohtalona on kestää mahdoton, ei horju tehtävässään."
+
+msgid "special_style/maneuvers_2026_2"
+msgstr "Sodantuojan torvi"
+
+msgid "special_style/maneuvers_2026_2_desc"
+msgstr "Jylise läpi vihollislinjojen tällä seismisellä kaikkien vuodenaikojen tyylillä."
+
+msgid "special_style/maneuvers_2026_2_desc/long"
+msgstr "Häpeilemätön ja ylivoimainen ryntäävä peto ärjyy vastarinnan edessä. Lihaksi tullut lumivyöry ja sarvekas juggernautti, joka hajottaa tieltään kaiken alkukantaisen aggression kakofoniana ja jättäen jälkeensä tuhon vanan, jonka väreet tuntuvat kauan senkin jälkeen, kun taistelukenttä on vaiennut."
+
+msgid "special_style/maneuvers_2026_3"
+msgstr "Skorpionin pisto"
+
+msgid "special_style/maneuvers_2026_3_desc"
+msgstr "Iske varoittamatta tällä petollisella kaikkien vuodenaikojen tyylillä."
+
+msgid "special_style/maneuvers_2026_3_desc/long"
+msgstr "Hiljainen ja laskelmoiva skorpioni on tappavan tehokas olento. Sen mahti ei piile raa’assa voimassa, vaan sen käpertyneessä hännässä, jonka myrkky aiheuttaa kohtalon kirpeän poltteen. Hiekan alle kätkeytynyt saalistaja odottaa...\n\nJa sitten – silmänräpäyksessä – taistelu on jo voitettu."
+
+msgid "special_style/maneuvers_2026_4"
+msgstr "Kameleontin häive"
+
+msgid "special_style/maneuvers_2026_4_desc"
+msgstr "Sulaudu saumattomasti ympäristöösi, sen jälkeen iske kuin tyhjästä tässä hienovaraisessa kaikkien vuodenaikojen tyylissä."
+
+msgid "special_style/maneuvers_2026_4_desc/long"
+msgstr "Kameleontti on naamioitumisen ja sopeutumisen mestari. Jatkuvasti muotoaan muuttavana se uhmaa näkökykyä kadotessaan suoraan silmien edessä kuin jäkälä puun kaarnalla. Tälle välttelevälle metsästäjälle kätkeytymisen taito on erottamaton osa sodankäynnin taitoa, sillä tappavin ase on se, joka pysyy näkymättömissä."
 
 msgid "special_style/manners"
 msgstr "Tavat miehen tekevät"
@@ -32490,6 +32718,15 @@ msgstr "Temaattinen, edistyvä kaksiulotteinen tyyli juhlistamaan World of Tanks
 
 msgid "special_style/wci2025_progressive_desc/long"
 msgstr "Eeppiset taistelukentät yhteenottoinen voivat vaikuttaa olevan hurjan kaukana kiinanshakin tarvitsemasta mielen kurinalaisuudesta, mutta vaunun komentaminen vaatii samanlaista järjestelmällistä tarkkuutta. Tarkkailet maastoa kuin pelilautaa, seuraa vihollisen liikkeitä päästäksesi itse parhaaseen asemaan. Suurmestarin tapaan ohjaat vaunua, joka metsästää hevosta tai suojaa kenraalia. Päätöksesi ohjaavat taistelun kulkua yhtä paljon kuin kantamasi tulivoima. Tämä tyyli heijastaa osaamista, joka kehittyy läpi kolmen eri tason."
+
+msgid "special_style/wci2026_progressive"
+msgstr "Nouseva Feeniks"
+
+msgid "special_style/wci2026_progressive_desc"
+msgstr "Tyyli, joka kehittyy kolmivaiheisesti: feeniks-aihe muuttuu hienovaraisesta siluetista värikkääksi viivapiirrokseksi ja syttyy sen jälkeen liekkeihin."
+
+msgid "special_style/wci2026_progressive_desc/long"
+msgstr "Turnauksen ympärille rakennettu tyyli piirtää feeniksiä kolmen eri vaiheen läpi. Se alkaa hienovaraisena siluettina, jossa linnun muoto on hädin tuskin näkyvissä. Sen jälkeen se kirkastuu, kun kultaiset linjat leviävät halki panssari ennen kuin se syttyy kultaisiin ja violetteihin liekkeihin. Kukin vaihe muodostaa oman täyden tyylinsä ja yhdessä yhden jatkuvan kehityskulun."
 
 msgid "special_style/wci_2024_1"
 msgstr "Sinnikkyys"

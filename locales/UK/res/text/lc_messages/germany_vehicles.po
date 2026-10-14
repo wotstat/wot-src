@@ -280,6 +280,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Chassis_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Chassis_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Chassis_G122_VK6501H"
 msgstr "VK 65.01 (H)"
 
@@ -509,7 +512,7 @@ msgid "Chassis_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Chassis_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Chassis_G23_Grille"
 msgstr "Grille"
@@ -549,6 +552,9 @@ msgstr "VK 30.01 (P) verstärkteketten"
 
 msgid "Chassis_G27_VK3001P_2_short"
 msgstr "VK 30.01 (P)\nverstärkteketten"
+
+msgid "Chassis_G28_PzIII_IV"
+msgstr "Pz.Kpfw. III/IV"
 
 msgid "Chassis_G37_Ferdinand"
 msgstr "Ferdinand"
@@ -730,6 +736,9 @@ msgstr "Indien-Panzer"
 msgid "Chassis_G89_Leopard1"
 msgstr "Leopard 1"
 
+msgid "Chassis_G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
 msgid "Chassis_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A1"
 
@@ -892,11 +901,11 @@ msgstr "Continental AOS-895-3"
 msgid "Continental_AOS-895-3_short"
 msgstr "Continental\nAOS-895-3"
 
-msgid "Continental_AVI_1790_8"
+msgid "Continental_AVI_1790_8A"
 msgstr "Continental AVI-1790-8"
 
-msgid "Continental_AVI_1790_8_short"
-msgstr "Continental \nAVI-1790-8"
+msgid "Continental_AVI_1790_8A_short"
+msgstr "Continental\nAVI-1790-8"
 
 msgid "DB_603_A1"
 msgstr "DB 603 A1"
@@ -1548,6 +1557,15 @@ msgstr "Чудова гармата, гідна рухливість"
 
 msgid "G121_Grille_15_L63"
 msgstr "Grille 15"
+
+msgid "G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
+msgid "G121_Grille_15_L63_FR_descr"
+msgstr "Влітку 1942 року Управління озброєнь сухопутних сил Німеччини уклало договір із компаніями Krupp і Rheinmetall на створення САУ на шасі танка Panther. Розглядалися варіанти встановлення 128-мм гармати K 43 та 150-мм гаубиці sFH 43. Проєкти отримали позначення Grille 12 та Grille 15, мали заднє розташування бойового відділення та відрізнялися лише типом артсистеми. Пізніше затвердили вимогу встановити 150-мм гармати з довжиною ствола у 63 калібри на Grille 15. Така гармата дозволяла пробивати 200-мм броні на дистанції 4000 метрів. Проте роботи затягнулися, і проєкт Grille 15 так і не втілили в металі."
+
+msgid "G121_Grille_15_L63_FR_short"
+msgstr "Grille 15 BS"
 
 msgid "G121_Grille_15_L63_descr"
 msgstr "Влітку 1942 р. Управління озброєнь сухопутних сил Німеччини уклало договір з компаніями Krupp і Rheinmetall на створення САУ на шасі танка Panther. Розглядалися варіанти встановлення 128-мм гармати K 43 та 150-мм гаубиці sFH 43. Проекти отримали позначення Grille 12 та Grille 15. Мали заднє розташування бойового відділення та відрізнялися між собою лише типом артсистеми. Пізніше було прийнято вимогу про встановлення 150-мм гармати з довжиною ствола у 63 калібри на Grille 15. Така гармата мала можливість пробивання снарядами 200-мм броні на дистанції 4000 метрів. Проте роботи затягнулися, і проект Grille 15 так і не був реалізований у металі."
@@ -2351,7 +2369,7 @@ msgid "G195_HWK_40_short"
 msgstr "HWK 40"
 
 msgid "G195_HWK_40_short_special"
-msgstr "Гарна рухливість, комфортна гармата"
+msgstr "Система калібрування снарядів, комфортна гармата"
 
 msgid "G196_Versuchspanzer_57"
 msgstr "Versuchspanzer 57"
@@ -2399,16 +2417,16 @@ msgid "G200_Chi_Go_short_special"
 msgstr "Добре броньована башта, висока разова шкода"
 
 msgid "G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_descr"
-msgstr "?empty?"
+msgstr "Pz.Kpfw. VI Ausf.P, більш відомий як VK 45.01 (P) чи Porsche Tiger, був одним із найбільш своєрідних німецьких важких танків. Він був оснащений двома двигунами Typ 101 на повітряному охолодженні й електричною трансмісією. Через складність і ненадійність силової установки ця машина так і не була запущена в серійне виробництво, але школа Oarai подарувала їй друге життя. Цей танк знайшли глибоко в трюмі шкільного корабля, а відреставрували його членкині автоклубу, які згодом стали його екіпажем — командою Leoponsan. Завдяки інженерним навичкам дівчата не лише підтримували норовливий Porsche Tiger у боєздатному стані, а й модернізували його, оснастивши пристроями для короткочасного прискорення."
 
 msgid "G204_PzVI_Tiger_P_CFE_A_long_special"
-msgstr "VK 45.01 (P) — німецький важкий танк VI рівня з міцною лобовою бронею, яка надійно захищає від стандартних снарядів середніх і важких танків того самого рівня. Гармата вирізняється хорошою шкодою на хвилину, а також гідним бронепробиттям і разовою шкодою. Танк доволі повільний, але унікальна система підвищення рухливості допомагає йому стрімко розігнатися до максимальної швидкості."
+msgstr "Tiger (P) Leoponsan — німецький важкий танк VI рівня з міцним лобовим бронюванням, яке надійно захищає від стандартних снарядів середніх і важких танків того самого рівня. Гармата вирізняється хорошою шкодою на хвилину, а також гідним бронепробиттям і разовою шкодою. Танк доволі повільний, але унікальна система, що тимчасово поліпшує рухливість, дає змогу стрімко набирати максимальної швидкості."
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leo"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short_special"
 msgstr "Міцна лобова броня, система підвищення рухливості"
@@ -2787,6 +2805,21 @@ msgstr "Indien-Pz."
 
 msgid "G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_descr"
+msgstr "Хоч Automaton і вражав своїм виглядом, на витонченість він не претендував. Це був левіафан грубої сили: його поршні гупали, неначе заводські преси, а вихлопні отвори кашляли, як ливарна піч. Народжений у величну епоху пари, він пережив своїх творців і затьмарив сталевих велетнів сучасної війни, що блідли перед величчю його шестерень. Танк із гуркотом котився в бій поряд із новими машинами, а коли дизельна какофонія битви стихала, лишався тільки рівний і невтомний стукіт Automaton'а."
+
+msgid "G89_Leopard1_CFE_A_long_special"
+msgstr "Automaton — німецький середній танк X рівня з майже ідеальними характеристиками гармати. Без помітних слабкостей, він чудово показує себе як у бою на дистанції, так і під час швидких виїздів із-за рогу для пострілу. Відмінна рухливість робить його ще ефективнішим і дозволяє опинятись у потрібному місці в потрібний час."
+
+msgid "G89_Leopard1_CFE_A_short"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_short_special"
+msgstr "Виняткова точність, відмінна рухливість"
 
 msgid "G89_Leopard1_descr"
 msgstr "Основний бойовий танк ФРН. Роботи зі створення машини почалися 1956 р. Перші дослідні зразки були виготовлені 1965 р. на заводі Krauss-Maffei. Перебував на озброєнні більш ніж в 10 країнах світу."
@@ -3167,6 +3200,12 @@ msgid "MTU_MB_838_CaM_500"
 msgstr "MTU MB 838 CaM-500"
 
 msgid "MTU_MB_838_CaM_500A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A_short"
 msgstr "MTU MB 838 CaM-500A"
 
 msgid "MTU_MB_838_CaM_500A_short"
@@ -3637,6 +3676,9 @@ msgstr "Maybach Neues Projekt A"
 msgid "Maybach_HL_234P60_short"
 msgstr "Maybach Neues Projekt"
 
+msgid "Maybach_HL_234_FR"
+msgstr "Maybach HL 234"
+
 msgid "Maybach_HL_234_TRM_P30"
 msgstr "Maybach HL 234 TRM P30"
 
@@ -3934,9 +3976,6 @@ msgstr "Pz. 38 (t)"
 msgid "PzI"
 msgstr "Pz.Kpfw. I"
 
-msgid "PzIII-IV"
-msgstr "Pz.Kpfw. III/IV"
-
 msgid "PzIII-IV_ausf_B"
 msgstr "Pz.Kpfw. III/IV verstärkteketten"
 
@@ -4225,6 +4264,9 @@ msgstr "SEM 25"
 msgid "SEM25_1"
 msgstr "SEM 25A"
 
+msgid "SEM25_1_CFE_A"
+msgstr "SEM 25A"
+
 msgid "SEM_25A"
 msgstr "SEM 25A"
 
@@ -4489,6 +4531,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Turret_1_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Turret_1_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Turret_1_G122_VK6501H"
 msgstr "VK 65.01 (H) S.W."
 
@@ -4688,7 +4733,7 @@ msgid "Turret_1_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Turret_1_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P) Turm"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Turret_1_G23_Grille"
 msgstr "Grille"
@@ -4797,6 +4842,9 @@ msgstr "Indien-Panzer"
 
 msgid "Turret_1_G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "Turret_1_G89_Leopard1_CFE_A"
+msgstr "Automaton"
 
 msgid "Turret_1_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A2"
@@ -5170,11 +5218,17 @@ msgstr "10,5 cm Bordkanone L7"
 msgid "_105mm_Bordkanone_L7A3"
 msgstr "10,5 cm Bordkanone L7A3"
 
+msgid "_105mm_Bordkanone_L7A3_CFE_A"
+msgstr "10,5 cm Bordkanone L7A3"
+
 msgid "_105mm_DM11"
 msgstr "DM11"
 
 msgid "_105mm_DM11_A"
 msgstr "DM11 (A)"
+
+msgid "_105mm_DM11_CFE_A"
+msgstr "DM11"
 
 msgid "_105mm_DM11_Kurz"
 msgstr "DM11 Kurz"
@@ -5215,6 +5269,9 @@ msgstr "DM13-20"
 msgid "_105mm_DM13_A"
 msgstr "DM13 (A)"
 
+msgid "_105mm_DM13_CFE_A"
+msgstr "DM13"
+
 msgid "_105mm_DM13_Kurz"
 msgstr "DM13 Kurz"
 
@@ -5229,6 +5286,9 @@ msgstr "DM23"
 
 msgid "_105mm_DM23_A"
 msgstr "DM23 (A)"
+
+msgid "_105mm_DM23_CFE_A"
+msgstr "DM23"
 
 msgid "_105mm_DM502"
 msgstr "DM502"
@@ -5374,9 +5434,6 @@ msgstr "Pzgr 39 LV"
 msgid "_105mm_PzGrRot"
 msgstr "PzGr rot"
 
-msgid "_105mm_Pzgr.40"
-msgstr "Pzgr 40"
-
 msgid "_105mm_Pzgr.40L1"
 msgstr "Pzgr 40 L1"
 
@@ -5427,6 +5484,9 @@ msgstr "Pzgr. 40 (180B)"
 
 msgid "_105mm_Pzgr_40_45"
 msgstr "Pzgr. 40/45"
+
+msgid "_105mm_Pzgr_40_A"
+msgstr "Pzgr 40"
 
 msgid "_105mm_Pzgr_40_E"
 msgstr "Pzgr. 40 E"
@@ -5535,6 +5595,9 @@ msgstr "10WSc"
 
 msgid "_10WSc_CFE_T"
 msgstr "10WSc T"
+
+msgid "_10WSc_FR"
+msgstr "10WSc"
 
 msgid "_10WSc_P"
 msgstr "10WSc P"
@@ -6133,6 +6196,9 @@ msgstr "Gr. 44 Hl/A"
 msgid "_150mm_Gr_HL"
 msgstr "Gr. HL"
 
+msgid "_150mm_Gr_HL_FR"
+msgstr "Gr. HL"
+
 msgid "_150mm_Gr_Hl_A"
 msgstr "Gr. Hl/A"
 
@@ -6156,6 +6222,9 @@ msgstr "15 cm Pak L/44"
 
 msgid "_150mm_Pak_L_63"
 msgstr "15 cm Pak L/63"
+
+msgid "_150mm_Pak_L_63_FR"
+msgstr "15 cm Pak L/63"
 
 msgid "_150mm_PzGr39H2_SH"
 msgstr "Pzgr 39 H2"
@@ -6181,6 +6250,9 @@ msgstr "Pzgr. 42 (WT IV) T"
 msgid "_150mm_Pzgr_44"
 msgstr "Pzgr. 44"
 
+msgid "_150mm_Pzgr_FR"
+msgstr "Pzgr."
+
 msgid "_150mm_Pzgr_m_Hb"
 msgstr "Pzgr. (m.Hb)"
 
@@ -6204,6 +6276,9 @@ msgstr "Sprgr. 18 (Grille)"
 
 msgid "_150mm_Sprgr_36"
 msgstr "Sprgr. 36"
+
+msgid "_150mm_Sprgr_FR"
+msgstr "Sprgr."
 
 msgid "_150mm_Sprgr_G"
 msgstr "Sprgr. G"

@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s de EXP Livre e de Tripulação para %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "Bónus de %(effectValue)s por %(effectHours)s de experiência recebida em batalha"
+msgstr "%(effectValue)s de EXP de Combate durante %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s bónus para créditos ganhos em batalha durante %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Este veículo está equipado com um lançador de rockets montado no escu
 msgid "moduleInfo/closeBtn"
 msgstr "Fechar"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Acelerador de Combate"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Sistema de carregamento por clip equipado nos veículos:"
 
@@ -6162,6 +6165,12 @@ msgstr "(unidade(s))"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Duração da Mira Eletromecânica de Coincidência"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Cooldown"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Duração"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Cooldown"

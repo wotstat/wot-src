@@ -328,6 +328,9 @@ msgstr "Modtag belønning"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "Modtag belønninger"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "Hver fuldført standard, premium eller bonusmission bidrager til dit fremskridt."
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "Tilgængelig"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "Til aktion! Fuldfør daglige missioner for episke belønninger: {progres}"
+msgstr "Til aktion! Fuldfør daglige missioner for episke belønninger: {{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "Når du har fuldført tre standard missioner, vil en bonusmission blive tilgængelig med endnu mere værdifulde belønninger. Bonusmissionen skal fuldføres inden dagen er omme, ellers udløber den."
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "Skjolde"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "Køretøjsrestriktioner:"
+msgstr "Fuldfør med"
 
 msgid "tooltip/weekly_mission"
 msgstr "Ugentlig mission"

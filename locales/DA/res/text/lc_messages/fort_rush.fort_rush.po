@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Alle datablokke er fuldført!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Datablok {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Tag kontrol over antennerne. Hold netværket. Gør transmissionen sikker."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "Kamptype vil være tilgængelig i"
+
+msgid "bannerTooltip/header"
+msgstr "Black Signal"
+
+msgid "bannerTooltip/mode"
+msgstr "TYPE"
+
+msgid "bannerTooltip/modeHint"
+msgstr "— skifter til en anden kamptype"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Din computers ydeevne er ikke tilstrækkelig til denne kamptype. Du vil opleve problemer med grafikken og køretøjets bevægelser. Det er også muligt at klienten vil crashe."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "I tilfælde af utilstrækkelig ydeevne, prøv at reducere grafikindstillingerne."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Denne kamptype kræver høj ydelse af computeren. Du vil opleve problemer med kortindlæsning, grafik og køretøjsbevægelser. I tilfælde af utilstrækkelig ydeevne, prøv en lavere grafikindstilling i indstillingerne."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Lav ydeevne"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Kamptypen kræver en stor ydelse fra computeren"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Reduceret ydeevne"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "Hp gendannet"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Tjenestescore"
+
+msgid "battleLoading/description"
+msgstr "Tag kontrol over antennerne. Hold netværket. Gør transmissionen sikker."
+
+msgid "battleLoading/header"
+msgstr "Black Signal"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "Erobring af en antenne gendanner en lille mængde hp på dit køretøj. Brug denne bonus til at holde positionen og gøre klar til modangrebet."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Hold og gendan"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "Antenner kan ikke erobres, når fjendtlige køretøjer er tilstede. Gør det af med uønskede gæster for at sikre et mål."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Blokeret erobring"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "Efter genindsættelse er dit køretøj beskyttet mod skade i 10 sekunder. Brug denne tid til at vende tilbage til kampen eller søge dækning."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Beskyttelse efter genindsættelse"
+
+msgid "battleQueue/title"
+msgstr "Black Signal"
+
+msgid "capturingIndicator/captured"
+msgstr "Antenne erobret"
+
+msgid "capturingIndicator/capturing"
+msgstr "Erobrer antenne"
+
+msgid "capturingIndicator/contesting"
+msgstr "Kamp om antenne"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "Neutraliserer antenne"
+
+msgid "endGame/reason/210"
+msgstr "Begge hold nåede grænsen for signalpoint"
+
+msgid "endGame/reason/3"
+msgstr "Tidsgrænse nået"
+
+msgid "endGame/reason/6/lose"
+msgstr "Fjenden nåede grænsen for signalpoint"
+
+msgid "endGame/reason/6/win"
+msgstr "Dit hold nåede grænsen for signalpoint"
+
+msgid "endGame/reason/7"
+msgstr "Tidsgrænse nået"
+
+msgid "notifications/progression/header"
+msgstr "Tillykke!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Detaljer"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Belønninger for at fuldføre trin i fremskridtet&nbsp;%(stageIdx)s: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Alle datablokke er blevet fuldført."
+
+msgid "progression/completedTitle"
+msgstr "Fremskridt fuldført!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Tid tilbage:"
+
+msgid "progression/dailyMissions/title"
+msgstr "Feltordrer"
+
+msgid "progression/description"
+msgstr "Fuldfør daglige missioner i Black Signal-kampe for at avancere i fremskridtet."
+
+msgid "progression/info_button/body"
+msgstr "Klik for mere information"
+
+msgid "progression/info_button/header"
+msgstr "Om Black Signal"
+
+msgid "progression/widget/stageLabel"
+msgstr "Datablok %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Du har fuldført hver datablok!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Fuldført"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Datablok-belønninger"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Nuværende datablok"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "Daglige missioner nulstilles om:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Black Signal"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Nuværende fremskridt"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "Fremskridt er midlertidigt utilgængelig."
+
+msgid "progression/widget/unavailable"
+msgstr "Fremskridt utilgængelig"
+
+msgid "progressionView/stateHeader"
+msgstr "Black Signal-fremskridt"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Afbryd"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Dit hold har stadig brug for dig! Hvis du forlader kampen, vil dit hold have en ulempe, og du vil ikke modtage nogle bonusser eller gøre missionsfremskridt."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Forlad"
+
+msgid "quitBattle/leaver/title"
+msgstr "Du forlader kampen"
+
+msgid "respawnTimer/description"
+msgstr "En anden genindsættelsesposition kan give dig en strategisk fordel."
+
+msgid "respawnTimer/title"
+msgstr "Indsættelse om:"
+
+msgid "rewardScreen/button"
+msgstr "Bekræftet!"
+
+msgid "rewardScreen/title"
+msgstr "Datablok-belønninger åbnet"
+
+msgid "timersPanel/invulnerable"
+msgstr "Usårlig"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Optjen datapakker for at fuldføre datablokke og opnå værdifulde ressourcer, herunder en betragtelig belønning. Datapakker kan optjenes ved at uddele skade, ødelægge fjender i kamp, erobre point og fuldføre daglige missioner."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Datapakke"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Alle køretøjer"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Nulstil filtre"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Nulstil filtrene for at se tilgængelige køretøjer"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "Denne playliste indeholder ingen passende køretøjer til denne kamptype."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Ingen passende køretøjer"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Ingen matchende køretøjer fundet"
+
+msgid "welcomeScreen/button"
+msgstr "Fortsæt"
+
+msgid "welcomeScreen/description1"
+msgstr "Du er del af en panserstyrke, som har fået til opgave at indtage og sikre et hemmeligt netværk midt i en kampzone. Hold netværket under din kontrol for enhver pris."
+
+msgid "welcomeScreen/description2"
+msgstr "Nogen har gjort en enorm indsats for at holde disse efterretninger skjulte. Fuldfør missioner for at finde krypterede fragmenter."
+
+msgid "welcomeScreen/description3"
+msgstr "Fuldfør datablokkene for at modtage værdifulde belønninger fra eventmissioner."
+
+msgid "welcomeScreen/header1"
+msgstr "Tag kontrol over antennerne"
+
+msgid "welcomeScreen/header2"
+msgstr "Afkod transmissionen"
+
+msgid "welcomeScreen/header3"
+msgstr "Fremskridt og belønninger"
+
+msgid "welcomeScreen/title"
+msgstr "Black Signal"

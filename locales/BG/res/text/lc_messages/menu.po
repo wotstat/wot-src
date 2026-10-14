@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s към свободния опит и опита на екипажа за %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s бонус за %(effectHours)s към опита, печелен в битка"
+msgstr "%(effectValue)s към бойния опит за %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s бонус към кредитите от битка за %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Тази машина е оборудвана с ракетна пуск
 msgid "moduleInfo/closeBtn"
 msgstr "Затвори"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Бойно ускорение"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Оборудван с касетъчна зарядна система на машините:"
 
@@ -6162,6 +6165,12 @@ msgstr "(бр.)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Продължителност на съвпадение на електромеханичен мерник"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Подготовка"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Продължителност"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Подготовка"

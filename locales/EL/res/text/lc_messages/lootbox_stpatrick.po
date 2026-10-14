@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Πίσω στα Κοντέινερ"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Σε κάθε %(guaranteed0)s κοντέινερ, θα βρείτε εγ
 msgid "infoPage/header/description"
 msgstr "Ανοίξτε το κοντέινερ για να βρείτε πολύτιμα αγαθά του παιχνιδιού! Δείτε περισσότερες λεπτομέρειες παρακάτω."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Περιεχόμενα %(name) (Ανοίξατε %(boxesCount) κοντέινερ)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Δεν έχετε κανένα κοντέινερ.\nΑγοράστε τα από τον Εφοδιασμό του παιχνιδιού."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Διαθέσιμα κοντέινερ: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Κανένα διαθέσιμο κοντέινερ"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Εάν έχετε ήδη στην κατοχή σας όλα τα οχήματα από τη λίστα με τα πιθανά έπαθλα, θα λάβετε αντιστάθμισμα σε gold για όσα οχήματα βρείτε στα κοντέινερ."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) κοντέινερ"
 msgstr[1] "%(remainingCount) κοντέινερ"
 msgstr[2] "%(remainingCount) κοντέινερ"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Το Εγγυημένο Έπαθλο είναι ένα όχημα από τη λίστα με τα διαθέσιμα έπαθλα.\nΕάν ανοίξετε %(remainingCount) κοντέινερ αλλά δεν βρείτε κάποιο τέτοιο όχημα, τότε με το άνοιγμα του %(count)ου κοντέινερ θα λάβετε εγγυημένα ένα όχημα από τη λίστα με τα διαθέσιμα έπαθλα. Όταν βρείτε κάποιο τέτοιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."

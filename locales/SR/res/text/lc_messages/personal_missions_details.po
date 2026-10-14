@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Prethodnica-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima koja pogode tvoje vozilo"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima koja oštete tvoje vozilo"
 
 msgid "pm3_10_1_14_short"
 msgstr "Prethodnica-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Zaseda-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Nanesi %(goal)s poena štete ostajući pri tome neuočen u momentu kada je šteta naneta"
+msgstr "Nanesi %(goal)s poena štete dok nisi vidljiv neprijateljima"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Uništi neprijateljski teški tenk pucanjem, nanoseći mu najmanje %(damageDealt)s poena štete"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Zaseda-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Nanesi štetu %(hits)s puta neprijateljskim vozilima koja nisu uočena i momentu nanošenja štete"
+msgstr "Nanesi štetu neprijateljskim vozilima koja ti nisu vidljiva u momentu kada je šteta naneta %(hits)s puta"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Uništi %(goal)s neprijateljskih vozila %(uniqueGoal)s različitih tipova"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Asistencija-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Omogući svojim saveznicima da nanesu %(goal)s štete neprijateljskim vozilima koja si ti uočio. Ostani neprimećen u trenutku kada je šteta naneta"
+msgstr "Omogući svojim saveznicima da nanesu %(goal)s poena štete neprijateljskim vozilima koja si ti uočio. Ostani neprimećen u trenutku kada je šteta naneta"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Ošamuti neprijateljske teške tenkove %(goal)s puta"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Prethodnica-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima koja pogode tvoje vozilo"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima koja oštete tvoje vozilo"
 
 msgid "pm3_8_1_9_short"
 msgstr "Prethodnica-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Zaseda-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Nanesi %(goal)s poena štete ostajući pri tome neuočen u momentu kada je šteta naneta"
+msgstr "Nanesi %(goal)s poena štete dok nisi vidljiv neprijateljima"
 
 msgid "pm3_8_2_9_short"
 msgstr "Zaseda-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Prethodnica-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima koja pogode tvoje vozilo"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima koja oštete tvoje vozilo"
 
 msgid "pm3_9_1_14_short"
 msgstr "Prethodnica-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Zaseda-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Nanesi %(goal)s poena štete ostajući pri tome neuočen u momentu kada je šteta naneta"
+msgstr "Nanesi %(goal)s poena štete dok nisi vidljiv neprijateljima"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Uništi neprijateljsko vozilo, nanoseći mu najmanje %(damageDealt)s štete"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Zaseda-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Nanesi %(damageDealt)s štete neprijateljskim vozilima koja nisu uočena i momentu nanošenja štete"
+msgstr "Nanesi %(damageDealt)s poena štete neprijatlejskim vozilima koja ti nisu vidljiva u trenutku kada je šteta naneta"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Uništi %(goal)s neprijateljskih vozila %(uniqueGoal)s različitih tipova"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Asistencija-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Omogući svojim saveznicima da nanesu %(goal)s štete neprijateljskim vozilima koja si ti uočio. Ostani neprimećen u trenutku kada je šteta naneta"
+msgstr "Omogući svojim saveznicima da nanesu %(goal)s poena štete neprijateljskim vozilima koja si ti uočio. Ostani neprimećen u trenutku kada je šteta naneta"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Ošamuti neprijateljske teške tenkove na ukupno %(goal)s sekundi. Računa se potencijalno trajanje šoka."
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Asistencija-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Nanesi %(damageDealt)s štete neprijateljskim vozilima koja nisu uočena i momentu nanošenja štete"
+msgstr "Nanesi %(damageDealt)s poena štete neprijatlejskim vozilima koja ti nisu vidljiva u trenutku kada je šteta naneta"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Uništi %(goal)s neprijateljskih lakih tenkova ili artiljerija"

@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Octroie une invulnérabilité."
+
+msgid "damageShield/long_special"
+msgstr "Capacité de combat. Crée un bouclier énergétique qui protège le véhicule contre tous les dégâts pendant 7 s à l'exception de ceux par collision, immersion ou impact. Si elle a été utilisée au moins une fois durant la bataille, la capacité est consommée et elle peut être réapprovisionnée contre des crédits. Si elle n'a pas été utilisée, il n'y a pas besoin de la réapprovisionner.<br /><br />Uniquement disponible durant l'évènement <font color='#cbac77'>Babylone : Tour sombre</font>.<br /><br />Toutes les capacités inutilisées seront retirées à la prochaine mise à jour et feront l'objet d'une compensation en crédits à hauteur de 50 % de leur coût."
+
+msgid "damageShield/name"
+msgstr "Bouclier énergétique"
+
+msgid "damageShield/onUse"
+msgstr "Crée un bouclier énergétique qui protège votre véhicule contre tous les dégâts à l'exception de ceux par collision, immersion ou impact pendant 7 s."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Octroie une invulnérabilité."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Augmente la cadence de tir / recharge le barillet."
+
+msgid "fastReload/long_special"
+msgstr "Capacité de combat. Accélère grandement le chargement d'un canon cyclique pendant une certaine durée ou recharge instantanément les canons dotés d'un système de rechargement à barillet. Si elle a été utilisée au moins une fois durant la bataille, la capacité est consommée et elle peut être réapprovisionnée contre des crédits. Si elle n'a pas été utilisée, il n'y a pas besoin de la réapprovisionner.<br /><br />Uniquement disponible durant l'évènement <font color='#cbac77'>Babylone : Tour sombre</font>. <br /><br />Toutes les capacités inutilisées seront retirées à la prochaine mise à jour et feront l'objet d'une compensation en crédits à hauteur de 50 % de leur coût."
+
+msgid "fastReload/name"
+msgstr "Rechargement rapide"
+
+msgid "fastReload/onUse"
+msgstr "Accélère grandement le chargement d'un canon cyclique pendant une certaine durée ou recharge instantanément les canons dotés d'un système de rechargement à barillet."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Augmente la cadence de tir / recharge le barillet."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Rétablit les points de structure, éteint les incendies, retire les effets d'étourdissement et répare les éléments endommagés."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Capacité de combat. Rétablit les points de structure, éteint les incendies, retire les effets d'étourdissement et répare les éléments endommagés. Peut être utilisée à plusieurs reprises durant la bataille. Retirée après avoir été utilisée au moins une fois durant une bataille.<br /><br />Uniquement disponible durant l'évènement <font color='#cbac77'>Projet Babylone</font>.<br /><br />Toutes les capacités non utilisées seront retirées et feront l'objet d'une compensation sous forme de crédits à hauteur de 50 % du coût à la prochaine mise à jour."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Réparations d'urgence"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Rétablit instantanément 400 points de structure à votre véhicule.\n• Rétablit 300 points de structure de plus en 30 s.\n• Le rétablissement est interrompu si des dégâts sont subis.\n• Éteint les incendies, retire les effets d'étourdissement et répare les éléments endommagés.\n• Peut uniquement être activée si des dégâts ont été subis."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Rétablit les points de structure, éteint les incendies, retire les effets d'étourdissement et répare les éléments endommagés."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Coût en Mirium pour l'utiliser en bataille :"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nCoût en Mirium : {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Coût en Mirium pour l'utiliser en bataille :"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Un tir qui endommage et étourdit la cible ainsi que les véhicules ennemis à proximité."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Capacité de combat. Un tir qui endommage et étourdit la cible ainsi que tous les véhicules ennemis dans un rayon de 35 m. Si elle a été utilisée au moins une fois durant la bataille, la capacité est consommée et elle peut être réapprovisionnée contre des crédits. Si elle n'a pas été utilisée, il n'y a pas besoin de la réapprovisionner.<br/><br/>Uniquement disponible durant l'évènement <font color='#cbac77'>Babylone : Tour sombre</font>. <br/><br/>Toutes les capacités inutilisées seront retirées à la prochaine mise à jour et feront l'objet d'une compensation en crédits à hauteur de 50 % de leur coût."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Tir d'énergie"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Un tir qui endommage et étourdit la cible ainsi que tous les véhicules ennemis dans un rayon de 35 m."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Un tir qui endommage et étourdit la cible ainsi que les véhicules ennemis à proximité."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Un tir qui rétablit les points de structure en volant ceux de la cible et des véhicules ennemis à proximité."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Capacité de combat. Un tir qui rétablit les points de structure en volant ceux de la cible et des véhicules ennemis dans un rayon de 35 m, qui répare les éléments endommagés et retire les effets d'étourdissement. Si elle a été utilisée au moins une fois durant la bataille, la capacité est consommée et elle peut être réapprovisionnée contre des crédits. Si elle n'a pas été utilisée, il n'y a pas besoin de la réapprovisionner.<br/><br/>Uniquement disponible durant l'évènement <font color='#cbac77'>Babylone : Tour sombre</font>. <br/><br/>Toutes les capacités inutilisées seront retirées à la prochaine mise à jour et feront l'objet d'une compensation en crédits à hauteur de 50 % de leur coût."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Tir vampirique"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Un tir qui rétablit les points de structure en volant ceux de la cible et des véhicules ennemis dans un rayon de 35 m, et qui répare les éléments endommagés et retire les effets d'étourdissement."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Un tir qui rétablit les points de structure en volant ceux de la cible et des véhicules ennemis à proximité."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Un tir qui étourdit la cible et les véhicules ennemis à proximité."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Capacité de combat. Un tir qui étourdit la cible et tous les véhicules ennemis dans un rayon de 35 m. Peut être utilisée à plusieurs reprises durant la bataille. Retirée après avoir été utilisée au moins une fois durant une bataille.<br /><br />Uniquement disponible durant l'évènement <font color='#cbac77'>Projet Babylone</font>.<br /><br />Toutes les capacités inutilisées seront retirées à la prochaine mise à jour et feront l'objet d'une compensation en crédits à hauteur de 50 % de leur coût."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Tir étourdissant"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Un tir qui étourdit la cible et tous les véhicules ennemis dans un rayon de 35 m."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Un tir qui étourdit la cible et les véhicules ennemis à proximité."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Rend votre véhicule invisible pour les ennemis, rétablit des points de structure, répare les éléments et éteint les incendies."
+
+msgid "hwInvisibility/long_special"
+msgstr "Capacité de combat. Rend votre véhicule invisible aux yeux des ennemis pendant 10 s. Rétablit 35 PS par seconde, répare les éléments, retire tous les effets négatifs et immunise contre les dégâts de corrosion. Infliger ou subir des dégâts de la part d'un véhicule ennemi (par tir, collision ou utilisation d'une Capacité de combat) révélera immédiatement votre position. Ne peut pas être interrompue par les tirs ennemis pendant 3 s après son activation. Si elle a été utilisée au moins une fois durant la bataille, la capacité est consommée et elle peut être réapprovisionnée contre des crédits. Si elle n'a pas été utilisée, il n'y a pas besoin de la réapprovisionner.<br/><br/>Uniquement disponible durant l'évènement <font color='#cbac77'>Babylone : Tour sombre</font>.<br/><br/>Toutes les capacités inutilisées seront retirées à la prochaine mise à jour et feront l'objet d'une compensation en crédits à hauteur de 50 % de leur coût."
+
+msgid "hwInvisibility/name"
+msgstr "Soin furtif"
+
+msgid "hwInvisibility/onUse"
+msgstr "Rend votre véhicule invisible aux yeux des ennemis pendant 10 s. Rétablit 35 PS par seconde, répare les éléments, retire tous les effets négatifs et immunise contre les dégâts de corrosion. Tirer ou subir des dégâts de la part d'un véhicule ennemi (par tir, collision ou utilisation d'une Capacité de combat) révélera immédiatement votre position. Ne peut pas être interrompue par les tirs ennemis pendant 3 s après son activation."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Vous dissimule aux yeux de l'ennemi, rétablit des PS, répare les éléments, éteint les incendies, retire l'étourdissement et soigne l'équipage."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Accélère votre véhicule pendant une durée limitée\net augmente les dégâts infligés par collision."
+
+msgid "nitroRamDamage/name"
+msgstr "Turbocompresseur"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Augmente temporairement la vitesse de votre véhicule et les dégâts qu'il inflige par collision."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Répare et rétablit une partie des points de structure des véhicules alliés dans son rayon."
+
+msgid "teamRepairKit/long_special"
+msgstr "Capacité de combat. Répare instantanément les éléments, éteint les incendies, retire l'effet d'étourdissement, et rétablit une partie des points de structure des véhicules alliés dans son rayon. Si elle a été utilisée au moins une fois durant la bataille, la capacité est consommée et elle peut être réapprovisionnée contre des crédits. Si elle n'a pas été utilisée, il n'y a pas besoin de la réapprovisionner.<br/><br />Uniquement disponible durant l'évènement <font color='#cbac77'>Babylone : Tour sombre</font>.<br/><br/>Toutes les capacités inutilisées seront retirées à la prochaine mise à jour et feront l'objet d'une compensation en crédits à hauteur de 50 % de leur coût."
+
+msgid "teamRepairKit/name"
+msgstr "Réparations de groupe"
+
+msgid "teamRepairKit/onUse"
+msgstr "Répare instantanément les éléments, éteint les incendies, retire les effets d'étourdissement et restaure une partie des points de structure des véhicules alliés dans son rayon."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Répare et rétablit une partie des points de structure des véhicules alliés dans son rayon."

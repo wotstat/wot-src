@@ -889,6 +889,15 @@ msgstr "• Acordat în Marea Cursă 2019."
 msgid "Fest19Racer_descr"
 msgstr "Câștigă prima recompensă de pe bara de Progresie personală."
 
+msgid "FortRushMedal_2026"
+msgstr "Interceptorul"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "Se acordă tuturor agenților Switchblade care au finalizat fiecare etapă a progresului evenimentului Semnalul Negru 2026. Un însemn al unei misiuni finalizate corect: semnalul a fost interceptat și omenirea poate avea încă o noapte liniștită."
+
+msgid "FortRushMedal_2026_descr"
+msgstr "Finalizează progresul evenimentului Semnalul Negru 2026."
+
 msgid "HE17A1"
 msgstr "Semnul bestiei"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "Cercetaș al Mirny-13"
 
 msgid "hw2019Medal1_condition"
-msgstr "• Acordată tuturor jucătorilor care au îndeplinit respectivele condiții pe parcursul evenimentului special în joc."
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2020."
 
 msgid "hw2019Medal1_descr"
 msgstr "Finalizează toate fazele cu dificultate de o stea pe parcursul operațiunii în Mirny-13."
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "Veteran al Mirny-13"
 
 msgid "hw2019Medal2_condition"
-msgstr "• Acordată tuturor jucătorilor care au îndeplinit respectivele condiții pe parcursul evenimentului special în joc."
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2020."
 
 msgid "hw2019Medal2_descr"
 msgstr "Finalizează toate fazele cu dificultate de două stele pe parcursul operațiunii în Mirny-13."
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "Erou al Mirny-13"
 
 msgid "hw2019Medal3_condition"
-msgstr "• Acordată tuturor jucătorilor care au îndeplinit respectivele condiții pe parcursul evenimentului special în joc."
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2020."
 
 msgid "hw2019Medal3_descr"
 msgstr "Finalizează toate fazele cu dificultate de trei stele pe parcursul operațiunii în Mirny-13."
 
 msgid "hw2019Medal_condition"
-msgstr "• Acordată tuturor jucătorilor care au îndeplinit respectivele condiții pe parcursul evenimentului special în joc."
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2020."
 
 msgid "hw2019Medal_descr"
 msgstr "Obține toate stilurile pe parcursul operațiunii în Mirny-13."
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "Îmblânzește bestia"
 
 msgid "hw2021Medal1_condition"
-msgstr "• Acordată tuturor jucătorilor care au îndeplinit respectivele condiții pe parcursul evenimentului special în joc."
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2021."
 
 msgid "hw2021Medal1_descr"
 msgstr "Finalizează toate fazele la dificultate medie pe perioada evenimentului Mirny: Speranța."
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "Cel ales"
 
 msgid "hw2021Medal2_condition"
-msgstr "• Acordată tuturor jucătorilor care au îndeplinit respectivele condiții pe parcursul evenimentului special în joc."
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2021."
 
 msgid "hw2021Medal2_descr"
 msgstr "Finalizează toate fazele la dificultate înaltă pe perioada evenimentului Mirny: Speranța"
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "Aventura înfricoșătoare"
 
 msgid "hw2022Medal01_condition"
-msgstr "• Acordată tuturor jucătorilor care îndeplinesc condițiile speciale în timpul evenimentului."
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2022."
 
 msgid "hw2022Medal01_descr"
 msgstr "Finalizează toate misiunile legate de Abilitățile de luptă în evenimentul Bătaia cu Dovleci."
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "Grim Reaper"
 
 msgid "hw2022Medal02_condition"
-msgstr "• Acordată tuturor jucătorilor care îndeplinesc condițiile speciale în timpul evenimentului."
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2022."
 
 msgid "hw2022Medal02_descr"
 msgstr "Obține 65.000 de puncte de Halloween în evenimentul Bătaia cu Dovleci."
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "Cei Întorși"
 
 msgid "hw2023Medal_condition"
-msgstr "Se acordă în Mirny: Speranța Pierdută 2023."
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2023."
 
 msgid "hw2023Medal_descr"
 msgstr "Descifrează toate benzile pe perioada evenimentului Mirny: Speranța Pierdută."
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "Cercetător Babylon"
 
 msgid "hw2024Medal_condition"
-msgstr "Acordat pe perioada Proiectului Babylon 2024."
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2024."
 
 msgid "hw2024Medal_descr"
 msgstr "Decriptează toate înregistrările pe perioada evenimentului Proiectul Babylon."
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "Cunoașterea interzisă"
 
 msgid "hw2025Medal_condition"
-msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului."
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2025."
 
 msgid "hw2025Medal_descr"
 msgstr "Decriptează toate înregistrările evenimentului Babylon: Zona Interzisă."
+
+msgid "hw2026Medal_1"
+msgstr "Nimeni nu e lăsat în urmă"
+
+msgid "hw2026Medal_1_condition"
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2026."
+
+msgid "hw2026Medal_1_descr"
+msgstr "Decriptează toate înregistrările din Babylon: Turnul Întunecat. Ai refuzat s-o abandonezi pe Alex!"
+
+msgid "hw2026Medal_2"
+msgstr "Casa ei e Miriumul"
+
+msgid "hw2026Medal_2_condition"
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2026."
+
+msgid "hw2026Medal_2_descr"
+msgstr "Decriptează toate înregistrările din Babylon: Turnul Întunecat. Ai lăsat-o pe Alex să intre în Mirium!"
+
+msgid "hw2026Medal_3"
+msgstr "Colecționar de Anomalii"
+
+msgid "hw2026Medal_3_condition"
+msgstr "Acordată tuturor jucătorilor care au îndeplinit condițiile din timpul evenimentului din 2026."
+
+msgid "hw2026Medal_3_descr"
+msgstr "Colectează toate Anomaliile din evenimentul Babylon: Turnul Întunecat."
 
 msgid "impenetrable"
 msgstr "Impenetrabil"

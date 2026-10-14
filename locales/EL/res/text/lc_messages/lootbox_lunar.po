@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Πίσω στα Treasures"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "Σε κάθε %(guaranteed0)s Blazing Treasures, θα βρείτε εγ�
 msgid "infoPage/header/description"
 msgstr "Ανοίξτε τα Blazing Treasures για να βρείτε πολύτιμα αγαθά του παιχνιδιού! Δείτε περισσότερες λεπτομέρειες παρακάτω."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Περιεχόμενα %(name) (Ανοίξατε %(boxesCount) Blazing Treasures)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Δεν έχετε κανένα Blazing Treasure.\nΑγοράστε τα από τον Εφοδιασμό του παιχνιδιού."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Διαθέσιμα Treasures: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Κανένα Treasure Διαθέσιμο"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Εάν έχετε ήδη στην κατοχή σας όλα τα οχήματα από τη λίστα με τα πιθανά έπαθλα, θα λάβετε ως αντιστάθμισμα την πλήρη αξία σε gold όσων οχημάτων βρείτε στα Blazing Treasures."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) Blazing Treasure"
 msgstr[1] "%(remainingCount) Blazing Treasures"
 msgstr[2] "%(remainingCount) Blazing Treasures"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Το Εγγυημένο Έπαθλο είναι ένα όχημα από τη λίστα με τα διαθέσιμα έπαθλα.\nΕάν ανοίξετε %(remainingCount) αλλά δεν βρείτε κάποιο τέτοιο όχημα, τότε με το άνοιγμα της %(count)ου Blazing Treasure θα λάβετε εγγυημένα ένα όχημα από τη λίστα με τα διαθέσιμα έπαθλα. Όταν βρείτε κάποιο τέτοιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."

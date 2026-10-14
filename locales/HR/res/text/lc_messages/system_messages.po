@@ -1981,9 +1981,6 @@ msgstr "Greška usluge \"%(vehName)s\". Nedovoljno obveznica za kupnju potrošno
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Greška usluge \"%(vehName)s\". Nedovoljno zlata za kupnju potrošnog materijala. Pokušajte ponovo kasnije."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Greška usluge \"%(vehName)s\". Nije moguće obnoviti potrošni materijal. Pokušajte ponovo kasnije."
 
@@ -1995,9 +1992,6 @@ msgstr "Greška usluga \"%(vehName)s\". Nedovoljno kredita za kupnju granata."
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Greška usluga \"%(vehName)s\". Nedovoljno zlata za kupnju granata."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Greška usluge \"%(vehName)s\". Vozilo je zaključano."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "Tenk %(userString)s je istražen. Iskustvo potrošeno: %(unspentXP)s. Slobodno iskustvo potrošeno: %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Sustav elitnih nagrada je sada dostupan za %(vehicle)s"
+msgstr "Sustav elitnih nagrada je sada dostupan za %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Elitne nagrade"

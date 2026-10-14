@@ -10,6 +10,9 @@ msgstr "Omogućuje ispaljivanje niza granata iz spremnika jednu po jednu dok se 
 msgid "abilities/common/description/autoShootGun"
 msgstr "Ispaljuje brze rafale granata kako bi nanio veliku štetu u kratkom vremenu nauštrb probojnosti i preciznosti. Najučinkovitiji u bliskoj borbi."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Aktivirajte gas za privremeno povećanje snage motora, brzine i upravljivosti uz održavanje pouzdanog rukovanja oružjem. To omogućuje agilnu, dinamičnu igru ​​bez ugrožavanja borbene učinkovitosti."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Ispaljuje svjetleće granate i nanosi maksimalnu štetu unutar 50 m. Šteta granate pada s udaljenosti što ga čini najučinkovitijim u bliskoj borbi."
 
@@ -61,6 +64,9 @@ msgstr "Poboljšani autopunjač"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Automatski top"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Borbeni gas"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Top dubokog žlijeba."
 
@@ -102,6 +108,15 @@ msgstr "Turbo režim"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Režim paljbe salve"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Poboljšava pokretljivost bez ometanja rukovanja topom."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Sustav omogućuje stalnu paljbu bez punjenja i kontrolira kako top stvara toplinu prilikom paljbe."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Top ima posebne uređaje koji omogućuju promjenu nekih parametara granate prije paljbe."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Ostajući nepomični ili se krećući polako, gradite razine preciznosti za poboljšanje točnosti vašeg slijedećeg hica.\nNa najvišoj razini preciznosti dobivate pristojno upravljanje topom s umanjenim rasipanjem, čak i tijekom kretanja ili zakretanja trupa/kupole."
@@ -355,6 +370,15 @@ msgstr "Omogućuje paljbu iz oba topa istovremeno na uštrb produljenog vremena 
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Posebna mehanika koja pojačava snagu motora, ubrzanje i najveću brzinu na kratko vrijeme."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Aktivirajte gas za privremeno povećanje snage motora, brzine i upravljivosti uz održavanje pouzdanog rukovanja oružjem. To omogućuje agilnu, dinamičnu igru ​​bez ugrožavanja borbene učinkovitosti."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Top može pucati stalno bez potrebe za punjenjem. Svaki hitac stvara toplinu: što je temperatura veća, to se više neki parametri mjenjaju. Stalna paljba će uzrokovati pregrijavanje topa što će spriječiti daljnju paljbu dok se ne ohladi."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Top vozila ima posebne uređaje koji omogućuju izmjenu nekih parametara granata prije paljbe. Raspored oružja pokazuje na koje će parametre utjecati prebacivanje između načina paljbe."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Ostanak na mjestu ili kretanje ispod određene brzine omogućuje vašem vozilu kalibraciju svog analognog balističkog računalnog uređaja i izgradnju razina točnosti, povećavajući točnost vašeg sljedećeg hica. Ako prekoračite ograničenje brzine, vaš napredak u izgradnji razina preciznosti bit će pauziran dok ne usporite. Na najvišoj razini preciznosti vaše vozilo dobiva pristojnu stabilizaciju topa, sa smanjenim rasipanjem od kretanja ili rotacije kupole/trupa. Učinak se uklanja nakon paljbe."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Ova mehanička modifikacija značajno povećava ubrzanje vozila, snagu motora i maksimalnu brzinu naprijed i unatrag na kratko vrijeme, omogućujući vam brzu reakciju na neprijateljske napade i iznenađivanje protivnika dinamičnim manevrima. Održavanje velike brzine kretanja ubrzava hlađenje mehanike."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Sve prikazane vrijednosti su najveće moguće za vozilo. Oprema, smjernice i potrošni materijal mogu promjeniti ove vrijednosti, ali te promjene ovdje nisu prikazane."
+msgstr "Sve prikazane vrijednosti su najbolje moguće za vozilo. Oprema, smjernice i potrošni materijal mogu promjeniti ove vrijednosti, ali te promjene ovdje nisu prikazane."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "kalibrabilna AP granata"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "kredita za svaku bitku"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "prebacivanje posade s bilo koje klase vozila bez kazne"
+msgstr "prebacivanje posade s bilo kojeg tipa vozila bez kazne"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "borbenog iskustva i iskustva posade"

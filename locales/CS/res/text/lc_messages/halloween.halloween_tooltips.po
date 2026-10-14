@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Doba obnovení: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Cena v Miriu za použití v bitvě: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Při použití:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Pasivní posílení v bitvě"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Dokončete normální obtížnost a odemknete si těžkou obtížnost a získejte přístup k systému Komba anomálií."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Komba anomálií nejsou dostupná"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Zvyšuje vaši bojovou výkonnost a je přenášena z fáze do fáze – i v případě zničení vašeho vozidla."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Při získání:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomálie"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Anomálie echa"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Sebrat anomálii"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Základní anomálie"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Tajná anomálie"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Pouze získána z kořisti."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Nemá žádná komba."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Nezapočítává se do získání medaile „Sběratel anomálií“."
+
+msgid "bannerTooltip/available"
+msgstr "Akce je dostupná %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) – herní režim. Prozkoumejte kliknutím"
+
+msgid "bannerTooltip/description"
+msgstr "Speciální PvE režim, který vás přenese hluboko do světa tajemného „Projektu Babylon“. Abyste zničili temné nepřátelské jednotky, zkroťte sedm jedinečných vozidel. Čekají na vás jedinečné odměny a ještě mnohem víc!"
+
+msgid "bannerTooltip/header"
+msgstr "Babylon: Temná věž"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Výkon vašeho počítače není pro tento herní režim dostačující. Můžete mít potíže s grafikou a pohybem vozidla. Pravděpodobné jsou také pády herního klienta."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Budete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Nízký výkon"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Možný omezený výkon"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Už jste přátelé."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Čekání na potvrzení žádosti o přátelství."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Odstranit hráče z vaší černé listiny."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Přidat do seznamu přátel."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klikněte pro otevření menu interakce s tímto hráčem."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Přidat do čety."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Hráč už je v četě."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Pozvánka už byla odeslána."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Pouze velitel čety může posílat hráčům pozvánky k přidání do čety."
+
+msgid "battleResult/secretReward/header"
+msgstr "Tajná odměna"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Na závěr akce obdržíte speciální ocenění na základě vašeho rozhodnutí."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Jedinečné ocenění akce"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Doba obnovení: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Cena v Miriu: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Dostupné do {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Odměny:"
+
+msgid "dailyQuests/status"
+msgstr "Nová denní mise za {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Přiřaďte všechny čtyři členy posádky s dabingem (%(crew_members_names)s) k libovolnému vozidlu ve vaší garáži (jeden z nich musí být velitel), čímž aktivujete dynamické konverzace týmu během bitvy.\nVe vozidlech s pěti nebo šesti pozicemi mohou zbývající role zastávat libovolní jiní členové posádky."
+
+msgid "groupVoiceover/header"
+msgstr "Dynamické týmové konverzace"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Cíl pro odemčení tohoto vozidla je již vybrán. Podmínky pro jeho odemčení najdete v pravém horním rohu obrazovky."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Cíl vybrán"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Pro vstup do bitvy vyberte dostupné vozidlo."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Není k dispozici"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Bitvy ve vybrané obtížnost/režimu jsou z technických důvodů dočasně nedostupné."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Není k dispozici"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Pro vstup do nové bitvy počkejte, až se četa vrátí z předchozí bitvy."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Není k dispozici"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Nekompatibilní úroveň obtížnosti pro četu."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Není k dispozici"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Jedinečná posádka čtyř tankistů."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Úplná jedinečná posádka"
+
+msgid "keyCard/body"
+msgstr "Kliknutím si můžete prohlédnout dostupné způsoby, jak získat měnu události."
+
+msgid "keys/accrued"
+msgstr "Získáno:"
+
+msgid "keys/battles"
+msgstr "• V bitvách akce"
+
+msgid "keys/body"
+msgstr "Jedinečná měna sloužící k postupu akcí „Babylon: Temná věž“ a k získání hodnotných předmětů včetně hlavní odměny akce. Lze ji získat z bitev akce i zakoupit v balíčcích. Ničte nepřátelská vozidla v bitvách Babylonu: Temné věži, nasbírejte co nejvíc hmoty a získejte klíče."
+
+msgid "keys/boss"
+msgstr "• Boss poražen:"
+
+msgid "keys/bottom"
+msgstr "Po skončení akce (%(date)s) budou všechny nepoužité klíče odstraněny."
+
+msgid "keys/bundles"
+msgstr "• Zakoupit balíčky akce"
+
+msgid "keys/daily"
+msgstr "• Denní mise pro vozidlo:"
+
+msgid "keys/effective"
+msgstr "• Efektivita v bitvě:"
+
+msgid "keys/gold"
+msgstr "• Zakoupit za zlaťáky"
+
+msgid "keys/header"
+msgstr "Dešifrovací klíče"
+
+msgid "keys/howToEarn"
+msgstr "Jak je získat"
+
+msgid "keys/howToUse"
+msgstr "Jak je využít"
+
+msgid "keys/howToUseDescr"
+msgstr "Využijte klíče na dešifrování nahrávek, odemčení nových cílů a k postupu k hlavní odměně akce. Klíče můžete utratit také k přeskočení cílů a rychlejšímu dosažení odměn."
+
+msgid "keys/inStock"
+msgstr "k dispozici"
+
+msgid "keys/secret"
+msgstr "• Tajná odměna:"
+
+msgid "metaWidget/body"
+msgstr "Klikněte pro zobrazení všech cílů a odměn akce."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Dokončete bojovou podmínku tohoto záznamu a dešifrujte ho. Tento krok nelze přeskočit."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Dešifrování není dostupné"
+
+msgid "metaWidget/header"
+msgstr "Cesta odměn"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Kliknutím si vyberte, jak tento příběh skončí. Celkové rozhodnutí komunity ovlivní další vývoj událostí. Aktuální informace najdete na herním portálu."
+
+msgid "missionTooltip/bottom"
+msgstr "Dešifrujte všechny nahrávky (některé cíle lze přeskočit) k dosažení hlavní odměny před koncem akce %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "%(current)s. cíl dokončen, odměny získány"
+
+msgid "missionTooltip/count"
+msgstr "%(current)s. cíl z %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Dešifrovat"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Dokončete cíl a odemkněte dešifrování."
+
+msgid "missionTooltip/kingReward"
+msgstr "Hlavní odměna akce"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Hlavní odměna akce získána"
+
+msgid "missionTooltip/received"
+msgstr "Cíl %(current)s byl splněn, ale nahrávka nebyla dešifrována"
+
+msgid "missionTooltip/rewards"
+msgstr "Dokončete cíl a získejte odměny."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Dešifrujte nahrávku a získejte odměny."
+
+msgid "missionTooltip/skip"
+msgstr "Přeskočit"
+
+msgid "shopWidget/body"
+msgstr "Klikněte pro otevření speciální sekce herního obchodu s exkluzivními předměty akce."
+
+msgid "shopWidget/header"
+msgstr "Balíčky akce"
+
+msgid "teamList/actions/body"
+msgstr "Rychlé akce pro vytvoření čety a přidání/odstranění přátel."
+
+msgid "teamList/actions/header"
+msgstr "Rychlé akce"
+
+msgid "teamList/anomalies/header"
+msgstr "Aktivní anomálie"
+
+msgid "teamList/bossDamage/body"
+msgstr "Seřadit podle poškození způsobeného pouze během 4. fáze (boj s bossem).\nPokud tým bosse neporazí, toto poškození se nezapočítá do klíčových odměn."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Toto poškození se nezapočítává do klíčových odměn, protože se týmu nepodařilo porazit bosse."
+
+msgid "teamList/bossDamage/header"
+msgstr "Poškození způsobené v boji s bossem"
+
+msgid "teamList/damage/body"
+msgstr "Seřadit podle poškození způsobeného v 1.–3. fázi."
+
+msgid "teamList/damage/header"
+msgstr "Způsobené poškození"
+
+msgid "teamList/keys/body"
+msgstr "Řadit podle získaných klíčů (zobrazená hodnota nezapočítává bonusové klíče získané za dokončení odpovídající denní mise)."
+
+msgid "teamList/keys/header"
+msgstr "Získané klíče"
+
+msgid "teamList/kills/body"
+msgstr "Řadit podle zničených nepřátelských vozidel."
+
+msgid "teamList/kills/header"
+msgstr "Zničená nepřátelská vozidla"
+
+msgid "teamList/name/header"
+msgstr "Jméno hráče"
+
+msgid "teamList/place/body"
+msgstr "Řadit podle pozice v týmu."
+
+msgid "teamList/place/header"
+msgstr "Pozice v týmu"
+
+msgid "teamList/squad/header"
+msgstr "Četa je taktická jednotka pro hráče pro spolupráci v bitvách."
+
+msgid "teamList/vehicle/body"
+msgstr "Řadit podle typu a názvu vozidla."
+
+msgid "teamList/vehicle/header"
+msgstr "Vozidla"
+
+msgid "teamList/warned/body"
+msgstr "Tento hráč byl potrestán za nečinnost/dezerci a za tuto bitvu nezískal žádné odměny."
+
+msgid "teamList/warned/header"
+msgstr "Varování"
+
+msgid "teamList/warned/self/body"
+msgstr "Byli jste penalizováni za nečinnost/dezerci a za tuto bitvu jste nezískali žádné odměny."
+
+msgid "teamList/warned/self/header"
+msgstr "Varování"
+
+msgid "vehicle/bonusTitle"
+msgstr "Zisky"
+
+msgid "vehicle/eventBonus"
+msgstr "Za dokončení denní mise s tímto vozidlem jsou dostupné bonusové klíče."
+
+msgid "vehicle/state/default/title"
+msgstr "Připraveno k bitvě"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "V bitvě"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "V taktické jednotce"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "Ve frontě"
+
+msgid "vehicle/state/locked/title"
+msgstr "Uzamčeno"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Zásobník na 5 granátů vám umožňuje rychle způsobit velké poškození."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Zásobník"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Systém 3 granátů, který snižuje standardní dobu automatického dobíjení granátů."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Vylepšené dělo s automatickým dobíjením"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Dělo se systémem nepřetržité palby."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Automatické dělo"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Zvyšuje šanci na poškození modulů nepřátelských vozidel."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Kriticky poškozující dělo"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Hrozivé dělo se systémem automatického dobíjení na 2 HE granáty."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Dělo s automatickým dobíjením"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Umožňuje vám si vybrat mezi cyklickou a sekvenční palbou."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Dvouhlavňové dělo"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Poskytuje modulům vašeho vozidla úplnou ochranu před kritickým poškozením."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Odolnost vůči kritickému poškození"

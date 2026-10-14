@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Намалява разсейката на оръдието по време на движение и въртене на корпуса и купола с {{@ class $highlightClass}}%(generalValue)s%%{{/}}."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s към разсейката по време на движение\nи въртене на корпуса."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Намалява\nразсейката на оръдието."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Намалява разсейката на оръдието в движение и при въртене на корпуса и купола."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Снайперист"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Прави машината ви абсолютно {{@ class $highlightClass}}неуязвима{{/}} за {{@ class $highlightClass}}поражения от експлозия{{/}} от Таралеж и Алфа таралеж.\nМашината все още ще получава поражения от таран от Таралежи при сблъсък."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Прави машината ви неуязвима за\nпоражения от експлозия на Таралеж."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Предпазва машината ви от поражения от експлозията на Таралеж."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Прави машината ви абсолютно неуязвима за поражения от експлозия от Таралеж и Алфа таралеж.\nМашината все още ще получава поражения от таран от Таралежи при сблъсък."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Неуязвимост от експлозия"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Премахва потенциалния обхват на пораженията от {{@ class $highlightClass}}±25%{{/}}, което прави удара по-предсказуем."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Изстрелите нямат обхват\nна поражения от ±25%%."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Изстрелите нямат обхват на поражения от ±25%."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Премахва потенциалния обхват на пораженията от ±25%, което прави удара по-предсказуем."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Контролирани поражения"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Намалява получените поражения* (включително от изстрели, огън, таран, зони на поражения, фаза на корозия, повредени модули, и др.) с {{@ class $highlightClass}}%(mitigation)s%%{{/}}.\n*Не се прилага за поражения от падане и по време на фазата на изпълнение."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s към получените поражения."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Намалява получените поражения."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Намалява получените поражения* (включително от изстрели, огън, таран, зони на поражения, фаза на корозия, повредени модули, и др.)\n*Не се прилага за поражения от падане и по време на фазата на изпълнение."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Поемане на поражения"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Осигурява {{@ class $highlightClass}}%(chance)s%%{{/}} шанс да възстановите {{@ class $highlightClass}}%(heal)s{{/}} от точките живот на машината си при нанасяне на поражения на вражески машини чрез стрелба по тях."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s към шанса за възстановяване на живот\nu при нанасяне на поражения чрез стрелба."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Може да възстанови точки живот\nпри нанасяне на поражения чрез стрелба."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Предоставя възможност за възстановяване на точките живот на машината ви при нанасяне на поражения на вражески машини чрез стрелба."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Вампирско ухапване"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Увеличава живота на машината ви с {{@ class $highlightClass}}%(health)s%%{{/}}."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s към живота на машината."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Възстановява\nточки живот на машината ви."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Увеличава издръжливостта на машината."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Издръжливост"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Увеличава шанса за подпалване на вражеска машина с {{@ class $highlightClass}}%(chance)s%%{{/}} при нанасяне на поражения чрез стрелба."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s към шанса за подпалване\nна вражеска машина."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Увеличава\nвероятността от запалване."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Увеличава шанса за подпалване на вражеска машина при нанасяне на поражения чрез стрелба по машината."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Гореща игла"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Увеличава нанесените поражения по вражески машини с {{@ class $highlightClass}}%(damageFactor)s%%{{/}}."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s към нанесените поражения."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Увеличава\nнанесените поражения."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Увеличава нанесените поражения."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Керамично ядро"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Повишава скоростта на презареждане с {{@ class $highlightClass}}%(reloadTime)s%%{{/}}."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s към скоростта на презареждане."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Повишава\nскоростта на презареждане."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Повишава скоростта на презареждане."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Картечница"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Постепенно възстановява живота на машината ви до максимална издръжливост.\nЕфектът се прекъсва при получаване на поражения."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Постепенно възстановява\nживота на машината ви."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Възстановява\nточки живот."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Постепенно възстановява живота на машината ви до максимална издръжливост. Ефектът се прекъсва при получаване на поражения."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Регенерация"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Прави капацитета за съхранение на мирий на машината в битка {{@ class $highlightClass}}неограничен{{/}}."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Прави капацитета за мирий неограничен."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Прави капацитета за мирий неограничен."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Прави капацитета за съхранение на мирий на машината в битка неограничен."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Бездънен колектор"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Увеличава бонуса за ефективност на екипажа за всички членове на екипажа с {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s към бонуса за ефективност на екипажа."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Увеличава ефективността\nна екипажа."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Подобрява ефективността на екипажа."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Въодушевление"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Ако вражеска машина остане с {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} живот или по-малко след като бъде уцелена от вашия изстрел, тя ще бъде незабавно унищожена.\nБосовете са имунизирани срещу този ефект."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Врагове с %(value)s живот или по-малко биват унищожени\nслед вашия изстрел."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Враговете с малко живот след вашия изстрел биват унищожени незабавно."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Ако вражеска машина остане с малко живот, след като бъде уцелена от вашия изстрел, тя ще бъде незабавно унищожена.\nБосовете са имунизирани срещу този ефект."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Финишър"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Увеличава максималната скорост на машината напред и назад."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Увеличава максималната\nскорост на машината напред и назад."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Увеличава максималната скорост на машината напред и назад."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Увеличава максималната скорост на машината напред и назад."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Ускорение"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Увеличава количеството мирий, получавано от нанасяне на поражения на врагове в битка, с {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s към мирия, получаван\nот врагове."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Увеличава мирия, получаван от врагове."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Увеличава мирия, получаван от нанасяне на поражения на врагове в битка."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Извличане на мирий"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Увеличава максималния капацитет за съхранение на мирий на машина в битка с {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s към максималния капацитет за мирий."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Увеличава максималния капацитет за мирий."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Увеличава максималния капацитет за съхранение на мирий на машината в битка."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Просторен колектор"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Целият мирий се запазва при съживяване, ако машината бъде унищожена в битка."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Целият мирий се запазва в машината\nслед съживяването."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Запазва целия мирий след съживяване."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Запазва целия мирий след съживяване."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Пазител на мирий"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Намалява разходите за бойни умения в битка с мирий с {{@ class $highlightClass}}%(cost)s%%{{/}}."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s към цената на способностите от мирий."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Намалява цената на способностите, изискващи мирий."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Значително намалява разходите на мирий за бойни умения в битка."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Ефективност на мирия"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Възстановява {{@ class $highlightClass}}%(refundAmount)s%%{{/}} от цената за мирий на бойната способност при употреба."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s на възстановен мирий\nпри използване на способността."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Частично възстановява мирий при използване на способността."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Частично възстановява цената за мирий на бойната способност при употреба."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Връщане на мирий"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Увеличава мощността на двигателя с {{@ class $highlightClass}}%(power)s%%{{/}} и скоростта на въртене на купола с {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s към мощността на двигателя."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s към скоростта на въртене на купола."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Повишава мощността на двигателя\nи скоростта на въртене на купола."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Повишава мощността на двигателя и скоростта на въртене на купола."
+
+msgid "buffs/buffMobility/header"
+msgstr "Мобилност"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Прави всички модули на машината неуязвими за всякакви повреди."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Прави всички модули на машината неуязвими\nза всякакви повреди."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Защитава модулите\nот повреда."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Прави всички модули на машината неуязвими за всякакви повреди."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Модулна неуязвимост"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Стандартната аномалия на Малахита, винаги активна."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Увеличава бронебойността на всички снаряди с {{@ class $highlightClass}}%(shellPen)s%%{{/}}."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s към бронебойността на снарядите."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Увеличава бронебойността на всички снаряди."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Увеличава бронебойността на всички снаряди."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Бронебойни снаряди"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Всички алтернативни снаряди се запазват при съживяване, ако машината бъде унищожена в битка."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Всички алтернативни снаряди се запазват\nслед съживяване."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Запазва всички алтернативни снаряди след съживяване."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Всички алтернативни снаряди се запазват при съживяване, ако машината бъде унищожена в битка."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Пазител на снаряди"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Увеличава количеството мирий, получавано в началото на всяка нова фаза или след съживяване с {{@ class $highlightClass}}%(soulsBonus)s{{/}}. Увеличава максималния капацитет за съхранение на мирий на машината в битка с {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s към мирия, получен в нова фаза\nили след съживяване."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s към максималния капацитет за мирий."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Увеличава капацитета на мирия и количеството му, получено в нова фаза или след съживяване."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Увеличава количеството мирий, получавано в началото на всяка нова фаза или след съживяване. Увеличава максималния капацитет за съхранение на мирий на машината в битка."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Склад за мирий"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Увеличава продължителността на турбото с {{@ class $highlightClass}}%(timeLength)s%%{{/}} и намалява времето за охлаждане с {{@ class $highlightClass}}%(reloadTime)s сек{{/}}."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s към продължителността на турбото."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s сек. към охлаждането на турбото."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Увеличава продължителността на турбо режима и намалява времето за охлаждане."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Увеличава продължителността на турбо режима и намалява времето за охлаждане."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Турбо усилвател"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Дава шанс за нанасяне на определено количество поражения на изстрел:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} за нанасяне на {{@ class $highlightClass}}%(damage1)s%%{{/}} поражения;\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} за нанасяне на {{@ class $highlightClass}}%(damage2)s%%{{/}} поражения;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} за нанасяне на {{@ class $highlightClass}}%(damage3)s%%{{/}} поражения;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} за нанасяне на {{@ class $highlightClass}}%(damage4)s%%{{/}} поражения."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Пораженията от изстрели варират от ниски\nдо изключително високи."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Пораженията от изстрели варират от ниски до изключително високи."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Дава шанс за нанасяне на по-ниски от обичайните или изключително големи поражения."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Квантови изстрели"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Подробности"

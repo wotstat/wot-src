@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Atpakaļ uz Kastēm"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Katra %(guaranteed0)s kaste garantēti satur VIII–IX līmeņa tanku. J
 msgid "infoPage/header/description"
 msgstr "Atveriet kasti priekš iespējas saņemt vērtīgas spēles lietas! Skatiet vairāk detaļas zemāk."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "No %(name) (%(boxesCount) kastes atvērtas)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Jums nav nevienas kastes. \nJūs varat tās iegūt spēles veikalā."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Pieejamas kastes: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Nav pieejamas kastes"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Ja jums jau pieder visi tanki no iespējamā kastes satura saraksta, tad visi turpmāk saņemtie tanki no kastēm tiks kompensēti ar zeltu."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount)kaste"
 msgstr[1] "%(remainingCount)kastes"
 msgstr[2] "%(remainingCount)kastes"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Garantētā Balva ir tanks no iespējamā kastes satura saraksta.\nJa atveriet %(remainingCount) neiegūstot tādu tanku, tas izkritīs atverot %(count) kasti. Kad tas notiek, skaitītājs tiek atiestatīts."

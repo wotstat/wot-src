@@ -167,13 +167,13 @@ msgid "detailsHelp/devMaps/headerTitle"
 msgstr "Kortegenskaber"
 
 msgid "detailsHelp/devMaps/markers/description"
-msgstr "Placeringen af det tilfældige event vil blive markeret med\nrøg på kortet og med en markør på minimappet.\nKort med tilfældige events kan deaktiveres via indstillingerne i spilfanen."
+msgstr "Placeringen af det tilfældige event vil blive markeret med\nrøg på kortet og med en markør på minimappet."
 
 msgid "detailsHelp/devMaps/title"
 msgstr "Kort med tilfældige events"
 
 msgid "detailsHelp/devMaps/zone/description"
-msgstr "Dit køretøj kan blive ødelagt i området for et tilfældigt event (for eksempel hvis et fly styrter ned).\nKort med tilfældige events kan deaktiveres via indstillingerne i spilfanen."
+msgstr "Dit køretøj kan blive ødelagt i området for et tilfældigt event (for eksempel hvis et fly styrter ned)."
 
 msgid "detailsHelp/dualGun/quick_fire"
 msgstr "Køretøjer med dette affyringssystem skifter kanoner mellem skydning. En affyret kanon starter automatisk ladning, mens den anden ladede kanon vil skulle vente lidt."
@@ -279,6 +279,12 @@ msgstr "Hvis du scorer to panserbrydende træffere på fjendtlige køretøjer ak
 
 msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
 msgstr "Burst-tilstand"
+
+msgid "detailsHelp/mechanics/combatThrottle/page1/description"
+msgstr "Aktiver speederen for et midlertidigt boost til motorkraft, hastighed og manøvredygtighed, mens kanonens stabilitet ikke forringes. Dette muliggør en aktiv og dynamisk spillestil, uden at gå på kompromis med kampeffektiviteten."
+
+msgid "detailsHelp/mechanics/combatThrottle/page1/title"
+msgstr "Kampspeeder"
 
 msgid "detailsHelp/mechanics/concentrationMode/page1/description"
 msgstr "Den pneumatiske gyrostabilisering giver maksimal stabilitet ved rotation af skrog og tårn i en kort periode, så mere præcise skud kan affyres i bevægelse, samt ved hurtige reaktioner mod pludselige trusler.\nFor at aktivere det, tryk på genvejstasten:"

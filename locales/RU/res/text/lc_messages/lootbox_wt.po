@@ -7,20 +7,20 @@ msgstr[0] "%(count) оставшийся Модуль"
 msgstr[1] "%(count) оставшихся Модуля"
 msgstr[2] "%(count) оставшихся Модулей"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Назад к Модулям"
 
 msgid "boxTooltip/description/text/wt"
 msgstr "При открытии этих Модулей вы можете получить премиум машины, внутриигровую валюту и прочие ценные награды."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Модули доступны во внутриигровом Магазине."
+msgstr "Вы можете купить Парадоксмодули во внутриигровом или Премиум магазине."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Модуль"
+msgstr "Парадоксмодуль"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "МОДУЛЬ"
+msgstr "ПАРАДОКСМОДУЛЬ"
 
 msgid "common/getButton/lowerCase"
 msgstr "Получить Модули"
@@ -31,17 +31,11 @@ msgstr "ПОЛУЧИТЬ МОДУЛИ"
 msgid "common/loader"
 msgstr "Открытие Модуля..."
 
-msgid "common/selectTooltip"
-msgstr "Недостаточно Модулей, чтобы открыть пять за раз."
-
 msgid "common/statistics/emptyHeader"
 msgstr "Открывайте Модули, чтобы просмотреть статистику."
 
 msgid "common/statistics/header"
-msgstr "Открыто Модулей:"
-
-msgid "confirmRerollLootBox/description/wt"
-msgstr "Модуль будет открыт ещё раз с возможностью получить другие награды."
+msgstr "Открыто Модулей: %(count)"
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Вся информация об открытых Модулях будет удалена."
@@ -50,7 +44,7 @@ msgid "entryPoint/boxes"
 msgstr "К МОДУЛЯМ"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Это специальные Модули, которые содержат новые и уникальные предметы. Их можно получить во внутриигровом Магазине."
+msgstr "Специальные Модули, содержащие новые и уникальные предметы, включая премиум технику, элементы внешнего вида, внутриигровую валюту и прочие ценные награды.\nМодули можно купить во внутриигровом или Премиум магазине."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "В данный момент Модули невозможно открыть или получить по техническим причинам. Приносим извинения за временные неудобства."
@@ -59,10 +53,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Модули временно недоступны"
 
 msgid "eventName/lowerCase"
-msgstr "Усмиряя бурю"
+msgstr "Разрушить парадокс"
 
 msgid "eventName/upperCase"
-msgstr "УСМИРЯЯ БУРЮ"
+msgstr "РАЗРУШИТЬ ПАРАДОКС"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Гарантированная награда в следующем Модуле!"
@@ -70,35 +64,23 @@ msgstr "Гарантированная награда в следующем Мо
 msgid "guaranteedTitle/text"
 msgstr "Максимум Модулей до гарантированной награды: %(count)"
 
-msgid "infoPage/footer/description/autoOpen/wt"
-msgstr "Если вы не откроете Модули до окончания события, они будут открыты автоматически."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Если вы не откроете все Модули до окончания события, они будут открыты автоматически."
 
-msgid "infoPage/footer/description/compensation/wt"
+msgid "infoPage/footer/description/compensation"
 msgstr "Если у вас уже есть вся техника из списка возможных наград, все последующие машины, которые вы получите из Модулей, будут компенсированы золотом в размере их полной стоимости."
 
-msgid "infoPage/footer/description/guaranteed/wt"
-msgstr "Каждый %(guaranteed)s-й Модуль гарантированно содержит машину. Если при их открытии вам не выпадет техника, то в %(guaranteed)s-м Модуле вы обязательно найдёте машину, которой у вас ещё нет. После выпадения техники счётчик сбрасывается."
-
-msgid "infoPage/footer/description/reroll/wt"
-msgstr "Если вам не нравится содержимое Модуля, вы можете открыть его ещё раз с возможностью получить другие предметы из того же списка. Каждый Модуль можно открыть повторно ограниченное количество раз:"
-
-msgid "infoPage/footer/title/autoOpen"
-msgstr "Автооткрытие"
-
-msgid "infoPage/footer/title/compensation"
-msgstr "Компенсация"
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Каждый %(guaranteed0)s-й Модуль гарантированно содержит премиум машину. Если при их открытии вам не выпадет такая техника, то в %(guaranteed0)s-м Модуле вы обязательно найдёте премиум машину, которой у вас ещё нет. После выпадения техники счётчик сбрасывается."
 
 msgid "infoPage/header/description"
 msgstr "Откройте Модуль с шансом выпадения ценных внутриигровых предметов! Подробности ниже."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Из %(name) (открыто %(boxesCount) Модулей)"
 
-msgid "noBoxesView/description/"
-msgstr "Модули доступны во внутриигровом Магазине"
-
-msgid "noBoxesView/goToButton/"
-msgstr "К доступным Модулям"
+msgid "noBoxesView/description"
+msgstr "У вас нет Модулей. Вы можете приобрести их\nво внутриигровом или Премиум магазине."
 
 msgid "preview/backLabel"
 msgstr "К МОДУЛЯМ"
@@ -109,7 +91,7 @@ msgstr "Модулей в наличии: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Модули закончились"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Если у вас уже есть вся техника из списка возможных наград, каждая последующая машина, которую вы получите из Модулей, будет компенсирована золотом."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -118,8 +100,5 @@ msgstr[0] "%(remainingCount) Модуль"
 msgstr[1] "%(remainingCount) Модуля"
 msgstr[2] "%(remainingCount) Модулей"
 
-msgid "singleRewardView/tooltip/subtitle/"
-msgstr "Гарантированная награда — машина из списка возможных наград.\nЕсли вы откроете %(remainingCount) и не получите такую технику, она выпадет при открытии %(count)-го Модуля. При выпадении такой машины счётчик сбрасывается."
-
-msgid "tooltip/reroll/text/wt"
-msgstr "При повторном открытии Модуля у вас появляется возможность получить другие награды из того же списка."
+msgid "singleRewardView/tooltip/subtitle"
+msgstr "Гарантированная награда — машина из списка возможных наград.\nЕсли вы откроете %(remainingCount) Модулей и не получите такую технику, она выпадет при открытии %(count)-го Модуля. При выпадении такой машины счётчик сбрасывается."

@@ -1981,9 +1981,6 @@ msgstr "Servicefout \"%(vehName)s\". Niet genoeg obligaties om verbruiksartikele
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Servicefout \"%(vehName)s\". Niet genoeg goud om verbruiksartikelen te kopen. Probeer het later opnieuw."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Servicefout \"%(vehName)s\". Het is niet mogelijk om verbruiksartikelen aan te vullen. Probeer het later opnieuw."
 
@@ -1995,9 +1992,6 @@ msgstr "Servicefout \"%(vehName)s\". Niet genoeg credits om granaten te kopen."
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Servicefout \"%(vehName)s\". Niet genoeg goud om granaten te kopen."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Servicefout \"%(vehName)s\". Het voertuig is vergrendeld."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "%(userString)s onderzocht. Ongebruikte ervaring uitgegeven: %(unspentXP)s. Vrije ervaring uitgegeven: %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Het elite beloningssysteem is nu beschikbaar voor de %(vehicle)s"
+msgstr "Het elite beloningssysteem is nu beschikbaar voor de %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Elite beloningen"

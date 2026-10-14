@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s a szabad és legénységi XP-hez %(effectHours)s időtartamra"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s a csatában szerzett XP-hez %(effectHours)s órán át"
+msgstr "%(effectValue)s a harci XP-hez %(effectHours)s időtartamra"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s bónusz a csatában szerzett kredithez %(effectTime)s időtartamra"
@@ -4165,6 +4165,9 @@ msgstr "Ez a jármű a lövegpajzsba szerelt rakétavetővel van felszerelve. Ak
 msgid "moduleInfo/closeBtn"
 msgstr "Bezárás"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Harci gázadás"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Tár töltő rendszer a következő járműveken van felszerelve:"
 
@@ -6162,6 +6165,12 @@ msgstr "(darab)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "A Képfedéses elektromechanikus célkereszt időtartama"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Visszatöltés"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Időtartam"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Visszatöltés"

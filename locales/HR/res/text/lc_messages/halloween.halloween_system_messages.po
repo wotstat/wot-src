@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Borbena sposobnost"
+
+msgid "make_choice/server_error"
+msgstr "Operacija je privremeno nedostupna. Pokušajte ponovo kasnije."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "UNOVAČI"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Unovačen"
+
+msgid "notification/crew_reward/title"
+msgstr "Nagrada zatražena"
+
+msgid "open_artefact/server_error"
+msgstr "Operacija je privremeno nedostupna. Pokušajte ponovo kasnije."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Primljeno Ključeva dešifriranja: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Potvrda"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Uklonjeno ključeva dešifriranja: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Dešifriranje"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Nije moguće snabdjeti borbene sposobnosti na %s. Tehnički kvar."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Nije moguće snabdjeti borbene sposobnosti na %s. Nedovoljno sredstava."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Borbene sposobnosti za %s snabdjevene. Utrošili ste "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Ključevi dešifriranja primljeni"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Zastupni dostupni za dešifriranje"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Režim: Babilon: Mračni toranj"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Režim: Babilon: Mračni toranj (normalno)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Režim: Babilon: Mračni toranj (teško)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Režim: Babilon: Mračni toranj (noćna mora)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Glavni je poražen"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Težina"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normalna"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Teška"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Noćna mora"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Završeno faza: %(curPhase)s od %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Cilj ostvaren!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Ciljevi ostvareni!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vozilo"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Utrošeno %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Financijska transakcija"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Možete odabrati razinu težine u Garaži Babilon: Mračni toranj."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Teška težina otključana"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Možete odabrati razinu težine u Garaži Babilon: Mračni toranj."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Težina Noćna mora otključana"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "%(vehicle)s je sada dostupan za bitke Babilon: Mračni toranj."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Bitke u Babilon: Mračni toranj su privremeno nedostupne.\nPokušajte ponovno kasnije."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Bitke u Babilon: Mračni toranj (%(difficulty)s) su privremeno nedostupne.\nPokušajte ponovno kasnije."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Babilon: Mračni toranj je trenutno nedostupan. Provjerite portal igre za ažuriranja."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Zapovjednik voda je promjenio težinu na: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Igrač %(userName)s nije otključao jednu od razina težine."

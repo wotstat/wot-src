@@ -10,6 +10,9 @@ msgstr "Gør det muligt at affyre en serie granater fra magasinet, en efter en, 
 msgid "abilities/common/description/autoShootGun"
 msgstr "Affyr hurtige skudsalver, der kan uddele høj skade på kort tid, til gengæld for lav gennembrydning og præcision. Bedst egnet til nærkampe."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Aktiver speederen for et midlertidigt boost til motorkraft, hastighed og manøvredygtighed, mens kanonens stabilitet ikke forringes. Dette muliggør en aktiv og dynamisk spillestil, uden at gå på kompromis med kampeffektiviteten."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Affyr stjerneprojektiler, der uddeler maksimal skade på under 50 meter. Granatens skade falder med afstanden, så de er bedst egnet til nærkampe."
 
@@ -61,6 +64,9 @@ msgstr "Forbedret autogenlader"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Maskinkanon"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Kampspeeder"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Dybt-riflet kanonløb"
 
@@ -102,6 +108,15 @@ msgstr "Turbo-tilstand"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Salveskydning"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Booster manøvredygtighed uden at forringe kanonens egenskaber."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Systemet gør det muligt at skyde uden at skulle lade, og kontrollerer hvordan kanonen genererer varme, når den affyres."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Kanonen har særligt udstyr, der gør det muligt at justere nogle parametre på granaterne, før de affyres."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Ved at forblive stationær eller langsomt i bevægelse, vil du opbygge præcisionsniveauer, så dit næste skud bliver mere nøjagtigt.\nPå det højeste præcisionsniveau har du udmærkede kanonegenskaber, med reduceret spredning, selv ved bevægelse eller rotation af tårn/skrog."
@@ -355,6 +370,15 @@ msgstr "Gør det muligt at affyre begge kanoner samtidigt til gengæld for læng
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "En særlig mekanisme, der booster motorkraft, acceleration og tophastighed i en kort periode."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Aktiver speederen for et midlertidigt boost til motorkraft, hastighed og manøvredygtighed, mens kanonens stabilitet ikke forringes. Dette muliggør en aktiv og dynamisk spillestil, uden at gå på kompromis med kampeffektiviteten."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Kanonen kan blive ved med at skyde uden at lade. Hvert skud genererer varme: jo højere temperatur, jo mere vil nogle af dens parametre ændre sig. Vedvarende skydning vil få kanonen til at overophede, hvorefter den ikke kan skyde, før den er kølet ned."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Køretøjets kanon har særligt udstyr, der gør det muligt at modificere visse parametre på granaterne før de affyres. Udstyrssættet viser hvilke parametre, der vil blive påvirket af at skifte mellem skudtilstande."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Hvis du forbliver stationær, eller bevæger dig med under en bestemt hastighed, kan dit køretøj kalibrere analogt ballistisk målsøgningsudstyr og opbygge præcisionsniveauer, der forbedrer præcisionen på dit næste skud. Hvis du overtræder hastighedsgrænsen, vil dit fremskridt i at opbygge præcisionsniveauer gå i stå, indtil du sætter farten ned. På højeste præcisionsniveau har dit køretøj nærmest perfekt stabilisering, med minimal spredning fra rotation af tårn/skrog. Effekten fjernes efter skydning."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Denne mekaniske modifikation booster markant køretøjets acceleration, motorkraft og top- og bakhastighed i en kort periode, så du hurtigt kan reagere på fjendtlige angreb og overraske fjenden med dynamiske manøvrer. At bibeholde en høj hastighed accelererer mekanismens cooldown."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Alle viste værdier er de maksimalt mulige for køretøjet. Udstyr, direktiver og forbrugsvarer kan ændre disse værdier, men de ændringer er ikke vist her."
+msgstr "Alle viste værdier er de bedst mulige for køretøjet. Udstyr, direktiver og forbrugsvarer kan ændre disse værdier, men de ændringer er ikke vist her."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "AP-granat, der kan kalibreres"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "credits for hver kamp"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "mandskabsoverførsel fra enhver køretøjsklasse uden straf"
+msgstr "mandskabsoverførsel fra enhver køretøjstype uden straf"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "kamp xp og mandskabs xp"

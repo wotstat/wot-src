@@ -97,31 +97,31 @@ msgstr "Uppmärksamhet på <Sektor på minikartan>!"
 msgid "chat_example/attention_to_position"
 msgstr "Lystring!"
 
-msgid "chat_example/global_msg/atk/focus_hq"
+msgid "chat_example/global_msg_atk_focus_hq"
 msgstr "Förstör mål"
 
-msgid "chat_example/global_msg/atk/save_tanks"
+msgid "chat_example/global_msg_atk_save_tanks"
 msgstr "Spara dina vagnar!"
 
-msgid "chat_example/global_msg/atk/time"
+msgid "chat_example/global_msg_atk_time"
 msgstr "Erövra zonen"
 
-msgid "chat_example/global_msg/def/focus_hq"
+msgid "chat_example/global_msg_def_focus_hq"
 msgstr "Försvara målen"
 
-msgid "chat_example/global_msg/def/save_tanks"
+msgid "chat_example/global_msg_def_save_tanks"
 msgstr "Spara dina vagnar!"
 
-msgid "chat_example/global_msg/def/time"
+msgid "chat_example/global_msg_def_time"
 msgstr "Försvara zoner"
 
-msgid "chat_example/global_msg/lane/center"
+msgid "chat_example/global_msg_lane_center"
 msgstr "Förstärk zon"
 
-msgid "chat_example/global_msg/lane/east"
+msgid "chat_example/global_msg_lane_east"
 msgstr "Förstärk zon"
 
-msgid "chat_example/global_msg/lane/west"
+msgid "chat_example/global_msg_lane_west"
 msgstr "Förstärk zon"
 
 msgid "chat_example/going_there"
@@ -232,31 +232,31 @@ msgstr "Jag försvarar basen!"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "Jag försvarar bas %(strArg1)s!"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "Förstör mål!"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
 msgstr "Vi har tid, spara dina vagnar!"
 
-msgid "chat_shortcuts/global_msg/atk/time"
+msgid "chat_shortcuts/global_msg_atk_time"
 msgstr "Tiden är snart slut, satsa allt på att erövra en zon!"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "Försvara målen!"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
 msgstr "Vi måste hålla ut, spara dina vagnar!"
 
-msgid "chat_shortcuts/global_msg/def/time"
+msgid "chat_shortcuts/global_msg_def_time"
 msgstr "Tiden är snart slut, försvara zonerna till varje pris!"
 
-msgid "chat_shortcuts/global_msg/lane/center"
+msgid "chat_shortcuts/global_msg_lane_center"
 msgstr "Zon %(strArg1)s behöver hjälp! Förstärk den!"
 
-msgid "chat_shortcuts/global_msg/lane/east"
+msgid "chat_shortcuts/global_msg_lane_east"
 msgstr "Zon %(strArg1)s behöver hjälp! Förstärk den!"
 
-msgid "chat_shortcuts/global_msg/lane/west"
+msgid "chat_shortcuts/global_msg_lane_west"
 msgstr "Zon %(strArg1)s behöver hjälp! Förstärk den!"
 
 msgid "chat_shortcuts/going_there"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "Tryck"
 
 msgid "devMaps/mapInfo/info"
-msgstr "Slumpvis händelser förekommer på den här kartan. Du kan utesluta dessa kartor i spelinställningarna."
+msgstr "Slumpvis händelser förekommer på den här kartan."
 
 msgid "devMaps/mapInfo/text"
 msgstr "Karta med slumpvisa händelser"

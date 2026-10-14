@@ -118,6 +118,9 @@ msgstr "SR C45"
 msgid "C45_CFE_A"
 msgstr "SR C45"
 
+msgid "C45_FR"
+msgstr "SR C45"
+
 msgid "C45_c_7x7"
 msgstr "SR C45"
 
@@ -373,6 +376,9 @@ msgstr "Gabler’s Destroyer"
 msgid "Chassis_GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "Chassis_GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver"
+
 msgid "Chassis_GB148_FV227_Conceiver"
 msgstr "FV227 Conceiver"
 
@@ -411,6 +417,9 @@ msgstr "FV214t"
 
 msgid "Chassis_GB158_Executor"
 msgstr "Executor"
+
+msgid "Chassis_GB159_FV4602_Victorious"
+msgstr "Victorious"
 
 msgid "Chassis_GB15_Stuart_I"
 msgstr "Stuart I"
@@ -679,6 +688,9 @@ msgstr "Centurion Action X"
 msgid "Chassis_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
 
+msgid "Chassis_GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
+
 msgid "Chassis_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
 
@@ -739,7 +751,7 @@ msgstr "Continental AOI-1195-5A"
 msgid "Continental_AOI_1195_5A_short"
 msgstr "Continental\nAOI-1195-5A"
 
-msgid "Continental_W-670-9A"
+msgid "Continental_W_670_9A1"
 msgstr "Continental W-670-9A"
 
 msgid "Crysler_A57"
@@ -1262,13 +1274,13 @@ msgid "GB132_Taurus_CAT_desc"
 msgstr "Egy ígéretes harckocsiprojekt, amelyet a Királyi Páncélos Hadtest fejlesztett ki 1968-ban, és a COMBAT ARM TANK nevet kapta. A jármű fejlesztése során a következő prioritásokat határozták meg: tűzerő, mobilitás, védelem és a lehető legkisebb legénység. A harckocsit a Királyi Páncélos Hadtest és a gyalogság (harci fegyvernem) használta volna, azonban a brit hadsereg fejlesztési terveinek megváltozásával a járműre már nem volt szükség, és a projektet lezárták."
 
 msgid "GB132_Taurus_CAT_long_special"
-msgstr "A Taurus CAT egy VIII-as szintű brit páncélvadász. Ez az első brit jármű, amelyet hidropneumatikus felfüggesztéssel láttak el, valamint az első ilyen jármű, amely a normál ciklikus löveg helyett automata töltőt kapott. Ez a harckocsi gyors és fürge, ami a gyorsan tüzelő automata töltővel együtt lehetővé teszi az aktívabb és agresszívebb játékot."
+msgstr "A Taurus CAT IX-es szintű brit páncélvadász, amely a svéd járművekre jellemző ostrom móddal és egy automata töltővel ellátott löveggel rendelkezik. Az egyik fő jellemzője, hogy utazó módban lényegesen gyorsabb a tár újratöltése, mint ostrom módban. A lövege a gyors táron belüli újratöltésnek köszönhetően koncentrált sorozatokra képes, míg a döntött frontpáncélzatáról lepattanhatnak a lövések, így valamekkora védelmet nyújt."
 
 msgid "GB132_Taurus_CAT_short"
 msgstr "Taurus CAT"
 
 msgid "GB132_Taurus_CAT_short_special"
-msgstr "Automata töltő, hidropneumatikus felfüggesztés"
+msgstr "Hidropneumatikus felfüggesztés, automata töltő"
 
 msgid "GB133_Charioteer_MkVII"
 msgstr "Charioteer Nomad"
@@ -1447,6 +1459,18 @@ msgstr "Tártöltő rendszer, kiváló mobilitás"
 msgid "GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver 7x7"
+
+msgid "GB147_FV4025_Contriver_7x7_descr"
+msgstr "Az '50-es évek végén és a '60-as évek elején az Egyesült Királyság aktívan dolgozott a duplacsövű partvédelmi harckocsik kifejlesztésén. A folyamat során világossá vált, hogy a nagy tömegük miatt ezeknek a járműveknek nagyon magas volt az érintkezési nyomástényezőjük, amit sürgősen csökkenteni kellett. Így fogalmazódott meg a négylánctalpas harckocsi ötlete. A jármű tervezésénél felhasználták a Szovjetunióból érkező hírszerzési adatokat az Object 279 harcjárműről, de a koncepciót némileg módosították. A külső lánctalpakat könnyebbé tették, mint a belső lánctalpakat, a felfüggesztési rendszert pedig lecserélték egy brit, függőleges spirálrugókkal ellátott modellre. Az egész alvázat egy nyitott, szegecselt c-csatornás vázra szerelték; a konstrukció azonban olyan bonyolult volt, hogy a projektet még a kezdeti szakasz előtt leállították."
+
+msgid "GB147_FV4025_Contriver_7x7_long_special"
+msgstr "Az FV4025 Contriver egy kiegyensúlyozott nehéz harckocsi, amelynek nincsenek nyilvánvaló gyengeségei, és bármilyen harctéri helyzetben megállja a helyét – legyen szó pozíciós tűzharcról más nehéz tankokkal vállvetve, vagy a védelmi vonal megtartásáról az előrenyomuló ellenséggel szemben. Kettős lövegrendszere a sokoldalúság egy újabb szintjét nyújtja, lehetővé téve a pontos egylövetű csapást vagy a pusztító sortüzet, a helyzettől függően."
+
+msgid "GB147_FV4025_Contriver_7x7_short"
+msgstr "Contriver 7x7"
+
 msgid "GB147_FV4025_Contriver_descr"
 msgstr "Az '50-es évek végén és a '60-as évek elején az Egyesült Királyság aktívan dolgozott a duplacsövű partvédelmi harckocsik kifejlesztésén. A folyamat során világossá vált, hogy nagy tömegük miatt ezeknek a járműveknek nagyon magas volt az érintkezési nyomástényezőjük, amit sürgősen csökkenteni kellett. Így fogalmazódott meg a négylánctalpas harckocsi ötlete. A jármű tervezésénél felhasználták a Szovjetunióból érkező hírszerzési adatokat az Object 279 harcjárműről, de a koncepciót némileg módosították. A külső lánctalpakat könnyebbé tették, mint a belső lánctalpakat, a felfüggesztési rendszert pedig lecserélték egy brit, függőleges spirálrugókkal ellátott modellre. Az egész alvázat egy nyitott, szegecselt c-csatornás vázra szerelték; a konstrukció azonban olyan bonyolult volt, hogy a projektet még a kezdeti szakasz előtt leállították."
 
@@ -1587,6 +1611,21 @@ msgstr "Kerekes alvázával, kifinomult, nagy teljesítményű motorjával és k
 
 msgid "GB158_Executor_short"
 msgstr "Executor"
+
+msgid "GB159_FV4602_Victorious"
+msgstr "FV4602 Victorious"
+
+msgid "GB159_FV4602_Victorious_descr"
+msgstr "Az 1970-es évek második felében a brit Leyland vállalat előterjesztette a saját javaslatát egy olyan jövőbeli harckocsira, amely a Chieftain helyébe léphetett volna. A terv középpontjában a mozgékonyság és a tűzerő állt, a jármű azonban túlságosan bonyolultnak és drágának bizonyult, ezért a hadsereg elutasította a projektet, és a későbbi Challenger mellett döntött."
+
+msgid "GB159_FV4602_Victorious_long_special"
+msgstr "Az FV4602 Victorious egy X-es szintű brit nehéz tank. Az erőteljes lövege bármilyen ellenfelet képes megsemmisíteni, a lenyűgöző és megbízható frontpáncélja pedig a legerősebb találatoknak is képes ellenállni. Ezen felül egy egyedülálló mechanikának köszönhetően a jármű ideiglenesen jelentős erősítést kap a sebesség, a manőverezőképesség és a lövegstabilizálás terén."
+
+msgid "GB159_FV4602_Victorious_short"
+msgstr "Victorious"
+
+msgid "GB159_FV4602_Victorious_short_special"
+msgstr "Ideiglenes mobilitás- és lövegstabilizáció-növelés, magas lövésenkénti sebzés"
 
 msgid "GB15_Stuart_I"
 msgstr "Stuart I-IV"
@@ -2131,6 +2170,15 @@ msgstr "Triumphant"
 msgid "GB86_Centurion_Action_X_CFE_A_short_special"
 msgstr "Fehér paripán, ezüst lándzsával állt Csangban mezején,\n\nnevét a történelem könyvei a hősök között őrzik."
 
+msgid "GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
+
+msgid "GB86_Centurion_Action_X_FR_descr"
+msgstr "Az Action X tornyot a Centurion tankok későbbi változataira tervezték felszerelni. A torony egyik prototípusát felszerelték egy Centurion Mark 7 alvázra, egy másik prototípust pedig ballisztikai tesztekhez használtak. Az Action X toronnyal szerelt jármű sosem került tömeggyártásba és nem teljesített szolgálatot."
+
+msgid "GB86_Centurion_Action_X_FR_short"
+msgstr "Cent. AX BS"
+
 msgid "GB86_Centurion_Action_X_descr"
 msgstr "Az Action X tornyot a Centurion tankok későbbi változataira tervezték. A torony egy prototípusát felszerelték egy Centurion Mark 7 alvázra, egy másik prototípust pedig ballisztikai tesztekhez használtak. Az Action X toronnyal szerelt jármű sosem került tömeggyártásba és nem teljesített szolgálatot."
 
@@ -2632,6 +2680,12 @@ msgstr "PRC 352"
 msgid "Parson_s_Turbine_No_2983"
 msgstr "Parson's Turbine No. 2983"
 
+msgid "Parson_s_Turbine_No_2983_7x7"
+msgstr "Parson's Turbine No. 2983"
+
+msgid "Parson_s_Turbine_No_2985"
+msgstr "Parson's Turbine No. 2985"
+
 msgid "Paxman_Ricardo"
 msgstr "Paxman 12TP"
 
@@ -2953,6 +3007,9 @@ msgstr "Rolls-Royce Meteor TTSC"
 msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_CFE_A"
 msgstr "Rolls-Royce Meteor TTSC"
 
+msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_FR"
+msgstr "Rolls-Royce Meteor TTSC"
+
 msgid "Rolls_Royce_Meteorite_202"
 msgstr "Rolls-Royce Meteorite Mk. 202"
 
@@ -3015,6 +3072,12 @@ msgstr "SR C42I"
 
 msgid "SR_C42O"
 msgstr "SR C42O"
+
+msgid "SR_C42O_7x7"
+msgstr "SR C42O"
+
+msgid "SR_C42V"
+msgstr "SR C42V"
 
 msgid "SR_C42_B"
 msgstr "SR C42 B"
@@ -3196,6 +3259,9 @@ msgstr "Gabler’s Destroyer"
 msgid "Turret_1_GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "Turret_1_GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver"
+
 msgid "Turret_1_GB148_FV227_Conceiver"
 msgstr "FV227 Conceiver"
 
@@ -3225,6 +3291,9 @@ msgstr "FV214t"
 
 msgid "Turret_1_GB158_Executor"
 msgstr "Executor"
+
+msgid "Turret_1_GB159_FV4602_Victorious"
+msgstr "Victorious"
 
 msgid "Turret_1_GB15_Stuart_I"
 msgstr "Stuart I"
@@ -3378,6 +3447,9 @@ msgstr "Centurion Action X"
 
 msgid "Turret_1_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
+
+msgid "Turret_1_GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
 
 msgid "Turret_1_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
@@ -3580,6 +3652,9 @@ msgstr "Twin 32-pdr Gun MBC Mk. 2"
 msgid "Twin_4_5_in_Gun_MBC"
 msgstr "Twin 4.5-in. Gun MBC"
 
+msgid "Twin_4_5_in_Gun_MBC_7x7"
+msgstr "Twin 4.5-in. Gun MBC"
+
 msgid "Twin_OQF_77mm_Gun_Mk_II"
 msgstr "Twin OQF 77 mm Gun Mk. II"
 
@@ -3688,6 +3763,9 @@ msgstr "APDS L-28 (5321)"
 msgid "_105mm_APDS_L_28_5321_CFE_A"
 msgstr "APDS L-28"
 
+msgid "_105mm_APDS_L_28_5321_FR"
+msgstr "APDS L-28 (5321)"
+
 msgid "_105mm_AP_EX20"
 msgstr "105 mm AP EX20"
 
@@ -3727,6 +3805,9 @@ msgstr "105 mm Gun L7A2"
 msgid "_105mm_Gun_L7_HEAT_CFE_A"
 msgstr "105 mm Gun L7A2"
 
+msgid "_105mm_Gun_L7_HEAT_FR"
+msgstr "105 mm Gun L7A2"
+
 msgid "_105mm_Gun_L7_HEAT_SH"
 msgstr "105 mm Gun L7A2"
 
@@ -3737,6 +3818,9 @@ msgid "_105mm_HEAT_L7"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_CFE_A"
+msgstr "US HEAT M456"
+
+msgid "_105mm_HEAT_L7_FR"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_SH"
@@ -3771,6 +3855,9 @@ msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_35_5321_CFE_A"
 msgstr "HESH-T L-35"
+
+msgid "_105mm_HESH_L_35_5321_FR"
+msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_37_4015"
 msgstr "HESH L-37 (4015)"
@@ -4110,6 +4197,18 @@ msgstr "Q.F. 13-Pr. Mk. III"
 
 msgid "_13pdr_HE"
 msgstr "HE Mk. III"
+
+msgid "_140_mm_L33A1"
+msgstr "140 mm L33A1"
+
+msgid "_140mm_APDS_Mk_2"
+msgstr "140 mm APDS Mk. 2"
+
+msgid "_140mm_AP_Mk_1"
+msgstr "140 mm AP Mk. 1"
+
+msgid "_140mm_HESH_Mk_1"
+msgstr "140 mm HESH Mk. 1"
 
 msgid "_150mm_AP_Mk_1"
 msgstr "6-inch S.A.P."
@@ -4783,10 +4882,19 @@ msgstr "QF HE Mk. IT"
 msgid "_4_5_in_APDS_MBC"
 msgstr "APDS MBC"
 
+msgid "_4_5_in_APDS_MBC_7x7"
+msgstr "APDS MBC"
+
 msgid "_4_5_in_AP_MBC"
 msgstr "AP MBC"
 
+msgid "_4_5_in_AP_MBC_7x7"
+msgstr "AP MBC"
+
 msgid "_4_5_in_HE_MBC"
+msgstr "HE MBC"
+
+msgid "_4_5_in_HE_MBC_7x7"
 msgstr "HE MBC"
 
 msgid "_4_5_in_HE_Mk_XIII"

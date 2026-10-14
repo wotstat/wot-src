@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Korroosio"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Alueen tekemä vahinko"
+
+msgid "damageLog/static_death_zone"
+msgstr "Alueen tekemä vahinko"
+
+msgid "damageShieldReady"
+msgstr "Energiakilpi on valmis käytettäväksi."
+
+msgid "fastReloadReady"
+msgstr "Pikalataus on valmis käytettäväksi."
+
+msgid "hitMarker/useless"
+msgstr "Hyödytön!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Hätäkorjaukset ovat valmiina käytettäväksi."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Energialaukaus on valmis käytettäväksi."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Vampyyrilaukaus on valmis käytettäväksi."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Lamauttava laukaus on valmis käytettäväksi."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "nähdäksesi pelimuodon säännöt"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Paina"
+
+msgid "hwInvisibilityReady"
+msgstr "Häiveparannus on jo käytössä."
+
+msgid "nitroRamDamageReady"
+msgstr "Turboahdin on valmis käytettäväksi."
+
+msgid "pickupSouls"
+msgstr "Olet kerännyt %(souls)s palaa miriumia"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Käyttäminen ei onnistu [%(name)s]: tykki on vahingoittunut."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Vaunu ei ole vahingoittunut."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Käyttäminen ei onnistu [%(name)s]: moottori on tuhoutunut."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Käyttäminen ei onnistu [%(name)s]: ei riittävästi miriumia kyvyn aktivointiin."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Käyttäminen ei onnistu [%(name)s]: vaunu on tulessa."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Käyttäminen ei onnistu [%(name)s]: vaunu on hukkumasas."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Käyttäminen ei onnistu [%(name)s]: vaunu on tulessa."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Käyttäminen ei onnistu [%(name)s]: vaunu on kääntynyt nurin."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Tykki on ladattu."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Liittolainen %(target)s tuhoutui korroosioon."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Liittolainen %(target)s tuli tallotuksi (%(attacker)s)."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Liittolainen %(target)s tuhoutui vihollisen (%(attacker)s) räjähdyksestä."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Liittolainen %(target)s romuttui."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Tuhoalue tuhosi liittolaispelaajan (%(target)s)."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Vihollisen aura tuhosi liittolaispelaajan (%(target)s)."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Tuhoalue tuhosi liittolaispelaajan (%(target)s)."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Liittolainen %(target)s tuhoutui."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Vaunu tuhoutui energiaiskusta"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Vaunu tuhoutui pyrokineesillä"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Vaunu tuhoutui kestovarkaudella"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Vaunu tuhoutui räjähdyksessä"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Vaunu tuhoutui tuhoalueen toimesta"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Vihollisen aura tuhosi vaunun"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Vaunu tuhoutui korroosiosta"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Vaunu romuttui"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Vaunu tuhoutui tallomalla"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Vaunu tuhoutui. Et selvinnyt Magnukselle."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Vaunu tuhoutui: Et tuhonnut pomoa."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Vaunu tuhoutui. Magnusta ei täytetty."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Moduuli [%(device)s] räjähti pelaajan osumasta"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Tulipalo tuhosi vaunun"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Vaunu tuhoutui vihollisen laukauksesta"
+
+msgid "teamRepairKitReady"
+msgstr "Ryhmäkorjaukset ovat valmiina käytettäväksi."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s aktivoi ryhmäkorjaukset."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Ryhmäkorjaukset aktivoitu."

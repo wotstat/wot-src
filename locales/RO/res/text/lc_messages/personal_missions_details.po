@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Avangardă-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice care ți-au lovit vehiculul"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice care ți-au avariat vehiculul"
 
 msgid "pm3_10_1_14_short"
 msgstr "Avangardă-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Ambuscadă-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Provoacă daune de %(goal)s HP, rămânând neobservat când daunele sunt provocate"
+msgstr "Provoacă daune de %(goal)s HP în timp ce nu ești vizibil față de inamici"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Distruge cu proiectile un tanc greu inamic, provocându-i daune de minim %(damageDealt)s HP"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Ambuscadă-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Provoacă de %(hits)s ori daune vehiculelor inamice care sunt nedescoperite la momentul provocării daunelor"
+msgstr "Provoacă de %(hits)s ori daune vehiculelor inamice care nu îți sunt sunt vizibile atunci când provoci daunele"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Distruge %(goal)s vehicule inamice de %(uniqueGoal)s tipuri diferite"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Asistență-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Permite aliaților să provoace daune de %(goal)s HP vehiculelor inamice descoperite de tine. Rămâi nedescoperit în momentul în care daunele sunt provocate"
+msgstr "Permite aliaților să provoace daune de %(goal)s HP vehiculelor inamice descoperite de tine. Fii invizibil pentru inamici în momentul în care daunele sunt provocate"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Provoacă șoc tancurilor grele inamice de %(goal)s ori"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Avangardă-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice care ți-au lovit vehiculul"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice care ți-au avariat vehiculul"
 
 msgid "pm3_8_1_9_short"
 msgstr "Avangardă-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Ambuscadă-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Provoacă daune de %(goal)s HP, rămânând neobservat când daunele sunt provocate"
+msgstr "Provoacă daune de %(goal)s HP în timp ce nu ești vizibil față de inamici"
 
 msgid "pm3_8_2_9_short"
 msgstr "Ambuscadă-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Avangardă-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice care ți-au lovit vehiculul"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice care ți-au avariat vehiculul"
 
 msgid "pm3_9_1_14_short"
 msgstr "Avangardă-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Ambuscadă-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Provoacă daune de %(goal)s HP, rămânând neobservat când daunele sunt provocate"
+msgstr "Provoacă daune de %(goal)s HP în timp ce nu ești vizibil față de inamici"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Distruge un vehicul inamic, provocându-i daune de minim %(damageDealt)s HP"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Ambuscadă-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Provoacă daune de %(damageDealt)s HP vehiculelor inamice care sunt nedescoperite la momentul provocării daunelor"
+msgstr "Provoacă daune de %(damageDealt)s HP vehiculelor inamice care nu îți sunt vizibile la momentul provocării daunelor"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Distruge %(goal)s vehicule inamice de %(uniqueGoal)s tipuri diferite"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Asistență-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Permite aliaților să provoace daune de %(goal)s HP vehiculelor inamice descoperite de tine. Rămâi nedescoperit în momentul în care daunele sunt provocate"
+msgstr "Permite aliaților să provoace daune de %(goal)s HP vehiculelor inamice descoperite de tine. Fii invizibil pentru inamici în momentul în care daunele sunt provocate"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Provoacă șoc tancurilor grele inamice pentru un total de %(goal)s secunde. Durata potențială de șoc este luată în considerare"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Asistență-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Provoacă daune de %(damageDealt)s HP vehiculelor inamice care sunt nedescoperite la momentul provocării daunelor"
+msgstr "Provoacă daune de %(damageDealt)s HP vehiculelor inamice care nu îți sunt vizibile la momentul provocării daunelor"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Distruge %(goal)s tancuri ușoare sau artilerii inamice"

@@ -3304,12 +3304,6 @@ msgstr "Plutonsrestriktioner"
 msgid "details/conditions/additional"
 msgstr "Klicka för att visa sekundera mål för detta uppdrag."
 
-msgid "devMaps/body"
-msgstr "Utkämpa strider på kartor med slumpvisa händelser, som till exempel en tågurspårning eller flygkrasch, som ändrar slagfältets dynamik och skapar nya taktiska möjligheter."
-
-msgid "devMaps/header"
-msgstr "Spela på kartor med slumpvisa händelser"
-
 msgid "deviceFits/already_installed/header"
 msgstr "Monterad på:"
 
@@ -6670,6 +6664,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/fisherman/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/fr_spark/desc"
+msgstr "Lacie \"Spark\" Paxton kallade inte någonstans hemma speciellt länge. Uppväxten spenderades resandes mellan militärbaser med sin far, en kommunikationsingenjör, vilket gjorde henne världsvan, anpassningsbar och kusligt skicklig på att känna igen mönster. Spark visade sig senare vara lika kapabel i en stridsvagn som med signalspaningsutrustning. Hon leder med torr kvickhet och utsätter aldrig sin besättning för onödiga risker. När Sektion 3 bildade en enhet för att avlyssna Arkitektens sändningar var Spark det självklara valet att leda den. Hon döpte deras första uppdrag till Operation Fällkniv, och namnet fastnade för enheten."
+
+msgid "notrecruitedtankman/fr_spark/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/fr_spark/label"
+msgstr "Svart signal"
+
 msgid "notrecruitedtankman/freeSkillsTitle"
 msgstr "Nollförmågor"
 
@@ -6709,6 +6712,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/girls_und_panzer_erwin/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/desc"
+msgstr "Hoshino är en kapabel skytt som skjuter fienden med ett leende, och även en fantastisk racerförare på fritiden."
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/girls_und_panzer_kei/desc"
 msgstr "Kei är, med en utåtgående personlighet och oklanderliga känsla för fair play, Saunders University High Schools Sensha-Dō-lags lekfulla och skickliga lagkapten. Hon är lagets kärna och hjälper sina lagkamrater komma ihåg att segern blir så mycket bättre när man samtidigt har roligt."
 
@@ -6716,6 +6728,15 @@ msgid "notrecruitedtankman/girls_und_panzer_kei/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_kei/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/desc"
+msgstr "Lag Leoponsans avslappnade vagnschef och signalist håller alltid huvudet kallt i stridens hetta."
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_naomi/desc"
@@ -6752,6 +6773,24 @@ msgid "notrecruitedtankman/girls_und_panzer_saunders/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_saunders/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/desc"
+msgstr "Suzuki må vara tillbakadragen men granaterna hon laddar träffar motståndarna lika hårt."
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/desc"
+msgstr "Du kan säga till Tsuchiya att inte drifta. Men vänta dig inte att hon lyssnar."
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/howToGet"
@@ -6935,6 +6974,15 @@ msgid "notrecruitedtankman/lunar26_commander/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/lunar26_commander/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/desc"
+msgstr "Den berömda före detta ingenjören, numera vagnschefen, Emil Diachenko är lika hemma i en stridsvagnsduell som halvvägs inkrupen i motorrummet för att uppgradera sin stridsvagn. Han har sitt eget udda sätt och har blivit något av en myt i logementet, manskapet kan svära på att han aldrig sover. Emil känner till ryktena och föredrar att varken bekräfta eller förneka dem, han vore den siste att begränsa någons fantasi. Han skissar gärna själv på fantastiska nya maskindelar när han inte planerar nästa vilda äventyr skissar han. Om de faktiskt fungerar eller inte återstår att se."
+
+msgid "notrecruitedtankman/mustached_engineer/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/ny19men/desc"
@@ -11616,6 +11664,12 @@ msgstr "Tiden det tar från att den sista granaten i magasinet (eller båda kano
 
 msgid "tank_params/desc/coincidenceElectromechanicalSightDuration"
 msgstr "Varaktighet för effekten av koincidensbaserat elektromekaniskt sikte vid aktivering."
+
+msgid "tank_params/desc/combatThrottleCooldown"
+msgstr "Hur lång tid som krävs innan gasreglaget kan aktiveras igen efter användning."
+
+msgid "tank_params/desc/combatThrottleDuration"
+msgstr "Maximal varaktighet för gasreglaget vid aktivering."
 
 msgid "tank_params/desc/concentrationModeCooldown"
 msgstr "Hur lång tid som krävs innan stabilisatorn kan aktiveras igen efter användning."

@@ -97,32 +97,32 @@ msgstr "Figyelj a(z) <Szektor a térképen> szektorra!"
 msgid "chat_example/attention_to_position"
 msgstr "Figyelem a területre!"
 
-msgid "chat_example/global_msg/atk/focus_hq"
-msgstr "Semmisítsd meg a célpontokat"
+msgid "chat_example/global_msg_atk_focus_hq"
+msgstr "Semmisítsd meg a célpontokat!"
 
-msgid "chat_example/global_msg/atk/save_tanks"
-msgstr "Óvd a tankjaid!"
+msgid "chat_example/global_msg_atk_save_tanks"
+msgstr "Vigyázz a tankjaidra!"
 
-msgid "chat_example/global_msg/atk/time"
-msgstr "Foglald el a zónát"
+msgid "chat_example/global_msg_atk_time"
+msgstr "Foglald el a zónát!"
 
-msgid "chat_example/global_msg/def/focus_hq"
-msgstr "Védd meg a célpontokat"
+msgid "chat_example/global_msg_def_focus_hq"
+msgstr "Védd meg a célpontokat!"
 
-msgid "chat_example/global_msg/def/save_tanks"
-msgstr "Óvd a tankjaid!"
+msgid "chat_example/global_msg_def_save_tanks"
+msgstr "Vigyázz a tankjaidra!"
 
-msgid "chat_example/global_msg/def/time"
-msgstr "Védd meg a zónákat"
+msgid "chat_example/global_msg_def_time"
+msgstr "Védd meg a zónákat!"
 
-msgid "chat_example/global_msg/lane/center"
-msgstr "Erősítsd meg a zónát"
+msgid "chat_example/global_msg_lane_center"
+msgstr "Erősítsd meg a zónát!"
 
-msgid "chat_example/global_msg/lane/east"
-msgstr "Erősítsd meg a zónát"
+msgid "chat_example/global_msg_lane_east"
+msgstr "Erősítsd meg a zónát!"
 
-msgid "chat_example/global_msg/lane/west"
-msgstr "Erősítsd meg a zónát"
+msgid "chat_example/global_msg_lane_west"
+msgstr "Erősítsd meg a zónát!"
 
 msgid "chat_example/going_there"
 msgstr "Ide tartok!"
@@ -232,32 +232,32 @@ msgstr "Megvédem a bázist!"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "Védem a(z) %(strArg1)s bázist!"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "Semmisítsd meg a célpontokat!"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
-msgstr "Elég időnk van, óvd a tankjaid!"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
+msgstr "Elég időnk van, vigyázz a tankjaidra!"
 
-msgid "chat_shortcuts/global_msg/atk/time"
+msgid "chat_shortcuts/global_msg_atk_time"
 msgstr "Fogytán az idő, vess be mindent, hogy elfoglalj egy zónát!"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "Védd meg a célpontokat!"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
-msgstr "Ki kell tartanunk, óvd a tankjaid!"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
+msgstr "Ki kell tartanunk, vigyázz a tankjaidra!"
 
-msgid "chat_shortcuts/global_msg/def/time"
-msgstr "Fogytán az idő, védd meg a zónákat minden áron!"
+msgid "chat_shortcuts/global_msg_def_time"
+msgstr "Fogytán az idő, védd meg a zónákat bármi áron!"
 
-msgid "chat_shortcuts/global_msg/lane/center"
-msgstr "%(strArg1)s zónának erősítésre van szüksége!"
+msgid "chat_shortcuts/global_msg_lane_center"
+msgstr "A(z) %(strArg1)s zónának segítségre van szüksége, erősítsd meg!"
 
-msgid "chat_shortcuts/global_msg/lane/east"
-msgstr "%(strArg1)s zónának erősítésre van szüksége!"
+msgid "chat_shortcuts/global_msg_lane_east"
+msgstr "A(z) %(strArg1)s zónának segítségre van szüksége, erősítsd meg!"
 
-msgid "chat_shortcuts/global_msg/lane/west"
-msgstr "%(strArg1)s zónának erősítésre van szüksége!"
+msgid "chat_shortcuts/global_msg_lane_west"
+msgstr "A(z) %(strArg1)s zónának segítségre van szüksége, erősítsd meg!"
 
 msgid "chat_shortcuts/going_there"
 msgstr "Erre a pozícióra tartok!"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "Nyomd meg a(z)"
 
 msgid "devMaps/mapInfo/info"
-msgstr "Ezen a pályán véletlenszerű események fordulhatnak elő. Ezeket a pályákat kikapcsolhatod a játék beállításaiban."
+msgstr "Ezen a pályán véletlenszerű események fordulhatnak elő."
 
 msgid "devMaps/mapInfo/text"
 msgstr "Pálya véletlenszerű eseményekkel"

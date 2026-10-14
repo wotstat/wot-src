@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Snižuje rozptyl děla za pohybu a během otáčení korby a věže o {{@ class $highlightClass}}%(generalValue)s %%{{/}}."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s k rozptylu za pohybu\na během otáčení korby."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Snižuje\nrozptyl děla."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Snižuje rozptyl děla za pohybu a během otáčení korby a věže."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Odstřelovač"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "–%(generalValue)s %%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Činí vaše vozidlo zcela {{@ class $highlightClass}}imunním{{/}} vůči {{@ class $highlightClass}}poškození výbuchem{{/}} Ježka a Alfa ježka.\nVozidlo je však stále poškozeno nárazem Ježka."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Činí vaše vozidlo nezničitelným\nvůči poškození výbuchem Ježka."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Chrání vaše vozidlo vůči poškození výbuchem Ježka."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Činí vaše vozidlo zcela imunním vůči poškození výbuchem Ježka a Alfa ježka.\nVozidlo je však stále poškozeno nárazem Ježka."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Nezranitelnost výbuchy"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Odstraňuje rozsah potencionálního poškození {{@ class $highlightClass}}±25 %{{/}}, díky čemuž jsou zásahy předvídatelnější."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Výstřely nemají rozsah poškození\n±25 %%."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Výstřely nemají rozsah poškození ±25 %."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Odstraňuje rozsah potencionálního poškození ±25 %, díky čemuž jsou zásahy předvídatelnější."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Kontrolované poškození"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "O {{@ class $highlightClass}}%(mitigation)s %%{{/}} snižuje obdržené poškození* (včetně poškození způsobeného výstřely, požárem, nárazem, zónami poškození, žíravou fází, poškození modulů atd.)\n*Neplatí pro poškození pádem nebo během fáze popravy."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s k obdrženému poškození."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Snižuje obdržené poškození."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Snižuje obdržené poškození* (včetně poškození způsobeného výstřely, požárem, nárazem, zónami poškození, žíravou fází, poškození modulů atd.)\n*Neplatí pro poškození pádem nebo během fáze popravy."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Pohlcení poškození"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "–%(mitigation)s %%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Při způsobení poškození nepřátelským vozidlům střelbou poskytuje {{@ class $highlightClass}}%(chance)s%%{{/}} šanci na obnovení {{@ class $highlightClass}}%(heal)s{{/}} bodů výdrže vašeho vozidla."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s k šanci na obnovení HP\npři způsobení poškození střelbou."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Při způsobení poškození střelbou\nmůže obnovit body výdrže."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Při způsobení poškození nepřátelským vozidlům střelbou poskytuje příležitost obnovit body výdrže vašeho vozidla."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Upíří kousnutí"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s %%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "O {{@ class $highlightClass}}%(health)s %%{{/}} zvyšuje body výdrže vašeho vozidla."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s k bodům výdrže vozidla."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Zvyšuje\nbody výdrže vašeho vozidla."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Zvyšuje odolnost vozidla."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Výdrž"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s %%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Při poškození vozidla střelbou zvyšuje šanci na zapálení nepřátelského vozidla o {{@ class $highlightClass}}%(chance)s %%{{/}}."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s k šanci na zapálení\nnepřátelského vozidla."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Zvyšuje\nšanci na zapálení."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Při poškození vozidla střelbou zvyšuje šanci na zapálení nepřátelského vozidla."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Rozžhavená jehla"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s %%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Zvyšuje poškození způsobené nepřátelským vozidlům o {{@ class $highlightClass}}%(damageFactor)s %%{{/}}."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s ke způsobenému poškození."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Zvyšuje\nzpůsobené poškození."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Zvyšuje způsobené poškození."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Keramické jádro"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s %%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "O {{@ class $highlightClass}}%(reloadTime)s %%{{/}} zvyšuje rychlost nabíjení."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s k rychlosti nabíjení."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Zvyšuje\nrychlost nabíjení."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Zvyšuje rychlost nabíjení."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Kulomet"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s %%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Postupně obnovuje body výdrže vašeho vozidla na maximální odolnost.\nPři obdržení poškození je efekt přerušen."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Postupně obnovuje\nbody výdrže vašeho vozidla."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Obnovuje\nbody výdrže."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Postupně obnovuje body výdrže vašeho vozidla na maximální odolnost. Při obdržení poškození je efekt přerušen."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Regenerace"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Zajišťuje, že kapacita uložiště Miria ve vozidle je během bitvy {{@ class $highlightClass}}neomezená{{/}}."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Zajišťuje neomezenou kapacitu Miria."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Zajišťuje neomezenou kapacitu Miria."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Zajišťuje, že kapacita úložiště Miria ve vozidle je během bitvy neomezená."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Bezedný kolektor"
+
+msgid "buffs/buffInspiration/body"
+msgstr "O {{@ class $highlightClass}}%(crewLevelIncrease)s %%{{/}} zvyšuje bonus efektivity posádky pro všechny členy posádky ."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s k bonusu efektivity posádky"
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Zvyšuje efektivitu\nposádky."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Zvyšuje efektivitu posádky."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Inspirace"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s %%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Pokud po vašem zásahu nepřátelskému vozidlu zbude {{@ class $highlightClass}}%(hpThreshold)s %%{{/}} nebo méně bodů výdrže, bude okamžitě zničeno.\nBossové jsou vůči tomuto efektu imunní."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Nepřátelé, kterým po vašem zásahu zbývá %(value)s a méně bodů výdrže\n, jsou okamžitě zničeni."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Nepřátelé, kterým po vašem zásahu zbývá málo bodů výdrže, jsou okamžitě zničeni."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Pokud po vašem zásahu zbude nepřátelskému vozidlu málo bodů výdrže, bude okamžitě zničeno.\nBossové jsou vůči tomuto efektu imunní."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Dorážeč"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s %%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Zvyšuje maximální rychlost a rychlost couvání vozidla."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Zvyšuje maximální rychlost\na rychlost couvání vozidla."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Zvyšuje maximální rychlost a rychlost couvání vozidla."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Zvyšuje maximální rychlost a rychlost couvání vozidla."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Zrychlení"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "O {{@ class $highlightClass}}%(miriumAmountFactor)s %%{{/}} zvyšuje počet Miria získaného z poškozování nepřátel v bitvě."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s k Miriu získanému\nz nepřátel."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Zvyšuje počet Miria získaného z nepřátel."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Zvyšuje počet Miria získaného z poškozování nepřátel v bitvě."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Extrakce Miria"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s %%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "O {{@ class $highlightClass}}%(miriumAmount)s{{/}} zvyšuje maximální kapacitu úložiště Miria ve vozidle v bitvě."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s k maximální kapacitě úložiště Miria."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Zvyšuje maximální kapacitu úložiště Miria."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Zvyšuje maximální kapacitu úložiště Miria ve vozidle v bitvě."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Prostorný kolektor"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Pokud je vozidlo zničeno v bitvě, veškeré Mirum je při znovuobjevení zachováno."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Po znovuobjevení\nje na vozidle zachováno veškeré Mirium."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Po znovuobjevení zachovává veškeré Mirium."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Po znovuobjevení zachovává veškeré Mirium."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Zadržovač Miria"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "O {{@ class $highlightClass}}%(cost)s %%{{/}} snižuje cenu Miria za použití schopnosti."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s z ceny Miria za použití schopnosti."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Snižuje cenu Miria za použití schopnosti."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Výrazně snižuje cenu Miria za použití bojových schopností v bitvě."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Efektivita Miria"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "–%(cost)s %%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Při použití bojové schopnosti vrací {{@ class $highlightClass}}%(refundAmount)s %%{{/}} své ceny v Miriu."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s obnoveného Miria\npři použití schopnosti."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Při použití schopnosti částečně obnovuje Mirium."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Při použití schopnosti vrací část ceny bojové schopnosti v Miriu."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Miriová vratka"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s %%"
+
+msgid "buffs/buffMobility/body"
+msgstr "O {{@ class $highlightClass}}%(power)s %%{{/}} zvyšuje výkon motoru a o {{@ class $highlightClass}}%(rotationSpeed)s %%{{/}} zvyšuje rychlost otáčení věže."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s k výkonu motoru."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s k rychlosti otáčení věže."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Zvyšuje výkon motoru\na rychlost otáčení věže."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Zvyšuje výkon motoru a rychlost otáčení věže."
+
+msgid "buffs/buffMobility/header"
+msgstr "Pohyblivost"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s %%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s %%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Činí všechny moduly vozidla nezničitelnými vůči jakémukoliv poškození."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Činí všechny moduly vozidla nezničitelnými\nvůči jakémukoliv poškození."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Chrání moduly\npřed poškozením."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Činí všechny moduly vozidla nezničitelnými vůči jakémukoliv poškození."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Nezničitelnost modulu"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Malachitova výchozí anomálie, která je vždy aktivní."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "O {{@ class $highlightClass}}%(shellPen)s %%{{/}} zvyšuje průbojnost všech granátů."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s k průbojnosti granátu."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Zvyšuje průbojnost všech granátů."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Zvyšuje průbojnost všech granátů."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Průbojné granáty"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s %%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Pokud je vozidlo zničeno v bitvě, jsou při znovuobjevení všechny alternativní granáty zachovány."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Po znovuobjevení\njsou všechny alternativní granáty zachovány."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Po znovuobjevení zachovává všechny alternativní granáty."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Pokud je vozidlo zničeno v bitvě, jsou při znovuobjevení všechny alternativní granáty zachovány."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Zadržovač granátů"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "O {{@ class $highlightClass}}%(soulsBonus)s{{/}} zvyšuje počet Miria získaného na začátku každé fáze a po znovuobjevení. O {{@ class $highlightClass}}%(miriumAmount)s{{/}} zvyšuje maximální kapacitu úložiště Miria ve vozidle v bitvě."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s k Miriu získanému v nové fázi\na po znovuobjevení."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s k maximální kapacitě úložiště Miria."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Zvyšuje kapacitu úložiště Miria a počet Miria získaného v nové fázi a při znovuobjevení."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Zvyšuje počet Miria získaného na začátku každé fáze a po znovubojevení. Zvyšuje maximální kapacitu úložiště Miria ve vozidle v bitvě."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Skryté zásoby Miria"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "O {{@ class $highlightClass}}%(timeLength)s %%{{/}} zvyšuje dobu trvání Turba a o {{@ class $highlightClass}}%(reloadTime)s s{{/}} snižuje dobu jeho obnovení."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s k době trvání Turba."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s s z doby obnovení Turba."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Prodlužuje dobu trvání Turba a snižuje dobu jeho obnovení."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Prodlužuje dobu trvání Turba a snižuje dobu jeho obnovení."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Vylepšení Turba"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s %%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "–%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Poskytuje šanci způsobit při výstřelu konkrétní množství poškození:\n• {{@ class $highlightClass}}%(chance1)s %%{{/}} na způsobení {{@ class $highlightClass}}%(damage1)s %%{{/}} poškození;\n• {{@ class $highlightClass}}%(chance2)s %%{{/}} na způsobení {{@ class $highlightClass}}%(damage2)s %%{{/}} poškození;\n• {{@ class $highlightClass}}%(chance3)s %%{{/}} na způsobení {{@ class $highlightClass}}%(damage3)s %%{{/}} poškození;\n• {{@ class $highlightClass}}%(chance4)s %%{{/}} na způsobení {{@ class $highlightClass}}%(damage4)s %%{{/}} poškození."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Poškození výstřelem se pohybuje od nízkého\naž po extrémně vysoké."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Poškození výstřelem se pohybuje od nízkého až po extrémně vysoké."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Poskytuje šanci způsobit buď menší poškození, než je obvyklé, nebo naopak mimořádně vysoké poškození."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Kvantové výstřely"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s %"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s %"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s %"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s %"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s %"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s %"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s %"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s %"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Detaily"

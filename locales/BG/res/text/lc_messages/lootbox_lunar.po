@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Назад към съкровищата"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "Всеки %(guaranteed0)s пламтящи съкровища гара�
 msgid "infoPage/header/description"
 msgstr "Отваряйте пламтящи съкровища за шанс да получите ценни предмети в играта! Вижте повече подробности по-долу."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "От %(name) (%(boxesCount) отворени пламтящи съкровища)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Нямате пламтящи съкровища.\nМожете да ги вземете в Магазина в играта."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Налични съкровища: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Няма налични съкровища"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Ако вече притежавате всички машини от списъка с възможно съдържание на пламтящите съкровища, тогава всички следващи машини, които получавате от пламтящи съкровища, ще бъдат компенсирани в злато."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) пламтящо съкровище"
 msgstr[1] "%(remainingCount) пламтящи съкровища"
 msgstr[2] "%(remainingCount) пламтящи съкровища"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Гарантираната награда е машина от списъка с възможно съдържание на пламтящо съкровище.\nАко отворите %(remainingCount), без да се падне такава машина, то ще се падне, когато отворите %(count)-ото пламтящо съкровище. Когато това стане, броячът се нулира."

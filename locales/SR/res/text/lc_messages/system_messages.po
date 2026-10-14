@@ -1981,9 +1981,6 @@ msgstr "Greška servisa \"%(vehName)s\". Nema dovoljno bonova za kupovinu potro�
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Greška servisa \"%(vehName)s\". Nema dovoljno zlata za kupovinu potrošnog materijala. Pokušaj ponovo kasnije."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Operacija nedostupna. Svo tvoje zlato će biti dostupno nakon što se upotrebljivost WG novčanika povrati automatski."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Greška servisa \"%(vehName)s\". Dopuna potrošnog materijala nije moguća. Pokušaj ponovo kasnije."
 
@@ -1995,9 +1992,6 @@ msgstr "Greška servisa \"%(vehName)s\". Nema dovoljno kredita za kupovinu grana
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Greška servisa \"%(vehName)s\". Nema dovoljno zlata za kupovinu granata."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Operacija nedostupna. Svo tvoje zlato će biti dostupno nakon što se upotrebljivost WG novčanika povrati automatski."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Greška servisa \"%(vehName)s\". Vozilo je zaključano."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "Vozilo %(userString)s je izučeno. Iskustvo potrošeno: %(unspentXP)s. Slobodno iskustvo potrošeno: %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Sistem elitnih nagrada je sada dostupan za %(vehicle)s"
+msgstr "Sistem elitnih nagrada je sada dostupan za %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Elitne nagrade"

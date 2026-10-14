@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+from future.utils import viewitems, viewvalues
 from adisp import adisp_async, adisp_process
 from constants import SCENARIO_RESULT
 from gui.impl import backport
@@ -74,14 +76,14 @@ class StoryModeResultsFormatter(BattleResultsFormatter):
         for reward in rewardList:
             credits += reward.get(b'credits', 0)
             freeXP += reward.get(b'freeXP', 0)
-            bpPoints += sum(points for points in reward.get(b'battlePassPoints', {}).get(b'vehicles', {}).itervalues())
+            bpPoints += sum(viewvalues(reward.get(b'battlePassPoints', {}).get(b'vehicles', {})))
             crystal += reward.get(b'crystal', 0)
             customizations += reward.get(b'customizations', [])
             premium += reward.get(b'premium_plus', 0)
             slots += reward.get(b'slots', 0)
             equipCoin += reward.get(b'equipCoin', 0)
             if b'items' in reward:
-                for itemKey, amount in reward[b'items'].iteritems():
+                for itemKey, amount in viewitems(reward[b'items']):
                     items[itemKey] = items.get(itemKey, 0) + amount
 
             vehicles += reward.get(b'vehicles', [])
@@ -107,7 +109,7 @@ class StoryModeResultsFormatter(BattleResultsFormatter):
             if slots:
                 commaItems.append(backport.text(R.strings.sm_messenger.result.slots()) + b'&nbsp;(x' + str(slots) + b')')
             if items:
-                for itemKey in sorted(items.iterkeys(), reverse=True):
+                for itemKey in sorted(items, reverse=True):
                     item = self._itemsCache.items.getItemByCD(itemKey)
                     commaItems.append(item.userName + b'&nbsp;(x' + str(items[itemKey]) + b')')
 

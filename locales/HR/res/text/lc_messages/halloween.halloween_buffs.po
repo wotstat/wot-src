@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Umanjuje rasipanje topa tijekom kretanja i zakretanja trupa i kupole za {{@ class $highlightClass}}%(generalValue)s%%{{/}}."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s na rasipanje tijekom kretanja\ni zakretanja trupa."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Umanjuje\nrasipanje topa."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Umanjuje rasipanje topa tijekom kretanja i tijekom zakretanja trupa i kupole."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Snajper"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Čini vaše vozilo apsolutno {{@ class $highlightClass}}neranjivim{{/}} na {{@ class $highlightClass}}eksplozivnu štetu{{/}} Ježa i Alfa Ježa. \nVozilo i dalje trpi štetu sudaranja od Ježa prilikom sudara."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Čini vaše vozilo neranjivim\nna eksplozivnu štetu Ježa."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Štiti vaše vozilo od eksplozivne štete Ježa."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Čini vaše vozilo apsolutno neranjivim na eksplozivnu štetu Ježa i Alfa Ježa. \nVozilo i dalje trpi štetu sudaranja od Ježa prilikom sudara."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Neranjivost na eksploziju"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Umanjuje potencijalni {{@ class $highlightClass}}±25%{{/}} opseg štete što čini udar hica predvidljivijim."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Hici nemaju ±25%% opseg\nštete."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Hici nemaju ±25% opseg štete."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Umanjuje potencijalni ±25% opseg štete što čini udar hica predvidljivijim."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Kontrolirana šteta"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Umanjuje primljenu štetu* (uključujuči od hitaca, požara, sudaranja, zona štete, faze korozije, štete modula, itd.) za {{@ class $highlightClass}}%(mitigation)s%%{{/}}.\n*ne primjenjuje se na štetu od pada ili tijekom faze izvršenja."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s na primljenu štetu."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Smanjuje primljenu štetu."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Umanjuje primljenu štetu* (uključujuči od hitaca, požara, sudaranja, zona štete, faze korozije, štete modula, itd.).\n*ne primjenjuje se na štetu od pada ili tijekom faze izvršenja."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Upijanje štete"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Daje {{@ class $highlightClass}}%(chance)s%%{{/}} vjerojatnosti za obnovu {{@ class $highlightClass}}%(heal)s{{/}} HP vašeg vozila nakon nanošenja štete neprijateljskim vozilima pucanjem na njih."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s na vjerojatnost obnove HP\nnakon nanošenja štete paljbom."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Može obnoviti HP\npo nanošenju štete pucanjem."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Daje mogućnost obnove HP vašeg vozila nakon nanošenja štete neprijateljskim vozilima pucanjem na njih."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Ugriz vampira"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Povećava HP vašeg vozila za {{@ class $highlightClass}}%(health)s%%{{/}}."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s na HP vozila."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Povećava\nHP vašeg vozila."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Povećava izdržljivost vozila."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Izdržljivost"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Povećava vjerojatnost zapaljenja neprijateljskog vozila za {{@ class $highlightClass}}%(chance)s%%{{/}} nakon nanošenja štete pucanjem."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s na vjerojatnost zapaljenja\nneprijateljskog vozila."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Povećava\nvjerojatnost zapaljenja."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Povećava vjerojatnost zapaljenja neprijateljskog vozila nakon nanošenja štete pucanjem na vozilo."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Vruća igla"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Povećava štetu nanešenu vozilu za {{@ class $highlightClass}}%(damageFactor)s%%{{/}}."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s na nanešenu štetu."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Povećava\nnanešenu štetu."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Povećava nanešenu štetu."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Keramička jezgra"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Povećava brzinu punjenja za {{@ class $highlightClass}}%(reloadTime)s%%{{/}}."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s na brzinu punjenja."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Povećava\nbrzinu punjenja."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Povećava brzinu punjenja."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Strojnica"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Postupno obnavlja HP vašeg vozila do najveće izdržljivosti.\nUčinak se prekida po primitku štete."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Postupno obnavlja\nHP vašeg vozila."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Obnavlja\nHP."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Postupno obnavlja HP vašeg vozila do najveće izdržljivosti. Učinak se prekida po primitku štete."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Obnavljanje"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Čini kapacitet pohrane vozila za mirium u bitci {{@ class $highlightClass}}neograničenim{{/}}."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Čini kapacitet miriuma neograničenim."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Čini kapacitet miriuma neograničenim."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Čini kapacitet pohrane vozila za mirium u bitci neograničenim."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Sakupljač bez dna"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Povećava bonus učinkovitosti posade za sve članove posade za {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s na bonus učinkovitosti posade"
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Poboljšava učinkovitost\nposade."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Poboljšava učinkovitost posade."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Nadahnuće"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Ako je neprijateljsko vozilo ostalo s {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} HP ili manje nakon što ste ga pogodili, biti će odmah uništeno.\nGlavni su imuni na ovaj učinak."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Neprijatelji s %(value)s HP ili manje nakon vašeg\nhica su odmah uništeni."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Neprijatelji s niskim HP nakon vašeg hica su odmah uništeni."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Ako je neprijateljsko vozilo ostalo s niskim HP nakon što ste ga pogodili, biti će odmah uništeno.\nGlavni su imuni na ovaj učinak."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Finisher"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Povećava najveću brzinu vozila unaprijed i unatrag."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Povećava najveću\nbrzinu vozila unaprijed i unatrag."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Povećava najveću brzinu vozila unaprijed i unatrag."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Povećava najveću brzinu vozila unaprijed i unatrag."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Ubrzanje"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Povećava količinu primljenog miriuma od oštećenih neprijatelja u bitci za {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s na primljeni mirium\nod neprijatelja."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Povećava primljeni mirium od neprijatelja."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Povećava primljeni mirium od oštećenih neprijatelja u bitci."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Izvlačenje miriuma"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Povećava maksimalni kapacitet miriuma u vozilu u bitci za {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s na maksimalni kapacitet miriuma."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Povećava maksimalni kapacitet miriuma."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Povećava maksimalni kapacitet pohrane vozila za mirium u bitci."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Prostrani sakupljač"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Sav mirium je sačuvan na oživljavanju ako se vozilo uništi u bitci."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Sav mirium je sačuvan u vozilu\nnakon oživljavanja."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Čuva sav mirium nakon oživljavanja."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Čuva sav mirium nakon oživljavanja."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Čuvar miriuma"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Smanjuje trošak miriuma borbenih sposobnosti u bitci za {{@ class $highlightClass}}%(cost)s%%{{/}}."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s na trošak miriuma za sposobnosti."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Smanjuje trošak miriuma za sposobnosti."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Značajno smanjuje trošak miriuma borbenih sposobnosti u bitci."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Učinkovitost miriuma"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Obnavlja {{@ class $highlightClass}}%(refundAmount)s%%{{/}} troška miriuma borbenih sposobnosti po uporabi."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s od uništenog miriuma\nna korištenje sposobnosti."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Djelomično obnablja mirium na korištenje sposobnosti."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Djelomično obnavlja trošak miriuma borbene sposobnosti po uporabi."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Povratak miriuma"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Povećava snagu motora za {{@ class $highlightClass}}%(power)s%%{{/}} i brzinu zakretanja kupole za {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s na snagu motora."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s na brzinu zakretanja kupole."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Povećava snagu motora\ni brzinu zakretanja kupole."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Povećava snagu motora i brzinu zakretanja kupole."
+
+msgid "buffs/buffMobility/header"
+msgstr "Pokretljivost"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Čini sve module vozila neranjivima na bilo koju štetu."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Čini sve module vozila neranjivima\nna bilo koju štetu."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Štiti module\nod štete."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Čini sve module vozila neranjivima na bilo koju štetu."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Neranjivost modula"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Zadana Malahitova anomalija, uvijek aktivna."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Povećava probojnost svih granata za {{@ class $highlightClass}}%(shellPen)s%%{{/}}."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s na probojnost granata."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Povećava probojnost svih granata."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Povećava probojnost svih granata."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Probojne granate"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Sve alternativne granate su sačuvane na oživljavanju ako se vozilo uništi u bitci."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Sve alternativne granate su sačuvane\nnakon oživljavanja."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Čuva sve alternativne granate nakon oživljavanja."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Sve alternativne granate su sačuvane na oživljavanju ako se vozilo uništi u bitci."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Čuvar granata"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Povećava količinu primljenog miriuma na početku svake nove faze ili nakon oživljavanja za {{@ class $highlightClass}}%(soulsBonus)s{{/}}. Povećava maksimalni kapacitet pohrane miriuma vozila u bitci za {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s na mirum primljen u novoj fazi\nili nakon oživljavanja."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s na maksimalni kapacitet miriuma."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Povećava kapacitet miriuma i njegovu primljenu količinu u novoj fazi ili nakon oživljavanja."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Povećava količinu primljenog miriuma na početku svake nove faze ili nakon oživljavanja. Povećava maksimalni kapacitet pohrane miriuma vozila u bitci."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Zalihe miriuma"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Povećava trajanje turba za {{@ class $highlightClass}}%(timeLength)s%%{{/}} i skraćuje hlađenje za {{@ class $highlightClass}}%(reloadTime)s s{{/}}."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s na trajanje turba."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s s na hlađenje turba."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Produljuje trajanje turba i skraćuje hlađenje."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Produljuje trajanje turba i skraćuje hlađenje."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Pojačivač turba"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Daje vjerojatnost nanošenja određene količine štete pri hicu:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} za nanijeti{{@ class $highlightClass}}%(damage1)s%%{{/}} štete;\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} za nanijeti{{@ class $highlightClass}}%(damage2)s%%{{/}} štete;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} za nanijeti{{@ class $highlightClass}}%(damage3)s%%{{/}} štete;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} za nanijeti{{@ class $highlightClass}}%(damage4)s%%{{/}} štete."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Šteta hica varira od niske\ndo ekstremno visoke."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Šteta hica varira od niske do ekstremno visoke."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Daje šansu za nanošenje ili manje od uobičajene ili izuzetno velike količine štete."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Kvantum hici"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Detalji"

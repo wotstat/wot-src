@@ -4,9 +4,9 @@ from collections import namedtuple
 from events_handler import eventHandler
 from gui.battle_control.components_states.ammo import DefaultComponentAmmoState
 from gui.shared.utils.decorators import ReprInjector
+from items.vehicle_mechanics_types import VehicleMechanicKey, VehicleMechanicKeys
 from vehicles.components.vehicle_component import VehicleDynamicComponent
 from vehicles.mechanics.gun_mechanics.common import IGunMechanicComponent
-from vehicles.mechanics.mechanic_constants import VehicleMechanic
 from vehicles.mechanics.mechanic_helpers import getVehicleDescrMechanicParams
 from vehicles.mechanics.mechanic_states import IMechanicState, IMechanicStatesComponent, createMechanicStatesEvents, IMechanicStatesEvents
 
@@ -51,8 +51,8 @@ class ChargeableBurstComponent(VehicleDynamicComponent, IGunMechanicComponent, I
         return
 
     @property
-    def vehicleMechanic(self):
-        return VehicleMechanic.CHARGEABLE_BURST
+    def vehicleMechanicKey(self):
+        return VehicleMechanicKeys.CHARGEABLE_BURST
 
     @property
     def statesEvents(self):
@@ -85,7 +85,7 @@ class ChargeableBurstComponent(VehicleDynamicComponent, IGunMechanicComponent, I
 
     @eventHandler
     def onCollectAmmoStates(self, ammoStates):
-        ammoStates[self.vehicleMechanic.value] = ChargeableBurstAmmoState(self.isBurstActive, self.shots, self.__burstCount)
+        ammoStates[self.vehicleMechanicKey.uniqueName] = ChargeableBurstAmmoState(self.isBurstActive, self.shots, self.__burstCount)
         return
 
     def _onAppearanceReady(self):
@@ -106,7 +106,7 @@ class ChargeableBurstComponent(VehicleDynamicComponent, IGunMechanicComponent, I
 
     def _collectComponentParams(self, typeDescriptor):
         super(ChargeableBurstComponent, self)._collectComponentParams(typeDescriptor)
-        mechanicParams = getVehicleDescrMechanicParams(typeDescriptor, self.vehicleMechanic)
+        mechanicParams = getVehicleDescrMechanicParams(typeDescriptor, self.vehicleMechanicKey)
         self.__penetrationCount = mechanicParams.penetrationCount
         self.__burstCount, _, _ = typeDescriptor.gun.burst
         return

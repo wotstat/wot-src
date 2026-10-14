@@ -1981,9 +1981,6 @@ msgstr "\"%(vehName)s\" szervizelési hiba. Nincs elég kötvényed a fogyócikk
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "\"%(vehName)s\" szervizelési hiba. Nincs elég aranyad a fogyócikkek megvásárlásához. Próbáld újra később."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "\"%(vehName)s\" szervizelési hiba. Nem sikerült feltölteni a fogyócikkeket. Próbáld újra később."
 
@@ -1995,9 +1992,6 @@ msgstr "\"%(vehName)s\" szervizelési hiba. Nincs elég kredited lőszer vásár
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "\"%(vehName)s\" szervizelési hiba. Nincs elég aranyad lőszer vásárláshoz."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "\"%(vehName)s\" szervizelési hiba. Jármű zárolva."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "A következő tank kifejlesztve: %(userString)s. Elköltött XP: %(unspentXP)s. Elköltött szabad XP: %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Az elit jutalmak rendszere most elérhető a(z) %(vehicle)s járműhöz"
+msgstr "Az elit jutalmak rendszere mostantól elérhető a(z) %(vehicle)s járműhöz."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Elit jutalmak"

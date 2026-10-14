@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Zdolność bojowa"
+
+msgid "make_choice/server_error"
+msgstr "Operacja jest tymczasowo niedostępna. Spróbuj ponownie później."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "ZWERBUJ"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Zwerbowano"
+
+msgid "notification/crew_reward/title"
+msgstr "Odebrano nagrodę"
+
+msgid "open_artefact/server_error"
+msgstr "Operacja jest tymczasowo niedostępna. Spróbuj ponownie później."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Otrzymane klucze deszyfrujące: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Pokwitowanie"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Usunięte klucze deszyfrujące: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Odszyfrowanie"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Nie udało się uzupełnić zdolności bojowych dla %s. Problem techniczny."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Nie udało się uzupełnić zdolności bojowych dla %s. Za mało funduszy."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Zdolności bojowe dla %s uzupełnione. Wydano "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Otrzymano klucze deszyfrujące"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Nagrania dostępne do odszyfrowania"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Tryb: Babilon: Mroczna Wieża"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babilon: Mroczna Wieża (Normalny)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babilon: Mroczna Wieża (Trudny)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babilon: Mroczna Wieża (Koszmarny)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Boss pokonany"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Poziom trudności"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Podstawowy"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Wysoki"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Koszmarny"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Ukończone fazy: %(curPhase)s z %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Cel osiągnięty!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Cele osiągnięte!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Pojazd"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Wydano %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Transakcja finansowa"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Poziom trudności możesz wybrać w garażu trybu Babilon: Mroczna Wieża."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Odblokowano wysoki poziom trudności"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Poziom trudności możesz wybrać w garażu trybu Babilon: Mroczna Wieża."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Odblokowano koszmarny poziom trudności"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "%(vehicle)s jest teraz dostępny do bitew trybu Babilon: Mroczna Wieża."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Bitwy w trybie Babilon: Mroczna Wieża są tymczasowo niedostępne.\nSpróbuj ponownie później."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Bitwy w trybie Babilon: Mroczna Wieża (%(difficulty)s) są tymczasowo niedostępne.\nSpróbuj ponownie później."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Tryb Babilon: Mroczna Wieża jest obecnie niedostępny. Aktualizacje można znaleźć na portalu gry."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Dowódca plutonu zmienił poziom trudności na %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Gracz %(userName)s nie odblokował jednego z poziomów trudności."

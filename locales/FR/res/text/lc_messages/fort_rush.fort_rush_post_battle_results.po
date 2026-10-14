@@ -1,0 +1,86 @@
+msgid "battleInfo/all_from_battle"
+msgstr "Tous les véhicules de la dernière bataille"
+
+msgid "battleInfo/arena"
+msgstr "{{arenaName}}, Signal noir – {{finishReason}}"
+
+msgid "battleInfo/finishReason/10lose"
+msgstr "les objectifs ont survécu"
+
+msgid "battleInfo/finishReason/10win"
+msgstr "les objectifs ont été détruits"
+
+msgid "battleInfo/finishReason/1lose"
+msgstr "tous les véhicules alliés ont été détruits"
+
+msgid "battleInfo/finishReason/1tie"
+msgstr "tous les véhicules ont été détruits"
+
+msgid "battleInfo/finishReason/1win"
+msgstr "tous les véhicules ennemis ont été détruits"
+
+msgid "battleInfo/finishReason/2"
+msgstr "base capturée"
+
+msgid "battleInfo/finishReason/3"
+msgstr "la durée de la bataille a expiré"
+
+msgid "battleInfo/finishReason/4"
+msgstr "la bataille a pris fin suite à une erreur du système"
+
+msgid "battleInfo/finishReason/5"
+msgstr "défaite technique"
+
+msgid "battleInfo/finishReason/8"
+msgstr "allié détruit"
+
+msgid "battleInfo/finishReason/9"
+msgstr "votre véhicule a été détruit"
+
+msgid "battleInfo/labels_objectivesDestroyed"
+msgstr "Objectifs détruits"
+
+msgid "battleInfo/labels_objectivesReached"
+msgstr "Objectifs atteints"
+
+msgid "battleInfo/labels_zoneCaptured"
+msgstr "Zones capturées"
+
+msgid "battleInfo/leaver/body"
+msgstr "La progression de la mission obtenue après avoir quitté la bataille n'a pas été comptabilisée. Les Paquets de données attribués en fonction du résultat de la bataille n'ont pas été décernés."
+
+msgid "battleInfo/leaver/header"
+msgstr "Comportement inacceptable : inaction/désertion"
+
+msgid "battleInfo/no"
+msgstr "Non"
+
+msgid "battleInfo/time"
+msgstr "{{date}}, {{time}} (durée de la bataille : {{duration}})"
+
+msgid "battleInfo/timeLeft/minutesAndSeconds"
+msgstr "{{minutes}} min {{seconds}} s"
+
+msgid "battleInfo/timeLeft/minutesOnly"
+msgstr "{{minutes}} min"
+
+msgid "battleInfo/timeLeft/secondsOnly"
+msgstr "{{seconds}} s"
+
+msgid "battleInfo/yes"
+msgstr "Oui"
+
+msgid "currencies/credits/body"
+msgstr "Devise principale du jeu.\nObtenue en bataille ou\nachetée avec des pièces d'or."
+
+msgid "currencies/credits/header"
+msgstr "Crédits"
+
+msgid "detailedPersonalEfficiency/fortRushScore/body"
+msgstr "Points obtenus en capturant des antennes, en neutralisant les antennes contrôlées par l'ennemi, en contestant les antennes en cours de capture par l'équipe adverse, en infligeant des dégâts et en détruisant des ennemis près des antennes."
+
+msgid "detailedPersonalEfficiency/fortRushScore/header"
+msgstr "Score opérationnel"
+
+msgid "state/title"
+msgstr "RÉSULTATS DE LA BATAILLE"

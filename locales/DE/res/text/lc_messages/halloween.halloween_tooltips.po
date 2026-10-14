@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Abklingzeit: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Kosten in Mirium für den Einsatz im Gefecht: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Bei Benutzung:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Passive Verstärkungen im Gefecht"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Schließen Sie den Schwierigkeitsgrad „Normal“ ab, um den Zugang zum Schwierigkeitsgrad „Schwer“ und zum System der Anomalien-Kombos zu erhalten."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Anomalien-Kombos sind nicht verfügbar"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Erhöht die Effektivität im Kampf und gilt phasenübergreifend, selbst wenn das Fahrzeug zerstört wird."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Bei Erhalt:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomalien"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Echo-Anomalie"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Träger-Anomalie"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Standard-Anomalie"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Geheim-Anomalie"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Nur aus Beute erhältlich."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Verfügt über keine Kombos."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Zählt nicht für den Erhalt der Medaille „Anomalien-Sammler“."
+
+msgid "bannerTooltip/available"
+msgstr "Verbleibende Zeit im Event: %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) - Zum Erforschen klicken."
+
+msgid "bannerTooltip/description"
+msgstr "Ein besonderer PvE-Modus, der Sie tief in die Welt des mysteriösen „Projekt Babylon“ führt. Meistern Sie sieben einzigartige Fahrzeuge und kämpfen Sie gegen die Mächte des Bösen. Exklusive Belohnungen und mehr warten auf Sie!"
+
+msgid "bannerTooltip/header"
+msgstr "Babylon: Dunkelturm"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Die Leistung Ihres Computers reicht für diesen Modus nicht aus. Es können Probleme bei Grafik und Fahrzeugbewegung auftreten. Clientabstürze sind ebenfalls möglich."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Dieser Modus verlangt eine hohe Computerleistung. Es können Probleme beim Laden von Karten, der Grafik und der Fahrzeugbewegung auftreten. Reicht die Computerleistung nicht aus, sollten Sie die Grafikqualität in den Einstellungen heruntersetzen."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Geringe Leistung"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Möglicherweise verringerte Leistung"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Sie sind bereits befreundet."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Warte auf Bestätigung der Freundschaftsanfrage."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Spieler von der Ignorierenliste nehmen."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Zur Freundesliste hinzufügen."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klicken, um das Interaktionsmenü für diesen Spieler zu öffnen."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Zum Zug hinzufügen."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Spieler ist bereits im Zug."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Einladung wurde bereits versendet."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Nur der Zugkommandant kann Spieler in einen Zug einladen."
+
+msgid "battleResult/secretReward/header"
+msgstr "Geheime Belohnung"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Sie erhalten eine besondere Belohnung, basierend auf Ihrer Entscheidung zum Ende des Events."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Einzigartige Auszeichnung des Events"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Abklingzeit: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Kosten in Mirium: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Verfügbar bis {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Belohnungen:"
+
+msgid "dailyQuests/status"
+msgstr "Neuer Tagesauftrag in {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Weisen Sie alle vier Besatzungsmitglieder mit Sprachausgabe (%(crew_members_names)s) einem beliebigen Fahrzeug in Ihrer Garage zu (einer muss als Kommandant gewählt sein), um dynamische Besatzungsdialoge im Gefecht zu aktivieren.\nIn Fahrzeugen mit fünf oder sechs Rollen können die verbleibenden Rollen mit beliebigen anderen Besatzungsmitgliedern besetzt werden."
+
+msgid "groupVoiceover/header"
+msgstr "Dynamische Besatzungsdialoge"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Das Ziel zum Freischalten dieses Fahrzeugs ist bereits ausgewählt. Die Bedingungen können Sie rechts oben einsehen."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Ziel ausgewählt"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Wählen Sie ein verfügbares Fahrzeug aus, um das Gefecht zu betreten."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Nicht verfügbar"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Gefechte im ausgewählten Schwierigkeitsgrad/Modus sind aus technischen Gründen vorübergehend nicht verfügbar."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Nicht verfügbar"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Warten Sie, bis der Zug aus dem vorherigen Gefecht zurückkehrt, um ein neues Gefecht zu betreten."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Nicht verfügbar"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Schwierigkeitsgrad für den Zug nicht kompatibel"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Nicht verfügbar"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Eine einzigartige Besatzung aus vier Besatzungsmitgliedern."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Vollständige einzigartige Besatzung"
+
+msgid "keyCard/body"
+msgstr "Klicken Sie, um die verfügbaren Möglichkeiten zu sehen, Eventwährung zu erhalten."
+
+msgid "keys/accrued"
+msgstr "Erhalten:"
+
+msgid "keys/battles"
+msgstr "• In Eventgefechten"
+
+msgid "keys/body"
+msgstr "Eine einzigartige Währung für den Fortschritt im Event „Babylon: Dunkelturm“, über die Sie wertvolle Gegenstände erhalten können, darunter auch die Hauptbelohnung des Events. Kann in Gefechten des Events verdient und in Paketen erworben werden. Zerstören Sie gegnerische Fahrzeuge in Gefechten für „Babylon: Dunkelturm“, um so viel Materie wie möglich zu sammeln und Schlüssel zu verdienen."
+
+msgid "keys/boss"
+msgstr "• Boss besiegt:"
+
+msgid "keys/bottom"
+msgstr "Nach Ende des Events (%(date)s) werden alle nicht genutzten Schlüssel entfernt."
+
+msgid "keys/bundles"
+msgstr "• Kauf in Eventpaketen"
+
+msgid "keys/daily"
+msgstr "• Tagesauftrag für Fahrzeug:"
+
+msgid "keys/effective"
+msgstr "• Effizienz im Gefecht:"
+
+msgid "keys/gold"
+msgstr "• Kauf mit Gold"
+
+msgid "keys/header"
+msgstr "Dechiffrierungsschlüssel"
+
+msgid "keys/howToEarn"
+msgstr "Anleitung zum Verdienen"
+
+msgid "keys/howToUse"
+msgstr "Anleitung zum Verwenden"
+
+msgid "keys/howToUseDescr"
+msgstr "Nutzen Sie Schlüssel, um Aufzeichnungen zu dechiffrieren, neue Ziele freizuschalten und Fortschritt für die Hauptbelohnung des Events zu sammeln. Sie können mehr Schlüssel einsetzen, um Ziele zu überspringen und die Belohnungen schneller zu erhalten."
+
+msgid "keys/inStock"
+msgstr "verfügbar"
+
+msgid "keys/secret"
+msgstr "• Geheime Belohnung:"
+
+msgid "metaWidget/body"
+msgstr "Klicken Sie, um alle Ziele und Belohnungen des Events zu sehen."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Schließen Sie die Gefechtsbedingung dieser Aufzeichnung ab, um sie zu dechiffrieren. Dieser Schritt kann nicht übersprungen werden."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Dechiffrierung nicht verfügbar"
+
+msgid "metaWidget/header"
+msgstr "Belohnungspfad"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Klicken Sie, um zu wählen, wie die Geschichte enden soll. Die Gesamtauswahl der Community wird bestimmen, wie es weitergeht. Aktuelle Informationen dazu werden Sie auf dem Spielportal finden."
+
+msgid "missionTooltip/bottom"
+msgstr "Dechiffrieren Sie alle Aufzeichnungen (einige Ziele können übersprungen werden), um die Hauptbelohnung zu erreichen, ehe das Event am %(date)s endet."
+
+msgid "missionTooltip/completed"
+msgstr "Ziel %(current)s abgeschlossen, Belohnung erhalten"
+
+msgid "missionTooltip/count"
+msgstr "Ziel %(current)s von %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Entschlüsseln"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Schließen Sie das Ziel ab, um die Dechiffrierung zu ermöglichen."
+
+msgid "missionTooltip/kingReward"
+msgstr "Hauptbelohnung des Events"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Hauptbelohnung des Events erhalten"
+
+msgid "missionTooltip/received"
+msgstr "Ziel %(current)s abgeschlossen, aber Aufzeichnung nicht dechiffriert"
+
+msgid "missionTooltip/rewards"
+msgstr "Schließen Sie das Ziel ab, um Belohnungen zu erhalten."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Dechiffrieren Sie die Aufzeichnung, um Belohnungen zu erhalten."
+
+msgid "missionTooltip/skip"
+msgstr "Überspringen"
+
+msgid "shopWidget/body"
+msgstr "Klicken Sie, um einen besonderen Abschnitt des Nachschubs mit exklusiven Gegenständen des Events zu öffnen."
+
+msgid "shopWidget/header"
+msgstr "Eventpakete"
+
+msgid "teamList/actions/body"
+msgstr "Schnellaktionen zum Erstellen eines Zugs und hinzufügen/entfernen von Freunden."
+
+msgid "teamList/actions/header"
+msgstr "Schnellaktionen"
+
+msgid "teamList/anomalies/header"
+msgstr "Aktive Anomalien"
+
+msgid "teamList/bossDamage/body"
+msgstr "Nur nach Schaden sortieren, der in Phase 4 (Bosskampf) verursacht wurde.\nWenn das Team den Boss nicht besiegt hat, wird dieser Schaden nicht für den Fortschritt zu den Hauptbelohnungen gewertet."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Weil das Team den Boss nicht besiegt hat, wird dieser Schaden nicht für den Fortschritt zu den Hauptbelohnungen gewertet."
+
+msgid "teamList/bossDamage/header"
+msgstr "Im Bosskampf verursachter Schaden"
+
+msgid "teamList/damage/body"
+msgstr "Nach Schaden sortieren, der in Phasen 1–3 verursacht wurde."
+
+msgid "teamList/damage/header"
+msgstr "Verursachter Schaden"
+
+msgid "teamList/keys/body"
+msgstr "Nach verdienten Schlüsseln sortieren (Der angezeigte Wert zählt keine Bonus-Schlüssel, die für den Abschluss des entsprechenden Tagesauftrags erhalten wurden.)"
+
+msgid "teamList/keys/header"
+msgstr "Verdiente Schlüssel"
+
+msgid "teamList/kills/body"
+msgstr "Nach Anzahl zerstörter Gegnerfahrzeuge sortieren"
+
+msgid "teamList/kills/header"
+msgstr "Zerstörte Gegnerfahrzeuge"
+
+msgid "teamList/name/header"
+msgstr "Spielername"
+
+msgid "teamList/place/body"
+msgstr "Nach Position im Team sortieren"
+
+msgid "teamList/place/header"
+msgstr "Position im Team"
+
+msgid "teamList/squad/header"
+msgstr "Ein Zug ist eine taktische Einheit, mit der Spieler im Gefecht kooperieren können."
+
+msgid "teamList/vehicle/body"
+msgstr "Nach Fahrzeugtyp und -namen sortieren."
+
+msgid "teamList/vehicle/header"
+msgstr "Fahrzeuge"
+
+msgid "teamList/warned/body"
+msgstr "Dieser Spieler hat eine Strafe für Inaktivität/Desertieren erhalten und bekommt keine Belohnungen für dieses Gefecht."
+
+msgid "teamList/warned/header"
+msgstr "Warnung"
+
+msgid "teamList/warned/self/body"
+msgstr "Sie haben eine Strafe für Inaktivität/Desertieren erhalten und bekommen keine Belohnungen für dieses Gefecht."
+
+msgid "teamList/warned/self/header"
+msgstr "Warnung"
+
+msgid "vehicle/bonusTitle"
+msgstr "Einnahmen"
+
+msgid "vehicle/eventBonus"
+msgstr "Bonusschlüssel können durch den Abschluss eines Tagesauftrags in diesem Fahrzeug erhalten werden."
+
+msgid "vehicle/state/default/title"
+msgstr "Gefechtsbereit"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "Im Gefecht"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "In taktischer Einheit"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "In Warteschlange"
+
+msgid "vehicle/state/locked/title"
+msgstr "Gesperrt"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Ein fünfschüssiges Magazin erlaubt es Ihnen, schnell hohen Schaden zu verursachen."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Magazin"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Ein dreischüssiger Nachladeautomat, der die Standardzeit für das automatische Nachladen von Granaten reduziert."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Verbesserter Nachladeautomat"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Ein Geschütz mit einem System für kontinuierliches Feuern."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Maschinenkanone"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Steigert die Chance, Module auf gegnerischen Fahrzeugen zu beschädigen."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Geschütz mit kritischem Schaden"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Ein HE-Geschütz mit einem mächtigen zweischüssigen Nachladeautomaten."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Geschütz mit Nachladeautomat"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Erlaubt die Auswahl zwischen zyklischem und sequenziellem Feuer."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Doppelgeschütz"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Verleiht den Fahrzeugmodulen vollständigen Schutz vor kritischem Schaden."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Widerstand gegen kritischen Schaden"

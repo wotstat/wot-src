@@ -1981,9 +1981,6 @@ msgstr "Eroare de service: \"%(vehName)s\". Bonduri insuficiente pentru a achizi
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Eroare de service: \"%(vehName)s\". Aur insuficient pentru a cumpăra consumabilele. Încearcă mai târziu."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Eroare de service pentru \"%(vehName)s\". Nu se poate realimenta cu consumabile. Încearcă mai târziu."
 
@@ -1995,9 +1992,6 @@ msgstr "Eroare de service pentru \"%(vehName)s\". Credite insuficiente pentru a 
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Eroare de service pentru \"%(vehName)s\". Aur insuficient pentru a cumpăra proiectilele."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Eroare de service pentru ”%(vehName)s”. Vehiculul este blocat."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "S-a cercetat \"%(userString)s\". S-au utilizat %(unspentXP)s puncte de experienţă specifică şi %(freeXP)s puncte de experienţă liberă."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Sistemul de recompense Elită este acum disponibil pentru %(vehicle)s"
+msgstr "Sistemul de recompense Elită este acum disponibil pentru %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Recompensele Elită"

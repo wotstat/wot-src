@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Voorhoede-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Veroorzaak %(goal)s HP schade aan vijandelijke voertuigen die jouw voertuig hebben geraakt"
+msgstr "Veroorzaak %(goal)s HP schade aan vijandelijke voertuigen die jouw voertuig hebben beschadigd"
 
 msgid "pm3_10_1_14_short"
 msgstr "Voorhoede-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Hinderlaag-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Veroorzaak %(goal)s HP schade en blijf onverkend op het moment dat de schade wordt veroorzaakt"
+msgstr "Veroorzaak %(goal)s HP schade zonder dat vijanden je zien"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Vernietig een vijandelijke zware tank met een schot en door er minstens %(damageDealt)s HP schade aan toe te brengen"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Hinderlaag-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Veroorzaak %(hits)s keer schade aan vijandelijke voertuigen die op het moment van de schade niet verkend zijn"
+msgstr "Veroorzaak %(hits)s keer schade aan vijandelijke voertuigen die onzichtbaar zijn wanneer de schade wordt veroorzaakt"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Vernietig %(goal)s vijandelijke voertuigen van %(uniqueGoal)s verschillende types"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Assistentie-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Stel je geallieerden in staat om %(goal)s HP schade te veroorzaken aan vijandelijke voertuigen die door jou zijn verkend. Blijf onverkend op het moment dat de schade wordt veroorzaakt"
+msgstr "Stel je geallieerden in staat om %(goal)s HP schade te veroorzaken aan vijandelijke voertuigen die door jou zijn verkend. Wees onzichtbaar voor vijanden wanneer de schade wordt veroorzaakt"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Verdoof vijandelijke zware tanks %(goal)s keer"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Voorhoede-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Veroorzaak %(goal)s HP schade aan vijandelijke voertuigen die jouw voertuig hebben geraakt"
+msgstr "Veroorzaak %(goal)s HP schade aan vijandelijke voertuigen die jouw voertuig hebben beschadigd"
 
 msgid "pm3_8_1_9_short"
 msgstr "Voorhoede-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Hinderlaag-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Veroorzaak %(goal)s HP schade en blijf onverkend op het moment dat de schade wordt veroorzaakt"
+msgstr "Veroorzaak %(goal)s HP schade zonder dat vijanden je zien"
 
 msgid "pm3_8_2_9_short"
 msgstr "Hinderlaag-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Voorhoede-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Veroorzaak %(goal)s HP schade aan vijandelijke voertuigen die jouw voertuig hebben geraakt"
+msgstr "Veroorzaak %(goal)s HP schade aan vijandelijke voertuigen die jouw voertuig hebben beschadigd"
 
 msgid "pm3_9_1_14_short"
 msgstr "Voorhoede-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Hinderlaag-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Veroorzaak %(goal)s HP schade en blijf onverkend op het moment dat de schade wordt veroorzaakt"
+msgstr "Veroorzaak %(goal)s HP schade zonder dat vijanden je zien"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Vernietig een vijandelijk voertuig door er minstens %(damageDealt)s HP schade aan toe te brengen"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Hinderlaag-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Veroorzaak %(damageDealt)s HP schade aan vijandelijke voertuigen die op het moment van de schade niet verkend zijn"
+msgstr "Veroorzaak %(damageDealt)s HP schade aan vijandelijke voertuigen die op het moment van de schade voor jou onzichtbaar zijn"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Vernietig %(goal)s vijandelijke voertuigen van %(uniqueGoal)s verschillende types"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Assistentie-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Stel je geallieerden in staat om %(goal)s HP schade te veroorzaken aan vijandelijke voertuigen die door jou zijn verkend. Blijf onverkend op het moment dat de schade wordt veroorzaakt"
+msgstr "Stel je geallieerden in staat om %(goal)s HP schade te veroorzaken aan vijandelijke voertuigen die door jou zijn verkend. Wees onzichtbaar voor vijanden wanneer de schade wordt veroorzaakt"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Verdoof vijandelijke zware tanks in totaal %(goal)s seconde lang. Potentiële verdovingstijd telt mee"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Assistentie-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Veroorzaak %(damageDealt)s HP schade aan vijandelijke voertuigen die op het moment van de schade niet verkend zijn"
+msgstr "Veroorzaak %(damageDealt)s HP schade aan vijandelijke voertuigen die op het moment van de schade voor jou onzichtbaar zijn"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Vernietig %(goal)s vijandelijke lichte tanks of artillerie"

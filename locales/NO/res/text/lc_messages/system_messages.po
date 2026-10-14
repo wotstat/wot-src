@@ -1981,9 +1981,6 @@ msgstr "Servicefeil: \"%(vehName)s\". Ikke nok sedler til å kjøpe forbruksmate
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Servicefeil \"%(vehName)s\". Ikke nok gull til å kjøpe forbruksmateriell. Forsøk igjen senere."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Handling ikke tilgjengelig. Alt ditt gull blir tilgjengelig etter at WG Wallet automatisk får gjenopprettet funksjonalitet."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Servicefeil \"%(vehName)s\". Kan ikke etterforsyne forbruksmateriell. Forsøk igjen senere."
 
@@ -1995,9 +1992,6 @@ msgstr "Servicefeil \"%(vehName)s\". Ikke nok credits til å kjøpe granater."
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Servicefeil \"%(vehName)s\". Ikke nok gull til å kjøpe granater."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Handling ikke tilgjengelig. Alt ditt gull blir tilgjengelig etter at WG Wallet automatisk får gjenopprettet funksjonalitet."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Servicefeil \"%(vehName)s\". Kjøretøyet er låst."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "%(userString)s utforsket. Erfaring brukt: %(unspentXP)s. Fri erfaring brukt: %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Elitebelønningssystemet er nå tilgjengelig for %(vehicle)s"
+msgstr "Elitebelønningssystemet er nå tilgjengelig for %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Elitebelønninger"

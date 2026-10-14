@@ -1516,9 +1516,6 @@ msgstr "Manuell erfarenhetsbonus från WoT Plus tillgänglig"
 msgid "serviceChannelMessages/additionalXP/unavailable/title"
 msgstr "Manuell erfarenhetsbonus från WoT Plus ej tillgänglig"
 
-msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
-msgstr "Kunde inte fylla på förnödenheter i %s. Allt ditt guld blir tillgängligt efter att WG Wallet åter fungerar automatiskt."
-
 msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
 msgstr "Kunde inte fylla på anvisning för %s. Operationen är för tillfället inte tillgänglig på grund av underhållsarbete."
 
@@ -1537,9 +1534,6 @@ msgstr "Kunde inte förnya förnödenheter på %s. Överväg att köpa förnöde
 msgid "serviceChannelMessages/autoEquipError"
 msgstr "Lyckades inte fylla på förnödenheterna till %s. Krediter saknas."
 
-msgid "serviceChannelMessages/autoEquipErrorNoWallet"
-msgstr "Kunde inte fylla på förnödenheter i %s. Allt ditt guld blir tillgängligt efter att WG Wallet åter fungerar automatiskt."
-
 msgid "serviceChannelMessages/autoEquipSkipped"
 msgstr "Misslyckades att automatiskt fylla på förnödenheterna på %s. Fyll på förnödenheter manuellt."
 
@@ -1552,9 +1546,6 @@ msgstr "Misslyckades att ladda om ammunition på %s. Överväg att köpa granate
 msgid "serviceChannelMessages/autoLoadError"
 msgstr "Lyckades inte fylla på ammunitionen till %s. Krediter saknas."
 
-msgid "serviceChannelMessages/autoLoadErrorNoWallet"
-msgstr "Misslyckades att ladda om ammunition i %s. Allt ditt guld blir tillgängligt efter att WG Wallet åter fungerar automatiskt."
-
 msgid "serviceChannelMessages/autoLoadSkipped"
 msgstr "Misslyckades att automatiskt fylla på ammunitionen på %s. Fyll på ammunition manuellt."
 
@@ -1566,9 +1557,6 @@ msgstr "Kunde inte förlänga stilhyran för %s. Köp stilen med guld."
 
 msgid "serviceChannelMessages/autoRentStyleError"
 msgstr "Kunde inte förlänga stilhyran för %s. Tillgångar saknas."
-
-msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
-msgstr "Kunde inte förlänga stilhyran för %s. Allt ditt guld blir tillgängligt efter att WG Wallet åter fungerar automatiskt."
 
 msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
 msgstr "Förläng hyresperiod"
@@ -1596,9 +1584,6 @@ msgstr "Misslyckades att reparera %s."
 
 msgid "serviceChannelMessages/autoRepairError"
 msgstr "Misslyckades med att reparera %s. Krediter saknas."
-
-msgid "serviceChannelMessages/autoRepairErrorNoWallet"
-msgstr "Misslyckades reparera %s. Allt ditt guld blir tillgängligt efter att WG Wallet åter fungerar automatiskt."
 
 msgid "serviceChannelMessages/autoRepairSkipped"
 msgstr "Misslyckades att automatiskt reparera %s. Reparera vagnen manuellt."

@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Soğuma süresi: {{cooldown}} sn."
+
+msgid "ability/miriumCost"
+msgstr "Savaşta kullanmanın Mirium maliyeti: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Kullanımdayken:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Savaştaki pasif güçlendirmeler"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Yüksek zorluk seviyesini açmak ve Anomali Kombo sistemine erişim kazanmak için Normal seviyeyi tamamlayın."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Anomali Komboları geçerli değil"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Savaştaki etkinliği artırır ve aracınız yok edilse bile Fazdan Faza aktarılır."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Alınma zamanı:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomaliler"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Yankı Anomalisi"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Toplama Anomalisi"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Temel Anomali"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Gizli Anomali"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Sadece ganimetten ele geçirilebilir."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Kombosu yoktur"
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Anomali Toplayıcısı madalyası kazanmaya sayılmaz."
+
+msgid "bannerTooltip/available"
+msgstr "Etkinlik %(timer) daha geçerli"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) - Oyun kipi. Keşfetmek için tıklayın"
+
+msgid "bannerTooltip/description"
+msgstr "Sizi gizemli Babil Projesi dünyasının derinliklerine çekecek özel bir PvE kipi. Karanlık düşman kuvvetlerini yok etmek üzere savaşırken yedi özgün aracı kumandanıza alın. Seçkin ödüller ve çok daha fazlası sizi bekliyor!"
+
+msgid "bannerTooltip/header"
+msgstr "Babil: Kara Kule"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Bilgisayarınızın performansı bu kip için yeterli değil. Grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Oyun istemcisinin çökmesi de olasıdır."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi kullanmayı deneyin."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Düşük Performans"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Olası Düşürülmüş Performans"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Zaten Arkadaşsınız."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Arkadaşlık isteği onayı bekleniyor."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Oyuncuyu Kara Listenizden çıkarın."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Arkadaş listesine ekleyin."
+
+msgid "battleResult/interaction/menu"
+msgstr "Bu oyuncu ile etkileşim menüsünü açmak için tıklayın."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Takıma ekleyin."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Oyuncu zaten Takımda."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Davet zaten gönderildi."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Sadece Takım Komutanı oyuncuları Takıma katılmaya davet edebilir."
+
+msgid "battleResult/secretReward/header"
+msgstr "Gizli Ödül"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Etkinliğin sonunda vereceğiniz karara dayalı olarak özel bir ödül alacaksınız."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Özgün Etkinlik Ödülü"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Soğuma: %(cooldownSeconds)s sn."
+
+msgid "consumables/params/usageCost"
+msgstr "Mirium maliyeti: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} {{date}} tarihine kadar geçerlidir"
+
+msgid "dailyQuests/rewards"
+msgstr "Ödüller:"
+
+msgid "dailyQuests/status"
+msgstr "Yeni günlük görevi {{icon}} {{timer}} içinde"
+
+msgid "groupVoiceover/body"
+msgstr "Savaş sırasında dinamik ekip konuşmalarını etkinleştirmek için dört seslendirmeli etkinlik mürettebat üyesinin tümünü (%(crew_members_names)s) Garajınızdaki herhangi bir araca atayın (bunlardan biri komutan olmalıdır) .\nBeş veya altı rolün olduğu araçlarda, kalan roller başka mürettebat üyeleri tarafından doldurulabilir."
+
+msgid "groupVoiceover/header"
+msgstr "Dinamik ekip konuşmaları"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Bu aracı açmak için gereken Hedef zaten seçili. Koşullarını ekranın sağ üst köşesinde görebilirsiniz."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Hedef seçildi"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Savaşa girmek için geçerli bir araç seçin."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Geçersiz"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Seçili zorlukta/modda savaşlar teknik nedenlerle geçici olarak devre dışı."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Geçersiz"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Yeni bir savaşa girmek için Takımın önceki savaştan dönmesini bekleyin."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Geçersiz"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Takım için uyumsuz zorluk seviyesi."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Geçersiz"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Dört tankçıdan oluşan özgün mürettebat."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Tam Özgün mürettebat"
+
+msgid "keyCard/body"
+msgstr "Etkinlik parası elde etmenin geçerli yollarını görmek için tıklayın."
+
+msgid "keys/accrued"
+msgstr "Alındı:"
+
+msgid "keys/battles"
+msgstr "• Etkinlik savaşlarında"
+
+msgid "keys/body"
+msgstr "Babil: Kara Kule etkinliğinde ilerlemek ve ana etkinlik ödülü de dâhil değerli ürünler almak için kullanılan özgün bir para türü. Etkinlik savaşlarında kazanılabilir ve paketlerde satın alınabilir. Babil: Kara Kule'de düşman araçları yok ederek mümkün olduğunca çok madde toplayın ve Anahtar kazanın."
+
+msgid "keys/boss"
+msgstr "• Boss yenildi:"
+
+msgid "keys/bottom"
+msgstr "Etkinliğin sonunda (%(date)s) kullanılmamış tüm Anahtarlar kaldırılacak."
+
+msgid "keys/bundles"
+msgstr "• Etkinlik paketlerinde satın alın"
+
+msgid "keys/daily"
+msgstr "• Günlük araç görevi:"
+
+msgid "keys/effective"
+msgstr "• Savaşta etkinlik:"
+
+msgid "keys/gold"
+msgstr "• Altın karşılığında satın alın"
+
+msgid "keys/header"
+msgstr "Deşifre Anahtarları"
+
+msgid "keys/howToEarn"
+msgstr "Nasıl Kazanılır"
+
+msgid "keys/howToUse"
+msgstr "Nasıl Kullanılır"
+
+msgid "keys/howToUseDescr"
+msgstr "Anahtarları kullanarak Kayıtları deşifre edin, yeni Hedefler açın ve ana etkinlik ödülüne ilerleyin. Anahtarları Hedefleri atlayıp ödüllere daha hızlı ulaşmak için de harcayabilirsiniz."
+
+msgid "keys/inStock"
+msgstr "mevcut"
+
+msgid "keys/secret"
+msgstr "• Gizli ödül:"
+
+msgid "metaWidget/body"
+msgstr "Tüm etkinlik Hedeflerini ve ödüllerini görmek için tıklayın."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Bu Kaydı deşifre etmek için onun savaş koşulunu tamamlayın. Bunu atlayamazsınız."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Deşifre Geçersiz"
+
+msgid "metaWidget/header"
+msgstr "Ödül Yolu"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Bu hikâyenin nasıl sonlanacağını seçmek için tıklayın. Topluluğun genel kararı gelecek olayları şekillendirecek. Güncellemeler için oyun portalına bakın."
+
+msgid "missionTooltip/bottom"
+msgstr "Etkinlik %(date)s tarihinde sona ermeden önce tüm Kayıtları deşifre ederek (bazı Hedefler atlanabilir) ana ödüle ulaşın."
+
+msgid "missionTooltip/completed"
+msgstr "%(current)s hedefi tamamlandı, ödüller alındı"
+
+msgid "missionTooltip/count"
+msgstr "Hedef %(current)s / %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Deşifre edin"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Deşifreyi açmak için Hedefi tamamlayın."
+
+msgid "missionTooltip/kingReward"
+msgstr "Ana etkinlik ödülü"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Ana etkinlik ödülü alındı"
+
+msgid "missionTooltip/received"
+msgstr "%(current)s. Hedef tamamlandı ama Kayıt deşifre edilmedi"
+
+msgid "missionTooltip/rewards"
+msgstr "Ödülleri almak için Hedefi tamamlayın."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Ödülleri almak için Kaydı deşifre edin."
+
+msgid "missionTooltip/skip"
+msgstr "Atlayın"
+
+msgid "shopWidget/body"
+msgstr "Oyun içi Dükkân'ın seçkin etkinlik ürünleri içeren özel bölümünü açmak için tıklayın."
+
+msgid "shopWidget/header"
+msgstr "Etkinlik Paketleri"
+
+msgid "teamList/actions/body"
+msgstr "Bir Takım oluşturmak ve arkadaşlar eklemek/çıkarmak için hızlı işlemler."
+
+msgid "teamList/actions/header"
+msgstr "Hızlı İşlemler"
+
+msgid "teamList/anomalies/header"
+msgstr "Aktif Anomaliler"
+
+msgid "teamList/bossDamage/body"
+msgstr "Yalnızca 4. Faz (Boss Savaşı) sırasında verilen hasara göre sıralayın.\nEkip bossu yenemezse, bu hasar anahtar ödüllere dahil edilmez."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Ekip bossu yenemediğinden bu hasar anahtar ödüllere dahil edilmez."
+
+msgid "teamList/bossDamage/header"
+msgstr "Boss Savaşında Verilen Hasar"
+
+msgid "teamList/damage/body"
+msgstr "1-3 Fazlarda verilen hasara göre sıralayın."
+
+msgid "teamList/damage/header"
+msgstr "Verilen Hasar"
+
+msgid "teamList/keys/body"
+msgstr "Kazanılan Anahtar sayısına göre sırala (Gösterilen değer, ilgili günlük görevi tamamlama karşılığında alınan bonus Anahtarları saymaz)."
+
+msgid "teamList/keys/header"
+msgstr "Kazanılan Anahtar"
+
+msgid "teamList/kills/body"
+msgstr "Yok edilen düşman araçlarına göre sıralayın."
+
+msgid "teamList/kills/header"
+msgstr "Yok Edilen Düşman Araçları"
+
+msgid "teamList/name/header"
+msgstr "Oyuncunu Adı"
+
+msgid "teamList/place/body"
+msgstr "Ekipteki konuma göre sıralayın."
+
+msgid "teamList/place/header"
+msgstr "Ekipteki Konum"
+
+msgid "teamList/squad/header"
+msgstr "Takım, oyuncuların savaşlarda iş birliği yapabilmesi için bir taktik birimdir."
+
+msgid "teamList/vehicle/body"
+msgstr "Araç türü ve adına göre sıralayın."
+
+msgid "teamList/vehicle/header"
+msgstr "Araçlar"
+
+msgid "teamList/warned/body"
+msgstr "Bu oyuncu faaliyetsizlik/firar nedeniyle cezalandırıldı ve bu savaş için herhangi bir ödül almadı."
+
+msgid "teamList/warned/header"
+msgstr "Uyarı"
+
+msgid "teamList/warned/self/body"
+msgstr "Faaliyetsizlik/firar nedeniyle cezalandırıldınız ve bu savaş için herhangi bir ödül almadınız."
+
+msgid "teamList/warned/self/header"
+msgstr "Uyarı"
+
+msgid "vehicle/bonusTitle"
+msgstr "Kazanç"
+
+msgid "vehicle/eventBonus"
+msgstr "Bu araçta günlük görev tamamlama karşılığında Bonus Anahtar alınır."
+
+msgid "vehicle/state/default/title"
+msgstr "Savaşa hazır"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "Savaşta"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "Taktik birimde"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "Kuyrukta"
+
+msgid "vehicle/state/locked/title"
+msgstr "Kilitli"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "5 mermili magazin yüksek miktarda hasarı hızla vermenizi sağlar."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Magazin"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Otomatik tekli yüklemeli mermiler için standart süreyi kısaltan 3 mermili sistem."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "İyileştirilmiş Otomatik Yüklemeli Top"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Sürekli ateş etme sistemine sahip bir silah."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Otomatik Top"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Düşman araçlarındaki parçalara hasar verme şansını artırır."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Kritik Hasar Veren Top"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Kudretli 2 mermili otomatik tekli yükleme sistemine sahip bir HE topu."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Otomatik Tekli Yüklemeli Top"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Döngüsel ve Ardışık ateş etme arasında seçim imkanı sunar."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Çifte Top"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Aracınızın parçalarına kritik hasara karşı tam koruma sağlar."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Kritik Hasar Direnci"

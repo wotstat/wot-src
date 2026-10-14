@@ -889,6 +889,15 @@ msgstr "• Tildelt under The Great Race 2019."
 msgid "Fest19Racer_descr"
 msgstr "Optjen den første belønning på den personlige fremskridtsmåler."
 
+msgid "FortRushMedal_2026"
+msgstr "The Interceptor"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "Tildelt alle Switchblade-agenter, der fuldførte hvert stadie af Black Signal 2026-eventfremskridtet. Et symbol på en veludført mission: signalet blev opsnappet, og verden blev givet én rolig nat mere."
+
+msgid "FortRushMedal_2026_descr"
+msgstr "Fuldfør fremskridtet i Black Signal 2026-eventet."
+
 msgid "HE17A1"
 msgstr "Bæstets mærke"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "Spejder fra Mirny-13"
 
 msgid "hw2019Medal1_condition"
-msgstr "• Tildelt alle spillere, som opfyldte de respektive betingelser under det særlige spilevent."
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2020-eventet."
 
 msgid "hw2019Medal1_descr"
 msgstr "Fuldfør alle faser med én stjernes sværhedsgrad under operationen i Mirny-13."
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "Veteran fra Mirny-13"
 
 msgid "hw2019Medal2_condition"
-msgstr "• Tildelt alle spillere, som opfyldte de respektive betingelser under det særlige spilevent."
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2020-eventet."
 
 msgid "hw2019Medal2_descr"
 msgstr "Fuldfør alle faser med to stjerners sværhedsgrad under operationen i Mirny-13."
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "Helt fra Mirny-13"
 
 msgid "hw2019Medal3_condition"
-msgstr "• Tildelt alle spillere, som opfyldte de respektive betingelser under det særlige spilevent."
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2020-eventet."
 
 msgid "hw2019Medal3_descr"
 msgstr "Fuldfør alle faser med tre stjerners sværhedsgrad under operationen i Mirny-13."
 
 msgid "hw2019Medal_condition"
-msgstr "• Tildelt alle spillere, som opfyldte de respektive betingelser under det særlige spilevent."
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2020-eventet."
 
 msgid "hw2019Medal_descr"
 msgstr "Modtag alle stile under operationen i Mirny-13."
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "Tæm bæstet"
 
 msgid "hw2021Medal1_condition"
-msgstr "• Tildelt alle spillere, som opfyldte de respektive betingelser under det særlige spilevent."
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2021-eventet."
 
 msgid "hw2021Medal1_descr"
 msgstr "Fuldfør alle faser på medium sværhedsgrad under Mirny: Hope-eventet."
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "Den udvalgte"
 
 msgid "hw2021Medal2_condition"
-msgstr "• Tildelt alle spillere, som opfyldte de respektive betingelser under det særlige spilevent."
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2021-eventet."
 
 msgid "hw2021Medal2_descr"
 msgstr "Fuldfør alle faser på høj sværhedsgrad under Mirny: Hope-eventet."
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "Uhyggeligt eventyr"
 
 msgid "hw2022Medal01_condition"
-msgstr "Tildelt alle spillere, som opfyldte de særlige betingelser under eventet."
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2022-eventet."
 
 msgid "hw2022Medal01_descr"
 msgstr "Fuldfør alle missioner, der involverer kampevner, under Pumpkin Bash-eventet."
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "Manden med leen"
 
 msgid "hw2022Medal02_condition"
-msgstr "Tildelt alle spillere, som opfyldte de særlige betingelser under eventet."
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2022-eventet."
 
 msgid "hw2022Medal02_descr"
 msgstr "Optjen 65.000 halloween-point under Pumpkin Bash-eventet."
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "De tilbagevendte"
 
 msgid "hw2023Medal_condition"
-msgstr "Tildelt under Mirny: Lost Hope 2023."
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2023-eventet."
 
 msgid "hw2023Medal_descr"
 msgstr "Dekrypterer alle filmruller under Mirny: Lost Hope-eventet."
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "Babylon-forsker"
 
 msgid "hw2024Medal_condition"
-msgstr "Tildelt under Babylon Project 2024."
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2024-eventet."
 
 msgid "hw2024Medal_descr"
 msgstr "Dekrypter alle dokumenter under Babylon Project-eventet."
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "Forbudt viden"
 
 msgid "hw2025Medal_condition"
-msgstr "Tildelt alle spillere, som opfyldte betingelserne under eventet."
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2025-eventet."
 
 msgid "hw2025Medal_descr"
 msgstr "Dekrypter alle dokumenter i Babylon: Forbudt zone-eventet."
+
+msgid "hw2026Medal_1"
+msgstr "Ingen efterladt"
+
+msgid "hw2026Medal_1_condition"
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2026-eventet."
+
+msgid "hw2026Medal_1_descr"
+msgstr "Dekrypter alle dokumenter i Babylon: Dark Tower-eventet. Du nægtede at efterlade Alex!"
+
+msgid "hw2026Medal_2"
+msgstr "Hendes hjem er i Mirium"
+
+msgid "hw2026Medal_2_condition"
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2026-eventet."
+
+msgid "hw2026Medal_2_descr"
+msgstr "Dekrypter alle dokumenter i Babylon: Dark Tower-eventet. Du lod Alex gå til Mirium!"
+
+msgid "hw2026Medal_3"
+msgstr "Anomali-samler"
+
+msgid "hw2026Medal_3_condition"
+msgstr "Tildelt alle spillere, som opfyldte betingelserne under 2026-eventet."
+
+msgid "hw2026Medal_3_descr"
+msgstr "Indsaml alle anomalier i Babylon: Dark Tower-eventet."
 
 msgid "impenetrable"
 msgstr "Skudsikker"

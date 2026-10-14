@@ -1,0 +1,86 @@
+msgid "battleInfo/all_from_battle"
+msgstr "Az utolsó csatában részt vevő járművek"
+
+msgid "battleInfo/arena"
+msgstr "{{arenaName}}, Fekete jel – {{finishReason}}"
+
+msgid "battleInfo/finishReason/10lose"
+msgstr "a célpontok épségben maradtak"
+
+msgid "battleInfo/finishReason/10win"
+msgstr "a célpontok megsemmisültek"
+
+msgid "battleInfo/finishReason/1lose"
+msgstr "minden szövetséges jármű megsemmisült"
+
+msgid "battleInfo/finishReason/1tie"
+msgstr "minden jármű megsemmisült"
+
+msgid "battleInfo/finishReason/1win"
+msgstr "minden ellenséges jármű megsemmisült"
+
+msgid "battleInfo/finishReason/2"
+msgstr "bázis elfoglalva"
+
+msgid "battleInfo/finishReason/3"
+msgstr "a csata ideje lejárt"
+
+msgid "battleInfo/finishReason/4"
+msgstr "a csata rendszerhiba miatt ért véget"
+
+msgid "battleInfo/finishReason/5"
+msgstr "technikai vereség"
+
+msgid "battleInfo/finishReason/8"
+msgstr "csapattárs megsemmisült"
+
+msgid "battleInfo/finishReason/9"
+msgstr "a járműved megsemmisült"
+
+msgid "battleInfo/labels_objectivesDestroyed"
+msgstr "Célpontok megsemmisítve"
+
+msgid "battleInfo/labels_objectivesReached"
+msgstr "Célpontok elérve"
+
+msgid "battleInfo/labels_zoneCaptured"
+msgstr "Zónák elfoglalva"
+
+msgid "battleInfo/leaver/body"
+msgstr "A küldetés előrehaladása a csata elhagyása után nem lett elszámolva. A csataeredmények alapján járó adatcsomagokat nem írtuk jóvá."
+
+msgid "battleInfo/leaver/header"
+msgstr "Elfogadhatatlan teljesítmény: inaktivitás/dezertálás"
+
+msgid "battleInfo/no"
+msgstr "Nem"
+
+msgid "battleInfo/time"
+msgstr "{{date}}, {{time}} (a csata időtartama: {{duration}})"
+
+msgid "battleInfo/timeLeft/minutesAndSeconds"
+msgstr "{{minutes}} perc {{seconds}} mp"
+
+msgid "battleInfo/timeLeft/minutesOnly"
+msgstr "{{minutes}} perc"
+
+msgid "battleInfo/timeLeft/secondsOnly"
+msgstr "{{seconds}} mp"
+
+msgid "battleInfo/yes"
+msgstr "Igen"
+
+msgid "currencies/credits/body"
+msgstr "A fő játékbeli fizetőeszköz.\nA csatákban szerezheted meg vagy\naranyért vásárolhatod meg."
+
+msgid "currencies/credits/header"
+msgstr "Kredit"
+
+msgid "detailedPersonalEfficiency/fortRushScore/body"
+msgstr "Pontokat az antennák elfoglalásával, az ellenség által ellenőrzött antennák semlegesítésével, az antennák ellenséges csapat általi elfoglalásának megakadályozásával, valamint az antennák közelében lévő ellenségeknek okozott sebzéssel és azok megsemmisítésével szerezhetsz."
+
+msgid "detailedPersonalEfficiency/fortRushScore/header"
+msgstr "Szolgálati pont"
+
+msgid "state/title"
+msgstr "CSATAEREDMÉNYEK"

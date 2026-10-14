@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Etuvartio-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Aiheuta %(goal)s pistettä vahinkoa vihollisvaunuihin, jotka osuivat vaunuusi"
+msgstr "Aiheuta %(goal)s pistettä vahinkoa vihollisvaunuihin, jotka vahingoittivat vaunuasi"
 
 msgid "pm3_10_1_14_short"
 msgstr "Etuvartio-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Väijytys-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Aiheuta %(goal)s pistettä vahinkoa pysyen havaitsemattomana vahinkoa aiheuttaessasi"
+msgstr "Aiheuta %(goal)s pistettä ilman, että olet näkyvissä vihollisille"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Tuhoa vihollisen raskas vaunu ampumalla sitä ja aiheuttaen vähintään %(damageDealt)s pistettä vahinkoa"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Väijytys-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Aiheuta %(hits)s kertaa vahinkoa vihollisvaunuihin, jotka eivät ole havaittuna vahinkoa aiheutettaessa"
+msgstr "Aiheuta %(hits)s kertaa vahinkoa vihollisvaunuihin, jotka eivät ole näkyvissä sinulle vahinkoa tehtäessä"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Tuhoa %(goal)s vihollisvaunua %(uniqueGoal)s eri vaunutyypistä"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Avustus-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Auta liittolaisiasi aiheuttamaan %(goal)s pistetä vahinkoa havaitsemiisi vihollisvaunuihin. Pysy havaitsemattomana vahinkoa aiheutettaessa"
+msgstr "Auta liittolaisiasi aiheuttamaan %(goal)s pistetä vahinkoa havaitsemiisi vihollisvaunuihin. Älä ole näkyvissä vihollisille, kun vahinko tehdään"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Lamauta raskaita vaunuja %(goal)s kertaa"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Etuvartio-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Aiheuta %(goal)s pistettä vahinkoa vihollisvaunuihin, jotka osuivat vaunuusi"
+msgstr "Aiheuta %(goal)s pistettä vahinkoa vihollisvaunuihin, jotka vahingoittivat vaunuasi"
 
 msgid "pm3_8_1_9_short"
 msgstr "Etuvartio-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Väijytys-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Aiheuta %(goal)s pistettä vahinkoa pysyen havaitsemattomana vahinkoa aiheuttaessasi"
+msgstr "Aiheuta %(goal)s pistettä ilman, että olet näkyvissä vihollisille"
 
 msgid "pm3_8_2_9_short"
 msgstr "Väijytys-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Etuvartio-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Aiheuta %(goal)s pistettä vahinkoa vihollisvaunuihin, jotka osuivat vaunuusi"
+msgstr "Aiheuta %(goal)s pistettä vahinkoa vihollisvaunuihin, jotka vahingoittivat vaunuasi"
 
 msgid "pm3_9_1_14_short"
 msgstr "Etuvartio-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Väijytys-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Aiheuta %(goal)s pistettä vahinkoa pysyen havaitsemattomana vahinkoa aiheuttaessasi"
+msgstr "Aiheuta %(goal)s pistettä ilman, että olet näkyvissä vihollisille"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Tuhoa vihollisvaunu aiheuttaen siihen vähintään %(damageDealt)s pistettä vahinkoa"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Väijytys-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Aiheuta %(damageDealt)s pistettä vahinkoa vihollisvaunuihin, jotka eivät ole havaittuna vahinkoa aiheutettaessa"
+msgstr "Aiheuta %(damageDealt)s pistettä vahinkoa vihollisvaunuihin, jotka eivät ole näkyvissä sinulle vahinkoa aiheutettaessa"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Tuhoa %(goal)s vihollisvaunua %(uniqueGoal)s eri vaunutyypistä"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Avustus-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Auta liittolaisiasi aiheuttamaan %(goal)s pistetä vahinkoa havaitsemiisi vihollisvaunuihin. Pysy havaitsemattomana vahinkoa aiheutettaessa"
+msgstr "Auta liittolaisiasi aiheuttamaan %(goal)s pistetä vahinkoa havaitsemiisi vihollisvaunuihin. Älä ole näkyvissä vihollisille, kun vahinko tehdään"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Lamauta vihollisen raskaita vaunuja yhteensä %(goal)s sekunniksi. Lasketaan potentiaalisesta lamautuksen kestosta"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Avustus-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Aiheuta %(damageDealt)s pistettä vahinkoa vihollisvaunuihin, jotka eivät ole havaittuna vahinkoa aiheutettaessa"
+msgstr "Aiheuta %(damageDealt)s pistettä vahinkoa vihollisvaunuihin, jotka eivät ole näkyvissä sinulle vahinkoa aiheutettaessa"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Tuhoa %(goal)s vihollisen kevyttä vaunua tai telatykkiä"

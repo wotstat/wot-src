@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Awangarda-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Zadać %(goal)s PW uszkodzeń pojazdom przeciwnika, które trafiły w pojazd gracza"
+msgstr "Zadać %(goal)s PW uszkodzeń pojazdom przeciwnika, które uszkodziły pojazd gracza"
 
 msgid "pm3_10_1_14_short"
 msgstr "Awangarda-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Zasadzka-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Zadać %(goal)s PW uszkodzeń, pozostając niewykrytym w momencie ich zadawania"
+msgstr "Zadać %(goal)s PW uszkodzeń, pozostając niewykrytym przez przeciwników"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Zniszczyć ostrzałem czołg ciężki przeciwnika, zadając mu przynajmniej %(damageDealt)s PW uszkodzeń"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Zasadzka-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Zadać %(hits)s razy uszkodzenia pojazdom przeciwnika, które nie były wykryte w momencie zadawania uszkodzeń"
+msgstr "Zadać uszkodzenia %(hits)s razy pojazdom przeciwnika, które nie są dla widoczne dla gracza w momencie zadawania uszkodzeń"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Zniszczyć %(goal)s pojazdów przeciwnika %(uniqueGoal)s różnych typów"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Asysta-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Umożliwić sojusznikom zadanie %(goal)s PW uszkodzeń pojazdom wykrytym przez siebie. Pozostać niewykrytym podczas zadawania uszkodzeń"
+msgstr "Umożliwić sojusznikom zadanie %(goal)s PW uszkodzeń pojazdom przeciwnika wykrytym przez gracza. Pozostać niewykrytym podczas zadawania uszkodzeń."
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Ogłuszyć czołgi ciężkie przeciwnika %(goal)s razy"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Awangarda-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Zadać %(goal)s PW uszkodzeń pojazdom przeciwnika, które trafiły w pojazd gracza"
+msgstr "Zadać %(goal)s PW uszkodzeń pojazdom przeciwnika, które uszkodziły pojazd gracza"
 
 msgid "pm3_8_1_9_short"
 msgstr "Awangarda-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Zasadzka-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Zadać %(goal)s PW uszkodzeń, pozostając niewykrytym w momencie ich zadawania"
+msgstr "Zadać %(goal)s PW uszkodzeń, pozostając niewykrytym przez przeciwników."
 
 msgid "pm3_8_2_9_short"
 msgstr "Zasadzka-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Awangarda-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Zadać %(goal)s PW uszkodzeń pojazdom przeciwnika, które trafiły w pojazd gracza"
+msgstr "Zadać %(goal)s PW uszkodzeń pojazdom przeciwnika, które uszkodziły pojazd gracza"
 
 msgid "pm3_9_1_14_short"
 msgstr "Awangarda-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Zasadzka-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Zadać %(goal)s PW uszkodzeń, pozostając niewykrytym w momencie ich zadawania"
+msgstr "Zadać %(goal)s PW uszkodzeń, pozostając niewykrytym przez przeciwników."
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Zniszczyć pojazd przeciwnika, zadając mu przynajmniej %(damageDealt)s PW uszkodzeń"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Zasadzka-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Zadać %(damageDealt)s PW uszkodzeń pojazdom przeciwnika, które nie były wykryte w momencie zadawania uszkodzeń"
+msgstr "Zadać %(damageDealt)s PW uszkodzeń pojazdom przeciwnika, które nie są widoczne dla gracza w momencie zadawania uszkodzeń."
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Zniszczyć %(goal)s pojazdów przeciwnika %(uniqueGoal)s różnych typów"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Asysta-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Umożliwić sojusznikom zadanie %(goal)s PW uszkodzeń pojazdom wykrytym przez siebie. Pozostać niewykrytym podczas zadawania uszkodzeń"
+msgstr "Umożliwić sojusznikom zadanie %(goal)s PW uszkodzeń pojazdom przeciwnika wykrytym przez gracza. Pozostać niewykrytym podczas zadawania uszkodzeń."
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Ogłuszyć czołgi ciężkie przeciwnika łącznie na %(goal)s sekund. Liczy się potencjalny czas ogłuszenia"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Asysta-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Zadać %(damageDealt)s PW uszkodzeń pojazdom przeciwnika, które nie były wykryte w momencie zadawania uszkodzeń"
+msgstr "Zadać %(damageDealt)s PW uszkodzeń pojazdom przeciwnika, które nie są widoczne dla gracza w momencie zadawania uszkodzeń."
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Zniszczyć %(goal)s czołgów lekkich lub dział samobieżnych przeciwnika"
@@ -6818,7 +6818,7 @@ msgid "pm4_11_3_9_description_kills"
 msgstr "Zniszczyć %(goal)s pojazdy(-ów) przeciwnika z odległości najwyżej %(distanceShortOrEqual)s m"
 
 msgid "pm4_11_3_9_description_stunNumber"
-msgstr "Ogłuszyć czołgi ciężkie lub niszczyciele czołgów %(goal)s razy"
+msgstr "Ogłuszyć czołgi średnie lub niszczyciele czołgów %(goal)s razy"
 
 msgid "pm4_11_3_9_short"
 msgstr "Asysta-9"

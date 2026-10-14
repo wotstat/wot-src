@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Pienentää tykin hajontaa {{@ class $highlightClass}}%(generalValue)s%%{{/}} liikkeessä sekä runkoa ja tornia käännettäessä."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s hajontaan liikkeessä\nja runkoa käännettäessä."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Pienentää\ntykin hajontaa."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Pienentää tykin hajontaa liikkeessä ja runkoa ja tornia käännettäessä."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Tarkka-ampuja"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Tekee vaunustasi täysin {{@ class $highlightClass}}immuunin{{/}} siilin ja Alfa siilin {{@ class $highlightClass}}räjähdysvahingolle{{/}}.\n Vaunu saa silti törmäysvahinkoa siiliin osumisesta."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Tekee sinusta immuunin\nsiilin räjähdysvahingolle."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Suojaa vaunuasi siilin räjähdysvahingolta."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Tekee vaunustasi täysin immuunin siilin ja Alfa siilin räjähdysvahingolle.\n Vaunu saa silti törmäysvahinkoa siiliin osumisesta."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Räjähdyksen sieto"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Poistaa vahinkojakauman potentiaalisen {{@ class $highlightClass}}±25%{{/}} tehden laukausten vaikutuksesta ennustettavampaa."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Ammuksilla ei ole ±25%%\nvahinkojakaumaa."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Ammuksilla ei ole ±25% vahinkojakaumaa."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Poistaa vahinkojakauman potentiaalisen ±25% tehden laukausten vaikutuksesta ennustettavampaa."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Hallittu vahinko"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Pienentää kärsittyä vahinkoa (mukaan lukien laukauksista, tulipalosta, törmäyksistä, vahinko-alueesta, korroosiovaiheesta kärsitty vahinko, moduulivahinko jne.) {{@ class $highlightClass}}%(mitigation)s%%{{/}}.\n*Ei koske putoamisesta tai teloitusvaiheen aikana kärsittyä vahinkoa."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s kärsittyyn vahinkoon."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Pienentää kärsittyä vahinkoa."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Pienentää kärsittyä vahinkoa (mukaan lukien laukauksista, tulipalosta, törmäyksistä, vahinko-alueesta, korroosiovaiheesta kärsitty vahinko, moduulivahinko jne.).\n*Ei koske putoamisesta tai teloitusvaiheen aikana kärsittyä vahinkoa."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Vahingon sitominen"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Tarjoaa {{@ class $highlightClass}}%(chance)s%%{{/}} mahdollisuuden palauttaa {{@ class $highlightClass}}%(heal)s{{/}} vaunusi kestopisteistä aiheuttaessasi ampumalla vahinkoa vihollisvaunuihin."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s mahdollisuus palauttaa kestopisteitä\naiheuttaessasi ampumalla vahinkoa vihollisvaunuihin."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Voi palauttaa kestopisteitä\naiheutettaessa vahinkoa ampumalla"
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Tarjoaa tilaisuuden palauttaa vaunusi kestopisteitä aiheuttaessasi ampumalla vahinkoa vihollisvaunuihin."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Vampyyrin purema"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Kasvattaa vaunusi kestopisteitä {{@ class $highlightClass}}%(health)s%%{{/}}."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s vaunun kestopisteitiin."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Kasvattaa\nvaunusi kestopisteitä."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Parantaa vaunun kestävyyttä."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Kestävyys"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Parantaa mahdollisuutta sytyttää vihollisvaunu tuleen {{@ class $highlightClass}}%(chance)s%%{{/}} aiheutettaessa ampumalla vahinkoa siihen."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s mahdollisuuteen sytyttää\nvihollisvaunu tuleen."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Kasvattaa\nsytyttämisen mahdollisuutta."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Parantaa mahdollisuutta sytyttää vihollisvaunu tuleen aiheutettaessa ampumalla vahinkoa."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Kuuma neula"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Kasvattaa vihollisvaunuihin aiheutettua vahinkoa {{@ class $highlightClass}}%(damageFactor)s%%{{/}}."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s aiheutettuun vahinkoon."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Kasvattaa\naiheutettua vahinkoa."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Kasvattaa aiheutettua vahinkoa."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Keraaminen ydin"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Nopeuttaa latausta {{@ class $highlightClass}}%(reloadTime)s%%{{/}}."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s latausnopeuteen."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Parantaa\nlatausnopeutta."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Parantaa latausnopeutta."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Konekivääri"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Palauttaa vähitellen vaunusi kestopisteitä jopa maksimikestoon asti.\nVaikutus keskeytyy kärsittäessä vahinkoa."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Palauttaa vähitellen\nvaunusi kestopisteitä."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Palauttaa\nkestopisteitä."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Palauttaa vähitellen vaunusi kestopisteitä jopa maksimikestoon asti. Vaikutus keskeytyy kärsittäessä vahinkoa."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Regeneraatio"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Tekee vaunun miriumin varastokapasiteetista taistelussa {{@ class $highlightClass}}rajattoman{{/}}."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Tekee miriumin varastokapasiteetista rajattoman."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Tekee miriumin varastokapasiteetista rajattoman."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Tekee vaunun miriumin varastokapasiteetista taistelussa rajattoman."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Pohjaton kerääjä"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Parantaa miehistön tehokkuuden bonusta kaikille miehistön jäsenille {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s miehistön tehokkuuden bonukseen."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Parantaa miehistön\ntehokkuutta."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Parantaa miehistön tehokkuutta."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Motivointi"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Jos vihollisvaunulle jää {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} kestopistettä tai vähemmän ammuttuasi sitä, se tuhoutuu välittömästi.\nPomot ovat immuuneja tälle efektille."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Viholliset, jolle jää %(value)s kestopistettä tai alle\nammuttuasi sitä, tuhoutuvat välittömästi."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Osumasi jälkeen vähiin kestopisteisiin jäävät viholliset tuhoutuvat välittömästi."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Jos vihollisvaunulle jää vähiin kestopiteisiin ammuttuasi sitä, se tuhoutuu välittömästi.\nPomot ovat immuuneja tälle efektille."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Viimeistelijä"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Kasvattaa vaunun huippunopeutta eteen- ja taaksepäin."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Kasvattaa vaunun huippunopeutta\neteen- ja taaksepäin."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Kasvattaa vaunun huippunopeutta eteen- ja taaksepäin."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Kasvattaa vaunun huippunopeutta eteen- ja taaksepäin."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Talla pohjaan"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Kasvattaa vihollisten vahingoittamisesta taistelussa saatavan miriumin määrää {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s vihollisilta\nsaatuun miriumiin."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Kasvattaa vihollisilta saatavan miriumin määrää."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Kasvattaa vihollisten vahingoittamisesta taistelussa saatavan miriumin määrää."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Miriumin louhinta"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Kasvattaa vaunun kykyä varastoida miriumia taistelussa {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s mirium-kapasiteettiin."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Kasvattaa kykyä varastoida miriumia."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Kasvattaa vaunun miriumin varastokapasiteettia taistelussa."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Tilava kerääjä"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Kaikki mirium säästyy uudelleen syntyessä, jos vaunu tuhoutuu taistelussa."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Kaikki mirium säästyy vaunulla\nsen syntyessä uudelleen."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Säästää kaiken miriumin uudelleensyntymän jälkeen."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Säästää kaiken miriumin uudelleensyntymän jälkeen."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Miriumin säilyttäjä"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Pienentää taistelukykyjen mirium-hintaa taistelussa {{@ class $highlightClass}}%(cost)s%%{{/}}."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s kykyjen mirium-hintaan."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Pienentää kykyjen mirium-hintaa."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Pienentää merkittävästi taistelukykyjen mirium-hintaa taistelussa."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Mirium-tehokkuus"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Palauttaa käytettäessä {{@ class $highlightClass}}%(refundAmount)s%%{{/}} taistelukyvyn mirium-hinnasta."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s miriumista palautuu\nkykyä käytettäessä."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Palauttaa osan miriumista kykyä käytettäessä."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Palauttaa käytettäessä osan taistelukyvyn mirium-hinnasta."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Miriumin palautus"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Parantaa moottoritehoa {{@ class $highlightClass}}%(power)s%%{{/}} ja tornin kääntönopeutta {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s moottoritehoon."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s tornin kääntönopeuteen."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Kasvattaa moottoritehoa\nja tornin kääntönopeutta."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Kasvattaa moottoritehoa ja tornin kääntönopeutta."
+
+msgid "buffs/buffMobility/header"
+msgstr "Liikkuvuus"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Tekee kaikki vaunun moduulit immuuneiksi kaikelle vahingolle."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Tekee kaikki vaunun moduulit immuuneiksi\nkaikelle vahingolle."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Suojelee moduuleja\nvahingolta."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Tekee kaikki vaunun moduulit immuuneiksi kaikelle vahingolle."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Moduulin vahingoittumattomuus"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Malakiitin perusanomalia, aina aktiivinen."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Kasvattaa kaikkien ammusten läpäisyä {{@ class $highlightClass}}%(shellPen)s%%{{/}}."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s ammusten läpäisyyn."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Parantaa kaikkien ammusten läpäisyä."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Parantaa kaikkien ammusten läpäisyä."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Läpäisevät ammukset"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Kaikki vaihtoehtoiset ammukset säästyvät uudelleen syntyessä, jos vaunu tuhoutuu taistelussa."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Kaikki vaihtoehtoiset ammukset säästyvät\nuudelleen syntyessä."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Säilyttää kaikki vaihtoehtoiset ammukset uudelleen synnyttäessä."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Kaikki vaihtoehtoiset ammukset säästyvät uudelleen syntyessä, jos vaunu tuhoutuu taistelussa."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Ammusten säilyttäjä"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Kasvattaa kunkin uuden vaiheen alkaessa tai uudelleen synnyttäessä saatavan miriumin määrää {{@ class $highlightClass}}%(soulsBonus)s{{/}}. Kasvattaa miriumin varastointikapasiteettia vaunulla taistelussa {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s saatuun miriumiin uuden vaiheen alussa\ntai uudelleen synnyttäessä"
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s mirium-kapasiteettiin."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Kasvattaa mirium-kapasiteettia ja sen saatua määrää uudessa vaiheessa tai uudelleen synnyttäessä."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Kasvattaa kunkin uuden vaiheen alkaessa tai uudelleen synnyttäessä saatavan miriumin määrää. Kasvattaa miriumin varastointikapasiteettia vaunulla taistelussa."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Mirium-kätkö"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Pidentää turbon kestoa {{@ class $highlightClass}}%(timeLength)s%%{{/}} ja lyhentää jäähtymisaikaa {{@ class $highlightClass}}%(reloadTime)s s{{/}}."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s turbon kestoon."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s s turbon jäähtymisaikaan."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Pidentää turbon kestoa ja lyhentää jäähtymisaikaa."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Pidentää turbon kestoa ja lyhentää jäähtymisaikaa."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Turbokytkin"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Antaa mahdollisuuden tehdä tietyn määrän vahinkoa laukauksella:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} tehdä {{@ class $highlightClass}}%(damage1)s%%{{/}} vahinkoa;\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} tehdä {{@ class $highlightClass}}%(damage2)s%%{{/}} vahinkoa;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} tehdä {{@ class $highlightClass}}%(damage3)s%%{{/}} vahinkoa;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} tehdä {{@ class $highlightClass}}%(damage4)s%%{{/}} vahinkoa."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Ammuksen vahinko vaihtelee pienestä\näärimmäisen suureen."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Ammuksen vahinko vaihtelee pienestä äärimmäisen suureen."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Antaa mahdollisuuden tehdä joko tavallista normaalia vähemmän tai äärimmäisen paljon vahinkoa."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Kvanttilaukaukset"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Lisätiedot"

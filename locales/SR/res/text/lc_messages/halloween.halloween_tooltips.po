@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Vreme hlađenja: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Mirium cena za upotrebu u borbi: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Pri upotrebi:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Pasivna pojačanja u borbi"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Završi normalnu težinu da bi otključao tešku i dobio pristup sistemu kombinacija anomalija."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Kombinacije anomalija su nedostupne"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Povećava efikasnost u borbi i prenosi se iz faze u fazu čak i ako je tvoje vozilo uništeno."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Prilikom dobijanja:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomalije"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Eho anomalije"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Pokupljene anomalije"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Osnovne anomalije"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Tajne anomalije"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Samo zauzete iz plena."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Nema kombinacije."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Ne računa se ka zaradi medalje Sakupljač anomalija."
+
+msgid "bannerTooltip/available"
+msgstr "Događaj je dostupan za %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) - Režim igre. Klik za proširenje"
+
+msgid "bannerTooltip/description"
+msgstr "Specijalan PvE režim koji će te odvesti duboko u svet misterioznog Vavilon projekta. Ukroti sedam jedinstvenih vozila dok se boriš da uništiš mračne neprijateljske sile. Ekskluzivne nagrade i još mnogo toga čeka!"
+
+msgid "bannerTooltip/header"
+msgstr "Vavilon: Mračni toranj"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Performanse tvog kompjutera su nedovoljne za ovaj režim. Iskusićeš probleme sa grafikom i pokretima vozila. Takođe moguće je i rušenje klijenta igre."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Ovaj režim zahteva visoke performanse kompjutera. Iskusićeš probleme sa učitavanjem mapa, grafikom i pokretima vozila. U slučaju nedovoljnih performansi, pokušaj da spustiš kvalitet grafike u podešavanjima."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Niske performanse"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Moguće smanjene performanse"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Već ste prijatelji."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Čeka se potvrda zahteva za prijateljstvo."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Ukloni igrača sa tvoje \"crne liste\"."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Dodaj u listu prijateljia."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klik da otvoriš meni interakcije sa ovim igračem."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Dodaj u vod."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Igrač je već u vodu."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Poziv je već poslat."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Samo komandir voda može da pozove igrače da se pridruže vodu."
+
+msgid "battleResult/secretReward/header"
+msgstr "Tajna nagrada"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Dobićeš specijalnu nagradu u zavisnosti od tvoje odluke na kraju događaja."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Jedinstvena nagrada događaja"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Hlađenje: %(cooldownSeconds)s s."
+
+msgid "consumables/params/usageCost"
+msgstr "Mirijum cena: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Dostupno do {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Nagrade:"
+
+msgid "dailyQuests/status"
+msgstr "Nova dnevna misija za {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Dodeli sva četiri člana posade sa glasovima iz događaja (%(crew_members_names)s) u bilo koje vozilo u svojoj garaži (jedan od njih mora biti komandir) da aktiviraš dinamičke timske razgovore tokom borbe.\nU vozilima sa pet ili šest uloga, preostale uloge mogu biti popunjene bilo kojim drugim članovima posade."
+
+msgid "groupVoiceover/header"
+msgstr "Dinamički timski razgovori"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Cilj za ovo otključavanje ovog vozila je već odabran. Pogledaj njegove uslove u gornjem desnom uglu ekrana."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Cilj je odabran"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Izaberi dostupno vozilo da uđeš u borbu."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Nedostupno"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Borbe u odabranoj težini/režimu su trenutno nedostupne iz tehničkih razloga."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Nedostupno"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Sačekaj da se vod vrati iz prethodne borbe da bi ušao u novu borbu."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Nedostupno"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Nekompatibilni nivo težine za vod."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Nedostupno"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Jedinstvena posada sa četvoro tenkista."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Cela jedinstvena posada"
+
+msgid "keyCard/body"
+msgstr "Klikni da pogledaš dostupne načina zarade valute događaja."
+
+msgid "keys/accrued"
+msgstr "Primljeno:"
+
+msgid "keys/battles"
+msgstr "• U borbama događaja"
+
+msgid "keys/body"
+msgstr "Jedinstvena valuta koja se koristi za napredak kroz događaj Vavilon: Mračni toranj i dobijanje vrednih stvari, uključujući glavnu nagradu događaja. Može da se zaradi u borbama događaja i kupi u paketima. Uništavaj neprijateljska vozila u Vavilon: Mračni toranj da sakupiš što je više moguće materije i zaradiš ključeve."
+
+msgid "keys/boss"
+msgstr "• Pobeđeni bos:"
+
+msgid "keys/bottom"
+msgstr "Na kraju događaja (%(date)s), svi neupotrebljeni ključevi će biti uklonjeni."
+
+msgid "keys/bundles"
+msgstr "• Kupi u paketima događaja"
+
+msgid "keys/daily"
+msgstr "• Dnevne misije vozila:"
+
+msgid "keys/effective"
+msgstr "• Efikasnost u borbi:"
+
+msgid "keys/gold"
+msgstr "• Kupi za zlato"
+
+msgid "keys/header"
+msgstr "Ključevi za dešifrovanje"
+
+msgid "keys/howToEarn"
+msgstr "Kako se zaradjuje"
+
+msgid "keys/howToUse"
+msgstr "Kako se koristi"
+
+msgid "keys/howToUseDescr"
+msgstr "Upotrebi ključeve da dešifruješ zapise, otključaš nove ciljeve i napreduješ ka glavnoj nagradi događaja. Takođe možeš da potrošiš ključeve da preskočiš ciljeve i dostigneš nagrade brže."
+
+msgid "keys/inStock"
+msgstr "dostupno"
+
+msgid "keys/secret"
+msgstr "• Tajna nagrada"
+
+msgid "metaWidget/body"
+msgstr "Klikni da pogledaš sve ciljeve događaja i nagrade."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Ispuni borbene uslove ovog zapisa da bi ga dešifrovao. Ovo ne može biti preskočeno."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Dešifrovanje je nedostupno"
+
+msgid "metaWidget/header"
+msgstr "STAZA NAGRADA"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Klikni da izabereš kako se priča završava. Ukupan izbor zajednice će oblikovati događaje koji dolaze. Pogledaj portal igre za novosti."
+
+msgid "missionTooltip/bottom"
+msgstr "Dešifruj sve ploče (neki ciljevi se mogu preskočiti) da dostigneš glavnu nagradu pre kraja događaja %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Cilj %(current)s je završen, nagrade su primljene"
+
+msgid "missionTooltip/count"
+msgstr "Cilj %(current)s od %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Dešifrovanje"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Završi cilj da bi otključao dešifrovanje."
+
+msgid "missionTooltip/kingReward"
+msgstr "Glavna nagrada događaja"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Glavna nagrada događaja je primljena"
+
+msgid "missionTooltip/received"
+msgstr "Cilj %(current)s je završen, ali ploča nije dešifrovana"
+
+msgid "missionTooltip/rewards"
+msgstr "Završi cilj da bi dobio nagrade."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Dešifruj ciljeve da dobiješ nagrade."
+
+msgid "missionTooltip/skip"
+msgstr "Preskoči"
+
+msgid "shopWidget/body"
+msgstr "Klikni da otvoriš specijalnu sekciju prodavnice u igri sa ekskluzivnim stvarima događaja."
+
+msgid "shopWidget/header"
+msgstr "Paketi događaja"
+
+msgid "teamList/actions/body"
+msgstr "Brze akcije za pravljenje voda i dodavanje/uklanjanje prijatelja."
+
+msgid "teamList/actions/header"
+msgstr "Brze akcije"
+
+msgid "teamList/anomalies/header"
+msgstr "Aktivne anomalije"
+
+msgid "teamList/bossDamage/body"
+msgstr "Sortiraj po šteti nanetoj samo tokom faze 4 (borba sa bosom).\nOva šteta se ne računa ka ključnim nagradama ako tim ne uspe da pobedi bosa."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Ova šteta se ne računa ka ključnim nagradama jer tim nije uspeo da pobedi bosa."
+
+msgid "teamList/bossDamage/header"
+msgstr "Šteta naneta u borbi sa bosom"
+
+msgid "teamList/damage/body"
+msgstr "Sortiraj po šteti nanetoj u fazama 1 - 3."
+
+msgid "teamList/damage/header"
+msgstr "Naneta šteta"
+
+msgid "teamList/keys/body"
+msgstr "Sortiraj po zarađenim ključevima (vrednost koja je prikazana ne računa bonus ključeve dobijene za završavanje odgovarajuće dnevne misije)."
+
+msgid "teamList/keys/header"
+msgstr "Zarađeni ključevi"
+
+msgid "teamList/kills/body"
+msgstr "Sortiraj po uništenim neprijateljskim vozilima."
+
+msgid "teamList/kills/header"
+msgstr "Neprijateljskih vozila uništeno"
+
+msgid "teamList/name/header"
+msgstr "Igrač"
+
+msgid "teamList/place/body"
+msgstr "Sortiraj po poziciji u timu."
+
+msgid "teamList/place/header"
+msgstr "Pozicija u timu"
+
+msgid "teamList/squad/header"
+msgstr "Vod je taktička jedinica za saradnju igrača u borbama."
+
+msgid "teamList/vehicle/body"
+msgstr "Sortiraj prema tipu vozila i imenu."
+
+msgid "teamList/vehicle/header"
+msgstr "Vozila"
+
+msgid "teamList/warned/body"
+msgstr "Ovaj igrač je kažnjen zbog neaktivnosti/dezerterstva  i nije dobio nikakvu nagradu za ovu borbu."
+
+msgid "teamList/warned/header"
+msgstr "Upozorenje"
+
+msgid "teamList/warned/self/body"
+msgstr "Kažnjen si zbog neaktivnosti/dezertiranja i nisi dobio nikakve nagrade za ovu borbu."
+
+msgid "teamList/warned/self/header"
+msgstr "Upozorenje"
+
+msgid "vehicle/bonusTitle"
+msgstr "Zarada"
+
+msgid "vehicle/eventBonus"
+msgstr "Bonus ključevi su dostupni za završavanje dnevnih misija u ovom vozilu."
+
+msgid "vehicle/state/default/title"
+msgstr "Spreman za borbu"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "U borbi"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "U taktičkoj jedinici"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "U redu"
+
+msgid "vehicle/state/locked/title"
+msgstr "Zaključano"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Šaržer sa 5 granata ti dozvoljava da brzo naneseš velike količine štete."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Šaržer"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Sistem sa 3 granate koji smanjuje standardno vreme za automatsko punjenje granata."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Poboljšani top sa automatskim punjačem"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Top sa konstantnim sistemom vatre."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Automatski top"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Povećava šansu za oštećenje modula na neprijateljskim vozilima."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Top koji oštećuje kritično"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Top sa fugasnim granatama sa zastrašujućim automatskim punjačem sa 2 granate."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Top sa automatskim punjačem"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Dozvoljava ti da biraš između cikličnog i sekvencijalnog pucanja."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Dvostruki top"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Daje modulima na tvom vozilu potpunu zaštitu od kritične štete."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Otpornost na kritičnu štetu"

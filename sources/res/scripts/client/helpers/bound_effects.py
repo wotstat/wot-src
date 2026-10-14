@@ -1,4 +1,6 @@
+from __future__ import absolute_import
 from functools import partial
+from future.utils import listitems
 import BigWorld, helpers
 from helpers.EffectsList import EffectsListPlayer
 
@@ -12,7 +14,7 @@ class StaticSceneBoundEffects(object):
 
     def destroy(self):
         self._matProv = None
-        for mID, elem in self._models.items():
+        for mID, elem in listitems(self._models):
             elem[b'effectsPlayer'].stop()
             model = elem[b'model']
             if model is not None:
@@ -30,7 +32,7 @@ class StaticSceneBoundEffects(object):
             model.rotate(direction.yaw, (0.0, 1.0, 0.0))
         self.__incrementalEffectID += 1
         effectID = self.__incrementalEffectID
-        desc = dict()
+        desc = {}
         desc[b'model'] = model
         desc[b'effectsPlayer'] = EffectsListPlayer(effectsList, keyPoints, **args)
         desc[b'effectsPlayer'].play(model, None, partial(self.__callbackBeforeDestroy, effectID, callbackOnStop), args.get(b'waitForKeyOff', False))
@@ -56,7 +58,7 @@ class ModelBoundEffects(object):
 
     def __init__(self, model):
         self.__model = model
-        self._effects = list()
+        self._effects = []
         return
 
     def destroy(self):

@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Takaisin aarteisiin"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "Joka %(guaranteed0)s. hehkuva aarre sisältää taatusti tason VIII–IX
 msgid "infoPage/header/description"
 msgstr "Avaa hehkuvia aarteita saadaksesi mahdollisuuden saada arvokkaita pelihyödykkeitä! Katso lisätietoja alta."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "\"%(name)\" -arkusta (%(boxesCount) hehkuvaa aarretta avattu)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Sinulla ei ole hehkuvia aarteita.\nVoit saada niitä pelinsisäisestä Kaupasta."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Aarteita saatavilla: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Aarteita ei ole saatavilla"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Mikäli omistat jo kaikki vaunut hehkuvan aarteen mahdollisen sisällön listalta, hyvitetään kaikki seuraavat vaunut, jotka saat hehkuvista aarteista, kullalla."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) hehkuva aarre"
 msgstr[1] "%(remainingCount) hehkuvaa aarretta"
 msgstr[2] "%(remainingCount) hehkuvaa aarretta"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Takuupalkinto on vaunu hehkuvan aarteen mahdollisten sisältöjen listalta.\nJos avaat %(remainingCount) saamatta tällaista vaunua, saat sen avatessasi %(count) hehkuvan aarteen. Näin tapahtuessa laskuri nollautuu."

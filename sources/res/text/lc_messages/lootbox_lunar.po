@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Back to Treasures"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "Every %(guaranteed0)s Blazing Treasures are guaranteed to contain a Tier
 msgid "infoPage/header/description"
 msgstr "Open Blazing Treasures for the chance to receive valuable in-game items! See more details below."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "From the %(name) (%(boxesCount) Blazing Treasures opened)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "You do not have any Blazing Treasures.\nYou can get them in the in-game Store."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Treasures available: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "No Treasures available"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "If you already own all vehicles from the list of possible Blazing Treasure contents, then all subsequent vehicles you receive from Blazing Treasures will be compensated in gold."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) Blazing Treasure"
 msgstr[1] "%(remainingCount) Blazing Treasures"
 msgstr[2] "%(remainingCount) Blazing Treasures"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "The Guaranteed Reward is a vehicle from the list of possible Blazing Treasure contents.\nIf you open %(remainingCount) without one dropping such a vehicle, it will drop when you open the %(count) Blazing Treasure. When it does, the counter is reset."

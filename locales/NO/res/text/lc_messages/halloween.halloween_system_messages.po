@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Kampevne"
+
+msgid "make_choice/server_error"
+msgstr "Handlingen er midlertidig utilgjengelig. Prøv igjen senere."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "Rekrutt"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Rekruttert"
+
+msgid "notification/crew_reward/title"
+msgstr "Belønning hentet"
+
+msgid "open_artefact/server_error"
+msgstr "Handlingen er midlertidig utilgjengelig. Prøv igjen senere."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Mottatte dekrypteringsnøkler: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Kvittering"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Dekrypteringsnøkler fjernet: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Dekrypering"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Klarte ikke å etterforsyne kampevner til %s. Teknisk feil."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Klarte ikke å etterforsyne kampevner til %s. Manglende midler."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Kampevner for %s etterforsynt. Du har brukt "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Dekrypteringsnøkler mottatt"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Mapper klare til dekryptering"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Modus: Babylon: Dark Tower"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babylon: Dark Tower (normal)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babylon: Dark Tower (vanskelig)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babylon: Dark Tower (mareritt)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "BOSS SLÅTT"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Vanskelighetsgrad"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normal"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Hard"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Ekstrem"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Fullførte faser: %(curPhase)s av %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Målsetning nådd!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Målsetninger nådd!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Kjøretøy"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Brukt %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finansiell overføring"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Du kan velge vanskelighetsgrader i garasjen til Babylon: Dark Tower."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Hard vanskelighetsgrad åpnet"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Du kan velge vanskelighetsgrader i garasjen til Babylon: Dark Tower."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Ekstrem vanskelighetsgrad åpnet"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "%(vehicle)s er nå tilgjengelig for kamper i Babylon: Dark Tower."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Kamper i Babylon: Dark Tower er midlertidig utilgjengelig.\nPrøv igjen senere."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Kamper i Babylon: Dark Tower (%(difficulty)s) er midlertidig utilgjengelig.\nPrøv igjen senere."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Babylon: Dark Tower er ikke tilgjengelig. Sjekk nettsidene for informasjon og oppdatering."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Troppskommandøren har endret vanskelighetsgrad til: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Spilleren %(userName)s har ikke låst opp en av vanskelighetsgradene."

@@ -10,6 +10,9 @@ msgstr "Lehetővé teszi, hogy egy sor lövedéket egyesével lőj ki a tárból
 msgid "abilities/common/description/autoShootGun"
 msgstr "Gyors sorozatokat lő ki, amelyekkel rövid idő alatt nagy sebzést okoz, de ez a páncélátütés és a pontosság rovására megy. Közelharcban a leghatékonyabb."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "A gázadás aktiválásával ideiglenesen megnövelheted a motor teljesítményét, a sebességet és a manőverezhetőséget, miközben a löveg kezelhetősége továbbra is megbízható marad. Ez lehetővé teszi a fürge, dinamikus játékot anélkül, hogy az a harci hatékonyság rovására menne."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Barázdált lövedékeket lő ki, amelyek 50 m-en belül maximális sebzést okoznak. A lövedékek sebzése a távolsággal csökken, ezért közelharcban a leghatékonyabbak."
 
@@ -61,6 +64,9 @@ msgstr "Fejlesztett automata újratöltő"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Gépágyú"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Harci gázadás"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Mélyen huzagolt löveg"
 
@@ -102,6 +108,15 @@ msgstr "Turbó mód"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Sortűz mód"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Javítja a jármű manőverezhetőségét anélkül, hogy rontaná a löveg kezelhetőségét."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "A rendszer lehetővé teszi a folyamatos tüzelést újratöltés nélkül, és szabályozza a löveg hőtermelését tüzelés közben."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "A löveg speciális megoldásokkal rendelkezik, amelyek lehetővé teszik bizonyos lőszerparaméterek módosítását a tüzelés előtt."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Ha mozdulatlan maradsz vagy lassan mozogsz, pontossági szinteket építhetsz fel, amelyekkel megnöveled a következő lövésed pontosságát.\nA legmagasabb pontossági szinten közel tökéletes lövegkezelést kapsz csökkentett szórással, még mozgás vagy a torony/járműtest forgatása közben is."
@@ -355,6 +370,15 @@ msgstr "Lehetővé teszi az egyidejű tüzelést mindkét löveggel, az újratö
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Egy különleges mechanika, amely rövid időre megnöveli a jármű motorteljesítményét, gyorsulását és végsebességét."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "A gázadás aktiválásával ideiglenesen megnövelheted a motor teljesítményét, a sebességet és a manőverezhetőséget, miközben a löveg kezelhetősége továbbra is megbízható marad. Ez lehetővé teszi a fürge, dinamikus játékot anélkül, hogy az a harci hatékonyság rovására menne."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "A löveg képes folyamatosan, újratöltés nélkül tüzelni. Minden lövés hőt termel: minél magasabb a löveg hőmérséklete, annál nagyobb mértékben változnak az egyes paraméterei. A folyamatos tüzelés a löveg túlmelegedéséhez vezet, ami megakadályozza a további tüzelést, amíg a löveg le nem hűl."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "A jármű lövege speciális megoldásokkal rendelkezik, amelyek lehetővé teszik bizonyos lőszertulajdonságok módosítását tüzelés előtt. A leírás megmutatja, hogy melyik paraméterekre lesz hatással a tüzelési módok közötti váltás."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Ha mozdulatlan maradsz, vagy egy bizonyos sebesség alatt haladsz, a járműved képes bekalibrálni az analóg ballisztikai számítógépet, amely javítja a következő lövésed pontosságát. Ha túlléped a sebességhatárt, a pontosság javulása szünetel, amíg le nem lassítasz. A legmagasabb pontossági szinten a járműved jó lövegstabilizálásra tesz szert, ami csökkenti a mozgásból vagy a torony és a járműtest forgásából eredő szórást. A hatás tüzeléskor megszűnik."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Ez a mechanikai módosítás rövid időre jelentősen megnöveli a jármű gyorsulását, motorteljesítményét, valamint a vég- és a tolatási sebességét, így gyorsan reagálhatsz az ellenséges támadásokra, és meglepheted az ellenséget dinamikus manőverekkel. A magas sebesség fenntartása felgyorsítja a mechanika visszatöltését."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Az itt feltüntetett értékek a járművel elérhető maximális értékek. A felszerelések, a direktívák és a fogyócikkek módosíthatják ezeket az értékeket, de ezek a változások itt nem jelennek meg."
+msgstr "Az itt feltüntetett értékek a járművel elérhető legjobb értékek. A felszerelések, a direktívák és a fogyócikkek módosíthatják ezeket az értékeket, de ezek a változások itt nem jelennek meg."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "kalibrálható PCT lövedék"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "kredit minden csatáért"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "legénységáthelyezés bármelyik járműosztályból büntetés nélkül"
+msgstr "legénységáthelyezés bármelyik járműtípusból büntetés nélkül"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "harci és legénységi tapasztalat"

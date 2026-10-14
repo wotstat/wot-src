@@ -439,6 +439,9 @@ msgstr "M47 Chevalier"
 msgid "Chassis_F143_Fauteur"
 msgstr "Fauteur"
 
+msgid "Chassis_F145_Scarabee"
+msgstr "Scarabée"
+
 msgid "Chassis_F147_AMX29_Belier"
 msgstr "AMX 29 Bélier"
 
@@ -1384,11 +1387,26 @@ msgstr "Fauteur to efekt połączenia sprawdzonej konstrukcji czołgu ciężkieg
 msgid "F143_Fauteur_short"
 msgstr "Fauteur"
 
+msgid "F145_Scarabee"
+msgstr "Scarabée"
+
+msgid "F145_Scarabee_descr"
+msgstr "Projekt czołgu opracowany w ramach współpracy francusko-włoskiej. Zakładano, że wykorzystanie przetestowanego i ulepszonego podwozia w połączeniu z obiecującą wieżą i potężnym uzbrojeniem przyspieszy proces tworzenia pojazdu; projekt jednak napotkał trudności techniczne i nie wyszedł poza fazę szkiców."
+
+msgid "F145_Scarabee_long_special"
+msgstr "Scarabée to francuski czołg średni IX poziomu z ulepszonym automatem przeładowującym na trzy pociski. Jego wyjątkowo wysokie jak na ten poziom i klasę pojazdu uszkodzenia alfa pozwalają na skuteczną wymianę PW z większością przeciwników, a doskonała celność i czas celowania zapewniają niezawodny ostrzał z dużej odległości."
+
+msgid "F145_Scarabee_short"
+msgstr "Scarabée"
+
+msgid "F145_Scarabee_short_special"
+msgstr "Ulepszony automat ładujący, doskonała mobilność"
+
 msgid "F147_AMX29_Belier"
 msgstr "AMX 29 Bélier"
 
 msgid "F147_AMX29_Belier_descr"
-msgstr "W 1963 roku firma AMX otrzymała zadanie opracowania kompaktowego czołgu średniego o mobilności na poziomie BC 25 t i potężniejszym uzbrojeniu. Pojazd otrzymał oznaczenie AMX 29 Bélier („Baran” lub „Taran”). Jego główną cechą było gwintowane działo CN-127-F1 kalibru 127 mm z automatem ładującym. Miał mieć trzyosobową załogę. Testy potwierdziły wysoką mobilność i znaczną siłę ognia, jednakże ujawniły również poważne wady: silny odrzut działa, ograniczoną amunicję, wysokie koszty i złożoność automatu ładującego. W rezultacie projekt zamknięto w 1969 roku."
+msgstr "W 1963 roku firma AMX otrzymała zadanie opracowania kompaktowego czołgu średniego o mobilności na poziomie BC-25 t i potężniejszym uzbrojeniu. Pojazd otrzymał oznaczenie AMX 29 Bélier („Baran” lub „Taran”). Jego główną cechą było gwintowane działo CN-127-F1 kalibru 127 mm z automatem ładującym. Miał mieć trzyosobową załogę. Testy potwierdziły wysoką mobilność i znaczną siłę ognia, jednakże ujawniły również poważne wady: silny odrzut działa, ograniczoną amunicję, wysokie koszty i złożoność automatu ładującego. W rezultacie projekt zamknięto w 1969 roku."
 
 msgid "F147_AMX29_Belier_long_special"
 msgstr "AMX 29 Bélier to francuski czołg średni wsparcia X poziomu. Jego niski profil, doskonałe maskowanie i wysoka mobilność pozwalają na nieprzewidywalne manewry i skuteczne ataki. Jest uzbrojony w działo kalibru 127 mm z dwustrzałowym, ulepszonym automatem ładującym, który pozwala znacznie skrócić czas przeładowania następnego pocisku, jeśli zostanie on wystrzelony w odpowiednim momencie."
@@ -2140,6 +2158,9 @@ msgstr "Maybach HL 234 P50"
 msgid "Maybach_HL_234P50_short"
 msgstr "Maybach HL 234 P50"
 
+msgid "Maybach_HL_234_P45"
+msgstr "Maybach HL 234 P45"
+
 msgid "Maybach_HL_235_850"
 msgstr "Maybach HL 235 (850)"
 
@@ -2415,6 +2436,9 @@ msgstr "SCR 508"
 
 msgid "SCR_528"
 msgstr "SCR 528F"
+
+msgid "SCR_528S"
+msgstr "SCR 528S"
 
 msgid "SCR_528_7x7"
 msgstr "SCR 528F"
@@ -2754,6 +2778,9 @@ msgstr "M47 Chevalier"
 
 msgid "Turret_1_F143_Fauteur"
 msgstr "Fauteur"
+
+msgid "Turret_1_F145_Scarabee"
+msgstr "Scarabée"
 
 msgid "Turret_1_F147_AMX29_Belier"
 msgstr "AMX 29 Bélier"
@@ -3561,6 +3588,9 @@ msgstr "120 mm SA46"
 
 msgid "_127_mm_CN_127_F1"
 msgstr "127 mm CN-127-F1"
+
+msgid "_127_mm_OTO_Melara_S"
+msgstr "127 mm OTO Melara S"
 
 msgid "_127_mm_Obus_Explosif_Mle_58"
 msgstr "127 mm Obus Explosif Mle.58"
@@ -4629,3 +4659,12 @@ msgstr "Hotchkiss H35"
 
 msgid "_M_107"
 msgstr "HE M107"
+
+msgid "a_e_127_54_Mk_116S"
+msgstr "a.e. 127/54 Mk. 116S"
+
+msgid "c_c_127_54_Mk_411S"
+msgstr "c.c. 127/54 Mk. 411S"
+
+msgid "c_p_127_54_Mk_316S"
+msgstr "c.p. 127/54 Mk. 316S"

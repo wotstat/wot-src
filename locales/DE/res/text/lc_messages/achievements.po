@@ -889,6 +889,15 @@ msgstr "• Verliehen während des Großen Rennens 2019."
 msgid "Fest19Racer_descr"
 msgstr "Verdienen Sie die erste Belohnung auf dem persönlichen Fortschrittsbalken."
 
+msgid "FortRushMedal_2026"
+msgstr "Der Abfänger"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "Verliehen an Switchblade-Agenten, die jeden Abschnitt des Events „Schwarzes Signal“ 2026 abgeschlossen haben. Der Beleg für einen sauber ausgeführten Auftrag: Das Signal wurde abgefangen und die Welt kann eine weitere Nacht ruhig schlafen."
+
+msgid "FortRushMedal_2026_descr"
+msgstr "Schließen Sie den Fortschritt des Events „Schwarzes Signal“ 2026 ab."
+
 msgid "HE17A1"
 msgstr "Zeichen der Bestie"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "Aufklärer von Mirny-13"
 
 msgid "hw2019Medal1_condition"
-msgstr "• Verliehen an alle Spieler, welche die entsprechenden Bedingungen während des Spezialevents erfüllt haben."
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2020 erfüllten."
 
 msgid "hw2019Medal1_descr"
 msgstr "Schließen Sie alle Phasen mit Ein-Stern-Schwierigkeit während der Operation in Mirny-13 ab."
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "Veteran von Mirny-13"
 
 msgid "hw2019Medal2_condition"
-msgstr "• Verliehen an alle Spieler, welche die entsprechenden Bedingungen während des Spezialevents erfüllt haben."
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2020 erfüllten."
 
 msgid "hw2019Medal2_descr"
 msgstr "Schließen Sie alle Phasen mit Zwei-Stern-Schwierigkeit während der Operation in Mirny-13 ab."
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "Held von Mirny-13"
 
 msgid "hw2019Medal3_condition"
-msgstr "• Verliehen an alle Spieler, welche die entsprechenden Bedingungen während des Spezialevents erfüllt haben."
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2020 erfüllten."
 
 msgid "hw2019Medal3_descr"
 msgstr "Schließen Sie alle Phasen mit Drei-Stern-Schwierigkeit während der Operation in Mirny-13 ab."
 
 msgid "hw2019Medal_condition"
-msgstr "• Verliehen an alle Spieler, welche die entsprechenden Bedingungen während des Spezialevents erfüllt haben."
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2020 erfüllten."
 
 msgid "hw2019Medal_descr"
 msgstr "Erhalten Sie alle Stile während der Operation in Mirny-13."
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "Die Bestie zähmen"
 
 msgid "hw2021Medal1_condition"
-msgstr "• Verliehen an alle Spieler, welche die entsprechenden Bedingungen während des Spezialevents erfüllt haben."
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2021 erfüllten."
 
 msgid "hw2021Medal1_descr"
 msgstr "Schließen Sie alle Phasen des Events „Mirny: Hoffnung“ auf mittlerer Schwierigkeit ab."
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "Der Auserwählte"
 
 msgid "hw2021Medal2_condition"
-msgstr "• Verliehen an alle Spieler, welche die entsprechenden Bedingungen während des Spezialevents erfüllt haben."
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2021 erfüllten."
 
 msgid "hw2021Medal2_descr"
 msgstr "Schließen Sie alle Phasen des Events „Mirny: Hoffnung“ auf hoher Schwierigkeit ab."
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "Gruseliges Abenteuer"
 
 msgid "hw2022Medal01_condition"
-msgstr "Verliehen an alle Spieler, welche die besonderen Bedingungen während des Events erfüllt haben."
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2022 erfüllten."
 
 msgid "hw2022Medal01_descr"
 msgstr "Schließen Sie im Event „Kürbisparty“ alle Aufträge ab, die Kampffähigkeiten erfordern."
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "Gevatter Tod"
 
 msgid "hw2022Medal02_condition"
-msgstr "Verliehen an alle Spieler, welche die besonderen Bedingungen während des Events erfüllt haben."
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2022 erfüllten."
 
 msgid "hw2022Medal02_descr"
 msgstr "Verdienen Sie 65 000 Halloweenpunkte im Event „Kürbisparty“."
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "Die Rückkehrer"
 
 msgid "hw2023Medal_condition"
-msgstr "Verliehen in „Mirny: Verlorene Hoffnung“ 2023."
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2023 erfüllten."
 
 msgid "hw2023Medal_descr"
 msgstr "Dechiffrieren Sie alle Rollen im Event „Mirny: Verlorene Hoffnung“."
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "Babylon-Forscher"
 
 msgid "hw2024Medal_condition"
-msgstr "Verliehen in Projekt Babylon 2024."
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2024 erfüllten."
 
 msgid "hw2024Medal_descr"
 msgstr "Dechiffrieren Sie alle Aufzeichnungen im Event „Projekt Babylon“."
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "Verbotenes Wissen"
 
 msgid "hw2025Medal_condition"
-msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events erfüllten."
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2025 erfüllten."
 
 msgid "hw2025Medal_descr"
 msgstr "Entschlüsseln Sie alle Aufzeichnungen im Event „Babylon: Sperrbereich“."
+
+msgid "hw2026Medal_1"
+msgstr "Niemand wird zurückgelassen"
+
+msgid "hw2026Medal_1_condition"
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2026 erfüllten."
+
+msgid "hw2026Medal_1_descr"
+msgstr "Entschlüsseln Sie alle Aufzeichnungen im Event „Babylon: Dunkelturm“. Sie haben sich geweigert, Alex zurückzulassen!"
+
+msgid "hw2026Medal_2"
+msgstr "Sie gehört zum Mirium"
+
+msgid "hw2026Medal_2_condition"
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2026 erfüllten."
+
+msgid "hw2026Medal_2_descr"
+msgstr "Entschlüsseln Sie alle Aufzeichnungen im Event „Babylon: Dunkelturm“. Sie haben Alex ins Mirium eingehen lassen!"
+
+msgid "hw2026Medal_3"
+msgstr "Anomalien-Sammler"
+
+msgid "hw2026Medal_3_condition"
+msgstr "Verliehen an alle Spieler, welche die Bedingungen während des Events 2026 erfüllten."
+
+msgid "hw2026Medal_3_descr"
+msgstr "Sammeln Sie alle Anomalien im Event „Babylon: Dunkelturm“."
 
 msgid "impenetrable"
 msgstr "Bombensicher"

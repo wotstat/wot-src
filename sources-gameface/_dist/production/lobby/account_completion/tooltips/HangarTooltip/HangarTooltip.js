@@ -39,7 +39,7 @@
         }
         (t.r(i),
           t.d(i, {
-            addModelObserver: () => $,
+            addModelObserver: () => q,
             addPreloadTexture: () => W,
             arabic2roman: () => iu,
             children: () => a,
@@ -50,7 +50,7 @@
             extraSize: () => su,
             forceTriggerMouseMove: () => ru,
             freezeTextureBeforeResize: () => X,
-            getBrowserTexturePath: () => q,
+            getBrowserTexturePath: () => $,
             getDisplayStatus: () => nu,
             getExternalPaddingsRem: () => Eu,
             getFontNames: () => au,
@@ -199,8 +199,8 @@
           },
           y = ["args"];
         const k = 2,
-          I = 16,
-          L = 32,
+          L = 16,
+          I = 32,
           M = 64,
           N = (u, e) => {
             const t = "GFViewEventProxy";
@@ -241,13 +241,13 @@
           },
           U = {
             close(u) {
-              N("popover" === u ? k : L);
+              N("popover" === u ? k : I);
             },
             minimize() {
               N(M);
             },
             move(u) {
-              N(I, { isMouseEvent: !0, on: u });
+              N(L, { isMouseEvent: !0, on: u });
             },
           },
           G = 15;
@@ -257,10 +257,10 @@
         function H(u) {
           viewEnv.setHitAreaPaddingsRem(u, u, u, u, G);
         }
-        function q(u, e, t, r = 1) {
+        function $(u, e, t, r = 1) {
           return viewEnv.getWebBrowserTexturePath(u, e, t, r);
         }
-        function $(u, e, t) {
+        function q(u, e, t) {
           return viewEnv.addDataChangedCallback(u, e, t);
         }
         function z(u) {
@@ -801,6 +801,11 @@
           const c = E().useRef(null);
           var B;
           return (
+            (0, i.useLayoutEffect)(() => {
+              const u = a.O.client.getSize("rem");
+              ((document.body.style.width = `${u.width}rem`),
+                (document.body.style.height = `${u.height}rem`));
+            }, []),
             (B = () => {
               const u = c.current;
               if (!u)
@@ -810,7 +815,9 @@
               const e = new ResizeObserver(() => {
                 const e = u.scrollWidth,
                   t = u.scrollHeight;
-                a.O.view.resize(e, t);
+                (a.O.view.resize(e, t),
+                  (document.body.style.width = `${e}px`),
+                  (document.body.style.height = `${t}px`));
                 const r = window.getComputedStyle(u);
                 a.O.view.setSidePaddingsRem({
                   left: parseInt(r.getPropertyValue("padding-left"), 10),
@@ -1068,7 +1075,7 @@
               u
             );
           })({}),
-          I = (function (u) {
+          L = (function (u) {
             return (
               (u.ATTACHMENT_RARE = "rare"),
               (u.ATTACHMENT_EPIC = "epic"),
@@ -1091,7 +1098,7 @@
               u
             );
           })({}),
-          L = (function (u) {
+          I = (function (u) {
             return ((u.BATTLE_BOOSTER = "battleBooster"), u);
           })({}),
           M = (function (u) {
@@ -1167,8 +1174,8 @@
             S.TmanToken,
           ],
           H = [S.Gold, S.Credits, S.Crystal, S.FreeXp],
-          q = [S.BattlePassPoints, S.EquipCoin],
-          $ = [S.PremiumPlus, S.Premium],
+          $ = [S.BattlePassPoints, S.EquipCoin],
+          q = [S.PremiumPlus, S.Premium],
           z = ["engravings", "backgrounds"],
           Y = ["engraving", "background"],
           V = (u, e = y.Small) => {
@@ -1630,49 +1637,49 @@
             const B = ((u, e) => {
                 if (void 0 === e || !X.includes(u)) return null;
                 switch (e) {
-                  case I.BATTLE_BOOSTER:
-                  case I.BATTLE_BOOSTER_REPLACE:
-                    return L.BATTLE_BOOSTER;
+                  case L.BATTLE_BOOSTER:
+                  case L.BATTLE_BOOSTER_REPLACE:
+                    return I.BATTLE_BOOSTER;
                 }
               })(r, a),
               d = ((u) => {
                 if (void 0 === u) return null;
                 switch (u) {
-                  case I.BATTLE_BOOSTER:
+                  case L.BATTLE_BOOSTER:
                     return M.BATTLE_BOOSTER;
-                  case I.BATTLE_BOOSTER_REPLACE:
+                  case L.BATTLE_BOOSTER_REPLACE:
                     return M.BATTLE_BOOSTER_REPLACE;
-                  case I.BUILT_IN_EQUIPMENT:
+                  case L.BUILT_IN_EQUIPMENT:
                     return M.BUILT_IN_EQUIPMENT;
-                  case I.EQUIPMENT_PLUS:
+                  case L.EQUIPMENT_PLUS:
                     return M.EQUIPMENT_PLUS;
-                  case I.EQUIPMENT_TROPHY_BASIC:
+                  case L.EQUIPMENT_TROPHY_BASIC:
                     return M.EQUIPMENT_TROPHY_BASIC;
-                  case I.EQUIPMENT_TROPHY_UPGRADED:
+                  case L.EQUIPMENT_TROPHY_UPGRADED:
                     return M.EQUIPMENT_TROPHY_UPGRADED;
-                  case I.EQUIPMENT_MODERNIZED_UPGRADED_1:
+                  case L.EQUIPMENT_MODERNIZED_UPGRADED_1:
                     return M.EQUIPMENT_MODERNIZED_UPGRADED_1;
-                  case I.EQUIPMENT_MODERNIZED_UPGRADED_2:
+                  case L.EQUIPMENT_MODERNIZED_UPGRADED_2:
                     return M.EQUIPMENT_MODERNIZED_UPGRADED_2;
-                  case I.EQUIPMENT_MODERNIZED_UPGRADED_3:
+                  case L.EQUIPMENT_MODERNIZED_UPGRADED_3:
                     return M.EQUIPMENT_MODERNIZED_UPGRADED_3;
-                  case I.PROGRESSION_STYLE_UPGRADED_1:
+                  case L.PROGRESSION_STYLE_UPGRADED_1:
                     return M.PROGRESSION_STYLE_UPGRADED_1;
-                  case I.PROGRESSION_STYLE_UPGRADED_2:
+                  case L.PROGRESSION_STYLE_UPGRADED_2:
                     return M.PROGRESSION_STYLE_UPGRADED_2;
-                  case I.PROGRESSION_STYLE_UPGRADED_3:
+                  case L.PROGRESSION_STYLE_UPGRADED_3:
                     return M.PROGRESSION_STYLE_UPGRADED_3;
-                  case I.PROGRESSION_STYLE_UPGRADED_4:
+                  case L.PROGRESSION_STYLE_UPGRADED_4:
                     return M.PROGRESSION_STYLE_UPGRADED_4;
-                  case I.PROGRESSION_STYLE_UPGRADED_5:
+                  case L.PROGRESSION_STYLE_UPGRADED_5:
                     return M.PROGRESSION_STYLE_UPGRADED_5;
-                  case I.PROGRESSION_STYLE_UPGRADED_6:
+                  case L.PROGRESSION_STYLE_UPGRADED_6:
                     return M.PROGRESSION_STYLE_UPGRADED_6;
-                  case I.ATTACHMENT_RARE:
+                  case L.ATTACHMENT_RARE:
                     return M.ATTACHMENT_RARE;
-                  case I.ATTACHMENT_EPIC:
+                  case L.ATTACHMENT_EPIC:
                     return M.ATTACHMENT_EPIC;
-                  case I.ATTACHMENT_LEGENDARY:
+                  case L.ATTACHMENT_LEGENDARY:
                     return M.ATTACHMENT_LEGENDARY;
                 }
               })(a),
@@ -1978,9 +1985,9 @@
                           ? k.MULTI
                           : H.includes(r)
                             ? k.CURRENCY
-                            : q.includes(r)
+                            : $.includes(r)
                               ? k.NUMBER
-                              : $.includes(r)
+                              : q.includes(r)
                                 ? k.PREMIUM_PLUS
                                 : k.STRING),
                       tooltipArgs: j(
@@ -2259,8 +2266,8 @@
           Su = "App_subtitle_dfb60",
           yu = "App_ribbon_e025b",
           ku = "App_rewards_c7988",
-          Iu = "App_reward_da682",
-          Lu = R.strings.tooltips.confirmEmailTooltip,
+          Lu = "App_reward_da682",
+          Iu = R.strings.tooltips.confirmEmailTooltip,
           Mu = () => {
             const u = Tu().model,
               e = u.root.get().email,
@@ -2272,20 +2279,20 @@
               E().createElement(
                 "div",
                 { className: xu },
-                E().createElement("div", { className: Pu }, Lu.title.$dyn(r)),
+                E().createElement("div", { className: Pu }, Iu.title.$dyn(r)),
                 "confirmed" === r
                   ? E().createElement(O, {
-                      text: Lu.subtitle.confirmed(),
+                      text: Iu.subtitle.confirmed(),
                       binding: { email: e },
                       classMix: Su,
                     })
-                  : E().createElement("div", { className: Su }, Lu.subtitle.notConfirmed()),
+                  : E().createElement("div", { className: Su }, Iu.subtitle.notConfirmed()),
               ),
               E().createElement(
                 "div",
                 { className: yu },
-                E().createElement("div", { className: n()(Pu, Ou) }, Lu.rewardTitle()),
-                E().createElement(_u, { className: ku, classNames: { reward: Iu }, data: t }),
+                E().createElement("div", { className: n()(Pu, Ou) }, Iu.rewardTitle()),
+                E().createElement(_u, { className: ku, classNames: { reward: Lu }, data: t }),
               ),
             );
           };

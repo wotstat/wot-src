@@ -408,7 +408,6 @@ class SETTINGS(object):
     GAME_SHOWPERSONALANIMATEDDOGTAG = b'#settings:game/showPersonalAnimatedDogTag'
     GAME_FIELDSET_HEADERCHAT = b'#settings:game/fieldset/headerChat'
     GAME_FIELDSET_HEADERBATTLECOMMUNICATION = b'#settings:game/fieldset/headerBattleCommunication'
-    GAMEPLAY_DEVMAPS = b'#settings:gameplay/devMaps'
     GAMEPLAY_NATIONS = b'#settings:gameplay/nations'
     GAME_FIELDSET_HEADERVEHICLEMARKER = b'#settings:game/fieldset/headerVehicleMarker'
     GAME_SHOWVEHICLEICON = b'#settings:game/showVehicleIcon'

@@ -10,6 +10,9 @@ msgstr "Permette di sparare una serie di proiettili dal caricatore uno alla volt
 msgid "abilities/common/description/autoShootGun"
 msgstr "Spara rapide raffiche di proiettili per infliggere danni elevati in breve tempo, a discapito di perforazione e precisione. Particolarmente efficace nel combattimento ravvicinato."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Attiva la Potenza di combattimento per un aumento temporaneo a potenza del motore, velocità e manovrabilità, mantenendo una maneggevolezza affidabile del cannone. Questo permette uno stile di gioco agile e dinamico, senza compromettere l'efficacia in combattimento."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Spara proiettili con sezione a stella, causando il massimo danno entro 50 m. Il danno dei proiettili diminuisce con la distanza, rendendoli più efficaci nel combattimento ravvicinato."
 
@@ -61,6 +64,9 @@ msgstr "Autoricaricamento migliorato"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Cannone automatico"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Potenza di combattimento"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Cannone con rigatura profonda"
 
@@ -102,6 +108,15 @@ msgstr "Modalità turbo"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Modalità fuoco a salva"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Aumenta la manovrabilità senza compromettere la maneggevolezza del cannone."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Il sistema consente di fare fuoco di continuo senza ricaricare e controlla il modo in cui l'arma genera calore durante lo sparo."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Il cannone dispone di dispositivi speciali che consentono di modificare alcuni parametri dei proiettili prima di aprire il fuoco."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Rimanendo fermo o muovendoti lentamente, aumenti i livelli di precisione con cui incrementare la precisione del tuo colpo successivo.\nAl livello di precisione più alto, ottieni una buona maneggevolezza del cannone, con dispersione ridotta anche in movimento o ruotando torretta o scafo."
@@ -355,6 +370,15 @@ msgstr "Consente di sparare contemporaneamente da entrambi i cannoni, al prezzo 
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Una meccanica speciale che aumenta la potenza del motore, l'accelerazione e la velocità massima per un breve periodo."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Attiva la Potenza di combattimento per un aumento temporaneo a potenza del motore, velocità e manovrabilità, mantenendo una maneggevolezza affidabile del cannone. Questo permette uno stile di gioco agile e dinamico, senza compromettere l'efficacia in combattimento."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Il cannone può sparare ininterrottamente senza bisogno di ricaricare. Ogni colpo genera calore: più alta è la sua temperatura, più cambiano alcuni dei suoi parametri. Il fuoco continuo causerà il surriscaldamento del cannone, impedendo di continuare a sparare finché la canna non si sarà raffreddata."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Il cannone del veicolo ha un dispositivo speciale che consente di modificare alcuni parametri dei proiettili prima di fare fuoco. La configurazione mostra quali parametri saranno modificati cambiando modalità di fuoco."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Rimanendo fermo o muovendoti al di sotto di una certa velocità consenti al tuo veicolo di calibrare il suo Dispositivo di calcolo balistico analogico e di aumentare i livelli di precisione, incrementando la precisione del colpo successivo. Se superi il limite di velocità, i progressi per l'aumento dei livelli di precisione vengono interrotti finché non rallenti. Al livello massimo di precisione, il veicolo ottiene una discreta stabilizzazione del cannone, con una dispersione ridotta dovuta al movimento o alla rotazione di torretta o scafo. L'effetto viene rimosso sparando."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Questa modifica meccanica aumenta notevolmente, per un breve periodo, l'accelerazione del veicolo, la potenza del motore e la velocità massima in avanti e in retromarcia, consentendoti di reagire rapidamente agli attacchi nemici e di cogliere di sorpresa gli avversari con manovre dinamiche. Mantenere un'elevata velocità di movimento accelera la ricarica della meccanica."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Tutti i valori mostrati sono i massimi possibili per il veicolo. Gli equipaggiamenti, le direttive e i consumabili possono modificare questi valori, ma tali variazioni non sono riportate qui."
+msgstr "Tutti i valori mostrati sono i migliori possibili per il veicolo. Gli equipaggiamenti, le direttive e i consumabili possono modificare questi valori, ma tali variazioni non sono riportate qui."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "proiettile AP calibrabile"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "crediti per ogni battaglia"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "trasferimento dell'equipaggio da qualsiasi classe di veicolo senza penalità"
+msgstr "trasferimento dell'equipaggio da qualsiasi tipo di veicolo senza penalità"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "Exp di combattimento ed Exp dell'equipaggio"

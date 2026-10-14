@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Minskar siktesspridning under förflyttning samt skrov- och tornrörelser med {{@ class $highlightClass}}%(generalValue)s%%{{/}}."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s siktesspridning under förflyttning\noch skrovrörelser."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Minskar\nsiktesspridning"
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Minskar siktesspridning under förflyttning samt skrov- och tornrörelser."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Prickskytte"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Gör din vagn helt {{@ class $highlightClass}}osårbar{{/}} mot {{@ class $highlightClass}}explosionsskada{{/}} från Igelkott och Igelkott Alfa.\nVagnen kommer fortfarande att få rammningsskada från Igelkottar vid kollision."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Gör din vagn osårbar\nmot explosionsskador från Igelkott."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Skyddar din vagn mot explosionsskador från Igelkott."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Gör din vagn helt osårbar mot explosionsskador från Igelkott och Igelkott Alfa.\nVagnen kommer fortfarande att få rammningsskada från Igelkottar vid kollision."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Explosionsskydd"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Tar bort det potentiella skadeintervallet på {{@ class $highlightClass}}±25%{{/}}, vilket gör skottets skadeverkan mer förutsägbar."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Skott har ingen skadespridning\npå ±25%%."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Skott har ingen skadespridning på ±25 %."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Tar bort det potentiella skadeintervallet på ±25%, vilket gör skottets skadeverkan mer förutsägbar."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Kontrollerad skada"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Minskar mottagen skada* (inklusive från skott, eld, rammning, skadezoner, frätskada, modulskador osv.) med {{@ class $highlightClass}}%(mitigation)s%%{{/}}.\n*Gäller inte för skada från fall och under avrättningsfasen."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s mottagen skada."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Minskar mottagen skada."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Minskar mottagen skada* (inklusive från skott, eld, rammning, skadezoner, frätskada, modulskador osv.).\n*Gäller inte för skada från fall och under avrättningsfasen."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Skadeabsorption"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Ger {{@ class $highlightClass}}%(chance)s%%{{/}} chans att återställa {{@ class $highlightClass}}%(heal)s{{/}} av vagnens träffpoäng när du träffar och skadar en fiende med en granat."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s chans att återställa träffpoäng\nnär du skadar en fiende med en granat."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Kan återställa träffpoäng\nnär du åsamkar skada med en granat."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Ger en chans att återställa vagnens träffpoäng när du åsamkar fiendevagnar skada med granater."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Vampyrbett"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Ökar vagnens träffpoäng med {{@ class $highlightClass}}%(health)s%%{{/}}."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s extra träffpoäng."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Ökar\nvagnens träffpoäng."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Ökar vagnens träffpoäng."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Tålighet"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Ökar chansen a sätta en fiendevagn i brand med {{@ class $highlightClass}}%(chance)s%%{{/}} när du åsamkar den skada med en granat."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s chans att sätta\nfienden i brand."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Ökar\nbrandchansen."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Ökar chansen a sätta en fiendevagn i brand när du åsamkar den skada med en granat."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Glödande projektil"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Ökar skadan åsamkad fiendevagnar med {{@ class $highlightClass}}%(damageFactor)s%%{{/}}."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s skadeverkan."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Ökar\nåsamkad skada."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Ökar skadeverkan."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Keramisk kärna"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Ökar omladdningshastigheten med {{@ class $highlightClass}}%(reloadTime)s%%{{/}}."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s omladdningshastighet."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Ökar\nomladdningshastigheten."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Ökar omladdningshastigheten."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Laddningsmaskin"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Återställer gradvis vagnens träffpoäng upp till maxvärdet.\nEffekten avbryts om vagnen tar skada."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Återställer gradvis\nvagnens träffpoäng."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Återställer\nträffpoäng."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Återställer gradvis vagnens träffpoäng upp till maxvärdet. Effekten avbryts om vagnen tar skada."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Regenerering"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Ger {{@ class $highlightClass}}obegränsad{{/}} förmåga att lagra mirium."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Ger obegränsad miriumlagringsförmåga."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Ger obegränsad miriumlagringsförmåga."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Ger obegränsad förmåga att lagra mirium."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Bottenlös insamlare"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Ökar besättningseffektivitetsbonusen för alla besättningsmedlemmar med {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s besättningseffektivitetsbonus."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Ökar\nbesättningseffektivitetsbonusen."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Förbättrar besättningseffektiviteten"
+
+msgid "buffs/buffInspiration/header"
+msgstr "Inspirera"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Om en fiendevagn har {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} träffpoäng eller mindre kvar efter du träffat den förstörs den omedelbart.\nBossar är immuna mot den här effekten."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Fiender med %(value)s träffpoäng eller mindre kvar\nefter en träff förstörs omedelbart."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Fiender med lite träffpoäng kvar efter en träff förstörs omedelbart."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Om en fiendevagn har lite träffpoäng kvar efter du träffat den förstörs den omedelbart.\nBossar är immuna mot den här effekten."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Avrättare"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Ökar vagnens topphastighet framåt och bakåt."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Ökar vagnens topphastighet\nframåt och bakåt."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Ökar vagnens topphastighet framåt och bakåt."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Ökar vagnens topphastighet framåt och bakåt."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Extrafart"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Ökar mängden mirium du får för att skada fiender i strid med {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s mirium insamlad\nfrån fiender."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Ökar mängden mirium insamlad från fiender."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Ökar mängden mirium du får för att skada fiender i strid."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Miriumextraktion"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Ökar miriumlagringsförmågan för en vagn med {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s miriumlagringsförmåga."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Ökar miriumlagringsförmågan."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Ökar miriumlagringsförmågan för en vagn."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Rymling insamlare"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Allt insamlat mirium bevaras vid återvändning om vagnen förstörs i strid."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Allt insamlat mirium bevaras\nvid återvändning"
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Bevarar allt mirium vid återvändning."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Bevarar allt mirium vid återvändning."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Miriumbevarare"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Minskar miriumkostnaden för stridsförmågor med {{@ class $highlightClass}}%(cost)s%%{{/}}."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s miriumkostnad för stridsförmågor."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Minskar miriumkostnaden för förmågor."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Minskar avsevärt miriumkostnaden för stridsförmågor."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Effektiv miriumförbrukning"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Återbetalar {{@ class $highlightClass}}%(refundAmount)s%%{{/}} av miriumkostnaden för stridsförmågor när de aktiveras."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s av miriumkostnaden för\nstridsförmågor återbetalas"
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Återbetalar en del mirium när stridsförmågot används."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Återbetalar en del av miriumkostnaden när stridsförmågot används."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Miriumåterbetalning"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Ökar motorstyrkan med {{@ class $highlightClass}}%(power)s%%{{/}} och tornrotationshastigheten med {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s kraftigare motor."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s snabbare tornrotation."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Ökar motorstyrkan\noch tornotationshastigheten."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Ökar motorstyrkan och tornotationshastigheten."
+
+msgid "buffs/buffMobility/header"
+msgstr "Rörlighet"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Gör alla vagnens moduler osårbara."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Gör alla vagnens\nmoduler osårbara."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Skyddar moduler\nfrån skada."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Gör alla vagnens moduler osårbara."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Modulskydd"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Malakits standardanomali, alltid aktiv."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Ökar genomslagsförmågan för alla granater med {{@ class $highlightClass}}%(shellPen)s%%{{/}}."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s genomslagsförmåga."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Ökar genomslagsförmågan för alla granater."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Ökar genomslagsförmågan för alla granater."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Pansarbrytande granater"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Alla specialgranater bevaras vid återvändning om vagnen förstörs i strid."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Alla specialgranater bevaras\nvid återvändning."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Alla specialgranater bevaras vid återvändning."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Alla specialgranater bevaras vid återvändning om vagnen förstörs i strid."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Granatbevarare"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Ökar mängden mirium mottagen i början av varje ny fas, eller efter återvändning, med {{@ class $highlightClass}}%(soulsBonus)s{{/}}. Ökar miriumlagringsförmågan med {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s mottaget mirium i början av en ny fas,\neller efter återvändning."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s miriumlagringsförmåga."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Ökar mängden mirium mottagen i början av varje ny fas, eller efter återvändning."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Ökar mängden mirium mottagen i början av varje ny fas, eller efter återvändning. Ökar miriumlagringsförmågan."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Miriumlager"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Ökar varaktigheten för Turbo med {{@ class $highlightClass}}%(timeLength)s%%{{/}} och minskar nedkylningstiden med {{@ class $highlightClass}}%(reloadTime)s s{{/}}."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s varaktighet för Turbo"
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s nedkylningstid för Turbo"
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Ökar varaktigheten och minskar nedkylningstiden för Turbo."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Ökar varaktigheten och minskar nedkylningstiden för Turbo."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Turboförstärkare"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Ger en chans att åsamka en specifik mängd skada vid träff:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} chans för {{@ class $highlightClass}}%(damage1)s%%{{/}} skada;\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} chans för {{@ class $highlightClass}}%(damage2)s%%{{/}} skada;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} chans för {{@ class $highlightClass}}%(damage3)s%%{{/}} skada;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} chans för {{@ class $highlightClass}}%(damage4)s%%{{/}} skada."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Skadeverkan slumpas från låg\ntill extremt hög."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Skadeverkan slumpas från låg till extremt hög."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Ger en chans att åsamka antingen lägre eller avsevärt mycket högre skada."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Kvantgranater"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Information"

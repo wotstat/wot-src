@@ -280,6 +280,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Chassis_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Chassis_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Chassis_G122_VK6501H"
 msgstr "VK 65.01 (H)"
 
@@ -509,7 +512,7 @@ msgid "Chassis_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Chassis_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Chassis_G23_Grille"
 msgstr "Grille"
@@ -549,6 +552,9 @@ msgstr "VK 30.01 (P) verstärkteketten"
 
 msgid "Chassis_G27_VK3001P_2_short"
 msgstr "VK 30.01 (P)\nverstärkteketten"
+
+msgid "Chassis_G28_PzIII_IV"
+msgstr "Pz.Kpfw. III/IV"
 
 msgid "Chassis_G37_Ferdinand"
 msgstr "Ferdinand"
@@ -730,6 +736,9 @@ msgstr "Indien-Panzer"
 msgid "Chassis_G89_Leopard1"
 msgstr "Leopard 1"
 
+msgid "Chassis_G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
 msgid "Chassis_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A1"
 
@@ -892,10 +901,10 @@ msgstr "Continental AOS-895-3"
 msgid "Continental_AOS-895-3_short"
 msgstr "Continental\nAOS-895-3"
 
-msgid "Continental_AVI_1790_8"
+msgid "Continental_AVI_1790_8A"
 msgstr "Continental AVI-1790-8"
 
-msgid "Continental_AVI_1790_8_short"
+msgid "Continental_AVI_1790_8A_short"
 msgstr "Continental\nAVI-1790-8"
 
 msgid "DB_603_A1"
@@ -1548,6 +1557,15 @@ msgstr "Uitstekend kanon en goede wendbaarheid"
 
 msgid "G121_Grille_15_L63"
 msgstr "Grille 15"
+
+msgid "G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
+msgid "G121_Grille_15_L63_FR_descr"
+msgstr "In de zomer van 1942 bereikte het Waffenamt (het bewapeningsagentschap van het Duitse leger) een overeenkomst met de bedrijven Krupp en Rheinmetall voor het ontwerpen van een tankjager op het onderstel van de Panther tank. De planning was om het 128-mm K 43 kanon of de 150-mm sFH 43 houwitzer te monteren. De projecten kregen de naam Grille 12 en Grille 15 en werden gekenmerkt door de plaatsing van het gevechtscompartiment aan de achterzijde. Het enige verschil was het type artilleriesysteem dat werd gebruikt. Later kreeg de Grille 15 een 150-mm kanon met een lengte van 63 kaliber waarmee op een afstand van 4.000 meter 200 mm pantser kon worden doorboord. De ontwikkeling verliep echter langzaam en het bestaan van de Grille 15 kwam niet verder dan de tekentafel."
+
+msgid "G121_Grille_15_L63_FR_short"
+msgstr "Grille 15 BS"
 
 msgid "G121_Grille_15_L63_descr"
 msgstr "In de zomer van 1942 bereikte het Waffenamt (het bewapeningsagentschap van het Duitse leger) een overeenkomst met de bedrijven Krupp en Rheinmetall voor het ontwerpen van een tankjager op het onderstel van de Panther tank. De planning was om het 128-mm K 43 kanon of de 150-mm sFH 43 houwitzer te monteren. De projecten kregen de naam Grille 12 en Grille 15 en werden gekenmerkt door de plaatsing van het gevechtscompartiment aan de achterzijde. Het enige verschil was het type artilleriesysteem dat werd gebruikt. Later kreeg de Grille 15 een 150-mm kanon met een lengte van 63 kaliber waarmee op een afstand van 4.000 meter 200 mm pantser kon worden doorboord. De ontwikkeling verliep echter langzaam en het bestaan van de Grille 15 kwam niet verder dan de tekentafel."
@@ -2261,7 +2279,7 @@ msgid "G186_Schwertwal_descr"
 msgstr "De tank werd ontworpen om de nadelen van de Panzerkampfwagen VI en VI Ausf. B (Tiger II) teniet te doen en hun voordelen verder te ontwikkelen. De grootste verbetering zat in het pantser: gegoten componenten maakten het productieproces eenvoudiger. Een andere oplossing omvatte het in één compartiment plaatsen van de motor en transmissie, wat de indeling verbeterde. Het chassis had nog steeds een verspringende opstelling van de loopwielen, wat het rijden comfortabel maakte. Er werden raketmotoren van de R4M Orkan op de zijkant gemonteerd die in nood extra stuwkracht konden leveren. Ondanks de progressieve oplossingen, had de tank overduidelijke tekortkomingen, waaronder minder hellend pantser op de voorkant en een lager motorvermogen per ton gewicht."
 
 msgid "G186_Schwertwal_long_special"
-msgstr "De Schwertwal is een niveau X Duitse zware aanvalstank. Zijn 15 cm kanon met gigantische schade per schot is uitermate geschikt voor gevechten van dichtbij. De koepel is zeer stevig en heeft geen zwakke plekken. De mobiliteit is verbeterd met langdurige raketboosters."
+msgstr "De Schwertwal is een niveau X Duitse zware aanvalstank. Zijn 15 cm kanon met gigantische schade per schot is uitermate geschikt voor gevechten van dichtbij. De koepel is zeer stevig en heeft geen zwakke plekken. De mobiliteit is verbeterd met langdurige jetboosters."
 
 msgid "G186_Schwertwal_short"
 msgstr "Schwertwal"
@@ -2351,7 +2369,7 @@ msgid "G195_HWK_40_short"
 msgstr "HWK 40"
 
 msgid "G195_HWK_40_short_special"
-msgstr "Goede mobiliteit, gebruiksvriendelijk kanon"
+msgstr "Granaatkalibratiesysteem, gebruiksvriendelijk kanon"
 
 msgid "G196_Versuchspanzer_57"
 msgstr "Versuchspanzer 57"
@@ -2399,16 +2417,16 @@ msgid "G200_Chi_Go_short_special"
 msgstr "Goed gepantserde koepel, hoge schade per schot"
 
 msgid "G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_descr"
-msgstr "?empty?"
+msgstr "De Pz.Kpfw. VI Ausf.P, beter bekend als de VK 45.01 (P) of Porsche Tiger, was een eigenaardige Duitse zware tank. Hij had twee Typ 101 luchtgekoelde motoren en een elektrische transmissie. Vanwege de complexe en onbetrouwbare aandrijving werd het voertuig niet in massaproductie genomen, maar dankzij Oarai Girls' High School werd er nieuw leven in geblazen. Deze tank werd in de buik van het schoolschip gevonden en gerestaureerd door leden van de autoclub, die later de bemanning van de tank werden: Team-Leoponsan. Dankzij hun werktuigbouwkundige expertise maakten de meiden de wispelturige Porsche Tiger niet alleen gevechtsklaar, maar upgraden ze hem ook met apparaten voor korte acceleraties."
 
 msgid "G204_PzVI_Tiger_P_CFE_A_long_special"
-msgstr "De VK 45.01 (P) is een niveau VI Duitse zware tank met sterk frontaal pantser dat met gemak standaard granaten van medium en zware tanks van hetzelfde niveau weerstaat. Zijn kanon heeft goede DPM plus solide penetratie en schade per schot. Hij is traag, maar beschikt wel over een systeem dat tijdelijk zijn mobiliteit boost, waardoor hij snel zijn topsnelheid bereikt."
+msgstr "De Tiger (P) Leoponsan is een niveau VI Duitse zware tank met sterk frontaal pantser dat met gemak standaard granaten van medium en zware tanks van hetzelfde niveau weerstaat. Zijn kanon heeft goede DPM plus solide penetratie en schade per schot. Hij is traag, maar beschikt wel over een systeem dat tijdelijk zijn mobiliteit boost, waardoor hij snel zijn topsnelheid bereikt."
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leo"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short_special"
 msgstr "Solide frontaal pantser, Mobiliteitsverbetering Systeem"
@@ -2787,6 +2805,21 @@ msgstr "Indien-Pz."
 
 msgid "G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_descr"
+msgstr "Hoewel de Automaton prachtig was om te zien, had het geen enkele pretentie van elegantie. Het was een leviathan van brute kracht, met zuigers die als fabrieksmachines beukten en uitlaten die als een gieterij hoestten. Geboren in het grote tijdperk van stoom overleefde het de met roet besmeurde handen die het hadden gebouwd en overtrof het de stalen kolossen van moderne oorlogsvoering, die verbleekten bij zijn klokwerkpracht. Het denderde naast de nieuwere machines de strijd in en toen het dieselaangedreven lawaai van de strijd eindelijk was verstomd, bleef alleen het gestage, onvermoeibare geratel van de Automaton over."
+
+msgid "G89_Leopard1_CFE_A_long_special"
+msgstr "De Automaton is een niveau X Duitse medium tank met nagenoeg perfecte kanoneigenschappen. Hij heeft geen opvallende zwaktes en excelleert zowel in langeafstandsgevechten als in 'kiekeboem' duels in stedelijk gebied. De uitstekende mobiliteit verbetert zijn effectiviteit, doordat hij zich snel kan verplaatsen om op elk deel van het slagveld een bijdrage te leveren."
+
+msgid "G89_Leopard1_CFE_A_short"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_short_special"
+msgstr "Uitstekende nauwkeurigheid, geweldige mobiliteit"
 
 msgid "G89_Leopard1_descr"
 msgstr "Gevechtstank van de Federale Republiek Duitsland. Ontwikkeling startte in 1956. De eerste prototypes werden in 1965 gebouwd bij de fabriek van Krauss-Maffei. De Leopard 1 was bij meer dan 10 landen in dienst."
@@ -3167,6 +3200,12 @@ msgid "MTU_MB_838_CaM_500"
 msgstr "MTU MB 838 CaM-500"
 
 msgid "MTU_MB_838_CaM_500A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A_short"
 msgstr "MTU MB 838 CaM-500A"
 
 msgid "MTU_MB_838_CaM_500A_short"
@@ -3637,6 +3676,9 @@ msgstr "Maybach Neues Projekt A"
 msgid "Maybach_HL_234P60_short"
 msgstr "Maybach Neues Projekt"
 
+msgid "Maybach_HL_234_FR"
+msgstr "Maybach HL 234"
+
 msgid "Maybach_HL_234_TRM_P30"
 msgstr "Maybach HL 234 TRM P30"
 
@@ -3934,9 +3976,6 @@ msgstr "Pz. 38 (t)"
 msgid "PzI"
 msgstr "Pz.Kpfw. I"
 
-msgid "PzIII-IV"
-msgstr "Pz.Kpfw. III/IV"
-
 msgid "PzIII-IV_ausf_B"
 msgstr "Pz.Kpfw. III/IV verstärkteketten"
 
@@ -4225,6 +4264,9 @@ msgstr "SEM 25"
 msgid "SEM25_1"
 msgstr "SEM 25A"
 
+msgid "SEM25_1_CFE_A"
+msgstr "SEM 25A"
+
 msgid "SEM_25A"
 msgstr "SEM 25A"
 
@@ -4489,6 +4531,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Turret_1_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Turret_1_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Turret_1_G122_VK6501H"
 msgstr "VK 65.01 (H) S.W."
 
@@ -4688,7 +4733,7 @@ msgid "Turret_1_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Turret_1_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P) Turm"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Turret_1_G23_Grille"
 msgstr "Grille"
@@ -4797,6 +4842,9 @@ msgstr "Indien-Panzer"
 
 msgid "Turret_1_G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "Turret_1_G89_Leopard1_CFE_A"
+msgstr "Automaton"
 
 msgid "Turret_1_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A2"
@@ -5170,11 +5218,17 @@ msgstr "10,5 cm Bordkanone L7"
 msgid "_105mm_Bordkanone_L7A3"
 msgstr "10,5 cm Bordkanone L7A3"
 
+msgid "_105mm_Bordkanone_L7A3_CFE_A"
+msgstr "10,5 cm Bordkanone L7A3"
+
 msgid "_105mm_DM11"
 msgstr "DM11"
 
 msgid "_105mm_DM11_A"
 msgstr "DM11 (A)"
+
+msgid "_105mm_DM11_CFE_A"
+msgstr "DM11"
 
 msgid "_105mm_DM11_Kurz"
 msgstr "DM11 Kurz"
@@ -5215,6 +5269,9 @@ msgstr "DM13-20"
 msgid "_105mm_DM13_A"
 msgstr "DM13 (A)"
 
+msgid "_105mm_DM13_CFE_A"
+msgstr "DM13"
+
 msgid "_105mm_DM13_Kurz"
 msgstr "DM13 Kurz"
 
@@ -5229,6 +5286,9 @@ msgstr "DM23"
 
 msgid "_105mm_DM23_A"
 msgstr "DM23 (A)"
+
+msgid "_105mm_DM23_CFE_A"
+msgstr "DM23"
 
 msgid "_105mm_DM502"
 msgstr "DM502"
@@ -5374,9 +5434,6 @@ msgstr "Pzgr 39 LV"
 msgid "_105mm_PzGrRot"
 msgstr "PzGr rot"
 
-msgid "_105mm_Pzgr.40"
-msgstr "Pzgr 40"
-
 msgid "_105mm_Pzgr.40L1"
 msgstr "Pzgr 40 L1"
 
@@ -5427,6 +5484,9 @@ msgstr "Pzgr. 40 (180B)"
 
 msgid "_105mm_Pzgr_40_45"
 msgstr "Pzgr. 40/45"
+
+msgid "_105mm_Pzgr_40_A"
+msgstr "Pzgr 40"
 
 msgid "_105mm_Pzgr_40_E"
 msgstr "Pzgr. 40 E"
@@ -5535,6 +5595,9 @@ msgstr "10WSc"
 
 msgid "_10WSc_CFE_T"
 msgstr "10WSc T"
+
+msgid "_10WSc_FR"
+msgstr "10WSc"
 
 msgid "_10WSc_P"
 msgstr "10WSc P"
@@ -6133,6 +6196,9 @@ msgstr "Gr. 44 Hl/A"
 msgid "_150mm_Gr_HL"
 msgstr "Gr. HL"
 
+msgid "_150mm_Gr_HL_FR"
+msgstr "Gr. HL"
+
 msgid "_150mm_Gr_Hl_A"
 msgstr "Gr. Hl/A"
 
@@ -6155,6 +6221,9 @@ msgid "_150mm_Pak_L_44"
 msgstr "15 cm Pak L/44"
 
 msgid "_150mm_Pak_L_63"
+msgstr "15 cm Pak L/63"
+
+msgid "_150mm_Pak_L_63_FR"
 msgstr "15 cm Pak L/63"
 
 msgid "_150mm_PzGr39H2_SH"
@@ -6181,6 +6250,9 @@ msgstr "Pzgr. 42 (WT IV) T"
 msgid "_150mm_Pzgr_44"
 msgstr "Pzgr. 44"
 
+msgid "_150mm_Pzgr_FR"
+msgstr "Pzgr."
+
 msgid "_150mm_Pzgr_m_Hb"
 msgstr "Pzgr. (m.Hb)"
 
@@ -6204,6 +6276,9 @@ msgstr "Sprgr. 18 (Grille)"
 
 msgid "_150mm_Sprgr_36"
 msgstr "Sprgr. 36"
+
+msgid "_150mm_Sprgr_FR"
+msgstr "Sprgr."
 
 msgid "_150mm_Sprgr_G"
 msgstr "Sprgr. G"

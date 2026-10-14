@@ -202,11 +202,17 @@ msgstr "Strv 107-12"
 msgid "Chassis_S37_Ambassador"
 msgstr "Ambassadör"
 
+msgid "Chassis_S38_Huggorm"
+msgstr "Huggorm"
+
 msgid "Chassis_S39_Strv_m31"
 msgstr "Strv m/31"
 
 msgid "Chassis_S41_BV_111"
 msgstr "BV-111"
+
+msgid "Chassis_S42_Strv_T_fm_53"
+msgstr "Strv T fm/53"
 
 msgid "DB_605"
 msgstr "DB 605"
@@ -231,6 +237,9 @@ msgstr "Leyland L60"
 
 msgid "MTU_837_Ea_500"
 msgstr "MTU 837 Ea-500"
+
+msgid "MTU_MB_833_Huggorm"
+msgstr "MTU MB 833 (Huggorm)"
 
 msgid "Maybach_DSO"
 msgstr "Maybach DSO"
@@ -277,6 +286,9 @@ msgstr "Ra 122"
 msgid "Ra_122_Ambassador"
 msgstr "Ra 122 (Ambassadör)"
 
+msgid "Ra_122_m_53"
+msgstr "Ra 122 m/53"
+
 msgid "Ra_146"
 msgstr "Ra 146"
 
@@ -288,6 +300,9 @@ msgstr "Ra 400"
 
 msgid "Ra_400_P"
 msgstr "Ra 400 P"
+
+msgid "Ra_400_P_Huggorm"
+msgstr "Ra 400 P (Huggorm)"
 
 msgid "Ra_400_P_SH"
 msgstr "Ra 400P"
@@ -757,6 +772,21 @@ msgstr "Ambassadör"
 msgid "S37_Ambassador_short_special"
 msgstr "Bra rörlighet, automatladdare med kort tid mellan granaterna"
 
+msgid "S38_Huggorm"
+msgstr "Huggorm"
+
+msgid "S38_Huggorm_descr"
+msgstr "Under mitten av 1960-talet utvecklade Bofors en medeltung universalstridsvagn som skulle kunna agera både som infanteriunderstöd och som lättrörligt kustförsvar. När Strv 81 köptes in och tillverkningen av Strv 103 påbörjades skrotades dock planerna på att tillverka ytterligare en vagn. Pansarsbrigadernas åldrade Strv 74 fick istället ta rollen som infanteriunderstödsvagn."
+
+msgid "S38_Huggorm_long_special"
+msgstr "Huggorm är en svensk medeltung stridsvagn, klass X, som passar i vilken roll som helst. Den har ett kraftigt torn, utmärkt träffsäkerhet och hydropneumatisk upphängning som gör den väldigt effektiv i anfallsläge i halvtäckt ställning. Bra rörlighet och en smidig kanon låter den manövrera snabbt i förflyttningsläge. Anfallsläget kan aktiveras i farten."
+
+msgid "S38_Huggorm_short"
+msgstr "Huggorm"
+
+msgid "S38_Huggorm_short_special"
+msgstr "Hydropneumatisk upphängning, kraftigt torn"
+
 msgid "S39_Strv_m31"
 msgstr "Strv m/31"
 
@@ -783,6 +813,21 @@ msgstr "BV-111 drar stor nytta av sin externa ammunitionskassett, vilket gör at
 
 msgid "S41_BV_111_short"
 msgstr "BV-111"
+
+msgid "S42_Strv_T_fm_53"
+msgstr "Strv T fm/53"
+
+msgid "S42_Strv_T_fm_53_descr"
+msgstr "I början av 1950-talet, mitt under osäkerheten kring inköp av utländska vagnar och misslyckade försök att skapa en egen modern stridsvagn, inledde Kungliga Armétygförvaltningen (KATF) utvecklingen av en alternativ vagn parallellt med EMIL-projektet. Den nya stridsvagnen skulle ha kraftigt pansar och en kraftfull beväpning. tillräcklig för att bekämpa den sovjetiska tunga IS-3. I slutet av 1952 nåddes dock en överenskommelse om leveranser av brittiska Centurion-stridsvagnar, varefter projektet blev irrelevant och lades ned."
+
+msgid "S42_Strv_T_fm_53_long_special"
+msgstr "Strv T fm/53 är en svensk tung stridsvagn, klass IX, som blandar element från svenska och franska tunga automatladdade vagnar. Den har utmärkt kanondumpningsförmåga och ett kraftigt tornpansar, även om det inte är helt osårbart. Rörligheten är hyfsad, men inte lika bra som för franska tunga vagnar. Kanonen är smidig för en svensk tung stridsvagn, men kräver varsamt sikte."
+
+msgid "S42_Strv_T_fm_53_short"
+msgstr "Strv T"
+
+msgid "S42_Strv_T_fm_53_short_special"
+msgstr "Automatladdare, utmärkt dumpningsförmåga och hyfsat tornpansar"
 
 msgid "SFA_8_cyl_boxer"
 msgstr "SFA 8 cyl boxer"
@@ -949,11 +994,17 @@ msgstr "Strv 107-12"
 msgid "Turret_1_S37_Ambassador"
 msgstr "Ambassadör"
 
+msgid "Turret_1_S38_Huggorm"
+msgstr "Huggorm"
+
 msgid "Turret_1_S39_Strv_m31"
 msgstr "Strv m/31"
 
 msgid "Turret_1_S41_BV_111"
 msgstr "BV-111"
+
+msgid "Turret_1_S42_Strv_T_fm_53"
+msgstr "Strv T fm/53"
 
 msgid "Turret_2_S02_Strv_M42"
 msgstr "Strv m/42"
@@ -994,6 +1045,9 @@ msgstr "Volvo DC"
 msgid "Volvo_FE"
 msgstr "Volvo FE"
 
+msgid "Volvo_SFA_12A"
+msgstr "Volvo SFA 12A"
+
 msgid "Volvo_SFA_12B"
 msgstr "Volvo SFA 12B"
 
@@ -1023,6 +1077,9 @@ msgstr "slpprj D/5"
 
 msgid "_105mm_Bofors_D_G5_SH"
 msgstr "10.5 cm Bofors D/5"
+
+msgid "_105mm_Bofors_L_62_Huggorm"
+msgstr "10,5 cm Bofors L/62 (Huggorm)"
 
 msgid "_105mm_L_7_Gun_Ambassador"
 msgstr "105 mm L7 Gun (Ambassadör)"
@@ -1107,6 +1164,9 @@ msgstr "10,5 cm lvkan m/42"
 
 msgid "_105mm_psgr_m_49"
 msgstr "psgr m/49"
+
+msgid "_105mm_psgr_m_66_Huggorm"
+msgstr "psgr m/66 (Huggorm)"
 
 msgid "_105mm_sgr_LS_50_S"
 msgstr "slsgr L/50 S"
@@ -1198,6 +1258,9 @@ msgstr "slpprj m/61 (03)"
 msgid "_105mm_slpprj_m_61_16"
 msgstr "slpprj m/61 (16)"
 
+msgid "_105mm_slpprj_m_61_Huggorm"
+msgstr "slpprj m/61 (Huggorm)"
+
 msgid "_105mm_slpprj_m_61_L62_103B"
 msgstr "slpprj m/61 L/62 (103B)"
 
@@ -1266,6 +1329,9 @@ msgstr "slsgr m/61A (03)"
 
 msgid "_105mm_slsgr_m_61A_16"
 msgstr "slsgr m/61A (16)"
+
+msgid "_105mm_slsgr_m_61A_Huggorm"
+msgstr "slsgr m/61A (Huggorm)"
 
 msgid "_105mm_slsgr_m_61A_L62_103B"
 msgstr "slsgr m/61A L/62 (103B)"
@@ -1372,6 +1438,9 @@ msgstr "sgr m/51"
 msgid "_120mm_sgr_m_51_52E2"
 msgstr "sgr m/51 (52E2)"
 
+msgid "_120mm_sgr_m_53"
+msgstr "sgr m/53"
+
 msgid "_120mm_sgr_m_60"
 msgstr "sgr m/60"
 
@@ -1380,6 +1449,9 @@ msgstr "sgr m/ny"
 
 msgid "_120mm_sgr_m_ny_ord"
 msgstr "sgr m/ny ord"
+
+msgid "_120mm_slpgr_m_53"
+msgstr "slpgr m/53"
 
 msgid "_120mm_slpprj_b"
 msgstr "slpprj b/68"
@@ -1393,6 +1465,9 @@ msgstr "slpprj m/51"
 msgid "_120mm_slpprj_m_51_52E2"
 msgstr "slpprj m/51 (52E2)"
 
+msgid "_120mm_slpprj_m_53"
+msgstr "slpprj m/53"
+
 msgid "_120mm_slpprj_m_60"
 msgstr "slpprj m/60"
 
@@ -1401,6 +1476,9 @@ msgstr "slpprj m/ny"
 
 msgid "_120mm_slpprj_m_ny_hog_laddning"
 msgstr "slpprj m/ny hög laddning"
+
+msgid "_120mm_stk_m_55"
+msgstr "120 mm stk m/55"
 
 msgid "_120mm_strvkan_L_40"
 msgstr "12 cm strvkan L/40"

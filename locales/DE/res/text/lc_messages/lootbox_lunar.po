@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Zurück zu den Schätzen"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,11 +64,11 @@ msgstr "Jeder %(guaranteed0)s. Flammenschatz enthält garantiert ein Fahrzeug d
 msgid "infoPage/header/description"
 msgstr "Öffnen Sie Flammenschätze für eine Chance auf wertvolle Spielgegenstände! Weitere Details finden Sie unten."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Aus %(name) (%(boxesCount) Flammenschätze geöffnet)"
 
-msgid "noBoxesView/description/"
-msgstr "Sie haben keine Flammenschätze.\nSie können diese im Nachschub erhalten."
+msgid "noBoxesView/description"
+msgstr "Sie haben keine Flammenschätze.\nSie können sie im Nachschub erhalten."
 
 msgid "preview/backLabel"
 msgstr "ZU DEN SCHÄTZEN"
@@ -79,7 +79,7 @@ msgstr "Verfügbare Schätze: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Keine Schätze verfügbar"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Wenn Sie bereits alle Fahrzeuge von der Liste möglicher Inhalte besitzen, werden alle folgenden in Flammenschätzen gefundenen Fahrzeuge mit Gold vergütet."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) Flammenschatz"
 msgstr[1] "%(remainingCount) Flammenschätze"
 msgstr[2] "%(remainingCount) Flammenschätze"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Die garantierte Belohnung ist ein Fahrzeug von der Liste der möglichen Inhalte der Flammenschätze.\nWenn Sie %(remainingCount) öffnen, ohne ein solches Fahrzeug zu erhalten, ist garantiert eins im %(count). Flammenschatz enthalten. Der Zähler wird durch den Erhalt zurückgesetzt."

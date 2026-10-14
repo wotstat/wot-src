@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Dokunulmazlık sağlar."
+
+msgid "damageShield/long_special"
+msgstr "Savaş Yeteneği. Aracı çarpma, boğulma ve darbeler hariç her türlü hasara karşı 7 sn. boyunca koruyan bir enerji kalkanı oluşturur. Bir savaşta en az bir kere kullanıldığında yetenek tükenir ve kredi karşılığında ikmali yapılabilir. Kullanılmazsa ikmal gerekmez.<br /><br />Yalnızca <font color='#cbac77'>Babil: Kara Kule</font> etkinliği sırasında kullanılabilir.<br /><br />Kullanılmamış tüm yetenekler, bir sonraki güncellemede kaldırılacak ve ücretlerinin %50'si oranında kredi ile telafi edilecektir."
+
+msgid "damageShield/name"
+msgstr "Enerji Kalkanı"
+
+msgid "damageShield/onUse"
+msgstr "7 sn. boyunca aracınızı çarpma, boğulma ve sert darbeler dışında her türlü hasara karşı koruyan bir enerji kalkanı oluşturur."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Dokunulmazlık sağlar."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Atış hızını artırır / magazini doldurur."
+
+msgid "fastReload/long_special"
+msgstr "Savaş Yeteneği. Belirli bir süre için döngüsel bir topu yüklemesini oldukça hızlandırır veya magazin yüklemeli sistemi olan topların anında yüklenmesini sağlar. Bir savaşta en az bir kere kullanıldığında yetenek tükenir ve kredi kullanarak ikmali yapılabilir. Kullanılmazsa ikmal gerekmez.<br /><br />Yalnızca <font color='#cbac77'>Babil: Kara Kule</font> etkinliği sırasında kullanılabilir.<br /><br />Kullanılmamış tüm yetenekler, bir sonraki güncellemede kaldırılacak ve ücretlerinin %50'si oranında kredi ile telafi edilecektir."
+
+msgid "fastReload/name"
+msgstr "Hızlı Yükleme"
+
+msgid "fastReload/onUse"
+msgstr "Döngüsel bir topun yüklemesini bir süreliğine oldukça hızlandırır veya magazin yüklemeli sistemi olan topları anında doldurur."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Atış hızını artırır / magazini doldurur."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Can puanı geri kazandırır, yangını söndürür, şok etkisini kaldırır ve hasarlı parçaları onarır."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Savaş Yeteneği. Can puanı geri kazandırır, yangını söndürür, şok etkisini kaldırır ve hasarlı parçaları onarır. Bir savaşta çok defa kullanılabilir. Savaşta en az bir kere kullanıldığında harcanır.<br /><br />Sadece <font color='#cbac77'>Babil Projesi</font> etkinliği sırasında geçerlidir.<br /><br />Bir sonraki güncellemenin çıkışı ile birlikte kullanılmamış tüm yetenekler kaldırılacak ve maliyetlerinin %50'si tutarında kredi ile telafi edilecek."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Acil Durum Onarımı"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Aracınıza anında 400 can puanı geri kazandırır.\n• 30 saniye içinde ekstra 300 can puanı daha geri kazandırır.\n• Hasar alındığında can kazanımı kesintiye uğrar.\n• Yangını söndürür, şok etkisini ortadan kaldırır ve hasarlı parçaları onarır.\n• Yalnızca hasar durumunda etkinleştirilebilir."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Can puanı geri kazandırır, yangını söndürür, şok etkisini kaldırır ve hasarlı parçaları onarır."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Savaşta kullanmanın Mirium maliyeti:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nMirium maliyeti: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Savaşta kullanmanın Mirium maliyeti:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Hedefe ve yakınındaki düşman araçlarına hasar verip şoka sokan bir atış yapar."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Savaş Yeteneği. Hedefe ve 35 m yarıçapındaki tüm düşman araçlarına hasar verip şoka sokan bir atış yapar. Bir savaşta en az bir kere kullanıldığında yetenek tükenir ve kredi karşılığında ikmali yapılabilir. Kullanılmazsa ikmal gerekmez.<br/><br/>Yalnızca <font color='#cbac77'>Babil: Kara Kule</font> etkinliği sırasında kullanılabilir.<br/><br/>Kullanılmamış tüm yetenekler, bir sonraki güncellemede kaldırılacak ve ücretlerinin %50'si oranında kredi ile telafi edilecektir."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Enerji Atışı"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Hedefe ve 35 m yarıçapındaki tüm düşman araçlarına hasar verip şoka sokan bir atış yapar."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Hedefe ve yakınındaki düşman araçlarına hasar verip şoka sokan bir atış yapar."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Can puanını hedeften ve yakındaki düşman araçlarından çalarak geri kazandıran bir atış yapar."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Savaş Yeteneği. Hedeften ve 35 m yarıçapındaki tüm düşman araçlarından çalarak can puanı geri kazandırmanın yanı sıra hasarlı parçaları onarıp şok etkisini kaldıran bir atış yapar. Bir savaşta en az bir kere kullanıldığında yetenek tükenir ve kredi karşılığında ikmali yapılabilir. Kullanılmazsa ikmal gerekmez.<br/><br/>Yalnızca <font color='#cbac77'>Babil: Kara Kule</font> etkinliği sırasında kullanılabilir.<br/><br/>Kullanılmamış tüm yetenekler, bir sonraki güncellemede kaldırılacak ve ücretlerinin %50'si oranında kredi ile telafi edilecektir."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Vampir Atışı"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Can puanını hedeften ve 35 m yarıçapındaki düşman araçlarından çalarak geri kazandıran, ayrıca hasarlı parçaları onaran ve şok etkisini ortadan kaldıran bir atış yapar."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Can puanını hedeften ve yakındaki düşman araçlarından çalarak geri kazandıran bir atış yapar."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Hedefi ve yakındaki düşman araçlarını şoka sokan bir atış yapar."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Savaş Yeteneği. Hedefi ve 35 m yarıçapındaki tüm düşman araçlarını şoka sokan bir atış yapar. Bir savaşta birden fazla kez kullanılabilir. Bir savaşta en az bir kez kullanıldıktan sonra kaldırılır.<br /><br />Yalnızca <font color='#cbac77'>Babil Projesi</font> etkinliği sırasında kullanılabilir.<br /><br />Kullanılmayan tüm yetenekler bir sonraki güncellemede kaldırılacak ve maliyetlerinin %50'si kadar kredi ile telafi edilecektir."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Şok Atışı"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Hedefi ve 35 m yarıçapındaki tüm düşman araçlarını şoka sokan bir atış yapar."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Hedefi ve yakındaki düşman araçlarını şoka sokan bir atış yapar."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Aracınızı düşmanlara karşı görünmez kılar, can puanı kazandırır, parçaları onarır ve yangını söndürür."
+
+msgid "hwInvisibility/long_special"
+msgstr "Savaş Yeteneği. Aracı 10 sn. boyunca düşmanlara görünmez hale getirir. Saniyede 35 CP geri kazandırır, parçaları onarır, tüm negatif etkileri kaldırır ve paslanma hasarına karşı dokunulmazlık sağlar. Ateş ederek, çarparak veya Savaş Yetenekleri kullanarak bir düşman aracına hasar vermek veya ondan hasar almak anında konumunuzu belli eder. Aktivasyondan sonra 3 sn. boyunca düşman atışları tarafından aksatılamaz. Bir savaşta en az bir kere kullanıldığında yetenek tükenir ve kredi karşılığında ikmali yapılabilir. Kullanılmazsa ikmal gerekmez.<br/><br/>Yalnızca <font color='#cbac77'>Babil: Kara Kule</font> etkinliği sırasında kullanılabilir.<br/><br/>Kullanılmamış tüm yetenekler, bir sonraki güncellemede kaldırılacak ve ücretlerinin %50'si oranında kredi ile telafi edilecektir."
+
+msgid "hwInvisibility/name"
+msgstr "Gizli İyileşme"
+
+msgid "hwInvisibility/onUse"
+msgstr "Aracı 10 sn. boyunca düşmanlara görünmez hale getirir. Saniyede 35 CP geri kazandırır, parçaları onarır, tüm negatif etkileri kaldırır ve paslanma hasarına karşı dokunulmazlık sağlar. Ateş ederek, çarparak veya Savaş Yetenekleri kullanarak bir düşman aracına hasar vermek veya ondan hasar almak anında konumunuzu belli eder. Aktivasyondan sonra 3 sn. boyunca düşman atışları tarafından aksatılamaz."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Sizi düşmanlara karşı gizler, CP geri kazandırır, parçaları onarır, yangını söndürür, şok etkisini kaldırır ve mürettebatı iyileştirir."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Aracınızı sınırlı bir süre için hızlandırır\nve çarpma yoluyla verilen hasarı artırır."
+
+msgid "nitroRamDamage/name"
+msgstr "Turboşarj"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Geçici olarak aracınızın hızını ve çarpma ile verilen hasarı artırır."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Yarıçapı içindeki müttefik araçları onarır ve biraz can puanı geri kazandırır."
+
+msgid "teamRepairKit/long_special"
+msgstr "Savaş Yeteneği. Anında parçaları onarır, yangını söndürür, şok etkisini kaldırır ve yarıçapı içindeki müttefik araçlara biraz can puanı geri kazandırır. Bir savaşta en az bir kere kullanıldığında yetenek tükenir ve kredi karşılığında ikmali yapılabilir. Kullanılmazsa ikmal gerekmez.<br/><br />Yalnızca <font color='#cbac77'>Babil: Kara Kule</font> etkinliği sırasında kullanılabilir.<br/><br/>Kullanılmamış tüm yetenekler, bir sonraki güncellemede kaldırılacak ve ücretlerinin %50'si oranında kredi ile telafi edilecektir."
+
+msgid "teamRepairKit/name"
+msgstr "Grup Tamiri"
+
+msgid "teamRepairKit/onUse"
+msgstr "Parçaları anında onarır, yangını söndürür, şok etkisini kaldırır ve yarıçapı içindeki müttefik araçlara biraz can puanı geri kazandırır."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Yarıçapı içindeki müttefik araçları onarır ve biraz can puanı geri kazandırır."

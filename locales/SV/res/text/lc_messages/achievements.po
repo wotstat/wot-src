@@ -889,6 +889,15 @@ msgstr "• Delades ut under Det stora loppet 2019."
 msgid "Fest19Racer_descr"
 msgstr "Förtjäna den första belöningen i det personliga framgångsracet."
 
+msgid "FortRushMedal_2026"
+msgstr "Uppsnappare"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "Tilldelas alla agenter som slutför alla delmoment i evenemanget Svart signal 2026. Ett tecken på resultat: signalen uppsnappad så världen kan sova tryggt ytterligare en natt."
+
+msgid "FortRushMedal_2026_descr"
+msgstr "Slutför alla delmoment under evenemanget Svart signal 2026."
+
 msgid "HE17A1"
 msgstr "Odjurets tecken"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "Spanare från Mirny-13"
 
 msgid "hw2019Medal1_condition"
-msgstr "• Tilldelas alla spelare som uppfyllt respektive villkor under evenemanget."
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2020."
 
 msgid "hw2019Medal1_descr"
 msgstr "Slutför alla moment av operationen i Mirny-13 med svårighetsgrad en stjärna."
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "Veteran från Mirny-13"
 
 msgid "hw2019Medal2_condition"
-msgstr "• Tilldelas alla spelare som uppfyllt respektive villkor under evenemanget."
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2020."
 
 msgid "hw2019Medal2_descr"
 msgstr "Slutför alla moment av operationen i Mirny-13 med svårighetsgrad två stjärnor."
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "Hjälte från Mirny-13"
 
 msgid "hw2019Medal3_condition"
-msgstr "• Tilldelas alla spelare som uppfyllt respektive villkor under evenemanget."
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2020."
 
 msgid "hw2019Medal3_descr"
 msgstr "Slutför alla moment av operationen i Mirny-13 med svårighetsgrad tre stjärnor."
 
 msgid "hw2019Medal_condition"
-msgstr "• Tilldelas alla spelare som uppfyllt respektive villkor under evenemanget."
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2020."
 
 msgid "hw2019Medal_descr"
 msgstr "Ta emot alla stilar under operationen i Mirny-13."
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "Tämj odjuret"
 
 msgid "hw2021Medal1_condition"
-msgstr "• Tilldelas alla spelare som uppfyllt respektive villkor under evenemanget."
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2021."
 
 msgid "hw2021Medal1_descr"
 msgstr "Slutför alla stridsfaser med medelhög svårighetsgrad under evenemanget Mirnys hopp."
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "Den utvalda"
 
 msgid "hw2021Medal2_condition"
-msgstr "• Tilldelas alla spelare som uppfyllt respektive villkor under evenemanget."
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2021."
 
 msgid "hw2021Medal2_descr"
 msgstr "Slutför alla stridsfaser med hög svårighetsgrad under evenemanget Mirnys hopp."
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "Läskiga äventyr"
 
 msgid "hw2022Medal01_condition"
-msgstr "• Tilldelas alla spelare som uppfyllt speciella villkor under evenemanget."
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2022."
 
 msgid "hw2022Medal01_descr"
 msgstr "Slutför alla uppdrag kopplade till stridsförmågor i Pumpaslaget."
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "Bödeln"
 
 msgid "hw2022Medal02_condition"
-msgstr "• Tilldelas alla spelare som uppfyllt speciella villkor under evenemanget."
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2022."
 
 msgid "hw2022Medal02_descr"
 msgstr "Tjäna 65 000 Halloweenpoäng under Pumpaslaget."
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "De återvända"
 
 msgid "hw2023Medal_condition"
-msgstr "Delades ut under Mirny: Hoppet förlorat 2023."
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2023."
 
 msgid "hw2023Medal_descr"
 msgstr "Avkoda alla Filmrullar under Mirny: Hoppet förlorat 2023."
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "Babylonforskare"
 
 msgid "hw2024Medal_condition"
-msgstr "Delades ut under Projekt Babylon 2024."
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2024."
 
 msgid "hw2024Medal_descr"
 msgstr "Dekryptera alla handlingar under Projekt Babylon."
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "Förbjuden kunskap"
 
 msgid "hw2025Medal_condition"
-msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget."
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2025."
 
 msgid "hw2025Medal_descr"
 msgstr "Avkoda alla handlingar under Babylon: Förbjuden zon."
+
+msgid "hw2026Medal_1"
+msgstr "Ingen lämnas kvar"
+
+msgid "hw2026Medal_1_condition"
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2026."
+
+msgid "hw2026Medal_1_descr"
+msgstr "Avkoda alla handlingar i Babylon: Mörka tornet. Du vägrade lämna Alex!"
+
+msgid "hw2026Medal_2"
+msgstr "Miriumet är hennes hem"
+
+msgid "hw2026Medal_2_condition"
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2026."
+
+msgid "hw2026Medal_2_descr"
+msgstr "Avkoda alla handlingar i Babylon: Mörka tornet. Du lät Alex bli ett med miriumet!"
+
+msgid "hw2026Medal_3"
+msgstr "Anomalisamlare"
+
+msgid "hw2026Medal_3_condition"
+msgstr "Tilldelas alla spelare som uppfyllt villkoren under evenemanget 2026."
+
+msgid "hw2026Medal_3_descr"
+msgstr "Samla alla anomalier i Babylon: Mörka tornet."
 
 msgid "impenetrable"
 msgstr "Bombsäker"

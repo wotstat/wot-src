@@ -3304,12 +3304,6 @@ msgstr "Osaston rajoitukset"
 msgid "details/conditions/additional"
 msgstr "Klikkaa nähdäksesi tehtävän toissijaiset ehdot."
 
-msgid "devMaps/body"
-msgstr "Taistele kartoilla, joilta löytyy satunnaisesti tapahtuvia tapahtumia – esimerkiksi juna- tai lento-onnettomuuksia –, jotka muuttavat taistelukentän dynamiikkaa ja luovat uusia taktisia tilaisuuksia."
-
-msgid "devMaps/header"
-msgstr "Pelaa satunnaistapahtumia sisältävillä kartoilla"
-
 msgid "deviceFits/already_installed/header"
 msgstr "Asennettu:"
 
@@ -6670,6 +6664,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/fisherman/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/fr_spark/desc"
+msgstr "Lacie ”Kipinä” Paxton ei asettunut kodiksi pitkäksi aikaan mihinkään. Matkustamisensa isänsä tietoliikenneinsinöörin mukana sotilastukikohtien välillä teki hänestä maailmaa nähneen, sopeutumiskykyisen ja poikkeuksellisen taitavan tunnistamaan kaavamaisuuksia. Kipinä osoitti myöhemmin olevansa yhtä pätevä panssarivaunun sisällä kuin tiedustelulaitteiden ääressäkin. Hän johtaa kuivakalla nokkeluudella eikä koskaan vaaranna miehistöään kevein perustein. Kun Sektori 3 muodosti yksikön sieppaamaan Arkkitehdin lähetyksiä, Kipinä oli luonteva valinta sen komentajaksi. Hän nimesi heidän ensimmäisen tehtävänsä ”Operaatio Switchbladeksi”, ja nimi jäi yksikön käyttöön."
+
+msgid "notrecruitedtankman/fr_spark/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/fr_spark/label"
+msgstr "Musta signaali"
+
 msgid "notrecruitedtankman/freeSkillsTitle"
 msgstr "Nollapätevyydet"
 
@@ -6709,6 +6712,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/girls_und_panzer_erwin/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/desc"
+msgstr "Hoshino on pätevä ampuja, joka poistaa viholliset pelistä hymyssä suin. Vapaa-aikanaan hän on kuumapäinen kuski."
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_hoshino/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/girls_und_panzer_kei/desc"
 msgstr "Ekstrovertti luonne ja horjumaton reilun pelin henki tekevät Keistä leikkisän, mutta taitavan komentajan Saunders Universityn lukion Shensa-Dō joukkueelle. Hän on joukkueen henkinen tukipilari ja auttaa joukkuetovereitaan muistamaan, että voitto maistuu paremmalta, mikäli se tarjoillaan hauskanpitoa unohtamatta."
 
@@ -6716,6 +6728,15 @@ msgid "notrecruitedtankman/girls_und_panzer_kei/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_kei/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/desc"
+msgstr "Leoponsan-joukkueen leppoisa komentaja ja radisti, joka pitää pään aina kylmänä taistelun melskeessä."
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_nakajima/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_naomi/desc"
@@ -6752,6 +6773,24 @@ msgid "notrecruitedtankman/girls_und_panzer_saunders/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/girls_und_panzer_saunders/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/desc"
+msgstr "Suzuki saattaa olla lempeä luonteeltaan, mutta hänen ammuksensa osuvat vihollisiin perin lujaa."
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_suzuki/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/desc"
+msgstr "Voit koettaa sanoa Tsuchiyalle, ettei driftaisi. Älä kuitenkaan odota hänen kuuntelevan."
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/girls_und_panzer_tsuchiya/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/howToGet"
@@ -6935,6 +6974,15 @@ msgid "notrecruitedtankman/lunar26_commander/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/lunar26_commander/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/desc"
+msgstr "Maineikas insinööristä komentajaksi noussut Emil Diachenko on yhtä lailla elementissään avatessaan tulen vihollisvaunuja kohti kuin avatessaan moottoritilan nikkaroidakseen improvisoituja parannuksia. Todella omapäisenä hänestä on tullut kasarmilla eräänlainen urbaani legenda – hänen miehensä vannovat, ettei hän koskaan nuku. Emil tuntee huhut ja mieluummin jättää ne sekä vahvistamatta että kiistämättä; kaikkea poikkeuksellista rakastavana miehenä hän olisi viimeinen, joka tukahduttaisi kenenkään mielikuvituksen. Kun hän ei juoni seuraavaa päätöntä hankettaan, hän luonnostelee itse tehtyjä turboahtimia, joiden ei mitenkään pitäisi toimia... tai siltä ainakin vaikuttaisi."
+
+msgid "notrecruitedtankman/mustached_engineer/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/ny19men/desc"
@@ -11616,6 +11664,12 @@ msgstr "Aika lippaan viimeisen ammuksen laukaisemisen ja uuden lippaan (tai mole
 
 msgid "tank_params/desc/coincidenceElectromechanicalSightDuration"
 msgstr "Elektromekaanisen kaksoistähtäimen vaikutuksen kesto aktivoinnin jälkeen."
+
+msgid "tank_params/desc/combatThrottleCooldown"
+msgstr "Käytön jälkeen vaadittu aika ennen kuin kaasu voidaan aktivoida uudelleen."
+
+msgid "tank_params/desc/combatThrottleDuration"
+msgstr "Kaasun vaikutuksen maksimipituus aktivoinnin jälkeen."
 
 msgid "tank_params/desc/concentrationModeCooldown"
 msgstr "Käytön jälkeen vaadittu aika ennen kuin vakaaja voidaan aktivoida uudelleen."

@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Rdza"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Uszkodzenie od strefy"
+
+msgid "damageLog/static_death_zone"
+msgstr "Uszkodzenia od strefy"
+
+msgid "damageShieldReady"
+msgstr "Tarcza energii jest gotowa do użycia."
+
+msgid "fastReloadReady"
+msgstr "Szybkie przeładowanie jest gotowe do użycia."
+
+msgid "hitMarker/useless"
+msgstr "To nie działa!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Naprawy awaryjne są gotowe do użycia."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Energetyczny pocisk jest gotowy do użycia."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Wampiryczny pocisk jest gotowy do użycia."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Ogłuszający pocisk jest gotowy do użycia."
+
+msgid "hwHelpScreen/hint/description"
+msgstr ", aby zobaczyć zasady trybu"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Naciśnij"
+
+msgid "hwInvisibilityReady"
+msgstr "Skryte leczenie jest gotowe do użycia."
+
+msgid "nitroRamDamageReady"
+msgstr "Turbosprężarka jest gotowa do użycia."
+
+msgid "pickupSouls"
+msgstr "Zebrałeś %(souls)s szt. Mirium"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Nie można użyć [%(name)s]: działo jest uszkodzone."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Pojazd nie jest uszkodzony."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Nie można użyć [%(name)s]: silnik jest zniszczony."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Nie można użyć [%(name)s]: za mało Mirium, aby aktywować zdolność."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Nie można użyć [%(name)s]: pojazd płonie."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Nie można użyć [%(name)s]: pojazd tonie."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Nie można użyć [%(name)s]: pojazd płonie."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Nie można użyć [%(name)s]: pojazd jest przewrócony."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Działo jest załadowane."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Sojusznik %(target)s zniszczony przez rdzę."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Sojusznik %(target)s zadeptany przez %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Sojusznik %(target)s zniszczony od wybuchu przeciwnika (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Sojusznik %(target)s rozbił się."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Sojusznik %(target)s zniszczony przez strefę zniszczenia."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Sojusznik %(target)s zniszczony przez aurę przeciwnika."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Sojusznik %(target)s zniszczony przez strefę zniszczenia."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Sojusznik %(target)s został zniszczony."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Pojazd zniszczony przez uderzenie energii"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Pojazd zniszczony przez pirokinezę"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Pojazd zniszczony przez Życiokrad"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Pojazd zniszczony przez wybuch"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Pojazd zniszczony przez strefę zniszczenia"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Pojazd zniszczony przez aurę przeciwnika"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Pojazd zniszczony przez rdzę"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Pojazd został rozbity"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Pojazd zniszczony przez zadeptanie"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Pojazd zniszczony. Nie dotarłeś do Magnusa."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Pojazd zniszczony. Nie zniszczyłeś bossa."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Pojazd zniszczony. Magnus nie jest pełen."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Moduł [%(device)s] eksplodował po strzale gracza"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Pojazd zniszczony przez pożar"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Pojazd zniszczony przez strzał przeciwnika"
+
+msgid "teamRepairKitReady"
+msgstr "Naprawy grupowe są gotowe do użycia."
+
+msgid "teamRepairKitUsed"
+msgstr "Gracz %(player)s aktywował Naprawy grupowe."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Aktywowano naprawy grupowe."

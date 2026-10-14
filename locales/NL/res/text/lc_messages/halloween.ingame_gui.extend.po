@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Corrosie"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Schade door zone"
+
+msgid "damageLog/static_death_zone"
+msgstr "Schade door zone"
+
+msgid "damageShieldReady"
+msgstr "Energieschild is klaar voor gebruik."
+
+msgid "fastReloadReady"
+msgstr "Snel herladen is klaar voor gebruik."
+
+msgid "hitMarker/useless"
+msgstr "Heeft geen zin!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Noodreparaties is klaar voor gebruik."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Energieschot is klaar voor gebruik."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Vampierschot is klaar voor gebruik."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Verdovingsschot is klaar voor gebruik."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "om de regels van de modus te bekijken"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Druk op"
+
+msgid "hwInvisibilityReady"
+msgstr "Stealth-genezing is klaar voor gebruik."
+
+msgid "nitroRamDamageReady"
+msgstr "Turbocompressor is klaar voor gebruik."
+
+msgid "pickupSouls"
+msgstr "Je hebt %(souls)s Mirium item(s) verzameld"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "[%(name)s] kan niet worden gebruikt: het kanon is beschadigd."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Voertuig is niet beschadigd."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "[%(name)s] kan niet worden gebruikt: de motor is verwoest."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "[%(name)s] kan niet worden gebruikt: niet genoeg Mirium om de bekwaamheid te activeren."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "[%(name)s] kan niet worden gebruikt: het voertuig staat in brand."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "[%(name)s] kan niet worden gebruikt: het voertuig verdrinkt."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "[%(name)s] kan niet worden gebruikt: het voertuig staat in brand."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "[%(name)s] kan niet worden gebruikt: het voertuig is omgeslagen."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Het kanon is geladen."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Bondgenoot %(target)s vernietigd door corrosie."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Bondgenoot %(target)s gestampt door %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Bondgenoot %(target)s vernietigd door vijandelijke explosie (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Bondgenoot %(target)s is verongelukt."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Bondgenoot %(target)s vernietigd door de verwoestingszone."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Bondgenoot %(target)s vernietigd door vijandelijke aura."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Bondgenoot %(target)s vernietigd door de verwoestingszone."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Bondgenoot %(target)s is vernietigd."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Voertuig vernietigd door Energieslag"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Voertuig vernietigd door Pyrokinese"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Voertuig vernietigd door Levensroof"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Voertuig vernietigd door een explosie"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Voertuig vernietigd door de verwoestingszone"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Voertuig vernietigd door vijandelijke aura"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Voertuig vernietigd door corrosie"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Voertuig verongelukt"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Voertuig vernietigd door stampen"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Voertuig vernietigd. Je hebt Magnus niet bereikt."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Voertuig vernietigd. Je hebt de baas niet vernietigd."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Voertuig vernietigd. Magnus is niet gevuld."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Module [%(device)s] ontploft door schot van speler"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Voertuig vernietigd door brand"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Voertuig vernietigd door een vijandelijk schot"
+
+msgid "teamRepairKitReady"
+msgstr "Groepsreparatie is klaar voor gebruik."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s activeerde Groepsreparatie."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Groepsreparatie geactiveerd."

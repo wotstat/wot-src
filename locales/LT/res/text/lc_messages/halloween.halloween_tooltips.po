@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Atsistatymo laikas: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Mirium kaina panaudoti mūšyje: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Naudojant:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Nuolatiniai pastiprinimai mūšyje"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Įveikite normalų sudėtingumo lygį ir atrakinkite sunkų, su kuriuo atrakinsite ir anomalijų kombinacijų sistemą."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Anomalijų kombinacijos nepasiekiamos"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Padidina efektyvumą mūšyje ir yra perduodamas iš vienos fazės į kitą, net jei jūsų mašinai sunaikinama."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Kai gaunate:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomalijos"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Šešėlių anomalija"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Paimama anomalija"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Įprasta anomalija"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Slapta anomalija"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Gaunama tik iš grobio."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Neturi kombinacijų."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Nebūtinas norint gauti Anomalijų kolekcionieriaus medalį."
+
+msgid "bannerTooltip/available"
+msgstr "Renginys pasiekiamas dar %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — žaidimo režimas. Paspauskite iš pažinkite"
+
+msgid "bannerTooltip/description"
+msgstr "Specialus PvE režimas, kuris nukels jus giliai į paslaptingąjį Babilono projekto pasaulį. Įvaldykite septynias unikalias mašinas kovoje prieš tamsias priešų pajėgas. Ypatingi prizai ir daug daugiau laukia jūsų!"
+
+msgid "bannerTooltip/header"
+msgstr "Babilonas: Tamsusis bokštas"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Jūsų kompiuterio galingumo šiam režimui nepakanka. Jus galite pamatyti grafikos iškraipymus bei patirti nesklandumų judant mašinai. Gali nulūžti žaidimo klientas."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Žema greitaveika"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Galimai sumažinta greitaveika"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Jūs jau esate draugai."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Laukiama draugystės patvirtinimo."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Pašalinti žaidėją iš juodojo sąrašo."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Įtraukti į draugų sąrašą."
+
+msgid "battleResult/interaction/menu"
+msgstr "Paspauskite ir atidarykite sąsajos langą su šiuo žaidėju."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Įtraukti į būrį."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Žaidėjas jau būryje."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Pakvietimas jau išsiųstas."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Tik būrio vadas gali pakviesti žaidėjus į būrį."
+
+msgid "battleResult/secretReward/header"
+msgstr "Slaptas apdovanojimas"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Renginio pabaigoje gausite ypatingą apdovanojimą, kuris priklauso nuo jūsų pasirinkimo."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Unikalus renginio apdovanojimas"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Atsistatymo laikas: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Mirium kaina: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Pasiekiamas iki {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Apdovanojimai:"
+
+msgid "dailyQuests/status"
+msgstr "Iki naujos kasdienės misijos liko {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Susodinkite visus keturis renginio įgulos narius (%(crew_members_names)s) į bet kurią mašiną savo garaže (vienas jų privalo būti vadu) ir aktyvuosite dinamiškus pokalbius mūšyje.\nMašinose su penkiomis ar šešiomis rolėmis likusias vietas gali užpildyti bet koks kitas įgulos narys."
+
+msgid "groupVoiceover/header"
+msgstr "Dinamiški įgulos pokalbiai"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Jau pasirinkta šią mašiną atrakinanti užduotis. Pamatykite jos sąlygas viršutiniame dešiniame ekrano kampe."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Užduotis pasirinkta"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Pasirinkite tinkamą mašiną prieš įeidami į mūšį."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Nepasiekiama"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Mūšiai pasirinktu sudėtingumo lygiu/režime laikinai nepasiekiami dėl techninių kliūčių."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Nepasiekiama"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Palaukite, kol būrys sugrįš iš praeito mūšio ir tik tada pradėkite naują."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Nepasiekiama"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Būriui netinkamas sudėtingumo lygis."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Nepasiekiama"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Unikali įgula su keturiais nariais."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Pilna unikali įgula"
+
+msgid "keyCard/body"
+msgstr "Paspaudę pamatysite visus būdus uždirbti renginio valiutos."
+
+msgid "keys/accrued"
+msgstr "Gauta:"
+
+msgid "keys/battles"
+msgstr "• Renginio mūšiuose"
+
+msgid "keys/body"
+msgstr "Unikali valiuta, naudojama renginyje Babilonas: Tamsusis bokštas gauti prizams, tarp kurių yra ir pagrindinis renginio apdovanojimas. Jų galima uždirbti renginio mūšiuose arba nusipirkti rinkiniuose. Naikinkite priešų mašinas Babilono: Tamsusis bokštas mūšiuose, surinkite kiek galite daugiau materijos ir uždirbkite daugybę raktų."
+
+msgid "keys/boss"
+msgstr "• Įveiktas bosas:"
+
+msgid "keys/bottom"
+msgstr "Pasibaigus renginiui (%(date)s), visi jūsų neišnaudoti raktai bus pašalinti."
+
+msgid "keys/bundles"
+msgstr "• Pirkti su renginio rinkiniuose"
+
+msgid "keys/daily"
+msgstr "• Kasdienė mašinos misija:"
+
+msgid "keys/effective"
+msgstr "• Efektyvumas mūšyje:"
+
+msgid "keys/gold"
+msgstr "• Pirkti už auksą"
+
+msgid "keys/header"
+msgstr "Iššifravimo raktai"
+
+msgid "keys/howToEarn"
+msgstr "Kaip uždirbti"
+
+msgid "keys/howToUse"
+msgstr "Kaip naudoti"
+
+msgid "keys/howToUseDescr"
+msgstr "Naudokite raktus iššifruodami įrašus, atrakindami ir vykdydami renginio užduotis dėl pagrindinio prizo. Jūs taip pat galite išleisti daugiau raktų ir praleisti užduotis, taip greičiau pasiekdami prizus."
+
+msgid "keys/inStock"
+msgstr "turimi"
+
+msgid "keys/secret"
+msgstr "• Slaptas apdovanojimas:"
+
+msgid "metaWidget/body"
+msgstr "Paspauskite norėdami pamatyti visas renginio užduotis ir prizus."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Šį įrašą iššifruosite įvykdę jo sąlyga mūšiuose. Jos negalima praleisti."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Iššifruoti negalima"
+
+msgid "metaWidget/header"
+msgstr "Apdovanojimų takas"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Paspauskite ir pasirinkite, kaip pasibaigs istorija. Būsimi renginiai priklauso nuo visos bendruomenės pasirinkimų. Stebėkite žaidimo portalą."
+
+msgid "missionTooltip/bottom"
+msgstr "Iššifruokite visus įrašus (kai kurias užduotis galima praleisti) norėdami pasiekti pagrindinį prizą iki renginio pabaigos %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Užduotis %(current)s įvykdyta. gauti apdovanojimai"
+
+msgid "missionTooltip/count"
+msgstr "Užduotis %(current)s iš %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Iššifruoti"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Įrašą iššifruosite įvykdę užduotį."
+
+msgid "missionTooltip/kingReward"
+msgstr "Pagrindinis renginio prizas"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Pagrindinė renginio mašina gauta"
+
+msgid "missionTooltip/received"
+msgstr "Užduotis %(current)s įvykdyta, bet įrašas neiššifruotas"
+
+msgid "missionTooltip/rewards"
+msgstr "Apdovanojimus gausite įvykdę užduotį."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Apdovanojimus gausite iššifravę įrašą."
+
+msgid "missionTooltip/skip"
+msgstr "Praleisti"
+
+msgid "shopWidget/body"
+msgstr "Paspaudę atidarysite specialų žaidimo parduotuvės skyrių, kuriame yra renginio daiktai."
+
+msgid "shopWidget/header"
+msgstr "Renginio rinkiniai"
+
+msgid "teamList/actions/body"
+msgstr "Greitieji mygtukai būrio sukūrimui ir draugų pridėjimui/išmetimui."
+
+msgid "teamList/actions/header"
+msgstr "Greiti veiksmai"
+
+msgid "teamList/anomalies/header"
+msgstr "Aktyvios anomalijos"
+
+msgid "teamList/bossDamage/body"
+msgstr "Rikiuoti pagal žalą, padarytą tik 4 fazėje (Kovoje prieš bosą).\nŠi žala neįtraukiama į gaunamų raktų skaičiau apskaičiavimą, jei komanda neįveikia boso."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Ši žala neįtraukiama į gaunamų raktų skaičiaus apskaičiavimą, nes komanda neįveikė boso."
+
+msgid "teamList/bossDamage/header"
+msgstr "Kovoje prieš bosą padaryta žala"
+
+msgid "teamList/damage/body"
+msgstr "Rikiuoti pagal 1–3 fazėse padarytą žalą."
+
+msgid "teamList/damage/header"
+msgstr "Padaryta žala"
+
+msgid "teamList/keys/body"
+msgstr "Rikiuoti pagal uždirbtus raktus (į šią vertę neįtraukiami papildomi raktai už įvykdytą kasdienę misiją)."
+
+msgid "teamList/keys/header"
+msgstr "Uždirbta raktų"
+
+msgid "teamList/kills/body"
+msgstr "Rikiuoti pagal sunaikintas mašinas."
+
+msgid "teamList/kills/header"
+msgstr "Sunaikinta priešo mašinų"
+
+msgid "teamList/name/header"
+msgstr "Žaidėjo vardas"
+
+msgid "teamList/place/body"
+msgstr "Rikiuoti pagal vietą komandoje."
+
+msgid "teamList/place/header"
+msgstr "Vieta komandoje"
+
+msgid "teamList/squad/header"
+msgstr "Būrys yra taktinis vienetas, skirtas geresniam žaidėjų bendradarbiavimui mūšyje."
+
+msgid "teamList/vehicle/body"
+msgstr "Rūšiuoti pagal mašinos tipą ir pavadinimą."
+
+msgid "teamList/vehicle/header"
+msgstr "Mašinos"
+
+msgid "teamList/warned/body"
+msgstr "Šis žaidėjas buvo nubaustas už neaktyvumą/dezertyravimą ir jam nesuteikti jokie apdovanojimai."
+
+msgid "teamList/warned/header"
+msgstr "Dėmesio"
+
+msgid "teamList/warned/self/body"
+msgstr "Jūs buvote nubausti už neaktyvumą/dezertyravimą ir jums nesuteikti jokie apdovanojimai."
+
+msgid "teamList/warned/self/header"
+msgstr "Dėmesio"
+
+msgid "vehicle/bonusTitle"
+msgstr "Uždarbis"
+
+msgid "vehicle/eventBonus"
+msgstr "Papildomi raktai už įvykdytą kasdienę misiją su šia mašina."
+
+msgid "vehicle/state/default/title"
+msgstr "Mūšiui pasiruošęs"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "Mūšyje"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "Formuotėje"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "Eilėje"
+
+msgid "vehicle/state/locked/title"
+msgstr "Užrakinta"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "5 sviedinių automatas, leidžiantis greitai padaryti daug žalos."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Apkaba"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "3 sviedinių sistema, kuri pagreitina standartinį sviedinių automatinį užtaisymą."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Pagerintas automatinis užtaisymas"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Be perstojo šaudantis pabūklas."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Automatas"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Padidina tikimybę pažeisti priešų mašinų modulius."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Kritiškai pažeidžiantis pabūklas"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Fugasinis pabūklas su galinga dviejų sviedinių užtaisymo sistema."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Automatiškai užsitaisantis pabūklas"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Leidžia šaudyti tiek cikliškai, tiek vieną po kito."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Dvigubas pabūklas"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Visiškai apsaugo jūsų mašinos modulius nuo kritinės žalos"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Atsparumas kritinei žalai"

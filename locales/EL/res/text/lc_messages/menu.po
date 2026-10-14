@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s στα Free & Crew XP για %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s για %(effectHours)s στο κερδισμένο experience από τη μάχη"
+msgstr "%(effectValue)s στα Combat XP για %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s στα κερδισμένα credits από τη μάχη για %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Αυτό το όχημα είναι εξοπλισμένο με εκτο
 msgid "moduleInfo/closeBtn"
 msgstr "Κλείσιμο"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Βαλβίδα Ροής"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Εξοπλισμένα με σύστημα γεμίσματος με γεμιστήρα:"
 
@@ -6162,6 +6165,12 @@ msgstr "(τεμάχια)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Διάρκεια Ηλεκτρομηχανικού Στόχαστρου Σύμπτωσης"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Επαναφορά"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Διάρκεια"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Επαναφορά"

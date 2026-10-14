@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Fortrop-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Uddel %(goal)s hp skade til fjendtlige køretøjer, der har ramt dit køretøj"
+msgstr "Uddel %(goal)s hp skade til fjendtlige køretøjer, der har skadet dit køretøj"
 
 msgid "pm3_10_1_14_short"
 msgstr "Fortrop-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Baghold-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Uddel %(goal)s hp skade, mens du er uopdaget, når skaden bliver uddelt"
+msgstr "Uddel %(goal)s hp skade, mens du ikke er synlig for fjenderne"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Ødelæg en fjendtlig tung kampvogn med skud, og uddel mindst %(damageDealt)s hp skade"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Baghold-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Uddel skade %(hits)s gange til fjendtlige køretøjer, der er uopdagede, når skaden bliver uddelt"
+msgstr "Uddel skade til fjendtlige køretøjer, der ikke er synlige for dig når skaden uddeles, %(hits)s gange"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Ødelæg %(goal)s fjendtlige køretøjer af %(uniqueGoal)s forskellige typer"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Assistance-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Gør dine allierede i stand til at uddele %(goal)s hp skade til fjendtlige køretøjer opdaget af dig. Forbliv uopdaget i det øjeblik skaden bliver uddelt"
+msgstr "Gør dine allierede i stand til at uddele %(goal)s hp skade til fjendtlige køretøjer opdaget af dig. Vær ikke synlig for fjenderne i det øjeblik skaden bliver uddelt"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Gør fjendtlige tunge kampvogne fortumlede %(goal)s gange"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Fortrop-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Uddel %(goal)s hp skade til fjendtlige køretøjer, der har ramt dit køretøj"
+msgstr "Uddel %(goal)s hp skade til fjendtlige køretøjer, der har skadet dit køretøj"
 
 msgid "pm3_8_1_9_short"
 msgstr "Fortrop-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Baghold-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Uddel %(goal)s hp skade, mens du er uopdaget, når skaden bliver uddelt"
+msgstr "Uddel %(goal)s hp skade, mens du ikke er synlig for fjenderne"
 
 msgid "pm3_8_2_9_short"
 msgstr "Baghold-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Fortrop-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Uddel %(goal)s hp skade til fjendtlige køretøjer, der har ramt dit køretøj"
+msgstr "Uddel %(goal)s hp skade til fjendtlige køretøjer, der har skadet dit køretøj"
 
 msgid "pm3_9_1_14_short"
 msgstr "Fortrop-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Baghold-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Uddel %(goal)s hp skade, mens du er uopdaget, når skaden bliver uddelt"
+msgstr "Uddel %(goal)s hp skade, mens du ikke er synlig for fjenderne"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Ødelæg et fjendtligt køretøj, hvor du uddeler mindst %(damageDealt)s hp skade til det"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Baghold-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Uddel %(damageDealt)s hp skade til fjendtlige køretøjer, der er uopdagede, når skaden bliver uddelt"
+msgstr "Uddel %(damageDealt)s hp skade til fjendtlige køretøjer, der ikke er synlige for dig, når skaden bliver uddelt"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Ødelæg %(goal)s fjendtlige køretøjer af %(uniqueGoal)s forskellige typer"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Assistance-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Gør dine allierede i stand til at uddele %(goal)s hp skade til fjendtlige køretøjer opdaget af dig. Forbliv uopdaget i det øjeblik skaden bliver uddelt"
+msgstr "Gør dine allierede i stand til at uddele %(goal)s hp skade til fjendtlige køretøjer opdaget af dig. Vær ikke synlig for fjenderne i det øjeblik skaden bliver uddelt"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Gør fjendtlige tunge kampvogne fortumlede for i alt %(goal)s sekunder. Potentiel tid fortumlet tælles med"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Assistance-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Uddel %(damageDealt)s hp skade til fjendtlige køretøjer, der er uopdagede, når skaden bliver uddelt"
+msgstr "Uddel %(damageDealt)s hp skade til fjendtlige køretøjer, der ikke er synlige for dig, når skaden bliver uddelt"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Ødelæg %(goal)s fjendtlige lette kampvogne eller SPG'er"

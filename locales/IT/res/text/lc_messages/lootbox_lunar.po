@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Torna ai Tesori"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "%(guaranteed0)s Tesori fiammeggianti contengono un veicolo di livello VI
 msgid "infoPage/header/description"
 msgstr "Apri i Tesori fiammeggianti per avere la possibilità di ricevere preziosi articoli di gioco! Ulteriori dettagli in basso."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Dal %(name) (%(boxesCount) Tesori fiammeggianti aperti)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Non possiedi alcun Tesoro fiammeggiante.\nLi puoi ottenere nella Fabbrica."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Tesori disponibili: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Nessun Tesoro disponibile"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Se possiedi già tutti i veicoli dalla lista di possibili contenuti del Tesoro fiammeggiante, allora tutti i veicoli successivi ricevuti dai Tesori fiammeggianti saranno compensati con una somma in oro."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) Tesoro fiammeggiante"
 msgstr[1] "%(remainingCount) Tesori fiammeggianti"
 msgstr[2] "%(remainingCount) Tesori fiammeggianti"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "La ricompensa garantita è un veicolo dalla lista di possibili contenuti del Tesoro fiammeggiante.\nSe apri %(remainingCount) senza trovare uno di questi veicoli, lo troverai all'apertura del %(count)º. In questi casi, il contatore si azzera."

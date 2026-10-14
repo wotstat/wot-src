@@ -1345,7 +1345,7 @@
             base__left: "TextButton_base__left_ec79d",
             shine: "TextButton_shine_f8873",
           },
-          B = [
+          $ = [
             "caption",
             "onClick",
             "goto",
@@ -1359,9 +1359,9 @@
             "soundHover",
             "soundClick",
           ];
-        function $() {
+        function B() {
           return (
-            ($ = Object.assign
+            (B = Object.assign
               ? Object.assign.bind()
               : function (e) {
                   for (var t = 1; t < arguments.length; t++) {
@@ -1370,7 +1370,7 @@
                   }
                   return e;
                 }),
-            $.apply(null, arguments)
+            B.apply(null, arguments)
           );
         }
         const U = (e) => {
@@ -1399,7 +1399,7 @@
                   n[a] = e[a];
                 }
               return n;
-            })(e, B);
+            })(e, $);
           const x = (0, a.useCallback)(
               (e) => {
                 (null == l || l(e), o.O.sound.play.sound(p));
@@ -1426,7 +1426,7 @@
             );
           return r().createElement(
             "div",
-            $(
+            B(
               {
                 className: m()(
                   W.base,
@@ -1717,17 +1717,13 @@
         })({});
         const Ee = R.images.gui.maps.icons.dogtags.big.digits;
         Object.keys(Object.getPrototypeOf(Ee))
-          .filter((e) => "$" !== e[0])
+          .filter((e) => "string" == typeof e && "$" !== e[0])
           .map((e) => Ee[e]())
           .map((e) => {
             new Image().src = e;
           });
-        const be = (e) => {
-            const t = e.currentTarget.width / e.currentTarget.height;
-            ((e.currentTarget.style.width = 16 * t + "%"),
-              (e.currentTarget.style.display = "flex"));
-          },
-          we = {
+        const be = "dot-tag-id";
+        const we = {
             appear: me.flameAnimation__appear,
             appearActive: me.flameAnimation__appearActive,
             appearDone: me.flameAnimation__appearDone,
@@ -1811,11 +1807,23 @@
                           return r().createElement("div", { key: e + t, className: me.spaceDigit });
                         const n = ve(e, Ee);
                         return r().createElement("img", {
+                          id: `${be}-${t}`,
                           key: `${n}-${t}`,
-                          onLoad: be,
+                          onLoad:
+                            ((a = `${be}-${t}`),
+                            (e) => {
+                              engine.executeImmediateLayoutSync();
+                              const t = e.currentTarget,
+                                n = t.width,
+                                r = t.height;
+                              0 !== r && 0 !== n
+                                ? (t.style.width = (n / r) * 16 + "%")
+                                : console.warn("Incorrect value width:", n, "height", r, a);
+                            }),
                           className: me.trackerDigit,
                           src: n,
                         });
+                        var a;
                       }),
                     ),
                   ),
@@ -2072,8 +2080,8 @@
           Ne = "App_container__unavailable_a4d5a",
           Ie = "App_lock_f21b6",
           We = "App_title_f1d26",
-          Be = "App_separator_c8270",
-          $e = "App_buttons_f415d",
+          $e = "App_separator_c8270",
+          Be = "App_buttons_f415d",
           Ue = "App_button_af771",
           Ge = R.strings.dogtags.customizationConfirmDialog,
           Fe = (0, z.Pi)(() => {
@@ -2126,10 +2134,10 @@
                   { className: We },
                   c ? Ge.title.unavailable() : Ge.title.available(),
                 ),
-                r().createElement("div", { className: Be }),
+                r().createElement("div", { className: $e }),
                 r().createElement(
                   "div",
-                  { className: $e },
+                  { className: Be },
                   r().createElement(
                     "div",
                     { className: Ue },

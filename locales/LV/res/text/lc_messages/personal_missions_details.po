@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Avangards-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Nodarīt %(goal)s HP bojājumus ienaidnieka tankiem, kas trāpījuši tavā tankā"
+msgstr "Nodariet ienaidnieka tankiem, kas sabojāja jūsu tanku, %(goal)s HP bojājumu"
 
 msgid "pm3_10_1_14_short"
 msgstr "Avangards-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Slēpnis-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Nodarīt %(goal)s HP bojājumu, paliekot neatklātam brīdī, kad bojājums tiek nodarīts"
+msgstr "Nodari %(goal)s HP bojājumus, kamēr esi neredzams ienaidniekiem"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Iznīciniet ienaidnieka smago tanku, šaujot uz to un nodarot vismaz %(damageDealt)s HP bojājumus."
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Slēpnis-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Nodarīt bojājumus %(hits)s reizes ienaidnieka tankiem, kas bojājuma brīdī nav atklāti"
+msgstr "Nodari bojājumus ienaidnieka tankiem, kas tev nav redzami, %(hits)s reizes"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Iznīciniet %(goal)s ienaidnieka tankus no %(uniqueGoal)s dažādiem tipiem"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Atbalsts-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Ļaut sabiedrotajiem nodarīt %(goal)s HP bojājumus ienaidnieka tankiem, kurus esi atklājis tu, paliekot neatklāts bojājuma brīdī"
+msgstr "Ļauj saviem sabiedrotajiem nodarīt %(goal)s HP bojājumu ienaidnieka tankiem, kurus esi pamanījis. Bojājumu nodarīšanas brīdī neesi redzams ienaidniekiem."
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Apdullināt ienaidnieka smagos tankus %(goal)s reizes"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Avangards-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Nodarīt %(goal)s HP bojājumus ienaidnieka tankiem, kas trāpījuši tavā tankā"
+msgstr "Nodariet ienaidnieka tankiem, kas sabojāja jūsu tanku, %(goal)s HP bojājumu"
 
 msgid "pm3_8_1_9_short"
 msgstr "Avangards-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Slēpnis-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Nodarīt %(goal)s HP bojājumu, paliekot neatklātam brīdī, kad bojājums tiek nodarīts"
+msgstr "Nodari %(goal)s HP bojājumus, kamēr esi neredzams ienaidniekiem"
 
 msgid "pm3_8_2_9_short"
 msgstr "Slēpnis-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Avangards-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Nodarīt %(goal)s HP bojājumus ienaidnieka tankiem, kas trāpījuši tavā tankā"
+msgstr "Nodariet ienaidnieka tankiem, kas sabojāja jūsu tanku, %(goal)s HP bojājumu"
 
 msgid "pm3_9_1_14_short"
 msgstr "Avangards-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Slēpnis-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Nodarīt %(goal)s HP bojājumu, paliekot neatklātam brīdī, kad bojājums tiek nodarīts"
+msgstr "Nodari %(goal)s HP bojājumus, kamēr esi neredzams ienaidniekiem"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Iznīcināt ienaidnieka tanku, nodarot tam vismaz %(damageDealt)s HP bojājumus"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Slēpnis-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Nodarīt %(damageDealt)s HP bojājumu ienaidnieka tankiem, kas bojājuma brīdī nav atklāti"
+msgstr "Nodari %(damageDealt)s HP bojājumus ienaidnieka tankiem, kas bojājumu nodarīšanas brīdī tev nav redzami"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Iznīciniet %(goal)s ienaidnieka tankus no %(uniqueGoal)s dažādiem tipiem"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Atbalsts-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Ļaut sabiedrotajiem nodarīt %(goal)s HP bojājumus ienaidnieka tankiem, kurus esi atklājis tu, paliekot neatklāts bojājuma brīdī"
+msgstr "Ļauj saviem sabiedrotajiem nodarīt %(goal)s HP bojājumu ienaidnieka tankiem, kurus esi pamanījis. Bojājumu nodarīšanas brīdī neesi redzams ienaidniekiem."
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Apdullināt ienaidnieka smagos tankus kopā uz %(goal)s sekundēm. Tiek skaitīts arī potenciālais apdullināšanas ilgums"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Atbalsts-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Nodarīt %(damageDealt)s HP bojājumu ienaidnieka tankiem, kas bojājuma brīdī nav atklāti"
+msgstr "Nodari %(damageDealt)s HP bojājumus ienaidnieka tankiem, kas bojājumu nodarīšanas brīdī tev nav redzami"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Iznīcini %(goal)s ienaidnieka vieglos tankus vai artilēriju"

@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Timpul de pregătire: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Costul în Mirium la utilizarea în luptă: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Când este utilizat:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Bonusuri pasive în lupte"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Finalizează dificultatea Normală pentru a debloca dificultatea Grea și a obține acces la sistemul Combo-urilor de Anomalii."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Combo-urile de Anomalii sunt indisponibile"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Crește-ți eficiența în luptă și continuă de la o fază la alta chiar dacă vehiculul tău este distrus."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "La obținere:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomaliile"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Anomalia Ecou"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Anomalia de Culegere"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Anomalia de Bază"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Anomalia Secretă"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Se obține doar din pradă."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Nu are combo-uri."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Nu se ia în considerare la obținerea medaliei „Colecționar de Anomalii”."
+
+msgid "bannerTooltip/available"
+msgstr "Eveniment disponibil timp de %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) - mod de joc. Clic pentru a explora"
+
+msgid "bannerTooltip/description"
+msgstr "Un mod PvE special care te va scufunda adânc în lumea misteriosului Proiect Babylon. Îmblânzește șapte vehicule unice pe măsură ce lupți pentru a distruge întunecatele forțe inamice. Te așteaptă recompense exclusive și multe altele!"
+
+msgid "bannerTooltip/header"
+msgstr "Babylon: Turnul Întunecat"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Performanțele computerului tău sunt insuficiente pentru acest mod. Poți avea probleme de grafică și cu mișcarea vehiculului. Sunt posibile și erori ale clientului de joc."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Acest mod cere un computer foarte performant. Vei avea probleme cu încărcarea hărții, grafica și mișcarea vehiculului. Poți încerca să reduci calitatea grafică în Setări pentru a spori performanțele jocului."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Performanță scăzută"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Risc de performanță redusă"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Sunteți deja prieteni."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Se așteaptă confirmarea cererii de prietenie."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Elimină jucătorul din Lista neagră."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Adaugă în lista de prieteni."
+
+msgid "battleResult/interaction/menu"
+msgstr "Clic pentru a deschide meniul interactiv al acestui jucător."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Adaugă în pluton."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Jucătorul este deja în pluton."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Invitația a fost deja trimisă."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Doar comandantul de pluton poate invita jucători în pluton."
+
+msgid "battleResult/secretReward/header"
+msgstr "Recompensă secretă"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Vei obține un premiu special la încheierea evenimentului, în funcție de decizia ta."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Premiu unic de eveniment"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Refacere: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Cost în Mirium: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Disponibil până pe {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Recompense:"
+
+msgid "dailyQuests/status"
+msgstr "Misiune zilnică nouă în {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Asignează oricărui vehicul pe toți cei patru membri de echipaj cu voci (%(crew_members_names)s), în Garaj (unul dintre aceștia trebuie să fie comandant) pentru a activa conversațiile dinamice ale echipajului pe parcursul luptelor.\nÎn vehiculele cu cinci sau șase roluri, locurile rămase pot fi ocupate de oricare alți membri de echipaj."
+
+msgid "groupVoiceover/header"
+msgstr "Conversațiile dinamice ale echipajului"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Obiectivul pentru deblocarea acestui vehicul este deja selectat. Afișează-ți condițiile în colțul din dreapta-sus al ecranului."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Obiectiv selectat"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Selectează un vehicul disponibil pentru a intra în luptă."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Indisponibil"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Luptele în modul/dificultatea selectate sunt temporar indisponibile din motive tehnice."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Indisponibil"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Așteaptă ca plutonul să revină din lupta anterioară pentru a intra într-o nouă luptă."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Indisponibil"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Nivel de dificultate incompatibil pentru pluton."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Indisponibil"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Un echipaj unic cu patru tanchiști."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Echipaj unic complet"
+
+msgid "keyCard/body"
+msgstr "Clic pentru a afișa toate metodele de obținere a monedei de eveniment."
+
+msgid "keys/accrued"
+msgstr "Obținute:"
+
+msgid "keys/battles"
+msgstr "• În lupte de eveniment"
+
+msgid "keys/body"
+msgstr "O monedă unică utilizată pentru a avansa în evenimentul Babylon: Turnul Întunecat și a obține articole valoroase, inclusiv recompensa principală a evenimentului. Se poate obține în lupte de eveniment și cumpăra din pachete. Distruge vehicule inamice în luptele din Babylon: Turnul Întunecat pentru a strânge cât mai multă materie și a obține chei."
+
+msgid "keys/boss"
+msgstr "• Boss învins:"
+
+msgid "keys/bottom"
+msgstr "După încheierea evenimentului (%(date)s), toate cheile rămase vor fi eliminate."
+
+msgid "keys/bundles"
+msgstr "• Cumpără în pachete de eveniment"
+
+msgid "keys/daily"
+msgstr "• Misiunea zilnică pentru vehicul:"
+
+msgid "keys/effective"
+msgstr "• Eficiența în luptă:"
+
+msgid "keys/gold"
+msgstr "• Cumpără contra aur"
+
+msgid "keys/header"
+msgstr "Chei de decriptare"
+
+msgid "keys/howToEarn"
+msgstr "Modalitate de obţinere"
+
+msgid "keys/howToUse"
+msgstr "Mod de utilizare"
+
+msgid "keys/howToUseDescr"
+msgstr "Utilizează chei pentru a decripta înregistrări, a debloca obiective noi și a avansa către recompensa principală a evenimentului. Poți cheltui mai multe chei pentru a sări peste obiective și a ajunge mai repede la recompense."
+
+msgid "keys/inStock"
+msgstr "disponibile"
+
+msgid "keys/secret"
+msgstr "• Recompensă secretă:"
+
+msgid "metaWidget/body"
+msgstr "Clic pentru a afișa toate obiectivele și recompensele evenimentului."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Îndeplinește condiția de luptă a acestei înregistrări pentru a o decripta. Acest pas nu poate fi omis."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Decriptare indisponibilă"
+
+msgid "metaWidget/header"
+msgstr "Calea Recompenselor"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Clic pentru a alege cum se încheie povestea. Alegerea generală a comunității va forma evenimentele din viitor. Verifică actualizările pe portalul jocului."
+
+msgid "missionTooltip/bottom"
+msgstr "Decriptează înregistrările (unele obiective pot fi sărite) pentru recompensa principală înainte de încheierea evenimentului pe %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Obiectivul %(current)s finalizat, recompense obținute"
+
+msgid "missionTooltip/count"
+msgstr "Obiectivul %(current)s din %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Decriptare"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Finalizează obiectivul pentru a debloca decriptarea."
+
+msgid "missionTooltip/kingReward"
+msgstr "Recompensa principală a evenimentului"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Recompensa principală a evenimentului obținută"
+
+msgid "missionTooltip/received"
+msgstr "Obiectivul %(current)s finalizat, însă înregistrarea nu a fost decriptată"
+
+msgid "missionTooltip/rewards"
+msgstr "Finalizează obiectivul pentru a obține recompense."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Decriptează înregistrarea pentru a obține recompense."
+
+msgid "missionTooltip/skip"
+msgstr "Sări peste"
+
+msgid "shopWidget/body"
+msgstr "Clic pentru a deschide o secțiune specială a Magazinului din joc cu articole exclusive ale evenimentului."
+
+msgid "shopWidget/header"
+msgstr "Pachete de eveniment"
+
+msgid "teamList/actions/body"
+msgstr "Acțiuni rapide pentru a crea un pluton și adăugarea/eliminarea de prieteni."
+
+msgid "teamList/actions/header"
+msgstr "Acțiuni rapide"
+
+msgid "teamList/anomalies/header"
+msgstr "Anomalii active"
+
+msgid "teamList/bossDamage/body"
+msgstr "Sortează doar după daunele provocate în Faza 4 (lupta cu boss-ul).\nAceste daune nu se contorizează pentru recompensele-cheie dacă echipa nu învinge boss-ul."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Daunele nu se contorizează pentru recompensele-cheie, deoarece echipa nu a reușit să învingă boss-ul."
+
+msgid "teamList/bossDamage/header"
+msgstr "Daune provocate în lupte cu boss-ul"
+
+msgid "teamList/damage/body"
+msgstr "Sortează după daunele provocate în fazele 1-3."
+
+msgid "teamList/damage/header"
+msgstr "Daune provocate"
+
+msgid "teamList/keys/body"
+msgstr "Sortează după chei obținute (valoarea afișată nu include cheile bonus primite pentru finalizarea misiunii zilnice corespunzătoare)."
+
+msgid "teamList/keys/header"
+msgstr "Chei obținute"
+
+msgid "teamList/kills/body"
+msgstr "Sortează după vehiculele inamice distruse."
+
+msgid "teamList/kills/header"
+msgstr "Vehicule inamice distruse"
+
+msgid "teamList/name/header"
+msgstr "Numele jucătorului"
+
+msgid "teamList/place/body"
+msgstr "Sortează după poziția din echipă."
+
+msgid "teamList/place/header"
+msgstr "Poziția în echipă"
+
+msgid "teamList/squad/header"
+msgstr "Un pluton este o unitate tactică în care jucătorii colaborează în lupte."
+
+msgid "teamList/vehicle/body"
+msgstr "Sortare după tipul și numele vehiculelor"
+
+msgid "teamList/vehicle/header"
+msgstr "Vehicule"
+
+msgid "teamList/warned/body"
+msgstr "Acest jucător a fost penalizat pentru inacțiune/dezertare și nu a obținut nicio recompensă în această luptă."
+
+msgid "teamList/warned/header"
+msgstr "Atenţie"
+
+msgid "teamList/warned/self/body"
+msgstr "Ai fost penalizat pentru inacțiune/dezertare și nu ai obținut nicio recompensă în această luptă."
+
+msgid "teamList/warned/self/header"
+msgstr "Atenţie"
+
+msgid "vehicle/bonusTitle"
+msgstr "Câștiguri"
+
+msgid "vehicle/eventBonus"
+msgstr "Cheile bonus sunt disponibile pentru finalizarea unei misiuni zilnice cu acest vehicul."
+
+msgid "vehicle/state/default/title"
+msgstr "Gata de luptă"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "În luptă"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "În unitatea tactică"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "În coadă"
+
+msgid "vehicle/state/locked/title"
+msgstr "Blocat"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "O casetă cu 5 proiectile îți permite să provoci rapid daune mari."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Casetă"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Un sistem cu 3 proiectile care reduce perioada standard de autoreîncărcare a proiectilelor."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Tun cu autoreîncărcător îmbunătățit"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Un tun cu foc continuu."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Autotun"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Crește șansa de a provoca daune modulelor inamicilor."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Tun cu daune critice"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Un tun HE cu un sistem de autoreîncărcare formidabil cu 2 proiectile."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Tun cu autoreîncărcător"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Îți permite să alegi între focul ciclic și cel secvențial."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Tun dublu"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Protejează complet modulele proprii față de daunele critice."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Rezistență la daune critice"

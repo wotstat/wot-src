@@ -1516,9 +1516,6 @@ msgstr "WoT Plus yönetilebilir DP çarpanı kullanılabilir"
 msgid "serviceChannelMessages/additionalXP/unavailable/title"
 msgstr "WoT Plus yönetilebilir DP çarpanı devre dışı"
 
-msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
-msgstr "%s üzerindeki sarf malzemeleri ikmal edilemedi. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
-
 msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
 msgstr "%s için yönergeler ikmal edilemedi. İşlem bakım sebebiyle geçici olarak yapılamaz."
 
@@ -1537,9 +1534,6 @@ msgstr "%s deki sarf malzemeleri ikmal edilemedi. Altın sarf malzemeleri almay�
 msgid "serviceChannelMessages/autoEquipError"
 msgstr "%s aracına yeniden sarf malzemesi ikmal edilemedi. Yeterli kredi yok."
 
-msgid "serviceChannelMessages/autoEquipErrorNoWallet"
-msgstr "%s üzerindeki sarf malzemeleri ikmal edilemedi. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
-
 msgid "serviceChannelMessages/autoEquipSkipped"
 msgstr "%s sarf malzemelerinin otomatik ikmali yapılamadı. Malzemeleri elle yükleyin."
 
@@ -1552,9 +1546,6 @@ msgstr "%s deki mühimmat ikmal edilemedi. Altın mühimmat almayı düşünün.
 msgid "serviceChannelMessages/autoLoadError"
 msgstr "%s aracına yeniden mühimmat ikmal edilemedi. Yeterli kredi yok."
 
-msgid "serviceChannelMessages/autoLoadErrorNoWallet"
-msgstr "%s üzerindeki mühimmat ikmal edilemedi. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
-
 msgid "serviceChannelMessages/autoLoadSkipped"
 msgstr "%s cephanesinin otomatik ikmali yapılamadı. Cephaneyi elle yükleyin."
 
@@ -1566,9 +1557,6 @@ msgstr "%s için stil kiralaması uzatılamadı. Stili altın ile satın alın."
 
 msgid "serviceChannelMessages/autoRentStyleError"
 msgstr "%s için stil kiralaması uzatılamadı. Yeterli para yok."
-
-msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
-msgstr "%s için stil kiralaması uzatılamadı. Tüm altınınız WG Wallet işlevselliği geri döndüğünde otomatik olarak erişilebilir hale gelecek."
 
 msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
 msgstr "Kiralama Süresini Uzat"
@@ -1596,9 +1584,6 @@ msgstr "%s Araç tamiri başarısız"
 
 msgid "serviceChannelMessages/autoRepairError"
 msgstr "%s aracı tamir edilemedi. Yeterli kredi yok."
-
-msgid "serviceChannelMessages/autoRepairErrorNoWallet"
-msgstr "%s tamir edilemedi. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
 
 msgid "serviceChannelMessages/autoRepairSkipped"
 msgstr "%s otomatik olarak tamir edilemedi. Aracınızı elle tamir edin."

@@ -280,6 +280,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Chassis_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Chassis_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Chassis_G122_VK6501H"
 msgstr "VK 65.01 (H)"
 
@@ -509,7 +512,7 @@ msgid "Chassis_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Chassis_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Chassis_G23_Grille"
 msgstr "Grille"
@@ -549,6 +552,9 @@ msgstr "VK 30.01 (P) verstärkteketten"
 
 msgid "Chassis_G27_VK3001P_2_short"
 msgstr "VK 30.01 (P)\nverstärkteketten"
+
+msgid "Chassis_G28_PzIII_IV"
+msgstr "Pz.Kpfw. III/IV"
 
 msgid "Chassis_G37_Ferdinand"
 msgstr "Ferdinand"
@@ -730,6 +736,9 @@ msgstr "Indien-Panzer"
 msgid "Chassis_G89_Leopard1"
 msgstr "Leopard 1"
 
+msgid "Chassis_G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
 msgid "Chassis_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A1"
 
@@ -892,10 +901,10 @@ msgstr "Continental AOS-895-3"
 msgid "Continental_AOS-895-3_short"
 msgstr "Continental\nAOS-895-3"
 
-msgid "Continental_AVI_1790_8"
+msgid "Continental_AVI_1790_8A"
 msgstr "Continental AVI-1790-8"
 
-msgid "Continental_AVI_1790_8_short"
+msgid "Continental_AVI_1790_8A_short"
 msgstr "Continental\nAVI-1790-8"
 
 msgid "DB_603_A1"
@@ -1548,6 +1557,15 @@ msgstr "En fremragende kanon og god manøvredygtighed"
 
 msgid "G121_Grille_15_L63"
 msgstr "Grille 15"
+
+msgid "G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
+msgid "G121_Grille_15_L63_FR_descr"
+msgstr "I sommeren 1942 indgik Waffenamt (den tyske hærs våbenagentur) en aftale med Krupp og Rheinmetall-fabrikkerne omkring designet af en kampvognsjæger på chassiset af en Panther kampvogn. Det var planlagt at montere enten 128mm K 43 kanonen eller 150mm sFH 43 howitzeren. Projekterne, der blev kaldt Grille 12 og Grille 15, havde mandskabsafdelingen placeret bagtil og afveg kun i artilleriets systemtype. Senere fik Grille 15 en 150mm kanon med en længde på 63 kalibre, som kunne gennembryde 200mm panser på 4.000 meters afstand. Udviklingen gik dog langsomt og Grille 15 eksisterede kun på plantegninger."
+
+msgid "G121_Grille_15_L63_FR_short"
+msgstr "Grille 15 BS"
 
 msgid "G121_Grille_15_L63_descr"
 msgstr "I sommeren 1942 indgik Waffenamt (den tyske hærs våbenagentur) en aftale med Krupp og Rheinmetall fabrikkerne omkring designet af en kampvognsjæger på chassiset af en Panther kampvogn. Det var planlagt at montere enten 128mm K 43 kanonen eller 150mm sFH 43 howitzeren. Projekterne, der blev kaldt Grille 12 og Grille 15, havde mandskabsafdelingen placeret bagtil og afveg kun i artilleriets systemtype. Senere fik Grille 15 en 150mm kanon med en længde på 63 kalibre, som kunne gennembryde 200mm panser på 4.000 meters afstand. Udviklingen gik dog langsomt og Grille 15 eksisterede kun på plantegninger."
@@ -2351,7 +2369,7 @@ msgid "G195_HWK_40_short"
 msgstr "HWK 40"
 
 msgid "G195_HWK_40_short_special"
-msgstr "God mobilitet, nem at håndtere kanon"
+msgstr "Kalibreringssystem til granater, god kanonhåndtering"
 
 msgid "G196_Versuchspanzer_57"
 msgstr "Versuchspanzer 57"
@@ -2399,16 +2417,16 @@ msgid "G200_Chi_Go_short_special"
 msgstr "Udmærket tårnpanser, høj alfa-skade"
 
 msgid "G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_descr"
-msgstr "?empty?"
+msgstr "Pz.Kpfw. VI Ausf.P, bedre kendt som VK 45.01 (P) eller Porsche Tiger, var en af de mest spøjse tyske tunge kampvogne. Den var udstyret med to Typ 101 luftkølede motorer og en elektrisk gearkasse. Den komplekse og upålidelige drivlinje betød at køretøjet aldrig blev sat i masseproduktion, men takket være Oarai Girls' High School, fik den alligevel et nyt liv. Denne kampvogn blev fundet i bunden af skolens skib, og blev restaureret af medlemmer af bilklubben, der senere blev til dens mandskab – Team-Leoponsan. Takket være deres evner med en skruenøgle, fik pigerne ikke blot styr på den temperamentsfulde Porsche Tigers kampklarhed, men de fik også opgraderet den, og udstyret den med hastighedsboost."
 
 msgid "G204_PzVI_Tiger_P_CFE_A_long_special"
-msgstr "VK 45.01 (P) er en tysk niveau VI tung kampvogn med stærkt frontpanser, der på effektiv vis kan modstå standard granater fra medium og tunge kampvogne på samme niveau. Dens kanon har god DPM, samt solid gennembrydning og alfa-skade. Den er langsom, men har et unikt system, der midlertidigt styrker mobiliteten, så den hurtigt kan accelerere til dens tophastighed."
+msgstr "Tiger (P) Leoponsan er en tysk niveau VI tung kampvogn med stærkt frontpanser, der på effektiv vis kan modstå standard granater fra medium og tunge kampvogne på samme niveau. Dens kanon har god DPM, samt solid gennembrydning og alfa-skade. Den er langsom, men har et unikt system, der midlertidigt styrker mobiliteten, så den hurtigt kan nå sin tophastighed."
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leo"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short_special"
 msgstr "Solidt frontpanser, øget mobilitetssystem"
@@ -2787,6 +2805,21 @@ msgstr "Indien-Pz."
 
 msgid "G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_descr"
+msgstr "Den er måske nok mægtig at beskue, men Automaton havde ingen forestillinger om elegance. Den var en kolos med enorme stempler, der knoklede som i en fabrik og en udstødning som fra et støberi. Den var et barn af tiden med store dampmaskiner, men overlevede længe efter de sodsværtede hånder, der havde bygget den, og det blanke stål fra de moderne stålbæster, der falmede før dens storhed. Den brølede i kamp side om side med de nyere motorer, og da det dieseldrevne spektakel til sidst ebbede ud, var der kun den stabile og utrættelige banken fra Automaton tilbage."
+
+msgid "G89_Leopard1_CFE_A_long_special"
+msgstr "Automaton er en tysk niveau X medium kampvogn med en nærmest perfekt kanon. Den har ingen større svagheder, men er glimrende både som skarpskytte og i kvikke peek-and-shoot-træfninger rundt om hjørner. Fremragende mobilitet gør den blot endnu mere effektiv, da den hurtigt kan nå en ny position og påvirke slagets gang."
+
+msgid "G89_Leopard1_CFE_A_short"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_short_special"
+msgstr "Enestående præcision og mobilitet"
 
 msgid "G89_Leopard1_descr"
 msgstr "Primær kampvogn i Forbundsrepublikken Tyskland. Udviklingen startede i 1956. De første prototyper blev bygget i 1965 ved Kraus-Maffei fabrikken. Leopard 1 var i tjeneste i mere end 10 lande."
@@ -3167,6 +3200,12 @@ msgid "MTU_MB_838_CaM_500"
 msgstr "MTU MB 838 CaM-500"
 
 msgid "MTU_MB_838_CaM_500A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A_short"
 msgstr "MTU MB 838 CaM-500A"
 
 msgid "MTU_MB_838_CaM_500A_short"
@@ -3637,6 +3676,9 @@ msgstr "Maybach Neues Projekt A"
 msgid "Maybach_HL_234P60_short"
 msgstr "Maybach Neues Projekt"
 
+msgid "Maybach_HL_234_FR"
+msgstr "Maybach HL 234"
+
 msgid "Maybach_HL_234_TRM_P30"
 msgstr "Maybach HL 234 TRM P30"
 
@@ -3934,9 +3976,6 @@ msgstr "Pz. 38 (t)"
 msgid "PzI"
 msgstr "Pz.Kpfw. I"
 
-msgid "PzIII-IV"
-msgstr "Pz.Kpfw. III/IV"
-
 msgid "PzIII-IV_ausf_B"
 msgstr "Pz.Kpfw. III/IV verstärkteketten"
 
@@ -4225,6 +4264,9 @@ msgstr "SEM 25"
 msgid "SEM25_1"
 msgstr "SEM 25A"
 
+msgid "SEM25_1_CFE_A"
+msgstr "SEM 25A"
+
 msgid "SEM_25A"
 msgstr "SEM 25A"
 
@@ -4489,6 +4531,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Turret_1_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Turret_1_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Turret_1_G122_VK6501H"
 msgstr "VK 65.01 (H) S.W."
 
@@ -4688,7 +4733,7 @@ msgid "Turret_1_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Turret_1_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P) Turm"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Turret_1_G23_Grille"
 msgstr "Grille"
@@ -4797,6 +4842,9 @@ msgstr "Indien-Panzer"
 
 msgid "Turret_1_G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "Turret_1_G89_Leopard1_CFE_A"
+msgstr "Automaton"
 
 msgid "Turret_1_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A2"
@@ -5170,11 +5218,17 @@ msgstr "10,5 cm Bordkanone L7"
 msgid "_105mm_Bordkanone_L7A3"
 msgstr "10,5 cm Bordkanone L7A3"
 
+msgid "_105mm_Bordkanone_L7A3_CFE_A"
+msgstr "10,5 cm Bordkanone L7A3"
+
 msgid "_105mm_DM11"
 msgstr "DM11"
 
 msgid "_105mm_DM11_A"
 msgstr "DM11 (A)"
+
+msgid "_105mm_DM11_CFE_A"
+msgstr "DM11"
 
 msgid "_105mm_DM11_Kurz"
 msgstr "DM11 Kurz"
@@ -5215,6 +5269,9 @@ msgstr "DM13-20"
 msgid "_105mm_DM13_A"
 msgstr "DM13 (A)"
 
+msgid "_105mm_DM13_CFE_A"
+msgstr "DM13"
+
 msgid "_105mm_DM13_Kurz"
 msgstr "DM13 Kurz"
 
@@ -5229,6 +5286,9 @@ msgstr "DM23"
 
 msgid "_105mm_DM23_A"
 msgstr "DM23 (A)"
+
+msgid "_105mm_DM23_CFE_A"
+msgstr "DM23"
 
 msgid "_105mm_DM502"
 msgstr "DM502"
@@ -5374,9 +5434,6 @@ msgstr "Pzgr 39 LV"
 msgid "_105mm_PzGrRot"
 msgstr "PzGr rot"
 
-msgid "_105mm_Pzgr.40"
-msgstr "Pzgr 40"
-
 msgid "_105mm_Pzgr.40L1"
 msgstr "Pzgr 40 L1"
 
@@ -5427,6 +5484,9 @@ msgstr "Pzgr. 40 (180B)"
 
 msgid "_105mm_Pzgr_40_45"
 msgstr "Pzgr. 40/45"
+
+msgid "_105mm_Pzgr_40_A"
+msgstr "Pzgr 40"
 
 msgid "_105mm_Pzgr_40_E"
 msgstr "Pzgr. 40 E"
@@ -5535,6 +5595,9 @@ msgstr "10WSc"
 
 msgid "_10WSc_CFE_T"
 msgstr "10WSc T"
+
+msgid "_10WSc_FR"
+msgstr "10WSc"
 
 msgid "_10WSc_P"
 msgstr "10WSc P"
@@ -6133,6 +6196,9 @@ msgstr "Gr. 44 Hl/A"
 msgid "_150mm_Gr_HL"
 msgstr "Gr. HL"
 
+msgid "_150mm_Gr_HL_FR"
+msgstr "Gr. HL"
+
 msgid "_150mm_Gr_Hl_A"
 msgstr "Gr. Hl/A"
 
@@ -6155,6 +6221,9 @@ msgid "_150mm_Pak_L_44"
 msgstr "15 cm Pak L/44"
 
 msgid "_150mm_Pak_L_63"
+msgstr "15 cm Pak L/63"
+
+msgid "_150mm_Pak_L_63_FR"
 msgstr "15 cm Pak L/63"
 
 msgid "_150mm_PzGr39H2_SH"
@@ -6181,6 +6250,9 @@ msgstr "Pzgr. 42 (WT IV) T"
 msgid "_150mm_Pzgr_44"
 msgstr "Pzgr. 44"
 
+msgid "_150mm_Pzgr_FR"
+msgstr "Pzgr."
+
 msgid "_150mm_Pzgr_m_Hb"
 msgstr "Pzgr. (m.Hb)"
 
@@ -6204,6 +6276,9 @@ msgstr "Sprgr. 18 (Grille)"
 
 msgid "_150mm_Sprgr_36"
 msgstr "Sprgr. 36"
+
+msgid "_150mm_Sprgr_FR"
+msgstr "Sprgr."
 
 msgid "_150mm_Sprgr_G"
 msgstr "Sprgr. G"

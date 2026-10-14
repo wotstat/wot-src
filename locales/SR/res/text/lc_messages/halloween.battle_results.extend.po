@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, trajanje: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "Normalna težina"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "Velika težina"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "Noćna mora težina"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "Vavilonska anomalija - {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "Vreme ponovnog ulaska u borbu: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "Neprihvatljive performanse: neaktivnost/dezerterstvo.\nNagrada nije primljena."
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "Tvoj tim nije uspeo: prva faza nije završena.\nNagrada nije primljena."
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s."
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s."
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)."
+
+msgid "hw_battle_result/status/lose"
+msgstr "BORBA JE ZAVRŠENA"
+
+msgid "hw_battle_result/status/win"
+msgstr "POBEDA"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "Bitka je gotova"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "Tama je razbijena! Sjajna timska igra!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "BORBA JE ZAVRŠENA"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "%(phaseNumber)s FAZA ZAVRŠENA"
+msgstr[1] "%(phaseNumber)s FAZA ZAVRŠENO"
+msgstr[2] "%(phaseNumber)s FAZA ZAVRŠENO"
+
+msgid "hw_battle_result/title/win"
+msgstr "BOS JE POBEĐEN"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "Sva saveznička vozila su uništena."
+
+msgid "hw_finish/reason/3/lose"
+msgstr "Vreme je isteklo."
+
+msgid "hw_finish/reason/5/lose"
+msgstr "Svi saveznici su napustili borbu."
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "Put do Mračnog tornja je sada slobodan."
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "O da, uspeli smo!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "naterali smo ga na povlačenje, ali nije gotovo."
+
+msgid "teamList/actions"
+msgstr "Brze akcije"
+
+msgid "teamList/teammates"
+msgstr "Saveznici"

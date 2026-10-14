@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, διάρκεια: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "Κανονική Δυσκολία"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "Μεγάλη Δυσκολία"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "Μέγιστη Δυσκολία"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "Babylon Anomaly – {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "Επανεκκινήσεις: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "Απαράδεκτη επίδοση: αδράνεια ή λιποταξία.\nΔεν απονεμήθηκαν έπαθλα."
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "Η ομάδα σας απέτυχε: η 1η Φάση δεν ολοκληρώθηκε.\nΔεν απονεμήθηκαν έπαθλα."
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s."
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s."
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)."
+
+msgid "hw_battle_result/status/lose"
+msgstr "ΤΕΛΟΣ ΜΑΧΗΣ"
+
+msgid "hw_battle_result/status/win"
+msgstr "ΝΙΚΗ"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "Η Μάχη Τελείωσε"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "Το σκοτάδι νικήθηκε! Μπράβο στην ομάδα!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "ΤΕΛΟΣ ΜΑΧΗΣ"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "%(phaseNumber)s ΦΑΣΗ ΟΛΟΚΛΗΡΩΘΗΚΕ"
+msgstr[1] "%(phaseNumber)s ΦΑΣΕΙΣ ΟΛΟΚΛΗΡΩΘΗΚΑΝ"
+msgstr[2] "%(phaseNumber)s ΦΑΣΕΙΣ ΟΛΟΚΛΗΡΩΘΗΚΑΝ"
+
+msgid "hw_battle_result/title/win"
+msgstr "ΤΟ BOSS ΝΙΚΗΘΗΚΕ"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "Όλα τα οχήματα της ομάδας καταστράφηκαν."
+
+msgid "hw_finish/reason/3/lose"
+msgstr "Λήξη χρόνου."
+
+msgid "hw_finish/reason/5/lose"
+msgstr "Όλοι οι συμπαίκτες αποχώρησαν από τη μάχη."
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "Ο δρόμος προς το Dark Tower είναι πλέον ανοικτός."
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "Ναι, τα καταφέραμε!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "Το αναγκάσαμε να υποχωρήσει, αλλά η μάχη συνεχίζεται."
+
+msgid "teamList/actions"
+msgstr "Γρήγορες Ενέργειες"
+
+msgid "teamList/teammates"
+msgstr "Συμπαίκτες"

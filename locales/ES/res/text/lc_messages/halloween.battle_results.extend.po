@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, duración: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "Dificultad Normal"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "Dificultad Difícil"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "Dificultad Infernal"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "Anomalía de Babylon: {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "Reapariciones: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "Actuación inaceptable: inacción/deserción.\nNo recibes recompensas."
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "Tu equipo ha fracasado: no se completó la primera fase.\nNo recibes recompensas."
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s."
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s."
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)."
+
+msgid "hw_battle_result/status/lose"
+msgstr "BATALLA TERMINADA"
+
+msgid "hw_battle_result/status/win"
+msgstr "VICTORIA"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "Acabó la batalla"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "¡La oscuridad se disipa! ¡Excelente trabajo en equipo!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "BATALLA TERMINADA"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "%(phaseNumber)s FASE COMPLETADA"
+msgstr[1] "%(phaseNumber)s FASES COMPLETADAS"
+msgstr[2] "%(phaseNumber)s FASES COMPLETADAS"
+
+msgid "hw_battle_result/title/win"
+msgstr "JEFE DERROTADO"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "Todos los vehículos aliados han sido destruidos."
+
+msgid "hw_finish/reason/3/lose"
+msgstr "Se ha acabado el tiempo."
+
+msgid "hw_finish/reason/5/lose"
+msgstr "Todos los aliados han abandonado la batalla."
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "El camino hacia la Torre oscura ya está despejado."
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "¡Sí, lo hemos logrado!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "Lo hemos obligado a retirarse, pero esto no ha terminado."
+
+msgid "teamList/actions"
+msgstr "Acciones rápidas"
+
+msgid "teamList/teammates"
+msgstr "Aliados"

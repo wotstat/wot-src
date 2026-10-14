@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Tillbaka till kistor"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Du är garanterad en Premiumvagn klass&zwnbsp;VIII–IX för varje %(gua
 msgid "infoPage/header/description"
 msgstr "Öppna kistan för en chans att få värdefullt spelinnehåll! Läs mer nedan."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Från %(name) (%(boxesCount) kistor öppnade)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Du har inga kistor.\nDu kan skaffa dem i affären i spelet."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Tillgängliga kistor: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Inga kistor tillgängliga"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Om du redan äger alla vagnar i listan över möjligt innehåll kommer alla vagnar du får från kistor kompenseras med respektive värde i guld."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) kista"
 msgstr[1] "%(remainingCount) kistor"
 msgstr[2] "%(remainingCount) kistor"
 
-msgid "singleRewardView/tooltip/subtitle/"
-msgstr "Den garanterade belöningen är en vagn från listan över möjligt innehåll.\nOm du öppnar %(remainingCount) utan att få en vagn från listan kommer du få en när du öppnar den %(count) kistan. Därefter återställs räkningen."
+msgid "singleRewardView/tooltip/subtitle"
+msgstr "Den garanterade belöningen är en vagn från listan över möjligt innehåll.\nOm du öppnar %(remainingCount) utan att få en vagn från listan kommer du få en när du öppnar den %(count):e kistan. Därefter återställs räkningen."

@@ -10,6 +10,9 @@ msgstr "Låter dig avfyra en serie granater från magasinet, en efter en, där v
 msgid "abilities/common/description/autoShootGun"
 msgstr "Avfyrar snabba salvor av granater som åsamkar stor skada på kort tid, på bekostnad av genomslag och träffsäkerhet. Effektivast på kort håll."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Aktivera stridsgasreglaget för en tillfällig ökning av motorstyrka, hastighet och manöverförmåga, samtidigt som kanonstabiliteten bibehålls. Det låter dig spela snabbt och rörligt utan att tumma på stridsförmågan."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Avfyrar stjärnflänsprojektiler som har störst skadeverkan inom 50 m håll. Skadeverkan minskar med avståndet, vilket gör dem mest effektiva i närstrid."
 
@@ -61,6 +64,9 @@ msgstr "Förbättrad automatladdare"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Automatkanon"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Stridsgasrelgage"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Djupräfflad kanon"
 
@@ -102,6 +108,15 @@ msgstr "Turboläge"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Salveld"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Ökar manöverförmågan utan att påverka kanonhanteringen."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Systemet låter kanonen ge kontinuerlig eld utan omladdning och kontrollerar hur kanonen genererar värme vid eldgivning."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Kanonen har särskilda anordningar som gör det möjligt att ändra vissa granatparametrar före eldgivning."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "När du står still, eller rör dig långsamt, bygger du upp din precision i nivåer som ökar träffsäkerheten för nästa skott.\nVid maximal precisionsnivå har du förbättrad kanonhantering med mindre siktesspridning även under rörelse eller skrov/tornrotation."
@@ -355,6 +370,15 @@ msgstr "Låter dig avfyra båda pjäserna samtidigt på bekostnad av ökad omlad
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "En specialmekanik som ökar motorstyrka, accelerationsförmåga och topphastighet under en kort tid."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Aktivera stridsgasreglaget för en tillfällig ökning av motorstyrka, hastighet och manöverförmåga, samtidigt som kanonstabiliteten bibehålls. Det låter dig spela snabbt och rörligt utan att tumma på stridsförmågan."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Kanonen kan avfyras kontinuerligt utan omladdning. Varje skott genererar värmde: ju högre temperatur, desto mer påverkas egenskapsvärdena. Ihållande eld överhettar kanonen och orsakar eldavbrott tills den kylts ned."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Vagnens kanon har särskilda anordningar som gör det möjligt att ändra vissa granatparametrar före eldgivning. Du kan se på ammunitionen vilka parametrar som påverkas av de olika lägena."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Om du står still eller rör under en viss hastighet så kalibreras vagnens analoga eldriktningssystem, vilket ökar precisionsnivån och träffsäkerheten för nästa skott. Om du överskrider hastighetsgränsen pausas kalibreringen tills du saktar ned igen. Vid maximal precisionsnivå har du nästan perfekt kanonhantering med minimal siktesspridning även under rörelse eller skrov/tornrotation. Effekten upphör när du ger eld."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Den här mekaniska överväxeln ökar avsevärt accelerationsförmåga, motorstyrka och topphastighet, både framåt och bakåt, under en kort tid så du kan reagera snabbt på fiendens anfall och överraska motståndaren med dynamiska manövrer. Bibehållen hög hastighet ökar nedkylningstakten."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Alla värden är de högsta möjliga för vagnen. Utrustning, anvisningar och förnödenheter kan ändra värdena, men det visas inte här."
+msgstr "Alla värden är de bästa möjliga för vagnen. Utrustning, anvisningar och förnödenheter kan ändra värdena, men det visas inte här."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "kalibrerbar pansarprojektil"

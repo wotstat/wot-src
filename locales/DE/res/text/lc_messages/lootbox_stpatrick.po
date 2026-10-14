@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Zurück zu den Kisten"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Spätestens jede %(guaranteed0)s. Kiste enthält garantiert ein Fahrzeu
 msgid "infoPage/header/description"
 msgstr "Öffnen Sie die Kiste für eine Chance auf wertvolle Spielgegenstände! Weitere Details finden Sie unten."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Aus %(name) (%(boxesCount) Kisten geöffnet)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Sie haben keine Kisten.\nSie können diese im Nachschub erhalten."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Verfügbare Kisten: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Keine Kisten verfügbar"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Wenn Sie bereits alle Fahrzeuge von der Liste der möglichen Inhalte der Kiste besitzen, werden alle folgenden Fahrzeuge, die Sie aus den Kisten erhalten, in Gold vergütet."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) Kiste"
 msgstr[1] "%(remainingCount) Kisten"
 msgstr[2] "%(remainingCount) Kisten"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Die garantierte Belohnung ist ein Fahrzeug von der Liste der möglichen Inhalte der Kiste.\nWenn Sie %(remainingCount) Kisten öffnen, ohne ein solches Fahrzeug zu erhalten, ist es garantiert in der %(count). Kiste enthalten. Der Zähler wird durch den Erhalt zurückgesetzt."

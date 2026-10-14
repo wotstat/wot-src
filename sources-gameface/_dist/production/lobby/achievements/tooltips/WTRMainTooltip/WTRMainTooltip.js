@@ -849,6 +849,11 @@
           const C = F().useRef(null);
           var l;
           return (
+            (0, E.useLayoutEffect)(() => {
+              const u = D.O.client.getSize("rem");
+              ((document.body.style.width = `${u.width}rem`),
+                (document.body.style.height = `${u.height}rem`));
+            }, []),
             (l = () => {
               const u = C.current;
               if (!u)
@@ -858,7 +863,9 @@
               const e = new ResizeObserver(() => {
                 const e = u.scrollWidth,
                   t = u.scrollHeight;
-                D.O.view.resize(e, t);
+                (D.O.view.resize(e, t),
+                  (document.body.style.width = `${e}px`),
+                  (document.body.style.height = `${t}px`));
                 const E = window.getComputedStyle(u);
                 D.O.view.setSidePaddingsRem({
                   left: parseInt(E.getPropertyValue("padding-left"), 10),
@@ -1253,7 +1260,7 @@
             /(?:%\(|{)\w*(?:_[Oo]pen|Start)(?:\)s|})?(.*?)(?:%\(|{)\w*(?:_[Cc]lose|End)(?:\)s|})?/g,
           q = /(?<=(?:%\(|{))(.*?)(?=(?:_[Oo]pen|Start))/,
           z = /(?<=(?:_[Oo]pen|Start)(?:\)s?|}))(.*?)(?=(?:%\(|{))/,
-          j = (0, E.memo)(({ text: u, binding: e, classMix: t }) => {
+          $ = (0, E.memo)(({ text: u, binding: e, classMix: t }) => {
             const A = (0, E.useCallback)((u) => ({ color: `#${u}` }), []),
               n = (0, E.useMemo)(() => e || {}, [e]);
             let r = V.exec(u),
@@ -1284,8 +1291,8 @@
             }
             return F().createElement(W, { text: a, classMix: t, binding: n });
           }),
-          G = "Description_description_ba5ea",
-          $ = "Description_requiredBattles_f8f92",
+          j = "Description_description_ba5ea",
+          G = "Description_requiredBattles_f8f92",
           H = "Description_remaining_d037f",
           K = R.strings.achievements_page.tooltips.WTR.rating,
           Y = ({
@@ -1307,28 +1314,28 @@
                       F().Fragment,
                       null,
                       F().createElement(W, {
-                        classMix: G,
+                        classMix: j,
                         text: K.description.currentLevel(),
                         binding: { level: T(K.levels.$dyn(`level_${E}`), { level: (0, I.HG)(A) }) },
                       }),
                       F().createElement("div", { className: H }, K.description.maximum()),
                     );
                   case !n:
-                    return F().createElement(j, {
-                      classMix: G,
+                    return F().createElement($, {
+                      classMix: j,
                       text: K.description.base(),
-                      binding: { amount: F().createElement("div", { className: $ }, u) },
+                      binding: { amount: F().createElement("div", { className: G }, u) },
                     });
                   case void 0 !== e:
                     return F().createElement(
                       F().Fragment,
                       null,
                       F().createElement(W, {
-                        classMix: G,
+                        classMix: j,
                         text: K.description.currentLevel(),
                         binding: { level: T(K.levels.$dyn(`level_${E}`), { level: (0, I.HG)(A) }) },
                       }),
-                      F().createElement(j, {
+                      F().createElement($, {
                         classMix: H,
                         text: K.description.remaining(),
                         binding: { point: r },

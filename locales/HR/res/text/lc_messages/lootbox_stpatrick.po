@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Nazad na škrinje"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Svaka %(guaranteed0)s škrinja jamačno sadrži vozilo razine VIII-IX. A
 msgid "infoPage/header/description"
 msgstr "Otvorite škrinju za priliku primitka vrijednih predmeta u igri! Pogledajte više detalja ispod."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Od %(name) (otvoreno %(boxesCount) škrinja)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Nemate nijednu škrinju. \nMožete ih uzeti u prodavaonici u igri."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Dostupno škrinja: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Nema dostupnih škrinja"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Ako već imate sva vozila razine sa spiska mogućeg sadržaja škrinje, sva slijedeća vozila koja dobijete iz škrinja će biti kompenzirana zlatom."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) škrinja"
 msgstr[1] "%(remainingCount) škrinje"
 msgstr[2] "%(remainingCount) škrinja"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Zajamčena nagrada je vozilo sa spiska mogućeg sadržaja škrinje.\nAko otvorite %(remainingCount) bez primitka takvog vozila, dobit ćete ga kada otvorite %(count) škrinju. Kada ga dobijete, brojač se poništava."

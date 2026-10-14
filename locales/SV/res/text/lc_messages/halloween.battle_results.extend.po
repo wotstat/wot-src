@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, längd: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "Svårighetsgrad Normal"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "Svårighetsgrad Svår"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "Svårighetsgrad Mardröm"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "Babylon-anomalin – {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "Insatser: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "Oacceptabelt uppträdande: inaktivitet/desertering.\nIngen belöning mottagen."
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "Laget misslyckades: första fasen slutfördes inte.\nIngen belöning mottagen."
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s."
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s."
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)."
+
+msgid "hw_battle_result/status/lose"
+msgstr "STRIDEN ÖVER"
+
+msgid "hw_battle_result/status/win"
+msgstr "SEGER"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "Striden slut"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "Mörkret har skingrats! Bra lagarbete!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "STRIDEN ÖVER"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "%(phaseNumber)s FAS SLUTFÖRD"
+msgstr[1] "%(phaseNumber)s FASER SLUTFÖRDA"
+msgstr[2] "%(phaseNumber)s FASER SLUTFÖRDA"
+
+msgid "hw_battle_result/title/win"
+msgstr "BOSSEN BESEGRAD"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "Alla allierade vagnar för förstörts."
+
+msgid "hw_finish/reason/3/lose"
+msgstr "Tiden är ute."
+
+msgid "hw_finish/reason/5/lose"
+msgstr "Alla allierade har lämnat striden."
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "Vägen till det Mörka tornet är fri nu."
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "Ja, vi klarade det!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "Vi tvingade den tillbaka, men det är inte över än."
+
+msgid "teamList/actions"
+msgstr "Snabbkommandon"
+
+msgid "teamList/teammates"
+msgstr "Allierade"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Tilbake til esker"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Hver %(guaranteed0)s. eske garanteres å inneholde et kjøretøy på niv
 msgid "infoPage/header/description"
 msgstr "Åpne esken for sjansen til å få verdifulle enheter til bruk i spillet! Se flere detaljer under."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Fra %(name) (%(boxesCount) åpnede esker)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Du har ingen esker.\nDu kan få dem i butikken i spillet."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Tilgjengelige esker: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Ingen tilgjengelige esker"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Dersom du allerede eier alle kjøretøyene fra listen over mulig innhold i eskene, vil alle påfølgende kjøretøy du får fra eskene bli kompensert med gull."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) eske"
 msgstr[1] "%(remainingCount) esker"
 msgstr[2] "%(remainingCount) esker"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Den garanterte belønningen er et kjøretøy fra listen over mulig innhold i eskene.\nDersom du åpner %(remainingCount) uten å få et slikt kjøretøy, får du den når du åpner den %(count). esken. Når den gjør det, nullstilles telleren."

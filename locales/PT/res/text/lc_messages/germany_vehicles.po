@@ -280,6 +280,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Chassis_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Chassis_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Chassis_G122_VK6501H"
 msgstr "VK 65.01 (H)"
 
@@ -509,7 +512,7 @@ msgid "Chassis_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Chassis_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Chassis_G23_Grille"
 msgstr "Grille"
@@ -549,6 +552,9 @@ msgstr "VK 30.01 (P) verstärkteketten"
 
 msgid "Chassis_G27_VK3001P_2_short"
 msgstr "VK 30.01 (P)\nverstärkteketten"
+
+msgid "Chassis_G28_PzIII_IV"
+msgstr "Pz.Kpfw. III/IV"
 
 msgid "Chassis_G37_Ferdinand"
 msgstr "Ferdinand"
@@ -730,6 +736,9 @@ msgstr "Indien-Panzer"
 msgid "Chassis_G89_Leopard1"
 msgstr "Leopard 1"
 
+msgid "Chassis_G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
 msgid "Chassis_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A1"
 
@@ -892,10 +901,10 @@ msgstr "Continental AOS-895-3"
 msgid "Continental_AOS-895-3_short"
 msgstr "Continental\nAOS-895-3"
 
-msgid "Continental_AVI_1790_8"
+msgid "Continental_AVI_1790_8A"
 msgstr "Continental AVI-1790-8"
 
-msgid "Continental_AVI_1790_8_short"
+msgid "Continental_AVI_1790_8A_short"
 msgstr "Continental\nAVI-1790-8"
 
 msgid "DB_603_A1"
@@ -1548,6 +1557,15 @@ msgstr "Uma excelente arma e boa manobrabilidade"
 
 msgid "G121_Grille_15_L63"
 msgstr "Grille 15"
+
+msgid "G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
+msgid "G121_Grille_15_L63_FR_descr"
+msgstr "No Verão de 1942, Waffenamt (a Agência de Armamento do Exército Alemão) concluiu um acordo com as empresas Krupp e Rheinmetall para conceberem um antitanque com base no chassis do tanque Panther. Foi planeado montar a arma 128 mm K 43 ou a howitzer 150 mm sFH 43. Os projectos foram designados Grille 12 e Grille 15, com a colocação do compartimento de combate na traseira e apenas diferiam no tipo de sistema de artilharia. Mais tarde, o Grille 15 recebeu uma arma de 150 mm com um comprimento de 63 calibres, a qual conseguia penetrar blindagens de 200 mm a 4.000 metros. No entanto, o desenvolvimento era lento, e o Grille 15 ficou apenas em projecto."
+
+msgid "G121_Grille_15_L63_FR_short"
+msgstr "Grille 15 BS"
 
 msgid "G121_Grille_15_L63_descr"
 msgstr "No Verão de 1942, Waffenamt (a Agência de Armamento do Exército Alemão) concluiu um acordo com as empresas Krupp e Rheinmetall para conceberem um antitanque com base no chassis do tanque Panther. Foi planeado montar a arma 128 mm K 43 ou a howitzer 150 mm sFH 43. Os projectos foram designados Grille 12 e Grille 15, com a colocação do compartimento de combate na traseira e apenas diferiam no tipo de sistema de artilharia. Mais tarde, o Grille 15 recebeu uma arma de 150 mm com um comprimento de 63 calibres, a qual conseguia penetrar blindagens de 200 mm a 4.000 metros. No entanto, o desenvolvimento era lento, e o Grille 15 ficou apenas em projecto."
@@ -2351,7 +2369,7 @@ msgid "G195_HWK_40_short"
 msgstr "HWK 40"
 
 msgid "G195_HWK_40_short_special"
-msgstr "Boa mobilidade, arma fácil de manusear"
+msgstr "Sistema de calibração de munições, arma de fácil manuseamento"
 
 msgid "G196_Versuchspanzer_57"
 msgstr "Versuchspanzer 57"
@@ -2399,16 +2417,16 @@ msgid "G200_Chi_Go_short_special"
 msgstr "Torre blindada decente, alfa alto"
 
 msgid "G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_descr"
-msgstr "?empty?"
+msgstr "O Pz.Kpfw. VI Ausf.P, mais conhecido como VK 45.01 (P) ou Porsche Tiger, foi um dos tanques pesados Alemães mais peculiares. Estava equipado com dois motores Typ 101 arrefecidos a ar e uma transmissão elétrica. A unidade de potência complexa e pouco fiável fez com que o veículo nunca fosse produzido em série, mas, graças ao Liceu Feminino Oarai, conseguiu ganhar uma segunda vida. Este tanque foi encontrado no porão do navio-escola e foi restaurado pelas alunas do clube automóvel, que mais tarde se tornaram a sua tripulação — a Equipa Leoponsan. Graças às suas competências de engenharia, as raparigas não só mantiveram a prontidão de combate do temperamental Porsche Tiger, como também o melhoraram, equipando-o com dispositivos para curtas acelerações."
 
 msgid "G204_PzVI_Tiger_P_CFE_A_long_special"
-msgstr "O VK 45.01(P) é um tanque pesado Alemão de Nível VI com uma blindagem frontal robusta, capaz de resistir em segurança a projéteis padrão de tanques médios e pesados ​​do mesmo nível. A sua arma oferece um bom dano por minuto (DPM), bem como penetração e dano alfa sólidos. Apesar de lento, possui um sistema exclusivo que aumenta temporariamente a sua mobilidade, permitindo-lhe acelerar rapidamente até à velocidade máxima."
+msgstr "O Tiger (P) Leoponsan é um tanque pesado Alemão de Nível VI com uma blindagem frontal robusta, capaz de resistir com eficácia aos projéteis padrão de tanques médios e pesados do mesmo nível. A sua arma oferece um bom DPM, além de uma penetração sólida e dano alfa elevado. Apesar de ser lento, dispõe de um sistema único que aumenta temporariamente a mobilidade, permitindo-lhe atingir rapidamente a velocidade máxima."
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short"
-msgstr "VK 45.01 (P)"
+msgstr "Tiger (P) Leo"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short_special"
 msgstr "Blindagem frontal sólida, sistema de melhoria de mobilidade"
@@ -2787,6 +2805,21 @@ msgstr "Indien-Pz."
 
 msgid "G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "G89_Leopard1_CFE_A"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_descr"
+msgstr "Apesar de maravilhoso de se contemplar, o Autómato não tinha pretensões de elegância. Era um monstro de força bruta, com pistões a martelar como prensas de fábrica e respiradouros de exaustão a tossir como uma fundição. Nascido da grande era do vapor, sobreviveu às mãos manchadas de fuligem que o forjaram e ofuscou as carcaças de aço da guerra moderna, que empalideciam perante a sua grandeza mecânica. Entrou em ação ao lado dos motores mais recentes e, quando a cacofonia da batalha alimentada a gasóleo finalmente se acalmou, só restava o ruído constante e incansável do Automaton."
+
+msgid "G89_Leopard1_CFE_A_long_special"
+msgstr "O Automaton é um tanque médio Alemão de Nível X com características de arma quase perfeitas. Sem fraquezas notáveis, destaca-se tanto em combate de longo alcance como em confrontos rápidos de espreitar e disparar ao virar de esquinas. A excelente mobilidade aumenta ainda mais a sua eficácia, permitindo um reposicionamento rápido e influência em qualquer parte do campo de batalha."
+
+msgid "G89_Leopard1_CFE_A_short"
+msgstr "Automaton"
+
+msgid "G89_Leopard1_CFE_A_short_special"
+msgstr "Precisão excecional, mobilidade extraordinária"
 
 msgid "G89_Leopard1_descr"
 msgstr "Tanque de combate principal da República Federal da Alemanha. O seu desenvolvimento começou em 1956. Os primeiros protótipos foram construídos em 1965 na fábrica Krauss-Maffei. O Leopard 1 esteve ao serviço em mais de 10 países."
@@ -3167,6 +3200,12 @@ msgid "MTU_MB_838_CaM_500"
 msgstr "MTU MB 838 CaM-500"
 
 msgid "MTU_MB_838_CaM_500A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A"
+msgstr "MTU MB 838 CaM-500A"
+
+msgid "MTU_MB_838_CaM_500A_CFE_A_short"
 msgstr "MTU MB 838 CaM-500A"
 
 msgid "MTU_MB_838_CaM_500A_short"
@@ -3637,6 +3676,9 @@ msgstr "Maybach Neues Projekt A"
 msgid "Maybach_HL_234P60_short"
 msgstr "Maybach Neues Projekt"
 
+msgid "Maybach_HL_234_FR"
+msgstr "Maybach HL 234"
+
 msgid "Maybach_HL_234_TRM_P30"
 msgstr "Maybach HL 234 TRM P30"
 
@@ -3934,9 +3976,6 @@ msgstr "Pz. 38 (t)"
 msgid "PzI"
 msgstr "Pz.Kpfw. I"
 
-msgid "PzIII-IV"
-msgstr "Pz.Kpfw. III/IV"
-
 msgid "PzIII-IV_ausf_B"
 msgstr "Pz.Kpfw. III/IV verstärkteketten"
 
@@ -4225,6 +4264,9 @@ msgstr "SEM 25"
 msgid "SEM25_1"
 msgstr "SEM 25A"
 
+msgid "SEM25_1_CFE_A"
+msgstr "SEM 25A"
+
 msgid "SEM_25A"
 msgstr "SEM 25A"
 
@@ -4489,6 +4531,9 @@ msgstr "leKpz M 41 90 mm"
 msgid "Turret_1_G121_Grille_15_L63"
 msgstr "Grille 15"
 
+msgid "Turret_1_G121_Grille_15_L63_FR"
+msgstr "Grille 15 BS"
+
 msgid "Turret_1_G122_VK6501H"
 msgstr "VK 65.01 (H) S.W."
 
@@ -4688,7 +4733,7 @@ msgid "Turret_1_G200_Chi_Go"
 msgstr "Chi-Go"
 
 msgid "Turret_1_G204_PzVI_Tiger_P_CFE_A"
-msgstr "VK 45.01 (P) Turm"
+msgstr "Tiger (P) Leoponsan"
 
 msgid "Turret_1_G23_Grille"
 msgstr "Grille"
@@ -4797,6 +4842,9 @@ msgstr "Indien-Panzer"
 
 msgid "Turret_1_G89_Leopard1"
 msgstr "Leopard 1"
+
+msgid "Turret_1_G89_Leopard1_CFE_A"
+msgstr "Automaton"
 
 msgid "Turret_1_G91_Pro_Ag_A"
 msgstr "Leopard Prototyp A2"
@@ -5170,11 +5218,17 @@ msgstr "10,5 cm Bordkanone L7"
 msgid "_105mm_Bordkanone_L7A3"
 msgstr "10,5 cm Bordkanone L7A3"
 
+msgid "_105mm_Bordkanone_L7A3_CFE_A"
+msgstr "10,5 cm Bordkanone L7A3"
+
 msgid "_105mm_DM11"
 msgstr "DM11"
 
 msgid "_105mm_DM11_A"
 msgstr "DM11 (A)"
+
+msgid "_105mm_DM11_CFE_A"
+msgstr "DM11"
 
 msgid "_105mm_DM11_Kurz"
 msgstr "DM11 Kurz"
@@ -5215,6 +5269,9 @@ msgstr "DM13-20"
 msgid "_105mm_DM13_A"
 msgstr "DM13 (A)"
 
+msgid "_105mm_DM13_CFE_A"
+msgstr "DM13"
+
 msgid "_105mm_DM13_Kurz"
 msgstr "DM13 Kurz"
 
@@ -5229,6 +5286,9 @@ msgstr "DM23"
 
 msgid "_105mm_DM23_A"
 msgstr "DM23 (A)"
+
+msgid "_105mm_DM23_CFE_A"
+msgstr "DM23"
 
 msgid "_105mm_DM502"
 msgstr "DM502"
@@ -5374,9 +5434,6 @@ msgstr "Pzgr 39 LV"
 msgid "_105mm_PzGrRot"
 msgstr "PzGr rot"
 
-msgid "_105mm_Pzgr.40"
-msgstr "Pzgr 40"
-
 msgid "_105mm_Pzgr.40L1"
 msgstr "Pzgr 40 L1"
 
@@ -5427,6 +5484,9 @@ msgstr "Pzgr. 40 (180B)"
 
 msgid "_105mm_Pzgr_40_45"
 msgstr "Pzgr. 40/45"
+
+msgid "_105mm_Pzgr_40_A"
+msgstr "Pzgr 40"
 
 msgid "_105mm_Pzgr_40_E"
 msgstr "Pzgr. 40 E"
@@ -5535,6 +5595,9 @@ msgstr "10WSc"
 
 msgid "_10WSc_CFE_T"
 msgstr "10WSc T"
+
+msgid "_10WSc_FR"
+msgstr "10WSc"
 
 msgid "_10WSc_P"
 msgstr "10WSc P"
@@ -6133,6 +6196,9 @@ msgstr "Gr. 44 Hl/A"
 msgid "_150mm_Gr_HL"
 msgstr "Gr. HL"
 
+msgid "_150mm_Gr_HL_FR"
+msgstr "Gr. HL"
+
 msgid "_150mm_Gr_Hl_A"
 msgstr "Gr. Hl/A"
 
@@ -6155,6 +6221,9 @@ msgid "_150mm_Pak_L_44"
 msgstr "15 cm Pak L/44"
 
 msgid "_150mm_Pak_L_63"
+msgstr "15 cm Pak L/63"
+
+msgid "_150mm_Pak_L_63_FR"
 msgstr "15 cm Pak L/63"
 
 msgid "_150mm_PzGr39H2_SH"
@@ -6181,6 +6250,9 @@ msgstr "Pzgr. 42 (WT IV) T"
 msgid "_150mm_Pzgr_44"
 msgstr "Pzgr. 44"
 
+msgid "_150mm_Pzgr_FR"
+msgstr "Pzgr."
+
 msgid "_150mm_Pzgr_m_Hb"
 msgstr "Pzgr. (m.Hb)"
 
@@ -6204,6 +6276,9 @@ msgstr "Sprgr. 18 (Grille)"
 
 msgid "_150mm_Sprgr_36"
 msgstr "Sprgr. 36"
+
+msgid "_150mm_Sprgr_FR"
+msgstr "Sprgr."
 
 msgid "_150mm_Sprgr_G"
 msgstr "Sprgr. G"

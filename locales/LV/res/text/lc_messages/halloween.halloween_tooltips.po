@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Nogaidīšanas laiks: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Mirium izmaksas izmantošanai kaujā: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Izmantojot:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Pasīvie pastiprinājumi kaujā"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Pabeidziet parasto grūtības līmeni, lai atbloķētu grūto režīmu un iegūtu piekļuvi Anomāliju kombināciju sistēmai."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Anomāliju kombinācijas nav pieejamas"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Palieliniet efektivitāti kaujā un saglabājiet progresu no fāzes uz fāzi, pat ja jūsu tanks tiek iznīcināts."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Kad saņemts:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomālijas"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Atbalss anomālija"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Saņemšanas anomālija"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Pamata anomālija"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Slepenā anomālija"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Iegūstams tikai kā laupījums."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Nav kombināciju."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Netiek ieskaitīts Anomāliju kolekcionāra medaļas iegūšanā."
+
+msgid "bannerTooltip/available"
+msgstr "Notikums pieejams vēl %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — Spēles režīms. Noklikšķini, lai izpētītu"
+
+msgid "bannerTooltip/description"
+msgstr "Īpašs PvE režīms, kas jūs aizvedīs dziļi noslēpumainā Babilonas projekta pasaulē. Savaldiet septiņus unikālus tankus, cīnoties, lai iznīcinātu tumšos ienaidnieka spēkus. Jūs gaida ekskluzīvas balvas un vēl daudz kas cits!"
+
+msgid "bannerTooltip/header"
+msgstr "Babilona: Tumšais tornis"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Jūsu datorsistēmas veiktspēja nav pietiekama šim režīmam. Jūs variet piedzīvot problēmas ar grafiku un tanku pārvietošanos. Ir iespējama arī spēles klienta nobrukšana."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Šis režīms ir prasīgs pret datorsistēmas veiktspēju. Jūs piedzīvosiet problēmas ar karšu ielādi, grafiku, bruņutehnikas pārvietošanos. Nepietiekamas veiktspējas gadījumā pamēģiniet zemākus grafikas iestatījumus."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Zema Veiktspēja"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Iespējama Samazināta Veiktspēja"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Jūs jau esiet Draugi."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Gaida Draudzības uzaicinājuma apstiprināšanu."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Izdzēst spēlētāju no jūsu Melnā Saraksta."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Pievienot Draugu sarakstam."
+
+msgid "battleResult/interaction/menu"
+msgstr "Nospiediet, lai atvērtu mijiedarbības izvēlni ar šo spēlētāju."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Pievienot Vienībai."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Spēlētājs jau ir Vadā."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Uzaicinājums jau ir nosūtīts."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Tikai Vada Komandieris var uzaicināts spēlētājus pievienoties Vadam."
+
+msgid "battleResult/secretReward/header"
+msgstr "Slepena balva"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Pasākuma beigās jūs saņemsiet īpašu balvu atkarībā no sava lēmuma."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Unikāla pasākuma balva"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Atjaunošanas laiks: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Mirium maksa: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Pieejams līdz {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Balvas:"
+
+msgid "dailyQuests/status"
+msgstr "Jauna ikdienas misija pēc {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Pievieno visus četrus pasākuma apkalpes locekļus (%(crew_members_names)s) jebkuram tankam savā angārā (vienam no tiem jābūt komandierim), lai aktivizētu dinamiskās komandas sarunas kaujas laikā.\nTransportlīdzekļos ar piecām vai sešām lomām atlikušās lomas var aizpildīt jebkuri citi apkalpes locekļi."
+
+msgid "groupVoiceover/header"
+msgstr "Dinamiskās komandas sarunas"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Uzdevums šī tanka atbloķēšanai jau ir izvēlēts. Skaties nosacījumus ekrāna augšējā labajā stūrī."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Uzdevums izvēlēts"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Izvēlieties pieejamu tanku, lai dotos kaujā."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Nav pieejams"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Kaujas izvēlētajā grūtības pakāpē/režīmā īslaicīgi nav pieejamas tehnisku iemeslu dēļ."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Nav pieejams"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Gaidiet, kad Vads atgriezīsies no iepriekšējās kaujas, lai dotos jaunā kaujā."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Nav pieejams"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Nesaderīga grūtības pakāpe Vadam."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Nav pieejams"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Unikāla četru tankistu apkalpe."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Pilna Unikāla apkalpe"
+
+msgid "keyCard/body"
+msgstr "Noklikšķiniet, lai skatītu pieejamos veidus, kā iegūt pasākuma valūtu."
+
+msgid "keys/accrued"
+msgstr "Saņemts:"
+
+msgid "keys/battles"
+msgstr "• Pasākuma kaujās"
+
+msgid "keys/body"
+msgstr "Unikāla valūta, ko izmanto, lai progresētu pasākumā “Babilona: Tumšais tornis” un saņemtu vērtīgus priekšmetus, tostarp galveno pasākuma balvu. To var nopelnīt pasākuma kaujās un iegādāties komplektos. Iznīcini pretinieka tankus pasākumā \"Babilona: Tumšais tornis\", lai savāktu pēc iespējas vairāk matērijas un nopelnītu atslēgas."
+
+msgid "keys/boss"
+msgstr "• Boss sakauts:"
+
+msgid "keys/bottom"
+msgstr "Pasākuma beigās (%(date)s), visas neizmantotās Atslēgas tiks noņemtas."
+
+msgid "keys/bundles"
+msgstr "• Pērciet pasākuma saišķos"
+
+msgid "keys/daily"
+msgstr "• Ikdienas tanka misija:"
+
+msgid "keys/effective"
+msgstr "• Efektivitāte kaujā:"
+
+msgid "keys/gold"
+msgstr "• Pērciet par zeltu"
+
+msgid "keys/header"
+msgstr "Atšifrēšanas Atslēgas"
+
+msgid "keys/howToEarn"
+msgstr "Kā Nopelnīt"
+
+msgid "keys/howToUse"
+msgstr "Kā Izmantot"
+
+msgid "keys/howToUseDescr"
+msgstr "Izmanto Atslēgas, lai atšifrētu ierakstus, atbloķētu jaunus uzdevumus un virzītos uz galveno pasākuma balvu. Tu vari arī iztērēt Atslēgas, lai izlaistu uzdevumus un ātrāk sasniegtu balvas."
+
+msgid "keys/inStock"
+msgstr "pieejams"
+
+msgid "keys/secret"
+msgstr "• Slepena atlīdzība:"
+
+msgid "metaWidget/body"
+msgstr "Nospiediet, lai skatītu visus Mērķus un balvas."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Izpildi šī ieraksta kaujas nosacījumu, lai to atšifrētu. To nevar izlaist."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Atšifrēšana nav pieejama"
+
+msgid "metaWidget/header"
+msgstr "BALVU CEĻŠ"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Noklikšķiniet, lai izvēlētos, kā šis stāsts beigsies. Kopienas kopējais lēmums ietekmēs turpmāko notikumu gaitu. Sekojiet jaunumiem spēles portālā."
+
+msgid "missionTooltip/bottom"
+msgstr "Atšifrē visus Ierakstus (dažus Uzdevumus var izlaist), lai iegūtu galveno balvu pirms pasākuma beigām—līdz %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Mērķis %(current)s izpildīts, balvas saņemtas"
+
+msgid "missionTooltip/count"
+msgstr "Mērķis %(current)s no %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Atšifrēt"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Pabeidziet uzdevumu, lai atbloķētu atšifrēšanu."
+
+msgid "missionTooltip/kingReward"
+msgstr "Galvenā pasākuma balva"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Galvenā pasākuma balva saņemta"
+
+msgid "missionTooltip/received"
+msgstr "Mērķis %(current)s izpildīts, bet Ieraksts nav atšifrēts"
+
+msgid "missionTooltip/rewards"
+msgstr "Pabeidz Uzdevumu, lai saņemtu balvas."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Atšifrē Ierakstu, lai saņemtu balvas. "
+
+msgid "missionTooltip/skip"
+msgstr "Izlaist"
+
+msgid "shopWidget/body"
+msgstr "Nospiediet, lai atvērtu īpašu sadaļu spēles Veikalā ar ekskluzīvām pasākuma lietām."
+
+msgid "shopWidget/header"
+msgstr "Notikuma Komplekti"
+
+msgid "teamList/actions/body"
+msgstr "Ātrās darbības vada izveidei un draugu pievienošanai/noņemšanai."
+
+msgid "teamList/actions/header"
+msgstr "Ātras Darbības"
+
+msgid "teamList/anomalies/header"
+msgstr "Aktīvas Anomālijas"
+
+msgid "teamList/bossDamage/body"
+msgstr "Kārtot pēc nodarītajiem bojājumiem 4. fāzē (Cīņa ar bosu).\nŠie bojājumi netiek ieskaitīti Atslēgu balvām, ja komandai neizdodas uzvarēt bosu."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Šie bojājumi netiek ieskaitīti Atslēgu balvām, jo komandai neizdevās uzvarēt bosu."
+
+msgid "teamList/bossDamage/header"
+msgstr "Bojājumi, kas nodarīti cīņā ar bosu"
+
+msgid "teamList/damage/body"
+msgstr "Kārtot pēc bojājumiem, kas nodarīti 1.–3. fāzē."
+
+msgid "teamList/damage/header"
+msgstr "Izdarītie Bojājumi"
+
+msgid "teamList/keys/body"
+msgstr "Kārtot pēc nopelnītās Atslēgām (parādītajā vērtībā neieskaita papildu Atslēgas, kas saņemtas par atbilstošās ikdienas misijas izpildi)."
+
+msgid "teamList/keys/header"
+msgstr "Atslēgas Nopelnītas"
+
+msgid "teamList/kills/body"
+msgstr "Kārtot pēc iznīcinātiem pretinieku tankiem."
+
+msgid "teamList/kills/header"
+msgstr "Iznīcinātie Pretinieku Tanki"
+
+msgid "teamList/name/header"
+msgstr "Spēlētāja vārds"
+
+msgid "teamList/place/body"
+msgstr "Kārtot pēc pozīcijas komandā."
+
+msgid "teamList/place/header"
+msgstr "Pozīcija Komandā"
+
+msgid "teamList/squad/header"
+msgstr "Vads ir taktiska vienība spēlētājiem, lai sadarbotos kaujās."
+
+msgid "teamList/vehicle/body"
+msgstr "Kārtot pēc tanku veida un nosaukuma."
+
+msgid "teamList/vehicle/header"
+msgstr "Tanki"
+
+msgid "teamList/warned/body"
+msgstr "Šis spēlētājs ir sodīts par bezdarbību/dezertēšanu un par šo kauju nav saņēmis nekādas atlīdzības."
+
+msgid "teamList/warned/header"
+msgstr "Brīdinājums"
+
+msgid "teamList/warned/self/body"
+msgstr "Tu esi sodīts par bezdarbību/dezertēšanu un neesi saņēmis nekādas balvas par šo kauju."
+
+msgid "teamList/warned/self/header"
+msgstr "Brīdinājums"
+
+msgid "vehicle/bonusTitle"
+msgstr "Ienākumi"
+
+msgid "vehicle/eventBonus"
+msgstr "Papildu Atslēgas ir pieejamas par ikdienas misijas pabeigšanu šajā tankā."
+
+msgid "vehicle/state/default/title"
+msgstr "Gatavs kaujai"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "Kaujā"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "Taktiskajā vienībā"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "Rindā"
+
+msgid "vehicle/state/locked/title"
+msgstr "Nobloķēts"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "5-lādiņu magazīna ļauj ātri nodarīt lielus bojājumus."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Magazīna"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "3-lādiņu sistēma, kas samazina standarta laiku automātiskai lādiņu pārlādēšanai."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Uzlabots automātiskās pārlādes lielgabals"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Lielgabals ar nepārtrauktas šaušanas sistēmu."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Automātiskais lielgabals"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Palielina iespēju sabojāt pretinieka tanku moduļus."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Kritisku bojājumu nodarošs lielgabals"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "HE lielgabals ar iespaidīgu 2-lādiņu automātiskās pārlādēšanas sistēmu."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Pašuzlādes lielgabals"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Ļauj izvēlēties starp ciklisku un secīgu darbību."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Dubults lielgabals"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Nodrošina jūsu tanka moduļiem pilnīgu aizsardzību pret kritiskiem bojājumiem."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Pretestība kritiskajam bojājumam"

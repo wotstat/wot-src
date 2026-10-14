@@ -1981,9 +1981,6 @@ msgstr "Грешка при обслужване на \"%(vehName)s\". Недо�
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Грешка при обслужване на \"%(vehName)s\". Недостатъчно злато за закупуване на снаряжение. Опитайте пак по-късно."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Действието е недостъпно. Всичкото ви злато ще бъде достъпно след като WG портфейл стане автоматично достъпен отново."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Грешка при обслужване на \"%(vehName)s\". Неуспешно попълване на снаряжението. Опитайте пак по-късно."
 
@@ -1995,9 +1992,6 @@ msgstr "Грешка при обслужване на \"%(vehName)s\". Недо�
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Грешка при обслужване на \"%(vehName)s\". Недостатъчно злато за закупуване на снаряди."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Действието е недостъпно. Всичкото ви злато ще бъде достъпно след като WG портфейл стане автоматично достъпен отново."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Грешка при обслужване на \"%(vehName)s\". Машината е заключена."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "Танк %(userString)s е изследван. Похарчено от неразпределения опит %(unspentXP)s, от свободния опит %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Системата за елитни награди вече е достъпна за %(vehicle)s."
+msgstr "Системата Елитни награди вече е налична за %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Елитни награди"

@@ -7,20 +7,20 @@ msgstr[0] "%(count) gjenværende modul"
 msgstr[1] "%(count) gjenværende moduler"
 msgstr[2] "%(count) gjenværende moduler"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Tilbake til moduler"
 
 msgid "boxTooltip/description/text/wt"
 msgstr "Når de blir åpnet kan disse modulene gi deg premiumkjøretøy, valuta til bruk i spillet og andre verdifulle belønninger."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Moduler er tilgjengelige i butikken i spillet."
+msgstr "Paradoxmoduler kan du kjøpe i butikken i spillet eller Premium Shop."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Modul"
+msgstr "Paradoxmoduler"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "MODUL"
+msgstr "PARADOXMODULER"
 
 msgid "common/getButton/lowerCase"
 msgstr "FÅ MODULER"
@@ -31,17 +31,11 @@ msgstr "FÅ MODULER"
 msgid "common/loader"
 msgstr "Modul åpnes..."
 
-msgid "common/selectTooltip"
-msgstr "Ikke nok moduler til å åpne fem på en gang"
-
 msgid "common/statistics/emptyHeader"
 msgstr "Åpne moduler for å se statistikk."
 
 msgid "common/statistics/header"
-msgstr "Moduler åpnet:"
-
-msgid "confirmRerollLootBox/description/wt"
-msgstr "Modulen blir åpnet på nytt for muligheten til å få andre belønninger."
+msgstr "Åpnede moduler: %(count)"
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "All informasjon om åpnede moduler vil bli slettet."
@@ -50,7 +44,7 @@ msgid "entryPoint/boxes"
 msgstr "TIL MODULER"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Dette er spesialmoduler som inneholder nye og unike enheter. De kan fås fra butikken i spillet."
+msgstr "Dette er spesielle moduler som inneholder nye og unike enheter, inkludert premiumkjøretøy, tilpasningselementer, valuta til bruk i spillet og andre verdifulle belønninger.\nModuler kan fås fra butikken i spillet eller Premium Shop."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Moduler kan ikke åpnes eller kjøpes akkurat nå av tekniske årsaker. Vi beklager den midlertidige ulempen."
@@ -59,10 +53,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Moduler midlertidig utilgjengelig"
 
 msgid "eventName/lowerCase"
-msgstr "Ri stormen"
+msgstr "BREAK THE PARADOX"
 
 msgid "eventName/upperCase"
-msgstr "RI STORMEN"
+msgstr "BREAK THE PARADOX"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Garantert belønning i den neste modulen!"
@@ -70,35 +64,23 @@ msgstr "Garantert belønning i den neste modulen!"
 msgid "guaranteedTitle/text"
 msgstr "Maksimalt antall moduler før en garantert belønning: %(count)"
 
-msgid "infoPage/footer/description/autoOpen/wt"
-msgstr "Dersom du ikke åpner moduler før eventet er over, blir de åpnet automatisk."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Dersom du ikke åpner alle modulene før eventet er ferdig, blir de automatisk åpnet senere."
 
-msgid "infoPage/footer/description/compensation/wt"
+msgid "infoPage/footer/description/compensation"
 msgstr "Dersom du allerede eier alle kjøretøyene fra listen over mulig innhold i modulene, vil alle påfølgende kjøretøy du får fra modulene bli kompensert med gull tilsvarende deres fulle verdi."
 
-msgid "infoPage/footer/description/guaranteed/wt"
-msgstr "Hver %(guaranteed)s. modul garanteres å inneholde et kjøretøy. Dersom du åpner dem uten at et slikt kjøretøy blir sluppet, så vil et kjøretøy som du ikke har fra før bli sluppet når du åpner den %(guaranteed)s. modulen. Når den så slipper et kjøretøy, nullstilles telleren."
-
-msgid "infoPage/footer/description/reroll/wt"
-msgstr "Hvis du ikke er fornøyd med belønningene fra en modul kan du gjenåpne den for en sjanse til å få andre enheter fra den samme listen. Hver modul kan bare gjenåpnes et begrenset antall ganger:"
-
-msgid "infoPage/footer/title/autoOpen"
-msgstr "Autoåpne"
-
-msgid "infoPage/footer/title/compensation"
-msgstr "Kompensasjon"
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Hver %(guaranteed0)s. modul garanteres å inneholde et kjøretøy. Dersom du åpner dem uten at et slikt kjøretøy blir sluppet, så vil et kjøretøy som du ikke har fra før bli sluppet når du åpner den %(guaranteed0)s. modulen. Når den så slipper et kjøretøy, nullstilles telleren."
 
 msgid "infoPage/header/description"
 msgstr "Åpne modulen for sjansen til å få verdifulle enheter til bruk i spillet! Se flere detaljer under."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Fra %(name) (%(boxesCount) åpnede moduler)"
 
-msgid "noBoxesView/description/"
-msgstr "Moduler er tilgjengelige i butikken i spillet"
-
-msgid "noBoxesView/goToButton/"
-msgstr "Til tilgjengelige moduler"
+msgid "noBoxesView/description"
+msgstr "Du har ingen moduler. Du kan kjøpe dem\ni butikken i spillet eller i Premium Shop."
 
 msgid "preview/backLabel"
 msgstr "TIL MODULER"
@@ -107,9 +89,9 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Tilgjengelige moduler: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Ingen flere moduler"
+msgstr "Ingen tilgjengelige moduler"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Dersom du allerede eier alle kjøretøyene fra listen over mulig innhold i modulene, vil alle påfølgende kjøretøy du får fra modulene bli kompensert med gull."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -118,8 +100,5 @@ msgstr[0] "%(remainingCount) modul"
 msgstr[1] "%(remainingCount) moduler"
 msgstr[2] "%(remainingCount) moduler"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "Den garanterte belønningen er et kjøretøy fra listen over mulig innhold i modulene.\nDersom du åpner %(remainingCount) uten å få et slikt kjøretøy, får du den når du åpner den %(count). modulen. Når den gjør det, nullstilles telleren."
-
-msgid "tooltip/reroll/text/wt"
-msgstr "Gjenåpning av en modul gir deg en sjanse til å få andre belønninger fra den samme listen."

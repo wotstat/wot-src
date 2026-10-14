@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Conferă invulnerabilitate."
+
+msgid "damageShield/long_special"
+msgstr "Abilitate de luptă. Creează un scut energetic care protejează timp de 7 s vehiculul de orice daune, cu excepția coliziunilor, înecării și impactului. Dacă este utilizată minim o dată într-o luptă, abilitatea este cheltuită și poate fi realimentată contra credite. Dacă nu este utilizată, nu este necesară realimentarea.<br /><br />Disponibilă doar în evenimentul <font color='#cbac77'>Babylon: Turnul Întunecat</font>.<br /><br />Toate abilitățile neutilizate vor fi eliminate în următoarea versiune și compensate în credite la o valoare de 50% din costul acestora."
+
+msgid "damageShield/name"
+msgstr "Scut energetic"
+
+msgid "damageShield/onUse"
+msgstr "Creează un scut energetic care protejează vehiculul de orice daune, exceptând coliziunea, înecarea și impactul, timp de 7 s."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Conferă invulnerabilitate."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Crește cadența de tragere / reîncarcă magazia."
+
+msgid "fastReload/long_special"
+msgstr "Abilitate de luptă. Accelerează semnificativ încărcarea unui tun ciclic o perioadă de timp sau reîncarcă instantaneu tunurile cu încărcare prin casetă. Dacă este utilizată minim o dată într-o luptă, abilitatea este cheltuită și poate fi realimentată contra credite. Dacă nu este utilizată, nu este necesară realimentarea.<br /><br />Disponibilă doar în evenimentul <font color='#cbac77'>Babylon: Turnul Întunecat</font>.<br /><br />Toate abilitățile neutilizate vor fi eliminate în următoarea versiune și compensate în credite la o valoare de 50% din costul acestora."
+
+msgid "fastReload/name"
+msgstr "Reîncărcare rapidă"
+
+msgid "fastReload/onUse"
+msgstr "Accelerează semnificativ încărcarea unui tun ciclic pentru un timp sau reîncarcă instantaneu tunurile cu reîncărcare cu casetă."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Crește cadența de tragere / reîncarcă magazia."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Restaurează puncte de integritate, stinge incendiul, elimină efectul de șoc și repară modulele avariate."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Abilitate de luptă. Restaurează puncte de integritate, stinge incendiul, elimină efectul de șoc și repară modulele avariate. Se poate utiliza de mai multe ori într-o luptă.<br /><br />Disponibilă doar pe perioada evenimentului <font color='#cbac77'>Proiectul Babylon</font>.<br /><br />Toate abilitățile nefolosite vor fi eliminate și compensate în credite la valoarea de 50% din costul acestora la lansarea următoarei versiuni."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Reparații de urgență"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Reface instantaneu 400 din punctele de integritate ale vehiculului.\n• Reface încă 300 de puncte de integritate în 30 s.\n• Refacerea se întrerupe la suferirea de daune.\n• Stinge incendiul, elimină efectul de șoc și repară modulele avariate.\n• Se poate activa doar în caz de daune."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Restaurează puncte de integritate, stinge incendiul, elimină efectul de șoc și repară modulele avariate."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Costul în Mirium la utilizarea în luptă:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nCostul în Mirium: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Costul în Mirium la utilizarea în luptă:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Trage un proiectil care provoacă daune și șoc țintei și vehiculelor inamice din apropiere."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Abilitate de luptă. Trage un proiectil care provoacă daune și șoc țintei și tuturor vehiculelor inamice dintr-o zonă cu raza de 35 m. Dacă este utilizată minim o dată într-o luptă, abilitatea este cheltuită și poate fi realimentată contra credite. Dacă nu este utilizată, nu este necesară realimentarea.<br/><br/>Disponibilă doar în evenimentul <font color='#cbac77'>Babylon: Turnul Întunecat</font>.<br/><br/>Toate abilitățile neutilizate vor fi eliminate în următoarea versiune și compensate în credite la o valoare de 50% din costul acestora."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Lovitură energetică"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Trage un proiectil care provoacă daune și șoc țintei și tuturor vehiculelor inamice dintr-o zonă cu raza de 35 m."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Trage un proiectil care provoacă daune și șoc țintei și vehiculelor inamice din apropiere."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Trage un proiectil care reface puncte de integritate, furându-le de la țintă și de la vehiculele inamice apropiate."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Abilitate de luptă. Trage un proiectil care reface puncte de integritate, furându-le de la țintă și de la vehiculele inamice apropiate dintr-o zonă cu raza de 35m, reparând modulele avariate și eliminând efectul de șoc. Dacă este utilizată minim o dată într-o luptă, abilitatea este cheltuită și poate fi realimentată contra credite. Dacă nu este utilizată, nu este necesară realimentarea.<br/><br/>Disponibilă doar în evenimentul <font color='#cbac77'>Babylon: Turnul Întunecat</font>.<br/><br/>Toate abilitățile neutilizate vor fi eliminate în următoarea versiune și compensate în credite la o valoare de 50% din costul acestora."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Lovitură vampirică"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Trage un proiectil care reface puncte de integritate, furându-le de la țintă și de la vehiculele inamice apropiate dintr-o zonă cu raza de 35 m, reparând modulele avariate și eliminând efectul de șoc."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Trage un proiectil care reface puncte de integritate, furându-le de la țintă și de la vehiculele inamice apropiate."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Trage un proiectil care provoacă șoc țintei și vehiculelor inamice din apropiere."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Abilitate de luptă. Trage un proiectil care provoacă șoc țintei și tuturor vehiculelor inamice dintr-o zonă cu raza de 35m. Se poate utiliza de mai multe ori într-o luptă.<br /><br />Disponibilă doar pe perioada evenimentului <font color='#cbac77'>Proiectul Babylon</font>.<br /><br />Toate abilitățile nefolosite vor fi eliminate și compensate în credite la valoarea de 50% din costul acestora la lansarea următoarei versiuni."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Lovitură de șoc"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Trage un proiectil care provoacă șoc țintei și tuturor vehiculelor inamice dintr-o zonă cu raza de 35 m."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Trage un proiectil care provoacă șoc țintei și vehiculelor inamice din apropiere."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Conferă invizibilitate a vehiculului față de inamici, reface puncte de integritate, repară module și stinge incendiul."
+
+msgid "hwInvisibility/long_special"
+msgstr "Abilitate de luptă. Vehiculul devine invizibil față de inamici timp de 10 s. Restaurează 35 HP pe secundă, repară modulele, elimină efectele negative și conferă invulnerabilitate la coroziune. Focul sau suferirea de daune din partea unui vehicul inamic (prin foc, coliziune sau abilități de luptă) îți vor da de gol poziția imediat. Nu poate fi întreruptă de loviturile inamice timp de 3 s după activare. Dacă este utilizată minim o dată într-o luptă, abilitatea este cheltuită și poate fi realimentată contra credite. Dacă nu este utilizată, nu este necesară realimentarea.<br/><br/>Disponibilă doar pe perioada evenimentului <font color='#cbac77'>Babylon: Turnul Întunecat</font>.<br/><br/>Toate abilitățile nefolosite vor fi eliminate și compensate în credite la valoarea de 50% din costul acestora la lansarea următoarei versiuni."
+
+msgid "hwInvisibility/name"
+msgstr "Vindecare camuflată"
+
+msgid "hwInvisibility/onUse"
+msgstr "Vehiculul devine invizibil față de inamici timp de 10 s. Restaurează 35 HP pe secundă, repară modulele, elimină efectele negative și conferă invulnerabilitate la coroziune. Focul sau suferirea de daune din partea unui vehicul inamic (prin foc, coliziune sau abilități de luptă) îți vor da de gol poziția imediat. Nu poate fi întreruptă de loviturile inamice timp de 3 s după activare."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Te ascunde de inamici, reface HP, repară module, stinge incendiul, elimină șocul și tratează echipajul."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Accelerează vehiculul tău pe o perioadă limitată\nși sporește daunele provocate prin impact."
+
+msgid "nitroRamDamage/name"
+msgstr "Supraalimentare"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Crește temporar viteza vehiculului și daunele provocate prin coliziuni."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Repară și restaurează puncte de integritate ale vehiculelor aliate din raza de acțiune."
+
+msgid "teamRepairKit/long_special"
+msgstr "Abilitate de luptă. Repară instantaneu modulele, stinge incendiul, elimină efectul de șoc și restaurează puncte de integritate vehiculelor aliate din raza de activare. Dacă este utilizată minim o dată într-o luptă, abilitatea este cheltuită și poate fi realimentată contra credite. Dacă nu este utilizată, nu este necesară realimentarea.<br/><br />Disponibilă doar în evenimentul <font color='#cbac77'>Babylon: Turnul Întunecat</font>.<br/><br/>Toate abilitățile neutilizate vor fi eliminate în următoarea versiune și compensate în credite la o valoare de 50% din costul acestora."
+
+msgid "teamRepairKit/name"
+msgstr "Reparații de grup"
+
+msgid "teamRepairKit/onUse"
+msgstr "Repară instantaneu module, stinge incendiul, elimină efectul de șoc și reface o parte din punctele de integritate ale vehiculelor aliate din raza de acțiune."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Repară și restaurează puncte de integritate ale vehiculelor aliate din raza de acțiune."

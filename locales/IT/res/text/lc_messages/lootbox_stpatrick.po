@@ -1,8 +1,8 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
-msgstr "Torna alle Casse"
+msgid "awardViews/footer/backButton"
+msgstr "Torna alle casse"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
 msgstr "Cassa smeraldo"
@@ -64,11 +64,11 @@ msgstr "Ogni %(guaranteed0)s Casse contengono un veicolo di livello VIII–IX ga
 msgid "infoPage/header/description"
 msgstr "Apri la Cassa per avere la possibilità di ricevere preziosi articoli di gioco! Ulteriori dettagli in basso."
 
-msgid "multipleRewardView/header/subTitle/"
-msgstr "Dalla %(name) (%(boxesCount) Casse aperte)"
+msgid "multipleRewardView/header/subTitle"
+msgstr "Dalla %(name) (%(boxesCount) casse aperte)"
 
-msgid "noBoxesView/description/"
-msgstr "Non possiedi alcuna Cassa.\nLe puoi ottenere nella Fabbrica."
+msgid "noBoxesView/description"
+msgstr "Non possiedi alcuna cassa.\nLe puoi ottenere nella Fabbrica."
 
 msgid "preview/backLabel"
 msgstr "ALLE CASSE"
@@ -79,8 +79,8 @@ msgstr "Casse disponibili: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Non ci sono Casse disponibili"
 
-msgid "singleRewardView/tooltip/description/"
-msgstr "Se possiedi già tutti i veicoli dalla lista di possibili contenuti della Cassa, allora tutti i successivi veicoli ricevuti dalle Casse saranno compensati in oro."
+msgid "singleRewardView/tooltip/description"
+msgstr "Se possiedi già tutti i veicoli dalla lista di possibili contenuti della cassa, allora tutti i successivi veicoli ricevuti dalle casse saranno compensati in oro."
 
 msgid "singleRewardView/tooltip/remainingCount"
 msgid_plural "plural/singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) Cassa"
 msgstr[1] "%(remainingCount) Casse"
 msgstr[2] "%(remainingCount) Casse"
 
-msgid "singleRewardView/tooltip/subtitle/"
-msgstr "La ricompensa garantita è un veicolo dalla lista di possibili contenuti della Cassa.\nSe apri %(remainingCount) senza trovare uno di questi veicoli, lo troverai all'apertura della %(count) Cassa. In questi casi, il contatore si azzera."
+msgid "singleRewardView/tooltip/subtitle"
+msgstr "La ricompensa garantita è un veicolo dalla lista di possibili contenuti della cassa.\nSe apri %(remainingCount) senza trovare uno di questi veicoli, lo troverai all'apertura della %(count)ª cassa. In questi casi, il contatore si azzera."

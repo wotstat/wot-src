@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Gör vagnen osårbar."
+
+msgid "damageShield/long_special"
+msgstr "Stridsförmåga. Skapar en energisköld som skyddar din vagn från alla skada förutom från rammning, drunkning och kollision i 7 s. Om förmågan används minst en gång under striden spenderas den och kan laddas om för krediter efter striden. Om den inte används behöver den inte laddas om.<br /><br />Bara tillgänglig under evenemanget <font color='#cbac77'>Babylon: Mörka tornet</font><br /><br />Alla oanvända förmågor tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "damageShield/name"
+msgstr "Kraftsköld"
+
+msgid "damageShield/onUse"
+msgstr "Skapar en energisköld som skyddar din vagn från all skada förutom kollision, drunkning och fallskada under 7 s."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Gör vagnen osårbar."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Ökar eldhastigheten / laddar om magasinet."
+
+msgid "fastReload/long_special"
+msgstr "Stridsförmåga. Minskar avsevärt omladdningstiden för en standardkanon under en begränsad tid, eller laddar om kanoner med magasinomladdning omedelbart. Om förmågan används minst en gång under striden spenderas den och kan laddas om för krediter efter striden. Om den inte används behöver den inte laddas om.<br /><br />Bara tillgänglig under evenemanget <font color='#cbac77'>Babylon: Mörka tornet</font><br /><br />Alla oanvända förmågor tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "fastReload/name"
+msgstr "Snabbladdning"
+
+msgid "fastReload/onUse"
+msgstr "Minskar omladdningstiden för kanonen avsevärt under en begränsad tid, eller laddar om magasinladdade kanoner omedelbart."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Ökar eldhastigheten / laddar om magasinet."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Återställer träffpoäng, släcker bränder, tar bort chockverkan och reparerar skadade moduler."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Stridsförmåga. Återställer träffpoäng, släcker bränder, tar bort chockverkan och reparerar skadade moduler. Kan användas flera gånger under en strid. Tas bort efter striden om den använts minst en gång.<br /><br />Endast tillgänglig under evenemanget <font color='#cbac77'>Projekt Babylon</font>.<br /><br />Alla oanvända förmågor tas bort och kompensation i krediter motsvarande 50% av priset utbetalas i samband med nästa uppdatering."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Nödreparationer"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Återställer omedelbart 400 träffpoäng till din vagn.\n• Återställer ytterligare 300 träffpoäng under 30 s.\n• Återställningen avbryts om du tar skada.\n• Släcker bränder, tar bort chockverkan och reparerar skadade moduler.\n• Kan bara aktiveras om du tagit skada."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Återställer träffpoäng, släcker bränder, tar bort chockverkan och reparerar skadade moduler."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Kostnad i mirium för användning i strid:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nKostnad i mirium: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Kostnad i mirium för användning i strid:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Ett skott som skadar och chockar målet, och fiendevagnar i närheten."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Stridsförmåga. Avfyrar ett skott som skadar och chockar målet, och alla fiendevagnar inom en radie av 35 m. Om förmågan används minst en gång under striden spenderas den och kan laddas om för krediter efter striden. Om den inte används behöver den inte laddas om.<br/><br/>Bara tillgänglig under evenemanget <font color='#cbac77'>Babylon: Mörka tornet</font><br/><br/>Alla oanvända förmågor tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Kraftgranat"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Ett skott som skadar och chockar målet, och alla fiendevagnar inom 35 m radie."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Ett skott som skadar och chockar målet, och fiendevagnar i närheten."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Ett skott som återställer träffpoäng genom att stjäla dem från målet och fiendevagnar i närheten."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Stridsförmåga. Avfyrar ett skott som återställer träffpoäng genom att stjäla dem från målet och fiendevagnar i närheten, inom en radie av 35 m, samt reparerar skadade moduler och tar bort chockverkan. Om förmågan används minst en gång under striden spenderas den och kan laddas om för krediter efter striden. Om den inte används behöver den inte laddas om.<br/><br/>Bara tillgänglig under evenemanget <font color='#cbac77'>Babylon: Mörka tornet</font><br/><br/>Alla oanvända förmågor tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Vampyrgranat"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Ett skott som återställer träffpoäng, genom att stjäla dem från målet och fiendevagnar inom 35 m, samt reparerar skadade moduler och tar bort chockverkan."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Ett skott som återställer träffpoäng genom att stjäla dem från målet och fiendevagnar i närheten."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Ett skott som chockar målet och fiendevagnar i närheten."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Stridsförmåga. Ett skott som chockar målet och alla fiendevagnar inom 35 m radie. Kan användas flera gånger under en strid. Tas bort efter striden om den använts minst en gång.<br /><br />Endast tillgänglig under evenemanget <font color='#cbac77'>Projekt Babylon</font>.<br /><br />Alla oanvända förmågor tas bort och kompensation i krediter motsvarande 50% av priset utbetalas i samband med nästa uppdatering."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Bedövningsgranat"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Ett skott som chockar målet och alla fiendevagnar inom 35 m radie."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Ett skott som chockar målet och fiendevagnar i närheten."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Gör din vagn osynlig för fienden, återställer träffpoäng, reparerar moduler och släcker bränder."
+
+msgid "hwInvisibility/long_special"
+msgstr "Stridsförmåga. Gör din vagn osynlig för fienden i 10 s. Återställer 35 träffpoäng per sekund, reparerar skadade moduler, tar bort alla negativa effekter och gör vagnen immun mot frätskada. Om du ger eld eller blir skadad (genom t.ex granater, kollision eller stridsförmågor) avslöjar du omedelbart din position. Kan inte avbrytas av fiendeskott under 3 s efter aktivering. Om förmågan används minst en gång under striden spenderas den och kan laddas om för krediter efter striden. Om den inte används behöver den inte laddas om. <br/><br/>Bara tillgänglig under evenemanget <font color='#cbac77'>Babylon: Mörka tornet</font><br/><br/>Alla oanvända förmågor tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "hwInvisibility/name"
+msgstr "Osynlig återhämtning"
+
+msgid "hwInvisibility/onUse"
+msgstr "Gör din vagn osynlig för fienden i 10 s. Återställer 35 träffpoäng per sekund, reparerar skadade moduler, tar bort alla negativa effekter och gör vagnen immun mot frätskada. Om du ger eld eller blir skadad (genom t.ex granater, kollision eller stridsförmågor) avslöjar du omedelbart din position. Kan inte avbrytas av fiendeskott under 3 s efter aktivering."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Gör dig osynlig för fiender, återställer träffpoäng, reparerar moduler, släcker bränder, tar bort chockverkan och läker besättningsmedlemmar."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Ökar vagnens hastighet och skadan åsamkad av rammning\nunder en begränsad tid."
+
+msgid "nitroRamDamage/name"
+msgstr "Turbo"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Ökar tillfälligt vagnens hastighet och skadan åsamkad vid rammning."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Reparerar och återställer en del träffpoäng till allierade vagnar inom verkansområdet."
+
+msgid "teamRepairKit/long_special"
+msgstr "Stridsförmåga. Reparerar omedelbart moduler, släcker bränder, tar bort chockverkan och återställer en del träffpoäng till allierade vagnar inom verkansområdet. Om förmågan används minst en gång under striden spenderas den och kan laddas om för krediter efter striden. Om den inte används behöver den inte laddas om.<br/><br />Bara tillgänglig under evenemanget <font color='#cbac77'>Babylon: Mörka tornet</font><br/><br/>Alla oanvända förmågor tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "teamRepairKit/name"
+msgstr "Gruppreparation"
+
+msgid "teamRepairKit/onUse"
+msgstr "Reparerar omedelbart skadade moduler, släcker bränder, tar bort chockverkan och återställer en del av träffpoängen för allierade vagnar inom verkansområdet."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Reparerar och återställer en del träffpoäng till allierade vagnar inom verkansområdet."

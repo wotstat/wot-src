@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Zpět na poklady"
 
 msgid "common/boxCategory/lowerCase/lunar"
@@ -64,10 +64,10 @@ msgstr "Každý %(guaranteed0)s. Planoucí poklad zaručeně obsahuje vozidlo V
 msgid "infoPage/header/description"
 msgstr "Otevřete Planoucí poklady pro šanci získat cenné herní předměty! Více podrobností níže."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Z %(name) (%(boxesCount) Planoucích pokladů otevřeno)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Nemáte žádné Planoucí poklady.\nMůžete si je pořídit v herním obchodě."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Dostupné poklady: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Nejsou dostupné žádné poklady"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Pokud již vlastníte všechna vozidla ze seznamu možného obsahu Planoucího pokladu, pak všechna následující vozidla, která z Planoucích pokladů získáte, budou kompenzována ve zlaťácích."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) Planoucí poklad"
 msgstr[1] "%(remainingCount) Planoucí poklady"
 msgstr[2] "%(remainingCount) Planoucích pokladů"
 
-msgid "singleRewardView/tooltip/subtitle/"
-msgstr "Zaručená odměna je vozidlo ze seznamu možného obsahu Planoucího pokladu.\nPokud otevřete %(remainingCount) Planoucích pokladů, aniž by vám takové vozidlo padlo, při otevření %(count). Planoucího pokladu vám takové vozidlo padne. Když k tomu dojde, počítadlo se vynuluje."
+msgid "singleRewardView/tooltip/subtitle"
+msgstr "Zaručená odměna je vozidlo ze seznamu možného obsahu Planoucího pokladu.\nPokud otevřete %(remainingCount) Planoucích pokladů, aniž by vám takové vozidlo padlo, při otevření %(count). Planoucího pokladu takové vozidlo padne. Když k tomu dojde, počítadlo se vynuluje."

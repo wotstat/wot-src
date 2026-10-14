@@ -177,6 +177,7 @@ class HangarCameraSystem(CGF.System):
             return
         else:
             self.__cam = None
+            self.__cameraName = None
             self.__customizationHelper = None
             g_eventBus.removeListener(CameraRelatedEvents.LOBBY_VIEW_MOUSE_MOVE, self.__handleLobbyViewMouseEvent)
             FovExtended.instance().onSetFovSettingEvent -= self.__onSetFovSetting
@@ -353,8 +354,10 @@ class HangarCameraSystem(CGF.System):
 
     def enablePlatoonMode(self, enable=True):
         cameraMode = CameraMode.PLATOON if enable else CameraMode.DEFAULT
-        if self.__cameraMode != cameraMode and self.__cameraName in CameraMode.ALL:
-            self.__cameraMode = cameraMode
+        if self.__cameraMode == cameraMode:
+            return
+        self.__cameraMode = cameraMode
+        if self.__cameraName in CameraMode.ALL:
             self.switchToTank(False, False)
         return
 

@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Korozija"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Šteta zone"
+
+msgid "damageLog/static_death_zone"
+msgstr "Šteta od zone"
+
+msgid "damageShieldReady"
+msgstr "Energetski štit je spreman za upotrebu."
+
+msgid "fastReloadReady"
+msgstr "Brzo punjenje je spremno za upotrebu."
+
+msgid "hitMarker/useless"
+msgstr "Nema upotrebe!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Hitne popravke su spremne za upotrebu."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Energetski hitac je spreman za upotrebu."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Vampirski hitac je spreman za upotrebu."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Ošamućujući hitac je spreman za upotrebu."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "da pogledaš pravila režima"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Pritisni"
+
+msgid "hwInvisibilityReady"
+msgstr "Nevidljivo lečenje je spremno za upotrebu."
+
+msgid "nitroRamDamageReady"
+msgstr "Turbo punjač je spreman za upotrebu."
+
+msgid "pickupSouls"
+msgstr "Sakupio si %(souls)s komada Miriuma"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Nedostupno za upotrebu [%(name)s]: top je oštećen."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Vozilo nije oštećeno."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Nedostupno za upotrebu [%(name)s]: motor je uništen."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Upotreba [%(name)s] nije moguća: nema dovoljno Mirijuma za aktiviranje sposobnosti."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Nedostupno za upotrebu [%(name)s]: vozilo gori."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Upotreba [%(name)s] nije moguća: vozilo se davi."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Upotreba [%(name)s] nije moguća: vozilo gori."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Upotreba [%(name)s] nije moguća: vozilo je prevrnuto."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Top je napunjen."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s je uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s je uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s je uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Saveznik %(target)s je uništen korozijom."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Saveznika %(target)s je Izgazio %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Saveznik %(target)s je uništen neprijateljskom eksplozijom (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Saveznik %(target)s je slupan."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Saveznika %(target)s je uništila zona uništenja."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Saveznika %(target)s je uništila neprijateljska aura."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Saveznika %(target)s je uništila zona uništenja."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Saveznik %(target)s je uništen."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Vozilo je uništeno energetskim udarom."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Vozilo je uništeno pirokinezom"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Vozilo je uništeno isisavanjem života"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Vozilo je uništeno eksplozijom"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Vozilo je uništeno u zoni uništenja"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Vozilo je uništila neprijateljska aura"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Vozilo je uništeno korozijom"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Vozilo se slupalo"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Vozilo je izgaženo"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Vozilo je uništeno. Nisi stigao do Magnusa."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Vozilo je uništeno. Nisi uništio bosa."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Vozilo uništeno. Magnus nije napunjen."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modul [%(device)s] je eksplodirao pogotkom igrača"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Vozilo je izgorelo"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Vozilo uništeno neprijateljskim pogotkom"
+
+msgid "teamRepairKitReady"
+msgstr "Grupna popravka je spremna za upotrebu."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s je aktivirao grupna popravka."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Grupna popravka je aktivirana."

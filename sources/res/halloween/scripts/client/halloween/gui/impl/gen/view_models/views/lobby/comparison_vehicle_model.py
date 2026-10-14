@@ -1,0 +1,60 @@
+from frameworks.wulf import ViewModel
+
+class ComparisonVehicleModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=6, commands=0):
+        super(ComparisonVehicleModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getVehicleName(self):
+        return self._getString(0)
+
+    def setVehicleName(self, value):
+        self._setString(0, value)
+        return
+
+    def getVehicleType(self):
+        return self._getString(1)
+
+    def setVehicleType(self, value):
+        self._setString(1, value)
+        return
+
+    def getUserName(self):
+        return self._getString(2)
+
+    def setUserName(self, value):
+        self._setString(2, value)
+        return
+
+    def getRelativePower(self):
+        return self._getNumber(3)
+
+    def setRelativePower(self, value):
+        self._setNumber(3, value)
+        return
+
+    def getSpeedLimit(self):
+        return self._getNumber(4)
+
+    def setSpeedLimit(self, value):
+        self._setNumber(4, value)
+        return
+
+    def getMaxHealth(self):
+        return self._getNumber(5)
+
+    def setMaxHealth(self, value):
+        self._setNumber(5, value)
+        return
+
+    def _initialize(self):
+        super(ComparisonVehicleModel, self)._initialize()
+        self._addStringProperty(b'vehicleName', b'')
+        self._addStringProperty(b'vehicleType', b'')
+        self._addStringProperty(b'userName', b'')
+        self._addNumberProperty(b'relativePower', 0)
+        self._addNumberProperty(b'speedLimit', 0)
+        self._addNumberProperty(b'maxHealth', 0)
+        return

@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Εμπροσθοφυλακή-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα που έπληξαν το όχημά σας"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα που προκάλεσαν φθορά το όχημά σας"
 
 msgid "pm3_10_1_14_short"
 msgstr "Εμπροσθοφυλακή-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Ενέδρα-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Προκαλέστε %(goal)s HP φθοράς, χωρίς να εντοπιστείτε την στιγμή που προκαλείτε τη φθορά"
+msgstr "Προκαλέστε %(goal)s HP φθοράς χωρίς να είστε ορατοί στους αντιπάλους σας"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Καταστρέψτε με βολές ένα εχθρικό βαρύ άρμα, προκαλώντας σε αυτό τουλάχιστον %(damageDealt)s HP φθοράς"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Ενέδρα-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Προκαλέστε %(hits)s φορές φθορά σε εχθρικά οχήματα που δεν είναι εντοπισμένα τη στιγμή που δέχονται τη φθορά"
+msgstr "Προκαλέστε φθορά σε εχθρικά οχήματα που δεν είναι ορατά σε σας τη στιγμή που προκαλείται η φθορά, %(hits)s φορές"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα %(uniqueGoal)s διαφορετικών τύπων"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Εμπροσθοφυλακή-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα που έπληξαν το όχημά σας"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα που προκάλεσαν φθορά το όχημά σας"
 
 msgid "pm3_8_1_9_short"
 msgstr "Εμπροσθοφυλακή-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Ενέδρα-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Προκαλέστε %(goal)s HP φθοράς, χωρίς να εντοπιστείτε την στιγμή που προκαλείτε τη φθορά"
+msgstr "Προκαλέστε %(goal)s HP φθοράς χωρίς να είστε ορατοί στους αντιπάλους σας"
 
 msgid "pm3_8_2_9_short"
 msgstr "Ενέδρα-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Εμπροσθοφυλακή-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα που έπληξαν το όχημά σας"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα που προκάλεσαν φθορά το όχημά σας"
 
 msgid "pm3_9_1_14_short"
 msgstr "Εμπροσθοφυλακή-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Ενέδρα-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Προκαλέστε %(goal)s HP φθοράς, χωρίς να εντοπιστείτε την στιγμή που προκαλείτε τη φθορά"
+msgstr "Προκαλέστε %(goal)s HP φθοράς χωρίς να είστε ορατοί στους αντιπάλους σας"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Καταστρέψτε ένα εχθρικό όχημα, προκαλώντας τουλάχιστον %(damageDealt)s HP φθοράς σε αυτό"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Ενέδρα-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Προκαλέστε %(damageDealt)s HP φθοράς σε εχθρικά οχήματα που δεν είναι εντοπισμένα τη στιγμή που δέχονται τη φθορά"
+msgstr "Προκαλέστε %(damageDealt)s HP φθοράς σε εχθρικά οχήματα που δεν είναι ορατά σε σας τη στιγμή που προκαλείται η φθορά"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα %(uniqueGoal)s διαφορετικών τύπων"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Αρωγή-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Προκαλέστε %(damageDealt)s HP φθοράς σε εχθρικά οχήματα που δεν είναι εντοπισμένα τη στιγμή που δέχονται τη φθορά"
+msgstr "Προκαλέστε %(damageDealt)s HP φθοράς σε εχθρικά οχήματα που δεν είναι ορατά σε σας τη στιγμή που προκαλείται η φθορά"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Καταστρέψτε %(goal)s εχθρικά Α/Κ Πυροβόλα ή ελαφρά άρματα μάχης"

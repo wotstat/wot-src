@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, ilgums: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "Normāla Grūtības Pakāpe"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "Grūta Grūtības Pakāpe"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "Murga Grūtības Pakāpe"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "Babilonas Anomālija - {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "Atdzimšanas laiki: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "Nepieņemams sniegums: bezdarbība/dezertēšana.\nBalva nav saņemta."
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "Jūsu komandai neizdevās: pirmā Fāze netika izpildīta.\nBalva nav saņemta."
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s."
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s."
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)."
+
+msgid "hw_battle_result/status/lose"
+msgstr "KAUJA PABEIGTA"
+
+msgid "hw_battle_result/status/win"
+msgstr "UZVARA"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "Kauja beigusies"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "Tumsa ir izkliedēta! Labs komandas darbs!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "KAUJA PABEIGTA"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "%(phaseNumber)s FĀZE PABEIGTA"
+msgstr[1] "%(phaseNumber)s FĀZES PABEIGTAS"
+msgstr[2] "%(phaseNumber)s FĀZES PABEIGTAS"
+
+msgid "hw_battle_result/title/win"
+msgstr "BOSS SAKAUTS"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "Visi sabiedroto tanki tika iznīcināti."
+
+msgid "hw_finish/reason/3/lose"
+msgstr "Laiks beidzies."
+
+msgid "hw_finish/reason/5/lose"
+msgstr "Visi sabiedrotie ir pametuši kauju."
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "Ceļš uz Tumšo torni tagad ir skaidrs."
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "Ellīgi jā, mēs to izdarījām!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "Mēs piespiedām to atkāpties, taču ar to viss vēl nav beidzies."
+
+msgid "teamList/actions"
+msgstr "Ātras Darbības"
+
+msgid "teamList/teammates"
+msgstr "Sabiedrotie"

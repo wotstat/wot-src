@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s vapaaseen ja miehistökokemukseen %(effectHours)s ajan"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s bonus %(effectHours)s ajaksi taistelussa ansaittuun kokemukseen"
+msgstr "%(effectValue)s taistelukokemukseen %(effectHours)s ajan"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s bonus taisteluissa ansaittaviin krediitteihin %(effectTime)s ajan"
@@ -4165,6 +4165,9 @@ msgstr "Tämä vaunu on varustettu tykin kilpeen liitetyllä raketinheittimellä
 msgid "moduleInfo/closeBtn"
 msgstr "Sulje"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Taistelukaasu"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Käytössä vaunuissa, joissa on rumpulipasjärjestelmä:"
 
@@ -6162,6 +6165,12 @@ msgstr "(kpl)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Elektromekaanisen kaksoistähtäimen kestoaika"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Jäähtymisaika"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Kesto"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Jäähtymisaika"

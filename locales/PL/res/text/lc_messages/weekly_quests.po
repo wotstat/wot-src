@@ -29,7 +29,7 @@ msgid "condition/common/111"
 msgstr "Zniszczyć pojazdy przeciwnika"
 
 msgid "condition/common/112"
-msgstr "Trafić pojazdy przeciwnika z odległości przynajmniej 300 m"
+msgstr "Wielokrotnie zadać uszkodzenia pojazdom przeciwnika z odległości 300 m lub większej"
 
 msgid "condition/common/114"
 msgstr "Trafić z przebiciem pancerza"
@@ -41,7 +41,7 @@ msgid "condition/common/116"
 msgstr "Zadać pojazdom przeciwnika więcej uszkodzeń niż wynosi liczba PW własnego pojazdu"
 
 msgid "condition/common/117"
-msgstr "Zniszczyć pojazdy przeciwnika wykryte przez siebie"
+msgstr "Zniszczyć pojazdy przeciwnika bez asysty"
 
 msgid "condition/common/118"
 msgstr "Zadać uszkodzenia unieruchomionym pojazdom przeciwnika"
@@ -71,7 +71,7 @@ msgid "condition/common/129"
 msgstr "Unieruchomić przynajmniej 1 pojazd przeciwnika w jednej bitwie"
 
 msgid "condition/common/131"
-msgstr "Trafić pojazdy przeciwnika w ciągu pierwszych 5 minut bitwy"
+msgstr "Wielokrotnie zadać uszkodzenia pojazdom przeciwnika w ciągu pierwszych 5 minut bitwy"
 
 msgid "condition/common/132"
 msgstr "Zadać uszkodzenia czołgom ciężkim lub średnim przeciwnika"
@@ -101,7 +101,7 @@ msgid "condition/common/142"
 msgstr "Asystować w zadaniu uszkodzeń, wykrywając i pozostając niewykrytym"
 
 msgid "condition/common/143"
-msgstr "Trafić czołgi ciężkie przeciwnika"
+msgstr "Wielokrotnie zadać uszkodzenia czołgom ciężkim przeciwnika"
 
 msgid "condition/common/144"
 msgstr "Zniszczyć czołgi ciężkie lub średnie przeciwnika"
@@ -116,13 +116,13 @@ msgid "condition/common/147"
 msgstr "Zdobyć doświadczenie"
 
 msgid "condition/common/148"
-msgstr "Zadać uszkodzenia, pozostając niewykrytym"
+msgstr "Zadać uszkodzenia, pozostając niewykrytym przez przeciwników"
 
 msgid "condition/common/149"
-msgstr "Zadać uszkodzenia, pozostając niewykrytym"
+msgstr "Zadać uszkodzenia, pozostając niewykrytym przez przeciwników"
 
 msgid "condition/common/153"
-msgstr "Trafić czołgi ciężkie lub średnie przeciwnika"
+msgstr "Wielokrotnie zadać uszkodzenia czołgom ciężkim lub średnim przeciwnika"
 
 msgid "condition/common/155"
 msgstr "Zadać uszkodzenia pojazdom przeciwnika dowolnej nacji z wyłączeniem Chin"
@@ -158,7 +158,7 @@ msgid "condition/common/168"
 msgstr "Zadać uszkodzenia pojazdom przeciwnika dowolnej nacji z wyłączeniem Francji"
 
 msgid "condition/common/169"
-msgstr "Zadać uszkodzenia przy prędkości przynajmniej 50 km/h"
+msgstr "Zadać uszkodzenia, poruszając się z prędkością 50 km/h lub większą"
 
 msgid "condition/common/172"
 msgstr "Zadać uszkodzenia pojazdom przeciwnika dowolnej nacji z wyłączeniem Japonii"
@@ -173,7 +173,7 @@ msgid "condition/common/177"
 msgstr "Zdobyć doświadczenie"
 
 msgid "condition/common/178"
-msgstr "Trafić pojazdy przeciwnika przynajmniej 5 razy w jednej bitwie"
+msgstr "Przynajmniej 5 razy w jednej bitwie zadać uszkodzenia pojazdom przeciwnika"
 
 msgid "condition/common/179"
 msgstr "Zadać uszkodzenia pojazdom przeciwnika dowolnej nacji z wyłączeniem Czechosłowacji"
@@ -236,7 +236,7 @@ msgid "condition/common/205"
 msgstr "Wykryć przeciwników"
 
 msgid "condition/common/206"
-msgstr "Trafić pojazdy przeciwnika"
+msgstr "Wielokrotnie zadać uszkodzenia pojazdom przeciwnika"
 
 msgid "condition/common/207"
 msgstr "Trafić z przebiciem pancerza"
@@ -248,7 +248,7 @@ msgid "condition/common/209"
 msgstr "Asystować przez wykrywanie, ogłuszenie lub unieruchomienie w zadaniu uszkodzeń"
 
 msgid "condition/common/210"
-msgstr "Trafić pojazdy przeciwnika z odległości przynajmniej 300 m"
+msgstr "Wielokrotnie zadać uszkodzenia pojazdom przeciwnika z odległości 300 m lub większej"
 
 msgid "condition/common/211"
 msgstr "Otrzymać Odznakę mistrzowską III klasy lub wyższą"
@@ -272,7 +272,7 @@ msgid "condition/common/402"
 msgstr "Zadać i zablokować uszkodzenia"
 
 msgid "condition/common/403"
-msgstr "Trafić czołgi lekkie przeciwnika"
+msgstr "Wielokrotnie zadać uszkodzenia czołgom lekkim przeciwnika"
 
 msgid "condition/common/404"
 msgstr "Zniszczyć unieruchomione pojazdy przeciwnika"
@@ -284,7 +284,7 @@ msgid "condition/common/406"
 msgstr "Zadać, otrzymać i zablokować uszkodzenia"
 
 msgid "condition/common/408"
-msgstr "Zadać uszkodzenia, pozostając niewykrytym"
+msgstr "Zadać uszkodzenia, pozostając niewykrytym przez przeciwników"
 
 msgid "condition/common/409"
 msgstr "Zniszczyć pojazdy przeciwnika z odległości najwyżej 100 m"
@@ -314,7 +314,7 @@ msgid "condition/common/420"
 msgstr "Zadać uszkodzenia"
 
 msgid "condition/common/421"
-msgstr "Trafić poruszające się pojazdy przeciwnika"
+msgstr "Wielokrotnie zadać uszkodzenia poruszającym się pojazdom przeciwnika"
 
 msgid "condition/common/422"
 msgstr "Zadać uszkodzenia pojazdom przeciwnika dowolnej nacji z wyłączeniem ZSRR"
@@ -374,10 +374,10 @@ msgid "condition/common/441"
 msgstr "Asystować przez wykrywanie w zadaniu uszkodzeń"
 
 msgid "condition/common/442"
-msgstr "Zadać uszkodzenia z odległości przynajmniej 300 m"
+msgstr "Zadaj uszkodzenia z odległości przynajmniej 300m"
 
 msgid "condition/common/443"
-msgstr "Trafić pojazdy przeciwnika z odległości przynajmniej 300 m"
+msgstr "Wielokrotnie zadać uszkodzenia pojazdom przeciwnika z odległości 300 m lub większej"
 
 msgid "condition/common/444"
 msgstr "Zadać uszkodzenia czołgom ciężkim lub niszczycielom czołgów przeciwnika"

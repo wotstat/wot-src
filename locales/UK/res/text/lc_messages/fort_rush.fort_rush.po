@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Усі блоки даних завершено!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Блок даних {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Візьміть антени під контроль. Утримуйте мережу. Убезпечте передачу."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "Режим буде доступний"
+
+msgid "bannerTooltip/header"
+msgstr "Чорний сигнал"
+
+msgid "bannerTooltip/mode"
+msgstr "РЕЖИМ"
+
+msgid "bannerTooltip/modeHint"
+msgstr "— перемикає на інший режим гри"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Продуктивності вашого комп'ютера недостатньо для цього режиму. Виникнуть проблеми з графікою та переміщенням техніки, також можливий аварійний вихід із клієнта гри."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "У разі недостатньої продуктивності спробуйте знизити налаштування графіки."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Цей режим вимагає високої продуктивності комп'ютера. Можливі проблеми із завантаженням мапи, графікою та переміщенням техніки. У разі недостатньої продуктивності спробуйте знизити налаштування графіки."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Мала продуктивність"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Цей режим вимогливий до комп'ютера"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Зниження продуктивності"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "Очки міцності відновлено"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Очки служби"
+
+msgid "battleLoading/description"
+msgstr "Візьміть антени під контроль. Утримуйте мережу. Убезпечте передачу."
+
+msgid "battleLoading/header"
+msgstr "Чорний сигнал"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "Захоплення антени відновлює невелику кількість очок міцності вашої машини. Скористайтеся цим бонусом, щоб утримати позицію й підготуватися до контратаки."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Захоплення й відновлення"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "Антени неможливо захопити, поки поруч техніка супротивника. Розберіться з непроханими гостями, щоб продовжити захоплення цілі."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Захоплення оскаржується"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "Після передислокації машина захищена від шкоди протягом 10 секунд. Використайте цей час, щоб повернутися в бій чи зайняти укриття."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Захист після передислокації"
+
+msgid "battleQueue/title"
+msgstr "Чорний сигнал"
+
+msgid "capturingIndicator/captured"
+msgstr "Антена захоплена"
+
+msgid "capturingIndicator/capturing"
+msgstr "Захоплення антени"
+
+msgid "capturingIndicator/contesting"
+msgstr "Антена оскаржується"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "Нейтралізація антени"
+
+msgid "endGame/reason/210"
+msgstr "Обидві команди досягли ліміту сигнальних очок"
+
+msgid "endGame/reason/3"
+msgstr "Досягнуто ліміту часу"
+
+msgid "endGame/reason/6/lose"
+msgstr "Супротивник досяг ліміту сигнальних очок"
+
+msgid "endGame/reason/6/win"
+msgstr "Ваша команда досягла ліміту сигнальних очок"
+
+msgid "endGame/reason/7"
+msgstr "Досягнуто ліміту часу"
+
+msgid "notifications/progression/header"
+msgstr "Вітаємо!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Докладніше"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Нагороди за завершення етапу прогресії&nbsp;%(stageIdx)s: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Усі блоки даних було завершено."
+
+msgid "progression/completedTitle"
+msgstr "Прогресію завершено!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Залишилося часу:"
+
+msgid "progression/dailyMissions/title"
+msgstr "Польові накази"
+
+msgid "progression/description"
+msgstr "Виконуйте щоденні завдання в боях режиму «Чорний сигнал», щоб просуватися прогресією."
+
+msgid "progression/info_button/body"
+msgstr "Натисніть, щоб дізнатися подробиці"
+
+msgid "progression/info_button/header"
+msgstr "Про Чорний сигнал"
+
+msgid "progression/widget/stageLabel"
+msgstr "Блок даних %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Ви завершили всі блоки даних!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Завершено"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Нагороди за блок даних"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Поточний блок даних"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "До оновлення щоденних завдань:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Чорний сигнал"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Поточний прогрес"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "Прогресія тимчасово недоступна."
+
+msgid "progression/widget/unavailable"
+msgstr "Прогресія недоступна"
+
+msgid "progressionView/stateHeader"
+msgstr "Прогресія «Чорного сигналу»"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Скасувати"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Ви потрібні своїй команді! Якщо покинете бій, вона опиниться в невигідному становищі, а ви не отримаєте жодних бонусів або прогресу завдання."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Вийти"
+
+msgid "quitBattle/leaver/title"
+msgstr "Ви залишаєте битву"
+
+msgid "respawnTimer/description"
+msgstr "Інша позиція для передислокації може дати вам стратегічну перевагу."
+
+msgid "respawnTimer/title"
+msgstr "Розгортання за:"
+
+msgid "rewardScreen/button"
+msgstr "Так!"
+
+msgid "rewardScreen/title"
+msgstr "Нагороди за блок даних відкрито"
+
+msgid "timersPanel/invulnerable"
+msgstr "Невразливий"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Заробляйте пакети даних, щоб завершувати блоки даних й одержувати цінні ресурси, включно зі значною нагородою. Пакети даних можна отримати за завдавання шкоди, знищення супротивників у бою, захоплення точок і виконання щоденних завдань."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Пакет даних"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Уся техніка"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Скинути фільтри"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Скиньте фільтри, щоб переглянути доступну техніку"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "У плейлисті немає придатної техніки для цього режиму."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Немає придатної техніки"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Відповідної техніки не знайдено"
+
+msgid "welcomeScreen/button"
+msgstr "Продовжити"
+
+msgid "welcomeScreen/description1"
+msgstr "Ви частина бронетанкового спецпідрозділу, що отримала наказ захопити й утримувати секретну мережу в зоні запеклої боротьби. Утримуйте контроль над мережею за будь-яку ціну."
+
+msgid "welcomeScreen/description2"
+msgstr "Хтось доклав чимало зусиль, щоб приховати ці розвіддані. Виконуйте завдання, щоб повернути зашифровані фрагменти."
+
+msgid "welcomeScreen/description3"
+msgstr "Завершуйте блоки даних, щоб отримувати цінні нагороди за виконання завдань події."
+
+msgid "welcomeScreen/header1"
+msgstr "Захопіть антени"
+
+msgid "welcomeScreen/header2"
+msgstr "Декодуйте передачу"
+
+msgid "welcomeScreen/header3"
+msgstr "Прогресія й нагороди"
+
+msgid "welcomeScreen/title"
+msgstr "Чорний сигнал"

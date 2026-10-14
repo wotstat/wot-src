@@ -1981,9 +1981,6 @@ msgstr "Dienstfehler „%(vehName)s“. Nicht genug Anleihen, um Verbrauchsmater
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Dienstfehler „%(vehName)s“. Nicht genug Gold, um Verbrauchsmaterial zu kaufen. Versuchen Sie es später noch einmal."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Ausführung unmöglich. Ihr Gold ist wieder verfügbar, sobald die Funktionalität von WG Wallet wiederhergestellt wurde."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Dienstfehler „%(vehName)s“. Verbrauchsmaterial konnte nicht nachgefüllt werden. Versuchen Sie es später noch einmal."
 
@@ -1995,9 +1992,6 @@ msgstr "Dienstfehler „%(vehName)s“. Nicht genug Kreditpunkte, um Munition zu
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Dienstfehler „%(vehName)s“. Nicht genug Gold, um Munition zu kaufen."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Ausführung unmöglich. Ihr Gold ist wieder verfügbar, sobald die Funktionalität von WG Wallet wiederhergestellt wurde."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Dienstfehler „%(vehName)s“. Das Fahrzeug ist gesperrt."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "%(userString)s wurde erforscht. Fahrzeug-Erfahrung benutzt: %(unspentXP)s. Freie Erfahrung benutzt: %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Das System der Elitebelohnungen ist jetzt für %(vehicle)s verfügbar."
+msgstr "Das System der Elitebelohnungen ist jetzt für das Fahrzeug „%(vehicle)s“ verfügbar."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Elitebelohnungen"

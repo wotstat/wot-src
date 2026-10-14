@@ -328,6 +328,9 @@ msgstr "Получи награда"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "Получи награди"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "Всяка изпълнена Стандартна, Премиум или Бонус мисия допринася за вашия напредък."
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "Достъпно"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "В екшъна! Изпълнете дневните мисии и спечелете епични награди: {progres}"
+msgstr "В екшъна! Изпълнете дневните мисии и спечелете епични награди: {{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "Когато изпълните три стандартни мисии става достъпна бонус мисия, която предлага още по-ценни награди. Бонус мисията трябва да бъде изпълнена до края на деня или ще изтече."
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "Щитове"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "Ограничения за машина:"
+msgstr "Изпълнете, като използвате"
 
 msgid "tooltip/weekly_mission"
 msgstr "Седмична мисия"

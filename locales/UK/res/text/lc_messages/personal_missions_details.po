@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Авангард-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Завдати %(goal)s од. шкоди машинам супротивника, які влучили у вас"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника, яка завдала шкоди вашій машині"
 
 msgid "pm3_10_1_14_short"
 msgstr "Авангард-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Засідка-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Завдати %(goal)s од. шкоди, залишаючись непоміченими в мить її заподіяння"
+msgstr "Завдати %(goal)s од. шкоди, залишаючись невидимими для супротивника"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Знищити важкий танк супротивника пострілом, завдавши тому щонайменше %(damageDealt)s од. шкоди"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Засідка-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "%(hits)s р. завдати шкоди машинам супротивника, що в цей момент не виявлені"
+msgstr "Завдати шкоди невидимій для вас техніці супротивника %(hits)s р."
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Знищити %(goal)s од. техніки %(uniqueGoal)s різних типів"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Підтримка-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Допомогти союзникам завдати %(goal)s од. шкоди, передавши розвіддані й залишаючись непоміченими у мить її заподіяння"
+msgstr "Допомогти союзникам завдати %(goal)s од. шкоди техніці супротивника, передавши розвіддані й залишаючись непоміченими в мить її заподіяння"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Оглушити важкі танки супротивника %(goal)s р."
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Авангард-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Завдати %(goal)s од. шкоди машинам супротивника, які влучили у вас"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника, яка завдала шкоди вашій машині"
 
 msgid "pm3_8_1_9_short"
 msgstr "Авангард-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Засідка-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Завдати %(goal)s од. шкоди, залишаючись непоміченими в мить її заподіяння"
+msgstr "Завдати %(goal)s од. шкоди, залишаючись невидимими для супротивника"
 
 msgid "pm3_8_2_9_short"
 msgstr "Засідка-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Авангард-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Завдати %(goal)s од. шкоди машинам супротивника, які влучили у вас"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника, яка завдала шкоди вашій машині"
 
 msgid "pm3_9_1_14_short"
 msgstr "Авангард-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Засідка-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Завдати %(goal)s од. шкоди, залишаючись непоміченими в мить її заподіяння"
+msgstr "Завдати %(goal)s од. шкоди, залишаючись невидимими для супротивника"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Знищити машину супротивника, завдавши їй щонайменше %(damageDealt)s од. шкоди"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Засідка-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Завдати %(damageDealt)s од. шкоди машинам супротивника, що в цей момент не виявлені"
+msgstr "Завдати %(damageDealt)s од. шкоди невидимій для вас техніці супротивника"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Знищити %(goal)s од. техніки %(uniqueGoal)s різних типів"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Підтримка-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Допомогти союзникам завдати %(goal)s од. шкоди, передавши розвіддані й залишаючись непоміченими у мить її заподіяння"
+msgstr "Допомогти союзникам завдати %(goal)s од. шкоди техніці супротивника, передавши розвіддані й залишаючись непоміченими в мить її заподіяння"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Оглушити важкі танки супротивника сумарно на %(goal)s с. Враховується потенційна тривалість оглушення"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Підтримка-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Завдати %(damageDealt)s од. шкоди машинам супротивника, що в цей момент не виявлені"
+msgstr "Завдати %(damageDealt)s од. шкоди невидимій для вас техніці супротивника"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Знищити %(goal)s од. легких танків чи САУ супротивника"

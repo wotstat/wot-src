@@ -793,13 +793,13 @@ PREM_TYPE_TO_ENTITLEMENT = {v: k for k, v in ENTITLEMENT_TO_PREM_TYPE.items()}
 
 class ENTITLEMENT_OPS:
     GRANT = b'grant'
-    GRANT_WITHOUT_EXCESS = b'grant_without_excess'
+    FORCED_GRANT = b'forced_grant'
     CONSUME = b'consume'
-    CONSUME_GREEDY = b'consume_greedy'
+    FORCED_CONSUME = b'forced_consume'
     ALL = (
-     GRANT, GRANT_WITHOUT_EXCESS, CONSUME, CONSUME_GREEDY)
-    GRANT_ALL = (GRANT, GRANT_WITHOUT_EXCESS)
-    CONSUME_ALL = (CONSUME, CONSUME_GREEDY)
+     GRANT, FORCED_GRANT, CONSUME, FORCED_CONSUME)
+    GRANT_ALL = (GRANT, FORCED_GRANT)
+    CONSUME_ALL = (CONSUME, FORCED_CONSUME)
 
 
 class PREM_BONUS_TYPES:
@@ -881,6 +881,7 @@ class Configs(enum.Enum):
     W2GT_CONFIG = b'w2gt_config'
     CHALLENGES_CONFIG = b'challenges_config'
     PRE_BATTLE_HIGHLIGHTS_CONFIG = b'pbh_config'
+    GAMEFACE_HUD_CONFIG = b'gameface_hud_config'
 
 
 INBATTLE_CONFIGS = [
@@ -1842,7 +1843,6 @@ class AUTO_MAINTENANCE_RESULT:
     NOT_ENOUGH_ASSETS = 1
     NOT_PERFORMED = 2
     DISABLED_OPTION = 3
-    NO_WALLET_SESSION = 4
     RENT_IS_OVER = 5
     RENT_IS_ALMOST_OVER = 6
     BUY_NOT_AUTO_EQUIP = 7
@@ -2147,12 +2147,6 @@ class USER_SERVER_SETTINGS:
     def isBattleInvitesForbidden(cls, settings):
         if settings and cls.GAME_EXTENDED in settings:
             return not settings[cls.GAME_EXTENDED] >> 2 & 1
-        return False
-
-    @classmethod
-    def isMapsInDevEnabled(cls, settings):
-        if settings and cls.GAME_EXTENDED_2 in settings:
-            return bool(settings[cls.GAME_EXTENDED_2] >> 5 & 1)
         return False
 
 
@@ -3742,10 +3736,6 @@ class RandomizationType(object):
     UNIFORM = b'UNIFORM'
 
 
-class RANDOM_FLAGS:
-    IS_MAPS_IN_DEVELOPMENT_ENABLED = 2
-
-
 class PENALTY_TYPES(enum.Enum):
     WARNING = b'warning'
     PENALTY = b'penalty'
@@ -4292,15 +4282,15 @@ class SHELL_CALIBRATION_STATE(enum.IntEnum):
 VEHICLE_MIN_ABS_INITIAL_SPEED = 0.1
 SHOT_PREDICTION_BUFFER = 0.3
 QUEST_BONUS_TYPES = {
- 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 
- 957, 1118, 
- 1119, 1120, 1121, 1122, 1123, 1124, 
- 1125, 1126, 1127, 1128, 1129, 
- 1130, 
- 1131, 1132, 1133, 1134, 1135, 1136, 
- 1137, 1138, 1139, 1140, 
- 1141, 
- 1142, 1143, 1144}
+ 1107, 1108, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 
+ 957, 1116, 
+ 1117, 1118, 1119, 1120, 1121, 1122, 
+ 1123, 1124, 1125, 1126, 1127, 
+ 1128, 
+ 1129, 1130, 1131, 1132, 1133, 1134, 
+ 1135, 1136, 1137, 1138, 
+ 1139, 
+ 1140, 1141, 1142}
 
 class W2GT_STAGES(object):
     STAGE1 = b'stage1'

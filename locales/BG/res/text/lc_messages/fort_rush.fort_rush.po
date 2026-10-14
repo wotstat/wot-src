@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Всички блокове с данни са завършени!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Блок с данни {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Поеми контрола над антените. Задръж мрежата. Осигури предаването."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "Режимът ще бъде достъпен за"
+
+msgid "bannerTooltip/header"
+msgstr "Черен сигнал"
+
+msgid "bannerTooltip/mode"
+msgstr "РЕЖИМ"
+
+msgid "bannerTooltip/modeHint"
+msgstr "— превключване към друг режим на игра"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Производителността на вашия компютър е недостатъчна за този режим. Ще се наблюдават проблеми с графиката и движението на машините. Възможно е да има и блокиране на клиента на играта."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "В случай на недостатъчна производителност, опитайте да намалите графичните настройки."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Този режим изисква висока производителност на компютъра. Ще имате проблеми със зареждане на картите, графиката и движението на машините. В случай на недостатъчна производителност, опитайте по-ниски настройки на графиката."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Ниска производителност"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Режимът натоварва компютъра"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Намалена производителност"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "Възстановени точки живот"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Точки за служба"
+
+msgid "battleLoading/description"
+msgstr "Поеми контрола над антените. Задръж мрежата. Осигури предаването."
+
+msgid "battleLoading/header"
+msgstr "Черен сигнал"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "Превземането на антена възстановява малка част от точките живот на машината ви. Възползвайте се от този бонус, за да задържите позицията и да се подготвите за контраатака."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Защита и възстановяване"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "Антените не могат да бъдат превзети, докато наблизо има вражески машини. Справете се с всички неканени гости, за да продължите с осигуряването на целта."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Оспорвано завладяване"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "След повторно връщане машината ви е защитена от повреди за 10 секунди. Използвайте това време, за да се върнете в битката или да потърсите укритие."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Защита при връщане"
+
+msgid "battleQueue/title"
+msgstr "Черен сигнал"
+
+msgid "capturingIndicator/captured"
+msgstr "Антената е завладяна"
+
+msgid "capturingIndicator/capturing"
+msgstr "Завладяване на антена"
+
+msgid "capturingIndicator/contesting"
+msgstr "Оспорвана антена"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "Неутрализиране на антена"
+
+msgid "endGame/reason/210"
+msgstr "И двата отбора достигнаха лимита за сигнални точки"
+
+msgid "endGame/reason/3"
+msgstr "Достигнат е лимитът за време"
+
+msgid "endGame/reason/6/lose"
+msgstr "Врагът достигна лимита на сигналните точки"
+
+msgid "endGame/reason/6/win"
+msgstr "Вашият отбор достигна лимита на сигналните точки"
+
+msgid "endGame/reason/7"
+msgstr "Достигнат е лимитът за време"
+
+msgid "notifications/progression/header"
+msgstr "Поздравления!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Подробности"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Награди за завършване на етап от прогресията&nbsp;%(stageIdx)s: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Всички блокове с данни са завършени."
+
+msgid "progression/completedTitle"
+msgstr "Прогресията е завършена!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Оставащо време:"
+
+msgid "progression/dailyMissions/title"
+msgstr "Бойни заповеди"
+
+msgid "progression/description"
+msgstr "Изпълнявайте ежедневни мисии в битките за Черен сигнал, за да напредвате в прогресията."
+
+msgid "progression/info_button/body"
+msgstr "Натиснете за допълнителна информация"
+
+msgid "progression/info_button/header"
+msgstr "За Черен сигнал"
+
+msgid "progression/widget/stageLabel"
+msgstr "Блок с данни %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Завършихте всички блокове с данни!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Изпълнено"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Награди за блокове с данни"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Настоящ блок с данни"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "Ежедневните мисии се нулират след:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Черен сигнал"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Текущ напредък"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "Прогресията е временно недостъпна."
+
+msgid "progression/widget/unavailable"
+msgstr "Прогресията е недостъпна"
+
+msgid "progressionView/stateHeader"
+msgstr "Прогресия в Черен сигнал"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Отмени"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Вашият отбор все още се нуждае от вас! Ако напуснете битката, вашият екип ще бъде в неизгодно положение и няма да получите никакви бонуси или да напреднете в мисията."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Изход"
+
+msgid "quitBattle/leaver/title"
+msgstr "Напускате битката"
+
+msgid "respawnTimer/description"
+msgstr "Различна позиция за връщане може да ви осигури стратегическо предимство."
+
+msgid "respawnTimer/title"
+msgstr "Връщане след:"
+
+msgid "rewardScreen/button"
+msgstr "Тъй вярно!"
+
+msgid "rewardScreen/title"
+msgstr "Отключени са награди за блокове с данни"
+
+msgid "timersPanel/invulnerable"
+msgstr "Неуязвим"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Печелете пакети с данни, за да завършвате блокове с данни и да получавате ценни ресурси, включително значителна награда. Пакетите с данни могат да бъдат спечелени чрез нанасяне на поражения, унищожаване на врагове в битка, точки за завладяване и изпълнение на ежедневни мисии."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Пакет с данни"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Всички машини"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Нулирай филтрите"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Нулирайте филтрите, за да видите наличните машини"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "Този списък не съдържа подходящи машини за този режим."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Няма подходящи машини"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Не са открити съответстващи машини"
+
+msgid "welcomeScreen/button"
+msgstr "Продължи"
+
+msgid "welcomeScreen/description1"
+msgstr "Вие сте част от бронирана оперативна група, на която е наредено да осигури и задържи тайна мрежа в оспорвана зона. Трябва да запазите контрола над мрежата на всяка цена."
+
+msgid "welcomeScreen/description2"
+msgstr "Някой е положил огромни усилия, за да запази тази разузнавателна информация в тайна. Изпълнявайте мисии, за да си върнете криптираните фрагменти."
+
+msgid "welcomeScreen/description3"
+msgstr "Изпълнете блоковете с данни, за да получите ценни награди от мисиите на събитието."
+
+msgid "welcomeScreen/header1"
+msgstr "Овладейте антените"
+
+msgid "welcomeScreen/header2"
+msgstr "Дешифрирайте предаването"
+
+msgid "welcomeScreen/header3"
+msgstr "Напредък и награди"
+
+msgid "welcomeScreen/title"
+msgstr "Черен сигнал"

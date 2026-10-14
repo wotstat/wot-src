@@ -10,6 +10,9 @@ msgstr "Ļauj no magazīnas pa vienam izšaut vairākus šāviņus, katram šāv
 msgid "abilities/common/description/autoShootGun"
 msgstr "Šauj lādiņu sērijas ar lielu bojājumu īsā laikā, apmaiņā pret caursišanas spēju un precizitāti. Visefektīvāk tuvcīņā."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Aktivizējiet droseli, lai īslaicīgi palielinātu dzinēja jaudu, ātrumu un manevrētspēju, vienlaikus saglabājot uzticamu lielgabala vadību. Tas ļauj spēlēt veikli un dinamiski, nezaudējot kaujas efektivitāti."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Uguns zvaigžņu šāviņus, kas izraisa maksimālu bojājumu 50 m rādiusā. Šāviņu bojājumi samazinās ar attālumu, padarot tos visefektīvākos tuvā cīņā."
 
@@ -61,6 +64,9 @@ msgstr "Uzlabots Autolādētājs"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Automātiskais lielgabals"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Kaujas droselis"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Dziļās vītnes lielgabals"
 
@@ -102,6 +108,15 @@ msgstr "Turbo Režīms"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Zālves Uguns Režīms"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Uzlabina manevrētspēju, nepasliktinot ieroča vadāmību."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Sistēma ļauj nepārtraukti šaut bez pārlādēšanas un kontrolē, kā ierocis ģenerē siltumu, kad notiek uguns."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Lielgabalam ir īpašas ierīces, kas ļauj pirms šāviena mainīt dažus šāviņa parametrus."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Stāvot uz vietas vai pārvietojoties lēni, uzkrājas precizitātes līmeņi, kas uzlabo nākamā šāviena precizitāti.\nMaksimālā līmenī tiek uzlabota lielgabala vadāmība, un pat kustībā vai grozot tornīti/korpusu izkliede samazinās."
@@ -355,6 +370,15 @@ msgstr "Ļauj izšaut no abiem lielgabaliem vienlaikus, apmaiņā pret ilgāku p
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Īpaša mehānika, kas uz īsu laiku palielina dzinēja jaudu, paātrinājumu un maksimālo ātrumu."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Aktivizējiet droseli, lai īslaicīgi palielinātu dzinēja jaudu, ātrumu un manevrētspēju, vienlaikus saglabājot uzticamu lielgabala vadību. Tas ļauj spēlēt veikli un dinamiski, nezaudējot kaujas efektivitāti."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Ieroču sistēma var šaut nepārtraukti bez pārlādēšanas. Katrs šāviens rada siltumu: jo augstāka temperatūra, jo vairāk parametru mainās. Nepārtraukta šaušana izraisa pārkaršanu, kas neļauj turpināt uguni līdz atdzišanai."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Tanka lielgabalam ir īpašas ierīces, kas ļauj pirms šāviena mainīt dažus lādiņa parametrus. Komplektācija parāda, kurus parametrus ietekmēs pārslēgšanās starp šaušanas režīmiem."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Paliekot nekustīgam vai pārvietojoties zem noteikta ātruma, tavs tanks var kalibrēt savu analogo ballistisko skaitļošanas ierīci un uzkrāt precizitātes līmeņus, palielinot nākamā šāviena precizitāti. Ja pārsniedz ātruma robežu, precizitātes līmeņu uzkrāšana tiek apturēta, līdz samazini ātrumu. Pie maksimālā precizitātes līmeņa tanks iegūst ievērojamu lielgabala stabilizāciju, samazinot izkliedi kustībā vai torņa/korpusa pagrieziena laikā. Efekts tiek noņemts pēc šāviena."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Šī mehāniskā modifikācija būtiski palielina tanka paātrinājumu, dzinēja jaudu un maksimālo ātrumu uz priekšu un atpakaļ uz īsu laiku, ļaujot ātri reaģēt uz ienaidnieka uzbrukumiem un pārsteigt pretiniekus ar dinamiskām manevrēm. Uzturot lielu kustības ātrumu, paātrinās mehānikas atdzišana."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Visas norādītās vērtības ir maksimāli iespējamās šim tankam. Aprīkojums, direktīvas un patēriņa priekšmeti var mainīt šīs vērtības, taču šeit šīs izmaiņas nav atspoguļotas."
+msgstr "Visas norādītās vērtības ir vislabākās iespējamās tankam. Aprīkojums, direktīvas un patēriņa priekšmeti var mainīt šīs vērtības, taču šīs izmaiņas šeit nav atspoguļotas."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "kalibrējama AP lādiņš"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "kredītu par katru kauju"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "Ekipāžas pārvietošana no jebkuras tanku klases bez soda."
+msgstr "apkalpes pārcelšana no jebkura veida tanka bez soda"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "Kaujas Pieredze un Apkalpes Pieredze"

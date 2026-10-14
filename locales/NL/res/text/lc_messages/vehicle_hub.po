@@ -10,6 +10,9 @@ msgstr "Een reeks granaten uit het magazijn kan één voor één worden afgevuur
 msgid "abilities/common/description/autoShootGun"
 msgstr "Vuurt een reeks granaten af die in een mum van tijd veel schade veroorzaken, ten koste van penetratie en nauwkeurigheid. Vooral effectief in gevechten van dichtbij."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Activeer de gashendel om tijdelijk het motorvermogen, de snelheid en wendbaarheid te verhogen, terwijl de kanoneigenschappen hetzelfde blijven. Zo kun je een dynamische speelstijl hanteren zonder dat dat ten koste gaat van de gevechtseffectiviteit."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Vuurt stergranaten af, die binnen 50 m maximale schade veroorzaken. De schade van de granaten neemt met afgelegde afstand af, waardoor ze vooral van dichtbij effectief zijn."
 
@@ -61,6 +64,9 @@ msgstr "Verbeterde autoherlader"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Automatisch kanon"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Gevechtsgashendel"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Diep gegroefd kanon"
 
@@ -102,6 +108,15 @@ msgstr "Turbomodus"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Vuursalvomodus"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Verhoogt de wendbaarheid zonder verslechterde kanoneigenschappen."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Het systeem maakt continu vuren zonder te herladen mogelijk en beheert hoe het kanon hitte genereert tijdens het vuren."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Het kanon heeft speciale apparaten waarmee sommige granaateigenschappen voor het vuren kunnen worden aangepast."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Door stil te staan of langzaam te rijden, vergaar je nauwkeurigheidsniveaus die de precisie van je volgende schot verbeteren.\nOp het hoogste niveau heeft je kanon degelijke richteigenschappen en lagere spreiding, ook tijdens beweging en het draaien van de romp/koepel."
@@ -355,6 +370,15 @@ msgstr "Beide kanonnen kunnen tegelijkertijd worden afgevuurd, wat tot een lange
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Een speciaal mechanisme dat kort motorvermogen, acceleratie en topsnelheid verhoogt."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Activeer de gashendel om tijdelijk het motorvermogen, de snelheid en wendbaarheid te verhogen, terwijl de kanoneigenschappen hetzelfde blijven. Zo kun je een dynamische speelstijl hanteren zonder dat dat ten koste gaat van de gevechtseffectiviteit."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Het kanon kan continu vuren zonder te worden herladen. Elk schot genereert hitte: hoe hoger de temperatuur, hoe meer sommige parameters veranderen. Door continu te vuren raakt het kanon oververhit, waarna het pas kan worden afgevuurd als het is afgekoeld."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Het kanon van het voertuig heeft speciale apparaten waarmee sommige granaateigenschappen voor het vuren kunnen worden aangepast. De configuratie toont welke eigenschappen veranderen door de vuurmodus te switchen."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Door stil te staan of onder een bepaalde snelheid te blijven, zal je voertuig zijn analoog ballistisch rekenapparaat kalibreren en nauwkeurigheidsniveaus opbouwen, wat de precisie van je volgende schot verbetert. Wanneer je de snelheidslimiet overschrijdt, zul je geen nauwkeurigheidsniveaus opbouwen. Op het hoogste niveau heeft je voertuig nagenoeg perfecte kanonstabilisatie, met verminderde spreiding door beweging en romp-/koepelrotatie. Het effect wordt na het vuren verwijderd."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Deze mechanische modificatie verhoogt kort de acceleratie, het motorvermogen en de voorwaartse en achterwaartse topsnelheid van het voertuig, waardoor je sneller op vijandelijke aanvallen kunt reageren en opponenten kunt verrassen. Het rijden op hoge snelheid versnelt de cooldown van het mechanisme."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Alle getoonde waardes zijn de maximaal haalbare voor het voertuig. Uitrusting, gevechtsbevelen en verbruiksartikelen kunnen deze waardes veranderen, maar dat wordt hier niet getoond."
+msgstr "Alle getoonde waardes zijn de best haalbare voor het voertuig. Uitrusting, gevechtsbevelen en verbruiksartikelen kunnen deze waardes veranderen, maar dat wordt hier niet getoond."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "kalibreerbare AP-granaat"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "credits voor elk gevecht"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "bemanning overzetten van elke voertuigklasse zonder straf"
+msgstr "bemanning overzetten van elk voertuigtype zonder straf"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "Gevechtservaring en Bemanningservaring"

@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Korozija"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Bojājumi no Zonas"
+
+msgid "damageLog/static_death_zone"
+msgstr "Bojājumi no zonas"
+
+msgid "damageShieldReady"
+msgstr "Enerģijas Vairogs ir gatavs izmantošanai."
+
+msgid "fastReloadReady"
+msgstr "Ātra Pārlāde ir gatava izmantošanai."
+
+msgid "hitMarker/useless"
+msgstr "Bezjēdzīgi!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Ārkārtas Labojumi ir gatavi izmantošanai."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Enerģijas Šāviens ir gatavs izmantošanai."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Vampīrisks Šāviens ir gatavs izmantošanai."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Apdullināšanas Šāviens ir gatavs izmantošanai."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "lai skatītu režīma noteikumus"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Nospiediet"
+
+msgid "hwInvisibilityReady"
+msgstr "Neredzamības Atjaunošanās ir gatavs izmantošanai."
+
+msgid "nitroRamDamageReady"
+msgstr "Turbokompresors ir gatavs izmantošanai."
+
+msgid "pickupSouls"
+msgstr "Jūs esiet savākuši %(souls)s Mirium gabalu(s)"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Nevar izmantot [%(name)s]: lielgabals ir bojāts."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Tanks nav bojāts."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Nevar izmantot [%(name)s]: dzinējs ir iznīcināts."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Nevar izmantot [%(name)s]: nepietiek Mirium, lai aktivizētu Spēju."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Nevar izmantot [%(name)s]: tanks ir aizdedzies."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Nevar izmantot [%(name)s]: tanks slīkst."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Nevar izmantot [%(name)s]: tanks ir aizdedzies."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Nevar izmantot [%(name)s]: tanks ir apgāzts"
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Ierocis ir pielādēts."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Sabiedroto %(target)s iznīcināja korozija."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Sabiedroto %(target)s samīdīja %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Sabiedroto %(target)s iznīcināja pretinieka eksplozija (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Sabiedrotais %(target)s avarēja."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Sabiedroto %(target)s iznīcināja iznīcības zona."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Sabiedroto %(target)s iznīcināja pretinieku aura."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Sabiedroto %(target)s iznīcināja iznīcības zona."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Sabiedrotais %(target)s iznīcināts."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Tanku iznīcināja Enerģijas Trieciens"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Tanku iznīcināja Pirokinēze"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Tanku iznīcināja Dzīvības Zagšana"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Tanku iznīcināja eksplozija"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Tanku iznīcināja iznīcības zona"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Tanku iznīcināja pretinieku aura"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Tanks iznīcināts ar koroziju"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Tanks avarējis"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Tanks iznīcināts ar samīdīšanu"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Tanks iznīcināts. Jūs netikāt līdz Magnus."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Tanks iznīcināts. Jūs neiznīcinājāt Bosu."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Tanks iznīcināts. Magnus nav piepildīts."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modulis [%(device)s] eksplodēja no spēlētāja šāviena"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Tanku iznīcināja uguns"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Tanku iznīcināja pretinieku šāviens"
+
+msgid "teamRepairKitReady"
+msgstr "Grupas Remonts ir gatavs izmantošanai."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s aktivizēja Grupas Remontu."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Grupas Remonts aktivizēts."

@@ -328,6 +328,9 @@ msgstr "Preuzmi nagradu"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "Preuzmi nagrade"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "Svaka završena standardna, Premium ili bonus misija doprinosi tvom progresu."
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "Dostupno"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "Ponovo u akciji! Završi dnevne misije da zaradiš epske nagrade: {progres}"
+msgstr "Nazad u akciju! Završi dnevne misije da zaradiš legendarne nagrade: {{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "Nakon završavanja 3 standardne misije, bonus misija postaje dostupna i sadrži još više vrednih nagrada. Bonus misija mora biti završena do kraja dana, u suprotnom ističe."
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "Štitovi"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "Ograničenja vozila:"
+msgstr "Završi koristeći"
 
 msgid "tooltip/weekly_mission"
 msgstr "Nedeljne misije"

@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Καθιστά άτρωτο το όχημά σας."
+
+msgid "damageShield/long_special"
+msgstr "Δυνατότητα Μάχης. Δημιουργεί ενεργειακή ασπίδα που προστατεύει για 7 sec το όχημά σας από κάθε είδος φθοράς εκτός από εμβολισμό, πνιγμό και πρόσκρουση. Καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω για μία φορά και ο ανεφοδιασμός της απαιτεί credits. Αν δεν χρησιμοποιηθεί, δεν απαιτείται ανεφοδιασμός.<br /><br />Διαθέσιμη μόνο κατά τη διάρκεια της διοργάνωσης <font color='#cbac77'>Babylon: Dark Tower</font>.<br /><br />Όλες οι δυνατότητες μάχης που δεν θα χρησιμοποιηθούν, θα αφαιρεθούν και θα αποζημιωθούν με credits στο 50% του κόστους, στην επόμενη έκδοση."
+
+msgid "damageShield/name"
+msgstr "Ενεργειακή Ασπίδα"
+
+msgid "damageShield/onUse"
+msgstr "Δημιουργεί ενεργειακή ασπίδα που προστατεύει για 7 sec το όχημά σας από κάθε είδος φθοράς εκτός από εμβολισμό, πνιγμό και πρόσκρουση."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Καθιστά άτρωτο το όχημά σας."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Αυξάνει την ταχυβολία / ξαναγεμίζει τον γεμιστήρα."
+
+msgid "fastReload/long_special"
+msgstr "Δυνατότητα Μάχης. Αυξάνει σημαντικά την ταχύτητα γέμισης του πυροβόλου για ένα συγκεκριμένο χρονικό διάστημα ή γεμίζει ακαριαία τον γεμιστήρα σε πυροβόλο με αυτόματη γέμιση. Καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω για μία φορά και ο ανεφοδιασμός της απαιτεί credits. Αν δεν χρησιμοποιηθεί, δεν απαιτείται ανεφοδιασμός.<br /><br />Διαθέσιμη μόνο κατά τη διάρκεια της διοργάνωσης <font color='#cbac77'>Babylon: Dark Tower</font>.<br /><br />Όλες οι δυνατότητες μάχης που δεν θα χρησιμοποιηθούν, θα αφαιρεθούν και θα αποζημιωθούν με credits στο 50% του κόστους, στην επόμενη έκδοση."
+
+msgid "fastReload/name"
+msgstr "Γρήγορη Γέμιση"
+
+msgid "fastReload/onUse"
+msgstr "Αυξάνει σημαντικά την ταχύτητα γέμισης του πυροβόλου για ένα συγκεκριμένο χρονικό διάστημα ή γεμίζει ακαριαία τον γεμιστήρα σε πυροβόλο με αυτόματη γέμιση."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Αυξάνει την ταχυβολία / ξαναγεμίζει τον γεμιστήρα."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Αποκαθιστά hit points, σβήνει φωτιά, αφαιρεί το σοκ και επισκευάζει χαλασμένα εξαρτήματα."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Δυνατότητα Μάχης. Αποκαθιστά hit points, σβήνει φωτιά, αφαιρεί το σοκ και επισκευάζει χαλασμένα εξαρτήματα. Μπορεί να χρησιμοποιηθεί πολλές φορές σε μία μάχη. Καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω και μία φορά.<br /><br />Διαθέσιμη μόνο κατά τη διάρκεια της διοργάνωσης <font color='#cbac77'>Babylon Project</font>.<br /><br />Όλες οι δυνατότητες μάχης που δεν θα χρησιμοποιηθούν, θα αφαιρεθούν και θα αποζημιωθούν με credits στο 50% του κόστους, στην επόμενη έκδοση."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Επείγουσες Επισκευές"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Αποκαθιστά άμεσα 400 hit points του οχήματός σας.\n• Αποκαθιστά επιπλέον 300 hit points μέσα σε 30 sec.\n• Η αποκατάσταση διακόπτεται εάν το όχημα δεχθεί φθορά.\n• Επίσης, σβήνει φωτιά, αφαιρεί το σοκ και επισκευάζει χαλασμένα εξαρτήματα.\n• Μπορεί να ενεργοποιηθεί μόνο σε περίπτωση προσλαμβανόμενης φθοράς."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Αποκαθιστά hit points, σβήνει φωτιά, αφαιρεί το σοκ και επισκευάζει χαλασμένα εξαρτήματα."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Κόστος σε Mirium για να χρησιμοποιηθεί στη μάχη:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nΚόστος σε Mirium: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Κόστος σε Mirium για να χρησιμοποιηθεί στη μάχη:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Βολή, η οποία προκαλεί φθορά και σοκ, στον στόχο και στα εχθρικά οχήματα που βρίσκονται κοντά του."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Δυνατότητα Μάχης. Ρίχνει μία βολή, η οποία προκαλεί φθορά και σοκ, στον στόχο και στα εχθρικά οχήματα που βρίσκονται μέσα σε ακτίνα 35 m από αυτόν. Καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω για μία φορά και ο ανεφοδιασμός της απαιτεί credits. Αν δεν χρησιμοποιηθεί, δεν απαιτείται ανεφοδιασμός.<br/><br/>Διαθέσιμη μόνο κατά τη διάρκεια της διοργάνωσης <font color='#cbac77'>Babylon: Dark Tower</font>.<br/><br/>Όλες οι δυνατότητες μάχης που δεν θα χρησιμοποιηθούν, θα αφαιρεθούν και θα αποζημιωθούν με credits στο 50% του κόστους, στην επόμενη έκδοση."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Ενεργειακή Βολή"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Βολή, η οποία προκαλεί φθορά και σοκ, στον στόχο και στα εχθρικά οχήματα που βρίσκονται μέσα σε ακτίνα 35 m από αυτόν."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Βολή, η οποία προκαλεί φθορά και σοκ, στον στόχο και στα εχθρικά οχήματα που βρίσκονται κοντά του."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Βολή, η οποία κλέβει hit points από τον στόχο και από τα εχθρικά οχήματα που βρίσκονται κοντά του."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Δυνατότητα Μάχης. Βολή, η οποία κλέβει hit points από τον στόχο και από τα εχθρικά οχήματα που βρίσκονται μέσα σε ακτίνα 35 m από αυτόν, ενώ παράλληλα επισκευάζει χαλασμένα εξαρτήματα και αφαιρεί το σοκ. Καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω για μία φορά και ο ανεφοδιασμός της απαιτεί credits. Αν δεν χρησιμοποιηθεί, δεν απαιτείται ανεφοδιασμός.<br/><br/>Διαθέσιμη μόνο κατά τη διάρκεια της διοργάνωσης <font color='#cbac77'>Babylon: Dark Tower</font>.<br/><br/>Όλες οι δυνατότητες μάχης που δεν θα χρησιμοποιηθούν, θα αφαιρεθούν και θα αποζημιωθούν με credits στο 50% του κόστους, στην επόμενη έκδοση."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Βολή Βαμπίρ"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Βολή, η οποία κλέβει hit points από τον στόχο και από τα εχθρικά οχήματα που βρίσκονται μέσα σε ακτίνα 35 m από αυτόν, ενώ παράλληλα επισκευάζει χαλασμένα εξαρτήματα και αφαιρεί το σοκ."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Βολή, η οποία κλέβει hit points από τον στόχο και από τα εχθρικά οχήματα που βρίσκονται κοντά του."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Βολή, η οποία προκαλεί σοκ στον στόχο και στα εχθρικά οχήματα που βρίσκονται κοντά του."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Δυνατότητα Μάχης. Βολή, η οποία προκαλεί σοκ στον στόχο και στα εχθρικά οχήματα που βρίσκονται μέσα σε ακτίνα 35 m από αυτόν. Μπορεί να χρησιμοποιηθεί πολλές φορές σε μία μάχη. Καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω και μία φορά.<br /><br />Διαθέσιμη μόνο κατά τη διάρκεια της διοργάνωσης <font color='#cbac77'>Babylon Project</font>.<br /><br />Όλες οι δυνατότητες μάχης που δεν θα χρησιμοποιηθούν, θα αφαιρεθούν και θα αποζημιωθούν με credits στο 50% του κόστους, στην επόμενη έκδοση."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Βολή Σοκ"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Βολή, η οποία προκαλεί σοκ στον στόχο και στα εχθρικά οχήματα που βρίσκονται μέσα σε ακτίνα 35 m από αυτόν."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Βολή, η οποία προκαλεί σοκ στον στόχο και στα εχθρικά οχήματα που βρίσκονται κοντά του."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Καθιστά το όχημά σας αόρατο στους αντιπάλους, αποκαθιστά HP, επισκευάζει εξαρτήματά, σβήνει φωτιά, θεραπεύει το πλήρωμα."
+
+msgid "hwInvisibility/long_special"
+msgstr "Δυνατότητα Μάχης. Καθιστά το όχημά σας αόρατο στους αντιπάλους για 10 sec. Αποκαθιστά 35 HP/sec, επισκευάζει όλα τα χαλασμένα εξαρτήματά του, αφαιρεί όλες τις αρνητικές επιδράσεις και κάνει το όχημά σας άτρωτο από φθορά διάβρωσης. Η πρόκληση φθοράς σε ή από εχθρικό όχημα (με πυρά, εμβολισμό ή Δυνατότητα Μάχης) θα φανερώσει άμεσα τη θέση του οχήματός σας. Δεν μπορεί να διακοπεί από εχθρική βολή για 3 sec μετά την ενεργοποίησή της. Καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω για μία φορά και ο ανεφοδιασμός της απαιτεί credits. Αν δεν χρησιμοποιηθεί, δεν απαιτείται ανεφοδιασμός.<br/><br/>Διαθέσιμη μόνο κατά τη διάρκεια της διοργάνωσης <font color='#cbac77'>Babylon: Dark Tower</font>.<br/><br/>Όλες οι δυνατότητες μάχης που δεν θα χρησιμοποιηθούν, θα αφαιρεθούν και θα αποζημιωθούν με credits στο 50% του κόστους, στην επόμενη έκδοση."
+
+msgid "hwInvisibility/name"
+msgstr "Αόρατη Αποκατάσταση"
+
+msgid "hwInvisibility/onUse"
+msgstr "Καθιστά το όχημά σας αόρατο για 10 sec. Αποκαθιστά 35 HP/sec, επισκευάζει όλα τα χαλασμένα εξαρτήματά του, αφαιρεί όλες τις αρνητικές επιδράσεις και κάνει το όχημά σας άτρωτο από φθορά διάβρωσης. Η πρόκληση φθοράς σε ή από εχθρικό όχημα (με πυρά, εμβολισμό ή Δυνατότητα Μάχης) θα φανερώσει άμεσα τη θέση του οχήματός σας. Δεν μπορεί να διακοπεί από εχθρική βολή για 3 sec μετά την ενεργοποίησή της."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Καθιστά προσωρινά το όχημά σας αόρατο στους αντιπάλους, αποκαθιστά HP, επισκευάζει εξαρτήματά, σβήνει φωτιές, θεραπεύει το πλήρωμα και αφαιρεί το σοκ."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Επιταχύνει το όχημα για συγκεκριμένο χρονικό διάστημα\nκαι αυξάνει τη φθορά που προκαλεί με εμβολισμό."
+
+msgid "nitroRamDamage/name"
+msgstr "Τούρμπο"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Επιταχύνει το όχημα για συγκεκριμένο χρονικό διάστημα και αυξάνει τη φθορά που προκαλεί με εμβολισμό."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Επισκευάζει άμεσα τα χαλασμένα εξαρτήματα και αποκαθιστά μερικά hit points των συμπαικτών."
+
+msgid "teamRepairKit/long_special"
+msgstr "Δυνατότητα Μάχης. Επισκευάζει άμεσα τα χαλασμένα εξαρτήματα, σβήνει φωτιά, αφαιρεί το σοκ και αποκαθιστά μέρος των hit points των οχημάτων της ομάδας που βρίσκονται μέσα στην ακτίνα δράσης. Καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω για μία φορά και ο ανεφοδιασμός της απαιτεί credits. Αν δεν χρησιμοποιηθεί, δεν απαιτείται ανεφοδιασμός.<br/><br />Διαθέσιμη μόνο κατά τη διάρκεια της διοργάνωσης <font color='#cbac77'>Babylon: Dark Tower</font>.<br/><br/>Όλες οι δυνατότητες μάχης που δεν θα χρησιμοποιηθούν, θα αφαιρεθούν και θα αποζημιωθούν με credits στο 50% του κόστους, στην επόμενη έκδοση."
+
+msgid "teamRepairKit/name"
+msgstr "Ομαδικές Επισκευές"
+
+msgid "teamRepairKit/onUse"
+msgstr "Επισκευάζει άμεσα τα χαλασμένα εξαρτήματα, σβήνει τη φωτιά, αφαιρεί το σοκ και αποκαθιστά μέρος των hit points στα οχήματα της ομάδας που βρίσκονται μέσα στην ακτίνα δράσης."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Επισκευάζει άμεσα τα χαλασμένα εξαρτήματα και αποκαθιστά μερικά hit points των συμπαικτών."

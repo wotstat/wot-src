@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Vissza a ládákhoz"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,11 +64,11 @@ msgstr "Minden %(guaranteed0)s. láda garantáltan tartalmaz egy VIII–IX-es sz
 msgid "infoPage/header/description"
 msgstr "Nyisd ki a ládát, hogy értékes játékbeli tárgyakat szerezz! További részleteket alább olvashatsz."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Ebből: %(name) (%(boxesCount) láda kinyitva)"
 
-msgid "noBoxesView/description/"
-msgstr "Nincsenek ládáid.\nA játékbeli Boltban vásárolhatod meg őket."
+msgid "noBoxesView/description"
+msgstr "Nincsenek ládáid.\nA játékbeli Boltban vásárolhatsz ládákat."
 
 msgid "preview/backLabel"
 msgstr "TOVÁBB A LÁDÁKHOZ"
@@ -79,7 +79,7 @@ msgstr "Elérhető ládák: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Nincs elérhető láda"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Ha már rendelkezel az összes járművel a láda lehetséges tartalmainak listájáról, akkor a ládákból kapott minden további járműért aranykompenzációt kapsz."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) láda"
 msgstr[1] "%(remainingCount) láda"
 msgstr[2] "%(remainingCount) láda"
 
-msgid "singleRewardView/tooltip/subtitle/"
-msgstr "A garantált jutalom egy jármű a láda lehetséges tartalmainak listájáról.\nHa kinyitsz %(remainingCount) ládát anélkül, hogy kapnál egy ilyen járművet, akkor %(count). ládád kinyitásakor kapsz egyet. Amikor kapsz egy ilyen járművet, a számláló visszaáll alaphelyzetbe."
+msgid "singleRewardView/tooltip/subtitle"
+msgstr "A garantált jutalom egy jármű a láda lehetséges tartalmainak listájáról.\nHa kinyitsz %(remainingCount) ládát anélkül, hogy kapnál egy ilyen járművet, akkor a(z) %(count). ládád kinyitásakor kapsz egyet. Ha kapsz egy járművet, a számláló visszaáll."

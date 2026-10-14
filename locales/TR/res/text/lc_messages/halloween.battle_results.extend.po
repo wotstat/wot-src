@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, süre: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "Normal Zorluk"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "Yüksek Zorluk"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "Kabus Zorluğu"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "Babil Anomalisi - {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "Yeniden doğma süreleri: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "Kabul edilemez performans: Faaliyetsizlik/firar.\nÖdül alınmadı."
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "Ekibiniz başarısız oldu: İlk Faz tamamlanmadı.\nÖdül alınmadı."
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s."
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s."
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)."
+
+msgid "hw_battle_result/status/lose"
+msgstr "SAVAŞ SONA ERDİ"
+
+msgid "hw_battle_result/status/win"
+msgstr "ZAFER"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "Savaş Bitti"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "Karanlık dağıtıldı! Harika bir ekip oyunu!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "SAVAŞ SONA ERDİ"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "%(phaseNumber)s FAZ TAMAMLANDI"
+msgstr[1] "%(phaseNumber)s FAZ TAMAMLANDI"
+msgstr[2] "%(phaseNumber)s FAZ TAMAMLANDI"
+
+msgid "hw_battle_result/title/win"
+msgstr "BOSS YENİLDİ"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "Tüm müttefik araçlar yok edildi."
+
+msgid "hw_finish/reason/3/lose"
+msgstr "Süre bitti."
+
+msgid "hw_finish/reason/5/lose"
+msgstr "Tüm müttefikler savaştan çıktı."
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "Kara Kuleye giden yol artık açıldı."
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "İşte bu, başardık!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "Geri çekilmeye zorladık ama iş bitmedi."
+
+msgid "teamList/actions"
+msgstr "Hızlı İşlemler"
+
+msgid "teamList/teammates"
+msgstr "Müttefikler"

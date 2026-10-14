@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Taistelukyky"
+
+msgid "make_choice/server_error"
+msgstr "Toiminto ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "VÄRVÄÄ"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Värvätty"
+
+msgid "notification/crew_reward/title"
+msgstr "Palkinto otettu vastaan"
+
+msgid "open_artefact/server_error"
+msgstr "Toiminto ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Salausavaimia saatu: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Kuitti"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Salausavaimia poistettu: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Salauksen purkaminen"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Taistelukykyjen täydennys %s vaunulle epäonnistui. Tekninen virhe."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Taistelukykyjen täydennys %s vaunulle epäonnistui. Varat eivät riitä."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Taistelukyvyt täydennetty %s vaunuun. Olet käyttänyt "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Salausavaimia saatu"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Tallenteita saatavilla purettavaksi"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Pelimuoto: Babylon: Pimeä torni"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babylon: Pimeä torni (normaali)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babylon: Pimeä torni (vaikea)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babylon: Pimeä torni (painajaismainen)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Pomo päihitetty"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Vaikeustaso"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normaali"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Vaikea"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Painajaismainen"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Vaiheita suoritettu: %(curPhase)s/%(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Tavoite suoritettu!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Tavoitteet suoritettu!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vaunu"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Käytettiin %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Rahasiirto"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Voit valita vaikeustason Babylon: Pimeän tornin tallissa."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Vaikea vaikeustaso avattu"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Voit valita vaikeustason Babylon: Pimeän tornin tallissa."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Painajaismainen vaikeustaso avattu"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "%(vehicle)s on nyt saatavilla Babylon: Pimeän tornin taisteluihin."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Babylon: Pimeän tornin taistelut eivät ole hetkellisesti saatavilla.\nYritä myöhemmin uudestaan."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Babylon: Pimeän tornin taistelut (%(difficulty)s) eivät ole hetkellisesti saatavilla.\nYritä myöhemmin uudestaan."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Babylon: Pimeä torni ei ole tällä hetkellä saatavilla. Tarkasta päivitykset pelin portaalista."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Osaston komentaja on muuttanut vaikeustasoa: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Pelaaja %(userName)s ei ole avannut yhtä vaikeustasoista."

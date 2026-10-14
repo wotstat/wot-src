@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Terug naar kisten"
 
 msgid "common/boxCategory/lowerCase/stPatrick"
@@ -64,10 +64,10 @@ msgstr "Elke %(guaranteed0)s kisten bevatten gegarandeerd een niveau VIII–IX v
 msgid "infoPage/header/description"
 msgstr "Open de kist om kans te maken op waardevolle in-game items! Kijk voor meer informatie hieronder."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Uit de %(name) (%(boxesCount) kisten geopend)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "Je hebt geen kisten.\nJe kunt ze in de in-game winkel kopen."
 
 msgid "preview/backLabel"
@@ -79,7 +79,7 @@ msgstr "Kisten beschikbaar: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Geen kisten beschikbaar"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Als je alle voertuigen uit de lijst met mogelijke inhoud van de kist al hebt, dan zul je in plaats van alle voertuigen die daarna in kisten zitten goud ontvangen."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -88,5 +88,5 @@ msgstr[0] "%(remainingCount) kist"
 msgstr[1] "%(remainingCount) kisten"
 msgstr[2] "%(remainingCount) kisten"
 
-msgid "singleRewardView/tooltip/subtitle/"
+msgid "singleRewardView/tooltip/subtitle"
 msgstr "De gegarandeerde beloning is een voertuig uit de lijst met mogelijke inhoud van de kist.\nAls je %(remainingCount) hebt geopend zonder een dergelijk voertuig te ontvangen, dan zal de %(count)e kist het voertuig bevatten. Als dat gebeurt, wordt de teller gereset."

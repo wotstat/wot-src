@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Förtrupp-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Åsamka fiendevagnar som träffat din egen vagn %(goal)s träffpoäng skada"
+msgstr "Åsamka fiendevagnar som skadat din egen vagn %(goal)s träffpoäng skada"
 
 msgid "pm3_10_1_14_short"
 msgstr "Förtrupp-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Bakhåll-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Åsamka %(goal)s träffpoäng skada utan att utan att bli upptäckt när skadan åsamkas"
+msgstr "Åsamka fiendevagnar %(goal)s träffpoäng skada när du inte själv är synlig för fienden"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Förstör en fientlig tung stridsvagn genom att skjuta den och åsamka minst %(damageDealt)s träffpoäng skada"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Bakhåll-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Skada fiendevagnar, som inte observeras av någon när skadan åsamkas, %(hits)s gånger"
+msgstr "Skada fiendevagnar, som inte är synliga för dig när skadan åsamkas, %(hits)s gånger"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Förstör %(goal)s fiendevagnar av %(uniqueGoal)s olika typer"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Assistans-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Möjliggör för dina allierade att åsamka fiendevagnar du observerar %(goal)s träffpoäng skada utan att utan att bli upptäckt i ögonblicket skadan åsamkas"
+msgstr "Möjliggör för dina allierade att åsamka fiendevagnar du observerar %(goal)s träffpoäng skada. Du får inte vara synlig för fienden när skadan åsamkas."
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Chocka tunga stridsvagnar %(goal)s gånger"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Förtrupp-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Åsamka fiendevagnar som träffat din egen vagn %(goal)s träffpoäng skada"
+msgstr "Åsamka fiendevagnar som skadat din egen vagn %(goal)s träffpoäng skada"
 
 msgid "pm3_8_1_9_short"
 msgstr "Förtrupp-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Bakhåll-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Åsamka %(goal)s träffpoäng skada utan att utan att bli upptäckt när skadan åsamkas"
+msgstr "Åsamka fiendevagnar %(goal)s träffpoäng skada när du inte själv är synlig för fienden"
 
 msgid "pm3_8_2_9_short"
 msgstr "Bakhåll-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Förtrupp-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Åsamka fiendevagnar som träffat din egen vagn %(goal)s träffpoäng skada"
+msgstr "Åsamka fiendevagnar som skadat din egen vagn %(goal)s träffpoäng skada"
 
 msgid "pm3_9_1_14_short"
 msgstr "Förtrupp-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Bakhåll-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Åsamka %(goal)s träffpoäng skada utan att utan att bli upptäckt när skadan åsamkas"
+msgstr "Åsamka fiendevagnar %(goal)s träffpoäng skada när du inte själv är synlig för fienden"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Förstör en fientlig stridsvagn som du åsamkat minst %(damageDealt)s träffpoäng skada"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Bakhåll-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Åsamka fiendevagnar, som inte observeras av någon när skadan åsamkas, %(damageDealt)s träffpoäng skada"
+msgstr "Åsamka fiendevagnar, som inte är synliga för dig när skadan åsamkas, %(damageDealt)s träffpoäng skada"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Förstör %(goal)s fiendevagnar av %(uniqueGoal)s olika typer"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Assistans-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Möjliggör för dina allierade att åsamka fiendevagnar du observerar %(goal)s träffpoäng skada utan att utan att bli upptäckt i ögonblicket skadan åsamkas"
+msgstr "Möjliggör för dina allierade att åsamka fiendevagnar du observerar %(goal)s träffpoäng skada. Du får inte vara synlig för fienden när skadan åsamkas."
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Chocka fientliga tunga stridsvagnar under totalt %(goal)s sekunder. Potentiell chocktid räknas"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Assistans-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Åsamka fiendevagnar, som inte observeras av någon när skadan åsamkas, %(damageDealt)s träffpoäng skada"
+msgstr "Åsamka fiendevagnar, som inte är synliga för dig när skadan åsamkas, %(damageDealt)s träffpoäng skada"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Förstör %(goal)s fientliga lätta stridsvagnar eller artillerivagnar"

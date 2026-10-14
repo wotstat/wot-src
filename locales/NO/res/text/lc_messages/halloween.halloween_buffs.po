@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Reduserer skuddspredning under bevegelse og ved dreining av skrog og tårn med {{@ class $highlightClass}}%(generalValue)s%%{{/}}."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s på spredning under bevegelse\nsamt skrogdreining."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Reduserer\nskuddspredning."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Reduserer kanonens skuddspredning under bevegelse samt under dreining av skrog og tårn."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Snikskytter"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Gjør kjøretøyet ditt helt {{@ class $highlightClass}}usårlig{{/}} for {{@ class $highlightClass}}eksplosjonsskade{{/}} fra Hedgehog og Alpha Hedgehog.\nKjøretøyet vil fortsatt ta skade fra kollisjoner fra Hedgehogs ved sammenstøt."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Gjør kjøretøyet ditt usårlig\nmot skade fra Hedgehog eksplosjon."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Beskytter kjøretøyet ditt mot eksplosjonsskade fra Hedgehog."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Gjør kjøretøyet ditt helt usårlig for eksplosjonsskade fra Hedgehog og Alpha Hedgehog.\nKjøretøyet vil fortsatt ta skade fra kollisjoner fra Hedgehogs ved sammenstøt."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Motstandsyktighet mot eksplosjon"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Fjerner det potensielle skadeomfanget med {{@ class $highlightClass}}±25%{{/}}, gjør effekten av skudd mer forutsigbart."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Skudd har ikke ±25%% skade\nomfang."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Skudd har ikke ±25% skadeomfanget."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Fjerner det potensielle skadeomfanget med ±25%, gjør effekten av skudd mer forutsigbart."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Kontrollert skade"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Reduserer mottatt skade* (inkludert fra skudd, brann, kollisjon, skadesoner, korrosjonsfase, modulskade, osv.) med {{@ class $highlightClass}}%(mitigation)s%%{{/}}.\n*Gjelder ikke skade fra fall eller under utførelsesfasen."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s på mottatt skade."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Reduserer mottatt skade."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Reduserer mottatt skade* (inkludert fra skudd, brann, kollisjon, skadesoner, korrosjonsfase, modulskade, osv.).\n*Gjelder ikke skade fra fall eller under utførelsesfasen."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Absorbering av skade"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Gir en {{@ class $highlightClass}}%(chance)s%%{{/}} sjanse til å gjenopprette {{@ class $highlightClass}}%(heal)s{{/}} av ditt kjøretøys helsepoeng når du påfører fiendtlige kjøretøy skade ved å treffe dem med skudd."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s på sjansen til å gjenopprette helsepoeng\nnår du forårsaker skade med skudd."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Kan gjenopprette helsepoeng\nved forårsakelse av skade med skudd."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Gir en mulighet til å gjenopprette ditt kjøretøys helsepoeng ved å forårsake skade på fiendtlige kjøretøy ved å skyte dem."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Vampyrbitt"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Øker ditt kjøretøys helsepoeng med {{@ class $highlightClass}}%(health)s%%{{/}}."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s på kjøretøyets helsepoeng."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Øker\nditt kjøretøys helsepoeng."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Øker motstandsdyktighet på kjøretøyet."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Motstandsdyktighet"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Øker sjansen for å sette et fiendtlig kjøretøy i brann med {{@ class $highlightClass}}%(chance)s%%{{/}} når det forårsakes skade med skudd på kjøretøyet."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s sjanse for å sette et fiendtlig\nkjøretøy i brann."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Øker\nsjansen for antennelse."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Øker sjansen for å sette et fiendtlig kjøretøy i brann etter å ha forårsaket skade med skudd."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Varm nål"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Øker skade forårsaket på fiendtlige kjøretøy med {{@ class $highlightClass}}%(damageFactor)s%%{{/}}."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s på forårsaket skade."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Øker\nforårsaket skade."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Øker forårsaket skade."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Keramisk kjerne"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Øker ladehastighet med {{@ class $highlightClass}}%(reloadTime)s%%{{/}}."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s på ladehastighet."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Øker\nladehastighet."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Øker ladehastighet."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Maskingevær"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Gjenoppretter gradvis ditt kjøretøys helsepoeng opp til maksimal motstandsdyktighet.\nEffekten avbrytes dersom man tar skade i løpet av gjenopprettelsen."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Gjenoppretter ditt kjøretøys\nhelsepoeng gradvis."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Gjenoppretter\nhelsepoeng."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Gjenoppretter gradvis ditt kjøretøys helsepoeng opp til maksimal motstandsdyktighet. Effekten avbrytes dersom man tar skade i løpet av gjenopprettelsen."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Regenerering"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Kjør lagringskapasiteten for mirium i et kjøretøy i kamp {{@ class $highlightClass}}ubegrenset{{/}}."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Gjør miriumkapasiteten ubegrenset."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Gjør miriumkapasiteten ubegrenset."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Gjør kapasiteten for lagring av mirium i et kjøretøy i kamp ubegrenset."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Bunnløs samler"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Øker bonusen på besetningseffektivitet for alle besetningsmedlemmer med {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)spå bonus for besetningseffektivitet."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Forbedrer\nbesetningseffektivitet."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Forbedrer besetningseffektivitet."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Inspirér"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Om et fiendtlig kjøretøy har {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} helsepoeng eller mindre etter å ha blitt truffet av et skudd fra deg, blir de umiddelbart bekjempet.\nBosser er immune for denne effekten."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Fiender med %(value)s helsepoeng eller mindre etter ditt\nskudd blir umiddelbart bekjempet."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Fiender med lite helsepoeng etter ditt skudd blir umiddelbart bekjempet."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Om et fiendtlig kjøretøy har lite helsepoeng etter å ha blitt truffet av et skudd fra deg, blir de umiddelbart bekjempet.\nBosser er immune for denne effekten."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Avslutter"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Øker kjøretøyets toppfart både forover og i revers."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Øker kjøretøyets toppfart både\nforover og i revers."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Øker kjøretøyets toppfart både forover og i revers."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Øker kjøretøyets toppfart både forover og i revers."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Høyere fart"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Øker mengden mottatt mirium fra skadde fiender i kamp med {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s i tillegg på mottatt mirium\nfra fiender."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Øker mengde mottatt mirium fra fiender."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Øker mengde mottatt mirium ved å skade fiender i kamp."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Uthenting av mirium"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Øker den maksimale mengden mirium som kan lagres i kjøretøyet i kamp med {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s på maksimal miriumkapasitet."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Øker maksimal miriumkapasitet."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Øker den maksimale kapasiteten for lagring av mirium i et kjøretøy i kamp."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Rommelig samler"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Alt mirium tas vare på ved gjenfødelse dersom kjøretøy blir bekjempet i kamp."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Alt mirium blir tatt vare på i kjøretøyet\netter gjenfødelse."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Tar vare på alt miriumet etter gjenfødelse."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Tar vare på alt miriumet etter gjenfødelse."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Miriumvokter"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Reduserer miriumkostnaden for kampferdigheter med {{@ class $highlightClass}}%(cost)s%%{{/}}."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s på miriumkostnader for evner."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Reduserer miriumkostnaden for ferdigheter."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Reduserer miriumkostnaden for kampferdigheter betydelig."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Mirium effektivitet"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Gjenoppretter {{@ class $highlightClass}}%(refundAmount)s%%{{/}} av kostnaden på mirium for kampevner."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s mirium gjenopprettet\nved bruk av evne."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Gjenoppretter delvis mirium for kampferdigheter."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Gjenoppretter miriumkostnaden for kampferdigheter delvis."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Miriumgevinst"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Øker motorkraft med {{@ class $highlightClass}}%(power)s%%{{/}} samt tårndreiningshastighet med {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s for motorkraft."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s for tårnets dreiningshastighet."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Øker motorkraft\nog tårndreiningshastighet."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Øker motorkraft og tårndreiningshastighet."
+
+msgid "buffs/buffMobility/header"
+msgstr "Mobilitet"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Gjør alle kjøretøyets moduler usårlige for enhver skade."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Gjør alle kjøretøyets moduler usårlige\nfor enhver skade."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Beskytter moduler\nmot skade."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Gjør alle kjøretøyets moduler usårlige for enhver skade."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Modul usårbarhet"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Malachite sitt standardavvik, alltid aktivert."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Øker penetrasjon for alle granater med {{@ class $highlightClass}}%(shellPen)s%%{{/}}."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s på granatpenerasjon."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Øker penetrasjonsevne for alle granater."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Øker penetrasjonsevne for alle granater."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Penetrerende granater"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Alle alternative granater tas vare på ved gjenfødelse dersom et kjøretøy blir bekjempet i kamp."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Alle alternative granater tas vare på\netter gjenfødelse."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Tar vare på alle alternative granater etter gjenfødelse."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Alle alternative granater tas vare på ved gjenfødelse dersom et kjøretøy blir bekjempet i kamp."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Granatvokter"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Øker mengden mottatt mirium i begynnelsen av hver nye fase eller etter gjenfødelse med {{@ class $highlightClass}}%(soulsBonus)s{{/}}. Øker den maksimale lagringskapasiteten for mirium i et kjøretøy med {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s på mottatt mirium i en ny fase\neller etter gjenfødelse."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s på maksimal miriumkapasitet."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Øker kapasiteten for mirium og mengden man får i en ny fase eller etter gjenfødelse."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Øker mengden mottatt mirium i begynnelsen av hver nye fase eller etter gjenfødelse. Øker den maksimale lagringskapasiteten for mirium i et kjøretøy."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Mirium mellomlager"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Øker varighet på turbo med {{@ class $highlightClass}}%(timeLength)s%%{{/}} og reduserer nedkjølingstid med {{@ class $highlightClass}}%(reloadTime)s s{{/}}."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s for varigheten på turbo."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s s på nedkjølingstiden for turbo."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Øker varighet på turbo og reduserer nedkjølingstiden."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Øker varighet på turbo og reduserer nedkjølingstiden."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Turboforsterker"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Gir en mulighet til å påføre en spesifikk mengde skade ved skudd:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} for å påføre {{@ class $highlightClass}}%(damage1)s%%{{/}} skade;\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} for å påføre {{@ class $highlightClass}}%(damage2)s%%{{/}} skade;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} for å påføre {{@ class $highlightClass}}%(damage3)s%%{{/}} skade;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} for å påføre {{@ class $highlightClass}}%(damage4)s%%{{/}} skade."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Skade etter skudd varierer fra lite\ntil ekstremt mye."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Skade etter skudd varierer fra lite til ekstremt mye."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Gir mulighet for å påføre enten mindre enn vanlig, eller ekstremt mye skade."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Kvanteskudd"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Detaljer"

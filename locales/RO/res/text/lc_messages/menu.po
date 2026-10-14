@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s la EXP liberă și de echipaj timp de %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "%(effectValue)s bonus pentru %(effectHours)s la experiența obținută în luptă"
+msgstr "%(effectValue)s la EXP de luptă timp de%(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "%(effectValue)s bonus la creditele câștigate în luptă timp de %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Acest vehicul este echipat cu un lansator de rachete montat în mantaua 
 msgid "moduleInfo/closeBtn"
 msgstr "Închide"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Accelerația de luptă"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Echipat cu încărcător tip casetă pe vehiculele:"
 
@@ -6162,6 +6165,12 @@ msgstr "(buc.)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Durata Telemetrului electromagnetic de coincidență"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Timp de pregătire"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Durata"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Timp de pregătire"

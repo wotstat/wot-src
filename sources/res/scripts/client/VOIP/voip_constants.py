@@ -1,3 +1,3 @@
 class VOIP_SUPPORTED_API(object):
     VIVOX = b'VIVOX'
-    YY = b'YY'
+    LIVEKIT = b'WoT VOIP API v0.1.0'

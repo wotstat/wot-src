@@ -889,6 +889,15 @@ msgstr "• Dodjeljuje se tijekom Velike utrke 2019."
 msgid "Fest19Racer_descr"
 msgstr "Zaradi prvu nagradu na traci osobnog napretka."
 
+msgid "FortRushMedal_2026"
+msgstr "Presretač"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "Dodjeljuje se svim Switchblade agentima koji su završili svaku etapu napretka akcije Crni signal 2026. Znak besprijekorno provedene misije: signal je presretnut i svijetu je dana još jedna mirna noć."
+
+msgid "FortRushMedal_2026_descr"
+msgstr "Izvršite napredak akcije Crni signal 2026."
+
 msgid "HE17A1"
 msgstr "Znak zvijeri"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "Izviđač Mirny-13"
 
 msgid "hw2019Medal1_condition"
-msgstr "• Dodjeljuje se svim igračima koji su ispunili određene uvjete tijekom posebne akcije."
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2020."
 
 msgid "hw2019Medal1_descr"
 msgstr "Završi sve faze na težini jedne zvjezdice tijekom operacije Mirny-13."
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "Veteran Mirny-13"
 
 msgid "hw2019Medal2_condition"
-msgstr "• Dodjeljuje se svim igračima koji su ispunili određene uvjete tijekom posebne akcije."
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2020."
 
 msgid "hw2019Medal2_descr"
 msgstr "Završi sve faze na težini dvije zvjezdice tijekom operacije Mirny-13."
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "Junak Mirny-13"
 
 msgid "hw2019Medal3_condition"
-msgstr "• Dodjeljuje se svim igračima koji su ispunili određene uvjete tijekom posebne akcije."
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2020."
 
 msgid "hw2019Medal3_descr"
 msgstr "Završi sve faze na težini tri zvjezdice tijekom operacije Mirny-13."
 
 msgid "hw2019Medal_condition"
-msgstr "• Dodjeljuje se svim igračima koji su ispunili određene uvjete tijekom posebne akcije."
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2020."
 
 msgid "hw2019Medal_descr"
 msgstr "Primi sve stilove tijekom operacije Mirny-13."
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "Ukroti zvijer"
 
 msgid "hw2021Medal1_condition"
-msgstr "• Dodjeljuje se svim igračima koji su ispunili određene uvjete tijekom posebne akcije."
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2021."
 
 msgid "hw2021Medal1_descr"
 msgstr "Završi sve faze na srednjoj težini tijekom akcije Mirny: nada."
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "Odabrani"
 
 msgid "hw2021Medal2_condition"
-msgstr "• Dodjeljuje se svim igračima koji su ispunili određene uvjete tijekom posebne akcije."
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2021."
 
 msgid "hw2021Medal2_descr"
 msgstr "Završi sve faze na visokoj težini tijekom akcije Mirny: nada."
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "Jeziva pustolovina"
 
 msgid "hw2022Medal01_condition"
-msgstr "Dodjeljuje se igračima koji su ispunili posebne uvjete tijekom događaja."
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2022."
 
 msgid "hw2022Medal01_descr"
 msgstr "Izvršite sve zadatke koji uključuju borbene sposobnosti tijekom akcije Tulum bundeva."
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "Žeteoc smrti"
 
 msgid "hw2022Medal02_condition"
-msgstr "Dodjeljuje se igračima koji su ispunili posebne uvjete tijekom događaja."
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2022."
 
 msgid "hw2022Medal02_descr"
 msgstr "Osvojite 65 000 bodova Noći vještica tijekom akcije Tulum bundeva."
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "Povraćeni"
 
 msgid "hw2023Medal_condition"
-msgstr "Dodjeljuje se tijkom Mirny: izgubljena nada 2023."
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2023."
 
 msgid "hw2023Medal_descr"
 msgstr "Dešifrira sve svitke tijekom akcije Mirny: izgubljena nada."
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "Babilon istraživač"
 
 msgid "hw2024Medal_condition"
-msgstr "Dodjeljuje se tijekom Projekta Babilon 2024."
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2024."
 
 msgid "hw2024Medal_descr"
 msgstr "Dešifrira sve zapise tijekom akcije Projekt Babilon."
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "Zabranjeno znanje"
 
 msgid "hw2025Medal_condition"
-msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom događaja."
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2025."
 
 msgid "hw2025Medal_descr"
 msgstr "Dešifrirajte se zapise u akciji Babilon: zabranjena zona."
+
+msgid "hw2026Medal_1"
+msgstr "Nitko nije ostavljen"
+
+msgid "hw2026Medal_1_condition"
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2026."
+
+msgid "hw2026Medal_1_descr"
+msgstr "Dešifrirajte sve zapise u akciji Babilon: Mračni toranj. Odbili ste ostaviti Alex!"
+
+msgid "hw2026Medal_2"
+msgstr "Njen dom je mirium"
+
+msgid "hw2026Medal_2_condition"
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2026."
+
+msgid "hw2026Medal_2_descr"
+msgstr "Dešifrirajte sve zapise u akciji Babilon: Mračni toranj. Pustili ste Alex u mirium!"
+
+msgid "hw2026Medal_3"
+msgstr "Sakupljač anomalije"
+
+msgid "hw2026Medal_3_condition"
+msgstr "Dodjeljuje se svim igračima koji su ispunili uvjete tijekom akcije 2026."
+
+msgid "hw2026Medal_3_descr"
+msgstr "Skupite sve anomalije u akciji Babilon: Mračni toranj."
 
 msgid "impenetrable"
 msgstr "Neprobojan"

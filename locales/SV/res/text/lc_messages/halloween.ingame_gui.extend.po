@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Frätskada"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Skada av zonen"
+
+msgid "damageLog/static_death_zone"
+msgstr "Skada av farozon"
+
+msgid "damageShieldReady"
+msgstr "Kraftsköld redo att aktiveras."
+
+msgid "fastReloadReady"
+msgstr "Snabbladdning redo att aktiveras."
+
+msgid "hitMarker/useless"
+msgstr "Ingen verkan!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Nödreparationer redo att aktiveras."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Kraftgranat redo att aktiveras."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Vampyrgranat redo att aktiveras."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Bedövningsgranat redo att aktiveras."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "för att se stridsreglerna"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Tryck"
+
+msgid "hwInvisibilityReady"
+msgstr "Osynlig återhämtning redo att aktiveras."
+
+msgid "nitroRamDamageReady"
+msgstr "Turbo redo att aktiveras."
+
+msgid "pickupSouls"
+msgstr "Du har samlat in %(souls)s mirium"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "[%(name)s] kan inte användas: kanonen är skadad."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Vagnen är inte skadad."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "[%(name)s] kan inte användas: motorn förstörd."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "[%(name)s] kan inte användas: mirium saknas för att aktivera förmågan."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "[%(name)s] kan inte användas: vagnen brinner."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "[%(name)s] kan inte användas: vagnen drunknar."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "[%(name)s] kan inte användas: vagnen brinner."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "[%(name)s] kan inte användas: vagnen har vält."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Kanonen laddad."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "%(target)s (allierad) förstördes av frätskada."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "%(target)s (allierad) nedtrampades av %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "%(target)s (allierad) förstörd av explosion (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "%(target)s (allierad) kraschade."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "%(target)s (allierad) förstörd av dödszonen."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "%(target)s (allierad) förstörd av fientlig aura."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Allierad %(target)s förstörd av dödszonen."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "%(target)s (allierad) förstörd."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Vagnen förstörd av Energistöt"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Vagnen förstörd av Pyrokinesi"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Vagnen förstörd av Livsstöld"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Vagnen förstörd av en explosion"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Vagnen förstörd av dödszonen"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Vagnen förstörd av fientlig aura"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Vagn förstörd av frätskada"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Vagnen kraschade"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Vagn förstörd av nedtrampning"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Vagnen förstörd. Ni nådde inte Magnus."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Vagnen förstörd. Ni besegrade inte bossen."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Vagnen förstörd. Magnus ej fylld."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modulen [%(device)s] sprängdes av ett skott från spelaren"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Vagnen förstörd av brand"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Vagnen förstörd av ett skott från en fiende"
+
+msgid "teamRepairKitReady"
+msgstr "Gruppreparation redo att aktiveras."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s aktiverade Gruppreparation."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Gruppreparation aktiverad."

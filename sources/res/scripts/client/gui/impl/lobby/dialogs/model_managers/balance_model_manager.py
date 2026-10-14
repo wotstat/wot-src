@@ -101,9 +101,9 @@ class BalanceModelManager(object):
         return
 
     def __onWalletChanged(self, status):
-        self.__isGoldAutoPurchaseEnabled &= self.__wallet.isAvailable
+        self.__isGoldAutoPurchaseEnabled = self.__wallet.isAvailable
         for currency in Currency.GUI_ALL:
-            self.__onCurrencyUpdated(currency, self.__stats.actualMoney.get(currency) if status[currency] == CurrencyStatus.AVAILABLE else None)
+            self.__onCurrencyUpdated(currency, self.__stats.actualMoney.get(currency) if status == CurrencyStatus.AVAILABLE else None)
 
-        self.__onCurrencyUpdated(b'freeXP', self.__stats.actualFreeXP if status[b'freeXP'] == CurrencyStatus.AVAILABLE else None)
+        self.__onCurrencyUpdated(b'freeXP', self.__stats.actualFreeXP if status == CurrencyStatus.AVAILABLE else None)
         return

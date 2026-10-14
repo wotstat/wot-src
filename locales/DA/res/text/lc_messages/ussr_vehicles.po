@@ -283,6 +283,9 @@ msgstr "LTG improved"
 msgid "Chassis_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
 
+msgid "Chassis_R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
+
 msgid "Chassis_R133_KV_122"
 msgstr "KV-122"
 
@@ -550,7 +553,13 @@ msgstr "SU-100I"
 msgid "Chassis_R228_KR_1"
 msgstr "KR-1"
 
+msgid "Chassis_R228_KR_1_7x7"
+msgstr "KR-1"
+
 msgid "Chassis_R230_Object_432U"
+msgstr "Object 432U"
+
+msgid "Chassis_R230_Object_432U_7x7"
 msgstr "Object 432U"
 
 msgid "Chassis_R231_Buryan"
@@ -564,6 +573,9 @@ msgstr "KB-52"
 
 msgid "Chassis_R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "Chassis_R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
 
 msgid "Chassis_R239_Object_Veles"
 msgstr "Veles"
@@ -898,6 +910,9 @@ msgstr "GMC 6046I"
 msgid "GTD_3T"
 msgstr "GTD-3T"
 
+msgid "GTD_3T_7x7"
+msgstr "GTD-3T"
+
 msgid "GTD_700P"
 msgstr "GTD-700P"
 
@@ -976,9 +991,6 @@ msgstr "Varyag"
 msgid "KV-13_descr"
 msgstr "KV-13 (Object 233) er en eksperimentel sovjetisk medium kampvogn fra 2. verdenskrig. Udviklet af Special Design Bureau ved Kirov Plant i Chelyabinsk i begyndelsen af 1941 til slutningen af 1942. Køretøjet blev betegnet som en \"universel kampvogn\" til at erstatte både T-34 medium kampvognen og den tunge kampvogn KV. Den første prototype blev bygget i foråret 1942. testkørsler viste den lave holdbarhed på dets moduler. Derudover behøvede køretøjet forbedret panser og et nyt tårn til tre medlemmer af mandskabet. Selvom kravene blev opfyldt og udviklingen af to forbedrede prototyper startede i december 1942, blev KV-13 projektet indstillet til fordel for T-34. De to prototyper blev efterfølgende brugt til projektet til den masseproducerede tunge kampvogn IS-1, udviklet i 1943."
 
-msgid "KV-2"
-msgstr "KV-2"
-
 msgid "KV-220"
 msgstr "KV-220-2"
 
@@ -1025,6 +1037,9 @@ msgid "KV_1"
 msgstr "KV-1"
 
 msgid "KV_2"
+msgstr "KV-2"
+
+msgid "KV_2_A"
 msgstr "KV-2"
 
 msgid "KV_descr"
@@ -1663,6 +1678,9 @@ msgstr "R-123M"
 msgid "R123U"
 msgstr "R-123U"
 
+msgid "R123_FR"
+msgstr "R-123"
+
 msgid "R123_K"
 msgstr "R-123K"
 
@@ -1809,6 +1827,15 @@ msgstr "LTG"
 
 msgid "R132_VNII_100LT"
 msgstr "T-100 LT"
+
+msgid "R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
+
+msgid "R132_VNII_100LT_FR_descr"
+msgstr "Et projekt til en let kampvogn med bevæbningen fra en T-100. Udviklet i fællesskab af Research Institute No. 100 og GSKB-47 (statsspecialiseret designbureau) i midten af 1960'erne. Køretøjet havde rimeligt panser som kunne beskytte den fra\n90 mm granater (ved frontale træffere) fra enhver afstand."
+
+msgid "R132_VNII_100LT_FR_short"
+msgstr "T-100 LT BS"
 
 msgid "R132_VNII_100LT_descr"
 msgstr "Et projekt til en let kampvogn med bevæbningen fra en T-100. Udviklet i fællesskab af Research Institute No. 100 og GSKB-47 (statsspecialiseret designbureau) i midten af 1960'erne. Køretøjet havde rimeligt panser som kunne beskytte den fra 90-mm granater (ved frontale træffere) fra enhver afstand."
@@ -2794,6 +2821,18 @@ msgstr "Fremragende gennembrydning, god skade per skud"
 msgid "R228_KR_1"
 msgstr "KR-1"
 
+msgid "R228_KR_1_7x7"
+msgstr "KR-1 7x7"
+
+msgid "R228_KR_1_7x7_descr"
+msgstr "Et projekt på en tung kampvogn med ekstreme parametre, udviklet i 1960'erne til kampe, hvor der indgår brugen af masseødelæggelsesvåben. Designerne gjorde udstrakt brug af landets egne lovende løsninger på den tids forskellige udfordringer med kampvognsbyggeri."
+
+msgid "R228_KR_1_7x7_long_special"
+msgstr "KR-1, en klassisk tung gennembrudskampvogn af den sovjetiske skole, kombinerer fremragende mobilitet med pålideligt panser, så vigtige positioner kan indtages, og lynhurtige angreb gennemføres mod intetanende fjender. Den kan indtage frontlinjen med sin 136 mm kanon, der er særligt effektiv i nærkampe, og kan knuse enhver, der står i vejen for den."
+
+msgid "R228_KR_1_7x7_short"
+msgstr "KR-1 7x7"
+
 msgid "R228_KR_1_descr"
 msgstr "Et projekt på en tung kampvogn med ekstreme parametre, udviklet i 1960'erne til kampe, hvor der indgår brugen af masseødelæggelsesvåben. Designerne gjorde udstrakt brug af landets egne lovende løsninger på den tids forskellige udfordringer med kampvognsbyggeri."
 
@@ -2805,6 +2844,18 @@ msgstr "KR-1"
 
 msgid "R230_Object_432U"
 msgstr "Object 432U"
+
+msgid "R230_Object_432U_7x7"
+msgstr "Object 432U 7x7"
+
+msgid "R230_Object_432U_7x7_descr"
+msgstr "Et projekt på en forstærket kampvogn, der skulle overgå fjendtlige køretøjer i beskyttelse og ildkraft. Designerne havde planer om at montere en højtrykskanon, der skulle gøre det muligt at anvende avanceret ammunition med bedre præstation end tidens alternativer. Et overtrykskammer blev introduceret, så ammunitionen også kunne bruges på traditionel vis. Derudover fik kampvognen yderligere panser på tårn og skrog, samt anti-HEAT-skærme. Designløsningerne viste sig at blive for dyre, og projektet blev lukket ned i de indledende stadier."
+
+msgid "R230_Object_432U_7x7_long_special"
+msgstr "Object 432U er en hårdtslående medium kampvogn, der føler sig godt til hjemme på frontlinjen. Med pålideligt panser og en høj-kaliber kanon, kan den uden at blinke gå op mod tunge kampvogne, men er også mobil nok til at indtage nye positioner på slagmarken, når behovet opstår. Dens ildkraftspotentiale kan også forstærkes yderligere, så den kan uddele brutal skade."
+
+msgid "R230_Object_432U_7x7_short"
+msgstr "Obj. 432U 7x7"
 
 msgid "R230_Object_432U_descr"
 msgstr "Et projekt på en forstærket kampvogn, der skulle overgå fjendtlige køretøjer i beskyttelse og ildkraft. Designerne havde planer om at montere en højtrykskanon, der skulle gøre det muligt at anvende avanceret ammunition med bedre præstation end tidens alternativer. Et overtrykskammer blev introduceret, så ammunitionen også kunne bruges på traditionel vis. Derudover fik kampvognen yderligere panser på tårn og skrog, samt anti-HEAT-skærme. Designløsningerne viste sig at blive for dyre, og projektet blev lukket ned i de indledende stadier."
@@ -2877,6 +2928,21 @@ msgstr "Pålideligt skrog- og tårnpanser, autolader"
 
 msgid "R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
+
+msgid "R236_Object_265_II_CFE_A_descr"
+msgstr "Køretøjet med kodenavnet \"Eclipse\" blev opdaget i anomalien. I en fase nær ruinerne af det, der blev kendt som \"Det mørke tårn\". Eksemplaret blev overført til Babylon Forskningscenter for en omfattende undersøgelse af specialister.\n\nKøretøjet er udstyret med en eksperimentel bredbånds-signaldæmper, der er drevet af ultratæt Mirium. Ifølge vores data blev dette udstyr udviklet af ekspeditionens ingeniører for at kunne deaktivere Det mørke tårns forsvarssystemer. At dømme efter sporene fundet på stedet, deltog kampvognen i den endelige kamp ved Tårnet om at neutralisere den enorme mekaniske Edderkop, hvorefter køretøjet blev efterladt. Kampvognens mandskab blev formentligt evakueret ombord på Marduk, der fortsatte ekspeditionen dybere ind i anomalien.\n\nDesignet af Eclipse blev umiddelbart vurderet som en succes: robust og yderst modstandsdygtig mod forskellige påvirkninger fra omgivelserne. Da undersøgelsen var fuldendt, anbefalede militærkommissionen at køretøjet skulle tilbage i aktiv tjeneste."
+
+msgid "R236_Object_265_II_CFE_A_long_special"
+msgstr "Eclipse er en niveau IX tung kampvogn. Køretøjet kombinerer enestående skrog- og tårnpanser med to 122 mm kanoner. Dens stærke panser gør det muligt at holde positioner, yderligere understøttet af det bagmonterede tårn, så side-scraping er mere bekvemt. Den dobbeltløbede kanon kan uddele enorm skade, særligt ved brug af skudsalve-mekanismen."
+
+msgid "R236_Object_265_II_CFE_A_short"
+msgstr "Eclipse"
+
+msgid "R236_Object_265_II_CFE_A_short_special"
+msgstr "Dobbeltløbet kanonsystem, pålideligt skrog- og tårnpanser"
 
 msgid "R236_Object_265_II_descr"
 msgstr "En dobbeltløbet udgave af Object 265, udviklet i slutningen af 1950'erne. Dens usædvanlige løsninger (brug af et nyt kontrolsystem og placering af køreren i tårnet), gjorde det vanskeligt at finde kunder til køretøjet. Som resultat blev projektet nedlagt for at fokusere indsatsen på at modificere T-10 (Object 730)."
@@ -3247,7 +3313,13 @@ msgstr "R-123B"
 msgid "R_123C"
 msgstr "R-123C"
 
+msgid "R_123C_7x7"
+msgstr "R-123C"
+
 msgid "R_123KR"
+msgstr "R-123KR"
+
+msgid "R_123KR_7x7"
 msgstr "R-123KR"
 
 msgid "R_123V"
@@ -3508,9 +3580,6 @@ msgstr "T-80"
 msgid "T80_descr"
 msgstr "Udviklet i sommeren og efteråret 1942 ved Konstruktionsbureauet hos Gorky Automobile Plant under ledelse af N. A. Astrov. Køretøjet kom i tjeneste i december 1942. I alt blev der bygget 85 køretøjer."
 
-msgid "TD-30"
-msgstr "M-50D"
-
 msgid "TD_12"
 msgstr "TD-12"
 
@@ -3519,6 +3588,9 @@ msgstr "TD-12"
 
 msgid "TD_30"
 msgstr "TD-30"
+
+msgid "TD_30_A"
+msgstr "M-50D"
 
 msgid "T_50_2"
 msgstr "T-50-2"
@@ -3705,6 +3777,9 @@ msgstr "LTG"
 
 msgid "Turret_1_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
+
+msgid "Turret_1_R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
 
 msgid "Turret_1_R133_KV_122"
 msgstr "KV-122"
@@ -3937,7 +4012,13 @@ msgstr "SU-100I"
 msgid "Turret_1_R228_KR_1"
 msgstr "KR-1"
 
+msgid "Turret_1_R228_KR_1_7x7"
+msgstr "KR-1"
+
 msgid "Turret_1_R230_Object_432U"
+msgstr "Object 432U"
+
+msgid "Turret_1_R230_Object_432U_7x7"
 msgstr "Object 432U"
 
 msgid "Turret_1_R231_Buryan"
@@ -3954,6 +4035,9 @@ msgstr "KB-52"
 
 msgid "Turret_1_R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "Turret_1_R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
 
 msgid "Turret_1_R239_Object_Veles"
 msgstr "Veles"
@@ -4258,6 +4342,9 @@ msgstr "IS-7"
 msgid "UTD_20"
 msgstr "UTD-20"
 
+msgid "UTD_20_FR"
+msgstr "UTD-20"
+
 msgid "UTD_45A"
 msgstr "UTD-45A"
 
@@ -4266,9 +4353,6 @@ msgstr "UTD-50M1 Barnaulskiy"
 
 msgid "V-11"
 msgstr "V-11"
-
-msgid "V-11-IS-3"
-msgstr "V-11-IS-3"
 
 msgid "V-11-IS-3_S"
 msgstr "V-11-IS-3A"
@@ -4296,9 +4380,6 @@ msgstr "V-12 A"
 
 msgid "V-12V"
 msgstr "V-12 V"
-
-msgid "V-14"
-msgstr "V-14"
 
 msgid "V-16FN"
 msgstr "V-16FN"
@@ -4350,9 +4431,6 @@ msgstr "V-2-10 forced"
 
 msgid "V-2IS_R_CN"
 msgstr "V-2-10 C"
-
-msgid "V-2K"
-msgstr "V-2K"
 
 msgid "V-2KT"
 msgstr "V-2SN"
@@ -4408,6 +4486,9 @@ msgstr "V-11 (704)"
 msgid "V_11_IS_3"
 msgstr "V-11 (IS-3)"
 
+msgid "V_11_IS_3_A"
+msgstr "V-11-IS-3"
+
 msgid "V_11_Kirovets_1"
 msgstr "V-11-Kirovets-1"
 
@@ -4439,6 +4520,9 @@ msgid "V_12_5B"
 msgstr "V-12-5B"
 
 msgid "V_12_5C"
+msgstr "V-12-5C"
+
+msgid "V_12_5C_CFE_A"
 msgstr "V-12-5C"
 
 msgid "V_12_5F"
@@ -4477,6 +4561,9 @@ msgstr "V-14"
 msgid "V_14UM"
 msgstr "V-14M"
 
+msgid "V_14_A"
+msgstr "V-14"
+
 msgid "V_16"
 msgstr "V-16"
 
@@ -4499,6 +4586,9 @@ msgid "V_2IS_SU"
 msgstr "V-2IS (SU)"
 
 msgid "V_2K"
+msgstr "V-2K"
+
+msgid "V_2K1"
 msgstr "V-2K"
 
 msgid "V_2K_KV_1"
@@ -4759,13 +4849,22 @@ msgstr "3UOF (LM)"
 msgid "_100mm_3VBB"
 msgstr "3VBB"
 
+msgid "_100mm_3VBB_FR"
+msgstr "3VBB"
+
 msgid "_100mm_3VBM"
 msgstr "3VBM"
 
 msgid "_100mm_3VBM2_SH"
 msgstr "3VBM-2"
 
+msgid "_100mm_3VBM_FR"
+msgstr "3VBM"
+
 msgid "_100mm_3VOF"
+msgstr "3VOF"
+
+msgid "_100mm_3VOF_FR"
 msgstr "3VOF"
 
 msgid "_100mm_BR-412A"
@@ -4880,6 +4979,9 @@ msgid "_100mm_S_34D_IS_2_II"
 msgstr "100 mm S-34D (IS-2-II)"
 
 msgid "_100mm_T_100"
+msgstr "100 mm T-100"
+
+msgid "_100mm_T_100_FR"
 msgstr "100 mm T-100"
 
 msgid "_100mm_T_12A"
@@ -5311,14 +5413,14 @@ msgstr "10RK-DV"
 msgid "_10RK_W"
 msgstr "10RK"
 
-msgid "_10RT-26E"
-msgstr "10RT-26"
-
 msgid "_10RT-26M"
 msgstr "10RT-26M"
 
 msgid "_10RT_26E"
 msgstr "10RT-26E"
+
+msgid "_10RT_26E1"
+msgstr "10RT-26"
 
 msgid "_12.7mm_AP_B32"
 msgstr "B-32"
@@ -5482,6 +5584,9 @@ msgstr "122 mm BL-13"
 msgid "_122mm_BL_13D_dualgun"
 msgstr "122 mm BL-13D-SD"
 
+msgid "_122mm_BL_13D_dualgun_CFE_A"
+msgstr "122 mm BL-13D-SD"
+
 msgid "_122mm_BL_13_1_257"
 msgstr "122 mm BL-13-1 (257)"
 
@@ -5533,6 +5638,9 @@ msgstr "BP-460A (KV-1S)"
 msgid "_122mm_BP_471BMM"
 msgstr "BP 471BMM"
 
+msgid "_122mm_BP_471BMM_CFE_A"
+msgstr "BP 471BMM"
+
 msgid "_122mm_BP_471D"
 msgstr "BP-471D"
 
@@ -5543,6 +5651,9 @@ msgid "_122mm_BR-471D_P"
 msgstr "BR-471DP"
 
 msgid "_122mm_BR_471BMM"
+msgstr "BR 471BMM"
+
+msgid "_122mm_BR_471BMM_CFE_A"
 msgstr "BR 471BMM"
 
 msgid "_122mm_BR_471DS_SU"
@@ -5729,6 +5840,9 @@ msgid "_122mm_OF_462"
 msgstr "OF-462"
 
 msgid "_122mm_OF_471BMM"
+msgstr "OF 471BMM"
+
+msgid "_122mm_OF_471BMM_CFE_A"
 msgstr "OF 471BMM"
 
 msgid "_122mm_S34_II"
@@ -5992,13 +6106,25 @@ msgstr "122 mm Howitzer mod. 1910/1930"
 msgid "_125mm_3BK7_61"
 msgstr "3BK7-61"
 
+msgid "_125mm_3BK7_61_7x7"
+msgstr "3BK7-61"
+
 msgid "_125mm_3BM9_61"
+msgstr "3BM9-61"
+
+msgid "_125mm_3BM9_61_7x7"
 msgstr "3BM9-61"
 
 msgid "_125mm_3OF22_61"
 msgstr "3OF22-61"
 
+msgid "_125mm_3OF22_61_7x7"
+msgstr "3OF22-61"
+
 msgid "_125mm_D_181"
+msgstr "125 mm D-181"
+
+msgid "_125mm_D_181_7x7"
 msgstr "125 mm D-181"
 
 msgid "_12LL"
@@ -6008,6 +6134,9 @@ msgid "_12RT"
 msgstr "12RT"
 
 msgid "_12RT_B"
+msgstr "12RT-B"
+
+msgid "_12RT_B_CFE_A"
 msgstr "12RT-B"
 
 msgid "_12RT_Roz"
@@ -6211,13 +6340,25 @@ msgstr "ZBK60M"
 msgid "_136mm_BK_79"
 msgstr "BK-79"
 
+msgid "_136mm_BK_79_7x7"
+msgstr "BK-79"
+
 msgid "_136mm_BR_79"
+msgstr "BR-79"
+
+msgid "_136mm_BR_79_7x7"
 msgstr "BR-79"
 
 msgid "_136mm_D_79"
 msgstr "136 mm D-79"
 
+msgid "_136mm_D_79_7x7"
+msgstr "136 mm D-79"
+
 msgid "_136mm_OF_79"
+msgstr "OF-79"
+
+msgid "_136mm_OF_79_7x7"
 msgstr "OF-79"
 
 msgid "_140mm_BR_482A"
@@ -6844,9 +6985,6 @@ msgstr "UBR-243SP (T-70)"
 msgid "_45mm_UOF-240A"
 msgstr "UOF-240A"
 
-msgid "_45mm_UOF-243"
-msgstr "UOF-243"
-
 msgid "_45mm_UOF-243U"
 msgstr "UOF-243U"
 
@@ -6869,6 +7007,9 @@ msgid "_45mm_UOF_240A_T_70"
 msgstr "UOF-240A (T-70)"
 
 msgid "_45mm_UOF_243"
+msgstr "UOF-243"
+
+msgid "_45mm_UOF_243_A"
 msgstr "UOF-243"
 
 msgid "_45mm_UOF_243_A_20"
@@ -7039,6 +7180,9 @@ msgstr "5TDF-SM"
 msgid "_5TD_2"
 msgstr "5TD-2"
 
+msgid "_5TD_2_7x7"
+msgstr "5TD-2"
+
 msgid "_6TD"
 msgstr "6TD"
 
@@ -7087,10 +7231,10 @@ msgstr "BP-354IT"
 msgid "_76mm_BP_350A_T_28"
 msgstr "BP-350A (T-28)"
 
-msgid "_76mm_BR-350A"
+msgid "_76mm_BR_350A"
 msgstr "BR-350A"
 
-msgid "_76mm_BR_350A"
+msgid "_76mm_BR_350A1"
 msgstr "BR-350A"
 
 msgid "_76mm_BR_350A_1"
@@ -7102,13 +7246,13 @@ msgstr "BR-350A"
 msgid "_76mm_BR_350_P_T"
 msgstr "BP-354 T"
 
-msgid "_76mm_F-32"
-msgstr "76 mm F-32"
-
 msgid "_76mm_F-34S_A"
 msgstr "76 mm S-1"
 
 msgid "_76mm_F_32"
+msgstr "76 mm F-32"
+
+msgid "_76mm_F_32_A"
 msgstr "76 mm F-32"
 
 msgid "_76mm_F_34"

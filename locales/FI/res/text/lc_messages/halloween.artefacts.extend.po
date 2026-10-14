@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Antaa vahingoittumattomuuden."
+
+msgid "damageShield/long_special"
+msgstr "Taistelukyky. Luo energiakilven, joka suojelee vaunua kaikelta muulta vahingolta paitsi törmäämiseltä, hukkumiselta ja putoamiselta 7 s ajan. Poistetaan, mikäli käytetään vähintään kerran taistelussa ja voidaan täydentää krediiteillä, jos tarpeen.<br /><br />Saatavilla vain <font color='#cbac77'>Babylon: Pimeä torni</font> -tapahtuman aikana.<br /><br />Kaikki käyttämättömät kyvyt poistetaan ja hyvitetään krediitteinä (50% niiden hinnasta) seuraavan päivityksen tullessa."
+
+msgid "damageShield/name"
+msgstr "Energiakilpi"
+
+msgid "damageShield/onUse"
+msgstr "Luo energiakilven, joka suojelee 7 s ajan vaunuasi kaikelta muulta vahingolta paitsi törmäämiseltä ja hukkumiselta."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Antaa vahingoittumattomuuden."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Kasvattaa tulinopeutta / lataa lippaan."
+
+msgid "fastReload/long_special"
+msgstr "Taistelukyky. Nopeuttaa merkittävästi syklisesti ampuvan tykin latausnopeutta tietyn ajan tai lataa välittömästi lippaita käyttävät tykit. Poistetaan, mikäli käytetään vähintään kerran taistelussa ja voidaan täydentää krediittejä käyttäen, jos tarpeen.<br /><br />Saatavilla vain <font color='#cbac77'>Babylon: Pimeä torni</font> -tapahtuman aikana.<br /><br />Kaikki käyttämättömät kyvyt poistetaan ja hyvitetään krediitteinä (50% niiden hinnasta) seuraavan päivityksen tullessa."
+
+msgid "fastReload/name"
+msgstr "Pikalataus"
+
+msgid "fastReload/onUse"
+msgstr "Nopeuttaa merkittävästi syklisesti toimivan tykin latausaikaa tietyksi ajaksi tai lataa välittömästi tykit, jotka käyttävät lippaita."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Kasvattaa tulinopeutta / lataa lippaan."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Palauttaa kestopisteitä, sammuttaa tulipalon, poistaa lamautuksen vaikutuksen ja korjaa vahingoittuneet moduulit."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Taistelukyky. Palauttaa kestopisteitä, sammuttaa tulipalon, poistaa lamautuksen vaikutuksen ja korjaa vahingoittuneet moduulit. Voidaan käyttää useita kertoja taistelussa. Poistetaan, mikäli käytetään vähintään kerran taistelussa.<br /><br />Saatavilla vain <font color='#cbac77'>Babylon-projekti</font> -tapahtuman aikana.<br /><br />Kaikki käyttämättömät kyvyt poistetaan ja hyvitetään krediitteinä (50% niiden hinnasta seuraavan päivityksen tullessa)."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Hätäkorjaukset"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Palauttaa välittömästi vaunullesi 400 kestopistettä.\n• Palauttaa 300 kestopistettä lisää 30 s aikana\n• Palauttaminen keskeytyy vahinkoa kärsittäessä.\n• Sammuttaa tulipalon, poistaa lamautuksen vaikutuksen ja korjaa vahingoittuneet moduulit.\n• Voidaan aktivoida vain, mikäli vahinkoa on kärsitty."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Palauttaa kestopisteitä, sammuttaa tulipalon, poistaa lamautuksen vaikutuksen ja korjaa vahingoittuneet moduulit."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Taistelussa käyttämisen hinta miriumissa:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nMirium-hinta: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Taistelussa käyttämisen hinta miriumissa:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Ampuu laukauksen, joka lamauttaa ja vahingoittaa kohdetta ja lähellä olevia vihollisvaunuja."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Taistelukyky. Ampuu laukauksen, joka lamauttaa ja vahingoittaa kohdetta ja kaikkia vihollisvaunuja 35 m säteellä. Poistetaan, mikäli käytetään vähintään kerran taistelussa ja voidaan täydentää krediiteillä, jos tarpeen.<br/><br/>Saatavilla vain <font color='#cbac77'>Babylon: Pimeä torni</font> -tapahtuman aikana.<br/><br/>Kaikki käyttämättömät kyvyt poistetaan ja hyvitetään krediitteinä (50% niiden hinnasta) seuraavan päivityksen tullessa."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Energialaukaus"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Ampuu laukauksen, joka lamauttaa ja vahingoittaa kohdetta ja kaikkia vihollisvaunuja 35 m säteellä."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Ampuu laukauksen, joka lamauttaa ja vahingoittaa kohdetta ja lähellä olevia vihollisvaunuja."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Ampuu laukauksen, joka palauttaa kestopisteitä varastamalla niitä kohteelta ja lähellä olevilta vihollisvaunuilta."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Taistelukyky. Ampuu laukauksen, joka palauttaa kestopisteitä varastamalla niitä kohteelta ja läheisiltä vihollisvaunuilta 35 m säteellä sekä korjaa vahingoittuneet moduulit ja poistaa lamautuksen vaikutuksen. Poistetaan, mikäli käytetään vähintään kerran taistelussa ja voidaan täydentää krediiteillä, jos tarpeen.<br/><br/>Saatavilla vain <font color='#cbac77'>Babylon: Pimeä torni</font> -tapahtuman aikana.<br/><br/>Kaikki käyttämättömät kyvyt poistetaan ja hyvitetään krediitteinä (50% niiden hinnasta) seuraavan päivityksen tullessa."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Vampyyri-laukaus"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Ampuu laukauksen, joka palauttaa kestopisteitä varastamalla niitä kohteelta ja 35 m säteellä olevilta vihollisvaunuilta. Korjaa myös vahingoittuneet moduulit ja poistaa lamautuksen vaikutuksen."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Ampuu laukauksen, joka palauttaa kestopisteitä varastamalla niitä kohteelta ja lähellä olevilta vihollisvaunuilta."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Ampuu laukauksen, joka lamauttaa kohteen ja lähellä olevat vihollisvaunut."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Taistelukyky. Ampuu laukauksen, joka lamauttaa kohteen ja kaikki vihollisvaunut 35 m säteellä. Voidaan käyttää useita kertoja taistelussa. Poistetaan, mikäli käytetään vähintään kerran taistelussa.<br /><br />Saatavilla vain <font color='#cbac77'>Babylon-projekti</font> -tapahtuman aikana.<br /><br />Kaikki käyttämättömät kyvyt poistetaan ja hyvitetään krediitteinä (50% niiden hinnasta seuraavan päivityksen tullessa)."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Lamauttava laukaus"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Ampuu laukauksen, joka lamauttaa kohteen ja kaikki vihollisvaunut 35 m säteellä."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Ampuu laukauksen, joka lamauttaa kohteen ja lähellä olevat vihollisvaunut."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Tekee vaunustasi näkymättömän vihollisille, palauttaa kestopisteitä, korjaa moduulit ja sammuttaa tulipalon."
+
+msgid "hwInvisibility/long_special"
+msgstr "Taistelukyky. Tekee vaunustasi näkymättömän vihollisille 10 s ajaksi. Palauttaa 35 kestopistettä per sekunti, korjaa moduulit, poistaa kaikki negatiiviset efektit ja estää korroosiovahingon. Ampuminen tai vahingon kärsiminen viholliselta (ampumalla, törmäämällä tai taistelukyvyillä) paljastaa asemasi välittömästi. Ei voida keskeyttää vihollisen osumilla ensimmäisen 3 sekunnin kuluessa aktivoinnista. Poistetaan, mikäli käytetään vähintään kerran taistelussa ja voidaan täydentää krediiteillä, jos tarpeen.<br/><br/>Saatavilla vain <font color='#cbac77'>Babylon: Kielletty alue</font> -tapahtuman aikana.<br/><br/>Kaikki käyttämättömät kyvyt poistetaan ja hyvitetään krediitteinä (50% niiden hinnasta) seuraavan päivityksen tullessa."
+
+msgid "hwInvisibility/name"
+msgstr "Häiveparannus"
+
+msgid "hwInvisibility/onUse"
+msgstr "Tekee vaunustasi näkymättömän vihollisille 10 s ajaksi. Palauttaa 35 kestopistettä per sekunti, poistaa kaikki negatiiviset efektit ja estää korroosiovahingon. Ampuminen tai vahingon kärsiminen vihollisvaunulta (ampumalla, törmäämällä tai taistelukykyjä käyttämällä) paljastaa sijaintisi välittömästi. Ei voida keskeyttää vihollisen laukauksilla 3 s sisällä aktivoinnista."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Piilottaa sinut vihollisilta, palauttaa kestopisteitä, korjaa moduulit, sammuttaa tulipalot, poistaa lamautumisen ja hoitaa miehistön jäsenet."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Kiihdyttää vaunusi vauhtia rajatun ajan\nja lisää törmäämällä aiheutettua vahinkoa."
+
+msgid "nitroRamDamage/name"
+msgstr "Turboahdin"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Kasvattaa hetkellisesti vaunusi nopeutta ja törmäämällä aiheutettua vahinkoa."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Korjaa liittolaisvaunut ja palauttaa niille kestopisteitä kyvyn säteellä."
+
+msgid "teamRepairKit/long_special"
+msgstr "Taistelukyky. Korjaa välittömästi moduulit, sammuttaa tulipalon, poistaa lamautuksen vaikutuksen ja palauttaa hieman kestopisteitä kaikille säteellä oleville liittolaisvaunuille. Poistetaan, mikäli käytetään vähintään kerran taistelussa ja voidaan täydentää krediiteillä, jos tarpeen.<br/><br />Saatavilla vain <font color='#cbac77'>Babylon: Pimeä torni</font> -tapahtuman aikana.<br/><br/>Kaikki käyttämättömät kyvyt poistetaan ja hyvitetään krediitteinä (50% niiden hinnasta) seuraavan päivityksen tullessa."
+
+msgid "teamRepairKit/name"
+msgstr "Ryhmäkorjaukset"
+
+msgid "teamRepairKit/onUse"
+msgstr "Korjaa välittömästi moduulit, sammuttaa tulipalon, poistaa lamautuksen vaikutuksen ja palauttaa hieman kestopisteitä liittolaisvaunuille kyvyn säteellä."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Korjaa liittolaisvaunut ja palauttaa niille kestopisteitä kyvyn säteellä."

@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Capacité de combat"
+
+msgid "make_choice/server_error"
+msgstr "Opération temporairement indisponible. Réessayez plus tard."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "RECRUTER"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Recruté"
+
+msgid "notification/crew_reward/title"
+msgstr "Récompense récupérée"
+
+msgid "open_artefact/server_error"
+msgstr "Opération temporairement indisponible. Réessayez plus tard."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Clés de décryptage reçues : %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Réception"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Clés de décryptage retirées : %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Décryptage"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Échec du réapprovisionnement des Capacités de combat pour le %s. Panne technique."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Échec du réapprovisionnement des Capacités de combat pour le %s. Fonds insuffisants."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Capacités de combat du %s réapprovisionnées. Vous avez dépensé "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Clés de décryptage reçues"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Enregistrements prêts à être décryptés"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Mode : Babylone : Tour sombre"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babylone : Tour sombre (Normal)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babylone : Tour sombre (Difficile)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babylone : Tour sombre (Cauchemar)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Boss vaincu"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Difficulté"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normal"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Difficile"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Cauchemar"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Phases terminées : %(curPhase)s sur %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Objectif rempli !"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Objectifs remplis !"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Véhicule"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Vous avez dépensé %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Transaction financière"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Vous pouvez sélectionner le niveau de difficulté dans le garage de Babylone : Tour sombre."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Difficulté Difficile déverrouillée"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Vous pouvez sélectionner le niveau de difficulté dans le garage de Babylone : Tour sombre."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Difficulté Cauchemar déverrouillée"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "Le %(vehicle)s est désormais disponible pour les batailles Babylone : Tour sombre."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Les batailles dans Babylone : Tour sombre sont temporairement indisponibles.\nRéessayez plus tard."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Les batailles dans Babylone : Tour sombre (%(difficulty)s) sont temporairement indisponibles.\nRéessayez plus tard."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Babylone : Tour sombre est actuellement indisponible. Consultez le portail du jeu pour connaître les mises à jour."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Le chef du peloton a changé la difficulté en : %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Le joueur %(userName)s n'a pas déverrouillé l'un des niveaux de difficulté."

@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "hw_battle_result/info/dateAndDuration"
+msgstr "%(date)s, тривалість: %(duration)s"
+
+msgid "hw_battle_result/info/difficult/1"
+msgstr "Нормальна складність"
+
+msgid "hw_battle_result/info/difficult/2"
+msgstr "Важка складність"
+
+msgid "hw_battle_result/info/difficult/3"
+msgstr "Кошмарна складність"
+
+msgid "hw_battle_result/info/mapName"
+msgstr "Аномалія «Вавилон» — {difficult}"
+
+msgid "hw_battle_result/info/respawnCount"
+msgstr "Кількість відроджень: {count}"
+
+msgid "hw_battle_result/ribbon/ban"
+msgstr "Неприйнятна поведінка в бою: бездіяльність/дезертирство.\nНагороду не видано."
+
+msgid "hw_battle_result/ribbon/noReward"
+msgstr "Ваша команда програла, першу фазу не завершено.\nНагороду не видано."
+
+msgid "hw_battle_result/secret_reward/credits"
+msgstr "%(currency)s: %(amount)s."
+
+msgid "hw_battle_result/secret_reward/item"
+msgstr "%(item)s."
+
+msgid "hw_battle_result/secret_reward/items"
+msgstr "%(item)s (%(number)s)."
+
+msgid "hw_battle_result/status/lose"
+msgstr "БІЙ ЗАВЕРШЕНО"
+
+msgid "hw_battle_result/status/win"
+msgstr "ПЕРЕМОГА"
+
+msgid "hw_battle_result/subtitle/lose"
+msgstr "Бій завершено"
+
+msgid "hw_battle_result/subtitle/win"
+msgstr "Темряви більше немає! Так тримати, командо!"
+
+msgid "hw_battle_result/title/lose/noPhases"
+msgstr "БІЙ ЗАВЕРШЕНО"
+
+msgid "hw_battle_result/title/lose/phases"
+msgid_plural "plural/hw_battle_result/title/lose/phases"
+msgstr[0] "%(phaseNumber)s ФАЗУ ЗАВЕРШЕНО"
+msgstr[1] "%(phaseNumber)s ФАЗИ ЗАВЕРШЕНО"
+msgstr[2] "%(phaseNumber)s ФАЗ ЗАВЕРШЕНО"
+
+msgid "hw_battle_result/title/win"
+msgstr "БОС ПЕРЕМОЖЕНИЙ"
+
+msgid "hw_finish/reason/1/lose"
+msgstr "Усі машини союзників знищені."
+
+msgid "hw_finish/reason/3/lose"
+msgstr "Час сплив."
+
+msgid "hw_finish/reason/5/lose"
+msgstr "Усі союзники покинули бій."
+
+msgid "hw_finish/reason/halloween/1/win"
+msgstr "Шлях до Темної вежі відкритий."
+
+msgid "hw_finish/reason/halloween_hard/1/win"
+msgstr "Отакої! Ми це зробили!"
+
+msgid "hw_finish/reason/halloween_medium/1/win"
+msgstr "Ми змусили зло відступити, але це не кінець."
+
+msgid "teamList/actions"
+msgstr "Швидкі дії"
+
+msgid "teamList/teammates"
+msgstr "Союзники"

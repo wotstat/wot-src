@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Korrosjon"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Skade fra sone"
+
+msgid "damageLog/static_death_zone"
+msgstr "Skade fra sone"
+
+msgid "damageShieldReady"
+msgstr "Energiskjold er klar til bruk."
+
+msgid "fastReloadReady"
+msgstr "Rask lading er klar til bruk."
+
+msgid "hitMarker/useless"
+msgstr "Ubrukelig!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Nødreparasjoner er klar til bruk."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Energiskudd er klar til bruk."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Vampyrskudd er klar til bruk."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Sjokkskudd er klar til bruk."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "for å se reglene for modusen"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Trykk"
+
+msgid "hwInvisibilityReady"
+msgstr "Skjult helbredelse er klar til bruk."
+
+msgid "nitroRamDamageReady"
+msgstr "Turbo er klar til bruk."
+
+msgid "pickupSouls"
+msgstr "Du har samlet %(souls)s Mirium enhet(er)"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Kan ikke benytte [%(name)s]: Kanonen er skadd."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Kjøretøyet er ikke skadet."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Kan ikke benytte [%(name)s]: Motoren er ødelagt."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Kan ikke benytte [%(name)s]: Ikke nok Mirium til å aktivere evnen."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Kan ikke benytte [%(name)s]: Kjøretøyet er i brann."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Kan ikke benytte [%(name)s]: Kjøretøyet er under vann."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Kan ikke benytte [%(name)s]: Kjøretøyet er i brann."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Kan ikke benytte [%(name)s]: Kjøretøyet har veltet."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Kanonen er ladet."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s bekjempet %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s bekjempet %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s bekjempet %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Allierte %(target)s bekjempet av korrosjon."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Allierte %(target)s trampet ned av %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Alliert %(target)s bekjempet av fiendtlig eksplosjon (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Alliert %(target)s kolliderte."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Alliert %(target)s bekjempet i ødeleggelsessonen."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Alliert %(target)s bekjempet av fiendtlig aura."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Alliert %(target)s bekjempet i ødeleggelsessonen."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Alliert %(target)s bekjempet."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Kjøretøy bekjempet av energiangrep"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Kjøretøy bekjempet av pyrokinese"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Kjøretøy bekjempet av helsetyveri"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Kjøretøy bekjempet av en eksplosjon"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Kjøretøy bekjempet i ødeleggelsessonen"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Kjøretøy bekjempet av fiendtlig aura"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Kjøretøy bekjempet av korrosjon"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Kjøretøy kolliderte"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Kjøretøy bekjempet av nedtramping"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Kjøretøy bekjempet. Du kom ikke frem til Magnus."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Kjøretøy bekjempet. Du klarte ikke å bekjempe Boss."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Kjøretøy bekjempet. Magnus er ikke fylt opp."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modul [%(device)s] eksploderte etter skudd fra spiller"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Kjøretøyet ble ødelagt av brann"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Kjøretøy bekjempet av et skudd fra fienden"
+
+msgid "teamRepairKitReady"
+msgstr "Gruppereparasjoner er klar til bruk."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s aktiverte gruppereparasjoner."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Gruppereparasjoner aktivert."

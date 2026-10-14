@@ -889,6 +889,15 @@ msgstr "• Przyznawany podczas Wielkiego Wyścigu 2019."
 msgid "Fest19Racer_descr"
 msgstr "Zdobądź pierwszą nagrodę na pasku postępów osobistych."
 
+msgid "FortRushMedal_2026"
+msgstr "Przechwytywacz"
+
+msgid "FortRushMedal_2026_condition"
+msgstr "Przyznawane wszystkim agentom Switchblade, którzy ukończyli każdy etap postępów wydarzenia Czarny sygnał 2026. Oznaka czysto przeprowadzonej misji: sygnał przechwycony, a świat zyskał kolejną spokojną noc."
+
+msgid "FortRushMedal_2026_descr"
+msgstr "Ukończyć postępy wydarzenia Czarny sygnał 2026."
+
 msgid "HE17A1"
 msgstr "Znak bestii"
 
@@ -2453,7 +2462,7 @@ msgid "hw2019Medal1"
 msgstr "Zwiadowca Mirny-13"
 
 msgid "hw2019Medal1_condition"
-msgstr "• Przyznawany wszystkim graczom, którzy spełnili odpowiednie warunki w trakcie specjalnego wydarzenia w grze."
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2020."
 
 msgid "hw2019Medal1_descr"
 msgstr "Ukończ wszystkie fazy na poziomie trudności z jedną gwiazdką podczas operacji Mirny-13."
@@ -2462,7 +2471,7 @@ msgid "hw2019Medal2"
 msgstr "Weteran Mirny-13"
 
 msgid "hw2019Medal2_condition"
-msgstr "• Przyznawany wszystkim graczom, którzy spełnili odpowiednie warunki w trakcie specjalnego wydarzenia w grze."
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2020."
 
 msgid "hw2019Medal2_descr"
 msgstr "Ukończ wszystkie fazy na poziomie trudności z dwoma gwiazdkami podczas operacji Mirny-13."
@@ -2471,13 +2480,13 @@ msgid "hw2019Medal3"
 msgstr "Bohater Mirny-13"
 
 msgid "hw2019Medal3_condition"
-msgstr "• Przyznawany wszystkim graczom, którzy spełnili odpowiednie warunki w trakcie specjalnego wydarzenia w grze."
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2020."
 
 msgid "hw2019Medal3_descr"
 msgstr "Ukończ wszystkie fazy na poziomie trudności z trzema gwiazdkami podczas operacji Mirny-13."
 
 msgid "hw2019Medal_condition"
-msgstr "• Przyznawany wszystkim graczom, którzy spełnili odpowiednie warunki w trakcie specjalnego wydarzenia w grze."
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2020."
 
 msgid "hw2019Medal_descr"
 msgstr "Otrzymaj wszystkie style podczas operacji Mirny-13."
@@ -2486,7 +2495,7 @@ msgid "hw2021Medal1"
 msgstr "Okiełznać bestię"
 
 msgid "hw2021Medal1_condition"
-msgstr "• Przyznawany wszystkim graczom, którzy spełnili odpowiednie warunki w trakcie specjalnego wydarzenia w grze."
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2021."
 
 msgid "hw2021Medal1_descr"
 msgstr "Ukończ wszystkie fazy na średnim poziomie trudności w czasie wydarzenia Mirny: Nadzieja."
@@ -2495,7 +2504,7 @@ msgid "hw2021Medal2"
 msgstr "Wybraniec"
 
 msgid "hw2021Medal2_condition"
-msgstr "• Przyznawany wszystkim graczom, którzy spełnili odpowiednie warunki w trakcie specjalnego wydarzenia w grze."
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2021."
 
 msgid "hw2021Medal2_descr"
 msgstr "Ukończ wszystkie fazy na wysokim poziomie trudności w czasie wydarzenia Mirny: Nadzieja."
@@ -2504,7 +2513,7 @@ msgid "hw2022Medal01"
 msgstr "Straszna przygoda"
 
 msgid "hw2022Medal01_condition"
-msgstr "Przyznawany wszystkim graczom, którzy spełnili specjalne warunki w trakcie wydarzenia."
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2022."
 
 msgid "hw2022Medal01_descr"
 msgstr "Wypełnij wszystkie misje dotyczące zdolności bojowych w wydarzeniu Dyniowa balanga."
@@ -2513,7 +2522,7 @@ msgid "hw2022Medal02"
 msgstr "Ponury żniwiarz"
 
 msgid "hw2022Medal02_condition"
-msgstr "Przyznawany wszystkim graczom, którzy spełnili specjalne warunki w trakcie wydarzenia."
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2022."
 
 msgid "hw2022Medal02_descr"
 msgstr "Zdobądź 65 000 Punktów Halloween podczas wydarzenia Dyniowa balanga."
@@ -2522,7 +2531,7 @@ msgid "hw2023Medal"
 msgstr "Ocalały"
 
 msgid "hw2023Medal_condition"
-msgstr "Przyznawany w czasie Mirny: Utracona Nadzieja 2023."
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2023."
 
 msgid "hw2023Medal_descr"
 msgstr "Odkoduj wszystkie szpule podczas wydarzenia Mirny: Utracona Nadzieja."
@@ -2531,7 +2540,7 @@ msgid "hw2024Medal"
 msgstr "Badacz Babilonu"
 
 msgid "hw2024Medal_condition"
-msgstr "Przyznawane podczas Projektu Babilon 2024."
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2024."
 
 msgid "hw2024Medal_descr"
 msgstr "Odszyfruj wszystkie nagrania podczas wydarzenia Projekt Babilon."
@@ -2540,10 +2549,37 @@ msgid "hw2025Medal"
 msgstr "Zakazana wiedza"
 
 msgid "hw2025Medal_condition"
-msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia."
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2025."
 
 msgid "hw2025Medal_descr"
 msgstr "Odszyfruj wszystkie nagrania w wydarzeniu Babilon: Zakazana strefa."
+
+msgid "hw2026Medal_1"
+msgstr "Nikogo nie zostawimy"
+
+msgid "hw2026Medal_1_condition"
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2026."
+
+msgid "hw2026Medal_1_descr"
+msgstr "Odszyfruj wszystkie nagrania w wydarzeniu Babilon: Mroczna Wieża. Odmówiłeś zostawienia Alex!"
+
+msgid "hw2026Medal_2"
+msgstr "Jej domem jest Mirium"
+
+msgid "hw2026Medal_2_condition"
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2026."
+
+msgid "hw2026Medal_2_descr"
+msgstr "Odszyfruj wszystkie nagrania w wydarzeniu Babilon: Mroczna Wieża. Pozwoliłeś Alex wejść w Mirium!"
+
+msgid "hw2026Medal_3"
+msgstr "Kolekcjoner anomalii"
+
+msgid "hw2026Medal_3_condition"
+msgstr "Przyznawany wszystkim graczom, którzy spełnili warunki w trakcie wydarzenia 2026."
+
+msgid "hw2026Medal_3_descr"
+msgstr "Zbierz wszystkie anomalie w wydarzeniu Babilon: Mroczna Wieża."
 
 msgid "impenetrable"
 msgstr "Kuloodporny"

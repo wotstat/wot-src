@@ -10,6 +10,9 @@ msgstr "Permet de tirer une série d'obus du barillet un par un, chaque obus se 
 msgid "abilities/common/description/autoShootGun"
 msgstr "Tire des rafales d'obus rapides pour infliger de gros dégâts en peu de temps, au prix de la pénétration et de la précision. Surtout efficace en combat rapproché."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Activer l'accélérateur pour un bonus temporaire à la puissance moteur, la vitesse et la maniabilité, tout en conservant un maniement du canon fiable. Cela permet un style de jeu agile et dynamique sans compromettre l'efficacité au combat."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Tire des obus étoilés qui infligent leur maximum de dégâts à une distance maximale de 50 m. Les dégâts de ces obus diminuent avec la distance, ce qui les rend surtout efficaces en combat rapproché."
 
@@ -61,6 +64,9 @@ msgstr "Rechargement automatique amélioré"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Canon automatique"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Accélérateur de combat"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Canon profondément rayé"
 
@@ -102,6 +108,15 @@ msgstr "Mode turbo"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Mode de tir salve"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Améliore la manœuvrabilité sans nuire à la maniabilité du canon."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Ce système permet de tirer en continu sans avoir à recharger et il contrôle la chaleur que le canon génère quand il tire."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Le canon dispose de dispositifs spéciaux qui permettent de modifier certains paramètres des obus avant le tir."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "En restant immobile ou en roulant lentement, vous accumulez des niveaux de précision pour améliorer la précision de votre prochain tir.\nAu niveau de précision le plus élevé, vous atteignez un maniement du canon correct, avec une dispersion réduite même en mouvement ou lors de la rotation de la caisse ou de la tourelle."
@@ -355,6 +370,15 @@ msgstr "Permet de tirer simultanément avec les deux canons au prix d'un temps d
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Une mécanique spéciale qui augmente la puissance du moteur, l'accélération et la vitesse maximale pendant une courte durée."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Activer l'accélérateur pour un bonus temporaire à la puissance moteur, la vitesse et la maniabilité, tout en conservant un maniement du canon fiable. Cela permet un style de jeu agile et dynamique sans compromettre l'efficacité au combat."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Ce canon peut tirer en continu sans avoir besoin de recharger. Chaque tir génère de la chaleur : plus la température est élevée, plus certains de ses paramètres sont altérés. Tirer en continu peut entraîner une surchauffe du canon, l'empêchant alors de tirer tant qu'il n'a pas refroidi."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Le canon du véhicule dispose de dispositifs spéciaux qui permettent de modifier certains paramètres des obus avant de tirer. L'équipement indique quels paramètres seront affectés en changeant de mode de tir."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Rester immobile ou rouler sous une certaine vitesse permet à votre véhicule de calibrer son Dispositif de calcul balistique analogique et d'accumuler des niveaux de précision, augmentant ainsi la précision de votre prochain tir. Si vous dépassez la limite de vitesse, votre progression dans l'accumulation de niveaux de précision sera mise en pause tant que vous ne ralentirez pas. Au niveau de précision le plus élevé, votre véhicule gagne une stabilisation du canon correcte, avec une dispersion réduite en mouvement ainsi que lors de la rotation de la caisse ou de la tourelle. L'effet est retiré lorsque vous tirez."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Cette modification mécanique augmente considérablement l'accélération du véhicule, la puissance du moteur, ainsi que sa vitesse maximale en marche avant et arrière pendant une courte durée, ce qui vous permet de réagir rapidement aux attaques ennemies et de surprendre vos adversaires grâce à des manœuvres dynamiques. Maintenir une vitesse de déplacement élevée accélère le rechargement de la mécanique."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Toutes les valeurs affichées correspondent au maximum possible pour ce véhicule. L'équipement, les directives et les consommables peuvent modifier ces valeurs, mais ces changements ne sont pas reflétés ici."
+msgstr "Toutes les valeurs affichées correspondent aux meilleures possibles pour ce véhicule. L'équipement, les directives et les consommables peuvent modifier ces valeurs, mais ces changements ne sont pas reflétés ici."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "obus AP calibrable"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "de crédits à chaque bataille"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "transfert de l'équipage depuis n'importe quelle classe de véhicules sans pénalité"
+msgstr "transfert de l'équipage depuis n'importe quel type de véhicules sans pénalité"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "d'EXP. de bataille et d'EXP. d'équipage"

@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Cooldown-tid: {{cooldown}} s"
+
+msgid "ability/miriumCost"
+msgstr "Pris i Mirium ved brug i kamp: {{value}}."
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "I brug:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Passive buffs i kamp"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Fuldfør normal sværhedsgrad for at åbne op for hård sværhedsgrad og få adgang til anomali-kombinationer-systemet."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Anomali-kombinationer er utilgængelige"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Forøger effektivitet i kamp og overføres fra fase til fase, selv hvis dit køretøj bliver ødelagt."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Ved modtagelse:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomalier"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Ekko-anomali"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Opsamlet anomali"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Basal anomali"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Hemmelig anomali"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Kun erobret fra loot."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Har ingen kombinationer."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Tæller ikke mod at optjene Anomali-samler-medaljen."
+
+msgid "bannerTooltip/available"
+msgstr "Event tilgængelig i %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — Kamptype. Klik for at udforske"
+
+msgid "bannerTooltip/description"
+msgstr "En særlig PvE-kamptype, der vil føre dig dybt ind i den mystiske Babylon Project-verden. Tag kontrol over syv unikke køretøjer, når du kæmper mod de mørke fjendtlige styrker. Eksklusive belønninger og meget mere venter!"
+
+msgid "bannerTooltip/header"
+msgstr "Babylon: Dark Tower"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Din computers ydeevne er ikke tilstrækkelig til denne kamptype. Du vil måske opleve problemer med grafikken og køretøjets bevægelser. Det er også sandsynligt at klienten vil crashe."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Denne kamptype kræver høj ydelse af computeren. Du vil opleve problemer med kortindlæsning, grafik og køretøjsbevægelser. I tilfælde af utilstrækkelig ydeevne, prøv en lavere grafikindstilling i indstillingerne."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Lav ydeevne"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Mulig reduceret ydeevne"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "I er allerede venner."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Afventer bekræftelse af venneanmodning."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Fjern spiller fra din sorte liste."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Tilføj til vennelisten."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klik for at åbne interaktions-menu med denne spiller."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Tilføj til deling."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Spiller allerede i deling."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Invitation allerede sendt."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Kun delingskommandøren kan invitere spillere til en deling."
+
+msgid "battleResult/secretReward/header"
+msgstr "Hemmelig belønning"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Du vil modtage en særlig medalje i slutningen af eventet baseret på din beslutning."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Unik event-medalje"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Cooldown: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Mirium-pris: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Tilgængelig til den {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Belønninger:"
+
+msgid "dailyQuests/status"
+msgstr "Ny daglig mission om {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Tildel alle fire mandskabsmedlemmer med voiceovers til eventet (%(crew_members_names)s) til et køretøj i din garage (en af dem skal være kommandør), for at aktivere de dynamiske samtaler under kamp.\nI køretøjer med fem eller seks roller kan de resterende pladser udfyldes af andre mandskabsmedlemmer."
+
+msgid "groupVoiceover/header"
+msgstr "Dynamiske samtaler"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Målet for at åbne op for dette køretøj er allerede valgt. Se dets betingelser i øverste højre hjørne af skærmen."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Mål valgt"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Vælg et tilgængeligt køretøj for at gå i kamp."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Utilgængelig"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Kampe i den valgte sværhedsgrad/kamptype er midlertidigt utilgængelige af tekniske årsager."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Utilgængelig"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Vent til delingen er tilbage fra den forrige kamp til at starte en ny kamp."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Utilgængelig"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Inkompatibel sværhedsgrad for delingen."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Utilgængelig"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Et unikt mandskab med fire medlemmer."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Komplet unikt mandskab"
+
+msgid "keyCard/body"
+msgstr "Se de tilgængelige måder at opnå eventvaluta på."
+
+msgid "keys/accrued"
+msgstr "Modtaget:"
+
+msgid "keys/battles"
+msgstr "• I eventkampe"
+
+msgid "keys/body"
+msgstr "En unik valuta, der bruges til at gøre fremskridt i Babylon: Dark Tower-eventet og modtage værdifulde ting, inklusive den primære eventbelønning. Kan optjenes i eventkampe og købes i pakker. Ødelæg fjendtlige køretøjer i Babylon: Dark Tower for at indsamle så meget materiale som muligt og optjene nøgler."
+
+msgid "keys/boss"
+msgstr "• Boss nedkæmpet:"
+
+msgid "keys/bottom"
+msgstr "Ved slutningen af eventet (%(date)s), bliver alle ubrugte nøgler fjernet."
+
+msgid "keys/bundles"
+msgstr "• Køb i eventpakker"
+
+msgid "keys/daily"
+msgstr "• Daglig køretøjsmission:"
+
+msgid "keys/effective"
+msgstr "• Effektivitet i kamp:"
+
+msgid "keys/gold"
+msgstr "• Køb for guld"
+
+msgid "keys/header"
+msgstr "Dekrypteringsnøgler"
+
+msgid "keys/howToEarn"
+msgstr "Sådan optjener du"
+
+msgid "keys/howToUse"
+msgstr "Sådan bruger du"
+
+msgid "keys/howToUseDescr"
+msgstr "Brug nøgler til at dekryptere dokumenter, åbne op for nye mål, samt til fremskridt mod den primære eventbelønning. Du kan også bruge nøgler for at springe mål over og hurtigere nå frem til belønningerne."
+
+msgid "keys/inStock"
+msgstr "tilgængelig"
+
+msgid "keys/secret"
+msgstr "• Hemmelig belønning:"
+
+msgid "metaWidget/body"
+msgstr "Klik for at se alle eventets mål og belønninger."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Fuldfør dette dokuments kampbetingelse for at dekryptere det. Dette kan ikke springes over."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Dekryptering utilgængeligt"
+
+msgid "metaWidget/header"
+msgstr "BELØNNINGSSTI"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Klik for at vælge, hvordan denne historie slutter. Fællesskabets overordnede beslutning vil afgøre kommende handlinger. Tjek spilportalen for opdateringer."
+
+msgid "missionTooltip/bottom"
+msgstr "Dekrypter alle dokumenter (nogle mål kan springes over), for at nå den primære belønning, før eventet slutter den %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Mål %(current)s nået, belønninger modtaget"
+
+msgid "missionTooltip/count"
+msgstr "Mål %(current)s af %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Dekrypter"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Fuldfør målet for at åbne op for dekryptering."
+
+msgid "missionTooltip/kingReward"
+msgstr "Primær eventbelønning"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Primær eventbelønning modtaget"
+
+msgid "missionTooltip/received"
+msgstr "Mål %(current)s fuldført, men dokument ikke dekrypteret"
+
+msgid "missionTooltip/rewards"
+msgstr "Fuldfør målet for at modtage belønninger."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Dekrypter dokumentet for at modtage belønninger."
+
+msgid "missionTooltip/skip"
+msgstr "Skip"
+
+msgid "shopWidget/body"
+msgstr "Klik for at åbne en særlig del af in-game butikken med eksklusive ting fra eventet."
+
+msgid "shopWidget/header"
+msgstr "Eventpakker"
+
+msgid "teamList/actions/body"
+msgstr "Kvikhandlinger til at oprette en deling og tilføje/fjerne venner."
+
+msgid "teamList/actions/header"
+msgstr "Kvikhandlinger"
+
+msgid "teamList/anomalies/header"
+msgstr "Aktive anomalier"
+
+msgid "teamList/bossDamage/body"
+msgstr "Sorter efter uddelt skade kun i fase 4 (boss-kampen).\nDenne skade tæller ikke mod nøglebelønningerne, hvis holdet ikke får nedkæmpet bossen."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Denne skade tæller ikke mod nøglebelønningerne, da holdet ikke fik nedkæmpet bossen."
+
+msgid "teamList/bossDamage/header"
+msgstr "Skade uddelt i boss-kampen"
+
+msgid "teamList/damage/body"
+msgstr "Sorter efter skade uddelt i fase 1-3."
+
+msgid "teamList/damage/header"
+msgstr "Skade uddelt"
+
+msgid "teamList/keys/body"
+msgstr "Sorter efter antal optjente nøgler (den viste værdi omfatter ikke bonusnøgler modtaget for at fuldføre den tilsvarende daglige mission)."
+
+msgid "teamList/keys/header"
+msgstr "Nøgler optjent"
+
+msgid "teamList/kills/body"
+msgstr "Sorter efter antal ødelagte fjendtlige køretøjer."
+
+msgid "teamList/kills/header"
+msgstr "Fjendtlige køretøjer ødelagt"
+
+msgid "teamList/name/header"
+msgstr "Spillernavn"
+
+msgid "teamList/place/body"
+msgstr "Sorter efter placering på holdet."
+
+msgid "teamList/place/header"
+msgstr "Placering på holdet"
+
+msgid "teamList/squad/header"
+msgstr "En deling er en taktisk enhed, så spillerne kan samarbejde i kampe."
+
+msgid "teamList/vehicle/body"
+msgstr "Sorter efter køretøjstype og navn."
+
+msgid "teamList/vehicle/header"
+msgstr "Køretøjer"
+
+msgid "teamList/warned/body"
+msgstr "Denne spiller er blevet straffet for inaktivitet/desertering, og har ikke modtaget nogle belønninger for denne kamp."
+
+msgid "teamList/warned/header"
+msgstr "Advarsel"
+
+msgid "teamList/warned/self/body"
+msgstr "Du er blevet straffet for inaktivitet/desertering, og har ikke modtaget nogle belønninger for denne kamp."
+
+msgid "teamList/warned/self/header"
+msgstr "Advarsel"
+
+msgid "vehicle/bonusTitle"
+msgstr "Indtjening"
+
+msgid "vehicle/eventBonus"
+msgstr "Bonusnøgler er tilgængelige for at fuldføre en daglig mission i dette køretøj."
+
+msgid "vehicle/state/default/title"
+msgstr "Klar til kamp"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "I kamp"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "I taktisk enhed"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "I kø"
+
+msgid "vehicle/state/locked/title"
+msgstr "Låst"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Et 5-skuds magasin lader dig hurtigt uddele store mængder skade."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Magasin"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Et 3-skudssystem, der reducerer tiden for at autogenlade granater."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Kanon med forbedret autogenlader"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "En kanon med et system til vedvarende affyring."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Maskinkanon"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Forøger chancen for at skade moduler på fjendtlige køretøjer."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Kanon med høj kritisk skade"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "En HE-kanon med et formidabelt 2-skuds autogenlade-system"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Kanon med autogenlader"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Gør det muligt at skifte mellem cyklisk og samtidig affyring."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Dobbeltløbet kanon"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Giver dit køretøjs moduler fuld beskyttelse mod kritisk skade."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Modstand mod kritisk skade"

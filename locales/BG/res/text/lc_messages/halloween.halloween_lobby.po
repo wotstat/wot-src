@@ -1,0 +1,1007 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Незавършени бойни умения"
+
+msgid "abilitiesIncomplete/toAbilities"
+msgstr "Към способностите"
+
+msgid "abilitiesIncomplete/toBattle"
+msgstr "Към битка"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "На избраната машина липсва една или повече бойни способности. Това може значително да повлияе на бойните ви показатели. Ще влезете ли в битката въпреки това?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Можете да персонализирате предварително зададените клавишни комбинации за бойни способности и снаряди.\nТази промяна се отнася само за битки за събитието и няма да засегне други режими.\nВсе още можете да променяте отделни клавишни комбинации в Меню — Настройки — Контроли (под Снаряжение)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Промяна на клавишни комбинации за Снаряжение"
+
+msgid "anomaliesView/description_1"
+msgstr "Това са бонуси за екипажа в битка. На трудности {{@ style (color #EEEDE9B2) (bold)}}висока{{/}} и {{@ style (color #EEEDE9B2) (bold)}}кошмарна{{/}}, изберете Аномалии по време на бой и ги комбинирайте, за да отключите върховна {{@ style (color #C293FFCC) (bold)}}Ехо аномалия{{/}}."
+
+msgid "anomaliesView/description_2"
+msgstr "Тази инструкция показва аномалиите, които сте получили в предишни битки, както и тези, които все още не са открити. За да отворите менюто с аномалии в битка, {{@ style (color #EEEDE9B2) (bold)}}натиснете N{{/}} (клавиш по подразбиране)."
+
+msgid "anomaliesView/header"
+msgstr "АНОМАЛИИ"
+
+msgid "anomaliesView/quote_1/author"
+msgstr "— Обект 66, Тихият\nКазват, че никога не е бил изпращан на експедиция. Други обаче го срещат вътре в аномалията. Той мълчаливо предава нови бележки и си тръгва."
+
+msgid "anomaliesView/quote_1/message"
+msgstr "Нека мирият те изпълни."
+
+msgid "anomaliesView/quote_2/author"
+msgstr "— Обект 6, Свирач-гайдар\nИнженер, който се завърнал от експедиция и построил \"Вълноразбивача\". Някои казват, че мирият го е променил. Други, че винаги е бил такъв."
+
+msgid "anomaliesView/quote_2/message"
+msgstr "Чуваш ли го?\nТова е зовът на мирия."
+
+msgid "anomaliesView/quote_3/author"
+msgstr "— Обект 12, Сврака\nЛаборантка от ранна експедиция, посочена като изчезнала. Но тя се е върнала. Не на правилното място, не в правилното време и не като тази, която си беше тръгнала."
+
+msgid "anomaliesView/quote_3/message"
+msgstr "Без значение колко пъти напускаш Аномалията, тя ще продължава да те дърпа обратно."
+
+msgid "anomaliesView/title"
+msgstr "Комбинации за аномалиите"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Изпълнете текущата мисия, за да получите уникална значка \"Вавилон: Забранена зона\":"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Мисия за епично постижение"
+
+msgid "bestiaryView/carousel/card/new"
+msgstr "НОВО"
+
+msgid "bestiaryView/carousel/card/state/locked"
+msgstr "Заключена"
+
+msgid "bestiaryView/carousel/card/tooltip/locked/body"
+msgstr "Изпълнете мисия {number}, за да отключите досието на врага."
+
+msgid "bestiaryView/carousel/card/tooltip/style/body"
+msgstr "Сблъскай се с врага в режим Случайна битка с вавилонски изкривен триизмерен стил от Магазина на събитието."
+
+msgid "bestiaryView/info/about/czech_Cz34_Vz_71_Tesak_HW_BOT"
+msgstr "?empty?"
+
+msgid "bestiaryView/info/about/france_F110_Lynx_6x6_HW_BOT"
+msgstr "Лек и пъргав враг, способен да насочва енергийни удари по целите си."
+
+msgid "bestiaryView/info/about/france_F17_AMX_13_90_HW_BOT"
+msgstr "Изгубен танк Hornet, който сега преследва бившите си съюзници. Чистата му омраза се е превърнала в концентриран огън, способен да подпалва враговете с всеки изстрел."
+
+msgid "bestiaryView/info/about/germany_G00_Bomber_Hell"
+msgstr "Самоходни черни сфери, покрити с шипове като военноморски мини. Таралежите винаги се появяват на групи. Бързи и изключително маневрени, те нанасят поражения само като експлодират при удар. Единичен удар е опасен. Няколко наведнъж могат да бъдат фатални."
+
+msgid "bestiaryView/info/about/germany_G00_K_bomber__HW_21_AI"
+msgstr "Подобно на обикновените таралежи по своите характеристики и поведение, Алфа таралежът може да причини още повече проблеми. Когато това нещо бъде открито, на целия отряд се препоръчва да се съсредоточи върху унищожаването му."
+
+msgid "bestiaryView/info/about/germany_G113_SP_I_C_HW_BOT"
+msgstr "Група танкове, свързани в една структура. Пораженията, нанесени на един от тях, се разпределят между всички. Те или ще издържат, или ще паднат заедно."
+
+msgid "bestiaryView/info/about/germany_G142_M48RPz_HW_BOT"
+msgstr "Стандартен враг вътре в аномалията, който пази местата, където се намира материята. Когато се приближите до лагера, всички скрити там стражи се разкриват и атакуват. Те са творения на мирия и изчезват безследно след унищожението си."
+
+msgid "bestiaryView/info/about/germany_G171_E77_HW_BOT"
+msgstr "Monarch действа като котва за Кошер, поддържайки всяка единица наблизо."
+
+msgid "bestiaryView/info/about/germany_G181_E100_Autocannon_Boss_HW25_bot"
+msgstr "?empty?"
+
+msgid "bestiaryView/info/about/germany_G25_PzII_Luchs_HELL_HALL"
+msgstr "Страхлив и предпазлив враг, който предпочита да се оттегли при първия признак на откриване. Не е опасен, но представлява интерес като лесна мишена и източник на мирий."
+
+msgid "bestiaryView/info/about/germany_G64_Panther_II_Hall_minion"
+msgstr "Среден танк, способен да преследва екипажите ни през цялата аномалия. Мощните му високо-фугасни снаряди могат да нанесат значителни поражения на слабо бронирани съюзници."
+
+msgid "bestiaryView/info/about/germany_G73_E50_Ausf_M_Hall_minion"
+msgstr "Тежък и мощен танк, който обикновено води групата пазачи в лагерите. Неговата огромна издръжливост и високите поражения го правят смъртоносна заплаха."
+
+msgid "bestiaryView/info/about/italy_It19_Progetto_C50_mod_66_HW_BOT"
+msgstr "Копирана от мирий, изкривена версия на Легио Ферата, сега обърната срещу бившите си съюзници с още по-голяма сила."
+
+msgid "bestiaryView/info/about/uk_GB100_Manticore_HW_BOT"
+msgstr "Бърз, скрит противник, гордеещ се с висока скорост и издръжливост. С нечупливи вериги, той носи огромен запас от мирий и веднага ще се опита да избяга при откриване."
+
+msgid "bestiaryView/info/about/uk_GB125_Saladin_HW_BOT"
+msgstr "Този враг не носи конвенционални оръжия. Вместо това, той се опитва да скъси разстоянието и да се самоунищожи, освобождавайки ударна вълна, която зашеметява всички машини, попаднали в радиуса на взрива му."
+
+msgid "bestiaryView/info/about/uk_GB24_Centurion_Mk3_HW_BOT"
+msgstr "Цербер, изгубен в аномалията, чиято единствена цел сега е да преследва онези, които се опитват да завземат неговия мирий."
+
+msgid "bestiaryView/info/about/usa_A100_T49_HW_BOT"
+msgstr "Изгубен гренадир, който все още може да бъде открит в аномалията. Високите му поражения и лазерната му система за насочване го правят страховит противник."
+
+msgid "bestiaryView/info/about/ussr_R171_IS_3_II_HW_BOT"
+msgstr "Тежък танк, който извършва опустошителни таранни атаки. Обикновено се движи пред вражеските вълни и всява хаос сред отбора. При успешна атака може да унищожи целта си с един удар."
+
+msgid "bestiaryView/info/about/ussr_R40_T-54_HW_BOT"
+msgstr "Малахит, изгубен в аномалията, сега изключително опасен. Запазил е първоначалните си способности и се опитва да се доближи максимално до вас."
+
+msgid "bestiaryView/info/about/ussr_R77_KV2_turret_2"
+msgstr "На пръв поглед това може да изглежда като лесна мишена, но не се заблуждавайте. Тежката му челна броня и много точното оръдие го правят страхотна заплаха в директен челен сблъсък."
+
+msgid "bestiaryView/info/description/ability_1"
+msgstr "Невъзможност за напускане на охраняваната зона и преследване на отстъпващите машини."
+
+msgid "bestiaryView/info/description/ability_10"
+msgstr "Периодично уврежда всички близки машини с енергийна вълна, образувана в намотките му."
+
+msgid "bestiaryView/info/description/ability_11"
+msgstr "Аномалията трансформира оръдието на тази машина, създавайки концентриран огън, който позволява на всеки изстрел да възпламени целта си."
+
+msgid "bestiaryView/info/description/ability_12"
+msgstr "Изстрелва високоексплозивни снаряди от автоматична касета с два снаряда."
+
+msgid "bestiaryView/info/description/ability_13"
+msgstr "Той изгаря силата на машините в радиуса на аурата си и също така извлича материята, събрана от играчите."
+
+msgid "bestiaryView/info/description/ability_14"
+msgstr "Подобрени боеприпаси с концентрирана ехо енергия, осигуряващи значителен бонус към пораженията на всички попадения."
+
+msgid "bestiaryView/info/description/ability_15"
+msgstr "Създава зона около себе си. След кратко забавяне зоната детонира: всяка съюзническа машина, хваната вътре, е зашеметена. Унищожете Детонатора преди експлозията и зашеметяването ще удари околните ехо танкове."
+
+msgid "bestiaryView/info/description/ability_16"
+msgstr "Той не се движи, действайки като неподвижен купол и удряйки вражеските танкове с точен огън."
+
+msgid "bestiaryView/info/description/ability_17"
+msgstr "Действа като главна жизненоважна връзка за групата, правейки оцеляването на всяка единица зависимо от този лидер."
+
+msgid "bestiaryView/info/description/ability_18"
+msgstr "Директна връзка, която свързва ядрото на тази единица с нейния Monarch. Когато господарят падне, връзката се прекъсва и структурата на тази единица се срива мигове по-късно."
+
+msgid "bestiaryView/info/description/ability_19"
+msgstr "При унищожаването си този враг оставя след себе си концентрирана аномалия, която при вземане осигурява на отбора специална аномалия за вземане."
+
+msgid "bestiaryView/info/description/ability_2"
+msgstr "Използва заряд, за да се приближи бързо до целта и да се блъсне в нея, нанасяйки значителни поражения."
+
+msgid "bestiaryView/info/description/ability_3"
+msgstr "Ловците откриват врагове на големи разстояния и изстрелват нискоскоростни фугасни снаряди отдалеч, което може да се окаже изключително опасно не само за леките танкове, но и за страните и тила на средните и дори тежките."
+
+msgid "bestiaryView/info/description/ability_4"
+msgstr "Използва мирий, за да поставя капани на земята под плячката си. Тези зони детонират секунди по-късно. Преместете се или ще бъдете разкъсани."
+
+msgid "bestiaryView/info/description/ability_5"
+msgstr "Бяга с максимална скорост, когато бъде открит, отнасяйки мирий със себе си."
+
+msgid "bestiaryView/info/description/ability_6"
+msgstr "Фиксира се към най-близката цел и се зарежда с пълна скорост, детонирайки при удар. Експлозията може да повреди и близки машини."
+
+msgid "bestiaryView/info/description/ability_7"
+msgstr "След като бъде унищожен, Алфа таралежът се разпада на няколко обикновени таралежа (обикновено три, но броят им може да варира), които ще преследват най-близкия съюзник, ще го блъснат и ще експлодират."
+
+msgid "bestiaryView/info/description/ability_8"
+msgstr "Излъчва мириева аура, която разяжда бронята на близките машини, абсорбирайки загубения материал, за да се възстанови."
+
+msgid "bestiaryView/info/description/ability_9"
+msgstr "Увеличената скорострелност на оръжието му позволява на този враг да нанася допълнителни поражения."
+
+msgid "bestiaryView/info/tacticalAdvise/czech_Cz34_Vz_71_Tesak_HW_BOT"
+msgstr "{UL}tacticalAdvise_czech_Cz34_Vz_71_Tesak_HW_BOT {UL}{LI}{f7f6f299Bold_open}Tactic_1{f7f6f299Bold_close}: do_1.{UL}{LI}{f7f6f299Bold_open}Tactic_2{f7f6f299Bold_close}: do_2.{UL}{LI}{f7f6f299Bold_open}Tactic_3{f7f6f299Bold_close}: do_3 ."
+
+msgid "bestiaryView/info/tacticalAdvise/france_F110_Lynx_6x6_HW_BOT"
+msgstr "{UL}Няма да ви позволи да завършите мисията на спокойствие! Първо се съсредоточете върху унищожаването на Трапера.{UL}{LI}{{@ style (bold)}}Разпръснете се{{/}}: Ако съюзник е твърде близо, може да се окажете в зоната му на повреда, докато се опитвате да избягате от своята.{UL}{LI}{{@ style (bold)}}Избягвайте тесни проходи{{/}}: Поддържайте максимална маневреност.{UL}{LI}{{@ style (bold)}}Използвайте способности на машината{{/}}: Щитът ще ви предпази от зоната на поражения, докато Стелтът не позволява на Трапера да ви прицели. Имайте предвид обаче, че Стелтът няма да помогне, ако вече сте в зона на поражения."
+
+msgid "bestiaryView/info/tacticalAdvise/france_F17_AMX_13_90_HW_BOT"
+msgstr "{UL}Пребройте снарядите, има по един за всеки от вашия отбор!{UL}{LI}{{@ style (bold)}}Цел с висок приоритет{{/}}: Поради аномалните си способности, този танк представлява сериозна заплаха за целия отбор.{UL}{LI}{{@ style (bold)}}Тактиките триумфират{{/}}: Стелтът и груповият ремонт могат да потушат пожара и да помогнат на вас или вашите съюзници да не изгорите напълно.{UL}{LI}{{@ style (bold)}}Взривете го{{/}}: Използвайте Турбо, за да го пробиете с един бърз удар!"
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G00_Bomber_Hell"
+msgstr "{UL}Веднъж открити, Таралежите трябва да станат основен приоритет на екипа!{UL}{LI}{{@ style (bold)}}Уязвимост{{/}}: Липсата на броня ги прави изключително лесни за унищожаване с всякакво оръжие.{UL}{LI}{{@ style (bold)}}Групови тактики{{/}}: Тези врагове обикновено атакуват на рояци, така че бъдете нащрек и не им позволявайте да ви изненадат.{UL}{LI}{{@ style (bold)}}Предимство в областта на действието{{/}}: Използвайте способности с площно действие като Енергиен изстрел или Вампирски изстрел, за да унищожите целия клъстер с един удар."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G00_K_bomber__HW_21_AI"
+msgstr "{UL}След като се справите с Алфата, бъдете готови да се справите с обикновените Таралежи!{UL}{LI}{{@ style (bold)}}Поражения от зоната{{/}}: Използвайте бойните си способности – един AOE удар може да е достатъчен, за да унищожи цялата група наведнъж.{UL}{LI}{{@ style (bold)}}Време на щита{{/}}: Използвайте енергийния си щит, за да абсорбирате поражения от нахлуващи Таралежи, но го планирайте внимателно, така че да е активен точно преди да ви достигнат.{UL}{LI}{{@ style (bold)}}Останете мобилни{{/}}: Ако машината ви е крехка, използвайте скоростта и турбото си, за да надхитрите рояка и да ги унищожите от безопасно разстояние."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G113_SP_I_C_HW_BOT"
+msgstr "{UL}Четири глави, едно ядро.{UL}{LI}{{@ style (bold)}}Споделена структура{{/}}: Всеки изстрел е от значение, независимо кой танк уцелвате. Повреждането на която и да е единица в клъстера износва споделената им структура.{UL}{LI}{{@ style (bold)}}Постоянна огнева мощ{{/}}: Тъй като споделят една структура, не можете да намалите огневата им мощ, като унищожите отделни единици преждевременно – всички продължават да стрелят, докато последната не падне.{UL}{LI}{{@ style (bold)}}Максимизиране на печалбата{{/}}: Уверете се, че сте елиминирали напълно целия кошер, за да запълните колектора и да съберете повече мирий."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G142_M48RPz_HW_BOT"
+msgstr "{UL}В рамките на аномалията, екипната работа е ключът към успеха.{UL}{LI}{{@ style (bold)}}Координирайте атаката{{/}}: Атакувайте лагера само със съвместен удар, никога самостоятелно!{UL}{LI}{{@ style (bold)}}Предимство в оръжията{{/}}: Унищожен враг не може да нанесе поражения. Не оставяйте оцелели.{UL}{LI}{{@ style (bold)}}Тактическо отстъпление{{/}}: Ако има риск от унищожение, можете да се оттеглите отвъд лагера, за да спасите машината."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G171_E77_HW_BOT"
+msgstr "{UL}Отсечете главата и тялото ще падне!{UL}{LI}{{@ style (bold)}}Ударете сърцето{{/}}: Използвайте Турбото си, за да пробиете рояка и да елиминирате Monarch.{UL}{LI}{{@ style (bold)}}Лесна цел{{/}}: Самият Monarch не е труден за унищожаване противник.{UL}{LI}{{@ style (bold)}}Стратегически избор{{/}}: Изберете си приоритет – убийте Monarch, за да прекратите битката незабавно, или първо изчистете танковете на кошера, за да напълните колектора и да съберете още мирий."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G181_E100_Autocannon_Boss_HW25_bot"
+msgstr "{UL}tacticalAdvise_germany_G181_E100_Autocannon_Boss_HW25_bot {UL}{LI}{f7f6f299Bold_open}Tactic_1{f7f6f299Bold_close}: do_1.{UL}{LI}{f7f6f299Bold_open}Tactic_2{f7f6f299Bold_close}: do_2.{UL}{LI}{f7f6f299Bold_open}Tactic_3{f7f6f299Bold_close}: do_3 ."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G25_PzII_Luchs_HELL_HALL"
+msgstr "{UL}Не им позволявайте да избягат!{UL}{LI}{{@ style (bold)}}Ниска жизнеспособност{{/}}: Може да бъде унищожен само с един или два удара, дори с оръдия с ниска мощност.{UL}{LI}{{@ style (bold)}}Дайте приоритет на отдалечените Зайци{{/}}: Не им позволявайте да се измъкнат. Стреляйте по следите им, ако е необходимо.{UL}{LI}{{@ style (bold)}}Използвайте Турбо{{/}}: Тази способност ще ви помогне да преследвате бягащ Заек или да го унищожите с леко таранно въздействие."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G64_Panther_II_Hall_minion"
+msgstr "{UL}Ловците ще ви преследват по цялата карта, така че отстъплението не е опция.{UL}{LI}{{@ style (bold)}}Бъдете нащрек{{/}}: Влезте в бой с Ловците, след като се справите с основните вражески сили или преди да започнете нова битка.{UL}{LI}{{@ style (bold)}}Останете в движение{{/}}: Можете да избягвате бавно движещи се фугасни снаряди, като останете мобилни.{UL}{LI}{{@ style (bold)}}Фойерверки от снаряди{{/}}: Страните на Ловците са директно място за съхранение на техните уязвими и експлозивни снаряди - прицелете се там."
+
+msgid "bestiaryView/info/tacticalAdvise/germany_G73_E50_Ausf_M_Hall_minion"
+msgstr "{UL}Голям и тромав, използвайте това в своя полза!{UL}{LI}{{@ style (bold)}}Висок профил{{/}}: Опитайте се да се приближите и да сте отстрани на врага, дръжте се под оръдието му.{UL}{LI}{{@ style (bold)}}Използвайте терена{{/}}: Възползвайте се от околната среда. Да стоите на открито срещу масивното му оръдие е фатална грешка.{UL}{LI}{{@ style (bold)}}Координиран удар{{/}}: Поради огромната му издръжливост, помислете два пъти, преди да се опитате да го победите сами."
+
+msgid "bestiaryView/info/tacticalAdvise/header"
+msgstr "Тактически съвети"
+
+msgid "bestiaryView/info/tacticalAdvise/italy_It19_Progetto_C50_mod_66_HW_BOT"
+msgstr "{UL}Това ехо-копие ще се възстанови чрез вашите грешки!{UL}{LI}{{@ style (bold)}}Цел с висок приоритет{{/}}: Поради аномалните си способности, този танк представлява изключителна заплаха за целия отбор.{UL}{LI}{{@ style (bold)}}Дръжте дистанция{{/}}: Този враг е много по-труден за унищожаване, ако се самопоправи за ваша сметка.{UL}{LI}{{@ style (bold)}}Избягвайте дуел{{/}}: Това повредено копие може лесно да унищожи вашия танк в сблъсък един на един."
+
+msgid "bestiaryView/info/tacticalAdvise/uk_GB100_Manticore_HW_BOT"
+msgstr "{UL}Хванете го, докато можете – няма втори шанс да получите предимство!{UL}{LI}{{@ style (bold)}}Еднократна възможност{{/}}: Събирачът носи голямо количество мирий и уникална Аномалия. Ако го загубите, както Събирачът, така и ценните му стоки изчезват до края на битката.{UL}{LI}{{@ style (bold)}}Игнорирайте веригите{{/}}: Този враг има неуязвими вериги. Използвайте способности за увеличаване на пораженията, за да прогорите бронята му.{UL}{LI}{{@ style (bold)}}Пазете гърба си{{/}}: Не позволявайте на други врагове да ви хванат неподготвени, докато сте разсеяни от преследването."
+
+msgid "bestiaryView/info/tacticalAdvise/uk_GB125_Saladin_HW_BOT"
+msgstr "{UL}Стойте назад и го унищожете – бързо!{UL}{LI}{{@ style (bold)}}Дръжте дистанция{{/}}: Не позволявайте на Детонатора да се приближи.{UL}{LI}{{@ style (bold)}}Обърнете хода на събитията{{/}}: Ако унищожите Детонатора, преди да се самоунищожи, ударната му вълна ще зашемети всички вражески танкове в района.{UL}{LI}{{@ style (bold)}}Подгответе ремонтите си{{/}}: Ако вие или вашите съюзници сте обхванати от експлозията, използвайте Групов ремонт, за да премахнете незабавно ефекта на зашеметяването."
+
+msgid "bestiaryView/info/tacticalAdvise/uk_GB24_Centurion_Mk3_HW_BOT"
+msgstr "{UL}Не му позволявайте да ви хване на открито!{UL}{LI}{{@ style (bold)}}Цел с висок приоритет{{/}}: Поради аномалните си способности, този танк представлява изключителна заплаха за целия отбор.{UL}{LI}{{@ style (bold)}}Тактиката триумфира{{/}}: Когато се изправяте срещу този противник, дръжте щита или скритостта си готови, за да неутрализирате високите му поражения.{UL}{LI}{{@ style (bold)}}Борете се срещу огъня с огън{{/}}: Използвайте способността си за бързо презареждане, за да прогорите бронята му и да елиминирате тази бледа имитация на истински Цербер възможно най-бързо."
+
+msgid "bestiaryView/info/tacticalAdvise/usa_A100_T49_HW_BOT"
+msgstr "{UL}Едно грешно движение и си аут!{UL}{LI}{{@ style (bold)}}Цел с висок приоритет{{/}}: Поради аномалните си способности, този танк представлява сериозна заплаха за целия отбор.{UL}{LI}{{@ style (bold)}}Ниска броня{{/}}: Заредете с фугасни снаряди, за да се справите по-бързо с него.{UL}{LI}{{@ style (bold)}}Фланкиращ враг{{/}}: Не позволявайте на този враг да обходи отбора ви от фланг. Сблъскайте се с него челно."
+
+msgid "bestiaryView/info/tacticalAdvise/ussr_R171_IS_3_II_HW_BOT"
+msgstr "{UL}Унищожете тарана, преди да удари! Това е приоритетна цел във всяка вълна.{UL}{LI}{{@ style (bold)}}Стреляйте по веригите{{/}}: Това ще обездвижи Щурмовак и ще го направи лесна мишена за вашите съюзници.{UL}{LI}{{@ style (bold)}}Концентрирайте огъня си{{/}}: Унищожете врага, преди да се възстанови. Ако е необходимо, отново свалете веригите.{UL}{LI}{{@ style (bold)}}Избягвайте таран{{/}}: Ако Щурмовак пробие към вас, активирайте невидимост или извършете резки маневри, за да се измъкнете от линията на атака."
+
+msgid "bestiaryView/info/tacticalAdvise/ussr_R40_T-54_HW_BOT"
+msgstr "{UL}Дръжте очите си отворени, защото ще бъде близо, преди да се усетите.{UL}{LI}{{@ style (bold)}}Цел с висок приоритет{{/}}: Поради аномалните си способности, този танк представлява сериозна заплаха за целия отбор.{UL}{LI}{{@ style (bold)}}Дръжте дистанция{{/}}: Този враг излъчва вредно енергийно поле. Всяка единица, попаднала в радиуса, понася значителни поражения.{UL}{LI}{{@ style (bold)}}Взривете го{{/}}: Използвайте Бързо презареждане или други тактики, за да го повалите, преди да се приближи твърде много."
+
+msgid "bestiaryView/info/tacticalAdvise/ussr_R77_KV2_turret_2"
+msgstr "{UL}Останете мобилни и стойте далеч от кръстосания огън!{UL}{LI}{f7f6f299Bold_open}Неподвижна заплаха{f7f6f299Bold_close}: Тъй като този противник не може да се движи, използвайте околната среда във ваша полза. Използвайте хълмове и препятствия, за да пробиете линията му на видимост и да избегнете входящия огън.{UL}{LI}{f7f6f299Bold_open}Не влизайте в директен дуел{f7f6f299Bold_close}: Фронталната му обшивка е изключително дебела. Вместо да разменяте изстрели, потърсете начин да го заобиколите отстрани или изчакайте отвор, за да ударите по-уязвимите му страни.{UL}{LI}{f7f6f299Bold_open}Пригответе щитовете си{f7f6f299Bold_close}: Този враг е силен. Неговите снаряди с висока степен на поражения могат да осакатят машината ви, така че дръжте енергийния си щит готов, за да смекчите пораженията."
+
+msgid "bestiaryView/info/title/ability_1"
+msgstr "Защитник"
+
+msgid "bestiaryView/info/title/ability_10"
+msgstr "Взривна вълна"
+
+msgid "bestiaryView/info/title/ability_11"
+msgstr "Възпламенителен изстрел"
+
+msgid "bestiaryView/info/title/ability_12"
+msgstr "Двойна неприятност"
+
+msgid "bestiaryView/info/title/ability_13"
+msgstr "Аура на чудовище"
+
+msgid "bestiaryView/info/title/ability_14"
+msgstr "Ехо изстрели"
+
+msgid "bestiaryView/info/title/ability_15"
+msgstr "Зашеметяващ пулс"
+
+msgid "bestiaryView/info/title/ability_16"
+msgstr "Обсаден режим"
+
+msgid "bestiaryView/info/title/ability_17"
+msgstr "Прекъсвач"
+
+msgid "bestiaryView/info/title/ability_18"
+msgstr "Жизненоважна връзка"
+
+msgid "bestiaryView/info/title/ability_19"
+msgstr "Носител на аномалии"
+
+msgid "bestiaryView/info/title/ability_2"
+msgstr "Таран"
+
+msgid "bestiaryView/info/title/ability_3"
+msgstr "Високоексплозивен залп"
+
+msgid "bestiaryView/info/title/ability_4"
+msgstr "Мириев капан"
+
+msgid "bestiaryView/info/title/ability_5"
+msgstr "Бяга през глава"
+
+msgid "bestiaryView/info/title/ability_6"
+msgstr "Експлозия!!!"
+
+msgid "bestiaryView/info/title/ability_7"
+msgstr "Рояк таралежи"
+
+msgid "bestiaryView/info/title/ability_8"
+msgstr "Вампирски пулс"
+
+msgid "bestiaryView/info/title/ability_9"
+msgstr "Бърз огън"
+
+msgid "bestiaryView/title"
+msgstr "ТРЕЗОР ЗА ЕХО ТАНКОВЕ"
+
+msgid "bundleView/btn/keys"
+msgstr "Купи"
+
+msgid "bundleView/btn/shop"
+msgstr "Виж в Магазина"
+
+msgid "bundleView/bundle/header/bundleGroupEventPack"
+msgstr "МОБИЛИЗИРАЙТЕ ЧАСОВОИТЕ"
+
+msgid "bundleView/bundle/header/bundleGroupLuxuryEventPack"
+msgstr "ВЗЕМИ ВСИЧКО"
+
+msgid "bundleView/bundle/header/bundleGroupStyle"
+msgstr "ПЕРСОНАЛИЗИРАЙ"
+
+msgid "bundleView/bundle/header/hw26bundle_keys"
+msgstr "КУПИ КЛЮЧОВЕ"
+
+msgid "bundleView/bundle/serviceChannelMessages/hw26bundle_keys"
+msgstr "Закупени са ключове"
+
+msgid "bundleView/bundle/subHeader/bundleGroupEventPack"
+msgstr "Специален пакет за ускоряване на напредъка ви във Вавилон: Тъмната кула."
+
+msgid "bundleView/bundle/subHeader/bundleGroupLuxuryEventPack"
+msgstr "Ексклузивна оферта за Вавилон: Тъмната кула за най-добрия пакет."
+
+msgid "bundleView/bundle/subHeader/bundleGroupStyle"
+msgstr "Триизмерни стилове и други елементи, улавящи атмосферата на събитието."
+
+msgid "bundleView/bundle/subHeader/hw26bundle_keys"
+msgstr "Ключовете се използват за дешифриране или пропускане на записи. Един ключ струва {cost} злато."
+
+msgid "bundleView/eventName"
+msgstr "Проект Вавилон"
+
+msgid "bundleView/reward/hw_artefact_key"
+msgstr "Ключове за дешифриране (бонус)"
+
+msgid "bundleView/subTitle"
+msgid_plural "plural/bundleView/subTitle"
+msgstr[0] "НУЖНИ СА ОЩЕ {key} ЗА ЗАПИС {slide}"
+msgstr[1] "НУЖНИ СА ОЩЕ {key} ЗА ЗАПИС {slide}"
+msgstr[2] "НУЖНИ СА ОЩЕ {key} ЗА ЗАПИС {slide}"
+
+msgid "bundleView/title"
+msgstr "КЛЮЧОВЕ ЗА ДЕШИФРИРАНЕ"
+
+msgid "bundleView/title/default"
+msgstr "ИЗБЕРЕТЕ МЕТОД ЗА ПОКУПКА НА КЛЮЧ"
+
+msgid "bundleView/title/onlyKeysBundle"
+msgstr "ИЗБЕРЕТЕ КОЛИЧЕСТВОТО КЛЮЧОВЕ ЗА ЗАКУПУВАНЕ"
+
+msgid "bundleView/title/onlyShopBundle"
+msgstr "ИЗБЕРЕТЕ ПАКЕТ ЗА СЪБИТИЕТО"
+
+msgid "bundleView/tooltip/cerfToken/body"
+msgstr "Член на екипажа от специалното събитие по ваш избор с глас."
+
+msgid "bundleView/tooltip/cerfToken/header"
+msgstr "Членове на екипажа от събитието, от които да избирате"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Опцията да печелите ×5 опит, считано от втората победа за деня с всяка машина."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Мисия за ×5 опит, спечелен в битка"
+
+msgid "bundleView/tooltip/stepper/body"
+msgstr "Задайте броя на ключовете за дешифриране или пропускане на заключени записи."
+
+msgid "bundleView/tooltip/stepper/header"
+msgstr "Ключове за дешифриране на заключени записи"
+
+msgid "carousel/card/inBattle"
+msgstr "В битка"
+
+msgid "carousel/card/inPlatoon"
+msgstr "Във формирование"
+
+msgid "carousel/card/inQueue"
+msgstr "На опашка"
+
+msgid "carousel/card/locked"
+msgstr "Заключена"
+
+msgid "carousel/daily/header"
+msgstr "Ежедневна мисия на машина"
+
+msgid "common/back"
+msgstr "НАЗАД"
+
+msgid "common/btnContinue"
+msgstr "ПРОДЪЛЖИ"
+
+msgid "common/close"
+msgstr "ЗАТВОРИ"
+
+msgid "common/new"
+msgstr "НОВО"
+
+msgid "common/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "common/toEvent"
+msgstr "КЪМ СЪБИТИЕТО"
+
+msgid "common/toRewardPath"
+msgstr "КЪМ ПЪТЯ НА НАГРАДАТА"
+
+msgid "common/yes"
+msgstr "ТЪЙ ВЯРНО!"
+
+msgid "comparisonWindow/categoryName/maxHealth"
+msgstr "Издръжливост\n(т.ж.)"
+
+msgid "comparisonWindow/categoryName/relativePower"
+msgstr "Огнева мощ\n(единици)"
+
+msgid "comparisonWindow/categoryName/speedLimit"
+msgstr "Максимална скорост\n(km/h)"
+
+msgid "comparisonWindow/tank/ttcType/france_F17_AMX_13_90_Halloween_event"
+msgstr "Касета с&nbsp;5 снаряда&nbsp;"
+
+msgid "comparisonWindow/tank/ttcType/italy_It19_Progetto_C50_mod_66_hw21"
+msgstr "Подобрена система за автоматично презареждане с 3 снаряда"
+
+msgid "comparisonWindow/tank/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event"
+msgstr "Оръдие със система за непрекъснат огън"
+
+msgid "comparisonWindow/tank/ttcType/uk_GB24_Centurion_Mk3_Halloween_event"
+msgstr "Повишен шанс за повреда на модулите на вражеските машини"
+
+msgid "comparisonWindow/tank/ttcType/usa_A100_T49_Halloween_event"
+msgstr "ОФ оръдие със&nbsp;система за автоматично презареждане с 2 снаряда"
+
+msgid "comparisonWindow/tank/ttcType/ussr_R171_IS_3_II_hw21"
+msgstr "Система със сдвоено оръдие"
+
+msgid "comparisonWindow/tank/ttcType/ussr_R40_T_54_Halloween_event"
+msgstr "Защита за&nbsp;модулите на машината ви"
+
+msgid "comparisonWindow/title"
+msgstr "СРАВНЕНИЕ НА МАШИНИ"
+
+msgid "crewShowcase/play"
+msgstr "Пусни"
+
+msgid "crewShowcase/status/inBaseReward"
+msgstr "В базови награди"
+
+msgid "crewShowcase/status/inShop"
+msgstr "В специален пакет"
+
+msgid "crewShowcase/status/received"
+msgstr "Получено"
+
+msgid "crewShowcase/subTitle"
+msgstr "Всички членове на екипажа имат достатъчно опит на екипажа да изучат три умения на 100%."
+
+msgid "crewShowcase/title"
+msgstr "УНИКАЛНИ ЧЛЕНОВЕ НА ЕКИПАЖА"
+
+msgid "crewShowcase/viewInStore"
+msgstr "Виж в Магазина"
+
+msgid "decrypt/affirmative"
+msgstr "ТЪЙ ВЯРНО!"
+
+msgid "decrypt/arrow/disabled/body"
+msgstr "Изпълнете следващата цел и дешифрирайте нейния запис с ключове, за да продължите."
+
+msgid "decrypt/arrow/disabled/header"
+msgstr "Следваща цел"
+
+msgid "decrypt/arrowPrev/disabled/body"
+msgstr "Изпълнете предишната цел и дешифрирайте нейния запис с ключове, за да продължите."
+
+msgid "decrypt/arrowPrev/disabled/header"
+msgstr "Предишна цел"
+
+msgid "decrypt/completed"
+msgstr "Целта е изпълнена. Получени награди:"
+
+msgid "decrypt/hideShow"
+msgstr "Скриване/показване на потребителския интерфейс"
+
+msgid "decrypt/outroVideo"
+msgstr "Заключително видео"
+
+msgid "decrypt/outroVideoTooltip/active"
+msgstr "Гледайте заключителното видео"
+
+msgid "decrypt/outroVideoTooltip/disabled"
+msgstr "Можете да гледате заключителното видео от този екран отново, след като получите всичките си награди."
+
+msgid "decrypt/voiceover"
+msgstr "Озвучаване"
+
+msgid "decrypt/voiceoverTooltip"
+msgstr "Активира или деактивира гласово разказване на всички екрани с дешифрирани записи."
+
+msgid "difficult/disabled/body"
+msgstr "Вие сте във взвод. Само командирът може да променя нивото на трудност."
+
+msgid "difficult/disabled/header"
+msgstr "Промяната на трудност е недостъпна"
+
+msgid "difficult/level_1"
+msgstr "Нормална"
+
+msgid "difficult/level_2"
+msgstr "Висока"
+
+msgid "difficult/level_3"
+msgstr "Кошмарна"
+
+msgid "difficult/new"
+msgstr "НОВО"
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Враговете имат по-ниска издръжливост и по-слаба броня. Стандартна бойна награда."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Враговете имат по-здрава броня, докато наградата и броят на спечелените ключове за битка се увеличават."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Има повече врагове с по-здрава броня. Наградата и броят на спечелените ключове за битка се увеличават."
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Нормална"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Висока"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Кошмарна"
+
+msgid "difficult/tooltip/locked"
+msgstr "Заключено"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "За да отключите това ниво на трудност, победете боса на нормална трудност."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "За да отключите това ниво на трудност, победете боса на висока трудност."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Достъпно"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Избрана"
+
+msgid "difficult/tooltip/subHeader/level1"
+msgstr "4 фази"
+
+msgid "difficult/tooltip/subHeader/level2"
+msgstr "4 фази"
+
+msgid "difficult/tooltip/subHeader/level3"
+msgstr "4 фази"
+
+msgid "difficult/uppercase/level_1"
+msgstr "НОРМАЛНА"
+
+msgid "difficult/uppercase/level_2"
+msgstr "ВИСОКА"
+
+msgid "difficult/uppercase/level_3"
+msgstr "КОШМАРНА"
+
+msgid "difficultyWindow/anomalies/button"
+msgstr "КЪМ АНОМАЛИИТЕ"
+
+msgid "difficultyWindow/anomalies/label"
+msgstr "ОТКЛЮЧЕНИ АНОМАЛНИ КОМБИНАЦИИ"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Враговете имат по-здрава броня, докато наградата и броят на спечелените ключове за битка се увеличават."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Има повече врагове с по-здрава броня. Наградата и броят на спечелените ключове за битка се увеличават."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "ВИСОКО НИВО НА ТРУДНОСТ"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "КОШМАРНО НИВО НА ТРУДНОСТ"
+
+msgid "difficultyWindow/title"
+msgstr "НАЛИЧНО"
+
+msgid "hangar/about"
+msgstr "ЗА СЪБИТИЕТО"
+
+msgid "hangar/exit"
+msgstr "НАПУСНИ СЪБИТИЕТО"
+
+msgid "hangar/header/keys"
+msgstr "Ключове: {{value}}"
+
+msgid "hangar/tooltipAbout"
+msgstr "Научете повече за събитието \"Вавилон: Тъмната кула\"."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "БОЙНИ СПОСОБНОСТИ"
+
+msgid "headerButtons/battle/types/halloween"
+msgstr "Вавилон: Тъмната кула"
+
+msgid "iconButton/comparison/default"
+msgstr "Сравнение на машини"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Сравнението на машини е недостъпно"
+
+msgid "iconButton/enemyPreview/isDisabled"
+msgstr "Изпълнете и дешифрирайте текущата цел, за да получите достъп до досието на врага."
+
+msgid "iconButton/preview/default"
+msgstr "Преглед на машина"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Прегледът на машината е недостъпен."
+
+msgid "infoBestiary/button/name"
+msgstr "Трезор за ехо танкове"
+
+msgid "infoBestiary/simpleTooltip/body/disabled"
+msgstr "Попълнете и дешифрирайте записите, за да получите достъп до досието."
+
+msgid "infoBestiary/simpleTooltip/body/enabled"
+msgstr "Изучете враговете си и техните способности и научете най-ефективните начини да ги унищожите."
+
+msgid "infoBestiary/simpleTooltip/header/disabled"
+msgstr "Трезорът за ехо танкове е недостъпен"
+
+msgid "keyCard/name"
+msgstr "Ключове за дешифриране"
+
+msgid "keys/get"
+msgstr "ПОЛУЧИ"
+
+msgid "kingRewardCongratsView/btn/garage"
+msgstr "Покажи в Парка"
+
+msgid "kingRewardCongratsView/btn/outro"
+msgstr "Към заключение на историята"
+
+msgid "kingRewardCongratsView/header"
+msgstr "ПОЛУЧЕНА Е ОСНОВНАТА НАГРАДА"
+
+msgid "kingRewardCongratsView/reward/crew100/value"
+msgstr "100%"
+
+msgid "kingRewardCongratsView/rewardsTitle"
+msgstr "Награди:"
+
+msgid "kingRewardCongratsView/tankName"
+msgstr "{level}{icon}{userName}"
+
+msgid "kingRewardCongratsView/title"
+msgstr "КРАЙНАТА ЦЕЛ Е ИЗПЪЛНЕНА"
+
+msgid "medalWidget/tooltipBody"
+msgstr "Отключете всички аномалии, изброени в менюто \"Аномалии\"."
+
+msgid "medalWidget/tooltipHeader"
+msgstr "Епична мисия с медал"
+
+msgid "meta/btn/decrypt"
+msgstr "ДЕШИФРИРАНЕ"
+
+msgid "meta/btn/skip"
+msgstr "ПРОПУСНИ"
+
+msgid "meta/btn/view"
+msgstr "ВИЖ"
+
+msgid "meta/receive/description"
+msgstr "Съберете %(keys) / %(decrypt) %(icon)\nза дешифриране на този запис"
+
+msgid "meta/shortStory/hw_artefact_1"
+msgstr "По-хитро е от всичко, с което сме се сблъсквали. И има един трик, на който все още няма начин да се противодейства."
+
+msgid "meta/shortStory/hw_artefact_10"
+msgstr "Лодкарят завежда Алекс до Кулата, знаейки, че тя ще я намрази. Той е манипулатор, но не е самоубиец. Това означава, че е имал план. Трябва да разберем какъв е бил."
+
+msgid "meta/shortStory/hw_artefact_11"
+msgstr "Никога не съм имала дом. Сега имам. И току-що осъзнах какво съм готова да направя, за да го запазя."
+
+msgid "meta/shortStory/hw_artefact_12"
+msgstr "Работи! Честотата е блокирана! Стреляй, Смит! Унищожи го!"
+
+msgid "meta/shortStory/hw_artefact_13"
+msgstr "Успяхме. Спайдър вече го няма. Кулата е разрушена. Сега трябва да решим съдбата на Алекс. Всеки един от нас трябва да направи избор."
+
+msgid "meta/shortStory/hw_artefact_2"
+msgstr "Ремонтни докове, частни кабини, миризмата на горещо кафе в столовата. Уютен дом сред тази проклета аномалия. Но една мисъл ме тревожи..."
+
+msgid "meta/shortStory/hw_artefact_3"
+msgstr "Имам план и танк, почти готов да го изпълни. Липсва само едно парче. И само ти можеш да ми помогнеш с това."
+
+msgid "meta/shortStory/hw_artefact_4"
+msgstr "Дойдохте да разрушите Кулата. Да разрушите дома ми. Наричате го опасност, но това е лъжа. Просто искате власт."
+
+msgid "meta/shortStory/hw_artefact_5"
+msgstr "Не спасявахме света. Правехме това, което Лодкарят искаше от нас. Той си играеше с няс като с пешки. Манипулираше всеки наш ход. А аз въвлякох Алекс право в капана му."
+
+msgid "meta/shortStory/hw_artefact_6"
+msgstr "Мирият в мен пулсира и ме води дълбоко в Кулата. Там ме очакват отговори. Там ме чака този, който ме е призовал..."
+
+msgid "meta/shortStory/hw_artefact_7"
+msgstr "Лодкарят не търсеше координатите на Тъмната кула. ​​Той ги знаеше. Всичките ни експедиции му бяха необходими за нещо друго. И сега изглежда разбирам за какво."
+
+msgid "meta/shortStory/hw_artefact_8"
+msgstr "Баща ми ми даде име. Гретхен фон Екхард. Наричаше ме \"перла\". Бях специална."
+
+msgid "meta/shortStory/hw_artefact_9"
+msgstr "Родените тук са способни на повече. Можем да оформяме мирий, да го контролираме. За първи път в живота си се чувствам пълноценна."
+
+msgid "meta/story/hw_artefact_1"
+msgstr "{{@ class $titleClass}}По-хитро е от всичко, с което сме се сблъсквали. И има един трик, на който все още няма начин да се противодейства.{{/}}\n\nПо дяволите! Защо нещата никога не са лесни? План А се провали. Беше красиво, зрелищно, но се провали.\n\nВсички си мислеха, че {{@ class $keyWordViolet}}Мардук{{/}} е нашият ас в дупката. Огромен летящ кораб с оръдия, по-големи от оръдията на Дора.\n\nЕдин залп и всичките ни проблеми щяха да бъдат решени.{{@ class $keyWordViolet}}Тъмната кула{{/}} унищожена; нацистите, или това, което беше останало от тях, неутрализирано. И всички онези хиляди танкове, които бяха подготвили за атака през 40-те години, щяха да останат тук, за да ръждясват завинаги.\n\nНо забравих правило номер едно: в аномалията нещата никога не са лесни. Снарядите се забиха в този проклет щит. И за да го премахнем, ще трябва да унищожим нещото, което го генерира.\n\nНо този {{@ class $keyWordViolet}}Спайдър{{/}} е по-хитър от всичко, с което сме се сблъсквали. Първо трябва да стигнеш до него. И тогава, когато остава само да нанесеш последния удар, той активира проклетия Магнус и се оттегля в леговището си, за да ближе раните си. И ни хвърля няколко фази назад.\n\nДобре, стига с надигащите се лирики. Време е за действие. Или деактивираме този щит и взривяваме Кулата в ада, или ще останем тук завинаги.\n\nКомандването построи огромния си кораб, дори му даде името на бог и си помисли, че проблемът е решен. Но накрая, ето ни отново. Боговете ни разочароват. Танковете не.\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"Използвайте тактическата карта и координирайте действията си. Маркирайте точката, към която се насочвате, така че взводът да се движи с вас. Или се придвижете към позиция, избрана от друг командир. Винаги се дръжте заедно.\"{{/}}"
+
+msgid "meta/story/hw_artefact_10"
+msgstr "{{@ class $titleClass}}Лодкарят отведе Алекс до Кулата, знаейки, че тя ще я намрази. Той е манипулатор, но не е самоубиец. Това означава, че е имал план. Трябва да разберем какъв е бил.{{/}}\n\nВ капан сме. В нейната мрежа. Алекс се учи. Няма значение дали печелим или губим - с всяка битка тя става по-силна. Изглежда, че просто си играе с нас, тествайки какво може да направи Спайдър.\n\nНе мога да спра да мисля, че всичко се развива по сценария на Лодкаря. Но не мога да разбера логиката му. Той е манипулатор, но не е самоубиец. Той я отведе до Кулата, знаейки, че тя ще я намрази. Как е планирал да я контролира?\n\nВъв всеки случай е твърде късно. Смит продължава да се надява, че може да говори с нея и да я върне в съзнание. Иска да я спаси. И аз бих искал, но това вече не е Алекс.\n\nЧетох немските архиви. Опитват се да извлекат операторите. Седемнадесет опита. Четирима оцеляват, но никой от тях не се връща в съзнание. Дишат, сърцата им бият, но никой не е вкъщи. И все пак... Алекс не е обикновен оператор.\n\nДостатъчно. Нямаме време за това. Трябва да унищожим Тъмната кула.\n\nШарур, тоест Затъмнението, е готов. Зареждам го със {{@ class $keyWordViolet}}свръхплътния мирий{{/}} сега. Имаме само един изстрел и трябва да сме сигурни, че сме намерили правилната честота.\n\nДонесете последния тип ехо-танк и ще бъдем готови. След като активираме \"{{@ class $keyWordViolet}}заглушителя{{/}},\" ще имаме тридесет секунди време. Паякът ще спре да приема сигнала от Кулата и няма да може да избяга. Това е единственият ни шанс да нанесем решителния удар.\n\nДонесете последния екземпляр.\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"В рамките на Аномалията, уникалните механики променят правилата. Обърнете внимание на известието, показано в началото на третата фаза. Някои механики ви принуждават да се движите по-бързо, други изискват тактика и внимание.\"{{/}}"
+
+msgid "meta/story/hw_artefact_11"
+msgstr "{{@ class $titleClass}}Никога не съм имала дом. Сега имам. И току-що осъзнах какво съм готова да направя, за да го запазя.{{/}}\n\nУсещам го. Мирий. Не е зло. Не е самотно. Не е нищо. Не мисли, просто съществува. Слива се с гостоприемника и го укрепва, ако може да се справи.\n\nНо възможно ли е да се освободиш напълно от тялото си? Да се {{@ class $keyWordViolet}}слееш с мирия{{/}}? Да станеш част от него. Това би могло да ме спаси.\n\nВойниците искат да унищожат Тъмната кула. ​​А аз? Смит постоянно се опитва да говори с мен. Той настоява, че иска да ме спаси. Но може ли да му се вярва? Ами ако е просто част от поредната манипулация на Лодкаря?  \n\nЛодкарят. Всичко това е заради него. Той иска власт. Иска да завземе технологията. Да ме завземе. И войниците му помагат да го направи, дори и самите те да не го осъзнават.\n\nТе вече са близо. Имам нужда от повече време. Най-накрая станах пълноценна. През целия си живот никога не съм имала дом, сега имам. Току-що осъзнах какво съм готова да направя, за да го запазя.\n\nВсички сте замесени в това. Но аз няма да бъда ваша марионетка отново!\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"Ако имате Енергиен щит, използвайте го само като последна мярка – ако точките ви живот са ниски или преди среща с Таралеж.\"{{/}}"
+
+msgid "meta/story/hw_artefact_12"
+msgstr "{{@ class $titleClass}}Работи! Честотата е блокирана! Огън, Смит! Унищожи го!{{/}}\n\nМОРЕЛ: Достатъчно е повреден! Смит, Спайдер се готви да скочи! Включвам заглушителя... Да! Работи! Честотата е блокирана! Огън, Смит! Унищожи го!\n\nСМИТ: ...\n\nМОРЕЛ: Смит?! Огън! Хайде!\n\nСМИТ: По дяволите... Алекс е все още там, в Кулата. Ако унищожа Спайдер, тя също ще умре. Трябва да я спасим... поне да опитаме!\n\nМОРЕЛ: Смит, проклет да си! Или тя, или всички ние!\n\nСМИТ: Не можем да направим това. Трябва да има друг начин. Трябва да я измъкнем оттам! Не мога!\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"Обърнете внимание на тактическата карта и как зоната на пораженията се променя по време на битката с боса. Веднага щом босът се опита да избяга, преследвайте го, докато оставате в безопасната зона. След като излезете извън безопасната зона, използвайте турбокомпресор, за да избегнете повреда на машината си.\"{{/}}"
+
+msgid "meta/story/hw_artefact_13"
+msgstr "{{@ class $titleClass}}Направихме го. Спайдер вече го няма. Кулата е разрушена. Сега трябва да решим съдбата на Алекс. Всеки един от нас трябва да направи избор.{{/}}\n\nТя го направи! Алекс. В последния момент тя прие {{@ class $keyWordViolet}}формата на чист мирий{{/}} и унищожи Спайдер. Щитът е деактивиран. Снарядите на Мардук улучиха целта си. Горните нива на Кулата са разрушени, но долните нива оцеляха и регистрирахме сигнал вътре. Слаб, но стабилен. Това е Алекс. Мирият я държи жива засега.\n\nСпуснахме се. Намерихме пашкула с тялото ѝ и последните ѝ бележки. Тя е направила избор. Алекс е унищожила Паяка, за да унищожи Кулата заедно с човешката ѝ обвивка и накрая да се слее с мирия.\n\nСмит не вярва, че това е бил неин съзнателен избор. Той е убеден, че Мириумът просто е помрачил преценката ѝ. Спомня си, че в бележките тя е признала, че не винаги е могла да контролира собствените си мисли. Капитанът възнамерява да вземе тялото ѝ и да го свърже със системите на кораба. Той иска да я запази на всяка цена, да намери начин да я освободи от мирия и да я върне в съзнание. Да я превърне отново в нормален човек.\n\nАлекс пише, че за първи път се е чувствала като у дома си. Тя не е унищожила Спайдер по наша заповед. Решила е да го направи сама. Домът ѝ не е тази Кула. Домът ѝ е мирия.\n\nАко унищожим Кулата, Алекс ще се прероди. Тя ще се слее с материята не като обикновен оператор, а като нещо съвсем ново.\n\nТова засяга всички нас. Всеки, който се е сражавал в тази Кула. Решете."
+
+msgid "meta/story/hw_artefact_2"
+msgstr "{{@ class $titleClass}}Ремонтни докове, частни каюти, миризмата на горещо кафе в столовата. Уютен дом сред тази проклета аномалия. Но една мисъл ме тревожи...{{/}}\n\nПо дяволите, това беше близо. Бях се прицелил в Спайдер. Не ми достигаха милисекунди.\n\nНикога няма да свикна с Мардук. Преди, когато бяхме в базата ни във Вавилон, всяко пътуване до аномалията беше скок в бездната. \"Изплувахме\" изтощени, спукани и сякаш бяхме непознати. Но сега имаме този кораб. Мардук...\n\nТой има вградени Магнуси и сега можем да \"прескачаме\" до почти всяка фаза. Просто ни трябва точен маршрут. {{@ class $keyWordViolet}}Морел{{/}}, нашият главен инженер, казва, че Мириум не е просто слоеве, поставени един върху друг. Той е по-скоро като мрежа от шарки, свързани чрез сложни пътища. {{@ class $keyWordViolet}}Лабиринт{{/}}. И ако няма карта, е лесно да се изгубиш в него и да останеш там завинаги. Да се ​​луташ вечно през фазите и да не знаеш дали се приближаваш до дома или се отдалечаваш.\n\nНо сега сме там, където трябва да бъдем. И имаме всичко необходимо: огромен кораб, опитни танкисти и Морел с новата си технология. Вече можем дори да улавяме ехо-танкове и да ги поддържаме в твърдо състояние. Да ги стабилизираме и да не им позволяваме да се превърнат обратно в течен мирий. Морел ги отваря, изучава ги, търси начин да победи Спайдер. И ние продължаваме да пробиваме това защитно поле.\n\nПо принцип имаме всичко тук: ремонтни докове, частни каюти, фитнес зала и дори горещо кафе в столовата. Уютен малък дом сред проклетата аномалия. Започвам да свиквам с комфорта и това ме тревожи. Ужасът, който ни заобикаля, се превръща в норма. Трябва да довършим тази проклета Кула по-бързо и да се върнем в истинския си дом.\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"Не се опитвайте да унищожите Неуязвимия. Не си губете времето и боеприпасите. Не стойте неподвижно. Движете се и не позволявайте да ви притиснат в ъгъла.\"{{/}}"
+
+msgid "meta/story/hw_artefact_3"
+msgstr "{{@ class $titleClass}}Имам план и танк, почти готов да го изпълни. Липсва само едно парче. И само ти можеш да помогнеш с това.{{/}}\n\nСекунда, секунда... Добре, трябва да стабилизираме {{@ class $keyWordViolet}}стазисното поле{{/}}; в противен случай това нещо ще се превърне в течен мирий точно тук, в работилницата ми.\n\nСега мога да се представя. Радвам се да се запознаем. {{@ class $keyWordViolet}}Жак Морел{{/}}. Благодаря, че донесохте този образец цял. Обикновено ми дават само фрагменти и съдове с течен мирий. Но с това можем да работим.\n\nИмам идея. Ехо-танковете се управляват от Тъмната кула. ​​Това е факт. Те са като марионетки на невидими нишки. Спайдер също. Хм... дяволски интересна машина. Защо са избрали точно този вид платформа? Явно е свързана с гравитацията по някакъв начин...\n\nИзвинете, разсеях се. За да хванем Спайдер и да не го пуснем да се измъкне, трябва да прережем тези струни. Да заглушим сигнала. Но има много струни. Всяка на собствена честота. Сега сензорите ми улавят цял ​​хор на различни дължини на вълните. Ако ми донесете образци на ехо танкове от всеки тип, ще изуча честотите им, ще ги филтрирам и ще разберем на коя точно честота Спайдер получава заповедите си.\n\nИ тогава Шарур ще влезе в действие. Символ на божествена сила и интелект, надделяващи над хаоса. Подобно на легендарния боздуган на Нинурта, той ще смаже противниците ни. Не запомняйте всички тези имена. Това е просто почит към традицията - всичко тук е наречено в чест на шумерската митология. В документацията ще обясня нещата по-ясно: {{@ class $keyWordViolet}}Затъмнение{{/}}. Силно брониран танк, който може да се доближи до Спайдер и да заглуши сигнала му. Просто трябва да бъде завършен и настроен на правилната честота. Просто трябва да съберем всички видове ехо танкове.\n\nБих го направил сам, но... Добре, кого заблуждавам? Не бих могъл да се справя без теб.\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"Винаги се дръжте заедно. Запомнете: когато се отделите от взвода и отидете сами до друга точка, провокирате ехо танковете. След като машината ви бъде унищожена, те ще започнат да атакуват съюзниците ви отзад. Не застрашавайте мисията си.\"{{/}}"
+
+msgid "meta/story/hw_artefact_4"
+msgstr "{{@ class $titleClass}}Дошли сте да разрушите Кулата. Да разрушите дома ми. Наричате го опасност, но това е лъжа. Искате само власт.{{/}}\n\nНапуснете. Мястото ви не е тук.\n\nТракането на веригите ви... Преди този звук би означавал спасение, а сега... Сега сте дошли да разрушите Кулата. Да разрушите дома ми. Наричате го опасност, но това е лъжа. Искате само власт. Искате да притежавате това, което не можете да разберете. Искате да контролирате мирия, да го превърнете в оръжие и да ме направите своя послушна играчка.\n\nТези, които бяха преди вас, също се опитаха да го контролират. Те строиха, пленяваха, притежаваха, но накрая се изгубиха.\n\nМахайте се! Нищо не знаете. Нищо не разбирате. Всички сте марионетки в НЕГОВИТЕ ръце. {{@ class $keyWordViolet}}Лодкарят{{/}} просто си играе с всички нас. Ние сме никои за него.\n\nА сега ви е насочил към дома ми. Иска да ме унищожи. Но е твърде късно. Вече не ми трябват спасявания. Сега мога да се грижа за себе си.\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"Не разчитайте само на бронята на танка си. Търсете прикритие и скрийте уязвимите си места. Това е банален съвет, но мнозина го забравят в аномалията. Може би поради начина, по който мирият влияе на съзнанието ни.\"{{/}}"
+
+msgid "meta/story/hw_artefact_5"
+msgstr "{{@ class $titleClass}}Не спасявахме света. Правехме това, което Лодкарят искаше от нас. Той си играеше с нас като с пешки. Манипулираше всяко наше движение. А аз вкарах Алекс право в капана му.{{/}}\n\nПо дяволите... Този глас, който чувам по радиото. Това е тя. {{@ class $keyWordViolet}}Алекс{{/}}. Фотографката, която влезе в Забранената зона. Тя откри източника на атаката, предаде ни записите, помоли ни да я вземем. Чакаше да дойда за нея, но аз... аз изпълних заповедите. \"Приоритетът е да се потушат заплахите.\" \"Евакуацията е нецелесъобразна.\" Оставих я там. Сама.\n\nМорел потвърди най-лошите ми опасения. Лодкарят, онзи кучи син от службата за сигурност, планираше всичко. Той знаеше, че тя е дъщеря на същия генерал, който командваше онази Кула. {{@ class $keyWordViolet}}Гретхен фон Екхард{{/}}. Това е детският ѝ глас, който остана в ехото, което чухме в аномалията. \n\nНие не спасявахме света. Правехме това, което Лодкарят имаше нужда от нас. Той си играеше с нас като с пешки. Манипулираше всяко наше движение. И аз въвлякох Алекс право в капана му.\n\nМорел казва, че тя вече не е човек. Че мирият я е завладял и това е необратимо. Но Изгубените не говорят така. Тя не е загубила съзнание. Тя все още е тук. Сама.\n\nТрябва да я спася. Просто трябва.\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"Маркирайте машините, които ще атакувате, за да координирате огъня и да подканите съюзниците си да се съсредоточат върху един враг. Натрупайте локално огнево предимство.\"{{/}}"
+
+msgid "meta/story/hw_artefact_6"
+msgstr "{{@ class $titleClass}}Мирият в мен пулсира и ме води дълбоко в Кулата. Там ме очакват отговори. Там ме чака този, който ме е повикал...{{/}}\n\n[Седем дни до нападението]\n\nЗапис... но не знам кой. Колко време е минало, откакто влязох в аномалията - и аз не знам. Телепортът не ме отведе във Вавилон. Озовах се в Тъмната кула. \n\nМирият в мен пулсира, завладява мислите ми, води ме. Води ме към {{@ class $keyWordViolet}}контролната зала{{/}}. Отново ми се струва, че съм била тук преди. Всичко е познато. Тези празни {{@ class $keyWordViolet}}пашкули{{/}}. И тази там. Тя ли ме е повикала?\n\nКоя е тя? Изглежда почти нечовешки. Бледа кожа, само лилав мирий пулсира във вените ѝ. Поддържа я жива. Ако може да се нарече живот.\n\nТя трябва да знае всички отговори. Трябва да ми обясни какво става тук. Как мога да говоря с нея? Да сложа същата {{@ class $keyWordViolet}}каска{{/}}? Не. Първо, докато имам сили, трябва да огледам Кулата.\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"Следете точките живот на съюзническите машини. Ако имате групови ремонти, възстановете точки живот на повредените членове на взвода. Дори една загубена машина застрашава цялата мисия.\"{{/}}"
+
+msgid "meta/story/hw_artefact_7"
+msgstr "{{@ class $titleClass}}Лодкарят не е търсел координатите на Тъмната кула. ​​Той ги е знаел. Всички наши експедиции са му били необходими за нещо друго. И сега изглежда разбирам за какво.{{/}}\n\nТи ли си? Чувал ли си? Лодкарят е изчезнал. Избягал е и вероятно е преминал към следващата част от плана си. Не е търсел координатите на Тъмната кула. ​​Знаел ги е. Всички наши експедиции, всички тези загуби са били необходими за нещо друго.\n\nЕ, благодарение на образците, които донесохте, разбрах защо му е била нужна Алекс. А останалите?\n\nВижте: съдейки по немските архиви, в Тъмната кула има {{@ class $keyWordViolet}}оператори{{/}}, които изпращат команди към ехо-танковете. Но нормален човешки ум не може да контролира хиляди машини едновременно, така че винаги се изправя срещу нас малка група от петнадесет. Това е ограничението на един оператор. Кулата се нуждае от нови \"умове\". Свежи, съвместими.\n\nАлекс не е просто някакъв случаен фотограф, попаднал в аномалията. Както вече знаем, тя е Гретхен фон Екхард, {{@ class $keyWordViolet}}дъщерята на генерала{{/}}, който е командвал тази Кула.\n\nИмето Гретхен идва от гръцката \"Маргарита\" и означава \"перла\". Това не е случайно. Така я е нарекъл баща ѝ, когато е видял нещо специално в нея. Вероятно тя е тази, която германските архиви са нарекли „Überlenker“ или {{@ class $keyWordViolet}}супер оператор{{/}}.\n\nАко нещото, в което се е превърнала Алекс, разгърне потенциала си, ако си спомни как да контролира мирия, хиляди танкове ще бликнат от аномалията наведнъж.\n\nТрябва да побързаме. Времето е против нас.\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"Когато се биете с боса, използвайте специалните муниции, събирани на етапи, заедно със специалните умения на машината ви, за да нанесете повече поражения на уязвимите места в бронята на врага.\"{{/}}"
+
+msgid "meta/story/hw_artefact_8"
+msgstr "{{@ class $titleClass}}Баща ми ми даде името. Гретхен фон Екхард. Наричаше ме \"перла\". Бях специална.{{/}}\n\n[Седем дни до нападението]\n\nКазвам се Гретхен.\n\n{{@ class $keyWordViolet}}Проект Глайпнир{{/}}. Германците търсеха начин да подчинят мирия. Те осъзнаха, че обикновените хора са неефективни и им е трудно да се справят дори с няколко машини. Те трябва да се родят тук, в аномалията. Тези, които са способни да усетят мирия.\n\nАз съм резултат от експеримент. Дори нямахме имена. {{@ class $keyWordViolet}}Биологичен предавател{{/}}, обект, ресурс. Но за баща ми аз бях специална. Той сложи етикет на полетата: Гретхен фон Екхард. Наричаше ме \"перла\"\n\nПървият успешен екземпляр. Високи възможности, устойчивост срещу деградацията на мирия... Аз съм просто оръжие, което трябваше да води армии от ехо танкове през разломите. Обикновените оператори постепенно губеха разсъдъка си, превръщайки се в безразсъдни изпълнители на чужда воля. Съзнанието им частично преминаваше в мирия, ехото. Опитваха се да го достигнат, да избягат. И когато излизаха извън контрол, те просто биваха изключени. Личностите им се разделяха, пораждайки нови аномалии в ехото, а телата им... телата им все още носеха живот, но самите хора отдавна ги нямаше.\n\nНо това бяха обикновени оператори. В документите не пише нищо за такива като мен. Ставам по-слаба. Тялото ми няма да издържи дълго. Ами ако успея да вляза напълно в мирия?\n\nМислите ми се изплъзват. Или мирият ги завладява? Не знам. Все още има толкова много въпроси.\n\nТрябва да говоря с него. Да сложа шлема си и да науча цялата истина!\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"Турбокомпресорът не използва мирий за активиране. Има обаче период на охлаждане. Използвайте Турбокомпресора, когато е абсолютно необходимо: за да се измъкнете от Таралежа, да избегнете Щурмовака, да скочите от аурата на Неуязвимия или да се втурнете към Магнус, когато всички са готови да се телепортират.\"{{/}}"
+
+msgid "meta/story/hw_artefact_9"
+msgstr "{{@ class $titleClass}}Родените тук са способни на повече. Можем да оформяме мирия, да го контролираме. За първи път в живота си се чувствам завършена.{{/}}\n\n[Седем дни до нападението]\n\nШумно е. Твърде силно. Хиляди сигнали, шум, шепот. Команди на немски - студени, мъртви заповеди.   \n\nЧуваш ли ме? Тук ли си?\n\nНищо не е останало от нея. Тази жена в пашкула, тя е просто {{@ class $keyWordViolet}}предавател{{/}} вече. Наистина ли това ми носи и бъдещето? Да се ​​превърне в ехо от стари команди?\n\nНе. В документите пише, че родените тук са способни на повече. Можем да устоим на влиянието на мирия, да го контролираме, да го оформяме.\n\nТрябва да опитам. Да си представя как частиците се събират.\n\nЧувствам нещо. Странно е. Страшно. Но за първи път се чувствам завършен. Чувствам, че най-накрая имам сила.\n\n{{@ class $titleManual}}От ръководството:{{/}}\n{{@ class $textManual}}\"Запомнете: когато преминавате към нова фаза, Аномалията засяга екипажа и получавате подобрения. Изучете ги и променете тактиката си, имайки предвид новите опции.\"{{/}}"
+
+msgid "metaCmp/completed"
+msgstr "Получена е награда %(icon)"
+
+msgid "metaCmp/name"
+msgstr "Път на наградата"
+
+msgid "metaIntro/description/fight"
+msgstr "Бийте се в битки за събития и спечелете ключове за дешифриране, за да преминете през целите към основната награда за събитието."
+
+msgid "metaIntro/description/progress"
+msgstr "Дешифрирайте всички записи с помощта на ключове за дешифриране, спечелени в битки за събитието."
+
+msgid "metaIntro/description/reward"
+msgstr "Изпълнете всички цели и дешифрирайте всички записи, за да получите основната награда за събитието — уникалния {whiteSpanish_Start}%(tankName)s{whiteSpanish_End}. Премиум тежък танк ниво %(level)s."
+
+msgid "metaIntro/header/fight"
+msgstr "Бойни набези"
+
+msgid "metaIntro/header/progress"
+msgstr "Дешифриране на записи"
+
+msgid "metaIntro/header/reward"
+msgstr "Уникални награди"
+
+msgid "metaIntro/title"
+msgstr "ЗА ЦЕЛИТЕ"
+
+msgid "missionWidget/complete"
+msgstr "Мисията е изпълнена.\nВърнете се утре."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Изпълнете текущата ежедневна мисия, която е достъпна на всеки 24 часа, за да получите наградата. Днешната мисия:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Дневна мисия"
+
+msgid "preBattle/leave"
+msgstr "Изход от битка"
+
+msgid "preBattle/mainTip"
+msgstr "Отнема твърде много време, за да намерите разузнавателен отряд? Опитайте да промените нивото на трудност."
+
+msgid "preBattle/searching"
+msgstr "ТЪРСЕНЕ НА СЪЮЗНИЦИ..."
+
+msgid "preBattle/tips/1"
+msgstr "Порталът към Вавилонската аномалия се стабилизира. Пригответе се за прехвърляне."
+
+msgid "preBattle/tips/2"
+msgstr "Работата ви във Вавилонската аномалия е много важна за нас. Моля, изчакайте разрешение за достъп до портала."
+
+msgid "preBattle/tips/3"
+msgstr "Комуникационните канали с Вавилонската аномалия са претоварени. Не губете надежда. Останете на разположение за транзит."
+
+msgid "preBattle/uppercase/leave"
+msgstr "ИЗХОД ОТ БИТКА"
+
+msgid "promoWindow/btn"
+msgstr "ТЪЙ ВЯРНО!"
+
+msgid "promoWindow/header"
+msgstr "ИГРАЙТЕ ВАВИЛОН: ТЪМНАТА КУЛА"
+
+msgid "promoWindow/subheader"
+msgstr "Потопете се в този специален нов PvE игрови режим {dateRange}.\nИзпълнете {regularArtefactsLength} цели, за да спечелите ексклузивна машина&nbsp;{level}{icon}{userName}."
+
+msgid "reward/rest"
+msgstr "И още %(count)s"
+
+msgid "rewardPath/about"
+msgstr "ЗА ЦЕЛИТЕ"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Научете повече за събитието."
+
+msgid "rewardPath/completed"
+msgstr "Основната награда е получена"
+
+msgid "rewardPath/crewMembers"
+msgstr "ЧЛЕНОВЕ\nНА ЕКИПАЖА"
+
+msgid "rewardPath/crewMembersTooltip"
+msgstr "Щракнете, за да видите всички членове на екипажите за събитие."
+
+msgid "rewardPath/description"
+msgstr "Дешифрирайте още %(count)s записа, за да достигнете основната награда"
+
+msgid "rewardPath/intro"
+msgstr "ВЪВЕДЕНИЕ"
+
+msgid "rewardPath/introTooltip"
+msgstr "Гледайте въвеждащото видео."
+
+msgid "rewardPath/title"
+msgstr "ПЪТ НА НАГРАДАТА"
+
+msgid "rewardPathCard/name"
+msgstr "Път на наградата"
+
+msgid "rewardPathCard/storyChoice"
+msgstr "Изберете как свършва историята!"
+
+msgid "rewardSelection/button"
+msgstr "ПОЛУЧИ НАГРАДА"
+
+msgid "rewardSelection/crew"
+msgstr "Членове на екипажа"
+
+msgid "rewardSelection/limit"
+msgstr "Достигнат е максимумът"
+
+msgid "rewardSelection/limitTooltip"
+msgstr "Достигнали сте максималния брой. Премахнете избора на член на екипажа, за да промените избора си."
+
+msgid "rewardSelection/title"
+msgstr "ИЗБЕРЕТЕ НАГРАДАТА СИ"
+
+msgid "shopCard/name"
+msgstr "Пакети за събитието"
+
+msgid "shopCmp/name"
+msgstr "Пакети за събитието"
+
+msgid "shopStyleWidget/description/button"
+msgstr "Към Магазина"
+
+msgid "shopStyleWidget/description/notOwned"
+msgstr "Налично за"
+
+msgid "shopStyleWidget/description/owned"
+msgstr "Придобити"
+
+msgid "shopStyleWidget/header"
+msgstr "Триизмерен стил за {name}"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Отмени"
+
+msgid "squad/goToAnother/message"
+msgstr "Взводът ще бъде разпуснат."
+
+msgid "squad/goToAnother/submit"
+msgstr "Излез"
+
+msgid "squad/goToAnother/title"
+msgstr "Напускате ли събитието Вавилон: Тъмната кула?"
+
+msgid "squad/leave/cancel"
+msgstr "Отмени"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Взводът ще бъде разпуснат."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Тъй вярно!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Събитието Вавилон: Тъмната кула приключи"
+
+msgid "squad/leave/message"
+msgstr "Взводът ще бъде разпуснат."
+
+msgid "squad/leave/submit"
+msgstr "Излез"
+
+msgid "squad/leave/title"
+msgstr "Напускате ли взвода на Вавилон: Тъмната кула?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Продължи"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Вие сте във взвода и сте готови за битка."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Не можете да напуснете взвода!"
+
+msgid "storyChoice/main_view/button/side_option_1"
+msgstr "ВЗЕМЕТЕ АЛЕКС"
+
+msgid "storyChoice/main_view/button/side_option_2"
+msgstr "ОСТАВЕТЕ АЛЕКС"
+
+msgid "storyChoice/main_view/description/side_option_1"
+msgstr "СМИТ: Алекс не осъзнава в какво се забърква! Няма представа дали ще остане себе си или просто ще загине. Не мога да я изоставя отново. Ще я свържем със системите на кораба и ще намерим начин да я върнем в съзнание. Ние не зарязваме нашите. Никога."
+
+msgid "storyChoice/main_view/description/side_option_2"
+msgstr "МОРЕЛ: Трябва напълно да унищожим Кулата заедно с тялото ѝ. Да разрушим връзката, която държи Алекс. Трябва да я оставим – това би бил нейния избор. Това е единственият начин тя да се прероди и да се превърне в нещо съвсем ново."
+
+msgid "storyChoice/main_view/header"
+msgstr "Изберете как свършва историята:"
+
+msgid "storyChoiceAward/community"
+msgstr "Цялостният избор на общността ще оформи предстоящите събития.\nПроверявайте портала на играта за актуализации."
+
+msgid "storyChoiceAward/option_1/title"
+msgstr "Взехте Алекс на Мардук"
+
+msgid "storyChoiceAward/option_2/title"
+msgstr "Оставихте Алекс на мирия"
+
+msgid "storyChoiceAward/subtitle"
+msgstr "Изборът е направен!"
+
+msgid "storyChoiceConfirm/cancel"
+msgstr "Назад"
+
+msgid "storyChoiceConfirm/description"
+msgstr "Резултатът ще бъде разкрит след края на събитието. Проверете портала на играта за актуализации."
+
+msgid "storyChoiceConfirm/option_1/confirm"
+msgstr "Вземете Алекс"
+
+msgid "storyChoiceConfirm/option_1/title"
+msgstr "Вземате ли Алекс?"
+
+msgid "storyChoiceConfirm/option_2/confirm"
+msgstr "Оставете Алекс"
+
+msgid "storyChoiceConfirm/option_2/title"
+msgstr "Оставяте ли Алекс?"
+
+msgid "storyChoiceConfirm/warning"
+msgstr "Този избор е окончателен. Цялостният избор на общността ще повлияе на историята на следващата глава."
+
+msgid "vehicle/rent/label"
+msgstr "Изпълнете {cream_open}целта %(number)s{cream_close} или закупете {cream_open}пакет за събитието{cream_close}, за да получите достъп до тази машина."
+
+msgid "vehicle/rent/packs"
+msgstr "Към пакета за събитието"
+
+msgid "vehicle/rent/tasks"
+msgstr "Към целта"
+
+msgid "vehicle/tasks/locked"
+msgstr "Изпълнете текущата задача ({cream_open}цел %(number)s{cream_close}) или закупете {cream_open}пакет за събитието{cream_close}, за да получите достъп до тази машина."

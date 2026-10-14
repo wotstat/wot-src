@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Μειώνει τη διασπορά των πυρών κατά τη διάρκεια κίνησης του οχήματος ή κατά τη διάρκεια περιστροφής του σκάφους και του πυργίσκου κατά {{@ class $highlightClass}}%(generalValue)s%%{{/}}."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s στην διασπορά των πυρών κατά τη διάρκεια κίνησης\nή περιστροφής του οχήματος."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Μειώνει τη\nδιασπορά των πυρών."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Αυξάνει την ευστοχία του πυροβόλου κατά τη διάρκεια κίνησης και κατά τη διάρκεια περιστροφής του σκάφους ή του πυργίσκου."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Sniper"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Καθιστά το όχημά σας απολύτως {{@ class $highlightClass}}άτρωτο{{/}} στη {{@ class $highlightClass}}φθορά από εκρήξεις{{/}} Hedgehog και Alpha Hedgehog.\nΤο όχημα εξακολουθεί να δέχεται φθορά από πρόσκρουση με Hedgehogs."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Καθιστά το όχημά σας απολύτως άτρωτο\nστη φθορά από εκρήξεις Hedgehog."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Προστατεύει το όχημά σας από τη φθορά από εκρήξεις Hedgehog."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Καθιστά το όχημά σας απολύτως άτρωτο στη φθορά από εκρήξεις Hedgehog και Alpha Hedgehog.\nΤο όχημα εξακολουθεί να δέχεται φθορά από πρόσκρουση με Hedgehogs."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Άτρωτο Έναντι Φθοράς Από Έκρηξη"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Αφαιρεί το εύρος {{@ class $highlightClass}}±25%{{/}} της δυνητικής φθοράς, κάνοντας τις βολές σας περισσότερο προβλεπόμενες."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Αφαιρεί το εύρος ±25%%\nτης δυνητικής φθοράς."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Οι βολές δεν έχουν εύρος δυνητικής φθοράς ±25%."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Αφαιρεί το εύρος ±25% της δυνητικής φθοράς, κάνοντας τις βολές σας περισσότερο προβλεπόμενες."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Ελεγχόμενη Φθορά"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Μειώνει την προσλαμβανόμενη φθορά* (από βολές, φωτιά, πρόσκρουση, ζώνες φθοράς, φάση διάβρωσης, φθορά εξαρτημάτων, κλπ) κατά {{@ class $highlightClass}}%(mitigation)s%%{{/}}.\n*Δεν ισχύει για φθορά από πτώση και κατά τη φάση εκτέλεσης."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s στην προσλαμβανόμενη φθορά."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Μειώνει την προσλαμβανόμενη φθορά."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Μειώνει την προσλαμβανόμενη φθορά* (από βολές, φωτιά, πρόσκρουση, ζώνες φθοράς, φάση διάβρωσης, φθορά εξαρτημάτων, κλπ).\n*Δεν ισχύει για φθορά από πτώση και κατά τη φάση εκτέλεσης."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Απορρόφηση Φθοράς"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Παρέχει {{@ class $highlightClass}}%(chance)s%%{{/}} πιθανότητα να αποκαταστήσετε {{@ class $highlightClass}}%(heal)s{{/}} από τα hit points του οχήματός σας όταν προκαλείτε φθορά με πυρά σε εχθρικά οχήματα."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s στην πιθανότητα να αποκαταστήσετε HP\nόταν προκαλείτε φθορά με πυρά."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Πιθανότητα αποκατάστασης hit points\nόταν προκαλείτε φθορά με πυρά."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Παρέχει πιθανότητα να αποκαταστήσετε hit points του οχήματός σας όταν προκαλείτε φθορά με πυρά σε εχθρικά οχήματα."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Vampire Bite"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Αυξάνει τα hit points του οχήματός σας κατά {{@ class $highlightClass}}%(health)s%%{{/}}."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s στα hit points του οχήματός σας."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Αυξάνει τα\nhit points του οχήματός σας."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Αυξάνει την αντοχή του οχήματός σας."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Durability"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Αυξάνει την πιθανότητα να προκληθεί φωτιά σε εχθρικό όχημα κατά {{@ class $highlightClass}}%(chance)s%%{{/}} από εύστοχη βολή."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s στην πιθανότητα να προκληθεί φωτιά\nστο εχθρικό όχημα."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Αυξάνει την πιθανότητα\nνα προκληθεί φωτιά."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Αυξάνει την πιθανότητα να προκληθεί φωτιά σε εχθρικό όχημα από εύστοχη βολή."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Hot Needle"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Αυξάνει τη φθορά που προκαλείται στα εχθρικά οχήματα κατά {{@ class $highlightClass}}%(damageFactor)s%%{{/}}."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s στη φθορά σε εχθρικά οχήματα."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Αυξάνει τη φθορά\nστα εχθρικά οχήματα."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Αυξάνει τη φθορά στα εχθρικά οχήματα."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Ceramic Core"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Αυξάνει την ταχύτητα γέμισης κατά {{@ class $highlightClass}}%(reloadTime)s%%{{/}}."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s στην ταχύτητα γέμισης."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Αυξάνει την\nταχύτητα γέμισης."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Αυξάνει την ταχύτητα γέμισης."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Machine Gun"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Σταδιακά αποκαθιστά τα hit points του οχήματος μέχρι τη μέγιστη αντοχή.\nΗ επίδραση διακόπτεται αν το όχημα δεχθεί φθορά."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Σταδιακά αποκαθιστά\nτα hit points του οχήματος"
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Αποκαθιστά\nhit points."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Σταδιακά αποκαθιστά τα hit points του οχήματος μέχρι τη μέγιστη αντοχή. Η επίδραση διακόπτεται αν το όχημα δεχθεί φθορά."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Regeneration"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Καθιστά τη δυνατότητα αποθήκευσης Mirium του οχήματος {{@ class $highlightClass}}απεριόριστη{{/}}."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Καθιστά τη δυνατότητα αποθήκευσης Mirium απεριόριστη."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Καθιστά τη δυνατότητα αποθήκευσης Mirium απεριόριστη."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Καθιστά τη δυνατότητα αποθήκευσης Mirium του οχήματος απεριόριστη."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Απεριόριστος Συλλέκτης"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Αυξάνει το στο μπόνους επιδόσεων για όλα τα μέλη του πληρώματος κατά {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s στο μπόνους επιδόσεων."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Αυξάνει το στο μπόνους\nεπιδόσεων του πληρώματος."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Αυξάνει τις επιδόσεις του πληρώματος"
+
+msgid "buffs/buffInspiration/header"
+msgstr "Inspire"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Εάν ένα εχθρικό όχημα μείνει με λιγότερα από το {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} των HP του μετά από βολή σας, θα καταστρέφεται αυτομάτως.\nΤα bosses είναι άτρωτα σε αυτήν την επίδραση."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Εχθρικά οχήματα με λιγότερα από το %(value)s των HP τους\n μετά από βολή σας, θα καταστρέφονται αυτομάτως."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Εχθρικά οχήματα με λίγα HP μετά από βολή σας, θα καταστρέφονται αυτομάτως."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Εάν ένα εχθρικό όχημα μείνει με λίγα HP του μετά από βολή σας, θα καταστρέφεται αυτομάτως.\nΤα bosses είναι άτρωτα σε αυτήν την επίδραση."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Εκτελεστής"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Αυξάνει την τελική ταχύτητα και την ταχύτητα οπισθοπορείας."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Αυξάνει την τελική ταχύτητα\nκαι την ταχύτητα οπισθοπορείας."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Αυξάνει την τελική ταχύτητα και την ταχύτητα οπισθοπορείας."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Αυξάνει την τελική ταχύτητα και την ταχύτητα οπισθοπορείας."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Επιτάχυνση"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Αυξάνει την ποσοτητα Mirium που λαμβάνετε από την προκληση φθοράς σε εχθρικά οχήματα κατά {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s στο Mirium\nαπό φθορά σε εχθρικά οχήματα."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Αυξάνει το Mirium που λαμβάνετε από φθορά σε εχθρικά οχήματα."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Αυξάνει την ποσοτητα Mirium από την προκληση φθοράς σε εχθρικά οχήματα."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Εξαγωγή Mirium"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Αυξάνει τη μέγιστη ποσότητα του Mirium που μπορεί να κουβαλήσει το όχημά σας κατά {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s στη μέγιστη χωρητικότητα σε Mirium."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Αυξάνει τη μέγιστη χωρητικότητα σε Mirium."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Αυξάνει τη μέγιστη ποσότητα του Mirium που μπορεί να κουβαλήσει το όχημά σας."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Ευρύχωρος Συλλέκτης"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Όλο το Mirium διατηρείται μετά την επανεκκίνηση στη μάχη εάν καταστραφεί το όχημά σας."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Όλο το Mirium διατηρείται\nμετά την επανεκκίνηση στη μάχη."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Διατηρεί το Mirium μετά την επανεκκίνηση στη μάχη."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Διατηρεί το Mirium μετά την επανεκκίνηση στη μάχη."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Διατήρηση Mirium"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Μειώνει το κόστος σε Mirium όλων των Δυνατοτήτων Μάχης κατά {{@ class $highlightClass}}%(cost)s%%{{/}}."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s στο κόστος σε Mirium όλων των Δυνατοτήτων Μάχης."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Μειώνει το κόστος σε Mirium όλων των Δυνατοτήτων Μάχης."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Μειώνει σημαντικά το κόστος σε Mirium όλων των Δυνατοτήτων Μάχης."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Δραστικότητα Mirium"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Αποκαθιστά {{@ class $highlightClass}}%(refundAmount)s%%{{/}} από το κόστος χρήσης σε Mirium των Δυνατοτήτων Μάχης."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s στο κόστος χρήσης σε Mirium\nτων Δυνατοτήτων Μάχης."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Αποκαθιστά μέρος από τη χρήση Mirium για Δυνατότητες Μάχης."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Αποκαθιστά μέρος από το κόστος χρήσης σε Mirium των Δυνατοτήτων Μάχης."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Επιστροφή Mirium"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Αυξάνει την ισχύ του κινητήρα κατά {{@ class $highlightClass}}%(power)s%%{{/}} και την ταχύτητα περιστροφής του πυργίσκου κατά {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s στην ισχύ του κινητήρα."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s στην ταχύτητα περιστροφής πυργίσκου."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Αυξάνει την ισχύ του κινητήρα και\nτην ταχύτητα περιστροφής του πυργίσκου."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Αυξάνει την ισχύ του κινητήρα και την ταχύτητα περιστροφής του πυργίσκου."
+
+msgid "buffs/buffMobility/header"
+msgstr "Mobility"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Καθιστά άτρωτα όλα τα εξαρτήματα του οχήματος από κάθε είδος φθοράς."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Καθιστά άτρωτα όλα τα εξαρτήματα\nαπό κάθε είδος φθοράς."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Προστατεύει τα εξαρτήματα\nαπό φθορά."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Καθιστά άτρωτα όλα τα εξαρτήματα του οχήματος από κάθε είδος φθοράς."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Module Invulnerability"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Το προκαθορισμένο anomaly του Malachite πάντα ενεργό."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Αυξάνει τη διατρητικότητα όλων των βλημάτων κατά {{@ class $highlightClass}}%(shellPen)s%%{{/}}."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s στη διατρητικότητα όλων των βλημάτων."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Αυξάνει τη διατρητικότητα όλων των βλημάτων."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Αυξάνει τη διατρητικότητα όλων των βλημάτων."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Διατρητικότητα Βλημάτων"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Όλα τα εναλλακτικά βλήματα διατηρούνται μετά την επανεκκίνηση στη μάχη εάν καταστραφεί το όχημά σας."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Όλα τα εναλλακτικά βλήματα διατηρούνται\nμετά την επανεκκίνηση στη μάχη."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Όλα τα εναλλακτικά βλήματα διατηρούνται μετά την επανεκκίνηση στη μάχη."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Όλα τα εναλλακτικά βλήματα διατηρούνται μετά την επανεκκίνηση στη μάχη εάν καταστραφεί το όχημά σας."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Διατήρηση Βλημάτων"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Αυξάνει την ποσότητα Mirium που λαμβάνεται και αποθηκεύεται κατά τη νέα φάση ή μετά την επανεκκίνηση στη μάχη κατά {{@ class $highlightClass}}%(soulsBonus)s{{/}}. Αυξάνει τη μέγιστη ποσότητα του Mirium που μπορεί να κουβαλήσει το όχημά σας κατά {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s στο Mirium που λαμβάνετε κατά τη νέα φάση\nή μετά την επανεκκίνηση στη μάχη."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s στη μέγιστη χωρητικότητα σε Mirium."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Αυξάνει το Mirium που λαμβάνεται και αποθηκεύεται κατά τη νέα φάση ή μετά την επανεκκίνηση στη μάχη."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Αυξάνει την ποσότητα Mirium που λαμβάνεται και αποθηκεύεται κατά τη νέα φάση ή μετά την επανεκκίνηση στη μάχη. Αυξάνει τη μέγιστη ποσότητα του Mirium που μπορεί να κουβαλήσει το όχημά σας."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Αποθήκευση Mirium"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Αυξάνει τη διάρκεια του Τούρμπο κατά {{@ class $highlightClass}}%(timeLength)s%%{{/}} και μειώνει την επαναφορά του κατά {{@ class $highlightClass}}%(reloadTime)s sec{{/}}."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s στη διάρκεια του Τούρμπο."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s sec στη διάρκεια του Τούρμπο."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Αυξάνει τη διάρκεια του Τούρμπο και μειώνει την επαναφορά του."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Αυξάνει τη διάρκεια του Τούρμπο και μειώνει την επαναφορά του."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Αναβάθμιση Τούρμπο"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Πιθανότητα να προκληθεί συγκεκριμένη φθορά από βολή:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} να προκληθεί {{@ class $highlightClass}}%(damage1)s%%{{/}} φθοράς\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} να προκληθεί {{@ class $highlightClass}}%(damage2)s%%{{/}} φθοράς\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} να προκληθεί {{@ class $highlightClass}}%(damage3)s%%{{/}} φθοράς\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} να προκληθεί {{@ class $highlightClass}}%(damage4)s%%{{/}} φθοράς."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Η δυνητική φθορά από βολή μεταβάλλεται\nαπό πολύ χαμηλή σε πολύ υψηλή."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Η δυνητική φθορά από βολή μεταβάλλεται από πολύ χαμηλή σε πολύ υψηλή."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Πιθανότητα να προκληθεί ή πολύ μικρότερη ή πολύ μεγαλύτερη φθορά."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Κβαντικές Βολές"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Λεπτομέρειες"

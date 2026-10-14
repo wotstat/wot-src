@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Vanguarda-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Causar %(goal)s PE de dano a veículos inimigos que acertem no seu veículo"
+msgstr "Causar %(goal)s PE de dano a veículos inimigos que danificaram o seu veículo"
 
 msgid "pm3_10_1_14_short"
 msgstr "Vanguarda-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Emboscada-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Causar %(goal)s de PE de dano, permanecer invisível no momento em que o dano é causado"
+msgstr "Causar %(goal)s PE de dano enquanto não estiver visível para os inimigos"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Destrua um tanque pesado inimigo ao disparar contra ele, causando pelo menos %(damageDealt)s PE de dano."
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Emboscada-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Causar dano %(hits)s vezes a veículos inimigos que não estejam detetados quando o dano é causado"
+msgstr "Causar dano a veículos inimigos que não estão visíveis para si quando o dano é causado %(hits)s vezes"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Destruir %(goal)s veículos inimigos de %(uniqueGoal)s tipos diferentes"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Assistência-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Permitir aos seus aliados causarem %(goal)s PE de dano a veículos detectados por si. Permaneça oculto no momento em que o dano é causado"
+msgstr "Permitir aos seus aliados causarem %(goal)s PE de dano a veículos inimigos detetados por si. Não esteja visível para os inimigos quando o dano for causado"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Atordoar tanques pesados inimigos %(goal)s vezes"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Vanguarda-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Causar %(goal)s PE de dano a veículos inimigos que acertem no seu veículo"
+msgstr "Causar %(goal)s PE de dano a veículos inimigos que danificaram o seu veículo"
 
 msgid "pm3_8_1_9_short"
 msgstr "Vanguarda-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Emboscada-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Causar %(goal)s de PE de dano, permanecer invisível no momento em que o dano é causado"
+msgstr "Causar %(goal)s PE de dano enquanto não estiver visível para os inimigos"
 
 msgid "pm3_8_2_9_short"
 msgstr "Emboscada-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Vanguarda-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Causar %(goal)s PE de dano a veículos inimigos que acertem no seu veículo"
+msgstr "Causar %(goal)s PE de dano a veículos inimigos que danificaram o seu veículo"
 
 msgid "pm3_9_1_14_short"
 msgstr "Vanguarda-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Emboscada-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Causar %(goal)s de PE de dano, permanecer invisível no momento em que o dano é causado"
+msgstr "Causar %(goal)s PE de dano enquanto não estiver visível para os inimigos"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Destruir um veículo inimigo, causando-lhe pelo menos %(damageDealt)s PE de dano"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Emboscada-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Causar %(damageDealt)s PE de dano a veículos inimigos que não estejam detetados quando o dano é causado"
+msgstr "Causar %(damageDealt)s PE de dano a veículos inimigos que não estão visíveis para si quando o dano é causado"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Destruir %(goal)s veículos inimigos de %(uniqueGoal)s tipos diferentes"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Assistência-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Permitir aos seus aliados causarem %(goal)s PE de dano a veículos detectados por si. Permaneça oculto no momento em que o dano é causado"
+msgstr "Permitir aos seus aliados causarem %(goal)s PE de dano a veículos inimigos detetados por si. Não esteja visível para os inimigos quando o dano for causado"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Atordoar tanques pesados inimigos por um total de %(goal)s segundos. A duração potencial é contabilizada"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Assistência-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Causar %(damageDealt)s PE de dano a veículos inimigos que não estejam detetados quando o dano é causado"
+msgstr "Causar %(damageDealt)s PE de dano a veículos inimigos que não estão visíveis para si quando o dano é causado"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Destruir %(goal)s tanques ligeiros inimigos ou AAPs"

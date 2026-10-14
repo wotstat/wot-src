@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Kampffähigkeit"
+
+msgid "make_choice/server_error"
+msgstr "Der Vorgang ist vorübergehend nicht verfügbar. Versuchen Sie es später erneut."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "REKRUTIEREN"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Rekrutiert"
+
+msgid "notification/crew_reward/title"
+msgstr "Belohnung abgeholt"
+
+msgid "open_artefact/server_error"
+msgstr "Der Vorgang ist vorübergehend nicht verfügbar. Versuchen Sie es später erneut."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Erhaltene Dechiffrierungsschlüssel: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Quittung"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Dechiffrierungsschlüssel entfernt: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Dechiffrierung"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Kampffähigkeiten für Fahrzeug %s konnten nicht aufgefüllt werden – Technischer Fehler"
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Kampffähigkeiten für Fahrzeug %s konnten nicht aufgefüllt werden – Unzureichendes Guthaben"
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Kampffähigkeiten für Fahrzeug %s wurden aufgefüllt. Kosten"
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Dechiffrierungsschlüssel erhalten"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Aufzeichnungen zum Dechiffrieren verfügbar"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Modus: Babylon: Dunkelturm"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babylon: Dunkelturm (Normal)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babylon: Dunkelturm (Schwer)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babylon: Dunkelturm (Albtraum)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Boss besiegt"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Schwierigkeit"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normal"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Schwer"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Albtraum"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Abgeschlossene Phasen: %(curPhase)s von %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Ziel abgeschlossen!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Ziele abgeschlossen!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Fahrzeug"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Ausgegeben: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finanztransaktion"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Sie können den Schwierigkeitsgrad in der Garage für „Babylon: Dunkelturm“ einstellen."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Schwierigkeit „Schwer“ freigeschaltet"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Sie können den Schwierigkeitsgrad in der Garage für „Babylon: Dunkelturm“ einstellen."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Schwierigkeit „Albtraum“ freigeschaltet"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "Das Fahrzeug „%(vehicle)s“ ist jetzt für Gefechte in „Babylon: Dunkelturm“ verfügbar."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Gefechte in „Babylon: Dunkelturm“ sind vorübergehend nicht verfügbar.\nVersuchen Sie es bitte später noch einmal."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Gefechte in „Babylon: Dunkelturm (%(difficulty)s)“ sind vorübergehend nicht verfügbar.\nVersuchen Sie es bitte später noch einmal."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Das Event „Babylon: Dunkelturm“ ist derzeit nicht verfügbar. Weitere Informationen finden Sie auf dem Portal."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Der Zugkommandant hat die Schwierigkeit geändert: %(level)s"
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Spieler %(userName)s hat einen der Schwierigkeitsgrade noch nicht freigeschaltet."

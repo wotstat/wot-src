@@ -1981,9 +1981,6 @@ msgstr "Chyba servisu „%(vehName)s“. Nedostatek bonů k nákupu spotřebníc
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Chyba servisu „%(vehName)s“. Nedostatek zlaťáků k nákupu spotřebních doplňků. Zkuste to později."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Operace není k dispozici. Všechny vaše zlaťáky budou k dispozici po automatickém obnovení funkčnosti Peněženky WG."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Chyba servisu „%(vehName)s“. Nelze doplnit spotřební doplňky. Zkuste to později."
 
@@ -1995,9 +1992,6 @@ msgstr "Chyba servisu „%(vehName)s“. Nedostatek kreditů k nákupu granátů
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Chyba servisu „%(vehName)s“. Nedostatek zlaťáků k nákupu granátů."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Operace není k dispozici. Všechny vaše zlaťáky budou k dispozici po automatickém obnovení funkčnosti Peněženky WG."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Chyba servisu „%(vehName)s“. Vozidlo je uzamčeno."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "Tank %(userString)s vyzkoumán za %(unspentXP)s zkušeností a %(freeXP)s volných zkušeností."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Pro %(vehicle)s je nyní dostupný systém elitních odměn"
+msgstr "Pro %(vehicle)s je nyní dostupný systém elitních odměn."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Elitní odměny"

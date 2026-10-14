@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Бойна способност"
+
+msgid "make_choice/server_error"
+msgstr "Операцията е временно недостъпна. Опитайте отново по-късно."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "НАБИРАНЕ"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Взет на служба"
+
+msgid "notification/crew_reward/title"
+msgstr "Наградата е получена"
+
+msgid "open_artefact/server_error"
+msgstr "Операцията е временно недостъпна. Опитайте отново по-късно."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Получени ключове за дешифриране: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Квитанция"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Премахнати ключове за дешифриране: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Дешифриране"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Неуспешно снабдяване с бойни способности за %s. Техническа повреда."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Неуспешно снабдяване с бойни способности за %s. Недостатъчни средства."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Бойните способности за %сек са доставени. Похарчихте "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Получени ключове за дешифриране"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Налични записи за дешифриране"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Режим: Вавилон: Тъмната кула"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Вавилон: Тъмната кула (нормална)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Вавилон: Тъмната кула (висока)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Вавилон: Тъмната кула (кошмарна)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Босът е победен"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Трудност"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Нормална"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Висока"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Кошмарна"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Завършени фази: %(curPhase)s от %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Целта е изпълнена!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Целите са изпълнени!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Машина"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Изхарчени %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Финансова трансакция"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Можете да изберете нивото на трудност в Парка на Вавилон: Тъмната кула."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Отключена е висока трудност"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Можете да изберете нивото на трудност в Парка на Вавилон: Тъмната кула."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Отключена е кошмарна трудност"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "%(vehicle)s е наличен за битки във Вавилон: Тъмната кула."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Битките във Вавилон: Тъмната кула са временно недостъпни.\nОпитайте отново по-късно."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Битките във Вавилон: Тъмната кула (%(difficulty)s) са временно недостъпни.\nОпитайте отново по-късно."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Вавилон: Тъмната кула е временно недостъпен. Проверете портала на играта за актуализации."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Командирът на взвода промени трудността на: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Играчът %(userName)s не е отключил едно от нивата на трудност."

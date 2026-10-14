@@ -283,6 +283,9 @@ msgstr "LTG uzlabots"
 msgid "Chassis_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
 
+msgid "Chassis_R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
+
 msgid "Chassis_R133_KV_122"
 msgstr "KV-122"
 
@@ -550,7 +553,13 @@ msgstr "SU-100I"
 msgid "Chassis_R228_KR_1"
 msgstr "KR-1"
 
+msgid "Chassis_R228_KR_1_7x7"
+msgstr "KR-1"
+
 msgid "Chassis_R230_Object_432U"
+msgstr "Object 432U"
+
+msgid "Chassis_R230_Object_432U_7x7"
 msgstr "Object 432U"
 
 msgid "Chassis_R231_Buryan"
@@ -564,6 +573,9 @@ msgstr "KB-52"
 
 msgid "Chassis_R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "Chassis_R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
 
 msgid "Chassis_R239_Object_Veles"
 msgstr "Veles"
@@ -898,6 +910,9 @@ msgstr "GMC 6046I"
 msgid "GTD_3T"
 msgstr "GTD-3T"
 
+msgid "GTD_3T_7x7"
+msgstr "GTD-3T"
+
 msgid "GTD_700P"
 msgstr "GTD-700P"
 
@@ -976,9 +991,6 @@ msgstr "Varjag"
 msgid "KV-13_descr"
 msgstr "KV-13 (Object 233) ir eksperimentāls PSRS vidējais tanks no Otrā pasaules kara laika. Izstrādi veica Čeļabinskas Kirova rūpnīcas speciālais konstruktoru birojā Nr.2 no 1941. gada sākuma līdz 1942. gada beigām. Bruņutehniku izstrādāja kā „universālu tanku”, ar ko bija iecerēts aizstāt gan vidējo tanku T-34, gan smago tanku KV. Pirmais prototips tika uzbūvēts 1942. gada pavasarī. Pārbaudēs atklājās zema ierīču izturība. Papildus tam tankam bija nepieciešamas uzlabotas bruņas un jauns tornis trīs apkalpes locekļiem. Kaut arī prasības tika izpildītas un uzsākta divu uzlabotu prototipu izstrāde 1942. gada decembrī, vidējā tanka KV-13 projekts tika izbeigts, dodot priekšroku T-34. Tālāka projekta attīstība, izmantojot abus prototipus, noveda pie sērijveidā ražota smagā tanka IS-1 radīšanas, kas tika izstrādāts 1943. gadā."
 
-msgid "KV-2"
-msgstr "KV-2"
-
 msgid "KV-220"
 msgstr "KV-220-2"
 
@@ -1025,6 +1037,9 @@ msgid "KV_1"
 msgstr "KV-1"
 
 msgid "KV_2"
+msgstr "KV-2"
+
+msgid "KV_2_A"
 msgstr "KV-2"
 
 msgid "KV_descr"
@@ -1663,6 +1678,9 @@ msgstr "R-123M"
 msgid "R123U"
 msgstr "R-123U"
 
+msgid "R123_FR"
+msgstr "R-123"
+
 msgid "R123_K"
 msgstr "R-123K"
 
@@ -1809,6 +1827,15 @@ msgstr "LTG"
 
 msgid "R132_VNII_100LT"
 msgstr "T-100 LT"
+
+msgid "R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
+
+msgid "R132_VNII_100LT_FR_descr"
+msgstr "Vieglā tanka projekts ar T-100 bruņojumu. To 20. gadsimta 60. gadu vidū kopīgi izstrādāja Zinātniski pētnieciskais institūts Nr. 100 un GSKB-47 (Valsts specializētais konstruktoru birojs). Tanks izcēlās ar pienācīgām bruņām, kas frontālas sadursmes gadījumā jebkurā attālumā spēja to pasargāt no\n90 mm lādiņiem."
+
+msgid "R132_VNII_100LT_FR_short"
+msgstr "T-100 LT BS"
 
 msgid "R132_VNII_100LT_descr"
 msgstr "Vieglā tanka projekts ar T-100 apbruņojumu. Kopīgi izstrādāja izpētes institūta Nr.100 un GSKB-47 (Valsts specializētais izstrādes institūts) 1960. gados. Bruņutehnikai bija pienācīgas bruņas, kas to varēja pasargāt no 90 mm lādiņiem frontāla trāpījuma gadījumā no jebkādas distances."
@@ -2794,6 +2821,18 @@ msgstr "Izcila cauršaušana, labi bojājumi katrā šāvienā"
 msgid "R228_KR_1"
 msgstr "KR-1"
 
+msgid "R228_KR_1_7x7"
+msgstr "KR-1 7x7"
+
+msgid "R228_KR_1_7x7_descr"
+msgstr "Smagā tanku projekta izstrāde ar ekstrēmiem parametriem—radīts 1960. gados kaujām apstākļos, kad tiek izmantoti masu iznīcināšanas ieroči. Konstruktoru komanda plaši izmantoja valsts tobrīd perspektīvākos tanku būves risinājumus."
+
+msgid "R228_KR_1_7x7_long_special"
+msgstr "KR-1 ir klasisks padomju smagais tanks izrāvieniem, kas apvieno teicamu manevrētspēju un drošu bruņojumu, lai ieņemtu izšķirošās pozīcijas un veiktu zibensuzbrukumus pārsteigtam pretiniekam. Īpaši efektīvs tuvcīņā, tas ved kolonnas ar jaudīgu 136 mm lielgabalu, kas spēj iznīcināt ikvienu, kas nostājas ceļā."
+
+msgid "R228_KR_1_7x7_short"
+msgstr "KR-1 7x7"
+
 msgid "R228_KR_1_descr"
 msgstr "Smagā tanku projekta izstrāde ar ekstrēmiem parametriem—radīts 1960. gados kaujām apstākļos, kad tiek izmantoti masu iznīcināšanas ieroči. Konstruktoru komanda plaši izmantoja valsts tobrīd perspektīvākos tanku būves risinājumus. "
 
@@ -2805,6 +2844,18 @@ msgstr "KR-1"
 
 msgid "R230_Object_432U"
 msgstr "Object 432U"
+
+msgid "R230_Object_432U_7x7"
+msgstr "Object 432U 7x7"
+
+msgid "R230_Object_432U_7x7_descr"
+msgstr "Pastiprināta tanku projekta izstrāde, kas bija paredzēts ievērojami pārspēt pretinieka bruņutehniku gan aizsardzībā, gan ugunsspēkā. Konstruktoru plānā bija uzstādīt lielgabalu ar augstspiediena stobru, kas ļautu izmantot modernu munīciju ar labāku veiktspēju nekā tā laika alternatīvas. Tika ieviesta spiediena izlaišanas kamera, lai munīciju varētu izmantot parastā režīmā. Tankam papildus uzstādīja pastiprinātu torņa un korpusa bruņojumu, kā arī aizsardzību pret kumulatīvajām lādiņām. Attīstība izrādījās pārāk dārga, un projekts tika pārtraukts jau agrīnā izstrādes posmā."
+
+msgid "R230_Object_432U_7x7_long_special"
+msgstr "Object 432U ir universāls vidējais tanks ar iespaidīgu ugunsspēku. Bruņots ar drošu bruņu aizsardzību un lielkalibra lielgabalu, tas spēj doties cīņā pret smagajiem tankiem un pārvietoties uz svarīgām kaujas pozīcijām. Pēc vajadzības tā ugunsspēku var vēl vairāk palielināt, lai nodarītu maksimālus zaudējumus."
+
+msgid "R230_Object_432U_7x7_short"
+msgstr "Obj. 432U 7x7"
 
 msgid "R230_Object_432U_descr"
 msgstr "Pastiprināta tanku projekta izstrāde, kas bija paredzēts ievērojami pārspēt pretinieka bruņutehniku gan aizsardzībā, gan ugunsspēkā. Konstruktoru plānā bija uzstādīt lielgabalu ar augstspiediena stobru, kas ļautu izmantot modernu munīciju ar labāku veiktspēju nekā tā laika alternatīvas. Tika ieviesta spiediena izlaišanas kamera, lai munīciju varētu izmantot parastā režīmā. Tankam papildus uzstādīja pastiprinātu torņa un korpusa bruņojumu, kā arī aizsardzību pret kumulatīvajām lādiņām. Attīstība izrādījās pārāk dārga, un projekts tika pārtraukts jau agrīnā izstrādes posmā."
@@ -2877,6 +2928,21 @@ msgstr "Uzticams korpusa un torņa bruņas, automātiskais ielādētājs"
 
 msgid "R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
+
+msgid "R236_Object_265_II_CFE_A_descr"
+msgstr "Tanks ar koda nosaukumu \"Eclipse\" tika atrasts Anomālijas iekšienē, fāzē netālu no būves drupām, kas pazīstama kā \"Tumšais tornis\". Paraugs tika nosūtīts uz Babilonas pētniecības centru rūpīgai speciālistu pārbaudei.\n\nTanks ir aprīkots ar eksperimentālu platjoslas signālu slāpēšanas iekārtu, ko darbina īpaši blīvs Miriums. Saskaņā ar mūsu datiem šo ierīci ekspedīcijas inženieri izstrādāja, lai atspējotu Tumšā torņa aizsardzības sistēmas. Spriežot pēc notikuma vietā atrastajām pēdām, tanks piedalījās pēdējā kaujā pie Torņa, lai neitralizētu milzīgo mehānisko Zirnekli, pēc kā tas tika pamests. Visticamāk, tanka apkalpe tika evakuēta uz kuģa „Marduk”, kas pēc tam turpināja ekspedīciju dziļāk Anomālijā.\n\nEclipse dizains tika atzīts par īpaši veiksmīgu: tas ir izturīgs un ļoti noturīgs pret naidīgiem apkārtējās vides apstākļiem. Pēc izmeklēšanas pabeigšanas militārā komisija ieteica tanks atgriezt aktīvajā dienestā."
+
+msgid "R236_Object_265_II_CFE_A_long_special"
+msgstr "Eclipse ir IX līmeņa smagais tanks. Tanks apvieno izcilas korpusa un torņa bruņas ar diviem 122 mm lielgabaliem. Tā izturīgās bruņas ļauj noturēt pozīcijas, un aizmugurē novietotais tornis padara sānu bruņu izmantošanu ērtāku. Dubultie lielgabali nodara milzīgus bojājumus, īpaši izmantojot zalves mehāniku."
+
+msgid "R236_Object_265_II_CFE_A_short"
+msgstr "Eclipse"
+
+msgid "R236_Object_265_II_CFE_A_short_special"
+msgstr "Dubultā ieroču sistēma, uzticams korpusa un torņa bruņas."
 
 msgid "R236_Object_265_II_descr"
 msgstr "Divstobru versija Objekt 265 projektam, izstrādāta 1950. gadu beigās. Tās nekonvencionālie risinājumi (jaunu vadības sistēmu izmantošana un vadītāja novietošana tornī) apgrūtināja klienta atrašanu. Rezultātā projekts tika slēgts, lai koncentrētu pūles uz T-10 (Objekts 730) modifikāciju."
@@ -3247,7 +3313,13 @@ msgstr "R-123B"
 msgid "R_123C"
 msgstr "R-123C"
 
+msgid "R_123C_7x7"
+msgstr "R-123C"
+
 msgid "R_123KR"
+msgstr "R-123KR"
+
+msgid "R_123KR_7x7"
 msgstr "R-123KR"
 
 msgid "R_123V"
@@ -3508,9 +3580,6 @@ msgstr "T-80"
 msgid "T80_descr"
 msgstr "Izstrādāts 1942. gada vasarā un rudenī Gorkija automobiļu ražotnē N. A. Astrova uzraudzībā. Iekļāva bruņojumā 1942. gada decembrī. Sērijveidā tika uzražotas 85 vienības."
 
-msgid "TD-30"
-msgstr "M-50D"
-
 msgid "TD_12"
 msgstr "TD-12"
 
@@ -3519,6 +3588,9 @@ msgstr "TD-12"
 
 msgid "TD_30"
 msgstr "TD-30"
+
+msgid "TD_30_A"
+msgstr "M-50D"
 
 msgid "T_50_2"
 msgstr "T-50-2"
@@ -3705,6 +3777,9 @@ msgstr "LTG"
 
 msgid "Turret_1_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
+
+msgid "Turret_1_R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
 
 msgid "Turret_1_R133_KV_122"
 msgstr "KV-122"
@@ -3937,7 +4012,13 @@ msgstr "SU-100I"
 msgid "Turret_1_R228_KR_1"
 msgstr "KR-1"
 
+msgid "Turret_1_R228_KR_1_7x7"
+msgstr "KR-1"
+
 msgid "Turret_1_R230_Object_432U"
+msgstr "Object 432U"
+
+msgid "Turret_1_R230_Object_432U_7x7"
 msgstr "Object 432U"
 
 msgid "Turret_1_R231_Buryan"
@@ -3954,6 +4035,9 @@ msgstr "KB-52"
 
 msgid "Turret_1_R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "Turret_1_R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
 
 msgid "Turret_1_R239_Object_Veles"
 msgstr "Veles"
@@ -4258,6 +4342,9 @@ msgstr "IS-7"
 msgid "UTD_20"
 msgstr "UTD-20"
 
+msgid "UTD_20_FR"
+msgstr "UTD-20"
+
 msgid "UTD_45A"
 msgstr "UTD-45A"
 
@@ -4266,9 +4353,6 @@ msgstr "UTD-50M1 Barnaulskiy"
 
 msgid "V-11"
 msgstr "V-11"
-
-msgid "V-11-IS-3"
-msgstr "V-11-IS-3"
 
 msgid "V-11-IS-3_S"
 msgstr "V-11-IS-3A"
@@ -4296,9 +4380,6 @@ msgstr "V-12 A"
 
 msgid "V-12V"
 msgstr "V-12 V"
-
-msgid "V-14"
-msgstr "V-14"
 
 msgid "V-16FN"
 msgstr "V-16FN"
@@ -4350,9 +4431,6 @@ msgstr "V-2-10 forsēts"
 
 msgid "V-2IS_R_CN"
 msgstr "V-2-10 C"
-
-msgid "V-2K"
-msgstr "V-2K"
 
 msgid "V-2KT"
 msgstr "V-2SN"
@@ -4408,6 +4486,9 @@ msgstr "V-11 (704)"
 msgid "V_11_IS_3"
 msgstr "V-11 (IS-3)"
 
+msgid "V_11_IS_3_A"
+msgstr "V-11-IS-3"
+
 msgid "V_11_Kirovets_1"
 msgstr "V-11-Kirovecs-1"
 
@@ -4439,6 +4520,9 @@ msgid "V_12_5B"
 msgstr "V-12-5B"
 
 msgid "V_12_5C"
+msgstr "V-12-5C"
+
+msgid "V_12_5C_CFE_A"
 msgstr "V-12-5C"
 
 msgid "V_12_5F"
@@ -4477,6 +4561,9 @@ msgstr "V-14"
 msgid "V_14UM"
 msgstr "V-14M"
 
+msgid "V_14_A"
+msgstr "V-14"
+
 msgid "V_16"
 msgstr "V-16"
 
@@ -4499,6 +4586,9 @@ msgid "V_2IS_SU"
 msgstr "V-2IS (SU)"
 
 msgid "V_2K"
+msgstr "V-2K"
+
+msgid "V_2K1"
 msgstr "V-2K"
 
 msgid "V_2K_KV_1"
@@ -4759,13 +4849,22 @@ msgstr "3UOF (LM)"
 msgid "_100mm_3VBB"
 msgstr "3VBB"
 
+msgid "_100mm_3VBB_FR"
+msgstr "3VBB"
+
 msgid "_100mm_3VBM"
 msgstr "3VBM"
 
 msgid "_100mm_3VBM2_SH"
 msgstr "3VBM-2"
 
+msgid "_100mm_3VBM_FR"
+msgstr "3VBM"
+
 msgid "_100mm_3VOF"
+msgstr "3VOF"
+
+msgid "_100mm_3VOF_FR"
 msgstr "3VOF"
 
 msgid "_100mm_BR-412A"
@@ -4880,6 +4979,9 @@ msgid "_100mm_S_34D_IS_2_II"
 msgstr "100 mm S-34D (IS-2-II)"
 
 msgid "_100mm_T_100"
+msgstr "100 mm T-100"
+
+msgid "_100mm_T_100_FR"
 msgstr "100 mm T-100"
 
 msgid "_100mm_T_12A"
@@ -5311,14 +5413,14 @@ msgstr "10RK-DV"
 msgid "_10RK_W"
 msgstr "10RK"
 
-msgid "_10RT-26E"
-msgstr "10RT-26"
-
 msgid "_10RT-26M"
 msgstr "10RT-26M"
 
 msgid "_10RT_26E"
 msgstr "10RT-26E"
+
+msgid "_10RT_26E1"
+msgstr "10RT-26"
 
 msgid "_12.7mm_AP_B32"
 msgstr "B-32"
@@ -5482,6 +5584,9 @@ msgstr "122 mm BL-13"
 msgid "_122mm_BL_13D_dualgun"
 msgstr "122 mm BL-13D-SD"
 
+msgid "_122mm_BL_13D_dualgun_CFE_A"
+msgstr "122 mm BL-13D-SD"
+
 msgid "_122mm_BL_13_1_257"
 msgstr "122 mm BL-13-1 (257)"
 
@@ -5533,6 +5638,9 @@ msgstr "BP-460A (KV-1S)"
 msgid "_122mm_BP_471BMM"
 msgstr "BP 471BMM"
 
+msgid "_122mm_BP_471BMM_CFE_A"
+msgstr "BP 471BMM"
+
 msgid "_122mm_BP_471D"
 msgstr "BP-471D"
 
@@ -5543,6 +5651,9 @@ msgid "_122mm_BR-471D_P"
 msgstr "BR-471DP"
 
 msgid "_122mm_BR_471BMM"
+msgstr "BR 471BMM"
+
+msgid "_122mm_BR_471BMM_CFE_A"
 msgstr "BR 471BMM"
 
 msgid "_122mm_BR_471DS_SU"
@@ -5729,6 +5840,9 @@ msgid "_122mm_OF_462"
 msgstr "OF-462"
 
 msgid "_122mm_OF_471BMM"
+msgstr "OF 471BMM"
+
+msgid "_122mm_OF_471BMM_CFE_A"
 msgstr "OF 471BMM"
 
 msgid "_122mm_S34_II"
@@ -5992,13 +6106,25 @@ msgstr "122 mm haubice 1910./30. g. mod."
 msgid "_125mm_3BK7_61"
 msgstr "3BK7-61"
 
+msgid "_125mm_3BK7_61_7x7"
+msgstr "3BK7-61"
+
 msgid "_125mm_3BM9_61"
+msgstr "3BM9-61"
+
+msgid "_125mm_3BM9_61_7x7"
 msgstr "3BM9-61"
 
 msgid "_125mm_3OF22_61"
 msgstr "3OF22-61"
 
+msgid "_125mm_3OF22_61_7x7"
+msgstr "3OF22-61"
+
 msgid "_125mm_D_181"
+msgstr "125 mm D-181"
+
+msgid "_125mm_D_181_7x7"
 msgstr "125 mm D-181"
 
 msgid "_12LL"
@@ -6008,6 +6134,9 @@ msgid "_12RT"
 msgstr "12RT"
 
 msgid "_12RT_B"
+msgstr "12RT-B"
+
+msgid "_12RT_B_CFE_A"
 msgstr "12RT-B"
 
 msgid "_12RT_Roz"
@@ -6211,13 +6340,25 @@ msgstr "ZBK60M"
 msgid "_136mm_BK_79"
 msgstr "BK-79"
 
+msgid "_136mm_BK_79_7x7"
+msgstr "BK-79"
+
 msgid "_136mm_BR_79"
+msgstr "BR-79"
+
+msgid "_136mm_BR_79_7x7"
 msgstr "BR-79"
 
 msgid "_136mm_D_79"
 msgstr "136 mm D-79"
 
+msgid "_136mm_D_79_7x7"
+msgstr "136 mm D-79"
+
 msgid "_136mm_OF_79"
+msgstr "OF-79"
+
+msgid "_136mm_OF_79_7x7"
 msgstr "OF-79"
 
 msgid "_140mm_BR_482A"
@@ -6844,9 +6985,6 @@ msgstr "UBR-243SP (T-70)"
 msgid "_45mm_UOF-240A"
 msgstr "UOF-240A"
 
-msgid "_45mm_UOF-243"
-msgstr "UOF-243"
-
 msgid "_45mm_UOF-243U"
 msgstr "UOF-243U"
 
@@ -6869,6 +7007,9 @@ msgid "_45mm_UOF_240A_T_70"
 msgstr "UOF-240A (T-70)"
 
 msgid "_45mm_UOF_243"
+msgstr "UOF-243"
+
+msgid "_45mm_UOF_243_A"
 msgstr "UOF-243"
 
 msgid "_45mm_UOF_243_A_20"
@@ -7039,6 +7180,9 @@ msgstr "5TDF-SM"
 msgid "_5TD_2"
 msgstr "5TD-2"
 
+msgid "_5TD_2_7x7"
+msgstr "5TD-2"
+
 msgid "_6TD"
 msgstr "6TD"
 
@@ -7087,10 +7231,10 @@ msgstr "BP-354IT"
 msgid "_76mm_BP_350A_T_28"
 msgstr "BP-350A (T-28)"
 
-msgid "_76mm_BR-350A"
+msgid "_76mm_BR_350A"
 msgstr "BR-350A"
 
-msgid "_76mm_BR_350A"
+msgid "_76mm_BR_350A1"
 msgstr "BR-350A"
 
 msgid "_76mm_BR_350A_1"
@@ -7102,13 +7246,13 @@ msgstr "BR-350A"
 msgid "_76mm_BR_350_P_T"
 msgstr "BP-354 T"
 
-msgid "_76mm_F-32"
-msgstr "76 mm F-32"
-
 msgid "_76mm_F-34S_A"
 msgstr "76 mm S-1"
 
 msgid "_76mm_F_32"
+msgstr "76 mm F-32"
+
+msgid "_76mm_F_32_A"
 msgstr "76 mm F-32"
 
 msgid "_76mm_F_34"

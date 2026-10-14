@@ -3437,7 +3437,7 @@
                   id: $,
                   itemInstalledSetupIdx: O,
                   isMountedMoreThanOne: R,
-                  contextMenuDisabled: B,
+                  contextMenuDisabled: B || j,
                   isSetupSwitching: r,
                 };
               return a().createElement(

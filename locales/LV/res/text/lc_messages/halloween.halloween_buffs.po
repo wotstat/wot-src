@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Samazina lielgabala izkliedi kustībā, kā arī korpusa un torņa pagriešanas laikā par {{@ class $highlightClass}}%(generalValue)s%%{{/}}."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s izkliedei kustībā\nun torņa griešanās laikā."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Samazina\nieroča izkliedi."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Samazina ieroča izkliedi, kustībā, kā arī korpusa un torņa griešanās laikā."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Snaiperis"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Padara jūsu tanku pilnīgi {{@ class $highlightClass}}neievainojamu{{/}} pret Eža un Alfa Eža {{@ class $highlightClass}}sprādziena radītajiem bojājumiem{{/}}.\nTanks joprojām saņems taranēšanas bojājumus no Ežiem sadursmes brīdī."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Padara jūsu tanku neievainojamu\n pret Eža sprādziena radītajiem bojājumiem."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Aizsargā jūsu tanku no Eža sprādziena radītiem bojājumiem."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Padara jūsu tanku pilnīgi neievainojamu pret Eža un Alfa Eža sprādziena bojājumiem.\nTanks joprojām saņems taranēšanas bojājumus no Ežiem sadursmes brīdī."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Neievainojamība pret sprādzieniem"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Noņem iespējamo {{@ class $highlightClass}}±25%{{/}} bojājumu diapazonu, padarot šāviena iedarbību paredzamāku."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Šāvieniem nav ±25%% bojājumu\n diapazona."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Šāvieniem nav ±25% bojājumu diapazona."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Noņem iespējamo ±25% bojājumu diapazonu, padarot šāviena ietekmi paredzamāku."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Kontrolēti bojājumi"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Samazina saņemto bojājumu* (tostarp no šāvieniem, uguns, taranēšanas, bojājumu zonām, korozijas fāzes, moduļu bojājumiem u. c.) par {{@ class $highlightClass}}%(mitigation)s%%{{/}}.*Netiek piemērots bojājumiem no krišanas \nun izpildes fāzes laikā."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s saņemtajam kaitējumam."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Samazina saņemto bojājumu."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Samazina saņemto bojājumu* apjomu (tostarp no šāvieniem, uguns, taranēšanas, bojājumu zonām, korozijas fāzes, moduļu bojājumiem u.c.).\n*Neattiecas uz bojājumiem, kas gūti krītot, un izpildes fāzes laikā."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Bojājumu absorbcija"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Piešķir {{@ class $highlightClass}}%(chance)s%%{{/}} iespēju atjaunot {{@ class $highlightClass}}%(heal)s{{/}} no jūsu tanka dzīvības punktiem, šaujot pa pretinieka tankiem un nodarot tiem bojājumus."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s pie HP atjaunošanas iespējas\n, nodarot bojājumus ar šāvienu."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Var atjaunot dzīvības punktus\n, nodarot bojājumus ar šāvieniem."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Sniedz iespēju atjaunot jūsu tanka dzīvības punktus izdarot bojājumus pretinieku tankiem šaujot."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Vampīra Kodiens"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Palielina jūsu tanka izturības punktus par {{@ class $highlightClass}}%(health)s%%{{/}}."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s tanka dzīvības punktiem."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Palielina\njūsu tanka izturības punktus."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Palielina tanka izturību."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Izturība"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Palielina iespēju aizdedzināt pretinieka tanks par {{@ class $highlightClass}}%(chance)s%%{{/}}, nodarot tam bojājumus ar šāvienu."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s iespējamībai\naizdedzināt ienaidnieka tanku."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Palielina\naizdegšanās iespējamību."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Palielina iespēju aizdedzināt pretinieka tanku izdarot bojājumus šaujot pa to."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Karsta Adata"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Palielina ienaidnieka tankiem nodarīto bojājumu apjomu par {{@ class $highlightClass}}%(damageFactor)s%%{{/}}."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s izdarītajiem bojājumiem."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Palielina\nnodarīto kaitējumu."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Palielina izdarītos bojājumus."
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Keramisks Kodols"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Palielina pārlādēšanas ātrumu par {{@ class $highlightClass}}%(reloadTime)s%%{{/}}."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s pārlādes ātrumam."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Palielina\npārlādēšanas ātrumu."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Palielina pārlādes ātrumu."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Ložmetējs"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Pakāpeniski atjauno tanka dzīvības punktus līdz maksimālajai izturībai.\nEfekts tiek apturēts saņemot bojājumus."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Pakāpeniski atjauno\njūsu tanka dzīvības punktus."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Atjauno\ndzīvības punktus."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Pakāpeniski atjauno tanka dzīvības punktus līdz maksimālajai izturībai. Efekts tiek apturēts saņemot bojājumus."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Reģenerācija"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Padara tanka Mirium krātuves ietilpību kaujā {{@ class $highlightClass}}neierobežotu{{/}}."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Padara Mirium ietilpību neierobežotu."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Padara Mirium ietilpību neierobežotu."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Padara tanka Mirium krātuves ietilpību kaujā neierobežotu."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Negausīgais kolekcionārs"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Palielina apkalpes efektivitātes bonusu visiem ekipāžas locekļiem par {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}}."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s apkalpes efektivitātes bonusam."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Uzlabo apkalpes\nefektivitāti."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Uzlabo apkalpes efektivitāti."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Iedvesmošana"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Ja pēc tava trāpījuma pretinieka tanks paliek ar {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} HP vai mazāk, tas tiks iznīcināts uzreiz.\nUz bosiem šis efekts neattiecas."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Ienaidnieki, kuriem pēc tava\nšāviena ir %(value)s HP vai mazāk, tiek uzreiz iznīcināti."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Pretinieki, kuriem pēc tava šāviena paliek maz dzīvības punktu, tiek iznīcināti uzreiz."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Ja ienaidnieka tanks pēc tava šāviena trāpījuma paliek ar maz HP, tas tiks uzreiz iznīcināts.\nBosi ir imūni pret šo efektu."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Finišētājs"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Palielina tanka maksimālo braukšanas ātrumu uz priekšu un atpakaļgaitā."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Palielina tanka maksimālo\nbraukšanas uz priekšu un atpakaļgaitas ātrumu."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Palielina tanka maksimālo braukšanas ātrumu uz priekšu un atpakaļgaitā."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Palielina tanka maksimālo braukšanas ātrumu uz priekšu un atpakaļgaitā."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Paātrināt"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Palielina Mirium daudzumu, ko saņemat, nodarot ienaidniekiem bojājumus kaujā, par {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}}."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s saņemtajam Mirium\nno pretiniekiem"
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Palielina no pretiniekiem saņemtā Mirium daudzumu."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Palielina no kaujā bojātiem pretiniekiem saņemtā Mirium daudzumu."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Mirium ekstrakcija"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Palielina tanka maksimālo Mirium krātuves ietilpību kaujā par {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s maksimālajai Mirium ietilpībai."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Palielina maksimālo Mirium ietilpību."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Palielina tanka maksimālo Mirium krātuves ietilpību kaujā."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Ietilpīgs savācējs"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Ja tanks tiek iznīcināts kaujā, atdzimstot tiek saglabāts viss Mirium."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Viss Mirium tiek saglabāts tankā\npēc atdzimšanas."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Saglabā visu Mirium pēc atdzimšanas."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Saglabā visu Mirium pēc atdzimšanas."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Mirium glabātājs"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Samazina kaujas spēju izmaksas Miriumā kaujā par {{@ class $highlightClass}}%(cost)s%%{{/}}."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s spēju izmaksām Miriumā."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Samazina spēju izmaksās Miriumā."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Ievērojami samazina kaujas spēju izmaksas Miriumā kaujā."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Mirium efektivitāte"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Atjauno {{@ class $highlightClass}}%(refundAmount)s%%{{/}} kaujas spēju izmaksas Miriumā, to izmantojot."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "Izmantojot spēju, tiek atjaunots %(value)s\nMirium."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Lietojot spēju, daļēji atjauno Mirium."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Daļēji atjauno kaujas spējas izmaksas Miriumā pēc izmantošanas."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Mirium atgriešanās"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Palielina dzinēja jaudu par {{@ class $highlightClass}}%(power)s%%{{/}} un torņa pagriešanās ātrumu par {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}}."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s dzinēja jaudai."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s torņa griešanās ātrumam."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Palielina dzinēja jaudu\nun torņa pagriešanās ātrumu."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Palielina dzinēja jaudu un torņa griešanās ātrumu."
+
+msgid "buffs/buffMobility/header"
+msgstr "Mobilitāte"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Padara visus tanka moduļus neievainojamus jebkādiem bojājumiem."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Padara visus tanka moduļus neievainojamus\njebkādiem bojājumiem."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Aizsargā moduļus\nno bojājumiem."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Padara visus tanka moduļus neievainojamus jebkādiem bojājumiem."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Moduļu Neievainojamība"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Malahīta noklusējuma anomālija, kas vienmēr ir aktīva."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Palielina visu šāviņu caursišanas spēju par {{@ class $highlightClass}}%(shellPen)s%%{{/}}."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s līdz šāviņa caursišanai."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Palielina visu lādiņu caursišanas spēju."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Palielina visu lādiņu caursišanas spēju."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Caursitošie šāviņi"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Visi alternatīvie šāviņi tiek saglabāti pēc atdzimšanas, ja tanks tiek iznīcināts kaujā."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Visi alternatīvie apvalki tiek saglabāti\npēc atdzimšanas."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Saglabā visus alternatīvos šāviņus pēc atdzimšanas."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Visi alternatīvie šāviņi tiek saglabāti pēc atdzimšanas, ja tanks tiek iznīcināts kaujā."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Šāviņu glabātājs"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Palielina saņemtā Mirium daudzumu katras jaunās fāzes sākumā vai pēc atdzimšanas par {{@ class $highlightClass}}%(soulsBonus)s{{/}}. Palielina tanka maksimālo Mirium krātuves ietilpību kaujā par {{@ class $highlightClass}}%(miriumAmount)s{{/}}."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s saņemtam Miriumam jaunā fāzē vai pēc \natdzimšanas."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s maksimālajai Mirium ietilpībai."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Palielina Mirium ietilpību un tā daudzumu, ko saņemat jaunā fāzē vai pēc atdzimšanas."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Palielina saņemtā Mirium daudzumu katras jaunas fāzes sākumā vai pēc atdzimšanas. Palielina maksimālo Mirium krātuves ietilpību tankam kaujā."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Mirium krātuve"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Palielina Turbo ilgumu par {{@ class $highlightClass}}%(timeLength)s%%{{/}} un samazina atdzišanas laiku par {{@ class $highlightClass}}%(reloadTime)s s{{/}}."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s līdz Turbo ilgumam."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s s Turbo atdzišanai."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Palielina Turbo darbības ilgumu un samazina atdzišanas laiku."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Palielina Turbo darbības ilgumu un samazina atdzišanas laiku."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Turbo pastiprinātājs"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Dod iespēju ar šāvienu nodarīt noteiktu bojājumu apjomu: \n•{{@ class $highlightClass}}%(chance1)s%%{{/}} iespēja nodarīt {{@ class $highlightClass}}%(damage1)s%%{{/}} bojājumu;\n•{{@ class $highlightClass}}%(chance2)s%%{{/}} iespēja nodarīt {{@ class $highlightClass}}%(damage2)s%%{{/}} bojājumu;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} iespēja nodarīt {{@ class $highlightClass}}%(damage3)s%%{{/}} bojājumu;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} iespēja nodarīt {{@ class $highlightClass}}%(damage4)s%%{{/}} bojājumu."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Šāviena radītais bojājums svārstās no zema\nlīdz ārkārtīgi augstam."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Šāviena bojājumi svārstās no zema līdz ārkārtīgi augstam līmenim."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Dod iespēju nodarīt vai nu mazāku kaitējumu nekā parasti, vai arī ārkārtīgi lielu kaitējumu."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Kvantu šāvieni"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Detaļas"

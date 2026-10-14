@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Koroze"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Poškození zónou"
+
+msgid "damageLog/static_death_zone"
+msgstr "Poškození udělené zónou"
+
+msgid "damageShieldReady"
+msgstr "Energetický štít je připraven k použití."
+
+msgid "fastReloadReady"
+msgstr "Rychlé nabíjení je připraveno k použití."
+
+msgid "hitMarker/useless"
+msgstr "Zbytečné!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Nouzové opravy jsou připraveny k použití."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Energetický výboj je připraven k použití."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Upíří střela je připravena k použití."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Ochromující střela je připravena k použití."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "pro zobrazení pravidel režimu"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Stiskněte"
+
+msgid "hwInvisibilityReady"
+msgstr "Skryté léčení je připraveno k použití."
+
+msgid "nitroRamDamageReady"
+msgstr "Turbodmychadlo je připraveno k použití."
+
+msgid "pickupSouls"
+msgstr "Sebrali jste %(souls)s kus(ů) Miria"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Nelze použít [%(name)s]: dělo je poškozeno."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Vozidlo není poškozeno."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Nelze použít [%(name)s]: motor je zničen."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Nelze použít [%(name)s]: Nedostatek Miria k aktivaci schopnosti."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Nelze použít [%(name)s]: vozidlo hoří."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Nelze použít [%(name)s]: vozidlo se topí."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Nelze použít [%(name)s]: vozidlo hoří."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Nelze použít [%(name)s]: vozidlo je převrácené."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Dělo je nabité."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Spojenec %(target)s zničen korozí."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "%(attacker)s rozdupnul spojence %(target)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Spojenec %(target)s zničen výbuchem nepřítele (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Spojenec %(target)s byl rozdrcen."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Spojenec %(target)s byl zničen destrukční zónou."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Spojenec %(target)s byl zničen aurou nepřítele."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Spojenec %(target)s byl zničen destrukční zónou."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Spojenec %(target)s byl zničen."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Vozidlo bylo zničeno Energetickým výbojem"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Vozidlo bylo zničeno Pyrokinezí"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Vozidlo bylo zničeno Vampyrismem"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Vozidlo bylo zničeno výbuchem"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Vozidlo bylo zničeno destrukční zónou"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Vozidlo bylo zničeno aurou nepřítele"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Vozidlo zničeno korozí"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Vozidlo rozdrceno"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Vozidlo zničeno rozdupáním"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Vozidlo zničeno. Nezvládli jste se dostat k Magnusu."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Vozidlo zničeno. Nezničili jste bosse."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Vozidlo zničeno. Magnus není plný."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modul [%(device)s] vybuchl po výstřelu hráče"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Vozidlo zničeno požárem"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Vozidlo zničeno výstřelem nepřítele"
+
+msgid "teamRepairKitReady"
+msgstr "Skupinové opravy jsou připraveny k použití."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s aktivoval Skupinové opravy."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Skupinové opravy aktivovány."

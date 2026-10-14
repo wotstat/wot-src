@@ -328,6 +328,9 @@ msgstr "Obtener recompensa"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "Obtener recompensas"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "Cada misión estándar, premium o de bonificación completada contribuye a tu progreso."
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "Disponible"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "¡Adelante! Completa misiones diarias y gana recompensas épicas: {progres}"
+msgstr "¡De vuelta a la acción! Completa misiones diarias para ganar recompensas épicas: {{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "Una vez que completes tres misiones estándar, se desbloqueará una misión de bonificación con la que podrás obtener recompensas aún más valiosas. Esta misión debe completarse antes de que termine el día; de lo contrario, expirará."
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "Escudos"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "Restricciones del vehículo:"
+msgstr "Completar con"
 
 msgid "tooltip/weekly_mission"
 msgstr "Misión semanal"

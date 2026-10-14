@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Vanguard-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Forårsak %(goal)s helsepoeng i skade på fiendtlige kjøretøy som treffer ditt kjøretøy"
+msgstr "Forårsak %(goal)s helsepoeng i skade på fiendtlige kjøretøy som skadet ditt kjøretøy"
 
 msgid "pm3_10_1_14_short"
 msgstr "Fortropp-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Ambush-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Forårsak %(goal)s helsepoeng i skade, forbli uoppdaget i det øyeblikket skaden blir forårsaket"
+msgstr "Forårsak %(goal)s helsepoeng i skade mens du ikke er synlig for fiender"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Bekjemp en fiendtlig tung tanks, forårsak minst %(damageDealt)s helsepoeng i skade på den"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Ambush-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Forårsak skade %(hits)s ganger på fiendtlige kjøretøy som ennå ikke er oppdaget når skaden forårsakes"
+msgstr "Forårsak skade på fiendtlige kjøretøy som ikke er synlige for deg når skaden forårsakes %(hits)s ganger"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Bekjemp %(goal)s fiendtlige kjøretøy av %(uniqueGoal)s ulike typer"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Assistance-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Gi dine allierte mulighet til å forårsake %(goal)s helsepoeng i skade på kjøretøy du oppdager. Forbli uoppdaget i det øyeblikket skaden forårsakes"
+msgstr "Gi dine allierte mulighet til å forårsake %(goal)s helsepoeng i skade på kjøretøy du oppdager. Ikke vær synlig i det øyeblikket skaden forårsakes"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Sjokk fiendtlige tunge tanks %(goal)s ganger"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Fortropp-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Forårsak %(goal)s helsepoeng i skade på fiendtlige kjøretøy som treffer ditt kjøretøy"
+msgstr "Forårsak %(goal)s helsepoeng i skade på fiendtlige kjøretøy som skadet ditt kjøretøy"
 
 msgid "pm3_8_1_9_short"
 msgstr "Vanguard-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Bakholdsangrep-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Forårsak %(goal)s helsepoeng i skade, forbli uoppdaget i det øyeblikket skaden blir forårsaket"
+msgstr "Forårsak %(goal)s helsepoeng i skade mens du ikke er synlig for fiender"
 
 msgid "pm3_8_2_9_short"
 msgstr "Ambush-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Fortropp-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Forårsak %(goal)s helsepoeng i skade på fiendtlige kjøretøy som treffer ditt kjøretøy"
+msgstr "Forårsak %(goal)s helsepoeng i skade på fiendtlige kjøretøy som skadet ditt kjøretøy"
 
 msgid "pm3_9_1_14_short"
 msgstr "Vanguard-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Bakholdsangrep-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Forårsak %(goal)s helsepoeng i skade, forbli uoppdaget i det øyeblikket skaden blir forårsaket"
+msgstr "Forårsak %(goal)s helsepoeng i skade mens du ikke er synlig for fiender"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Bekjemp et fiendtlig kjøretøy og forårsak minst %(damageDealt)s helsepoeng i skade på den"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Bakholdsangrep-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Forårsak %(damageDealt)s helsepoeng i skade på fiendtlige kjøretøy som ennå ikke er oppdaget når skaden forårsakes"
+msgstr "Forårsak %(damageDealt)s helsepoeng i skade på fiendtlige kjøretøy som ikke er synlige for deg når skaden forårsakes"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Bekjemp %(goal)s fiendtlige kjøretøy av %(uniqueGoal)s ulike typer"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Assistanse-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Gi dine allierte mulighet til å forårsake %(goal)s helsepoeng i skade på kjøretøy du oppdager. Forbli uoppdaget i det øyeblikket skaden forårsakes"
+msgstr "Gi dine allierte mulighet til å forårsake %(goal)s helsepoeng i skade på kjøretøy du oppdager. Ikke vær synlig i det øyeblikket skaden forårsakes"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Sjokk fiendtlige kjøretøy i totalt %(goal)s sekunder. Potensiell sjokkvarighet teller med"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Assistanse-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Forårsak %(damageDealt)s helsepoeng i skade på fiendtlige kjøretøy som ennå ikke er oppdaget når skaden forårsakes"
+msgstr "Forårsak %(damageDealt)s helsepoeng i skade på fiendtlige kjøretøy som ikke er synlige for deg når skaden forårsakes"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Bekjemp %(goal)s fiendtlige lette tanks eller SPGer"

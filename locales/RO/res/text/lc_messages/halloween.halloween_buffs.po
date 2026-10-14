@@ -1,0 +1,521 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buffs/buffAccuracy/body"
+msgstr "Reduce cu {{@ class $highlightClass}}%(generalValue)s%%{{/}} dispersia tunului la deplasare și la rotația turelei și a carenei."
+
+msgid "buffs/buffAccuracy/description/1"
+msgstr "%(value)s la dispersia la deplasare\nși rotirea carenei."
+
+msgid "buffs/buffAccuracy/description/tab"
+msgstr "Reduce\ndispersia tunului."
+
+msgid "buffs/buffAccuracy/description/tabTooltip"
+msgstr "Reduce dispersia tunului la deplasare și la rotația turelei și a carenei."
+
+msgid "buffs/buffAccuracy/header"
+msgstr "Țintaș"
+
+msgid "buffs/buffAccuracy/value/1"
+msgstr "-%(generalValue)s%%"
+
+msgid "buffs/buffBomberResist/body"
+msgstr "Face ca vehiculul tău să fie complet {{@ class $highlightClass}}invulnerabil{{/}} la {{@ class $highlightClass}}daunele prin explozie{{/}} ale Ariciului și Ariciului Alfa.\nVehiculul va suferi în continuare daune prin coliziune de la Arici, la impact."
+
+msgid "buffs/buffBomberResist/description/1"
+msgstr "Face ca vehiculul tău să fie invulnerabil\nla daunele explozive ale Aricilor."
+
+msgid "buffs/buffBomberResist/description/tab"
+msgstr "Îți protejează vehiculul de daunele explozive ale Aricilor."
+
+msgid "buffs/buffBomberResist/description/tabTooltip"
+msgstr "Face ca vehiculul tău să fie complet invulnerabil la daunele prin explozie ale Ariciului și Ariciului Alfa.\nVehiculul va suferi în continuare daune prin coliziune de la Arici, la impact."
+
+msgid "buffs/buffBomberResist/header"
+msgstr "Invulnerabilitate la explozii"
+
+msgid "buffs/buffControlledDamage/body"
+msgstr "Elimină variația de {{@ class $highlightClass}}±25%{{/}} la potențialul daunelor, făcând ca impactul proiectilelor să fie mai previzibil."
+
+msgid "buffs/buffControlledDamage/description/1"
+msgstr "Loviturile nu au variație de\n±25%% la daune."
+
+msgid "buffs/buffControlledDamage/description/tab"
+msgstr "Loviturile nu au variație de ±25% la daune."
+
+msgid "buffs/buffControlledDamage/description/tabTooltip"
+msgstr "Elimină variația de ±25% la potențialul daunelor, făcând ca impactul proiectilelor să fie mai previzibil."
+
+msgid "buffs/buffControlledDamage/header"
+msgstr "Controlul daunelor"
+
+msgid "buffs/buffDamageMitigation/body"
+msgstr "Reduce cu {{@ class $highlightClass}}%(mitigation)s%%{{/}} daunele suferite* (inclusiv de la proiectile, foc, coliziuni, zone de daune, faza de coroziune, daune la module, etc.).\n*Nu se aplică la daunele din cădere și din timpul fazei de execuție."
+
+msgid "buffs/buffDamageMitigation/description/1"
+msgstr "%(value)s la daunele suferite."
+
+msgid "buffs/buffDamageMitigation/description/tab"
+msgstr "Reduce daunele suferite."
+
+msgid "buffs/buffDamageMitigation/description/tabTooltip"
+msgstr "Reduce daunele suferite* (inclusiv de la proiectile, foc, coliziuni, zone de daune, faza de coroziune, daune la module, etc.).\n*Nu se aplică la daunele din cădere și din timpul fazei de execuție."
+
+msgid "buffs/buffDamageMitigation/header"
+msgstr "Absorbția daunelor"
+
+msgid "buffs/buffDamageMitigation/value/1"
+msgstr "-%(mitigation)s%%"
+
+msgid "buffs/buffDrainOnShot/body"
+msgstr "Conferă o șansă de {{@ class $highlightClass}}%(chance)s%%{{/}} pentru restaurarea a {{@ class $highlightClass}}%(heal)s{{/}} din punctele de integritate ale vehiculului atunci când focul asupra inamicilor provoacă daune."
+
+msgid "buffs/buffDrainOnShot/description/1"
+msgstr "%(value)s la șansa de restaurare de HP\nla provocarea de daune prin proiectile."
+
+msgid "buffs/buffDrainOnShot/description/tab"
+msgstr "Poate restaura Puncte de integritate\nla provocarea de daune prin proiectile."
+
+msgid "buffs/buffDrainOnShot/description/tabTooltip"
+msgstr "Conferă oportunitatea de restaurare a punctelor de integritate ale vehiculului atunci când focul asupra inamicilor provoacă daune."
+
+msgid "buffs/buffDrainOnShot/header"
+msgstr "Mușcătura vampirului"
+
+msgid "buffs/buffDrainOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffEnlargeHealth/body"
+msgstr "Crește cu {{@ class $highlightClass}}%(health)s%%{{/}} punctele de integritate ale vehiculului."
+
+msgid "buffs/buffEnlargeHealth/description/1"
+msgstr "%(value)s la punctele de integritate ale vehiculului."
+
+msgid "buffs/buffEnlargeHealth/description/tab"
+msgstr "Crește\npunctele de integritate ale vehiculului."
+
+msgid "buffs/buffEnlargeHealth/description/tabTooltip"
+msgstr "Crește durabilitatea vehiculului."
+
+msgid "buffs/buffEnlargeHealth/header"
+msgstr "Durabilitate"
+
+msgid "buffs/buffEnlargeHealth/value/1"
+msgstr "+%(health)s%%"
+
+msgid "buffs/buffIgniteOnShot/body"
+msgstr "Crește cu {{@ class $highlightClass}}%(chance)s%%{{/}} șansa de incendiere a inamicului la provocarea de daune prin proiectile."
+
+msgid "buffs/buffIgniteOnShot/description/1"
+msgstr "%(value)s la șansa de incendiere a\nvehiculului inamic."
+
+msgid "buffs/buffIgniteOnShot/description/tab"
+msgstr "Crește\nșansa de incendiere."
+
+msgid "buffs/buffIgniteOnShot/description/tabTooltip"
+msgstr "Crește șansa de incendiere a inamicului la provocarea de daune prin foc."
+
+msgid "buffs/buffIgniteOnShot/header"
+msgstr "Acul fierbinte"
+
+msgid "buffs/buffIgniteOnShot/value/1"
+msgstr "+%(chance)s%%"
+
+msgid "buffs/buffIncreaseDamage/body"
+msgstr "Crește cu {{@ class $highlightClass}}%(damageFactor)s%%{{/}} daunele provocate vehiculelor inamice."
+
+msgid "buffs/buffIncreaseDamage/description/1"
+msgstr "%(value)s la daunele provocate."
+
+msgid "buffs/buffIncreaseDamage/description/tab"
+msgstr "Crește\ndaunele provocate."
+
+msgid "buffs/buffIncreaseDamage/description/tabTooltip"
+msgstr "Crește daunele provocate"
+
+msgid "buffs/buffIncreaseDamage/header"
+msgstr "Miez ceramic"
+
+msgid "buffs/buffIncreaseDamage/value/1"
+msgstr "+%(damageFactor)s%%"
+
+msgid "buffs/buffIncreaseRateOfFire/body"
+msgstr "Crește cu {{@ class $highlightClass}}%(reloadTime)s%%{{/}} viteza de reîncărcare."
+
+msgid "buffs/buffIncreaseRateOfFire/description/1"
+msgstr "%(value)s la viteza de reîncărcare."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tab"
+msgstr "Crește\nviteza de reîncărcare."
+
+msgid "buffs/buffIncreaseRateOfFire/description/tabTooltip"
+msgstr "Crește viteza de reîncărcare."
+
+msgid "buffs/buffIncreaseRateOfFire/header"
+msgstr "Mitralieră"
+
+msgid "buffs/buffIncreaseRateOfFire/value/1"
+msgstr "+%(reloadTime)s%%"
+
+msgid "buffs/buffInfiniteHeal/body"
+msgstr "Reface gradual punctele de integritate ale vehiculului până la durabilitatea maximă.\nEfectul e întrerupt la suferirea de daune."
+
+msgid "buffs/buffInfiniteHeal/description/1"
+msgstr "Reface gradual\npunctele de integritate ale vehiculului."
+
+msgid "buffs/buffInfiniteHeal/description/tab"
+msgstr "Reface\npuncte de integritate."
+
+msgid "buffs/buffInfiniteHeal/description/tabTooltip"
+msgstr "Reface gradual punctele de integritate ale vehiculului până la durabilitatea maximă. Efectul e întrerupt la suferirea de daune."
+
+msgid "buffs/buffInfiniteHeal/header"
+msgstr "Regenerare"
+
+msgid "buffs/buffInfiniteMiriumCapacity/body"
+msgstr "Capacitatea de stocare a Miriumului în luptă devine {{@ class $highlightClass}}nelimitată{{/}} pentru vehicul."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/1"
+msgstr "Capacitatea de Mirium devine nelimitată."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tab"
+msgstr "Capacitatea de Mirium devine nelimitată."
+
+msgid "buffs/buffInfiniteMiriumCapacity/description/tabTooltip"
+msgstr "Capacitatea de stocare a Miriumului în luptă devine nelimitată pentru vehicul."
+
+msgid "buffs/buffInfiniteMiriumCapacity/header"
+msgstr "Stocare nelimitată"
+
+msgid "buffs/buffInspiration/body"
+msgstr "Crește cu {{@ class $highlightClass}}%(crewLevelIncrease)s%%{{/}} bonusul de eficiență a echipajului pentru toți membrii de echipaj."
+
+msgid "buffs/buffInspiration/description/1"
+msgstr "%(value)s la bonusul de eficiență a echipajului."
+
+msgid "buffs/buffInspiration/description/tab"
+msgstr "Crește eficiența\nechipajului."
+
+msgid "buffs/buffInspiration/description/tabTooltip"
+msgstr "Crește eficiența echipajului."
+
+msgid "buffs/buffInspiration/header"
+msgstr "Inspirație"
+
+msgid "buffs/buffInspiration/value/1"
+msgstr "+%(crewLevelIncrease)s%%"
+
+msgid "buffs/buffInstakill/body"
+msgstr "Dacă un vehicul inamic rămâne cu maxim {{@ class $highlightClass}}%(hpThreshold)s%%{{/}} HP după ce l-ai lovit cu un proiectil, acesta va fi distrus instantaneu.\nBoșii sunt imuni la acest efect."
+
+msgid "buffs/buffInstakill/description/1"
+msgstr "Inamicii cu HP maxim rămas de %(value)s după\nlovitură sunt distruși instantaneu."
+
+msgid "buffs/buffInstakill/description/tab"
+msgstr "Inamicii cu HP redus după ce i-ai lovit sunt distruși instantaneu."
+
+msgid "buffs/buffInstakill/description/tabTooltip"
+msgstr "Dacă un vehicul inamic rămâne cu HP redus după ce l-ai lovit cu un proiectil, acesta va fi distrus instantaneu.\nBoșii sunt imuni la acest efect."
+
+msgid "buffs/buffInstakill/header"
+msgstr "Finisher"
+
+msgid "buffs/buffInstakill/value/1"
+msgstr "%(hpThreshold)s%%"
+
+msgid "buffs/buffMaxSpeedTurbine/body"
+msgstr "Crește vitezele maxime de înaintare și marșarier ale vehiculului."
+
+msgid "buffs/buffMaxSpeedTurbine/description/1"
+msgstr "Crește vitezele maxime de înaintare\nși marșarier ale vehiculului."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tab"
+msgstr "Crește vitezele maxime de înaintare și marșarier ale vehiculului."
+
+msgid "buffs/buffMaxSpeedTurbine/description/tabTooltip"
+msgstr "Crește vitezele maxime de înaintare și marșarier ale vehiculului."
+
+msgid "buffs/buffMaxSpeedTurbine/header"
+msgstr "Accelerare"
+
+msgid "buffs/buffMiriumAmplification/body"
+msgstr "Crește cu {{@ class $highlightClass}}%(miriumAmountFactor)s%%{{/}} cantitatea de Mirium obținută în urma avarierii inamicilor în luptă."
+
+msgid "buffs/buffMiriumAmplification/description/1"
+msgstr "%(value)s la Mirium obținut\nde la inamici."
+
+msgid "buffs/buffMiriumAmplification/description/tab"
+msgstr "Crește Mirium obținut de la inamici."
+
+msgid "buffs/buffMiriumAmplification/description/tabTooltip"
+msgstr "Crește cantitatea de Mirium obținută în urma avarierii inamicilor în luptă."
+
+msgid "buffs/buffMiriumAmplification/header"
+msgstr "Extragerea de Mirium"
+
+msgid "buffs/buffMiriumAmplification/value/1"
+msgstr "+%(miriumAmountFactor)s%%"
+
+msgid "buffs/buffMiriumCapacity/body"
+msgstr "Crește cu {{@ class $highlightClass}}%(miriumAmount)s{{/}} capacitatea maximă de stocare de Mirium în luptă."
+
+msgid "buffs/buffMiriumCapacity/description/1"
+msgstr "%(value)s la capacitatea maximă de Mirium."
+
+msgid "buffs/buffMiriumCapacity/description/tab"
+msgstr "Crește capacitatea maximă de Mirium."
+
+msgid "buffs/buffMiriumCapacity/description/tabTooltip"
+msgstr "Crește capacitatea maximă de stocare de Mirium în luptă."
+
+msgid "buffs/buffMiriumCapacity/header"
+msgstr "Colector spațios"
+
+msgid "buffs/buffMiriumCapacity/value/1"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffMiriumDeathKeeper/body"
+msgstr "Tot Mirium este păstrat la reapariție, dacă vehiculul este distrus în luptă."
+
+msgid "buffs/buffMiriumDeathKeeper/description/1"
+msgstr "Tot Mirium este păstrat\nla reapariție."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tab"
+msgstr "Păstrează tot Mirium după reapariție."
+
+msgid "buffs/buffMiriumDeathKeeper/description/tabTooltip"
+msgstr "Păstrează tot Mirium după reapariție."
+
+msgid "buffs/buffMiriumDeathKeeper/header"
+msgstr "Reținerea de Mirium"
+
+msgid "buffs/buffMiriumEfficiency/body"
+msgstr "Reduce cu {{@ class $highlightClass}}%(cost)s%%{{/}} costul în Mirium al Abilităților de luptă, pe parcursul acesteia."
+
+msgid "buffs/buffMiriumEfficiency/description/1"
+msgstr "%(value)s la costul în Mirium al abilităților."
+
+msgid "buffs/buffMiriumEfficiency/description/tab"
+msgstr "Reduce costul în Mirium al abilităților."
+
+msgid "buffs/buffMiriumEfficiency/description/tabTooltip"
+msgstr "Reduce semnificativ costul în Mirium al Abilităților de luptă pe parcursul acesteia."
+
+msgid "buffs/buffMiriumEfficiency/header"
+msgstr "Eficiența Miriumului"
+
+msgid "buffs/buffMiriumEfficiency/value/1"
+msgstr "-%(cost)s%%"
+
+msgid "buffs/buffMiriumRefund/body"
+msgstr "Restaurează {{@ class $highlightClass}}%(refundAmount)s%%{{/}} din costul în Mirium al Abilității de luptă, la utilizare."
+
+msgid "buffs/buffMiriumRefund/description/1"
+msgstr "%(value)s din Mirium restaurat\nla utilizarea abilității."
+
+msgid "buffs/buffMiriumRefund/description/tab"
+msgstr "Restaurează parțial Mirium la utilizarea abilității."
+
+msgid "buffs/buffMiriumRefund/description/tabTooltip"
+msgstr "Restaurează parțial costul în Mirium al Abilității de luptă, la utilizarea acesteia."
+
+msgid "buffs/buffMiriumRefund/header"
+msgstr "Restaurarea de Mirium"
+
+msgid "buffs/buffMiriumRefund/value/1"
+msgstr "+%(refundAmount)s%%"
+
+msgid "buffs/buffMobility/body"
+msgstr "Crește cu {{@ class $highlightClass}}%(power)s%%{{/}} puterea motorului și cu {{@ class $highlightClass}}%(rotationSpeed)s%%{{/}} viteza de rotație a turelei."
+
+msgid "buffs/buffMobility/description/1"
+msgstr "%(value)s la puterea motorului."
+
+msgid "buffs/buffMobility/description/2"
+msgstr "%(value)s la viteza de rotație a turelei."
+
+msgid "buffs/buffMobility/description/tab"
+msgstr "Sporește puterea motorului\nși viteza de rotație a turelei."
+
+msgid "buffs/buffMobility/description/tabTooltip"
+msgstr "Sporește puterea motorului și viteza de rotație a turelei."
+
+msgid "buffs/buffMobility/header"
+msgstr "Mobilitate"
+
+msgid "buffs/buffMobility/value/1"
+msgstr "+%(power)s%%"
+
+msgid "buffs/buffMobility/value/2"
+msgstr "+%(rotationSpeed)s%%"
+
+msgid "buffs/buffModulesInvulnerability/body"
+msgstr "Conferă invulnerabilitate la daune tuturor modulelor vehiculului."
+
+msgid "buffs/buffModulesInvulnerability/description/1"
+msgstr "Conferă invulnerabilitate la daune\ntuturor modulelor vehiculului."
+
+msgid "buffs/buffModulesInvulnerability/description/tab"
+msgstr "Protejează modulele\nîmpotriva daunelor."
+
+msgid "buffs/buffModulesInvulnerability/description/tabTooltip"
+msgstr "Conferă invulnerabilitate la daune tuturor modulelor vehiculului."
+
+msgid "buffs/buffModulesInvulnerability/header"
+msgstr "Invulnerabilitate a modulelor"
+
+msgid "buffs/buffModulesInvulnerability/vehicleAnomaly"
+msgstr "Anomalia implicită a lui Malachite, mereu activă."
+
+msgid "buffs/buffShellPenetration/body"
+msgstr "Crește cu {{@ class $highlightClass}}%(shellPen)s%%{{/}} penetrarea tuturor proiectilelor."
+
+msgid "buffs/buffShellPenetration/description/1"
+msgstr "%(value)s la penetrarea proiectilelor."
+
+msgid "buffs/buffShellPenetration/description/tab"
+msgstr "Crește penetrarea tuturor proiectilelor."
+
+msgid "buffs/buffShellPenetration/description/tabTooltip"
+msgstr "Crește penetrarea tuturor proiectilelor."
+
+msgid "buffs/buffShellPenetration/header"
+msgstr "Proiectile penetrante"
+
+msgid "buffs/buffShellPenetration/value/1"
+msgstr "+%(shellPen)s%%"
+
+msgid "buffs/buffShellsKeeper/body"
+msgstr "Toate proiectilele alternative sunt păstrate la reapariție, dacă vehiculul este distrus în luptă."
+
+msgid "buffs/buffShellsKeeper/description/1"
+msgstr "Toate proiectilele alternative sunt păstrate\nla reapariție."
+
+msgid "buffs/buffShellsKeeper/description/tab"
+msgstr "Păstrează toate proiectilele alternative la reapariție."
+
+msgid "buffs/buffShellsKeeper/description/tabTooltip"
+msgstr "Toate proiectilele alternative sunt păstrate la reapariție, dacă vehiculul este distrus în luptă."
+
+msgid "buffs/buffShellsKeeper/header"
+msgstr "Păstrătorul proiectilelor"
+
+msgid "buffs/buffSoulsBonus/body"
+msgstr "Crește cu {{@ class $highlightClass}}%(soulsBonus)s{{/}} cantitatea de Mirium obținută la începutul fiecărei faze noi, sau după reapariție. Crește cu {{@ class $highlightClass}}%(miriumAmount)s{{/}} cantitatea maximă de stocare a Miriumului în luptă."
+
+msgid "buffs/buffSoulsBonus/description/1"
+msgstr "%(value)s la Mirium obținut într-o fază nouă\nsau la reapariție."
+
+msgid "buffs/buffSoulsBonus/description/2"
+msgstr "%(value)s la capacitatea maximă de Mirium."
+
+msgid "buffs/buffSoulsBonus/description/tab"
+msgstr "Crește capacitatea maximă de Mirium și cantitatea obținută într-o fază nouă sau după reapariție."
+
+msgid "buffs/buffSoulsBonus/description/tabTooltip"
+msgstr "Crește cantitatea de Mirium obținută la începutul fiecărei faze noi, sau după reapariție. Crește cantitatea maximă de stocare a Miriumului în luptă."
+
+msgid "buffs/buffSoulsBonus/header"
+msgstr "Stocul de Mirium"
+
+msgid "buffs/buffSoulsBonus/value/1"
+msgstr "+%(soulsBonus)s"
+
+msgid "buffs/buffSoulsBonus/value/2"
+msgstr "+%(miriumAmount)s"
+
+msgid "buffs/buffTurboRacer/body"
+msgstr "Crește cu {{@ class $highlightClass}}%(timeLength)s%%{{/}} durata Turbo și reduce cu {{@ class $highlightClass}}%(reloadTime)s s{{/}} timpul de pregătire."
+
+msgid "buffs/buffTurboRacer/description/1"
+msgstr "%(value)s la durata Turbo."
+
+msgid "buffs/buffTurboRacer/description/2"
+msgstr "%(value)s s la refacerea Turbo."
+
+msgid "buffs/buffTurboRacer/description/tab"
+msgstr "Crește durata Turbo și reduce timpul de pregătire."
+
+msgid "buffs/buffTurboRacer/description/tabTooltip"
+msgstr "Crește durata Turbo și reduce timpul de pregătire."
+
+msgid "buffs/buffTurboRacer/header"
+msgstr "Îmbunătățirea Turbo"
+
+msgid "buffs/buffTurboRacer/value/1"
+msgstr "+%(timeLength)s%%"
+
+msgid "buffs/buffTurboRacer/value/2"
+msgstr "-%(reloadTime)s"
+
+msgid "buffs/buffVariableDamage/body"
+msgstr "Conferă șansa de a provoca o cantitate anume de daune la lovitură:\n• {{@ class $highlightClass}}%(chance1)s%%{{/}} de provocare a {{@ class $highlightClass}}%(damage1)s%%{{/}} daune;\n• {{@ class $highlightClass}}%(chance2)s%%{{/}} de provocare a {{@ class $highlightClass}}%(damage2)s%%{{/}} daune;\n• {{@ class $highlightClass}}%(chance3)s%%{{/}} de provocare a {{@ class $highlightClass}}%(damage3)s%%{{/}} daune;\n• {{@ class $highlightClass}}%(chance4)s%%{{/}} de provocare a {{@ class $highlightClass}}%(damage4)s%%{{/}} daune."
+
+msgid "buffs/buffVariableDamage/description/1"
+msgstr "Valoarea daunelor fluctuează între mică și\nextrem de mare."
+
+msgid "buffs/buffVariableDamage/description/tab"
+msgstr "Valoarea daunelor fluctuează între mică și extrem de mare."
+
+msgid "buffs/buffVariableDamage/description/tabTooltip"
+msgstr "Conferă șansa de a provoca daune mai mici, sau extreme de mari, față de valoarea standard."
+
+msgid "buffs/buffVariableDamage/header"
+msgstr "Lovituri cuantice"
+
+msgid "buffs/buffVariableDamage/value/1"
+msgstr "%(chance1)s%"
+
+msgid "buffs/buffVariableDamage/value/2"
+msgstr "%(damage1)s%"
+
+msgid "buffs/buffVariableDamage/value/3"
+msgstr "%(chance2)s%"
+
+msgid "buffs/buffVariableDamage/value/4"
+msgstr "%(damage2)s%"
+
+msgid "buffs/buffVariableDamage/value/5"
+msgstr "%(chance3)s%"
+
+msgid "buffs/buffVariableDamage/value/6"
+msgstr "%(damage3)s%"
+
+msgid "buffs/buffVariableDamage/value/7"
+msgstr "%(chance4)s%"
+
+msgid "buffs/buffVariableDamage/value/8"
+msgstr "%(damage4)s%"
+
+msgid "buffs/epic/body"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/1"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/epic/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/epic/header"
+msgstr "?empty?"
+
+msgid "buffs/secret/body"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/1"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tab"
+msgstr "?empty?"
+
+msgid "buffs/secret/description/tabTooltip"
+msgstr "?empty?"
+
+msgid "buffs/secret/header"
+msgstr "?empty?"
+
+msgid "notification/moreInformation"
+msgstr "Detalii"

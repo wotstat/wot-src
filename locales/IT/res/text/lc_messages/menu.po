@@ -560,7 +560,7 @@ msgid "booster/bonus/booster_free_xp_and_crew_xp"
 msgstr "%(effectValue)s a Exp tecnica ed Exp dell'equipaggio per %(effectHours)s"
 
 msgid "booster/bonus/booster_xp"
-msgstr "Bonus del %(effectValue)s per %(effectHours)s all'Exp ottenuta in battaglia"
+msgstr "%(effectValue)s all'Exp di combattimento per %(effectHours)s"
 
 msgid "booster/description/bonusValueTime/booster_credits"
 msgstr "Bonus del %(effectValue)s ai crediti ottenuti in battaglia per %(effectTime)s"
@@ -4165,6 +4165,9 @@ msgstr "Questo veicolo è dotato di un lanciarazzi installato nel mantelletto de
 msgid "moduleInfo/closeBtn"
 msgstr "Chiudi"
 
+msgid "moduleInfo/combatThrottle"
+msgstr "Potenza di combattimento"
+
 msgid "moduleInfo/compatible/clipVehicles"
 msgstr "Equipaggiato con sistema di caricamento automatico sui veicoli:"
 
@@ -6162,6 +6165,12 @@ msgstr "(oggetto/i)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "Durata di Ottica elettromeccanica a coincidenza"
+
+msgid "tank_params/combatThrottleCooldown"
+msgstr "Ricarica"
+
+msgid "tank_params/combatThrottleDuration"
+msgstr "Durata"
 
 msgid "tank_params/concentrationModeCooldown"
 msgstr "Ricarica"

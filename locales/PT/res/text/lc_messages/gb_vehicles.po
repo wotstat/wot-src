@@ -118,6 +118,9 @@ msgstr "SR C45"
 msgid "C45_CFE_A"
 msgstr "SR C45"
 
+msgid "C45_FR"
+msgstr "SR C45"
+
 msgid "C45_c_7x7"
 msgstr "SR C45"
 
@@ -373,6 +376,9 @@ msgstr "Gabler’s Destroyer"
 msgid "Chassis_GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "Chassis_GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver"
+
 msgid "Chassis_GB148_FV227_Conceiver"
 msgstr "FV227 Conceiver"
 
@@ -411,6 +417,9 @@ msgstr "FV214t"
 
 msgid "Chassis_GB158_Executor"
 msgstr "Executor"
+
+msgid "Chassis_GB159_FV4602_Victorious"
+msgstr "Victorious"
 
 msgid "Chassis_GB15_Stuart_I"
 msgstr "Stuart I"
@@ -679,6 +688,9 @@ msgstr "Centurion Action X"
 msgid "Chassis_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
 
+msgid "Chassis_GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
+
 msgid "Chassis_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
 
@@ -739,7 +751,7 @@ msgstr "Continental AOI-1195-5A"
 msgid "Continental_AOI_1195_5A_short"
 msgstr "Continental\nAOI-1195-5A"
 
-msgid "Continental_W-670-9A"
+msgid "Continental_W_670_9A1"
 msgstr "Continental W-670-9A"
 
 msgid "Crysler_A57"
@@ -1262,13 +1274,13 @@ msgid "GB132_Taurus_CAT_desc"
 msgstr "Um projeto para um tanque promissor desenvolvido pelo Royal Armoured Corps em 1968 e designado COMBAT ARM TANK. As seguintes prioridades foram definidas para o desenvolvimento do veículo: poder de fogo, mobilidade, defesa e uma tripulação tão pequena quanto possível. O tanque deveria ser usado pelo Royal Armoured Corps e pela Infantaria (armas de combate); no entanto, devido a uma mudança nos planos de desenvolvimento do Exército Britânico, o veículo deixou de ser necessário e o projeto foi encerrado."
 
 msgid "GB132_Taurus_CAT_long_special"
-msgstr "O Taurus CAT é um antitanque Britânico de Nível VIII. É o primeiro veículo Britânico com suspensão hidropneumática, bem como o primeiro veículo deste tipo com um carregador automático em vez de uma arma cíclica normal. Este veículo é rápido e ágil, o que, juntamente com o carregador automático de tiro rápido, permite jogar de forma mais ativa e agressiva."
+msgstr "O Taurus CAT é um antitanque Britânico de Nível IX com um modo de Cerco ao estilo sueco e uma arma de carregamento automático. Uma característica principal é o seu recarregamento do carregador muito mais rápida no modo Viagem do que no modo Cerco. A sua arma dispara rajadas concentradas graças a recargas rápidas entre disparos, enquanto a blindagem frontal inclinada pode ricochetear tiros e fornecer alguma proteção."
 
 msgid "GB132_Taurus_CAT_short"
 msgstr "Taurus CAT"
 
 msgid "GB132_Taurus_CAT_short_special"
-msgstr "Carregador automático, suspensão hidropneumática"
+msgstr "Suspensão hidropneumática, carregador automático"
 
 msgid "GB133_Charioteer_MkVII"
 msgstr "Charioteer Nomad"
@@ -1447,6 +1459,18 @@ msgstr "Sistema de carregamento por magazine, mobilidade excelente"
 msgid "GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver 7x7"
+
+msgid "GB147_FV4025_Contriver_7x7_descr"
+msgstr "Do final da década de 50 ao início da década de 60, o R.U. trabalhou ativamente no desenvolvimento de tanques de defesa costeira de dois canos. Durante o processo, tornou-se evidente que, devido ao seu elevado peso, estes veículos apresentavam um fator de pressão de contacto muito elevado, que necessitava de ser reduzido com urgência. Assim, surgiu a ideia de um tanque de quatro lagartas. Os dados de inteligência sobre o Object 279 recebidos na U.R.S.S. foram aplicados no desenvolvimento do veículo, mas o conceito foi ligeiramente alterado. As lagartas exteriores eram mais leves que as interiores e o sistema de suspensão foi substituído por um Britânico com molas helicoidais verticais. Todo o chassis foi montado numa estrutura aberta de canal em C arrebitada; no entanto, a construção era tão complexa que o projeto foi encerrado antes mesmo de começar."
+
+msgid "GB147_FV4025_Contriver_7x7_long_special"
+msgstr "O FV4025 Contriver é um tanque pesado bem equilibrado, sem fraquezas evidentes, capaz de se manter em qualquer situação de campo de batalha — desde tiroteios posicionais ao lado de outros pesados até à manutenção da linha defensiva contra o avanço das forças inimigas. O seu sistema de canhão duplo acrescenta outro nível de versatilidade, permitindo tiros únicos precisos ou salvas destrutivas, conforme a situação o exija."
+
+msgid "GB147_FV4025_Contriver_7x7_short"
+msgstr "Contriver 7x7"
+
 msgid "GB147_FV4025_Contriver_descr"
 msgstr "Do final da década de 50 ao início da década de 60, o R.U. trabalhou ativamente no desenvolvimento de tanques de defesa costeira de dois canos. Durante o processo, tornou-se evidente que, devido ao seu elevado peso, estes veículos apresentavam um fator de pressão de contacto muito elevado, que necessitava de ser reduzido com urgência. Assim, surgiu a ideia de um tanque de quatro lagartas. Os dados de inteligência sobre o Object 279 recebidos na U.R.S.S. foram aplicados no desenvolvimento do veículo, mas o conceito foi ligeiramente alterado. As lagartas exteriores eram mais leves que as interiores e o sistema de suspensão foi substituído por um Britânico com molas helicoidais verticais. Todo o chassis foi montado numa estrutura aberta de canal em C arrebitada; no entanto, a construção era tão complexa que o projeto foi encerrado antes mesmo de começar."
 
@@ -1587,6 +1611,21 @@ msgstr "Combinando um chassis com rodas, um motor poderoso e sofisticado e excel
 
 msgid "GB158_Executor_short"
 msgstr "Executor"
+
+msgid "GB159_FV4602_Victorious"
+msgstr "FV4602 Victorious"
+
+msgid "GB159_FV4602_Victorious_descr"
+msgstr "Na segunda metade da década de 70, a empresa Britânica Leyland propôs a sua própria opção para um tanque prospetivo para substituir o Chieftain. A aposta principal foi colocada na mobilidade e no poder de fogo; no entanto, o veículo revelou-se demasiado complicado e caro; por isso, os militares não aceitaram o projeto, optando pelo futuro Challenger."
+
+msgid "GB159_FV4602_Victorious_long_special"
+msgstr "O FV4602 Victorious é um tanque pesado Britânico de Nível X. A sua arma poderosa foi projetada para punir qualquer adversário e a sua impressionante e confiável blindagem frontal é capaz de resistir até aos golpes mais poderosos. Além disso, uma mecânica única permite que este veículo receba temporariamente bónus consideráveis à velocidade, mobilidade e estabilização da arma."
+
+msgid "GB159_FV4602_Victorious_short"
+msgstr "Victorious"
+
+msgid "GB159_FV4602_Victorious_short_special"
+msgstr "Impulso temporário à mobilidade e estabilização da arma, alto dano individual"
 
 msgid "GB15_Stuart_I"
 msgstr "Stuart I-IV"
@@ -2131,6 +2170,15 @@ msgstr "Triumphant"
 msgid "GB86_Centurion_Action_X_CFE_A_short_special"
 msgstr "Com cavalo branco e lança de prata no campo de Changban,\n\nO seu nome entre os heróis, revelado nos pergaminhos da história."
 
+msgid "GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
+
+msgid "GB86_Centurion_Action_X_FR_descr"
+msgstr "A torre do Action X foi planeada para ser utilizada nas últimas variantes do tanque Centurion. Um protótipo da torre foi montada no chassis do Centurion Mark 7 e um outro foi utilizado para testes de balística. Os veículos com a torre Action X nunca entraram em produção em massa ou entraram ao serviço."
+
+msgid "GB86_Centurion_Action_X_FR_short"
+msgstr "Cent. AX BS"
+
 msgid "GB86_Centurion_Action_X_descr"
 msgstr "A torre do Action X foi planeada para ser utilizada nas últimas variantes do tanque Centurion. Um protótipo da torre foi montada no chassis do Centurion Mark 7 e um outro foi utilizado para testes de balística. Os veículos com a torre Action X nunca entraram em produção em massa ou entraram ao serviço."
 
@@ -2632,6 +2680,12 @@ msgstr "PRC 352"
 msgid "Parson_s_Turbine_No_2983"
 msgstr "Parson's Turbine No. 2983"
 
+msgid "Parson_s_Turbine_No_2983_7x7"
+msgstr "Parson's Turbine No. 2983"
+
+msgid "Parson_s_Turbine_No_2985"
+msgstr "Parson's Turbine No. 2985"
+
 msgid "Paxman_Ricardo"
 msgstr "Paxman 12TP"
 
@@ -2953,6 +3007,9 @@ msgstr "Rolls-Royce Meteor TTSC"
 msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_CFE_A"
 msgstr "Rolls-Royce Meteor TTSC"
 
+msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_FR"
+msgstr "Rolls-Royce Meteor TTSC"
+
 msgid "Rolls_Royce_Meteorite_202"
 msgstr "Rolls-Royce Meteorite Mk. 202"
 
@@ -3015,6 +3072,12 @@ msgstr "SR C42I"
 
 msgid "SR_C42O"
 msgstr "SR C42O"
+
+msgid "SR_C42O_7x7"
+msgstr "SR C42O"
+
+msgid "SR_C42V"
+msgstr "SR C42V"
 
 msgid "SR_C42_B"
 msgstr "SR C42 B"
@@ -3196,6 +3259,9 @@ msgstr "Gabler’s Destroyer"
 msgid "Turret_1_GB147_FV4025_Contriver"
 msgstr "FV4025 Contriver"
 
+msgid "Turret_1_GB147_FV4025_Contriver_7x7"
+msgstr "FV4025 Contriver"
+
 msgid "Turret_1_GB148_FV227_Conceiver"
 msgstr "FV227 Conceiver"
 
@@ -3225,6 +3291,9 @@ msgstr "FV214t"
 
 msgid "Turret_1_GB158_Executor"
 msgstr "Executor"
+
+msgid "Turret_1_GB159_FV4602_Victorious"
+msgstr "Victorious"
 
 msgid "Turret_1_GB15_Stuart_I"
 msgstr "Stuart I"
@@ -3378,6 +3447,9 @@ msgstr "Centurion Action X"
 
 msgid "Turret_1_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
+
+msgid "Turret_1_GB86_Centurion_Action_X_FR"
+msgstr "Centurion Action X BS"
 
 msgid "Turret_1_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
@@ -3580,6 +3652,9 @@ msgstr "Twin 32-pdr Gun MBC Mk. 2"
 msgid "Twin_4_5_in_Gun_MBC"
 msgstr "Twin 4.5-in. Gun MBC"
 
+msgid "Twin_4_5_in_Gun_MBC_7x7"
+msgstr "Twin 4.5-in. Gun MBC"
+
 msgid "Twin_OQF_77mm_Gun_Mk_II"
 msgstr "Twin OQF 77 mm Gun Mk. II"
 
@@ -3688,6 +3763,9 @@ msgstr "APDS L-28 (5321)"
 msgid "_105mm_APDS_L_28_5321_CFE_A"
 msgstr "APDS L-28"
 
+msgid "_105mm_APDS_L_28_5321_FR"
+msgstr "APDS L-28 (5321)"
+
 msgid "_105mm_AP_EX20"
 msgstr "105 mm AP EX20"
 
@@ -3727,6 +3805,9 @@ msgstr "105 mm Gun L7A2"
 msgid "_105mm_Gun_L7_HEAT_CFE_A"
 msgstr "105 mm Gun L7A2"
 
+msgid "_105mm_Gun_L7_HEAT_FR"
+msgstr "Arma 105 mm L7A2"
+
 msgid "_105mm_Gun_L7_HEAT_SH"
 msgstr "105 mm Gun L7A2"
 
@@ -3737,6 +3818,9 @@ msgid "_105mm_HEAT_L7"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_CFE_A"
+msgstr "US HEAT M456"
+
+msgid "_105mm_HEAT_L7_FR"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_SH"
@@ -3771,6 +3855,9 @@ msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_35_5321_CFE_A"
 msgstr "HESH-T L-35"
+
+msgid "_105mm_HESH_L_35_5321_FR"
+msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_37_4015"
 msgstr "HESH L-37 (4015)"
@@ -4110,6 +4197,18 @@ msgstr "Q.F. 13-Pr. Mk. III"
 
 msgid "_13pdr_HE"
 msgstr "HE Mk. III"
+
+msgid "_140_mm_L33A1"
+msgstr "140 mm L33A1"
+
+msgid "_140mm_APDS_Mk_2"
+msgstr "140 mm APDS Mk. 2"
+
+msgid "_140mm_AP_Mk_1"
+msgstr "140 mm AP Mk. 1"
+
+msgid "_140mm_HESH_Mk_1"
+msgstr "140 mm HESH Mk. 1"
 
 msgid "_150mm_AP_Mk_1"
 msgstr "6-inch S.A.P."
@@ -4783,10 +4882,19 @@ msgstr "QF HE Mk. IT"
 msgid "_4_5_in_APDS_MBC"
 msgstr "APDS MBC"
 
+msgid "_4_5_in_APDS_MBC_7x7"
+msgstr "APDS MBC"
+
 msgid "_4_5_in_AP_MBC"
 msgstr "AP MBC"
 
+msgid "_4_5_in_AP_MBC_7x7"
+msgstr "AP MBC"
+
 msgid "_4_5_in_HE_MBC"
+msgstr "HE MBC"
+
+msgid "_4_5_in_HE_MBC_7x7"
 msgstr "HE MBC"
 
 msgid "_4_5_in_HE_Mk_XIII"

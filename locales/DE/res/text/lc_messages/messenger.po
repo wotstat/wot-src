@@ -1516,9 +1516,6 @@ msgstr "Kontrollierbarer EP-Multiplikator durch WoT Plus ist verfügbar."
 msgid "serviceChannelMessages/additionalXP/unavailable/title"
 msgstr "Kontrollierbarer EP-Multiplikator durch WoT Plus ist nicht verfügbar."
 
-msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
-msgstr "Verbrauchsmaterial auf %s konnte nicht aufgefüllt werden. Ihr Gold ist wieder verfügbar, sobald die Funktionalität von WG Wallet wiederhergestellt wurde."
-
 msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
 msgstr "Direktiven konnten für %s nicht aufgefüllt werden. Diese Aktion ist aufgrund von Wartungsarbeiten vorübergehend nicht verfügbar."
 
@@ -1537,9 +1534,6 @@ msgstr "Konnte Verbrauchsmaterial im Fahrzeug %s nicht auffüllen. Kaufen Sie ev
 msgid "serviceChannelMessages/autoEquipError"
 msgstr "Konnte Verbrauchsmaterial im Fahrzeug %s nicht auffüllen. Nicht genug Kreditpunkte."
 
-msgid "serviceChannelMessages/autoEquipErrorNoWallet"
-msgstr "Verbrauchsmaterial auf %s konnte nicht aufgefüllt werden. Ihr Gold ist wieder verfügbar, sobald die Funktionalität von WG Wallet automatisch wiederhergestellt wurde."
-
 msgid "serviceChannelMessages/autoEquipSkipped"
 msgstr "Verbrauchsmaterial im Fahrzeug %s konnte nicht aufgefüllt werden. Füllen Sie Verbrauchsmaterial manuell nach."
 
@@ -1552,9 +1546,6 @@ msgstr "Konnte Munition im Fahrzeug %s nicht auffüllen. Kaufen Sie eventuell Gr
 msgid "serviceChannelMessages/autoLoadError"
 msgstr "Konnte Munition im Fahrzeug %s nicht auffüllen. Nicht genug Kreditpunkte."
 
-msgid "serviceChannelMessages/autoLoadErrorNoWallet"
-msgstr "Munition auf %s konnte nicht aufgefüllt werden. Ihr Gold ist wieder verfügbar, sobald die Funktionalität von WG Wallet automatisch wiederhergestellt wurde."
-
 msgid "serviceChannelMessages/autoLoadSkipped"
 msgstr "Munition im Fahrzeug %s konnte nicht automatisch aufgefüllt werden. Laden Sie die Munition manuell nach."
 
@@ -1566,9 +1557,6 @@ msgstr "Gemieteter Stil für %s konnte nicht verlängert werden. Kaufen Sie den 
 
 msgid "serviceChannelMessages/autoRentStyleError"
 msgstr "Gemieteter Stil für %s konnte nicht verlängert werden. Unzureichende Geldmittel."
-
-msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
-msgstr "Gemieteter Stil für %s konnte nicht verlängert werden. Ihr Gold ist verfügbar, sobald die Funktion der WG Wallet wiederhergestellt wurde."
 
 msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
 msgstr "Mietzeitraum verlängern"
@@ -1596,9 +1584,6 @@ msgstr "%s konnte nicht repariert werden."
 
 msgid "serviceChannelMessages/autoRepairError"
 msgstr "Konnte Fahrzeug %s nicht reparieren. Nicht genug Krediteinheiten."
-
-msgid "serviceChannelMessages/autoRepairErrorNoWallet"
-msgstr "%s konnte nicht repariert werden. Ihr Gold ist wieder verfügbar, sobald die Funktionalität von WG Wallet automatisch wiederhergestellt wurde."
 
 msgid "serviceChannelMessages/autoRepairSkipped"
 msgstr "%s konnte nicht automatisch repariert werden. Reparieren Sie Ihr Fahrzeug manuell."

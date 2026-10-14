@@ -24,14 +24,24 @@ _COMP7_BONUS_TYPE_RANGE = (
 _TANK_SIZE_LOWER_BOUNDS = (
  float(b'-inf'), 5.0, 8.0)
 
+def _getReusable(battleResultsService, arenaUniqueID):
+    statsController = battleResultsService.getStatsCtrl(arenaUniqueID)
+    if statsController is None:
+        return
+    else:
+        battleResults = statsController.getResults()
+        if not battleResults:
+            return
+        return battleResults.reusable
+
+
 class Comp7PostBattleResultsEntryProto(PostBattleResultsEntryProto):
     STATE_ID = b'comp7/postBattleResultsEntry'
     __battleResults = dependency.descriptor(IBattleResultsService)
 
     def getSubhangarStateGroupConfig(self):
         arenaUniqueID = self._cachedParams.get(b'arenaUniqueID', None)
-        statsController = self.__battleResults.getStatsCtrl(arenaUniqueID)
-        _, reusable = statsController.getResults()
+        reusable = _getReusable(self.__battleResults, arenaUniqueID)
         teamResultType = SubhangarStateGroups.Comp7PostBattleDefeat
         if reusable:
             teamResult = reusable.getPersonalTeamResult()
@@ -60,10 +70,12 @@ class Comp7PostBattleResultsProto(PostBattleResultsProto):
     __battleResults = dependency.descriptor(IBattleResultsService)
 
     def getSubhangarStateGroupConfig(self):
-        _, reusable = self.__battleResults.getStatsCtrl(self._cachedParams.get(b'arenaUniqueID', None)).getResults()
-        geometryName = reusable.common.arenaType.getGeometryName()
-        mapImageName = getArenaImage(geometryName, b'screen')
-        mapImageName = mapImageName.replace(b'img://', b'')
+        arenaUniqueID = self._cachedParams.get(b'arenaUniqueID', None)
+        reusable = _getReusable(self.__battleResults, arenaUniqueID)
+        mapImageName = b''
+        if reusable:
+            geometryName = reusable.common.arenaType.getGeometryName()
+            mapImageName = getArenaImage(geometryName, b'screen').replace(b'img://', b'')
         return SubhangarStateGroupConfig((
          selectItemByTankSize(_TANK_SIZE_LOWER_BOUNDS, _COMP7_PBS_SUBHANGAR_GROUPS_BY_SIZE),
          SubhangarStateGroups.Comp7PostBattleCommon), PBSSceneSetup(mapImageName))

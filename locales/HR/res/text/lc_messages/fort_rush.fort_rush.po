@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Svi Blokovi podataka završeni!"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Blok podataka {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Zauzmite antene. Držite mrežu. Osigurajte prijenos."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "Režim će biti dostupan za"
+
+msgid "bannerTooltip/header"
+msgstr "Crni signal"
+
+msgid "bannerTooltip/mode"
+msgstr "REŽIM"
+
+msgid "bannerTooltip/modeHint"
+msgstr "-prebacivanje na drugi režim igre"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Performanse vašeg računala su nedovoljne za ovaj režim. Imat ćete poteškoća s grafikom i kretanjem vozila. Moguće je i rušenje klijenta igre."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "U slučaju nedovoljnih performansi, pokušajte umanjiti grafičke postavke."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Ovaj režim zahtjeva visoke performanse računala. Imat ćete poteškoća s učitavanjem mape, grafikom i kretanjem vozila. U slučaju nedovoljnih performansi, pokušajte s nižom kvalitetom grafike u postavkama."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Niske performanse"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Režim opterećuje računalo"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Umanjene performanse"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "Oporavljeno HP"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Bodovi službe"
+
+msgid "battleLoading/description"
+msgstr "Zauzmite antene. Držite mrežu. Osigurajte prijenos."
+
+msgid "battleLoading/header"
+msgstr "Crni signal"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "Zauzimanje antene obnavlja mali di HP-a vašeg vozila. Iskoristite ovaj bonus za držanje položaja i pripremu protunapada."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Osiguraj i obnovi"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "Antene se ne mogu zazueti dok su prisutna neprijateljska vozila. Pozabavite se svim uljezima kako biste nastavili osiguravati cilj."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Osporavano zauzimanje"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "Nakon razmještanja je vaše vozilo zaštićeno od štete 10 sekundi. Iskoristite to vrijeme za povratak u borbu ili u zaklon."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Zaštita razmještanja"
+
+msgid "battleQueue/title"
+msgstr "Crni signal"
+
+msgid "capturingIndicator/captured"
+msgstr "Antena je osvojena"
+
+msgid "capturingIndicator/capturing"
+msgstr "Osvajanje antene"
+
+msgid "capturingIndicator/contesting"
+msgstr "Osporavanje antene"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "Neutraliziranje antene"
+
+msgid "endGame/reason/210"
+msgstr "Oba tima su dosegla granicu bodova signala"
+
+msgid "endGame/reason/3"
+msgstr "Dosegnuto je vremensko ograničenje"
+
+msgid "endGame/reason/6/lose"
+msgstr "Neprijatelj je dosegnuo granicu bodova signala"
+
+msgid "endGame/reason/6/win"
+msgstr "Vaš tim je dosegnuo granicu bodova signala"
+
+msgid "endGame/reason/7"
+msgstr "Dosegnuto je vremensko ograničenje"
+
+msgid "notifications/progression/header"
+msgstr "Čestitamo!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Detalji"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Nagrade za završenje etape Napretka&nbsp;%(stageIdx)s: %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Svi blokovi podataka su završeni."
+
+msgid "progression/completedTitle"
+msgstr "Napredak završen!"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Preostalo vremena:"
+
+msgid "progression/dailyMissions/title"
+msgstr "Terenske zapovijedi"
+
+msgid "progression/description"
+msgstr "Izvršite dnevne zadatke u bitkama Crnog signala za napredovanje kroz napredak."
+
+msgid "progression/info_button/body"
+msgstr "Kliknite za dodatne informacije"
+
+msgid "progression/info_button/header"
+msgstr "O Crnom signalu"
+
+msgid "progression/widget/stageLabel"
+msgstr "Blok podataka %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Završili ste svaki Blok podataka!"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Izvršeno"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Nagrade Bloka podataka"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Trenutni Blok podataka"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "Dnevni zadatak se poništava za:"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Crni signal"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Trenutni napredak"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "Napredak je trenutno nedostupan."
+
+msgid "progression/widget/unavailable"
+msgstr "Napredak nedostupan"
+
+msgid "progressionView/stateHeader"
+msgstr "Napredak Crnog signala"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Odustani"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Vaš tim vas još uvijek treba! Ako napustite bitku vaš tim će biti u nepovoljnom položaju i nećete dobiti niti jedan bonus ili napredak zadatka."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Izađi"
+
+msgid "quitBattle/leaver/title"
+msgstr "Napuštate bitku"
+
+msgid "respawnTimer/description"
+msgstr "Drugačiji položaj razmještanja vam može dati stratešku prednost."
+
+msgid "respawnTimer/title"
+msgstr "Razmještanje za:"
+
+msgid "rewardScreen/button"
+msgstr "Razumijem!"
+
+msgid "rewardScreen/title"
+msgstr "Otključane nagrade Bloka podataka"
+
+msgid "timersPanel/invulnerable"
+msgstr "Neranjiv"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Osvojite Pakete podataka za kompletiranje Blokova podataka i dobijte vrijedne resurse, uključujuči značajnu nagradu. Paketi podataka se mogu osvojiti nanošenjem štete, uništavanjem neprijatelja u bitkama, osvajanjem bodova i izvršenjem dnevnih zadataka."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Paket podataka"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Sva vozila"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Poništi filtere"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Poništite filtere za pregled dostupnih vozila"
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "Ova igraća lista ne sadrži niti jedno prikladno vozilo za ovaj režim."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Nema prikladnih vozila"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Nisu pronađena odgovarajuća vozila"
+
+msgid "welcomeScreen/button"
+msgstr "Nastavi"
+
+msgid "welcomeScreen/description1"
+msgstr "Dio ste oklopne jedinice kojoj je naređeno osigurati i držati tajnu mrežu u spornoj zoni. Držite mrežu pod svojom kontrolom pod svaku cijenu."
+
+msgid "welcomeScreen/description2"
+msgstr "Netko se jako potrudio da sakrije ovu obavještajnu informaciju. Dovršite misije kako biste pronašli šifrirane fragmente."
+
+msgid "welcomeScreen/description3"
+msgstr "Završite Blokove podataka za primitak vrijednih nagrada iz zadataka akcije."
+
+msgid "welcomeScreen/header1"
+msgstr "Osvojite antene"
+
+msgid "welcomeScreen/header2"
+msgstr "Dekodirajte prijenos"
+
+msgid "welcomeScreen/header3"
+msgstr "Napredak i nagrade"
+
+msgid "welcomeScreen/title"
+msgstr "Crni signal"

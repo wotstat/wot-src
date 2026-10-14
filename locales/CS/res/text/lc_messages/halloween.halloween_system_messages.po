@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Bojová schopnost"
+
+msgid "make_choice/server_error"
+msgstr "Operace je dočasně nedostupná. Zkuste to později."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "NAVERBOVAT"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Naverbován"
+
+msgid "notification/crew_reward/title"
+msgstr "Odměna vyzvednuta"
+
+msgid "open_artefact/server_error"
+msgstr "Operace je dočasně nedostupná. Zkuste to později."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Získáno dešifrovacích klíčů: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Účtenka"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Dešifrovacích klíčů odebráno: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Dešifrování"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Nepodařilo se doplnit bojové schopnosti pro %s. Technická závada."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Nepodařilo se doplnit bojové schopnosti pro %s. Nedostatek prostředků."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Bojové schopnosti pro %s byly doplněny. Utratili jste "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Dešifrovací klíče získány"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Nahrávek dostupných k dešifrování:"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Režim: „Babylon: Temná věž“"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babylon: Temná věž (normální)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babylon: Temná věž (těžká)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babylon: Temná věž (noční můra)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Boss poražen"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Obtížnost"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normální"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Těžká"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Noční můra"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Fáze dokončeny: %(curPhase)s z %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Cíl dokončen!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Cíle dokončeny!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vozidlo"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Utraceno %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finanční transakce"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "V garáži Babylonu: Temná věž můžete zvolit úroveň obtížnosti."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Těžká obtížnost odemčena"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "V garáži Babylonu: Temná věž můžete zvolit úroveň obtížnosti."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Obtížnost Noční můra odemčena"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "Vozidlo %(vehicle)s je nyní dostupné pro bitvy Babylonu: Temná věž."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Bitvy v Babylonu: Temná věž jsou dočasně nedostupné.\nZkuste to později."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Bitvy v Babylonu: Temná věž (%(difficulty)s) jsou dočasně nedostupné.\nZkuste to později."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Babylon: Temná věž je dočasně nedostupný. Zkontrolujte herní portál pro aktualizace."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Velitel čety změnil obtížnost na: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Hráč %(userName)s neodemkl jednu z úrovní obtížnosti."

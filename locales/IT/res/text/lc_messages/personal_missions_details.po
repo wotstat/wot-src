@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Avanguardia-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Causa %(goal)s HP di danno a veicoli nemici che colpiscono il tuo veicolo"
+msgstr "Causa %(goal)s HP di danno ai veicoli nemici che hanno danneggiato il tuo veicolo"
 
 msgid "pm3_10_1_14_short"
 msgstr "Avanguardia-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Imboscata-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Causa %(goal)s HP di danno senza essere avvistato nel momento in cui causi il danno"
+msgstr "Causa %(goal)s HP di danno mentre non sei visibile ai nemici"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Distruggi un carro pesante nemico sparandogli, causando almeno %(damageDealt)s HP di danno"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Imboscata-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Causa danni %(hits)s volte a veicoli nemici non avvistati nel momento in cui causi il danno"
+msgstr "Causa danni a veicoli nemici che non ti sono visibili per %(hits)s volte"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Distruggi %(goal)s veicoli nemici di %(uniqueGoal)s tipi differenti"
@@ -4268,7 +4268,7 @@ msgid "pm3_10_3_14"
 msgstr "Assistenza-14"
 
 msgid "pm3_10_3_14_description_assist"
-msgstr "Consenti ai tuoi alleati di causare %(goal)s HP di danno a veicoli nemici da te avvistati. Devi rimanere nascosto nel momento in cui vengono causati i danni"
+msgstr "Consenti ai tuoi alleati di causare %(goal)s HP di danno ai veicoli nemici da te avvistati. Non devi essere visibile ai nemici quando vengono causati i danni"
 
 msgid "pm3_10_3_14_description_stunNumber"
 msgstr "Stordisci carri pesanti nemici %(goal)s volte"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Avanguardia-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Causa %(goal)s HP di danno a veicoli nemici che colpiscono il tuo veicolo"
+msgstr "Causa %(goal)s HP di danno ai veicoli nemici che hanno danneggiato il tuo veicolo"
 
 msgid "pm3_8_1_9_short"
 msgstr "Avanguardia-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Imboscata-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Causa %(goal)s HP di danno senza essere avvistato nel momento in cui causi il danno"
+msgstr "Causa %(goal)s HP di danno mentre non sei visibile ai nemici"
 
 msgid "pm3_8_2_9_short"
 msgstr "Imboscata-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Avanguardia-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Causa %(goal)s HP di danno a veicoli nemici che colpiscono il tuo veicolo"
+msgstr "Causa %(goal)s HP di danno ai veicoli nemici che hanno danneggiato il tuo veicolo"
 
 msgid "pm3_9_1_14_short"
 msgstr "Avanguardia-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Imboscata-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Causa %(goal)s HP di danno senza essere avvistato nel momento in cui causi il danno"
+msgstr "Causa %(goal)s HP di danno mentre non sei visibile ai nemici"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Distruggi un veicolo nemico, causandogli almeno %(damageDealt)s HP di danno"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Imboscata-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Causa %(damageDealt)s HP di danno a veicoli nemici non avvistati nel momento in cui causi il danno"
+msgstr "Causa %(damageDealt)s HP di danno a veicoli nemici che non ti sono visibili nel momento in cui causi il danno"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Distruggi %(goal)s veicoli nemici di %(uniqueGoal)s tipi differenti"
@@ -5684,7 +5684,7 @@ msgid "pm3_9_3_14"
 msgstr "Assistenza-14"
 
 msgid "pm3_9_3_14_description_assist"
-msgstr "Consenti ai tuoi alleati di causare %(goal)s HP di danno a veicoli nemici da te avvistati. Devi rimanere nascosto nel momento in cui vengono causati i danni"
+msgstr "Consenti ai tuoi alleati di causare %(goal)s HP di danno ai veicoli nemici da te avvistati. Non devi essere visibile ai nemici quando vengono causati i danni"
 
 msgid "pm3_9_3_14_description_stunTime"
 msgstr "Stordisci carri pesanti nemici per un totale di %(goal)s secondi. Viene conteggiata la durata dello stordimento potenziale"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Assistenza-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Causa %(damageDealt)s HP di danno a veicoli nemici non avvistati nel momento in cui causi il danno"
+msgstr "Causa %(damageDealt)s HP di danno a veicoli nemici che non ti sono visibili nel momento in cui causi il danno"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Distruggi %(goal)s A-SMV o carri leggeri nemici"

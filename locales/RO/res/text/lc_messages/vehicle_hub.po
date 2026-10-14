@@ -10,6 +10,9 @@ msgstr "Permite focul cu o serie de proiectile din casetă, unul câte unul, fie
 msgid "abilities/common/description/autoShootGun"
 msgstr "Trage rafale rapide de proiectile pentru a provoca daune mari în scurt timp, în dezavantajul penetrării și preciziei. Are eficiență maximă în lupta de aproape."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Activează accelerația pentru un forțaj temporar al puterii motorului, vitezei și manevrabilității, menținând controlul tunului. Acest lucru permite un joc agil și dinamic fără a compromite eficiența în luptă."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Trage proiectile cu secțiune în formă de stea, provocând daune maxime de la distanțe sub 50 m. Daunele proiectilelor scad o dată cu distanța, având eficiență maximă în lupta de aproape."
 
@@ -61,6 +64,9 @@ msgstr "Autoreîncărcător îmbunătățit"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Autotun"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Accelerația de luptă"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Tun puternic ghintuit"
 
@@ -102,6 +108,15 @@ msgstr "Modul turbo"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Modul de foc în salvă"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Crește manevrabilitatea fără a reduce caracteristicile tunului."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Sistemul permite focul continuu fără reîncărcare și controlează modul în care tunul generează căldură în timpul tragerii."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Tunul are dispozitive speciale care permit modificarea unor parametri ai proiectilului înainte de tragere."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Pe perioada cât rămâi staționar sau te deplasezi lent, aduni niveluri de precizie pentru a îmbunătăți precizia următoarei lovituri.\nLa nivelul maxim de precizie, obții manevrabilitate decentă a tunului, cu dispersie redusă chiar și din mișcare sau la rotirea turelei/carenei."
@@ -355,6 +370,15 @@ msgstr "Permite focul simultan cu ambele tunuri, cu prețul duratei crescute de 
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "O mecanică specială care crește puterea motorului, accelerația și vitezele maxime pe perioade scurte."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Activează accelerația pentru un forțaj temporar al puterii motorului, vitezei și manevrabilității, menținând controlul tunului. Acest lucru permite un joc agil și dinamic fără a compromite eficiența în luptă."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Tunul poate trage continuu fără a trebui să reîncarce. Fiecare lovitură generează căldură: cu cât mai înaltă e temperatura, cu atât mai mult se modifică parametrii tunului. Focul continuu va provoca supraîncălzirea tunului, împiedicând focul ulterior până la răcire."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Tunul vehiculului are dispozitive speciale care permit modificarea unor parametri ai proiectilului înainte de tragere. Configurația arată care parametri vor fi afectați prin schimbarea modurilor de tragere."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Păstrarea vehiculului staționar sau deplasându-se sub o anumită viteză îi permite vehiculului tău să-și calibreze Calculatorul balistic analogic și să adune niveluri de precizie, crescând acuratețea următoarei lovituri. Dacă depășești limita de viteză, progresul creșterii nivelurilor de precizie se întrerupe până când încetinești din nou. La nivelul maxim de precizie, vehiculul tău obține stabilizare decentă a tunului cu reducere a dispersiei la deplasare sau rotație a tunului sau carenei. Efectul este eliminat după foc."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "Această modificare mecanică crește semnificativ accelerația, puterea motorului și vitezele maxime de înaintare și marșarier pentru o scurtă perioadă, permițându-ți să reacționezi rapid față de atacurile inamice și să-i iei prin surprindere pe oponenți prin manevre dinamice. Menținerea vitezei ridicate de deplasare reduce perioada de refacere a mecanicii."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "Toate valorile afișate le reprezintă pe cele maxime pentru vehicul. Echipamentul, directivele și consumabilele pot modifica aceste valori, însă modificările nu sunt reflectate aici."
+msgstr "Toate valorile afișate le reprezintă pe cele optime pentru vehicul. Echipamentul, directivele și consumabilele pot modifica aceste valori, însă modificările nu sunt reflectate aici."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "Proiectil AP calibrabil"
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "credite pentru fiecare luptă"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "transfer de echipaje de pe orice clasă de vehicule fără penalizare"
+msgstr "transfer de echipaje de pe orice tip de vehicule fără penalizare"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "Experiență de luptă și Experiență de echipaj"

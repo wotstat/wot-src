@@ -1,0 +1,401 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/cooldown"
+msgstr "Χρόνος επαναφοράς: {{cooldown}} sec"
+
+msgid "ability/miriumCost"
+msgstr "Κόστος σε Mirium για να χρησιμοποιηθεί στη μάχη: {{value}}"
+
+msgid "ability/required"
+msgstr "({{required}} {{value}})"
+
+msgid "ability/use/label"
+msgstr "Όταν χρησιμοποιηθεί:"
+
+msgid "anomaliesEntryPoint/description"
+msgstr "Μόνιμες επιδράσεις στη μάχη"
+
+msgid "anomaliesEntryPoint/locked/body"
+msgstr "Για να ξεκλειδώσετε το Μεγάλο επίπεδο δυσκολίας και να αποκτήσετε πρόσβαση στα Anomaly Combos, ολοκληρώστε επιτυχώς το Κανονικό επίπεδο δυσκολίας."
+
+msgid "anomaliesEntryPoint/locked/header"
+msgstr "Anomaly Combos μη διαθέσιμα"
+
+msgid "anomaliesEntryPoint/receive/description"
+msgstr "Αυξάνουν την αποτελεσματικότητά σας στη μάχη και διατηρούνται από Φάση σε Φάση, ακόμη κι αν το όχημά σας καταστραφεί."
+
+msgid "anomaliesEntryPoint/receive/title"
+msgstr "Όταν αποκτηθούν:"
+
+msgid "anomaliesEntryPoint/title"
+msgstr "Anomalies"
+
+msgid "anomalyTooltip/type/epic"
+msgstr "Echo Anomaly"
+
+msgid "anomalyTooltip/type/pick_up"
+msgstr "Pick-Up Anomaly"
+
+msgid "anomalyTooltip/type/regular"
+msgstr "Basic Anomaly"
+
+msgid "anomalyTooltip/type/secret"
+msgstr "Secret Anomaly"
+
+msgid "anomalyTooltip/typeProperty/pick_up_1"
+msgstr "Μόνο από λάφυρα."
+
+msgid "anomalyTooltip/typeProperty/pick_up_2"
+msgstr "Χωρίς combos."
+
+msgid "anomalyTooltip/typeProperty/secret_1"
+msgstr "Δεν υπολογίζεται για την απονομή του μεταλλίου Anomaly Collector."
+
+msgid "bannerTooltip/available"
+msgstr "Διοργάνωση διαθέσιμη για %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — Είδος μαχών. Κλικ για περισσότερες πληροφορίες"
+
+msgid "bannerTooltip/description"
+msgstr "Ειδικές μάχες PvE που διεξάγονται στα έγκατα του κόσμου του μυστηριώδους Babylon Project. Μπείτε στη μάχη με 7 μοναδικά οχήματα για να αντιμετωπίσετε τις δυνάμεις του σκότους και να κερδίσετε τα αποκλειστικά έπαθλα!"
+
+msgid "bannerTooltip/header"
+msgstr "Babylon: Dark Tower"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Οι επιδόσεις του υπολογιστή σας δεν επαρκούν γι αυτήν τη λειτουργία. Θα έχετε προβλήματα με τα γραφικά και με την κίνηση των οχημάτων. Είναι πιθανό να κλείσει εντελώς ο client."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Αυτή η λειτουργία απαιτεί υπολογιστή υψηλών επιδόσεων. Θα έχετε προβλήματα με τη φόρτωση του χάρτη, τα γραφικά και την κίνηση των οχημάτων. Σε περίπτωση ανεπάρκειας, χαμηλώστε την ποιότητα των γραφικών από τις Ρυθμίσεις."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Χαμηλές Επιδόσεις"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Πιθανώς Μειωμένες Επιδόσεις"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Είναι ήδη στις Επαφές σας."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Αναμονή για επικύρωση της πρόσκλησης Επαφής."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Αφαίρεση από τη Μαύρη Λίστα."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Προσθήκη στις Επαφές."
+
+msgid "battleResult/interaction/menu"
+msgstr "Κλικ για να ανοίξετε το μενού αλληλεπίδρασης με αυτόν τον παίκτη."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Προσθήκη στον Ουλαμό."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Ήδη παίκτης του Ουλαμού."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Η πρόσκληση έχει αποσταλεί."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Μόνο ο Αρχηγός του Ουλαμού μπορεί να προσκαλέσει παίκτες."
+
+msgid "battleResult/secretReward/header"
+msgstr "Secret Reward"
+
+msgid "bonuses/hw_fake_choice_medal/body"
+msgstr "Θα λάβετε ένα ειδικό έπαθλο με βάση την επιλογή σας στο τέλος της διοργάνωσης."
+
+msgid "bonuses/hw_fake_choice_medal/header"
+msgstr "Ειδικό Βραβείο Διοργάνωσης"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Επαναφορά: %(cooldownSeconds)s sec"
+
+msgid "consumables/params/usageCost"
+msgstr "Κόστος σε Mirium: %(cost)s"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "{{icon}} Διαθεσιμότητα έως {{date}}"
+
+msgid "dailyQuests/rewards"
+msgstr "Έπαθλα:"
+
+msgid "dailyQuests/status"
+msgstr "Νέα ημερήσια αποστολή σε {{icon}} {{timer}}"
+
+msgid "groupVoiceover/body"
+msgstr "Τοποθετήστε και τα 4 μέλη πληρώματος της διοργάνωσης (%(crew_members_names)s) που έχουν τις δικές τους μοναδικές φωνές σε οποιοδήποτε όχημα (ένα από αυτά πρέπει να τοποθετηθεί ως αρχηγός πληρώματος) για να ενεργοποιήσετε τη δυναμική συνομιλία του πληρώματος μέσα στη μάχη.\nΣε οχήματα με περισσότερα μέλη πληρώματος, οι υπόλοιπες θέσεις μπορούν να συμπληρωθούν με οποιαδήποτε μέλη πληρώματος."
+
+msgid "groupVoiceover/header"
+msgstr "Δυναμική συνομιλία πληρώματος"
+
+msgid "hangar/objectiveBtn/body"
+msgstr "Ο Αντικειμενικός Στόχος για να ξεκλειδώσετε αυτό το όχημα έχει ήδη επιλεχθεί. Δείτε τις προϋποθέσεις εκπλήρωσης στην επάνω-δεξιά γωνία της οθόνης."
+
+msgid "hangar/objectiveBtn/header"
+msgstr "Αντικειμενικός Στόχος Επιλέχθηκε"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Επιλέξτε κάποιο διαθέσιμο όχημα για να μπείτε στη μάχη."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Μη Διαθεσιμότητα"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Μάχες προσωρινά μη διαθέσιμες για τεχνικούς λόγους."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Μη Διαθεσιμότητα"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Περιμένετε να βγει ο Ουλαμός από την προηγούμενη μάχη για να μπείτε σε νέα."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Μη Διαθεσιμότητα"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Μη συμβατό επίπεδο δυσκολίας για τον Ουλαμό."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Μη Διαθεσιμότητα"
+
+msgid "hw_bonus_crew_100/body"
+msgstr "Μοναδικό πλήρωμα 4 μελών."
+
+msgid "hw_bonus_crew_100/header"
+msgstr "Μοναδικό Πλήρωμα"
+
+msgid "keyCard/body"
+msgstr "Κλικ για να δείτε τους διαθέσιμους τρόπους απόκτησης του νομίσματος της διοργάνωσης."
+
+msgid "keys/accrued"
+msgstr "Απονεμήθηκαν:"
+
+msgid "keys/battles"
+msgstr "• Σε μάχες της διοργάνωσης"
+
+msgid "keys/body"
+msgstr "Ένα ειδικό νόμισμα για την αγορά μοναδικών αντικειμένων της διοργάνωσης «Babylon: Dark Tower», συμπεριλαμβανομένου και του μεγάλου επάθλου. Μπορείτε να τα κερδίσετε από μάχες της διοργάνωσης ή να τα αγοράσετε σε πακέτα προσφοράς. Λάβετε μέρος στη διοργάνωση, καταστρέψτε εχθρικά οχήματα και συλλέξτε όσο περισσότερη ύλη μπορείτε για να κερδίσετε Κλειδιά."
+
+msgid "keys/boss"
+msgstr "• Νίκες επί του Boss:"
+
+msgid "keys/bottom"
+msgstr "Μετά τη λήξη της διοργάνωσης στις %(date)s, τα εναπομείναντα Κλειδιά που θα έχετε στην κατοχή σας θα διαγραφούν."
+
+msgid "keys/bundles"
+msgstr "• Αγορά ειδικών πακέτων διοργάνωσης"
+
+msgid "keys/daily"
+msgstr "• Ημερήσια αποστολή οχήματος:"
+
+msgid "keys/effective"
+msgstr "• Επιδόσεις στη μάχη:"
+
+msgid "keys/gold"
+msgstr "• Αγορά για gold"
+
+msgid "keys/header"
+msgstr "Κλειδιά Αποκρυπτογράφησης"
+
+msgid "keys/howToEarn"
+msgstr "Πώς Να Τα Κερδίσετε"
+
+msgid "keys/howToUse"
+msgstr "Πως Χρησιμοποιούνται"
+
+msgid "keys/howToUseDescr"
+msgstr "Χρησιμοποιήστε Κλειδιά Αποκρυπτογράφησης και ξεκλειδώστε νέους Αντικειμενικούς Στόχους για να προχωρήστε στη διοργάνωση και να κερδίσετε το μεγάλο έπαθλο. Καταναλώνοντας ακόμη περισσότερα Κλειδιά μπορείτε να παραλείψετε Αντικειμενικούς Στόχους και να κερδίσετε τα έπαθλα γρηγορότερα."
+
+msgid "keys/inStock"
+msgstr "διαθέσιμα"
+
+msgid "keys/secret"
+msgstr "• Secret reward:"
+
+msgid "metaWidget/body"
+msgstr "Κλικ για προβολή όλων των Αντικειμενικών Στόχων και των επάθλων."
+
+msgid "metaWidget/decryptionDisabled/body"
+msgstr "Εκπληρώστε την προϋπόθεση μάχης αυτού του Αρχείου για να το αποκρυπτογραφήσετε. Δεν μπορείτε να το παραλείψετε."
+
+msgid "metaWidget/decryptionDisabled/header"
+msgstr "Αποκρυπτογράφηση Μη Διαθέσιμη"
+
+msgid "metaWidget/header"
+msgstr "ΔΙΑΔΡΟΜΗ ΕΠΑΘΛΩΝ"
+
+msgid "metaWidget/storyChoice/body"
+msgstr "Κλικ για να επιλέξετε το τέλος της ιστορίας. Η τελική επιλογή της κοινότητας των παικτών θα καθορίσει τις διοργανώσεις που θα ακολουθήσουν. Τσεκάρετε το portal του παιχνιδιού για ενημερώσεις."
+
+msgid "missionTooltip/bottom"
+msgstr "Αποκρυπτογραφήστε όλα τα Αρχεία (μπορείτε να παραλείψετε κάποιους Αντικειμενικούς Στόχους) για να προλάβετε να κερδίσετε το μεγάλο έπαθλο πριν τη λήξη της διοργάνωσης στις %(date)s."
+
+msgid "missionTooltip/completed"
+msgstr "Ο Αντικειμενικός Στόχος %(current)s επετεύχθη και σας απονεμήθηκαν τα έπαθλα"
+
+msgid "missionTooltip/count"
+msgstr "Αντικειμενικός Στόχος %(current)s από %(count)s"
+
+msgid "missionTooltip/decrypt"
+msgstr "Αποκρυπτογραφηση"
+
+msgid "missionTooltip/decryptAccess"
+msgstr "Εκπληρώστε τον Αντικειμενικό Στόχο για να ξεκλειδώσετε την αποκρυπτογράφηση."
+
+msgid "missionTooltip/kingReward"
+msgstr "Μεγάλο έπαθλο διοργάνωσης"
+
+msgid "missionTooltip/kingRewardReceive"
+msgstr "Το μεγάλο έπαθλο της διοργάνωσης απονεμήθηκε"
+
+msgid "missionTooltip/received"
+msgstr "Αντικειμενικός Στόχος %(current)s επετεύχθη, το Αρχείο δεν αποκρυπτογραφήθηκε"
+
+msgid "missionTooltip/rewards"
+msgstr "Εκπληρώστε τον Αντικειμενικό Στόχο για να κερδίσετε τα έπαθλα."
+
+msgid "missionTooltip/rewardsDecrypted"
+msgstr "Αποκρυπτογραφήστε το Αρχείο για να κερδίσετε τα έπαθλα."
+
+msgid "missionTooltip/skip"
+msgstr "Παραβλεψη"
+
+msgid "shopWidget/body"
+msgstr "Κλικ για να ανοίξετε τον ειδικό τομέα του Εφοδιασμού, όπου θα βρείτε αποκλειστικά αντικείμενα της διοργάνωσης."
+
+msgid "shopWidget/header"
+msgstr "Πακέτα Διοργάνωσης"
+
+msgid "teamList/actions/body"
+msgstr "Προσθέστε/Αφαιρέστε γρήγορα μέλη στον Ουλαμό σας."
+
+msgid "teamList/actions/header"
+msgstr "Γρήγορες Ενέργειες"
+
+msgid "teamList/anomalies/header"
+msgstr "Ενεργά Anomalies"
+
+msgid "teamList/bossDamage/body"
+msgstr "Ταξινόμηση με βάση τη φθορά στα εχθρικά οχήματα κατά τη διάρκεια της Φάσης 4 μόνο (εναντίον του Boss).\nΗ φθορά αυτή δεν υπολογίζεται στην απονομή των κυρίων επάθλων εάν η ομάδα δεν νικήσει το boss."
+
+msgid "teamList/bossDamage/bodyLose"
+msgstr "Η φθορά αυτή δεν υπολογίζεται στην απονομή των κυρίων επάθλων εφόσον η ομάδα δεν νίκησε το boss."
+
+msgid "teamList/bossDamage/header"
+msgstr "Φθορά Εναντίον Του Boss"
+
+msgid "teamList/damage/body"
+msgstr "Ταξινόμηση με βάση τη φθορά στις Φάσεις 1–3."
+
+msgid "teamList/damage/header"
+msgstr "Φθορά Σε Αντιπάλους"
+
+msgid "teamList/keys/body"
+msgstr "Ταξινόμηση με βάση τα κερδισμένα Κλειδιά (χωρίς να υπολογίζονται αυτά από τις ημερήσιες αποστολές)."
+
+msgid "teamList/keys/header"
+msgstr "Κερδισμένα Κλειδιά"
+
+msgid "teamList/kills/body"
+msgstr "Ταξινόμηση με βάση τις καταστροφές εχθρικών οχημάτων."
+
+msgid "teamList/kills/header"
+msgstr "Καταστροφές Εχθρικών Οχημάτων"
+
+msgid "teamList/name/header"
+msgstr "Όνομα παίκτη"
+
+msgid "teamList/place/body"
+msgstr "Ταξινόμηση με βάση τη θέση στην ομάδα."
+
+msgid "teamList/place/header"
+msgstr "Θέση Στην Ομάδα"
+
+msgid "teamList/squad/header"
+msgstr "Ο Ουλαμός είναι μια επιχειρησιακή μονάδα για συνεργασία των παικτών στη μάχη."
+
+msgid "teamList/vehicle/body"
+msgstr "Ταξινόμηση με βάση τον τύπο και το όνομα του οχήματος."
+
+msgid "teamList/vehicle/header"
+msgstr "Οχήματα"
+
+msgid "teamList/warned/body"
+msgstr "Δεν απονεμήθηκαν έπαθλα σε αυτόν τον παίκτη λόγω αδράνειας ή λιποταξίας."
+
+msgid "teamList/warned/header"
+msgstr "Προειδοποίηση"
+
+msgid "teamList/warned/self/body"
+msgstr "Σας έχει επιβληθεί ποινή για αδράνειας ή λιποταξία και δεν θα λάβετε έπαθλα από αυτή τη μάχη."
+
+msgid "teamList/warned/self/header"
+msgstr "Προειδοποίηση"
+
+msgid "vehicle/bonusTitle"
+msgstr "Κέρδη"
+
+msgid "vehicle/eventBonus"
+msgstr "Κερδίστε πρόσθετα Κλειδιά από την ολοκλήρωση ημερήσιων αποστολών με αυτό το όχημα."
+
+msgid "vehicle/state/default/title"
+msgstr "Έτοιμο για μάχη"
+
+msgid "vehicle/state/inBattle/title"
+msgstr "Σε μάχη"
+
+msgid "vehicle/state/inPlatoon/title"
+msgstr "Σε επιχειρησιακή μονάδα"
+
+msgid "vehicle/state/inQueue/title"
+msgstr "Σε αναμονή"
+
+msgid "vehicle/state/locked/title"
+msgstr "Κλειδωμένο"
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/description"
+msgstr "Γεμιστήρας 5-βλημάτων για να προκαλείτε γρήγορα τεράστια φθορά."
+
+msgid "vehicle/ttcType/france_F17_AMX_13_90_Halloween_event/title"
+msgstr "Πυροβόλο Με Γεμιστήρα"
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/description"
+msgstr "Σύστημα αυτόματης επαναγέμισης 3-βλημάτων που μειώνει τον χρόνο γέμισης των βλημάτων."
+
+msgid "vehicle/ttcType/italy_It19_Progetto_C50_mod_66_hw21/title"
+msgstr "Πυροβόλο Με Βελτιωμένη Αυτόματη Επαναγέμιση"
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/description"
+msgstr "Πυροβόλο με συνεχόμενη ρίψη πυρών."
+
+msgid "vehicle/ttcType/uk_GB123_GSOR_1006_v7_Halloween_event/title"
+msgstr "Αυτόματο Πυροβόλο"
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/description"
+msgstr "Αυξάνει την πιθανότητα κρίσιμων πληγμάτων σε εξαρτήματα εχθρικών οχημάτων."
+
+msgid "vehicle/ttcType/uk_GB24_Centurion_Mk3_Halloween_event/title"
+msgstr "Πυροβόλο Κρίσιμων Πληγμάτων"
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/description"
+msgstr "Πυροβόλο με βλήματα HE και αυτόματη επαναγέμιση 2-βλημάτων."
+
+msgid "vehicle/ttcType/usa_A100_T49_Halloween_event/title"
+msgstr "Πυροβόλο Με Αυτόματη Επαναγέμιση"
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/description"
+msgstr "Πυροβόλο με δυνατότητα ομοβροντίας και κυκλική ρίψη πυρών."
+
+msgid "vehicle/ttcType/ussr_R171_IS_3_II_hw21/title"
+msgstr "Διπλό Πυροβόλο"
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/description"
+msgstr "Πλήρης προστασία των εξαρτημάτων από κρίσιμη φθορά."
+
+msgid "vehicle/ttcType/ussr_R40_T_54_Halloween_event/title"
+msgstr "Αντίσταση Κρίσιμης Φθοράς"

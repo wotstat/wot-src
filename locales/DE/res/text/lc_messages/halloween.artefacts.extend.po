@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageShield/always"
+msgstr "?empty?"
+
+msgid "damageShield/descr"
+msgstr "Gewährt Unverwundbarkeit."
+
+msgid "damageShield/long_special"
+msgstr "Kampffähigkeit. Erzeugt einen Energieschild, der das Fahrzeug 7 s lang vor jeglichem Schaden außer Rammen, Versinken und Aufprall schützt. Die Fähigkeit wird verbraucht, wenn sie mindestens ein Mal im Gefecht genutzt wurde, und muss mit Kreditpunkten nachgeladen werden. Wenn sie nicht eingesetzt wurde, muss sie nicht nachgeladen werden.<br /><br />Nur während des Events „<font color='#cbac77'>Babylon: Dunkelturm</font>“ verfügbar.<br /><br />Sämtliche nicht verwendeten Fähigkeiten werden entfernt und im nächsten Update mit Kreditpunkten in Höhe von 50 % ihrer Kosten vergütet."
+
+msgid "damageShield/name"
+msgstr "Energieschild"
+
+msgid "damageShield/onUse"
+msgstr "Erzeugt einen Energieschild, der das Fahrzeug 7 s lang vor jeglichem Schaden außer Rammen, Versinken und Aufprall schützt."
+
+msgid "damageShield/restriction"
+msgstr "?empty?"
+
+msgid "damageShield/short_special"
+msgstr "Gewährt Unverwundbarkeit."
+
+msgid "fastReload/always"
+msgstr "?empty?"
+
+msgid "fastReload/descr"
+msgstr "Erhöht die Feuerrate / lädt das Magazin nach."
+
+msgid "fastReload/long_special"
+msgstr "Kampffähigkeit. Beschleunigt für kurze Zeit den Ladevorgang eines zyklischen Geschützes erheblich oder lädt das Magazin von Selbstladesystemen sofort nach. Die Fähigkeit wird verbraucht, wenn sie mindestens ein Mal im Gefecht genutzt wurde, und muss mit Kreditpunkten nachgeladen werden. Wenn sie nicht eingesetzt wurde, muss sie nicht nachgeladen werden.<br /><br />Nur während des Events „<font color='#cbac77'>Babylon: Dunkelturm</font>“ verfügbar.<br /><br />Sämtliche nicht verwendeten Fähigkeiten werden entfernt und im nächsten Update mit Kreditpunkten in Höhe von 50 % ihrer Kosten vergütet."
+
+msgid "fastReload/name"
+msgstr "Schnellladen"
+
+msgid "fastReload/onUse"
+msgstr "Beschleunigt für kurze Zeit den Ladevorgang eines zyklischen Geschützes erheblich oder lädt das Magazin von Selbstladesystemen sofort nach."
+
+msgid "fastReload/restriction"
+msgstr "?empty?"
+
+msgid "fastReload/short_special"
+msgstr "Erhöht die Feuerrate / lädt das Magazin nach."
+
+msgid "hpRepairAndCrewHeal/always"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/descr"
+msgstr "Stellt Strukturpunkte wieder her, löscht Brände, entfernt Betäubung und repariert beschädigte Module."
+
+msgid "hpRepairAndCrewHeal/long_special"
+msgstr "Kampffähigkeit. Stellt Strukturpunkte wieder her, löscht Brände, entfernt Betäubung und repariert beschädigte Module. Kann mehrmals in einem Gefecht eingesetzt werden. Wird entfernt, wenn es mindestens ein Mal im Gefecht genutzt wurde.<br /><br />Nur während des Events „<font color='#cbac77'>Projekt Babylon</font>“ verfügbar.<br /><br />Sämtliche nicht verwendeten Fähigkeiten werden entfernt und im nächsten Update mit Kreditpunkten in Höhe von 50 % ihrer Kosten vergütet."
+
+msgid "hpRepairAndCrewHeal/name"
+msgstr "Notreparatur"
+
+msgid "hpRepairAndCrewHeal/onUse"
+msgstr "• Stellt sofort 400 Strukturpunkte für das eigene Fahrzeug wieder her.\n• Stellt weitere 300 Strukturpunkte über 30 s wieder her.\n• Die Reparatur wird durch eingehenden Schaden unterbrochen.\n• Löscht Brände, entfernt Betäubung und repariert beschädigte Module.\n• Kann nur bei beschädigtem Fahrzeug aktiviert werden."
+
+msgid "hpRepairAndCrewHeal/restriction"
+msgstr "?empty?"
+
+msgid "hpRepairAndCrewHeal/short_special"
+msgstr "Stellt Strukturpunkte wieder her, löscht Brände, entfernt Betäubung und repariert beschädigte Module."
+
+msgid "hpRepairAndCrewHeal/usageCost"
+msgstr "• Kosten in Mirium für den Einsatz im Gefecht:"
+
+msgid "hwAbility/descr/usageCost"
+msgstr " \nKosten in Mirium: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "hwAbility/usageCost/default"
+msgstr "Kosten in Mirium für den Einsatz im Gefecht:"
+
+msgid "hwAoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/descr"
+msgstr "Feuert einen Schuss ab, der das Ziel und gegnerische Fahrzeuge in der Nähe beschädigt und betäubt."
+
+msgid "hwAoeDamageInstantShot/long_special"
+msgstr "Kampffähigkeit. Feuert einen Schuss ab, der das Ziel und alle gegnerischen Fahrzeuge in einem Radius von 35 m beschädigt und betäubt. Die Fähigkeit wird verbraucht, wenn sie mindestens ein Mal im Gefecht genutzt wurde, und muss mit Kreditpunkten nachgeladen werden. Wenn sie nicht eingesetzt wurde, muss sie nicht nachgeladen werden.<br/><br/>Nur während des Events „<font color='#cbac77'>Babylon: Dunkelturm</font>“ verfügbar.<br/><br/>Sämtliche nicht verwendeten Fähigkeiten werden entfernt und im nächsten Update mit Kreditpunkten in Höhe von 50 % ihrer Kosten vergütet."
+
+msgid "hwAoeDamageInstantShot/name"
+msgstr "Energieschuss"
+
+msgid "hwAoeDamageInstantShot/onUse"
+msgstr "Feuert einen Schuss ab, der das Ziel und alle gegnerischen Fahrzeuge in einem Radius von 35 m beschädigt und betäubt."
+
+msgid "hwAoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDamageInstantShot/short_special"
+msgstr "Feuert einen Schuss ab, der das Ziel und gegnerische Fahrzeuge in der Nähe beschädigt und betäubt."
+
+msgid "hwAoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/descr"
+msgstr "Feuert einen Schuss ab, der Strukturpunkte wiederherstellt, indem er sie dem Ziel und gegnerischen Fahrzeugen in der Nähe abzieht."
+
+msgid "hwAoeDrainEnemyHpInstantShot/long_special"
+msgstr "Kampffähigkeit. Feuert einen Schuss ab, der Strukturpunkte wiederherstellt, indem er sie dem Ziel und umliegenden gegnerischen Fahrzeugen in einem Radius von 35 m abzieht. Repariert auch beschädigte Module und entfernt den Betäubungseffekt. Die Fähigkeit wird verbraucht, wenn sie mindestens ein Mal im Gefecht genutzt wurde, und muss mit Kreditpunkten nachgeladen werden. Wenn sie nicht eingesetzt wurde, muss sie nicht nachgeladen werden.<br/><br/>Nur während des Events „<font color='#cbac77'>Babylon: Dunkelturm</font>“ verfügbar.<br/><br/>Sämtliche nicht verwendeten Fähigkeiten werden entfernt und im nächsten Update mit Kreditpunkten in Höhe von 50 % ihrer Kosten vergütet."
+
+msgid "hwAoeDrainEnemyHpInstantShot/name"
+msgstr "Vampirschuss"
+
+msgid "hwAoeDrainEnemyHpInstantShot/onUse"
+msgstr "Feuert einen Schuss ab, der Strukturpunkte wiederherstellt, indem er sie dem Ziel und umliegenden gegnerischen Fahrzeugen in einem Radius von 35 m abzieht. Repariert auch beschädigte Module und entfernt den Betäubungseffekt."
+
+msgid "hwAoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeDrainEnemyHpInstantShot/short_special"
+msgstr "Feuert einen Schuss ab, der Strukturpunkte wiederherstellt, indem er sie dem Ziel und gegnerischen Fahrzeugen in der Nähe abzieht."
+
+msgid "hwAoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/descr"
+msgstr "Feuert einen Schuss ab, der das Ziel und gegnerische Fahrzeuge in der Nähe betäubt."
+
+msgid "hwAoeStunInstantShot/long_special"
+msgstr "Kampffähigkeit. Feuert einen Schuss ab, der das Ziel und alle gegnerischen Fahrzeuge in einem Radius von 35 m betäubt. Kann mehrmals in einem Gefecht eingesetzt werden. Wird entfernt, wenn es mindestens ein Mal im Gefecht genutzt wurde.<br /><br />Nur während des Events „<font color='#cbac77'>Babylon: Dunkelturm</font>“ verfügbar.<br /><br />Sämtliche nicht verwendeten Fähigkeiten werden entfernt und im nächsten Update mit Kreditpunkten in Höhe von 50 % ihrer Kosten vergütet."
+
+msgid "hwAoeStunInstantShot/name"
+msgstr "Betäubungsschuss"
+
+msgid "hwAoeStunInstantShot/onUse"
+msgstr "Feuert einen Schuss ab, der das Ziel und alle gegnerischen Fahrzeuge in einem Radius von 35 m betäubt."
+
+msgid "hwAoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "hwAoeStunInstantShot/short_special"
+msgstr "Feuert einen Schuss ab, der das Ziel und gegnerische Fahrzeuge in der Nähe betäubt."
+
+msgid "hwInvisibility/always"
+msgstr "?empty?"
+
+msgid "hwInvisibility/descr"
+msgstr "Macht das eigene Fahrzeug für Gegner unsichtbar, stellt Strukturpunkte wieder her, repariert Module und löscht Brände."
+
+msgid "hwInvisibility/long_special"
+msgstr "Kampffähigkeit. Macht das eigene Fahrzeug 10 s lang für Gegner unsichtbar. Stellt 35 SP pro Sekunde wieder her, repariert Module, entfernt alle negativen Effekte und macht das Fahrzeug immun gegen Zersetzungsschaden. Feuern oder Erleiden von Schaden (durch Beschuss, Rammen oder Einsatz von Kampffähigkeiten) wird sofort die eigene Position enthüllen. Kann für die ersten 3 s ab Aktivierung nicht durch gegnerische Schüsse unterbrochen werden. Die Fähigkeit wird verbraucht, wenn sie mindestens ein Mal im Gefecht genutzt wurde, und muss mit Kreditpunkten nachgeladen werden. Wenn sie nicht eingesetzt wurde, muss sie nicht nachgeladen werden.<br/><br/>Nur während des Events „<font color='#cbac77'>Babylon: Dunkelturm</font>“ verfügbar.<br/><br/>Sämtliche nicht verwendeten Fähigkeiten werden entfernt und im nächsten Update mit Kreditpunkten in Höhe von 50 % ihrer Kosten vergütet."
+
+msgid "hwInvisibility/name"
+msgstr "Heimliche Reparaturen"
+
+msgid "hwInvisibility/onUse"
+msgstr "Macht das eigene Fahrzeug 10 s lang für Gegner unsichtbar. Stellt 35 SP pro Sekunde wieder her, repariert Module, entfernt alle negativen Effekte und macht das Fahrzeug immun gegen Zersetzungsschaden. Feuern oder Erleiden von Schaden (durch Beschuss, Rammen oder Einsatz von Kampffähigkeiten) wird sofort die eigene Position enthüllen. Kann für die ersten 3 s ab Aktivierung nicht durch gegnerische Schüsse unterbrochen werden."
+
+msgid "hwInvisibility/restriction"
+msgstr "?empty?"
+
+msgid "hwInvisibility/short_special"
+msgstr "Verbirgt Sie vor dem Gegner, stellt SP wieder her, repariert Module, löscht Brände, entfernt den Betäubungseffekt und versorgt alle verwundeten Besatzungsmitglieder."
+
+msgid "nitroRamDamage/always"
+msgstr "?empty?"
+
+msgid "nitroRamDamage/descr"
+msgstr "Beschleunigt das Fahrzeug für begrenzte Zeit\nund erhöht den verursachten Rammschaden."
+
+msgid "nitroRamDamage/name"
+msgstr "Turbolader"
+
+msgid "nitroRamDamage/onUse"
+msgstr "Steigert vorübergehend die Geschwindigkeit des Fahrzeugs und den durch Rammen verursachten Schaden."
+
+msgid "nitroRamDamage/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/always"
+msgstr "?empty?"
+
+msgid "teamRepairKit/descr"
+msgstr "Repariert und stellt bei verbündeten Fahrzeugen im Effektradius einige Strukturpunkte wieder her."
+
+msgid "teamRepairKit/long_special"
+msgstr "Kampffähigkeit. Repariert sofort Module, löscht Brände, entfernt Betäubung und stellt bei verbündeten Fahrzeugen im Effektradius einige Strukturpunkte wieder her. Die Fähigkeit wird verbraucht, wenn sie mindestens ein Mal im Gefecht genutzt wurde, und muss mit Kreditpunkten nachgeladen werden. Wenn sie nicht eingesetzt wurde, muss sie nicht nachgeladen werden.<br/><br />Nur während des Events „<font color='#cbac77'>Babylon: Dunkelturm</font>“ verfügbar.<br/><br/>Sämtliche nicht verwendeten Fähigkeiten werden entfernt und im nächsten Update mit Kreditpunkten in Höhe von 50 % ihrer Kosten vergütet."
+
+msgid "teamRepairKit/name"
+msgstr "Gruppenreparatur"
+
+msgid "teamRepairKit/onUse"
+msgstr "Repariert sofort Module, löscht Brände, entfernt Betäubung und stellt bei verbündeten Fahrzeugen im Effektradius einige Strukturpunkte wieder her."
+
+msgid "teamRepairKit/restriction"
+msgstr "?empty?"
+
+msgid "teamRepairKit/short_special"
+msgstr "Repariert und stellt bei verbündeten Fahrzeugen im Effektradius einige Strukturpunkte wieder her."

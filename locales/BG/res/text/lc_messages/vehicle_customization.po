@@ -145,25 +145,31 @@ msgstr "Елитен шлем"
 msgid "attachment/Challenger_s_Bounty/Cus_233_Challenges_Armor"
 msgstr "Изгарящ снаряд"
 
-msgid "attachment/Doomguys_Keepsakes"
+msgid "attachment/Dark_Tower_Trophies"
+msgstr "Трофеи от Тъмната кула"
+
+msgid "attachment/Dark_Tower_Trophies/Cus_290_HW_MagneticHarpoon"
+msgstr "Стазисен харпун"
+
+msgid "attachment/Doomgyus_Keepsakes"
 msgstr "Сувенири на Doomguy"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_309_Classic_HUD"
+msgid "attachment/Doomgyus_Keepsakes/Cus_309_Classic_HUD"
 msgstr "Класически HUD"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_309_Classic_HUD/description"
+msgid "attachment/Doomgyus_Keepsakes/Cus_309_Classic_HUD/description"
 msgstr "Живот, броня и една много решителна физиономия. Всичко, от което се нуждае един пехотинец, за да посрещне куп неканени гости и да ги взриви всичките."
 
-msgid "attachment/Doomguys_Keepsakes/Cus_310_DOOM_Ornament"
+msgid "attachment/Doomgyus_Keepsakes/Cus_310_DOOM_Ornament"
 msgstr "DOOM украса"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_311_Chaingun"
+msgid "attachment/Doomgyus_Keepsakes/Cus_311_Chaingun"
 msgstr "Картечница"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_312_Demon_Disposal_Kit"
+msgid "attachment/Doomgyus_Keepsakes/Cus_312_Demon_Disposal_Kit"
 msgstr "Комплект за неутрализиране на демони"
 
-msgid "attachment/Doomguys_Keepsakes/Cus_313_Marines_Stash"
+msgid "attachment/Doomgyus_Keepsakes/Cus_313_Marines_Stash"
 msgstr "Припаси на пехотинеца"
 
 msgid "attachment/Expedition_Essentials"
@@ -204,6 +210,18 @@ msgstr "Трофеен купол"
 
 msgid "attachment/Field_Salvage/Cus_238_LS_TrophyWheels"
 msgstr "Трофейни колела"
+
+msgid "attachment/Field_Salvage/Cus_289_HW_SpiderSpotlight"
+msgstr "Ехо оптика"
+
+msgid "attachment/Field_Salvage/Cus_291_HW_SpareBatteries"
+msgstr "Батерия за харпун"
+
+msgid "attachment/Field_Salvage/Cus_292_HW_PowerCollector"
+msgstr "Ултра-плътен колектор на мирий"
+
+msgid "attachment/Field_Salvage/Cus_293_HW_SpiderMines"
+msgstr "Мините на Монарха"
 
 msgid "attachment/Football_Fever"
 msgstr "Футболна треска"
@@ -390,6 +408,24 @@ msgstr "Лястовичо-опашата каня"
 
 msgid "attachment/Traditional_Toys/Cus_263_FCN_Tricycle"
 msgstr "Претъпкана триколка"
+
+msgid "attachment/Transmission_Tech"
+msgstr "Техник по трансмисиите"
+
+msgid "attachment/Transmission_Tech/Cus_314_Telemetry_Plotter"
+msgstr "Телеметричен регистратор"
+
+msgid "attachment/Transmission_Tech/Cus_315_Orbiter_Prototype"
+msgstr "Орбитален прототип"
+
+msgid "attachment/Transmission_Tech/Cus_316_EMP_Jammer"
+msgstr "ЕМИ заглушител"
+
+msgid "attachment/Transmission_Tech/Cus_317_Satellite_Tracker"
+msgstr "Проследител на спътници"
+
+msgid "attachment/Transmission_Tech/Cus_318_Encryption_Station"
+msgstr "Станция за криптиране"
 
 msgid "attachment/Zero_Legacy"
 msgstr "Наследството на Zero"
@@ -4855,6 +4891,9 @@ msgstr "?empty?"
 msgid "camouflage/fort/label"
 msgstr "Производствен ресурс"
 
+msgid "camouflage/fr26_style1/label"
+msgstr "Ловец на сигнали"
+
 msgid "camouflage/france/bicolor/Winter/description"
 msgstr "Зимна окраска, нанасяна на пленени френски машини, воюващи на страната на Оста на Източния фронт."
 
@@ -5298,6 +5337,12 @@ msgstr "Гимназия Яткосота"
 
 msgid "camouflage/girls_und_panzer_kabasan/label"
 msgstr "Team-Kabasan"
+
+msgid "camouflage/girls_und_panzer_leopon/label"
+msgstr "?empty?"
+
+msgid "camouflage/girls_und_panzer_team_leoponsan/label"
+msgstr "?empty?"
 
 msgid "camouflage/give_paw/description"
 msgstr "?empty?"
@@ -5931,6 +5976,18 @@ msgstr "?empty?"
 
 msgid "camouflage/lunar_ny_ox/label"
 msgstr "Бича кавалерия"
+
+msgid "camouflage/maneuvers_2026_1/label"
+msgstr "Черупката на Атлас"
+
+msgid "camouflage/maneuvers_2026_2/label"
+msgstr "Рогът на вестителя на войната"
+
+msgid "camouflage/maneuvers_2026_3/label"
+msgstr "Жилото на скорпиона"
+
+msgid "camouflage/maneuvers_2026_4/label"
+msgstr "Воалът на хамелеона"
 
 msgid "camouflage/manners/description"
 msgstr "?empty?"
@@ -8223,6 +8280,24 @@ msgstr "Команда на генерала"
 
 msgid "camouflage/wci2025_progressive_st3/label"
 msgstr "Удар на победата"
+
+msgid "camouflage/wci2026_progressive_st1/description"
+msgstr "Тъмен силует на феникс едва пробива през плочите на бронята – знак, че пътят към турнира тепърва започва. Това е базовият етап, достъпен за всички, които закупят стила."
+
+msgid "camouflage/wci2026_progressive_st1/label"
+msgstr "Феникс: Пробуждане"
+
+msgid "camouflage/wci2026_progressive_st2/description"
+msgstr "Сребристи линии се появяват върху тъмния метал, докато фениксът разгръща крилете си."
+
+msgid "camouflage/wci2026_progressive_st2/label"
+msgstr "Феникс: Възход"
+
+msgid "camouflage/wci2026_progressive_st3/description"
+msgstr "Фениксът се издига сред златни и виолетови пламъци – облик, достоен за шампион. Това е финалният етап на стила, предназначен за онези, които са извървели целия път и са извоювали победата."
+
+msgid "camouflage/wci2026_progressive_st3/label"
+msgstr "Феникс: Триумф"
 
 msgid "camouflage/wci_2024_1/description"
 msgstr "?empty?"
@@ -10984,6 +11059,9 @@ msgstr "+1 живот"
 msgid "emblem/cool/sticker_74"
 msgstr "Снежинка"
 
+msgid "emblem/cool/sticker_75"
+msgstr "?empty?"
+
 msgid "emblem/group1/animal_1"
 msgstr "Лъв"
 
@@ -13662,6 +13740,15 @@ msgstr "Денят на мача"
 
 msgid "emblem/special/sticker_884"
 msgstr "Кравуфлаж"
+
+msgid "emblem/special/sticker_886"
+msgstr "Ловец на сигнали"
+
+msgid "emblem/special/sticker_887"
+msgstr "Leopon"
+
+msgid "emblem/special/sticker_888"
+msgstr "WCI 2026"
 
 msgid "filter/popover/bonusType/title"
 msgstr "Видове бонуси"
@@ -16633,6 +16720,12 @@ msgstr "Опасност! Високо напрежение"
 msgid "inscription/special/special_885"
 msgstr "Почувствай мощта"
 
+msgid "inscription/special/special_886"
+msgstr "Излъчването е защитено"
+
+msgid "inscription/special/special_887"
+msgstr "Проверка на връзката"
+
 msgid "inscription/special/special_90"
 msgstr "Гранд финали 2017 Москва"
 
@@ -19564,6 +19657,9 @@ msgstr "Pin-up Kei"
 msgid "projection_decals/pin_up/projection_decal_72"
 msgstr "Пинъп Ервин"
 
+msgid "projection_decals/pin_up/projection_decal_73"
+msgstr "Pin-Up Nakajima"
+
 msgid "projection_decals/progression"
 msgstr "Етапни"
 
@@ -20107,17 +20203,41 @@ msgstr "Електрическо съзнание"
 msgid "projection_decals/special/projection_decal_1114"
 msgstr "Зелен призрак"
 
+msgid "projection_decals/special/projection_decal_1119"
+msgstr "Сателит"
+
 msgid "projection_decals/special/projection_decal_112"
 msgstr "Топ 10 на \"Битки за метал\""
 
 msgid "projection_decals/special/projection_decal_112/description"
 msgstr "Дава се на член на клана, завършил сред първите 10 клана в събитието \"Битки за метал\" на Глобалната карта."
 
+msgid "projection_decals/special/projection_decal_1120"
+msgstr "Сгъваемо ножче"
+
+msgid "projection_decals/special/projection_decal_1121"
+msgstr "Chibi-Nakajima"
+
+msgid "projection_decals/special/projection_decal_1122"
+msgstr "Въжена линия \"Ривърсайд\""
+
+msgid "projection_decals/special/projection_decal_1122/description"
+msgstr "Емблематичният лифт на града домакин, реещ се над реката. Препратка към мястото на събитието и изкачването към върха."
+
+msgid "projection_decals/special/projection_decal_1123"
+msgstr "Огнище"
+
+msgid "projection_decals/special/projection_decal_1123/description"
+msgstr "Кипящо, пикантно ястие тип \"хот-пот\" и готови за действие клечки – всичко е подготвено, за да се сподели вкусът на най-емблематичното ястие на града домакин."
+
 msgid "projection_decals/special/projection_decal_113"
 msgstr "Топ 100 на \"Битки за метал\""
 
 msgid "projection_decals/special/projection_decal_113/description"
 msgstr "Дава се на член на клана, завършил сред първите 100 клана в събитието \"Битки за метал\" на Глобалната карта."
+
+msgid "projection_decals/special/projection_decal_1135"
+msgstr "Турбокомпресор"
 
 msgid "projection_decals/special/projection_decal_114"
 msgstr "Участник в събитието \"Битки за метал\""
@@ -24415,6 +24535,9 @@ msgstr "Спрей боя"
 msgid "repaint/forged_flame"
 msgstr "Изкован в пламъка"
 
+msgid "repaint/fr26_style1"
+msgstr "Ловец на сигнали"
+
 msgid "repaint/france_base_color"
 msgstr "Френски базов цвят"
 
@@ -24517,11 +24640,17 @@ msgstr "Дървесна"
 msgid "repaint/girls_und_panzer_kabasan_style"
 msgstr "Team-Kabasan"
 
+msgid "repaint/girls_und_panzer_leopon"
+msgstr "?empty?"
+
 msgid "repaint/girls_und_panzer_rabbit"
 msgstr "Блатна"
 
 msgid "repaint/girls_und_panzer_saunders"
 msgstr "Училище на университета Сандерс"
+
+msgid "repaint/girls_und_panzer_team_leoponsan"
+msgstr "?empty?"
 
 msgid "repaint/girls_und_panzer_turtle"
 msgstr "Пясъчна"
@@ -26377,6 +26506,12 @@ msgstr "Кампфгрупа Schneide"
 msgid "special_style/G16_PzVIB_Tiger_II_3DSt_NEx_desc/long"
 msgstr "\"Имаме ли план Б? Огледай се, Курт. Виж какво правим през последната седмица. нашият славен боен път се състои от нощни курсове пеша за гориво. Тичаме от една унищожена машина до друга като плъхове, опитвайки се да съберем малко гориво в кофа, за да съживим този проклет танк. Търсим резервни части, работещо въоръжение, оборудване… Всичко, което може да пасне на този танк. За щастие тук има множество зарязани машини. Нощ на лов за гориво и части, после на следващия ден изминаваме няколко километра. Докато нещо не се развали или резервоарът за гориво не е отново празен. Вървим право напред. Без карти или радиостанция — просто се движим напред и се надяваме да намерим поне някой, който е от нашите. Кой ден сме, Курт? Къде е нашата кампфгрупа? Дали побеждаваме или не? Това ли е войната, за която сме се готвили? Разбира се, че не можеш да ми отговориш, скъпи ми приятелю. Сигурно си губя ума, щом отново говоря на счупената ти плочка.\n\nДали имаме план Б? Ние нямаме дори план А…\""
 
+msgid "special_style/G171_E77_HW26_3Dst"
+msgstr "Monarch"
+
+msgid "special_style/G171_E77_HW26_3Dst_desc/long"
+msgstr "\"Това проклето парче метал ме гледа право в очите!\n\nОптиката му блести, сякаш е разумна. Сякаш звярът диша под бронята си, докато мините, закрепени за корпуса му, потрепват с малките си крачета, готови да скочат. Какви мини, питате? Откъде са се появили? Добър въпрос. Момчетата са извадили този танк от някаква дълбока пукнатина в самата реалност. Казват, че е напълно безопасен и се управлява като сън. Да, точно така...\n\nНо не мога да се отърва от чувството, че тази машина е жива. И, по дяволите, искам да я пробвам в битка!\""
+
 msgid "special_style/G172_PzVIB_Tiger_II_DIT_3DSt"
 msgstr "Ерика"
 
@@ -26418,6 +26553,12 @@ msgstr "Team-Kabasan Standard"
 
 msgid "special_style/G191_StuG_IIIF_A_3Dst_desc/long"
 msgstr "След като откриват отдавна изгубен StuG III Ausf. F в езеро по време на търсене в Oarai Girls' High School, момичетата от Team-Kabasan работят усилено, за да го възстановят до предишната му слава. Машината някога е била украсена с пищни декорации, но оттогава е пребоядисана в практично полево сиво, което отразява по-големия опит на отбора в тактиките за прикритие и засади."
+
+msgid "special_style/G204_PzVI_Tiger_P_CFE_A_3Dst"
+msgstr "Tiger (P) Leoponsan"
+
+msgid "special_style/G204_PzVI_Tiger_P_CFE_A_3Dst_desc/long"
+msgstr "Pz.Kpfw. VI Ausf.P, по-известен като VK 45.01 (P) или Porsche Tiger, е един от най-необичайните немски тежки танкове. Той е оборудван с два двигателя с въздушно охлаждане Typ 101 и електрическа трансмисия. Заради сложната и ненадеждна силова установка машината така и не влиза в серийно производство, но благодарение на Oarai Girls' High School получава втори шанс за живот. Танкът е открит в трюма на училищния кораб и е възстановен от членовете на автомобилния клуб, които по-късно се превръщат и в неговия екипаж – Team-Leoponsan. Благодарение на инженерните си умения момичетата не само поддържат бойната готовност на своенравния Porsche Tiger, но и го модернизират, като го оборудват с устройства за краткотрайно ускорение."
 
 msgid "special_style/G42_Maus_BPXVIII_3Dst"
 msgstr "Айзенблик"
@@ -26475,6 +26616,12 @@ msgstr "Рейтар"
 
 msgid "special_style/G89_Leopard1_BVII_3DSt_desc/long"
 msgstr "\"Най-сетне! Две седмици ни държаха по казармите. Сега вече има някаква яснота! Нашата част не се занимава с нищо. Просто си седим тук и наблюдаваме тихата война на радистите и разшифровчиците. мисля, че радиограмите с нашите заповеди постоянно ги прихващат, после от щаба пускат в ефир дезинформация, но нея не я прихванали и нашите я помислили за истинска. После получихме отмяната. Или и тя беше прихваната? Ох, пълна каша... да умреш от скука. Както и да е, вече сме на поход и нещо ми подсказва, че изпращането на тежки танкове в градска среда... не е точно това, което очаквахме? Надявам се никой не осъзнава, че не съм сигурен кой щаб точно е изпратил тази заповед. Свикнал съм със сраженията по градски улици. Но има уловка: последния път бях кавалерист.\n\nEр айнц-нойн-зибен-нойн — край на съобщението.\""
+
+msgid "special_style/G89_Leopard1_KS_3Dst"
+msgstr "Automaton"
+
+msgid "special_style/G89_Leopard1_KS_3Dst_desc/long"
+msgstr "Макар и величествен за гледане, Automaton не претендира за елегантност. Той е колос на грубата сила – с бутала, удрящи като фабрични преси, и изпускателни отвори, бълващи дим като леярна. Роден в епохата на парата, той надживява изцапаните със сажди ръце, които са го създали, и засенчва стоманените мастодонти на съвременната война, които изглеждат бледи на фона на неговото величествено механично съвършенство. Той громи в битката редом с по-новите машини, а когато дизеловата какофония на боя най-после заглъхва, единствено равномерният, неуморен тропот на Automaton продължава да отеква."
 
 msgid "special_style/G89_Leopard1_WT24_Mini_Boss_3Dst"
 msgstr "EOS 1"
@@ -26559,6 +26706,12 @@ msgstr "Крал и държава"
 
 msgid "special_style/GB136_Churchill_BPXIV_3Dst_desc/long"
 msgstr "\"Честно казано, знаех малко за Франция преди войната. Манчестър е по-близо до Ирландия, отколкото до Франция. Баща ми обаче се е бил в Белгия. Не че говореше много за това. Странно е да си помисля как сме я наричали Великата война — единствената, сякаш никога не би могло да има друга като нея. Може би е наивно да се мисли така. Историята на човека е история на войната. И знаех, че когато дойде времето — когато дойде войната — ще имам своята роля в нея. Крал, родина, дълг, чест — в това ме възпитаха да вярвам и това ме учиха да защитавам. На всяка цена.\""
+
+msgid "special_style/GB142_FV230_Canopener_HW26_3Dst"
+msgstr "Харпунист"
+
+msgid "special_style/GB142_FV230_Canopener_HW26_3Dst_desc/long"
+msgstr "\"Вътре във всеки ехо-танк работи нещо като мириев реактор. Той държи материята във формата на танка. Когато врагът понесе достатъчно поражения, ядрото вече не може да поддържа тази форма и мирият се връща в течно състояние. В този момент няма какво повече да се изучава.\n\nНо успях да разработя специален вид боеприпаси. Принципът зад него е прост: веднага щом деактивираме танк, изстрелваме в него \"заредена гравитационна котва\". Котвата изключва мириевия реактор и запазва формата на ехо-танка, докато екипът за възстановяване успее да прехвърли образеца в стазисна камера. Капитан Смит все още едва се доверява на тази технология. Всяка сутрин слиза в хангара и прави обиколка, почуквайки с кокалчета по корпусите. Проверява ги. Притеснява се, че един ден някой от тях ще се събуди и ще ни поднесе много вълнуваща сутрин. Разбирам го. Но аз се доверявам на изчисленията си, а той на инстинктите си. Така стоят нещата.\""
 
 msgid "special_style/GB142_FV230_Canopener_KS_3Dst"
 msgstr "Twin Guardians"
@@ -26878,6 +27031,12 @@ msgstr "Ураган"
 msgid "special_style/Pl21_CS_63_OSP3_3DSt_desc/long"
 msgstr "Този полски среден танк е въплъщение на Пегас, митичният снежнобял кон с огромни крила. Този път нито Белерофонт, нито Зевс могат да го укротят и само на достойните ще им бъде позволено да го превърнат в свой верен боен спътник, готов да стигне до края на земята и да порази всеки, който се изпречи на пътя му."
 
+msgid "special_style/Pl27_SDP_Wz_66T_WCI_3Dst"
+msgstr "Dream Chaser"
+
+msgid "special_style/Pl27_SDP_Wz_66T_WCI_3Dst_desc/long"
+msgstr "Dream Chaser е посветен на всички, които приемат предизвикателствата и никога не спират да вървят напред. Всеки устрем е доказателство за безгранична страст и упоритост. Черни и златни пера на феникс се вият по стоманения му корпус – точно както непоколебимата вяра, пламтяща дълбоко в сърцето ти. Колкото и труден да е пътят, ще преодолееш изпитанията и ще се издигнеш към своя миг на слава."
+
 msgid "special_style/Pl29_NC_Wz_70T_BPXVI_3Dst"
 msgstr "Upał"
 
@@ -26958,6 +27117,12 @@ msgstr "Obsidian"
 
 msgid "special_style/R205_Tank_Rozanova_3Dst_HW23_desc/long"
 msgstr "„Вътре в танка беше открита бележка: „Излезте от машината, свалете противогаза и поемете дълбоко чист въздух...какво може да е по-добре? Казват, че след това няма връщане назад. Но няма значение. Ще се махна оттук и ще оставя танка като празна черупка. Ще взема силата на мирия в свои ръце и ще направя каквото трябва. Не тъжи за мен, Хоуп.\""
+
+msgid "special_style/R236_Object_265_II_HW26_3Dst"
+msgstr "Затъмнение"
+
+msgid "special_style/R236_Object_265_II_HW26_3Dst_desc/long"
+msgstr "Машината с кодово име \"Затъмнение\" е открита в Аномалията, във фаза близо до руините, известни като \"Тъмната кула\". Образецът е предаден на изследователския център \"Вавилон\" за щателно изследване от специалисти.\n\nМашината е оборудвана с експериментално устройство за потискане на широколентовия сигнал, захранвано от ултраплътен мирий. Според нашите данни, устройството е разработено от инженерите на експедицията, за да деактивира защитните системи на Тъмната кула. ​​Съдейки по следите, открити на мястото, танкът е участвал в последната битка при Кулата, за да неутрализира масивния механичен Спайдър, след което е бил изоставен. Екипажът на танка вероятно е бил евакуиран на борда на \"Мардук\", който след това е продължил експедицията дълбоко в Аномалията.\n\nДизайнът на \"Затъмнение\" е считан за изключително успешен: издръжлив и силно устойчив на враждебни условия на околната среда. След приключване на разследването военната комисия препоръчва машината да бъде върната в активна служба."
 
 msgid "special_style/R40_T-54_3Dst_HW20"
 msgstr "Малахит"
@@ -29527,6 +29692,15 @@ msgstr "Твърдище"
 msgid "special_style/fort_desc"
 msgstr "Всесезонен стил от Укрепление, посветен на кланове, които градят заедно — и печелят заедно."
 
+msgid "special_style/fr26_style1"
+msgstr "Ловец на сигнали"
+
+msgid "special_style/fr26_style1_desc"
+msgstr "Преодолейте еднообразието с този тактически стил, подходящ за всеки сезон."
+
+msgid "special_style/fr26_style1_desc/long"
+msgstr "Дневник на командира:\n\n\"Някой е там някъде и наша задача е да разберем кой. Засега разполагаме единствено със странен радиосигнал – кодиран със сложна шифровка и разделен на отделни части. Този, който го е изпратил, е положил огромни усилия, за да скрие... нещо. И каквото и да е то, едва ли вещае нещо добро.\n\nЗа да възстановим съобщението, трябва да овладеем и задържим ретранслаторните антени достатъчно дълго, че да запишем целия сигнал. Жалко, че не сме единствените, които го търсят. Приближава вражеска сила, също толкова решена да се добере до тази информация.\n\nНадпреварата започва.\""
+
 msgid "special_style/frontline_alliance"
 msgstr "Западен фронт"
 
@@ -29746,6 +29920,15 @@ msgstr "Всесезонен стил, носещ образа на извест
 msgid "special_style/girls_und_panzer_kabasan_desc/long"
 msgstr "Точно така! Тази закалена в битки банда ентусиасти на историята се стреми неуморно напред, черпейки от знанията си от векове на война, за да нанесе решителни удари на своите противници. Гордо носещи емблемата си с хипопотам, те удрят едновременно с опустошителна ефективност и безупречен стил, което ги прави страховити противници на всяко събитие на Sensha-Dō."
 
+msgid "special_style/girls_und_panzer_leopon"
+msgstr "Leopon"
+
+msgid "special_style/girls_und_panzer_leopon_desc"
+msgstr "Стил за всеки сезон, украсен с пухкавия талисман на Team-Leoponsan."
+
+msgid "special_style/girls_und_panzer_leopon_desc/long"
+msgstr "Team-Leoponsan е сформиран от ентусиастките по техника от автомобилния клуб на Oarai Girls' High School, които преди това са поддържали училищните танкове. Групата е известна със спокойния и непринуден нрав на своите членове, както и с характерните си оранжеви работни гащеризони. Точно както техният талисман с гордост демонстрира своята хибридна природа – леопонът е наполовина лъв, наполовина леопард, но същевременно е уникално създание само по себе си – така и момичетата съчетават двете си умения, инженерството и Sensha-Dō, постигайки впечатляващи резултати."
+
 msgid "special_style/girls_und_panzer_saunders"
 msgstr "Училище на университета Сандерс"
 
@@ -29754,6 +29937,15 @@ msgstr "Всесезонен стил с отличителните знаци �
 
 msgid "special_style/girls_und_panzer_saunders_desc/long"
 msgstr "Невероятно богатата Saunders University High School разполага с внушителен арсенал от американски танкове. Всъщност, единственото нещо, което огромният брой играчи на Sensha-Dō обичат толкова, колкото и да се хвалят с впечатляващата си флота от M4 Sherman, е да организират екстравагантни партита и да гледат как гостите им остават с отворени уста пред планините от бързо хранене, които им предлагат! Не бъркайте гостоприемството на тези момичета с кротост – тяхната стратегия се основава на превъзходство над противниците с числено предимство, което често изисква точни изстрели и проницателни тактики."
+
+msgid "special_style/girls_und_panzer_team_leoponsan"
+msgstr "Team-Leoponsan"
+
+msgid "special_style/girls_und_panzer_team_leoponsan_desc"
+msgstr "Модел за всеки сезон, носещ емблемата на ориентирания към техниката отбор Team-Leoponsan."
+
+msgid "special_style/girls_und_panzer_team_leoponsan_desc/long"
+msgstr "Team-Leoponsan е сформиран от запалените по техниката момичета от автомобилния клуб на Oarai Girls' High School, които преди това са поддържали училищните танкове. Те са известни както със своето непринудено поведение, така и с характерните си оранжеви гащеризони. Всичките четири момичета от отбора са талантливи механици, способни да върнат всяка машина в безупречно работно състояние и без колебание да извършват полеви ремонти по своя танк Tiger (P) дори по време на битка. Когато не се подготвят за поредния си двубой по Sensha-Dō, членовете на Team-Leoponsan обичат да се занимават с класически автомобили и дрифт състезания, преследвайки общата си мечта – един ден да участват в Гран при."
 
 msgid "special_style/give_paw"
 msgstr "Дай лапа"
@@ -30315,6 +30507,42 @@ msgstr "Всесезонен стил, посветен на меншен - бо
 
 msgid "special_style/lunar_ny_2025_3_desc/long"
 msgstr "Свирепи воини, които пазят портите и вратите, Меншен - или „боговете на вратите“ - са почитани фигури в китайския фолклор. Изобразявани със свирепи изражения и със страховити оръжия, тези божествени пазители се славят със способността си да отблъскват злите духове. По време на празненствата за Лунната нова година семействата украсяват вратите си с ярки цветни изображения на божествата, за да ги предпазят от негативни енергии и да ги благословят за мир, сигурност и просперитет през следващата година."
+
+msgid "special_style/maneuvers_2026_1"
+msgstr "Черупката на Атлас"
+
+msgid "special_style/maneuvers_2026_1_desc"
+msgstr "Като древен страж, устоявайте на всяко изпитание с този стоически стил, подходящ за всеки сезон."
+
+msgid "special_style/maneuvers_2026_1_desc/long"
+msgstr "Описвана като колос, носещ цял свят на гърба си, костенурката олицетворява непоколебима издръжливост. Нейната броня от наслоени плочи понася безмилостни удари, а всеки белег е като щрих върху необятно, митично платно. Като пазител, орисан да устои на невъзможното, тя не се колебае в изпълнението на своя дълг."
+
+msgid "special_style/maneuvers_2026_2"
+msgstr "Рогът на вестителя на войната"
+
+msgid "special_style/maneuvers_2026_2_desc"
+msgstr "Пробийте с мощна сила вражеските линии с този впечатляващ стил, подходящ за всеки сезон."
+
+msgid "special_style/maneuvers_2026_2_desc/long"
+msgstr "Неудържим и внушителен, връхлитащият звяр реве в лицето на съпротивата. Като жива лавина, този рогат колос помита всичко по пътя си сред какофония от необуздана агресия, оставяйки след себе си следа от опустошение, чиито последици се усещат дълго след като бойното поле утихне."
+
+msgid "special_style/maneuvers_2026_3"
+msgstr "Жилото на скорпиона"
+
+msgid "special_style/maneuvers_2026_3_desc"
+msgstr "Нанесете внезапен удар с този коварен стил, подходящ за всеки сезон."
+
+msgid "special_style/maneuvers_2026_3_desc/long"
+msgstr "Безшумен и пресметлив, скорпионът е създание с убийствена ефективност. Силата му не се крие в грубата мощ, а в свитата му опашка, чиято отрова нанася парещото жило на съдбата. Като хищник, спотаен под пясъка, той чака...\n\nИ тогава, за миг, битката вече е спечелена."
+
+msgid "special_style/maneuvers_2026_4"
+msgstr "Воалът на хамелеона"
+
+msgid "special_style/maneuvers_2026_4_desc"
+msgstr "Слейте се напълно с околната среда, а след това атакувайте внезапно – с този дискретен стил, подходящ за всеки сезон."
+
+msgid "special_style/maneuvers_2026_4_desc/long"
+msgstr "Хамелеонът е майстор на камуфлажа и адаптацията. Непрестанно променящ се, той убягва от погледа, сливайки се с околната среда точно както лишеят по кората на дървото. За този неуловим ловец изкуството на маскировката е неразривно свързано с изкуството на войната, тъй като най-смъртоносното оръжие е онова, което остава невидимо."
 
 msgid "special_style/manners"
 msgstr "Обноските правят човека"
@@ -32490,6 +32718,15 @@ msgstr "Тематичен прогресивен двуизмерен стил 
 
 msgid "special_style/wci2025_progressive_desc/long"
 msgstr "Епичните бойни сражения може да изглеждат далеч от интелектуалната дисциплина на сянци, но командването на танк изисква подобен вид методична прецизност. Изследваш терена като игрална дъска, проследявайки движенията на врага, за да позиционираш най-добре машината си. Подобно на гросмайстор, маневриращ с колесница, за да примамва коня или да прикрива генерала, твоите решения оформят хода на битката, както и огневата мощ, която притежаваш. Този стил отразява това майсторство, развивайки се през три отделни нива."
+
+msgid "special_style/wci2026_progressive"
+msgstr "Въздигащият се феникс"
+
+msgid "special_style/wci2026_progressive_desc"
+msgstr "Стил, който се развива в три етапа: мотивът на феникса преминава от фин силует към ярки линии, след което избухва в пламъци."
+
+msgid "special_style/wci2026_progressive_desc/long"
+msgstr "Създаден специално за турнира, този стил проследява образа на феникса през три отделни етапа. Той започва с фин силует, в който формата на птицата едва се долавя, след което става по-ярък, докато златни линии се разгръщат по бронята, преди накрая да разцъфне в сияние от златно и виолетово. Всеки етап представлява самостоятелна визия, като заедно те оформят една непрекъсната еволюция."
 
 msgid "special_style/wci_2024_1"
 msgstr "Упоритост"

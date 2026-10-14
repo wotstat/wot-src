@@ -1981,9 +1981,6 @@ msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Όχι α
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Όχι αρκετό gold για αγορά αναλώσιμων. Προσπαθήστε ξανά αργότερα."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Αδύνατος ο ανεφοδιασμός αναλώσιμων. Προσπαθήστε ξανά αργότερα."
 
@@ -1995,9 +1992,6 @@ msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Όχι α
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Όχι αρκετό gold για αγορά βλημάτων."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Το όχημα είναι κλειδωμένο."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "Το %(userString)s έχει ανακαλυφθεί. Κόστος σε Experience: %(unspentXP)s. Κόστος σε Free Experience: %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "τα Επίλεκτα Έπαθλα είναι πλέον διαθέσιμα για το %(vehicle)s"
+msgstr "Τα Επίλεκτα Έπαθλα είναι πλέον διαθέσιμα για το %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Επίλεκτα Έπαθλα"

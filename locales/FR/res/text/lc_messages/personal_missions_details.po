@@ -3782,7 +3782,7 @@ msgid "pm3_10_1_14"
 msgstr "Avant-garde-14"
 
 msgid "pm3_10_1_14_description_counterAttack"
-msgstr "Infliger %(goal)s PS de dégâts à des véhicules ennemis ayant touché votre véhicule"
+msgstr "Infliger %(goal)s PS de dégâts à des véhicules ennemis ayant endommagé votre véhicule"
 
 msgid "pm3_10_1_14_short"
 msgstr "Avant-garde-14"
@@ -4079,7 +4079,7 @@ msgid "pm3_10_2_3"
 msgstr "Embuscade-3"
 
 msgid "pm3_10_2_3_description_damage"
-msgstr "Infliger %(goal)s PS de dégâts sans vous faire repérer lorsque ces dégâts sont infligés"
+msgstr "Infliger %(goal)s PS de dégâts sans être repéré par les ennemis"
 
 msgid "pm3_10_2_3_description_killWithCausingDamage"
 msgstr "Détruire un char lourd ennemi en lui tirant dessus, en lui ayant infligé au moins %(damageDealt)s PS de dégâts"
@@ -4181,7 +4181,7 @@ msgid "pm3_10_2_9"
 msgstr "Embuscade-9"
 
 msgid "pm3_10_2_9_description_hitsBlindly"
-msgstr "Infliger %(hits)s fois des dégâts à des véhicules ennemis non repérés au moment où ces dégâts sont infligés"
+msgstr "Infliger des dégâts %(hits)s fois à des véhicules ennemis non repérés au moment où les dégâts sont infligés"
 
 msgid "pm3_10_2_9_description_killsDiversity"
 msgstr "Détruire %(goal)s véhicules ennemis de %(uniqueGoal)s types différents"
@@ -4673,7 +4673,7 @@ msgid "pm3_8_1_9"
 msgstr "Avant-garde-9"
 
 msgid "pm3_8_1_9_description_counterAttack"
-msgstr "Infliger %(goal)s PS de dégâts à des véhicules ennemis ayant touché votre véhicule"
+msgstr "Infliger %(goal)s PS de dégâts à des véhicules ennemis ayant endommagé votre véhicule"
 
 msgid "pm3_8_1_9_short"
 msgstr "Avant-garde-9"
@@ -4889,7 +4889,7 @@ msgid "pm3_8_2_9"
 msgstr "Embuscade-9"
 
 msgid "pm3_8_2_9_description_damage"
-msgstr "Infliger %(goal)s PS de dégâts sans vous faire repérer lorsque ces dégâts sont infligés"
+msgstr "Infliger %(goal)s PS de dégâts sans être repéré par les ennemis"
 
 msgid "pm3_8_2_9_short"
 msgstr "Embuscade-9"
@@ -5210,7 +5210,7 @@ msgid "pm3_9_1_14"
 msgstr "Avant-garde-14"
 
 msgid "pm3_9_1_14_description_counterAttack"
-msgstr "Infliger %(goal)s PS de dégâts à des véhicules ennemis ayant touché votre véhicule"
+msgstr "Infliger %(goal)s PS de dégâts à des véhicules ennemis ayant endommagé votre véhicule"
 
 msgid "pm3_9_1_14_short"
 msgstr "Avant-garde-14"
@@ -5519,7 +5519,7 @@ msgid "pm3_9_2_4"
 msgstr "Embuscade-4"
 
 msgid "pm3_9_2_4_description_damage"
-msgstr "Infliger %(goal)s PS de dégâts sans vous faire repérer lorsque ces dégâts sont infligés"
+msgstr "Infliger %(goal)s PS de dégâts sans être repéré par les ennemis"
 
 msgid "pm3_9_2_4_description_killWithCausingDamage"
 msgstr "Détruire un véhicule ennemi en lui ayant infligé au moins %(damageDealt)s PS de dégâts"
@@ -5555,7 +5555,7 @@ msgid "pm3_9_2_6"
 msgstr "Embuscade-6"
 
 msgid "pm3_9_2_6_description_damageCausedBlindly"
-msgstr "Infliger %(damageDealt)s PS de dégâts à des véhicules ennemis non repérés au moment où ces dégâts sont infligés"
+msgstr "Infliger %(damageDealt)s PS de dégâts à des véhicules ennemis non visibles pour vous au moment où ces dégâts sont infligés"
 
 msgid "pm3_9_2_6_description_killsDiversity"
 msgstr "Détruire %(goal)s véhicules ennemis de %(uniqueGoal)s types différents"
@@ -5843,7 +5843,7 @@ msgid "pm3_9_3_9"
 msgstr "Assistance-9"
 
 msgid "pm3_9_3_9_description_damageCausedBlindly"
-msgstr "Infliger %(damageDealt)s PS de dégâts à des véhicules ennemis non repérés au moment où ces dégâts sont infligés"
+msgstr "Infliger %(damageDealt)s PS de dégâts à des véhicules ennemis non visibles pour vous au moment où ces dégâts sont infligés"
 
 msgid "pm3_9_3_9_description_kills"
 msgstr "Détruire %(goal)s chars légers ou canons automoteurs ennemis"

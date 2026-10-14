@@ -1981,9 +1981,6 @@ msgstr "Pakalpojuma kļūda \"%(vehName)s\". Nepietiekamas bonas, lai pirktu pal
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr "Pakalpojuma kļūda \"%(vehName)s\". Nepietiekams zelts, lai pirktu palīgmateriālus. Mēģiniet vēlāk."
 
-msgid "layout_apply/EQS_NO_WALLET_SESSION"
-msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
-
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr "Pakalpojuma kļūda \"%(vehName)s\". Neizdodas atjaunot palīgmateriālus. Mēģiniet vēlāk."
 
@@ -1995,9 +1992,6 @@ msgstr "Pakalpojuma kļūda \"%(vehName)s\". Nepietiekami kredīti, lai pirktu �
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Pakalpojuma kļūda \"%(vehName)s\". Nepietiekams zelts, lai pirktu čaulītes."
-
-msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
-msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
 
 msgid "layout_apply/Vehicle is locked"
 msgstr "Pakalpojuma kļūda \"%(vehName)s\". Tanks ir slēgts."
@@ -4019,7 +4013,7 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr "%(userString)s izpētīts. Iztērēts no nesadalītās pieredzes %(unspentXP)s, no brīvās pieredzes %(freeXP)s."
 
 msgid "vehicleMilestones/vanityAvailable/text"
-msgstr "Elites atlīdzībās sistēma tagad pieejama šādiem tankiem: %(vehicle)s"
+msgstr "Elites balvu sistēma tagad ir pieejama %(vehicle)s."
 
 msgid "vehicleMilestones/vanityAvailable/title"
 msgstr "Elites atlīdzības"

@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-19 10:00+0100\nPO-Revision-Date: 2026-03-19 10:00+0100\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Tous les Blocs de données sont complets !"
+
+msgid "bannerTooltip/dataBlock"
+msgstr "Bloc de données {{level}}"
+
+msgid "bannerTooltip/description"
+msgstr "Prenez le contrôle des antennes. Défendez le réseau. Sécurisez la transmission."
+
+msgid "bannerTooltip/expiryDate/timerText"
+msgstr "Le mode sera disponible pendant"
+
+msgid "bannerTooltip/header"
+msgstr "Signal noir"
+
+msgid "bannerTooltip/mode"
+msgstr "MODE"
+
+msgid "bannerTooltip/modeHint"
+msgstr "- passage à un autre mode"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Les performances de votre ordinateur sont insuffisantes pour ce mode. Vous risquez de subir des problèmes graphiques et de déplacement de votre véhicule. Des plantages du client du jeu sont également probables."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "En cas de performances insuffisantes, tentez de baisser les paramètres graphiques."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Ce mode nécessite des performances élevées de l'ordinateur. Vous allez subir des problèmes avec le chargement des cartes, les graphismes et le déplacement du véhicule. Si les performances ne sont pas suffisantes, essayez de diminuer la qualité graphique dans les paramètres."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Faibles performances"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Ce mode est particulièrement gourmand"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Performances réduites"
+
+msgid "battleEfficiency/baseHeal"
+msgstr "Points de structure récupérés"
+
+msgid "battleEfficiency/personalPoints"
+msgstr "Score opérationnel"
+
+msgid "battleLoading/description"
+msgstr "Prenez le contrôle des antennes. Défendez le réseau. Sécurisez la transmission."
+
+msgid "battleLoading/header"
+msgstr "Signal noir"
+
+msgid "battleLoading/tips/tip01/description"
+msgstr "La capture d'une antenne restaure une petite quantité des PS de votre véhicule. Utilisez ce bonus pour tenir la position et vous préparer à la contre-attaque."
+
+msgid "battleLoading/tips/tip01/title"
+msgstr "Sécuriser et récupérer"
+
+msgid "battleLoading/tips/tip02/description"
+msgstr "Les antennes ne peuvent pas être capturées en présence de véhicules ennemis. Neutralisez les intrus pour continuer à sécuriser un objectif."
+
+msgid "battleLoading/tips/tip02/title"
+msgstr "Capture contestée"
+
+msgid "battleLoading/tips/tip03/description"
+msgstr "Après le redéploiement, votre véhicule est protégé des dégâts pendant 10 secondes. Utilisez ce temps pour retourner au combat ou vous mettre à couvert."
+
+msgid "battleLoading/tips/tip03/title"
+msgstr "Protection de redéploiement"
+
+msgid "battleQueue/title"
+msgstr "Signal noir"
+
+msgid "capturingIndicator/captured"
+msgstr "Antenne capturée"
+
+msgid "capturingIndicator/capturing"
+msgstr "Capture de l'antenne"
+
+msgid "capturingIndicator/contesting"
+msgstr "Antenne contestée"
+
+msgid "capturingIndicator/neutralizing"
+msgstr "Neutralisation de l'antenne"
+
+msgid "endGame/reason/210"
+msgstr "Les deux équipes ont atteint la limite de points de signal"
+
+msgid "endGame/reason/3"
+msgstr "Limite de temps atteinte"
+
+msgid "endGame/reason/6/lose"
+msgstr "L'ennemi a atteint la limite de points de signal"
+
+msgid "endGame/reason/6/win"
+msgstr "Votre équipe a atteint la limite de points de signal"
+
+msgid "endGame/reason/7"
+msgstr "Limite de temps atteinte"
+
+msgid "notifications/progression/header"
+msgstr "Félicitations !"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Détails"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Récompenses pour l'accomplissement de l'étape de Progression&nbsp;%(stageIdx)s : %(rewards)s"
+
+msgid "progression/completedDescription"
+msgstr "Tous les Blocs de données sont complets."
+
+msgid "progression/completedTitle"
+msgstr "Progression terminée !"
+
+msgid "progression/dailyMissions/timerLabel"
+msgstr "Temps restant :"
+
+msgid "progression/dailyMissions/title"
+msgstr "Ordres de campagne"
+
+msgid "progression/description"
+msgstr "Accomplissez des missions quotidiennes lors des batailles de Signal noir pour avancer dans la Progression."
+
+msgid "progression/info_button/body"
+msgstr "Cliquez pour en savoir davantage"
+
+msgid "progression/info_button/header"
+msgstr "À propos de Signal noir"
+
+msgid "progression/widget/stageLabel"
+msgstr "Données n° %(stage)s"
+
+msgid "progression/widget/stageProgress"
+msgstr "%(current)s / %(total)s"
+
+msgid "progression/widget/tooltip/allStagesCompleted"
+msgstr "Vous avez remplis tous les Blocs de données !"
+
+msgid "progression/widget/tooltip/completedLabel"
+msgstr "Complet"
+
+msgid "progression/widget/tooltip/rewardsHeader"
+msgstr "Récompenses du Bloc de données"
+
+msgid "progression/widget/tooltip/subtitle"
+msgstr "Bloc de données actuel"
+
+msgid "progression/widget/tooltip/timerLabel"
+msgstr "Réinitialisation des missions quoti dans :"
+
+msgid "progression/widget/tooltip/title"
+msgstr "Signal noir"
+
+msgid "progression/widget/tooltip/titleSubtitle"
+msgstr "Progression actuelle"
+
+msgid "progression/widget/tooltip/unavailable"
+msgstr "La Progression est temporairement indisponible."
+
+msgid "progression/widget/unavailable"
+msgstr "Progression indisponible"
+
+msgid "progressionView/stateHeader"
+msgstr "Progression de Signal noir"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Annuler"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Votre équipe a besoin de vous ! Si vous quittez la bataille, votre équipe sera désavantagée et vous ne recevrez aucun bonus ni ne progresserez dans les missions."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Quitter"
+
+msgid "quitBattle/leaver/title"
+msgstr "Vous quittez la bataille"
+
+msgid "respawnTimer/description"
+msgstr "Une position de redéploiement différente peut vous donner un avantage stratégique."
+
+msgid "respawnTimer/title"
+msgstr "Déploiement dans :"
+
+msgid "rewardScreen/button"
+msgstr "Affirmatif !"
+
+msgid "rewardScreen/title"
+msgstr "Récompenses du Bloc de données déverrouillées"
+
+msgid "timersPanel/invulnerable"
+msgstr "Invulnérable"
+
+msgid "tooltips/eventPoints/body"
+msgstr "Gagnez des Paquets de données pour remplir des Blocs de données et obtenir de précieuses ressources, y compris une récompense majeure. Les Paquets de données peuvent être gagnés en infligeant des dégâts, en détruisant des ennemis en bataille, en capturant des points et en accomplissant des missions quotidiennes."
+
+msgid "tooltips/eventPoints/header"
+msgstr "Paquet de données"
+
+msgid "vehicleSelector/allVehicles"
+msgstr "Tous les véhicules"
+
+msgid "vehicleSelector/noVehiclesAction"
+msgstr "Réinitialiser les filtres"
+
+msgid "vehicleSelector/noVehiclesDescription"
+msgstr "Réinitialisez les filtres pour voir les véhicules disponibles."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipBody"
+msgstr "Cette playlist ne contient aucun véhicule adéquat pour ce mode."
+
+msgid "vehicleSelector/noVehiclesInPlaylistTooltipHeading"
+msgstr "Aucun véhicule adéquat"
+
+msgid "vehicleSelector/noVehiclesTitle"
+msgstr "Aucun véhicule correspondant n'a été trouvé"
+
+msgid "welcomeScreen/button"
+msgstr "Continuer"
+
+msgid "welcomeScreen/description1"
+msgstr "Vous faites partie d'une force opérationnelle blindée qui a reçu l'ordre de sécuriser et de tenir un réseau secret à travers une zone contestée. Gardez le réseau sous votre contrôle à tout prix."
+
+msgid "welcomeScreen/description2"
+msgstr "Quelqu'un s'est donné beaucoup de mal pour garder ces renseignements secrets. Accomplissez des missions pour récupérer des fragments chiffrés."
+
+msgid "welcomeScreen/description3"
+msgstr "Remplissez les Blocs de données et recevez de précieuses récompenses des missions de l'évènement."
+
+msgid "welcomeScreen/header1"
+msgstr "Emparez-vous des Antennes"
+
+msgid "welcomeScreen/header2"
+msgstr "Décryptez la Transmission"
+
+msgid "welcomeScreen/header3"
+msgstr "Progression et récompenses"
+
+msgid "welcomeScreen/title"
+msgstr "Signal noir"

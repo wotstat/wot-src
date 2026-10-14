@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Корозія"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Шкода зоною"
+
+msgid "damageLog/static_death_zone"
+msgstr "Шкода зоною"
+
+msgid "damageShieldReady"
+msgstr "Енергетичний щит готовий до використання."
+
+msgid "fastReloadReady"
+msgstr "Швидке перезаряджання готове до використання."
+
+msgid "hitMarker/useless"
+msgstr "Марно!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Екстрений ремонт готовий до використання."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Енергетичний заряд готовий до використання."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Постріл вампіра готовий до використання."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Ударний заряд готовий до використання."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "для перегляду правил режиму"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Натисніть"
+
+msgid "hwInvisibilityReady"
+msgstr "Приховане зцілення готове до використання."
+
+msgid "nitroRamDamageReady"
+msgstr "Ривок готовий до використання."
+
+msgid "pickupSouls"
+msgstr "Ви зібрали %(souls)s од. миріуму"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Використання [%(name)s] неможливе: гармата пошкоджена."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Машина не пошкоджена."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Використання [%(name)s] неможливе: двигун знищено."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Використання [%(name)s] неможливе: недостатньо миріуму для активації вміння."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Використання [%(name)s] неможливе: машина горить."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Використання [%(name)s] неможливе: машина тоне."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Використання [%(name)s] неможливе: машина горить."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Використання [%(name)s] неможливе: машина перекинута."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Гармата заряджена."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "%(attacker)s знищує %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "%(attacker)s знищує %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "%(attacker)s знищує %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Союзника %(target)s знищено корозією."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Союзника %(target)s розчавив %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Союзника %(target)s знищено вибухом супротивника (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Союзник %(target)s розбився."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Союзника %(target)s знищено смертельною зоною."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Союзника %(target)s знищено аурою супротивника."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Союзника %(target)s знищено смертельною зоною."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Союзника %(target)s знищено."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Машину знищено Енергетичним ударом"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Машину знищено Пірокінезом"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Машину знищено Вампіризмом"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Машину знищено вибухом"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Машину знищено смертельною зоною"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Машину знищено аурою супротивника"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Машину знищено корозією"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Машину розбито"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Машину знищено розчавленням"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Машину знищено. Ви не дісталися Велета."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Машину знищено. Ви не здолали боса."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Машину знищено. Велет не заповнений."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Прилад [%(device)s] вибухнув після пострілу гравця"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Машину знищено пожежею"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Машину знищено пострілом супротивника"
+
+msgid "teamRepairKitReady"
+msgstr "Груповий ремонт готовий до використання."
+
+msgid "teamRepairKitUsed"
+msgstr "%(player)s активує Груповий ремонт."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Груповий ремонт активовано."

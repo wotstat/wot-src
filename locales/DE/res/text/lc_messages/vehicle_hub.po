@@ -10,6 +10,9 @@ msgstr "Erlaubt es, eine Reihe Granaten nacheinander abzufeuern, jede Granate wi
 msgid "abilities/common/description/autoShootGun"
 msgstr "Feuert Granaten in schnellen Salven und verursacht hohen Schaden in kurzer Zeit, auf Kosten von Durchschlagskraft und Genauigkeit. Am effektivsten im Nahkampf eingesetzt."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Aktivieren Sie die Beschleunigung für eine vorübergehende Verstärkung der Motorleistung, der Geschwindigkeit und der Manövrierfähigkeit, wobei die Geschützhandhabung weiterhin zuverlässig bleibt. Dies erlaubt gewandte, dynamische Spielzüge, ohne die Gefechtseffizienz zu beeinträchtigen."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Feuert Granaten mit Sterntreibspiegel ab, die auf eine Entfernung von bis zu 50 Metern maximalen Schaden verursachen. Auf höhere Distanz sinkt der Schaden der Granaten, daher werden sie am effektivsten im Nahkampf eingesetzt."
 
@@ -61,6 +64,9 @@ msgstr "Verbesserter Nachladeautomat"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Maschinenkanone"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Gefechtsbeschleunigung"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Tiefgezogenes Geschütz"
 
@@ -102,6 +108,15 @@ msgstr "Turbomodus"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Salvenfeuermodus"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Verstärkt die Manövrierfähigkeit, ohne die Geschützhandhabung zu beeinträchtigen."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Das System erlaubt kontinuierliches Feuer, ohne zwischen Schüssen nachzuladen, und kontrolliert die durch den Schuss erzeugte Hitze."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Das Geschütz besitzt besondere Vorrichtungen, mit denen die Eigenschaften der Granate vor dem Abfeuern modifiziert werden können."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Wenn Sie stehenbleiben oder sich nur langsam bewegen, steigt die Genauigkeitsstufe für den nächsten Schuss an.\nAuf höchster Stufe ist die Geschützhandhabung optimiert und die Streuung minimiert, selbst bei Bewegung oder Turm-/Wannendrehung."
@@ -355,6 +370,15 @@ msgstr "Erlaubt es auf Kosten einer höheren Nachladezeit, beide Geschütze glei
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Eine besondere Mechanik die kurzzeitig Motorleistung, Beschleunigung und Höchstgeschwindigkeit steigert."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Aktivieren Sie die Beschleunigung für eine vorübergehende Verstärkung der Motorleistung, der Geschwindigkeit und der Manövrierfähigkeit, wobei die Geschützhandhabung weiterhin zuverlässig bleibt. Dies erlaubt gewandte, dynamische Spielzüge, ohne die Gefechtseffizienz zu beeinträchtigen."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Dieses Geschütz kann kontinuierlich Feuern, ohne zwischen Schüssen nachzuladen. Jeder Schuss erwärmt dabei den Geschützlauf, je höher die Temperatur steigt, desto mehr leiden die Geschützwerte darunter. Dauerhaftes Feuer wird zum Überhitzen des Geschützes führen. Erneutes Feuern ist dann erst wieder möglich, nachdem das Geschütz abgekühlt ist."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Das Geschütz des Fahrzeugs besitzt besondere Vorrichtungen, mit denen die Eigenschaften der Granate vor dem Abfeuern modifiziert werden können. Die Munitionsladung zeigt an, welche Werte durch den Wechsel des Feuermodus beeinflusst werden."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Wenn Sie stehenbleiben oder sich unterhalb einer bestimmten Geschwindigkeit bewegen, kann Ihr Fahrzeug die analoge Ballistikberechnung kalibrieren und die Genauigkeitsstufe für den nächsten Schuss steigern. Wenn Sie die Geschwindigkeitsgrenze überschreiten, wird die Kalibrierung angehalten, bis Sie wieder langsamer werden. Wenn die Kalibrierung die höchste Stufe erreicht, erhält Ihr Fahrzeug gute Geschützstabilisierung und die Streuung bei Turm-/Wannendrehung ist verringert. Der Effekt wird durch das Feuern entfernt."
 
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "Kreditpunkte für jedes Gefecht"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "Besatzungstransfer von jeglichen Fahrzeugklassen ohne Malus"
+msgstr "Besatzungstransfer von jeglichem Fahrzeugtyp ohne Malus"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "Gefechtserfahrung und Besatzungserfahrung"

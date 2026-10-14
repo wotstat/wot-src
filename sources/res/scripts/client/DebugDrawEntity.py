@@ -65,7 +65,7 @@ class DebugDrawEntity(BigWorld.Entity):
                 state[b'version'] = drawObject[b'version']
                 objectsToUpdate.append((state, drawObject))
 
-        for key in self.objectStates.keys():
+        for key in list(self.objectStates):
             if key not in objectsPresent:
                 state = self.objectStates.pop(key)
                 for modelName, model, motor in state[b'models']:

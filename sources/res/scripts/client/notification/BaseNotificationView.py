@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from debug_utils import LOG_ERROR
 _NOT_ID_TUPLE_INDEX = 2
 
@@ -31,5 +32,6 @@ class BaseNotificationView(object):
     def _getNotificationID(self, flashId):
         if flashId in self.__flashIdToEntityIdMap:
             return self.__flashIdToEntityIdMap[flashId][_NOT_ID_TUPLE_INDEX]
-        LOG_ERROR(b'Wrong notification ScaleForm id', flashId)
-        return
+        else:
+            LOG_ERROR(b'Wrong notification ScaleForm id', flashId)
+            return

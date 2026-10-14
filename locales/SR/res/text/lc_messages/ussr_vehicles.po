@@ -283,6 +283,9 @@ msgstr "LTG poboljšan"
 msgid "Chassis_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
 
+msgid "Chassis_R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
+
 msgid "Chassis_R133_KV_122"
 msgstr "KV-122"
 
@@ -550,7 +553,13 @@ msgstr "SU-100I"
 msgid "Chassis_R228_KR_1"
 msgstr "KR-1"
 
+msgid "Chassis_R228_KR_1_7x7"
+msgstr "KR-1"
+
 msgid "Chassis_R230_Object_432U"
+msgstr "Object 432U"
+
+msgid "Chassis_R230_Object_432U_7x7"
 msgstr "Object 432U"
 
 msgid "Chassis_R231_Buryan"
@@ -564,6 +573,9 @@ msgstr "KB-52"
 
 msgid "Chassis_R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "Chassis_R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
 
 msgid "Chassis_R239_Object_Veles"
 msgstr "Veles"
@@ -898,6 +910,9 @@ msgstr "GMC 6046I"
 msgid "GTD_3T"
 msgstr "GTD-3T"
 
+msgid "GTD_3T_7x7"
+msgstr "GTD-3T"
+
 msgid "GTD_700P"
 msgstr "GTD-700P"
 
@@ -976,9 +991,6 @@ msgstr "Varjag"
 msgid "KV-13_descr"
 msgstr "KV-13 (Object 233) je SSSR eksperimentalni srednji tenk Drugog Svetskog Rata. Razvijan u Specijalnom Birou za Dizajniranje Kirov fabrike u Čelabinjsku od početka 1941 do kraja 1942. Vozilo je dizajnirano kao \"univerzalni tenk\" koji bi menjao i T-34 srednji tenk i KV teški tenk. Prvi prototip je izgradjen u proleće 1942. Testiranja su otkrila slabosti modula. Uz to, vozilo je bio potreban novi oklop i kupola za tri člana posade. Ipak, zahtevi su ispunjeni i razvoj dva poboljšana prototipa je počeo Decembra 1942, KV-13 srednji tenk projekat je napušten u korist T-34. Dva prototipa su kasnije upotrebljena za projekat masovne proivodnje IS-1 teškog tenka, razvijenog 1943."
 
-msgid "KV-2"
-msgstr "KV-2"
-
 msgid "KV-220"
 msgstr "KV-220-2"
 
@@ -1025,6 +1037,9 @@ msgid "KV_1"
 msgstr "KV-1"
 
 msgid "KV_2"
+msgstr "KV-2"
+
+msgid "KV_2_A"
 msgstr "KV-2"
 
 msgid "KV_descr"
@@ -1663,6 +1678,9 @@ msgstr "R-123M"
 msgid "R123U"
 msgstr "R-123U"
 
+msgid "R123_FR"
+msgstr "R-123"
+
 msgid "R123_K"
 msgstr "R-123K"
 
@@ -1809,6 +1827,15 @@ msgstr "LTG"
 
 msgid "R132_VNII_100LT"
 msgstr "T-100 LT"
+
+msgid "R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
+
+msgid "R132_VNII_100LT_FR_descr"
+msgstr "Projekat lakog tenka sa naoružanjem T-100. Zajednički razvijen u Istraživačkom institutu Br. 100 i u GSKB-47 (državnom specijalizovanom dizajnerskom birou) sredinom 1960-ih. Vozilo je imalo pristojan oklop koji je mogao da ga zaštiti od\n90-mm granata (u slučaju pogotka spreda) sa bilo koje razdaljine."
+
+msgid "R132_VNII_100LT_FR_short"
+msgstr "T-100 LT BS"
 
 msgid "R132_VNII_100LT_descr"
 msgstr "Projekat lakog tenka sa T-100 naoružanjem. Razvijan udruženim snagama u istraživačkom institutu #100 i u GSKB-47 (specijalni državni dizajnerski biro) sredinom šezdesetih. Vozilo je imalo pristojan oklop koji je mogao da zaštiti od pogodaka granata od 90mm (u slučaju frontalnog udara) na bilo kom rastojanju."
@@ -2794,6 +2821,18 @@ msgstr "Odlična probojnost, dobra šteta po hicu"
 msgid "R228_KR_1"
 msgstr "KR-1"
 
+msgid "R228_KR_1_7x7"
+msgstr "KR-1 7x7"
+
+msgid "R228_KR_1_7x7_descr"
+msgstr "Projekat teškog tenka sa ekstremnim parametrima, razvijen 1960. za borbu kada se koristi oružje za masovno uništenje. Konstruktori su u velikoj meri koristili sopstvena perspektivna rešenja za izgradnju tenkova tog vremena."
+
+msgid "R228_KR_1_7x7_long_special"
+msgstr "Klasični probojni teški tenk Sovjetske škole, KR-1 kombinuje odličnu mobilnost sa pouzdanim oklopom kako bi zauzeo ključne pozicije i naneo munjevite udare po neprijateljima koji ništa ne slute. Posebno je efikasan u bliskoj borbi, predvodi liniju fronta sa moćnim topom od 136 mm koji može da uništi svakoga ko mu se nađe na putu."
+
+msgid "R228_KR_1_7x7_short"
+msgstr "KR-1 7x7"
+
 msgid "R228_KR_1_descr"
 msgstr "Projekat teškog tenka sa ekstremnim parametrima, razvijen 1960. za borbu kada se koristi oružje za masovno uništenje. Konstruktori su u velikoj meri koristili sopstvena perspektivna rešenja za izgradnju tenkova tog vremena."
 
@@ -2805,6 +2844,18 @@ msgstr "KR-1"
 
 msgid "R230_Object_432U"
 msgstr "Object 432U"
+
+msgid "R230_Object_432U_7x7"
+msgstr "Object 432U 7x7"
+
+msgid "R230_Object_432U_7x7_descr"
+msgstr "Projekat ojačanog tenka koji je trebalo da značajno nadmaši neprijateljska vozila u pogledu zaštite i vatrene moći. Konstruktori su planirali da montiraju top sa visokim pritiskom unutar cevi, što bi omogućilo korišćenje napredne municije sa boljim performansama od alternativa tog vremena. Uvedena je komora za oslobađanje pritiska kako bi se omogućilo normalno korišćenje municije. Pored toga, tenk je dobio dodatni oklop za kupolu i trup, kao i protivHEAT ekrane. Razvoj se ispostavio preskupim i prekinut je u fazi preliminarnog projektovanja."
+
+msgid "R230_Object_432U_7x7_long_special"
+msgstr "Object 432U je srednji tenk koji udara snažno koji se najbolje oseća na prvoj liniji fronta. Sa pouzdanim oklopom i topom velikog kalibra, može samouvereno da se suprotstavi teškim tenkovima, ali je dovoljno mobilan da se premesti na ključna područja bojišta kada je to potrebno. Njegov potencijal vatrene moći takođe se može dodatno poboljšati kako bi se postigli razorni rezultati."
+
+msgid "R230_Object_432U_7x7_short"
+msgstr "Obj. 432U 7x7"
 
 msgid "R230_Object_432U_descr"
 msgstr "Projekat ojačanog tenka koji je trebalo da značajno nadmaši neprijateljska vozila u pogledu zaštite i vatrene moći. Konstruktori su planirali da montiraju top sa visokim pritiskom unutar cevi, što bi omogućilo korišćenje napredne municije sa boljim performansama od alternativa tog vremena. Uvedena je komora za oslobađanje pritiska kako bi se omogućilo normalno korišćenje municije. Pored toga, tenk je dobio dodatni oklop za kupolu i trup, kao i protiv HEAT ekrane. Razvoj se ispostavio preskupim i prekinut je u fazi preliminarnog projektovanja."
@@ -2877,6 +2928,21 @@ msgstr "Pouzdan oklop trupa i kupole, automatski punjač"
 
 msgid "R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
+
+msgid "R236_Object_265_II_CFE_A_descr"
+msgstr "Vozilo sa kodnim imenom \"Eclipse\" je otkriveno unutar anomalije, u fazi pored ruševina entiteta poznatog kao \"Mračni toranj\". Uzorak je otpremljen u Vavilon istraživački centar na detaljno ispitivanje stručnjaka.\n\nVozilo je opremljeno eksperimentalnim širokopojasnim prigušivačem signala koga pogoni super gusti Mirium. Prema našim podacima, uređaj su razvili inženjeri ekspedicije da onesposobe odbrambeni sisteme Mračnog tornja. Sudeći po tragovima pronađenim na mestu, tenk je učestvovao u finalnoj borbi kod tornja da se neutrališe masivni mehanički Pauk, nakon čega je napušten. Posada tenka je verovatno evakusina na Marduku, koji je potom nastavio ekspediciju dublje u anomaliju.\n\nDizajn Eclipse se čini izuzetno uspešnim: izdržljiv i veoma otporan na agresivene uslove okruženja. Nakon završetka istrage, vojna komisija je preporučila da vozilo bude vraćeno u aktivnu službu."
+
+msgid "R236_Object_265_II_CFE_A_long_special"
+msgstr "Eclipse je teški tenk IX nivoa. Vozilo kombinuje izuzetan oklop trupa i kupole sa dva topa od 122 mm. Njegov jak oklop mu dozvoljava da drži pozicije, dodatno podržan sa kupolom postavljenom pozadi, što čini taktiku košenja trupa lakšom. Dvostruki top nanosi masivnu štetu, naročito ako se upotrebi mehanika salve."
+
+msgid "R236_Object_265_II_CFE_A_short"
+msgstr "Eclipse"
+
+msgid "R236_Object_265_II_CFE_A_short_special"
+msgstr "Sistem dvocevnog topa, pouzdan oklop trupa i kupole"
 
 msgid "R236_Object_265_II_descr"
 msgstr "Dvocevna verzija projekta Object 265, razvijena u kasnim 1950-im. Njegova nekonvencijalna rešenja (upotreba novih kontrolnih sistema i smeštanje vozača u kupolu) su mu otežala pronalaženje mušterija. Kao rezultat, projekat je ugašen zbog premeštanja fokusa na modifikovanje T-10 (Object 730)."
@@ -3247,7 +3313,13 @@ msgstr "R-123B"
 msgid "R_123C"
 msgstr "R-123C"
 
+msgid "R_123C_7x7"
+msgstr "R-123C"
+
 msgid "R_123KR"
+msgstr "R-123KR"
+
+msgid "R_123KR_7x7"
 msgstr "R-123KR"
 
 msgid "R_123V"
@@ -3508,9 +3580,6 @@ msgstr "T-80"
 msgid "T80_descr"
 msgstr "Razvijan u periodu leto - jesen 1942. u konstrukcionom birou fabrike automobila Gorki pod rukovodstvom N.A. Astrova. Vozilo je ušlo u službu u decembru 1942. godine. Masovno je proizvedeno ukupno 85 vozila ovog tipa."
 
-msgid "TD-30"
-msgstr "M-50D"
-
 msgid "TD_12"
 msgstr "TD-12"
 
@@ -3519,6 +3588,9 @@ msgstr "TD-12"
 
 msgid "TD_30"
 msgstr "TD-30"
+
+msgid "TD_30_A"
+msgstr "M-50D"
 
 msgid "T_50_2"
 msgstr "T-50-2"
@@ -3705,6 +3777,9 @@ msgstr "LTG"
 
 msgid "Turret_1_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
+
+msgid "Turret_1_R132_VNII_100LT_FR"
+msgstr "T-100 LT BS"
 
 msgid "Turret_1_R133_KV_122"
 msgstr "KV-122"
@@ -3937,7 +4012,13 @@ msgstr "SU-100I"
 msgid "Turret_1_R228_KR_1"
 msgstr "KR-1"
 
+msgid "Turret_1_R228_KR_1_7x7"
+msgstr "KR-1"
+
 msgid "Turret_1_R230_Object_432U"
+msgstr "Object 432U"
+
+msgid "Turret_1_R230_Object_432U_7x7"
 msgstr "Object 432U"
 
 msgid "Turret_1_R231_Buryan"
@@ -3954,6 +4035,9 @@ msgstr "KB-52"
 
 msgid "Turret_1_R236_Object_265_II"
 msgstr "Object 265-II"
+
+msgid "Turret_1_R236_Object_265_II_CFE_A"
+msgstr "Eclipse"
 
 msgid "Turret_1_R239_Object_Veles"
 msgstr "Veles"
@@ -4258,6 +4342,9 @@ msgstr "IS-7"
 msgid "UTD_20"
 msgstr "UTD-20"
 
+msgid "UTD_20_FR"
+msgstr "UTD-20"
+
 msgid "UTD_45A"
 msgstr "UTD-45A"
 
@@ -4266,9 +4353,6 @@ msgstr "UTD-50M1 Barnaulskiy"
 
 msgid "V-11"
 msgstr "V-11"
-
-msgid "V-11-IS-3"
-msgstr "V-11-IS-3"
 
 msgid "V-11-IS-3_S"
 msgstr "V-11-IS-3A"
@@ -4296,9 +4380,6 @@ msgstr "V-12 A"
 
 msgid "V-12V"
 msgstr "V-12 V"
-
-msgid "V-14"
-msgstr "V-14"
 
 msgid "V-16FN"
 msgstr "V-16FN"
@@ -4350,9 +4431,6 @@ msgstr "V-2-10 forced"
 
 msgid "V-2IS_R_CN"
 msgstr "V-2-10 C"
-
-msgid "V-2K"
-msgstr "V-2K"
 
 msgid "V-2KT"
 msgstr "V-2SN"
@@ -4408,6 +4486,9 @@ msgstr "V-11 (704)"
 msgid "V_11_IS_3"
 msgstr "V-11 (IS-3)"
 
+msgid "V_11_IS_3_A"
+msgstr "V-11-IS-3"
+
 msgid "V_11_Kirovets_1"
 msgstr "V-11-Kirovets-1"
 
@@ -4439,6 +4520,9 @@ msgid "V_12_5B"
 msgstr "V-12-5B"
 
 msgid "V_12_5C"
+msgstr "V-12-5C"
+
+msgid "V_12_5C_CFE_A"
 msgstr "V-12-5C"
 
 msgid "V_12_5F"
@@ -4477,6 +4561,9 @@ msgstr "V-14"
 msgid "V_14UM"
 msgstr "V-14M"
 
+msgid "V_14_A"
+msgstr "V-14"
+
 msgid "V_16"
 msgstr "V-16"
 
@@ -4499,6 +4586,9 @@ msgid "V_2IS_SU"
 msgstr "V-2IS (SU)"
 
 msgid "V_2K"
+msgstr "V-2K"
+
+msgid "V_2K1"
 msgstr "V-2K"
 
 msgid "V_2K_KV_1"
@@ -4759,13 +4849,22 @@ msgstr "3UOF (LM)"
 msgid "_100mm_3VBB"
 msgstr "3VBB"
 
+msgid "_100mm_3VBB_FR"
+msgstr "3VBB"
+
 msgid "_100mm_3VBM"
 msgstr "3VBM"
 
 msgid "_100mm_3VBM2_SH"
 msgstr "3VBM-2"
 
+msgid "_100mm_3VBM_FR"
+msgstr "3VBM"
+
 msgid "_100mm_3VOF"
+msgstr "3VOF"
+
+msgid "_100mm_3VOF_FR"
 msgstr "3VOF"
 
 msgid "_100mm_BR-412A"
@@ -4880,6 +4979,9 @@ msgid "_100mm_S_34D_IS_2_II"
 msgstr "100 mm S-34D (IS-2-II)"
 
 msgid "_100mm_T_100"
+msgstr "100 mm T-100"
+
+msgid "_100mm_T_100_FR"
 msgstr "100 mm T-100"
 
 msgid "_100mm_T_12A"
@@ -5311,14 +5413,14 @@ msgstr "10RK-DV"
 msgid "_10RK_W"
 msgstr "10RK"
 
-msgid "_10RT-26E"
-msgstr "10RT-26"
-
 msgid "_10RT-26M"
 msgstr "10RT-26M"
 
 msgid "_10RT_26E"
 msgstr "10RT-26E"
+
+msgid "_10RT_26E1"
+msgstr "10RT-26"
 
 msgid "_12.7mm_AP_B32"
 msgstr "B-32"
@@ -5482,6 +5584,9 @@ msgstr "122 mm BL-13"
 msgid "_122mm_BL_13D_dualgun"
 msgstr "122 mm BL-13D-SD"
 
+msgid "_122mm_BL_13D_dualgun_CFE_A"
+msgstr "122 mm BL-13D-SD"
+
 msgid "_122mm_BL_13_1_257"
 msgstr "122 mm BL-13-1 (257)"
 
@@ -5533,6 +5638,9 @@ msgstr "BP-460A (KV-1S)"
 msgid "_122mm_BP_471BMM"
 msgstr "BP 471BMM"
 
+msgid "_122mm_BP_471BMM_CFE_A"
+msgstr "BP 471BMM"
+
 msgid "_122mm_BP_471D"
 msgstr "BP-471D"
 
@@ -5543,6 +5651,9 @@ msgid "_122mm_BR-471D_P"
 msgstr "BR-471DP"
 
 msgid "_122mm_BR_471BMM"
+msgstr "BR 471BMM"
+
+msgid "_122mm_BR_471BMM_CFE_A"
 msgstr "BR 471BMM"
 
 msgid "_122mm_BR_471DS_SU"
@@ -5729,6 +5840,9 @@ msgid "_122mm_OF_462"
 msgstr "OF-462"
 
 msgid "_122mm_OF_471BMM"
+msgstr "OF 471BMM"
+
+msgid "_122mm_OF_471BMM_CFE_A"
 msgstr "OF 471BMM"
 
 msgid "_122mm_S34_II"
@@ -5992,13 +6106,25 @@ msgstr "122 mm Howitzer mod. 1910/1930"
 msgid "_125mm_3BK7_61"
 msgstr "3BK7-61"
 
+msgid "_125mm_3BK7_61_7x7"
+msgstr "3BK7-61"
+
 msgid "_125mm_3BM9_61"
+msgstr "3BM9-61"
+
+msgid "_125mm_3BM9_61_7x7"
 msgstr "3BM9-61"
 
 msgid "_125mm_3OF22_61"
 msgstr "3OF22-61"
 
+msgid "_125mm_3OF22_61_7x7"
+msgstr "3OF22-61"
+
 msgid "_125mm_D_181"
+msgstr "125 mm D-181"
+
+msgid "_125mm_D_181_7x7"
 msgstr "125 mm D-181"
 
 msgid "_12LL"
@@ -6008,6 +6134,9 @@ msgid "_12RT"
 msgstr "12RT"
 
 msgid "_12RT_B"
+msgstr "12RT-B"
+
+msgid "_12RT_B_CFE_A"
 msgstr "12RT-B"
 
 msgid "_12RT_Roz"
@@ -6211,13 +6340,25 @@ msgstr "ZBK60M"
 msgid "_136mm_BK_79"
 msgstr "BK-79"
 
+msgid "_136mm_BK_79_7x7"
+msgstr "BK-79"
+
 msgid "_136mm_BR_79"
+msgstr "BR-79"
+
+msgid "_136mm_BR_79_7x7"
 msgstr "BR-79"
 
 msgid "_136mm_D_79"
 msgstr "136 mm D-79"
 
+msgid "_136mm_D_79_7x7"
+msgstr "136 mm D-79"
+
 msgid "_136mm_OF_79"
+msgstr "OF-79"
+
+msgid "_136mm_OF_79_7x7"
 msgstr "OF-79"
 
 msgid "_140mm_BR_482A"
@@ -6844,9 +6985,6 @@ msgstr "UBR-243SP (T-70)"
 msgid "_45mm_UOF-240A"
 msgstr "UOF-240A"
 
-msgid "_45mm_UOF-243"
-msgstr "UOF-243"
-
 msgid "_45mm_UOF-243U"
 msgstr "UOF-243U"
 
@@ -6869,6 +7007,9 @@ msgid "_45mm_UOF_240A_T_70"
 msgstr "UOF-240A (T-70)"
 
 msgid "_45mm_UOF_243"
+msgstr "UOF-243"
+
+msgid "_45mm_UOF_243_A"
 msgstr "UOF-243"
 
 msgid "_45mm_UOF_243_A_20"
@@ -7039,6 +7180,9 @@ msgstr "5TDF-SM"
 msgid "_5TD_2"
 msgstr "5TD-2"
 
+msgid "_5TD_2_7x7"
+msgstr "5TD-2"
+
 msgid "_6TD"
 msgstr "6TD"
 
@@ -7087,10 +7231,10 @@ msgstr "BP-354IT"
 msgid "_76mm_BP_350A_T_28"
 msgstr "BP-350A (T-28)"
 
-msgid "_76mm_BR-350A"
+msgid "_76mm_BR_350A"
 msgstr "BR-350A"
 
-msgid "_76mm_BR_350A"
+msgid "_76mm_BR_350A1"
 msgstr "BR-350A"
 
 msgid "_76mm_BR_350A_1"
@@ -7102,13 +7246,13 @@ msgstr "BR-350A"
 msgid "_76mm_BR_350_P_T"
 msgstr "BP-354 T"
 
-msgid "_76mm_F-32"
-msgstr "76 mm F-32"
-
 msgid "_76mm_F-34S_A"
 msgstr "76 mm S-1"
 
 msgid "_76mm_F_32"
+msgstr "76 mm F-32"
+
+msgid "_76mm_F_32_A"
 msgstr "76 mm F-32"
 
 msgid "_76mm_F_34"

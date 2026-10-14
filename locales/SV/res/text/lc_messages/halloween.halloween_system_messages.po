@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Stridsförmåga"
+
+msgid "make_choice/server_error"
+msgstr "Funktionen ej tillgänglig för närvarande. Försök senare."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "REKRYTERA"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Rekryterad"
+
+msgid "notification/crew_reward/title"
+msgstr "Belöning mottagen"
+
+msgid "open_artefact/server_error"
+msgstr "Funktionen ej tillgänglig för närvarande. Försök senare."
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Mottagna Kodnycklar: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Kvitto"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Kodnycklar borttagna: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Avkodning"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Kunde inte fylla på Stridsförmågor för %s. Tekniskt fel."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Kunde inte fylla på Stridsförmågor för %s. Tillgångar saknas."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Stridsförmågor för %s har fyllts på. Du har spenderat "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Kodnycklar mottagna"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Du kan dekryptera handlingar"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Stridsläge: Babylon: Mörka tornet"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babylon: Mörka tornet (Normal)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babylon: Mörka tornet (Svår)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babylon: Mörka tornet (Mardröm)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Bossen besegrad"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Svårighetsgrad"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normal"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Svår"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Mardröm"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Slutförda faser: %(curPhase)s av %(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Uppdragsmål slutfört!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Uppdragsmål slutförda!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vagn"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Spenderat: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finanstransaktion"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Du kan välja svårighetsgrad i garaget för Babylon: Mörka tornet."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Svårighetsgrad Svår upplåst"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Du kan välja svårighetsgrad i garaget för Babylon: Mörka tornet."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Svårighetsgrad Mardröm upplåst"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "%(vehicle)s är nu tillgänglig i Babylon: Mörka tornet."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Strider i Babylon: Mörka tornet är tillfälligt ej tillgängliga.\nFörsök igen senare."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Strider i Babylon: Mörka tornet (%(difficulty)s) är tillfälligt ej tillgängliga.\nFörsök igen senare."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Babylon: Mörka tornet är tillfälligt ej tillgängligt. Se spelportalen för mer information."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Plutonsbefälhavaren har ändrat svårighetsgrad till: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Spelaren %(userName)s har inte låst upp en av svårighetsgraderna."

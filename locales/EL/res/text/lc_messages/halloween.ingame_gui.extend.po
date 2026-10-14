@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "damageLog/corrosion"
+msgstr "Διάβρωση"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Φθορά από Ζώνη"
+
+msgid "damageLog/static_death_zone"
+msgstr "Φθορά από ζώνη"
+
+msgid "damageShieldReady"
+msgstr "Η Ενεργειακή Ασπίδα είναι έτοιμη προς χρήση."
+
+msgid "fastReloadReady"
+msgstr "Η Γρήγορη Γέμιση είναι έτοιμη προς χρήση."
+
+msgid "hitMarker/useless"
+msgstr "Χωρίς αποτέλεσμα!"
+
+msgid "hpRepairAndCrewHealReady"
+msgstr "Οι Επείγουσες Επισκευές είναι έτοιμες προς χρήση."
+
+msgid "hwAoeDamageInstantShotReady"
+msgstr "Η Ενεργειακή Βολή είναι έτοιμη προς χρήση."
+
+msgid "hwAoeDrainEnemyHpInstantShotReady"
+msgstr "Η Βολή Βαμπίρ είναι έτοιμη προς χρήση."
+
+msgid "hwAoeStunInstantShotReady"
+msgstr "Η Βολή Σοκ είναι έτοιμη προς χρήση."
+
+msgid "hwHelpScreen/hint/description"
+msgstr "για προβολή των κανονισμών"
+
+msgid "hwHelpScreen/hint/press"
+msgstr "Πιέστε"
+
+msgid "hwInvisibilityReady"
+msgstr "Η δυνατότητα Αόρατη Αποκατάσταση είναι έτοιμη προς χρήση."
+
+msgid "nitroRamDamageReady"
+msgstr "Το Τούρμπο είναι έτοιμο προς χρήση."
+
+msgid "pickupSouls"
+msgstr "Έχετε συλλέξει %(souls)s Mirium"
+
+msgid "player_errors/equipment/abilityGunDestroyed"
+msgstr "Αδύνατη η χρήση της δυνατότητας [%(name)s]: χαλασμένο πυροβόλο."
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Το όχημα δεν έχει δεχθεί φθορά."
+
+msgid "player_errors/equipment/hwEngineIsDestroyed"
+msgstr "Αδύνατη η χρήση της δυνατότητας [%(name)s]: ο κινητήρας έχει καταστραφεί."
+
+msgid "player_errors/equipment/hwNotEnoughSouls"
+msgstr "Αδύνατη η χρήση της δυνατότητας [%(name)s]: όχι αρκετό Mirium."
+
+msgid "player_errors/equipment/hwVehicleInFire"
+msgstr "Αδύνατη η χρήση της δυνατότητας [%(name)s]: φωτιά στο όχημα."
+
+msgid "player_errors/equipment/hwVehicleIsDrowning"
+msgstr "Αδύνατη η χρήση του στοιχείου [%(name)s]: το όχημα είναι κάτω από το νερό."
+
+msgid "player_errors/equipment/hwVehicleIsOnFire"
+msgstr "Αδύνατη η χρήση της δυνατότητας [%(name)s]: φωτιά στο όχημα."
+
+msgid "player_errors/equipment/hwVehicleIsOverturned"
+msgstr "Αδύνατη η χρήση του στοιχείου [%(name)s]: το όχημα έχει αναποδογυρίσει."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Το πυροβόλο είναι γεμάτο."
+
+msgid "player_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Ο %(attacker)s κατέστρεψε τον %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Ο %(attacker)s κατέστρεψε τον %(target)s."
+
+msgid "player_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Ο %(attacker)s κατέστρεψε τον %(target)s."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Ο συμπαίκτης %(target)s καταστράφηκε από διάβρωση."
+
+msgid "player_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Ο συμπαίκτης %(target)s ποδοπατήθηκε από το %(attacker)s."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Ο συμπαίκτης %(target)s καταστράφηκε από έκρηξη του %(attacker)s."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Ο συμπαίκτης %(target)s συνετρίβη."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Ο συμπαίκτης %(target)s καταστράφηκε από τη Ζώνη Καταστροφής."
+
+msgid "player_messages/killedByBossAuraAlly"
+msgstr "Ο συμπαίκτης %(target)s καταστράφηκε από εχθρική αύρα."
+
+msgid "player_messages/killedByDeathZone"
+msgstr "Ο σύμμαχος %(target)s καταστράφηκε από τη Ζώνη Καταστροφής."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Ο συμπαίκτης %(target)s καταστράφηκε."
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_AOE_DAMAGE"
+msgstr "Το όχημα καταστράφηκε από Ενεργειακή Επίθεση"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_IGNITE"
+msgstr "Το όχημα καταστράφηκε από Πυροκίνηση"
+
+msgid "postmortem_messages/DEATH_FROM_ABILITY_VAMPIRE"
+msgstr "Το όχημα καταστράφηκε από Κλέψιμο Ζωής"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER_EXPLOSION"
+msgstr "Το όχημα καταστράφηκε από έκρηξη"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Το όχημα καταστράφηκε από τη Ζώνη Καταστροφής"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_BOSS_AURA_ENEMY_SELF"
+msgstr "Το όχημα καταστράφηκε από εχθρική αύρα"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_CORROSION"
+msgstr "Το όχημα καταστράφηκε από διάβρωση"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_DEATH_PIT"
+msgstr "Το όχημα συνετρίβη"
+
+msgid "postmortem_messages/DEATH_FROM_HALLOWEEN_STOMPING"
+msgstr "Το όχημα καταστράφηκε από ποδοπάτημα"
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Το όχημα καταστράφηκε. Δεν κατάφερε να φτάσει στο Magnus."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_FINAL"
+msgstr "Το όχημα καταστράφηκε. Δεν καταστρέψατε το Boss."
+
+msgid "postmortem_messages/DEATH_FROM_PHASE_TIMER_SELF_SUICIDE_LATE"
+msgstr "Το όχημα καταστράφηκε. Το Magnus δεν είναι γεμάτο."
+
+msgid "postmortem_messages/HW_DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Το εξάρτημα [%(device)s] ανατινάχτηκε από βολή"
+
+msgid "postmortem_messages/HW_DEATH_FROM_FIRE"
+msgstr "Το όχημα καταστράφηκε από φωτιά"
+
+msgid "postmortem_messages/HW_DEATH_FROM_SHOT"
+msgstr "Το όχημα καταστράφηκε από βολή αντιπάλου"
+
+msgid "teamRepairKitReady"
+msgstr "Οι Ομαδικές Επισκευές είναι έτοιμες προς χρήση."
+
+msgid "teamRepairKitUsed"
+msgstr "Ο παίκτης %(player)s ενεργοποίησε τις Ομαδικές Επισκευές."
+
+msgid "teamRepairKitUsedSelf"
+msgstr "Οι Ομαδικές Επισκευές ενεργοποιήθηκαν."

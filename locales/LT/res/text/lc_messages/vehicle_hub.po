@@ -10,6 +10,9 @@ msgstr "Leidžia kasetėje esančius sviedinius šaudyti vieną po kito, kurių 
 msgid "abilities/common/description/autoShootGun"
 msgstr "Staigiai iššauna kelis sviedinius ir akimirksniu padaro daug žalos, tačiau nepasižymi dideliu pramušimu ar taiklumu. Efektyviausias iš arti."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Aktyvavę kovinius pajėgumus laikinai padidinsite variklio galią, greitį ir manevringumą, tačiau išlaikysite pabūklo stabilumą. Taip galėsite būti vikresni, tačiau už tai nepaaukosite taiklumo."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Iššauna žvaigždinį sviedinį, kuris daugiausia žalos daro mažesniu, nei 50 m atstumu. Sviedinio žala mažėja didėjant atstumui, tad naudokite juos iš arti."
 
@@ -61,6 +64,9 @@ msgstr "Pagerintas automatinis užtaisymas"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Automatas"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Koviniai pajėgumai"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Graižtvinis pabūklas"
 
@@ -102,6 +108,15 @@ msgstr "Turbo režimas"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Šaudymas salvėmis"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Padidina mobilumą, bet neapsunkina ginklo valdymo."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "Ši sistema leidžia šaudyti neužsitaisant ir kontroliuoja kiek šilumos sugeneruoja pabūklas šaudydamas."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "Pabūklas turi specialius įrenginius, kurie leidžia prieš išaunant pakoreguoti tam tikrus sviedinio parametrus."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Stovėdami vietoje arba lėtai judėdami gaunate taiklumo lygių, kurie padidina jūsų kito šūvio tikslumą.\nPasiekę aukščiausią taiklumo lygį, galite gerai valdyti ginklą su sumažintu išbarstymu net judėdami ar sukdamiesi."
@@ -355,6 +370,15 @@ msgstr "Iššauna iš abiejų pabūklų iš karto, bet reikalauja daugiau laiko 
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "Speciali funkcija, kuri trumpam padidina variklio galią, akceleraciją ir maksimalų greitį."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Aktyvavę kovinius pajėgumus laikinai padidinsite variklio galią, greitį ir manevringumą, tačiau išlaikysite pabūklo stabilumą. Taip galėsite būti vikresni, tačiau už tai nepaaukosite taiklumo."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "Pabūklas gali šaudyti nesustodamas ir neužsitaisydamas. Kiekvienas šūvis generuoja šilumą: kuo aukštesnė temperatūra, tuo labiau pasikeičia kai kurie jo parametrai. Jei šaudysite nesustodami, pabūklas perkais ir negalėsite šaudyti, kol jis visiškai neatvės."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "Mašinos pabūklas turi ypatingus prietaisus, kurie leidžia prieš šūvį pakoreguoti tam tikrus sviedinių parametrus. Ruošdami mašiną prieš mūšį galite pamatyti, kokie parametrai keičiasi."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Stovint arba važiuojant mažesniu nei tam tikru greičiu, jūsų mašina kalibruoja Analoginį balistinį skaičiavimo prietaisą ir padidina taiklumo lygį, taip užtikrindama kito šūvio tikslumą. Jei viršysite leistiną greitį, jūsų tikslumo lygių kūrimo progresas bus sustabdytas, kol sulėtinsite greitį. Pasiekus aukščiausią tikslumo lygį, jūsų mašina įgyja beveik tobulą ginklo stabilizavimą, su minimaliu išbarstymu judant / sukant korpusą ar bokštelį. Efektas panaikinamas iššovus."
 
@@ -575,7 +599,7 @@ msgid "overview/benefits/wotPlus/description/credits"
 msgstr "kreditų kiekviename mūšyje"
 
 msgid "overview/benefits/wotPlus/description/crewsTrain"
-msgstr "įgulos perkėlimas iš bet kurios klasės mašinų be pertreniravimo"
+msgstr "įgulos perkėlimas iš bet kokio tipo mašinos be pertreniravimo"
 
 msgid "overview/benefits/wotPlus/description/experience"
 msgstr "kovinė patirtis ir įgulos patirtis"

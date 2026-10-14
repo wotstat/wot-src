@@ -66,7 +66,7 @@ class RequestsController(object):
 
             if not allowDelay:
                 if self._cooldowns.validate(requestType, cooldown):
-                    self.__doRequestError(ctx, b'cooldown', callback)
+                    self.__doRequestError(ctx, b'cooldown', callback, logFunc=LOG_DEBUG)
                 else:
                     _doRequest()
             elif not self.__singulizer.register(ctx, callback):
@@ -132,10 +132,10 @@ class RequestsController(object):
         self.__doRequestError(ctx, b'time out', cb)
         return
 
-    def __doRequestError(self, ctx, msg, callback=None):
+    def __doRequestError(self, ctx, msg, callback=None, logFunc=LOG_ERROR):
         if self._requester:
             self._requester.stopWithFailure(ctx, msg, callback)
-        LOG_ERROR(msg, ctx)
+        logFunc(msg, ctx)
         return False
 
     def __loadDelayedRequest(self, seconds, ctx, request):

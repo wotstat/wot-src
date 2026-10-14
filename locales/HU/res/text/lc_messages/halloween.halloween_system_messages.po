@@ -1,0 +1,125 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "hw_equipment/title"
+msgstr "Harci képesség"
+
+msgid "make_choice/server_error"
+msgstr "A művelet átmenetileg nem érhető el. Próbálkozz újra később."
+
+msgid "notification/crew_reward/btnRecruit"
+msgstr "TOBORZÁS"
+
+msgid "notification/crew_reward/recruited"
+msgstr "Toborozva"
+
+msgid "notification/crew_reward/title"
+msgstr "Jutalom megszerezve"
+
+msgid "open_artefact/server_error"
+msgstr "A művelet átmenetileg nem érhető el. Próbálkozz újra később!"
+
+msgid "serviceChannelMessages/artefactKeys/add/description"
+msgstr "Kódfejtő kulcsokat kaptál: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/add/title"
+msgstr "Nyugta"
+
+msgid "serviceChannelMessages/artefactKeys/draw/description"
+msgstr "Kódfejtő kulcsok eltávolítva: %(key)s"
+
+msgid "serviceChannelMessages/artefactKeys/draw/title"
+msgstr "Dekódolás"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Harci képességek feltöltése sikertelen ehhez: %s. Technikai hiba."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Harci képességek feltöltése sikertelen ehhez: %s. Nincs fedezet."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "%s harci képességei újratöltve. Elköltve: "
+
+msgid "serviceChannelMessages/battleResults/artefactKeys"
+msgstr "Kódfejtő kulcsok megszerezve"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Dekódolható feljegyzések érhetők el"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Mód: Babilon: Sötét torony"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/101"
+msgstr "Babilon: Sötét torony (Normál)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/102"
+msgstr "Babilon: Sötét torony (Nehéz)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/103"
+msgstr "Babilon: Sötét torony (Rémálom)"
+
+msgid "serviceChannelMessages/battleResults/bossDefeated"
+msgstr "Fő ellenség legyőzve"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Nehézség"
+
+msgid "serviceChannelMessages/battleResults/difficulty/101"
+msgstr "Normál"
+
+msgid "serviceChannelMessages/battleResults/difficulty/102"
+msgstr "Nehéz"
+
+msgid "serviceChannelMessages/battleResults/difficulty/103"
+msgstr "Rémálom"
+
+msgid "serviceChannelMessages/battleResults/phaseCompleted"
+msgstr "Teljesített fázisok: %(curPhase)s/%(maxPhases)s"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Feladat teljesítve!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Feladatok teljesítve!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Jármű"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Elköltöttél: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Pénzügyi tranzakció"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "A nehézségi szintet a Babilon: Sötét torony Garázsában választhatod ki."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Nehéz nehézségi szint feloldva"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "A nehézségi szintet a Babilon: Sötét torony Garázsában választhatod ki."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Rémálom nehézségi szint feloldva"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleAcquired"
+msgstr "Mostantól elérhető a Babilon: Sötét torony csatáihoz: %(vehicle)s."
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "A Babilon: Sötét torony csatái átmenetileg nem érhetők el.\nPróbáld meg újra később."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "A Babilon: Sötét torony (%(difficulty)s) csatái átmenetileg nem érhetők el.\nPróbáld meg újra később."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "A Babilon: Sötét torony átmenetileg nem érhető el. Figyeld a játékportált a friss információkért!"
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "A szakaszparancsnok megváltoztatta a nehézségi szintet erre: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "%(userName)s játékos még nem oldotta fel az egyik nehézségi szintet."

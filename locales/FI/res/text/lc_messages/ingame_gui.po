@@ -97,31 +97,31 @@ msgstr "Huomio <sektori pienoiskartalla>!"
 msgid "chat_example/attention_to_position"
 msgstr "Huomio sijaintiin!"
 
-msgid "chat_example/global_msg/atk/focus_hq"
+msgid "chat_example/global_msg_atk_focus_hq"
 msgstr "Tuhoa kohteet"
 
-msgid "chat_example/global_msg/atk/save_tanks"
+msgid "chat_example/global_msg_atk_save_tanks"
 msgstr "Säästäkää vaunujanne!"
 
-msgid "chat_example/global_msg/atk/time"
+msgid "chat_example/global_msg_atk_time"
 msgstr "Valtaa alue"
 
-msgid "chat_example/global_msg/def/focus_hq"
+msgid "chat_example/global_msg_def_focus_hq"
 msgstr "Puolusta kohteita"
 
-msgid "chat_example/global_msg/def/save_tanks"
+msgid "chat_example/global_msg_def_save_tanks"
 msgstr "Säästäkää vaunujanne!"
 
-msgid "chat_example/global_msg/def/time"
+msgid "chat_example/global_msg_def_time"
 msgstr "Puolusta alueita"
 
-msgid "chat_example/global_msg/lane/center"
+msgid "chat_example/global_msg_lane_center"
 msgstr "Täydennysjoukkoja alueelle"
 
-msgid "chat_example/global_msg/lane/east"
+msgid "chat_example/global_msg_lane_east"
 msgstr "Täydennysjoukkoja alueelle"
 
-msgid "chat_example/global_msg/lane/west"
+msgid "chat_example/global_msg_lane_west"
 msgstr "Täydennysjoukkoja alueelle"
 
 msgid "chat_example/going_there"
@@ -232,31 +232,31 @@ msgstr "Puolustan tukikohtaa!"
 msgid "chat_shortcuts/defending_base_numbered"
 msgstr "Puolustan tukikohtaa %(strArg1)s!"
 
-msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgid "chat_shortcuts/global_msg_atk_focus_hq"
 msgstr "Tuhoa kohteet!"
 
-msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgid "chat_shortcuts/global_msg_atk_save_tanks"
 msgstr "Meillä on riittävästi aikaa, säästäkää vaunujanne!"
 
-msgid "chat_shortcuts/global_msg/atk/time"
+msgid "chat_shortcuts/global_msg_atk_time"
 msgstr "Aika alkaa loppua, vallatkaa alue hinnalla millä hyvänsä!"
 
-msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgid "chat_shortcuts/global_msg_def_focus_hq"
 msgstr "Puolustakaa kohteita!"
 
-msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgid "chat_shortcuts/global_msg_def_save_tanks"
 msgstr "Meidän täytyy kestää, säästäkää vaunujanne!"
 
-msgid "chat_shortcuts/global_msg/def/time"
+msgid "chat_shortcuts/global_msg_def_time"
 msgstr "Aika alkaa loppua, puolustakaa alueita hinnalla millä hyvänsä!"
 
-msgid "chat_shortcuts/global_msg/lane/center"
+msgid "chat_shortcuts/global_msg_lane_center"
 msgstr "Alue %(strArg1)s tarvitsee apua, lähettäkää täydennysjoukkoja!"
 
-msgid "chat_shortcuts/global_msg/lane/east"
+msgid "chat_shortcuts/global_msg_lane_east"
 msgstr "Alue %(strArg1)s tarvitsee apua, lähettäkää täydennysjoukkoja!"
 
-msgid "chat_shortcuts/global_msg/lane/west"
+msgid "chat_shortcuts/global_msg_lane_west"
 msgstr "Alue %(strArg1)s tarvitsee apua, lähettäkää täydennysjoukkoja!"
 
 msgid "chat_shortcuts/going_there"
@@ -518,7 +518,7 @@ msgid "devMaps/hint/press"
 msgstr "Paina"
 
 msgid "devMaps/mapInfo/info"
-msgstr "Tällä kartalla voi tapahtua satunnaistapahtumia. Sellaiset kartat voi poistaa kierrosta pelin asetuksista."
+msgstr "Tällä kartalla voi tapahtua satunnaistapahtumia."
 
 msgid "devMaps/mapInfo/text"
 msgstr "Kartta satunnaistapahtumilla"
