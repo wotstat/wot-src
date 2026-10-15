@@ -2146,6 +2146,21 @@ class InvoiceReceivedFormatter(WaitItemsSyncFormatter):
         if data:
             slotNames = []
             for slotID, days in data.iteritems():
+                if slotID == SlotTypeId.REWARDS and days < 0:
+                    ctx = {}
+                    days = abs(days)
+                    nameString = R.strings.messenger.serviceChannelMessages.days
+                    if 11 <= days % 100 <= 14:
+                        name = nameString.many()
+                    elif days % 10 == 1:
+                        name = nameString.one()
+                    elif 2 <= days % 10 <= 4:
+                        name = nameString.few()
+                    else:
+                        name = nameString.many()
+                    ctx[u'amount'] = backport.getIntegralFormat(days)
+                    ctx[u'name'] = backport.text(name)
+                    return g_settings.htmlTemplates.format(u'preferredMapSlotsDebitedInvoiceReceived', ctx=ctx)
                 slotName = getSlotTypeName(slotID).value
                 bonusName = R.strings.quests.bonusName.dyn(slotName)
                 name = backport.text(bonusName()) if bonusName.exists() else slotName

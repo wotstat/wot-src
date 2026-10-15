@@ -1808,7 +1808,7 @@
 				<maxRegenHealth>80</maxRegenHealth>
 				<repairCost>1.0</repairCost>
 			</turretRotatorHealth>
-			<circularVisionRadius>390</circularVisionRadius>
+			<circularVisionRadius>380</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>110</maxHealth>
 				<maxRegenHealth>55</maxRegenHealth>
@@ -1837,14 +1837,14 @@
 						<gun>45</gun>
 					</armor>
 					<invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
-					<shotDispersionRadius>0.38</shotDispersionRadius>
+					<shotDispersionRadius>0.4</shotDispersionRadius>
 					<reloadTime>12.3</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.08</turretRotation>
 						<afterShot>4</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
-					<aimingTime>2.5</aimingTime>
+					<aimingTime>3.0</aimingTime>
 					<customizationSlots>
 						<slot>
 							<slotType>paint</slotType>

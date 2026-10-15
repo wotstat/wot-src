@@ -1497,7 +1497,7 @@ class MinimapPingPlugin(SimpleMinimapPingPlugin):
         raise NotImplementedError(b'must be implemented')
         return
 
-    def _make3DPingBases(self, commands, bases, baseName=b''):
+    def _make3DPingBases(self, commands, bases):
         advChatCmp = getattr(self.sessionProvider.arenaVisitor.getComponentSystem(), b'advancedChatComponent', None)
         if advChatCmp is None:
             return
@@ -1507,7 +1507,7 @@ class MinimapPingPlugin(SimpleMinimapPingPlugin):
             replyState, commandKey = advChatCmp.getReplyStateForTargetIDAndMarkerType(uniqueId, MarkerType.BASE_MARKER_TYPE)
             if replyState is ReplyState.NO_REPLY:
                 commandKey = BATTLE_CHAT_COMMAND_NAMES.ATTACK_BASE if team != avatar_getter.getPlayerTeam() else BATTLE_CHAT_COMMAND_NAMES.DEFEND_BASE
-                commands.sendCommandToBase(uniqueId, commandKey, baseName)
+                commands.sendCommandToBase(uniqueId, commandKey)
                 return
             self._processReplyCommand(replyState, commands, uniqueId, commandKey)
             return

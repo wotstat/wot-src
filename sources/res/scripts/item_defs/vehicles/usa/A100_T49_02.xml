@@ -1869,7 +1869,7 @@
 				<maxRegenHealth>75</maxRegenHealth>
 				<repairCost>1.0</repairCost>
 			</turretRotatorHealth>
-			<circularVisionRadius>420</circularVisionRadius>
+			<circularVisionRadius>410</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>110</maxHealth>
 				<maxRegenHealth>55</maxRegenHealth>
@@ -1878,7 +1878,7 @@
 			<invisibilityFactor>1.218</invisibilityFactor>
 			<guns>
 				<_76mm_Gun_M32_A100_02>shared
-					<maxAmmo>66</maxAmmo>
+					<maxAmmo>70</maxAmmo>
 					<armor>
 						<armor_1>50.8
 							<vehicleDamageFactor>0</vehicleDamageFactor>
@@ -1894,11 +1894,11 @@
 						</armor_4>
 						<gun>20</gun>
 					</armor>
-					<shotDispersionRadius>0.34</shotDispersionRadius>
-					<reloadTime>19</reloadTime>
+					<shotDispersionRadius>0.38</shotDispersionRadius>
+					<reloadTime>33</reloadTime>
 					<aimingTime>1.8</aimingTime>
 					<clip>
-						<count>6</count>
+						<count>10</count>
 						<rate>60</rate>
 					</clip>
 					<invisibilityFactorAtShot>0.234</invisibilityFactorAtShot>
@@ -1909,7 +1909,7 @@
 					<turretYawLimits>-180 180</turretYawLimits>
 					<shotDispersionFactors>
 						<turretRotation>0.08</turretRotation>
-						<afterShot>4.0</afterShot>
+						<afterShot>3.5</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
 					<models>

@@ -28,11 +28,13 @@ class VehicleTeamOverride(DynamicScriptComponent):
         return vInfo.get(b'team')
 
     def __updateVehicleTeam(self, team):
+        arena = avatar_getter.getArena()
+        if arena is None or arena.teamInfo is None:
+            return
         vInfo = self.__getVehicleInfo()
         if not team or vInfo.get(b'team') == team:
             return
         vInfo[b'team'] = team
-        arena = avatar_getter.getArena()
         arena.onVehicleUpdated(self.entity.id)
         arena.onTeamKiller(self.entity.id, False)
         return

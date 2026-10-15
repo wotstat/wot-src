@@ -37,9 +37,9 @@ package net.wg.infrastructure.base.meta
       
       function openColorSettingsS() : void;
       
-      function showSystemMixerVolumeDisabledPageS() : void;
-      
       function isSystemMixerVolumeDisabledS() : Boolean;
+      
+      function fixSystemMixerVolumeS() : void;
       
       function as_setData(param1:Object) : void;
       

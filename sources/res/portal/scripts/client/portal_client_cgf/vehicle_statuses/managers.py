@@ -93,6 +93,8 @@ class VehicleStatusManager(CGF.ComponentManager):
     def __onTeleportingChanged(self, go, vehicleID, finishTime):
         if vehicleID == avatar_getter.getVehicleIDAttached():
             teleportGO = TeleportManager.getCampTeleport(go, self.spaceID)
+            if teleportGO is None:
+                return
             frontier = self.battleState.getTeleportFrontier(teleportGO.name)
             teleportComponent = go.findComponentByType(TeleportReplicableComponent)
             startTime = self.__findTeleportStartTime(teleportComponent, vehicleID)
