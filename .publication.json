@@ -1,7 +1,7 @@
 {
   "branch": "wot-cn",
   "client_type": "sd",
-  "commit_subject": "2.4.1.0 #975",
+  "commit_subject": "2.4.1.0 #982",
   "counts": {
     "locales": {
       "ZH_CN": 317
@@ -12,15 +12,15 @@
     "stubs": 100
   },
   "default_locale": "ZH_CN",
-  "descriptor_sha256": "01232fc5309bb529a0c1dc13707a8f0a03a7f8871ccf102986ead277c65a4534",
+  "descriptor_sha256": "25b86c7aa8d861a9a8069a968ee5f37790a07674a5b88e046e3578c092a8160a",
   "languages": [
     "ZH_CN"
   ],
   "publisher": "qihoo",
   "schema_version": 1,
   "snapshot_contract_version": "1.1.0",
-  "snapshot_created_at": "2026-10-17T01:10:26.506362Z",
-  "snapshot_id": "sha256:56c59d6d9dddd6948920f335ea45a3c37d21a0ef74996cadb17ebc60a0562dcf",
+  "snapshot_created_at": "2026-10-21T20:47:19.044908Z",
+  "snapshot_id": "sha256:a2fe3b19e97a771a221722b08be569511943c30857a9344f44b9236006d4df0d",
   "target": "wot-cn",
-  "version_name": "2.4.1.5490"
+  "version_name": "2.4.1.5496"
 }
