@@ -1053,12 +1053,12 @@
           };
         var $ = t(9351);
         function z() {}
-        function W() {
+        function q() {
           return !1;
         }
         console.log;
-        var q = t(9174);
-        function Y(u, e) {
+        var Y = t(9174);
+        function W(u, e) {
           var t = ("undefined" != typeof Symbol && u[Symbol.iterator]) || u["@@iterator"];
           if (t) return (t = t.call(u)).next.bind(t);
           if (
@@ -1089,8 +1089,8 @@
           for (var t = 0, n = new Array(e); t < e; t++) n[t] = u[t];
           return n;
         }
-        const H = (u) => (0 === u ? window : window.subViews.get(u));
-        var V = t(3946);
+        const V = (u) => (0 === u ? window : window.subViews.get(u));
+        var H = t(3946);
         const X = ((u, e) => {
             const t = (0, n.createContext)({});
             return [
@@ -1101,7 +1101,7 @@
                     const s = (function ({
                         initializer: u = !0,
                         rootId: e = 0,
-                        getRoot: t = H,
+                        getRoot: t = V,
                         context: n = "model",
                       } = {}) {
                         const r = new Map();
@@ -1148,7 +1148,7 @@
                             };
                           },
                           dispose: function () {
-                            for (var u, t = Y(r.keys()); !(u = t()).done;) a(u.value, e);
+                            for (var u, t = W(r.keys()); !(u = t()).done;) a(u.value, e);
                           },
                           unsubscribe: a,
                         };
@@ -1170,11 +1170,11 @@
                         observableModel: {
                           array: (u, e) => {
                             const n = null != e ? e : i(u),
-                              r = q.LO.box(n, { equals: W });
+                              r = Y.LO.box(n, { equals: q });
                             return (
                               "real" === t &&
                                 o.subscribe(
-                                  (0, q.aD)((u) => r.set(u)),
+                                  (0, Y.aD)((u) => r.set(u)),
                                   u,
                                 ),
                               r
@@ -1182,11 +1182,11 @@
                           },
                           object: (u, e) => {
                             const n = null != e ? e : i(u),
-                              r = q.LO.box(n, { equals: W });
+                              r = Y.LO.box(n, { equals: q });
                             return (
                               "real" === t &&
                                 o.subscribe(
-                                  (0, q.aD)((u) => r.set(u)),
+                                  (0, Y.aD)((u) => r.set(u)),
                                   u,
                                 ),
                               r
@@ -1195,11 +1195,11 @@
                           primitives: (u, e) => {
                             const n = i(e);
                             if (Array.isArray(u)) {
-                              const r = u.reduce((u, e) => ((u[e] = q.LO.box(n[e], {})), u), {});
+                              const r = u.reduce((u, e) => ((u[e] = Y.LO.box(n[e], {})), u), {});
                               return (
                                 "real" === t &&
                                   o.subscribe(
-                                    (0, q.aD)((e) => {
+                                    (0, Y.aD)((e) => {
                                       u.forEach((u) => {
                                         r[u].set(e[u]);
                                       });
@@ -1212,11 +1212,11 @@
                             {
                               const r = u,
                                 a = Object.entries(r),
-                                s = a.reduce((u, [e, t]) => ((u[t] = q.LO.box(n[e], {})), u), {});
+                                s = a.reduce((u, [e, t]) => ((u[t] = Y.LO.box(n[e], {})), u), {});
                               return (
                                 "real" === t &&
                                   o.subscribe(
-                                    (0, q.aD)((u) => {
+                                    (0, Y.aD)((u) => {
                                       a.forEach(([e, t]) => {
                                         s[t].set(u[e]);
                                       });
@@ -1271,7 +1271,7 @@
                 rewardsCommon: u.array("rewardsCommon"),
                 rewardsElite: u.array("rewardsElite"),
               },
-              t = (0, V.Om)((u) => e.root.get().chapterType === u);
+              t = (0, H.Om)((u) => e.root.get().chapterType === u);
             return Object.assign({}, e, { computes: { isTypedChapter: t } });
           }, z),
           K = X[0],
@@ -1619,9 +1619,9 @@
           Gu = "ProgressBarDeltaGrow_base_7e",
           $u = "ProgressBarDeltaGrow_base__withoutBounce_b5",
           zu = "ProgressBarDeltaGrow_glow_68",
-          Wu = (u) => (u ? { left: 0 } : { right: 0 }),
-          qu = (u, e) => (u ? { right: 100 - e + "%" } : { left: `${e}%` }),
-          Yu = (u) => ({ transitionDuration: `${u}ms` }),
+          qu = (u) => (u ? { left: 0 } : { right: 0 }),
+          Yu = (u, e) => (u ? { right: 100 - e + "%" } : { left: `${e}%` }),
+          Wu = (u) => ({ transitionDuration: `${u}ms` }),
           ju = (0, n.memo)(
             ({
               transitionDuration: u,
@@ -1666,16 +1666,16 @@
                         : void (_ && E && E());
               }, [g, t, _, B, m, C, E, e, u]);
               const b = (0, n.useMemo)(
-                  () => Object.assign({ width: "100%" }, Yu(u), Wu(A)),
+                  () => Object.assign({ width: "100%" }, Wu(u), qu(A)),
                   [A, u],
                 ),
-                v = (0, n.useMemo)(() => Object.assign({ width: "0%" }, Yu(u), Wu(A)), [A, u]),
+                v = (0, n.useMemo)(() => Object.assign({ width: "0%" }, Wu(u), qu(A)), [A, u]),
                 w = (0, n.useMemo)(
-                  () => Object.assign({ width: "0%" }, qu(A, a), Yu(u)),
+                  () => Object.assign({ width: "0%" }, Yu(A, a), Wu(u)),
                   [a, A, u],
                 ),
                 h = (0, n.useMemo)(
-                  () => Object.assign({ width: `${Math.abs(o - a)}%` }, qu(A, a), Yu(u)),
+                  () => Object.assign({ width: `${Math.abs(o - a)}%` }, Yu(A, a), Wu(u)),
                   [a, A, o, u],
                 );
               if (_) return null;
@@ -1691,7 +1691,7 @@
               );
             },
           ),
-          Hu = (0, n.memo)(
+          Vu = (0, n.memo)(
             ({
               to: u,
               size: e,
@@ -1744,7 +1744,7 @@
               );
             },
           ),
-          Vu = ["onComplete", "onEndAnimation"];
+          Hu = ["onComplete", "onEndAnimation"];
         function Xu() {
           return (
             (Xu =
@@ -1770,7 +1770,7 @@
                   a = Object.keys(u);
                 for (n = 0; n < a.length; n++) ((t = a[n]), e.indexOf(t) >= 0 || (r[t] = u[t]));
                 return r;
-              })(u, Vu);
+              })(u, Hu);
             const s = (0, n.useState)(!1),
               o = s[0],
               i = s[1],
@@ -1782,7 +1782,7 @@
               case fu.Simple:
                 return r().createElement(Uu, Xu({}, a, { onEndAnimation: E, isComplete: o }));
               case fu.Growing:
-                return r().createElement(Hu, Xu({}, a, { onEndAnimation: E, isComplete: o }));
+                return r().createElement(Vu, Xu({}, a, { onEndAnimation: E, isComplete: o }));
               default:
                 return null;
             }
@@ -2048,6 +2048,7 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
+            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -2080,13 +2081,7 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.WtStamp = "stamp"),
-            (u.WtHunter = "wt_hunter"),
-            (u.WtBoss = "wt_boss"),
-            (u.WtHunterCollection = "hunter_collection"),
-            (u.WtTicket = "wtevent_ticket"),
-            (u.WtMainPrizeDiscount = "main_prize_discount"),
-            (u.WtTicket25 = "wtevent_ticket25"));
+            (u.RazlomCoin = "razlom_coin"));
         })(pe || (pe = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -2236,11 +2231,6 @@
             pe.PremiumPlusUniversal,
             pe.GoldenTicket,
             pe.RewardsSlots,
-            pe.WtStamp,
-            pe.WtTicket,
-            pe.WtMainPrizeDiscount,
-            pe.WtHunter,
-            pe.WtHunterCollection,
           ],
           Se = [pe.Gold, pe.Credits, pe.Crystal, pe.FreeXp],
           Oe = [pe.BattlePassPoints],
@@ -2406,6 +2396,8 @@
               case pe.StyleProgress:
               case pe.LbStyleProgress:
                 return Le(a, e, Re.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${e}.${s}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${e}.${t}`;
             }
@@ -2591,10 +2583,10 @@
               : e;
             var P;
           },
-          We = ["children"];
-        function qe() {
+          qe = ["children"];
+        function Ye() {
           return (
-            (qe =
+            (Ye =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -2603,10 +2595,10 @@
                 }
                 return u;
               }),
-            qe.apply(this, arguments)
+            Ye.apply(this, arguments)
           );
         }
-        const Ye = (u) => {
+        const We = (u) => {
             let e = u.children,
               t = (function (u, e) {
                 if (null == u) return {};
@@ -2616,10 +2608,10 @@
                   a = Object.keys(u);
                 for (n = 0; n < a.length; n++) ((t = a[n]), e.indexOf(t) >= 0 || (r[t] = u[t]));
                 return r;
-              })(u, We);
+              })(u, qe);
             return r().createElement(
               ze,
-              qe(
+              Ye(
                 {
                   contentId:
                     R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent(
@@ -2633,9 +2625,9 @@
             );
           },
           je = ["children", "body", "header", "note", "alert", "args"];
-        function He() {
+        function Ve() {
           return (
-            (He =
+            (Ve =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -2644,10 +2636,10 @@
                 }
                 return u;
               }),
-            He.apply(this, arguments)
+            Ve.apply(this, arguments)
           );
         }
-        const Ve = R.views.common.tooltip_window.simple_tooltip_content,
+        const He = R.views.common.tooltip_window.simple_tooltip_content,
           Xe = (u) => {
             let e = u.children,
               t = u.body,
@@ -2671,11 +2663,11 @@
             }, [o, t, a, s, i]);
             return r().createElement(
               ze,
-              He(
+              Ve(
                 {
                   contentId:
                     ((c = null == i ? void 0 : i.hasHtmlContent),
-                    c ? Ve.SimpleTooltipHtmlContent("resId") : Ve.SimpleTooltipContent("resId")),
+                    c ? He.SimpleTooltipHtmlContent("resId") : He.SimpleTooltipContent("resId")),
                   decoratorId: R.views.common.tooltip_window.tooltip_window.TooltipWindow("resId"),
                   args: l,
                 },
@@ -2708,7 +2700,7 @@
               o = null == s ? void 0 : s.contentId;
             return a || o
               ? r().createElement(ze, Ke({}, e, { contentId: a || o }), n)
-              : r().createElement(Ye, e, n);
+              : r().createElement(We, e, n);
           },
           Qe = {
             base: "Reward_base_ea",

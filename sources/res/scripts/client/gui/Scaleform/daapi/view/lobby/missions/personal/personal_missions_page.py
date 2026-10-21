@@ -1,6 +1,7 @@
 import logging, operator
 from collections import namedtuple
 import BigWorld
+from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
 from gui import SystemMessages
 from gui.impl import backport
 from gui.impl.gen import R
@@ -35,7 +36,7 @@ from shared_utils import findFirst
 from skeletons.account_helpers.settings_core import ISettingsCore
 _logger = logging.getLogger(__name__)
 _ChainState = namedtuple(b'_ChainState', [
- 36, 37, 38, 39, 40])
+ 37, 38, 39, 40, 41])
 _UI_CHAINS_LEN = {(PM_BRANCH.REGULAR): 5, 
    (PM_BRANCH.PERSONAL_MISSION_2): 4}
 
@@ -438,7 +439,7 @@ class PersonalMissionsPage(LobbySubView, PersonalMissionsPageMeta, PersonalMissi
     def __checkTutorState(self):
         if self.__callbackID is not None:
             self.__callbackID = None
-        storageData = self.__settingsCore.serverSettings.getUIStorage()
+        storageData = self.__settingsCore.serverSettings.getUIStorage(SETTINGS_SECTIONS.UI_STORAGE)
         multipleState = self.__getTutorMultipleState()
         singleState = self.__getTutorSingleState()
         if not storageData.get(multipleState):
@@ -482,7 +483,7 @@ class PersonalMissionsPage(LobbySubView, PersonalMissionsPageMeta, PersonalMissi
             self.soundManager.playSound(SOUNDS.FOUR_AWARD_LISTS_RECEIVED)
             self.as_showFourAwardSheetsObtainedPopupS(True, self.__packUseFreeSheetsAwardTutorData(showPawned))
         self.__lastTutorState = tutorState
-        self.__settingsCore.serverSettings.saveInUIStorage({(self.__lastTutorState): True})
+        self.__settingsCore.serverSettings.saveInUIStorage(SETTINGS_SECTIONS.UI_STORAGE, {(self.__lastTutorState): True})
         return
 
     def _packFirstShowAwardTutorData(self):

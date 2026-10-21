@@ -1,5 +1,8 @@
 msgid ""
-msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
 
 msgid "allRewards/button/list"
 msgstr "Список"
@@ -538,6 +541,27 @@ msgstr "Награды сезона"
 msgid "notifications/grant/coins"
 msgstr "За %(source)s начислено: %(coins)s"
 
+msgid "notifications/paragonsCoins/button/available"
+msgstr "К проекту «Орбита»"
+
+msgid "notifications/paragonsCoins/button/unavailable"
+msgstr "К исследованию"
+
+msgid "notifications/paragonsCoins/counter"
+msgstr "×%(count)s"
+
+msgid "notifications/paragonsCoins/description/available"
+msgstr "Откройте доступ к проекту, чтобы воспользоваться очками"
+
+msgid "notifications/paragonsCoins/description/unavailable"
+msgid_plural "plural/notifications/paragonsCoins/description/unavailable"
+msgstr[0] "Исследуйте технику Х уровня %(count)s раз, чтобы получить доступ к проекту"
+msgstr[1] "Исследуйте технику Х уровня %(count)s раза, чтобы получить доступ к проекту"
+msgstr[2] "Исследуйте технику Х уровня %(count)s раз, чтобы получить доступ к проекту"
+
+msgid "notifications/paragonsCoins/title"
+msgstr "У вас есть очки проекта «Орбита»"
+
 msgid "notifications/source/battle"
 msgstr "бой"
 
@@ -962,7 +986,7 @@ msgid "seasonsProgression/seasonCard/tooltip/disabledState/title"
 msgstr "Активация сезона недоступна"
 
 msgid "seasonsProgression/seasonCard/tooltip/disabledState/warning"
-msgstr "Для активации сезона необходимо исследовать {brown_open}%(necessaryVehicleCount){brown_close} единиц техники Х уровня. Исследовано: {brown_open}%(vehicleCount)s{brown_close} ед."
+msgstr "Для активации сезона необходимо исследовать {brown_open}%(necessaryVehicleCount){brown_close} ед. техники Х уровня. Исследовано: {brown_open}%(vehicleCount)s{brown_close} ед."
 
 msgid "seasonsProgression/seasonCard/tooltip/finishedHasRewardsState/description"
 msgstr "Прогрессия сезона пройдена, но {brown_open}вы не забрали награды.{brown_close}"

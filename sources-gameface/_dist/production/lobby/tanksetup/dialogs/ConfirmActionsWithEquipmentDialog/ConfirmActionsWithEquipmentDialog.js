@@ -1386,14 +1386,14 @@
             },
           ),
           q = "Alert_alert_66",
-          z = "Alert_icon_ea",
-          X = "Alert_alertText_14",
+          X = "Alert_icon_ea",
+          z = "Alert_alertText_14",
           j = ({ alertText: u, className: e }) =>
             r().createElement(
               "div",
               { className: F()(q, e) },
-              r().createElement("i", { className: z }),
-              r().createElement("span", { className: X }, u),
+              r().createElement("i", { className: X }),
+              r().createElement("span", { className: z }, u),
             );
         let Y, $, K;
         (!(function (u) {
@@ -1516,6 +1516,7 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
+            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1548,13 +1549,7 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.WtStamp = "stamp"),
-            (u.WtHunter = "wt_hunter"),
-            (u.WtBoss = "wt_boss"),
-            (u.WtHunterCollection = "hunter_collection"),
-            (u.WtTicket = "wtevent_ticket"),
-            (u.WtMainPrizeDiscount = "main_prize_discount"),
-            (u.WtTicket25 = "wtevent_ticket25"));
+            (u.RazlomCoin = "razlom_coin"));
         })(eu || (eu = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -2065,8 +2060,8 @@
               _ && r().createElement(j, { className: null == l ? void 0 : l.alert, alertText: o }),
             ),
           xu = "Content_base_a7",
-          ku = "Content_currency_4f",
-          Ru = "Content_column_9d",
+          Ru = "Content_currency_4f",
+          ku = "Content_column_9d",
           Ou = "Content_alert_0f",
           Mu = R.strings.tank_setup.dialogs.confirmActionsWithEquipmentDialog.content,
           Iu = (0, A.Pi)(() => {
@@ -2087,8 +2082,8 @@
                 priceBlockText: a,
                 alertText: s,
                 showAlertMessage: !0,
-                className: Ru,
-                classNames: { currency: ku, alert: Ou },
+                className: ku,
+                classNames: { currency: Ru, alert: Ou },
               }),
             );
           }),
@@ -2309,10 +2304,10 @@
               e,
             );
           },
-          zu = ["children", "body", "header", "note", "alert", "args"];
-        function Xu() {
+          Xu = ["children", "body", "header", "note", "alert", "args"];
+        function zu() {
           return (
-            (Xu =
+            (zu =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -2321,7 +2316,7 @@
                 }
                 return u;
               }),
-            Xu.apply(this, arguments)
+            zu.apply(this, arguments)
           );
         }
         const ju = R.views.common.tooltip_window.simple_tooltip_content,
@@ -2340,7 +2335,7 @@
                   i = Object.keys(u);
                 for (n = 0; n < i.length; n++) ((t = i[n]), e.indexOf(t) >= 0 || (r[t] = u[t]));
                 return r;
-              })(u, zu);
+              })(u, Xu);
             const l = (0, n.useMemo)(() => {
               const u = Object.assign({}, o, { body: t, header: i, note: s, alert: a });
               for (const e in u) void 0 === u[e] && delete u[e];
@@ -2348,7 +2343,7 @@
             }, [a, t, i, s, o]);
             return r().createElement(
               Gu,
-              Xu(
+              zu(
                 {
                   contentId:
                     ((_ = null == o ? void 0 : o.hasHtmlContent),
@@ -2426,11 +2421,6 @@
           eu.PremiumPlusUniversal,
           eu.GoldenTicket,
           eu.RewardsSlots,
-          eu.WtStamp,
-          eu.WtTicket,
-          eu.WtMainPrizeDiscount,
-          eu.WtHunter,
-          eu.WtHunterCollection,
           eu.Gold,
           eu.Credits,
           eu.Crystal,
@@ -3518,8 +3508,8 @@
             });
           }),
           xe = "App_dialogBackground_3a",
-          ke = "App_dialogCenter_6a",
-          Re = (0, A.Pi)(() => {
+          Re = "App_dialogCenter_6a",
+          ke = (0, A.Pi)(() => {
             const u = hu(),
               e = u.model,
               t = u.controls,
@@ -3543,12 +3533,12 @@
               buttons: r().createElement(be, null),
               displayFlags: n,
               classMix: xe,
-              classNames: { center: ke },
+              classNames: { center: Re },
             });
           });
         engine.whenReady.then(() => {
           s().render(
-            r().createElement(pu, null, r().createElement(Re, null)),
+            r().createElement(pu, null, r().createElement(ke, null)),
             document.getElementById("root"),
           );
         });

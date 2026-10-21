@@ -92,7 +92,7 @@ def _getTabData(formatedData, searchTabID):
 
 
 def _packCounter(tabData, state, subTabID, controlID):
-    count = b'1' if state else b'0'
+    count = b'1' if isinstance(state, bool) and state else b'0'
     counters = None
     for subTabData in tabData[b'subTabsData']:
         if subTabData[b'subTabId'] == subTabID:

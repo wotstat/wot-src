@@ -84,7 +84,6 @@ class VIEW_ALIAS(COMMON_VIEW_ALIAS):
     VEHICLE_RESTORE_WINDOW = b'vehicleRestoreWindow'
     BATTLE_QUEUE = b'battleQueue'
     BATTLE_STRONGHOLDS_QUEUE = b'battleStrongholdsQueue'
-    EVENT_BATTLE_QUEUE = b'eventBattleQueue'
     BATTLE_LOADING = b'battleLoading'
     LEGAL_INFO_WINDOW = b'legalInfoWindow'
     VEHICLE_INFO_WINDOW = b'vehicleInfoWindow'

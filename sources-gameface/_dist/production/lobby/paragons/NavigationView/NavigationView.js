@@ -107,8 +107,8 @@
               I = void 0 === O ? (k ? "wrap" : void 0) : O,
               H = e.grow,
               U = e.shrink,
-              W = e.flex,
-              $ = void 0 === W ? (H || U ? `${H ? 1 : 0} ${U ? 1 : 0} auto` : void 0) : W,
+              $ = e.flex,
+              W = void 0 === $ ? (H || U ? `${H ? 1 : 0} ${U ? 1 : 0} auto` : void 0) : $,
               G = e.style,
               V = e.children,
               z = (function (e, t) {
@@ -136,7 +136,7 @@
                   computedStyle: Object.assign({}, G, n, {
                     width: void 0 !== u && "number" == typeof u ? u + "rem" : u,
                     height: void 0 !== a && "number" == typeof a ? a + "rem" : a,
-                    flex: $,
+                    flex: W,
                     alignSelf: M,
                     display: f || N ? "flex" : void 0,
                     flexDirection: f,
@@ -146,7 +146,7 @@
                   }),
                   computedClassNames: t,
                 };
-              }, [u, a, o, p, h, C, G, $, M, f, I, y, N]),
+              }, [u, a, o, p, h, C, G, W, M, f, I, y, N]),
               X = j.computedStyle,
               q = j.computedClassNames;
             return l().createElement(
@@ -471,6 +471,7 @@
               (e.SelectableBonus = "selectableBonus"),
               (e.StyleProgressToken = "styleProgressToken"),
               (e.TmanToken = "tmanToken"),
+              (e.PortalEventDiscount25 = "portalEventDiscountToken"),
               (e.NaturalCover = "naturalCover"),
               (e.BpCoin = "bpcoin"),
               (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -503,13 +504,7 @@
               (e.GoldenTicket = "goldenticket"),
               (e.LbStyleProgress = "lbStyleProgress"),
               (e.RewardsSlots = "rewardsSlots"),
-              (e.WtStamp = "stamp"),
-              (e.WtHunter = "wt_hunter"),
-              (e.WtBoss = "wt_boss"),
-              (e.WtHunterCollection = "hunter_collection"),
-              (e.WtTicket = "wtevent_ticket"),
-              (e.WtMainPrizeDiscount = "main_prize_discount"),
-              (e.WtTicket25 = "wtevent_ticket25"));
+              (e.RazlomCoin = "razlom_coin"));
           })(a || (a = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -657,11 +652,6 @@
             s.E4.PremiumPlusUniversal,
             s.E4.GoldenTicket,
             s.E4.RewardsSlots,
-            s.E4.WtStamp,
-            s.E4.WtTicket,
-            s.E4.WtMainPrizeDiscount,
-            s.E4.WtHunter,
-            s.E4.WtHunterCollection,
           ],
           i = [s.E4.Gold, s.E4.Credits, s.E4.Crystal, s.E4.FreeXp],
           l = [s.E4.BattlePassPoints],
@@ -837,6 +827,8 @@
               case s.E4.StyleProgress:
               case s.E4.LbStyleProgress:
                 return F(r, t, s.ye.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${t}.${o}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${t}.${u}`;
             }
@@ -2147,7 +2139,7 @@
         var n = {};
         (u.r(n),
           u.d(n, {
-            Area: () => Wn,
+            Area: () => $n,
             Bar: () => In,
             Default: () => Un,
             useVerticalScrollApi: () => bn,
@@ -2506,8 +2498,8 @@
               createWebView: e.createCallbackNoArgs("createWebView"),
             }),
           ),
-          W = U[0],
-          $ = U[1],
+          $ = U[0],
+          W = U[1],
           G = (e) => {
             (0, s.useEffect)(e, []);
           };
@@ -3085,7 +3077,7 @@
               _ = e.onMouseWheel,
               g = e.onMouseDown,
               A = e.onMouseUp,
-              p = $(),
+              p = W(),
               D = p.model,
               h = p.controls,
               F = D.root.get(),
@@ -3184,7 +3176,7 @@
                 return n;
               })(e, Oe);
             return o().createElement(
-              W,
+              $,
               { options: t, mocks: u, mode: a },
               o().createElement(ke, n),
             );
@@ -3221,9 +3213,9 @@
             "soundClick",
             "soundHover",
           ];
-        function We() {
+        function $e() {
           return (
-            (We =
+            ($e =
               Object.assign ||
               function (e) {
                 for (var t = 1; t < arguments.length; t++) {
@@ -3232,10 +3224,10 @@
                 }
                 return e;
               }),
-            We.apply(this, arguments)
+            $e.apply(this, arguments)
           );
         }
-        class $e extends o().PureComponent {
+        class We extends o().PureComponent {
           constructor(...e) {
             (super(...e),
               (this.state = { hover: !1, click: !1 }),
@@ -3289,7 +3281,7 @@
               D = l()(He.goto, null == s ? void 0 : s.goto);
             return o().createElement(
               "div",
-              We(
+              $e(
                 {
                   className: _,
                   onMouseEnter: this._onMouseEnter(i),
@@ -3314,7 +3306,7 @@
           }
         }
         let Ge, Ve;
-        (($e.defaultProps = {
+        ((We.defaultProps = {
           side: "left",
           type: "back",
           soundHover: "highlight",
@@ -3801,9 +3793,9 @@
           "onBlur",
           "type",
         ];
-        function Wt() {
+        function $t() {
           return (
-            (Wt =
+            ($t =
               Object.assign ||
               function (e) {
                 for (var t = 1; t < arguments.length; t++) {
@@ -3812,10 +3804,10 @@
                 }
                 return e;
               }),
-            Wt.apply(this, arguments)
+            $t.apply(this, arguments)
           );
         }
-        const $t = {
+        const Wt = {
             [It.PREVIEW]: "R.images.gui.maps.icons.library.previewVehicle",
             [It.COMPARE]: "R.images.gui.maps.icons.library.compareVehicle",
           },
@@ -3904,13 +3896,13 @@
                 },
                 [A, c],
               ),
-              W = (0, s.useCallback)(
+              $ = (0, s.useCallback)(
                 (e) => {
                   (S(!1), P(!1), p && p(e));
                 },
                 [p],
               ),
-              $ = (0, s.useCallback)(
+              W = (0, s.useCallback)(
                 (e) => {
                   (T(!0), F && F(e));
                 },
@@ -3932,23 +3924,23 @@
               z = l()(Ot.icon, Ot[`icon__${_}`]);
             return o().createElement(
               "div",
-              Wt(
+              $t(
                 {
                   ref: N,
                   className: V,
                   onClick: O,
                   onMouseEnter: U,
-                  onMouseLeave: W,
+                  onMouseLeave: $,
                   onMouseDown: I,
                   onMouseUp: H,
-                  onFocus: $,
+                  onFocus: W,
                   onBlur: G,
                 },
                 b,
               ),
               o().createElement("div", {
                 className: z,
-                style: { backgroundImage: `url(${$t[v]})` },
+                style: { backgroundImage: `url(${Wt[v]})` },
               }),
               o().createElement("div", { className: Ot.label }, t),
             );
@@ -4618,8 +4610,8 @@
           Iu = "LevelsRewards_header_46",
           Hu = "LevelsRewards_base__disabled_87",
           Uu = "LevelsRewards_rewards_c6",
-          Wu = "LevelsRewards_scrollArea_22",
-          $u = "LevelsRewards_column_4f",
+          $u = "LevelsRewards_scrollArea_22",
+          Wu = "LevelsRewards_column_4f",
           Gu = "LevelsRewards_column__completed_88",
           Vu = "LevelsRewards_column__active_9b",
           zu = "LevelsRewards_progressBarContainer_b4",
@@ -5021,8 +5013,8 @@
           Ia = "RewardsHeader_level__current_a3",
           Ha = "RewardsHeader_numeral_3a",
           Ua = "RewardsHeader_numeral__disabled_1b",
-          Wa = "RewardsHeader_particlesLine_36",
-          $a = "RewardsHeader_particlesLine__left_b1",
+          $a = "RewardsHeader_particlesLine_36",
+          Wa = "RewardsHeader_particlesLine__left_b1",
           Ga = "RewardsHeader_particlesLine__active_45",
           Va = (0, s.memo)(
             ({
@@ -5047,8 +5039,8 @@
                 o().createElement(
                   "div",
                   { className: Ma },
-                  o().createElement("div", { className: l()(Wa, $a, n && Ga) }),
-                  a && o().createElement("div", { className: l()(Wa, r && Ga) }),
+                  o().createElement("div", { className: l()($a, Wa, n && Ga) }),
+                  a && o().createElement("div", { className: l()($a, r && Ga) }),
                   o().createElement(
                     "div",
                     { className: d },
@@ -5079,7 +5071,7 @@
                 { className: l()(Ou, (n || !c) && Hu) },
                 o().createElement(
                   "div",
-                  { className: Wu },
+                  { className: $u },
                   o().createElement(
                     "div",
                     { className: zu },
@@ -5112,7 +5104,7 @@
                         C = e === _ && !a.isCompleted && g;
                       return o().createElement(
                         "div",
-                        { key: `level_${r}`, className: l()($u, a.isCompleted && Gu, E && Vu) },
+                        { key: `level_${r}`, className: l()(Wu, a.isCompleted && Gu, E && Vu) },
                         o().createElement(
                           "div",
                           { className: Iu },
@@ -6085,12 +6077,12 @@
               o().createElement(
                 "div",
                 { className: l()(Hn.area, n) },
-                o().createElement(Wn, { className: r, classNames: i, api: E }, e),
+                o().createElement($n, { className: r, classNames: i, api: E }, e),
               ),
               o().createElement(In, { getStepByRailClick: c, api: t, onDrag: m, classNames: d }),
             );
           },
-          Wn = ({ className: e, classNames: t, children: u, api: a }) => (
+          $n = ({ className: e, classNames: t, children: u, api: a }) => (
             (0, s.useEffect)(() => xe(a.recalculateContent)),
             o().createElement(
               "div",
@@ -6102,8 +6094,8 @@
               ),
             )
           );
-        Wn.Default = Un;
-        const $n = { Vertical: n, Horizontal: a },
+        $n.Default = Un;
+        const Wn = { Vertical: n, Horizontal: a },
           Gn = { type: "idle" };
         const Vn = "AnnouncementChapter_base_fd",
           zn = "AnnouncementChapter_base__hover_2c",
@@ -6616,7 +6608,7 @@
                   "div",
                   { className: Tr },
                   o().createElement(
-                    $n.Horizontal.Area.Default,
+                    Wn.Horizontal.Area.Default,
                     {
                       api: a,
                       className: Nr,
@@ -6641,9 +6633,9 @@
             );
           }),
           Ur = "SeasonsView_base_89",
-          Wr = "SeasonsView_headerWrapper_b2",
-          $r = R.strings.paragons,
-          Gr = $r.seasonsProgression,
+          $r = "SeasonsView_headerWrapper_b2",
+          Wr = R.strings.paragons,
+          Gr = Wr.seasonsProgression,
           Vr = (0, V.Pi)(() => {
             const e = tt(),
               t = e.model,
@@ -6658,9 +6650,9 @@
               { className: Ur },
               o().createElement(
                 "div",
-                { className: Wr },
+                { className: $r },
                 o().createElement(Ze.h, {
-                  topTitle: $r.project.name(),
+                  topTitle: Wr.project.name(),
                   mainTitle: Gr.title.projectStages(),
                   subtitle: i,
                 }),
@@ -6770,7 +6762,7 @@
                 o().createElement(
                   "div",
                   { className: l()(rt, st) },
-                  o().createElement($e, {
+                  o().createElement(We, {
                     caption: jr.button.back(),
                     side: "left",
                     type: "back",
@@ -6782,7 +6774,7 @@
                   o().createElement(
                     "div",
                     { className: l()(rt, ot) },
-                    o().createElement($e, {
+                    o().createElement(We, {
                       caption: jr.button.close(),
                       side: "right",
                       type: "close",

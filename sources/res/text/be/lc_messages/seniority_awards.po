@@ -1,5 +1,8 @@
 msgid ""
-msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=(n==0 ? 0 : n%10==1 && n%100!=11 ? 1 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 2 : 3)\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=4; plural=(n==0 ? 0 : n%10==1 && n%100!=11 ? 1 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 2 : 3)"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Так!"
@@ -77,7 +80,7 @@ msgid "rewardsView/applyBtn"
 msgstr "Так!"
 
 msgid "rewardsView/exchangeCoins"
-msgstr "Абмяняйце жэтоны на ўзнагароды ў Краме."
+msgstr "Обменяйте жетоны на награды в Магазине"
 
 msgid "rewardsView/gotoRewardsBtn"
 msgstr "У Краму"
@@ -92,7 +95,7 @@ msgid "rewardsView/lootBox/title"
 msgstr "скрынак\nз заслужанай\nузнагародай"
 
 msgid "rewardsView/moreRewardsBtn"
-msgstr "Больш узнагарод!"
+msgstr "Больше наград"
 
 msgid "rewardsView/nextBtn"
 msgstr "Да наступнай узнагароды (%(count)s)"
@@ -100,101 +103,27 @@ msgstr "Да наступнай узнагароды (%(count)s)"
 msgid "rewardsView/openBtn"
 msgstr "Адкрыць"
 
+msgid "rewardsView/paragonsPoints/label"
+msgstr "Ачкі праекта «Арбіта»"
+
 msgid "rewardsView/sacoin/counter"
-msgstr "×%(count)s"
+msgstr "x%(count)s"
+
+msgid "rewardsView/sacoin/label"
+msgstr "Жетон ветерана"
+
+msgid "rewardsView/subTitle"
+msgid_plural "plural/rewardsView/subTitle"
+msgstr[0] "УЗНАГАРОДА ЗА БАЯВЫЯ ЗАСЛУГІ"
+msgstr[1] "НАГРАДА ЗА %(gradientStart)s %(years)s ГОД%(gradientEnd)s В СТРОЮ"
+msgstr[2] "НАГРАДА ЗА %(gradientStart)s %(years)s ГОДА%(gradientEnd)s В СТРОЮ"
+msgstr[3] "НАГРАДА ЗА %(gradientStart)s %(years)s ЛЕТ%(gradientEnd)s В СТРОЮ"
 
 msgid "rewardsView/subTitle/AT"
 msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У %(gradientStart)sАЛЬФА-ТЭСТАВАННІ%(gradientEnd)s"
 
 msgid "rewardsView/subTitle/BT"
 msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У %(gradientStart)sБЕТА-ТЭСТАВАННІ%(gradientEnd)s"
-
-msgid "rewardsView/subTitle/Y0"
-msgstr "УЗНАГАРОДА ЗА БАЯВЫЯ ЗАСЛУГІ"
-
-msgid "rewardsView/subTitle/Y1"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s1 ГОД%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y10"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s10 ГАДОЎ%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y10_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 10 ГАДОЎ У СТРАІ"
-
-msgid "rewardsView/subTitle/Y11"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s11 ГАДОЎ%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y11_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 11 ГАДОЎ У СТРАІ"
-
-msgid "rewardsView/subTitle/Y12"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s12 ГАДОЎ%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y12_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 12 ГАДОЎ У СТРАІ"
-
-msgid "rewardsView/subTitle/Y13"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s13 ГАДОЎ%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y13_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЭТА-ТЭСЦЕ І\n13 ГАДОЎ У СТРАІ"
-
-msgid "rewardsView/subTitle/Y14"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s14 ГАДОЎ%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y15"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s15 ГАДОЎ%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y1_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 1 ГОД У СТРАІ"
-
-msgid "rewardsView/subTitle/Y2"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s2 ГАДЫ%(gradientEnd)s Ў СТРАІ"
-
-msgid "rewardsView/subTitle/Y2_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 2 ГАДЫ Ў СТРАІ"
-
-msgid "rewardsView/subTitle/Y3"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s3 ГАДЫ%(gradientEnd)s Ў СТРАІ"
-
-msgid "rewardsView/subTitle/Y3_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 3 ГАДЫ Ў СТРАІ"
-
-msgid "rewardsView/subTitle/Y4"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s4 ГАДЫ%(gradientEnd)s Ў СТРАІ"
-
-msgid "rewardsView/subTitle/Y4_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 4 ГАДЫ Ў СТРАІ"
-
-msgid "rewardsView/subTitle/Y5"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s5 ГАДОЎ%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y5_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 5 ГАДОЎ У СТРАІ"
-
-msgid "rewardsView/subTitle/Y6"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s6 ГАДОЎ%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y6_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 6 ГАДОЎ У СТРАІ"
-
-msgid "rewardsView/subTitle/Y7"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s7 ГАДОЎ%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y7_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 7 ГАДОЎ У СТРАІ"
-
-msgid "rewardsView/subTitle/Y8"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s8 ГАДОЎ%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y8_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 8 ГАДОЎ У СТРАІ"
-
-msgid "rewardsView/subTitle/Y9"
-msgstr "УЗНАГАРОДА ЗА %(gradientStart)s9 ГАДОЎ%(gradientEnd)s У СТРАІ"
-
-msgid "rewardsView/subTitle/Y9_BT"
-msgstr "УЗНАГАРОДА ЗА ЎДЗЕЛ У БЕТА-ТЭСТАВАННІ\nІ 9 ГАДОЎ У СТРАІ"
 
 msgid "rewardsView/subTitle/otherRewards"
 msgstr "Таксама атрымана:"
@@ -210,12 +139,6 @@ msgstr "ДА ТЭХНІКІ"
 
 msgid "rewardsView/title"
 msgstr "ВІНШУЕМ!"
-
-msgid "specialItem/body"
-msgstr "Выдаюцца за баявыя заслугі. Пасля завяршэння падзеі рэшта жэтонаў будзе спісаная."
-
-msgid "specialItem/header"
-msgstr "%(count)s шт. жэтонаў за выслугу гадоў"
 
 msgid "tooltip/restrictedMode"
 msgstr "Аперацыя часова недаступная. Паспрабуйце пазней."

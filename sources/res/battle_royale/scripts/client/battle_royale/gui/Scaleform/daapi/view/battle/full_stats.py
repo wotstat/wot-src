@@ -52,10 +52,10 @@ class FullStatsComponent(BattleRoyaleFullStatsMeta, IVehicleCountListener):
 
     def _populate(self):
         super(FullStatsComponent, self)._populate()
-        self.__initPanel()
+        self._initPanel()
         return
 
-    def __initPanel(self):
+    def _initPanel(self):
         arenaDP = self.sessionProvider.getArenaDP()
         self.__initTeamsCount()
         bonusType = self.sessionProvider.arenaVisitor.getArenaBonusType()

@@ -8,6 +8,7 @@ from gui.shared.tooltips.contexts import ToolTipContext
 from gui.shared.tooltips.demount_kits import DemountKitToolTipData
 from helpers import dependency
 from skeletons.gui.goodies import IGoodiesCache
+from gui.shared.tooltips.advanced.data.default_alt_key_data import AltKeyData
 
 class EpicBattleBlanksContext(ToolTipContext):
     goodiesCache = dependency.descriptor(IGoodiesCache)
@@ -22,9 +23,10 @@ class EpicBattleBlanksContext(ToolTipContext):
 
 class EpicBattleRecertificationFormTooltipAdvanced(BaseAdvancedTooltip):
 
-    def _packBlocks(self, *args, **kwargs):
+    def _getTooltipData(self, *args, **kwargs):
         recertificationForm = self.context.buildItem(*args, **kwargs)
-        return self._packAdvancedBlocks(b'resetPerksBook', recertificationForm.userName, b'recertificationForm/description')
+        return (
+         AltKeyData(swfName=b'resetPerksBook', description=backport.text(R.strings.tooltips.advanced.recertificationForm.description()), header=recertificationForm.userName),)
 
 
 class EpicBattleRecertificationFormTooltip(DemountKitToolTipData):

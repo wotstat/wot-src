@@ -56,7 +56,6 @@ class LuiRules(enum.Enum):
     PARAGONS_NOTIFICATION = b'ParagonsNotification'
     PARAGONS_BUTTONS = b'ParagonsButtons'
     NEW_CAMPAIGN_HINT = b'NewCampaignHint'
-    GUI_WHITE_TIGER_ENTRY_POINT = b'WhiteTigerEntryPoint'
     TEASER = b'Teaser'
     C7N_BUBBLE = b'CustomizationBubble'
     COMMON_CHAT = b'CommonChat'
@@ -71,6 +70,7 @@ class LuiRules(enum.Enum):
     ARCADE_CONTENT = b'ArcadeContent'
     FIELD_TRIALS_CONTENT = b'FieldTrialsContent'
     FRONTLINE_CONTENT = b'FrontlineContent'
+    PORTAL_ENTRY_POINT = b'PortalEntryPoint'
 
 
 class _LimitedUIRule(namedtuple(b'_LimitedUIRule', (b'idx', b'expression', b'expressionElements', b'tokens', b'message'))):

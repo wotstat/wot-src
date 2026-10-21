@@ -2147,7 +2147,7 @@
 			</surveyingDeviceHealth>
 			<guns>
 				<_30mm_vz_53>shared
-					<maxAmmo>444</maxAmmo>
+					<maxAmmo>252</maxAmmo>
 					<pitchLimits>
 						<minPitch>0 -20 1 -20</minPitch>
 						<maxPitch>0 10 0.38 10 0.42 6 0.58 6 0.62 10 1 10</maxPitch>
@@ -2870,7 +2870,7 @@
 			<invisibilityFactor>1.004</invisibilityFactor>
 			<guns>
 				<_30mm_vz_53>shared
-					<maxAmmo>456</maxAmmo>
+					<maxAmmo>252</maxAmmo>
 					<pitchLimits>
 						<minPitch>0 -20 1 -20</minPitch>
 						<maxPitch>0 8 0.38 8 0.42 2 0.58 2 0.62 8 1 8</maxPitch>
@@ -2988,7 +2988,7 @@
 					</camouflage>
 				</_30mm_vz_53>
 				<_37mm_N_37D>shared
-					<maxAmmo>460</maxAmmo>
+					<maxAmmo>240</maxAmmo>
 					<unlocks>
 						<vehicle>Un16_TDM_54
 							<cost>160800</cost>

@@ -195,9 +195,7 @@ def getDefaultFormattersMap():
        b'tmanToken': (TmanTemplateBonusFormatter()), 
        b'battlePassPoints': (BattlePassBonusFormatter()), 
        b'currencies': (CurrenciesBonusFormatter()), 
-       b'preferredMapSlots': (PreferredMapSlotBonusFormatter()), 
-       b'ticket': tokenBonusFormatter, 
-       b'stamp': tokenBonusFormatter}
+       b'preferredMapSlots': (PreferredMapSlotBonusFormatter())}
 
 
 def getEpicFormattersMap():
@@ -307,12 +305,6 @@ def getMarathonRewardScrenFormatterMap():
     return mapping
 
 
-def getEventFormattersMap():
-    mapping = getDefaultFormattersMap()
-    mapping.update({b'groups': (EventGroupsFormatter())})
-    return mapping
-
-
 def getDefaultAwardFormatter():
     return AwardsPacker(getDefaultFormattersMap())
 
@@ -355,10 +347,6 @@ def getRankedAwardsPacker(context=None):
 
 def getRoyaleAwardsPacker():
     return AwardsPacker(getRoyaleFormatterMap())
-
-
-def getEventAwardFormatter():
-    return AwardsPacker(getEventFormattersMap())
 
 
 def getPersonalMissionAwardPacker():
@@ -1986,25 +1974,3 @@ class PreferredMapSlotBonusFormatter(SimpleBonusFormatter):
     def _getImages(cls, bonus):
         return {(AWARDS_SIZES.SMALL): (bonus.getIconBySize(AWARDS_SIZES.SMALL)), 
            (AWARDS_SIZES.BIG): (bonus.getIconBySize(AWARDS_SIZES.BIG))}
-
-
-class EventGroupsFormatter(SimpleBonusFormatter):
-
-    def _format(self, bonus):
-        if bonus.getName() != b'groups':
-            return []
-        value = bonus.getValue()
-        if not value or b'oneof' not in value[0]:
-            return []
-        return [
-         PreformattedBonus(label=b'', images=self._getImages(), tooltip=self._makeTooltip())]
-
-    @classmethod
-    def _getImages(cls):
-        return {(AWARDS_SIZES.SMALL): (RES_ICONS.MAPS_ICONS_QUESTS_BONUSES_SMALL_COLLECTION_HUNTER), 
-           (AWARDS_SIZES.BIG): (RES_ICONS.MAPS_ICONS_QUESTS_BONUSES_BIG_COLLECTION_HUNTER)}
-
-    @staticmethod
-    def _makeTooltip():
-        collectionRes = R.strings.event.bonuses.random_collection_element_WT
-        return makeTooltip(backport.text(collectionRes.tooltip.header()), backport.text(collectionRes.tooltip.body()))

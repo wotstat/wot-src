@@ -9,7 +9,6 @@ from gui.prb_control.entities.base.ctx import PrbAction
 from gui.prb_control.entities.listener import IGlobalListener
 from gui.prb_control.prb_getters import isDevTraining, getQueueTypeFromEntityType
 from gui.prb_control.settings import PREBATTLE_ACTION_NAME
-from gui.shared.tutorial_helper import getTutorialGlobalStorage
 from gui.shared.utils.requesters.ItemsRequester import REQ_CRITERIA
 from gui.shared.utils.scheduled_notifications import Notifiable, PeriodicNotifier
 from helpers import dependency
@@ -19,7 +18,6 @@ from skeletons.gui.game_control import IBoostersController
 from skeletons.gui.goodies import IGoodiesCache
 from skeletons.gui.lobby_context import ILobbyContext
 from skeletons.gui.shared import IItemsCache
-from tutorial.control.context import GLOBAL_FLAG
 if TYPE_CHECKING:
     from typing import Dict, TypeVar
     from helpers.server_settings import ServerSettings
@@ -31,11 +29,6 @@ if TYPE_CHECKING:
     PrbEntityType = TypeVar(b'PrbEntityType', bound=BasePrbEntity)
     LegacyEntityType = TypeVar(b'LegacyEntityType', bound=LegacyEntity)
 _logger = logging.getLogger(__name__)
-
-def toggleHangarHint(enabled):
-    getTutorialGlobalStorage().setValue(GLOBAL_FLAG.PERSONAL_RESERVES_AVAILABLE, enabled)
-    return
-
 
 class BoostersController(IBoostersController, IGlobalListener):
     itemsCache = dependency.descriptor(IItemsCache)
@@ -82,7 +75,6 @@ class BoostersController(IBoostersController, IGlobalListener):
 
             isChanged = enabledCategories != self.__enabledCategories
             self.__enabledCategories = enabledCategories
-            toggleHangarHint(bool(enabledCategories))
             if isChanged:
                 self.onGameModeStatusChange()
         return

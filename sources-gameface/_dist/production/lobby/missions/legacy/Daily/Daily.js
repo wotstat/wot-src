@@ -2,7 +2,7 @@
   var __webpack_modules__ = {
       875: (e, u, t) => {
         "use strict";
-        t.d(u, { ko: () => z, uu: () => W });
+        t.d(u, { ko: () => W, uu: () => z });
         var n = t(483),
           a = t.n(n),
           r = t(179),
@@ -502,19 +502,19 @@
                 "0 0 4px 1px #ffaa0066, 0 0 9px 1px #ffaa0066, 0 0 12px 2px #ff550066, 0 0 12px 4px #ff000066",
             },
           },
-          W = {
+          z = {
             freezed: !1,
             withStack: !1,
             type: o.r.Growing,
             delta: { duration: 500, delay: 0 },
             line: { duration: 500, delay: 0 },
           },
-          z = (0, r.memo)(
+          W = (0, r.memo)(
             ({
               maxValue: e = 100,
               theme: u = $,
               size: t = o.$.Default,
-              animationSettings: n = W,
+              animationSettings: n = z,
               disabled: c = !1,
               withoutBackground: d = !1,
               progressBarBackgroundClassMix: m,
@@ -666,7 +666,7 @@
             displayStatusIs: () => q,
             events: () => D,
             extraSize: () => Q,
-            forceTriggerMouseMove: () => z,
+            forceTriggerMouseMove: () => W,
             freezeTextureBeforeResize: () => k,
             getBrowserTexturePath: () => S,
             getDisplayStatus: () => G,
@@ -674,7 +674,7 @@
             getSize: () => x,
             getViewGlobalPosition: () => P,
             isClientAccessible: () => U,
-            isEventHandled: () => W,
+            isEventHandled: () => z,
             isFocused: () => H,
             pxToRem: () => I,
             remToPx: () => L,
@@ -885,10 +885,10 @@
         function $() {
           return viewEnv.setEventHandled();
         }
-        function W() {
+        function z() {
           return viewEnv.isEventHandled();
         }
-        function z() {
+        function W() {
           viewEnv.forceTriggerMouseMove();
         }
         function G() {
@@ -1869,14 +1869,14 @@
           (function (e) {
             ((e.AVAILABLE = "available"), (e.DISABLED = "disabled"), (e.NO_OFFERS = "no_offers"));
           })($ || ($ = {})));
-        var W = t(521),
-          z = t(364);
+        var z = t(521),
+          W = t(364);
         const G = (e) => {
           console.error(e.type + ": useKeydownListener hook :: Callback is not defined");
         };
-        function q(e = W.n.NONE, u = G, t = !1) {
+        function q(e = z.n.NONE, u = G, t = !1) {
           (0, r.useEffect)(() => {
-            if (e !== W.n.NONE)
+            if (e !== z.n.NONE)
               return (
                 window.addEventListener("keydown", n, t),
                 () => {
@@ -1926,6 +1926,7 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
+            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1958,13 +1959,7 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.WtStamp = "stamp"),
-            (e.WtHunter = "wt_hunter"),
-            (e.WtBoss = "wt_boss"),
-            (e.WtHunterCollection = "hunter_collection"),
-            (e.WtTicket = "wtevent_ticket"),
-            (e.WtMainPrizeDiscount = "main_prize_discount"),
-            (e.WtTicket25 = "wtevent_ticket25"));
+            (e.RazlomCoin = "razlom_coin"));
         })(j || (j = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -2067,9 +2062,9 @@
         class ne extends s().PureComponent {
           render() {
             let e;
-            if ("gold" === this.props.format) e = z.B3.GOLD;
-            else e = z.B3.INTEGRAL;
-            const u = z.Z5.getNumberFormat(this.props.value, e);
+            if ("gold" === this.props.format) e = W.B3.GOLD;
+            else e = W.B3.INTEGRAL;
+            const u = W.Z5.getNumberFormat(this.props.value, e);
             return void 0 !== this.props.value && void 0 !== u ? u : null;
           }
         }
@@ -2114,11 +2109,6 @@
             j.PremiumPlusUniversal,
             j.GoldenTicket,
             j.RewardsSlots,
-            j.WtStamp,
-            j.WtTicket,
-            j.WtMainPrizeDiscount,
-            j.WtHunter,
-            j.WtHunterCollection,
           ],
           re = [j.Gold, j.Credits, j.Crystal, j.FreeXp],
           se = [j.BattlePassPoints],
@@ -2294,6 +2284,8 @@
               case j.StyleProgress:
               case j.LbStyleProgress:
                 return _e(r, u, te.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${u}.${s}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}`;
             }
@@ -2570,12 +2562,12 @@
             Array.isArray(e) ||
             (t = (function (e, u) {
               if (!e) return;
-              if ("string" == typeof e) return We(e, u);
+              if ("string" == typeof e) return ze(e, u);
               var t = Object.prototype.toString.call(e).slice(8, -1);
               "Object" === t && e.constructor && (t = e.constructor.name);
               if ("Map" === t || "Set" === t) return Array.from(e);
               if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                return We(e, u);
+                return ze(e, u);
             })(e)) ||
             (u && e && "number" == typeof e.length)
           ) {
@@ -2589,12 +2581,12 @@
             "Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.",
           );
         }
-        function We(e, u) {
+        function ze(e, u) {
           (null == u || u > e.length) && (u = e.length);
           for (var t = 0, n = new Array(u); t < u; t++) n[t] = e[t];
           return n;
         }
-        const ze = (e) => (0 === e ? window : window.subViews.get(e));
+        const We = (e) => (0 === e ? window : window.subViews.get(e));
         var Ge = t(946);
         const qe = ((e, u) => {
             const t = (0, r.createContext)({});
@@ -2606,7 +2598,7 @@
                     const s = (function ({
                         initializer: e = !0,
                         rootId: u = 0,
-                        getRoot: t = ze,
+                        getRoot: t = We,
                         context: n = "model",
                       } = {}) {
                         const a = new Map();
@@ -3076,7 +3068,7 @@
               Object.assign(
                 {
                   __Type: "GFViewEventProxy",
-                  type: z.B0.TOOLTIP,
+                  type: W.B0.TOOLTIP,
                   contentID: e,
                   decoratorID: u,
                   targetID: n,
@@ -3877,8 +3869,8 @@
           }),
           Uu = "VerticalBar_base_f3",
           $u = "VerticalBar_base__nonActive_42",
-          Wu = "VerticalBar_topButton_d7",
-          zu = "VerticalBar_bottomButton_06",
+          zu = "VerticalBar_topButton_d7",
+          Wu = "VerticalBar_bottomButton_06",
           Gu = "VerticalBar_track_df",
           qu = "VerticalBar_thumb_32",
           Qu = "VerticalBar_rail_43",
@@ -4033,7 +4025,7 @@
                 "div",
                 { className: b()(Uu, u.base), ref: a, onWheel: e.handleMouseWheel },
                 s().createElement("div", {
-                  className: b()(Wu, u.topButton),
+                  className: b()(zu, u.topButton),
                   onMouseDown: (e) => {
                     e.target.classList.contains(Vu) || 0 !== e.button || (Ye("play"), C(pu.Next));
                   },
@@ -4069,7 +4061,7 @@
                   s().createElement("div", { className: b()(Qu, u.rail) }),
                 ),
                 s().createElement("div", {
-                  className: b()(zu, u.bottomButton),
+                  className: b()(Wu, u.bottomButton),
                   onMouseDown: (e) => {
                     e.target.classList.contains(Vu) || 0 !== e.button || (Ye("play"), C(pu.Prev));
                   },
@@ -4483,8 +4475,8 @@
           },
           Ut = "BonusCard_base_95",
           $t = "BonusCard_glow_f0",
-          Wt = "BonusCard_wrapper_c4",
-          zt = "BonusCard_flag_6d",
+          zt = "BonusCard_wrapper_c4",
+          Wt = "BonusCard_flag_6d",
           Gt = "BonusCard_content_6f",
           qt = ["children"];
         function Qt() {
@@ -5095,10 +5087,10 @@
                   !u &&
                   s().createElement(
                     V.animated.div,
-                    { style: e, className: Wt },
+                    { style: e, className: zt },
                     o(
                       (e, u) =>
-                        !u && s().createElement(V.animated.div, { style: e, className: zt }),
+                        !u && s().createElement(V.animated.div, { style: e, className: Wt }),
                     ),
                     l(
                       (e, u) =>
@@ -5173,8 +5165,8 @@
           };
         var Un = t(374),
           $n = t(229);
-        const Wn = "BattleCondition_base_b4",
-          zn = "BattleCondition_text_a6",
+        const zn = "BattleCondition_base_b4",
+          Wn = "BattleCondition_text_a6",
           Gn = "BattleCondition_base__prem_e6",
           qn = "BattleCondition_progressInfo_1a",
           Qn = "BattleCondition_progressBar_b9",
@@ -5183,7 +5175,7 @@
             return n
               ? s().createElement(
                   "div",
-                  { className: b()(Wn, t && Gn, u) },
+                  { className: b()(zn, t && Gn, u) },
                   s().createElement(an.L, {
                     conditions: n,
                     inlineOperator: !0,
@@ -5192,7 +5184,7 @@
                     missionId: e.id,
                     swapProgress: !0,
                     reverse: !0,
-                    classNames: { text: zn, progressInfo: qn, progressBar: Qn },
+                    classNames: { text: Wn, progressInfo: qn, progressBar: Qn },
                   }),
                 )
               : null;
@@ -5815,7 +5807,7 @@
                 ),
             );
           }),
-          Wa = (0, Q.Pi)(() => {
+          za = (0, Q.Pi)(() => {
             const e = Ve().model,
               u = e.root.get().dailyType,
               t = e.premium.get().isPremiumAccount,
@@ -5858,7 +5850,7 @@
                   )
               : s().createElement($a, { isPremiumChanging: F });
           });
-        var za = t(875);
+        var Wa = t(875);
         const Ga = "Progress_base_55",
           qa = "Progress_infoContainer_ca",
           Qa = "Progress_missionsCompleted_73",
@@ -5873,7 +5865,7 @@
           ur = "Progress_disabled_af",
           tr = "Progress_alertIcon_f5",
           nr = "Progress_alertText_63",
-          ar = Object.assign({}, za.uu, {
+          ar = Object.assign({}, Wa.uu, {
             delta: { delay: 100, duration: 2e3 },
             line: { delay: 100, duration: 2e3 },
           }),
@@ -5931,7 +5923,7 @@
                     s().createElement(
                       "div",
                       { className: Ja },
-                      s().createElement(za.ko, {
+                      s().createElement(Wa.ko, {
                         animationSettings: ar,
                         value: l,
                         deltaFrom: l - a,
@@ -5998,7 +5990,7 @@
                       case ye.DailyQuests:
                         return s().createElement(Ta, null);
                       case ye.PremiumQuests:
-                        return s().createElement(Wa, null);
+                        return s().createElement(za, null);
                       default:
                         return (console.error(`Unreachable branch in tabs index: ${o}`), null);
                     }
@@ -6164,7 +6156,7 @@
               r = a.infoVisible,
               i = a.offersState;
             var o;
-            ((o = r ? n.infoToggle : n.close), q(W.n.ESCAPE, o));
+            ((o = r ? n.infoToggle : n.close), q(z.n.ESCAPE, o));
             const l = null != (e = Te(t.computes.getCurrentTabIndex())) ? e : "",
               c = (0, V.useTransition)(l, {
                 from: { opacity: 0 },

@@ -1399,13 +1399,13 @@
             freezeTextureBeforeResize: () => M,
             getBrowserTexturePath: () => L,
             getDisplayStatus: () => G,
-            getScale: () => k,
+            getScale: () => H,
             getSize: () => P,
             getViewGlobalPosition: () => x,
             isClientAccessible: () => N,
             isEventHandled: () => I,
             isFocused: () => Y,
-            pxToRem: () => H,
+            pxToRem: () => k,
             remToPx: () => O,
             resize: () => R,
             sendEvent: () => p,
@@ -1593,10 +1593,10 @@
         function M() {
           viewEnv.freezeTextureBeforeResize();
         }
-        function k() {
+        function H() {
           return viewEnv.getScale();
         }
-        function H(e) {
+        function k(e) {
           return viewEnv.pxToRem(e);
         }
         function O(e) {
@@ -2485,13 +2485,13 @@
               },
               [i, l, d],
             ),
-            k = (0, a.useCallback)(
+            H = (0, a.useCallback)(
               (e) => {
                 E && E(e);
               },
               [E],
             ),
-            H = (0, a.useCallback)(
+            k = (0, a.useCallback)(
               (e) => {
                 i || (h && h(e), C(!1));
               },
@@ -2541,8 +2541,8 @@
                 ref: D,
                 className: Y,
                 onMouseEnter: M,
-                onMouseMove: k,
-                onMouseUp: H,
+                onMouseMove: H,
+                onMouseUp: k,
                 onMouseDown: O,
                 onMouseLeave: W,
                 onClick: x,
@@ -2576,7 +2576,7 @@
           soundClick: "play",
         };
         (0, a.memo)(M);
-        const k = (e) => {
+        const H = (e) => {
             let u,
               t = null;
             return (
@@ -2590,7 +2590,7 @@
               }
             );
           },
-          H = (e) => {
+          k = (e) => {
             if (!e) return !1;
             const u = e.getBoundingClientRect(),
               t = u.width,
@@ -2598,7 +2598,7 @@
             return 0 !== t && 0 !== n;
           },
           O = (e) => {
-            const u = (0, a.useState)(H(e ? e.current : null)),
+            const u = (0, a.useState)(k(e ? e.current : null)),
               t = u[0],
               n = u[1];
             return (
@@ -2606,7 +2606,7 @@
                 let u = 0;
                 const t = () => {
                   u = requestAnimationFrame(() => {
-                    H(e ? e.current : null) ? n(!0) : t();
+                    k(e ? e.current : null) ? n(!0) : t();
                   });
                 };
                 return (
@@ -2664,7 +2664,7 @@
             M = (0, a.useCallback)(() => {
               w && w.update();
             }, [w]),
-            H = (0, a.useCallback)(
+            k = (0, a.useCallback)(
               (e, u, t) => {
                 w && (w.setScrollLeft(e, u, t), v && v(e, w.contentWidth - w.containerWidth));
               },
@@ -2715,7 +2715,7 @@
             $ = (0, a.useCallback)(() => {
               w &&
                 (w.update(),
-                (P.current = k(() => {
+                (P.current = H(() => {
                   R();
                 })));
             }, [w, R]),
@@ -2765,7 +2765,7 @@
             ),
             (0, a.useEffect)(
               () =>
-                k(() => {
+                H(() => {
                   w && R();
                 }),
               [R, w],
@@ -2778,13 +2778,13 @@
             }, [o, q]),
             (0, a.useEffect)(() => {
               B &&
-                ((B.setScrollLeft = H),
+                ((B.setScrollLeft = k),
                 (B.setScrollTop = z),
                 (B.setScrollLeftImmediately = W),
                 (B.setScrollTopImmediately = q),
                 (B.updateScrollArea = M),
                 (B.getScrollbar = x));
-            }, [B, H, W, z, q, M, x]));
+            }, [B, k, W, z, q, M, x]));
           const te = r()(N, { [X]: F, [G]: !C, [I]: m, [U]: D }, _);
           return s().createElement("div", { className: te, ref: Z }, g);
         });
@@ -2822,6 +2822,7 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
+            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -2854,13 +2855,7 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.WtStamp = "stamp"),
-            (e.WtHunter = "wt_hunter"),
-            (e.WtBoss = "wt_boss"),
-            (e.WtHunterCollection = "hunter_collection"),
-            (e.WtTicket = "wtevent_ticket"),
-            (e.WtMainPrizeDiscount = "main_prize_discount"),
-            (e.WtTicket25 = "wtevent_ticket25"));
+            (e.RazlomCoin = "razlom_coin"));
         })(z || (z = {})),
           (function (e) {
             ((e.Gold = "gold"),

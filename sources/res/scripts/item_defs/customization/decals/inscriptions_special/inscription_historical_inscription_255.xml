@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<userString>#vehicle_customization:inscription/historical</userString>
+		<season>ALL</season>
+		<historical>0</historical>
+		<priceGroup>MT inscriptions 25g notInShop</priceGroup>
+		<vehicleFilter>
+			<include>
+				<nations>ussr</nations>
+			</include>
+		</vehicleFilter>
+		<decal>
+			<id>719</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_255.dds</texture>
+			<userString>#vehicle_customization:inscription/historical/inscription_255</userString>
+			<mirror>false</mirror>
+		</decal>
+		<name>strong</name>
+		<type>INSCRIPTION</type>
+	</itemGroup>
+</root>

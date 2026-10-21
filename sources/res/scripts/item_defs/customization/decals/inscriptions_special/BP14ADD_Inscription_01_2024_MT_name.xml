@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<name>BP14ADD_Inscription_2024_MT</name>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>MT inscriptions 25g notInShop</priceGroup>
+		<userString>#vehicle_customization:inscription/special</userString>
+		<decal>
+			<id>31188</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/BP14ADD_Inscription_01_2024_MT.dds</texture>
+			<userString>#vehicle_customization:BP14ADD_Inscription_01_2024_MT/name</userString>
+			<description>#vehicle_customization:BP14ADD_Inscription_01_2024_MT/description</description>
+		</decal>
+		<decal>
+			<id>31189</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/BP14ADD_Inscription_02_2024_MT.dds</texture>
+			<userString>#vehicle_customization:BP14ADD_Inscription_02_2024_MT/name</userString>
+			<description>#vehicle_customization:BP14ADD_Inscription_02_2024_MT/description</description>
+		</decal>
+		<decal>
+			<id>31190</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/BP14ADD_Inscription_03_2024_MT.dds</texture>
+			<userString>#vehicle_customization:BP14ADD_Inscription_03_2024_MT/name</userString>
+			<description>#vehicle_customization:BP14ADD_Inscription_03_2024_MT/description</description>
+		</decal>
+		<type>INSCRIPTION</type>
+	</itemGroup>
+</root>

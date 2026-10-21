@@ -6,7 +6,6 @@ from constants import REQUEST_COOLDOWN
 from gui.shared.gui_items.processors import Processor, makeI18nError
 from helpers import uniprof
 _logger = logging.getLogger(__name__)
-_DEFAULT_ERROR_KEY = b'lootboxes/open/server_error'
 _REQUEST_ATTEMPTS = 2
 _COOLDOWN_DELAY = 0.5
 
@@ -22,7 +21,8 @@ class LootBoxOpenProcessor(Processor):
         return
 
     def _errorHandler(self, code, errStr=b'', ctx=None):
-        return makeI18nError((b'/').join((_DEFAULT_ERROR_KEY, errStr)), _DEFAULT_ERROR_KEY)
+        defaultKey = b'lootboxes/open/server_error'
+        return makeI18nError((b'/').join((defaultKey, errStr)), defaultKey)
 
     def _request(self, callback):
         uniprof.enterToRegion(b'LootBoxOpenProcessor.request')

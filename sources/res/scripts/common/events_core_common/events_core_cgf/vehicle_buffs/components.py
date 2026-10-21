@@ -1,8 +1,21 @@
 import CGF
 from cgf_script.component_meta_class import ComponentProperty, CGFMetaTypes, registerComponent
+factorComponentClasses = {}
+
+class FactorRegisterMeta(type):
+
+    def __init__(cls, name, bases, attrs):
+        super(FactorRegisterMeta, cls).__init__(name, bases, attrs)
+        if attrs.get(b'_skipFactorComponentRegistry'):
+            return
+        factorComponentClasses[cls.__name__] = cls
+        return
+
 
 class BuffComponent(object):
-    pass
+    __metaclass__ = FactorRegisterMeta
+    _skipFactorComponentRegistry = True
+    factorName = None
 
 
 @registerComponent
@@ -10,7 +23,14 @@ class PeriodicHealthChangeComponent(BuffComponent):
     domain = CGF.DomainOption.DomainAll
     category = b'Events Core'
     editorTitle = b'Periodic Health Change'
+    factorName = b'buffs/periodicHealthChange'
     healthChange = ComponentProperty(type=CGFMetaTypes.FLOAT, editorName=b'Health Change', value=1.0)
+
+    def __init__(self):
+        super(PeriodicHealthChangeComponent, self).__init__()
+        self.attackerVehicleID = None
+        self.attackerInfo = None
+        return
 
 
 @registerComponent
@@ -18,20 +38,10 @@ class MovementBlockedComponent(BuffComponent):
     domain = CGF.DomainOption.DomainAll
     category = b'Events Core'
     editorTitle = b'Movement Blocked'
-
-
-factorComponentClasses = {}
-
-class FactorRegisterMeta(type):
-
-    def __init__(cls, name, bases, attrs):
-        super(FactorRegisterMeta, cls).__init__(name, bases, attrs)
-        factorComponentClasses[cls.__name__] = cls
-        return
+    factorName = b'buffs/movementBlocked'
 
 
 class BaseFactorComponent(BuffComponent):
-    __metaclass__ = FactorRegisterMeta
     domain = CGF.DomainOption.DomainAll
     category = b'Vehicle Factors'
     editorTitle = b'Base Factor Component'
@@ -46,8 +56,17 @@ def createFactorComponentClass(className, factorName, factorType=CGFMetaTypes.FL
     return FactorRegisterMeta(className, (BaseFactorComponent,), classAttrs)
 
 
-components = [
- (b'EnginePowerFactorComponent', b'engine/power')]
-for componentArgs in components:
-    componentClass = createFactorComponentClass(*componentArgs)
+factorsComponents = {b'engine/power': b'EnginePowerFactorComponent', 
+   b'gun/piercing': b'GunPiercingComponent', 
+   b'gun/reloadTime': b'GunReloadTimeComponent', 
+   b'gun/rotationSpeed': b'GunRotationSpeedComponent', 
+   b'gun/aimingTime': b'GunAimingTimeComponent', 
+   b'turret/rotationSpeed': b'TurretRotationSpeedComponent', 
+   b'vehicle/maxSpeed': b'VehicleMaxSpeedComponent'}
+for factorName, className in factorsComponents.iteritems():
+    componentClass = createFactorComponentClass(className, factorName)
     registerComponent(componentClass)
+
+vehicleBuffsComponents = dict(factorsComponents)
+vehicleBuffsComponents.update({(PeriodicHealthChangeComponent.factorName): (PeriodicHealthChangeComponent.__name__), 
+   (MovementBlockedComponent.factorName): (MovementBlockedComponent.__name__)})

@@ -43,7 +43,7 @@
             getScale: () => P,
             getSize: () => M,
             getViewGlobalPosition: () => x,
-            isClientAccessible: () => $,
+            isClientAccessible: () => V,
             isEventHandled: () => U,
             isFocused: () => H,
             pxToRem: () => S,
@@ -51,7 +51,7 @@
             resize: () => O,
             sendEvent: () => f,
             setAnimateWindow: () => L,
-            setEventHandled: () => V,
+            setEventHandled: () => $,
             setInputPaddingsRem: () => w,
             setSidePaddingsRem: () => T,
             whenTutorialReady: () => q,
@@ -249,10 +249,10 @@
         function H() {
           return viewEnv.isFocused();
         }
-        function $() {
+        function V() {
           return viewEnv.isClientAccessible();
         }
-        function V() {
+        function $() {
           return viewEnv.setEventHandled();
         }
         function U() {
@@ -952,7 +952,7 @@
               },
               s,
             ),
-            $ = a()(d.state, d.state__default);
+            V = a()(d.state, d.state__default);
           return (
             (0, r.useEffect)(
               () => (
@@ -987,7 +987,7 @@
                 ),
               i().createElement(
                 "span",
-                { className: $ },
+                { className: V },
                 i().createElement("span", { className: d.stateDisabled }),
                 i().createElement("span", { className: d.stateHighlightHover }),
                 i().createElement("span", { className: d.stateHighlightActive }),
@@ -1273,8 +1273,8 @@
           I = "Header_base_ff",
           L = "Header_base__grabbing_dc",
           H = "Header_icon_6e",
-          $ = "Header_icon__reload_c2",
-          V = "Header_reloadButton_19",
+          V = "Header_icon__reload_c2",
+          $ = "Header_reloadButton_19",
           U = ({
             title: u,
             showMinimizeBtn: e,
@@ -1302,12 +1302,12 @@
                 i().createElement(
                   B,
                   {
-                    mixClass: V,
+                    mixClass: $,
                     onClick: (u) => {
                       (F.playClick(), null == s || s(u));
                     },
                   },
-                  i().createElement("div", { className: a()(H, $) }),
+                  i().createElement("div", { className: a()(H, V) }),
                 ),
               e &&
                 i().createElement(b, {
@@ -1802,12 +1802,12 @@
               i().createElement("div", { className: Su }),
             );
           },
-          $u =
+          Vu =
             ((0, r.memo)(Hu),
             { contentId: R.views.lobby.platoon.AlertTooltip("resId"), isEnabled: !0 }),
-          Vu = (u, e, t, n = !0) =>
+          $u = (u, e, t, n = !0) =>
             u && n
-              ? $u
+              ? Vu
               : ((u, e, t) => ({
                   contentId:
                     R.views.common.tooltip_window.simple_tooltip_content.SimpleTooltipContent(
@@ -1843,7 +1843,7 @@
               }, [t]),
               a = (0, r.useMemo)(() => ({ type: D.secondary }), []),
               o = (0, r.useMemo)(
-                () => Vu(!t.isEnabled, t.caption, t.description, t.hasTooltip),
+                () => $u(!t.isEnabled, t.caption, t.description, t.hasTooltip),
                 [t.caption, t.isEnabled, t.description, t.hasTooltip],
               );
             return i().createElement(
@@ -2284,18 +2284,18 @@
           },
           Le = "WTRInfo_wtr_5e",
           He = "WTRInfo_wtrIcon_a9",
-          $e = "WTRInfo_wtrValue_80",
-          Ve = ({ rating: u }) =>
+          Ve = "WTRInfo_wtrValue_80",
+          $e = ({ rating: u }) =>
             i().createElement(
               "div",
               { className: Le },
               i().createElement("div", { className: He }),
-              i().createElement("span", { className: $e }, u),
+              i().createElement("span", { className: Ve }, u),
             ),
           Ue = (u) => u.replace("-", "_"),
-          ze = (u, e, t) =>
+          ze = (u, e) =>
             String(
-              e && !t
+              e
                 ? R.images.gui.maps.icons.vehicleTypes.elite.$dyn(Ue(u))
                 : R.images.gui.maps.icons.vehicleTypes.$dyn(Ue(u)),
             ),
@@ -2499,19 +2499,11 @@
         const At = "VehicleDescription_base_1b",
           Ft = "VehicleDescription_vehicleType_a1",
           dt = "VehicleDescription_vehicleType__elite_71",
-          Dt = ({
-            type: u,
-            isPremium: e,
-            name: t,
-            tier: n,
-            className: o,
-            prebattleType: r,
-            isEvent: s,
-          }) =>
+          Dt = ({ type: u, isPremium: e, name: t, tier: n, className: o, prebattleType: r }) =>
             i().createElement(
               "div",
               { className: a()(At, o) },
-              r !== Ne.BattleRoyal && !s && ct(n),
+              r !== Ne.BattleRoyal && ct(n),
               i().createElement("div", { className: a()(Ft, e && dt), style: bu(ze(u, e)) }),
               t,
             ),
@@ -2636,8 +2628,8 @@
             );
           },
           Ht = "RankedRankData_base_e3",
-          $t = "RankedRankData_icon_5f",
-          Vt = R.strings.ranked_battles.rankTooltip,
+          Vt = "RankedRankData_icon_5f",
+          $t = R.strings.ranked_battles.rankTooltip,
           Ut = ({ slot: u }) => {
             const e = u.rankData,
               t = e.rank,
@@ -2645,12 +2637,12 @@
               o = R.images.gui.maps.icons.rankedBattles.ranks.c_24x24.$dyn(`rank${n}_${t}`);
             return i().createElement(
               M,
-              { body: Vt.body() },
+              { body: $t.body() },
               i().createElement(
                 "div",
                 { className: a()(Ht) },
                 i().createElement("div", {
-                  className: $t,
+                  className: Vt,
                   style: { background: `url(${o}) no-repeat center / contain` },
                 }),
               ),
@@ -2684,36 +2676,28 @@
             nn.apply(this, arguments)
           );
         }
-        const an = ({
-          slot: u,
-          player: e,
-          isInBattle: t,
-          infoText: n,
-          prebattleType: o,
-          isEvent: s,
-        }) => {
-          const l = a()(Jt, e.isReady && !t && un),
-            E = o === Ne.BattleRoyal ? je : We,
-            c = e.isReady ? E(e.vehicle.nation, e.vehicle.techName) : "",
-            A = ((u, e, t) => {
-              if (u) {
-                const u = R.images.gui.maps.icons.platoon.members_window.tall_slot.flags,
-                  n = u.$dyn(e);
-                return String(n || u.$dyn(t));
-              }
-              return "";
-            })(e.isReady, o, e.vehicle.nation),
-            F = (0, r.useMemo)(
+        const an = ({ slot: u, player: e, isInBattle: t, infoText: n, prebattleType: o }) => {
+          const s = a()(Jt, e.isReady && !t && un),
+            l = o === Ne.BattleRoyal ? je : We,
+            E = e.isReady ? l(e.vehicle.nation, e.vehicle.techName) : "",
+            c = e.isReady
+              ? String(
+                  R.images.gui.maps.icons.platoon.members_window.tall_slot.flags.$dyn(
+                    e.vehicle.nation,
+                  ),
+                )
+              : "",
+            A = (0, r.useMemo)(
               () => Ie(t, e.isReady, e.isCurrentUser, o),
               [t, e.isReady, e.isCurrentUser, o],
             ),
-            d = a()(Wt, e.isCommander ? qt : Gt);
+            F = a()(Wt, e.isCommander ? qt : Gt);
           return i().createElement(
             "div",
-            { className: zt, style: bu(F) },
+            { className: zt, style: bu(A) },
             i().createElement(
               "div",
-              { className: d },
+              { className: F },
               i().createElement("div", { className: jt }),
               e.isPrem && i().createElement("div", { className: Kt }),
               i().createElement(Ct, { visible: e.voice.isSpeaking }),
@@ -2724,8 +2708,8 @@
               i().createElement(
                 i().Fragment,
                 null,
-                i().createElement("div", { className: tn, style: bu(A) }),
-                i().createElement("div", { className: en, style: bu(c) }),
+                i().createElement("div", { className: tn, style: bu(c) }),
+                i().createElement("div", { className: en, style: bu(E) }),
               ),
             e.isIgnored &&
               i().createElement("div", {
@@ -2738,17 +2722,15 @@
               e.voice.isMutedByUser && i().createElement(qe, null),
             ),
             i().createElement("div", { className: Zt }, i().createElement(st, e.commonData)),
-            "" !== e.commonData.rating && i().createElement(Ve, { rating: e.commonData.rating }),
+            "" !== e.commonData.rating && i().createElement($e, { rating: e.commonData.rating }),
             o === Ne.Comp7 && i().createElement(Lt, { slot: u }),
             o === Ne.Ranked && i().createElement(Ut, { slot: u }),
             i().createElement(
               "div",
               { className: Qt },
-              e.isReady && !t
-                ? i().createElement(Dt, nn({}, e.vehicle, { prebattleType: o, isEvent: s }))
-                : n,
+              e.isReady && !t ? i().createElement(Dt, nn({}, e.vehicle, { prebattleType: o })) : n,
             ),
-            i().createElement("div", { className: l }),
+            i().createElement("div", { className: s }),
           );
         };
         function on() {
@@ -2788,7 +2770,6 @@
                               slotLabelElements: u.slotLabelElements,
                             })(u)
                   : {
-                      isEvent: u.isEvent,
                       isInBattle: u.isInBattle,
                       player: u.player,
                       infoText: u.infoText,

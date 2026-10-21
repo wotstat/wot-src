@@ -1140,7 +1140,7 @@
           base__highlightActive: "CButton_base__highlightActive_b2",
           content: "CButton_content_cc",
         };
-        let W, G;
+        let G, W;
         (!(function (u) {
           ((u.main = "main"),
             (u.primary = "primary"),
@@ -1148,10 +1148,10 @@
             (u.primaryRed = "primaryRed"),
             (u.secondary = "secondary"),
             (u.ghost = "ghost"));
-        })(W || (W = {})),
+        })(G || (G = {})),
           (function (u) {
             ((u.extraSmall = "extraSmall"), (u.small = "small"), (u.medium = "medium"));
-          })(G || (G = {})));
+          })(W || (W = {})));
         const $ = ({
           children: u,
           size: e,
@@ -1261,7 +1261,7 @@
                 onMouseLeave: O,
                 onClick: S,
               },
-              s !== W.ghost &&
+              s !== G.ghost &&
                 a().createElement(
                   a().Fragment,
                   null,
@@ -1284,7 +1284,7 @@
           );
         };
         $.defaultProps = {
-          type: W.primary,
+          type: G.primary,
           isFocused: !1,
           soundHover: "highlight",
           soundClick: "play",
@@ -1619,6 +1619,7 @@
               (u.SelectableBonus = "selectableBonus"),
               (u.StyleProgressToken = "styleProgressToken"),
               (u.TmanToken = "tmanToken"),
+              (u.PortalEventDiscount25 = "portalEventDiscountToken"),
               (u.NaturalCover = "naturalCover"),
               (u.BpCoin = "bpcoin"),
               (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1651,13 +1652,7 @@
               (u.GoldenTicket = "goldenticket"),
               (u.LbStyleProgress = "lbStyleProgress"),
               (u.RewardsSlots = "rewardsSlots"),
-              (u.WtStamp = "stamp"),
-              (u.WtHunter = "wt_hunter"),
-              (u.WtBoss = "wt_boss"),
-              (u.WtHunterCollection = "hunter_collection"),
-              (u.WtTicket = "wtevent_ticket"),
-              (u.WtMainPrizeDiscount = "main_prize_discount"),
-              (u.WtTicket25 = "wtevent_ticket25"));
+              (u.RazlomCoin = "razlom_coin"));
           })(lu || (lu = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1796,11 +1791,6 @@
           lu.PremiumPlusUniversal,
           lu.GoldenTicket,
           lu.RewardsSlots,
-          lu.WtStamp,
-          lu.WtTicket,
-          lu.WtMainPrizeDiscount,
-          lu.WtHunter,
-          lu.WtHunterCollection,
           lu.Gold,
           lu.Credits,
           lu.Crystal,
@@ -1969,6 +1959,8 @@
               case lu.StyleProgress:
               case lu.LbStyleProgress:
                 return hu(s, e, Du.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${e}.${r}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${e}.${t}`;
             }
@@ -2394,7 +2386,7 @@
               ),
               a().createElement(
                 q,
-                { type: W.primary, size: G.small, mixClass: Ou.button, onClick: D },
+                { type: G.primary, size: W.small, mixClass: Ou.button, onClick: D },
                 R.strings.maps_training.result.submit(),
               ),
             );

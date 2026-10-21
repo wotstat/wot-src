@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<battleHints>
+		<battleStarted>&lt;font size='36' color="#FFFFFF"&gt;_(#portal.portal_battle:battle_hints/battleStarted)&lt;/font&gt;</battleStarted>
+		<waveStarted>&lt;textformat leading='8'&gt;&lt;font size='36' color="#FFFFFF"&gt;_(#portal.portal_battle:battle_hints/waveStarted){currentWave}&lt;/font&gt;&lt;br/&gt;&lt;font face="$FieldFont" size='24' color="#FFFFFF"&gt;&lt;textformat leading='0'&gt;_(#portal.portal_battle:battle_hints/waveStarted/description/1) {lane}&lt;br/&gt;_(#portal.portal_battle:battle_hints/waveStarted/description/2)&lt;/textformat&gt;&lt;/font&gt;&lt;/textformat&gt;</waveStarted>
+		<campBecameCapturable>&lt;font size='36' color="#FFFFFF"&gt;_(#portal.portal_battle:battle_hints/campBecameCapturable)&lt;/font&gt;</campBecameCapturable>
+		<campCaptured>&lt;font size='36' color="#FFFFFF"&gt;_(#portal.portal_battle:battle_hints/campCaptured)&lt;/font&gt;</campCaptured>
+		<allCampsCaptured>&lt;font size='36' color="#FFFFFF"&gt;_(#portal.portal_battle:battle_hints/allCampsCaptured)&lt;/font&gt;</allCampsCaptured>
+		<wavesBuffed>&lt;font size='36' color="#FFFFFF"&gt;_(#portal.portal_battle:battle_hints/wavesBuffed)&lt;/font&gt;</wavesBuffed>
+		<superBossFightStarted>&lt;font size='36' color="#FFFFFF"&gt;_(#portal.portal_battle:battle_hints/superBossFightStarted)&lt;/font&gt;</superBossFightStarted>
+		<almostTimeout>&lt;font size='36' color="#FFFFFF"&gt;_(#portal.portal_battle:battle_hints/almostTimeout)&lt;/font&gt;</almostTimeout>
+		<almostBase>&lt;font size='36' color="#FFFFFF"&gt;_(#portal.portal_battle:battle_hints/almostBase) {lane}&lt;/font&gt;</almostBase>
+	</battleHints>
+	<lobby>&gt;
+		<prebattle>
+			<inviteTitle>
+				<PORTAL_BATTLE>_(#portal.invites.extend:invites/text/PORTAL_BATTLE) %(sender)
+					s</PORTAL_BATTLE>
+			</inviteTitle>
+		</prebattle>
+		<quests>
+			<bonuses>
+				<platformCurrency>&lt;font color='#95907F'&gt;%(value)s &lt;/font&gt;&lt;img src='img://gui/maps/icons/library/%(iconName)sIcon-1.png' width='16' height='16' vspace='-3' /&gt;</platformCurrency>
+			</bonuses>
+		</quests>
+	</lobby>
+</root>

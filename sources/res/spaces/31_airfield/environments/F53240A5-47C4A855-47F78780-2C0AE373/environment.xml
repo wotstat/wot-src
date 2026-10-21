@@ -36,7 +36,7 @@
 		</forward>
 	</Fog>
 	<HDR>
-		<version>2</version>
+		<version>3</version>
 		<enable>true</enable>
 		<adaptationSpeed>120</adaptationSpeed>
 		<bloom>
@@ -47,10 +47,10 @@
 			<dirtAmount>0.850000024</dirtAmount>
 		</bloom>
 		<environment>
-			<sunlightLumMultiplier>18</sunlightLumMultiplier>
+			<sunlightLumMultiplier>56.5486679</sunlightLumMultiplier>
 			<ambientLumMultiplier>1</ambientLumMultiplier>
-			<sunLumMultiplier>18</sunLumMultiplier>
-			<skyLumMultiplier>56</skyLumMultiplier>
+			<sunDiskLumMultiplier>1026</sunDiskLumMultiplier>
+			<skyExpositionOffset>0</skyExpositionOffset>
 			<LDR2HDRsaturation>0.600000024</LDR2HDRsaturation>
 			<LDR2HDRenableLumaMask>false</LDR2HDRenableLumaMask>
 		</environment>
@@ -60,18 +60,28 @@
 				<middleGray>0.0900000036</middleGray>
 				<whitePoint>1</whitePoint>
 				<blackPoint>2</blackPoint>
+				<contrast>1</contrast>
 			</tonemapping>
 			<tonemapping>
 				<name>FilmicTM</name>
 				<middleGray>0.0900000036</middleGray>
 				<whitePoint>1.75</whitePoint>
 				<blackPoint>1.29999995</blackPoint>
+				<contrast>1</contrast>
 			</tonemapping>
 			<tonemapping>
 				<name>LinearExpTM</name>
 				<middleGray>0.0900000036</middleGray>
 				<whitePoint>1.75</whitePoint>
 				<blackPoint>1.29999995</blackPoint>
+				<contrast>1</contrast>
+			</tonemapping>
+			<tonemapping>
+				<name>GTTM</name>
+				<middleGray>0.219999999</middleGray>
+				<whitePoint>0.400000006</whitePoint>
+				<blackPoint>1.33000004</blackPoint>
+				<contrast>1</contrast>
 			</tonemapping>
 			<active>0</active>
 		</tonemappings>
@@ -96,10 +106,14 @@
 			<scale>0.100000001</scale>
 		</filmgrain>
 		<camera>
+			<usePhysicalCamera>true</usePhysicalCamera>
 			<fnumberDown>18</fnumberDown>
 			<fnumberUp>12</fnumberUp>
 			<shutterSpeed>6.64385605</shutterSpeed>
-			<keyValue>0.159999996</keyValue>
+			<cameraKeyValue>0.159999996</cameraKeyValue>
+			<lightLimit>1000</lightLimit>
+			<darkLimit>0.00100000005</darkLimit>
+			<eyeKeyValue>0.200000003</eyeKeyValue>
 		</camera>
 	</HDR>
 	<DOF>
@@ -137,7 +151,7 @@
 		<enable>true</enable>
 		<attenuationPower>10</attenuationPower>
 		<decay>0.5</decay>
-		<color>1 0.784313977 0.709803998 10</color>
+		<color>1 0.784313977 0.709803998 0.175439</color>
 	</GodRays>
 	<SSAO>
 		<enableFromPreset>2</enableFromPreset>
@@ -263,8 +277,8 @@
 		<sunScaleForward>1.10000002</sunScaleForward>
 		<sunColorForward>255 98 0</sunColorForward>
 		<sunTextureForward>system/maps/PSF_ldr.dds</sunTextureForward>
-		<sunLightColorForward>0.800000012 0.780391991 0.76078397</sunLightColorForward>
-		<ambientColorForward>0.400000006 0.388235003 0.380391985</ambientColorForward>
+		<sunLightColorForward>0.631372988 0.615685999 0.600000024</sunLightColorForward>
+		<ambientColorForward>0.50980401 0.494118005 0.482353002</ambientColorForward>
 		<starttime>10</starttime>
 	</day_night_cycle>
 	<VFXLighting>

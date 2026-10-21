@@ -1,4 +1,5 @@
 class FITTING_TYPES(object):
+    DEFAULT = b'default'
     OPTIONAL_DEVICE = b'optionalDevice'
     EQUIPMENT = b'equipment'
     SHELL = b'shell'
@@ -9,6 +10,7 @@ class FITTING_TYPES(object):
     CREW_BOOKS = b'crewBooks'
     CUSTOMIZATION = b'customization'
     BATTLE_ABILITY = b'battleAbility'
+    VEHICLE_FUEL_TANK = b'vehicleFuelTank'
     STORE_SLOTS = [VEHICLE, MODULE, SHELL, OPTIONAL_DEVICE, EQUIPMENT, BOOSTER]
     ARTEFACT_SLOTS = [OPTIONAL_DEVICE, EQUIPMENT]
     VEHICLE_GUN = b'vehicleGun'

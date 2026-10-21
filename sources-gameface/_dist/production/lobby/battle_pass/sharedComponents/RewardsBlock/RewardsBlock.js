@@ -89,7 +89,7 @@
             h = a.mediumHeight,
             g = a.smallHeight,
             w = a.extraSmallHeight,
-            p = { extraLarge: _, large: m, medium: h, small: g, extraSmall: w };
+            v = { extraLarge: _, large: m, medium: h, small: g, extraSmall: w };
           if (t.extraLarge || t.large || t.medium || t.small || t.extraSmall) {
             if (t.extraLarge && A) return e;
             if (t.large && F) return e;
@@ -97,11 +97,11 @@
             if (t.small && s) return e;
             if (t.extraSmall && l) return e;
           } else {
-            if (t.extraLargeWidth && D) return (0, r.H)(e, t, p);
-            if (t.largeWidth && B) return (0, r.H)(e, t, p);
-            if (t.mediumWidth && C) return (0, r.H)(e, t, p);
-            if (t.smallWidth && d) return (0, r.H)(e, t, p);
-            if (t.extraSmallWidth && c) return (0, r.H)(e, t, p);
+            if (t.extraLargeWidth && D) return (0, r.H)(e, t, v);
+            if (t.largeWidth && B) return (0, r.H)(e, t, v);
+            if (t.mediumWidth && C) return (0, r.H)(e, t, v);
+            if (t.smallWidth && d) return (0, r.H)(e, t, v);
+            if (t.extraSmallWidth && c) return (0, r.H)(e, t, v);
             if (!(
               t.extraLargeWidth ||
               t.largeWidth ||
@@ -274,6 +274,7 @@
               (u.SelectableBonus = "selectableBonus"),
               (u.StyleProgressToken = "styleProgressToken"),
               (u.TmanToken = "tmanToken"),
+              (u.PortalEventDiscount25 = "portalEventDiscountToken"),
               (u.NaturalCover = "naturalCover"),
               (u.BpCoin = "bpcoin"),
               (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -306,13 +307,7 @@
               (u.GoldenTicket = "goldenticket"),
               (u.LbStyleProgress = "lbStyleProgress"),
               (u.RewardsSlots = "rewardsSlots"),
-              (u.WtStamp = "stamp"),
-              (u.WtHunter = "wt_hunter"),
-              (u.WtBoss = "wt_boss"),
-              (u.WtHunterCollection = "hunter_collection"),
-              (u.WtTicket = "wtevent_ticket"),
-              (u.WtMainPrizeDiscount = "main_prize_discount"),
-              (u.WtTicket25 = "wtevent_ticket25"));
+              (u.RazlomCoin = "razlom_coin"));
           })(i || (i = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -455,11 +450,6 @@
           i.E4.PremiumPlusUniversal,
           i.E4.GoldenTicket,
           i.E4.RewardsSlots,
-          i.E4.WtStamp,
-          i.E4.WtTicket,
-          i.E4.WtMainPrizeDiscount,
-          i.E4.WtHunter,
-          i.E4.WtHunterCollection,
           i.E4.Gold,
           i.E4.Credits,
           i.E4.Crystal,
@@ -649,7 +639,7 @@
             displayStatusIs: () => P,
             events: () => E.U,
             extraSize: () => T,
-            forceTriggerMouseMove: () => v,
+            forceTriggerMouseMove: () => p,
             freezeTextureBeforeResize: () => C,
             getBrowserTexturePath: () => F,
             getDisplayStatus: () => S,
@@ -657,7 +647,7 @@
             getSize: () => l,
             getViewGlobalPosition: () => B,
             isClientAccessible: () => g,
-            isEventHandled: () => p,
+            isEventHandled: () => v,
             isFocused: () => h,
             pxToRem: () => c,
             remToPx: () => _,
@@ -722,10 +712,10 @@
         function w() {
           return viewEnv.setEventHandled();
         }
-        function p() {
+        function v() {
           return viewEnv.isEventHandled();
         }
-        function v() {
+        function p() {
           viewEnv.forceTriggerMouseMove();
         }
         function S() {
@@ -1213,8 +1203,8 @@
             u.keyCode === D.n.ESCAPE && e();
           };
         var w = t(7572);
-        const p = r.instance,
-          v = {
+        const v = r.instance,
+          p = {
             DataTracker: E.Z,
             ViewModel: w.Z,
             ViewEventType: A,
@@ -1299,11 +1289,11 @@
                 }
               return t;
             },
-            ClickOutsideManager: p,
+            ClickOutsideManager: v,
             SystemLocale: n,
             UserLocale: a,
           };
-        window.ViewEnvHelper = v;
+        window.ViewEnvHelper = p;
       },
       930: (u, e, t) => {
         let i, r;

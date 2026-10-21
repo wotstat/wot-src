@@ -14,3 +14,4 @@ class HANGAR_CONSTS(object):
     MINI_CLIENT = b'miniClient'
     BR_PANELS = b'battleRoyalePanels'
     BATTLE_MODIFIERS = b'battleModifiers'
+    PORTAL_EVENT_MODIFIERS = b'portalEventModifiers'

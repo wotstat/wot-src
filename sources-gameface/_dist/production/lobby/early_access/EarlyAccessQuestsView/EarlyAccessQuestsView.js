@@ -840,7 +840,7 @@
         (t.r(r),
           t.d(r, {
             Area: () => jt,
-            Bar: () => $t,
+            Bar: () => Wt,
             Default: () => qt,
             useVerticalScrollApi: () => Tt,
           }));
@@ -1195,7 +1195,7 @@
         function G(e) {
           engine.call("PlaySound", e);
         }
-        const W = {
+        const $ = {
             playHighlight() {
               G("highlight");
             },
@@ -1206,7 +1206,7 @@
               G("yes1");
             },
           },
-          $ = {
+          W = {
             base: "TextButton_base_b6",
             base__right: "TextButton_base__right_39",
             icon: "TextButton_icon_17",
@@ -1299,11 +1299,11 @@
                   for (n = 0; n < a.length; n++) ((t = a[n]), u.indexOf(t) >= 0 || (r[t] = e[t]));
                   return r;
                 })(e, z)),
-              d = h()($.base, $[`base__${a}`], $[`base__${r}`], null == o ? void 0 : o.base),
-              _ = h()($.icon, $[`icon__${a}`], $[`icon__${r}`], null == o ? void 0 : o.icon),
-              A = h()($.glow, null == o ? void 0 : o.glow),
-              F = h()($.caption, $[`caption__${a}`], null == o ? void 0 : o.caption),
-              g = h()($.goto, null == o ? void 0 : o.goto);
+              d = h()(W.base, W[`base__${a}`], W[`base__${r}`], null == o ? void 0 : o.base),
+              _ = h()(W.icon, W[`icon__${a}`], W[`icon__${r}`], null == o ? void 0 : o.icon),
+              A = h()(W.glow, null == o ? void 0 : o.glow),
+              F = h()(W.caption, W[`caption__${a}`], null == o ? void 0 : o.caption),
+              g = h()(W.goto, null == o ? void 0 : o.goto);
             return s().createElement(
               "div",
               q(
@@ -1319,7 +1319,7 @@
                 },
                 E,
               ),
-              "info" !== a && s().createElement("div", { className: $.shine }),
+              "info" !== a && s().createElement("div", { className: W.shine }),
               s().createElement(
                 "div",
                 { className: _ },
@@ -1628,10 +1628,10 @@
                 };
               }, [t, n, i, c, E, _, O, k, T, D, P, w, y]),
               G = U.computedStyle,
-              W = U.computedClassNames;
+              $ = U.computedClassNames;
             return s().createElement(
               "div",
-              Be({ className: h()(De.base, ...W, u), style: G }, H),
+              Be({ className: h()(De.base, ...$, u), style: G }, H),
               I,
             );
           });
@@ -1788,8 +1788,8 @@
         Object.keys(Ee());
         const Ue = Object.keys(ke()),
           Ge = { mt: "MD", mr: "SM", mb: "SM", ml: "SM" },
-          We = { mt: "SM", mr: "XS", mb: "XS", ml: "XS" },
-          $e = { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
+          $e = { mt: "SM", mr: "XS", mb: "XS", ml: "XS" },
+          We = { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
           ze = {
             XL: { mt: "XL", mr: "XL", mb: "XL", ml: "XL" },
             LG: { mt: "LG", mr: "LG", mb: "LG", ml: "LG" },
@@ -1806,20 +1806,20 @@
               "heading-H73": { mt: "LG", mr: "MD", mb: "MD", ml: "MD" },
               "heading-H56": Ge,
               "heading-H36": Ge,
-              "heading-H28": We,
-              "heading-H24": We,
-              "heading-H24R": We,
-              "heading-H22": We,
-              "heading-H20R": We,
-              "heading-H18": We,
-              "heading-H15": $e,
-              "heading-H14": $e,
-              "paragraph-P24": We,
-              "paragraph-P18": We,
-              "paragraph-P16": We,
-              "paragraph-P14": $e,
-              "paragraph-P12": $e,
-              "paragraph-P10": $e,
+              "heading-H28": $e,
+              "heading-H24": $e,
+              "heading-H24R": $e,
+              "heading-H22": $e,
+              "heading-H20R": $e,
+              "heading-H18": $e,
+              "heading-H15": We,
+              "heading-H14": We,
+              "paragraph-P24": $e,
+              "paragraph-P18": $e,
+              "paragraph-P16": $e,
+              "paragraph-P14": We,
+              "paragraph-P12": We,
+              "paragraph-P10": We,
             }),
           je =
             (Object.keys(qe),
@@ -2035,6 +2035,7 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
+            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -2067,13 +2068,7 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.WtStamp = "stamp"),
-            (e.WtHunter = "wt_hunter"),
-            (e.WtBoss = "wt_boss"),
-            (e.WtHunterCollection = "hunter_collection"),
-            (e.WtTicket = "wtevent_ticket"),
-            (e.WtMainPrizeDiscount = "main_prize_discount"),
-            (e.WtTicket25 = "wtevent_ticket25"));
+            (e.RazlomCoin = "razlom_coin"));
         })(ou || (ou = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -2223,11 +2218,6 @@
             ou.PremiumPlusUniversal,
             ou.GoldenTicket,
             ou.RewardsSlots,
-            ou.WtStamp,
-            ou.WtTicket,
-            ou.WtMainPrizeDiscount,
-            ou.WtHunter,
-            ou.WtHunterCollection,
           ],
           Du = [ou.Gold, ou.Credits, ou.Crystal, ou.FreeXp],
           pu = [ou.BattlePassPoints],
@@ -2393,6 +2383,8 @@
               case ou.StyleProgress:
               case ou.LbStyleProgress:
                 return wu(a, u, Au.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${u}.${s}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}`;
             }
@@ -2493,21 +2485,21 @@
           }
         }
         var Uu = t(3946);
-        let Gu, Wu;
+        let Gu, $u;
         (!(function (e) {
           ((e.Disabled = "disabled"), (e.Active = "active"), (e.Completed = "completed"));
         })(Gu || (Gu = {})),
           (function (e) {
             ((e.Quest = "quest"), (e.Chapter = "chapter"));
-          })(Wu || (Wu = {})));
-        const $u = Gu.Active,
+          })($u || ($u = {})));
+        const Wu = Gu.Active,
           zu = Gu.Disabled,
           qu = Gu.Completed,
           ju = "standard",
           Qu = "extended",
           Xu = Su.Done,
           Vu = Su.Locked,
-          Yu = (Su.Active, { QUEST: Wu.Quest, CHAPTER: Wu.Chapter }),
+          Yu = (Su.Active, { QUEST: $u.Quest, CHAPTER: $u.Chapter }),
           Ku = ((e, u) => {
             const t = (0, a.createContext)({});
             return [
@@ -2699,7 +2691,7 @@
                   () => {
                     const e = u.chapters.get(),
                       t = a(),
-                      n = Hu(e, (e) => e.state === $u) || -1;
+                      n = Hu(e, (e) => e.state === Wu) || -1;
                     return -1 === n
                       ? t === yu.PostProgression || t === yu.Buy
                         ? e.length - 1
@@ -3378,8 +3370,8 @@
           Gt = (e, u) => {
             e.contentRef.current && u(e.contentRef.current);
           },
-          Wt = (e, u) => Math.max(20, e.offsetHeight * u),
-          $t = (0, a.memo)(
+          $t = (e, u) => Math.max(20, e.offsetHeight * u),
+          Wt = (0, a.memo)(
             ({ api: e, classNames: u = {}, getStepByRailClick: t = Ut, onDrag: n = It }) => {
               const r = (0, a.useRef)(null),
                 o = (0, a.useRef)(null),
@@ -3406,7 +3398,7 @@
                   if (!(n && a && u && t)) return;
                   const s = Math.min(1, n / a);
                   return (
-                    (u.style.height = `${Wt(t, s)}px`),
+                    (u.style.height = `${$t(t, s)}px`),
                     u.classList.add(Nt),
                     r.current &&
                       (1 === s ? r.current.classList.add(Rt) : r.current.classList.remove(Rt)),
@@ -3422,7 +3414,7 @@
                   const a = e.animationScroll.scrollPosition.get(),
                     s = Math.min(1, n / r),
                     m = ut(0, 1, a / (r - n)),
-                    E = (u.offsetHeight - Wt(u, s)) * m;
+                    E = (u.offsetHeight - $t(u, s)) * m;
                   ((t.style.transform = `translateY(${0 | E}px)`),
                     ((e) => {
                       if (o.current && i.current && l.current && c.current) {
@@ -3596,7 +3588,7 @@
                 { className: h()(zt.area, r) },
                 s().createElement(jt, { className: o, classNames: i, api: E }, e),
               ),
-              s().createElement($t, { getStepByRailClick: l, api: u, onDrag: c, classNames: m }),
+              s().createElement(Wt, { getStepByRailClick: l, api: u, onDrag: c, classNames: m }),
             );
           },
           jt = ({ className: e, classNames: u, children: t, api: n }) => (
@@ -4368,8 +4360,8 @@
             currentProgress: "ChapterProgress_currentProgress_6b",
             progressBar: "ChapterProgress_progressBar_2c",
           },
-          Wn = R.strings.early_access.questsView.chapter.quests,
-          $n = (0, a.memo)(
+          $n = R.strings.early_access.questsView.chapter.quests,
+          Wn = (0, a.memo)(
             ({
               state: e,
               completedQuestsNew: u,
@@ -4382,10 +4374,10 @@
               return s().createElement(
                 "div",
                 { className: o },
-                s().createElement(Qe, { className: Gn.label, text: Wn.label() }),
+                s().createElement(Qe, { className: Gn.label, text: $n.label() }),
                 s().createElement(Qe, {
                   className: Gn.progress,
-                  text: Wn.progress(),
+                  text: $n.progress(),
                   format: {
                     binding: {
                       completed: s().createElement(Qe, {
@@ -4576,7 +4568,7 @@
                     "div",
                     { className: Vn.content },
                     f,
-                    s().createElement($n, {
+                    s().createElement(Wn, {
                       state: t,
                       completedQuestsNew: n,
                       completedQuestsAll: r,
@@ -5184,7 +5176,7 @@
             return { path: e.getChunkPath(Math.trunc(n / t)), x: a, y: s };
           };
         }
-        const Wr = [
+        const $r = [
           "width",
           "height",
           "getImageSource",
@@ -5199,9 +5191,9 @@
           "onAnimationComplete",
           "poster",
         ];
-        function $r() {
+        function Wr() {
           return (
-            ($r =
+            (Wr =
               Object.assign ||
               function (e) {
                 for (var u = 1; u < arguments.length; u++) {
@@ -5210,7 +5202,7 @@
                 }
                 return e;
               }),
-            $r.apply(this, arguments)
+            Wr.apply(this, arguments)
           );
         }
         const zr = (0, a.memo)(function (e) {
@@ -5240,7 +5232,7 @@
                   a = Object.keys(e);
                 for (n = 0; n < a.length; n++) ((t = a[n]), u.indexOf(t) >= 0 || (r[t] = e[t]));
                 return r;
-              })(e, Wr);
+              })(e, $r);
             const h = (0, a.useRef)(null);
             return (
               (0, a.useEffect)(() => {
@@ -5283,7 +5275,7 @@
                     return console.error("[CanvasSequence] Unreachable state!");
                 }
               }, [l, n, m, d, A, o, p, D, B, g]),
-              s().createElement("canvas", $r({}, C, { width: u, height: t, ref: h }))
+              s().createElement("canvas", Wr({}, C, { width: u, height: t, ref: h }))
             );
           }),
           qr = (e, u) => {
@@ -5461,10 +5453,10 @@
                   s().createElement("div", {
                     className: ra,
                     onClick: () => {
-                      (W.playClick(), e.goToVehicle());
+                      ($.playClick(), e.goToVehicle());
                     },
                     onMouseEnter: () => {
-                      (W.playHighlight(),
+                      ($.playHighlight(),
                         (d.current = 0),
                         r(ee.PLAY),
                         l(ee.STOP),
@@ -5666,7 +5658,7 @@
                 A(E);
               }, [E]));
             const v = () => {
-              W.playHighlight();
+              $.playHighlight();
             };
             (0, a.useEffect)(() => {
               const e = () => {
@@ -5705,7 +5697,7 @@
                       className: ga,
                       onClick: () =>
                         ((e) => {
-                          (A(e), b.applyScroll(0, { immediate: !0 }), W.playClick());
+                          (A(e), b.applyScroll(0, { immediate: !0 }), $.playClick());
                         })(u),
                       onMouseEnter: v,
                     },

@@ -33,6 +33,8 @@ package net.wg.data.constants.generated
       
       public static const BATTLE_MODIFIERS:String = "battleModifiers";
       
+      public static const PORTAL_EVENT_MODIFIERS:String = "portalEventModifiers";
+      
       public function HANGAR_CONSTS()
       {
          super();

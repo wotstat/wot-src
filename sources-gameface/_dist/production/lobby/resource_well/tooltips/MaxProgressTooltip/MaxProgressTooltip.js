@@ -1048,7 +1048,7 @@
             B
           );
         };
-        let L, U, I, G, W, V, q, z, Y;
+        let L, U, I, G, V, q, z, W, Y;
         (!(function (u) {
           ((u.Items = "items"),
             (u.Equipment = "equipment"),
@@ -1081,6 +1081,7 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
+            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1113,13 +1114,7 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.WtStamp = "stamp"),
-            (u.WtHunter = "wt_hunter"),
-            (u.WtBoss = "wt_boss"),
-            (u.WtHunterCollection = "hunter_collection"),
-            (u.WtTicket = "wtevent_ticket"),
-            (u.WtMainPrizeDiscount = "main_prize_discount"),
-            (u.WtTicket25 = "wtevent_ticket25"));
+            (u.RazlomCoin = "razlom_coin"));
         })(L || (L = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1194,10 +1189,10 @@
               (u.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
               (u.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
               (u.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"));
-          })(W || (W = {})),
+          })(V || (V = {})),
           (function (u) {
             u.BATTLE_BOOSTER = "battleBooster";
-          })(V || (V = {})),
+          })(q || (q = {})),
           (function (u) {
             ((u.BATTLE_BOOSTER = "battleBooster"),
               (u.BATTLE_BOOSTER_REPLACE = "battleBoosterReplace"),
@@ -1212,14 +1207,14 @@
               (u.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
               (u.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
               (u.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"));
-          })(q || (q = {})),
+          })(z || (z = {})),
           (function (u) {
             ((u.Small = "400x300"), (u.Big = "600x450"));
-          })(z || (z = {})),
+          })(W || (W = {})),
           (function (u) {
             u.ProgressionStyle = "progressionStyle";
           })(Y || (Y = {})));
-        const H = {
+        const K = {
             base: "Content_base_4a",
             content: "Content_content_3e",
             descriptionText: "Content_descriptionText_e8",
@@ -1234,44 +1229,44 @@
             progressWrapper: "Content_progressWrapper_72",
             icon: "Content_icon_f2",
           },
-          K = R.strings.resource_well.tooltips.resourcesLoadingView.limitCounter,
+          H = R.strings.resource_well.tooltips.resourcesLoadingView.limitCounter,
           j = () => {
             const u = N("model", M.None),
               e = u.currentValue,
               E = u.maxValue,
               A = u.resourceType,
-              t = r()(H.progress, H[`progress__${A}`]);
+              t = r()(K.progress, K[`progress__${A}`]);
             return F().createElement(
               "div",
-              { className: H.base },
+              { className: K.base },
               F().createElement(
                 "div",
-                { className: H.content },
+                { className: K.content },
                 F().createElement(b, {
-                  classMix: H.descriptionText,
+                  classMix: K.descriptionText,
                   binding: {
                     maxAmount: F().createElement(
                       "span",
-                      { className: H.descriptionText__max },
+                      { className: K.descriptionText__max },
                       F().createElement(l, { value: E }),
                     ),
                   },
-                  text: K.header(),
+                  text: H.header(),
                 }),
-                F().createElement("div", { className: H.description }, K.body()),
+                F().createElement("div", { className: K.description }, H.body()),
                 F().createElement(
                   "div",
-                  { className: H.separatorTopWrapper },
-                  F().createElement("div", { className: H.separator }),
+                  { className: K.separatorTopWrapper },
+                  F().createElement("div", { className: K.separator }),
                 ),
                 F().createElement(
                   "div",
-                  { className: H.progressWrapper },
+                  { className: K.progressWrapper },
                   F().createElement(b, {
                     classMix: t,
                     binding: {
                       icon: F().createElement("span", {
-                        className: H.icon,
+                        className: K.icon,
                         style:
                           ((n = A),
                           {
@@ -1281,11 +1276,11 @@
                       amount: F().createElement(l, { value: e }),
                       maxAmount: F().createElement(
                         "span",
-                        { className: H.maxValue },
+                        { className: K.maxValue },
                         F().createElement(l, { value: E }),
                       ),
                     },
-                    text: K.amount(),
+                    text: H.amount(),
                   }),
                 ),
               ),

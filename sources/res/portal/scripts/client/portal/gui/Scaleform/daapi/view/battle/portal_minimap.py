@@ -1,0 +1,17 @@
+from gui.Scaleform.daapi.view.battle.epic.minimap import EpicMinimapComponent
+from portal.gui.Scaleform.daapi.view.battle.shared.markers.minimap import PortalMinimapAreaMarkersPlugin, PortalControlPointsPlugin, PortalMinimapPingPlugin
+
+class PortalMinimapComponent(EpicMinimapComponent):
+    __PORTAL_ZOOM_MODE = 2.0
+
+    def _setupPlugins(self, visitor):
+        setup = super(PortalMinimapComponent, self)._setupPlugins(visitor)
+        setup[b'portal_minimap_markers'] = PortalMinimapAreaMarkersPlugin
+        setup[b'points'] = PortalControlPointsPlugin
+        setup[b'pinging'] = PortalMinimapPingPlugin
+        return setup
+
+    def _populate(self):
+        super(PortalMinimapComponent, self)._populate()
+        self.updateZoomMode(self.__PORTAL_ZOOM_MODE)
+        return

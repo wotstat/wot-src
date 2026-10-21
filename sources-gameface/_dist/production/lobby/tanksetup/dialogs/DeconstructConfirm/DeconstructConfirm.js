@@ -1151,14 +1151,14 @@
           return o().createElement(g, null, o().createElement(N, t, u));
         };
         var I = t(493),
-          H = t.n(I);
-        let U, W, G;
+          U = t.n(I);
+        let H, W, G;
         (!(function (e) {
           ((e.small = "small"),
             (e.big = "big"),
             (e.large = "large"),
             (e.extraLarge = "extraLarge"));
-        })(U || (U = {})),
+        })(H || (H = {})),
           (function (e) {
             ((e.credits = "credits"),
               (e.gold = "gold"),
@@ -1916,7 +1916,7 @@
             base__left: "TextButton_base__left_ff",
             shine: "TextButton_shine_e2",
           },
-          He = [
+          Ue = [
             "caption",
             "onClick",
             "goto",
@@ -1930,9 +1930,9 @@
             "soundClick",
             "soundHover",
           ];
-        function Ue() {
+        function He() {
           return (
-            (Ue =
+            (He =
               Object.assign ||
               function (e) {
                 for (var u = 1; u < arguments.length; u++) {
@@ -1941,7 +1941,7 @@
                 }
                 return e;
               }),
-            Ue.apply(this, arguments)
+            He.apply(this, arguments)
           );
         }
         class We extends o().PureComponent {
@@ -1990,7 +1990,7 @@
                     a = Object.keys(e);
                   for (n = 0; n < a.length; n++) ((t = a[n]), u.indexOf(t) >= 0 || (r[t] = e[t]));
                   return r;
-                })(e, He)),
+                })(e, Ue)),
               A = h()(Ie.base, Ie[`base__${a}`], Ie[`base__${r}`], null == i ? void 0 : i.base),
               d = h()(Ie.icon, Ie[`icon__${a}`], Ie[`icon__${r}`], null == i ? void 0 : i.icon),
               F = h()(Ie.glow, null == i ? void 0 : i.glow),
@@ -1998,7 +1998,7 @@
               m = h()(Ie.goto, null == i ? void 0 : i.goto);
             return o().createElement(
               "div",
-              Ue(
+              He(
                 {
                   className: A,
                   onMouseEnter: this._onMouseEnter(s),
@@ -2924,8 +2924,8 @@
           }),
           Ou = "HorizontalBar_base_49",
           Iu = "HorizontalBar_base__nonActive_82",
-          Hu = "HorizontalBar_leftButton_5f",
-          Uu = "HorizontalBar_rightButton_03",
+          Uu = "HorizontalBar_leftButton_5f",
+          Hu = "HorizontalBar_rightButton_03",
           Wu = "HorizontalBar_track_0d",
           Gu = "HorizontalBar_thumb_fd",
           zu = "HorizontalBar_rail_32",
@@ -3072,7 +3072,7 @@
                 "div",
                 { className: h()(Ou, u.base), ref: r, onWheel: e.handleMouseWheel },
                 o().createElement("div", {
-                  className: h()(Hu, u.leftButton),
+                  className: h()(Uu, u.leftButton),
                   onMouseDown: (e) => {
                     e.target.classList.contains(qu) || 0 !== e.button || (Ae("play"), B(Mu.Next));
                   },
@@ -3106,7 +3106,7 @@
                   o().createElement("div", { className: h()(zu, u.rail) }),
                 ),
                 o().createElement("div", {
-                  className: h()(Uu, u.rightButton),
+                  className: h()(Hu, u.rightButton),
                   onMouseDown: (e) => {
                     e.target.classList.contains(qu) || 0 !== e.button || (Ae("play"), B(Mu.Prev));
                   },
@@ -3481,6 +3481,7 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
+            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -3513,13 +3514,7 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.WtStamp = "stamp"),
-            (e.WtHunter = "wt_hunter"),
-            (e.WtBoss = "wt_boss"),
-            (e.WtHunterCollection = "hunter_collection"),
-            (e.WtTicket = "wtevent_ticket"),
-            (e.WtMainPrizeDiscount = "main_prize_discount"),
-            (e.WtTicket25 = "wtevent_ticket25"));
+            (e.RazlomCoin = "razlom_coin"));
         })(Ct || (Ct = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -3724,11 +3719,6 @@
           Ct.PremiumPlusUniversal,
           Ct.GoldenTicket,
           Ct.RewardsSlots,
-          Ct.WtStamp,
-          Ct.WtTicket,
-          Ct.WtMainPrizeDiscount,
-          Ct.WtHunter,
-          Ct.WtHunterCollection,
           Ct.Gold,
           Ct.Credits,
           Ct.Crystal,
@@ -3906,8 +3896,8 @@
           kt = "Items_info_0a",
           Ot = "Items_items_f3",
           It = "Items_reward_bf",
-          Ht = "Items_value_fe",
-          Ut = "Items_overlay_b6",
+          Ut = "Items_value_fe",
+          Ht = "Items_overlay_b6",
           Wt = (e) => {
             switch (e) {
               case 1:
@@ -3937,7 +3927,7 @@
                   o().createElement(eu, {
                     classMix: kt,
                     text: Gt.dialogs.deconstructConfirm.content.items.inventory(),
-                    binding: { counter: o().createElement("div", { className: Ht }, r) },
+                    binding: { counter: o().createElement("div", { className: Ut }, r) },
                   }),
                   o().createElement(
                     "div",
@@ -3960,7 +3950,7 @@
                             name: e.name,
                             valueType: pt.MULTI,
                             className: It,
-                            classNames: { overlay: Ut },
+                            classNames: { overlay: Ht },
                             size: gt.Big,
                             special: Wt(e.level),
                             image: `R.images.gui.maps.icons.quests.bonuses.big.${e.icon}`,
@@ -3978,7 +3968,7 @@
                   o().createElement(eu, {
                     classMix: kt,
                     text: Gt.dialogs.deconstructConfirm.content.items.vehicle(),
-                    binding: { counter: o().createElement("div", { className: Ht }, n) },
+                    binding: { counter: o().createElement("div", { className: Ut }, n) },
                   }),
                   o().createElement(
                     "div",
@@ -3999,7 +3989,7 @@
                             name: e.name,
                             valueType: pt.MULTI,
                             className: It,
-                            classNames: { overlay: Ut },
+                            classNames: { overlay: Ht },
                             size: gt.Big,
                             special: Wt(e.level),
                             image: `R.images.gui.maps.icons.quests.bonuses.big.${e.icon}`,
@@ -4103,7 +4093,7 @@
                       ? tn.footer.warning.noEquipmentLeft()
                       : tn.footer.warning.vehicleDeconstruct(),
                     price: E,
-                    size: U.big,
+                    size: H.big,
                     type: W.equipCoin,
                     showAlertMessage: l,
                     className: pu,
@@ -4127,7 +4117,7 @@
             );
           });
         engine.whenReady.then(() => {
-          H().render(
+          U().render(
             o().createElement(O, null, o().createElement(Cu, null, o().createElement(nn, null))),
             document.getElementById("root"),
           );

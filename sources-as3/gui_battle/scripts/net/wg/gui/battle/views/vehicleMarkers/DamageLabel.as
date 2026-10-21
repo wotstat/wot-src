@@ -25,7 +25,7 @@ package net.wg.gui.battle.views.vehicleMarkers
       
       private var _currentTF:TextField = null;
       
-      protected var tfMap:Object = {};
+      private var tfMap:Object = {};
       
       private var _disposed:Boolean = false;
       
@@ -66,11 +66,6 @@ package net.wg.gui.battle.views.vehicleMarkers
       final public function dispose() : void
       {
          this._disposed = true;
-         this.onDispose();
-      }
-      
-      protected function onDispose() : void
-      {
          this.green = null;
          this.red = null;
          this.gold = null;

@@ -137,6 +137,8 @@ class VEHICLE_PREVIEW(object):
     SHOWCASESTYLEBUYING_ACTIONBTN_TOOLTIP_UNAVAILABLE = b'#vehicle_preview:showcaseStyleBuying/actionBtn/tooltip/unavailable'
     SHOWCASESTYLEBUYING_ACTIONBTN_TOOLTIP_SERVICEUNAVAILABLE = b'#vehicle_preview:showcaseStyleBuying/actionBtn/tooltip/serviceUnavailable'
     STATTRACKERPANEL_LABEL = b'#vehicle_preview:statTrackerPanel/label'
+    HEADER_BACKBTN_DESCRLABEL_SESSIONPROGRESSREWARDS = b'#vehicle_preview:header/backBtn/descrLabel/sessionProgressRewards'
+    BUYINGPANEL_UNIQUEVEHICLELABEL_SESSIONPROGRESSREWARDS = b'#vehicle_preview:buyingPanel/uniqueVehicleLabel/sessionProgressRewards'
     TOOLTIPS_STATTRACK_TITLE = b'#vehicle_preview:tooltips/statTrack/title'
     TOOLTIPS_STATTRACK_DESCRIPTION_FIRSTPART = b'#vehicle_preview:tooltips/statTrack/description/firstPart'
     TOOLTIPS_STATTRACK_DESCRIPTION_SECONDPART = b'#vehicle_preview:tooltips/statTrack/description/secondPart'
@@ -163,7 +165,8 @@ class VEHICLE_PREVIEW(object):
      HEADER_BACKBTN_DESCRLABEL_BATTLEMATTERS,
      HEADER_BACKBTN_DESCRLABEL_BATTLEMATTERSMAINREWARD,
      HEADER_BACKBTN_DESCRLABEL_COLLECTIONS,
-     HEADER_BACKBTN_DESCRLABEL_STRONGHOLDPROGRESSION)
+     HEADER_BACKBTN_DESCRLABEL_STRONGHOLDPROGRESSION,
+     HEADER_BACKBTN_DESCRLABEL_SESSIONPROGRESSREWARDS)
     BUYINGPANEL_OFFER_RENT_NAME_ENUM = (
      BUYINGPANEL_OFFER_RENT_NAME_CYCLE,
      BUYINGPANEL_OFFER_RENT_NAME_CYCLES,

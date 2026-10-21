@@ -77,7 +77,7 @@
             extraSize: () => Y,
             forceTriggerMouseMove: () => X,
             freezeTextureBeforeResize: () => M,
-            getBrowserTexturePath: () => x,
+            getBrowserTexturePath: () => S,
             getDisplayStatus: () => j,
             getScale: () => L,
             getSize: () => P,
@@ -91,7 +91,7 @@
             sendEvent: () => w,
             setAnimateWindow: () => I,
             setEventHandled: () => G,
-            setInputPaddingsRem: () => S,
+            setInputPaddingsRem: () => x,
             setSidePaddingsRem: () => T,
             whenTutorialReady: () => $,
           }));
@@ -248,10 +248,10 @@
         function f(u) {
           viewEnv.addPreloadTexture(u);
         }
-        function S(u) {
+        function x(u) {
           viewEnv.setHitAreaPaddingsRem(u, u, u, u, 15);
         }
-        function x(u, e, t, r = 1) {
+        function S(u, e, t, r = 1) {
           return viewEnv.getWebBrowserTexturePath(u, e, t, r);
         }
         function R(u, e, t) {
@@ -966,7 +966,7 @@
           v = Object.assign({ width: h, height: b }, g(h, b, d)),
           w = (0, i.createContext)(v),
           f = ["children"];
-        const S = (u) => {
+        const x = (u) => {
           let e = u.children,
             t = (function (u, e) {
               if (null == u) return {};
@@ -1022,7 +1022,7 @@
           }
           return null;
         };
-        S.defaultProps = {
+        x.defaultProps = {
           extraLarge: !1,
           large: !1,
           medium: !1,
@@ -1039,8 +1039,8 @@
           smallHeight: !1,
           extraSmallHeight: !1,
         };
-        (0, i.memo)(S);
-        const x = (u) => {
+        (0, i.memo)(x);
+        const S = (u) => {
           const e = (0, i.useRef)(!1);
           e.current || (u(), (e.current = !0));
         };
@@ -1054,7 +1054,7 @@
                 r = a.O.view.pxToRem(e);
               n(Object.assign({ width: t, height: r }, g(t, r, d)));
             }, []);
-          (x(() => {
+          (S(() => {
             engine.on("clientResized", o);
           }),
             (0, i.useEffect)(() => () => engine.off("clientResized", o), [o]));
@@ -1297,11 +1297,11 @@
                     (v && "space-around") ||
                     void 0
                   : w,
-              S = u.alignItems,
-              x =
-                void 0 === S
+              x = u.alignItems,
+              S =
+                void 0 === x
                   ? (g ? "flex-start" : p && "center") || (h && "flex-end") || void 0
-                  : S,
+                  : x,
               R = u.alignSelf,
               T = u.wrap,
               P = u.flexWrap,
@@ -1339,15 +1339,15 @@
                     height: void 0 !== r && "number" == typeof r ? r + "rem" : r,
                     flex: N,
                     alignSelf: R,
-                    display: C || x ? "flex" : void 0,
+                    display: C || S ? "flex" : void 0,
                     flexDirection: C,
                     flexWrap: O,
                     justifyContent: f,
-                    alignItems: x,
+                    alignItems: S,
                   }),
                   computedClassNames: e,
                 };
-              }, [t, r, E, A, c, _, k, N, R, C, O, f, x]),
+              }, [t, r, E, A, c, _, k, N, R, C, O, f, S]),
               $ = Y.computedStyle,
               z = Y.computedClassNames;
             return s().createElement("div", G({ className: n()(U.base, ...z, e), style: $ }, q), I);
@@ -1837,8 +1837,8 @@
           }, _u),
           wu = vu[0],
           fu = vu[1],
-          Su = "BattleCondition_base_c0",
-          xu = "BattleCondition_description_f0",
+          xu = "BattleCondition_base_c0",
+          Su = "BattleCondition_description_f0",
           Ru = "BattleCondition_icon_54",
           Tu = ({ iconKey: u, titleData: e }) => {
             const t = {
@@ -1846,9 +1846,9 @@
             };
             return s().createElement(
               "div",
-              { className: Su },
+              { className: xu },
               s().createElement("div", { className: Ru, style: t }),
-              s().createElement("div", { className: xu }, e),
+              s().createElement("div", { className: Su }, e),
             );
           },
           Pu = "BattleConditions_base_b3",
@@ -1912,6 +1912,7 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
+            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1944,13 +1945,7 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.WtStamp = "stamp"),
-            (u.WtHunter = "wt_hunter"),
-            (u.WtBoss = "wt_boss"),
-            (u.WtHunterCollection = "hunter_collection"),
-            (u.WtTicket = "wtevent_ticket"),
-            (u.WtMainPrizeDiscount = "main_prize_discount"),
-            (u.WtTicket25 = "wtevent_ticket25"));
+            (u.RazlomCoin = "razlom_coin"));
         })(Nu || (Nu = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -2101,11 +2096,6 @@
             Nu.PremiumPlusUniversal,
             Nu.GoldenTicket,
             Nu.RewardsSlots,
-            Nu.WtStamp,
-            Nu.WtTicket,
-            Nu.WtMainPrizeDiscount,
-            Nu.WtHunter,
-            Nu.WtHunterCollection,
           ],
           zu = [Nu.Gold, Nu.Credits, Nu.Crystal, Nu.FreeXp],
           Vu = [Nu.BattlePassPoints],
@@ -2271,6 +2261,8 @@
               case Nu.StyleProgress:
               case Nu.LbStyleProgress:
                 return ee(a, e, ju.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${e}.${i}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${e}.${t}`;
             }
@@ -2433,12 +2425,12 @@
                   Object.assign(
                     {
                       onMouseEnter:
-                        ((S = e.props.onMouseEnter),
+                        ((x = e.props.onMouseEnter),
                         (u) => {
                           (u.clientX === window.innerWidth && u.clientY === window.innerHeight) ||
                             ((h.current.timeoutId = window.setTimeout(v, l ? 100 : 400)),
                             n && n(u),
-                            S && S(u));
+                            x && x(u));
                         }),
                       onMouseLeave: ((u) => (e) => {
                         (w(), null == a || a(e), null == u || u(e));
@@ -2454,7 +2446,7 @@
                   ),
                 )
               : e;
-            var S;
+            var x;
           },
           ie = ["children"];
         function se() {
@@ -2847,8 +2839,8 @@
               s().createElement(he, { data: e, count: 2 }),
             );
           },
-          Se = "App_base_89",
-          xe = "App_header_40",
+          xe = "App_base_89",
+          Se = "App_header_40",
           Re = "App_title_70",
           Te = "App_description_11",
           Pe = "App_separator_d1",
@@ -2859,10 +2851,10 @@
               r = u.computes.getBonuses();
             return s().createElement(
               "div",
-              { className: Se },
+              { className: xe },
               s().createElement(
                 "div",
-                { className: xe },
+                { className: Se },
                 s().createElement(cu, {
                   className: Re,
                   text: R.strings.tooltips.debut_boxes.title(),

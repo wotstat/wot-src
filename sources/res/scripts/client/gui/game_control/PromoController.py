@@ -2,7 +2,7 @@ import logging, typing
 from collections import namedtuple
 import BigWorld
 from Event import Event, EventManager
-from account_helpers.settings_core.ServerSettingsManager import UI_STORAGE_KEYS
+from account_helpers.settings_core.ServerSettingsManager import UI_STORAGE_KEYS, SETTINGS_SECTIONS
 from adisp import adisp_process, adisp_async
 from frameworks.wulf import WindowLayer
 from gui import GUI_SETTINGS
@@ -159,6 +159,11 @@ class PromoController(IPromoController):
         self.__stop()
         return
 
+    def onPortalStop(self):
+        if self.isTeaserOpen():
+            self.__stop()
+        return
+
     def isActive(self):
         return self.__lobbyContext.getServerSettings().isFieldPostEnabled() and not self.__bootcamp.isInBootcamp()
 
@@ -186,10 +191,10 @@ class PromoController(IPromoController):
         return
 
     def __showBubbleTooltip(self):
-        storageData = self.__settingsCore.serverSettings.getUIStorage()
+        storageData = self.__settingsCore.serverSettings.getUIStorage(SETTINGS_SECTIONS.UI_STORAGE)
         if not storageData.get(UI_STORAGE_KEYS.FIELD_POST_HINT_IS_SHOWN):
             showBubbleTooltip(i18n.makeString(TOOLTIPS.HEADER_VERSIONINFOHINT))
-            self.__settingsCore.serverSettings.saveInUIStorage({(UI_STORAGE_KEYS.FIELD_POST_HINT_IS_SHOWN): True})
+            self.__settingsCore.serverSettings.saveInUIStorage(SETTINGS_SECTIONS.UI_STORAGE, {(UI_STORAGE_KEYS.FIELD_POST_HINT_IS_SHOWN): True})
         return
 
     @adisp_process

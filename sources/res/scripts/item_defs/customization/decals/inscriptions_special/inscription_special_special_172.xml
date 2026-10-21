@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<userString>#vehicle_customization:inscription/special</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>MT inscriptions 25g notInShop</priceGroup>
+		<vehicleFilter>
+			<include>
+				<nations>japan</nations>
+			</include>
+		</vehicleFilter>
+		<decal>
+			<id>143</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_172.dds</texture>
+			<userString>#vehicle_customization:inscription/special/special_172</userString>
+			<mirror>false</mirror>
+		</decal>
+		<decal>
+			<id>144</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_174.dds</texture>
+			<userString>#vehicle_customization:inscription/special/special_174</userString>
+			<mirror>false</mirror>
+		</decal>
+		<decal>
+			<id>145</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_176.dds</texture>
+			<userString>#vehicle_customization:inscription/special/special_176</userString>
+			<mirror>false</mirror>
+		</decal>
+		<name>Christmas Event 17/18 Japan</name>
+		<type>INSCRIPTION</type>
+	</itemGroup>
+</root>

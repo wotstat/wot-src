@@ -1,0 +1,27 @@
+from dyn_objects_cache import _CommonForBattleRoyaleAndEpicBattleDynObjects, _createTerrainCircleSettings
+from dyn_objects_cache import _MinesEffects, _MinesPlantEffect, _MinesDestroyEffect, _TeamRelatedEffect
+
+class _EpicMinesIdleBlueEffect(_TeamRelatedEffect):
+    _SECTION_NAME = b'epicMinesIdleBlueEffect'
+
+
+class PortalDynObjects(_CommonForBattleRoyaleAndEpicBattleDynObjects):
+
+    def __init__(self):
+        super(PortalDynObjects, self).__init__()
+        self.__minesEffects = None
+        self.__influenceZoneCircleEffect = None
+        return
+
+    def init(self, dataSection):
+        if not self._initialized:
+            self.__minesEffects = _MinesEffects(plantEffect=_MinesPlantEffect(dataSection), idleEffect=_EpicMinesIdleBlueEffect(dataSection), destroyEffect=_MinesDestroyEffect(dataSection), blowUpEffectName=b'epicMinesBlowUpEffect', placeMinesEffect=b'epicMinesDecalEffect', activationEffect=b'epicMinesActivationDecalEffect')
+            self.__influenceZoneCircleEffect = _createTerrainCircleSettings(dataSection[b'InfluenceZoneCircleVisual'])
+        super(PortalDynObjects, self).init(dataSection)
+        return
+
+    def getMinesEffect(self):
+        return self.__minesEffects
+
+    def getInfluenceZoneCircleEffect(self):
+        return self.__influenceZoneCircleEffect

@@ -234,6 +234,12 @@ class StatisticsCollector(IStatisticsCollector):
             resolutionContainer = monitorSettings.currentBorderlessSize
         stat[b'screenResWidth'] = resolutionContainer.width
         stat[b'screenResHeight'] = resolutionContainer.height
+        numAdapters, maxActiveAdapter, maxGlobalAdapter = monitorSettings.getMaxResolutionsInfo()
+        stat[b'screenActiveMaxResWidth'] = maxActiveAdapter.width
+        stat[b'screenActiveMaxResHeight'] = maxActiveAdapter.height
+        stat[b'screenGlobalMaxResWidth'] = maxGlobalAdapter.width
+        stat[b'screenGlobalMaxResHeight'] = maxGlobalAdapter.height
+        stat[b'numOutputAdapters'] = numAdapters
         stat[b'drrScale'] = int(round(BigWorld.getDRRScale() * 100))
         stat[b'dynamicDRR'] = BigWorld.isDRRAutoscalingEnabled()
         stat[b'invalidStats'] |= self.__invalidStats

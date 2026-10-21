@@ -20,8 +20,6 @@ package net.wg.gui.components.crosshairPanel.components.gunMarker
       function setIsSecondary(param1:Boolean) : void;
       
       function setDualAccActive(param1:Boolean) : void;
-      
-      function setExplosiveMarker(param1:Boolean) : void;
    }
 }
 

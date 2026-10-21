@@ -159,11 +159,6 @@ class SettingsWindowMeta(AbstractWindowView):
             return self.flashObject.as_setBattleContextHintsResetEnabled(isEnabled)
         return
 
-    def as_setTigerEventS(self, isInEvent):
-        if self._isDAAPIInited():
-            return self.flashObject.as_setTigerEvent(isInEvent)
-        return
-
     def as_setVOIPTestReadyS(self, value):
         if self._isDAAPIInited():
             return self.flashObject.as_setVOIPTestReady(value)

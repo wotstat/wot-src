@@ -40,10 +40,10 @@ class CustomizationSlotDescription(object):
 
 class ProjectionDecalSlotDescription(object):
     __metaclass__ = ReflectionMetaclass
-    __slots__ = (b'type', b'slotId', b'position', b'rotation', b'scale', b'scaleFactors', b'doubleSided', b'hiddenForUser', b'canBeMirroredVertically', b'showOn', b'tags', b'clipAngle', b'compatibleModels', b'itemId', b'options', b'anchorShift', b'modificationOrder')
+    __slots__ = (b'type', b'slotId', b'position', b'rotation', b'scale', b'scaleFactors', b'doubleSided', b'hiddenForUser', b'canBeMirroredVertically', b'showOn', b'tags', b'clipAngle', b'compatibleModels', b'itemId', b'options', b'anchorShift', b'modificationOrder', b'newAdded')
 
     def __init__(self, slotType=b'', slotId=0, position=None, rotation=None, scale=None, scaleFactors=c11n_constants.DEFAULT_DECAL_SCALE_FACTORS, doubleSided=False, hiddenForUser=False, canBeMirroredVertically=False, showOn=None, tags=None, clipAngle=c11n_constants.DEFAULT_DECAL_CLIP_ANGLE, compatibleModels=(
- c11n_constants.SLOT_DEFAULT_ALLOWED_MODEL,), itemId=None, options=c11n_constants.Options.NONE, anchorShift=c11n_constants.DEFAULT_DECAL_ANCHOR_SHIFT, modificationOrder=0):
+ c11n_constants.SLOT_DEFAULT_ALLOWED_MODEL,), itemId=None, options=c11n_constants.Options.NONE, anchorShift=c11n_constants.DEFAULT_DECAL_ANCHOR_SHIFT, modificationOrder=0, newAdded=False):
         self.type = slotType
         self.slotId = slotId
         self.position = position
@@ -61,6 +61,7 @@ class ProjectionDecalSlotDescription(object):
         self.options = options
         self.anchorShift = anchorShift
         self.modificationOrder = modificationOrder
+        self.newAdded = newAdded
         return
 
 

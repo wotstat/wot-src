@@ -36,22 +36,22 @@
             displayStatusIs: () => V,
             events: () => B,
             extraSize: () => q,
-            forceTriggerMouseMove: () => $,
+            forceTriggerMouseMove: () => z,
             freezeTextureBeforeResize: () => O,
             getBrowserTexturePath: () => R,
-            getDisplayStatus: () => z,
+            getDisplayStatus: () => W,
             getScale: () => M,
             getSize: () => x,
             getViewGlobalPosition: () => k,
             isClientAccessible: () => H,
-            isEventHandled: () => G,
+            isEventHandled: () => $,
             isFocused: () => U,
             pxToRem: () => I,
             remToPx: () => N,
             resize: () => P,
             sendEvent: () => v,
             setAnimateWindow: () => L,
-            setEventHandled: () => W,
+            setEventHandled: () => G,
             setInputPaddingsRem: () => T,
             setSidePaddingsRem: () => y,
             whenTutorialReady: () => Y,
@@ -252,16 +252,16 @@
         function H() {
           return viewEnv.isClientAccessible();
         }
-        function W() {
+        function G() {
           return viewEnv.setEventHandled();
         }
-        function G() {
+        function $() {
           return viewEnv.isEventHandled();
         }
-        function $() {
+        function z() {
           viewEnv.forceTriggerMouseMove();
         }
-        function z() {
+        function W() {
           return viewEnv.getShowingStatus();
         }
         const V = Object.keys(D).reduce(
@@ -1146,7 +1146,7 @@
                 const a = N(`${e}.${t}`, window);
                 return L(a) ? u(e, t, a) : `${e}.${t}`;
               }))(e, (e, u) => `${e}.${u}.value`),
-          W = (e) => {
+          G = (e) => {
             const u = ((e) => {
                 const u = I(),
                   t = u.caller,
@@ -1168,12 +1168,12 @@
             }
             return "";
           },
-          G = y.Sw.instance;
-        let $;
+          $ = y.Sw.instance;
+        let z;
         !(function (e) {
           ((e.None = "None"), (e.Shallow = "Shallow"), (e.Deep = "Deep"));
-        })($ || ($ = {}));
-        const z = (e = "model", u = $.Deep) => {
+        })(z || (z = {}));
+        const W = (e = "model", u = z.Deep) => {
           const t = (0, a.useState)(0),
             n = (t[0], t[1]),
             r = (0, a.useMemo)(() => I(), []),
@@ -1197,26 +1197,26 @@
             D(() => {
               if (
                 ("boolean" == typeof u &&
-                  ((u = u ? $.Deep : $.None),
+                  ((u = u ? z.Deep : z.None),
                   console.warn(
                     'Boolean key for useModel "tracking" param is deprecated. Use ModelTracking enum values instead!',
                   )),
-                u !== $.None)
+                u !== z.None)
               ) {
                 const t = (e) => {
                     ((e) => e && "CoherentArrayProxy" === e.__proto__.constructor.name)(e) &&
-                    u === $.Deep
+                    u === z.Deep
                       ? (e === _ && n((e) => e + 1), c(e))
                       : c(Object.assign([], e));
                   },
-                  a = W(e);
-                d.current = G.addCallback(a, t, i, u === $.Deep);
+                  a = G(e);
+                d.current = $.addCallback(a, t, i, u === z.Deep);
               }
             }),
             (0, a.useEffect)(() => {
-              if (u !== $.None)
+              if (u !== z.None)
                 return () => {
-                  G.removeCallback(d.current, i);
+                  $.removeCallback(d.current, i);
                 };
             }, [i, u]),
             _
@@ -1260,7 +1260,7 @@
             scale: "Background_scale_85",
           },
           Y = () => {
-            const e = z("model"),
+            const e = W("model"),
               u = e.isRibbonGold,
               t = e.isLightVisible,
               a = e.mainItemsCount,
@@ -1459,10 +1459,10 @@
           ue = "Footer_button_c6",
           te = R.strings.awards.multipleAwards.button,
           ae = () => {
-            const e = z("model"),
+            const e = W("model"),
               u = e.hasRewardsOnChoice,
               t = e.hasVehicleToView,
-              r = z("model", !1),
+              r = W("model", !1),
               s = r.showHangar,
               i = r.makeChoice,
               o = r.onClose,
@@ -1519,7 +1519,7 @@
             rotate: "Header_rotate_49",
           },
           re = () => {
-            const e = z("model"),
+            const e = W("model"),
               u = e.title,
               t = e.titleIcon,
               r = e.subTitle,
@@ -1589,6 +1589,7 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
+            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1621,13 +1622,7 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.WtStamp = "stamp"),
-            (e.WtHunter = "wt_hunter"),
-            (e.WtBoss = "wt_boss"),
-            (e.WtHunterCollection = "hunter_collection"),
-            (e.WtTicket = "wtevent_ticket"),
-            (e.WtMainPrizeDiscount = "main_prize_discount"),
-            (e.WtTicket25 = "wtevent_ticket25"));
+            (e.RazlomCoin = "razlom_coin"));
         })(ce || (ce = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -1777,11 +1772,6 @@
             ce.PremiumPlusUniversal,
             ce.GoldenTicket,
             ce.RewardsSlots,
-            ce.WtStamp,
-            ce.WtTicket,
-            ce.WtMainPrizeDiscount,
-            ce.WtHunter,
-            ce.WtHunterCollection,
           ],
           he = [ce.Gold, ce.Credits, ce.Crystal, ce.FreeXp],
           be = [ce.BattlePassPoints],
@@ -1947,6 +1937,8 @@
               case ce.StyleProgress:
               case ce.LbStyleProgress:
                 return ye(r, u, Ce.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${u}.${s}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}`;
             }
@@ -2189,7 +2181,7 @@
           );
         }
         const He = R.views.common.tooltip_window.simple_tooltip_content,
-          We = (e) => {
+          Ge = (e) => {
             let u = e.children,
               t = e.body,
               r = e.header,
@@ -2226,9 +2218,9 @@
             );
             var c;
           };
-        function Ge() {
+        function $e() {
           return (
-            (Ge =
+            ($e =
               Object.assign ||
               function (e) {
                 for (var u = 1; u < arguments.length; u++) {
@@ -2237,21 +2229,21 @@
                 }
                 return e;
               }),
-            Ge.apply(this, arguments)
+            $e.apply(this, arguments)
           );
         }
-        const $e = ({ children: e, tooltipArgs: u, className: t }) => {
+        const ze = ({ children: e, tooltipArgs: u, className: t }) => {
             if (!u) return e;
             const a = n().createElement("div", { className: t }, e);
-            if (u.header || u.body) return n().createElement(We, u, a);
+            if (u.header || u.body) return n().createElement(Ge, u, a);
             const r = u.contentId,
               s = u.args,
               i = null == s ? void 0 : s.contentId;
             return r || i
-              ? n().createElement(Oe, Ge({}, u, { contentId: r || i }), a)
+              ? n().createElement(Oe, $e({}, u, { contentId: r || i }), a)
               : n().createElement(Ne, u, a);
           },
-          ze = {
+          We = {
             base: "Reward_base_ea",
             base__s48x48: "Reward_base__s48x48_46",
             base__small: "Reward_base__small_c0",
@@ -2332,31 +2324,31 @@
               m = Se(s, i);
             return n().createElement(
               "div",
-              { className: h()(ze.base, ze[`base__${a}`], l), style: o },
+              { className: h()(We.base, We[`base__${a}`], l), style: o },
               n().createElement(
-                $e,
-                { tooltipArgs: c, className: ze.tooltipWrapper },
+                ze,
+                { tooltipArgs: c, className: We.tooltipWrapper },
                 n().createElement(
                   n().Fragment,
                   null,
                   n().createElement(
                     "div",
-                    { className: h()(ze.image, null == _ ? void 0 : _.image) },
+                    { className: h()(We.image, null == _ ? void 0 : _.image) },
                     E &&
                       n().createElement("div", {
-                        className: h()(ze.highlight, null == _ ? void 0 : _.highlight),
+                        className: h()(We.highlight, null == _ ? void 0 : _.highlight),
                         style: {
                           backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${a}.${E}_highlight)`,
                         },
                       }),
                     u &&
                       n().createElement("div", {
-                        className: h()(ze.icon, null == _ ? void 0 : _.rewardIcon),
+                        className: h()(We.icon, null == _ ? void 0 : _.rewardIcon),
                         style: { backgroundImage: `url(${u})` },
                       }),
                     A &&
                       n().createElement("div", {
-                        className: h()(ze.overlay, null == _ ? void 0 : _.overlay),
+                        className: h()(We.overlay, null == _ ? void 0 : _.overlay),
                         style: {
                           backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${a}.${A}_overlay)`,
                         },
@@ -2367,9 +2359,9 @@
                       "div",
                       {
                         className: h()(
-                          ze.info,
-                          ze[`info__${e}`],
-                          i === Ae.MULTI && ze.info__multi,
+                          We.info,
+                          We[`info__${e}`],
+                          i === Ae.MULTI && We.info__multi,
                           null == _ ? void 0 : _.info,
                         ),
                       },
@@ -2379,10 +2371,10 @@
               ),
               t &&
                 n().createElement(
-                  $e,
+                  ze,
                   { tooltipArgs: d },
                   n().createElement("div", {
-                    className: h()(ze.timer, null == _ ? void 0 : _.periodicIcon),
+                    className: h()(We.timer, null == _ ? void 0 : _.periodicIcon),
                   }),
                 ),
             );
@@ -2744,7 +2736,7 @@
             rotate: "RewardList_rotate_51",
           },
           mu = () => {
-            const e = z("model"),
+            const e = W("model"),
               u = e.mainItemsCount,
               t = e.rewards,
               r = (0, a.useState)(!1),
@@ -2822,7 +2814,7 @@
             rotate: "App_rotate_6c",
           },
           Du = () => {
-            const e = z("model", !1).onClose;
+            const e = W("model", !1).onClose;
             (0, a.useEffect)(() => {
               b("gui_hangar_award_screen");
             }, []);

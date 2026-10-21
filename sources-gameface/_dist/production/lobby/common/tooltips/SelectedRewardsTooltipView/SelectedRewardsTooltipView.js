@@ -41,17 +41,17 @@
             getBrowserTexturePath: () => P,
             getDisplayStatus: () => z,
             getScale: () => M,
-            getSize: () => S,
+            getSize: () => R,
             getViewGlobalPosition: () => x,
-            isClientAccessible: () => W,
+            isClientAccessible: () => G,
             isEventHandled: () => q,
             isFocused: () => I,
             pxToRem: () => N,
             remToPx: () => L,
-            resize: () => R,
+            resize: () => S,
             sendEvent: () => T,
             setAnimateWindow: () => U,
-            setEventHandled: () => G,
+            setEventHandled: () => W,
             setInputPaddingsRem: () => f,
             setSidePaddingsRem: () => O,
             whenTutorialReady: () => $,
@@ -221,10 +221,10 @@
         function O(u) {
           viewEnv.setHitAreaPaddingsRem(u.top, u.right, u.bottom, u.left, 15);
         }
-        function S(u = "px") {
+        function R(u = "px") {
           return "rem" === u ? viewEnv.getViewSizeRem() : viewEnv.getViewSizePx();
         }
-        function R(u, e, t = "px") {
+        function S(u, e, t = "px") {
           return "rem" === t ? viewEnv.resizeViewRem(u, e) : viewEnv.resizeViewPx(u, e);
         }
         function x(u = "rem") {
@@ -249,10 +249,10 @@
         function I() {
           return viewEnv.isFocused();
         }
-        function W() {
+        function G() {
           return viewEnv.isClientAccessible();
         }
-        function G() {
+        function W() {
           return viewEnv.setEventHandled();
         }
         function q() {
@@ -1060,19 +1060,19 @@
             bond: "FormatTextWithColorTags_bond_71",
             prom: "FormatTextWithColorTags_prom_dd",
           },
-          W =
+          G =
             /(?:%\(|{)\w*(?:_[Oo]pen|Start)(?:\)s|})?(.*?)(?:%\(|{)\w*(?:_[Cc]lose|End)(?:\)s|})?/g,
-          G = /(?<=(?:%\(|{))(.*?)(?=(?:_[Oo]pen|Start))/,
+          W = /(?<=(?:%\(|{))(.*?)(?=(?:_[Oo]pen|Start))/,
           q = /(?<=(?:_[Oo]pen|Start)(?:\)s?|}))(.*?)(?=(?:%\(|{))/,
           Y = (0, E.memo)(({ text: u, binding: e, classMix: t }) => {
             const F = (0, E.useCallback)((u) => ({ color: `#${u}` }), []),
               n = (0, E.useMemo)(() => e || {}, [e]);
-            let r = W.exec(u),
+            let r = G.exec(u),
               D = u,
               o = 0;
             for (; r;) {
               const t = r[0],
-                E = G.exec(t),
+                E = W.exec(t),
                 i = q.exec(t),
                 a = r[1];
               if (E && i) {
@@ -1091,7 +1091,7 @@
                         A().createElement(U, { text: a, binding: e }),
                       )));
               }
-              r = W.exec(u);
+              r = G.exec(u);
             }
             return A().createElement(U, { text: D, classMix: t, binding: n });
           });
@@ -1128,6 +1128,7 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
+            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1160,13 +1161,7 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.WtStamp = "stamp"),
-            (u.WtHunter = "wt_hunter"),
-            (u.WtBoss = "wt_boss"),
-            (u.WtHunterCollection = "hunter_collection"),
-            (u.WtTicket = "wtevent_ticket"),
-            (u.WtMainPrizeDiscount = "main_prize_discount"),
-            (u.WtTicket25 = "wtevent_ticket25"));
+            (u.RazlomCoin = "razlom_coin"));
         })(z || (z = {})),
           (function (u) {
             ((u.Gold = "gold"),

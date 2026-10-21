@@ -5,7 +5,7 @@ package net.wg.infrastructure.base.meta
    public interface ITeamBasesPanelMeta extends IEventDispatcher
    {
       
-      function as_add(param1:Number, param2:Number, param3:String, param4:String, param5:Number, param6:String, param7:int, param8:Boolean) : void;
+      function as_add(param1:Number, param2:Number, param3:String, param4:String, param5:Number, param6:String, param7:int, param8:Boolean, param9:Boolean) : void;
       
       function as_remove(param1:Number) : void;
       

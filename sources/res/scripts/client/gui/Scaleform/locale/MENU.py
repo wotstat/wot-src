@@ -1854,8 +1854,7 @@ class MENU(object):
     BONUSTYPE_43 = b'#menu:bonusType/43'
     BONUSTYPE_44 = b'#menu:bonusType/44'
     BONUSTYPE_50 = b'#menu:bonusType/50'
-    BONUSTYPE_52 = b'#menu:bonusType/52'
-    BONUSTYPE_53 = b'#menu:bonusType/53'
+    BONUSTYPE_61 = b'#menu:bonusType/61'
     FORTIFICATIONCTX_ASSIGNEDPLAYERS = b'#menu:fortificationCtx/assignedPlayers'
     FORTIFICATIONCTX_PREPAREORDER = b'#menu:fortificationCtx/prepareOrder'
     FORTIFICATIONCTX_CLANDESCRIPTION_OPENCLANCARD = b'#menu:fortificationCtx/clanDescription/openClanCard'
@@ -2388,6 +2387,7 @@ class MENU(object):
     LOADING_BATTLETYPES_300 = b'#menu:loading/battleTypes/300'
     LOADING_BATTLETYPES_DESC_300 = b'#menu:loading/battleTypes/desc/300'
     HEADERBUTTON_MUSEUM = b'#menu:headerButton/museum'
+    CONTEXTMENU_CREATEPORTALSQUAD = b'#menu:contextMenu/createPortalSquad'
     CONTEXTMENU_ENUM = (
      CONTEXTMENU_EXCHANGE,
      CONTEXTMENU_VEHICLEINFO,
@@ -2499,7 +2499,8 @@ class MENU(object):
      CONTEXTMENU_CREWWIDGETSENDTOTOBARRACKS,
      CONTEXTMENU_CREWWIDGETDISMISS,
      CONTEXTMENU_CREWWIDGETQUICKTRAINING,
-     CONTEXTMENU_CREWWIDGETCHANGESPECIALIZATION)
+     CONTEXTMENU_CREWWIDGETCHANGESPECIALIZATION,
+     CONTEXTMENU_CREATEPORTALSQUAD)
     NATIONS_ENUM = (
      NATIONS_TITLE,
      NATIONS_USSR,

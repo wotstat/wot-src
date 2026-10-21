@@ -91,10 +91,10 @@
             displayStatusIs: () => j,
             events: () => B,
             extraSize: () => q,
-            forceTriggerMouseMove: () => X,
+            forceTriggerMouseMove: () => $,
             freezeTextureBeforeResize: () => P,
             getBrowserTexturePath: () => S,
-            getDisplayStatus: () => $,
+            getDisplayStatus: () => X,
             getScale: () => O,
             getSize: () => L,
             getViewGlobalPosition: () => y,
@@ -313,10 +313,10 @@
         function W() {
           return viewEnv.isEventHandled();
         }
-        function X() {
+        function $() {
           viewEnv.forceTriggerMouseMove();
         }
-        function $() {
+        function X() {
           return viewEnv.getShowingStatus();
         }
         const j = Object.keys(d).reduce(
@@ -1311,8 +1311,8 @@
           soundHover: "highlight",
           soundClick: "play",
         };
-        const X = (0, r.memo)(W),
-          $ = {
+        const $ = (0, r.memo)(W),
+          X = {
             base: "TextButton_base_b6",
             base__right: "TextButton_base__right_39",
             icon: "TextButton_icon_17",
@@ -1405,11 +1405,11 @@
                   for (r = 0; r < a.length; r++) ((t = a[r]), e.indexOf(t) >= 0 || (n[t] = u[t]));
                   return n;
                 })(u, j)),
-              c = g()($.base, $[`base__${i}`], $[`base__${a}`], null == s ? void 0 : s.base),
-              D = g()($.icon, $[`icon__${i}`], $[`icon__${a}`], null == s ? void 0 : s.icon),
-              _ = g()($.glow, null == s ? void 0 : s.glow),
-              m = g()($.caption, $[`caption__${i}`], null == s ? void 0 : s.caption),
-              d = g()($.goto, null == s ? void 0 : s.goto);
+              c = g()(X.base, X[`base__${i}`], X[`base__${a}`], null == s ? void 0 : s.base),
+              D = g()(X.icon, X[`icon__${i}`], X[`icon__${a}`], null == s ? void 0 : s.icon),
+              _ = g()(X.glow, null == s ? void 0 : s.glow),
+              m = g()(X.caption, X[`caption__${i}`], null == s ? void 0 : s.caption),
+              d = g()(X.goto, null == s ? void 0 : s.goto);
             return n().createElement(
               "div",
               q(
@@ -1425,7 +1425,7 @@
                 },
                 F,
               ),
-              "info" !== i && n().createElement("div", { className: $.shine }),
+              "info" !== i && n().createElement("div", { className: X.shine }),
               n().createElement(
                 "div",
                 { className: D },
@@ -1997,8 +1997,8 @@
                     ),
                   ),
                 );
-        var Xu = t(532),
-          $u = t.n(Xu);
+        var $u = t(532),
+          Xu = t.n($u);
         const ju = {
             "paragraph-P10": "Text_paragraph-P10_2c",
             "paragraph-P12": "Text_paragraph-P12_22",
@@ -2071,7 +2071,7 @@
           );
         }
         Object.keys(gu());
-        const Yu = Object.keys($u()),
+        const Yu = Object.keys(Xu()),
           Vu = { mt: "MD", mr: "SM", mb: "SM", ml: "SM" },
           Ku = { mt: "SM", mr: "XS", mb: "XS", ml: "XS" },
           Qu = { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
@@ -2394,6 +2394,7 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
+            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -2426,13 +2427,7 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.WtStamp = "stamp"),
-            (u.WtHunter = "wt_hunter"),
-            (u.WtBoss = "wt_boss"),
-            (u.WtHunterCollection = "hunter_collection"),
-            (u.WtTicket = "wtevent_ticket"),
-            (u.WtMainPrizeDiscount = "main_prize_discount"),
-            (u.WtTicket25 = "wtevent_ticket25"));
+            (u.RazlomCoin = "razlom_coin"));
         })(ve || (ve = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -2581,11 +2576,6 @@
           ve.PremiumPlusUniversal,
           ve.GoldenTicket,
           ve.RewardsSlots,
-          ve.WtStamp,
-          ve.WtTicket,
-          ve.WtMainPrizeDiscount,
-          ve.WtHunter,
-          ve.WtHunterCollection,
           ve.Gold,
           ve.Credits,
           ve.Crystal,
@@ -2754,6 +2744,8 @@
               case ve.StyleProgress:
               case ve.LbStyleProgress:
                 return He(a, e, Re.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${e}.${i}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${e}.${t}`;
             }
@@ -2939,8 +2931,8 @@
               : e;
             var x;
           },
-          Xe = "Reward_base_fd",
-          $e = "Reward_tooltipContent_7e",
+          $e = "Reward_base_fd",
+          Xe = "Reward_tooltipContent_7e",
           je = "Reward_rewardTitle_2e",
           qe = "Reward_imageWrapper_b8",
           ze = "Reward_image_a9",
@@ -2980,7 +2972,7 @@
               ),
               n().createElement(
                 "div",
-                { className: Xe },
+                { className: $e },
                 n().createElement(
                   We,
                   {
@@ -2991,7 +2983,7 @@
                   },
                   n().createElement(
                     "div",
-                    { className: $e },
+                    { className: Xe },
                     n().createElement(
                       "div",
                       { className: qe },
@@ -3070,7 +3062,7 @@
                   "div",
                   { className: du },
                   n().createElement(
-                    X,
+                    $,
                     { type: G.primary, size: s ? U.medium : U.small, onClick: o, mixClass: Bu },
                     rt.accept(),
                   ),

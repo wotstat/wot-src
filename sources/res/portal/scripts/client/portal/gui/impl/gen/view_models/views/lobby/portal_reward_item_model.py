@@ -1,0 +1,12 @@
+from gui.impl.gen.view_models.views.lobby.battle_pass.reward_item_model import RewardItemModel
+
+class PortalRewardItemModel(RewardItemModel):
+    __slots__ = ()
+
+    def __init__(self, properties=15, commands=0):
+        super(PortalRewardItemModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def _initialize(self):
+        super(PortalRewardItemModel, self)._initialize()
+        return

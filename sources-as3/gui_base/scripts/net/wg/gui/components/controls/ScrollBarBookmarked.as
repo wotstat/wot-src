@@ -151,9 +151,10 @@ package net.wg.gui.components.controls
       
       private function updateAllBookmarkPositions() : void
       {
+         var _loc2_:int = 0;
          var _loc3_:Number = NaN;
          var _loc1_:int = int(this._bookmarks.length);
-         var _loc2_:int = 0;
+         _loc2_ = 0;
          while(_loc2_ < _loc1_)
          {
             this.updateBookmarkPosition(_loc2_);

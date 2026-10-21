@@ -26,6 +26,9 @@ class _TutorialState(TutorialProxyHolder):
     def unlock(self, targetID):
         return
 
+    def interruptCurrentEffect(self):
+        return
+
     def _processEvent(self, event, scope, benefit=False, isGlobal=False):
         action = scope.getAction(event)
         if action is not None:
@@ -180,6 +183,11 @@ class TutorialStateRunEffects(_TutorialState):
             target = self._current.getTarget()
             if hasattr(target, b'getTargetID') and target.getTargetID() == targetID:
                 self.__clearCurrent()
+        return
+
+    def interruptCurrentEffect(self):
+        if self._current is not None:
+            self.__clearCurrent()
         return
 
     def __clearCurrent(self):

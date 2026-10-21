@@ -33,13 +33,13 @@
             addPreloadTexture: () => f,
             children: () => a,
             displayStatus: () => m,
-            displayStatusIs: () => Y,
+            displayStatusIs: () => H,
             events: () => B,
-            extraSize: () => q,
-            forceTriggerMouseMove: () => W,
+            extraSize: () => W,
+            forceTriggerMouseMove: () => Y,
             freezeTextureBeforeResize: () => x,
             getBrowserTexturePath: () => R,
-            getDisplayStatus: () => H,
+            getDisplayStatus: () => q,
             getScale: () => M,
             getSize: () => S,
             getViewGlobalPosition: () => k,
@@ -258,17 +258,17 @@
         function z() {
           return viewEnv.isEventHandled();
         }
-        function W() {
+        function Y() {
           viewEnv.forceTriggerMouseMove();
         }
-        function H() {
+        function q() {
           return viewEnv.getShowingStatus();
         }
-        const Y = Object.keys(m).reduce(
+        const H = Object.keys(m).reduce(
             (u, e) => ((u[e] = () => viewEnv.getShowingStatus() === m[e]), u),
             {},
           ),
-          q = {
+          W = {
             set: (u, e) => {
               viewEnv.setExtraSizeRem(u, e);
             },
@@ -1038,8 +1038,8 @@
             return o().createElement(N, { text: i, classMix: t, binding: r });
           }),
           z = "Timer_base_41",
-          W = "Timer_icon_26",
-          H = (0, s.memo)(({ endDate: u, className: e }) => {
+          Y = "Timer_icon_26",
+          q = (0, s.memo)(({ endDate: u, className: e }) => {
             const t = Math.floor(Date.now() / f),
               n = (function (u = 0) {
                 let e = u;
@@ -1095,7 +1095,7 @@
             return o().createElement(
               "div",
               { className: r()(z, e) },
-              o().createElement("div", { className: W }),
+              o().createElement("div", { className: Y }),
               (() => {
                 if (n.days > 30)
                   return o().createElement($, {
@@ -1131,7 +1131,7 @@
               })(),
             );
           });
-        class Y extends o().PureComponent {
+        class H extends o().PureComponent {
           render() {
             let u;
             if ("gold" === this.props.format) u = h.B3.GOLD;
@@ -1140,8 +1140,8 @@
             return void 0 !== this.props.value && void 0 !== e ? e : null;
           }
         }
-        let q, j, V, X, K, Q, Z, J, uu;
-        ((Y.defaultProps = { format: "integral" }),
+        let W, j, V, X, K, Q, Z, J, uu;
+        ((H.defaultProps = { format: "integral" }),
           (function (u) {
             ((u.Items = "items"),
               (u.Equipment = "equipment"),
@@ -1174,6 +1174,7 @@
               (u.SelectableBonus = "selectableBonus"),
               (u.StyleProgressToken = "styleProgressToken"),
               (u.TmanToken = "tmanToken"),
+              (u.PortalEventDiscount25 = "portalEventDiscountToken"),
               (u.NaturalCover = "naturalCover"),
               (u.BpCoin = "bpcoin"),
               (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1206,14 +1207,8 @@
               (u.GoldenTicket = "goldenticket"),
               (u.LbStyleProgress = "lbStyleProgress"),
               (u.RewardsSlots = "rewardsSlots"),
-              (u.WtStamp = "stamp"),
-              (u.WtHunter = "wt_hunter"),
-              (u.WtBoss = "wt_boss"),
-              (u.WtHunterCollection = "hunter_collection"),
-              (u.WtTicket = "wtevent_ticket"),
-              (u.WtMainPrizeDiscount = "main_prize_discount"),
-              (u.WtTicket25 = "wtevent_ticket25"));
-          })(q || (q = {})),
+              (u.RazlomCoin = "razlom_coin"));
+          })(W || (W = {})),
           (function (u) {
             ((u.Gold = "gold"),
               (u.Credits = "credits"),
@@ -1313,54 +1308,49 @@
             u.ProgressionStyle = "progressionStyle";
           })(uu || (uu = {})));
         const eu = [
-            q.Items,
-            q.Equipment,
-            q.Xp,
-            q.XpFactor,
-            q.Blueprints,
-            q.BlueprintsAny,
-            q.Goodies,
-            q.Berths,
-            q.Slots,
-            q.Tokens,
-            q.CrewSkins,
-            q.CrewBooks,
-            q.Customizations,
-            q.CreditsFactor,
-            q.TankmenXp,
-            q.TankmenXpFactor,
-            q.FreeXpFactor,
-            q.BattleToken,
-            q.PremiumUniversal,
-            q.NaturalCover,
-            q.BpCoin,
-            q.BattlePassSelectToken,
-            q.BattlaPassFinalAchievement,
-            q.BattleBadge,
-            q.BonusX5,
-            q.CrewBonusX3,
-            q.NewYearFillers,
-            q.NewYearInvoice,
-            q.EpicSelectToken,
-            q.Comp7TokenWeeklyReward,
-            q.Comp7TokenCouponReward,
-            q.BattleBoosterGift,
-            q.CosmicLootboxCommon,
-            q.CosmicLootboxSilver,
-            q.SelectableBonus,
-            q.PostStamp,
-            q.PremiumPlusUniversal,
-            q.GoldenTicket,
-            q.RewardsSlots,
-            q.WtStamp,
-            q.WtTicket,
-            q.WtMainPrizeDiscount,
-            q.WtHunter,
-            q.WtHunterCollection,
+            W.Items,
+            W.Equipment,
+            W.Xp,
+            W.XpFactor,
+            W.Blueprints,
+            W.BlueprintsAny,
+            W.Goodies,
+            W.Berths,
+            W.Slots,
+            W.Tokens,
+            W.CrewSkins,
+            W.CrewBooks,
+            W.Customizations,
+            W.CreditsFactor,
+            W.TankmenXp,
+            W.TankmenXpFactor,
+            W.FreeXpFactor,
+            W.BattleToken,
+            W.PremiumUniversal,
+            W.NaturalCover,
+            W.BpCoin,
+            W.BattlePassSelectToken,
+            W.BattlaPassFinalAchievement,
+            W.BattleBadge,
+            W.BonusX5,
+            W.CrewBonusX3,
+            W.NewYearFillers,
+            W.NewYearInvoice,
+            W.EpicSelectToken,
+            W.Comp7TokenWeeklyReward,
+            W.Comp7TokenCouponReward,
+            W.BattleBoosterGift,
+            W.CosmicLootboxCommon,
+            W.CosmicLootboxSilver,
+            W.SelectableBonus,
+            W.PostStamp,
+            W.PremiumPlusUniversal,
+            W.GoldenTicket,
+            W.RewardsSlots,
           ],
-          tu = [q.Gold, q.Credits, q.Crystal, q.FreeXp],
-          nu = [q.BattlePassPoints],
-          ru = [q.PremiumPlus, q.Premium];
+          tu = [W.Gold, W.Credits, W.Crystal, W.FreeXp],
+          nu = [W.BattlePassPoints],
+          ru = [W.PremiumPlus, W.Premium];
         let au;
         !(function (u) {
           ((u.s16 = "16"),
@@ -1519,9 +1509,11 @@
                       return au.s600;
                   }
                 })(e)}`;
-              case q.StyleProgress:
-              case q.LbStyleProgress:
+              case W.StyleProgress:
+              case W.LbStyleProgress:
                 return Eu(a, e, uu.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${e}.${s}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${e}.${t}`;
             }
@@ -2147,7 +2139,7 @@
             info__premiumTank: "Reward_info__premiumTank_d3",
             timer: "Reward_timer_d3",
           },
-          Wu = ({
+          Yu = ({
             name: u,
             image: e,
             isPeriodic: t = !1,
@@ -2209,7 +2201,7 @@
                   }
                   case X.CURRENCY:
                   case X.NUMBER:
-                    return o().createElement(Y, { format: "integral", value: Number(u) });
+                    return o().createElement(H, { format: "integral", value: Number(u) });
                   case X.PREMIUM_PLUS: {
                     const e = Number(u);
                     return isNaN(e) ? u : null;
@@ -2275,9 +2267,9 @@
                 ),
             );
           },
-          Hu = "Rewards_base_26",
-          Yu = "Rewards_base__vertical_9f",
-          qu = "Rewards_reward_7b",
+          qu = "Rewards_base_26",
+          Hu = "Rewards_base__vertical_9f",
+          Wu = "Rewards_reward_7b",
           ju = "Rewards_reward__vertical_c6";
         function Vu() {
           return (
@@ -2314,8 +2306,8 @@
                   m(R.strings.tooltips.quests.awards.additional.bottom(), {
                     count: u.length - (n || 0),
                   }),
-                c = r()(Hu, t && Yu, a),
-                D = r()(qu, t && ju, i);
+                c = r()(qu, t && Hu, a),
+                D = r()(Wu, t && ju, i);
               return o().createElement(
                 "div",
                 { className: c },
@@ -2329,13 +2321,13 @@
                           o().createElement(
                             "div",
                             { key: t, className: D },
-                            o().createElement(Wu, Vu({ size: e }, u)),
+                            o().createElement(Yu, Vu({ size: e }, u)),
                           ),
                         ),
                       o().createElement(
                         "div",
                         { className: D },
-                        o().createElement(Wu, {
+                        o().createElement(Yu, {
                           name: "more",
                           image: A,
                           size: e,
@@ -2348,7 +2340,7 @@
                       o().createElement(
                         "div",
                         { key: t, className: D },
-                        o().createElement(Wu, Vu({ size: e }, u)),
+                        o().createElement(Yu, Vu({ size: e }, u)),
                       ),
                     ),
               );
@@ -2956,10 +2948,10 @@
             },
           ),
           ze = "Task_base_69",
-          We = "Task_title_c3",
-          He = "Task_condition_10",
-          Ye = "Task_description_98",
-          qe = "Task_base__withProgress_f1",
+          Ye = "Task_title_c3",
+          qe = "Task_condition_10",
+          He = "Task_description_98",
+          We = "Task_base__withProgress_f1",
           je = "Task_progress_b7",
           Ve = "Task_progressValue_42",
           Xe = R.strings.battle_matters.entryPointTooltip.task,
@@ -2974,10 +2966,10 @@
               E = m(Xe.title(), { index: a, title: s });
             return o().createElement(
               "div",
-              { className: r()(ze, u.computes.hasProgress() && qe) },
-              o().createElement("div", { className: We }, E),
-              o().createElement("div", { className: He }, Xe.condition()),
-              o().createElement("div", { className: Ye }, i),
+              { className: r()(ze, u.computes.hasProgress() && We) },
+              o().createElement("div", { className: Ye }, E),
+              o().createElement("div", { className: qe }, Xe.condition()),
+              o().createElement("div", { className: He }, i),
               u.computes.hasProgress() &&
                 o().createElement(
                   "div",
@@ -2988,8 +2980,8 @@
                     o().createElement($, {
                       text: Xe.progress(),
                       binding: {
-                        done: o().createElement(Y, { value: t }),
-                        total: o().createElement(Y, { value: n }),
+                        done: o().createElement(H, { value: t }),
+                        total: o().createElement(H, { value: n }),
                       },
                     }),
                   ),
@@ -3067,7 +3059,7 @@
                       o().Fragment,
                       null,
                       o().createElement("div", { className: vu }),
-                      o().createElement(H, { endDate: r, className: hu }),
+                      o().createElement(q, { endDate: r, className: hu }),
                     ),
                 );
               default:

@@ -10,12 +10,14 @@ from sound_gui_manager import CommonSoundSpaceSettings
 if t.TYPE_CHECKING:
     from frameworks.wulf import Command, Window
 SoundSpacePrerequisites = namedtuple(b'SoundSpaceSettingsPrerequisites', (b'entranceStates', b'exitStates'))
-VideoPrerequisites = namedtuple(b'VideoPrerequisites', (b'videoPath', b'subtitlesPath', b'isControlsVisible', b'isSubtitlesVisible', b'soundSpace'))
+VideoPrerequisites = namedtuple(b'VideoPrerequisites', (b'videoPath', b'isControlsVisible', b'soundSpace', b'subtitlesPath', b'isSubtitlesVisible', b'pauseOnMinimize', b'isCloseButtonVisible', b'startFadeIn', b'startFadeOut', b'endFadeIn', b'endFadeOut'))
+VideoPrerequisites.__new__.__defaults__ = (
+ INVALID_RES_ID, True, True, True, 0.0, 0.0, 0.0, 0.0)
 _DEFAULT_VIEW_SOUND_SPACE = CommonSoundSpaceSettings(name=b'GF_VIDEO_VIEW', entranceStates={b'STATE_video_overlay': b'STATE_video_overlay_on'}, exitStates={b'STATE_video_overlay': b'STATE_video_overlay_off'}, persistentSounds=(), stoppableSounds=(), priorities=(), autoStart=True, enterEvent=b'', exitEvent=b'')
 _RTPC_VOLUME_MULTIPLIER_FOR_SOUND_CONTROL = 0.5
 
 class VideoView(ViewImpl):
-    __slots__ = (b'__prerequisites',)
+    __slots__ = (b'__prerequisites', b'__worldHidden', b'__hideBackCallbackID')
     _COMMON_SOUND_SPACE = _DEFAULT_VIEW_SOUND_SPACE
 
     def __init__(self, layoutID, prerequisites):
@@ -30,25 +32,40 @@ class VideoView(ViewImpl):
             self._COMMON_SOUND_SPACE.exitStates = soundSpace.exitStates
         super(VideoView, self).__init__(settings)
         self.__prerequisites = prerequisites
+        self.__worldHidden = False
+        self.__hideBackCallbackID = None
         return
 
     @property
     def viewModel(self):
         return super(VideoView, self).getViewModel()
 
+    def startClosing(self):
+        self.__cancelHideBackCallback()
+        if self.__worldHidden:
+            self.__showBack()
+        self.viewModel.setIsClosing(True)
+        return
+
     def _initialize(self, *args, **kwargs):
         super(VideoView, self)._initialize(*args, **kwargs)
-        self.__hideBack()
+        if not self.__hasFades():
+            self.__hideBack()
         return
 
     def _finalize(self):
-        self.__showBack()
+        self.__cancelHideBackCallback()
+        if self.__worldHidden:
+            self.__showBack()
         super(VideoView, self)._finalize()
         return
 
     def _onLoading(self, *args, **kwargs):
         super(VideoView, self)._onLoading(*args, **kwargs)
         self._updateModel()
+        if self.__hasFades():
+            delay = self.__prerequisites.startFadeIn + self.__prerequisites.startFadeOut
+            self.__hideBackCallbackID = BigWorld.callback(delay, self.__hideBack)
         return
 
     def _updateModel(self):
@@ -56,6 +73,12 @@ class VideoView(ViewImpl):
             model.setVideoPath(self.__prerequisites.videoPath)
             model.setIsControlsVisible(self.__prerequisites.isControlsVisible)
             model.setIsSubtitlesVisible(self.__prerequisites.isSubtitlesVisible and self.__prerequisites.subtitlesPath != INVALID_RES_ID)
+            model.setPauseOnMinimize(self.__prerequisites.pauseOnMinimize)
+            model.setIsCloseButtonVisible(self.__prerequisites.isCloseButtonVisible)
+            model.setStartFadeIn(self.__prerequisites.startFadeIn)
+            model.setStartFadeOut(self.__prerequisites.startFadeOut)
+            model.setEndFadeIn(self.__prerequisites.endFadeIn)
+            model.setEndFadeOut(self.__prerequisites.endFadeOut)
             volume = SoundGroups.g_instance.getMaxVolumeFromCategories(SoundGroups.USER_SETTINGS_CATEGORY_NAMES)
             if self.__prerequisites.isControlsVisible:
                 volume *= _RTPC_VOLUME_MULTIPLIER_FOR_SOUND_CONTROL
@@ -67,14 +90,29 @@ class VideoView(ViewImpl):
          (
           self.viewModel.onClose, self.__onClose),)
 
-    @staticmethod
-    def __hideBack():
+    def __hasFades(self):
+        prerequisites = self.__prerequisites
+        return any((
+         prerequisites.startFadeIn,
+         prerequisites.startFadeOut,
+         prerequisites.endFadeIn,
+         prerequisites.endFadeOut))
+
+    def __hideBack(self):
+        self.__hideBackCallbackID = None
         BigWorld.worldDrawEnabled(False)
+        self.__worldHidden = True
         return
 
-    @staticmethod
-    def __showBack():
+    def __showBack(self):
         BigWorld.worldDrawEnabled(True)
+        self.__worldHidden = False
+        return
+
+    def __cancelHideBackCallback(self):
+        if self.__hideBackCallbackID is not None:
+            BigWorld.cancelCallback(self.__hideBackCallbackID)
+            self.__hideBackCallbackID = None
         return
 
     def __onClose(self):
@@ -85,6 +123,12 @@ class VideoView(ViewImpl):
 class VideoViewWindow(LobbyWindow):
     __slots__ = ()
 
-    def __init__(self, prerequisites, parent=None):
-        super(VideoViewWindow, self).__init__(wndFlags=WindowFlags.WINDOW | WindowFlags.WINDOW_FULLSCREEN, content=VideoView(R.views.lobby.events_core_client.video_view.VideoView(), prerequisites), parent=parent, layer=WindowLayer.OVERLAY)
+    def __init__(self, prerequisites, parent=None, layer=WindowLayer.OVERLAY):
+        super(VideoViewWindow, self).__init__(wndFlags=WindowFlags.WINDOW | WindowFlags.WINDOW_FULLSCREEN, content=VideoView(R.views.lobby.events_core_client.video_view.VideoView(), prerequisites), parent=parent, layer=layer)
+        return
+
+    def startClosing(self):
+        content = self.content
+        if content is not None:
+            content.startClosing()
         return

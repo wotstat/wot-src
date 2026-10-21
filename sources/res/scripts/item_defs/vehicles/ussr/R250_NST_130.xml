@@ -1609,13 +1609,13 @@
 					</pitchLimits>
 					<invisibilityFactorAtShot>0.153</invisibilityFactorAtShot>
 					<shotDispersionRadius>0.40</shotDispersionRadius>
-					<reloadTime>11.4</reloadTime>
+					<reloadTime>10.5</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.08</turretRotation>
 						<afterShot>4.0</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
-					<aimingTime>2.3</aimingTime>
+					<aimingTime>2.6</aimingTime>
 					<customizationSlots>
 						<slot>
 							<slotType>paint</slotType>
@@ -2192,19 +2192,6 @@
 			<isEngine>true</isEngine>
 		</soundStateChange>
 	</siege_mode>
-	<hull_aiming>
-		<pitch>
-			<isEnabled>True</isEnabled>
-			<isFlexible>True</isFlexible>
-			<wheelCorrectionCenterZ>0</wheelCorrectionCenterZ>
-			<wheelsCorrectionSpeed>10</wheelsCorrectionSpeed>
-			<wheelsCorrectionAngles>
-				<pitchMin>-3</pitchMin>
-				<pitchMax>3</pitchMax>
-			</wheelsCorrectionAngles>
-		</pitch>
-		<yawDisabled></yawDisabled>
-	</hull_aiming>
 	<isRotationStill>True</isRotationStill>
 	<useHullZSize>True</useHullZSize>
 	<effects>

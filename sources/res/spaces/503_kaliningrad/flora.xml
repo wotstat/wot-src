@@ -312,12 +312,13 @@
 			<tileType>maps/landscape/00_AllTerrain3_tiles/Gravel_Sandy_Fine_08_AM.dds</tileType>
 			<grassType>
 				<name>Debris_Stone_Medium</name>
-				<tintWeight>0.85 0.00</tintWeight>
+				<tintWeight>0.80 2.00</tintWeight>
 				<waving>0.00 0.00 0.00 0.00</waving>
 				<slopeMin>0.00</slopeMin>
 				<slopeMax>30.00</slopeMax>
 				<enableSlopeMin>true</enableSlopeMin>
 				<sniperModeBhvr>0</sniperModeBhvr>
+				<scaleFromMap>0 1.00 1.00</scaleFromMap>
 				<sizeLimit>0.00</sizeLimit>
 				<enableSizeLimit>true</enableSizeLimit>
 				<oscillation>0.0 0.0</oscillation>
@@ -328,7 +329,7 @@
 					<model>vegetation/Debris/Debris_Stone_Medium/Debris_Stone_Medium_lod0.srt</model>
 					<castShadow>false</castShadow>
 					<densityMin>0.2000</densityMin>
-					<density>1.0000</density>
+					<density>0.5000</density>
 					<scale>0.60</scale>
 					<scaleDeviation>0.50</scaleDeviation>
 					<fadeout>2.00</fadeout>
@@ -336,8 +337,9 @@
 					<startat>0.00</startat>
 					<seed>8</seed>
 					<alignToSurface>true</alignToSurface>
-					<tintWeight>0.85 0.00</tintWeight>
+					<tintWeight>0.80 2.00</tintWeight>
 					<waving>0.00 0.00 0.00 0.00</waving>
+					<scaleFromMap>0 1.00 1.00</scaleFromMap>
 					<sizeLimit>0.06</sizeLimit>
 					<enableSizeLimit>true</enableSizeLimit>
 				</layer>
@@ -355,9 +357,10 @@
 					<startat>10.00</startat>
 					<seed>8</seed>
 					<alignToSurface>true</alignToSurface>
-					<tintWeight>0.85 0.00</tintWeight>
+					<tintWeight>0.80 2.00</tintWeight>
 					<waving>0.00 0.00 0.00 0.00</waving>
 					<fadein>0.00</fadein>
+					<scaleFromMap>0 1.00 1.00</scaleFromMap>
 					<sizeLimit>0.06</sizeLimit>
 					<enableSizeLimit>true</enableSizeLimit>
 				</layer>
@@ -375,9 +378,10 @@
 					<startat>30.00</startat>
 					<seed>8</seed>
 					<alignToSurface>true</alignToSurface>
-					<tintWeight>0.85 0.00</tintWeight>
+					<tintWeight>0.80 2.00</tintWeight>
 					<waving>0.00 0.00 0.00 0.00</waving>
 					<fadein>0.00</fadein>
+					<scaleFromMap>0 1.00 1.00</scaleFromMap>
 					<sizeLimit>0.06</sizeLimit>
 					<enableSizeLimit>true</enableSizeLimit>
 				</layer>
@@ -400,6 +404,7 @@
 				<slopeMax>30.00</slopeMax>
 				<enableSlopeMin>true</enableSlopeMin>
 				<sniperModeBhvr>0</sniperModeBhvr>
+				<scaleFromMap>1 1.00 1.00</scaleFromMap>
 				<sizeLimit>0.30</sizeLimit>
 				<enableSizeLimit>true</enableSizeLimit>
 				<oscillation>0.3 0.1</oscillation>
@@ -420,6 +425,7 @@
 					<alignToSurface>true</alignToSurface>
 					<tintWeight>0.80 0.00</tintWeight>
 					<waving>0.30 0.20 0.30 0.50</waving>
+					<scaleFromMap>1 1.00 1.00</scaleFromMap>
 					<sizeLimit>0.30</sizeLimit>
 					<enableSizeLimit>true</enableSizeLimit>
 				</layer>
@@ -440,6 +446,72 @@
 					<tintWeight>0.80 0.00</tintWeight>
 					<waving>0.30 0.20 0.30 0.50</waving>
 					<fadein>5.00</fadein>
+					<scaleFromMap>1 1.00 1.00</scaleFromMap>
+					<sizeLimit>0.30</sizeLimit>
+					<enableSizeLimit>true</enableSizeLimit>
+				</layer>
+			</grassType>
+		</population>
+		<population>
+			<name>dryGrass_tiny_02</name>
+			<slopeMin>0.00</slopeMin>
+			<slopeMax>30.00</slopeMax>
+			<enableSlopeMin>true</enableSlopeMin>
+			<sizeLimit>0.00</sizeLimit>
+			<enableSizeLimit>true</enableSizeLimit>
+			<tileType>maps/landscape/00_AllTerrain3_tiles/Snow_04_AM.dds</tileType>
+			<tileType>maps/landscape/00_AllTerrain3_tiles/Snow_Wavy_01_AM.dds</tileType>
+			<grassType>
+				<name>dryGrass_tiny</name>
+				<tintWeight>0.35 8.00</tintWeight>
+				<waving>0.30 0.20 0.30 0.50</waving>
+				<slopeMin>0.00</slopeMin>
+				<slopeMax>30.00</slopeMax>
+				<enableSlopeMin>true</enableSlopeMin>
+				<sniperModeBhvr>0</sniperModeBhvr>
+				<scaleFromMap>0 1.00 1.00</scaleFromMap>
+				<sizeLimit>0.30</sizeLimit>
+				<enableSizeLimit>true</enableSizeLimit>
+				<oscillation>0.3 0.1</oscillation>
+				<unique_random_seed>true</unique_random_seed>
+				<layer>
+					<name>Dry_Grass_Tiny_02_lod0.srt</name>
+					<comment>comment</comment>
+					<model>vegetation/Grass/Dry_Grass_Tiny_02/Dry_Grass_Tiny_02_lod0.srt</model>
+					<castShadow>false</castShadow>
+					<densityMin>0.0000</densityMin>
+					<density>1.0000</density>
+					<scale>0.40</scale>
+					<scaleDeviation>0.30</scaleDeviation>
+					<fadeout>5.00</fadeout>
+					<range>10.00</range>
+					<startat>0.00</startat>
+					<seed>10</seed>
+					<alignToSurface>true</alignToSurface>
+					<tintWeight>0.35 8.00</tintWeight>
+					<waving>0.30 0.20 0.30 0.50</waving>
+					<scaleFromMap>0 1.00 1.00</scaleFromMap>
+					<sizeLimit>0.30</sizeLimit>
+					<enableSizeLimit>true</enableSizeLimit>
+				</layer>
+				<layer>
+					<name>Dry_Grass_Tiny_02_lod1.srt</name>
+					<comment>comment</comment>
+					<model>vegetation/Grass/Dry_Grass_Tiny_02/Dry_Grass_Tiny_02_lod1.srt</model>
+					<castShadow>false</castShadow>
+					<densityMin>0.0000</densityMin>
+					<density>1.000</density>
+					<scale>0.40</scale>
+					<scaleDeviation>0.30</scaleDeviation>
+					<fadeout>5.00</fadeout>
+					<range>30.00</range>
+					<startat>10.00</startat>
+					<seed>10</seed>
+					<alignToSurface>true</alignToSurface>
+					<tintWeight>0.35 8.00</tintWeight>
+					<waving>0.30 0.20 0.30 0.50</waving>
+					<fadein>5.00</fadein>
+					<scaleFromMap>0 1.00 1.00</scaleFromMap>
 					<sizeLimit>0.30</sizeLimit>
 					<enableSizeLimit>true</enableSizeLimit>
 				</layer>

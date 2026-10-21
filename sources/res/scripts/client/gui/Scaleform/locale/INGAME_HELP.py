@@ -186,3 +186,6 @@ class INGAME_HELP(object):
     DETAILSHELP_DISTANCEDAMAGE_HEADERTITLE = b'#ingame_help:detailsHelp/distanceDamage/headerTitle'
     DETAILSHELP_DISTANCEDAMAGE_TITLE = b'#ingame_help:detailsHelp/distanceDamage/title'
     DETAILSHELP_DISTANCEDAMAGE_DESCRIPTION = b'#ingame_help:detailsHelp/distanceDamage/description'
+    DETAILSHELP_CLIPGUN_HEADERTITLE = b'#ingame_help:detailsHelp/clipGun/headerTitle'
+    DETAILSHELP_CLIPGUN_TITLE = b'#ingame_help:detailsHelp/clipGun/title'
+    DETAILSHELP_CLIPGUN_DESCRIPTION = b'#ingame_help:detailsHelp/clipGun/description'

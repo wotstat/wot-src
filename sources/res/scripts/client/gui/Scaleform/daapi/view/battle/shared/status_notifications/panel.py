@@ -118,7 +118,6 @@ class StatusNotificationTimerPanel(StatusNotificationsPanelMeta, MethodsRules):
         return
 
     def __onCollectionUpdated(self, vOs):
-        self.__onReplayPaused(vOs)
         self.__logDataCollection(vOs)
         self.as_setDataS(vOs)
         gui_event_dispatcher.destroyTimersPanelShown(shown=len(vOs) > 0)

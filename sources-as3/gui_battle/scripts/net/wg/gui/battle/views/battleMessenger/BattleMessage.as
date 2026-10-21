@@ -135,6 +135,8 @@ package net.wg.gui.battle.views.battleMessenger
       
       private var _availableWidth:int = 360;
       
+      private var _greenMessageColorOverride:int = -1;
+      
       public function BattleMessage(param1:int, param2:int, param3:Number, param4:Number, param5:int, param6:Function, param7:Function = null, param8:int = 360)
       {
          super();
@@ -392,7 +394,7 @@ package net.wg.gui.battle.views.battleMessenger
       {
          if(param1 == PLAYER_GREEN_MESSAGE_LEFT_RENDERER)
          {
-            this._textFormat.color = GREEN_TEXT_COLOR;
+            this._textFormat.color = this.getGreen();
          }
          else if(param1 == PLAYER_RED_MESSAGE_LEFT_RENDERER)
          {
@@ -403,6 +405,15 @@ package net.wg.gui.battle.views.battleMessenger
             this._textFormat.color = YELLOW_TEXT_COLOR;
          }
          this.messageField.defaultTextFormat = this._textFormat;
+      }
+      
+      private function getGreen() : int
+      {
+         if(this._greenMessageColorOverride != Values.DEFAULT_INT)
+         {
+            return this._greenMessageColorOverride;
+         }
+         return GREEN_TEXT_COLOR;
       }
       
       private function fadeInAnimation() : void
@@ -472,6 +483,11 @@ package net.wg.gui.battle.views.battleMessenger
       private function setMessageFieldY() : void
       {
          this.messageField.y = this.background.y + DEFAULT_MESSAGE_Y_PADDING | 0;
+      }
+      
+      public function set greenMessageColorOverride(param1:int) : void
+      {
+         this._greenMessageColorOverride = param1;
       }
       
       public function get alpha() : Number

@@ -18,122 +18,87 @@
 							<name>particles/Tank/exhaust/medium_gas/rpm01_Load01.eff</name>
 						</selector>
 						<selector>
-							<type>discrete</type>
-							<variable>Nitro</variable>
+							<type>range</type>
+							<variable>physicLoad</variable>
 							<key>2</key>
 							<selector>
 								<key>0</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm01_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm02_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm03_Load01.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm01_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.5</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm01_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm02_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm03_Load02.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm02_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.9</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm01_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm02_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm03_Load03.eff</name>
-									</selector>
-								</selector>
-								<selector>
-									<key>0.98</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm01_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm02_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm03_Load04.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm03_Load01.eff</name>
 								</selector>
 							</selector>
 							<selector>
-								<key>2</key>
+								<key>0.5</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm01_Load02.eff</name>
 								</selector>
 								<selector>
-									<key>0.3</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
-									<selector>
-										<key>0.1</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
-									</selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm02_Load02.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm03_Load02.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.9</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm01_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm02_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm03_Load03.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.98</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm01_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm02_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm03_Load04.eff</name>
 								</selector>
 							</selector>
 						</selector>
@@ -151,21 +116,6 @@
 							<key>2</key>
 							<type>effect</type>
 							<name>particles/Environment/scenarios/br_nitro_load.eff</name>
-						</selector>
-					</selector>
-					<selector>
-						<key>2</key>
-						<type>range</type>
-						<variable>engineLoad</variable>
-						<selector>
-							<key>1</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-						</selector>
-						<selector>
-							<key>2</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
 						</selector>
 					</selector>
 				</selector>
@@ -240,122 +190,87 @@
 							<name>particles/Tank/exhaust/small_diesel/rpm01_Load01.eff</name>
 						</selector>
 						<selector>
-							<type>discrete</type>
-							<variable>Nitro</variable>
+							<type>range</type>
+							<variable>physicLoad</variable>
 							<key>2</key>
 							<selector>
 								<key>0</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm01_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm02_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm03_Load01.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm01_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.5</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm01_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm02_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm03_Load02.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm02_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.9</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm01_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm02_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm03_Load03.eff</name>
-									</selector>
-								</selector>
-								<selector>
-									<key>0.98</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm01_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm02_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_diesel/rpm03_Load04.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm03_Load01.eff</name>
 								</selector>
 							</selector>
 							<selector>
-								<key>2</key>
+								<key>0.5</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm01_Load02.eff</name>
 								</selector>
 								<selector>
-									<key>0.3</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
-									<selector>
-										<key>0.1</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
-									</selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm02_Load02.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm03_Load02.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.9</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm01_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm02_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm03_Load03.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.98</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm01_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm02_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_diesel/rpm03_Load04.eff</name>
 								</selector>
 							</selector>
 						</selector>
@@ -373,21 +288,6 @@
 							<key>2</key>
 							<type>effect</type>
 							<name>particles/Environment/scenarios/br_nitro_load.eff</name>
-						</selector>
-					</selector>
-					<selector>
-						<key>2</key>
-						<type>range</type>
-						<variable>engineLoad</variable>
-						<selector>
-							<key>1</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-						</selector>
-						<selector>
-							<key>2</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
 						</selector>
 					</selector>
 				</selector>
@@ -462,122 +362,87 @@
 							<name>particles/Tank/exhaust/medium_diesel/rpm01_Load01.eff</name>
 						</selector>
 						<selector>
-							<type>discrete</type>
-							<variable>Nitro</variable>
+							<type>range</type>
+							<variable>physicLoad</variable>
 							<key>2</key>
 							<selector>
 								<key>0</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm01_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm02_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm03_Load01.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm01_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.5</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm01_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm02_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm03_Load02.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm02_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.9</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm01_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm02_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm03_Load03.eff</name>
-									</selector>
-								</selector>
-								<selector>
-									<key>0.98</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm01_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm02_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_diesel/rpm03_Load04.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm03_Load01.eff</name>
 								</selector>
 							</selector>
 							<selector>
-								<key>2</key>
+								<key>0.5</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm01_Load02.eff</name>
 								</selector>
 								<selector>
-									<key>0.3</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
-									<selector>
-										<key>0.1</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
-									</selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm02_Load02.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm03_Load02.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.9</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm01_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm02_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm03_Load03.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.98</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm01_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm02_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_diesel/rpm03_Load04.eff</name>
 								</selector>
 							</selector>
 						</selector>
@@ -595,21 +460,6 @@
 							<key>2</key>
 							<type>effect</type>
 							<name>particles/Environment/scenarios/br_nitro_load.eff</name>
-						</selector>
-					</selector>
-					<selector>
-						<key>2</key>
-						<type>range</type>
-						<variable>engineLoad</variable>
-						<selector>
-							<key>1</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-						</selector>
-						<selector>
-							<key>2</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
 						</selector>
 					</selector>
 				</selector>
@@ -684,122 +534,87 @@
 							<name>particles/Tank/exhaust/large_diesel/rpm01_Load01.eff</name>
 						</selector>
 						<selector>
-							<type>discrete</type>
-							<variable>Nitro</variable>
+							<type>range</type>
+							<variable>physicLoad</variable>
 							<key>2</key>
 							<selector>
 								<key>0</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm01_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm02_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm03_Load01.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm01_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.5</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm01_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm02_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm03_Load02.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm02_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.9</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm01_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm02_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm03_Load03.eff</name>
-									</selector>
-								</selector>
-								<selector>
-									<key>0.98</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm01_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm02_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_diesel/rpm03_Load04.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm03_Load01.eff</name>
 								</selector>
 							</selector>
 							<selector>
-								<key>2</key>
+								<key>0.5</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm01_Load02.eff</name>
 								</selector>
 								<selector>
-									<key>0.3</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
-									<selector>
-										<key>0.1</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
-									</selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm02_Load02.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm03_Load02.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.9</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm01_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm02_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm03_Load03.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.98</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm01_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm02_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_diesel/rpm03_Load04.eff</name>
 								</selector>
 							</selector>
 						</selector>
@@ -817,21 +632,6 @@
 							<key>2</key>
 							<type>effect</type>
 							<name>particles/Environment/scenarios/br_nitro_load.eff</name>
-						</selector>
-					</selector>
-					<selector>
-						<key>2</key>
-						<type>range</type>
-						<variable>engineLoad</variable>
-						<selector>
-							<key>1</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-						</selector>
-						<selector>
-							<key>2</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
 						</selector>
 					</selector>
 				</selector>
@@ -906,122 +706,87 @@
 							<name>particles/Tank/exhaust/small_gas/rpm01_Load01.eff</name>
 						</selector>
 						<selector>
-							<type>discrete</type>
-							<variable>Nitro</variable>
+							<type>range</type>
+							<variable>physicLoad</variable>
 							<key>2</key>
 							<selector>
 								<key>0</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm01_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm02_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm03_Load01.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm01_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.5</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm01_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm02_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm03_Load02.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm02_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.9</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm01_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm02_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm03_Load03.eff</name>
-									</selector>
-								</selector>
-								<selector>
-									<key>0.98</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm01_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm02_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/small_gas/rpm03_Load04.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm03_Load01.eff</name>
 								</selector>
 							</selector>
 							<selector>
-								<key>2</key>
+								<key>0.5</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm01_Load02.eff</name>
 								</selector>
 								<selector>
-									<key>0.3</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
-									<selector>
-										<key>0.1</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
-									</selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm02_Load02.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm03_Load02.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.9</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm01_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm02_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm03_Load03.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.98</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm01_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm02_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/small_gas/rpm03_Load04.eff</name>
 								</selector>
 							</selector>
 						</selector>
@@ -1039,21 +804,6 @@
 							<key>2</key>
 							<type>effect</type>
 							<name>particles/Environment/scenarios/br_nitro_load.eff</name>
-						</selector>
-					</selector>
-					<selector>
-						<key>2</key>
-						<type>range</type>
-						<variable>engineLoad</variable>
-						<selector>
-							<key>1</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-						</selector>
-						<selector>
-							<key>2</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
 						</selector>
 					</selector>
 				</selector>
@@ -1128,122 +878,87 @@
 							<name>particles/Tank/exhaust/medium_gas/rpm01_Load01.eff</name>
 						</selector>
 						<selector>
-							<type>discrete</type>
-							<variable>Nitro</variable>
+							<type>range</type>
+							<variable>physicLoad</variable>
 							<key>2</key>
 							<selector>
 								<key>0</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm01_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm02_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm03_Load01.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm01_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.5</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm01_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm02_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm03_Load02.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm02_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.9</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm01_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm02_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm03_Load03.eff</name>
-									</selector>
-								</selector>
-								<selector>
-									<key>0.98</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm01_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm02_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/medium_gas/rpm03_Load04.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm03_Load01.eff</name>
 								</selector>
 							</selector>
 							<selector>
-								<key>2</key>
+								<key>0.5</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm01_Load02.eff</name>
 								</selector>
 								<selector>
-									<key>0.3</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
-									<selector>
-										<key>0.1</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
-									</selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm02_Load02.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm03_Load02.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.9</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm01_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm02_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm03_Load03.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.98</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm01_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm02_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/medium_gas/rpm03_Load04.eff</name>
 								</selector>
 							</selector>
 						</selector>
@@ -1261,21 +976,6 @@
 							<key>2</key>
 							<type>effect</type>
 							<name>particles/Environment/scenarios/br_nitro_load.eff</name>
-						</selector>
-					</selector>
-					<selector>
-						<key>2</key>
-						<type>range</type>
-						<variable>engineLoad</variable>
-						<selector>
-							<key>1</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-						</selector>
-						<selector>
-							<key>2</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
 						</selector>
 					</selector>
 				</selector>
@@ -1350,122 +1050,87 @@
 							<name>particles/Tank/exhaust/large_gas/rpm01_Load01.eff</name>
 						</selector>
 						<selector>
-							<type>discrete</type>
-							<variable>Nitro</variable>
+							<type>range</type>
+							<variable>physicLoad</variable>
 							<key>2</key>
 							<selector>
 								<key>0</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm01_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm02_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm03_Load01.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm01_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.5</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm01_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm02_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm03_Load02.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm02_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.9</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm01_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm02_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm03_Load03.eff</name>
-									</selector>
-								</selector>
-								<selector>
-									<key>0.98</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm01_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm02_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/large_gas/rpm03_Load04.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm03_Load01.eff</name>
 								</selector>
 							</selector>
 							<selector>
-								<key>2</key>
+								<key>0.5</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm01_Load02.eff</name>
 								</selector>
 								<selector>
-									<key>0.3</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
-									<selector>
-										<key>0.1</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
-									</selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm02_Load02.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm03_Load02.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.9</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm01_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm02_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm03_Load03.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.98</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm01_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm02_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/large_gas/rpm03_Load04.eff</name>
 								</selector>
 							</selector>
 						</selector>
@@ -1483,21 +1148,6 @@
 							<key>2</key>
 							<type>effect</type>
 							<name>particles/Environment/scenarios/br_nitro_load.eff</name>
-						</selector>
-					</selector>
-					<selector>
-						<key>2</key>
-						<type>range</type>
-						<variable>engineLoad</variable>
-						<selector>
-							<key>1</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-						</selector>
-						<selector>
-							<key>2</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
 						</selector>
 					</selector>
 				</selector>
@@ -1580,122 +1230,87 @@
 									<name>particles/Tank/exhaust/large_diesel/rpm01_Load01.eff</name>
 								</selector>
 								<selector>
-									<type>discrete</type>
-									<variable>Nitro</variable>
+									<type>range</type>
+									<variable>physicLoad</variable>
 									<key>2</key>
 									<selector>
 										<key>0</key>
 										<type>range</type>
-										<variable>physicLoad</variable>
+										<variable>RPM</variable>
 										<selector>
-											<key>0</key>
-											<type>range</type>
-											<variable>RPM</variable>
-											<selector>
-												<key>0.00</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm01_Load01.eff</name>
-											</selector>
-											<selector>
-												<key>0.5</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm02_Load01.eff</name>
-											</selector>
-											<selector>
-												<key>0.9</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm03_Load01.eff</name>
-											</selector>
+											<key>0.00</key>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm01_Load01.eff</name>
 										</selector>
 										<selector>
 											<key>0.5</key>
-											<type>range</type>
-											<variable>RPM</variable>
-											<selector>
-												<key>0.00</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm01_Load02.eff</name>
-											</selector>
-											<selector>
-												<key>0.5</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm02_Load02.eff</name>
-											</selector>
-											<selector>
-												<key>0.9</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm03_Load02.eff</name>
-											</selector>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm02_Load01.eff</name>
 										</selector>
 										<selector>
 											<key>0.9</key>
-											<type>range</type>
-											<variable>RPM</variable>
-											<selector>
-												<key>0.00</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm01_Load03.eff</name>
-											</selector>
-											<selector>
-												<key>0.5</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm02_Load03.eff</name>
-											</selector>
-											<selector>
-												<key>0.9</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm03_Load03.eff</name>
-											</selector>
-										</selector>
-										<selector>
-											<key>0.98</key>
-											<type>range</type>
-											<variable>RPM</variable>
-											<selector>
-												<key>0.00</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm01_Load04.eff</name>
-											</selector>
-											<selector>
-												<key>0.5</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm02_Load04.eff</name>
-											</selector>
-											<selector>
-												<key>0.9</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/large_diesel/rpm03_Load04.eff</name>
-											</selector>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm03_Load01.eff</name>
 										</selector>
 									</selector>
 									<selector>
-										<key>2</key>
+										<key>0.5</key>
 										<type>range</type>
-										<variable>physicLoad</variable>
+										<variable>RPM</variable>
 										<selector>
-											<key>0</key>
-											<type>range</type>
-											<variable>RPM</variable>
-											<selector>
-												<key>0.00</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-											</selector>
+											<key>0.00</key>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm01_Load02.eff</name>
 										</selector>
 										<selector>
-											<key>0.3</key>
-											<type>range</type>
-											<variable>RPM</variable>
-											<selector>
-												<key>0.00</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-											</selector>
-											<selector>
-												<key>0.1</key>
-												<type>effect</type>
-												<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
-											</selector>
+											<key>0.5</key>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm02_Load02.eff</name>
+										</selector>
+										<selector>
+											<key>0.9</key>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm03_Load02.eff</name>
+										</selector>
+									</selector>
+									<selector>
+										<key>0.9</key>
+										<type>range</type>
+										<variable>RPM</variable>
+										<selector>
+											<key>0.00</key>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm01_Load03.eff</name>
+										</selector>
+										<selector>
+											<key>0.5</key>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm02_Load03.eff</name>
+										</selector>
+										<selector>
+											<key>0.9</key>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm03_Load03.eff</name>
+										</selector>
+									</selector>
+									<selector>
+										<key>0.98</key>
+										<type>range</type>
+										<variable>RPM</variable>
+										<selector>
+											<key>0.00</key>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm01_Load04.eff</name>
+										</selector>
+										<selector>
+											<key>0.5</key>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm02_Load04.eff</name>
+										</selector>
+										<selector>
+											<key>0.9</key>
+											<type>effect</type>
+											<name>particles/Tank/exhaust/large_diesel/rpm03_Load04.eff</name>
 										</selector>
 									</selector>
 								</selector>
@@ -1824,122 +1439,87 @@
 							<name>particles/Tank/exhaust/cosmic_exhaust/rpm01_Load01.eff</name>
 						</selector>
 						<selector>
-							<type>discrete</type>
-							<variable>Nitro</variable>
+							<type>range</type>
+							<variable>physicLoad</variable>
 							<key>2</key>
 							<selector>
 								<key>0</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm01_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm02_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm03_Load01.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm01_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.5</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm01_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm02_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm03_Load02.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm02_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.9</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm01_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm02_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm03_Load03.eff</name>
-									</selector>
-								</selector>
-								<selector>
-									<key>0.98</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm01_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm02_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/cosmic_exhaust/rpm03_Load04.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm03_Load01.eff</name>
 								</selector>
 							</selector>
 							<selector>
-								<key>2</key>
+								<key>0.5</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm01_Load02.eff</name>
 								</selector>
 								<selector>
-									<key>0.3</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
-									<selector>
-										<key>0.1</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
-									</selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm02_Load02.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm03_Load02.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.9</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm01_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm02_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm03_Load03.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.98</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm01_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm02_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/cosmic_exhaust/rpm03_Load04.eff</name>
 								</selector>
 							</selector>
 						</selector>
@@ -1957,21 +1537,6 @@
 							<key>2</key>
 							<type>effect</type>
 							<name>particles/Environment/scenarios/br_nitro_load.eff</name>
-						</selector>
-					</selector>
-					<selector>
-						<key>2</key>
-						<type>range</type>
-						<variable>engineLoad</variable>
-						<selector>
-							<key>1</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-						</selector>
-						<selector>
-							<key>2</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
 						</selector>
 					</selector>
 				</selector>
@@ -2046,122 +1611,87 @@
 							<name>particles/Tank/exhaust/null/rpm01_Load01.eff</name>
 						</selector>
 						<selector>
-							<type>discrete</type>
-							<variable>Nitro</variable>
+							<type>range</type>
+							<variable>physicLoad</variable>
 							<key>2</key>
 							<selector>
 								<key>0</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm01_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm02_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm03_Load01.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm01_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.5</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm01_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm02_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm03_Load02.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm02_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.9</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm01_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm02_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm03_Load03.eff</name>
-									</selector>
-								</selector>
-								<selector>
-									<key>0.98</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm01_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm02_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/null/rpm03_Load04.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm03_Load01.eff</name>
 								</selector>
 							</selector>
 							<selector>
-								<key>2</key>
+								<key>0.5</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm01_Load02.eff</name>
 								</selector>
 								<selector>
-									<key>0.3</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
-									<selector>
-										<key>0.1</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
-									</selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm02_Load02.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm03_Load02.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.9</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm01_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm02_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm03_Load03.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.98</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm01_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm02_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/null/rpm03_Load04.eff</name>
 								</selector>
 							</selector>
 						</selector>
@@ -2179,21 +1709,6 @@
 							<key>2</key>
 							<type>effect</type>
 							<name>particles/Environment/scenarios/br_nitro_load.eff</name>
-						</selector>
-					</selector>
-					<selector>
-						<key>2</key>
-						<type>range</type>
-						<variable>engineLoad</variable>
-						<selector>
-							<key>1</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-						</selector>
-						<selector>
-							<key>2</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
 						</selector>
 					</selector>
 				</selector>
@@ -2268,122 +1783,87 @@
 							<name>particles/Tank/exhaust/distortion/rpm01_Load01.eff</name>
 						</selector>
 						<selector>
-							<type>discrete</type>
-							<variable>Nitro</variable>
+							<type>range</type>
+							<variable>physicLoad</variable>
 							<key>2</key>
 							<selector>
 								<key>0</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm01_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm02_Load01.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm03_Load01.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm01_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.5</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm01_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm02_Load02.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm03_Load02.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm02_Load01.eff</name>
 								</selector>
 								<selector>
 									<key>0.9</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm01_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm02_Load03.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm03_Load03.eff</name>
-									</selector>
-								</selector>
-								<selector>
-									<key>0.98</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm01_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.5</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm02_Load04.eff</name>
-									</selector>
-									<selector>
-										<key>0.9</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/distortion/rpm03_Load04.eff</name>
-									</selector>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm03_Load01.eff</name>
 								</selector>
 							</selector>
 							<selector>
-								<key>2</key>
+								<key>0.5</key>
 								<type>range</type>
-								<variable>physicLoad</variable>
+								<variable>RPM</variable>
 								<selector>
-									<key>0</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm01_Load02.eff</name>
 								</selector>
 								<selector>
-									<key>0.3</key>
-									<type>range</type>
-									<variable>RPM</variable>
-									<selector>
-										<key>0.00</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-									</selector>
-									<selector>
-										<key>0.1</key>
-										<type>effect</type>
-										<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
-									</selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm02_Load02.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm03_Load02.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.9</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm01_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm02_Load03.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm03_Load03.eff</name>
+								</selector>
+							</selector>
+							<selector>
+								<key>0.98</key>
+								<type>range</type>
+								<variable>RPM</variable>
+								<selector>
+									<key>0.00</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm01_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.5</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm02_Load04.eff</name>
+								</selector>
+								<selector>
+									<key>0.9</key>
+									<type>effect</type>
+									<name>particles/Tank/exhaust/distortion/rpm03_Load04.eff</name>
 								</selector>
 							</selector>
 						</selector>
@@ -2401,21 +1881,6 @@
 							<key>2</key>
 							<type>effect</type>
 							<name>particles/Environment/scenarios/br_nitro_load.eff</name>
-						</selector>
-					</selector>
-					<selector>
-						<key>2</key>
-						<type>range</type>
-						<variable>engineLoad</variable>
-						<selector>
-							<key>1</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_idle.eff</name>
-						</selector>
-						<selector>
-							<key>2</key>
-							<type>effect</type>
-							<name>particles/Tank/exhaust/forsage_electric/forsage_work_load.eff</name>
 						</selector>
 					</selector>
 				</selector>

@@ -494,6 +494,8 @@ class VehicleTechTreeInvalidator(IPage):
             nodesArray = model.getNodes()
             for id, _ in result:
                 idx = self.__dataProvider.getNodeIndex(id)
+                if idx is None:
+                    continue
                 nodeModel = nodesArray[idx]
                 nodeModel.setBlueprintCanConvert(False)
 
@@ -642,6 +644,8 @@ class VehicleTechTreeInvalidator(IPage):
         diffIds = {}
         for nodeId, newState in result:
             idx = self.__dataProvider.getNodeIndex(nodeId)
+            if idx is None:
+                continue
             node = nodes[idx]
             node.setState(newState)
             diffIds[nodeId] = self.__dataProvider.getNodeByIndex(idx)
@@ -653,6 +657,8 @@ class VehicleTechTreeInvalidator(IPage):
         nodesArray = model.getNodes()
         for vehCD, value in xps.iteritems():
             idx = self.__dataProvider.getNodeIndex(vehCD)
+            if idx is None:
+                continue
             nodeModel = nodesArray[idx]
             nodeModel.setEarnedXP(value)
 

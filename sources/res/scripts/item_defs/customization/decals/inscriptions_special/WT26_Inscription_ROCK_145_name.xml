@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<name>WT26_Inscription_Other_145</name>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>MT inscriptions 25g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF usa:A104_M4A3E8A usa:A126_PzVI_Tiger_II_capt ussr:R61_Object252_BF</vehicles>
+			</exclude>
+		</vehicleFilter>
+		<type>inscription</type>
+		<userString>#vehicle_customization:inscription/special</userString>
+		<decal>
+			<id>31481</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/WT26_Inscription_ROCK_145.dds</texture>
+			<userString>#vehicle_customization:WT26_Inscription_ROCK_145/name</userString>
+			<description>#vehicle_customization:WT26_Inscription_ROCK_145/description</description>
+		</decal>
+	</itemGroup>
+</root>

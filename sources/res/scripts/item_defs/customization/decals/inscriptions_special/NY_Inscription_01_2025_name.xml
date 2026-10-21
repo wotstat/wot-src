@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<name>NY_Inscription_2025</name>
+		<season>ALL</season>
+		<historical>1</historical>
+		<userString>#vehicle_customization:inscription/special</userString>
+		<decal>
+			<id>31242</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/NY_Inscription_01_2025.dds</texture>
+			<userString>#vehicle_customization:NY_Inscription_01_2025/name</userString>
+			<description>#vehicle_customization:NY_Inscription_01_2025/description</description>
+		</decal>
+		<decal>
+			<id>31243</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/NY_Inscription_02_2025.dds</texture>
+			<userString>#vehicle_customization:NY_Inscription_02_2025/name</userString>
+			<description>#vehicle_customization:NY_Inscription_02_2025/description</description>
+		</decal>
+		<decal>
+			<id>31244</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/NY_Inscription_03_2025.dds</texture>
+			<userString>#vehicle_customization:NY_Inscription_03_2025/name</userString>
+			<description>#vehicle_customization:NY_Inscription_03_2025/description</description>
+		</decal>
+		<decal>
+			<id>31245</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/NY_Inscription_04_2025.dds</texture>
+			<userString>#vehicle_customization:NY_Inscription_04_2025/name</userString>
+			<description>#vehicle_customization:NY_Inscription_04_2025/description</description>
+		</decal>
+		<priceGroup>MT inscriptions 25g notInShop</priceGroup>
+		<type>inscription</type>
+	</itemGroup>
+</root>

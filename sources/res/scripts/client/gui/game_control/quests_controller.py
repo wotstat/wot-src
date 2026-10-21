@@ -157,7 +157,6 @@ class QuestsController(IQuestsController):
 
     def onAvatarBecomePlayer(self):
         self.__stop()
-        self.__clearCache()
         return
 
     def onDisconnected(self):
