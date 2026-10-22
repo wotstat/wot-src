@@ -1092,7 +1092,7 @@
 		<isTracer>true</isTracer>
 		<effects>largeArmorPiercing</effects>
 		<damage>
-			<armor>440</armor>
+			<armor>450</armor>
 			<devices>165</devices>
 		</damage>
 	</_120mm_AP_M355>
@@ -1346,7 +1346,7 @@
 		<isTracer>true</isTracer>
 		<effects>largeHollowCharge</effects>
 		<damage>
-			<armor>440</armor>
+			<armor>450</armor>
 			<devices>165</devices>
 		</damage>
 		<piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
@@ -1483,14 +1483,14 @@
 		<isTracer>true</isTracer>
 		<effects>largeHighExplosive</effects>
 		<damage>
-			<armor>530</armor>
+			<armor>550</armor>
 			<devices>165</devices>
 		</damage>
 		<armorSpalls>
 			<impactRadius>2.42</impactRadius>
 			<coneAngle>90</coneAngle>
 			<damage>
-				<armor>265</armor>
+				<armor>275</armor>
 				<devices>85</devices>
 			</damage>
 		</armorSpalls>

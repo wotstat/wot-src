@@ -28,7 +28,7 @@
 		<gammaCorrectionOutside>1.0</gammaCorrectionOutside>
 		<gammaCorrectionInside>1.0</gammaCorrectionInside>
 		<gammaCorrectionSpeed>0.2</gammaCorrectionSpeed>
-		<maxFrameRate>1000</maxFrameRate>
+		<maxFrameRate>90</maxFrameRate>
 		<reducedFrameRate>60</reducedFrameRate>
 		<settings></settings>
 		<useLatentOcclusionQueries>true</useLatentOcclusionQueries>
@@ -1115,7 +1115,7 @@
 		<processExe>cef_browser_process</processExe>
 		<cachePath>profile/cef_cache</cachePath>
 		<resourcePath>cef</resourcePath>
-		<hardwareAcceleration>true</hardwareAcceleration>
+		<hardwareAcceleration>false</hardwareAcceleration>
 		<logFile>cef.log</logFile>
 		<logVerbosity>disable</logVerbosity>
 		<enableFlash>true</enableFlash>
