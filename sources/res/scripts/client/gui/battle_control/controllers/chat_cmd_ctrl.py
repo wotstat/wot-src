@@ -321,10 +321,10 @@ class ChatCommandsController(IBattleController):
         self._sendChatCommand(command, cmdName)
         return
 
-    def sendEpicGlobalCommand(self, cmdName, baseName=b''):
+    def sendEpicGlobalCommand(self, cmdName, baseID=0):
         if self.__isProhibitedToSendIfDeadOrObserver(cmdName) or self.__isEnabled is False:
             return
-        command = self.proto.battleCmd.createByGlobalMsgName(cmdName, baseName)
+        command = self.proto.battleCmd.createByBaseID(cmdName, baseID)
         self._sendChatCommand(command, cmdName)
         return
 
