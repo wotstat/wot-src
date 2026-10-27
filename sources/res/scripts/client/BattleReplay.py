@@ -67,6 +67,7 @@ class CallbackDataNames(object):
     ON_TARGET_VEHICLE_CHANGED = b'onTargetVehicleChanged'
     MT_CONFIG_CALLBACK = b'mapsTrainingConfigurationCallback'
     BATTLE_CONTEXT_HINTS_COUNTERS_CALLBACK = b'battleContextHintsCountersCallback'
+    TANK_ACADEMY_CONTEXT_HINTS_STATE_CALLBACK = b'tankAcademyContextHintsStateCallback'
 
 
 class SimulatedAoI(object):
