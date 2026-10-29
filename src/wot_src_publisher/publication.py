@@ -1204,8 +1204,28 @@ def _payload_file(
         raise PublicationError(f"{label} size is invalid")
     source = _regular_file(root, f"{payload_root}/{relative_path}", label=label)
     encoded = source.read_bytes()
-    if len(encoded) != size or _sha256_bytes(encoded) != digest:
-        raise PublicationError(f"{label} payload does not match its manifest")
+    actual_digest = _sha256_bytes(encoded)
+    if len(encoded) != size or actual_digest != digest:
+        details: dict[str, object] = {
+            "payload_path": f"{payload_root}/{relative_path}",
+            "language": language,
+            "expected_size": size,
+            "actual_size": len(encoded),
+            "expected_sha256": digest,
+            "actual_sha256": actual_digest,
+        }
+        try:
+            metadata = source.lstat()
+        except OSError as error:
+            details["stat_error"] = type(error).__name__
+        else:
+            details.update(
+                filesystem_size=metadata.st_size,
+                mtime_ns=metadata.st_mtime_ns,
+                ctime_ns=metadata.st_ctime_ns,
+            )
+        diagnostic = json.dumps(details, ensure_ascii=True, separators=(",", ":"), sort_keys=True)
+        raise PublicationError(f"{label} payload does not match its manifest details={diagnostic}")
     return PayloadFile(source, relative_path, digest, size, language)
 
 
