@@ -1862,7 +1862,8 @@ def publish_snapshot(
         with _progress_stage("stage-changes", branch=branch) as progress:
             _clear_worktree(worktree)
             _copy_tree(projected_tree, worktree)
-            _run_git(worktree, "add", "--all")
+            # Loose objects live only on the temporary VM; pack compression stays enabled.
+            _run_git(worktree, "-c", "core.looseCompression=0", "add", "--all")
             difference = _run_git(worktree, "diff", "--cached", "--quiet", check=False)
             if difference.returncode not in {0, 1}:
                 raise PublicationError(
