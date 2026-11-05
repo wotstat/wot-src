@@ -28,4 +28,5 @@ class ChallengesStartNotification(NotificationBase):
 
     def __onClick(self):
         showChallenges()
+        self._closeNotificationCenter()
         return

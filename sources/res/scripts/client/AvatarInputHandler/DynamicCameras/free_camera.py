@@ -294,7 +294,7 @@ class FreeVideoCamera(VideoCamera, CameraWithSettings):
         self.__bounceMultiplier = configDataSec.readFloat(b'collisionBounceMultiplier', 1.0)
         advancedCollisionSettings = configDataSec[b'advancedCollision']
         self.__acObstacleForwardCheckDistance = advancedCollisionSettings.readFloat(b'obstacleForwardCheckDistance', 10.0)
-        self.__acCameraColliderRadius = advancedCollisionSettings.readFloat(b'cameraColliderRadius', 3.0)
+        self.__acCameraColliderRadius = advancedCollisionSettings.readFloat(b'cameraColliderRadius', 0.5)
         return
 
     def __getSideCollisions(self, lookPoint, pos, rightVector, raycastSideOffset):

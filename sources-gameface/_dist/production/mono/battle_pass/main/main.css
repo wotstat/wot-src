@@ -13278,15 +13278,16 @@ html[lang="th"] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca7
   transform: translate(-50%, -50%);
 }
 
-.Stage_numberInProgress_9fdc0826 {
+.Stage_numberInProgress_3a750060 {
   color: #f2f2f7;
   font-size: 24rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: -3rem;
+  position: relative;
   z-index: 1;
 }
-.mediaMedium .Stage_numberInProgress_9fdc0826 {
+.mediaMedium .Stage_numberInProgress_3a750060 {
   font-size: 36rem;
 }
 
@@ -13411,6 +13412,9 @@ html[lang="th"] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca7
 }
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
+.CompletedStatus_1b62e1b4 {
+  position: relative;
+}
 .CompletedStatus_base__showAnimation_8334d234 {
   animation: CompletedStatus_slideUp_bdf18196 0.5s;
   opacity: 0;

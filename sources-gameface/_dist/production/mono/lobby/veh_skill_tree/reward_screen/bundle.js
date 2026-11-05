@@ -277,15 +277,15 @@ var Ie = {
     });
   }),
   Se = {
-    wrapper: "Progression_wrapper_a3b670b1",
+    wrapper: "Progression_wrapper_7420c26a",
     element: "Progression_element_1dcdd841",
     scrollWrapper: "Progression_scrollWrapper_4eb37657",
     scrollWrapper__both: "Progression_scrollWrapper__both_2efcfbbf",
     scrollWrapper__left: "Progression_scrollWrapper__left_c11cb4e5",
     scrollWrapper__right: "Progression_scrollWrapper__right_c7a4c9d",
-    content: "Progression_content_f441f79e",
+    content: "Progression_content_aa661fe6",
     content__horizontal: "Progression_content__horizontal_4ee67b69",
-    horizontalBar: "Progression_horizontalBar_c07ecaf4",
+    horizontalBar: "Progression_horizontalBar_c4246dd9",
   },
   $e = de("Wrapper", Se.wrapper),
   De = de("Element", Se.element),

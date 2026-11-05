@@ -4491,12 +4491,12 @@
               value: i,
               additionalValue: l,
               buffIconType: o,
-              isEnabled: c,
-              isScrollable: d,
-              isSituational: _,
+              isEnabled: d,
+              isScrollable: _,
+              isSituational: g,
             }) => {
-              const g = F().controls,
-                b = a && a.length > 0;
+              const b = F().controls,
+                E = a && a.length > 0;
               return u().createElement(
                 "div",
                 { className: wt },
@@ -4505,16 +4505,18 @@
                   {
                     args: { tooltipId: r, paramId: e },
                     targetId: R.views.lobby.hangar.subViews.VehicleParams("resId"),
-                    isEnabled: c,
+                    isEnabled: d,
                   },
                   u().createElement(
                     "div",
                     {
                       className: Ft,
-                      onClick: () => g.onGroupClick(e),
-                      onMouseEnter: I.$.playHighlight,
+                      onClick: () => {
+                        (c.O.sound.play.click(), b.onGroupClick(e));
+                      },
+                      onMouseEnter: c.O.sound.play.highlight,
                     },
-                    u().createElement("div", { className: m()(kt, d && Dt) }),
+                    u().createElement("div", { className: m()(kt, _ && Dt) }),
                     u().createElement(
                       "div",
                       { className: Bt },
@@ -4527,7 +4529,7 @@
                       u().createElement(
                         "div",
                         { className: Rt },
-                        _ && u().createElement("div", { className: Ot }),
+                        g && u().createElement("div", { className: Ot }),
                         u().createElement(st, { buffIconType: o, className: Mt }),
                         l && u().createElement(nt, { classMix: m()(Pt, Ht), text: l }),
                         u().createElement(nt, { classMix: Pt, text: i }),
@@ -4540,7 +4542,7 @@
                   "div",
                   { className: m()(Tt, t && Lt) },
                   ye.UI(n, (e) => u().createElement(yt, Wt({ key: e.id }, e))),
-                  b && u().createElement("div", { className: xt }),
+                  E && u().createElement("div", { className: xt }),
                   ye.UI(a, (e) => u().createElement(yt, Wt({ key: e.id }, e))),
                 ),
               );

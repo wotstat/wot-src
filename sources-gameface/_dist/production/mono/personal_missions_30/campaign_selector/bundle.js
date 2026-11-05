@@ -10,15 +10,15 @@ import {
   L as c,
   Ot as l,
   Q as p,
-  Vt as d,
-  X as _,
-  Yt as m,
-  an as g,
-  cn as f,
-  ct as u,
-  dt as h,
-  et as b,
-  h as C,
+  U as d,
+  Vt as _,
+  X as m,
+  Yt as g,
+  an as f,
+  cn as u,
+  ct as h,
+  dt as b,
+  et as C,
   ln as S,
   lt as v,
   mt as x,
@@ -34,54 +34,54 @@ import {
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { a as L } from "../chunks/vendor.js";
-import { n as H, r as A } from "../chunks/enums.js";
 import {
-  a as W,
-  c as R,
-  i as $,
-  l as D,
-  n as V,
-  o as M,
-  r as P,
-  s as B,
-  t as F,
+  a as H,
+  c as A,
+  i as W,
+  l as R,
+  n as $,
+  o as D,
+  r as V,
+  s as M,
+  t as P,
 } from "../chunks/common.js";
-var K = e(f(), 1),
+import { n as B, r as F } from "../chunks/enums.js";
+var K = e(u(), 1),
   [U, Y] = p()(
     ({ observableModel: e }) => {
       const a = {
           ...e.primitives(["campaignSelectorViewState", "blockedByVehicle", "firstTimeEntrance"]),
           campaigns: e.arrayClone("campaigns"),
         },
-        t = _.primitive(() => {
+        t = m.primitive(() => {
           const e = a.campaignSelectorViewState.get(),
             t = a.firstTimeEntrance.get();
-          return e === R.FIRST_TWO || (e === R.THIRD && t) ? R.THIRD : R.FIRST_TWO;
+          return e === A.FIRST_TWO || (e === A.THIRD && t) ? A.THIRD : A.FIRST_TWO;
         }),
-        o = _.primitive(() => {
+        o = m.primitive(() => {
           const e = a.firstTimeEntrance.get(),
             { first: o, second: s } = i();
-          return e && o.completedWithHonor && s.completedWithHonor ? R.FIRST_TWO : t();
+          return e && o.completedWithHonor && s.completedWithHonor ? A.FIRST_TWO : t();
         }),
-        i = _.model(() =>
-          d(
+        i = m.model(() =>
+          _(
             a.campaigns.get(),
             (e, { campaignName: a, completedWithHonor: t }, o) => {
-              const i = F[o];
+              const i = P[o];
               return i ? ((e[`${i}`] = { campaignName: a, completedWithHonor: t }), e) : e;
             },
             {},
           ),
         ),
-        s = _.model((e) => {
+        s = m.model((e) => {
           const t = a.campaigns.get(),
             o = E(t, e);
           if (!o) throw new Error(`There is no campaign with index ${e}`);
           return 2 === e ? t.slice(2).flatMap(({ operations: e }) => e) : o.operations;
         }),
-        r = _.model(() => s(2).find(({ active: e }) => e)?.operationId),
-        n = _.primitive((e, t) => {
-          if (a.campaignSelectorViewState.get() !== R.THIRD) return !1;
+        r = m.model(() => s(2).find(({ active: e }) => e)?.operationId),
+        n = m.primitive((e, t) => {
+          if (a.campaignSelectorViewState.get() !== A.THIRD) return !1;
           const o = a.firstTimeEntrance.get(),
             i = a.campaigns.get(),
             s = i.find((e, a) => 2 === a),
@@ -90,12 +90,12 @@ var K = e(f(), 1),
           const n = [...s.operations, ...r.operations];
           return (
             !(o || e < 8) &&
-            (11 === e && t === H.AVAILABLE
+            (11 === e && t === B.AVAILABLE
               ? n.find(
                   (e, a) =>
-                    (e.state === H.COMPLETED || e.state === H.COMPLETED_WITH_HONORS) && 10 === a,
+                    (e.state === B.COMPLETED || e.state === B.COMPLETED_WITH_HONORS) && 10 === a,
                 )
-              : t === H.AVAILABLE && void 0 === n.find((e) => e.state === H.ACTIVE))
+              : t === B.AVAILABLE && void 0 === n.find((e) => e.state === B.ACTIVE))
           );
         });
       return {
@@ -112,8 +112,8 @@ var K = e(f(), 1),
     },
     ({ externalModel: e }) => ({
       close: e.createCallbackNoArgs("onClose"),
-      openOperation: e.createCallback((e) => ({ [D]: e }), "onOperation"),
-      switchCampaign: e.createCallback((e) => ({ [B]: e }), "switchCampaign"),
+      openOperation: e.createCallback((e) => ({ [R]: e }), "onOperation"),
+      switchCampaign: e.createCallback((e) => ({ [M]: e }), "switchCampaign"),
     }),
   ),
   G = j(),
@@ -158,38 +158,38 @@ var K = e(f(), 1),
       i = a.campaignSelectorViewState.get(),
       s = (0, K.useRef)(!1),
       [r, n] = (0, K.useState)("idle"),
-      c = b(),
+      c = C(),
       l = "fadeIn" !== r && "idle" !== r,
-      p = i === R.LOCKED || i === R.COMPLETED_WITH_HONOR;
+      p = i === A.LOCKED || i === A.COMPLETED_WITH_HONOR;
     function d(e) {
       n(e);
     }
     function _() {
       (N.stop(), y.stop(), S.stop());
     }
-    const [m, f] = v(() => ({
+    const [m, g] = v(() => ({
         from: { opacity: 0, transform: "scale(1)" },
-        config: { duration: 300, easing: g.easeInCirc },
+        config: { duration: 300, easing: f.easeInCirc },
       })),
       [u, h] = v(() => ({
         from: { opacity: 0, transform: "translateY(0rem)", pointerEvents: "none" },
-        config: { duration: 300, easing: g.easeInOutCirc },
+        config: { duration: 300, easing: f.easeInOutCirc },
       })),
-      [C, S] = v(() => ({ from: { opacity: p ? 0 : 1 } })),
+      [b, S] = v(() => ({ from: { opacity: p ? 0 : 1 } })),
       [x, y] = v(() => ({ from: { opacity: p ? 1 : 0 } })),
       [O, N] = v(() => ({ from: { opacity: 0 } })),
       [I, w] = v(() => ({ from: { opacity: 0 }, config: { duration: 300 } }));
     return (
       (0, K.useEffect)(() => {
-        f.start({ to: { opacity: 1 }, onRest: () => d("fadeIn") });
-      }, [f]),
+        g.start({ to: { opacity: 1 }, onRest: () => d("fadeIn") });
+      }, [g]),
       (0, K.useEffect)(() => {
         switch (r) {
           case "fadeOut":
             (h.start({ to: { opacity: 0, transform: "translateY(20rem)", pointerEvents: "none" } }),
-              S.start({ to: { opacity: 1 }, config: { duration: 100, easing: g.easeInOutCirc } }),
-              y.start({ to: { opacity: 0 }, config: { duration: 100, easing: g.easeInOutCirc } }),
-              N.start({ to: { opacity: 0 }, config: { duration: 100, easing: g.easeInOutCirc } }),
+              S.start({ to: { opacity: 1 }, config: { duration: 100, easing: f.easeInOutCirc } }),
+              y.start({ to: { opacity: 0 }, config: { duration: 100, easing: f.easeInOutCirc } }),
+              N.start({ to: { opacity: 0 }, config: { duration: 100, easing: f.easeInOutCirc } }),
               w.start({ to: { opacity: 1 }, onRest: () => d("startLoading") }));
             break;
           case "startLoading":
@@ -209,28 +209,28 @@ var K = e(f(), 1),
               from: { opacity: 0, transform: "translateY(20rem)" },
               to: { opacity: 1, transform: "translateY(0rem)", pointerEvents: "auto" },
             }),
-              S.start({ from: { opacity: 1 }, to: q, config: { easing: g.easeInOutCirc } }),
+              S.start({ from: { opacity: 1 }, to: q, config: { easing: f.easeInOutCirc } }),
               c.play("lightsOn"),
               y.start({
                 from: { opacity: 0 },
                 to: z,
-                config: { easing: g.easeInOutCirc },
+                config: { easing: f.easeInOutCirc },
                 onRest() {
                   (d("idle"),
                     N.start({
                       to: { opacity: 1 },
-                      config: { duration: 2e3, easing: g.easeInCirc },
+                      config: { duration: 2e3, easing: f.easeInCirc },
                     }));
                 },
               }));
         }
-      }, [y, S, o, f, h, w, p, N, t, c, r]),
+      }, [y, S, o, g, h, w, p, N, t, c, r]),
       (0, G.jsx)(Q.Provider, {
         value: {
           currentStep: r,
           bugsStyle: O,
           backgroundStyle: x,
-          boardItemStyle: C,
+          boardItemStyle: b,
           contentStyle: m,
           footerStyle: u,
           UIBlocked: l,
@@ -246,9 +246,9 @@ var K = e(f(), 1),
             ((s.current = !0),
               _(),
               n("openOperation"),
-              f.start({
+              g.start({
                 to: { transform: "scale(1.1)", opacity: 0 },
-                config: { duration: 300, easing: g.easeInOutCirc },
+                config: { duration: 300, easing: f.easeInOutCirc },
                 onRest: () => e(),
               }));
           },
@@ -274,8 +274,8 @@ var K = e(f(), 1),
     const a = S.resolve("videos"),
       { model: t } = Y(),
       i = t.campaignSelectorViewState.get(),
-      s = i === R.COMPLETED_WITH_HONOR,
-      r = t.firstTimeEntrance.get() && i !== R.LOCKED;
+      s = i === A.COMPLETED_WITH_HONOR,
+      r = t.firstTimeEntrance.get() && i !== A.LOCKED;
     return s || r
       ? (0, G.jsxs)("div", {
           className: O(J, e),
@@ -337,8 +337,8 @@ var K = e(f(), 1),
       className: O(ce.base, ce[`base__${t}`], e.className),
       children: [
         (0, G.jsx)("div", { className: ce.content, children: e.children }),
-        (0, G.jsx)(u.div, { style: t === R.FIRST_TWO ? o : void 0, className: ce.lightLeft }),
-        (0, G.jsx)(u.div, { style: t === R.THIRD ? o : void 0, className: ce.lightRight }),
+        (0, G.jsx)(h.div, { style: t === A.FIRST_TWO ? o : void 0, className: ce.lightLeft }),
+        (0, G.jsx)(h.div, { style: t === A.THIRD ? o : void 0, className: ce.lightRight }),
       ],
     });
   }),
@@ -464,19 +464,19 @@ function he({ operationId: e, animationShade: a, className: t }) {
     i = T(me[e]?.extraSmall ?? pe, me[e]);
   return (0, G.jsxs)("div", {
     className: O(ge, t),
-    style: { top: i?.top && m(i.top), left: i?.left && m(i.left) },
+    style: { top: i?.top && g(i.top), left: i?.left && g(i.left) },
     children: [
-      (0, G.jsx)(s, {
+      (0, G.jsx)(d, {
         path: `personal_missions_30.campaign_selector.threads.threads_${e}_light`,
         width: 404,
         height: 389,
         adaptive: ue,
         className: fe,
       }),
-      (0, G.jsx)(u.div, {
+      (0, G.jsx)(h.div, {
         style: "light" === a ? o : void 0,
         className: fe,
-        children: (0, G.jsx)(s, {
+        children: (0, G.jsx)(d, {
           path: `personal_missions_30.campaign_selector.threads.threads_${e}_dark`,
           width: 404,
           height: 389,
@@ -495,35 +495,35 @@ var be = {
   Se = "default";
 function ve({ completed: e, operationId: a, iconShade: t, className: o }) {
   const i = e ? Ce : Se,
-    r = _e[a],
-    { top: n, left: c } = T(r?.extraSmall ?? pe, r),
-    { boardItemStyle: l, getAnimationShade: p } = Z(),
-    d = p(t);
+    s = _e[a],
+    { top: r, left: n } = T(s?.extraSmall ?? pe, s),
+    { boardItemStyle: c, getAnimationShade: l } = Z(),
+    p = l(t);
   return (0, G.jsxs)(G.Fragment, {
     children: [
-      (0, G.jsx)(s, {
+      (0, G.jsx)(d, {
         path: `personal_missions_30.campaign_selector.arrow.${i}_${a}_light`,
         className: o,
         width: "82rem",
         height: "82rem",
         adaptive: be,
-        style: { top: m(n), left: m(c) },
+        style: { top: g(r), left: g(n) },
       }),
-      (0, G.jsx)(u.div, {
-        style: "light" === d ? l : void 0,
-        children: (0, G.jsx)(s, {
+      (0, G.jsx)(h.div, {
+        style: "light" === p ? c : void 0,
+        children: (0, G.jsx)(d, {
           path: `personal_missions_30.campaign_selector.arrow.${i}_${a}_dark`,
           className: o,
           width: "82rem",
           height: "82rem",
           adaptive: be,
-          style: { top: m(n), left: m(c) },
+          style: { top: g(r), left: g(n) },
         }),
       }),
     ],
   });
 }
-var xe = e(C(), 1),
+var xe = e(s(), 1),
   ye = {
     base: "OperationCard_f80d92be",
     background: "OperationCard_background_82f0a58d",
@@ -553,49 +553,49 @@ var xe = e(C(), 1),
     campaignUnionType: a,
     lastActiveOperationId: t,
     className: o,
-    operation: { completed: i, operationIcon: r, operationId: n, operationName: c, state: l },
+    operation: { completed: i, operationIcon: s, operationId: r, operationName: n, state: c },
   }) {
-    const p = S.resolve("strings"),
-      d = S.resolve("sounds"),
+    const l = S.resolve("strings"),
+      p = S.resolve("sounds"),
       [_, m] = (0, K.useState)(0),
       { model: g, controls: f } = Y(),
-      b = g.computes.isAttention(n, l),
+      u = g.computes.isAttention(r, c),
       { boardItemStyle: C, currentStep: O, getAnimationShade: N, openOperation: I } = Z(),
       j = N(e),
-      T = W[l],
-      k = t === n,
+      T = H[c],
+      k = t === r,
       E = k ? Oe : Ne,
-      L = l === H.COMPLETED_WITH_HONORS ? H.COMPLETED_WITH_HONORS : H.COMPLETED,
-      R = l === H.LOCKED,
-      $ = w(
+      L = c === B.COMPLETED_WITH_HONORS ? B.COMPLETED_WITH_HONORS : B.COMPLETED,
+      A = c === B.LOCKED,
+      W = w(
         "operation",
-        (0, K.useMemo)(() => [n], [n]),
+        (0, K.useMemo)(() => [r], [r]),
       ),
-      D = y(
-        A.CUSTOM_SIMPLE,
+      R = y(
+        F.CUSTOM_SIMPLE,
         (0, K.useMemo)(
           () => ({
-            body: p.readOrEmpty("personal_missions_30.campaignSelector.operation.tooltip.locked"),
+            body: l.readOrEmpty("personal_missions_30.campaignSelector.operation.tooltip.locked"),
             resId: S.resolve("views").read((e) =>
               e.mono.personal_missions_30.tooltips.param_tooltip("resId"),
             ),
           }),
-          [p],
+          [l],
         ),
       ),
-      [V, M] = v(() => ({
+      [$, D] = v(() => ({
         from: { transform: "translate(10%, -220%) rotate(30deg)" },
-        config: { duration: 1e3, easing: h.easeOutCirc },
+        config: { duration: 1e3, easing: b.easeOutCirc },
         loop: !1,
         onRest: () => m((e) => e + 1),
       }));
     return (
       x(() => {
-        M.start({ to: { transform: "translate(-45%, 30%) rotate(30deg)" }, loop: !0, delay: 3e3 });
+        D.start({ to: { transform: "translate(-45%, 30%) rotate(30deg)" }, loop: !0, delay: 3e3 });
       }),
       (0, K.useEffect)(() => {
-        if ("fadeOut" === O) M.stop();
-      }, [M, O]),
+        if ("fadeOut" === O) D.stop();
+      }, [D, O]),
       (0, G.jsxs)("div", {
         className: (0, xe.default)(
           ye.base,
@@ -606,24 +606,24 @@ var xe = e(C(), 1),
         ),
         children: [
           (0, G.jsx)("div", {
-            className: (0, xe.default)(ye.hoverArea, !R && ye.hoverArea__available),
-            ...(R ? D : $),
+            className: (0, xe.default)(ye.hoverArea, !A && ye.hoverArea__available),
+            ...(A ? R : W),
             onClick: function () {
-              R ? D.onClick() : (d.play("yes1"), $.onClick(), I(() => f.openOperation(n)));
+              A ? R.onClick() : (p.play("yes1"), W.onClick(), I(() => f.openOperation(r)));
             },
             onMouseEnter: function (e) {
-              (R ? D.onMouseEnter(e) : $.onMouseEnter(e), R || d.play("gui_hangar_hover"));
+              (A ? R.onMouseEnter(e) : W.onMouseEnter(e), A || p.play("gui_hangar_hover"));
             },
           }),
           (0, G.jsx)("div", { className: ye.glowHover }),
-          (0, G.jsx)(s, {
-            path: `personal_missions_30.campaign_selector.card.${a}.${k ? "active" : T}.${r}_light`,
+          (0, G.jsx)(d, {
+            path: `personal_missions_30.campaign_selector.card.${a}.${k ? "active" : T}.${s}_light`,
             className: ye.background,
           }),
-          (0, G.jsx)(u.div, {
+          (0, G.jsx)(h.div, {
             style: "light" === j ? C : void 0,
-            children: (0, G.jsx)(s, {
-              path: `personal_missions_30.campaign_selector.card.${a}.${k ? "active" : T}.${r}_dark`,
+            children: (0, G.jsx)(d, {
+              path: `personal_missions_30.campaign_selector.card.${a}.${k ? "active" : T}.${s}_dark`,
               className: (0, xe.default)(ye.background, ye.background__dark),
             }),
           }),
@@ -631,13 +631,13 @@ var xe = e(C(), 1),
             className: ye.maskedArea,
             children: [
               (0, G.jsx)("div", { className: ye.glareHover }),
-              _ < 5 && b && (0, G.jsx)(u.div, { style: V, className: ye.glareAttention }),
+              _ < 5 && u && (0, G.jsx)(h.div, { style: $, className: ye.glareAttention }),
             ],
           }),
-          l === H.LOCKED
+          c === B.LOCKED
             ? (0, G.jsx)("div", {
                 className: ye.wrapper,
-                children: (0, G.jsx)(s, {
+                children: (0, G.jsx)(d, {
                   path: "personal_missions_30.common.card.alert",
                   width: "48rem",
                   height: "48rem",
@@ -647,15 +647,15 @@ var xe = e(C(), 1),
             : i
               ? (0, G.jsxs)(G.Fragment, {
                   children: [
-                    (0, G.jsx)(s, {
-                      path: `personal_missions_30.campaign_selector.card.${a}.badge.${L}_light_${E}_${n}`,
+                    (0, G.jsx)(d, {
+                      path: `personal_missions_30.campaign_selector.card.${a}.badge.${L}_light_${E}_${r}`,
                       className: ye.badge,
                     }),
-                    (0, G.jsx)(u.div, {
+                    (0, G.jsx)(h.div, {
                       className: (0, xe.default)(ye.badge, ye.badge__dark),
                       style: "light" === j ? C : void 0,
-                      children: (0, G.jsx)(s, {
-                        path: `personal_missions_30.campaign_selector.card.${a}.badge.${L}_dark_${E}_${n}`,
+                      children: (0, G.jsx)(d, {
+                        path: `personal_missions_30.campaign_selector.card.${a}.badge.${L}_dark_${E}_${r}`,
                         width: "100%",
                         height: "100%",
                       }),
@@ -663,7 +663,7 @@ var xe = e(C(), 1),
                   ],
                 })
               : void 0,
-          (0, G.jsx)("div", { className: ye.name, children: c }),
+          (0, G.jsx)("div", { className: ye.name, children: n }),
         ],
       })
     );
@@ -674,7 +674,7 @@ function je({ className: e, ...a }) {
     { top: o, left: i } = T(t?.extraSmall ?? pe, t);
   return (0, G.jsx)("div", {
     className: e,
-    style: { top: m(o), left: m(i) },
+    style: { top: g(o), left: g(i) },
     children: (0, G.jsx)(Ie, { ...a, className: we }),
   });
 }
@@ -684,12 +684,12 @@ var Te = "Campaign_b9d0bb1c",
   Le = "Campaign_operation_5f4543bc";
 function He(e, a) {
   switch (e) {
-    case R.LOCKED:
-    case R.COMPLETED_WITH_HONOR:
+    case A.LOCKED:
+    case A.COMPLETED_WITH_HONOR:
     case a:
-      return $.light;
+      return W.light;
     default:
-      return $.dark;
+      return W.dark;
   }
 }
 var Ae = L(function ({ campaignIndex: e, className: a }) {
@@ -698,14 +698,14 @@ var Ae = L(function ({ campaignIndex: e, className: a }) {
       i = t.computes.campaignOperations(e),
       s = t.computes.activeOperationId(),
       { getAnimationShade: r } = Z(),
-      n = P(e),
+      n = V(e),
       c = He(o, n),
       l = r(c),
-      p = F[e],
+      p = P[e],
       d = (function (e, a) {
         return e.reduce(
           (e, t) =>
-            a === R.FIRST_TWO ? (t.active || t.state === H.AVAILABLE ? t : e) : t.active ? t : e,
+            a === A.FIRST_TWO ? (t.active || t.state === B.AVAILABLE ? t : e) : t.active ? t : e,
           void 0,
         );
       })(i, n);
@@ -725,7 +725,7 @@ var Ae = L(function ({ campaignIndex: e, className: a }) {
                       campaignUnionType: n,
                       className: Le,
                     }),
-                    n === R.FIRST_TWO &&
+                    n === A.FIRST_TWO &&
                       a < i.length - 1 &&
                       (0, G.jsx)(ve, { ...e, iconShade: c, className: Ee }),
                   ],
@@ -733,7 +733,7 @@ var Ae = L(function ({ campaignIndex: e, className: a }) {
                 e.operationId,
               ),
             ),
-            n === R.THIRD &&
+            n === A.THIRD &&
               s &&
               (0, G.jsx)(he, { operationId: s, animationShade: l, className: ke }),
           ],
@@ -767,12 +767,12 @@ var Ae = L(function ({ campaignIndex: e, className: a }) {
           .map((e, a) =>
             (0, G.jsx)(
               Ae,
-              { campaignIndex: a, className: O(We.campaign, We[`campaign__${F[a]}`]) },
+              { campaignIndex: a, className: O(We.campaign, We[`campaign__${P[a]}`]) },
               e.campaignName,
             ),
           ),
-        i !== R.FIRST_TWO &&
-          (0, G.jsx)(u.div, {
+        i !== A.FIRST_TWO &&
+          (0, G.jsx)(h.div, {
             style: s,
             className: We.videoWrapper,
             children: (0, G.jsx)(o, {
@@ -793,7 +793,7 @@ function Pe({ className: e }) {
   return (0, G.jsxs)("div", {
     className: O($e, e),
     children: [
-      (0, G.jsx)(s, {
+      (0, G.jsx)(d, {
         path: "personal_missions_30.campaign_selector.done_160",
         width: "160rem",
         height: "160rem",
@@ -824,7 +824,7 @@ function Ue({ className: e }) {
   return (0, G.jsxs)("div", {
     className: O(Be, e),
     children: [
-      (0, G.jsx)(s, {
+      (0, G.jsx)(d, {
         path: "personal_missions_30.campaign_selector.lock_64",
         width: "64rem",
         height: "64rem",
@@ -838,23 +838,23 @@ var Ye = "Congratulations_d8cbc768",
   Ge = "Congratulations_status_c5e8d951",
   ze = L(function ({ className: e }) {
     const { model: a } = Y(),
-      { first: o, second: i, third: r } = a.computes.campaignsInfo(),
-      n = a.computes.completedCampaign();
+      { first: o, second: i, third: s } = a.computes.campaignsInfo(),
+      r = a.computes.completedCampaign();
     return (0, G.jsxs)("div", {
       className: O(Ye, e),
       children: [
-        (0, G.jsx)(s, {
+        (0, G.jsx)(d, {
           path: "personal_missions_30.campaign_selector.done",
           width: "80rem",
           height: "80rem",
         }),
         (0, G.jsx)(t, {
           className: Ge,
-          path: `personal_missions_30.campaignSelector.status.completed.${n}`,
+          path: `personal_missions_30.campaignSelector.status.completed.${r}`,
           params: {
             firstCampaign: o.campaignName,
             secondCampaign: i.campaignName,
-            thirdCampaign: r.campaignName,
+            thirdCampaign: s.campaignName,
           },
         }),
       ],
@@ -869,7 +869,7 @@ var Ye = "Congratulations_d8cbc768",
   aa = "Control_info_a90b2e50",
   ta = "Control_glareAttention_8e622eb7";
 function oa(e, a) {
-  return e ? sa.activate : a === R.THIRD ? sa.switchCampaigns : sa.switchCampaign;
+  return e ? sa.activate : a === A.THIRD ? sa.switchCampaigns : sa.switchCampaign;
 }
 var ia = { content: "Control_buttonContent_8e527c3" },
   sa = {
@@ -881,17 +881,17 @@ var ia = { content: "Control_buttonContent_8e527c3" },
     const e = S.resolve("views"),
       a = S.resolve("strings"),
       { model: o, controls: i } = Y(),
-      r = o.blockedByVehicle.get(),
-      n = o.firstTimeEntrance.get(),
-      l = o.campaignSelectorViewState.get(),
-      p = o.campaigns.get()[2]?.operations[0]?.state === H.LOCKED,
-      { first: d, second: _, third: m } = o.computes.campaignsInfo(),
+      s = o.blockedByVehicle.get(),
+      r = o.firstTimeEntrance.get(),
+      n = o.campaignSelectorViewState.get(),
+      l = o.campaigns.get()[2]?.operations[0]?.state === B.LOCKED,
+      { first: p, second: _, third: m } = o.computes.campaignsInfo(),
       g = o.computes.disabledCampaign(),
-      f = n && !r,
-      b = oa(n, l),
+      f = r && !s,
+      u = oa(r, n),
       { UIBlocked: C, startAnimation: x, openOperation: N } = Z();
     const I = y(
-        A.CUSTOM_SIMPLE,
+        F.CUSTOM_SIMPLE,
         (0, K.useMemo)(
           () => ({
             body: a.readOrEmpty("personal_missions_30.campaignSelector.status.button.tooltip"),
@@ -901,7 +901,7 @@ var ia = { content: "Control_buttonContent_8e527c3" },
         ),
       ),
       w = y(
-        A.CUSTOM_SIMPLE,
+        F.CUSTOM_SIMPLE,
         (0, K.useMemo)(
           () => ({
             header: a.readOrEmpty("personal_missions_30.campaignSelector.status.tooltip.title"),
@@ -916,49 +916,49 @@ var ia = { content: "Control_buttonContent_8e527c3" },
         to: { transform: "translate(-60%, 30%) rotate(30deg)" },
         loop: !0,
         delay: 5e3,
-        config: { duration: 1e3, easing: h.easeOutCirc },
+        config: { duration: 1e3, easing: b.easeOutCirc },
       }));
     return (0, G.jsxs)("div", {
-      className: O(qe, n && Xe, C && Ze),
+      className: O(qe, r && Xe, C && Ze),
       children: [
         (0, G.jsx)(t, {
           className: Qe,
-          path: `personal_missions_30.campaignSelector.status.text.${b}`,
+          path: `personal_missions_30.campaignSelector.status.text.${u}`,
           params: {
-            firstCampaign: d.campaignName,
+            firstCampaign: p.campaignName,
             secondCampaign: _.campaignName,
             thirdCampaign: m.campaignName,
-            icon: (0, G.jsx)(s, {
+            icon: (0, G.jsx)(d, {
               className: aa,
               path: "personal_missions_30.campaign_selector.info",
               width: "24rem",
               height: "24rem",
             }),
           },
-          ...(!n && w),
+          ...(!r && w),
         }),
         (0, G.jsxs)("div", {
           className: Je,
-          ...(r && I),
+          ...(s && I),
           children: [
             (0, G.jsx)(c, {
-              theme: n ? k.primary : k.secondary,
+              theme: r ? k.primary : k.secondary,
               size: "small",
-              disabled: r || (n && p),
+              disabled: s || (r && l),
               classNames: ia,
               onClick: function () {
-                r || (n ? N(() => i.switchCampaign(g)) : x());
+                s || (r ? N(() => i.switchCampaign(g)) : x());
               },
-              children: a.readOrEmpty(`personal_missions_30.campaignSelector.status.button.${b}`),
+              children: a.readOrEmpty(`personal_missions_30.campaignSelector.status.button.${u}`),
             }),
-            r &&
-              (0, G.jsx)(s, {
+            s &&
+              (0, G.jsx)(d, {
                 className: ea,
                 path: "personal_missions_30.campaign_selector.alert",
                 width: "24rem",
                 height: "24rem",
               }),
-            f && (0, G.jsx)(u.div, { style: j, className: ta }),
+            f && (0, G.jsx)(h.div, { style: j, className: ta }),
           ],
         }),
       ],
@@ -986,7 +986,7 @@ var ca = L(function ({ className: e }) {
       })(a.computes.campaignsInfo());
     return (0, G.jsx)("div", {
       className: O(na.base, na[`base__${t}`], o && na.base__firstTimeEntrance, e),
-      children: Object.keys(V).map((e) => {
+      children: Object.keys($).map((e) => {
         const a = i[e];
         return (0, G.jsx)(
           "div",
@@ -1011,17 +1011,17 @@ var ca = L(function ({ className: e }) {
     const { model: a } = Y(),
       t = a.campaignSelectorViewState.get(),
       { footerStyle: o } = Z();
-    return (0, G.jsx)(u.div, {
+    return (0, G.jsx)(h.div, {
       style: o,
       className: O(la.base, la[`base__${t}`], e),
       children: (() => {
         switch (t) {
-          case R.FIRST_TWO:
-          case R.THIRD:
+          case A.FIRST_TWO:
+          case A.THIRD:
             return (0, G.jsx)(ca, {});
-          case R.COMPLETED_WITH_HONOR:
+          case A.COMPLETED_WITH_HONOR:
             return (0, G.jsx)(Pe, {});
-          case R.LOCKED:
+          case A.LOCKED:
             return (0, G.jsx)(Ue, {});
         }
       })(),
@@ -1053,7 +1053,7 @@ var ca = L(function ({ className: e }) {
       }),
       (0, G.jsx)("div", {
         className: O(da.base, da[`base__${i}`], n && da.base__blocked),
-        children: (0, G.jsxs)(u.div, {
+        children: (0, G.jsxs)(h.div, {
           style: s,
           className: da.content,
           children: [
@@ -1079,7 +1079,7 @@ var ca = L(function ({ className: e }) {
           completedWithHonor: !1,
           operations: [
             {
-              state: H.COMPLETED_WITH_HONORS,
+              state: B.COMPLETED_WITH_HONORS,
               operationId: 1,
               operationName: "StuG IV",
               completed: !1,
@@ -1087,7 +1087,7 @@ var ca = L(function ({ className: e }) {
               operationIcon: "tile_1_1",
             },
             {
-              state: H.AVAILABLE,
+              state: B.AVAILABLE,
               operationId: 2,
               operationName: "T28 HTC",
               completed: !0,
@@ -1095,7 +1095,7 @@ var ca = L(function ({ className: e }) {
               operationIcon: "tile_1_2",
             },
             {
-              state: H.ACTIVE,
+              state: B.ACTIVE,
               operationId: 3,
               operationName: "T 55A",
               completed: !1,
@@ -1103,7 +1103,7 @@ var ca = L(function ({ className: e }) {
               operationIcon: "tile_1_3",
             },
             {
-              state: H.LOCKED,
+              state: B.LOCKED,
               operationId: 4,
               operationName: "Object 260",
               completed: !1,
@@ -1117,7 +1117,7 @@ var ca = L(function ({ className: e }) {
           completedWithHonor: !1,
           operations: [
             {
-              state: H.COMPLETED_WITH_HONORS,
+              state: B.COMPLETED_WITH_HONORS,
               operationId: 5,
               operationName: "Excalibur",
               completed: !1,
@@ -1125,7 +1125,7 @@ var ca = L(function ({ className: e }) {
               operationIcon: "tile_5_1",
             },
             {
-              state: H.ACTIVE,
+              state: B.ACTIVE,
               operationId: 6,
               operationName: "Chimera",
               completed: !0,
@@ -1133,7 +1133,7 @@ var ca = L(function ({ className: e }) {
               operationIcon: "tile_6_1",
             },
             {
-              state: H.LOCKED,
+              state: B.LOCKED,
               operationId: 7,
               operationName: "Object 279 (e)",
               completed: !1,
@@ -1147,7 +1147,7 @@ var ca = L(function ({ className: e }) {
           completedWithHonor: !1,
           operations: [
             {
-              state: H.COMPLETED_WITH_HONORS,
+              state: B.COMPLETED_WITH_HONORS,
               operationId: 8,
               operationName: "Zebra",
               completed: !1,
@@ -1155,7 +1155,7 @@ var ca = L(function ({ className: e }) {
               operationIcon: "tile_8_1",
             },
             {
-              state: H.ACTIVE,
+              state: B.ACTIVE,
               operationId: 9,
               operationName: "Tiger",
               completed: !0,
@@ -1163,7 +1163,7 @@ var ca = L(function ({ className: e }) {
               operationIcon: "tile_9_1",
             },
             {
-              state: H.LOCKED,
+              state: B.LOCKED,
               operationId: 10,
               operationName: "Crocodile",
               completed: !1,
@@ -1171,7 +1171,7 @@ var ca = L(function ({ className: e }) {
               operationIcon: "tile_10_1",
             },
             {
-              state: H.ACTIVE,
+              state: B.ACTIVE,
               operationId: 11,
               operationName: "4 operation",
               completed: !1,
@@ -1183,14 +1183,14 @@ var ca = L(function ({ className: e }) {
       ],
       blockedByVehicle: !1,
       firstTimeEntrance: !1,
-      campaignSelectorViewState: R.THIRD,
+      campaignSelectorViewState: A.THIRD,
     }),
     controls: ({ model: e }) =>
       l({ switchCampaign: (a) => e.campaignSelectorViewState.set(a), openOperation: i }),
   };
 I(
   (0, G.jsx)(n, {
-    soundsOverrides: M,
+    soundsOverrides: D,
     children: (0, G.jsx)(U, {
       mocks: ma,
       mode: "real",

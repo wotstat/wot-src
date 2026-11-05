@@ -64,7 +64,7 @@ class IBattleResultsService(object):
         raise NotImplementedError
         return
 
-    def submitPlayerSatisfactionRating(self, areneUniqueID, rating):
+    def submitPlayerSatisfactionRating(self, arenaUniqueID, rating):
         raise NotImplementedError
         return
 

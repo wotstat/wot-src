@@ -1,16 +1,16 @@
 import { r as s } from "./rolldown-runtime.js";
-import { Jt as i, Pn as t, on as o, ot as e, st as a } from "./lib.js";
+import { Nn as i, an as t, ot as e, qt as o, st as a } from "./lib.js";
 var n = "SpecConditions_title_af03f2f",
   r = "SpecConditions_specCondition_b0565ee6",
   c = "SpecConditions_specConditionText_5455dba",
-  d = s(i(), 1),
-  l = t.resolve("strings");
+  d = s(o(), 1),
+  l = i.resolve("strings");
 function p(s) {
   return (0, d.jsxs)("div", {
     className: s.className,
     children: [
       (0, d.jsx)(a, { path: "user_missions.tooltip.vehicle_restrictions", className: n }),
-      o(s.specConditions, (s) =>
+      t(s.specConditions, (s) =>
         (0, d.jsxs)(
           "div",
           {

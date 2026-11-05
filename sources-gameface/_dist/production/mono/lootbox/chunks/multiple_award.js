@@ -30,7 +30,7 @@ import { a as B, t as E } from "./getRewardImage.js";
 import { t as S } from "./loupe_button.js";
 import { t as D } from "./sounds.js";
 import { t as $ } from "./divider.js";
-import { c as W, l as G } from "./use_video_loaded.js";
+import { d as W, u as G } from "./use_video_loaded.js";
 import {
   C as H,
   S as L,
@@ -133,8 +133,8 @@ var pe = {
               pe.openRare,
             );
           return {
-            [W.common]: { video: o, image: i, sound: m },
-            [W.rare]: { video: l, image: c, sound: p },
+            [G.common]: { video: o, image: i, sound: m },
+            [G.rare]: { video: l, image: c, sound: p },
           };
         });
       return {
@@ -765,7 +765,7 @@ var Ue = { opacity: 1, transform: "translateX(0rem)", filter: "brightness(1)" },
       ref: m.rootRef,
       children: [
         (0, Te.jsx)(U, {
-          activeType: o ? W.rare : W.common,
+          activeType: o ? G.rare : G.common,
           minimized: !i,
           res: l,
           className: Aa,
@@ -788,7 +788,7 @@ var Ue = { opacity: 1, transform: "translateX(0rem)", filter: "brightness(1)" },
   }),
   Pa = () =>
     (0, Te.jsx)(fe, {
-      options: G.MULTIPLE_REWARD,
+      options: W.MULTIPLE_REWARD,
       children: (0, Te.jsx)(ke, { children: (0, Te.jsx)(Oa, {}) }),
     });
 export { Pa as default };

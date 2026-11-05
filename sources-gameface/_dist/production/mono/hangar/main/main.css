@@ -9527,7 +9527,7 @@ html[lang="th"] .Banner_container__medium_be866d52 {
   margin-left: 0;
 }
 
-.QuestCard_progressCounter_906d0d2f {
+.QuestCard_progressCounter_ecb0d567 {
   font-size: 16rem;
   font-weight: 400;
   line-height: 1.3em;
@@ -9535,31 +9535,30 @@ html[lang="th"] .Banner_container__medium_be866d52 {
   right: 0;
   bottom: -2rem;
 }
-.mediaLargeWidth .QuestCard_progressCounter_906d0d2f {
+.mediaLargeWidth .QuestCard_progressCounter_ecb0d567 {
   font-size: 18rem;
   font-weight: 400;
   line-height: 1.3em;
-  bottom: -1rem;
 }
 
-.QuestCard_progressBar_ddc689d {
+.QuestCard_progressBar_6dd40e74 {
   width: 100%;
 }
-.mediaLargeWidth .QuestCard_progressBar_ddc689d {
-  margin-top: 4rem;
+.mediaLargeWidth .QuestCard_progressBar_6dd40e74 {
+  margin-top: 2rem;
 }
 
-.QuestCard_countdown_94011796 {
+.QuestCard_countdown_3b38ad78 {
   font-size: 18rem;
   font-weight: 400;
   line-height: 1.3em;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 5rem;
 }
-.mediaLargeWidth .QuestCard_countdown_94011796 {
-  top: -1rem;
-  right: 3rem;
+.mediaLargeWidth .QuestCard_countdown_3b38ad78 {
+  top: 4rem;
+  right: 11rem;
 }
 
 .QuestCard_descriptionText_901d9d35 {
@@ -9575,51 +9574,62 @@ html[lang="th"] .Banner_container__medium_be866d52 {
   line-height: 1.2;
 }
 
-.QuestCard_condition_bf90cd2e {
+.QuestCard_condition_884292ff {
   width: 90rem;
   max-height: 50rem;
 }
-.QuestCard_base__fullSize_9c76dd70 .QuestCard_condition_bf90cd2e {
+.QuestCard_base__fullSize_9c76dd70 .QuestCard_condition_884292ff {
   width: 100%;
 }
-.QuestCard_base__digits_9c76dd70 .QuestCard_condition_bf90cd2e {
+.QuestCard_base__digits_9c76dd70 .QuestCard_condition_884292ff {
   width: 148rem;
 }
-.mediaLargeWidth .QuestCard_base__digits_9c76dd70 .QuestCard_condition_bf90cd2e {
+.mediaLargeWidth .QuestCard_base__digits_9c76dd70 .QuestCard_condition_884292ff {
   width: 218rem;
 }
 .mediaLargeWidth .QuestCard_base__digits_9c76dd70 .QuestCard_condition__bonus_525c74c2 {
   width: 178rem;
 }
-.QuestCard_base__aboveTens_9c76dd70 .QuestCard_condition_bf90cd2e {
+.QuestCard_base__aboveTens_9c76dd70 .QuestCard_condition_884292ff {
   width: 135rem;
 }
-.mediaLargeWidth .QuestCard_base__aboveTens_9c76dd70 .QuestCard_condition_bf90cd2e {
+.mediaLargeWidth .QuestCard_base__aboveTens_9c76dd70 .QuestCard_condition_884292ff {
   width: 205rem;
 }
 .mediaLargeWidth .QuestCard_base__aboveTens_9c76dd70 .QuestCard_condition__bonus_525c74c2 {
   width: 178rem;
 }
-.QuestCard_base__aboveHundred_9c76dd70 .QuestCard_condition_bf90cd2e {
+.QuestCard_base__aboveHundred_9c76dd70 .QuestCard_condition_884292ff {
   width: 121rem;
 }
-.mediaLargeWidth .QuestCard_base__aboveHundred_9c76dd70 .QuestCard_condition_bf90cd2e {
+.mediaLargeWidth .QuestCard_base__aboveHundred_9c76dd70 .QuestCard_condition_884292ff {
   width: 191rem;
 }
 .mediaLargeWidth .QuestCard_base__aboveHundred_9c76dd70 .QuestCard_condition__bonus_525c74c2 {
   width: 178rem;
 }
-.QuestCard_base__aboveThousand_9c76dd70 .QuestCard_condition_bf90cd2e {
+.QuestCard_base__aboveThousand_9c76dd70 .QuestCard_condition_884292ff {
   width: 96rem;
 }
-.mediaLargeWidth .QuestCard_base__aboveThousand_9c76dd70 .QuestCard_condition_bf90cd2e {
+.mediaLargeWidth .QuestCard_base__aboveThousand_9c76dd70 .QuestCard_condition_884292ff {
   width: 168rem;
 }
-.QuestCard_base__aboveTenThousand_9c76dd70 .QuestCard_condition_bf90cd2e {
+.QuestCard_base__aboveTenThousand_9c76dd70 .QuestCard_condition_884292ff {
   width: 87rem;
 }
-.mediaLargeWidth .QuestCard_base__aboveTenThousand_9c76dd70 .QuestCard_condition_bf90cd2e {
+.mediaLargeWidth .QuestCard_base__aboveTenThousand_9c76dd70 .QuestCard_condition_884292ff {
   width: 151rem;
+}
+.mediaLargeWidth
+  .QuestCard_base__digits_9c76dd70.QuestCard_base__withTimer_9c76dd70
+  .QuestCard_condition_884292ff,
+.mediaLargeWidth
+  .QuestCard_base__aboveTens_9c76dd70.QuestCard_base__withTimer_9c76dd70
+  .QuestCard_condition_884292ff,
+.mediaLargeWidth
+  .QuestCard_base__aboveHundred_9c76dd70.QuestCard_base__withTimer_9c76dd70
+  .QuestCard_condition_884292ff {
+  width: 180rem;
 }
 
 .QuestCard_contentWrapper_89591e48 {

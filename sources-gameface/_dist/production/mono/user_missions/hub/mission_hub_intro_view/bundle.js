@@ -1,17 +1,17 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
   H as e,
-  Jt as i,
-  Rt as n,
-  St as o,
-  U as t,
-  V as r,
-  _t as a,
+  Rt as i,
+  St as n,
+  U as o,
+  V as t,
+  _t as r,
+  qt as a,
   vt as l,
   yt as c,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
-var [d, m] = o()(
+var [d, m] = n()(
     ({ observableModel: s }) => ({
       ...s.primitives(["header", "description", "buttonText", "icon"]),
     }),
@@ -24,10 +24,10 @@ var [d, m] = o()(
   j = "MissionHubIntroView_title_d8509827",
   x = "MissionHubIntroView_description_f111e687",
   v = "MissionHubIntroView_divider_c63a837",
-  g = s(i(), 1),
-  p = a(() => {
-    n();
-    const { model: s, controls: i } = m();
+  g = s(a(), 1),
+  p = r(() => {
+    i();
+    const { model: s, controls: n } = m();
     return (0, g.jsx)("div", {
       className: u,
       children: (0, g.jsxs)("div", {
@@ -43,10 +43,10 @@ var [d, m] = o()(
               (0, g.jsx)("div", { className: j, children: s.header.get() }),
               (0, g.jsx)("div", { className: x, children: s.description.get() }),
               (0, g.jsx)("div", { className: v }),
-              (0, g.jsx)(r, {
+              (0, g.jsx)(t, {
                 size: e.small,
-                theme: t.primary,
-                onClick: i.onClose,
+                theme: o.primary,
+                onClick: n.onClose,
                 children: s.buttonText.get(),
               }),
             ],

@@ -502,7 +502,7 @@ var ve = (e, a, l, s) =>
         if (!e) return;
         const a = e.scrollWidth,
           l = e.scrollHeight;
-        w(a, l);
+        a > 0 && l > 0 && w(a, l);
         const s = window.getComputedStyle(e);
         r({
           top: parseInt(s.getPropertyValue("padding-top"), 10),

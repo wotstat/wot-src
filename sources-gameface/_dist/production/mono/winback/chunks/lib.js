@@ -663,6 +663,38 @@ var timeFormats = { full: DateTimeFormatsEnum.FullTime, short: DateTimeFormatsEn
 function formatTime(e, t, n = !0) {
   return window.regionalDateTime.getRegionalDateTime(t, e, n);
 }
+function getDateParts(e) {
+  const t = new Date(1e3 * e);
+  return {
+    year: t.getFullYear(),
+    month: t.getMonth() + 1,
+    hours: t.getHours(),
+    minutes: t.getMinutes(),
+    seconds: t.getSeconds(),
+  };
+}
+function isSameTime(e, t) {
+  return e.hours === t.hours && e.minutes === t.minutes && e.seconds === t.seconds;
+}
+function getRangeFormatPath(e, t) {
+  const n = e.year === t.year;
+  return [
+    "datetime_formats",
+    "dateRange",
+    "dateWithYear",
+    n ? "sameYear" : "differentYear",
+    n && e.month === t.month ? "sameMonth" : "differentMonth",
+    isSameTime(e, t) ? "sameTime" : "differentTime",
+  ].join(".");
+}
+function formatRange(e, t) {
+  const n = getRangeFormatPath(getDateParts(e), getDateParts(t)),
+    r = resources.resolve("strings");
+  return {
+    start: window.regionalDateTime.getFormattedDateTime(e, r.readOrEmpty(`${n}.start`), !0),
+    end: window.regionalDateTime.getFormattedDateTime(t, r.readOrEmpty(`${n}.end`), !0),
+  };
+}
 var intl$1 = {
     isNumberFormat: isNumberFormat,
     formatNumber: formatNumber,
@@ -674,6 +706,7 @@ var intl$1 = {
     dateTimeFormats: DateTimeFormatsEnum,
     formatTime: formatTime,
     timeFormats: timeFormatList,
+    formatRange: formatRange,
     toUpperCase: (e) => window.systemLocale.toUpperCase(e),
     toLowerCase: (e) => window.systemLocale.toLowerCase(e),
   },
@@ -29773,16 +29806,18 @@ function useLoadPlugin(e, t = []) {
     a = (0, import_react.useRef)(t);
   return (
     (0, import_react.useEffect)(() => {
-      const t = (async function () {
+      if (!e) return;
+      const t = e;
+      const n = (async function () {
         try {
-          const t = await loadPlugin(e);
-          return (r({ status: "loaded", result: await t.init(...a.current), instance: t }), t);
-        } catch (t) {
-          r({ status: "failure", error: t });
+          const e = await loadPlugin(t);
+          return (r({ status: "loaded", result: await e.init(...a.current), instance: e }), e);
+        } catch (e) {
+          r({ status: "failure", error: e });
         }
       })();
       return () => {
-        t.then((e) => e?.destroy());
+        n.then((e) => e?.destroy());
       };
     }, [e]),
     n

@@ -1,19 +1,19 @@
 import {
   J as e,
-  Mt as s,
-  Z as t,
-  _t as a,
-  lt as p,
-  n as r,
-  xt as m,
+  Nt as s,
+  St as t,
+  Z as a,
+  n as p,
+  ut as r,
+  vt as m,
   z as d,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { t as o } from "../../chunks/vendor.js";
 import { t as l } from "../../chunks/breed.js";
-var [c, i] = t("PetTooltipModel")(
+var [c, i] = a("PetTooltipModel")(
     ({ observableModel: e }) => ({ root: e.object(), bonuses: e.arrayClone("promotionBonuses") }),
-    m,
+    t,
   ),
   n = "App_e5b11dda",
   _ = "App_bgFlare_c6313b44",
@@ -29,21 +29,21 @@ var [c, i] = t("PetTooltipModel")(
   g = "App_card_82efbffd",
   h = "App_bonusIcon_f8777acb",
   $ = "App_text_a9b1bc33",
-  E = p(),
+  E = r(),
   O = s.resolve("images"),
   k = s.resolve("strings"),
   I = o(function () {
     const { model: e } = i(),
-      { breedName: s, petID: t, petNameID: p, petType: m } = e.root.get(),
+      { breedName: s, petID: t, petNameID: a, petType: r } = e.root.get(),
       o = e.bonuses.get();
-    return (0, E.jsxs)(r, {
+    return (0, E.jsxs)(p, {
       className: n,
       children: [
         (0, E.jsx)("div", {
           className: b,
           style: { backgroundImage: `url(${O.readOrEmpty(`petSystem.pets.x96x96.pet_${t}`)})` },
         }),
-        (0, E.jsxs)(r.Decorator, {
+        (0, E.jsxs)(p.Decorator, {
           className: y,
           children: [
             (0, E.jsx)("div", {
@@ -55,11 +55,11 @@ var [c, i] = t("PetTooltipModel")(
               children: [
                 (0, E.jsx)("div", {
                   className: u,
-                  children: k.readOrEmpty(`pet_names.petName_${p}`),
+                  children: k.readOrEmpty(`pet_names.petName_${a}`),
                 }),
                 (0, E.jsx)(l, {
                   className: v,
-                  petType: k.readOrEmpty(`pet_system.petType.${m}`),
+                  petType: k.readOrEmpty(`pet_system.petType.${r}`),
                   breedName: k.readOrEmpty(`pet_system.breedName.${s}`),
                 }),
               ],
@@ -73,7 +73,7 @@ var [c, i] = t("PetTooltipModel")(
             (0, E.jsx)("div", { className: x }),
             (0, E.jsx)("div", {
               className: A,
-              children: a(o, (e) =>
+              children: m(o, (e) =>
                 (0, E.jsxs)(
                   "div",
                   {

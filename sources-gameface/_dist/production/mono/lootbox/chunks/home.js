@@ -69,18 +69,20 @@ import {
   s as Type,
 } from "./statistics.js";
 import {
-  a as Loader,
-  i as AnimationCheckbox,
-  l as MODEL_OPTIONS,
+  a as Shadow$2,
+  c as useCoverSize,
+  d as MODEL_OPTIONS,
+  l as RESOURCE_TYPES,
   n as BoxPanel,
-  o as useCoverSize,
-  s as RESOURCE_TYPES,
+  o as AnimationCheckbox,
+  r as Line,
+  s as Loader,
   t as useVideoLoaded,
 } from "./use_video_loaded.js";
 var import_react = __toESM(require_react()),
-  base$38 = "Body_9b6a113b",
-  fadeIn$39 = "Body_fadeIn_26aeb497",
-  body_module_default$2 = { base: base$38, fadeIn: fadeIn$39 },
+  base$39 = "Body_9b6a113b",
+  fadeIn$40 = "Body_fadeIn_26aeb497",
+  body_module_default$2 = { base: base$39, fadeIn: fadeIn$40 },
   import_jsx_runtime = __toESM(require_jsx_runtime());
 function Body$2({ children: e, className: t }) {
   return (0, import_jsx_runtime.jsx)("div", {
@@ -88,20 +90,20 @@ function Body$2({ children: e, className: t }) {
     children: e,
   });
 }
-var base$37 = "Close_179bd5e3",
-  fadeIn$38 = "Close_fadeIn_fd7bc94e",
-  close_module_default$1 = { base: base$37, fadeIn: fadeIn$38 };
+var base$38 = "Close_179bd5e3",
+  fadeIn$39 = "Close_fadeIn_fd7bc94e",
+  close_module_default$1 = { base: base$38, fadeIn: fadeIn$39 };
 function Close$1({ onClick: e, className: t }) {
   return (0, import_jsx_runtime.jsx)(CloseButton, {
     className: clsx(close_module_default$1.base, t),
     onClose: e,
   });
 }
-var base$36 = "Heading_82ae16e4",
+var base$37 = "Heading_82ae16e4",
   subtitle = "Heading_subtitle_ffa177a",
   title = "Heading_title_2b8ff5c5",
-  fadeIn$37 = "Heading_fadeIn_da06193d",
-  heading_module_default = { base: base$36, subtitle: subtitle, title: title, fadeIn: fadeIn$37 };
+  fadeIn$38 = "Heading_fadeIn_da06193d",
+  heading_module_default = { base: base$37, subtitle: subtitle, title: title, fadeIn: fadeIn$38 };
 function Heading({ text: e, subtitle: t, className: o }) {
   return (0, import_jsx_runtime.jsxs)("div", {
     className: clsx(heading_module_default.base, o),
@@ -115,27 +117,27 @@ function Heading({ text: e, subtitle: t, className: o }) {
     ],
   });
 }
-var base$35 = "PanelControls_a0535d59",
-  fadeIn$36 = "PanelControls_fadeIn_ab4505f8",
-  panel_controls_module_default = { base: base$35, fadeIn: fadeIn$36 };
+var base$36 = "PanelControls_a0535d59",
+  fadeIn$37 = "PanelControls_fadeIn_ab4505f8",
+  panel_controls_module_default = { base: base$36, fadeIn: fadeIn$37 };
 function PanelControls({ children: e, className: t }) {
   return (0, import_jsx_runtime.jsx)("div", {
     className: clsx(panel_controls_module_default.base, t),
     children: e,
   });
 }
-var base$34 = "Switcher_2841375e",
-  fadeIn$35 = "Switcher_fadeIn_9ba1e4f",
-  switcher_module_default = { base: base$34, fadeIn: fadeIn$35 };
+var base$35 = "Switcher_2841375e",
+  fadeIn$36 = "Switcher_fadeIn_9ba1e4f",
+  switcher_module_default = { base: base$35, fadeIn: fadeIn$36 };
 function Switcher({ children: e, className: t }) {
   return (0, import_jsx_runtime.jsx)("div", {
     className: clsx(switcher_module_default.base, t),
     children: e,
   });
 }
-var base$33 = "Page_a1e5a08c",
-  fadeIn$34 = "Page_fadeIn_fefb19c8",
-  page_module_default = { base: base$33, fadeIn: fadeIn$34 };
+var base$34 = "Page_a1e5a08c",
+  fadeIn$35 = "Page_fadeIn_fefb19c8",
+  page_module_default = { base: base$34, fadeIn: fadeIn$35 };
 function Page({ children: e, className: t, style: o }) {
   return (0, import_jsx_runtime.jsx)("div", {
     className: clsx(page_module_default.base, t),
@@ -160,9 +162,9 @@ var useCallbackImageLoaded = (e, t) => {
       );
     }, [e, t]);
   },
-  base$32 = "ImageLayer_f8eebc6c",
-  fadeIn$33 = "ImageLayer_fadeIn_458f15d4",
-  image_layer_module_default = { base: base$32, fadeIn: fadeIn$33 };
+  base$33 = "ImageLayer_f8eebc6c",
+  fadeIn$34 = "ImageLayer_fadeIn_458f15d4",
+  image_layer_module_default = { base: base$33, fadeIn: fadeIn$34 };
 function ImageLayer({ src: e, className: t, onLoaded: o = noop }) {
   return (
     useCallbackImageLoaded(e, o),
@@ -211,15 +213,15 @@ function VideoLayer({
     })
   );
 }
-var base$31 = "ResourceLayer_62748772",
+var base$32 = "ResourceLayer_62748772",
   layer$1 = "ResourceLayer_layer_c06d2ca4",
   layer__video = "ResourceLayer_layer__video_445e841b",
-  fadeIn$32 = "ResourceLayer_fadeIn_e31dcf70",
+  fadeIn$33 = "ResourceLayer_fadeIn_e31dcf70",
   resource_layer_module_default = {
-    base: base$31,
+    base: base$32,
     layer: layer$1,
     layer__video: layer__video,
-    fadeIn: fadeIn$32,
+    fadeIn: fadeIn$33,
   };
 function ResourceLayer({
   layer: e,
@@ -284,10 +286,10 @@ function Box({
     })
   );
 }
-var base$30 = "Hover_55af9f42",
+var base$31 = "Hover_55af9f42",
   hoverTrigger = "Hover_hoverTrigger_82df64e5",
-  fadeIn$31 = "Hover_fadeIn_398b1759",
-  hover_module_default = { base: base$30, hoverTrigger: hoverTrigger, fadeIn: fadeIn$31 };
+  fadeIn$32 = "Hover_fadeIn_398b1759",
+  hover_module_default = { base: base$31, hoverTrigger: hoverTrigger, fadeIn: fadeIn$32 };
 function Hover({
   className: e,
   settings: t,
@@ -308,18 +310,18 @@ function Hover({
     }),
   });
 }
-var base$29 = "Vignette_96c6d4bc",
-  fadeIn$30 = "Vignette_fadeIn_181a81d5",
-  vignette_module_default = { base: base$29, fadeIn: fadeIn$30 };
+var base$30 = "Vignette_96c6d4bc",
+  fadeIn$31 = "Vignette_fadeIn_181a81d5",
+  vignette_module_default = { base: base$30, fadeIn: fadeIn$31 };
 function Vignette({ className: e, style: t }) {
   return (0, import_jsx_runtime.jsx)("div", {
     className: clsx(vignette_module_default.base, e),
     style: t,
   });
 }
-var base$28 = "BoxLayout_5663f366",
-  fadeIn$29 = "BoxLayout_fadeIn_9c8a2c10",
-  box_layout_module_default = { base: base$28, fadeIn: fadeIn$29 };
+var base$29 = "BoxLayout_5663f366",
+  fadeIn$30 = "BoxLayout_fadeIn_9c8a2c10",
+  box_layout_module_default = { base: base$29, fadeIn: fadeIn$30 };
 function BoxLayout({ children: e, style: t, className: o }) {
   return (0, import_jsx_runtime.jsx)("div", {
     className: clsx(box_layout_module_default.base, o),
@@ -496,7 +498,7 @@ var usePreviousValue = (e) => {
       };
     },
   ),
-  base$27 = "CompositeScene_c16d0a29",
+  base$28 = "CompositeScene_c16d0a29",
   vignette = "CompositeScene_vignette_c16d0a29",
   box = "CompositeScene_box_ff78dbca",
   idle = "CompositeScene_idle_abfdd117",
@@ -505,12 +507,12 @@ var usePreviousValue = (e) => {
   background__show = "CompositeScene_background__show_5ad4ed30",
   glow__show = "CompositeScene_glow__show_6d031a33",
   idle__show = "CompositeScene_idle__show_314703c5",
-  fadeIn$28 = "CompositeScene_fadeIn_c16d0a29",
+  fadeIn$29 = "CompositeScene_fadeIn_c16d0a29",
   hover = "CompositeScene_hover_63da4085",
   box__show = "CompositeScene_box__show_5ad4ed30",
   base__graphicsHigh = "CompositeScene_base__graphicsHigh_c16d0a29",
   composite_scene_module_default = {
-    base: base$27,
+    base: base$28,
     vignette: vignette,
     box: box,
     idle: idle,
@@ -519,7 +521,7 @@ var usePreviousValue = (e) => {
     background__show: background__show,
     glow__show: glow__show,
     idle__show: idle__show,
-    fadeIn: fadeIn$28,
+    fadeIn: fadeIn$29,
     hover: hover,
     box__show: box__show,
     base__graphicsHigh: base__graphicsHigh,
@@ -548,15 +550,15 @@ function CompositeScene({ onClick: e, onLoaded: t, className: o }) {
       (S(!0), t());
     }),
     j = () => s.setShowAdditionalLayers(!0),
-    T = () => s.setShowAdditionalLayers(!1),
-    $ = () => {
+    $ = () => s.setShowAdditionalLayers(!1),
+    T = () => {
       (play.sound(d.boxMouseLeave), s.setIsBoxHovered(!1));
     },
     N = usePreviousValue(p),
-    O = b ? p : N,
-    B = (e, t) => {
+    B = b ? p : N,
+    O = (e, t) => {
       const o = a.computes.extractSublayers(e);
-      return { active: t === (Boolean(O && o[O]) ? O : COMMON_SUBLAYER_NAME), resource: o[t] };
+      return { active: t === (Boolean(B && o[B]) ? B : COMMON_SUBLAYER_NAME), resource: o[t] };
     };
   return (
     (0, import_react.useEffect)(() => {
@@ -574,7 +576,7 @@ function CompositeScene({ onClick: e, onLoaded: t, className: o }) {
       ),
       children: [
         g.map((e) => {
-          const { active: t, resource: o } = B(LAYERS.background, e);
+          const { active: t, resource: o } = O(LAYERS.background, e);
           return (0, import_jsx_runtime.jsx)(
             ResourceLayer,
             {
@@ -591,7 +593,7 @@ function CompositeScene({ onClick: e, onLoaded: t, className: o }) {
           );
         }),
         h.map((e) => {
-          const { active: t, resource: o } = B(LAYERS.box, e);
+          const { active: t, resource: o } = O(LAYERS.box, e);
           return (0, import_jsx_runtime.jsx)(
             BoxLayout.Box,
             {
@@ -604,14 +606,14 @@ function CompositeScene({ onClick: e, onLoaded: t, className: o }) {
               onLoaded: I,
               onVideoEnded: j,
               playVideo: w && o?.type === RESOURCE_TYPES.video && t,
-              onVideoPlay: T,
+              onVideoPlay: $,
             },
             `${LAYERS.box}_${e}`,
           );
         }),
         !f &&
           y.map((e) => {
-            const { active: t, resource: o } = B(LAYERS.hover, e);
+            const { active: t, resource: o } = O(LAYERS.hover, e);
             return (0, import_jsx_runtime.jsx)(
               ResourceLayer,
               {
@@ -631,7 +633,7 @@ function CompositeScene({ onClick: e, onLoaded: t, className: o }) {
         C &&
           !f &&
           v.map((e) => {
-            const { active: t, resource: o } = B(LAYERS.idle, e);
+            const { active: t, resource: o } = O(LAYERS.idle, e);
             return (0, import_jsx_runtime.jsx)(
               ResourceLayer,
               {
@@ -661,9 +663,9 @@ function CompositeScene({ onClick: e, onLoaded: t, className: o }) {
             onMouseEnter: () => {
               (play.sound(d.boxMouseEnter), s.setIsBoxHovered(!0));
             },
-            onMouseLeave: $,
+            onMouseLeave: T,
             onClick: () => {
-              f || ($(), play.click(), e());
+              f || (T(), play.click(), e());
             },
           }),
       ],
@@ -671,17 +673,17 @@ function CompositeScene({ onClick: e, onLoaded: t, className: o }) {
   );
 }
 var composite_scene_default = observer(CompositeScene),
-  base$26 = "SubTitle_df241777",
+  base$27 = "SubTitle_df241777",
   base__center = "SubTitle_base__center_849a659e",
   base__left = "SubTitle_base__left_25e95ddb",
   base__right = "SubTitle_base__right_43c92756",
-  fadeIn$27 = "SubTitle_fadeIn_c315a83c",
+  fadeIn$28 = "SubTitle_fadeIn_c315a83c",
   sub_title_module_default = {
-    base: base$26,
+    base: base$27,
     base__center: base__center,
     base__left: base__left,
     base__right: base__right,
-    fadeIn: fadeIn$27,
+    fadeIn: fadeIn$28,
   },
   AlignType = (function (e) {
     return ((e.Center = "center"), (e.Left = "left"), (e.Right = "right"), e);
@@ -692,33 +694,33 @@ function SubTitle({ text: e, alignType: t = "left", className: o }) {
     children: e,
   });
 }
-var base$25 = "Asset_b183621e",
-  fadeIn$26 = "Asset_fadeIn_fee8168d",
-  asset_module_default = { base: base$25, fadeIn: fadeIn$26 };
+var base$26 = "Asset_b183621e",
+  fadeIn$27 = "Asset_fadeIn_fee8168d",
+  asset_module_default = { base: base$26, fadeIn: fadeIn$27 };
 function Asset({ image: e, classNames: t = "" }) {
   return (0, import_jsx_runtime.jsx)("div", {
     className: clsx(asset_module_default.base, t),
     style: { backgroundImage: `url(${e})` },
   });
 }
-var base$24 = "Content_5b2426e4",
-  fadeIn$25 = "Content_fadeIn_da09528a",
-  content_module_default$3 = { base: base$24, fadeIn: fadeIn$25 };
+var base$25 = "Content_5b2426e4",
+  fadeIn$26 = "Content_fadeIn_da09528a",
+  content_module_default$3 = { base: base$25, fadeIn: fadeIn$26 };
 function Content$3({ children: e, classNames: t = "" }) {
   return (0, import_jsx_runtime.jsx)("div", {
     className: clsx(content_module_default$3.base, t),
     children: e,
   });
 }
-var base$23 = "Shadow_6b416642",
-  fadeIn$24 = "Shadow_fadeIn_8d56b15",
-  shadow_module_default$1 = { base: base$23, fadeIn: fadeIn$24 };
+var base$24 = "Shadow_6b416642",
+  fadeIn$25 = "Shadow_fadeIn_8d56b15",
+  shadow_module_default$1 = { base: base$24, fadeIn: fadeIn$25 };
 function Shadow$1({ classNames: e = "" }) {
   return (0, import_jsx_runtime.jsx)("div", { className: clsx(shadow_module_default$1.base, e) });
 }
-var base$22 = "Body_4f642c84",
-  fadeIn$23 = "Body_fadeIn_26aeb497",
-  body_module_default$1 = { base: base$22, fadeIn: fadeIn$23 };
+var base$23 = "Body_4f642c84",
+  fadeIn$24 = "Body_fadeIn_26aeb497",
+  body_module_default$1 = { base: base$23, fadeIn: fadeIn$24 };
 function Body$1({ children: e, className: t }) {
   return (0, import_jsx_runtime.jsx)("div", {
     className: clsx(body_module_default$1.base, t),
@@ -726,21 +728,21 @@ function Body$1({ children: e, className: t }) {
   });
 }
 ((Body$1.Shadow = Shadow$1), (Body$1.Asset = Asset), (Body$1.Content = Content$3));
-var buttons$1 = "Content_buttons_8eaaf71a",
+var buttons = "Content_buttons_8eaaf71a",
   secondaryButton = "Content_secondaryButton_e97477a8",
-  base$21 = "Content_da09528a",
+  base$22 = "Content_da09528a",
   asset = "Content_asset_7b492161",
   subTitle = "Content_subTitle_27410b8b",
-  shadow$1 = "Content_shadow_d31ad2ce",
-  fadeIn$22 = "Content_fadeIn_da09528a",
+  shadow$2 = "Content_shadow_d31ad2ce",
+  fadeIn$23 = "Content_fadeIn_da09528a",
   content_module_default$2 = {
-    buttons: buttons$1,
+    buttons: buttons,
     secondaryButton: secondaryButton,
-    base: base$21,
+    base: base$22,
     asset: asset,
     subTitle: subTitle,
-    shadow: shadow$1,
-    fadeIn: fadeIn$22,
+    shadow: shadow$2,
+    fadeIn: fadeIn$23,
   };
 function Content$2() {
   const { model: e, controls: t } = useModel$1(),
@@ -799,10 +801,10 @@ function Content$2() {
   });
 }
 var content_default = observer(Content$2),
-  base$20 = "NoBoxes_1c22f7df",
+  base$21 = "NoBoxes_1c22f7df",
   layer = "NoBoxes_layer_1169dd08",
-  fadeIn$21 = "NoBoxes_fadeIn_1c22f7df",
-  no_boxes_module_default = { base: base$20, layer: layer, fadeIn: fadeIn$21 };
+  fadeIn$22 = "NoBoxes_fadeIn_1c22f7df",
+  no_boxes_module_default = { base: base$21, layer: layer, fadeIn: fadeIn$22 };
 function NoBoxes({ onLoaded: e, className: t }) {
   const { model: o, controls: a } = useModel$1(),
     { images: s, videos: n } = o.computes.resources(),
@@ -842,10 +844,10 @@ var no_boxes_default = observer(NoBoxes),
       policy: (0, import_react.useMemo)(() => ({ showLoader: a === animationsType.wait }), [a]),
     };
   },
-  base$19 = "Content_63f6f934",
+  base$20 = "Content_63f6f934",
   content$2 = "Content_fe5f3784",
-  fadeIn$20 = "Content_fadeIn_da09528a",
-  content_module_default$1 = { base: base$19, content: content$2, fadeIn: fadeIn$20 },
+  fadeIn$21 = "Content_fadeIn_da09528a",
+  content_module_default$1 = { base: base$20, content: content$2, fadeIn: fadeIn$21 },
   DURATION = 150;
 function Content$1({ onLoaded: e, openBox: t, mode: o, className: a }) {
   const s = (0, import_react.useRef)(!0);
@@ -883,6 +885,26 @@ function Content$1({ onLoaded: e, openBox: t, mode: o, className: a }) {
     })
   );
 }
+var base$19 = "NoBoxesPanel_621bbef4",
+  shadow$1 = "NoBoxesPanel_shadow_eab19ed3",
+  fadeIn$20 = "NoBoxesPanel_fadeIn_c7dce174",
+  no_boxes_panel_module_default = { base: base$19, shadow: shadow$1, fadeIn: fadeIn$20 },
+  NoBoxesPanel = observer(function ({ className: e = "" }) {
+    const { model: t } = useModel$1(),
+      { boxesCountToGuaranteed: o, boxCategory: a } = t.computes.boxInfo(),
+      { eventName: s } = t.root.get(),
+      { hasPanelShadow: n } = getConfig(s);
+    return (0, import_jsx_runtime.jsxs)("div", {
+      className: clsx(no_boxes_panel_module_default.base, e),
+      children: [
+        n &&
+          (0, import_jsx_runtime.jsx)(Shadow$2, {
+            className: no_boxes_panel_module_default.shadow,
+          }),
+        o > 0 && (0, import_jsx_runtime.jsx)(Line, { counts: o, category: a, eventName: s }),
+      ],
+    });
+  });
 function useStateMachine(e) {
   const { initial: t, transitions: o } = e,
     [a, s] = (0, import_react.useState)(t),
@@ -1822,81 +1844,77 @@ var shiftBottomAnimation = {
     });
   }),
   base$1 = "BoxOpenPanel_1640485f",
-  guaranteedTitle = "BoxOpenPanel_guaranteedTitle_1d4d1680",
-  buttons = "BoxOpenPanel_buttons_9cc1b845",
   button = "BoxOpenPanel_button_68661221",
   control = "BoxOpenPanel_control_7e0d1282",
   fadeIn$1 = "BoxOpenPanel_fadeIn_1640485f",
   box_open_panel_module_default = {
     base: base$1,
-    guaranteedTitle: guaranteedTitle,
-    buttons: buttons,
     button: button,
     control: control,
     fadeIn: fadeIn$1,
   },
   THROTTLE_DELAY$1 = 1100,
-  BoxOpenPanel = observer(({ openClick: e, mode: t, className: o }) => {
-    const { model: a, controls: s } = useModel$1(),
-      { model: n } = useModel$2(),
-      { texts: r, sounds: i } = a.computes.resources(),
-      { boxesCount: l, boxesCountToGuaranteed: d, boxCategory: _ } = a.computes.boxInfo(),
-      c = a.openingOptions.get(),
-      { eventName: u } = a.root.get(),
+  BoxOpenPanel = observer(({ openClick: e, className: t }) => {
+    const { model: o, controls: a } = useModel$1(),
+      { model: s } = useModel$2(),
+      { texts: n, sounds: r } = o.computes.resources(),
+      { boxesCount: i, boxesCountToGuaranteed: l, boxCategory: d } = o.computes.boxInfo(),
+      _ = o.openingOptions.get(),
+      { eventName: c } = o.root.get(),
+      { hasPanelShadow: u } = getConfig(c),
       m = useAdaptive(
         { buttonSize: Button.sizes.medium },
         { large: { buttonSize: Button.sizes.large } },
       ),
-      p = c.length > 1,
-      b = t === screenMode.withBoxes,
-      f = hasOverlay(n.subViewIDs.get());
-    const x = () => {
-        (play.sound(i.boxMouseLeave), s.setIsBoxHovered(!1));
+      p = _.length > 1,
+      b = hasOverlay(s.subViewIDs.get());
+    const f = () => {
+        (play.sound(r.boxMouseLeave), a.setIsBoxHovered(!1));
       },
-      g = useThrottle(
+      x = useThrottle(
         () => {
-          !f && e();
+          !b && e();
         },
-        [f, e],
+        [b, e],
         THROTTLE_DELAY$1,
       );
     return (
-      useKeydownListener(keyStringCodes.SPACE, g),
+      useKeydownListener(keyStringCodes.SPACE, x),
       (0, import_jsx_runtime.jsxs)(BoxPanel, {
-        eventName: u,
-        className: clsx(box_open_panel_module_default.base, o),
+        eventName: c,
+        className: clsx(box_open_panel_module_default.base, t),
         children: [
-          d > 0 && (0, import_jsx_runtime.jsx)(BoxPanel.Guaranteed, { counts: d, category: _ }),
-          b &&
-            (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, {
-              children: [
-                (0, import_jsx_runtime.jsxs)(BoxPanel.Controls, {
-                  children: [
-                    p &&
-                      (0, import_jsx_runtime.jsx)(BoxPanel.Control, {
-                        children: (0, import_jsx_runtime.jsx)(Select, {}),
-                      }),
+          u && (0, import_jsx_runtime.jsx)(BoxPanel.Shadow, {}),
+          l > 0 && (0, import_jsx_runtime.jsx)(BoxPanel.Guaranteed, { counts: l, category: d }),
+          (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, {
+            children: [
+              (0, import_jsx_runtime.jsxs)(BoxPanel.Controls, {
+                children: [
+                  p &&
                     (0, import_jsx_runtime.jsx)(BoxPanel.Control, {
-                      className: box_open_panel_module_default.control,
-                      children: (0, import_jsx_runtime.jsx)(Button, {
-                        onClick: () => {
-                          f || (x(), e());
-                        },
-                        className: box_open_panel_module_default.button,
-                        onMouseEnter: function () {
-                          (play.sound(i.boxMouseEnter), s.setIsBoxHovered(!0));
-                        },
-                        onMouseLeave: x,
-                        size: m.buttonSize,
-                        silent: !0,
-                        children: r.openButtonText,
-                      }),
+                      children: (0, import_jsx_runtime.jsx)(Select, {}),
                     }),
-                  ],
-                }),
-                (0, import_jsx_runtime.jsx)(BoxPanel.Quantity, { boxesCount: l }),
-              ],
-            }),
+                  (0, import_jsx_runtime.jsx)(BoxPanel.Control, {
+                    className: box_open_panel_module_default.control,
+                    children: (0, import_jsx_runtime.jsx)(Button, {
+                      onClick: () => {
+                        b || (f(), e());
+                      },
+                      className: box_open_panel_module_default.button,
+                      onMouseEnter: function () {
+                        (play.sound(r.boxMouseEnter), a.setIsBoxHovered(!0));
+                      },
+                      onMouseLeave: f,
+                      size: m.buttonSize,
+                      silent: !0,
+                      children: n.openButtonText,
+                    }),
+                  }),
+                ],
+              }),
+              (0, import_jsx_runtime.jsx)(BoxPanel.Quantity, { boxesCount: i }),
+            ],
+          }),
         ],
       })
     );
@@ -1915,7 +1933,8 @@ var shiftBottomAnimation = {
   statsButton = "App_statsButton_b992bd88",
   close = "App_close_b1f58b8d",
   headerAnimation = "App_headerAnimation_c3dc2c23",
-  footer = "App_footer_35a0825a",
+  footer = "App_footer_103a2d08",
+  noBoxPanel = "App_noBoxPanel_0",
   boxOpenPanel = "App_boxOpenPanel_a6e2c19d",
   loader = "App_loader_9f50f8e4",
   checkbox = "App_checkbox_194935ee",
@@ -1942,6 +1961,7 @@ var shiftBottomAnimation = {
     close: close,
     headerAnimation: headerAnimation,
     footer: footer,
+    noBoxPanel: noBoxPanel,
     boxOpenPanel: boxOpenPanel,
     loader: loader,
     checkbox: checkbox,
@@ -1996,22 +2016,22 @@ function App() {
     {
       state: I,
       goTo: j,
-      canGo: T,
+      canGo: $,
     } = useStateMachine({ initial: animationsType.initial, transitions: animationTransitions }),
-    $ = useScreenState({ hasBoxes: h, animationState: I }),
-    N = $.mode === screenMode.withBoxes,
-    O = useThrottle(() => t.openBoxes(), [t], THROTTLE_DELAY),
-    [B, R] = useSpring(() => shiftBottomAnimation),
+    T = useScreenState({ hasBoxes: h, animationState: I }),
+    N = T.mode === screenMode.withBoxes,
+    B = useThrottle(() => t.openBoxes(), [t], THROTTLE_DELAY),
+    [O, R] = useSpring(() => shiftBottomAnimation),
     [L, A] = useSpring(() => shiftTopAnimation),
-    [k, M] = useSpring(() => shiftRightAnimation),
-    P = useTransition($.policy.showLoader, {
+    [k, P] = useSpring(() => shiftRightAnimation),
+    M = useTransition(T.policy.showLoader, {
       from: { opacity: 0 },
       enter: { opacity: 1 },
       leave: { opacity: 0 },
       config: { duration: 250, easing: easings.linear },
     }),
     V = () => {
-      (e.isBoxHovered.get() && play.sound(p.boxMouseLeave), $.policy.showLoader || t.close());
+      (e.isBoxHovered.get() && play.sound(p.boxMouseLeave), T.policy.showLoader || t.close());
     };
   useCallbackOnEsc(V);
   const D = () => {
@@ -2022,8 +2042,8 @@ function App() {
     };
   return (
     (0, import_react.useEffect)(() => {
-      $.phase === animationsType.wait && createTimeoutInEffect(O, 250);
-    }, [O, $.phase]),
+      T.phase === animationsType.wait && createTimeoutInEffect(B, 250);
+    }, [B, T.phase]),
     (0, import_react.useEffect)(() => {
       s && (j(animationsType.back), U(), t.resetError());
     }, [s]),
@@ -2031,7 +2051,7 @@ function App() {
       _ && (j(animationsType.back), U(), t.setShowAdditionalLayers(!0));
     }, [_]),
     (0, import_react.useEffect)(() => {
-      c && $.policy.showLoader && (j(animationsType.prepareLayout), A.start(transitionLeave()));
+      c && T.policy.showLoader && (j(animationsType.prepareLayout), A.start(transitionLeave()));
     }, [c]),
     (0, import_react.useEffect)(() => {
       graphicsQuality.isLow() && t.setAnimationState(!1);
@@ -2039,18 +2059,18 @@ function App() {
     (0, import_react.useEffect)(() => {
       C &&
         w &&
-        T(animationsType.openView) &&
+        $(animationsType.openView) &&
         (S(!1),
         j(animationsType.openView),
         R.start(shiftEndAnimation),
         A.start(shiftEndAnimation),
-        M.start(shiftEndAnimation));
+        P.start(shiftEndAnimation));
     }, [C, w]),
     (0, import_react.useEffect)(() => {
       (j(animationsType.prepareView), E(!0));
     }, []),
     (0, import_jsx_runtime.jsxs)(Page, {
-      className: clsx(app_module_default.base, app_module_default[`base__${$.phase}Animation`]),
+      className: clsx(app_module_default.base, app_module_default[`base__${T.phase}Animation`]),
       style: { backgroundColor: x },
       children: [
         (0, import_jsx_runtime.jsxs)(Page.PanelControls, {
@@ -2067,7 +2087,7 @@ function App() {
               eventName: n,
               label: u.infoButton,
               onClick: () => {
-                $.policy.showLoader || t.openInfoPage();
+                T.policy.showLoader || t.openInfoPage();
               },
             }),
           ],
@@ -2077,7 +2097,7 @@ function App() {
           onClick: V,
         }),
         (0, import_jsx_runtime.jsx)(animated.div, {
-          style: B,
+          style: O,
           className: app_module_default.headerAnimation,
           children: (0, import_jsx_runtime.jsx)(Page.Heading, {
             text: b.boxCategory.dynOpt(i),
@@ -2090,7 +2110,7 @@ function App() {
         (0, import_jsx_runtime.jsxs)(Page.Body, {
           children: [
             (0, import_jsx_runtime.jsx)(Content$1, {
-              mode: $.mode,
+              mode: T.mode,
               onLoaded: () => {
                 S(!0);
               },
@@ -2101,12 +2121,15 @@ function App() {
               style: L,
               className: app_module_default.footer,
               children: [
-                (0, import_jsx_runtime.jsx)(BoxOpenPanel, {
-                  className: app_module_default.boxOpenPanel,
-                  openClick: D,
-                  mode: $.mode,
-                }),
-                P((e, t) =>
+                h
+                  ? (0, import_jsx_runtime.jsx)(BoxOpenPanel, {
+                      className: app_module_default.boxOpenPanel,
+                      openClick: D,
+                    })
+                  : (0, import_jsx_runtime.jsx)(NoBoxesPanel, {
+                      className: app_module_default.noBoxPanel,
+                    }),
+                M((e, t) =>
                   (0, import_jsx_runtime.jsx)(animated.div, {
                     style: e,
                     className: app_module_default.loader,
@@ -2143,7 +2166,7 @@ function App() {
               children: (0, import_jsx_runtime.jsx)(BoxSwitch, {
                 tabs: f,
                 changeTab: (e) => {
-                  $.policy.showLoader ||
+                  T.policy.showLoader ||
                     (e !== i &&
                       (t.onBoxOptionChanged(e),
                       R.start(transitionLeave(() => R.start(transitionEnter))),

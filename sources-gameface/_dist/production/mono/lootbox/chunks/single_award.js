@@ -18,8 +18,8 @@ import {
   ft as b,
   g,
   h as x,
-  j as y,
-  lt as w,
+  j as w,
+  lt as y,
   tt as h,
   vt as v,
   wt as N,
@@ -31,7 +31,7 @@ import { a as O, r as B, t as E } from "./getRewardImage.js";
 import { t as G } from "./loupe_button.js";
 import { t as D } from "./sounds.js";
 import { t as L } from "./tank_name.js";
-import { c as H, l as $, t as W } from "./use_video_loaded.js";
+import { d as H, t as W, u as $ } from "./use_video_loaded.js";
 import {
   C as q,
   S as F,
@@ -140,8 +140,8 @@ var _e = {
               _e.openRare,
             );
           return {
-            [H.common]: { video: i, image: l, sound: m },
-            [H.rare]: { video: o, image: c, sound: u },
+            [$.common]: { video: i, image: l, sound: m },
+            [$.rare]: { video: o, image: c, sound: u },
           };
         }),
         c = s(
@@ -192,8 +192,8 @@ var _e = {
       clearActiveRareReward: v(() => a.activeRareReward.set(null)),
     }),
   ),
-  ye = e(o(), 1),
-  we = (0, ye.createContext)(null),
+  we = e(o(), 1),
+  ye = (0, we.createContext)(null),
   he = "REWARD_IN",
   ve = "REWARD_OUT",
   Ne = "OVERLAY_REWARD",
@@ -235,7 +235,7 @@ var _e = {
     const { model: a } = xe(),
       s = a.eventName.get(),
       t = q({ steps: Se(a.bonuses.get(), s), autoStart: !1 })();
-    return (0, Pe.jsx)(we.Provider, { value: t, children: e });
+    return (0, Pe.jsx)(ye.Provider, { value: t, children: e });
   }),
   Ve = "ExtraReward_9354b7c3";
 var ze = {
@@ -291,9 +291,9 @@ var Le = {
     fadeIn: "AdditionRewards_fadeIn_dd9e5582",
   },
   He = { opacity: 0, filter: "brightness(2)" },
-  $e = { opacity: 1, filter: "brightness(1)" },
-  We = {
-    to: [{ opacity: 1, filter: "brightness(2)" }, $e],
+  We = { opacity: 1, filter: "brightness(1)" },
+  $e = {
+    to: [{ opacity: 1, filter: "brightness(2)" }, We],
     config: { duration: 600, easing: t.easeInOutCubic },
     onRest: () => {
       ue.send({ type: M.toPage });
@@ -307,16 +307,16 @@ var Le = {
       i = a.extraBonuses.get(),
       [n, o] = m(() => ({ from: He }));
     return (
-      (0, ye.useEffect)(() => {
+      (0, we.useEffect)(() => {
         switch (s) {
           case ce.skip:
-            o.set($e);
+            o.set(We);
             break;
           case ce.preparation:
             o.set(He);
             break;
           case ce.extra:
-            o.start(We);
+            o.start($e);
         }
       }, [s, o]),
       (0, Pe.jsx)(_.div, {
@@ -336,7 +336,7 @@ var Le = {
                 contentId: Number(e.tooltipContentId),
                 tooltipId: e.tooltipId,
                 children: [
-                  (0, Pe.jsx)(De.Reward, { image: E(e, y.Big) }),
+                  (0, Pe.jsx)(De.Reward, { image: E(e, w.Big) }),
                   e.name === d.Vehicles &&
                     (0, Pe.jsx)(De.VehicleTitle, {
                       vehicleName: e.vehicleShortName,
@@ -435,7 +435,7 @@ function ra({ children: e, className: a, ...s }) {
   });
 }),
   (ra.RareGlow = function ({ src: e, className: a }) {
-    const s = (0, ye.useRef)(null);
+    const s = (0, we.useRef)(null);
     return (
       W(s, () => s.current?.play()),
       (0, Pe.jsx)("div", {
@@ -479,7 +479,7 @@ var ia = { opacity: 0, transform: "scale(0.96)", filter: "brightness(1.5)", imme
       countHeight: "36rem",
       nameHeight: "28rem",
       compensationGlowSize: "780rem",
-      imageSize: y.S600x450,
+      imageSize: w.S600x450,
       glowSize: "780rem",
       rareVideoSize: "512rem",
     },
@@ -491,7 +491,7 @@ var ia = { opacity: 0, transform: "scale(0.96)", filter: "brightness(1.5)", imme
       countHeight: "30rem",
       nameHeight: "24rem",
       compensationGlowSize: "520rem",
-      imageSize: y.S600x450,
+      imageSize: w.S600x450,
       glowSize: "520rem",
       rareVideoSize: "512rem",
     },
@@ -503,34 +503,34 @@ var ia = { opacity: 0, transform: "scale(0.96)", filter: "brightness(1.5)", imme
       countHeight: "26rem",
       nameHeight: "22rem",
       compensationGlowSize: "386rem",
-      imageSize: y.S600x450,
+      imageSize: w.S600x450,
       glowSize: "386rem",
       rareVideoSize: "440rem",
     },
   };
 function xa(e = !1) {
-  const a = w(
+  const a = y(
     { rare: ga.large, regular: ga.medium },
     { large: { rare: ga.extraLarge, regular: ga.large } },
   );
   return e ? a.rare : a.regular;
 }
-var ya = "Compensation_db29c4dc",
-  wa = "Compensation_glow_db29c4dc",
+var wa = "Compensation_db29c4dc",
+  ya = "Compensation_glow_db29c4dc",
   ha = "Compensation_particles_6a26f8c1",
   va = "Compensation_compensationIcon_ecf2b736",
   Na = c(function ({ reward: e, id: a, isTop1: s, className: t }) {
     const { model: r } = xe(),
       { images: i, videos: o, sounds: l } = r.computes.resources(),
-      c = (0, ye.useRef)(null),
+      c = (0, we.useRef)(null),
       d = X(c),
       [u, f] = m(() => la),
       [b, x] = m(() => na),
-      [w, h] = m(() => da),
+      [y, h] = m(() => da),
       v = xa(s),
-      N = de(we);
+      N = de(ye);
     return (
-      (0, ye.useEffect)(() => {
+      (0, we.useEffect)(() => {
         const e = (e) => {
           switch (e.name) {
             case Ie(je, a).name:
@@ -555,7 +555,7 @@ var ya = "Compensation_db29c4dc",
           }
         );
       }, [l, N.events, a]),
-      (0, ye.useEffect)(() => {
+      (0, we.useEffect)(() => {
         const e = () => {
           (h.start({ from: { display: "flex" }, config: { duration: 0 } }), x.start(ba(0)));
         };
@@ -567,11 +567,11 @@ var ya = "Compensation_db29c4dc",
         );
       }, [N.events]),
       (0, Pe.jsxs)(ra.Compensation, {
-        className: p(ya, t),
+        className: p(wa, t),
         children: [
           (0, Pe.jsx)(_.div, {
             style: { ...u },
-            className: wa,
+            className: ya,
             children: (0, Pe.jsx)(ra.Compensation.Glow, {
               src: o.compensationGlow,
               size: { width: v.compensationGlowSize, height: v.compensationGlowSize },
@@ -589,12 +589,12 @@ var ya = "Compensation_db29c4dc",
           (0, Pe.jsx)(_.div, {
             style: { ...b, visibility: b.visibility },
             children: (0, Pe.jsx)(ie, {
-              icon: E(e, y.S600x450, e.isCompensation),
+              icon: E(e, w.S600x450, e.isCompensation),
               sizes: { height: v.rewardHeight, width: v.rewardWidth },
             }),
           }),
           (0, Pe.jsxs)(_.div, {
-            style: { ...w },
+            style: { ...y },
             children: [
               (0, Pe.jsx)(ra.Compensation.Title, {
                 reward: e.compensation,
@@ -637,25 +637,26 @@ var ya = "Compensation_db29c4dc",
     });
   }),
   Aa = "Card_f8ca6727",
-  Ca = "Card_previewWrapper_58bcc92f",
-  Ia = "Card_previewButton_6ec3b3ed",
-  Sa = "Card_previewButton__ready_affac095",
-  Pa = "Card_rareVideo_f4c22d1c",
-  ka = "Card_glow_951fb0ef",
-  Va = "Card_compensation_36747d95",
-  za = c(function ({ reward: e, id: a, isTop1: s }) {
+  Ca = "Card_tankName_77f1ec70",
+  Ia = "Card_previewWrapper_58bcc92f",
+  Sa = "Card_previewButton_6ec3b3ed",
+  Pa = "Card_previewButton__ready_affac095",
+  ka = "Card_rareVideo_f4c22d1c",
+  Va = "Card_glow_951fb0ef",
+  za = "Card_compensation_36747d95",
+  Oa = c(function ({ reward: e, id: a, isTop1: s }) {
     const { model: r, controls: i } = xe(),
       o = r.eventName.get(),
       { images: c, videos: u, texts: f, sounds: b } = r.computes.resources(),
-      [g, x] = (0, ye.useState)(!1),
-      y = xa(s),
-      w = pe(ue, (e) => e.value),
+      [g, x] = (0, we.useState)(!1),
+      w = xa(s),
+      y = pe(ue, (e) => e.value),
       [h, v] = m(() => ia),
       [N, R] = m(() => ia),
       [j, A] = m(() => ma),
       S = e.name === d.Vehicles,
-      k = de(we);
-    ((0, ye.useEffect)(() => {
+      k = de(ye);
+    ((0, we.useEffect)(() => {
       const s = (s) => {
         switch (s.name) {
           case Ie(Ne, a).name:
@@ -691,7 +692,7 @@ var ya = "Compensation_db29c4dc",
         }
       );
     }, [b, k.events, i, a]),
-      (0, ye.useEffect)(() => {
+      (0, we.useEffect)(() => {
         const a = () => {
           (e.isCompensation
             ? (v.start({
@@ -713,51 +714,51 @@ var ya = "Compensation_db29c4dc",
       B = l({
         contentId: Number(z),
         args: { tooltipId: V, boxCategory: e.icon, eventName: o },
-        disabled: w !== ce.initial,
+        disabled: y !== ce.initial,
       }),
       E = I(O) ? u.rareGlow : C(O) ? u.commonGlow : "";
     return (0, Pe.jsxs)(ra, {
       ...B,
       className: Aa,
       children: [
-        e.isCompensation && (0, Pe.jsx)(Na, { id: a, reward: e, isTop1: s, className: Va }),
+        e.isCompensation && (0, Pe.jsx)(Na, { id: a, reward: e, isTop1: s, className: za }),
         Boolean(E) &&
           (0, Pe.jsx)(_.div, {
-            style: { opacity: j.opacity, width: y.glowSize, height: y.glowSize },
-            className: ka,
+            style: { opacity: j.opacity, width: w.glowSize, height: w.glowSize },
+            className: Va,
             children: (0, Pe.jsx)(ra.RareGlow, { src: E }),
           }),
         (0, Pe.jsx)(_.div, {
           style: { ...h },
           children: (0, Pe.jsx)(se, {
             reward: e,
-            sizes: y,
+            sizes: w,
             countText: f.multiplier,
-            currentAnimationState: w,
+            currentAnimationState: y,
           }),
         }),
         (0, Pe.jsx)(_.div, {
-          style: { ...N },
+          style: { ...N, width: S ? w.rewardWidth : void 0 },
           children: S
-            ? (0, Pe.jsx)(L, { reward: e, style: y })
-            : (0, Pe.jsx)(Ta, { reward: e, style: { labelFontSize: y.nameHeight } }),
+            ? (0, Pe.jsx)(L, { reward: e, style: w, className: Ca })
+            : (0, Pe.jsx)(Ta, { reward: e, style: { labelFontSize: w.nameHeight } }),
         }),
         T(e) &&
           !e.isCompensation &&
           (0, Pe.jsx)(_.div, {
-            className: Ca,
+            className: Ia,
             style: { ...N },
             children: (0, Pe.jsx)(ra.PreviewButton, {
               image: c.previewIcon,
               onClick: () =>
                 i.goPreview({ bonusType: e.name, bonusId: e.id ? e.id : "", styleID: e.styleID }),
-              className: p(Ia, w === ce.initial && Sa),
+              className: p(Sa, y === ce.initial && Pa),
             }),
           }),
         g &&
           (0, Pe.jsx)(J, {
-            className: Pa,
-            style: { width: y.rareVideoSize, height: y.rareVideoSize },
+            className: ka,
+            style: { width: w.rareVideoSize, height: w.rareVideoSize },
             sound: e.rarity === P.Rare ? b.rareAnimation : b.epicAnimation,
             src: u[e.rarity],
             show: g,
@@ -768,18 +769,18 @@ var ya = "Compensation_db29c4dc",
       ],
     });
   }),
-  Oa = "RewardList_7f0b73c7",
-  Ba = (e) => e + 1,
-  Ea = c(function ({ className: e, resume: a }) {
+  Ba = "RewardList_7f0b73c7",
+  Ea = (e) => e + 1,
+  Ga = c(function ({ className: e, resume: a }) {
     const { model: s, controls: t } = xe(),
       { sounds: r } = s.computes.resources(),
       i = s.computes.mainRewards(),
       o = s.extraBonuses.get().length,
-      [l, c] = (0, ye.useState)(0),
+      [l, c] = (0, we.useState)(0),
       d = pe(ue, (e) => e.value),
-      m = de(we);
+      m = de(ye);
     return (
-      (0, ye.useEffect)(() => {
+      (0, we.useEffect)(() => {
         const e = (e) => {
           if (e.name === Ae) ue.send({ type: o > 0 ? M.toExtra : M.toPage });
         };
@@ -790,41 +791,41 @@ var ya = "Compensation_db29c4dc",
           }
         );
       }, [m.events, t, o]),
-      (0, ye.useEffect)(() => {
+      (0, we.useEffect)(() => {
         switch (Z(d)) {
           case ce.skip:
             m.skipAll();
             break;
           case ce.preparation:
-            (m.reset(), c(Ba));
+            (m.reset(), c(Ea));
             break;
           case ce.rewards:
             m.start();
         }
       }, [d]),
-      (0, ye.useEffect)(() => {
+      (0, we.useEffect)(() => {
         a.active && (n.sound(r.rewardAppear), a.reset());
       }, [r, a]),
       (0, Pe.jsx)(
         Me,
         {
-          className: p(Oa, e),
+          className: p(Ba, e),
           children: i.map(({ reward: e, id: a, isTop1: s }) =>
-            (0, Pe.jsx)(za, { reward: e, id: a, isTop1: s }, a),
+            (0, Pe.jsx)(Oa, { reward: e, id: a, isTop1: s }, a),
           ),
         },
         l,
       )
     );
   }),
-  Ga = {
+  Da = {
     base: "Layout_1c0c8eb5",
     base__ready: "Layout_base__ready_73e4204f",
     overlay: "Layout_overlay_2156876",
     extraRewards: "Layout_extraRewards_8960bd4d",
     fadeIn: "Layout_fadeIn_750f09cf",
   },
-  Da = c(function ({ onPreparation: e }) {
+  La = c(function ({ onPreparation: e }) {
     const { model: a, controls: s } = xe(),
       {
         boxCategory: t,
@@ -839,20 +840,20 @@ var ya = "Compensation_db29c4dc",
       m = a.reroll.get(),
       u = a.activeRareReward.get(),
       _ = a.eventName.get(),
-      [f, b] = (0, ye.useState)(!1),
+      [f, b] = (0, we.useState)(!1),
       g = K(),
       x = pe(ue, (e) => e.value);
-    const y = { active: f, reset: (0, ye.useCallback)(() => b(!1), []) },
-      w = de(we),
-      h = (0, ye.useCallback)(() => {
-        (s.clearActiveRareReward(), b(!0), w.resume());
-      }, [w, s]);
+    const w = { active: f, reset: (0, we.useCallback)(() => b(!1), []) },
+      y = de(ye),
+      h = (0, we.useCallback)(() => {
+        (s.clearActiveRareReward(), b(!0), y.resume());
+      }, [y, s]);
     return (0, Pe.jsxs)(le, {
-      className: p(Ga.base, x === ce.initial && Ga.base__ready),
+      className: p(Da.base, x === ce.initial && Da.base__ready),
       children: [
         Boolean(u) &&
           (0, Pe.jsx)(le.Overlay, {
-            className: Ga.overlay,
+            className: Da.overlay,
             children: (0, Pe.jsx)(te, {
               res: F(_, u),
               rareBonus: u,
@@ -868,8 +869,8 @@ var ya = "Compensation_db29c4dc",
         (0, Pe.jsx)(le.Header, { text: c.headerTitle, className: g }),
         (0, Pe.jsxs)(le.Body, {
           children: [
-            (0, Pe.jsx)(Ea, { resume: y, className: p(d > 0 && Ga.rewardsPosition) }),
-            d > 0 && (0, Pe.jsx)(qe, { className: Ga.extraRewards }),
+            (0, Pe.jsx)(Ga, { resume: w, className: p(d > 0 && Da.rewardsPosition) }),
+            d > 0 && (0, Pe.jsx)(qe, { className: Da.extraRewards }),
           ],
         }),
         (0, Pe.jsxs)(ne, {
@@ -905,10 +906,10 @@ var ya = "Compensation_db29c4dc",
       ],
     });
   }),
-  La = "App_loaderWrapper_a177675d",
-  Ha = "App_0",
+  Ha = "App_loaderWrapper_a177675d",
+  Wa = "App_0",
   $a = "App_background_bb0bfe54",
-  Wa = c(function () {
+  qa = c(function () {
     const { model: e, controls: a } = xe(),
       { images: s, texts: t } = e.computes.resources(),
       { isWindowAccessible: r } = e.root.get(),
@@ -919,11 +920,11 @@ var ya = "Compensation_db29c4dc",
       c = e.computes.multimediaResource(),
       d = e.isReopen.get(),
       m = pe(ue, (e) => e.value),
-      u = de(we);
+      u = de(ye);
     (h(() => {
       m === ce.initial && a.close();
     }),
-      (0, ye.useEffect)(
+      (0, we.useEffect)(
         () => (
           ue.start(),
           () => {
@@ -932,22 +933,22 @@ var ya = "Compensation_db29c4dc",
         ),
         [],
       ),
-      (0, ye.useEffect)(() => {
+      (0, we.useEffect)(() => {
         ue.send({ type: M.setAnimationActive, isAnimationActive: i });
       }, [i]));
-    const p = (0, ye.useRef)(a.openNext),
-      f = (0, ye.useCallback)(() => p.current(), []);
-    ((0, ye.useEffect)(() => {
+    const p = (0, we.useRef)(a.openNext),
+      f = (0, we.useCallback)(() => p.current(), []);
+    ((0, we.useEffect)(() => {
       o && ((p.current = a.reroll), ue.send({ type: M.toPreparation }));
     }, [o, a.reroll]),
       re(d, n, m));
     const { loadingStyle: b, contentStyle: g } = ae(m, f);
     return (0, Pe.jsxs)(Q, {
-      className: Ha,
+      className: Wa,
       ref: u.rootRef,
       children: [
         (0, Pe.jsx)(U, {
-          activeType: l ? H.rare : H.common,
+          activeType: l ? $.rare : $.common,
           minimized: !r,
           res: c,
           className: $a,
@@ -958,7 +959,7 @@ var ya = "Compensation_db29c4dc",
           (0, Pe.jsx)(_.div, {
             style: g,
             children: (0, Pe.jsx)(Q.Content, {
-              children: (0, Pe.jsx)(Da, {
+              children: (0, Pe.jsx)(La, {
                 onPreparation: (e) => {
                   p.current = e;
                 },
@@ -968,15 +969,15 @@ var ya = "Compensation_db29c4dc",
         m === ce.waiting &&
           (0, Pe.jsx)(_.div, {
             style: b,
-            className: La,
+            className: Ha,
             children: (0, Pe.jsx)(Q.Waiting, { image: s.loader, text: t.loader }),
           }),
       ],
     });
   }),
-  qa = () =>
+  Fa = () =>
     (0, Pe.jsx)(ge, {
-      options: $.SINGLE_REWARD,
-      children: (0, Pe.jsx)(ke, { children: (0, Pe.jsx)(Wa, {}) }),
+      options: H.SINGLE_REWARD,
+      children: (0, Pe.jsx)(ke, { children: (0, Pe.jsx)(qa, {}) }),
     });
-export { qa as default };
+export { Fa as default };

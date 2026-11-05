@@ -83,7 +83,6 @@ COMP7_LIGHT_CAROUSEL_FILTER_1 = b'COMP7_LIGHT_CAROUSEL_FILTER_1'
 COMP7_LIGHT_CAROUSEL_FILTER_2 = b'COMP7_LIGHT_CAROUSEL_FILTER_2'
 COMP7_LIGHT_CAROUSEL_FILTER_3 = b'COMP7_LIGHT_CAROUSEL_FILTER_3'
 COMP7_LIGHT_CAROUSEL_FILTER_CLIENT_1 = b'COMP7_LIGHT_CAROUSEL_FILTER_CLIENT_1'
-FORT_RUSH_CAROUSEL_FILTER_1 = b'FORT_RUSH_CAROUSEL_FILTER_1'
 ORDERS_FILTER = b'ORDERS_FILTER'
 CURRENT_VEHICLE = b'current'
 ROYALE_VEHICLE = b'ROYALE_VEHICLE'
@@ -1388,7 +1387,7 @@ DEFAULT_VALUES = {KEY_FILTERS: {STORE_TAB: 0,
                   FUN_RANDOM_PROGRESSION: {}, SHOW_DEMO_ACC_REGISTRATION: False, 
                   IS_CUSTOMIZATION_INTRO_VIEWED: False, 
                   CUSTOMIZATION_STYLE_ITEMS_VISITED: (set()), 
-                  CUSTOMIZATION_TABS_VISITED: (set([540, 547, 522, 509, 592, 710, 711])), 
+                  CUSTOMIZATION_TABS_VISITED: (set([539, 546, 521, 508, 591, 709, 710])), 
                   (OptionalDevicesAssistant.SELECTED_PRESET): 0, 
                   OPT_DEVICE_TAB_VISITED: {}, (BattleMatters.BATTLE_MATTERS_SETTINGS): {(BattleMatters.BATTLES_COUNT_WITHOUT_PROGRESS): 0, 
                                                             (BattleMatters.QUEST_IDX_FOR_LAST_UPDATED_PROGRESS): 0, 
@@ -1650,61 +1649,6 @@ DEFAULT_VALUES = {KEY_FILTERS: {STORE_TAB: 0,
                                                               b'searchNameVehicle': b''}, 
                           SELECT_VEHICLES_PLAYLIST: b'', 
                           SELECT_VEHICLES_IS_ALL_VEHICLES: True, 
-                          FORT_RUSH_CAROUSEL_FILTER_1: {b'ussr': False, 
-                                                        b'germany': False, 
-                                                        b'usa': False, 
-                                                        b'china': False, 
-                                                        b'france': False, 
-                                                        b'uk': False, 
-                                                        b'japan': False, 
-                                                        b'czech': False, 
-                                                        b'sweden': False, 
-                                                        b'poland': False, 
-                                                        b'italy': False, 
-                                                        b'lightTank': False, 
-                                                        b'mediumTank': False, 
-                                                        b'heavyTank': False, 
-                                                        b'SPG': False, 
-                                                        b'AT-SPG': False, 
-                                                        b'level_1': False, 
-                                                        b'level_2': False, 
-                                                        b'level_3': False, 
-                                                        b'level_4': False, 
-                                                        b'level_5': False, 
-                                                        b'level_6': False, 
-                                                        b'level_7': False, 
-                                                        b'level_8': False, 
-                                                        b'level_9': False, 
-                                                        b'level_10': False, 
-                                                        b'level_11': False, 
-                                                        b'favorite': False, 
-                                                        b'rented': True, 
-                                                        b'elite': False, 
-                                                        b'premium': False, 
-                                                        b'igr': False, 
-                                                        b'bonus': False, 
-                                                        b'crystals': False, 
-                                                        b'event': True, 
-                                                        b'own3DStyle': False, 
-                                                        b'canInstallAttachments': False, 
-                                                        b'clanRented': False, 
-                                                        b'searchNameVehicle': b'', 
-                                                        b'role_HT_assault': False, 
-                                                        b'role_HT_break': False, 
-                                                        b'role_HT_universal': False, 
-                                                        b'role_HT_support': False, 
-                                                        b'role_MT_assault': False, 
-                                                        b'role_MT_universal': False, 
-                                                        b'role_MT_sniper': False, 
-                                                        b'role_MT_support': False, 
-                                                        b'role_ATSPG_assault': False, 
-                                                        b'role_ATSPG_universal': False, 
-                                                        b'role_ATSPG_sniper': False, 
-                                                        b'role_ATSPG_support': False, 
-                                                        b'role_LT_universal': False, 
-                                                        b'role_LT_scout': False, 
-                                                        b'role_LT_support': False, 
-                                                        b'role_SPG': False}, 
                           (ArmorInspector.SESSION_ATTACKING_VEHICLES): {}}, 
    KEY_UI_FLAGS: {COMP7_UI_SECTION: {COMP7_WEEKLY_QUESTS_PAGE_TOKENS_COUNT: 0, 
                                      COMP7_SHOP_SEEN_PRODUCTS: (set()), 
@@ -1798,7 +1742,7 @@ def _recursiveStep(defaultDict, savedDict, finalDict):
 
 class AccountSettings(object):
     onSettingsChanging = Event.Event()
-    version = 107
+    version = 108
     settingsCore = dependency.descriptor(ISettingsCore)
     __cache = {b'login': None, b'section': None}
     __sessionSettings = {b'login': None, b'section': None}
@@ -2663,12 +2607,6 @@ class AccountSettings(object):
                            (BattleMatters.LAST_BATTLE_TIME): 0})
                         accSettings.write(bmKey, _pack(bmAccSettings))
 
-            if currVersion < 96:
-                for key, section in _filterAccountSection(ads):
-                    keySettings = AccountSettings._readSection(section, KEY_SETTINGS)
-                    adventCalendarDefaultSection = DEFAULT_VALUES[KEY_SETTINGS][AdventCalendar.SETTINGS].copy()
-                    keySettings.write(AdventCalendar.SETTINGS, _pack(adventCalendarDefaultSection))
-
             if currVersion < 97:
                 for key, section in _filterAccountSection(ads):
                     uiSettings = AccountSettings._readSection(section, KEY_UI_FLAGS)
@@ -2724,6 +2662,8 @@ class AccountSettings(object):
                             data[b'role_LT_support'] = False
                             filtersSection.write(filterKey, _pack(data))
 
+            if currVersion < 103:
+                pass
             if currVersion < 104:
                 for key, section in _filterAccountSection(ads):
                     accSettings = AccountSettings._readSection(section, KEY_SETTINGS)
@@ -2760,6 +2700,12 @@ class AccountSettings(object):
                     for missingKey in missingKeys:
                         if not fortRushKeysSection.has_key(missingKey):
                             fortRushKeysSection.writeBool(missingKey, False)
+
+            if currVersion < 108:
+                for _, section in _filterAccountSection(ads):
+                    keySettings = AccountSettings._readSection(section, KEY_SETTINGS)
+                    adventCalendarDefaultSection = DEFAULT_VALUES[KEY_SETTINGS][AdventCalendar.SETTINGS].copy()
+                    keySettings.write(AdventCalendar.SETTINGS, _pack(adventCalendarDefaultSection))
 
             ads.writeInt(b'version', AccountSettings.version)
         return

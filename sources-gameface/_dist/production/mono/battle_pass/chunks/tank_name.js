@@ -1,39 +1,39 @@
 import { r as e } from "./rolldown-runtime.js";
-import { Bt as a, Dt as s, Gt as r, Ot as l, Yn as i, li as m } from "./lib.js";
-m();
+import { Ht as a, Lt as s, Tt as r, Yn as i, ci as l, wt as m } from "./lib.js";
+l();
 var t = i(),
   n = (e) => {
     switch (e) {
-      case r.heavyTank:
-        return r.heavyTank;
-      case r.lightTank:
-        return r.lightTank;
-      case r.mediumTank:
-        return r.mediumTank;
-      case r.SPG:
-        return r.SPG;
+      case a.heavyTank:
+        return a.heavyTank;
+      case a.lightTank:
+        return a.lightTank;
+      case a.mediumTank:
+        return a.mediumTank;
+      case a.SPG:
+        return a.SPG;
       default:
-        return r["AT-SPG"];
+        return a["AT-SPG"];
     }
   },
   c = ({
     vehicleName: e,
-    vehicleShortName: r,
+    vehicleShortName: a,
     vehicleType: i,
-    vehicleLvl: m,
+    vehicleLvl: l,
     isElite: c,
     classNames: h,
-    vehicleTypeIconSize: u = l.x64x64,
+    vehicleTypeIconSize: u = r.x64x64,
     isShortName: o = !1,
     custom: v = !1,
   }) =>
     (0, t.jsx)("div", {
       className: h?.base,
-      children: (0, t.jsxs)(s, {
+      children: (0, t.jsxs)(m, {
         children: [
-          (0, t.jsx)(s.Level, { className: h?.level, value: m, numberType: a.numberTypes.roman }),
-          (0, t.jsx)(s.Type, { className: h?.typeIcon, type: n(i), premium: c, size: u }),
-          (0, t.jsx)(s.Name, { className: h?.name, children: o ? r : e }),
+          (0, t.jsx)(m.Level, { className: h?.level, value: l, numberType: s.numberTypes.roman }),
+          (0, t.jsx)(m.Type, { className: h?.typeIcon, type: n(i), premium: c, size: u }),
+          (0, t.jsx)(m.Name, { className: h?.name, children: o ? a : e }),
         ],
       }),
     });

@@ -68,13 +68,10 @@ class FrontlineEventBanner(StandardEventBanner):
             self.__epicController.selectEpicBattle()
         elif self.hasRewards:
             showEpicRewardsSelectionWindow()
-        if self._state == EventBannerState.INTRO:
-            currentSeasonStartDate = self.__epicController.getCurrentSeason().getStartDate()
-            AccountSettings.setSettings(FRONTLINE_BANNER_INTRO_CLICK_TIMESTAMP, currentSeasonStartDate)
         return
 
     def onAppearAnimationPlayed(self):
-        currentSeasonStartDate = self.__epicController.getCurrentSeason().getStartDate()
+        currentSeasonStartDate, _ = self.__epicController.getSeasonTimeRange()
         AccountSettings.setSettings(FRONTLINE_BANNER_FIRST_APPEARANCE_TIMESTAMP, currentSeasonStartDate)
         return
 
@@ -86,7 +83,7 @@ class FrontlineEventBanner(StandardEventBanner):
         self._state = STATES_MAP[frontlineState]
         if frontlineState == FrontlineState.ANNOUNCE:
             self._eventStartDate, self._eventEndDate = self.__epicController.getSeasonTimeRange()
-        currentSeasonStartDate = self.__epicController.getCurrentSeason().getStartDate()
+        currentSeasonStartDate, _ = self.__epicController.getSeasonTimeRange()
         if frontlineState == FrontlineState.ACTIVE:
             savedClickTime = AccountSettings.getSettings(FRONTLINE_BANNER_INTRO_CLICK_TIMESTAMP)
             if savedClickTime < currentSeasonStartDate:

@@ -3143,23 +3143,24 @@
                 M = x.intCD,
                 $ = m === K.w.Setup,
                 j = !(0, z.s$)(m),
-                H = !(0, z.iN)(m),
-                G = m === K.w.Compare,
-                W = $ && o && j,
-                U = (0, n.useRef)(!1),
-                q = (0, n.useRef)(null),
-                X = -1 === M;
+                H = (0, z.iN)(m),
+                G = !H,
+                W = m === K.w.Compare,
+                U = $ && o && j,
+                q = (0, n.useRef)(!1),
+                X = (0, n.useRef)(null),
+                V = -1 === M;
               ((0, n.useEffect)(() => {
-                if (!U.current && o && i)
+                if (!q.current && o && i)
                   return p(() => {
-                    (l && l(q, e, P), (U.current = !0));
+                    (l && l(X, e, P), (q.current = !0));
                   });
-                U.current = !0;
+                q.current = !0;
               }, [P, o, i, l, e]),
                 (0, n.useEffect)(() => {
-                  i && _(q);
+                  i && _(X);
                 }, [i, _]));
-              const V = ((e) => {
+              const Z = ((e) => {
                   const t = (0, n.useRef)(-1),
                     u = (0, n.useCallback)(
                       (u) => {
@@ -3175,36 +3176,37 @@
                     );
                   return ((0, n.useEffect)(() => () => clearTimeout(t.current), []), u);
                 })((0, n.useCallback)(() => (!i && j && !s && c(e, P), 500), [P, j, i, s, c, e])),
-                Z = (0, n.useCallback)(() => {
-                  b || V("");
-                }, [V, b]),
                 Y = (0, n.useCallback)(() => {
-                  H && !i && !F && !b && ce.$.playHighlight();
-                }, [i, F, b, H]);
+                  b || Z("");
+                }, [Z, b]),
+                J = (0, n.useCallback)(() => {
+                  G && !i && !F && !b && ce.$.playHighlight();
+                }, [i, F, b, G]);
               (0, n.useEffect)(() => {
                 v && ce.$.playHighlight();
               }, [v]);
-              const J = (0, n.useCallback)(() => {
+              const Q = (0, n.useCallback)(() => {
                   null == d || d(P, e);
                 }, [P, d, e]),
-                Q = $ && !I,
-                ee = Boolean(A && v === A),
-                te = A && (W || G),
-                ue = `${e}-slot-${P}`,
-                ne = L && L.length > 0,
-                ae = ne ? { backgroundImage: `url(${L})` } : {},
-                ie = {
+                ee = $ && !I,
+                te = !(F || (V && H)),
+                ue = Boolean(A && v === A),
+                ne = A && (U || W),
+                ae = `${e}-slot-${P}`,
+                ie = L && L.length > 0,
+                se = ie ? { backgroundImage: `url(${L})` } : {},
+                re = {
                   id: A,
                   containerRef: h,
-                  isEnabled: !X,
-                  onClick: Z,
+                  isEnabled: !V,
+                  onClick: Y,
                   isUpdateAvailable: Boolean(F),
                   handleAction: f,
                   forceCenterX: D,
                   blockOnGrabIds: C,
                 },
-                se = {
-                  isEmpty: X,
+                oe = {
+                  isEmpty: V,
                   intCD: M,
                   slotType: e,
                   slotIndex: t,
@@ -3214,25 +3216,25 @@
                   id: P,
                   itemInstalledSetupIdx: T,
                   isMountedMoreThanOne: k,
-                  contextMenuDisabled: S || G,
+                  contextMenuDisabled: S || W,
                   isSetupSwitching: s,
                 };
               return a().createElement(
                 "div",
-                { className: We, onMouseEnter: Y, id: ue },
-                (o || G) &&
+                { className: We, onMouseEnter: J, id: ae },
+                (o || W) &&
                   !I &&
                   a().createElement(
                     "div",
                     { className: qe },
-                    a().createElement(ze, { id: `close-${ue}`, show: !F, onClick: J }),
+                    a().createElement(ze, { id: `close-${ae}`, show: !F, onClick: Q }),
                   ),
                 a().createElement(
                   Pe,
-                  { slotType: e, slotId: P, isEnabled: !F, panelType: m },
+                  { slotType: e, slotId: P, isEnabled: te, panelType: m },
                   a().createElement(
                     "div",
-                    { ref: q },
+                    { ref: X },
                     a().createElement(
                       be.W,
                       {
@@ -3242,8 +3244,8 @@
                         isBorderActive: Boolean(E),
                         panelType: m,
                         isDisabled: b,
-                        isPotentialDrop: ee,
-                        onClick: te ? void 0 : Z,
+                        isPotentialDrop: ue,
+                        onClick: ne ? void 0 : Y,
                       },
                       j &&
                         a().createElement(
@@ -3253,26 +3255,26 @@
                         ),
                       a().createElement(
                         me.J,
-                        { when: Boolean(te), wrapper: Ie, withProps: ie },
+                        { when: Boolean(ne), wrapper: Ie, withProps: re },
                         a().createElement(
                           me.J,
-                          { when: j, wrapper: at, withProps: se },
+                          { when: j, wrapper: at, withProps: oe },
                           a().createElement(Ee.c, {
                             imageSource: y,
                             isIncompatible: g,
                             overlayType: O,
                             level: u,
-                            isTemporary: Q,
+                            isTemporary: ee,
                             withAttention: N,
                           }),
                         ),
                       ),
-                      ne &&
+                      ie &&
                         a().createElement(
                           a().Fragment,
                           null,
                           a().createElement("span", { className: Ve }),
-                          a().createElement("span", { className: Ke, style: ae }),
+                          a().createElement("span", { className: Ke, style: se }),
                         ),
                       b && a().createElement("div", { className: Xe }),
                     ),

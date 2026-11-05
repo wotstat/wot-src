@@ -1,8 +1,8 @@
 import { r as i } from "./rolldown-runtime.js";
-import { mi as l, no as s } from "./lib.js";
+import { hi as l, ro as s } from "./lib.js";
 s();
 var t = i(l()),
-  L = (i) =>
+  r = (i) =>
     (0, t.jsxs)("svg", {
       width: 32,
       height: 32,
@@ -23,4 +23,4 @@ var t = i(l()),
         }),
       ],
     });
-export { L as default };
+export { r as default };

@@ -663,6 +663,38 @@ var timeFormats = { full: DateTimeFormatsEnum.FullTime, short: DateTimeFormatsEn
 function formatTime(e, t, n = !0) {
   return window.regionalDateTime.getRegionalDateTime(t, e, n);
 }
+function getDateParts(e) {
+  const t = new Date(1e3 * e);
+  return {
+    year: t.getFullYear(),
+    month: t.getMonth() + 1,
+    hours: t.getHours(),
+    minutes: t.getMinutes(),
+    seconds: t.getSeconds(),
+  };
+}
+function isSameTime(e, t) {
+  return e.hours === t.hours && e.minutes === t.minutes && e.seconds === t.seconds;
+}
+function getRangeFormatPath(e, t) {
+  const n = e.year === t.year;
+  return [
+    "datetime_formats",
+    "dateRange",
+    "dateWithYear",
+    n ? "sameYear" : "differentYear",
+    n && e.month === t.month ? "sameMonth" : "differentMonth",
+    isSameTime(e, t) ? "sameTime" : "differentTime",
+  ].join(".");
+}
+function formatRange(e, t) {
+  const n = getRangeFormatPath(getDateParts(e), getDateParts(t)),
+    r = resources.resolve("strings");
+  return {
+    start: window.regionalDateTime.getFormattedDateTime(e, r.readOrEmpty(`${n}.start`), !0),
+    end: window.regionalDateTime.getFormattedDateTime(t, r.readOrEmpty(`${n}.end`), !0),
+  };
+}
 var intl$4 = {
     isNumberFormat: isNumberFormat,
     formatNumber: formatNumber$1,
@@ -674,6 +706,7 @@ var intl$4 = {
     dateTimeFormats: DateTimeFormatsEnum,
     formatTime: formatTime,
     timeFormats: timeFormatList,
+    formatRange: formatRange,
     toUpperCase: (e) => window.systemLocale.toUpperCase(e),
     toLowerCase: (e) => window.systemLocale.toLowerCase(e),
   },
@@ -18380,6 +18413,19 @@ var useLayoutReady = (e, t) => {
       );
     }, t);
   },
+  useLoop = (e) => {
+    const t = (0, import_react.useRef)(0);
+    (0, import_react.useEffect)(() => () => cancelAnimationFrame(t.current), []);
+    return [
+      () => {
+        const n = () => {
+          e() && (t.current = requestAnimationFrame(n));
+        };
+        n();
+      },
+      () => cancelAnimationFrame(t.current),
+    ];
+  },
   updateQueue = makeQueue(),
   raf = (e) => schedule(e, updateQueue),
   writeQueue = makeQueue();
@@ -21133,15 +21179,12 @@ var useResizeState = (e, t) => {
     const [e, t] = (0, import_react.useState)(getScale$2());
     return (
       (0, import_react.useEffect)(() => {
-        const e = () => {
-          t(getScale$2());
+        const e = () => t(getScale$2()),
+          n = onResize$1(e),
+          r = onRescale(e);
+        return () => {
+          (n(), r());
         };
-        return (
-          window.addEventListener("resize", e),
-          () => {
-            window.removeEventListener("resize", e);
-          }
-        );
       }, []),
       e
     );
@@ -24379,7 +24422,7 @@ function useScrollBounding(e, [t, n] = IGNORE_DEFAULT) {
   );
 }
 var scrollOrientations = { horizontal: "horizontal", vertical: "vertical" },
-  background$9 = "Thumb_background_b893084a",
+  background$9 = "Thumb_background_7f3dd6ac",
   border$8 = "Thumb_border_5749138b",
   innerBorder = "Thumb_innerBorder_42bafd18",
   icon$12 = "Thumb_icon_dca8bf26",
@@ -25590,850 +25633,6 @@ var RUDY_PL = 51345,
     });
   });
 ((VehicleType.types = types$4), (VehicleType.sizes = sizes$17));
-var RouterContext = (0, import_react.createContext)(void 0);
-function useRouter() {
-  const e = (0, import_react.useContext)(RouterContext);
-  if (!e) throw new Error("useRouter must be used within a RouterProvider");
-  return e;
-}
-function removeLastSlash(e) {
-  return e.endsWith("/") ? e.slice(0, -1) : e;
-}
-function safeJsonParse(e) {
-  try {
-    return JSON.parse(e);
-  } catch (t) {
-    return {};
-  }
-}
-function ModelRouterProvider({
-  children: e,
-  prefix: t = "",
-  context: n,
-  getRoot: r,
-  initializer: a,
-  rootId: o,
-}) {
-  const i = (0, import_react.useRef)([]),
-    s = (0, import_react.useRef)(null),
-    u = (0, import_react.useMemo)(
-      () => create({ context: n, getRoot: r, initializer: a, rootId: o }),
-      [n, r, a, o],
-    ),
-    l = (0, import_react.useSyncExternalStore)(
-      (0, import_react.useCallback)(
-        (e) => {
-          const t = u.subscribe(e);
-          return () => u.unsubscribe(t);
-        },
-        [u],
-      ),
-      (0, import_react.useCallback)(() => {
-        const e = u.readByPath(),
-          n = { location: removeLastSlash(t + e.route), params: e.params };
-        return s.current && comparer.shallow(s.current, n) ? s.current : ((s.current = n), n);
-      }, [u, t]),
-    );
-  (0, import_react.useEffect)(() => u.dispose, [u]);
-  const c = (0, import_react.useMemo)(() => {
-    const e = [...i.current, l];
-    return ((i.current = e), { ...l, history: e, paramsStruct: safeJsonParse(l.params) });
-  }, [l]);
-  ({}).PUBLIC_ROUTER_DEBUG && console.log("🗺️ Route updated:", c);
-  const d = (0, import_react.useMemo)(() => {
-      const e = u.createCallback(
-          (e, t) => (
-            {}.PUBLIC_ROUTER_DEBUG && console.log("➡️ Going to", e, t),
-            { route: e, ...(Boolean(t) && { params: JSON.stringify(t) }) }
-          ),
-          "navigateTo",
-        ),
-        t = u.createCallbackNoArgs("navigateBack");
-      return {
-        push: e,
-        replace: e,
-        goBack: {}.PUBLIC_ROUTER_DEBUG
-          ? () => {
-              (console.log("🗺️ Route back"), t());
-            }
-          : t,
-      };
-    }, [u]),
-    f = (0, import_react.useMemo)(() => ({ ...c, ...d }), [d, c]);
-  return (0, import_jsx_runtime.jsx)(RouterContext.Provider, { value: f, children: e });
-}
-var DEFAULT_NAME_KEYFRAME = "Point",
-  THRESHOLD = 0.02;
-function createLoop(e) {
-  let t = 0;
-  return [
-    function n() {
-      (e(), (t = requestAnimationFrame(n)));
-    },
-    function () {
-      cancelAnimationFrame(t);
-    },
-  ];
-}
-var VideoForwarded = (0, import_react.forwardRef)(function (
-    {
-      src: e,
-      className: t,
-      autoplay: n = !1,
-      style: r,
-      loop: a = !1,
-      isPrebufferKeyframes: o,
-      keyframesNameConfig: i,
-      onClick: s,
-      ...u
-    },
-    l,
-  ) {
-    const c = l,
-      d = (0, import_react.useRef)(null);
-    return (
-      useMount(() => {
-        let e = !1;
-        return events$2.onDisplayChanged((t, n) => {
-          const r = d.current;
-          r &&
-            (n === displayStatus$1.hidden
-              ? ((e = r.paused), r.pause())
-              : e || n !== displayStatus$1.shown || r.play());
-        });
-      }),
-      useMount(() => {
-        let e = !1;
-        return onMinimize$1((t) => {
-          const n = d.current;
-          n && (t ? ((e = n.paused), n.pause()) : e || n.play());
-        });
-      }),
-      (0, import_react.useEffect)(
-        () =>
-          createLayoutReadyInEffect(() => {
-            const e = d.current;
-            if (!c || !e || !o) return void (e?.cohFastSeek && (e.cohFastSeek = !1));
-            const t = e.cohGetKeyframeTimestamps ? e.cohGetKeyframeTimestamps() : [];
-            t.length > 0
-              ? ((e.cohFastSeek = !0),
-                t.map((t) => {
-                  e?.cohPrebufferKeyframe && e.cohPrebufferKeyframe(t);
-                }))
-              : console.warn("Can't prebuffered keyframes, keyframes was not found");
-          }),
-        [o, c],
-      ),
-      (0, import_react.useEffect)(() => {
-        if (c && d.current) {
-          const e = { changeTimeHandlers: [], changeKeyframeHandlers: [], changeTimeLoop: noop$2 },
-            t = () => {
-              let t = 0;
-              const [n, r] = createLoop(() => {
-                if (d.current) {
-                  const { currentTime: n, duration: r } = d.current;
-                  if (
-                    (t !== n &&
-                      (e.changeTimeHandlers.forEach((e) => e({ currentTime: n, duration: r })),
-                      (t = n)),
-                    d.current.paused || !c || !o)
-                  )
-                    return;
-                  const a = d.current.cohGetKeyframeTimestamps
-                    ? d.current.cohGetKeyframeTimestamps()
-                    : [];
-                  a.forEach((t, r) => {
-                    void 0 !== a[r] &&
-                      n > a[r] - THRESHOLD &&
-                      n < a[r] &&
-                      e.changeKeyframeHandlers.forEach((e) => {
-                        const n = Object.keys(i ?? {})[r];
-                        return e({ time: t, name: `${i ? n : `${DEFAULT_NAME_KEYFRAME}_${r}`}` });
-                      });
-                  });
-                }
-              });
-              return (n(), r);
-            };
-          e.changeTimeLoop = t();
-          const n = (t) => (
-              e.changeTimeHandlers.push(t),
-              () => {
-                const { changeTimeHandlers: n } = e,
-                  r = n.indexOf(t);
-                r < 0
-                  ? console.warn(
-                      "Can't unsubscribe changeTimeHandler, this reference was not found",
-                    )
-                  : n.splice(r, 1);
-              }
-            ),
-            r = (t) => (
-              e.changeKeyframeHandlers.push(t),
-              () => {
-                const { changeKeyframeHandlers: n } = e,
-                  r = n.indexOf(t);
-                r < 0
-                  ? console.warn(
-                      "Can't unsubscribe changeKeyframeHandlers, this reference was not found",
-                    )
-                  : n.splice(r, 1);
-              }
-            ),
-            a = () => d.current?.currentTime,
-            s = () => d.current?.duration,
-            u = (e) => {
-              d.current && (d.current.currentTime = clamp$1(0, d.current.duration, e));
-            },
-            l = () => d.current?.play(),
-            f = () => d.current?.pause(),
-            p = () => {
-              (f(), u(0));
-            },
-            m = () =>
-              d.current?.cohGetKeyframeTimestamps ? d.current.cohGetKeyframeTimestamps() : [],
-            _ = (e) => {
-              (u(e), l());
-            },
-            h = (e) => {
-              (u(e), f());
-            },
-            g = () => {
-              ((e.changeTimeHandlers = []), (e.changeKeyframeHandlers = []), e.changeTimeLoop?.());
-            },
-            b = (e, t) => (
-              d.current?.addEventListener(e, t),
-              () => d.current?.removeEventListener(e, t)
-            ),
-            v = (e, t) => (
-              d.current?.removeEventListener(e, t),
-              () => d.current?.removeEventListener(e, t)
-            );
-          return (
-            (c.current = {
-              on: b,
-              off: v,
-              play: l,
-              pause: f,
-              stop: p,
-              cleanup: g,
-              getCurrentTime: a,
-              getDuration: s,
-              getCachedKeyframes: m,
-              goToAndPlay: _,
-              goToAndStop: h,
-              setCurrentTime: u,
-              domRef: d.current,
-              onChangeTime: n,
-              onKeyframes: r,
-            }),
-            () => {
-              (g(), (c.current = null));
-            }
-          );
-        }
-      }, [i, c, o]),
-      (0, import_react.useEffect)(() => {
-        d.current && n && d.current.play();
-      }, [n, a]),
-      useUnmount(() => {
-        d.current?.pause();
-      }),
-      (0, import_jsx_runtime.jsx)("video", {
-        src: e,
-        className: t,
-        style: r,
-        loop: a,
-        ref: d,
-        onClick: s,
-        ...u,
-      })
-    );
-  }),
-  Video = (0, import_react.memo)(VideoForwarded),
-  textOverlay = "GradientText_textOverlay_2d67fbb8",
-  base$47 = "GradientText_5009d812",
-  gradient_text_module_default = { textOverlay: textOverlay, base: base$47 },
-  GradientText = (0, import_react.forwardRef)(function ({ classNames: e, children: t }, n) {
-    return (0, import_jsx_runtime.jsxs)("div", {
-      ref: n,
-      className: clsx(gradient_text_module_default.base, e?.base),
-      children: [
-        (0, import_jsx_runtime.jsx)("div", { className: e?.text, children: t }),
-        (0, import_jsx_runtime.jsx)("div", {
-          className: clsx(gradient_text_module_default.textOverlay, e?.textOverlay),
-          children: t,
-        }),
-      ],
-    });
-  }),
-  ErrorBoundary$1 = class extends import_react.Component {
-    state = { failure: !1, error: null };
-    static getDerivedStateFromError(e) {
-      return { failure: !0, error: e };
-    }
-    render() {
-      return this.state.failure
-        ? (0, import_jsx_runtime.jsxs)("div", {
-            children: [
-              (0, import_jsx_runtime.jsx)("h1", { children: "Something went wrong." }),
-              this.state.error &&
-                (0, import_jsx_runtime.jsx)("pre", { children: this.state.error.toString() }),
-            ],
-          })
-        : this.props.children;
-    }
-  },
-  splitPath = (e) => e.split("/").filter(Boolean);
-function matchPath(e, t) {
-  const { paths: n, exact: r = !1 } = t,
-    a = splitPath(e);
-  for (const o of n) {
-    const t = splitPath(o);
-    if (r && a.length !== t.length) continue;
-    const n = {};
-    let i = !0;
-    for (let e = 0; e < t.length; e++) {
-      const r = t[e],
-        o = a[e];
-      if (!o) {
-        i = !1;
-        break;
-      }
-      if (r.startsWith(":")) {
-        n[r.slice(1)] = o;
-      } else if (r !== o) {
-        i = !1;
-        break;
-      }
-    }
-    if (i) {
-      const i = `/${a.slice(0, t.length).join("/")}`,
-        s = e === i;
-      if (r && !s) continue;
-      return { params: n, exact: s, path: o, url: i };
-    }
-  }
-  return null;
-}
-var SwitchContext = (0, import_react.createContext)(void 0);
-function useSwitch() {
-  const e = (0, import_react.useContext)(SwitchContext);
-  if (!e) throw new Error("useSwitch must be used within a SwitchProvider");
-  return e;
-}
-function Switch$1({ children: e, route: t, fallback: n = null }) {
-  const { location: r } = useRouter();
-  let a;
-  return (
-    import_react.Children.forEach(e, (e) => {
-      if (!(0, import_react.isValidElement)(e))
-        return void console.error("Switch children must be valid elements");
-      if ("object" != typeof e.props || null === e.props)
-        return console.error("Child props is not an object or null", e);
-      const n = e.props,
-        o = t ? `${t}${n.path}` : n.path;
-      if (void 0 !== a) return;
-      const i = matchPath(r, { paths: [o], exact: n.exact });
-      i && (a = { child: e, match: i });
-    }),
-    a
-      ? (0, import_jsx_runtime.jsx)(SwitchContext.Provider, {
-          value: { match: a.match },
-          children: a.child,
-        })
-      : n
-  );
-}
-function Route({ component: e, exact: t }) {
-  const { match: n } = useSwitch();
-  return (0, import_jsx_runtime.jsx)(ErrorBoundary$1, {
-    children: (0, import_jsx_runtime.jsx)(e, {
-      path: n.path,
-      location: n.url,
-      params: n.params,
-      exact: t ?? !1,
-    }),
-  });
-}
-var base$46 = "TruncateText_dcb41d92",
-  truncate_text_module_default = { base: base$46 },
-  TruncatedText = (0, import_react.forwardRef)(function (
-    { text: e, tooltipParams: t, className: n, ...r },
-    a,
-  ) {
-    const o = useSimpleTooltip({ header: t?.header, body: t?.body || e }),
-      i = (0, import_react.useRef)(null),
-      [s, u] = (0, import_react.useState)(!1),
-      l = (0, import_react.useCallback)(() => {
-        i.current &&
-          u(i.current.scrollWidth - Math.ceil(i.current.getBoundingClientRect().width) > 0);
-      }, []);
-    return (
-      (0, import_react.useEffect)(() => {
-        s || o.onMouseLeave();
-      }, [s, o]),
-      useLayoutReady(l, [l]),
-      useResizeLayoutReady(l, [l]),
-      useRefResizeObserver(i, l),
-      (0, import_jsx_runtime.jsx)("div", {
-        ...r,
-        ref: assignRefs([a, i]),
-        className: clsx(truncate_text_module_default.base, n),
-        ...(s ? o : {}),
-        children: e,
-      })
-    );
-  }),
-  sizes$16 = { x24x24: "24x24", x32x32: "32x32", x48x48: "48x48" },
-  paths$1 = {
-    [sizes$16.x24x24]: "library.gray_eye_24x24",
-    [sizes$16.x32x32]: "library.gray_eye_32x32",
-    [sizes$16.x48x48]: "library.gray_eye_48x48",
-  },
-  sizesConfig$5 = {
-    [sizes$16.x24x24]: { width: "24rem", height: "24rem" },
-    [sizes$16.x32x32]: { width: "32rem", height: "32rem" },
-    [sizes$16.x48x48]: { width: "48rem", height: "48rem" },
-  },
-  Base$25 = defineStyledComponent("PlayerInfoAnonymizer", { element: Image$1 }),
-  AnonymizerIcon = (0, import_react.forwardRef)(function (
-    {
-      size: e,
-      path: t = paths$1[e],
-      width: n = sizesConfig$5[e].width,
-      height: r = sizesConfig$5[e].height,
-      className: a,
-      ...o
-    },
-    i,
-  ) {
-    return (0, import_jsx_runtime.jsx)(Base$25, {
-      ...o,
-      ref: i,
-      path: t,
-      width: n,
-      height: r,
-      className: a,
-    });
-  });
-AnonymizerIcon.sizes = sizes$16;
-var base$45 = "PlayerInfo_89eea88b",
-  badge = "PlayerInfo_badge_9f134a01",
-  name$1 = "PlayerInfo_name_120449f9",
-  name__medium = "PlayerInfo_name__medium_4066d463",
-  name__big = "PlayerInfo_name__big_4119f7ab",
-  clanTag = "PlayerInfo_clanTag_120449f9",
-  clanTag__medium = "PlayerInfo_clanTag__medium_4066d463",
-  clanTag__big = "PlayerInfo_clanTag__big_4119f7ab",
-  stripe = "PlayerInfo_stripe_65882a8f",
-  stripe__medium = "PlayerInfo_stripe__medium_cc0a2a19",
-  stripe__big = "PlayerInfo_stripe__big_ccbc3007",
-  stripeBadge = "PlayerInfo_stripeBadge_605bfd0a",
-  player_info_module_default = {
-    base: base$45,
-    badge: badge,
-    name: name$1,
-    name__medium: name__medium,
-    name__big: name__big,
-    clanTag: clanTag,
-    clanTag__medium: clanTag__medium,
-    clanTag__big: clanTag__big,
-    stripe: stripe,
-    stripe__medium: stripe__medium,
-    stripe__big: stripe__big,
-    stripeBadge: stripeBadge,
-  },
-  sizes$15 = { x24x24: "24x24", x48x48: "48x48", x80x80: "80x80" },
-  sizesConfig$4 = {
-    [sizes$15.x24x24]: { width: "24rem", height: "24rem" },
-    [sizes$15.x48x48]: { width: "48rem", height: "48rem" },
-    [sizes$15.x80x80]: { width: "80rem", height: "80rem" },
-  },
-  Base$24 = defineStyledComponent("PlayerInfoBadge", { element: Image$1 }),
-  Badge = (0, import_react.forwardRef)(function (
-    {
-      size: e,
-      badgeId: t,
-      path: n = `library.badges.c_${e}.badge_${t}`,
-      width: r = sizesConfig$4[e].width,
-      height: a = sizesConfig$4[e].height,
-      className: o,
-      ...i
-    },
-    s,
-  ) {
-    return (0, import_jsx_runtime.jsx)(Base$24, {
-      ...i,
-      ref: s,
-      path: n,
-      width: r,
-      height: a,
-      className: clsx(player_info_module_default.badge, o),
-    });
-  });
-function ClanTag({ size: e, className: t, children: n, ...r }) {
-  return (0, import_jsx_runtime.jsx)("div", {
-    ...r,
-    className: clsx(
-      player_info_module_default.clanTag,
-      e && player_info_module_default[`clanTag__${e}`],
-      t,
-    ),
-    children: n,
-  });
-}
-Badge.sizes = sizes$15;
-var sizes$14 = { x64x28: "64x28", x34x16: "34x16", x26x16: "26x16", x10x10: "10x10" },
-  paths = {
-    [sizes$14.x10x10]: "library.premium_igr_ico",
-    [sizes$14.x26x16]: "library.premium_igr_small",
-    [sizes$14.x34x16]: "library.premium_small",
-    [sizes$14.x64x28]: "library.premium_igr_big",
-  },
-  sizesConfig$3 = {
-    [sizes$14.x10x10]: { width: "10rem", height: "10rem" },
-    [sizes$14.x26x16]: { width: "26rem", height: "16rem" },
-    [sizes$14.x34x16]: { width: "34rem", height: "16rem" },
-    [sizes$14.x64x28]: { width: "64rem", height: "28rem" },
-  },
-  Base$23 = defineStyledComponent("PlayerInfoIgr", { element: Image$1 }),
-  IgrIcon = (0, import_react.forwardRef)(function (
-    {
-      size: e,
-      path: t = paths[e],
-      width: n = sizesConfig$3[e].width,
-      height: r = sizesConfig$3[e].height,
-      className: a,
-      ...o
-    },
-    i,
-  ) {
-    return (0, import_jsx_runtime.jsx)(Base$23, {
-      ...o,
-      ref: i,
-      path: t,
-      width: n,
-      height: r,
-      className: a,
-    });
-  });
-function Name({ size: e, className: t, children: n }) {
-  return (0, import_jsx_runtime.jsx)("div", {
-    className: clsx(
-      player_info_module_default.name,
-      e && player_info_module_default[`name__${e}`],
-      t,
-    ),
-    children: n,
-  });
-}
-IgrIcon.sizes = sizes$14;
-var sizes$13 = { default: "default", regular: "regular", medium: "medium", big: "big" },
-  stripeFolders = {
-    [sizes$13.default]: "c_64x24",
-    [sizes$13.regular]: "c_68x28",
-    [sizes$13.medium]: "c_68x28",
-    [sizes$13.big]: "c_100x40",
-  },
-  badgeFolders = {
-    [sizes$13.default]: "c_24x24",
-    [sizes$13.regular]: "c_32x32",
-    [sizes$13.medium]: "c_48x48",
-    [sizes$13.big]: "c_80x80",
-  },
-  sizesConfig$2 = {
-    [sizes$13.default]: { width: "24rem", height: "24rem", marginLeft: "-15rem" },
-    [sizes$13.regular]: { width: "32rem", height: "32rem", marginLeft: "-19rem" },
-    [sizes$13.medium]: { width: "48rem", height: "48rem", marginLeft: "-32rem" },
-    [sizes$13.big]: { width: "80rem", height: "80rem", marginLeft: "-25rem" },
-  },
-  Base$22 = defineStyledComponent("StripeBadgeIcon", { element: Image$1 }),
-  StripeBadgeIcon = (0, import_react.forwardRef)(function (
-    {
-      size: e = sizes$13.default,
-      badgeId: t,
-      stripeExists: n,
-      path: r = `library.badges.${badgeFolders[e]}.badge_${t}`,
-      width: a = sizesConfig$2[e].width,
-      height: o = sizesConfig$2[e].height,
-      marginLeft: i = sizesConfig$2[e].marginLeft,
-      className: s,
-      ...u
-    },
-    l,
-  ) {
-    return (0, import_jsx_runtime.jsx)(Base$22, {
-      ...u,
-      ref: l,
-      path: r,
-      width: a,
-      height: o,
-      style: n ? { marginLeft: i } : void 0,
-      className: s,
-    });
-  }),
-  sizesConfig$1 = {
-    [sizes$13.default]: { width: "64rem", height: "24rem" },
-    [sizes$13.regular]: { width: "68rem", height: "24rem" },
-    [sizes$13.medium]: { width: "68rem", height: "28rem" },
-    [sizes$13.big]: { width: "100rem", height: "40rem" },
-  },
-  Base$21 = defineStyledComponent("StripeIcon", { element: Image$1 }),
-  StripeIcon = (0, import_react.forwardRef)(function (
-    {
-      size: e = sizes$13.default,
-      badgeId: t,
-      stripeExists: n,
-      path: r = `library.badges.strips.${stripeFolders[e]}.strip_${t}`,
-      width: a = sizesConfig$1[e].width,
-      height: o = sizesConfig$1[e].height,
-      className: i,
-      ...s
-    },
-    u,
-  ) {
-    return n
-      ? (0, import_jsx_runtime.jsx)(Base$21, {
-          ...s,
-          ref: u,
-          path: r,
-          width: a,
-          height: o,
-          className: clsx(player_info_module_default.stripeBadge, i),
-        })
-      : null;
-  }),
-  sizesConfig = { badge: sizesConfig$2, stripe: sizesConfig$1 },
-  Base$20 = defineStyledComponent("PlayerInfoStripe", player_info_module_default.stripe),
-  Stripe = (0, import_react.forwardRef)(function (
-    {
-      size: e = sizes$13.default,
-      badgeId: t,
-      classNames: n,
-      className: r,
-      stripeIcon: a,
-      stipeBadgeIcon: o,
-      ...i
-    },
-    s,
-  ) {
-    const u = resources.resolve("images"),
-      l = stripeFolders[e],
-      c = u.has(`library.badges.strips.${l}.strip_${t}`);
-    return (0, import_jsx_runtime.jsxs)(Base$20, {
-      ...i,
-      ref: s,
-      className: clsx(c && player_info_module_default[`stripe__${e}`], r),
-      children: [
-        (0, import_jsx_runtime.jsx)(StripeIcon, {
-          size: e,
-          badgeId: t,
-          stripeExists: c,
-          className: n?.stripe,
-          width: a?.width,
-          height: a?.height,
-        }),
-        (0, import_jsx_runtime.jsx)(StripeBadgeIcon, {
-          size: e,
-          badgeId: t,
-          stripeExists: c,
-          className: n?.badge,
-          width: o?.width,
-          height: o?.height,
-          marginLeft: o?.marginLeft,
-        }),
-      ],
-    });
-  });
-((Stripe.sizes = sizes$13), (Stripe.icons = sizesConfig));
-var Base$19 = defineStyledComponent("AccountInfo", player_info_module_default.base),
-  Wrapper = defineStyledComponent("AccountInfoWrapper", player_info_module_default.base),
-  PlayerInfo = (0, import_react.forwardRef)((e, t) =>
-    (0, import_jsx_runtime.jsx)(Base$19, { ref: t, ...e }),
-  );
-((PlayerInfo.Name = Name),
-  (PlayerInfo.ClanTag = ClanTag),
-  (PlayerInfo.Badge = Badge),
-  (PlayerInfo.IgrIcon = IgrIcon),
-  (PlayerInfo.AnonymizerIcon = AnonymizerIcon),
-  (PlayerInfo.Stripe = Stripe),
-  (PlayerInfo.Wrapper = Wrapper));
-var types$3 = {
-    tankXP: "tankXP",
-    freeXP: "freeXP",
-    credits: "credits",
-    gold: "gold",
-    crystal: "crystal",
-    equipCoin: "equipCoin",
-    stpCoin: "stpcoin",
-    brCoin: "brcoin",
-    eliteXp: "eliteXp",
-    depot: "depot",
-    vehicle: "vehicle",
-    crew: "crew",
-    custom: "custom",
-    xp: "xp",
-    brProgressionToken: "brProgressionToken",
-    battlePassPoints: "battlePassPoints",
-  },
-  currencyTypes = Object.values(types$3),
-  discountTypes = { currency: "currency", experience: "experience", custom: "custom" },
-  sizes$12 = {
-    extraSmall: "extraSmall",
-    small: "small",
-    medium: "medium",
-    large: "large",
-    extraLarge: "extraLarge",
-    xxl: "xxl",
-  },
-  imageSizes$1 = {
-    [sizes$12.extraSmall]: 16,
-    [sizes$12.small]: 24,
-    [sizes$12.medium]: 32,
-    [sizes$12.large]: 48,
-    [sizes$12.extraLarge]: 80,
-    [sizes$12.xxl]: 96,
-  },
-  upscaledImageSizes = {
-    [sizes$12.extraSmall]: 32,
-    [sizes$12.small]: 48,
-    [sizes$12.medium]: 32,
-    [sizes$12.large]: 96,
-    [sizes$12.extraLarge]: 80,
-    [sizes$12.xxl]: 96,
-  },
-  discountSizesConfig = {
-    [sizes$12.extraSmall]: { width: "60rem", height: "36rem" },
-    [sizes$12.small]: { width: "80rem", height: "48rem" },
-    [sizes$12.medium]: { width: "80rem", height: "48rem" },
-    [sizes$12.large]: { width: "106rem", height: "64rem" },
-    [sizes$12.extraLarge]: { width: "140rem", height: "84rem" },
-    [sizes$12.xxl]: { width: "140rem", height: "84rem" },
-  },
-  base$44 = "Currency_72d4be39",
-  base__reverse = "Currency_base__reverse_f12e61b0",
-  base__notEnough = "Currency_base__notEnough_9a7842f",
-  base__credits = "Currency_base__credits_7b9ae721",
-  base__gold$1 = "Currency_base__gold_d6e3cbc",
-  base__freeXP = "Currency_base__freeXP_d29d5a57",
-  base__crystal = "Currency_base__crystal_f830cb47",
-  base__tankXP = "Currency_base__tankXP_1707c68b",
-  currency_module_default = {
-    base: base$44,
-    base__reverse: base__reverse,
-    base__notEnough: base__notEnough,
-    base__credits: base__credits,
-    base__gold: base__gold$1,
-    base__freeXP: base__freeXP,
-    base__crystal: base__crystal,
-    base__tankXP: base__tankXP,
-  },
-  intl$2 = resources.resolve("intl"),
-  Base$18 = defineStyledComponent("Currency", currency_module_default.base, {
-    variants: { reverse: { true: currency_module_default.base__reverse } },
-  });
-function formatCurrencyValue(e, t) {
-  const n = t === types$3.gold ? "gold" : "integral";
-  return Array.isArray(e)
-    ? e.map((e) => ("number" == typeof e ? intl$2.formatNumber(n, e) : e))
-    : "number" == typeof e
-      ? intl$2.formatNumber(n, e)
-      : e;
-}
-function Currency({
-  children: e,
-  type: t,
-  className: n,
-  classNames: r,
-  imagePath: a,
-  size: o = sizes$12.small,
-  enough: i = !0,
-  ...s
-}) {
-  const u = imageSizes$1[o],
-    l = `${t}_${u}x${u}`,
-    c = upscaledImageSizes[o],
-    d = `${t}_${c}x${c}`,
-    f = a || currencyTypes.includes(t),
-    p = useUpscale(`library.currency.${l}`, `library.currency.${d}`);
-  return (0, import_jsx_runtime.jsxs)(Base$18, {
-    ...s,
-    className: clsx(
-      r?.base,
-      i ? currency_module_default[`base__${t}`] : currency_module_default.base__notEnough,
-      n,
-    ),
-    children: [
-      f &&
-        (0, import_jsx_runtime.jsx)(Image$1, {
-          width: u,
-          height: u,
-          path: a ?? p,
-          className: r?.icon,
-        }),
-      formatCurrencyValue(e, t),
-    ],
-  });
-}
-((Currency.sizes = sizes$12), (Currency.types = types$3));
-var base$43 = "WithDiscount_b8b3aa7f",
-  discount = "WithDiscount_discount_f7ce1b97",
-  icon$10 = "WithDiscount_icon_a6c57ca8",
-  icon__extraSmall = "WithDiscount_icon__extraSmall_97673105",
-  icon__small = "WithDiscount_icon__small_60ee455a",
-  icon__medium = "WithDiscount_icon__medium_2877fd99",
-  icon__large = "WithDiscount_icon__large_6c06eeb7",
-  icon__extraLarge = "WithDiscount_icon__extraLarge_9d22aa45",
-  icon__xxl = "WithDiscount_icon__xxl_4080bb18",
-  with_discount_module_default = {
-    base: base$43,
-    discount: discount,
-    icon: icon$10,
-    icon__extraSmall: icon__extraSmall,
-    icon__small: icon__small,
-    icon__medium: icon__medium,
-    icon__large: icon__large,
-    icon__extraLarge: icon__extraLarge,
-    icon__xxl: icon__xxl,
-  };
-function WithDiscount({
-  children: e,
-  imagePath: t,
-  size: n = sizes$12.small,
-  customImageSize: r,
-  type: a,
-  enabled: o = !1,
-  className: i,
-  classNames: s,
-}) {
-  const u = r ?? discountSizesConfig[n];
-  return (0, import_jsx_runtime.jsxs)("div", {
-    className: clsx(with_discount_module_default.base, s?.base, i),
-    children: [
-      e,
-      o &&
-        (0, import_jsx_runtime.jsx)("div", {
-          className: clsx(
-            with_discount_module_default.discount,
-            s?.discount,
-            a === discountTypes.experience && with_discount_module_default.discount__experience,
-          ),
-          children: (0, import_jsx_runtime.jsx)(Image$1, {
-            width: u.width,
-            height: u.height,
-            path:
-              t ?? `library.currency.discount_${a}_${n === sizes$12.xxl ? sizes$12.extraLarge : n}`,
-            className: clsx(
-              with_discount_module_default.icon,
-              s?.icon,
-              with_discount_module_default[`icon__${n}`],
-            ),
-          }),
-        }),
-    ],
-  });
-}
 var UNKNOWN_NATION = "none",
   list = [
     "ussr",
@@ -27056,7 +26255,11 @@ function Portal$1({
     y = (0, import_react.useMemo)(
       () => (t ? (document.querySelector(t) ?? document.body) : document.body),
       [t],
-    );
+    ),
+    [x, E] = useSpring(() => ({
+      from: { opacity: 0, transform: v[r] },
+      config: { easing: easings$1.easeInOutCubic, duration: 250 },
+    }));
   (0, import_react.useEffect)(() => {
     m.current = void 0;
     const e = p.current;
@@ -27068,7 +26271,7 @@ function Portal$1({
       if (!f.opened) return void h(void 0);
       if (!1 === u(f, { callerBounding: t, containerBounding: a, bodyBounding: o })) return;
       if (s) {
-        if (m.current && !isEqual(m.current, t)) return void f.close();
+        if (m.current && !isEqual(m.current, t)) return (E.set({ opacity: 0 }), void f.close());
         m.current = t;
       }
       const i = getUpdatedPosition(r, g, t, a, o);
@@ -27079,8 +26282,8 @@ function Portal$1({
         }));
     });
     return (o.start(), o.stop);
-  }, [f, u, s, g, n, b, f.id, f.portal, f.trigger, r, f.opened]);
-  const x = (0, import_react.useCallback)(() => {
+  }, [f, u, s, E, g, n, b, f.id, f.portal, f.trigger, r, f.opened]);
+  const S = (0, import_react.useCallback)(() => {
     const e = p.current;
     e &&
       document.activeElement &&
@@ -27088,7 +26291,7 @@ function Portal$1({
       e.contains(document.activeElement) &&
       document.activeElement.blur();
   }, []);
-  ((0, import_react.useEffect)(() => f.subscribe.onBeforeClose(x), [f.subscribe, x]),
+  ((0, import_react.useEffect)(() => f.subscribe.onBeforeClose(S), [f.subscribe, S]),
     useHandleKeydown(i && f.opened ? keyCodes.ESCAPE : keyCodes.NONE, () => {
       f.close();
     }),
@@ -27125,21 +26328,17 @@ function Portal$1({
           }),
         ).dispose;
     }, [f]));
-  const [E, S] = useSpring(() => ({
-      from: { opacity: 0, transform: v[r] },
-      config: { easing: easings$1.easeInOutCubic, duration: 250 },
-    })),
-    w = import_react.useRef(v);
+  const w = import_react.useRef(v);
   return (
     (w.current = v),
     (0, import_react.useEffect)(() => {
       if (!_) return;
       const e = { opacity: 0, transform: w.current[_] };
-      S.start({
+      E.start({
         from: f.opened ? e : void 0,
         to: f.opened ? { opacity: 1, transform: "translate(0rem, 0rem) scale(1)" } : e,
       });
-    }, [S, _, f.opened]),
+    }, [E, _, f.opened]),
     !f.opened && o
       ? null
       : (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, {
@@ -27151,11 +26350,11 @@ function Portal$1({
                 position: "absolute",
                 top: "0",
                 left: "0",
-                pointerEvents: E.opacity.to((e) => (1 === e ? "auto" : "none")),
-                display: E.opacity.to((e) => (0 !== e || f.opened ? "block" : "none")),
+                pointerEvents: x.opacity.to((e) => (1 === e ? "auto" : "none")),
+                display: x.opacity.to((e) => (0 !== e || f.opened ? "block" : "none")),
                 ...d.style,
               },
-              children: (0, import_jsx_runtime.jsx)(animated.div, { style: E, children: e }),
+              children: (0, import_jsx_runtime.jsx)(animated.div, { style: x, children: e }),
             }),
             y,
           ),
@@ -27192,11 +26391,11 @@ function updatePosition(e, t, n, r, a, o, i, s) {
     applyTransform(n, a.top - u, r, s, i);
   }
 }
-var base$42 = "PopoverTip_163a336f",
+var base$47 = "PopoverTip_163a336f",
   arrow$1 = "PopoverTip_arrow_44c7d6a5",
   glow$1 = "PopoverTip_glow_da3f9be9",
   popover_tip_module_default = {
-    base: base$42,
+    base: base$47,
     "base__flip-left": "PopoverTip_base__flip-left_3cc0dadc",
     "base__flip-right": "PopoverTip_base__flip-right_6a5605b6",
     "base__flip-top": "PopoverTip_base__flip-top_6bcc69e1",
@@ -27321,7 +26520,36 @@ function Popover(e) {
   (Popover.use = usePopover),
   (Popover.Portal = Portal$1),
   (Popover.Trigger = Trigger));
-var getFromCallStack = (e = 1) => {
+var base$46 = "TruncateText_dcb41d92",
+  truncate_text_module_default = { base: base$46 },
+  TruncatedText = (0, import_react.forwardRef)(function (
+    { text: e, tooltipParams: t, className: n, ...r },
+    a,
+  ) {
+    const o = useSimpleTooltip({ header: t?.header, body: t?.body || e }),
+      i = (0, import_react.useRef)(null),
+      [s, u] = (0, import_react.useState)(!1),
+      l = (0, import_react.useCallback)(() => {
+        i.current &&
+          u(i.current.scrollWidth - Math.ceil(i.current.getBoundingClientRect().width) > 0);
+      }, []);
+    return (
+      (0, import_react.useEffect)(() => {
+        s || o.onMouseLeave();
+      }, [s, o]),
+      useLayoutReady(l, [l]),
+      useResizeLayoutReady(l, [l]),
+      useRefResizeObserver(i, l),
+      (0, import_jsx_runtime.jsx)("div", {
+        ...r,
+        ref: assignRefs([a, i]),
+        className: clsx(truncate_text_module_default.base, n),
+        ...(s ? o : {}),
+        children: e,
+      })
+    );
+  }),
+  getFromCallStack = (e = 1) => {
     const t = new Error().stack;
     let n,
       r = R.invalid("resId"),
@@ -27491,7 +26719,7 @@ var graphicsQuality = {
     isHigh: () => 0 === viewEnv.getGraphicsQuality(),
     get: () => viewEnv.getGraphicsQuality(),
   },
-  intl$1 = {
+  intl$2 = {
     toUpperCase: (e) => window.systemLocale.toUpperCase(e),
     toLowerCase: (e) => window.systemLocale.toLowerCase(e),
   },
@@ -27699,7 +26927,7 @@ function initExternalPaddings(e) {
   }
   (t(), engine.on("self.onPaddingsUpdated", () => t()));
 }
-var env = { view: view_exports, client: client_exports, sound: sound_default, intl: intl$1 },
+var env = { view: view_exports, client: client_exports, sound: sound_default, intl: intl$2 },
   DataTracker = class e {
     _callbacks;
     _updateHandler;
@@ -28150,7 +27378,7 @@ var handleViewEvent = (e, t, n = {}, r = 0) => {
   background$7 = "Checkbox_background_ae1fc797",
   border$5 = "Checkbox_border_e1946121",
   overlay$3 = "Checkbox_overlay_de55e0a5",
-  base$41 = "Checkbox_e00b9a0",
+  base$45 = "Checkbox_e00b9a0",
   base__enabled = "Checkbox_base__enabled_5bfdfae9",
   label$2 = "Checkbox_label_58a00a56",
   base__small$7 = "Checkbox_base__small_70ef629e",
@@ -28162,7 +27390,7 @@ var handleViewEvent = (e, t, n = {}, r = 0) => {
     background: background$7,
     border: border$5,
     overlay: overlay$3,
-    base: base$41,
+    base: base$45,
     base__enabled: base__enabled,
     label: label$2,
     base__small: base__small$7,
@@ -28190,12 +27418,12 @@ var handleViewEvent = (e, t, n = {}, r = 0) => {
       ],
     });
   }),
-  sizes$11 = { medium: "medium", small: "small" },
-  Base$17 = defineStyledComponent("Checkbox", checkbox_module_default.base, {
+  sizes$16 = { medium: "medium", small: "small" },
+  Base$25 = defineStyledComponent("Checkbox", checkbox_module_default.base, {
     variants: {
       size: {
-        [sizes$11.small]: checkbox_module_default.base__small,
-        [sizes$11.medium]: checkbox_module_default.base__medium,
+        [sizes$16.small]: checkbox_module_default.base__small,
+        [sizes$16.medium]: checkbox_module_default.base__medium,
       },
       checked: { true: checkbox_module_default.base__checked },
       state: { enabled: checkbox_module_default.base__enabled },
@@ -28204,7 +27432,7 @@ var handleViewEvent = (e, t, n = {}, r = 0) => {
   HeadlessCheckbox = (0, import_react.forwardRef)(function (
     {
       checked: e,
-      size: t = sizes$11.medium,
+      size: t = sizes$16.medium,
       disabled: n = !1,
       children: r,
       onMouseEnter: a,
@@ -28215,17 +27443,17 @@ var handleViewEvent = (e, t, n = {}, r = 0) => {
     u,
   ) {
     const l = useSounds();
-    return (0, import_jsx_runtime.jsx)(Base$17, {
+    return (0, import_jsx_runtime.jsx)(Base$25, {
       ...s,
       ref: u,
       size: t,
       checked: e,
       state: n ? void 0 : "enabled",
       onMouseEnter: function (e) {
-        (l.play("mouse-enter", { target: Base$17.displayName, original: e }), a?.(e));
+        (l.play("mouse-enter", { target: Base$25.displayName, original: e }), a?.(e));
       },
       onClick: function (t) {
-        (l.play("click", { target: Base$17.displayName, original: t }), o?.(t), i(!e));
+        (l.play("click", { target: Base$25.displayName, original: t }), o?.(t), i(!e));
       },
       children: r,
     });
@@ -28260,9 +27488,9 @@ var Checkbox = (0, import_react.forwardRef)(function (
   directions$1 = { left: "left", right: "right" },
   lengths = { short: "short", medium: "medium", long: "long" },
   iconLength = (e) => (e < 10 ? lengths.short : e < 100 ? lengths.medium : lengths.long),
-  icon$9 = (e, t, n) => ("prestige" === t ? TYPE_PRESTIGE : `${t}.${iconLength(e)}.c_${n}`),
-  base$40 = "VehiclePrestigeLevel_a750cce",
-  icon$8 = "VehiclePrestigeLevel_icon_ef024cc3",
+  icon$10 = (e, t, n) => ("prestige" === t ? TYPE_PRESTIGE : `${t}.${iconLength(e)}.c_${n}`),
+  base$44 = "VehiclePrestigeLevel_a750cce",
+  icon$9 = "VehiclePrestigeLevel_icon_ef024cc3",
   base__left$1 = "VehiclePrestigeLevel_base__left_4426b46c",
   level$1 = "VehiclePrestigeLevel_level_10f410ba",
   level__short = "VehiclePrestigeLevel_level__short_d1939fb1",
@@ -28272,11 +27500,11 @@ var Checkbox = (0, import_react.forwardRef)(function (
   base__iron = "VehiclePrestigeLevel_base__iron_4426b46c",
   base__bronze = "VehiclePrestigeLevel_base__bronze_4426b46c",
   base__silver = "VehiclePrestigeLevel_base__silver_4426b46c",
-  base__gold = "VehiclePrestigeLevel_base__gold_4426b46c",
+  base__gold$1 = "VehiclePrestigeLevel_base__gold_4426b46c",
   base__enamel = "VehiclePrestigeLevel_base__enamel_4426b46c",
   vehicle_prestige_level_module_default = {
-    base: base$40,
-    icon: icon$8,
+    base: base$44,
+    icon: icon$9,
     base__left: base__left$1,
     level: level$1,
     level__short: level__short,
@@ -28286,7 +27514,7 @@ var Checkbox = (0, import_react.forwardRef)(function (
     base__iron: base__iron,
     base__bronze: base__bronze,
     base__silver: base__silver,
-    base__gold: base__gold,
+    base__gold: base__gold$1,
     base__enamel: base__enamel,
   };
 function PrestigeLevel({ level: e, grade: t, type: n, direction: r, classNames: a, ...o }) {
@@ -28303,7 +27531,7 @@ function PrestigeLevel({ level: e, grade: t, type: n, direction: r, classNames: 
         ),
         children: [
           (0, import_jsx_runtime.jsx)(Image$1, {
-            path: `prestige.tab.${icon$9(e, n, t)}`,
+            path: `prestige.tab.${icon$10(e, n, t)}`,
             className: clsx(vehicle_prestige_level_module_default.icon, a?.icon),
           }),
           "prestige" !== n &&
@@ -28319,25 +27547,25 @@ function PrestigeLevel({ level: e, grade: t, type: n, direction: r, classNames: 
       });
 }
 PrestigeLevel.direction = directions$1;
-var base$39 = "VehicleRole_e70537d3",
+var base$43 = "VehicleRole_e70537d3",
   icon__x16x16$1 = "VehicleRole_icon__x16x16_f444f190",
   icon__x24x24$1 = "VehicleRole_icon__x24x24_cc02d077",
   icon__x32x32$1 = "VehicleRole_icon__x32x32_2180a099",
   icon__x48x48$1 = "VehicleRole_icon__x48x48_2a01e86c",
   vehicle_role_module_default = {
-    base: base$39,
+    base: base$43,
     icon__x16x16: icon__x16x16$1,
     icon__x24x24: icon__x24x24$1,
     icon__x32x32: icon__x32x32$1,
     icon__x48x48: icon__x48x48$1,
   },
-  sizes$10 = { x16x16: "x16x16", x24x24: "x24x24", x32x32: "x32x32", x48x48: "x48x48" },
+  sizes$15 = { x16x16: "x16x16", x24x24: "x24x24", x32x32: "x32x32", x48x48: "x48x48" },
   images$2 = resources.resolve("images"),
   VehicleRole = (0, import_react.forwardRef)(function (
-    { roleKey: e, size: t = sizes$10.x24x24, classNames: n, ...r },
+    { roleKey: e, size: t = sizes$15.x24x24, classNames: n, ...r },
     a,
   ) {
-    const o = useUpscale(t, sizes$10.x32x32);
+    const o = useUpscale(t, sizes$15.x32x32);
     return (0, import_jsx_runtime.jsx)("div", {
       ...r,
       ref: a,
@@ -28348,11 +27576,11 @@ var base$39 = "VehicleRole_e70537d3",
       }),
     });
   });
-VehicleRole.sizes = sizes$10;
-var base$38 = "VehicleInfo_1732f1f0",
-  name = "VehicleInfo_name_3989ca04",
+VehicleRole.sizes = sizes$15;
+var base$42 = "VehicleInfo_1732f1f0",
+  name$1 = "VehicleInfo_name_3989ca04",
   name__premium = "VehicleInfo_name__premium_258b3b93",
-  vehicle_info_module_default = { base: base$38, name: name, name__premium: name__premium },
+  vehicle_info_module_default = { base: base$42, name: name$1, name__premium: name__premium },
   VehicleName = defineStyledComponent("VehicleName", vehicle_info_module_default.name, {
     variants: { premium: { true: vehicle_info_module_default.name__premium } },
   }),
@@ -28378,21 +27606,21 @@ var require_react_jsx_dev_runtime_production = __commonJSMin((e) => {}),
     $PROXY: () => $PROXY,
     $TRACK: () => $TRACK,
     DEV: () => {},
-    ErrorBoundary: () => ErrorBoundary,
+    ErrorBoundary: () => ErrorBoundary$1,
     For: () => For,
     Index: () => Index,
     Match: () => Match,
     Show: () => Show,
-    Suspense: () => Suspense,
+    Suspense: () => Suspense$1,
     SuspenseList: () => SuspenseList,
-    Switch: () => Switch,
+    Switch: () => Switch$1,
     batch: () => batch,
     cancelCallback: () => cancelCallback,
     catchError: () => catchError,
     children: () => children,
     createComponent: () => createComponent,
     createComputed: () => createComputed,
-    createContext: () => createContext$10,
+    createContext: () => createContext$12,
     createDeferred: () => createDeferred,
     createEffect: () => createEffect,
     createMemo: () => createMemo,
@@ -28426,7 +27654,7 @@ var require_react_jsx_dev_runtime_production = __commonJSMin((e) => {}),
     splitProps: () => splitProps,
     startTransition: () => startTransition,
     untrack: () => untrack,
-    useContext: () => useContext$10,
+    useContext: () => useContext$12,
     useTransition: () => useTransition,
   }),
   taskIdCounter = 1,
@@ -28617,7 +27845,7 @@ function createRenderEffect(e, t, n) {
 function createEffect(e, t, n) {
   runEffects = runUserEffects;
   const r = createComputation(e, t, !1, STALE),
-    a = SuspenseContext && useContext$10(SuspenseContext);
+    a = SuspenseContext && useContext$12(SuspenseContext);
   (a && (r.suspense = a),
     (n && n.render) || (r.user = !0),
     Effects ? Effects.push(r) : updateComputation(r));
@@ -28632,7 +27860,7 @@ function createReaction(e, t) {
       !1,
       0,
     ),
-    a = SuspenseContext && useContext$10(SuspenseContext);
+    a = SuspenseContext && useContext$12(SuspenseContext);
   return (
     a && (r.suspense = a),
     (r.user = !0),
@@ -28699,7 +27927,7 @@ function createResource(e, t, n) {
     }, !1);
   }
   function w() {
-    const e = SuspenseContext && useContext$10(SuspenseContext),
+    const e = SuspenseContext && useContext$12(SuspenseContext),
       t = m(),
       n = h();
     if (void 0 !== n && !i) throw n;
@@ -28942,11 +28170,11 @@ function useTransition() {
 function resumeEffects(e) {
   (Effects.push.apply(Effects, e), (e.length = 0));
 }
-function createContext$10(e, t) {
+function createContext$12(e, t) {
   const n = Symbol("context");
   return { id: n, Provider: createProvider(n), defaultValue: e };
 }
-function useContext$10(e) {
+function useContext$12(e) {
   let t;
   return Owner && Owner.context && void 0 !== (t = Owner.context[e.id]) ? t : e.defaultValue;
 }
@@ -28962,7 +28190,7 @@ function children(e) {
   );
 }
 function getSuspenseContext() {
-  return SuspenseContext || (SuspenseContext = createContext$10());
+  return SuspenseContext || (SuspenseContext = createContext$12());
 }
 function enableExternalSource(e, t = (e) => e()) {
   if (ExternalSourceConfig) {
@@ -29733,7 +28961,7 @@ function Show(e) {
     void 0,
   );
 }
-function Switch(e) {
+function Switch$1(e) {
   const t = children(() => e.children),
     n = createMemo(() => {
       const e = t(),
@@ -29778,7 +29006,7 @@ function Match(e) {
 function resetErrorBoundaries() {
   Errors && [...Errors].forEach((e) => e());
 }
-function ErrorBoundary(e) {
+function ErrorBoundary$1(e) {
   let t;
   sharedConfig.context && sharedConfig.load && (t = sharedConfig.load(sharedConfig.getContextId()));
   const [n, r] = createSignal(t, void 0);
@@ -29802,11 +29030,11 @@ function ErrorBoundary(e) {
 }
 var suspenseListEquals = (e, t) =>
     e.showContent === t.showContent && e.showFallback === t.showFallback,
-  SuspenseListContext = createContext$10();
+  SuspenseListContext = createContext$12();
 function SuspenseList(e) {
   let t,
     [n, r] = createSignal(() => ({ inFallback: !1 }));
-  const a = useContext$10(SuspenseListContext),
+  const a = useContext$12(SuspenseListContext),
     [o, i] = createSignal([]);
   a && (t = a.register(createMemo(() => n()().inFallback)));
   const s = createMemo(
@@ -29856,7 +29084,7 @@ function SuspenseList(e) {
     })
   );
 }
-function Suspense(e) {
+function Suspense$1(e) {
   let t,
     n,
     r,
@@ -29897,7 +29125,7 @@ function Suspense(e) {
         ));
     }
   }
-  const f = useContext$10(SuspenseListContext);
+  const f = useContext$12(SuspenseListContext);
   let p;
   return (
     f && (t = f.register(c.inFallback)),
@@ -29941,7 +29169,7 @@ var DEV$1 = void 0,
     DOMElements: () => DOMElements,
     DelegatedEvents: () => DelegatedEvents,
     Dynamic: () => Dynamic,
-    ErrorBoundary: () => ErrorBoundary,
+    ErrorBoundary: () => ErrorBoundary$1,
     For: () => For,
     Hydration: () => Hydration,
     HydrationScript: () => voidFn,
@@ -29954,9 +29182,9 @@ var DEV$1 = void 0,
     SVGElements: () => SVGElements,
     SVGNamespace: () => SVGNamespace,
     Show: () => Show,
-    Suspense: () => Suspense,
+    Suspense: () => Suspense$1,
     SuspenseList: () => SuspenseList,
-    Switch: () => Switch,
+    Switch: () => Switch$1,
     addEventListener: () => addEventListener,
     assign: () => assign,
     classList: () => classList,
@@ -29982,7 +29210,7 @@ var DEV$1 = void 0,
     insert: () => insert,
     isDev: () => !1,
     isServer: () => !1,
-    memo: () => memo$4,
+    memo: () => memo$5,
     mergeProps: () => mergeProps$1,
     render: () => render,
     renderToStream: () => renderToStream,
@@ -30497,7 +29725,7 @@ var DelegatedEvents = new Set([
     "noindex",
     "search",
   ]),
-  memo$4 = (e) => createMemo(() => e());
+  memo$5 = (e) => createMemo(() => e());
 function reconcileArrays(e, t, n) {
   let r = n.length,
     a = t.length,
@@ -32167,8 +31395,80 @@ function injectGFPlugins() {
       }),
       (injected = !0));
 }
-var base$37 = "AnimatedDetails_c70d3863",
-  animated_details_module_default = { base: base$37 },
+var RouterContext = (0, import_react.createContext)(void 0);
+function useRouter() {
+  const e = (0, import_react.useContext)(RouterContext);
+  if (!e) throw new Error("useRouter must be used within a RouterProvider");
+  return e;
+}
+function removeLastSlash(e) {
+  return e.endsWith("/") ? e.slice(0, -1) : e;
+}
+function safeJsonParse(e) {
+  try {
+    return JSON.parse(e);
+  } catch (t) {
+    return {};
+  }
+}
+function ModelRouterProvider({
+  children: e,
+  prefix: t = "",
+  context: n,
+  getRoot: r,
+  initializer: a,
+  rootId: o,
+}) {
+  const i = (0, import_react.useRef)([]),
+    s = (0, import_react.useRef)(null),
+    u = (0, import_react.useMemo)(
+      () => create({ context: n, getRoot: r, initializer: a, rootId: o }),
+      [n, r, a, o],
+    ),
+    l = (0, import_react.useSyncExternalStore)(
+      (0, import_react.useCallback)(
+        (e) => {
+          const t = u.subscribe(e);
+          return () => u.unsubscribe(t);
+        },
+        [u],
+      ),
+      (0, import_react.useCallback)(() => {
+        const e = u.readByPath(),
+          n = { location: removeLastSlash(t + e.route), params: e.params };
+        return s.current && comparer.shallow(s.current, n) ? s.current : ((s.current = n), n);
+      }, [u, t]),
+    );
+  (0, import_react.useEffect)(() => u.dispose, [u]);
+  const c = (0, import_react.useMemo)(() => {
+    const e = [...i.current, l];
+    return ((i.current = e), { ...l, history: e, paramsStruct: safeJsonParse(l.params) });
+  }, [l]);
+  ({}).PUBLIC_ROUTER_DEBUG && console.log("🗺️ Route updated:", c);
+  const d = (0, import_react.useMemo)(() => {
+      const e = u.createCallback(
+          (e, t) => (
+            {}.PUBLIC_ROUTER_DEBUG && console.log("➡️ Going to", e, t),
+            { route: e, ...(Boolean(t) && { params: JSON.stringify(t) }) }
+          ),
+          "navigateTo",
+        ),
+        t = u.createCallbackNoArgs("navigateBack");
+      return {
+        push: e,
+        replace: e,
+        goBack: {}.PUBLIC_ROUTER_DEBUG
+          ? () => {
+              (console.log("🗺️ Route back"), t());
+            }
+          : t,
+      };
+    }, [u]),
+    f = (0, import_react.useMemo)(() => ({ ...c, ...d }), [d, c]);
+  return (0, import_jsx_runtime.jsx)(RouterContext.Provider, { value: f, children: e });
+}
+var base$41 = "AnimatedDetails_c70d3863",
+  animated_details_module_default = { base: base$41 },
   AnimatedDetails = (0, import_react.forwardRef)(function (
     { opened: e, children: t, className: n, animationSettings: r = {}, ...a },
     o,
@@ -32286,8 +31586,8 @@ var arrow = "Arrow_f1570a91",
       ],
     });
   }),
-  base$36 = "Accordion_2b56632",
-  accordion_module_default = { base: base$36 },
+  base$40 = "Accordion_2b56632",
+  accordion_module_default = { base: base$40 },
   Accordion = (0, import_react.forwardRef)(function ({ opened: e, ...t }, n) {
     return (0, import_jsx_runtime.jsx)(Context$2.Provider, {
       value: { opened: e },
@@ -32306,6 +31606,95 @@ function asMemoized(e) {
   (Accordion.Details = Details),
   (Accordion.AnimatedDetails = AnimatedDetails),
   (Accordion.Arrow = Arrow));
+var ErrorBoundary = class extends import_react.Component {
+    state = { failure: !1, error: null };
+    static getDerivedStateFromError(e) {
+      return { failure: !0, error: e };
+    }
+    render() {
+      return this.state.failure
+        ? (0, import_jsx_runtime.jsxs)("div", {
+            children: [
+              (0, import_jsx_runtime.jsx)("h1", { children: "Something went wrong." }),
+              this.state.error &&
+                (0, import_jsx_runtime.jsx)("pre", { children: this.state.error.toString() }),
+            ],
+          })
+        : this.props.children;
+    }
+  },
+  splitPath = (e) => e.split("/").filter(Boolean);
+function matchPath(e, t) {
+  const { paths: n, exact: r = !1 } = t,
+    a = splitPath(e);
+  for (const o of n) {
+    const t = splitPath(o);
+    if (r && a.length !== t.length) continue;
+    const n = {};
+    let i = !0;
+    for (let e = 0; e < t.length; e++) {
+      const r = t[e],
+        o = a[e];
+      if (!o) {
+        i = !1;
+        break;
+      }
+      if (r.startsWith(":")) {
+        n[r.slice(1)] = o;
+      } else if (r !== o) {
+        i = !1;
+        break;
+      }
+    }
+    if (i) {
+      const i = `/${a.slice(0, t.length).join("/")}`,
+        s = e === i;
+      if (r && !s) continue;
+      return { params: n, exact: s, path: o, url: i };
+    }
+  }
+  return null;
+}
+var SwitchContext = (0, import_react.createContext)(void 0);
+function useSwitch() {
+  const e = (0, import_react.useContext)(SwitchContext);
+  if (!e) throw new Error("useSwitch must be used within a SwitchProvider");
+  return e;
+}
+function Switch({ children: e, route: t, fallback: n = null }) {
+  const { location: r } = useRouter();
+  let a;
+  return (
+    import_react.Children.forEach(e, (e) => {
+      if (!(0, import_react.isValidElement)(e))
+        return void console.error("Switch children must be valid elements");
+      if ("object" != typeof e.props || null === e.props)
+        return console.error("Child props is not an object or null", e);
+      const n = e.props,
+        o = t ? `${t}${n.path}` : n.path;
+      if (void 0 !== a) return;
+      const i = matchPath(r, { paths: [o], exact: n.exact });
+      i && (a = { child: e, match: i });
+    }),
+    a
+      ? (0, import_jsx_runtime.jsx)(SwitchContext.Provider, {
+          value: { match: a.match },
+          children: a.child,
+        })
+      : n
+  );
+}
+function Route({ component: e, exact: t }) {
+  const { match: n } = useSwitch();
+  return (0, import_jsx_runtime.jsx)(ErrorBoundary, {
+    children: (0, import_jsx_runtime.jsx)(e, {
+      path: n.path,
+      location: n.url,
+      params: n.params,
+      exact: t ?? !1,
+    }),
+  });
+}
 var Slot$1 = import_react.forwardRef((e, t) => {
   const { children: n, ...r } = e,
     a = import_react.Children.toArray(n),
@@ -32427,7 +31816,182 @@ var Tooltip$1 = createTooltipComponent(useTooltip, "Tooltip"),
           : (window.classNames = n);
     })();
   }),
-  CardContext = (0, import_react.createContext)(void 0);
+  types$3 = {
+    tankXP: "tankXP",
+    freeXP: "freeXP",
+    credits: "credits",
+    gold: "gold",
+    crystal: "crystal",
+    equipCoin: "equipCoin",
+    stpCoin: "stpcoin",
+    brCoin: "brcoin",
+    eliteXp: "eliteXp",
+    depot: "depot",
+    vehicle: "vehicle",
+    crew: "crew",
+    custom: "custom",
+    xp: "xp",
+    brProgressionToken: "brProgressionToken",
+    battlePassPoints: "battlePassPoints",
+  },
+  currencyTypes = Object.values(types$3),
+  discountTypes = { currency: "currency", experience: "experience", custom: "custom" },
+  sizes$14 = {
+    extraSmall: "extraSmall",
+    small: "small",
+    medium: "medium",
+    large: "large",
+    extraLarge: "extraLarge",
+    xxl: "xxl",
+  },
+  imageSizes$1 = {
+    [sizes$14.extraSmall]: 16,
+    [sizes$14.small]: 24,
+    [sizes$14.medium]: 32,
+    [sizes$14.large]: 48,
+    [sizes$14.extraLarge]: 80,
+    [sizes$14.xxl]: 96,
+  },
+  upscaledImageSizes = {
+    [sizes$14.extraSmall]: 32,
+    [sizes$14.small]: 48,
+    [sizes$14.medium]: 32,
+    [sizes$14.large]: 96,
+    [sizes$14.extraLarge]: 80,
+    [sizes$14.xxl]: 96,
+  },
+  discountSizesConfig = {
+    [sizes$14.extraSmall]: { width: "60rem", height: "36rem" },
+    [sizes$14.small]: { width: "80rem", height: "48rem" },
+    [sizes$14.medium]: { width: "80rem", height: "48rem" },
+    [sizes$14.large]: { width: "106rem", height: "64rem" },
+    [sizes$14.extraLarge]: { width: "140rem", height: "84rem" },
+    [sizes$14.xxl]: { width: "140rem", height: "84rem" },
+  },
+  base$39 = "Currency_72d4be39",
+  base__reverse = "Currency_base__reverse_f12e61b0",
+  base__notEnough = "Currency_base__notEnough_9a7842f",
+  base__credits = "Currency_base__credits_7b9ae721",
+  base__gold = "Currency_base__gold_d6e3cbc",
+  base__freeXP = "Currency_base__freeXP_d29d5a57",
+  base__crystal = "Currency_base__crystal_f830cb47",
+  base__tankXP = "Currency_base__tankXP_1707c68b",
+  currency_module_default = {
+    base: base$39,
+    base__reverse: base__reverse,
+    base__notEnough: base__notEnough,
+    base__credits: base__credits,
+    base__gold: base__gold,
+    base__freeXP: base__freeXP,
+    base__crystal: base__crystal,
+    base__tankXP: base__tankXP,
+  },
+  intl$1 = resources.resolve("intl"),
+  Base$24 = defineStyledComponent("Currency", currency_module_default.base, {
+    variants: { reverse: { true: currency_module_default.base__reverse } },
+  });
+function formatCurrencyValue(e, t) {
+  const n = t === types$3.gold ? "gold" : "integral";
+  return Array.isArray(e)
+    ? e.map((e) => ("number" == typeof e ? intl$1.formatNumber(n, e) : e))
+    : "number" == typeof e
+      ? intl$1.formatNumber(n, e)
+      : e;
+}
+function Currency({
+  children: e,
+  type: t,
+  className: n,
+  classNames: r,
+  imagePath: a,
+  size: o = sizes$14.small,
+  enough: i = !0,
+  ...s
+}) {
+  const u = imageSizes$1[o],
+    l = `${t}_${u}x${u}`,
+    c = upscaledImageSizes[o],
+    d = `${t}_${c}x${c}`,
+    f = a || currencyTypes.includes(t),
+    p = useUpscale(`library.currency.${l}`, `library.currency.${d}`);
+  return (0, import_jsx_runtime.jsxs)(Base$24, {
+    ...s,
+    className: clsx(
+      r?.base,
+      i ? currency_module_default[`base__${t}`] : currency_module_default.base__notEnough,
+      n,
+    ),
+    children: [
+      f &&
+        (0, import_jsx_runtime.jsx)(Image$1, {
+          width: u,
+          height: u,
+          path: a ?? p,
+          className: r?.icon,
+        }),
+      formatCurrencyValue(e, t),
+    ],
+  });
+}
+((Currency.sizes = sizes$14), (Currency.types = types$3));
+var base$38 = "WithDiscount_b8b3aa7f",
+  discount = "WithDiscount_discount_f7ce1b97",
+  icon$8 = "WithDiscount_icon_a6c57ca8",
+  icon__extraSmall = "WithDiscount_icon__extraSmall_97673105",
+  icon__small = "WithDiscount_icon__small_60ee455a",
+  icon__medium = "WithDiscount_icon__medium_2877fd99",
+  icon__large = "WithDiscount_icon__large_6c06eeb7",
+  icon__extraLarge = "WithDiscount_icon__extraLarge_9d22aa45",
+  icon__xxl = "WithDiscount_icon__xxl_4080bb18",
+  with_discount_module_default = {
+    base: base$38,
+    discount: discount,
+    icon: icon$8,
+    icon__extraSmall: icon__extraSmall,
+    icon__small: icon__small,
+    icon__medium: icon__medium,
+    icon__large: icon__large,
+    icon__extraLarge: icon__extraLarge,
+    icon__xxl: icon__xxl,
+  };
+function WithDiscount({
+  children: e,
+  imagePath: t,
+  size: n = sizes$14.small,
+  customImageSize: r,
+  type: a,
+  enabled: o = !1,
+  className: i,
+  classNames: s,
+}) {
+  const u = r ?? discountSizesConfig[n];
+  return (0, import_jsx_runtime.jsxs)("div", {
+    className: clsx(with_discount_module_default.base, s?.base, i),
+    children: [
+      e,
+      o &&
+        (0, import_jsx_runtime.jsx)("div", {
+          className: clsx(
+            with_discount_module_default.discount,
+            s?.discount,
+            a === discountTypes.experience && with_discount_module_default.discount__experience,
+          ),
+          children: (0, import_jsx_runtime.jsx)(Image$1, {
+            width: u.width,
+            height: u.height,
+            path:
+              t ?? `library.currency.discount_${a}_${n === sizes$14.xxl ? sizes$14.extraLarge : n}`,
+            className: clsx(
+              with_discount_module_default.icon,
+              s?.icon,
+              with_discount_module_default[`icon__${n}`],
+            ),
+          }),
+        }),
+    ],
+  });
+}
+var CardContext = (0, import_react.createContext)(void 0);
 function useCardContext() {
   const e = (0, import_react.useContext)(CardContext);
   if (!e) throw new Error("Card context must be used only within its provider");
@@ -32457,7 +32021,7 @@ function useCardsWrapperContextOptional() {
   return (0, import_react.useContext)(CardsWrapperContext);
 }
 var CardsWrapperContextProvider = CardsWrapperContext.Provider,
-  base$35 = "Content_8eaaf71a",
+  base$37 = "Content_8eaaf71a",
   content$10 = "Content_ab8563af",
   disabledOverlay$2 = "Content_disabledOverlay_af87c441",
   base__multiple = "Content_base__multiple_da09528a",
@@ -32467,7 +32031,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
   base__selected$1 = "Content_base__selected_da09528a",
   multipleCorner = "Content_multipleCorner_151c26ee",
   content_module_default = {
-    base: base$35,
+    base: base$37,
     content: content$10,
     disabledOverlay: disabledOverlay$2,
     base__multiple: base__multiple,
@@ -32478,7 +32042,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
     multipleCorner: multipleCorner,
   },
   MULTIPLE_CORNER_SIZE = 20,
-  Base$16 = defineStyledComponent("Content", content_module_default.base, {
+  Base$23 = defineStyledComponent("Content", content_module_default.base, {
     variants: {
       multiple: { true: content_module_default.base__multiple },
       selected: { true: content_module_default.base__selected },
@@ -32505,7 +32069,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
             }
           });
       }),
-      (0, import_jsx_runtime.jsxs)(Base$16, {
+      (0, import_jsx_runtime.jsxs)(Base$23, {
         multiple: r.multiple,
         selected: r.selected,
         hover: r.hover,
@@ -32530,7 +32094,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
       })
     );
   },
-  base$34 = "Status_68bd9bc6",
+  base$36 = "Status_68bd9bc6",
   icon$7 = "Status_icon_cef4536",
   base__done = "Status_base__done_35b9a31c",
   base__doneSmall = "Status_base__doneSmall_35b9a31c",
@@ -32543,7 +32107,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
   blur = "Status_blur_5675b854",
   glowBig = "Status_glowBig_5954041c",
   status_module_default = {
-    base: base$34,
+    base: base$36,
     icon: icon$7,
     base__done: base__done,
     base__doneSmall: base__doneSmall,
@@ -32557,7 +32121,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
     glowBig: glowBig,
   },
   strings$1 = resources.resolve("strings"),
-  Base$15 = defineStyledComponent("Status", status_module_default.base, {
+  Base$22 = defineStyledComponent("Status", status_module_default.base, {
     variants: {
       status: {
         done: status_module_default.base__done,
@@ -32610,7 +32174,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
       ],
     });
   },
-  base$33 = "Card_f0963ece",
+  base$35 = "Card_f0963ece",
   base__wrapped = "Card_base__wrapped_c6eb8737",
   base__disableMouse = "Card_base__disableMouse_5cd80216",
   base__hover = "Card_base__hover_f4c22d1c",
@@ -32623,7 +32187,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
   base__selectedHover = "Card_base__selectedHover_f4c22d1c",
   centerBorder = "Card_centerBorder_8a0f28ae",
   card_module_default = {
-    base: base$33,
+    base: base$35,
     base__wrapped: base__wrapped,
     base__disableMouse: base__disableMouse,
     base__hover: base__hover,
@@ -32636,7 +32200,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
     base__selectedHover: base__selectedHover,
     centerBorder: centerBorder,
   },
-  Base$14 = defineStyledComponent("Card", card_module_default.base, {
+  Base$21 = defineStyledComponent("Card", card_module_default.base, {
     variants: {
       active: { true: card_module_default.base__active },
       selected: { true: card_module_default.base__selected },
@@ -32669,7 +32233,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
       _ = useSounds(),
       h = useCardsWrapperContextOptional(),
       g = a || u;
-    return (0, import_jsx_runtime.jsx)(Base$14, {
+    return (0, import_jsx_runtime.jsx)(Base$21, {
       ...d,
       ref: f,
       hover: p,
@@ -32903,17 +32467,17 @@ var Lines = (0, import_react.memo)(
       );
     },
   ),
-  base$32 = "CardsWrapper_3b6cc4f6",
+  base$34 = "CardsWrapper_3b6cc4f6",
   card = "CardsWrapper_card_c7fc9ee7",
   centerBorderCommon = "CardsWrapper_centerBorderCommon_b4b27a11",
   outerBorderCommon = "CardsWrapper_outerBorderCommon_f4887371",
   cards_wrapper_module_default = {
-    base: base$32,
+    base: base$34,
     card: card,
     centerBorderCommon: centerBorderCommon,
     outerBorderCommon: outerBorderCommon,
   },
-  Base$13 = defineStyledComponent("CardsWrapper", cards_wrapper_module_default.base),
+  Base$20 = defineStyledComponent("CardsWrapper", cards_wrapper_module_default.base),
   CardsWrapper = (0, import_react.forwardRef)(function (
     {
       children: e,
@@ -32952,7 +32516,7 @@ var Lines = (0, import_react.memo)(
         (0, import_react.useCallback)(() => f(), [f]),
       ));
     const p = (0, import_react.useMemo)(() => ({ recalculate: f, enabled: a }), [f, a]);
-    return (0, import_jsx_runtime.jsx)(Base$13, {
+    return (0, import_jsx_runtime.jsx)(Base$20, {
       ...i,
       ref: l,
       children: (0, import_jsx_runtime.jsxs)("div", {
@@ -32990,10 +32554,10 @@ var Lines = (0, import_react.memo)(
     }),
   ),
   statusTypes = { done: "done", locked: "locked", alert: "alert" },
-  base$31 = "Discount_bbbebfd",
+  base$33 = "Discount_bbbebfd",
   percent = "Discount_percent_b7ab402",
   discount_module_default = {
-    base: base$31,
+    base: base$33,
     "base__color-red": "Discount_base__color-red_ce40ab53",
     "base__color-blue": "Discount_base__color-blue_29162735",
     "base__size-medium": "Discount_base__size-medium_50e2ae9a",
@@ -33005,7 +32569,7 @@ var Lines = (0, import_react.memo)(
     "percent__size-large": "Discount_percent__size-large_8384c978",
   },
   colors = { blue: "blue", red: "red" },
-  sizes$9 = { medium: "medium", large: "large" },
+  sizes$13 = { medium: "medium", large: "large" },
   StyledDiscount = defineStyledComponent("Discount", discount_module_default.base, {
     variants: {
       color: {
@@ -33013,13 +32577,13 @@ var Lines = (0, import_react.memo)(
         [colors.red]: discount_module_default["base__color-red"],
       },
       size: {
-        [sizes$9.medium]: discount_module_default["base__size-medium"],
-        [sizes$9.large]: discount_module_default["base__size-large"],
+        [sizes$13.medium]: discount_module_default["base__size-medium"],
+        [sizes$13.large]: discount_module_default["base__size-large"],
       },
     },
   }),
   Discount = import_react.forwardRef(function (
-    { color: e = colors.red, className: t, classNames: n, size: r = sizes$9.large, ...a },
+    { color: e = colors.red, className: t, classNames: n, size: r = sizes$13.large, ...a },
     o,
   ) {
     return (0, import_jsx_runtime.jsxs)(StyledDiscount, {
@@ -33041,7 +32605,7 @@ var Lines = (0, import_react.memo)(
       ],
     });
   });
-((Discount.colors = colors), (Discount.sizes = sizes$9));
+((Discount.colors = colors), (Discount.sizes = sizes$13));
 var directions = { horizontal: "horizontal", vertical: "vertical" },
   PERCENT_OF_VISIBLE_ELEMENTS = 1.5,
   SAFETY_FACTOR = 0.25;
@@ -33184,10 +32748,10 @@ function List(e) {
     : (0, import_jsx_runtime.jsx)(VerticalList, { ...e });
 }
 List.displayName = "VirtualList";
-var base$30 = "ScrollVelocityGuardContent_6b5de46d",
+var base$32 = "ScrollVelocityGuardContent_6b5de46d",
   base__disableInteractivity = "ScrollVelocityGuardContent_base__disableInteractivity_e6c30513",
   scroll_velocity_guard_content_module_default = {
-    base: base$30,
+    base: base$32,
     base__disableInteractivity: base__disableInteractivity,
   },
   DEFAULT_VELOCITY_LIMITATION = 1;
@@ -33244,31 +32808,31 @@ var ErrorHandler = class extends import_react.Component {
     base__x190x152: base__x190x152,
     base__x380x304: base__x380x304,
   },
-  sizes$8 = { x120x96: "x120x96", x190x152: "x190x152", x380x304: "x380x304" },
-  Base$12 = defineStyledComponent("VehicleImage", {
+  sizes$12 = { x120x96: "x120x96", x190x152: "x190x152", x380x304: "x380x304" },
+  Base$19 = defineStyledComponent("VehicleImage", {
     element: Image$1,
     className: vehicle_image_module_default.base,
     cva: {
       variants: {
         size: {
-          [sizes$8.x120x96]: vehicle_image_module_default.base__x120x96,
-          [sizes$8.x190x152]: vehicle_image_module_default.base__x190x152,
-          [sizes$8.x380x304]: vehicle_image_module_default.base__x380x304,
+          [sizes$12.x120x96]: vehicle_image_module_default.base__x120x96,
+          [sizes$12.x190x152]: vehicle_image_module_default.base__x190x152,
+          [sizes$12.x380x304]: vehicle_image_module_default.base__x380x304,
         },
       },
     },
   });
-function UnknownVehicleImage({ size: e = sizes$8.x380x304, ...t }) {
-  return (0, import_jsx_runtime.jsx)(Base$12, { ...t, size: e, path: `vehicle.${e}.tank_empty` });
+function UnknownVehicleImage({ size: e = sizes$12.x380x304, ...t }) {
+  return (0, import_jsx_runtime.jsx)(Base$19, { ...t, size: e, path: `vehicle.${e}.tank_empty` });
 }
 var VehicleImage = (0, import_react.forwardRef)(function (
-  { size: e = sizes$8.x380x304, name: t, width: n, height: r, className: a, ...o },
+  { size: e = sizes$12.x380x304, name: t, width: n, height: r, className: a, ...o },
   i,
 ) {
   const s = resources.resolve("images"),
     u = `vehicle.${e}.${getVehicleImageKey(t)}`;
   return s.has(u)
-    ? (0, import_jsx_runtime.jsx)(Base$12, {
+    ? (0, import_jsx_runtime.jsx)(Base$19, {
         ...o,
         ref: i,
         size: e,
@@ -33307,18 +32871,18 @@ function useCalculateLeftTime(e) {
         ? hours(1)
         : hours(0);
 }
-((VehicleImage.UnknownVehicleImage = UnknownVehicleImage), (VehicleImage.size = sizes$8));
-var base$29 = "IconCounter_33c660e9",
-  icon_counter_module_default = { base: base$29 };
+((VehicleImage.UnknownVehicleImage = UnknownVehicleImage), (VehicleImage.size = sizes$12));
+var base$31 = "IconCounter_33c660e9",
+  icon_counter_module_default = { base: base$31 };
 function IconCounter({ className: e }) {
   return (0, import_jsx_runtime.jsx)("div", {
     className: clsx(icon_counter_module_default.base, e),
   });
 }
-var base$28 = "ShortCounter_d2d7b370",
+var base$30 = "ShortCounter_d2d7b370",
   text = "ShortCounter_text_ecf2e742",
   count = "ShortCounter_count_d7a74fd8",
-  short_counter_module_default = { base: base$28, text: text, count: count },
+  short_counter_module_default = { base: base$30, text: text, count: count },
   ShortCounter = (0, import_react.forwardRef)(function (
     { time: e, wins: t, battles: n, classNames: r, ...a },
     o,
@@ -33513,9 +33077,14 @@ var states = { default: "default", alert: "alert", error: "error", done: "done" 
     email: "email",
     integer: "integer",
   },
-  sizes$7 = { medium: "medium", large: "large" },
+  sizes$11 = { medium: "medium", large: "large" },
   icons = { search: "search" },
-  defaultConfig = { type: types$2.text, size: sizes$7.medium, state: states.default, disabled: !1 },
+  defaultConfig = {
+    type: types$2.text,
+    size: sizes$11.medium,
+    state: states.default,
+    disabled: !1,
+  },
   placeholderVisibility = { focusedOrValue: "focusedOrValue", value: "value" },
   contextInstance = (0, import_react.createContext)(null);
 function useInput() {
@@ -33866,7 +33435,7 @@ var Input = (0, import_react.forwardRef)(function (
 });
 ((Input.types = types$2),
   (Input.messageTypes = messageTypes),
-  (Input.sizes = sizes$7),
+  (Input.sizes = sizes$11),
   (Input.states = states),
   (Input.icons = icons),
   (Input.Provider = Provider),
@@ -33878,7 +33447,7 @@ var Input = (0, import_react.forwardRef)(function (
   (Input.ClearButton = ClearButton));
 var toggleThemes = { primary: "primary", custom: "custom" },
   toggleSizes = { extraSmall: "extraSmall", small: "small", medium: "medium" },
-  base$27 = "Toggle_cdf77db0",
+  base$29 = "Toggle_cdf77db0",
   base__fullSizeContent = "Toggle_base__fullSizeContent_1b52d9ec",
   base__activated = "Toggle_base__activated_d584e080",
   base__disabled$4 = "Toggle_base__disabled_b564a69b",
@@ -33888,7 +33457,7 @@ var toggleThemes = { primary: "primary", custom: "custom" },
   overlay$2 = "Toggle_overlay_e2999686",
   content$8 = "Toggle_content_17eff4d2",
   toggle_module_default = {
-    base: base$27,
+    base: base$29,
     "base__size-small": "Toggle_base__size-small_b76142a1",
     "base__size-medium": "Toggle_base__size-medium_a0d408f5",
     base__fullSizeContent: base__fullSizeContent,
@@ -33901,7 +33470,7 @@ var toggleThemes = { primary: "primary", custom: "custom" },
     overlay: overlay$2,
     content: content$8,
   },
-  Base$11 = defineStyledComponent("Toggle", toggle_module_default.base, {
+  Base$18 = defineStyledComponent("Toggle", toggle_module_default.base, {
     variants: {
       theme: {
         [toggleThemes.primary]: toggle_module_default["base__theme-primary"],
@@ -33919,14 +33488,14 @@ var toggleThemes = { primary: "primary", custom: "custom" },
   }),
   ToggleBase = (0, import_react.forwardRef)(function (e, t) {
     const n = useSounds();
-    return (0, import_jsx_runtime.jsx)(Base$11, {
+    return (0, import_jsx_runtime.jsx)(Base$18, {
       ...e,
       ref: t,
       onMouseEnter: function (t) {
-        (n.play("mouse-enter", { target: Base$11.displayName, original: t }), e.onMouseEnter?.(t));
+        (n.play("mouse-enter", { target: Base$18.displayName, original: t }), e.onMouseEnter?.(t));
       },
       onClick: function (t) {
-        (n.play("click", { target: Base$11.displayName, original: t }), e.onClick?.(t));
+        (n.play("click", { target: Base$18.displayName, original: t }), e.onClick?.(t));
       },
       children: e.children,
     });
@@ -34261,16 +33830,16 @@ function useKeyButtonContext() {
 }
 var background$4 = "KeyButton_background_8a852f95",
   border$3 = "KeyButton_border_b1c50f01",
-  base$26 = "KeyButton_8fd343f8",
+  base$28 = "KeyButton_8fd343f8",
   content$7 = "KeyButton_content_3ab1d990",
   key_button_module_default = {
     background: background$4,
     border: border$3,
-    base: base$26,
+    base: base$28,
     content: content$7,
   },
   StyledBase = defineStyledComponent("KeyButton", key_button_module_default.base);
-function Base$10({ children: e, onClick: t, onMouseEnter: n, ...r }) {
+function Base$17({ children: e, onClick: t, onMouseEnter: n, ...r }) {
   const a = useSounds(),
     { soundTarget: o, silent: i } = useKeyButtonContext();
   return (0, import_jsx_runtime.jsx)(StyledBase, {
@@ -34330,7 +33899,7 @@ var KeyButton = function ({
     silent: n,
     idle: r,
     soundTarget: a,
-    children: (0, import_jsx_runtime.jsxs)(Base$10, {
+    children: (0, import_jsx_runtime.jsxs)(Base$17, {
       ...u,
       className: clsx(key_button_module_default.base, i, o?.base),
       children: [
@@ -34349,10 +33918,10 @@ var KeyButton = function ({
   });
 };
 KeyButton.Code = Code;
-var base$25 = "Background_39e8f2ed",
+var base$27 = "Background_39e8f2ed",
   pattern$3 = "Background_pattern_8cad1521",
   noise = "Background_noise_e3254bb3",
-  background_module_default = { base: base$25, pattern: pattern$3, noise: noise };
+  background_module_default = { base: base$27, pattern: pattern$3, noise: noise };
 function Background({ className: e, classNames: t }) {
   return (0, import_jsx_runtime.jsxs)("div", {
     className: clsx(e, background_module_default.base),
@@ -34557,13 +34126,202 @@ var splitChinese = (() => {
         .replace(/ /g, " ")
         .match(e);
   })(),
+  DEFAULT_NAME_KEYFRAME = "Point",
+  THRESHOLD = 0.02;
+function createLoop(e) {
+  let t = 0;
+  return [
+    function n() {
+      (e(), (t = requestAnimationFrame(n)));
+    },
+    function () {
+      cancelAnimationFrame(t);
+    },
+  ];
+}
+var VideoForwarded = (0, import_react.forwardRef)(function (
+    {
+      src: e,
+      className: t,
+      autoplay: n = !1,
+      style: r,
+      loop: a = !1,
+      isPrebufferKeyframes: o,
+      keyframesNameConfig: i,
+      onClick: s,
+      ...u
+    },
+    l,
+  ) {
+    const c = l,
+      d = (0, import_react.useRef)(null);
+    return (
+      useMount(() => {
+        let e = !1;
+        return events$2.onDisplayChanged((t, n) => {
+          const r = d.current;
+          r &&
+            (n === displayStatus$1.hidden
+              ? ((e = r.paused), r.pause())
+              : e || n !== displayStatus$1.shown || r.play());
+        });
+      }),
+      useMount(() => {
+        let e = !1;
+        return onMinimize$1((t) => {
+          const n = d.current;
+          n && (t ? ((e = n.paused), n.pause()) : e || n.play());
+        });
+      }),
+      (0, import_react.useEffect)(
+        () =>
+          createLayoutReadyInEffect(() => {
+            const e = d.current;
+            if (!c || !e || !o) return void (e?.cohFastSeek && (e.cohFastSeek = !1));
+            const t = e.cohGetKeyframeTimestamps ? e.cohGetKeyframeTimestamps() : [];
+            t.length > 0
+              ? ((e.cohFastSeek = !0),
+                t.map((t) => {
+                  e?.cohPrebufferKeyframe && e.cohPrebufferKeyframe(t);
+                }))
+              : console.warn("Can't prebuffered keyframes, keyframes was not found");
+          }),
+        [o, c],
+      ),
+      (0, import_react.useEffect)(() => {
+        if (c && d.current) {
+          const e = { changeTimeHandlers: [], changeKeyframeHandlers: [], changeTimeLoop: noop$2 },
+            t = () => {
+              let t = 0;
+              const [n, r] = createLoop(() => {
+                if (d.current) {
+                  const { currentTime: n, duration: r } = d.current;
+                  if (
+                    (t !== n &&
+                      (e.changeTimeHandlers.forEach((e) => e({ currentTime: n, duration: r })),
+                      (t = n)),
+                    d.current.paused || !c || !o)
+                  )
+                    return;
+                  const a = d.current.cohGetKeyframeTimestamps
+                    ? d.current.cohGetKeyframeTimestamps()
+                    : [];
+                  a.forEach((t, r) => {
+                    void 0 !== a[r] &&
+                      n > a[r] - THRESHOLD &&
+                      n < a[r] &&
+                      e.changeKeyframeHandlers.forEach((e) => {
+                        const n = Object.keys(i ?? {})[r];
+                        return e({ time: t, name: `${i ? n : `${DEFAULT_NAME_KEYFRAME}_${r}`}` });
+                      });
+                  });
+                }
+              });
+              return (n(), r);
+            };
+          e.changeTimeLoop = t();
+          const n = (t) => (
+              e.changeTimeHandlers.push(t),
+              () => {
+                const { changeTimeHandlers: n } = e,
+                  r = n.indexOf(t);
+                r < 0
+                  ? console.warn(
+                      "Can't unsubscribe changeTimeHandler, this reference was not found",
+                    )
+                  : n.splice(r, 1);
+              }
+            ),
+            r = (t) => (
+              e.changeKeyframeHandlers.push(t),
+              () => {
+                const { changeKeyframeHandlers: n } = e,
+                  r = n.indexOf(t);
+                r < 0
+                  ? console.warn(
+                      "Can't unsubscribe changeKeyframeHandlers, this reference was not found",
+                    )
+                  : n.splice(r, 1);
+              }
+            ),
+            a = () => d.current?.currentTime,
+            s = () => d.current?.duration,
+            u = (e) => {
+              d.current && (d.current.currentTime = clamp$1(0, d.current.duration, e));
+            },
+            l = () => d.current?.play(),
+            f = () => d.current?.pause(),
+            p = () => {
+              (f(), u(0));
+            },
+            m = () =>
+              d.current?.cohGetKeyframeTimestamps ? d.current.cohGetKeyframeTimestamps() : [],
+            _ = (e) => {
+              (u(e), l());
+            },
+            h = (e) => {
+              (u(e), f());
+            },
+            g = () => {
+              ((e.changeTimeHandlers = []), (e.changeKeyframeHandlers = []), e.changeTimeLoop?.());
+            },
+            b = (e, t) => (
+              d.current?.addEventListener(e, t),
+              () => d.current?.removeEventListener(e, t)
+            ),
+            v = (e, t) => (
+              d.current?.removeEventListener(e, t),
+              () => d.current?.removeEventListener(e, t)
+            );
+          return (
+            (c.current = {
+              on: b,
+              off: v,
+              play: l,
+              pause: f,
+              stop: p,
+              cleanup: g,
+              getCurrentTime: a,
+              getDuration: s,
+              getCachedKeyframes: m,
+              goToAndPlay: _,
+              goToAndStop: h,
+              setCurrentTime: u,
+              domRef: d.current,
+              onChangeTime: n,
+              onKeyframes: r,
+            }),
+            () => {
+              (g(), (c.current = null));
+            }
+          );
+        }
+      }, [i, c, o]),
+      (0, import_react.useEffect)(() => {
+        d.current && n && d.current.play();
+      }, [n, a]),
+      useUnmount(() => {
+        d.current?.pause();
+      }),
+      (0, import_jsx_runtime.jsx)("video", {
+        src: e,
+        className: t,
+        style: r,
+        loop: a,
+        ref: d,
+        onClick: s,
+        ...u,
+      })
+    );
+  }),
+  Video = (0, import_react.memo)(VideoForwarded),
   formats = {
     superCompact: "superCompact",
     compact: "compact",
     default: "default",
     detailed: "detailed",
   },
-  sizes$6 = {
+  sizes$10 = {
     x16x16: "x16x16",
     x24x24: "x24x24",
     x32x32: "x32x32",
@@ -34711,7 +34469,7 @@ function compactFormatter(e, t) {
   return ((a.items = [LOCALE_FORMATTERS[MINUTES_FORMAT]?.(DEFAULT_MIN_VALUE)]), a);
 }
 var formatValue = (e, t) => FORMATTER[t]?.(format$2(e, FORMAT_PARTS[t]), t),
-  base$24 = "Timer_dac0a0aa",
+  base$26 = "Timer_dac0a0aa",
   icon$5 = "Timer_icon_a61415df",
   icon__x16x16 = "Timer_icon__x16x16_5bab55e2",
   icon__accent = "Timer_icon__accent_2cf70c3b",
@@ -34729,7 +34487,7 @@ var formatValue = (e, t) => FORMATTER[t]?.(format$2(e, FORMAT_PARTS[t]), t),
   label__accent = "Timer_label__accent_ac7d4f7b",
   label__cooldown = "Timer_label__cooldown_c2349ab9",
   timer_module_default = {
-    base: base$24,
+    base: base$26,
     icon: icon$5,
     icon__x16x16: icon__x16x16,
     icon__accent: icon__accent,
@@ -34751,7 +34509,7 @@ function Timer({
   start: e,
   limit: t = 0,
   tick: n = 1,
-  size: r = sizes$6.x24x24,
+  size: r = sizes$10.x24x24,
   type: a = types$1.accent,
   format: o = formats.default,
   autostart: i = !0,
@@ -34797,7 +34555,7 @@ function Timer({
     ],
   });
 }
-((Timer.format = formats), (Timer.size = sizes$6), (Timer.type = types$1));
+((Timer.format = formats), (Timer.size = sizes$10), (Timer.type = types$1));
 var MOUSE_BUTTON_CODES = (function (e) {
   return (
     (e[(e.LEFT = 0)] = "LEFT"),
@@ -34833,7 +34591,7 @@ var ButtonType = (function (e) {
       e
     );
   })({}),
-  base$23 = "Cbutton_24fc9a0c",
+  base$25 = "Cbutton_24fc9a0c",
   base__main = "Cbutton_base__main_2f199578",
   base__primary = "Cbutton_base__primary_9da8a692",
   base__primaryGreen = "Cbutton_base__primaryGreen_74301f4e",
@@ -34855,7 +34613,7 @@ var ButtonType = (function (e) {
   base__highlightActive = "Cbutton_base__highlightActive_180a9717",
   content$6 = "Cbutton_content_faaa9067",
   CButton_module_default = {
-    base: base$23,
+    base: base$25,
     base__main: base__main,
     base__primary: base__primary,
     base__primaryGreen: base__primaryGreen,
@@ -34980,12 +34738,12 @@ var ButtonType = (function (e) {
     );
   },
   CButton = Button,
-  base$22 = "Error_741eaf3c",
+  base$24 = "Error_741eaf3c",
   alertIcon = "Error_alertIcon_e771a05c",
   errorCaption = "Error_errorCaption_89c19a4f",
   button$1 = "Error_button_2d8a41b6",
   Error_module_default = {
-    base: base$22,
+    base: base$24,
     alertIcon: alertIcon,
     errorCaption: errorCaption,
     button: button$1,
@@ -35007,13 +34765,13 @@ var ButtonType = (function (e) {
         }),
       ],
     }),
-  base$21 = "Spinner_9ec19f90",
+  base$23 = "Spinner_9ec19f90",
   caption$1 = "Spinner_caption_a44b585",
   gear = "Spinner_gear_13ca7433",
   spin = "Spinner_spin_88c33ad6",
   logo = "Spinner_logo_22e624b",
   Spinner_module_default = {
-    base: base$21,
+    base: base$23,
     caption: caption$1,
     gear: gear,
     spin: spin,
@@ -35036,9 +34794,9 @@ var ButtonType = (function (e) {
         }),
       ],
     }),
-  base$20 = "Waiting_f97f6e4b",
+  base$22 = "Waiting_f97f6e4b",
   blackOverlay = "Waiting_blackOverlay_e659a6de",
-  Waiting_module_default = { base: base$20, blackOverlay: blackOverlay },
+  Waiting_module_default = { base: base$22, blackOverlay: blackOverlay },
   Waiting = ({
     errorBtnClickHandler: e,
     message: t = "",
@@ -35083,7 +34841,7 @@ var background$3 = "Switcher_background_a88161d0",
   selectedOverlay$1 = "Switcher_selectedOverlay_959b7a8f",
   selectedItemBackground = "Switcher_selectedItemBackground_f3f7ed7e",
   selectedItemBorder = "Switcher_selectedItemBorder_7a1a3dd5",
-  base$19 = "Switcher_825add0a",
+  base$21 = "Switcher_825add0a",
   base__disabled$2 = "Switcher_base__disabled_863a5f47",
   content$5 = "Switcher_content_c83e02e5",
   content__fontAligned = "Switcher_content__fontAligned_9342bb29",
@@ -35099,7 +34857,7 @@ var background$3 = "Switcher_background_a88161d0",
     selectedOverlay: selectedOverlay$1,
     selectedItemBackground: selectedItemBackground,
     selectedItemBorder: selectedItemBorder,
-    base: base$19,
+    base: base$21,
     base__disabled: base__disabled$2,
     "base__size-small": "Switcher_base__size-small_df4dee40",
     "base__size-medium": "Switcher_base__size-medium_d287fe48",
@@ -35142,21 +34900,21 @@ function SelectedItem({ children: e, classNames: t }) {
     }),
   });
 }
-var sizes$5 = { small: "small", medium: "medium" },
+var sizes$9 = { small: "small", medium: "medium" },
   types = { vertical: "vertical", horizontal: "horizontal" },
-  Base$9 = defineStyledComponent("Button", switcher_module_default.base, {
+  Base$16 = defineStyledComponent("Button", switcher_module_default.base, {
     variants: {
       type: {
         [types.horizontal]: switcher_module_default["base__type-horizontal"],
         [types.vertical]: switcher_module_default["base__type-vertical"],
       },
       size: {
-        [sizes$5.small]: switcher_module_default["base__size-small"],
-        [sizes$5.medium]: switcher_module_default["base__size-medium"],
+        [sizes$9.small]: switcher_module_default["base__size-small"],
+        [sizes$9.medium]: switcher_module_default["base__size-medium"],
       },
       state: { disabled: switcher_module_default.base__disabled },
     },
-    defaultVariants: { type: types.vertical, size: sizes$5.small },
+    defaultVariants: { type: types.vertical, size: sizes$9.small },
   }),
   Item = defineStyledComponent("ButtonItem", switcher_module_default.item),
   Switcher$1 = (0, import_react.forwardRef)(function (
@@ -35166,7 +34924,7 @@ var sizes$5 = { small: "small", medium: "medium" },
       onMouseEnter: n,
       onSwitch: r,
       onClick: a,
-      size: o = sizes$5.small,
+      size: o = sizes$9.small,
       disabled: i = !1,
       autoAlignContent: s = !1,
       classNames: u,
@@ -35181,7 +34939,7 @@ var sizes$5 = { small: "small", medium: "medium" },
     const g = (0, import_react.useMemo)(() => ({ checked: t }), [t]);
     return (0, import_jsx_runtime.jsx)(SwitcherContext.Provider, {
       value: g,
-      children: (0, import_jsx_runtime.jsxs)(Base$9, {
+      children: (0, import_jsx_runtime.jsxs)(Base$16, {
         ...d,
         ref: f,
         type: e,
@@ -35189,10 +34947,10 @@ var sizes$5 = { small: "small", medium: "medium" },
         state: i ? "disabled" : void 0,
         className: clsx(l, u?.base),
         onMouseEnter: function (e) {
-          (h.play("mouse-enter", { target: Base$9.displayName, original: e }), n?.(e));
+          (h.play("mouse-enter", { target: Base$16.displayName, original: e }), n?.(e));
         },
         onClick: function (e) {
-          (h.play("click", { target: Base$9.displayName, original: e }), r(!t), a?.(e));
+          (h.play("click", { target: Base$16.displayName, original: e }), r(!t), a?.(e));
         },
         children: [
           (0, import_jsx_runtime.jsx)("div", {
@@ -35219,8 +34977,8 @@ var sizes$5 = { small: "small", medium: "medium" },
 ((Switcher$1.Item = Item),
   (Switcher$1.SelectedItem = SelectedItem),
   (Switcher$1.types = types),
-  (Switcher$1.sizes = sizes$5));
-var sizes$4 = {
+  (Switcher$1.sizes = sizes$9));
+var sizes$8 = {
     s24x24: "s24x24",
     s48x48: "s48x48",
     s64x64: "s64x64",
@@ -35249,24 +35007,24 @@ var sizes$4 = {
     overlayTypes.builtInEquipment,
   ],
   imageSizes = {
-    [sizes$4.s24x24]: { width: 24, height: 24 },
-    [sizes$4.s48x48]: { width: 48, height: 48 },
-    [sizes$4.s64x64]: { width: 64, height: 64 },
-    [sizes$4.s80x80]: { width: 80, height: 80 },
-    [sizes$4.s180x135]: { width: 180, height: 135 },
-    [sizes$4.s232x174]: { width: 232, height: 174 },
-    [sizes$4.s296x222]: { width: 296, height: 222 },
-    [sizes$4.s360x270]: { width: 360, height: 270 },
-    [sizes$4.s400x300]: { width: 400, height: 300 },
-    [sizes$4.s600x450]: { width: 600, height: 450 },
+    [sizes$8.s24x24]: { width: 24, height: 24 },
+    [sizes$8.s48x48]: { width: 48, height: 48 },
+    [sizes$8.s64x64]: { width: 64, height: 64 },
+    [sizes$8.s80x80]: { width: 80, height: 80 },
+    [sizes$8.s180x135]: { width: 180, height: 135 },
+    [sizes$8.s232x174]: { width: 232, height: 174 },
+    [sizes$8.s296x222]: { width: 296, height: 222 },
+    [sizes$8.s360x270]: { width: 360, height: 270 },
+    [sizes$8.s400x300]: { width: 400, height: 300 },
+    [sizes$8.s600x450]: { width: 600, height: 450 },
   },
-  Base$8 = defineStyledComponent("LoadoutItem", { element: Image$1 });
+  Base$15 = defineStyledComponent("LoadoutItem", { element: Image$1 });
 function getItemSizeFolderName(e) {
   switch (e) {
-    case sizes$4.s80x80:
-    case sizes$4.s64x64:
+    case sizes$8.s80x80:
+    case sizes$8.s64x64:
       return "big";
-    case sizes$4.s48x48:
+    case sizes$8.s48x48:
       return "small";
     default:
       return e;
@@ -35290,7 +35048,7 @@ var LoadoutItem = (0, import_react.forwardRef)(function (
 ) {
   const f =
       t ||
-      (r === sizes$4.s24x24
+      (r === sizes$8.s24x24
         ? `vehParams.tooltips.bonuses.${e}`
         : `quests.bonuses.${getItemSizeFolderName(r)}.${e}`),
     p = (() => {
@@ -35298,7 +35056,7 @@ var LoadoutItem = (0, import_react.forwardRef)(function (
       if (a === overlayTypes.custom)
         return void console.error("custom overlay passed without image source path");
       if (a === overlayTypes.none) return;
-      const e = r === sizes$4.s64x64 ? sizes$4.s80x80 : r;
+      const e = r === sizes$8.s64x64 ? sizes$8.s80x80 : r;
       return overlayTypesWithoutLevel.includes(a)
         ? `components.loadout_item.overlays.${e}.${a}`
         : o
@@ -35306,7 +35064,7 @@ var LoadoutItem = (0, import_react.forwardRef)(function (
           : void console.error("Item level is not provided, but required!");
     })(),
     m = imageSizes[r];
-  return (0, import_jsx_runtime.jsx)(Base$8, {
+  return (0, import_jsx_runtime.jsx)(Base$15, {
     ...c,
     ref: d,
     path: f,
@@ -35319,7 +35077,7 @@ var LoadoutItem = (0, import_react.forwardRef)(function (
       (0, import_jsx_runtime.jsx)(Image$1, { path: p, width: "100%", height: "100%" }),
   });
 });
-((LoadoutItem.sizes = sizes$4), (LoadoutItem.overlayTypes = overlayTypes));
+((LoadoutItem.sizes = sizes$8), (LoadoutItem.overlayTypes = overlayTypes));
 var selectedOverlay = "Slot_selectedOverlay_5b63484a",
   disabledOverlay = "Slot_disabledOverlay_4d0ab64b",
   content$4 = "Slot_content_dbf98123",
@@ -35344,15 +35102,15 @@ var selectedOverlay = "Slot_selectedOverlay_5b63484a",
     content__disabled: content__disabled,
     emptyContent: emptyContent,
   },
-  sizes$3 = { small: "small", medium: "medium", large: "large", extraLarge: "extraLarge" },
+  sizes$7 = { small: "small", medium: "medium", large: "large", extraLarge: "extraLarge" },
   Content$1 = defineStyledComponent("SlotContent"),
-  Base$7 = defineStyledComponent("Slot", slot_module_default.slot, {
+  Base$14 = defineStyledComponent("Slot", slot_module_default.slot, {
     variants: {
       size: {
-        [sizes$3.small]: slot_module_default.slot__small,
-        [sizes$3.medium]: slot_module_default.slot__medium,
-        [sizes$3.large]: slot_module_default.slot__large,
-        [sizes$3.extraLarge]: slot_module_default.slot__extraLarge,
+        [sizes$7.small]: slot_module_default.slot__small,
+        [sizes$7.medium]: slot_module_default.slot__medium,
+        [sizes$7.large]: slot_module_default.slot__large,
+        [sizes$7.extraLarge]: slot_module_default.slot__extraLarge,
       },
       hovered: { true: slot_module_default.slot__hovered },
       selected: { true: slot_module_default.slot__selected },
@@ -35374,7 +35132,7 @@ var selectedOverlay = "Slot_selectedOverlay_5b63484a",
     },
     l,
   ) {
-    return (0, import_jsx_runtime.jsxs)(Base$7, {
+    return (0, import_jsx_runtime.jsxs)(Base$14, {
       ...u,
       ref: l,
       size: t,
@@ -35403,12 +35161,12 @@ var selectedOverlay = "Slot_selectedOverlay_5b63484a",
       ],
     });
   });
-((Slot.sizes = sizes$3), (Slot.Empty = EmptySlot));
-var base$18 = "SceneWrapper_52fcfc1e",
+((Slot.sizes = sizes$7), (Slot.Empty = EmptySlot));
+var base$20 = "SceneWrapper_52fcfc1e",
   base__down = "SceneWrapper_base__down_4ece5089",
   base__moveSpaceDisabled = "SceneWrapper_base__moveSpaceDisabled_1b1cd939",
   scene_wrapper_module_default = {
-    base: base$18,
+    base: base$20,
     base__down: base__down,
     base__moveSpaceDisabled: base__moveSpaceDisabled,
   },
@@ -35498,9 +35256,9 @@ function isSerializableReactNode(e) {
     (!(0, import_react.isValidElement)(e) && !!Array.isArray(e) && e.every(isSerializableReactNode))
   );
 }
-var base$17 = "MultilineOverflow_ec9f8e47",
+var base$19 = "MultilineOverflow_ec9f8e47",
   content$3 = "MultilineOverflow_content_b539970d",
-  multiline_overflow_module_default = { base: base$17, content: content$3 };
+  multiline_overflow_module_default = { base: base$19, content: content$3 };
 function isSerializableParams(e) {
   return !e || Object.values(e).every(isSerializableReactNode);
 }
@@ -35774,7 +35532,7 @@ function ProgressBarProvider(e) {
   return (0, import_jsx_runtime.jsx)(Context$1.Provider, { value: d, children: e.children });
 }
 var background$2 = "ProgressBar_background_b40cdfdf",
-  base$16 = "ProgressBar_27c2305c",
+  base$18 = "ProgressBar_27c2305c",
   base__small$5 = "ProgressBar_base__small_61ccd4be",
   base__medium$3 = "ProgressBar_base__medium_478d985a",
   base__full$1 = "ProgressBar_base__full_be7f12da",
@@ -35783,7 +35541,7 @@ var background$2 = "ProgressBar_background_b40cdfdf",
   backgroundPattern$2 = "ProgressBar_backgroundPattern_7e932276",
   progress_bar_module_default = {
     background: background$2,
-    base: base$16,
+    base: base$18,
     base__small: base__small$5,
     base__medium: base__medium$3,
     base__full: base__full$1,
@@ -35791,7 +35549,7 @@ var background$2 = "ProgressBar_background_b40cdfdf",
     base_small: base_small,
     backgroundPattern: backgroundPattern$2,
   },
-  Base$6 = defineStyledComponent("ProgressBar", progress_bar_module_default.base, {
+  Base$13 = defineStyledComponent("ProgressBar", progress_bar_module_default.base, {
     variants: {
       size: {
         small: progress_bar_module_default.base__small,
@@ -35811,7 +35569,7 @@ function ProgressBar({
   return (0, import_jsx_runtime.jsx)(ProgressBarProvider, {
     size: e,
     ...o,
-    children: (0, import_jsx_runtime.jsxs)(Base$6, {
+    children: (0, import_jsx_runtime.jsxs)(Base$13, {
       size: e,
       className: t,
       children: [
@@ -36059,7 +35817,7 @@ var multiValueTypes = [
   base__s600x450 = "Reward_base__s600x450_e27f3852",
   base__s300x300 = "Reward_base__s300x300_b3d79936",
   base__s450x450 = "Reward_base__s450x450_8b0abaf7",
-  base$15 = "Reward_d65e1e12",
+  base$17 = "Reward_d65e1e12",
   base__dynamicBox = "Reward_base__dynamicBox_45d7782b",
   tooltipWrapper = "Reward_tooltipWrapper_75b925a5",
   icon$4 = "Reward_icon_e152f13b",
@@ -36102,7 +35860,7 @@ var multiValueTypes = [
     base__s600x450: base__s600x450,
     base__s300x300: base__s300x300,
     base__s450x450: base__s450x450,
-    base: base$15,
+    base: base$17,
     base__dynamicBox: base__dynamicBox,
     tooltipWrapper: tooltipWrapper,
     icon: icon$4,
@@ -36238,13 +35996,13 @@ var multiValueTypes = [
       ],
     });
   },
-  base$14 = "RewardsList_b956755b",
+  base$16 = "RewardsList_b956755b",
   base__vertical = "RewardsList_base__vertical_59db3c9f",
   reward = "RewardsList_reward_fc200613",
   reward__vertical = "RewardsList_reward__vertical_5f09c6e0",
   boxRewardClassName = "RewardsList_boxRewardClassName_882c908d",
   rewards_list_module_default = {
-    base: base$14,
+    base: base$16,
     base__vertical: base__vertical,
     reward: reward,
     reward__vertical: reward__vertical,
@@ -36352,16 +36110,18 @@ function useLoadPlugin(e, t = []) {
     a = (0, import_react.useRef)(t);
   return (
     (0, import_react.useEffect)(() => {
-      const t = (async function () {
+      if (!e) return;
+      const t = e;
+      const n = (async function () {
         try {
-          const t = await loadPlugin(e);
-          return (r({ status: "loaded", result: await t.init(...a.current), instance: t }), t);
-        } catch (t) {
-          r({ status: "failure", error: t });
+          const e = await loadPlugin(t);
+          return (r({ status: "loaded", result: await e.init(...a.current), instance: e }), e);
+        } catch (e) {
+          r({ status: "failure", error: e });
         }
       })();
       return () => {
-        t.then((e) => e?.destroy());
+        n.then((e) => e?.destroy());
       };
     }, [e]),
     n
@@ -36387,17 +36147,17 @@ function Content({ children: e, keyOverride: t }) {
   );
 }
 var themes = { primary: "primary", custom: "custom" },
-  sizes$2 = { large: "large", medium: "medium", small: "small" },
+  sizes$6 = { large: "large", medium: "medium", small: "small" },
   background$1 = "HorizontalTabs_background_5e3af03e",
   mainBorderImage = "HorizontalTabs_mainBorderImage_ee367896",
-  base$13 = "HorizontalTabs_69e3c6f3",
+  base$15 = "HorizontalTabs_69e3c6f3",
   outerBorder = "HorizontalTabs_outerBorder_3255d0c5",
   mainBorder = "HorizontalTabs_mainBorder_61e34c2c",
   content$2 = "HorizontalTabs_content_1ae3c4bd",
   horizontal_tabs_module_default = {
     background: background$1,
     mainBorderImage: mainBorderImage,
-    base: base$13,
+    base: base$15,
     "base__size-small": "HorizontalTabs_base__size-small_75fae891",
     "base__size-medium": "HorizontalTabs_base__size-medium_afc0934f",
     "base__size-large": "HorizontalTabs_base__size-large_12c75e24",
@@ -36406,12 +36166,12 @@ var themes = { primary: "primary", custom: "custom" },
     mainBorder: mainBorder,
     content: content$2,
   },
-  Base$5 = defineStyledComponent("Tabs", horizontal_tabs_module_default.base, {
+  Base$12 = defineStyledComponent("Tabs", horizontal_tabs_module_default.base, {
     variants: {
       size: {
-        [sizes$2.large]: horizontal_tabs_module_default["base__size-large"],
-        [sizes$2.medium]: horizontal_tabs_module_default["base__size-medium"],
-        [sizes$2.small]: horizontal_tabs_module_default["base__size-small"],
+        [sizes$6.large]: horizontal_tabs_module_default["base__size-large"],
+        [sizes$6.medium]: horizontal_tabs_module_default["base__size-medium"],
+        [sizes$6.small]: horizontal_tabs_module_default["base__size-small"],
       },
       theme: {
         [themes.primary]: horizontal_tabs_module_default["base__theme-primary"],
@@ -36421,7 +36181,7 @@ var themes = { primary: "primary", custom: "custom" },
   }),
   Switcher = (0, import_react.forwardRef)(function ({ children: e, classNames: t, ...n }, r) {
     const a = useTabsContext();
-    return (0, import_jsx_runtime.jsx)(Base$5, {
+    return (0, import_jsx_runtime.jsx)(Base$12, {
       ...n,
       ref: r,
       className: clsx(n.className, t?.base),
@@ -36448,7 +36208,7 @@ var themes = { primary: "primary", custom: "custom" },
   background = "Tab_background_763456",
   backgroundPattern$1 = "Tab_backgroundPattern_32ac7949",
   innerBorderImage = "Tab_innerBorderImage_77cde9e",
-  base$12 = "Tab_806d6908",
+  base$14 = "Tab_806d6908",
   base__active = "Tab_base__active_a872a63f",
   content$1 = "Tab_content_4eefcae7",
   base__inactive = "Tab_base__inactive_0",
@@ -36457,7 +36217,7 @@ var themes = { primary: "primary", custom: "custom" },
     background: background,
     backgroundPattern: backgroundPattern$1,
     innerBorderImage: innerBorderImage,
-    base: base$12,
+    base: base$14,
     "base__theme-primary": "Tab_base__theme-primary_209414fd",
     base__active: base__active,
     content: content$1,
@@ -36466,12 +36226,12 @@ var themes = { primary: "primary", custom: "custom" },
     "base__size-large": "Tab_base__size-large_0",
     base__inactive: base__inactive,
   },
-  Base$4 = defineStyledComponent("Tab", tab_module_default.base, {
+  Base$11 = defineStyledComponent("Tab", tab_module_default.base, {
     variants: {
       size: {
-        [sizes$2.large]: tab_module_default["base__size-large"],
-        [sizes$2.medium]: tab_module_default["base__size-medium"],
-        [sizes$2.small]: tab_module_default["base__size-small"],
+        [sizes$6.large]: tab_module_default["base__size-large"],
+        [sizes$6.medium]: tab_module_default["base__size-medium"],
+        [sizes$6.small]: tab_module_default["base__size-small"],
       },
       theme: {
         [themes.primary]: tab_module_default["base__theme-primary"],
@@ -36482,24 +36242,24 @@ var themes = { primary: "primary", custom: "custom" },
         inactive: tab_module_default.base__inactive,
       },
     },
-    defaultVariants: { size: sizes$2.medium, theme: themes.primary },
+    defaultVariants: { size: sizes$6.medium, theme: themes.primary },
   }),
   HeadlessTab = (0, import_react.forwardRef)(function (
     { theme: e, size: t, tabId: n, active: r, children: a, onClick: o, onMouseEnter: i, ...s },
     u,
   ) {
     const l = useSounds();
-    return (0, import_jsx_runtime.jsx)(Base$4, {
+    return (0, import_jsx_runtime.jsx)(Base$11, {
       ...s,
       ref: u,
       theme: e,
       size: t,
       state: r === n ? "active" : "inactive",
       onMouseEnter: function (e) {
-        (r !== n && l.play("mouse-enter", { target: Base$4.displayName, original: e }), i?.(e));
+        (r !== n && l.play("mouse-enter", { target: Base$11.displayName, original: e }), i?.(e));
       },
       onClick: function (e) {
-        (r !== n && l.play("click", { target: Base$4.displayName, original: e }), o?.(e));
+        (r !== n && l.play("click", { target: Base$11.displayName, original: e }), o?.(e));
       },
       children: a,
     });
@@ -36550,7 +36310,7 @@ function Tabs({ active: e, theme: t, size: n, children: r, onActiveChange: a }) 
   );
 }
 ((Tabs.Switcher = Switcher), (Tabs.Tab = Tab), (Tabs.Content = Content));
-var sizes$1 = { small: "small", medium: "medium", full: "full" },
+var sizes$5 = { small: "small", medium: "medium", full: "full" },
   positions = { above: "above", below: "below" },
   BASE_COMPONENT_NAME = "Slider";
 function usePlayValueChangeSound() {
@@ -36646,17 +36406,17 @@ function SliderProvider({
     );
   return (0, import_jsx_runtime.jsx)(Context.Provider, { value: y, children: s });
 }
-var base$11 = "Controls_9c96becc",
+var base$13 = "Controls_9c96becc",
   button = "Controls_button_1d659791",
   button__plus = "Controls_button__plus_f8015a9d",
   button__disabled = "Controls_button__disabled_ebe779af",
   controls_module_default = {
-    base: base$11,
+    base: base$13,
     button: button,
     button__plus: button__plus,
     button__disabled: button__disabled,
   },
-  Base$3 = defineStyledComponent("Controls", controls_module_default.base);
+  Base$10 = defineStyledComponent("Controls", controls_module_default.base);
 function Controls({ classNames: e, ref: t, ...n }) {
   const {
     step: r,
@@ -36668,7 +36428,7 @@ function Controls({ classNames: e, ref: t, ...n }) {
   } = useSlider();
   return o
     ? null
-    : (0, import_jsx_runtime.jsxs)(Base$3, {
+    : (0, import_jsx_runtime.jsxs)(Base$10, {
         ...n,
         ref: t,
         onWheel: i,
@@ -36701,8 +36461,8 @@ function Controls({ classNames: e, ref: t, ...n }) {
         ],
       });
 }
-var base$10 = "CurrentValue_4191c6b5",
-  current_value_module_default = { base: base$10 };
+var base$12 = "CurrentValue_4191c6b5",
+  current_value_module_default = { base: base$12 };
 function CurrentValue({ className: e, children: t }) {
   const { value: n } = useSlider();
   return (0, import_jsx_runtime.jsx)("div", {
@@ -36733,14 +36493,14 @@ function useHideOverlappingIndicators({ dynamicRef: e, staticRefs: t }) {
       });
     }, [n.previousValue, n.value, e, a, t]));
 }
-var base$9 = "Indicators_f2e99d31",
+var base$11 = "Indicators_f2e99d31",
   step = "Indicators_step_e782b546",
   step__above = "Indicators_step__above_37358f97",
   step__below = "Indicators_step__below_bc3fb991",
   indicator = "Indicators_indicator_8484a8c7",
   label = "Indicators_label_f8c7ff1e",
   indicators_module_default = {
-    base: base$9,
+    base: base$11,
     step: step,
     step__above: step__above,
     step__below: step__below,
@@ -36800,8 +36560,8 @@ function Indicators({ position: e = "above", count: t, className: n, classNames:
   });
 }
 ((Indicators.Step = Step), (Indicators.positions = positions));
-var base$8 = "InteractiveArea_8d75e351",
-  interactive_area_module_default = { base: base$8 };
+var base$10 = "InteractiveArea_8d75e351",
+  interactive_area_module_default = { base: base$10 };
 function HeadlessInteractiveArea({
   className: e,
   disabled: t,
@@ -36843,14 +36603,14 @@ function InteractiveArea(e) {
     handleSliderClick: a,
   });
 }
-var base$7 = "LimitationArea_2c45b7ff",
+var base$9 = "LimitationArea_2c45b7ff",
   base__disabled$1 = "LimitationArea_base__disabled_fc664e1d",
   wrapper = "LimitationArea_wrapper_d530fcbf",
   base__small$3 = "LimitationArea_base__small_87cf0441",
   pattern$1 = "LimitationArea_pattern_33f143bb",
   base__medium$2 = "LimitationArea_base__medium_87cf0441",
   limitation_area_module_default = {
-    base: base$7,
+    base: base$9,
     base__disabled: base__disabled$1,
     wrapper: wrapper,
     base__small: base__small$3,
@@ -36897,7 +36657,7 @@ function LimitationArea(e) {
     disabled: a,
   });
 }
-var base$6 = "Thumb_94183346",
+var base$8 = "Thumb_94183346",
   base__small$2 = "Thumb_base__small_ecf8adad",
   thumb = "Thumb_caea3cfd",
   base__medium$1 = "Thumb_base__medium_830942bb",
@@ -36905,7 +36665,7 @@ var base$6 = "Thumb_94183346",
   base__full = "Thumb_base__full_830942bb",
   content = "Thumb_content_efe659d0",
   thumb_module_default = {
-    base: base$6,
+    base: base$8,
     base__small: base__small$2,
     thumb: thumb,
     base__medium: base__medium$1,
@@ -36913,7 +36673,7 @@ var base$6 = "Thumb_94183346",
     base__full: base__full,
     content: content,
   },
-  Base$2 = defineStyledComponent("Base", thumb_module_default.base, {
+  Base$9 = defineStyledComponent("Base", thumb_module_default.base, {
     variants: {
       size: {
         small: thumb_module_default.base__small,
@@ -36935,7 +36695,7 @@ function HeadlessThumb({
   ref: l,
   ...c
 }) {
-  return (0, import_jsx_runtime.jsx)(Base$2, {
+  return (0, import_jsx_runtime.jsx)(Base$9, {
     ...c,
     size: n,
     className: t?.base,
@@ -36968,7 +36728,7 @@ function Thumb(e) {
   });
 }
 var hover = "Slider_hover_9553506b",
-  base$5 = "Slider_2f883184",
+  base$7 = "Slider_2f883184",
   base__disabled = "Slider_base__disabled_913c9ec5",
   base__small$1 = "Slider_base__small_263edf46",
   base__medium = "Slider_base__medium_263edf46",
@@ -36978,7 +36738,7 @@ var hover = "Slider_hover_9553506b",
   border = "Slider_border_4aa39164",
   slider_module_default = {
     hover: hover,
-    base: base$5,
+    base: base$7,
     base__disabled: base__disabled,
     base__small: base__small$1,
     base__medium: base__medium,
@@ -36987,7 +36747,7 @@ var hover = "Slider_hover_9553506b",
     backgroundPattern: backgroundPattern,
     border: border,
   },
-  Base$1 = defineStyledComponent(BASE_COMPONENT_NAME, slider_module_default.base, {
+  Base$8 = defineStyledComponent(BASE_COMPONENT_NAME, slider_module_default.base, {
     variants: {
       size: {
         small: slider_module_default.base__small,
@@ -36998,7 +36758,7 @@ var hover = "Slider_hover_9553506b",
   }),
   Slider = function ({
     value: e,
-    size: t = sizes$1.medium,
+    size: t = sizes$5.medium,
     maxValue: n,
     limit: r = n,
     step: a = 1,
@@ -37015,7 +36775,7 @@ var hover = "Slider_hover_9553506b",
     ..._
   }) {
     const h = (0, import_react.useRef)(null);
-    return (0, import_jsx_runtime.jsxs)(Base$1, {
+    return (0, import_jsx_runtime.jsxs)(Base$8, {
       className: clsx(d && slider_module_default.base__disabled, u),
       ref: assignRefs([m ?? null, h]),
       size: t,
@@ -37060,13 +36820,303 @@ var hover = "Slider_hover_9553506b",
       ],
     });
   };
-((Slider.sizes = sizes$1),
+((Slider.sizes = sizes$5),
   (Slider.LimitationArea = LimitationArea),
   (Slider.InteractiveArea = InteractiveArea),
   (Slider.Thumb = Thumb),
   (Slider.Controls = Controls),
   (Slider.Indicators = Indicators),
   (Slider.CurrentValue = CurrentValue));
+var textOverlay = "GradientText_textOverlay_2d67fbb8",
+  base$6 = "GradientText_5009d812",
+  gradient_text_module_default = { textOverlay: textOverlay, base: base$6 },
+  GradientText = (0, import_react.forwardRef)(function ({ classNames: e, children: t }, n) {
+    return (0, import_jsx_runtime.jsxs)("div", {
+      ref: n,
+      className: clsx(gradient_text_module_default.base, e?.base),
+      children: [
+        (0, import_jsx_runtime.jsx)("div", { className: e?.text, children: t }),
+        (0, import_jsx_runtime.jsx)("div", {
+          className: clsx(gradient_text_module_default.textOverlay, e?.textOverlay),
+          children: t,
+        }),
+      ],
+    });
+  }),
+  sizes$4 = { x24x24: "24x24", x32x32: "32x32", x48x48: "48x48" },
+  paths$1 = {
+    [sizes$4.x24x24]: "library.gray_eye_24x24",
+    [sizes$4.x32x32]: "library.gray_eye_32x32",
+    [sizes$4.x48x48]: "library.gray_eye_48x48",
+  },
+  sizesConfig$5 = {
+    [sizes$4.x24x24]: { width: "24rem", height: "24rem" },
+    [sizes$4.x32x32]: { width: "32rem", height: "32rem" },
+    [sizes$4.x48x48]: { width: "48rem", height: "48rem" },
+  },
+  Base$7 = defineStyledComponent("PlayerInfoAnonymizer", { element: Image$1 }),
+  AnonymizerIcon = (0, import_react.forwardRef)(function (
+    {
+      size: e,
+      path: t = paths$1[e],
+      width: n = sizesConfig$5[e].width,
+      height: r = sizesConfig$5[e].height,
+      className: a,
+      ...o
+    },
+    i,
+  ) {
+    return (0, import_jsx_runtime.jsx)(Base$7, {
+      ...o,
+      ref: i,
+      path: t,
+      width: n,
+      height: r,
+      className: a,
+    });
+  });
+AnonymizerIcon.sizes = sizes$4;
+var base$5 = "PlayerInfo_89eea88b",
+  badge = "PlayerInfo_badge_9f134a01",
+  name = "PlayerInfo_name_120449f9",
+  name__medium = "PlayerInfo_name__medium_4066d463",
+  name__big = "PlayerInfo_name__big_4119f7ab",
+  clanTag = "PlayerInfo_clanTag_120449f9",
+  clanTag__medium = "PlayerInfo_clanTag__medium_4066d463",
+  clanTag__big = "PlayerInfo_clanTag__big_4119f7ab",
+  stripe = "PlayerInfo_stripe_65882a8f",
+  stripe__medium = "PlayerInfo_stripe__medium_cc0a2a19",
+  stripe__big = "PlayerInfo_stripe__big_ccbc3007",
+  stripeBadge = "PlayerInfo_stripeBadge_605bfd0a",
+  player_info_module_default = {
+    base: base$5,
+    badge: badge,
+    name: name,
+    name__medium: name__medium,
+    name__big: name__big,
+    clanTag: clanTag,
+    clanTag__medium: clanTag__medium,
+    clanTag__big: clanTag__big,
+    stripe: stripe,
+    stripe__medium: stripe__medium,
+    stripe__big: stripe__big,
+    stripeBadge: stripeBadge,
+  },
+  sizes$3 = { x24x24: "24x24", x48x48: "48x48", x80x80: "80x80" },
+  sizesConfig$4 = {
+    [sizes$3.x24x24]: { width: "24rem", height: "24rem" },
+    [sizes$3.x48x48]: { width: "48rem", height: "48rem" },
+    [sizes$3.x80x80]: { width: "80rem", height: "80rem" },
+  },
+  Base$6 = defineStyledComponent("PlayerInfoBadge", { element: Image$1 }),
+  Badge = (0, import_react.forwardRef)(function (
+    {
+      size: e,
+      badgeId: t,
+      path: n = `library.badges.c_${e}.badge_${t}`,
+      width: r = sizesConfig$4[e].width,
+      height: a = sizesConfig$4[e].height,
+      className: o,
+      ...i
+    },
+    s,
+  ) {
+    return (0, import_jsx_runtime.jsx)(Base$6, {
+      ...i,
+      ref: s,
+      path: n,
+      width: r,
+      height: a,
+      className: clsx(player_info_module_default.badge, o),
+    });
+  });
+function ClanTag({ size: e, className: t, children: n, ...r }) {
+  return (0, import_jsx_runtime.jsx)("div", {
+    ...r,
+    className: clsx(
+      player_info_module_default.clanTag,
+      e && player_info_module_default[`clanTag__${e}`],
+      t,
+    ),
+    children: n,
+  });
+}
+Badge.sizes = sizes$3;
+var sizes$2 = { x64x28: "64x28", x34x16: "34x16", x26x16: "26x16", x10x10: "10x10" },
+  paths = {
+    [sizes$2.x10x10]: "library.premium_igr_ico",
+    [sizes$2.x26x16]: "library.premium_igr_small",
+    [sizes$2.x34x16]: "library.premium_small",
+    [sizes$2.x64x28]: "library.premium_igr_big",
+  },
+  sizesConfig$3 = {
+    [sizes$2.x10x10]: { width: "10rem", height: "10rem" },
+    [sizes$2.x26x16]: { width: "26rem", height: "16rem" },
+    [sizes$2.x34x16]: { width: "34rem", height: "16rem" },
+    [sizes$2.x64x28]: { width: "64rem", height: "28rem" },
+  },
+  Base$5 = defineStyledComponent("PlayerInfoIgr", { element: Image$1 }),
+  IgrIcon = (0, import_react.forwardRef)(function (
+    {
+      size: e,
+      path: t = paths[e],
+      width: n = sizesConfig$3[e].width,
+      height: r = sizesConfig$3[e].height,
+      className: a,
+      ...o
+    },
+    i,
+  ) {
+    return (0, import_jsx_runtime.jsx)(Base$5, {
+      ...o,
+      ref: i,
+      path: t,
+      width: n,
+      height: r,
+      className: a,
+    });
+  });
+function Name({ size: e, className: t, children: n }) {
+  return (0, import_jsx_runtime.jsx)("div", {
+    className: clsx(
+      player_info_module_default.name,
+      e && player_info_module_default[`name__${e}`],
+      t,
+    ),
+    children: n,
+  });
+}
+IgrIcon.sizes = sizes$2;
+var sizes$1 = { default: "default", regular: "regular", medium: "medium", big: "big" },
+  stripeFolders = {
+    [sizes$1.default]: "c_64x24",
+    [sizes$1.regular]: "c_68x28",
+    [sizes$1.medium]: "c_68x28",
+    [sizes$1.big]: "c_100x40",
+  },
+  badgeFolders = {
+    [sizes$1.default]: "c_24x24",
+    [sizes$1.regular]: "c_32x32",
+    [sizes$1.medium]: "c_48x48",
+    [sizes$1.big]: "c_80x80",
+  },
+  sizesConfig$2 = {
+    [sizes$1.default]: { width: "24rem", height: "24rem", marginLeft: "-15rem" },
+    [sizes$1.regular]: { width: "32rem", height: "32rem", marginLeft: "-19rem" },
+    [sizes$1.medium]: { width: "48rem", height: "48rem", marginLeft: "-32rem" },
+    [sizes$1.big]: { width: "80rem", height: "80rem", marginLeft: "-25rem" },
+  },
+  Base$4 = defineStyledComponent("StripeBadgeIcon", { element: Image$1 }),
+  StripeBadgeIcon = (0, import_react.forwardRef)(function (
+    {
+      size: e = sizes$1.default,
+      badgeId: t,
+      stripeExists: n,
+      path: r = `library.badges.${badgeFolders[e]}.badge_${t}`,
+      width: a = sizesConfig$2[e].width,
+      height: o = sizesConfig$2[e].height,
+      marginLeft: i = sizesConfig$2[e].marginLeft,
+      className: s,
+      ...u
+    },
+    l,
+  ) {
+    return (0, import_jsx_runtime.jsx)(Base$4, {
+      ...u,
+      ref: l,
+      path: r,
+      width: a,
+      height: o,
+      style: n ? { marginLeft: i } : void 0,
+      className: s,
+    });
+  }),
+  sizesConfig$1 = {
+    [sizes$1.default]: { width: "64rem", height: "24rem" },
+    [sizes$1.regular]: { width: "68rem", height: "24rem" },
+    [sizes$1.medium]: { width: "68rem", height: "28rem" },
+    [sizes$1.big]: { width: "100rem", height: "40rem" },
+  },
+  Base$3 = defineStyledComponent("StripeIcon", { element: Image$1 }),
+  StripeIcon = (0, import_react.forwardRef)(function (
+    {
+      size: e = sizes$1.default,
+      badgeId: t,
+      stripeExists: n,
+      path: r = `library.badges.strips.${stripeFolders[e]}.strip_${t}`,
+      width: a = sizesConfig$1[e].width,
+      height: o = sizesConfig$1[e].height,
+      className: i,
+      ...s
+    },
+    u,
+  ) {
+    return n
+      ? (0, import_jsx_runtime.jsx)(Base$3, {
+          ...s,
+          ref: u,
+          path: r,
+          width: a,
+          height: o,
+          className: clsx(player_info_module_default.stripeBadge, i),
+        })
+      : null;
+  }),
+  sizesConfig = { badge: sizesConfig$2, stripe: sizesConfig$1 },
+  Base$2 = defineStyledComponent("PlayerInfoStripe", player_info_module_default.stripe),
+  Stripe = (0, import_react.forwardRef)(function (
+    {
+      size: e = sizes$1.default,
+      badgeId: t,
+      classNames: n,
+      className: r,
+      stripeIcon: a,
+      stipeBadgeIcon: o,
+      ...i
+    },
+    s,
+  ) {
+    const u = resources.resolve("images"),
+      l = stripeFolders[e],
+      c = u.has(`library.badges.strips.${l}.strip_${t}`);
+    return (0, import_jsx_runtime.jsxs)(Base$2, {
+      ...i,
+      ref: s,
+      className: clsx(c && player_info_module_default[`stripe__${e}`], r),
+      children: [
+        (0, import_jsx_runtime.jsx)(StripeIcon, {
+          size: e,
+          badgeId: t,
+          stripeExists: c,
+          className: n?.stripe,
+          width: a?.width,
+          height: a?.height,
+        }),
+        (0, import_jsx_runtime.jsx)(StripeBadgeIcon, {
+          size: e,
+          badgeId: t,
+          stripeExists: c,
+          className: n?.badge,
+          width: o?.width,
+          height: o?.height,
+          marginLeft: o?.marginLeft,
+        }),
+      ],
+    });
+  });
+((Stripe.sizes = sizes$1), (Stripe.icons = sizesConfig));
+var Base$1 = defineStyledComponent("AccountInfo", player_info_module_default.base),
+  Wrapper = defineStyledComponent("AccountInfoWrapper", player_info_module_default.base),
+  PlayerInfo = (0, import_react.forwardRef)((e, t) =>
+    (0, import_jsx_runtime.jsx)(Base$1, { ref: t, ...e }),
+  );
+((PlayerInfo.Name = Name),
+  (PlayerInfo.ClanTag = ClanTag),
+  (PlayerInfo.Badge = Badge),
+  (PlayerInfo.IgrIcon = IgrIcon),
+  (PlayerInfo.AnonymizerIcon = AnonymizerIcon),
+  (PlayerInfo.Stripe = Stripe),
+  (PlayerInfo.Wrapper = Wrapper));
 var base$4 = "Tooltip_6d997cee",
   decorator = "Tooltip_decorator_b3486d4e",
   tooltip_module_default = { base: base$4, decorator: decorator },
@@ -37574,338 +37624,339 @@ var base$2 = "Counter_dc10b86a",
     });
   };
 export {
-  roles as $,
-  easings$1 as $a,
-  map$1 as $i,
+  TankmanSchema as $,
+  toSeconds as $a,
+  lastElement as $i,
   FormatString as $n,
-  useUnmount as $r,
-  WithDiscount as $t,
-  sizes$4 as A,
-  mouse$1 as Aa,
-  delay as Ai,
+  useMount as $r,
+  boolean as $t,
+  LoadoutItem as A,
+  writeClipboard as Aa,
+  map as Ai,
   types$4 as An,
   useTooltip as Ar,
-  SimpleTooltip$1 as At,
-  DragAndDrop as B,
-  days as Ba,
-  reaction as Bi,
+  Route as At,
+  ImageSize as B,
+  convert as Ba,
+  observable$1 as Bi,
   Base$26 as Bn,
   config as Br,
-  literal as Bt,
-  ExtendedText as C,
-  pxToRem$1 as Ca,
-  parseValid as Ci,
+  VehicleRole as Bt,
+  getRewardValueType as C,
+  initExternalPaddings$1 as Ca,
+  calcPercent as Ci,
   mediumTankRoles as Cn,
   createMultipleTargetOverrides as Cr,
-  loadPlugin as Ct,
-  Slot as D,
-  sendEvent$2 as Da,
-  createString as Di,
+  require_classnames as Ct,
+  isEmptyObject as D,
+  get$2 as Da,
+  NUMBERS_ALPHABET as Di,
   isTypeValidValue as Dn,
   useParamTooltip as Dr,
-  directions$1 as Dt,
-  SceneWrapper as E,
-  get$2 as Ea,
-  NUMBERS_ALPHABET as Ei,
+  Tooltip$1 as Dt,
+  MultilineOverflow as E,
+  setContentReady as Ea,
+  LOWER_ALPHABET as Ei,
   isRentVehicle as En,
   useBackdropTooltip as Er,
-  sizes$10 as Et,
-  sizes$6 as F,
-  MS_IN_SECOND$1 as Fa,
-  chunks as Fi,
+  SimpleTooltip as Et,
+  Timer as F,
+  normalizeResource as Fa,
+  createMockControls as Fi,
   useLazyModel as Fn,
   useThrottle as Fr,
-  createParser as Ft,
-  Input as G,
-  minutes as Ga,
-  find as Gi,
+  ModelRouterProvider as Ft,
+  Toggle as G,
+  hours as Ga,
+  filterMap as Gi,
   useVerticalScroll as Gn,
   easings as Gr,
-  optional as Gt,
-  Toggle as H,
-  greaterThan as Ha,
-  every as Hi,
+  SimpleTooltip$1 as Gt,
+  KeyButton as H,
+  fromMs as Ha,
+  runInAction as Hi,
   MaskArea as Hn,
   useSpringValue as Hr,
-  minValue as Ht,
-  snakeToCamel as I,
-  getRealFormat as Ia,
-  makeActions as Ii,
+  directions$1 as Ht,
+  formats as I,
+  MS_IN_SECOND$1 as Ia,
+  chunks as Ii,
   Button$1 as In,
   useSkipFrame as Ir,
-  array as It,
-  useHoverState as J,
-  subtract as Ja,
-  forEach as Ji,
+  useRouter as It,
+  Input as J,
+  seconds as Ja,
+  findIndexLast as Ji,
   useScrollByDragElements as Jn,
-  useHandleKeydown as Jr,
-  pipe as Jt,
-  useInput as K,
-  now$1 as Ka,
-  findIndex$1 as Ki,
+  useKeydownListener as Jr,
+  usePopover as Jt,
+  toggleSizes as K,
+  minutes as Ka,
+  find as Ki,
   Base$27 as Kn,
-  useLayoutReady as Kr,
-  parse$1 as Kt,
-  ImageSize as L,
-  format$2 as La,
-  action as Li,
+  useLoop as Kr,
+  TruncatedText as Kt,
+  sizes$10 as L,
+  getRealFormat as La,
+  makeActions as Li,
   HeadlessButton as Ln,
   useScaleState$1 as Lr,
-  boolean as Lt,
-  Waiting as M,
-  getRegionalDateTime$1 as Ma,
-  assert as Mi,
+  injectGFPlugins as Lt,
+  sizes$8 as M,
+  onRescale as Ma,
+  mapRange as Mi,
   __vitePreload as Mn,
   useSpecialPopover as Mr,
-  usePopover as Mt,
-  Timer as N,
-  capitalize as Na,
-  createLayoutReadyInEffect as Ni,
+  matchPath as Mt,
+  Switcher$1 as N,
+  getRegionalDateTime$1 as Na,
+  assert as Ni,
   LazyModel as Nn,
   useRem as Nr,
-  renderResolvedString as Nt,
-  LoadoutItem as O,
-  play$1 as Oa,
-  filter as Oi,
+  asMemoized as Nt,
+  SceneWrapper as O,
+  sendEvent$2 as Oa,
+  createString as Oi,
   normilizeVehicleType as On,
   useSimpleTooltip as Or,
-  Checkbox as Ot,
-  formats as P,
-  normalizeResource as Pa,
-  createMockControls as Pi,
+  Slot$1 as Ot,
+  Waiting as P,
+  capitalize as Pa,
+  createLayoutReadyInEffect as Pi,
   createOptionalDLProvider as Pn,
   useTimeout as Pr,
-  renderString as Pt,
-  perkStates as Q,
-  toSeconds as Qa,
-  lastElement as Qi,
+  Accordion as Pt,
+  Sprite as Q,
+  toMinutes as Qa,
+  insertBefore as Qi,
   Bubble as Qn,
-  useMount as Qr,
-  nationById as Qt,
-  Background as R,
-  compare as Ra,
-  autorun as Ri,
+  useIsFirstRender as Qr,
+  array as Qt,
+  Video as R,
+  format$2 as Ra,
+  action as Ri,
   sizes$18 as Rn,
   useResize as Rr,
-  enum_ as Rt,
-  ProgressBar as S,
-  initExternalPaddings$1 as Sa,
-  calcPercent as Si,
+  loadPlugin as Rt,
+  getRewardImage as S,
+  getViewGlobalPosition$1 as Sa,
+  MAX_i32 as Si,
   lightTankRoles as Sn,
   useSoundsOptional as Sr,
-  injectGFPlugins as St,
-  isEmptyObject as T,
-  setContentReady as Ta,
-  LOWER_ALPHABET as Ti,
+  types$3 as St,
+  ExtendedText as T,
+  remToPx$1 as Ta,
+  roundTo as Ti,
   getVehicleImageKey as Tn,
   createTargetOverrides as Tr,
-  VehicleRole as Tt,
-  toggleSizes as U,
-  greaterThanOrEqual as Ua,
-  filter$1 as Ui,
+  BackportTooltip as Tt,
+  DragAndDrop as U,
+  greaterThan as Ua,
+  every as Ui,
   DefaultScroll as Un,
   useSprings as Ur,
-  number as Ut,
-  useDragAndDrop as V,
-  fromMs as Va,
-  runInAction as Vi,
+  Checkbox as Ut,
+  Background as V,
+  days as Va,
+  reaction as Vi,
   Area as Vn,
   useSpring as Vr,
-  minLength as Vt,
-  toggleThemes as W,
-  hours as Wa,
-  filterMap as Wi,
+  sizes$15 as Vt,
+  useDragAndDrop as W,
+  greaterThanOrEqual as Wa,
+  filter$1 as Wi,
   Bar as Wn,
   useTransition$2 as Wr,
-  object as Wt,
-  TankmanSchema as X,
-  toHours as Xa,
-  groupMapBy as Xi,
+  sizes$16 as Wt,
+  placeholderVisibility as X,
+  toDays as Xa,
+  get$1 as Xi,
   useScrollBounding as Xn,
-  useInsideEvent as Xr,
-  transform as Xt,
-  Sprite as Y,
-  toDays as Ya,
-  get$1 as Yi,
+  useHandleKeyup as Xr,
+  renderString as Xt,
+  useInput as Y,
+  subtract as Ya,
+  forEach as Yi,
   Area$1 as Yn,
-  useHandleKeyup as Yr,
-  string as Yt,
-  fromModel as Z,
-  toMinutes as Za,
-  insertBefore as Zi,
+  useHandleKeydown as Yr,
+  renderResolvedString as Yt,
+  useHoverState as Z,
+  toHours as Za,
+  groupMapBy as Zi,
   useHorizontalScroll as Zn,
-  useIsFirstRender as Zr,
-  union as Zt,
-  useLoadPlugin as _,
-  compose as _a,
-  readKey as _i,
+  useInsideEvent as Zr,
+  createParser as Zt,
+  themes as _,
+  clamp$1 as _a,
+  breakpointsByType as _i,
   vehicleState as _n,
   useExternalPaddings as _r,
-  Tooltip$1 as _t,
+  Currency as _t,
   PrestigeEmblem as a,
-  sort as aa,
-  useRefResizeObserver as ai,
-  types$3 as an,
-  DateTimeFormatsEnum as ao,
+  some as aa,
+  useSyncSizeTexture as ai,
+  number as an,
+  intl$4 as ao,
   Image$1 as ar,
-  List as at,
-  getRewardImage as b,
-  forceTriggerMouseMove$1 as ba,
-  isNumber as bi,
+  VehicleImage as at,
+  Reward as b,
+  enableFullScreenModeSupported$1 as ba,
+  comparer as bi,
   getRoleByKey as bn,
   SoundsProvider as br,
-  asMemoized as bt,
+  imageSizes$1 as bt,
   DateTime_default as c,
-  isNonNullable as ca,
-  useAdaptiveWidth as ci,
-  Route as cn,
-  concatWithPath as co,
+  unsafeGet as ca,
+  usePrevious as ci,
+  parse$1 as cn,
+  logBySeverity as co,
   observer as cr,
-  CardSingle as ct,
-  Slider as d,
-  promiseWithResolvers as da,
-  useUpscale as di,
-  GradientText as dn,
+  List as ct,
+  PlayerInfo as d,
+  keyCodes as da,
+  useAdaptive as di,
+  string as dn,
+  asFunction as do,
   JSXBuilder as dr,
-  useCardsWrapperContext as dt,
-  mapExists as ea,
-  useEmitter as ei,
-  Currency as en,
-  clsx as eo,
+  CardSingle as dt,
+  map$1 as ea,
+  useUnmount as ei,
+  enum_ as en,
+  easings$1 as eo,
   FormatText as er,
-  RentalCounter as et,
-  sizes$1 as f,
-  DisposeBuilder as fa,
-  MediaWrapperElement as fi,
-  Video as fn,
+  fromModel as et,
+  GradientText as f,
+  promiseWithResolvers as fa,
+  useUpscale as fi,
+  transform as fn,
   assignRefs as fr,
-  useCardContext as ft,
-  isReactComponent as g,
-  clamp$1 as ga,
-  breakpointsByType as gi,
+  CardsWrapper as ft,
+  sizes$6 as g,
+  noop$2 as ga,
+  breakpoints as gi,
   sizes$17 as gn,
   createSimpleGetter as gr,
-  SimpleTooltip as gt,
-  themes as h,
-  noop$2 as ha,
-  breakpoints as hi,
+  WithDiscount as gt,
+  Tabs as h,
+  identity as ha,
+  require_jsx_runtime as hi,
   VehicleType as hn,
   initializeModelWithContext as hr,
-  BackportTooltip as ht,
+  useCardContext as ht,
   Counter as i,
-  some as ia,
-  useSyncSizeTexture as ii,
-  sizes$12 as in,
-  intl$4 as io,
+  reduce as ia,
+  throttle_default as ii,
+  minValue as in,
+  SoundsRClassProvider as io,
   Atlas as ir,
-  ScrollVelocityGuardContent as it,
-  Switcher$1 as j,
-  onRescale as ja,
-  mapRange as ji,
+  UnknownVehicleImage as it,
+  overlayTypes as j,
+  mouse$1 as ja,
+  delay as ji,
   VehicleLevel as jn,
   useWulfTooltip as jr,
-  Popover as jt,
-  overlayTypes as k,
-  writeClipboard as ka,
-  map as ki,
+  Switch as jt,
+  Slot as k,
+  play$1 as ka,
+  filter as ki,
   sameTanksRemap as kn,
   useSpecialTooltip as kr,
-  sizes$11 as kt,
+  Slottable as kt,
   getRegionalDateTime as l,
-  iter as la,
-  UPSCALE as li,
-  Switch$1 as ln,
-  resources as lo,
+  isNonNullable as la,
+  useAdaptiveWidth as li,
+  picklist as ln,
+  concatWithPath as lo,
   UIProvider as lr,
-  CardsWrapper as lt,
-  sizes$2 as m,
-  identity as ma,
-  require_jsx_runtime as mi,
-  useRouter as mn,
+  Discount as lt,
+  sizes$5 as m,
+  addEventListener$1 as ma,
+  useMedia as mi,
+  nationById as mn,
   computedFn as mr,
-  BackdropTooltip as mt,
+  useCardsWrapperContext as mt,
   Countdown_default as n,
-  mapNonNullable as na,
-  debounce_default as ni,
-  discountTypes as nn,
-  require_react as no,
+  mapFilter as na,
+  useDebounce as ni,
+  literal as nn,
+  require_react_dom as no,
   sizes$19 as nr,
-  VehicleImage as nt,
+  roles as nt,
   grades as o,
-  toArray$1 as oa,
-  useEvent as oi,
-  PlayerInfo as on,
-  ImagesRClassProvider as oo,
+  sort as oa,
+  useRefResizeObserver as oi,
+  object as on,
+  DateTimeFormatsEnum as oo,
   ResourceImage as or,
-  Discount as ot,
-  Tabs as p,
-  addEventListener$1 as pa,
-  useMedia as pi,
-  ModelRouterProvider as pn,
+  ErrorHandler as ot,
+  Slider as p,
+  DisposeBuilder as pa,
+  MediaWrapperElement as pi,
+  union as pn,
   computeds as pr,
-  require_classnames as pt,
-  placeholderVisibility as q,
-  seconds as qa,
-  findIndexLast as qi,
+  Card as pt,
+  toggleThemes as q,
+  now$1 as qa,
+  findIndex$1 as qi,
   dragDirections as qn,
-  useKeydownListener as qr,
-  picklist as qt,
+  useLayoutReady as qr,
+  Popover as qt,
   CountdownStyle as r,
-  reduce as ra,
-  throttle_default as ri,
-  imageSizes$1 as rn,
-  SoundsRClassProvider as ro,
+  mapNonNullable as ra,
+  debounce_default as ri,
+  minLength as rn,
+  require_react as ro,
   defineStyledComponent as rr,
-  ErrorHandler as rt,
+  RentalCounter as rt,
   sizes as s,
-  unsafeGet as sa,
-  usePrevious as si,
-  TruncatedText as sn,
-  logBySeverity as so,
+  toArray$1 as sa,
+  useEvent as si,
+  optional as sn,
+  ImagesRClassProvider as so,
   useLocalObservable as sr,
-  statusTypes as st,
+  ScrollVelocityGuardContent as st,
   TextButton as t,
-  mapFilter as ta,
-  useDebounce as ti,
-  currencyTypes as tn,
-  require_react_dom as to,
+  mapExists as ta,
+  useEmitter as ti,
+  integer as tn,
+  clsx as to,
   upgradeLegacy as tr,
-  UnknownVehicleImage as tt,
+  perkStates as tt,
   Tooltip as u,
-  keyCodes as ua,
-  useAdaptive as ui,
-  matchPath as un,
-  asFunction as uo,
+  iter as ua,
+  UPSCALE as ui,
+  pipe as un,
+  resources as uo,
   runView as ur,
-  Card as ut,
-  Reward as v,
-  getKeyNameFromScanCode as va,
-  mouseButtons as vi,
+  statusTypes as ut,
+  isReactComponent as v,
+  compose as va,
+  readKey as vi,
   WITHOUT_ROLE as vn,
   useClickOutside as vr,
-  Slot$1 as vt,
-  MultilineOverflow as w,
-  remToPx$1 as wa,
-  roundTo as wi,
+  currencyTypes as vt,
+  ProgressBar as w,
+  pxToRem$1 as wa,
+  parseValid as wi,
   roles$1 as wn,
   createSoundPlay as wr,
-  VehicleInfo as wt,
-  getRewardValueType as x,
-  getViewGlobalPosition$1 as xa,
-  MAX_i32 as xi,
+  BackdropTooltip as wt,
+  formatPrintf as x,
+  forceTriggerMouseMove$1 as xa,
+  isNumber as xi,
   heavyTankRoles as xn,
   useSounds as xr,
-  Accordion as xt,
-  formatPrintf as y,
-  enableFullScreenModeSupported$1 as ya,
-  comparer as yi,
+  sizes$14 as xt,
+  useLoadPlugin as y,
+  getKeyNameFromScanCode as ya,
+  mouseButtons as yi,
   atSpgRoles as yn,
   useSpecialContextMenu as yr,
-  Slottable as yt,
-  KeyButton as z,
-  convert as za,
-  observable$1 as zi,
+  discountTypes as yt,
+  snakeToCamel as z,
+  compare as za,
+  autorun as zi,
   themes$1 as zn,
   animated as zr,
-  integer as zt,
+  VehicleInfo as zt,
 };

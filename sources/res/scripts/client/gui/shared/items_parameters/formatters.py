@@ -229,7 +229,7 @@ MEASURE_UNITS = {b'aimingTime': (MENU.TANK_PARAMS_S),
    b'sightPointerSectorAngleStart': (MENU.TANK_PARAMS_GRADS), 
    b'sightPointerSectorAngleEnd': (MENU.TANK_PARAMS_GRADS), 
    b'sightPointerSelfSpottingTime': (MENU.TANK_PARAMS_S), 
-   b'sightPointerViewRange': (MENU.TANK_PARAMS_M), 
+   b'sightPointerViewRange': (MENU.TANK_PARAMS_FACTOR), 
    b'sightPointerConsealmentFoliage': (MENU.TANK_PARAMS_FACTOR), 
    b'sightPointerConsealmentMoving': (MENU.TANK_PARAMS_FACTOR), 
    b'combatThrottleDuration': (MENU.TANK_PARAMS_S), 
@@ -400,9 +400,9 @@ def getRelativeDiffParams(comparator):
 
 
 _NBSP = R.strings.common.common.nbsp()
-_DASH = b'-'
-_SLASH = b'/'
-_COLON = b':'
+_DASH = backport.text(R.strings.menu.moduleInfo.paramsSeparator.dash())
+_SLASH = backport.text(R.strings.menu.moduleInfo.paramsSeparator.slash())
+_COLON = backport.text(R.strings.menu.moduleInfo.paramsSeparator.colon())
 _niceFormat = {b'rounder': (backport.getNiceNumberFormat)}
 _niceRangeFormat = {b'rounder': (backport.getNiceNumberFormat), b'separator': _DASH}
 _listFormat = {b'rounder': (lambda v: backport.getIntegralFormat(int(v))), b'separator': _SLASH}

@@ -1,26 +1,26 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Dn as e,
+  En as e,
   H as a,
-  Jt as l,
-  L as t,
-  St as i,
-  U as n,
-  V as o,
-  _t as c,
-  ct as p,
+  L as l,
+  St as t,
+  U as i,
+  V as n,
+  _t as o,
+  ct as c,
+  ln as p,
   nt as r,
-  rt as m,
-  un as d,
+  qt as m,
+  rt as d,
   vt as _,
   yt as h,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
-/* empty css                 */ var [g, u] = i()(
+/* empty css                 */ var [g, b] = t()(
     ({ observableModel: s }) => ({ root: s.object() }),
     ({ externalModel: s }) => ({ openChallenge: s.createCallbackNoArgs("onClick") }),
   ),
-  b = "App_image_95a6abe1",
+  u = "App_image_95a6abe1",
   j = "App_32d4293d",
   x = "App_base__popup_a2438b5f",
   A = "App_wrapper_ffdbb6e9",
@@ -31,19 +31,19 @@ import "../../chunks/_wg-global-styles.js";
   y = "App_text_533ed64b",
   C = "App_button_55edc998",
   w = "App_close_654073f5",
-  L = s(l(), 1),
+  L = s(m(), 1),
   M = R.strings.user_missions.hub.challenge_missions.notification.shield,
-  z = c(function () {
-    const { model: s, controls: l } = u(),
-      { attempts: i, missionID: c, isPopUp: _ } = s.root.get();
-    return (0, L.jsxs)(t, {
+  z = o(function () {
+    const { model: s, controls: t } = b(),
+      { attempts: o, missionID: m, isPopUp: _ } = s.root.get();
+    return (0, L.jsxs)(l, {
       className: e(j, _ && x),
       children: [
         (0, L.jsxs)("div", {
           className: A,
           children: [
             (0, L.jsx)("div", {
-              className: b,
+              className: u,
               style: {
                 backgroundImage: `url(${R.images.gui.maps.icons.userMissions.hub.challenge.shield_challenge()})`,
               },
@@ -53,27 +53,27 @@ import "../../chunks/_wg-global-styles.js";
               children: [
                 (0, L.jsxs)("div", {
                   className: k,
-                  children: [i, (0, L.jsx)("span", { className: v })],
+                  children: [o, (0, L.jsx)("span", { className: v })],
                 }),
-                (0, L.jsx)(p, { text: M.title(), className: f, upgradeLegacy: !0 }),
-                (0, L.jsx)(p, {
-                  params: { mission: c },
+                (0, L.jsx)(c, { text: M.title(), className: f, upgradeLegacy: !0 }),
+                (0, L.jsx)(c, {
+                  params: { mission: m },
                   text: M.text(),
                   className: y,
                   upgradeLegacy: !0,
                 }),
               ],
             }),
-            (0, L.jsx)(o, {
+            (0, L.jsx)(n, {
               className: C,
               size: a.small,
-              onClick: l.openChallenge,
-              theme: n.secondary,
+              onClick: t.openChallenge,
+              theme: i.secondary,
               children: M.button(),
             }),
           ],
         }),
-        _ && (0, L.jsx)(r, { size: m.small, onClose: d, className: w }),
+        _ && (0, L.jsx)(r, { size: d.small, onClose: p, className: w }),
       ],
     });
   });

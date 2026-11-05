@@ -37,7 +37,7 @@ import { a as V, n as $, r as L, t as D } from "./getRewardImage.js";
 import { n as F, t as W } from "./sounds.js";
 import { r as H } from "./shield.js";
 import { t as M } from "./vehicle_info.js";
-import { a as J, i as G, n as K, o as Q, r as q, t as U } from "./use_video_loaded.js";
+import { c as J, i as G, n as K, o as Q, s as q, t as U } from "./use_video_loaded.js";
 import { i as X, n as Y, r as Z, t as ee } from "./vendor.js";
 var te = e(o()),
   ae = (e) => {
@@ -273,7 +273,7 @@ function Pe({ className: e, res: t, enabled: a, minimized: s, onPlay: r, onEnded
   const [i, c] = (0, te.useState)(ze),
     l = (0, te.useRef)(null),
     d = xe(ee(ve, (e) => e.value)),
-    u = Q(I),
+    u = J(I),
     m = () => {
       (i !== Te && c(Te), ve.send({ type: _e.toRewards }));
     };
@@ -354,7 +354,7 @@ var Me = "Page_36a49111",
   (Je.Waiting = function ({ image: e, text: t, className: a }) {
     return (0, Oe.jsx)("div", {
       className: f(We, a),
-      children: (0, Oe.jsx)(J, { text: t, img: e, className: He }),
+      children: (0, Oe.jsx)(q, { text: t, img: e, className: He }),
     });
   }));
 var Ge = "Body_201f95c6";
@@ -377,7 +377,7 @@ function et({ children: e, className: t }) {
   (et.Footer = function ({ children: e, className: t }) {
     return (0, Oe.jsx)("div", { className: f(Ke, t), children: e });
   }),
-  (et.Checkbox = ({ className: e, ...t }) => (0, Oe.jsx)(G, { ...t, className: f(Xe, e) })),
+  (et.Checkbox = ({ className: e, ...t }) => (0, Oe.jsx)(Q, { ...t, className: f(Xe, e) })),
   (et.PurchaseButton = ({ className: e, ...t }) => (0, Oe.jsx)(F, { ...t, className: f(Ye, e) })),
   (et.Header = ({ className: e, ...t }) => (0, Oe.jsx)(A, { ...t, className: f(qe, e) })),
   (et.CloseButton = ({ className: e, ...t }) => (0, Oe.jsx)(m, { ...t, className: f(Ze, e) })));
@@ -480,7 +480,7 @@ function ht({ eventName: e, boxes: t, children: a, className: s }) {
   });
 }
 ((ht.Primary = function ({ actions: e, balance: t }) {
-  const { eventName: a } = (0, te.useContext)(q),
+  const { eventName: a } = (0, te.useContext)(G),
     n = h(() => e.openNext(), [e], 1100),
     r = ee(ve, (e) => e.value),
     { texts: o } = P(dt, a),
@@ -510,7 +510,7 @@ function ht({ eventName: e, boxes: t, children: a, className: s }) {
 }),
   (ht.Secondary = function ({ actions: e, category: t, reroll: n }) {
     const o = c.resolve("views"),
-      { eventName: i } = (0, te.useContext)(q),
+      { eventName: i } = (0, te.useContext)(G),
       d = h(() => e.reroll(), [e], 1100),
       u = ee(ve, (e) => e.value),
       { isEnoughMoney: m, attemptsLeft: p, currency: f, price: g } = n,
@@ -638,7 +638,7 @@ function At({ rareBonus: e, texts: t }) {
   forceImage: r = !0,
 }) {
   const [o, i] = (0, te.useState)(!1),
-    c = Q(I),
+    c = J(I),
     l = r || o;
   return (
     le(t),
@@ -733,7 +733,7 @@ function Wt({
                         text: r.rareOverlayStyleDescription,
                         params: {
                           vehicleInfo: (0, Oe.jsx)(zt.Description.Vehicle, {
-                            vehicleName: t.label,
+                            vehicleName: t.vehicle3DStyleName,
                             vehicleLvl: t.level,
                             isElite: t.isElite,
                             vehicleType: t.type,

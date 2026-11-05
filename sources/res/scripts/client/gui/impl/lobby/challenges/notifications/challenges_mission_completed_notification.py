@@ -46,6 +46,7 @@ class ChallengesMissionCompletedNotification(NotificationBase):
 
     def __onClick(self):
         showChallenges()
+        self._closeNotificationCenter()
         return
 
     def __setRewards(self, rewardsData, model):

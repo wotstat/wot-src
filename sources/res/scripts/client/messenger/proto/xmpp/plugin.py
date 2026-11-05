@@ -71,13 +71,15 @@ class XmppPlugin(IProtoPlugin):
         self.__messages.clear()
         self.__logger.clear()
         self.__nicknameResolver.clear()
-        if self.__clanListener is not None:
-            self.__clanListener.clear()
+        self.__clearClanListener()
         return
 
     def connect(self, scope):
         self.__contacts.switch(scope)
-        self.__clanListener = self.__getClanListener()
+        if self.__clanListener is None:
+            self.__clanListener = self.__getClanListener()
+            if self.__clanListener is not None and self.__isClientInited:
+                self.__clanListener.registerHandlers()
         return
 
     def view(self, scope):
@@ -97,8 +99,7 @@ class XmppPlugin(IProtoPlugin):
             self.__connection.clear()
             self.__logger.clear()
             self.__nicknameResolver.clear()
-            if self.__clanListener is not None:
-                self.__clanListener.clear()
+        self.__clearClanListener()
         return
 
     def setFilters(self, msgFilterChain):
@@ -126,6 +127,12 @@ class XmppPlugin(IProtoPlugin):
         if self.__clanListener is not None:
             self.__clanListener.unregisterHandlers()
         self.__client.fini()
+        return
+
+    def __clearClanListener(self):
+        if self.__clanListener is not None:
+            self.__clanListener.clear()
+            self.__clanListener = None
         return
 
     @classmethod

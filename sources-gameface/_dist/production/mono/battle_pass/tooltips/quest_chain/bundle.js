@@ -1,21 +1,21 @@
 import { r as e } from "../../chunks/rolldown-runtime.js";
 import {
-  Dr as r,
-  Hr as a,
+  Er as r,
+  Vr as a,
   Yn as s,
   _n as _,
-  fn as n,
-  li as d,
+  ci as n,
+  fn as d,
   n as c,
-  on as l,
-  pn as t,
-  r as i,
-  si as o,
+  oi as l,
+  on as t,
+  pn as i,
+  r as o,
   tn as u,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as b } from "../../chunks/vendor.js";
-d();
+n();
 var y = {
     base: "CurrencyReward_1a2de39e",
     icon: "CurrencyReward_icon_fc335ed4",
@@ -41,15 +41,15 @@ var y = {
   },
   v = s(),
   w = ({ value: e, type: r }) => {
-    const a = o(y.value, y[`value__${r}`]),
-      s = o(y.icon, y[`icon__${r}`]);
+    const a = l(y.value, y[`value__${r}`]),
+      s = l(y.icon, y[`icon__${r}`]);
     return (0, v.jsxs)("div", {
       className: y.base,
       children: [
         (0, v.jsx)("span", { className: s }),
         (0, v.jsx)("span", {
           className: a,
-          children: (0, v.jsx)(l, { value: e, format: r === i.gold ? "gold" : "integral" }),
+          children: (0, v.jsx)(t, { value: e, format: r === o.gold ? "gold" : "integral" }),
         }),
       ],
     });
@@ -67,7 +67,7 @@ var y = {
   P = I.title(),
   X = I.text(),
   W = I.secondaryText(),
-  D = b(() => {
+  O = b(() => {
     const { model: e } = f(),
       { items: a } = e.rewards.get();
     return (0, v.jsxs)("div", {
@@ -91,10 +91,10 @@ var y = {
       ],
     });
   }),
-  O = () => (0, v.jsx)(c, { children: (0, v.jsx)(c.Decorator, { children: (0, v.jsx)(D, {}) }) });
-n(
-  new t()
+  S = () => (0, v.jsx)(c, { children: (0, v.jsx)(c.Decorator, { children: (0, v.jsx)(O, {}) }) });
+d(
+  new i()
     .add(u)
     .addWithProps(C, {})
-    .render((0, v.jsx)(O, {})),
+    .render((0, v.jsx)(S, {})),
 );

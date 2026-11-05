@@ -1,15 +1,15 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
-import { Jt as e, Pn as i, St as r, hn as o, un as t, yt as a, z as n } from "../../chunks/lib.js";
+import { Nn as e, St as i, ln as r, mn as o, qt as t, yt as a, z as l } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
-/* empty css                 */ import { t as d } from "../../chunks/divider.js";
-import { t as l } from "../../chunks/extended_tooltip_decorator.js";
+/* empty css                 */ import { t as n } from "../../chunks/divider.js";
+import { t as d } from "../../chunks/extended_tooltip_decorator.js";
 import { t as m } from "../../chunks/reward_wrapper.js";
 var u = "daily",
   p = "premium_daily",
   _ = "bonus",
   [c, y] =
     (new Set([u, _, p]),
-    r()(
+    i()(
       ({ observableModel: s }) => ({
         ...s.primitives([
           "countdown",
@@ -25,15 +25,15 @@ var u = "daily",
         ]),
         bonuses: s.arrayClone("bonuses"),
       }),
-      t,
+      r,
     )),
   b = "DailyQuestTooltip_rewardsText_e3c9f036",
-  h = "DailyQuestTooltip_divider_e2b4b1fd",
-  g = "DailyQuestTooltip_rewardItem_9acd3b8a",
+  g = "DailyQuestTooltip_divider_e2b4b1fd",
+  h = "DailyQuestTooltip_rewardItem_9acd3b8a",
   j = "DailyQuestTooltip_rewards_bf27319f",
-  w = s(e(), 1),
-  x = i.resolve("strings"),
-  f = i.resolve("aliases"),
+  w = s(t(), 1),
+  x = e.resolve("strings"),
+  f = e.resolve("aliases"),
   v = {
     [u]: x.readOrEmpty("user_missions.tooltip.daily_quests.daily_mission"),
     [p]: x.readOrEmpty("user_missions.tooltip.daily_quests.premium_daily_mission"),
@@ -44,14 +44,14 @@ var u = "daily",
       e = s.bonuses.get(),
       i = s.missionType.get(),
       r = s.countdown.get();
-    return (0, w.jsxs)(l, {
+    return (0, w.jsxs)(d, {
       header: v[i],
       description: o(s.description.get()),
       invertedColors: !0,
       timerPath: "user_missions.tooltip.daily_quests.expires",
       timerTimeLeft: r,
       children: [
-        (0, w.jsx)(d, { className: h }),
+        (0, w.jsx)(n, { className: g }),
         (0, w.jsx)("div", {
           className: b,
           children: x.read("user_missions.tooltip.daily_quests.rewards"),
@@ -60,8 +60,8 @@ var u = "daily",
           bonuses: e,
           questId: s.id.get(),
           resId: f.read((s) => s.user_missions.hangarWidget.Quests("resId")),
-          size: n.Small,
-          rewardItemClassMix: g,
+          size: l.Small,
+          rewardItemClassMix: h,
           classMix: j,
         }),
       ],

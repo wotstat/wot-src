@@ -4497,63 +4497,62 @@ function cl() {
   if (!e) throw new Error("useColumnsSize must be used within a ColumnsSizeProvider");
   return e;
 }
-var ll = "TtcRow_fe3d6ce9",
+var ll = "TtcRow_373d52d9",
   dl = "TtcRow_amounts_c53cc9e3",
-  hl = "TtcRow_amountsSpecial_c2ef93f7",
-  ml = "TtcRow_amounts__narrow_c53cc9e3",
-  ul = "TtcRow_amount_dc4ddd90",
-  _l = "TtcRow_narrowContainer_9ed4622d",
-  pl = "TtcRow_slash_ddbb818b",
-  vl = "TtcRow_slash__amount_86b3162b",
-  bl = "TtcRow_iconContainer_f249bca4",
-  gl = "TtcRow_icon_4cf3eded",
-  xl = "TtcRow_icon__overlay_f011559b",
-  fl = "TtcRow_name_d24bf53",
-  Nl = s.resolve("intl"),
-  jl = s.resolve("strings"),
-  Cl = s.resolve("aliases"),
-  yl = (e, t) => {
-    const s = jl.readOr(t, () => "%(value)%s"),
+  hl = "TtcRow_amountsSpecial_b3d9c938",
+  ml = "TtcRow_amount_dc4ddd90",
+  ul = "TtcRow_narrowContainer_b52bfce9",
+  _l = "TtcRow_slash_ddbb818b",
+  pl = "TtcRow_slash__amount_86b3162b",
+  vl = "TtcRow_iconContainer_f249bca4",
+  bl = "TtcRow_icon_4cf3eded",
+  gl = "TtcRow_icon__overlay_f011559b",
+  xl = "TtcRow_name_d24bf53",
+  fl = s.resolve("intl"),
+  Nl = s.resolve("strings"),
+  jl = s.resolve("aliases"),
+  Cl = (e, t) => {
+    const s = Nl.readOr(t, () => "%(value)%s"),
       a = e
-        .replace(/-?\d+(?:\.\d+)?/g, (e) => Nl.formatReal("woZeroDigits", Number(e)))
+        .replace(/-?\d+(?:\.\d+)?/g, (e) => fl.formatReal("woZeroDigits", Number(e)))
         .replace(/\//g, "{{@ class $classSecondary}}/{{/}}");
     return s.replace("%(value)%s", a);
   };
-function kl({ value: e, narrow: t, templatePath: s = "", className: a }) {
+function yl({ value: e, templatePath: t = "", className: s }) {
   if (fe(e))
-    return (0, Yt.jsx)("span", { className: ul, children: Nl.formatReal("woZeroDigits", e) });
+    return (0, Yt.jsx)("span", { className: ml, children: fl.formatReal("woZeroDigits", e) });
   if ("string" == typeof e)
     return (0, Yt.jsx)(
       ze,
-      { className: ne(hl, a), text: yl(e, s), params: { classSecondary: ne(pl, vl) } },
+      { className: ne(hl, s), text: Cl(e, t), params: { classSecondary: ne(_l, pl) } },
       e,
     );
   if (Array.isArray(e)) {
-    const s = e.slice(0, 5),
-      a = jl.readOrEmpty("common.common.slash");
+    const t = e.slice(0, 5),
+      s = Nl.readOrEmpty("common.common.slash");
     return (0, Yt.jsx)("div", {
-      className: ne(dl, t && ml),
-      children: s.map((e, t) =>
+      className: dl,
+      children: t.map((e, a) =>
         (0, Yt.jsxs)(
           Kt.Fragment,
           {
             children: [
               (0, Yt.jsx)("span", {
-                className: ul,
+                className: ml,
                 "data-test-id": "amountValue",
-                children: fe(e) ? Nl.formatReal("woZeroDigits", e) : e,
+                children: fe(e) ? fl.formatReal("woZeroDigits", e) : e,
               }),
-              t < s.length - 1 && (0, Yt.jsx)("span", { className: ne(pl, vl), children: a }),
+              a < t.length - 1 && (0, Yt.jsx)("span", { className: ne(_l, pl), children: s }),
             ],
           },
-          t,
+          a,
         ),
       ),
     });
   }
   console.error("Incorrect amount type is in TTCRow component");
 }
-function wl({ value: e, measure: t = "" }) {
+function kl({ value: e, measure: t = "" }) {
   const s = "" !== t ? " " + t : "";
   return "string" == typeof e
     ? e.split("\n").map((e, t) => (0, Yt.jsx)(ze, { text: e + s, split: !0 }, t))
@@ -4565,7 +4564,7 @@ function wl({ value: e, measure: t = "" }) {
               {
                 children: [
                   (0, Yt.jsx)("span", { children: t + (a === e.length - 1 && s) }),
-                  a < e.length - 1 && (0, Yt.jsx)("span", { className: pl, children: "/" }),
+                  a < e.length - 1 && (0, Yt.jsx)("span", { className: _l, children: "/" }),
                 ],
               },
               a,
@@ -4574,15 +4573,15 @@ function wl({ value: e, measure: t = "" }) {
         })
       : void console.error("Incorrect name type is in TTCRow component");
 }
-var Il = "TtcDivider_eb891d7d",
-  Sl = "TtcDivider_base__narrow_92988388";
-var Tl = "TtcHeader_9275bbc3",
-  Ml = "TtcHeader_header_766d9c80",
-  Pl = "TtcHeader_icon_f5e541ab",
-  El = "TtcHeader_name_289f6f3",
-  Al = "x20x20",
-  Rl = "x24x24";
-function Ol({
+var wl = "TtcDivider_eb891d7d",
+  Il = "TtcDivider_base__narrow_92988388";
+var Sl = "TtcHeader_9275bbc3",
+  Tl = "TtcHeader_header_766d9c80",
+  Ml = "TtcHeader_icon_f5e541ab",
+  Pl = "TtcHeader_name_289f6f3",
+  El = "x20x20",
+  Al = "x24x24";
+function Rl({
   name: e,
   type: t,
   vehicleAmount: a,
@@ -4594,21 +4593,21 @@ function Ol({
   classNames: l,
 }) {
   const d = s.resolve("intl"),
-    h = Ie({ iconSize: Al }, { large: { iconSize: Rl } }),
+    h = Ie({ iconSize: El }, { large: { iconSize: Al } }),
     m = ct({
       resId: s.resolve("aliases").read((e) => e.vehicle_hub.default.VehicleParams("resId")),
       args: (0, Kt.useMemo)(() => ({ tooltipId: n, paramId: t, extendedTooltip: !0 }), [t, n]),
     });
   return (0, Yt.jsxs)("div", {
-    className: ne(Tl, c),
+    className: ne(Sl, c),
     ...m,
     children: [
       (0, Yt.jsxs)("div", {
-        className: Ml,
+        className: Tl,
         children: [
-          (0, Yt.jsx)(Ve, { path: `${o}.${h.iconSize}.${t}`, className: ne(Pl, l?.icon) }),
+          (0, Yt.jsx)(Ve, { path: `${o}.${h.iconSize}.${t}`, className: ne(Ml, l?.icon) }),
           (0, Yt.jsx)("div", {
-            className: ne(El, l?.name),
+            className: ne(Pl, l?.name),
             children: (0, Yt.jsx)(Q, { text: e, "data-test-id": e }),
           }),
           (0, Yt.jsx)("div", { className: l?.amount, children: d.formatNumber("integral", r) }),
@@ -4623,12 +4622,12 @@ function Ol({
     ],
   });
 }
-var Bl = "TtcList_ff11812f",
-  Ll = (0, Kt.forwardRef)(function ({ className: e, ...t }, s) {
-    return (0, Yt.jsx)("div", { ...t, ref: s, className: ne(Bl, e) });
+var Ol = "TtcList_ff11812f",
+  Bl = (0, Kt.forwardRef)(function ({ className: e, ...t }, s) {
+    return (0, Yt.jsx)("div", { ...t, ref: s, className: ne(Ol, e) });
   });
-((Ll.Header = Ol),
-  (Ll.Row = function ({
+((Bl.Header = Rl),
+  (Bl.Row = function ({
     name: e,
     type: t,
     amount: s,
@@ -4641,7 +4640,7 @@ var Bl = "TtcList_ff11812f",
     classNames: l,
   }) {
     const d = ct({
-      resId: Cl.read((e) => e.vehicle_hub.default.VehicleParams("resId")),
+      resId: jl.read((e) => e.vehicle_hub.default.VehicleParams("resId")),
       args: (0, Kt.useMemo)(() => ({ tooltipId: a, paramId: t, extendedTooltip: !0 }), [t, a]),
     });
     return (0, Yt.jsxs)("div", {
@@ -4650,24 +4649,24 @@ var Bl = "TtcList_ff11812f",
       ...d,
       children: [
         (0, Yt.jsxs)("div", {
-          className: _l,
+          className: ul,
           children: [
-            (0, Yt.jsx)(kl, { value: s, narrow: r, templatePath: i, className: l?.amount }),
+            (0, Yt.jsx)(yl, { value: s, templatePath: i, className: l?.amount }),
             (0, Yt.jsx)("div", {
-              className: bl,
-              children: (0, Yt.jsx)(Ve, { path: `${o}.${t}`, className: gl }),
+              className: vl,
+              children: (0, Yt.jsx)(Ve, { path: `${o}.${t}`, className: bl }),
             }),
           ],
         }),
         !r &&
           (0, Yt.jsx)("div", {
-            className: fl,
-            children: (0, Yt.jsx)(wl, { value: e, measure: n }),
+            className: xl,
+            children: (0, Yt.jsx)(kl, { value: e, measure: n }),
           }),
       ],
     });
   }),
-  (Ll.ShellRow = function ({ shellParam: e, vehicleId: t, className: s }) {
+  (Bl.ShellRow = function ({ shellParam: e, vehicleId: t, className: s }) {
     const a = ct({
       args: (0, Kt.useMemo)(
         () => ({ tooltipId: "techMainShell", shellCD: e.intCD, vehicleId: t }),
@@ -4679,32 +4678,32 @@ var Bl = "TtcList_ff11812f",
       ...a,
       children: [
         (0, Yt.jsx)("div", {
-          className: _l,
+          className: ul,
           children: (0, Yt.jsxs)("div", {
-            className: bl,
+            className: vl,
             children: [
               (0, Yt.jsx)(Ve, {
                 path: `vehParams.mechanics.shells.${e.type}${e.premium ? "_PREMIUM" : ""}`,
-                className: gl,
+                className: bl,
               }),
               (0, Yt.jsx)(Ve, {
                 path: `vehParams.mechanics.shells.${e.overlayType}`,
-                className: ne(gl, xl),
+                className: ne(bl, gl),
               }),
             ],
           }),
         }),
         (0, Yt.jsx)("div", {
-          className: fl,
-          children: jl.readOrEmpty(`vehicle_hub.characteristics.${e.overlayType}.${e.type}`),
+          className: xl,
+          children: Nl.readOrEmpty(`vehicle_hub.characteristics.${e.overlayType}.${e.type}`),
         }),
       ],
     });
   }),
-  (Ll.Divider = function ({ narrow: e = !1, className: t }) {
-    return (0, Yt.jsx)("div", { className: ne(Il, e && Sl, t) });
+  (Bl.Divider = function ({ narrow: e = !1, className: t }) {
+    return (0, Yt.jsx)("div", { className: ne(wl, e && Il, t) });
   }));
-var Dl = {
+var Ll = {
   base: "TtcColumn_d19a3707",
   header: "TtcColumn_header_67a81366",
   base__enoughSpace: "TtcColumn_base__enoughSpace_dbeaff6f",
@@ -4712,7 +4711,8 @@ var Dl = {
   headerName: "TtcColumn_headerName_1031e73d",
   list: "TtcColumn_list_ef66cbdf",
   scrollClip: "TtcColumn_scrollClip_7d3b5fb4",
-  scrollArea: "TtcColumn_scrollArea_363a17c",
+  scrollArea: "TtcColumn_scrollArea_4946eb96",
+  base__first: "TtcColumn_base__first_dbeaff6f",
   scrollContent: "TtcColumn_scrollContent_7bffb7ea",
   scrollContent__top: "TtcColumn_scrollContent__top_b4e45275",
   scrollContent__bottom: "TtcColumn_scrollContent__bottom_bec151c",
@@ -4725,69 +4725,82 @@ var Dl = {
   dividerRow: "TtcColumn_dividerRow_834e9bb1",
   divider: "TtcColumn_divider_809fe562",
 };
-function Vl({ children: e }) {
+function Dl({ children: e }) {
   const { api: t } = it(),
     [s, a] = K(t);
   return (0, Yt.jsx)(he, {
-    className: Dl.scrollArea,
-    classNames: { content: ne(Dl.scrollContent, Dl[`scrollContent__${Co(s, a)}`]) },
+    className: Ll.scrollArea,
+    classNames: { content: ne(Ll.scrollContent, Ll[`scrollContent__${Co(s, a)}`]) },
     children: e,
   });
 }
-function $l({ narrow: e, header: t, characteristics: s, modifications: a, className: r }) {
-  const { commonWidth: i, commonNarowlWidth: n, enoughSpace: o } = cl();
+function Vl({
+  index: e,
+  narrow: t,
+  header: s,
+  characteristics: a,
+  modifications: r,
+  className: i,
+}) {
+  const { commonWidth: n, commonNarowlWidth: o, enoughSpace: c } = cl();
   return (0, Yt.jsx)("div", {
-    className: ne(Dl.base, o && Dl.base__enoughSpace, e && Dl.base__narrow, r),
-    style: { "--width": `${i}rem`, "--widthNarrow": `${n}rem` },
-    children: (0, Yt.jsxs)(Ll, {
-      className: Dl.list,
+    className: ne(
+      Ll.base,
+      c && Ll.base__enoughSpace,
+      t && Ll.base__narrow,
+      0 === e && Ll.base__first,
+      i,
+    ),
+    style: { "--width": `${n}rem`, "--widthNarrow": `${o}rem` },
+    children: (0, Yt.jsxs)(Bl, {
+      className: Ll.list,
       children: [
-        (0, Yt.jsx)(Ol, { ...t, className: Dl.header, classNames: { name: Dl.headerName } }),
+        (0, Yt.jsx)(Rl, { ...s, className: Ll.header, classNames: { name: Ll.headerName } }),
         (0, Yt.jsx)("div", {
-          className: Dl.content,
+          className: Ll.content,
           children: (0, Yt.jsxs)(ye, {
             children: [
               (0, Yt.jsx)("div", {
-                className: Dl.scrollClip,
-                children: (0, Yt.jsx)(Vl, {
+                className: Ll.scrollClip,
+                children: (0, Yt.jsx)(Dl, {
                   children: (0, Yt.jsxs)("div", {
-                    className: Dl.listContent,
+                    className: Ll.listContent,
                     children: [
-                      s &&
-                        s.map((e, t) =>
+                      a &&
+                        a.map((e, t) =>
                           (0, Yt.jsx)(
-                            Ll.Row,
+                            Bl.Row,
                             {
                               name: e.name,
                               type: e.type,
                               amount: e.amount,
                               tooltipId: e.tooltipId,
                               narrow: !1,
-                              className: Dl.listRow,
+                              className: Ll.listRow,
                             },
                             t,
                           ),
                         ),
-                      a &&
+                      r &&
                         (0, Yt.jsxs)(Yt.Fragment, {
                           children: [
                             (0, Yt.jsx)("div", {
-                              className: Dl.dividerRow,
-                              children: (0, Yt.jsx)(Ll.Divider, {
-                                narrow: e,
-                                className: Dl.divider,
+                              className: Ll.dividerRow,
+                              children: (0, Yt.jsx)(Bl.Divider, {
+                                narrow: t,
+                                className: Ll.divider,
                               }),
                             }),
-                            a.map((e, t) =>
+                            r.map((e, t) =>
                               (0, Yt.jsx)(
-                                Ll.Row,
+                                Bl.Row,
                                 {
                                   name: e.name,
                                   type: e.type,
                                   amount: e.amount,
                                   tooltipId: e.tooltipId,
                                   narrow: !1,
-                                  className: Dl.listRow,
+                                  className: Ll.listRow,
                                 },
                                 t,
                               ),
@@ -4798,7 +4811,7 @@ function $l({ narrow: e, header: t, characteristics: s, modifications: a, classN
                   }),
                 }),
               }),
-              (0, Yt.jsx)(Qe, { classNames: { base: Dl.verticalBar } }),
+              (0, Yt.jsx)(Qe, { classNames: { base: Ll.verticalBar } }),
             ],
           }),
         }),
@@ -4806,7 +4819,7 @@ function $l({ narrow: e, header: t, characteristics: s, modifications: a, classN
     }),
   });
 }
-var zl = {
+var $l = {
     base: "TtcColumnSpecial_cfe40f97",
     header: "TtcColumnSpecial_header_5fed6267",
     iconContainer: "TtcColumnSpecial_iconContainer_efa85af1",
@@ -4835,20 +4848,20 @@ var zl = {
     wrapper: "TtcColumnSpecial_wrapper_ae2ae6d9",
     verticalBar: "TtcColumnSpecial_verticalBar_5bb30112",
   },
-  Hl = "x68x68",
-  Fl = "x96x96",
-  Wl = "small",
-  Gl = "large";
-function Ul({ children: e }) {
+  zl = "x68x68",
+  Hl = "x96x96",
+  Fl = "small",
+  Wl = "large";
+function Gl({ children: e }) {
   const { api: t } = it(),
     [s, a] = K(t);
   return (0, Yt.jsx)(he, {
-    className: zl.scrollArea,
-    classNames: { content: ne(zl.scrollContent, zl[`scrollContent__${Co(s, a)}`]) },
+    className: $l.scrollArea,
+    classNames: { content: ne($l.scrollContent, $l[`scrollContent__${Co(s, a)}`]) },
     children: e,
   });
 }
-function Xl({
+function Ul({
   name: e,
   vehicleId: t,
   type: a,
@@ -4860,7 +4873,7 @@ function Xl({
   className: l,
 }) {
   const { specialWidth: d } = cl(),
-    h = Ie({ iconSize: Hl, glowSize: Wl }, { large: { iconSize: Fl, glowSize: Gl } }),
+    h = Ie({ iconSize: zl, glowSize: Fl }, { large: { iconSize: Hl, glowSize: Wl } }),
     m = s.resolve("images"),
     u = r && i === xi.GOLD,
     _ = u
@@ -4871,55 +4884,55 @@ function Xl({
       : `vehicle_hub.characteristics.abilities.common.description.${a}`,
     v = s.resolve("strings");
   return (0, Yt.jsx)("div", {
-    className: ne(zl.base, l),
+    className: ne($l.base, l),
     style: { "--width": `${d}rem` },
-    children: (0, Yt.jsxs)(Ll, {
-      className: zl.list,
+    children: (0, Yt.jsxs)(Bl, {
+      className: $l.list,
       children: [
         (0, Yt.jsxs)("div", {
-          className: zl.header,
+          className: $l.header,
           children: [
             m.has(_) &&
               (0, Yt.jsxs)("div", {
-                className: zl.iconContainer,
+                className: $l.iconContainer,
                 children: [
                   u &&
                     (0, Yt.jsx)(Ve, {
                       path: `vehicle_hub.mechanics.special.glow_back_${h.glowSize}`,
-                      className: ne(zl.glow, zl.glow__back),
+                      className: ne($l.glow, $l.glow__back),
                     }),
-                  (0, Yt.jsx)(Ve, { path: _, className: zl.icon }),
+                  (0, Yt.jsx)(Ve, { path: _, className: $l.icon }),
                   u &&
                     (0, Yt.jsxs)(Yt.Fragment, {
                       children: [
                         (0, Yt.jsx)(Ve, {
                           path: `vehicle_hub.mechanics.special.dust_${h.glowSize}`,
-                          className: zl.dust,
+                          className: $l.dust,
                         }),
                         (0, Yt.jsx)(Ve, {
                           path: `vehicle_hub.mechanics.special.glow_front_${h.glowSize}`,
-                          className: ne(zl.glow, zl.glow__front),
+                          className: ne($l.glow, $l.glow__front),
                         }),
                       ],
                     }),
                 ],
               }),
-            (0, Yt.jsx)("div", { className: zl.title, children: e }),
+            (0, Yt.jsx)("div", { className: $l.title, children: e }),
           ],
         }),
         (0, Yt.jsx)("div", {
-          className: zl.content,
+          className: $l.content,
           children: (0, Yt.jsxs)(ye, {
             children: [
-              (0, Yt.jsxs)(Ul, {
+              (0, Yt.jsxs)(Gl, {
                 children: [
                   (0, Yt.jsxs)("div", {
-                    className: zl.listContent,
+                    className: $l.listContent,
                     children: [
                       n &&
                         n.map((e, t) =>
                           (0, Yt.jsx)(
-                            Ll.Row,
+                            Bl.Row,
                             {
                               name: e.name,
                               type: e.type,
@@ -4927,38 +4940,38 @@ function Xl({
                               templatePath: e.templatePath,
                               measure: e.measure,
                               tooltipId: e.tooltipId,
-                              className: zl.listRow,
-                              classNames: { amount: zl.amount },
+                              className: $l.listRow,
+                              classNames: { amount: $l.amount },
                             },
                             t,
                           ),
                         ),
                       o.map((e) =>
                         (0, Yt.jsx)(
-                          Ll.ShellRow,
-                          { shellParam: e, vehicleId: t, className: zl.listRow },
+                          Bl.ShellRow,
+                          { shellParam: e, vehicleId: t, className: $l.listRow },
                           e.intCD,
                         ),
                       ),
                     ],
                   }),
                   (0, Yt.jsxs)("div", {
-                    className: zl.description,
+                    className: $l.description,
                     children: [
-                      c && (0, Yt.jsx)(Ve, { path: c, className: zl.descriptionIcon }),
+                      c && (0, Yt.jsx)(Ve, { path: c, className: $l.descriptionIcon }),
                       (0, Yt.jsxs)("div", {
-                        className: zl.descriptionText,
+                        className: $l.descriptionText,
                         children: [
                           (0, Yt.jsx)(ze, {
-                            className: zl.descriptionTextLine,
+                            className: $l.descriptionTextLine,
                             text: v.readOrEmpty(p),
                             split: !0,
                           }),
                           (0, Yt.jsx)(ze, {
                             className: ne(
-                              zl.descriptionTextLine,
-                              zl.descriptionTextLine__secondary,
-                              zl.secondaryTextLine,
+                              $l.descriptionTextLine,
+                              $l.descriptionTextLine__secondary,
+                              $l.secondaryTextLine,
                             ),
                             text: v.readOrEmpty(
                               "vehicle_hub.characteristics.abilities.special.notes",
@@ -4971,7 +4984,7 @@ function Xl({
                   }),
                 ],
               }),
-              (0, Yt.jsx)(Qe, { classNames: { base: zl.verticalBar } }),
+              (0, Yt.jsx)(Qe, { classNames: { base: $l.verticalBar } }),
             ],
           }),
         }),
@@ -4979,13 +4992,13 @@ function Xl({
     }),
   });
 }
-var Kl = "Stats_6c5a71f3",
-  Zl = "Stats_base__enoughSpace_d737aebe",
-  Yl = "Stats_column_386905a7",
-  ql = "Stats_glow_bc5fc822",
-  Jl = "Stats_glow__narrow_23403efa",
-  Ql = s.resolve("sounds"),
-  ed = xe(function () {
+var Xl = "Stats_6c5a71f3",
+  Kl = "Stats_base__enoughSpace_d737aebe",
+  Zl = "Stats_column_386905a7",
+  Yl = "Stats_glow_bc5fc822",
+  ql = "Stats_glow__narrow_23403efa",
+  Jl = s.resolve("sounds"),
+  Ql = xe(function () {
     const { model: e } = Jc(),
       [t, s] = (0, Kt.useState)(0),
       a = Tt().model,
@@ -4997,11 +5010,11 @@ var Kl = "Stats_6c5a71f3",
       l = r.vehicleId.get(),
       { gap: d, enoughSpace: h } = cl();
     return (0, Yt.jsxs)("div", {
-      className: ne(Kl, h && Zl),
+      className: ne(Xl, h && Kl),
       children: [
         n.type &&
           Boolean(n.mechanicPriority) &&
-          (0, Yt.jsx)(Xl, {
+          (0, Yt.jsx)(Ul, {
             vehicleId: l,
             name: n.name,
             type: n.type,
@@ -5015,14 +5028,15 @@ var Kl = "Stats_6c5a71f3",
           return (0, Yt.jsxs)(
             "div",
             {
-              className: Yl,
+              className: Zl,
               onMouseEnter: () => {
-                r && (Ql.play("gui_characteristics_highlight"), s(a));
+                r && (Jl.play("gui_characteristics_highlight"), s(a));
               },
               style: { "--gap": `${d}rem` },
               children: [
-                (0, Yt.jsx)("div", { className: ne(ql, (h || r) && Jl) }),
-                (0, Yt.jsx)($l, {
+                (0, Yt.jsx)("div", { className: ne(Yl, (h || r) && ql) }),
+                (0, Yt.jsx)(Vl, {
+                  index: a,
                   narrow: r,
                   header: e.header,
                   characteristics: e.characteristics,
@@ -5036,13 +5050,13 @@ var Kl = "Stats_6c5a71f3",
       ],
     });
   });
-function td() {
+function ed() {
   return (0, Yt.jsx)(qc, {
     options: { context: "model.statsModel" },
-    children: (0, Yt.jsx)(ol, { children: (0, Yt.jsx)(ed, {}) }),
+    children: (0, Yt.jsx)(ol, { children: (0, Yt.jsx)(Ql, {}) }),
   });
 }
-var sd = G({
+var td = G({
     click: {
       researchChainLargePerk: "gui_perk_research_chain_large",
       researchChainSmallPerk: "gui_perk_research_chain_small",
@@ -5054,39 +5068,39 @@ var sd = G({
       deselect: "yes",
     },
   }),
-  ad = 420,
-  rd = 570;
-function id(e) {
-  return { duration: "opacity" === e ? ad : rd };
+  sd = 420,
+  ad = 570;
+function rd(e) {
+  return { duration: "opacity" === e ? sd : ad };
 }
-var nd = { config: { easing: y.easeInOutCirc } },
-  od = {
+var id = { config: { easing: y.easeInOutCirc } },
+  nd = {
     tree: {
       tree: {
         from: { opacity: "0", transform: "translate(-100%)" },
         to: { opacity: "1", transform: "translate(0%)" },
-        config: id,
+        config: rd,
       },
       prestige: {
         from: { opacity: "1", transform: "translate(0%)" },
         to: { opacity: "0", transform: "translate(100%)" },
-        config: id,
+        config: rd,
       },
     },
     prestige: {
       tree: {
         from: { opacity: "1", transform: "translate(0%)" },
         to: { opacity: "0", transform: "translate(-100%)" },
-        config: id,
+        config: rd,
       },
       prestige: {
         from: { opacity: "0", transform: "translate(100%)" },
         to: { opacity: "1", transform: "translate(0%)" },
-        config: id,
+        config: rd,
       },
     },
   },
-  cd = {
+  od = {
     base: "VehSkillTree_d74c4861",
     content: "VehSkillTree_content_caf211e7",
     progression: "VehSkillTree_progression_e4efd00a",
@@ -5098,7 +5112,7 @@ var nd = { config: { easing: y.easeInOutCirc } },
     prestigeEntryPoint: "VehSkillTree_prestigeEntryPoint_6d89a066",
     prestigeEntryPointBg: "VehSkillTree_prestigeEntryPointBg_5b6c912c",
   },
-  ld = xe(() => {
+  cd = xe(() => {
     const { model: e } = xt(),
       t = Je(),
       s = C(),
@@ -5110,30 +5124,30 @@ var nd = { config: { easing: y.easeInOutCirc } },
     }
     const i = e.locationId.get(),
       [n] = de(
-        () => ({ from: od[i].tree.from, to: od[i].tree.to, initConfig: nd, immediate: a }),
+        () => ({ from: nd[i].tree.from, to: nd[i].tree.to, initConfig: id, immediate: a }),
         [i, a],
       ),
       [o] = de(
-        () => ({ from: od[i].prestige.from, to: od[i].prestige.to, initConfig: nd, immediate: a }),
+        () => ({ from: nd[i].prestige.from, to: nd[i].prestige.to, initConfig: id, immediate: a }),
         [i, a],
       );
     return (0, Yt.jsx)("div", {
-      className: ne(cd.base, cd[`base__${i}`]),
+      className: ne(od.base, od[`base__${i}`]),
       children: (0, Yt.jsxs)("div", {
-        className: cd.content,
+        className: od.content,
         children: [
           (0, Yt.jsxs)(oe.div, {
-            className: cd.progression,
+            className: od.progression,
             style: n,
             children: [
               (0, Yt.jsx)(ht, {
                 options: Kt.useMemo(() => ({ context: "model.vehSkillTreeModel.tree" }), []),
                 children: (0, Yt.jsxs)("div", {
-                  className: cd.progressionContent,
+                  className: od.progressionContent,
                   children: [
                     (0, Yt.jsx)(ut, {}),
                     (0, Yt.jsx)("div", {
-                      className: cd.progressionEntryPoint,
+                      className: od.progressionEntryPoint,
                       children: (0, Yt.jsx)(gt, { onClick: () => r("prestige") }),
                     }),
                   ],
@@ -5148,13 +5162,13 @@ var nd = { config: { easing: y.easeInOutCirc } },
           (0, Yt.jsx)(mt, {
             options: Kt.useMemo(() => ({ context: "model.vehSkillTreeModel.prestige" }), []),
             children: (0, Yt.jsxs)(oe.div, {
-              className: cd.prestigeContent,
+              className: od.prestigeContent,
               style: o,
               children: [
                 (0, Yt.jsxs)("div", {
-                  className: cd.prestigeEntryPoint,
+                  className: od.prestigeEntryPoint,
                   children: [
-                    (0, Yt.jsx)("div", { className: cd.prestigeEntryPointBg }),
+                    (0, Yt.jsx)("div", { className: od.prestigeEntryPointBg }),
                     (0, Yt.jsx)(gt, { onClick: () => r("tree"), vanity: !0 }),
                   ],
                 }),
@@ -5166,13 +5180,13 @@ var nd = { config: { easing: y.easeInOutCirc } },
       }),
     });
   });
-function dd() {
+function ld() {
   return (0, Yt.jsx)(_t, {
     options: { context: "model.vehSkillTreeModel" },
-    children: (0, Yt.jsx)(p, { overrides: sd, children: (0, Yt.jsx)(ld, {}) }),
+    children: (0, Yt.jsx)(p, { overrides: td, children: (0, Yt.jsx)(cd, {}) }),
   });
 }
-var hd = {
+var dd = {
     base: "Page_d77d0d04",
     base__stats: "Page_base__stats_822895b4",
     base__armor: "Page_base__armor_98641d97",
@@ -5183,10 +5197,10 @@ var hd = {
     vehicleInfo: "Page_vehicleInfo_92516112",
     researchPurchaseControl: "Page_researchPurchaseControl_471abc56",
   },
-  md = ["overview", "modules", "vehSkillTree"],
-  ud = { context: "model.comparisonModel" },
-  _d = { context: "model.researchPurchaseModel" },
-  pd = xe(function () {
+  hd = ["overview", "modules", "vehSkillTree"],
+  md = { context: "model.comparisonModel" },
+  ud = { context: "model.researchPurchaseModel" },
+  _d = xe(function () {
     const { model: e } = Xs(),
       t = Je(),
       s = V(t.location, { paths: [`${Ks.root}/:tab`] })?.params.tab ?? "overview",
@@ -5218,12 +5232,12 @@ var hd = {
         c(!0);
       }),
       (0, Yt.jsx)("div", {
-        className: ne(hd.base, hd[`base__${s}`]),
+        className: ne(dd.base, dd[`base__${s}`]),
         children: (0, Yt.jsxs)("div", {
-          className: hd.content,
+          className: dd.content,
           children: [
             (0, Yt.jsxs)("div", {
-              className: hd.screenContent,
+              className: dd.screenContent,
               children: [
                 (0, Yt.jsx)(js, {
                   tabsList: e.menuItems.get(),
@@ -5231,52 +5245,52 @@ var hd = {
                   onActiveChange: r,
                   theme: te.primary,
                   size: i,
-                  className: hd.tabNavigation,
+                  className: dd.tabNavigation,
                 }),
                 (0, Yt.jsxs)(A, {
                   children: [
                     (0, Yt.jsx)(P, { path: Ks.overview, component: Yc }),
                     (0, Yt.jsx)(P, { path: Ks.modules, component: vo }),
-                    (0, Yt.jsx)(P, { path: Ks.stats, component: td }),
+                    (0, Yt.jsx)(P, { path: Ks.stats, component: ed }),
                     (0, Yt.jsx)(P, { path: Ks.armor, component: bi }),
-                    (0, Yt.jsx)(P, { path: Ks.vehSkillTree, component: dd }),
+                    (0, Yt.jsx)(P, { path: Ks.vehSkillTree, component: ld }),
                   ],
                 }),
               ],
             }),
             (0, Yt.jsx)(Lt, {
-              options: ud,
-              children: (0, Yt.jsx)(Ws, { className: hd.vehicleInfo }),
+              options: md,
+              children: (0, Yt.jsx)(Ws, { className: dd.vehicleInfo }),
             }),
-            md.includes(s) &&
+            hd.includes(s) &&
               (0, Yt.jsx)(Ot, {
-                options: _d,
-                children: (0, Yt.jsx)(hs, { className: hd.researchPurchaseControl }),
+                options: ud,
+                children: (0, Yt.jsx)(hs, { className: dd.researchPurchaseControl }),
               }),
           ],
         }),
       })
     );
   }),
-  vd = "App_fac56ab6";
-function bd() {
-  return (0, Yt.jsx)("div", { className: vd, children: (0, Yt.jsx)(pd, {}) });
+  pd = "App_fac56ab6";
+function vd() {
+  return (0, Yt.jsx)("div", { className: pd, children: (0, Yt.jsx)(_d, {}) });
 }
-var gd = s.resolve("aliases"),
-  xd = { "mouse-enter": M("highlightx"), click: M("tabs") };
+var bd = s.resolve("aliases"),
+  gd = { "mouse-enter": M("highlightx"), click: M("tabs") };
 Re(
   new n()
     .add(Ne)
     .addWithProps(Be, { context: "model.router" })
     .addWithProps(jt, { options: { context: "model.vehicleInfoModel" } })
     .addWithProps(St, {
-      options: { rootId: gd.read((e) => e.vehicle_hub.default.VehicleParams("resId")) },
+      options: { rootId: bd.read((e) => e.vehicle_hub.default.VehicleParams("resId")) },
     })
     .addWithProps(ft, {
-      options: { rootId: gd.read((e) => e.vehicle_hub.default.Wallet("resId")) },
+      options: { rootId: bd.read((e) => e.vehicle_hub.default.Wallet("resId")) },
     })
-    .addWithProps(p, { overrides: xd })
+    .addWithProps(p, { overrides: gd })
     .add(Us)
-    .render((0, Yt.jsx)(bd, {})),
+    .render((0, Yt.jsx)(vd, {})),
   { fullScreen: !0 },
 ).then(() => c(!1));

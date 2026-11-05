@@ -1,9 +1,9 @@
-import { Pn as e, dt as t, ft as s, pt as a, sn as i } from "./lib.js";
+import { Nn as e, dt as t, ft as s, on as a, pt as i } from "./lib.js";
 var o = e.resolve("strings"),
   n = e.resolve("images"),
-  r = s({ id: t(), textPath: a(), iconPath: a() }),
+  r = s({ id: t(), textPath: i(), iconPath: i() }),
   c = (e) =>
-    i(
+    a(
       e,
       (e) => ({
         id: e,

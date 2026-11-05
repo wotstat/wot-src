@@ -107,7 +107,7 @@
 						<name>sightPointerSelfSpottingTime</name>
 						<template>vehicle_hub.characteristics.templates.upTo</template>
 					</param>
-					<param>+123.0
+					<param>+30%
 						<name>sightPointerViewRange</name>
 						<template>vehicle_hub.characteristics.templates.upTo</template>
 					</param>
@@ -671,11 +671,11 @@
 					<param>1/1
 						<name>speedLimits</name>
 					</param>
-					<param>-60%
+					<param>-50%
 						<name>pillboxHorizontalRotationSpeed</name>
 						<template>vehicle_hub.characteristics.templates.upTo</template>
 					</param>
-					<param>-40%
+					<param>-30%
 						<name>pillboxVerticalRotationSpeed</name>
 						<template>vehicle_hub.characteristics.templates.upTo</template>
 					</param>

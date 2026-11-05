@@ -2647,7 +2647,7 @@
               m = (0, n.useState)([]),
               D = m[0],
               _ = m[1],
-              g = R.videos.dogtags.$dyn(i);
+              g = i ? R.videos.dogtags.$dyn(i) : null;
             (0, n.useEffect)(() => {
               const u = A.current;
               if (u)

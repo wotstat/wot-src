@@ -1,5 +1,5 @@
 import { r as t } from "../../chunks/rolldown-runtime.js";
-import { A as e, Jt as a, ot as n, st as s, yt as r } from "../../chunks/lib.js";
+import { A as e, ot as a, qt as n, st as s, yt as r } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
 /* empty css                 */ var i = "App_4bf3e341",
   o = "App_image_2f5d1aea",
@@ -7,14 +7,14 @@ import "../../chunks/_wg-global-styles.js";
   h = "App_description_967ac213",
   l = "App_separator_2563f2e1",
   _ = "App_text_1080ea36",
-  c = t(a(), 1);
+  c = t(n(), 1);
 function m() {
   return (0, c.jsxs)("div", {
     className: i,
     children: [
       (0, c.jsx)(s, { className: p, path: "hangar_event_banners.event.PM4EntryPoint.title" }),
       (0, c.jsx)(s, { className: h, path: "hangar_event_banners.event.PM4EntryPoint.description" }),
-      (0, c.jsx)(n, {
+      (0, c.jsx)(a, {
         className: l,
         path: "hangarEventBanners.event.PM4EntryPoint.divider_tooltip",
         width: "300rem",
@@ -24,7 +24,7 @@ function m() {
         className: _,
         path: "hangar_event_banners.event.PM4EntryPoint.tooltip.text",
       }),
-      (0, c.jsx)(n, {
+      (0, c.jsx)(a, {
         className: o,
         path: "hangarEventBanners.event.PM4EntryPoint.bg_tooltip",
         width: "340rem",

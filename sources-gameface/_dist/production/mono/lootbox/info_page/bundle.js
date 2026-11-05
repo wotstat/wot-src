@@ -15,8 +15,8 @@ import {
   O as b,
   Ot as _,
   Pt as p,
-  R as f,
-  T as h,
+  R as h,
+  T as f,
   V as g,
   Vt as x,
   Wt as v,
@@ -78,8 +78,8 @@ var ue = "ScrollContent_9c34c904",
   be = "ScrollContent_mask_fcd9d0de",
   _e = "ScrollContent_mask__top_95d8f716",
   pe = "ScrollContent_scrollBar_67bff939",
-  fe = "ScrollContent_space_5cb50dff",
-  he = ({ children: e }) => {
+  he = "ScrollContent_space_5cb50dff",
+  fe = ({ children: e }) => {
     const { api: s } = b(),
       { animationScroll: t, applyScroll: r } = s,
       n = I(s, a.vertical);
@@ -98,12 +98,12 @@ var ue = "ScrollContent_9c34c904",
             className: be,
             children: (0, ie.jsx)("div", {
               className: x(be, _e),
-              children: (0, ie.jsx)(h, {
+              children: (0, ie.jsx)(f, {
                 children: (0, ie.jsxs)(ie.Fragment, {
                   children: [
-                    (0, ie.jsx)("div", { className: fe }),
+                    (0, ie.jsx)("div", { className: he }),
                     e,
-                    (0, ie.jsx)("div", { className: fe }),
+                    (0, ie.jsx)("div", { className: he }),
                   ],
                 }),
               }),
@@ -114,7 +114,7 @@ var ue = "ScrollContent_9c34c904",
       })
     );
   },
-  ge = ({ children: e }) => (0, ie.jsx)(R, { children: (0, ie.jsx)(he, { children: e }) }),
+  ge = ({ children: e }) => (0, ie.jsx)(R, { children: (0, ie.jsx)(fe, { children: e }) }),
   xe = "Body_f2d5199c";
 var ve = (0, oe.createContext)({
     registerCell: S,
@@ -541,8 +541,8 @@ var Ze = {
       _ = e.name === m.Vehicles,
       {
         imageSize: p,
-        width: f,
-        height: h,
+        width: h,
+        height: f,
         fontSize: g,
       } = (function (e) {
         return B(
@@ -560,21 +560,22 @@ var Ze = {
           },
         )[e];
       })(a),
-      v = p === w.Big ? d.checkmark : d.checkmarkLarge,
-      N = p === w.Big ? ra : ia,
+      v = p === w.Big,
+      N = v ? d.checkmark : d.checkmarkLarge,
+      y = v ? ra : ia,
       {
-        tooltipId: y,
-        tooltipContentId: j,
-        overlayType: C,
-        isInHangar: k,
-        name: S,
-        count: I,
-        id: T,
-        styleID: L,
+        tooltipId: j,
+        tooltipContentId: C,
+        overlayType: k,
+        isInHangar: S,
+        name: I,
+        count: T,
+        id: L,
+        styleID: P,
       } = e;
     return (0, ie.jsx)(Fe, {
-      ...l({ contentId: Number(j), args: { tooltipId: y, boxCategory: e.icon, eventName: o } }),
-      style: { maxWidth: `${f}rem` },
+      ...l({ contentId: Number(C), args: { tooltipId: j, boxCategory: e.icon, eventName: o } }),
+      style: { maxWidth: `${h}rem` },
       className: x(ta.base, ta[`base__${p}`], s),
       children: (0, ie.jsxs)(ie.Fragment, {
         children: [
@@ -582,24 +583,29 @@ var Ze = {
             children: (0, ie.jsxs)(ie.Fragment, {
               children: [
                 (0, ie.jsx)(Fe.Icon, {
-                  className: x(k && ta.receivedIcon),
+                  className: x(S && ta.receivedIcon),
                   icon: Ke(e, p),
-                  sizes: { width: `${f}rem`, height: `${h}rem` },
+                  sizes: { width: `${h}rem`, height: `${f}rem` },
                 }),
-                I > 1 &&
+                T > 1 &&
                   (0, ie.jsx)(Fe.Badge.Count, {
                     count: e.count,
                     text: u.multiplier,
                     className: ta.count,
-                    style: { fontSize: g, ...Je(S, p) },
+                    style: { fontSize: g, ...Je(I, p) },
                   }),
-                C && (0, ie.jsx)(Fe.Badge.Overlay, { reward: e, size: p }),
+                k && (0, ie.jsx)(Fe.Badge.Overlay, { reward: e, size: p }),
               ],
             }),
           }),
           (0, ie.jsx)(ie.Fragment, {
             children: _
-              ? (0, ie.jsx)(Z, { reward: e, className: ta.tankName, style: { nameHeight: g } })
+              ? (0, ie.jsx)(Z, {
+                  reward: e,
+                  className: ta.tankName,
+                  style: { nameHeight: g },
+                  hasShortName: v,
+                })
               : (0, ie.jsx)(Xe, {
                   reward: e,
                   texts: { ...We(e, { texts: u, dynamicTexts: b }) },
@@ -607,12 +613,12 @@ var Ze = {
                   classNames: { label: ta.label },
                 }),
           }),
-          k && (0, ie.jsx)(Fe.InHangar, { className: ta.checkmark, icon: v, sizes: N }),
+          S && (0, ie.jsx)(Fe.InHangar, { className: ta.checkmark, icon: N, sizes: y }),
           A(e) &&
             (0, ie.jsx)(Fe.PreviewButton, {
               image: d.previewIcon,
               onClick: () => {
-                (i(c), n({ bonusType: S, bonusId: T || "", styleID: L }));
+                (i(c), n({ bonusType: I, bonusId: L || "", styleID: P }));
               },
               className: ta.preview,
               classNames: { icon: ta.previewIcon },
@@ -647,7 +653,7 @@ function pa(e) {
       return Ue;
   }
 }
-var fa = d(function () {
+var ha = d(function () {
     const { model: e } = sa(),
       { texts: a } = e.computes.resources(),
       { chosenCategory: s } = e.root.get(),
@@ -725,12 +731,12 @@ var fa = d(function () {
       ],
     });
   }),
-  ha = "TextBlock_a2d952f",
+  fa = "TextBlock_a2d952f",
   ga = "TextBlock_title_9b6ef3ea",
   xa = "TextBlock_description_edef8256";
 function va({ title: e, description: a, className: s }) {
   return (0, ie.jsxs)("div", {
-    className: x(ha, s),
+    className: x(fa, s),
     children: [
       (0, ie.jsx)("div", { className: ga, children: e }),
       (0, ie.jsx)("div", { className: xa, children: a }),
@@ -958,7 +964,7 @@ var ls = d(function () {
               children: [
                 (0, ie.jsx)(Q, { text: t.headerSubtitle, expireTime: d, className: rs }),
                 (0, ie.jsx)(H, { text: i.boxNames.dyn(l), className: is }),
-                (0, ie.jsx)(fa, {}),
+                (0, ie.jsx)(ha, {}),
                 o &&
                   (0, ie.jsx)(ne, {
                     text: t.lootListLink,
@@ -993,4 +999,4 @@ var ls = d(function () {
     })
   );
 });
-f((0, ie.jsx)(z, { children: (0, ie.jsx)(aa, { children: (0, ie.jsx)(ls, {}) }) }));
+h((0, ie.jsx)(z, { children: (0, ie.jsx)(aa, { children: (0, ie.jsx)(ls, {}) }) }));

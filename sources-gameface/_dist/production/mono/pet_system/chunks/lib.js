@@ -642,6 +642,38 @@ var timeFormats = { full: DateTimeFormatsEnum.FullTime, short: DateTimeFormatsEn
 function formatTime(e, t, n = !0) {
   return window.regionalDateTime.getRegionalDateTime(t, e, n);
 }
+function getDateParts(e) {
+  const t = new Date(1e3 * e);
+  return {
+    year: t.getFullYear(),
+    month: t.getMonth() + 1,
+    hours: t.getHours(),
+    minutes: t.getMinutes(),
+    seconds: t.getSeconds(),
+  };
+}
+function isSameTime(e, t) {
+  return e.hours === t.hours && e.minutes === t.minutes && e.seconds === t.seconds;
+}
+function getRangeFormatPath(e, t) {
+  const n = e.year === t.year;
+  return [
+    "datetime_formats",
+    "dateRange",
+    "dateWithYear",
+    n ? "sameYear" : "differentYear",
+    n && e.month === t.month ? "sameMonth" : "differentMonth",
+    isSameTime(e, t) ? "sameTime" : "differentTime",
+  ].join(".");
+}
+function formatRange(e, t) {
+  const n = getRangeFormatPath(getDateParts(e), getDateParts(t)),
+    r = resources.resolve("strings");
+  return {
+    start: window.regionalDateTime.getFormattedDateTime(e, r.readOrEmpty(`${n}.start`), !0),
+    end: window.regionalDateTime.getFormattedDateTime(t, r.readOrEmpty(`${n}.end`), !0),
+  };
+}
 var intl$3 = {
     isNumberFormat: isNumberFormat,
     formatNumber: formatNumber$1,
@@ -653,6 +685,7 @@ var intl$3 = {
     dateTimeFormats: DateTimeFormatsEnum,
     formatTime: formatTime,
     timeFormats: timeFormatList,
+    formatRange: formatRange,
     toUpperCase: (e) => window.systemLocale.toUpperCase(e),
     toLowerCase: (e) => window.systemLocale.toLowerCase(e),
   },
@@ -23119,7 +23152,7 @@ function useScrollBounding(e, [t, n] = IGNORE_DEFAULT) {
   );
 }
 var scrollOrientations = { horizontal: "horizontal", vertical: "vertical" },
-  background$2 = "Thumb_background_b893084a",
+  background$2 = "Thumb_background_7f3dd6ac",
   border$2 = "Thumb_border_5749138b",
   innerBorder = "Thumb_innerBorder_42bafd18",
   icon$2 = "Thumb_icon_dca8bf26",
@@ -24948,7 +24981,11 @@ function Portal({
     y = (0, import_react.useMemo)(
       () => (t ? (document.querySelector(t) ?? document.body) : document.body),
       [t],
-    );
+    ),
+    [w, S] = useSpring(() => ({
+      from: { opacity: 0, transform: v[r] },
+      config: { easing: easings$1.easeInOutCubic, duration: 250 },
+    }));
   (0, import_react.useEffect)(() => {
     m.current = void 0;
     const e = p.current;
@@ -24960,7 +24997,7 @@ function Portal({
       if (!f.opened) return void _(void 0);
       if (!1 === l(f, { callerBounding: t, containerBounding: a, bodyBounding: o })) return;
       if (s) {
-        if (m.current && !isEqual(m.current, t)) return void f.close();
+        if (m.current && !isEqual(m.current, t)) return (S.set({ opacity: 0 }), void f.close());
         m.current = t;
       }
       const i = getUpdatedPosition(r, g, t, a, o);
@@ -24971,8 +25008,8 @@ function Portal({
         }));
     });
     return (o.start(), o.stop);
-  }, [f, l, s, g, n, b, f.id, f.portal, f.trigger, r, f.opened]);
-  const w = (0, import_react.useCallback)(() => {
+  }, [f, l, s, S, g, n, b, f.id, f.portal, f.trigger, r, f.opened]);
+  const E = (0, import_react.useCallback)(() => {
     const e = p.current;
     e &&
       document.activeElement &&
@@ -24980,7 +25017,7 @@ function Portal({
       e.contains(document.activeElement) &&
       document.activeElement.blur();
   }, []);
-  ((0, import_react.useEffect)(() => f.subscribe.onBeforeClose(w), [f.subscribe, w]),
+  ((0, import_react.useEffect)(() => f.subscribe.onBeforeClose(E), [f.subscribe, E]),
     useHandleKeydown(i && f.opened ? keyCodes.ESCAPE : keyCodes.NONE, () => {
       f.close();
     }),
@@ -25017,21 +25054,17 @@ function Portal({
           }),
         ).dispose;
     }, [f]));
-  const [S, E] = useSpring(() => ({
-      from: { opacity: 0, transform: v[r] },
-      config: { easing: easings$1.easeInOutCubic, duration: 250 },
-    })),
-    x = import_react.useRef(v);
+  const x = import_react.useRef(v);
   return (
     (x.current = v),
     (0, import_react.useEffect)(() => {
       if (!h) return;
       const e = { opacity: 0, transform: x.current[h] };
-      E.start({
+      S.start({
         from: f.opened ? e : void 0,
         to: f.opened ? { opacity: 1, transform: "translate(0rem, 0rem) scale(1)" } : e,
       });
-    }, [E, h, f.opened]),
+    }, [S, h, f.opened]),
     !f.opened && o
       ? null
       : (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, {
@@ -25043,11 +25076,11 @@ function Portal({
                 position: "absolute",
                 top: "0",
                 left: "0",
-                pointerEvents: S.opacity.to((e) => (1 === e ? "auto" : "none")),
-                display: S.opacity.to((e) => (0 !== e || f.opened ? "block" : "none")),
+                pointerEvents: w.opacity.to((e) => (1 === e ? "auto" : "none")),
+                display: w.opacity.to((e) => (0 !== e || f.opened ? "block" : "none")),
                 ...d.style,
               },
-              children: (0, import_jsx_runtime.jsx)(animated.div, { style: S, children: e }),
+              children: (0, import_jsx_runtime.jsx)(animated.div, { style: w, children: e }),
             }),
             y,
           ),
@@ -26496,14 +26529,14 @@ function ProgressBar({
 export {
   useTooltip as $,
   Area$1 as A,
-  require_react_dom as At,
+  clsx as At,
   Reward as B,
   Base$8 as C,
-  initExternalPaddings$1 as Ct,
+  enableFullScreenModeSupported$1 as Ct,
   Base$9 as D,
-  sounds$1 as Dt,
+  play$1 as Dt,
   Bar as E,
-  play$1 as Et,
+  setSidePaddingsRem$1 as Et,
   sizes$3 as F,
   getRewardTooltipConfig as G,
   Video$1 as H,
@@ -26512,17 +26545,18 @@ export {
   getRewardValueType$1 as K,
   MultilineOverflow as L,
   useHorizontalScroll as M,
-  resources as Mt,
+  require_react as Mt,
   Button as N,
+  resources as Nt,
   dragDirections as O,
-  graphicsQuality$1 as Ot,
+  sounds$1 as Ot,
   defineStyledComponent as P,
   useSimpleTooltip as Q,
   FormatString as R,
   Video as S,
-  enableFullScreenModeSupported$1 as St,
+  noop$3 as St,
   DefaultScroll as T,
-  setSidePaddingsRem$1 as Tt,
+  resize$1 as Tt,
   UIProvider as U,
   require_classnames as V,
   getRewardImage as W,
@@ -26530,38 +26564,38 @@ export {
   JSXBuilder as Y,
   initializeModelWithContext as Z,
   Bubble as _,
-  map as _t,
+  makeObservable as _t,
   roles as a,
   useCallbackOnEsc as at,
   Image$1 as b,
-  identity as bt,
+  keyCodes as bt,
   CardSingle as c,
-  useMedia as ct,
+  useAdaptive as ct,
   Card as d,
-  mapRange as dt,
+  breakpointsByType as dt,
   useRem as et,
   RadioButton as f,
-  createLayoutReadyInEffect$1 as ft,
+  mapRange as ft,
   usePopover as g,
-  makeObservable as gt,
+  getDependencyTree as gt,
   Popover as h,
-  getDependencyTree as ht,
+  configure as ht,
   List as i,
   easings as it,
   useScrollBounding as j,
-  require_react as jt,
+  require_react_dom as jt,
   useScrollByDragElements as k,
-  clsx as kt,
+  graphicsQuality$1 as kt,
   CardsWrapper as l,
-  require_jsx_runtime as lt,
+  useMedia as lt,
   TruncatedText as m,
-  configure as mt,
+  Reaction as mt,
   Tooltip as n,
   animated as nt,
   types$1 as o,
   useHandleKeydown as ot,
   sizes$1 as p,
-  Reaction as pt,
+  createLayoutReadyInEffect$1 as pt,
   ImageSize$1 as q,
   Currency as r,
   useSprings as rt,
@@ -26570,14 +26604,14 @@ export {
   ProgressBar as t,
   useSkipFrame as tt,
   borderTypes as u,
-  breakpointsByType as ut,
+  require_jsx_runtime as ut,
   sizes$2 as v,
-  mapExists as vt,
+  map as vt,
   Area as w,
-  resize$1 as wt,
+  initExternalPaddings$1 as wt,
   getRewardValueType as x,
-  noop$3 as xt,
+  identity as xt,
   types$2 as y,
-  keyCodes as yt,
+  mapExists as yt,
   FormatText as z,
 };

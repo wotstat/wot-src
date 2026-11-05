@@ -1,8 +1,9 @@
 import { r as e } from "./rolldown-runtime.js";
-import { Ht as a, Vt as s, _ as n, ft as i, g as t } from "./lib.js";
+import { Ht as a, Vt as s, _ as i, ft as n, g as t } from "./lib.js";
 import { r } from "./resources.js";
-var o = e(i()),
-  c = {
+a();
+var o = e(n()),
+  l = {
     ENTRY_POINT: {
       icon: { emptyIconBrightness: 0.4, boxesIconBrightness: 0.4 },
       shine: { opacity: { initial: 1, hover: 1 } },
@@ -18,10 +19,17 @@ var o = e(i()),
       hoverZone: { width: "38%", height: "39%", horizontalOffset: "30.8%", verticalOffset: "39%" },
       backgroundColor: "#111",
     },
-    COMMON: { guaranteed: { accent: 5, visibleAt: 10 } },
+    COMMON: {
+      guaranteed: {
+        accent: 5,
+        visibleAt: 10,
+        highlight: { color: "rgba(255, 228, 192, 1)", shadow: "rgba(255, 228, 192, 0.4)" },
+      },
+      hasPanelShadow: !1,
+    },
   },
-  l = {
-    DEFAULT_CONFIG: c,
+  c = {
+    DEFAULT_CONFIG: l,
     anniversaryCN: {
       ENTRY_POINT: { icon: { emptyIconBrightness: 0.2 } },
       HOME_VIEW: { hasIdle: !1 },
@@ -33,97 +41,122 @@ var o = e(i()),
         shine: { opacity: { initial: 0.4, hover: 0.8 } },
       },
       HOME_VIEW: { vignette: { isEnabled: !0, opacity: 0.8 } },
-      COMMON: { guaranteed: { accent: 5, visibleAt: 0 } },
+      COMMON: {
+        guaranteed: {
+          accent: 5,
+          visibleAt: 0,
+          highlight: { color: "rgba(164, 236, 241, 1)", shadow: "rgba(164, 236, 241, 0.4)" },
+        },
+        hasPanelShadow: !0,
+      },
     },
   },
   g = (e, a) => {
     const s = (e, a) => {
-      const n = { ...e };
-      for (const i in n)
+      const i = { ...e };
+      for (const n in i)
         a &&
-          i in a &&
-          ("object" == typeof n[i] ? (n[i] = s(n[i], a[i] ?? n[i])) : (n[i] = a[i] ?? n[i]));
-      return n;
+          n in a &&
+          ("object" == typeof i[n] ? (i[n] = s(i[n], a[n] ?? i[n])) : (i[n] = a[n] ?? i[n]));
+      return i;
     };
     return s(e, a);
   };
 function h(e, a) {
-  const s = l[n(e)],
-    i = s?.COMMON ? g(c.COMMON, s.COMMON) : c.COMMON;
-  if (!a) return i;
-  const t = s ? g(c[a], s[a]) : c[a],
-    r = Object.keys(t).filter((e) => e in i);
+  const s = c[i(e)],
+    n = s?.COMMON ? g(l.COMMON, s.COMMON) : l.COMMON;
+  if (!a) return n;
+  const t = s ? g(l[a], s[a]) : l[a],
+    r = Object.keys(t).filter((e) => e in n);
   if (r.length > 0)
     throw new Error(
       `[getConfig] Name conflict in "${e}.${String(a)}": keys [${r.join(", ")}] exist in both componentConfig and commonConfig.`,
     );
-  return { ...t, ...i };
+  return { ...t, ...n };
 }
 var d = {
     base: "Number_cf3a5bc4",
     "base__size-large": "Number_base__size-large_bbebea6f",
     media: "Number_media_2d3c9ebe",
-    count: "Number_count_26a61f60",
+    count: "Number_count_c8e4bb3b",
     base__highlight: "Number_base__highlight_17ab79b6",
     glow: "Number_glow_87d55301",
     fadeIn: "Number_fadeIn_17ab79b6",
   },
   m = { small: "small", large: "large" };
-function u({ highlight: e, assets: a, counts: n, size: i = m.small, className: r = "" }) {
-  const { icons: c, videos: l } = a,
-    g = e ? "none" : c.default;
+function u({
+  assets: e,
+  counts: a,
+  size: i = m.small,
+  className: n = "",
+  highlight: r = { enabled: !1, color: "", shadow: "" },
+}) {
+  const { icons: l, videos: c } = e;
   return (0, o.jsxs)("div", {
-    className: s(d.base, d[`base__size-${i}`], e && d.base__highlight, r),
+    className: s(d.base, d[`base__size-${i}`], r.enabled && d.base__highlight, n),
+    style: { "--guaranteed-highlight-color": r.color, "--guaranteed-highlight-shadow": r.shadow },
     children: [
-      e
+      r.enabled
         ? (0, o.jsx)("div", {
             className: d.media,
-            children: (0, o.jsx)(t, { loop: !0, autoplay: !0, className: d.glow, src: l.glow }),
+            children: (0, o.jsx)(t, { loop: !0, autoplay: !0, className: d.glow, src: c.glow }),
           })
-        : (0, o.jsx)("div", { className: d.media, style: { backgroundImage: `url(${g})` } }),
-      (0, o.jsx)("div", { className: d.count, children: n }),
+        : (0, o.jsx)("div", {
+            className: d.media,
+            style: { backgroundImage: `url(${l.default})` },
+          }),
+      (0, o.jsx)("div", { className: d.count, children: a }),
     ],
   });
 }
-a();
 var b = "Icon_2beee90a",
   _ = (e) => ("number" == typeof e ? `${e}rem` : e);
-function N({ src: e, size: a, className: n }) {
+function N({ src: e, size: a, className: i }) {
   return (0, o.jsx)("div", {
-    className: s(b, n),
+    className: s(b, i),
     style: { backgroundImage: `url(${e})`, ...(a && { width: _(a.width), height: _(a.height) }) },
   });
 }
 var f = "Highlight_c2944c51",
-  v = "Highlight_base__highlight_8b97c5a1";
-var I = "Title_1dcff219",
-  O = "Title_wrapper_5727057f";
-function M({ children: e, className: a, ...n }) {
+  v = "Highlight_base__highlight_68b0083b";
+var w = "Title_1dcff219",
+  I = "Title_wrapper_5727057f";
+function O({ children: e, className: a, ...i }) {
   return (0, o.jsx)("div", {
-    ...n,
-    className: s(I, a),
-    children: (0, o.jsx)("div", { className: O, children: e }),
+    ...i,
+    className: s(w, a),
+    children: (0, o.jsx)("div", { className: I, children: e }),
   });
 }
-((M.Info = ({ size: e, ...a }) => (0, o.jsx)(N, { size: { width: 24, height: 24 }, ...a })),
-  (M.Highlight = function ({ text: e, highlight: a, className: n }) {
-    return (0, o.jsx)("div", { className: s(f, a && v, n), children: e });
+((O.Info = ({ size: e, ...a }) => (0, o.jsx)(N, { size: { width: 24, height: 24 }, ...a })),
+  (O.Highlight = function ({ text: e, color: a, highlight: i, className: n }) {
+    return (0, o.jsx)("div", {
+      className: s(f, i && v, n),
+      style: { "--guaranteed-highlight-color": a },
+      children: e,
+    });
   }));
-var p = {
+var M = {
   images: { guaranteedIconS: "common.shield.shieldS", guaranteedIconM: "common.shield.shieldM" },
   videos: { guaranteedGlowS: "common.shield.glowS", guaranteedGlowM: "common.shield.glowM" },
 };
-function w({ counts: e, size: a = m.small, eventName: s, className: n }) {
-  const i = (function (e, a) {
-      const { images: s, videos: n } = r(p, e);
+function p({ counts: e, size: a = m.small, eventName: s, className: i }) {
+  const n = (function (e, a) {
+      const { images: s, videos: i } = r(M, e);
       switch (a) {
         case m.small:
-          return { icons: { default: s.guaranteedIconS }, videos: { glow: n.guaranteedGlowS } };
+          return { icons: { default: s.guaranteedIconS }, videos: { glow: i.guaranteedGlowS } };
         case m.large:
-          return { icons: { default: s.guaranteedIconM }, videos: { glow: n.guaranteedGlowM } };
+          return { icons: { default: s.guaranteedIconM }, videos: { glow: i.guaranteedGlowM } };
       }
     })(s, a),
     { guaranteed: t } = h(s);
-  return (0, o.jsx)(u, { className: n, highlight: e <= t.accent, counts: e, size: a, assets: i });
+  return (0, o.jsx)(u, {
+    className: i,
+    highlight: { enabled: e <= t.accent, ...t.highlight },
+    counts: e,
+    size: a,
+    assets: n,
+  });
 }
-export { h as a, m as i, M as n, N as r, w as t };
+export { h as a, m as i, O as n, N as r, p as t };

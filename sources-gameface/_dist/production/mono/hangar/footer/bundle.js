@@ -5,66 +5,66 @@ const __vite__mapDeps = (
 ) => i.map((i) => d[i]);
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
-  $a as t,
-  $r as a,
-  Ai as o,
-  Ca as n,
-  In as s,
-  Kn as r,
-  Kr as i,
-  Li as l,
-  Mn as c,
-  Mr as d,
-  Ni as u,
-  Nn as m,
-  Nr as _,
-  Or as h,
-  Qi as f,
-  Qn as y,
-  Rn as b,
-  Vr as p,
-  Xn as g,
-  Yn as x,
+  $i as t,
+  Bi as a,
+  In as o,
+  Kn as n,
+  Mi as s,
+  Mn as r,
+  Mr as i,
+  Nn as l,
+  Nr as c,
+  Or as d,
+  Pi as u,
+  Qn as m,
+  Ri as _,
+  Rn as h,
+  Sa as f,
+  Ta as y,
+  Vr as b,
+  Xn as p,
+  Yn as g,
   Zn as v,
+  ai as x,
   ci as w,
   cr as C,
-  di as B,
-  dr as N,
+  dr as B,
+  ei as N,
   eo as j,
-  fa as M,
+  fi as M,
+  ga as R,
   gn as k,
-  ha as R,
-  hn as S,
-  hr as P,
-  ii as E,
+  hi as S,
+  hn as P,
+  hr as E,
   ir as I,
   ji as O,
   jn as z,
-  kr as A,
-  li as L,
-  lo as V,
-  lr as W,
-  mi as D,
-  mr as F,
-  no as $,
-  nr as G,
-  pr as H,
-  si as T,
-  ur as U,
-  wa as Q,
-  xa as q,
-  xr as K,
-  yr as X,
-  zi as Y,
+  kr as V,
+  li as W,
+  lr as A,
+  mr as L,
+  nr as D,
+  pa as F,
+  pr as $,
+  qr as G,
+  ro as T,
+  to as H,
+  ui as U,
+  uo as q,
+  ur as Q,
+  wa as K,
+  xr as X,
+  yr as Y,
   zn as Z,
   zr as J,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { t as ee } from "../chunks/divider.js";
-var [te, ae] = P("ChatsProvider")(
+var [te, ae] = E("ChatsProvider")(
     ({ observableModel: e }) => {
       const t = { chats: e.dict("messages") },
-        a = H.shallow(() =>
+        a = $.shallow(() =>
           Array.from(
             t.chats.values().sort((e, t) => {
               const { order: a, prebattle: o } = e.get(),
@@ -82,15 +82,15 @@ var [te, ae] = P("ChatsProvider")(
       openChannelsWindow: e.createCallback((e) => e, "onChatsAction"),
     }),
   ),
-  [oe, ne] = P("ContactsListModel")(
+  [oe, ne] = E("ContactsListModel")(
     ({ observableModel: e }) => ({ ...e.primitives(["contactsCount"]) }),
     R,
   ),
-  [se, re] = P()(
+  [se, re] = E()(
     ({ observableModel: e }) => ({ ...e.primitives(["oldStyle"]) }),
     ({ externalModel: e }) => ({ openGameMenu: e.createCallbackNoArgs("onOpenGameMenu") }),
   ),
-  [ie, le] = P()(
+  [ie, le] = E()(
     ({ observableModel: e }) => ({
       ...e.primitives({
         newNotificationsCount: "newNotificationsCount",
@@ -99,40 +99,40 @@ var [te, ae] = P("ChatsProvider")(
     }),
     R,
   ),
-  [ce, de] = P("ReferralProgramProvider")(
+  [ce, de] = E("ReferralProgramProvider")(
     ({ observableModel: e }) => ({
       ...e.primitives(["firstIndication", "enabled", "bubbleCount"]),
     }),
     ({ externalModel: e }) => ({ openReferralProgram: e.createCallbackNoArgs("onClick") }),
   ),
-  [ue, me] = P("ServerInfoProvider")(
+  [ue, me] = E("ServerInfoProvider")(
     ({ observableModel: e }) => ({ ...e.primitives(["serverName", "status", "colorBlind"]) }),
     R,
   ),
-  [_e, he] = P("SessionStatisticProvider")(
+  [_e, he] = E("SessionStatisticProvider")(
     ({ observableModel: e }) => ({
       ...e.primitives(["battleCount", "enabled", "sessionStatsEnabled", "winback"]),
     }),
     R,
   ),
-  [fe, ye] = P("VehicleCompareProvider")(
+  [fe, ye] = E("VehicleCompareProvider")(
     ({ observableModel: e }) => {
-      const t = {
+      const o = {
           ...e.primitives({ isEnabled: "enabled" }),
           vehicles: e.arrayClone("vehicles"),
-          compareButtonDOMRect: Y.box({ left: 0, width: 0 }, { deep: !1 }),
+          compareButtonDOMRect: a.box({ left: 0, width: 0 }, { deep: !1 }),
         },
-        a = F(() => f(t.vehicles.get())),
-        o = F(() => t.vehicles.get().length);
-      return { ...t, computes: { getLastVehicle: a, getVehiclesCount: o } };
+        n = L(() => t(o.vehicles.get())),
+        s = L(() => o.vehicles.get().length);
+      return { ...o, computes: { getLastVehicle: n, getVehiclesCount: s } };
     },
     ({ model: e }) => ({
-      setCompareButtonDOMRect: l((t) => {
+      setCompareButtonDOMRect: _((t) => {
         e.compareButtonDOMRect.set(t);
       }),
     }),
   ),
-  be = e($(), 1),
+  be = e(T(), 1),
   pe = {
     frames: {
       commanderPlayer_ready: { h: 64, w: 64, x: 0, y: 0 },
@@ -155,7 +155,7 @@ var [te, ae] = P("ChatsProvider")(
     },
     meta: { size: { h: 144, w: 96 } },
   },
-  xe = {
+  ve = {
     frames: {
       commanderPlayer_ready: { h: 128, w: 128, x: 0, y: 0 },
       commander_ready: { h: 128, w: 128, x: 128, y: 0 },
@@ -166,7 +166,7 @@ var [te, ae] = P("ChatsProvider")(
     },
     meta: { size: { h: 384, w: 256 } },
   },
-  ve = {
+  xe = {
     frames: {
       chat: { h: 32, w: 32, x: 0, y: 0 },
       commanderPlayer_inBattle: { h: 32, w: 32, x: 32, y: 0 },
@@ -245,33 +245,33 @@ var [te, ae] = P("ChatsProvider")(
 function Ne(e) {
   return (
     "string" == typeof e &&
-    (e in ve.frames ||
+    (e in xe.frames ||
       e in we.frames ||
       e in Ce.frames ||
       e in ge.frames ||
       e in pe.frames ||
-      e in xe.frames)
+      e in ve.frames)
   );
 }
 function je(e, t, a = !1) {
   return e === Be.upscale
     ? a
-      ? { config: xe, path: "header_footer.footer_highlighted_upscale", icon: t }
+      ? { config: ve, path: "header_footer.footer_highlighted_upscale", icon: t }
       : { config: Ce, path: "header_footer.footer_upscale", icon: t }
     : e === Be.medium
       ? a
         ? { config: pe, path: "header_footer.footer_highlighted_large", icon: t }
-        : { config: ve, path: "header_footer.footer_large", icon: t }
+        : { config: xe, path: "header_footer.footer_large", icon: t }
       : a
         ? { config: ge, path: "header_footer.footer_highlighted_small", icon: t }
         : { config: we, path: "header_footer.footer_small", icon: t };
 }
 function Me(e, t) {
-  const a = q("px");
-  return { x: n(e + a.x - 8), y: n(t + a.y - 8 - 356), width: 424, height: 356 };
+  const a = f("px");
+  return { x: K(e + a.x - 8), y: K(t + a.y - 8 - 356), width: 424, height: 356 };
 }
-var ke = "maskLeft",
-  Re = "maskRight",
+var Re = "maskLeft",
+  ke = "maskRight",
   Se = "maskBoth",
   Pe = "none";
 function Ee(e, t, a) {
@@ -288,54 +288,54 @@ function Ee(e, t, a) {
 var Ie = "ChatButton_58c17ddd",
   Oe = "ChatButton_base__glow_e84e99cd",
   ze = "ChatButton_overlay_d0e16554",
-  Ae = "ChatButton_base__unreadMessages_1daa9390",
-  Le = "ChatButton_content_1735f2eb",
-  Ve = "ChatButton_name_a3b5f0d7",
-  We = "ChatButton_closeIcon_7b57d2d1",
-  De = e(D(), 1),
+  Ve = "ChatButton_base__unreadMessages_1daa9390",
+  We = "ChatButton_content_1735f2eb",
+  Ae = "ChatButton_name_a3b5f0d7",
+  Le = "ChatButton_closeIcon_7b57d2d1",
+  De = e(S(), 1),
   Fe = /^#.*?:/,
-  $e = V.resolve("strings");
+  $e = q.resolve("strings");
 function Ge(e) {
   return e.match(Fe) ? $e.readOrEmpty(e.slice(1).replace(/[:/]/g, ".")) : e;
 }
-var He = C(
+var Te = C(
     (0, be.forwardRef)(function (
       {
         id: e,
         name: t,
         tooltipId: a,
-        opened: o,
-        systemChat: n,
+        opened: n,
+        systemChat: s,
         hasUnreadMessages: r,
         className: i,
         onClick: l,
         onClose: c,
       },
-      d,
+      u,
     ) {
-      const u = h({ header: a ? `${a}/header` : void 0, body: a ? `${a}/body` : t }),
-        m = X(
+      const m = d({ header: a ? `${a}/header` : void 0, body: a ? `${a}/body` : t }),
+        _ = Y(
           "channelList",
-          (0, be.useMemo)(() => ({ clientID: e, canClose: !n }), [e, n]),
+          (0, be.useMemo)(() => ({ clientID: e, canClose: !s }), [e, s]),
         );
-      return (0, De.jsxs)(s, {
-        ref: d,
-        ...u,
+      return (0, De.jsxs)(o, {
+        ref: u,
         ...m,
+        ..._,
         theme: Z.secondary,
-        size: b.small,
+        size: h.small,
         onClick: function (t) {
           const { left: a, top: o } = t.currentTarget.getBoundingClientRect();
-          (u.onClick(), l(e, Me(a, o)));
+          (m.onClick(), l(e, Me(a, o)));
         },
-        className: j(Ie, (o || r) && Oe, r && Ae, i),
-        classNames: { overlay: ze, content: Le },
+        className: H(Ie, (n || r) && Oe, r && Ve, i),
+        classNames: { overlay: ze, content: We },
         autoAlignContent: !1,
         children: [
-          (0, De.jsx)("div", { className: Ve, children: Ge(t) }),
-          !n &&
+          (0, De.jsx)("div", { className: Ae, children: Ge(t) }),
+          !s &&
             (0, De.jsx)("div", {
-              className: We,
+              className: Le,
               onClick: function (t) {
                 (t.stopPropagation(), c(e));
               },
@@ -344,7 +344,7 @@ var He = C(
       });
     }),
   ),
-  Te = {
+  He = {
     base: "ScrollControlButtons_bd2f5f8c",
     content: "ScrollControlButtons_content_4ec4a98f",
     content__maskLeft: "ScrollControlButtons_content__maskLeft_41708133",
@@ -356,84 +356,84 @@ var He = C(
     arrowButton__disabled: "ScrollControlButtons_arrowButton__disabled_e38b51c",
   };
 function Ue({ itemWidth: e, api: t, children: a }) {
-  const o = (0, be.useRef)(null),
-    [n, r] = (0, be.useState)(!1),
-    [i, l] = g(t),
+  const n = (0, be.useRef)(null),
+    [s, r] = (0, be.useState)(!1),
+    [i, l] = p(t),
     { disabled: c, animationScroll: d, applyScroll: u } = t;
   function m(t) {
     function a() {
       u(d.scrollPosition.get() + t * e);
     }
-    n || (a(), (o.current = window.setInterval(a, 100)), r(!0));
+    s || (a(), (n.current = window.setInterval(a, 100)), r(!0));
   }
   function _() {
-    (null !== o.current && (clearInterval(o.current), (o.current = null)), r(!1));
+    (null !== n.current && (clearInterval(n.current), (n.current = null)), r(!1));
   }
   return (0, De.jsxs)("div", {
-    className: Te.base,
+    className: He.base,
     children: [
       !c &&
-        (0, De.jsx)(s, {
+        (0, De.jsx)(o, {
           theme: Z.secondary,
-          size: b.small,
+          size: h.small,
           autoAlignContent: !1,
           onMouseDown: () => m(-1),
           onMouseUp: _,
           onMouseLeave: _,
           disabled: i,
-          className: j(Te.arrowButton, Te.arrowButton__left, i && Te.arrowButton__disabled),
+          className: H(He.arrowButton, He.arrowButton__left, i && He.arrowButton__disabled),
         }),
       (0, De.jsx)("div", {
-        className: j(
-          Te.content,
-          Te[`content__${((h = i), (f = l), h || f ? (f ? (h ? Pe : ke) : Re) : Se)}`],
+        className: H(
+          He.content,
+          He[`content__${((f = i), (y = l), f || y ? (y ? (f ? Pe : Re) : ke) : Se)}`],
         ),
         children: a,
       }),
       !c &&
-        (0, De.jsx)(s, {
+        (0, De.jsx)(o, {
           theme: Z.secondary,
-          size: b.small,
+          size: h.small,
           autoAlignContent: !1,
           onMouseDown: () => m(1),
           onMouseUp: _,
           onMouseLeave: _,
           disabled: l,
-          className: j(Te.arrowButton, Te.arrowButton__right, l && Te.arrowButton__disabled),
+          className: H(He.arrowButton, He.arrowButton__right, l && He.arrowButton__disabled),
         }),
     ],
   });
-  var h, f;
+  var f, y;
 }
-var Qe = "ChatCarousel_545467f0",
-  qe = "ChatCarousel_scrollWrapper_578773a",
+var qe = "ChatCarousel_545467f0",
+  Qe = "ChatCarousel_scrollWrapper_578773a",
   Ke = "ChatCarousel_scrollContent_61109c3c",
   Xe = "ChatCarousel_button_8bb458f8",
   Ye = "ChatCarousel_button__firstItem_e66db7f4",
   Ze = "ChatCarousel_divider_312a4ca4",
   Je = C(function ({ className: e }) {
     const { api: t } = v(),
-      { model: o, controls: n } = ae(),
-      s = o.computes.sortedChats(),
-      r = T(s),
-      [l, c] = (0, be.useState)(-1),
-      [d, u] = (0, be.useState)(!1),
-      m = (0, be.useRef)(null),
-      h = (0, be.useRef)(null);
+      { model: a, controls: o } = ae(),
+      n = a.computes.sortedChats(),
+      s = w(n),
+      [r, i] = (0, be.useState)(-1),
+      [l, d] = (0, be.useState)(!1),
+      u = (0, be.useRef)(null),
+      m = (0, be.useRef)(null);
     ((0, be.useLayoutEffect)(() => {
       const e = t.getContainerSize(),
         a = t.getWrapperSize();
       if (e && a) {
-        if ((e < a && t.applyScroll(0), h.current)) {
-          const a = h.current - e;
+        if ((e < a && t.applyScroll(0), m.current)) {
+          const a = m.current - e;
           if (0 !== a) {
             const e = t.animationScroll.scrollPosition.get();
             t.applyScroll(e - a);
           }
         }
-        h.current = e;
+        m.current = e;
       }
-    }, [s.length, t]),
+    }, [n.length, t]),
       (0, be.useEffect)(() => {
         const e = () => {
           const e = t.getContainerSize(),
@@ -442,65 +442,65 @@ var Qe = "ChatCarousel_545467f0",
         };
         return (
           e(),
-          new M().add(t.events.on("resizeHandled", e)).add(t.events.on("recalculateContent", e))
+          new F().add(t.events.on("resizeHandled", e)).add(t.events.on("recalculateContent", e))
             .dispose
         );
-      }, [t, s.length]),
+      }, [t, n.length]),
       (0, be.useEffect)(() => {
         function e() {
           const e = t.contentRef.current?.getBoundingClientRect();
-          e && n.updateWindowAnchor(Me(e.right, e.top));
+          e && o.updateWindowAnchor(Me(e.right, e.top));
         }
-        return new M()
+        return new F()
           .add(t.events.on("resizeHandled", e))
           .add(t.events.on("recalculateContent", e)).dispose;
-      }, [t, n]),
+      }, [t, o]),
       (0, be.useEffect)(() => {
-        if (r && s.length > r.length) {
-          const e = s.findIndex((e) => !r.includes(e));
-          -1 !== e && (c(e), u(!0));
+        if (s && n.length > s.length) {
+          const e = n.findIndex((e) => !s.includes(e));
+          -1 !== e && (i(e), d(!0));
         }
-      }, [s, r, t]));
-    const f = (0, be.useRef)(0);
-    (i(() => {
-      if (-1 !== l && m.current && t.wrapperRef.current && d) {
+      }, [n, s, t]));
+    const _ = (0, be.useRef)(0);
+    (G(() => {
+      if (-1 !== r && u.current && t.wrapperRef.current && l) {
         const e = t.animationScroll.scrollPosition.get(),
-          a = m.current.getBoundingClientRect(),
+          a = u.current.getBoundingClientRect(),
           o = t.wrapperRef.current.getBoundingClientRect();
         ((a.left >= o.left && a.right <= o.right) ||
-          (f.current = window.setTimeout(() => t.applyScroll(Ee(o, a, e)), 100)),
-          u(!1));
+          (_.current = window.setTimeout(() => t.applyScroll(Ee(o, a, e)), 100)),
+          d(!1));
       }
-    }, [l, t, d]),
-      a(() => clearTimeout(f.current)));
-    const y = _(92, []);
+    }, [r, t, l]),
+      N(() => clearTimeout(_.current)));
+    const h = c(92, []);
     return (0, De.jsxs)(De.Fragment, {
       children: [
-        s.length > 0 && (0, De.jsx)(ee, { className: Ze }),
+        n.length > 0 && (0, De.jsx)(ee, { className: Ze }),
         (0, De.jsx)("div", {
-          className: j(Qe, e),
+          className: H(qe, e),
           children: (0, De.jsx)(Ue, {
             api: t,
-            itemWidth: y,
-            children: (0, De.jsx)(x, {
-              classNames: { wrapper: qe, content: Ke },
-              children: s.map((e, t) => {
-                const { id: a, name: o, selected: s, viewed: r, system: i, tooltipId: c } = e.get();
+            itemWidth: h,
+            children: (0, De.jsx)(g, {
+              classNames: { wrapper: Qe, content: Ke },
+              children: n.map((e, t) => {
+                const { id: a, name: n, selected: s, viewed: i, system: l, tooltipId: c } = e.get();
                 return (0, De.jsx)(
-                  He,
+                  Te,
                   {
-                    ref: t === l ? m : null,
+                    ref: t === r ? u : null,
                     id: a,
-                    name: o,
+                    name: n,
                     opened: s,
-                    hasUnreadMessages: !r,
-                    systemChat: i,
+                    hasUnreadMessages: !i,
+                    systemChat: l,
                     tooltipId: c,
-                    onClick: n.openChat,
-                    onClose: n.deleteChat,
-                    className: j(Xe, 0 === t && Ye),
+                    onClick: o.openChat,
+                    onClose: o.deleteChat,
+                    className: H(Xe, 0 === t && Ye),
                   },
-                  o,
+                  n,
                 );
               }),
             }),
@@ -510,63 +510,63 @@ var Qe = "ChatCarousel_545467f0",
     });
   });
 function et(e) {
-  return (0, De.jsx)(r, { children: (0, De.jsx)(Je, { ...e }) });
+  return (0, De.jsx)(n, { children: (0, De.jsx)(Je, { ...e }) });
 }
 var tt = "ChatChannels_c801bb1d",
   at = "ChatChannels_icon_a3ff928f";
 var ot = C(function ({ className: e }) {
     const { controls: t } = ae(),
-      a = K(),
-      o = V.resolve("strings"),
-      s = B(w({ value: Be.small }, { medium: { value: Be.medium } }).value, L),
-      r = h({
+      a = X(),
+      o = q.resolve("strings"),
+      n = M(W({ value: Be.small }, { medium: { value: Be.medium } }).value, U),
+      s = d({
         header: o.readOrEmpty("tooltips.loby_messenger.channels_button.header"),
         body: o.readOrEmpty("tooltips.loby_messenger.channels_button.body"),
       });
     return (0, De.jsx)("div", {
-      ...r,
+      ...s,
       onClick: function (e) {
-        const { left: o, top: s } = e.currentTarget.getBoundingClientRect();
+        const { left: o, top: n } = e.currentTarget.getBoundingClientRect();
         (a.play("click", { target: "ChannelsButton", original: e }),
           t.openChannelsWindow(
             (function (e, t) {
-              const a = q("px");
-              return { x: n(e + a.x - 8), y: n(t + a.y - 8 - 347), width: 269, height: 347 };
-            })(o, s),
+              const a = f("px");
+              return { x: K(e + a.x - 8), y: K(t + a.y - 8 - 347), width: 269, height: 347 };
+            })(o, n),
           ),
-          r.onClick());
+          s.onClick());
       },
       onMouseEnter: function (e) {
-        (a.play("mouse-enter", { target: "ChannelsButton", original: e }), r.onMouseEnter(e));
+        (a.play("mouse-enter", { target: "ChannelsButton", original: e }), s.onMouseEnter(e));
       },
-      className: j(tt, e),
-      children: (0, De.jsx)(I, { ...je(s, "chat"), className: at }),
+      className: H(tt, e),
+      children: (0, De.jsx)(I, { ...je(n, "chat"), className: at }),
     });
   }),
   nt = "Contacts_51abbb46",
   st = "Contacts_icon_a516b2cd",
   rt = "Contacts_friendsOnlineCount_20e5b06c",
   it = C(function () {
-    const e = V.resolve("intl"),
-      t = V.resolve("strings"),
+    const e = q.resolve("intl"),
+      t = q.resolve("strings"),
       { model: a } = ne(),
       o = a.contactsCount.get(),
-      n = B(w({ value: Be.small }, { medium: { value: Be.medium } }).value, L),
-      s = h({
+      n = M(W({ value: Be.small }, { medium: { value: Be.medium } }).value, U),
+      s = d({
         header: t.readOrEmpty("tooltips.loby_messenger.contacts_button.header"),
         body: t.readOrEmpty("tooltips.loby_messenger.contacts_button.body"),
       }),
-      r = d("ContactsPopover"),
-      i = K();
+      r = i("ContactsPopover"),
+      l = X();
     return (0, De.jsxs)("div", {
       ...r,
       ...s,
       className: nt,
       onClick: function (e) {
-        (i.play("click", { target: "ContactsButton", original: e }), r?.onClick(e), s?.onClick());
+        (l.play("click", { target: "ContactsButton", original: e }), r?.onClick(e), s?.onClick());
       },
       onMouseEnter: function (e) {
-        (i.play("mouse-enter", { target: "ContactsButton", original: e }), s?.onMouseEnter(e));
+        (l.play("mouse-enter", { target: "ContactsButton", original: e }), s?.onMouseEnter(e));
       },
       "data-test-id": "contacts",
       children: [
@@ -605,19 +605,19 @@ var ht = C(function () {
       a = e.status.get(),
       o = e.colorBlind.get();
     return (0, De.jsxs)("div", {
-      ...A(
+      ...V(
         "serversInfo",
         (0, be.useMemo)(() => [], []),
       ),
-      className: j(ct.base, ct[`base__${o}`]),
+      className: H(ct.base, ct[`base__${o}`]),
       children: [
         (0, De.jsx)("div", { className: ct.serverName, children: t }),
         (0, De.jsx)("div", {
           className: ct.indicator,
-          children: O(3, (e) =>
+          children: s(3, (e) =>
             (0, De.jsx)(
               "div",
-              { className: j(ct.indicatorBar, ct[`indicatorBar__${_t(e, a)}`]) },
+              { className: H(ct.indicatorBar, ct[`indicatorBar__${_t(e, a)}`]) },
               `indicatorBar-${e}`,
             ),
           ),
@@ -626,12 +626,12 @@ var ht = C(function () {
     });
   }),
   ft = (0, be.lazy)(() =>
-    c(() => import("../chunks/widget2.js"), __vite__mapDeps([0, 1]), import.meta.url),
+    r(() => import("../chunks/widget2.js"), __vite__mapDeps([0, 1]), import.meta.url),
   );
 function yt(e) {
   const t = e.options.rootId;
   if (t)
-    return (0, De.jsx)(m, {
+    return (0, De.jsx)(l, {
       id: t,
       children: (0, De.jsx)(be.Suspense, { children: (0, De.jsx)(ft, { ...e }) }),
     });
@@ -640,18 +640,18 @@ function yt(e) {
 var bt = "ReferralProgram_valueContainer_a1a1e336",
   pt = "ReferralProgram_value_b1636df4",
   gt = "ReferralProgram_54cc6b2f",
-  xt = "ReferralProgram_icon_219cf8",
-  vt = "ReferralProgram_icon__highlighted_77ea5c59",
+  vt = "ReferralProgram_icon_219cf8",
+  xt = "ReferralProgram_icon__highlighted_77ea5c59",
   wt = "ReferralProgram_notifications_d09a7c8a",
   Ct = C(function ({ className: e }) {
-    const t = K(),
-      a = V.resolve("strings"),
+    const t = X(),
+      a = q.resolve("strings"),
       { model: o, controls: n } = de(),
       s = o.bubbleCount.get() > 0,
       r = o.firstIndication.get(),
-      i = w({ value: G.small }, { medium: { value: G.medium } }),
-      l = B(i.value, L),
-      c = h({
+      i = W({ value: D.small }, { medium: { value: D.medium } }),
+      l = M(i.value, U),
+      c = d({
         header: s
           ? a.readOrEmpty("tooltips.loby_messenger.referral_button.new_season.header")
           : a.readOrEmpty("tooltips.loby_messenger.referral_button.header"),
@@ -661,7 +661,7 @@ var bt = "ReferralProgram_valueContainer_a1a1e336",
       });
     return (0, De.jsxs)("div", {
       "data-test-id": "referral-program",
-      className: j(gt, e),
+      className: H(gt, e),
       onClick: function (e) {
         (t.play("click", { target: "ReferralProgram", original: e }),
           n.openReferralProgram(),
@@ -672,11 +672,11 @@ var bt = "ReferralProgram_valueContainer_a1a1e336",
       },
       onMouseLeave: c?.onMouseLeave,
       children: [
-        (0, De.jsx)(I, { ...je(l, "referral_program", r), className: j(xt, r && vt) }),
-        (0, De.jsx)(y.Root, {
+        (0, De.jsx)(I, { ...je(l, "referral_program", r), className: H(vt, r && xt) }),
+        (0, De.jsx)(m.Root, {
           hidden: !s,
           className: wt,
-          children: (0, De.jsx)(y.Value, {
+          children: (0, De.jsx)(m.Value, {
             value: o.bubbleCount.get(),
             size: i.value,
             classNames: { valueContainer: bt, value: pt },
@@ -689,50 +689,50 @@ var bt = "ReferralProgram_valueContainer_a1a1e336",
   Nt = "SessionStatistic_base__enabled_aac72629",
   jt = "SessionStatistic_icon_ebed106f",
   Mt = "SessionStatistic_icon__enabled_bd94c361",
-  kt = "SessionStatistic_battleCount_488e1028",
-  Rt = "enabled",
+  Rt = "SessionStatistic_battleCount_488e1028",
+  kt = "enabled",
   St = "disabled",
   Pt = "winback";
 var Et = C(function () {
-    const e = V.resolve("intl"),
+    const e = q.resolve("intl"),
       { model: t } = he(),
       a = t.battleCount.get(),
       o = t.enabled.get(),
       n = t.sessionStatsEnabled.get(),
       { sessionStatisticState: s, iconEnabled: r } =
-        ((i = o),
+        ((l = o),
         t.winback.get()
           ? { sessionStatisticState: Pt, iconEnabled: !1 }
-          : { sessionStatisticState: i ? Rt : St, iconEnabled: i });
-    var i;
-    const l = B(w({ value: Be.small }, { medium: { value: Be.medium } }).value, L),
-      c = V.resolve("strings"),
-      u = h({
-        header: c.readOrEmpty("session_stats.tooltip.mainBtn.header"),
-        body: c.readOrEmpty(`session_stats.tooltip.mainBtn.body.${s}`),
+          : { sessionStatisticState: l ? kt : St, iconEnabled: l });
+    var l;
+    const c = M(W({ value: Be.small }, { medium: { value: Be.medium } }).value, U),
+      u = q.resolve("strings"),
+      m = d({
+        header: u.readOrEmpty("session_stats.tooltip.mainBtn.header"),
+        body: u.readOrEmpty(`session_stats.tooltip.mainBtn.body.${s}`),
       }),
-      m = d("SessionStatsPopover"),
-      _ = K();
+      _ = i("SessionStatsPopover"),
+      h = X();
     return (
       n &&
       (0, De.jsxs)("div", {
+        ..._,
         ...m,
-        ...u,
-        className: j(Bt, r && Nt),
+        className: H(Bt, r && Nt),
         onClick: function (e) {
-          (r && (_.play("click", { target: "SessionStatisticButton", original: e }), m?.onClick(e)),
-            u?.onClick());
+          (r && (h.play("click", { target: "SessionStatisticButton", original: e }), _?.onClick(e)),
+            m?.onClick());
         },
         onMouseEnter: function (e) {
-          (r && _.play("mouse-enter", { target: "SessionStatisticButton", original: e }),
-            u?.onMouseEnter(e));
+          (r && h.play("mouse-enter", { target: "SessionStatisticButton", original: e }),
+            m?.onMouseEnter(e));
         },
         children: [
           (0, De.jsx)(I, {
-            ...je(l, r ? "session_stats" : "session_stats_disabled"),
-            className: j(jt, r && Mt),
+            ...je(c, r ? "session_stats" : "session_stats_disabled"),
+            className: H(jt, r && Mt),
           }),
-          a > 0 && (0, De.jsx)("div", { className: kt, children: e.formatNumber("integral", a) }),
+          a > 0 && (0, De.jsx)("div", { className: Rt, children: e.formatNumber("integral", a) }),
         ],
       })
     );
@@ -740,68 +740,68 @@ var Et = C(function () {
   It = "VehicleCompare_cff2d129",
   Ot = "VehicleCompare_icon_cbce43e9",
   zt = "VehicleCompare_vehicleCount_691224b7",
-  At = C(function (e) {
+  Vt = C(function (e) {
     const { model: t } = ye(),
       a = t.computes.getVehiclesCount(),
       o = a > 0 && t.enabled.get();
-    return (0, De.jsx)(Lt, { className: e.className, count: a, visible: o });
+    return (0, De.jsx)(Wt, { className: e.className, count: a, visible: o });
   }),
-  Lt = C(function ({ count: e, visible: t, className: a }) {
+  Wt = C(function ({ count: e, visible: t, className: a }) {
     const { controls: o } = ye(),
-      n = T(e),
+      n = w(e),
       s = (0, be.useRef)(null),
-      r = V.resolve("intl"),
-      i = V.resolve("strings"),
-      l = d("VehicleCompareCartPopover");
+      r = q.resolve("intl"),
+      l = q.resolve("strings"),
+      c = i("VehicleCompareCartPopover");
     ((0, be.useEffect)(() => {
       if (void 0 !== n) {
         if (0 === n && 1 === e && s.current) {
           const e = new MouseEvent("click", { bubbles: !0 });
           s.current.dispatchEvent(e);
         }
-        n > 0 && 0 === e && l.hide();
+        n > 0 && 0 === e && c.hide();
       }
-    }, [l, e, n]),
+    }, [c, e, n]),
       (0, be.useEffect)(() => {
         u(() => {
           s.current && o.setCompareButtonDOMRect(s.current.getBoundingClientRect());
         });
       }));
-    const c = B(w({ value: Be.small }, { medium: { value: Be.medium } }).value, L),
-      m = h({ body: i.readOrEmpty("tooltips.loby_messenger.vehicle_compare_button.body") }),
-      _ = K();
+    const m = M(W({ value: Be.small }, { medium: { value: Be.medium } }).value, U),
+      _ = d({ body: l.readOrEmpty("tooltips.loby_messenger.vehicle_compare_button.body") }),
+      h = X();
     if (t)
       return (0, De.jsxs)("div", {
-        ...l,
-        ...m,
+        ...c,
+        ..._,
         ref: s,
-        className: j(It, a),
+        className: H(It, a),
         onClick: function (e) {
-          (_.play("click", { target: "VehicleCompareButton", original: e }),
-            l?.onClick(e),
-            m?.onClick());
+          (h.play("click", { target: "VehicleCompareButton", original: e }),
+            c?.onClick(e),
+            _?.onClick());
         },
         onMouseEnter: function (e) {
-          (_.play("mouse-enter", { target: "VehicleCompareButton", original: e }),
-            m?.onMouseEnter(e));
+          (h.play("mouse-enter", { target: "VehicleCompareButton", original: e }),
+            _?.onMouseEnter(e));
         },
         children: [
-          (0, De.jsx)(I, { ...je(c, "comparison"), className: Ot }),
+          (0, De.jsx)(I, { ...je(m, "comparison"), className: Ot }),
           (0, De.jsx)("div", { className: zt, children: r.formatNumber("integral", e) }),
         ],
       });
   }),
-  Vt = "Footer_valueContainer_f6f9da36",
-  Wt = "Footer_value_96c42424",
+  At = "Footer_valueContainer_f6f9da36",
+  Lt = "Footer_value_96c42424",
   Dt = "Footer_c3a0f302",
   Ft = "Footer_section_9d3d3a12",
   $t = "Footer_button_c7203e02",
   Gt = "Footer_icon_6ff60f47",
-  Ht = "Footer_icon__notification_827f4505",
-  Tt = "Footer_iconImage_50c8b940",
+  Tt = "Footer_icon__notification_827f4505",
+  Ht = "Footer_iconImage_50c8b940",
   Ut = "Footer_notifications_d2687e3",
-  Qt = "Footer_divider_4ccd0230",
-  qt = "Footer_vehicleCompare_531bca52";
+  qt = "Footer_divider_4ccd0230",
+  Qt = "Footer_vehicleCompare_531bca52";
 var Kt = C(
     (0, be.forwardRef)(function ({ className: e }, t) {
       const { model: a } = le(),
@@ -809,27 +809,27 @@ var Kt = C(
         n = a.newNotificationsCount.get(),
         s = n > 0,
         { controls: r } = re(),
-        i = K(),
-        l = V.resolve("strings"),
-        c = (0, be.useMemo)(() => [], []),
-        u = T(n) ?? n,
-        m = w({ value: G.small }, { medium: { value: G.medium } }),
-        _ = B(m.value, L),
-        f = A("settingsButton", c),
-        b = h({
-          header: l.readOrEmpty("tooltips.loby_messenger.service_button.header"),
-          body: l.readOrEmpty("tooltips.loby_messenger.service_button.body"),
+        l = X(),
+        c = q.resolve("strings"),
+        u = (0, be.useMemo)(() => [], []),
+        _ = w(n) ?? n,
+        h = W({ value: D.small }, { medium: { value: D.medium } }),
+        f = M(h.value, U),
+        y = V("settingsButton", u),
+        b = d({
+          header: c.readOrEmpty("tooltips.loby_messenger.service_button.header"),
+          body: c.readOrEmpty("tooltips.loby_messenger.service_button.body"),
         }),
-        p = d("notificationsList");
+        p = i("notificationsList");
       const g = (0, be.useMemo)(
         () => ({
-          rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.Platoon("resId")),
+          rootId: q.resolve("aliases").read((e) => e.lobby_footer.default.Platoon("resId")),
         }),
         [],
       );
       return (0, De.jsxs)("div", {
         ref: t,
-        className: j(Dt, e),
+        className: H(Dt, e),
         children: [
           (0, De.jsxs)("div", {
             className: Ft,
@@ -844,49 +844,49 @@ var Kt = C(
           (0, De.jsxs)("div", {
             className: Ft,
             children: [
-              (0, De.jsx)(At, { className: qt }),
+              (0, De.jsx)(Vt, { className: Qt }),
               (0, De.jsx)(Et, {}),
-              (0, De.jsx)(ee, { className: Qt }),
+              (0, De.jsx)(ee, { className: qt }),
               (0, De.jsx)(ht, {}),
               (0, De.jsx)("div", {
-                ...f,
+                ...y,
                 className: Gt,
                 "data-test-id": "menu",
                 onClick: function (e) {
-                  (i.play("click", { target: "GameMenuButton", original: e }),
+                  (l.play("click", { target: "GameMenuButton", original: e }),
                     r.openGameMenu(),
-                    f?.onClick());
+                    y?.onClick());
                 },
                 onMouseEnter: function (e) {
-                  (i.play("mouse-enter", { target: "GameMenuButton", original: e }),
-                    f?.onMouseEnter(e));
+                  (l.play("mouse-enter", { target: "GameMenuButton", original: e }),
+                    y?.onMouseEnter(e));
                 },
-                children: (0, De.jsx)(I, { ...je(_, "game_menu_button"), className: Tt }),
+                children: (0, De.jsx)(I, { ...je(f, "game_menu_button"), className: Ht }),
               }),
-              (0, De.jsx)(ee, { className: Qt }),
+              (0, De.jsx)(ee, { className: qt }),
               (0, De.jsxs)("div", {
                 ...p,
                 ...b,
-                className: j(Gt, Ht),
+                className: H(Gt, Tt),
                 "data-test-id": "notificationCenter",
                 onClick: function (e) {
-                  (i.play("click", { target: "GameMenuButton", original: e }),
+                  (l.play("click", { target: "GameMenuButton", original: e }),
                     p?.onClick(e),
                     b?.onClick());
                 },
                 onMouseEnter: function (e) {
-                  (i.play("mouse-enter", { target: "GameMenuButton", original: e }),
+                  (l.play("mouse-enter", { target: "GameMenuButton", original: e }),
                     b?.onMouseEnter(e));
                 },
                 children: [
-                  (0, De.jsx)(I, { ...je(_, "notification_button", s), className: Tt }),
-                  (0, De.jsx)(y.Root, {
+                  (0, De.jsx)(I, { ...je(f, "notification_button", s), className: Ht }),
+                  (0, De.jsx)(m.Root, {
                     hidden: n <= 0,
                     className: Ut,
-                    children: (0, De.jsx)(y.Value, {
-                      value: ((x = n), (v = u), 0 === x ? v : x),
-                      size: m.value,
-                      classNames: { valueContainer: Vt, value: Wt },
+                    children: (0, De.jsx)(m.Value, {
+                      value: ((v = n), (x = _), 0 === v ? x : v),
+                      size: h.value,
+                      classNames: { valueContainer: At, value: Lt },
                     }),
                   }),
                 ],
@@ -895,30 +895,30 @@ var Kt = C(
           }),
         ],
       });
-      var x, v;
+      var v, x;
     }),
   ),
   Xt = "CompareBubble_border_741a305",
   Yt = "CompareBubble_f502af37",
   Zt = "CompareBubble_text_46c430aa",
   Jt = "CompareBubble_type_573849d2";
-function ea({ tier: e, type: a, isPremium: n, longName: s, onRest: r }) {
-  const [i] = p(() => ({
+function ea({ tier: e, type: t, isPremium: a, longName: o, onRest: n }) {
+  const [s] = b(() => ({
     from: { opacity: 0, y: 0 },
     to: async (e) => {
-      (await e({ opacity: 1, y: Q(20) }), await o(1e3), await e({ opacity: 0, y: Q(40) }));
+      (await e({ opacity: 1, y: y(20) }), await O(1e3), await e({ opacity: 0, y: y(40) }));
     },
-    config: { duration: 300, easing: t.easeInQuad },
-    onRest: r,
+    config: { duration: 300, easing: j.easeInQuad },
+    onRest: n,
   }));
   return (0, De.jsxs)(J.div, {
     className: Yt,
-    style: i,
+    style: s,
     children: [
       (0, De.jsx)("div", { className: Xt }),
       (0, De.jsx)(z, { value: e, className: Zt }),
-      (0, De.jsx)(S, { className: Jt, type: a, size: k.x24x24, premium: n }),
-      (0, De.jsx)("div", { className: Zt, children: s }),
+      (0, De.jsx)(P, { className: Jt, type: t, size: k.x24x24, premium: a }),
+      (0, De.jsx)("div", { className: Zt, children: o }),
     ],
   });
 }
@@ -927,12 +927,12 @@ var ta = "App_bcf56f63",
   oa = "App_footer_8633140e",
   na = "App_footer__oldStyle_ed955e9f";
 var sa = C(function () {
-  const e = E(250, 0),
+  const e = x(250, 0),
     { model: t } = re(),
     { model: a } = ye(),
     o = a.computes.getVehiclesCount(),
     n = a.compareButtonDOMRect.get(),
-    s = T(o),
+    s = w(o),
     r = (0, be.useRef)(0),
     [i, l] = (0, be.useState)(!1),
     c = o > 0 && a.enabled.get() && i,
@@ -959,48 +959,48 @@ var sa = C(function () {
               },
             }),
           }),
-        (0, De.jsx)(Kt, { ref: e, className: j(oa, t.oldStyle.get() && na) }),
+        (0, De.jsx)(Kt, { ref: e, className: H(oa, t.oldStyle.get() && na) }),
       ],
     })
   );
 });
-U(
-  new N()
-    .add(W)
+Q(
+  new B()
+    .add(A)
     .add(se)
     .addWithProps(oe, {
       options: {
-        rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.ContactsList("resId")),
+        rootId: q.resolve("aliases").read((e) => e.lobby_footer.default.ContactsList("resId")),
       },
     })
     .addWithProps(ce, {
       options: {
-        rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.ReferralProgram("resId")),
+        rootId: q.resolve("aliases").read((e) => e.lobby_footer.default.ReferralProgram("resId")),
       },
     })
     .addWithProps(fe, {
       options: {
-        rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.VehicleCompare("resId")),
+        rootId: q.resolve("aliases").read((e) => e.lobby_footer.default.VehicleCompare("resId")),
       },
     })
     .addWithProps(_e, {
       options: {
-        rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.SessionStats("resId")),
+        rootId: q.resolve("aliases").read((e) => e.lobby_footer.default.SessionStats("resId")),
       },
     })
     .addWithProps(ie, {
       options: {
-        rootId: V.resolve("aliases").read((e) =>
-          e.lobby_footer.default.NotificationsCenter("resId"),
-        ),
+        rootId: q
+          .resolve("aliases")
+          .read((e) => e.lobby_footer.default.NotificationsCenter("resId")),
       },
     })
     .addWithProps(te, {
-      options: { rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.Chats("resId")) },
+      options: { rootId: q.resolve("aliases").read((e) => e.lobby_footer.default.Chats("resId")) },
     })
     .addWithProps(ue, {
       options: {
-        rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.ServerInfo("resId")),
+        rootId: q.resolve("aliases").read((e) => e.lobby_footer.default.ServerInfo("resId")),
       },
     })
     .render((0, De.jsx)(sa, {})),

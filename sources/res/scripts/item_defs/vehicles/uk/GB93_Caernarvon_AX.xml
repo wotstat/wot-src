@@ -973,6 +973,36 @@
 				<clipAngle>1.4703</clipAngle>
 				<anchorShift>-0.0376049988</anchorShift>
 			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18000</slotId>
+				<position>-2.04123807 0.198374003 -1.24274898</position>
+				<rotation>0 0 1.5691</rotation>
+				<scale>1 1 1</scale>
+				<applyType>universal</applyType>
+				<size>medium</size>
+				<hangerId>7</hangerId>
+			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18001</slotId>
+				<position>2.041 0.198374 -1.24275</position>
+				<rotation>0 3.141593 1.5691</rotation>
+				<scale>1 1 1</scale>
+				<applyType>universal</applyType>
+				<size>medium</size>
+				<hangerId>7</hangerId>
+			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18002</slotId>
+				<position>-0.076 0.282 -3.859</position>
+				<rotation>0 -1.570796 1.570796</rotation>
+				<scale>0.999997973 0.999997973 0.999997973</scale>
+				<applyType>universal</applyType>
+				<size>medium</size>
+				<hangerId>12</hangerId>
+			</slot>
 		</customizationSlots>
 		<customization>
 			<customizableVehicleAreas>
@@ -2118,12 +2148,23 @@
 							<applyTo>4096</applyTo>
 						</slot>
 						<slot>
+							<slotType>attachment</slotType>
+							<slotId>48000</slotId>
+							<size>medium</size>
+							<position>-0.0130420001 0.299546987 0.287124008</position>
+							<rotation>0 0 -0</rotation>
+							<scale>1 1 1</scale>
+							<enableVisTunnel>true</enableVisTunnel>
+							<applyType>gunMantlet</applyType>
+							<hangerId>2</hangerId>
+						</slot>
+						<slot>
 							<slotType>insigniaOnGun</slotType>
 							<slotId>49000</slotId>
+							<size>0.367</size>
 							<rayStart>-0.012848 -0.003335 1.53</rayStart>
 							<rayEnd>-0.012848 -0.003335 1.897</rayEnd>
 							<rayUp>0.107 0 0</rayUp>
-							<size>0.367</size>
 						</slot>
 					</customizationSlots>
 					<customization>
@@ -2573,6 +2614,17 @@
 					<showOn>4368</showOn>
 					<clipAngle>0.966614008</clipAngle>
 					<anchorShift>0.00999599975</anchorShift>
+				</slot>
+				<slot>
+					<slotType>attachment</slotType>
+					<slotId>38000</slotId>
+					<position>-0.714369 1.000143 -0.0645</position>
+					<rotation>0 0 -0</rotation>
+					<scale>1 1 1</scale>
+					<applyType>turret</applyType>
+					<size>medium</size>
+					<enableVisTunnel>true</enableVisTunnel>
+					<hangerId>2</hangerId>
 				</slot>
 			</customizationSlots>
 			<customization>

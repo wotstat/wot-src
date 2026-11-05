@@ -1,28 +1,28 @@
 import { r } from "../../chunks/rolldown-runtime.js";
 import {
-  Jt as s,
-  Pn as e,
-  Sn as t,
-  St as o,
-  _t as i,
-  un as l,
-  vn as a,
+  Nn as s,
+  St as e,
+  _n as t,
+  _t as o,
+  ln as i,
+  qt as l,
+  xn as a,
   yt as n,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
 /* empty css                 */ import { t as m } from "../../chunks/extended_tooltip_decorator.js";
-var [d, p] = o()(
+var [d, p] = e()(
     ({ observableModel: r }) => ({ ...r.primitives(["timeLeft", "rerollInterval"]) }),
-    l,
+    i,
   ),
-  c = r(s(), 1),
-  u = i(function () {
+  c = r(l(), 1),
+  u = o(function () {
     const { model: r } = p(),
-      s = e.resolve("strings"),
-      [o] = a(t(r.rerollInterval.get()), ["h"]);
+      e = s.resolve("strings"),
+      [o] = t(a(r.rerollInterval.get()), ["h"]);
     return (0, c.jsx)(m, {
-      header: s.readOrEmpty("user_missions.tooltip.daily_reroll.header"),
-      description: s.readOrEmpty("user_missions.tooltip.daily_reroll.description"),
+      header: e.readOrEmpty("user_missions.tooltip.daily_reroll.header"),
+      description: e.readOrEmpty("user_missions.tooltip.daily_reroll.description"),
       descriptionParams: { time: o },
       timerTimeLeft: r.timeLeft.get(),
     });

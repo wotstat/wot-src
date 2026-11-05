@@ -1232,7 +1232,8 @@ class AchievementFormatter(ServiceChannelFormatter):
 
 
 class CurrencyUpdateFormatter(ServiceChannelFormatter):
-    _EMITTER_ID_TO_TITLE = {2525: (R.strings.messenger.serviceChannelMessages.currencyUpdate.integratedAuction()), 
+    _AUCTION_EMITTER_ID = 3382 if constants.IS_CHINA else 3761
+    _EMITTER_ID_TO_TITLE = {_AUCTION_EMITTER_ID: (R.strings.messenger.serviceChannelMessages.currencyUpdate.integratedAuction()), 
        2524: (R.strings.messenger.serviceChannelMessages.currencyUpdate.battlepass())}
     _DEFAULT_TITLE = R.strings.messenger.serviceChannelMessages.currencyUpdate.financial_transaction()
     __FREE_XP_ICON = u'freeXPSmallIcon'
@@ -5201,6 +5202,7 @@ class CustomizationProgressFormatter(WaitItemsSyncFormatter):
 class CustomizationProgressionChangedFormatter(WaitItemsSyncFormatter):
     REQUIRED_KEYS = {
      u'custType', u'id', u'prevLevel', u'actualLevel'}
+    IGNORE = {GUI_ITEM_TYPE.PROJECTION_DECAL}
 
     @adisp_async
     @adisp_process
@@ -5209,10 +5211,10 @@ class CustomizationProgressionChangedFormatter(WaitItemsSyncFormatter):
         isSynced = yield self._waitForSyncItems()
         if isSynced and message.data and set(message.data.keys()) == self.REQUIRED_KEYS:
             data = message.data
-            guiItemType, itemUserName = getCustomizationItemData(data[u'id'], data[u'custType'])
             prevLevel = data[u'prevLevel']
             actualLevel = data[u'actualLevel']
-            if actualLevel == 0:
+            item = getCustomizationItem(data[u'id'], data[u'custType'])
+            if item is None or item.itemTypeID in self.IGNORE or actualLevel == 0:
                 callback(result)
                 return
             if actualLevel > prevLevel:
@@ -5222,11 +5224,11 @@ class CustomizationProgressionChangedFormatter(WaitItemsSyncFormatter):
             else:
                 callback(result)
                 return
-            messageR = R.strings.system_messages.customization.progression.dyn(operation).dyn(guiItemType)
+            messageR = R.strings.system_messages.customization.progression.dyn(operation).dyn(item.itemFullTypeName)
             if messageR.exists():
-                messageString = backport.text(messageR(), itemUserName, int2roman(actualLevel))
+                messageString = backport.text(messageR(), item.userName, int2roman(actualLevel))
             else:
-                _logger.warning(u"CustomizationProgressionChangedFormatter doesn't have message for custType: %s", guiItemType)
+                _logger.warning(u"%s doesn't have message for custType: %s", self.__class__.__name__, item.itemFullTypeName)
                 callback(result)
                 return
             formatted = g_settings.msgTemplates.format(u'CustomizationProgressionMessage', ctx={u'message': messageString})

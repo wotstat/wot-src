@@ -3,8 +3,8 @@ import {
   $n as a,
   In as s,
   Mt as r,
-  Nt as c,
-  Xn as t,
+  Nt as t,
+  Xn as c,
   cn as l,
   ct as o,
   h as i,
@@ -15,35 +15,35 @@ import {
 import "../../chunks/_wg-global-styles.js";
 import { r as p, t as _ } from "../../chunks/armor_model.js";
 import { t as u } from "../../chunks/vendor.js";
-var v = e(t(), 1),
+var v = e(c(), 1),
   N = e(i(), 1),
   x = "ArmorLayer_94179689",
   j = "ArmorLayer_layer_5ad9db4",
   A = "ArmorLayer_armor_9a7e5b0",
   f = l(),
-  y = a.resolve("strings"),
-  h = (0, v.memo)(function ({
+  h = a.resolve("strings"),
+  y = (0, v.memo)(function ({
     layerName: e,
     nominalArmor: a,
     color: s,
     count: r,
-    reductionFactor: c,
-    selectedMode: t,
+    reductionFactor: t,
+    selectedMode: c,
     classNames: l,
   }) {
-    const o = y.readOrEmpty(`armor_inspector.tooltip.armor.part.${e}`),
+    const o = h.readOrEmpty(`armor_inspector.tooltip.armor.part.${e}`),
       i =
-        c > 1
+        t > 1
           ? (0, f.jsx)(d, {
-              text: y.readOrEmpty("armor_inspector.tooltip.armor.reduction"),
-              params: { value: c },
+              text: h.readOrEmpty("armor_inspector.tooltip.armor.reduction"),
+              params: { value: t },
             })
           : "",
       m =
         r > 1
-          ? y.readOrEmpty("armor_inspector.tooltip.armor.layer.multiple")
-          : y.readOrEmpty("armor_inspector.tooltip.armor.layer.single"),
-      n = t === p.NOMINAL ? { color: s } : { filter: "none" };
+          ? h.readOrEmpty("armor_inspector.tooltip.armor.layer.multiple")
+          : h.readOrEmpty("armor_inspector.tooltip.armor.layer.single"),
+      n = c === p.NOMINAL ? { color: s } : { filter: "none" };
     return (0, f.jsx)("div", {
       className: (0, N.default)(x, l?.base),
       style: n,
@@ -53,7 +53,7 @@ var v = e(t(), 1),
         params: {
           armor: (0, f.jsx)(d, {
             className: A,
-            text: y.readOrEmpty("armor_inspector.tooltip.reductionAndArmor.value"),
+            text: h.readOrEmpty("armor_inspector.tooltip.reductionAndArmor.value"),
             params: {
               value: (0, f.jsx)("span", { className: l?.value, children: a }),
               reduction: (0, f.jsx)("span", { className: l?.value, children: i }),
@@ -65,17 +65,17 @@ var v = e(t(), 1),
       }),
     });
   }),
-  [g, E] = c()(({ observableModel: e }) => {
+  [g, E] = t()(({ observableModel: e }) => {
     const a = {
         ...e.primitives(["selectedMode", "dccType", "dccValue", "dccColor"]),
         armorLayers: e.arrayClone("armorLayers"),
       },
       s = r(() => a.armorLayers.get().reduce((e, a) => e + a.nominalArmor * a.reductionFactor, 0)),
-      c = r(() =>
+      t = r(() =>
         Math.round(a.armorLayers.get().reduce((e, a) => e + a.resultArmor * a.reductionFactor, 0)),
       ),
-      t = r(() => a.armorLayers.get()[0]?.impactAngle ?? 0);
-    return { ...a, computes: { totalNominalArmor: s, totalEffectiveArmor: c, impactAngle: t } };
+      c = r(() => a.armorLayers.get()[0]?.impactAngle ?? 0);
+    return { ...a, computes: { totalNominalArmor: s, totalEffectiveArmor: t, impactAngle: c } };
   }, s),
   O = "App_4ddf07be",
   b = "App_content_99d3405e",
@@ -119,7 +119,7 @@ var ae = o(function () {
   ((e, a) => {
     const s = (0, v.useCallback)(
       (e) => {
-        a && a(e.width, e.height);
+        a && e.width > 0 && e.height > 0 && a(e.width, e.height);
       },
       [a],
     );
@@ -139,17 +139,17 @@ var ae = o(function () {
   })(a, n);
   const s = e.armorLayers.get(),
     r = s.length,
-    c = e.computes.impactAngle(),
-    t = e.computes.totalNominalArmor(),
+    t = e.computes.impactAngle(),
+    c = e.computes.totalNominalArmor(),
     l = e.computes.totalEffectiveArmor(),
-    o = l - t,
+    o = l - c,
     i = r > 1,
     m = s[0];
   if (!m) return;
   const x = e.dccValue.get(),
     j = e.dccType.get(),
     A = e.selectedMode.get(),
-    y = A === p.PENETRATION ? { color: e.dccColor.get(), opacity: 1 } : { filter: "none" };
+    h = A === p.PENETRATION ? { color: e.dccColor.get(), opacity: 1 } : { filter: "none" };
   return (0, f.jsx)("div", {
     className: O,
     ref: a,
@@ -167,7 +167,7 @@ var ae = o(function () {
                     (0, f.jsx)(d, {
                       className: H,
                       text: Z.readOrEmpty("armor_inspector.tooltip.armor.value"),
-                      params: { value: (0, f.jsx)("span", { className: J, children: t }) },
+                      params: { value: (0, f.jsx)("span", { className: J, children: c }) },
                     }),
                     (0, f.jsxs)("div", {
                       className: S,
@@ -180,7 +180,7 @@ var ae = o(function () {
                               className: U,
                               children: [
                                 (0, f.jsx)("div", { className: Y }),
-                                (0, f.jsx)(h, { ...e, selectedMode: A }),
+                                (0, f.jsx)(y, { ...e, selectedMode: A }),
                               ],
                             },
                             `${e.layerName}-${a}`,
@@ -192,7 +192,7 @@ var ae = o(function () {
                 })
               : (0, f.jsx)("div", {
                   className: G,
-                  children: (0, f.jsx)(h, {
+                  children: (0, f.jsx)(y, {
                     ...m,
                     classNames: { base: H, value: J },
                     selectedMode: A,
@@ -211,7 +211,7 @@ var ae = o(function () {
                 (0, f.jsx)(d, {
                   className: (0, N.default)(H, z),
                   text: Z.readOrEmpty("armor_inspector.tooltip.angle.value"),
-                  params: { value: (0, f.jsx)("span", { className: J, children: c }) },
+                  params: { value: (0, f.jsx)("span", { className: J, children: t }) },
                 }),
                 (0, f.jsx)(d, {
                   className: q,
@@ -238,7 +238,7 @@ var ae = o(function () {
                 (0, f.jsx)(d, {
                   className: q,
                   text: Z.readOrEmpty("armor_inspector.tooltip.armor.value"),
-                  params: { value: `(${t} + ${o})` },
+                  params: { value: `(${c} + ${o})` },
                 }),
               ],
             }),
@@ -262,13 +262,13 @@ var ae = o(function () {
                 j === _.PENETRATION &&
                   (0, f.jsx)(d, {
                     className: (0, N.default)(H, B),
-                    style: y,
+                    style: h,
                     text: Z.readOrEmpty("armor_inspector.tooltip.dcc.percent"),
-                    params: { value: (0, f.jsx)("span", { className: J, style: y, children: x }) },
+                    params: { value: (0, f.jsx)("span", { className: J, style: h, children: x }) },
                   }),
                 (0, f.jsx)("div", {
                   className: (0, N.default)(H, X, B),
-                  style: y,
+                  style: h,
                   children: ee(j),
                 }),
               ],

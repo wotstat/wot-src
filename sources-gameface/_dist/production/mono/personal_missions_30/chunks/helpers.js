@@ -1,4 +1,4 @@
-import { D as o, E as t, O as a, St as e, T as n, ln as i } from "./lib.js";
+import { D as o, E as t, St as a, T as e, ln as n, w as i } from "./lib.js";
 var r = "tooltipId",
   s = (function (o) {
     return (
@@ -10,32 +10,32 @@ var r = "tooltipId",
     );
   })({}),
   l = (o, t) => {
-    const a = e.find((o) => o.name === t);
-    return !!a && o < a.weight;
+    const e = a.find((o) => o.name === t);
+    return !!e && o < e.weight;
   },
-  p = (a, e) => ({
-    ...a,
-    size: e,
-    image: n(a, e),
-    valueType: o(a.name),
-    special: "overlayType" in a ? a.overlayType : void 0,
-    tooltipArgs: t(
-      { [r]: a.tooltipId },
-      i
+  p = (o, a) => ({
+    ...o,
+    size: a,
+    image: i(o, a),
+    valueType: t(o.name),
+    special: "overlayType" in o ? o.overlayType : void 0,
+    tooltipArgs: e(
+      { [r]: o.tooltipId },
+      n
         .resolve("views")
         .read((o) =>
           o.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId"),
         ),
     ),
   }),
-  c = (o, t = a.Small) => {
-    const { name: e, icon: i } = o;
+  c = (t, a = o.Small) => {
+    const { name: e, icon: n } = t;
     switch (e) {
       case "completionTokens":
       case "tankwomanBonus":
-        return i.replace("..", "img://gui");
+        return n.replace("..", "img://gui");
       default:
-        return n(o, t);
+        return i(t, a);
     }
   };
 export { s as a, r as i, c as n, l as r, p as t };

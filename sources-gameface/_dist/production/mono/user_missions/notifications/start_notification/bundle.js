@@ -1,22 +1,22 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Dn as e,
+  En as e,
   H as a,
-  Jt as l,
-  L as t,
-  St as n,
-  U as o,
-  V as c,
-  _t as i,
-  ct as r,
+  L as l,
+  St as t,
+  U as n,
+  V as o,
+  _t as c,
+  ct as i,
+  ln as r,
   nt as p,
-  rt as m,
-  un as _,
+  qt as m,
+  rt as _,
   vt as b,
   yt as h,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
-/* empty css                 */ var [d, g] = n()(
+/* empty css                 */ var [d, g] = t()(
     ({ observableModel: s }) => ({ root: s.object() }),
     ({ externalModel: s }) => ({ openChallenge: s.createCallbackNoArgs("onClick") }),
   ),
@@ -29,16 +29,16 @@ import "../../chunks/_wg-global-styles.js";
   k = "App_text_b138bc7f",
   C = "App_button_cec9cac4",
   v = "App_close_654073f5",
-  w = s(l(), 1),
+  w = s(m(), 1),
   y = R.strings.user_missions.hub.challenge_missions.notification.start,
-  M = i(function () {
-    const { model: s, controls: l } = g(),
-      { first: n, isPopUp: i } = s.root.get(),
-      b = n,
+  M = c(function () {
+    const { model: s, controls: t } = g(),
+      { first: c, isPopUp: m } = s.root.get(),
+      b = c,
       h = b ? y.title() : y.newChallengesTitle(),
       d = b ? y.text() : y.newChallengesText();
-    return (0, w.jsxs)(t, {
-      className: e(x, i && j),
+    return (0, w.jsxs)(l, {
+      className: e(x, m && j),
       children: [
         (0, w.jsxs)("div", {
           className: f,
@@ -52,20 +52,20 @@ import "../../chunks/_wg-global-styles.js";
             (0, w.jsxs)("div", {
               className: A,
               children: [
-                (0, w.jsx)(r, { text: h, className: N }),
-                (0, w.jsx)(r, { text: d, className: k }),
+                (0, w.jsx)(i, { text: h, className: N }),
+                (0, w.jsx)(i, { text: d, className: k }),
               ],
             }),
-            (0, w.jsx)(c, {
+            (0, w.jsx)(o, {
               className: C,
               size: a.small,
-              onClick: l.openChallenge,
-              theme: o.primary,
+              onClick: t.openChallenge,
+              theme: n.primary,
               children: y.button(),
             }),
           ],
         }),
-        i && (0, w.jsx)(p, { size: m.small, onClose: _, className: v }),
+        m && (0, w.jsx)(p, { size: _.small, onClose: r, className: v }),
       ],
     });
   });

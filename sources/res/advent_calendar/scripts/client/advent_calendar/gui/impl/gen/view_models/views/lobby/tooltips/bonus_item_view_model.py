@@ -1,0 +1,40 @@
+from frameworks.wulf import Array, ViewModel
+
+class BonusItemViewModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(BonusItemViewModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getType(self):
+        return self._getString(0)
+
+    def setType(self, value):
+        self._setString(0, value)
+        return
+
+    def getValue(self):
+        return self._getArray(1)
+
+    def setValue(self, value):
+        self._setArray(1, value)
+        return
+
+    @staticmethod
+    def getValueType():
+        return unicode
+
+    def getIconName(self):
+        return self._getString(2)
+
+    def setIconName(self, value):
+        self._setString(2, value)
+        return
+
+    def _initialize(self):
+        super(BonusItemViewModel, self)._initialize()
+        self._addStringProperty(b'type', b'')
+        self._addArrayProperty(b'value', Array())
+        self._addStringProperty(b'iconName', b'')
+        return

@@ -3,6 +3,8 @@ from PlayerEvents import g_playerEvents
 from frameworks.wulf import ViewFlags, ViewSettings
 from gui.impl.lobby.gf_notifications.cache import getCache
 from gui.prb_control.entities.base.listener import IPrbListener
+from gui.shared import g_eventBus
+from gui.shared.events import HidePopoverEvent
 
 class NotificationBase(ViewImpl, IPrbListener):
     __slots__ = (b'_isPopUp', b'_linkageData')
@@ -53,6 +55,11 @@ class NotificationBase(ViewImpl, IPrbListener):
             return False
         else:
             return True
+
+    def _closeNotificationCenter(self):
+        if not self._isPopUp:
+            g_eventBus.handleEvent(HidePopoverEvent(HidePopoverEvent.HIDE_POPOVER))
+        return
 
     def __updatePrebattleControls(self, *_):
         self._update()

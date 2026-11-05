@@ -33,7 +33,7 @@ class _RestoreVehiclesDataProvider(StorageCarouselDataProvider):
 
     def __init__(self, carouselFilter, itemsCache):
         super(_RestoreVehiclesDataProvider, self).__init__(carouselFilter, itemsCache)
-        self._baseCriteria = REQ_CRITERIA.VEHICLE.IS_RESTORE_POSSIBLE | ~REQ_CRITERIA.INVENTORY ^ REQ_CRITERIA.VEHICLE.TELECOM_RENT
+        self._baseCriteria = REQ_CRITERIA.VEHICLE.IS_RESTORE_POSSIBLE
         return
 
     def _addCriteria(self):

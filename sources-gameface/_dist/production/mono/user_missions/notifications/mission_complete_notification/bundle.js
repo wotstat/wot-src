@@ -1,24 +1,24 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Dn as e,
+  En as e,
   H as a,
-  Jt as l,
-  L as o,
-  St as n,
-  U as i,
-  V as r,
-  _t as c,
+  L as l,
+  St as o,
+  U as n,
+  V as i,
+  _t as r,
+  cn as c,
   ct as t,
   ln as p,
   nt as m,
-  rt as d,
-  un as _,
+  qt as d,
+  rt as _,
   vt as b,
   yt as u,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
 /* empty css                 */ import { t as h } from "../../chunks/rewards.js";
-var [g, j] = n()(
+var [g, j] = o()(
     ({ observableModel: s }) => ({ root: s.object(), bonuses: s.array("rewards") }),
     ({ externalModel: s }) => ({ openChallenge: s.createCallbackNoArgs("onClick") }),
   ),
@@ -31,15 +31,15 @@ var [g, j] = n()(
   w = "App_rewards_e7ebd125",
   y = "App_button_a92a5123",
   C = "App_close_654073f5",
-  M = s(l(), 1),
+  M = s(d(), 1),
   z = R.strings.user_missions.hub.challenge_missions.notification.mission_complete,
-  D = c(function () {
-    const { model: s, controls: l } = j(),
-      { missionID: n, isPopUp: c } = s.root.get(),
+  I = r(function () {
+    const { model: s, controls: o } = j(),
+      { missionID: r, isPopUp: d } = s.root.get(),
       b = s.bonuses.get(),
-      u = p(b);
-    return (0, M.jsxs)(o, {
-      className: e(f, c && A),
+      u = c(b);
+    return (0, M.jsxs)(l, {
+      className: e(f, d && A),
       children: [
         (0, M.jsxs)("div", {
           className: k,
@@ -53,24 +53,24 @@ var [g, j] = n()(
             (0, M.jsx)("div", {
               className: N,
               children: (0, M.jsx)(t, {
-                params: { mission: n },
+                params: { mission: r },
                 text: z.title(),
                 className: v,
                 upgradeLegacy: !0,
               }),
             }),
             (0, M.jsx)("div", { className: w, children: (0, M.jsx)(h, { bonuses: u }) }),
-            (0, M.jsx)(r, {
+            (0, M.jsx)(i, {
               className: y,
               size: a.small,
-              onClick: l.openChallenge,
-              theme: i.secondary,
+              onClick: o.openChallenge,
+              theme: n.secondary,
               children: z.button(),
             }),
           ],
         }),
-        c && (0, M.jsx)(m, { size: d.small, onClose: _, className: C }),
+        d && (0, M.jsx)(m, { size: _.small, onClose: p, className: C }),
       ],
     });
   });
-u((0, M.jsx)(g, { children: (0, M.jsx)(b, { children: (0, M.jsx)(D, {}) }) }));
+u((0, M.jsx)(g, { children: (0, M.jsx)(b, { children: (0, M.jsx)(I, {}) }) }));

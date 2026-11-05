@@ -10,19 +10,19 @@ const __vite__mapDeps = (
 ) => i.map((i) => d[i]);
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
-  Jt as s,
-  Kt as t,
-  On as u,
-  St as a,
-  Tt as n,
-  Zt as _,
-  _t as r,
-  bt as o,
-  gt as l,
+  Dn as s,
+  Gt as t,
+  St as u,
+  Tt as a,
+  Xt as n,
+  _t as _,
+  an as r,
+  bt as l,
+  gt as o,
   ht as i,
-  mt as h,
-  on as m,
-  un as b,
+  ln as h,
+  mt as m,
+  qt as b,
   vt as c,
   yt as g,
 } from "../chunks/lib.js";
@@ -36,17 +36,17 @@ import "../chunks/_wg-global-styles.js";
     umg_hub_quest_reroll: "umg_hub_quest_reroll",
   },
   p = {
-    [d.umg_hub_quest_progress]: n(d.umg_hub_quest_progress),
-    [d.umg_hub_quest_complete]: n(d.umg_hub_quest_complete),
-    [d.umg_hub_highlight]: n(d.umg_hub_highlight),
-    [d.umg_hub_unlock_bonus]: n(d.umg_hub_unlock_bonus),
-    [d.umg_hub_unlock_premium]: n(d.umg_hub_unlock_premium),
-    [d.umg_hub_quest_reroll]: n(d.umg_hub_quest_reroll),
+    [d.umg_hub_quest_progress]: a(d.umg_hub_quest_progress),
+    [d.umg_hub_quest_complete]: a(d.umg_hub_quest_complete),
+    [d.umg_hub_highlight]: a(d.umg_hub_highlight),
+    [d.umg_hub_unlock_bonus]: a(d.umg_hub_unlock_bonus),
+    [d.umg_hub_unlock_premium]: a(d.umg_hub_unlock_premium),
+    [d.umg_hub_quest_reroll]: a(d.umg_hub_quest_reroll),
   },
   k = "basic",
   C = "challenges",
-  f = e(u(), 1),
-  [v, j] = a()(
+  f = e(s(), 1),
+  [v, j] = u()(
     ({ observableModel: e }) => ({
       ...e.primitives(["currentTabId"]),
       tabsList: e.arrayClone("tabsList"),
@@ -63,22 +63,22 @@ import "../chunks/_wg-global-styles.js";
   y = "Hub_tabsContainer_e39aa10a",
   x = "Hub_tab_5c9743bd",
   z = "Hub_content_f95705c3",
-  E = e(s(), 1),
+  E = e(b(), 1),
   L = {
     [k]: f.lazy(() =>
-      h(() => import("../chunks/basic_missions.js"), __vite__mapDeps([0, 1]), import.meta.url),
+      m(() => import("../chunks/basic_missions.js"), __vite__mapDeps([0, 1]), import.meta.url),
     ),
     [C]: f.lazy(() =>
-      h(() => import("../chunks/challenge_missions.js"), __vite__mapDeps([0, 2]), import.meta.url),
+      m(() => import("../chunks/challenge_missions.js"), __vite__mapDeps([0, 2]), import.meta.url),
     ),
   },
-  w = r(() => {
+  w = _(() => {
     const { controls: e, model: s } = j(),
       u = s.currentTabId.get(),
       a = (0, f.useRef)(null),
-      n = (0, f.useCallback)(() => {
-        _(() =>
-          _(() => {
+      _ = (0, f.useCallback)(() => {
+        n(() =>
+          n(() => {
             if (a.current) {
               const s = a.current.getBoundingClientRect(),
                 t = viewEnv.getScale();
@@ -89,29 +89,29 @@ import "../chunks/_wg-global-styles.js";
       }, [e]);
     ((0, f.useEffect)(
       () => (
-        window.addEventListener("resize", n),
-        engine.on("clientResized", n),
+        window.addEventListener("resize", _),
+        engine.on("clientResized", _),
         () => {
-          (window.removeEventListener("resize", n), engine.off("clientResized", n));
+          (window.removeEventListener("resize", _), engine.off("clientResized", _));
         }
       ),
-      [n],
+      [_],
     ),
       (0, f.useEffect)(() => {
-        n();
-      }, [a, n]));
-    const r = t({ tabSize: l.small }, { large: { tabSize: l.medium } });
+        _();
+      }, [a, _]));
+    const l = t({ tabSize: o.small }, { large: { tabSize: o.medium } });
     return (0, E.jsxs)("div", {
       className: q,
       children: [
         (0, E.jsx)(i, {
           active: u,
           theme: "primary",
-          size: r.tabSize,
+          size: l.tabSize,
           onActiveChange: e.onTabChange,
           children: (0, E.jsx)(i.Switcher, {
             classNames: { base: y },
-            children: m(s.tabsList.get(), (e) =>
+            children: r(s.tabsList.get(), (e) =>
               (0, E.jsx)(i.Tab, { tabId: e.id, className: x, children: e.title }, `tab_${e.id}`),
             ),
           }),
@@ -130,9 +130,9 @@ import "../chunks/_wg-global-styles.js";
     });
   });
 g(
-  new o()
+  new l()
     .addWithProps(c, { soundsOverrides: p })
     .add(v)
     .render((0, E.jsx)(w, {})),
-).then(b);
+).then(h);
 export { d as t };

@@ -130,6 +130,7 @@ class BuyLevelsPresenter(ViewComponent[BattlePassBuyLevelViewModel]):
             if not self.__battlePass.isHoliday():
                 showBattlePass(R.aliases.battle_pass.ChapterChoice())
         else:
+            g_eventBus.handleEvent(events.BattlePassEvent(events.BattlePassEvent.ON_PURCHASE_LEVELS), scope=EVENT_BUS_SCOPE.LOBBY)
             showBattlePass(R.invalid())
         return
 
@@ -191,5 +192,4 @@ class BuyLevelsPresenter(ViewComponent[BattlePassBuyLevelViewModel]):
             self.__notifyPurchaseAborted()
         else:
             g_eventBus.addListener(events.BattlePassEvent.AWARD_VIEW_CLOSE, self.__onAwardViewClose, EVENT_BUS_SCOPE.LOBBY)
-            g_eventBus.handleEvent(events.BattlePassEvent(events.BattlePassEvent.ON_PURCHASE_LEVELS), scope=EVENT_BUS_SCOPE.LOBBY)
         return

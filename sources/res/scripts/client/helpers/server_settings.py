@@ -703,13 +703,13 @@ class EasyTankEquipConfig(typing.NamedTuple(b'EasyTankEquipConfig', (
         return self._replace(**dataToUpdate)
 
 
-class _LootBoxesTooltipConfig(namedtuple(b'_LootBoxesTooltipConfig', (b'boxes',))):
+class LootBoxesTooltipConfig(namedtuple(b'LootBoxesTooltipConfig', (b'boxes',))):
     __slots__ = ()
 
     def __new__(cls, **kwargs):
         defaults = dict(boxes={})
         defaults.update(kwargs)
-        return super(_LootBoxesTooltipConfig, cls).__new__(cls, **defaults)
+        return super(LootBoxesTooltipConfig, cls).__new__(cls, **defaults)
 
     def asDict(self):
         return self._asdict()
@@ -1477,7 +1477,7 @@ class ServerSettings(object):
         self.__bwShop = _BwShop()
         self.__rankedBattlesSettings = RankedBattlesConfig.defaults()
         self.__epicMetaGameSettings = _EpicMetaGameConfig()
-        self.__lootBoxesTooltipConfig = _LootBoxesTooltipConfig()
+        self.__lootBoxesTooltipConfig = LootBoxesTooltipConfig()
         self.__epicGameSettings = EpicGameConfig()
         self.__unitAssemblerConfig = _UnitAssemblerConfig.defaults()
         self.__telecomConfig = _TelecomConfig.defaults()
@@ -1555,7 +1555,7 @@ class ServerSettings(object):
         if b'ranked_config' in self.__serverSettings:
             self.__rankedBattlesSettings = makeTupleByDict(RankedBattlesConfig, self.__serverSettings[b'ranked_config'])
         if Configs.LOOTBOXES_TOOLTIP_CONFIG.value in self.__serverSettings:
-            self.__lootBoxesTooltipConfig = makeTupleByDict(_LootBoxesTooltipConfig, {b'boxes': (self.__serverSettings[Configs.LOOTBOXES_TOOLTIP_CONFIG.value])})
+            self.__lootBoxesTooltipConfig = makeTupleByDict(LootBoxesTooltipConfig, {b'boxes': (self.__serverSettings[Configs.LOOTBOXES_TOOLTIP_CONFIG.value])})
         if b'epic_config' in self.__serverSettings:
             LOG_DEBUG(b'epic_config', self.__serverSettings[b'epic_config'])
             self.__epicMetaGameSettings = makeTupleByDict(_EpicMetaGameConfig, self.__serverSettings[b'epic_config'][b'epicMetaGame'])

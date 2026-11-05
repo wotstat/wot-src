@@ -1,7 +1,7 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
-import { Yn as e, fn as t, li as n, n as a, pn as i, tn as c } from "../../chunks/lib.js";
+import { Yn as e, ci as t, fn as n, n as a, pn as c, tn as i } from "../../chunks/lib.js";
 import "../../chunks/global.js";
-n();
+t();
 var l = "Content_7bb15980",
   r = "Content_separator_9582cf97",
   o = "Content_image_2c4b4824",
@@ -32,4 +32,4 @@ var l = "Content_7bb15980",
       ],
     }),
   b = () => (0, _.jsx)(a, { children: (0, _.jsx)(a.Decorator, { children: (0, _.jsx)(N, {}) }) });
-t(new i().add(c).render((0, _.jsx)(b, {})));
+n(new c().add(i).render((0, _.jsx)(b, {})));

@@ -1,12 +1,12 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
-import { A as e, Jt as t, On as i, bt as n, vt as a, yt as r } from "../../chunks/lib.js";
+import { A as e, Dn as t, bt as i, qt as n, vt as a, yt as r } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
-/* empty css                 */ i();
+/* empty css                 */ t();
 var l = "Content_31a760a2",
   o = "Content_title_1fdee2fe",
   c = "Content_image_a2b2b7e0",
   d = "Content_description_5209fcb",
-  m = s(t(), 1),
+  m = s(n(), 1),
   j = R.strings.user_missions.tooltip.hub.shields,
   h = () =>
     (0, m.jsxs)("div", {
@@ -18,4 +18,4 @@ var l = "Content_31a760a2",
       ],
     }),
   _ = () => (0, m.jsx)(e, { children: (0, m.jsx)(e.Decorator, { children: (0, m.jsx)(h, {}) }) });
-r(new n().add(a).render((0, m.jsx)(_, {})));
+r(new i().add(a).render((0, m.jsx)(_, {})));

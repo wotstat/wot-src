@@ -1,5 +1,5 @@
 import { r as e } from "./rolldown-runtime.js";
-import { Dn as a, Jt as t, On as s, Ot as l, ct as r } from "./lib.js";
+import { Dn as a, En as t, Ot as s, ct as l, qt as r } from "./lib.js";
 import { t as n } from "./utils.js";
 import { i, n as o, r as m, t as _ } from "./get_reward_image.js";
 var c = "customization",
@@ -9,7 +9,7 @@ function u(e, a) {
   const t = a.filter((e) => e.name === c).length;
   return t > 1 ? t : e.count;
 }
-var g = e(s(), 1),
+var g = e(a(), 1),
   b = {
     base: "RewardItem_59394906",
     image: "RewardItem_image_81edae9d",
@@ -27,11 +27,11 @@ var g = e(s(), 1),
     label__tankXP: "RewardItem_label__tankXP_a2f71600",
     compensation: "RewardItem_compensation_8d198fdb",
   },
-  f = e(t(), 1);
-function p({ reward: e, displayCount: t, isCurrency: s }) {
-  const c = t > 1 && !s,
+  f = e(r(), 1);
+function p({ reward: e, displayCount: a, isCurrency: r }) {
+  const c = a > 1 && !r,
     d = e.overlayType,
-    u = l(
+    u = s(
       (0, g.useMemo)(
         () => ({ contentId: Number(e.tooltipContentId), args: { tooltipId: e.tooltipId } }),
         [e.tooltipContentId, e.tooltipId],
@@ -44,7 +44,7 @@ function p({ reward: e, displayCount: t, isCurrency: s }) {
     children: [
       (0, f.jsxs)("div", {
         ...u,
-        className: a(b.image, c && b.image__counter),
+        className: t(b.image, c && b.image__counter),
         children: [
           p &&
             (0, f.jsx)("div", {
@@ -59,21 +59,21 @@ function p({ reward: e, displayCount: t, isCurrency: s }) {
           }),
           I &&
             (0, f.jsx)("div", {
-              className: a(b.overlay, b[`overlay__${e.name}`]),
+              className: t(b.overlay, b[`overlay__${e.name}`]),
               style: { backgroundImage: `url(${I})` },
             }),
           c &&
-            (0, f.jsx)(r, {
+            (0, f.jsx)(l, {
               text: R.strings.user_missions.hub.challenge_missions.reward.multi(),
               className: b.count,
-              params: { count: t },
+              params: { count: a },
             }),
           e.isCompensation && (0, f.jsx)("div", { className: b.compensation }),
         ],
       }),
-      s &&
-        (0, f.jsx)(r, {
-          className: a(b.label, b[`label__${e.name}`]),
+      r &&
+        (0, f.jsx)(l, {
+          className: t(b.label, b[`label__${e.name}`]),
           text: n(e.label),
           upgradeLegacy: !0,
         }),
@@ -81,15 +81,15 @@ function p({ reward: e, displayCount: t, isCurrency: s }) {
   });
 }
 var I = "Rewards_ff779b97";
-function h({ bonuses: e, count: t = 4, className: s }) {
+function h({ bonuses: e, count: a = 4, className: s }) {
   const l = (function (e) {
       const a = e.find((e) => e.name === c),
         t = e.filter((e) => e.name !== c);
       return a ? [a, ...t] : t;
     })(e),
-    r = l.length > t ? l.slice(0, t) : l;
+    r = l.length > a ? l.slice(0, a) : l;
   return (0, f.jsx)("div", {
-    className: a(I, s),
+    className: t(I, s),
     children: r.map((a, t) =>
       (0, f.jsx)(
         p,

@@ -4,9 +4,9 @@ import {
   Ht as s,
   Jt as t,
   K as n,
-  Vt as i,
+  Vt as o,
   et as c,
-  ft as o,
+  ft as i,
   i as r,
   it as l,
   lt as m,
@@ -19,8 +19,8 @@ var _ = {
     SINGLE_REWARD: { context: "model.singleBoxRewards" },
     MULTIPLE_REWARD: { context: "model.multipleBoxesRewards" },
   },
-  f = { image: "img", video: "video" },
-  j = { [x.Common]: x.Common, [x.Rare]: x.Rare },
+  j = { image: "img", video: "video" },
+  f = { [x.Common]: x.Common, [x.Rare]: x.Rare },
   b = e(s()),
   C = (e) => {
     const { width: a, height: s } = d(),
@@ -36,25 +36,25 @@ var _ = {
   p = "Loader_a1c28e8a",
   y = "Loader_icon_aa53996d",
   T = "Loader_text_9d6119c3",
-  k = e(o());
-function A({ img: e, text: a, className: s }) {
+  k = e(i());
+function w({ img: e, text: a, className: s }) {
   return (0, k.jsxs)("div", {
-    className: i(p, s),
+    className: o(p, s),
     children: [
       (0, k.jsx)("div", { className: y, style: { backgroundImage: `url(${e})` } }),
       (0, k.jsx)("div", { className: T, children: a }),
     ],
   });
 }
-var I = "AnimationCheckbox_f57b04ae",
-  L = "AnimationCheckbox_check_8cef4f2f",
-  B = "AnimationCheckbox_checkIcon_78c7cede",
-  w = "AnimationCheckbox_label_6d54acd3";
+var A = "AnimationCheckbox_f57b04ae",
+  B = "AnimationCheckbox_check_8cef4f2f",
+  I = "AnimationCheckbox_checkIcon_78c7cede",
+  L = "AnimationCheckbox_label_6d54acd3";
 function R({ className: e, isActive: a, text: s, disable: t = !1, onClick: n }) {
   return (0, k.jsx)("div", {
-    className: i(I, e),
+    className: o(A, e),
     children: (0, k.jsx)(r, {
-      classNames: { check: L, checkIcon: B, label: w },
+      classNames: { check: B, checkIcon: I, label: L },
       disabled: t,
       checked: a,
       onCheckedChange: n,
@@ -62,98 +62,108 @@ function R({ className: e, isActive: a, text: s, disable: t = !1, onClick: n }) 
     }),
   });
 }
-var q = (0, b.createContext)({ eventName: "" });
-function P({ eventName: e, children: a }) {
-  return (0, k.jsx)(q.Provider, { value: { eventName: e }, children: a });
+var P = "Shadow_90d42d74";
+function q({ className: e = "" }) {
+  return (0, k.jsx)("div", { className: o(P, e) });
 }
-var E = "Caption_ba85a9b";
-function z({ children: e, className: a, ...s }) {
-  return (0, k.jsx)("div", { className: i(E, a), ...s, children: e });
+var E = (0, b.createContext)({ eventName: "" });
+function z({ eventName: e, children: a }) {
+  return (0, k.jsx)(E.Provider, { value: { eventName: e }, children: a });
 }
-var H = "Control_fcb22b97";
-function M({ children: e, className: a }) {
-  return (0, k.jsx)("div", { className: i(H, a), children: e });
+var H = "Caption_ba85a9b";
+function M({ children: e, className: a, ...s }) {
+  return (0, k.jsx)("div", { className: o(H, a), ...s, children: e });
 }
-var $ = "Controls_9d09936a";
-var D = {
+var S = "Control_fcb22b97";
+function $({ children: e, className: a }) {
+  return (0, k.jsx)("div", { className: o(S, a), children: e });
+}
+var D = "Controls_9d09936a";
+var G = {
     images: { infoIcon: "common.icons.info_light.s24x24" },
     texts: {
       guaranteedTitle: "guaranteedTitle.text",
       guaranteedTitleName: "guaranteedTitle.textName",
     },
   },
-  G = "Line_922d96a0",
-  K = "Line_icon_b09df192";
-function Q({ counts: e, category: s, eventName: c, className: o }) {
+  K = "Line_922d96a0",
+  Q = "Line_icon_b09df192";
+function W({ counts: e, category: s, eventName: c, className: i }) {
   const r = t.resolve("views"),
-    { images: l, texts: d } = u(D, c),
+    { images: l, texts: d } = u(G, c),
     x = n({
       contentId: r.read((e) => e.mono.lootbox.tooltips.guaranteed_reward_info("resId")),
       args: { category: s, eventName: c },
     }),
     _ = m({ size: N.small }, { large: { size: N.large } }),
-    { guaranteed: f } = h(c);
+    { guaranteed: j } = h(c);
   return (0, k.jsxs)(v, {
     ...x,
-    className: i(G, o),
+    className: o(K, i),
     children: [
       (0, k.jsx)(a, {
         text: d.guaranteedTitle,
         upgradeLegacy: !0,
         params: {
           count: (0, k.jsx)(g, { size: _.size, counts: e, eventName: c }),
-          name: (0, k.jsx)(v.Highlight, { highlight: e <= f.accent, text: d.guaranteedTitleName }),
+          name: (0, k.jsx)(v.Highlight, {
+            highlight: e <= j.accent,
+            color: j.highlight.color,
+            text: d.guaranteedTitleName,
+          }),
         },
       }),
-      (0, k.jsx)(v.Info, { className: K, src: l.infoIcon }),
+      (0, k.jsx)(v.Info, { className: Q, src: l.infoIcon }),
     ],
   });
 }
-function W(e) {
-  const { eventName: a } = b.useContext(q);
-  return (0, k.jsx)(Q, { ...e, eventName: a });
+function J(e) {
+  const { eventName: a } = b.useContext(E);
+  return (0, k.jsx)(W, { ...e, eventName: a });
 }
-var J = {
+var O = {
     texts: {
       quantityAvailableTitle: "quantityTitle.boxesAvailable",
       quantityNoBoxesTitle: "quantityTitle.noBoxes",
     },
   },
-  O = "Quantity_count_3dd338ce";
-function S({ boxesCount: e = 0, className: s }) {
-  const { eventName: t } = b.useContext(q),
-    { texts: n } = u(J, t);
-  return (0, k.jsx)(z, {
+  U = "Quantity_count_3dd338ce";
+function V({ boxesCount: e = 0, className: s }) {
+  const { eventName: t } = b.useContext(E),
+    { texts: n } = u(O, t);
+  return (0, k.jsx)(M, {
     className: s,
     children:
       e > 0
         ? (0, k.jsx)(a, {
             text: n.quantityAvailableTitle,
-            params: { boxesCount: (0, k.jsx)("span", { className: O, children: e }) },
+            params: { boxesCount: (0, k.jsx)("span", { className: U, children: e }) },
             upgradeLegacy: !0,
           })
         : n.quantityNoBoxesTitle,
   });
 }
-var U = "BoxPanel_45fc5818",
-  V = "BoxPanel_guaranteed_d08d90be",
-  F = "BoxPanel_caption_3b168a33",
-  X = "BoxPanel_control_e99a2e5d";
-function Y({ eventName: e, children: a, className: s }) {
-  return (0, k.jsx)(P, {
+var F = "BoxPanel_4ea90a11",
+  X = "BoxPanel_guaranteed_d08d90be",
+  Y = "BoxPanel_caption_3b168a33",
+  Z = "BoxPanel_control_e99a2e5d",
+  ee = "BoxPanel_shadow_187173ce";
+function ae({ eventName: e, children: a, className: s }) {
+  return (0, k.jsx)(z, {
     eventName: e,
-    children: (0, k.jsx)("div", { className: i(U, s), children: a }),
+    children: (0, k.jsx)("div", { className: o(F, s), children: a }),
   });
 }
-((Y.Controls = function ({ children: e, className: a }) {
-  return (0, k.jsx)("div", { className: i($, a), children: e });
+((ae.Controls = function ({ children: e, className: a }) {
+  return (0, k.jsx)("div", { className: o(D, a), children: e });
 }),
-  (Y.Control = ({ className: e, ...a }) => (0, k.jsx)(M, { ...a, className: i(X, e) })),
-  (Y.Guaranteed = ({ className: e, ...a }) => (0, k.jsx)(W, { ...a, className: i(V, e) })),
-  (Y.Quantity = ({ className: e, ...a }) => (0, k.jsx)(S, { ...a, className: i(F, e) })),
-  (Y.Caption = ({ className: e, ...a }) => (0, k.jsx)(z, { ...a, className: i(F, e) })));
-var Z = (e, a) => {
+  (ae.Control = ({ className: e, ...a }) => (0, k.jsx)($, { ...a, className: o(Z, e) })),
+  (ae.Guaranteed = ({ className: e, ...a }) => (0, k.jsx)(J, { ...a, className: o(X, e) })),
+  (ae.Quantity = ({ className: e, ...a }) => (0, k.jsx)(V, { ...a, className: o(Y, e) })),
+  (ae.Caption = ({ className: e, ...a }) => (0, k.jsx)(M, { ...a, className: o(Y, e) })),
+  (ae.Shadow = ({ className: e, ...a }) => (0, k.jsx)(q, { ...a, className: o(ee, e) })));
+var se = (e, a) => {
   const [s, t] = c(() => !e.current?.getCachedKeyframes()?.length || (a(), !1));
   l(() => (s(), t));
 };
-export { A as a, j as c, R as i, _ as l, Y as n, C as o, q as r, f as s, Z as t };
+export { q as a, C as c, _ as d, E as i, j as l, ae as n, R as o, W as r, w as s, se as t, f as u };

@@ -1,9 +1,9 @@
 import { r as e, t } from "./rolldown-runtime.js";
-import { At as r, gt as n, ht as o, jt as i, mt as a, pt as u } from "./lib.js";
-var s = e(i());
+import { Mt as r, _t as n, gt as o, ht as i, jt as a, mt as u } from "./lib.js";
+var s = e(r());
 if (!s.useState) throw new Error("mobx-react-lite requires React with Hooks support");
 if (!n) throw new Error("mobx-react-lite@3 requires mobx at least version 6 to be available");
-var l = e(r());
+var l = e(a());
 function c(e) {
   e();
 }
@@ -88,23 +88,23 @@ var p,
     (null === (t = e.reaction) || void 0 === t || t.dispose(), (e.reaction = null));
   }),
   v = t((e) => {
-    var t = i();
-    var r =
+    var t = r();
+    var n =
         "function" == typeof Object.is
           ? Object.is
           : function (e, t) {
               return (e === t && (0 !== e || 1 / e == 1 / t)) || (e != e && t != t);
             },
-      n = t.useState,
-      o = t.useEffect,
+      o = t.useState,
+      i = t.useEffect,
       a = t.useLayoutEffect,
       u = t.useDebugValue;
     function s(e) {
       var t = e.getSnapshot;
       e = e.value;
       try {
-        var n = t();
-        return !r(e, n);
+        var r = t();
+        return !n(e, r);
       } catch (o) {
         return !0;
       }
@@ -118,9 +118,9 @@ var p,
           }
         : function (e, t) {
             var r = t(),
-              i = n({ inst: { value: r, getSnapshot: t } }),
-              l = i[0].inst,
-              c = i[1];
+              n = o({ inst: { value: r, getSnapshot: t } }),
+              l = n[0].inst,
+              c = n[1];
             return (
               a(
                 function () {
@@ -128,7 +128,7 @@ var p,
                 },
                 [e, r, t],
               ),
-              o(
+              i(
                 function () {
                   return (
                     s(l) && c({ inst: l }),
@@ -257,6 +257,6 @@ function x(e, t) {
 var E,
   P,
   R = { $$typeof: !0, render: !0, compare: !0, type: !0, displayName: !0 };
-((P = l.unstable_batchedUpdates) || (P = c), a({ reactionScheduler: P }));
+((P = l.unstable_batchedUpdates) || (P = c), i({ reactionScheduler: P }));
 E = m.finalizeAllImmediately;
 export { x as t };

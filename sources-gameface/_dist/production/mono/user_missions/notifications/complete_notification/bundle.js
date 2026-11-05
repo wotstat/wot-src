@@ -1,24 +1,24 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Dn as e,
+  En as e,
   H as a,
-  Jt as l,
-  L as n,
+  L as l,
   St as c,
-  U as o,
-  V as r,
-  _t as i,
+  U as n,
+  V as o,
+  _t as r,
+  cn as i,
   ct as t,
   ln as p,
   nt as m,
-  rt as d,
-  un as _,
+  qt as d,
+  rt as _,
   vt as b,
   yt as h,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
-/* empty css                 */ import { t as u } from "../../chunks/rewards.js";
-var [g, j] = c()(
+/* empty css                 */ import { t as g } from "../../chunks/rewards.js";
+var [u, j] = c()(
     ({ observableModel: s }) => ({ root: s.object(), bonuses: s.array("rewards") }),
     ({ externalModel: s }) => ({ openChallenge: s.createCallbackNoArgs("onClick") }),
   ),
@@ -33,14 +33,14 @@ var [g, j] = c()(
   w = "App_rewards_573bd253",
   M = "App_button_cec9cac4",
   I = "App_close_654073f5",
-  L = s(l(), 1),
+  L = s(d(), 1),
   z = R.strings.user_missions.hub.challenge_missions.notification.challenge_complete,
-  U = i(function () {
-    const { model: s, controls: l } = j(),
-      { challengeName: c, anyMissionsLeft: i, isPopUp: b } = s.root.get(),
+  U = r(function () {
+    const { model: s, controls: c } = j(),
+      { challengeName: r, anyMissionsLeft: d, isPopUp: b } = s.root.get(),
       h = s.bonuses.get(),
-      g = p(h);
-    return (0, L.jsxs)(n, {
+      u = i(h);
+    return (0, L.jsxs)(l, {
       className: e(N, b && f),
       children: [
         (0, L.jsxs)("div", {
@@ -56,7 +56,7 @@ var [g, j] = c()(
               className: y,
               children: [
                 (0, L.jsx)(t, {
-                  params: { challengeName: c },
+                  params: { challengeName: r },
                   text: z.title(),
                   className: C,
                   upgradeLegacy: !0,
@@ -64,18 +64,18 @@ var [g, j] = c()(
                 (0, L.jsx)("div", { className: v, children: (0, L.jsx)("div", { className: k }) }),
               ],
             }),
-            (0, L.jsx)("div", { className: w, children: (0, L.jsx)(u, { bonuses: g }) }),
-            (0, L.jsx)(r, {
+            (0, L.jsx)("div", { className: w, children: (0, L.jsx)(g, { bonuses: u }) }),
+            (0, L.jsx)(o, {
               className: M,
               size: a.small,
-              onClick: l.openChallenge,
-              theme: i ? o.primary : o.secondary,
-              children: i ? z.button() : z.affirmative(),
+              onClick: c.openChallenge,
+              theme: d ? n.primary : n.secondary,
+              children: d ? z.button() : z.affirmative(),
             }),
           ],
         }),
-        b && (0, L.jsx)(m, { size: d.small, onClose: _, className: I }),
+        b && (0, L.jsx)(m, { size: _.small, onClose: p, className: I }),
       ],
     });
   });
-h((0, L.jsx)(g, { children: (0, L.jsx)(b, { children: (0, L.jsx)(U, {}) }) }));
+h((0, L.jsx)(u, { children: (0, L.jsx)(b, { children: (0, L.jsx)(U, {}) }) }));

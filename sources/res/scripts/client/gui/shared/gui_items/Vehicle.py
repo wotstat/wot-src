@@ -579,7 +579,8 @@ class Vehicle(FittingItem):
             if not tmanInvData:
                 continue
             tdescr = tankmen.TankmanDescr(compactDescr=tmanInvData[b'compDescr'])
-            brotherhoodSum += tdescr.skillLevel(b'brotherhood') or 0
+            if tdescr.isOwnVehicleOrPremium(self.descriptor.type):
+                brotherhoodSum += (tdescr.skillLevel(b'brotherhood') or 0) * tdescr.skillsEfficiency
             if tdescr.role == Tankman.ROLES.COMMANDER:
                 commanderEffRoleLevel = float(tdescr.roleLevel)
 

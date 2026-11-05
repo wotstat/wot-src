@@ -1,5 +1,5 @@
 import { r as a } from "./rolldown-runtime.js";
-import { Yn as s, bt as e, li as l, si as i } from "./lib.js";
+import { Yn as s, bt as e, ci as l, oi as i } from "./lib.js";
 var t = a(l(), 1),
   n = {
     base: "Styles_f631575c",
@@ -34,16 +34,17 @@ var t = a(l(), 1),
     }),
   ),
   r = "Point_2663b7cb",
-  c = "Point_points_2ee84436",
-  _ = "Point_points__special_d4c6e82f",
+  _ = "Point_points_2ee84436",
+  c = "Point_points__special_d4c6e82f",
+  b = "Point_base__hasAdditionalPoints_d8b7e333",
   p = "Point_value_bcd55687",
-  b = "Point_additionalPoints_6e14e8ef",
-  m = "Point_additionalPoints__special_235764b3",
-  h = "Point_additionalPointsGlow_4455fb4d",
-  x = "Point_additionalPointsDivider_9b3c39ce",
-  P = "Point_additionalPointsText_7c0fdaec",
-  j = "Point_pointIcon_2442905f",
-  v = ({
+  m = "Point_additionalPoints_6e14e8ef",
+  h = "Point_additionalPoints__special_235764b3",
+  x = "Point_additionalPointsGlow_4455fb4d",
+  P = "Point_additionalPointsDivider_9b3c39ce",
+  j = "Point_additionalPointsText_7c0fdaec",
+  v = "Point_pointIcon_2442905f",
+  y = ({
     value: a,
     hasAdditionalPoints: s = !1,
     externalValue: e = 0,
@@ -51,32 +52,32 @@ var t = a(l(), 1),
     showIcon: t = !0,
   }) =>
     (0, o.jsxs)("div", {
-      className: r,
+      className: i(r, s && b),
       children: [
         (0, o.jsxs)("div", {
-          className: i(c, l && _),
+          className: i(_, l && c),
           children: [
             (0, o.jsx)("div", { className: p, children: a }),
             s &&
               (0, o.jsxs)("div", {
-                className: i(b, l && m),
+                className: i(m, l && h),
                 children: [
-                  (0, o.jsx)("div", { className: h }),
                   (0, o.jsx)("div", { className: x }),
-                  (0, o.jsx)("div", { className: P, children: a + e }),
+                  (0, o.jsx)("div", { className: P }),
+                  (0, o.jsx)("div", { className: j, children: a + e }),
                 ],
               }),
           ],
         }),
-        t && (0, o.jsx)("div", { className: j }),
+        t && (0, o.jsx)("div", { className: v }),
       ],
     }),
-  y = R.strings.battle_pass.tooltips,
-  S = ({ win: a, points: s, hasAdditionalPoints: e = !1, hasDraw: l = !0, battleType: i = "" }) => {
+  S = R.strings.battle_pass.tooltips,
+  u = ({ win: a, points: s, hasAdditionalPoints: e = !1, hasDraw: l = !0, battleType: i = "" }) => {
     const t = ((a, s, e) => (a ? e.win() : s ? e.lose() : e.loseWithoutDraw()))(
       a,
       l,
-      "comp7" === i ? y.prestigePoints : y.pointsTable,
+      "comp7" === i ? S.prestigePoints : S.pointsTable,
     );
     return (0, o.jsxs)("div", {
       className: n.pointsColumn,
@@ -87,7 +88,7 @@ var t = a(l(), 1),
             "div",
             {
               className: n.label,
-              children: (0, o.jsx)(v, {
+              children: (0, o.jsx)(y, {
                 value: a ? s.pointsWin : s.pointsLose,
                 hasAdditionalPoints: e,
                 externalValue: a ? s.externalPointsWin : s.externalPointsLose,
@@ -101,13 +102,13 @@ var t = a(l(), 1),
       ],
     });
   },
-  u = "PointsTable_pointIcon_363eb4a4",
-  w = "PointsTable_headerText_6ce716db",
-  f = R.strings.battle_pass.tooltips.pointsTable,
-  N = ({
+  w = "PointsTable_pointIcon_363eb4a4",
+  f = "PointsTable_headerText_6ce716db",
+  N = R.strings.battle_pass.tooltips.pointsTable,
+  C = ({
     rewardPoints: a,
     hasAdditionalPoints: s = !1,
-    topPlace: l = f.topPlace(),
+    topPlace: l = N.topPlace(),
     hasDraw: i = !0,
     tableColumnWidth: t = 180,
     battleType: n = "",
@@ -116,19 +117,19 @@ var t = a(l(), 1),
       children: [
         (0, o.jsx)(d, {
           header: (0, o.jsxs)("div", {
-            className: w,
-            children: [(0, o.jsx)("div", { className: u }), f.header()],
+            className: f,
+            children: [(0, o.jsx)("div", { className: w }), N.header()],
           }),
           columnWidth: t,
           labels: a.items.map(({ value: a }) =>
             (0, o.jsx)(e, { text: l, binding: { place: a.topCount } }),
           ),
         }),
-        (0, o.jsx)(S, { points: a, hasAdditionalPoints: s, win: !0, battleType: n }),
-        (0, o.jsx)(S, { points: a, hasAdditionalPoints: s, win: !1, hasDraw: i, battleType: n }),
+        (0, o.jsx)(u, { points: a, hasAdditionalPoints: s, win: !0, battleType: n }),
+        (0, o.jsx)(u, { points: a, hasAdditionalPoints: s, win: !1, hasDraw: i, battleType: n }),
       ],
     }),
-  C = ({
+  I = ({
     separatorRows: a,
     children: s,
     showSeparator: e = !0,
@@ -155,4 +156,4 @@ var t = a(l(), 1),
         s,
       ],
     });
-export { n as a, d as i, N as n, v as r, C as t };
+export { n as a, d as i, C as n, y as r, I as t };

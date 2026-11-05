@@ -146,7 +146,8 @@ class PetEventFullscreenWindowState(SFViewLobbyState, EventsHandler):
     def __switchCamera(self, isExit=False):
         yield self.fadeManager.show(WindowLayer.OVERLAY)
         try:
-            cameraManager = CGF.getSystem(self.hangarSpace.spaceID, HangarCameraSystem)
+            spaceID = self.hangarSpace.spaceID
+            cameraManager = CGF.getSystem(spaceID, HangarCameraSystem) if spaceID is not None else None
             if cameraManager:
                 if not isExit:
                     cameraManager.switchByCameraName(PET_CAMERA_NAME, instantly=True)

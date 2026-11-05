@@ -9,6 +9,7 @@ package net.wg.gui.battle.views
    import net.wg.data.constants.Errors;
    import net.wg.data.constants.Linkages;
    import net.wg.data.constants.generated.BATTLE_VIEW_ALIASES;
+   import net.wg.data.constants.generated.CROSSHAIR_VIEW_ID;
    import net.wg.data.constants.generated.LAYER_NAMES;
    import net.wg.gui.battle.battleloading.BaseBattleLoading;
    import net.wg.gui.battle.components.BattleLayoutComponent;
@@ -55,6 +56,10 @@ package net.wg.gui.battle.views
       protected static const VEHICLE_MESSAGES_LIST_POSTMORTEM_Y_OFFSET:int = 20;
       
       protected static const VEHICLE_ERRORS_LIST_OFFSET:Point = new Point(300,30);
+      
+      protected static const VEHICLE_ERRORS_ARCADE_CROSSHAIR_OFFSET_Y:int = 170;
+      
+      protected static const VEHICLE_ERRORS_SNIPER_CROSSHAIR_OFFSET_Y:int = 190;
       
       protected static const PLAYER_MESSAGES_LIST_OFFSET:Point = new Point(350,-38);
       
@@ -138,6 +143,8 @@ package net.wg.gui.battle.views
       
       private var _containerMgr:IContainerManager;
       
+      private var _battleMessengerFocusTarget:InteractiveObject = null;
+      
       public function BaseBattlePage()
       {
          super();
@@ -186,10 +193,6 @@ package net.wg.gui.battle.views
          {
             this.battleTimer.x = param1 - this.battleTimer.initedWidth;
             this.battleTimer.y = 0;
-         }
-         if(Boolean(this.dualGunPanel))
-         {
-            this.dualGunPanel.updateStage(param1,param2);
          }
          if(Boolean(this.hitTestFix))
          {
@@ -423,6 +426,7 @@ package net.wg.gui.battle.views
       
       override protected function onDispose() : void
       {
+         this._battleMessengerFocusTarget = null;
          if(Boolean(this._layoutPart))
          {
             this._layoutPart.dispose();
@@ -452,7 +456,11 @@ package net.wg.gui.battle.views
             this._messagesContainer = null;
          }
          this.vehicleMessageList = null;
-         this.vehicleErrorMessageList = null;
+         if(Boolean(this.vehicleErrorMessageList))
+         {
+            this.vehicleErrorMessageList.removeEventListener(MessageListDAAPI.CROSSHAIR_LAYOUT_CHANGE,this.onVehicleErrorMessageListCrosshairLayoutChangeHandler);
+            this.vehicleErrorMessageList = null;
+         }
          this.playerMessageList = null;
          this.battleStatisticDataController = null;
          this.piercingDebugPanel = null;
@@ -496,9 +504,8 @@ package net.wg.gui.battle.views
       
       override protected function onSetModalFocus(param1:InteractiveObject) : void
       {
-         if(!this.isElementVisible(param1))
+         if(param1 == null || param1 != this._battleMessengerFocusTarget)
          {
-            DebugUtils.LOG_DEBUG("Cannot set focus on the invisible element!");
             setFocus(this);
          }
          super.onSetModalFocus(param1);
@@ -645,7 +652,18 @@ package net.wg.gui.battle.views
          }
          this.vehicleMessageList = new VehicleMessages(this._messagesContainer);
          this.vehicleErrorMessageList = new MessageListDAAPI(this._messagesContainer);
+         this.vehicleErrorMessageList.addEventListener(MessageListDAAPI.CROSSHAIR_LAYOUT_CHANGE,this.onVehicleErrorMessageListCrosshairLayoutChangeHandler);
          this.playerMessageList = new MessageListDAAPI(this._messagesContainer);
+      }
+      
+      protected function setBattleMessengerFocus(param1:InteractiveObject) : void
+      {
+         this._battleMessengerFocusTarget = param1;
+         if(!hasFocus)
+         {
+            App.containerMgr.tryFocusView(this);
+         }
+         setFocus(param1);
       }
       
       protected function onRegisterStatisticController() : void
@@ -664,7 +682,19 @@ package net.wg.gui.battle.views
       
       protected function vehicleErrorMessageListPositionUpdate() : void
       {
-         this.vehicleErrorMessageList.setLocation(_originalWidth - VEHICLE_ERRORS_LIST_OFFSET.x >> 1,(_originalHeight >> 2) + VEHICLE_ERRORS_LIST_OFFSET.y);
+         var _loc1_:Number = NaN;
+         switch(this.vehicleErrorMessageList.crosshairViewId)
+         {
+            case CROSSHAIR_VIEW_ID.ARCADE:
+               _loc1_ = this.vehicleErrorMessageList.crosshairY - VEHICLE_ERRORS_ARCADE_CROSSHAIR_OFFSET_Y;
+               break;
+            case CROSSHAIR_VIEW_ID.SNIPER:
+               _loc1_ = this.vehicleErrorMessageList.crosshairY - VEHICLE_ERRORS_SNIPER_CROSSHAIR_OFFSET_Y;
+               break;
+            default:
+               _loc1_ = (_originalHeight >> 2) + VEHICLE_ERRORS_LIST_OFFSET.y;
+         }
+         this.vehicleErrorMessageList.setLocation(_originalWidth - VEHICLE_ERRORS_LIST_OFFSET.x >> 1,_loc1_);
       }
       
       protected function vehicleMessageListPositionUpdate() : void
@@ -737,11 +767,6 @@ package net.wg.gui.battle.views
       protected function updateMinimapSizeIndex(param1:Number) : void
       {
          this.minimap.setAllowedSizeIndex(this.getAllowedMinimapSizeIndex(param1));
-      }
-      
-      private function isElementVisible(param1:InteractiveObject) : Boolean
-      {
-         return param1 && param1.visible && param1.parent != this && this.isElementVisible(param1.parent);
       }
       
       private function showComponent(param1:String, param2:Boolean) : void
@@ -908,6 +933,11 @@ package net.wg.gui.battle.views
             }
             this.updateAmmunitionPanelY();
          }
+      }
+      
+      private function onVehicleErrorMessageListCrosshairLayoutChangeHandler(param1:Event) : void
+      {
+         this.vehicleErrorMessageListPositionUpdate();
       }
    }
 }

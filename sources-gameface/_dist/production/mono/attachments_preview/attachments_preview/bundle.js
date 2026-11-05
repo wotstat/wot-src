@@ -1,8 +1,8 @@
 import { n as e } from "../chunks/rolldown-runtime.js";
 import {
   C as a,
-  D as s,
-  E as t,
+  D as t,
+  E as s,
   F as r,
   H as i,
   I as n,
@@ -13,11 +13,11 @@ import {
   R as d,
   S as _,
   T as h,
-  V as p,
-  _ as x,
+  V as x,
+  _ as p,
   a as u,
-  b as g,
-  c as v,
+  b as v,
+  c as g,
   d as b,
   f as y,
   g as f,
@@ -39,37 +39,41 @@ import {
   z as R,
 } from "../chunks/lib.js";
 import { t as D } from "../chunks/vendor.js";
-var L = e(p(), 1),
-  M = "ScrollContent_alignedWrapper_aeca2e8f",
-  W = "ScrollContent_scrollBar_fa01fa0a",
-  q = k(),
-  B = ({ children: e }) => {
-    const [a, t] = (0, L.useState)(!1),
+var L = e(x(), 1),
+  M = "ScrollContent_8d85335d",
+  W = "ScrollContent_alignedWrapper_aeca2e8f",
+  q = "ScrollContent_scrollBar_4f574d8b",
+  B = k(),
+  V = ({ children: e }) => {
+    const [a, s] = (0, L.useState)(!1),
       { api: r } = S(),
       { animationScroll: i, applyScroll: n, getBounds: l } = r,
       c = b(r, j.horizontal);
     return (
       (0, L.useEffect)(
         () =>
-          s(() => {
+          t(() => {
             "idle" === c.type && i.scrollPosition.idle && n(i.scrollPosition.get());
           }),
         [i.scrollPosition, c, n],
       ),
       (0, L.useEffect)(() => {
         const [e, a] = l();
-        t(e !== a);
+        s(e !== a);
       }, [l]),
-      (0, q.jsxs)(q.Fragment, {
+      (0, B.jsxs)(B.Fragment, {
         children: [
-          (0, q.jsx)(y, { classNames: { wrapper: R(!a && M) }, children: e }),
-          (0, q.jsx)(w, { classNames: { base: W } }),
+          (0, B.jsx)(y, { classNames: { wrapper: R(!a && W) }, children: e }),
+          (0, B.jsx)(w, { classNames: { base: q } }),
         ],
       })
     );
   },
-  V = ({ children: e }) => (0, q.jsx)(T, { children: (0, q.jsx)(B, { children: e }) }),
-  [F, U] = H()(
+  F = ({ children: e }) =>
+    (0, B.jsx)(T, {
+      children: (0, B.jsx)("div", { className: M, children: (0, B.jsx)(V, { children: e }) }),
+    }),
+  [U, Y] = H()(
     ({ observableModel: e }) => ({
       root: e.object(),
       attachments: e.array("attachments"),
@@ -77,8 +81,8 @@ var L = e(p(), 1),
     }),
     o,
   ),
-  Y = i.resolve("images"),
-  G = (function (e) {
+  G = i.resolve("images"),
+  Q = (function (e) {
     return (
       (e.Big = "big"),
       (e.Small = "small"),
@@ -96,65 +100,65 @@ var L = e(p(), 1),
       e
     );
   })({}),
-  Q = "attachment",
-  J = (e, a = "s180x135") => {
-    const { name: s, icon: t } = e;
-    return Y.has(`R.images.gui.maps.vehicles.attachments.${a}.${t}`)
-      ? `R.images.gui.maps.vehicles.attachments.${a}.${t}`
-      : `R.images.gui.maps.icons.quests.bonuses.${a}.${s}`;
+  J = "attachment",
+  K = (e, a = "s180x135") => {
+    const { name: t, icon: s } = e;
+    return G.has(`R.images.gui.maps.vehicles.attachments.${a}.${s}`)
+      ? `R.images.gui.maps.vehicles.attachments.${a}.${s}`
+      : `R.images.gui.maps.icons.quests.bonuses.${a}.${t}`;
   };
-var K = (function (e) {
+var X = (function (e) {
     return ((e.AttachmentPreview = "attachment"), e);
   })({}),
-  X = {
+  Z = {
     attachment: {
-      [t.medium]: {
+      [s.medium]: {
         width: "400rem",
         height: "300rem",
         padding: "0",
-        assetSize: G.S400x300,
+        assetSize: Q.S400x300,
         assetWidth: "400rem",
         assetHeight: "300rem",
-        overlaySize: G.S400x300,
+        overlaySize: Q.S400x300,
         multiTextSize: "40rem",
         textSize: "18rem",
         shineSize: "500rem",
       },
-      [t.large]: {
+      [s.large]: {
         width: "600rem",
         height: "450rem",
         padding: "0",
-        assetSize: G.S600x450,
+        assetSize: Q.S600x450,
         assetWidth: "600rem",
         assetHeight: "450rem",
-        overlaySize: G.S600x450,
+        overlaySize: Q.S600x450,
         multiTextSize: "40rem",
         textSize: "18rem",
         shineSize: "760rem",
       },
-      [t.extraLarge]: {
+      [s.extraLarge]: {
         width: "600rem",
         height: "450rem",
         padding: "0",
-        assetSize: G.S600x450,
+        assetSize: Q.S600x450,
         assetWidth: "600rem",
         assetHeight: "450rem",
-        overlaySize: G.S600x450,
+        overlaySize: Q.S600x450,
         multiTextSize: "40rem",
         textSize: "18rem",
         shineSize: "760rem",
       },
     },
   };
-function Z(e) {
-  const { breakpoint: s } = a(),
-    r = s.width > h.Medium ? s.name : t.medium;
-  return X[e][r];
+function ee(e) {
+  const { breakpoint: t } = a(),
+    r = t.width > h.Medium ? t.name : s.medium;
+  return Z[e][r];
 }
-var ee = "Highlight_e258b804",
-  ae = i.resolve("images");
+var ae = "Highlight_e258b804",
+  te = i.resolve("images");
 var se = "Image_f3f63595";
-var te = {
+var re = {
     base: "Overlay_5823bbf",
     base__s24x24: "Overlay_base__s24x24_4e2b74ec",
     base__s48x48: "Overlay_base__s48x48_3c7155a",
@@ -170,192 +174,193 @@ var te = {
     base__trophy: "Overlay_base__trophy_3c7155a",
     base__normalize: "Overlay_base__normalize_428f4b67",
   },
-  re = [u.EQUIPMENT_TROPHY_BASIC, u.EQUIPMENT_TROPHY_UPGRADED];
-var ie = "Container_6c2fdff0",
-  ne = (0, L.forwardRef)(function (
-    { attachment: e, template: a, tooltipDisabled: s = !1, className: t = "", ...r },
+  ie = [u.EQUIPMENT_TROPHY_BASIC, u.EQUIPMENT_TROPHY_UPGRADED];
+var ne = "Container_6c2fdff0",
+  le = (0, L.forwardRef)(function (
+    { attachment: e, template: a, tooltipDisabled: t = !1, className: s = "", ...r },
     i,
   ) {
-    const { width: n, height: l, padding: c } = Z(a),
+    const { width: n, height: l, padding: c } = ee(a),
       { tooltipContentId: m, tooltipId: o } = e;
-    return (0, q.jsx)("div", {
+    return (0, B.jsx)("div", {
       ref: i,
-      ...g(
+      ...v(
         (0, L.useMemo)(
-          () => ({ contentId: Number(m), args: { tooltipId: o }, disabled: s }),
-          [s, m, o],
+          () => ({ contentId: Number(m), args: { tooltipId: o }, disabled: t }),
+          [t, m, o],
         ),
       ),
-      className: R(ie, t),
+      className: R(ne, s),
       style: { width: n, height: l, padding: c },
       children: r.children,
     });
   });
-((ne.Highlight = function ({ size: e, special: a, className: s }) {
-  const t = I(e, a);
-  return (0, q.jsx)("div", {
-    className: R(ee, s),
+((le.Highlight = function ({ size: e, special: a, className: t }) {
+  const s = I(e, a);
+  return (0, B.jsx)("div", {
+    className: R(ae, t),
     style: {
-      backgroundImage: `url(${ae.readOrEmpty(`quests.bonuses.${e}.${t}_highlight`, "silent")})`,
+      backgroundImage: `url(${te.readOrEmpty(`quests.bonuses.${e}.${s}_highlight`, "silent")})`,
     },
   });
 }),
-  (ne.Image = function ({ template: e, image: a, className: s = "", ...t }) {
-    const { assetWidth: r, assetHeight: i } = Z(e);
-    return (0, q.jsx)("div", {
+  (le.Image = function ({ template: e, image: a, className: t = "", ...s }) {
+    const { assetWidth: r, assetHeight: i } = ee(e);
+    return (0, B.jsx)("div", {
       className: se,
       style: { backgroundImage: `url(${a})`, width: r, height: i },
-      ...t,
+      ...s,
     });
   }),
-  (ne.Overlay = function ({ size: e, name: a, special: s, className: t }) {
-    const r = (function ({ size: e, name: a, special: s }) {
-        const t = "s360x270" === e ? "s400x300" : e;
+  (le.Overlay = function ({ size: e, name: a, special: t, className: s }) {
+    const r = (function ({ size: e, name: a, special: t }) {
+        const s = "s360x270" === e ? "s400x300" : e;
         return "attachment" === a
-          ? Y.readOrEmpty(`customization.rarity.glowWithSign.${e}.${s}`)
-          : Y.readOrEmpty(`quests.bonuses.${t}.${O(s)}_overlay`);
-      })({ size: e, name: a, special: s }),
-      i = a === Q,
-      n = re.includes(s);
-    return (0, q.jsx)("div", {
-      className: R(te.base, te[`base__${e}`], i && te.base__normalize, n && te.base__trophy, t),
+          ? G.readOrEmpty(`customization.rarity.glowWithSign.${e}.${t}`)
+          : G.readOrEmpty(`quests.bonuses.${s}.${O(t)}_overlay`);
+      })({ size: e, name: a, special: t }),
+      i = a === J,
+      n = ie.includes(t);
+    return (0, B.jsx)("div", {
+      className: R(re.base, re[`base__${e}`], i && re.base__normalize, n && re.base__trophy, s),
       style: { backgroundImage: `url(${r})` },
     });
   }));
-var le = "Attachment_109d6468",
-  ce = "Attachment_attachmentHighlight_d7fbdbe6",
-  me = "Attachment_attachmentOverlay_aab126a3",
-  oe = "Attachment_video_c86f988c",
-  de = "Attachment_name_4d1f2df8",
-  _e = "Attachment_description_4b8654e5",
-  he = i.resolve("strings"),
+var ce = "Attachment_109d6468",
+  me = "Attachment_attachmentHighlight_d7fbdbe6",
+  oe = "Attachment_attachmentOverlay_aab126a3",
+  de = "Attachment_video_c86f988c",
+  _e = "Attachment_name_4d1f2df8",
+  he = "Attachment_description_4b8654e5",
+  xe = i.resolve("strings"),
   pe = i.resolve("videos");
-function xe({ attachment: e }) {
-  const { assetSize: a, overlaySize: s } = Z(K.AttachmentPreview),
-    t = e.overlayType;
-  return (0, q.jsxs)("div", {
-    className: le,
+function ue({ attachment: e }) {
+  const { assetSize: a, overlaySize: t } = ee(X.AttachmentPreview),
+    s = e.overlayType;
+  return (0, B.jsxs)("div", {
+    className: ce,
     children: [
-      (0, q.jsxs)(ne, {
+      (0, B.jsxs)(le, {
         attachment: e,
-        template: K.AttachmentPreview,
+        template: X.AttachmentPreview,
         children: [
-          t && (0, q.jsx)(ne.Highlight, { special: t, size: s, className: ce }),
-          (0, q.jsx)(ne.Image, {
-            template: K.AttachmentPreview,
-            image: J(e, a),
+          s && (0, B.jsx)(le.Highlight, { special: s, size: t, className: me }),
+          (0, B.jsx)(le.Image, {
+            template: X.AttachmentPreview,
+            image: K(e, a),
             onMouseEnter: d.highlight,
           }),
-          t && (0, q.jsx)(ne.Overlay, { name: e.name, special: t, size: s, className: me }),
-          ((r = t),
+          s && (0, B.jsx)(le.Overlay, { name: e.name, special: s, size: t, className: oe }),
+          ((r = s),
           (r === u.ATTACHMENT_EPIC || r === u.ATTACHMENT_LEGENDARY) &&
-            (0, q.jsx)(E, {
-              src: pe.readOrEmpty(`rarity.cycle_${t}`),
+            (0, B.jsx)(E, {
+              src: pe.readOrEmpty(`rarity.cycle_${s}`),
               autoplay: !0,
               loop: !0,
-              className: oe,
+              className: de,
             })),
         ],
       }),
-      (0, q.jsx)("div", { className: de, children: e.label }),
-      (0, q.jsx)("div", {
-        className: _e,
-        children: he.readOrEmpty(`attachments_preview.rarity.${t}`),
+      (0, B.jsx)("div", { className: _e, children: e.label }),
+      (0, B.jsx)("div", {
+        className: he,
+        children: xe.readOrEmpty(`attachments_preview.rarity.${s}`),
       }),
     ],
   });
   var r;
 }
-var ue = "Header_9981b078",
-  ge = "Header_title_48684f06",
-  ve = "Header_description_20baac9";
-function be({ title: e, description: a, className: s = "" }) {
-  return (0, q.jsxs)("div", {
-    className: R(ue, s),
+var ve = "Header_22ad267b",
+  ge = "Header_title_c1e2ee2a",
+  be = "Header_titleText_d01fbd5",
+  ye = "Header_description_5558c48a";
+function fe({ title: e, description: a, className: t = "" }) {
+  return (0, B.jsxs)("div", {
+    className: R(ve, t),
     children: [
-      (0, q.jsx)($, { text: e, className: ge }),
-      (0, q.jsx)(z, { className: ve, text: a }),
+      (0, B.jsx)($, { text: e, className: ge, classNames: { text: be } }),
+      (0, B.jsx)(z, { className: ye, text: a }),
     ],
   });
 }
-var ye = "App_7b0d0f3d",
-  fe = "App_close_f5179698",
-  Se = "App_header_8f98007e",
-  Ee = "App_content_9d82d0a5",
-  Ne = "App_footer_9f29f1a9",
-  je = i.resolve("strings"),
-  ze = i.resolve("images"),
-  Oe = D(function () {
-    const { model: e } = U();
+var Se = "App_7b0d0f3d",
+  Ee = "App_close_f5179698",
+  Ne = "App_header_f9bb9b18",
+  je = "App_content_9d82d0a5",
+  ze = "App_footer_9f29f1a9",
+  Oe = i.resolve("strings"),
+  we = i.resolve("images"),
+  Ie = D(function () {
+    const { model: e } = Y();
     P(m.ESCAPE, l.closeView);
     const a = _({ buttonSize: N.medium }, { large: { buttonSize: N.large } }),
-      s = e.attachmentSetID.get(),
-      t = e.feature.get(),
-      r = je.readOrEmpty("quests.bonusName.attachments_set.default"),
-      i = je.readOrEmpty(`quests.bonusName.attachments_set.${s}`, "silent"),
+      t = e.attachmentSetID.get(),
+      s = e.feature.get(),
+      r = Oe.readOrEmpty("quests.bonusName.attachments_set.default"),
+      i = Oe.readOrEmpty(`quests.bonusName.attachments_set.${t}`, "silent"),
       n =
-        ze.readOrEmpty(`attachments_preview.background.${s}`, "silent") ||
-        ze.readOrEmpty(`attachments_preview.background.${t}`, "silent") ||
-        ze.readOrEmpty("attachments_preview.background.default"),
+        we.readOrEmpty(`attachments_preview.background.${t}`, "silent") ||
+        we.readOrEmpty(`attachments_preview.background.${s}`, "silent") ||
+        we.readOrEmpty("attachments_preview.background.default"),
       o = ((e) => {
-        const [a, s] = (0, L.useState)(!1);
+        const [a, t] = (0, L.useState)(!1);
         return (
           (0, L.useLayoutEffect)(() => {
             let a = 0;
-            const t = e.map((t) => {
+            const s = e.map((s) => {
               const r = new Image(),
                 i = () => {
-                  ((a += 1), a === e.length && s(!0));
+                  ((a += 1), a === e.length && t(!0));
                 },
                 n = () => {
-                  console.warn(`${t} image wasn't loaded`);
+                  console.warn(`${s} image wasn't loaded`);
                 };
               return (
                 r.addEventListener("load", i),
                 r.addEventListener("error", n),
-                (r.src = t),
+                (r.src = s),
                 { img: r, onLoad: i, onError: n }
               );
             });
             return () => {
-              t.forEach(({ img: e, onLoad: a, onError: s }) => {
-                (e.removeEventListener("load", a), e.removeEventListener("error", s));
+              s.forEach(({ img: e, onLoad: a, onError: t }) => {
+                (e.removeEventListener("load", a), e.removeEventListener("error", t));
               });
             };
           }, [e]),
           a
         );
       })([n]);
-    return (0, q.jsx)("div", {
-      className: ye,
+    return (0, B.jsx)("div", {
+      className: Se,
       style: { backgroundImage: `url(${n})` },
       children:
         o &&
-        (0, q.jsxs)(q.Fragment, {
+        (0, B.jsxs)(B.Fragment, {
           children: [
-            (0, q.jsx)(A, { onClose: l.closeView, className: fe }),
-            (0, q.jsx)(be, {
-              className: Se,
+            (0, B.jsx)(A, { onClose: l.closeView, className: Ee }),
+            (0, B.jsx)(fe, {
+              className: Ne,
               title: i || r,
-              description: je.readOrEmpty("attachments_preview.description"),
+              description: Oe.readOrEmpty("attachments_preview.description"),
             }),
-            (0, q.jsx)(V, {
-              children: (0, q.jsx)("div", {
-                className: Ee,
-                children: c(e.attachments.get(), (e, a) => (0, q.jsx)(xe, { attachment: e }, a)),
+            (0, B.jsx)(F, {
+              children: (0, B.jsx)("div", {
+                className: je,
+                children: c(e.attachments.get(), (e, a) => (0, B.jsx)(ue, { attachment: e }, a)),
               }),
             }),
-            (0, q.jsx)(v, {
-              className: Ne,
+            (0, B.jsx)(g, {
+              className: ze,
               size: a.buttonSize,
               onClick: l.closeView,
-              children: je.readOrEmpty("attachments_preview.confirm"),
+              children: Oe.readOrEmpty("attachments_preview.confirm"),
             }),
           ],
         }),
     });
   }),
-  we = {
+  Ae = {
     getter: C({
       attachments: [
         {
@@ -403,11 +408,11 @@ var ye = "App_7b0d0f3d",
       ],
     }),
   };
-x(
-  (0, q.jsx)(F, {
-    mocks: we,
+p(
+  (0, B.jsx)(U, {
+    mocks: Ae,
     mode: "real",
-    children: (0, q.jsx)(f, { children: (0, q.jsx)(Oe, {}) }),
+    children: (0, B.jsx)(f, { children: (0, B.jsx)(Ie, {}) }),
   }),
 )
   .then(() => n(document.getElementById("root")))
