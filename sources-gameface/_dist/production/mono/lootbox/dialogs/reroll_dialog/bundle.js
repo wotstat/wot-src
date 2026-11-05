@@ -12,12 +12,12 @@ import {
   V as d,
   Vt as u,
   W as m,
-  d as p,
+  c as p,
   f as h,
   ft as x,
   kt as v,
-  lt as f,
-  m as N,
+  l as f,
+  lt as N,
   rt as j,
   u as _,
   z as b,
@@ -54,7 +54,7 @@ function M({ children: e, className: s }) {
     return (0, z.jsx)("div", { className: u(T, e) });
   }),
   (M.ButtonGroup = function ({ buttons: e, className: s }) {
-    const o = f({ size: r.sizes.medium }, { large: { size: r.sizes.large } });
+    const o = N({ size: r.sizes.medium }, { large: { size: r.sizes.large } });
     return (0, z.jsx)("div", {
       className: u(A, s),
       children: e.map((e, s) =>
@@ -112,7 +112,7 @@ var O = {
     j(v.ESCAPE, () => {
       s.close();
     });
-    const n = f({ size: h.medium }, { medium: { size: h.medium }, large: { size: h.large } });
+    const n = N({ size: _.medium }, { medium: { size: _.medium }, large: { size: _.large } });
     const l = [
       { action: s.confirm, label: o.reopenButton },
       { action: s.close, soundTarget: "lb:dialogs:reroll:cancel", label: o.cancelButton },
@@ -128,7 +128,7 @@ var O = {
               children: (0, z.jsx)(t, {
                 text: o.title,
                 params: {
-                  cost: (0, z.jsx)(p, {
+                  cost: (0, z.jsx)(f, {
                     type: r.name,
                     size: n.size,
                     reverse: !0,
@@ -156,7 +156,7 @@ var O = {
             a.play("mouse-enter");
           },
           className: S,
-          children: (0, z.jsx)(N, { path: "ui.close_btn", width: 48, height: 48 }),
+          children: (0, z.jsx)(h, { path: "ui.close_btn", width: 48, height: 48 }),
         }),
       ],
     });
@@ -164,7 +164,7 @@ var O = {
   I = m({ click: { "lb:dialogs:reroll:cancel": "cancelcloseno" } });
 l(
   new b()
-    .addWithProps(_, { soundsOverrides: I })
+    .addWithProps(p, { soundsOverrides: I })
     .addWithProps(P, {})
     .render((0, z.jsx)(U, {})),
 ).then(() => n());

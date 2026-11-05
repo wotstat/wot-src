@@ -1,17 +1,17 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Hr as e,
+  Vr as e,
   Yn as o,
   _n as r,
-  fn as n,
-  li as t,
+  ci as n,
+  fn as t,
   n as a,
   pn as i,
   tn as c,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as d } from "../../chunks/vendor.js";
-t();
+n();
 var [l, h] = r()(({ observableModel: s }) => ({ root: s.object() }), e),
   j = "Content_59739b4",
   m = "Content_title_14ef9ac4",
@@ -32,7 +32,7 @@ var [l, h] = r()(({ observableModel: s }) => ({ root: s.object() }), e),
     });
   }),
   f = () => (0, b.jsx)(a, { children: (0, b.jsx)(a.Decorator, { children: (0, b.jsx)(v, {}) }) });
-n(
+t(
   new i()
     .add(c)
     .addWithProps(l, {})

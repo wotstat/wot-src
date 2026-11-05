@@ -1,24 +1,24 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
-import { Yn as n, fn as t, li as a, n as e, pn as i, tn as r } from "../../chunks/lib.js";
+import { Yn as n, ci as t, fn as a, n as e, pn as i, tn as r } from "../../chunks/lib.js";
 import "../../chunks/global.js";
-a();
-var l = "Content_bc5bf6b3",
-  o = "Content_title_bbf31abd",
-  d = "Content_description_68c5b5a4",
+t();
+var o = "Content_bc5bf6b3",
+  d = "Content_title_bbf31abd",
+  l = "Content_description_68c5b5a4",
   c = n(),
   b = () =>
     (0, c.jsxs)("div", {
-      className: l,
+      className: o,
       children: [
         (0, c.jsx)("div", {
-          className: o,
+          className: d,
           children: R.strings.battle_pass.tooltips.entryPoint.disabled.header(),
         }),
         (0, c.jsx)("div", {
-          className: d,
+          className: l,
           children: R.strings.battle_pass.tooltips.entryPoint.disabled.body(),
         }),
       ],
     }),
   j = () => (0, c.jsx)(e, { children: (0, c.jsx)(e.Decorator, { children: (0, c.jsx)(b, {}) }) });
-t(new i().add(r).render((0, c.jsx)(j, {})));
+a(new i().add(r).render((0, c.jsx)(j, {})));
