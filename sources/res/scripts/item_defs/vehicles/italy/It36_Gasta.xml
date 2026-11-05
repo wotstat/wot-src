@@ -2244,11 +2244,11 @@
 					<shotDispersionRadius>0.3</shotDispersionRadius>
 					<reloadTime>10</reloadTime>
 					<shotDispersionFactors>
-						<turretRotation>0.13</turretRotation>
+						<turretRotation>0.10</turretRotation>
 						<afterShot>4.0</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
-					<aimingTime>2.2</aimingTime>
+					<aimingTime>1.9</aimingTime>
 					<invisibilityFactorAtShot>0.198</invisibilityFactorAtShot>
 					<customizationSlots>
 						<slot>
@@ -2668,7 +2668,7 @@
 		<detailed>
 			<engines>
 				<MB_837_Ea_500>
-					<smplEnginePower>800</smplEnginePower>
+					<smplEnginePower>900</smplEnginePower>
 					<smplFwMaxSpeed>60</smplFwMaxSpeed>
 				</MB_837_Ea_500>
 			</engines>
