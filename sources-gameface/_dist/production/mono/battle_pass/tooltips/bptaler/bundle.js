@@ -1,9 +1,9 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
-import { Yn as e, fn as t, li as n, n as a, pn as r, tn as i } from "../../chunks/lib.js";
+import { Yn as e, ci as t, fn as n, n as a, pn as r, tn as i } from "../../chunks/lib.js";
 import "../../chunks/global.js";
-import { t as l } from "../../chunks/separator.js";
-n();
-var c = "Content_b5324543",
+import { t as c } from "../../chunks/separator.js";
+t();
+var l = "Content_b5324543",
   o = "Content_image_f3e02a04",
   d = "Content_section_cf0c3481",
   j = "Content_title_73d62fc4",
@@ -13,20 +13,20 @@ var c = "Content_b5324543",
   h = R.strings.battle_pass.tooltips.battlePassTaler,
   f = () =>
     (0, _.jsxs)("div", {
-      className: c,
+      className: l,
       children: [
         (0, _.jsx)("div", { className: o }),
         (0, _.jsxs)("div", {
           className: d,
           children: [
-            (0, _.jsx)(l, {}),
+            (0, _.jsx)(c, {}),
             (0, _.jsx)("div", { className: j, children: h.title() }),
             (0, _.jsx)("div", { className: x, children: h.text() }),
-            (0, _.jsx)(l, {}),
+            (0, _.jsx)(c, {}),
           ],
         }),
         (0, _.jsx)("div", { className: m, children: h.secondaryText() }),
       ],
     }),
   p = () => (0, _.jsx)(a, { children: (0, _.jsx)(a.Decorator, { children: (0, _.jsx)(f, {}) }) });
-t(new r().add(i).render((0, _.jsx)(p, {})));
+n(new r().add(i).render((0, _.jsx)(p, {})));

@@ -22540,6 +22540,334 @@ var env = { view: view_exports, client: client_exports, sound: sound_default, in
       ],
     });
   },
+  NodeTypes = { Text: 1, Tag: 2, Var: 3 };
+function parseArguments(e) {
+  const t = [];
+  let n = "",
+    r = !1,
+    a = !1,
+    o = "";
+  for (let i = 0; i < e.length; i++) {
+    const s = e[i];
+    ("'" !== s && '"' !== s) || a || r
+      ? s === o && a
+        ? ((a = !1), (n += s))
+        : "(" !== s || a
+          ? ")" === s && r && !a
+            ? ((r = !1), (n += s))
+            : " " !== s || r || a
+              ? (n += s)
+              : n && (t.push(n), (n = ""))
+          : ((r = !0), (n += s))
+      : ((a = !0), (o = s), (n += s));
+  }
+  return (n && t.push(n), t);
+}
+function parse$1(e, t) {
+  const n = [],
+    r = [];
+  let a = "",
+    o = !1,
+    i = "",
+    s = 0;
+  for (let l = 0; l < e.length; l++) {
+    const u = e[l];
+    if (u === t.start[0] && e.slice(l, l + t.start.length) === t.start)
+      (a &&
+        (r.length > 0
+          ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
+          : n.push({ type: NodeTypes.Text, value: a }),
+        (a = "")),
+        (o = !0),
+        (l += t.start.length - 1));
+    else if (u === t.end[0] && e.slice(l, l + t.end.length) === t.end) {
+      ((o = !1), (l += t.end.length - 1));
+      const e = i.trim();
+      if (e.startsWith("@")) {
+        const t = e.slice(1).trim(),
+          a = { type: NodeTypes.Tag, attrs: t.split("|"), instanceId: ++s, children: [] };
+        (r.length > 0 ? r[r.length - 1].node.children.push(a) : n.push(a),
+          r.push({ node: a, startIndex: n.length }));
+      } else if ("/" === e) r.length > 0 && r.pop();
+      else {
+        const t = { type: NodeTypes.Var, instanceId: ++s, name: e };
+        r.length > 0 ? r[r.length - 1].node.children.push(t) : n.push(t);
+      }
+      i = "";
+    } else o ? (i += u) : (a += u);
+  }
+  return (
+    a &&
+      (r.length
+        ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
+        : n.push({ type: NodeTypes.Text, value: a })),
+    n
+  );
+}
+var COLORS =
+    "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
+  base$13 = "FormatText_db904f12",
+  base__fullSize = "FormatText_base__fullSize_a514958e",
+  nowrap = "FormatText_nowrap_ff69eca3",
+  format_text_module_default = {
+    COLORS: COLORS,
+    base: base$13,
+    base__fullSize: base__fullSize,
+    nowrap: nowrap,
+  },
+  legacyColors = new Set(format_text_module_default.COLORS?.split(", ") ?? []),
+  keyId = 0;
+function takeKey() {
+  return ++keyId;
+}
+var startsWithPunctuationRe =
+  /^[*"'ー.,、。，:;：；！？》」•%)(!?\u0EAF\u0E3B\u0E3F\u0E31\u0E32\u0E33\u0E47-\u0E4F\u0E5A-\u0E5F\u0E00-\u0E7F\u3000-\u303F\uFF00-\uFFEF\]]/u;
+function splitString(e) {
+  const t = resources.resolve("langCode");
+  return addSpaceAndMap(
+    splitLocale(e, t),
+    t,
+    (e, t) => e && (0, import_jsx_runtime.jsx)("span", { children: e }, `${e}${t}`),
+  );
+}
+function splitArray(e) {
+  const t = [];
+  for (let n = 0; n < e.length; n++) {
+    const r = e[n],
+      a = e[n + 1];
+    if ("string" != typeof a || !startsWithPunctuationRe.test(a)) {
+      t.push(split(r));
+      continue;
+    }
+    const o = splitString(a.slice(1));
+    (t.push(
+      (0, import_jsx_runtime.jsxs)(
+        import_react.Fragment,
+        {
+          children: [
+            (0, import_jsx_runtime.jsxs)("span", {
+              className: format_text_module_default.nowrap,
+              children: [split(r), a[0]],
+            }),
+            o,
+          ],
+        },
+        takeKey(),
+      ),
+    ),
+      (n += 1));
+  }
+  return t;
+}
+function split(e) {
+  return Array.isArray(e)
+    ? splitArray(e)
+    : "string" == typeof e
+      ? (0, import_jsx_runtime.jsx)(import_react.Fragment, { children: splitString(e) }, takeKey())
+      : e;
+}
+function style$1(e, ...t) {
+  return (0, import_jsx_runtime.jsx)(
+    "span",
+    {
+      style: t.reduce((n, r) => {
+        if (Array.isArray(r)) {
+          const [e, t] = r;
+          return ((n[e] = t), n);
+        }
+        return (console.warn(`Invalid argument ${r} in ${e}: ${t}`), n);
+      }, {}),
+      children: e,
+    },
+    takeKey(),
+  );
+}
+function className$1(e, ...t) {
+  return (0, import_jsx_runtime.jsx)(
+    "span",
+    { className: t.filter((e) => "string" == typeof e && e.length > 0).join(" "), children: e },
+    takeKey(),
+  );
+}
+var color = (e, t) => ["color", t],
+  fontSize = (e, t) => ["fontSize", t],
+  fontWeight = (e, t) => ["fontWeight", t],
+  textDecoration = (e, t) => ["textDecoration", t],
+  bold = (e) => ["fontWeight", "bold"];
+function colorLegacy(e, t) {
+  const n = takeKey();
+  return legacyColors.has(String(t))
+    ? (0, import_jsx_runtime.jsx)(
+        "span",
+        { className: `FormatText_colorLegacy__${t}`, children: e },
+        n,
+      )
+    : (0, import_jsx_runtime.jsx)("span", { style: { color: `#${t}` }, children: e }, n);
+}
+var defaultFormatters = {
+  class: className$1,
+  colorLegacy: colorLegacy,
+  bold: bold,
+  split: split,
+  style: style$1,
+  color: color,
+  fontSize: fontSize,
+  fontWeight: fontWeight,
+  textDecoration: textDecoration,
+};
+function applyFunction(e, t, n, r) {
+  const a = n.map((t) => {
+      if ("string" != typeof t) return t;
+      const n = t.trim();
+      if (n.startsWith("(") && n.endsWith(")")) {
+        const [t, ...a] = n.slice(1, -1).split(" ");
+        return t ? applyFunction(e, t, a, r) : e;
+      }
+      return n.startsWith("'") && n.endsWith("'") ? n.slice(1, -1) : n;
+    }),
+    o = r[t];
+  return o ? o(e, ...a) : (console.error(`Function ${t} is not registered`), e);
+}
+function applyFunctions(e, t, n) {
+  return e.reduce((e, t) => {
+    const [r, ...a] = parseArguments(t.trim());
+    return r ? applyFunction(e, r, a, n) : e;
+  }, t);
+}
+function isEnd(e) {
+  return !((e >= "a" && e <= "z") || (e >= "A" && e <= "Z") || (e >= "0" && e <= "9") || "_" === e);
+}
+function resolveAttrParams(e, t) {
+  for (let n = 0; n < e.length; n++)
+    if ("$" === e[n]) {
+      let r = n + 1;
+      for (; r < e.length && !isEnd(e[r]);) r++;
+      const a = e.slice(n + 1, r),
+        o = t[a];
+      if (o) return resolveAttrParams(e.replace(`$${a}`, String(o)), t);
+    }
+  return e;
+}
+function resolveAttrsParams(e, t) {
+  const n = [];
+  for (let r = 0; r < e.length; r++) n[r] = resolveAttrParams(e[r], t);
+  return n;
+}
+var primitives = ["number", "string", "undefined"];
+function render$1(e, t, n = {}, r = !0) {
+  r && (keyId = 0);
+  const a = [];
+  function o(e) {
+    if (primitives.includes(typeof e)) {
+      const t = a.at(-1);
+      if ("string" == typeof t) return void (a[a.length - 1] = t + e);
+    }
+    a.push(e);
+  }
+  for (const i of e)
+    if (i.type === NodeTypes.Text) o(i.value);
+    else if (i.type === NodeTypes.Var)
+      null === n[i.name] || primitives.includes(typeof n[i.name])
+        ? o(n[i.name] ?? `{{${i.name}}}`)
+        : a.push(
+            (0, import_jsx_runtime.jsx)(
+              import_react.Fragment,
+              { children: n[i.name] },
+              `var-${i.name}-${i.instanceId}`,
+            ),
+          );
+    else if (i.type === NodeTypes.Tag) {
+      const e = render$1(i.children, t, n, !1),
+        r = applyFunctions(resolveAttrsParams(i.attrs, n), e, t);
+      a.push(r);
+    }
+  return a;
+}
+function upgradeColorTag(e) {
+  return e
+    .replace(
+      /%\(([a-zA-Z0-9]+)_(Open|Start)\)s(.+?)%\(\1_(Close|End)\)s/,
+      "{{@ colorLegacy '$1'}}$3{{/}}",
+    )
+    .replace(
+      /\{([a-zA-Z0-9]+)_(Open|Start)\}(.+?)\{\1_(Close|End)\}/gi,
+      "{{@ colorLegacy '$1'}}$3{{/}}",
+    );
+}
+function upgradeVariables(e) {
+  return e.replace(/%\((\w+|\d)\)(?:s|d)?/gi, "{{$1}}").replace(/(?<!\{)\{(\w+|\d)\}/g, "{{$1}}");
+}
+function upgradeSymbols(e) {
+  return e.replaceAll("&nbsp;", " ").replaceAll("&zwnbsp;", "\ufeff");
+}
+function upgradeLegacy(e) {
+  return pipe(e, upgradeSymbols, upgradeColorTag, upgradeVariables);
+}
+var defaultBrackets = { start: "{{", end: "}}" },
+  FormatText = (0, import_react.memo)(function (e) {
+    const {
+        brackets: t = defaultBrackets,
+        text: n,
+        params: r,
+        upgradeLegacy: a,
+        fullSize: o,
+        inline: i,
+        formatters: s,
+        split: l,
+        ...u
+      } = e,
+      c = (0, import_react.useMemo)(
+        () => (e.upgradeLegacy ? upgradeLegacy(e.text) : e.text),
+        [e.text, e.upgradeLegacy],
+      ),
+      d = (0, import_react.useMemo)(
+        () => (e.formatters ? { ...defaultFormatters, ...e.formatters } : defaultFormatters),
+        [e.formatters],
+      ),
+      f = (0, import_react.useMemo)(() => parse$1(l ? `{{@ split}}${c}{{/}}` : c, t), [t, c, l]),
+      p = (0, import_react.useMemo)(() => render$1(f, d, e.params), [f, d, e.params]),
+      m = clsx(
+        format_text_module_default.base,
+        o && format_text_module_default.base__fullSize,
+        u.className,
+      );
+    return e.inline
+      ? (console.warn(
+          "[FormatText] using the 'inline' props causes memory leaks due to incorrect working of the 'cohinline' attribute in GF version 1.48.2.3. Can cause client crashes.",
+          "Use 'split' prop instead.",
+        ),
+        (0, import_jsx_runtime.jsx)("p", {
+          ...u,
+          className: m,
+          ref: (e) => {
+            e?.setAttribute("cohinline", "true");
+          },
+          children: p,
+        }))
+      : (0, import_jsx_runtime.jsx)("span", { ...u, className: m, children: p });
+  });
+function FormatString({ path: e, ...t }) {
+  return (0, import_jsx_runtime.jsx)(FormatText, {
+    text: resources.resolve("strings").readOrEmpty(e),
+    ...t,
+  });
+}
+var getFromCallStack = (e = 1) => {
+    const t = new Error().stack;
+    let n,
+      r = R.invalid("resId"),
+      a = "";
+    return (
+      t &&
+        ((a = t.match(/(coui:\/\/[^\s]+\.js)/)?.[0] || ""),
+        (n = t.split("\n")[e].split(".js")[0].split("/").pop() || ""),
+        window.__feature &&
+          window.__feature !== n &&
+          window.subViews[n] &&
+          (r = window.subViews[n].id)),
+      { callerUrl: a, caller: n, stack: t, resId: r }
+    );
+  },
   ClickOutsideManager$1 = class e {
     entries = [];
     _listenMouse = !1;
@@ -22868,10 +23196,1722 @@ var SystemLocale = {
     SystemLocale: SystemLocale,
     UserLocale: UserLocale,
   };
+window.ViewEnvHelper = ViewEnvHelper;
+var SHOW_DELAY_MIN = 100,
+  SHOW_DELAY_DEFAULT = 400;
+function getViewEventArguments(e) {
+  return Object.entries(e || {}).map(([e, t]) => {
+    const n = { __Type: "GFValueProxy", name: e };
+    switch (typeof t) {
+      case "number":
+        n.number = t;
+        break;
+      case "boolean":
+        n.bool = t;
+        break;
+      case "undefined":
+        break;
+      default:
+        n.string = t.toString();
+    }
+    return n;
+  });
+}
+var handleViewEvent = (e, t, n = {}, r = 0) => {
+    viewEnv.handleViewEvent({
+      __Type: "GFViewEventProxy",
+      type: ViewEventType.TOOLTIP,
+      contentID: e,
+      decoratorID: t,
+      targetID: r,
+      ...n,
+    });
+  },
+  Tooltip = ({
+    children: e,
+    contentId: t,
+    args: n,
+    onMouseEnter: r,
+    onMouseLeave: a,
+    onMouseDown: o,
+    onClick: i,
+    ignoreShowDelay: s = !1,
+    ignoreMouseClick: l = !1,
+    decoratorId: u = 0,
+    isEnabled: c = !0,
+    targetId: d = 0,
+    onShow: f,
+    onHide: p,
+    ...m
+  }) => {
+    const h = (0, import_react.useRef)({
+        timeoutId: 0,
+        isVisible: !1,
+        prevTarget: null,
+        hideTimerId: null,
+      }),
+      g = (0, import_react.useMemo)(() => d || getFromCallStack().resId, [d]),
+      b = (0, import_react.useCallback)(() => {
+        (h.current.isVisible && h.current.timeoutId) ||
+          (handleViewEvent(
+            t,
+            u,
+            { isMouseEvent: !0, on: !0, arguments: getViewEventArguments(n) },
+            g,
+          ),
+          f && f(),
+          (h.current.isVisible = !0));
+      }, [t, u, n, g, f]),
+      v = (0, import_react.useCallback)(() => {
+        if (h.current.isVisible || h.current.timeoutId) {
+          const e = h.current.timeoutId;
+          (e > 0 && (clearTimeout(e), (h.current.timeoutId = 0)),
+            handleViewEvent(t, u, { on: !1 }, g),
+            h.current.isVisible && p && p(),
+            (h.current.isVisible = !1));
+        }
+      }, [t, u, g, p]),
+      _ = (0, import_react.useCallback)((e) => {
+        h.current.isVisible &&
+          ((h.current.prevTarget = document.elementFromPoint(e.clientX, e.clientY)),
+          (h.current.hideTimerId = window.setTimeout(() => {
+            const t = document.elementFromPoint(e.clientX, e.clientY);
+            t && !t.isSameNode(h.current.prevTarget) && v();
+          }, 200)));
+      }, []);
+    ((0, import_react.useEffect)(() => {
+      const e = h.current.hideTimerId;
+      return (
+        document.addEventListener("wheel", _, { capture: !0 }),
+        () => {
+          (document.removeEventListener("wheel", _, { capture: !0 }), e && window.clearTimeout(e));
+        }
+      );
+    }, []),
+      (0, import_react.useEffect)(() => {
+        !1 === c && v();
+      }, [c, v]),
+      (0, import_react.useEffect)(
+        () => (
+          window.addEventListener("mouseleave", v),
+          () => {
+            (window.removeEventListener("mouseleave", v), v());
+          }
+        ),
+        [v],
+      ));
+    return c
+      ? (0, import_react.cloneElement)(e, {
+          onMouseEnter:
+            ((y = e.props.onMouseEnter),
+            (e) => {
+              (e.clientX === window.innerWidth && e.clientY === window.innerHeight) ||
+                (clearTimeout(h.current.timeoutId),
+                (h.current.timeoutId = window.setTimeout(
+                  b,
+                  s ? SHOW_DELAY_MIN : SHOW_DELAY_DEFAULT,
+                )),
+                r && r(e),
+                y && y(e));
+            }),
+          onMouseLeave: ((e) => (t) => {
+            (v(), a?.(t), e?.(t));
+          })(e.props.onMouseLeave),
+          onClick: ((e) => (t) => {
+            (!1 === l && v(), i?.(t), e?.(t));
+          })(e.props.onClick),
+          onMouseDown: ((e) => (t) => {
+            (!1 === l && v(), o?.(t), e?.(t));
+          })(e.props.onMouseDown),
+          ...m,
+        })
+      : e;
+    var y;
+  },
+  BackportTooltip = ({ children: e, ...t }) =>
+    (0, import_jsx_runtime.jsx)(Tooltip, {
+      contentId:
+        R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId"),
+      ignoreShowDelay: !0,
+      ...t,
+      children: e,
+    }),
+  UB_SIMPLE_TOOLTIPS = R.views.common.tooltip_window.simple_tooltip_content,
+  getTooltipContentId = (e) =>
+    e
+      ? UB_SIMPLE_TOOLTIPS.SimpleTooltipHtmlContent("resId")
+      : UB_SIMPLE_TOOLTIPS.SimpleTooltipContent("resId"),
+  SimpleTooltip = ({ children: e, body: t, header: n, note: r, alert: a, args: o, ...i }) => {
+    const s = (0, import_react.useMemo)(() => {
+      const e = { ...o, body: t, header: n, note: r, alert: a };
+      for (const t in e) void 0 === e[t] && delete e[t];
+      return e;
+    }, [a, t, n, r, o]);
+    return (0, import_jsx_runtime.jsx)(Tooltip, {
+      contentId: getTooltipContentId(o?.hasHtmlContent),
+      decoratorId: R.views.common.tooltip_window.tooltip_window.TooltipWindow("resId"),
+      args: s,
+      ...i,
+      children: e,
+    });
+  },
+  DynamicTooltipWrapper = ({ children: e, tooltipArgs: t, className: n }) => {
+    if (!t) return e;
+    const r = (0, import_jsx_runtime.jsx)("div", { className: n, children: e });
+    if (t.header || t.body)
+      return (0, import_jsx_runtime.jsx)(SimpleTooltip, { ...t, children: r });
+    const { contentId: a } = t;
+    return a
+      ? (0, import_jsx_runtime.jsx)(Tooltip, { ...t, contentId: a, children: r })
+      : (0, import_jsx_runtime.jsx)(BackportTooltip, { ...t, children: r });
+  },
+  InputType = { Default: "default", Search: "search", Email: "email", Password: "password" },
+  InputVariant = {
+    Normal: "normal",
+    Disabled: "disabled",
+    Alert: "alert",
+    Error: "error",
+    Done: "done",
+  },
+  InputSize = { Small: "small", Medium: "medium", Large: "large" },
+  defaultPlaceholders = {
+    [InputType.Default]: "",
+    [InputType.Email]: R.strings.common.input.placeholder.email(),
+    [InputType.Search]: R.strings.common.input.placeholder.search(),
+    [InputType.Password]: R.strings.common.input.placeholder.password(),
+  },
+  inputType = {
+    [InputType.Default]: "text",
+    [InputType.Email]: "text",
+    [InputType.Search]: "text",
+    [InputType.Password]: "password",
+  },
+  defaultHelpers = {
+    [InputType.Default]: "",
+    [InputType.Email]: "Invalid email",
+    [InputType.Search]: "",
+    [InputType.Password]: "",
+  },
+  iconsPath = R.images.gui.maps.icons.components.input;
+function getDefaultIcon(e, t) {
+  return e === InputType.Search ? iconsPath.$dyn(`search_${t}`) : "";
+}
+function getDefaultHelperIcon(e) {
+  return e === InputVariant.Alert ? R.images.gui.maps.icons.library.alertIcon() : "";
+}
+function validateEmail(e) {
+  const t = e.match(
+    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
+  );
+  return Boolean(t);
+}
+function performDefaultValidation(e, t) {
+  return t !== InputType.Email || validateEmail(e);
+}
+var base$12 = "Helpermessage_e43ecb4b",
+  base__shown = "Helpermessage_base__shown_28b28c74",
+  icon$3 = "Helpermessage_icon_85f835c3",
+  message = "Helpermessage_message_f2ba82e2",
+  message__alert = "Helpermessage_message__alert_69e4761c",
+  message__error = "Helpermessage_message__error_87d8a8a1",
+  message__done = "Helpermessage_message__done_dd4f50f2",
+  HelperMessage_module_default = {
+    base: base$12,
+    base__shown: base__shown,
+    icon: icon$3,
+    message: message,
+    message__alert: message__alert,
+    message__error: message__error,
+    message__done: message__done,
+  },
+  HelperMessage = ({ variant: e, show: t = !0, helperText: n, helperIcon: r, classMix: a }) => {
+    const o = (0, import_react.useMemo)(() => {
+        const t = r || getDefaultHelperIcon(e);
+        return t && { backgroundImage: `url(${t})` };
+      }, [r, e]),
+      i = (0, import_classnames.default)(
+        HelperMessage_module_default.base,
+        t && HelperMessage_module_default.base__shown,
+      ),
+      s = (0, import_classnames.default)(
+        HelperMessage_module_default.message,
+        HelperMessage_module_default[`message__${e}`],
+        a,
+      );
+    return (0, import_jsx_runtime.jsxs)("div", {
+      className: i,
+      children: [
+        o &&
+          (0, import_jsx_runtime.jsx)("div", {
+            className: HelperMessage_module_default.icon,
+            style: o,
+          }),
+        (0, import_jsx_runtime.jsx)("div", { className: s, children: n }),
+      ],
+    });
+  },
+  base$11 = "Inputcontrol_ef855555",
+  base__focused = "Inputcontrol_base__focused_dbb7783b",
+  base__alert = "Inputcontrol_base__alert_4288729",
+  base__error = "Inputcontrol_base__error_b0980004",
+  base__done = "Inputcontrol_base__done_420d2fbe",
+  base__disabled$1 = "Inputcontrol_base__disabled_1443472e",
+  input = "Inputcontrol_input_13480315",
+  base__small$4 = "Inputcontrol_base__small_95506303",
+  base__medium$2 = "Inputcontrol_base__medium_95506303",
+  base__large$2 = "Inputcontrol_base__large_95506303",
+  base__withIcon = "Inputcontrol_base__withIcon_95506303",
+  input__search = "Inputcontrol_input__search_4dd8e53c",
+  disabled = "Inputcontrol_disabled_ae37311b",
+  placeholder = "Inputcontrol_placeholder_b37a5d38",
+  placeholder__search = "Inputcontrol_placeholder__search_c228534f",
+  icon$2 = "Inputcontrol_icon_253aeaaf",
+  icon__search = "Inputcontrol_icon__search_dc77e54f",
+  clear = "Inputcontrol_clear_48eaf250",
+  InputControl_module_default = {
+    base: base$11,
+    base__focused: base__focused,
+    base__alert: base__alert,
+    base__error: base__error,
+    base__done: base__done,
+    base__disabled: base__disabled$1,
+    input: input,
+    base__small: base__small$4,
+    base__medium: base__medium$2,
+    base__large: base__large$2,
+    base__withIcon: base__withIcon,
+    input__search: input__search,
+    disabled: disabled,
+    placeholder: placeholder,
+    placeholder__search: placeholder__search,
+    icon: icon$2,
+    icon__search: icon__search,
+    clear: clear,
+  },
+  ControlComponent = ({
+    componentId: e,
+    value: t = "",
+    type: n = InputType.Default,
+    size: r = InputSize.Medium,
+    variant: a = InputVariant.Normal,
+    placeholder: o = "",
+    highlighted: i,
+    withClear: s,
+    selectOnFocus: l = !0,
+    maxLength: u,
+    iconSource: c,
+    classMix: d,
+    onMouseEnter: f,
+    onMouseLeave: p,
+    onMouseDown: m,
+    onMouseUp: h,
+    onClick: g,
+    onChange: b,
+    onClear: v,
+    onFocus: _,
+    onBlur: y,
+  }) => {
+    const [w, S] = (0, import_react.useState)(!1),
+      E = (0, import_react.useRef)(null),
+      x = (0, import_react.useRef)({ mouseOver: !1, mouseDown: !1 }),
+      k = a !== InputVariant.Disabled,
+      O = (0, import_react.useCallback)(
+        (e) => {
+          k && (S(!0), _ && _(e));
+        },
+        [k, _],
+      ),
+      A = (0, import_react.useCallback)(
+        (e) => {
+          k && !x.current.mouseOver && (S(!1), y && y(e));
+        },
+        [k, y],
+      );
+    (0, import_react.useEffect)(() => {
+      k && w && l && E.current && E.current.select();
+    }, [l, w, k]);
+    const C = (0, import_react.useCallback)(
+        (e) => {
+          k && b && b(e.target.value);
+        },
+        [k, b],
+      ),
+      T = (0, import_react.useCallback)(
+        (e) => {
+          k && ((x.current.mouseOver = !0), f && f(e));
+        },
+        [k, f],
+      ),
+      P = (0, import_react.useCallback)(
+        (e) => {
+          k &&
+            E.current &&
+            (x.current.mouseDown && E.current.focus(), (x.current.mouseOver = !1), p && p(e));
+        },
+        [k, p],
+      ),
+      R = (0, import_react.useCallback)(
+        (e) => {
+          k && ((x.current.mouseDown = !0), m && m(e));
+        },
+        [k, m],
+      ),
+      $ = (0, import_react.useCallback)(
+        (e) => {
+          k && ((x.current.mouseDown = !1), h && h(e));
+        },
+        [k, h],
+      ),
+      I = (0, import_react.useCallback)(
+        (e) => {
+          k && E.current && ((!w || (w && e.target !== E.current)) && E.current.focus(), g && g(e));
+        },
+        [w, k, g],
+      ),
+      N = o || defaultPlaceholders[n],
+      M = Boolean(c),
+      D = (0, import_classnames.default)(
+        InputControl_module_default.base,
+        InputControl_module_default[`base__${r}`],
+        i && InputControl_module_default[`base__${a}`],
+        w && InputControl_module_default.base__focused,
+        M && InputControl_module_default.base__withIcon,
+        d,
+      ),
+      L = (0, import_react.useMemo)(() => (c ? { backgroundImage: `url(${c})` } : null), [c]),
+      F = (0, import_classnames.default)(
+        InputControl_module_default.input,
+        InputControl_module_default[`input__${n}`],
+      ),
+      j = (0, import_classnames.default)(
+        InputControl_module_default.icon,
+        InputControl_module_default[`icon__${n}`],
+      ),
+      B = (0, import_classnames.default)(
+        InputControl_module_default.placeholder,
+        InputControl_module_default[`placeholder__${n}`],
+      );
+    return (0, import_jsx_runtime.jsxs)("div", {
+      id: e,
+      className: D,
+      onMouseEnter: T,
+      onMouseDown: R,
+      onMouseUp: $,
+      onMouseLeave: P,
+      onClick: I,
+      children: [
+        !k &&
+          (0, import_jsx_runtime.jsx)("div", { className: InputControl_module_default.disabled }),
+        L && (0, import_jsx_runtime.jsx)("div", { style: L, className: j }),
+        (0, import_jsx_runtime.jsx)("input", {
+          ref: E,
+          className: F,
+          type: inputType[n],
+          value: t,
+          onChange: C,
+          disabled: !k,
+          onFocus: O,
+          onBlur: A,
+          maxLength: u,
+        }),
+        N && !t && !w && (0, import_jsx_runtime.jsx)("div", { className: B, children: N }),
+        s &&
+          (0, import_jsx_runtime.jsx)("div", {
+            className: InputControl_module_default.clear,
+            onClick: (e) => {
+              (Sound.playClick(), v && v(e));
+            },
+            onMouseEnter: Sound.playHighlight,
+          }),
+      ],
+    });
+  },
+  InputControl = import_react.memo(ControlComponent),
+  base$10 = "Input_bb86d5c5",
+  base__small$3 = "Input_base__small_1baff0ec",
+  base__medium$1 = "Input_base__medium_8fb9a9d9",
+  base__large$1 = "Input_base__large_ca84f140",
+  helper = "Input_helper_7ec902d2",
+  Input_module_default = {
+    base: base$10,
+    base__small: base__small$3,
+    base__medium: base__medium$1,
+    base__large: base__large$1,
+    helper: helper,
+  },
+  defaultOptions = {
+    debounceTime: 200,
+    performChangeValidation: !0,
+    selectOnFocus: !0,
+    withTypeIcon: !0,
+    disableHighlightOnFocus: !0,
+  },
+  Input = ({
+    componentId: e,
+    type: t = InputType.Default,
+    variant: n = InputVariant.Normal,
+    size: r = InputSize.Medium,
+    value: a,
+    tooltipArgs: o,
+    helperText: i = "",
+    isValidated: s = !0,
+    showHelper: l = !0,
+    error: u,
+    options: c,
+    onFocus: d,
+    onMouseEnter: f,
+    onMouseLeave: p,
+    onMouseUp: m,
+    onMouseDown: h,
+    onChange: g,
+    classMix: b,
+    controlClassMix: v,
+    helperClassMix: _,
+    ...y
+  }) => {
+    const [w, S] = (0, import_react.useState)(a),
+      [E, x] = (0, import_react.useState)(s),
+      k = (0, import_react.useMemo)(() => ({ ...defaultOptions, ...c }), [c]),
+      O = (0, import_react.useRef)({ debounceTimeout: 0, isChangeHandled: !0, value: a, type: t }),
+      A = (0, import_react.useCallback)((e) => {
+        e !== O.current.value && ((O.current.value = e), (O.current.isChangeHandled = !1), S(e));
+      }, []),
+      C = (0, import_react.useCallback)(
+        (e) => {
+          let t = !0;
+          (k.performChangeValidation &&
+            (t = k.changesValidator
+              ? k.changesValidator(e)
+              : performDefaultValidation(e, O.current.type)),
+            g && g(e, t));
+        },
+        [g, k],
+      ),
+      T = (0, import_react.useCallback)(() => {
+        O.current.debounceTimeout &&
+          (window.clearTimeout(O.current.debounceTimeout), (O.current.debounceTimeout = 0));
+      }, []),
+      P = (0, import_react.useCallback)(() => A(""), [A]);
+    (0, import_react.useEffect)(() => () => T(), [T]);
+    const R = (0, import_react.useCallback)(
+      (e) => {
+        (T(),
+          k.debounceTime
+            ? (O.current.debounceTimeout = window.setTimeout(() => {
+                C(e);
+              }, k.debounceTime))
+            : C(e));
+      },
+      [C, T, k.debounceTime],
+    );
+    ((0, import_react.useEffect)(() => {
+      O.current.isChangeHandled ||
+        O.current.value !== w ||
+        (R(O.current.value), (O.current.isChangeHandled = !0));
+    }, [w, R]),
+      (0, import_react.useEffect)(() => {
+        (O.current.isChangeHandled && a !== O.current.value && ((O.current.value = a), S(a)),
+          (O.current.type = t));
+      }, [a, t]),
+      (0, import_react.useEffect)(() => {
+        x(s);
+      }, [s, n]));
+    const $ = (0, import_react.useCallback)((e) => f && f(e), [f]),
+      I = (0, import_react.useCallback)(
+        (e) => {
+          (k.disableHighlightOnFocus && E && x(!1), d && d(e));
+        },
+        [E, d, k.disableHighlightOnFocus],
+      ),
+      N = (0, import_react.useCallback)((e) => m && m(e), [m]),
+      M = (0, import_react.useCallback)((e) => h && h(e), [h]),
+      D = (0, import_react.useCallback)((e) => p && p(e), [p]),
+      L = (0, import_react.useMemo)(
+        () => (k.withTypeIcon ? getDefaultIcon(t, r) : ""),
+        [t, r, k.withTypeIcon],
+      ),
+      F = i || defaultHelpers[t],
+      j = Boolean(w),
+      B = u ? InputVariant.Error : n,
+      z = Boolean(u) || E,
+      V = (0, import_react.useMemo)(
+        () => ("boolean" == typeof k.withClear ? j && k.withClear : j && t === InputType.Search),
+        [t, j, k],
+      );
+    return (0, import_jsx_runtime.jsxs)("div", {
+      id: e,
+      className: (0, import_classnames.default)(
+        Input_module_default.base,
+        Input_module_default[`base__${r}`],
+        Input_module_default[`base__${n}`],
+        b,
+      ),
+      onMouseEnter: $,
+      onMouseDown: M,
+      onMouseUp: N,
+      onMouseLeave: D,
+      children: [
+        (0, import_jsx_runtime.jsx)(DynamicTooltipWrapper, {
+          tooltipArgs: o,
+          children: (0, import_jsx_runtime.jsx)(InputControl, {
+            componentId: e ? `${e}-inputControl` : void 0,
+            iconSource: L,
+            size: r,
+            type: t,
+            variant: B,
+            value: w,
+            withClear: V,
+            highlighted: z,
+            selectOnFocus: k.selectOnFocus,
+            maxLength: k.maxLength,
+            classMix: v,
+            onFocus: I,
+            onChange: A,
+            onClear: P,
+            ...y,
+          }),
+        }),
+        F &&
+          (0, import_jsx_runtime.jsx)("div", {
+            className: Input_module_default.helper,
+            children: (0, import_jsx_runtime.jsx)(HelperMessage, {
+              variant: B,
+              show: l && (k.isPermanentHelper || z),
+              helperText: u || F,
+              helperIcon: k.helperIconSource,
+              classMix: _,
+            }),
+          }),
+      ],
+    });
+  },
+  useMount = (e) => {
+    (0, import_react.useEffect)(e, []);
+  },
+  useUnmount = (e) => {
+    (0, import_react.useEffect)(() => e, []);
+  },
+  NO_RAF_ID = 0;
+function useSkipFrame() {
+  const e = (0, import_react.useRef)(NO_RAF_ID);
+  return (
+    useUnmount(() => {
+      window.cancelAnimationFrame(e.current);
+    }),
+    (0, import_react.useMemo)(
+      () => ({
+        run: (t) => {
+          (window.cancelAnimationFrame(e.current),
+            (e.current = window.requestAnimationFrame(() => {
+              e.current = window.requestAnimationFrame(() => {
+                ((e.current = NO_RAF_ID), t());
+              });
+            })));
+        },
+        clear: () => {
+          (window.cancelAnimationFrame(e.current), (e.current = NO_RAF_ID));
+        },
+        get isRunning() {
+          return e.current !== NO_RAF_ID;
+        },
+      }),
+      [],
+    )
+  );
+}
+var makeCancelable = (e) => {
+    let t = !1;
+    return {
+      promise: new Promise((n, r) => {
+        e.then((e) => !t && n(e)).catch((e) => !t && r(e));
+      }),
+      cancel() {
+        t = !0;
+      },
+    };
+  },
+  base$9 = "Popoverdecorator_a558c74b",
+  decorator$1 = "Popoverdecorator_decorator_79bd913c",
+  arrow = "Popoverdecorator_arrow_f2e5d047",
+  arrow__bottom = "Popoverdecorator_arrow__bottom_7d41b48a",
+  arrow__top = "Popoverdecorator_arrow__top_993c5ad7",
+  arrow__left = "Popoverdecorator_arrow__left_bde08974",
+  arrow__right = "Popoverdecorator_arrow__right_585d6247",
+  closeBtn = "Popoverdecorator_closeBtn_eaee89c3",
+  content$2 = "Popoverdecorator_content_1624656c",
+  PopoverDecorator_module_default = {
+    base: base$9,
+    decorator: decorator$1,
+    arrow: arrow,
+    arrow__bottom: arrow__bottom,
+    arrow__top: arrow__top,
+    arrow__left: arrow__left,
+    arrow__right: arrow__right,
+    closeBtn: closeBtn,
+    content: content$2,
+  },
+  PopoverDirections = (function (e) {
+    return (
+      (e[(e.Left = 0)] = "Left"),
+      (e[(e.Right = 1)] = "Right"),
+      (e[(e.Top = 2)] = "Top"),
+      (e[(e.Bottom = 3)] = "Bottom"),
+      e
+    );
+  })(PopoverDirections || {}),
+  ARROW_DIR_POSTFIXES = ["__left", "__right", "__top", "__bottom"],
+  BORDER_TRANSPARENT_SIZE = 58,
+  PopoverDecorator = (
+    {
+      children: e,
+      disableAutoSizeUpdate: t,
+      onOutsideClick: n,
+      className: r,
+      customStyles: a = {},
+    },
+    o,
+  ) => {
+    const i = (0, import_react.useRef)(null),
+      s = (0, import_react.useRef)(null),
+      l = (0, import_react.useRef)(null),
+      [u, c] = (0, import_react.useState)(window.decorator && window.decorator.directionType),
+      d = (0, import_react.useCallback)(() => {
+        (Sound.playClick(), env.view.sendEvent.close());
+      }, []),
+      f = (0, import_react.useCallback)(() => {
+        Sound.playHighlight();
+      }, []),
+      p = (0, import_classnames.default)(
+        PopoverDecorator_module_default.arrow,
+        PopoverDecorator_module_default[`arrow${ARROW_DIR_POSTFIXES[u]}`],
+      );
+    useMount(
+      () => (
+        env.client.events.mouse.enableOutside(),
+        env.client.events.mouse.down(([, e]) => {
+          "outside" === e && (n ? n() : env.view.sendEvent.close("popover"));
+        })
+      ),
+    );
+    const m = (0, import_react.useCallback)(
+        (e) => {
+          let t = e.target;
+          do {
+            if (t === i.current || t === l.current) return;
+            t = t.parentNode;
+          } while (t);
+          const r = window.decorator;
+          if (void 0 !== window.decorator) {
+            const e = env.client.getMouseGlobalPosition(),
+              t = ![r.boundX, r.boundY, r.boundWidth, r.boundHeight].includes(void 0),
+              n =
+                e.x < r.boundX ||
+                e.x > r.boundX + r.boundWidth ||
+                e.y > r.boundY + r.boundHeight ||
+                e.y < r.boundY;
+            if (t && !n) return;
+          }
+          n ? n() : env.view.sendEvent.close("popover");
+        },
+        [i, l, n],
+      ),
+      h = (0, import_react.useCallback)(() => {
+        c(window.decorator.directionType);
+      }, []),
+      g = useSkipFrame(),
+      b = (0, import_react.useCallback)(() => {
+        const e = s.current;
+        if (e)
+          return (
+            env.view.freezeTextureBeforeResize(),
+            g.run(() => {
+              const t = e.scrollWidth,
+                n = e.scrollHeight;
+              (env.view.resize(t, n), h());
+            })
+          );
+      }, [g, h]);
+    return (
+      (0, import_react.useImperativeHandle)(
+        o,
+        () => ({ updateSize: b, updateDirection: h, elementRef: s }),
+        [b, h],
+      ),
+      useMount(() => {
+        env.view.setInputPaddingsRem(58);
+      }),
+      (0, import_react.useEffect)(() => {
+        document.addEventListener("mousedown", m, { capture: !0 });
+        const e = makeCancelable(onLayoutReady());
+        return (
+          !t && e.promise.then(() => b()),
+          () => {
+            (e.cancel(), document.removeEventListener("mousedown", m));
+          }
+        );
+      }, [b, m, t]),
+      (0, import_jsx_runtime.jsx)("div", {
+        className: (0, import_classnames.default)(PopoverDecorator_module_default.base, r),
+        ref: s,
+        children: (0, import_jsx_runtime.jsxs)("div", {
+          className: PopoverDecorator_module_default.decorator,
+          children: [
+            (0, import_jsx_runtime.jsxs)("div", {
+              className: PopoverDecorator_module_default.content,
+              ref: i,
+              children: [
+                e,
+                window.decorator &&
+                  window.decorator.isCloseBtnVisible &&
+                  (0, import_jsx_runtime.jsx)(SimpleTooltip, {
+                    body: R.strings.dialogs.common.error.cancel(),
+                    children: (0, import_jsx_runtime.jsx)("div", {
+                      className: PopoverDecorator_module_default.closeBtn,
+                      onClick: d,
+                      onMouseEnter: f,
+                      ref: l,
+                    }),
+                  }),
+              ],
+            }),
+            (0, import_jsx_runtime.jsx)("div", { className: p, style: a.arrow }),
+          ],
+        }),
+      })
+    );
+  },
+  PopoverDecoratorForwarded = (0, import_react.forwardRef)(PopoverDecorator),
+  Popover = ({
+    contentId: e,
+    decoratorId: t,
+    direction: n = PopoverDirections.Top,
+    targetId: r,
+    args: a,
+    onClick: o,
+    children: i,
+    isEnabled: s = !0,
+    ...l
+  }) => {
+    const u = (0, import_react.useRef)(null),
+      c = (0, import_react.useCallback)(() => {
+        if (isPopOverShown()) return sendClosePopOverEvent();
+        u.current && sendShowPopOverEvent(e, n, u.current, t, r, a);
+      }, [e, n, a, t, r]);
+    return (0, import_jsx_runtime.jsx)("div", {
+      ref: u,
+      onMouseDown:
+        ((d = i.props.onClick),
+        (e) => {
+          s && (c(), o && o(e), d && d(e));
+        }),
+      ...l,
+      children: i,
+    });
+    var d;
+  },
+  createLayoutReadyInEffect = (e) => {
+    let t,
+      n = null;
+    return (
+      (n = requestAnimationFrame(() => {
+        n = requestAnimationFrame(() => {
+          ((n = null), (t = e()));
+        });
+      })),
+      () => {
+        ("function" == typeof t && t(), null !== n && cancelAnimationFrame(n));
+      }
+    );
+  },
+  clamp = (e, t, n) => (n < e ? e : n > t ? t : n),
+  STATIC_DEPS = [];
+function useEvent(e) {
+  const t = (0, import_react.useRef)(e);
+  return (
+    (0, import_react.useLayoutEffect)(() => {
+      t.current = e;
+    }),
+    (0, import_react.useCallback)((...e) => (0, t.current)(...e), STATIC_DEPS)
+  );
+}
+function useRepeatCallback(e, t, n = []) {
+  const r = (0, import_react.useRef)(0),
+    a = (0, import_react.useCallback)(() => {
+      (window.clearInterval(r.current), (r.current = 0));
+    }, n || []);
+  return (
+    (0, import_react.useEffect)(() => a, [a]),
+    [
+      (0, import_react.useCallback)(
+        (n) => {
+          (0 !== r.current && a(), (r.current = window.setInterval(() => e(n, !0), t)), e(n, !1));
+        },
+        (n ?? []).concat([t]),
+      ),
+      a,
+    ]
+  );
+}
+var useCallbackEffect = (e, t = []) => {
+    const n = (0, import_react.useRef)(),
+      r = (0, import_react.useCallback)((...t) => {
+        (n.current && n.current(), (n.current = e(...t)));
+      }, t);
+    return (
+      (0, import_react.useEffect)(
+        () => () => {
+          n.current && n.current();
+        },
+        [r],
+      ),
+      r
+    );
+  },
+  useEmitter = () => {
+    const e = (0, import_react.useMemo)(() => ({}), []),
+      t = (t) => (e[t] || (e[t] = new Map()), e[t]),
+      n = (e, n) => {
+        t(e).set(n, n);
+      },
+      r = (e, n) => {
+        t(e).delete(n);
+      },
+      a = (e, ...n) => {
+        for (const r of t(e).values()) r(...n);
+      };
+    return (0, import_react.useMemo)(() => ({ on: n, off: r, trigger: a }), []);
+  };
+function throttle_default(e, t, n, r) {
+  let a,
+    o = !1,
+    i = 0;
+  function s() {
+    a && clearTimeout(a);
+  }
+  function l(...l) {
+    const u = this,
+      c = Date.now() - i;
+    function d() {
+      ((i = Date.now()), n.apply(u, l));
+    }
+    o ||
+      (r && !a && d(),
+      s(),
+      void 0 === r && c > e
+        ? d()
+        : !0 !== t &&
+          (a = setTimeout(
+            r
+              ? function () {
+                  a = void 0;
+                }
+              : d,
+            void 0 === r ? e - c : e,
+          )));
+  }
+  return (
+    "boolean" != typeof t && ((r = n), (n = t), (t = void 0)),
+    (l.cancel = function () {
+      (s(), (o = !0));
+    }),
+    l
+  );
+}
+function useThrottle(e, t, n) {
+  const r = (0, import_react.useMemo)(() => throttle_default(n, e), t);
+  return ((0, import_react.useEffect)(() => r.cancel, [r]), r);
+}
+var Direction = (function (e) {
+    return ((e[(e.Next = -1)] = "Next"), (e[(e.Prev = 1)] = "Prev"), e);
+  })({}),
+  defaultSettings = {
+    step: { type: "proportional", factor: 4, clampedArrowStepTimeout: 100 },
+    animationConfig: { tension: 170, friction: 26 },
+  },
+  createApiHook = ({
+    getContainerSize: e,
+    getBounds: t,
+    setScrollPosition: n,
+    getDirection: r,
+    getWrapperSize: a,
+    forceTriggerMouseMove: o,
+  }) => {
+    const i = (e, n) => {
+      const [r, a] = t(e);
+      return a <= r ? 0 : clamp(r, a, n);
+    };
+    return (s = {}) => {
+      const { settings: l = defaultSettings } = s,
+        u = (0, import_react.useRef)(null),
+        c = (0, import_react.useRef)(null),
+        d = (0, import_react.useRef)(!1),
+        f = useEmitter(),
+        p = useThrottle(
+          () => {
+            o && o();
+          },
+          [],
+          150,
+        ),
+        [m, h] = useSpring(() => ({
+          scrollPosition: 0,
+          onChange: (e) => {
+            const t = u.current;
+            t && (n(t, e), f.trigger("change", e), o && d.current && p());
+          },
+          onRest: (e) => f.trigger("rest", e),
+          onStart: (e) => f.trigger("start", e),
+          onPause: (e) => f.trigger("pause", e),
+        })),
+        g = (0, import_react.useCallback)(
+          (e, t, n) => {
+            const r = m.scrollPosition.get(),
+              a = (m.scrollPosition.goal ?? 0) - r;
+            return i(e, t * n + a + r);
+          },
+          [m.scrollPosition],
+        ),
+        b = (0, import_react.useCallback)(
+          (e, { immediate: t = !1, reset: n = !0 } = {}) => {
+            const r = u.current;
+            r &&
+              h.start({
+                scrollPosition: i(r, e),
+                immediate: t,
+                reset: n,
+                config: l.animationConfig,
+                from: { scrollPosition: i(r, m.scrollPosition.get()) },
+              });
+          },
+          [h, l.animationConfig, m.scrollPosition],
+        ),
+        v = (0, import_react.useCallback)(
+          (e) => {
+            const t = u.current,
+              n = c.current;
+            t &&
+              n &&
+              b(
+                g(
+                  t,
+                  e,
+                  ((e, t) => {
+                    switch (t.type) {
+                      case "proportional":
+                        return a(e) / t.factor;
+                      case "fixed":
+                        return t.value;
+                    }
+                  })(n, l.step),
+                ),
+              );
+          },
+          [b, g, l.step],
+        ),
+        _ = (0, import_react.useCallback)(
+          (e) => {
+            (0 !== e.deltaY && v(r(e)),
+              u.current && f.trigger("mouseWheel", e, m.scrollPosition, t(u.current)));
+          },
+          [m.scrollPosition, v, f],
+        ),
+        y = useCallbackEffect(
+          () =>
+            createLayoutReadyInEffect(() => {
+              const e = u.current;
+              e && (b(i(e, m.scrollPosition.goal), { immediate: !0 }), f.trigger("resizeHandled"));
+            }),
+          [b, m.scrollPosition.goal],
+        ),
+        w = useEvent(() => {
+          const e = u.current;
+          if (!e) return;
+          const t = i(e, m.scrollPosition.goal);
+          (t !== m.scrollPosition.goal && b(t, { immediate: !0 }), f.trigger("recalculateContent"));
+        });
+      return (
+        (0, import_react.useEffect)(
+          () => (
+            window.addEventListener("resize", y),
+            () => {
+              window.removeEventListener("resize", y);
+            }
+          ),
+          [y],
+        ),
+        (0, import_react.useEffect)(() => {
+          const e = u.current;
+          if (!e || !o) return;
+          const t = () => {
+              d.current = !0;
+            },
+            n = () => {
+              d.current = !1;
+            };
+          return (
+            e.addEventListener("mouseenter", t),
+            e.addEventListener("mouseleave", n),
+            () => {
+              (e.removeEventListener("mouseenter", t), e.removeEventListener("mouseleave", n));
+            }
+          );
+        }, [u]),
+        (0, import_react.useMemo)(
+          () => ({
+            getWrapperSize: () => (c.current ? a(c.current) : void 0),
+            getContainerSize: () => (u.current ? e(u.current) : void 0),
+            getBounds: () =>
+              u.current
+                ? t(u.current)
+                : (console.warn("getBounds: contentRef.current is null"), [0, 0]),
+            stepTimeout: l.step.clampedArrowStepTimeout,
+            clampPosition: i,
+            handleMouseWheel: _,
+            applyScroll: b,
+            applyStepTo: v,
+            contentRef: u,
+            wrapperRef: c,
+            scrollPosition: h,
+            animationScroll: m,
+            recalculateContent: w,
+            events: { on: f.on, off: f.off },
+          }),
+          [m.scrollPosition, b, v, f.off, f.on, w, _, h, l.step.clampedArrowStepTimeout],
+        )
+      );
+    };
+  },
+  DEFAULT_HORIZONTAL_API_CONTEXT = {
+    getBounds: (e) => [0, e.offsetWidth - (e.parentElement?.offsetWidth ?? 0)],
+    getContainerSize: (e) => e.offsetWidth,
+    getWrapperSize: (e) => e.offsetWidth,
+    setScrollPosition: (e, t) => {
+      e.style.transform = `translateX(-${0 | (t.value.scrollPosition ?? 0)}px)`;
+    },
+    getDirection: (e) => (e.deltaY > 1 ? Direction.Next : Direction.Prev),
+    forceTriggerMouseMove: env.view.forceTriggerMouseMove,
+  },
+  useHorizontalScrollApi = createApiHook(DEFAULT_HORIZONTAL_API_CONTEXT),
+  base$8 = "Horizontalbar_bdf22414",
+  base__active$1 = "Horizontalbar_base__active_5a3d92a0",
+  leftButton = "Horizontalbar_leftButton_ba80ec4f",
+  rightButton = "Horizontalbar_rightButton_847c1c78",
+  track$1 = "Horizontalbar_track_388b12f",
+  thumb$1 = "Horizontalbar_thumb_9d4dd30f",
+  rail$1 = "Horizontalbar_rail_b8667e3c",
+  HorizontalBar_module_default = {
+    base: base$8,
+    base__active: base__active$1,
+    leftButton: leftButton,
+    rightButton: rightButton,
+    track: track$1,
+    thumb: thumb$1,
+    rail: rail$1,
+  },
+  CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT$1 = 100,
+  DISABLE_CLASS$1 = "disable",
+  MIN_THUMB_SIZE$1 = 20,
+  MOUSE_BUTTON_LEFT$1 = 0,
+  initDraggingState$1 = { pending: !1, offset: 0 },
+  getStepByRailClickDefault$1 = (e) => 0.9 * (e.getWrapperSize() ?? 0),
+  isBoundThumb = (e, t, n) => n - (e.offsetWidth - t.offsetWidth) >= -0.5,
+  emptyFunction$1 = () => {},
+  calculateThumbSize$1 = (e, t) => Math.max(MIN_THUMB_SIZE$1, e.offsetWidth * t),
+  BarFC$1 = ({
+    api: e,
+    classNames: t = {},
+    getStepByRailClick: n = getStepByRailClickDefault$1,
+    onDrag: r = emptyFunction$1,
+  }) => {
+    const a = (0, import_react.useRef)(null),
+      o = (0, import_react.useRef)(null),
+      i = (0, import_react.useRef)(null),
+      s = (0, import_react.useRef)(null),
+      l = (0, import_react.useRef)(null),
+      u = e.stepTimeout || CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT$1,
+      [c, d] = (0, import_react.useState)(initDraggingState$1),
+      f = (0, import_react.useCallback)(
+        (e) => {
+          (d(e), l.current && r({ type: e.pending ? "dragStart" : "dragEnd", thumb: l.current }));
+        },
+        [r],
+      ),
+      p = () => {
+        const t = s.current,
+          n = l.current,
+          r = e.getWrapperSize(),
+          a = e.getContainerSize();
+        if (!(r && t && n && a)) return;
+        const u = e.animationScroll.scrollPosition.get(),
+          c = Math.min(1, r / a),
+          d = clamp(0, 1, u / (a - r)),
+          f = (t.offsetWidth - calculateThumbSize$1(t, c)) * d;
+        ((n.style.transform = `translateX(${0 | f}px)`),
+          ((e) => {
+            if (o.current && i.current && s.current && l.current) {
+              if (0 === e)
+                return (
+                  o.current.classList.add(DISABLE_CLASS$1),
+                  void i.current.classList.remove(DISABLE_CLASS$1)
+                );
+              if (isBoundThumb(s.current, l.current, e))
+                return (
+                  o.current.classList.remove(DISABLE_CLASS$1),
+                  void i.current.classList.add(DISABLE_CLASS$1)
+                );
+              (o.current.classList.remove(DISABLE_CLASS$1),
+                i.current.classList.remove(DISABLE_CLASS$1));
+            }
+          })(f));
+      },
+      m = useEvent(() => {
+        ((() => {
+          const t = l.current,
+            n = s.current,
+            r = e.getWrapperSize(),
+            o = e.getContainerSize();
+          if (!(o && t && r && n)) return;
+          const i = Math.min(1, r / o);
+          ((t.style.width = `${calculateThumbSize$1(n, i)}px`),
+            (t.style.display = "flex"),
+            a.current &&
+              (1 !== i
+                ? a.current.classList.add(HorizontalBar_module_default.base__active)
+                : a.current.classList.remove(HorizontalBar_module_default.base__active)));
+        })(),
+          p());
+      });
+    ((0, import_react.useEffect)(() => createLayoutReadyInEffect(m)),
+      (0, import_react.useEffect)(
+        () =>
+          createLayoutReadyInEffect(() => {
+            const t = () => {
+              p();
+            };
+            let n = emptyFunction$1;
+            const r = () => {
+              (n(), (n = createLayoutReadyInEffect(m)));
+            };
+            return (
+              e.events.on("recalculateContent", m),
+              e.events.on("rest", t),
+              e.events.on("change", t),
+              e.events.on("resizeHandled", r),
+              () => {
+                (n(),
+                  e.events.off("recalculateContent", m),
+                  e.events.off("rest", t),
+                  e.events.off("change", t),
+                  e.events.off("resizeHandled", r));
+              }
+            );
+          }),
+        [e],
+      ),
+      (0, import_react.useEffect)(() => {
+        if (!c.pending) return;
+        const t = env.client.events.mouse.move(([t, n]) => {
+            const a = e.contentRef.current,
+              o = e.wrapperRef.current;
+            if (!a || !o) return;
+            const i = s.current,
+              u = l.current;
+            if (!i || !u) return;
+            if ("inside" === n && t.clientX < 0) return;
+            const d = t.clientX - c.offset - i.getBoundingClientRect().x,
+              f = (d / i.offsetWidth) * (e.getContainerSize() ?? 0);
+            (e.scrollPosition.start({
+              scrollPosition: e.clampPosition(a, f),
+              reset: !0,
+              immediate: !0,
+              from: { scrollPosition: e.animationScroll.scrollPosition.get() },
+            }),
+              r({ type: "dragging", thumb: u, thumbOffset: d, contentOffset: f }));
+          }),
+          n = env.client.events.mouse.up(() => {
+            (t(), f(initDraggingState$1));
+          });
+        return () => {
+          (t(), n());
+        };
+      }, [e, c.offset, c.pending, r, f]));
+    const [h, g] = useRepeatCallback((t) => e.applyStepTo(t), u, [e]);
+    (0, import_react.useEffect)(
+      () => (
+        document.addEventListener("mouseup", g, !0),
+        () => document.removeEventListener("mouseup", g, !0)
+      ),
+      [g],
+    );
+    const b = (e) => {
+      e.target.classList.contains(DISABLE_CLASS$1) || playSound$1("highlight");
+    };
+    return (0, import_jsx_runtime.jsxs)("div", {
+      className: (0, import_classnames.default)(HorizontalBar_module_default.base, t.base),
+      ref: a,
+      onWheel: e.handleMouseWheel,
+      children: [
+        (0, import_jsx_runtime.jsx)("div", {
+          className: (0, import_classnames.default)(
+            HorizontalBar_module_default.leftButton,
+            t.leftButton,
+          ),
+          onMouseDown: (e) => {
+            e.target.classList.contains(DISABLE_CLASS$1) ||
+              e.button !== MOUSE_BUTTON_LEFT$1 ||
+              (playSound$1("play"), h(Direction.Next));
+          },
+          onMouseUp: g,
+          ref: o,
+          onMouseEnter: b,
+        }),
+        (0, import_jsx_runtime.jsxs)("div", {
+          className: (0, import_classnames.default)(HorizontalBar_module_default.track, t.track),
+          onMouseDown: (t) => {
+            const r = l.current;
+            r &&
+              t.button === MOUSE_BUTTON_LEFT$1 &&
+              (playSound$1("play"),
+              t.target === r
+                ? f({ pending: !0, offset: t.screenX - r.getBoundingClientRect().x })
+                : ((t) => {
+                    const r = l.current,
+                      a = e.contentRef.current;
+                    if (!r || !a) return;
+                    const o = n(e);
+                    e.applyScroll(e.animationScroll.scrollPosition.get() + o * t);
+                  })(t.screenX > r.getBoundingClientRect().x ? Direction.Prev : Direction.Next));
+          },
+          ref: s,
+          onMouseEnter: b,
+          children: [
+            (0, import_jsx_runtime.jsx)("div", {
+              ref: l,
+              className: (0, import_classnames.default)(
+                HorizontalBar_module_default.thumb,
+                t.thumb,
+              ),
+            }),
+            (0, import_jsx_runtime.jsx)("div", {
+              className: (0, import_classnames.default)(HorizontalBar_module_default.rail, t.rail),
+            }),
+          ],
+        }),
+        (0, import_jsx_runtime.jsx)("div", {
+          className: (0, import_classnames.default)(
+            HorizontalBar_module_default.rightButton,
+            t.rightButton,
+          ),
+          onMouseDown: (e) => {
+            e.target.classList.contains(DISABLE_CLASS$1) ||
+              e.button !== MOUSE_BUTTON_LEFT$1 ||
+              (playSound$1("play"), h(Direction.Prev));
+          },
+          onMouseUp: g,
+          ref: i,
+          onMouseEnter: b,
+        }),
+      ],
+    });
+  },
+  Bar$1 = (0, import_react.memo)(BarFC$1),
+  base$7 = "Horizontalscroll_f316f2c6",
+  wrapper = "Horizontalscroll_wrapper_a8daa0f5",
+  defaultScrollArea = "Horizontalscroll_defaultScrollArea_a99fc00c",
+  HorizontalScroll_module_default = {
+    base: base$7,
+    wrapper: wrapper,
+    defaultScrollArea: defaultScrollArea,
+  },
+  DefaultScroll$1 = ({
+    children: e,
+    api: t,
+    className: n,
+    barClassNames: r,
+    areaClassName: a,
+    classNames: o,
+    scrollClassName: i,
+    getStepByRailClick: s,
+    onDrag: l,
+  }) => {
+    const u = (0, import_react.useMemo)(() => {
+        const e = r || {};
+        return {
+          ...e,
+          base: (0, import_classnames.default)(HorizontalScroll_module_default.base, e.base),
+        };
+      }, [r]),
+      c = (0, import_react.useMemo)(() => ({ ...t, handleMouseWheel: () => {} }), [t]);
+    return (0, import_jsx_runtime.jsxs)("div", {
+      className: (0, import_classnames.default)(HorizontalScroll_module_default.defaultScroll, n),
+      onWheel: t.handleMouseWheel,
+      children: [
+        (0, import_jsx_runtime.jsx)("div", {
+          className: (0, import_classnames.default)(
+            HorizontalScroll_module_default.defaultScrollArea,
+            a,
+          ),
+          children: (0, import_jsx_runtime.jsx)(Area$1, {
+            className: i,
+            api: c,
+            classNames: o,
+            children: e,
+          }),
+        }),
+        (0, import_jsx_runtime.jsx)(Bar$1, {
+          getStepByRailClick: s,
+          api: t,
+          onDrag: l,
+          classNames: u,
+        }),
+      ],
+    });
+  },
+  HorizontalScroll_exports = __exportAll({
+    Area: () => Area$1,
+    Bar: () => Bar$1,
+    DefaultScroll: () => DefaultScroll$1,
+    Direction: () => Direction,
+    defaultSettings: () => defaultSettings,
+    useHorizontalScrollApi: () => useHorizontalScrollApi,
+  }),
+  Area$1 = ({ api: e, className: t, classNames: n, children: r }) => (
+    (0, import_react.useEffect)(() => createLayoutReadyInEffect(e.recalculateContent)),
+    (0, import_jsx_runtime.jsx)("div", {
+      className: (0, import_classnames.default)(HorizontalScroll_module_default.base, t),
+      children: (0, import_jsx_runtime.jsx)("div", {
+        className: (0, import_classnames.default)(
+          HorizontalScroll_module_default.wrapper,
+          n?.wrapper,
+        ),
+        onWheel: e.handleMouseWheel,
+        ref: e.wrapperRef,
+        children: (0, import_jsx_runtime.jsx)("div", {
+          className: (0, import_classnames.default)(
+            HorizontalScroll_module_default.content,
+            n?.content,
+          ),
+          ref: e.contentRef,
+          children: r,
+        }),
+      }),
+    })
+  );
+((Area$1.Bar = Bar$1), (Area$1.Default = DefaultScroll$1));
+var DEFAULT_VERTICAL_API_CONTEXT = {
+    getBounds: (e) => [0, e.scrollHeight - e.offsetHeight],
+    getContainerSize: (e) => e.scrollHeight,
+    getWrapperSize: (e) => e.offsetHeight,
+    setScrollPosition: (e, t) => {
+      e.scrollTop = t.value.scrollPosition;
+    },
+    getDirection: (e) => (e.deltaY > 1 ? Direction.Next : Direction.Prev),
+  },
+  useVerticalScrollApi = createApiHook(DEFAULT_VERTICAL_API_CONTEXT),
+  base$6 = "Verticalbar_89dc020b",
+  base__active = "Verticalbar_base__active_1e0d5e44",
+  topButton = "Verticalbar_topButton_1ce852b9",
+  bottomButton = "Verticalbar_bottomButton_bc76d779",
+  track = "Verticalbar_track_7532d39a",
+  thumb = "Verticalbar_thumb_264988ce",
+  rail = "Verticalbar_rail_85a58f07",
+  VerticalBar_module_default = {
+    base: base$6,
+    base__active: base__active,
+    topButton: topButton,
+    bottomButton: bottomButton,
+    track: track,
+    thumb: thumb,
+    rail: rail,
+  },
+  CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT = 100,
+  DISABLE_CLASS = "disable",
+  MIN_THUMB_SIZE = 20,
+  MOUSE_BUTTON_LEFT = 0,
+  emptyFunction = () => {},
+  initDraggingState = { pending: !1, offset: 0 },
+  getStepByRailClickDefault = (e) => 0.9 * (e.getWrapperSize() ?? 0),
+  isBottomBoundThumb = (e, t, n) => n - (e.offsetHeight - t.offsetHeight) >= -0.5,
+  handleContainer = (e, t) => {
+    e.contentRef.current && t(e.contentRef.current);
+  },
+  calculateThumbSize = (e, t) => Math.max(MIN_THUMB_SIZE, e.offsetHeight * t),
+  BarFC = ({
+    api: e,
+    classNames: t = {},
+    getStepByRailClick: n = getStepByRailClickDefault,
+    onDrag: r = emptyFunction,
+  }) => {
+    const a = (0, import_react.useRef)(null),
+      o = (0, import_react.useRef)(null),
+      i = (0, import_react.useRef)(null),
+      s = (0, import_react.useRef)(null),
+      l = (0, import_react.useRef)(null),
+      u = e.stepTimeout || CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT,
+      [c, d] = (0, import_react.useState)(initDraggingState),
+      f = (0, import_react.useCallback)(
+        (e) => {
+          (d(e), l.current && r({ type: e.pending ? "dragStart" : "dragEnd", thumb: l.current }));
+        },
+        [r],
+      ),
+      p = useEvent(() => {
+        const t = l.current,
+          n = s.current,
+          r = e.getWrapperSize(),
+          o = e.getContainerSize();
+        if (!(r && o && t && n)) return;
+        const i = Math.min(1, r / o);
+        return (
+          (t.style.height = `${calculateThumbSize(n, i)}px`),
+          (t.style.display = "flex"),
+          a.current &&
+            (1 !== i
+              ? a.current.classList.add(VerticalBar_module_default.base__active)
+              : a.current.classList.remove(VerticalBar_module_default.base__active)),
+          i
+        );
+      }),
+      m = useEvent(() => {
+        const t = s.current,
+          n = l.current,
+          r = e.getWrapperSize(),
+          a = e.getContainerSize();
+        if (!(r && t && n && a)) return;
+        const u = e.animationScroll.scrollPosition.get(),
+          c = Math.min(1, r / a),
+          d = clamp(0, 1, u / (a - r)),
+          f = (t.offsetHeight - calculateThumbSize(t, c)) * d;
+        ((n.style.transform = `translateY(${0 | f}px)`),
+          ((e) => {
+            if (o.current && i.current && s.current && l.current) {
+              if (0 === Math.round(e))
+                return (
+                  o.current.classList.add(DISABLE_CLASS),
+                  void i.current.classList.remove(DISABLE_CLASS)
+                );
+              if (isBottomBoundThumb(s.current, l.current, e))
+                return (
+                  o.current.classList.remove(DISABLE_CLASS),
+                  void i.current.classList.add(DISABLE_CLASS)
+                );
+              (o.current.classList.remove(DISABLE_CLASS),
+                i.current.classList.remove(DISABLE_CLASS));
+            }
+          })(f));
+      }),
+      h = useEvent(() => {
+        handleContainer(e, () => {
+          (p(), m());
+        });
+      });
+    ((0, import_react.useEffect)(() => createLayoutReadyInEffect(h)),
+      (0, import_react.useEffect)(() => {
+        const t = () => {
+          handleContainer(e, () => {
+            m();
+          });
+        };
+        let n = emptyFunction;
+        const r = () => {
+          (n(), (n = createLayoutReadyInEffect(h)));
+        };
+        return (
+          e.events.on("recalculateContent", h),
+          e.events.on("rest", t),
+          e.events.on("change", t),
+          e.events.on("resizeHandled", r),
+          () => {
+            (n(),
+              e.events.off("recalculateContent", h),
+              e.events.off("rest", t),
+              e.events.off("change", t),
+              e.events.off("resizeHandled", r));
+          }
+        );
+      }, [e]),
+      (0, import_react.useEffect)(() => {
+        if (!c.pending) return;
+        const t = env.client.events.mouse.up(() => {
+            f(initDraggingState);
+          }),
+          n = env.client.events.mouse.move(([t]) => {
+            handleContainer(e, (n) => {
+              const a = s.current,
+                o = l.current,
+                i = e.getContainerSize();
+              if (!a || !o || !i) return;
+              const u = t.screenY - c.offset - a.getBoundingClientRect().y,
+                d = (u / a.offsetHeight) * i;
+              (e.scrollPosition.start({
+                scrollPosition: e.clampPosition(n, d),
+                reset: !0,
+                immediate: !0,
+                from: { scrollPosition: n.scrollTop },
+              }),
+                r({ type: "dragging", thumb: o, thumbOffset: u, contentOffset: d }));
+            });
+          });
+        return () => {
+          (t(), n());
+        };
+      }, [e, c.offset, c.pending, r, f]));
+    const [g, b] = useRepeatCallback((t) => e.applyStepTo(t), u, [e]);
+    (0, import_react.useEffect)(
+      () => (
+        document.addEventListener("mouseup", b, !0),
+        () => document.removeEventListener("mouseup", b, !0)
+      ),
+      [b],
+    );
+    const v = (e) => {
+      e.target.classList.contains(DISABLE_CLASS) || playSound$1("highlight");
+    };
+    return (0, import_jsx_runtime.jsxs)("div", {
+      className: (0, import_classnames.default)(VerticalBar_module_default.base, t.base),
+      ref: a,
+      onWheel: e.handleMouseWheel,
+      children: [
+        (0, import_jsx_runtime.jsx)("div", {
+          className: (0, import_classnames.default)(
+            VerticalBar_module_default.topButton,
+            t.topButton,
+          ),
+          onMouseDown: (e) => {
+            e.target.classList.contains(DISABLE_CLASS) ||
+              e.button !== MOUSE_BUTTON_LEFT ||
+              (playSound$1("play"), g(Direction.Next));
+          },
+          ref: o,
+          onMouseEnter: v,
+        }),
+        (0, import_jsx_runtime.jsxs)("div", {
+          className: (0, import_classnames.default)(VerticalBar_module_default.track, t.track),
+          onMouseDown: (t) => {
+            const r = l.current;
+            var a;
+            r &&
+              t.button === MOUSE_BUTTON_LEFT &&
+              (playSound$1("play"),
+              t.target === r
+                ? f({ pending: !0, offset: t.screenY - r.getBoundingClientRect().y })
+                : ((a = t.screenY > r.getBoundingClientRect().y ? Direction.Prev : Direction.Next),
+                  l.current &&
+                    handleContainer(e, (t) => {
+                      if (!t) return;
+                      const r = n(e),
+                        o = e.clampPosition(t, t.scrollTop + r * a);
+                      e.applyScroll(o);
+                    })));
+          },
+          ref: s,
+          onMouseEnter: v,
+          children: [
+            (0, import_jsx_runtime.jsx)("div", {
+              ref: l,
+              className: (0, import_classnames.default)(VerticalBar_module_default.thumb, t.thumb),
+            }),
+            (0, import_jsx_runtime.jsx)("div", {
+              className: (0, import_classnames.default)(VerticalBar_module_default.rail, t.rail),
+            }),
+          ],
+        }),
+        (0, import_jsx_runtime.jsx)("div", {
+          className: (0, import_classnames.default)(
+            VerticalBar_module_default.bottomButton,
+            t.bottomButton,
+          ),
+          onMouseDown: (e) => {
+            e.target.classList.contains(DISABLE_CLASS) ||
+              e.button !== MOUSE_BUTTON_LEFT ||
+              (playSound$1("play"), g(Direction.Prev));
+          },
+          onMouseUp: b,
+          ref: i,
+          onMouseEnter: v,
+        }),
+      ],
+    });
+  },
+  Bar = (0, import_react.memo)(BarFC),
+  content$1 = "Verticalscroll_content_848080fa",
+  defaultScroll = "Verticalscroll_defaultScroll_5f9d259",
+  bar = "Verticalscroll_bar_c24e9ca8",
+  area = "Verticalscroll_area_39a5f7ae",
+  VerticalScroll_module_default = {
+    content: content$1,
+    defaultScroll: defaultScroll,
+    bar: bar,
+    area: area,
+  },
+  DefaultScroll = ({
+    children: e,
+    api: t,
+    className: n,
+    barClassNames: r,
+    areaClassName: a,
+    scrollClassName: o,
+    scrollClassNames: i,
+    getStepByRailClick: s,
+    onDrag: l,
+  }) => {
+    const u = (0, import_react.useMemo)(() => {
+        const e = r || {};
+        return {
+          ...e,
+          base: (0, import_classnames.default)(VerticalScroll_module_default.base, e.base),
+        };
+      }, [r]),
+      c = (0, import_react.useMemo)(() => ({ ...t, handleMouseWheel: () => {} }), [t]);
+    return (0, import_jsx_runtime.jsxs)("div", {
+      className: (0, import_classnames.default)(VerticalScroll_module_default.defaultScroll, n),
+      onWheel: t.handleMouseWheel,
+      children: [
+        (0, import_jsx_runtime.jsx)("div", {
+          className: (0, import_classnames.default)(VerticalScroll_module_default.area, a),
+          children: (0, import_jsx_runtime.jsx)(Area, {
+            className: o,
+            classNames: i,
+            api: c,
+            children: e,
+          }),
+        }),
+        (0, import_jsx_runtime.jsx)(Bar, {
+          getStepByRailClick: s,
+          api: t,
+          onDrag: l,
+          classNames: u,
+        }),
+      ],
+    });
+  },
+  VerticalScroll_exports = __exportAll({
+    Area: () => Area,
+    Bar: () => Bar,
+    Default: () => DefaultScroll,
+    useVerticalScrollApi: () => useVerticalScrollApi,
+  }),
+  Area = ({ className: e, classNames: t, children: n, api: r }) => (
+    (0, import_react.useEffect)(() => createLayoutReadyInEffect(r.recalculateContent)),
+    (0, import_jsx_runtime.jsx)("div", {
+      className: (0, import_classnames.default)(VerticalScroll_module_default.base, e),
+      ref: r.wrapperRef,
+      onWheel: r.handleMouseWheel,
+      children: (0, import_jsx_runtime.jsx)("div", {
+        className: (0, import_classnames.default)(
+          VerticalScroll_module_default.content,
+          t?.content,
+        ),
+        ref: r.contentRef,
+        children: n,
+      }),
+    })
+  );
+Area.Default = DefaultScroll;
+var Scroll = { Vertical: VerticalScroll_exports, Horizontal: HorizontalScroll_exports };
 function getNumberFormatType(e) {
   return "gold" === e ? NumberFormatType.GOLD : NumberFormatType.INTEGRAL;
 }
-window.ViewEnvHelper = ViewEnvHelper;
 var FormatNumber = ({ value: e, format: t = "integral" }) => {
     const n = getNumberFormatType(t),
       r = SystemLocale.getNumberFormat(e, n);
@@ -23284,507 +25324,164 @@ var FormatNumber = ({ value: e, format: t = "integral" }) => {
         return e;
     }
   },
-  getFromCallStack = (e = 1) => {
-    const t = new Error().stack;
-    let n,
-      r = R.invalid("resId"),
-      a = "";
+  CurrencySize = (function (e) {
     return (
-      t &&
-        ((a = t.match(/(coui:\/\/[^\s]+\.js)/)?.[0] || ""),
-        (n = t.split("\n")[e].split(".js")[0].split("/").pop() || ""),
-        window.__feature &&
-          window.__feature !== n &&
-          window.subViews[n] &&
-          (r = window.subViews[n].id)),
-      { callerUrl: a, caller: n, stack: t, resId: r }
+      (e.small = "small"),
+      (e.big = "big"),
+      (e.large = "large"),
+      (e.extraLarge = "extraLarge"),
+      e
     );
+  })({}),
+  CurrencyType = (function (e) {
+    return (
+      (e.credits = "credits"),
+      (e.gold = "gold"),
+      (e.crystal = "crystal"),
+      (e.xp = "xp"),
+      (e.freeXP = "freeXP"),
+      (e.eliteXP = "eliteXP"),
+      (e.equipCoin = "equipCoin"),
+      e
+    );
+  })({}),
+  StockBackgroundName = (function (e) {
+    return ((e.Red = "RedActionBG"), (e.Blue = "BlueActionBG"), e);
+  })({}),
+  base$5 = "Currency_37b937ed",
+  icon$1 = "Currency_icon_7e0ceeb1",
+  base__small$2 = "Currency_base__small_3c6cfaf0",
+  base__big$1 = "Currency_base__big_3c6cfaf0",
+  base__large = "Currency_base__large_3c6cfaf0",
+  base__extraLarge = "Currency_base__extraLarge_3c6cfaf0",
+  value = "Currency_value_cb375db",
+  value__freeXP = "Currency_value__freeXP_e27417ca",
+  value__credits = "Currency_value__credits_f58d71c4",
+  value__gold = "Currency_value__gold_b88421af",
+  value__xp = "Currency_value__xp_3c6cfaf0",
+  value__crystal = "Currency_value__crystal_3c6cfaf0",
+  value__equipCoin = "Currency_value__equipCoin_3c6cfaf0",
+  value__eliteXP = "Currency_value__eliteXP_f38577b9",
+  value__notEnough = "Currency_value__notEnough_1800dd2b",
+  stock = "Currency_stock_e14e627",
+  stock__indent = "Currency_stock__indent_cbef6f7b",
+  stock__interactive = "Currency_stock__interactive_ff7f7510",
+  stockBackground = "Currency_stockBackground_aab4a285",
+  Currency_module_default = {
+    base: base$5,
+    icon: icon$1,
+    base__small: base__small$2,
+    base__big: base__big$1,
+    base__large: base__large,
+    base__extraLarge: base__extraLarge,
+    "icon__credits-small": "Currency_icon__credits-small_76c23d6f",
+    "icon__credits-big": "Currency_icon__credits-big_bc8e9cb0",
+    "icon__credits-large": "Currency_icon__credits-large_dc13c524",
+    "icon__credits-extraLarge": "Currency_icon__credits-extraLarge_ea333640",
+    "icon__gold-small": "Currency_icon__gold-small_ab0eb1b2",
+    "icon__gold-big": "Currency_icon__gold-big_67832e62",
+    "icon__gold-large": "Currency_icon__gold-large_fff11d66",
+    "icon__gold-extraLarge": "Currency_icon__gold-extraLarge_ea93cc68",
+    "icon__crystal-small": "Currency_icon__crystal-small_b3d78291",
+    "icon__crystal-big": "Currency_icon__crystal-big_c8ee3685",
+    "icon__crystal-large": "Currency_icon__crystal-large_fcaa61ed",
+    "icon__crystal-extraLarge": "Currency_icon__crystal-extraLarge_c177fcd7",
+    "icon__xp-small": "Currency_icon__xp-small_240d5c95",
+    "icon__xp-big": "Currency_icon__xp-big_a031c8d",
+    "icon__xp-large": "Currency_icon__xp-large_3e73c700",
+    "icon__xp-extraLarge": "Currency_icon__xp-extraLarge_1b022c5",
+    "icon__freeXP-small": "Currency_icon__freeXP-small_5d068d1f",
+    "icon__freeXP-big": "Currency_icon__freeXP-big_a1963736",
+    "icon__freeXP-large": "Currency_icon__freeXP-large_c26792c",
+    "icon__freeXP-extraLarge": "Currency_icon__freeXP-extraLarge_86c9b0dd",
+    "icon__eliteXP-small": "Currency_icon__eliteXP-small_4d5ce7c2",
+    "icon__eliteXP-big": "Currency_icon__eliteXP-big_ad799c",
+    "icon__eliteXP-large": "Currency_icon__eliteXP-large_3c9a1938",
+    "icon__eliteXP-extraLarge": "Currency_icon__eliteXP-extraLarge_262c07e7",
+    "icon__equipCoin-small": "Currency_icon__equipCoin-small_5fbf8e4a",
+    "icon__equipCoin-big": "Currency_icon__equipCoin-big_d34f9d8d",
+    "icon__equipCoin-large": "Currency_icon__equipCoin-large_c3d88627",
+    "icon__equipCoin-extraLarge": "Currency_icon__equipCoin-extraLarge_902046dc",
+    value: value,
+    value__freeXP: value__freeXP,
+    value__credits: value__credits,
+    value__gold: value__gold,
+    value__xp: value__xp,
+    value__crystal: value__crystal,
+    value__equipCoin: value__equipCoin,
+    value__eliteXP: value__eliteXP,
+    value__notEnough: value__notEnough,
+    stock: stock,
+    stock__indent: stock__indent,
+    stock__interactive: stock__interactive,
+    stockBackground: stockBackground,
   },
-  SHOW_DELAY_MIN = 100,
-  SHOW_DELAY_DEFAULT = 400;
-function getViewEventArguments(e) {
-  return Object.entries(e || {}).map(([e, t]) => {
-    const n = { __Type: "GFValueProxy", name: e };
-    switch (typeof t) {
-      case "number":
-        n.number = t;
-        break;
-      case "boolean":
-        n.bool = t;
-        break;
-      case "undefined":
-        break;
-      default:
-        n.string = t.toString();
-    }
-    return n;
-  });
-}
-var handleViewEvent = (e, t, n = {}, r = 0) => {
-    viewEnv.handleViewEvent({
-      __Type: "GFViewEventProxy",
-      type: ViewEventType.TOOLTIP,
-      contentID: e,
-      decoratorID: t,
-      targetID: r,
-      ...n,
-    });
-  },
-  Tooltip = ({
-    children: e,
-    contentId: t,
-    args: n,
-    onMouseEnter: r,
-    onMouseLeave: a,
-    onMouseDown: o,
-    onClick: i,
-    ignoreShowDelay: s = !1,
-    ignoreMouseClick: l = !1,
-    decoratorId: u = 0,
-    isEnabled: c = !0,
-    targetId: d = 0,
-    onShow: f,
-    onHide: p,
-    ...m
-  }) => {
-    const h = (0, import_react.useRef)({
-        timeoutId: 0,
-        isVisible: !1,
-        prevTarget: null,
-        hideTimerId: null,
-      }),
-      g = (0, import_react.useMemo)(() => d || getFromCallStack().resId, [d]),
-      b = (0, import_react.useCallback)(() => {
-        (h.current.isVisible && h.current.timeoutId) ||
-          (handleViewEvent(
-            t,
-            u,
-            { isMouseEvent: !0, on: !0, arguments: getViewEventArguments(n) },
-            g,
+  CurrencyComponent = ({
+    isDiscount: e,
+    isInteractiveDiscount: t,
+    size: n,
+    type: r,
+    value: a,
+    discountValue: o,
+    showPlus: i,
+    isEnough: s = !0,
+    stockBackgroundName: l = StockBackgroundName.Red,
+    className: u,
+    classNames: c,
+  }) =>
+    (0, import_jsx_runtime.jsxs)("span", {
+      className: (0, import_classnames.default)(
+        Currency_module_default.base,
+        Currency_module_default[`base__${n}`],
+        u,
+      ),
+      children: [
+        (0, import_jsx_runtime.jsxs)("span", {
+          className: (0, import_classnames.default)(
+            Currency_module_default.value,
+            Currency_module_default[`value__${r}`],
+            !s && Currency_module_default.value__notEnough,
+            c?.value,
           ),
-          f && f(),
-          (h.current.isVisible = !0));
-      }, [t, u, n, g, f]),
-      v = (0, import_react.useCallback)(() => {
-        if (h.current.isVisible || h.current.timeoutId) {
-          const e = h.current.timeoutId;
-          (e > 0 && (clearTimeout(e), (h.current.timeoutId = 0)),
-            handleViewEvent(t, u, { on: !1 }, g),
-            h.current.isVisible && p && p(),
-            (h.current.isVisible = !1));
-        }
-      }, [t, u, g, p]),
-      _ = (0, import_react.useCallback)((e) => {
-        h.current.isVisible &&
-          ((h.current.prevTarget = document.elementFromPoint(e.clientX, e.clientY)),
-          (h.current.hideTimerId = window.setTimeout(() => {
-            const t = document.elementFromPoint(e.clientX, e.clientY);
-            t && !t.isSameNode(h.current.prevTarget) && v();
-          }, 200)));
-      }, []);
-    ((0, import_react.useEffect)(() => {
-      const e = h.current.hideTimerId;
-      return (
-        document.addEventListener("wheel", _, { capture: !0 }),
-        () => {
-          (document.removeEventListener("wheel", _, { capture: !0 }), e && window.clearTimeout(e));
-        }
-      );
-    }, []),
-      (0, import_react.useEffect)(() => {
-        !1 === c && v();
-      }, [c, v]),
-      (0, import_react.useEffect)(
-        () => (
-          window.addEventListener("mouseleave", v),
-          () => {
-            (window.removeEventListener("mouseleave", v), v());
-          }
-        ),
-        [v],
-      ));
-    return c
-      ? (0, import_react.cloneElement)(e, {
-          onMouseEnter:
-            ((y = e.props.onMouseEnter),
-            (e) => {
-              (e.clientX === window.innerWidth && e.clientY === window.innerHeight) ||
-                (clearTimeout(h.current.timeoutId),
-                (h.current.timeoutId = window.setTimeout(
-                  b,
-                  s ? SHOW_DELAY_MIN : SHOW_DELAY_DEFAULT,
-                )),
-                r && r(e),
-                y && y(e));
-            }),
-          onMouseLeave: ((e) => (t) => {
-            (v(), a?.(t), e?.(t));
-          })(e.props.onMouseLeave),
-          onClick: ((e) => (t) => {
-            (!1 === l && v(), i?.(t), e?.(t));
-          })(e.props.onClick),
-          onMouseDown: ((e) => (t) => {
-            (!1 === l && v(), o?.(t), e?.(t));
-          })(e.props.onMouseDown),
-          ...m,
-        })
-      : e;
-    var y;
-  },
-  BackportTooltip = ({ children: e, ...t }) =>
-    (0, import_jsx_runtime.jsx)(Tooltip, {
-      contentId:
-        R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId"),
-      ignoreShowDelay: !0,
-      ...t,
-      children: e,
-    }),
-  UB_SIMPLE_TOOLTIPS = R.views.common.tooltip_window.simple_tooltip_content,
-  getTooltipContentId = (e) =>
-    e
-      ? UB_SIMPLE_TOOLTIPS.SimpleTooltipHtmlContent("resId")
-      : UB_SIMPLE_TOOLTIPS.SimpleTooltipContent("resId"),
-  SimpleTooltip = ({ children: e, body: t, header: n, note: r, alert: a, args: o, ...i }) => {
-    const s = (0, import_react.useMemo)(() => {
-      const e = { ...o, body: t, header: n, note: r, alert: a };
-      for (const t in e) void 0 === e[t] && delete e[t];
-      return e;
-    }, [a, t, n, r, o]);
-    return (0, import_jsx_runtime.jsx)(Tooltip, {
-      contentId: getTooltipContentId(o?.hasHtmlContent),
-      decoratorId: R.views.common.tooltip_window.tooltip_window.TooltipWindow("resId"),
-      args: s,
-      ...i,
-      children: e,
-    });
-  },
-  DynamicTooltipWrapper = ({ children: e, tooltipArgs: t, className: n }) => {
-    if (!t) return e;
-    const r = (0, import_jsx_runtime.jsx)("div", { className: n, children: e });
-    if (t.header || t.body)
-      return (0, import_jsx_runtime.jsx)(SimpleTooltip, { ...t, children: r });
-    const { contentId: a } = t;
-    return a
-      ? (0, import_jsx_runtime.jsx)(Tooltip, { ...t, contentId: a, children: r })
-      : (0, import_jsx_runtime.jsx)(BackportTooltip, { ...t, children: r });
-  },
-  NodeTypes = { Text: 1, Tag: 2, Var: 3 };
-function parseArguments(e) {
-  const t = [];
-  let n = "",
-    r = !1,
-    a = !1,
-    o = "";
-  for (let i = 0; i < e.length; i++) {
-    const s = e[i];
-    ("'" !== s && '"' !== s) || a || r
-      ? s === o && a
-        ? ((a = !1), (n += s))
-        : "(" !== s || a
-          ? ")" === s && r && !a
-            ? ((r = !1), (n += s))
-            : " " !== s || r || a
-              ? (n += s)
-              : n && (t.push(n), (n = ""))
-          : ((r = !0), (n += s))
-      : ((a = !0), (o = s), (n += s));
-  }
-  return (n && t.push(n), t);
-}
-function parse$1(e, t) {
-  const n = [],
-    r = [];
-  let a = "",
-    o = !1,
-    i = "",
-    s = 0;
-  for (let l = 0; l < e.length; l++) {
-    const u = e[l];
-    if (u === t.start[0] && e.slice(l, l + t.start.length) === t.start)
-      (a &&
-        (r.length > 0
-          ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
-          : n.push({ type: NodeTypes.Text, value: a }),
-        (a = "")),
-        (o = !0),
-        (l += t.start.length - 1));
-    else if (u === t.end[0] && e.slice(l, l + t.end.length) === t.end) {
-      ((o = !1), (l += t.end.length - 1));
-      const e = i.trim();
-      if (e.startsWith("@")) {
-        const t = e.slice(1).trim(),
-          a = { type: NodeTypes.Tag, attrs: t.split("|"), instanceId: ++s, children: [] };
-        (r.length > 0 ? r[r.length - 1].node.children.push(a) : n.push(a),
-          r.push({ node: a, startIndex: n.length }));
-      } else if ("/" === e) r.length > 0 && r.pop();
-      else {
-        const t = { type: NodeTypes.Var, instanceId: ++s, name: e };
-        r.length > 0 ? r[r.length - 1].node.children.push(t) : n.push(t);
-      }
-      i = "";
-    } else o ? (i += u) : (a += u);
-  }
-  return (
-    a &&
-      (r.length
-        ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
-        : n.push({ type: NodeTypes.Text, value: a })),
-    n
-  );
-}
-var COLORS =
-    "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
-  base$13 = "FormatText_db904f12",
-  base__fullSize = "FormatText_base__fullSize_a514958e",
-  nowrap = "FormatText_nowrap_ff69eca3",
-  format_text_module_default = {
-    COLORS: COLORS,
-    base: base$13,
-    base__fullSize: base__fullSize,
-    nowrap: nowrap,
-  },
-  legacyColors = new Set(format_text_module_default.COLORS?.split(", ") ?? []),
-  keyId = 0;
-function takeKey() {
-  return ++keyId;
-}
-var startsWithPunctuationRe =
-  /^[*"'ー.,、。，:;：；！？》」•%)(!?\u0EAF\u0E3B\u0E3F\u0E31\u0E32\u0E33\u0E47-\u0E4F\u0E5A-\u0E5F\u0E00-\u0E7F\u3000-\u303F\uFF00-\uFFEF\]]/u;
-function splitString(e) {
-  const t = resources.resolve("langCode");
-  return addSpaceAndMap(
-    splitLocale(e, t),
-    t,
-    (e, t) => e && (0, import_jsx_runtime.jsx)("span", { children: e }, `${e}${t}`),
-  );
-}
-function splitArray(e) {
-  const t = [];
-  for (let n = 0; n < e.length; n++) {
-    const r = e[n],
-      a = e[n + 1];
-    if ("string" != typeof a || !startsWithPunctuationRe.test(a)) {
-      t.push(split(r));
-      continue;
-    }
-    const o = splitString(a.slice(1));
-    (t.push(
-      (0, import_jsx_runtime.jsxs)(
-        import_react.Fragment,
-        {
           children: [
-            (0, import_jsx_runtime.jsxs)("span", {
-              className: format_text_module_default.nowrap,
-              children: [split(r), a[0]],
+            i && a > 0 && "+",
+            (0, import_jsx_runtime.jsx)(FormatNumber, {
+              value: a,
+              format: r === CurrencyType.gold ? "gold" : "integral",
             }),
-            o,
           ],
-        },
-        takeKey(),
-      ),
-    ),
-      (n += 1));
-  }
-  return t;
-}
-function split(e) {
-  return Array.isArray(e)
-    ? splitArray(e)
-    : "string" == typeof e
-      ? (0, import_jsx_runtime.jsx)(import_react.Fragment, { children: splitString(e) }, takeKey())
-      : e;
-}
-function style$1(e, ...t) {
-  return (0, import_jsx_runtime.jsx)(
-    "span",
-    {
-      style: t.reduce((n, r) => {
-        if (Array.isArray(r)) {
-          const [e, t] = r;
-          return ((n[e] = t), n);
-        }
-        return (console.warn(`Invalid argument ${r} in ${e}: ${t}`), n);
-      }, {}),
-      children: e,
-    },
-    takeKey(),
-  );
-}
-function className$1(e, ...t) {
-  return (0, import_jsx_runtime.jsx)(
-    "span",
-    { className: t.filter((e) => "string" == typeof e && e.length > 0).join(" "), children: e },
-    takeKey(),
-  );
-}
-var color = (e, t) => ["color", t],
-  fontSize = (e, t) => ["fontSize", t],
-  fontWeight = (e, t) => ["fontWeight", t],
-  textDecoration = (e, t) => ["textDecoration", t],
-  bold = (e) => ["fontWeight", "bold"];
-function colorLegacy(e, t) {
-  const n = takeKey();
-  return legacyColors.has(String(t))
-    ? (0, import_jsx_runtime.jsx)(
-        "span",
-        { className: `FormatText_colorLegacy__${t}`, children: e },
-        n,
-      )
-    : (0, import_jsx_runtime.jsx)("span", { style: { color: `#${t}` }, children: e }, n);
-}
-var defaultFormatters = {
-  class: className$1,
-  colorLegacy: colorLegacy,
-  bold: bold,
-  split: split,
-  style: style$1,
-  color: color,
-  fontSize: fontSize,
-  fontWeight: fontWeight,
-  textDecoration: textDecoration,
-};
-function applyFunction(e, t, n, r) {
-  const a = n.map((t) => {
-      if ("string" != typeof t) return t;
-      const n = t.trim();
-      if (n.startsWith("(") && n.endsWith(")")) {
-        const [t, ...a] = n.slice(1, -1).split(" ");
-        return t ? applyFunction(e, t, a, r) : e;
-      }
-      return n.startsWith("'") && n.endsWith("'") ? n.slice(1, -1) : n;
-    }),
-    o = r[t];
-  return o ? o(e, ...a) : (console.error(`Function ${t} is not registered`), e);
-}
-function applyFunctions(e, t, n) {
-  return e.reduce((e, t) => {
-    const [r, ...a] = parseArguments(t.trim());
-    return r ? applyFunction(e, r, a, n) : e;
-  }, t);
-}
-function isEnd(e) {
-  return !((e >= "a" && e <= "z") || (e >= "A" && e <= "Z") || (e >= "0" && e <= "9") || "_" === e);
-}
-function resolveAttrParams(e, t) {
-  for (let n = 0; n < e.length; n++)
-    if ("$" === e[n]) {
-      let r = n + 1;
-      for (; r < e.length && !isEnd(e[r]);) r++;
-      const a = e.slice(n + 1, r),
-        o = t[a];
-      if (o) return resolveAttrParams(e.replace(`$${a}`, String(o)), t);
-    }
-  return e;
-}
-function resolveAttrsParams(e, t) {
-  const n = [];
-  for (let r = 0; r < e.length; r++) n[r] = resolveAttrParams(e[r], t);
-  return n;
-}
-var primitives = ["number", "string", "undefined"];
-function render$1(e, t, n = {}, r = !0) {
-  r && (keyId = 0);
-  const a = [];
-  function o(e) {
-    if (primitives.includes(typeof e)) {
-      const t = a.at(-1);
-      if ("string" == typeof t) return void (a[a.length - 1] = t + e);
-    }
-    a.push(e);
-  }
-  for (const i of e)
-    if (i.type === NodeTypes.Text) o(i.value);
-    else if (i.type === NodeTypes.Var)
-      null === n[i.name] || primitives.includes(typeof n[i.name])
-        ? o(n[i.name] ?? `{{${i.name}}}`)
-        : a.push(
-            (0, import_jsx_runtime.jsx)(
-              import_react.Fragment,
-              { children: n[i.name] },
-              `var-${i.name}-${i.instanceId}`,
+        }),
+        (0, import_jsx_runtime.jsx)("span", {
+          className: (0, import_classnames.default)(
+            Currency_module_default.icon,
+            Currency_module_default[`icon__${r}-${n}`],
+            c?.icon,
+          ),
+        }),
+        e &&
+          (0, import_jsx_runtime.jsxs)("span", {
+            className: (0, import_classnames.default)(
+              Currency_module_default.stock,
+              o && Currency_module_default.stock__indent,
+              t && Currency_module_default.stock__interactive,
+              c?.stock,
             ),
-          );
-    else if (i.type === NodeTypes.Tag) {
-      const e = render$1(i.children, t, n, !1),
-        r = applyFunctions(resolveAttrsParams(i.attrs, n), e, t);
-      a.push(r);
-    }
-  return a;
-}
-function upgradeColorTag(e) {
-  return e
-    .replace(
-      /%\(([a-zA-Z0-9]+)_(Open|Start)\)s(.+?)%\(\1_(Close|End)\)s/,
-      "{{@ colorLegacy '$1'}}$3{{/}}",
-    )
-    .replace(
-      /\{([a-zA-Z0-9]+)_(Open|Start)\}(.+?)\{\1_(Close|End)\}/gi,
-      "{{@ colorLegacy '$1'}}$3{{/}}",
-    );
-}
-function upgradeVariables(e) {
-  return e.replace(/%\((\w+|\d)\)(?:s|d)?/gi, "{{$1}}").replace(/(?<!\{)\{(\w+|\d)\}/g, "{{$1}}");
-}
-function upgradeSymbols(e) {
-  return e.replaceAll("&nbsp;", " ").replaceAll("&zwnbsp;", "\ufeff");
-}
-function upgradeLegacy(e) {
-  return pipe(e, upgradeSymbols, upgradeColorTag, upgradeVariables);
-}
-var defaultBrackets = { start: "{{", end: "}}" },
-  FormatText = (0, import_react.memo)(function (e) {
-    const {
-        brackets: t = defaultBrackets,
-        text: n,
-        params: r,
-        upgradeLegacy: a,
-        fullSize: o,
-        inline: i,
-        formatters: s,
-        split: l,
-        ...u
-      } = e,
-      c = (0, import_react.useMemo)(
-        () => (e.upgradeLegacy ? upgradeLegacy(e.text) : e.text),
-        [e.text, e.upgradeLegacy],
-      ),
-      d = (0, import_react.useMemo)(
-        () => (e.formatters ? { ...defaultFormatters, ...e.formatters } : defaultFormatters),
-        [e.formatters],
-      ),
-      f = (0, import_react.useMemo)(() => parse$1(l ? `{{@ split}}${c}{{/}}` : c, t), [t, c, l]),
-      p = (0, import_react.useMemo)(() => render$1(f, d, e.params), [f, d, e.params]),
-      m = clsx(
-        format_text_module_default.base,
-        o && format_text_module_default.base__fullSize,
-        u.className,
-      );
-    return e.inline
-      ? (console.warn(
-          "[FormatText] using the 'inline' props causes memory leaks due to incorrect working of the 'cohinline' attribute in GF version 1.48.2.3. Can cause client crashes.",
-          "Use 'split' prop instead.",
-        ),
-        (0, import_jsx_runtime.jsx)("p", {
-          ...u,
-          className: m,
-          ref: (e) => {
-            e?.setAttribute("cohinline", "true");
-          },
-          children: p,
-        }))
-      : (0, import_jsx_runtime.jsx)("span", { ...u, className: m, children: p });
-  });
-function FormatString({ path: e, ...t }) {
-  return (0, import_jsx_runtime.jsx)(FormatText, {
-    text: resources.resolve("strings").readOrEmpty(e),
-    ...t,
-  });
-}
-var base$12 = "Reward_c5dc614c",
+            children: [
+              (0, import_jsx_runtime.jsx)("span", {
+                className: Currency_module_default.stockBackground,
+                style: { backgroundImage: `url(R.images.gui.maps.icons.library.${l})` },
+              }),
+              Boolean(o) && o,
+            ],
+          }),
+      ],
+    }),
+  Currency = (0, import_react.memo)(CurrencyComponent),
+  base$4 = "Reward_c5dc614c",
   base__s48x48 = "Reward_base__s48x48_ab59d545",
-  base__small$4 = "Reward_base__small_69779e9c",
+  base__small$1 = "Reward_base__small_69779e9c",
   base__s80x80 = "Reward_base__s80x80_ab59d545",
-  base__big$1 = "Reward_base__big_4733a488",
+  base__big = "Reward_base__big_4733a488",
   base__s128x100 = "Reward_base__s128x100_fb15aafa",
   base__s180x135 = "Reward_base__s180x135_16cc707b",
   base__s232x174 = "Reward_base__s232x174_e32aac73",
@@ -23792,7 +25489,7 @@ var base$12 = "Reward_c5dc614c",
   base__s400x300 = "Reward_base__s400x300_76ba5081",
   base__s600x450 = "Reward_base__s600x450_aba4634a",
   tooltipWrapper = "Reward_tooltipWrapper_5c2caa5a",
-  icon$3 = "Reward_icon_ae345d69",
+  icon = "Reward_icon_ae345d69",
   overlay$1 = "Reward_overlay_ff0a7872",
   base__normalize = "Reward_base__normalize_ab59d545",
   highlight = "Reward_highlight_ac5e429a",
@@ -23807,11 +25504,11 @@ var base$12 = "Reward_c5dc614c",
   title = "Reward_title_50579ad9",
   timer = "Reward_timer_98cb5bca",
   Reward_module_default = {
-    base: base$12,
+    base: base$4,
     base__s48x48: base__s48x48,
-    base__small: base__small$4,
+    base__small: base__small$1,
     base__s80x80: base__s80x80,
-    base__big: base__big$1,
+    base__big: base__big,
     base__s128x100: base__s128x100,
     base__s180x135: base__s180x135,
     base__s232x174: base__s232x174,
@@ -23819,7 +25516,7 @@ var base$12 = "Reward_c5dc614c",
     base__s400x300: base__s400x300,
     base__s600x450: base__s600x450,
     tooltipWrapper: tooltipWrapper,
-    icon: icon$3,
+    icon: icon,
     overlay: overlay$1,
     base__normalize: base__normalize,
     highlight: highlight,
@@ -25544,7 +27241,7 @@ var DEV$1 = void 0,
     insert: () => insert,
     isDev: () => !1,
     isServer: () => !1,
-    memo: () => memo$3,
+    memo: () => memo,
     mergeProps: () => mergeProps,
     render: () => render,
     renderToStream: () => renderToStream,
@@ -26059,7 +27756,7 @@ var DelegatedEvents = new Set([
     "noindex",
     "search",
   ]),
-  memo$3 = (e) => createMemo(() => e());
+  memo = (e) => createMemo(() => e());
 function reconcileArrays(e, t, n) {
   let r = n.length,
     a = t.length,
@@ -28100,11 +29797,11 @@ function isReactComponent(e) {
 var themes = { primary: "primary", secondary: "secondary", custom: "custom" },
   sizes$1 = { extraSmall: "extraSmall", small: "small", medium: "medium", large: "large" },
   falsyToString = (e) => ("boolean" == typeof e ? `${e}` : 0 === e ? "0" : e),
-  cx$9 = clsx,
+  cx$2 = clsx,
   cva = (e, t) => (n) => {
     var r;
     if (null == (null == t ? void 0 : t.variants))
-      return cx$9(e, null == n ? void 0 : n.class, null == n ? void 0 : n.className);
+      return cx$2(e, null == n ? void 0 : n.class, null == n ? void 0 : n.className);
     const { variants: a, defaultVariants: o } = t,
       i = Object.keys(a).map((e) => {
         const t = null == n ? void 0 : n[e],
@@ -28119,7 +29816,7 @@ var themes = { primary: "primary", secondary: "secondary", custom: "custom" },
           let [n, r] = t;
           return (void 0 === r || (e[n] = r), e);
         }, {});
-    return cx$9(
+    return cx$2(
       e,
       i,
       null == t || null === (r = t.compoundVariants) || void 0 === r
@@ -28170,8 +29867,8 @@ function cleanProps(e, t) {
   for (const r of e) delete n[r];
   return n;
 }
-var base$11 = "HeadlessButton_df8536fc",
-  headless_button_module_default = { base: base$11 },
+var base$3 = "HeadlessButton_df8536fc",
+  headless_button_module_default = { base: base$3 },
   HeadlessButtonBase = defineStyledComponent("Button", {
     element: "button",
     className: headless_button_module_default.base,
@@ -28204,25 +29901,25 @@ var base$11 = "HeadlessButton_df8536fc",
   background = "Button_background_98ebcfb8",
   border = "Button_border_7e6390d7",
   overlay = "Button_overlay_174632c8",
-  base$10 = "Button_70871946",
+  base$2 = "Button_70871946",
   base__enabled = "Button_base__enabled_96634d40",
-  base__disabled$1 = "Button_base__disabled_b713e04a",
-  content$2 = "Button_content_298de63f",
+  base__disabled = "Button_base__disabled_b713e04a",
+  content = "Button_content_298de63f",
   content__fontAligned = "Button_content__fontAligned_66115778",
   button_module_default = {
     background: background,
     border: border,
     overlay: overlay,
-    base: base$10,
+    base: base$2,
     base__enabled: base__enabled,
-    base__disabled: base__disabled$1,
+    base__disabled: base__disabled,
     "base__size-extraSmall": "Button_base__size-extraSmall_d0cdb5ed",
     "base__size-small": "Button_base__size-small_fc7095a4",
     "base__size-medium": "Button_base__size-medium_814d61f0",
     "base__size-large": "Button_base__size-large_83da852e",
     "base__theme-primary": "Button_base__theme-primary_8ba55469",
     "base__theme-secondary": "Button_base__theme-secondary_3fa4afc",
-    content: content$2,
+    content: content,
     content__fontAligned: content__fontAligned,
   },
   Button = (0, import_react.forwardRef)(function (
@@ -28277,16 +29974,16 @@ var base$11 = "HeadlessButton_df8536fc",
     });
   });
 ((Button.themes = themes), (Button.sizes = sizes$1));
-var base$9 = "CloseButton_7488a1b8",
-  base__medium$2 = "CloseButton_base__medium_97d04067",
-  base__small$3 = "CloseButton_base__small_c1b29bae",
+var base$1 = "CloseButton_7488a1b8",
+  base__medium = "CloseButton_base__medium_97d04067",
+  base__small = "CloseButton_base__small_c1b29bae",
   base__extraSmall = "CloseButton_base__extraSmall_f52764c1",
   base__x96x96 = "CloseButton_base__x96x96_8157b84d",
   base__x32x32 = "CloseButton_base__x32x32_6466ea31",
   close_button_module_default = {
-    base: base$9,
-    base__medium: base__medium$2,
-    base__small: base__small$3,
+    base: base$1,
+    base__medium: base__medium,
+    base__small: base__small,
     base__extraSmall: base__extraSmall,
     base__x96x96: base__x96x96,
     base__x32x32: base__x32x32,
@@ -28320,1704 +30017,7 @@ function CloseButton({
   });
 }
 CloseButton.size = sizes;
-var InputType = { Default: "default", Search: "search", Email: "email", Password: "password" },
-  InputVariant = {
-    Normal: "normal",
-    Disabled: "disabled",
-    Alert: "alert",
-    Error: "error",
-    Done: "done",
-  },
-  InputSize = { Small: "small", Medium: "medium", Large: "large" },
-  defaultPlaceholders = {
-    [InputType.Default]: "",
-    [InputType.Email]: R.strings.common.input.placeholder.email(),
-    [InputType.Search]: R.strings.common.input.placeholder.search(),
-    [InputType.Password]: R.strings.common.input.placeholder.password(),
-  },
-  inputType = {
-    [InputType.Default]: "text",
-    [InputType.Email]: "text",
-    [InputType.Search]: "text",
-    [InputType.Password]: "password",
-  },
-  defaultHelpers = {
-    [InputType.Default]: "",
-    [InputType.Email]: "Invalid email",
-    [InputType.Search]: "",
-    [InputType.Password]: "",
-  },
-  iconsPath = R.images.gui.maps.icons.components.input;
-function getDefaultIcon(e, t) {
-  return e === InputType.Search ? iconsPath.$dyn(`search_${t}`) : "";
-}
-function getDefaultHelperIcon(e) {
-  return e === InputVariant.Alert ? R.images.gui.maps.icons.library.alertIcon() : "";
-}
-function validateEmail(e) {
-  const t = e.match(
-    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
-  );
-  return Boolean(t);
-}
-function performDefaultValidation(e, t) {
-  return t !== InputType.Email || validateEmail(e);
-}
-var base$8 = "Helpermessage_e43ecb4b",
-  base__shown = "Helpermessage_base__shown_28b28c74",
-  icon$2 = "Helpermessage_icon_85f835c3",
-  message = "Helpermessage_message_f2ba82e2",
-  message__alert = "Helpermessage_message__alert_69e4761c",
-  message__error = "Helpermessage_message__error_87d8a8a1",
-  message__done = "Helpermessage_message__done_dd4f50f2",
-  HelperMessage_module_default = {
-    base: base$8,
-    base__shown: base__shown,
-    icon: icon$2,
-    message: message,
-    message__alert: message__alert,
-    message__error: message__error,
-    message__done: message__done,
-  },
-  HelperMessage = ({ variant: e, show: t = !0, helperText: n, helperIcon: r, classMix: a }) => {
-    const o = (0, import_react.useMemo)(() => {
-        const t = r || getDefaultHelperIcon(e);
-        return t && { backgroundImage: `url(${t})` };
-      }, [r, e]),
-      i = (0, import_classnames.default)(
-        HelperMessage_module_default.base,
-        t && HelperMessage_module_default.base__shown,
-      ),
-      s = (0, import_classnames.default)(
-        HelperMessage_module_default.message,
-        HelperMessage_module_default[`message__${e}`],
-        a,
-      );
-    return (0, import_jsx_runtime.jsxs)("div", {
-      className: i,
-      children: [
-        o &&
-          (0, import_jsx_runtime.jsx)("div", {
-            className: HelperMessage_module_default.icon,
-            style: o,
-          }),
-        (0, import_jsx_runtime.jsx)("div", { className: s, children: n }),
-      ],
-    });
-  },
-  base$7 = "Inputcontrol_ef855555",
-  base__focused = "Inputcontrol_base__focused_dbb7783b",
-  base__alert = "Inputcontrol_base__alert_4288729",
-  base__error = "Inputcontrol_base__error_b0980004",
-  base__done = "Inputcontrol_base__done_420d2fbe",
-  base__disabled = "Inputcontrol_base__disabled_1443472e",
-  input = "Inputcontrol_input_13480315",
-  base__small$2 = "Inputcontrol_base__small_95506303",
-  base__medium$1 = "Inputcontrol_base__medium_95506303",
-  base__large$2 = "Inputcontrol_base__large_95506303",
-  base__withIcon = "Inputcontrol_base__withIcon_95506303",
-  input__search = "Inputcontrol_input__search_4dd8e53c",
-  disabled = "Inputcontrol_disabled_ae37311b",
-  placeholder = "Inputcontrol_placeholder_b37a5d38",
-  placeholder__search = "Inputcontrol_placeholder__search_c228534f",
-  icon$1 = "Inputcontrol_icon_253aeaaf",
-  icon__search = "Inputcontrol_icon__search_dc77e54f",
-  clear = "Inputcontrol_clear_48eaf250",
-  InputControl_module_default = {
-    base: base$7,
-    base__focused: base__focused,
-    base__alert: base__alert,
-    base__error: base__error,
-    base__done: base__done,
-    base__disabled: base__disabled,
-    input: input,
-    base__small: base__small$2,
-    base__medium: base__medium$1,
-    base__large: base__large$2,
-    base__withIcon: base__withIcon,
-    input__search: input__search,
-    disabled: disabled,
-    placeholder: placeholder,
-    placeholder__search: placeholder__search,
-    icon: icon$1,
-    icon__search: icon__search,
-    clear: clear,
-  },
-  ControlComponent = ({
-    componentId: e,
-    value: t = "",
-    type: n = InputType.Default,
-    size: r = InputSize.Medium,
-    variant: a = InputVariant.Normal,
-    placeholder: o = "",
-    highlighted: i,
-    withClear: s,
-    selectOnFocus: l = !0,
-    maxLength: u,
-    iconSource: c,
-    classMix: d,
-    onMouseEnter: f,
-    onMouseLeave: p,
-    onMouseDown: m,
-    onMouseUp: h,
-    onClick: g,
-    onChange: b,
-    onClear: v,
-    onFocus: _,
-    onBlur: y,
-  }) => {
-    const [w, S] = (0, import_react.useState)(!1),
-      E = (0, import_react.useRef)(null),
-      x = (0, import_react.useRef)({ mouseOver: !1, mouseDown: !1 }),
-      k = a !== InputVariant.Disabled,
-      O = (0, import_react.useCallback)(
-        (e) => {
-          k && (S(!0), _ && _(e));
-        },
-        [k, _],
-      ),
-      A = (0, import_react.useCallback)(
-        (e) => {
-          k && !x.current.mouseOver && (S(!1), y && y(e));
-        },
-        [k, y],
-      );
-    (0, import_react.useEffect)(() => {
-      k && w && l && E.current && E.current.select();
-    }, [l, w, k]);
-    const C = (0, import_react.useCallback)(
-        (e) => {
-          k && b && b(e.target.value);
-        },
-        [k, b],
-      ),
-      T = (0, import_react.useCallback)(
-        (e) => {
-          k && ((x.current.mouseOver = !0), f && f(e));
-        },
-        [k, f],
-      ),
-      P = (0, import_react.useCallback)(
-        (e) => {
-          k &&
-            E.current &&
-            (x.current.mouseDown && E.current.focus(), (x.current.mouseOver = !1), p && p(e));
-        },
-        [k, p],
-      ),
-      R = (0, import_react.useCallback)(
-        (e) => {
-          k && ((x.current.mouseDown = !0), m && m(e));
-        },
-        [k, m],
-      ),
-      $ = (0, import_react.useCallback)(
-        (e) => {
-          k && ((x.current.mouseDown = !1), h && h(e));
-        },
-        [k, h],
-      ),
-      I = (0, import_react.useCallback)(
-        (e) => {
-          k && E.current && ((!w || (w && e.target !== E.current)) && E.current.focus(), g && g(e));
-        },
-        [w, k, g],
-      ),
-      N = o || defaultPlaceholders[n],
-      M = Boolean(c),
-      D = (0, import_classnames.default)(
-        InputControl_module_default.base,
-        InputControl_module_default[`base__${r}`],
-        i && InputControl_module_default[`base__${a}`],
-        w && InputControl_module_default.base__focused,
-        M && InputControl_module_default.base__withIcon,
-        d,
-      ),
-      L = (0, import_react.useMemo)(() => (c ? { backgroundImage: `url(${c})` } : null), [c]),
-      F = (0, import_classnames.default)(
-        InputControl_module_default.input,
-        InputControl_module_default[`input__${n}`],
-      ),
-      j = (0, import_classnames.default)(
-        InputControl_module_default.icon,
-        InputControl_module_default[`icon__${n}`],
-      ),
-      B = (0, import_classnames.default)(
-        InputControl_module_default.placeholder,
-        InputControl_module_default[`placeholder__${n}`],
-      );
-    return (0, import_jsx_runtime.jsxs)("div", {
-      id: e,
-      className: D,
-      onMouseEnter: T,
-      onMouseDown: R,
-      onMouseUp: $,
-      onMouseLeave: P,
-      onClick: I,
-      children: [
-        !k &&
-          (0, import_jsx_runtime.jsx)("div", { className: InputControl_module_default.disabled }),
-        L && (0, import_jsx_runtime.jsx)("div", { style: L, className: j }),
-        (0, import_jsx_runtime.jsx)("input", {
-          ref: E,
-          className: F,
-          type: inputType[n],
-          value: t,
-          onChange: C,
-          disabled: !k,
-          onFocus: O,
-          onBlur: A,
-          maxLength: u,
-        }),
-        N && !t && !w && (0, import_jsx_runtime.jsx)("div", { className: B, children: N }),
-        s &&
-          (0, import_jsx_runtime.jsx)("div", {
-            className: InputControl_module_default.clear,
-            onClick: (e) => {
-              (Sound.playClick(), v && v(e));
-            },
-            onMouseEnter: Sound.playHighlight,
-          }),
-      ],
-    });
-  },
-  InputControl = import_react.memo(ControlComponent),
-  base$6 = "Input_bb86d5c5",
-  base__small$1 = "Input_base__small_1baff0ec",
-  base__medium = "Input_base__medium_8fb9a9d9",
-  base__large$1 = "Input_base__large_ca84f140",
-  helper = "Input_helper_7ec902d2",
-  Input_module_default = {
-    base: base$6,
-    base__small: base__small$1,
-    base__medium: base__medium,
-    base__large: base__large$1,
-    helper: helper,
-  },
-  defaultOptions = {
-    debounceTime: 200,
-    performChangeValidation: !0,
-    selectOnFocus: !0,
-    withTypeIcon: !0,
-    disableHighlightOnFocus: !0,
-  },
-  Input = ({
-    componentId: e,
-    type: t = InputType.Default,
-    variant: n = InputVariant.Normal,
-    size: r = InputSize.Medium,
-    value: a,
-    tooltipArgs: o,
-    helperText: i = "",
-    isValidated: s = !0,
-    showHelper: l = !0,
-    error: u,
-    options: c,
-    onFocus: d,
-    onMouseEnter: f,
-    onMouseLeave: p,
-    onMouseUp: m,
-    onMouseDown: h,
-    onChange: g,
-    classMix: b,
-    controlClassMix: v,
-    helperClassMix: _,
-    ...y
-  }) => {
-    const [w, S] = (0, import_react.useState)(a),
-      [E, x] = (0, import_react.useState)(s),
-      k = (0, import_react.useMemo)(() => ({ ...defaultOptions, ...c }), [c]),
-      O = (0, import_react.useRef)({ debounceTimeout: 0, isChangeHandled: !0, value: a, type: t }),
-      A = (0, import_react.useCallback)((e) => {
-        e !== O.current.value && ((O.current.value = e), (O.current.isChangeHandled = !1), S(e));
-      }, []),
-      C = (0, import_react.useCallback)(
-        (e) => {
-          let t = !0;
-          (k.performChangeValidation &&
-            (t = k.changesValidator
-              ? k.changesValidator(e)
-              : performDefaultValidation(e, O.current.type)),
-            g && g(e, t));
-        },
-        [g, k],
-      ),
-      T = (0, import_react.useCallback)(() => {
-        O.current.debounceTimeout &&
-          (window.clearTimeout(O.current.debounceTimeout), (O.current.debounceTimeout = 0));
-      }, []),
-      P = (0, import_react.useCallback)(() => A(""), [A]);
-    (0, import_react.useEffect)(() => () => T(), [T]);
-    const R = (0, import_react.useCallback)(
-      (e) => {
-        (T(),
-          k.debounceTime
-            ? (O.current.debounceTimeout = window.setTimeout(() => {
-                C(e);
-              }, k.debounceTime))
-            : C(e));
-      },
-      [C, T, k.debounceTime],
-    );
-    ((0, import_react.useEffect)(() => {
-      O.current.isChangeHandled ||
-        O.current.value !== w ||
-        (R(O.current.value), (O.current.isChangeHandled = !0));
-    }, [w, R]),
-      (0, import_react.useEffect)(() => {
-        (O.current.isChangeHandled && a !== O.current.value && ((O.current.value = a), S(a)),
-          (O.current.type = t));
-      }, [a, t]),
-      (0, import_react.useEffect)(() => {
-        x(s);
-      }, [s, n]));
-    const $ = (0, import_react.useCallback)((e) => f && f(e), [f]),
-      I = (0, import_react.useCallback)(
-        (e) => {
-          (k.disableHighlightOnFocus && E && x(!1), d && d(e));
-        },
-        [E, d, k.disableHighlightOnFocus],
-      ),
-      N = (0, import_react.useCallback)((e) => m && m(e), [m]),
-      M = (0, import_react.useCallback)((e) => h && h(e), [h]),
-      D = (0, import_react.useCallback)((e) => p && p(e), [p]),
-      L = (0, import_react.useMemo)(
-        () => (k.withTypeIcon ? getDefaultIcon(t, r) : ""),
-        [t, r, k.withTypeIcon],
-      ),
-      F = i || defaultHelpers[t],
-      j = Boolean(w),
-      B = u ? InputVariant.Error : n,
-      z = Boolean(u) || E,
-      V = (0, import_react.useMemo)(
-        () => ("boolean" == typeof k.withClear ? j && k.withClear : j && t === InputType.Search),
-        [t, j, k],
-      );
-    return (0, import_jsx_runtime.jsxs)("div", {
-      id: e,
-      className: (0, import_classnames.default)(
-        Input_module_default.base,
-        Input_module_default[`base__${r}`],
-        Input_module_default[`base__${n}`],
-        b,
-      ),
-      onMouseEnter: $,
-      onMouseDown: M,
-      onMouseUp: N,
-      onMouseLeave: D,
-      children: [
-        (0, import_jsx_runtime.jsx)(DynamicTooltipWrapper, {
-          tooltipArgs: o,
-          children: (0, import_jsx_runtime.jsx)(InputControl, {
-            componentId: e ? `${e}-inputControl` : void 0,
-            iconSource: L,
-            size: r,
-            type: t,
-            variant: B,
-            value: w,
-            withClear: V,
-            highlighted: z,
-            selectOnFocus: k.selectOnFocus,
-            maxLength: k.maxLength,
-            classMix: v,
-            onFocus: I,
-            onChange: A,
-            onClear: P,
-            ...y,
-          }),
-        }),
-        F &&
-          (0, import_jsx_runtime.jsx)("div", {
-            className: Input_module_default.helper,
-            children: (0, import_jsx_runtime.jsx)(HelperMessage, {
-              variant: B,
-              show: l && (k.isPermanentHelper || z),
-              helperText: u || F,
-              helperIcon: k.helperIconSource,
-              classMix: _,
-            }),
-          }),
-      ],
-    });
-  },
-  useMount = (e) => {
-    (0, import_react.useEffect)(e, []);
-  },
-  useUnmount = (e) => {
-    (0, import_react.useEffect)(() => e, []);
-  },
-  NO_RAF_ID = 0;
-function useSkipFrame() {
-  const e = (0, import_react.useRef)(NO_RAF_ID);
-  return (
-    useUnmount(() => {
-      window.cancelAnimationFrame(e.current);
-    }),
-    (0, import_react.useMemo)(
-      () => ({
-        run: (t) => {
-          (window.cancelAnimationFrame(e.current),
-            (e.current = window.requestAnimationFrame(() => {
-              e.current = window.requestAnimationFrame(() => {
-                ((e.current = NO_RAF_ID), t());
-              });
-            })));
-        },
-        clear: () => {
-          (window.cancelAnimationFrame(e.current), (e.current = NO_RAF_ID));
-        },
-        get isRunning() {
-          return e.current !== NO_RAF_ID;
-        },
-      }),
-      [],
-    )
-  );
-}
-var makeCancelable = (e) => {
-    let t = !1;
-    return {
-      promise: new Promise((n, r) => {
-        e.then((e) => !t && n(e)).catch((e) => !t && r(e));
-      }),
-      cancel() {
-        t = !0;
-      },
-    };
-  },
-  base$5 = "Popoverdecorator_a558c74b",
-  decorator$1 = "Popoverdecorator_decorator_79bd913c",
-  arrow = "Popoverdecorator_arrow_f2e5d047",
-  arrow__bottom = "Popoverdecorator_arrow__bottom_7d41b48a",
-  arrow__top = "Popoverdecorator_arrow__top_993c5ad7",
-  arrow__left = "Popoverdecorator_arrow__left_bde08974",
-  arrow__right = "Popoverdecorator_arrow__right_585d6247",
-  closeBtn = "Popoverdecorator_closeBtn_eaee89c3",
-  content$1 = "Popoverdecorator_content_1624656c",
-  PopoverDecorator_module_default = {
-    base: base$5,
-    decorator: decorator$1,
-    arrow: arrow,
-    arrow__bottom: arrow__bottom,
-    arrow__top: arrow__top,
-    arrow__left: arrow__left,
-    arrow__right: arrow__right,
-    closeBtn: closeBtn,
-    content: content$1,
-  },
-  PopoverDirections = (function (e) {
-    return (
-      (e[(e.Left = 0)] = "Left"),
-      (e[(e.Right = 1)] = "Right"),
-      (e[(e.Top = 2)] = "Top"),
-      (e[(e.Bottom = 3)] = "Bottom"),
-      e
-    );
-  })(PopoverDirections || {}),
-  ARROW_DIR_POSTFIXES = ["__left", "__right", "__top", "__bottom"],
-  BORDER_TRANSPARENT_SIZE = 58,
-  PopoverDecorator = (
-    {
-      children: e,
-      disableAutoSizeUpdate: t,
-      onOutsideClick: n,
-      className: r,
-      customStyles: a = {},
-    },
-    o,
-  ) => {
-    const i = (0, import_react.useRef)(null),
-      s = (0, import_react.useRef)(null),
-      l = (0, import_react.useRef)(null),
-      [u, c] = (0, import_react.useState)(window.decorator && window.decorator.directionType),
-      d = (0, import_react.useCallback)(() => {
-        (Sound.playClick(), env.view.sendEvent.close());
-      }, []),
-      f = (0, import_react.useCallback)(() => {
-        Sound.playHighlight();
-      }, []),
-      p = (0, import_classnames.default)(
-        PopoverDecorator_module_default.arrow,
-        PopoverDecorator_module_default[`arrow${ARROW_DIR_POSTFIXES[u]}`],
-      );
-    useMount(
-      () => (
-        env.client.events.mouse.enableOutside(),
-        env.client.events.mouse.down(([, e]) => {
-          "outside" === e && (n ? n() : env.view.sendEvent.close("popover"));
-        })
-      ),
-    );
-    const m = (0, import_react.useCallback)(
-        (e) => {
-          let t = e.target;
-          do {
-            if (t === i.current || t === l.current) return;
-            t = t.parentNode;
-          } while (t);
-          const r = window.decorator;
-          if (void 0 !== window.decorator) {
-            const e = env.client.getMouseGlobalPosition(),
-              t = ![r.boundX, r.boundY, r.boundWidth, r.boundHeight].includes(void 0),
-              n =
-                e.x < r.boundX ||
-                e.x > r.boundX + r.boundWidth ||
-                e.y > r.boundY + r.boundHeight ||
-                e.y < r.boundY;
-            if (t && !n) return;
-          }
-          n ? n() : env.view.sendEvent.close("popover");
-        },
-        [i, l, n],
-      ),
-      h = (0, import_react.useCallback)(() => {
-        c(window.decorator.directionType);
-      }, []),
-      g = useSkipFrame(),
-      b = (0, import_react.useCallback)(() => {
-        const e = s.current;
-        if (e)
-          return (
-            env.view.freezeTextureBeforeResize(),
-            g.run(() => {
-              const t = e.scrollWidth,
-                n = e.scrollHeight;
-              (env.view.resize(t, n), h());
-            })
-          );
-      }, [g, h]);
-    return (
-      (0, import_react.useImperativeHandle)(
-        o,
-        () => ({ updateSize: b, updateDirection: h, elementRef: s }),
-        [b, h],
-      ),
-      useMount(() => {
-        env.view.setInputPaddingsRem(58);
-      }),
-      (0, import_react.useEffect)(() => {
-        document.addEventListener("mousedown", m, { capture: !0 });
-        const e = makeCancelable(onLayoutReady());
-        return (
-          !t && e.promise.then(() => b()),
-          () => {
-            (e.cancel(), document.removeEventListener("mousedown", m));
-          }
-        );
-      }, [b, m, t]),
-      (0, import_jsx_runtime.jsx)("div", {
-        className: (0, import_classnames.default)(PopoverDecorator_module_default.base, r),
-        ref: s,
-        children: (0, import_jsx_runtime.jsxs)("div", {
-          className: PopoverDecorator_module_default.decorator,
-          children: [
-            (0, import_jsx_runtime.jsxs)("div", {
-              className: PopoverDecorator_module_default.content,
-              ref: i,
-              children: [
-                e,
-                window.decorator &&
-                  window.decorator.isCloseBtnVisible &&
-                  (0, import_jsx_runtime.jsx)(SimpleTooltip, {
-                    body: R.strings.dialogs.common.error.cancel(),
-                    children: (0, import_jsx_runtime.jsx)("div", {
-                      className: PopoverDecorator_module_default.closeBtn,
-                      onClick: d,
-                      onMouseEnter: f,
-                      ref: l,
-                    }),
-                  }),
-              ],
-            }),
-            (0, import_jsx_runtime.jsx)("div", { className: p, style: a.arrow }),
-          ],
-        }),
-      })
-    );
-  },
-  PopoverDecoratorForwarded = (0, import_react.forwardRef)(PopoverDecorator),
-  Popover = ({
-    contentId: e,
-    decoratorId: t,
-    direction: n = PopoverDirections.Top,
-    targetId: r,
-    args: a,
-    onClick: o,
-    children: i,
-    isEnabled: s = !0,
-    ...l
-  }) => {
-    const u = (0, import_react.useRef)(null),
-      c = (0, import_react.useCallback)(() => {
-        if (isPopOverShown()) return sendClosePopOverEvent();
-        u.current && sendShowPopOverEvent(e, n, u.current, t, r, a);
-      }, [e, n, a, t, r]);
-    return (0, import_jsx_runtime.jsx)("div", {
-      ref: u,
-      onMouseDown:
-        ((d = i.props.onClick),
-        (e) => {
-          s && (c(), o && o(e), d && d(e));
-        }),
-      ...l,
-      children: i,
-    });
-    var d;
-  },
-  createLayoutReadyInEffect = (e) => {
-    let t,
-      n = null;
-    return (
-      (n = requestAnimationFrame(() => {
-        n = requestAnimationFrame(() => {
-          ((n = null), (t = e()));
-        });
-      })),
-      () => {
-        ("function" == typeof t && t(), null !== n && cancelAnimationFrame(n));
-      }
-    );
-  },
-  clamp = (e, t, n) => (n < e ? e : n > t ? t : n),
-  STATIC_DEPS = [];
-function useEvent(e) {
-  const t = (0, import_react.useRef)(e);
-  return (
-    (0, import_react.useLayoutEffect)(() => {
-      t.current = e;
-    }),
-    (0, import_react.useCallback)((...e) => (0, t.current)(...e), STATIC_DEPS)
-  );
-}
-function useRepeatCallback(e, t, n = []) {
-  const r = (0, import_react.useRef)(0),
-    a = (0, import_react.useCallback)(() => {
-      (window.clearInterval(r.current), (r.current = 0));
-    }, n || []);
-  return (
-    (0, import_react.useEffect)(() => a, [a]),
-    [
-      (0, import_react.useCallback)(
-        (n) => {
-          (0 !== r.current && a(), (r.current = window.setInterval(() => e(n, !0), t)), e(n, !1));
-        },
-        (n ?? []).concat([t]),
-      ),
-      a,
-    ]
-  );
-}
-var useCallbackEffect = (e, t = []) => {
-    const n = (0, import_react.useRef)(),
-      r = (0, import_react.useCallback)((...t) => {
-        (n.current && n.current(), (n.current = e(...t)));
-      }, t);
-    return (
-      (0, import_react.useEffect)(
-        () => () => {
-          n.current && n.current();
-        },
-        [r],
-      ),
-      r
-    );
-  },
-  useEmitter = () => {
-    const e = (0, import_react.useMemo)(() => ({}), []),
-      t = (t) => (e[t] || (e[t] = new Map()), e[t]),
-      n = (e, n) => {
-        t(e).set(n, n);
-      },
-      r = (e, n) => {
-        t(e).delete(n);
-      },
-      a = (e, ...n) => {
-        for (const r of t(e).values()) r(...n);
-      };
-    return (0, import_react.useMemo)(() => ({ on: n, off: r, trigger: a }), []);
-  };
-function throttle_default(e, t, n, r) {
-  let a,
-    o = !1,
-    i = 0;
-  function s() {
-    a && clearTimeout(a);
-  }
-  function l(...l) {
-    const u = this,
-      c = Date.now() - i;
-    function d() {
-      ((i = Date.now()), n.apply(u, l));
-    }
-    o ||
-      (r && !a && d(),
-      s(),
-      void 0 === r && c > e
-        ? d()
-        : !0 !== t &&
-          (a = setTimeout(
-            r
-              ? function () {
-                  a = void 0;
-                }
-              : d,
-            void 0 === r ? e - c : e,
-          )));
-  }
-  return (
-    "boolean" != typeof t && ((r = n), (n = t), (t = void 0)),
-    (l.cancel = function () {
-      (s(), (o = !0));
-    }),
-    l
-  );
-}
-function useThrottle(e, t, n) {
-  const r = (0, import_react.useMemo)(() => throttle_default(n, e), t);
-  return ((0, import_react.useEffect)(() => r.cancel, [r]), r);
-}
-var Direction = (function (e) {
-    return ((e[(e.Next = -1)] = "Next"), (e[(e.Prev = 1)] = "Prev"), e);
-  })({}),
-  defaultSettings = {
-    step: { type: "proportional", factor: 4, clampedArrowStepTimeout: 100 },
-    animationConfig: { tension: 170, friction: 26 },
-  },
-  createApiHook = ({
-    getContainerSize: e,
-    getBounds: t,
-    setScrollPosition: n,
-    getDirection: r,
-    getWrapperSize: a,
-    forceTriggerMouseMove: o,
-  }) => {
-    const i = (e, n) => {
-      const [r, a] = t(e);
-      return a <= r ? 0 : clamp(r, a, n);
-    };
-    return (s = {}) => {
-      const { settings: l = defaultSettings } = s,
-        u = (0, import_react.useRef)(null),
-        c = (0, import_react.useRef)(null),
-        d = (0, import_react.useRef)(!1),
-        f = useEmitter(),
-        p = useThrottle(
-          () => {
-            o && o();
-          },
-          [],
-          150,
-        ),
-        [m, h] = useSpring(() => ({
-          scrollPosition: 0,
-          onChange: (e) => {
-            const t = u.current;
-            t && (n(t, e), f.trigger("change", e), o && d.current && p());
-          },
-          onRest: (e) => f.trigger("rest", e),
-          onStart: (e) => f.trigger("start", e),
-          onPause: (e) => f.trigger("pause", e),
-        })),
-        g = (0, import_react.useCallback)(
-          (e, t, n) => {
-            const r = m.scrollPosition.get(),
-              a = (m.scrollPosition.goal ?? 0) - r;
-            return i(e, t * n + a + r);
-          },
-          [m.scrollPosition],
-        ),
-        b = (0, import_react.useCallback)(
-          (e, { immediate: t = !1, reset: n = !0 } = {}) => {
-            const r = u.current;
-            r &&
-              h.start({
-                scrollPosition: i(r, e),
-                immediate: t,
-                reset: n,
-                config: l.animationConfig,
-                from: { scrollPosition: i(r, m.scrollPosition.get()) },
-              });
-          },
-          [h, l.animationConfig, m.scrollPosition],
-        ),
-        v = (0, import_react.useCallback)(
-          (e) => {
-            const t = u.current,
-              n = c.current;
-            t &&
-              n &&
-              b(
-                g(
-                  t,
-                  e,
-                  ((e, t) => {
-                    switch (t.type) {
-                      case "proportional":
-                        return a(e) / t.factor;
-                      case "fixed":
-                        return t.value;
-                    }
-                  })(n, l.step),
-                ),
-              );
-          },
-          [b, g, l.step],
-        ),
-        _ = (0, import_react.useCallback)(
-          (e) => {
-            (0 !== e.deltaY && v(r(e)),
-              u.current && f.trigger("mouseWheel", e, m.scrollPosition, t(u.current)));
-          },
-          [m.scrollPosition, v, f],
-        ),
-        y = useCallbackEffect(
-          () =>
-            createLayoutReadyInEffect(() => {
-              const e = u.current;
-              e && (b(i(e, m.scrollPosition.goal), { immediate: !0 }), f.trigger("resizeHandled"));
-            }),
-          [b, m.scrollPosition.goal],
-        ),
-        w = useEvent(() => {
-          const e = u.current;
-          if (!e) return;
-          const t = i(e, m.scrollPosition.goal);
-          (t !== m.scrollPosition.goal && b(t, { immediate: !0 }), f.trigger("recalculateContent"));
-        });
-      return (
-        (0, import_react.useEffect)(
-          () => (
-            window.addEventListener("resize", y),
-            () => {
-              window.removeEventListener("resize", y);
-            }
-          ),
-          [y],
-        ),
-        (0, import_react.useEffect)(() => {
-          const e = u.current;
-          if (!e || !o) return;
-          const t = () => {
-              d.current = !0;
-            },
-            n = () => {
-              d.current = !1;
-            };
-          return (
-            e.addEventListener("mouseenter", t),
-            e.addEventListener("mouseleave", n),
-            () => {
-              (e.removeEventListener("mouseenter", t), e.removeEventListener("mouseleave", n));
-            }
-          );
-        }, [u]),
-        (0, import_react.useMemo)(
-          () => ({
-            getWrapperSize: () => (c.current ? a(c.current) : void 0),
-            getContainerSize: () => (u.current ? e(u.current) : void 0),
-            getBounds: () =>
-              u.current
-                ? t(u.current)
-                : (console.warn("getBounds: contentRef.current is null"), [0, 0]),
-            stepTimeout: l.step.clampedArrowStepTimeout,
-            clampPosition: i,
-            handleMouseWheel: _,
-            applyScroll: b,
-            applyStepTo: v,
-            contentRef: u,
-            wrapperRef: c,
-            scrollPosition: h,
-            animationScroll: m,
-            recalculateContent: w,
-            events: { on: f.on, off: f.off },
-          }),
-          [m.scrollPosition, b, v, f.off, f.on, w, _, h, l.step.clampedArrowStepTimeout],
-        )
-      );
-    };
-  },
-  DEFAULT_HORIZONTAL_API_CONTEXT = {
-    getBounds: (e) => [0, e.offsetWidth - (e.parentElement?.offsetWidth ?? 0)],
-    getContainerSize: (e) => e.offsetWidth,
-    getWrapperSize: (e) => e.offsetWidth,
-    setScrollPosition: (e, t) => {
-      e.style.transform = `translateX(-${0 | (t.value.scrollPosition ?? 0)}px)`;
-    },
-    getDirection: (e) => (e.deltaY > 1 ? Direction.Next : Direction.Prev),
-    forceTriggerMouseMove: env.view.forceTriggerMouseMove,
-  },
-  useHorizontalScrollApi = createApiHook(DEFAULT_HORIZONTAL_API_CONTEXT),
-  base$4 = "Horizontalbar_bdf22414",
-  base__active$1 = "Horizontalbar_base__active_5a3d92a0",
-  leftButton = "Horizontalbar_leftButton_ba80ec4f",
-  rightButton = "Horizontalbar_rightButton_847c1c78",
-  track$1 = "Horizontalbar_track_388b12f",
-  thumb$1 = "Horizontalbar_thumb_9d4dd30f",
-  rail$1 = "Horizontalbar_rail_b8667e3c",
-  HorizontalBar_module_default = {
-    base: base$4,
-    base__active: base__active$1,
-    leftButton: leftButton,
-    rightButton: rightButton,
-    track: track$1,
-    thumb: thumb$1,
-    rail: rail$1,
-  },
-  CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT$1 = 100,
-  DISABLE_CLASS$1 = "disable",
-  MIN_THUMB_SIZE$1 = 20,
-  MOUSE_BUTTON_LEFT$1 = 0,
-  initDraggingState$1 = { pending: !1, offset: 0 },
-  getStepByRailClickDefault$1 = (e) => 0.9 * (e.getWrapperSize() ?? 0),
-  isBoundThumb = (e, t, n) => n - (e.offsetWidth - t.offsetWidth) >= -0.5,
-  emptyFunction$1 = () => {},
-  calculateThumbSize$1 = (e, t) => Math.max(MIN_THUMB_SIZE$1, e.offsetWidth * t),
-  BarFC$1 = ({
-    api: e,
-    classNames: t = {},
-    getStepByRailClick: n = getStepByRailClickDefault$1,
-    onDrag: r = emptyFunction$1,
-  }) => {
-    const a = (0, import_react.useRef)(null),
-      o = (0, import_react.useRef)(null),
-      i = (0, import_react.useRef)(null),
-      s = (0, import_react.useRef)(null),
-      l = (0, import_react.useRef)(null),
-      u = e.stepTimeout || CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT$1,
-      [c, d] = (0, import_react.useState)(initDraggingState$1),
-      f = (0, import_react.useCallback)(
-        (e) => {
-          (d(e), l.current && r({ type: e.pending ? "dragStart" : "dragEnd", thumb: l.current }));
-        },
-        [r],
-      ),
-      p = () => {
-        const t = s.current,
-          n = l.current,
-          r = e.getWrapperSize(),
-          a = e.getContainerSize();
-        if (!(r && t && n && a)) return;
-        const u = e.animationScroll.scrollPosition.get(),
-          c = Math.min(1, r / a),
-          d = clamp(0, 1, u / (a - r)),
-          f = (t.offsetWidth - calculateThumbSize$1(t, c)) * d;
-        ((n.style.transform = `translateX(${0 | f}px)`),
-          ((e) => {
-            if (o.current && i.current && s.current && l.current) {
-              if (0 === e)
-                return (
-                  o.current.classList.add(DISABLE_CLASS$1),
-                  void i.current.classList.remove(DISABLE_CLASS$1)
-                );
-              if (isBoundThumb(s.current, l.current, e))
-                return (
-                  o.current.classList.remove(DISABLE_CLASS$1),
-                  void i.current.classList.add(DISABLE_CLASS$1)
-                );
-              (o.current.classList.remove(DISABLE_CLASS$1),
-                i.current.classList.remove(DISABLE_CLASS$1));
-            }
-          })(f));
-      },
-      m = useEvent(() => {
-        ((() => {
-          const t = l.current,
-            n = s.current,
-            r = e.getWrapperSize(),
-            o = e.getContainerSize();
-          if (!(o && t && r && n)) return;
-          const i = Math.min(1, r / o);
-          ((t.style.width = `${calculateThumbSize$1(n, i)}px`),
-            (t.style.display = "flex"),
-            a.current &&
-              (1 !== i
-                ? a.current.classList.add(HorizontalBar_module_default.base__active)
-                : a.current.classList.remove(HorizontalBar_module_default.base__active)));
-        })(),
-          p());
-      });
-    ((0, import_react.useEffect)(() => createLayoutReadyInEffect(m)),
-      (0, import_react.useEffect)(
-        () =>
-          createLayoutReadyInEffect(() => {
-            const t = () => {
-              p();
-            };
-            let n = emptyFunction$1;
-            const r = () => {
-              (n(), (n = createLayoutReadyInEffect(m)));
-            };
-            return (
-              e.events.on("recalculateContent", m),
-              e.events.on("rest", t),
-              e.events.on("change", t),
-              e.events.on("resizeHandled", r),
-              () => {
-                (n(),
-                  e.events.off("recalculateContent", m),
-                  e.events.off("rest", t),
-                  e.events.off("change", t),
-                  e.events.off("resizeHandled", r));
-              }
-            );
-          }),
-        [e],
-      ),
-      (0, import_react.useEffect)(() => {
-        if (!c.pending) return;
-        const t = env.client.events.mouse.move(([t, n]) => {
-            const a = e.contentRef.current,
-              o = e.wrapperRef.current;
-            if (!a || !o) return;
-            const i = s.current,
-              u = l.current;
-            if (!i || !u) return;
-            if ("inside" === n && t.clientX < 0) return;
-            const d = t.clientX - c.offset - i.getBoundingClientRect().x,
-              f = (d / i.offsetWidth) * (e.getContainerSize() ?? 0);
-            (e.scrollPosition.start({
-              scrollPosition: e.clampPosition(a, f),
-              reset: !0,
-              immediate: !0,
-              from: { scrollPosition: e.animationScroll.scrollPosition.get() },
-            }),
-              r({ type: "dragging", thumb: u, thumbOffset: d, contentOffset: f }));
-          }),
-          n = env.client.events.mouse.up(() => {
-            (t(), f(initDraggingState$1));
-          });
-        return () => {
-          (t(), n());
-        };
-      }, [e, c.offset, c.pending, r, f]));
-    const [h, g] = useRepeatCallback((t) => e.applyStepTo(t), u, [e]);
-    (0, import_react.useEffect)(
-      () => (
-        document.addEventListener("mouseup", g, !0),
-        () => document.removeEventListener("mouseup", g, !0)
-      ),
-      [g],
-    );
-    const b = (e) => {
-      e.target.classList.contains(DISABLE_CLASS$1) || playSound$1("highlight");
-    };
-    return (0, import_jsx_runtime.jsxs)("div", {
-      className: (0, import_classnames.default)(HorizontalBar_module_default.base, t.base),
-      ref: a,
-      onWheel: e.handleMouseWheel,
-      children: [
-        (0, import_jsx_runtime.jsx)("div", {
-          className: (0, import_classnames.default)(
-            HorizontalBar_module_default.leftButton,
-            t.leftButton,
-          ),
-          onMouseDown: (e) => {
-            e.target.classList.contains(DISABLE_CLASS$1) ||
-              e.button !== MOUSE_BUTTON_LEFT$1 ||
-              (playSound$1("play"), h(Direction.Next));
-          },
-          onMouseUp: g,
-          ref: o,
-          onMouseEnter: b,
-        }),
-        (0, import_jsx_runtime.jsxs)("div", {
-          className: (0, import_classnames.default)(HorizontalBar_module_default.track, t.track),
-          onMouseDown: (t) => {
-            const r = l.current;
-            r &&
-              t.button === MOUSE_BUTTON_LEFT$1 &&
-              (playSound$1("play"),
-              t.target === r
-                ? f({ pending: !0, offset: t.screenX - r.getBoundingClientRect().x })
-                : ((t) => {
-                    const r = l.current,
-                      a = e.contentRef.current;
-                    if (!r || !a) return;
-                    const o = n(e);
-                    e.applyScroll(e.animationScroll.scrollPosition.get() + o * t);
-                  })(t.screenX > r.getBoundingClientRect().x ? Direction.Prev : Direction.Next));
-          },
-          ref: s,
-          onMouseEnter: b,
-          children: [
-            (0, import_jsx_runtime.jsx)("div", {
-              ref: l,
-              className: (0, import_classnames.default)(
-                HorizontalBar_module_default.thumb,
-                t.thumb,
-              ),
-            }),
-            (0, import_jsx_runtime.jsx)("div", {
-              className: (0, import_classnames.default)(HorizontalBar_module_default.rail, t.rail),
-            }),
-          ],
-        }),
-        (0, import_jsx_runtime.jsx)("div", {
-          className: (0, import_classnames.default)(
-            HorizontalBar_module_default.rightButton,
-            t.rightButton,
-          ),
-          onMouseDown: (e) => {
-            e.target.classList.contains(DISABLE_CLASS$1) ||
-              e.button !== MOUSE_BUTTON_LEFT$1 ||
-              (playSound$1("play"), h(Direction.Prev));
-          },
-          onMouseUp: g,
-          ref: i,
-          onMouseEnter: b,
-        }),
-      ],
-    });
-  },
-  Bar$1 = (0, import_react.memo)(BarFC$1),
-  base$3 = "Horizontalscroll_f316f2c6",
-  wrapper = "Horizontalscroll_wrapper_a8daa0f5",
-  defaultScrollArea = "Horizontalscroll_defaultScrollArea_a99fc00c",
-  HorizontalScroll_module_default = {
-    base: base$3,
-    wrapper: wrapper,
-    defaultScrollArea: defaultScrollArea,
-  },
-  DefaultScroll$1 = ({
-    children: e,
-    api: t,
-    className: n,
-    barClassNames: r,
-    areaClassName: a,
-    classNames: o,
-    scrollClassName: i,
-    getStepByRailClick: s,
-    onDrag: l,
-  }) => {
-    const u = (0, import_react.useMemo)(() => {
-        const e = r || {};
-        return {
-          ...e,
-          base: (0, import_classnames.default)(HorizontalScroll_module_default.base, e.base),
-        };
-      }, [r]),
-      c = (0, import_react.useMemo)(() => ({ ...t, handleMouseWheel: () => {} }), [t]);
-    return (0, import_jsx_runtime.jsxs)("div", {
-      className: (0, import_classnames.default)(HorizontalScroll_module_default.defaultScroll, n),
-      onWheel: t.handleMouseWheel,
-      children: [
-        (0, import_jsx_runtime.jsx)("div", {
-          className: (0, import_classnames.default)(
-            HorizontalScroll_module_default.defaultScrollArea,
-            a,
-          ),
-          children: (0, import_jsx_runtime.jsx)(Area$1, {
-            className: i,
-            api: c,
-            classNames: o,
-            children: e,
-          }),
-        }),
-        (0, import_jsx_runtime.jsx)(Bar$1, {
-          getStepByRailClick: s,
-          api: t,
-          onDrag: l,
-          classNames: u,
-        }),
-      ],
-    });
-  },
-  HorizontalScroll_exports = __exportAll({
-    Area: () => Area$1,
-    Bar: () => Bar$1,
-    DefaultScroll: () => DefaultScroll$1,
-    Direction: () => Direction,
-    defaultSettings: () => defaultSettings,
-    useHorizontalScrollApi: () => useHorizontalScrollApi,
-  }),
-  Area$1 = ({ api: e, className: t, classNames: n, children: r }) => (
-    (0, import_react.useEffect)(() => createLayoutReadyInEffect(e.recalculateContent)),
-    (0, import_jsx_runtime.jsx)("div", {
-      className: (0, import_classnames.default)(HorizontalScroll_module_default.base, t),
-      children: (0, import_jsx_runtime.jsx)("div", {
-        className: (0, import_classnames.default)(
-          HorizontalScroll_module_default.wrapper,
-          n?.wrapper,
-        ),
-        onWheel: e.handleMouseWheel,
-        ref: e.wrapperRef,
-        children: (0, import_jsx_runtime.jsx)("div", {
-          className: (0, import_classnames.default)(
-            HorizontalScroll_module_default.content,
-            n?.content,
-          ),
-          ref: e.contentRef,
-          children: r,
-        }),
-      }),
-    })
-  );
-((Area$1.Bar = Bar$1), (Area$1.Default = DefaultScroll$1));
-var DEFAULT_VERTICAL_API_CONTEXT = {
-    getBounds: (e) => [0, e.scrollHeight - e.offsetHeight],
-    getContainerSize: (e) => e.scrollHeight,
-    getWrapperSize: (e) => e.offsetHeight,
-    setScrollPosition: (e, t) => {
-      e.scrollTop = t.value.scrollPosition;
-    },
-    getDirection: (e) => (e.deltaY > 1 ? Direction.Next : Direction.Prev),
-  },
-  useVerticalScrollApi = createApiHook(DEFAULT_VERTICAL_API_CONTEXT),
-  base$2 = "Verticalbar_89dc020b",
-  base__active = "Verticalbar_base__active_1e0d5e44",
-  topButton = "Verticalbar_topButton_1ce852b9",
-  bottomButton = "Verticalbar_bottomButton_bc76d779",
-  track = "Verticalbar_track_7532d39a",
-  thumb = "Verticalbar_thumb_264988ce",
-  rail = "Verticalbar_rail_85a58f07",
-  VerticalBar_module_default = {
-    base: base$2,
-    base__active: base__active,
-    topButton: topButton,
-    bottomButton: bottomButton,
-    track: track,
-    thumb: thumb,
-    rail: rail,
-  },
-  CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT = 100,
-  DISABLE_CLASS = "disable",
-  MIN_THUMB_SIZE = 20,
-  MOUSE_BUTTON_LEFT = 0,
-  emptyFunction = () => {},
-  initDraggingState = { pending: !1, offset: 0 },
-  getStepByRailClickDefault = (e) => 0.9 * (e.getWrapperSize() ?? 0),
-  isBottomBoundThumb = (e, t, n) => n - (e.offsetHeight - t.offsetHeight) >= -0.5,
-  handleContainer = (e, t) => {
-    e.contentRef.current && t(e.contentRef.current);
-  },
-  calculateThumbSize = (e, t) => Math.max(MIN_THUMB_SIZE, e.offsetHeight * t),
-  BarFC = ({
-    api: e,
-    classNames: t = {},
-    getStepByRailClick: n = getStepByRailClickDefault,
-    onDrag: r = emptyFunction,
-  }) => {
-    const a = (0, import_react.useRef)(null),
-      o = (0, import_react.useRef)(null),
-      i = (0, import_react.useRef)(null),
-      s = (0, import_react.useRef)(null),
-      l = (0, import_react.useRef)(null),
-      u = e.stepTimeout || CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT,
-      [c, d] = (0, import_react.useState)(initDraggingState),
-      f = (0, import_react.useCallback)(
-        (e) => {
-          (d(e), l.current && r({ type: e.pending ? "dragStart" : "dragEnd", thumb: l.current }));
-        },
-        [r],
-      ),
-      p = useEvent(() => {
-        const t = l.current,
-          n = s.current,
-          r = e.getWrapperSize(),
-          o = e.getContainerSize();
-        if (!(r && o && t && n)) return;
-        const i = Math.min(1, r / o);
-        return (
-          (t.style.height = `${calculateThumbSize(n, i)}px`),
-          (t.style.display = "flex"),
-          a.current &&
-            (1 !== i
-              ? a.current.classList.add(VerticalBar_module_default.base__active)
-              : a.current.classList.remove(VerticalBar_module_default.base__active)),
-          i
-        );
-      }),
-      m = useEvent(() => {
-        const t = s.current,
-          n = l.current,
-          r = e.getWrapperSize(),
-          a = e.getContainerSize();
-        if (!(r && t && n && a)) return;
-        const u = e.animationScroll.scrollPosition.get(),
-          c = Math.min(1, r / a),
-          d = clamp(0, 1, u / (a - r)),
-          f = (t.offsetHeight - calculateThumbSize(t, c)) * d;
-        ((n.style.transform = `translateY(${0 | f}px)`),
-          ((e) => {
-            if (o.current && i.current && s.current && l.current) {
-              if (0 === Math.round(e))
-                return (
-                  o.current.classList.add(DISABLE_CLASS),
-                  void i.current.classList.remove(DISABLE_CLASS)
-                );
-              if (isBottomBoundThumb(s.current, l.current, e))
-                return (
-                  o.current.classList.remove(DISABLE_CLASS),
-                  void i.current.classList.add(DISABLE_CLASS)
-                );
-              (o.current.classList.remove(DISABLE_CLASS),
-                i.current.classList.remove(DISABLE_CLASS));
-            }
-          })(f));
-      }),
-      h = useEvent(() => {
-        handleContainer(e, () => {
-          (p(), m());
-        });
-      });
-    ((0, import_react.useEffect)(() => createLayoutReadyInEffect(h)),
-      (0, import_react.useEffect)(() => {
-        const t = () => {
-          handleContainer(e, () => {
-            m();
-          });
-        };
-        let n = emptyFunction;
-        const r = () => {
-          (n(), (n = createLayoutReadyInEffect(h)));
-        };
-        return (
-          e.events.on("recalculateContent", h),
-          e.events.on("rest", t),
-          e.events.on("change", t),
-          e.events.on("resizeHandled", r),
-          () => {
-            (n(),
-              e.events.off("recalculateContent", h),
-              e.events.off("rest", t),
-              e.events.off("change", t),
-              e.events.off("resizeHandled", r));
-          }
-        );
-      }, [e]),
-      (0, import_react.useEffect)(() => {
-        if (!c.pending) return;
-        const t = env.client.events.mouse.up(() => {
-            f(initDraggingState);
-          }),
-          n = env.client.events.mouse.move(([t]) => {
-            handleContainer(e, (n) => {
-              const a = s.current,
-                o = l.current,
-                i = e.getContainerSize();
-              if (!a || !o || !i) return;
-              const u = t.screenY - c.offset - a.getBoundingClientRect().y,
-                d = (u / a.offsetHeight) * i;
-              (e.scrollPosition.start({
-                scrollPosition: e.clampPosition(n, d),
-                reset: !0,
-                immediate: !0,
-                from: { scrollPosition: n.scrollTop },
-              }),
-                r({ type: "dragging", thumb: o, thumbOffset: u, contentOffset: d }));
-            });
-          });
-        return () => {
-          (t(), n());
-        };
-      }, [e, c.offset, c.pending, r, f]));
-    const [g, b] = useRepeatCallback((t) => e.applyStepTo(t), u, [e]);
-    (0, import_react.useEffect)(
-      () => (
-        document.addEventListener("mouseup", b, !0),
-        () => document.removeEventListener("mouseup", b, !0)
-      ),
-      [b],
-    );
-    const v = (e) => {
-      e.target.classList.contains(DISABLE_CLASS) || playSound$1("highlight");
-    };
-    return (0, import_jsx_runtime.jsxs)("div", {
-      className: (0, import_classnames.default)(VerticalBar_module_default.base, t.base),
-      ref: a,
-      onWheel: e.handleMouseWheel,
-      children: [
-        (0, import_jsx_runtime.jsx)("div", {
-          className: (0, import_classnames.default)(
-            VerticalBar_module_default.topButton,
-            t.topButton,
-          ),
-          onMouseDown: (e) => {
-            e.target.classList.contains(DISABLE_CLASS) ||
-              e.button !== MOUSE_BUTTON_LEFT ||
-              (playSound$1("play"), g(Direction.Next));
-          },
-          ref: o,
-          onMouseEnter: v,
-        }),
-        (0, import_jsx_runtime.jsxs)("div", {
-          className: (0, import_classnames.default)(VerticalBar_module_default.track, t.track),
-          onMouseDown: (t) => {
-            const r = l.current;
-            var a;
-            r &&
-              t.button === MOUSE_BUTTON_LEFT &&
-              (playSound$1("play"),
-              t.target === r
-                ? f({ pending: !0, offset: t.screenY - r.getBoundingClientRect().y })
-                : ((a = t.screenY > r.getBoundingClientRect().y ? Direction.Prev : Direction.Next),
-                  l.current &&
-                    handleContainer(e, (t) => {
-                      if (!t) return;
-                      const r = n(e),
-                        o = e.clampPosition(t, t.scrollTop + r * a);
-                      e.applyScroll(o);
-                    })));
-          },
-          ref: s,
-          onMouseEnter: v,
-          children: [
-            (0, import_jsx_runtime.jsx)("div", {
-              ref: l,
-              className: (0, import_classnames.default)(VerticalBar_module_default.thumb, t.thumb),
-            }),
-            (0, import_jsx_runtime.jsx)("div", {
-              className: (0, import_classnames.default)(VerticalBar_module_default.rail, t.rail),
-            }),
-          ],
-        }),
-        (0, import_jsx_runtime.jsx)("div", {
-          className: (0, import_classnames.default)(
-            VerticalBar_module_default.bottomButton,
-            t.bottomButton,
-          ),
-          onMouseDown: (e) => {
-            e.target.classList.contains(DISABLE_CLASS) ||
-              e.button !== MOUSE_BUTTON_LEFT ||
-              (playSound$1("play"), g(Direction.Prev));
-          },
-          onMouseUp: b,
-          ref: i,
-          onMouseEnter: v,
-        }),
-      ],
-    });
-  },
-  Bar = (0, import_react.memo)(BarFC),
-  content = "Verticalscroll_content_848080fa",
-  defaultScroll = "Verticalscroll_defaultScroll_5f9d259",
-  bar = "Verticalscroll_bar_c24e9ca8",
-  area = "Verticalscroll_area_39a5f7ae",
-  VerticalScroll_module_default = {
-    content: content,
-    defaultScroll: defaultScroll,
-    bar: bar,
-    area: area,
-  },
-  DefaultScroll = ({
-    children: e,
-    api: t,
-    className: n,
-    barClassNames: r,
-    areaClassName: a,
-    scrollClassName: o,
-    scrollClassNames: i,
-    getStepByRailClick: s,
-    onDrag: l,
-  }) => {
-    const u = (0, import_react.useMemo)(() => {
-        const e = r || {};
-        return {
-          ...e,
-          base: (0, import_classnames.default)(VerticalScroll_module_default.base, e.base),
-        };
-      }, [r]),
-      c = (0, import_react.useMemo)(() => ({ ...t, handleMouseWheel: () => {} }), [t]);
-    return (0, import_jsx_runtime.jsxs)("div", {
-      className: (0, import_classnames.default)(VerticalScroll_module_default.defaultScroll, n),
-      onWheel: t.handleMouseWheel,
-      children: [
-        (0, import_jsx_runtime.jsx)("div", {
-          className: (0, import_classnames.default)(VerticalScroll_module_default.area, a),
-          children: (0, import_jsx_runtime.jsx)(Area, {
-            className: o,
-            classNames: i,
-            api: c,
-            children: e,
-          }),
-        }),
-        (0, import_jsx_runtime.jsx)(Bar, {
-          getStepByRailClick: s,
-          api: t,
-          onDrag: l,
-          classNames: u,
-        }),
-      ],
-    });
-  },
-  VerticalScroll_exports = __exportAll({
-    Area: () => Area,
-    Bar: () => Bar,
-    Default: () => DefaultScroll,
-    useVerticalScrollApi: () => useVerticalScrollApi,
-  }),
-  Area = ({ className: e, classNames: t, children: n, api: r }) => (
-    (0, import_react.useEffect)(() => createLayoutReadyInEffect(r.recalculateContent)),
-    (0, import_jsx_runtime.jsx)("div", {
-      className: (0, import_classnames.default)(VerticalScroll_module_default.base, e),
-      ref: r.wrapperRef,
-      onWheel: r.handleMouseWheel,
-      children: (0, import_jsx_runtime.jsx)("div", {
-        className: (0, import_classnames.default)(
-          VerticalScroll_module_default.content,
-          t?.content,
-        ),
-        ref: r.contentRef,
-        children: n,
-      }),
-    })
-  );
-Area.Default = DefaultScroll;
-var Scroll = { Vertical: VerticalScroll_exports, Horizontal: HorizontalScroll_exports },
-  CurrencySize = (function (e) {
-    return (
-      (e.small = "small"),
-      (e.big = "big"),
-      (e.large = "large"),
-      (e.extraLarge = "extraLarge"),
-      e
-    );
-  })({}),
-  CurrencyType = (function (e) {
-    return (
-      (e.credits = "credits"),
-      (e.gold = "gold"),
-      (e.crystal = "crystal"),
-      (e.xp = "xp"),
-      (e.freeXP = "freeXP"),
-      (e.eliteXP = "eliteXP"),
-      (e.equipCoin = "equipCoin"),
-      e
-    );
-  })({}),
-  StockBackgroundName = (function (e) {
-    return ((e.Red = "RedActionBG"), (e.Blue = "BlueActionBG"), e);
-  })({}),
-  base$1 = "Currency_37b937ed",
-  icon = "Currency_icon_7e0ceeb1",
-  base__small = "Currency_base__small_3c6cfaf0",
-  base__big = "Currency_base__big_3c6cfaf0",
-  base__large = "Currency_base__large_3c6cfaf0",
-  base__extraLarge = "Currency_base__extraLarge_3c6cfaf0",
-  value = "Currency_value_cb375db",
-  value__freeXP = "Currency_value__freeXP_e27417ca",
-  value__credits = "Currency_value__credits_f58d71c4",
-  value__gold = "Currency_value__gold_b88421af",
-  value__xp = "Currency_value__xp_3c6cfaf0",
-  value__crystal = "Currency_value__crystal_3c6cfaf0",
-  value__equipCoin = "Currency_value__equipCoin_3c6cfaf0",
-  value__eliteXP = "Currency_value__eliteXP_f38577b9",
-  value__notEnough = "Currency_value__notEnough_1800dd2b",
-  stock = "Currency_stock_e14e627",
-  stock__indent = "Currency_stock__indent_cbef6f7b",
-  stock__interactive = "Currency_stock__interactive_ff7f7510",
-  stockBackground = "Currency_stockBackground_aab4a285",
-  Currency_module_default = {
-    base: base$1,
-    icon: icon,
-    base__small: base__small,
-    base__big: base__big,
-    base__large: base__large,
-    base__extraLarge: base__extraLarge,
-    "icon__credits-small": "Currency_icon__credits-small_76c23d6f",
-    "icon__credits-big": "Currency_icon__credits-big_bc8e9cb0",
-    "icon__credits-large": "Currency_icon__credits-large_dc13c524",
-    "icon__credits-extraLarge": "Currency_icon__credits-extraLarge_ea333640",
-    "icon__gold-small": "Currency_icon__gold-small_ab0eb1b2",
-    "icon__gold-big": "Currency_icon__gold-big_67832e62",
-    "icon__gold-large": "Currency_icon__gold-large_fff11d66",
-    "icon__gold-extraLarge": "Currency_icon__gold-extraLarge_ea93cc68",
-    "icon__crystal-small": "Currency_icon__crystal-small_b3d78291",
-    "icon__crystal-big": "Currency_icon__crystal-big_c8ee3685",
-    "icon__crystal-large": "Currency_icon__crystal-large_fcaa61ed",
-    "icon__crystal-extraLarge": "Currency_icon__crystal-extraLarge_c177fcd7",
-    "icon__xp-small": "Currency_icon__xp-small_240d5c95",
-    "icon__xp-big": "Currency_icon__xp-big_a031c8d",
-    "icon__xp-large": "Currency_icon__xp-large_3e73c700",
-    "icon__xp-extraLarge": "Currency_icon__xp-extraLarge_1b022c5",
-    "icon__freeXP-small": "Currency_icon__freeXP-small_5d068d1f",
-    "icon__freeXP-big": "Currency_icon__freeXP-big_a1963736",
-    "icon__freeXP-large": "Currency_icon__freeXP-large_c26792c",
-    "icon__freeXP-extraLarge": "Currency_icon__freeXP-extraLarge_86c9b0dd",
-    "icon__eliteXP-small": "Currency_icon__eliteXP-small_4d5ce7c2",
-    "icon__eliteXP-big": "Currency_icon__eliteXP-big_ad799c",
-    "icon__eliteXP-large": "Currency_icon__eliteXP-large_3c9a1938",
-    "icon__eliteXP-extraLarge": "Currency_icon__eliteXP-extraLarge_262c07e7",
-    "icon__equipCoin-small": "Currency_icon__equipCoin-small_5fbf8e4a",
-    "icon__equipCoin-big": "Currency_icon__equipCoin-big_d34f9d8d",
-    "icon__equipCoin-large": "Currency_icon__equipCoin-large_c3d88627",
-    "icon__equipCoin-extraLarge": "Currency_icon__equipCoin-extraLarge_902046dc",
-    value: value,
-    value__freeXP: value__freeXP,
-    value__credits: value__credits,
-    value__gold: value__gold,
-    value__xp: value__xp,
-    value__crystal: value__crystal,
-    value__equipCoin: value__equipCoin,
-    value__eliteXP: value__eliteXP,
-    value__notEnough: value__notEnough,
-    stock: stock,
-    stock__indent: stock__indent,
-    stock__interactive: stock__interactive,
-    stockBackground: stockBackground,
-  },
-  CurrencyComponent = ({
-    isDiscount: e,
-    isInteractiveDiscount: t,
-    size: n,
-    type: r,
-    value: a,
-    discountValue: o,
-    showPlus: i,
-    isEnough: s = !0,
-    stockBackgroundName: l = StockBackgroundName.Red,
-    className: u,
-    classNames: c,
-  }) =>
-    (0, import_jsx_runtime.jsxs)("span", {
-      className: (0, import_classnames.default)(
-        Currency_module_default.base,
-        Currency_module_default[`base__${n}`],
-        u,
-      ),
-      children: [
-        (0, import_jsx_runtime.jsxs)("span", {
-          className: (0, import_classnames.default)(
-            Currency_module_default.value,
-            Currency_module_default[`value__${r}`],
-            !s && Currency_module_default.value__notEnough,
-            c?.value,
-          ),
-          children: [
-            i && a > 0 && "+",
-            (0, import_jsx_runtime.jsx)(FormatNumber, {
-              value: a,
-              format: r === CurrencyType.gold ? "gold" : "integral",
-            }),
-          ],
-        }),
-        (0, import_jsx_runtime.jsx)("span", {
-          className: (0, import_classnames.default)(
-            Currency_module_default.icon,
-            Currency_module_default[`icon__${r}-${n}`],
-            c?.icon,
-          ),
-        }),
-        e &&
-          (0, import_jsx_runtime.jsxs)("span", {
-            className: (0, import_classnames.default)(
-              Currency_module_default.stock,
-              o && Currency_module_default.stock__indent,
-              t && Currency_module_default.stock__interactive,
-              c?.stock,
-            ),
-            children: [
-              (0, import_jsx_runtime.jsx)("span", {
-                className: Currency_module_default.stockBackground,
-                style: { backgroundImage: `url(R.images.gui.maps.icons.library.${l})` },
-              }),
-              Boolean(o) && o,
-            ],
-          }),
-      ],
-    }),
-  Currency = (0, import_react.memo)(CurrencyComponent),
-  base = "Tooltipdecorator_ea72f443",
+var base = "Tooltipdecorator_ea72f443",
   decorator = "Tooltipdecorator_decorator_3580e101",
   TooltipDecorator_module_default = {
     base: base,
@@ -30076,11 +30076,11 @@ var Scroll = { Vertical: VerticalScroll_exports, Horizontal: HorizontalScroll_ex
   });
 export {
   breakpoints as $,
-  getRewardValueType as A,
+  Tooltip as A,
   UIProvider as B,
-  DynamicTooltipWrapper as C,
-  getOverlay as D,
-  getFormattedValue as E,
+  Popover as C,
+  InputType as D,
+  Input as E,
   CButton_module_default as F,
   animated as G,
   computedFn as H,
@@ -30088,62 +30088,62 @@ export {
   useCloseOnEsc as J,
   useSpring as K,
   ButtonType as L,
-  ImageSize as M,
+  FormatText as M,
   TextButton as N,
-  getRewardImage as O,
+  DynamicTooltipWrapper as O,
   CButton as P,
   MediaSize as Q,
   require_classnames as R,
-  FormatText as S,
-  Tooltip as T,
+  useVerticalScrollApi as S,
+  PopoverDirections as T,
   initializeModelWithContext as U,
   runView as V,
   useSkipFrame$1 as W,
   useMedia as X,
   useAdaptive as Y,
   require_jsx_runtime as Z,
-  useLoadPlugin as _,
+  getRewardTooltipConfig as _,
   resources as _t,
-  StockBackgroundName as a,
+  isReactComponent as a,
   reaction as at,
-  Reward as b,
-  Popover as c,
+  ImageSize as b,
+  injectGFPlugins as c,
   get$1 as ct,
-  Input as d,
+  CurrencySize as d,
   identity as dt,
   breakpointsByType as et,
-  InputType as f,
+  CurrencyType as f,
   noop$2 as ft,
-  isReactComponent as g,
+  getRewardImage as g,
   require_react as gt,
-  sizes$1 as h,
+  getOverlay as h,
   normalizeResource as ht,
-  CurrencyType as i,
+  sizes$1 as i,
   observable$1 as it,
-  BonusNames as j,
-  getRewardTooltipConfig as k,
-  PopoverDecoratorForwarded as l,
+  FormatString as j,
+  SimpleTooltip as k,
+  Reward as l,
   map as lt,
-  Button as m,
+  getFormattedValue as m,
   playSound$2 as mt,
-  Currency as n,
+  CloseButton as n,
   createLayoutReadyInEffect$1 as nt,
-  Scroll as o,
+  useLoadPlugin as o,
   filter as ot,
-  CloseButton as p,
+  StockBackgroundName as p,
   pxToRem$1 as pt,
   useCallbackOnEsc as q,
-  CurrencySize as r,
+  Button as r,
   action as rt,
-  useVerticalScrollApi as s,
+  Image$1 as s,
   findIndex$1 as st,
   TooltipDecorator as t,
   toRoman as tt,
-  PopoverDirections as u,
+  Currency as u,
   constFalse as ut,
-  Image$1 as v,
-  SimpleTooltip as w,
-  FormatString as x,
-  injectGFPlugins as y,
+  getRewardValueType as v,
+  PopoverDecoratorForwarded as w,
+  Scroll as x,
+  BonusNames as y,
   observer as z,
 };

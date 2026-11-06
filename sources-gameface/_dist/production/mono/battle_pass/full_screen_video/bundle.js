@@ -3,12 +3,12 @@ import {
   Fn as s,
   On as o,
   Wn as n,
-  Yn as a,
-  Zr as r,
-  _n as l,
-  fi as t,
-  fn as i,
-  li as c,
+  Xr as a,
+  Yn as r,
+  _n as t,
+  ci as l,
+  di as i,
+  fn as c,
   nn as d,
   or as u,
   pn as m,
@@ -17,21 +17,21 @@ import {
 import "../chunks/global.js";
 import { h as f } from "../chunks/vendor.js";
 import { d as h } from "../chunks/utils.js";
-var j = e(c(), 1),
-  [b, v] = l()(
+var j = e(l(), 1),
+  [b, v] = t()(
     ({ observableModel: e }) => ({ root: e.object() }),
     ({ externalModel: e }) => ({ close: e.createCallbackNoArgs("onClose") }),
   ),
   g = "App_fab90a23",
   k = "App_video_826e570a",
-  y = a(),
+  y = r(),
   N = f(() => {
-    const { model: e, controls: a } = v(),
-      { videoName: l, audioName: i, isWindowAccessible: c } = e.root.get(),
+    const { model: e, controls: r } = v(),
+      { videoName: t, audioName: l, isWindowAccessible: c } = e.root.get(),
       { width: m, height: p } = n(),
       f = o(),
       b = (0, j.useRef)(null),
-      N = t.resolve("videos").readOrEmpty(l);
+      N = i.resolve("videos").readOrEmpty(t);
     return (
       (0, j.useEffect)(() => {
         const e = b.current;
@@ -40,30 +40,30 @@ var j = e(c(), 1),
             ? Boolean(e.getCurrentTime())
               ? e.play()
               : u(() => {
-                  (e.play(), r.sound(i));
+                  (e.play(), a.sound(l));
                 }, 300)
             : e.pause();
-      }, [b, c, i]),
+      }, [b, c, l]),
       (0, j.useEffect)(() => {
         const e = b.current;
         engine.on("clientMinimized", (s) => {
           e && (s ? e.pause() : e.play());
         });
       }, [b]),
-      s(a.close),
+      s(r.close),
       (0, y.jsx)("div", {
         className: g,
         children: (0, y.jsx)(d, {
           className: k,
           src: N,
-          onEnded: a.close,
+          onEnded: r.close,
           ref: b,
-          style: h(m, p, f, l),
+          style: h(m, p, f, t),
         }),
       })
     );
   });
-i(
+c(
   new m()
     .add(p)
     .addWithProps(b, {})

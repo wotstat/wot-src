@@ -1,26 +1,26 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Hr as e,
+  Vr as e,
   Yn as t,
   _n as a,
-  fn as n,
-  gn as o,
-  li as c,
-  n as l,
-  pn as i,
-  si as r,
+  ci as n,
+  fn as o,
+  gn as c,
+  n as i,
+  oi as l,
+  pn as r,
   tn as d,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as m } from "../../chunks/vendor.js";
 import { t as _ } from "../../chunks/icon_text_block.js";
-c();
+n();
 var x = (function (s) {
     return ((s.COMMON = "common"), (s.EXTRA = "extra"), (s.HOLIDAY = "holiday"), s);
   })({}),
   [p, u] = a()(({ observableModel: s }) => {
     const e = { root: s.object() },
-      t = o(() => e.root.get().chapterType === x.HOLIDAY);
+      t = c(() => e.root.get().chapterType === x.HOLIDAY);
     return { ...e, computes: { isHoliday: t } };
   }, e),
   j = "Message_3327d7a0",
@@ -48,7 +48,7 @@ var x = (function (s) {
   M = "CustomContent_check_67de302c",
   T = "CustomContent_text_edf6432",
   y = R.strings.battle_pass.tooltips,
-  H = m(() => {
+  O = m(() => {
     const { model: s } = u(),
       { isBattlePassPurchased: e } = s.root.get();
     return (0, C.jsxs)(C.Fragment, {
@@ -81,9 +81,9 @@ var x = (function (s) {
       ],
     });
   }),
-  O = "Content_d9cfcd3f",
-  A = "Content_base__noDescription_b474774a",
-  D = "Content_title_22d0441e",
+  A = "Content_d9cfcd3f",
+  D = "Content_base__noDescription_b474774a",
+  H = "Content_title_22d0441e",
   W = "Content_subTitle_7bb4259d",
   B = "Content_tank_dcd7ba89",
   I = "Content_footer_e0404414",
@@ -92,21 +92,21 @@ var x = (function (s) {
   L = "Content_info_a37d477a",
   E = "Content_unlock_8083471",
   S = R.strings.battle_pass.tooltips,
-  X = m(() => {
+  V = m(() => {
     const { model: s } = u(),
       { isBattlePassPurchased: e, notChosenRewardCount: t, isAvailableTankmen: a } = s.root.get(),
       n = t > 0,
       o = s.computes.isHoliday();
     return (0, C.jsxs)("div", {
-      className: r(O, e && !n && !a && A),
+      className: l(A, e && !n && !a && D),
       children: [
-        (0, C.jsx)("div", { className: D, children: S.completed.title() }),
+        (0, C.jsx)("div", { className: H, children: S.completed.title() }),
         (0, C.jsx)("div", {
           className: W,
           children: o ? S.completed.oneChapterSubTitle() : S.completed.subTitle(),
         }),
         o
-          ? (0, C.jsx)(H, {})
+          ? (0, C.jsx)(O, {})
           : (0, C.jsxs)(C.Fragment, {
               children: [
                 (0, C.jsx)("div", { className: B }),
@@ -141,17 +141,17 @@ var x = (function (s) {
               (0, C.jsx)(_, {
                 icon: R.images.gui.maps.icons.battlePass.icons.tankmen_small(),
                 text: S.completed.tankmenNotRecieved(),
-                className: r(E),
+                className: l(E),
               }),
           ],
         }),
       ],
     });
   }),
-  $ = () => (0, C.jsx)(l, { children: (0, C.jsx)(l.Decorator, { children: (0, C.jsx)(X, {}) }) });
-n(
-  new i()
+  X = () => (0, C.jsx)(i, { children: (0, C.jsx)(i.Decorator, { children: (0, C.jsx)(V, {}) }) });
+o(
+  new r()
     .add(d)
     .addWithProps(p, {})
-    .render((0, C.jsx)($, {})),
+    .render((0, C.jsx)(X, {})),
 );

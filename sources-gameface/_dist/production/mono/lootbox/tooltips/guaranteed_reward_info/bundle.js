@@ -6,8 +6,8 @@ import {
   R as s,
   V as n,
   ft as i,
-  h as c,
-  jt as a,
+  jt as c,
+  p as a,
   s as u,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
@@ -28,7 +28,7 @@ var l = {
     const r = { root: t.object() },
       s = o(() => d(l, r.root.get().eventName), { equals: e });
     return { ...r, computes: { resources: s } };
-  }, a),
+  }, c),
   m = "App_f074c91d",
   g = "App_highlight_a9335078",
   x = "App_text_2f55a205",
@@ -53,13 +53,13 @@ var f = r(function () {
   return (0, j.jsxs)("div", {
     className: m,
     children: [
-      (0, j.jsx)(c, {
+      (0, j.jsx)(a, {
         text: e.description0,
         binding: {
-          count: (0, j.jsx)(c, {
+          count: (0, j.jsx)(a, {
             classMix: g,
             text: e.count,
-            binding: { count: (0, j.jsx)(c, { text: r, binding: { count: o } }) },
+            binding: { count: (0, j.jsx)(a, { text: r, binding: { count: o } }) },
           }),
           item: (0, j.jsx)("div", { className: g, children: e.item }),
         },
