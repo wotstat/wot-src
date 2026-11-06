@@ -15,7 +15,7 @@ import {
   it as u,
   m as g,
   nt as p,
-  t as b,
+  r as b,
   w as f,
 } from "../chunks/lib.js";
 import "../chunks/_wg-global-styles.js";

@@ -1,14 +1,14 @@
 import { r as e, t } from "./rolldown-runtime.js";
-import { ci as n, fr as r, li as s, lr as i, mr as a, pr as o } from "./lib.js";
-var u = e(s());
+import { ci as n, fr as r, lr as s, mr as i, pr as a, si as o } from "./lib.js";
+var u = e(n());
 if (!u.useState) throw new Error("mobx-react-lite requires React with Hooks support");
-if (!a) throw new Error("mobx-react-lite@3 requires mobx at least version 6 to be available");
-var l = e(n());
+if (!i) throw new Error("mobx-react-lite@3 requires mobx at least version 6 to be available");
+var l = e(o());
 function c(e) {
   e();
 }
 function p(e) {
-  return o(e);
+  return a(e);
 }
 var f,
   d,
@@ -88,14 +88,14 @@ var f,
     (null === (t = e.reaction) || void 0 === t || t.dispose(), (e.reaction = null));
   }),
   v = t((e) => {
-    var t = s();
-    var n =
+    var t = n();
+    var r =
         "function" == typeof Object.is
           ? Object.is
           : function (e, t) {
               return (e === t && (0 !== e || 1 / e == 1 / t)) || (e != e && t != t);
             },
-      r = t.useState,
+      s = t.useState,
       i = t.useEffect,
       a = t.useLayoutEffect,
       o = t.useDebugValue;
@@ -103,8 +103,8 @@ var f,
       var t = e.getSnapshot;
       e = e.value;
       try {
-        var r = t();
-        return !n(e, r);
+        var n = t();
+        return !r(e, n);
       } catch (s) {
         return !0;
       }
@@ -118,9 +118,9 @@ var f,
           }
         : function (e, t) {
             var n = t(),
-              s = r({ inst: { value: n, getSnapshot: t } }),
-              l = s[0].inst,
-              c = s[1];
+              r = s({ inst: { value: n, getSnapshot: t } }),
+              l = r[0].inst,
+              c = r[1];
             return (
               a(
                 function () {
@@ -149,7 +149,7 @@ var f,
     t.exports = v();
   })();
 function b(e) {
-  e.reaction = new i("observer".concat(e.name), function () {
+  e.reaction = new s("observer".concat(e.name), function () {
     var t;
     ((e.stateVersion = Symbol()), null === (t = e.onStoreChange) || void 0 === t || t.call(e));
   });

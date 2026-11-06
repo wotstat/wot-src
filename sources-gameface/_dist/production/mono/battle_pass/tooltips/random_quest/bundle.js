@@ -3,17 +3,17 @@ import {
   Yn as e,
   _n as t,
   bt as a,
-  fn as i,
-  li as n,
+  ci as i,
+  fn as n,
   n as r,
-  pn as d,
-  si as c,
+  oi as d,
+  pn as c,
   t as o,
   tn as l,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as x } from "../../chunks/vendor.js";
-var m = s(n(), 1),
+var m = s(i(), 1),
   [j, _] = t()(
     ({ observableModel: s }) => ({ root: s.object() }),
     () => ({}),
@@ -25,7 +25,7 @@ var m = s(n(), 1),
   u = ({ children: s, className: e }) => {
     const t = m.Children.toArray(s);
     return (0, b.jsx)("div", {
-      className: c(h, e),
+      className: d(h, e),
       children: t.map((s, e) =>
         (0, b.jsxs)("div", { className: p, children: [(0, b.jsx)("div", { className: v }), s] }, e),
       ),
@@ -76,8 +76,8 @@ var m = s(n(), 1),
     });
   }),
   L = () => (0, b.jsx)(r, { children: (0, b.jsx)(r.Decorator, { children: (0, b.jsx)(D, {}) }) });
-i(
-  new d()
+n(
+  new c()
     .add(l)
     .addWithProps(j, {})
     .render((0, b.jsx)(L, {})),

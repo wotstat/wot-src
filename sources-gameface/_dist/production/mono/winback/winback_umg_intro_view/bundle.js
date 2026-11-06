@@ -1,21 +1,21 @@
-import { r as e } from "../chunks/rolldown-runtime.js";
+import { r as s } from "../chunks/rolldown-runtime.js";
 import {
-  B as s,
+  B as e,
   R as a,
   U as i,
   V as t,
   Y as n,
   Z as o,
-  _ as r,
-  _t as c,
-  g as l,
-  h as d,
-  m,
-  p as u,
-  q as p,
-  v as g,
-  x as _,
-  y as h,
+  _t as r,
+  a as c,
+  c as l,
+  i as d,
+  j as m,
+  n as u,
+  o as p,
+  q as g,
+  r as _,
+  s as h,
   z as f,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
@@ -24,12 +24,12 @@ var w = "InfoBlock_6397a401",
   k = "InfoBlock_image_1d210903",
   x = "InfoBlock_title_f9733081",
   v = "InfoBlock_description_d01681a2",
-  I = e(o(), 1);
-function N({ title: e, description: s, image: a }) {
+  I = s(o(), 1);
+function N({ title: s, description: e, image: a }) {
   return (0, I.jsxs)("div", {
     className: w,
     children: [
-      (0, I.jsx)(g, {
+      (0, I.jsx)(h, {
         className: k,
         path: `${a}_small`,
         width: 268,
@@ -39,25 +39,25 @@ function N({ title: e, description: s, image: a }) {
           extraLarge: { width: 402, height: 272, path: `${a}_large` },
         },
       }),
-      (0, I.jsx)(_, { path: e, className: x }),
-      (0, I.jsx)(_, { className: v, path: s, params: { color: "#EEEDE9E5" }, split: !0 }),
+      (0, I.jsx)(m, { path: s, className: x }),
+      (0, I.jsx)(m, { className: v, path: e, params: { color: "#EEEDE9E5" }, split: !0 }),
     ],
   });
 }
-var A = e(a(), 1);
-function B({ src: e }) {
-  const s = r(e);
-  if ("failure" === s.status || "loading" === s.status) return null;
-  if ("function" != typeof s.result)
-    return (console.error("Incorrect type plugin result " + typeof s.result), null);
-  const a = s.result;
-  return l(a)
+var A = s(a(), 1);
+function B({ src: s }) {
+  const e = p(s);
+  if ("failure" === e.status || "loading" === e.status) return null;
+  if ("function" != typeof e.result)
+    return (console.error("Incorrect type plugin result " + typeof e.result), null);
+  const a = e.result;
+  return c(a)
     ? (0, I.jsx)(a, {})
-    : (console.error(`Plugin result is not a React component. Source: ${e}`), null);
+    : (console.error(`Plugin result is not a React component. Source: ${s}`), null);
 }
 var [V, y] = i("WinbackUmgIntroViewModel")(
-    ({ observableModel: e }) => e.object(),
-    ({ externalModel: e }) => ({ close: e.createCallbackNoArgs("onClose") }),
+    ({ observableModel: s }) => s.object(),
+    ({ externalModel: s }) => ({ close: s.createCallbackNoArgs("onClose") }),
   ),
   E = "App_a630decb",
   P = "App_base__hidden_1de0b422",
@@ -69,17 +69,17 @@ var [V, y] = i("WinbackUmgIntroViewModel")(
   L = "App_content_1d3433ea",
   O = "App_spacer_1025ce59",
   U = "App_confirmButton_d8666e75",
-  D = c.resolve("strings"),
+  D = r.resolve("strings"),
   F = [R.images.gui.maps.icons.winback.umgIntro.background()],
   Q = f(function () {
-    const { model: e, controls: s } = y(),
-      { hasBattlePass: a, backgroundPlugin: i, dailyQuestsPlugin: t } = e.get(),
-      o = ((e) =>
-        e
+    const { model: s, controls: e } = y(),
+      { hasBattlePass: a, backgroundPlugin: i, dailyQuestsPlugin: t } = s.get(),
+      o = ((s) =>
+        s
           ? { description: "battlePass", image: "questsBP" }
           : { description: "default", image: "quests" })(a),
       r = b(F) !== j.Pending;
-    p(s.close);
+    g(e.close);
     const c = n({ value: d.small }, { large: { value: d.medium } });
     return (0, I.jsxs)("div", {
       className: (0, A.default)(E, !r && P),
@@ -91,7 +91,7 @@ var [V, y] = i("WinbackUmgIntroViewModel")(
           (0, I.jsxs)("div", {
             className: C,
             children: [
-              (0, I.jsx)(u, { onClose: s.close, className: M }),
+              (0, I.jsx)(u, { onClose: e.close, className: M }),
               (0, I.jsx)("div", {
                 className: z,
                 children: D.readOrEmpty("winback.umgIntroView.title"),
@@ -120,9 +120,9 @@ var [V, y] = i("WinbackUmgIntroViewModel")(
                   }),
                 ],
               }),
-              (0, I.jsx)(m, {
-                onClick: s.close,
-                theme: m.themes.primary,
+              (0, I.jsx)(_, {
+                onClick: e.close,
+                theme: _.themes.primary,
                 size: c.value,
                 className: U,
                 children: D.readOrEmpty("winback.umgIntroView.buttons.confirm"),
@@ -132,7 +132,7 @@ var [V, y] = i("WinbackUmgIntroViewModel")(
       ],
     });
   });
-(h(),
-  t((0, I.jsx)(V, { children: (0, I.jsx)(s, { children: (0, I.jsx)(Q, {}) }) }), {
+(l(),
+  t((0, I.jsx)(V, { children: (0, I.jsx)(e, { children: (0, I.jsx)(Q, {}) }) }), {
     immediateLayout: !1,
   }));
