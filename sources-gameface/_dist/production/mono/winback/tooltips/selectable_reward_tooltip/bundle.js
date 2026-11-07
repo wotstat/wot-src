@@ -6,9 +6,9 @@ import {
   V as l,
   Z as t,
   ft as i,
-  t as o,
-  tt as p,
-  x as r,
+  j as o,
+  t as p,
+  tt as r,
   z as d,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
@@ -16,8 +16,8 @@ var n = s(e(), 1),
   [b, _] = c("SelectableRewardTooltipModel")(({ observableModel: s }) => ({ root: s.object() }), i),
   m = "App_323a0b0b",
   u = "App_base__discount_5750b50d",
-  h = "App_body_4a4743fb",
-  j = "App_title_5d44568b",
+  j = "App_body_4a4743fb",
+  h = "App_title_5d44568b",
   x = "App_description_975d9f61",
   f = "App_discountIcon_180704a0",
   v = "App_discount_51bba6d4",
@@ -31,22 +31,22 @@ var n = s(e(), 1),
   g = d(function () {
     const { model: s } = _(),
       { level: a, researchDiscount: e, purchaseDiscount: c, isDiscount: l } = s.root.get(),
-      t = p(a);
+      t = r(a);
     return (0, D.jsxs)("div", {
       className: (0, n.default)(m, l && u),
       children: [
         (0, D.jsx)("div", {
-          className: h,
+          className: j,
           children: l
             ? (0, D.jsxs)(D.Fragment, {
                 children: [
                   (0, D.jsx)("div", { className: f }),
-                  (0, D.jsx)(r, {
+                  (0, D.jsx)(o, {
                     path: "winback.selectableRewardTooltip.discount.title",
                     params: { level: t },
-                    className: j,
+                    className: h,
                   }),
-                  (0, D.jsx)(r, {
+                  (0, D.jsx)(o, {
                     path: "winback.selectableRewardTooltip.discount.description",
                     params: {
                       researchDiscount: (0, D.jsxs)("span", {
@@ -65,12 +65,12 @@ var n = s(e(), 1),
               })
             : (0, D.jsxs)(D.Fragment, {
                 children: [
-                  (0, D.jsx)(r, {
+                  (0, D.jsx)(o, {
                     path: "winback.selectableRewardTooltip.basic.title",
                     params: { level: t },
-                    className: j,
+                    className: h,
                   }),
-                  (0, D.jsx)(r, {
+                  (0, D.jsx)(o, {
                     path: "winback.selectableRewardTooltip.basic.description",
                     params: { level: t },
                     className: x,
@@ -85,7 +85,7 @@ var n = s(e(), 1),
               (0, D.jsx)("div", { className: k }),
               (0, D.jsx)("div", { className: R }),
               (0, D.jsx)("div", { className: T }),
-              (0, D.jsx)(r, {
+              (0, D.jsx)(o, {
                 path: "winback.selectableRewardTooltip.discount.footer",
                 params: { level: t, color: "#e9e2bf" },
                 split: !0,
@@ -98,7 +98,7 @@ var n = s(e(), 1),
   });
 l(
   (0, D.jsx)(b, {
-    children: (0, D.jsx)(a, { children: (0, D.jsx)(o, { children: (0, D.jsx)(g, {}) }) }),
+    children: (0, D.jsx)(a, { children: (0, D.jsx)(p, { children: (0, D.jsx)(g, {}) }) }),
   }),
   { immediateLayout: !1 },
 );

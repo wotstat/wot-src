@@ -1,50 +1,50 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
   $ as a,
-  A as s,
-  B as r,
-  C as i,
-  D as t,
-  E as l,
-  F as c,
-  G as d,
-  H as n,
-  I as o,
-  K as _,
-  L as w,
-  M as R,
-  N as u,
-  O as m,
-  P as b,
-  Q as h,
-  R as p,
-  U as E,
-  V as g,
-  X as f,
-  Z as v,
-  _t as x,
-  b as N,
-  ct as S,
-  ft as C,
-  gt as j,
-  ht as I,
-  it as k,
-  j as V,
-  k as T,
-  mt as O,
-  nt as L,
+  B as s,
+  F as r,
+  G as i,
+  H as t,
+  I as l,
+  K as c,
+  L as d,
+  N as n,
+  O as o,
+  P as _,
+  Q as w,
+  R,
+  U as u,
+  V as m,
+  X as b,
+  Z as h,
+  _ as p,
+  _t as g,
+  b as E,
+  ct as f,
+  ft as v,
+  g as x,
+  gt as N,
+  h as S,
+  ht as C,
+  it as j,
+  j as I,
+  l as V,
+  m as k,
+  mt as T,
+  nt as O,
   ot as y,
-  pt as A,
-  q as D,
+  pt as L,
+  q as A,
   rt as z,
-  tt as M,
-  x as F,
+  tt as D,
+  v as M,
+  y as F,
   z as P,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { n as H, r as G, t as $ } from "../chunks/winback_reward_view_model.js";
-var B = e(j(), 1),
-  U = e(p(), 1),
+var B = e(N(), 1),
+  U = e(R(), 1),
   W = [H.SELECTABLE_VEHICLE_FOR_GIFT, H.SELECTABLE_VEHICLE_DISCOUNT],
   K = [
     H.VEHICLE_FOR_GIFT,
@@ -53,7 +53,7 @@ var B = e(j(), 1),
     H.SELECTABLE_VEHICLE_FOR_GIFT,
     H.SELECTABLE_VEHICLE_DISCOUNT,
   ],
-  [Q, q] = E("WinbackRewardViewModel")(
+  [Q, q] = u("WinbackRewardViewModel")(
     ({ observableModel: e }) => {
       const a = {
           primitives: e.primitives([
@@ -62,40 +62,40 @@ var B = e(j(), 1),
             "isSelectableAwardAvailable",
           ]),
           rewards: e.array("rewards"),
-          firstRowMaxRewardsCount: k.box(4),
+          firstRowMaxRewardsCount: j.box(4),
         },
-        s = n(() => {
+        s = t(() => {
           switch (a.primitives.state.get()) {
             case G.WINBACK_PROGRESSION_COMPLETED:
-              return l();
+              return c();
             case G.REGULAR_PROGRESSION_COMPLETED:
-              return o() ? t() : w();
+              return o() ? l() : w();
             default:
               return w();
           }
         }),
-        r = n(() => {
+        r = t(() => {
           switch (a.primitives.state.get()) {
             case G.WINBACK_PROGRESSION_COMPLETED:
-              return c();
+              return d();
             case G.REGULAR_PROGRESSION_COMPLETED:
               return o() ? i() : R();
             default:
               return R();
           }
         }),
-        i = n(() => y(a.rewards.get(), (e) => !K.includes(e.name))),
-        t = n(() => y(a.rewards.get(), (e) => K.includes(e.name))),
-        l = n(() => y(a.rewards.get(), (e) => W.includes(e.name))),
-        c = n(() => y(a.rewards.get(), (e) => !W.includes(e.name))),
-        d = n(() => {
+        i = t(() => y(a.rewards.get(), (e) => !K.includes(e.name))),
+        l = t(() => y(a.rewards.get(), (e) => K.includes(e.name))),
+        c = t(() => y(a.rewards.get(), (e) => W.includes(e.name))),
+        d = t(() => y(a.rewards.get(), (e) => !W.includes(e.name))),
+        n = t(() => {
           const e = a.rewards.get();
-          return 1 === e.length && S(e, 0)?.name === H.VEHICLE_FOR_GIFT;
+          return 1 === e.length && f(e, 0)?.name === H.VEHICLE_FOR_GIFT;
         }),
-        o = n(() => Boolean(y(a.rewards.get(), (e) => K.includes(e.name)).length)),
-        _ = n(() => Boolean(l().length)),
-        w = n(() => y(a.rewards.get(), (e, s) => s < a.firstRowMaxRewardsCount.get())),
-        R = n(() => y(a.rewards.get(), (e, s) => s >= a.firstRowMaxRewardsCount.get()));
+        o = t(() => Boolean(y(a.rewards.get(), (e) => K.includes(e.name)).length)),
+        _ = t(() => Boolean(c().length)),
+        w = t(() => y(a.rewards.get(), (e, s) => s < a.firstRowMaxRewardsCount.get())),
+        R = t(() => y(a.rewards.get(), (e, s) => s >= a.firstRowMaxRewardsCount.get()));
       return {
         ...a.primitives,
         ...a,
@@ -104,18 +104,18 @@ var B = e(j(), 1),
           getSecondRowRewards: r,
           hasSelectableRewards: _,
           hasVehicleRewards: o,
-          hasOnlyVehicleForGiftReward: d,
-          isRibbonGold: n(() =>
+          hasOnlyVehicleForGiftReward: n,
+          isRibbonGold: t(() =>
             [G.WINBACK_PROGRESSION_COMPLETED, G.REGULAR_PROGRESSION_COMPLETED].includes(
               a.primitives.state.get(),
             ),
           ),
-          isGlowVisible: n(() =>
+          isGlowVisible: t(() =>
             [G.WELCOME, G.REGULAR_PROGRESSION_COMPLETED, G.WINBACK_PROGRESSION_COMPLETED].includes(
               a.primitives.state.get(),
             ),
           ),
-          isLinesVisible: n(() => ![G.PROGRESSION_STEP].includes(a.primitives.state.get())),
+          isLinesVisible: t(() => ![G.PROGRESSION_STEP].includes(a.primitives.state.get())),
         },
       };
     },
@@ -129,21 +129,21 @@ var B = e(j(), 1),
   ),
   Y = "Actions_afedde92",
   X = "Actions_button_d816f92b",
-  Z = e(v(), 1),
-  J = x.resolve("strings"),
+  Z = e(h(), 1),
+  J = g.resolve("strings"),
   ee = P(function () {
     const { model: e, controls: a } = q(),
-      { secondRowRewardsShowed: s } = (0, B.useContext)(ze),
-      [r] = ((e) => {
+      { secondRowRewardsShowed: s } = (0, B.useContext)(De),
+      [i] = ((e) => {
         const a = (0, B.useRef)(null),
-          s = (0, B.useRef)(C),
+          s = (0, B.useRef)(v),
           r = (0, B.useCallback)(() => {
-            s.current = L(() => {
+            s.current = O(() => {
               const s = a.current;
               if (!s) return;
               const r = Array.from(s.querySelectorAll(e)),
                 i = r.reduce((e, a) => Math.max(e, a.scrollWidth), 0);
-              r.forEach((e) => (e.style.minWidth = `${A(i)}rem`));
+              r.forEach((e) => (e.style.minWidth = `${L(i)}rem`));
             });
           }, [e]);
         return (
@@ -159,34 +159,34 @@ var B = e(j(), 1),
           ),
           [a, r]
         );
-      })(`.${c.base}`),
-      i = { size: o.medium, mixClass: X, disabled: !s };
+      })(`.${r.base}`),
+      t = { size: l.medium, mixClass: X, disabled: !s };
     return e.isFirstProgressionStep.get()
       ? (0, Z.jsx)("div", {
           className: Y,
-          ref: r,
-          children: (0, Z.jsx)(b, {
+          ref: i,
+          children: (0, Z.jsx)(_, {
             onClick: a.showQuests,
-            type: w.primary,
-            ...i,
+            type: d.primary,
+            ...t,
             children: J.readOrEmpty("winback.winbackRewardView.buttons.showQuests"),
           }),
         })
       : e.computes.hasSelectableRewards() && e.isSelectableAwardAvailable.get()
         ? (0, Z.jsxs)("div", {
             className: Y,
-            ref: r,
+            ref: i,
             children: [
-              (0, Z.jsx)(b, {
+              (0, Z.jsx)(_, {
                 onClick: a.selectReward,
-                type: w.primary,
-                ...i,
+                type: d.primary,
+                ...t,
                 children: J.readOrEmpty("winback.winbackRewardView.buttons.selectReward"),
               }),
-              (0, Z.jsx)(b, {
+              (0, Z.jsx)(_, {
                 onClick: a.close,
-                type: w.secondary,
-                ...i,
+                type: d.secondary,
+                ...t,
                 children: J.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
               }),
             ],
@@ -194,29 +194,29 @@ var B = e(j(), 1),
         : e.computes.hasOnlyVehicleForGiftReward()
           ? (0, Z.jsxs)("div", {
               className: Y,
-              ref: r,
+              ref: i,
               children: [
-                (0, Z.jsx)(b, {
+                (0, Z.jsx)(_, {
                   onClick: a.showVehicle,
-                  type: w.primary,
-                  ...i,
+                  type: d.primary,
+                  ...t,
                   children: J.readOrEmpty("winback.winbackRewardView.buttons.showVehicle"),
                 }),
-                (0, Z.jsx)(b, {
+                (0, Z.jsx)(_, {
                   onClick: a.close,
-                  type: w.secondary,
-                  ...i,
+                  type: d.secondary,
+                  ...t,
                   children: J.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
                 }),
               ],
             })
           : (0, Z.jsx)("div", {
               className: Y,
-              ref: r,
-              children: (0, Z.jsx)(b, {
-                type: w.primary,
+              ref: i,
+              children: (0, Z.jsx)(_, {
+                type: d.primary,
                 onClick: a.close,
-                ...i,
+                ...t,
                 children: J.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
               }),
             });
@@ -229,7 +229,7 @@ var B = e(j(), 1),
     title: "Header_title_fdc2e497",
     title__welcome: "Header_title__welcome_ea86e315",
   },
-  se = x.resolve("strings"),
+  se = g.resolve("strings"),
   re = [G.SELECTED_REWARDS, G.PROGRESSION_STEP, G.WINBACK_PROGRESSION_COMPLETED],
   ie = [G.REGULAR_PROGRESSION_COMPLETED],
   te = P(function () {
@@ -259,26 +259,26 @@ var B = e(j(), 1),
   }),
   le = (e, a) => ({
     name: e.name,
-    image: m(e, a),
+    image: x(e, a),
     value: e.value,
-    valueType: s(e.name),
+    valueType: M(e.name),
     special: e.overlayType,
-    tooltipArgs: T({ [$]: e.tooltipId }, Number(e.tooltipContentId), { ignoreShowDelay: !0 }),
+    tooltipArgs: p({ [$]: e.tooltipId }, Number(e.tooltipContentId), { ignoreShowDelay: !0 }),
   }),
   ce = (e) => Math.sqrt(1 - Math.pow(e - 1, 2)),
   de = "AnimatedReward_4c41ec42";
 function ne({ index: e = 0, delay: a = 0, onEnd: s, children: r }) {
-  const i = _({
+  const t = c({
     from: { transform: "translateY(20rem)", opacity: 0 },
     to: { transform: "translateY(0rem)", opacity: 1 },
     delay: a + 100 * e,
     config: { duration: 400, easing: ce },
     onStart: () => {
-      O("gui_random_reward_appear");
+      T("gui_random_reward_appear");
     },
     onRest: s,
   });
-  return (0, Z.jsx)(d.div, { className: de, style: i, children: r });
+  return (0, Z.jsx)(i.div, { className: de, style: t, children: r });
 }
 var oe = {
     base: "RegularReward_8b391676",
@@ -297,38 +297,38 @@ var oe = {
     premiumPlusText: "RegularReward_premiumPlusText_7e2a55b",
   },
   _e = {
-    180: R.S180x135,
-    232: R.S232x174,
-    296: R.S296x222,
-    360: R.S400x300,
-    400: R.S400x300,
-    600: R.S600x450,
+    180: E.S180x135,
+    232: E.S232x174,
+    296: E.S296x222,
+    360: E.S400x300,
+    400: E.S400x300,
+    600: E.S600x450,
   };
 function we({ size: e, bonus: a, className: s }) {
   const r = _e[e],
-    { name: c, image: d, value: n, valueType: o, special: _, tooltipArgs: w } = le(a, r),
-    R = l(n, o),
-    u = t(_);
-  return (0, Z.jsx)(i, {
-    tooltipArgs: w,
+    { name: i, image: t, value: l, valueType: c, special: d, tooltipArgs: n } = le(a, r),
+    _ = k(l, c),
+    w = S(d);
+  return (0, Z.jsx)(o, {
+    tooltipArgs: n,
     children: (0, Z.jsxs)("div", {
       className: (0, U.default)(oe.base, oe[`base__size${e}`], s),
       children: [
-        (0, Z.jsx)("div", { className: oe.image, style: { backgroundImage: `url(${d})` } }),
-        Boolean(u) &&
+        (0, Z.jsx)("div", { className: oe.image, style: { backgroundImage: `url(${t})` } }),
+        Boolean(w) &&
           (0, Z.jsx)("div", {
             className: oe.overlay,
             style: {
-              backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${u}_overlay)`,
+              backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${w}_overlay)`,
             },
           }),
         (0, Z.jsxs)("div", {
-          className: (0, U.default)(oe.value, oe[`value__${c}`], oe[`value__${o}`]),
+          className: (0, U.default)(oe.value, oe[`value__${i}`], oe[`value__${c}`]),
           children: [
-            R,
-            c === V.PremiumPlus &&
-              "14" === n &&
-              (0, Z.jsx)(F, {
+            _,
+            i === F.PremiumPlus &&
+              "14" === l &&
+              (0, Z.jsx)(I, {
                 path: "winback.winbackRewardView.premiumPlus",
                 className: oe.premiumPlusText,
               }),
@@ -353,42 +353,42 @@ function ue({
   tooltipContentId: a,
   vehicleLvl: s,
   name: r,
-  size: t,
-  className: l,
-  priceDiscount: c,
-  expDiscount: d,
+  size: i,
+  className: t,
+  priceDiscount: l,
+  expDiscount: c,
 }) {
-  const n = r === H.SELECTABLE_VEHICLE_DISCOUNT,
-    o = M(s);
-  return (0, Z.jsx)(i, {
-    tooltipArgs: T({ [$]: e }, Number(a), { ignoreShowDelay: !0 }),
+  const d = r === H.SELECTABLE_VEHICLE_DISCOUNT,
+    n = D(s);
+  return (0, Z.jsx)(o, {
+    tooltipArgs: p({ [$]: e }, Number(a), { ignoreShowDelay: !0 }),
     children: (0, Z.jsxs)("div", {
-      className: (0, U.default)(Re.base, Re[`base__size${t}`], l),
+      className: (0, U.default)(Re.base, Re[`base__size${i}`], t),
       children: [
         (0, Z.jsxs)("div", {
           className: Re.image,
           children: [
-            (0, Z.jsx)("div", { className: Re.levelMark, children: o }),
-            n && (0, Z.jsx)("div", { className: Re.discountMark }),
+            (0, Z.jsx)("div", { className: Re.levelMark, children: n }),
+            d && (0, Z.jsx)("div", { className: Re.discountMark }),
           ],
         }),
-        n && 0 !== d && 0 !== c
-          ? (0, Z.jsx)(F, {
+        d && 0 !== c && 0 !== l
+          ? (0, Z.jsx)(I, {
               path: "winback.winbackRewardView.selectableReward.discount",
               params: {
-                level: o,
+                level: n,
                 color1: "#f2f2f7",
                 color2: "#fd9",
-                expDiscount: d,
-                priceDiscount: c,
+                expDiscount: c,
+                priceDiscount: l,
               },
               className: Re.title,
             })
-          : (0, Z.jsx)(F, {
-              path: n
+          : (0, Z.jsx)(I, {
+              path: d
                 ? "winback.winbackRewardView.selectableReward.reserveDiscount"
                 : "winback.winbackRewardView.selectableReward.gift",
-              params: { level: o },
+              params: { level: n },
               className: Re.title,
             }),
       ],
@@ -417,18 +417,18 @@ var me = {
     icon: "VehicleReward_icon_702fd5f5",
   },
   be = { 180: "180x135", 360: "360x270", 600: "600x450" },
-  he = x.resolve("strings");
+  he = g.resolve("strings");
 function pe({
   name: e,
   tooltipId: a,
   tooltipContentId: s,
   isElite: r,
-  isFromStorage: t,
-  vehicleName: l,
-  vehicleLvl: c,
-  vehicleType: d,
-  userName: n,
-  nation: o,
+  isFromStorage: i,
+  vehicleName: t,
+  vehicleLvl: l,
+  vehicleType: c,
+  userName: d,
+  nation: n,
   size: _,
   rentDuration: w,
   className: R,
@@ -437,19 +437,19 @@ function pe({
 }) {
   const b = e === H.VEHICLE_FOR_RENT,
     h = e === H.VEHICLE_DISCOUNT,
-    p = `R.images.gui.maps.shop.vehicles.c_${be[_]}.${I(l)}`,
-    E = `R.images.gui.maps.icons.filters.nations.${o}`,
-    g = I(d),
-    f = `R.images.gui.maps.icons.vehicleTypes.${r ? (180 === _ ? `elite.${g}` : `big.${g}_elite`) : 180 === _ ? `c_24x24.${g}` : `big.${g}`}`;
-  return (0, Z.jsx)(i, {
-    tooltipArgs: T({ [$]: a }, Number(s), { ignoreShowDelay: !0 }),
+    g = `R.images.gui.maps.shop.vehicles.c_${be[_]}.${C(t)}`,
+    E = `R.images.gui.maps.icons.filters.nations.${n}`,
+    f = C(c),
+    v = `R.images.gui.maps.icons.vehicleTypes.${r ? (180 === _ ? `elite.${f}` : `big.${f}_elite`) : 180 === _ ? `c_24x24.${f}` : `big.${f}`}`;
+  return (0, Z.jsx)(o, {
+    tooltipArgs: p({ [$]: a }, Number(s), { ignoreShowDelay: !0 }),
     children: (0, Z.jsxs)("div", {
       className: (0, U.default)(me.base, me[`base__size${_}`], R),
       children: [
         (0, Z.jsxs)("div", {
           className: me.content,
           children: [
-            (0, Z.jsx)("div", { className: me.image, style: { backgroundImage: `url('${p}')` } }),
+            (0, Z.jsx)("div", { className: me.image, style: { backgroundImage: `url('${g}')` } }),
             b && (0, Z.jsx)("div", { className: me.rentImage }),
             h && (0, Z.jsx)("div", { className: me.discountMark }),
           ],
@@ -458,20 +458,20 @@ function pe({
           className: me.title,
           children: [
             (0, Z.jsx)("div", { className: me.nation, style: { backgroundImage: `url('${E}')` } }),
-            M(c),
+            D(l),
             (0, Z.jsx)("div", {
               className: me.typeContainer,
               children: (0, Z.jsx)("div", {
                 className: me.type,
-                style: { backgroundImage: `url('${f}')` },
+                style: { backgroundImage: `url('${v}')` },
               }),
             }),
-            n,
+            d,
           ],
         }),
         (0, Z.jsx)("div", {
           className: me.description,
-          children: t
+          children: i
             ? (0, Z.jsxs)("div", {
                 className: me.inHangar,
                 children: [
@@ -484,7 +484,7 @@ function pe({
                   className: me.rent,
                   children: [
                     (0, Z.jsx)("div", { className: me.rentIcon }),
-                    (0, Z.jsx)(F, {
+                    (0, Z.jsx)(I, {
                       path: "winback.winbackRewardView.vehicleReward.rent",
                       params: { days: w },
                     }),
@@ -492,7 +492,7 @@ function pe({
                 })
               : h
                 ? 0 !== m && 0 !== u
-                  ? (0, Z.jsx)(F, {
+                  ? (0, Z.jsx)(I, {
                       path: "winback.winbackRewardView.vehicleReward.discount",
                       params: {
                         expDiscount: m,
@@ -503,7 +503,7 @@ function pe({
                       split: !0,
                       className: me.discountText,
                     })
-                  : (0, Z.jsx)(F, {
+                  : (0, Z.jsx)(I, {
                       path: "winback.winbackRewardView.vehicleReward.reserveDiscount",
                       className: (0, U.default)(me.discountText, me.discountText__reserveDiscount),
                     })
@@ -513,12 +513,12 @@ function pe({
     }),
   });
 }
-var Ee = {
+var ge = {
     reward__offset180: "FirstRowRewardsResolver_reward__offset180_eaf5012c",
     reward__offset360: "FirstRowRewardsResolver_reward__offset360_e8ff5c6f",
     reward__offset600: "FirstRowRewardsResolver_reward__offset600_6a7da3bd",
   },
-  ge = {
+  Ee = {
     [a.extraSmall]: [400, 400, 296, 232],
     [a.small]: [400, 400, 296, 296],
     [a.medium]: [400, 400, 400, 296],
@@ -534,11 +534,11 @@ var Ee = {
   },
   ve = P(function ({ reward: e }) {
     const { model: a } = q(),
-      { breakpoint: s } = f(),
+      { breakpoint: s } = b(),
       r = a.computes.getFirstRowRewards().length - 1,
       i = a.computes.hasVehicleRewards(),
       t = fe[s.name][r],
-      l = i ? t : ge[s.name][r];
+      l = i ? t : Ee[s.name][r];
     switch (e.name) {
       case H.VEHICLE_FOR_GIFT:
       case H.VEHICLE_DISCOUNT:
@@ -551,7 +551,7 @@ var Ee = {
         return (0, Z.jsx)(we, {
           bonus: e,
           size: l,
-          className: (0, U.default)(Ee.reward, i && Ee[`reward__offset${l}`]),
+          className: (0, U.default)(ge.reward, i && ge[`reward__offset${l}`]),
         });
     }
   }),
@@ -569,38 +569,38 @@ function Ne({
   vehicleName: a,
   tooltipId: s,
   tooltipContentId: r,
-  vehicleLvl: t,
-  userName: l,
-  size: c,
-  className: d,
+  vehicleLvl: i,
+  userName: t,
+  size: l,
+  className: c,
 }) {
-  const n = e === H.VEHICLE_DISCOUNT,
-    o = I(a).toLowerCase();
-  return (0, Z.jsx)(i, {
-    tooltipArgs: T({ [$]: s }, Number(r), { ignoreShowDelay: !0 }),
+  const d = e === H.VEHICLE_DISCOUNT,
+    n = C(a).toLowerCase();
+  return (0, Z.jsx)(o, {
+    tooltipArgs: p({ [$]: s }, Number(r), { ignoreShowDelay: !0 }),
     children: (0, Z.jsxs)("div", {
-      className: (0, U.default)(xe.base, xe[`base__${c}`], d),
+      className: (0, U.default)(xe.base, xe[`base__${l}`], c),
       children: [
         (0, Z.jsxs)("div", {
           className: xe.imageWrapper,
           children: [
             (0, Z.jsx)("div", {
               className: xe.image,
-              style: { backgroundImage: `url('R.images.gui.maps.icons.vehicle.c_420x307.${o}')` },
+              style: { backgroundImage: `url('R.images.gui.maps.icons.vehicle.c_420x307.${n}')` },
             }),
-            n && (0, Z.jsx)("div", { className: xe.discountIcon }),
-            (0, Z.jsx)("div", { className: xe.levelMark, children: M(t) }),
+            d && (0, Z.jsx)("div", { className: xe.discountIcon }),
+            (0, Z.jsx)("div", { className: xe.levelMark, children: D(i) }),
           ],
         }),
-        (0, Z.jsx)("div", { className: xe.name, children: l }),
+        (0, Z.jsx)("div", { className: xe.name, children: t }),
       ],
     }),
   });
 }
 var Se = "SecondRowRewardsResolver_reward_9a61ab72";
 function Ce({ reward: e }) {
-  const { breakpoint: a } = f(),
-    s = a.width >= h.Medium ? R.Big : R.Small;
+  const { breakpoint: a } = b(),
+    s = a.width >= w.Medium ? E.Big : E.Small;
   switch (e.name) {
     case H.SELECTABLE_VEHICLE_DISCOUNT:
     case H.SELECTABLE_VEHICLE_FOR_GIFT:
@@ -610,7 +610,7 @@ function Ce({ reward: e }) {
     case H.VEHICLE_DISCOUNT:
       return (0, Z.jsx)(Ne, { ...e, size: s, className: Se });
     default:
-      return (0, Z.jsx)(N, { ...le(e, s), size: s, className: Se });
+      return (0, Z.jsx)(V, { ...le(e, s), size: s, className: Se });
   }
 }
 var je = {
@@ -628,8 +628,8 @@ var je = {
     secondRowTitle: "Rewards_secondRowTitle_1e87b46e",
     secondRowRewards: "Rewards_secondRowRewards_a1e37c96",
   },
-  Ie = x.resolve("strings"),
-  ke = P(function () {
+  Ie = g.resolve("strings"),
+  Ve = P(function () {
     const { model: e } = q(),
       a = e.computes.isRibbonGold(),
       s = e.computes.isLinesVisible(),
@@ -640,7 +640,7 @@ var je = {
         firstRowRewardsShowed: l,
         setFirstRowRewardsShowed: c,
         setSecondRowRewardsShowed: d,
-      } = (0, B.useContext)(ze),
+      } = (0, B.useContext)(De),
       n = (0, B.useCallback)(() => {
         c(!0);
       }, [c]),
@@ -709,18 +709,18 @@ var je = {
       })
     );
   }),
-  Ve = "App_483c1d8c",
+  ke = "App_483c1d8c",
   Te = "App_closeButton_f5179698",
   Oe = "App_header_36a9021",
-  Le = "App_rewards_73e9682",
-  ye = "App_rewards__twoRows_a4fcb094",
+  ye = "App_rewards_73e9682",
+  Le = "App_rewards__twoRows_a4fcb094",
   Ae = "App_actions_3dc4d043",
-  De = "App_actions__appear_13271a7f",
-  ze = (0, B.createContext)({}),
-  Me = x.resolve("strings"),
+  ze = "App_actions__appear_13271a7f",
+  De = (0, B.createContext)({}),
+  Me = g.resolve("strings"),
   Fe = P(function () {
     const { model: e, controls: a } = q(),
-      { screenWidthRem: s } = f(),
+      { screenWidthRem: s } = b(),
       [r, i] = (0, B.useState)(!1),
       [t, l] = (0, B.useState)(!1),
       c = (0, B.useMemo)(
@@ -735,16 +735,16 @@ var je = {
     ((0, B.useLayoutEffect)(() => {
       a.setFirstRowMaxRewardsCount(s < 2048 ? 4 : 5);
     }, [a, s]),
-      D(a.close));
+      A(a.close));
     const d = Boolean(e.computes.getSecondRowRewards().length);
-    return (0, Z.jsx)(ze.Provider, {
+    return (0, Z.jsx)(De.Provider, {
       value: c,
       children: (0, Z.jsxs)("div", {
-        className: Ve,
+        className: ke,
         children: [
           (0, Z.jsx)("div", {
             className: Te,
-            children: (0, Z.jsx)(u, {
+            children: (0, Z.jsx)(n, {
               caption: Me.readOrEmpty("winback.winbackRewardView.buttons.close"),
               type: "close",
               side: "right",
@@ -753,17 +753,17 @@ var je = {
           }),
           (0, Z.jsx)("div", { className: Oe, children: (0, Z.jsx)(te, {}) }),
           (0, Z.jsx)("div", {
-            className: (0, U.default)(Le, d && ye),
-            children: (0, Z.jsx)(ke, {}),
+            className: (0, U.default)(ye, d && Le),
+            children: (0, Z.jsx)(Ve, {}),
           }),
           (0, Z.jsx)("div", {
-            className: (0, U.default)(Ae, t && De),
+            className: (0, U.default)(Ae, t && ze),
             children: (0, Z.jsx)(ee, {}),
           }),
         ],
       }),
     });
   });
-g((0, Z.jsx)(Q, { children: (0, Z.jsx)(r, { children: (0, Z.jsx)(Fe, {}) }) }), {
+m((0, Z.jsx)(Q, { children: (0, Z.jsx)(s, { children: (0, Z.jsx)(Fe, {}) }) }), {
   immediateLayout: !1,
 });

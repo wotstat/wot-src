@@ -1,15 +1,15 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Hr as e,
+  Vr as e,
   Yn as t,
   _n as a,
   bt as n,
+  ci as o,
   fn as l,
-  li as o,
   n as i,
-  pn as r,
-  si as d,
-  tn as c,
+  oi as r,
+  pn as c,
+  tn as d,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as m } from "../../chunks/vendor.js";
@@ -33,13 +33,13 @@ var [_, j] = a()(({ observableModel: s }) => ({ root: s.object() }), e),
   W = R.strings.battle_pass.tooltips.styleUpgrade,
   B = m(() => {
     const { model: s } = j(),
-      { level: e, styleId: t, styleName: a, vehicles: l } = s.root.get(),
-      o = {
+      { level: e, styleId: t, styleName: a, vehicles: o } = s.root.get(),
+      l = {
         level: (0, T.jsx)("div", { className: y, children: h(e) }),
         levelWord: (0, T.jsx)("div", { className: y, children: W.chosen.levelWord() }),
       };
     return (0, T.jsxs)("div", {
-      className: d(x, t && p),
+      className: r(x, t && p),
       children: [
         (0, T.jsx)("div", {
           className: b,
@@ -66,7 +66,7 @@ var [_, j] = a()(({ observableModel: s }) => ({ root: s.object() }), e),
             (0, T.jsx)("div", {
               className: u,
               children: t
-                ? (0, T.jsx)(n, { text: W.chosen.text(), binding: o })
+                ? (0, T.jsx)(n, { text: W.chosen.text(), binding: l })
                 : W.notChosen.text(),
             }),
             (0, T.jsx)("div", { className: v }),
@@ -85,7 +85,7 @@ var [_, j] = a()(({ observableModel: s }) => ({ root: s.object() }), e),
             children: [
               (0, T.jsx)("div", { className: v }),
               (0, T.jsx)("div", { className: k, children: W.chosen.subtitle() }),
-              (0, T.jsx)("div", { className: u, children: l }),
+              (0, T.jsx)("div", { className: u, children: o }),
             ],
           }),
       ],
@@ -93,8 +93,8 @@ var [_, j] = a()(({ observableModel: s }) => ({ root: s.object() }), e),
   }),
   I = () => (0, T.jsx)(i, { children: (0, T.jsx)(i.Decorator, { children: (0, T.jsx)(B, {}) }) });
 l(
-  new r()
-    .add(c)
+  new c()
+    .add(d)
     .addWithProps(_, {})
     .render((0, T.jsx)(I, {})),
 );

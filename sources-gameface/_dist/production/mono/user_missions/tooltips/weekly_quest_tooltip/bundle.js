@@ -17,12 +17,12 @@ import {
 import "../../chunks/_wg-global-styles.js";
 import { t as y } from "../../chunks/divider.js";
 import { t as _ } from "../../chunks/extended_tooltip_decorator.js";
-import { r as v } from "../../chunks/helpers.js";
-import { t as j } from "../../chunks/spec_conditions.js";
+import { t as v } from "../../chunks/spec_conditions.js";
+import { r as j } from "../../chunks/helpers.js";
 var [k, h] = r()(
     ({ observableModel: s }) => ({
       ...s.primitives(["commonConditionId"]),
-      specConditions: s.transform((s) => v(s), "specialConditionIds"),
+      specConditions: s.transform((s) => j(s), "specialConditionIds"),
       rewards: s.transform(
         (s) =>
           l(s, (s) => {
@@ -62,7 +62,7 @@ var [k, h] = r()(
       description: C.readOrEmpty(`weekly_quests.condition.common.c_${s.commonConditionId.get()}`),
       invertedColors: !0,
       children: [
-        e.length > 0 && (0, g.jsx)(j, { specConditions: e, className: f }),
+        e.length > 0 && (0, g.jsx)(v, { specConditions: e, className: f }),
         (0, g.jsx)(y, { className: w }),
         (0, g.jsx)(d, { path: "user_missions.tooltip.daily_quests.rewards", className: T }),
         (0, g.jsx)(c, { data: s.rewards.get(), size: u.Small, classMix: b, rewardItemClassMix: x }),

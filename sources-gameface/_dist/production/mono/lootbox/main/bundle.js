@@ -30,12 +30,12 @@ import {
   R as l,
   V as n,
   _t as c,
-  c as _,
-  ct as i,
-  ft as u,
-  l as E,
-  vt as d,
-  wt as m,
+  ct as _,
+  ft as i,
+  v as u,
+  vt as E,
+  wt as d,
+  y as m,
   yt as R,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
@@ -50,9 +50,9 @@ var p = e(r(), 1),
   })({}),
   L = [D.MULTIPLE_BOXES_REWARDS, D.SINGLE_BOX_REWARDS],
   S = [...L],
-  I = (e) => S.includes(e),
-  j = (e) => o(e, (e) => I(e)),
-  v = (e) => L.includes(e),
+  v = (e) => S.includes(e),
+  I = (e) => o(e, (e) => v(e)),
+  j = (e) => L.includes(e),
   [O, b] = n()(
     ({ observableModel: e }) => {
       const a = {
@@ -60,11 +60,11 @@ var p = e(r(), 1),
           subViewIDs: e.arrayClone("subViewIDs"),
           overlayClosed: R.box(!1),
         },
-        r = s(() => o(a.subViewIDs.get(), v));
+        r = s(() => o(a.subViewIDs.get(), j));
       return { ...a, computes: { awardViewOpened: r } };
     },
     ({ externalModel: e, model: s }) => ({
-      setOverlayState: d((e, o) => {
+      setOverlayState: E((e, o) => {
         const a = Boolean(e && !o);
         s.overlayClosed.set(a);
       }),
@@ -72,56 +72,56 @@ var p = e(r(), 1),
     }),
   ),
   w = (0, p.lazy)(() =>
-    E(
+    m(
       () => import("../chunks/home.js"),
       __vite__mapDeps([0, 1, 2, 3, 4, 5, 6, 7]),
       import.meta.url,
     ),
   ),
   A = (0, p.lazy)(() =>
-    E(
+    m(
       () => import("../chunks/single_award.js"),
       __vite__mapDeps([0, 1, 2, 4, 6, 8, 9, 10, 11, 12]),
       import.meta.url,
     ),
   ),
   h = (0, p.lazy)(() =>
-    E(
+    m(
       () => import("../chunks/multiple_award.js"),
       __vite__mapDeps([0, 1, 2, 4, 6, 8, 9, 13, 10, 14]),
       import.meta.url,
     ),
   ),
   x = { [D.HOME]: w, [D.SINGLE_BOX_REWARDS]: A, [D.MULTIPLE_BOXES_REWARDS]: h },
-  f = e(u(), 1);
-function B({ viewID: e }) {
+  f = e(i(), 1);
+function y({ viewID: e }) {
   const s = x[e];
   return s
     ? (0, f.jsx)(p.Suspense, { fallback: (0, f.jsx)("div", {}), children: (0, f.jsx)(s, {}) })
     : (console.error("Unreachable code: ViewResolver"), null);
 }
-var y = "App_7cf6cd46",
+var B = "App_7cf6cd46",
   V = "App_overlay_cc29bca1";
 var M = t(function () {
   const { model: e, controls: s } = b(),
     o = e.subViewIDs.get();
   return (
     ((e, s) => {
-      const o = i(e);
+      const o = _(e);
       (0, p.useEffect)(() => {
         s(Boolean(o), e);
       }, [e]);
-    })(j(o), s.setOverlayState),
+    })(I(o), s.setOverlayState),
     (0, p.useEffect)(() => c(() => s.onResourcesLoadCompleted())),
     (0, f.jsx)("div", {
-      className: y,
-      children: m(o, (e) =>
-        I(e)
-          ? (0, f.jsx)("div", { className: V, children: (0, f.jsx)(B, { viewID: e }) }, e)
-          : (0, f.jsx)(B, { viewID: e }, e),
+      className: B,
+      children: d(o, (e) =>
+        v(e)
+          ? (0, f.jsx)("div", { className: V, children: (0, f.jsx)(y, { viewID: e }) }, e)
+          : (0, f.jsx)(y, { viewID: e }, e),
       ),
     })
   );
 });
-(_(), l((0, f.jsx)(O, { children: (0, f.jsx)(a, { children: (0, f.jsx)(M, {}) }) })));
-export { j as n, b as t };
+(u(), l((0, f.jsx)(O, { children: (0, f.jsx)(a, { children: (0, f.jsx)(M, {}) }) })));
+export { I as n, b as t };

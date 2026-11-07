@@ -15121,10 +15121,10 @@ var sT = Ft(function ({ className: e }) {
     const { model: t } = FL();
     return t.isPaused.get() ? null : (0, ti.jsx)(cL, { id: yL, className: e });
   }),
-  nT = "IntroOverlay_glow_5fc31c94",
+  nT = "IntroOverlay_glow_ef690a2a",
   rT = "IntroOverlay_hoverHelper_9cec2539",
   iT = "IntroOverlay_8d89d328",
-  oT = "IntroOverlay_base__extraChapter_d35cc3d4",
+  oT = "IntroOverlay_base__extraChapter_7749fdaf",
   lT = "IntroOverlay_base__holiday_2f0d6d76",
   cT = "IntroOverlay_hoverHelper__withOverlay_ce4fe777",
   dT = "IntroOverlay_borderNoise_3087bf34",

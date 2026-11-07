@@ -1,15 +1,15 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Dr as e,
-  Hr as t,
-  Jn as i,
-  Qt as a,
-  Yn as l,
-  Zn as n,
+  Er as e,
+  Jn as t,
+  Vr as i,
+  Xt as a,
+  Yn as n,
+  Zn as l,
   _n as o,
   bt as r,
-  fn as c,
-  li as d,
+  ci as c,
+  fn as d,
   n as h,
   pn as _,
   tn as m,
@@ -18,13 +18,13 @@ import "../../chunks/global.js";
 import { h as x } from "../../chunks/vendor.js";
 import { n as j, t as p } from "../../chunks/wot_plus_banner.js";
 import { n as v, t as b } from "../../chunks/per_battle_points_table.js";
-d();
+c();
 var u = s(a(), 1),
   f = "VehicleList_82a6a4d",
   N = "VehicleList_info_41a84ef",
   g = "VehicleList_points_9c8e2f92",
   w = "VehicleList_top_af361d05",
-  P = l(),
+  P = n(),
   C = ({ vehiclesList: s }) => {
     const t = ({
       vehicleLevel: s,
@@ -32,11 +32,11 @@ var u = s(a(), 1),
       vehicleType: t,
       vehicleBonus: i,
       vehicleTop: a,
-      isElite: l,
+      isElite: n,
     }) => ({
       vehicle: (0, P.jsx)(
         j,
-        { isElite: l, isSpecial: !0, vehicleLevel: s, vehicleName: e, vehicleType: t },
+        { isElite: n, isSpecial: !0, vehicleLevel: s, vehicleName: e, vehicleType: t },
         "vehicle",
       ),
       bonus: (0, P.jsx)(
@@ -75,52 +75,52 @@ var u = s(a(), 1),
       rewardPoints: s.array("rewardPoints"),
       vehiclesList: s.array("vehiclesList"),
     }),
-    t,
+    i,
   ),
-  H = "Header_a103bd21",
+  V = "Header_a103bd21",
   S = "Header_icon_eed746ab",
-  V = "Header_labels_f416515f",
-  W = "Header_title_381c9f5b",
+  W = "Header_labels_f416515f",
+  H = "Header_title_381c9f5b",
   y = "Header_subtitle_632b6de",
-  T = R.strings.battle_pass.tooltips.points,
-  E = () =>
+  E = R.strings.battle_pass.tooltips.points,
+  T = () =>
     (0, P.jsxs)("div", {
-      className: H,
+      className: V,
       children: [
         (0, P.jsx)("div", { className: S }),
         (0, P.jsxs)("div", {
-          className: V,
+          className: W,
           children: [
-            (0, P.jsx)("div", { className: W, children: T.title() }),
-            (0, P.jsx)("div", { className: y, children: T.subtitle() }),
+            (0, P.jsx)("div", { className: H, children: E.title() }),
+            (0, P.jsx)("div", { className: y, children: E.subtitle() }),
           ],
         }),
       ],
     }),
   B = "Points_2d36306a",
-  D = "Points_separator_162767d5",
-  M = "Points_105728d0",
-  A = "Points_table_eac25b11",
+  M = "Points_separator_162767d5",
+  A = "Points_105728d0",
+  D = "Points_table_eac25b11",
   F = x(() => {
     const { model: s } = k(),
       e = s.rewardPoints.get(),
-      t = s.isWotPlusShown.get(),
-      { breakpoint: a } = i();
+      i = s.isWotPlusShown.get(),
+      { breakpoint: a } = t();
     return (0, P.jsxs)("div", {
       className: B,
       children: [
-        (0, P.jsx)("div", { className: D }),
+        (0, P.jsx)("div", { className: M }),
         (0, P.jsx)("div", {
-          className: M,
+          className: A,
           children: (0, P.jsx)(b, {
             showSeparator: !1,
             stretchBg: !0,
             separatorRows: e.items,
-            mixClass: A,
+            mixClass: D,
             children: (0, P.jsx)(v, {
-              tableColumnWidth: a.weight < n.small.weight ? 210 : 230,
+              tableColumnWidth: a.weight < l.small.weight ? 210 : 230,
               rewardPoints: e,
-              hasAdditionalPoints: t,
+              hasAdditionalPoints: i,
             }),
           }),
         }),
@@ -128,7 +128,7 @@ var u = s(a(), 1),
     });
   }),
   J = "Content_d4d03eba",
-  Q = "Content_separator_774f59ff",
+  X = "Content_separator_774f59ff",
   Y = "Content_subtitleRules_2104a67e",
   Z = "Content_subtitleVehicles_ead57094",
   q = "Content_pointsWrapper_21e79339",
@@ -143,14 +143,14 @@ var u = s(a(), 1),
     return (0, P.jsxs)("div", {
       className: J,
       children: [
-        (0, P.jsx)(E, {}),
+        (0, P.jsx)(T, {}),
         (0, P.jsx)("div", { className: Y, children: K.rules() }),
         (0, P.jsxs)("div", {
           className: q,
           children: [
             (0, P.jsx)(F, {}),
             t && (0, P.jsx)(p, {}),
-            (0, P.jsx)("div", { className: Q }),
+            (0, P.jsx)("div", { className: X }),
           ],
         }),
         e.length > 0 &&
@@ -158,7 +158,7 @@ var u = s(a(), 1),
             children: [
               (0, P.jsx)("div", { className: Z, children: K.specialVehicles() }),
               (0, P.jsx)(C, { vehiclesList: e }),
-              (0, P.jsx)("div", { className: z, children: (0, P.jsx)("div", { className: Q }) }),
+              (0, P.jsx)("div", { className: z, children: (0, P.jsx)("div", { className: X }) }),
             ],
           }),
         (0, P.jsx)("div", {
@@ -168,10 +168,10 @@ var u = s(a(), 1),
       ],
     });
   }),
-  U = () => (0, P.jsx)(h, { children: (0, P.jsx)(h.Decorator, { children: (0, P.jsx)(O, {}) }) });
-c(
+  Q = () => (0, P.jsx)(h, { children: (0, P.jsx)(h.Decorator, { children: (0, P.jsx)(O, {}) }) });
+d(
   new _()
     .add(m)
     .addWithProps(L, {})
-    .render((0, P.jsx)(U, {})),
+    .render((0, P.jsx)(Q, {})),
 );

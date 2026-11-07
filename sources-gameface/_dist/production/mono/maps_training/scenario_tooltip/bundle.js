@@ -12,8 +12,8 @@ import {
   et as d,
   h as m,
   it as _,
-  n as v,
-  nt as h,
+  nt as v,
+  t as h,
   w as g,
   x as p,
   y as T,
@@ -86,12 +86,12 @@ function I() {
       },
       [e],
     ),
-    g = h(S.base, a && S.base__complete),
-    x = h(S.title, a && S.title__green),
-    f = h(S.vehicle, S[`vehicle__${e.vehicleType.get()}`]);
-  return (0, N.jsx)(v, {
+    g = v(S.base, a && S.base__complete),
+    x = v(S.title, a && S.title__green),
+    f = v(S.vehicle, S[`vehicle__${e.vehicleType.get()}`]);
+  return (0, N.jsx)(h, {
     "data-name": "ScenarioTooltip",
-    children: (0, N.jsx)(v.Decorator, {
+    children: (0, N.jsx)(h.Decorator, {
       children: (0, N.jsxs)("div", {
         className: g,
         children: [
