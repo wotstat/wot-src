@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root xmlns:xmlref="http://bwt/xmlref">
 	<crew>
-		<commander>radioman loader</commander>
+		<commander>radioman</commander>
 		<gunner>loader</gunner>
 		<driver></driver>
 	</crew>
@@ -9,7 +9,7 @@
 	<postProgressionTree>role_HT_break</postProgressionTree>
 	<customRoleSlotOptions>2 4</customRoleSlotOptions>
 	<speedLimits>
-		<forward>60</forward>
+		<forward>55</forward>
 		<backward>20</backward>
 	</speedLimits>
 	<invisibility>
@@ -41,7 +41,7 @@
 	</camouflage>
 	<hull>
 		<armor>
-			<armor_1>96</armor_1>
+			<armor_1>110</armor_1>
 			<armor_2>63</armor_2>
 			<armor_3>80</armor_3>
 			<armor_4>50</armor_4>
@@ -2604,7 +2604,7 @@
 			<engines>
 				<GTD_1GV7>
 					<smplEnginePower>1000</smplEnginePower>
-					<smplFwMaxSpeed>60</smplFwMaxSpeed>
+					<smplFwMaxSpeed>55</smplFwMaxSpeed>
 				</GTD_1GV7>
 			</engines>
 			<chassis>
