@@ -1796,6 +1796,10 @@ class IEpicBattleMetaGameController(IGameController, ISeasonProvider):
         raise NotImplementedError
         return
 
+    def getCompareVisibleVehiclesList(self):
+        raise NotImplementedError
+        return
+
     def getStoredEpicDiscount(self):
         raise NotImplementedError
         return

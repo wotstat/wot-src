@@ -17,6 +17,7 @@ class PbhGameLogicObserver(BasePbhSubSystem, BaseStateObserver):
     def __init__(self, readyCallback):
         self.__stateReached = False
         self.__prebattlePeriodReached = False
+        self.__pbhEnded = False
         super(PbhGameLogicObserver, self).__init__(readyCallback)
         return
 
@@ -42,6 +43,7 @@ class PbhGameLogicObserver(BasePbhSubSystem, BaseStateObserver):
     def clear(self):
         self.__stateReached = False
         self.__prebattlePeriodReached = False
+        self.__pbhEnded = False
         super(PbhGameLogicObserver, self).clear()
         return
 
@@ -50,11 +52,15 @@ class PbhGameLogicObserver(BasePbhSubSystem, BaseStateObserver):
 
     def onEnterState(self, state, event):
         _logger.debug(b'[PBH] PBH game state reached.')
+        if self.__pbhEnded:
+            self.__gameplayLogic.postStateEvent(PlayerEventID.PREBATTLE_START)
+            return
         self.__stateReached = True
         self.__tryCallReadyCallback()
         return
 
     def postPbhEnd(self):
+        self.__pbhEnded = True
         self.__gameplayLogic.postStateEvent(PlayerEventID.PREBATTLE_START)
         self.__stateReached = False
         self.__prebattlePeriodReached = False

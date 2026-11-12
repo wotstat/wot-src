@@ -5,59 +5,59 @@ import {
   Dn as s,
   Dr as r,
   Fn as n,
-  Ft as i,
-  Gi as o,
-  Ia as l,
-  In as c,
-  It as d,
-  Ja as u,
-  Kt as _,
-  Mt as m,
-  Or as b,
-  Pi as p,
-  Pr as v,
-  Qa as f,
-  Qn as g,
-  R as h,
-  St as x,
-  Ti as y,
-  Tr as N,
-  Vr as B,
-  Wr as j,
-  _t as I,
-  aa as E,
-  ai as A,
-  ao as C,
-  ar as k,
-  ci as T,
-  cr as P,
-  d as S,
-  dr as M,
-  ea as O,
-  eo as W,
-  f as w,
-  fi as D,
-  ga as H,
-  hi as V,
-  hn as L,
-  hr as z,
-  jn as $,
-  jr as F,
-  kr as U,
-  li as G,
-  lr as Q,
-  mi as q,
-  oa as Y,
-  pr as J,
-  qr as K,
-  ro as X,
-  rr as Z,
+  Gi as i,
+  Ia as o,
+  In as l,
+  Ja as c,
+  Or as d,
+  Pi as u,
+  Pr as _,
+  Qa as m,
+  Qn as b,
+  Ti as p,
+  Tr as v,
+  Vr as f,
+  Wr as g,
+  aa as h,
+  ai as y,
+  an as x,
+  ao as N,
+  ar as B,
+  ci as j,
+  cr as I,
+  dn as E,
+  dr as A,
+  ea as C,
+  en as k,
+  eo as T,
+  fi as P,
+  fn as S,
+  ga as M,
+  hi as O,
+  hn as W,
+  hr as w,
+  in as D,
+  jn as H,
+  jr as V,
+  kr as L,
+  li as z,
+  lr as $,
+  mi as F,
+  mn as U,
+  oa as G,
+  on as Q,
+  pn as q,
+  pr as Y,
+  qr as J,
+  ro as K,
+  rr as X,
+  sn as Z,
   to as ee,
   ui as te,
-  uo as ae,
-  ur as se,
-  xr as re,
-  xt as ne,
+  un as ae,
+  uo as se,
+  ur as re,
+  xr as ne,
   zi as ie,
   zr as oe,
 } from "../chunks/lib.js";
@@ -67,8 +67,8 @@ import { a as de, i as ue, n as _e, r as me } from "../chunks/user_account_model
 var be = (function (e) {
     return ((e.Hangar = "hangar"), (e.Default = "default"), e);
   })({}),
-  [pe, ve] = z("HeaderStateModel")((e) => ({ features: e.observableModel.dict("features") })),
-  [fe, ge] = z()(
+  [pe, ve] = w("HeaderStateModel")((e) => ({ features: e.observableModel.dict("features") })),
+  [fe, ge] = w()(
     ({ observableModel: e }) => ({
       ...e.primitives(["pageTitle", "backNavigationDescription", "backNavigationAllowed"]),
       infoButtons: e.arrayClone("infoButtons"),
@@ -78,10 +78,10 @@ var be = (function (e) {
       doInfoAction: e.createCallback((e) => ({ index: e }), "onInfoAction"),
     }),
   ),
-  [he, xe] = z("CurrentVehicleInfoProvider")(({ observableModel: e }) => {
+  [he, ye] = w("CurrentVehicleInfoProvider")(({ observableModel: e }) => {
     const t = { vehicles: e.dictRef("vehicles") };
     return {
-      vehicle: J.shallow(() => {
+      vehicle: Y.shallow(() => {
         try {
           const e = t.vehicles.entries()[0];
           if (e) {
@@ -93,12 +93,12 @@ var be = (function (e) {
         }
       }),
     };
-  }, H),
-  [ye, Ne] = z("HeaderProvider")(({ observableModel: e }) => e.primitives(["oldStyle"]), H),
+  }, M),
+  [xe, Ne] = w("HeaderProvider")(({ observableModel: e }) => e.primitives(["oldStyle"]), M),
   Be = "playerReady",
   je = "searchingBattle",
   Ie = "battleReady",
-  [Ee, Ae] = z("PrebattleProvider")(
+  [Ee, Ae] = w("PrebattleProvider")(
     ({ observableModel: e }) => {
       const t = {
           ...e.primitives([
@@ -113,24 +113,24 @@ var be = (function (e) {
             if (s(e.type)) return { ...e, type: e.type };
           }, "battleVehicle"),
         },
-        a = J.primitive(() => t.battleStatus.get() === je),
-        r = J.primitive(() => t.battleStatus.get() === Ie);
+        a = Y.primitive(() => t.battleStatus.get() === je),
+        r = Y.primitive(() => t.battleStatus.get() === Ie);
       return { ...t, computes: { isSearchingBattle: a, isBattleReady: r } };
     },
     ({ externalModel: e }) => ({
       actionPrebattle: e.createCallback((e) => ({ action: e }), "onAction"),
     }),
   ),
-  [Ce, ke] = z("PremiumShopProvider")(
+  [Ce, ke] = w("PremiumShopProvider")(
     ({ observableModel: e }) => ({ ...e.primitives({ isPremiumShop: "premiumShopEnabled" }) }),
     ({ externalModel: e }) => ({
       openPremiumShop: e.createCallbackNoArgs("onOpenExternalPremiumShop"),
     }),
   ),
-  [Te, Pe] = z("TutorialProvider")(
+  [Te, Pe] = w("TutorialProvider")(
     ({ observableModel: e }) => {
       const t = { triggers: e.arrayClone("triggers.items") },
-        a = J.primitive(() => t.triggers.get().length);
+        a = Y.primitive(() => t.triggers.get().length);
       return { ...t, computes: { triggersCount: a } };
     },
     ({ externalModel: e }) => ({
@@ -140,10 +140,10 @@ var be = (function (e) {
       ),
     }),
   ),
-  Se = e(X(), 1),
-  [Me, Oe] = z("BattleStartProvider")(
+  Se = e(K(), 1),
+  [Me, Oe] = w("BattleStartProvider")(
     ({ observableModel: e }) => ({ ...e.primitives(["tooltip"]) }),
-    H,
+    M,
   );
 var We = "active",
   we = "ready",
@@ -154,12 +154,12 @@ var He = {
     base: "BackgroundEffects_47bdcaf9",
     backgroundEffect__rays: "BackgroundEffects_backgroundEffect__rays_4ebbd8d0",
   },
-  Ve = e(V(), 1),
+  Ve = e(O(), 1),
   Le = "rays";
 var ze = (0, Se.memo)(function ({ buttonState: e, className: t }) {
     const a = e === We ? [Le] : [];
-    const s = ae.resolve("videos"),
-      r = j(a, {
+    const s = se.resolve("videos"),
+      r = g(a, {
         from: { opacity: 0 },
         enter: { opacity: 1 },
         leave: { opacity: 0 },
@@ -172,7 +172,7 @@ var ze = (0, Se.memo)(function ({ buttonState: e, className: t }) {
         (0, Ve.jsx)(oe.div, {
           style: e,
           children: (0, Ve.jsx)(
-            h,
+            S,
             {
               loop: !0,
               autoplay: !0,
@@ -188,12 +188,12 @@ var ze = (0, Se.memo)(function ({ buttonState: e, className: t }) {
   $e = "ButtonEffects_merged_86ab891d",
   Fe = "ButtonEffects_bdb5411e",
   Ue = (0, Se.memo)(function ({ className: e, onAnimationStarted: t }) {
-    const a = ae.resolve("videos"),
-      s = G({ value: "small" }, { large: { value: "large" } });
+    const a = se.resolve("videos"),
+      s = z({ value: "small" }, { large: { value: "large" } });
     return (0, Ve.jsx)("div", {
       className: ee(Fe, e),
       children: (0, Ve.jsx)(
-        h,
+        S,
         {
           autoplay: !0,
           loop: !0,
@@ -218,9 +218,9 @@ var ze = (0, Se.memo)(function ({ buttonState: e, className: t }) {
     textOverlay: "ButtonText_textOverlay_1bcba7de",
   };
 function Qe({ buttonState: e, buttonText: t, animationActive: a, onAnimationEnded: s }) {
-  const r = B({
+  const r = f({
     opacity: a ? 0.9 : 0,
-    config: { duration: a ? 3600 : 1e3, easing: a ? W.easeInCirc : W.easeOutCirc },
+    config: { duration: a ? 3600 : 1e3, easing: a ? T.easeInCirc : T.easeOutCirc },
     onRest: () => {
       a && s();
     },
@@ -231,7 +231,7 @@ function Qe({ buttonState: e, buttonText: t, animationActive: a, onAnimationEnde
       ? (0, Ve.jsx)("div", { className: Ge.textGlow, children: t })
       : null;
 }
-var qe = P(function ({
+var qe = I(function ({
     actionType: e,
     buttonState: t,
     animationActive: a,
@@ -239,8 +239,8 @@ var qe = P(function ({
     className: r,
   }) {
     const n = Ae(),
-      i = ae.resolve("strings"),
-      o = C.toUpperCase(
+      i = se.resolve("strings"),
+      o = N.toUpperCase(
         i.readOrEmpty(
           (function (e, t) {
             return "battleStartAction" === e
@@ -254,7 +254,7 @@ var qe = P(function ({
     return (0, Ve.jsxs)("div", {
       className: ee(Ge.base, Ge[`base__${t}`], r),
       children: [
-        (0, Ve.jsx)(w, {
+        (0, Ve.jsx)(E, {
           classNames: { base: Ge.textWrapper, text: Ge.text, textOverlay: Ge.textOverlay },
           children: o,
         }),
@@ -280,7 +280,7 @@ var qe = P(function ({
     overlay: "ButtonWrapper_overlay_ccea80e8",
   },
   Je = [we, Re],
-  Ke = P(function ({
+  Ke = I(function ({
     buttonState: e,
     transitionActive: t,
     transitionFromState: a,
@@ -290,13 +290,13 @@ var qe = P(function ({
   }) {
     const i = Oe(),
       o = Ae(),
-      l = i.model.tooltip.get(),
-      d = (function (e) {
+      c = i.model.tooltip.get(),
+      u = (function (e) {
         const t = e.match(/{HEADER}(.*?){\/HEADER}/)?.[1],
           a = e.match(/{BODY}(.*?){\/BODY}/)?.[1],
           s = e.match(/{NOTE}(.*?){\/NOTE}/)?.[1],
           r = e.match(/{ATTENTION}(.*?){\/ATTENTION}/)?.[1];
-        return b({
+        return d({
           header: t,
           body: a,
           alert: r,
@@ -304,22 +304,22 @@ var qe = P(function ({
           hasHtmlContent: !0,
           disabled: 0 === e.length,
         });
-      })(l),
-      u = e === De;
-    const _ = a && Je.includes(a) && Je.includes(e);
+      })(c),
+      _ = e === De;
+    const m = a && Je.includes(a) && Je.includes(e);
     return (0, Ve.jsx)("div", {
-      ...(u && l && d),
+      ...(_ && c && u),
       className: n,
-      children: (0, Ve.jsxs)(c, {
-        theme: c.themes.custom,
-        disabled: u,
+      children: (0, Ve.jsxs)(l, {
+        theme: l.themes.custom,
+        disabled: _,
         autoAlignContent: !1,
         onClick: function () {
-          u || o.controls.actionPrebattle(s);
+          _ || o.controls.actionPrebattle(s);
         },
         className: ee(Ye.button, Ye[`button__${e}`]),
         classNames: {
-          background: ee(Ye.background, Ye[`background__${e}`], t && !_ && Ye.background__appear),
+          background: ee(Ye.background, Ye[`background__${e}`], t && !m && Ye.background__appear),
           content: Ye.content,
           border: Ye.border,
           overlay: Ye.overlay,
@@ -328,7 +328,7 @@ var qe = P(function ({
         soundTarget: "battleButton",
         children: [
           t &&
-            !_ &&
+            !m &&
             (0, Ve.jsx)("div", {
               className: ee(Ye.background, Ye.background__dissapear, Ye[`background__${a}`]),
             }),
@@ -352,45 +352,45 @@ var qe = P(function ({
   },
   Ze = "FightButton",
   et = "enabled_change",
-  tt = Z("BattleButton", Xe.base),
-  at = P(function ({ classNames: e }) {
+  tt = X("BattleButton", Xe.base),
+  at = I(function ({ classNames: e }) {
     const t = Ae(),
       [a, s] = (0, Se.useState)(!1),
       [r, n] = (0, Se.useState)(!1),
       [i, o] = (0, Se.useState)(),
       { model: l, controls: c } = Pe(),
       d = l.computes.triggersCount(),
-      u = v(),
-      _ = "BATTLE_ROYALE_TOURNAMENT" === t.model.queueType.get(),
-      m = "TRAINING" === t.model.currentMode.get(),
-      b =
-        (!t.model.states.get("playerCreator") && !m && t.model.states.get("readinessAvailable")) ||
-        _
+      u = _(),
+      m = "BATTLE_ROYALE_TOURNAMENT" === t.model.queueType.get(),
+      b = "TRAINING" === t.model.currentMode.get(),
+      p =
+        (!t.model.states.get("playerCreator") && !b && t.model.states.get("readinessAvailable")) ||
+        m
           ? "readyAction"
           : "battleStartAction",
-      p = (function (e, t, a) {
+      v = (function (e, t, a) {
         return t ? De : "battleStartAction" === e ? We : a ? Re : we;
-      })(b, !t.model.states.get("actionEnabled"), t.model.states.get(Be)),
-      f = T(p),
-      g = p === De;
+      })(p, !t.model.states.get("actionEnabled"), t.model.states.get(Be)),
+      f = j(v),
+      g = v === De;
     return (
       (0, Se.useEffect)(
         () =>
           ie(() => {
-            const e = E(l.triggers.get(), (e) => e.componentId === Ze);
-            ((d > 0 && e) || (f && p !== f)) && c.onTriggerActivated(Ze, et, !0);
+            const e = h(l.triggers.get(), (e) => e.componentId === Ze);
+            ((d > 0 && e) || (f && v !== f)) && c.onTriggerActivated(Ze, et, !0);
           }),
-        [p, c, l.triggers, f, d],
+        [v, c, l.triggers, f, d],
       ),
       (0, Se.useEffect)(() => {
         f &&
-          p !== f &&
+          v !== f &&
           (n(!0),
           o(f),
           u.run(() => {
             n(!1);
           }, 600));
-      }, [u, p, f]),
+      }, [u, v, f]),
       (0, Se.useLayoutEffect)(
         () => () => {
           c.onTriggerActivated(Ze, et, !1);
@@ -401,22 +401,22 @@ var qe = P(function ({
         className: e?.base,
         id: "fight-button",
         children: [
-          (0, Ve.jsx)(ze, { buttonState: p, className: ee(Xe.backgroundEffects, e?.effect) }),
+          (0, Ve.jsx)(ze, { buttonState: v, className: ee(Xe.backgroundEffects, e?.effect) }),
           (0, Ve.jsxs)(Ke, {
-            actionType: b,
-            buttonState: p,
+            actionType: p,
+            buttonState: v,
             transitionActive: r,
             transitionFromState: i,
             className: e?.content,
             children: [
-              !g && (0, Ve.jsx)("div", { className: ee(Xe.reflector, Xe[`reflector__${p}`]) }),
-              p === We &&
+              !g && (0, Ve.jsx)("div", { className: ee(Xe.reflector, Xe[`reflector__${v}`]) }),
+              v === We &&
                 (0, Ve.jsx)(Ue, { className: Xe.buttonEffects, onAnimationStarted: () => s(!0) }),
               (0, Ve.jsx)("div", { className: Xe.hoverOverlay }),
               (0, Ve.jsx)("div", { className: ee(Xe.desaturation, !g && Xe.desaturation__hidden) }),
               (0, Ve.jsx)(qe, {
-                actionType: b,
-                buttonState: p,
+                actionType: p,
+                buttonState: v,
                 animationActive: a,
                 onAnimationEnded: () => s(!1),
                 className: Xe.buttonText,
@@ -431,7 +431,7 @@ var qe = P(function ({
     (0, Ve.jsx)(Me, { options: e, children: (0, Ve.jsx)(at, { ...t }) }),
   );
 function rt() {
-  const e = d().paramsStruct.routeType;
+  const e = U().paramsStruct.routeType;
   return "string" == typeof e ? e : be.Default;
 }
 var nt = {
@@ -450,31 +450,31 @@ var nt = {
     { size: e, infoType: t, label: a, tooltipHeader: s, tooltipBody: r, classNames: n = {}, ...i },
     o,
   ) {
-    const l = s || r,
-      d = b({ header: s, body: r }),
-      u = D(e, te);
-    return (0, Ve.jsxs)(c, {
+    const c = s || r,
+      u = d({ header: s, body: r }),
+      _ = P(e, te);
+    return (0, Ve.jsxs)(l, {
       ...i,
       onClick: function (e) {
-        (l && d.onClick(), i.onClick?.(e));
+        (c && u.onClick(), i.onClick?.(e));
       },
       onMouseEnter: function (e) {
-        (l && d.onMouseEnter(e), i.onMouseEnter?.(e));
+        (c && u.onMouseEnter(e), i.onMouseEnter?.(e));
       },
       onMouseLeave: function (e) {
-        (d.onMouseLeave(), i.onMouseLeave?.(e));
+        (u.onMouseLeave(), i.onMouseLeave?.(e));
       },
       ref: o,
-      size: c.sizes.small,
-      theme: c.themes.secondary,
+      size: l.sizes.small,
+      theme: l.themes.secondary,
       autoAlignContent: !1,
       className: ee(nt.base, nt[`base__${e}Size`], i.className),
       classNames: { ...n, content: ee(nt.content, a && nt.content__label, n?.content) },
       children: [
         (0, Ve.jsx)("div", { className: nt.border }),
-        (0, Ve.jsx)(k, {
+        (0, Ve.jsx)(B, {
           className: nt.icon,
-          path: `header_footer.info_icon_${t}_${u}`,
+          path: `header_footer.info_icon_${t}_${_}`,
           height: ot[e],
           width: ot[e],
         }),
@@ -494,8 +494,8 @@ var ct = "NavigationBar_425ae997",
   ft = "NavigationBar_iconImage__active_fbf5db52",
   gt = "NavigationBar_button__garageNavigation_69a10af0",
   ht = "NavigationBar_divider_7592acb0",
-  xt = "NavigationBar_pageTitle_5847696c",
-  yt = "NavigationBar_hiddenLabel_1fa48c6e",
+  yt = "NavigationBar_pageTitle_5847696c",
+  xt = "NavigationBar_hiddenLabel_1fa48c6e",
   Nt = "NavigationBar_base__ready_69a10af0",
   Bt = "NavigationBar_base__animating_69a10af0",
   jt = "NavigationBar_hiddenLabelInner_8490d7c",
@@ -511,19 +511,19 @@ function At({ classNames: e = {} }) {
     ],
   });
 }
-var Ct = P(function ({
+var Ct = I(function ({
     classNames: e = {},
     className: t,
     garageNavigationAllowed: a,
     battleButtonVisible: s,
   }) {
     const { model: r, controls: n } = ge(),
-      i = re(),
-      o = ae.resolve("strings"),
+      i = ne(),
+      o = se.resolve("strings"),
       l = r.pageTitle.get(),
       c = r.backNavigationAllowed.get(),
       d = r.backNavigationDescription.get(),
-      u = r.infoButtons.get();
+      _ = r.infoButtons.get();
     function m(e) {
       i.play("mouse-enter", { target: "NavigationButton", original: e });
     }
@@ -532,22 +532,22 @@ var Ct = P(function ({
         n.doInfoAction(e);
       };
     }
-    const v = q(),
-      f = ae.resolve("intl"),
-      g = (0, Se.useRef)(null),
-      [h, x] = (0, Se.useState)(0),
-      [y, N] = (0, Se.useState)(!1),
-      [B, j] = (0, Se.useState)(!1);
-    K(() => {
-      (N(!0), x(g.current?.offsetWidth ? g.current?.offsetWidth + 1 : 0));
-      const e = p(() => j(!0));
+    const p = F(),
+      v = se.resolve("intl"),
+      f = (0, Se.useRef)(null),
+      [g, h] = (0, Se.useState)(0),
+      [y, x] = (0, Se.useState)(!1),
+      [N, B] = (0, Se.useState)(!1);
+    J(() => {
+      (x(!0), h(f.current?.offsetWidth ? f.current?.offsetWidth + 1 : 0));
+      const e = u(() => B(!0));
       return () => {
-        (N(!1), x(0), j(!1), e());
+        (x(!1), h(0), B(!1), e());
       };
-    }, [v.screenWidthRem, v.breakpoint.name, a, s, c, d, l]);
-    const I = G({ value: lt.sizes.small }, { extraLarge: { value: lt.sizes.medium } });
+    }, [p.screenWidthRem, p.breakpoint.name, a, s, c, d, l]);
+    const j = z({ value: lt.sizes.small }, { extraLarge: { value: lt.sizes.medium } });
     return (0, Ve.jsxs)("div", {
-      className: ee(ct, y && Nt, B && Bt, t, e.base),
+      className: ee(ct, y && Nt, N && Bt, t, e.base),
       children: [
         (0, Ve.jsxs)(le, {
           className: ee(ht, e.divider),
@@ -565,7 +565,7 @@ var Ct = P(function ({
                   (0, Ve.jsx)(At, { classNames: e }),
                   (0, Ve.jsx)("div", {
                     className: ee(_t, e.label),
-                    children: f.toUpperCase(o.readOrEmpty("menu.headerButtons.hangar")),
+                    children: v.toUpperCase(o.readOrEmpty("menu.headerButtons.hangar")),
                   }),
                 ],
               }),
@@ -582,14 +582,14 @@ var Ct = P(function ({
                     (0, Ve.jsx)(At, { classNames: e }),
                     (0, Ve.jsx)("div", {
                       className: ee(_t, e.label),
-                      children: f.toUpperCase(o.readOrEmpty("menu.headerButtons.navigation.back")),
+                      children: v.toUpperCase(o.readOrEmpty("menu.headerButtons.navigation.back")),
                     }),
                     d &&
                       (0, Ve.jsx)("div", {
-                        ref: g,
-                        className: ee(yt, e.hiddenLabel),
-                        style: { "--width": `${h}px` },
-                        children: (0, Ve.jsx)(_, { className: jt, text: f.toUpperCase(d) }),
+                        ref: f,
+                        className: ee(xt, e.hiddenLabel),
+                        style: { "--width": `${g}px` },
+                        children: (0, Ve.jsx)(Z, { className: jt, text: v.toUpperCase(d) }),
                       }),
                   ],
                 }),
@@ -597,20 +597,20 @@ var Ct = P(function ({
             l &&
               (0, Ve.jsx)(Ve.Fragment, {
                 children: (0, Ve.jsx)("div", {
-                  className: ee(xt, e.title),
-                  children: (0, Ve.jsx)(_, { text: f.toUpperCase(l) }),
+                  className: ee(yt, e.title),
+                  children: (0, Ve.jsx)(Z, { text: v.toUpperCase(l) }),
                 }),
               }),
           ],
         }),
-        u.length > 0 &&
-          O(u, (t, a) =>
+        _.length > 0 &&
+          C(_, (t, a) =>
             (0, Ve.jsx)(
               "div",
               {
-                className: ee(It, a === u.length - 1 && Et, e?.infoButton),
+                className: ee(It, a === _.length - 1 && Et, e?.infoButton),
                 children: (0, Ve.jsx)(lt, {
-                  size: I.value,
+                  size: j.value,
                   onClick: b(a),
                   infoType: t.type,
                   label: t.label,
@@ -647,13 +647,13 @@ var Ct = P(function ({
   Ht = "PlayersProfile_base__alertVisible_9b40d452",
   Vt = "PlayersProfile_anonymizerIcon_8632eb46",
   Lt = "PlayersProfile_alertIcon_b8de5d15",
-  zt = ae.resolve("strings"),
-  $t = Z("PlayersProfile", Tt, { variants: { alertVisible: { true: Ht } } }),
+  zt = se.resolve("strings"),
+  $t = X("PlayersProfile", Tt, { variants: { alertVisible: { true: Ht } } }),
   Ft = new Set([kt.ADD_NEEDED, kt.ADDED]),
   Ut = { width: "48rem", height: "48rem", marginLeft: "-35rem" },
-  Gt = P(function () {
-    const e = re(),
-      a = b({
+  Gt = I(function () {
+    const e = ne(),
+      a = d({
         header: zt.readOrEmpty("tooltips.header.account.header"),
         body: zt.readOrEmpty("tooltips.header.account.body"),
       }),
@@ -664,23 +664,23 @@ var Ct = P(function ({
         isInClan: o,
         clanAbbrev: l,
         suffixBadgeID: c,
-        teamKiller: d,
-        hasSteamAccount: u,
+        teamKiller: u,
+        hasSteamAccount: _,
         steamEmailStatus: m,
-        anonymized: p,
-        email: v,
+        anonymized: b,
+        email: p,
       } = s.userInfo.get(),
-      f = F(
+      v = V(
         "AccountCompletion",
-        (0, Se.useMemo)(() => [v], [v]),
+        (0, Se.useMemo)(() => [p], [p]),
       ),
-      g = u && Ft.has(m);
-    const h = D(S.Badge.sizes.x48x48, S.Badge.sizes.x80x80),
-      x = D(S.Stripe.sizes.medium, S.Stripe.sizes.big);
+      f = _ && Ft.has(m);
+    const g = P(Q.Badge.sizes.x48x48, Q.Badge.sizes.x80x80),
+      h = P(Q.Stripe.sizes.medium, Q.Stripe.sizes.big);
     return (0, Ve.jsxs)($t, {
-      alertVisible: g,
+      alertVisible: f,
       children: [
-        (0, Ve.jsxs)(S, {
+        (0, Ve.jsxs)(Q, {
           ...a,
           className: Pt,
           onClick: function (t) {
@@ -695,23 +695,23 @@ var Ct = P(function ({
             i > 0 &&
               (0, Ve.jsx)("div", {
                 className: Mt,
-                children: (0, Ve.jsx)(S.Badge, {
+                children: (0, Ve.jsx)(Q.Badge, {
                   badgeId: String(i),
                   width: 48,
                   height: 48,
-                  size: h,
+                  size: g,
                   className: Wt,
                 }),
               }),
-            (0, Ve.jsxs)(S.Wrapper, {
+            (0, Ve.jsxs)(Q.Wrapper, {
               className: St,
               children: [
-                (0, Ve.jsx)(S.Name, {
-                  className: ee(wt, Rt, d && Dt),
-                  children: (0, Ve.jsx)(_, { text: n }),
+                (0, Ve.jsx)(Q.Name, {
+                  className: ee(wt, Rt, u && Dt),
+                  children: (0, Ve.jsx)(Z, { text: n }),
                 }),
                 o &&
-                  (0, Ve.jsx)(S.ClanTag, {
+                  (0, Ve.jsx)(Q.ClanTag, {
                     className: wt,
                     children: (0, Ve.jsx)(t, {
                       upgradeLegacy: !0,
@@ -724,18 +724,18 @@ var Ct = P(function ({
             c > 0 &&
               (0, Ve.jsx)("div", {
                 className: Ot,
-                children: (0, Ve.jsx)(S.Stripe, {
+                children: (0, Ve.jsx)(Q.Stripe, {
                   badgeId: String(c),
-                  size: x,
-                  stripeIcon: S.Stripe.icons.stripe.medium,
-                  stipeBadgeIcon: S.Stripe.icons.badge.medium,
+                  size: h,
+                  stripeIcon: Q.Stripe.icons.stripe.medium,
+                  stipeBadgeIcon: Q.Stripe.icons.badge.medium,
                   style: Ut,
                 }),
               }),
-            p && (0, Ve.jsx)("div", { className: Vt }),
+            b && (0, Ve.jsx)("div", { className: Vt }),
           ],
         }),
-        g && (0, Ve.jsx)("div", { ...f, className: Lt }),
+        f && (0, Ve.jsx)("div", { ...v, className: Lt }),
       ],
     });
   }),
@@ -755,12 +755,12 @@ var Ct = P(function ({
   ra = "Premiums_premiumImg_d5d73467",
   na = "Premiums_premiumImg__disabled_12a94c05",
   ia = "Premiums_premiumShopImg_99a91f62",
-  oa = Z("PremiumShop", ee(qt, "Premiums_base__clickable_dd8e69b8")),
-  la = ae.resolve("strings");
+  oa = X("PremiumShop", ee(qt, "Premiums_base__clickable_dd8e69b8")),
+  la = se.resolve("strings");
 function ca() {
   const { model: e, controls: t } = ke(),
-    a = re(),
-    s = b({
+    a = ne(),
+    s = d({
       header: la.readOrEmpty("tooltips.header.premShop.header"),
       body: la.readOrEmpty("tooltips.header.premShop.body"),
     });
@@ -787,12 +787,12 @@ function ca() {
 var da = (function (e) {
     return ((e.Inactive = "Inactive"), (e.Active = "Active"), (e.Cancelled = "Cancelled"), e);
   })({}),
-  ua = Z("Premiums", qt),
-  _a = ae.resolve("strings"),
-  ma = ae.resolve("aliases"),
-  ba = ae.resolve("views");
-var pa = P(function ({ className: e }) {
-    const s = re(),
+  ua = X("Premiums", qt),
+  _a = se.resolve("strings"),
+  ma = se.resolve("aliases"),
+  ba = se.resolve("views");
+var pa = I(function ({ className: e }) {
+    const s = ne(),
       n = a({
         resId: ma.read((e) => e.lobby_header.default.UserAccount("resId")),
         contentId: ma.read((e) => e.common.tooltip.Backport("resId")),
@@ -802,10 +802,10 @@ var pa = P(function ({ className: e }) {
       { model: i, controls: o } = me(),
       l = i.wotPlus.get(),
       c = i.benefits.get(),
-      d = i.proBenefits.get(),
-      u = i.subscriptionPrimitives.isCnRealm.get(),
-      _ = i.getTooltipVariant(),
-      m = (function (e) {
+      u = i.proBenefits.get(),
+      _ = i.subscriptionPrimitives.isCnRealm.get(),
+      m = i.getTooltipVariant(),
+      b = (function (e) {
         if (void 0 === e) return null;
         const { unit: t, value: a } = e;
         return "days" === t
@@ -817,34 +817,34 @@ var pa = P(function ({ className: e }) {
       { type: p, state: v, isWotPlusEnabled: f } = l,
       { state: g } = i.premiumAccount.get(),
       h = (0, Se.useRef)(!1),
-      x = r(
+      y = r(
         "wot_plus_header_widget",
         (0, Se.useMemo)(
           () => ({
             ...l,
             bonuses: c,
-            proBonuses: d,
-            isCnRegion: u,
-            tooltipVariant: _,
+            proBonuses: u,
+            isCnRegion: _,
+            tooltipVariant: m,
             resId: ba.read((e) => e.mono.hangar.tooltips("resId")),
           }),
-          [l, c, d, u, _],
+          [l, c, u, _, m],
         ),
         { showDelay: 50 },
       ),
-      y = b({ body: _a.readOrEmpty("subscription.headerButton.tooltip.unavailable") });
+      x = d({ body: _a.readOrEmpty("subscription.headerButton.tooltip.unavailable") });
     const N = v && v === ue.Active;
     return (0, Ve.jsxs)(ua, {
       className: e,
       children: [
         (0, Ve.jsxs)("div", {
-          ...(f ? x : y),
+          ...(f ? y : x),
           className: ee(Yt, !f && Jt),
           "data-test-id": "wotPlus",
           onClick: f
             ? function (e) {
                 ((h.current = !0),
-                  x.onClick(),
+                  y.onClick(),
                   s.play("click", { target: "premiums:wot-plus", original: e }),
                   requestAnimationFrame(() => {
                     o.openWotPlusSubscriptionPage();
@@ -853,7 +853,7 @@ var pa = P(function ({ className: e }) {
             : void 0,
           onMouseEnter: function (e) {
             h.current ||
-              (f ? x?.onMouseEnter(e) : y?.onMouseEnter(e),
+              (f ? y?.onMouseEnter(e) : x?.onMouseEnter(e),
               s.play("mouse-enter", { target: "premiums:wot-plus", original: e }));
           },
           children: [
@@ -867,7 +867,7 @@ var pa = P(function ({ className: e }) {
               ),
             }),
             v === ue.Cancelled &&
-              (0, Ve.jsx)(k, { path: "subscription.alert_icon", className: sa }),
+              (0, Ve.jsx)(B, { path: "subscription.alert_icon", className: sa }),
           ],
         }),
         (0, Ve.jsx)(ce, { className: Zt }),
@@ -888,11 +888,11 @@ var pa = P(function ({ className: e }) {
             (0, Ve.jsx)("div", {
               className: Kt,
               children:
-                g === da.Active && m
+                g === da.Active && b
                   ? (0, Ve.jsx)("span", {
                       children: (0, Ve.jsx)(t, {
-                        path: `menu.timeLeft.short.${m.unit}`,
-                        params: { [m.unit]: Math.ceil(m.value) },
+                        path: `menu.timeLeft.short.${b.unit}`,
+                        params: { [b.unit]: Math.ceil(b.value) },
                         upgradeLegacy: !0,
                       }),
                     })
@@ -908,24 +908,24 @@ var pa = P(function ({ className: e }) {
   ),
   fa = "UserProfile_2146e52",
   ga = "UserProfile_divider_4a395a41",
-  ha = ae.resolve("aliases"),
-  xa = ha.read((e) => e.lobby_header.default.UserAccount("resId")),
-  ya = ha.read((e) => e.lobby_header.default.PremShop("resId"));
+  ha = se.resolve("aliases"),
+  ya = ha.read((e) => e.lobby_header.default.UserAccount("resId")),
+  xa = ha.read((e) => e.lobby_header.default.PremShop("resId"));
 function Na({ className: e }) {
-  const t = n(xa);
+  const t = n(ya);
   return (0, Ve.jsx)("div", {
     className: ee(fa, e),
     children: (0, Ve.jsxs)(le, {
       className: ga,
       children: [
-        t && (0, Ve.jsx)(Qt, { options: { rootId: xa } }),
-        t && (0, Ve.jsx)(va, { options: { rootId: xa } }),
-        ya && (0, Ve.jsx)(ca, {}),
+        t && (0, Ve.jsx)(Qt, { options: { rootId: ya } }),
+        t && (0, Ve.jsx)(va, { options: { rootId: ya } }),
+        xa && (0, Ve.jsx)(ca, {}),
       ],
     }),
   });
 }
-var Ba = P(function ({ garageNavigationAllowed: e, battleButtonVisible: t, classNames: a }) {
+var Ba = I(function ({ garageNavigationAllowed: e, battleButtonVisible: t, classNames: a }) {
     return rt() === be.Hangar
       ? (0, Ve.jsx)(Na, { className: a?.userProfile })
       : (0, Ve.jsx)(Ct, {
@@ -954,9 +954,9 @@ function Pa(e) {
   return Ta[e] ?? 0;
 }
 function Sa(e) {
-  return Math.max(0, Math.floor(e - Date.now() / l));
+  return Math.max(0, Math.floor(e - Date.now() / o));
 }
-var [Ma, Oa] = z()(
+var [Ma, Oa] = w()(
     ({ observableModel: e }) => {
       const t = {
           reserves: e.arrayClone("reserves"),
@@ -967,12 +967,12 @@ var [Ma, Oa] = z()(
             expiringReserveWillExpireSoon: "reserveExpire",
           }),
         },
-        a = J.primitive(() => E(t.reserves.get(), (e) => e.inactivationTime > 0)),
-        s = J.shallow(() => {
+        a = Y.primitive(() => h(t.reserves.get(), (e) => e.inactivationTime > 0)),
+        s = Y.shallow(() => {
           const e = t.reserves.get();
-          return Y(e, (e, t) => Pa(e.reserveType) - Pa(t.reserveType));
+          return G(e, (e, t) => Pa(e.reserveType) - Pa(t.reserveType));
         }),
-        r = J.shallow(() => t.disabledCategories.get().every((e) => e.isDisabled));
+        r = Y.shallow(() => t.disabledCategories.get().every((e) => e.isDisabled));
       return { ...t, computes: { visible: a, sortedBoosters: s, disabled: r } };
     },
     ({ externalModel: e }) => ({ openBooster: e.createCallbackNoArgs("openBoosterNavigation") }),
@@ -995,10 +995,10 @@ var [Ma, Oa] = z()(
   Ja = "Activate_glow__alert_8001ed30",
   Ka = "Activate_sparks_718002e7",
   Xa = "Activate_sparks__visible_842edf80",
-  Za = P(function () {
+  Za = I(function () {
     const { model: e } = Oa(),
-      t = ae.resolve("strings"),
-      a = ae.resolve("intl"),
+      t = se.resolve("strings"),
+      a = se.resolve("intl"),
       s = e.computes.visible(),
       r = e.allReserves.get(),
       n = e.limitedReserves.get(),
@@ -1018,7 +1018,7 @@ var [Ma, Oa] = z()(
                   className: Da,
                   children: (0, Ve.jsx)("div", { className: ee(Ha, n && Va) }),
                 }),
-                (0, Ve.jsx)(w, {
+                (0, Ve.jsx)(E, {
                   classNames: { base: La, text: ee(za, n && $a), textOverlay: ee(Fa, n && Ua) },
                   children: a.formatNumber("integral", r),
                 }),
@@ -1059,9 +1059,9 @@ var [Ma, Oa] = z()(
     fillBorderBottom: "Card_fillBorderBottom_96ba37d9",
     fillBorderBottom__visible: "Card_fillBorderBottom__visible_594e8c6a",
   },
-  ts = P(function ({ type: e, timeLeft: a, timeTotal: s, icon: r, className: n }) {
+  ts = I(function ({ type: e, timeLeft: a, timeTotal: s, icon: r, className: n }) {
     const { model: i } = Oa(),
-      { minutesLeft: o, percentLeft: c } = (function (e, t) {
+      { minutesLeft: l, percentLeft: d } = (function (e, t) {
         const [a, s] = (0, Se.useState)(Sa(e));
         ((0, Se.useEffect)(() => {
           s(Sa(e));
@@ -1070,33 +1070,33 @@ var [Ma, Oa] = z()(
             if (0 === a) return;
             const t = setTimeout(() => {
               s(Sa(e));
-            }, l);
+            }, o);
             return () => clearTimeout(t);
           }, [a, e]));
-        const r = u(a),
-          n = Math.ceil(f(r));
+        const r = c(a),
+          n = Math.ceil(m(r));
         return { minutesLeft: n, percentLeft: Math.max(0, Math.min(100, (n / (t / 60)) * 100)) };
       })(a, s),
-      d = i.computes.disabled(),
-      _ = o <= 9,
-      m = o <= 2,
-      b = G({ size: Aa }, { large: { size: Ca } }),
-      p = D(b.size, ka),
-      v = r.includes("premium");
+      u = i.computes.disabled(),
+      _ = l <= 9,
+      b = l <= 2,
+      p = z({ size: Aa }, { large: { size: Ca } }),
+      v = P(p.size, ka),
+      f = r.includes("premium");
     return a <= 0
       ? null
       : (0, Ve.jsxs)("div", {
-          className: ee(es.base, d && es.base__disabled, n),
-          style: { "--fill_percentage": `${c}%` },
+          className: ee(es.base, u && es.base__disabled, n),
+          style: { "--fill_percentage": `${d}%` },
           children: [
             (0, Ve.jsx)("div", { className: ee(es.background, es[`background__${_ ? Ea : e}`]) }),
-            (0, Ve.jsx)(k, {
+            (0, Ve.jsx)(B, {
               className: es.icon,
-              path: `personal_reserves.common.cards.${p}.${r}`,
+              path: `personal_reserves.common.cards.${v}.${r}`,
             }),
-            (0, Ve.jsx)(k, {
-              className: ee(es.premium, v && es.premium__visible),
-              path: `personal_reserves.common.cards.${b.size}.premium_booster_glow`,
+            (0, Ve.jsx)(B, {
+              className: ee(es.premium, f && es.premium__visible),
+              path: `personal_reserves.common.cards.${p.size}.premium_booster_glow`,
             }),
             (0, Ve.jsxs)("div", {
               className: ee(es.timer, _ && es.timer__visible),
@@ -1105,11 +1105,11 @@ var [Ma, Oa] = z()(
                 (0, Ve.jsx)(t, {
                   upgradeLegacy: !0,
                   path: "personal_reserves.hangarEntry.minute",
-                  params: { minutesLeft: o },
+                  params: { minutesLeft: l },
                 }),
               ],
             }),
-            (0, Ve.jsx)("div", { className: ee(es.alert, m && es.alert__visible) }),
+            (0, Ve.jsx)("div", { className: ee(es.alert, b && es.alert__visible) }),
             (0, Ve.jsxs)("div", {
               className: es.fill,
               children: [
@@ -1117,7 +1117,7 @@ var [Ma, Oa] = z()(
                   className: ee(es.fillPattern, es[`fillPattern__${_ ? Ea : e}`]),
                 }),
                 (0, Ve.jsx)("div", {
-                  className: ee(es.fillBorderTop, m && es.fillBorderTop__alert),
+                  className: ee(es.fillBorderTop, b && es.fillBorderTop__alert),
                 }),
                 (0, Ve.jsx)("div", {
                   className: ee(es.fillBorderBottom, _ && es.fillBorderBottom__visible),
@@ -1134,7 +1134,7 @@ var [Ma, Oa] = z()(
   is = "List_base__disabled_8303c2c1",
   os = "List_cards_efba95c2",
   ls = "List_card_d0063856",
-  cs = P(function () {
+  cs = I(function () {
     const { model: e } = Oa(),
       t = e.computes.sortedBoosters(),
       a = e.computes.visible(),
@@ -1148,7 +1148,7 @@ var [Ma, Oa] = z()(
             (0, Ve.jsx)("div", { className: rs }),
             (0, Ve.jsx)("div", {
               className: os,
-              children: o(
+              children: i(
                 t,
                 (e) => e.state === Ia.Active,
                 (e) =>
@@ -1171,18 +1171,18 @@ var [Ma, Oa] = z()(
   }),
   ds = "Reserves_43f2a7a7",
   us = "Reserves_base__disabled_58e2c36d",
-  _s = P(function () {
+  _s = I(function () {
     const { model: e, controls: t } = Oa(),
       s = (function () {
-        const e = ae.resolve("views");
+        const e = se.resolve("views");
         return a({
-          resId: ae
+          resId: se
             .resolve("aliases")
             .read((e) => e.lobby_header.default.ReservesEntryPoint("resId")),
           contentId: e.read((e) => e.lobby.personal_reserves.PersonalReservesTooltip("resId")),
         });
       })(),
-      r = re(),
+      r = ne(),
       n = e.computes.disabled();
     return (0, Ve.jsxs)("div", {
       ...s,
@@ -1200,12 +1200,12 @@ var [Ma, Oa] = z()(
   ms = (0, Se.memo)(({ options: e, ...t }) =>
     (0, Ve.jsx)(Ma, { options: e, children: (0, Ve.jsx)(_s, { ...t }) }),
   ),
-  [bs, ps] = z("WalletModel")(
+  [bs, ps] = w("WalletModel")(
     ({ observableModel: e }) => {
       const t = { currencies: e.dict("currencies") };
       return {
         ...t,
-        list: J.shallow((e) =>
+        list: Y.shallow((e) =>
           Array.from(t.currencies.keys.values()).sort((t, a) => {
             const s = e.indexOf(t),
               r = e.indexOf(a),
@@ -1223,21 +1223,21 @@ var [Ma, Oa] = z()(
   fs = "Hint_discountBackground_d56ce0a3",
   gs = "Hint_discount_94b7b9ff",
   hs = "Hint_onlyDiscount_8b648a0a",
-  xs = "Hint_discountWithHintText_381cf018",
-  ys = "Hint_onlyHintText_751386e1",
+  ys = "Hint_discountWithHintText_381cf018",
+  xs = "Hint_onlyHintText_751386e1",
   Ns = "Hint_discountValue_b1f389fc",
   Bs = "Hint_discountHintTitle_9db2d839",
   js = "Hint_hintText_6f3fa83f",
   Is = "Hint_hintTitle_135a3ed",
   Es = "Hint_discountValue__withHint_e7bbe38f";
 function As({ classNames: e }) {
-  const t = ae.resolve("strings");
+  const t = se.resolve("strings");
   return (0, Ve.jsxs)("div", {
     className: ee(hs, e?.onlyDiscount),
     children: [
       (0, Ve.jsx)("div", { className: ee(fs, e?.discountBackground) }),
-      (0, Ve.jsx)(g.Root, {
-        children: (0, Ve.jsx)(g.Value, {
+      (0, Ve.jsx)(b.Root, {
+        children: (0, Ve.jsx)(b.Value, {
           value: t.readOrEmpty("common.common.percent"),
           classNames: { valueContainer: ee(gs, e?.discount), value: ee(Ns, e?.discountValue) },
         }),
@@ -1246,11 +1246,11 @@ function As({ classNames: e }) {
   });
 }
 function Cs({ type: e, classNames: t }) {
-  const a = ae.resolve("intl"),
-    s = ae.resolve("strings");
+  const a = se.resolve("intl"),
+    s = se.resolve("strings");
   return (0, Ve.jsx)("div", {
-    className: ee(js, ys, t?.hintText, t?.onlyHintText),
-    children: (0, Ve.jsx)(w, {
+    className: ee(js, xs, t?.hintText, t?.onlyHintText),
+    children: (0, Ve.jsx)(E, {
       classNames: t?.textGradient,
       children: (0, Ve.jsx)("div", {
         className: ee(Is, t?.hintTitle),
@@ -1260,18 +1260,18 @@ function Cs({ type: e, classNames: t }) {
   });
 }
 function ks({ classNames: e, type: t }) {
-  const a = ae.resolve("intl"),
-    s = ae.resolve("strings");
+  const a = se.resolve("intl"),
+    s = se.resolve("strings");
   return (0, Ve.jsxs)("div", {
-    className: ee(xs, e?.discountWithHintText),
+    className: ee(ys, e?.discountWithHintText),
     children: [
       (0, Ve.jsx)("div", { className: ee(fs, e?.discountBackground) }),
       (0, Ve.jsx)("div", {
         className: ee(Bs, e?.discountHintTitle),
         children: a.toUpperCase(s.readOrEmpty(`menu.headerButtons.btnLabel.${t}`)),
       }),
-      (0, Ve.jsx)(g.Root, {
-        children: (0, Ve.jsx)(g.Value, {
+      (0, Ve.jsx)(b.Root, {
+        children: (0, Ve.jsx)(b.Value, {
           value: s.readOrEmpty("common.common.percent"),
           classNames: { valueContainer: ee(gs, e?.discount), value: ee(Ns, Es, e?.discountValue) },
         }),
@@ -1326,26 +1326,26 @@ var Ps = {
   Ms = 1e5;
 function Os({ wgMoneyAvailable: e, value: a, type: s, classNames: r }) {
   const n = (0, Se.useRef)(null),
-    i = ae.resolve("intl"),
-    o = ae.resolve("strings"),
-    l = G(
+    i = se.resolve("intl"),
+    o = se.resolve("strings"),
+    l = z(
       {
         displayValue: () =>
           a >= Ss
-            ? { abbreviated: !0, value: y(a, Ms, "floor") / Ss }
+            ? { abbreviated: !0, value: p(a, Ms, "floor") / Ss }
             : { abbreviated: !1, value: a },
       },
       {
         medium: {
           displayValue: () =>
             a >= 1e7
-              ? { abbreviated: !0, value: y(a, Ms, "floor") / Ss }
+              ? { abbreviated: !0, value: p(a, Ms, "floor") / Ss }
               : { abbreviated: !1, value: a },
         },
         large: {
           displayValue: () =>
             a >= 1e8
-              ? { abbreviated: !0, value: y(a, Ms, "floor") / Ss }
+              ? { abbreviated: !0, value: p(a, Ms, "floor") / Ss }
               : { value: a, abbreviated: !1 },
         },
       },
@@ -1378,28 +1378,28 @@ function Os({ wgMoneyAvailable: e, value: a, type: s, classNames: r }) {
       : i.formatNumber(s === x.gold ? "gold" : "integral", c.value),
   });
 }
-var Ws = P(function ({ currency: e, type: t, className: a, classNames: s }) {
+var Ws = I(function ({ currency: e, type: t, className: a, classNames: s }) {
     const { controls: r } = ps(),
-      n = re(),
+      n = ne(),
       i = "AVAILABLE" === e.status,
       o = (function (e, t, a, s) {
-        const r = ae.resolve("strings"),
-          n = b({
+        const r = se.resolve("strings"),
+          n = d({
             header: r.readOrEmpty(`tooltips.header.buttons.${e}.header`),
             body: r.readOrEmpty(`tooltips.header.buttons.${e}.body`),
           }),
           i = (0, Se.useMemo)(() => ({ disabled: "string" != typeof a || "" === a }), [a]),
-          o = U(
+          o = L(
             a,
             (0, Se.useMemo)(() => [s], [s]),
             i,
           );
         return !1 === t ? n : o;
       })(t, i, e.tooltipType, e.value),
-      l = D(
-        G({ size: ne.extraSmall }, { large: { size: ne.small }, extraLarge: { size: ne.medium } })
+      l = P(
+        z({ size: D.extraSmall }, { large: { size: D.small }, extraLarge: { size: D.medium } })
           .size,
-        ne.small,
+        D.small,
       );
     return (0, Ve.jsxs)("div", {
       ...o,
@@ -1419,7 +1419,7 @@ var Ws = P(function ({ currency: e, type: t, className: a, classNames: s }) {
       children: [
         (0, Ve.jsx)("div", {
           className: ee(Ps.currencyWrapper, s?.currencyWrapper),
-          children: (0, Ve.jsx)(I, {
+          children: (0, Ve.jsx)(k, {
             reverse: !0,
             classNames: { ...s?.currency, icon: ee(Ps.currencyIcon, s?.currency?.icon) },
             type: t,
@@ -1451,7 +1451,7 @@ var Ws = P(function ({ currency: e, type: t, className: a, classNames: s }) {
       ],
     });
   }),
-  ws = P(function (e) {
+  ws = I(function (e) {
     const t = ps().model.currencies.get(e.type);
     return t
       ? (0, Ve.jsx)(Ws, { ...e, currency: t })
@@ -1459,7 +1459,7 @@ var Ws = P(function ({ currency: e, type: t, className: a, classNames: s }) {
   }),
   Rs = "Wallet_fc600169",
   Ds = [x.crystal, x.gold, x.credits],
-  Hs = P(function ({ className: e, classNames: t, currenciesOrder: a = Ds }) {
+  Hs = I(function ({ className: e, classNames: t, currenciesOrder: a = Ds }) {
     const { model: s } = ps(),
       r = s.list(a);
     return (0, Ve.jsx)("div", {
@@ -1476,7 +1476,7 @@ var Ws = P(function ({ currency: e, type: t, className: a, classNames: s }) {
   ),
   Ls = "RightSide_7ef6e2a9",
   zs = "RightSide_separator_fea82003",
-  $s = ae.resolve("aliases"),
+  $s = se.resolve("aliases"),
   Fs = $s.read((e) => e.lobby_header.default.ReservesEntryPoint("resId")),
   Us = $s.read((e) => e.lobby_header.default.Wallet("resId")),
   Gs = function () {
@@ -1515,10 +1515,10 @@ var Js = {
     details: "VehicleInfo_details_3cde71e7",
     vehicleType: "VehicleInfo_vehicleType_5f8aaab4",
   },
-  Ks = P(function ({ className: e }) {
+  Ks = I(function ({ className: e }) {
     const a = Ae(),
       s = a.model.currentMode.get(),
-      r = xe(),
+      r = ye(),
       n = a.model.currentModeId.get(),
       i = ((o = n), "BATTLE_ROYALE_TOURNAMENT" !== a.model.queueType.get() && qs.has(o));
     var o;
@@ -1530,11 +1530,11 @@ var Js = {
             path: "menu.headerButtons.battle.vehicleInfo",
             params: {
               mode: s,
-              level: Ys(n) ? (0, Ve.jsx)($, { value: l.level, className: Js.details }) : "",
-              type: (0, Ve.jsx)(L, {
+              level: Ys(n) ? (0, Ve.jsx)(H, { value: l.level, className: Js.details }) : "",
+              type: (0, Ve.jsx)(W, {
                 className: Js.vehicleType,
                 type: l.type,
-                size: L.sizes.x24x24,
+                size: W.sizes.x24x24,
               }),
               name: (0, Ve.jsx)("div", { className: Js.details, children: l.shortName }),
             },
@@ -1565,43 +1565,43 @@ var Js = {
     battleButtonEffects: "App_battleButtonEffects_1da8cd9d",
     vehicleInfoWrapper: "App_vehicleInfoWrapper_9f2ec684",
   },
-  Zs = Z("Header", Xs.base, {
+  Zs = X("Header", Xs.base, {
     variants: {
       oldStyle: { true: Xs.base__oldStyle },
       battleButtonVisible: { true: Xs.base__battleButtonVisible },
     },
   }),
-  er = ae.resolve("aliases").read((e) => e.lobby_header.default.FightStart("resId")),
+  er = se.resolve("aliases").read((e) => e.lobby_header.default.FightStart("resId")),
   tr = new Set([je, Ie]),
   ar = new Set(["mapsTraining"]);
-var sr = P(function () {
-    const e = A(0, 250),
-      t = d(),
+var sr = I(function () {
+    const e = y(0, 250),
+      t = U(),
       a = Ne(),
       s = Ae(),
       [r, i] = (0, Se.useState)(!1),
       o = s.model.battleStatus.get(),
       l = s.model.battleButtonAlwaysOn.get(),
       c = !s.model.computes.isSearchingBattle() && !s.model.computes.isBattleReady(),
-      u = rt(),
-      _ = Boolean(
-        m(t.location, { paths: ["/:hangar/allVehicles", "/:eventName/:hangar/allVehicles"] }),
+      d = rt(),
+      u = Boolean(
+        ae(t.location, { paths: ["/:hangar/allVehicles", "/:eventName/:hangar/allVehicles"] }),
       ),
-      b = t.location.includes("/postBattleResults"),
-      p = n(er),
-      v = s.model.currentModeId.get();
+      _ = t.location.includes("/postBattleResults"),
+      m = n(er),
+      b = s.model.currentModeId.get();
     return (
       (0, Se.useEffect)(() => {
-        p
-          ? b && ar.has(v)
+        m
+          ? _ && ar.has(b)
             ? i(!1)
             : l
               ? i(!0)
               : tr.has(o)
                 ? i(!1)
-                : i(u === be.Hangar || _ || b)
+                : i(d === be.Hangar || u || _)
           : i(!1);
-      }, [l, o, u, _, b, p, v]),
+      }, [l, o, d, u, _, m, b]),
       (0, Ve.jsxs)(Zs, {
         ref: e,
         oldStyle: a.model.oldStyle.get(),
@@ -1633,14 +1633,14 @@ var sr = P(function () {
                   classNames: {
                     base: ee(
                       Xs.battleButton,
-                      u === be.Hangar || _
+                      d === be.Hangar || u
                         ? Xs.battleButton__withoutFadein
                         : Xs.battleButton__fadein,
                     ),
                     effect: Xs.battleButtonEffects,
                   },
                 }),
-                b &&
+                _ &&
                   (0, Ve.jsx)("div", {
                     className: Xs.vehicleInfoWrapper,
                     children: (0, Ve.jsx)(Ks, {}),
@@ -1658,13 +1658,13 @@ var sr = P(function () {
       })
     );
   }),
-  rr = ae.resolve("aliases"),
-  nr = N({ click: { battleButton: "gui_battle" } });
-se(
-  new M()
-    .addWithProps(Q, { soundsOverrides: nr })
-    .add(ye)
-    .addWithProps(i, {
+  rr = se.resolve("aliases"),
+  nr = v({ click: { battleButton: "gui_battle" } });
+re(
+  new A()
+    .addWithProps($, { soundsOverrides: nr })
+    .add(xe)
+    .addWithProps(q, {
       context: "model.router",
       rootId: rr.read((e) => e.lobby_header.default.HeaderState("resId")),
     })

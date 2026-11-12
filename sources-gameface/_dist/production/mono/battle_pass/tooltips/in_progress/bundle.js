@@ -1,37 +1,37 @@
 import { r as e } from "../../chunks/rolldown-runtime.js";
 import {
   I as s,
-  It as a,
-  Vr as t,
-  Yn as o,
-  _n as l,
-  an as r,
-  bt as n,
-  ci as i,
-  cn as d,
-  f as c,
-  fn as _,
-  l as m,
-  ln as b,
-  n as h,
-  ni as u,
-  oi as p,
-  pn as x,
-  ri as f,
-  rn as w,
-  sn as g,
-  tn as P,
-  un as j,
-  xt as N,
+  Vr as a,
+  Yn as t,
+  _n as o,
+  an as l,
+  bt as r,
+  ci as n,
+  cn as i,
+  f as d,
+  fn as c,
+  l as _,
+  ln as m,
+  n as b,
+  ni as h,
+  oi as u,
+  pn as p,
+  ri as x,
+  rn as f,
+  sn as w,
+  tn as g,
+  un as P,
+  xt as j,
+  zt as N,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as v } from "../../chunks/vendor.js";
 import { u as k } from "../../chunks/utils.js";
 import { t as I } from "../../chunks/types.js";
-import { t as T } from "../../chunks/separator.js";
+import { t as T } from "../../chunks/icon_text_block.js";
 import { a as y, i as B, n as C, r as E, t as S } from "../../chunks/per_battle_points_table.js";
-import { t as O } from "../../chunks/icon_text_block.js";
-var W = e(i(), 1),
+import { t as O } from "../../chunks/separator.js";
+var W = e(n(), 1),
   L = (function (e) {
     return (
       (e.COMMON = "common"),
@@ -41,7 +41,7 @@ var W = e(i(), 1),
       e
     );
   })({}),
-  [M, H] = l()(
+  [M, H] = o()(
     ({ observableModel: e }) => ({
       root: e.object(),
       rewardPoints: e.array("rewardPoints"),
@@ -49,12 +49,12 @@ var W = e(i(), 1),
       rewardsCommon: e.array("rewardsCommon"),
       rewardsElite: e.array("rewardsElite"),
     }),
-    t,
+    a,
   ),
   A = "Rewards_3f324c43",
-  U = o(),
+  U = t(),
   D = ({ className: e = "", children: s = null }) =>
-    (0, U.jsx)("div", { className: p(A, e), children: s }),
+    (0, U.jsx)("div", { className: u(A, e), children: s }),
   G = "ClaimInfo_63bb6cbd",
   $ = "ClaimInfo_unlock_c22806f7",
   F = R.strings.battle_pass.tooltips.claimRewards,
@@ -62,8 +62,8 @@ var W = e(i(), 1),
     const { model: s } = H(),
       { notChosenRewardCount: a } = s.root.get();
     return (0, U.jsx)("div", {
-      className: p(G, e),
-      children: (0, U.jsx)(O, {
+      className: u(G, e),
+      children: (0, U.jsx)(T, {
         icon: R.images.gui.maps.icons.battlePass.tooltips.bow_small(),
         text: F[a > 1 ? "multiple" : "c_1"](),
         className: $,
@@ -72,7 +72,7 @@ var W = e(i(), 1),
   }),
   V = (0, W.memo)(({ header: e, points: s, columnClassMix: a, hasAdditionalPoints: t }) =>
     (0, U.jsxs)("div", {
-      className: p(y.pointsColumn, a),
+      className: u(y.pointsColumn, a),
       children: [
         (0, U.jsx)("div", { className: y.tableHeader, children: e }),
         s.map((e, s) =>
@@ -112,7 +112,7 @@ var W = e(i(), 1),
     const a = (0, W.useMemo)(
         () =>
           e.soloMode.map(({ value: e }) =>
-            (0, U.jsx)(n, { text: z.places(), binding: { place: e.place } }),
+            (0, U.jsx)(r, { text: z.places(), binding: { place: e.place } }),
           ),
         [e],
       ),
@@ -120,7 +120,7 @@ var W = e(i(), 1),
       o = (0, W.useMemo)(
         () =>
           e.squadMode.map(({ value: e }, s) =>
-            (0, U.jsx)(n, { text: s > 0 ? z.places() : z.place(), binding: { place: e.place } }),
+            (0, U.jsx)(r, { text: s > 0 ? z.places() : z.place(), binding: { place: e.place } }),
           ),
         [e],
       ),
@@ -179,8 +179,8 @@ var W = e(i(), 1),
     return (0, U.jsxs)("div", {
       className: J.base,
       children: [
-        (0, U.jsx)("div", { className: p(J.modeIcon, J[`modeIcon__${t}`]), style: o }),
-        (0, U.jsx)(n, {
+        (0, U.jsx)("div", { className: u(J.modeIcon, J[`modeIcon__${t}`]), style: o }),
+        (0, U.jsx)(r, {
           text: R.strings.battle_pass.tooltips.inProgress.getPointsFrom(),
           binding: {
             battleType: (0, U.jsx)("div", {
@@ -224,13 +224,13 @@ var W = e(i(), 1),
   oe = [I.COMP7, I.COMP7_LIGHT],
   le = v(() => {
     const { model: e } = H(),
-      { battleType: s, isWotPlusShown: t } = e.root.get(),
-      o = e.rewardPoints.get(),
-      l = e.battleRoyaleRewardPoints.get(),
-      r = s === I.BATTLE_ROYALE,
-      n =
+      { battleType: s, isWotPlusShown: a } = e.root.get(),
+      t = e.rewardPoints.get(),
+      o = e.battleRoyaleRewardPoints.get(),
+      l = s === I.BATTLE_ROYALE,
+      r =
         null !== Z.inProgress.playGame.$dyn(s)
-          ? (0, U.jsx)(O, {
+          ? (0, U.jsx)(T, {
               icon: R.images.gui.maps.icons.battleTypes.$dyn(ee[s]),
               text: Z.inProgress.playGame.$dyn(s),
               className: Q.playGame,
@@ -240,26 +240,26 @@ var W = e(i(), 1),
       children: [
         (0, U.jsx)("div", {
           className: Q.header,
-          children: te.includes(s) ? (0, U.jsx)(K, {}) : n,
+          children: te.includes(s) ? (0, U.jsx)(K, {}) : r,
         }),
         (0, U.jsx)(S, {
           mixClass: Q.perBattlePointsTable,
-          separatorRows: r ? l.soloMode : o.items,
-          children: r
-            ? (0, U.jsx)(X, { rewardPoints: l, hasAdditionalPoints: t })
+          separatorRows: l ? o.soloMode : t.items,
+          children: l
+            ? (0, U.jsx)(X, { rewardPoints: o, hasAdditionalPoints: a })
             : (0, U.jsx)(C, {
-                rewardPoints: o,
-                hasAdditionalPoints: t,
+                rewardPoints: t,
+                hasAdditionalPoints: a,
                 hasDraw: s !== I.FRONTLINE,
                 topPlace: (oe.includes(s) ? ae : se).topPlace(),
                 battleType: s,
               }),
         }),
-        t &&
+        a &&
           (0, U.jsxs)("div", {
             className: Q.footer,
             children: [
-              (0, U.jsx)(a, {
+              (0, U.jsx)(N, {
                 width: 32,
                 height: 32,
                 src: R.images.gui.maps.icons.battlePass.tooltips.plus_logo(),
@@ -290,7 +290,7 @@ var W = e(i(), 1),
     return (0, U.jsx)("div", {
       className: re,
       children: (0, U.jsx)("div", {
-        className: p(e, ne),
+        className: u(e, ne),
         children: (0, U.jsxs)("div", {
           className: de,
           children: [
@@ -322,7 +322,7 @@ var W = e(i(), 1),
   Pe = "Points_pointsIcon_615fd6e8",
   je = ({ currentPoints: e, maxPoints: s, className: a = "" }) =>
     (0, U.jsxs)("div", {
-      className: p(we, a),
+      className: u(we, a),
       children: [
         (0, U.jsx)("div", { className: Re, children: e }),
         "/",
@@ -337,17 +337,17 @@ var W = e(i(), 1),
     const { model: a } = H(),
       { currentPoints: t, maxPoints: o } = a.root.get();
     return (0, U.jsxs)("div", {
-      className: p(Ne, s),
+      className: u(Ne, s),
       children: [
         (0, U.jsx)("div", {
           className: ve,
-          children: (0, U.jsx)(m, { value: t, maxValue: o, theme: c, disabled: e }),
+          children: (0, U.jsx)(_, { value: t, maxValue: o, theme: d, disabled: e }),
         }),
         (0, U.jsx)(je, { maxPoints: o, currentPoints: t, className: ke }),
       ],
     });
   }),
-  Te = (Date.now(), g.getRegionalDateTime, g.getFormattedDateTime, "ExpireTime_d2bc0e02"),
+  Te = (Date.now(), w.getRegionalDateTime, w.getFormattedDateTime, "ExpireTime_d2bc0e02"),
   ye = "ExpireTime_light_ff99b79d",
   Be = "ExpireTime_icon_8036e60f",
   Ce = "ExpireTime_value_6d799e0c",
@@ -356,16 +356,16 @@ var W = e(i(), 1),
       { expireTime: s } = e.root.get(),
       a = ((e, s = !0) =>
         e.days > 7 && s
-          ? N(R.strings.common.duration.days(), { days: e.days })
+          ? j(R.strings.common.duration.days(), { days: e.days })
           : e.days >= 1
             ? 0 === e.hours
-              ? N(R.strings.common.duration.days(), { days: e.days })
-              : `${N(R.strings.common.duration.days(), { days: e.days })} ${N(R.strings.common.duration.hours(), { hours: e.hours })}`
+              ? j(R.strings.common.duration.days(), { days: e.days })
+              : `${j(R.strings.common.duration.days(), { days: e.days })} ${j(R.strings.common.duration.hours(), { hours: e.hours })}`
             : e.hours >= 1
               ? 0 === e.minutes
-                ? N(R.strings.common.duration.hours(), { hours: e.hours })
-                : `${N(R.strings.common.duration.hours(), { hours: e.hours })} ${N(R.strings.common.duration.minutes(), { minutes: e.minutes })}`
-              : N(R.strings.common.duration.minutes(), { minutes: e.minutes || 1 }))(f(s), !1);
+                ? j(R.strings.common.duration.hours(), { hours: e.hours })
+                : `${j(R.strings.common.duration.hours(), { hours: e.hours })} ${j(R.strings.common.duration.minutes(), { minutes: e.minutes })}`
+              : j(R.strings.common.duration.minutes(), { minutes: e.minutes || 1 }))(x(s), !1);
     return (0, U.jsxs)("div", {
       className: Te,
       children: [
@@ -400,7 +400,7 @@ var W = e(i(), 1),
               className: We,
               children:
                 s &&
-                (0, U.jsx)(n, {
+                (0, U.jsx)(r, {
                   text: R.strings.battle_pass.tooltips.inProgress.chapter(),
                   binding: { name: R.strings.battle_pass.chapter.fullName.$dyn(`c_${s}`) },
                 }),
@@ -436,16 +436,16 @@ var W = e(i(), 1),
     fadeIn: "RewardsBlock_fadeIn_5feff608",
   },
   He = [
-    j.PROGRESSION_STYLE_UPGRADED_1,
-    j.PROGRESSION_STYLE_UPGRADED_2,
-    j.PROGRESSION_STYLE_UPGRADED_3,
-    j.PROGRESSION_STYLE_UPGRADED_4,
+    P.PROGRESSION_STYLE_UPGRADED_1,
+    P.PROGRESSION_STYLE_UPGRADED_2,
+    P.PROGRESSION_STYLE_UPGRADED_3,
+    P.PROGRESSION_STYLE_UPGRADED_4,
   ],
   Ae = ({ label: e, isLocked: a = !1, rewards: { items: t } }) => {
     const o = t.length > 1 && t.length % 2 == 1,
-      l = 1 === t.length,
+      r = 1 === t.length,
       n = 2 === t.length,
-      i = l ? d.S180x135 : d.Small,
+      d = r ? i.S180x135 : i.Small,
       c = t.every(({ value: e }) => {
         const s = Number(e.value);
         return !isNaN(s) && s > 1;
@@ -458,30 +458,30 @@ var W = e(i(), 1),
           children: [a && (0, U.jsx)("div", { className: Me.lockIcon }), e],
         }),
         (0, U.jsx)("div", {
-          className: p(Me.rewardsList, a && Me.rewardsList__locked),
+          className: u(Me.rewardsList, a && Me.rewardsList__locked),
           children: t.map((e, a) => {
             const t = ((e, s) => ({
                 name: e.item || e.name,
-                image: w(e, s),
+                image: f(e, s),
                 special: e.overlayType,
                 value: e.value,
-                valueType: r(e.name),
-              }))(e.value, i),
-              d = t.name === b.Attachment,
+                valueType: l(e.name),
+              }))(e.value, d),
+              i = t.name === m.Attachment,
               _ = t.special && He.includes(t.special);
             return (0, W.createElement)(s, {
               ...t,
-              size: i,
+              size: d,
               key: `${t.name}_${a}`,
-              className: p(
+              className: u(
                 !n && Me.reward,
                 a > 0 && Me.reward__next,
                 _ && Me.reward__styleUpgrade,
                 c && !o && Me.reward__wide,
                 o && a % 2 == 1 && Me.reward__shiftUp,
-                l && Me.reward__single,
+                r && Me.reward__single,
               ),
-              classNames: { overlay: p(!d && l && Me.overlay) },
+              classNames: { overlay: u(!i && r && Me.overlay) },
             });
           }),
         }),
@@ -517,7 +517,7 @@ var W = e(i(), 1),
             }),
             !r &&
               !a &&
-              (0, U.jsx)(O, {
+              (0, U.jsx)(T, {
                 icon: R.images.gui.maps.icons.battlePass.progression.icon_lock_current_small(),
                 text: Ye.unlockBattlePass(),
                 className: $e,
@@ -527,7 +527,7 @@ var W = e(i(), 1),
         (0, U.jsx)(le, {}),
         n &&
           (0, U.jsxs)(U.Fragment, {
-            children: [(0, U.jsx)(T, {}), (0, U.jsx)(Y, { className: Fe })],
+            children: [(0, U.jsx)(O, {}), (0, U.jsx)(Y, { className: Fe })],
           }),
         r && (0, U.jsx)(he, {}),
       ],
@@ -538,7 +538,7 @@ var W = e(i(), 1),
   Xe = R.strings.battle_pass.tooltips.inProgress.postProgression,
   Je = ({ className: e = "" }) =>
     (0, U.jsxs)("div", {
-      className: p(qe, e),
+      className: u(qe, e),
       children: [
         (0, U.jsx)("div", { className: ze, children: Xe.header() }),
         (0, U.jsx)(fe, {}),
@@ -561,15 +561,15 @@ var W = e(i(), 1),
   },
   Qe = (e, s) => ({
     name: e.item || e.name,
-    image: w(e, s),
+    image: f(e, s),
     special: e.overlayType,
     value: e.value,
-    valueType: r(e.name),
+    valueType: l(e.name),
   }),
   Ze = ({ rewards: { items: e }, className: a = "" }) => {
-    const t = e.length < 3 ? d.S180x135 : d.Big;
+    const t = e.length < 3 ? i.S180x135 : i.Big;
     return (0, U.jsxs)("div", {
-      className: p(Ke.base, a),
+      className: u(Ke.base, a),
       children: [
         (0, U.jsx)("div", { className: Ke.ribbon }),
         (0, U.jsx)("div", {
@@ -603,15 +603,15 @@ var W = e(i(), 1),
         (0, U.jsx)(Je, { className: ss }),
         (0, U.jsx)(Ze, { rewards: e.rewardsCommon.get(), className: ts }),
         (0, U.jsx)(le, {}),
-        (t || !s) && (0, U.jsx)(T, {}),
+        (t || !s) && (0, U.jsx)(O, {}),
         (0, U.jsxs)("div", {
           className: as,
           children: [
-            t && (0, U.jsx)(Y, { className: p(s && os) }),
-            t && !s && (0, U.jsx)(T, { className: ls }),
+            t && (0, U.jsx)(Y, { className: u(s && os) }),
+            t && !s && (0, U.jsx)(O, { className: ls }),
             !s &&
               (0, U.jsx)("div", {
-                children: (0, U.jsx)(O, {
+                children: (0, U.jsx)(T, {
                   icon: R.images.gui.maps.icons.battlePass.progression.icon_lock_current_small(),
                   text: ns.unlockBattlePassForPostProgression(),
                   className: rs,
@@ -626,11 +626,11 @@ var W = e(i(), 1),
     const { model: e } = H(),
       { chapterType: s } = e.root.get(),
       a = s === L.POST_PROGRESSION ? (0, U.jsx)(is, {}) : (0, U.jsx)(Ve, {});
-    return (0, U.jsx)(h, { children: (0, U.jsx)(h.Decorator, { children: a }) });
+    return (0, U.jsx)(b, { children: (0, U.jsx)(b.Decorator, { children: a }) });
   });
-_(
-  new x()
-    .add(P)
+c(
+  new p()
+    .add(g)
     .addWithProps(M, {})
     .render((0, U.jsx)(ds, {})),
 );

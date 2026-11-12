@@ -44,7 +44,7 @@ function N({ title: s, description: e, image: a }) {
     ],
   });
 }
-var A = s(a(), 1);
+var A = s(f(), 1);
 function B({ src: s }) {
   const e = u(s);
   if ("failure" === e.status || "loading" === e.status) return null;
@@ -71,7 +71,7 @@ var [V, y] = i("WinbackUmgIntroViewModel")(
   U = "App_confirmButton_d8666e75",
   D = r.resolve("strings"),
   F = [R.images.gui.maps.icons.winback.umgIntro.background()],
-  Q = f(function () {
+  Q = a(function () {
     const { model: s, controls: e } = y(),
       { hasBattlePass: a, backgroundPlugin: i, dailyQuestsPlugin: t } = s.get(),
       o = ((s) =>

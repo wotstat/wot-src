@@ -1,11 +1,11 @@
 import { r as e } from "./rolldown-runtime.js";
 import {
-  Fi as s,
-  Ha as t,
-  Ja as a,
-  Li as o,
-  Si as n,
-  T as r,
+  C as s,
+  Fi as t,
+  Ha as a,
+  Ja as o,
+  Li as n,
+  Si as r,
   Va as i,
   Wa as c,
   cr as l,
@@ -18,9 +18,9 @@ import {
   r as h,
   ro as x,
   t as b,
-  to as T,
-  uo as f,
-  xr as v,
+  to as f,
+  uo as v,
+  xr as T,
   za as N,
 } from "./lib.js";
 var w = (function (e) {
@@ -35,9 +35,9 @@ var y = {
       isVideo: !0,
       image: "https://pie-webbrg-cdn-stg.wgcdn.co/dcont/fb/image/whats_new_475x230_2.png",
     }),
-    controls: () => o(s("onClick", "onClose")),
+    controls: () => n(t("onClick", "onClose")),
   },
-  [j, C] = p("TeaserModel")(
+  [C, j] = p("TeaserModel")(
     ({ observableModel: e }) =>
       e.primitives([
         "type",
@@ -74,17 +74,17 @@ var y = {
   },
   M = e(m(), 1),
   B = "Teaser:Base",
-  E = l(function ({ className: e, classNames: s }) {
-    const { model: o, controls: l } = C(),
-      d = o.type.get() || w.News,
-      m = o.postCounter.get(),
-      p = o.text.get(),
-      x = o.description.get(),
-      y = o.finishTime.get(),
-      j = o.isVideo.get(),
-      E = o.image.get(),
-      P = v(),
-      S = f.resolve("strings");
+  E = l(function ({ className: e, classNames: t }) {
+    const { model: n, controls: l } = j(),
+      d = n.type.get() || w.News,
+      m = n.postCounter.get(),
+      p = n.text.get(),
+      x = n.description.get(),
+      y = n.finishTime.get(),
+      C = n.isVideo.get(),
+      E = n.image.get(),
+      P = T(),
+      S = v.resolve("strings");
     const L = (0, k.useCallback)(
         (e) => {
           (e.stopPropagation(), l.onClose());
@@ -94,13 +94,13 @@ var y = {
       [V, $] = (0, k.useState)(null);
     (0, k.useLayoutEffect)(() => {
       let e;
-      const s = N(a(y || 0), _());
+      const s = N(o(y || 0), _());
       if (!y || s <= 0) return void $(null);
-      const o = Math.floor(t.seconds(s)),
-        r = c(a(y), i(1)) ? h.Extended : h.Long;
-      if (($({ duration: o, style: r }), r === h.Extended)) {
-        const s = N(a(o + 1), i(1));
-        e = setTimeout(() => $((e) => ({ ...e, style: h.Long })), Math.min(s, n));
+      const t = Math.floor(a.seconds(s)),
+        n = c(o(y), i(1)) ? h.Extended : h.Long;
+      if (($({ duration: t, style: n }), n === h.Extended)) {
+        const s = N(o(t + 1), i(1));
+        e = setTimeout(() => $((e) => ({ ...e, style: h.Long })), Math.min(s, r));
       }
       return () => {
         e && (clearTimeout(e), (e = void 0));
@@ -126,7 +126,7 @@ var y = {
       }, [E]),
       I
         ? (0, M.jsxs)("div", {
-            className: T(W.base, W[`base__${d}Type`], j && W.base__video, e),
+            className: f(W.base, W[`base__${d}Type`], C && W.base__video, e),
             onClick: function (e) {
               (P.play("click", { target: B, original: e }), l.onClick());
             },
@@ -135,13 +135,13 @@ var y = {
             },
             children: [
               (0, M.jsx)("div", {
-                className: T(W.contentWrapper, s?.contentWrapper),
+                className: f(W.contentWrapper, t?.contentWrapper),
                 children: (0, M.jsx)("div", {
-                  className: T(W.imageWrapper, s?.imageWrapper),
+                  className: f(W.imageWrapper, t?.imageWrapper),
                   children:
                     A &&
                     (0, M.jsx)("div", {
-                      className: T(W.image, s?.image),
+                      className: f(W.image, t?.image),
                       style: {
                         backgroundImage: `url(${A.path})`,
                         height: `${A.height}rem`,
@@ -150,18 +150,18 @@ var y = {
                     }),
                 }),
               }),
-              (0, M.jsx)("div", { className: T(W.vignette, s?.vignette) }),
+              (0, M.jsx)("div", { className: f(W.vignette, t?.vignette) }),
               (0, M.jsxs)("div", {
-                className: T(W.contentWrapper, s?.contentWrapper),
+                className: f(W.contentWrapper, t?.contentWrapper),
                 children: [
                   (0, M.jsxs)("div", {
-                    className: T(W.title, s?.title),
+                    className: f(W.title, t?.title),
                     children: [
                       S.readOrEmpty("menu.promo.teaser.title"),
                       Boolean(m) &&
                         m > 0 &&
                         (0, M.jsx)(g, {
-                          className: T(W.counter, s?.counter),
+                          className: f(W.counter, t?.counter),
                           value: m,
                           size: "small",
                         }),
@@ -170,25 +170,25 @@ var y = {
                   (0, M.jsx)(b, {
                     type: "close",
                     side: "right",
-                    classNames: { base: T(W.closeButton, s?.closeButton) },
+                    classNames: { base: f(W.closeButton, t?.closeButton) },
                     onClick: L,
                     caption: "",
                   }),
-                  p && (0, M.jsx)("div", { className: T(W.text, s?.text), children: p }),
+                  p && (0, M.jsx)("div", { className: f(W.text, t?.text), children: p }),
                   (x || V) &&
                     (0, M.jsxs)("div", {
                       className: W.bottomContent,
                       children: [
                         x &&
                           (0, M.jsx)("div", {
-                            className: T(W.description, s?.description),
-                            children: (0, M.jsx)(r, {
+                            className: f(W.description, t?.description),
+                            children: (0, M.jsx)(s, {
                               classMix: W.extendedText,
                               text: x,
                               isTruncationAvailable: !0,
                             }),
                           }),
-                        V && (0, M.jsx)(u, { className: T(W.countdown, s?.countdown), ...V }),
+                        V && (0, M.jsx)(u, { className: f(W.countdown, t?.countdown), ...V }),
                       ],
                     }),
                 ],
@@ -199,7 +199,7 @@ var y = {
     );
   });
 function P({ className: e, classNames: s, ...t }) {
-  return (0, M.jsx)(j, {
+  return (0, M.jsx)(C, {
     ...t,
     mode: "real",
     mocks: y,

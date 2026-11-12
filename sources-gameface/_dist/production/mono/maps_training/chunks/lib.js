@@ -24484,49 +24484,6 @@ var toggleThemes = { primary: "primary", custom: "custom" },
     });
   });
 ((Toggle.themes = toggleThemes), (Toggle.sizes = toggleSizes));
-var base$2 = "CloseButton_7488a1b8",
-  base__medium = "CloseButton_base__medium_97d04067",
-  base__small = "CloseButton_base__small_c1b29bae",
-  base__extraSmall = "CloseButton_base__extraSmall_f52764c1",
-  base__x96x96 = "CloseButton_base__x96x96_8157b84d",
-  base__x32x32 = "CloseButton_base__x32x32_6466ea31",
-  close_button_module_default = {
-    base: base$2,
-    base__medium: base__medium,
-    base__small: base__small,
-    base__extraSmall: base__extraSmall,
-    base__x96x96: base__x96x96,
-    base__x32x32: base__x32x32,
-  },
-  sizes = { medium: "medium", small: "small", extraSmall: "extraSmall" },
-  upscaleImageSizes = {
-    [sizes.medium]: "x96x96",
-    [sizes.small]: sizes.medium,
-    [sizes.extraSmall]: "x32x32",
-  };
-function CloseButton({
-  size: e = sizes.medium,
-  hoverSound: t = sounds$1.highlight,
-  clickSound: n = sounds$1.click,
-  className: r,
-  onHover: a,
-  onClose: o,
-}) {
-  const i = useUpscale(
-    close_button_module_default[`base__${e}`],
-    close_button_module_default[`base__${upscaleImageSizes[e]}`],
-  );
-  return (0, import_jsx_runtime.jsx)("div", {
-    className: (0, import_classnames.default)(close_button_module_default.base, i, r),
-    onMouseEnter: () => {
-      (play$1.sound(t), a?.());
-    },
-    onClick: () => {
-      (play$1.sound(n), o());
-    },
-  });
-}
-CloseButton.size = sizes;
 var unicodeBlocks = [
     0, 128, 256, 384, 592, 688, 768, 880, 1024, 1280, 1328, 1424, 1536, 1792, 1872, 1920, 1984,
     2048, 2112, 2144, 2208, 2304, 2432, 2560, 2688, 2816, 2944, 3072, 3200, 3328, 3456, 3584, 3712,
@@ -25447,8 +25404,8 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
   },
   formatString = (e, t, n) =>
     e.split(/%\((.*?)\)(?:[sd])?/g).map((e) => (n && e in n ? n[e] : splitWords(e, t))),
-  base$1 = "Formattext_bb80854d",
-  FormatText_module_default = { base: base$1 },
+  base$2 = "Formattext_bb80854d",
+  FormatText_module_default = { base: base$2 },
   FormatText = ({
     binding: e,
     text: t = "",
@@ -25478,9 +25435,9 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
               ),
             ),
         }),
-  base = "Tooltip_6d997cee",
+  base$1 = "Tooltip_6d997cee",
   decorator = "Tooltip_decorator_b3486d4e",
-  tooltip_module_default = { base: base, decorator: decorator },
+  tooltip_module_default = { base: base$1, decorator: decorator },
   Base = defineStyledComponent("Base", tooltip_module_default.base),
   Decorator = defineStyledComponent("Decorator", tooltip_module_default.decorator),
   Tooltip = (0, import_react.forwardRef)(function ({ children: e, ...t }, n) {
@@ -25517,6 +25474,49 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
     );
   });
 Tooltip.Decorator = Decorator;
+var base = "CloseButton_7488a1b8",
+  base__medium = "CloseButton_base__medium_97d04067",
+  base__small = "CloseButton_base__small_c1b29bae",
+  base__extraSmall = "CloseButton_base__extraSmall_f52764c1",
+  base__x96x96 = "CloseButton_base__x96x96_8157b84d",
+  base__x32x32 = "CloseButton_base__x32x32_6466ea31",
+  close_button_module_default = {
+    base: base,
+    base__medium: base__medium,
+    base__small: base__small,
+    base__extraSmall: base__extraSmall,
+    base__x96x96: base__x96x96,
+    base__x32x32: base__x32x32,
+  },
+  sizes = { medium: "medium", small: "small", extraSmall: "extraSmall" },
+  upscaleImageSizes = {
+    [sizes.medium]: "x96x96",
+    [sizes.small]: sizes.medium,
+    [sizes.extraSmall]: "x32x32",
+  };
+function CloseButton({
+  size: e = sizes.medium,
+  hoverSound: t = sounds$1.highlight,
+  clickSound: n = sounds$1.click,
+  className: r,
+  onHover: a,
+  onClose: o,
+}) {
+  const i = useUpscale(
+    close_button_module_default[`base__${e}`],
+    close_button_module_default[`base__${upscaleImageSizes[e]}`],
+  );
+  return (0, import_jsx_runtime.jsx)("div", {
+    className: (0, import_classnames.default)(close_button_module_default.base, i, r),
+    onMouseEnter: () => {
+      (play$1.sound(t), a?.());
+    },
+    onClick: () => {
+      (play$1.sound(n), o());
+    },
+  });
+}
+CloseButton.size = sizes;
 export {
   convertNbsp$1 as $,
   useKeydownListener as A,
@@ -25561,15 +25561,15 @@ export {
   useScaleState as k,
   useVerticalScroll as l,
   Tooltip$1 as m,
-  FormatText as n,
+  Tooltip as n,
   clsx as nt,
   Base$2 as o,
   Image$1 as p,
   initExternalPaddings$1 as q,
-  CloseButton as r,
+  FormatText as r,
   require_react_dom as rt,
   Area as s,
-  Tooltip as t,
+  CloseButton as t,
   toUpperCase as tt,
   useScrollBounding as u,
   getRewardTooltipConfig as v,

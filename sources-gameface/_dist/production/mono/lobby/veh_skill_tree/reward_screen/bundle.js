@@ -1,21 +1,21 @@
 import { r as e } from "../../chunks/rolldown-runtime.js";
 import {
   At as t,
-  B as a,
-  Bt as s,
-  Ct as r,
-  Dn as n,
-  Dt as i,
-  En as o,
-  Et as c,
-  F as l,
-  Ft as d,
-  Hn as _,
-  Ht as m,
-  I as u,
-  In as h,
-  It as b,
-  Jt as f,
+  Bt as a,
+  Ct as s,
+  Dn as r,
+  Dt as n,
+  En as i,
+  Et as o,
+  F as c,
+  Ft as l,
+  Hn as d,
+  Ht as _,
+  I as m,
+  In as u,
+  It as h,
+  Jt as b,
+  K as f,
   Ln as p,
   Lt as g,
   M as v,
@@ -28,40 +28,40 @@ import {
   R as P,
   Rt as E,
   Sn as I,
-  St as B,
-  Tn as C,
-  Tt as S,
+  St as C,
+  Tn as S,
+  Tt as B,
   Vn as $,
   Wt as D,
   Yt as A,
   _n as M,
-  a as T,
-  at as z,
-  bt as F,
-  c as L,
-  cn as O,
-  ct as H,
+  _t as T,
+  a as z,
+  c as F,
+  cn as L,
+  ct as O,
+  dt as H,
   fn as G,
   gn as V,
   gt as W,
   hn as q,
   ht as Q,
   i as U,
-  it as X,
-  jt as Z,
-  kn as Y,
-  kt as J,
-  lt as K,
-  nn as ee,
-  o as te,
-  on as ae,
-  pn as se,
-  qt as re,
-  r as ne,
-  rn as ie,
-  s as oe,
-  sn as ce,
-  tt as le,
+  jt as X,
+  kn as Z,
+  kt as Y,
+  mt as J,
+  nn as K,
+  o as ee,
+  on as te,
+  pn as ae,
+  pt as se,
+  q as re,
+  qt as ne,
+  r as ie,
+  rn as oe,
+  s as ce,
+  sn as le,
   vt as de,
   xn as _e,
   xt as me,
@@ -72,7 +72,7 @@ import {
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
 import { m as pe } from "../../chunks/vendor.js";
-var [ge, ve] = c()(
+var [ge, ve] = o()(
     ({ observableModel: e }) => ({
       ...e.primitives(["prestigeLevel"]),
       vehicleInfo: e.object("vehicleInfo"),
@@ -93,7 +93,7 @@ var [ge, ve] = c()(
       e
     );
   })({}),
-  [Ne, je] = c()(
+  [Ne, je] = o()(
     ({ observableModel: e }) => {
       const t = {
           ...e.primitives(["prestigeState"]),
@@ -125,7 +125,7 @@ var [ge, ve] = c()(
             "rewards",
           ),
         },
-        a = S.shallow(() => !I(t.rewards.get(), (e) => e.state !== xe.Achieved));
+        a = B.shallow(() => !I(t.rewards.get(), (e) => e.state !== xe.Achieved));
       return { ...t, computes: { allResearched: a } };
     },
     ({ externalModel: e }) => ({
@@ -135,23 +135,23 @@ var [ge, ve] = c()(
   we = new $(window),
   ke = (e, t) => {
     const { name: a, icon: s } = e,
-      r = oe(e, t);
+      r = ce(e, t);
     if (!we.has(r))
       switch (a) {
         case "attachment":
-          return oe({ name: a, icon: "attachment" }, t);
+          return ce({ name: a, icon: "attachment" }, t);
         case "customizations":
-          return oe({ name: a, icon: "style" }, t);
+          return ce({ name: a, icon: "style" }, t);
       }
     return r;
   },
-  Pe = f();
+  Pe = b();
 function Ee({ subtitle: e, rarity: t, ...a }) {
-  const s = _.resolve("strings");
+  const s = d.resolve("strings");
   return (0, Pe.jsx)("div", {
     ...a,
     children: t
-      ? (0, Pe.jsx)(K, {
+      ? (0, Pe.jsx)(he, {
           text: s.readOrEmpty("veh_skill_tree.rewardScreen.rewardName"),
           upgradeLegacy: !0,
           params: {
@@ -171,7 +171,7 @@ var Ie = {
   },
   Re = function ({ level: e, state: a }) {
     const s = t({
-      body: _.resolve("strings").readOrEmpty("veh_skill_tree.vanity.reward.level.tooltip"),
+      body: d.resolve("strings").readOrEmpty("veh_skill_tree.vanity.reward.level.tooltip"),
     });
     return (0, Pe.jsx)("div", {
       className: p(Ie.base, Ie[`base__${a}`]),
@@ -179,7 +179,7 @@ var Ie = {
       children: (0, Pe.jsx)("div", { className: Ie.level, children: e }),
     });
   },
-  Be = {
+  Ce = {
     base: "Award_cc70f470",
     background: "Award_background_db1f8ace",
     emblem: "Award_emblem_1fe5d78c",
@@ -196,23 +196,23 @@ var Ie = {
     achieved__show: "Award_achieved__show_f4eff0f6",
     check: "Award_check_13a829f3",
   },
-  Ce = pe(function ({
+  Se = pe(function ({
     name: e,
     icon: t,
     level: a,
     title: s,
     subtitle: r,
-    state: n,
+    state: i,
     hasPreview: o,
     rarity: c,
   }) {
     const { controls: l } = je(),
-      d = i(),
+      d = n(),
       _ = D(
-        { size: L.S232x174, statTrackerSize: L.S180x135 },
+        { size: F.S232x174, statTrackerSize: F.S180x135 },
         {
-          medium: { size: L.S296x222, statTrackerSize: L.S232x174 },
-          large: { size: L.S400x300, statTrackerSize: L.S296x222 },
+          medium: { size: F.S296x222, statTrackerSize: F.S232x174 },
+          large: { size: F.S400x300, statTrackerSize: F.S296x222 },
         },
       ),
       m = "statTracker" === e ? _.statTrackerSize : _.size,
@@ -221,10 +221,10 @@ var Ie = {
         args: { level: a },
       };
     return (0, Pe.jsxs)("div", {
-      className: p(Be.base, Be[`base__${n}`]),
+      className: p(Ce.base, Ce[`base__${i}`]),
       children: [
-        n === xe.Progress &&
-          (0, Pe.jsx)(z, {
+        i === xe.Progress &&
+          (0, Pe.jsx)(T, {
             path: "skillTree.prestige.rays.small.rays",
             width: 320,
             height: 474,
@@ -232,27 +232,27 @@ var Ie = {
               large: { width: 405, height: 600, path: "skillTree.prestige.rays.big.rays" },
               extraLarge: { width: 460, height: 682 },
             },
-            className: Be.background,
+            className: Ce.background,
           }),
         (0, Pe.jsx)("div", {
-          className: Be.emblem,
-          children: (0, Pe.jsx)(Re, { level: a, state: n }),
+          className: Ce.emblem,
+          children: (0, Pe.jsx)(Re, { level: a, state: i }),
         }),
         (0, Pe.jsx)("div", {
-          className: Be.reward,
-          children: (0, Pe.jsx)(te, {
+          className: Ce.reward,
+          children: (0, Pe.jsx)(ee, {
             image: ke({ name: e, icon: t }, m),
             name: t,
             size: m,
-            classNames: { image: Be.image, overlay: Be.overlay },
+            classNames: { image: Ce.image, overlay: Ce.overlay },
             tooltipArgs: u,
             special: "attachment" === e ? c : void 0,
           }),
         }),
         (0, Pe.jsx)("div", {
-          className: p(Be.container, o && Be.container__show),
+          className: p(Ce.container, o && Ce.container__show),
           children: (0, Pe.jsx)("div", {
-            className: Be.preview,
+            className: Ce.preview,
             onClick: () =>
               (function (e) {
                 (l.openSelectedPreview(e), d.play("click", { target: "select" }));
@@ -263,20 +263,20 @@ var Ie = {
           }),
         }),
         (0, Pe.jsxs)("div", {
-          className: Be.textContainer,
+          className: Ce.textContainer,
           children: [
-            (0, Pe.jsx)("div", { className: Be.rewardName, children: s }),
-            s && r && (0, Pe.jsx)(Ee, { className: Be.rewardType, subtitle: r, rarity: c }),
+            (0, Pe.jsx)("div", { className: Ce.rewardName, children: s }),
+            s && r && (0, Pe.jsx)(Ee, { className: Ce.rewardType, subtitle: r, rarity: c }),
           ],
         }),
         (0, Pe.jsx)("div", {
-          className: p(Be.achieved, n === xe.Achieved && Be.achieved__show),
-          children: (0, Pe.jsx)("div", { className: Be.check }),
+          className: p(Ce.achieved, i === xe.Achieved && Ce.achieved__show),
+          children: (0, Pe.jsx)("div", { className: Ce.check }),
         }),
       ],
     });
   }),
-  Se = {
+  Be = {
     wrapper: "Progression_wrapper_7420c26a",
     element: "Progression_element_1dcdd841",
     scrollWrapper: "Progression_scrollWrapper_4eb37657",
@@ -287,36 +287,36 @@ var Ie = {
     content__horizontal: "Progression_content__horizontal_4ee67b69",
     horizontalBar: "Progression_horizontalBar_c4246dd9",
   },
-  $e = de("Wrapper", Se.wrapper),
-  De = de("Element", Se.element),
+  $e = se("Wrapper", Be.wrapper),
+  De = se("Element", Be.element),
   Ae = "both",
   Me = "left",
   Te = "right",
   ze = "none";
 function Fe({ elements: e }) {
   const { api: t } = P(),
-    { animationScroll: a, applyScroll: r } = t,
-    n = x(t, u.horizontal),
+    { animationScroll: s, applyScroll: r } = t,
+    n = x(t, m.horizontal),
     [i, o] = (0, ye.useState)();
   (0, ye.useEffect)(
     () =>
-      ie(() => {
-        "idle" === n.type && a.scrollPosition.idle && r(a.scrollPosition.get());
+      oe(() => {
+        "idle" === n.type && s.scrollPosition.idle && r(s.scrollPosition.get());
       }),
-    [a.scrollPosition, n, r],
+    [s.scrollPosition, n, r],
   );
-  const c = s((e) => {
-    const s = e?.value.scrollPosition || a.scrollPosition.goal,
+  const l = a((e) => {
+    const a = e?.value.scrollPosition || s.scrollPosition.goal,
       r = t.getContainerSize() ?? 0,
       n = t.getWrapperSize() ?? 0,
       i = t.getBounds()[1];
-    o(n >= r ? ze : s <= 30 ? Te : s >= i - 30 ? Me : Ae);
+    o(n >= r ? ze : a <= 30 ? Te : a >= i - 30 ? Me : Ae);
   });
   return (
     ye.useLayoutEffect(() => {
       function e() {
-        ie(() => {
-          c();
+        oe(() => {
+          l();
         });
       }
       return (
@@ -326,26 +326,26 @@ function Fe({ elements: e }) {
           t.events.off("resizeHandled", e);
         }
       );
-    }, [t, c]),
+    }, [t, l]),
     (0, ye.useEffect)(
       () => (
-        t.events.on("change", c),
+        t.events.on("change", l),
         () => {
-          t.events.off("change", c);
+          t.events.off("change", l);
         }
       ),
-      [t, c],
+      [t, l],
     ),
     (0, Pe.jsxs)($e, {
       children: [
         (0, Pe.jsx)(w, {
           classNames: {
-            wrapper: p(Se.scrollWrapper, Se[`scrollWrapper__${i}`]),
-            content: p(Se.content, Se.content__horizontal),
+            wrapper: p(Be.scrollWrapper, Be[`scrollWrapper__${i}`]),
+            content: p(Be.content, Be.content__horizontal),
           },
           children: ue(e, (e, t) => (0, Pe.jsx)(De, { children: e }, t)),
         }),
-        (0, Pe.jsx)(l, { classNames: { base: Se.horizontalBar } }),
+        (0, Pe.jsx)(c, { classNames: { base: Be.horizontalBar } }),
       ],
     })
   );
@@ -354,7 +354,7 @@ pe(function () {
   const { model: e } = je(),
     t = e.rewards.get();
   return (0, Pe.jsx)(v, {
-    children: (0, Pe.jsx)(Fe, { elements: t.map((e) => (0, Pe.jsx)(Ce, { ...e }, e.level)) }),
+    children: (0, Pe.jsx)(Fe, { elements: t.map((e) => (0, Pe.jsx)(Se, { ...e }, e.level)) }),
   });
 });
 var Le = (function (e) {
@@ -373,7 +373,7 @@ var Le = (function (e) {
   He =
     (pe(function () {
       const { model: e } = je(),
-        a = _.resolve("strings"),
+        a = d.resolve("strings"),
         s = e.rewards.get().length > 0 && e.computes.allResearched(),
         r = e.prestigeEmblem.get(),
         n = e.prestigeState.get() ? e.prestigeState.get() : Le.Disabled,
@@ -381,12 +381,12 @@ var Le = (function (e) {
           ? a.readOrEmpty("veh_skill_tree.vanity.completed.subtitle")
           : a.readOrEmpty(`veh_skill_tree.vanity.${n}.subtitle`),
         o = t({ body: a.readOrEmpty(`veh_skill_tree.vanity.${n}.tooltip`) }),
-        c = D({ size: X.sizes.sm }, { medium: { size: X.sizes.md } });
+        c = D({ size: W.sizes.sm }, { medium: { size: W.sizes.md } });
       return (0, Pe.jsxs)("div", {
         className: p(Oe.base, Oe[`base__${n}`], s && Oe.base__completed),
         children: [
           s &&
-            (0, Pe.jsx)(z, {
+            (0, Pe.jsx)(T, {
               path: "skillTree.prestige.vanity_bg.small.vanity_bg",
               width: 450,
               height: 120,
@@ -415,7 +415,7 @@ var Le = (function (e) {
             children:
               n === Le.Disabled
                 ? (0, Pe.jsx)("div", { className: Oe.disabledEmblem })
-                : (0, Pe.jsx)(X, {
+                : (0, Pe.jsx)(W, {
                     level: r.level,
                     grade: r.grade ?? 1,
                     type: r.type ?? "prestige",
@@ -465,7 +465,7 @@ function Ze(e, t) {
         r = t.find((e) => e.id === a)?.status;
       return (
         (s && r) ||
-          ee.log(
+          K.log(
             void 0 !== s || void 0 !== r,
             "getStatusesFromNode didnt find firstStatus or secondStatus",
           ),
@@ -504,7 +504,7 @@ function Je(e, t) {
       const r = s[a - 1],
         n = e[r.id];
       return (
-        ee(void 0 !== n, "prevPerk was not added to animationQueues"),
+        K(void 0 !== n, "prevPerk was not added to animationQueues"),
         t.x === r.x ? (e[t.id] = n) : (e[t.id] = n + 1),
         e
       );
@@ -548,7 +548,7 @@ var at = class {
           const [t, a, s] = e.split(/(?=[A-Z])/).map((e) => e.toLowerCase());
           return (
             (t && s) ||
-              ee.log(
+              K.log(
                 void 0 !== t || void 0 !== s,
                 "parseLineDirection didnt find startPoint and endPoint",
               ),
@@ -666,7 +666,7 @@ var at = class {
     }
   },
   st = [Ve.IN_BATTLE, Ve.IN_FORMATION, Ve.NEEDS_REPAIR],
-  [rt, nt] = c()(
+  [rt, nt] = o()(
     ({ observableModel: e, cleanup: t }) => {
       const a = {
           ...e.primitives(["rootNodeId", "rootNodeUiId", "lockedTree", "researchAvailability"]),
@@ -692,14 +692,14 @@ var at = class {
           newNodes: G.box([]),
           transformedPaths: G.box([]),
         },
-        r = S.shallow(() => (0 === s.newNodes.get().length ? s.currentNodes.get() : n())),
-        n = S.shallow(() => {
+        r = B.shallow(() => (0 === s.newNodes.get().length ? s.currentNodes.get() : n())),
+        n = B.shallow(() => {
           const e = s.currentNodes.get(),
             t = s.newNodes.get().map(({ effectedNodes: t, ...a }) => ({ ...a, status: Ze(t, e) }));
           return [...s.currentNodes.get(), ...t];
         }),
-        i = S.shallow(() => s.transformedPaths.get().map((e) => e.map((e) => ({ ...e })))),
-        o = S.shallow(() => ({
+        i = B.shallow(() => s.transformedPaths.get().map((e) => e.map((e) => ({ ...e })))),
+        o = B.shallow(() => ({
           researched: _e(
             s.currentNodes.get(),
             (e, t) => (t.status === He.Researched && t.type !== Ge.Final && e++, e),
@@ -707,15 +707,15 @@ var at = class {
           ),
           total: s.currentNodes.get().length - 1,
         })),
-        c = S.primitive((e) => {
+        c = B.primitive((e) => {
           const t = a.researchedPerks.get();
           return t.includes(e) ? t.length : 0;
         }),
-        l = ae((e, t) => {
+        l = te((e, t) => {
           (s.newNodes.set(e), s.transformedPaths.set(t));
         });
       t(
-        se(
+        ae(
           () => s.paths.get(),
           () => {
             const e = s.paths.get(),
@@ -725,10 +725,10 @@ var at = class {
             }),
               l(t.newNodes, t.updatedPaths));
           },
-          { equals: O.structural, fireImmediately: !0 },
+          { equals: L.structural, fireImmediately: !0 },
         ),
       );
-      const d = S.structural((e) => {
+      const d = B.structural((e) => {
           const t = s.newNodes.get(),
             r = s.currentNodes.get(),
             n = a.finalPerk.get().id;
@@ -736,7 +736,7 @@ var at = class {
             ? { finalPerkId: n, animationQueue: et(Je(r, e), t) }
             : { finalPerkId: n, animationQueue: et(Ke(e), t) };
         }),
-        _ = S.primitive(() => st.includes(a.researchAvailability.get()));
+        _ = B.primitive(() => st.includes(a.researchAvailability.get()));
       return {
         ...a,
         computes: {
@@ -757,7 +757,7 @@ var at = class {
       ),
     }),
   ),
-  it = e(Q()),
+  it = e(me()),
   ot = "EntryPointLine_f5426a98",
   ct = "EntryPointLine_lock_e27404c6",
   lt = "EntryPointLine_base__locked_d883e9db",
@@ -787,16 +787,16 @@ var at = class {
     video__major: "ResearchedAnimation_video__major_6660d527",
     video__final: "ResearchedAnimation_video__final_d43c2114",
   },
-  ut = _.resolve("videos");
+  ut = d.resolve("videos");
 function ht(e) {
   return e.charAt(0).toUpperCase() + e.slice(1);
 }
 var bt = pe(function ({ type: e, runAnimation: t, id: a }) {
     const { model: s, controls: r } = nt(),
-      n = ye.useRef(null),
+      i = ye.useRef(null),
       o = ye.useRef({ soundTarget: "", src: "" }),
       [c, l] = (0, ye.useState)(!1),
-      d = i(),
+      d = n(),
       _ = (0, ye.useCallback)(
         (e) => {
           e.currentTime >= e.duration - 1.3 &&
@@ -807,7 +807,7 @@ var bt = pe(function ({ type: e, runAnimation: t, id: a }) {
     return (
       ye.useLayoutEffect(
         () =>
-          ce(() => {
+          le(() => {
             const t = s.computes.amountResearchedPerks(a);
             t > 0 &&
               (o.current = (function (e, t) {
@@ -831,7 +831,7 @@ var bt = pe(function ({ type: e, runAnimation: t, id: a }) {
         [a, s.computes, e],
       ),
       ye.useEffect(() => {
-        const a = n.current;
+        const a = i.current;
         if (a)
           return (
             t &&
@@ -845,7 +845,7 @@ var bt = pe(function ({ type: e, runAnimation: t, id: a }) {
           );
       }, [t, d, e, _]),
       t
-        ? (0, Pe.jsx)(me, { src: o.current.src, className: p(mt.video, mt[`video__${e}`]), ref: n })
+        ? (0, Pe.jsx)(f, { src: o.current.src, className: p(mt.video, mt[`video__${e}`]), ref: i })
         : null
     );
   }),
@@ -925,13 +925,13 @@ var Nt = {
   icon: "Price_icon_aed4fc8a",
 };
 function jt({ value: e, status: t, transitionDelay: a, className: s }) {
-  const r = _.resolve("intl");
+  const r = d.resolve("intl");
   return (0, Pe.jsx)("div", {
     className: p(Nt.base, Nt[`base__${t}`], s),
     style: { "--transitionDelay": `${a}ms` },
-    children: (0, Pe.jsx)(ne, {
-      type: ne.types.tankXP,
-      size: ne.sizes.extraSmall,
+    children: (0, Pe.jsx)(ie, {
+      type: ie.types.tankXP,
+      size: ie.sizes.extraSmall,
       reverse: !0,
       classNames: { icon: Nt.icon },
       children: (0, Pe.jsx)("div", {
@@ -977,7 +977,7 @@ function kt({ status: e, className: t, classNames: a, type: s, transitionDelay: 
 }
 var Pt = "Glare_a09df11",
   Et = "Glare_ed61dd83",
-  It = _.resolve("images");
+  It = d.resolve("images");
 function Rt({
   startCoords: e = -55,
   endCoords: t = 65,
@@ -987,13 +987,13 @@ function Rt({
   pointAnimation: n,
   startAnimation: i,
 }) {
-  const [o] = b(
+  const [o] = h(
     () => ({
       from: i ?? { x: `${e}rem`, y: `${e}rem`, rotateZ: `${a}deg`, opacity: 0 },
       to: n ?? { x: `${t}rem`, y: `${t}rem`, rotateZ: `${a}deg`, opacity: 1 },
       delay: 1500,
       loop: !0,
-      config: { duration: 1500, easing: h.easeInQuint },
+      config: { duration: 1500, easing: u.easeInQuint },
     }),
     [],
   );
@@ -1003,11 +1003,11 @@ function Rt({
     children: (0, Pe.jsx)(k.div, { className: p(Et, r), style: o }),
   });
 }
-var Bt = "Glare_95e181ec",
-  Ct = "Glare_1be1be9",
-  St = { x: "-55rem", y: "-55rem", rotateZ: "-45deg", opacity: 0 },
+var Ct = "Glare_95e181ec",
+  St = "Glare_1be1be9",
+  Bt = { x: "-55rem", y: "-55rem", rotateZ: "-45deg", opacity: 0 },
   $t = [
-    { ...St, opacity: 1 },
+    { ...Bt, opacity: 1 },
     { opacity: 1, x: "45rem", y: "45rem", rotateZ: "-45deg" },
   ];
 var Dt = "Points_ebbc956c",
@@ -1042,13 +1042,13 @@ var Dt = "Points_ebbc956c",
   Wt = k(function ({ style: e }) {
     const t = D({ value: "small" }, { large: { value: "large" } });
     return (0, Pe.jsx)(k.div, {
-      className: Bt,
+      className: Ct,
       style: e,
       children: (0, Pe.jsx)(Rt, {
         maskPath: `skillTree.tree.perks.special.skills.${t.value}.mask`,
-        classNames: Ct,
+        classNames: St,
         pointAnimation: $t,
-        startAnimation: St,
+        startAnimation: Bt,
       }),
     });
   });
@@ -1105,7 +1105,7 @@ var Qt = {
     gearIcon: "Basic_gearIcon_88a263ef",
   },
   Ut = ye.forwardRef(function (e, t) {
-    const a = Z({
+    const a = X({
       contentId: R.views.mono.vehicle_hub.tooltips.perk_tooltip("resId"),
       args: { nodeID: e.id },
     });
@@ -1256,8 +1256,8 @@ var ea = {
     draftTexture: "FinalPerkDecoration_draftTexture_a070f384",
     pulseBorder: "FinalPerkDecoration_pulseBorder_260dff85",
   },
-  ta = _.resolve("images"),
-  aa = _.resolve("strings"),
+  ta = d.resolve("images"),
+  aa = d.resolve("strings"),
   sa = pe(function ({
     children: e,
     showFinalDecoration: t,
@@ -1269,19 +1269,19 @@ var ea = {
       { researched: i, total: o } = n.computes.perksInfo(),
       c = (function ({ researched: e, total: t }) {
         const a = fe(),
-          s = m(e) ?? 0,
-          [{ number: r }] = b(
+          s = _(e) ?? 0,
+          [{ number: r }] = h(
             () => ({
               number: e,
               from: { number: 0 },
-              config: { duration: Kt(e, s), ...d.molasses },
+              config: { duration: Kt(e, s), ...l.molasses },
               immediate: a || e === t,
             }),
             [e, t],
           );
         return r;
       })(ye.useMemo(() => ({ researched: i, total: o }), [i, o])),
-      { researched: l } = n.finalPerk.get();
+      { researched: d } = n.finalPerk.get();
     return t
       ? (0, Pe.jsxs)("div", {
           className: p(ea.base, ea[`base__${a}`]),
@@ -1316,7 +1316,7 @@ var ea = {
             (0, Pe.jsx)("div", {
               className: ea.draftTexture,
               style: {
-                backgroundImage: `url(${ta.readOrEmpty("skillTree.tree." + (l ? "draftTextureResearched" : "draftTexture"))})`,
+                backgroundImage: `url(${ta.readOrEmpty("skillTree.tree." + (d ? "draftTextureResearched" : "draftTexture"))})`,
               },
             }),
           ],
@@ -1344,7 +1344,7 @@ var ea = {
     glow: "Major_glow_22ebe17b",
   },
   na = ye.forwardRef(function (e, t) {
-    const a = Z({
+    const a = X({
       contentId: R.views.mono.vehicle_hub.tooltips.perk_tooltip("resId"),
       args: { nodeID: e.id },
     });
@@ -1427,13 +1427,13 @@ var oa = { ...He, AnimateResearched: "animateResearched" },
     const { controls: t, model: a } = nt(),
       s = a.lockedTree.get(),
       r = a.computes.lockedVehicle(),
-      { status: n, transitionDelay: o } = _a(
+      { status: i, transitionDelay: o } = _a(
         e.status,
         ye.useMemo(() => [e.id], [e.id]),
         e.vehicleName,
       ),
-      c = re(),
-      l = i(),
+      c = ne(),
+      l = n(),
       d = _t[c.breakpoint.name].cell;
     const _ = {
       ...e,
@@ -1471,7 +1471,7 @@ var oa = { ...He, AnimateResearched: "animateResearched" },
         (e) => {
           e && (m.current[u] = e);
         }),
-      status: n,
+      status: i,
       transitionDelay: o,
       root: a.rootNodeUiId.get() === e.id,
     };
@@ -1514,14 +1514,14 @@ var oa = { ...He, AnimateResearched: "animateResearched" },
   };
 function _a(e, t, a, s = "perk") {
   const [r, n] = ye.useState(() => ({ status: e, transitionDelay: 0 })),
-    i = ye.useRef(a),
+    o = ye.useRef(a),
     c = y(),
     { model: l } = nt(),
     d = fe();
   return (
     ye.useLayoutEffect(() => {
-      const r = new o();
-      if (!d && i.current === a) {
+      const r = new i();
+      if (!d && o.current === a) {
         if (e === He.Researched)
           return (
             r.add(
@@ -1556,7 +1556,7 @@ function _a(e, t, a, s = "perk") {
       }
     }, [c, d, t, l.computes, e, s, l.researchedPerks, a]),
     ye.useLayoutEffect(() => {
-      i.current !== a && ((i.current = a), n({ status: e, transitionDelay: 0 }));
+      o.current !== a && ((o.current = a), n({ status: e, transitionDelay: 0 }));
     }, [e, a]),
     r
   );
@@ -1574,7 +1574,7 @@ function ua({ affectedNodes: e, path: t, nodes: a }) {
       ye.useMemo(() => e.flat(), [e]),
       (function (e) {
         const t = e[0];
-        return (ee(void 0 !== t, "Nodes dont have first element"), t.vehicleName);
+        return (K(void 0 !== t, "Nodes dont have first element"), t.vehicleName);
       })(a),
       "path",
     );
@@ -1630,8 +1630,7 @@ var pa = new (class {
     const [s, r, n] = a.split(/(?=[A-Z])/).map((e) => e.toLowerCase()),
       i = this.getElementMetrics(e),
       o = this.getElementMetrics(t);
-    (s && n) ||
-      ee.log(void 0 !== s || void 0 !== n, "getConnectionPoints didnt find start and end");
+    (s && n) || K.log(void 0 !== s || void 0 !== n, "getConnectionPoints didnt find start and end");
     const c = this.getElementConnectionPoints(i)[s],
       l = this.getElementConnectionPoints(o)[n];
     return {
@@ -1664,13 +1663,13 @@ function ga(e, t, a, s) {
           const d = s.current[l];
           if (!d)
             return (
-              ee.log(void 0 !== d, `NodeRefsMap dosent include targetNode with position ${i}`),
+              K.log(void 0 !== d, `NodeRefsMap dosent include targetNode with position ${i}`),
               t
             );
           const _ = ba(pa.getConnectionPoints(o, d, c.lineType));
           return (t.push({ path: _, affectedNodes: [[n.id, c.id]], id: tt() }), t);
         }, [])
-      : (ee.log(
+      : (K.log(
           void 0 !== o || void 0 !== c,
           `NodeRefsMap dosent include startNode or paths with position ${i}`,
         ),
@@ -1680,38 +1679,38 @@ function ga(e, t, a, s) {
 var va = "Container_2a42bba9",
   ya = pe(function ({ nodeRefsMap: e }) {
     const { model: t } = nt(),
-      [a, r] = ye.useState([]),
-      i = t.computes.nodes(),
-      c = s(() => {
-        r(ga(i, t.computes.paths(), t.finalPerk.get().id, e));
+      [s, n] = ye.useState([]),
+      o = t.computes.nodes(),
+      c = a(() => {
+        n(ga(o, t.computes.paths(), t.finalPerk.get().id, e));
       });
     return (
       ye.useLayoutEffect(() => {
-        const e = new o(),
+        const e = new i(),
           a = () => {
-            ie(() => {
+            oe(() => {
               c();
             });
           };
         return (
           e.add(
-            se(
+            ae(
               () => t.computes.paths(),
               () => {
                 a();
               },
-              { equals: O.structural, fireImmediately: !0 },
+              { equals: L.structural, fireImmediately: !0 },
             ),
           ),
-          e.add(n(window, "resize", a)),
+          e.add(r(window, "resize", a)),
           e.add(N(a)),
           e.dispose
         );
       }, [c, t.computes]),
       (0, Pe.jsx)("svg", {
         className: va,
-        children: a.map(({ id: e, path: t, affectedNodes: a }) =>
-          (0, Pe.jsx)(ua, { path: t, affectedNodes: a, nodes: i }, `${t}-${e}`),
+        children: s.map(({ id: e, path: t, affectedNodes: a }) =>
+          (0, Pe.jsx)(ua, { path: t, affectedNodes: a, nodes: o }, `${t}-${e}`),
         ),
       })
     );
@@ -1721,7 +1720,7 @@ var va = "Container_2a42bba9",
     (pe(function () {
       const e = ye.useRef({}),
         { model: t } = nt(),
-        { width: a, height: s } = _t[re().breakpoint.name].container;
+        { width: a, height: s } = _t[ne().breakpoint.name].container;
       return (0, Pe.jsxs)("div", {
         className: xa,
         style: { "--width": `${a}rem`, "--height": `${s}rem` },
@@ -1740,10 +1739,10 @@ var va = "Container_2a42bba9",
         ],
       });
     }),
-    c()(
+    o()(
       ({ observableModel: e }) => {
         const t = { nodes: e.arrayClone("nodes"), ...e.primitives(["researchAvailability"]) },
-          a = S.shallow(() =>
+          a = B.shallow(() =>
             t.nodes
               .get()
               .reduce(
@@ -1760,7 +1759,7 @@ var va = "Container_2a42bba9",
       ({ externalModel: e }) => ({ research: e.createCallbackNoArgs("onResearch") }),
     )),
   wa = { base: "Info_2def4bb3", selected: "Info_selected_3f9bb731", perk: "Info_perk_6719815a" },
-  ka = _.resolve("strings"),
+  ka = d.resolve("strings"),
   Pa = (e) => ka.readOr(`veh_skill_tree.tooltips.title.${e}`, () => e);
 var Ea = pe(function () {
     const { model: e } = ja(),
@@ -1783,13 +1782,13 @@ var Ea = pe(function () {
     return (0, Pe.jsxs)("div", {
       className: p(wa.base, wa[`base__${a.value}`]),
       children: [
-        (0, Pe.jsx)(H, {
+        (0, Pe.jsx)(de, {
           path: "veh_skill_tree.footer.text.selectedItem",
           params: {
             selectedItem:
               1 === s
                 ? (0, Pe.jsx)("span", { className: wa.perk, children: n })
-                : (0, Pe.jsx)(K, {
+                : (0, Pe.jsx)(he, {
                     className: wa.perk,
                     text: R.strings.veh_skill_tree.footer.text.amountItems(),
                     params: { amount: s },
@@ -1797,7 +1796,7 @@ var Ea = pe(function () {
                   }),
           },
         }),
-        s > 1 && (0, Pe.jsx)(z, { width: 24, height: 24, path: "skillTree.info_icon", ...i }),
+        s > 1 && (0, Pe.jsx)(T, { width: 24, height: 24, path: "skillTree.info_icon", ...i }),
       ],
     });
   }),
@@ -1817,9 +1816,9 @@ var Ea = pe(function () {
     spinner: "Footer_spinner_5ff51e9a",
     spin: "Footer_spin_4308958a",
   },
-  Ra = _.resolve("intl"),
-  Ba = _.resolve("strings"),
-  [Ca, Sa] =
+  Ra = d.resolve("intl"),
+  Ca = d.resolve("strings"),
+  [Sa, Ba] =
     (pe(function () {
       const { model: e, controls: a } = ja(),
         s = e.researchAvailability.get(),
@@ -1829,12 +1828,12 @@ var Ea = pe(function () {
         c = e.nodes.get().every((e) => e.status === He.Researched) ? "allResearched" : s,
         l = s === Ve.RESEARCH_IN_PROGRESS,
         d = D(
-          { buttonSize: he.small, iconSize: U.small },
-          { medium: { buttonSize: he.medium, iconSize: U.medium } },
+          { buttonSize: J.small, iconSize: U.small },
+          { medium: { buttonSize: J.medium, iconSize: U.medium } },
         ),
         _ = t({
-          body: Ba.read(`veh_skill_tree.footer.tooltip.body.${s}`),
-          header: Ba.read(`veh_skill_tree.footer.tooltip.header.${s}`),
+          body: Ca.read(`veh_skill_tree.footer.tooltip.body.${s}`),
+          header: Ca.read(`veh_skill_tree.footer.tooltip.header.${s}`),
         });
       return (0, Pe.jsxs)("div", {
         className: p(Ia.base, i && Ia.base__enough),
@@ -1849,9 +1848,9 @@ var Ea = pe(function () {
                     (0, Pe.jsxs)("div", {
                       className: Ia.selected,
                       children: [
-                        (0, Pe.jsx)(ne, {
+                        (0, Pe.jsx)(ie, {
                           reverse: !0,
-                          type: T.tankXP,
+                          type: z.tankXP,
                           enough: i,
                           size: d.iconSize,
                           className: Ia.currency,
@@ -1863,18 +1862,18 @@ var Ea = pe(function () {
                         (0, Pe.jsx)(Ea, {}),
                       ],
                     }),
-                    (0, Pe.jsx)(W, {
+                    (0, Pe.jsx)(H, {
                       ...(o && _),
                       disabled: o,
                       size: d.buttonSize,
-                      theme: l ? F.secondary : F.primary,
+                      theme: l ? Q.secondary : Q.primary,
                       onClick: a.research,
                       classNames: { base: Ia.button },
                       children: (0, Pe.jsxs)("div", {
                         className: p(Ia.buttonContainer, Ia[`buttonContainer__${s}`]),
                         children: [
                           l && (0, Pe.jsx)("div", { className: Ia.spinner }),
-                          Ba.readOrEmpty("veh_skill_tree.footer.button.label"),
+                          Ca.readOrEmpty("veh_skill_tree.footer.button.label"),
                         ],
                       }),
                     }),
@@ -1882,29 +1881,29 @@ var Ea = pe(function () {
                 })
               : (0, Pe.jsx)("div", {
                   className: Ia.text,
-                  children: Ba.readOrEmpty(`veh_skill_tree.footer.description.text.${c}`),
+                  children: Ca.readOrEmpty(`veh_skill_tree.footer.description.text.${c}`),
                 }),
           }),
         ],
       });
     }),
-    c()(
+    o()(
       ({ observableModel: e }) => ({ tree: e.object("tree"), ...e.primitives(["locationId"]) }),
-      Y,
+      Z,
     )),
   $a = "EntryPoint_28a00af8",
   Da = "EntryPoint_bg_1daedee",
   Aa = "EntryPoint_base__vanity_25e6c411",
   Ma = "EntryPoint_hover_4ee0996f",
   Ta = "EntryPoint_glare_c5ebb1f5",
-  za = _.resolve("views"),
+  za = d.resolve("views"),
   Fa =
     (pe(function (e) {
       const t = D({ value: "small" }, { large: { value: "big" } }),
-        { model: a } = Sa(),
+        { model: a } = Ba(),
         { isProgressionCompleted: s, isPrestigeGlareShown: r } = a.tree.get(),
-        n = i(),
-        o = J(
+        i = n(),
+        o = Y(
           "vanity_entry_point",
           ye.useMemo(
             () => ({
@@ -1916,7 +1915,7 @@ var Ea = pe(function () {
             [s],
           ),
         ),
-        c = J(
+        c = Y(
           "back_to_main_progression",
           ye.useMemo(
             () => ({
@@ -1935,7 +1934,7 @@ var Ea = pe(function () {
           (l.onClick(), e.onClick());
         },
         onMouseEnter: function (e) {
-          (l.onMouseEnter(e), n.play("mouse-enter", { target: "EntryPoint" }));
+          (l.onMouseEnter(e), i.play("mouse-enter", { target: "EntryPoint" }));
         },
         children: (0, Pe.jsxs)("div", {
           className: Da,
@@ -1968,15 +1967,15 @@ function La({
   tooltipContentId: i,
 }) {
   const o = D(
-    { size: L.S296x222 },
-    { medium: { size: L.S400x300 }, large: { size: L.S400x300 }, extraLarge: { size: L.S600x450 } },
+    { size: F.S296x222 },
+    { medium: { size: F.S400x300 }, large: { size: F.S400x300 }, extraLarge: { size: F.S600x450 } },
   );
   return (0, Pe.jsxs)("div", {
     className: Fa.base,
     children: [
       (0, Pe.jsx)("div", {
         className: Fa.reward,
-        children: (0, Pe.jsx)(te, {
+        children: (0, Pe.jsx)(ee, {
           image: ke({ name: a, icon: e }, o.size),
           name: e,
           size: o.size,
@@ -2004,16 +2003,16 @@ var Oa = { base: "Content_4e4f81e9" },
   }),
   Ga = "Footer_97a7d8ee",
   Va = "Footer_button_5cced810",
-  Wa = _.resolve("strings"),
+  Wa = d.resolve("strings"),
   qa = pe(function () {
     const { controls: e, model: t } = ve(),
       { isBroken: a } = t.vehicleInfo.get(),
       s = D(
-        { size: W.sizes.small },
+        { size: H.sizes.small },
         {
-          medium: { size: W.sizes.medium },
-          large: { size: W.sizes.medium },
-          extraLarge: { size: W.sizes.medium },
+          medium: { size: H.sizes.medium },
+          large: { size: H.sizes.medium },
+          extraLarge: { size: H.sizes.medium },
         },
       );
     return (0, Pe.jsxs)("div", {
@@ -2022,8 +2021,8 @@ var Oa = { base: "Content_4e4f81e9" },
         !a &&
           (0, Pe.jsx)("div", {
             className: Va,
-            children: (0, Pe.jsx)(W, {
-              theme: W.themes.primary,
+            children: (0, Pe.jsx)(H, {
+              theme: H.themes.primary,
               size: s.size,
               onClick: e.open,
               children: Wa.readOrEmpty("veh_skill_tree.rewardScreen.button.check"),
@@ -2031,8 +2030,8 @@ var Oa = { base: "Content_4e4f81e9" },
           }),
         (0, Pe.jsx)("div", {
           className: Va,
-          children: (0, Pe.jsx)(W, {
-            theme: W.themes.secondary,
+          children: (0, Pe.jsx)(H, {
+            theme: H.themes.secondary,
             size: s.size,
             onClick: e.close,
             children: Wa.readOrEmpty("veh_skill_tree.rewardScreen.button.accept"),
@@ -2045,16 +2044,21 @@ var Oa = { base: "Content_4e4f81e9" },
   Ua = "Header_title_b9bc7c6a",
   Xa = "Header_subtitle_65f475ba",
   Za = "Header_vehicleInfo_c5d7893b",
-  Ya = _.resolve("strings"),
+  Ya = d.resolve("strings"),
   Ja = pe(function () {
     const { model: e } = ve(),
-      { level: t, type: s, name: r, isPremium: n, prestigeLevel: i } = e.vehicleInfo.get();
-    ee(le(s), `The ${s} is not defined in vehicleType`);
-    const o = {
-      prestigeLevel: i,
-      level: (0, Pe.jsx)(a.Level, { value: t, className: Za }),
-      type: (0, Pe.jsx)(a.Type, { type: s, size: a.Type.sizes.x24x24, className: Za, premium: n }),
-      name: (0, Pe.jsx)(a.Name, { className: Za, children: r }),
+      { level: t, type: a, name: s, isPremium: r, prestigeLevel: n } = e.vehicleInfo.get();
+    K(O(a), `The ${a} is not defined in vehicleType`);
+    const i = {
+      prestigeLevel: n,
+      level: (0, Pe.jsx)(re.Level, { value: t, className: Za }),
+      type: (0, Pe.jsx)(re.Type, {
+        type: a,
+        size: re.Type.sizes.x24x24,
+        className: Za,
+        premium: r,
+      }),
+      name: (0, Pe.jsx)(re.Name, { className: Za, children: s }),
     };
     return (0, Pe.jsxs)("div", {
       className: Qa,
@@ -2065,8 +2069,8 @@ var Oa = { base: "Content_4e4f81e9" },
         }),
         (0, Pe.jsx)("div", {
           className: Xa,
-          children: (0, Pe.jsx)(K, {
-            params: o,
+          children: (0, Pe.jsx)(he, {
+            params: i,
             text: Ya.readOrEmpty("veh_skill_tree.rewardScreen.subtitle"),
           }),
         }),
@@ -2083,7 +2087,7 @@ var Oa = { base: "Content_4e4f81e9" },
   is = pe(function () {
     const { controls: e } = ve();
     return (
-      E(C.ESCAPE, e.close),
+      E(S.ESCAPE, e.close),
       (0, Pe.jsxs)("div", {
         className: Ka,
         children: [
@@ -2102,4 +2106,4 @@ var Oa = { base: "Content_4e4f81e9" },
       })
     );
   });
-r((0, Pe.jsx)(ge, { children: (0, Pe.jsx)(B, { children: (0, Pe.jsx)(is, {}) }) }));
+s((0, Pe.jsx)(ge, { children: (0, Pe.jsx)(C, { children: (0, Pe.jsx)(is, {}) }) }));

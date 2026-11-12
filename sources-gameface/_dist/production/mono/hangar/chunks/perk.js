@@ -1,5 +1,5 @@
 import { r as e } from "./rolldown-runtime.js";
-import { hi as n, rr as a, to as s, tt as i, uo as r } from "./lib.js";
+import { Q as n, hi as a, rr as s, to as i, uo as r } from "./lib.js";
 import "./tankman_role.js";
 var t = "new_skill",
   l = "doge_role",
@@ -23,9 +23,9 @@ function T(e) {
 }
 function E(e) {
   const {
-      id: n,
-      skills: a,
-      newCount: s,
+      id: a,
+      skills: s,
+      newCount: i,
       trainingProgress: r,
       vehEfficacy: t,
       efficacy: l,
@@ -34,20 +34,20 @@ function E(e) {
       vehicleBonusDetails: u,
     } = e,
     d = [];
-  for (const i of a)
+  for (const n of s)
     d.push({
-      id: n,
-      name: i.name,
-      state: i.state,
+      id: a,
+      name: n.name,
+      state: n.state,
       vehEfficacy: t,
       efficacy: l,
       role: c,
       nativeTank: f,
       instruction: T(u),
     });
-  for (let v = 0; v < s; v++) {
-    const e = 100 !== r && v === s - 1 ? i.learning : i.learned;
-    d.push({ id: n, name: o, state: e, vehEfficacy: t, efficacy: l, role: c, nativeTank: f });
+  for (let v = 0; v < i; v++) {
+    const e = 100 !== r && v === i - 1 ? n.learning : n.learned;
+    d.push({ id: a, name: o, state: e, vehEfficacy: t, efficacy: l, role: c, nativeTank: f });
   }
   return d;
 }
@@ -77,72 +77,72 @@ function D(e) {
 }
 function P(e) {
   const {
-    id: n,
-    bonusPerks: a,
-    currentVehicleSkillsEfficiency: s,
+    id: a,
+    bonusPerks: s,
+    currentVehicleSkillsEfficiency: i,
     skillsEfficiency: r,
     insideNativeTank: t,
     vehicleBonusDetails: l,
   } = e;
   let o = [];
-  for (const i of a)
+  for (const n of s)
     o = o.concat(
       E({
-        id: n,
-        skills: i.skills,
-        newCount: i.newCount,
-        trainingProgress: i.trainingProgress,
-        vehEfficacy: s,
+        id: a,
+        skills: n.skills,
+        newCount: n.newCount,
+        trainingProgress: n.trainingProgress,
+        vehEfficacy: i,
         efficacy: r,
-        role: i.role,
+        role: n.role,
         nativeTank: t,
         vehicleBonusDetails: l,
       }),
     );
-  return o.sort((e, n) =>
-    e.state === i.learning && n.state !== i.learning
+  return o.sort((e, a) =>
+    e.state === n.learning && a.state !== n.learning
       ? 1
-      : e.state !== i.learning && n.state === i.learning
+      : e.state !== n.learning && a.state === n.learning
         ? -1
-        : "new_skill" === e.name && "new_skill" !== n.name
+        : "new_skill" === e.name && "new_skill" !== a.name
           ? 1
-          : "new_skill" !== e.name && "new_skill" === n.name
+          : "new_skill" !== e.name && "new_skill" === a.name
             ? -1
             : 0,
   );
 }
 function I({
   state: e,
-  vehEfficacy: n,
-  efficacy: a,
-  nativeTank: s,
+  vehEfficacy: a,
+  efficacy: s,
+  nativeTank: i,
   newPerk: r,
   withInstruction: t,
 }) {
-  const l = !s && -1 === n,
-    o = !l && n < 1,
-    c = a.level < 1;
+  const l = !i && -1 === a,
+    o = !l && a < 1,
+    c = s.level < 1;
   return t
     ? l
       ? u
       : f
-    : e !== i.learning || o || r
-      ? r && e === i.learning
+    : e !== n.learning || o || r
+      ? r && e === n.learning
         ? l
           ? h
           : w
         : r && l && c
           ? _
           : r && l && !c
-            ? e === i.learning
+            ? e === n.learning
               ? _
               : g
-            : l || e === i.irrelevant
+            : l || e === n.irrelevant
               ? v
               : o && !r
                 ? k
                 : (o && r) || r
-                  ? e === i.learning
+                  ? e === n.learning
                     ? b
                     : m
                   : f
@@ -162,18 +162,18 @@ var L = "optDevices",
     perk: "TankmanLevel_perk_390beec8",
     borderImage__noise: "TankmanLevel_borderImage__noise_e53df2b",
   },
-  A = e(n()),
+  A = e(a()),
   S = r.resolve("images"),
-  F = a("Perk");
+  F = s("Perk");
 function V({ value: e, main: n, ...a }) {
-  const i = n ? "components.button.default_border_pattern_radius_4" : "loadout.crew.dashed_border";
+  const s = n ? "components.button.default_border_pattern_radius_4" : "loadout.crew.dashed_border";
   return (0, A.jsxs)(F, {
     ...a,
     children: [
       n && (0, A.jsx)("div", { className: N.border }),
       (0, A.jsx)("div", {
-        className: s(N.borderImage, n && N.borderImage__noise),
-        style: { borderImageSource: `url(${S.readOrEmpty(i)})` },
+        className: i(N.borderImage, n && N.borderImage__noise),
+        style: { borderImageSource: `url(${S.readOrEmpty(s)})` },
       }),
       e,
     ],

@@ -24,7 +24,7 @@ def saveDictToJsonFile(filePath, data):
     try:
         _logger.debug(b'Saving data to json file: [%s].', filePath)
         with open(filePath, b'wb') as jsonFile:
-            json.dump(data, jsonFile)
+            jsonFile.write(json.dumps(data))
     except Exception:
         _logger.exception(b'Save json file: [%s] error.', filePath)
 

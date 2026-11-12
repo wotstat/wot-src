@@ -1,20 +1,20 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
   B as a,
-  I as s,
-  L as i,
-  N as c,
-  P as o,
-  U as l,
-  V as n,
-  Z as r,
-  _t as d,
-  ft as t,
-  q as p,
-  z as m,
+  F as s,
+  I as i,
+  L as c,
+  N as o,
+  R as l,
+  U as n,
+  V as r,
+  Z as d,
+  _t as t,
+  ft as p,
+  q as m,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
-var [b, _] = l("WinbackLeaveModeDialogViewModel")(t, ({ externalModel: e }) => ({
+var [b, _] = n("WinbackLeaveModeDialogViewModel")(p, ({ externalModel: e }) => ({
     close: e.createCallbackNoArgs("onClose"),
     confirm: e.createCallbackNoArgs("onLeaveMode"),
   })),
@@ -28,12 +28,12 @@ var [b, _] = l("WinbackLeaveModeDialogViewModel")(t, ({ externalModel: e }) => (
   A = "App_divider_d1dc8925",
   N = "App_actions_cb654453",
   g = "App_button_3cdb7609",
-  y = e(r(), 1),
-  f = d.resolve("strings"),
-  L = m(function () {
+  y = e(d(), 1),
+  f = t.resolve("strings"),
+  L = l(function () {
     const { controls: e } = _();
     return (
-      p(e.close),
+      m(e.close),
       (0, y.jsxs)("div", {
         className: k,
         children: [
@@ -87,6 +87,6 @@ var [b, _] = l("WinbackLeaveModeDialogViewModel")(t, ({ externalModel: e }) => (
       })
     );
   });
-n((0, y.jsx)(b, { children: (0, y.jsx)(a, { children: (0, y.jsx)(L, {}) }) }), {
+r((0, y.jsx)(b, { children: (0, y.jsx)(a, { children: (0, y.jsx)(L, {}) }) }), {
   immediateLayout: !1,
 });

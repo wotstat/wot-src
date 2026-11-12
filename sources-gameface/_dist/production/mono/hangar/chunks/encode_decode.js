@@ -1,39 +1,39 @@
 import {
-  Di as t,
-  Ei as e,
-  Ni as n,
-  Oi as s,
-  Qt as a,
-  Yt as i,
-  an as l,
-  bi as r,
-  dn as o,
-  fn as c,
-  in as u,
-  nn as d,
-  on as g,
-  pn as h,
-  rn as f,
-  sn as v,
-  tn as p,
-  un as y,
-  uo as m,
+  Bt as t,
+  Di as e,
+  Ei as s,
+  Gt as n,
+  Ht as a,
+  It as i,
+  Jt as l,
+  Ni as r,
+  Nt as o,
+  Oi as c,
+  Ut as u,
+  Vt as d,
+  Wt as g,
+  Xt as h,
+  Yt as f,
+  Zt as v,
+  bi as p,
+  uo as y,
+  zt as m,
 } from "./lib.js";
-var b = m.resolve("strings");
+var b = y.resolve("strings");
 function _(t, e, s = "...") {
   return (
-    n(
+    r(
       e - s.length >= 0,
       `Incorrect tranticate config max(${e}) - rest.length(${s.length}) must be greater than 0`,
     ),
     t.length <= e ? [t, !1] : [`${t.slice(0, e - s.length)}${s}`, !0]
   );
 }
-var I = s(e + t),
+var I = c(s + e),
   N = () => `${Date.now().toString(16)}_${I(3)}`;
-function w(t, e, n = 1) {
-  const s = i(e, { count: n });
-  return t.has(s) ? w(t, e, n + 1) : s;
+function w(t, e, s = 1) {
+  const n = o(e, { count: s });
+  return t.has(n) ? w(t, e, s + 1) : n;
 }
 function A(t = "", e = []) {
   return {
@@ -44,7 +44,7 @@ function A(t = "", e = []) {
   };
 }
 function B(t, e) {
-  return t.title === e.title && r.shallow(t.list, e.list);
+  return t.title === e.title && p.shallow(t.list, e.list);
 }
 var E = (t) => ({ type: "ok", value: t }),
   $ = (t, e) => ({ type: "error", error: { tag: t, msg: e } });
@@ -61,22 +61,22 @@ var k = { delete: "delete", save: "save", import: "import" },
     submit: "submit",
   },
   D = g({
-    title: o(),
-    createdAt: y(l(), p(), u(0)),
-    modifiedAt: y(l(), p(), u(0)),
-    list: a(y(l(), p())),
+    title: f(),
+    createdAt: l(u(), m(), a(0)),
+    modifiedAt: l(u(), m(), a(0)),
+    list: i(l(u(), m())),
   }),
-  T = y(
-    o(),
-    c((t) => (t.length > 0 ? t : void 0)),
+  T = l(
+    f(),
+    h((t) => (t.length > 0 ? t : void 0)),
   ),
-  R = { New: "new", Existing: "existing" },
-  U = g({ id: y(o(), f(1)), playlistState: v(h([d(R.Existing), d(R.New)])) }),
-  C = g({ title: o() }),
+  U = { New: "new", Existing: "existing" },
+  R = g({ id: l(f(), d(1)), playlistState: n(v([t(U.Existing), t(U.New)])) }),
+  C = g({ title: f() }),
   L = g({
-    titles: y(
-      a(o()),
-      c((t) => new Set(t)),
+    titles: l(
+      i(f()),
+      h((t) => new Set(t)),
     ),
   }),
   P = {
@@ -101,31 +101,31 @@ var k = { delete: "delete", save: "save", import: "import" },
   S = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_";
 function V(t) {
   let e = t[0] ?? 0;
-  for (let n = 0; n < t.length; n++) e = (e + t[n]) & 65535;
+  for (let s = 0; s < t.length; s++) e = (e + t[s]) & 65535;
   return e;
 }
-function Y(t) {
+function G(t) {
   if (0 === t.length) return $("EMPTY_INPUT");
   const e = V(t),
-    n = new Uint8Array(5 + 5 * t.length);
-  ((n[0] = e >>> 8), (n[1] = 255 & e), (n[2] = 1));
-  let s = 5;
+    s = new Uint8Array(5 + 5 * t.length);
+  ((s[0] = e >>> 8), (s[1] = 255 & e), (s[2] = 1));
+  let n = 5;
   for (let o = 0; o < t.length; o++) {
     let e = t[o];
     for (;;) {
       const t = 127 & e;
       if (((e >>>= 7), 0 === e)) {
-        ((n[s] = t), s++);
+        ((s[n] = t), n++);
         break;
       }
-      ((n[s] = 128 | t), s++);
+      ((s[n] = 128 | t), n++);
     }
   }
-  ((n[3] = (s - 5) >>> 8), (n[4] = (s - 5) & 255));
+  ((s[3] = (n - 5) >>> 8), (s[4] = (n - 5) & 255));
   let a = "",
     i = 0n,
     l = 0;
-  const r = n.slice(0, s);
+  const r = s.slice(0, n);
   for (const o of r)
     for (i = (i << 8n) | BigInt(o), l += 8; l >= 6;) {
       l -= 6;
@@ -138,30 +138,30 @@ function Y(t) {
   }
   return E(a);
 }
-function j(t) {
+function H(t) {
   if (0 === t.length) return $("INVALID_INPUT");
   let e = 0n,
-    n = 0;
-  const s = [];
+    s = 0;
+  const n = [];
   for (const o of t) {
     const t = S.indexOf(o);
     if (-1 === t) return $("INVALID_CHAR");
-    for (e = (e << 6n) | BigInt(t), n += 6; n >= 8;)
-      ((n -= 8), s.push(Number((e >> BigInt(n)) & 255n)), (e &= (1n << BigInt(n)) - 1n));
+    for (e = (e << 6n) | BigInt(t), s += 6; s >= 8;)
+      ((s -= 8), n.push(Number((e >> BigInt(s)) & 255n)), (e &= (1n << BigInt(s)) - 1n));
   }
-  if (s.length < 6) return $("INCORRECT_LEN");
-  const a = (s[0] << 8) | s[1],
-    i = s[2] << 8,
-    l = 5 + ((s[3] << 8) | s[4]),
+  if (n.length < 6) return $("INCORRECT_LEN");
+  const a = (n[0] << 8) | n[1],
+    i = n[2] << 8,
+    l = 5 + ((n[3] << 8) | n[4]),
     r = [];
   for (let o = 5; o < l;) {
     let t,
       e = 0,
-      n = 0;
+      s = 0;
     do {
-      if (((t = s[o++]), void 0 === t))
-        return $("OUT_OF_RANGE", `Out of range ${o} in ${s.length}\n\n${s}`);
-      ((e |= (127 & t) << n), (n += 7));
+      if (((t = n[o++]), void 0 === t))
+        return $("OUT_OF_RANGE", `Out of range ${o} in ${n.length}\n\n${n}`);
+      ((e |= (127 & t) << s), (s += 7));
     } while (!(128 & ~t));
     r.push(e);
   }
@@ -169,7 +169,7 @@ function j(t) {
 }
 export {
   E as _,
-  U as a,
+  R as a,
   O as b,
   C as c,
   x as d,
@@ -179,12 +179,12 @@ export {
   P as i,
   D as l,
   $ as m,
-  Y as n,
-  R as o,
+  G as n,
+  U as o,
   A as p,
   V as r,
   L as s,
-  j as t,
+  H as t,
   T as u,
   B as v,
   _ as y,

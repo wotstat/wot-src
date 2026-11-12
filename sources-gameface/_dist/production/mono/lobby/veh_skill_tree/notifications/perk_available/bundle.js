@@ -6,11 +6,11 @@ import {
   Jt as i,
   Ln as l,
   St as t,
-  at as r,
-  bt as c,
-  gt as n,
-  t as p,
-  yt as d,
+  _t as r,
+  dt as c,
+  ht as n,
+  mt as p,
+  n as d,
   zn as b,
 } from "../../../chunks/lib.js";
 import "../../../chunks/_wg-global-styles.js";
@@ -40,7 +40,7 @@ var [h, _] = a()(
       a = s.vehicle.get(),
       i = s.isDisabled.get(),
       t = e({ body: N.disabledButtonTooltip() });
-    return (0, u.jsx)(p, {
+    return (0, u.jsx)(d, {
       children: (0, u.jsxs)("div", {
         className: l(g, s.isPopUp.get() && j),
         children: [
@@ -50,10 +50,10 @@ var [h, _] = a()(
             path: `skillTree.notifications.perk_available.vehicles.${a.techName}`,
             className: k,
           }),
-          (0, u.jsx)(n, {
+          (0, u.jsx)(c, {
             ...(i && t),
-            size: d.small,
-            theme: c.secondary,
+            size: p.small,
+            theme: n.secondary,
             onClick: o.goToProgression,
             classNames: { base: A },
             disabled: i,

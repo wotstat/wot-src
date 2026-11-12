@@ -8,7 +8,7 @@ from shared_utils.account_helpers.diff_utils import synchronizeDicts
 _logger = logging.getLogger()
 
 def _handleNonPlayerIgnoreState(func):
-    callbackNdx = getargspec(func).args.index(b'callback')
+    callbackNdx = getargspec(func).args.index(b'callback') - 1
 
     @wraps(func)
     def wrapped(self, *args, **kwargs):

@@ -21,67 +21,67 @@ import {
   Ht as x,
   J as y,
   Jt as b,
-  K as j,
-  Kt as C,
-  L as N,
-  Ln as w,
-  Mn as S,
-  Mt as I,
-  O as k,
-  On as P,
-  Q as V,
-  Qt as E,
-  Rt as D,
-  S as B,
-  St as L,
-  T as F,
-  Tn as M,
-  Tt as T,
-  U as z,
-  Ut as A,
-  V as O,
-  W as R,
-  X as $,
-  Xt as H,
-  Y as q,
-  Z as U,
-  Zt as G,
-  _ as W,
-  _t as Z,
-  at as J,
-  b as X,
-  bn as K,
-  ct as Q,
-  d as Y,
-  en as ee,
-  et as te,
-  f as se,
-  fn as ae,
-  g as re,
-  gt as ie,
-  h as le,
-  in as oe,
-  j as ne,
-  jn as ce,
-  jt as de,
-  k as ue,
-  kn as _e,
-  l as pe,
-  m as me,
-  mn as he,
-  mt as fe,
-  nn as ve,
-  nt as ge,
-  on as xe,
-  p as ye,
-  q as be,
-  rn as je,
-  rt as Ce,
-  sn as Ne,
-  st as we,
-  tn as Se,
-  tt as Ie,
-  u as ke,
+  Kt as j,
+  L as C,
+  Ln as N,
+  Mn as w,
+  Mt as S,
+  O as I,
+  On as k,
+  Q as P,
+  Qt as V,
+  Rt as E,
+  S as D,
+  St as B,
+  T as L,
+  Tn as F,
+  Tt as M,
+  Ut as T,
+  X as z,
+  Xt as A,
+  Z as O,
+  Zt as R,
+  _ as $,
+  _t as H,
+  at as q,
+  b as U,
+  bn as G,
+  ct as W,
+  d as Z,
+  dt as J,
+  en as X,
+  et as K,
+  f as Q,
+  fn as Y,
+  ft as ee,
+  g as te,
+  h as se,
+  in as ae,
+  it as re,
+  j as ie,
+  jn as le,
+  jt as oe,
+  k as ne,
+  kn as ce,
+  l as de,
+  lt as ue,
+  m as _e,
+  mn as pe,
+  nn as me,
+  nt as he,
+  on as fe,
+  ot as ve,
+  p as ge,
+  pt as xe,
+  q as ye,
+  rn as be,
+  rt as je,
+  sn as Ce,
+  st as Ne,
+  tn as we,
+  tt as Se,
+  u as Ie,
+  ut as ke,
   v as Pe,
   vn as Ve,
   vt as Ee,
@@ -166,7 +166,7 @@ var Ye = "role",
     isCommonProgression: "isCommonProgression",
   },
   it = "isCommonProgression",
-  lt = [V.assault, V.universal, V.break, V.sniper, V.scout, V.support],
+  lt = [q.assault, q.universal, q.break, q.sniper, q.scout, q.support],
   ot = [
     "bonus",
     "favorite",
@@ -177,17 +177,17 @@ var Ye = "role",
     "own3DStyle",
     "rented",
   ],
-  nt = [Ce.lightTank, Ce.mediumTank, Ce.heavyTank, Ce["AT-SPG"], Ce.SPG],
-  ct = Se(1, 12, P),
+  nt = [ke.lightTank, ke.mediumTank, ke.heavyTank, ke["AT-SPG"], ke.SPG],
+  ct = we(1, 12, k),
   dt = "vehicle_types",
   ut = "nations",
   _t = "levels",
   pt = "specials",
   mt = "battle_pass",
-  ht = { heavy_tank: q, medium_tank: U, light_tank: $, at_spg: be };
-function ft(e, t) {
+  ht = { heavy_tank: he, medium_tank: re, light_tank: je, at_spg: K };
+function ft(e, s) {
   return (
-    "isCommonProgression" === e && t.status !== j.UNSUITABLE_TO_QUEUE && t.bpProgress < t.maxBpScore
+    "isCommonProgression" === e && s.status !== t.UNSUITABLE_TO_QUEUE && s.bpProgress < s.maxBpScore
   );
 }
 function vt(e, t, s, a) {
@@ -227,12 +227,12 @@ function xt(e, t, s) {
     if ("rented" !== i) {
       if (!vt(r, i, t, s)) return !1;
     } else a = !0;
-  if (!a && te(t) && !s?.fromWotPlus) return !1;
+  if (!a && Ne(t) && !s?.fromWotPlus) return !1;
   if (s && e.battle_pass && e.battle_pass.length > 0)
     for (const i of e.battle_pass) if (!ft(i, s)) return !1;
   for (const i of Object.keys(e)) if (i in gt && !gt[i](e, t)) return !1;
   return ((e, t) => {
-    const s = y(t.role);
+    const s = Se(t.role);
     let a = !1;
     for (const r of Object.keys(ht))
       if (r in e && ((a = !0), e[r].some((e) => e.includes(s)))) return !0;
@@ -296,21 +296,21 @@ var [Nt, wt] = h("FilterVehiclesProvider")(
       }
       const { text_search: a, ...r } = s(t("filters")),
         i = { ...e.primitives(["defaultFilters"]) },
-        l = T.structural(() => s(i.defaultFilters.get())),
+        l = M.structural(() => s(i.defaultFilters.get())),
         o = {
           ...e.primitives(["carouselRowCount"]),
-          filters: ae.box(r, { deep: !1 }),
-          searchName: ae.box(a?.[0] ?? ""),
+          filters: Y.box(r, { deep: !1 }),
+          searchName: Y.box(a?.[0] ?? ""),
           nations: e.arrayClone("nationsOrder"),
         };
       return {
         ...o,
         computes: {
-          hasFilters: T.primitive(
-            () => !H.structural(l(), o.filters.get()) || o.searchName.get().length > 0,
+          hasFilters: M.primitive(
+            () => !A.structural(l(), o.filters.get()) || o.searchName.get().length > 0,
           ),
           nations: () => o.nations.get(),
-          nationToIndex: T.shallow(() => o.nations.get().reduce((e, t, s) => ((e[t] = s), e), {})),
+          nationToIndex: M.shallow(() => o.nations.get().reduce((e, t, s) => ((e[t] = s), e), {})),
           default: l,
         },
       };
@@ -319,7 +319,7 @@ var [Nt, wt] = h("FilterVehiclesProvider")(
       const a = s.createCallback((e) => e, "onSaveFilter");
       return (
         e(
-          Ne(() => {
+          Ce(() => {
             var e, s;
             ((e = t.filters.get()),
               (s = t.searchName.get()),
@@ -327,13 +327,13 @@ var [Nt, wt] = h("FilterVehiclesProvider")(
           }),
         ),
         {
-          reset: xe(() => {
+          reset: fe(() => {
             (t.filters.set(t.computes.default()), t.searchName.set(""));
           }),
-          search: xe((e) => {
+          search: fe((e) => {
             t.searchName.set(e);
           }),
-          change: xe((e) => {
+          change: fe((e) => {
             t.filters.set(jt(t.filters.get(), e));
           }),
           carouselTypeChange: s.createCallback((e) => ({ rowCount: e }), "onCarouselTypeChange"),
@@ -342,58 +342,58 @@ var [Nt, wt] = h("FilterVehiclesProvider")(
     },
   ),
   St = e(ze()),
-  It = [Ce.lightTank, Ce.mediumTank, Ce.heavyTank, Ce["AT-SPG"], Ce.SPG].reduce(
+  It = [ke.lightTank, ke.mediumTank, ke.heavyTank, ke["AT-SPG"], ke.SPG].reduce(
     (e, t, s) => ((e[t] = s), e),
     {},
   ),
   [kt, Pt] = h("VehicleStatisticsProvider")(({ observableModel: e }) => {
     const t = e.dict("statistics"),
-      s = T.structural((e) => t.get(e));
-    return { ids: T.primitive(() => t.keys), get: s };
+      s = M.structural((e) => t.get(e));
+    return { ids: M.primitive(() => t.keys), get: s };
   }),
   [Vt, Et] = h("VehiclesProvider")(
     ({ observableModel: e }) => {
-      const s = { vehicles: e.dictRef("vehicles") };
+      const t = { vehicles: e.dictRef("vehicles") };
       return {
-        get: T.structural((e) => {
+        get: M.structural((e) => {
           if (-1 === e) return;
-          const a = s.vehicles.get(e);
-          if (!a) return void console.error(`Error getting vehicle with id: ${e}`);
-          const r = (function (e) {
+          const s = t.vehicles.get(e);
+          if (!s) return void console.error(`Error getting vehicle with id: ${e}`);
+          const a = (function (e) {
             try {
               const t = JSON.parse(e);
               return ((t.shortName = t.shortName.replace(/<img.+\/>/, "")), t);
             } catch (t) {
               throw (console.error(`Error parsing JSON for element ${e}:`, t), t);
             }
-          })(a);
-          return { ...r, imageKey: t(r.name) };
+          })(s);
+          return { ...a, imageKey: ve(a.name) };
         }),
-        has: T.primitive((e) => Boolean(s.vehicles.get(e))),
-        ids: T.shallow(() => [...s.vehicles.keys.values()]),
-        amount: T.primitive(() => s.vehicles.length),
-        list: T.shallow(() => {
+        has: M.primitive((e) => Boolean(t.vehicles.get(e))),
+        ids: M.shallow(() => [...t.vehicles.keys.values()]),
+        amount: M.primitive(() => t.vehicles.length),
+        list: M.shallow(() => {
           let e = [];
-          for (const [a, r] of s.vehicles.entries())
+          for (const [a, r] of t.vehicles.entries())
             try {
               e.push(JSON.parse(r.get()));
-            } catch (t) {
-              console.error(`Error parsing JSON for element ${a}:`, t);
+            } catch (s) {
+              console.error(`Error parsing JSON for element ${a}:`, s);
             }
           return e;
         }),
       };
     },
-    _e,
+    ce,
     { useRequires: () => ({ statistics: Pt() }) },
   ),
   [Dt, Bt] = h("MyVehiclesProvider")(
     (e) => {
       const t = e.requires.statistic.model.ids,
-        s = T.structural((s) => {
+        s = M.structural((s) => {
           if (t().has(s)) return e.requires.vehicles.model.get(s);
         }),
-        a = T.shallow(() => {
+        a = M.shallow(() => {
           const s = [];
           for (const a of t().values()) {
             const t = e.requires.vehicles.model.get(a);
@@ -401,25 +401,25 @@ var [Nt, wt] = h("FilterVehiclesProvider")(
           }
           return s;
         });
-      return { get: s, getAll: a, amount: T.primitive(() => a().length), ids: t };
+      return { get: s, getAll: a, amount: M.primitive(() => a().length), ids: t };
     },
-    _e,
+    ce,
     { useRequires: () => ({ vehicles: Et(), statistic: Pt() }) },
   ),
   Lt = g.resolve("strings");
 function Ft(e, t, s = "...") {
   return (
-    ve(
+    me(
       t - s.length >= 0,
       `Incorrect tranticate config max(${t}) - rest.length(${s.length}) must be greater than 0`,
     ),
     e.length <= t ? [e, !1] : [`${e.slice(0, t - s.length)}${s}`, !0]
   );
 }
-var Mt = ee(E + s),
+var Mt = X(V + s),
   Tt = () => `${Date.now().toString(16)}_${Mt(3)}`;
 function zt(e, t, s = 1) {
-  const a = we(t, { count: s });
+  const a = l(t, { count: s });
   return e.has(a) ? zt(e, t, s + 1) : a;
 }
 function At(e = "", t = []) {
@@ -466,21 +466,21 @@ var Ot = (e) => ({ type: "ok", value: e }),
             enabled: a.enabled,
             selectedID: a.selectedID,
             nationsOrder: e.filters.model.nations,
-            filters: ae.box(r(), { deep: !1 }),
-            searchName: ae.box("", { deep: !1 }),
-            edit: { initial: ae.box(void 0, { deep: !1 }), dirty: a.dirtyEdit },
+            filters: Y.box(r(), { deep: !1 }),
+            searchName: Y.box("", { deep: !1 }),
+            edit: { initial: Y.box(void 0, { deep: !1 }), dirty: a.dirtyEdit },
           },
-          l = T.shallow(() => s.keys),
-          o = T.primitive(() => qe(Ut, i.selectedID.get())),
-          n = T.structural((e) => {
+          l = M.shallow(() => s.keys),
+          o = M.primitive(() => qe(Ut, i.selectedID.get())),
+          n = M.structural((e) => {
             try {
               const t = s.get(e);
               if (!t) return Ot(void 0);
               const a = qe(qt, JSON.parse(t)),
                 r = new Set();
               for (const e of a.list)
-                if (ge[e]) {
-                  const t = ge[e].find((e) => Boolean(i.myVehicles.get(e.toString())));
+                if (ue[e]) {
+                  const t = ue[e].find((e) => Boolean(i.myVehicles.get(e.toString())));
                   r.add(t ?? e);
                 } else r.add(e);
               return Ot({ ...a, list: [...r.values()] });
@@ -491,24 +491,24 @@ var Ot = (e) => ({ type: "ok", value: e }),
               );
             }
           }),
-          d = T.shallow(() =>
+          d = M.shallow(() =>
             Be(l().values())
               .map((e) => n(e))
               .filter((e) => "ok" === e.type && void 0 !== e.value)
               .map((e) => e.value.title)
               .reduce((e, t) => e.add(t), new Set()),
           ),
-          u = T.primitive((e) => {
+          u = M.primitive((e) => {
             const t = n(e);
             if ("ok" !== t.type || void 0 === t.value)
               throw new Error(`Can't get playlist by id ${e}`);
             return t.value;
           }),
-          _ = T.structural((e) => {
+          _ = M.structural((e) => {
             const t = n(e);
             if ("ok" === t.type && void 0 !== t.value) return { id: e, ...t.value };
           }),
-          p = T.shallow(() =>
+          p = M.shallow(() =>
             Be(l().values())
               .map((e) => _(e))
               .filter((e) => void 0 !== e)
@@ -516,37 +516,37 @@ var Ot = (e) => ({ type: "ok", value: e }),
               .sort((e, t) => e.title.localeCompare(t.title))
               .map((e) => e.id),
           ),
-          m = T.primitive(() => {
+          m = M.primitive(() => {
             const e = o();
             if (e) return _(e);
           }),
-          h = T.shallow(() => {
+          h = M.shallow(() => {
             const t = e.filters.model.computes.nationToIndex();
             return c(e.myVehicles.model.getAll(), (e, s) => Ct(t, It, e, s));
           }),
-          f = T.primitive((e) => {
+          f = M.primitive((e) => {
             const t = _(e),
               s = g();
             if (void 0 === t || 0 === t.list.length) return;
             const a = new Set(t.list);
             for (let r = 0; r < s.length; r += 1) {
               const e = Number(s[r]?.id);
-              if (G(e) && a.has(e)) return r;
+              if (R(e) && a.has(e)) return r;
             }
           }),
-          v = T.primitive(
-            () => !1 === H.structural(r(), i.filters.get()) || i.searchName.get().length > 0,
+          v = M.primitive(
+            () => !1 === A.structural(r(), i.filters.get()) || i.searchName.get().length > 0,
           ),
-          g = T.shallow(() => {
+          g = M.shallow(() => {
             const t = i.filters.get(),
               s = h(),
               a = i.searchName.get();
             return s.filter((s) => !!yt(a, s) && xt(t, s, e.statistic.model.get(s.id)));
           }),
-          x = T.primitive((t) => Boolean(e.statistic.model.get(t)?.elite)),
-          y = T.shallow((t) => e.vehicles.model.get(t)?.imageKey),
-          b = T.primitive(() => g().length),
-          j = T.shallow(() => m()?.list.map(i.vehicles.get));
+          x = M.primitive((t) => Boolean(e.statistic.model.get(t)?.elite)),
+          y = M.shallow((t) => e.vehicles.model.get(t)?.imageKey),
+          b = M.primitive(() => g().length),
+          j = M.shallow(() => m()?.list.map(i.vehicles.get));
         return {
           ...i,
           current: m,
@@ -574,7 +574,7 @@ var Ot = (e) => ({ type: "ok", value: e }),
           ),
           a = t.createCallback((e) => ({ id: e }), "onSelect");
         return {
-          filters: oe({
+          filters: ae({
             update: (t) => {
               e.filters.set(jt(e.filters.get(), t));
             },
@@ -586,7 +586,7 @@ var Ot = (e) => ({ type: "ok", value: e }),
               e.filters.set(jt(e.filters.get(), t));
             },
           }),
-          create: xe((t) => {
+          create: fe((t) => {
             const { id: a = Tt(), vehicleIds: r = [], skipRedirect: i = !1 } = t ?? {};
             s({ id: a, initial: At(zt(e.titles(), "playlists.defaultName"), r), skipRedirect: i });
           }),
@@ -597,14 +597,14 @@ var Ot = (e) => ({ type: "ok", value: e }),
             ),
             setDirty: t.createCallback((e) => ({ value: e }), "onSetDirtyEdit"),
           },
-          select: xe((t = "") => {
+          select: fe((t = "") => {
             (e.selectedID.set(t), a(t));
           }),
           save: t.createCallback((e) => ({ id: e }), "onSave"),
           exit: t.createCallback((e) => ({ id: e }), "onDiscard"),
           goToAboutVehicle: t.createCallback((e) => ({ intCD: e }), "onGoToAboutVehicle"),
           openImport: t.createCallback(
-            xe(() => ({
+            fe(() => ({
               type: Ht,
               params: JSON.stringify({ titles: Array.from(e.titles().values()) }),
             })),
@@ -634,39 +634,39 @@ var Ot = (e) => ({ type: "ok", value: e }),
           "bpStatus",
           "telecomRentStatus",
         ]),
-        s = ae.box([], { deep: !1 }),
+        s = Y.box([], { deep: !1 }),
         a = { intCD: t.currentVehicleIntCD, inventoryId: t.currentVehicleInventoryId },
-        r = T.shallow(() => {
+        r = M.shallow(() => {
           const t = a.intCD.get();
           return e.requires.vehicles.model.get(t);
         }),
-        i = T.shallow((t) => {
+        i = M.shallow((t) => {
           if (void 0 === t) return;
           const s = a.intCD.get();
           return -1 === s ? e.requires.vehicles.model.get(t) : e.requires.vehicles.model.get(s);
         }),
-        l = T.shallow(() => {
+        l = M.shallow(() => {
           const t = a.intCD.get();
           return e.requires.statistic.model.get(t);
         }),
-        o = T.primitive(() => -1 !== a.intCD.get()),
-        n = T.shallow((e) => K(e, (e) => c.get(String(e)))),
+        o = M.primitive(() => -1 !== a.intCD.get()),
+        n = M.shallow((e) => G(e, (e) => c.get(String(e)))),
         c = e.requires.myVehicles.model,
-        d = T.structural(() => e.requires.vehicles.model.list().filter((e) => e.rent.isRented)),
-        u = T.primitive(() =>
+        d = M.structural(() => e.requires.vehicles.model.list().filter((e) => e.rent.isRented)),
+        u = M.primitive(() =>
           e.requires.vehicles.model.list().some((t) => {
             const s = e.requires.statistic.model.get(t.vehicleId);
             if (s) return "inPrebattle" === s.status;
           }),
         ),
-        _ = T.primitive(() => {
+        _ = M.primitive(() => {
           const t = [...c.getAll()],
             s = e.requires.filters.model.computes.nationToIndex();
           return (t.sort((e, t) => Ct(s, It, e, t)), t);
         });
       return (
         e.cleanup(
-          Ne(() => {
+          Ce(() => {
             const t = e.requires.filters.model.filters.get(),
               a = e.requires.filters.model.searchName.get(),
               r = e.requires.playlists?.model.current(),
@@ -677,7 +677,7 @@ var Ot = (e) => ({ type: "ok", value: e }),
                   !!xt(t, s, e.requires.statistic.model.get(s.id)) &&
                   yt(a, s),
               );
-            he(() => s.set(l));
+            pe(() => s.set(l));
           }),
         ),
         {
@@ -692,9 +692,9 @@ var Ot = (e) => ({ type: "ok", value: e }),
           current: {
             intCD: t.currentVehicleIntCD,
             inventoryId: t.currentVehicleInventoryId,
-            amount: T.primitive(() => s.get().length),
+            amount: M.primitive(() => s.get().length),
             list: () => s.get(),
-            ids: T.shallow(() => s.get().map((e) => e.id)),
+            ids: M.shallow(() => s.get().map((e) => e.id)),
             playlist: e.requires.playlists ? e.requires.playlists.model.current : () => {},
           },
           slots: {
@@ -736,33 +736,33 @@ var Ot = (e) => ({ type: "ok", value: e }),
       const t = e.observableModel.primitives(["title", "currentVehicleCD", "isAllVehicles"]),
         s = e.requires.vehicles.model,
         a = e.requires.statistic.model,
-        r = ae.box([], { deep: !1 }),
-        i = T.shallow((e) => K(e, (e) => s.get(String(e)))),
-        l = T.primitive(() => {
+        r = Y.box([], { deep: !1 }),
+        i = M.shallow((e) => G(e, (e) => s.get(String(e)))),
+        l = M.primitive(() => {
           let r = s.list();
           t.isAllVehicles.get() || (r = r.filter((e) => Boolean(a.get(e.id))));
           const i = e.requires.filters.model.computes.nationToIndex();
           return (r.sort((e, t) => Ct(i, It, e, t)), r);
         });
       e.cleanup(
-        Ne(() => {
+        Ce(() => {
           const t = e.requires.playlists?.model.current(),
             s = (t ? i(t.list) : l()).filter(
               (t) =>
                 !!xt(e.requires.filters.model.filters.get(), t, a.get(t.id)) &&
                 yt(e.requires.filters.model.searchName.get(), t),
             );
-          he(() => r.set(s));
+          pe(() => r.set(s));
         }),
       );
-      const o = T.shallow(() => r.get().map((e) => e.id)),
-        n = T.primitive(() => t.currentVehicleCD.get().toString());
+      const o = M.shallow(() => r.get().map((e) => e.id)),
+        n = M.primitive(() => t.currentVehicleCD.get().toString());
       return {
         title: t.title,
         currentVehicleCD: n,
-        currentIndex: T.primitive(() => o().indexOf(n())),
+        currentIndex: M.primitive(() => o().indexOf(n())),
         isAllVehicles: t.isAllVehicles,
-        total: T.primitive(() => {
+        total: M.primitive(() => {
           const t = e.requires.playlists?.model.current();
           return t ? t.list.length : l().length;
         }),
@@ -852,8 +852,8 @@ var ns = {
     return (0, cs.jsx)(Me, {
       ...e.tooltip,
       theme: Fe.primary,
-      size: X.extraSmall,
-      className: w(ns.toggle, a && ns.toggle__activated, e.className),
+      size: U.extraSmall,
+      className: N(ns.toggle, a && ns.toggle__activated, e.className),
       activated: a,
       onClick: () => {
         (t.change(e.event), e.tooltip && e.tooltip.onClick());
@@ -863,7 +863,7 @@ var ns = {
   });
 function _s(e) {
   return (0, cs.jsx)("div", {
-    className: w(ns.toggleContainer, e.className),
+    className: N(ns.toggleContainer, e.className),
     children: lt.map((e) =>
       (0, cs.jsx)(
         ds,
@@ -879,7 +879,7 @@ function _s(e) {
 }
 function ps(e) {
   return (0, cs.jsx)("div", {
-    className: w(ns.toggleContainer, ns.toggleContainer__type, e.className),
+    className: N(ns.toggleContainer, ns.toggleContainer__type, e.className),
     children: nt.map((e) =>
       (0, cs.jsx)(
         ds,
@@ -887,7 +887,7 @@ function ps(e) {
           tooltip: { header: e, body: et },
           event: { field: dt, type: "regular", value: e },
           className: ns.toggle__type,
-          children: (0, cs.jsx)(O, { type: e, size: O.sizes.x24x24 }),
+          children: (0, cs.jsx)(y, { type: e, size: y.sizes.x24x24 }),
         },
         e,
       ),
@@ -896,7 +896,7 @@ function ps(e) {
 }
 function ms(e) {
   return (0, cs.jsx)("div", {
-    className: w(ns.toggleContainer, e.className),
+    className: N(ns.toggleContainer, e.className),
     children: e.orderedNations.map((e) =>
       (0, cs.jsx)(
         ds,
@@ -905,7 +905,7 @@ function ms(e) {
           event: { field: ut, type: "regular", value: e },
           children: (0, cs.jsx)("div", {
             className: ns.nationWrapper,
-            children: (0, cs.jsx)(J, { className: ns.nationIcon, path: `flags.c_60x40.${e}` }),
+            children: (0, cs.jsx)(H, { className: ns.nationIcon, path: `flags.c_60x40.${e}` }),
           }),
         },
         e,
@@ -915,14 +915,14 @@ function ms(e) {
 }
 function hs(e) {
   return (0, cs.jsx)("div", {
-    className: w(ns.toggleContainer, e.className),
+    className: N(ns.toggleContainer, e.className),
     children: ct.map((e) =>
       (0, cs.jsx)(
         ds,
         {
           tooltip: { header: "tier", body: tt },
           event: { field: _t, type: "regular", value: `level_${e}` },
-          children: (0, cs.jsx)(f, { className: ns.vehicleLevel, value: e }),
+          children: (0, cs.jsx)(P, { className: ns.vehicleLevel, value: e }),
         },
         e,
       ),
@@ -939,8 +939,8 @@ function fs(e) {
     {
       tooltip: { header: e.special, body: e.special },
       event: { field: pt, type: "regular", value: e.special },
-      children: (0, cs.jsx)(J, {
-        className: w(ns.specialsIcons, "favorite" === e.special && ns.specialsIcons__favorite),
+      children: (0, cs.jsx)(H, {
+        className: N(ns.specialsIcons, "favorite" === e.special && ns.specialsIcons__favorite),
         path: t,
       }),
     },
@@ -955,7 +955,7 @@ function vs() {
   return (0, cs.jsx)(ds, {
     tooltip: { header: it, body: it },
     event: { field: mt, type: "regular", value: it },
-    children: (0, cs.jsx)(J, { className: ns.specialsIcons, path: e }),
+    children: (0, cs.jsx)(H, { className: ns.specialsIcons, path: e }),
   });
 }
 var gs = Ue(function (e) {
@@ -971,7 +971,7 @@ var gs = Ue(function (e) {
       (e) => (0 !== i.length || "rented" !== e) && (n || "bonus" !== e) && (o || "crystals" !== e),
     );
   return (0, cs.jsxs)("div", {
-    className: w(ns.toggleContainer, e.className),
+    className: N(ns.toggleContainer, e.className),
     children: [
       c.map((e) => (0, cs.jsx)(fs, { imagePath: t.imagesMap?.[e] ?? e, special: e }, e)),
       r && (0, cs.jsx)(vs, {}),
@@ -1005,7 +1005,7 @@ function xs() {
     ...e,
     className: e.className ?? ns.scroll,
     children: [
-      (0, cs.jsx)(Q, {
+      (0, cs.jsx)(Ee, {
         className: ns.category,
         path: "tank_carousel_filter.popover.label.specials",
       }),
@@ -1015,27 +1015,27 @@ function xs() {
 });
 var ys = (0, St.memo)(function (e) {
     return (0, cs.jsx)(u, {
-      children: (0, cs.jsxs)(ue, {
+      children: (0, cs.jsxs)(ne, {
         className: e.className,
         barClassNames: e.barClassNames,
         scrollClassNames: e.scrollClassNames,
         children: [
-          (0, cs.jsx)(Q, {
+          (0, cs.jsx)(Ee, {
             className: ns.category,
             path: "tank_carousel_filter.popover.label.vehicleTypes",
           }),
           (0, cs.jsx)(ps, {}),
-          (0, cs.jsx)(Q, {
+          (0, cs.jsx)(Ee, {
             className: ns.category,
             path: "tank_carousel_filter.popover.label.vehicleRole",
           }),
           (0, cs.jsx)(_s, {}),
-          (0, cs.jsx)(Q, {
+          (0, cs.jsx)(Ee, {
             className: ns.category,
             path: "tank_carousel_filter.popover.label.nations",
           }),
           (0, cs.jsx)(ms, { orderedNations: e.orderedNations }),
-          (0, cs.jsx)(Q, {
+          (0, cs.jsx)(Ee, {
             className: ns.category,
             path: "tank_carousel_filter.popover.label.levels",
           }),
@@ -1074,11 +1074,11 @@ var ys = (0, St.memo)(function (e) {
           }),
         (0, cs.jsx)("div", { className: Ns, children: t.formatNumber("integral", r.total()) }),
         a &&
-          (0, cs.jsx)(ie, {
+          (0, cs.jsx)(J, {
             className: ws,
             autoAlignContent: !1,
-            theme: ie.themes.secondary,
-            size: ie.sizes.extraSmall,
+            theme: J.themes.secondary,
+            size: J.sizes.extraSmall,
             onClick: s.reset,
             children: (0, cs.jsx)("div", { className: Ss }),
           }),
@@ -1219,7 +1219,7 @@ var ys = (0, St.memo)(function (e) {
     meta: { size: { w: 137, h: 145 }, scale: 1 },
   };
 function Ps({ value: e, ...t }) {
-  return (0, cs.jsx)(me, {
+  return (0, cs.jsx)(_e, {
     ...t,
     sprite: ks,
     path: "hangar.playlists.icons",
@@ -1227,11 +1227,11 @@ function Ps({ value: e, ...t }) {
     className: t.className,
   });
 }
-var Vs = Ee("IconContainer", "Icon_container_83f4dd0e"),
+var Vs = xe("IconContainer", "Icon_container_83f4dd0e"),
   Es = Ue(function (e) {
     const t = Yt(),
       s = Jt().model.byIdUnsafe(e.id);
-    ve(void 0 !== s, `Playlist with ${e.id} is not found`);
+    me(void 0 !== s, `Playlist with ${e.id} is not found`);
     const a = t.model.accumulateByIds(s.list).length;
     return s.list.length <= a
       ? null
@@ -1255,7 +1255,7 @@ function Ds(e) {
     a = "lg" === e.size ? "alert_lg" : "alert";
   return (0, cs.jsx)("lg" === e.size ? Vs : "div", {
     ...s,
-    className: w(e.classNames?.container, e.className),
+    className: N(e.classNames?.container, e.className),
     children: (0, cs.jsx)(Ps, { className: e.classNames?.icon, value: a }),
   });
 }
@@ -1440,7 +1440,7 @@ var Bs = (e) =>
   Ms = g.resolve("strings"),
   Ts = function (e) {
     const [t, s] = (0, St.useState)("copy"),
-      a = I(),
+      a = S(),
       r = i({
         header: Ms.readOrEmpty("playlists.share.copy_button.title"),
         body: Ms.readOrEmpty("playlists.share.copy_button.body"),
@@ -1449,7 +1449,7 @@ var Bs = (e) =>
     return (0, cs.jsxs)("div", {
       ...r,
       "data-test-id": "copyButton",
-      className: w(
+      className: N(
         Fs.base,
         Fs[`base__${t}Status`],
         e.disabled ? Fs.base__disabled : Fs.base__enabled,
@@ -1459,7 +1459,7 @@ var Bs = (e) =>
         l.play("click", { target: "vehicle:playlists:copy_button", original: t });
         const i = e.onCopy();
         "string" == typeof i &&
-          S(i)
+          w(i)
             .then((e) => {
               (e ? s("copied") : console.error("Write to clipboard has been failure"),
                 a.run(() => s("copy"), 1e3));
@@ -1472,8 +1472,8 @@ var Bs = (e) =>
             l.play("mouse-enter", { target: "vehicle:playlists:copy_button", original: t }));
       },
       children: [
-        (0, cs.jsx)(Bs, { className: w(Fs.icon, Fs.icon__export) }),
-        (0, cs.jsx)(Ls, { className: w(Fs.icon, Fs.icon__exportDone) }),
+        (0, cs.jsx)(Bs, { className: N(Fs.icon, Fs.icon__export) }),
+        (0, cs.jsx)(Ls, { className: N(Fs.icon, Fs.icon__exportDone) }),
       ],
     });
   },
@@ -1604,14 +1604,14 @@ var Bs = (e) =>
   Rs = g.resolve("strings");
 function $s({ id: e, className: t }) {
   const s = _(),
-    a = se(),
+    a = Q(),
     r = i({
       header: Rs.readOrEmpty("playlists.edit_button.title"),
       body: Rs.readOrEmpty("playlists.edit_button.body"),
     });
   return (0, cs.jsx)("div", {
     ...r,
-    className: w(As, t),
+    className: N(As, t),
     "data-test-id": "editButton",
     onClick: (t) => {
       (r.onClick(),
@@ -1634,16 +1634,16 @@ var qs = "Item_background_5cb932c1",
   Js = "Item_content_db9841ac",
   Xs = "Item_title_3edba705",
   Ks = "Item_actions_63add2d",
-  Qs = le({ container: "Item_alert_31c28fa6", icon: "Item_alertIcon_f872f769" }),
+  Qs = se({ container: "Item_alert_31c28fa6", icon: "Item_alertIcon_f872f769" }),
   Ys = Ue(function (e) {
     const { playlist: t } = e,
       s = Jt(),
       a = p();
     return (0, cs.jsxs)("div", {
-      className: w(Us, s.model.currentId() === e.id && Gs),
+      className: N(Us, s.model.currentId() === e.id && Gs),
       children: [
         (0, cs.jsx)("div", { className: qs }),
-        (0, cs.jsxs)(Z, {
+        (0, cs.jsxs)(ee, {
           className: Ws,
           onClick: () => {
             (s.controls.select(e.id), a.close());
@@ -1654,7 +1654,7 @@ var qs = "Item_background_5cb932c1",
               className: Js,
               children: [
                 (0, cs.jsx)(Ps, { value: "checked", className: Zs }),
-                (0, cs.jsx)(re, { text: t.title, className: Xs }),
+                (0, cs.jsx)(te, { text: t.title, className: Xs }),
                 (0, cs.jsx)(Es, { id: e.id, classNames: Qs }),
               ],
             }),
@@ -1724,10 +1724,10 @@ var qs = "Item_background_5cb932c1",
     const e = Jt(),
       t = p();
     return (0, cs.jsxs)("div", {
-      className: w(Us, !e.model.currentId() && Gs),
+      className: N(Us, !e.model.currentId() && Gs),
       children: [
         (0, cs.jsx)("div", { className: qs }),
-        (0, cs.jsx)(Z, {
+        (0, cs.jsx)(ee, {
           className: Ws,
           onClick: () => {
             (e.controls.select(void 0), t.close());
@@ -1753,12 +1753,12 @@ var qs = "Item_background_5cb932c1",
       children: [(0, cs.jsx)(ta, {}), e.map((e) => (0, cs.jsx)(ea, { id: e }, e))],
     });
   }),
-  oa = Ee("Divider", sa),
+  oa = xe("Divider", sa),
   na = Ue(function (e) {
     const t = Jt(),
       s = g.resolve("strings"),
-      [a, r] = ye("add");
-    return (0, cs.jsxs)(e.asChild ? W : Z, {
+      [a, r] = ge("add");
+    return (0, cs.jsxs)(e.asChild ? $ : ee, {
       className: ra,
       "data-test-id": "createPlaylist",
       onMouseEnter: () => r(!0),
@@ -1773,8 +1773,8 @@ var qs = "Item_background_5cb932c1",
   ca = function (e) {
     const t = Jt(),
       s = g.resolve("strings"),
-      [a, r] = ye("import");
-    return (0, cs.jsxs)(e.asChild ? W : Z, {
+      [a, r] = ge("import");
+    return (0, cs.jsxs)(e.asChild ? $ : ee, {
       className: ra,
       "data-test-id": "importPlaylist",
       onClick: t.controls.openImport,
@@ -1806,18 +1806,18 @@ var qs = "Item_background_5cb932c1",
   Na = "Dropdown_arrow__opened_ef9f7c1d",
   wa = g.resolve("strings"),
   Sa = [25, 25],
-  Ia = le({ container: ba, icon: ja }),
-  ka = le({ container: ba }),
+  Ia = se({ container: ba, icon: ja }),
+  ka = se({ container: ba }),
   Pa = Ue(function () {
-    const { api: e } = ne(),
-      [t, s] = N(e, Sa),
+    const { api: e } = ie(),
+      [t, s] = C(e, Sa),
       { opened: a } = p();
     return (
       (0, St.useEffect)(() => {
-        if (a) return je(() => je(e.recalculateContent));
+        if (a) return be(() => be(e.recalculateContent));
       }, [a, e.recalculateContent]),
-      (0, cs.jsx)(k, {
-        className: w(pa, !t && ma, !s && ha),
+      (0, cs.jsx)(I, {
+        className: N(pa, !t && ma, !s && ha),
         classNames: { content: ua },
         children: (0, cs.jsx)(la, {}),
       })
@@ -1826,15 +1826,15 @@ var qs = "Item_background_5cb932c1",
 Ue(function (e) {
   const t = Kt();
   return t && t.model.enabled.get()
-    ? (0, cs.jsx)(F.Portal, {
+    ? (0, cs.jsx)(L.Portal, {
         position: "bottom",
         ...e,
-        children: (0, cs.jsx)(C, {
-          children: (0, cs.jsxs)(F.Display, {
+        children: (0, cs.jsx)(j, {
+          children: (0, cs.jsxs)(L.Display, {
             "data-name": "playlist-dropdown-content",
             className: da,
             children: [
-              (0, cs.jsx)(F.Tip, {}),
+              (0, cs.jsx)(L.Tip, {}),
               (0, cs.jsx)("div", {
                 className: fa,
                 children: (0, cs.jsxs)(u, {
@@ -1854,14 +1854,14 @@ Ue(function (e) {
 });
 function Va(e) {
   const t = p();
-  return (0, cs.jsx)(Ps, { value: "arrow_down", className: w(Ca, t.opened && Na, e.className) });
+  return (0, cs.jsx)(Ps, { value: "arrow_down", className: N(Ca, t.opened && Na, e.className) });
 }
 var Ea = Ue(function (e) {
     const t = e.limit ? Ft(e.title, e.limit)[0] : e.title;
     return (0, cs.jsxs)("div", {
-      className: w(ga, e.className),
+      className: N(ga, e.className),
       children: [
-        (0, cs.jsx)(re, { text: t, className: ya }),
+        (0, cs.jsx)(te, { text: t, className: ya }),
         e.id &&
           (0, cs.jsx)(Es, {
             classNames: "lg" === e.alertSize ? ka : Ia,
@@ -1878,8 +1878,8 @@ var Ea = Ue(function (e) {
         a = _(),
         r = i({ header: s?.title, body: wa.readOrEmpty("playlists.trigger.explain") });
       if (!t || !1 === t.model.enabled.get()) return e.fallback;
-      const l = e.asChild ? W : "div";
-      return (0, cs.jsx)(F.Trigger, {
+      const l = e.asChild ? $ : "div";
+      return (0, cs.jsx)(L.Trigger, {
         children: (t) =>
           (0, cs.jsx)(cs.Fragment, {
             children: (0, cs.jsxs)(l, {
@@ -1899,7 +1899,7 @@ var Ea = Ue(function (e) {
               onMouseLeave: r?.onMouseLeave,
               "data-name": "playlist-dropdown-trigger",
               "data-test-id": "playlistDropdown",
-              className: w(xa, e.className),
+              className: N(xa, e.className),
               children: [
                 (0, cs.jsx)(Pe, { children: e.children }),
                 s
@@ -1929,10 +1929,10 @@ var Ea = Ue(function (e) {
       [l, o] = Ft(t.title, 20);
     return (0, cs.jsxs)("div", {
       ...(o && r),
-      className: w(Ba, s.model.currentId() === e.id && La),
+      className: N(Ba, s.model.currentId() === e.id && La),
       children: [
         (0, cs.jsx)("div", { className: Da }),
-        (0, cs.jsx)(Z, {
+        (0, cs.jsx)(ee, {
           className: Fa,
           onClick: () => {
             (s.controls.select(e.id), a.close());
@@ -1956,10 +1956,10 @@ var Ea = Ue(function (e) {
       t = p(),
       { model: s, controls: a } = ts();
     return (0, cs.jsxs)("div", {
-      className: w(Ba, s.isAllVehicles.get() && !e.model.currentId() && La),
+      className: N(Ba, s.isAllVehicles.get() && !e.model.currentId() && La),
       children: [
         (0, cs.jsx)("div", { className: Da }),
-        (0, cs.jsx)(Z, {
+        (0, cs.jsx)(ee, {
           className: Fa,
           onClick: () => {
             (e.controls.select(void 0), a.setAllVehicles(!0), t.close());
@@ -1980,10 +1980,10 @@ var Ea = Ue(function (e) {
       t = p(),
       { model: s, controls: a } = ts();
     return (0, cs.jsxs)("div", {
-      className: w(Ba, !s.isAllVehicles.get() && !e.model.currentId() && La),
+      className: N(Ba, !s.isAllVehicles.get() && !e.model.currentId() && La),
       children: [
         (0, cs.jsx)("div", { className: Da }),
-        (0, cs.jsx)(Z, {
+        (0, cs.jsx)(ee, {
           className: Fa,
           onClick: () => {
             (e.controls.select(void 0), a.setAllVehicles(!1), t.close());
@@ -2023,15 +2023,15 @@ var Ea = Ue(function (e) {
     });
   }),
   qa = Ue(function () {
-    const { api: e } = ne(),
-      [t, s] = N(e, $a),
+    const { api: e } = ie(),
+      [t, s] = C(e, $a),
       { opened: a } = p();
     return (
       (0, St.useEffect)(() => {
-        if (a) return je(() => je(e.recalculateContent));
+        if (a) return be(() => be(e.recalculateContent));
       }, [a, e.recalculateContent]),
-      (0, cs.jsx)(k, {
-        className: w(Ra.area, !t && Ra.area__begin, !s && Ra.area__end),
+      (0, cs.jsx)(I, {
+        className: N(Ra.area, !t && Ra.area__begin, !s && Ra.area__end),
         classNames: { content: Ra.scrollContent },
         children: (0, cs.jsx)(Ha, {}),
       })
@@ -2045,8 +2045,8 @@ var Ea = Ue(function (e) {
       { model: l } = ts(),
       o = i({ header: s?.title, body: r.readOrEmpty("playlists.trigger.explain") });
     if (!t || !1 === t.model.enabled.get()) return e.fallback;
-    const n = e.asChild ? W : "div";
-    return (0, cs.jsx)(F.Trigger, {
+    const n = e.asChild ? $ : "div";
+    return (0, cs.jsx)(L.Trigger, {
       children: (t) =>
         (0, cs.jsx)(cs.Fragment, {
           children: (0, cs.jsxs)(n, {
@@ -2066,7 +2066,7 @@ var Ea = Ue(function (e) {
             onMouseLeave: o?.onMouseLeave,
             "data-name": "playlist-dropdown-trigger",
             "data-test-id": "playlistDropdown",
-            className: w(Ra.trigger, e.className),
+            className: N(Ra.trigger, e.className),
             children: [
               (0, cs.jsx)(Pe, { children: e.children }),
               s
@@ -2090,16 +2090,16 @@ var Ea = Ue(function (e) {
     });
   }),
   Ga = function () {
-    return (0, cs.jsxs)(F, {
+    return (0, cs.jsxs)(L, {
       children: [
-        (0, cs.jsx)(F.Portal, {
+        (0, cs.jsx)(L.Portal, {
           position: "bottom",
-          children: (0, cs.jsx)(C, {
-            children: (0, cs.jsxs)(F.Display, {
+          children: (0, cs.jsx)(j, {
+            children: (0, cs.jsxs)(L.Display, {
               "data-name": "playlist-dropdown-content",
               className: Ra.popover,
               children: [
-                (0, cs.jsx)(F.Tip, { position: "top", size: "80rem", offset: "120rem" }),
+                (0, cs.jsx)(L.Tip, { position: "top", size: "80rem", offset: "120rem" }),
                 (0, cs.jsx)("div", {
                   className: Ra.list,
                   children: (0, cs.jsxs)(u, {
@@ -2118,7 +2118,7 @@ var Ea = Ue(function (e) {
           className: Ra.playlistTrigger,
           fallback: null,
           limit: 15,
-          children: (0, cs.jsx)(ie, {
+          children: (0, cs.jsx)(J, {
             theme: "secondary",
             classNames: { content: Ra.playlistTitle },
           }),
@@ -2140,7 +2140,7 @@ var Ea = Ue(function (e) {
   rr = ["favorite", "premium", "elite"];
 function ir(e) {
   return (0, cs.jsx)("div", {
-    className: w(Wa, e.className),
+    className: N(Wa, e.className),
     children: nt.map((e) =>
       (0, cs.jsx)(
         ds,
@@ -2148,7 +2148,7 @@ function ir(e) {
           tooltip: { header: e, body: et },
           event: { field: dt, type: "regular", value: e },
           className: Za,
-          children: (0, cs.jsx)(O, { type: e, size: O.sizes.x24x24 }),
+          children: (0, cs.jsx)(y, { type: e, size: y.sizes.x24x24 }),
         },
         e,
       ),
@@ -2157,7 +2157,7 @@ function ir(e) {
 }
 function lr(e) {
   return (0, cs.jsx)("div", {
-    className: w(Wa, e.className),
+    className: N(Wa, e.className),
     children: e.orderedNations.map((e) =>
       (0, cs.jsx)(
         ds,
@@ -2167,7 +2167,7 @@ function lr(e) {
           className: Ka,
           children: (0, cs.jsx)("div", {
             className: Ja,
-            children: (0, cs.jsx)(J, { className: Xa, path: `flags.c_60x40.${e}` }),
+            children: (0, cs.jsx)(H, { className: Xa, path: `flags.c_60x40.${e}` }),
           }),
         },
         e,
@@ -2177,7 +2177,7 @@ function lr(e) {
 }
 function or(e) {
   return (0, cs.jsx)("div", {
-    className: w(Wa, e.className),
+    className: N(Wa, e.className),
     children: ct.map((e) =>
       (0, cs.jsx)(
         ds,
@@ -2185,7 +2185,7 @@ function or(e) {
           tooltip: { header: "tier", body: tt },
           event: { field: _t, type: "regular", value: `level_${e}` },
           className: Ka,
-          children: (0, cs.jsx)(f, { className: Qa, value: e }),
+          children: (0, cs.jsx)(P, { className: Qa, value: e }),
         },
         e,
       ),
@@ -2203,14 +2203,14 @@ function nr(e) {
       tooltip: { header: e.special, body: e.special },
       event: { field: pt, type: "regular", value: e.special },
       className: Ka,
-      children: (0, cs.jsx)(J, { className: w(Ya, "favorite" === e.special && er), path: t }),
+      children: (0, cs.jsx)(H, { className: N(Ya, "favorite" === e.special && er), path: t }),
     },
     e.special,
   );
 }
 function cr(e) {
   return (0, cs.jsx)("div", {
-    className: w(Wa, e.className),
+    className: N(Wa, e.className),
     children: rr.map((e) => (0, cs.jsx)(nr, { special: e, imagePath: e }, e)),
   });
 }
@@ -2219,17 +2219,17 @@ var dr = Ue(function (e) {
       s = g.resolve("strings"),
       a = t.model.searchName.get();
     function r(e) {
-      e.keyCode !== M.ESCAPE && e.stopPropagation();
+      e.keyCode !== F.ESCAPE && e.stopPropagation();
     }
-    return (0, cs.jsxs)(B.Provider, {
+    return (0, cs.jsxs)(D.Provider, {
       value: a,
       children: [
         (0, cs.jsx)(xs, {}),
-        (0, cs.jsxs)(B.Decoration, {
-          className: w(tr, e.className),
+        (0, cs.jsxs)(D.Decoration, {
+          className: N(tr, e.className),
           children: [
-            (0, cs.jsx)(B.Icon, { icon: B.icons.search }),
-            (0, cs.jsx)(B.Field, {
+            (0, cs.jsx)(D.Icon, { icon: D.icons.search }),
+            (0, cs.jsx)(D.Field, {
               ...e,
               className: sr,
               classNames: { placeholder: ar },
@@ -2241,9 +2241,9 @@ var dr = Ue(function (e) {
               children: s.readOrEmpty("tank_carousel_filter.popover.label.searchNameVehicle"),
             }),
             a.length > 0 &&
-              (0, cs.jsx)(B.ClearButton, {
+              (0, cs.jsx)(D.ClearButton, {
                 onClick: () => {
-                  ce.tooltip.hideAll();
+                  le.tooltip.hideAll();
                 },
               }),
           ],
@@ -2263,7 +2263,7 @@ var hr = "Content_7ccb81a0",
 function yr({ children: e, selected: t, disabled: s, empty: a }) {
   return (0, cs.jsxs)("div", {
     "data-name": "Content",
-    className: w(hr, a && xr, t && gr, s && vr),
+    className: N(hr, a && xr, t && gr, s && vr),
     children: [e, s && (0, cs.jsx)("div", { className: fr })],
   });
 }
@@ -2288,12 +2288,12 @@ var br = "Slot_977dd8f1",
     return (0, cs.jsx)("div", {
       ...i,
       "data-name": "Slot",
-      className: w(br, a && Sr, t && Ir, s && Cr, l && Nr, jr, r),
+      className: N(br, a && Sr, t && Ir, s && Cr, l && Nr, jr, r),
       children: (0, cs.jsxs)("div", {
         className: wr,
         children: [
           (0, cs.jsx)(yr, { selected: t, disabled: s, empty: l, children: e }),
-          t && (0, cs.jsx)("div", { className: w(kr, Pr) }),
+          t && (0, cs.jsx)("div", { className: N(kr, Pr) }),
           (0, cs.jsx)("div", { className: kr }),
         ],
       }),
@@ -2337,8 +2337,8 @@ var zr = {
     identifierIcon__super: "Information_identifierIcon__super_34b8f5c2",
     identifierIcon__changeNation: "Information_identifierIcon__changeNation_dfee83c8",
   },
-  Ar = Ee("VehicleName", {
-    element: (e) => (0, cs.jsx)(l.Name, { ...e }),
+  Ar = xe("VehicleName", {
+    element: (e) => (0, cs.jsx)(ye.Name, { ...e }),
     className: zr.text,
     cva: { variants: { premium: { true: zr.text__premium } } },
   });
@@ -2346,7 +2346,7 @@ function Or({ statistic: e, vehicle: t, className: s, status: a }) {
   const r = g.resolve("views"),
     i = g.resolve("aliases"),
     l = g.resolve("strings"),
-    n = de({
+    n = oe({
       resId: i.read((e) => e.hangar.shared.VehiclesStatistics("resId")),
       contentId: r.read((e) =>
         "paused" !== a
@@ -2356,7 +2356,7 @@ function Or({ statistic: e, vehicle: t, className: s, status: a }) {
       args: { intCD: t?.vehicleId },
     });
   return (0, cs.jsxs)("div", {
-    className: w(
+    className: N(
       zr.battlePass,
       e.maxBpScore > 0 && zr.battlePass__active,
       e.bpSpecial && zr.battlePass__bonus,
@@ -2377,7 +2377,7 @@ function Or({ statistic: e, vehicle: t, className: s, status: a }) {
             children: o.formatNumber("integral", e.bpProgress),
           }),
           (0, cs.jsx)("div", {
-            className: w(zr.points, zr.points__slash),
+            className: N(zr.points, zr.points__slash),
             children: l.readOrEmpty("common.common.slash"),
           }),
           (0, cs.jsx)("div", {
@@ -2393,22 +2393,22 @@ function Or({ statistic: e, vehicle: t, className: s, status: a }) {
 }
 function Rr({ statistic: e, elite: t, vehicle: s, selected: a, classNames: r, className: i }) {
   return (0, cs.jsxs)("div", {
-    className: w(zr.details, i),
+    className: N(zr.details, i),
     children: [
       e &&
-        (0, cs.jsx)(l.Prestige, {
+        (0, cs.jsx)(ye.Prestige, {
           level: e.prestigeLevel,
           grade: e.prestigeGrade,
           type: e.prestigeType,
-          direction: R.left,
-          className: w(zr.prestige, a && zr.prestige__active, r?.prestige),
+          direction: O.left,
+          className: N(zr.prestige, a && zr.prestige__active, r?.prestige),
         }),
-      (0, cs.jsx)(l.Level, { className: w(zr.text, zr.text__level, r?.level), value: s.level }),
-      Ie(s.type) &&
-        (0, cs.jsx)(l.Type, {
+      (0, cs.jsx)(ye.Level, { className: N(zr.text, zr.text__level, r?.level), value: s.level }),
+      W(s.type) &&
+        (0, cs.jsx)(ye.Type, {
           type: s.type,
           premium: t || e?.elite,
-          size: l.Type.sizes.x24x24,
+          size: ye.Type.sizes.x24x24,
           className: r?.type,
         }),
     ],
@@ -2419,7 +2419,7 @@ function $r({ vehicle: e, className: t, classNames: s }) {
     r = e.nationChangeAvailable,
     i = e.rent.leftTime > 0 || e.rent.leftWins > 0 || e.rent.leftBattles > 0;
   return (0, cs.jsxs)("div", {
-    className: w(
+    className: N(
       zr.identifier,
       zr[`identifier__${a}`],
       r && zr.identifier__changeNation,
@@ -2430,11 +2430,11 @@ function $r({ vehicle: e, className: t, classNames: s }) {
       (0, cs.jsx)(Ar, {
         className: s?.name,
         premium: e.premium,
-        children: (0, cs.jsx)(re, { className: zr.truncatedText, text: e.shortName }),
+        children: (0, cs.jsx)(te, { className: zr.truncatedText, text: e.shortName }),
       }),
       (a || r) &&
         (0, cs.jsx)("div", {
-          className: w(
+          className: N(
             zr.identifierIcon,
             zr[`identifierIcon__${a}`],
             r && zr.identifierIcon__changeNation,
@@ -2446,14 +2446,14 @@ function $r({ vehicle: e, className: t, classNames: s }) {
 }
 Ue(function ({ vehicle: e, statistic: t, selected: s, doubleRow: a, ...r }) {
   const i = Yt(),
-    o = i.model.bpState.active.get(),
-    n = i.model.bpState.status.get();
+    l = i.model.bpState.active.get(),
+    o = i.model.bpState.status.get();
   return (0, cs.jsxs)("div", {
     ...r,
-    className: w(zr.base, a && zr.base__double, r.className),
+    className: N(zr.base, a && zr.base__double, r.className),
     children: [
-      t && Tr(o, n, t) && (0, cs.jsx)(Or, { vehicle: e, statistic: t, status: n }),
-      (0, cs.jsxs)(l, {
+      t && Tr(l, o, t) && (0, cs.jsx)(Or, { vehicle: e, statistic: t, status: o }),
+      (0, cs.jsxs)(ye, {
         className: zr.info,
         children: [
           (0, cs.jsx)(Rr, { vehicle: e, statistic: t, selected: s }),
@@ -2493,13 +2493,13 @@ function Ur({ className: e, doubleRow: t, state: s = "inactive", isCornerHidden:
   return "inactive" === s
     ? null
     : (0, cs.jsxs)("div", {
-        className: w(Hr.base, s && qr[s], t && Hr.base__double, e),
+        className: N(Hr.base, s && qr[s], t && Hr.base__double, e),
         children: [
           (0, cs.jsx)("div", { className: Hr.glow }),
           !a && (0, cs.jsx)("div", { className: Hr.corner }),
           (0, cs.jsx)("div", { className: Hr.arrow }),
           [Hr.triangle__1, Hr.triangle__2, Hr.triangle__3].map((e) =>
-            (0, cs.jsx)("div", { className: w(Hr.triangle, e) }, e),
+            (0, cs.jsx)("div", { className: N(Hr.triangle, e) }, e),
           ),
         ],
       });
@@ -2511,12 +2511,12 @@ var Gr = "Background_wotPlus_3cf6035a",
   Xr = "Background_flag_beb58b8",
   Kr = "Background_flag__active_de322c1b",
   Qr = "Background_crystal__limit_61072361",
-  Yr = Ee("Favorite", "Background_favorite_d98f92cc", {
+  Yr = xe("Favorite", "Background_favorite_d98f92cc", {
     variants: { active: { true: "Background_favorite__active_7f14a6c7" } },
   });
 function ei({ nationId: e, selected: t, active: s, className: a }) {
-  return (0, cs.jsx)(J, {
-    className: w(Xr, t || (s && Kr), a),
+  return (0, cs.jsx)(H, {
+    className: N(Xr, t || (s && Kr), a),
     path: `hangar.carousel.cards.flags.x400x300.${Te(e)}`,
     position: "top left",
   });
@@ -2541,10 +2541,10 @@ Ue(function ({ vehicle: e, statistic: t, validBP: s, doubleRow: a, classNames: r
     );
   return (0, cs.jsxs)(cs.Fragment, {
     children: [
-      c && (0, cs.jsx)("div", { className: w(Gr, r?.wotPlus) }),
+      c && (0, cs.jsx)("div", { className: N(Gr, r?.wotPlus) }),
       (0, cs.jsx)(Ur, { state: p, className: r?.proBoostIcon, doubleRow: a, isCornerHidden: d }),
-      d && (0, cs.jsx)("div", { className: w(Wr, o && Qr, r?.crystal) }),
-      t?.bpSpecial && s && (0, cs.jsx)("div", { className: w(Zr, r?.bpBonus) }),
+      d && (0, cs.jsx)("div", { className: N(Wr, o && Qr, r?.crystal) }),
+      t?.bpSpecial && s && (0, cs.jsx)("div", { className: N(Zr, r?.bpBonus) }),
       _ && (0, cs.jsx)("div", { className: Jr }),
     ],
   });
@@ -2557,7 +2557,7 @@ function ai({ vehicle: e, ...t }) {
     className: ti,
     children: [
       (0, cs.jsx)(ei, { nationId: e.nationId }),
-      (0, cs.jsx)(pe, { className: si, name: e.name }),
+      (0, cs.jsx)(de, { className: si, name: e.name }),
       (0, cs.jsx)(Yr, { active: e.favorite }),
     ],
   });
@@ -2576,7 +2576,7 @@ var ri = "Card_74e86576",
     if (!r) return (0, cs.jsx)(Vr, { ...a });
     return (0, cs.jsxs)(Vr, {
       ...a,
-      className: w("vehicle-card", a.className),
+      className: N("vehicle-card", a.className),
       selected: t,
       "data-test-id": `vehicleCard-${e}`,
       onMouseEnter: function (e) {
@@ -2633,7 +2633,7 @@ function pi({ vehicle: e, statistic: t, selected: s }) {
   );
 }
 function mi({ vehicle: e, selected: t, statistic: s }) {
-  return (0, cs.jsxs)(l, {
+  return (0, cs.jsxs)(ye, {
     className: ni,
     children: [
       (0, cs.jsx)(Rr, { vehicle: e, statistic: s, selected: t, elite: e.premium }),
@@ -2655,8 +2655,8 @@ var hi = {
   card: "SelectVehicleList_card_a6ec1778",
 };
 function fi({ children: e, ...t }) {
-  const { api: s } = ne();
-  return (0, cs.jsx)(ke, { ...t, api: s, className: hi.content, children: e });
+  const { api: s } = ie();
+  return (0, cs.jsx)(Ie, { ...t, api: s, className: hi.content, children: e });
 }
 var vi = { height: 105, row: 5 },
   gi = {
@@ -2666,10 +2666,10 @@ var vi = { height: 105, row: 5 },
   },
   xi = Ue(function () {
     const { model: e } = ts(),
-      { api: t } = ne(),
-      s = A(vi, gi),
+      { api: t } = ie(),
+      s = T(vi, gi),
       i = r(s.height),
-      [l, o] = N(t),
+      [l, o] = C(t),
       n = e.ids(),
       c = e.list(),
       d = (function (e, t, s) {
@@ -2678,7 +2678,7 @@ var vi = { height: 105, row: 5 },
           (0, St.useLayoutEffect)(() => {
             function a() {
               const a = e.getWrapperSize();
-              G(a) && r(Math.floor(a / t) * s);
+              R(a) && r(Math.floor(a / t) * s);
             }
             const i = e.events.on("resizeHandled", a),
               l = e.events.on("recalculateContent", a);
@@ -2725,7 +2725,7 @@ var vi = { height: 105, row: 5 },
         (t.setDisabled(e), e && t.applyScroll(0, { immediate: !0 }));
       }, [t, d, n.length]));
     const h = (0, St.useMemo)(() => ({ height: `${i}px` }), [i]);
-    return (0, cs.jsx)(Y, {
+    return (0, cs.jsx)(Z, {
       api: t,
       elementHeight: i - r(1),
       direction: "vertical",
@@ -2733,16 +2733,16 @@ var vi = { height: 105, row: 5 },
       wrappers: { Content: fi },
       renderScroll: (e) => {
         return (0, cs.jsxs)("div", {
-          className: w(
+          className: N(
             hi.scroll,
             hi[`scroll__${((s = l), (r = o), s || r ? (s ? (r ? mr : _r) : ur) : pr)}`],
           ),
           children: [
-            (0, cs.jsx)(k, {
+            (0, cs.jsx)(I, {
               ...e,
               classNames: {
                 wrapper: hi.scrollWrapper,
-                content: w(hi.scrollContent, 0 === c.length && hi.scrollContent__empty),
+                content: N(hi.scrollContent, 0 === c.length && hi.scrollContent__empty),
               },
               children: e.children,
             }),
@@ -2755,13 +2755,13 @@ var vi = { height: 105, row: 5 },
       renderElement: (t) => {
         const s = n[t];
         return n.length <= t || void 0 === s
-          ? (0, cs.jsx)(Vr, { className: w(ci, hi.card), style: h })
+          ? (0, cs.jsx)(Vr, { className: N(ci, hi.card), style: h })
           : (0, cs.jsx)(
               di,
               {
                 vehicleId: s,
                 selected: n[t] === e.currentVehicleCD(),
-                className: w(ci, hi.card),
+                className: N(ci, hi.card),
                 style: h,
               },
               s,
@@ -2812,23 +2812,23 @@ var vi = { height: 105, row: 5 },
               children: [
                 (0, cs.jsx)(Ga, {}),
                 (0, cs.jsx)(Is, {}),
-                (0, cs.jsx)("div", { className: w(wi, Si) }),
-                (0, cs.jsx)(Q, {
+                (0, cs.jsx)("div", { className: N(wi, Si) }),
+                (0, cs.jsx)(Ee, {
                   className: Ni,
                   path: "tank_carousel_filter.popover.label.vehicleTypes",
                 }),
                 (0, cs.jsx)(ir, {}),
-                (0, cs.jsx)(Q, {
+                (0, cs.jsx)(Ee, {
                   className: Ni,
                   path: "tank_carousel_filter.popover.label.nations",
                 }),
                 (0, cs.jsx)(lr, { orderedNations: a }),
-                (0, cs.jsx)(Q, {
+                (0, cs.jsx)(Ee, {
                   className: Ni,
                   path: "tank_carousel_filter.popover.label.levels",
                 }),
                 (0, cs.jsx)(or, {}),
-                (0, cs.jsx)(Q, {
+                (0, cs.jsx)(Ee, {
                   className: Ni,
                   path: "tank_carousel_filter.popover.label.specials",
                 }),
@@ -2868,12 +2868,12 @@ var vi = { height: 105, row: 5 },
   Bi = Ue(function () {
     const { model: e } = ts();
     return (
-      D(M.ESCAPE, ce.closeView),
+      E(F.ESCAPE, le.closeView),
       (0, cs.jsxs)("div", {
         className: Vi,
         children: [
           (0, cs.jsx)("div", { className: Ei, children: e.title.get() }),
-          (0, cs.jsx)(fe, { onClose: ce.closeView, className: Di }),
+          (0, cs.jsx)(f, { onClose: le.closeView, className: Di }),
           (0, cs.jsx)(Pi, {}),
         ],
       })
@@ -2882,7 +2882,7 @@ var vi = { height: 105, row: 5 },
   Li = g.resolve("aliases");
 d(
   new Le()
-    .add(L)
+    .add(B)
     .addWithProps(kt, {
       options: {
         rootId: Li.read((e) => e.select_vehicle.select_vehicle.VehiclesStatistics("resId")),

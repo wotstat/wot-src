@@ -21685,6 +21685,1496 @@ function UIProvider(e) {
     }),
   });
 }
+var require_classnames = __commonJSMin((e, t) => {
+    !(function () {
+      var e = {}.hasOwnProperty;
+      function n() {
+        for (var e = "", t = 0; t < arguments.length; t++) {
+          var n = arguments[t];
+          n && (e = a(e, r(n)));
+        }
+        return e;
+      }
+      function r(t) {
+        if ("string" == typeof t || "number" == typeof t) return t;
+        if ("object" != typeof t) return "";
+        if (Array.isArray(t)) return n.apply(null, t);
+        if (
+          t.toString !== Object.prototype.toString &&
+          !t.toString.toString().includes("[native code]")
+        )
+          return t.toString();
+        var r = "";
+        for (var o in t) e.call(t, o) && t[o] && (r = a(r, o));
+        return r;
+      }
+      function a(e, t) {
+        return t ? (e ? e + " " + t : e + t) : e;
+      }
+      void 0 !== t && t.exports
+        ? ((n.default = n), (t.exports = n))
+        : "function" == typeof define && "object" == typeof define.amd && define.amd
+          ? define("classnames", [], function () {
+              return n;
+            })
+          : (window.classNames = n);
+    })();
+  }),
+  import_classnames = __toESM(require_classnames());
+function makeEngineEvent(e) {
+  return (t) => (
+    engine.on(e, t),
+    () => {
+      engine.off(e, t);
+    }
+  );
+}
+function setTrackMouseOutside(e) {
+  viewEnv.setTrackMouseOnStage(e);
+}
+var events_exports = __exportAll({
+    mouse: () => mouse,
+    off: () => off,
+    on: () => on,
+    onMinimize: () => onMinimize,
+    onResize: () => onResize,
+    onScaleUpdated: () => onScaleUpdated,
+  }),
+  onResize = makeEngineEvent("clientResized"),
+  onScaleUpdated = makeEngineEvent("self.onScaleUpdated"),
+  onMinimize = makeEngineEvent("clientMinimized"),
+  on = (e, t) => engine.on(e, t),
+  off = (e, t) => engine.off(e, t),
+  internalMouse = {
+    down: makeEngineEvent("mousedown"),
+    up: makeEngineEvent("mouseup"),
+    move: makeEngineEvent("mousemove"),
+  };
+function initMouseEvents() {
+  const e = { listeners: 0, enabled: !0, initialized: !1 };
+  function t() {
+    e.enabled && setTrackMouseOutside(!1);
+  }
+  function n() {
+    e.enabled && setTrackMouseOutside(!0);
+  }
+  function r() {
+    e.enabled
+      ? e.listeners < 1
+        ? ((e.initialized = !1),
+          document.body.removeEventListener("mouseenter", t),
+          document.body.removeEventListener("mouseleave", n))
+        : e.initialized ||
+          ((e.initialized = !0),
+          document.body.addEventListener("mouseenter", t),
+          document.body.addEventListener("mouseleave", n))
+      : setTrackMouseOutside(!1);
+  }
+  return {
+    ...["down", "up", "move"].reduce(
+      (t, n) => (
+        (t[n] = (function (t) {
+          return (n) => {
+            e.listeners += 1;
+            let a = !0;
+            const o = `mouse${t}`,
+              i = internalMouse[t]((e) => n([e, "outside"]));
+            function s(e) {
+              n([e, "inside"]);
+            }
+            return (
+              window.addEventListener(o, s),
+              r(),
+              () => {
+                a && (i(), window.removeEventListener(o, s), (e.listeners -= 1), r(), (a = !1));
+              }
+            );
+          };
+        })(n)),
+        t
+      ),
+      {},
+    ),
+    disable() {
+      ((e.enabled = !1), r());
+    },
+    enable() {
+      ((e.enabled = !0), r());
+    },
+    enableOutside() {
+      e.enabled && setTrackMouseOutside(!0);
+    },
+    disableOutside() {
+      e.enabled && setTrackMouseOutside(!1);
+    },
+  };
+}
+var mouse = initMouseEvents();
+function playSound(e) {
+  engine.call("PlaySound", e).catch((t) => {
+    console.error(`playSound('${e}'): `, t);
+  });
+}
+function setRTPC(e, t) {
+  engine.call("SetRTPCGlobal", e, t).catch((n) => {
+    console.error(`setRTPC('${e}', '${t}'): `, n);
+  });
+}
+var client_exports = __exportAll({
+  events: () => events_exports,
+  getMouseGlobalPosition: () => getMouseGlobalPosition,
+  getSize: () => getSize$1,
+  graphicsQuality: () => graphicsQuality,
+  playSound: () => playSound,
+  setRTPC: () => setRTPC,
+});
+function getSize$1(e = "px") {
+  return "rem" === e ? viewEnv.getClientSizeRem() : viewEnv.getClientSizePx();
+}
+function getMouseGlobalPosition(e = "px") {
+  return "rem" === e ? viewEnv.getMouseGlobalPositionRem() : viewEnv.getMouseGlobalPositionPx();
+}
+var graphicsQuality = {
+    isLow: () => 1 === viewEnv.getGraphicsQuality(),
+    isHigh: () => 0 === viewEnv.getGraphicsQuality(),
+    get: () => viewEnv.getGraphicsQuality(),
+  },
+  intl$1 = {
+    toUpperCase: (e) => window.systemLocale.toUpperCase(e),
+    toLowerCase: (e) => window.systemLocale.toLowerCase(e),
+  },
+  sounds = { highlight: "highlight", click: "play", yes1: "yes1" },
+  plays = Object.keys(sounds).reduce((e, t) => ((e[t] = () => playSound(sounds[t])), e), {}),
+  play = { ...plays, sound: playSound },
+  sound_default = { play: play, setRTPC: setRTPC },
+  ROMAN = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
+  ARABIC = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
+function arabic2roman$1(e) {
+  let t = "";
+  for (let n = ARABIC.length - 1; n >= 0; n--)
+    for (; e >= ARABIC[n];) ((t += ROMAN[n]), (e -= ARABIC[n]));
+  return t;
+}
+var ROMAN_FORBIDDEN_LANGUAGE_CODES = ["ko", "no"],
+  IS_ROMAN_FORBIDDEN = ROMAN_FORBIDDEN_LANGUAGE_CODES.includes(R.strings.settings.LANGUAGE_CODE()),
+  children_exports = __exportAll({ getBgUrl: () => getBgUrl, getTextureUrl: () => getTextureUrl });
+function getTextureUrl(e, t, n = 1) {
+  return viewEnv.getChildTexturePath(e, t.width, t.height, n);
+}
+function getBgUrl(e, t, n) {
+  return `url(${getTextureUrl(e, t, n)})`;
+}
+var displayStatus = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
+  events = {
+    onTextureFrozen: makeEngineEvent("self.onTextureFrozen"),
+    onTextureReady: makeEngineEvent("self.onTextureReady"),
+    onDomBuilt: makeEngineEvent("self.onDomBuilt"),
+    onLoaded: makeEngineEvent("self.onLoaded"),
+    onDisplayChanged: makeEngineEvent("self.onShowingStatusChanged"),
+    onFocusUpdated: makeEngineEvent("self.onFocusChanged"),
+    children: {
+      onAdded: makeEngineEvent("children.onAdded"),
+      onLoaded: makeEngineEvent("children.onLoaded"),
+      onRemoved: makeEngineEvent("children.onRemoved"),
+      onAttached: makeEngineEvent("children.onAttached"),
+      onTextureReady: makeEngineEvent("children.onTextureReady"),
+      onRequestPosition: makeEngineEvent("children.requestPosition"),
+    },
+  },
+  viewEventTypes = { closePopover: 2, move: 16, close: 32, minimize: 64 },
+  createViewEventArguments$1 = (e) =>
+    Object.entries(e).map(([e, t]) => {
+      const n = "GFValueProxy";
+      switch (typeof t) {
+        case "number":
+          return { __Type: n, name: e, number: t };
+        case "boolean":
+          return { __Type: n, name: e, bool: t };
+        default:
+          return { __Type: n, name: e, string: t.toString() };
+      }
+    }),
+  sendViewEvent = (e, t) => {
+    const n = "GFViewEventProxy";
+    if (void 0 !== t) {
+      const { args: r, ...a } = t;
+      return void 0 !== r
+        ? viewEnv.handleViewEvent({
+            __Type: n,
+            type: e,
+            ...a,
+            arguments: createViewEventArguments$1(r),
+          })
+        : viewEnv.handleViewEvent({ __Type: n, type: e, ...a });
+    }
+    return viewEnv.handleViewEvent({ __Type: n, type: e });
+  },
+  sendEvent = {
+    close(e) {
+      sendViewEvent("popover" === e ? viewEventTypes.closePopover : viewEventTypes.close);
+    },
+    minimize() {
+      sendViewEvent(viewEventTypes.minimize);
+    },
+    move(e) {
+      sendViewEvent(viewEventTypes.move, { isMouseEvent: !0, on: e });
+    },
+  },
+  view_exports = __exportAll({
+    addModelObserver: () => addModelObserver,
+    addPreloadTexture: () => addPreloadTexture,
+    arabic2roman: () => arabic2roman,
+    children: () => children_exports,
+    displayStatus: () => displayStatus,
+    displayStatusIs: () => displayStatusIs,
+    enableFullScreenModeSupported: () => enableFullScreenModeSupported,
+    events: () => events,
+    extraSize: () => extraSize,
+    forceTriggerMouseMove: () => forceTriggerMouseMove,
+    freezeTextureBeforeResize: () => freezeTextureBeforeResize,
+    getBrowserTexturePath: () => getBrowserTexturePath,
+    getDisplayStatus: () => getDisplayStatus,
+    getExternalPaddingsRem: () => getExternalPaddingsRem,
+    getFontNames: () => getFontNames,
+    getScale: () => getScale,
+    getSize: () => getSize,
+    getViewGlobalPosition: () => getViewGlobalPosition,
+    initExternalPaddings: () => initExternalPaddings,
+    isEventHandled: () => isEventHandled,
+    isFocused: () => isFocused,
+    pxToRem: () => pxToRem,
+    remToPx: () => remToPx,
+    resize: () => resize,
+    sendEvent: () => sendEvent,
+    setAnimateWindow: () => setAnimateWindow,
+    setEventHandled: () => setEventHandled,
+    setInputPaddingsRem: () => setInputPaddingsRem,
+    setSidePaddingsRem: () => setSidePaddingsRem,
+    whenTutorialReady: () => whenTutorialReady,
+  }),
+  ALL_SIDES = 15;
+function addPreloadTexture(e) {
+  viewEnv.addPreloadTexture(e);
+}
+function setInputPaddingsRem(e) {
+  viewEnv.setHitAreaPaddingsRem(e, e, e, e, ALL_SIDES);
+}
+function getBrowserTexturePath(e, t, n, r = 1) {
+  return viewEnv.getWebBrowserTexturePath(e, t, n, r);
+}
+function addModelObserver(e, t, n) {
+  return viewEnv.addDataChangedCallback(e, t, n);
+}
+function setSidePaddingsRem(e) {
+  viewEnv.setHitAreaPaddingsRem(e.top, e.right, e.bottom, e.left, ALL_SIDES);
+}
+function getSize(e = "px") {
+  return "rem" === e ? viewEnv.getViewSizeRem() : viewEnv.getViewSizePx();
+}
+function resize(e, t, n = "px") {
+  return "rem" === n ? viewEnv.resizeViewRem(e, t) : viewEnv.resizeViewPx(e, t);
+}
+function getViewGlobalPosition(e = "rem") {
+  const t = viewEnv.getViewGlobalPositionRem();
+  return "rem" === e ? t : { x: remToPx(t.x), y: remToPx(t.y) };
+}
+function freezeTextureBeforeResize() {
+  viewEnv.freezeTextureBeforeResize();
+}
+function getScale() {
+  return viewEnv.getScale();
+}
+function pxToRem(e) {
+  return viewEnv.pxToRem(e);
+}
+function remToPx(e) {
+  return viewEnv.remToPx(e);
+}
+function setAnimateWindow(e, t) {
+  viewEnv.setAnimateWindow(e, t);
+}
+function isFocused() {
+  return viewEnv.isFocused();
+}
+function setEventHandled() {
+  return viewEnv.setEventHandled();
+}
+function isEventHandled() {
+  return viewEnv.isEventHandled();
+}
+function forceTriggerMouseMove() {
+  viewEnv.forceTriggerMouseMove();
+}
+function getDisplayStatus() {
+  return viewEnv.getShowingStatus();
+}
+var getFontNames = (() => {
+    let e = [];
+    return () => (0 === e.length && (e = Object.keys(viewEnv.getFontsConfig())), e);
+  })(),
+  arabic2roman = arabic2roman$1;
+function getExternalPaddingsRem() {
+  return viewEnv.getExternalPaddingsRem();
+}
+var displayStatusIs = Object.keys(displayStatus).reduce(
+    (e, t) => ((e[t] = () => viewEnv.getShowingStatus() === displayStatus[t]), e),
+    {},
+  ),
+  extraSize = {
+    set: (e, t) => {
+      viewEnv.setExtraSizeRem(e, t);
+    },
+    get: (e, t) => {
+      viewEnv.getExtraSizeRem(e, t);
+    },
+  },
+  whenTutorialReady = Promise.all([
+    new Promise((e) => {
+      window.isDomBuilt ? e() : events.onDomBuilt(e);
+    }),
+    engine.whenReady,
+  ]);
+function enableFullScreenModeSupported() {
+  viewEnv.setFullscreenModeSupported(!0);
+}
+function initExternalPaddings(e) {
+  function t() {
+    const { top: t, right: n, bottom: r, left: a } = viewEnv.getExternalPaddingsRem();
+    (e.style.setProperty("--external-padding-top", `${t}rem`),
+      e.style.setProperty("--external-padding-right", `${n}rem`),
+      e.style.setProperty("--external-padding-bottom", `${r}rem`),
+      e.style.setProperty("--external-padding-left", `${a}rem`));
+  }
+  (t(), engine.on("self.onPaddingsUpdated", () => t()));
+}
+var env = { view: view_exports, client: client_exports, sound: sound_default, intl: intl$1 },
+  base$27 = "Textbutton_b1283086",
+  base__right$1 = "Textbutton_base__right_78d4c03f",
+  icon$10 = "Textbutton_icon_9ba4c60",
+  icon__back = "Textbutton_icon__back_599b35e4",
+  icon__forward = "Textbutton_icon__forward_4ef35d4d",
+  icon__close = "Textbutton_icon__close_b2af8bd5",
+  icon__info = "Textbutton_icon__info_6cbc7293",
+  glow$1 = "Textbutton_glow_1ddc70ba",
+  caption = "Textbutton_caption_4350685c",
+  caption__back = "Textbutton_caption__back_599b35e4",
+  caption__forward = "Textbutton_caption__forward_599b35e4",
+  caption__close = "Textbutton_caption__close_c29bdb5",
+  caption__info = "Textbutton_caption__info_ccd96b67",
+  goto = "Textbutton_goto_d2c81cbd",
+  base__left$1 = "Textbutton_base__left_599b35e4",
+  shine = "Textbutton_shine_527e4656",
+  TextButton_module_default = {
+    base: base$27,
+    base__right: base__right$1,
+    icon: icon$10,
+    icon__back: icon__back,
+    icon__forward: icon__forward,
+    icon__close: icon__close,
+    icon__info: icon__info,
+    glow: glow$1,
+    caption: caption,
+    caption__back: caption__back,
+    caption__forward: caption__forward,
+    caption__close: caption__close,
+    caption__info: caption__info,
+    goto: goto,
+    base__left: base__left$1,
+    shine: shine,
+  },
+  TextButton = ({
+    caption: e,
+    onClick: t,
+    goto: n,
+    classNames: r,
+    onMouseEnter: a,
+    onMouseLeave: o,
+    onMouseDown: i,
+    onMouseUp: s,
+    side: l = "left",
+    type: u = "back",
+    soundHover: c = "highlight",
+    soundClick: d = "play",
+    ...f
+  }) => {
+    const p = (0, import_react.useCallback)(
+        (e) => {
+          (a?.(e), env.sound.play.sound(c));
+        },
+        [a, c],
+      ),
+      m = (0, import_react.useCallback)(
+        (e) => {
+          o?.(e);
+        },
+        [o],
+      ),
+      _ = (0, import_react.useCallback)(
+        (e) => {
+          (i?.(e), env.sound.play.sound(d));
+        },
+        [i, d],
+      ),
+      h = (0, import_react.useCallback)(
+        (e) => {
+          s?.(e);
+        },
+        [s],
+      );
+    return (0, import_jsx_runtime.jsxs)("div", {
+      className: (0, import_classnames.default)(
+        TextButton_module_default.base,
+        TextButton_module_default[`base__${u}`],
+        TextButton_module_default[`base__${l}`],
+        r?.base,
+      ),
+      onMouseEnter: p,
+      onMouseLeave: m,
+      onMouseDown: _,
+      onMouseUp: h,
+      onClick: t,
+      ...f,
+      children: [
+        "info" !== u &&
+          (0, import_jsx_runtime.jsx)("div", { className: TextButton_module_default.shine }),
+        (0, import_jsx_runtime.jsx)("div", {
+          className: (0, import_classnames.default)(
+            TextButton_module_default.icon,
+            TextButton_module_default[`icon__${u}`],
+            TextButton_module_default[`icon__${l}`],
+            r?.icon,
+          ),
+          children: (0, import_jsx_runtime.jsx)("div", {
+            className: (0, import_classnames.default)(TextButton_module_default.glow, r?.glow),
+          }),
+        }),
+        (0, import_jsx_runtime.jsx)("div", {
+          className: (0, import_classnames.default)(
+            TextButton_module_default.caption,
+            TextButton_module_default[`caption__${u}`],
+            r?.caption,
+          ),
+          children: e,
+        }),
+        n &&
+          (0, import_jsx_runtime.jsx)("div", {
+            className: (0, import_classnames.default)(TextButton_module_default.goto, r?.goto),
+            children: n,
+          }),
+      ],
+    });
+  },
+  NodeTypes = { Text: 1, Tag: 2, Var: 3 };
+function parseArguments(e) {
+  const t = [];
+  let n = "",
+    r = !1,
+    a = !1,
+    o = "";
+  for (let i = 0; i < e.length; i++) {
+    const s = e[i];
+    ("'" !== s && '"' !== s) || a || r
+      ? s === o && a
+        ? ((a = !1), (n += s))
+        : "(" !== s || a
+          ? ")" === s && r && !a
+            ? ((r = !1), (n += s))
+            : " " !== s || r || a
+              ? (n += s)
+              : n && (t.push(n), (n = ""))
+          : ((r = !0), (n += s))
+      : ((a = !0), (o = s), (n += s));
+  }
+  return (n && t.push(n), t);
+}
+function parse(e, t) {
+  const n = [],
+    r = [];
+  let a = "",
+    o = !1,
+    i = "",
+    s = 0;
+  for (let l = 0; l < e.length; l++) {
+    const u = e[l];
+    if (u === t.start[0] && e.slice(l, l + t.start.length) === t.start)
+      (a &&
+        (r.length > 0
+          ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
+          : n.push({ type: NodeTypes.Text, value: a }),
+        (a = "")),
+        (o = !0),
+        (l += t.start.length - 1));
+    else if (u === t.end[0] && e.slice(l, l + t.end.length) === t.end) {
+      ((o = !1), (l += t.end.length - 1));
+      const e = i.trim();
+      if (e.startsWith("@")) {
+        const t = e.slice(1).trim(),
+          a = { type: NodeTypes.Tag, attrs: t.split("|"), instanceId: ++s, children: [] };
+        (r.length > 0 ? r[r.length - 1].node.children.push(a) : n.push(a),
+          r.push({ node: a, startIndex: n.length }));
+      } else if ("/" === e) r.length > 0 && r.pop();
+      else {
+        const t = { type: NodeTypes.Var, instanceId: ++s, name: e };
+        r.length > 0 ? r[r.length - 1].node.children.push(t) : n.push(t);
+      }
+      i = "";
+    } else o ? (i += u) : (a += u);
+  }
+  return (
+    a &&
+      (r.length
+        ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
+        : n.push({ type: NodeTypes.Text, value: a })),
+    n
+  );
+}
+var COLORS =
+    "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
+  base$26 = "FormatText_db904f12",
+  base__fullSize = "FormatText_base__fullSize_a514958e",
+  nowrap = "FormatText_nowrap_ff69eca3",
+  format_text_module_default = {
+    COLORS: COLORS,
+    base: base$26,
+    base__fullSize: base__fullSize,
+    nowrap: nowrap,
+  },
+  legacyColors = new Set(format_text_module_default.COLORS?.split(", ") ?? []),
+  keyId = 0;
+function takeKey() {
+  return ++keyId;
+}
+var startsWithPunctuationRe =
+  /^[*"'ー.,、。，:;：；！？》」•%)(!?\u0EAF\u0E3B\u0E3F\u0E31\u0E32\u0E33\u0E47-\u0E4F\u0E5A-\u0E5F\u0E00-\u0E7F\u3000-\u303F\uFF00-\uFFEF\]]/u;
+function splitString(e) {
+  const t = resources.resolve("langCode");
+  return addSpaceAndMap(
+    splitLocale(e, t),
+    t,
+    (e, t) => e && (0, import_jsx_runtime.jsx)("span", { children: e }, `${e}${t}`),
+  );
+}
+function splitArray(e) {
+  const t = [];
+  for (let n = 0; n < e.length; n++) {
+    const r = e[n],
+      a = e[n + 1];
+    if ("string" != typeof a || !startsWithPunctuationRe.test(a)) {
+      t.push(split(r));
+      continue;
+    }
+    const o = splitString(a.slice(1));
+    (t.push(
+      (0, import_jsx_runtime.jsxs)(
+        import_react.Fragment,
+        {
+          children: [
+            (0, import_jsx_runtime.jsxs)("span", {
+              className: format_text_module_default.nowrap,
+              children: [split(r), a[0]],
+            }),
+            o,
+          ],
+        },
+        takeKey(),
+      ),
+    ),
+      (n += 1));
+  }
+  return t;
+}
+function split(e) {
+  return Array.isArray(e)
+    ? splitArray(e)
+    : "string" == typeof e
+      ? (0, import_jsx_runtime.jsx)(import_react.Fragment, { children: splitString(e) }, takeKey())
+      : e;
+}
+function style(e, ...t) {
+  return (0, import_jsx_runtime.jsx)(
+    "span",
+    {
+      style: t.reduce((n, r) => {
+        if (Array.isArray(r)) {
+          const [e, t] = r;
+          return ((n[e] = t), n);
+        }
+        return (console.warn(`Invalid argument ${r} in ${e}: ${t}`), n);
+      }, {}),
+      children: e,
+    },
+    takeKey(),
+  );
+}
+function className(e, ...t) {
+  return (0, import_jsx_runtime.jsx)(
+    "span",
+    { className: t.filter((e) => "string" == typeof e && e.length > 0).join(" "), children: e },
+    takeKey(),
+  );
+}
+var color = (e, t) => ["color", t],
+  fontSize = (e, t) => ["fontSize", t],
+  fontWeight = (e, t) => ["fontWeight", t],
+  textDecoration = (e, t) => ["textDecoration", t],
+  bold = (e) => ["fontWeight", "bold"];
+function colorLegacy(e, t) {
+  const n = takeKey();
+  return legacyColors.has(String(t))
+    ? (0, import_jsx_runtime.jsx)(
+        "span",
+        { className: `FormatText_colorLegacy__${t}`, children: e },
+        n,
+      )
+    : (0, import_jsx_runtime.jsx)("span", { style: { color: `#${t}` }, children: e }, n);
+}
+var defaultFormatters = {
+  class: className,
+  colorLegacy: colorLegacy,
+  bold: bold,
+  split: split,
+  style: style,
+  color: color,
+  fontSize: fontSize,
+  fontWeight: fontWeight,
+  textDecoration: textDecoration,
+};
+function applyFunction(e, t, n, r) {
+  const a = n.map((t) => {
+      if ("string" != typeof t) return t;
+      const n = t.trim();
+      if (n.startsWith("(") && n.endsWith(")")) {
+        const [t, ...a] = n.slice(1, -1).split(" ");
+        return t ? applyFunction(e, t, a, r) : e;
+      }
+      return n.startsWith("'") && n.endsWith("'") ? n.slice(1, -1) : n;
+    }),
+    o = r[t];
+  return o ? o(e, ...a) : (console.error(`Function ${t} is not registered`), e);
+}
+function applyFunctions(e, t, n) {
+  return e.reduce((e, t) => {
+    const [r, ...a] = parseArguments(t.trim());
+    return r ? applyFunction(e, r, a, n) : e;
+  }, t);
+}
+function isEnd(e) {
+  return !((e >= "a" && e <= "z") || (e >= "A" && e <= "Z") || (e >= "0" && e <= "9") || "_" === e);
+}
+function resolveAttrParams(e, t) {
+  for (let n = 0; n < e.length; n++)
+    if ("$" === e[n]) {
+      let r = n + 1;
+      for (; r < e.length && !isEnd(e[r]);) r++;
+      const a = e.slice(n + 1, r),
+        o = t[a];
+      if (o) return resolveAttrParams(e.replace(`$${a}`, String(o)), t);
+    }
+  return e;
+}
+function resolveAttrsParams(e, t) {
+  const n = [];
+  for (let r = 0; r < e.length; r++) n[r] = resolveAttrParams(e[r], t);
+  return n;
+}
+var primitives = ["number", "string", "undefined"];
+function render(e, t, n = {}, r = !0) {
+  r && (keyId = 0);
+  const a = [];
+  function o(e) {
+    if (primitives.includes(typeof e)) {
+      const t = a.at(-1);
+      if ("string" == typeof t) return void (a[a.length - 1] = t + e);
+    }
+    a.push(e);
+  }
+  for (const i of e)
+    if (i.type === NodeTypes.Text) o(i.value);
+    else if (i.type === NodeTypes.Var)
+      null === n[i.name] || primitives.includes(typeof n[i.name])
+        ? o(n[i.name] ?? `{{${i.name}}}`)
+        : a.push(
+            (0, import_jsx_runtime.jsx)(
+              import_react.Fragment,
+              { children: n[i.name] },
+              `var-${i.name}-${i.instanceId}`,
+            ),
+          );
+    else if (i.type === NodeTypes.Tag) {
+      const e = render(i.children, t, n, !1),
+        r = applyFunctions(resolveAttrsParams(i.attrs, n), e, t);
+      a.push(r);
+    }
+  return a;
+}
+function upgradeColorTag(e) {
+  return e
+    .replace(
+      /%\(([a-zA-Z0-9]+)_(Open|Start)\)s(.+?)%\(\1_(Close|End)\)s/,
+      "{{@ colorLegacy '$1'}}$3{{/}}",
+    )
+    .replace(
+      /\{([a-zA-Z0-9]+)_(Open|Start)\}(.+?)\{\1_(Close|End)\}/gi,
+      "{{@ colorLegacy '$1'}}$3{{/}}",
+    );
+}
+function upgradeVariables(e) {
+  return e.replace(/%\((\w+|\d)\)(?:s|d)?/gi, "{{$1}}").replace(/(?<!\{)\{(\w+|\d)\}/g, "{{$1}}");
+}
+function upgradeSymbols(e) {
+  return e.replaceAll("&nbsp;", " ").replaceAll("&zwnbsp;", "\ufeff");
+}
+function upgradeLegacy(e) {
+  return pipe(e, upgradeSymbols, upgradeColorTag, upgradeVariables);
+}
+var defaultBrackets = { start: "{{", end: "}}" },
+  FormatText = (0, import_react.memo)(function (e) {
+    const {
+        brackets: t = defaultBrackets,
+        text: n,
+        params: r,
+        upgradeLegacy: a,
+        fullSize: o,
+        inline: i,
+        formatters: s,
+        split: l,
+        ...u
+      } = e,
+      c = (0, import_react.useMemo)(
+        () => (e.upgradeLegacy ? upgradeLegacy(e.text) : e.text),
+        [e.text, e.upgradeLegacy],
+      ),
+      d = (0, import_react.useMemo)(
+        () => (e.formatters ? { ...defaultFormatters, ...e.formatters } : defaultFormatters),
+        [e.formatters],
+      ),
+      f = (0, import_react.useMemo)(() => parse(l ? `{{@ split}}${c}{{/}}` : c, t), [t, c, l]),
+      p = (0, import_react.useMemo)(() => render(f, d, e.params), [f, d, e.params]),
+      m = clsx(
+        format_text_module_default.base,
+        o && format_text_module_default.base__fullSize,
+        u.className,
+      );
+    return e.inline
+      ? (console.warn(
+          "[FormatText] using the 'inline' props causes memory leaks due to incorrect working of the 'cohinline' attribute in GF version 1.48.2.3. Can cause client crashes.",
+          "Use 'split' prop instead.",
+        ),
+        (0, import_jsx_runtime.jsx)("p", {
+          ...u,
+          className: m,
+          ref: (e) => {
+            e?.setAttribute("cohinline", "true");
+          },
+          children: p,
+        }))
+      : (0, import_jsx_runtime.jsx)("span", { ...u, className: m, children: p });
+  });
+function FormatString({ path: e, ...t }) {
+  return (0, import_jsx_runtime.jsx)(FormatText, {
+    text: resources.resolve("strings").readOrEmpty(e),
+    ...t,
+  });
+}
+var undef = () => {};
+function withResolvePath(e) {
+  const t = e;
+  return (0, import_react.forwardRef)(function (e, n) {
+    const r = useAdaptive(e, e.adaptive),
+      { path: a, ...o } = r,
+      i = r.images ?? resources.resolve("images"),
+      s = { ...o, ref: n };
+    {
+      const e = a ? i.readOr(a, undef, "warn") : void 0;
+      return e
+        ? (0, import_jsx_runtime.jsx)(t, { ...s, src: e })
+        : (0, import_jsx_runtime.jsx)(t, { ...s, unknown: !0 });
+    }
+  });
+}
+var defaultUnknownStyle = {
+    background:
+      "linear-gradient(45deg, #ccc 25%, transparent 25%),\nlinear-gradient(-45deg, #ccc 25%, transparent 25%),\nlinear-gradient(45deg, transparent 75%, #ccc 75%),\nlinear-gradient(-45deg, transparent 75%, #ccc 75%)",
+    backgroundSize: "20rem 20rem",
+    backgroundPosition: "0 0, 0 10rem, 10rem -10rem, -10rem 0rem",
+    backgroundColor: "#000",
+  },
+  ResourceImage = (0, import_react.forwardRef)(function (e, t) {
+    if (!e.src) {
+      const {
+        repeat: n,
+        fit: r,
+        position: a,
+        width: o,
+        src: i,
+        height: s,
+        unselectable: l,
+        unknownStyle: u = defaultUnknownStyle,
+        ...c
+      } = e;
+      return (0, import_jsx_runtime.jsx)("div", {
+        ...c,
+        ref: t,
+        style: { width: e.width, height: e.height, ...u, ...e.style },
+      });
+    }
+    const {
+      repeat: n,
+      fit: r,
+      position: a,
+      width: o,
+      height: i,
+      unknownStyle: s,
+      unselectable: l,
+      ...u
+    } = e;
+    return (0, import_jsx_runtime.jsx)("div", {
+      ...u,
+      ref: t,
+      style: {
+        backgroundImage: `url(${e.src})`,
+        backgroundRepeat: n ?? "no-repeat",
+        backgroundSize: r ?? "contain",
+        backgroundPosition: a ?? "center center",
+        width: "number" == typeof o ? `${o}rem` : o,
+        height: "number" == typeof i ? `${i}rem` : i,
+        ...u.style,
+      },
+    });
+  }),
+  Image$1 = withResolvePath(
+    (0, import_react.forwardRef)(function (e, t) {
+      if (e.unknown) {
+        const {
+          repeat: n,
+          fit: r,
+          position: a,
+          width: o,
+          src: i,
+          height: s,
+          unselectable: l,
+          unknown: u,
+          unknownStyle: c = defaultUnknownStyle,
+          ...d
+        } = e;
+        return (0, import_jsx_runtime.jsx)("div", {
+          ...d,
+          ref: t,
+          style: { width: e.width, height: e.height, ...c, ...e.style },
+        });
+      }
+      const {
+        repeat: n,
+        fit: r,
+        position: a,
+        width: o,
+        height: i,
+        unknownStyle: s,
+        unknown: l,
+        unselectable: u,
+        ...c
+      } = e;
+      return (0, import_jsx_runtime.jsx)("div", {
+        ...c,
+        ref: t,
+        style: {
+          backgroundImage: `url(${e.src})`,
+          backgroundRepeat: n ?? "no-repeat",
+          backgroundSize: r ?? "contain",
+          backgroundPosition: a ?? "center center",
+          width: "number" == typeof o ? `${o}rem` : o,
+          height: "number" == typeof i ? `${i}rem` : i,
+          ...c.style,
+        },
+      });
+    }),
+  ),
+  Img = withResolvePath(
+    (0, import_react.forwardRef)(function (e, t) {
+      const {
+        width: n,
+        height: r,
+        src: a,
+        unselectable: o,
+        unknown: i,
+        unknownStyle: s = defaultUnknownStyle,
+        ...l
+      } = e;
+      return e.unknown
+        ? (0, import_jsx_runtime.jsx)("div", {
+            ...l,
+            style: { width: e.width, height: e.height, ...s },
+          })
+        : (0, import_jsx_runtime.jsx)("img", { ...l, ref: t, src: a, width: n, height: r });
+    }),
+  ),
+  grades = {
+    iron: "iron",
+    bronze: "bronze",
+    silver: "silver",
+    gold: "gold",
+    enamel: "enamel",
+    prestige: "prestige",
+  },
+  sizes$7 = { xs: "xs", sm: "sm", md: "md", mdLg: "mdLg", lg: "lg", xl: "xl", xxl: "xxl" },
+  sizesEmblems = {
+    xs: "48x48",
+    sm: "72x72",
+    md: "115x84",
+    mdLg: "143x104",
+    lg: "170x124",
+    xl: "400x300",
+    xxl: "600x450",
+  },
+  sizesFonts = {
+    xs: "6x12",
+    sm: "9x19",
+    md: "16x33",
+    mdLg: "20x41",
+    lg: "23x48",
+    xl: "53x120",
+    xxl: "77x176",
+  };
+function icon$9(e, t, n) {
+  return t === grades.prestige ? `.c_${sizesEmblems[n]}.${t}` : `.c_${sizesEmblems[n]}.${t}.c_${e}`;
+}
+var icon$8 = "VehiclePrestigeEmblem_icon_940474a9",
+  base__xs = "VehiclePrestigeEmblem_base__xs_678b197f",
+  base__sm = "VehiclePrestigeEmblem_base__sm_f0368fa3",
+  base__md = "VehiclePrestigeEmblem_base__md_63f722e6",
+  base__mdLg = "VehiclePrestigeEmblem_base__mdLg_bb48be4b",
+  base__lg = "VehiclePrestigeEmblem_base__lg_69373327",
+  base__xl = "VehiclePrestigeEmblem_base__xl_3144948a",
+  base__xxl = "VehiclePrestigeEmblem_base__xxl_fec732e8",
+  base$25 = "VehiclePrestigeEmblem_24849b0a",
+  level$1 = "VehiclePrestigeEmblem_level_8cc4a042",
+  levelIcon__xs = "VehiclePrestigeEmblem_levelIcon__xs_d11b6645",
+  levelIcon__sm = "VehiclePrestigeEmblem_levelIcon__sm_900b8c7f",
+  levelIcon__md = "VehiclePrestigeEmblem_levelIcon__md_914fcef3",
+  levelIcon__mdLg = "VehiclePrestigeEmblem_levelIcon__mdLg_cf5f7370",
+  levelIcon__lg = "VehiclePrestigeEmblem_levelIcon__lg_2fd402cc",
+  levelIcon__xl = "VehiclePrestigeEmblem_levelIcon__xl_8c7e5b4d",
+  levelIcon__xxl = "VehiclePrestigeEmblem_levelIcon__xxl_f852cb4e",
+  vehicle_prestige_emblem_module_default = {
+    icon: icon$8,
+    base__xs: base__xs,
+    base__sm: base__sm,
+    base__md: base__md,
+    base__mdLg: base__mdLg,
+    base__lg: base__lg,
+    base__xl: base__xl,
+    base__xxl: base__xxl,
+    base: base$25,
+    level: level$1,
+    levelIcon__xs: levelIcon__xs,
+    levelIcon__sm: levelIcon__sm,
+    levelIcon__md: levelIcon__md,
+    levelIcon__mdLg: levelIcon__mdLg,
+    levelIcon__lg: levelIcon__lg,
+    levelIcon__xl: levelIcon__xl,
+    levelIcon__xxl: levelIcon__xxl,
+  };
+function Level({ level: e, type: t, size: n, classNames: r, ...a }) {
+  const o = e.toString().split("");
+  return (0, import_jsx_runtime.jsx)("div", {
+    ...a,
+    className: vehicle_prestige_emblem_module_default.level,
+    children: o.map((e, a) =>
+      (0, import_jsx_runtime.jsx)(
+        Image$1,
+        {
+          className: clsx(
+            vehicle_prestige_emblem_module_default.levelIcon,
+            vehicle_prestige_emblem_module_default[`levelIcon__${n}`],
+            r?.levelIcon,
+          ),
+          path: `prestige.emblemFont.c_${sizesFonts[n]}.${t === grades.enamel ? grades.gold : t}.c_${e}`,
+        },
+        a,
+      ),
+    ),
+  });
+}
+var PrestigeEmblem = (0, import_react.forwardRef)(function (
+  { level: e, grade: t, type: n, size: r, classNames: a, ...o },
+  i,
+) {
+  return e < 1
+    ? null
+    : (0, import_jsx_runtime.jsxs)("div", {
+        ...o,
+        ref: i,
+        className: clsx(
+          vehicle_prestige_emblem_module_default.base,
+          vehicle_prestige_emblem_module_default[`base__${r}`],
+          a?.base,
+        ),
+        children: [
+          (0, import_jsx_runtime.jsx)(Image$1, {
+            path: `prestige.emblem${icon$9(t, n, r)}`,
+            className: clsx(vehicle_prestige_emblem_module_default.icon, a?.icon),
+          }),
+          n !== grades.prestige &&
+            (0, import_jsx_runtime.jsx)(Level, {
+              level: e,
+              type: n,
+              size: r,
+              classNames: { levelIcon: a?.level },
+            }),
+        ],
+      });
+});
+PrestigeEmblem.sizes = sizes$7;
+var themes = { primary: "primary", secondary: "secondary", custom: "custom" },
+  sizes$6 = { extraSmall: "extraSmall", small: "small", medium: "medium", large: "large" },
+  falsyToString = (e) => ("boolean" == typeof e ? `${e}` : 0 === e ? "0" : e),
+  cx$4 = clsx,
+  cva = (e, t) => (n) => {
+    var r;
+    if (null == (null == t ? void 0 : t.variants))
+      return cx$4(e, null == n ? void 0 : n.class, null == n ? void 0 : n.className);
+    const { variants: a, defaultVariants: o } = t,
+      i = Object.keys(a).map((e) => {
+        const t = null == n ? void 0 : n[e],
+          r = null == o ? void 0 : o[e];
+        if (null === t) return null;
+        const i = falsyToString(t) || falsyToString(r);
+        return a[e][i];
+      }),
+      s =
+        n &&
+        Object.entries(n).reduce((e, t) => {
+          let [n, r] = t;
+          return (void 0 === r || (e[n] = r), e);
+        }, {});
+    return cx$4(
+      e,
+      i,
+      null == t || null === (r = t.compoundVariants) || void 0 === r
+        ? void 0
+        : r.reduce((e, t) => {
+            let { class: n, className: r, ...a } = t;
+            return Object.entries(a).every((e) => {
+              let [t, n] = e;
+              return Array.isArray(n) ? n.includes({ ...o, ...s }[t]) : { ...o, ...s }[t] === n;
+            })
+              ? [...e, n, r]
+              : e;
+          }, []),
+      null == n ? void 0 : n.class,
+      null == n ? void 0 : n.className,
+    );
+  };
+function defineStyledComponent(e, t, n) {
+  const r = "object" == typeof t && "cva" in t ? t.cva?.variants : n?.variants,
+    a = r ? Object.keys(r) : [];
+  if ("object" == typeof t) {
+    const n = t,
+      r = cva(n.className, n.cva),
+      o = n.element,
+      i = (0, import_react.forwardRef)(function (e, t) {
+        return (0, import_react.createElement)(o, {
+          ...("function" == typeof o ? e : cleanProps(a, e)),
+          ref: t,
+          className: r(e),
+        });
+      });
+    return ((i.displayName = e), n.cva && (i.cva = n.cva), i);
+  }
+  const o = cva(t, n),
+    i = (0, import_react.forwardRef)(function (t, n) {
+      return (0, import_jsx_runtime.jsx)("div", {
+        "data-name": e,
+        ...cleanProps(a, t),
+        ref: n,
+        className: o(t),
+      });
+    });
+  return ((i.displayName = e), n && (i.cva = n), i);
+}
+function cleanProps(e, t) {
+  if (0 === e.length) return t;
+  const n = { ...t };
+  for (const r of e) delete n[r];
+  return n;
+}
+var base$24 = "HeadlessButton_df8536fc",
+  headless_button_module_default = { base: base$24 },
+  HeadlessButtonBase = defineStyledComponent("Button", {
+    element: "button",
+    className: headless_button_module_default.base,
+  }),
+  HeadlessButton = (0, import_react.forwardRef)(function (
+    {
+      children: e,
+      onClick: t,
+      onMouseEnter: n,
+      soundTarget: r,
+      disabled: a = !1,
+      silent: o = !1,
+      ...i
+    },
+    s,
+  ) {
+    const l = useSounds();
+    return (0, import_jsx_runtime.jsx)(HeadlessButtonBase, {
+      ...i,
+      ref: s,
+      onMouseEnter: function (e) {
+        (a || o || l.play("mouse-enter", { target: r || "Button", original: e }), n?.(e));
+      },
+      onClick: function (e) {
+        a || (o || l.play("click", { target: r || "Button", original: e }), t?.(e));
+      },
+      children: e,
+    });
+  }),
+  background$2 = "Button_background_98ebcfb8",
+  border$3 = "Button_border_7e6390d7",
+  overlay$3 = "Button_overlay_174632c8",
+  base$23 = "Button_70871946",
+  base__enabled = "Button_base__enabled_96634d40",
+  base__disabled$2 = "Button_base__disabled_b713e04a",
+  content$4 = "Button_content_298de63f",
+  content__fontAligned = "Button_content__fontAligned_66115778",
+  button_module_default = {
+    background: background$2,
+    border: border$3,
+    overlay: overlay$3,
+    base: base$23,
+    base__enabled: base__enabled,
+    base__disabled: base__disabled$2,
+    "base__size-extraSmall": "Button_base__size-extraSmall_d0cdb5ed",
+    "base__size-small": "Button_base__size-small_fc7095a4",
+    "base__size-medium": "Button_base__size-medium_814d61f0",
+    "base__size-large": "Button_base__size-large_83da852e",
+    "base__theme-primary": "Button_base__theme-primary_8ba55469",
+    "base__theme-secondary": "Button_base__theme-secondary_3fa4afc",
+    content: content$4,
+    content__fontAligned: content__fontAligned,
+  },
+  Button = (0, import_react.forwardRef)(function (
+    {
+      children: e,
+      size: t = sizes$6.large,
+      theme: n = themes.primary,
+      disabled: r = !1,
+      silent: a = !1,
+      autoAlignContent: o = !0,
+      classNames: i,
+      className: s,
+      ...l
+    },
+    u,
+  ) {
+    return (0, import_jsx_runtime.jsxs)(HeadlessButton, {
+      ...l,
+      ref: u,
+      silent: a,
+      disabled: r,
+      className: clsx(
+        button_module_default.base,
+        button_module_default[`base__size-${t}`],
+        button_module_default[`base__theme-${n}`],
+        r ? button_module_default.base__disabled : button_module_default.base__enabled,
+        s,
+        i?.base,
+      ),
+      onClick: function (e) {
+        r || l.onClick?.(e);
+      },
+      children: [
+        (0, import_jsx_runtime.jsx)("div", {
+          className: clsx(button_module_default.background, i?.background),
+        }),
+        (0, import_jsx_runtime.jsx)("div", {
+          className: clsx(button_module_default.border, i?.border),
+        }),
+        (0, import_jsx_runtime.jsx)("div", {
+          className: clsx(button_module_default.overlay, i?.overlay),
+        }),
+        (0, import_jsx_runtime.jsx)("div", {
+          className: clsx(
+            button_module_default.content,
+            o && button_module_default.content__fontAligned,
+            i?.content,
+          ),
+          children: e,
+        }),
+      ],
+    });
+  });
+((Button.themes = themes), (Button.sizes = sizes$6));
+var LIGHT_TANK = "lightTank",
+  MEDIUM_TANK = "mediumTank",
+  HEAVY_TANK = "heavyTank",
+  AT_SPG = "AT-SPG",
+  types$2 = {
+    lightTank: LIGHT_TANK,
+    mediumTank: MEDIUM_TANK,
+    heavyTank: HEAVY_TANK,
+    SPG: "SPG",
+    "AT-SPG": AT_SPG,
+  },
+  typeValues = Object.values(types$2),
+  isTypeValidValue = (e) => typeValues.includes(e);
+function getVehicleImageKey(e) {
+  const t = e.indexOf(":");
+  return normalizeResource(t < 0 ? e.toLowerCase() : e.substring(t + 1).toLowerCase());
+}
+function isRentVehicle(e) {
+  return e.rent.isRented;
+}
+var RUDY_PL = 51345,
+  RUDY_USSR = 59393,
+  RUDIES = [RUDY_USSR, RUDY_PL],
+  sameTanksRemap = { [RUDY_PL]: RUDIES, [RUDY_USSR]: RUDIES },
+  WITHOUT_ROLE = "without_role",
+  roles = {
+    assault: "assault",
+    sniper: "sniper",
+    support: "support",
+    universal: "universal",
+    break: "break",
+    scout: "scout",
+    spg: "spg",
+  },
+  mapRoleByKey = [
+    WITHOUT_ROLE,
+    roles.spg,
+    roles.assault,
+    roles.break,
+    roles.universal,
+    roles.support,
+    roles.assault,
+    roles.support,
+    roles.universal,
+    roles.sniper,
+    roles.assault,
+    roles.universal,
+    roles.sniper,
+    roles.support,
+    roles.universal,
+    WITHOUT_ROLE,
+    roles.scout,
+    roles.support,
+  ],
+  getRoleByKey = (e) => mapRoleByKey[e] ?? "without_role",
+  atSpgRoles = [roles.assault, roles.universal, roles.sniper, roles.support],
+  heavyTankRoles = [roles.assault, roles.break, roles.universal, roles.support],
+  mediumTankRoles = [roles.assault, roles.support, roles.universal, roles.sniper],
+  lightTankRoles = [roles.universal, roles.scout, roles.support],
+  vehicleState = {
+    DAMAGED: "damaged",
+    EXPLODED: "exploded",
+    DESTROYED: "destroyed",
+    UNDAMAGED: "undamaged",
+    BATTLE: "battle",
+    IN_PREBATTLE: "inPrebattle",
+    LOCKED: "locked",
+    CREW_NOT_FULL: "crewNotFull",
+    AMMO_NOT_FULL: "ammoNotFull",
+    AMMO_NOT_FULL_EVENTS: "ammoNotFullEvents",
+    SERVER_RESTRICTION: "serverRestriction",
+    RENTAL_IS_OVER: "rentalIsOver",
+    IGR_RENTAL_IS_OVER: "igrRentalIsOver",
+    IN_PREMIUM_IGR_ONLY: "inPremiumIgrOnly",
+    GROUP_IS_NOT_READY: "group_is_not_ready",
+    NOT_PRESENT: "notpresent",
+    UNAVAILABLE: "unavailable",
+    UNSUITABLE_TO_QUEUE: "unsuitableToQueue",
+    UNSUITABLE_TO_UNIT: "unsuitableToUnit",
+    WILL_BE_UNLOCKED_IN_BATTLE: "willBeUnlockedInBattle",
+    DEAL_IS_OVER: "dealIsOver",
+    ROTATION_GROUP_UNLOCKED: "rotationGroupUnlocked",
+    ROTATION_GROUP_LOCKED: "rotationGroupLocked",
+    RENTABLE: "rentable",
+    RENTABLE_AGAIN: "rentableAgain",
+    DISABLED: "disabled",
+    SUBSCRIPTION_SUSPENDED: "subscription_suspended",
+    WOT_PLUS_EXCLUSIVE_VEHICLE_DISABLED: "wot_plus_exclusive_vehicle_disabled",
+  },
+  stateValues = Object.values(vehicleState),
+  base$22 = "VehicleLevel_3c938122",
+  vehicle_level_module_default = { base: base$22 },
+  numberTypes = { arabic: "arabic", roman: "roman" };
+function getLevelType(e, t) {
+  return e || (t ? numberTypes.arabic : numberTypes.roman);
+}
+var VehicleLevel = (0, import_react.forwardRef)(function ({ value: e, numberType: t, ...n }, r) {
+  const a = getLevelType(t, useRomanForbidden()) === numberTypes.roman ? arabicToRoman(e) : e;
+  return (0, import_jsx_runtime.jsx)("div", {
+    ...n,
+    "data-name": "VehicleLevel",
+    className: clsx(vehicle_level_module_default.base, n.className),
+    ref: r,
+    children: a,
+  });
+});
+VehicleLevel.numberTypes = numberTypes;
+var TYPE_PRESTIGE = "prestige",
+  directions$1 = { left: "left", right: "right" },
+  lengths = { short: "short", medium: "medium", long: "long" },
+  iconLength = (e) => (e < 10 ? lengths.short : e < 100 ? lengths.medium : lengths.long),
+  icon$7 = (e, t, n) => ("prestige" === t ? TYPE_PRESTIGE : `${t}.${iconLength(e)}.c_${n}`),
+  base$21 = "VehiclePrestigeLevel_a750cce",
+  icon$6 = "VehiclePrestigeLevel_icon_ef024cc3",
+  base__left = "VehiclePrestigeLevel_base__left_4426b46c",
+  level = "VehiclePrestigeLevel_level_10f410ba",
+  level__short = "VehiclePrestigeLevel_level__short_d1939fb1",
+  base__right = "VehiclePrestigeLevel_base__right_4426b46c",
+  level__medium = "VehiclePrestigeLevel_level__medium_90aed80f",
+  level__long = "VehiclePrestigeLevel_level__long_26625167",
+  base__iron = "VehiclePrestigeLevel_base__iron_4426b46c",
+  base__bronze = "VehiclePrestigeLevel_base__bronze_4426b46c",
+  base__silver = "VehiclePrestigeLevel_base__silver_4426b46c",
+  base__gold$1 = "VehiclePrestigeLevel_base__gold_4426b46c",
+  base__enamel = "VehiclePrestigeLevel_base__enamel_4426b46c",
+  vehicle_prestige_level_module_default = {
+    base: base$21,
+    icon: icon$6,
+    base__left: base__left,
+    level: level,
+    level__short: level__short,
+    base__right: base__right,
+    level__medium: level__medium,
+    level__long: level__long,
+    base__iron: base__iron,
+    base__bronze: base__bronze,
+    base__silver: base__silver,
+    base__gold: base__gold$1,
+    base__enamel: base__enamel,
+  };
+function PrestigeLevel({ level: e, grade: t, type: n, direction: r, classNames: a, ...o }) {
+  return e < 1 || "undefined" === n
+    ? null
+    : (0, import_jsx_runtime.jsxs)("div", {
+        ...o,
+        className: clsx(
+          vehicle_prestige_level_module_default.base,
+          vehicle_prestige_level_module_default[`base__${n}`],
+          vehicle_prestige_level_module_default[`base__${r}`],
+          o.className,
+          a?.base,
+        ),
+        children: [
+          (0, import_jsx_runtime.jsx)(Image$1, {
+            path: `prestige.tab.${icon$7(e, n, t)}`,
+            className: clsx(vehicle_prestige_level_module_default.icon, a?.icon),
+          }),
+          "prestige" !== n &&
+            (0, import_jsx_runtime.jsx)("div", {
+              className: clsx(
+                vehicle_prestige_level_module_default.level,
+                vehicle_prestige_level_module_default[`level__${iconLength(e)}`],
+                a?.level,
+              ),
+              children: e,
+            }),
+        ],
+      });
+}
+PrestigeLevel.direction = directions$1;
+var base$20 = "VehicleRole_e70537d3",
+  icon__x16x16 = "VehicleRole_icon__x16x16_f444f190",
+  icon__x24x24 = "VehicleRole_icon__x24x24_cc02d077",
+  icon__x32x32 = "VehicleRole_icon__x32x32_2180a099",
+  icon__x48x48 = "VehicleRole_icon__x48x48_2a01e86c",
+  vehicle_role_module_default = {
+    base: base$20,
+    icon__x16x16: icon__x16x16,
+    icon__x24x24: icon__x24x24,
+    icon__x32x32: icon__x32x32,
+    icon__x48x48: icon__x48x48,
+  },
+  sizes$5 = { x16x16: "x16x16", x24x24: "x24x24", x32x32: "x32x32", x48x48: "x48x48" },
+  images$1 = resources.resolve("images"),
+  VehicleRole = (0, import_react.forwardRef)(function (
+    { roleKey: e, size: t = sizes$5.x24x24, classNames: n, ...r },
+    a,
+  ) {
+    const o = useUpscale(t, sizes$5.x32x32);
+    return (0, import_jsx_runtime.jsx)("div", {
+      ...r,
+      ref: a,
+      className: clsx(vehicle_role_module_default.base, n?.base),
+      children: (0, import_jsx_runtime.jsx)("img", {
+        className: clsx(vehicle_role_module_default[`icon__${t}`], n?.icon),
+        src: images$1.readOrEmpty(`vehicleRoles.${o}.${e}`),
+      }),
+    });
+  });
+VehicleRole.sizes = sizes$5;
+var sizes$4 = { x24x24: "x24x24", x48x48: "x48x48", x64x64: "x64x64", x96x96: "x96x96" },
+  upscaledSizes = { x24x24: "x64x64", x48x48: "x96x96", x64x64: "x96x96", x96x96: "x96x96" },
+  mapTypes = {
+    [types$2.lightTank]: "light_tank",
+    [types$2.mediumTank]: "medium_tank",
+    [types$2.heavyTank]: "heavy_tank",
+    [types$2.SPG]: "spg",
+    [types$2["AT-SPG"]]: "tank_destroyer",
+  },
+  base$19 = "VehicleType_30b4aab0",
+  base__x24x24 = "VehicleType_base__x24x24_a3dc7aa3",
+  base__x48x48 = "VehicleType_base__x48x48_cb59f57a",
+  base__x64x64 = "VehicleType_base__x64x64_bb9b890",
+  base__x96x96$1 = "VehicleType_base__x96x96_919f9f92",
+  base__premium__x24x24 = "VehicleType_base__premium__x24x24_92335fef",
+  base__premium__x48x48 = "VehicleType_base__premium__x48x48_e19c5d21",
+  base__premium__x64x64 = "VehicleType_base__premium__x64x64_ba9a2a05",
+  base__premium__x96x96 = "VehicleType_base__premium__x96x96_d837a523",
+  icon$5 = "VehicleType_icon_b15d2628",
+  vehicle_type_module_default = {
+    base: base$19,
+    base__x24x24: base__x24x24,
+    base__x48x48: base__x48x48,
+    base__x64x64: base__x64x64,
+    base__x96x96: base__x96x96$1,
+    base__premium__x24x24: base__premium__x24x24,
+    base__premium__x48x48: base__premium__x48x48,
+    base__premium__x64x64: base__premium__x64x64,
+    base__premium__x96x96: base__premium__x96x96,
+    icon: icon$5,
+  },
+  VehicleType = (0, import_react.forwardRef)(function (
+    { type: e, size: t = sizes$4.x48x48, premium: n = !1, fit: r = "contain", ...a },
+    o,
+  ) {
+    const i = useUpscale(sizes$4[t], upscaledSizes[t]);
+    return (0, import_jsx_runtime.jsx)(Image$1, {
+      ...a,
+      ref: o,
+      fit: r,
+      className: clsx(
+        vehicle_type_module_default.base,
+        n
+          ? vehicle_type_module_default[`base__premium__${t}`]
+          : vehicle_type_module_default[`base__${t}`],
+        a.className,
+      ),
+      path: `ui_kit.vehicle_type.${i}.${n ? "premium_" : ""}${normalizeResource(mapTypes[e])}_${i}`,
+    });
+  });
+((VehicleType.types = types$2), (VehicleType.sizes = sizes$4));
+var base$18 = "VehicleInfo_1732f1f0",
+  name = "VehicleInfo_name_3989ca04",
+  name__premium = "VehicleInfo_name__premium_258b3b93",
+  vehicle_info_module_default = { base: base$18, name: name, name__premium: name__premium },
+  VehicleName = defineStyledComponent("VehicleName", vehicle_info_module_default.name, {
+    variants: { premium: { true: vehicle_info_module_default.name__premium } },
+  }),
+  VehicleInfo = (0, import_react.forwardRef)(function (e, t) {
+    return (0, import_jsx_runtime.jsx)("div", {
+      ...e,
+      ref: t,
+      className: clsx(vehicle_info_module_default.base, e.className),
+    });
+  });
+((VehicleInfo.Prestige = PrestigeLevel),
+  (VehicleInfo.Level = VehicleLevel),
+  (VehicleInfo.Type = VehicleType),
+  (VehicleInfo.Name = VehicleName),
+  (VehicleInfo.Role = VehicleRole));
 var DEFAULT_NAME_KEYFRAME = "Point",
   THRESHOLD = 0.02;
 function createLoop(e) {
@@ -21874,244 +23364,28 @@ var VideoForwarded = (0, import_react.forwardRef)(function (
     );
   }),
   Video = (0, import_react.memo)(VideoForwarded),
-  themes = { primary: "primary", secondary: "secondary", custom: "custom" },
-  sizes$7 = { extraSmall: "extraSmall", small: "small", medium: "medium", large: "large" },
-  falsyToString = (e) => ("boolean" == typeof e ? `${e}` : 0 === e ? "0" : e),
-  cx$5 = clsx,
-  cva = (e, t) => (n) => {
-    var r;
-    if (null == (null == t ? void 0 : t.variants))
-      return cx$5(e, null == n ? void 0 : n.class, null == n ? void 0 : n.className);
-    const { variants: a, defaultVariants: o } = t,
-      i = Object.keys(a).map((e) => {
-        const t = null == n ? void 0 : n[e],
-          r = null == o ? void 0 : o[e];
-        if (null === t) return null;
-        const i = falsyToString(t) || falsyToString(r);
-        return a[e][i];
-      }),
-      s =
-        n &&
-        Object.entries(n).reduce((e, t) => {
-          let [n, r] = t;
-          return (void 0 === r || (e[n] = r), e);
-        }, {});
-    return cx$5(
-      e,
-      i,
-      null == t || null === (r = t.compoundVariants) || void 0 === r
-        ? void 0
-        : r.reduce((e, t) => {
-            let { class: n, className: r, ...a } = t;
-            return Object.entries(a).every((e) => {
-              let [t, n] = e;
-              return Array.isArray(n) ? n.includes({ ...o, ...s }[t]) : { ...o, ...s }[t] === n;
-            })
-              ? [...e, n, r]
-              : e;
-          }, []),
-      null == n ? void 0 : n.class,
-      null == n ? void 0 : n.className,
-    );
-  };
-function defineStyledComponent(e, t, n) {
-  const r = "object" == typeof t && "cva" in t ? t.cva?.variants : n?.variants,
-    a = r ? Object.keys(r) : [];
-  if ("object" == typeof t) {
-    const n = t,
-      r = cva(n.className, n.cva),
-      o = n.element,
-      i = (0, import_react.forwardRef)(function (e, t) {
-        return (0, import_react.createElement)(o, {
-          ...("function" == typeof o ? e : cleanProps(a, e)),
-          ref: t,
-          className: r(e),
-        });
-      });
-    return ((i.displayName = e), n.cva && (i.cva = n.cva), i);
-  }
-  const o = cva(t, n),
-    i = (0, import_react.forwardRef)(function (t, n) {
-      return (0, import_jsx_runtime.jsx)("div", {
-        "data-name": e,
-        ...cleanProps(a, t),
-        ref: n,
-        className: o(t),
-      });
-    });
-  return ((i.displayName = e), n && (i.cva = n), i);
-}
-function cleanProps(e, t) {
-  if (0 === e.length) return t;
-  const n = { ...t };
-  for (const r of e) delete n[r];
-  return n;
-}
-var base$27 = "HeadlessButton_df8536fc",
-  headless_button_module_default = { base: base$27 },
-  HeadlessButtonBase = defineStyledComponent("Button", {
-    element: "button",
-    className: headless_button_module_default.base,
-  }),
-  HeadlessButton = (0, import_react.forwardRef)(function (
-    {
-      children: e,
-      onClick: t,
-      onMouseEnter: n,
-      soundTarget: r,
-      disabled: a = !1,
-      silent: o = !1,
-      ...i
-    },
-    s,
-  ) {
-    const l = useSounds();
-    return (0, import_jsx_runtime.jsx)(HeadlessButtonBase, {
-      ...i,
-      ref: s,
-      onMouseEnter: function (e) {
-        (a || o || l.play("mouse-enter", { target: r || "Button", original: e }), n?.(e));
-      },
-      onClick: function (e) {
-        a || (o || l.play("click", { target: r || "Button", original: e }), t?.(e));
-      },
-      children: e,
-    });
-  }),
-  background$2 = "Button_background_98ebcfb8",
-  border$3 = "Button_border_7e6390d7",
-  overlay$3 = "Button_overlay_174632c8",
-  base$26 = "Button_70871946",
-  base__enabled = "Button_base__enabled_96634d40",
-  base__disabled$2 = "Button_base__disabled_b713e04a",
-  content$4 = "Button_content_298de63f",
-  content__fontAligned = "Button_content__fontAligned_66115778",
-  button_module_default = {
-    background: background$2,
-    border: border$3,
-    overlay: overlay$3,
-    base: base$26,
-    base__enabled: base__enabled,
-    base__disabled: base__disabled$2,
-    "base__size-extraSmall": "Button_base__size-extraSmall_d0cdb5ed",
-    "base__size-small": "Button_base__size-small_fc7095a4",
-    "base__size-medium": "Button_base__size-medium_814d61f0",
-    "base__size-large": "Button_base__size-large_83da852e",
-    "base__theme-primary": "Button_base__theme-primary_8ba55469",
-    "base__theme-secondary": "Button_base__theme-secondary_3fa4afc",
-    content: content$4,
-    content__fontAligned: content__fontAligned,
-  },
-  Button = (0, import_react.forwardRef)(function (
-    {
-      children: e,
-      size: t = sizes$7.large,
-      theme: n = themes.primary,
-      disabled: r = !1,
-      silent: a = !1,
-      autoAlignContent: o = !0,
-      classNames: i,
-      className: s,
-      ...l
-    },
-    u,
-  ) {
-    return (0, import_jsx_runtime.jsxs)(HeadlessButton, {
-      ...l,
-      ref: u,
-      silent: a,
-      disabled: r,
-      className: clsx(
-        button_module_default.base,
-        button_module_default[`base__size-${t}`],
-        button_module_default[`base__theme-${n}`],
-        r ? button_module_default.base__disabled : button_module_default.base__enabled,
-        s,
-        i?.base,
-      ),
-      onClick: function (e) {
-        r || l.onClick?.(e);
-      },
-      children: [
-        (0, import_jsx_runtime.jsx)("div", {
-          className: clsx(button_module_default.background, i?.background),
-        }),
-        (0, import_jsx_runtime.jsx)("div", {
-          className: clsx(button_module_default.border, i?.border),
-        }),
-        (0, import_jsx_runtime.jsx)("div", {
-          className: clsx(button_module_default.overlay, i?.overlay),
-        }),
-        (0, import_jsx_runtime.jsx)("div", {
-          className: clsx(
-            button_module_default.content,
-            o && button_module_default.content__fontAligned,
-            i?.content,
-          ),
-          children: e,
-        }),
-      ],
-    });
-  });
-((Button.themes = themes), (Button.sizes = sizes$7));
-var require_classnames = __commonJSMin((e, t) => {
-    !(function () {
-      var e = {}.hasOwnProperty;
-      function n() {
-        for (var e = "", t = 0; t < arguments.length; t++) {
-          var n = arguments[t];
-          n && (e = a(e, r(n)));
-        }
-        return e;
-      }
-      function r(t) {
-        if ("string" == typeof t || "number" == typeof t) return t;
-        if ("object" != typeof t) return "";
-        if (Array.isArray(t)) return n.apply(null, t);
-        if (
-          t.toString !== Object.prototype.toString &&
-          !t.toString.toString().includes("[native code]")
-        )
-          return t.toString();
-        var r = "";
-        for (var o in t) e.call(t, o) && t[o] && (r = a(r, o));
-        return r;
-      }
-      function a(e, t) {
-        return t ? (e ? e + " " + t : e + t) : e;
-      }
-      void 0 !== t && t.exports
-        ? ((n.default = n), (t.exports = n))
-        : "function" == typeof define && "object" == typeof define.amd && define.amd
-          ? define("classnames", [], function () {
-              return n;
-            })
-          : (window.classNames = n);
-    })();
-  }),
-  import_classnames = __toESM(require_classnames()),
-  base$25 = "CloseButton_7488a1b8",
+  base$17 = "CloseButton_7488a1b8",
   base__medium = "CloseButton_base__medium_97d04067",
   base__small$2 = "CloseButton_base__small_c1b29bae",
   base__extraSmall = "CloseButton_base__extraSmall_f52764c1",
-  base__x96x96$1 = "CloseButton_base__x96x96_8157b84d",
+  base__x96x96 = "CloseButton_base__x96x96_8157b84d",
   base__x32x32 = "CloseButton_base__x32x32_6466ea31",
   close_button_module_default = {
-    base: base$25,
+    base: base$17,
     base__medium: base__medium,
     base__small: base__small$2,
     base__extraSmall: base__extraSmall,
-    base__x96x96: base__x96x96$1,
+    base__x96x96: base__x96x96,
     base__x32x32: base__x32x32,
   },
-  sizes$6 = { medium: "medium", small: "small", extraSmall: "extraSmall" },
+  sizes$3 = { medium: "medium", small: "small", extraSmall: "extraSmall" },
   upscaleImageSizes = {
-    [sizes$6.medium]: "x96x96",
-    [sizes$6.small]: sizes$6.medium,
-    [sizes$6.extraSmall]: "x32x32",
+    [sizes$3.medium]: "x96x96",
+    [sizes$3.small]: sizes$3.medium,
+    [sizes$3.extraSmall]: "x32x32",
   };
 function CloseButton({
-  size: e = sizes$6.medium,
+  size: e = sizes$3.medium,
   hoverSound: t = sounds$1.highlight,
   clickSound: n = sounds$1.click,
   className: r,
@@ -22132,7 +23406,7 @@ function CloseButton({
     },
   });
 }
-CloseButton.size = sizes$6;
+CloseButton.size = sizes$3;
 var RewardType$1 = (function (e) {
     return (
       (e.Items = "items"),
@@ -22487,10 +23761,10 @@ var RewardType$1 = (function (e) {
   base__s600x450$1 = "Reward_base__s600x450_e27f3852",
   base__s300x300 = "Reward_base__s300x300_b3d79936",
   base__s450x450 = "Reward_base__s450x450_8b0abaf7",
-  base$24 = "Reward_d65e1e12",
+  base$16 = "Reward_d65e1e12",
   base__dynamicBox = "Reward_base__dynamicBox_45d7782b",
   tooltipWrapper$1 = "Reward_tooltipWrapper_75b925a5",
-  icon$10 = "Reward_icon_e152f13b",
+  icon$4 = "Reward_icon_e152f13b",
   overlay$2 = "Reward_overlay_8cbe65c9",
   highlight$1 = "Reward_highlight_f1cd08e0",
   image__s24x24 = "Reward_image__s24x24_954b5cee",
@@ -22530,10 +23804,10 @@ var RewardType$1 = (function (e) {
     base__s600x450: base__s600x450$1,
     base__s300x300: base__s300x300,
     base__s450x450: base__s450x450,
-    base: base$24,
+    base: base$16,
     base__dynamicBox: base__dynamicBox,
     tooltipWrapper: tooltipWrapper$1,
-    icon: icon$10,
+    icon: icon$4,
     overlay: overlay$2,
     highlight: highlight$1,
     image__s24x24: image__s24x24,
@@ -22560,7 +23834,7 @@ var RewardType$1 = (function (e) {
     title: title$2,
     timer: timer$1,
   },
-  images$1 = resources.resolve("images"),
+  images = resources.resolve("images"),
   SIZE_MAP = new Map([
     [ImageSize$1.S24x24, ImageSize$1.Small],
     [ImageSize$1.S48x48, ImageSize$1.Small],
@@ -22618,7 +23892,7 @@ var RewardType$1 = (function (e) {
                       d?.highlight,
                     ),
                     style: {
-                      backgroundImage: `url(${images$1.readOrEmpty(`quests.bonuses.${m}.${_}_highlight`)})`,
+                      backgroundImage: `url(${images.readOrEmpty(`quests.bonuses.${m}.${_}_highlight`)})`,
                     },
                   }),
                 t &&
@@ -22636,7 +23910,7 @@ var RewardType$1 = (function (e) {
                       d?.overlay,
                     ),
                     style: {
-                      backgroundImage: `url(${images$1.readOrEmpty(`quests.bonuses.${m}.${h}_overlay`)})`,
+                      backgroundImage: `url(${images.readOrEmpty(`quests.bonuses.${m}.${h}_overlay`)})`,
                     },
                   }),
               ],
@@ -22666,319 +23940,7 @@ var RewardType$1 = (function (e) {
       ],
     });
   },
-  NodeTypes = { Text: 1, Tag: 2, Var: 3 };
-function parseArguments(e) {
-  const t = [];
-  let n = "",
-    r = !1,
-    a = !1,
-    o = "";
-  for (let i = 0; i < e.length; i++) {
-    const s = e[i];
-    ("'" !== s && '"' !== s) || a || r
-      ? s === o && a
-        ? ((a = !1), (n += s))
-        : "(" !== s || a
-          ? ")" === s && r && !a
-            ? ((r = !1), (n += s))
-            : " " !== s || r || a
-              ? (n += s)
-              : n && (t.push(n), (n = ""))
-          : ((r = !0), (n += s))
-      : ((a = !0), (o = s), (n += s));
-  }
-  return (n && t.push(n), t);
-}
-function parse(e, t) {
-  const n = [],
-    r = [];
-  let a = "",
-    o = !1,
-    i = "",
-    s = 0;
-  for (let l = 0; l < e.length; l++) {
-    const u = e[l];
-    if (u === t.start[0] && e.slice(l, l + t.start.length) === t.start)
-      (a &&
-        (r.length > 0
-          ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
-          : n.push({ type: NodeTypes.Text, value: a }),
-        (a = "")),
-        (o = !0),
-        (l += t.start.length - 1));
-    else if (u === t.end[0] && e.slice(l, l + t.end.length) === t.end) {
-      ((o = !1), (l += t.end.length - 1));
-      const e = i.trim();
-      if (e.startsWith("@")) {
-        const t = e.slice(1).trim(),
-          a = { type: NodeTypes.Tag, attrs: t.split("|"), instanceId: ++s, children: [] };
-        (r.length > 0 ? r[r.length - 1].node.children.push(a) : n.push(a),
-          r.push({ node: a, startIndex: n.length }));
-      } else if ("/" === e) r.length > 0 && r.pop();
-      else {
-        const t = { type: NodeTypes.Var, instanceId: ++s, name: e };
-        r.length > 0 ? r[r.length - 1].node.children.push(t) : n.push(t);
-      }
-      i = "";
-    } else o ? (i += u) : (a += u);
-  }
-  return (
-    a &&
-      (r.length
-        ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
-        : n.push({ type: NodeTypes.Text, value: a })),
-    n
-  );
-}
-var COLORS =
-    "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
-  base$23 = "FormatText_db904f12",
-  base__fullSize = "FormatText_base__fullSize_a514958e",
-  nowrap = "FormatText_nowrap_ff69eca3",
-  format_text_module_default = {
-    COLORS: COLORS,
-    base: base$23,
-    base__fullSize: base__fullSize,
-    nowrap: nowrap,
-  },
-  legacyColors = new Set(format_text_module_default.COLORS?.split(", ") ?? []),
-  keyId = 0;
-function takeKey() {
-  return ++keyId;
-}
-var startsWithPunctuationRe =
-  /^[*"'ー.,、。，:;：；！？》」•%)(!?\u0EAF\u0E3B\u0E3F\u0E31\u0E32\u0E33\u0E47-\u0E4F\u0E5A-\u0E5F\u0E00-\u0E7F\u3000-\u303F\uFF00-\uFFEF\]]/u;
-function splitString(e) {
-  const t = resources.resolve("langCode");
-  return addSpaceAndMap(
-    splitLocale(e, t),
-    t,
-    (e, t) => e && (0, import_jsx_runtime.jsx)("span", { children: e }, `${e}${t}`),
-  );
-}
-function splitArray(e) {
-  const t = [];
-  for (let n = 0; n < e.length; n++) {
-    const r = e[n],
-      a = e[n + 1];
-    if ("string" != typeof a || !startsWithPunctuationRe.test(a)) {
-      t.push(split(r));
-      continue;
-    }
-    const o = splitString(a.slice(1));
-    (t.push(
-      (0, import_jsx_runtime.jsxs)(
-        import_react.Fragment,
-        {
-          children: [
-            (0, import_jsx_runtime.jsxs)("span", {
-              className: format_text_module_default.nowrap,
-              children: [split(r), a[0]],
-            }),
-            o,
-          ],
-        },
-        takeKey(),
-      ),
-    ),
-      (n += 1));
-  }
-  return t;
-}
-function split(e) {
-  return Array.isArray(e)
-    ? splitArray(e)
-    : "string" == typeof e
-      ? (0, import_jsx_runtime.jsx)(import_react.Fragment, { children: splitString(e) }, takeKey())
-      : e;
-}
-function style(e, ...t) {
-  return (0, import_jsx_runtime.jsx)(
-    "span",
-    {
-      style: t.reduce((n, r) => {
-        if (Array.isArray(r)) {
-          const [e, t] = r;
-          return ((n[e] = t), n);
-        }
-        return (console.warn(`Invalid argument ${r} in ${e}: ${t}`), n);
-      }, {}),
-      children: e,
-    },
-    takeKey(),
-  );
-}
-function className(e, ...t) {
-  return (0, import_jsx_runtime.jsx)(
-    "span",
-    { className: t.filter((e) => "string" == typeof e && e.length > 0).join(" "), children: e },
-    takeKey(),
-  );
-}
-var color = (e, t) => ["color", t],
-  fontSize = (e, t) => ["fontSize", t],
-  fontWeight = (e, t) => ["fontWeight", t],
-  textDecoration = (e, t) => ["textDecoration", t],
-  bold = (e) => ["fontWeight", "bold"];
-function colorLegacy(e, t) {
-  const n = takeKey();
-  return legacyColors.has(String(t))
-    ? (0, import_jsx_runtime.jsx)(
-        "span",
-        { className: `FormatText_colorLegacy__${t}`, children: e },
-        n,
-      )
-    : (0, import_jsx_runtime.jsx)("span", { style: { color: `#${t}` }, children: e }, n);
-}
-var defaultFormatters = {
-  class: className,
-  colorLegacy: colorLegacy,
-  bold: bold,
-  split: split,
-  style: style,
-  color: color,
-  fontSize: fontSize,
-  fontWeight: fontWeight,
-  textDecoration: textDecoration,
-};
-function applyFunction(e, t, n, r) {
-  const a = n.map((t) => {
-      if ("string" != typeof t) return t;
-      const n = t.trim();
-      if (n.startsWith("(") && n.endsWith(")")) {
-        const [t, ...a] = n.slice(1, -1).split(" ");
-        return t ? applyFunction(e, t, a, r) : e;
-      }
-      return n.startsWith("'") && n.endsWith("'") ? n.slice(1, -1) : n;
-    }),
-    o = r[t];
-  return o ? o(e, ...a) : (console.error(`Function ${t} is not registered`), e);
-}
-function applyFunctions(e, t, n) {
-  return e.reduce((e, t) => {
-    const [r, ...a] = parseArguments(t.trim());
-    return r ? applyFunction(e, r, a, n) : e;
-  }, t);
-}
-function isEnd(e) {
-  return !((e >= "a" && e <= "z") || (e >= "A" && e <= "Z") || (e >= "0" && e <= "9") || "_" === e);
-}
-function resolveAttrParams(e, t) {
-  for (let n = 0; n < e.length; n++)
-    if ("$" === e[n]) {
-      let r = n + 1;
-      for (; r < e.length && !isEnd(e[r]);) r++;
-      const a = e.slice(n + 1, r),
-        o = t[a];
-      if (o) return resolveAttrParams(e.replace(`$${a}`, String(o)), t);
-    }
-  return e;
-}
-function resolveAttrsParams(e, t) {
-  const n = [];
-  for (let r = 0; r < e.length; r++) n[r] = resolveAttrParams(e[r], t);
-  return n;
-}
-var primitives = ["number", "string", "undefined"];
-function render(e, t, n = {}, r = !0) {
-  r && (keyId = 0);
-  const a = [];
-  function o(e) {
-    if (primitives.includes(typeof e)) {
-      const t = a.at(-1);
-      if ("string" == typeof t) return void (a[a.length - 1] = t + e);
-    }
-    a.push(e);
-  }
-  for (const i of e)
-    if (i.type === NodeTypes.Text) o(i.value);
-    else if (i.type === NodeTypes.Var)
-      null === n[i.name] || primitives.includes(typeof n[i.name])
-        ? o(n[i.name] ?? `{{${i.name}}}`)
-        : a.push(
-            (0, import_jsx_runtime.jsx)(
-              import_react.Fragment,
-              { children: n[i.name] },
-              `var-${i.name}-${i.instanceId}`,
-            ),
-          );
-    else if (i.type === NodeTypes.Tag) {
-      const e = render(i.children, t, n, !1),
-        r = applyFunctions(resolveAttrsParams(i.attrs, n), e, t);
-      a.push(r);
-    }
-  return a;
-}
-function upgradeColorTag(e) {
-  return e
-    .replace(
-      /%\(([a-zA-Z0-9]+)_(Open|Start)\)s(.+?)%\(\1_(Close|End)\)s/,
-      "{{@ colorLegacy '$1'}}$3{{/}}",
-    )
-    .replace(
-      /\{([a-zA-Z0-9]+)_(Open|Start)\}(.+?)\{\1_(Close|End)\}/gi,
-      "{{@ colorLegacy '$1'}}$3{{/}}",
-    );
-}
-function upgradeVariables(e) {
-  return e.replace(/%\((\w+|\d)\)(?:s|d)?/gi, "{{$1}}").replace(/(?<!\{)\{(\w+|\d)\}/g, "{{$1}}");
-}
-function upgradeSymbols(e) {
-  return e.replaceAll("&nbsp;", " ").replaceAll("&zwnbsp;", "\ufeff");
-}
-function upgradeLegacy(e) {
-  return pipe(e, upgradeSymbols, upgradeColorTag, upgradeVariables);
-}
-var defaultBrackets = { start: "{{", end: "}}" },
-  FormatText = (0, import_react.memo)(function (e) {
-    const {
-        brackets: t = defaultBrackets,
-        text: n,
-        params: r,
-        upgradeLegacy: a,
-        fullSize: o,
-        inline: i,
-        formatters: s,
-        split: l,
-        ...u
-      } = e,
-      c = (0, import_react.useMemo)(
-        () => (e.upgradeLegacy ? upgradeLegacy(e.text) : e.text),
-        [e.text, e.upgradeLegacy],
-      ),
-      d = (0, import_react.useMemo)(
-        () => (e.formatters ? { ...defaultFormatters, ...e.formatters } : defaultFormatters),
-        [e.formatters],
-      ),
-      f = (0, import_react.useMemo)(() => parse(l ? `{{@ split}}${c}{{/}}` : c, t), [t, c, l]),
-      p = (0, import_react.useMemo)(() => render(f, d, e.params), [f, d, e.params]),
-      m = clsx(
-        format_text_module_default.base,
-        o && format_text_module_default.base__fullSize,
-        u.className,
-      );
-    return e.inline
-      ? (console.warn(
-          "[FormatText] using the 'inline' props causes memory leaks due to incorrect working of the 'cohinline' attribute in GF version 1.48.2.3. Can cause client crashes.",
-          "Use 'split' prop instead.",
-        ),
-        (0, import_jsx_runtime.jsx)("p", {
-          ...u,
-          className: m,
-          ref: (e) => {
-            e?.setAttribute("cohinline", "true");
-          },
-          children: p,
-        }))
-      : (0, import_jsx_runtime.jsx)("span", { ...u, className: m, children: p });
-  });
-function FormatString({ path: e, ...t }) {
-  return (0, import_jsx_runtime.jsx)(FormatText, {
-    text: resources.resolve("strings").readOrEmpty(e),
-    ...t,
-  });
-}
-var formatters = Object.fromEntries(Object.entries(defaultFormatters).map(([e]) => [e, (e) => e]));
+  formatters = Object.fromEntries(Object.entries(defaultFormatters).map(([e]) => [e, (e) => e]));
 function renderString(e, t = {}) {
   const n = parse(e, defaultBrackets);
   return String(render(n, formatters, t));
@@ -22987,13 +23949,13 @@ function renderResolvedString(e, t = {}) {
   const n = resources.resolve("strings").readOrEmpty(e);
   return 0 === n.length ? n : renderString(n, t);
 }
-var base$22 = "RewardsList_b956755b",
+var base$15 = "RewardsList_b956755b",
   base__vertical$1 = "RewardsList_base__vertical_59db3c9f",
   reward = "RewardsList_reward_fc200613",
   reward__vertical = "RewardsList_reward__vertical_5f09c6e0",
   boxRewardClassName = "RewardsList_boxRewardClassName_882c908d",
   rewards_list_module_default = {
-    base: base$22,
+    base: base$15,
     base__vertical: base__vertical$1,
     reward: reward,
     reward__vertical: reward__vertical,
@@ -23098,970 +24060,8 @@ var base$22 = "RewardsList_b956755b",
               ),
             ),
     });
-  });
-function makeEngineEvent(e) {
-  return (t) => (
-    engine.on(e, t),
-    () => {
-      engine.off(e, t);
-    }
-  );
-}
-function setTrackMouseOutside(e) {
-  viewEnv.setTrackMouseOnStage(e);
-}
-var events_exports = __exportAll({
-    mouse: () => mouse,
-    off: () => off,
-    on: () => on,
-    onMinimize: () => onMinimize,
-    onResize: () => onResize,
-    onScaleUpdated: () => onScaleUpdated,
   }),
-  onResize = makeEngineEvent("clientResized"),
-  onScaleUpdated = makeEngineEvent("self.onScaleUpdated"),
-  onMinimize = makeEngineEvent("clientMinimized"),
-  on = (e, t) => engine.on(e, t),
-  off = (e, t) => engine.off(e, t),
-  internalMouse = {
-    down: makeEngineEvent("mousedown"),
-    up: makeEngineEvent("mouseup"),
-    move: makeEngineEvent("mousemove"),
-  };
-function initMouseEvents() {
-  const e = { listeners: 0, enabled: !0, initialized: !1 };
-  function t() {
-    e.enabled && setTrackMouseOutside(!1);
-  }
-  function n() {
-    e.enabled && setTrackMouseOutside(!0);
-  }
-  function r() {
-    e.enabled
-      ? e.listeners < 1
-        ? ((e.initialized = !1),
-          document.body.removeEventListener("mouseenter", t),
-          document.body.removeEventListener("mouseleave", n))
-        : e.initialized ||
-          ((e.initialized = !0),
-          document.body.addEventListener("mouseenter", t),
-          document.body.addEventListener("mouseleave", n))
-      : setTrackMouseOutside(!1);
-  }
-  return {
-    ...["down", "up", "move"].reduce(
-      (t, n) => (
-        (t[n] = (function (t) {
-          return (n) => {
-            e.listeners += 1;
-            let a = !0;
-            const o = `mouse${t}`,
-              i = internalMouse[t]((e) => n([e, "outside"]));
-            function s(e) {
-              n([e, "inside"]);
-            }
-            return (
-              window.addEventListener(o, s),
-              r(),
-              () => {
-                a && (i(), window.removeEventListener(o, s), (e.listeners -= 1), r(), (a = !1));
-              }
-            );
-          };
-        })(n)),
-        t
-      ),
-      {},
-    ),
-    disable() {
-      ((e.enabled = !1), r());
-    },
-    enable() {
-      ((e.enabled = !0), r());
-    },
-    enableOutside() {
-      e.enabled && setTrackMouseOutside(!0);
-    },
-    disableOutside() {
-      e.enabled && setTrackMouseOutside(!1);
-    },
-  };
-}
-var mouse = initMouseEvents();
-function playSound(e) {
-  engine.call("PlaySound", e).catch((t) => {
-    console.error(`playSound('${e}'): `, t);
-  });
-}
-function setRTPC(e, t) {
-  engine.call("SetRTPCGlobal", e, t).catch((n) => {
-    console.error(`setRTPC('${e}', '${t}'): `, n);
-  });
-}
-var client_exports = __exportAll({
-  events: () => events_exports,
-  getMouseGlobalPosition: () => getMouseGlobalPosition,
-  getSize: () => getSize$1,
-  graphicsQuality: () => graphicsQuality,
-  playSound: () => playSound,
-  setRTPC: () => setRTPC,
-});
-function getSize$1(e = "px") {
-  return "rem" === e ? viewEnv.getClientSizeRem() : viewEnv.getClientSizePx();
-}
-function getMouseGlobalPosition(e = "px") {
-  return "rem" === e ? viewEnv.getMouseGlobalPositionRem() : viewEnv.getMouseGlobalPositionPx();
-}
-var graphicsQuality = {
-    isLow: () => 1 === viewEnv.getGraphicsQuality(),
-    isHigh: () => 0 === viewEnv.getGraphicsQuality(),
-    get: () => viewEnv.getGraphicsQuality(),
-  },
-  intl$1 = {
-    toUpperCase: (e) => window.systemLocale.toUpperCase(e),
-    toLowerCase: (e) => window.systemLocale.toLowerCase(e),
-  },
-  sounds = { highlight: "highlight", click: "play", yes1: "yes1" },
-  plays = Object.keys(sounds).reduce((e, t) => ((e[t] = () => playSound(sounds[t])), e), {}),
-  play = { ...plays, sound: playSound },
-  sound_default = { play: play, setRTPC: setRTPC },
-  ROMAN = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
-  ARABIC = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
-function arabic2roman$1(e) {
-  let t = "";
-  for (let n = ARABIC.length - 1; n >= 0; n--)
-    for (; e >= ARABIC[n];) ((t += ROMAN[n]), (e -= ARABIC[n]));
-  return t;
-}
-var ROMAN_FORBIDDEN_LANGUAGE_CODES = ["ko", "no"],
-  IS_ROMAN_FORBIDDEN = ROMAN_FORBIDDEN_LANGUAGE_CODES.includes(R.strings.settings.LANGUAGE_CODE()),
-  children_exports = __exportAll({ getBgUrl: () => getBgUrl, getTextureUrl: () => getTextureUrl });
-function getTextureUrl(e, t, n = 1) {
-  return viewEnv.getChildTexturePath(e, t.width, t.height, n);
-}
-function getBgUrl(e, t, n) {
-  return `url(${getTextureUrl(e, t, n)})`;
-}
-var displayStatus = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
-  events = {
-    onTextureFrozen: makeEngineEvent("self.onTextureFrozen"),
-    onTextureReady: makeEngineEvent("self.onTextureReady"),
-    onDomBuilt: makeEngineEvent("self.onDomBuilt"),
-    onLoaded: makeEngineEvent("self.onLoaded"),
-    onDisplayChanged: makeEngineEvent("self.onShowingStatusChanged"),
-    onFocusUpdated: makeEngineEvent("self.onFocusChanged"),
-    children: {
-      onAdded: makeEngineEvent("children.onAdded"),
-      onLoaded: makeEngineEvent("children.onLoaded"),
-      onRemoved: makeEngineEvent("children.onRemoved"),
-      onAttached: makeEngineEvent("children.onAttached"),
-      onTextureReady: makeEngineEvent("children.onTextureReady"),
-      onRequestPosition: makeEngineEvent("children.requestPosition"),
-    },
-  },
-  viewEventTypes = { closePopover: 2, move: 16, close: 32, minimize: 64 },
-  createViewEventArguments$1 = (e) =>
-    Object.entries(e).map(([e, t]) => {
-      const n = "GFValueProxy";
-      switch (typeof t) {
-        case "number":
-          return { __Type: n, name: e, number: t };
-        case "boolean":
-          return { __Type: n, name: e, bool: t };
-        default:
-          return { __Type: n, name: e, string: t.toString() };
-      }
-    }),
-  sendViewEvent = (e, t) => {
-    const n = "GFViewEventProxy";
-    if (void 0 !== t) {
-      const { args: r, ...a } = t;
-      return void 0 !== r
-        ? viewEnv.handleViewEvent({
-            __Type: n,
-            type: e,
-            ...a,
-            arguments: createViewEventArguments$1(r),
-          })
-        : viewEnv.handleViewEvent({ __Type: n, type: e, ...a });
-    }
-    return viewEnv.handleViewEvent({ __Type: n, type: e });
-  },
-  sendEvent = {
-    close(e) {
-      sendViewEvent("popover" === e ? viewEventTypes.closePopover : viewEventTypes.close);
-    },
-    minimize() {
-      sendViewEvent(viewEventTypes.minimize);
-    },
-    move(e) {
-      sendViewEvent(viewEventTypes.move, { isMouseEvent: !0, on: e });
-    },
-  },
-  view_exports = __exportAll({
-    addModelObserver: () => addModelObserver,
-    addPreloadTexture: () => addPreloadTexture,
-    arabic2roman: () => arabic2roman,
-    children: () => children_exports,
-    displayStatus: () => displayStatus,
-    displayStatusIs: () => displayStatusIs,
-    enableFullScreenModeSupported: () => enableFullScreenModeSupported,
-    events: () => events,
-    extraSize: () => extraSize,
-    forceTriggerMouseMove: () => forceTriggerMouseMove,
-    freezeTextureBeforeResize: () => freezeTextureBeforeResize,
-    getBrowserTexturePath: () => getBrowserTexturePath,
-    getDisplayStatus: () => getDisplayStatus,
-    getExternalPaddingsRem: () => getExternalPaddingsRem,
-    getFontNames: () => getFontNames,
-    getScale: () => getScale,
-    getSize: () => getSize,
-    getViewGlobalPosition: () => getViewGlobalPosition,
-    initExternalPaddings: () => initExternalPaddings,
-    isEventHandled: () => isEventHandled,
-    isFocused: () => isFocused,
-    pxToRem: () => pxToRem,
-    remToPx: () => remToPx,
-    resize: () => resize,
-    sendEvent: () => sendEvent,
-    setAnimateWindow: () => setAnimateWindow,
-    setEventHandled: () => setEventHandled,
-    setInputPaddingsRem: () => setInputPaddingsRem,
-    setSidePaddingsRem: () => setSidePaddingsRem,
-    whenTutorialReady: () => whenTutorialReady,
-  }),
-  ALL_SIDES = 15;
-function addPreloadTexture(e) {
-  viewEnv.addPreloadTexture(e);
-}
-function setInputPaddingsRem(e) {
-  viewEnv.setHitAreaPaddingsRem(e, e, e, e, ALL_SIDES);
-}
-function getBrowserTexturePath(e, t, n, r = 1) {
-  return viewEnv.getWebBrowserTexturePath(e, t, n, r);
-}
-function addModelObserver(e, t, n) {
-  return viewEnv.addDataChangedCallback(e, t, n);
-}
-function setSidePaddingsRem(e) {
-  viewEnv.setHitAreaPaddingsRem(e.top, e.right, e.bottom, e.left, ALL_SIDES);
-}
-function getSize(e = "px") {
-  return "rem" === e ? viewEnv.getViewSizeRem() : viewEnv.getViewSizePx();
-}
-function resize(e, t, n = "px") {
-  return "rem" === n ? viewEnv.resizeViewRem(e, t) : viewEnv.resizeViewPx(e, t);
-}
-function getViewGlobalPosition(e = "rem") {
-  const t = viewEnv.getViewGlobalPositionRem();
-  return "rem" === e ? t : { x: remToPx(t.x), y: remToPx(t.y) };
-}
-function freezeTextureBeforeResize() {
-  viewEnv.freezeTextureBeforeResize();
-}
-function getScale() {
-  return viewEnv.getScale();
-}
-function pxToRem(e) {
-  return viewEnv.pxToRem(e);
-}
-function remToPx(e) {
-  return viewEnv.remToPx(e);
-}
-function setAnimateWindow(e, t) {
-  viewEnv.setAnimateWindow(e, t);
-}
-function isFocused() {
-  return viewEnv.isFocused();
-}
-function setEventHandled() {
-  return viewEnv.setEventHandled();
-}
-function isEventHandled() {
-  return viewEnv.isEventHandled();
-}
-function forceTriggerMouseMove() {
-  viewEnv.forceTriggerMouseMove();
-}
-function getDisplayStatus() {
-  return viewEnv.getShowingStatus();
-}
-var getFontNames = (() => {
-    let e = [];
-    return () => (0 === e.length && (e = Object.keys(viewEnv.getFontsConfig())), e);
-  })(),
-  arabic2roman = arabic2roman$1;
-function getExternalPaddingsRem() {
-  return viewEnv.getExternalPaddingsRem();
-}
-var displayStatusIs = Object.keys(displayStatus).reduce(
-    (e, t) => ((e[t] = () => viewEnv.getShowingStatus() === displayStatus[t]), e),
-    {},
-  ),
-  extraSize = {
-    set: (e, t) => {
-      viewEnv.setExtraSizeRem(e, t);
-    },
-    get: (e, t) => {
-      viewEnv.getExtraSizeRem(e, t);
-    },
-  },
-  whenTutorialReady = Promise.all([
-    new Promise((e) => {
-      window.isDomBuilt ? e() : events.onDomBuilt(e);
-    }),
-    engine.whenReady,
-  ]);
-function enableFullScreenModeSupported() {
-  viewEnv.setFullscreenModeSupported(!0);
-}
-function initExternalPaddings(e) {
-  function t() {
-    const { top: t, right: n, bottom: r, left: a } = viewEnv.getExternalPaddingsRem();
-    (e.style.setProperty("--external-padding-top", `${t}rem`),
-      e.style.setProperty("--external-padding-right", `${n}rem`),
-      e.style.setProperty("--external-padding-bottom", `${r}rem`),
-      e.style.setProperty("--external-padding-left", `${a}rem`));
-  }
-  (t(), engine.on("self.onPaddingsUpdated", () => t()));
-}
-var env = { view: view_exports, client: client_exports, sound: sound_default, intl: intl$1 },
-  base$21 = "Textbutton_b1283086",
-  base__right$1 = "Textbutton_base__right_78d4c03f",
-  icon$9 = "Textbutton_icon_9ba4c60",
-  icon__back = "Textbutton_icon__back_599b35e4",
-  icon__forward = "Textbutton_icon__forward_4ef35d4d",
-  icon__close = "Textbutton_icon__close_b2af8bd5",
-  icon__info = "Textbutton_icon__info_6cbc7293",
-  glow$1 = "Textbutton_glow_1ddc70ba",
-  caption = "Textbutton_caption_4350685c",
-  caption__back = "Textbutton_caption__back_599b35e4",
-  caption__forward = "Textbutton_caption__forward_599b35e4",
-  caption__close = "Textbutton_caption__close_c29bdb5",
-  caption__info = "Textbutton_caption__info_ccd96b67",
-  goto = "Textbutton_goto_d2c81cbd",
-  base__left$1 = "Textbutton_base__left_599b35e4",
-  shine = "Textbutton_shine_527e4656",
-  TextButton_module_default = {
-    base: base$21,
-    base__right: base__right$1,
-    icon: icon$9,
-    icon__back: icon__back,
-    icon__forward: icon__forward,
-    icon__close: icon__close,
-    icon__info: icon__info,
-    glow: glow$1,
-    caption: caption,
-    caption__back: caption__back,
-    caption__forward: caption__forward,
-    caption__close: caption__close,
-    caption__info: caption__info,
-    goto: goto,
-    base__left: base__left$1,
-    shine: shine,
-  },
-  TextButton = ({
-    caption: e,
-    onClick: t,
-    goto: n,
-    classNames: r,
-    onMouseEnter: a,
-    onMouseLeave: o,
-    onMouseDown: i,
-    onMouseUp: s,
-    side: l = "left",
-    type: u = "back",
-    soundHover: c = "highlight",
-    soundClick: d = "play",
-    ...f
-  }) => {
-    const p = (0, import_react.useCallback)(
-        (e) => {
-          (a?.(e), env.sound.play.sound(c));
-        },
-        [a, c],
-      ),
-      m = (0, import_react.useCallback)(
-        (e) => {
-          o?.(e);
-        },
-        [o],
-      ),
-      _ = (0, import_react.useCallback)(
-        (e) => {
-          (i?.(e), env.sound.play.sound(d));
-        },
-        [i, d],
-      ),
-      h = (0, import_react.useCallback)(
-        (e) => {
-          s?.(e);
-        },
-        [s],
-      );
-    return (0, import_jsx_runtime.jsxs)("div", {
-      className: (0, import_classnames.default)(
-        TextButton_module_default.base,
-        TextButton_module_default[`base__${u}`],
-        TextButton_module_default[`base__${l}`],
-        r?.base,
-      ),
-      onMouseEnter: p,
-      onMouseLeave: m,
-      onMouseDown: _,
-      onMouseUp: h,
-      onClick: t,
-      ...f,
-      children: [
-        "info" !== u &&
-          (0, import_jsx_runtime.jsx)("div", { className: TextButton_module_default.shine }),
-        (0, import_jsx_runtime.jsx)("div", {
-          className: (0, import_classnames.default)(
-            TextButton_module_default.icon,
-            TextButton_module_default[`icon__${u}`],
-            TextButton_module_default[`icon__${l}`],
-            r?.icon,
-          ),
-          children: (0, import_jsx_runtime.jsx)("div", {
-            className: (0, import_classnames.default)(TextButton_module_default.glow, r?.glow),
-          }),
-        }),
-        (0, import_jsx_runtime.jsx)("div", {
-          className: (0, import_classnames.default)(
-            TextButton_module_default.caption,
-            TextButton_module_default[`caption__${u}`],
-            r?.caption,
-          ),
-          children: e,
-        }),
-        n &&
-          (0, import_jsx_runtime.jsx)("div", {
-            className: (0, import_classnames.default)(TextButton_module_default.goto, r?.goto),
-            children: n,
-          }),
-      ],
-    });
-  },
-  undef = () => {};
-function withResolvePath(e) {
-  const t = e;
-  return (0, import_react.forwardRef)(function (e, n) {
-    const r = useAdaptive(e, e.adaptive),
-      { path: a, ...o } = r,
-      i = r.images ?? resources.resolve("images"),
-      s = { ...o, ref: n };
-    {
-      const e = a ? i.readOr(a, undef, "warn") : void 0;
-      return e
-        ? (0, import_jsx_runtime.jsx)(t, { ...s, src: e })
-        : (0, import_jsx_runtime.jsx)(t, { ...s, unknown: !0 });
-    }
-  });
-}
-var defaultUnknownStyle = {
-    background:
-      "linear-gradient(45deg, #ccc 25%, transparent 25%),\nlinear-gradient(-45deg, #ccc 25%, transparent 25%),\nlinear-gradient(45deg, transparent 75%, #ccc 75%),\nlinear-gradient(-45deg, transparent 75%, #ccc 75%)",
-    backgroundSize: "20rem 20rem",
-    backgroundPosition: "0 0, 0 10rem, 10rem -10rem, -10rem 0rem",
-    backgroundColor: "#000",
-  },
-  ResourceImage = (0, import_react.forwardRef)(function (e, t) {
-    if (!e.src) {
-      const {
-        repeat: n,
-        fit: r,
-        position: a,
-        width: o,
-        src: i,
-        height: s,
-        unselectable: l,
-        unknownStyle: u = defaultUnknownStyle,
-        ...c
-      } = e;
-      return (0, import_jsx_runtime.jsx)("div", {
-        ...c,
-        ref: t,
-        style: { width: e.width, height: e.height, ...u, ...e.style },
-      });
-    }
-    const {
-      repeat: n,
-      fit: r,
-      position: a,
-      width: o,
-      height: i,
-      unknownStyle: s,
-      unselectable: l,
-      ...u
-    } = e;
-    return (0, import_jsx_runtime.jsx)("div", {
-      ...u,
-      ref: t,
-      style: {
-        backgroundImage: `url(${e.src})`,
-        backgroundRepeat: n ?? "no-repeat",
-        backgroundSize: r ?? "contain",
-        backgroundPosition: a ?? "center center",
-        width: "number" == typeof o ? `${o}rem` : o,
-        height: "number" == typeof i ? `${i}rem` : i,
-        ...u.style,
-      },
-    });
-  }),
-  Image$1 = withResolvePath(
-    (0, import_react.forwardRef)(function (e, t) {
-      if (e.unknown) {
-        const {
-          repeat: n,
-          fit: r,
-          position: a,
-          width: o,
-          src: i,
-          height: s,
-          unselectable: l,
-          unknown: u,
-          unknownStyle: c = defaultUnknownStyle,
-          ...d
-        } = e;
-        return (0, import_jsx_runtime.jsx)("div", {
-          ...d,
-          ref: t,
-          style: { width: e.width, height: e.height, ...c, ...e.style },
-        });
-      }
-      const {
-        repeat: n,
-        fit: r,
-        position: a,
-        width: o,
-        height: i,
-        unknownStyle: s,
-        unknown: l,
-        unselectable: u,
-        ...c
-      } = e;
-      return (0, import_jsx_runtime.jsx)("div", {
-        ...c,
-        ref: t,
-        style: {
-          backgroundImage: `url(${e.src})`,
-          backgroundRepeat: n ?? "no-repeat",
-          backgroundSize: r ?? "contain",
-          backgroundPosition: a ?? "center center",
-          width: "number" == typeof o ? `${o}rem` : o,
-          height: "number" == typeof i ? `${i}rem` : i,
-          ...c.style,
-        },
-      });
-    }),
-  ),
-  Img = withResolvePath(
-    (0, import_react.forwardRef)(function (e, t) {
-      const {
-        width: n,
-        height: r,
-        src: a,
-        unselectable: o,
-        unknown: i,
-        unknownStyle: s = defaultUnknownStyle,
-        ...l
-      } = e;
-      return e.unknown
-        ? (0, import_jsx_runtime.jsx)("div", {
-            ...l,
-            style: { width: e.width, height: e.height, ...s },
-          })
-        : (0, import_jsx_runtime.jsx)("img", { ...l, ref: t, src: a, width: n, height: r });
-    }),
-  ),
-  grades = {
-    iron: "iron",
-    bronze: "bronze",
-    silver: "silver",
-    gold: "gold",
-    enamel: "enamel",
-    prestige: "prestige",
-  },
-  sizes$5 = { xs: "xs", sm: "sm", md: "md", mdLg: "mdLg", lg: "lg", xl: "xl", xxl: "xxl" },
-  sizesEmblems = {
-    xs: "48x48",
-    sm: "72x72",
-    md: "115x84",
-    mdLg: "143x104",
-    lg: "170x124",
-    xl: "400x300",
-    xxl: "600x450",
-  },
-  sizesFonts = {
-    xs: "6x12",
-    sm: "9x19",
-    md: "16x33",
-    mdLg: "20x41",
-    lg: "23x48",
-    xl: "53x120",
-    xxl: "77x176",
-  };
-function icon$8(e, t, n) {
-  return t === grades.prestige ? `.c_${sizesEmblems[n]}.${t}` : `.c_${sizesEmblems[n]}.${t}.c_${e}`;
-}
-var icon$7 = "VehiclePrestigeEmblem_icon_940474a9",
-  base__xs = "VehiclePrestigeEmblem_base__xs_678b197f",
-  base__sm = "VehiclePrestigeEmblem_base__sm_f0368fa3",
-  base__md = "VehiclePrestigeEmblem_base__md_63f722e6",
-  base__mdLg = "VehiclePrestigeEmblem_base__mdLg_bb48be4b",
-  base__lg = "VehiclePrestigeEmblem_base__lg_69373327",
-  base__xl = "VehiclePrestigeEmblem_base__xl_3144948a",
-  base__xxl = "VehiclePrestigeEmblem_base__xxl_fec732e8",
-  base$20 = "VehiclePrestigeEmblem_24849b0a",
-  level$1 = "VehiclePrestigeEmblem_level_8cc4a042",
-  levelIcon__xs = "VehiclePrestigeEmblem_levelIcon__xs_d11b6645",
-  levelIcon__sm = "VehiclePrestigeEmblem_levelIcon__sm_900b8c7f",
-  levelIcon__md = "VehiclePrestigeEmblem_levelIcon__md_914fcef3",
-  levelIcon__mdLg = "VehiclePrestigeEmblem_levelIcon__mdLg_cf5f7370",
-  levelIcon__lg = "VehiclePrestigeEmblem_levelIcon__lg_2fd402cc",
-  levelIcon__xl = "VehiclePrestigeEmblem_levelIcon__xl_8c7e5b4d",
-  levelIcon__xxl = "VehiclePrestigeEmblem_levelIcon__xxl_f852cb4e",
-  vehicle_prestige_emblem_module_default = {
-    icon: icon$7,
-    base__xs: base__xs,
-    base__sm: base__sm,
-    base__md: base__md,
-    base__mdLg: base__mdLg,
-    base__lg: base__lg,
-    base__xl: base__xl,
-    base__xxl: base__xxl,
-    base: base$20,
-    level: level$1,
-    levelIcon__xs: levelIcon__xs,
-    levelIcon__sm: levelIcon__sm,
-    levelIcon__md: levelIcon__md,
-    levelIcon__mdLg: levelIcon__mdLg,
-    levelIcon__lg: levelIcon__lg,
-    levelIcon__xl: levelIcon__xl,
-    levelIcon__xxl: levelIcon__xxl,
-  };
-function Level({ level: e, type: t, size: n, classNames: r, ...a }) {
-  const o = e.toString().split("");
-  return (0, import_jsx_runtime.jsx)("div", {
-    ...a,
-    className: vehicle_prestige_emblem_module_default.level,
-    children: o.map((e, a) =>
-      (0, import_jsx_runtime.jsx)(
-        Image$1,
-        {
-          className: clsx(
-            vehicle_prestige_emblem_module_default.levelIcon,
-            vehicle_prestige_emblem_module_default[`levelIcon__${n}`],
-            r?.levelIcon,
-          ),
-          path: `prestige.emblemFont.c_${sizesFonts[n]}.${t === grades.enamel ? grades.gold : t}.c_${e}`,
-        },
-        a,
-      ),
-    ),
-  });
-}
-var PrestigeEmblem = (0, import_react.forwardRef)(function (
-  { level: e, grade: t, type: n, size: r, classNames: a, ...o },
-  i,
-) {
-  return e < 1
-    ? null
-    : (0, import_jsx_runtime.jsxs)("div", {
-        ...o,
-        ref: i,
-        className: clsx(
-          vehicle_prestige_emblem_module_default.base,
-          vehicle_prestige_emblem_module_default[`base__${r}`],
-          a?.base,
-        ),
-        children: [
-          (0, import_jsx_runtime.jsx)(Image$1, {
-            path: `prestige.emblem${icon$8(t, n, r)}`,
-            className: clsx(vehicle_prestige_emblem_module_default.icon, a?.icon),
-          }),
-          n !== grades.prestige &&
-            (0, import_jsx_runtime.jsx)(Level, {
-              level: e,
-              type: n,
-              size: r,
-              classNames: { levelIcon: a?.level },
-            }),
-        ],
-      });
-});
-PrestigeEmblem.sizes = sizes$5;
-var LIGHT_TANK = "lightTank",
-  MEDIUM_TANK = "mediumTank",
-  HEAVY_TANK = "heavyTank",
-  AT_SPG = "AT-SPG",
-  types$2 = {
-    lightTank: LIGHT_TANK,
-    mediumTank: MEDIUM_TANK,
-    heavyTank: HEAVY_TANK,
-    SPG: "SPG",
-    "AT-SPG": AT_SPG,
-  },
-  typeValues = Object.values(types$2),
-  isTypeValidValue = (e) => typeValues.includes(e);
-function getVehicleImageKey(e) {
-  const t = e.indexOf(":");
-  return normalizeResource(t < 0 ? e.toLowerCase() : e.substring(t + 1).toLowerCase());
-}
-function isRentVehicle(e) {
-  return e.rent.isRented;
-}
-var RUDY_PL = 51345,
-  RUDY_USSR = 59393,
-  RUDIES = [RUDY_USSR, RUDY_PL],
-  sameTanksRemap = { [RUDY_PL]: RUDIES, [RUDY_USSR]: RUDIES },
-  WITHOUT_ROLE = "without_role",
-  roles = {
-    assault: "assault",
-    sniper: "sniper",
-    support: "support",
-    universal: "universal",
-    break: "break",
-    scout: "scout",
-    spg: "spg",
-  },
-  mapRoleByKey = [
-    WITHOUT_ROLE,
-    roles.spg,
-    roles.assault,
-    roles.break,
-    roles.universal,
-    roles.support,
-    roles.assault,
-    roles.support,
-    roles.universal,
-    roles.sniper,
-    roles.assault,
-    roles.universal,
-    roles.sniper,
-    roles.support,
-    roles.universal,
-    WITHOUT_ROLE,
-    roles.scout,
-    roles.support,
-  ],
-  getRoleByKey = (e) => mapRoleByKey[e] ?? "without_role",
-  atSpgRoles = [roles.assault, roles.universal, roles.sniper, roles.support],
-  heavyTankRoles = [roles.assault, roles.break, roles.universal, roles.support],
-  mediumTankRoles = [roles.assault, roles.support, roles.universal, roles.sniper],
-  lightTankRoles = [roles.universal, roles.scout, roles.support],
-  vehicleState = {
-    DAMAGED: "damaged",
-    EXPLODED: "exploded",
-    DESTROYED: "destroyed",
-    UNDAMAGED: "undamaged",
-    BATTLE: "battle",
-    IN_PREBATTLE: "inPrebattle",
-    LOCKED: "locked",
-    CREW_NOT_FULL: "crewNotFull",
-    AMMO_NOT_FULL: "ammoNotFull",
-    AMMO_NOT_FULL_EVENTS: "ammoNotFullEvents",
-    SERVER_RESTRICTION: "serverRestriction",
-    RENTAL_IS_OVER: "rentalIsOver",
-    IGR_RENTAL_IS_OVER: "igrRentalIsOver",
-    IN_PREMIUM_IGR_ONLY: "inPremiumIgrOnly",
-    GROUP_IS_NOT_READY: "group_is_not_ready",
-    NOT_PRESENT: "notpresent",
-    UNAVAILABLE: "unavailable",
-    UNSUITABLE_TO_QUEUE: "unsuitableToQueue",
-    UNSUITABLE_TO_UNIT: "unsuitableToUnit",
-    WILL_BE_UNLOCKED_IN_BATTLE: "willBeUnlockedInBattle",
-    DEAL_IS_OVER: "dealIsOver",
-    ROTATION_GROUP_UNLOCKED: "rotationGroupUnlocked",
-    ROTATION_GROUP_LOCKED: "rotationGroupLocked",
-    RENTABLE: "rentable",
-    RENTABLE_AGAIN: "rentableAgain",
-    DISABLED: "disabled",
-    SUBSCRIPTION_SUSPENDED: "subscription_suspended",
-    WOT_PLUS_EXCLUSIVE_VEHICLE_DISABLED: "wot_plus_exclusive_vehicle_disabled",
-  },
-  stateValues = Object.values(vehicleState),
-  base$19 = "VehicleLevel_3c938122",
-  vehicle_level_module_default = { base: base$19 },
-  numberTypes = { arabic: "arabic", roman: "roman" };
-function getLevelType(e, t) {
-  return e || (t ? numberTypes.arabic : numberTypes.roman);
-}
-var VehicleLevel = (0, import_react.forwardRef)(function ({ value: e, numberType: t, ...n }, r) {
-  const a = getLevelType(t, useRomanForbidden()) === numberTypes.roman ? arabicToRoman(e) : e;
-  return (0, import_jsx_runtime.jsx)("div", {
-    ...n,
-    "data-name": "VehicleLevel",
-    className: clsx(vehicle_level_module_default.base, n.className),
-    ref: r,
-    children: a,
-  });
-});
-VehicleLevel.numberTypes = numberTypes;
-var TYPE_PRESTIGE = "prestige",
-  directions$1 = { left: "left", right: "right" },
-  lengths = { short: "short", medium: "medium", long: "long" },
-  iconLength = (e) => (e < 10 ? lengths.short : e < 100 ? lengths.medium : lengths.long),
-  icon$6 = (e, t, n) => ("prestige" === t ? TYPE_PRESTIGE : `${t}.${iconLength(e)}.c_${n}`),
-  base$18 = "VehiclePrestigeLevel_a750cce",
-  icon$5 = "VehiclePrestigeLevel_icon_ef024cc3",
-  base__left = "VehiclePrestigeLevel_base__left_4426b46c",
-  level = "VehiclePrestigeLevel_level_10f410ba",
-  level__short = "VehiclePrestigeLevel_level__short_d1939fb1",
-  base__right = "VehiclePrestigeLevel_base__right_4426b46c",
-  level__medium = "VehiclePrestigeLevel_level__medium_90aed80f",
-  level__long = "VehiclePrestigeLevel_level__long_26625167",
-  base__iron = "VehiclePrestigeLevel_base__iron_4426b46c",
-  base__bronze = "VehiclePrestigeLevel_base__bronze_4426b46c",
-  base__silver = "VehiclePrestigeLevel_base__silver_4426b46c",
-  base__gold$1 = "VehiclePrestigeLevel_base__gold_4426b46c",
-  base__enamel = "VehiclePrestigeLevel_base__enamel_4426b46c",
-  vehicle_prestige_level_module_default = {
-    base: base$18,
-    icon: icon$5,
-    base__left: base__left,
-    level: level,
-    level__short: level__short,
-    base__right: base__right,
-    level__medium: level__medium,
-    level__long: level__long,
-    base__iron: base__iron,
-    base__bronze: base__bronze,
-    base__silver: base__silver,
-    base__gold: base__gold$1,
-    base__enamel: base__enamel,
-  };
-function PrestigeLevel({ level: e, grade: t, type: n, direction: r, classNames: a, ...o }) {
-  return e < 1 || "undefined" === n
-    ? null
-    : (0, import_jsx_runtime.jsxs)("div", {
-        ...o,
-        className: clsx(
-          vehicle_prestige_level_module_default.base,
-          vehicle_prestige_level_module_default[`base__${n}`],
-          vehicle_prestige_level_module_default[`base__${r}`],
-          o.className,
-          a?.base,
-        ),
-        children: [
-          (0, import_jsx_runtime.jsx)(Image$1, {
-            path: `prestige.tab.${icon$6(e, n, t)}`,
-            className: clsx(vehicle_prestige_level_module_default.icon, a?.icon),
-          }),
-          "prestige" !== n &&
-            (0, import_jsx_runtime.jsx)("div", {
-              className: clsx(
-                vehicle_prestige_level_module_default.level,
-                vehicle_prestige_level_module_default[`level__${iconLength(e)}`],
-                a?.level,
-              ),
-              children: e,
-            }),
-        ],
-      });
-}
-PrestigeLevel.direction = directions$1;
-var base$17 = "VehicleRole_e70537d3",
-  icon__x16x16 = "VehicleRole_icon__x16x16_f444f190",
-  icon__x24x24 = "VehicleRole_icon__x24x24_cc02d077",
-  icon__x32x32 = "VehicleRole_icon__x32x32_2180a099",
-  icon__x48x48 = "VehicleRole_icon__x48x48_2a01e86c",
-  vehicle_role_module_default = {
-    base: base$17,
-    icon__x16x16: icon__x16x16,
-    icon__x24x24: icon__x24x24,
-    icon__x32x32: icon__x32x32,
-    icon__x48x48: icon__x48x48,
-  },
-  sizes$4 = { x16x16: "x16x16", x24x24: "x24x24", x32x32: "x32x32", x48x48: "x48x48" },
-  images = resources.resolve("images"),
-  VehicleRole = (0, import_react.forwardRef)(function (
-    { roleKey: e, size: t = sizes$4.x24x24, classNames: n, ...r },
-    a,
-  ) {
-    const o = useUpscale(t, sizes$4.x32x32);
-    return (0, import_jsx_runtime.jsx)("div", {
-      ...r,
-      ref: a,
-      className: clsx(vehicle_role_module_default.base, n?.base),
-      children: (0, import_jsx_runtime.jsx)("img", {
-        className: clsx(vehicle_role_module_default[`icon__${t}`], n?.icon),
-        src: images.readOrEmpty(`vehicleRoles.${o}.${e}`),
-      }),
-    });
-  });
-VehicleRole.sizes = sizes$4;
-var sizes$3 = { x24x24: "x24x24", x48x48: "x48x48", x64x64: "x64x64", x96x96: "x96x96" },
-  upscaledSizes = { x24x24: "x64x64", x48x48: "x96x96", x64x64: "x96x96", x96x96: "x96x96" },
-  mapTypes = {
-    [types$2.lightTank]: "light_tank",
-    [types$2.mediumTank]: "medium_tank",
-    [types$2.heavyTank]: "heavy_tank",
-    [types$2.SPG]: "spg",
-    [types$2["AT-SPG"]]: "tank_destroyer",
-  },
-  base$16 = "VehicleType_30b4aab0",
-  base__x24x24 = "VehicleType_base__x24x24_a3dc7aa3",
-  base__x48x48 = "VehicleType_base__x48x48_cb59f57a",
-  base__x64x64 = "VehicleType_base__x64x64_bb9b890",
-  base__x96x96 = "VehicleType_base__x96x96_919f9f92",
-  base__premium__x24x24 = "VehicleType_base__premium__x24x24_92335fef",
-  base__premium__x48x48 = "VehicleType_base__premium__x48x48_e19c5d21",
-  base__premium__x64x64 = "VehicleType_base__premium__x64x64_ba9a2a05",
-  base__premium__x96x96 = "VehicleType_base__premium__x96x96_d837a523",
-  icon$4 = "VehicleType_icon_b15d2628",
-  vehicle_type_module_default = {
-    base: base$16,
-    base__x24x24: base__x24x24,
-    base__x48x48: base__x48x48,
-    base__x64x64: base__x64x64,
-    base__x96x96: base__x96x96,
-    base__premium__x24x24: base__premium__x24x24,
-    base__premium__x48x48: base__premium__x48x48,
-    base__premium__x64x64: base__premium__x64x64,
-    base__premium__x96x96: base__premium__x96x96,
-    icon: icon$4,
-  },
-  VehicleType = (0, import_react.forwardRef)(function (
-    { type: e, size: t = sizes$3.x48x48, premium: n = !1, fit: r = "contain", ...a },
-    o,
-  ) {
-    const i = useUpscale(sizes$3[t], upscaledSizes[t]);
-    return (0, import_jsx_runtime.jsx)(Image$1, {
-      ...a,
-      ref: o,
-      fit: r,
-      className: clsx(
-        vehicle_type_module_default.base,
-        n
-          ? vehicle_type_module_default[`base__premium__${t}`]
-          : vehicle_type_module_default[`base__${t}`],
-        a.className,
-      ),
-      path: `ui_kit.vehicle_type.${i}.${n ? "premium_" : ""}${normalizeResource(mapTypes[e])}_${i}`,
-    });
-  });
-((VehicleType.types = types$2), (VehicleType.sizes = sizes$3));
-var base$15 = "VehicleInfo_1732f1f0",
-  name = "VehicleInfo_name_3989ca04",
-  name__premium = "VehicleInfo_name__premium_258b3b93",
-  vehicle_info_module_default = { base: base$15, name: name, name__premium: name__premium },
-  VehicleName = defineStyledComponent("VehicleName", vehicle_info_module_default.name, {
-    variants: { premium: { true: vehicle_info_module_default.name__premium } },
-  }),
-  VehicleInfo = (0, import_react.forwardRef)(function (e, t) {
-    return (0, import_jsx_runtime.jsx)("div", {
-      ...e,
-      ref: t,
-      className: clsx(vehicle_info_module_default.base, e.className),
-    });
-  });
-((VehicleInfo.Prestige = PrestigeLevel),
-  (VehicleInfo.Level = VehicleLevel),
-  (VehicleInfo.Type = VehicleType),
-  (VehicleInfo.Name = VehicleName),
-  (VehicleInfo.Role = VehicleRole));
-var UNKNOWN_NATION = "none",
+  UNKNOWN_NATION = "none",
   list = [
     "ussr",
     "germany",
@@ -27453,7 +27453,32 @@ function Currency({
   });
 }
 ((Currency.sizes = sizes), (Currency.types = types));
-var CardContext = (0, import_react.createContext)(void 0);
+var base$4 = "NotificationWrapper_6fe65b7",
+  notification_wrapper_module_default = { base: base$4 },
+  NOTIFICATION_WIDTH = 288,
+  NOTIFICATION_MIN_HEIGHT = 1,
+  NOTIFICATION_MAX_HEIGHT = 500,
+  NotificationWrapper = ({ children: e, ref: t, className: n }) => {
+    const r = (0, import_react.useRef)(null),
+      a = 288 * getScale$2(),
+      o = 500 * getScale$2();
+    return (
+      useMount(() => {
+        resize$1(a, 1);
+      }),
+      useLayoutReady(() => {
+        if (!r.current) return;
+        const e = r.current.scrollHeight;
+        e > o ? (console.warn(`maximum height exceeded ${e}`), resize$1(a, o)) : resize$1(a, e);
+      }, []),
+      (0, import_jsx_runtime.jsx)("div", {
+        ref: assignRefs(t ? [t, r] : [r]),
+        className: clsx(notification_wrapper_module_default.base, n),
+        children: e,
+      })
+    );
+  },
+  CardContext = (0, import_react.createContext)(void 0);
 function useCardContext() {
   const e = (0, import_react.useContext)(CardContext);
   if (!e) throw new Error("Card context must be used only within its provider");
@@ -27478,7 +27503,7 @@ function useCardsWrapperContextOptional() {
   return (0, import_react.useContext)(CardsWrapperContext);
 }
 var CardsWrapperContextProvider = CardsWrapperContext.Provider,
-  base$4 = "Content_8eaaf71a",
+  base$3 = "Content_8eaaf71a",
   content$1 = "Content_ab8563af",
   disabledOverlay = "Content_disabledOverlay_af87c441",
   base__multiple = "Content_base__multiple_da09528a",
@@ -27488,7 +27513,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
   base__selected$1 = "Content_base__selected_da09528a",
   multipleCorner = "Content_multipleCorner_151c26ee",
   content_module_default = {
-    base: base$4,
+    base: base$3,
     content: content$1,
     disabledOverlay: disabledOverlay,
     base__multiple: base__multiple,
@@ -27551,7 +27576,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
       })
     );
   },
-  base$3 = "Status_68bd9bc6",
+  base$2 = "Status_68bd9bc6",
   icon = "Status_icon_cef4536",
   base__done = "Status_base__done_35b9a31c",
   base__doneSmall = "Status_base__doneSmall_35b9a31c",
@@ -27564,7 +27589,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
   blur = "Status_blur_5675b854",
   glowBig = "Status_glowBig_5954041c",
   status_module_default = {
-    base: base$3,
+    base: base$2,
     icon: icon,
     base__done: base__done,
     base__doneSmall: base__doneSmall,
@@ -27631,7 +27656,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
       ],
     });
   },
-  base$2 = "Card_f0963ece",
+  base$1 = "Card_f0963ece",
   base__wrapped = "Card_base__wrapped_c6eb8737",
   base__disableMouse = "Card_base__disableMouse_5cd80216",
   base__hover = "Card_base__hover_f4c22d1c",
@@ -27644,7 +27669,7 @@ var CardsWrapperContextProvider = CardsWrapperContext.Provider,
   base__selectedHover = "Card_base__selectedHover_f4c22d1c",
   centerBorder = "Card_centerBorder_8a0f28ae",
   card_module_default = {
-    base: base$2,
+    base: base$1,
     base__wrapped: base__wrapped,
     base__disableMouse: base__disableMouse,
     base__hover: base__hover,
@@ -27924,12 +27949,12 @@ var Lines = (0, import_react.memo)(
       );
     },
   ),
-  base$1 = "CardsWrapper_3b6cc4f6",
+  base = "CardsWrapper_3b6cc4f6",
   card = "CardsWrapper_card_c7fc9ee7",
   centerBorderCommon = "CardsWrapper_centerBorderCommon_b4b27a11",
   outerBorderCommon = "CardsWrapper_outerBorderCommon_f4887371",
   cards_wrapper_module_default = {
-    base: base$1,
+    base: base,
     card: card,
     centerBorderCommon: centerBorderCommon,
     outerBorderCommon: outerBorderCommon,
@@ -28009,39 +28034,14 @@ var Lines = (0, import_react.memo)(
         }),
       ],
     }),
-  ),
-  base = "NotificationWrapper_6fe65b7",
-  notification_wrapper_module_default = { base: base },
-  NOTIFICATION_WIDTH = 288,
-  NOTIFICATION_MIN_HEIGHT = 1,
-  NOTIFICATION_MAX_HEIGHT = 500,
-  NotificationWrapper = ({ children: e, ref: t, className: n }) => {
-    const r = (0, import_react.useRef)(null),
-      a = 288 * getScale$2(),
-      o = 500 * getScale$2();
-    return (
-      useMount(() => {
-        resize$1(a, 1);
-      }),
-      useLayoutReady(() => {
-        if (!r.current) return;
-        const e = r.current.scrollHeight;
-        e > o ? (console.warn(`maximum height exceeded ${e}`), resize$1(a, o)) : resize$1(a, e);
-      }, []),
-      (0, import_jsx_runtime.jsx)("div", {
-        ref: assignRefs(t ? [t, r] : [r]),
-        className: clsx(notification_wrapper_module_default.base, n),
-        children: e,
-      })
-    );
-  };
+  );
 export {
-  getVehicleImageKey as $,
+  vehicleState as $,
   NUMBERS_ALPHABET as $t,
   Bar as A,
   remToPx$1 as An,
   useSimpleTooltip as At,
-  VehicleInfo as B,
+  renderResolvedString as B,
   intl$2 as Bn,
   useEvent as Bt,
   useInput as C,
@@ -28056,17 +28056,17 @@ export {
   Bar$1 as F,
   normalizeResource as Fn,
   config as Ft,
-  VehicleLevel as G,
+  CloseButton as G,
   useUpscale as Gt,
-  sizes$3 as H,
+  getRewardImage$1 as H,
   resources as Hn,
   usePrevious as Ht,
   scrollOrientations as I,
   easings$1 as In,
   useSpring as It,
-  getRoleByKey as J,
+  VehicleType as J,
   require_jsx_runtime as Jt,
-  vehicleState as K,
+  Video as K,
   MediaWrapperElement as Kt,
   useScrollBounding as L,
   clsx as Ln,
@@ -28083,7 +28083,7 @@ export {
   Area$1 as P,
   convertNbsp as Pn,
   animated as Pt,
-  roles as Q,
+  VehicleLevel as Q,
   LOWER_ALPHABET as Qt,
   useHorizontalScroll as R,
   require_react_dom as Rn,
@@ -28094,48 +28094,48 @@ export {
   Popover as T,
   keyCodes as Tn,
   computeds as Tt,
-  VehicleRole as U,
+  getRewardTooltipConfig as U,
   useAdaptiveWidth as Ut,
-  VehicleType as V,
+  Reward$1 as V,
   ImagesRClassProvider as Vn,
   useScreenSize as Vt,
-  directions$1 as W,
+  ImageSize$1 as W,
   useAdaptive as Wt,
-  lightTankRoles as X,
+  VehicleRole as X,
   comparer as Xt,
-  heavyTankRoles as Y,
+  sizes$4 as Y,
   breakpoints as Yt,
-  mediumTankRoles as Z,
+  directions$1 as Z,
   isNumber as Zt,
   Slot as _,
   forEach as _n,
-  HeadlessButton as _t,
+  Image$1 as _t,
   types as a,
   Reaction as an,
-  Image$1 as at,
+  roles as at,
   toggleSizes as b,
   mapNonNullable as bn,
-  themes as bt,
+  TextButton as bt,
   ImageSize as c,
   comparer$1 as cn,
-  FormatString as ct,
+  isTypeValidValue as ct,
   List as d,
   makeObservable as dn,
-  getRewardImage$1 as dt,
+  Button as dt,
   createString as en,
-  isRentVehicle as et,
+  atSpgRoles as et,
   useRouter as f,
   observable as fn,
-  getRewardTooltipConfig as ft,
+  HeadlessButton as ft,
   TruncatedText as g,
   filter as gn,
-  Button as gt,
+  PrestigeEmblem as gt,
   asMemoized as h,
   when as hn,
-  require_classnames as ht,
+  themes as ht,
   sizes as i,
   makeActions as in,
-  PrestigeEmblem as it,
+  mediumTankRoles as it,
   useVerticalScroll as j,
   sendEvent$2 as jn,
   useTooltip as jt,
@@ -28144,45 +28144,45 @@ export {
   useParamTooltip as kt,
   VehicleImage as l,
   configure as ln,
-  FormatText as lt,
+  sameTanksRemap as lt,
   Sprite as m,
   runInAction as mn,
-  CloseButton as mt,
-  CardSingle as n,
+  sizes$6 as mt,
+  NotificationWrapper as n,
   assert as nn,
-  sameTanksRemap as nt,
+  heavyTankRoles as nt,
   Reward as o,
   action as on,
-  TextButton as ot,
+  getVehicleImageKey as ot,
   useHoverState as p,
   reaction as pn,
-  ImageSize$1 as pt,
-  atSpgRoles as q,
+  defineStyledComponent as pt,
+  VehicleInfo as q,
   useMedia as qt,
   Currency as r,
   createLayoutReadyInEffect as rn,
-  types$2 as rt,
+  lightTankRoles as rt,
   getRewardImage as s,
   autorun as sn,
-  renderResolvedString as st,
-  NotificationWrapper as t,
+  isRentVehicle as st,
+  CardSingle as t,
   mapRange as tn,
-  isTypeValidValue as tt,
+  getRoleByKey as tt,
   ScrollVelocityGuardContent as u,
   getDependencyTree as un,
-  Reward$1 as ut,
+  types$2 as ut,
   Slottable as v,
   get as vn,
-  defineStyledComponent as vt,
+  FormatString as vt,
   placeholderVisibility as w,
   iter as wn,
   JSXBuilder as wt,
   toggleThemes as x,
   reduce as xn,
-  Video as xt,
+  require_classnames as xt,
   Toggle as y,
   map as yn,
-  sizes$7 as yt,
+  FormatText as yt,
   nationById as z,
   require_react as zn,
   useIsFirstRender as zt,

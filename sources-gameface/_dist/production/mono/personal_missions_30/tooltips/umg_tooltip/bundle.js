@@ -1,10 +1,10 @@
 import { r as e } from "../../chunks/rolldown-runtime.js";
 import {
   Bt as s,
-  D as a,
-  Dt as i,
-  E as n,
-  Gt as t,
+  Dt as a,
+  F as i,
+  Gt as n,
+  P as t,
   Q as o,
   Ut as r,
   V as d,
@@ -12,8 +12,8 @@ import {
   Wt as l,
   Z as m,
   cn as _,
-  ln as p,
-  m as g,
+  j as p,
+  ln as g,
   o as x,
   on as j,
   q as v,
@@ -48,7 +48,7 @@ var [C, b] = o()(({ observableModel: e }) => {
       ...a,
       computes: { isNewCampaign: i, getAndConditions: n, getOrConditions: t, getRewards: o },
     };
-  }, t),
+  }, n),
   f = e(_(), 1),
   w = "Conditions_4cd33658",
   y = "Conditions_condition_38d930eb",
@@ -105,13 +105,13 @@ var T = "Rewards_133d6676",
               children: [
                 e.isLocked && (0, $.jsx)("div", { className: V }),
                 (0, $.jsx)(
-                  g,
+                  p,
                   {
                     className: j(e.isLocked && H),
                     name: e.name,
-                    size: a.Small,
+                    size: i.Small,
                     value: e.value,
-                    valueType: n(e.name),
+                    valueType: t(e.name),
                     image: N(e),
                   },
                   `${e.name}-${s}`,
@@ -126,39 +126,39 @@ var T = "Rewards_133d6676",
   q = "Content_vehicle__completed_7ddc57c3",
   M = "Content_e5bbb355",
   S = "Content_icon_7cba4289",
-  D = "Content_title_af74ceb1",
-  Q = "Content_completed_f0e4ff90",
-  U = "Content_completedHeader_13d60db5",
-  A = "Content_completedIcon_70917801",
-  B = "Content_completedTitle_359f897d",
-  W = "Content_completedMessage_4a1d508e",
-  z = "Content_conditionsHeader_45c8de10",
-  G = "Content_conditionsTitle_7130eaea",
-  P = "Content_conditions_9af6a89e",
+  Q = "Content_title_af74ceb1",
+  U = "Content_completed_f0e4ff90",
+  A = "Content_completedHeader_13d60db5",
+  B = "Content_completedIcon_70917801",
+  D = "Content_completedTitle_359f897d",
+  P = "Content_completedMessage_4a1d508e",
+  W = "Content_conditionsHeader_45c8de10",
+  z = "Content_conditionsTitle_7130eaea",
+  G = "Content_conditions_9af6a89e",
   Z = "Content_vehicles_190316b7",
   J = "Content_vehicle_7bb86a42",
-  K = p.resolve("strings"),
+  K = g.resolve("strings"),
   X = h(function () {
     const { model: e } = b(),
       s = e.campaignId.get(),
-      a = e.missionState.get(),
+      i = e.missionState.get(),
       n = e.totalVehiclesForQuest.get(),
       t = e.completedInVehicles.get();
     return (0, $.jsxs)("div", {
       className: M,
       children: [
         (0, $.jsx)("div", { className: S, style: { backgroundImage: `url(${e.icon.get()})` } }),
-        (0, $.jsx)("div", { className: D, children: e.title.get() }),
-        "complete" === a
+        (0, $.jsx)("div", { className: Q, children: e.title.get() }),
+        "complete" === i
           ? (0, $.jsxs)("div", {
-              className: Q,
+              className: U,
               children: [
                 (0, $.jsxs)("div", {
-                  className: U,
+                  className: A,
                   children: [
-                    (0, $.jsx)("div", { className: A }),
+                    (0, $.jsx)("div", { className: B }),
                     (0, $.jsx)("div", {
-                      className: B,
+                      className: D,
                       children: K.readOrEmpty(
                         "personal_missions_30.tooltip.umg.conditions.title.complete",
                       ),
@@ -166,7 +166,7 @@ var T = "Rewards_133d6676",
                   ],
                 }),
                 (0, $.jsx)(d, {
-                  className: W,
+                  className: P,
                   text: K.readOrEmpty(
                     `personal_missions_30.tooltip.umg.conditions.allComplete.c_${s}`,
                   ),
@@ -179,11 +179,11 @@ var T = "Rewards_133d6676",
               children: [
                 !e.computes.isNewCampaign() &&
                   (0, $.jsx)("div", {
-                    className: z,
+                    className: W,
                     children: (0, $.jsx)("div", {
-                      className: G,
+                      className: z,
                       children:
-                        "active" === a
+                        "active" === i
                           ? K.readOrEmpty(
                               "personal_missions_30.tooltip.umg.conditions.title.active",
                             )
@@ -193,14 +193,14 @@ var T = "Rewards_133d6676",
                     }),
                   }),
                 (0, $.jsxs)("div", {
-                  className: P,
+                  className: G,
                   children: [
                     (0, $.jsx)(E, { conditions: e.computes.getOrConditions(), isOrConditions: !0 }),
                     (0, $.jsx)(E, { conditions: e.computes.getAndConditions() }),
                     n > 1 &&
                       (0, $.jsx)("div", {
                         className: Z,
-                        children: i(n, (e) =>
+                        children: a(n, (e) =>
                           (0, $.jsx)(
                             "div",
                             {
@@ -228,7 +228,7 @@ var T = "Rewards_133d6676",
   te = "Footer_caption_8fd60e2f",
   oe = "Footer_flag_d1c54678",
   re = "Footer_status_4e68aa27",
-  de = p.resolve("strings"),
+  de = g.resolve("strings"),
   ce = h(function () {
     const { model: e } = b(),
       s = e.missionState.get();
@@ -272,7 +272,7 @@ var T = "Rewards_133d6676",
   le = "Header_overlay_c7c1d9a8",
   me = "Header_be52b4f8",
   _e = "Header_title_7b20d2b6",
-  pe = p.resolve("strings"),
+  pe = g.resolve("strings"),
   ge = h(function () {
     const { model: e } = b(),
       s = e.operationId.get();

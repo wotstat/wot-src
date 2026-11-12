@@ -4,24 +4,24 @@ import {
   Et as t,
   Hn as s,
   Jt as i,
-  Rt as o,
-  St as r,
-  Tn as n,
-  Wt as c,
-  ht as l,
-  lt as p,
-  xt as m,
+  K as o,
+  Rt as r,
+  St as n,
+  Tn as c,
+  Wt as l,
+  xt as p,
+  yt as m,
   zn as d,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
 import { m as _ } from "../../chunks/vendor.js";
 var u = e(d(), 1),
-  f = e(l(), 1),
-  [b, h] = t()(
+  f = e(p(), 1),
+  [b, x] = t()(
     ({ observableModel: e }) => ({ root: e.object() }),
     ({ externalModel: e }) => ({ close: e.createCallbackNoArgs("onClose") }),
   ),
-  x = {
+  h = {
     base: "App_680dbe67",
     backgroundAlpha: "App_backgroundAlpha_0",
     animationWrapper: "App_animationWrapper_9a2017cb",
@@ -37,65 +37,65 @@ var u = e(d(), 1),
     subTitle: "App_subTitle_dc235974",
   },
   j = i(),
-  A = _(function () {
-    const { model: e, controls: a } = h(),
-      { name: t, title: i, rarity: r } = e.root.get(),
-      [l, d] = (0, u.useState)(!0),
+  y = _(function () {
+    const { model: e, controls: a } = x(),
+      { name: t, title: i, rarity: n } = e.root.get(),
+      [p, d] = (0, u.useState)(!0),
       _ = s.resolve("intl"),
       b = s.resolve("strings"),
-      A = s.resolve("videos");
-    o(n.ESCAPE, a.close);
-    const v = c(
+      y = s.resolve("videos");
+    r(c.ESCAPE, a.close);
+    const A = l(
         { size: "s400x300" },
         { large: { size: "s600x450" }, extraLarge: { size: "s900x675" } },
       ),
-      y = (0, u.useCallback)(() => {
+      v = (0, u.useCallback)(() => {
         (d(!1), a.close());
       }, [a]);
     return (0, j.jsx)("div", {
-      className: x.base,
+      className: h.base,
       children: (0, j.jsxs)("div", {
-        className: x.content,
+        className: h.content,
         children: [
           (0, j.jsxs)("div", {
-            className: x.animationWrapper,
+            className: h.animationWrapper,
             children: [
               (0, j.jsx)("div", {
-                className: x.icon,
+                className: h.icon,
                 style: {
-                  backgroundImage: `url('R.images.gui.maps.vehicles.attachments.${v.size}.${t}')`,
+                  backgroundImage: `url('R.images.gui.maps.vehicles.attachments.${A.size}.${t}')`,
                 },
               }),
-              l &&
-                (0, j.jsx)(m, {
-                  className: x.animation,
-                  src: A.readOrEmpty(`rarity.intro_${r}`),
+              p &&
+                (0, j.jsx)(o, {
+                  className: h.animation,
+                  src: y.readOrEmpty(`rarity.intro_${n}`),
                   autoplay: !0,
-                  onEnded: y,
+                  onEnded: v,
                 }),
-              (0, j.jsx)(m, {
-                className: (0, f.default)(x.animation, l && x.animation__hidden),
-                src: A.readOrEmpty(`rarity.cycle_${r}`),
-                autoplay: !l,
+              (0, j.jsx)(o, {
+                className: (0, f.default)(h.animation, p && h.animation__hidden),
+                src: y.readOrEmpty(`rarity.cycle_${n}`),
+                autoplay: !p,
                 loop: !0,
               }),
             ],
           }),
           (0, j.jsxs)("div", {
-            className: (0, f.default)(x.footer, x[`footer__${r}`]),
+            className: (0, f.default)(h.footer, h[`footer__${n}`]),
             children: [
-              (0, j.jsx)("div", { className: x.title, children: _.toUpperCase(i) }),
-              (0, j.jsx)(p, {
+              (0, j.jsx)("div", { className: h.title, children: _.toUpperCase(i) }),
+              (0, j.jsx)(m, {
                 text: b.readOrEmpty(
                   "vehicle_customization.customization.RarityRewardScreen.subtitle",
                 ),
                 upgradeLegacy: !0,
                 params: {
                   rarity: _.toUpperCase(
-                    b.readOrEmpty(`vehicle_customization.customization.rarity.${r}`),
+                    b.readOrEmpty(`vehicle_customization.customization.rarity.${n}`),
                   ),
                 },
-                className: x.subTitle,
+                className: h.subTitle,
               }),
             ],
           }),
@@ -103,4 +103,4 @@ var u = e(d(), 1),
       }),
     });
   });
-a((0, j.jsx)(b, { children: (0, j.jsx)(r, { children: (0, j.jsx)(A, {}) }) }));
+a((0, j.jsx)(b, { children: (0, j.jsx)(n, { children: (0, j.jsx)(y, {}) }) }));

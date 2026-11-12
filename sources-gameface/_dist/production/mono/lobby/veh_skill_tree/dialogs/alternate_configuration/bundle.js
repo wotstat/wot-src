@@ -1,29 +1,29 @@
 import { r as e } from "../../../chunks/rolldown-runtime.js";
 import {
-  B as s,
-  Ct as a,
-  Dt as t,
-  Et as o,
-  H as i,
-  Hn as l,
-  Jt as r,
-  Ln as n,
-  Ot as c,
-  Rt as d,
-  St as m,
-  Tn as p,
-  Tt as v,
-  Wt as h,
-  at as u,
-  bt as _,
-  gt as f,
+  Ct as s,
+  Dt as a,
+  Et as t,
+  Hn as o,
+  Jt as i,
+  Ln as l,
+  Ot as r,
+  Rt as n,
+  St as c,
+  Tn as d,
+  Tt as m,
+  Wt as p,
+  Y as v,
+  _t as h,
+  ct as _,
+  dt as u,
+  ht as f,
   jt as g,
-  n as j,
-  nn as y,
-  tt as x,
-  vt as N,
-  yn as C,
-  yt as b,
+  mt as j,
+  nn as x,
+  pt as y,
+  q as N,
+  t as C,
+  yn as b,
   zn as k,
 } from "../../../chunks/lib.js";
 import "../../../chunks/_wg-global-styles.js";
@@ -36,33 +36,33 @@ var I = e(k(), 1),
     image: "Card_image_e613669d",
     name: "Card_name_99ab4a1d",
   },
-  S = r();
-function O({ type: e, iconName: s, pressed: a, onClick: o, nodeID: i }) {
-  const r = l.resolve("strings"),
-    c = t(),
+  S = i();
+function O({ type: e, iconName: s, pressed: t, onClick: i, nodeID: r }) {
+  const n = o.resolve("strings"),
+    c = a(),
     {
       onMouseEnter: d,
       onMouseLeave: m,
       onClick: p,
     } = g({
       contentId: R.views.lobby.veh_post_progression.tooltip.SetupTooltipView("resId"),
-      args: { nodeID: i, type: e },
+      args: { nodeID: r, type: e },
     });
   return (0, S.jsxs)("div", {
-    className: n(T.base, a && T.base__pressed),
+    className: l(T.base, t && T.base__pressed),
     onMouseEnter: d,
     onMouseLeave: m,
     onClick: () => {
-      (p(), o(), c.play("click", { target: a ? "deselect" : "select" }));
+      (p(), i(), c.play("click", { target: t ? "deselect" : "select" }));
     },
     children: [
-      (0, S.jsx)(j, {
+      (0, S.jsx)(C, {
         className: T.card,
-        selected: a,
-        status: a ? "done" : void 0,
+        selected: t,
+        status: t ? "done" : void 0,
         children: (0, S.jsx)("div", {
           className: T.content,
-          children: (0, S.jsx)(u, {
+          children: (0, S.jsx)(h, {
             className: T.image,
             path: `skillTree.tree.dialogs.alternateConfiguration.${s}`,
           }),
@@ -70,29 +70,29 @@ function O({ type: e, iconName: s, pressed: a, onClick: o, nodeID: i }) {
       }),
       (0, S.jsx)("div", {
         className: T.name,
-        children: r.readOrEmpty(`veh_skill_tree.dialog.altConfiguration.${e}`),
+        children: n.readOrEmpty(`veh_skill_tree.dialog.altConfiguration.${e}`),
       }),
     ],
   });
 }
 var A = "Footer_info_b48c491b",
-  H = "Footer_separator_3f705b18",
-  z = "Footer_button_197c4535",
-  D = N("AlternateConfigurationFooter", "Footer_fb231f23");
+  z = "Footer_separator_3f705b18",
+  D = "Footer_button_197c4535",
+  H = y("AlternateConfigurationFooter", "Footer_fb231f23");
 function M({ onClose: e, ...s }) {
-  const a = l.resolve("strings"),
-    t = h({ size: b.small }, { medium: { size: b.medium } });
-  return (0, S.jsxs)(D, {
+  const a = o.resolve("strings"),
+    t = p({ size: j.small }, { medium: { size: j.medium } });
+  return (0, S.jsxs)(H, {
     ...s,
     children: [
       (0, S.jsx)("div", {
         className: A,
         children: a.readOrEmpty("veh_skill_tree.dialog.altConfiguration.info"),
       }),
-      (0, S.jsx)("div", { className: H }),
-      (0, S.jsx)(f, {
-        className: z,
-        theme: _.primary,
+      (0, S.jsx)("div", { className: z }),
+      (0, S.jsx)(u, {
+        className: D,
+        theme: f.primary,
         size: t.size,
         onClick: e,
         children: a.readOrEmpty("veh_skill_tree.dialog.common.accept"),
@@ -107,33 +107,33 @@ var w = {
   title: "Header_title_1c6e5cde",
   description: "Header_description_edbe210e",
 };
-function F({ level: e, type: a, name: t, premium: o }) {
-  const r = l.resolve("strings");
+function F({ level: e, type: s, name: a, premium: t }) {
+  const i = o.resolve("strings");
   return (0, S.jsxs)("div", {
     className: w.base,
     children: [
-      (0, S.jsxs)(s, {
+      (0, S.jsxs)(N, {
         className: w.vehicle,
         children: [
-          (0, S.jsx)(s.Level, { className: w.vehicleTier, value: e }),
-          a && (0, S.jsx)(s.Type, { type: a, size: i.x64x64, premium: o }),
-          (0, S.jsx)(s.Name, {
-            children: (0, S.jsx)("div", { className: w.vehicleName, children: t }),
+          (0, S.jsx)(N.Level, { className: w.vehicleTier, value: e }),
+          s && (0, S.jsx)(N.Type, { type: s, size: v.x64x64, premium: t }),
+          (0, S.jsx)(N.Name, {
+            children: (0, S.jsx)("div", { className: w.vehicleName, children: a }),
           }),
         ],
       }),
       (0, S.jsx)("div", {
         className: w.title,
-        children: r.readOrEmpty("veh_skill_tree.dialog.altConfiguration.title"),
+        children: i.readOrEmpty("veh_skill_tree.dialog.altConfiguration.title"),
       }),
       (0, S.jsx)("div", {
         className: w.description,
-        children: r.readOrEmpty("veh_skill_tree.dialog.altConfiguration.description"),
+        children: i.readOrEmpty("veh_skill_tree.dialog.altConfiguration.description"),
       }),
     ],
   });
 }
-var [L, $] = o()(
+var [L, $] = t()(
     ({ observableModel: e }) => {
       const s = {
           vehicleInfo: e.transform(
@@ -145,10 +145,10 @@ var [L, $] = o()(
             }),
             "vehicleInfo",
           ),
-          loadouts: e.transform((e) => C(e, (e) => ({ ...e })), "loadouts"),
+          loadouts: e.transform((e) => b(e, (e) => ({ ...e })), "loadouts"),
           ...e.primitives(["nodeID"]),
         },
-        a = v.shallow(() => C(s.loadouts.get(), ({ isSelected: e }) => e));
+        a = m.shallow(() => b(s.loadouts.get(), ({ isSelected: e }) => e));
       return { ...s, computeds: { loadoutStates: a } };
     },
     ({ externalModel: e }) => ({
@@ -157,23 +157,23 @@ var [L, $] = o()(
     }),
   ),
   J = "App_170f5fe6",
-  B = "App_cards_2833612d",
+  q = "App_cards_2833612d",
   P = "App_footer_d8aec517",
   V = E(function () {
     const { model: e, controls: s } = $();
-    (d(p.ESCAPE, s.close), d(p.ENTER, () => s.affirmate(i)));
+    (n(d.ESCAPE, s.close), n(d.ENTER, () => s.affirmate(i)));
     const a = e.vehicleInfo.get(),
       t = e.loadouts.get(),
       o = e.nodeID.get(),
       [i, l] = (0, I.useState)(e.computeds.loadoutStates());
-    y.log(x(a.type), `Incorrect vehicle type: ${a.type}`);
-    const r = x(a.type) ? a.type : void 0;
+    x.log(_(a.type), `Incorrect vehicle type: ${a.type}`);
+    const r = _(a.type) ? a.type : void 0;
     return (0, S.jsxs)("div", {
       className: J,
       children: [
         (0, S.jsx)(F, { ...a, type: r }),
         (0, S.jsx)("div", {
-          className: B,
+          className: q,
           children: t.map(({ type: e, iconName: s }, a) =>
             (0, S.jsx)(
               O,
@@ -194,5 +194,5 @@ var [L, $] = o()(
       ],
     });
   }),
-  W = c({ click: { select: "yes1", deselect: "yes" } });
-a((0, S.jsx)(m, { soundsOverrides: W, children: (0, S.jsx)(L, { children: (0, S.jsx)(V, {}) }) }));
+  W = r({ click: { select: "yes1", deselect: "yes" } });
+s((0, S.jsx)(c, { soundsOverrides: W, children: (0, S.jsx)(L, { children: (0, S.jsx)(V, {}) }) }));

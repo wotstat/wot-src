@@ -1,19 +1,19 @@
 import { r as t } from "../../chunks/rolldown-runtime.js";
 import {
-  $t as e,
+  Et as e,
   Kn as s,
   Pr as a,
   Rn as i,
-  Yn as n,
-  Yt as r,
+  Tt as n,
+  Yn as r,
   Zt as o,
   _n as c,
   bt as l,
   ci as d,
-  en as h,
-  fn as p,
-  pn as m,
-  tn as x,
+  fn as h,
+  pn as p,
+  tn as m,
+  wt as x,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as b } from "../../chunks/vendor.js";
@@ -22,7 +22,7 @@ var _ = "ExtraChapterDescription_b9765d9b",
   u = "ExtraChapterDescription_description_6781df64",
   j = "ExtraChapterDescription_warningIcon_be590846",
   C = "ExtraChapterDescription_highlightText_3444159b",
-  g = n(),
+  g = r(),
   f = R.strings.battle_pass.chapterChoice.confirmation,
   N = () =>
     (0, g.jsx)("div", {
@@ -47,39 +47,39 @@ var _ = "ExtraChapterDescription_b9765d9b",
     }),
   ),
   k = "Container_28f8549e",
-  z = "Container_buttons_4ace6ad5",
-  E = "Container_closeButton_1a873580",
-  S = "Container_divider_9b7ebff",
-  w = R.strings.battle_pass.chapterChoice.confirmation,
+  E = "Container_buttons_4ace6ad5",
+  w = "Container_closeButton_1a873580",
+  z = "Container_divider_9b7ebff",
+  S = R.strings.battle_pass.chapterChoice.confirmation,
   D = b(function () {
-    const { model: t, controls: n } = A(),
-      { prevChapter: r } = t.root.get(),
+    const { model: t, controls: r } = A(),
+      { prevChapter: o } = t.root.get(),
       c = s(
-        { buttonSize: e.small },
-        { medium: { buttonSize: e.medium }, extraLarge: { buttonSize: e.large } },
+        { buttonSize: n.small },
+        { medium: { buttonSize: n.medium }, extraLarge: { buttonSize: n.large } },
       );
     return (
-      i(a.ESCAPE, n.close),
+      i(a.ESCAPE, r.close),
       (0, g.jsxs)("div", {
         className: k,
         children: [
-          (0, g.jsx)("div", { className: S }),
+          (0, g.jsx)("div", { className: z }),
           (0, g.jsxs)("div", {
-            className: z,
+            className: E,
             children: [
-              (0, g.jsx)(o, {
+              (0, g.jsx)(x, {
                 size: c.buttonSize,
-                onClick: n.confirm,
+                onClick: r.confirm,
                 "data-test-id": "confirmButton",
-                children: 0 === r ? w.button.submit() : w.button.switch(),
+                children: 0 === o ? S.button.submit() : S.button.switch(),
               }),
-              (0, g.jsx)(o, {
+              (0, g.jsx)(x, {
                 size: c.buttonSize,
-                theme: h.secondary,
-                onClick: n.close,
-                className: E,
+                theme: e.secondary,
+                onClick: r.close,
+                className: w,
                 "data-test-id": "cancelButton",
-                children: w.button.cancel(),
+                children: S.button.cancel(),
               }),
             ],
           }),
@@ -87,14 +87,14 @@ var _ = "ExtraChapterDescription_b9765d9b",
       })
     );
   }),
-  P = "App_3018b200",
-  T = "App_title_50c7a92f",
+  T = "App_3018b200",
+  P = "App_title_50c7a92f",
   B = "App_subTitle_78a165db",
-  $ = "App_topRight_6cd3f8f6",
-  y = "App_closeBtn_bc1dfeba",
-  M = R.strings.battle_pass.chapterChoice.confirmation,
-  Y = (t) => R.strings.battle_pass.chapter.fullName.$num(t),
-  F = b(() => {
+  y = "App_topRight_6cd3f8f6",
+  M = "App_closeBtn_bc1dfeba",
+  $ = R.strings.battle_pass.chapterChoice.confirmation,
+  F = (t) => R.strings.battle_pass.chapter.fullName.$num(t),
+  I = b(() => {
     const { model: t, controls: e } = A(),
       {
         prevChapter: s,
@@ -103,32 +103,32 @@ var _ = "ExtraChapterDescription_b9765d9b",
       } = t.root.get(),
       n = 0 !== s ? "switch" : "select";
     return (0, g.jsxs)("div", {
-      className: P,
+      className: T,
       children: [
         (0, g.jsx)("div", {
-          className: $,
+          className: y,
           children: (0, g.jsx)("div", {
-            className: y,
-            children: (0, g.jsx)(r, { onClose: e.close }),
+            className: M,
+            children: (0, g.jsx)(o, { onClose: e.close }),
           }),
         }),
         (0, g.jsx)("div", {
-          className: T,
-          children: (0, g.jsx)(l, { text: M.title.$dyn(n), binding: { chName: Y(a) } }),
+          className: P,
+          children: (0, g.jsx)(l, { text: $.title.$dyn(n), binding: { chName: F(a) } }),
         }),
         i
           ? (0, g.jsx)(N, {})
           : (0, g.jsx)("div", {
               className: B,
-              children: (0, g.jsx)(l, { text: M.description.$dyn(n), binding: { chName: Y(s) } }),
+              children: (0, g.jsx)(l, { text: $.description.$dyn(n), binding: { chName: F(s) } }),
             }),
         (0, g.jsx)(D, {}),
       ],
     });
   });
-p(
-  new m()
-    .add(x)
+h(
+  new p()
+    .add(m)
     .addWithProps(v, {})
-    .render((0, g.jsx)(F, {})),
+    .render((0, g.jsx)(I, {})),
 );

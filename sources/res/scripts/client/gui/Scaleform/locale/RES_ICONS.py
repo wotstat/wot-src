@@ -25944,6 +25944,11 @@ class RES_ICONS(object):
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP20_8 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp20_8.png'
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP20_9 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp20_9.png'
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_1 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_1.png'
+    MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_10 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_10.png'
+    MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_11 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_11.png'
+    MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_12 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_12.png'
+    MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_13 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_13.png'
+    MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_14 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_14.png'
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_2 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_2.png'
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_3 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_3.png'
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_4 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_4.png'
@@ -26330,6 +26335,11 @@ class RES_ICONS(object):
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP20_8 = b'../maps/icons/tankmen/icons/special/tankmen_bp20_8.png'
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP20_9 = b'../maps/icons/tankmen/icons/special/tankmen_bp20_9.png'
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_1 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_1.png'
+    MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_10 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_10.png'
+    MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_11 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_11.png'
+    MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_12 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_12.png'
+    MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_13 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_13.png'
+    MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_14 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_14.png'
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_2 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_2.png'
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_3 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_3.png'
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_4 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_4.png'
@@ -44370,6 +44380,11 @@ class RES_ICONS(object):
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP20_8,
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP20_9,
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_1,
+     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_10,
+     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_11,
+     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_12,
+     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_13,
+     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_14,
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_2,
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_3,
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_4,

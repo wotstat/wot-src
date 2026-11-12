@@ -12,7 +12,7 @@ import {
   z as d,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
-var n = s(e(), 1),
+var n = s(d(), 1),
   [b, _] = c("SelectableRewardTooltipModel")(({ observableModel: s }) => ({ root: s.object() }), i),
   m = "App_323a0b0b",
   u = "App_base__discount_5750b50d",
@@ -28,7 +28,7 @@ var n = s(e(), 1),
   R = "App_footerMask_12274a58",
   T = "App_infoIcon_4c97c465",
   D = s(t(), 1),
-  g = d(function () {
+  g = e(function () {
     const { model: s } = _(),
       { level: a, researchDiscount: e, purchaseDiscount: c, isDiscount: l } = s.root.get(),
       t = p(a);

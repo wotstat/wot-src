@@ -3492,7 +3492,7 @@ RECORDS = (
  (
   b'singleAchievements', b'BattlePassCommonPr_21extra_1', b'p', b'B', 1),
  (
-  b'singleAchievements', b'BPReserveAchievement_3', b'p', b'B', 1),
+  b'singleAchievements', b'BattlePassCommonPr_21extra_2', b'p', b'B', 1),
  (
   b'singleAchievements', b'BPReserveAchievement_4', b'p', b'B', 1),
  (
@@ -5606,7 +5606,7 @@ RECORD_DB_IDS = {(b'total', b'creationTime'): 68,
    (b'singleAchievements', b'BattlePassCommonPr_20'): 2020, 
    (b'singleAchievements', b'BattlePassCommonPr_21'): 2102, 
    (b'singleAchievements', b'BattlePassCommonPr_21extra_1'): 2103, 
-   (b'singleAchievements', b'BPReserveAchievement_3'): 2104, 
+   (b'singleAchievements', b'BattlePassCommonPr_21extra_2'): 2104, 
    (b'singleAchievements', b'BPReserveAchievement_4'): 2105, 
    (b'singleAchievements', b'BPReserveAchievement_5'): 2106, 
    (b'singleAchievements', b'BPReserveAchievement_6'): 2107, 

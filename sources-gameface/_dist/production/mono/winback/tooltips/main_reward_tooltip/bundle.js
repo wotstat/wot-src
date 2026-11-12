@@ -4,24 +4,24 @@ import {
   B as s,
   M as l,
   O as i,
-  S as r,
-  U as c,
-  V as d,
-  Z as n,
-  _t as v,
-  b as m,
-  ft as p,
-  lt as t,
-  t as o,
-  tt as h,
-  x as _,
-  z as j,
+  R as r,
+  S as c,
+  U as d,
+  V as n,
+  Z as v,
+  _t as m,
+  b as p,
+  ft as t,
+  lt as o,
+  t as h,
+  tt as _,
+  x as j,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { n as x } from "../../chunks/winback_reward_view_model.js";
-var [b, w] = c("MainRewardTooltipModel")(
+var [b, w] = d("MainRewardTooltipModel")(
     ({ observableModel: e }) => ({ rewards: e.array("rewards") }),
-    p,
+    t,
   ),
   L = "App_d6b0e451",
   A = "App_title_7858e66b",
@@ -33,13 +33,13 @@ var [b, w] = c("MainRewardTooltipModel")(
   k = "App_vehicle_4ade442a",
   S = "App_vehicleLevel_1a558fca",
   C = "App_discount_8b0e8a4b",
-  g = e(n(), 1),
-  y = v.resolve("strings"),
-  O = j(function () {
+  R = e(v(), 1),
+  g = m.resolve("strings"),
+  y = r(function () {
     const { model: e } = w(),
       s =
-        ((c = e.rewards.get()),
-        t(c, (e) => ({
+        ((r = e.rewards.get()),
+        o(r, (e) => ({
           name: e.name,
           image: i(e, l.Small),
           value: e.value,
@@ -47,48 +47,48 @@ var [b, w] = c("MainRewardTooltipModel")(
           vehicleLvl: "vehicleLvl" in e ? e.vehicleLvl : void 0,
           label: e.label,
         })));
-    var c;
-    return (0, g.jsx)(o, {
-      children: (0, g.jsxs)("div", {
+    var r;
+    return (0, R.jsx)(h, {
+      children: (0, R.jsxs)("div", {
         className: L,
         children: [
-          (0, g.jsx)("div", {
+          (0, R.jsx)("div", {
             className: A,
-            children: y.readOrEmpty("winback.mainRewardTooltip.title"),
+            children: g.readOrEmpty("winback.mainRewardTooltip.title"),
           }),
-          (0, g.jsx)("div", {
+          (0, R.jsx)("div", {
             className: E,
-            children: y.readOrEmpty("winback.mainRewardTooltip.description"),
+            children: g.readOrEmpty("winback.mainRewardTooltip.description"),
           }),
-          (0, g.jsxs)("div", {
+          (0, R.jsxs)("div", {
             className: N,
             children: [
-              (0, g.jsx)("div", { className: u }),
-              t(s, (e, a) =>
-                (0, g.jsxs)(
+              (0, R.jsx)("div", { className: u }),
+              o(s, (e, a) =>
+                (0, R.jsxs)(
                   "div",
                   {
                     className: f,
                     children: [
                       e.name === x.SELECTABLE_VEHICLE_DISCOUNT && e.vehicleLvl
-                        ? (0, g.jsxs)("div", {
+                        ? (0, R.jsxs)("div", {
                             className: k,
                             children: [
-                              (0, g.jsx)("div", { className: S, children: h(e.vehicleLvl) }),
-                              (0, g.jsx)("div", { className: C }),
+                              (0, R.jsx)("div", { className: S, children: _(e.vehicleLvl) }),
+                              (0, R.jsx)("div", { className: C }),
                             ],
                           })
-                        : (0, g.jsx)(m, { ...e, size: l.S48x48 }),
-                      (0, g.jsx)("div", {
+                        : (0, R.jsx)(p, { ...e, size: l.S48x48 }),
+                      (0, R.jsx)("div", {
                         className: T,
                         children:
                           e.name === x.SELECTABLE_VEHICLE_DISCOUNT && e.vehicleLvl
-                            ? (0, g.jsx)(_, {
+                            ? (0, R.jsx)(j, {
                                 path: "winback.mainRewardTooltip.vehicleRewardLabel",
-                                params: { level: h(e.vehicleLvl) },
+                                params: { level: _(e.vehicleLvl) },
                               })
-                            : (0, g.jsx)(g.Fragment, {
-                                children: (0, g.jsx)(r, { text: e.label }),
+                            : (0, R.jsx)(R.Fragment, {
+                                children: (0, R.jsx)(c, { text: e.label }),
                               }),
                       }),
                     ],
@@ -102,6 +102,6 @@ var [b, w] = c("MainRewardTooltipModel")(
       }),
     });
   });
-d((0, g.jsx)(b, { children: (0, g.jsx)(s, { children: (0, g.jsx)(O, {}) }) }), {
+n((0, R.jsx)(b, { children: (0, R.jsx)(s, { children: (0, R.jsx)(y, {}) }) }), {
   immediateLayout: !1,
 });

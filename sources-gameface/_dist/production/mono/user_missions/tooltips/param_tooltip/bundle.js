@@ -29,8 +29,8 @@ import {
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
 /* empty css                 */ import { t as A } from "../../chunks/divider.js";
-import { t as S } from "../../chunks/helpers.js";
-import { t as D } from "../../chunks/spec_conditions.js";
+import { t as S } from "../../chunks/spec_conditions.js";
+import { t as D } from "../../chunks/helpers.js";
 var O = e(a(), 1),
   [T, E] = i()(({ observableModel: s }) => {
     const e = s.primitives(["params", "type"]);
@@ -110,13 +110,13 @@ function J() {
 }
 var K = "Index_d037ad5c",
   Q = s({ SpecConditionsTooltipParamsSchema: () => V, default: () => X }),
-  V = x({ specConditions: y(S) }),
+  V = x({ specConditions: y(D) }),
   W = M(k(V));
 function X() {
   const { specConditions: s } = W();
   return (0, U.jsx)(t, {
     children: (0, U.jsx)(t.Decorator, {
-      children: (0, U.jsx)("div", { className: K, children: (0, U.jsx)(D, { specConditions: s }) }),
+      children: (0, U.jsx)("div", { className: K, children: (0, U.jsx)(S, { specConditions: s }) }),
     }),
   });
 }

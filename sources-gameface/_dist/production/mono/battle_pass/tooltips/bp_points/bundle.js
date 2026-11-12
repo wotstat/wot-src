@@ -2,8 +2,8 @@ import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
   Er as e,
   Jn as t,
-  Vr as i,
-  Xt as a,
+  Qt as i,
+  Vr as a,
   Yn as n,
   Zn as l,
   _n as o,
@@ -19,7 +19,7 @@ import { h as x } from "../../chunks/vendor.js";
 import { n as j, t as p } from "../../chunks/wot_plus_banner.js";
 import { n as v, t as b } from "../../chunks/per_battle_points_table.js";
 c();
-var u = s(a(), 1),
+var u = s(i(), 1),
   f = "VehicleList_82a6a4d",
   N = "VehicleList_info_41a84ef",
   g = "VehicleList_points_9c8e2f92",
@@ -75,7 +75,7 @@ var u = s(a(), 1),
       rewardPoints: s.array("rewardPoints"),
       vehiclesList: s.array("vehiclesList"),
     }),
-    i,
+    a,
   ),
   V = "Header_a103bd21",
   S = "Header_icon_eed746ab",
@@ -128,7 +128,7 @@ var u = s(a(), 1),
     });
   }),
   J = "Content_d4d03eba",
-  X = "Content_separator_774f59ff",
+  Q = "Content_separator_774f59ff",
   Y = "Content_subtitleRules_2104a67e",
   Z = "Content_subtitleVehicles_ead57094",
   q = "Content_pointsWrapper_21e79339",
@@ -150,7 +150,7 @@ var u = s(a(), 1),
           children: [
             (0, P.jsx)(F, {}),
             t && (0, P.jsx)(p, {}),
-            (0, P.jsx)("div", { className: X }),
+            (0, P.jsx)("div", { className: Q }),
           ],
         }),
         e.length > 0 &&
@@ -158,7 +158,7 @@ var u = s(a(), 1),
             children: [
               (0, P.jsx)("div", { className: Z, children: K.specialVehicles() }),
               (0, P.jsx)(C, { vehiclesList: e }),
-              (0, P.jsx)("div", { className: z, children: (0, P.jsx)("div", { className: X }) }),
+              (0, P.jsx)("div", { className: z, children: (0, P.jsx)("div", { className: Q }) }),
             ],
           }),
         (0, P.jsx)("div", {
@@ -168,10 +168,10 @@ var u = s(a(), 1),
       ],
     });
   }),
-  Q = () => (0, P.jsx)(h, { children: (0, P.jsx)(h.Decorator, { children: (0, P.jsx)(O, {}) }) });
+  U = () => (0, P.jsx)(h, { children: (0, P.jsx)(h.Decorator, { children: (0, P.jsx)(O, {}) }) });
 d(
   new _()
     .add(m)
     .addWithProps(L, {})
-    .render((0, P.jsx)(Q, {})),
+    .render((0, P.jsx)(U, {})),
 );

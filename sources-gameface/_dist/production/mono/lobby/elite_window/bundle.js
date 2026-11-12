@@ -1,30 +1,30 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
-  B as s,
-  Ct as a,
-  Et as l,
-  Fn as i,
+  Ct as s,
+  Et as a,
+  Fn as l,
   Hn as t,
-  Jt as o,
-  Rt as n,
-  St as c,
-  Tn as r,
-  Wt as d,
-  bt as _,
+  Jt as i,
+  Rt as o,
+  St as n,
+  Tn as c,
+  Wt as r,
+  bt as d,
+  dt as _,
   gt as m,
   ht as g,
-  it as v,
-  lt as p,
-  ot as N,
-  rt as x,
+  mt as v,
+  q as p,
+  ut as N,
+  xt as x,
   yt as j,
   zn as h,
 } from "../chunks/lib.js";
 import "../chunks/_wg-global-styles.js";
 import { m as b } from "../chunks/vendor.js";
 h();
-var f = e(g(), 1),
-  u = (function (e) {
+var u = e(x(), 1),
+  f = (function (e) {
     return (
       (e.STANDARD = "standard"),
       (e.POST_PROGRESSION = "postProgression"),
@@ -32,7 +32,7 @@ var f = e(g(), 1),
       e
     );
   })({}),
-  [P, k] = l()(
+  [P, k] = a()(
     ({ observableModel: e }) => ({
       ...e.primitives(["type", "isPrestigeAvailable"]),
       vehicleInfo: e.object("vehicleInfo"),
@@ -48,18 +48,18 @@ var f = e(g(), 1),
   C = "Icon_glow__strong_cd5dd8a1",
   S = "Icon_7f7c6297",
   T = "Icon_tankIcon_34bc69b9",
-  A = o(),
+  A = i(),
   E = t.resolve("images"),
   I = b(({ vehicleType: e }) => {
     const { model: s } = k(),
-      a = d({ value: "c_440x330" }, { small: { value: "c_600x450" } }),
-      l = E.readOrEmpty(`elitewindow.tank_icons.${a.value}.${i(e)}`);
+      a = r({ value: "c_440x330" }, { small: { value: "c_600x450" } }),
+      t = E.readOrEmpty(`elitewindow.tank_icons.${a.value}.${l(e)}`);
     return (0, A.jsxs)("div", {
       className: S,
       children: [
-        (0, A.jsx)("div", { className: (0, f.default)(w, C) }),
-        !s.isPrestigeAvailable.get() && (0, A.jsx)("div", { className: (0, f.default)(w, y) }),
-        (0, A.jsx)("div", { className: T, style: { backgroundImage: `url(${l})` } }),
+        (0, A.jsx)("div", { className: (0, u.default)(w, C) }),
+        !s.isPrestigeAvailable.get() && (0, A.jsx)("div", { className: (0, u.default)(w, y) }),
+        (0, A.jsx)("div", { className: T, style: { backgroundImage: `url(${t})` } }),
       ],
     });
   }),
@@ -77,10 +77,10 @@ var f = e(g(), 1),
     const { model: s } = k(),
       a = s.type.get(),
       l =
-        a === u.POST_PROGRESSION ? M.post_progression.description() : M.vanity_progression.title(),
-      i = a !== u.POST_PROGRESSION && M.vanity_progression.description();
+        a === f.POST_PROGRESSION ? M.post_progression.description() : M.vanity_progression.title(),
+      t = a !== f.POST_PROGRESSION && M.vanity_progression.description();
     return (0, A.jsxs)("div", {
-      className: (0, f.default)(B, e),
+      className: (0, u.default)(B, e),
       children: [
         (0, A.jsxs)("div", {
           className: D,
@@ -93,18 +93,18 @@ var f = e(g(), 1),
             l &&
               (0, A.jsxs)("div", {
                 className: L,
-                children: [a === u.POST_PROGRESSION && (0, A.jsx)("div", { className: $ }), l],
+                children: [a === f.POST_PROGRESSION && (0, A.jsx)("div", { className: $ }), l],
               }),
-            i && (0, A.jsx)(p, { text: i, split: !0, className: F }),
+            t && (0, A.jsx)(j, { text: t, split: !0, className: F }),
           ],
         }),
       ],
     });
   }),
-  J = "Content_glow_7d6ef440",
-  K = "Content_glow__strong_4a868d52",
-  V = "Content_9af045a3",
-  q = "Content_base__hasPostProgression_a9391767",
+  q = "Content_glow_7d6ef440",
+  J = "Content_glow__strong_4a868d52",
+  K = "Content_9af045a3",
+  V = "Content_base__hasPostProgression_a9391767",
   Q = "Content_main_f562db1d",
   U = "Content_section_57c57489",
   X = "Content_section__image_7f1ebf74",
@@ -114,21 +114,21 @@ var f = e(g(), 1),
   se = "Content_prestigeBadge_a19642a7",
   ae = "Content_prestigeEmblem_5e4cfab0",
   le = "Content_postProgression_9f8673d",
-  ie = "Content_arrow_82982ba8",
-  te = R.strings.elite_window.elite_window,
+  te = "Content_arrow_82982ba8",
+  ie = R.strings.elite_window.elite_window,
   oe = b(({ className: e }) => {
     const { model: s, controls: a } = k(),
       l = s.vehicleInfo.get(),
-      i = s.type.get(),
-      t = s.isPrestigeAvailable.get(),
+      t = s.type.get(),
+      i = s.isPrestigeAvailable.get(),
       o = s.prestigeEmblem.get();
     return (0, A.jsxs)("div", {
-      className: (0, f.default)(V, i !== u.STANDARD && q),
+      className: (0, u.default)(K, t !== f.STANDARD && V),
       children: [
         (0, A.jsxs)("div", {
           className: Q,
           children: [
-            (0, A.jsx)("div", { className: ie }),
+            (0, A.jsx)("div", { className: te }),
             (0, A.jsxs)("div", {
               className: U,
               children: [
@@ -139,25 +139,25 @@ var f = e(g(), 1),
                 (0, A.jsxs)("div", {
                   className: Y,
                   children: [
-                    (0, A.jsx)("div", { className: Z, children: te.elite.title() }),
-                    (0, A.jsx)(p, { className: ee, text: te.elite.description(), split: !0 }),
+                    (0, A.jsx)("div", { className: Z, children: ie.elite.title() }),
+                    (0, A.jsx)(j, { className: ee, text: ie.elite.description(), split: !0 }),
                   ],
                 }),
               ],
             }),
-            t &&
+            i &&
               (0, A.jsxs)("div", {
                 className: U,
                 children: [
                   (0, A.jsxs)("div", {
-                    className: (0, f.default)(X, se),
+                    className: (0, u.default)(X, se),
                     children: [
-                      (0, A.jsx)("div", { className: (0, f.default)(J, K) }),
-                      (0, A.jsx)(v, {
+                      (0, A.jsx)("div", { className: (0, u.default)(q, J) }),
+                      (0, A.jsx)(m, {
                         level: o.level,
                         grade: o.grade ?? 1,
                         type: o.type,
-                        size: v.sizes.xl,
+                        size: m.sizes.xl,
                         classNames: { base: ae },
                       }),
                     ],
@@ -165,15 +165,15 @@ var f = e(g(), 1),
                   (0, A.jsxs)("div", {
                     className: Y,
                     children: [
-                      (0, A.jsx)("div", { className: Z, children: te.prestige.title() }),
-                      (0, A.jsx)(p, { className: ee, text: te.prestige.description(), split: !0 }),
+                      (0, A.jsx)("div", { className: Z, children: ie.prestige.title() }),
+                      (0, A.jsx)(j, { className: ee, text: ie.prestige.description(), split: !0 }),
                     ],
                   }),
                 ],
               }),
           ],
         }),
-        i !== u.STANDARD && (0, A.jsx)(W, { className: le }),
+        t !== f.STANDARD && (0, A.jsx)(W, { className: le }),
       ],
     });
   }),
@@ -184,23 +184,23 @@ var f = e(g(), 1),
     const { model: s, controls: a } = k(),
       l = s.type.get();
     return (0, A.jsxs)("div", {
-      className: (0, f.default)(ne, e),
+      className: (0, u.default)(ne, e),
       children: [
-        (0, A.jsx)(m, {
+        (0, A.jsx)(_, {
           onClick: a.close,
-          size: j.medium,
-          theme: _.primary,
+          size: v.medium,
+          theme: g.primary,
           className: ce,
           children: re.buttons.ok(),
         }),
-        l !== u.STANDARD &&
-          (0, A.jsx)(m, {
+        l !== f.STANDARD &&
+          (0, A.jsx)(_, {
             onClick: a.goToProgression,
-            size: j.medium,
-            theme: _.secondary,
+            size: v.medium,
+            theme: g.secondary,
             classNames: { base: ce },
             children:
-              l === u.POST_PROGRESSION
+              l === f.POST_PROGRESSION
                 ? re.buttons.post_progression()
                 : re.buttons.vanity_progression(),
           }),
@@ -213,18 +213,18 @@ var f = e(g(), 1),
   ve = "Header_title_b0ea43f0",
   pe = R.strings.elite_window.elite_window,
   Ne = b(({ className: e }) => {
-    const { model: a } = k(),
-      l = a.vehicleInfo.get();
-    if (l.vehicleType in x)
+    const { model: s } = k(),
+      a = s.vehicleInfo.get();
+    if (a.vehicleType in N)
       return (0, A.jsxs)("div", {
-        className: (0, f.default)(_e, e),
+        className: (0, u.default)(_e, e),
         children: [
-          (0, A.jsxs)(s, {
+          (0, A.jsxs)(p, {
             className: me,
             children: [
-              (0, A.jsx)(s.Level, { className: ge, value: l.vehicleLvl }),
-              (0, A.jsx)(s.Type, { type: l.vehicleType, premium: l.isElite }),
-              (0, A.jsx)(s.Name, { className: ge, children: l.vehicleName }),
+              (0, A.jsx)(p.Level, { className: ge, value: a.vehicleLvl }),
+              (0, A.jsx)(p.Type, { type: a.vehicleType, premium: a.isElite }),
+              (0, A.jsx)(p.Name, { className: ge, children: a.vehicleName }),
             ],
           }),
           (0, A.jsx)("div", { className: ve, children: pe.title() }),
@@ -235,18 +235,18 @@ var f = e(g(), 1),
   je = "App_backgroundGlare_3ba092e8",
   he = "App_header_494088d4",
   be = "App_footer_ac8fd39",
-  fe = "App_closeButton_c796cf51",
-  ue = b(function () {
+  ue = "App_closeButton_c796cf51",
+  fe = b(function () {
     const { controls: e } = k();
     return (
-      n(r.ESCAPE, e.close),
+      o(c.ESCAPE, e.close),
       (0, A.jsxs)("div", {
         className: xe,
         children: [
           (0, A.jsx)("div", { className: je }),
           (0, A.jsx)("div", {
-            className: fe,
-            children: (0, A.jsx)(N, {
+            className: ue,
+            children: (0, A.jsx)(d, {
               caption: R.strings.menu.viewHeader.closeBtn.label(),
               type: "close",
               side: "right",
@@ -260,4 +260,4 @@ var f = e(g(), 1),
       })
     );
   });
-a((0, A.jsx)(P, { children: (0, A.jsx)(c, { children: (0, A.jsx)(ue, {}) }) }));
+s((0, A.jsx)(P, { children: (0, A.jsx)(n, { children: (0, A.jsx)(fe, {}) }) }));

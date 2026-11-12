@@ -438,11 +438,11 @@ _EpicMetaGameConfig.__new__.__defaults__ = (
 class EpicGameConfig(namedtuple(b'EpicGameConfig', (b'isEnabled', b'enableWelcomeScreen', b'validVehicleLevels', b'battlePassDataEnabled',
  b'levelsToUpgrateAllReserves', b'seasons', b'cycleTimes', b'unlockableInBattleVehLevels',
  b'inBattleModifiers', b'peripheryIDs', b'primeTimes', b'rentVehicles', b'tooltips',
- b'reservesModifiers', b'squadRestrictions', b'url'))):
+ b'reservesModifiers', b'squadRestrictions', b'url', b'compareVisibleVehicles'))):
     __slots__ = ()
 
     def __new__(cls, **kwargs):
-        defaults = dict(isEnabled=False, enableWelcomeScreen=True, validVehicleLevels=[], battlePassDataEnabled=True, levelsToUpgrateAllReserves=[], unlockableInBattleVehLevels=[], inBattleModifiers={}, seasons={}, cycleTimes=(), peripheryIDs={}, primeTimes={}, rentVehicles=[], tooltips={}, reservesModifiers=[], squadRestrictions={}, url=b'')
+        defaults = dict(isEnabled=False, enableWelcomeScreen=True, validVehicleLevels=[], battlePassDataEnabled=True, levelsToUpgrateAllReserves=[], unlockableInBattleVehLevels=[], inBattleModifiers={}, seasons={}, cycleTimes=(), peripheryIDs={}, primeTimes={}, rentVehicles=[], tooltips={}, reservesModifiers=[], squadRestrictions={}, url=b'', compareVisibleVehicles=[])
         defaults.update(kwargs)
         return super(EpicGameConfig, cls).__new__(cls, **defaults)
 

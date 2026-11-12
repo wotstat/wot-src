@@ -773,9 +773,9 @@ function Ia({ children: e, className: a }) {
   (Ia.Steps = function ({ children: e, className: a }) {
     return (0, ie.jsx)("div", { className: x(wa, a), children: e });
   }));
-var Ba = "Footer_18dc5f5c",
-  Ta = "Footer_base__withReroll_4308958a",
-  La = "Footer_column_7a1da9ef",
+var Ba = "Footer_d700070c",
+  Ta = "Footer_base__withReroll_962c7b74",
+  La = "Footer_column_3a0edca9",
   Pa = "Footer_steps_e7a4a785",
   za = "Footer_divider_da83ce0f";
 function $a(e, a) {

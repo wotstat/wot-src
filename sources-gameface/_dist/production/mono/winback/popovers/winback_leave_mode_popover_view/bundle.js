@@ -2,17 +2,17 @@ import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
   B as e,
   J as a,
-  P as o,
-  T as t,
-  U as i,
-  V as n,
-  Z as l,
-  g as c,
-  x as r,
-  z as d,
+  N as o,
+  R as t,
+  T as i,
+  U as n,
+  V as l,
+  Z as c,
+  g as r,
+  x as d,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
-var [p, b] = i("WinbackLeaveModePopoverViewModel")(
+var [p, b] = n("WinbackLeaveModePopoverViewModel")(
     ({ observableModel: s }) => ({ ...s.primitives(["battlesCount"]) }),
     ({ externalModel: s }) => ({ close: s.createCallbackNoArgs("onClick") }),
   ),
@@ -24,27 +24,27 @@ var [p, b] = i("WinbackLeaveModePopoverViewModel")(
   k = "App_battlesLeft_43359d1b",
   u = "App_battlesCount_edd27fd7",
   v = "App_button_db861d1e",
-  w = s(l(), 1),
-  f = d(function () {
+  w = s(c(), 1),
+  f = t(function () {
     const { model: s, controls: e } = b();
     return (
       a(),
-      (0, w.jsx)(c, {
+      (0, w.jsx)(r, {
         children: (0, w.jsxs)("div", {
           className: m,
           children: [
             (0, w.jsxs)("div", {
               className: j,
               children: [
-                (0, w.jsx)(r, { className: x, path: "winback.winbackPopover.title" }),
-                (0, w.jsx)(t, {
+                (0, w.jsx)(d, { className: x, path: "winback.winbackPopover.title" }),
+                (0, w.jsx)(i, {
                   contentId: R.views.mono.winback.tooltips.mode_info_tooltip("resId"),
                   children: (0, w.jsx)("div", { className: _ }),
                 }),
               ],
             }),
-            (0, w.jsx)(r, { className: h, path: "winback.winbackPopover.description" }),
-            (0, w.jsx)(r, {
+            (0, w.jsx)(d, { className: h, path: "winback.winbackPopover.description" }),
+            (0, w.jsx)(d, {
               className: k,
               path: "winback.winbackPopover.battlesCount",
               params: {
@@ -54,13 +54,13 @@ var [p, b] = i("WinbackLeaveModePopoverViewModel")(
             (0, w.jsx)(o, {
               mixClass: v,
               onClick: e.close,
-              children: (0, w.jsx)(r, { path: "winback.winbackPopover.turnOff" }),
+              children: (0, w.jsx)(d, { path: "winback.winbackPopover.turnOff" }),
             }),
           ],
         }),
       })
     );
   });
-n((0, w.jsx)(p, { children: (0, w.jsx)(e, { children: (0, w.jsx)(f, {}) }) }), {
+l((0, w.jsx)(p, { children: (0, w.jsx)(e, { children: (0, w.jsx)(f, {}) }) }), {
   immediateLayout: !1,
 });

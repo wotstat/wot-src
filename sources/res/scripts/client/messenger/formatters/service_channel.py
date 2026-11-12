@@ -903,6 +903,7 @@ class BattleResultsFormatter(WaitItemsSyncFormatter):
 
     def __makeAchievementsAndBadgesStrings(self, battleResults):
         popUpRecords = []
+        popUpRecordNames = set()
         badges = []
         for vehBattleResults in itervalues(battleResults.get(u'playerVehicles', {})):
             for recordIdx, value in vehBattleResults.get(u'popUpRecords', []):
@@ -914,7 +915,8 @@ class BattleResultsFormatter(WaitItemsSyncFormatter):
                     badges.append(name)
                 else:
                     achieve = getAchievementFactory(recordName).create(value=value)
-                    if achieve is not None and achieve not in popUpRecords:
+                    if achieve is not None and recordName not in popUpRecordNames:
+                        popUpRecordNames.add(recordName)
                         popUpRecords.append(achieve)
 
             if u'markOfMastery' in vehBattleResults and vehBattleResults[u'markOfMastery'] > 0:

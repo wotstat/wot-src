@@ -3,15 +3,15 @@ import {
   $n as t,
   Bi as s,
   Ca as a,
-  In as l,
-  J as o,
-  Ri as i,
-  Tr as r,
-  Xr as n,
-  Yr as c,
-  ar as d,
-  ba as u,
-  cn as m,
+  G as l,
+  In as o,
+  Kt as i,
+  Ri as r,
+  Tr as n,
+  Xr as c,
+  Yr as d,
+  ar as u,
+  ba as m,
   cr as p,
   da as h,
   di as y,
@@ -46,7 +46,7 @@ var P = {
   },
   $ = e(b()),
   L = j.resolve("strings"),
-  J = function ({ onClick: e, className: t }) {
+  M = function ({ onClick: e, className: t }) {
     const s = C();
     return (0, $.jsx)("div", {
       onClick: function (e) {
@@ -60,29 +60,29 @@ var P = {
       children: (0, $.jsx)("div", {
         onClick: e,
         className: P.closeButton,
-        children: (0, $.jsx)(d, { path: "ui.close_btn", width: 48, height: 48 }),
+        children: (0, $.jsx)(u, { path: "ui.close_btn", width: 48, height: 48 }),
       }),
     });
   },
-  M = {
-    default: { size: l.sizes.extraSmall },
+  J = {
+    default: { size: o.sizes.extraSmall },
     breakpoints: {
-      medium: { size: l.sizes.small },
-      large: { size: l.sizes.medium },
-      extraLarge: { size: l.sizes.large },
+      medium: { size: o.sizes.small },
+      large: { size: o.sizes.medium },
+      extraLarge: { size: o.sizes.large },
     },
   };
 function V({ buttons: e, onAction: t }) {
-  const s = y(M.default, M.breakpoints);
+  const s = y(J.default, J.breakpoints);
   return (0, $.jsx)("div", {
     className: P.buttonsBase,
     children: e.map((e, a) =>
       (0, $.jsx)(
-        l,
+        o,
         {
           className: P.button,
           autoAlignContent: !1,
-          theme: 0 === a ? l.themes.primary : l.themes.secondary,
+          theme: 0 === a ? o.themes.primary : o.themes.secondary,
           size: s.size,
           onClick: () => t(e.action),
           soundTarget: e.soundTarget,
@@ -99,14 +99,14 @@ var [D, F] = g()(
       const t = e.primitives(["params", "type"]),
         a = f.primitive(() => {
           try {
-            return m(A, JSON.parse(t.params.get())).title;
+            return i(A, JSON.parse(t.params.get())).title;
           } catch (e) {
             return (console.error("Can't get playlist title", e), "");
           }
         }),
         l = f.shallow(() => {
           try {
-            return m(B, JSON.parse(t.params.get()));
+            return i(B, JSON.parse(t.params.get()));
           } catch (e) {
             return (console.error("Can't parse import overlay params", e), { titles: new Set() });
           }
@@ -120,7 +120,7 @@ var [D, F] = g()(
         ),
         a = e.createCallback((e) => ({ action: e }), "onAction");
       return {
-        import: i((e) => {
+        import: r((e) => {
           s({ initial: T(S(t.importParams().titles, "playlists.defaultName"), e) });
         }),
         doAction: (e) => {
@@ -133,36 +133,36 @@ var [D, F] = g()(
     },
   ),
   R = "AlertOverlay_6a914e50",
-  U = "AlertOverlay_close_c8fc8fba",
-  W = "AlertOverlay_content_be3b87d6",
-  X = "AlertOverlay_glow_2370fdef",
-  Y = "AlertOverlay_icon_ec1d1576",
-  q = "AlertOverlay_divider_ffb30a39",
-  G = "AlertOverlay_title_f9ee7b93",
-  H = { iconSize: 157, glowSize: [998, 639] },
-  K = {
+  G = "AlertOverlay_close_c8fc8fba",
+  K = "AlertOverlay_content_be3b87d6",
+  U = "AlertOverlay_glow_2370fdef",
+  W = "AlertOverlay_icon_ec1d1576",
+  X = "AlertOverlay_divider_ffb30a39",
+  Y = "AlertOverlay_title_f9ee7b93",
+  q = { iconSize: 157, glowSize: [998, 639] },
+  H = {
     medium: { iconSize: 188, glowSize: [1200, 768] },
     extraLarge: { iconSize: 256, glowSize: [1632, 1044] },
   },
   Q = function ({ titlePath: e, titleParams: s }) {
-    const a = y(H, K);
+    const a = y(q, H);
     return (0, $.jsxs)("div", {
-      className: W,
+      className: K,
       children: [
-        (0, $.jsx)(d, {
+        (0, $.jsx)(u, {
           path: "hangar.playlists.overlay_glow",
           width: a.glowSize[0],
           height: a.glowSize[1],
-          className: X,
+          className: U,
         }),
-        (0, $.jsx)(d, {
+        (0, $.jsx)(u, {
           path: "library.icon_alert_256x256",
           width: a.iconSize,
           height: a.iconSize,
-          className: Y,
+          className: W,
         }),
-        (0, $.jsx)(t, { className: G, path: e, params: s }),
-        (0, $.jsx)(d, { path: "ui.noise", className: q, fit: "contain" }),
+        (0, $.jsx)(t, { className: Y, path: e, params: s }),
+        (0, $.jsx)(u, { path: "ui.noise", className: X, fit: "contain" }),
       ],
     });
   };
@@ -200,11 +200,11 @@ var ee = p(function () {
       t = e.model.type.get(),
       s = { playlistTitle: t === O.delete ? e.model.playlistTitle() : "" };
     return (
-      c(h.ESCAPE, e.controls.close),
+      d(h.ESCAPE, e.controls.close),
       (0, $.jsxs)("div", {
         className: R,
         children: [
-          (0, $.jsx)(J, { onClick: e.controls.close, className: U }),
+          (0, $.jsx)(M, { onClick: e.controls.close, className: G }),
           (0, $.jsx)(Q, { titlePath: `playlists.dialogs.${t}.title`, titleParams: s }),
           (0, $.jsx)(V, {
             buttons: Z(t),
@@ -224,28 +224,28 @@ var ee = p(function () {
   },
   se = j.resolve("strings"),
   ae = p(function (e) {
-    const t = y({ size: o.sizes.medium }, { medium: { size: o.sizes.large } });
-    return (0, $.jsx)(o.Provider, {
+    const t = y({ size: l.sizes.medium }, { medium: { size: l.sizes.large } });
+    return (0, $.jsx)(l.Provider, {
       value: e.state.code.get(),
       size: t.size,
-      state: e.state.valid.get() ? o.states.default : o.states.alert,
+      state: e.state.valid.get() ? l.states.default : l.states.alert,
       children: (0, $.jsxs)("div", {
         className: z(te.base, e.className),
         children: [
-          (0, $.jsxs)(o.Decoration, {
+          (0, $.jsxs)(l.Decoration, {
             className: te.decoration,
             children: [
-              (0, $.jsx)(o.Field, {
+              (0, $.jsx)(l.Field, {
                 onChange: (t) => e.state.setCode(t.currentTarget.value),
                 className: te.field,
                 classNames: { placeholder: te.placeholder },
                 "data-test-id": "playlistCodeInput",
                 children: se.readOrEmpty("playlists.dialogs.import.input.message"),
               }),
-              (0, $.jsx)(o.ClearButton, {}),
+              (0, $.jsx)(l.ClearButton, {}),
             ],
           }),
-          (0, $.jsx)(o.Message, {
+          (0, $.jsx)(l.Message, {
             visible: !e.state.valid.get(),
             className: te.message,
             children: se.readOrEmpty("playlists.dialogs.import.input.alert"),
@@ -263,11 +263,11 @@ var le = "Import_40d148c8",
   de = "Import_button_4685dd9f",
   ue = j.resolve("strings"),
   me = {
-    default: { size: l.sizes.extraSmall },
+    default: { size: o.sizes.extraSmall },
     breakpoints: {
-      medium: { size: l.sizes.small },
-      large: { size: l.sizes.medium },
-      extraLarge: { size: l.sizes.large },
+      medium: { size: o.sizes.small },
+      large: { size: o.sizes.medium },
+      extraLarge: { size: o.sizes.large },
     },
   },
   pe = p(function ({ state: e }) {
@@ -285,24 +285,24 @@ var le = "Import_40d148c8",
       );
     }
     return (
-      n(h.ENTER, a),
+      c(h.ENTER, a),
       (0, $.jsxs)("div", {
         className: ce,
         children: [
-          (0, $.jsx)(l, {
+          (0, $.jsx)(o, {
             className: de,
             autoAlignContent: !1,
-            theme: l.themes.primary,
+            theme: o.themes.primary,
             size: t.size,
             onClick: a,
             soundTarget: "vehicle:playlists:overlay:submit_button",
             "data-test-id": "importPlaylist",
             children: ue.readOrEmpty("playlists.dialogs.import.button.submit"),
           }),
-          (0, $.jsx)(l, {
+          (0, $.jsx)(o, {
             className: de,
             autoAlignContent: !1,
-            theme: l.themes.secondary,
+            theme: o.themes.secondary,
             size: t.size,
             onClick: () => s.controls.doAction(k.cancel),
             soundTarget: "vehicle:playlists:overlay:cancel_button",
@@ -321,18 +321,18 @@ var le = "Import_40d148c8",
         return {
           valid: e,
           code: t,
-          setValid: i(e.set.bind(e)),
-          setCode: i((s) => {
+          setValid: r(e.set.bind(e)),
+          setCode: r((s) => {
             (e.set(!0), t.set(s));
           }),
         };
       });
     return (
-      c(h.ESCAPE, e.controls.close),
+      d(h.ESCAPE, e.controls.close),
       (0, $.jsxs)("div", {
         className: le,
         children: [
-          (0, $.jsx)(J, { onClick: e.controls.close, className: ie }),
+          (0, $.jsx)(M, { onClick: e.controls.close, className: ie }),
           (0, $.jsxs)("div", {
             className: re,
             children: [
@@ -360,7 +360,7 @@ var le = "Import_40d148c8",
         return (console.error(`The overlay type for ${e} is not supported`), null);
     }
   }),
-  ve = r(w);
+  ve = n(w);
 N(
   new v()
     .addWithProps(_, { soundsOverrides: ve })
@@ -368,4 +368,4 @@ N(
     .render((0, $.jsx)(ye, {})),
 )
   .then(() => a(document.getElementById("root")))
-  .then(() => u());
+  .then(() => m());

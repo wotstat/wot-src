@@ -11,11 +11,11 @@ import {
   St as r,
   Tn as d,
   Tt as p,
-  bt as m,
-  gt as _,
-  nn as b,
-  vn as u,
-  yt as h,
+  dt as m,
+  ht as _,
+  mt as h,
+  nn as u,
+  vn as b,
   zn as j,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
@@ -23,24 +23,24 @@ import { m as x } from "../../chunks/vendor.js";
 var v = s(j(), 1),
   f = "Description_9a429ac6",
   y = "Description_icon_61bd7cae",
-  g = "Description_title_fd356bf",
-  C = "Description_9c2cbcb1",
-  N = t(),
+  C = "Description_title_fd356bf",
+  N = "Description_9c2cbcb1",
+  g = t(),
   k = ({ icon: s, title: e, description: a }) =>
-    (0, N.jsxs)("div", {
+    (0, g.jsxs)("div", {
       className: f,
       children: [
-        (0, N.jsx)("div", { className: g, children: e }),
-        (0, N.jsx)("div", { className: y, style: { backgroundImage: `url(${s})` } }),
-        (0, N.jsx)("div", { className: C, children: a && l(a) }),
+        (0, g.jsx)("div", { className: C, children: e }),
+        (0, g.jsx)("div", { className: y, style: { backgroundImage: `url(${s})` } }),
+        (0, g.jsx)("div", { className: N, children: a && l(a) }),
       ],
     }),
   [A, w] = a()(
     ({ observableModel: s }) => {
       const e = { slides: s.arrayClone("slides"), ...s.primitives(["title", "buttonLabel"]) },
         a = p.shallow((s) => {
-          const a = u(e.slides.get(), s);
-          return (b(void 0 !== a, `Could not find slide with index ${s}.`), a);
+          const a = b(e.slides.get(), s);
+          return (u(void 0 !== a, `Could not find slide with index ${s}.`), a);
         });
       return { ...e, computed: { getSlideByIndex: a } };
     },
@@ -66,50 +66,50 @@ var v = s(j(), 1),
       leave: { opacity: 0 },
       config: { tension: 280, friction: 60 },
     });
-    return (0, N.jsxs)("div", {
+    return (0, g.jsxs)("div", {
       className: B,
       children: [
-        (0, N.jsxs)("div", {
+        (0, g.jsxs)("div", {
           className: E,
           children: [
-            (0, N.jsx)(_, {
+            (0, g.jsx)(m, {
               classNames: { base: i($, I, 0 === a && P) },
               disabled: 0 === a,
-              theme: m.secondary,
+              theme: _.secondary,
               onClick: () => {
                 t((s) => s - 1);
               },
             }),
-            (0, N.jsx)("div", {
+            (0, g.jsx)("div", {
               className: S,
               children: r((e, a) =>
-                (0, N.jsxs)(o.div, {
+                (0, g.jsxs)(o.div, {
                   className: D,
                   style: e,
                   children: [
-                    (0, N.jsx)("div", { className: L, children: `${a + 1} / ${l}` }),
-                    (0, N.jsx)(k, { ...s.computed.getSlideByIndex(a) }),
+                    (0, g.jsx)("div", { className: L, children: `${a + 1} / ${l}` }),
+                    (0, g.jsx)(k, { ...s.computed.getSlideByIndex(a) }),
                   ],
                 }),
               ),
             }),
-            (0, N.jsx)(_, {
+            (0, g.jsx)(m, {
               classNames: { base: i($, a === l - 1 && P) },
               disabled: a === l - 1,
-              theme: m.secondary,
+              theme: _.secondary,
               onClick: () => {
                 t((s) => s + 1);
               },
             }),
           ],
         }),
-        (0, N.jsx)(_, {
+        (0, g.jsx)(m, {
           size: h.medium,
-          theme: m.primary,
+          theme: _.primary,
           onClick: e.onClose,
           children: s.buttonLabel.get(),
         }),
       ],
     });
   });
-e((0, N.jsx)(A, { children: (0, N.jsx)(r, { children: (0, N.jsx)(T, {}) }) }));
+e((0, g.jsx)(A, { children: (0, g.jsx)(r, { children: (0, g.jsx)(T, {}) }) }));

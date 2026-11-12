@@ -15,7 +15,7 @@ import {
   z as m,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
-var b = e(t(), 1),
+var b = e(m(), 1),
   [_, p] = s("SelectedRewardsTooltipModel")(({ observableModel: e }) => {
     const t = { selectedRewards: e.array("selectedRewards", []) },
       s = a(() => t.selectedRewards.get().length);
@@ -129,7 +129,7 @@ var A = "App_980cfdcc",
   U = "App_reward__lastInColumn_6a1828d9",
   P = e(d(), 1),
   B = (e) => ({ exp: e.expDiscount, credit: e.creditDiscount }),
-  M = m(function () {
+  M = t(function () {
     const { model: e } = p(),
       a = e.computes.selectedRewardsLength();
     return (0, v.jsxs)("div", {

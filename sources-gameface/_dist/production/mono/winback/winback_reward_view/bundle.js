@@ -44,7 +44,7 @@ import {
 import "../chunks/global.js";
 import { n as H, r as G, t as $ } from "../chunks/winback_reward_view_model.js";
 var B = e(j(), 1),
-  U = e(p(), 1),
+  U = e(P(), 1),
   W = [H.SELECTABLE_VEHICLE_FOR_GIFT, H.SELECTABLE_VEHICLE_DISCOUNT],
   K = [
     H.VEHICLE_FOR_GIFT,
@@ -131,7 +131,7 @@ var B = e(j(), 1),
   X = "Actions_button_d816f92b",
   Z = e(v(), 1),
   J = x.resolve("strings"),
-  ee = P(function () {
+  ee = p(function () {
     const { model: e, controls: a } = q(),
       { secondRowRewardsShowed: s } = (0, B.useContext)(ze),
       [r] = ((e) => {
@@ -159,15 +159,15 @@ var B = e(j(), 1),
           ),
           [a, r]
         );
-      })(`.${c.base}`),
-      i = { size: o.medium, mixClass: X, disabled: !s };
+      })(`.${b.base}`),
+      i = { size: c.medium, mixClass: X, disabled: !s };
     return e.isFirstProgressionStep.get()
       ? (0, Z.jsx)("div", {
           className: Y,
           ref: r,
-          children: (0, Z.jsx)(b, {
+          children: (0, Z.jsx)(u, {
             onClick: a.showQuests,
-            type: w.primary,
+            type: o.primary,
             ...i,
             children: J.readOrEmpty("winback.winbackRewardView.buttons.showQuests"),
           }),
@@ -177,15 +177,15 @@ var B = e(j(), 1),
             className: Y,
             ref: r,
             children: [
-              (0, Z.jsx)(b, {
+              (0, Z.jsx)(u, {
                 onClick: a.selectReward,
-                type: w.primary,
+                type: o.primary,
                 ...i,
                 children: J.readOrEmpty("winback.winbackRewardView.buttons.selectReward"),
               }),
-              (0, Z.jsx)(b, {
+              (0, Z.jsx)(u, {
                 onClick: a.close,
-                type: w.secondary,
+                type: o.secondary,
                 ...i,
                 children: J.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
               }),
@@ -196,15 +196,15 @@ var B = e(j(), 1),
               className: Y,
               ref: r,
               children: [
-                (0, Z.jsx)(b, {
+                (0, Z.jsx)(u, {
                   onClick: a.showVehicle,
-                  type: w.primary,
+                  type: o.primary,
                   ...i,
                   children: J.readOrEmpty("winback.winbackRewardView.buttons.showVehicle"),
                 }),
-                (0, Z.jsx)(b, {
+                (0, Z.jsx)(u, {
                   onClick: a.close,
-                  type: w.secondary,
+                  type: o.secondary,
                   ...i,
                   children: J.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
                 }),
@@ -213,8 +213,8 @@ var B = e(j(), 1),
           : (0, Z.jsx)("div", {
               className: Y,
               ref: r,
-              children: (0, Z.jsx)(b, {
-                type: w.primary,
+              children: (0, Z.jsx)(u, {
+                type: o.primary,
                 onClick: a.close,
                 ...i,
                 children: J.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
@@ -232,7 +232,7 @@ var B = e(j(), 1),
   se = x.resolve("strings"),
   re = [G.SELECTED_REWARDS, G.PROGRESSION_STEP, G.WINBACK_PROGRESSION_COMPLETED],
   ie = [G.REGULAR_PROGRESSION_COMPLETED],
-  te = P(function () {
+  te = p(function () {
     const { model: e } = q(),
       a = e.state.get();
     return (0, Z.jsxs)("div", {
@@ -532,7 +532,7 @@ var Ee = {
     [a.large]: [600, 600, 360, 360, 360, 360],
     [a.extraLarge]: [600, 600, 600, 360, 360],
   },
-  ve = P(function ({ reward: e }) {
+  ve = p(function ({ reward: e }) {
     const { model: a } = q(),
       { breakpoint: s } = f(),
       r = a.computes.getFirstRowRewards().length - 1,
@@ -629,7 +629,7 @@ var je = {
     secondRowRewards: "Rewards_secondRowRewards_a1e37c96",
   },
   Ie = x.resolve("strings"),
-  ke = P(function () {
+  ke = p(function () {
     const { model: e } = q(),
       a = e.computes.isRibbonGold(),
       s = e.computes.isLinesVisible(),
@@ -718,7 +718,7 @@ var je = {
   De = "App_actions__appear_13271a7f",
   ze = (0, B.createContext)({}),
   Me = x.resolve("strings"),
-  Fe = P(function () {
+  Fe = p(function () {
     const { model: e, controls: a } = q(),
       { screenWidthRem: s } = f(),
       [r, i] = (0, B.useState)(!1),
@@ -744,7 +744,7 @@ var je = {
         children: [
           (0, Z.jsx)("div", {
             className: Te,
-            children: (0, Z.jsx)(u, {
+            children: (0, Z.jsx)(w, {
               caption: Me.readOrEmpty("winback.winbackRewardView.buttons.close"),
               type: "close",
               side: "right",

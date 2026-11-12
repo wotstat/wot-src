@@ -6,7 +6,7 @@ import {
   Hn as l,
   Jt as t,
   St as d,
-  ht as i,
+  xt as i,
   yn as o,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
@@ -25,8 +25,8 @@ var n = e(i(), 1),
   ),
   m = "Upgrade_d729e0ca",
   g = "Upgrade_base__selected_ce84880a",
-  h = "Upgrade_background_5842edd3",
-  u = "Upgrade_icon_9713156d",
+  u = "Upgrade_background_5842edd3",
+  h = "Upgrade_icon_9713156d",
   v = "Upgrade_base__doubled_f669c22b",
   b = "Upgrade_description_88857dd8",
   j = "Upgrade_text_8b58d19c",
@@ -46,9 +46,9 @@ var n = e(i(), 1),
         N.play("highlight");
       },
       children: [
-        (0, f.jsx)("div", { className: h }),
+        (0, f.jsx)("div", { className: u }),
         (0, f.jsx)("div", {
-          className: u,
+          className: h,
           style: { backgroundImage: `url(${y.readOrEmpty(`skillTree.comparison.${e}`)})` },
         }),
         (0, f.jsx)("div", {
