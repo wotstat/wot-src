@@ -1289,7 +1289,7 @@
           };
         window.ViewEnvHelper = w;
       },
-      5642: (u, e, t) => {
+      3651: (u, e, t) => {
         "use strict";
         var n = t(6179),
           a = t.n(n);
@@ -2790,7 +2790,7 @@
           const a = Math.trunc(e / Xe);
           return ((e -= a * Xe), { days: t, hours: n, minutes: a, seconds: e });
         }
-        const et = (u, e = !0) =>
+        const et = (u, e = !0, t = !1) =>
             u.days > 7 && e
               ? (0, Au.WU)(R.strings.common.duration.days(), { days: u.days })
               : u.days >= 1
@@ -2800,7 +2800,7 @@
                 : u.hours >= 1
                   ? 0 === u.minutes
                     ? (0, Au.WU)(R.strings.common.duration.hours(), { hours: u.hours })
-                    : `${(0, Au.WU)(R.strings.common.duration.hours(), { hours: u.hours })} ${(0, Au.WU)(R.strings.common.duration.minutes(), { minutes: u.minutes })}`
+                    : `${(0, Au.WU)(R.strings.common.duration.hours(), { hours: u.hours })} ${(0, Au.WU)(t ? R.strings.common.duration.shortMinutes() : R.strings.common.duration.minutes(), { minutes: u.minutes })}`
                   : (0, Au.WU)(R.strings.common.duration.minutes(), { minutes: u.minutes || 1 }),
           tt = () => {},
           nt = (u = 0, e, t = 0, a = tt) => {
@@ -2848,16 +2848,17 @@
         (0, n.memo)(
           ({
             duration: u,
-            icon: e = qe.Timer,
-            style: t = Ke.Description,
-            onTimeReached: r,
-            className: i = "",
-            classNames: o = {},
-            labelFormat: l = "",
+            withShortMinutes: e = !1,
+            icon: t = qe.Timer,
+            style: r = Ke.Description,
+            onTimeReached: i,
+            className: o = "",
+            classNames: l = {},
+            labelFormat: E = "",
           }) => {
-            const E = t !== Ke.Description ? 1 : void 0,
-              c = at(u, E),
-              A = (() => {
+            const c = r !== Ke.Description ? 1 : void 0,
+              A = at(u, c),
+              F = (() => {
                 const u = (0, n.useState)(s.O.view.getScale()),
                   e = u[0],
                   t = u[1];
@@ -2876,11 +2877,11 @@
                   e
                 );
               })();
-            r && r[c] && r[c]();
-            const F = ((u, e) => {
+            i && i[A] && i[A]();
+            const m = ((u, e, t = !1) => {
               switch (e) {
                 case Ke.Description:
-                  return et(u);
+                  return et(u, !0, t);
                 case Ke.Short:
                   return `${ot(u.minutes)}:${ot(u.seconds)}`;
                 case Ke.Long:
@@ -2888,22 +2889,22 @@
                 case Ke.Extended:
                   return `${(0, Au.WU)(R.strings.common.duration.days(), { days: u.days })} | ${ot(u.hours)}:${ot(u.minutes)}:${ot(u.seconds)}`;
               }
-            })(ut(c), t);
+            })(ut(A), r, e);
             return a().createElement(
               "div",
-              { className: g()(rt, i) },
-              e !== qe.None &&
+              { className: g()(rt, o) },
+              t !== qe.None &&
                 a().createElement("div", {
-                  className: g()(st, o.icon),
-                  style: { backgroundImage: `url('${Et(e, A)}')` },
+                  className: g()(st, l.icon),
+                  style: { backgroundImage: `url('${Et(t, F)}')` },
                 }),
-              l
+              E
                 ? a().createElement(
                     "div",
-                    { className: g()(it, o.text) },
-                    a().createElement(mu, { text: l, binding: { timerText: F } }),
+                    { className: g()(it, l.text) },
+                    a().createElement(mu, { text: E, binding: { timerText: m } }),
                   )
-                : a().createElement("div", { className: g()(it, o.text) }, F),
+                : a().createElement("div", { className: g()(it, l.text) }, m),
             );
           },
         );
@@ -3868,6 +3869,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(e.bind(null, 0)), (t.push = e.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [52], () => __webpack_require__(5642));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [52], () => __webpack_require__(3651));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

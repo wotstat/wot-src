@@ -35,7 +35,7 @@ class ElenRequestHandlers(RequestHandlers):
         return
 
     def __getMyLeaderboardPosition(self, ctx, callback):
-        self._requester.doRequestEx(ctx, callback, (b'wgelen', b'get_my_leaderboard_position'), ctx.getEventID(), ctx.getLeaderboardID())
+        self._requester.doRequestEx(ctx, callback, (b'wgelen', b'get_my_leaderboard_position'), ctx.getEventID(), ctx.getLeaderboardID(), ctx.getSpaID())
         return
 
     def __getLeaderboard(self, ctx, callback):

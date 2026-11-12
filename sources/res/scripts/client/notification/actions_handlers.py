@@ -1363,87 +1363,68 @@ class _OpenTradingCaravanRefill(_OpenShopSalesEventMainView):
         return (b'showTradingCaravanRefill',)
 
 
-class _OpenArmoryYardMain(NavigationDisabledActionHandler):
-    __ctrl = dependency.descriptor(IArmoryYardController)
-    __rerollCtrl = dependency.descriptor(IArmoryYardRerollController)
+class _ArmoryYardBaseActionHandler(NavigationDisabledActionHandler):
+    _ctrl = dependency.descriptor(IArmoryYardController)
+    _rerollCtrl = dependency.descriptor(IArmoryYardRerollController)
 
     @classmethod
     def getNotType(cls):
         return NOTIFICATION_TYPE.MESSAGE
+
+    def doAction(self, model, entityID, action):
+        rerollContext = self._rerollCtrl.getRerollContext()
+        if rerollContext is not None:
+            self._ctrl.goToArmoryYard(tabId=ArmoryTabId.QUESTS, ctx=rerollContext)
+        else:
+            self._goToArmoryYard()
+        return
+
+    def _goToArmoryYard(self):
+        raise NotImplementedError()
+        return
+
+
+class _OpenArmoryYardMain(_ArmoryYardBaseActionHandler):
 
     @classmethod
     def getActions(cls):
         return (b'openArmoryYardMain',)
 
-    def doAction(self, model, entityID, action):
-        rerollContext = self.__rerollCtrl.getRerollContext()
-        if rerollContext is not None:
-            self.__ctrl.goToArmoryYard(tabId=ArmoryTabId.QUESTS, ctx=rerollContext)
-        else:
-            self.__ctrl.goToArmoryYard()
+    def _goToArmoryYard(self):
+        self._ctrl.goToArmoryYard()
         return
 
 
-class _OpenArmoryYardBuyView(NavigationDisabledActionHandler):
-    __ctrl = dependency.descriptor(IArmoryYardController)
-    __rerollCtrl = dependency.descriptor(IArmoryYardRerollController)
-
-    @classmethod
-    def getNotType(cls):
-        return NOTIFICATION_TYPE.MESSAGE
+class _OpenArmoryYardBuyView(_ArmoryYardBaseActionHandler):
 
     @classmethod
     def getActions(cls):
         return (b'openArmoryYardBuy',)
 
-    def doAction(self, model, entityID, action):
-        rerollContext = self.__rerollCtrl.getRerollContext()
-        if rerollContext is not None:
-            self.__ctrl.goToArmoryYard(tabId=ArmoryTabId.QUESTS, ctx=rerollContext)
-        else:
-            self.__ctrl.goToArmoryYard(ctx={b'loadBuyView': True})
+    def _goToArmoryYard(self):
+        self._ctrl.goToArmoryYard(ctx={b'loadBuyView': True})
         return
 
 
-class _OpenArmoryYardQuest(NavigationDisabledActionHandler):
-    __ctrl = dependency.descriptor(IArmoryYardController)
-    __rerollCtrl = dependency.descriptor(IArmoryYardRerollController)
-
-    @classmethod
-    def getNotType(cls):
-        return NOTIFICATION_TYPE.MESSAGE
+class _OpenArmoryYardQuest(_ArmoryYardBaseActionHandler):
 
     @classmethod
     def getActions(cls):
         return (b'openArmoryYardQuest',)
 
-    def doAction(self, model, entityID, action):
-        rerollContext = self.__rerollCtrl.getRerollContext()
-        if rerollContext is not None:
-            self.__ctrl.goToArmoryYard(tabId=ArmoryTabId.QUESTS, ctx=rerollContext)
-        else:
-            self.__ctrl.goToArmoryYardQuests()
+    def _goToArmoryYard(self):
+        self._ctrl.goToArmoryYardQuests()
         return
 
 
-class _OpenArmoryYardRerollQuest(NavigationDisabledActionHandler):
-    __ctrl = dependency.descriptor(IArmoryYardController)
-    __rerollCtrl = dependency.descriptor(IArmoryYardRerollController)
-
-    @classmethod
-    def getNotType(cls):
-        return NOTIFICATION_TYPE.MESSAGE
+class _OpenArmoryYardRerollQuest(_ArmoryYardBaseActionHandler):
 
     @classmethod
     def getActions(cls):
         return (b'openArmoryYardRerollQuest',)
 
-    def doAction(self, model, entityID, action):
-        rerollContext = self.__rerollCtrl.getRerollContext()
-        if rerollContext is not None:
-            self.__ctrl.goToArmoryYard(tabId=ArmoryTabId.QUESTS, ctx=rerollContext)
-        else:
-            self.__ctrl.goToArmoryYard(tabId=ArmoryTabId.PROGRESS)
+    def _goToArmoryYard(self):
+        self._ctrl.goToArmoryYard(tabId=ArmoryTabId.PROGRESS)
         return
 
 

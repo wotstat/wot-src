@@ -3,7 +3,8 @@ from gui.Scaleform.genConsts.CONTEXT_HINT_PARAMS import CONTEXT_HINT_PARAMS
 from gui.Scaleform.genConsts.CONTEXT_HINT_STATE import CONTEXT_HINT_STATE
 from helpers.CallbackDelayer import CallbackDelayer
 from gui.battle_control.avatar_getter import getSoundNotifications
-from gui.battle_control.battle_context_hints.common import ContextHintsSoundEvents, getBestPiercingShellCD
+from gui.battle_control.battle_context_hints.common import getBestPiercingShellCD
+from gui.battle_control.battle_context_hints.hint_sounds import HintSoundEvent, AMMO_TYPE_SWITCH_APPLIED
 from gui.impl import backport
 from gui.impl.gen import R
 from helpers import dependency
@@ -97,11 +98,16 @@ class BaseHintLifecycleMgr(HintLifecycleMgr):
             return
 
     def _playHintSound(self):
-        if not self._hintSoundEvent:
+        self._playSoundEvent(self._hintSoundEvent)
+        return
+
+    @staticmethod
+    def _playSoundEvent(soundEvent):
+        if not soundEvent:
             return
         soundNotifications = getSoundNotifications()
         if soundNotifications and hasattr(soundNotifications, b'play'):
-            soundNotifications.play(self._hintSoundEvent)
+            soundNotifications.play(soundEvent.eventName, checkFn=soundEvent.checkFn)
         return
 
     def isShowing(self):
@@ -231,9 +237,7 @@ class AmmoTypeSwitchHintLifecycleMgr(ConsumablesPanelHintLifecycleMgr):
 
     def applied(self):
         if self.isShowing():
-            soundNotifications = getSoundNotifications()
-            if soundNotifications and hasattr(soundNotifications, b'play'):
-                soundNotifications.play(ContextHintsSoundEvents.AMMO_TYPE_SWITCH_APPLIED)
+            self._playSoundEvent(AMMO_TYPE_SWITCH_APPLIED)
         super(AmmoTypeSwitchHintLifecycleMgr, self).applied()
         return
 

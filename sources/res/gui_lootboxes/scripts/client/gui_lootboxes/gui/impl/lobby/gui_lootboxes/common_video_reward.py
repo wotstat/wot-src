@@ -23,6 +23,12 @@ class FakeGUILootbox(object):
     def getType(self):
         return b''
 
+    def getIconName(self):
+        return b''
+
+    def hasUniqueBack(self):
+        return False
+
 
 def getUniqueCommonRewardsData(rewards, lootbox):
     rewardsData = {REWARDS_DATA_CATEGORY: []}

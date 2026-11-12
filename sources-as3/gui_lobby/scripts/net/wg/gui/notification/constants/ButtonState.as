@@ -7,6 +7,8 @@ package net.wg.gui.notification.constants
       
       public static const ENABLED:Number = 2;
       
+      public static const WARNING:Number = 4;
+      
       public function ButtonState()
       {
          super();

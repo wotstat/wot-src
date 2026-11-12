@@ -10,8 +10,10 @@ from collections_common import CollectionsConfig
 from collector_vehicle import CollectorVehicleConsts
 from comp7_ranks_common import Comp7Division
 from constants import BATTLE_NOTIFIER_CONFIG, ClansConfig, Configs, DAILY_QUESTS_CONFIG, DOG_TAGS_CONFIG, MAGNETIC_AUTO_AIM_CONFIG, MISC_GUI_SETTINGS, PremiumConfigs, RENEWABLE_SUBSCRIPTION_CONFIG, PLAYER_SUBSCRIPTIONS_CONFIG, TOURNAMENT_CONFIG, ARENA_BONUS_TYPE, ACTIVE_TEST_CONFIRMATION_CONFIG, OFFERS_ENABLED_KEY, SwitchState
+from customization_resource_common import CUSTOMIZATION_RESOURCE_CURRENCY_CODE
 from debug_utils import LOG_DEBUG, LOG_NOTE
 from gifts.gifts_common import ClientReqStrategy, GiftEventID, GiftEventState
+from lootboxes_common import OPEN_BY_DEFAULT_ID
 from supply_shared import Supply
 from gui import GUI_SETTINGS, SystemMessages
 from gui.Scaleform.locale.SYSTEM_MESSAGES import SYSTEM_MESSAGES
@@ -944,7 +946,7 @@ class GiftEventConfig(namedtuple(b'_GiftEventConfig', (
         return self.giftEventState == GiftEventState.DISABLED
 
 
-class GiftSystemConfig(namedtuple(b'_GiftSystemConfig', (b'events',))):
+class GiftSystemConfig(namedtuple(b'_GiftSystemConfig', (b'events', b'itemToEventID'))):
     __slots__ = ()
 
     def __new__(cls, **kwargs):
@@ -965,8 +967,17 @@ class GiftSystemConfig(namedtuple(b'_GiftSystemConfig', (b'events',))):
 
     @classmethod
     def __packEventConfigs(cls, data):
-        data[b'events'] = {eID: makeTupleByDict(GiftEventConfig, eData) for eID, eData in data[b'events'].iteritems()}
+        events = {eID: makeTupleByDict(GiftEventConfig, eData) for eID, eData in data[b'events'].iteritems()}
+        data[b'events'], data[b'itemToEventID'] = events, cls.__getItemToEventMap(events)
         return
+
+    @classmethod
+    def __getItemToEventMap(cls, events):
+        result = {}
+        for eventID, eventConfig in events.iteritems():
+            result.update({itemID: eventID for itemID in eventConfig.giftItemIDs})
+
+        return result
 
 
 class _WellRewardConfig(namedtuple(b'_WellRewardConfig', (b'bonus', b'limit', b'isSerial', b'sequence', b'rewardId'))):
@@ -1368,7 +1379,7 @@ class PreModerationConfig(namedtuple(b'_PreModerationConfig', (b'prebattleDescri
 GUI_LOOT_BOXES_CONFIG = b'gui_loot_boxes_config'
 
 class _GuiLootBoxesConfig(object):
-    __slots__ = (b'__isEnabled', b'__lootBoxBuyDayLimit', b'__isBuyAvailable', b'__shopCategoryUrl', b'__isShowStatistic')
+    __slots__ = (b'__isEnabled', b'__lootBoxBuyDayLimit', b'__isBuyAvailable', b'__shopCategoryUrl', b'__isShowStatistic', b'__openByDefaultId')
 
     def __init__(self, **kwargs):
         super(_GuiLootBoxesConfig, self).__init__()
@@ -1377,6 +1388,7 @@ class _GuiLootBoxesConfig(object):
         self.__isBuyAvailable = kwargs.get(b'isBuyAvailable', False)
         self.__isShowStatistic = kwargs.get(b'isShowStatistic', False)
         self.__shopCategoryUrl = kwargs.get(b'shopCategoryUrl', b'')
+        self.__openByDefaultId = kwargs.get(OPEN_BY_DEFAULT_ID, 0)
         return
 
     @property
@@ -1386,6 +1398,10 @@ class _GuiLootBoxesConfig(object):
     @property
     def lootBoxBuyDayLimit(self):
         return self.__lootBoxBuyDayLimit
+
+    @property
+    def openByDefaultId(self):
+        return self.__openByDefaultId
 
     @property
     def isBuyAvailable(self):
@@ -1902,11 +1918,12 @@ class _ControlPointOverrideConfig(namedtuple(b'_ControlPointOverrideConfig', (
  b'isEnabled',
  b'flagPath',
  b'flagstaffPath',
- b'wweventName'))):
+ b'wweventName',
+ b'effectPrefab'))):
     __slots__ = ()
 
     def __new__(cls, **kwargs):
-        defaults = dict(isEnabled=False, flagPath=b'', flagstaffPath=b'', wweventName=b'')
+        defaults = dict(isEnabled=False, flagPath=b'', flagstaffPath=b'', wweventName=b'', effectPrefab=b'')
         defaults.update(kwargs)
         return super(_ControlPointOverrideConfig, cls).__new__(cls, **defaults)
 
@@ -2007,6 +2024,54 @@ class _SessionProgressRewardsConfig(namedtuple(b'_SessionProgressRewardsConfig',
         return cls()
 
 
+class VehicleDifficultyConfig(namedtuple(b'_VehicleDifficulty', (b'isEnabled', b'overrides'))):
+    __slots__ = ()
+
+    def __new__(cls, **kwargs):
+        defaults = dict(isEnabled=False, overrides={})
+        defaults.update(kwargs)
+        return super(VehicleDifficultyConfig, cls).__new__(cls, **defaults)
+
+    @classmethod
+    def defaults(cls):
+        return cls()
+
+    def replace(self, data):
+        allowedFields = self._fields
+        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        return self._replace(**dataToUpdate)
+
+
+class CustomizationResourceConfig(namedtuple(b'CustomizationResourceConfig', (
+ b'isEnabled',
+ b'customizationExchange',
+ b'customizationExchangeLimit',
+ b'batchLimit',
+ b'startDate',
+ b'endDate',
+ b'currencyCode',
+ b'priceGroups',
+ b'blacklist'))):
+    __slots__ = ()
+
+    def __new__(cls, **kwargs):
+        defaults = dict(isEnabled=False, customizationExchange=False, customizationExchangeLimit=0, batchLimit=0, startDate=0, endDate=0, currencyCode=CUSTOMIZATION_RESOURCE_CURRENCY_CODE, priceGroups=(), blacklist=())
+        defaults.update(kwargs)
+        return super(CustomizationResourceConfig, cls).__new__(cls, **defaults)
+
+    def asDict(self):
+        return self._asdict()
+
+    def replace(self, data):
+        allowedFields = self._fields
+        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        return self._replace(**dataToUpdate)
+
+    @classmethod
+    def defaults(cls):
+        return cls()
+
+
 class ServerSettings(object):
 
     def __init__(self, serverSettings):
@@ -2053,6 +2118,7 @@ class ServerSettings(object):
         self.__comp7RewardsConfig = Comp7RewardsConfig()
         self.__comp7SkillsConfig = Comp7SkillsConfig()
         self.__personalReservesConfig = PersonalReservesConfig()
+        self.__vehicleDifficultyConfig = VehicleDifficultyConfig()
         self.__playLimitsConfig = PlayLimitsConfig()
         self.__preModerationConfig = PreModerationConfig()
         self.__guiLootBoxesConfig = _GuiLootBoxesConfig()
@@ -2078,6 +2144,7 @@ class ServerSettings(object):
         self.__stallConfig = _StallConfig()
         self.__newbieChatLockConfig = _NewbieChatLockConfig()
         self.__sessionProgressRewardsConfig = _SessionProgressRewardsConfig()
+        self.__customizationResourceConfig = CustomizationResourceConfig()
         self.__schemaManager = getSchemaManager()
         self.set(serverSettings)
         return
@@ -2225,6 +2292,10 @@ class ServerSettings(object):
             self.__personalReservesConfig = makeTupleByDict(PersonalReservesConfig, self.__serverSettings[Configs.PERSONAL_RESERVES_CONFIG.value])
         else:
             self.__personalReservesConfig = PersonalReservesConfig.defaults()
+        if Configs.VEHICLE_DIFFICULTY_CONFIG.value in self.__serverSettings:
+            self.__vehicleDifficultyConfig = makeTupleByDict(VehicleDifficultyConfig, self.__serverSettings[Configs.VEHICLE_DIFFICULTY_CONFIG.value])
+        else:
+            self.__vehicleDifficultyConfig = VehicleDifficultyConfig.defaults()
         if Configs.PLAY_LIMITS_CONFIG.value in self.__serverSettings:
             self.__playLimitsConfig = makeTupleByDict(PlayLimitsConfig, self.__serverSettings[Configs.PLAY_LIMITS_CONFIG.value])
         if Configs.PRE_MODERATION_CONFIG.value in self.__serverSettings:
@@ -2292,6 +2363,10 @@ class ServerSettings(object):
             self.__newbieChatLockConfig = makeTupleByDict(_NewbieChatLockConfig, self.__serverSettings[Configs.NEWBIE_CHAT_LOCK_CONFIG.value])
         if Configs.SESSION_PROGRESS_REWARDS_CONFIG.value in self.__serverSettings:
             self.__sessionProgressRewardsConfig = makeTupleByDict(_SessionProgressRewardsConfig, self.__serverSettings[Configs.SESSION_PROGRESS_REWARDS_CONFIG.value])
+        if Configs.CUSTOMIZATION_RESOURCE_CONFIG.value in self.__serverSettings:
+            self.__customizationResourceConfig = makeTupleByDict(CustomizationResourceConfig, self.__serverSettings[Configs.CUSTOMIZATION_RESOURCE_CONFIG.value])
+        else:
+            self.__customizationResourceConfig = CustomizationResourceConfig.defaults()
         self.onServerSettingsChange(serverSettings)
         return
 
@@ -2414,6 +2489,8 @@ class ServerSettings(object):
         if Configs.VERSUS_AI_CONFIG.value in serverSettingsDiff:
             self.__updateVersusAI(serverSettingsDiff)
         self.__updatePersonalReserves(serverSettingsDiff)
+        if Configs.VEHICLE_DIFFICULTY_CONFIG.value in serverSettingsDiff:
+            self.__updateVehicleDifficultyConfig(serverSettingsDiff)
         self.__updateGuiLootBoxesConfig(serverSettingsDiff)
         if Configs.COLLECTIONS_CONFIG.value in serverSettingsDiff:
             self.__updateCollectionsConfig(serverSettingsDiff)
@@ -2449,6 +2526,8 @@ class ServerSettings(object):
             self.__updateNewbieChatLockConfig(serverSettingsDiff)
         if Configs.SESSION_PROGRESS_REWARDS_CONFIG.value in serverSettingsDiff:
             self.__updateSessionProgressRewardsConfig(serverSettingsDiff)
+        if Configs.CUSTOMIZATION_RESOURCE_CONFIG.value in serverSettingsDiff:
+            self.__updateCustomizationResourceConfig(serverSettingsDiff)
         self.__schemaManager.update(serverSettingsDiff)
         self.onServerSettingsChange(serverSettingsDiff)
         return
@@ -2700,6 +2779,10 @@ class ServerSettings(object):
         return self.__newbieStartPageConfig
 
     @property
+    def customizationResourceConfig(self):
+        return self.__customizationResourceConfig
+
+    @property
     def stallConfig(self):
         return self.__stallConfig
 
@@ -2710,6 +2793,10 @@ class ServerSettings(object):
     @property
     def sessionProgressRewardsConfig(self):
         return self.__sessionProgressRewardsConfig
+
+    @property
+    def vehicleDifficultyConfig(self):
+        return self.__vehicleDifficultyConfig
 
     def isEpicBattleEnabled(self):
         return self.epicBattles.isEnabled
@@ -2758,6 +2845,9 @@ class ServerSettings(object):
 
     def isLootBoxesEnabled(self):
         return self.__getGlobalSetting(b'isLootBoxesEnabled')
+
+    def isLootBoxEnabled(self, boxId):
+        return self.__getGlobalSetting(b'lootBoxes_config', {}).get(boxId, {}).get(b'enabled', False)
 
     def isAnonymizerEnabled(self):
         return self.__getGlobalSetting(b'isAnonymizerEnabled', False)
@@ -3099,6 +3189,9 @@ class ServerSettings(object):
     def getMuseumOfGloryConfig(self):
         return self.__getGlobalSetting(b'museum_of_glory_config', {})
 
+    def getNYConfig(self):
+        return self.__getGlobalSetting(b'ny_config', {})
+
     def __getGlobalSetting(self, settingsName, default=None):
         return self.__serverSettings.get(settingsName, default)
 
@@ -3268,6 +3361,10 @@ class ServerSettings(object):
         self.__peripheryRoutingConfig = self.__peripheryRoutingConfig.replace(diff[Configs.PERIPHERY_ROUTING_CONFIG.value])
         return
 
+    def __updateVehicleDifficultyConfig(self, serverSettingsDiff):
+        self.__vehicleDifficultyConfig = self.__vehicleDifficultyConfig.replace(serverSettingsDiff[Configs.VEHICLE_DIFFICULTY_CONFIG.value])
+        return
+
     def __updatePersonalReserves(self, serverSettingsDiff):
         if Configs.PERSONAL_RESERVES_CONFIG.value in serverSettingsDiff:
             self.__personalReservesConfig = self.__personalReservesConfig.replace(serverSettingsDiff[Configs.PERSONAL_RESERVES_CONFIG.value])
@@ -3367,6 +3464,10 @@ class ServerSettings(object):
 
     def __updateSessionProgressRewardsConfig(self, diff):
         self.__sessionProgressRewardsConfig = self.__sessionProgressRewardsConfig.replace(diff[Configs.SESSION_PROGRESS_REWARDS_CONFIG.value])
+        return
+
+    def __updateCustomizationResourceConfig(self, diff):
+        self.__customizationResourceConfig = self.__customizationResourceConfig.replace(diff[Configs.CUSTOMIZATION_RESOURCE_CONFIG.value])
         return
 
 

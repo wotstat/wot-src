@@ -8,7 +8,7 @@ from ClientUnitMgr import ClientUnitMgr, ClientUnitBrowser
 from ContactInfo import ContactInfo
 from OfflineMapCreator import g_offlineMapCreator
 from PlayerEvents import g_playerEvents as events
-from account_helpers import AccountSyncData, Inventory, DossierCache, Shop, Stats, QuestProgress, CustomFilesCache, BattleResultsCache, ClientGoodies, client_blueprints, client_recycle_bin, AccountSettings, client_anonymizer, ClientBattleRoyale, ArmoryYard, portal
+from account_helpers import AccountSyncData, Inventory, DossierCache, Shop, Stats, QuestProgress, CustomFilesCache, BattleResultsCache, ClientGoodies, client_blueprints, client_recycle_bin, AccountSettings, client_anonymizer, ClientBattleRoyale, ArmoryYard
 from account_helpers.dog_tags import DogTags
 from account_helpers.maps_training import MapsTraining
 from account_helpers.offers.sync_data import OffersSyncData
@@ -23,6 +23,7 @@ from account_helpers.festivity_manager import FestivityManager
 from account_helpers.game_restrictions import GameRestrictions
 from account_helpers.paragons import Paragons
 from account_helpers.resource_well import ResourceWell
+from account_helpers.ny_tamagotchi_raid import NyTamagotchiRaid
 from account_helpers.achievements20 import Achievements20
 from account_helpers.stall import Stall
 from account_helpers.telecom_rentals import TelecomRentals
@@ -54,7 +55,7 @@ from skeletons.gui.shared.utils import IHangarSpace
 from soft_exception import SoftException
 from streamIDs import RangeStreamIDCallbacks, STREAM_ID_CHAT_MAX, STREAM_ID_CHAT_MIN
 from shared_utils.account_helpers.diff_utils import synchronizeDicts
-StreamData = namedtuple(b'StreamData', [57, 58, 59, 60, 61, 62])
+StreamData = namedtuple(b'StreamData', [58, 59, 60, 61, 62, 63])
 StreamData.__new__.__defaults__ = (
  None,) * len(StreamData._fields)
 _logger = logging.getLogger(__name__)
@@ -194,12 +195,12 @@ class PlayerAccount(BigWorld.Entity, ClientChat):
         self.resourceWell = g_accountRepository.resourceWell
         self.winback = g_accountRepository.winback
         self.achievements20 = g_accountRepository.achievements20
+        self.nyTamagotchiRaid = g_accountRepository.nyTamagotchiRaid
         self.referralProgram = g_accountRepository.referralProgram
         self.paragons = g_accountRepository.paragons
         self.comp7Storage = g_accountRepository.comp7Storage
         self.sessionProgressRewards = g_accountRepository.sessionProgressRewards
         self.stall = g_accountRepository.stall
-        self.portal = g_accountRepository.portal
         self.customFilesCache = g_accountRepository.customFilesCache
         self.commandProxy = g_accountRepository.commandProxy
         self.syncData.setAccount(self)
@@ -231,6 +232,7 @@ class PlayerAccount(BigWorld.Entity, ClientChat):
         self.mapsTraining.setAccount(self)
         self.telecomRentals.setAccount(self)
         self.tradeIn.setAccount(self)
+        self.nyTamagotchiRaid.setAccount(self)
         self.referralProgram.setAccount(self)
         self.stall.setAccount(self)
         g_accountRepository.commandProxy.setGateway(self.__doCmd)
@@ -293,6 +295,7 @@ class PlayerAccount(BigWorld.Entity, ClientChat):
         self.gameRestrictions.onAccountBecomePlayer()
         self.resourceWell.onAccountBecomePlayer()
         self.achievements20.onAccountBecomePlayer()
+        self.nyTamagotchiRaid.onAccountBecomePlayer()
         self.referralProgram.onAccountBecomePlayer()
         self.comp7Storage.onAccountBecomePlayer()
         self.sessionProgressRewards.onAccountBecomePlayer()
@@ -342,6 +345,7 @@ class PlayerAccount(BigWorld.Entity, ClientChat):
         self.gameRestrictions.onAccountBecomeNonPlayer()
         self.resourceWell.onAccountBecomeNonPlayer()
         self.achievements20.onAccountBecomeNonPlayer()
+        self.nyTamagotchiRaid.onAccountBecomeNonPlayer()
         self.referralProgram.onAccountBecomeNonPlayer()
         self.comp7Storage.onAccountBecomeNonPlayer()
         self.sessionProgressRewards.onAccountBecomeNonPlayer()
@@ -370,6 +374,7 @@ class PlayerAccount(BigWorld.Entity, ClientChat):
         self.anonymizer.setAccount(None)
         self.offers.setAccount(None)
         self.achievements20.setAccount(None)
+        self.nyTamagotchiRaid.setAccount(None)
         self.referralProgram.setAccount(None)
         g_accountRepository.commandProxy.setGateway(None)
         self.unitMgr.clear()
@@ -1376,12 +1381,12 @@ class PlayerAccount(BigWorld.Entity, ClientChat):
             self.giftSystem.synchronize(isFullSync, diff)
             self.gameRestrictions.synchronize(isFullSync, diff)
             self.resourceWell.synchronize(isFullSync, diff)
+            self.nyTamagotchiRaid.synchronize(isFullSync, diff)
             self.achievements20.synchronize(isFullSync, diff)
             self.referralProgram.synchronize(isFullSync, diff)
             self.comp7Storage.synchronize(isFullSync, diff)
             self.sessionProgressRewards.synchronize(isFullSync, diff)
             self.paragons.synchronize(isFullSync, diff)
-            self.portal.synchronize(isFullSync, diff)
             self._synchronizeServerSettings(diff)
             self._synchronizeDisabledPersonalMissions(diff)
             self._synchronizeEventNotifications(diff)
@@ -1638,6 +1643,7 @@ class _AccountRepository(object):
         self.mapsTraining = MapsTraining(self.syncData)
         self.telecomRentals = TelecomRentals(self.syncData)
         self.resourceWell = ResourceWell(self.syncData, self.commandProxy)
+        self.nyTamagotchiRaid = NyTamagotchiRaid(self.syncData)
         self.winback = Winback(self.commandProxy)
         self.achievements20 = Achievements20(self.syncData, self.commandProxy)
         self.paragons = Paragons(self.commandProxy)
@@ -1650,7 +1656,6 @@ class _AccountRepository(object):
         self.referralProgram = ReferralProgram(self.syncData)
         self.comp7Storage = Comp7Storage(self.syncData)
         self.sessionProgressRewards = SessionProgressRewards(self.syncData)
-        self.portal = portal.Portal()
         self.gMap = ClientGlobalMap()
         self.onTokenReceived = Event.Event()
         self.requestID = AccountCommands.REQUEST_ID_UNRESERVED_MIN
@@ -1672,7 +1677,6 @@ def delAccountRepository():
         g_accountRepository.prebattleInvitations.clear()
         g_accountRepository.paragons.clear()
         g_accountRepository.comp7Storage.clear()
-        g_accountRepository.portal.clear()
         g_accountRepository = None
         return
 

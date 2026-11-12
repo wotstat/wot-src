@@ -95,10 +95,12 @@
    * @method off
    * @param name the event name
    * @param handler function to be called when the event is triggered
+   * @param ignoreCppSide flag indicates that ignore invoking of cpp function "engine.RemoveOnHandler" if handler is not found on the javascript side.
    * @param context this binding for executing the handler, defaults to the Emitter
-   * @return connection object
+   *
+   * TODO: ignoreCppSide is temporary solution to avoid memory leak.
    */
-  Emitter.prototype.off = function (name, handler, context) {
+  Emitter.prototype.off = function (name, handler, ignoreCppSide, context) {
     var handlers = this.events[name];
 
     if (handlers !== undefined) {
@@ -118,7 +120,7 @@
           delete this.events[name];
         }
       }
-    } else {
+    } else if (!ignoreCppSide) {
       engine.RemoveOnHandler(name, handler, context || this);
     }
   };

@@ -1,4 +1,5 @@
-import Windowing, logging
+import Windowing
+from debug_utils import LOG_ERROR
 from gui.impl.lobby.video.video_sound_manager import DummySoundManager
 from gui.impl.gen import R
 from gui_lootboxes.gui.impl.gen.view_models.views.lobby.gui_lootboxes.reward_video_model import RewardVideoModel
@@ -7,39 +8,43 @@ from gui_lootboxes.gui.impl.lobby.gui_lootboxes.sound import LOOT_BOXES_REWARD_V
 from gui_lootboxes.gui.impl.lobby.gui_lootboxes.unique_rewards_view import BaseUniqueRewardsView
 from helpers import dependency
 from frameworks.wulf import WindowFlags, WindowLayer
-from gui_lootboxes.gui.impl.gen.view_models.views.lobby.gui_lootboxes.lootbox_video_reward_view_model import LootboxVideoRewardViewModel
+from gui_lootboxes.gui.impl.gen.view_models.views.lobby.gui_lootboxes.lootbox_video_reward_view_model import LootboxVideoRewardViewModel, Glows
 from gui.impl.pub.lobby_window import LobbyWindow
+from gui_lootboxes.gui.bonuses.bonuses_packers import getVideoRewardsBonusPacker
 from skeletons.gui.shared import IItemsCache
 from gui.impl.lobby.common.view_helpers import packBonusModelAndTooltipData
-_logger = logging.getLogger(__name__)
 
 def isValidVideoConfig(videoConfig):
     if not videoConfig.keys():
-        _logger.error(b'Empty video config')
+        LOG_ERROR(b'Empty video config')
         return False
     for category in videoConfig:
         if not videoConfig[category].keys():
-            _logger.error(b'Empty video config for category: %s', category)
+            LOG_ERROR(b'Empty video config for category: %s' % category)
             return False
         for rewardType in videoConfig[category]:
             if not videoConfig[category][rewardType].keys():
-                _logger.error(b'Empty video config for reward type: %s, category: %s', rewardType, category)
+                LOG_ERROR(b'Empty video config for reward type: %s, category: %s' % (rewardType, category))
                 return False
             if not videoConfig[category][rewardType][b'videos']:
-                _logger.error(b'Empty video list for reward type: %s, category: %s', rewardType, category)
+                LOG_ERROR(b'Empty video list for reward type: %s, category: %s' % (rewardType, category))
                 return False
             for video in videoConfig[category][rewardType][b'videos']:
                 if not video.keys():
-                    _logger.error(b'Wrong video settings for reward type: %s, category: %s', rewardType, category)
+                    LOG_ERROR(b'Wrong video settings for reward type: %s, category: %s' % (rewardType, category))
                     return False
                 if b'duration' not in video:
-                    _logger.error(b'No field [duration] for reward type: %s, category: %s', rewardType, category)
+                    LOG_ERROR(b'No field [duration] for reward type: %s, category: %s' % (rewardType, category))
                     return False
                 if b'videoResName' not in video:
-                    _logger.error(b'No field [videoResName] for reward type: %s, category: %s', rewardType, category)
+                    LOG_ERROR(b'No field [videoResName] for reward type: %s, category: %s' % (rewardType, category))
                     return False
 
     return True
+
+
+def _resolveVideoDuration(videoConfig, videoRes):
+    return videoConfig.get(b'overridesDuration', {}).get(videoRes, videoConfig[b'duration'])
 
 
 def packVideoRewardConfig(lootboxCategory, videoRes, videoRewardConfig):
@@ -54,14 +59,14 @@ def packVideoRewardConfig(lootboxCategory, videoRes, videoRewardConfig):
             video[b'showFooterTiming'] = videoConfig[b'showFooterTiming']
         else:
             video[b'showFooterTiming'] = 0
-        video[b'duration'] = videoConfig[b'duration']
+        video[b'duration'] = _resolveVideoDuration(videoConfig, videoRes)
         videos.append(video)
 
     return videos
 
 
 class LootboxVideoRewardView(BaseUniqueRewardsView):
-    __slots__ = (b'_bonus', b'_soundControl', b'__isWindowAccessibleHandlerInit', b'_videoRes', b'_isGuaranteedReward', b'_videoConfig', b'_lootbox')
+    __slots__ = (b'_bonus', b'_soundControl', b'__isWindowAccessibleHandlerInit', b'_videoRes', b'_isGuaranteedReward', b'_videoConfig', b'_lootbox', b'__soundStarted')
     __itemsCache = dependency.descriptor(IItemsCache)
     _COMMON_SOUND_SPACE = LOOT_BOXES_REWARD_VIDEO_SOUND_SPACE
 
@@ -74,10 +79,11 @@ class LootboxVideoRewardView(BaseUniqueRewardsView):
         self.__isWindowAccessibleHandlerInit = False
         self._videoConfig = None
         self._lootbox = lootbox
+        self.__soundStarted = False
         if isValidVideoConfig(REWARD_VIDEO_CONFIG):
             self._videoConfig = REWARD_VIDEO_CONFIG
         else:
-            _logger.error(b'Invalid REWARD_VIDEO_CONFIG')
+            LOG_ERROR(b'Invalid REWARD_VIDEO_CONFIG')
         if videoConfig is not None and isValidVideoConfig(videoConfig):
             self._updateVideoConfig(videoConfig)
         return
@@ -86,7 +92,7 @@ class LootboxVideoRewardView(BaseUniqueRewardsView):
         if self.__isWindowAccessibleHandlerInit:
             Windowing.removeWindowAccessibilityHandler(self._onWindowAccessibilityChanged)
             self.__isWindowAccessibleHandlerInit = False
-        self._soundControl.stop()
+        self._stopVideoSound()
         super(LootboxVideoRewardView, self)._finalize()
         return
 
@@ -123,16 +129,21 @@ class LootboxVideoRewardView(BaseUniqueRewardsView):
             vm.setVideoRes(self._videoRes)
             vm.setIsGuaranteedReward(self._isGuaranteedReward)
             vm.reward.clearItems()
-            packBonusModelAndTooltipData([self._bonus], vm.reward)
+            packBonusModelAndTooltipData([self._bonus], vm.reward, packer=getVideoRewardsBonusPacker())
             vm.reward.invalidate()
             vm.setLootboxType(self._lootbox.getType())
             vm.setLootboxID(self._lootbox.getID())
+            vm.setLootBoxIconName(self._lootbox.getIconName())
+            if self._lootbox.hasUniqueBack():
+                vm.setGlowType(Glows.UNIQUE)
+            else:
+                vm.setGlowType(Glows.DEFAULT)
             if self._videoConfig is not None:
-                videoHasFooter = self._videoConfig[self._lootbox.getCategory()][self._bonus.getName()][b'hasFooter']
+                videoHasFooter = self._videoConfig[self._getVideoConfigKey()][self._bonus.getName()][b'hasFooter']
                 vm.setHasVideoFooter(videoHasFooter)
                 rewardVideos = vm.getRewardVideos()
                 rewardVideos.clear()
-                for videoConfig in packVideoRewardConfig(self._lootbox.getCategory(), self._videoRes, self._videoConfig[self._lootbox.getCategory()][self._bonus.getName()][b'videos']):
+                for videoConfig in packVideoRewardConfig(self._getVideoConfigKey(), self._videoRes, self._videoConfig[self._getVideoConfigKey()][self._bonus.getName()][b'videos']):
                     rewardVideoConfig = RewardVideoModel()
                     rewardVideoConfig.setVideoResName(videoConfig[b'videoResName'])
                     rewardVideoConfig.setDuration(videoConfig[b'duration'])
@@ -145,25 +156,41 @@ class LootboxVideoRewardView(BaseUniqueRewardsView):
                 rewardVideos = vm.getRewardVideos()
                 rewardVideos.clear()
                 rewardVideos.invalidate()
-                _logger.error(b'Invalid video config')
+                LOG_ERROR(b'Invalid video config')
         return
+
+    def _getVideoConfigKey(self):
+        return self._lootbox.getCategory()
 
     def _onClose(self):
         self.destroyWindow()
         return
 
     def _onVideoStarted(self):
-        self._soundControl.start()
+        self._startVideoSound()
         if not Windowing.isWindowAccessible():
             self._soundControl.pause()
         return
 
     def _onWindowAccessibilityChanged(self, isWindowAccessible):
         if isWindowAccessible:
-            self._soundControl.unpause()
-        else:
+            if self.__soundStarted:
+                self._soundControl.unpause()
+            else:
+                self._startVideoSound()
+        elif self.__soundStarted:
             self._soundControl.pause()
         self.viewModel.setIsWindowAccessible(isWindowAccessible)
+        return
+
+    def _startVideoSound(self):
+        self.__soundStarted = True
+        self._soundControl.start()
+        return
+
+    def _stopVideoSound(self):
+        self._soundControl.stop()
+        self.__soundStarted = False
         return
 
 

@@ -73,17 +73,24 @@ def _sortVehicles(vehicles):
     return sorted(vehicles.iteritems(), key=(lambda item: (_sortByNation(item), _sortByType(item), _sortByName(item))))
 
 
+class TankAcademyVehicleSelectionViewInitialTab(CONST_CONTAINER):
+    OFFER_TOKEN_TAB = 0
+    HIGHEST_UNOBTAINED_TAB = 1
+    NEXT_AFTER_HIGHEST_OBTAINED_TAB = 2
+
+
 class TankAcademyVehiclesSelectionView(ViewImpl):
-    __slots__ = (b'__selectableBonus', b'__vehiclesByTabKey', b'__filters', b'__filterPopover', b'__offerToken', b'__offersByTabKey', b'__selectedTabKey', b'__questsByOfferToken')
+    __slots__ = (b'__selectableBonus', b'__vehiclesByTabKey', b'__filters', b'__filterPopover', b'__offerToken', b'__initialTab', b'__offersByTabKey', b'__selectedTabKey', b'__questsByOfferToken')
     __tankAcademyController = dependency.descriptor(ITankAcademyController)
     __comparisonBasket = dependency.descriptor(IVehicleComparisonBasket)
     __offersProvider = dependency.descriptor(IOffersDataProvider)
     __itemsCache = dependency.descriptor(IItemsCache)
     __selectableRewardMgr = TankAcademySelectableRewardManager
 
-    def __init__(self, offerToken):
+    def __init__(self, offerToken, initialTab):
         settings = ViewSettings(R.views.tank_academy.lobby.tank_academy.TankAcademyVehiclesSelectionView(), flags=ViewFlags.VIEW, model=ta_vm.TankAcademyVehiclesSelectionViewModel())
         self.__offerToken = offerToken
+        self.__initialTab = initialTab
         self.__selectableBonus = None
         self.__offersByTabKey = OrderedDict()
         self.__vehiclesByTabKey = OrderedDict()
@@ -259,7 +266,7 @@ class TankAcademyVehiclesSelectionView(ViewImpl):
         self.__questsByOfferToken = self.__getQuestsByOfferToken()
         migrationInfo = self.__tankAcademyController.getMigrationInfo()
         migrationTargetLevel = migrationInfo[2] if migrationInfo is not None else None
-        offers = [offer for offer in self.__offersProvider.getAllOffers() if self.__tankAcademyController.isTAOfferToken(offer.token) and self.__isOfferVisibleAfterMigration(offer, migrationTargetLevel)]
+        offers = self.__tankAcademyController.getTankAcademyOffers(filterFunc=partial(self.__isOfferVisibleAfterMigration, migrationTargetLevel=migrationTargetLevel))
         offers.sort(key=self.__getOfferSortKey)
         unlocked = self.__itemsCache.items.stats.unlocks
         for offer in offers:
@@ -295,10 +302,12 @@ class TankAcademyVehiclesSelectionView(ViewImpl):
         if self.__selectedTabKey in self.__offersByTabKey:
             return self.__selectedTabKey
         else:
-            tabKey = self.__getTabKeyByOfferToken(self.__offerToken)
-            if tabKey is not None:
-                return tabKey
-            tabKey = self.__getRecommendedInitialTabKey()
+            if self.__initialTab == TankAcademyVehicleSelectionViewInitialTab.HIGHEST_UNOBTAINED_TAB:
+                tabKey = self.__getHighestUnobtainedTabKey()
+            elif self.__initialTab == TankAcademyVehicleSelectionViewInitialTab.NEXT_AFTER_HIGHEST_OBTAINED_TAB:
+                tabKey = self.__getNextTabKeyAfterHighestObtained()
+            else:
+                tabKey = self.__getTabKeyByOfferToken(self.__offerToken)
             if tabKey is not None:
                 return tabKey
             return first(self.__offersByTabKey.iterkeys())
@@ -312,15 +321,6 @@ class TankAcademyVehiclesSelectionView(ViewImpl):
                     return tabKey
 
             return
-
-    def __getRecommendedInitialTabKey(self):
-        if not self.__getObtainedTabKeys():
-            return first(self.__offersByTabKey.iterkeys())
-        else:
-            tabKey = self.__getHighestUnobtainedTabKey()
-            if tabKey is not None:
-                return tabKey
-            return self.__getNextTabKeyAfterHighestObtained()
 
     def __getHighestUnobtainedTabKey(self):
         offerTokens = self.__tankAcademyController.getVehicleOfferTokensWithUnobtainedGifts()
@@ -395,8 +395,10 @@ class TankAcademyVehiclesSelectionView(ViewImpl):
     def __getSelectableBonusByOffer(self, offer):
         return self.__getSelectableBonusByOfferToken(offer.token)
 
-    def __isTabDone(self, offers):
-        return all(self.__tankAcademyController.isOfferRewardObtained(offer.token) for offer in offers)
+    def __isTabDone(self, offers, tasks):
+        if all(self.__tankAcademyController.isOfferRewardObtained(offer.token) for offer in offers):
+            return True
+        return len(tasks) == 0 and not any(self.__tankAcademyController.hasOfferToken(offer.token) for offer in offers)
 
     def __getTabTokensCount(self, offers):
         result = 0
@@ -412,12 +414,12 @@ class TankAcademyVehiclesSelectionView(ViewImpl):
         for tabKey, offers in self.__offersByTabKey.iteritems():
             level, isPremium = tabKey
             tab = TankAcademyVehiclesSelectionTabsModel()
+            self.__updateTabTasks(tab.getTasks(), offers)
             tab.setLevel(level)
             tab.setIsSelected(tabKey == self.__selectedTabKey)
-            tab.setIsDone(self.__isTabDone(offers))
+            tab.setIsDone(self.__isTabDone(offers, tab.getTasks()))
             tab.setIsPremium(isPremium)
             tab.setTokensCount(self.__getTabTokensCount(offers))
-            self.__updateTabTasks(tab.getTasks(), offers)
             vm.addViewModel(tab)
 
         vm.invalidate()
@@ -452,7 +454,10 @@ class TankAcademyVehiclesSelectionView(ViewImpl):
     def __isOfferVisibleAfterMigration(self, offer, migrationTargetLevel):
         if migrationTargetLevel is None or self.__tankAcademyController.hasOfferToken(offer.token):
             return True
-        return any(quest.getOrder() >= migrationTargetLevel for quest in self.__questsByOfferToken.get(offer.token, ()))
+        if any(quest.getOrder() >= migrationTargetLevel for quest in self.__questsByOfferToken.get(offer.token, ())):
+            return True
+        else:
+            return not self.__isPremiumOffer(offer)
 
     def __createQuestViewModel(self, quest, currentQuestNumber):
         questModel = QuestViewModel()

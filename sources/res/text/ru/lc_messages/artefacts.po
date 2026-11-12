@@ -533,7 +533,7 @@ msgid "comp7_aggressive_detection/shortDescr"
 msgstr "Увеличение обзора."
 
 msgid "comp7_ally_support/descr/active"
-msgstr "На следующие {colorTagOpen}%(duration)d с{colorTagClose} экипаж получает бонус {colorTagOpen}%(crewBuff_1).1f/%(crewBuff_2).1f/%(crewBuff_3).1f%%{colorTagClose} к уровню владения основной специальностью за каждую машину другой роли в вашей команде.\n\nВаша машина всегда учитывается при расчёте бонуса от навыка."
+msgstr "На следующие {colorTagOpen}%(duration)d с{colorTagClose} экипаж получает бонус {colorTagOpen}%(crewBuff_1).1f/%(crewBuff_2).1f/%(crewBuff_3).1f%%{colorTagClose} к уровню владения основной специальностью за каждый уникальный навык, выбранный на машинах союзников.\n\nВаша машина всегда учитывается при расчёте бонуса от навыка."
 
 msgid "comp7_ally_support/name"
 msgstr "Один за всех"

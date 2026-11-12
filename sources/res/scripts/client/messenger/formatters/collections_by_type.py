@@ -24,10 +24,16 @@ registerTokenQuestsSubFormatters((
  token_quest_subformatters.ParagonsTokenQuestsSubformatter(),
  token_quest_subformatters.ClanSeasonProgressionFormatter(),
  token_quest_subformatters.ClanSeasonQuestFormatter()))
-registerConvertersSubFormatter(b'newYear25', NewYearMandarinsConverterFormatter)
+registerConvertersSubFormatter(b'newYear27', NewYearMandarinsConverterFormatter)
 registerConvertersSubFormatter(b'dailyQuests', DailyQuestsEpicCompensationFormatter)
-_HANGAR_QUESTS_SUB_FORMATTERS = (
- token_quest_subformatters.BattleMattersAwardsFormatter(),)
+_HANGAR_QUESTS_SUB_FORMATTERS = [
+ token_quest_subformatters.BattleMattersAwardsFormatter()]
+
+def registerHangarQuestSubFormatters(formatters):
+    _HANGAR_QUESTS_SUB_FORMATTERS.extend(formatters)
+    return
+
+
 _PERSONAL_MISSIONS_SUB_FORMATTERS = (
  token_quest_subformatters.PersonalMissionsFormatter(),)
 SERVER_FORMATTERS = {(_SM_TYPE.serverReboot.index()): (_sc.ServerRebootFormatter()), 
@@ -136,7 +142,7 @@ SERVER_FORMATTERS = {(_SM_TYPE.serverReboot.index()): (_sc.ServerRebootFormatter
    (_SM_TYPE.earlyAccessVehicle.index()): (_sc.EarlyAccessVehicleObtainFormatter()), 
    (_SM_TYPE.paragonsLevelRewardsReceived.index()): (_sc.ParagonsLevelCompletedFormatter()), 
    (_SM_TYPE.paragonsCoinsGranted.index()): (_sc.ParagonsCoinsGrantedFormatter()), 
-   (_SM_TYPE.tradingCaravanMessage.index()): (_sc.TradingCaravanMessageFormatter())}
+   (_SM_TYPE.chatsUnlocked.index()): (_sc.SimpleFormatter(b'ChatsUnlockedSysMessage'))}
 
 def initRegistrationFormatters():
     registerMessengerServerFormatter(_SM_TYPE.serverReboot.index(), _sc.ServerRebootFormatter())
@@ -222,7 +228,6 @@ def initRegistrationFormatters():
     registerMessengerServerFormatter(_SM_TYPE.wotPlusExpired.index(), _wotPlusFormatters.WotPlusExpiredFormatter())
     registerMessengerServerFormatter(_SM_TYPE.bonusExcludedMap.index(), _sc.SimpleFormatter(b'BonusExcludedMapAvailable'))
     registerMessengerServerFormatter(_SM_TYPE.bonusExcludedMapPremium.index(), _sc.SimpleFormatter(b'BonusExcludedMapPremiumAvailable'))
-    registerMessengerServerFormatter(_SM_TYPE.tradingCaravanMessage.index(), _sc.TradingCaravanMessageFormatter())
     registerMessengerServerFormatter(_SM_TYPE.goldReserveIsFull.index(), _sc.SimpleFormatter(b'GoldReserveFullMessage'))
     registerMessengerServerFormatter(_SM_TYPE.passiveXPNoTank.index(), _sc.SimpleFormatter(b'PassiveXPNoTankMessage'))
     registerMessengerServerFormatter(_SM_TYPE.passiveXPIncompatibleCrewNewDay.index(), _sc.SimpleFormatter(b'PassiveXPIncompatibleCrewNewDayMessage'))
@@ -286,4 +291,5 @@ def initRegistrationFormatters():
     registerMessengerClientFormatter(SCH_CLIENT_MSG_TYPE.LIMITED_UI_CONTENT_UNLOCKED, _sc.LimitedUIContentUnlockedFormatter())
     registerMessengerClientFormatter(SCH_CLIENT_MSG_TYPE.LIMITED_UI_PLATOON_LOCKED, _sc.LimitedUIPlatoonLockedFormatter())
     registerMessengerClientFormatter(SCH_CLIENT_MSG_TYPE.STALL_RECEIPT, _sc.StallPurchaseReceiptMessageFormatter())
+    registerMessengerServerFormatter(_SM_TYPE.chatsUnlocked.index(), _sc.SimpleFormatter(b'ChatsUnlockedSysMessage'))
     return

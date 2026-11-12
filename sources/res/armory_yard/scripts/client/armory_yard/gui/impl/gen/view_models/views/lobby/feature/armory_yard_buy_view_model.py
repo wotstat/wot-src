@@ -23,53 +23,61 @@ class ArmoryYardBuyViewModel(ViewModel):
         return
 
     @property
-    def finalReward(self):
+    def finalRewardMain(self):
         return self._getViewModel(0)
 
     @staticmethod
-    def getFinalRewardType():
+    def getFinalRewardMainType():
+        return ArmoryYardRewardsVehicleModel
+
+    @property
+    def finalRewardPostProgression(self):
+        return self._getViewModel(1)
+
+    @staticmethod
+    def getFinalRewardPostProgressionType():
         return ArmoryYardRewardsVehicleModel
 
     def getStartStep(self):
-        return self._getNumber(1)
-
-    def setStartStep(self, value):
-        self._setNumber(1, value)
-        return
-
-    def getFinishStep(self):
         return self._getNumber(2)
 
-    def setFinishStep(self, value):
+    def setStartStep(self, value):
         self._setNumber(2, value)
         return
 
-    def getStepSelected(self):
+    def getFinishStep(self):
         return self._getNumber(3)
 
-    def setStepSelected(self, value):
+    def setFinishStep(self, value):
         self._setNumber(3, value)
         return
 
-    def getStepsPassed(self):
+    def getStepSelected(self):
         return self._getNumber(4)
 
-    def setStepsPassed(self, value):
+    def setStepSelected(self, value):
         self._setNumber(4, value)
         return
 
+    def getStepsPassed(self):
+        return self._getNumber(5)
+
+    def setStepsPassed(self, value):
+        self._setNumber(5, value)
+        return
+
     def getParentAlias(self):
-        return ParentAlias(self._getString(5))
+        return ParentAlias(self._getString(6))
 
     def setParentAlias(self, value):
-        self._setString(5, value.value)
+        self._setString(6, value.value)
         return
 
     def getRewards(self):
-        return self._getArray(6)
+        return self._getArray(7)
 
     def setRewards(self, value):
-        self._setArray(6, value)
+        self._setArray(7, value)
         return
 
     @staticmethod
@@ -77,10 +85,10 @@ class ArmoryYardBuyViewModel(ViewModel):
         return ItemBonusModel
 
     def getSteps(self):
-        return self._getArray(7)
+        return self._getArray(8)
 
     def setSteps(self, value):
-        self._setArray(7, value)
+        self._setArray(8, value)
         return
 
     @staticmethod
@@ -88,23 +96,16 @@ class ArmoryYardBuyViewModel(ViewModel):
         return ArmoryYardBuyStepConfig
 
     def getIsWalletAvailable(self):
-        return self._getBool(8)
-
-    def setIsWalletAvailable(self, value):
-        self._setBool(8, value)
-        return
-
-    def getIsBlurEnabled(self):
         return self._getBool(9)
 
-    def setIsBlurEnabled(self, value):
+    def setIsWalletAvailable(self, value):
         self._setBool(9, value)
         return
 
-    def getIsPostProgressionState(self):
+    def getIsBlurEnabled(self):
         return self._getBool(10)
 
-    def setIsPostProgressionState(self, value):
+    def setIsBlurEnabled(self, value):
         self._setBool(10, value)
         return
 
@@ -121,7 +122,8 @@ class ArmoryYardBuyViewModel(ViewModel):
 
     def _initialize(self):
         super(ArmoryYardBuyViewModel, self)._initialize()
-        self._addViewModelProperty(b'finalReward', ArmoryYardRewardsVehicleModel())
+        self._addViewModelProperty(b'finalRewardMain', ArmoryYardRewardsVehicleModel())
+        self._addViewModelProperty(b'finalRewardPostProgression', ArmoryYardRewardsVehicleModel())
         self._addNumberProperty(b'startStep', 0)
         self._addNumberProperty(b'finishStep', 0)
         self._addNumberProperty(b'stepSelected', 0)
@@ -131,7 +133,6 @@ class ArmoryYardBuyViewModel(ViewModel):
         self._addArrayProperty(b'steps', Array())
         self._addBoolProperty(b'isWalletAvailable', True)
         self._addBoolProperty(b'isBlurEnabled', False)
-        self._addBoolProperty(b'isPostProgressionState', False)
         self._addArrayProperty(b'prices', Array())
         self.onChangeSelectedStep = self._addCommand(b'onChangeSelectedStep')
         self.onBuySteps = self._addCommand(b'onBuySteps')

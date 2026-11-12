@@ -127,10 +127,10 @@ class ArmoryYardBuyBundleView(ViewImpl):
                 if result.isSuccess():
                     self.__armoryYardCtrl.refreshBundle()
                     if postProgressionCoins > 0:
-                        self.__armoryYardCtrl.onPayed(False, bundleTokens - postProgressionCoins)
-                        self.__armoryYardCtrl.onPayed(True, postProgressionCoins)
+                        self.__armoryYardCtrl.onPayed(bundleTokens - postProgressionCoins)
+                        self.__armoryYardCtrl.onPayed(postProgressionCoins)
                     else:
-                        self.__armoryYardCtrl.onPayed(False, bundleTokens)
+                        self.__armoryYardCtrl.onPayed(bundleTokens)
                     if not self.__isTokenDelivered():
                         self.__timeoutCallback = BigWorld.callback(10, self.__timeout)
                     else:
@@ -267,10 +267,6 @@ class ArmoryYardBuyBundleView(ViewImpl):
 
             rewardsList = splitBonuses(mergeBonuses(rewardsList))
             rewardsList.sort(key=bonusesSortKeyFunc)
-            for idx, value in enumerate(rewardsList):
-                if value.getName() == b'battleToken' and value.getValue().get(b'ny24_yaga') is not None:
-                    rewardsList.pop(idx)
-
             if len(rewardsList) > ArmoryYardBuyBundleViewModel.MAX_VISIBLE_REWARDS:
                 packBonusModelAndTooltipData(rewardsList[:ArmoryYardBuyBundleViewModel.MAX_VISIBLE_REWARDS - 1], rewards, self.__tooltipData, packer=getArmoryYardBonusPacker())
                 packRestModel(rewardsList[ArmoryYardBuyBundleViewModel.MAX_VISIBLE_REWARDS - 1:], rewards, self.__tooltipData, ArmoryYardBuyBundleViewModel.MAX_VISIBLE_REWARDS - 1)

@@ -887,7 +887,7 @@
         const E = { value: 0, name: t(329).V2.credits, isEnough: !1 },
           A = (u) => (u && u.price && u.price[0] && u.price[0].value) || E;
       },
-      2480: (u, e, t) => {
+      652: (u, e, t) => {
         var E = t(6179),
           A = t.n(E),
           n = t(493),
@@ -1637,6 +1637,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(e.bind(null, 0)), (t.push = e.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [428], () => __webpack_require__(2480));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [428], () => __webpack_require__(652));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

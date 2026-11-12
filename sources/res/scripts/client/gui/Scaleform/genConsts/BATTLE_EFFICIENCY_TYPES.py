@@ -52,6 +52,3 @@ class BATTLE_EFFICIENCY_TYPES(object):
     RECEIVED_BY_CLING_BRANDER = b'receivedByClingBrander'
     DEALT_DMG_BY_THUNDER_STRIKE = b'dealtDamageByThunderStrike'
     RECEIVED_BY_THUNDER_STRIKE = b'receivedByThunderStrike'
-    DEALT_DMG_BY_PERIODIC = b'dealtDamageByPeriodic'
-    RECEIVED_BY_PERIODIC = b'receivedByPeriodic'
-    HEALTH_ADDED = b'healthAdded'

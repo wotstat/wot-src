@@ -2,6 +2,10 @@
 from typing import Any, ClassVar, Final, overload
 
 PyGuiApplication: Any
+PyModifiersEvent: Any
+PyMouseButton: Any
+PyMouseEvent: Any
+PyMouseEventType: Any
 PyObjectArray: Any
 PyObjectCommand: Any
 PyObjectView: Any

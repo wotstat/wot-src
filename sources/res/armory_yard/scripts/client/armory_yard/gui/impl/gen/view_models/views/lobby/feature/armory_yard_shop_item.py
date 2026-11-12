@@ -8,7 +8,8 @@ class TemplateType(Enum):
     OTHER = b'other'
     MAINTAIN = b'maintain'
     CUSTOMIZATION = b'customization'
-    ECONOMICBOOSTER = b'economicBooster'
+    ECONOMIC_BOOSTER = b'economicBooster'
+    SPECIAL_OFFERS = b'specialOffers'
 
 
 class ArmoryYardShopItem(ViewModel):

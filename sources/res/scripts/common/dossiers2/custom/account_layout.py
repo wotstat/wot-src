@@ -444,7 +444,11 @@ _SINGLE_ACHIEVEMENTS_VALUES = [
  710, 711, 712, 713, 
  714, 
  715, 716, 
- 717, 718, 719]
+ 717, 718, 719, 
+ 720, 721, 722, 723, 
+ 724, 725, 726, 
+ 727, 
+ 728]
 _singleAchievementsPopUps = [
  414, 415, 416, 417, 
  418, 419, 420, 421, 422, 
@@ -547,10 +551,14 @@ _singleAchievementsPopUps = [
  709, 710, 
  711, 712, 713, 
  714, 715, 716, 
- 717, 718, 719]
+ 717, 718, 719, 
+ 720, 
+ 721, 722, 723, 
+ 724, 725, 726, 
+ 727, 728]
 _singleAchievementsBlockBuilder = BinarySetDossierBlockBuilder(b'singleAchievements', _SINGLE_ACHIEVEMENTS_VALUES, SINGLE_ACHIEVEMENTS_DEPENDENCIES, _singleAchievementsPopUps)
 FORT_ACHIEVEMENTS_BLOCK_LAYOUT = [
- 721, 722, 723, 724, 725, 726]
+ 730, 731, 732, 733, 734, 735]
 _fortPersonalAchievementsPopUps = [
  b'soldierOfFortune']
 _fortPersonalAchievementsBlockBuilder = StaticSizeBlockBuilder(b'fortAchievements', FORT_ACHIEVEMENTS_BLOCK_LAYOUT, FORT_ACHIEVEMENTS_DEPENDENCIES, _fortPersonalAchievementsPopUps)
@@ -559,37 +567,37 @@ CLAN_ACHIEVEMENTS_BLOCK_LAYOUT = [
 _clanAchievementsPopUps = [b'medalRotmistrov']
 _clanAchievementsBlockBuilder = StaticSizeBlockBuilder(b'clanAchievements', CLAN_ACHIEVEMENTS_BLOCK_LAYOUT, {}, _clanAchievementsPopUps)
 RANKED_BADGES_BLOCK_LAYOUT = [
- 730, 731, 732, 733, 734, 735, 736, 737, 738]
+ 739, 740, 741, 742, 743, 744, 745, 746, 747]
 _playerBadgesBlockBuilder = DictBlockBuilder(b'playerBadges', b'I', b'I', {})
 _rankedSeasonsBlockBuilder = DictBlockBuilder(b'rankedSeasons', b'II', b'BHHHH', {})
 _rareAchievementsBlockBuilder = ListBlockBuilder(b'rareAchievements', b'I', {})
 UNIQUE_ACHIEVEMENT_VALUES = [
- 744, 745, 
- 746, 747, 
- 748, 749, 
- 750, 751, 
- 752, 753, 
- 754, 
- 755]
+ 753, 754, 
+ 755, 756, 
+ 757, 758, 
+ 759, 760, 
+ 761, 762, 
+ 763, 
+ 764]
 _uniqueAchievementPopUps = [
- 744, 745, 
- 746, 747, 
- 748, 749, 
- 750, 751, 
- 752, 753, 
- 754, 
- 755]
+ 753, 754, 
+ 755, 756, 
+ 757, 758, 
+ 759, 760, 
+ 761, 762, 
+ 763, 
+ 764]
 _uniqueAchievementBlockBuilder = BinarySetDossierBlockBuilder(b'uniqueAchievements', UNIQUE_ACHIEVEMENT_VALUES, {}, _uniqueAchievementPopUps)
 FALLOUT_ACHIEVEMENTS_BLOCK_LAYOUT = [
- 757, 758, 759, 760, 
- 761, 762, 763, 764, 765, 766, 
- 767, 768]
-_falloutAchievementsPopUps = [757, 758, 759, 760, 761, 
- 762, 763, 764, 765, 766, 767]
+ 766, 767, 768, 769, 
+ 770, 771, 772, 773, 774, 775, 
+ 776, 777]
+_falloutAchievementsPopUps = [766, 767, 768, 769, 770, 
+ 771, 772, 773, 774, 775, 776]
 _falloutAchievementsBlockBuilder = StaticSizeBlockBuilder(b'falloutAchievements', FALLOUT_ACHIEVEMENTS_BLOCK_LAYOUT, {}, _falloutAchievementsPopUps)
 EPIC_BATTLE_ACHIEVEMENTS_BLOCK_LAYOUT = [
- 770, 771, 772, 773, 
- 774, 775, 776, 777]
+ 779, 780, 781, 782, 
+ 783, 784, 785, 786]
 _epicBattleAchievementsPopUps = [b'frontlineMedal', b'saboteur']
 _epicBattleAchievementsBlockBuilder = StaticSizeBlockBuilder(b'epicBattleAchievements', EPIC_BATTLE_ACHIEVEMENTS_BLOCK_LAYOUT, EPIC_BATTLE_STATS_DEPENDENCIES, _epicBattleAchievementsPopUps)
 _epicBattleSeasonsBlockBuilder = DictBlockBuilder(b'epicSeasons', b'II', b'HHBHH', {})

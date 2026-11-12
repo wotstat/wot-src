@@ -34,7 +34,7 @@
 		</forward>
 	</Fog>
 	<HDR>
-		<version>2</version>
+		<version>3</version>
 		<enable>true</enable>
 		<adaptationSpeed>100</adaptationSpeed>
 		<bloom>
@@ -47,8 +47,8 @@
 		<environment>
 			<sunlightLumMultiplier>0</sunlightLumMultiplier>
 			<ambientLumMultiplier>1</ambientLumMultiplier>
-			<sunLumMultiplier>6.36999989</sunLumMultiplier>
-			<skyLumMultiplier>5.5999999</skyLumMultiplier>
+			<sunDiskLumMultiplier>42.0419998</sunDiskLumMultiplier>
+			<skyExpositionOffset>0</skyExpositionOffset>
 			<LDR2HDRsaturation>1</LDR2HDRsaturation>
 			<LDR2HDRenableLumaMask>false</LDR2HDRenableLumaMask>
 		</environment>
@@ -58,18 +58,28 @@
 				<middleGray>0.389999986</middleGray>
 				<whitePoint>1</whitePoint>
 				<blackPoint>4.71000004</blackPoint>
+				<contrast>1</contrast>
 			</tonemapping>
 			<tonemapping>
 				<name>FilmicTM</name>
 				<middleGray>0.287860006</middleGray>
 				<whitePoint>12.79</whitePoint>
 				<blackPoint>3.5</blackPoint>
+				<contrast>1</contrast>
 			</tonemapping>
 			<tonemapping>
 				<name>LinearExpTM</name>
 				<middleGray>0.680000007</middleGray>
 				<whitePoint>1.69000006</whitePoint>
 				<blackPoint>1.22000003</blackPoint>
+				<contrast>1</contrast>
+			</tonemapping>
+			<tonemapping>
+				<name>GTTM</name>
+				<middleGray>0.219999999</middleGray>
+				<whitePoint>0.400000006</whitePoint>
+				<blackPoint>1.33000004</blackPoint>
+				<contrast>1</contrast>
 			</tonemapping>
 			<active>2</active>
 		</tonemappings>
@@ -94,10 +104,14 @@
 			<scale>0.119999997</scale>
 		</filmgrain>
 		<camera>
+			<usePhysicalCamera>true</usePhysicalCamera>
 			<fnumberDown>24</fnumberDown>
 			<fnumberUp>17</fnumberUp>
 			<shutterSpeed>5.24792814</shutterSpeed>
-			<keyValue>0.159999996</keyValue>
+			<cameraKeyValue>0.159999996</cameraKeyValue>
+			<lightLimit>1000</lightLimit>
+			<darkLimit>0.00100000005</darkLimit>
+			<eyeKeyValue>0.200000003</eyeKeyValue>
 		</camera>
 	</HDR>
 	<LensFlare>
@@ -127,7 +141,7 @@
 		<enable>false</enable>
 		<attenuationPower>10.5</attenuationPower>
 		<decay>0.5</decay>
-		<color>1 0.886334002 0.845000029 1</color>
+		<color>1 0.886334002 0.845000029 0.151515007</color>
 	</GodRays>
 	<SSAO>
 		<enableFromPreset>2</enableFromPreset>
@@ -180,7 +194,7 @@
 		</layer1>
 	</cloudsShadow>
 	<PBS>
-		<ForwardSHMultiplier>1.10000002</ForwardSHMultiplier>
+		<ForwardSHMultiplier>1</ForwardSHMultiplier>
 		<flakesDensityThreshold>0.800000012</flakesDensityThreshold>
 		<flakesUvScale>0.800000012</flakesUvScale>
 		<flakesGloss>0.889999986</flakesGloss>

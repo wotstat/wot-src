@@ -36,9 +36,6 @@ from skeletons.gui.lobby_context import ILobbyContext
 from skeletons.gui.server_events import IEventsCache
 from skeletons.gui.shared import IItemsCache
 from skeletons.gui.web import IWebController
-from portal.skeletons.portal_event_controller import IPortalEventController
-from portal_common.portal_constants import PREBATTLE_TYPE as PREBATTLE_TYPE_EXT
-from portal.gui.portal_gui_constants import PREBATTLE_ACTION_NAME as PREBATTLE_ACTION_NAME_EXT
 
 class _EXTENDED_OPT_IDS(object):
     VEHICLE_COMPARE = b'userVehicleCompare'
@@ -69,7 +66,6 @@ class USER(object):
     CREATE_COMP7_SQUAD = b'createComp7Squad'
     CREATE_RANKED_SQUAD = b'createRankedSquad'
     CREATE_EPIC_SQUAD = b'createEpicSquad'
-    CREATE_PORTAL_SQUAD = b'createPortalSquad'
 
 
 _CM_ICONS = {(USER.END_REFERRAL_COMPANY): b'endReferralCompany'}
@@ -87,7 +83,6 @@ class BaseUserCMHandler(AbstractContextMenuHandler, EventSystemEntity):
     __epicCtrl = dependency.descriptor(IEpicBattleMetaGameController)
     __comp7Ctrl = dependency.descriptor(IComp7Controller)
     __rankedCtrl = dependency.descriptor(IRankedBattlesController)
-    __portalController = dependency.descriptor(IPortalEventController)
 
     @prbDispatcherProperty
     def prbDispatcher(self):
@@ -217,10 +212,6 @@ class BaseUserCMHandler(AbstractContextMenuHandler, EventSystemEntity):
         self._doSelect(PREBATTLE_ACTION_NAME.EPIC_SQUAD, (self.databaseID,))
         return
 
-    def createPortalSquad(self):
-        self._doSelect(PREBATTLE_ACTION_NAME_EXT.PORTAL_BATTLE_SQUAD, (self.databaseID,))
-        return
-
     def invite(self):
         user = self.usersStorage.getUser(self.databaseID)
         if self.prbEntity.getPermissions().canSendInvite():
@@ -252,8 +243,7 @@ class BaseUserCMHandler(AbstractContextMenuHandler, EventSystemEntity):
            (USER.CREATE_MAPBOX_SQUAD): b'createMapboxSquad', 
            (USER.CREATE_COMP7_SQUAD): b'createComp7Squad', 
            (USER.CREATE_RANKED_SQUAD): b'createRankedSquad', 
-           (USER.CREATE_EPIC_SQUAD): b'createEpicSquad', 
-           (USER.CREATE_PORTAL_SQUAD): b'createPortalSquad'}
+           (USER.CREATE_EPIC_SQUAD): b'createEpicSquad'}
         if not IS_CHINA:
             handlers.update({(USER.SET_MUTED): b'setMuted', 
                (USER.UNSET_MUTED): b'unsetMuted'})
@@ -355,10 +345,6 @@ class BaseUserCMHandler(AbstractContextMenuHandler, EventSystemEntity):
                 isEnabled = primeTimeStatus == PrimeTimeStatus.AVAILABLE and self.__rankedCtrl.hasSuitableVehicles()
                 options.append(self._makeItem(USER.CREATE_RANKED_SQUAD, MENU.contextmenu(USER.CREATE_RANKED_SQUAD), optInitData={b'enabled': (canCreate and isEnabled), 
                    b'textColor': _ADD_SQUAD_COLOR}))
-            if self.__portalController.isEnabled():
-                if not self.__isSquadAlreadyCreated(PREBATTLE_TYPE_EXT.PORTAL):
-                    options.append(self._makeItem(USER.CREATE_PORTAL_SQUAD, MENU.contextmenu(USER.CREATE_PORTAL_SQUAD), optInitData={b'enabled': canCreate, 
-                       b'textColor': 13347959}))
         return options
 
     def _addPrebattleInfo(self, options, userCMInfo):
@@ -698,19 +684,6 @@ class CustomUserCMHandler(BaseUserCMHandler):
         return options
 
 
-class Comp7LeaderboardCMHandler(BaseUserCMHandler):
-
-    def _generateOptions(self, ctx=None):
-        userCMInfo = self._getUseCmInfo()
-        options = [
-         self._makeItem(USER.INFO, MENU.contextmenu(USER.INFO))]
-        options = self._addFriendshipInfo(options, userCMInfo)
-        options = self._addRemoveFriendInfo(options, userCMInfo)
-        options = self._addChannelInfo(options, userCMInfo)
-        options.append(self._makeItem(USER.COPY_TO_CLIPBOARD, MENU.contextmenu(USER.COPY_TO_CLIPBOARD)))
-        return options
-
-
 class UserContextMenuInfo(object):
     lobbyContext = dependency.descriptor(ILobbyContext)
 
@@ -721,6 +694,7 @@ class UserContextMenuInfo(object):
         self.canAddToIgnore = True
         self.canDoDenunciations = True
         self.isFriend = False
+        self.isAnySub = False
         self.isIgnored = False
         self.isTemporaryIgnored = False
         self.isMuted = False
@@ -731,6 +705,7 @@ class UserContextMenuInfo(object):
         self.isCurrentPlayer = False
         if self.user is not None:
             self.isFriend = self.user.isFriend()
+            self.isAnySub = self.user.isAnySub()
             self.isIgnored = self.user.isIgnored()
             self.isTemporaryIgnored = self.user.isTemporaryIgnored()
             self.isMuted = self.user.isMuted()

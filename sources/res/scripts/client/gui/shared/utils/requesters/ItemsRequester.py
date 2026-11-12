@@ -264,6 +264,7 @@ class REQ_CRITERIA(object):
         LOCKED = RequestCriteria(PredicateCondition((lambda item: item.isLocked)))
         CLASSES = staticmethod((lambda types=constants.VEHICLE_CLASS_INDICES.keys(): RequestCriteria(PredicateCondition((lambda item: item.type in types)))))
         LEVELS = staticmethod((lambda levels=range(1, constants.MAX_VEHICLE_LEVEL + 1): RequestCriteria(PredicateCondition((lambda item: item.level in levels)))))
+        DIFFICULTIES = staticmethod((lambda difficulties: RequestCriteria(PredicateCondition((lambda item: item.difficulty in difficulties)))))
         ROLES = staticmethod((lambda roles=constants.ROLE_LABEL_TO_TYPE.keys(): RequestCriteria(PredicateCondition((lambda item: item.roleLabel in roles)))))
         LEVEL = staticmethod((lambda level=1: RequestCriteria(PredicateCondition((lambda item: item.level == level)))))
         SPECIFIC_BY_CD = staticmethod((lambda typeCompDescrs: RequestCriteria(PredicateCondition((lambda item: item.intCD in typeCompDescrs)))))
@@ -509,7 +510,7 @@ class ItemsRequester(IItemsRequester):
     _AccountItem = namedtuple(b'_AccountItem', [1, 2, 3, 4, 
      5, 6, 7, 8, 9])
 
-    def __init__(self, inventory, stats, dossiers, goodies, shop, recycleBin, vehicleRotation, ranked, battleRoyale, badges, epicMetaGame, tokens, festivityRequester, armoryYard, blueprints=None, sessionStatsRequester=None, anonymizerRequester=None, battlePassRequester=None, giftSystemRequester=None, gameRestrictionsRequester=None, resourceWellRequester=None, achievements20Requester=None, refProgramRequester=None, sessionProgressRewardsRequester=None):
+    def __init__(self, inventory, stats, dossiers, goodies, shop, recycleBin, vehicleRotation, ranked, battleRoyale, badges, epicMetaGame, tokens, festivityRequester, armoryYard, blueprints=None, sessionStatsRequester=None, anonymizerRequester=None, battlePassRequester=None, giftSystemRequester=None, gameRestrictionsRequester=None, resourceWellRequester=None, achievements20Requester=None, refProgramRequester=None, sessionProgressRewardsRequester=None, nyTamagotchiRaidRequester=None):
         self.__inventory = inventory
         self.__stats = stats
         self.__dossiers = dossiers
@@ -534,6 +535,7 @@ class ItemsRequester(IItemsRequester):
         self.__achievements20 = achievements20Requester
         self.__refProgram = refProgramRequester
         self.__sessionProgressRewards = sessionProgressRewardsRequester
+        self.__nyTamagotchiRaid = nyTamagotchiRaidRequester
         self.__itemsCache = defaultdict(dict)
         self.__brokenSyncAlreadyLoggedTypes = set()
         self.__fittingItemRequesters = {
@@ -637,6 +639,10 @@ class ItemsRequester(IItemsRequester):
     def sessionProgressRewards(self):
         return self.__sessionProgressRewards
 
+    @property
+    def nyTamagotchiRaid(self):
+        return self.__nyTamagotchiRaid
+
     def __onCompletedCallback(self, waitingToClose=None, milestone=None):
         from gui.Scaleform.Waiting import Waiting
         if waitingToClose:
@@ -695,13 +701,15 @@ class ItemsRequester(IItemsRequester):
          callerWrapper(self.__resourceWell.request(), onCompleted=partial(self.__onCompletedCallback, b'download/resourceWell', None)),
          callerWrapper(self.__achievements20.request(), onCompleted=partial(self.__onCompletedCallback, b'download/achievements20', None)),
          callerWrapper(self.__refProgram.request(), onCompleted=partial(self.__onCompletedCallback, b'download/refProgram', None)),
-         callerWrapper(self.__sessionProgressRewards.request(), onCompleted=partial(self.__onCompletedCallback, b'download/sessionProgressRewards', None)))
+         callerWrapper(self.__sessionProgressRewards.request(), onCompleted=partial(self.__onCompletedCallback, b'download/sessionProgressRewards', None)),
+         callerWrapper(self.__nyTamagotchiRaid.request(), onCompleted=partial(self.__onCompletedCallback, None, None)))
         self.__brokenSyncAlreadyLoggedTypes.clear()
         callback(self)
         return
 
     def isSynced(self):
-        return (self.__blueprints is not None and self.__stats.isSynced() and (self.__inventory.isSynced()) and (self.__recycleBin.isSynced()) and (self.__shop.isSynced()) and (self.__dossiers.isSynced()) and (self.__giftSystem.isSynced()) and (self.__goodies.isSynced()) and (self.__vehicleRotation.isSynced()) and (self.ranked.isSynced()) and (self.__anonymizer.isSynced()) and (self.epicMetaGame.isSynced()) and (self.__battleRoyale.isSynced()) and (self.__gameRestrictions.isSynced()) and (self.__blueprints.isSynced)()) or False
+        blueprintsSynced = self.__blueprints.isSynced() if self.__blueprints is not None else False
+        return self.__stats.isSynced() and self.__inventory.isSynced() and self.__recycleBin.isSynced() and self.__shop.isSynced() and self.__dossiers.isSynced() and self.__giftSystem.isSynced() and self.__goodies.isSynced() and self.__vehicleRotation.isSynced() and self.ranked.isSynced() and self.__anonymizer.isSynced() and self.epicMetaGame.isSynced() and self.__battleRoyale.isSynced() and self.__gameRestrictions.isSynced() and blueprintsSynced and self.__nyTamagotchiRaid.isSynced()
 
     @adisp_async
     @adisp_process
@@ -762,10 +770,17 @@ class ItemsRequester(IItemsRequester):
         self.__anonymizer.clear()
         self.__giftSystem.clear()
         self.__gameRestrictions.clear()
+        if self.__nyTamagotchiRaid is not None:
+            self.__nyTamagotchiRaid.clear()
         return
 
     def onDisconnected(self):
         self.__tokens.onDisconnected()
+        return
+
+    @adisp_async
+    def __noopRequest(self, callback=None):
+        callback()
         return
 
     def fini(self):

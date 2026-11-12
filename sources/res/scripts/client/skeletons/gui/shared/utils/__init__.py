@@ -7,6 +7,7 @@ if TYPE_CHECKING:
     from gui.veh_post_progression.models.progression import PostProgressionItem
     from items.vehicles import VehicleType
     from gui.shared.gui_items.dossier import AccountDossier
+    from gui.shared.utils.requesters.abstract import AbstractSyncDataRequester
 
 class IItemsRequester(requesters.IRequester):
 
@@ -122,6 +123,11 @@ class IItemsRequester(requesters.IRequester):
 
     @property
     def armoryYard(self):
+        raise NotImplementedError
+        return
+
+    @property
+    def festivity(self):
         raise NotImplementedError
         return
 
@@ -340,6 +346,11 @@ class IHangarSpace(object):
         return
 
     @property
+    def isSelectionEnabled(self):
+        raise NotImplementedError
+        return
+
+    @property
     def spacePath(self):
         raise NotImplementedError
         return
@@ -419,6 +430,14 @@ class IHangarSpace(object):
         return
 
     def updateAnchorsParams(self, *args):
+        raise NotImplementedError
+        return
+
+    def resetLastUpdatedVehicle(self):
+        raise NotImplementedError
+        return
+
+    def setSelectionEnabled(self, enabled):
         raise NotImplementedError
         return
 

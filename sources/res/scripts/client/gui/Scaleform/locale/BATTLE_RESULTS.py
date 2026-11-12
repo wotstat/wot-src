@@ -295,6 +295,8 @@ class BATTLE_RESULTS(object):
     DETAILS_CALCULATIONS_BASE = b'#battle_results:details/calculations/base'
     DETAILS_CALCULATIONS_XPRECORD = b'#battle_results:details/calculations/xpRecord'
     DETAILS_CALCULATIONS_SQUADBONUS = b'#battle_results:details/calculations/squadBonus'
+    DETAILS_CALCULATIONS_NEWYEAR = b'#battle_results:details/calculations/newYear'
+    DETAILS_CALCULATIONS_VEHICLEBRANCH = b'#battle_results:details/calculations/vehicleBranch'
     DETAILS_CALCULATIONS_NOPENALTY = b'#battle_results:details/calculations/noPenalty'
     DETAILS_CALCULATIONS_EVENT = b'#battle_results:details/calculations/event'
     DETAILS_CALCULATIONS_SUBSTEAMBONUS = b'#battle_results:details/calculations/subsTeamBonus'
@@ -391,6 +393,8 @@ class BATTLE_RESULTS(object):
      DETAILS_CALCULATIONS_BASE,
      DETAILS_CALCULATIONS_XPRECORD,
      DETAILS_CALCULATIONS_SQUADBONUS,
+     DETAILS_CALCULATIONS_NEWYEAR,
+     DETAILS_CALCULATIONS_VEHICLEBRANCH,
      DETAILS_CALCULATIONS_NOPENALTY,
      DETAILS_CALCULATIONS_EVENT,
      DETAILS_CALCULATIONS_SUBSTEAMBONUS,

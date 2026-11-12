@@ -180,16 +180,17 @@ class BattleRoyaleFinancialBlock(base.StatsBlock):
         return
 
     def setRecord(self, result, reusable):
-        avatarInfo = result[b'personal'][b'avatar']
-        self.credits = avatarInfo[b'credits']
-        self.xp = avatarInfo[b'xp']
-        self.crystal = avatarInfo[b'crystal']
+        vehicleCD = next(key for key in result[b'personal'] if key != b'avatar')
+        vehicleInfo = result[b'personal'][vehicleCD]
+        self.credits = vehicleInfo[b'credits']
+        self.xp = vehicleInfo[b'xp']
+        self.crystal = vehicleInfo[b'crystal']
         self.brcoin = self._getBrCoins(result, reusable, isPremium=False)
         return
 
     def _getBrCoins(self, result, reusable, isPremium):
         questBonus = self.__getBrCoinsQuestBonus(reusable.personal.getQuestsProgress())
-        vehicleCD = [key for key in result[b'personal'].keys() if isinstance(key, (int, long, float))][0]
+        vehicleCD = next(key for key in result[b'personal'] if key != b'avatar')
         info = result[b'personal'][vehicleCD]
         for code, data in info[b'currencies'].iteritems():
             if code == b'brcoin':

@@ -1,0 +1,20 @@
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.views.city.ny_marker_model import NyMarkerModel
+
+class NyHoverMarkerModel(NyMarkerModel):
+    __slots__ = ()
+
+    def __init__(self, properties=6, commands=0):
+        super(NyHoverMarkerModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIsZoneHovered(self):
+        return self._getBool(5)
+
+    def setIsZoneHovered(self, value):
+        self._setBool(5, value)
+        return
+
+    def _initialize(self):
+        super(NyHoverMarkerModel, self)._initialize()
+        self._addBoolProperty(b'isZoneHovered', False)
+        return

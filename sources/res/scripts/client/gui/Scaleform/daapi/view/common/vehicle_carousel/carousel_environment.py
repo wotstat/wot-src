@@ -196,6 +196,7 @@ class CarouselEnvironment(CarouselEnvironmentMeta, IGlobalListener, ICarouselEnv
         super(CarouselEnvironment, self)._populate()
         self._currentVehicle = g_currentVehicle
         self._initDataProvider()
+        self.filter.resetDisabledDifficultyFilters()
         setting = self.settingsCore.options.getSetting(settings_constants.GAME.VEHICLE_CAROUSEL_STATS)
         self._carouselDP.setShowStats(setting.get())
         self._carouselDP.setEnvironment(self.app)
@@ -293,6 +294,14 @@ class CarouselEnvironment(CarouselEnvironmentMeta, IGlobalListener, ICarouselEnv
             self.updateVehicles()
         if constants.RENEWABLE_SUBSCRIPTION_CONFIG in diff:
             self.updateAviability()
+        if constants.Configs.VEHICLE_DIFFICULTY_CONFIG.value in diff:
+            self.__onVehicleDifficultyConfigChanged()
+        return
+
+    def __onVehicleDifficultyConfigChanged(self):
+        if self.filter is not None and self.filter.resetDisabledDifficultyFilters():
+            self.applyFilter()
+            self.updateHotFilters()
         return
 
     def __onCacheResync(self, reason, diff):
@@ -314,6 +323,9 @@ class CarouselEnvironment(CarouselEnvironmentMeta, IGlobalListener, ICarouselEnv
             filteredIndex = self._carouselDP.findVehicleFilteredIndex(g_currentVehicle.item)
             if self._carouselDP.pyGetSelectedIdx() != filteredIndex and filteredIndex > -1:
                 self._carouselDP.selectVehicle(filteredIndex)
+                self._carouselDP.refresh()
+            elif filteredIndex == -1:
+                self._carouselDP.selectFilteredVehicle(g_currentVehicle.item)
         return
 
     def __onVehicleBecomeElite(self, *vehicles):

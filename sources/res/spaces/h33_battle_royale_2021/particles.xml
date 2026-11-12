@@ -12,25 +12,28 @@
 			<path>particles/content_forward/pfx_textures/eff_leaves.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_5.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_misc_2.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_5.dds
+			<path>particles/content_forward/pfx_textures/eff_tex_split_fire_4.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_7.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex_snow_250_br_battle.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_misc_3.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_8.dds
-				<type>primary</type>
-			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_h25_portal.dds
-				<type>primary</type>
-			</path>
 			<path>particles/content_forward/pfx_textures/251_crows_01.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_snow_250_br_battle.dds
+			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_8.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_h24_winter.dds
@@ -39,16 +42,13 @@
 			<path>particles/content_forward/pfx_textures/eff_tex_hangar_v3.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_7.dds
-				<type>primary</type>
-			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_split_fire_4.dds
-				<type>primary</type>
-			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_h07_new_year_2015.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_long.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex_h25_portal.dds
 				<type>primary</type>
 			</path>
 		</preloadTextures>
@@ -74,10 +74,10 @@
 		<fn_effect_bin>particles/content_forward/pfx/environment/interior/h33_br_fog_monolith_02.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/environment/trees/broadleaves/tree_birch_bold_twisted_fall.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/environment/trees/broadleaves/tree_birch_bold_twisted_touchdown.vfx</fn_effect_bin>
-		<fn_effect_bin>particles/content_forward/pfx/environment/trees/conifers/tree_spruce_24m_fall.vfx</fn_effect_bin>
-		<fn_effect_bin>particles/content_forward/pfx/environment/trees/conifers/tree_spruce_24m_touchdown.vfx</fn_effect_bin>
-		<fn_effect_bin>particles/content_forward/pfx/environment/trees/conifers/tree_spruce_ragged_14m_fall.vfx</fn_effect_bin>
-		<fn_effect_bin>particles/content_forward/pfx/environment/trees/conifers/tree_spruce_ragged_14m_touchdown.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/environment/trees/conifers/tree_spruce_frost_24m_fall.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/environment/trees/conifers/tree_spruce_frost_24m_touchdown.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/environment/trees/conifers/tree_spruce_frost_8m_fall.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/environment/trees/conifers/tree_spruce_frost_8m_touchdown.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/environment/hangar/h26_battle_royale_fire_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/hangar/h26_br_angle_grinder_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/hangar/h26_br_angle_grinder_2.eff</fn_effect_bin>
@@ -96,10 +96,10 @@
 		<fn_effect_bin>particles/environment/interior/h33_br_fog_monolith_02.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/trees/broadleaves/tree_birch_bold_twisted_fall.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/trees/broadleaves/tree_birch_bold_twisted_touchdown.eff</fn_effect_bin>
-		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_24m_fall.eff</fn_effect_bin>
-		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_24m_touchdown.eff</fn_effect_bin>
-		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_ragged_14m_fall.eff</fn_effect_bin>
-		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_ragged_14m_touchdown.eff</fn_effect_bin>
+		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_frost_24m_fall.eff</fn_effect_bin>
+		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_frost_24m_touchdown.eff</fn_effect_bin>
+		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_frost_8m_fall.eff</fn_effect_bin>
+		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_frost_8m_touchdown.eff</fn_effect_bin>
 		<preloadVisual>particles/mesh_particles/tree_twig_01.visual</preloadVisual>
 		<preloadVisual>particles/mesh_particles/tree_twig_02.visual</preloadVisual>
 	</forward>
@@ -115,19 +115,19 @@
 			<path>particles/content_deferred/pfx_textures/eff_leaves.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_deferred/pfx_textures/eff_tex_split_misc_2.dds
-				<type>primary</type>
-			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_split_smoke_5.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_deferred/pfx_textures/eff_tex_snow_250_br_battle.dds
+			<path>particles/content_deferred/pfx_textures/eff_tex_split_misc_2.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_tex_split_smoke_7.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_split_smoke_8.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_deferred/pfx_textures/eff_tex_h25_portal.dds
+			<path>particles/content_deferred/pfx_textures/eff_tex_snow_250_br_battle.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/251_crows_01.dds
@@ -154,13 +154,13 @@
 			<path>particles/content_deferred/pfx_textures/eff_tex_h07_new_year_2015.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_deferred/pfx_textures/eff_tex_split_smoke_7.dds
-				<type>primary</type>
-			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_long.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/gfx_models/gfx_textures/lightning_02.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_tex_h25_portal.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/tracers.dds
@@ -192,10 +192,10 @@
 		<fn_effect_bin>particles/content_deferred/pfx/environment/interior/h33_br_fog_monolith_02.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/environment/trees/broadleaves/tree_birch_bold_twisted_fall.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/environment/trees/broadleaves/tree_birch_bold_twisted_touchdown.vfx</fn_effect_bin>
-		<fn_effect_bin>particles/content_deferred/pfx/environment/trees/conifers/tree_spruce_24m_fall.vfx</fn_effect_bin>
-		<fn_effect_bin>particles/content_deferred/pfx/environment/trees/conifers/tree_spruce_24m_touchdown.vfx</fn_effect_bin>
-		<fn_effect_bin>particles/content_deferred/pfx/environment/trees/conifers/tree_spruce_ragged_14m_fall.vfx</fn_effect_bin>
-		<fn_effect_bin>particles/content_deferred/pfx/environment/trees/conifers/tree_spruce_ragged_14m_touchdown.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/environment/trees/conifers/tree_spruce_frost_24m_fall.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/environment/trees/conifers/tree_spruce_frost_24m_touchdown.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/environment/trees/conifers/tree_spruce_frost_8m_fall.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/environment/trees/conifers/tree_spruce_frost_8m_touchdown.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/null.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/environment/hangar/h26_battle_royale_fire_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/hangar/h26_br_angle_grinder_1.eff</fn_effect_bin>
@@ -215,10 +215,10 @@
 		<fn_effect_bin>particles/environment/interior/h33_br_fog_monolith_02.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/trees/broadleaves/tree_birch_bold_twisted_fall.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/trees/broadleaves/tree_birch_bold_twisted_touchdown.eff</fn_effect_bin>
-		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_24m_fall.eff</fn_effect_bin>
-		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_24m_touchdown.eff</fn_effect_bin>
-		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_ragged_14m_fall.eff</fn_effect_bin>
-		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_ragged_14m_touchdown.eff</fn_effect_bin>
+		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_frost_24m_fall.eff</fn_effect_bin>
+		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_frost_24m_touchdown.eff</fn_effect_bin>
+		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_frost_8m_fall.eff</fn_effect_bin>
+		<fn_effect_bin>particles/environment/trees/conifers/tree_spruce_frost_8m_touchdown.eff</fn_effect_bin>
 		<preloadVisual>particles/mesh_particles/tree_twig_01.visual</preloadVisual>
 		<preloadVisual>particles/mesh_particles/tree_twig_02.visual</preloadVisual>
 	</deferred>

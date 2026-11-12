@@ -58,6 +58,8 @@ class ReplayRecord(ResultRecord):
 
     def _getFactor(self):
         name = self._name.lower()
+        if name.endswith(b'factor1000') or name.endswith(b'factors1000'):
+            return 1000
         if name.endswith(b'factor100') or name.endswith(b'factors100'):
             return 100
         if name.endswith(b'factor10') or name.endswith(b'factors10'):
@@ -102,6 +104,12 @@ class ReplayRecords(ResultRecord):
     __BIRTHDAY_MAP = {b'eventCreditsFactor100List_mt_birthday_economics##credits_gold': b'birthdayCreditsBonus', 
        b'eventXPFactor100List_mt_birthday_economics##xp_freeXP': b'birthdayXPFactorBonus', 
        b'eventFreeXPFactor100List_mt_birthday_economics##xp_freeXP': b'birthdayFreeXPFactorBonus'}
+    __NEW_YEAR_MAP = {b'eventFreeXPList_nyBattleBonus##xp_freeXP': b'newYearFreeXp', 
+       b'eventFreeXPFactor100List_nyBattleBonus##xp_freeXP': b'newYearFreeXpFactor', 
+       b'eventXPList_nyBattleBonus##xp_freeXP': b'newYearXp', 
+       b'eventXPFactor100List_nyBattleBonus##xp_freeXP': b'newYearXpFactor', 
+       b'eventCreditsList_nyBattleBonus##credits_gold': b'newYearCredits', 
+       b'eventCreditsFactor1000List_nyBattleBonus##credits_gold': b'newYearCreditsFactor'}
 
     def __init__(self, replay, *last):
         super(ReplayRecords, self).__init__()
@@ -149,13 +157,19 @@ class ReplayRecords(ResultRecord):
     def _addRecord(self, op, name, value, diff):
         if op in _SUPPORTED_OPS:
             clazz = _SUPPORTED_OPS[op]
-            birthdayName = self.__remapForBirthday(name)
-            self._records[birthdayName] = clazz(birthdayName, value, diff)
+            newName = self.__remapForBirthday(name)
+            newName = self.__remapForNewYear(name)
+            self._records[newName] = clazz(newName, value, diff)
         return
 
     def __remapForBirthday(self, name):
         if name in self.__BIRTHDAY_MAP:
             return self.__BIRTHDAY_MAP[name]
+        return name
+
+    def __remapForNewYear(self, name):
+        if name in self.__NEW_YEAR_MAP:
+            return self.__NEW_YEAR_MAP[name]
         return name
 
 

@@ -1,8 +1,10 @@
 import gui
 from account_helpers.AccountSettings import AccountSettings, EarlyAccess
+from account_helpers.settings_core.settings_constants import GAME
 from gui.techtree.techtree_dp import g_techTreeDP
 from gui.techtree.settings import VehicleClassInfo, NODE_STATE
-from helpers import i18n
+from helpers import dependency, i18n
+from skeletons.account_helpers.settings_core import ISettingsCore
 __all__ = (b'ResearchItemsObjDumper', b'StubDumper')
 
 class _BaseDumper(object):
@@ -74,6 +76,7 @@ class ResearchBaseDumper(_BaseDumper):
 
 
 class ResearchItemsObjDumper(ResearchBaseDumper):
+    __settingsCore = dependency.descriptor(ISettingsCore)
 
     def clear(self, full=False):
         nodes = self._cache[b'top']
@@ -125,6 +128,10 @@ class ResearchItemsObjDumper(ResearchBaseDumper):
            b'buyPrice': (node.getBuyPrices()), 
            b'paragonsPoints': ((b'+{}').format(paragonsPoints) if paragonsPoints else b''), 
            b'paragonsType': (node.getParagonsType())})
+        if node.isVehicle():
+            item = node.getItem()
+            if item is not None:
+                data[b'difficulty'] = item.difficulty or 0 if self.__settingsCore.getSetting(GAME.SHOW_VEHICLE_DIFFICULTY_IN_RESEARCH) else 0
         if NODE_STATE.isEarlyAccess(node.getState()):
             data.update(_getEarlyAccessVehicleData(node))
         return data

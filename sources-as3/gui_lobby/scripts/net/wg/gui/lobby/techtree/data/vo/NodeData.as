@@ -58,6 +58,8 @@ package net.wg.gui.lobby.techtree.data.vo
       
       public var level:int = -1;
       
+      public var difficulty:int = 0;
+      
       public var state:uint = 0;
       
       public var extendedState:uint = 0;
@@ -157,6 +159,7 @@ package net.wg.gui.lobby.techtree.data.vo
          {
             this.level = param1.level;
          }
+         this.difficulty = param1.difficulty != null ? int(param1.difficulty) : 0;
          if(!isNaN(param1.state))
          {
             this.state = param1.state;

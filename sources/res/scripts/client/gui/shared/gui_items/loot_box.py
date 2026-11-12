@@ -24,7 +24,7 @@ class NewYearLootBoxes(CONST_CONTAINER):
     SPECIAL = b'newYear_special'
     SPECIAL_AUTO = b'newYear_special_auto'
     COMMON = b'newYear_usual'
-    SURPRISE_COIN = b'ny_2025_surprise'
+    SURPRISE_COIN = b'ny_2027_surprise'
 
 
 class NewYearCategories(CONST_CONTAINER):
@@ -113,7 +113,7 @@ def addBonusesToGroup(bonusGroup, bonuses):
 
 
 class LootBox(GUIItem):
-    __slots__ = (b'__id', b'__invCount', b'__type', b'__category', b'__historyName', b'__guaranteedFrequency', b'__slotBonuses', b'__guaranteedFrequencyName', b'__tier', b'__isEnabled', b'__userNameKey', b'__iconName', b'__description', b'__videoKey', b'__weight', b'__bonusGroups', b'__autoOpenTime', b'__rotationLists', b'__config', b'__rotationStage', b'__tags', b'__unlockKeys', b'__manualMaxOpenCount', b'__lootBoxInfoPageURL', b'__lootBoxShopURL', b'__isStatCollected', b'__immediatelyOpen')
+    __slots__ = (b'__id', b'__invCount', b'__type', b'__category', b'__historyName', b'__guaranteedFrequency', b'__slotBonuses', b'__guaranteedFrequencyName', b'__tier', b'__isEnabled', b'__userNameKey', b'__iconName', b'__description', b'__videoKey', b'__weight', b'__bonusGroups', b'__autoOpenTime', b'__rotationLists', b'__config', b'__rotationStage', b'__tags', b'__unlockKeys', b'__manualMaxOpenCount', b'__lootBoxInfoPageURL', b'__lootBoxShopURL', b'__isStatCollected', b'__immediatelyOpen', b'__selectionCardsCount')
 
     def __init__(self, lootBoxID, lootBoxConfig, invCount):
         super(LootBox, self).__init__()
@@ -228,6 +228,20 @@ class LootBox(GUIItem):
     def isImmediatelyOpen(self):
         return self.__immediatelyOpen
 
+    def getSelectionCardsCount(self):
+        return self.__selectionCardsCount
+
+    def getSelectionBonusLeft(self):
+        count = 0
+        for _, slotDict in self.__slotBonuses.iteritems():
+            bonuses = slotDict.get(b'bonuses', [])
+            for bonus in bonuses:
+                for vehicle, _ in bonus.getVehicles():
+                    isOwned = vehicle.isInInventory and not vehicle.isRented or vehicle.restoreInfo is not None
+                    count += int(not isOwned)
+
+        return count
+
     def getManualMaxOpenCount(self):
         if self.__manualMaxOpenCount:
             return self.__manualMaxOpenCount
@@ -253,7 +267,7 @@ class LootBox(GUIItem):
         return self.__weight
 
     def isFree(self):
-        return self.__type == NewYearLootBoxes.COMMON
+        return self.__type in (b'newYear_usual', b'ny_2024_VI')
 
     def isEnabled(self):
         return self.__isEnabled
@@ -373,6 +387,7 @@ class LootBox(GUIItem):
         self.__unlockKeys = lootBoxConfig.get(b'unlockKeys', set())
         self.__manualMaxOpenCount = lootBoxConfig.get(b'manualMaxOpenCount')
         self.__immediatelyOpen = lootBoxConfig.get(b'immediatelyOpen')
+        self.__selectionCardsCount = lootBoxConfig.get(b'selectionCardsCount')
         return
 
     def __iterateAllSlots(self):

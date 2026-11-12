@@ -118,3 +118,103 @@ class IFullscreenManager(object):
 
 class IWindowLoaderController(IGameController):
     __slots__ = ()
+
+
+class IOverlaysManager(object):
+    __slots__ = ()
+
+    def isSuspended(self, window):
+        raise NotImplementedError
+        return
+
+    def suspend(self, condition=None):
+        raise NotImplementedError
+        return
+
+    def release(self):
+        raise NotImplementedError
+        return
+
+    def init(self):
+        raise NotImplementedError
+        return
+
+    def fini(self):
+        raise NotImplementedError
+        return
+
+
+class INewYearNavigation(object):
+    onObjectStateChanged = None
+    onUpdateCurrentView = None
+    onChangeView = None
+
+    @classmethod
+    def closeMainView(cls):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def showMainView(cls, objectName, instantly=False, viewAlias=None, *args, **kwargs):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def showInfoView(cls, previousViewAlias=None, *args, **kwargs):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def showNavigationView(cls, viewAlias=None):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def switchToIntro(cls):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def switchByAnchorName(cls, anchorName):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def switchFromStyle(cls, objectName, viewAlias=None, tabName=None, *args, **kwargs):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def getCurrentObject(cls):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def getCurrentViewName(cls):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def getPreviousObject(cls):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def showViewAfterPrbSwitch(cls, aliasName, *args, **kwargs):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def switchToView(cls, aliasName, tabName=None, instantly=False, *args, **kwargs):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def switchTo(cls, objectName, instantly=False, viewAlias=None, withFade=False, *args, **kwargs):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def clear(cls):
+        raise NotImplementedError
+        return

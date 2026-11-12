@@ -56,7 +56,7 @@ class IEventBoardController(object):
 
     @adisp_async
     @adisp_process
-    def getMyLeaderboardInfo(self, eventID, leaderboardID, callback, showNotification=True):
+    def getMyLeaderboardInfo(self, eventID, leaderboardID, spaID, callback, showNotification=True):
         raise NotImplementedError
         return
 

@@ -1,0 +1,28 @@
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.views.pet.ny_indicator_type import NyIndicatorType
+
+class NyPetItemLeaderboardPoint(NyIndicatorType):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(NyPetItemLeaderboardPoint, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getValue(self):
+        return self._getNumber(1)
+
+    def setValue(self, value):
+        self._setNumber(1, value)
+        return
+
+    def getId(self):
+        return self._getNumber(2)
+
+    def setId(self, value):
+        self._setNumber(2, value)
+        return
+
+    def _initialize(self):
+        super(NyPetItemLeaderboardPoint, self)._initialize()
+        self._addNumberProperty(b'value', 0)
+        self._addNumberProperty(b'id', 0)
+        return

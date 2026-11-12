@@ -177,7 +177,7 @@ class TrainingRoomBase(LobbySubView, TrainingRoomBaseMeta, ILegacyListener):
         else:
             self.as_setPlayerStateInOtherS(accountInfo.dbID, stateString, vContourIcon, vShortName, vLevel, accountInfo.igrType, badgeVO)
         creator = self.__getCreatorFromRosters()
-        if accountInfo.dbID == creator.dbID:
+        if creator is not None and accountInfo.dbID == creator.dbID:
             self.__showSettings(entity)
         self._updateStartButton(entity)
         return

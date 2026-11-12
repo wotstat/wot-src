@@ -10,6 +10,7 @@ class LootCongratsTypes(ViewModel):
     INIT_CONGRAT_TYPE_USUAL = b'UsualCongrats'
     INIT_CONGRAT_TYPE_PROGRESSIVE_REWARDS = b'ProgressiveRewardCongrats'
     INIT_CONGRAT_TYPE_CREW_BOOKS = b'CrewBookCongrats'
+    INIT_CONGRAT_TYPE_LOOTBOX = b'LootBoxCongrats'
     INIT_CONGRAT_TYPE_EPIC_REWARDS = b'EpicRewardCongrats'
     INIT_CONGRAT_TYPE_BATTLE_PASS = b'BattlePassCongrats'
     INIT_CONGRAT_TYPE_AC_EMAIL_CONFIRMATION = b'ACEmailConfirmation'

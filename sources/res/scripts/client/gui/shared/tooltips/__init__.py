@@ -63,6 +63,7 @@ class TOOLTIP_TYPE(CONST_CONTAINER):
     BATTLE_ROYALE_SELECTOR_CALENDAR_INFO = b'battleRoyaleSelectorCalendarInfo'
     BATTLE_ROYALE_WIDGET_INFO = b'battleRoyaleWidgetInfo'
     SQUAD_BONUS = b'squadBonus'
+    NY_CREDIT_BONUS = b'nyTotalCreditBonus'
     SESSION_STATS = b'sessionStats'
     TRADE_IN_INFO = b'tradeInInfo'
     TRADE_IN_INFO_NOT_AVAILABLE = b'tradeInInfoNotAvailable'

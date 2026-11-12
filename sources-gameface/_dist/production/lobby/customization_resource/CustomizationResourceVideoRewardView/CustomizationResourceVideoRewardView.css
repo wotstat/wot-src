@@ -1,0 +1,39 @@
+.App_base_57 {
+  width: 100%;
+  height: 100%;
+  background-color: #120a0d;
+  overflow: hidden;
+  position: relative;
+}
+
+.App_video_b8 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: App_fadeIn_72 0.4s ease-in-out 0s 1 forwards;
+}
+
+@keyframes App_fadeIn_72 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.Video_base_78 {
+  width: 100%;
+  height: 100%;
+  background: no-repeat center / contain;
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Video_base__visible_41 {
+  visibility: visible;
+}

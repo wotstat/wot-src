@@ -1,0 +1,202 @@
+from frameworks.wulf import Array
+from gui.impl.gen import R
+from frameworks.wulf import ViewModel
+from gui.impl.wrappers.user_list_model import UserListModel
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.components.ny_popover_decoration_slot_model import NyPopoverDecorationSlotModel
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.views.city.atmosphere_animation_model import AtmosphereAnimationModel
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.views.city.group_slots_model import GroupSlotsModel
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.views.city.ny_city_marker_model import NyCityMarkerModel
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.views.city.object_view_model import ObjectViewModel
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.views.city.objects_overview_model import ObjectsOverviewModel
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.views.environment_switcher import EnvironmentSwitcher
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.views.lootboxes.loot_box_entry_point_model import LootBoxEntryPointModel
+
+class NyCityViewModel(ViewModel):
+    __slots__ = (b'onLevelUp', b'onHoverSlot', b'onHoverOutSlot', b'onClickSlot', b'onHoverMarker', b'onHoverOutMarker', b'onApplyDecorationSelection', b'onIsNewStateChanged', b'onLevelUpAnimationEnd')
+    OBJECTS_OVERVIEW = 0
+    OBJECT_VIEW = 1
+
+    def __init__(self, properties=19, commands=9):
+        super(NyCityViewModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def environmentSwitcher(self):
+        return self._getViewModel(0)
+
+    @staticmethod
+    def getEnvironmentSwitcherType():
+        return EnvironmentSwitcher
+
+    @property
+    def objectsOverview(self):
+        return self._getViewModel(1)
+
+    @staticmethod
+    def getObjectsOverviewType():
+        return ObjectsOverviewModel
+
+    @property
+    def objectView(self):
+        return self._getViewModel(2)
+
+    @staticmethod
+    def getObjectViewType():
+        return ObjectViewModel
+
+    @property
+    def groupSlots(self):
+        return self._getViewModel(3)
+
+    @staticmethod
+    def getGroupSlotsType():
+        return GroupSlotsModel
+
+    @property
+    def lootBox(self):
+        return self._getViewModel(4)
+
+    @staticmethod
+    def getLootBoxType():
+        return LootBoxEntryPointModel
+
+    @property
+    def atmosphereAnimation(self):
+        return self._getViewModel(5)
+
+    @staticmethod
+    def getAtmosphereAnimationType():
+        return AtmosphereAnimationModel
+
+    @property
+    def firMarker(self):
+        return self._getViewModel(6)
+
+    @staticmethod
+    def getFirMarkerType():
+        return NyCityMarkerModel
+
+    @property
+    def teremMarker(self):
+        return self._getViewModel(7)
+
+    @staticmethod
+    def getTeremMarkerType():
+        return NyCityMarkerModel
+
+    @property
+    def installationsMarker(self):
+        return self._getViewModel(8)
+
+    @staticmethod
+    def getInstallationsMarkerType():
+        return NyCityMarkerModel
+
+    @property
+    def fairMarker(self):
+        return self._getViewModel(9)
+
+    @staticmethod
+    def getFairMarkerType():
+        return NyCityMarkerModel
+
+    @property
+    def snowslideMarker(self):
+        return self._getViewModel(10)
+
+    @staticmethod
+    def getSnowslideMarkerType():
+        return NyCityMarkerModel
+
+    @property
+    def fireworksMarker(self):
+        return self._getViewModel(11)
+
+    @staticmethod
+    def getFireworksMarkerType():
+        return NyCityMarkerModel
+
+    def getShowEnvSwitcherTip(self):
+        return self._getBool(12)
+
+    def setShowEnvSwitcherTip(self, value):
+        self._setBool(12, value)
+        return
+
+    def getIsGuiLootBoxesVisible(self):
+        return self._getBool(13)
+
+    def setIsGuiLootBoxesVisible(self, value):
+        self._setBool(13, value)
+        return
+
+    def getCurrentSubModel(self):
+        return self._getNumber(14)
+
+    def setCurrentSubModel(self, value):
+        self._setNumber(14, value)
+        return
+
+    def getCityLvl(self):
+        return self._getNumber(15)
+
+    def setCityLvl(self, value):
+        self._setNumber(15, value)
+        return
+
+    def getIsFirstEntrance(self):
+        return self._getBool(16)
+
+    def setIsFirstEntrance(self, value):
+        self._setBool(16, value)
+        return
+
+    def getDecorationsTitle(self):
+        return self._getResource(17)
+
+    def setDecorationsTitle(self, value):
+        self._setResource(17, value)
+        return
+
+    def getDecorationsSlots(self):
+        return self._getArray(18)
+
+    def setDecorationsSlots(self, value):
+        self._setArray(18, value)
+        return
+
+    @staticmethod
+    def getDecorationsSlotsType():
+        return NyPopoverDecorationSlotModel
+
+    def _initialize(self):
+        super(NyCityViewModel, self)._initialize()
+        self._addViewModelProperty(b'environmentSwitcher', EnvironmentSwitcher())
+        self._addViewModelProperty(b'objectsOverview', ObjectsOverviewModel())
+        self._addViewModelProperty(b'objectView', ObjectViewModel())
+        self._addViewModelProperty(b'groupSlots', UserListModel())
+        self._addViewModelProperty(b'lootBox', LootBoxEntryPointModel())
+        self._addViewModelProperty(b'atmosphereAnimation', AtmosphereAnimationModel())
+        self._addViewModelProperty(b'firMarker', NyCityMarkerModel())
+        self._addViewModelProperty(b'teremMarker', NyCityMarkerModel())
+        self._addViewModelProperty(b'installationsMarker', NyCityMarkerModel())
+        self._addViewModelProperty(b'fairMarker', NyCityMarkerModel())
+        self._addViewModelProperty(b'snowslideMarker', NyCityMarkerModel())
+        self._addViewModelProperty(b'fireworksMarker', NyCityMarkerModel())
+        self._addBoolProperty(b'showEnvSwitcherTip', False)
+        self._addBoolProperty(b'isGuiLootBoxesVisible', False)
+        self._addNumberProperty(b'currentSubModel', 0)
+        self._addNumberProperty(b'cityLvl', 0)
+        self._addBoolProperty(b'isFirstEntrance', False)
+        self._addResourceProperty(b'decorationsTitle', R.invalid())
+        self._addArrayProperty(b'decorationsSlots', Array())
+        self.onLevelUp = self._addCommand(b'onLevelUp')
+        self.onHoverSlot = self._addCommand(b'onHoverSlot')
+        self.onHoverOutSlot = self._addCommand(b'onHoverOutSlot')
+        self.onClickSlot = self._addCommand(b'onClickSlot')
+        self.onHoverMarker = self._addCommand(b'onHoverMarker')
+        self.onHoverOutMarker = self._addCommand(b'onHoverOutMarker')
+        self.onApplyDecorationSelection = self._addCommand(b'onApplyDecorationSelection')
+        self.onIsNewStateChanged = self._addCommand(b'onIsNewStateChanged')
+        self.onLevelUpAnimationEnd = self._addCommand(b'onLevelUpAnimationEnd')
+        return

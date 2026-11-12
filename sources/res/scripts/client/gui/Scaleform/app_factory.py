@@ -259,7 +259,8 @@ class AS3_AppFactory(IAppFactory):
         libs = [
          2, 
          3, 4, 
-         5, 6]
+         5, 6, 
+         7, 8]
         if self.bootcampCtrl.isInBootcamp():
             libs.extend([b'BCGuiControlsLobbyBattle.swf', b'BCGuiControlsLobby.swf'])
         app.as_loadLibrariesS(libs)

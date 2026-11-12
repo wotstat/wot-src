@@ -785,7 +785,7 @@
           };
         window.ViewEnvHelper = f;
       },
-      4720: (e, u, t) => {
+      5713: (e, u, t) => {
         "use strict";
         var n = {};
         (t.r(n),
@@ -1185,13 +1185,13 @@
           (function (e) {
             ((e.Deconstruct = "deconstruct"), (e.Upgrade = "upgrade"));
           })($ || ($ = {})));
-        var V = t(5521);
-        const Y = (e) => {
+        var Y = t(5521);
+        const V = (e) => {
           console.error(e.type + ": useKeydownListener hook :: Callback is not defined");
         };
-        function j(e = V.n.NONE, u = Y, t = !1) {
+        function j(e = Y.n.NONE, u = V, t = !1) {
           (0, a.useEffect)(() => {
-            if (e !== V.n.NONE)
+            if (e !== Y.n.NONE)
               return (
                 window.addEventListener("keydown", n, t),
                 () => {
@@ -1825,7 +1825,7 @@
                   },
                   [u, n, l],
                 );
-              j(V.n.ENTER, c);
+              j(Y.n.ENTER, c);
               const E = (0, a.useMemo)(() => {
                   return (
                     (e = i.type),
@@ -1888,7 +1888,7 @@
                 [n],
               );
             return (
-              j(V.n.TAB, i),
+              j(Y.n.TAB, i),
               o().createElement(
                 "div",
                 { className: Ne },
@@ -2153,8 +2153,8 @@
           if (!(u >= e.length))
             return Array.isArray(e) ? e[u] : null == (t = e[u]) ? void 0 : t.value;
         }
-        const Ve = $e;
-        function Ye(e, u) {
+        const Ye = $e;
+        function Ve(e, u) {
           return Array.isArray(e)
             ? e.map(u)
             : e.map((e, t, n) => u(null == e ? void 0 : e.value, t, n));
@@ -2181,7 +2181,7 @@
               o().createElement(
                 "div",
                 { className: h()(je.currencyBlock, null == t ? void 0 : t.currencyBlock) },
-                Ye(e, (e, u) =>
+                Ve(e, (e, u) =>
                   o().createElement(
                     "div",
                     {
@@ -2412,7 +2412,7 @@
           if (Array.isArray(e)) return e.reduce(u, t);
           let n = t;
           for (let t = 0; t < e.length; t++) {
-            n = u(n, Ve(e, t), t, e);
+            n = u(n, Ye(e, t), t, e);
           }
           return n;
         }
@@ -2931,14 +2931,14 @@
           zu = "HorizontalBar_rail_32",
           qu = "disable",
           $u = { pending: !1, offset: 0 },
-          Vu = (e) => {
+          Yu = (e) => {
             var u;
             return 0.9 * (null != (u = e.getWrapperSize()) ? u : 0);
           },
-          Yu = () => {},
+          Vu = () => {},
           ju = (e, u) => Math.max(20, e.offsetWidth * u),
           Xu = (0, a.memo)(
-            ({ api: e, classNames: u = {}, getStepByRailClick: t = Vu, onDrag: n = Yu }) => {
+            ({ api: e, classNames: u = {}, getStepByRailClick: t = Yu, onDrag: n = Vu }) => {
               const r = (0, a.useRef)(null),
                 i = (0, a.useRef)(null),
                 s = (0, a.useRef)(null),
@@ -3004,7 +3004,7 @@
                       const u = () => {
                         D();
                       };
-                      let t = Yu;
+                      let t = Vu;
                       const n = () => {
                         (t(), (t = ye(m)));
                       };
@@ -3469,6 +3469,7 @@
             (e.TankmenXpFactor = "tankmenXPFactor"),
             (e.FreeXpFactor = "freeXPFactor"),
             (e.BattleToken = "battleToken"),
+            (e.Entitlements = "entitlements"),
             (e.PremiumUniversal = "premium_universal"),
             (e.Gold = "gold"),
             (e.Credits = "credits"),
@@ -3481,7 +3482,6 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
-            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -3514,7 +3514,11 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.RazlomCoin = "razlom_coin"));
+            (e.NyPetGoodies = "nyPetGoodies"),
+            (e.HiddenVehicle = "hidden_vehicle"),
+            (e.NyStaticDogTag = "nyStaticDogTag"),
+            (e.NyToys = "nyToys"),
+            (e.NyLootboxFragment = "nyLootboxFragment"));
         })(Ct || (Ct = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -3698,6 +3702,7 @@
           Ct.TankmenXpFactor,
           Ct.FreeXpFactor,
           Ct.BattleToken,
+          Ct.Entitlements,
           Ct.PremiumUniversal,
           Ct.NaturalCover,
           Ct.BpCoin,
@@ -3712,6 +3717,9 @@
           Ct.Comp7TokenWeeklyReward,
           Ct.Comp7TokenCouponReward,
           Ct.BattleBoosterGift,
+          Ct.NewYearFillers,
+          Ct.NewYearInvoice,
+          Ct.LootBoxToken,
           Ct.CosmicLootboxCommon,
           Ct.CosmicLootboxSilver,
           Ct.SelectableBonus,
@@ -3719,10 +3727,14 @@
           Ct.PremiumPlusUniversal,
           Ct.GoldenTicket,
           Ct.RewardsSlots,
+          Ct.NyPetGoodies,
+          Ct.HiddenVehicle,
+          Ct.NyLootboxFragment,
           Ct.Gold,
           Ct.Credits,
           Ct.Crystal,
           Ct.FreeXp,
+          Ct.NewYearToyFragments,
           Ct.BattlePassPoints,
           Ct.PremiumPlus,
           Ct.Premium);
@@ -3932,7 +3944,7 @@
                   o().createElement(
                     "div",
                     { className: Ot },
-                    Ye(u, (e, u) =>
+                    Ve(u, (e, u) =>
                       o().createElement(
                         he,
                         {
@@ -3973,7 +3985,7 @@
                   o().createElement(
                     "div",
                     { className: Ot },
-                    Ye(t, (e, u) =>
+                    Ve(t, (e, u) =>
                       o().createElement(
                         he,
                         {
@@ -4004,8 +4016,8 @@
           }),
           qt = "Content_base_98",
           $t = "Content_divider_b1",
-          Vt = "Content_divider__scroll_d2",
-          Yt = "Content_content_8c",
+          Yt = "Content_divider__scroll_d2",
+          Vt = "Content_content_8c",
           jt = (0, X.Pi)(() => {
             const e = Bu().model,
               u = T().mediaSize,
@@ -4014,15 +4026,15 @@
             return o().createElement(
               "div",
               { className: qt },
-              o().createElement("div", { className: h()($t, n && Vt) }),
+              o().createElement("div", { className: h()($t, n && Yt) }),
               n
                 ? o().createElement(
                     mt.Vertical.Area.Default,
-                    { className: Yt, api: t },
+                    { className: Vt, api: t },
                     o().createElement(zt, null),
                   )
                 : o().createElement(zt, null),
-              o().createElement("div", { className: h()($t, n && Vt) }),
+              o().createElement("div", { className: h()($t, n && Yt) }),
             );
           }),
           Xt = "Header_base_20",
@@ -4078,7 +4090,7 @@
             var A;
             return (
               (A = t.onClose),
-              j(V.n.ESCAPE, A),
+              j(Y.n.ESCAPE, A),
               o().createElement(
                 "div",
                 { className: gu },
@@ -4201,6 +4213,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(u.bind(null, 0)), (t.push = u.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [727], () => __webpack_require__(4720));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [727], () => __webpack_require__(5713));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

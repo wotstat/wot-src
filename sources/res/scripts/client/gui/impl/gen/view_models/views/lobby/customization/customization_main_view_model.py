@@ -1,3 +1,4 @@
+from enum import Enum
 from frameworks.wulf import ViewModel
 from gui.impl.gen.view_models.views.lobby.customization.customization_bill_data_model import CustomizationBillDataModel
 from gui.impl.gen.view_models.views.lobby.customization.customization_carousel_model import CustomizationCarouselModel
@@ -10,10 +11,16 @@ from gui.impl.gen.view_models.views.lobby.customization.customization_tabs_model
 from gui.impl.gen.view_models.views.lobby.customization.customization_toolbar_model import CustomizationToolbarModel
 from gui.impl.gen.view_models.views.lobby.customization.progression_styles.stage_switcher_widget_model import StageSwitcherWidgetModel
 
-class CustomizationMainViewModel(ViewModel):
-    __slots__ = (b'onClose', b'onCloseCarouselView', b'onCloseBinEsc', b'onCloseStyleInfoEsc', b'onExpandCarousel', b'onMoveSpace', b'onSelectItem', b'onUnselectItem', b'onSelectTab', b'onSelectSeason', b'onApplyToAllSeasonsChange', b'changeFilter', b'clearFilter', b'onHoverItem', b'onHoverTab', b'onClickDecalsBanner', b'onEditItem', b'onCloseEditItem', b'onSceneOverChange', b'onSceneDraggingChange', b'onSceneClick', b'onBuyItems', b'onProgressiveInfoButtonClick', b'onPressSelectNextItem', b'onRequestItems')
+class StatusEnum(Enum):
+    ACTIVE = b'active'
+    ENDING = b'ending'
+    DISABLED = b'disabled'
 
-    def __init__(self, properties=20, commands=25):
+
+class CustomizationMainViewModel(ViewModel):
+    __slots__ = (b'onClose', b'onCloseCarouselView', b'onCloseBinEsc', b'onCloseStyleInfoEsc', b'onExpandCarousel', b'onMoveSpace', b'onSelectItem', b'onUnselectItem', b'onSelectTab', b'onSelectSeason', b'onApplyToAllSeasonsChange', b'changeFilter', b'clearFilter', b'onHoverItem', b'onHoverTab', b'onClickDecalsBanner', b'onEditItem', b'onCloseEditItem', b'onSceneOverChange', b'onSceneDraggingChange', b'onSceneClick', b'onBuyItems', b'onProgressiveInfoButtonClick', b'onPressSelectNextItem', b'onRequestItems', b'toCustomizationResourceEvent')
+
+    def __init__(self, properties=25, commands=26):
         super(CustomizationMainViewModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -167,6 +174,41 @@ class CustomizationMainViewModel(ViewModel):
         self._setBool(19, value)
         return
 
+    def getIsCustomizationResourceEntryPointAvailable(self):
+        return self._getBool(20)
+
+    def setIsCustomizationResourceEntryPointAvailable(self, value):
+        self._setBool(20, value)
+        return
+
+    def getIsAloneBanner(self):
+        return self._getBool(21)
+
+    def setIsAloneBanner(self, value):
+        self._setBool(21, value)
+        return
+
+    def getTimer(self):
+        return self._getNumber(22)
+
+    def setTimer(self, value):
+        self._setNumber(22, value)
+        return
+
+    def getStatus(self):
+        return StatusEnum(self._getString(23))
+
+    def setStatus(self, value):
+        self._setString(23, value.value)
+        return
+
+    def getIsLimitsUpdated(self):
+        return self._getBool(24)
+
+    def setIsLimitsUpdated(self, value):
+        self._setBool(24, value)
+        return
+
     def _initialize(self):
         super(CustomizationMainViewModel, self)._initialize()
         self._addViewModelProperty(b'carouselModel', CustomizationCarouselModel())
@@ -189,6 +231,11 @@ class CustomizationMainViewModel(ViewModel):
         self._addBoolProperty(b'isProgressiveItemsViewVisible', False)
         self._addBoolProperty(b'isFilterPopoverOpened', False)
         self._addBoolProperty(b'isOnboardingViewOpened', False)
+        self._addBoolProperty(b'isCustomizationResourceEntryPointAvailable', False)
+        self._addBoolProperty(b'isAloneBanner', False)
+        self._addNumberProperty(b'timer', 123456789)
+        self._addStringProperty(b'status', StatusEnum.ACTIVE.value)
+        self._addBoolProperty(b'isLimitsUpdated', False)
         self.onClose = self._addCommand(b'onClose')
         self.onCloseCarouselView = self._addCommand(b'onCloseCarouselView')
         self.onCloseBinEsc = self._addCommand(b'onCloseBinEsc')
@@ -214,4 +261,5 @@ class CustomizationMainViewModel(ViewModel):
         self.onProgressiveInfoButtonClick = self._addCommand(b'onProgressiveInfoButtonClick')
         self.onPressSelectNextItem = self._addCommand(b'onPressSelectNextItem')
         self.onRequestItems = self._addCommand(b'onRequestItems')
+        self.toCustomizationResourceEvent = self._addCommand(b'toCustomizationResourceEvent')
         return

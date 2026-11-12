@@ -1,0 +1,28 @@
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.components.new_year_tab_model import NewYearTabModel
+
+class NyMainMenuTabModel(NewYearTabModel):
+    __slots__ = ()
+
+    def __init__(self, properties=5, commands=0):
+        super(NyMainMenuTabModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIsEnabled(self):
+        return self._getBool(3)
+
+    def setIsEnabled(self, value):
+        self._setBool(3, value)
+        return
+
+    def getHasBubble(self):
+        return self._getBool(4)
+
+    def setHasBubble(self, value):
+        self._setBool(4, value)
+        return
+
+    def _initialize(self):
+        super(NyMainMenuTabModel, self)._initialize()
+        self._addBoolProperty(b'isEnabled', True)
+        self._addBoolProperty(b'hasBubble', False)
+        return

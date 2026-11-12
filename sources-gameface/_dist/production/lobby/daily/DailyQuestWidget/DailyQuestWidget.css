@@ -1,218 +1,3 @@
-/*
-    Gameface can't calculate gradient biggest than 8128px
-    in JS 8000 reserved like anchor for start optimization
-*/
-/* stylelint-disable-line */
-.ProgressBar_base_45 {
-  width: 100%;
-  height: 12rem;
-  position: relative;
-}
-.ProgressBar_base__medium_62 {
-  height: 6rem;
-}
-.ProgressBar_base__small_df {
-  height: 2rem;
-}
-.ProgressBar_background_51 {
-  width: 100%;
-  max-width: 8001px;
-  height: 100%;
-  background-image: var(--progress-base);
-  background-repeat: repeat;
-  background-position: 0 50%;
-  background-size: 3rem 10rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.ProgressBar_background__medium_6e {
-  height: 6rem;
-}
-.ProgressBar_background__small_46 {
-  height: 2rem;
-}
-.ProgressBar_lineWrapper_6a {
-  display: flex;
-  flex: 1;
-}
-
-.ProgressBarBlink_base_24 {
-  width: 60rem;
-  height: 100rem;
-  background-image: var(--progress-glow);
-  background-size: contain;
-  mix-blend-mode: lighten;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translate(50%, -50%);
-  pointer-events: none;
-}
-
-.ProgressBarBlink_base__medium_ec {
-  width: 42rem;
-  height: 70rem;
-}
-
-.ProgressBarBlink_base__small_0f {
-  width: 44rem;
-  height: 43rem;
-  background-image: var(--progress-glow-small);
-}
-
-/*
-    Gameface can't calculate gradient biggest than 8128px
-    in JS 8000 reserved like anchor for start optimization
-*/
-/* stylelint-disable-line */
-.ProgressLineImpose_base_80 {
-  max-width: 8001px;
-  height: 100%;
-  background-color: var(--progress-line-base);
-  position: relative;
-  transition-timing-function: cubic-bezier(1, 0, 0.92, 1);
-  transition-property: width;
-}
-.ProgressLineImpose_base__disabled_cc {
-  background-color: var(--progress-line-disabled);
-}
-.ProgressLineImpose_base__finished_d4 {
-  background-color: var(--progress-line-finished);
-}
-.ProgressLineImpose_base__withoutBounce_56 {
-  transition-timing-function: cubic-bezier(1, 0, 0.75, 0.75);
-}
-.ProgressLineImpose_pattern_1c {
-  max-width: 8001px;
-  background-image: var(--progress-pattern-base);
-  background-repeat: repeat;
-  background-position: 0 50%;
-  background-size: 3rem 10rem;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  bottom: 1rem;
-  left: 1rem;
-}
-.ProgressLineImpose_base__small_55 .ProgressLineImpose_pattern_1c {
-  top: 0;
-  bottom: 0;
-}
-.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_pattern_1c {
-  background-image: var(--progress-pattern-disabled);
-  left: 0;
-}
-.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_pattern_1c {
-  background-image: var(--progress-pattern-finished);
-}
-.ProgressLineImpose_gradient_35 {
-  max-width: 8001px;
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.75));
-  mix-blend-mode: overlay;
-  position: absolute;
-  top: 1rem;
-  right: 0;
-  bottom: 1rem;
-  left: 0;
-}
-.ProgressLineImpose_base__small_55 .ProgressLineImpose_gradient_35 {
-  top: 0;
-  bottom: 0;
-}
-.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_gradient_35 {
-  display: none;
-}
-.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_gradient_35 {
-  background-image: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.5),
-    rgba(255, 255, 255, 0.75),
-    rgba(0, 0, 0, 0.5)
-  );
-}
-.ProgressLineImpose_glow_a5 {
-  width: 60rem;
-  max-width: 8001px;
-  height: 100rem;
-  background-image: var(--progress-glow);
-  background-size: contain;
-  mix-blend-mode: lighten;
-  position: absolute;
-  top: 50%;
-  left: 100%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
-.ProgressLineImpose_glow__left_d8 {
-  left: 1rem;
-}
-.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_glow_a5,
-.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_glow_a5 {
-  display: none;
-}
-.ProgressLineImpose_base__small_55 .ProgressLineImpose_glow_a5 {
-  width: 44rem;
-  height: 43rem;
-  background-image: var(--progress-glow-small);
-}
-
-/*
-    Gameface can't calculate gradient biggest than 8128px
-    in JS 8000 reserved like anchor for start optimization
-*/
-/* stylelint-disable-line */
-.ProgressBarDeltaSimple_base_6c {
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.ProgressBarDeltaSimple_delta_99 {
-  width: 0;
-  max-width: 8001px;
-  height: 100%;
-  box-shadow: var(--progress-delta-shadow);
-  background-color: var(--progress-delta-color);
-  position: absolute;
-  bottom: 0;
-  transform-origin: right center;
-  transition-timing-function: cubic-bezier(1, 0, 0.92, 1), cubic-bezier(0.21, 0.61, 0.35, 1);
-  transition-property: width, transform;
-}
-
-/*
-    Gameface can't calculate gradient biggest than 8128px
-    in JS 8000 reserved like anchor for start optimization
-*/
-/* stylelint-disable-line */
-.ProgressBarDeltaGrow_base_7e {
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  transition-timing-function: cubic-bezier(1, 0, 0.92, 1);
-  transition-property: width;
-}
-.ProgressBarDeltaGrow_base__withoutBounce_b5 {
-  transition-timing-function: cubic-bezier(1, 0, 0.75, 0.75);
-}
-.ProgressBarDeltaGrow_glow_68 {
-  width: 0;
-  max-width: 8001px;
-  height: 100%;
-  box-shadow: var(--progress-delta-shadow);
-  background-color: var(--progress-delta-color);
-  position: absolute;
-  bottom: 0;
-  transform-origin: right center;
-  transition-timing-function: cubic-bezier(1, 0, 0.92, 1);
-  transition-property: width;
-}
-.ProgressBarDeltaGrow_base__withoutBounce_b5 .ProgressBarDeltaGrow_glow_68 {
-  transition-timing-function: cubic-bezier(1, 0, 0.75, 0.75);
-}
-
 .Box_mt__XS_0c {
   margin-top: 4rem;
 }
@@ -486,6 +271,419 @@
 }
 .Text_PROM_65 {
   color: #a29b70;
+}
+
+.NyQuestsCard_base_11 {
+  display: flex;
+  align-items: center;
+  width: 320rem;
+  height: 60rem;
+  background: url("R.images.gui.maps.icons.daily.widget.big_bg") no-repeat center / cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.NyQuestsCard_base__mini_e0,
+.NyQuestsCard_base__micro_12 {
+  margin: 0 0.5rem;
+  padding: 0;
+}
+
+.NyQuestsCard_base__mini_e0 {
+  width: 60rem;
+  height: 60rem;
+  background-image: url("R.images.gui.maps.icons.daily.widget.mini_bg");
+}
+
+.NyQuestsCard_base__micro_12 {
+  justify-content: center;
+  width: 146rem;
+  height: 28rem;
+  background: linear-gradient(
+      180deg,
+      rgba(22, 26, 33, 0.6) 0%,
+      rgba(22, 26, 33, 0.4) 70%,
+      rgba(22, 26, 33, 0) 100%
+    )
+    no-repeat center / 100%;
+}
+
+.NyQuestsCard_base__complete_16 {
+  background-image: url("R.images.gui.maps.icons.daily.widget.big_bg_complete");
+}
+
+.NyQuestsCard_base__complete_16.NyQuestsCard_base__mini_e0 {
+  background-image: url("R.images.gui.maps.icons.daily.widget.mini_bg_complete");
+}
+
+.NyQuestsCard_base__complete_16.NyQuestsCard_base__micro_12 {
+  background-image: url("R.images.gui.maps.icons.daily.widget.micro_bg_complete");
+}
+
+.NyQuestsCard_base__disabled_af {
+  background-image: url("R.images.gui.maps.icons.daily.widget.big_bg_disabled");
+}
+
+.NyQuestsCard_base__disabled_af.NyQuestsCard_base__mini_e0 {
+  background-image: url("R.images.gui.maps.icons.daily.widget.mini_bg_disabled");
+}
+
+.NyQuestsCard_base__disabled_af.NyQuestsCard_base__micro_12 {
+  background: url("R.images.gui.maps.icons.daily.widget.big_bg_disabled");
+  mask-image: linear-gradient(180deg, #000 0%, #000 70%, transparent 100%);
+}
+.NyQuestsCard_border_87 {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(
+    0 0,
+    320rem 0,
+    320rem 1rem,
+    1rem 1rem,
+    1rem 59rem,
+    320rem 59rem,
+    320rem 60rem,
+    0 60rem,
+    0 0
+  );
+  position: absolute;
+}
+.NyQuestsCard_base__mini_e0 .NyQuestsCard_border_87 {
+  clip-path: polygon(
+    0 0,
+    60rem 0,
+    60rem 60rem,
+    0 60rem,
+    0 0,
+    1rem 1rem,
+    1rem 59rem,
+    59rem 59rem,
+    59rem 1rem,
+    1rem 1rem
+  );
+}
+.NyQuestsCard_background_ae {
+  width: 100%;
+  height: 100%;
+  background: no-repeat center / 100%;
+  position: absolute;
+  z-index: -3;
+}
+.NyQuestsCard_background__decoratorMicro_4d {
+  background-image: url("R.images.gui.maps.icons.daily.newYear.dailyWidget.bgDecorator_small");
+  mask-image: linear-gradient(180deg, #000 0%, #000 70%, transparent 100%);
+}
+.NyQuestsCard_background__decoratorNormal_80 {
+  background-image: url("R.images.gui.maps.icons.daily.newYear.dailyWidget.bgDecorator");
+}
+.NyQuestsCard_hoverBg_d2 {
+  width: 100%;
+  height: 100%;
+  background: url("R.images.gui.maps.icons.daily.widget.big_bg_onhover") no-repeat center / cover;
+  opacity: 0;
+  position: absolute;
+  z-index: -2;
+  transition: opacity 0.1s ease-in-out;
+}
+.NyQuestsCard_base_11:hover .NyQuestsCard_hoverBg_d2 {
+  opacity: 1;
+}
+.NyQuestsCard_base__mini_e0 .NyQuestsCard_hoverBg_d2 {
+  background-image: url("R.images.gui.maps.icons.daily.widget.mini_bg_onhover");
+}
+.NyQuestsCard_base__micro_12 .NyQuestsCard_hoverBg_d2 {
+  background-image: url("R.images.gui.maps.icons.daily.widget.micro_bg_onhover");
+}
+.NyQuestsCard_contentWrapper_f0 {
+  display: flex;
+  align-items: center;
+  padding: 0 26rem 0 12rem;
+}
+.NyQuestsCard_content_53 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 246rem;
+  position: relative;
+  transition: opacity 0.6s linear;
+}
+.NyQuestsCard_iconWrapper_25 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+  height: 60rem;
+  position: relative;
+}
+.NyQuestsCard_base__micro_12 .NyQuestsCard_iconWrapper_25 {
+  width: 48rem;
+  height: 48rem;
+  padding: 2rem 0;
+}
+.NyQuestsCard_icon_ac {
+  width: 24rem;
+  height: 24rem;
+  background: no-repeat center / contain;
+  position: relative;
+}
+.mediaSmall .NyQuestsCard_icon_ac {
+  width: 32rem;
+  height: 32rem;
+}
+.NyQuestsCard_icon__complete_b3 {
+  background-image: url("R.images.gui.maps.icons.missions.icons.check_green");
+  position: absolute;
+}
+.NyQuestsCard_divider_38 {
+  width: 1rem;
+  height: 44rem;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.NyQuestsCard_description_ef {
+  color: #e9e2bf;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  transition:
+    color 1s easy-out,
+    opacity 1s linear;
+}
+.NyQuestsCard_base__disabled_af .NyQuestsCard_description_ef {
+  opacity: 0.7;
+}
+.NyQuestsCard_base__complete_16 .NyQuestsCard_description_ef {
+  color: #e9e2bf;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.NyQuestsCard_missionProgress_27 {
+  color: #e9e2bf;
+  font-size: 14rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-top: -3rem;
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBar_base_45 {
+  width: 100%;
+  height: 12rem;
+  position: relative;
+}
+.ProgressBar_base__medium_62 {
+  height: 6rem;
+}
+.ProgressBar_base__small_df {
+  height: 2rem;
+}
+.ProgressBar_background_51 {
+  width: 100%;
+  max-width: 8001px;
+  height: 100%;
+  background-image: var(--progress-base);
+  background-repeat: repeat;
+  background-position: 0 50%;
+  background-size: 3rem 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ProgressBar_background__medium_6e {
+  height: 6rem;
+}
+.ProgressBar_background__small_46 {
+  height: 2rem;
+}
+.ProgressBar_lineWrapper_6a {
+  display: flex;
+  flex: 1;
+}
+
+.ProgressBarBlink_base_24 {
+  width: 60rem;
+  height: 100rem;
+  background-image: var(--progress-glow);
+  background-size: contain;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  pointer-events: none;
+}
+
+.ProgressBarBlink_base__medium_ec {
+  width: 42rem;
+  height: 70rem;
+}
+
+.ProgressBarBlink_base__small_0f {
+  width: 44rem;
+  height: 43rem;
+  background-image: var(--progress-glow-small);
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressLineImpose_base_80 {
+  max-width: 8001px;
+  height: 100%;
+  background-color: var(--progress-line-base);
+  position: relative;
+  transition-timing-function: cubic-bezier(1, 0, 0.92, 1);
+  transition-property: width;
+}
+.ProgressLineImpose_base__disabled_cc {
+  background-color: var(--progress-line-disabled);
+}
+.ProgressLineImpose_base__finished_d4 {
+  background-color: var(--progress-line-finished);
+}
+.ProgressLineImpose_base__withoutBounce_56 {
+  transition-timing-function: cubic-bezier(1, 0, 0.75, 0.75);
+}
+.ProgressLineImpose_pattern_1c {
+  max-width: 8001px;
+  background-image: var(--progress-pattern-base);
+  background-repeat: repeat;
+  background-position: 0 50%;
+  background-size: 3rem 10rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+}
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_pattern_1c {
+  top: 0;
+  bottom: 0;
+}
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_pattern_1c {
+  background-image: var(--progress-pattern-disabled);
+  left: 0;
+}
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_pattern_1c {
+  background-image: var(--progress-pattern-finished);
+}
+.ProgressLineImpose_gradient_35 {
+  max-width: 8001px;
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.75));
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  bottom: 1rem;
+  left: 0;
+}
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_gradient_35 {
+  top: 0;
+  bottom: 0;
+}
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_gradient_35 {
+  display: none;
+}
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_gradient_35 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(255, 255, 255, 0.75),
+    rgba(0, 0, 0, 0.5)
+  );
+}
+.ProgressLineImpose_glow_a5 {
+  width: 60rem;
+  max-width: 8001px;
+  height: 100rem;
+  background-image: var(--progress-glow);
+  background-size: contain;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.ProgressLineImpose_glow__left_d8 {
+  left: 1rem;
+}
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_glow_a5,
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_glow_a5 {
+  display: none;
+}
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_glow_a5 {
+  width: 44rem;
+  height: 43rem;
+  background-image: var(--progress-glow-small);
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBarDeltaSimple_base_6c {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.ProgressBarDeltaSimple_delta_99 {
+  width: 0;
+  max-width: 8001px;
+  height: 100%;
+  box-shadow: var(--progress-delta-shadow);
+  background-color: var(--progress-delta-color);
+  position: absolute;
+  bottom: 0;
+  transform-origin: right center;
+  transition-timing-function: cubic-bezier(1, 0, 0.92, 1), cubic-bezier(0.21, 0.61, 0.35, 1);
+  transition-property: width, transform;
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBarDeltaGrow_base_7e {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition-timing-function: cubic-bezier(1, 0, 0.92, 1);
+  transition-property: width;
+}
+.ProgressBarDeltaGrow_base__withoutBounce_b5 {
+  transition-timing-function: cubic-bezier(1, 0, 0.75, 0.75);
+}
+.ProgressBarDeltaGrow_glow_68 {
+  width: 0;
+  max-width: 8001px;
+  height: 100%;
+  box-shadow: var(--progress-delta-shadow);
+  background-color: var(--progress-delta-color);
+  position: absolute;
+  bottom: 0;
+  transform-origin: right center;
+  transition-timing-function: cubic-bezier(1, 0, 0.92, 1);
+  transition-property: width;
+}
+.ProgressBarDeltaGrow_base__withoutBounce_b5 .ProgressBarDeltaGrow_glow_68 {
+  transition-timing-function: cubic-bezier(1, 0, 0.75, 0.75);
 }
 
 .Progress_base_1a {
@@ -832,7 +1030,6 @@
   flex-direction: column;
   justify-content: flex-end;
   height: 100%;
-  padding-left: 3rem;
 }
 
 .App_base__horizontal_b2 {
@@ -840,4 +1037,23 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
+}
+
+.mediaSmall .App_base_6a {
+  padding-left: 3rem;
+}
+
+.App_nyWrapper_3b {
+  margin-right: 3rem;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.App_base__horizontal_b2 .App_nyWrapper_3b {
+  margin-bottom: 0;
+}
+
+.App_nyWrapper__micro_3d {
+  position: absolute;
+  top: 3rem;
 }

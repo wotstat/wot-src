@@ -1452,7 +1452,7 @@
           }, [e, u, t]);
         }
         var L = t(3403),
-          y = t(7115);
+          y = t(7446);
         const T = {
           base: "ProgressBar_base_45",
           base__medium: "ProgressBar_base__medium_62",
@@ -2955,7 +2955,7 @@
           );
         });
       },
-      7115: (u, e, t) => {
+      7446: (u, e, t) => {
         "use strict";
         t.d(e, { n: () => m });
         var r = t(6483),

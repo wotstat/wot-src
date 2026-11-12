@@ -57,7 +57,7 @@ SETTINGS_PROVIDERS_SERIALIZABLES = 52
 BATTLE_MODIFIERS_PANELS = 53
 BONUS_PACKERS = 54
 WULF_TOOLTIP_CONTENT_FACTORY = 55
-DAMAGE_LOG_PANEL = 56
+FESTIVITY_FACTORY = 56
 
 class _CollectEventsManager(object):
 
@@ -172,6 +172,20 @@ def collectGameControllers(configurator):
     return
 
 
+def registerFestivityFactory(factory):
+
+    def onCollect(ctx):
+        ctx[b'factories'].append(factory)
+        return
+
+    __collectEM.addListener(FESTIVITY_FACTORY, onCollect)
+    return
+
+
+def collectFestivityFactories():
+    return __collectEM.handleEvent(FESTIVITY_FACTORY, ctx={b'factories': []}).get(b'factories', [])
+
+
 def registerBattleControllerRepo(guiType, repoCls):
 
     def onCollect(ctx):
@@ -200,20 +214,6 @@ def registerSharedControllerRepo(guiType, repoCls):
 def collectSharedControllerRepo(guiType, setup):
     ctx = __collectEM.handleEvent((SHARED_REPO, guiType), ctx={b'setup': setup})
     return (ctx.get(b'repo'), b'repo' in ctx)
-
-
-def registerDamageLogPanel(guiType, panelCls):
-
-    def onCollect(ctx):
-        ctx[b'panel'] = panelCls
-        return
-
-    __collectEM.addListener((DAMAGE_LOG_PANEL, guiType), onCollect)
-    return
-
-
-def collectDamageLogPanel(guiType):
-    return __collectEM.handleEvent((DAMAGE_LOG_PANEL, guiType), {b'panel': None})[b'panel']
 
 
 def registerQueueEntity(queueType, queueCls):

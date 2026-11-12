@@ -71,11 +71,6 @@
 					<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3Dst/crash/lod0/Hull.model</destroyed>
 					<exploded>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3Dst/crash/lod0/Hull.model</exploded>
 				</R148_Object_430_U_3Dst>
-				<R148_Object_430_U_BP8_3DSt>
-					<undamaged>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/normal/lod0/Hull.model</undamaged>
-					<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/crash/lod0/Hull.model</destroyed>
-					<exploded>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/crash/lod0/Hull.model</exploded>
-				</R148_Object_430_U_BP8_3DSt>
 				<R148_Object_430_U_3dst_Bastion>
 					<undamaged>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3dst_Bastion/normal/lod0/Hull.model</undamaged>
 					<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3dst_Bastion/crash/lod0/Hull.model</destroyed>
@@ -984,11 +979,6 @@
 						<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3Dst/crash/lod0/Chassis.model</destroyed>
 						<exploded>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3Dst/crash/lod0/Chassis.model</exploded>
 					</R148_Object_430_U_3Dst>
-					<R148_Object_430_U_BP8_3DSt>
-						<undamaged>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/normal/lod0/Chassis.model</undamaged>
-						<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/crash/lod0/Chassis.model</destroyed>
-						<exploded>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/crash/lod0/Chassis.model</exploded>
-					</R148_Object_430_U_BP8_3DSt>
 					<R148_Object_430_U_3dst_Bastion>
 						<undamaged>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3dst_Bastion/normal/lod0/Chassis.model</undamaged>
 						<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3dst_Bastion/crash/lod0/Chassis.model</destroyed>
@@ -1058,14 +1048,6 @@
 								<boxCollider>3.06469989 9.99999997e-07 -9.99999997e-07 -0 0.200532004 -0.223129004 -0 0.274107993 0.246349007 -1.99999999e-06 1.02881002 -3.03031993</boxCollider>
 								<boxCollider>0.300000012 0 0 0 0.5 0 -0 0 6.5 -1.69984996 0.798649013 0</boxCollider>
 							</hullCollider>
-							<hullCollider>
-								<modelsSet>R148_Object_430_U_BP8_3DSt</modelsSet>
-								<boxCollider>1.86281002 0 0 0 0.972837985 0 0 0 6.09900999 0 0.88075 0.0784050003</boxCollider>
-								<boxCollider>3.12508988 0 -0 0 0.300000012 0 0 -0 6.11365986 0 1.13095999 0.0391659997</boxCollider>
-								<boxCollider>3.06469989 -0 -9.99999997e-07 0 0.231393993 0.190935999 0 -0.234559998 0.284260988 -0 1.07609999 3.08172989</boxCollider>
-								<boxCollider>3.06469989 9.99999997e-07 -9.99999997e-07 -0 0.200532004 -0.223129004 -0 0.274107993 0.246349007 -1.99999999e-06 1.02881002 -3.03031993</boxCollider>
-								<boxCollider>0.257849008 -0.153343007 0 0.174210995 0.292939007 0 0 0 5.10813093 -1.699 0.921743989 -0.166633993</boxCollider>
-							</hullCollider>
 						</physicalParams>
 					</trackDebris>
 					<trackDebris>
@@ -1116,14 +1098,6 @@
 								<boxCollider>3.06469989 0 9.99999997e-07 0 0.231393993 0.190935999 0 -0.234559998 0.284260988 0.181006998 1.07609797 3.08172989</boxCollider>
 								<boxCollider>3.06469989 -9.99999997e-07 9.99999997e-07 0 0.200532004 -0.223129004 0 0.274107993 0.246349007 0.185273007 1.028808 -3.03031993</boxCollider>
 								<boxCollider>0.300000012 0 0 0 0.5 0 -0 0 6.5 1.70000005 0.798649013 0</boxCollider>
-							</hullCollider>
-							<hullCollider>
-								<modelsSet>R148_Object_430_U_BP8_3DSt</modelsSet>
-								<boxCollider>1.86281002 0 0 0 0.972837985 0 0 0 6.09900999 0 0.88075 0.0784050003</boxCollider>
-								<boxCollider>3.12508988 0 -0 0 0.300000012 0 0 -0 6.11365986 0 1.13095999 0.0391659997</boxCollider>
-								<boxCollider>3.06469989 -0 -9.99999997e-07 0 0.231393993 0.190935999 0 -0.234559998 0.284260988 -0 1.07609999 3.08172989</boxCollider>
-								<boxCollider>3.06469989 9.99999997e-07 -9.99999997e-07 -0 0.200532004 -0.223129004 -0 0.274107993 0.246349007 -1.99999999e-06 1.02881002 -3.03031993</boxCollider>
-								<boxCollider>0.257853001 0.153335005 -0 -0.174201995 0.292944014 0 3.99999999e-06 -1.99999999e-06 5.10813093 1.69897199 0.921743989 -0.166633993</boxCollider>
 							</hullCollider>
 						</physicalParams>
 					</trackDebris>
@@ -1487,12 +1461,6 @@
 						<UTiles>1</UTiles>
 						<VTiles>1</VTiles>
 					</atlas>
-					<modelSets>
-						<R148_Object_430_U_BP8_3DSt>
-							<segmentModelLeft>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/track/segment.model</segmentModelLeft>
-							<segmentModelRight>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/track/segment.model</segmentModelRight>
-						</R148_Object_430_U_BP8_3DSt>
-					</modelSets>
 				</trackPair>
 				<lodDist>SPLINE_TRACK</lodDist>
 			</splineDesc>
@@ -1520,11 +1488,6 @@
 						<model>vehicles/russian/R148_Object_430_U/track/segment.model</model>
 						<length>0.130517006</length>
 					</mainSegment>
-					<modelSets>
-						<R148_Object_430_U_BP8_3DSt>
-							<mainSegmentModel>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/track/segment.model</mainSegmentModel>
-						</R148_Object_430_U_BP8_3DSt>
-					</modelSets>
 					<collisionHull>
 						<bottom></bottom>
 						<top>
@@ -1720,11 +1683,6 @@
 						<model>vehicles/russian/R148_Object_430_U/track/segment.model</model>
 						<length>0.130318001</length>
 					</mainSegment>
-					<modelSets>
-						<R148_Object_430_U_BP8_3DSt>
-							<mainSegmentModel>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/track/segment.model</mainSegmentModel>
-						</R148_Object_430_U_BP8_3DSt>
-					</modelSets>
 					<collisionHull>
 						<bottom></bottom>
 						<top>
@@ -2024,11 +1982,6 @@
 								<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3Dst/crash/lod0/Gun_01.model</destroyed>
 								<exploded>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3Dst/crash/lod0/Gun_01.model</exploded>
 							</R148_Object_430_U_3Dst>
-							<R148_Object_430_U_BP8_3DSt>
-								<undamaged>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/normal/lod0/Gun_01.model</undamaged>
-								<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/crash/lod0/Gun_01.model</destroyed>
-								<exploded>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/crash/lod0/Gun_01.model</exploded>
-							</R148_Object_430_U_BP8_3DSt>
 							<R148_Object_430_U_3dst_Bastion>
 								<undamaged>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3dst_Bastion/normal/lod0/Gun_01.model</undamaged>
 								<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3dst_Bastion/crash/lod0/Gun_01.model</destroyed>
@@ -2138,11 +2091,6 @@
 						<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3Dst/crash/lod0/Turret_01.model</destroyed>
 						<exploded>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3Dst/crash/lod0/Turret_01.model</exploded>
 					</R148_Object_430_U_3Dst>
-					<R148_Object_430_U_BP8_3DSt>
-						<undamaged>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/normal/lod0/Turret_01.model</undamaged>
-						<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/crash/lod0/Turret_01.model</destroyed>
-						<exploded>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_BP8_3DSt/crash/lod0/Turret_01.model</exploded>
-					</R148_Object_430_U_BP8_3DSt>
 					<R148_Object_430_U_3dst_Bastion>
 						<undamaged>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3dst_Bastion/normal/lod0/Turret_01.model</undamaged>
 						<destroyed>vehicles/russian/R148_Object_430_U/_skins/R148_Object_430_U_3dst_Bastion/crash/lod0/Turret_01.model</destroyed>

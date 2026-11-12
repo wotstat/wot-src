@@ -724,7 +724,7 @@
           };
         window.ViewEnvHelper = p;
       },
-      804: (u, e, A) => {
+      906: (u, e, A) => {
         var E = A(179),
           F = A.n(E),
           t = A(493),
@@ -1015,8 +1015,28 @@
                     F = u.replace(/&nbsp;/g, " ");
                   return (g(F, /( )/, e).forEach((u) => (A = A.concat(g(u, E, v.left)))), A);
                 })(u, e);
-          };
-        let O;
+          },
+          O = "FormatText_base_d0",
+          S = ({ binding: u, text: e = "", classMix: A, alignment: t = v.left }) =>
+            null === e
+              ? (console.error("FormatText was supplied with 'null'"), null)
+              : F().createElement(
+                  E.Fragment,
+                  null,
+                  e.split("\n").map((e, n) =>
+                    F().createElement(
+                      "div",
+                      { className: d()(O, A), key: `${e}-${n}` },
+                      ((u, e, A) =>
+                        u.split(/%\((.*?)\)(?:[sd])?/g).map((u) => (A && u in A ? A[u] : y(u, e))))(
+                        e,
+                        t,
+                        u,
+                      ).map((u, e) => F().createElement(E.Fragment, { key: `${e}-${u}` }, u)),
+                    ),
+                  ),
+                );
+        let T;
         !(function (u) {
           ((u.SHORT_DATE = "short-date"),
             (u.SHORT_TIME = "short-time"),
@@ -1031,14 +1051,14 @@
             (u.WEEK_DAY_TIME = "week-day-time"),
             (u.YEAR = "year"),
             (u.DATE_YEAR = "date-year"));
-        })(O || (O = {}));
-        var S = A(596);
-        const T = 60,
-          P = 3600,
-          M = 86400;
+        })(T || (T = {}));
+        var P = A(596);
+        const M = 60,
+          x = 3600,
+          k = 86400;
         Date.now();
-        const x = () => {},
-          k = (u = 0, e, A = 0, F = x) => {
+        const L = () => {},
+          N = (u = 0, e, A = 0, F = L) => {
             const t = (0, E.useState)(u),
               n = t[0],
               D = t[1];
@@ -1052,7 +1072,7 @@
                         const e = u - Math.floor((Date.now() - E) / 1e3);
                         null !== A && e <= A ? (D(A), F && F(), clearInterval(t)) : D(e);
                       },
-                      1e3 * (e || (u > 120 ? T : 1)),
+                      1e3 * (e || (u > 120 ? M : 1)),
                     );
                   return () => {
                     clearInterval(t);
@@ -1063,7 +1083,7 @@
               n
             );
           },
-          L = () => {
+          U = () => {
             const u = o.O.view.getSize("rem"),
               e = (0, E.useState)({ height: u.height, width: u.width }),
               A = e[0],
@@ -1083,41 +1103,21 @@
               A
             );
           };
-        S.Sw.instance;
-        let N;
+        P.Sw.instance;
+        let I;
         !(function (u) {
           ((u.None = "None"), (u.Shallow = "Shallow"), (u.Deep = "Deep"));
-        })(N || (N = {}));
-        S.Sw.instance;
-        const U = k,
-          I = "Countdown_base_fe",
-          z = "Countdown_icon_8b",
-          H = "Countdown_description_8d",
-          K = "FormatText_base_d0",
-          V = ({ binding: u, text: e = "", classMix: A, alignment: t = v.left }) =>
-            null === e
-              ? (console.error("FormatText was supplied with 'null'"), null)
-              : F().createElement(
-                  E.Fragment,
-                  null,
-                  e.split("\n").map((e, n) =>
-                    F().createElement(
-                      "div",
-                      { className: d()(K, A), key: `${e}-${n}` },
-                      ((u, e, A) =>
-                        u.split(/%\((.*?)\)(?:[sd])?/g).map((u) => (A && u in A ? A[u] : y(u, e))))(
-                        e,
-                        t,
-                        u,
-                      ).map((u, e) => F().createElement(E.Fragment, { key: `${e}-${u}` }, u)),
-                    ),
-                  ),
-                ),
+        })(I || (I = {}));
+        P.Sw.instance;
+        const z = N,
+          H = "Countdown_base_fe",
+          K = "Countdown_icon_8b",
+          V = "Countdown_description_8d",
           W = (u) => u.toString().padStart(2, "0"),
-          j = (u, e) => {
+          j = (u, e, A = !1) => {
             switch (e) {
               case m.Description:
-                return ((u, e = !0) =>
+                return ((u, e = !0, A = !1) =>
                   u.days > 7 && e
                     ? h(R.strings.common.duration.days(), { days: u.days })
                     : u.days >= 1
@@ -1127,8 +1127,12 @@
                       : u.hours >= 1
                         ? 0 === u.minutes
                           ? h(R.strings.common.duration.hours(), { hours: u.hours })
-                          : `${h(R.strings.common.duration.hours(), { hours: u.hours })} ${h(R.strings.common.duration.minutes(), { minutes: u.minutes })}`
-                        : h(R.strings.common.duration.minutes(), { minutes: u.minutes || 1 }))(u);
+                          : `${h(R.strings.common.duration.hours(), { hours: u.hours })} ${h(A ? R.strings.common.duration.shortMinutes() : R.strings.common.duration.minutes(), { minutes: u.minutes })}`
+                        : h(R.strings.common.duration.minutes(), { minutes: u.minutes || 1 }))(
+                  u,
+                  !0,
+                  A,
+                );
               case m.Short:
                 return `${W(u.minutes)}:${W(u.seconds)}`;
               case m.Long:
@@ -1152,16 +1156,17 @@
           G = (0, E.memo)(
             ({
               duration: u,
-              icon: e = _.Timer,
-              style: A = m.Description,
-              onTimeReached: t,
-              className: n = "",
-              classNames: D = {},
-              labelFormat: r = "",
+              withShortMinutes: e = !1,
+              icon: A = _.Timer,
+              style: t = m.Description,
+              onTimeReached: n,
+              className: D = "",
+              classNames: r = {},
+              labelFormat: B = "",
             }) => {
-              const B = A !== m.Description ? 1 : void 0,
-                i = U(u, B),
-                C = (() => {
+              const i = t !== m.Description ? 1 : void 0,
+                C = z(u, i),
+                a = (() => {
                   const u = (0, E.useState)(o.O.view.getScale()),
                     e = u[0],
                     A = u[1];
@@ -1180,34 +1185,35 @@
                     e
                   );
                 })();
-              t && t[i] && t[i]();
-              const a = j(
+              n && n[C] && n[C]();
+              const s = j(
                 (function (u = 0) {
                   let e = u;
-                  const A = Math.trunc(e / M);
-                  e -= A * M;
-                  const E = Math.trunc(e / P);
-                  e -= E * P;
-                  const F = Math.trunc(e / T);
-                  return ((e -= F * T), { days: A, hours: E, minutes: F, seconds: e });
-                })(i),
-                A,
+                  const A = Math.trunc(e / k);
+                  e -= A * k;
+                  const E = Math.trunc(e / x);
+                  e -= E * x;
+                  const F = Math.trunc(e / M);
+                  return ((e -= F * M), { days: A, hours: E, minutes: F, seconds: e });
+                })(C),
+                t,
+                e,
               );
               return F().createElement(
                 "div",
-                { className: d()(I, n) },
-                e !== _.None &&
+                { className: d()(H, D) },
+                A !== _.None &&
                   F().createElement("div", {
-                    className: d()(z, D.icon),
-                    style: { backgroundImage: `url('${Y(e, C)}')` },
+                    className: d()(K, r.icon),
+                    style: { backgroundImage: `url('${Y(A, a)}')` },
                   }),
-                r
+                B
                   ? F().createElement(
                       "div",
-                      { className: d()(H, D.text) },
-                      F().createElement(V, { text: r, binding: { timerText: a } }),
+                      { className: d()(V, r.text) },
+                      F().createElement(S, { text: B, binding: { timerText: s } }),
                     )
-                  : F().createElement("div", { className: d()(H, D.text) }, a),
+                  : F().createElement("div", { className: d()(V, r.text) }, s),
               );
             },
           );
@@ -1265,11 +1271,11 @@
               D = t.endDate,
               r = t.timestamp,
               o = A.onActionClick,
-              B = r < n || r > D,
+              B = r > D,
               i = (0, E.useCallback)(() => {
                 B || (Z.playYes(), o());
               }, [o, B]),
-              C = L(),
+              C = U(),
               a = C.width,
               s = C.height,
               l = (0, E.useState)(null),
@@ -1405,6 +1411,6 @@
         A = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (A.forEach(e.bind(null, 0)), (A.push = e.bind(null, A.push.bind(A))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [412], () => __webpack_require__(804));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [412], () => __webpack_require__(906));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

@@ -490,7 +490,7 @@ def getLootboxesFromBonuses(bonuses, itemsCache=None):
             tokens = bonus.getTokens()
             boxes = itemsCache.items.tokens.getLootBoxes()
             for token in tokens.values():
-                if b'lootBox' in token.id:
+                if b'lootBox' in token.id and token.id in boxes:
                     lootboxType = boxes[token.id].getType()
                     if lootboxType not in lootboxes:
                         lootboxes[lootboxType] = {b'count': (token.count), b'isFree': (boxes[token.id].isFree())}

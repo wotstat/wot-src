@@ -28,6 +28,7 @@ from gui.Scaleform.required_libraries_config import LOBBY_REQUIRED_LIBRARIES
 from gui.sounds.SoundManager import SoundManager
 from gui.Scaleform.managers.TweenSystem import TweenManager
 from gui.Scaleform.managers.UtilsManager import UtilsManager
+from gui.Scaleform.managers.fade_manager import FadeManager
 from gui.Scaleform.managers.voice_chat import LobbyVoiceChatManager
 from gui.impl.gen import R
 from gui.shared import EVENT_BUS_SCOPE
@@ -53,15 +54,21 @@ class LobbyEntry(AppEntry):
 
     def __init__(self, appNS, ctrlModeFlags):
         super(LobbyEntry, self).__init__(R.entries.lobby(), appNS, ctrlModeFlags)
+        self.__fadeManager = None
         return
 
     @property
     def waitingManager(self):
         return self.__getWaitingFromContainer()
 
+    @property
+    def fadeManager(self):
+        return self.__fadeManager
+
     @uniprof.regionDecorator(label=b'gui.lobby', scope=b'enter')
     def afterCreate(self):
         super(LobbyEntry, self).afterCreate()
+        self.__fadeManager.setup()
         return
 
     @uniprof.regionDecorator(label=b'gui.lobby', scope=b'exit')
@@ -69,6 +76,14 @@ class LobbyEntry(AppEntry):
         from gui.Scaleform.Waiting import Waiting
         Waiting.close()
         super(LobbyEntry, self).beforeDelete()
+        if self.__fadeManager:
+            self.__fadeManager.destroy()
+            self.__fadeManager = None
+        return
+
+    def _createManagers(self):
+        super(LobbyEntry, self)._createManagers()
+        self.__fadeManager = FadeManager()
         return
 
     def _createLoaderManager(self):

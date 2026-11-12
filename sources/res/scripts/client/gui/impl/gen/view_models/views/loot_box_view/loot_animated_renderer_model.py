@@ -6,29 +6,29 @@ class LootAnimatedRendererModel(LootDefRendererModel):
     SWF_ANIMATION = 0
     MC_ANIMATION = 1
 
-    def __init__(self, properties=16, commands=0):
+    def __init__(self, properties=17, commands=0):
         super(LootAnimatedRendererModel, self).__init__(properties=properties, commands=commands)
         return
 
     def getAnimationType(self):
-        return self._getNumber(13)
+        return self._getNumber(14)
 
     def setAnimationType(self, value):
-        self._setNumber(13, value)
+        self._setNumber(14, value)
         return
 
     def getAnimation(self):
-        return self._getResource(14)
+        return self._getResource(15)
 
     def setAnimation(self, value):
-        self._setResource(14, value)
+        self._setResource(15, value)
         return
 
     def getAnimationSound(self):
-        return self._getResource(15)
+        return self._getResource(16)
 
     def setAnimationSound(self, value):
-        self._setResource(15, value)
+        self._setResource(16, value)
         return
 
     def _initialize(self):

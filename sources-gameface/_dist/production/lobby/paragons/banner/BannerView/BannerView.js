@@ -102,16 +102,16 @@
                   ? (x ? "flex-start" : f && "center") || (w && "flex-end") || void 0
                   : P,
               O = u.alignSelf,
-              k = u.wrap,
-              N = u.flexWrap,
-              H = void 0 === N ? (k ? "wrap" : void 0) : N,
+              N = u.wrap,
+              k = u.flexWrap,
+              H = void 0 === k ? (N ? "wrap" : void 0) : k,
               I = u.grow,
-              U = u.shrink,
-              G = u.flex,
-              W = void 0 === G ? (I || U ? `${I ? 1 : 0} ${U ? 1 : 0} auto` : void 0) : G,
+              G = u.shrink,
+              U = u.flex,
+              W = void 0 === U ? (I || G ? `${I ? 1 : 0} ${G ? 1 : 0} auto` : void 0) : U,
               X = u.style,
               j = u.children,
-              q = (function (u, e) {
+              Y = (function (u, e) {
                 if (null == u) return {};
                 var t,
                   r,
@@ -120,7 +120,7 @@
                 for (r = 0; r < n.length; r++) ((t = n[r]), e.indexOf(t) >= 0 || (a[t] = u[t]));
                 return a;
               })(u, F);
-            const Y = (0, A.useMemo)(() => {
+            const q = (0, A.useMemo)(() => {
                 const u = { mt: i, mr: m, mb: d, ml: g },
                   e = ((u) =>
                     _.reduce((e, t) => {
@@ -147,11 +147,11 @@
                   computedClassNames: e,
                 };
               }, [t, r, i, m, d, g, X, W, O, b, H, R, y]),
-              Z = Y.computedStyle,
-              z = Y.computedClassNames;
+              Z = q.computedStyle,
+              z = q.computedClassNames;
             return s().createElement(
               "div",
-              l({ className: a()(o.Z.base, ...z, e), style: Z }, q),
+              l({ className: a()(o.Z.base, ...z, e), style: Z }, Y),
               j,
             );
           });
@@ -450,6 +450,7 @@
               (u.TankmenXpFactor = "tankmenXPFactor"),
               (u.FreeXpFactor = "freeXPFactor"),
               (u.BattleToken = "battleToken"),
+              (u.Entitlements = "entitlements"),
               (u.PremiumUniversal = "premium_universal"),
               (u.Gold = "gold"),
               (u.Credits = "credits"),
@@ -462,7 +463,6 @@
               (u.SelectableBonus = "selectableBonus"),
               (u.StyleProgressToken = "styleProgressToken"),
               (u.TmanToken = "tmanToken"),
-              (u.PortalEventDiscount25 = "portalEventDiscountToken"),
               (u.NaturalCover = "naturalCover"),
               (u.BpCoin = "bpcoin"),
               (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -495,7 +495,11 @@
               (u.GoldenTicket = "goldenticket"),
               (u.LbStyleProgress = "lbStyleProgress"),
               (u.RewardsSlots = "rewardsSlots"),
-              (u.RazlomCoin = "razlom_coin"));
+              (u.NyPetGoodies = "nyPetGoodies"),
+              (u.HiddenVehicle = "hidden_vehicle"),
+              (u.NyStaticDogTag = "nyStaticDogTag"),
+              (u.NyToys = "nyToys"),
+              (u.NyLootboxFragment = "nyLootboxFragment"));
           })(r || (r = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -618,6 +622,7 @@
           r.E4.TankmenXpFactor,
           r.E4.FreeXpFactor,
           r.E4.BattleToken,
+          r.E4.Entitlements,
           r.E4.PremiumUniversal,
           r.E4.NaturalCover,
           r.E4.BpCoin,
@@ -632,6 +637,9 @@
           r.E4.Comp7TokenWeeklyReward,
           r.E4.Comp7TokenCouponReward,
           r.E4.BattleBoosterGift,
+          r.E4.NewYearFillers,
+          r.E4.NewYearInvoice,
+          r.E4.LootBoxToken,
           r.E4.CosmicLootboxCommon,
           r.E4.CosmicLootboxSilver,
           r.E4.SelectableBonus,
@@ -639,10 +647,14 @@
           r.E4.PremiumPlusUniversal,
           r.E4.GoldenTicket,
           r.E4.RewardsSlots,
+          r.E4.NyPetGoodies,
+          r.E4.HiddenVehicle,
+          r.E4.NyLootboxFragment,
           r.E4.Gold,
           r.E4.Credits,
           r.E4.Crystal,
           r.E4.FreeXp,
+          r.E4.NewYearToyFragments,
           r.E4.BattlePassPoints,
           r.E4.PremiumPlus,
           r.E4.Premium);
@@ -1872,7 +1884,7 @@
           };
         window.ViewEnvHelper = v;
       },
-      4960: (u, e, t) => {
+      3151: (u, e, t) => {
         "use strict";
         var r = t(7739),
           a = t(6179),
@@ -2008,19 +2020,19 @@
         }
         console.log;
         var O = t(9174);
-        function k(u, e) {
+        function N(u, e) {
           var t = ("undefined" != typeof Symbol && u[Symbol.iterator]) || u["@@iterator"];
           if (t) return (t = t.call(u)).next.bind(t);
           if (
             Array.isArray(u) ||
             (t = (function (u, e) {
               if (!u) return;
-              if ("string" == typeof u) return N(u, e);
+              if ("string" == typeof u) return k(u, e);
               var t = Object.prototype.toString.call(u).slice(8, -1);
               "Object" === t && u.constructor && (t = u.constructor.name);
               if ("Map" === t || "Set" === t) return Array.from(u);
               if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                return N(u, e);
+                return k(u, e);
             })(u)) ||
             (e && u && "number" == typeof u.length)
           ) {
@@ -2034,7 +2046,7 @@
             "Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.",
           );
         }
-        function N(u, e) {
+        function k(u, e) {
           (null == e || e > u.length) && (e = u.length);
           for (var t = 0, r = new Array(e); t < e; t++) r[t] = u[t];
           return r;
@@ -2097,7 +2109,7 @@
                             };
                           },
                           dispose: function () {
-                            for (var u, t = k(a.keys()); !(u = t()).done;) n(u.value, e);
+                            for (var u, t = N(a.keys()); !(u = t()).done;) n(u.value, e);
                           },
                           unsubscribe: n,
                         };
@@ -2219,8 +2231,8 @@
             },
             ({ externalModel: u }) => ({ onClick: u.createCallbackNoArgs("onClick") }),
           ),
-          U = I[0],
-          G = I[1],
+          G = I[0],
+          U = I[1],
           W = {
             base: "App_base_b1",
             bg: "App_bg_5c",
@@ -2246,8 +2258,8 @@
           },
           X = 33,
           j = 0,
-          q = !0,
-          Y = "play";
+          Y = !0,
+          q = "play";
         const Z = [
           "width",
           "height",
@@ -2290,9 +2302,9 @@
               l = u.lastFrameIndex,
               D = void 0 === l ? E - 1 : l,
               _ = u.loop,
-              B = void 0 === _ ? q : _,
+              B = void 0 === _ ? Y : _,
               c = u.state,
-              m = void 0 === c ? Y : c,
+              m = void 0 === c ? q : c,
               C = u.onAnimationDone,
               d = u.onAnimationComplete,
               h = u.poster,
@@ -2472,7 +2484,7 @@
               s = (0, a.useState)(""),
               o = s[0],
               F = s[1],
-              l = G(),
+              l = U(),
               D = l.model,
               _ = l.controls,
               B = D.root.get().closeoutTimeStamp,
@@ -2551,7 +2563,7 @@
           });
         engine.whenReady.then(() => {
           h().render(
-            n().createElement(U, null, n().createElement(C, null, n().createElement(iu, null))),
+            n().createElement(G, null, n().createElement(C, null, n().createElement(iu, null))),
             document.getElementById("root"),
           );
         });
@@ -2793,6 +2805,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(e.bind(null, 0)), (t.push = e.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [454], () => __webpack_require__(4960));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [454], () => __webpack_require__(3151));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

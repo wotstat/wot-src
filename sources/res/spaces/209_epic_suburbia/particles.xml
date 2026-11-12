@@ -28,10 +28,10 @@
 			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_4.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_split_fire_smoke_1.dds
+			<path>particles/content_forward/pfx_textures/eff_tex_split_misc_3.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_split_misc_3.dds
+			<path>particles/content_forward/pfx_textures/eff_tex_split_fire_smoke_1.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_smoke.dds
@@ -49,16 +49,19 @@
 			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_7.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/tracers.dds
+			<path>particles/content_forward/pfx_textures/eff_leaves.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/eff_leaves.dds
+			<path>particles/content_forward/pfx_textures/tracers.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_fire_1.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_misc_5.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/glow_bloom.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_fire_3.dds
@@ -71,6 +74,9 @@
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_3.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/ny27_clapperboard.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_splash_3.dds
@@ -579,13 +585,13 @@
 		<fn_effect_bin>particles/content_deferred/PFX/Environment/interior/208_smokescreen_lev5.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/environment/scenarios/front_line_welding.eff</fn_effect_bin>
 		<preloadTextures>
+			<path>particles/content_deferred/pfx_textures/eff_tex_split_misc_3.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_smoke.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_split_smoke_4.dds
-				<type>primary</type>
-			</path>
-			<path>particles/content_deferred/pfx_textures/eff_tex_split_misc_3.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_split_misc_2.dds
@@ -680,6 +686,15 @@
 			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_force_field.dds
 				<type>forcefields</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/glow_bloom.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/flare_1.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/ny27_clapperboard.dds
+				<type>primary</type>
 			</path>
 		</preloadTextures>
 		<fn_effect_bin>particles/content_deferred/pfx/environment/buildings/hd_bld_su_129_townshed_03.vfx</fn_effect_bin>

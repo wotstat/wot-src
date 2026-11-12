@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<newYear>
+		<dialogs>
+			<confirmVehDiscount>
+				<context>
+					<vehicle_tag_open>&lt;font color="#CED9D9"&gt;</vehicle_tag_open>
+					<tag_close>&lt;/font&gt;</tag_close>
+					<veh_type_tag_open>&lt;img src='img://gui/maps/icons/vehicleTypes/</veh_type_tag_open>
+					<veh_type_tag_close>.png' width='18' height='18' vspace='-4' /&gt;</veh_type_tag_close>
+				</context>
+				<text>_(#new_year.dialogs.extend:confirmApplyVehicleDiscount/message)</text>
+			</confirmVehDiscount>
+		</dialogs>
+	</newYear>
+</root>

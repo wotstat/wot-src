@@ -16,9 +16,10 @@ from account_helpers.settings_core.settings_constants import SOUND
 from messenger.proto.shared_messages import ACTION_MESSAGE_TYPE, ClientActionMessage
 from skeletons.account_helpers.settings_core import ISettingsCore
 MEDIA_ENGINE_DELAY = 2.8
+MICROPHONE_CHECK_INTERVAL = 0.1
 
 class VOIPChatController(IVOIPChatController):
-    __slots__ = (b'__callbacks', b'__captureDevicesCallbacks')
+    __slots__ = (b'__callbacks', b'__captureDevicesCallbacks', b'__microphoneCheckTimer')
     settingsCore = dependency.descriptor(ISettingsCore)
 
     def __init__(self):
@@ -26,6 +27,7 @@ class VOIPChatController(IVOIPChatController):
         self.__captureDevicesCallbacks = []
         self.__warningShown = False
         self.__buttonPressed = False
+        self.__microphoneCheckTimer = None
         self.__isMediaEngineReady = False
         self.__mediaEngineWarningTimer = None
         return
@@ -40,6 +42,7 @@ class VOIPChatController(IVOIPChatController):
         return
 
     def stop(self):
+        self.__stopMicrophoneCheck()
         self.__unsubscribeFromVoipCallbacks()
         self.__callbacks = []
         self.__captureDevicesCallbacks = []
@@ -80,9 +83,27 @@ class VOIPChatController(IVOIPChatController):
         return
 
     def invalidateMicrophoneMute(self):
+        voipMgr = VOIP.getVOIPManager()
         keyCode = CommandMapping.g_instance.get(b'CMD_VOICECHAT_MUTE')
-        if not BigWorld.isKeyDown(keyCode):
+        if not BigWorld.isKeyDown(keyCode) and not voipMgr.isMicMuted:
             self.setMicrophoneMute(isMuted=True, force=True)
+        return
+
+    def __startMicrophoneCheck(self):
+        self.__stopMicrophoneCheck()
+        self.__microphoneCheckTimer = BigWorld.callback(MICROPHONE_CHECK_INTERVAL, self.__checkMicrophone)
+        return
+
+    def __stopMicrophoneCheck(self):
+        if self.__microphoneCheckTimer is not None:
+            BigWorld.cancelCallback(self.__microphoneCheckTimer)
+            self.__microphoneCheckTimer = None
+        return
+
+    def __checkMicrophone(self):
+        self.__microphoneCheckTimer = None
+        self.invalidateMicrophoneMute()
+        self.__microphoneCheckTimer = BigWorld.callback(MICROPHONE_CHECK_INTERVAL, self.__checkMicrophone)
         return
 
     @adisp_async
@@ -193,6 +214,7 @@ class VOIPChatController(IVOIPChatController):
         return
 
     def __onJoinedChannel(self, channel, isTestChannel, isRejoin):
+        self.__stopMicrophoneCheck()
         if self.isVOIPEnabled():
             self.__isMediaEngineReady = False
             self.__warningShown = False
@@ -211,10 +233,13 @@ class VOIPChatController(IVOIPChatController):
             keyCode = CommandMapping.g_instance.get(b'CMD_VOICECHAT_MUTE')
             if BigWorld.isKeyDown(keyCode):
                 VOIP.getVOIPManager().setMicMute(False)
+            if not isTestChannel:
+                self.__startMicrophoneCheck()
             g_messengerEvents.voip.onChannelEntered(channel, isTestChannel, isRejoin)
         return
 
     def __onLeftChannel(self, channel, wasTestChannel):
+        self.__stopMicrophoneCheck()
         if self.isVOIPEnabled():
             self.__mediaEngineWarningTimer = None
             g_messengerEvents.voip.onChannelLeft(channel, wasTestChannel)

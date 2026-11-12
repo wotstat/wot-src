@@ -3,30 +3,30 @@
 	<Fog>
 		<version>2</version>
 		<enable>true</enable>
-		<innerBB>-13.6416168 -200 200 200</innerBB>
-		<outerBB>-400 -400 400 400</outerBB>
+		<innerBB>-78 -14.5 80 80</innerBB>
+		<outerBB>-100 -33 100 100</outerBB>
 		<deferred>
 			<useEdgeFog>true</useEdgeFog>
-			<color>0.368627012 0.466666996 0.580392003 1</color>
-			<density>0.0250000004</density>
-			<height>-100</height>
-			<heightFalloff>0.00400000019</heightFalloff>
-			<startDistance>50</startDistance>
-			<scatterStart>50</scatterStart>
-			<scatterExponent>2</scatterExponent>
-			<scatterColor>0.690195978 0.572548985 0.439215988 5</scatterColor>
-			<skyLow>-0.150000006</skyLow>
-			<skyHigh>0.810000002</skyHigh>
+			<color>0.117647 0.200000003 0.239216 0.104979999</color>
+			<density>0.00700000022</density>
+			<height>4.5</height>
+			<heightFalloff>0.363999993</heightFalloff>
+			<startDistance>15</startDistance>
+			<scatterStart>0</scatterStart>
+			<scatterExponent>8.44999981</scatterExponent>
+			<scatterColor>0.0901959985 0.152941003 0.215685993 0.231323004</scatterColor>
+			<skyLow>-0.00999999978</skyLow>
+			<skyHigh>1</skyHigh>
 			<useCustomCenter>false</useCustomCenter>
 			<centerPosition>0 0 0</centerPosition>
 		</deferred>
 		<forward>
 			<useEdgeFog>false</useEdgeFog>
-			<color>0.890196025 0.819607973 0.686275005 1</color>
-			<density>0.00200000009</density>
-			<height>134.649994</height>
-			<heightFalloff>0.0270000007</heightFalloff>
-			<startDistance>14</startDistance>
+			<color>0.137254998 0.180391997 0.231372997 1</color>
+			<density>0.0211999994</density>
+			<height>200</height>
+			<heightFalloff>0.00899999961</heightFalloff>
+			<startDistance>17</startDistance>
 			<skyLow>-0.170000002</skyLow>
 			<skyHigh>0.0500000007</skyHigh>
 			<useCustomCenter>false</useCustomCenter>
@@ -34,21 +34,21 @@
 		</forward>
 	</Fog>
 	<HDR>
-		<version>2</version>
+		<version>3</version>
 		<enable>true</enable>
 		<adaptationSpeed>100</adaptationSpeed>
 		<bloom>
 			<enable>true</enable>
-			<threshold>0.100000001</threshold>
-			<amount>0.839999974</amount>
-			<tint>0.952941 0.823529005 0.600000024</tint>
-			<dirtAmount>0.529999971</dirtAmount>
+			<threshold>0.239999995</threshold>
+			<amount>0.140000001</amount>
+			<tint>0.341176003 0.768626988 1</tint>
+			<dirtAmount>0.800000012</dirtAmount>
 		</bloom>
 		<environment>
-			<sunlightLumMultiplier>7</sunlightLumMultiplier>
+			<sunlightLumMultiplier>0.408692002</sunlightLumMultiplier>
 			<ambientLumMultiplier>1</ambientLumMultiplier>
-			<sunLumMultiplier>10</sunLumMultiplier>
-			<skyLumMultiplier>15</skyLumMultiplier>
+			<sunDiskLumMultiplier>160</sunDiskLumMultiplier>
+			<skyExpositionOffset>0</skyExpositionOffset>
 			<LDR2HDRsaturation>1</LDR2HDRsaturation>
 			<LDR2HDRenableLumaMask>false</LDR2HDRenableLumaMask>
 		</environment>
@@ -58,23 +58,33 @@
 				<middleGray>0.487224013</middleGray>
 				<whitePoint>1.75</whitePoint>
 				<blackPoint>2.93000007</blackPoint>
+				<contrast>1</contrast>
 			</tonemapping>
 			<tonemapping>
 				<name>FilmicTM</name>
 				<middleGray>0.487224013</middleGray>
 				<whitePoint>1.75</whitePoint>
 				<blackPoint>1.30999994</blackPoint>
+				<contrast>1</contrast>
 			</tonemapping>
 			<tonemapping>
 				<name>LinearExpTM</name>
 				<middleGray>0.487224013</middleGray>
 				<whitePoint>1.75</whitePoint>
-				<blackPoint>1.20000005</blackPoint>
+				<blackPoint>1.26999998</blackPoint>
+				<contrast>1</contrast>
+			</tonemapping>
+			<tonemapping>
+				<name>GTTM</name>
+				<middleGray>0.219999999</middleGray>
+				<whitePoint>0.400000006</whitePoint>
+				<blackPoint>1.33000004</blackPoint>
+				<contrast>1</contrast>
 			</tonemapping>
 			<active>2</active>
 		</tonemappings>
 		<colorCorrection>
-			<map>system/maps/post_processing/cube/Wgr_film_a10_cont_comb.dds</map>
+			<map>system/maps/post_processing/cube/wgr_film_a10_scontrol.dds</map>
 		</colorCorrection>
 		<rainDistortion>
 			<map>system/maps/void_cch.dds</map>
@@ -94,10 +104,14 @@
 			<scale>0.100000001</scale>
 		</filmgrain>
 		<camera>
+			<usePhysicalCamera>true</usePhysicalCamera>
 			<fnumberDown>8</fnumberDown>
-			<fnumberUp>6.80000019</fnumberUp>
-			<shutterSpeed>4.39231682</shutterSpeed>
-			<keyValue>0.159999996</keyValue>
+			<fnumberUp>7.69999981</fnumberUp>
+			<shutterSpeed>4.90688992</shutterSpeed>
+			<cameraKeyValue>0.159999996</cameraKeyValue>
+			<lightLimit>1000</lightLimit>
+			<darkLimit>0.00100000005</darkLimit>
+			<eyeKeyValue>0.200000003</eyeKeyValue>
 		</camera>
 	</HDR>
 	<LensFlare>
@@ -127,18 +141,18 @@
 		<enable>false</enable>
 		<attenuationPower>19</attenuationPower>
 		<decay>0.389999986</decay>
-		<color>1 1 1 4</color>
+		<color>1 1 1 0.25</color>
 	</GodRays>
 	<SSAO>
 		<enableFromPreset>2</enableFromPreset>
 		<radius>0.0599999987</radius>
 		<amplify>0.469999999</amplify>
-		<fadeNear>3.11999989</fadeNear>
+		<fadeNear>0.819999993</fadeNear>
 		<terrainAOGammaCorrection>0.25</terrainAOGammaCorrection>
 		<influences>
 			<speedtree>0.550000012 0.75</speedtree>
 			<terrain>0 0</terrain>
-			<objects>0.75999999 0</objects>
+			<objects>0.639999986 0</objects>
 			<localLights>0.75999999</localLights>
 		</influences>
 	</SSAO>
@@ -180,7 +194,7 @@
 		</layer1>
 	</cloudsShadow>
 	<PBS>
-		<ForwardSHMultiplier>2.79999995</ForwardSHMultiplier>
+		<ForwardSHMultiplier>2</ForwardSHMultiplier>
 		<flakesDensityThreshold>0.800000012</flakesDensityThreshold>
 		<flakesUvScale>0.800000012</flakesUvScale>
 		<flakesGloss>0.889999986</flakesGloss>
@@ -220,26 +234,26 @@
 	</overlayMaterial>
 	<day_night_cycle>
 		<forward>
-			<angle>83</angle>
-			<angleZ>66</angleZ>
-			<angleShadow>66</angleShadow>
+			<angle>73</angle>
+			<angleZ>265</angleZ>
+			<angleShadow>25</angleShadow>
 		</forward>
 		<deferred>
-			<angle>30</angle>
+			<angle>15</angle>
 			<angleZ>66</angleZ>
 		</deferred>
 		<sunScale>0</sunScale>
 		<sunlightAngularSize>0</sunlightAngularSize>
 		<sunColor>179 136 88</sunColor>
 		<sunTexture></sunTexture>
-		<sunLightColor>0.929412007 0.733332992 0.435294002</sunLightColor>
+		<sunLightColor>0.172548994 0.243137002 0.400000006</sunLightColor>
 		<isMoon>false</isMoon>
 		<drawSunAndMoon>false</drawSunAndMoon>
 		<sunScaleForward>0</sunScaleForward>
 		<sunColorForward>179 136 88</sunColorForward>
 		<sunTextureForward></sunTextureForward>
-		<sunLightColorForward>1 0.905882001 0.780391991</sunLightColorForward>
-		<ambientColorForward>0.800000012 0.725489974 0.68235302</ambientColorForward>
+		<sunLightColorForward>0.968626976 0.905882001 0.792156994</sunLightColorForward>
+		<ambientColorForward>0.968626976 0.905882001 0.792156994</ambientColorForward>
 		<starttime>10</starttime>
 	</day_night_cycle>
 	<dirt>
@@ -249,18 +263,18 @@
 		<enabled>true</enabled>
 	</dirt>
 	<SkyDome>
-		<worldMatrix>0.544638991 0 -0.838671029 0 1 0 0.838671029 0 0.544638991 0 0 0</worldMatrix>
-		<worldMatrixForward>-0.927182972 0 -0.37460801 0 1 0 0.37460801 0 -0.927182972 0 -4926 0</worldMatrixForward>
+		<worldMatrix>0.325567991 0 0.94551897 0 1 0 -0.94551897 0 0.325567991 0 0 0</worldMatrix>
+		<worldMatrixForward>-0.156434998 0 0.987688005 0 1 0 -0.987688005 0 -0.156434998 0 -6163 0</worldMatrixForward>
 	</SkyDome>
 	<Wetness>
 		<waterColor>0.164706007 0.149020001 0.141176</waterColor>
-		<waterAlpha>0.150000006</waterAlpha>
+		<waterAlpha>0.400000006</waterAlpha>
 		<waveTexture>maps/water/ripple_normal_animation/normal</waveTexture>
 		<waveTextureCount>32</waveTextureCount>
-		<waveAnimationSpeed>0</waveAnimationSpeed>
+		<waveAnimationSpeed>8</waveAnimationSpeed>
 		<waveUVScale>0.200000003</waveUVScale>
-		<waveSpeed>0</waveSpeed>
-		<waveStrength>0</waveStrength>
+		<waveSpeed>0.0399999991</waveSpeed>
+		<waveStrength>2</waveStrength>
 		<waveMaskTexture>system/maps/wetness_waves.dds</waveMaskTexture>
 		<waveMaskUVScale>0.25</waveMaskUVScale>
 		<waveMaskSpeed>0.25</waveMaskSpeed>
@@ -291,7 +305,7 @@
 	</VFXLighting>
 	<WeatherDependentSettings>
 		<environment_dependent_emission>
-			<enabled>true</enabled>
+			<enabled>false</enabled>
 		</environment_dependent_emission>
 		<environment_dependent_lights>
 			<enabled>false</enabled>

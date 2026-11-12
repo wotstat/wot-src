@@ -1901,7 +1901,7 @@
 						<maxPitch>0 8 0.38 8 0.42 5 0.58 5 0.62 8 1 8</maxPitch>
 					</pitchLimits>
 					<shotDispersionRadius>0.24</shotDispersionRadius>
-					<reloadTime>14</reloadTime>
+					<reloadTime>16</reloadTime>
 					<aimingTime>1.6</aimingTime>
 					<invisibilityFactorAtShot>0.266</invisibilityFactorAtShot>
 					<shotDispersionFactors>
@@ -1915,7 +1915,7 @@
 					</clip>
 					<autoShoot>
 						<shotDispersionPerSec>1.0</shotDispersionPerSec>
-						<maxShotDispersion>2</maxShotDispersion>
+						<maxShotDispersion>1</maxShotDispersion>
 						<rate>2.833</rate>
 						<rebuildShotDispersionDelay>0.35</rebuildShotDispersionDelay>
 					</autoShoot>
@@ -2571,7 +2571,7 @@
 		<detailed>
 			<engines>
 				<Maybach_HL_230_G201>
-					<smplEnginePower>700</smplEnginePower>
+					<smplEnginePower>810</smplEnginePower>
 					<smplFwMaxSpeed>50</smplFwMaxSpeed>
 				</Maybach_HL_230_G201>
 			</engines>

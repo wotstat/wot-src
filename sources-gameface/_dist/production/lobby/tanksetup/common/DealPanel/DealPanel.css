@@ -823,6 +823,9 @@
   flex-direction: column;
   width: 100%;
   max-height: 198rem;
+  border: 1rem solid #464538;
+  border-radius: 2rem;
+  background-color: #090906;
   position: relative;
 }
 
@@ -862,9 +865,6 @@
 .PureDropDown_list_28 {
   display: flex;
   width: 100%;
-  border: 1rem solid #464538;
-  border-radius: 2rem;
-  background-color: #090906;
   position: absolute;
   left: 0;
   transition: opacity 0.25s;

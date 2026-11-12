@@ -165,12 +165,12 @@
             getViewGlobalPosition: () => D,
             isClientAccessible: () => p,
             isEventHandled: () => g,
-            isFocused: () => m,
+            isFocused: () => v,
             pxToRem: () => B,
             remToPx: () => d,
             resize: () => l,
             sendEvent: () => i.qP,
-            setAnimateWindow: () => v,
+            setAnimateWindow: () => m,
             setEventHandled: () => b,
             setInputPaddingsRem: () => o,
             setSidePaddingsRem: () => F,
@@ -217,10 +217,10 @@
         function d(u) {
           return viewEnv.remToPx(u);
         }
-        function v(u, e) {
+        function m(u, e) {
           viewEnv.setAnimateWindow(u, e);
         }
-        function m() {
+        function v() {
           return viewEnv.isFocused();
         }
         function p() {
@@ -621,7 +621,7 @@
               return e.apply(this, arguments);
             };
           })(),
-          v = (u, e) => {
+          m = (u, e) => {
             const t = "GFViewEventProxy";
             if (void 0 !== e) {
               const r = e.args,
@@ -659,7 +659,7 @@
             } else viewEnv.handleViewEvent({ __Type: t, type: u });
             var n;
           },
-          m = () => v(o.CLOSE),
+          v = () => m(o.CLOSE),
           p = (u, e) => {
             u.keyCode === l.n.ESCAPE && e();
           };
@@ -674,11 +674,11 @@
             TimeFormatType: F,
             DateFormatType: c,
             makeGlobalBoundingBox: B,
-            sendMoveEvent: (u) => v(o.MOVE, { isMouseEvent: !0, on: u }),
-            sendCloseEvent: m,
-            sendClosePopOverEvent: () => v(o.POP_OVER, { on: !1 }),
+            sendMoveEvent: (u) => m(o.MOVE, { isMouseEvent: !0, on: u }),
+            sendCloseEvent: v,
+            sendClosePopOverEvent: () => m(o.POP_OVER, { on: !1 }),
             sendShowContextMenuEvent: (u, e, t = 0) => {
-              v(o.CONTEXT_MENU, {
+              m(o.CONTEXT_MENU, {
                 isMouseEvent: !0,
                 contentID: u,
                 on: !0,
@@ -699,7 +699,7 @@
                   width: D.O.view.pxToRem(F),
                   height: D.O.view.pxToRem(c),
                 };
-              v(o.POP_OVER, {
+              m(o.POP_OVER, {
                 isMouseEvent: !0,
                 contentID: u,
                 decoratorID: n || R.invalid("resId"),
@@ -718,9 +718,9 @@
               );
             },
             closeOnEsc: (u) => {
-              p(u, m);
+              p(u, v);
             },
-            handleViewEvent: v,
+            handleViewEvent: m,
             onBindingsReady: d,
             onLayoutReady: () =>
               new Promise((u) => {
@@ -756,7 +756,7 @@
           };
         window.ViewEnvHelper = h;
       },
-      1439: (u, e, t) => {
+      8844: (u, e, t) => {
         var n = t(6179),
           r = t.n(n),
           a = t(493),
@@ -840,7 +840,7 @@
                     ),
                   ),
                 );
-        let v;
+        let m;
         !(function (u) {
           ((u.SHORT_DATE = "short-date"),
             (u.SHORT_TIME = "short-time"),
@@ -855,8 +855,8 @@
             (u.WEEK_DAY_TIME = "week-day-time"),
             (u.YEAR = "year"),
             (u.DATE_YEAR = "date-year"));
-        })(v || (v = {}));
-        var m = t(4179);
+        })(m || (m = {}));
+        var v = t(4179);
         const p = 60,
           b = 3600,
           g = 86400;
@@ -946,7 +946,7 @@
             }
             return "";
           },
-          N = m.Sw.instance;
+          N = v.Sw.instance;
         let S;
         !(function (u) {
           ((u.None = "None"), (u.Shallow = "Shallow"), (u.Deep = "Deep"));
@@ -1000,7 +1000,7 @@
               A
             );
           },
-          U = (m.Sw.instance, f);
+          U = (v.Sw.instance, f);
         let V;
         !(function (u) {
           ((u.XP = "xp"),
@@ -1090,8 +1090,8 @@
         }) => {
           const B = (0, n.useRef)(null),
             d = (0, n.useState)(t),
-            v = d[0],
-            m = d[1],
+            m = d[0],
+            v = d[1],
             p = (0, n.useState)(!1),
             b = p[0],
             g = p[1],
@@ -1099,13 +1099,13 @@
             w = h[0],
             f = h[1],
             y = (0, n.useCallback)(() => {
-              i || (B.current && (B.current.focus(), m(!0)));
+              i || (B.current && (B.current.focus(), v(!0)));
             }, [i]),
             T = (0, n.useCallback)(
               (u) => {
-                v && null !== B.current && !B.current.contains(u.target) && m(!1);
+                m && null !== B.current && !B.current.contains(u.target) && v(!1);
               },
-              [v],
+              [m],
             ),
             x = (0, n.useCallback)(
               (u) => {
@@ -1149,7 +1149,7 @@
               {
                 [j.base__disabled]: i,
                 [j[`base__${e}`]]: e,
-                [j.base__focus]: v,
+                [j.base__focus]: m,
                 [j.base__highlightActive]: b,
                 [j.base__firstHover]: w,
               },
@@ -1167,7 +1167,7 @@
               [T],
             ),
             (0, n.useEffect)(() => {
-              m(t);
+              v(t);
             }, [t]),
             r().createElement(
               "div",
@@ -1227,10 +1227,10 @@
           uu = "Countdown_icon_8b",
           eu = "Countdown_description_8d",
           tu = (u) => u.toString().padStart(2, "0"),
-          nu = (u, e) => {
+          nu = (u, e, t = !1) => {
             switch (e) {
               case Q.Description:
-                return ((u, e = !0) =>
+                return ((u, e = !0, t = !1) =>
                   u.days > 7 && e
                     ? A(R.strings.common.duration.days(), { days: u.days })
                     : u.days >= 1
@@ -1240,8 +1240,12 @@
                       : u.hours >= 1
                         ? 0 === u.minutes
                           ? A(R.strings.common.duration.hours(), { hours: u.hours })
-                          : `${A(R.strings.common.duration.hours(), { hours: u.hours })} ${A(R.strings.common.duration.minutes(), { minutes: u.minutes })}`
-                        : A(R.strings.common.duration.minutes(), { minutes: u.minutes || 1 }))(u);
+                          : `${A(R.strings.common.duration.hours(), { hours: u.hours })} ${A(t ? R.strings.common.duration.shortMinutes() : R.strings.common.duration.minutes(), { minutes: u.minutes })}`
+                        : A(R.strings.common.duration.minutes(), { minutes: u.minutes || 1 }))(
+                  u,
+                  !0,
+                  t,
+                );
               case Q.Short:
                 return `${tu(u.minutes)}:${tu(u.seconds)}`;
               case Q.Long:
@@ -1265,16 +1269,17 @@
           iu = (0, n.memo)(
             ({
               duration: u,
-              icon: e = Z.Timer,
-              style: t = Q.Description,
-              onTimeReached: a,
-              className: i = "",
-              classNames: s = {},
-              labelFormat: E = "",
+              withShortMinutes: e = !1,
+              icon: t = Z.Timer,
+              style: a = Q.Description,
+              onTimeReached: i,
+              className: s = "",
+              classNames: E = {},
+              labelFormat: A = "",
             }) => {
-              const A = t !== Q.Description ? 1 : void 0,
-                F = U(u, A),
-                c = (() => {
+              const F = a !== Q.Description ? 1 : void 0,
+                c = U(u, F),
+                l = (() => {
                   const u = (0, n.useState)(y.O.view.getScale()),
                     e = u[0],
                     t = u[1];
@@ -1293,23 +1298,23 @@
                     e
                   );
                 })();
-              a && a[F] && a[F]();
-              const l = nu(h(F), t);
+              i && i[c] && i[c]();
+              const D = nu(h(c), a, e);
               return r().createElement(
                 "div",
-                { className: o()(J, i) },
-                e !== Z.None &&
+                { className: o()(J, s) },
+                t !== Z.None &&
                   r().createElement("div", {
-                    className: o()(uu, s.icon),
-                    style: { backgroundImage: `url('${au(e, c)}')` },
+                    className: o()(uu, E.icon),
+                    style: { backgroundImage: `url('${au(t, l)}')` },
                   }),
-                E
+                A
                   ? r().createElement(
                       "div",
-                      { className: o()(eu, s.text) },
-                      r().createElement(d, { text: E, binding: { timerText: l } }),
+                      { className: o()(eu, E.text) },
+                      r().createElement(d, { text: A, binding: { timerText: D } }),
                     )
-                  : r().createElement("div", { className: o()(eu, s.text) }, l),
+                  : r().createElement("div", { className: o()(eu, E.text) }, D),
               );
             },
           );
@@ -1386,9 +1391,9 @@
         class Du extends r().PureComponent {
           render() {
             let u;
-            if ("gold" === this.props.format) u = m.B3.GOLD;
-            else u = m.B3.INTEGRAL;
-            const e = m.Z5.getNumberFormat(this.props.value, u);
+            if ("gold" === this.props.format) u = v.B3.GOLD;
+            else u = v.B3.INTEGRAL;
+            const e = v.Z5.getNumberFormat(this.props.value, u);
             return void 0 !== this.props.value && void 0 !== e ? e : null;
           }
         }
@@ -1478,15 +1483,15 @@
         Cu.defaultProps = { isEnough: !0 };
         const Bu = r().memo(Cu),
           du = "Quantity_base_e7",
-          vu = "Quantity_base__premium_7e",
-          mu = "Quantity_icon_e5",
+          mu = "Quantity_base__premium_7e",
+          vu = "Quantity_icon_e5",
           pu = ({ isPurchasable: u, goldPrice: e = 0, playerGold: t, inDepot: n, isPremium: a }) =>
             u && e
               ? r().createElement(Bu, { size: "small", type: "gold", value: e, isEnough: t >= e })
               : r().createElement(
                   "div",
-                  { className: o()(du, { [vu]: a }) },
-                  r().createElement("div", { className: mu }),
+                  { className: o()(du, { [mu]: a }) },
+                  r().createElement("div", { className: vu }),
                   n,
                 ),
           bu = {
@@ -1592,8 +1597,8 @@
             const _ = e.boosterID,
               C = e.reserveType,
               B = e.inDepot,
-              v = e.totalDuration,
-              m = void 0 === v ? 60 : v,
+              m = e.totalDuration,
+              v = void 0 === m ? 60 : m,
               p = e.isPremium,
               b = e.iconId,
               w = e.expiryTime,
@@ -1602,7 +1607,7 @@
               R = e.maxBonus,
               T = e.state,
               x = U(i, 1),
-              P = Math.ceil((x / m) * 100),
+              P = Math.ceil((x / v) * 100),
               k = T === q.Active;
             (0, n.useEffect)(() => {
               x <= 0 && l();
@@ -1610,7 +1615,7 @@
             const O = Math.floor((1e3 * w - Date.now()) / 1e3),
               L = Boolean(!k && O && O > 0),
               M = O > g ? Q.Extended : Q.Long,
-              N = k && m - i < 5;
+              N = k && v - i < 5;
             (0, n.useEffect)(() => {
               N && z("personal_reserves_activation");
             }, [N]);
@@ -1790,7 +1795,7 @@
               Object.assign(
                 {
                   __Type: "GFViewEventProxy",
-                  type: m.B0.TOOLTIP,
+                  type: v.B0.TOOLTIP,
                   contentID: u,
                   decoratorID: e,
                   targetID: n,
@@ -1817,8 +1822,8 @@
               C = void 0 === _ || _,
               B = u.targetId,
               d = void 0 === B ? 0 : B,
-              v = u.onShow,
-              m = u.onHide,
+              m = u.onShow,
+              v = u.onHide,
               p = (function (u, e) {
                 if (null == u) return {};
                 var t,
@@ -1838,18 +1843,18 @@
               h = (0, n.useCallback)(() => {
                 (b.current.isVisible && b.current.timeoutId) ||
                   (xu(t, D, { isMouseEvent: !0, on: !0, arguments: Tu(r) }, g),
-                  v && v(),
+                  m && m(),
                   (b.current.isVisible = !0));
-              }, [t, D, r, g, v]),
+              }, [t, D, r, g, m]),
               w = (0, n.useCallback)(() => {
                 if (b.current.isVisible || b.current.timeoutId) {
                   const u = b.current.timeoutId;
                   (u > 0 && (clearTimeout(u), (b.current.timeoutId = 0)),
                     xu(t, D, { on: !1 }, g),
-                    b.current.isVisible && m && m(),
+                    b.current.isVisible && v && v(),
                     (b.current.isVisible = !1));
                 }
-              }, [t, D, g, m]),
+              }, [t, D, g, v]),
               f = (0, n.useCallback)((u) => {
                 b.current.isVisible &&
                   ((b.current.prevTarget = document.elementFromPoint(u.clientX, u.clientY)),
@@ -2295,6 +2300,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(e.bind(null, 0)), (t.push = e.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [532], () => __webpack_require__(1439));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [532], () => __webpack_require__(8844));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

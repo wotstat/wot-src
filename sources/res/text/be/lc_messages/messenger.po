@@ -1201,8 +1201,17 @@ msgstr "Списано золотых билетов"
 msgid "platformCurrencyMsg/debited/honey_coin"
 msgstr "Списано мёда"
 
-msgid "platformCurrencyMsg/debited/razlom_coin"
-msgstr "Списано монет Разлома"
+msgid "platformCurrencyMsg/debited/nyractiv"
+msgstr "Предметы для активности"
+
+msgid "platformCurrencyMsg/debited/nyrfood"
+msgstr "Продукты питания"
+
+msgid "platformCurrencyMsg/debited/nyrfun"
+msgstr "Предметы комфорта"
+
+msgid "platformCurrencyMsg/debited/paintcoin"
+msgstr "Списано пигмента"
 
 msgid "platformCurrencyMsg/debited/sacoin"
 msgstr "Списано жетонов ветерана"
@@ -1231,8 +1240,14 @@ msgstr "Начислено золотых билетов"
 msgid "platformCurrencyMsg/received/honey_coin"
 msgstr "Начислено мёда"
 
-msgid "platformCurrencyMsg/received/razlom_coin"
-msgstr "Начислено монет Разлома"
+msgid "platformCurrencyMsg/received/nyractiv"
+msgstr "Предметы для активности"
+
+msgid "platformCurrencyMsg/received/nyrfood"
+msgstr "Продукты питания"
+
+msgid "platformCurrencyMsg/received/nyrfun"
+msgstr "Предметы комфорта"
 
 msgid "platformCurrencyMsg/received/sacoin"
 msgstr "Добавлено жетонов ветерана"
@@ -2131,6 +2146,9 @@ msgstr "Боевые чаты"
 msgid "serviceChannelMessages/chatsUnlocked/channels"
 msgstr "Каналы сувязі"
 
+msgid "serviceChannelMessages/chatsUnlocked/footer"
+msgstr "Изменения станут активны в ближайшее время."
+
 msgid "serviceChannelMessages/chatsUnlocked/private"
 msgstr "Личные сообщения"
 
@@ -2279,7 +2297,7 @@ msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
 msgstr "Дэмантаваны эксперыментальныя модулі з наступных машын"
 
 msgid "serviceChannelMessages/epicReward/armory_yard"
-msgstr "• Жетоны строительства"
+msgstr "• Этапы Сборочного цеха"
 
 msgid "serviceChannelMessages/epicReward/battleBooster_gift"
 msgstr "• Настаўленне да абсталявання на выбар"

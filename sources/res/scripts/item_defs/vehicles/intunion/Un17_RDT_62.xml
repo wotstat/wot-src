@@ -71,6 +71,13 @@
 			<undamaged>vehicles/intunion/Un17_RDT_62/normal/lod0/Hull.model</undamaged>
 			<destroyed>vehicles/intunion/Un17_RDT_62/crash/lod0/Hull.model</destroyed>
 			<exploded>vehicles/intunion/Un17_RDT_62/crash/lod0/Hull.model</exploded>
+			<sets>
+				<Un17_RDT_62_3Dst_01>
+					<undamaged>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/normal/lod0/Hull.model</undamaged>
+					<destroyed>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/crash/lod0/Hull.model</destroyed>
+					<exploded>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/crash/lod0/Hull.model</exploded>
+				</Un17_RDT_62_3Dst_01>
+			</sets>
 		</models>
 		<swinging>
 			<lodDist>FAR</lodDist>
@@ -939,6 +946,12 @@
 				<verticalMirror>true</verticalMirror>
 				<anchorShift>0.13</anchorShift>
 			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18000</slotId>
+				<position>0 0 0</position>
+				<rotation>0 0 0</rotation>
+			</slot>
 		</customizationSlots>
 		<customization>
 			<customizableVehicleAreas>
@@ -979,6 +992,13 @@
 				<undamaged>vehicles/intunion/Un17_RDT_62/normal/lod0/Chassis.model</undamaged>
 				<destroyed>vehicles/intunion/Un17_RDT_62/crash/lod0/Chassis.model</destroyed>
 				<exploded>vehicles/intunion/Un17_RDT_62/crash/lod0/Chassis.model</exploded>
+				<sets>
+					<Un17_RDT_62_3Dst_01>
+						<undamaged>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/normal/lod0/Chassis.model</undamaged>
+						<destroyed>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/crash/lod0/Chassis.model</destroyed>
+						<exploded>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/crash/lod0/Chassis.model</exploded>
+					</Un17_RDT_62_3Dst_01>
+				</sets>
 			</models>
 			<traces>
 				<lodDist>MEDIUM</lodDist>
@@ -2051,6 +2071,13 @@
 						<undamaged>vehicles/intunion/Un17_RDT_62/normal/lod0/Gun_01.model</undamaged>
 						<destroyed>vehicles/intunion/Un17_RDT_62/crash/lod0/Gun_01.model</destroyed>
 						<exploded>vehicles/intunion/Un17_RDT_62/crash/lod0/Gun_01.model</exploded>
+						<sets>
+							<Un17_RDT_62_3Dst_01>
+								<undamaged>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/normal/lod0/Gun_01.model</undamaged>
+								<destroyed>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/crash/lod0/Gun_01.model</destroyed>
+								<exploded>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/crash/lod0/Gun_01.model</exploded>
+							</Un17_RDT_62_3Dst_01>
+						</sets>
 					</models>
 					<hitTester>
 						<collisionModelServer>vehicles/intunion/Un17_RDT_62/collision/Gun_01.model</collisionModelServer>
@@ -2058,7 +2085,6 @@
 					</hitTester>
 					<edgeByVisualModel>false</edgeByVisualModel>
 					<effects>shot_autoshoot_medium_shell_ground</effects>
-					<animateEmblemSlots>true</animateEmblemSlots>
 					<shotOffset>-9.00000032e-06 0.100496002 0.879967988</shotOffset>
 					<camouflage>
 						<density>146.136719 146.207474</density>
@@ -2070,6 +2096,13 @@
 				<undamaged>vehicles/intunion/Un17_RDT_62/normal/lod0/Turret_01.model</undamaged>
 				<destroyed>vehicles/intunion/Un17_RDT_62/crash/lod0/Turret_01.model</destroyed>
 				<exploded>vehicles/intunion/Un17_RDT_62/crash/lod0/Turret_01.model</exploded>
+				<sets>
+					<Un17_RDT_62_3Dst_01>
+						<undamaged>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/normal/lod0/Turret_01.model</undamaged>
+						<destroyed>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/crash/lod0/Turret_01.model</destroyed>
+						<exploded>vehicles/intunion/Un17_RDT_62/_skins/Un17_RDT_62_3Dst_01/crash/lod0/Turret_01.model</exploded>
+					</Un17_RDT_62_3Dst_01>
+				</sets>
 			</models>
 			<hitTester>
 				<collisionModelServer>vehicles/intunion/Un17_RDT_62/collision/Turret_01.model</collisionModelServer>

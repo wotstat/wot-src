@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<wwambientSound>hangar_h03_ambient_main</wwambientSound>
+	<wwmusic>hangar_h03_music</wwmusic>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>hangar_h03_mt_ny.bnk</name>
+			</bank>
+			<bank>
+				<name>hangar_h03_mt_ny.pck</name>
+			</bank>
+		</loadBanks>
+	</soundRemapping>
+	<boundingBox>
+		<bottomLeft>-200 -200</bottomLeft>
+		<upperRight>300 300</upperRight>
+	</boundingBox>
+	<mapActivities></mapActivities>
+	<gameplayTypes>
+		<bootcamp>
+			<boundingBox></boundingBox>
+		</bootcamp>
+	</gameplayTypes>
+</root>

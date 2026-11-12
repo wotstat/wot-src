@@ -4,6 +4,10 @@ from typing import Any, ClassVar, Final, overload
 @overload
 def Null(arg0: Any = ...) -> None: ...
 @overload
+def Null(arg0: Any = ..., arg1: bool = ...) -> None: ...
+@overload
+def Null(arg0: Any = ..., arg1: float = ...) -> None: ...
+@overload
 def Null(arg0: Any = ..., arg1: int = ...) -> None: ...
 
 def Str(*args: Any, **kwargs: Any) -> Any: ...
@@ -13,11 +17,6 @@ def foo(*args: Any, **kwargs: Any) -> Any: ...
 def new(*args: Any, **kwargs: Any) -> Any: ...
 
 __doc__: Any
-
-class AgentStateBitMask:
-    Null: ClassVar[AgentStateBitMask]  # native value: 0
-    RoleInitialized: ClassVar[AgentStateBitMask]  # native value: 2
-    Spawned: ClassVar[AgentStateBitMask]  # native value: 1
 
 class InterruptionBitMask:
     BaseCapturingAlert: ClassVar[InterruptionBitMask]  # native value: 16
@@ -35,28 +34,17 @@ class InterruptionBitMask:
     TargetChanged: ClassVar[InterruptionBitMask]  # native value: 256
     UndetectedMoveTargetInvalidated: ClassVar[InterruptionBitMask]  # native value: 8192
 
-class PVEOverrideTargetingModes:
-    LocalDirection: ClassVar[PVEOverrideTargetingModes]  # native value: 3
-    Null: ClassVar[PVEOverrideTargetingModes]  # native value: 0
-    WorldDirection: ClassVar[PVEOverrideTargetingModes]  # native value: 2
-    WorldPosition: ClassVar[PVEOverrideTargetingModes]  # native value: 1
-
 BaseCapturingAlert: Final[InterruptionBitMask] = InterruptionBitMask.BaseCapturingAlert
 CanNotShoot: Final[InterruptionBitMask] = InterruptionBitMask.CanNotShoot
 CanShoot: Final[InterruptionBitMask] = InterruptionBitMask.CanShoot
 CirclingTargetChanged: Final[InterruptionBitMask] = InterruptionBitMask.CirclingTargetChanged
 CoverInvalidated: Final[InterruptionBitMask] = InterruptionBitMask.CoverInvalidated
 GotShot: Final[InterruptionBitMask] = InterruptionBitMask.GotShot
-LocalDirection: Final[PVEOverrideTargetingModes] = PVEOverrideTargetingModes.LocalDirection
 MovementFailed: Final[InterruptionBitMask] = InterruptionBitMask.MovementFailed
-Null: Final[AgentStateBitMask] = AgentStateBitMask.Null
+Null: Final[InterruptionBitMask] = InterruptionBitMask.Null
 ObservedByEnemy: Final[InterruptionBitMask] = InterruptionBitMask.ObservedByEnemy
 PushedByAnotherVehicle: Final[InterruptionBitMask] = InterruptionBitMask.PushedByAnotherVehicle
-RoleInitialized: Final[AgentStateBitMask] = AgentStateBitMask.RoleInitialized
 SavedPoThreatOnPathIncreasedsition: Final[InterruptionBitMask] = InterruptionBitMask.SavedPoThreatOnPathIncreasedsition
 SnipePointInvalidated: Final[InterruptionBitMask] = InterruptionBitMask.SnipePointInvalidated
-Spawned: Final[AgentStateBitMask] = AgentStateBitMask.Spawned
 TargetChanged: Final[InterruptionBitMask] = InterruptionBitMask.TargetChanged
 UndetectedMoveTargetInvalidated: Final[InterruptionBitMask] = InterruptionBitMask.UndetectedMoveTargetInvalidated
-WorldDirection: Final[PVEOverrideTargetingModes] = PVEOverrideTargetingModes.WorldDirection
-WorldPosition: Final[PVEOverrideTargetingModes] = PVEOverrideTargetingModes.WorldPosition

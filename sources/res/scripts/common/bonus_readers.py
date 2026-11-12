@@ -93,13 +93,14 @@ class IntHolder(int):
     def __init__(self, value, **kwargs):
         super(IntHolder, self).__init__()
         self.ukey = kwargs.get(b'ukey')
+        self.value = value
         self.rate = int(kwargs.get(b'rate', self.rate))
         self._materialized = False
         return
 
     def materialize(self, substitutions):
         if self.ukey is not None and substitutions and not self.isMaterialized():
-            self.newval = substitutions.get(self.ukey, 0)
+            self.newval = substitutions.get(self.ukey, 0) * self.value
             self.newval = int(max(0, self.newval * self.rate))
             self._materialized = True
         return int(self)
@@ -110,7 +111,7 @@ class IntHolder(int):
     def __int__(self):
         if self.isMaterialized():
             return self.newval
-        return super(IntHolder, self).__int__()
+        return self.value * self.rate
 
     def __repr__(self):
         return int(self).__repr__()
@@ -255,13 +256,14 @@ class FloatHolder(float):
     def __init__(self, value, **kwargs):
         super(FloatHolder, self).__init__()
         self.ukey = kwargs.get(b'ukey')
+        self.value = value
         self.rate = float(kwargs.get(b'rate', self.rate))
         self._materialized = False
         return
 
     def materialize(self, substitutions):
         if self.ukey is not None and substitutions and not self.isMaterialized():
-            self.newval = substitutions.get(self.ukey, 0.0)
+            self.newval = substitutions.get(self.ukey, 0.0) * self.value
             self.newval = float(max(0.0, self.newval * self.rate))
             self._materialized = True
         return float(self)
@@ -272,7 +274,7 @@ class FloatHolder(float):
     def __float__(self):
         if self.isMaterialized():
             return self.newval
-        return super(FloatHolder, self).__float__()
+        return self.value * self.rate
 
     def __repr__(self):
         return float(self).__repr__()

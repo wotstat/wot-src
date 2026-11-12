@@ -56,7 +56,7 @@
 			<duration>15
 				<exports>vse tooltip</exports>
 			</duration>
-			<crewBuff>15 20 25
+			<crewBuff>12 17 22
 				<exports>vse tooltip</exports>
 			</crewBuff>
 		</script>
@@ -88,7 +88,7 @@
 			<heal>7 11 15
 				<exports>vse</exports>
 			</heal>
-			<gunReloadTimeBuff>5
+			<gunReloadTimeBuff>5.5
 				<exports>vse tooltip</exports>
 			</gunReloadTimeBuff>
 			<tickInterval>1.0
@@ -281,7 +281,7 @@
 			<cooldownSeconds>20
 				<exports>vse tooltip</exports>
 			</cooldownSeconds>
-			<duration>12 18 23
+			<duration>10 15 20
 				<exports>vse tooltip</exports>
 			</duration>
 			<enginePowerFactor>1.3
@@ -293,7 +293,7 @@
 			<repairBuff>50
 				<exports>vse tooltip</exports>
 			</repairBuff>
-			<gunReloadBoost>7.0
+			<gunReloadBoost>5.0
 				<exports>vse tooltip</exports>
 			</gunReloadBoost>
 		</script>
@@ -418,7 +418,7 @@
 					<plan>comp7Abilities/recon_point_server</plan>
 				</server>
 			</visualScript>
-			<cooldownSeconds>10
+			<cooldownSeconds>20
 				<exports>vse tooltip</exports>
 			</cooldownSeconds>
 			<duration>5 10 15

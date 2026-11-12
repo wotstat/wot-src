@@ -33,7 +33,6 @@ from messenger.proto.events import g_messengerEvents
 from skeletons.account_helpers.settings_core import ISettingsCore
 from skeletons.gui.battle_session import IBattleSessionProvider
 from constants import ARENA_PERIOD
-from th_async import th_async, th_await, delay
 if typing.TYPE_CHECKING:
     from Vehicle import Vehicle
     from gui.Scaleform.daapi.view.battle.shared.markers2d.markers import VehicleMarker
@@ -159,32 +158,7 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
         self.invalidateVehiclesInfo(self.sessionProvider.getArenaDP())
         return
 
-    @th_async
-    def __invalidateVehiclesInfoPortal(self, arenaDP):
-        getProps = arenaDP.getPlayerGuiProps
-        getParts = self.sessionProvider.getCtx().getPlayerFullNameParts
-        feedback = self.sessionProvider.shared.feedback
-        vInfoList = [vInfo for vInfo in arenaDP.getVehiclesInfoIterator()]
-        for vInfo in vInfoList:
-            vehicleID = vInfo.vehicleID
-            if vehicleID == self._playerVehicleID or vInfo.isObserver():
-                continue
-            if not vInfo.isAlive() and vInfo.isBot:
-                continue
-            if vehicleID not in self._markers:
-                marker = self.__addMarkerToPool(vehicleID, vInfo=vInfo, vProxy=feedback.getVehicleProxy(vehicleID))
-                if marker is None:
-                    continue
-            else:
-                marker = self._markers[vehicleID]
-            self.__setVehicleInfo(marker, vInfo, getProps(vehicleID, vInfo.team), getParts(vehicleID))
-            self._setMarkerInitialState(marker, vInfo=vInfo)
-            self._processDelayedMarkers(vehicleID)
-            yield th_await(delay(0))
-
-        return
-
-    def __invalidateVehiclesInfoDefault(self, arenaDP):
+    def invalidateVehiclesInfo(self, arenaDP):
         getProps = arenaDP.getPlayerGuiProps
         getParts = self.sessionProvider.getCtx().getPlayerFullNameParts
         feedback = self.sessionProvider.shared.feedback
@@ -202,15 +176,6 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
             self._setMarkerInitialState(marker, vInfo=vInfo)
             self._processDelayedMarkers(vehicleID)
 
-        return
-
-    def invalidateVehiclesInfo(self, arenaDP):
-        from gui.battle_control.avatar_getter import getArena
-        arena = getArena()
-        if arena and arena.bonusType == getattr(constants.ARENA_BONUS_TYPE, b'PORTAL', -1):
-            self.__invalidateVehiclesInfoPortal(self.sessionProvider.getArenaDP())
-        else:
-            self.__invalidateVehiclesInfoDefault(self.sessionProvider.getArenaDP())
         return
 
     def addVehicleInfo(self, vInfo, arenaDP):
@@ -306,7 +271,9 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
         if vehicleID in self._markers:
             self._vehicleID = None
             marker = self._markers.pop(vehicleID)
-            self._destroyMarker(marker.getMarkerID())
+            markerID = marker.getMarkerID()
+            self.__removeMarkerCallback(markerID)
+            self._destroyMarker(markerID)
             marker.destroy()
         return
 
@@ -783,15 +750,15 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
         self._invokeMarker(handle, b'hideDetectedByPyrometer')
         return
 
-    def __handleCallback(self, markerID, targetID):
+    def __handleCallback(self, markerID, vehicleID):
         self.__removeMarkerCallback(markerID)
-        marker = self._markers[targetID]
+        marker = self._markers[vehicleID]
         if marker.getReplyCount() > 0:
             self._setMarkerReplied(marker, True)
-            self.__showActionMarker(markerID, marker.getActionState(), targetID, marker.getReplyCount(), marker.getIsRepliedByPlayer(), True)
+            self.__showActionMarker(markerID, marker.getActionState(), vehicleID, marker.getReplyCount(), marker.getIsRepliedByPlayer(), True)
             self._checkNextState(marker, True)
         else:
-            self.__stopActionMarker(markerID, targetID)
+            self.__stopActionMarker(markerID, vehicleID)
         if marker.getIsSticky():
             self._setMarkerSticky(markerID, True)
         return

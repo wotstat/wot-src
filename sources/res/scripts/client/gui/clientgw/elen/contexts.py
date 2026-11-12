@@ -93,12 +93,13 @@ class EventBoardsGetMyEventTopCtx(EventBoardsRequestCtx):
 
 
 class EventBoardsGetMyLeaderboardPositionCtx(EventBoardsRequestCtx):
-    __slots__ = (b'__eventID', b'__leaderboardID')
+    __slots__ = (b'__eventID', b'__leaderboardID', b'__spaID')
 
-    def __init__(self, eventID, leaderboardID, needShowErrorNotification=True):
+    def __init__(self, eventID, leaderboardID, spaID, needShowErrorNotification=True):
         super(EventBoardsGetMyLeaderboardPositionCtx, self).__init__()
         self.__eventID = eventID
         self.__leaderboardID = leaderboardID
+        self.__spaID = spaID
         self._needShowErrorNotification = needShowErrorNotification
         return
 
@@ -114,6 +115,9 @@ class EventBoardsGetMyLeaderboardPositionCtx(EventBoardsRequestCtx):
 
     def getLeaderboardID(self):
         return self.__leaderboardID
+
+    def getSpaID(self):
+        return self.__spaID
 
 
 class EventBoardsGetLeaderboardCtx(EventBoardsRequestCtx):

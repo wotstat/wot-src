@@ -784,6 +784,10 @@ class SETTINGS(object):
     GAME_ENABLEBATTLECONTEXTHINTS_LABEL = b'#settings:game/enableBattleContextHints/label'
     GAME_ENABLEBATTLECONTEXTHINTS_CHECKBOX = b'#settings:game/enableBattleContextHints/checkbox'
     GAME_RESETBATTLECONTEXTHINTS_BUTTON = b'#settings:game/resetBattleContextHints/button'
+    GAME_VEHICLEDIFFICULTY_LABEL = b'#settings:game/vehicleDifficulty/label'
+    GAME_SHOWVEHICLEDIFFICULTYINHANGAR_CHECKBOX = b'#settings:game/showVehicleDifficultyInHangar/checkbox'
+    GAME_SHOWVEHICLEDIFFICULTYINTECHTREE_CHECKBOX = b'#settings:game/showVehicleDifficultyInTechTree/checkbox'
+    GAME_SHOWVEHICLEDIFFICULTYINRESEARCH_CHECKBOX = b'#settings:game/showVehicleDifficultyInResearch/checkbox'
     SOUNDS_ACOUSTICTYPE_ENUM = (
      SOUNDS_ACOUSTICTYPE_ACOUSTICS20,
      SOUNDS_ACOUSTICTYPE_ACOUSTICS51,

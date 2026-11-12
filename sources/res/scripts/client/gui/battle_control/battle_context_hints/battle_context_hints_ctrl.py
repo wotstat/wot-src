@@ -134,6 +134,7 @@ class BattleContextHintsController(ViewComponentsController):
         self.__currentHintLifecycleMgr = None
         self.__currentApplyingTrigger = None
         self.__countersFromReplay = {}
+        self.__areTankAcademyContextHintsUnlocked = False
         self.__isStarted = False
         self.__finishHintCheckDelayer = CallbackDelayer()
         return
@@ -153,6 +154,16 @@ class BattleContextHintsController(ViewComponentsController):
     def areHintsEnabled(self):
         return self.__settingsCore.getSetting(GAME.ENABLE_BATTLE_CONTEXT_HINTS)
 
+    def areTankAcademyContextHintsUnlocked(self):
+        return self.__areTankAcademyContextHintsUnlocked
+
+    def setTankAcademyContextHintsUnlocked(self, isUnlocked):
+        self.__areTankAcademyContextHintsUnlocked = isUnlocked
+        if BattleReplay.g_replayCtrl.isRecording:
+            BattleReplay.g_replayCtrl.serializeCallbackData(BattleReplay.CallbackDataNames.TANK_ACADEMY_CONTEXT_HINTS_STATE_CALLBACK, (
+             isUnlocked,))
+        return
+
     def startControl(self):
         if self.__isStarted:
             return
@@ -160,6 +171,7 @@ class BattleContextHintsController(ViewComponentsController):
             return
         if BattleReplay.g_replayCtrl.isPlaying:
             BattleReplay.g_replayCtrl.setDataCallback(BattleReplay.CallbackDataNames.BATTLE_CONTEXT_HINTS_COUNTERS_CALLBACK, self.__saveCountersFromReplay)
+            BattleReplay.g_replayCtrl.setDataCallback(BattleReplay.CallbackDataNames.TANK_ACADEMY_CONTEXT_HINTS_STATE_CALLBACK, self.setTankAcademyContextHintsUnlocked)
         g_eventBus.addListener(events.GameEvent.BATTLE_LOADING, self.__handleBattleLoading, EVENT_BUS_SCOPE.BATTLE)
         return
 
@@ -173,7 +185,9 @@ class BattleContextHintsController(ViewComponentsController):
         self.__settingsCache.onSyncCompleted -= self.__onSettingsReady
         if BattleReplay.g_replayCtrl.isPlaying:
             BattleReplay.g_replayCtrl.delDataCallback(BattleReplay.CallbackDataNames.BATTLE_CONTEXT_HINTS_COUNTERS_CALLBACK, self.__saveCountersFromReplay)
+            BattleReplay.g_replayCtrl.delDataCallback(BattleReplay.CallbackDataNames.TANK_ACADEMY_CONTEXT_HINTS_STATE_CALLBACK, self.setTankAcademyContextHintsUnlocked)
         self.__hintsData = {}
+        self.__areTankAcademyContextHintsUnlocked = False
         self.__activationTriggers = {}
         self.__finishHint(self.__currentHintId)
         return

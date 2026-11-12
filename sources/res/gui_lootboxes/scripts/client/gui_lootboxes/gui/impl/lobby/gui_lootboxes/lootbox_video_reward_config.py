@@ -34,4 +34,29 @@ REWARD_VIDEO_CONFIG = {b'common': {b'vehicles': {b'hasFooter': True,
                                     b'videos': [
                                               {b'videoResName': None, 
                                                  b'duration': 13, 
-                                                 b'showFooterTiming': 1}]}}}
+                                                 b'showFooterTiming': 1}]}}, 
+   b'ny_2027_big': {b'vehicles': {b'hasFooter': True, 
+                                  b'videos': [
+                                            {b'videoResName': b'intro', 
+                                               b'duration': 21},
+                                            {b'videoResName': None, 
+                                               b'duration': 16, 
+                                               b'showFooterTiming': 2, 
+                                               b'overridesDuration': {b'A175_OTAC_MT_58_02': 23}}]}, 
+                    b'lootBoxToken': {b'hasFooter': True, 
+                                      b'videos': [
+                                                {b'videoResName': b'intro', 
+                                                   b'duration': 21},
+                                                {b'videoResName': b'ny_2027_tanks', 
+                                                   b'duration': 15, 
+                                                   b'showFooterTiming': 2}]}, 
+                    b'customizations': {b'hasFooter': True, 
+                                        b'videos': [
+                                                  {b'videoResName': None, 
+                                                     b'duration': 26, 
+                                                     b'showFooterTiming': 2}]}}, 
+   b'ny_2027_tanks': {b'vehicles': {b'hasFooter': True, 
+                                    b'videos': [
+                                              {b'videoResName': None, 
+                                                 b'duration': 7, 
+                                                 b'showFooterTiming': 2}]}}}

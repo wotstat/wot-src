@@ -2577,6 +2577,11 @@
   left: 128rem;
   animation: TreeNode_earlyAccessGlow_a8 600ms;
 }
+.TreeNode_difficultyInfo_bd {
+  position: absolute;
+  top: -8rem;
+  left: 2rem;
+}
 @keyframes TreeNode_earlyAccessGlow_a8 {
   0% {
     left: -128rem;
@@ -2614,6 +2619,25 @@
     filter: brightness(1);
     opacity: 0;
   }
+}
+
+.DifficultyInfo_base_27 {
+  display: flex;
+}
+
+.DifficultyInfo_base_level_09 {
+  width: 8rem;
+  height: 8rem;
+}
+
+.DifficultyInfo_base_level__default_47 {
+  background: url("R.images.gui.maps.icons.vehicle.difficulty.c_8x8.default") no-repeat center /
+    cover;
+}
+
+.DifficultyInfo_base_level__filled_d8 {
+  background: url("R.images.gui.maps.icons.vehicle.difficulty.c_8x8.filled") no-repeat center /
+    cover;
 }
 
 /* tree node indexes */

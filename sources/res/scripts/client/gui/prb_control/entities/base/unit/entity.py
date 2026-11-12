@@ -1321,7 +1321,7 @@ class UnitEntity(_UnitEntity):
         unitMgrID, unit = self.getUnit(safe=False)
         pInfo = self._buildPlayerInfo(unitMgrID, unit, playerID, unit.getPlayerSlotIdx(playerID), playerData)
         self._invokeListeners(b'onUnitPlayerInfoChanged', pInfo)
-        self._actionsHandler.setPlayerInfoChanged(pInfo)
+        self._actionsHandler.setPlayerInfoChanged()
         return
 
     def unit_onUnitPlayerProfileVehicleChanged(self, accountDBID):

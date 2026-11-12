@@ -1,6 +1,6 @@
-import re, types
+import logging, re, types
 from collections import namedtuple
-import logging, ArenaType
+import typing, ArenaType
 from constants import ARENA_BONUS_TYPE, GAMEPLAY_NAMES_WITH_DISABLED_QUESTS
 from gui import makeHtmlString
 from gui.Scaleform.locale.QUESTS import QUESTS
@@ -13,6 +13,8 @@ from gui.shared.money import Currency
 from gui.shared.system_factory import collectModeNameKwargsByBonusType, collectPrebattleConditionIcon
 from helpers import i18n
 from shared_utils import CONST_CONTAINER
+if typing.TYPE_CHECKING:
+    from gui.server_events.cond_formatters import FormattableField
 COMPLEX_TOKEN = b'complex_token'
 COMPLEX_TOKEN_TEMPLATE = b'img:(?P<styleID>.+):(?P<webID>.+)'
 TokenComplex = namedtuple(b'TokenComplex', b'isDisplayable styleID webID')
@@ -309,6 +311,28 @@ def packLongBonusesBlock(bonusesList, endlineSymbol=b'', complexTooltip=b'', lin
     return UiElement(data)
 
 
+def packSingleLineBonusesBlock(bonusesList, endlineSymbol=b'', complexTooltip=b'', specialTooltip=b''):
+    data = {b'linkage': b'QuestSingleLineTextAwardBlockUI', 
+       b'items': bonusesList, 
+       b'separator': b', ', 
+       b'ellipsis': b'..', 
+       b'endline': endlineSymbol, 
+       b'complexTooltip': complexTooltip, 
+       b'specialTooltip': specialTooltip}
+    return UiElement(data)
+
+
+def packWulfTooltipSingleLineBonusesBlock(bonusesList, endlineSymbol=b'', wulfTooltip=b'', wulfTooltipArg=b''):
+    data = {b'linkage': b'QuestSingleLineTextAwardBlockUI', 
+       b'items': bonusesList, 
+       b'separator': b', ', 
+       b'ellipsis': b'..', 
+       b'endline': endlineSymbol, 
+       b'wulfTooltip': wulfTooltip, 
+       b'wulfTooltipArg': wulfTooltipArg}
+    return UiElement(data)
+
+
 def packNewStyleBonusesBlock(bonusesList, endlineSymbol=b''):
     data = {b'linkage': (QUEST_AWARD_BLOCK_ALIASES.QUEST_BIG_ICON_AWARD_BLOCK), 
        b'items': bonusesList, 
@@ -351,7 +375,7 @@ def packProgressData(rendererLinkage, progressList):
     return ProgressData(rendererLinkage, progressList)
 
 
-PreFormattedCondition = namedtuple(b'PreForamttedCondition', b'titleData, descrData, iconKey, current, total, earned, progressData, conditionData,progressType, sortKey, progressID')
+PreFormattedCondition = namedtuple(b'PreFormattedCondition', b'titleData, descrData, iconKey, current, total, earned, progressData, conditionData,progressType, sortKey, progressID')
 
 def packMissionIconCondition(titleData, progressType, descrData, iconKey, current=None, total=None, earned=None, progressData=None, conditionData=None, sortKey=b'', progressID=None):
     return PreFormattedCondition(titleData, descrData, iconKey, current, total, earned, progressData, conditionData, progressType, sortKey, progressID)

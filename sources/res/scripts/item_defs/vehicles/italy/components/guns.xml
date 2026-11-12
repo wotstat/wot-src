@@ -1801,6 +1801,65 @@
 				</_105mm_HVHE_105_51>
 			</shots>
 		</_105mm_OTO_M_105_51>
+		<_120mm_Cannone_Da_120_50_It39>
+			<id>31007</id>
+			<userString>#italy_vehicles:_120mm_Cannone_Da_120_50_It39</userString>
+			<tags></tags>
+			<level>9</level>
+			<price>140000</price>
+			<notInShop>true</notInShop>
+			<impulse>0.48</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.35</amplitude>
+				<recoilEffect>main</recoilEffect>
+			</recoil>
+			<effects>shot_large</effects>
+			<reloadEffect>reload115_152</reloadEffect>
+			<pitchLimits>
+				<minPitch>0.0 -20.0 1.0 -20.0</minPitch>
+				<maxPitch>0.0 10.0 1.0 10.0</maxPitch>
+			</pitchLimits>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<rotationSpeed>20</rotationSpeed>
+			<reloadTime>7.5</reloadTime>
+			<maxAmmo>60</maxAmmo>
+			<aimingTime>2</aimingTime>
+			<weight>5552</weight>
+			<maxHealth>208</maxHealth>
+			<maxRegenHealth>104</maxRegenHealth>
+			<repairCost>8</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.05</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_120mm_PP_Mod36_It39>
+					<defaultPortion>0.9</defaultPortion>
+					<speed>920</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>265 244</piercingPower>
+				</_120mm_PP_Mod36_It39>
+				<_120mm_GEP_Mod39_It39>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>950</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>320 320</piercingPower>
+				</_120mm_GEP_Mod39_It39>
+				<_120mm_GEF_Mod26_It39>
+					<defaultPortion>0.1</defaultPortion>
+					<speed>950</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>120 120</piercingPower>
+				</_120mm_GEF_Mod26_It39>
+			</shots>
+		</_120mm_Cannone_Da_120_50_It39>
 		<_120mm_Cannone_Da_120_55>
 			<id>38</id>
 			<userString>#italy_vehicles:_120mm_Cannone_Da_120_55</userString>
@@ -2483,21 +2542,21 @@
 			<shots>
 				<_149mm_GP35_It37>
 					<defaultPortion>0.8</defaultPortion>
-					<speed>800</speed>
+					<speed>900</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
 					<piercingPower>229 208</piercingPower>
 				</_149mm_GP35_It37>
 				<_149mm_GEP39A_It37>
 					<defaultPortion>0.0</defaultPortion>
-					<speed>700</speed>
+					<speed>900</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
 					<piercingPower>294 294</piercingPower>
 				</_149mm_GEP39A_It37>
 				<_149mm_GEF32_It37>
 					<defaultPortion>0.2</defaultPortion>
-					<speed>650</speed>
+					<speed>900</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
 					<piercingPower>149 149</piercingPower>

@@ -19,6 +19,8 @@ def QueryConfig(arg0: Any) -> Any: ...
 @overload
 def Reaction(arg0: Any) -> Any: ...
 @overload
+def Reaction(arg0: Any) -> int: ...
+@overload
 def Reaction(arg0: Any, arg1: Any) -> None: ...
 
 def World(arg0: Any) -> None: ...
@@ -56,16 +58,4 @@ def removeGameObject(arg0: Any) -> None: ...
 CGF_COMPONENT_MARKER: Any
 CGF_REPLICABLE_COMPONENT_MARKER: Any
 ComponentManager: Any
-
-class DomainOption:
-    DomainAll: ClassVar[DomainOption]  # native value: 35
-    DomainClient: ClassVar[DomainOption]  # native value: 1
-    DomainEditor: ClassVar[DomainOption]  # native value: 2
-    DomainServer: ClassVar[DomainOption]  # native value: 32
-    LockDomain: ClassVar[DomainOption]  # native value: 8
-
-DomainAll: Final[DomainOption] = DomainOption.DomainAll
-DomainClient: Final[DomainOption] = DomainOption.DomainClient
-DomainEditor: Final[DomainOption] = DomainOption.DomainEditor
-DomainServer: Final[DomainOption] = DomainOption.DomainServer
-LockDomain: Final[DomainOption] = DomainOption.LockDomain
+DomainOption: Any

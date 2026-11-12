@@ -33,22 +33,22 @@
             addPreloadTexture: () => b,
             children: () => F,
             displayStatus: () => _,
-            displayStatusIs: () => V,
+            displayStatusIs: () => z,
             events: () => d,
             extraSize: () => H,
             forceTriggerMouseMove: () => Y,
             freezeTextureBeforeResize: () => k,
             getBrowserTexturePath: () => P,
-            getDisplayStatus: () => z,
+            getDisplayStatus: () => V,
             getScale: () => M,
-            getSize: () => R,
+            getSize: () => S,
             getViewGlobalPosition: () => x,
             isClientAccessible: () => G,
             isEventHandled: () => q,
             isFocused: () => I,
             pxToRem: () => N,
             remToPx: () => L,
-            resize: () => S,
+            resize: () => R,
             sendEvent: () => T,
             setAnimateWindow: () => U,
             setEventHandled: () => W,
@@ -157,8 +157,8 @@
           m = ["args"];
         const p = 2,
           w = 16,
-          v = 32,
-          g = 64,
+          g = 32,
+          v = 64,
           h = (u, e) => {
             const t = "GFViewEventProxy";
             if (void 0 !== e) {
@@ -197,10 +197,10 @@
           },
           T = {
             close(u) {
-              h("popover" === u ? p : v);
+              h("popover" === u ? p : g);
             },
             minimize() {
-              h(g);
+              h(v);
             },
             move(u) {
               h(w, { isMouseEvent: !0, on: u });
@@ -221,10 +221,10 @@
         function O(u) {
           viewEnv.setHitAreaPaddingsRem(u.top, u.right, u.bottom, u.left, 15);
         }
-        function R(u = "px") {
+        function S(u = "px") {
           return "rem" === u ? viewEnv.getViewSizeRem() : viewEnv.getViewSizePx();
         }
-        function S(u, e, t = "px") {
+        function R(u, e, t = "px") {
           return "rem" === t ? viewEnv.resizeViewRem(u, e) : viewEnv.resizeViewPx(u, e);
         }
         function x(u = "rem") {
@@ -261,10 +261,10 @@
         function Y() {
           viewEnv.forceTriggerMouseMove();
         }
-        function z() {
+        function V() {
           return viewEnv.getShowingStatus();
         }
-        const V = Object.keys(_).reduce(
+        const z = Object.keys(_).reduce(
             (u, e) => ((u[e] = () => viewEnv.getShowingStatus() === _[e]), u),
             {},
           ),
@@ -635,11 +635,11 @@
           w = (u, e) => {
             u.keyCode === B.n.ESCAPE && e();
           };
-        var v = t(572);
-        const g = A.instance,
+        var g = t(572);
+        const v = A.instance,
           h = {
             DataTracker: F.Z,
-            ViewModel: v.Z,
+            ViewModel: g.Z,
             ViewEventType: D,
             NumberFormatType: o,
             RealFormatType: i,
@@ -722,13 +722,13 @@
                 }
               return t;
             },
-            ClickOutsideManager: g,
+            ClickOutsideManager: v,
             SystemLocale: n,
             UserLocale: r,
           };
         window.ViewEnvHelper = h;
       },
-      499: (u, e, t) => {
+      124: (u, e, t) => {
         var E = t(179),
           A = t.n(E),
           F = t(493),
@@ -832,13 +832,13 @@
             const e = (0, E.useRef)(!1);
             e.current || (u(), (e.current = !0));
           },
-          v = (u) => u && "ArrayItem" === u.__proto__.constructor.name,
-          g = (u, e) => (u.length > 0 ? `${u}.${e}` : e),
+          g = (u) => u && "ArrayItem" === u.__proto__.constructor.name,
+          v = (u, e) => (u.length > 0 ? `${u}.${e}` : e),
           h = (u) =>
             ((u, e) =>
               u.split(".").reduce((u, t) => {
                 const E = p(`${u}.${t}`, window);
-                return v(E) ? e(u, t, E) : `${u}.${t}`;
+                return g(E) ? e(u, t, E) : `${u}.${t}`;
               }))(u, (u, e) => `${u}.${e}.value`),
           T = (u) => {
             const e = ((u) => {
@@ -846,7 +846,7 @@
                   t = e.caller,
                   E = e.resId,
                   A = window.__feature && window.__feature !== t && t ? `subViews.${t}` : "";
-                return { modelPrefix: A, modelPath: g(A, u || ""), resId: E };
+                return { modelPrefix: A, modelPath: v(A, u || ""), resId: E };
               })(),
               t = e.modelPrefix,
               E = u.split(".");
@@ -854,8 +854,8 @@
               const u = [E[0]];
               return (
                 E.reduce((e, E) => {
-                  const A = p(g(t, `${e}.${E}`), window);
-                  return v(A) ? (u.push(A.id), `${e}.${E}.value`) : (u.push(E), `${e}.${E}`);
+                  const A = p(v(t, `${e}.${E}`), window);
+                  return g(A) ? (u.push(A.id), `${e}.${E}.value`) : (u.push(E), `${e}.${E}`);
                 }),
                 u.reduce((u, e) => u + "." + e)
               );
@@ -881,7 +881,7 @@
               ((u) => {
                 const e = p(u, window);
                 for (const u in e) "function" == typeof e[u] && (e[u] = e[u].bind(e));
-                return v(e) ? e.value : e;
+                return g(e) ? e.value : e;
               })(h(D)),
             ),
             i = o[0],
@@ -1095,7 +1095,7 @@
             }
             return A().createElement(U, { text: D, classMix: t, binding: n });
           });
-        let z, V, H, $, K, j, X, Q, Z;
+        let V, z, H, $, K, j, X, Q, Z;
         (!(function (u) {
           ((u.Items = "items"),
             (u.Equipment = "equipment"),
@@ -1116,6 +1116,7 @@
             (u.TankmenXpFactor = "tankmenXPFactor"),
             (u.FreeXpFactor = "freeXPFactor"),
             (u.BattleToken = "battleToken"),
+            (u.Entitlements = "entitlements"),
             (u.PremiumUniversal = "premium_universal"),
             (u.Gold = "gold"),
             (u.Credits = "credits"),
@@ -1128,7 +1129,6 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
-            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1161,8 +1161,12 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.RazlomCoin = "razlom_coin"));
-        })(z || (z = {})),
+            (u.NyPetGoodies = "nyPetGoodies"),
+            (u.HiddenVehicle = "hidden_vehicle"),
+            (u.NyStaticDogTag = "nyStaticDogTag"),
+            (u.NyToys = "nyToys"),
+            (u.NyLootboxFragment = "nyLootboxFragment"));
+        })(V || (V = {})),
           (function (u) {
             ((u.Gold = "gold"),
               (u.Credits = "credits"),
@@ -1201,7 +1205,7 @@
               (u.BattlePassPoints = "battlePassPoints"),
               (u.BattleBadge = "dossier_badge"),
               (u.BattleAchievement = "dossier_achievement"));
-          })(V || (V = {})),
+          })(z || (z = {})),
           (function (u) {
             ((u.Big = "big"),
               (u.Small = "small"),
@@ -1455,6 +1459,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(e.bind(null, 0)), (t.push = e.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [127], () => __webpack_require__(499));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [127], () => __webpack_require__(124));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

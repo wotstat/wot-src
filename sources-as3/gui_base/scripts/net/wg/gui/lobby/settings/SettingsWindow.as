@@ -103,6 +103,8 @@ package net.wg.gui.lobby.settings
       
       private static const INV_LIMITED_UI_SETTING_VISIBLE:String = "InvLimitedUISettingVisible";
       
+      private static const INV_VEHICLE_DIFFICULTY_SETTINGS_VISIBLE:String = "InvVehicleDifficultySettingsVisible";
+      
       public var tabs:ButtonBarEx = null;
       
       public var tabLine:Sprite = null;
@@ -142,6 +144,8 @@ package net.wg.gui.lobby.settings
       private var _counterManager:ICounterManager = App.utils.counterManager;
       
       private var _limitedUISettingVisible:Boolean = false;
+      
+      private var _vehicleDifficultySettingsVisible:Boolean = false;
       
       public function SettingsWindow()
       {
@@ -208,6 +212,10 @@ package net.wg.gui.lobby.settings
          if(isInvalid(INV_LIMITED_UI_SETTING_VISIBLE))
          {
             this.updateLimitedUISettingVisible();
+         }
+         if(isInvalid(INV_VEHICLE_DIFFICULTY_SETTINGS_VISIBLE))
+         {
+            this.updateVehicleDifficultySettingsVisible();
          }
          if(Boolean(geometry) && Boolean(window) && Boolean(isInvalid(WindowViewInvalidationType.POSITION_INVALID)))
          {
@@ -462,6 +470,12 @@ package net.wg.gui.lobby.settings
          invalidate(INV_LIMITED_UI_SETTING_VISIBLE);
       }
       
+      public function as_showVehicleDifficultySettings(param1:Boolean) : void
+      {
+         this._vehicleDifficultySettingsVisible = param1;
+         invalidate(INV_VEHICLE_DIFFICULTY_SETTINGS_VISIBLE);
+      }
+      
       public function as_updateVideoSettings(param1:Object) : void
       {
          var _loc4_:uint = 0;
@@ -578,6 +592,15 @@ package net.wg.gui.lobby.settings
          if(Boolean(_loc1_))
          {
             _loc1_.setLimitedUISettingVisible(this._limitedUISettingVisible);
+         }
+      }
+      
+      private function updateVehicleDifficultySettingsVisible() : void
+      {
+         var _loc1_:GameSettings = this.getGameSettings();
+         if(Boolean(_loc1_))
+         {
+            _loc1_.setVehicleDifficultySettingsVisible(this._vehicleDifficultySettingsVisible);
          }
       }
       
@@ -733,6 +756,7 @@ package net.wg.gui.lobby.settings
          if(param1 == GameSettings.LINKAGE)
          {
             this.updateLimitedUISettingVisible();
+            this.updateVehicleDifficultySettingsVisible();
          }
       }
       

@@ -12,6 +12,8 @@ package net.wg.gui.components.controls
    public class ToggleRenderer extends UIComponentEx implements IListItemRenderer
    {
       
+      private static const ICON_TEXT_OFFSET:int = 1;
+      
       public var btn:SoundButtonEx = null;
       
       protected var _rendererData:SimpleRendererVO = null;
@@ -73,7 +75,13 @@ package net.wg.gui.components.controls
       
       protected function updateButtonIcon() : void
       {
-         BlackButton(this.btn).iconSource = this._rendererData.value;
+         var _loc1_:BlackButton = BlackButton(this.btn);
+         _loc1_.iconSource = this._rendererData.value;
+         if(Boolean(this._rendererData.label))
+         {
+            _loc1_.label = this._rendererData.label;
+            _loc1_.iconOffsetText = ICON_TEXT_OFFSET;
+         }
       }
       
       public function getData() : Object

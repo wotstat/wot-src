@@ -290,7 +290,7 @@ class ConsumablesPanel(IAmmoListener, ConsumablesPanelMeta, BattleGUIKeyHandler,
     def _buildEquipmentSlotTooltipText(self, item):
         descriptor = item.getDescriptor()
         if self.__isAbilityEquipment(item):
-            return self._buildAbilityEquipmentTooltip(descriptor)
+            return self.__buildAbilityEquipmentTooltip(descriptor)
         reloadingTime = item.getTotalTime()
         isSharedCooldownConfig = isinstance(descriptor, SharedCooldownConsumableConfigReader)
         body = descriptor.description
@@ -1105,7 +1105,7 @@ class ConsumablesPanel(IAmmoListener, ConsumablesPanelMeta, BattleGUIKeyHandler,
             ability = vehicles.g_cache.equipments()[abilityId]
             idx = self._ABILITY_EQUIPMENT_IDX
             bwKey, sfKey = self._genKey(idx)
-            self.as_addAbilityEquipmentSlotS(idx=idx, keyCode=bwKey, sfKeyCode=sfKey, quantity=ability.reuseCount, timeRemaining=0, reloadingTime=ability.cooldownSeconds, iconPath=self._getArtefactIcon(ability.icon[0]), tooltipText=self._buildAbilityEquipmentTooltip(ability), animation=ANIMATION_TYPES.NONE)
+            self.as_addAbilityEquipmentSlotS(idx=idx, keyCode=bwKey, sfKeyCode=sfKey, quantity=ability.reuseCount, timeRemaining=0, reloadingTime=ability.cooldownSeconds, iconPath=self._getArtefactIcon(ability.icon[0]), tooltipText=self.__buildAbilityEquipmentTooltip(ability), animation=ANIMATION_TYPES.NONE)
             return
 
     def __isExtendedAnim(self):
@@ -1116,7 +1116,7 @@ class ConsumablesPanel(IAmmoListener, ConsumablesPanelMeta, BattleGUIKeyHandler,
         return b'visualScriptAbilityEquipment' in item.getTags() or b'abilityEquipment' in item.getTags()
 
     @classmethod
-    def _buildAbilityEquipmentTooltip(cls, ability):
+    def __buildAbilityEquipmentTooltip(cls, ability):
         description = ability.description
         usageStr = backport.text(R.strings.artefacts.ability.descr.usage(), reuseCount=ability.reuseCount, duration=ability.duration, cooldown=ability.cooldownSeconds)
         customUsageRes = R.strings.artefacts.custom.dyn(ability.name)

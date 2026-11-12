@@ -124,11 +124,12 @@ class MarathonEventsController(IMarathonEventsController, Notifiable):
 
     def onLobbyStarted(self, ctx):
         super(MarathonEventsController, self).onLobbyStarted(ctx)
-        self._eventsCache.onSyncCompleted += self.__onSyncCompleted
-        self._eventsCache.onProgressUpdated += self.__onSyncCompleted
-        if self.app and self.app.loaderManager:
-            self.app.loaderManager.onViewLoaded += self.__onViewLoaded
-        self.__onSyncCompleted()
+        if self.isAnyActive():
+            self._eventsCache.onSyncCompleted += self.__onSyncCompleted
+            self._eventsCache.onProgressUpdated += self.__onSyncCompleted
+            if self.app and self.app.loaderManager:
+                self.app.loaderManager.onViewLoaded += self.__onViewLoaded
+            self.__onSyncCompleted()
         return
 
     def __tryShowRewardScreen(self):

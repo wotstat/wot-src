@@ -801,7 +801,7 @@
           };
         window.ViewEnvHelper = x;
       },
-      399: (e, u, t) => {
+      235: (e, u, t) => {
         "use strict";
         var a = t(179),
           r = t.n(a);
@@ -4226,10 +4226,10 @@
           Ya = "Countdown_icon_8b",
           Qa = "Countdown_description_8d",
           Za = (e) => e.toString().padStart(2, "0"),
-          Ja = (e, u) => {
+          Ja = (e, u, t = !1) => {
             switch (u) {
               case Ka.Description:
-                return ((e, u = !0) =>
+                return ((e, u = !0, t = !1) =>
                   e.days > 7 && u
                     ? X(R.strings.common.duration.days(), { days: e.days })
                     : e.days >= 1
@@ -4239,8 +4239,12 @@
                       : e.hours >= 1
                         ? 0 === e.minutes
                           ? X(R.strings.common.duration.hours(), { hours: e.hours })
-                          : `${X(R.strings.common.duration.hours(), { hours: e.hours })} ${X(R.strings.common.duration.minutes(), { minutes: e.minutes })}`
-                        : X(R.strings.common.duration.minutes(), { minutes: e.minutes || 1 }))(e);
+                          : `${X(R.strings.common.duration.hours(), { hours: e.hours })} ${X(t ? R.strings.common.duration.shortMinutes() : R.strings.common.duration.minutes(), { minutes: e.minutes })}`
+                        : X(R.strings.common.duration.minutes(), { minutes: e.minutes || 1 }))(
+                  e,
+                  !0,
+                  t,
+                );
               case Ka.Short:
                 return `${Za(e.minutes)}:${Za(e.seconds)}`;
               case Ka.Long:
@@ -4264,16 +4268,17 @@
           tr = (0, a.memo)(
             ({
               duration: e,
-              icon: u = Va.Timer,
-              style: t = Ka.Description,
-              onTimeReached: n,
-              className: s = "",
-              classNames: i = {},
-              labelFormat: l = "",
+              withShortMinutes: u = !1,
+              icon: t = Va.Timer,
+              style: n = Ka.Description,
+              onTimeReached: s,
+              className: i = "",
+              classNames: l = {},
+              labelFormat: c = "",
             }) => {
-              const c = t !== Ka.Description ? 1 : void 0,
-                _ = Fe(e, c),
-                d = (() => {
+              const _ = n !== Ka.Description ? 1 : void 0,
+                d = Fe(e, _),
+                m = (() => {
                   const e = (0, a.useState)(o.O.view.getScale()),
                     u = e[0],
                     t = e[1];
@@ -4292,23 +4297,23 @@
                     u
                   );
                 })();
-              n && n[_] && n[_]();
-              const m = Ja(re(_), t);
+              s && s[d] && s[d]();
+              const E = Ja(re(d), n, u);
               return r().createElement(
                 "div",
-                { className: C()(qa, s) },
-                u !== Va.None &&
+                { className: C()(qa, i) },
+                t !== Va.None &&
                   r().createElement("div", {
-                    className: C()(Ya, i.icon),
-                    style: { backgroundImage: `url('${ur(u, d)}')` },
+                    className: C()(Ya, l.icon),
+                    style: { backgroundImage: `url('${ur(t, m)}')` },
                   }),
-                l
+                c
                   ? r().createElement(
                       "div",
-                      { className: C()(Qa, i.text) },
-                      r().createElement(ke, { text: l, binding: { timerText: m } }),
+                      { className: C()(Qa, l.text) },
+                      r().createElement(ke, { text: c, binding: { timerText: E } }),
                     )
-                  : r().createElement("div", { className: C()(Qa, i.text) }, m),
+                  : r().createElement("div", { className: C()(Qa, l.text) }, E),
               );
             },
           );
@@ -4823,6 +4828,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(u.bind(null, 0)), (t.push = u.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [507], () => __webpack_require__(399));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [507], () => __webpack_require__(235));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

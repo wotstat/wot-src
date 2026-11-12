@@ -35,10 +35,11 @@ def showTankAcademy(settingsCore=None, notificationMgr=None, tankAcademyControll
     return
 
 
-def showTankAcademyVehicleSelection(offerToken=None, forceCreate=False):
+def showTankAcademyVehicleSelection(offerToken=None, initialTab=None, forceCreate=False):
     kwargs = {b'tab': (QUESTS_ALIASES.BATTLE_MATTERS_VIEW_PY_ALIAS), 
        b'openVehicleSelection': True, 
        b'tokenID': offerToken, 
+       b'initialTab': initialTab, 
        b'forceCreate': forceCreate}
     g_eventBus.handleEvent(events.LoadViewEvent(SFViewLoadParams(VIEW_ALIAS.LOBBY_MISSIONS), ctx=kwargs), scope=EVENT_BUS_SCOPE.LOBBY)
     return

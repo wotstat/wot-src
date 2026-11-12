@@ -1178,6 +1178,7 @@
             (u.TankmenXpFactor = "tankmenXPFactor"),
             (u.FreeXpFactor = "freeXPFactor"),
             (u.BattleToken = "battleToken"),
+            (u.Entitlements = "entitlements"),
             (u.PremiumUniversal = "premium_universal"),
             (u.Gold = "gold"),
             (u.Credits = "credits"),
@@ -1190,7 +1191,6 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
-            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1223,7 +1223,11 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.RazlomCoin = "razlom_coin"));
+            (u.NyPetGoodies = "nyPetGoodies"),
+            (u.HiddenVehicle = "hidden_vehicle"),
+            (u.NyStaticDogTag = "nyStaticDogTag"),
+            (u.NyToys = "nyToys"),
+            (u.NyLootboxFragment = "nyLootboxFragment"));
         })(b || (b = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1351,6 +1355,7 @@
           b.TankmenXpFactor,
           b.FreeXpFactor,
           b.BattleToken,
+          b.Entitlements,
           b.PremiumUniversal,
           b.NaturalCover,
           b.BpCoin,
@@ -1365,6 +1370,9 @@
           b.Comp7TokenWeeklyReward,
           b.Comp7TokenCouponReward,
           b.BattleBoosterGift,
+          b.NewYearFillers,
+          b.NewYearInvoice,
+          b.LootBoxToken,
           b.CosmicLootboxCommon,
           b.CosmicLootboxSilver,
           b.SelectableBonus,
@@ -1372,10 +1380,14 @@
           b.PremiumPlusUniversal,
           b.GoldenTicket,
           b.RewardsSlots,
+          b.NyPetGoodies,
+          b.HiddenVehicle,
+          b.NyLootboxFragment,
           b.Gold,
           b.Credits,
           b.Crystal,
           b.FreeXp,
+          b.NewYearToyFragments,
           b.BattlePassPoints,
           b.PremiumPlus,
           b.Premium);
@@ -1581,10 +1593,10 @@
             : u.map((u, t, n) => e(null == u ? void 0 : u.value, t, n));
         }
         var X = t(3403);
-        function z(u) {
+        function j(u) {
           engine.call("PlaySound", u);
         }
-        const j = {
+        const z = {
             base: "TextButton_base_b6",
             base__right: "TextButton_base__right_39",
             icon: "TextButton_icon_17",
@@ -1637,7 +1649,7 @@
               (this._onMouseEnter = (u) => (e) => {
                 (u && u(e),
                   this.setState({ hover: !0 }),
-                  this.props.soundHover && z(this.props.soundHover));
+                  this.props.soundHover && j(this.props.soundHover));
               }),
               (this._onMouseLeave = (u) => (e) => {
                 (u && u(e), this.setState({ hover: !1, click: !1 }));
@@ -1645,7 +1657,7 @@
               (this._onMouseDown = (u) => (e) => {
                 (u && u(e),
                   this.setState({ click: !0 }),
-                  this.props.soundClick && z(this.props.soundClick));
+                  this.props.soundClick && j(this.props.soundClick));
               }),
               (this._onMouseUp = (u) => (e) => {
                 (u && u(e), this.setState({ click: !1 }));
@@ -1677,11 +1689,11 @@
                   for (n = 0; n < i.length; n++) ((t = i[n]), e.indexOf(t) >= 0 || (r[t] = u[t]));
                   return r;
                 })(u, Y)),
-              F = o()(j.base, j[`base__${s}`], j[`base__${i}`], null == a ? void 0 : a.base),
-              d = o()(j.icon, j[`icon__${s}`], j[`icon__${i}`], null == a ? void 0 : a.icon),
-              D = o()(j.glow, null == a ? void 0 : a.glow),
-              m = o()(j.caption, j[`caption__${s}`], null == a ? void 0 : a.caption),
-              C = o()(j.goto, null == a ? void 0 : a.goto);
+              F = o()(z.base, z[`base__${s}`], z[`base__${i}`], null == a ? void 0 : a.base),
+              d = o()(z.icon, z[`icon__${s}`], z[`icon__${i}`], null == a ? void 0 : a.icon),
+              D = o()(z.glow, null == a ? void 0 : a.glow),
+              m = o()(z.caption, z[`caption__${s}`], null == a ? void 0 : a.caption),
+              C = o()(z.goto, null == a ? void 0 : a.goto);
             return r().createElement(
               "div",
               $(
@@ -1697,7 +1709,7 @@
                 },
                 A,
               ),
-              "info" !== s && r().createElement("div", { className: j.shine }),
+              "info" !== s && r().createElement("div", { className: z.shine }),
               r().createElement(
                 "div",
                 { className: d },
@@ -2511,14 +2523,14 @@
           Wu = "Alert_alert_66",
           qu = "Alert_icon_ea",
           Xu = "Alert_alertText_14",
-          zu = ({ alertText: u, className: e }) =>
+          ju = ({ alertText: u, className: e }) =>
             r().createElement(
               "div",
               { className: o()(Wu, e) },
               r().createElement("i", { className: qu }),
               r().createElement("span", { className: Xu }, u),
             ),
-          ju = "PriceBlock_base_7a",
+          zu = "PriceBlock_base_7a",
           Yu = "PriceBlock_priceContainer_d3",
           $u = "PriceBlock_text_2c",
           Ku = "PriceBlock_currency_13",
@@ -2538,7 +2550,7 @@
           }) =>
             r().createElement(
               "div",
-              { className: o()(ju, l) },
+              { className: o()(zu, l) },
               r().createElement(
                 "div",
                 { className: o()(Yu, null == _ ? void 0 : _.priceContainer) },
@@ -2555,7 +2567,7 @@
                     classMix: null == _ ? void 0 : _.additionalText,
                   }),
               ),
-              E && r().createElement(zu, { className: null == _ ? void 0 : _.alert, alertText: c }),
+              E && r().createElement(ju, { className: null == _ ? void 0 : _.alert, alertText: c }),
             ),
           Zu = (u, e) => {
             const t = u.$dyn(e);
@@ -2676,7 +2688,7 @@
             ),
             N = (0, n.useCallback)(
               (u) => {
-                s || (null !== c && z(c), _ && _(u), f(!0));
+                s || (null !== c && j(c), _ && _(u), f(!0));
               },
               [s, c, _],
             ),
@@ -2694,7 +2706,7 @@
             ),
             O = (0, n.useCallback)(
               (u) => {
-                s || (null !== l && z(l), A && A(u), t && w(), b(!0));
+                s || (null !== l && j(l), A && A(u), t && w(), b(!0));
               },
               [s, l, A, w, t],
             ),
@@ -3133,10 +3145,10 @@
                       this.setState({ activeDecrement: !0 }))));
               }),
               (this.playHoverSound = () => {
-                this.props.isDisabled || z("highlight");
+                this.props.isDisabled || j("highlight");
               }),
               (this.playClickSound = () => {
-                this.props.isDisabled || z("play");
+                this.props.isDisabled || j("play");
               }),
               (this.stop = () => {
                 (this.timer && clearTimeout(this.timer), (this.timer = null));

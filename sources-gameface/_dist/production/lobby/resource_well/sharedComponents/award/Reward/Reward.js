@@ -376,13 +376,13 @@
             addPreloadTexture: () => F,
             children: () => r,
             displayStatus: () => i.W,
-            displayStatusIs: () => S,
+            displayStatusIs: () => P,
             events: () => E.U,
-            extraSize: () => b,
+            extraSize: () => T,
             forceTriggerMouseMove: () => p,
             freezeTextureBeforeResize: () => C,
             getBrowserTexturePath: () => a,
-            getDisplayStatus: () => P,
+            getDisplayStatus: () => S,
             getScale: () => d,
             getSize: () => D,
             getViewGlobalPosition: () => B,
@@ -397,7 +397,7 @@
             setEventHandled: () => w,
             setInputPaddingsRem: () => n,
             setSidePaddingsRem: () => s,
-            whenTutorialReady: () => T,
+            whenTutorialReady: () => b,
           }));
         var r = t(3722),
           i = t(6112),
@@ -458,14 +458,14 @@
         function p() {
           viewEnv.forceTriggerMouseMove();
         }
-        function P() {
+        function S() {
           return viewEnv.getShowingStatus();
         }
-        const S = Object.keys(i.W).reduce(
+        const P = Object.keys(i.W).reduce(
             (u, e) => ((u[e] = () => viewEnv.getShowingStatus() === i.W[e]), u),
             {},
           ),
-          b = {
+          T = {
             set: (u, e) => {
               viewEnv.setExtraSizeRem(u, e);
             },
@@ -473,7 +473,7 @@
               viewEnv.getExtraSizeRem(u, e);
             },
           },
-          T = Promise.all([
+          b = Promise.all([
             new Promise((u) => {
               window.isDomBuilt ? u() : E.U.onDomBuilt(u);
             }),
@@ -1067,6 +1067,7 @@
             (u.TankmenXpFactor = "tankmenXPFactor"),
             (u.FreeXpFactor = "freeXPFactor"),
             (u.BattleToken = "battleToken"),
+            (u.Entitlements = "entitlements"),
             (u.PremiumUniversal = "premium_universal"),
             (u.Gold = "gold"),
             (u.Credits = "credits"),
@@ -1079,7 +1080,6 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
-            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1112,7 +1112,11 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.RazlomCoin = "razlom_coin"));
+            (u.NyPetGoodies = "nyPetGoodies"),
+            (u.HiddenVehicle = "hidden_vehicle"),
+            (u.NyStaticDogTag = "nyStaticDogTag"),
+            (u.NyToys = "nyToys"),
+            (u.NyLootboxFragment = "nyLootboxFragment"));
         })(r || (r = {})),
           (function (u) {
             ((u.Gold = "gold"),

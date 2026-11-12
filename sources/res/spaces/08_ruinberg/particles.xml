@@ -41,6 +41,9 @@
 			<path>particles/content_forward/pfx_textures/eff_tex_split_misc_5.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_forward/pfx_textures/ny27_clapperboard.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_splash_3.dds
 				<type>primary</type>
 			</path>
@@ -60,6 +63,9 @@
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_6.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/glow_bloom.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_misc_7.dds
@@ -400,6 +406,15 @@
 			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_force_field.dds
 				<type>forcefields</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/glow_bloom.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/flare_1.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/ny27_clapperboard.dds
+				<type>primary</type>
 			</path>
 		</preloadTextures>
 		<fn_effect_bin>particles/content_deferred/pfx/environment/buildings/hd_bld_uni_006_kitcrashfactory_01.vfx</fn_effect_bin>

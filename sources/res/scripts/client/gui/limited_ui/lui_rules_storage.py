@@ -70,7 +70,6 @@ class LuiRules(enum.Enum):
     ARCADE_CONTENT = b'ArcadeContent'
     FIELD_TRIALS_CONTENT = b'FieldTrialsContent'
     FRONTLINE_CONTENT = b'FrontlineContent'
-    PORTAL_ENTRY_POINT = b'PortalEntryPoint'
 
 
 class _LimitedUIRule(namedtuple(b'_LimitedUIRule', (b'idx', b'expression', b'expressionElements', b'tokens', b'message'))):

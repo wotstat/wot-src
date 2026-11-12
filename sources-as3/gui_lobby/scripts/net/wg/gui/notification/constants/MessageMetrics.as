@@ -23,6 +23,8 @@ package net.wg.gui.notification.constants
       
       public static const BG_LOADER_DEF_HEIGHT:uint = 167;
       
+      public static const ICON_ALERT_PADDING_X:uint = 3;
+      
       public function MessageMetrics()
       {
          super();

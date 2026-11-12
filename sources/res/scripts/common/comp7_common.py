@@ -1,10 +1,11 @@
 import enum
 ROLE_EQUIPMENT_TAG = b'roleEquipment'
-COMP7_CURRENT_SEASON = 1
+COMP7_CURRENT_SEASON = 2
 COMP7_MASKOT_ID = b'6'
 SEASONS_IN_YEAR = 4
 COMP7_SEASON_NUMBERS = tuple(range(1, COMP7_CURRENT_SEASON + 1))
 COMP7_ARCHIVE_NAMES = (b'Griffin',)
+COMP7_EVENT_ID = b'comp7'
 COMP7_QUEST_PREFIX = (b'comp7_{maskot}_{season}').format(maskot=COMP7_MASKOT_ID, season=COMP7_CURRENT_SEASON)
 COMP7_TOKEN_PREFIX = (b'comp7_{maskot}_{season}').format(maskot=COMP7_MASKOT_ID, season=COMP7_CURRENT_SEASON)
 COMP7_QUEST_DELIMITER = b'_'
@@ -15,6 +16,9 @@ COMP7_TOKEN_COUPON_REWARD_NAME = b'comp7TokenCouponReward'
 COMP7_CUSTOMIZATION_PROGRESS_PREFIX = b'comp7_cust_progress_'
 COMP7_QUALIFICATION_QUEST_ID = (b'comp7_{maskot}_{season}_ranks_65').format(maskot=COMP7_MASKOT_ID, season=COMP7_CURRENT_SEASON)
 COMP7_SEASON_POINTS_ENTITLEMENT_TMPL = b'comp7_season_points'
+COMP7_LEADERBOARD_ID = 0
+COMP7_LEADERBOARD_RECALCULATION_TIME = 900
+COMP7_RANK_IDS_IN_LEADERBOARD = (1, 2)
 
 def seasonPointsCodeBySeasonNumber(seasonNumber):
     return (b':').join((COMP7_SEASON_POINTS_ENTITLEMENT_TMPL, COMP7_MASKOT_ID, str(seasonNumber)))

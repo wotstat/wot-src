@@ -26,7 +26,7 @@ from gui.impl.lobby.common.view_wrappers import createBackportTooltipDecorator
 from gui.impl.lobby.early_access.tooltips.early_access_currency_tooltip_view import EarlyAccessCurrencyTooltipView
 from gui.impl.lobby.early_access.tooltips.early_access_state_tooltip import EarlyAccessStateTooltipView
 from gui.shared import event_dispatcher
-from gui.shared import events, g_eventBus, EVENT_BUS_SCOPE
+from gui.shared import g_eventBus, EVENT_BUS_SCOPE
 from gui.shared.events import LobbySimpleEvent
 from helpers import dependency
 from shared_utils import nextTick
@@ -41,6 +41,7 @@ from skeletons.gui.game_control import IMuseumOfGloryController
 from museum_of_glory.gui.impl.gen.view_models.views.lobby.feature.museum_vehicle_characteristics import MuseumVehicleCharacteristics, Characteristic
 from skeletons.gui.shared.utils import IHangarSpace
 from wotdecorators import noexcept
+from gui.Scaleform.daapi.view.lobby.lobby_view_parts_visibility_utils import handleLobbyPartsVisibilityEvent
 if typing.TYPE_CHECKING:
     import Event
     from frameworks.wulf import ViewEvent, View, Window
@@ -140,7 +141,7 @@ class MuseumVehicleView(BaseTransitionView):
         app = self.__appLoader.getApp()
         if app:
             app.setBackgroundAlpha(0.0)
-        g_eventBus.handleEvent(events.LobbyInterfaceEvent(events.LobbyInterfaceEvent.TOGGLE_VISIBILITY, ctx={b'headerIsVisible': False, b'messengerBarVisible': False}), EVENT_BUS_SCOPE.LOBBY)
+        handleLobbyPartsVisibilityEvent(headerIsVisible=False, messengerBarVisible=False, isActive=True, viewId=self.uniqueID)
         super(MuseumVehicleView, self)._initialize()
         return
 
@@ -166,7 +167,7 @@ class MuseumVehicleView(BaseTransitionView):
         self.__stopIntro()
         self.__uiLogger.log()
         self.__unloadSpace()
-        g_eventBus.handleEvent(events.LobbyInterfaceEvent(events.LobbyInterfaceEvent.TOGGLE_VISIBILITY, ctx={b'headerIsVisible': True, b'messengerBarVisible': True}), EVENT_BUS_SCOPE.LOBBY)
+        handleLobbyPartsVisibilityEvent(headerIsVisible=True, messengerBarVisible=True, ignoreTopOffset=False)
         return
 
     def _onLoading(self, *args, **kwargs):

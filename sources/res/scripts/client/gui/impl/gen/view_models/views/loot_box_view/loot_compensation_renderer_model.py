@@ -3,71 +3,71 @@ from gui.impl.gen.view_models.views.loot_box_view.loot_animated_renderer_model i
 class LootCompensationRendererModel(LootAnimatedRendererModel):
     __slots__ = ()
 
-    def __init__(self, properties=25, commands=0):
+    def __init__(self, properties=26, commands=0):
         super(LootCompensationRendererModel, self).__init__(properties=properties, commands=commands)
         return
 
     def getIconFrom(self):
-        return self._getString(16)
-
-    def setIconFrom(self, value):
-        self._setString(16, value)
-        return
-
-    def getLabelBeforeStr(self):
         return self._getString(17)
 
-    def setLabelBeforeStr(self, value):
+    def setIconFrom(self, value):
         self._setString(17, value)
         return
 
-    def getIconBefore(self):
+    def getLabelBeforeStr(self):
         return self._getString(18)
 
-    def setIconBefore(self, value):
+    def setLabelBeforeStr(self, value):
         self._setString(18, value)
         return
 
-    def getIconAfter(self):
+    def getIconBefore(self):
         return self._getString(19)
 
-    def setIconAfter(self, value):
+    def setIconBefore(self, value):
         self._setString(19, value)
         return
 
-    def getLabelBefore(self):
+    def getIconAfter(self):
         return self._getString(20)
 
-    def setLabelBefore(self, value):
+    def setIconAfter(self, value):
         self._setString(20, value)
         return
 
-    def getLabelAfter(self):
+    def getLabelBefore(self):
         return self._getString(21)
 
-    def setLabelAfter(self, value):
+    def setLabelBefore(self, value):
         self._setString(21, value)
         return
 
-    def getBonusName(self):
+    def getLabelAfter(self):
         return self._getString(22)
 
-    def setBonusName(self, value):
+    def setLabelAfter(self, value):
         self._setString(22, value)
         return
 
+    def getBonusName(self):
+        return self._getString(23)
+
+    def setBonusName(self, value):
+        self._setString(23, value)
+        return
+
     def getCountBefore(self):
-        return self._getNumber(23)
+        return self._getNumber(24)
 
     def setCountBefore(self, value):
-        self._setNumber(23, value)
+        self._setNumber(24, value)
         return
 
     def getLabelAlignAfter(self):
-        return self._getString(24)
+        return self._getString(25)
 
     def setLabelAlignAfter(self, value):
-        self._setString(24, value)
+        self._setString(25, value)
         return
 
     def _initialize(self):

@@ -1,0 +1,20 @@
+from new_year.gui.impl.gen.view_models.views.lobby.new_year.components.new_year_tab_model import NewYearTabModel
+
+class NewYearLootBoxTabModel(NewYearTabModel):
+    __slots__ = ()
+
+    def __init__(self, properties=4, commands=0):
+        super(NewYearLootBoxTabModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIsEnabled(self):
+        return self._getBool(3)
+
+    def setIsEnabled(self, value):
+        self._setBool(3, value)
+        return
+
+    def _initialize(self):
+        super(NewYearLootBoxTabModel, self)._initialize()
+        self._addBoolProperty(b'isEnabled', False)
+        return

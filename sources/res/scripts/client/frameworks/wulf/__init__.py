@@ -29,6 +29,10 @@ from .py_object_wrappers import getDateFormat
 from .py_object_wrappers import caseMap
 from .py_object_wrappers import ResourceType
 from .py_object_wrappers import ResourceDescriptor
+from .py_object_wrappers import MouseEventType
+from .py_object_wrappers import MouseButton
+from .py_object_wrappers import ModifiersEvent
+from .py_object_wrappers import MouseEvent
 from .view.array import Array
 from .view.command import Command
 from .view.view import ViewSettings
@@ -38,4 +42,4 @@ from .windows_system.windows_area import WindowsArea
 from .windows_system.window import WindowSettings
 from .windows_system.window import Window
 from .view.view_model import ViewModel
-__all__ = (b'GuiApplication', b'PropertyType', b'PositionAnchor', b'ViewFlags', b'ViewStatus', b'ViewEventType', b'WindowFlags', b'WindowLayer', b'WindowStatus', b'NumberFormatType', b'RealFormatType', b'TimeFormatType', b'DateFormatType', b'CaseType', b'Array', b'Command', b'ViewSettings', b'View', b'ViewEvent', b'WindowsArea', b'WindowSettings', b'Window', b'ViewModel', b'isTranslatedKeyValid', b'isTranslatedTextExisted', b'getTranslatedText', b'getTranslatedPluralText', b'getImagePath', b'getSoundEffectId', b'getLayoutPath', b'getTranslatedTextByResId', b'getTranslatedPluralTextByResId', b'getTranslatedKey', b'getNumberFormat', b'getRealFormat', b'getTimeFormat', b'getDateFormat', b'caseMap', b'ResourceType', b'ResourceDescriptor')
+__all__ = (b'GuiApplication', b'PropertyType', b'PositionAnchor', b'ViewFlags', b'ViewStatus', b'ViewEventType', b'WindowFlags', b'WindowLayer', b'WindowStatus', b'NumberFormatType', b'RealFormatType', b'TimeFormatType', b'DateFormatType', b'CaseType', b'Array', b'Command', b'ViewSettings', b'View', b'ViewEvent', b'WindowsArea', b'WindowSettings', b'Window', b'ViewModel', b'isTranslatedKeyValid', b'isTranslatedTextExisted', b'getTranslatedText', b'getTranslatedPluralText', b'getImagePath', b'getSoundEffectId', b'getLayoutPath', b'getTranslatedTextByResId', b'getTranslatedPluralTextByResId', b'getTranslatedKey', b'getNumberFormat', b'getRealFormat', b'getTimeFormat', b'getDateFormat', b'caseMap', b'ResourceType', b'ResourceDescriptor', b'MouseEventType', b'MouseButton', b'ModifiersEvent', b'MouseEvent')

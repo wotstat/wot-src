@@ -1,6 +1,5 @@
 from enum import IntEnum
 from frameworks.wulf import ViewModel
-from gui.impl.gen.view_models.views.lobby.comp7.meta_view.pages.leaderboard_model import LeaderboardModel
 from gui.impl.gen.view_models.views.lobby.comp7.meta_view.pages.progression_model import ProgressionModel
 from gui.impl.gen.view_models.views.lobby.comp7.meta_view.pages.rank_rewards_model import RankRewardsModel
 from gui.impl.gen.view_models.views.lobby.comp7.meta_view.pages.weekly_quests_model import WeeklyQuestsModel
@@ -18,7 +17,7 @@ class MetaRootViews(IntEnum):
 class RootViewModel(ViewModel):
     __slots__ = (b'onClose', b'onInfoPageOpen')
 
-    def __init__(self, properties=8, commands=2):
+    def __init__(self, properties=7, commands=2):
         super(RootViewModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -63,26 +62,18 @@ class RootViewModel(ViewModel):
         return WeeklyQuestsModel
 
     @property
-    def leaderboardModel(self):
-        return self._getViewModel(5)
-
-    @staticmethod
-    def getLeaderboardModelType():
-        return LeaderboardModel
-
-    @property
     def yearlyStatisticsModel(self):
-        return self._getViewModel(6)
+        return self._getViewModel(5)
 
     @staticmethod
     def getYearlyStatisticsModelType():
         return YearlyStatisticsModel
 
     def getPageViewId(self):
-        return MetaRootViews(self._getNumber(7))
+        return MetaRootViews(self._getNumber(6))
 
     def setPageViewId(self, value):
-        self._setNumber(7, value.value)
+        self._setNumber(6, value.value)
         return
 
     def _initialize(self):
@@ -92,7 +83,6 @@ class RootViewModel(ViewModel):
         self._addViewModelProperty(b'progressionModel', ProgressionModel())
         self._addViewModelProperty(b'rankRewardsModel', RankRewardsModel())
         self._addViewModelProperty(b'weeklyQuestsModel', WeeklyQuestsModel())
-        self._addViewModelProperty(b'leaderboardModel', LeaderboardModel())
         self._addViewModelProperty(b'yearlyStatisticsModel', YearlyStatisticsModel())
         self._addNumberProperty(b'pageViewId')
         self.onClose = self._addCommand(b'onClose')

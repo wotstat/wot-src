@@ -5,19 +5,19 @@ msgid "#PluralForms"
 msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
 
 msgid "alertMessage/afterSeason"
-msgstr "Событие «Огненный сокол» завершено."
+msgstr "Событие «Ледяной сокол» завершено."
 
 msgid "alertMessage/allNotAvailable"
 msgstr "Баі на серверах пачнуцца праз %(primeDelta)s"
 
 msgid "alertMessage/allNotAvailableEnd"
-msgstr "Событие «Огненный сокол» завершено."
+msgstr "Событие «Ледяной сокол» завершено."
 
 msgid "alertMessage/allNotSet"
 msgstr "Рэжым недаступны на ўсіх серверах"
 
 msgid "alertMessage/betweenSeasons"
-msgstr "Событие «Огненный сокол» завершено."
+msgstr "Событие «Ледяной сокол» завершено."
 
 msgid "alertMessage/button/changeServer"
 msgstr "Змяніць сервер"
@@ -41,7 +41,7 @@ msgid "alertMessage/standaloneNotAvailable"
 msgstr "Баі на серверы пачнуцца праз %(primeDelta)s"
 
 msgid "alertMessage/standaloneNotAvailableEnd"
-msgstr "Событие «Огненный сокол» завершено."
+msgstr "Событие «Ледяной сокол» завершено."
 
 msgid "alertMessage/standaloneNotSet"
 msgstr "Рэжым недаступны на серверы %(serverName)s"
@@ -83,7 +83,7 @@ msgid "banner/infoSmall/disabled"
 msgstr "Чакайце прайм-тайму"
 
 msgid "banner/season"
-msgstr "Событие «Огненный сокол»"
+msgstr "Событие «Ледяной сокол»"
 
 msgid "banner/seasonDate/seasonLasts"
 msgstr "Да %(day)s %(month)s"
@@ -227,7 +227,7 @@ msgid "battleResult/qualification/title"
 msgstr "Кваліфікацыя"
 
 msgid "battleResult/subTask/descr/getEliteRating"
-msgstr "Вы здабылі ачкі рэйтынгу. Для абароны рангу «Легенда» заставайцеся ў топ-%(topPercentage)d%% гульцоў табліцы лідараў."
+msgstr "Получены очки рейтинга. Для защиты дивизиона %(division)s ранга «Легенда» оставайтесь в топ-%(topPercentage)d%% игроков таблицы лидеров."
 
 msgid "battleResult/subTask/descr/getMasterRating"
 msgstr "Вы здабылі ачкі рэйтынгу. Каб атрымаць ранг «Легенда», увайдзіце ў топ-%(topPercentage)d%% гульцоў табліцы лідараў."
@@ -236,7 +236,7 @@ msgid "battleResult/subTask/descr/getRating"
 msgstr "Вы атрымалі ачкі рэйтынгу"
 
 msgid "battleResult/subTask/descr/loseEliteRating"
-msgstr "Вы страцілі ачкі рэйтынгу. Для абароны рангу «Легенда» заставайцеся ў топ-%(topPercentage)d%% гульцоў табліцы лідараў."
+msgstr "Потеряны очки рейтинга. Для защиты дивизиона %(division)s ранга «Легенда» оставайтесь в топ-%(topPercentage)d%% игроков таблицы лидеров."
 
 msgid "battleResult/subTask/descr/loseMasterRating"
 msgstr "Вы страцілі ачкі рэйтынгу. Каб атрымаць ранг «Легенда», увайдзіце ў топ-%(topPercentage)d%% гульцоў табліцы лідараў."
@@ -247,8 +247,14 @@ msgstr "Вы страцілі ачкі рэйтынгу"
 msgid "battleResult/subTask/rating"
 msgstr "Ачкоў рэйтынгу: %(rating)d"
 
+msgid "battleResult/subTask/title/champion"
+msgstr "%(rank)s. Дивизион %(division)s"
+
 msgid "battleResult/subTask/title/decrease"
 msgstr "Вас панізілі да %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/elite"
+msgstr "%(rank)s. Дивизион %(division)s"
 
 msgid "battleResult/subTask/title/noRaise"
 msgstr "%(rank)s. %(division)s"
@@ -270,7 +276,7 @@ msgstr "%(start)s — %(end)s"
 
 msgid "calendarDay/timeLeft"
 msgid_plural "plural/calendarDay/timeLeft"
-msgstr[0] "Событие «Огненный сокол» продлится %(days)d день."
+msgstr[0] "Событие «Ледяной сокол» продлится %(days)d день."
 msgstr[1] "Событие «Огненный сокол» продлится %(days)d дня."
 msgstr[2] "Событие «Огненный сокол» продлится %(days)d дней."
 
@@ -293,13 +299,13 @@ msgid "detailsHelp/poi/title"
 msgstr "Ключавыя пазіцыі"
 
 msgid "detailsHelp/ranks"
-msgstr "В начале события проведите 7 квалификационных боёв, чтобы определить свой начальный ранг (от Железа до Золота) и дивизион. Дальнейший прогресс зависит от ваших результатов в боях, а в Легенде — от попадания в число лучших таблицы лидеров события, откуда другие игроки могут вас вытеснить."
+msgstr "В начале события проведите 7 квалификационных боёв, чтобы определить свой начальный ранг (от Железа до Золота) и дивизион. Дальнейший прогресс зависит от ваших результатов в боях. Достигнув ранга «Чемпион» или «Легенда», вы попадёте в таблицу лидеров события."
 
 msgid "detailsHelp/ranks/title"
 msgstr "Система рангов"
 
 msgid "detailsHelp/rework"
-msgstr "Кроме ролевого навыка, перед началом боя вы можете также заменить выбранную машину или её комплектацию. К участию в боях допускаются лёгкие, средние и тяжёлые танки, а также ПТ-САУ X уровня."
+msgstr "Перед началом боя вы можете заменить выбранную машину, её комплектацию и ролевой навык. К участию в боях допускаются лёгкие, средние и тяжёлые танки, а также ПТ-САУ X уровня. САУ (включая штурм-САУ) к участию не допускаются."
 
 msgid "detailsHelp/rework/title"
 msgstr "Перадбаявая падрыхтоўка і тыпы тэхнікі"
@@ -311,10 +317,10 @@ msgid "detailsHelp/roleSkills/title"
 msgstr "Выбор ролевых навыков"
 
 msgid "detailsHelp/rules"
-msgstr "Встречайте новое событие в Натиске! Бои проходят в режиме «Атака/Оборона» с изменённым особым модификатором, влияющим на параметры всей техники, а заработанные купоны могут заметно снизить стоимость эксклюзивных товаров в магазине Натиска."
+msgstr "Встречайте новое событие в Натиске! Бои проходят в режиме «Атака/Оборона» с действующим особым модификатором, влияющим на параметры всей техники, а заработанные купоны могут заметно снизить стоимость эксклюзивных товаров в магазине Натиска."
 
 msgid "detailsHelp/rules/title"
-msgstr "Натиск: Огненный сокол"
+msgstr "Натиск: Ледяной сокол"
 
 msgid "detailsHelp/seasonModifiers"
 msgstr "У баях Націску дзейнічае асаблівы мадыфікатар, які змяняе пэўныя характарыстыкі ўсёй тэхнікі: павышае трываласць, скарачае час падрыхтоўкі рыштунку, а таксама зніжае стандарты агляд і бронепрабівальнасць на дыстанцыі 100 метраў."
@@ -589,9 +595,6 @@ msgstr "Каб удзельнічаць у «Націску», вы мусіце
 msgid "noVehicles/text/vehicleUnavailable"
 msgstr "Каб удзельнічаць у «Націску», трэба мець прынамсі адну машыну %(levels)s узроўню, прыдатную для гульні ў рэжыме.\nНеабходную тэхніку можна ўзяць напракат, выканаўшы адмысловую баявую задачу."
 
-msgid "page/heading/leaderboard"
-msgstr "ТАБЛІЦА ЛІДАРАЎ"
-
 msgid "page/heading/progression"
 msgstr "РАНГАВАЯ СІСТЭМА"
 
@@ -692,7 +695,7 @@ msgid "primeTimeView/status/primeWillBeAvailable"
 msgstr "Баі на серверы %(server)s пачнуцца праз %(time)s"
 
 msgid "primeTimeView/status/seasonDisabled"
-msgstr "Событие «Огненный сокол» на сервере %(server)s завершилось."
+msgstr "Событие «Ледяной сокол» на сервере %(server)s завершилось."
 
 msgid "primeTimeView/status/untill"
 msgstr "Баі на серверы %(server)s недаступныя да %(startTime)s"
@@ -842,7 +845,7 @@ msgid "rewards/subtitle/customizations"
 msgstr "{whiteSpanish_Open}Для %(vehicleLevel)s узроўню тэхнікі{whiteSpanish_Close}"
 
 msgid "rewards/subtitle/styleProgress"
-msgstr "{whiteSpanish_Open}Для стиля «Огненный сокол»{whiteSpanish_Close}"
+msgstr "{whiteSpanish_Open}Для стиля «Ледяной сокол»{whiteSpanish_Close}"
 
 msgid "rewards/subtitle/vehicles_rent"
 msgstr "%(vehicleLevel)s узровень"
@@ -860,7 +863,7 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "НАЦІСК. КВАЛІФІКАЦЫЯ ЗАВЕРШАНА"
 
 msgid "rewardsScreen/description/season"
-msgstr "НАТИСК. СОБЫТИЕ «ОГНЕННЫЙ СОКОЛ»."
+msgstr "НАТИСК. СОБЫТИЕ «ЛЕДЯНОЙ СОКОЛ»."
 
 msgid "rewardsScreen/notice/subTitle"
 msgstr "На гэтым рангу вы можаце страціць частку ачкоў рэйтынгу, калі перастанеце змагацца ў рэжыме «Націск»."
@@ -920,10 +923,10 @@ msgid "season/minutesLeft"
 msgstr "Да завяршэння: %(minutes)s хв."
 
 msgid "season/name"
-msgstr "Натиск: Огненный сокол"
+msgstr "Натиск: Ледяной сокол"
 
 msgid "season/over"
-msgstr "Событие «Огненный сокол» завершено."
+msgstr "Событие «Ледяной сокол» завершено."
 
 msgid "season/range"
 msgstr "%(startDate)s – %(endDate)s"
@@ -932,7 +935,7 @@ msgid "season/secondsLeft"
 msgstr "Да завяршэння: %(seconds)s с"
 
 msgid "season/shortName"
-msgstr "Огненный сокол"
+msgstr "Ледяной сокол"
 
 msgid "seasonModifier/title"
 msgstr "Мадыфікатар Націску"
@@ -991,6 +994,9 @@ msgstr "Рэжым часова адключаны з тэхнічных пры�
 msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Рэжым будзе даступны %(time)s"
 
+msgid "sidebar/tabs/tooltip/body/infoPage"
+msgstr "Здесь вы узнаете информацию о событии."
+
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Раздзел змяшчае інфармацыю пра найлепшых гульцоў гэтай падзеi ў рэжыме «Націск»."
 
@@ -1008,6 +1014,9 @@ msgstr "Раздзел змяшчае інфармацыю пра гадавыя
 
 msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
 msgstr "Раздзел змяшчае інфармацыю пра вашы дасягненні ў кожным з сезонаў гэтага года Націску."
+
+msgid "sidebar/tabs/tooltip/header/infoPage"
+msgstr "О событии"
 
 msgid "sidebar/tabs/tooltip/header/leaderboard"
 msgstr "Табліца лідараў"
@@ -1178,7 +1187,7 @@ msgid "weeklyQuests/tokenProgress/description/normal"
 msgstr "Зарабляйце манеты Націску для атрымання ўзнагарод"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "Событие «Огненный сокол»"
+msgstr "Событие «Ледяной сокол»"
 
 msgid "whatsNewView/button/ok"
 msgstr "Я ў справе!"
@@ -1223,7 +1232,7 @@ msgid "whatsNewView/slides/description/modifiers"
 msgstr "Павялічана трываласць модуляў тэхнікі, скарочаны час выяўлення машын і час перанабівання іх гармат, а таксама зменшаны радыус мінімальнай бачнасці."
 
 msgid "whatsNewView/slides/description/newSeason"
-msgstr "Встречайте новое событие в Натиске! Бои проходят в режиме «Атака/Оборона» с изменённым особым модификатором, влияющим на параметры всей техники, а заработанные купоны могут заметно снизить стоимость эксклюзивных товаров в магазине Натиска."
+msgstr "Встречайте новое событие в Натиске! Бои проходят в режиме «Атака/Оборона» с действующим особым модификатором, влияющим на параметры всей техники, а заработанные купоны могут заметно снизить стоимость эксклюзивных товаров в магазине Натиска."
 
 msgid "whatsNewView/slides/description/newTypes"
 msgstr "У баях могуць удзельнічаць толькі лёгкія, сярэднія і цяжкія танкі і СТ-САУ Х узроўню. \nСАУ да ўдзелу ў баях не дапускаюцца."
@@ -1232,19 +1241,16 @@ msgid "whatsNewView/slides/description/pointsOfInterest"
 msgstr "Захоп Міннага склада адкрывае навык «Міннае поле». Пры падрыве на мінах тэхніка праціўніка атрымлівае пашкоджанні, а экіпаж — аглушэнне і кантузію. Дымавы цэнтр дае «Дымавую заслону». Гэты навык маскуе хаўруснікаў і зніжае агляд і эфектыўнасць тэхнікі праціўніка."
 
 msgid "whatsNewView/slides/description/ranks"
-msgstr "Ранги «Чемпион» и «Легенда» теперь разделены на три дивизиона (C, B и A). В ранге «Легенда» продвижение игрока зависит от его позиции в таблице лидеров Натиска: другие претенденты могут вытеснить его из любого дивизиона, поднявшись выше в рейтинге."
+msgstr "Таблица лидеров Натиска теперь всегда доступна на сайте игры. Также в этом запуске изменились распределение и параметры ролевых навыков и список доступных карт. Кроме того, в рамках события «Ледяной сокол» вы сможете сражаться на зимних версиях карт «Редшир» и «Прохоровка»."
 
 msgid "whatsNewView/slides/description/ranksIntro"
-msgstr "В начале события проведите 7 квалификационных боёв, чтобы определить свой начальный ранг (от Железа до Золота) и дивизион. Дальнейший прогресс зависит от ваших результатов в боях, а в Легенде — от попадания в число лучших таблицы лидеров события, откуда другие игроки могут вас вытеснить."
-
-msgid "whatsNewView/slides/description/rework"
-msgstr "Обновлён список карт, пересмотрены настройки некоторых ролевых навыков и параметры модификатора."
+msgstr "В начале события проведите 7 квалификационных боёв, чтобы определить свой начальный ранг (от Железа до Золота) и дивизион. Дальнейший прогресс зависит от ваших результатов в боях. Достигнув ранга «Чемпион» или «Легенда», вы попадёте в таблицу лидеров события."
 
 msgid "whatsNewView/slides/description/roleSkills"
 msgstr "Теперь для каждой роли техники доступно несколько навыков на выбор. При этом некоторые машины имеют свой уникальный набор навыков, отличный от такового для их роли. Каждые две недели один из навыков для каждой роли меняется."
 
 msgid "whatsNewView/slides/description/roleSkillsNewbie"
-msgstr "Для каждой роли техники доступно несколько навыков на выбор. При этом некоторые машины имеют свой уникальный набор навыков, отличный от такого набора для их роли. Нажмите Tab в бою, чтобы увидеть ролевые навыки союзников и обнаруженных машин противника."
+msgstr "Для каждой роли техники доступно несколько навыков на выбор. При этом некоторые машины имеют свой уникальный набор навыков, отличный от такого набора для их роли. Нажмите Tab в бою, чтобы увидеть ролевые навыки союзников и обнаруженных машин противника."
 
 msgid "whatsNewView/slides/description/seasonVehicles"
 msgstr "Для ўдзелу ў Націску вы можаце ўзяць напракат тэхніку Х узроўню. Для гэтага неабходна выканаць адпаведную баявую задачу на тэхніцы VIII, IX і X узроўняў."
@@ -1256,7 +1262,7 @@ msgid "whatsNewView/slides/description/shopIntro"
 msgstr "Калі ў вас няма тэхнікі Х узроўню, вы можаце ўзяць яе напракат у адпаведным раздзеле крамы Націску. Акрамя гэтага, вас чакае эксклюзіўная тэхніка, стылі і выгадная сістэма зніжак."
 
 msgid "whatsNewView/slides/description/vehiclesOnMap"
-msgstr "Кроме ролевого навыка, перед началом боя вы можете также заменить выбранную машину или её комплектацию. К участию в боях допускаются лёгкие, средние и тяжёлые танки, а также ПТ-САУ X уровня."
+msgstr "Перед началом боя вы можете заменить выбранную машину, её комплектацию и ролевой навык. К участию в боях допускаются лёгкие, средние и тяжёлые танки, а также ПТ-САУ X уровня. САУ (включая штурм-САУ) к участию не допускаются."
 
 msgid "whatsNewView/slides/title/introQualification"
 msgstr "Кваліфікацыя"
@@ -1271,7 +1277,7 @@ msgid "whatsNewView/slides/title/modifiers"
 msgstr "Змены мадыфікатара"
 
 msgid "whatsNewView/slides/title/newSeason"
-msgstr "Натиск: Огненный сокол"
+msgstr "Натиск: Ледяной сокол"
 
 msgid "whatsNewView/slides/title/newTypes"
 msgstr "Цяпер без САУ"
@@ -1280,13 +1286,10 @@ msgid "whatsNewView/slides/title/pointsOfInterest"
 msgstr "Ключавыя пазіцыі"
 
 msgid "whatsNewView/slides/title/ranks"
-msgstr "Обновлённая система рангов"
+msgstr "Натиск: Ледяной сокол"
 
 msgid "whatsNewView/slides/title/ranksIntro"
 msgstr "Система рангов"
-
-msgid "whatsNewView/slides/title/rework"
-msgstr "Прочие изменения"
 
 msgid "whatsNewView/slides/title/roleSkills"
 msgstr "Выбор ролевых навыков"
@@ -1310,7 +1313,7 @@ msgid "whatsNewView/title"
 msgstr "НАЦІСК"
 
 msgid "whatsNewView/vehicleLimitations/description"
-msgstr "К участию в событии «Огненный сокол» не допускаются машины роли САУ (включая штурм-САУ)."
+msgstr "К участию в событии «Ледяной сокол» не допускаются машины роли САУ (включая штурм-САУ)."
 
 msgid "whatsNewView/vehicleLimitations/heading"
 msgstr "Абмежаванні паводле тэхнікі"

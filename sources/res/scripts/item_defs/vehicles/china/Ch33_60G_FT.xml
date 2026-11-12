@@ -3472,30 +3472,6 @@
 					</hitTester>
 					<effects>shot_main</effects>
 					<reloadEffect>reload85_107</reloadEffect>
-					<drivenJoints>
-						<master>
-							<node>Gun</node>
-							<table>
-								<row>-25</row>
-								<row>-6.819</row>
-								<row>-2.556</row>
-								<row>0</row>
-								<row>10</row>
-							</table>
-							<slaves>
-								<slave>
-									<node>joint1</node>
-									<table>
-										<row>-20.776</row>
-										<row>-6.674</row>
-										<row>-1.815</row>
-										<row>0</row>
-										<row>2.903</row>
-									</table>
-								</slave>
-							</slaves>
-						</master>
-					</drivenJoints>
 					<customizationSlots>
 						<slot>
 							<slotType>paint</slotType>
@@ -3545,6 +3521,80 @@
 							<camouflage>GUN</camouflage>
 						</customizableVehicleAreas>
 					</customization>
+					<drivenJoints>
+						<master>
+							<node>Gun</node>
+							<pitch>
+								<row>-25</row>
+								<row>8</row>
+							</pitch>
+							<yaw>
+								<row>0</row>
+							</yaw>
+							<slaves>
+								<slave>
+									<node>driven_gun</node>
+									<pitch>
+										<row>25</row>
+										<row>-8</row>
+									</pitch>
+									<yaw>
+										<row>0</row>
+									</yaw>
+								</slave>
+							</slaves>
+						</master>
+						<master>
+							<node>turret</node>
+							<pitch>
+								<row>0</row>
+							</pitch>
+							<yaw>
+								<row>-15</row>
+								<row>15</row>
+							</yaw>
+							<slaves>
+								<slave>
+									<node>driven_turret</node>
+									<pitch>
+										<row>0</row>
+									</pitch>
+									<yaw>
+										<row>15</row>
+										<row>-15</row>
+									</yaw>
+								</slave>
+							</slaves>
+						</master>
+						<master>
+							<node>Gun</node>
+							<pitch>
+								<row>-20.776</row>
+								<row>-6.819</row>
+								<row>-2.556</row>
+								<row>0</row>
+								<row>10</row>
+							</pitch>
+							<yaw>
+								<row>0</row>
+							</yaw>
+							<slaves>
+								<slave>
+									<node>Visor</node>
+									<pitch>
+										<row>-20.776</row>
+										<row>-6.674</row>
+										<row>-1.815</row>
+										<row>0</row>
+										<row>2.903</row>
+									</pitch>
+									<yaw>
+										<row>0</row>
+									</yaw>
+								</slave>
+							</slaves>
+						</master>
+					</drivenJoints>
 					<camouflage>
 						<density>130.884 136.81</density>
 						<aoTextureSize>512 256</aoTextureSize>
@@ -3597,30 +3647,6 @@
 					</hitTester>
 					<effects>shot_main</effects>
 					<reloadEffect>reload85_107</reloadEffect>
-					<drivenJoints>
-						<master>
-							<node>Gun</node>
-							<table>
-								<row>-25</row>
-								<row>-6.819</row>
-								<row>-2.556</row>
-								<row>0</row>
-								<row>10</row>
-							</table>
-							<slaves>
-								<slave>
-									<node>joint1</node>
-									<table>
-										<row>-20.776</row>
-										<row>-6.674</row>
-										<row>-1.815</row>
-										<row>0</row>
-										<row>2.903</row>
-									</table>
-								</slave>
-							</slaves>
-						</master>
-					</drivenJoints>
 					<customizationSlots>
 						<slot>
 							<slotType>paint</slotType>
@@ -3670,6 +3696,80 @@
 							<camouflage>GUN</camouflage>
 						</customizableVehicleAreas>
 					</customization>
+					<drivenJoints>
+						<master>
+							<node>Gun</node>
+							<pitch>
+								<row>-25</row>
+								<row>8</row>
+							</pitch>
+							<yaw>
+								<row>0</row>
+							</yaw>
+							<slaves>
+								<slave>
+									<node>driven_gun</node>
+									<pitch>
+										<row>25</row>
+										<row>-8</row>
+									</pitch>
+									<yaw>
+										<row>0</row>
+									</yaw>
+								</slave>
+							</slaves>
+						</master>
+						<master>
+							<node>turret</node>
+							<pitch>
+								<row>0</row>
+							</pitch>
+							<yaw>
+								<row>-15</row>
+								<row>15</row>
+							</yaw>
+							<slaves>
+								<slave>
+									<node>driven_turret</node>
+									<pitch>
+										<row>0</row>
+									</pitch>
+									<yaw>
+										<row>15</row>
+										<row>-15</row>
+									</yaw>
+								</slave>
+							</slaves>
+						</master>
+						<master>
+							<node>Gun</node>
+							<pitch>
+								<row>-20.776</row>
+								<row>-6.819</row>
+								<row>-2.556</row>
+								<row>0</row>
+								<row>10</row>
+							</pitch>
+							<yaw>
+								<row>0</row>
+							</yaw>
+							<slaves>
+								<slave>
+									<node>Visor</node>
+									<pitch>
+										<row>-20.776</row>
+										<row>-6.674</row>
+										<row>-1.815</row>
+										<row>0</row>
+										<row>2.903</row>
+									</pitch>
+									<yaw>
+										<row>0</row>
+									</yaw>
+								</slave>
+							</slaves>
+						</master>
+					</drivenJoints>
 					<camouflage>
 						<density>133.346 135.161</density>
 						<aoTextureSize>512 256</aoTextureSize>

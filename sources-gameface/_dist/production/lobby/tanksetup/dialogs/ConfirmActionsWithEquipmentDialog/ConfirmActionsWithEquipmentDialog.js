@@ -1388,20 +1388,20 @@
           q = "Alert_alert_66",
           X = "Alert_icon_ea",
           z = "Alert_alertText_14",
-          j = ({ alertText: u, className: e }) =>
+          Y = ({ alertText: u, className: e }) =>
             r().createElement(
               "div",
               { className: F()(q, e) },
               r().createElement("i", { className: X }),
               r().createElement("span", { className: z }, u),
             );
-        let Y, $, K;
+        let j, $, K;
         (!(function (u) {
           ((u.small = "small"),
             (u.big = "big"),
             (u.large = "large"),
             (u.extraLarge = "extraLarge"));
-        })(Y || (Y = {})),
+        })(j || (j = {})),
           (function (u) {
             ((u.credits = "credits"),
               (u.gold = "gold"),
@@ -1504,6 +1504,7 @@
             (u.TankmenXpFactor = "tankmenXPFactor"),
             (u.FreeXpFactor = "freeXPFactor"),
             (u.BattleToken = "battleToken"),
+            (u.Entitlements = "entitlements"),
             (u.PremiumUniversal = "premium_universal"),
             (u.Gold = "gold"),
             (u.Credits = "credits"),
@@ -1516,7 +1517,6 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
-            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1549,7 +1549,11 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.RazlomCoin = "razlom_coin"));
+            (u.NyPetGoodies = "nyPetGoodies"),
+            (u.HiddenVehicle = "hidden_vehicle"),
+            (u.NyStaticDogTag = "nyStaticDogTag"),
+            (u.NyToys = "nyToys"),
+            (u.NyLootboxFragment = "nyLootboxFragment"));
         })(eu || (eu = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -2057,7 +2061,7 @@
                     classMix: null == l ? void 0 : l.additionalText,
                   }),
               ),
-              _ && r().createElement(j, { className: null == l ? void 0 : l.alert, alertText: o }),
+              _ && r().createElement(Y, { className: null == l ? void 0 : l.alert, alertText: o }),
             ),
           xu = "Content_base_a7",
           Ru = "Content_currency_4f",
@@ -2078,7 +2082,7 @@
               r().createElement(Tu, {
                 price: e,
                 type: t,
-                size: Y.small,
+                size: j.small,
                 priceBlockText: a,
                 alertText: s,
                 showAlertMessage: !0,
@@ -2319,8 +2323,8 @@
             zu.apply(this, arguments)
           );
         }
-        const ju = R.views.common.tooltip_window.simple_tooltip_content,
-          Yu = (u) => {
+        const Yu = R.views.common.tooltip_window.simple_tooltip_content,
+          ju = (u) => {
             let e = u.children,
               t = u.body,
               i = u.header,
@@ -2347,7 +2351,7 @@
                 {
                   contentId:
                     ((_ = null == o ? void 0 : o.hasHtmlContent),
-                    _ ? ju.SimpleTooltipHtmlContent("resId") : ju.SimpleTooltipContent("resId")),
+                    _ ? Yu.SimpleTooltipHtmlContent("resId") : Yu.SimpleTooltipContent("resId")),
                   decoratorId: R.views.common.tooltip_window.tooltip_window.TooltipWindow("resId"),
                   args: l,
                 },
@@ -2374,7 +2378,7 @@
         const Ku = ({ children: u, tooltipArgs: e, className: t }) => {
           if (!e) return u;
           const n = r().createElement("div", { className: t }, u);
-          if (e.header || e.body) return r().createElement(Yu, e, n);
+          if (e.header || e.body) return r().createElement(ju, e, n);
           const i = e.contentId,
             s = e.args,
             a = null == s ? void 0 : s.contentId;
@@ -2400,6 +2404,7 @@
           eu.TankmenXpFactor,
           eu.FreeXpFactor,
           eu.BattleToken,
+          eu.Entitlements,
           eu.PremiumUniversal,
           eu.NaturalCover,
           eu.BpCoin,
@@ -2414,6 +2419,9 @@
           eu.Comp7TokenWeeklyReward,
           eu.Comp7TokenCouponReward,
           eu.BattleBoosterGift,
+          eu.NewYearFillers,
+          eu.NewYearInvoice,
+          eu.LootBoxToken,
           eu.CosmicLootboxCommon,
           eu.CosmicLootboxSilver,
           eu.SelectableBonus,
@@ -2421,10 +2429,14 @@
           eu.PremiumPlusUniversal,
           eu.GoldenTicket,
           eu.RewardsSlots,
+          eu.NyPetGoodies,
+          eu.HiddenVehicle,
+          eu.NyLootboxFragment,
           eu.Gold,
           eu.Credits,
           eu.Crystal,
           eu.FreeXp,
+          eu.NewYearToyFragments,
           eu.BattlePassPoints,
           eu.PremiumPlus,
           eu.Premium);
@@ -2799,7 +2811,7 @@
                 }),
               ),
               r().createElement(
-                Yu,
+                ju,
                 { isEnabled: s, body: u },
                 r().createElement("div", { ref: t, className: F()(ae, e) }, u),
               )
@@ -2870,7 +2882,7 @@
                 r().createElement(Tu, {
                   price: u,
                   type: o,
-                  size: Y.big,
+                  size: j.big,
                   priceBlockText: c,
                   className: Ae.column,
                   classNames: { currency: Ae.currency },
@@ -3431,7 +3443,7 @@
                   r().createElement(Tu, {
                     price: pe(u, o),
                     type: l,
-                    size: Y.big,
+                    size: j.big,
                     classNames: { currency: Ce.currency, alert: Ce.alert },
                   }),
                 ),
@@ -3529,7 +3541,7 @@
               content:
                 a.DeconstructFromSlots !== o
                   ? r().createElement(Iu, null)
-                  : r().createElement(j, { alertText: l }),
+                  : r().createElement(Y, { alertText: l }),
               buttons: r().createElement(be, null),
               displayFlags: n,
               classMix: xe,

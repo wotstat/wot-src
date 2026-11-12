@@ -9,7 +9,8 @@ from gui.Scaleform.daapi.view.meta.DailyQuestMeta import DailyQuestMeta
 from gui.Scaleform.managers import UtilsManager
 from helpers import dependency
 from helpers.CallbackDelayer import CallbackDelayer
-from skeletons.gui.game_control import IPromoController, ILimitedUIController, ISessionProgressRewardsController
+from new_year.skeletons.new_year import INewYearController
+from skeletons.gui.game_control import IPromoController, ILimitedUIController
 from skeletons.gui.lobby_context import ILobbyContext
 from skeletons.gui.server_events import IEventsCache
 
@@ -18,7 +19,7 @@ class DailyQuestWidget(InjectComponentAdaptor, DailyQuestMeta, IGlobalListener):
     eventsCache = dependency.descriptor(IEventsCache)
     promoController = dependency.descriptor(IPromoController)
     limitedUIController = dependency.descriptor(ILimitedUIController)
-    __sessionProgressRewardsController = dependency.descriptor(ISessionProgressRewardsController)
+    __nyController = dependency.descriptor(INewYearController)
     __layout = 0
 
     def updateWidgetLayout(self, value):
@@ -32,6 +33,8 @@ class DailyQuestWidget(InjectComponentAdaptor, DailyQuestMeta, IGlobalListener):
             self.__animateHide()
         else:
             self.__showOrHide()
+            if self._injectView is not None:
+                self._injectView.onPrbEntitySwitched()
         return
 
     def _populate(self):
@@ -57,7 +60,9 @@ class DailyQuestWidget(InjectComponentAdaptor, DailyQuestMeta, IGlobalListener):
         enabledQueues = (
          QUEUE_TYPE.RANDOMS, QUEUE_TYPE.MAPBOX, QUEUE_TYPE.COMP7, QUEUE_TYPE.RANKED,
          QUEUE_TYPE.STRONGHOLD_UNITS, QUEUE_TYPE.FUN_RANDOM)
-        return any(self.__isQueueSelected(queueType) for queueType in enabledQueues)
+        if any(self.__isQueueSelected(queueType) for queueType in enabledQueues):
+            return True
+        return self.__isQueueSelected(QUEUE_TYPE.VERSUS_AI) and (self.__nyController.isEnabled() or self.__nyController.isSuspended())
 
     def isLimitedUiRuleCompleted(self):
         return self.limitedUIController.isRuleCompleted(LuiRules.DAILY_MISSIONS)
@@ -107,10 +112,7 @@ class DailyQuestWidget(InjectComponentAdaptor, DailyQuestMeta, IGlobalListener):
         return
 
     def __shouldHide(self):
-        return self.promoController.isTeaserOpen() or not self._isQueueEnabled() or not self.isLimitedUiRuleCompleted() or not self.__hasAnyQuestToShow()
-
-    def __hasAnyQuestToShow(self):
-        return isDailyQuestsEnable() or self.__sessionProgressRewardsController.isAvailable
+        return self.promoController.isTeaserOpen() or not self._isQueueEnabled() or not self.isLimitedUiRuleCompleted() or not isDailyQuestsEnable()
 
     def __onServerSettingsChanged(self, diff):
         if DAILY_QUESTS_CONFIG in diff:
@@ -130,13 +132,17 @@ class DailyQuestWidget(InjectComponentAdaptor, DailyQuestMeta, IGlobalListener):
         self.__showOrHide()
         return
 
+    def __onNyStateChanged(self, *_):
+        self.__showOrHide()
+        return
+
     def __addListeners(self):
         self.startGlobalListening()
         self.lobbyContext.getServerSettings().onServerSettingsChange += self.__onServerSettingsChanged
         self.eventsCache.onSyncCompleted += self.__onSyncCompleted
-        self.__sessionProgressRewardsController.onDataUpdated += self.__showOrHide
         self.promoController.onTeaserShown += self.__onTeaserShown
         self.promoController.onTeaserClosed += self.__onTeaserClosed
+        self.__nyController.onStateChanged += self.__onNyStateChanged
         self.limitedUIController.startObserve(LuiRules.DAILY_MISSIONS, self.__updateDailyMissionVisibility)
         return
 
@@ -144,9 +150,9 @@ class DailyQuestWidget(InjectComponentAdaptor, DailyQuestMeta, IGlobalListener):
         self.stopGlobalListening()
         self.lobbyContext.getServerSettings().onServerSettingsChange -= self.__onServerSettingsChanged
         self.eventsCache.onSyncCompleted -= self.__onSyncCompleted
-        self.__sessionProgressRewardsController.onDataUpdated -= self.__showOrHide
         self.promoController.onTeaserShown -= self.__onTeaserShown
         self.promoController.onTeaserClosed -= self.__onTeaserClosed
+        self.__nyController.onStateChanged -= self.__onNyStateChanged
         self.limitedUIController.stopObserve(LuiRules.DAILY_MISSIONS, self.__updateDailyMissionVisibility)
         if self._injectView is not None:
             self._injectView.viewModel.onDisappear -= self.__hide

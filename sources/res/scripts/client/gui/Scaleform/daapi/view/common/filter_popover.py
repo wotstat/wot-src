@@ -18,6 +18,7 @@ from gui.shared.gui_items import GUI_ITEM_TYPE
 from gui.shared.gui_items.Vehicle import VEHICLE_TYPES_ORDER, VEHICLE_ROLES_LABELS, VEHICLE_ROLES_LABELS_BY_CLASS
 from gui.shared.utils.functions import makeTooltip
 from gui.shared.utils.requesters.ItemsRequester import REQ_CRITERIA
+from gui.shared.utils.vehicle_difficulty_helper import isVehicleDifficultyEnabled
 from helpers import dependency
 from helpers.i18n import makeString as _ms
 from shared_utils import CONST_CONTAINER
@@ -30,17 +31,27 @@ if typing.TYPE_CHECKING:
 _logger = logging.getLogger(__name__)
 
 class FILTER_SECTION(CONST_CONTAINER):
-    NATIONS, VEHICLE_TYPES, LEVELS, SPECIALS, HIDDEN, PROGRESSIONS, TEXT_SEARCH, ROLES, ROLES_WITH_EXTRA = range(0, 9)
+    NATIONS, VEHICLE_TYPES, LEVELS, SPECIALS, HIDDEN, PROGRESSIONS, TEXT_SEARCH, ROLES, ROLES_WITH_EXTRA, DIFFICULTIES = range(0, 10)
 
 
 _VEHICLE_LEVEL_FILTERS = [(b'level_{}').format(level) for level in VEHICLE_LEVELS]
+_DIFFICULTY_FILTER_ICON = b'../maps/icons/vehicle/difficulty/12x12/filled.png'
+_DIFFICULTY_FILTERS = (
+ (
+  FILTER_KEYS.DIFFICULTY_EASY, b'1'),
+ (
+  FILTER_KEYS.DIFFICULTY_MEDIUM, b'2'),
+ (
+  FILTER_KEYS.DIFFICULTY_HIGH, b'3'))
 
 class VehiclesFilterPopover(TankCarouselFilterPopoverMeta):
     itemsCache = dependency.descriptor(IItemsCache)
+    lobbyContext = dependency.descriptor(ILobbyContext)
 
     def __init__(self, ctx):
         super(VehiclesFilterPopover, self).__init__()
         self._carousel = None
+        self.__isVehicleDifficultyEnabled = False
         self._isFrontline = False
         self._isRanked = False
         self._isComp7 = False
@@ -55,11 +66,8 @@ class VehiclesFilterPopover(TankCarouselFilterPopoverMeta):
         return
 
     def setTankCarousel(self, carousel):
-        customParams = carousel.getCustomParams()
-        customParams[b'isRanked'] = self._isRanked
-        customParams[b'isComp7'] = self._isComp7
-        self.__mapping = self._generateMapping((carousel.hasRentedVehicles() or not carousel.filter.isDefault((FILTER_KEYS.RENTED,))), (carousel.hasEventVehicles() or not carousel.filter.isDefault((FILTER_KEYS.EVENT,))), carousel.hasRoles(), **customParams)
-        self.__usedFilters = list(itertools.chain.from_iterable(self.__mapping.itervalues()))
+        self.__isVehicleDifficultyEnabled = isVehicleDifficultyEnabled()
+        self.__updateMapping(carousel)
         self._carousel = carousel
         self._carousel.setPopoverCallback(self.__onCarouselSwitched)
         self._update(isInitial=True)
@@ -72,6 +80,8 @@ class VehiclesFilterPopover(TankCarouselFilterPopoverMeta):
                 target = self.__mapping[FILTER_SECTION.ROLES][self.__getSelectedVehType(filters)][itemId]
             else:
                 target = self.__mapping[sectionId][itemId]
+            if target not in self._carousel.filter.getFilters():
+                return
             self._carousel.filter.switch(target, save=False)
             self._update()
         return
@@ -85,6 +95,7 @@ class VehiclesFilterPopover(TankCarouselFilterPopoverMeta):
         mapping = self.__mapping
         vehType = self.__getSelectedVehType(filters)
         return {b'nations': [filters[key] for key in mapping[FILTER_SECTION.NATIONS]], b'vehicleTypes': [filters[key] for key in mapping[FILTER_SECTION.VEHICLE_TYPES]], b'levels': [filters[key] for key in mapping[FILTER_SECTION.LEVELS]], b'specials': [filters[key] for key in mapping[FILTER_SECTION.SPECIALS]], b'hidden': [filters[key] for key in mapping[FILTER_SECTION.HIDDEN]], b'progressions': [filters[key] for key in mapping[FILTER_SECTION.PROGRESSIONS]], b'roles': {vType: [filters[role] for role in mapping[FILTER_SECTION.ROLES].get(vType, [])] for vType in mapping[FILTER_SECTION.VEHICLE_TYPES]}, 
+           b'difficulties': [filters.get(key, False) for key, _ in _DIFFICULTY_FILTERS if key in mapping.get(FILTER_SECTION.DIFFICULTIES, ())], 
            b'rolesLabel': (self.__getRolesLabel(vehType)), 
            b'rolesSectionVisible': (self._withRoles and vehType is not None)}
 
@@ -98,10 +109,12 @@ class VehiclesFilterPopover(TankCarouselFilterPopoverMeta):
            b'hiddenSectionId': (FILTER_SECTION.HIDDEN), 
            b'progressionsSectionId': (FILTER_SECTION.PROGRESSIONS), 
            b'rolesSectionId': (FILTER_SECTION.ROLES_WITH_EXTRA), 
+           b'difficultiesSectionId': (FILTER_SECTION.DIFFICULTIES), 
            b'titleLabel': (text_styles.highTitle(b'#tank_carousel_filter:popover/title')), 
            b'nationsLabel': (text_styles.standard(b'#tank_carousel_filter:popover/label/nations')), 
            b'vehicleTypesLabel': (text_styles.standard(b'#tank_carousel_filter:popover/label/vehicleTypes')), 
            b'levelsLabel': (text_styles.standard(b'#tank_carousel_filter:popover/label/levels')), 
+           b'difficultiesLabel': (text_styles.standard(b'#tank_carousel_filter:popover/label/difficulties')), 
            b'specialsLabel': (text_styles.standard(b'#tank_carousel_filter:popover/label/specials')), 
            b'hiddenLabel': (text_styles.standard(b'#tank_carousel_filter:popover/label/hidden')), 
            b'progressionsLabel': (text_styles.standard(b'#tank_carousel_filter:popover/label/progressions')), 
@@ -110,9 +123,10 @@ class VehiclesFilterPopover(TankCarouselFilterPopoverMeta):
            b'searchInputName': (filters.get(b'searchNameVehicle') or b''), 
            b'searchInputTooltip': (makeTooltip(b'#tank_carousel_filter:tooltip/searchInput/header', backport.text(R.strings.tank_carousel_filter.tooltip.searchInput.body(), count=50))), 
            b'searchInputMaxChars': 50, 
-           b'nations': [], b'vehicleTypes': [], b'levels': [], b'specials': [], b'hidden': [], b'progressions': [], b'roles': {}, b'hiddenSectionVisible': True, 
+           b'nations': [], b'vehicleTypes': [], b'levels': [], b'specials': [], b'hidden': [], b'progressions': [], b'roles': {}, b'difficulties': [], b'hiddenSectionVisible': True, 
            b'specialSectionVisible': True, 
            b'tankTierSectionVisible': True, 
+           b'difficultiesSectionVisible': False, 
            b'searchSectionVisible': True, 
            b'progressionsSectionVisible': False, 
            b'rolesSectionVisible': False, 
@@ -130,6 +144,18 @@ class VehiclesFilterPopover(TankCarouselFilterPopoverMeta):
             dataVO[b'levels'].append({b'value': (getLevelsAssetPath(entry)), 
                b'selected': (isSelected(entry))})
 
+        difficultyKeys = mapping.get(FILTER_SECTION.DIFFICULTIES, ())
+        difficultyTooltip = makeTooltip(b'#tank_carousel_filter:tooltip/difficulty/header', b'#tank_carousel_filter:tooltip/difficulty/body')
+        for entry, label in _DIFFICULTY_FILTERS:
+            if entry not in difficultyKeys or entry not in filters:
+                continue
+            dataVO[b'difficulties'].append({b'value': _DIFFICULTY_FILTER_ICON, 
+               b'label': label, 
+               b'tooltip': difficultyTooltip, 
+               b'selected': (isSelected(entry))})
+
+        if dataVO[b'difficulties']:
+            dataVO[b'difficultiesSectionVisible'] = True
         for entry in mapping[FILTER_SECTION.VEHICLE_TYPES]:
             dataVO[b'vehicleTypes'].append({b'value': (getVehicleTypeAssetPath(entry)), 
                b'tooltip': (makeTooltip((b'#menu:carousel_tank_filter/{}').format(entry), b'#tank_carousel_filter:tooltip/vehicleTypes/body')), 
@@ -172,7 +198,13 @@ class VehiclesFilterPopover(TankCarouselFilterPopoverMeta):
            b'selected': isSelected, 
            b'enabled': enabled}
 
+    def _populate(self):
+        super(VehiclesFilterPopover, self)._populate()
+        self.lobbyContext.getServerSettings().onServerSettingsChange += self.__onServerSettingsChanged
+        return
+
     def _dispose(self):
+        self.lobbyContext.getServerSettings().onServerSettingsChange -= self.__onServerSettingsChanged
         if self._carousel is not None and self._carousel.filter is not None:
             self._carousel.filter.save()
             self._carousel.blinkCounter()
@@ -204,7 +236,8 @@ class VehiclesFilterPopover(TankCarouselFilterPopoverMeta):
            (FILTER_SECTION.SPECIALS): [], (FILTER_SECTION.HIDDEN): [], (FILTER_SECTION.PROGRESSIONS): [], (FILTER_SECTION.ROLES): (VEHICLE_ROLES_LABELS_BY_CLASS if hasRoles else {}), 
            (FILTER_SECTION.ROLES_WITH_EXTRA): (VEHICLE_ROLES_LABELS + [constants.ROLES_COLLAPSE] if hasRoles else []), 
            (FILTER_SECTION.TEXT_SEARCH): [
-                                        FILTER_KEYS.SEARCH_NAME_VEHICLE]}
+                                        FILTER_KEYS.SEARCH_NAME_VEHICLE], 
+           (FILTER_SECTION.DIFFICULTIES): []}
         isBattleRoyaleEnabled = kwargs.get(b'hasBattleRoyleVehicles', False)
         if isBattleRoyaleEnabled:
             mapping[FILTER_SECTION.HIDDEN].append(FILTER_KEYS.BATTLE_ROYALE)
@@ -226,6 +259,29 @@ class VehiclesFilterPopover(TankCarouselFilterPopoverMeta):
                         break
 
         return vehType
+
+    def __updateMapping(self, carousel):
+        customParams = carousel.getCustomParams()
+        customParams[b'isRanked'] = self._isRanked
+        customParams[b'isComp7'] = self._isComp7
+        self.__mapping = self._generateMapping((carousel.hasRentedVehicles() or not carousel.filter.isDefault((FILTER_KEYS.RENTED,))), (carousel.hasEventVehicles() or not carousel.filter.isDefault((FILTER_KEYS.EVENT,))), carousel.hasRoles(), **customParams)
+        self.__usedFilters = list(itertools.chain.from_iterable(self.__mapping.itervalues()))
+        return
+
+    def __onServerSettingsChanged(self, diff):
+        if constants.Configs.VEHICLE_DIFFICULTY_CONFIG.value not in diff:
+            return
+        else:
+            isEnabled = isVehicleDifficultyEnabled()
+            if isEnabled == self.__isVehicleDifficultyEnabled:
+                return
+            self.__isVehicleDifficultyEnabled = isEnabled
+            if self._carousel is None or self._carousel.filter is None:
+                return
+            self._carousel.filter.resetDisabledDifficultyFilters(save=False)
+            self.__updateMapping(self._carousel)
+            self._update(isInitial=True)
+            return
 
     def __onCarouselSwitched(self):
         self.destroy()
@@ -292,6 +348,8 @@ class TankCarouselFilterPopover(VehiclesFilterPopover):
     def _generateMapping(cls, hasRented, hasEvent, hasRoles, **kwargs):
         mapping = super(TankCarouselFilterPopover, cls)._generateMapping(hasRented, hasEvent, hasRoles, **kwargs)
         mapping[FILTER_SECTION.SPECIALS].extend(cls._getBaseSpecialSection())
+        if isVehicleDifficultyEnabled():
+            mapping[FILTER_SECTION.DIFFICULTIES] = [entry for entry, _ in _DIFFICULTY_FILTERS]
         if hasRented:
             mapping[FILTER_SECTION.SPECIALS].append(FILTER_KEYS.RENTED)
         if hasEvent:

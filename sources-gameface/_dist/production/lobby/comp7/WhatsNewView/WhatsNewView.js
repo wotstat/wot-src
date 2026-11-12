@@ -90,15 +90,15 @@
                   let r = !0;
                   const n = `mouse${e}`,
                     s = i[e]((u) => t([u, "outside"]));
-                  function o(u) {
+                  function l(u) {
                     t([u, "inside"]);
                   }
                   return (
-                    window.addEventListener(n, o),
+                    window.addEventListener(n, l),
                     a(),
                     () => {
                       r &&
-                        (s(), window.removeEventListener(n, o), (u.listeners -= 1), a(), (r = !1));
+                        (s(), window.removeEventListener(n, l), (u.listeners -= 1), a(), (r = !1));
                     }
                   );
                 };
@@ -221,7 +221,7 @@
             extraSize: () => x,
             forceTriggerMouseMove: () => b,
             freezeTextureBeforeResize: () => m,
-            getBrowserTexturePath: () => l,
+            getBrowserTexturePath: () => o,
             getDisplayStatus: () => f,
             getScale: () => D,
             getSize: () => c,
@@ -235,7 +235,7 @@
             sendEvent: () => i.qP,
             setAnimateWindow: () => C,
             setEventHandled: () => p,
-            setInputPaddingsRem: () => o,
+            setInputPaddingsRem: () => l,
             setSidePaddingsRem: () => A,
             whenTutorialReady: () => M,
           }));
@@ -246,10 +246,10 @@
         function s(u) {
           viewEnv.addPreloadTexture(u);
         }
-        function o(u) {
+        function l(u) {
           viewEnv.setHitAreaPaddingsRem(u, u, u, u, 15);
         }
-        function l(u, e, t, a = 1) {
+        function o(u, e, t, a = 1) {
           return viewEnv.getWebBrowserTexturePath(u, e, t, a);
         }
         function E(u, e, t) {
@@ -322,13 +322,13 @@
       },
       8566: (u, e, t) => {
         "use strict";
-        t.d(e, { qP: () => l });
+        t.d(e, { qP: () => o });
         const a = ["args"];
         const r = 2,
           n = 16,
           i = 32,
           s = 64,
-          o = (u, e) => {
+          l = (u, e) => {
             const t = "GFViewEventProxy";
             if (void 0 !== e) {
               const n = e.args,
@@ -364,15 +364,15 @@
             return viewEnv.handleViewEvent({ __Type: t, type: u });
             var r;
           },
-          l = {
+          o = {
             close(u) {
-              o("popover" === u ? r : i);
+              l("popover" === u ? r : i);
             },
             minimize() {
-              o(s);
+              l(s);
             },
             move(u) {
-              o(n, { isMouseEvent: !0, on: u });
+              l(n, { isMouseEvent: !0, on: u });
             },
           };
       },
@@ -569,7 +569,7 @@
       },
       4179: (u, e, t) => {
         "use strict";
-        t.d(e, { kH: () => c, Z5: () => i, lf: () => A, cy: () => s, B0: () => o, ry: () => B });
+        t.d(e, { kH: () => c, Z5: () => i, lf: () => A, cy: () => s, B0: () => l, ry: () => B });
         class a {
           constructor() {
             ((this.entries = []),
@@ -626,7 +626,7 @@
             getTimeFormat: (u, e, t) => userLocale.getTimeFormat(u, e, void 0 === t || t),
             getTimeString: (u, e, t) => userLocale.getTimeString(u, e, void 0 === t || t),
           };
-        let o;
+        let l;
         !(function (u) {
           ((u[(u.UNDEFINED = 0)] = "UNDEFINED"),
             (u[(u.TOOLTIP = 1)] = "TOOLTIP"),
@@ -636,8 +636,8 @@
             (u[(u.MOVE = 16)] = "MOVE"),
             (u[(u.CLOSE = 32)] = "CLOSE"),
             (u[(u.MINIMIZE = 64)] = "MINIMIZE"));
-        })(o || (o = {}));
-        const l = Object.freeze({ INTEGRAL: 0, GOLD: 1 }),
+        })(l || (l = {}));
+        const o = Object.freeze({ INTEGRAL: 0, GOLD: 1 }),
           E = Object.freeze({ FRACTIONAL: 0, WO_ZERO_DIGITS: 1 }),
           A = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1 }),
           c = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1, YEAR_MONTH: 2 });
@@ -647,11 +647,11 @@
         function D(u, e, t, a, r, n, i) {
           try {
             var s = u[n](i),
-              o = s.value;
+              l = s.value;
           } catch (u) {
             return void t(u);
           }
-          s.done ? e(o) : Promise.resolve(o).then(a, r);
+          s.done ? e(l) : Promise.resolve(l).then(a, r);
         }
         const d = (u) => ({
             __Type: "GFBoundingBox",
@@ -727,7 +727,7 @@
             } else viewEnv.handleViewEvent({ __Type: t, type: u });
             var a;
           },
-          h = () => C(o.CLOSE),
+          h = () => C(l.CLOSE),
           g = (u, e) => {
             u.keyCode === _.n.ESCAPE && e();
           };
@@ -736,17 +736,17 @@
           b = {
             DataTracker: n.Z,
             ViewModel: p.Z,
-            ViewEventType: o,
-            NumberFormatType: l,
+            ViewEventType: l,
+            NumberFormatType: o,
             RealFormatType: E,
             TimeFormatType: A,
             DateFormatType: c,
             makeGlobalBoundingBox: d,
-            sendMoveEvent: (u) => C(o.MOVE, { isMouseEvent: !0, on: u }),
+            sendMoveEvent: (u) => C(l.MOVE, { isMouseEvent: !0, on: u }),
             sendCloseEvent: h,
-            sendClosePopOverEvent: () => C(o.POP_OVER, { on: !1 }),
+            sendClosePopOverEvent: () => C(l.POP_OVER, { on: !1 }),
             sendShowContextMenuEvent: (u, e, t = 0) => {
-              C(o.CONTEXT_MENU, {
+              C(l.CONTEXT_MENU, {
                 isMouseEvent: !0,
                 contentID: u,
                 on: !0,
@@ -757,17 +757,17 @@
             sendShowPopOverEvent: (u, e, t, a, r = R.invalid("resId"), n) => {
               const i = F.O.view.getViewGlobalPosition(),
                 s = t.getBoundingClientRect(),
-                l = s.x,
+                o = s.x,
                 E = s.y,
                 A = s.width,
                 c = s.height,
                 _ = {
-                  x: F.O.view.pxToRem(l) + i.x,
+                  x: F.O.view.pxToRem(o) + i.x,
                   y: F.O.view.pxToRem(E) + i.y,
                   width: F.O.view.pxToRem(A),
                   height: F.O.view.pxToRem(c),
                 };
-              C(o.POP_OVER, {
+              C(l.POP_OVER, {
                 isMouseEvent: !0,
                 contentID: u,
                 decoratorID: a || R.invalid("resId"),
@@ -798,9 +798,9 @@
                   });
                 });
               }),
-            isTooltipShown: () => viewEnv.isWindowShownByViewEvent(o.TOOLTIP),
-            isContextMenuShown: () => viewEnv.isWindowShownByViewEvent(o.CONTEXT_MENU),
-            isPopOverShown: () => viewEnv.isWindowShownByViewEvent(o.POP_OVER),
+            isTooltipShown: () => viewEnv.isWindowShownByViewEvent(l.TOOLTIP),
+            isContextMenuShown: () => viewEnv.isWindowShownByViewEvent(l.CONTEXT_MENU),
+            isPopOverShown: () => viewEnv.isWindowShownByViewEvent(l.POP_OVER),
             dumpViewModel: function u(e) {
               const t = {};
               if ("object" != typeof e) return e;
@@ -850,8 +850,8 @@
           small: { weight: 1, width: 1366, height: 768 },
           extraSmall: { weight: 0, width: 1024, height: 768 },
         };
-        var o;
-        function l(u, e, t) {
+        var l;
+        function o(u, e, t) {
           const a = (function (u, e) {
               switch (!0) {
                 case u >= e.extraLarge.width:
@@ -915,11 +915,11 @@
             (u.mediumHeight = "mediumHeight"),
             (u.smallHeight = "smallHeight"),
             (u.extraSmallHeight = "extraSmallHeight"));
-        })(o || (o = {}));
+        })(l || (l = {}));
         const E = i.O.client.getSize("rem"),
           A = E.width,
           c = E.height,
-          _ = Object.assign({ width: A, height: c }, l(A, c, s)),
+          _ = Object.assign({ width: A, height: c }, o(A, c, s)),
           F = (0, a.createContext)(_),
           m = ["children"];
         const D = (u) => {
@@ -936,8 +936,8 @@
           const r = (0, a.useContext)(F),
             i = r.extraLarge,
             s = r.large,
-            o = r.medium,
-            l = r.small,
+            l = r.medium,
+            o = r.small,
             E = r.extraSmall,
             A = r.extraLargeWidth,
             c = r.largeWidth,
@@ -953,8 +953,8 @@
           if (t.extraLarge || t.large || t.medium || t.small || t.extraSmall) {
             if (t.extraLarge && i) return e;
             if (t.large && s) return e;
-            if (t.medium && o) return e;
-            if (t.small && l) return e;
+            if (t.medium && l) return e;
+            if (t.small && o) return e;
             if (t.extraSmall && E) return e;
           } else {
             if (t.extraLargeWidth && A) return n(e, t, v);
@@ -1004,11 +1004,11 @@
             const e = (0, a.useContext)(F),
               t = (0, a.useState)(e),
               n = t[0],
-              o = t[1],
+              l = t[1],
               E = (0, a.useCallback)((u, e) => {
                 const t = i.O.view.pxToRem(u),
                   a = i.O.view.pxToRem(e);
-                o(Object.assign({ width: t, height: a }, l(t, a, s)));
+                l(Object.assign({ width: t, height: a }, o(t, a, s)));
               }, []);
             (d(() => {
               engine.on("clientResized", E);
@@ -1154,8 +1154,8 @@
             const n = w(),
               i = n.mediaWidth,
               s = n.mediaHeight,
-              o = n.mediaSize;
-            return r().createElement("div", M({ className: h()(t, S[i], T[s], L[o]) }, a), e);
+              l = n.mediaSize;
+            return r().createElement("div", M({ className: h()(t, S[i], T[s], L[l]) }, a), e);
           },
           O = ["children"];
         const N = (u) => {
@@ -1229,8 +1229,8 @@
           type: n,
           disabled: i,
           mixClass: s,
-          soundHover: o,
-          soundClick: l,
+          soundHover: l,
+          soundClick: o,
           onMouseEnter: E,
           onMouseMove: A,
           onMouseDown: c,
@@ -1265,9 +1265,9 @@
             ),
             T = (0, a.useCallback)(
               (u) => {
-                i || (null !== o && P(o), E && E(u), w(!0));
+                i || (null !== l && P(l), E && E(u), w(!0));
               },
-              [i, o, E],
+              [i, l, E],
             ),
             L = (0, a.useCallback)(
               (u) => {
@@ -1283,9 +1283,9 @@
             ),
             O = (0, a.useCallback)(
               (u) => {
-                i || (null !== l && P(l), c && c(u), t && x(), v(!0));
+                i || (null !== o && P(o), c && c(u), t && x(), v(!0));
               },
-              [i, l, c, x, t],
+              [i, o, c, x, t],
             ),
             N = (0, a.useCallback)(
               (u) => {
@@ -1491,9 +1491,9 @@
               n = u.height,
               i = u.m,
               s = u.mt,
-              o = void 0 === s ? i : s,
-              l = u.mr,
-              E = void 0 === l ? i : l,
+              l = void 0 === s ? i : s,
+              o = u.mr,
+              E = void 0 === o ? i : o,
               A = u.mb,
               c = void 0 === A ? i : A,
               _ = u.ml,
@@ -1541,7 +1541,7 @@
                 return r;
               })(u, J);
             const W = (0, a.useMemo)(() => {
-                const u = { mt: o, mr: E, mb: c, ml: F },
+                const u = { mt: l, mr: E, mb: c, ml: F },
                   e = ((u) =>
                     tu.reduce((e, t) => {
                       const a = u[t];
@@ -1566,7 +1566,7 @@
                   }),
                   computedClassNames: e,
                 };
-              }, [t, n, o, E, c, F, k, H, S, B, y, w, M]),
+              }, [t, n, l, E, c, F, k, H, S, B, y, w, M]),
               G = W.computedStyle,
               U = W.computedClassNames;
             return r().createElement(
@@ -1589,7 +1589,7 @@
             }
             return [...u, e];
           },
-          ou = (u, e, t) => {
+          lu = (u, e, t) => {
             if (0 === t) return [e];
             if (t % 2) return [...u, " " === e ? " " : e];
             {
@@ -1597,7 +1597,7 @@
               return [...u, t + e];
             }
           },
-          lu = (u, e, t = nu.left) => u.split(e).reduce(t === nu.left ? su : ou, []),
+          ou = (u, e, t = nu.left) => u.split(e).reduce(t === nu.left ? su : lu, []),
           Eu = (() => {
             const u = new RegExp(
               /[\(\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?[ %\+\x2D-9A-Za-\{\}\xA0\xC0-\u0237\u2013\u2014\u2026]+[\)\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3002\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\uFF01\uFF0C\uFF1A\uFF1B\uFF1F\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?/gmu
@@ -1629,7 +1629,7 @@
                   const a =
                       /(?<=[a-z\xB5\xDF-\xF6\xF8-\xFF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u010F\u0111\u0113\u0115\u0117\u0119\u011B\u011D\u011F\u0121\u0123\u0125\u0127\u0129\u012B\u012D\u012F\u0131\u0133\u0135\u0137\u0138\u013A\u013C\u013E\u0140\u0142\u0144\u0146\u0148\u0149\u014B\u014D\u014F\u0151\u0153\u0155\u0157\u0159\u015B\u015D\u015F\u0161\u0163\u0165\u0167\u0169\u016B\u016D\u016F\u0171\u0173\u0175\u0177\u017A\u017C\u017E-\u0180\u0183\u0185\u0188\u018C\u018D\u0192\u0195\u0199-\u019B\u019E\u01A1\u01A3\u01A5\u01A8\u01AA\u01AB\u01AD\u01B0\u01B4\u01B6\u01B9\u01BA\u01BD-\u01BF\u01C6\u01C9\u01CC\u01CE\u01D0\u01D2\u01D4\u01D6\u01D8\u01DA\u01DC\u01DD\u01DF\u01E1\u01E3\u01E5\u01E7\u01E9\u01EB\u01ED\u01EF\u01F0\u01F3\u01F5\u01F9\u01FB\u01FD\u01FF\u0201\u0203\u0205\u0207\u0209\u020B\u020D\u020F\u0211\u0213\u0215\u0217\u0219\u021B\u021D\u021F\u0221\u0223\u0225\u0227\u0229\u022B\u022D\u022F\u0231\u0233-\u0239\u023C\u023F\u0240\u0242\u0247\u0249\u024B\u024D\u024F-\u0293\u0295-\u02AF\u0371\u0373\u0377\u037B-\u037D\u0390\u03AC-\u03CE\u03D0\u03D1\u03D5-\u03D7\u03D9\u03DB\u03DD\u03DF\u03E1\u03E3\u03E5\u03E7\u03E9\u03EB\u03ED\u03EF-\u03F3\u03F5\u03F8\u03FB\u03FC\u0430-\u045F\u0461\u0463\u0465\u0467\u0469\u046B\u046D\u046F\u0471\u0473\u0475\u0477\u0479\u047B\u047D\u047F\u0481\u048B\u048D\u048F\u0491\u0493\u0495\u0497\u0499\u049B\u049D\u049F\u04A1\u04A3\u04A5\u04A7\u04A9\u04AB\u04AD\u04AF\u04B1\u04B3\u04B5\u04B7\u04B9\u04BB\u04BD\u04BF\u04C2\u04C4\u04C6\u04C8\u04CA\u04CC\u04CE\u04CF\u04D1\u04D3\u04D5\u04D7\u04D9\u04DB\u04DD\u04DF\u04E1\u04E3\u04E5\u04E7\u04E9\u04EB\u04ED\u04EF\u04F1\u04F3\u04F5\u04F7\u04F9\u04FB\u04FD\u04FF\u0501\u0503\u0505\u0507\u0509\u050B\u050D\u050F\u0511\u0513\u0515\u0517\u0519\u051B\u051D\u051F\u0521\u0523\u0525\u0527\u0529\u052B\u052D\u052F\u0560-\u0588\u10D0-\u10FA\u10FD-\u10FF\u13F8-\u13FD\u1C80-\u1C88\u1D00-\u1D2B\u1D6B-\u1D77\u1D79-\u1D9A\u1E01\u1E03\u1E05\u1E07\u1E09\u1E0B\u1E0D\u1E0F\u1E11\u1E13\u1E15\u1E17\u1E19\u1E1B\u1E1D\u1E1F\u1E21\u1E23\u1E25\u1E27\u1E29\u1E2B\u1E2D\u1E2F\u1E31\u1E33\u1E35\u1E37\u1E39\u1E3B\u1E3D\u1E3F\u1E41\u1E43\u1E45\u1E47\u1E49\u1E4B\u1E4D\u1E4F\u1E51\u1E53\u1E55\u1E57\u1E59\u1E5B\u1E5D\u1E5F\u1E61\u1E63\u1E65\u1E67\u1E69\u1E6B\u1E6D\u1E6F\u1E71\u1E73\u1E75\u1E77\u1E79\u1E7B\u1E7D\u1E7F\u1E81\u1E83\u1E85\u1E87\u1E89\u1E8B\u1E8D\u1E8F\u1E91\u1E93\u1E95-\u1E9D\u1E9F\u1EA1\u1EA3\u1EA5\u1EA7\u1EA9\u1EAB\u1EAD\u1EAF\u1EB1\u1EB3\u1EB5\u1EB7\u1EB9\u1EBB\u1EBD\u1EBF\u1EC1\u1EC3\u1EC5\u1EC7\u1EC9\u1ECB\u1ECD\u1ECF\u1ED1\u1ED3\u1ED5\u1ED7\u1ED9\u1EDB\u1EDD\u1EDF\u1EE1\u1EE3\u1EE5\u1EE7\u1EE9\u1EEB\u1EED\u1EEF\u1EF1\u1EF3\u1EF5\u1EF7\u1EF9\u1EFB\u1EFD\u1EFF-\u1F07\u1F10-\u1F15\u1F20-\u1F27\u1F30-\u1F37\u1F40-\u1F45\u1F50-\u1F57\u1F60-\u1F67\u1F70-\u1F7D\u1F80-\u1F87\u1F90-\u1F97\u1FA0-\u1FA7\u1FB0-\u1FB4\u1FB6\u1FB7\u1FBE\u1FC2-\u1FC4\u1FC6\u1FC7\u1FD0-\u1FD3\u1FD6\u1FD7\u1FE0-\u1FE7\u1FF2-\u1FF4\u1FF6\u1FF7\u210A\u210E\u210F\u2113\u212F\u2134\u2139\u213C\u213D\u2146-\u2149\u214E\u2184\u2C30-\u2C5F\u2C61\u2C65\u2C66\u2C68\u2C6A\u2C6C\u2C71\u2C73\u2C74\u2C76-\u2C7B\u2C81\u2C83\u2C85\u2C87\u2C89\u2C8B\u2C8D\u2C8F\u2C91\u2C93\u2C95\u2C97\u2C99\u2C9B\u2C9D\u2C9F\u2CA1\u2CA3\u2CA5\u2CA7\u2CA9\u2CAB\u2CAD\u2CAF\u2CB1\u2CB3\u2CB5\u2CB7\u2CB9\u2CBB\u2CBD\u2CBF\u2CC1\u2CC3\u2CC5\u2CC7\u2CC9\u2CCB\u2CCD\u2CCF\u2CD1\u2CD3\u2CD5\u2CD7\u2CD9\u2CDB\u2CDD\u2CDF\u2CE1\u2CE3\u2CE4\u2CEC\u2CEE\u2CF3\u2D00-\u2D25\u2D27\u2D2D\uA641\uA643\uA645\uA647\uA649\uA64B\uA64D\uA64F\uA651\uA653\uA655\uA657\uA659\uA65B\uA65D\uA65F\uA661\uA663\uA665\uA667\uA669\uA66B\uA66D\uA681\uA683\uA685\uA687\uA689\uA68B\uA68D\uA68F\uA691\uA693\uA695\uA697\uA699\uA69B\uA723\uA725\uA727\uA729\uA72B\uA72D\uA72F-\uA731\uA733\uA735\uA737\uA739\uA73B\uA73D\uA73F\uA741\uA743\uA745\uA747\uA749\uA74B\uA74D\uA74F\uA751\uA753\uA755\uA757\uA759\uA75B\uA75D\uA75F\uA761\uA763\uA765\uA767\uA769\uA76B\uA76D\uA76F\uA771-\uA778\uA77A\uA77C\uA77F\uA781\uA783\uA785\uA787\uA78C\uA78E\uA791\uA793-\uA795\uA797\uA799\uA79B\uA79D\uA79F\uA7A1\uA7A3\uA7A5\uA7A7\uA7A9\uA7AF\uA7B5\uA7B7\uA7B9\uA7BB\uA7BD\uA7BF\uA7C1\uA7C3\uA7C8\uA7CA\uA7D1\uA7D3\uA7D5\uA7D7\uA7D9\uA7F6\uA7FA\uAB30-\uAB5A\uAB60-\uAB68\uAB70-\uABBF\uFB00-\uFB06\uFB13-\uFB17\uFF41-\uFF5A\u{10428}-\u{1044F}\u{104D8}-\u{104FB}\u{10597}-\u{105A1}\u{105A3}-\u{105B1}\u{105B3}-\u{105B9}\u{105BB}\u{105BC}\u{10CC0}-\u{10CF2}\u{118C0}-\u{118DF}\u{16E60}-\u{16E7F}\u{1D41A}-\u{1D433}\u{1D44E}-\u{1D454}\u{1D456}-\u{1D467}\u{1D482}-\u{1D49B}\u{1D4B6}-\u{1D4B9}\u{1D4BB}\u{1D4BD}-\u{1D4C3}\u{1D4C5}-\u{1D4CF}\u{1D4EA}-\u{1D503}\u{1D51E}-\u{1D537}\u{1D552}-\u{1D56B}\u{1D586}-\u{1D59F}\u{1D5BA}-\u{1D5D3}\u{1D5EE}-\u{1D607}\u{1D622}-\u{1D63B}\u{1D656}-\u{1D66F}\u{1D68A}-\u{1D6A5}\u{1D6C2}-\u{1D6DA}\u{1D6DC}-\u{1D6E1}\u{1D6FC}-\u{1D714}\u{1D716}-\u{1D71B}\u{1D736}-\u{1D74E}\u{1D750}-\u{1D755}\u{1D770}-\u{1D788}\u{1D78A}-\u{1D78F}\u{1D7AA}-\u{1D7C2}\u{1D7C4}-\u{1D7C9}\u{1D7CB}\u{1DF00}-\u{1DF09}\u{1DF0B}-\u{1DF1E}\u{1E922}-\u{1E943}])(\x2D)(?=[a-z\xB5\xDF-\xF6\xF8-\xFF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u010F\u0111\u0113\u0115\u0117\u0119\u011B\u011D\u011F\u0121\u0123\u0125\u0127\u0129\u012B\u012D\u012F\u0131\u0133\u0135\u0137\u0138\u013A\u013C\u013E\u0140\u0142\u0144\u0146\u0148\u0149\u014B\u014D\u014F\u0151\u0153\u0155\u0157\u0159\u015B\u015D\u015F\u0161\u0163\u0165\u0167\u0169\u016B\u016D\u016F\u0171\u0173\u0175\u0177\u017A\u017C\u017E-\u0180\u0183\u0185\u0188\u018C\u018D\u0192\u0195\u0199-\u019B\u019E\u01A1\u01A3\u01A5\u01A8\u01AA\u01AB\u01AD\u01B0\u01B4\u01B6\u01B9\u01BA\u01BD-\u01BF\u01C6\u01C9\u01CC\u01CE\u01D0\u01D2\u01D4\u01D6\u01D8\u01DA\u01DC\u01DD\u01DF\u01E1\u01E3\u01E5\u01E7\u01E9\u01EB\u01ED\u01EF\u01F0\u01F3\u01F5\u01F9\u01FB\u01FD\u01FF\u0201\u0203\u0205\u0207\u0209\u020B\u020D\u020F\u0211\u0213\u0215\u0217\u0219\u021B\u021D\u021F\u0221\u0223\u0225\u0227\u0229\u022B\u022D\u022F\u0231\u0233-\u0239\u023C\u023F\u0240\u0242\u0247\u0249\u024B\u024D\u024F-\u0293\u0295-\u02AF\u0371\u0373\u0377\u037B-\u037D\u0390\u03AC-\u03CE\u03D0\u03D1\u03D5-\u03D7\u03D9\u03DB\u03DD\u03DF\u03E1\u03E3\u03E5\u03E7\u03E9\u03EB\u03ED\u03EF-\u03F3\u03F5\u03F8\u03FB\u03FC\u0430-\u045F\u0461\u0463\u0465\u0467\u0469\u046B\u046D\u046F\u0471\u0473\u0475\u0477\u0479\u047B\u047D\u047F\u0481\u048B\u048D\u048F\u0491\u0493\u0495\u0497\u0499\u049B\u049D\u049F\u04A1\u04A3\u04A5\u04A7\u04A9\u04AB\u04AD\u04AF\u04B1\u04B3\u04B5\u04B7\u04B9\u04BB\u04BD\u04BF\u04C2\u04C4\u04C6\u04C8\u04CA\u04CC\u04CE\u04CF\u04D1\u04D3\u04D5\u04D7\u04D9\u04DB\u04DD\u04DF\u04E1\u04E3\u04E5\u04E7\u04E9\u04EB\u04ED\u04EF\u04F1\u04F3\u04F5\u04F7\u04F9\u04FB\u04FD\u04FF\u0501\u0503\u0505\u0507\u0509\u050B\u050D\u050F\u0511\u0513\u0515\u0517\u0519\u051B\u051D\u051F\u0521\u0523\u0525\u0527\u0529\u052B\u052D\u052F\u0560-\u0588\u10D0-\u10FA\u10FD-\u10FF\u13F8-\u13FD\u1C80-\u1C88\u1D00-\u1D2B\u1D6B-\u1D77\u1D79-\u1D9A\u1E01\u1E03\u1E05\u1E07\u1E09\u1E0B\u1E0D\u1E0F\u1E11\u1E13\u1E15\u1E17\u1E19\u1E1B\u1E1D\u1E1F\u1E21\u1E23\u1E25\u1E27\u1E29\u1E2B\u1E2D\u1E2F\u1E31\u1E33\u1E35\u1E37\u1E39\u1E3B\u1E3D\u1E3F\u1E41\u1E43\u1E45\u1E47\u1E49\u1E4B\u1E4D\u1E4F\u1E51\u1E53\u1E55\u1E57\u1E59\u1E5B\u1E5D\u1E5F\u1E61\u1E63\u1E65\u1E67\u1E69\u1E6B\u1E6D\u1E6F\u1E71\u1E73\u1E75\u1E77\u1E79\u1E7B\u1E7D\u1E7F\u1E81\u1E83\u1E85\u1E87\u1E89\u1E8B\u1E8D\u1E8F\u1E91\u1E93\u1E95-\u1E9D\u1E9F\u1EA1\u1EA3\u1EA5\u1EA7\u1EA9\u1EAB\u1EAD\u1EAF\u1EB1\u1EB3\u1EB5\u1EB7\u1EB9\u1EBB\u1EBD\u1EBF\u1EC1\u1EC3\u1EC5\u1EC7\u1EC9\u1ECB\u1ECD\u1ECF\u1ED1\u1ED3\u1ED5\u1ED7\u1ED9\u1EDB\u1EDD\u1EDF\u1EE1\u1EE3\u1EE5\u1EE7\u1EE9\u1EEB\u1EED\u1EEF\u1EF1\u1EF3\u1EF5\u1EF7\u1EF9\u1EFB\u1EFD\u1EFF-\u1F07\u1F10-\u1F15\u1F20-\u1F27\u1F30-\u1F37\u1F40-\u1F45\u1F50-\u1F57\u1F60-\u1F67\u1F70-\u1F7D\u1F80-\u1F87\u1F90-\u1F97\u1FA0-\u1FA7\u1FB0-\u1FB4\u1FB6\u1FB7\u1FBE\u1FC2-\u1FC4\u1FC6\u1FC7\u1FD0-\u1FD3\u1FD6\u1FD7\u1FE0-\u1FE7\u1FF2-\u1FF4\u1FF6\u1FF7\u210A\u210E\u210F\u2113\u212F\u2134\u2139\u213C\u213D\u2146-\u2149\u214E\u2184\u2C30-\u2C5F\u2C61\u2C65\u2C66\u2C68\u2C6A\u2C6C\u2C71\u2C73\u2C74\u2C76-\u2C7B\u2C81\u2C83\u2C85\u2C87\u2C89\u2C8B\u2C8D\u2C8F\u2C91\u2C93\u2C95\u2C97\u2C99\u2C9B\u2C9D\u2C9F\u2CA1\u2CA3\u2CA5\u2CA7\u2CA9\u2CAB\u2CAD\u2CAF\u2CB1\u2CB3\u2CB5\u2CB7\u2CB9\u2CBB\u2CBD\u2CBF\u2CC1\u2CC3\u2CC5\u2CC7\u2CC9\u2CCB\u2CCD\u2CCF\u2CD1\u2CD3\u2CD5\u2CD7\u2CD9\u2CDB\u2CDD\u2CDF\u2CE1\u2CE3\u2CE4\u2CEC\u2CEE\u2CF3\u2D00-\u2D25\u2D27\u2D2D\uA641\uA643\uA645\uA647\uA649\uA64B\uA64D\uA64F\uA651\uA653\uA655\uA657\uA659\uA65B\uA65D\uA65F\uA661\uA663\uA665\uA667\uA669\uA66B\uA66D\uA681\uA683\uA685\uA687\uA689\uA68B\uA68D\uA68F\uA691\uA693\uA695\uA697\uA699\uA69B\uA723\uA725\uA727\uA729\uA72B\uA72D\uA72F-\uA731\uA733\uA735\uA737\uA739\uA73B\uA73D\uA73F\uA741\uA743\uA745\uA747\uA749\uA74B\uA74D\uA74F\uA751\uA753\uA755\uA757\uA759\uA75B\uA75D\uA75F\uA761\uA763\uA765\uA767\uA769\uA76B\uA76D\uA76F\uA771-\uA778\uA77A\uA77C\uA77F\uA781\uA783\uA785\uA787\uA78C\uA78E\uA791\uA793-\uA795\uA797\uA799\uA79B\uA79D\uA79F\uA7A1\uA7A3\uA7A5\uA7A7\uA7A9\uA7AF\uA7B5\uA7B7\uA7B9\uA7BB\uA7BD\uA7BF\uA7C1\uA7C3\uA7C8\uA7CA\uA7D1\uA7D3\uA7D5\uA7D7\uA7D9\uA7F6\uA7FA\uAB30-\uAB5A\uAB60-\uAB68\uAB70-\uABBF\uFB00-\uFB06\uFB13-\uFB17\uFF41-\uFF5A\u{10428}-\u{1044F}\u{104D8}-\u{104FB}\u{10597}-\u{105A1}\u{105A3}-\u{105B1}\u{105B3}-\u{105B9}\u{105BB}\u{105BC}\u{10CC0}-\u{10CF2}\u{118C0}-\u{118DF}\u{16E60}-\u{16E7F}\u{1D41A}-\u{1D433}\u{1D44E}-\u{1D454}\u{1D456}-\u{1D467}\u{1D482}-\u{1D49B}\u{1D4B6}-\u{1D4B9}\u{1D4BB}\u{1D4BD}-\u{1D4C3}\u{1D4C5}-\u{1D4CF}\u{1D4EA}-\u{1D503}\u{1D51E}-\u{1D537}\u{1D552}-\u{1D56B}\u{1D586}-\u{1D59F}\u{1D5BA}-\u{1D5D3}\u{1D5EE}-\u{1D607}\u{1D622}-\u{1D63B}\u{1D656}-\u{1D66F}\u{1D68A}-\u{1D6A5}\u{1D6C2}-\u{1D6DA}\u{1D6DC}-\u{1D6E1}\u{1D6FC}-\u{1D714}\u{1D716}-\u{1D71B}\u{1D736}-\u{1D74E}\u{1D750}-\u{1D755}\u{1D770}-\u{1D788}\u{1D78A}-\u{1D78F}\u{1D7AA}-\u{1D7C2}\u{1D7C4}-\u{1D7C9}\u{1D7CB}\u{1DF00}-\u{1DF09}\u{1DF0B}-\u{1DF1E}\u{1E922}-\u{1E943}])/gu,
                     r = u.replace(/&nbsp;/g, " ");
-                  return (lu(r, /( )/, e).forEach((u) => (t = t.concat(lu(u, a, nu.left)))), t);
+                  return (ou(r, /( )/, e).forEach((u) => (t = t.concat(ou(u, a, nu.left)))), t);
                 })(u, e);
           },
           _u = "FormatText_base_d0",
@@ -1775,8 +1775,8 @@
               n = u.className,
               i = u.color,
               s = u.m,
-              o = u.mt,
-              l = void 0 === o ? s : o,
+              l = u.mt,
+              o = void 0 === l ? s : l,
               E = u.mr,
               A = void 0 === E ? s : E,
               c = u.mb,
@@ -1809,7 +1809,7 @@
                 {
                   className: h()(du.base, t && du[t], p, n),
                   style: g,
-                  mt: !0 === l ? fu[t || "paragraph-P16"].mt : l,
+                  mt: !0 === o ? fu[t || "paragraph-P16"].mt : o,
                   mr: !0 === A ? fu[t || "paragraph-P16"].mr : A,
                   mb: !0 === _ ? fu[t || "paragraph-P16"].mb : _,
                   ml: !0 === m ? fu[t || "paragraph-P16"].ml : m,
@@ -1897,8 +1897,8 @@
               n = u.side,
               i = u.type,
               s = u.classNames,
-              o = u.onMouseEnter,
-              l = u.onMouseLeave,
+              l = u.onMouseEnter,
+              o = u.onMouseLeave,
               E = u.onMouseDown,
               A = u.onMouseUp,
               c =
@@ -1923,8 +1923,8 @@
               Lu(
                 {
                   className: _,
-                  onMouseEnter: this._onMouseEnter(o),
-                  onMouseLeave: this._onMouseLeave(l),
+                  onMouseEnter: this._onMouseEnter(l),
+                  onMouseLeave: this._onMouseLeave(o),
                   onMouseDown: this._onMouseDown(E),
                   onMouseUp: this._onMouseUp(A),
                   onFocus: this.handleFocus,
@@ -2046,7 +2046,7 @@
         const zu = () => (u, e) => {
             const t = (0, a.createContext)({});
             return [
-              function ({ mode: n = "real", options: s, children: o, mocks: l }) {
+              function ({ mode: n = "real", options: s, children: l, mocks: o }) {
                 const E = (0, a.useRef)([]),
                   A = (t, a, r) => {
                     var n;
@@ -2082,9 +2082,9 @@
                         };
                         return {
                           subscribe: (t, n) => {
-                            const o = "string" == typeof n ? `${a}.${n}` : a,
-                              l = i.O.view.addModelObserver(o, e, !0);
-                            return (r.set(l, t), u && t(s(n)), l);
+                            const l = "string" == typeof n ? `${a}.${n}` : a,
+                              o = i.O.view.addModelObserver(l, e, !0);
+                            return (r.set(o, t), u && t(s(n)), o);
                           },
                           readByPath: s,
                           createCallback: (u, e) => {
@@ -2105,27 +2105,27 @@
                           unsubscribe: n,
                         };
                       })(a),
-                      o =
+                      l =
                         "real" === t
                           ? s
                           : Object.assign({}, s, {
                               readByPath:
                                 null != (n = null == r ? void 0 : r.getter) ? n : () => {},
                             }),
-                      l = (u) =>
-                        "mocks" === t ? (null == r ? void 0 : r.getter(u)) : o.readByPath(u),
+                      o = (u) =>
+                        "mocks" === t ? (null == r ? void 0 : r.getter(u)) : l.readByPath(u),
                       A = (u) => E.current.push(u),
                       c = u({
                         mode: t,
-                        readByPath: l,
-                        externalModel: o,
+                        readByPath: o,
+                        externalModel: l,
                         observableModel: {
                           array: (u, e) => {
-                            const a = null != e ? e : l(u),
+                            const a = null != e ? e : o(u),
                               r = ju.LO.box(a, { equals: $u });
                             return (
                               "real" === t &&
-                                o.subscribe(
+                                l.subscribe(
                                   (0, ju.aD)((u) => r.set(u)),
                                   u,
                                 ),
@@ -2133,11 +2133,11 @@
                             );
                           },
                           object: (u, e) => {
-                            const a = null != e ? e : l(u),
+                            const a = null != e ? e : o(u),
                               r = ju.LO.box(a, { equals: $u });
                             return (
                               "real" === t &&
-                                o.subscribe(
+                                l.subscribe(
                                   (0, ju.aD)((u) => r.set(u)),
                                   u,
                                 ),
@@ -2145,12 +2145,12 @@
                             );
                           },
                           primitives: (u, e) => {
-                            const a = l(e);
+                            const a = o(e);
                             if (Array.isArray(u)) {
                               const r = u.reduce((u, e) => ((u[e] = ju.LO.box(a[e], {})), u), {});
                               return (
                                 "real" === t &&
-                                  o.subscribe(
+                                  l.subscribe(
                                     (0, ju.aD)((e) => {
                                       u.forEach((u) => {
                                         r[u].set(e[u]);
@@ -2167,7 +2167,7 @@
                                 i = n.reduce((u, [e, t]) => ((u[t] = ju.LO.box(a[e], {})), u), {});
                               return (
                                 "real" === t &&
-                                  o.subscribe(
+                                  l.subscribe(
                                     (0, ju.aD)((u) => {
                                       n.forEach(([e, t]) => {
                                         i[t].set(u[e]);
@@ -2182,11 +2182,11 @@
                         },
                         cleanup: A,
                       }),
-                      _ = { mode: t, model: c, externalModel: o, cleanup: A };
+                      _ = { mode: t, model: c, externalModel: l, cleanup: A };
                     return {
                       model: c,
                       controls: "mocks" === t && r ? r.controls(_) : e(_),
-                      externalModel: o,
+                      externalModel: l,
                       mode: t,
                     };
                   },
@@ -2194,13 +2194,13 @@
                   _ = (0, a.useState)(n),
                   F = _[0],
                   m = _[1],
-                  D = (0, a.useState)(() => A(n, s, l)),
+                  D = (0, a.useState)(() => A(n, s, o)),
                   d = D[0],
                   B = D[1];
                 return (
                   (0, a.useEffect)(() => {
-                    c.current ? B(A(F, s, l)) : (c.current = !0);
-                  }, [l, F, s]),
+                    c.current ? B(A(F, s, o)) : (c.current = !0);
+                  }, [o, F, s]),
                   (0, a.useEffect)(() => {
                     m(n);
                   }, [n]),
@@ -2210,7 +2210,7 @@
                     },
                     [d],
                   ),
-                  r().createElement(t.Provider, { value: d }, o)
+                  r().createElement(t.Provider, { value: d }, l)
                 );
               },
               () => (0, a.useContext)(t),
@@ -2350,9 +2350,9 @@
               n = u.onMouseEnter,
               i = u.onMouseLeave,
               s = u.onMouseDown,
-              o = u.onClick,
-              l = u.ignoreShowDelay,
-              E = void 0 !== l && l,
+              l = u.onClick,
+              o = u.ignoreShowDelay,
+              E = void 0 !== o && o,
               A = u.ignoreMouseClick,
               c = void 0 !== A && A,
               _ = u.decoratorId,
@@ -2459,7 +2459,7 @@
                         (f(), null == i || i(e), null == u || u(e));
                       })(e.props.onMouseLeave),
                       onClick: ((u) => (e) => {
-                        (!1 === c && f(), null == o || o(e), null == u || u(e));
+                        (!1 === c && f(), null == l || l(e), null == u || u(e));
                       })(e.props.onClick),
                       onMouseDown: ((u) => (e) => {
                         (!1 === c && f(), null == s || s(e), null == u || u(e));
@@ -2471,10 +2471,10 @@
               : e;
             var x;
           },
-          oe = ["children"];
-        function le() {
+          le = ["children"];
+        function oe() {
           return (
-            (le =
+            (oe =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -2483,7 +2483,7 @@
                 }
                 return u;
               }),
-            le.apply(this, arguments)
+            oe.apply(this, arguments)
           );
         }
         const Ee = (u) => {
@@ -2496,10 +2496,10 @@
                   n = Object.keys(u);
                 for (a = 0; a < n.length; a++) ((t = n[a]), e.indexOf(t) >= 0 || (r[t] = u[t]));
                 return r;
-              })(u, oe);
+              })(u, le);
             return r().createElement(
               se,
-              le(
+              oe(
                 {
                   contentId:
                     R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent(
@@ -2575,8 +2575,8 @@
               n = t.model,
               i = t.controls,
               s = n.season.startTimestamp.get(),
-              o = n.season.endTimestamp.get(),
-              l = n.season.serverTimestamp.get();
+              l = n.season.endTimestamp.get(),
+              o = n.season.serverTimestamp.get();
             return (
               (function (u, e, t) {
                 (0, a.useEffect)(() => {
@@ -2585,15 +2585,15 @@
                       t();
                     }, 950);
                 }, [e, t, u]);
-              })(l, o, i.pollServerTime),
+              })(o, l, i.pollServerTime),
               r().createElement(
                 "div",
                 { className: h()(Ce, u) },
-                l < o
+                o < l
                   ? r().createElement(Be, {
                       startTimestamp: s,
-                      endTimestamp: o,
-                      currentTimestamp: l,
+                      endTimestamp: l,
+                      currentTimestamp: o,
                       tooltipId: n.root.get().tooltipId,
                       hasSeasonName: e,
                     })
@@ -2672,14 +2672,14 @@
               n = e[1],
               i = (0, a.useState)(!1),
               s = i[0],
-              o = i[1],
-              l = u.length,
+              l = i[1],
+              o = u.length,
               E = 0 === t,
-              A = t === l - 1;
+              A = t === o - 1;
             var c;
             ((c = () => {
               const u = () => {
-                o(!0);
+                l(!0);
               };
               return (
                 window.addEventListener("resize", u),
@@ -2706,7 +2706,7 @@
                     );
                   })(() =>
                     Uu(() => {
-                      s && o(!1);
+                      s && l(!1);
                     }, 500),
                   ),
                 [s],
@@ -2741,7 +2741,7 @@
                       { className: Te.counterDivider },
                       r().createElement(xu, { text: "/" }),
                     ),
-                    r().createElement(xu, { text: String(l) }),
+                    r().createElement(xu, { text: String(o) }),
                   ),
                   r().createElement(
                     "div",
@@ -2808,15 +2808,15 @@
                 ),
                 i = (0, Pe.Om)(() => ke(e.vehicles.get(), Vu), { equals: $u }),
                 s = (0, Pe.Om)(() => ke(e.pages.get().items, Vu), { equals: $u }),
-                o = (0, Pe.Om)(
+                l = (0, Pe.Om)(
                   (u) => {
-                    const e = He(l(), u);
+                    const e = He(o(), u);
                     if (!e) throw new Error(`newMap item with index ${u} was not found`);
                     return e.name;
                   },
                   { equals: $u },
                 ),
-                l = (0, Pe.Om)(() => ke(e.newMaps.get().items, Vu), { equals: $u }),
+                o = (0, Pe.Om)(() => ke(e.newMaps.get().items, Vu), { equals: $u }),
                 E = (0, Pe.Om)(
                   (u) => {
                     const e = He(A(), u);
@@ -2830,12 +2830,12 @@
                 computes: {
                   getVehicleItems: i,
                   getPages: s,
-                  getNewMaps: l,
+                  getNewMaps: o,
                   getDeprecatedMaps: A,
                   vehicleItemsLength: t,
                   deprecatedMapsLength: a,
                   newMapsLength: r,
-                  getNewMapName: o,
+                  getNewMapName: l,
                   getDeprecatedMapName: E,
                   getVehicleByIndex: n,
                 },
@@ -2850,80 +2850,81 @@
           Ge = Ie[1],
           Ue = "App_base_96",
           Ve = "App_content_65",
-          $e = "App_buttonWrapper_90",
-          je = "App_button_e8",
-          Xe = "CustomSlide_base_35",
-          Ke = "CustomSlide_title_91",
-          Ye = "CustomSlide_content_98",
-          ze = "CustomSlide_description_09",
-          qe = "CustomSlide_descriptionText_a7",
-          Ze = R.strings.comp7.whatsNewView.slides,
-          Qe = ({ id: u, children: e, isHideDescription: t }) =>
+          $e = "App_singlePage_1a",
+          je = "App_buttonWrapper_90",
+          Xe = "App_button_e8",
+          Ke = "CustomSlide_base_35",
+          Ye = "CustomSlide_title_91",
+          ze = "CustomSlide_content_98",
+          qe = "CustomSlide_description_09",
+          Ze = "CustomSlide_descriptionText_a7",
+          Qe = R.strings.comp7.whatsNewView.slides,
+          Je = ({ id: u, children: e, isHideDescription: t }) =>
             r().createElement(
               "div",
-              { className: Xe },
+              { className: Ke },
               r().createElement(xu, {
-                text: String(Ze.title.$dyn(u)),
-                className: Ke,
+                text: String(Qe.title.$dyn(u)),
+                className: Ye,
                 variant: "heading-H22",
                 variant_lg: "heading-H28",
               }),
-              r().createElement("div", { className: Ye }, e),
+              r().createElement("div", { className: ze }, e),
               !t &&
                 r().createElement(xu, {
-                  text: `${Ze.description.$dyn(u)}`,
-                  className: ze,
+                  text: `${Qe.description.$dyn(u)}`,
+                  className: qe,
                   variant: "paragraph-P14",
-                  format: { classMix: qe },
+                  format: { classMix: Ze },
                 }),
             ),
-          Je = "grid_row_3d",
-          ut = "grid_cell_62",
-          et = "Map_base_67",
-          tt = "Map_base__removed_9a",
-          at = "Map_image_bd",
-          rt = "Map_mapName_6e",
-          nt = "Map_details_84",
-          it = "Map_background_a4",
-          st = R.images.gui.maps.icons.map.stats,
+          ut = "grid_row_3d",
+          et = "grid_cell_62",
+          tt = "Map_base_67",
+          at = "Map_base__removed_9a",
+          rt = "Map_image_bd",
+          nt = "Map_mapName_6e",
+          it = "Map_details_84",
+          st = "Map_background_a4",
+          lt = R.images.gui.maps.icons.map.stats,
           ot = R.strings.arenas,
-          lt = ({ name: u, classNames: e, isRemoved: t }) => {
-            const a = st.$dyn(`c_${u}`),
+          Et = ({ name: u, classNames: e, isRemoved: t }) => {
+            const a = lt.$dyn(`c_${u}`),
               n = ot.$dyn(`c_${u}`),
-              i = h()(et, null == e ? void 0 : e.mapContainer, t && tt);
+              i = h()(tt, null == e ? void 0 : e.mapContainer, t && at);
             return r().createElement(
               "div",
               { className: i },
               r().createElement("div", {
-                className: h()(at, null == e ? void 0 : e.image),
+                className: h()(rt, null == e ? void 0 : e.image),
                 style: { backgroundImage: `url(${a})` },
               }),
               r().createElement(
                 "div",
-                { className: nt },
-                r().createElement("div", { className: h()(it, null == e ? void 0 : e.background) }),
+                { className: it },
+                r().createElement("div", { className: h()(st, null == e ? void 0 : e.background) }),
                 r().createElement(xu, {
                   text: String(n.$dyn("name")),
                   variant: "heading-H14",
-                  className: rt,
+                  className: nt,
                 }),
               ),
             );
           },
-          Et = "Separator_base_d8",
-          At = "Separator_line_5d",
-          ct = "Separator_line__toRight_ad",
-          _t = "Separator_line__toLeft_e9",
-          Ft = "Separator_text_77",
-          mt = ({ text: u }) =>
+          At = "Separator_base_d8",
+          ct = "Separator_line_5d",
+          _t = "Separator_line__toRight_ad",
+          Ft = "Separator_line__toLeft_e9",
+          mt = "Separator_text_77",
+          Dt = ({ text: u }) =>
             r().createElement(
               "div",
-              { className: Et },
-              r().createElement("div", { className: h()(At, ct) }),
-              r().createElement(xu, { text: u, variant: "paragraph-P14", className: Ft }),
-              r().createElement("div", { className: h()(At, _t) }),
+              { className: At },
+              r().createElement("div", { className: h()(ct, _t) }),
+              r().createElement(xu, { text: u, variant: "paragraph-P14", className: mt }),
+              r().createElement("div", { className: h()(ct, Ft) }),
             ),
-          Dt = {
+          dt = {
             base: "MapsSlide_base_ce",
             base__center: "MapsSlide_base__center_55",
             row: "MapsSlide_row_21",
@@ -2934,8 +2935,8 @@
             smallMapImage: "MapsSlide_smallMapImage_03",
             smallMapBackground: "MapsSlide_smallMapBackground_6c",
           },
-          dt = R.strings.comp7.whatsNewView,
-          Bt = (0, Mu.Pi)(() => {
+          Bt = R.strings.comp7.whatsNewView,
+          Ct = (0, Mu.Pi)(() => {
             const u = Ge().model.computes,
               e = w().mediaSize,
               t = u.getNewMaps(),
@@ -2943,16 +2944,16 @@
               n = u.newMapsLength(),
               i = u.deprecatedMapsLength(),
               s = n > 0,
-              o = i > 0,
-              l = !s || !o,
-              E = e <= v.Medium && s && o,
+              l = i > 0,
+              o = !s || !l,
+              E = e <= v.Medium && s && l,
               A = n + i,
-              c = h()(Dt.base, l && Dt.base__center),
-              _ = h()(Je, Dt.row, l && Dt.row__center, A <= 4 && Dt.row__withPadding),
+              c = h()(dt.base, o && dt.base__center),
+              _ = h()(ut, dt.row, o && dt.row__center, A <= 4 && dt.row__withPadding),
               F = {
-                mapContainer: E ? Dt.smallMap : "",
-                image: E ? Dt.smallMapImage : "",
-                background: E ? Dt.smallMapBackground : "",
+                mapContainer: E ? dt.smallMap : "",
+                image: E ? dt.smallMapImage : "",
+                background: E ? dt.smallMapBackground : "",
               };
             return r().createElement(
               "div",
@@ -2961,32 +2962,32 @@
                 r().createElement(
                   "div",
                   { className: _ },
-                  r().createElement(mt, { text: dt.newMaps() }),
+                  r().createElement(Dt, { text: Bt.newMaps() }),
                   r().createElement(
                     "div",
-                    { className: Dt.mapsContainer },
+                    { className: dt.mapsContainer },
                     t.map((e, t) =>
                       r().createElement(
                         "div",
-                        { className: Dt.map, key: t },
-                        r().createElement(lt, { name: u.getNewMapName(t), classNames: F }),
+                        { className: dt.map, key: t },
+                        r().createElement(Et, { name: u.getNewMapName(t), classNames: F }),
                       ),
                     ),
                   ),
                 ),
-              o &&
+              l &&
                 r().createElement(
                   "div",
                   { className: _ },
-                  r().createElement(mt, { text: dt.deprecatedMaps() }),
+                  r().createElement(Dt, { text: Bt.deprecatedMaps() }),
                   r().createElement(
                     "div",
-                    { className: Dt.mapsContainer },
+                    { className: dt.mapsContainer },
                     a.map((e, t) =>
                       r().createElement(
                         "div",
-                        { className: Dt.map, key: t },
-                        r().createElement(lt, {
+                        { className: dt.map, key: t },
+                        r().createElement(Et, {
                           name: u.getDeprecatedMapName(t),
                           isRemoved: !0,
                           classNames: F,
@@ -2997,23 +2998,23 @@
                 ),
             );
           });
-        let Ct;
+        let ht;
         !(function (u) {
           ((u.Normal = "normal"), (u.Small = "small"));
-        })(Ct || (Ct = {}));
-        const ht = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
-          gt = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
-        const pt = ["ko", "no"].includes(R.strings.settings.LANGUAGE_CODE()),
-          vt = (u) =>
-            pt
+        })(ht || (ht = {}));
+        const gt = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
+          pt = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
+        const vt = ["ko", "no"].includes(R.strings.settings.LANGUAGE_CODE()),
+          bt = (u) =>
+            vt
               ? `${u}`
               : (function (u) {
                   let e = "";
-                  for (let t = gt.length - 1; t >= 0; t--)
-                    for (; u >= gt[t];) ((e += ht[t]), (u -= gt[t]));
+                  for (let t = pt.length - 1; t >= 0; t--)
+                    for (; u >= pt[t];) ((e += gt[t]), (u -= pt[t]));
                   return e;
                 })(u),
-          bt = {
+          ft = {
             base: "VehicleName_base_3b",
             base__24x24: "VehicleName_base__24x24_a7",
             base__24x24_metal: "VehicleName_base__24x24_metal_92",
@@ -3024,7 +3025,7 @@
             base__60x54: "VehicleName_base__60x54_08",
             vehicleType: "VehicleName_vehicleType_c3",
           };
-        let ft;
+        let wt;
         !(function (u) {
           ((u.x24 = "24x24"),
             (u.x24Metal = "24x24_metal"),
@@ -3034,223 +3035,219 @@
             (u.x80 = "80x80"),
             (u.x83 = "83x74"),
             (u.x180 = "180x135"));
-        })(ft || (ft = {}));
-        const wt = R.images.gui.maps.icons.vehicleTypes,
-          xt = (u) => {
+        })(wt || (wt = {}));
+        const xt = R.images.gui.maps.icons.vehicleTypes,
+          Mt = (u) => {
             switch (u) {
-              case ft.x80:
-                return wt.large;
-              case ft.x83:
-                return wt.big;
-              case ft.x180:
-                return wt.huge;
+              case wt.x80:
+                return xt.large;
+              case wt.x83:
+                return xt.big;
+              case wt.x180:
+                return xt.huge;
               default:
-                return wt.$dyn(`c_${u}`);
+                return xt.$dyn(`c_${u}`);
             }
           },
-          Mt = (0, a.memo)(
+          St = (0, a.memo)(
             ({
               name: u,
               level: e,
               type: t,
-              size: a = ft.x24Metal,
-              typeIconFolderPath: n = xt(a),
+              size: a = wt.x24Metal,
+              typeIconFolderPath: n = Mt(a),
               isPremium: i = !1,
               nation: s,
-              className: o,
-              classNames: l,
+              className: l,
+              classNames: o,
             }) => {
               const E = `${iu(t)}${i ? "_elite" : ""}`;
               return r().createElement(
                 "div",
-                { className: h()(bt.base, bt[`base__${a}`], o) },
+                { className: h()(ft.base, ft[`base__${a}`], l) },
                 s,
-                r().createElement("div", { className: null == l ? void 0 : l.level }, vt(e)),
+                r().createElement("div", { className: null == o ? void 0 : o.level }, bt(e)),
                 r().createElement(
                   "div",
                   {
                     className: h()(
-                      bt.vehicleTypeContainer,
-                      null == l ? void 0 : l.vehicleTypeContainer,
+                      ft.vehicleTypeContainer,
+                      null == o ? void 0 : o.vehicleTypeContainer,
                     ),
                   },
                   r().createElement("div", {
-                    className: h()(bt.vehicleType, null == l ? void 0 : l.type),
+                    className: h()(ft.vehicleType, null == o ? void 0 : o.type),
                     style: { backgroundImage: `url(${null == n ? void 0 : n.$dyn(E)})` },
                   }),
                 ),
                 r().createElement(
                   "div",
-                  { className: h()(bt.shortName, null == l ? void 0 : l.shortName) },
+                  { className: h()(ft.shortName, null == o ? void 0 : o.shortName) },
                   u,
                 ),
               );
             },
           ),
-          St = {
+          Tt = {
             base: "VehicleRole_base_04",
             base__22x22: "VehicleRole_base__22x22_d4",
             iconContainer: "VehicleRole_iconContainer_0e",
             icon: "VehicleRole_icon_61",
           };
-        let Tt;
+        let Lt;
         !(function (u) {
           u.x22 = "22x22";
-        })(Tt || (Tt = {}));
-        const Lt = R.images.gui.maps.icons.roleExp.roles,
-          yt = R.strings.menu.roleExp,
-          Rt = (0, a.memo)(
+        })(Lt || (Lt = {}));
+        const yt = R.images.gui.maps.icons.roleExp.roles,
+          Rt = R.strings.menu.roleExp,
+          Ot = (0, a.memo)(
             ({
               role: u,
-              size: e = Tt.x22,
-              roleIconFolderPath: t = Lt.$dyn(`c_${e}`),
+              size: e = Lt.x22,
+              roleIconFolderPath: t = yt.$dyn(`c_${e}`),
               className: a,
               classNames: n,
             }) => {
               const i = iu(u);
               return r().createElement(
                 "div",
-                { className: h()(St.base, St[`base__${e}`], a) },
+                { className: h()(Tt.base, Tt[`base__${e}`], a) },
                 r().createElement(
                   "div",
-                  { className: h()(St.iconContainer, null == n ? void 0 : n.iconContainer) },
+                  { className: h()(Tt.iconContainer, null == n ? void 0 : n.iconContainer) },
                   r().createElement("div", {
-                    className: h()(St.icon, null == n ? void 0 : n.icon),
+                    className: h()(Tt.icon, null == n ? void 0 : n.icon),
                     style: { backgroundImage: `url(${null == t ? void 0 : t.$dyn(i)})` },
                   }),
                 ),
                 r().createElement(
                   "div",
-                  { className: h()(St.label, null == n ? void 0 : n.label) },
+                  { className: h()(Tt.label, null == n ? void 0 : n.label) },
                   r().createElement(Fu, {
-                    text: `${yt.roleName.$dyn(i)}`,
-                    binding: { groupName: yt.roleGroupName.$dyn(i) },
+                    text: `${Rt.roleName.$dyn(i)}`,
+                    binding: { groupName: Rt.roleGroupName.$dyn(i) },
                   }),
                 ),
               );
             },
           ),
-          Ot = "Vehicle_base_1a",
-          Nt = "Vehicle_base__small_ad",
-          Ht = "Vehicle_image_34",
-          kt = "Vehicle_image__small_76",
-          Pt = "Vehicle_details_7d",
-          It = "Vehicle_shortName_dd",
-          Wt = "Vehicle_level_12",
-          Gt = "Vehicle_vehicleName_21",
-          Ut = "Vehicle_typeIcon_1a",
-          Vt = "Vehicle_type_4f",
-          $t = "Vehicle_type__small_f9",
-          jt = { icon: "Vehicle_vehicleRoleIcon_2a", label: "Vehicle_vehicleRoleLabel_a5" },
-          Xt = R.images.comp7.gui.maps.icons.comp7.whatsNewView,
-          Kt = ({ vehicle: u, type: e }) => {
-            const t = h()(Ot, e === Ct.Small && Nt),
-              a = h()(Ht, e === Ct.Small && kt),
+          Nt = "Vehicle_base_1a",
+          Ht = "Vehicle_base__small_ad",
+          kt = "Vehicle_image_34",
+          Pt = "Vehicle_image__small_76",
+          It = "Vehicle_details_7d",
+          Wt = "Vehicle_shortName_dd",
+          Gt = "Vehicle_level_12",
+          Ut = "Vehicle_vehicleName_21",
+          Vt = "Vehicle_typeIcon_1a",
+          $t = "Vehicle_type_4f",
+          jt = "Vehicle_type__small_f9",
+          Xt = { icon: "Vehicle_vehicleRoleIcon_2a", label: "Vehicle_vehicleRoleLabel_a5" },
+          Kt = R.images.comp7.gui.maps.icons.comp7.whatsNewView,
+          Yt = ({ vehicle: u, type: e }) => {
+            const t = h()(Nt, e === ht.Small && Ht),
+              a = h()(kt, e === ht.Small && Pt),
               n = {
-                type: h()(Ut, Vt, e === Ct.Small && $t),
-                vehicleTypeContainer: h()(Ut, Vt),
-                shortName: It,
-                level: Wt,
+                type: h()(Vt, $t, e === ht.Small && jt),
+                vehicleTypeContainer: h()(Vt, $t),
+                shortName: Wt,
+                level: Gt,
               };
             return r().createElement(
               "div",
               { className: t },
               r().createElement("div", {
                 className: a,
-                style: { backgroundImage: `url(${Xt.vehiclesForRent.$dyn(u.techName)})` },
+                style: { backgroundImage: `url(${Kt.vehiclesForRent.$dyn(u.techName)})` },
               }),
               r().createElement(
                 "div",
-                { className: Pt },
-                r().createElement(Mt, {
+                { className: It },
+                r().createElement(St, {
                   name: u.name,
                   level: u.tier,
                   type: u.type,
                   isPremium: u.isPremium,
-                  size: ft.x48,
-                  className: Gt,
+                  size: wt.x48,
+                  className: Ut,
                   classNames: n,
-                  typeIconFolderPath: Xt.vehicleTypes,
+                  typeIconFolderPath: Kt.vehicleTypes,
                 }),
-                r().createElement(Rt, { role: u.roleKey, classNames: jt }),
+                r().createElement(Ot, { role: u.roleKey, classNames: Xt }),
               ),
             );
           },
-          Yt = "VehiclesForRentSlide_base_d0",
-          zt = "VehiclesForRentSlide_base__bigContainer_8d",
-          qt = "VehiclesForRentSlide_row_08",
-          Zt = "VehiclesForRentSlide_row__smallCards_86",
-          Qt = "VehiclesForRentSlide_vehicle_cd",
-          Jt = "VehiclesForRentSlide_vehicle__small_53",
-          ua = (0, Mu.Pi)(() => {
+          zt = "VehiclesForRentSlide_base_d0",
+          qt = "VehiclesForRentSlide_base__bigContainer_8d",
+          Zt = "VehiclesForRentSlide_row_08",
+          Qt = "VehiclesForRentSlide_row__smallCards_86",
+          Jt = "VehiclesForRentSlide_vehicle_cd",
+          ua = "VehiclesForRentSlide_vehicle__small_53",
+          ea = (0, Mu.Pi)(() => {
             const u = Ge().model.computes,
               e = u.getVehicleItems(),
               t = u.vehicleItemsLength(),
               a = t > 3,
               n = t > 4,
-              i = a ? Ct.Small : Ct.Normal,
-              s = h()(Yt, n && zt),
-              o = h()(Je, qt, a && Zt),
-              l = h()(ut, Qt, a && Jt);
+              i = a ? ht.Small : ht.Normal,
+              s = h()(zt, n && qt),
+              l = h()(ut, Zt, a && Qt),
+              o = h()(et, Jt, a && ua);
             return r().createElement(
               "div",
               { className: s },
               r().createElement(
                 "div",
-                { className: o },
+                { className: l },
                 e.map((e, t) =>
                   r().createElement(
                     "div",
-                    { className: l, key: t },
-                    r().createElement(Kt, { vehicle: u.getVehicleByIndex(t), type: i }),
+                    { className: o, key: t },
+                    r().createElement(Yt, { vehicle: u.getVehicleByIndex(t), type: i }),
                   ),
                 ),
               ),
             );
           }),
-          ea = { context: "model.scheduleInfo" },
-          ta = R.strings.comp7.whatsNewView,
-          aa = (0, Mu.Pi)(() => {
+          ta = { context: "model.scheduleInfo" },
+          aa = R.strings.comp7.whatsNewView,
+          ra = (u) => {
+            switch (u.pageType) {
+              case Oe.Maps:
+                return r().createElement(
+                  Je,
+                  { id: u.name, isHideDescription: !0 },
+                  r().createElement(Ct, null),
+                );
+              case Oe.SeasonVehicles:
+                return r().createElement(Je, { id: u.name }, r().createElement(ea, null));
+              default:
+                return r().createElement(Se, { id: u.name, contentFolderName: "whatsNewView" });
+            }
+          },
+          na = (0, Mu.Pi)(() => {
             const u = Ge(),
               e = u.controls,
               t = u.model.computes.getPages();
             return r().createElement(
               "div",
               { className: Ue },
-              r().createElement(Gu, { className: ku }, r().createElement(xu, { text: ta.title() })),
-              r().createElement(Zu, { options: ea }, r().createElement(he, null)),
+              r().createElement(Gu, { className: ku }, r().createElement(xu, { text: aa.title() })),
+              r().createElement(Zu, { options: ta }, r().createElement(he, null)),
               r().createElement(
                 "div",
                 { className: Ve },
-                r().createElement(ye, {
-                  slides: t.map((u) =>
-                    ((u) => {
-                      switch (u.pageType) {
-                        case Oe.Maps:
-                          return r().createElement(
-                            Qe,
-                            { id: u.name, isHideDescription: !0 },
-                            r().createElement(Bt, null),
-                          );
-                        case Oe.SeasonVehicles:
-                          return r().createElement(Qe, { id: u.name }, r().createElement(ua, null));
-                        default:
-                          return r().createElement(Se, {
-                            id: u.name,
-                            contentFolderName: "whatsNewView",
-                          });
-                      }
-                    })(u),
-                  ),
-                }),
+                1 === t.length
+                  ? r().createElement("div", { className: $e }, ra(t[0]))
+                  : r().createElement(ye, { slides: t.map((u) => ra(u)) }),
               ),
               r().createElement(
                 "div",
-                { className: $e },
+                { className: je },
                 r().createElement(
                   $,
-                  { type: G.primary, size: U.medium, mixClass: je, onClick: e.close },
-                  ta.confirmButton(),
+                  { type: G.primary, size: U.medium, mixClass: Xe, onClick: e.close },
+                  aa.confirmButton(),
                 ),
               ),
               r().createElement(Iu, { onClose: e.close }),
@@ -3258,7 +3255,7 @@
           });
         engine.whenReady.then(() => {
           k().render(
-            r().createElement(We, null, r().createElement(N, null, r().createElement(aa, null))),
+            r().createElement(We, null, r().createElement(N, null, r().createElement(na, null))),
             document.getElementById("root"),
           );
         });
@@ -3277,14 +3274,14 @@
     (__webpack_require__.O = (u, e, t, a) => {
       if (!e) {
         var r = 1 / 0;
-        for (o = 0; o < deferred.length; o++) {
-          for (var [e, t, a] = deferred[o], n = !0, i = 0; i < e.length; i++)
+        for (l = 0; l < deferred.length; l++) {
+          for (var [e, t, a] = deferred[l], n = !0, i = 0; i < e.length; i++)
             (!1 & a || r >= a) &&
             Object.keys(__webpack_require__.O).every((u) => __webpack_require__.O[u](e[i]))
               ? e.splice(i--, 1)
               : ((n = !1), a < r && (r = a));
           if (n) {
-            deferred.splice(o--, 1);
+            deferred.splice(l--, 1);
             var s = t();
             void 0 !== s && (u = s);
           }
@@ -3292,9 +3289,9 @@
         return u;
       }
       a = a || 0;
-      for (var o = deferred.length; o > 0 && deferred[o - 1][2] > a; o--)
-        deferred[o] = deferred[o - 1];
-      deferred[o] = [e, t, a];
+      for (var l = deferred.length; l > 0 && deferred[l - 1][2] > a; l--)
+        deferred[l] = deferred[l - 1];
+      deferred[l] = [e, t, a];
     }),
     (__webpack_require__.n = (u) => {
       var e = u && u.__esModule ? () => u.default : () => u;
@@ -3329,14 +3326,14 @@
           var a,
             r,
             [n, i, s] = t,
-            o = 0;
+            l = 0;
           if (n.some((e) => 0 !== u[e])) {
             for (a in i) __webpack_require__.o(i, a) && (__webpack_require__.m[a] = i[a]);
-            if (s) var l = s(__webpack_require__);
+            if (s) var o = s(__webpack_require__);
           }
-          for (e && e(t); o < n.length; o++)
-            ((r = n[o]), __webpack_require__.o(u, r) && u[r] && u[r][0](), (u[r] = 0));
-          return __webpack_require__.O(l);
+          for (e && e(t); l < n.length; l++)
+            ((r = n[l]), __webpack_require__.o(u, r) && u[r] && u[r][0](), (u[r] = 0));
+          return __webpack_require__.O(o);
         },
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(e.bind(null, 0)), (t.push = e.bind(null, t.push.bind(t))));

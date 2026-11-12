@@ -99,6 +99,11 @@ class SettingsWindowMeta(AbstractWindowView):
             return self.flashObject.as_showLimitedUISetting(isVisible)
         return
 
+    def as_showVehicleDifficultySettingsS(self, isVisible):
+        if self._isDAAPIInited():
+            return self.flashObject.as_showVehicleDifficultySettings(isVisible)
+        return
+
     def as_ConfirmationOfApplicationS(self, isApplied):
         if self._isDAAPIInited():
             return self.flashObject.as_ConfirmationOfApplication(isApplied)

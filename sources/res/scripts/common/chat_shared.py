@@ -1633,7 +1633,9 @@ SYS_MESSAGE_TYPE = Enumeration(b'systemMessageType', [
  439, 
  440, 
  441, 
- 442])
+ 442, 
+ 443, 
+ 444])
 SYS_MESSAGE_IMPORTANCE = Enumeration(b'systemMessageImportance', [
  b'normal',
  b'high'])

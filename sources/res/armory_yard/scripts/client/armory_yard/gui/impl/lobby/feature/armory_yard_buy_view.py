@@ -38,7 +38,7 @@ _VIEW_KEY_TO_PARENT_ALIASES = {value: key for key, value in _PARENT_ALIASES_TO_V
 _LOOTBOX_RES = R.views.dyn(b'gui_lootboxes').dyn(b'lobby').dyn(b'gui_lootboxes').dyn(b'tooltips').dyn(b'LootboxTooltip')
 
 class ArmoryYardBuyView(ViewImpl):
-    __slots__ = (b'__tooltipData', b'__selectedStep', b'__prevPassedStep', b'_isBuyPostProgressionTokensState', b'__blur', b'__onLoadedCallback', b'__onClosedCallback')
+    __slots__ = (b'__tooltipData', b'__selectedStep', b'__prevPassedStep', b'__blur', b'__onLoadedCallback', b'__onClosedCallback')
     __armoryYardCtrl = dependency.descriptor(IArmoryYardController)
     __lobbyContext = dependency.descriptor(ILobbyContext)
     __itemsCache = dependency.descriptor(IItemsCache)
@@ -52,7 +52,6 @@ class ArmoryYardBuyView(ViewImpl):
         self.__tooltipData = {(ArmoryYardBuyViewModel.STEP_VEHICLE_TOOLTIP_TYPE): {}, (ArmoryYardBuyViewModel.FINAL_REWARD_TOOLTIP_TYPE): {}, (ArmoryYardBuyViewModel.MERGED_REWARD_TOOLTIP_TYPE): {}}
         self.__selectedStep = 0
         self.__prevPassedStep = 0
-        self._isBuyPostProgressionTokensState = self.__armoryYardCtrl.isPostProgressionState
         self.__blur = CachedBlur(ownLayer=self.layer - 1) if isBlurEnabled else None
         self.__onLoadedCallback = onLoadedCallback
         self.__onClosedCallback = onClosedCallback
@@ -118,11 +117,10 @@ class ArmoryYardBuyView(ViewImpl):
             if len(setCurrencies) == 1 and setCurrencies[0] == Currency.GOLD:
                 showBuyGoldForArmoryYard(price)
             return
-        isPostProgression = self.__armoryYardCtrl.isPostProgressionState
         action = factory.getAction(BUY_STEP_TOKENS, stepCount, currency)
         result = yield factory.asyncDoAction(action)
         if result:
-            self.__armoryYardCtrl.onPayed(isPostProgression, stepCount, price, currency)
+            self.__armoryYardCtrl.onPayed(stepCount, price, currency)
             self.destroyWindow(fromScene=True)
         else:
             self.__armoryYardCtrl.onPayedError()
@@ -217,10 +215,8 @@ class ArmoryYardBuyView(ViewImpl):
         return
 
     def __getCurrentStepsRange(self):
-        isPostProgression = self.__armoryYardCtrl.isPostProgressionState
-        startPostProgressionStep = self.__armoryYardCtrl.startStepOfPostProgression
-        stepsFrom = startPostProgressionStep if isPostProgression else 1
-        stepsTo = self.__armoryYardCtrl.maxNumberOfSteps if isPostProgression else startPostProgressionStep
+        stepsFrom = 1
+        stepsTo = self.__armoryYardCtrl.maxNumberOfSteps
         return (
          stepsFrom, stepsTo)
 
@@ -231,7 +227,6 @@ class ArmoryYardBuyView(ViewImpl):
         model.setFinishStep(stepsTo)
         model.setStepSelected(self.__selectedStep)
         model.setStepsPassed(self.__getPassedSteps())
-        model.setIsPostProgressionState(self.__armoryYardCtrl.isPostProgressionState)
         window = self.getParentWindow()
         parentWindow = window.parent if window is not None else None
         parentView = parentWindow.content if parentWindow is not None else None
@@ -296,7 +291,7 @@ class ArmoryYardBuyView(ViewImpl):
 
     def __calcSelectedStep(self):
         stepsDiff = max(self.__selectedStep - self.__prevPassedStep, 1)
-        maxNumberOfSteps = self.__armoryYardCtrl.maxNumberOfSteps if self._isBuyPostProgressionTokensState else self.__armoryYardCtrl.startStepOfPostProgression
+        maxNumberOfSteps = self.__armoryYardCtrl.maxNumberOfSteps
         return min(self.__getPassedSteps() + stepsDiff, maxNumberOfSteps)
 
     def __updatePassedSteps(self, model):
@@ -324,10 +319,6 @@ class ArmoryYardBuyView(ViewImpl):
 
         rewardsList = splitBonuses(mergeBonuses(rewardsList))
         rewardsList.sort(key=bonusesSortKeyFunc)
-        for idx, value in enumerate(rewardsList):
-            if value.getName() == b'battleToken' and value.getValue().get(b'ny24_yaga') is not None:
-                rewardsList.pop(idx)
-
         if len(rewardsList) > ArmoryYardBuyViewModel.MAX_VISIBLE_REWARDS:
             packBonusModelAndTooltipData(rewardsList[:ArmoryYardBuyViewModel.MAX_VISIBLE_REWARDS - 1], rewards, self.__tooltipData[ArmoryYardBuyViewModel.MERGED_REWARD_TOOLTIP_TYPE], packer=getArmoryYardBonusPacker())
             packRestModel(rewardsList[ArmoryYardBuyViewModel.MAX_VISIBLE_REWARDS - 1:], rewards, self.__tooltipData[ArmoryYardBuyViewModel.MERGED_REWARD_TOOLTIP_TYPE], ArmoryYardBuyViewModel.MAX_VISIBLE_REWARDS - 1)
@@ -337,25 +328,25 @@ class ArmoryYardBuyView(ViewImpl):
         return
 
     def __fillFinalReward(self, model):
-        if self.__armoryYardCtrl.isPostProgressionState:
-            customization = self.__armoryYardCtrl.getStepsRewards()[self.__armoryYardCtrl.getFinalPostProgressionRewardStep()]
-            itemType, itemID = first(customization.items())
-            stepReward = first(getNonQuestBonuses(itemType, itemID))
-            packer = getArmoryYardBonusPacker()
-            bTooltip = first(packer.getToolTip(stepReward))
-            bContentId = first(packer.getContentId(stepReward))
-            tooltipIndex = str(len(self.__tooltipData))
-            self.__tooltipData[ArmoryYardBuyViewModel.FINAL_REWARD_TOOLTIP_TYPE][tooltipIndex] = bTooltip
-            model.finalReward.setTooltipId(tooltipIndex)
-            model.finalReward.setTooltipContentId(str(bContentId))
-        else:
-            finalRewardVehicle = self.__armoryYardCtrl.getFinalRewardVehicle()
-            if finalRewardVehicle:
-                packVehicleModel(model.finalReward, finalRewardVehicle)
-                self.__tooltipData[ArmoryYardBuyViewModel.FINAL_REWARD_TOOLTIP_TYPE] = {b'0': (backport.createTooltipData(isSpecial=True, specialAlias=TOOLTIPS_CONSTANTS.ARMORY_YARD_AWARD_VEHICLE, specialArgs=[
-                        finalRewardVehicle.intCD]))}
-                model.finalReward.setTooltipContentId(str(BACKPORT_TOOLTIP_CONTENT_ID))
-                model.finalReward.setTooltipId(b'0')
+        tooltipIndex = 0
+        tooltipType = ArmoryYardBuyViewModel.FINAL_REWARD_TOOLTIP_TYPE
+        finalRewardVehicle = self.__armoryYardCtrl.getFinalRewardVehicle()
+        if finalRewardVehicle:
+            packVehicleModel(model.finalRewardMain, finalRewardVehicle)
+            self.__tooltipData[tooltipType][str(tooltipIndex)] = backport.createTooltipData(isSpecial=True, specialAlias=TOOLTIPS_CONSTANTS.ARMORY_YARD_AWARD_VEHICLE, specialArgs=[
+             finalRewardVehicle.intCD])
+            model.finalRewardMain.setTooltipContentId(str(BACKPORT_TOOLTIP_CONTENT_ID))
+            model.finalRewardMain.setTooltipId(str(tooltipIndex))
+        tooltipIndex += 1
+        customization = self.__armoryYardCtrl.getStepsRewards()[self.__armoryYardCtrl.getFinalPostProgressionRewardStep()]
+        itemType, itemID = first(customization.items())
+        stepReward = first(getNonQuestBonuses(itemType, itemID))
+        packer = getArmoryYardBonusPacker()
+        bTooltip = first(packer.getToolTip(stepReward))
+        bContentId = first(packer.getContentId(stepReward))
+        self.__tooltipData[tooltipType][str(tooltipIndex)] = bTooltip
+        model.finalRewardPostProgression.setTooltipId(str(tooltipIndex))
+        model.finalRewardPostProgression.setTooltipContentId(str(bContentId))
         return
 
     def __onStatsUpdated(self, _):

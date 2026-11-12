@@ -60,4 +60,6 @@ def getScaleformConfig(manager):
     listener = TechTreeEventsListener()
     listener.init()
     manager.addInstance(ITechTreeEventsListener, listener, finalizer=b'fini')
+    from gui.Scaleform.daapi.view.lobby.hangar import getHangarConfig
+    manager.addConfig(getHangarConfig)
     return

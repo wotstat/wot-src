@@ -17,7 +17,7 @@ class VehicleTechTreeModel(ViewModel):
     BLUEPRINT_FRAGMENT_INFO = b'blueprintFragmentInfo'
     TECHTREE_NATION_TOOLTIP = b'techtreeNationTooltip'
 
-    def __init__(self, properties=23, commands=16):
+    def __init__(self, properties=25, commands=16):
         super(VehicleTechTreeModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -147,18 +147,25 @@ class VehicleTechTreeModel(ViewModel):
         self._setNumber(16, value)
         return
 
+    def getMaxDifficulty(self):
+        return self._getNumber(17)
+
+    def setMaxDifficulty(self, value):
+        self._setNumber(17, value)
+        return
+
     def getClosePremiumPanelTrigger(self):
-        return self._getReal(17)
+        return self._getReal(18)
 
     def setClosePremiumPanelTrigger(self, value):
-        self._setReal(17, value)
+        self._setReal(18, value)
         return
 
     def getNodes(self):
-        return self._getArray(18)
+        return self._getArray(19)
 
     def setNodes(self, value):
-        self._setArray(18, value)
+        self._setArray(19, value)
         return
 
     @staticmethod
@@ -166,10 +173,10 @@ class VehicleTechTreeModel(ViewModel):
         return NodeTechTreeModel
 
     def getNodesRelation(self):
-        return self._getArray(19)
+        return self._getArray(20)
 
     def setNodesRelation(self, value):
-        self._setArray(19, value)
+        self._setArray(20, value)
         return
 
     @staticmethod
@@ -177,10 +184,10 @@ class VehicleTechTreeModel(ViewModel):
         return NodeRelation
 
     def getVehiclesData(self):
-        return self._getArray(20)
+        return self._getArray(21)
 
     def setVehiclesData(self, value):
-        self._setArray(20, value)
+        self._setArray(21, value)
         return
 
     @staticmethod
@@ -188,10 +195,10 @@ class VehicleTechTreeModel(ViewModel):
         return VehicleNodeData
 
     def getParagonsUnlockedBranchesToShow(self):
-        return self._getArray(21)
+        return self._getArray(22)
 
     def setParagonsUnlockedBranchesToShow(self, value):
-        self._setArray(21, value)
+        self._setArray(22, value)
         return
 
     @staticmethod
@@ -199,15 +206,22 @@ class VehicleTechTreeModel(ViewModel):
         return ParagonsUnlockedBranch
 
     def getTechTreeButtons(self):
-        return self._getArray(22)
+        return self._getArray(23)
 
     def setTechTreeButtons(self, value):
-        self._setArray(22, value)
+        self._setArray(23, value)
         return
 
     @staticmethod
     def getTechTreeButtonsType():
         return TechTreeButtons
+
+    def getShowDifficulty(self):
+        return self._getBool(24)
+
+    def setShowDifficulty(self, value):
+        self._setBool(24, value)
+        return
 
     def _initialize(self):
         super(VehicleTechTreeModel, self)._initialize()
@@ -228,12 +242,14 @@ class VehicleTechTreeModel(ViewModel):
         self._addBoolProperty(b'isParagonsResetBranchNeedToShow', False)
         self._addBoolProperty(b'isParagonsEnabled', False)
         self._addNumberProperty(b'earlyAccessCurrentTokens', 0)
+        self._addNumberProperty(b'maxDifficulty', 3)
         self._addRealProperty(b'closePremiumPanelTrigger', 0.0)
         self._addArrayProperty(b'nodes', Array())
         self._addArrayProperty(b'nodesRelation', Array())
         self._addArrayProperty(b'vehiclesData', Array())
         self._addArrayProperty(b'paragonsUnlockedBranchesToShow', Array())
         self._addArrayProperty(b'techTreeButtons', Array())
+        self._addBoolProperty(b'showDifficulty', False)
         self.onNationChange = self._addCommand(b'onNationChange')
         self.goToCollectionVehicle = self._addCommand(b'goToCollectionVehicle')
         self.goToBlueprintView = self._addCommand(b'goToBlueprintView')

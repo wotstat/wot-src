@@ -104,9 +104,6 @@
 			<offset>0 0 0 0</offset>
 		</transform>
 	</oliveTransform>
-	<eventPurpleColor>
-		<alias_color>eventPurple</alias_color>
-	</eventPurpleColor>
 	<selectedOrSquadDeadSchema>
 		<default>
 			<schemeGroup>brownColor</schemeGroup>
@@ -1436,9 +1433,6 @@
 	<capture_bar_gray>
 		<schemeGroup>grayColor</schemeGroup>
 	</capture_bar_gray>
-	<capture_bar_eventPurple>
-		<schemeGroup>eventPurpleColor</schemeGroup>
-	</capture_bar_eventPurple>
 	<flag_team_green>
 		<schemeGroup>allySchema</schemeGroup>
 		<default>

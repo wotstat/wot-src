@@ -13,8 +13,6 @@ package net.wg.gui.components.ribbon.data
       
       protected var _large:String;
       
-      protected var _bgType:String;
-      
       public function BackgroundAtlasNames(param1:String)
       {
          super();
@@ -60,7 +58,6 @@ package net.wg.gui.components.ribbon.data
                this._medium = COMMONBATTLELOBBY.RIBBONS_BG_PERK_MEDIUM;
                this._large = COMMONBATTLELOBBY.RIBBONS_BG_PERK_LARGE;
          }
-         this._bgType = param1;
       }
       
       public function get small() : String
@@ -76,11 +73,6 @@ package net.wg.gui.components.ribbon.data
       public function get large() : String
       {
          return this._large;
-      }
-      
-      public function get bgType() : String
-      {
-         return this._bgType;
       }
    }
 }

@@ -4,7 +4,7 @@ from frameworks.wulf import ViewModel
 class VideoViewModel(ViewModel):
     __slots__ = (b'onCloseBtnClick', b'onVideoStarted', b'onVideoStopped', b'onLoadError')
 
-    def __init__(self, properties=6, commands=4):
+    def __init__(self, properties=8, commands=4):
         super(VideoViewModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -50,6 +50,20 @@ class VideoViewModel(ViewModel):
         self._setBool(5, value)
         return
 
+    def getCanEscape(self):
+        return self._getBool(6)
+
+    def setCanEscape(self, value):
+        self._setBool(6, value)
+        return
+
+    def getUiShowDelay(self):
+        return self._getNumber(7)
+
+    def setUiShowDelay(self, value):
+        self._setNumber(7, value)
+        return
+
     def _initialize(self):
         super(VideoViewModel, self)._initialize()
         self._addResourceProperty(b'videoSource', R.invalid())
@@ -58,6 +72,8 @@ class VideoViewModel(ViewModel):
         self._addBoolProperty(b'isUIVisible', False)
         self._addBoolProperty(b'isVignetteVisible', True)
         self._addBoolProperty(b'isAutoClose', True)
+        self._addBoolProperty(b'canEscape', True)
+        self._addNumberProperty(b'uiShowDelay', -1)
         self.onCloseBtnClick = self._addCommand(b'onCloseBtnClick')
         self.onVideoStarted = self._addCommand(b'onVideoStarted')
         self.onVideoStopped = self._addCommand(b'onVideoStopped')

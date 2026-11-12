@@ -14,6 +14,8 @@ package net.wg.gui.components.carousels.data
       
       private static const LEVELS_TYPES:String = "levels";
       
+      private static const DIFFICULTIES:String = "difficulties";
+      
       private static const SPECIALS:String = "specials";
       
       private static const HIDDEN:String = "hidden";
@@ -29,6 +31,8 @@ package net.wg.gui.components.carousels.data
       public var vehicleTypesLabel:String = "";
       
       public var levelsLabel:String = "";
+      
+      public var difficultiesLabel:String = "";
       
       public var specialsLabel:String = "";
       
@@ -54,6 +58,8 @@ package net.wg.gui.components.carousels.data
       
       public var tankTierSectionVisible:Boolean = false;
       
+      public var difficultiesSectionVisible:Boolean = false;
+      
       public var searchSectionVisible:Boolean = false;
       
       public var progressionsSectionVisible:Boolean = false;
@@ -67,6 +73,8 @@ package net.wg.gui.components.carousels.data
       public var vehicleTypesSectionId:int = -1;
       
       public var levelsSectionId:int = -1;
+      
+      public var difficultiesSectionId:int = -1;
       
       public var specialSectionId:int = -1;
       
@@ -88,6 +96,8 @@ package net.wg.gui.components.carousels.data
       
       private var _levels:DataProvider = null;
       
+      private var _difficulties:DataProvider = null;
+      
       private var _specials:DataProvider = null;
       
       private var _hidden:DataProvider = null;
@@ -106,6 +116,7 @@ package net.wg.gui.components.carousels.data
          var _loc4_:Object = null;
          var _loc5_:Object = null;
          var _loc6_:Object = null;
+         var _loc7_:Object = null;
          var _loc3_:Object = null;
          if(param1 == NATIONS_TYPES)
          {
@@ -131,6 +142,15 @@ package net.wg.gui.components.carousels.data
             for each(_loc6_ in param2)
             {
                this._levels.push(new SimpleRendererVO(_loc6_));
+            }
+            return false;
+         }
+         if(param1 == DIFFICULTIES)
+         {
+            this._difficulties = new DataProvider();
+            for each(_loc7_ in param2)
+            {
+               this._difficulties.push(new SimpleRendererVO(_loc7_));
             }
             return false;
          }
@@ -184,6 +204,15 @@ package net.wg.gui.components.carousels.data
          {
             _loc1_.dispose();
          }
+         if(this._difficulties != null)
+         {
+            for each(_loc1_ in this._difficulties)
+            {
+               _loc1_.dispose();
+            }
+            this._difficulties.cleanUp();
+            this._difficulties = null;
+         }
          for each(_loc1_ in this._specials)
          {
             _loc1_.dispose();
@@ -231,6 +260,11 @@ package net.wg.gui.components.carousels.data
       public function get levels() : DataProvider
       {
          return this._levels;
+      }
+      
+      public function get difficulties() : DataProvider
+      {
+         return this._difficulties;
       }
       
       public function get nations() : DataProvider

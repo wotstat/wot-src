@@ -297,7 +297,7 @@ BATTLE_RESULTS = [
  (
   b'eventEquipCoinList', list, [], None, b'skip', ENTRY_TYPE.VEHICLE_SELF),
  (
-  b'eventCreditsFactor100List', list, [], None, b'skip', ENTRY_TYPE.VEHICLE_SELF),
+  b'eventCreditsFactor1000List', list, [], None, b'skip', ENTRY_TYPE.VEHICLE_SELF),
  (
   b'eventXPFactor100List', list, [], None, b'skip', ENTRY_TYPE.VEHICLE_SELF),
  (

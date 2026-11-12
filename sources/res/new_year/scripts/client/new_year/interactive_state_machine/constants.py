@@ -1,0 +1,16 @@
+from helpers.time_utils import ONE_MINUTE
+
+class PersonaTypes(object):
+    OLD_MAN = b'oldMan'
+    CELEB_MAN = b'celebMan'
+    CELEB_WOMAN = b'celebWoman'
+    ALL = (
+     OLD_MAN, CELEB_MAN, CELEB_WOMAN)
+
+
+COOL_REWARD_CYCLE = 1
+SIMPLE_REWARD_CYCLE = 5
+GIFT_TOKEN_THRESHOLD = 5
+MANDARINS_THRESHOLD = 5
+NEW_ENTER_COOLDOWN = 6 * ONE_MINUTE
+INACTIVITY_THRESHOLD_RANGE = (1.0 * ONE_MINUTE, 2.0 * ONE_MINUTE)

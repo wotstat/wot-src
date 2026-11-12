@@ -10,6 +10,7 @@ class TankAcademyMainViewModel(ViewModel):
     BOX_TOOLTIP_ARG_QUEST_INDEX = b'questIndex'
     ARG_SHOW_QUEST_TUTORIAL = b'questNumber'
     ARG_SHOW_QUEST_VEHICLE = b'questNumber'
+    ARG_VIEW_VEHICLES = b'questNumber'
     ARG_USE_QUEST_TOKEN = b'questNumber'
     ARG_QUEST_ID = b'questID'
     ARG_TOKEN_ID = b'tokenID'

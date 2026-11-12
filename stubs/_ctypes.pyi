@@ -49,6 +49,6 @@ byref: Any
 get_errno: Any
 get_last_error: Any
 pointer: Any
-resize: Final[int] = 6
+resize: Any
 set_errno: Any
 set_last_error: Any

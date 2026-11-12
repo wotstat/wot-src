@@ -53,6 +53,7 @@ class QUESTS(object):
     BONUSES_ITEM_PREMIUMPLUS = b'#quests:bonuses/item/premiumPlus'
     BONUSES_ITEM_CREWSKIN = b'#quests:bonuses/item/crewSkin'
     BONUSES_ITEM_LOOTBOXES = b'#quests:bonuses/item/lootBoxes'
+    BONUSES_ITEM_LOOTBOXESMACHINE = b'#quests:bonuses/item/lootBoxesMachine'
     BONUSES_ITEM_LOCKPICK = b'#quests:bonuses/item/lockpick'
     BONUSES_ITEM_LOOTBOXKEY = b'#quests:bonuses/item/lootBoxKey'
     BONUSES_ITEM_EARLYACCESSTOKEN = b'#quests:bonuses/item/earlyAccessToken'
@@ -85,6 +86,10 @@ class QUESTS(object):
     BONUSES_ITEM_TANKMEN_NO_SKILLS = b'#quests:bonuses/item/tankmen/no_skills'
     BONUSES_ITEM_TANKMEN_WITH_SKILLS = b'#quests:bonuses/item/tankmen/with_skills'
     BONUSES_NOTAVAILABLE = b'#quests:bonuses/notAvailable'
+    BONUSNAME_NY22FILLERS = b'#quests:bonusName/ny22Fillers'
+    BONUSNAME_NEWYEARSLOT = b'#quests:bonusName/newYearSlot'
+    BONUSES_VARIADICDISCOUNT_DISCOUNTAMOUNT = b'#quests:bonuses/variadicDiscount/discountAmount'
+    BONUSES_VARIADICDISCOUNT_BUTTONLABEL = b'#quests:bonuses/variadicDiscount/buttonLabel'
     QUESTS_TITLE = b'#quests:quests/title'
     QUESTS_TITLE_MANEUVERSQUESTS = b'#quests:quests/title/maneuversQuests'
     QUESTS_TITLE_CURRENTLYAVAILABLE = b'#quests:quests/title/currentlyAvailable'
@@ -966,7 +971,6 @@ class QUESTS(object):
     DETAILS_DOSSIER_42_BATTLESCOUNT = b'#quests:details/dossier/42/battlesCount'
     DETAILS_DOSSIER_43_BATTLESCOUNT = b'#quests:details/dossier/43/battlesCount'
     DETAILS_DOSSIER_50_BATTLESCOUNT = b'#quests:details/dossier/50/battlesCount'
-    DETAILS_DOSSIER_61_BATTLESCOUNT = b'#quests:details/dossier/61/battlesCount'
     DETAILS_MODIFIERS_TITLE_DISCOUNT = b'#quests:details/modifiers/title/discount'
     DETAILS_MODIFIERS_TITLE_SELLING = b'#quests:details/modifiers/title/selling'
     DETAILS_MODIFIERS_TITLE_AVAILABILITY = b'#quests:details/modifiers/title/availability'
@@ -1280,6 +1284,7 @@ class QUESTS(object):
     BONUSNAME_ENTITLEMENTS_TESTENTITLEMENT = b'#quests:bonusName/entitlements/testEntitlement'
     BONUSNAME_ENTITLEMENTS_RANKED_2020_DISCOUNT = b'#quests:bonusName/entitlements/ranked_2020_discount'
     BONUSNAME_ENTITLEMENTS_RANKED_202203_ACCESS = b'#quests:bonusName/entitlements/ranked_202203_access'
+    BONUSNAME_ENTITLEMENTS_NY27_MARKETPLACE_UNLOCK = b'#quests:bonusName/entitlements/ny27_marketplace_unlock'
     BONUSNAME_ENTITLEMENTS_PARAGON_REWARDS_CHOICE_V_11 = b'#quests:bonusName/entitlements/paragon_rewards_choice_v_11'
     BONUSNAME_ENTITLEMENTS_SHEVENTS_CLAN_COUPON = b'#quests:bonusName/entitlements/shevents_clan_coupon'
     BONUSNAME_ENTITLEMENTS_SHEVENTS_CLAN_CHEVRON = b'#quests:bonusName/entitlements/shevents_clan_chevron'
@@ -1300,6 +1305,9 @@ class QUESTS(object):
     BONUSNAME_BUMBLEBEE_COIN = b'#quests:bonusName/bumblebee_coin'
     BONUSNAME_HONEY_COIN = b'#quests:bonusName/honey_coin'
     BONUSNAME_REWARDSSLOTS = b'#quests:bonusName/rewardsSlots'
+    BONUSNAME_NYRFOOD = b'#quests:bonusName/nyrfood'
+    BONUSNAME_NYRFUN = b'#quests:bonusName/nyrfun'
+    BONUSNAME_NYRACTIV = b'#quests:bonusName/nyractiv'
     ACTION_AUTO_CALENDAR = b'#quests:action/auto/calendar'
     ACTION_FULL_CALENDAR = b'#quests:action/full/calendar'
     ACTION_HERO_FULL_CALENDAR = b'#quests:action/hero/full/calendar'
@@ -1741,10 +1749,13 @@ class QUESTS(object):
     INFOPAGE_DAILYMISSIONTITLE = b'#quests:infoPage/dailyMissionTitle'
     INFOPAGE_PREMIUMMISSIONSTITLE = b'#quests:infoPage/premiumMissionsTitle'
     INFOPAGE_DAILYMISSIONS_DEFAULT = b'#quests:infoPage/dailyMissions/default'
+    DAILYQUESTS_INFO_NYDAILYMISSIONS = b'#quests:dailyQuests/info/NYDailyMissions'
+    DAILYQUESTS_INFO_DAILYMISSIONTITLE = b'#quests:dailyQuests/info/dailyMissionTitle'
     INFOPAGE_DAILYMISSIONS_SUBSCRIPTION_DEFAULT = b'#quests:infoPage/dailyMissions/subscription/default'
     INFOPAGE_DAILYMISSIONS_BATTLEPASSDAILYMISSIONS_DEFAULT = b'#quests:infoPage/dailyMissions/battlePassDailyMissions/default'
     INFOPAGE_DAILYMISSIONS_WINBACK = b'#quests:infoPage/dailyMissions/winback'
     INFOPAGE_DAILYMISSIONS_BATTLEPASSDAILYMISSIONS_WINBACK = b'#quests:infoPage/dailyMissions/battlePassDailyMissions/winback'
+    DAILYQUESTS_INFO_GIFTSYSTEMDISABLEDDAILYMISSIONS = b'#quests:dailyQuests/info/giftSystemDisabledDailyMissions'
     INFOPAGE_PREMIUMMISSIONS_DEFAULT = b'#quests:infoPage/premiumMissions/default'
     INFOPAGE_PREMIUMMISSIONS_WINBACK = b'#quests:infoPage/premiumMissions/winback'
     INFOPAGE_PREMIUMMISSIONS_WINBACK_COMP7ACTIVE = b'#quests:infoPage/premiumMissions/winback_comp7Active'
@@ -1762,6 +1773,9 @@ class QUESTS(object):
     INFOPAGE_MISSIONSWITCH_HRS = b'#quests:infoPage/missionSwitch_hrs'
     INFOPAGE_MISSIONSWITCH_MIN = b'#quests:infoPage/missionSwitch_min'
     INFOPAGE_MISSIONSWITCH_WINBACK = b'#quests:infoPage/missionSwitch/winback'
+    INFOPAGE_LOOTBOXCONDITIONSTITLE = b'#quests:infoPage/lootboxConditionsTitle'
+    INFOPAGE_LOOTBOXCONDITIONS_DEFAULT = b'#quests:infoPage/lootboxConditions/default'
+    INFOPAGE_LOOTBOXCONDITIONS_BUTTON = b'#quests:infoPage/lootboxConditions/button'
     DAILYQUESTS_CONDITION_DODAMAGE = b'#quests:dailyQuests/condition/doDamage'
     DAILYQUESTS_CONDITION_EARNEXP = b'#quests:dailyQuests/condition/earnExp'
     DAILYQUESTS_CONDITION_DESTROYMODULE_FEW = b'#quests:dailyQuests/condition/destroyModule_few'
@@ -1859,8 +1873,14 @@ class QUESTS(object):
     SWITCH_ISWEEKLYENABLED = b'#quests:switch/isWeeklyEnabled'
     SWITCH_ISWEEKLYENABLEDTITLE = b'#quests:switch/isWeeklyEnabledTitle'
     BONUSNAME_GOLDENTICKET = b'#quests:bonusName/goldenticket'
-    BONUSNAME_RAZLOM_COIN = b'#quests:bonusName/razlom_coin'
-    BONUSNAME_ENTITLEMENTS_RAZLOMSUPERCOIN = b'#quests:bonusName/entitlements/razlomsupercoin'
+    BONUSNAME_PAINTCOIN = b'#quests:bonusName/paintcoin'
+    LOOTBOX_BOXCOUNT = b'#quests:lootBox/boxCount'
+    LOOTBOX_BOXESLABEL = b'#quests:lootBox/boxesLabel'
+    DAILYWIDGET_NYCARD_TITLE = b'#quests:dailyWidget/nyCard/title'
+    DAILYWIDGET_NYCARD_TOOLTIP_HEADER = b'#quests:dailyWidget/nyCard/tooltip/header'
+    DAILYWIDGET_NYCARD_TOOLTIP_BODY_DEFAULT = b'#quests:dailyWidget/nyCard/tooltip/body/default'
+    DAILYWIDGET_NYCARD_TOOLTIP_BODY_DONE = b'#quests:dailyWidget/nyCard/tooltip/body/done'
+    DAILYWIDGET_NYCARD_TOOLTIP_BODY_DISABLED = b'#quests:dailyWidget/nyCard/tooltip/body/disabled'
     TOKEN_DEFAULT_ENUM = (
      TOKEN_DEFAULT_USSR,
      TOKEN_DEFAULT_GERMANY,
@@ -1906,6 +1926,8 @@ class QUESTS(object):
      BONUSNAME_PARAGONSUNLOCKS,
      BONUSNAME_TMANTOKEN,
      BONUSNAME_STYLEPROGRESS,
+     BONUSNAME_NY22FILLERS,
+     BONUSNAME_NEWYEARSLOT,
      BONUSNAME_CREDITS,
      BONUSNAME_GOLD,
      BONUSNAME_CRYSTAL,
@@ -1974,6 +1996,7 @@ class QUESTS(object):
      BONUSNAME_ENTITLEMENTS_TESTENTITLEMENT,
      BONUSNAME_ENTITLEMENTS_RANKED_2020_DISCOUNT,
      BONUSNAME_ENTITLEMENTS_RANKED_202203_ACCESS,
+     BONUSNAME_ENTITLEMENTS_NY27_MARKETPLACE_UNLOCK,
      BONUSNAME_ENTITLEMENTS_PARAGON_REWARDS_CHOICE_V_11,
      BONUSNAME_ENTITLEMENTS_SHEVENTS_CLAN_COUPON,
      BONUSNAME_ENTITLEMENTS_SHEVENTS_CLAN_CHEVRON,
@@ -1994,9 +2017,11 @@ class QUESTS(object):
      BONUSNAME_BUMBLEBEE_COIN,
      BONUSNAME_HONEY_COIN,
      BONUSNAME_REWARDSSLOTS,
+     BONUSNAME_NYRFOOD,
+     BONUSNAME_NYRFUN,
+     BONUSNAME_NYRACTIV,
      BONUSNAME_GOLDENTICKET,
-     BONUSNAME_RAZLOM_COIN,
-     BONUSNAME_ENTITLEMENTS_RAZLOMSUPERCOIN)
+     BONUSNAME_PAINTCOIN)
     ACTION_ENUM = (
      ACTION_AUTO_CALENDAR,
      ACTION_FULL_CALENDAR,
@@ -2393,8 +2418,7 @@ class QUESTS(object):
      DETAILS_DOSSIER_39_BATTLESCOUNT,
      DETAILS_DOSSIER_42_BATTLESCOUNT,
      DETAILS_DOSSIER_43_BATTLESCOUNT,
-     DETAILS_DOSSIER_50_BATTLESCOUNT,
-     DETAILS_DOSSIER_61_BATTLESCOUNT)
+     DETAILS_DOSSIER_50_BATTLESCOUNT)
     PERSONALMISSION_STATUS_ADDBOTTOM_VEHICLETYPE_ENUM = (
      PERSONALMISSION_STATUS_ADDBOTTOM_VEHICLETYPE_ALLIANCE_USSR,
      PERSONALMISSION_STATUS_ADDBOTTOM_VEHICLETYPE_ALLIANCE_GERMANY,

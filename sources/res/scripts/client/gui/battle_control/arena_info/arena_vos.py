@@ -209,10 +209,6 @@ class PlayerInfoVO(object):
     def __cmp__(self, other):
         return cmp(self.name, other.name)
 
-    @property
-    def isBot(self):
-        return self.accountDBID <= 0
-
     def update(self, invalidate=_INVALIDATE_OP.NONE, name=None, accountDBID=0, avatarSessionID=b'', clanAbbrev=b'', isPrebattleCreator=False, igrType=IGR_TYPE.NONE, forbidInBattleInvitations=False, fakeName=b'', **kwargs):
         if name != self.name:
             self.name = name
@@ -409,10 +405,6 @@ class VehicleArenaInfoVO(object):
     def selectedSuffixBadge(self):
         return self.__suffixBadge
 
-    @property
-    def isBot(self):
-        return self.player.isBot
-
     def getBadgeExtraInfo(self):
         if self.badges:
             _, extraInfo = self.badges
@@ -471,13 +463,6 @@ class VehicleArenaInfoVO(object):
             invalidate = _INVALIDATE_OP.addIfNot(invalidate, _INVALIDATE_OP.VEHICLE_INFO)
         return invalidate
 
-    def updateCommonInfo(self, invalidate=_INVALIDATE_OP.NONE, team=None, **kwargs):
-        if team is not None:
-            if self.team ^ team:
-                self.team = team
-                invalidate = _INVALIDATE_OP.addIfNot(invalidate, _INVALIDATE_OP.VEHICLE_INFO)
-        return invalidate
-
     def updateGameModeSpecificStats(self, *args):
         return self.gameModeSpecific.update(*args)
 
@@ -500,7 +485,6 @@ class VehicleArenaInfoVO(object):
         invalidate = self.updateInvitationStatus(invalidate=invalidate, **kwargs)
         invalidate = self.updateRanked(invalidate=invalidate, **kwargs)
         invalidate = self.updateEvents(invalidate=invalidate, **kwargs)
-        invalidate = self.updateCommonInfo(invalidate=invalidate, **kwargs)
         return invalidate
 
     def getSquadID(self):
@@ -574,7 +558,7 @@ class VehicleArenaInfoVO(object):
 
     def isChatCommandsDisabled(self, isAlly):
         arena = avatar_getter.getArena()
-        isEvent = arena.guiType in (ARENA_GUI_TYPE.EVENT_BATTLES, ARENA_GUI_TYPE.PORTAL) if arena else False
+        isEvent = arena.guiType == ARENA_GUI_TYPE.EVENT_BATTLES if arena else False
         if not (self.player.avatarSessionID or isEvent):
             if isAlly:
                 return True

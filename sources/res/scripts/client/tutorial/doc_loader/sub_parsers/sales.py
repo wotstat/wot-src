@@ -67,6 +67,10 @@ def readViewLoadedTriggerSection(xmlCtx, section, _, triggerID):
     return triggers.ViewLoadedTrigger(triggerID, excludedScaleformAliases=excludedScaleformAliases, excludedWulfLayoutIDs=excludedWulfLayoutIDs)
 
 
+def readMissionsTabChangedTriggerSection(xmlCtx, section, _, triggerID):
+    return triggers.MissionsTabChangedTrigger(triggerID, parseID(xmlCtx, section, b'Specify a missions tab alias'))
+
+
 def _readUnlockTargetIDs(xmlCtx, section):
     unlockTargetIDs = []
     if b'unlock-targets' in section.keys():
@@ -97,5 +101,6 @@ def init():
        b'current-vehicle-changed': readCurrentVehicleChangedTriggerSection, 
        b'items-cache-sync': readItemsCacheSyncTriggerSection, 
        b'research-go-to-next-vehicle': readResearchGoToNextVehicleTriggerSection, 
-       b'view-loaded': readViewLoadedTriggerSection})
+       b'view-loaded': readViewLoadedTriggerSection, 
+       b'missions-tab-changed': readMissionsTabChangedTriggerSection})
     return

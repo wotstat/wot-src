@@ -107,7 +107,7 @@
         var D = function () {
           this.eventElements = [];
         };
-        function B(e) {
+        function g(e) {
           return parseInt(e, 10) || 0;
         }
         ((D.prototype.eventElement = function (e) {
@@ -136,7 +136,7 @@
               (n.unbind(u, e), t(r));
             });
           }));
-        var g = {
+        var B = {
           isWebKit:
             "undefined" != typeof document && "WebkitAppearance" in document.documentElement.style,
           supportsTouch:
@@ -156,12 +156,12 @@
             });
           });
         }
-        function v(e) {
+        function b(e) {
           if ("function" == typeof window.CustomEvent) return new CustomEvent(e);
           var u = document.createEvent("CustomEvent");
           return (u.initCustomEvent(e, !1, !1, void 0), u);
         }
-        var b = function (e, u, t, n, r, i) {
+        var v = function (e, u, t, n, r, i) {
           var o;
           if (
             (void 0 === n && (n = !0),
@@ -190,15 +190,15 @@
             E[a] > e[o] - e[l] - 1 && (e.reach[s] = "end");
             u &&
               !r &&
-              (E.dispatchEvent(v("ps-scroll-" + s)),
+              (E.dispatchEvent(b("ps-scroll-" + s)),
               u < 0
-                ? E.dispatchEvent(v("ps-scroll-" + c))
-                : u > 0 && E.dispatchEvent(v("ps-scroll-" + d)),
+                ? E.dispatchEvent(b("ps-scroll-" + c))
+                : u > 0 && E.dispatchEvent(b("ps-scroll-" + d)),
               n &&
                 (function (e, u) {
                   (A(e, u), h(e, u));
                 })(e, s));
-            e.reach[s] && (u || i) && E.dispatchEvent(v("ps-" + s + "-reach-" + e.reach[s]));
+            e.reach[s] && (u || i) && E.dispatchEvent(b("ps-" + s + "-reach-" + e.reach[s]));
           })(e, t, o, n, r, i);
         };
         var C = function (e, u, n, r) {
@@ -234,8 +234,8 @@
                 ? ((e.scrollbarXActive = !0),
                   (e.railXWidth = e.containerWidth - e.railXMarginWidth * A - 15 * A),
                   (e.railXRatio = e.containerWidth / e.railXWidth),
-                  (e.scrollbarXWidth = f(e, B((e.railXWidth * e.containerWidth) / e.contentWidth))),
-                  (e.scrollbarXLeft = B(
+                  (e.scrollbarXWidth = f(e, g((e.railXWidth * e.containerWidth) / e.contentWidth))),
+                  (e.scrollbarXLeft = g(
                     ((e.negativeScrollAdjustment + E) * (e.railXWidth - e.scrollbarXWidth)) /
                       (e.contentWidth - e.containerWidth),
                   )),
@@ -248,9 +248,9 @@
                   (e.railYRatio = e.containerHeight / e.railYHeight),
                   (e.scrollbarYHeight = f(
                     e,
-                    B((e.railYHeight * e.containerHeight) / e.contentHeight),
+                    g((e.railYHeight * e.containerHeight) / e.contentHeight),
                   )),
-                  (e.scrollbarYTop = B(
+                  (e.scrollbarYTop = g(
                     (d * (e.railYHeight - e.scrollbarYHeight)) /
                       (e.contentHeight - e.containerHeight),
                   )))
@@ -309,14 +309,14 @@
                 i.scrollTop + e.containerHeight >= e.contentHeight,
               ),
               e.scrollbarXActive
-                ? (i.classList.add(c.active("x")), b(e, "left", E - e.lastScrollLeft, !0, u))
+                ? (i.classList.add(c.active("x")), v(e, "left", E - e.lastScrollLeft, !0, u))
                 : (i.classList.remove(c.active("x")),
                   (e.scrollbarXWidth = 0),
                   (e.scrollbarXLeft = 0),
                   (i.scrollLeft = 0)),
               e.scrollbarYActive
                 ? (i.classList.add(c.active("y")),
-                  b(e, "top", i.scrollTop - e.lastScrollTop, !0, u))
+                  v(e, "top", i.scrollTop - e.lastScrollTop, !0, u))
                 : (i.classList.remove(c.active("y")),
                   (e.scrollbarYHeight = 0),
                   (e.scrollbarYTop = 0),
@@ -426,8 +426,8 @@
               : ((E = F ? "scrollY" : "scrollTop"),
                 (h = F ? "innerHeight" : "height"),
                 (A = "scrollHeight"));
-            var B = u[E],
-              g = (function (e) {
+            var g = u[E],
+              B = (function (e) {
                 var u,
                   t = e.isWindow,
                   n = e.scrollableDomEle,
@@ -445,12 +445,12 @@
                 isWindow: F,
                 scrollableDomEle: u,
                 elementLengthProp: h,
-                initialScrollPosition: B,
+                initialScrollPosition: g,
                 isHorizontalDirection: m,
                 scrollLengthProp: A,
                 direction: n,
               });
-            !isNaN(a) && a < g && (g = a);
+            !isNaN(a) && a < B && (B = a);
             var _ = function e(n) {
               if (!s || !s()) {
                 var a = n - d,
@@ -473,17 +473,17 @@
                     throw new Error("Please enter a valid easing value");
                   })({ easingPreset: l, cubicBezierPoints: o, runTime: a, duration: i });
                 if (!isNaN(A)) {
-                  var h = Math.round(A * g),
-                    _ = D ? h + B : g - h;
+                  var h = Math.round(A * B),
+                    _ = D ? h + g : B - h;
                   if (
                     (c.breakBounds &&
                       (_ < c.startBound ? (_ = c.startBound) : _ > c.endBound && (_ = c.endBound)),
                     a < i)
                   ) {
                     if (F) {
-                      var v = m ? _ : 0,
-                        b = m ? 0 : _;
-                      window.scrollTo(v, b);
+                      var b = m ? _ : 0,
+                        v = m ? 0 : _;
+                      window.scrollTo(b, v);
                     } else u[E] = _;
                     (r && r(_), requestAnimationFrame(e));
                   } else t && t();
@@ -605,15 +605,15 @@
             F = e.element,
             m = null,
             D = null,
-            g = null;
+            B = null;
           function _(t) {
-            ((F[s] = B(m + g * (t[i] - D))),
+            ((F[s] = g(m + B * (t[i] - D))),
               A(e, d),
               C(e, !1, u),
               t.stopPropagation(),
               t.preventDefault());
           }
-          function v() {
+          function b() {
             (h(e, d),
               e[E].classList.remove(c.clicking),
               e.event.unbind(e.ownerDocument, "mousemove", _));
@@ -622,9 +622,9 @@
             1 === u.buttons &&
               ((m = F[s]),
               (D = u[i]),
-              (g = (e[r] - e[n]) / (e[o] - e[a])),
+              (B = (e[r] - e[n]) / (e[o] - e[a])),
               e.event.bind(e.ownerDocument, "mousemove", _),
-              e.event.once(e.ownerDocument, "mouseup", v),
+              e.event.once(e.ownerDocument, "mouseup", b),
               e[E].classList.add(c.clicking),
               u.stopPropagation(),
               u.preventDefault());
@@ -765,7 +765,7 @@
                   l = i[1];
                 if (
                   !(function (e, t, r) {
-                    if (!g.isWebKit && n.querySelector("select")) return !0;
+                    if (!B.isWebKit && n.querySelector("select")) return !0;
                     if (!n.contains(e)) return !1;
                     for (var i = e; i && i !== n;) {
                       if (i.classList.contains(s.consuming)) return !0;
@@ -820,17 +820,17 @@
                 void 0 !== window.onmousewheel && e.event.bind(n, "mousewheel", r));
             },
             touch: function (e, t) {
-              if (g.supportsTouch || g.supportsIePointer) {
+              if (B.supportsTouch || B.supportsIePointer) {
                 var n = e.element,
                   r = {},
                   i = 0,
                   o = {},
                   l = null;
-                g.supportsTouch
+                B.supportsTouch
                   ? (e.event.bind(n, "touchstart", E),
                     e.event.bind(n, "touchmove", A),
                     e.event.bind(n, "touchend", h))
-                  : g.supportsIePointer &&
+                  : B.supportsIePointer &&
                     (window.PointerEvent
                       ? (e.event.bind(n, "pointerdown", E),
                         e.event.bind(n, "pointermove", A),
@@ -914,7 +914,7 @@
                           (t < 0 && r === e.contentHeight - e.containerHeight) ||
                           (t > 0 && 0 === r)
                         )
-                          return 0 === window.scrollY && t > 0 && g.isChrome;
+                          return 0 === window.scrollY && t > 0 && B.isChrome;
                       } else if (
                         o > l &&
                         ((u < 0 && i === e.contentWidth - e.containerWidth) || (u > 0 && 0 === i))
@@ -1010,7 +1010,7 @@
                   e.scrollbarXRail.classList.remove(c.clicking),
                   e.event.unbind(e.ownerDocument, "mousemove", F));
               }
-              function B() {
+              function g() {
                 r = !0;
               }
               t.addEventListener(
@@ -1021,7 +1021,7 @@
                     e.event.bind(e.ownerDocument, "mousemove", F),
                     e.event.once(e.ownerDocument, "mouseup", D),
                     e.event.once(e.ownerDocument, "mousedown", m),
-                    e.event.once(t, "wheel", B),
+                    e.event.once(t, "wheel", g),
                     e.scrollbarXRail.classList.add(c.clicking),
                     u.preventDefault());
                 },
@@ -1120,34 +1120,34 @@
                 var n = u(i.scrollbarXRail);
                 ((i.scrollbarXBottom = parseInt(n.bottom, 10)),
                   isNaN(i.scrollbarXBottom)
-                    ? ((i.isScrollbarXUsingBottom = !1), (i.scrollbarXTop = B(n.top)))
+                    ? ((i.isScrollbarXUsingBottom = !1), (i.scrollbarXTop = g(n.top)))
                     : (i.isScrollbarXUsingBottom = !0),
-                  (i.railBorderXWidth = B(n.borderLeftWidth) + B(n.borderRightWidth)),
+                  (i.railBorderXWidth = g(n.borderLeftWidth) + g(n.borderRightWidth)),
                   t(i.scrollbarXRail, { display: "block" }),
-                  (i.railXMarginWidth = B(n.marginLeft) + B(n.marginRight)),
+                  (i.railXMarginWidth = g(n.marginLeft) + g(n.marginRight)),
                   t(i.scrollbarXRail, { display: "" }),
                   (i.railXWidth = null),
                   (i.railXRatio = null));
                 var r = u(i.scrollbarYRail);
                 ((i.scrollbarYRight = parseInt(r.right, 10)),
                   isNaN(i.scrollbarYRight)
-                    ? ((i.isScrollbarYUsingRight = !1), (i.scrollbarYLeft = B(r.left)))
+                    ? ((i.isScrollbarYUsingRight = !1), (i.scrollbarYLeft = g(r.left)))
                     : (i.isScrollbarYUsingRight = !0),
                   (i.scrollbarYOuterWidth = i.isRtl
                     ? (function (e) {
                         var t = u(e);
                         return (
-                          B(t.width) +
-                          B(t.paddingLeft) +
-                          B(t.paddingRight) +
-                          B(t.borderLeftWidth) +
-                          B(t.borderRightWidth)
+                          g(t.width) +
+                          g(t.paddingLeft) +
+                          g(t.paddingRight) +
+                          g(t.borderLeftWidth) +
+                          g(t.borderRightWidth)
                         );
                       })(i.scrollbarY)
                     : null),
-                  (i.railBorderYWidth = B(r.borderTopWidth) + B(r.borderBottomWidth)),
+                  (i.railBorderYWidth = g(r.borderTopWidth) + g(r.borderBottomWidth)),
                   t(i.scrollbarYRail, { display: "block" }),
-                  (i.railYMarginHeight = B(r.marginTop) + B(r.marginBottom)),
+                  (i.railYMarginHeight = g(r.marginTop) + g(r.marginBottom)),
                   t(i.scrollbarXRail, { display: "" }),
                   t(i.scrollbarYRail, { display: "" }),
                   (i.railYHeight = null),
@@ -1245,9 +1245,9 @@
               t(this.scrollbarXRail, { display: "block" }),
               t(this.scrollbarYRail, { display: "block" }),
               (this.railXMarginWidth =
-                B(u(this.scrollbarXRail).marginLeft) + B(u(this.scrollbarXRail).marginRight)),
+                g(u(this.scrollbarXRail).marginLeft) + g(u(this.scrollbarXRail).marginRight)),
               (this.railYMarginHeight =
-                B(u(this.scrollbarYRail).marginTop) + B(u(this.scrollbarYRail).marginBottom)),
+                g(u(this.scrollbarYRail).marginTop) + g(u(this.scrollbarYRail).marginBottom)),
               t(this.scrollbarXRail, { display: "none" }),
               t(this.scrollbarYRail, { display: "none" }),
               _().then(function () {
@@ -1255,8 +1255,8 @@
                   ((e.element.scrollTop = e.element.scrollHeight * e.scrollTopPercent),
                   (e.element.scrollLeft = e.element.scrollWidth * e.scrollLeftPercent)),
                   C(e, !1, e.settings.overScrollWidth, !1),
-                  b(e, "top", 0, !1, !1, !0),
-                  b(e, "left", 0, !1, !1, !0),
+                  v(e, "top", 0, !1, !1, !0),
+                  v(e, "left", 0, !1, !1, !0),
                   t(e.scrollbarXRail, { display: "" }),
                   t(e.scrollbarYRail, { display: "" }));
               }));
@@ -1279,7 +1279,7 @@
           (M.prototype.onWheel = function (e) {
             this.isAlive &&
               (C(this, !1, this.settings.overScrollWidth, !1),
-              b(this, "left", this.element.scrollLeft - this.lastScrollLeft),
+              v(this, "left", this.element.scrollLeft - this.lastScrollLeft),
               (this.lastScrollLeft = this.element.scrollLeft));
           }),
           (M.prototype.destroy = function () {
@@ -1393,7 +1393,7 @@
             children: () => i,
             displayStatus: () => D,
             displayStatusIs: () => z,
-            events: () => B,
+            events: () => g,
             extraSize: () => q,
             forceTriggerMouseMove: () => U,
             freezeTextureBeforeResize: () => M,
@@ -1497,7 +1497,7 @@
           return `url(${F(e, u, t)})`;
         }
         const D = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
-          B = {
+          g = {
             onTextureFrozen: l("self.onTextureFrozen"),
             onTextureReady: l("self.onTextureReady"),
             onDomBuilt: l("self.onDomBuilt"),
@@ -1513,10 +1513,10 @@
               onRequestPosition: l("children.requestPosition"),
             },
           },
-          g = ["args"];
+          B = ["args"];
         const _ = 2,
-          v = 16,
-          b = 32,
+          b = 16,
+          v = 32,
           C = 64,
           f = (e, u) => {
             const t = "GFViewEventProxy";
@@ -1530,7 +1530,7 @@
                     i = Object.keys(e);
                   for (n = 0; n < i.length; n++) ((t = i[n]), u.indexOf(t) >= 0 || (r[t] = e[t]));
                   return r;
-                })(u, g);
+                })(u, B);
               return void 0 !== r
                 ? viewEnv.handleViewEvent(
                     Object.assign({ __Type: t, type: e }, i, {
@@ -1556,13 +1556,13 @@
           },
           p = {
             close(e) {
-              f("popover" === e ? _ : b);
+              f("popover" === e ? _ : v);
             },
             minimize() {
               f(C);
             },
             move(e) {
-              f(v, { isMouseEvent: !0, on: e });
+              f(b, { isMouseEvent: !0, on: e });
             },
           };
         function w(e) {
@@ -1637,7 +1637,7 @@
           },
           K = Promise.all([
             new Promise((e) => {
-              window.isDomBuilt ? e() : B.onDomBuilt(e);
+              window.isDomBuilt ? e() : g.onDomBuilt(e);
             }),
             engine.whenReady,
           ]),
@@ -1836,7 +1836,7 @@
       },
       364: (e, u, t) => {
         "use strict";
-        t.d(u, { Sw: () => i.Z, ry: () => B });
+        t.d(u, { Sw: () => i.Z, ry: () => g });
         class n {
           constructor() {
             ((this.entries = []),
@@ -1927,7 +1927,7 @@
             width: e.width,
             height: e.height,
           }),
-          B = (function () {
+          g = (function () {
             var e,
               u =
                 ((e = function* () {
@@ -1956,7 +1956,7 @@
               return u.apply(this, arguments);
             };
           })(),
-          g = (e, u) => {
+          B = (e, u) => {
             const t = "GFViewEventProxy";
             if (void 0 !== u) {
               const r = u.args,
@@ -1994,26 +1994,26 @@
             } else viewEnv.handleViewEvent({ __Type: t, type: e });
             var n;
           },
-          _ = () => g(a.CLOSE),
-          v = (e, u) => {
+          _ = () => B(a.CLOSE),
+          b = (e, u) => {
             e.keyCode === A.n.ESCAPE && u();
           };
-        var b = t(572);
+        var v = t(572);
         const C = r.instance,
           f = {
             DataTracker: i.Z,
-            ViewModel: b.Z,
+            ViewModel: v.Z,
             ViewEventType: a,
             NumberFormatType: s,
             RealFormatType: c,
             TimeFormatType: d,
             DateFormatType: E,
             makeGlobalBoundingBox: D,
-            sendMoveEvent: (e) => g(a.MOVE, { isMouseEvent: !0, on: e }),
+            sendMoveEvent: (e) => B(a.MOVE, { isMouseEvent: !0, on: e }),
             sendCloseEvent: _,
-            sendClosePopOverEvent: () => g(a.POP_OVER, { on: !1 }),
+            sendClosePopOverEvent: () => B(a.POP_OVER, { on: !1 }),
             sendShowContextMenuEvent: (e, u, t = 0) => {
-              g(a.CONTEXT_MENU, {
+              B(a.CONTEXT_MENU, {
                 isMouseEvent: !0,
                 contentID: e,
                 on: !0,
@@ -2034,7 +2034,7 @@
                   width: h.O.view.pxToRem(d),
                   height: h.O.view.pxToRem(E),
                 };
-              g(a.POP_OVER, {
+              B(a.POP_OVER, {
                 isMouseEvent: !0,
                 contentID: e,
                 decoratorID: n || R.invalid("resId"),
@@ -2046,17 +2046,17 @@
               });
             },
             addEscapeListener: (e) => {
-              const u = (u) => v(u, e);
+              const u = (u) => b(u, e);
               return (
                 window.addEventListener("keydown", u),
                 () => window.removeEventListener("keydown", u)
               );
             },
             closeOnEsc: (e) => {
-              v(e, _);
+              b(e, _);
             },
-            handleViewEvent: g,
-            onBindingsReady: B,
+            handleViewEvent: B,
+            onBindingsReady: g,
             onLayoutReady: () =>
               new Promise((e) => {
                 requestAnimationFrame(() => {
@@ -2091,7 +2091,7 @@
           };
         window.ViewEnvHelper = f;
       },
-      84: (e, u, t) => {
+      88: (e, u, t) => {
         "use strict";
         var n = t(483),
           r = t.n(n);
@@ -2170,7 +2170,7 @@
               : null
             : e;
         var D;
-        function B(e, u, t) {
+        function g(e, u, t) {
           const n = (function (e, u) {
               switch (!0) {
                 case e >= u.extraLarge.width:
@@ -2235,11 +2235,11 @@
             (e.smallHeight = "smallHeight"),
             (e.extraSmallHeight = "extraSmallHeight"));
         })(D || (D = {}));
-        const g = A.O.client.getSize("rem"),
-          _ = g.width,
-          v = g.height,
-          b = Object.assign({ width: _, height: v }, B(_, v, i)),
-          C = (0, a.createContext)(b),
+        const B = A.O.client.getSize("rem"),
+          _ = B.width,
+          b = B.height,
+          v = Object.assign({ width: _, height: b }, g(_, b, i)),
+          C = (0, a.createContext)(v),
           f = ["children"];
         const p = (e) => {
           let u = e.children,
@@ -2265,10 +2265,10 @@
             h = n.extraSmallWidth,
             F = n.extraLargeHeight,
             D = n.largeHeight,
-            B = n.mediumHeight,
-            g = n.smallHeight,
+            g = n.mediumHeight,
+            B = n.smallHeight,
             _ = n.extraSmallHeight,
-            v = { extraLarge: F, large: D, medium: B, small: g, extraSmall: _ };
+            b = { extraLarge: F, large: D, medium: g, small: B, extraSmall: _ };
           if (t.extraLarge || t.large || t.medium || t.small || t.extraSmall) {
             if (t.extraLarge && r) return u;
             if (t.large && i) return u;
@@ -2276,11 +2276,11 @@
             if (t.small && l) return u;
             if (t.extraSmall && s) return u;
           } else {
-            if (t.extraLargeWidth && c) return m(u, t, v);
-            if (t.largeWidth && d) return m(u, t, v);
-            if (t.mediumWidth && E) return m(u, t, v);
-            if (t.smallWidth && A) return m(u, t, v);
-            if (t.extraSmallWidth && h) return m(u, t, v);
+            if (t.extraLargeWidth && c) return m(u, t, b);
+            if (t.largeWidth && d) return m(u, t, b);
+            if (t.mediumWidth && E) return m(u, t, b);
+            if (t.smallWidth && A) return m(u, t, b);
+            if (t.extraSmallWidth && h) return m(u, t, b);
             if (!(
               t.extraLargeWidth ||
               t.largeWidth ||
@@ -2290,8 +2290,8 @@
             )) {
               if (t.extraLargeHeight && F) return u;
               if (t.largeHeight && D) return u;
-              if (t.mediumHeight && B) return u;
-              if (t.smallHeight && g) return u;
+              if (t.mediumHeight && g) return u;
+              if (t.smallHeight && B) return u;
               if (t.extraSmallHeight && _) return u;
             }
           }
@@ -2323,7 +2323,7 @@
               o = (0, a.useCallback)((e, u) => {
                 const t = A.O.view.pxToRem(e),
                   n = A.O.view.pxToRem(u);
-                r(Object.assign({ width: t, height: n }, B(t, n, i)));
+                r(Object.assign({ width: t, height: n }, g(t, n, i)));
               }, []);
             (h(() => {
               engine.on("clientResized", o);
@@ -2455,12 +2455,12 @@
           onClick: m,
         }) => {
           const D = (0, a.useRef)(null),
-            B = (0, a.useState)(t),
-            g = B[0],
-            _ = B[1],
-            v = (0, a.useState)(!1),
-            b = v[0],
-            C = v[1],
+            g = (0, a.useState)(t),
+            B = g[0],
+            _ = g[1],
+            b = (0, a.useState)(!1),
+            v = b[0],
+            C = b[1],
             f = (0, a.useState)(!1),
             p = f[0],
             w = f[1],
@@ -2469,9 +2469,9 @@
             }, [i]),
             L = (0, a.useCallback)(
               (e) => {
-                g && null !== D.current && !D.current.contains(e.target) && _(!1);
+                B && null !== D.current && !D.current.contains(e.target) && _(!1);
               },
-              [g],
+              [B],
             ),
             x = (0, a.useCallback)(
               (e) => {
@@ -2515,8 +2515,8 @@
               {
                 [y.base__disabled]: i,
                 [y[`base__${u}`]]: u,
-                [y.base__focus]: g,
-                [y.base__highlightActive]: b,
+                [y.base__focus]: B,
+                [y.base__highlightActive]: v,
                 [y.base__firstHover]: p,
               },
               o,
@@ -2641,13 +2641,13 @@
             F = e.wrapperIndent,
             m = e.verticalScrollbarMargin,
             D = e.isMultipleScroll,
-            B = e.scrollAreaContainer,
-            g = e.children,
+            g = e.scrollAreaContainer,
+            B = e.children,
             _ = e.classMix,
-            v = e.onScrollLeftHandled,
-            b = (0, a.useState)(!1),
-            C = b[0],
-            f = b[1],
+            b = e.onScrollLeftHandled,
+            v = (0, a.useState)(!1),
+            C = v[0],
+            f = v[1],
             p = (0, a.useState)(),
             w = p[0],
             S = p[1],
@@ -2666,15 +2666,15 @@
             }, [w]),
             k = (0, a.useCallback)(
               (e, u, t) => {
-                w && (w.setScrollLeft(e, u, t), v && v(e, w.contentWidth - w.containerWidth));
+                w && (w.setScrollLeft(e, u, t), b && b(e, w.contentWidth - w.containerWidth));
               },
-              [w, v],
+              [w, b],
             ),
             W = (0, a.useCallback)(
               (e) => {
-                w && (w.setScrollLeftImmediately(e), v && v(e, w.contentWidth - w.containerWidth));
+                w && (w.setScrollLeftImmediately(e), b && b(e, w.contentWidth - w.containerWidth));
               },
-              [w, v],
+              [w, b],
             ),
             z = (0, a.useCallback)(
               (e, u, t) => {
@@ -2777,16 +2777,16 @@
               o > 0 && q(o);
             }, [o, q]),
             (0, a.useEffect)(() => {
-              B &&
-                ((B.setScrollLeft = k),
-                (B.setScrollTop = z),
-                (B.setScrollLeftImmediately = W),
-                (B.setScrollTopImmediately = q),
-                (B.updateScrollArea = M),
-                (B.getScrollbar = x));
-            }, [B, k, W, z, q, M, x]));
+              g &&
+                ((g.setScrollLeft = k),
+                (g.setScrollTop = z),
+                (g.setScrollLeftImmediately = W),
+                (g.setScrollTopImmediately = q),
+                (g.updateScrollArea = M),
+                (g.getScrollbar = x));
+            }, [g, k, W, z, q, M, x]));
           const te = r()(N, { [X]: F, [G]: !C, [I]: m, [U]: D }, _);
-          return s().createElement("div", { className: te, ref: Z }, g);
+          return s().createElement("div", { className: te, ref: Z }, B);
         });
         R.views.common.tooltip_window.simple_tooltip_content;
         let z, q, K, j, V, Q, Z, $, J;
@@ -2810,6 +2810,7 @@
             (e.TankmenXpFactor = "tankmenXPFactor"),
             (e.FreeXpFactor = "freeXPFactor"),
             (e.BattleToken = "battleToken"),
+            (e.Entitlements = "entitlements"),
             (e.PremiumUniversal = "premium_universal"),
             (e.Gold = "gold"),
             (e.Credits = "credits"),
@@ -2822,7 +2823,6 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
-            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -2855,7 +2855,11 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.RazlomCoin = "razlom_coin"));
+            (e.NyPetGoodies = "nyPetGoodies"),
+            (e.HiddenVehicle = "hidden_vehicle"),
+            (e.NyStaticDogTag = "nyStaticDogTag"),
+            (e.NyToys = "nyToys"),
+            (e.NyLootboxFragment = "nyLootboxFragment"));
         })(z || (z = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -3056,6 +3060,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(u.bind(null, 0)), (t.push = u.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [127], () => __webpack_require__(84));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [127], () => __webpack_require__(88));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

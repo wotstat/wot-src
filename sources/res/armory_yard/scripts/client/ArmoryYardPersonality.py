@@ -22,8 +22,7 @@ def registerAYAdditionalSystemMessageTypes():
      12, 
      13, 
      14, 
-     15, 
-     16])
+     15])
     return
 
 

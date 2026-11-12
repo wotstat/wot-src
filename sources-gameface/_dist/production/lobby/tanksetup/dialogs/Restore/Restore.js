@@ -1217,6 +1217,7 @@
             (e.TankmenXpFactor = "tankmenXPFactor"),
             (e.FreeXpFactor = "freeXPFactor"),
             (e.BattleToken = "battleToken"),
+            (e.Entitlements = "entitlements"),
             (e.PremiumUniversal = "premium_universal"),
             (e.Gold = "gold"),
             (e.Credits = "credits"),
@@ -1229,7 +1230,6 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
-            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1262,7 +1262,11 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.RazlomCoin = "razlom_coin"));
+            (e.NyPetGoodies = "nyPetGoodies"),
+            (e.HiddenVehicle = "hidden_vehicle"),
+            (e.NyStaticDogTag = "nyStaticDogTag"),
+            (e.NyToys = "nyToys"),
+            (e.NyLootboxFragment = "nyLootboxFragment"));
         })(b || (b = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -1390,6 +1394,7 @@
           b.TankmenXpFactor,
           b.FreeXpFactor,
           b.BattleToken,
+          b.Entitlements,
           b.PremiumUniversal,
           b.NaturalCover,
           b.BpCoin,
@@ -1404,6 +1409,9 @@
           b.Comp7TokenWeeklyReward,
           b.Comp7TokenCouponReward,
           b.BattleBoosterGift,
+          b.NewYearFillers,
+          b.NewYearInvoice,
+          b.LootBoxToken,
           b.CosmicLootboxCommon,
           b.CosmicLootboxSilver,
           b.SelectableBonus,
@@ -1411,10 +1419,14 @@
           b.PremiumPlusUniversal,
           b.GoldenTicket,
           b.RewardsSlots,
+          b.NyPetGoodies,
+          b.HiddenVehicle,
+          b.NyLootboxFragment,
           b.Gold,
           b.Credits,
           b.Crystal,
           b.FreeXp,
+          b.NewYearToyFragments,
           b.BattlePassPoints,
           b.PremiumPlus,
           b.Premium);
@@ -1642,9 +1654,9 @@
             "soundClick",
             "soundHover",
           ];
-        function j() {
+        function V() {
           return (
-            (j =
+            (V =
               Object.assign ||
               function (e) {
                 for (var u = 1; u < arguments.length; u++) {
@@ -1653,10 +1665,10 @@
                 }
                 return e;
               }),
-            j.apply(this, arguments)
+            V.apply(this, arguments)
           );
         }
-        class V extends r().PureComponent {
+        class j extends r().PureComponent {
           constructor(...e) {
             (super(...e),
               (this.state = { hover: !1, click: !1 }),
@@ -1710,7 +1722,7 @@
               p = o()(X.goto, null == s ? void 0 : s.goto);
             return r().createElement(
               "div",
-              j(
+              V(
                 {
                   className: A,
                   onMouseEnter: this._onMouseEnter(l),
@@ -1735,7 +1747,7 @@
           }
         }
         let K;
-        ((V.defaultProps = {
+        ((j.defaultProps = {
           side: "left",
           type: "back",
           soundHover: "highlight",
@@ -1746,7 +1758,7 @@
               (e.responsiveClosePosition = "responsiveClosePosition"),
               (e.disableResponsiveContentPosition = "disableResponsiveContentPosition"));
           })(K || (K = {})));
-        const z = (e, u, t) =>
+        const Y = (e, u, t) =>
             u.extraLargeHeight ||
             u.largeHeight ||
             u.mediumHeight ||
@@ -1760,7 +1772,7 @@
                 ? e
                 : null
               : e,
-          Y = {
+          z = {
             extraLarge: { weight: 4, width: 2560, height: 1440 },
             large: { weight: 3, width: 1920, height: 1080 },
             medium: { weight: 2, width: 1600, height: 900 },
@@ -1836,7 +1848,7 @@
         const Z = k.O.client.getSize("rem"),
           J = Z.width,
           ee = Z.height,
-          ue = Object.assign({ width: J, height: ee }, Q(J, ee, Y)),
+          ue = Object.assign({ width: J, height: ee }, Q(J, ee, z)),
           te = (0, n.createContext)(ue),
           ne = ["children"];
         const re = (e) => {
@@ -1874,11 +1886,11 @@
             if (t.small && o) return u;
             if (t.extraSmall && l) return u;
           } else {
-            if (t.extraLargeWidth && _) return z(u, t, C);
-            if (t.largeWidth && c) return z(u, t, C);
-            if (t.mediumWidth && E) return z(u, t, C);
-            if (t.smallWidth && m) return z(u, t, C);
-            if (t.extraSmallWidth && A) return z(u, t, C);
+            if (t.extraLargeWidth && _) return Y(u, t, C);
+            if (t.largeWidth && c) return Y(u, t, C);
+            if (t.mediumWidth && E) return Y(u, t, C);
+            if (t.smallWidth && m) return Y(u, t, C);
+            if (t.extraSmallWidth && A) return Y(u, t, C);
             if (!(
               t.extraLargeWidth ||
               t.largeWidth ||
@@ -1925,7 +1937,7 @@
             s = (0, n.useCallback)((e, u) => {
               const t = k.O.view.pxToRem(e),
                 n = k.O.view.pxToRem(u);
-              a(Object.assign({ width: t, height: n }, Q(t, n, Y)));
+              a(Object.assign({ width: t, height: n }, Q(t, n, z)));
             }, []);
           (ie(() => {
             engine.on("clientResized", s);
@@ -2081,7 +2093,7 @@
                   r().createElement(
                     "div",
                     { className: v },
-                    r().createElement(V, {
+                    r().createElement(j, {
                       caption: R.strings.menu.viewHeader.closeBtn.label(),
                       type: "close",
                       side: "right",
@@ -2565,11 +2577,11 @@
               r().createElement("i", { className: We }),
               r().createElement("span", { className: Xe }, e),
             ),
-          je = "MultyPriceBlock_base_10",
-          Ve = "MultyPriceBlock_priceContainer_3a",
+          Ve = "MultyPriceBlock_base_10",
+          je = "MultyPriceBlock_priceContainer_3a",
           Ke = "MultyPriceBlock_text_15",
-          ze = "MultyPriceBlock_currencies_3e",
-          Ye = "MultyPriceBlock_currency_a2",
+          Ye = "MultyPriceBlock_currencies_3e",
+          ze = "MultyPriceBlock_currency_a2",
           $e = ({
             amount: e,
             prices: u,
@@ -2586,18 +2598,18 @@
           }) =>
             r().createElement(
               "div",
-              { className: o()(je, _) },
+              { className: o()(Ve, _) },
               r().createElement(
                 "div",
-                { className: o()(Ve, null == c ? void 0 : c.priceContainer) },
+                { className: o()(je, null == c ? void 0 : c.priceContainer) },
                 r().createElement("div", { className: Ke }, n),
                 r().createElement(
                   "div",
-                  { className: o()(ze, null == c ? void 0 : c.currencies) },
+                  { className: o()(Ye, null == c ? void 0 : c.currencies) },
                   u.map(({ price: u, type: n }) =>
                     r().createElement(
                       "div",
-                      { className: o()(Ye, null == c ? void 0 : c.currency), key: n },
+                      { className: o()(ze, null == c ? void 0 : c.currency), key: n },
                       "demountKit" === n
                         ? r().createElement(He, { size: a, value: u * e, isEnough: t })
                         : r().createElement(Le, { size: a, type: n, value: u * e, isEnough: t }),
@@ -3408,25 +3420,25 @@
           Cu = t.n(Bu);
         let hu, gu, bu;
         (!(function (e) {
-          ((e[(e.ExtraSmall = Y.extraSmall.width)] = "ExtraSmall"),
-            (e[(e.Small = Y.small.width)] = "Small"),
-            (e[(e.Medium = Y.medium.width)] = "Medium"),
-            (e[(e.Large = Y.large.width)] = "Large"),
-            (e[(e.ExtraLarge = Y.extraLarge.width)] = "ExtraLarge"));
+          ((e[(e.ExtraSmall = z.extraSmall.width)] = "ExtraSmall"),
+            (e[(e.Small = z.small.width)] = "Small"),
+            (e[(e.Medium = z.medium.width)] = "Medium"),
+            (e[(e.Large = z.large.width)] = "Large"),
+            (e[(e.ExtraLarge = z.extraLarge.width)] = "ExtraLarge"));
         })(hu || (hu = {})),
           (function (e) {
-            ((e[(e.ExtraSmall = Y.extraSmall.width)] = "ExtraSmall"),
-              (e[(e.Small = Y.small.width)] = "Small"),
-              (e[(e.Medium = Y.medium.width)] = "Medium"),
-              (e[(e.Large = Y.large.width)] = "Large"),
-              (e[(e.ExtraLarge = Y.extraLarge.width)] = "ExtraLarge"));
+            ((e[(e.ExtraSmall = z.extraSmall.width)] = "ExtraSmall"),
+              (e[(e.Small = z.small.width)] = "Small"),
+              (e[(e.Medium = z.medium.width)] = "Medium"),
+              (e[(e.Large = z.large.width)] = "Large"),
+              (e[(e.ExtraLarge = z.extraLarge.width)] = "ExtraLarge"));
           })(gu || (gu = {})),
           (function (e) {
-            ((e[(e.ExtraSmall = Y.extraSmall.height)] = "ExtraSmall"),
-              (e[(e.Small = Y.small.height)] = "Small"),
-              (e[(e.Medium = Y.medium.height)] = "Medium"),
-              (e[(e.Large = Y.large.height)] = "Large"),
-              (e[(e.ExtraLarge = Y.extraLarge.height)] = "ExtraLarge"));
+            ((e[(e.ExtraSmall = z.extraSmall.height)] = "ExtraSmall"),
+              (e[(e.Small = z.small.height)] = "Small"),
+              (e[(e.Medium = z.medium.height)] = "Medium"),
+              (e[(e.Large = z.large.height)] = "Large"),
+              (e[(e.ExtraLarge = z.extraLarge.height)] = "ExtraLarge"));
           })(bu || (bu = {})));
         const vu = () => {
             const e = (0, n.useContext)(te),
@@ -3778,8 +3790,8 @@
         const Wu = Object.keys(Iu()),
           Xu = { mt: "MD", mr: "SM", mb: "SM", ml: "SM" },
           qu = { mt: "SM", mr: "XS", mb: "XS", ml: "XS" },
-          ju = { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
-          Vu = {
+          Vu = { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
+          ju = {
             XL: { mt: "XL", mr: "XL", mb: "XL", ml: "XL" },
             LG: { mt: "LG", mr: "LG", mb: "LG", ml: "LG" },
             MDp: { mt: "MDp", mr: "MDp", mb: "MDp", ml: "MDp" },
@@ -3789,7 +3801,7 @@
             XS: { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
           },
           Ku =
-            (Object.keys(Vu),
+            (Object.keys(ju),
             {
               "heading-H144": { mt: "XL", mr: "LG", mb: "LG", ml: "LG" },
               "heading-H73": { mt: "LG", mr: "MD", mb: "MD", ml: "MD" },
@@ -3801,16 +3813,16 @@
               "heading-H22": qu,
               "heading-H20R": qu,
               "heading-H18": qu,
-              "heading-H15": ju,
-              "heading-H14": ju,
+              "heading-H15": Vu,
+              "heading-H14": Vu,
               "paragraph-P24": qu,
               "paragraph-P18": qu,
               "paragraph-P16": qu,
-              "paragraph-P14": ju,
-              "paragraph-P12": ju,
-              "paragraph-P10": ju,
+              "paragraph-P14": Vu,
+              "paragraph-P12": Vu,
+              "paragraph-P10": Vu,
             }),
-          zu =
+          Yu =
             (Object.keys(Ku),
             (e) =>
               e
@@ -3818,7 +3830,7 @@
                   ? { colorClassName: Uu[e] }
                   : { colorStyle: { color: e } }
                 : {}),
-          Yu = wu((e) => {
+          zu = wu((e) => {
             let u = e.text,
               t = e.variant,
               i = e.className,
@@ -3844,7 +3856,7 @@
                 return r;
               })(e, Hu);
             const C = (0, n.useMemo)(() => {
-                const e = zu(a),
+                const e = Yu(a),
                   u = e.colorClassName,
                   t = e.colorStyle,
                   n = void 0 === t ? {} : t;
@@ -3885,13 +3897,13 @@
           Zu = "Header_text_57",
           Ju = (0, G.Pi)(() => {
             const e = Se().model,
-              u = r().createElement(Yu, {
+              u = r().createElement(zu, {
                 text: $u(R.strings.artefacts, e.equipment.props.get().name)("name"),
               });
             return r().createElement(
               "div",
               { className: Qu },
-              r().createElement(Yu, {
+              r().createElement(zu, {
                 text: R.strings.dialogs.restoreEquipment.header(),
                 className: Zu,
                 format: { binding: { equipmentName: u } },

@@ -16,11 +16,15 @@ class Actions(Enum):
 
 class Items(Enum):
     CAROUSEL_ENTRY_POINT = b'carousel_entry_point'
+    SELECTION_CARD = b'selection_card'
+    SKIP_ESC_HOTKEY = b'skip_esc_hotkey'
+    SKIP_BUTTON = b'skip_button'
     ANIMATION_SWITCH_BUTTON = b'animation_switch_button'
     PROBABILITY_BTN = b'probability_btn'
     STATISTIC_BTN = b'statistic_btn'
     STATISTIC_NO_BOX_BTN = b'statistic_no_box_btn'
     STATISTIC_FULL_STATS_BTN = b'statistic_full_stats_btn'
+    STAGE_ROTATION_HEADER = b'stage_rotation_header'
     UNKNOWN_STATS_BTN = b'unknown_stats_btn'
     RIGHT_CORNER_BUY_BTN = b'right_corner_buy_btn'
     CURRENT_LOOTBOX_BUY_BTN = b'current_lootbox_buy_btn'
@@ -35,6 +39,7 @@ class Items(Enum):
 class Views(Enum):
     HANGAR = b'hangar'
     STORAGE = b'storage'
+    OPEN_BY_SELECTION = b'open_by_selection'
     PROBABILITY = b'probability'
     REWARDS = b'rewards'
     REWARD_VIDEO = b'reward_video'
@@ -52,3 +57,5 @@ STATISTIC_BUTTONS_MAP = {0: (Items.STATISTIC_BTN),
    3: (Items.UNKNOWN_STATS_BTN)}
 TABS_STATE_MAP = {0: (Items.CURRENT_LB_TAB), 
    1: (Items.ALL_LB_TAB)}
+SKIP_WAY_MAP = {0: (Items.SKIP_ESC_HOTKEY), 
+   1: (Items.SKIP_BUTTON)}

@@ -118,6 +118,10 @@ class IEventsCache(object):
         raise NotImplementedError
         return
 
+    def getNyCelebQuests(self, filterFunc=None):
+        raise NotImplementedError
+        return
+
     def getActions(self, filterFunc=None):
         raise NotImplementedError
         return

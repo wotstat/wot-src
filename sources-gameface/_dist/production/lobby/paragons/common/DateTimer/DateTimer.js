@@ -110,8 +110,8 @@
               G = u.flex,
               W = void 0 === G ? (U || I ? `${U ? 1 : 0} ${I ? 1 : 0} auto` : void 0) : G,
               X = u.style,
-              j = u.children,
-              Y = (function (u, e) {
+              Y = u.children,
+              j = (function (u, e) {
                 if (null == u) return {};
                 var t,
                   E,
@@ -151,8 +151,8 @@
               q = Z.computedClassNames;
             return n().createElement(
               "div",
-              o({ className: r()(D.Z.base, ...q, e), style: z }, Y),
-              j,
+              o({ className: r()(D.Z.base, ...q, e), style: z }, j),
+              Y,
             );
           });
       },
@@ -448,6 +448,7 @@
               (u.TankmenXpFactor = "tankmenXPFactor"),
               (u.FreeXpFactor = "freeXPFactor"),
               (u.BattleToken = "battleToken"),
+              (u.Entitlements = "entitlements"),
               (u.PremiumUniversal = "premium_universal"),
               (u.Gold = "gold"),
               (u.Credits = "credits"),
@@ -460,7 +461,6 @@
               (u.SelectableBonus = "selectableBonus"),
               (u.StyleProgressToken = "styleProgressToken"),
               (u.TmanToken = "tmanToken"),
-              (u.PortalEventDiscount25 = "portalEventDiscountToken"),
               (u.NaturalCover = "naturalCover"),
               (u.BpCoin = "bpcoin"),
               (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -493,7 +493,11 @@
               (u.GoldenTicket = "goldenticket"),
               (u.LbStyleProgress = "lbStyleProgress"),
               (u.RewardsSlots = "rewardsSlots"),
-              (u.RazlomCoin = "razlom_coin"));
+              (u.NyPetGoodies = "nyPetGoodies"),
+              (u.HiddenVehicle = "hidden_vehicle"),
+              (u.NyStaticDogTag = "nyStaticDogTag"),
+              (u.NyToys = "nyToys"),
+              (u.NyLootboxFragment = "nyLootboxFragment"));
           })(E || (E = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -616,6 +620,7 @@
           E.E4.TankmenXpFactor,
           E.E4.FreeXpFactor,
           E.E4.BattleToken,
+          E.E4.Entitlements,
           E.E4.PremiumUniversal,
           E.E4.NaturalCover,
           E.E4.BpCoin,
@@ -630,6 +635,9 @@
           E.E4.Comp7TokenWeeklyReward,
           E.E4.Comp7TokenCouponReward,
           E.E4.BattleBoosterGift,
+          E.E4.NewYearFillers,
+          E.E4.NewYearInvoice,
+          E.E4.LootBoxToken,
           E.E4.CosmicLootboxCommon,
           E.E4.CosmicLootboxSilver,
           E.E4.SelectableBonus,
@@ -637,10 +645,14 @@
           E.E4.PremiumPlusUniversal,
           E.E4.GoldenTicket,
           E.E4.RewardsSlots,
+          E.E4.NyPetGoodies,
+          E.E4.HiddenVehicle,
+          E.E4.NyLootboxFragment,
           E.E4.Gold,
           E.E4.Credits,
           E.E4.Crystal,
           E.E4.FreeXp,
+          E.E4.NewYearToyFragments,
           E.E4.BattlePassPoints,
           E.E4.PremiumPlus,
           E.E4.Premium);

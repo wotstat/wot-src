@@ -222,6 +222,7 @@ class ArmoryYardShopBuyView(ArmoryYardShopBaseView):
             self.__update()
         else:
             rewards = data[b'rewards']
+            self.__dropPrerequisiteToken(rewards)
             rewardsCount = len(rewards)
             self.__armoryYardShopCtrl.onPurchaseComplete(data[b'productID'], data[b'currencies'], rewards, isBundle)
             if rewardsCount > 1:
@@ -230,6 +231,16 @@ class ArmoryYardShopBuyView(ArmoryYardShopBaseView):
                 packer = getBonusPacker(data[b'productID'], rewards, **additionalBundleParams)
                 showArmoryYardShopRewardWindow(packer.title, packer.largeIcon, packer.count, packer.itemType, closeCallback=showArmoryYardShopWindow)
             self.onClose()
+        return
+
+    def __dropPrerequisiteToken(self, rewards):
+        tokens = rewards.get(b'tokens', {})
+        for tokenID in tokens.keys():
+            if self.__armoryYardShopCtrl.isPrerequisiteToken(tokenID):
+                del tokens[tokenID]
+
+        if not tokens and b'tokens' in rewards:
+            del rewards[b'tokens']
         return
 
     def __update(self):

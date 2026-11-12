@@ -19,6 +19,7 @@ class COMMON(object):
     DURATION_DAYS = b'#common:duration/days'
     DURATION_HOURS = b'#common:duration/hours'
     DURATION_MINUTES = b'#common:duration/minutes'
+    DURATION_SHORTMINUTES = b'#common:duration/shortMinutes'
     DURATION_SECONDS = b'#common:duration/seconds'
     DURATION_UNLIMITED = b'#common:duration/unlimited'
     RELATIVEDATETIME_NOW = b'#common:relativeDateTime/now'

@@ -2723,6 +2723,65 @@
 				</_122mm_GM40_HE>
 			</shots>
 		</_122mm_vz_60>
+		<_130mm_58_1_Ch77>
+			<id>31023</id>
+			<userString>#china_vehicles:_130mm_58_1_Ch77</userString>
+			<tags></tags>
+			<level>10</level>
+			<price>330000</price>
+			<notInShop>true</notInShop>
+			<impulse>0.62</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.66</amplitude>
+				<recoilEffect>large</recoilEffect>
+			</recoil>
+			<effects>shot_largeext_mb</effects>
+			<reloadEffect>reload115_152</reloadEffect>
+			<pitchLimits>
+				<minPitch>0.0 -18.0 1.0 -18.0</minPitch>
+				<maxPitch>0.0 6.0 1.0 6.0</maxPitch>
+			</pitchLimits>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<rotationSpeed>26.25</rotationSpeed>
+			<reloadTime>15.4</reloadTime>
+			<maxAmmo>28</maxAmmo>
+			<aimingTime>3.42</aimingTime>
+			<weight>4300</weight>
+			<maxHealth>210</maxHealth>
+			<maxRegenHealth>105</maxRegenHealth>
+			<repairCost>10</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_130mm_Cb_482_Ch77>
+					<defaultPortion>0.9</defaultPortion>
+					<speed>1600</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>278 236</piercingPower>
+				</_130mm_Cb_482_Ch77>
+				<_130mm_Po_482S_Ch77>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>1100</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>330 330</piercingPower>
+				</_130mm_Po_482S_Ch77>
+				<_130mm_Sb_482M_Ch77>
+					<defaultPortion>0.1</defaultPortion>
+					<speed>930</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>65 65</piercingPower>
+				</_130mm_Sb_482M_Ch77>
+			</shots>
+		</_130mm_58_1_Ch77>
 		<_130mm_59-130T>
 			<id>15</id>
 			<userString>#china_vehicles:_130mm_59-130T</userString>

@@ -91,9 +91,15 @@ package net.wg.gui.lobby.header
       
       private static const RESIZE_BG_ALPHA:Number = 0.8;
       
+      private static const INV_NY_WIDGET_ITEMS:String = "invMenuItems";
+      
       public var fightButtonBg:TutorialClip = null;
       
       public var centerBg:TutorialClip = null;
+      
+      public var mainMenuNYGlow:Sprite = null;
+      
+      public var nyBtnGlow:Sprite = null;
       
       public var centerMenuBg:TutorialClip = null;
       
@@ -135,6 +141,10 @@ package net.wg.gui.lobby.header
       
       private var _tooltipMgr:ITooltipMgr = App.toolTipMgr;
       
+      private var _isShowBattleBtnGlow:Boolean = false;
+      
+      private var _isShowMainMenuGlow:Boolean = false;
+      
       public function LobbyHeader()
       {
          super();
@@ -164,6 +174,8 @@ package net.wg.gui.lobby.header
          constraints.addElement(this.fightButtonBg.name,this.fightButtonBg,Constraints.CENTER_H);
          constraints.addElement(this.centerBg.name,this.centerBg,Constraints.CENTER_H);
          constraints.addElement(this.centerMenuBg.name,this.centerMenuBg,Constraints.CENTER_H);
+         constraints.addElement(this.mainMenuNYGlow.name,this.mainMenuNYGlow,Constraints.CENTER_H);
+         constraints.addElement(this.nyBtnGlow.name,this.nyBtnGlow,Constraints.CENTER_H);
          constraints.addElement(this.resizeBg.name,this.resizeBg,Constraints.LEFT | Constraints.RIGHT | Constraints.TOP);
          constraints.addElement(this.fightBtn.name,this.fightBtn,Constraints.CENTER_H);
          constraints.addElement(this.mainMenuButtonBar.name,this.mainMenuButtonBar,Constraints.CENTER_H);
@@ -184,11 +196,20 @@ package net.wg.gui.lobby.header
          this.headerButtonBar.addEventListener(PersonalReservesWidgetEvent.CREATED,this.onPersonalReserveWidgetCreated,false,0,true);
          this.fightBtn.mouseEnabledOnDisabled = true;
          _deferredDispose = true;
+         App.utils.commons.addEmptyHitArea(this.mainMenuNYGlow);
+         App.utils.commons.addEmptyHitArea(this.nyBtnGlow);
+         App.utils.commons.addEmptyHitArea(this.mainMenuGradient);
       }
       
       override protected function draw() : void
       {
          super.draw();
+         if(isInvalid(INV_NY_WIDGET_ITEMS))
+         {
+            this.nyBtnGlow.visible = this._isShowBattleBtnGlow;
+            this.mainMenuNYGlow.visible = this._isShowMainMenuGlow;
+            invalidate(InvalidationType.SIZE);
+         }
          if(isInvalid(InvalidationType.SIZE))
          {
             constraints.update(width,height);
@@ -609,10 +630,10 @@ package net.wg.gui.lobby.header
             _loc11_.battleTypeID = param6;
             _loc11_.tooltip = param4;
             _loc11_.tooltipType = param5;
-            _loc11_.eventBgEnabled = param7;
+            _loc11_.eventBgEnabled = param7 && !this.nyBtnGlow.visible;
             _loc11_.showLegacySelector = param9;
             _loc11_.hasNew = param10;
-            if(param8)
+            if(param8 && !this.nyBtnGlow.visible)
             {
                if(!this.sparks)
                {
@@ -622,11 +643,18 @@ package net.wg.gui.lobby.header
             }
             if(Boolean(this.sparks))
             {
-               this.sparks.visible = param8;
+               this.sparks.visible = param8 && !this.nyBtnGlow.visible;
             }
             this._headerButtonsHelper.invalidateDataById(HeaderButtonsHelper.ITEM_ID_BATTLE_SELECTOR);
             this.as_doDisableHeaderButton(HeaderButtonsHelper.ITEM_ID_BATTLE_SELECTOR,param3);
          }
+      }
+      
+      public function as_updateNYVisibility(param1:Boolean, param2:Boolean) : void
+      {
+         this._isShowBattleBtnGlow = param1;
+         this._isShowMainMenuGlow = param2;
+         invalidate(INV_NY_WIDGET_ITEMS);
       }
       
       public function as_updateOnlineCounter(param1:String, param2:String, param3:Boolean) : void

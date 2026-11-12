@@ -1,9 +1,12 @@
 import typing
+from account_helpers.settings_core.settings_constants import GAME
 from gui.impl import backport
 from gui.impl.gen import R
 from gui.shared.formatters import text_styles, getRoleTextWithIcon
 from gui.shared.gui_items.Vehicle import getNationLessName, getIconResourceName
 from gui.shared.gui_items.artefacts import getAbilityVO
+from helpers import dependency
+from skeletons.account_helpers.settings_core import ISettingsCore
 if typing.TYPE_CHECKING:
     from typing import Dict
     from gui.shared.gui_items.Vehicle import Vehicle
@@ -24,12 +27,17 @@ def getBaseDataVO(vehicle):
        b'vehicleButton': {}, b'vehicleInfo': {}, b'nation': (vehicle.nationName)}
 
 
-def getBaseTitleVO(vehicle):
+@dependency.replace_none_kwargs(settingsCore=ISettingsCore)
+def getBaseTitleVO(vehicle, settingsCore=None):
     tankUserName = vehicle.userName
+    difficulty = vehicle.difficulty
+    if not settingsCore.getSetting(GAME.SHOW_VEHICLE_DIFFICULTY_IN_RESEARCH):
+        difficulty = 0
     return {b'intCD': (vehicle.intCD), 
        b'tankNameStr': (text_styles.grandTitle(tankUserName)), 
        b'tankNameStrSmall': (text_styles.promoTitle(tankUserName)), 
        b'statusStr': b'', 
        b'roleText': (getRoleTextWithIcon(vehicle.role, vehicle.roleLabel)), 
+       b'difficulty': difficulty, 
        b'showInfoIcon': False, 
        b'ability': (getAbilityVO(vehicle))}

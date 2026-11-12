@@ -7,8 +7,9 @@ class DialogButtonModel(ViewModel):
     BTN_CANCEL = b'cancel'
     BTN_RESEARCH = b'research'
     BTN_PURCHASE = b'purchase'
+    BTN_INSTALL = b'install'
 
-    def __init__(self, properties=10, commands=1):
+    def __init__(self, properties=11, commands=1):
         super(DialogButtonModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -82,6 +83,13 @@ class DialogButtonModel(ViewModel):
         self._setResource(9, value)
         return
 
+    def getIsVisible(self):
+        return self._getBool(10)
+
+    def setIsVisible(self, value):
+        self._setBool(10, value)
+        return
+
     def _initialize(self):
         super(DialogButtonModel, self)._initialize()
         self._addStringProperty(b'name', b'')
@@ -94,5 +102,6 @@ class DialogButtonModel(ViewModel):
         self._addResourceProperty(b'soundDown', R.invalid())
         self._addResourceProperty(b'tooltipHeader', R.invalid())
         self._addResourceProperty(b'tooltipBody', R.invalid())
+        self._addBoolProperty(b'isVisible', True)
         self.onClicked = self._addCommand(b'onClicked')
         return

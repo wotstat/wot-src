@@ -758,13 +758,13 @@
 }
 
 .Counter_base__big_19 {
-  min-width: 21rem;
-  height: 21rem;
+  min-width: 20rem;
+  height: 20rem;
 }
 
 .Counter_base__small_3b {
-  min-width: 13rem;
-  height: 13rem;
+  min-width: 9rem;
+  height: 9rem;
 }
 
 .Counter_base__empty_98 {
@@ -781,11 +781,11 @@
 }
 .Counter_bg_74 {
   border: 1rem solid #fe4e0f;
-  border-radius: 7rem;
+  border-radius: 10rem;
   box-shadow:
     0 0 0 1rem rgba(0, 0, 0, 0.3),
-    0 0 6rem rgba(254, 103, 0, 0.2),
-    0 0 12rem 4rem rgba(249, 0, 0, 0.3);
+    0 0 9rem rgba(254, 103, 0, 0.2),
+    0 0 12rem 7rem rgba(249, 0, 0, 0.3);
   background-image: url("R.images.gui.maps.icons.components.counter.pattern");
   position: absolute;
   top: 0;
@@ -802,26 +802,26 @@
 }
 .Counter_value_3e {
   display: flex;
-  padding: 0 4rem;
-  color: #fefeec;
+  padding: 0 5rem;
+  color: #f2f2f7;
   font-size: 11rem;
   line-height: 13rem;
   white-space: nowrap;
 }
 .Counter_base__big_19 .Counter_value_3e {
   padding: 0 7rem;
-  font-size: 14rem;
-  line-height: 20rem;
+  font-size: 16rem;
+  line-height: 17rem;
 }
 .Counter_base__small_3b .Counter_value_3e {
   font-size: 9rem;
-  line-height: 12rem;
+  line-height: 8rem;
 }
 .Counter_value__text_d6 {
-  padding: 0 7rem;
+  padding: 0 5rem;
 }
 .Counter_base__big_19 .Counter_value__text_d6 {
-  padding: 0 10rem;
+  padding: 0 7rem;
 }
 .Counter_base__small_3b .Counter_value__text_d6 {
   padding: 0 5rem;

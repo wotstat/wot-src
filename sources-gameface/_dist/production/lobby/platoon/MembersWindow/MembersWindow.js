@@ -770,7 +770,7 @@
             );
           };
       },
-      647: (u, e, t) => {
+      158: (u, e, t) => {
         var n = t(483),
           a = t.n(n),
           o = t(67),
@@ -3160,6 +3160,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(e.bind(null, 0)), (t.push = e.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [720], () => __webpack_require__(647));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [720], () => __webpack_require__(158));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

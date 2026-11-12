@@ -45,7 +45,6 @@ class Comp7ModeSelectorItem(ModeSelectorLegacyItem):
 
     def _onInitializing(self):
         super(Comp7ModeSelectorItem, self)._onInitializing()
-        self.__comp7Controller.onLeaderboardDataProvided += self.__onLeaderboardDataReceived
         self.__updateComp7Data()
         setBattlePassState(self.viewModel)
         self.__comp7Controller.onStatusTick += self.__onTimerTick
@@ -53,7 +52,6 @@ class Comp7ModeSelectorItem(ModeSelectorLegacyItem):
 
     def _onDisposing(self):
         self.__comp7Controller.onStatusTick -= self.__onTimerTick
-        self.__comp7Controller.onLeaderboardDataProvided -= self.__onLeaderboardDataReceived
         super(Comp7ModeSelectorItem, self)._onDisposing()
         return
 
@@ -98,12 +96,6 @@ class Comp7ModeSelectorItem(ModeSelectorLegacyItem):
             comp7_model_helpers.setDivisionInfo(model=vm.divisionInfo, division=division)
             comp7_model_helpers.setRanksInactivityInfo(vm)
             comp7_qualification_helpers.setQualificationInfo(vm.qualificationModel)
-            self.__comp7Controller.onLeaderboardDataRequested()
-        return
-
-    def __onLeaderboardDataReceived(self, myPosition):
-        with self.viewModel.widget.transaction() as vm:
-            vm.setMyPosition(myPosition)
         return
 
     @staticmethod

@@ -965,20 +965,20 @@
             e.current || (u(), (e.current = !0));
           },
           O = (u) => u && "ArrayItem" === u.__proto__.constructor.name,
-          S = (u, e) => (u.length > 0 ? `${u}.${e}` : e),
-          y = (u) =>
+          y = (u, e) => (u.length > 0 ? `${u}.${e}` : e),
+          S = (u) =>
             ((u, e) =>
               u.split(".").reduce((u, E) => {
                 const A = f(`${u}.${E}`, window);
                 return O(A) ? e(u, E, A) : `${u}.${E}`;
               }))(u, (u, e) => `${u}.${e}.value`),
-          k = (u) => {
+          x = (u) => {
             const e = ((u) => {
                 const e = P(),
                   E = e.caller,
                   A = e.resId,
                   F = window.__feature && window.__feature !== E && E ? `subViews.${E}` : "";
-                return { modelPrefix: F, modelPath: S(F, u || ""), resId: A };
+                return { modelPrefix: F, modelPath: y(F, u || ""), resId: A };
               })(),
               E = e.modelPrefix,
               A = u.split(".");
@@ -986,7 +986,7 @@
               const u = [A[0]];
               return (
                 A.reduce((e, A) => {
-                  const F = f(S(E, `${e}.${A}`), window);
+                  const F = f(y(E, `${e}.${A}`), window);
                   return O(F) ? (u.push(F.id), `${e}.${A}.value`) : (u.push(A), `${e}.${A}`);
                 }),
                 u.reduce((u, e) => u + "." + e)
@@ -994,7 +994,7 @@
             }
             return "";
           },
-          x = c.Sw.instance;
+          k = c.Sw.instance;
         let M;
         !(function (u) {
           ((u.None = "None"), (u.Shallow = "Shallow"), (u.Deep = "Deep"));
@@ -1014,7 +1014,7 @@
                 const e = f(u, window);
                 for (const u in e) "function" == typeof e[u] && (e[u] = e[u].bind(e));
                 return O(e) ? e.value : e;
-              })(y(r)),
+              })(S(r)),
             ),
             B = o[0],
             i = o[1],
@@ -1035,20 +1035,20 @@
                       ? (u === B && F((u) => u + 1), i(u))
                       : i(Object.assign([], u));
                   },
-                  A = k(u);
-                s.current = x.addCallback(A, E, D, e === M.Deep);
+                  A = x(u);
+                s.current = k.addCallback(A, E, D, e === M.Deep);
               }
             }),
             (0, A.useEffect)(() => {
               if (e !== M.None)
                 return () => {
-                  x.removeCallback(s.current, D);
+                  k.removeCallback(s.current, D);
                 };
             }, [D, e]),
             B
           );
         };
-        let L, U, I, G, V, q, z, W, Y;
+        let L, U, I, G, V, q, W, z, Y;
         (!(function (u) {
           ((u.Items = "items"),
             (u.Equipment = "equipment"),
@@ -1069,6 +1069,7 @@
             (u.TankmenXpFactor = "tankmenXPFactor"),
             (u.FreeXpFactor = "freeXPFactor"),
             (u.BattleToken = "battleToken"),
+            (u.Entitlements = "entitlements"),
             (u.PremiumUniversal = "premium_universal"),
             (u.Gold = "gold"),
             (u.Credits = "credits"),
@@ -1081,7 +1082,6 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
-            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1114,7 +1114,11 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.RazlomCoin = "razlom_coin"));
+            (u.NyPetGoodies = "nyPetGoodies"),
+            (u.HiddenVehicle = "hidden_vehicle"),
+            (u.NyStaticDogTag = "nyStaticDogTag"),
+            (u.NyToys = "nyToys"),
+            (u.NyLootboxFragment = "nyLootboxFragment"));
         })(L || (L = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1207,10 +1211,10 @@
               (u.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
               (u.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
               (u.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"));
-          })(z || (z = {})),
+          })(W || (W = {})),
           (function (u) {
             ((u.Small = "400x300"), (u.Big = "600x450"));
-          })(W || (W = {})),
+          })(z || (z = {})),
           (function (u) {
             u.ProgressionStyle = "progressionStyle";
           })(Y || (Y = {})));

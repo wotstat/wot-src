@@ -1,13 +1,16 @@
-import weakref, BigWorld
+import weakref
+from account_helpers.newbie_chat_lock import CHAT_LOCK_CACHE_SYNC_REASONS
 from collections import defaultdict
 from debug_utils import LOG_ERROR, LOG_DEBUG
 from gui import DialogsInterface, SystemMessages
+from gui.ClientUpdateManager import g_clientUpdateManager
 from gui.Scaleform.daapi.view import dialogs
 from gui.Scaleform.genConsts.TOOLTIPS_CONSTANTS import TOOLTIPS_CONSTANTS
 from gui.Scaleform.locale.CHAT import CHAT
 from gui.Scaleform.managers.windows_stored_data import g_windowsStoredData, TARGET_ID
 from gui.shared import EVENT_BUS_SCOPE, g_eventBus
 from gui.shared.events import MessengerEvent, ChannelManagementEvent
+from helpers import dependency
 from messenger.formatters.users_messages import getUserActionReceivedMessage
 from messenger.gui import events_dispatcher
 from messenger.gui.Scaleform import channels
@@ -18,9 +21,10 @@ from messenger.m_constants import MESSENGER_SCOPE, LAZY_CHANNEL
 from messenger.proto.events import g_messengerEvents
 from messenger.storage import storage_getter
 from shared_utils import findFirst
-from PlayerEvents import g_playerEvents
+from skeletons.gui.shared import IItemsCache
 
 class LobbyEntry(IGUIEntry):
+    __itemsCache = dependency.descriptor(IItemsCache)
 
     def __init__(self):
         super(LobbyEntry, self).__init__()
@@ -87,7 +91,9 @@ class LobbyEntry(IGUIEntry):
         cEvents.onCommandReceived += self.__me_onCommandReceived
         g_messengerEvents.users.onUserActionReceived += self.__me_onUserActionReceived
         g_messengerEvents.onErrorReceived += self.__me_onErrorReceived
-        g_playerEvents.onNewbieChatLockingStateChanged += self.__updateCommonChatAccessibility
+        self.__itemsCache.onSyncCompleted += self.__onItemsCacheSyncCompleted
+        g_clientUpdateManager.addCallbacks({b'stats.restrictions': (self.__updateCommonChatAccessibility)})
+        self.__updateCommonChatAccessibility()
         return
 
     def close(self, nextScope):
@@ -110,7 +116,8 @@ class LobbyEntry(IGUIEntry):
         cEvents.onCommandReceived -= self.__me_onCommandReceived
         g_messengerEvents.users.onUserActionReceived -= self.__me_onUserActionReceived
         g_messengerEvents.onErrorReceived -= self.__me_onErrorReceived
-        g_playerEvents.onNewbieChatLockingStateChanged -= self.__updateCommonChatAccessibility
+        self.__itemsCache.onSyncCompleted -= self.__onItemsCacheSyncCompleted
+        g_clientUpdateManager.removeObjectCallbacks(self)
         return
 
     def addClientMessage(self, message, isCurrentPlayer=False):
@@ -244,7 +251,6 @@ class LobbyEntry(IGUIEntry):
             if controller is None:
                 LOG_ERROR(b'Channel controller is not defined', ctx)
                 return
-            ctx.clear()
             self.__setView4Ctrl(controller)
             return
 
@@ -289,11 +295,19 @@ class LobbyEntry(IGUIEntry):
                 controller.exit()
             return
 
-    def __updateCommonChatAccessibility(self):
-        channel = findFirst((lambda ch: ch.getName() == LAZY_CHANNEL.COMMON), self.channelsStorage.all())
-        if channel is None:
+    def __onItemsCacheSyncCompleted(self, reason, _=None):
+        if reason not in CHAT_LOCK_CACHE_SYNC_REASONS:
+            return
+        self.__updateCommonChatAccessibility()
+        return
+
+    def __updateCommonChatAccessibility(self, *_):
+        if self.__carouselHandler is None:
             return
         else:
+            channel = findFirst((lambda ch: ch.getName() == LAZY_CHANNEL.COMMON), self.channelsStorage.all())
+            if channel is None:
+                return
             isLocked = self.__isCommonChatLocked()
             tooltipData = self.__getCommonChatTooltipData(isLocked)
             self.__carouselHandler.updateChannelAccessibility(channel, isLocked=isLocked, tooltipData=tooltipData)
@@ -301,9 +315,8 @@ class LobbyEntry(IGUIEntry):
 
     @staticmethod
     def __isCommonChatLocked():
-        if getattr(BigWorld.player(), b'AccountNewbieChatLockComponent', False):
-            return bool(BigWorld.player().AccountNewbieChatLockComponent.chatLocked)
-        return False
+        from account_helpers.newbie_chat_lock import isNewbieChatLocked
+        return isNewbieChatLocked()
 
     @staticmethod
     def __getCommonChatTooltipData(isLocked):

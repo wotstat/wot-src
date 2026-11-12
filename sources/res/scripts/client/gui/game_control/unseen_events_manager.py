@@ -32,7 +32,7 @@ class UnseenEventManager(IUnseenEventsCounter):
         return
 
     def updateUnseenEvents(self, data):
-        self.__unseenQuests = data
+        self.__unseenQuests.update(data)
         self.onUnseenEventUpdated(data)
         return
 

@@ -1,13 +1,19 @@
+from enum import Enum
 from frameworks.wulf import Array
 from gui.impl.wrappers.user_list_model import UserListModel
 from gui.impl.gen.view_models.common.missions.bonuses.bonus_model import BonusModel
 from gui.impl.gen.view_models.common.vehicle_info_model import VehicleInfoModel
 from gui_lootboxes.gui.impl.gen.view_models.views.lobby.gui_lootboxes.reward_video_model import RewardVideoModel
 
+class Glows(Enum):
+    DEFAULT = b'DEFAULT'
+    UNIQUE = b'UNIQUE'
+
+
 class LootboxVideoRewardViewModel(VehicleInfoModel):
     __slots__ = (b'onClose', b'onVideoStarted')
 
-    def __init__(self, properties=18, commands=2):
+    def __init__(self, properties=20, commands=2):
         super(LootboxVideoRewardViewModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -61,11 +67,25 @@ class LootboxVideoRewardViewModel(VehicleInfoModel):
         self._setBool(16, value)
         return
 
+    def getLootBoxIconName(self):
+        return self._getString(17)
+
+    def setLootBoxIconName(self, value):
+        self._setString(17, value)
+        return
+
+    def getGlowType(self):
+        return Glows(self._getString(18))
+
+    def setGlowType(self, value):
+        self._setString(18, value.value)
+        return
+
     def getRewardVideos(self):
-        return self._getArray(17)
+        return self._getArray(19)
 
     def setRewardVideos(self, value):
-        self._setArray(17, value)
+        self._setArray(19, value)
         return
 
     @staticmethod
@@ -81,6 +101,8 @@ class LootboxVideoRewardViewModel(VehicleInfoModel):
         self._addNumberProperty(b'lootboxID', 0)
         self._addBoolProperty(b'isGuaranteedReward', False)
         self._addBoolProperty(b'hasVideoFooter', False)
+        self._addStringProperty(b'lootBoxIconName', b'')
+        self._addStringProperty(b'glowType', Glows.DEFAULT.value)
         self._addArrayProperty(b'rewardVideos', Array())
         self.onClose = self._addCommand(b'onClose')
         self.onVideoStarted = self._addCommand(b'onVideoStarted')

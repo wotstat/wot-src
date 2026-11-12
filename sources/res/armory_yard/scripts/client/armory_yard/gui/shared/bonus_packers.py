@@ -47,8 +47,6 @@ class ArmoryYardTokenBonusUIPacker(TokenBonusUIPacker):
     def _getTokenBonusType(cls, tokenID, complexToken):
         if isArmoryYardBattleToken(tokenID):
             return FEATURE_NAME_BASE
-        if tokenID == b'ny24_yaga':
-            return b''
         return super(ArmoryYardTokenBonusUIPacker, cls)._getTokenBonusType(tokenID, complexToken)
 
     @classmethod

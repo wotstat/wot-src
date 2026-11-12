@@ -748,6 +748,8 @@ _(#invites:invites/text/fort/defence) &lt;font color="#c9c9b6"&gt;%(clanAbbrev)s
 				<awardSheet>&lt;font color='#FBC062'&gt;%(value)s &lt;/font&gt;&lt;img src='img://gui/maps/icons/quests/token16.png' width='16' height='16' vspace='-3' /&gt;</awardSheet>
 				<rentDays>_(#quests:bonuses/vehicles/rentDays) &lt;font color='#E9E2BF'&gt;%(value)s&lt;/font&gt;</rentDays>
 				<lootBox>_(#quests:bonuses/item/lootBoxes) &lt;font color='#8C8C7E'&gt;%(name)s (x%(count)d)&lt;/font&gt;</lootBox>
+				<lootBoxMachineNotif>_(#quests:bonuses/item/lootBoxesMachine) &lt;font color='#CED9D9'&gt;(x%(count)d)&lt;/font&gt;</lootBoxMachineNotif>
+				<lootBoxMachine>_(#quests:bonuses/item/lootBoxesMachine) &lt;font color='#8C8C7E'&gt;(x%(count)d)&lt;/font&gt;</lootBoxMachine>
 				<lootBoxKey>%(name)s (x%(count)d)</lootBoxKey>
 				<lockpick>_(#quests:bonuses/item/lockpick) &lt;font color='#95907F'&gt;%(name)s (x%(count)d)&lt;/font&gt;</lockpick>
 				<rawLootBox>_(#quests:bonuses/item/lootBoxes) %(name)s (x%(count)d)</rawLootBox>

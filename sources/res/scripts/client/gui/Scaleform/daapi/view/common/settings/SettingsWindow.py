@@ -12,6 +12,7 @@ from gui.Scaleform.locale.SETTINGS import SETTINGS
 from gui import DialogsInterface, g_guiResetters
 from gui.shared import g_eventBus, events, EVENT_BUS_SCOPE
 from gui.shared.utils import flashObject2Dict, decorators, graphics
+from gui.shared.utils.vehicle_difficulty_helper import isVehicleDifficultyEnabled
 from gui.Scaleform.daapi.view.meta.SettingsWindowMeta import SettingsWindowMeta
 from gui.Scaleform.daapi.view.common.settings.SettingsParams import SettingsParams
 from gui.battle_control.battle_context_hints.classic_battle_context_hints_config import isBattleContextHintsResetAvailable, resetBattleContextHintsCounters
@@ -75,6 +76,7 @@ class SettingsWindow(SettingsWindowMeta):
         self.params = SettingsParams()
         self.updateCaptureDevices()
         self.__buttonTimer = None
+        self.__vehicleDifficultySettingsVisible = None
         return
 
     @proto_getter(PROTO_TYPE.BW_CHAT2)
@@ -155,6 +157,7 @@ class SettingsWindow(SettingsWindowMeta):
         self.settingsCore.onSettingsChanged += self.__onSettingsChanged
         self.anonymizerController.onStateChanged += self.__refreshSettings
         self.lobbyContext.onServerSettingsChanged += self.__setBattleContextHintsEnabled
+        self.lobbyContext.getServerSettings().onServerSettingsChange += self.__setVehicleDifficultySettingsVisibility
         g_guiResetters.add(self.onRecreateDevice)
         BigWorld.setAdapterOrdinalNotifyCallback(self.onRecreateDevice)
         return
@@ -168,6 +171,7 @@ class SettingsWindow(SettingsWindowMeta):
         self.as_openTabS(_getLastTabIndex())
         self.__setColorGradingTechnique()
         self.__setLimitedUISettingVisibility()
+        self.__setVehicleDifficultySettingsVisibility()
         self.__setBattleContextHintsResetEnabled()
         self.__setBattleContextHintsEnabled()
         self.__disableVOIPTestButton()
@@ -184,6 +188,7 @@ class SettingsWindow(SettingsWindowMeta):
         self.anonymizerController.onStateChanged -= self.__refreshSettings
         self.settingsCore.onSettingsChanged -= self.__onSettingsChanged
         self.lobbyContext.onServerSettingsChanged -= self.__setBattleContextHintsEnabled
+        self.lobbyContext.getServerSettings().onServerSettingsChange -= self.__setVehicleDifficultySettingsVisibility
         self.__buttonTimer = None
         super(SettingsWindow, self)._dispose()
         return
@@ -435,6 +440,13 @@ class SettingsWindow(SettingsWindowMeta):
         self.as_showLimitedUISettingS(self.limitedUIController.isUserSettingsMayShow)
         return
 
+    def __setVehicleDifficultySettingsVisibility(self, _=None):
+        isVisible = isVehicleDifficultyEnabled()
+        if self.__vehicleDifficultySettingsVisible != isVisible:
+            self.__vehicleDifficultySettingsVisible = isVisible
+            self.as_showVehicleDifficultySettingsS(isVisible)
+        return
+
     def __applyLimitedUISetting(self):
         self.limitedUIController.completeAllRules()
         LimitedUILogger().handleClickOnce(LimitedUILogItem.DISABLE_LIMITED_UI_BUTTON, LimitedUILogScreenParent.SETTINGS_WINDOW)
@@ -452,7 +464,7 @@ class SettingsWindow(SettingsWindowMeta):
         BattleContextHintsSettingsLogger().logResetHintsCountersClicked()
         return
 
-    def __setBattleContextHintsEnabled(self):
+    def __setBattleContextHintsEnabled(self, _=None):
         config = self.lobbyContext.getServerSettings().battleContextHintsConfig
         self.as_setBattleContextHintsEnabledS(config.enabled)
         return

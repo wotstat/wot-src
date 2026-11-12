@@ -167,5 +167,5 @@ def getComp7ProductsUrl():
     return _getUrl(b'comp7Products')
 
 
-def getPortalShopUrl():
-    return _getUrl(b'portalShop')
+def getCustomizationResourceUrl():
+    return _getUrl(b'customizationResourceShop')

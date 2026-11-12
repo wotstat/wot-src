@@ -42,6 +42,10 @@
 		<density>1.07941699 1.07941699</density>
 	</camouflage>
 	<hull>
+		<fakeTurrets>
+			<lobby>0</lobby>
+			<battle></battle>
+		</fakeTurrets>
 		<armor>
 			<armor_1>80</armor_1>
 			<armor_2>80</armor_2>

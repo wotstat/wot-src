@@ -788,7 +788,7 @@
           engine.call("PlaySound", u);
         }
         var s = t(3403),
-          B = t(6123);
+          B = t(2220);
         function C() {
           return !1;
         }
@@ -1064,7 +1064,7 @@
           );
         });
       },
-      6123: (u, e, t) => {
+      2220: (u, e, t) => {
         t.d(e, { n: () => _ });
         var n = t(6483),
           A = t.n(n),

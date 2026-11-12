@@ -1,6 +1,7 @@
 import copy
 from logging import getLogger
 import itertools, BigWorld, Math, MusicControllerWWISE, ResMgr, MTWebBrowser, constants, AnimationSequence
+from ExtensionsManager import g_extensionsManager
 from PlayerEvents import g_playerEvents
 from debug_utils import LOG_DEBUG, LOG_ERROR, LOG_CURRENT_EXCEPTION
 from gui.hangar_config import HangarConfig
@@ -95,7 +96,13 @@ def initializeHangarsCFG():
 
 def _readHangarSettings():
     hangarsXml = ResMgr.openSection(b'gui/hangars.xml')
-    paths = [path for path, _ in ResMgr.openSection(_DEFAULT_SPACES_PATH).items()]
+    paths = [(b'{}/{}').format(_DEFAULT_SPACES_PATH, path) for path, _ in ResMgr.openSection(_DEFAULT_SPACES_PATH).items()]
+    for extension in g_extensionsManager.activeExtensions:
+        folderPath = extension.path + _DEFAULT_SPACES_PATH
+        section = ResMgr.openSection(folderPath)
+        if section is not None:
+            paths += [(b'{}/{}').format(folderPath, path) for path, _ in section.items()]
+
     defaultSpace = b'h08_mt_hangar'
     if hangarsXml.has_key(b'hangar_scene_spaces'):
         switchItems = hangarsXml[b'hangar_scene_spaces']
@@ -105,8 +112,7 @@ def _readHangarSettings():
                 break
 
     configset = {(constants.DEFAULT_HANGAR_SCENE): ((b'{}/{}').format(_DEFAULT_SPACES_PATH, defaultSpace))}
-    for folderName in paths:
-        spacePath = (b'{prefix}/{node}').format(prefix=_DEFAULT_SPACES_PATH, node=folderName)
+    for spacePath in paths:
         spaceKey = _getHangarKey(spacePath)
         settingsXmlPath = (b'{path}/{file}/{sec}').format(path=spacePath, file=b'space.settings', sec=b'hangarSettings')
         ResMgr.purge(settingsXmlPath, True)
@@ -396,7 +402,7 @@ class _ClientHangarSpacePathOverride(object):
         return
 
     def setPath(self, path, visibilityMask=None, environment=b'', isPremium=None, isReload=True, event=None):
-        if path is not None and not path.startswith(b'spaces/'):
+        if path is not None and path.find(b'spaces/') == -1:
             path = b'spaces/' + path
         if isPremium is None:
             isPremium = self.hangarSpace.isPremium

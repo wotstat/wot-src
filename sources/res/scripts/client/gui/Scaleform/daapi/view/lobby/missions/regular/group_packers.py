@@ -377,7 +377,9 @@ class _EventsBlockInfo(object):
         return self.findEvents(srvEvents)
 
     def markVisited(self):
-        self.__unseenEventsManager.seenEvents({e.getID(): 1 for e in self._suitableEvents})
+        events = {e.getID(): 1 for e in self._suitableEvents}
+        if events:
+            self.__unseenEventsManager.seenEvents(events)
         return
 
     def clear(self):

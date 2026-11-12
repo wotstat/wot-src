@@ -30,12 +30,14 @@ class BuilderDialogTemplateView(DialogTemplateView):
 
 
 class BaseDialogBuilder(object):
-    __slots__ = (b'__title', b'__description', b'__icon', b'__buttons', b'__uniqueID', b'__backgroundID', b'__dimmerAlpha', b'__layoutID', b'__selectedButtonID', b'__doBlur', b'__layer', b'__displayFlags')
+    __slots__ = (b'__title', b'__description', b'__icon', b'__buttons', b'__uniqueID', b'__backgroundID', b'__dimmerAlpha', b'__layoutID', b'__selectedButtonID', b'__doBlur', b'__layer', b'__displayFlags', b'__descriptionImageSubstitutions', b'__titleImageSubstitutions')
 
     def __init__(self, uniqueID=None, layoutID=None):
         super(BaseDialogBuilder, self).__init__()
         self.__title = None
+        self.__titleImageSubstitutions = None
         self.__description = None
+        self.__descriptionImageSubstitutions = None
         self.__icon = None
         self.__buttons = []
         self.__uniqueID = uniqueID
@@ -51,9 +53,9 @@ class BaseDialogBuilder(object):
     def buildView(self):
         template = BuilderDialogTemplateView(layoutID=self.__layoutID, uniqueID=self.__uniqueID)
         if self.__title:
-            template.setSubView(DefaultDialogPlaceHolders.TITLE, SimpleTextTitle(self.__title))
+            template.setSubView(DefaultDialogPlaceHolders.TITLE, SimpleTextTitle(self.__title, self.__titleImageSubstitutions))
         if self.__description:
-            template.setSubView(DefaultDialogPlaceHolders.CONTENT, SimpleTextContent(self.__description))
+            template.setSubView(DefaultDialogPlaceHolders.CONTENT, SimpleTextContent(self.__description, self.__descriptionImageSubstitutions))
         if self.__icon:
             template.setSubView(DefaultDialogPlaceHolders.ICON, IconSet(**self.__icon))
         if self.__buttons:
@@ -75,12 +77,16 @@ class BaseDialogBuilder(object):
     def build(self):
         return FullScreenDialogWindowWrapper(self.buildView(), doBlur=self.__doBlur, layer=self.__layer)
 
-    def setTitle(self, text):
+    def setTitle(self, text, imageSubstitutions=None):
         self.__title = toString(text)
+        if imageSubstitutions:
+            self.__titleImageSubstitutions = imageSubstitutions
         return
 
-    def setDescription(self, text):
+    def setDescription(self, text, imageSubstitutions=None):
         self.__description = toString(text)
+        if imageSubstitutions:
+            self.__descriptionImageSubstitutions = imageSubstitutions
         return
 
     def setIcon(self, mainIcon, backgrounds=None, overlays=None, layoutID=None, iconPositionLogic=IconPositionLogicEnum.CENTREDANDTHROUGHCONTENT.value):

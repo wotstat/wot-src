@@ -114,6 +114,7 @@ class ProjectionDecalDirectionTags(object):
     FRONT = b'front'
     ALL = (
      ANY, LEFT_TO_RIGHT, RIGHT_TO_LEFT, LEFT, RIGHT, FRONT)
+    ALL_CONCRETE = (LEFT, RIGHT, FRONT)
 
 
 class ProjectionDecalFormTags(object):

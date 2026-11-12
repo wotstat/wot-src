@@ -3644,7 +3644,25 @@ RECORDS = (
  (
   b'singleAchievements', b'portal2026Medal_1', b'p', b'B', 1),
  (
-  b'singleAchievements', b'portal2026Medal_2', b'p', b'B', 1))
+  b'singleAchievements', b'portal2026Medal_2', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_2', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_2_champion_0', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_2_champion_1', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_2_champion_2', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_2_legend_0', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_2_legend_1', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_2_legend_2', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'NY27_AtmsphrLevel', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'NY27_CelebTaskCompleted', b'p', b'B', 1))
 RECORD_INDICES = dict((rec[:2], idx) for idx, rec in enumerate(RECORDS))
 RECORD_DB_IDS = {(b'total', b'creationTime'): 68, 
    (b'total', b'lastBattleTime'): 7, 
@@ -5468,7 +5486,16 @@ RECORD_DB_IDS = {(b'total', b'creationTime'): 68,
    (b'singleAchievements', b'comp7_6_1_legend_2'): 31182, 
    (b'singleAchievements', b'portal2026Medal_1'): 31183, 
    (b'singleAchievements', b'portal2026Medal_2'): 31184, 
-   (b'singleAchievements', b'16YearsOfService'): 31185}
+   (b'singleAchievements', b'16YearsOfService'): 31185, 
+   (b'singleAchievements', b'comp7_6_2'): 31186, 
+   (b'singleAchievements', b'comp7_6_2_champion_0'): 31187, 
+   (b'singleAchievements', b'comp7_6_2_champion_1'): 31188, 
+   (b'singleAchievements', b'comp7_6_2_champion_2'): 31189, 
+   (b'singleAchievements', b'comp7_6_2_legend_0'): 31190, 
+   (b'singleAchievements', b'comp7_6_2_legend_1'): 31191, 
+   (b'singleAchievements', b'comp7_6_2_legend_2'): 31192, 
+   (b'singleAchievements', b'NY27_AtmsphrLevel'): 31193, 
+   (b'singleAchievements', b'NY27_CelebTaskCompleted'): 31194}
 DB_ID_TO_RECORD = dict([(value, key) for key, value in RECORD_DB_IDS.iteritems()])
 RECORD_DB_IDS.update({(b'vehTypeFrags', b''): 863, 
    (b'a15x15Cut', b''): 864, 

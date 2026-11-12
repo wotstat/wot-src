@@ -313,12 +313,15 @@ class LobbySimpleEvent(HasCtxEvent):
     WAITING_SHOWN = b'waitingShown'
     WAITING_HIDDEN = b'waitingHidden'
     BATTLE_RESULTS_POSTED = b'battleResultsPosted'
+    TURN_LOBBY_DRAGGING_OFF = b'turnLobbyDraggingOff'
     BATTLE_RESULTS_SHOW_QUEST = b'battleResultsWindowShowQuest'
     CHANGE_SOUND_ENVIRONMENT = b'changeSoundEnvironment'
     VEHICLE_PREVIEW_HIDDEN = b'vehiclePreviewHidden'
     ENTITY_TOOLTIP_SHOW = b'entityTooltipShow'
     ENTITY_TOOLTIP_HIDE = b'entityTooltipHide'
     HANGAR_STATUS_CHANGED = b'hangarStatusChanged'
+    SWITCH_NEW_YEAR_VIEW = b'switchNewYearView'
+    SHOW_LOOT_BOX_VIEW = b'showLootBoxView'
 
 
 class MissionsEvent(HasCtxEvent):
@@ -660,6 +663,7 @@ class VehicleBuyEvent(HasCtxEvent):
 
 
 class HangarVehicleEvent(HasCtxEvent):
+    ON_HERO_TANK_LABEL_UPDATE_REQUIRED = b'hangarVehicle/onHeroTankLabelUpdateRequired'
     ON_HERO_TANK_LOADED = b'hangarVehicle/onHeroTankLoaded'
     ON_HERO_TANK_DESTROY = b'hangarVehicle/onHeroTankDestroy'
     ON_PLATOON_TANK_LOADED = b'hangarVehicle/onPlatoonTankLoaded'
@@ -687,6 +691,30 @@ class HangarCustomizationEvent(HasCtxEvent):
 class SeniorityAwardsEvent(HasCtxEvent):
     ON_REWARD_VIEW_CLOSED = b'seniorityAwards/onRewardViewClosed'
     ON_ENTRY_VIEW_LOADED = b'seniorityAwards/onEntryViewLoaded'
+
+
+class LootboxesEvent(HasCtxEvent):
+    ON_REWARD_VIEW_CLOSED = b'lootboxes/onRewardViewClosed'
+    ON_MULTI_OPEN_VIEW_CLOSED = b'lootboxes/onMultiOpenViewClosed'
+    ON_SHOW_SPECIAL_REWARDS_CLOSED = b'lootboxes/onShowSpecialRewardsClosed'
+    ON_ENTRY_VIEW_LOADED = b'lootboxes/onEntryViewLoaded'
+    ON_MAIN_VIEW_CLOSED = b'lootboxes/onMainViewClosed'
+    ON_OPENING_START = b'lootboxes/onOpeningStart'
+    ON_OPENING_END = b'lootboxes/onOpeningEnd'
+    ON_OPEN_LOOTBOX = b'lootboxes/onOpenNext'
+    NEED_SHOW_REWARDS = b'lootboxes/needShowRewards'
+    NEED_STOP_ENTRY_VIDEO = b'lootboxes/needStopEntryVideo'
+    REMOVE_HIDE_VIEW = b'lootboxes/removeHideView'
+    HIDE_COMPLETE = b'lootboxes/hideComplete'
+    ON_VIDEO_OFF_MOVIE_LOADED = b'lootboxes/onVideoOffMovieLoaded'
+    ON_VIDEO_LOAD_ERROR = b'lootboxes/onVideoLoadError'
+    ON_TAB_SELECTED = b'lootboxes/onTabSelected'
+    NEED_DELIVERY_VIDEO_START = b'lootboxes/needDeliveryVideoStart'
+    NEED_DELIVERY_VIDEO_STOP = b'lootboxes/needDeliveryVideoStop'
+    ON_DELIVERY_VIDEO_END = b'lootboxes/onDeliveryVideoEnd'
+    ON_BOX_TRANSITION_END = b'lootboxes/onBoxTransitionEnd'
+    ON_STATISTICS_RESET = b'lootboxes/onStatisticsReset'
+    SWITCH_BOX_HOVER = b'lootboxes/switchBoxHover'
 
 
 class ReferralProgramEvent(HasCtxEvent):
@@ -906,3 +934,9 @@ class RespawnViewEvent(SharedEvent):
 
 class SummerSaleViewEvent(SharedEvent):
     ON_CLOSE_REWARD_VIEW = b'ON_CLOSE_REWARD_VIEW'
+    ON_REWARD_VIEW_SHOWN = b'ON_REWARD_VIEW_SHOWN'
+
+
+class GiftSystemOperationEvent(HasCtxEvent):
+    GIFT_SENT = b'GiftSentEvent'
+    GIFT_OPENED = b'GiftOpenedEvent'

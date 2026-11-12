@@ -125,10 +125,25 @@ class ArmoryYardBundlesView(ViewImpl):
             return
         with self.viewModel.transaction() as vm:
             vm.setCurrentLevel(self.__armoryYardCtrl.getCurrentProgress())
+            self.__onProductsUpdate(vm)
+        return
+
+    def __onProductsUpdate(self, vm):
+        bundles = vm.getBundles()
+        for idx, bundle in enumerate(bundles):
+            productTokens = bundle.getLevelCount()
+            currentProgress = self.__armoryYardCtrl.getCurrentProgress()
+            maxTokensCount = self.__armoryYardCtrl.maxNumberOfSteps
+            if productTokens + currentProgress > maxTokensCount:
+                bundles.remove(idx)
+
+        bundles.invalidate()
         return
 
     def _getEvents(self):
-        return ((self.viewModel.onClose, self.onClose),
+        return (
+         (
+          self.viewModel.onClose, self.onClose),
          (
           self.viewModel.onBuyBundle, self.onBuyBundle),
          (

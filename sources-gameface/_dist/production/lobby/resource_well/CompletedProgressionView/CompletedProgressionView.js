@@ -1422,7 +1422,7 @@
           };
         window.ViewEnvHelper = v;
       },
-      2770: (u, e, t) => {
+      3145: (u, e, t) => {
         "use strict";
         var r = t(7739),
           a = t(6179),
@@ -1577,19 +1577,19 @@
               },
               [C],
             ),
-            O = (0, a.useCallback)(
+            y = (0, a.useCallback)(
               (u) => {
                 i || (d && d(u));
               },
               [i, d],
             ),
-            P = (0, a.useCallback)(
+            O = (0, a.useCallback)(
               (u) => {
                 i || (null !== s && g(s), l && l(u), T(!0));
               },
               [i, s, l],
             ),
-            y = (0, a.useCallback)(
+            P = (0, a.useCallback)(
               (u) => {
                 _ && _(u);
               },
@@ -1644,12 +1644,12 @@
               {
                 ref: m,
                 className: I,
-                onMouseEnter: P,
-                onMouseMove: y,
+                onMouseEnter: O,
+                onMouseMove: P,
                 onMouseUp: N,
                 onMouseDown: k,
                 onMouseLeave: H,
-                onClick: O,
+                onClick: y,
               },
               r !== b.ghost &&
                 n().createElement(
@@ -1685,7 +1685,7 @@
         const T = ["xl", "lg", "md", "sm", "xs"],
           M = (u) => u.includes("_") && ((u) => T.includes(u))(u.split("_").at(-1)),
           L = [A.cJ.ExtraLarge, A.cJ.Large, A.cJ.Medium, A.cJ.Small, A.cJ.ExtraSmall],
-          O = (u, e) =>
+          y = (u, e) =>
             Object.keys(u).reduce((t, r) => {
               if (r in t) return t;
               if (M(r)) {
@@ -1706,9 +1706,9 @@
                 t
               );
             }, {}),
-          P = (u, e = O) => {
+          O = (u, e = y) => {
             const t = (
-              (u, e = O) =>
+              (u, e = y) =>
               (t) => {
                 const r = (0, A.GS)().mediaSize,
                   i = (0, a.useMemo)(() => e(t, r), [t, r]);
@@ -1721,7 +1721,7 @@
                 : n().createElement(u, e),
             );
           },
-          y = {
+          P = {
             mt__XS: "Box_mt__XS_0c",
             mt__SM: "Box_mt__SM_eb",
             mt__SMp: "Box_mt__SMp_cf",
@@ -1795,17 +1795,17 @@
         }
         Object.keys(x());
         const H = {
-            XL: { mt: y.mt__XL, mr: y.mr__XL, mb: y.mb__XL, ml: y.ml__XL },
-            LG: { mt: y.mt__LG, mr: y.mr__LG, mb: y.mb__LG, ml: y.ml__LG },
-            MDp: { mt: y.mt__MDp, mr: y.mr__MDp, mb: y.mb__MDp, ml: y.ml__MDp },
-            MD: { mt: y.mt__MD, mr: y.mr__MD, mb: y.mb__MD, ml: y.ml__MD },
-            SMp: { mt: y.mt__SMp, mr: y.mr__SMp, mb: y.mb__SMp, ml: y.ml__SMp },
-            SM: { mt: y.mt__SM, mr: y.mr__SM, mb: y.mb__SM, ml: y.ml__SM },
-            XS: { mt: y.mt__XS, mr: y.mr__XS, mb: y.mb__XS, ml: y.ml__XS },
+            XL: { mt: P.mt__XL, mr: P.mr__XL, mb: P.mb__XL, ml: P.ml__XL },
+            LG: { mt: P.mt__LG, mr: P.mr__LG, mb: P.mb__LG, ml: P.ml__LG },
+            MDp: { mt: P.mt__MDp, mr: P.mr__MDp, mb: P.mb__MDp, ml: P.ml__MDp },
+            MD: { mt: P.mt__MD, mr: P.mr__MD, mb: P.mb__MD, ml: P.ml__MD },
+            SMp: { mt: P.mt__SMp, mr: P.mr__SMp, mb: P.mb__SMp, ml: P.ml__SMp },
+            SM: { mt: P.mt__SM, mr: P.mr__SM, mb: P.mb__SM, ml: P.ml__SM },
+            XS: { mt: P.mt__XS, mr: P.mr__XS, mb: P.mb__XS, ml: P.ml__XS },
           },
           I = (Object.keys(H), ["mt", "mr", "mb", "ml"]),
           U = { mt: "marginTop", mr: "marginRight", mb: "marginBottom", ml: "marginLeft" },
-          G = P((u) => {
+          G = O((u) => {
             let e = u.className,
               t = u.width,
               r = u.height,
@@ -1845,10 +1845,10 @@
               M = u.wrap,
               L = u.flexWrap,
               R = void 0 === L ? (M ? "wrap" : void 0) : L,
-              O = u.grow,
-              P = u.shrink,
+              y = u.grow,
+              O = u.shrink,
               G = u.flex,
-              W = void 0 === G ? (O || P ? `${O ? 1 : 0} ${P ? 1 : 0} auto` : void 0) : G,
+              W = void 0 === G ? (y || O ? `${y ? 1 : 0} ${O ? 1 : 0} auto` : void 0) : G,
               X = u.style,
               j = u.children,
               $ = (function (u, e) {
@@ -1888,8 +1888,8 @@
                 };
               }, [t, r, s, l, F, c, X, W, T, C, R, f, x]),
               V = Y.computedStyle,
-              z = Y.computedClassNames;
-            return n().createElement("div", k({ className: o()(y.base, ...z, e), style: V }, $), j);
+              q = Y.computedClassNames;
+            return n().createElement("div", k({ className: o()(P.base, ...q, e), style: V }, $), j);
           });
         var W = t(280),
           X = t(3532),
@@ -1966,8 +1966,8 @@
           );
         }
         Object.keys(x());
-        const z = Object.keys(j()),
-          q = { mt: "MD", mr: "SM", mb: "SM", ml: "SM" },
+        const q = Object.keys(j()),
+          z = { mt: "MD", mr: "SM", mb: "SM", ml: "SM" },
           K = { mt: "SM", mr: "XS", mb: "XS", ml: "XS" },
           Z = { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
           Q = {
@@ -1984,8 +1984,8 @@
             {
               "heading-H144": { mt: "XL", mr: "LG", mb: "LG", ml: "LG" },
               "heading-H73": { mt: "LG", mr: "MD", mb: "MD", ml: "MD" },
-              "heading-H56": q,
-              "heading-H36": q,
+              "heading-H56": z,
+              "heading-H36": z,
               "heading-H28": K,
               "heading-H24": K,
               "heading-H24R": K,
@@ -2005,11 +2005,11 @@
             (Object.keys(J),
             (u) =>
               u
-                ? ((u) => z.includes(u))(u)
+                ? ((u) => q.includes(u))(u)
                   ? { colorClassName: $[u] }
                   : { colorStyle: { color: u } }
                 : {}),
-          eu = P((u) => {
+          eu = O((u) => {
             let e = u.text,
               t = u.variant,
               r = u.className,
@@ -2623,6 +2623,7 @@
             (u.TankmenXpFactor = "tankmenXPFactor"),
             (u.FreeXpFactor = "freeXPFactor"),
             (u.BattleToken = "battleToken"),
+            (u.Entitlements = "entitlements"),
             (u.PremiumUniversal = "premium_universal"),
             (u.Gold = "gold"),
             (u.Credits = "credits"),
@@ -2635,7 +2636,6 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
-            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -2668,7 +2668,11 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.RazlomCoin = "razlom_coin"));
+            (u.NyPetGoodies = "nyPetGoodies"),
+            (u.HiddenVehicle = "hidden_vehicle"),
+            (u.NyStaticDogTag = "nyStaticDogTag"),
+            (u.NyToys = "nyToys"),
+            (u.NyLootboxFragment = "nyLootboxFragment"));
         })(i || (i = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -2903,6 +2907,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(e.bind(null, 0)), (t.push = e.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [52], () => __webpack_require__(2770));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [52], () => __webpack_require__(3145));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

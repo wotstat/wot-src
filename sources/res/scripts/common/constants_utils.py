@@ -211,6 +211,15 @@ def addVehicleTags(unitMgrFlag, requiredTags, forbiddenTags, newTags, personalit
     return
 
 
+def addVignetteSettings(viewName, value, personality):
+    from gui.shared.vignette_settings_switcher import _VIEWS_TO_VIGNETTE_CHANGE
+    if viewName in _VIEWS_TO_VIGNETTE_CHANGE:
+        raise SoftException((b'_VIEWS_TO_VIGNETTE_CHANGE already has {value}. Personality: {p}').format(value=viewName, p=personality))
+    _VIEWS_TO_VIGNETTE_CHANGE[viewName] = value
+    LOG_DEBUG((b'_VIEWS_TO_VIGNETTE_CHANGE:{viewName} was added. Personality: {p}').format(viewName=viewName, p=personality))
+    return
+
+
 def addBonusReaderFromExtension(bonusName, reader, personality):
     from bonus_readers import __BONUS_READERS, SUPPORTED_BONUSES, SUPPORTED_BONUSES_IDS, SUPPORTED_BONUSES_NAMES
     if bonusName in __BONUS_READERS:
@@ -267,6 +276,8 @@ def addBonusApplierFromExtension(bonusName, applier, personality):
     from quest_bonus import BONUS_APPLIERS
     if bonusName in BONUS_APPLIERS:
         raise SoftException((b'BONUS_APPLIERS already has {value}. Personality: {p}').format(value=bonusName, p=personality))
+    if b'nyToyFragments' == bonusName:
+        return
     BONUS_APPLIERS.update({bonusName: applier})
     LOG_DEBUG((b'BONUS_APPLIERS:{bonusName} was added. Personality: {p}').format(bonusName=bonusName, p=personality))
     return
@@ -295,6 +306,7 @@ def addLootboxStatHandler(bonusName, constValue, converter, unpacker, personalit
     REWARD_ITEM_IDS[bonusName] = constValue
     if constValue in ID_TO_NAME:
         raise SoftException((b'lootboxes_common.ID_TO_NAME already has {value}. Personality: {p}').format(value=bonusName, p=personality))
+    ID_TO_NAME[constValue] = bonusName
     EXTENSIONS_CONVERTER_PROCESSOR[bonusName] = converter
     EXTENSIONS_UNPACK_PROCESSOR[bonusName] = unpacker
     LOG_DEBUG((b'Log packer for {bonusName} was added. Personality: {p}').format(bonusName=bonusName, p=personality))
@@ -420,6 +432,7 @@ class AbstractExtensionBonuses(object):
     def registerBonusClient(self):
         self.__registerCommon()
         self.__registerClientBonuses()
+        self.__registerConverterProcessor()
         return
 
 

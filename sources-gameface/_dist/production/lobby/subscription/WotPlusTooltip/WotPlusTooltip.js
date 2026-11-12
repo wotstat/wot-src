@@ -25,10 +25,10 @@
             displayStatusIs: () => $,
             events: () => g,
             extraSize: () => H,
-            forceTriggerMouseMove: () => Q,
+            forceTriggerMouseMove: () => V,
             freezeTextureBeforeResize: () => U,
             getBrowserTexturePath: () => x,
-            getDisplayStatus: () => V,
+            getDisplayStatus: () => Q,
             getScale: () => M,
             getSize: () => k,
             getViewGlobalPosition: () => N,
@@ -36,12 +36,12 @@
             isEventHandled: () => Y,
             isFocused: () => j,
             pxToRem: () => G,
-            remToPx: () => z,
+            remToPx: () => L,
             resize: () => I,
-            sendEvent: () => w,
-            setAnimateWindow: () => L,
+            sendEvent: () => T,
+            setAnimateWindow: () => z,
             setEventHandled: () => X,
-            setInputPaddingsRem: () => T,
+            setInputPaddingsRem: () => w,
             setSidePaddingsRem: () => O,
             whenTutorialReady: () => Z,
           }));
@@ -160,8 +160,8 @@
         const _ = 2,
           f = 16,
           b = 32,
-          h = 64,
-          y = (u, e) => {
+          y = 64,
+          h = (u, e) => {
             const A = "GFViewEventProxy";
             if (void 0 !== e) {
               const E = e.args,
@@ -197,21 +197,21 @@
             return viewEnv.handleViewEvent({ __Type: A, type: u });
             var F;
           },
-          w = {
+          T = {
             close(u) {
-              y("popover" === u ? _ : b);
+              h("popover" === u ? _ : b);
             },
             minimize() {
-              y(h);
+              h(y);
             },
             move(u) {
-              y(f, { isMouseEvent: !0, on: u });
+              h(f, { isMouseEvent: !0, on: u });
             },
           };
         function P(u) {
           viewEnv.addPreloadTexture(u);
         }
-        function T(u) {
+        function w(u) {
           viewEnv.setHitAreaPaddingsRem(u, u, u, u, 15);
         }
         function x(u, e, A, F = 1) {
@@ -231,7 +231,7 @@
         }
         function N(u = "rem") {
           const e = viewEnv.getViewGlobalPositionRem();
-          return "rem" === u ? e : { x: z(e.x), y: z(e.y) };
+          return "rem" === u ? e : { x: L(e.x), y: L(e.y) };
         }
         function U() {
           viewEnv.freezeTextureBeforeResize();
@@ -242,10 +242,10 @@
         function G(u) {
           return viewEnv.pxToRem(u);
         }
-        function z(u) {
+        function L(u) {
           return viewEnv.remToPx(u);
         }
-        function L(u, e) {
+        function z(u, e) {
           viewEnv.setAnimateWindow(u, e);
         }
         function j() {
@@ -260,10 +260,10 @@
         function Y() {
           return viewEnv.isEventHandled();
         }
-        function Q() {
+        function V() {
           viewEnv.forceTriggerMouseMove();
         }
-        function V() {
+        function Q() {
           return viewEnv.getShowingStatus();
         }
         const $ = Object.keys(p).reduce(
@@ -459,7 +459,7 @@
                     ),
                   ),
                 );
-        let cu, du, mu, pu, gu, vu, _u, fu, bu, hu;
+        let cu, du, mu, pu, gu, vu, _u, fu, bu, yu;
         (!(function (u) {
           ((u.Items = "items"),
             (u.Equipment = "equipment"),
@@ -480,6 +480,7 @@
             (u.TankmenXpFactor = "tankmenXPFactor"),
             (u.FreeXpFactor = "freeXPFactor"),
             (u.BattleToken = "battleToken"),
+            (u.Entitlements = "entitlements"),
             (u.PremiumUniversal = "premium_universal"),
             (u.Gold = "gold"),
             (u.Credits = "credits"),
@@ -492,7 +493,6 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
-            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -525,7 +525,11 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.RazlomCoin = "razlom_coin"));
+            (u.NyPetGoodies = "nyPetGoodies"),
+            (u.HiddenVehicle = "hidden_vehicle"),
+            (u.NyStaticDogTag = "nyStaticDogTag"),
+            (u.NyToys = "nyToys"),
+            (u.NyLootboxFragment = "nyLootboxFragment"));
         })(cu || (cu = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -631,16 +635,16 @@
               (u[(u.Canceled = 2)] = "Canceled"),
               (u[(u.Error = 3)] = "Error"),
               (u[(u.Trial = 4)] = "Trial"));
-          })(hu || (hu = {})));
-        var yu = A(515);
-        function wu(u) {
+          })(yu || (yu = {})));
+        var hu = A(515);
+        function Tu(u) {
           return u;
         }
         function Pu() {
           return !1;
         }
         console.log;
-        var Tu = A(174);
+        var wu = A(174);
         function xu(u, e) {
           var A = ("undefined" != typeof Symbol && u[Symbol.iterator]) || u["@@iterator"];
           if (A) return (A = A.call(u)).next.bind(A);
@@ -753,11 +757,11 @@
                         observableModel: {
                           array: (u, e) => {
                             const F = null != e ? e : r(u),
-                              E = Tu.LO.box(F, { equals: Pu });
+                              E = wu.LO.box(F, { equals: Pu });
                             return (
                               "real" === A &&
                                 n.subscribe(
-                                  (0, Tu.aD)((u) => E.set(u)),
+                                  (0, wu.aD)((u) => E.set(u)),
                                   u,
                                 ),
                               E
@@ -765,11 +769,11 @@
                           },
                           object: (u, e) => {
                             const F = null != e ? e : r(u),
-                              E = Tu.LO.box(F, { equals: Pu });
+                              E = wu.LO.box(F, { equals: Pu });
                             return (
                               "real" === A &&
                                 n.subscribe(
-                                  (0, Tu.aD)((u) => E.set(u)),
+                                  (0, wu.aD)((u) => E.set(u)),
                                   u,
                                 ),
                               E
@@ -778,11 +782,11 @@
                           primitives: (u, e) => {
                             const F = r(e);
                             if (Array.isArray(u)) {
-                              const E = u.reduce((u, e) => ((u[e] = Tu.LO.box(F[e], {})), u), {});
+                              const E = u.reduce((u, e) => ((u[e] = wu.LO.box(F[e], {})), u), {});
                               return (
                                 "real" === A &&
                                   n.subscribe(
-                                    (0, Tu.aD)((e) => {
+                                    (0, wu.aD)((e) => {
                                       u.forEach((u) => {
                                         E[u].set(e[u]);
                                       });
@@ -795,11 +799,11 @@
                             {
                               const E = u,
                                 D = Object.entries(E),
-                                t = D.reduce((u, [e, A]) => ((u[A] = Tu.LO.box(F[e], {})), u), {});
+                                t = D.reduce((u, [e, A]) => ((u[A] = wu.LO.box(F[e], {})), u), {});
                               return (
                                 "real" === A &&
                                   n.subscribe(
-                                    (0, Tu.aD)((u) => {
+                                    (0, wu.aD)((u) => {
                                       D.forEach(([e, A]) => {
                                         t[A].set(u[e]);
                                       });
@@ -857,7 +861,7 @@
                   () => {
                     return (
                       (u = e.bonuses.get()),
-                      (A = wu),
+                      (A = Tu),
                       Array.isArray(u)
                         ? u.map(A)
                         : u.map((u, e, F) => A(null == u ? void 0 : u.value, e, F))
@@ -896,12 +900,12 @@
           },
           Mu = R.strings.subscription.subscriptionCardTooltip,
           Gu = R.images.gui.maps.icons.subscription.tooltip,
-          zu = (0, yu.Pi)(() => {
+          Lu = (0, hu.Pi)(() => {
             const u = Nu().model,
               e = u.root.get(),
               A = e.state,
               F = e.nextCharge,
-              E = n()(Uu.status, Uu[`status__${hu[A]}`]),
+              E = n()(Uu.status, Uu[`status__${yu[A]}`]),
               D = ((u) => u.map((u) => ({ name: u.name, value: u.label, valueType: pu.STRING })))(
                 u.computes.getBonuses(),
               );
@@ -941,18 +945,18 @@
                 K().createElement(
                   "span",
                   { className: E },
-                  A !== hu.Inactive && K().createElement("div", { className: Uu.statusIcon }),
-                  Mu.$dyn(hu[A]),
+                  A !== yu.Inactive && K().createElement("div", { className: Uu.statusIcon }),
+                  Mu.$dyn(yu[A]),
                 ),
-                A === hu.Inactive &&
+                A === yu.Inactive &&
                   K().createElement("span", { className: Uu.description }, Mu.desc.available()),
-                A !== hu.Inactive &&
+                A !== yu.Inactive &&
                   K().createElement(
                     "div",
                     { className: Uu.chargeBlock },
                     K().createElement(lu, {
                       classMix: Uu.chargeText,
-                      text: Mu.chargeTime.$dyn(hu[A]) || "",
+                      text: Mu.chargeTime.$dyn(yu[A]) || "",
                       binding: { date: K().createElement("span", { className: Uu.chargeTime }, F) },
                     }),
                   ),
@@ -961,7 +965,7 @@
           });
         engine.whenReady.then(() => {
           tu().render(
-            K().createElement(Eu, null, K().createElement(Iu, null, K().createElement(zu, null))),
+            K().createElement(Eu, null, K().createElement(Iu, null, K().createElement(Lu, null))),
             document.getElementById("root"),
           );
         });

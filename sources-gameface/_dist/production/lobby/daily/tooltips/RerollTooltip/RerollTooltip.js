@@ -808,7 +808,7 @@
           };
         window.ViewEnvHelper = w;
       },
-      7009: (u, e, t) => {
+      3323: (u, e, t) => {
         "use strict";
         var r = t(6483),
           E = t.n(r),
@@ -987,8 +987,28 @@
                     E = u.replace(/&nbsp;/g, " ");
                   return (p(E, /( )/, e).forEach((u) => (t = t.concat(p(u, r, m.left)))), t);
                 })(u, e);
-          };
-        let x;
+          },
+          x = "FormatText_base_d0",
+          f = ({ binding: u, text: e = "", classMix: t, alignment: r = m.left }) =>
+            null === e
+              ? (console.error("FormatText was supplied with 'null'"), null)
+              : A().createElement(
+                  a.Fragment,
+                  null,
+                  e.split("\n").map((e, n) =>
+                    A().createElement(
+                      "div",
+                      { className: E()(x, t), key: `${e}-${n}` },
+                      ((u, e, t) =>
+                        u.split(/%\((.*?)\)(?:[sd])?/g).map((u) => (t && u in t ? t[u] : b(u, e))))(
+                        e,
+                        r,
+                        u,
+                      ).map((u, e) => A().createElement(a.Fragment, { key: `${e}-${u}` }, u)),
+                    ),
+                  ),
+                );
+        let S;
         !(function (u) {
           ((u.SHORT_DATE = "short-date"),
             (u.SHORT_TIME = "short-time"),
@@ -1003,14 +1023,14 @@
             (u.WEEK_DAY_TIME = "week-day-time"),
             (u.YEAR = "year"),
             (u.DATE_YEAR = "date-year"));
-        })(x || (x = {}));
-        var f = t(4179);
-        const S = 60,
-          M = 3600,
-          L = 86400;
+        })(S || (S = {}));
+        var M = t(4179);
+        const L = 60,
+          T = 3600,
+          O = 86400;
         Date.now();
-        const T = () => {},
-          O = (u = 0, e, t = 0, r = T) => {
+        const y = () => {},
+          P = (u = 0, e, t = 0, r = y) => {
             const E = (0, a.useState)(u),
               n = E[0],
               A = E[1];
@@ -1024,7 +1044,7 @@
                         const e = u - Math.floor((Date.now() - E) / 1e3);
                         null !== t && e <= t ? (A(t), r && r(), clearInterval(n)) : A(e);
                       },
-                      1e3 * (e || (u > 120 ? S : 1)),
+                      1e3 * (e || (u > 120 ? L : 1)),
                     );
                   return () => {
                     clearInterval(n);
@@ -1035,45 +1055,25 @@
               n
             );
           },
-          y = (u) => {
+          N = (u) => {
             const e = (0, a.useRef)(!1);
             e.current || (u(), (e.current = !0));
           };
-        f.Sw.instance;
-        let P;
+        M.Sw.instance;
+        let H;
         !(function (u) {
           ((u.None = "None"), (u.Shallow = "Shallow"), (u.Deep = "Deep"));
-        })(P || (P = {}));
-        f.Sw.instance;
-        const N = O,
-          H = "Countdown_base_fe",
-          k = "Countdown_icon_8b",
-          W = "Countdown_description_8d",
-          I = "FormatText_base_d0",
-          U = ({ binding: u, text: e = "", classMix: t, alignment: r = m.left }) =>
-            null === e
-              ? (console.error("FormatText was supplied with 'null'"), null)
-              : A().createElement(
-                  a.Fragment,
-                  null,
-                  e.split("\n").map((e, n) =>
-                    A().createElement(
-                      "div",
-                      { className: E()(I, t), key: `${e}-${n}` },
-                      ((u, e, t) =>
-                        u.split(/%\((.*?)\)(?:[sd])?/g).map((u) => (t && u in t ? t[u] : b(u, e))))(
-                        e,
-                        r,
-                        u,
-                      ).map((u, e) => A().createElement(a.Fragment, { key: `${e}-${u}` }, u)),
-                    ),
-                  ),
-                ),
+        })(H || (H = {}));
+        M.Sw.instance;
+        const k = P,
+          W = "Countdown_base_fe",
+          I = "Countdown_icon_8b",
+          U = "Countdown_description_8d",
           G = (u) => u.toString().padStart(2, "0"),
-          j = (u, e) => {
+          j = (u, e, t = !1) => {
             switch (e) {
               case c.Description:
-                return ((u, e = !0) =>
+                return ((u, e = !0, t = !1) =>
                   u.days > 7 && e
                     ? _(R.strings.common.duration.days(), { days: u.days })
                     : u.days >= 1
@@ -1083,8 +1083,12 @@
                       : u.hours >= 1
                         ? 0 === u.minutes
                           ? _(R.strings.common.duration.hours(), { hours: u.hours })
-                          : `${_(R.strings.common.duration.hours(), { hours: u.hours })} ${_(R.strings.common.duration.minutes(), { minutes: u.minutes })}`
-                        : _(R.strings.common.duration.minutes(), { minutes: u.minutes || 1 }))(u);
+                          : `${_(R.strings.common.duration.hours(), { hours: u.hours })} ${_(t ? R.strings.common.duration.shortMinutes() : R.strings.common.duration.minutes(), { minutes: u.minutes })}`
+                        : _(R.strings.common.duration.minutes(), { minutes: u.minutes || 1 }))(
+                  u,
+                  !0,
+                  t,
+                );
               case c.Short:
                 return `${G(u.minutes)}:${G(u.seconds)}`;
               case c.Long:
@@ -1108,16 +1112,17 @@
           z = (0, a.memo)(
             ({
               duration: u,
-              icon: e = C.Timer,
-              style: t = c.Description,
-              onTimeReached: r,
-              className: i = "",
-              classNames: F = {},
-              labelFormat: o = "",
+              withShortMinutes: e = !1,
+              icon: t = C.Timer,
+              style: r = c.Description,
+              onTimeReached: i,
+              className: F = "",
+              classNames: o = {},
+              labelFormat: D = "",
             }) => {
-              const D = t !== c.Description ? 1 : void 0,
-                s = N(u, D),
-                l = (() => {
+              const s = r !== c.Description ? 1 : void 0,
+                l = k(u, s),
+                B = (() => {
                   const u = (0, a.useState)(n.O.view.getScale()),
                     e = u[0],
                     t = u[1];
@@ -1136,34 +1141,35 @@
                     e
                   );
                 })();
-              r && r[s] && r[s]();
-              const B = j(
+              i && i[l] && i[l]();
+              const m = j(
                 (function (u = 0) {
                   let e = u;
-                  const t = Math.trunc(e / L);
-                  e -= t * L;
-                  const r = Math.trunc(e / M);
-                  e -= r * M;
-                  const E = Math.trunc(e / S);
-                  return ((e -= E * S), { days: t, hours: r, minutes: E, seconds: e });
-                })(s),
-                t,
+                  const t = Math.trunc(e / O);
+                  e -= t * O;
+                  const r = Math.trunc(e / T);
+                  e -= r * T;
+                  const E = Math.trunc(e / L);
+                  return ((e -= E * L), { days: t, hours: r, minutes: E, seconds: e });
+                })(l),
+                r,
+                e,
               );
               return A().createElement(
                 "div",
-                { className: E()(H, i) },
-                e !== C.None &&
+                { className: E()(W, F) },
+                t !== C.None &&
                   A().createElement("div", {
-                    className: E()(k, F.icon),
-                    style: { backgroundImage: `url('${K(e, l)}')` },
+                    className: E()(I, o.icon),
+                    style: { backgroundImage: `url('${K(t, B)}')` },
                   }),
-                o
+                D
                   ? A().createElement(
                       "div",
-                      { className: E()(W, F.text) },
-                      A().createElement(U, { text: o, binding: { timerText: B } }),
+                      { className: E()(U, o.text) },
+                      A().createElement(f, { text: D, binding: { timerText: m } }),
                     )
-                  : A().createElement("div", { className: E()(W, F.text) }, B),
+                  : A().createElement("div", { className: E()(U, o.text) }, m),
               );
             },
           );
@@ -1346,7 +1352,7 @@
                   r = n.O.view.pxToRem(e);
                 E(Object.assign({ width: t, height: r }, Q(t, r, $)));
               }, []);
-            (y(() => {
+            (N(() => {
               engine.on("clientResized", i);
             }),
               (0, a.useEffect)(() => () => engine.off("clientResized", i), [i]));
@@ -1812,7 +1818,7 @@
                 },
                 d,
               ),
-              void 0 !== _ ? A().createElement(U, xu({}, _, { text: e })) : e,
+              void 0 !== _ ? A().createElement(f, xu({}, _, { text: e })) : e,
             );
           });
         var Pu = t(8515);
@@ -2206,6 +2212,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(e.bind(null, 0)), (t.push = e.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [272], () => __webpack_require__(7009));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [272], () => __webpack_require__(3323));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

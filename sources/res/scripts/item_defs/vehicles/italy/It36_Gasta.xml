@@ -1266,7 +1266,7 @@
 					<isLeft>true</isLeft>
 					<name>WD_L4</name>
 					<geometry>
-						<radius>0.3</radius>
+						<radius>0.398</radius>
 					</geometry>
 					<isLeading>true</isLeading>
 					<trackPairIdx>0</trackPairIdx>
@@ -1316,7 +1316,7 @@
 					<isLeft>false</isLeft>
 					<name>WD_R4</name>
 					<geometry>
-						<radius>0.3</radius>
+						<radius>0.398</radius>
 					</geometry>
 					<isLeading>true</isLeading>
 					<trackPairIdx>0</trackPairIdx>
@@ -1468,7 +1468,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>true</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1476,7 +1476,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>true</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1484,7 +1484,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>true</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1492,7 +1492,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>true</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1500,7 +1500,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>true</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1508,7 +1508,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>true</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1516,7 +1516,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>true</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1524,7 +1524,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>false</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1532,7 +1532,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>false</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1540,7 +1540,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>false</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1548,7 +1548,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>false</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1556,7 +1556,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>false</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1564,7 +1564,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>false</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 				<node>
@@ -1572,7 +1572,7 @@
 					<collisionSamplesCount>1</collisionSamplesCount>
 					<isLeft>false</isLeft>
 					<minOffset>-0.1</minOffset>
-					<maxOffset>0.3</maxOffset>
+					<maxOffset>0.15</maxOffset>
 					<trackPairIdx>0</trackPairIdx>
 				</node>
 			</groundNodes>
@@ -2244,11 +2244,11 @@
 					<shotDispersionRadius>0.3</shotDispersionRadius>
 					<reloadTime>10</reloadTime>
 					<shotDispersionFactors>
-						<turretRotation>0.13</turretRotation>
+						<turretRotation>0.10</turretRotation>
 						<afterShot>4.0</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
-					<aimingTime>2.2</aimingTime>
+					<aimingTime>1.9</aimingTime>
 					<invisibilityFactorAtShot>0.198</invisibilityFactorAtShot>
 					<customizationSlots>
 						<slot>
@@ -2668,7 +2668,7 @@
 		<detailed>
 			<engines>
 				<MB_837_Ea_500>
-					<smplEnginePower>800</smplEnginePower>
+					<smplEnginePower>900</smplEnginePower>
 					<smplFwMaxSpeed>60</smplFwMaxSpeed>
 				</MB_837_Ea_500>
 			</engines>

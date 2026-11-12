@@ -348,7 +348,7 @@
                 return i.cy.getTimeFormat("%d, %Y", u, !0);
             }
           },
-          A = (u, e = !0) =>
+          A = (u, e = !0, t = !1) =>
             u.days > 7 && e
               ? (0, r.WU)(R.strings.common.duration.days(), { days: u.days })
               : u.days >= 1
@@ -358,7 +358,7 @@
                 : u.hours >= 1
                   ? 0 === u.minutes
                     ? (0, r.WU)(R.strings.common.duration.hours(), { hours: u.hours })
-                    : `${(0, r.WU)(R.strings.common.duration.hours(), { hours: u.hours })} ${(0, r.WU)(R.strings.common.duration.minutes(), { minutes: u.minutes })}`
+                    : `${(0, r.WU)(R.strings.common.duration.hours(), { hours: u.hours })} ${(0, r.WU)(t ? R.strings.common.duration.shortMinutes() : R.strings.common.duration.minutes(), { minutes: u.minutes })}`
                   : (0, r.WU)(R.strings.common.duration.minutes(), { minutes: u.minutes || 1 });
       },
       67: (u, e, t) => {
@@ -673,7 +673,7 @@
         t.d(e, { DA: () => n.D, au: () => i, tT: () => n.t });
         t(790);
         var r = t(469),
-          n = (t(133), t(579), t(360));
+          n = (t(133), t(779), t(579), t(360));
         t(56);
         const i = r.Z;
       },
@@ -879,6 +879,10 @@
         r.Sw.instance;
       },
       790: (u, e, t) => {
+        "use strict";
+        t(179);
+      },
+      779: (u, e, t) => {
         "use strict";
         t(179);
       },
@@ -2700,16 +2704,17 @@
           O = (0, i.memo)(
             ({
               duration: u,
-              icon: e = v.Timer,
-              style: t = f.Description,
-              onTimeReached: r,
-              className: o = "",
-              classNames: E = {},
-              labelFormat: A = "",
+              withShortMinutes: e = !1,
+              icon: t = v.Timer,
+              style: r = f.Description,
+              onTimeReached: o,
+              className: E = "",
+              classNames: A = {},
+              labelFormat: _ = "",
             }) => {
-              const _ = t !== f.Description ? 1 : void 0,
-                m = (0, l.au)(u, _),
-                D = (() => {
+              const m = r !== f.Description ? 1 : void 0,
+                D = (0, l.au)(u, m),
+                d = (() => {
                   const u = (0, i.useState)(w.O.view.getScale()),
                     e = u[0],
                     t = u[1];
@@ -2728,11 +2733,11 @@
                     e
                   );
                 })();
-              r && r[m] && r[m]();
-              const d = ((u, e) => {
+              o && o[D] && o[D]();
+              const B = ((u, e, t = !1) => {
                 switch (e) {
                   case f.Description:
-                    return (0, F.wB)(u);
+                    return (0, F.wB)(u, !0, t);
                   case f.Short:
                     return `${M(u.minutes)}:${M(u.seconds)}`;
                   case f.Long:
@@ -2740,22 +2745,22 @@
                   case f.Extended:
                     return `${(0, s.WU)(R.strings.common.duration.days(), { days: u.days })} | ${M(u.hours)}:${M(u.minutes)}:${M(u.seconds)}`;
                 }
-              })((0, F.f8)(m), t);
+              })((0, F.f8)(D), r, e);
               return a().createElement(
                 "div",
-                { className: n()(S, o) },
-                e !== v.None &&
+                { className: n()(S, E) },
+                t !== v.None &&
                   a().createElement("div", {
-                    className: n()(T, E.icon),
-                    style: { backgroundImage: `url('${L(e, D)}')` },
+                    className: n()(T, A.icon),
+                    style: { backgroundImage: `url('${L(t, d)}')` },
                   }),
-                A
+                _
                   ? a().createElement(
                       "div",
-                      { className: n()(x, E.text) },
-                      a().createElement(c, { text: A, binding: { timerText: d } }),
+                      { className: n()(x, A.text) },
+                      a().createElement(c, { text: _, binding: { timerText: B } }),
                     )
-                  : a().createElement("div", { className: n()(x, E.text) }, d),
+                  : a().createElement("div", { className: n()(x, A.text) }, B),
               );
             },
           ),

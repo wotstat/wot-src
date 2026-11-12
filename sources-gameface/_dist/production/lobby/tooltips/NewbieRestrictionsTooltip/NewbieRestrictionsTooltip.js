@@ -1235,6 +1235,7 @@
                       text: e,
                       color: "PAR_SECONDARY",
                       variant: "paragraph-P14",
+                      format: {},
                     }),
                 )
               : null,

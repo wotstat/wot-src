@@ -115,6 +115,9 @@ class UserListModel(ListModel[T]):
         self.getItems().reserve(capacity)
         return
 
+    def clear(self):
+        return self.getItems().clear()
+
     def _initialize(self):
         super(UserListModel, self)._initialize()
         self.onSelectionChanged += self.__onSelectionChanged

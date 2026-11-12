@@ -1,5 +1,19 @@
 from datetime import timedelta
 import calendar, time
+from armory_yard_constants import COMPARE_TOKEN_OPERATIONS
+
+def evaluatePrerequisiteToken(prerequisiteToken, tokenCount):
+    tokenId = prerequisiteToken.get(b'id')
+    expectedAmount = prerequisiteToken.get(b'expectedAmount')
+    operationType = prerequisiteToken.get(b'operationType')
+    if not (tokenId and expectedAmount is not None and operationType):
+        return (False, 0)
+    else:
+        op = COMPARE_TOKEN_OPERATIONS[operationType]
+        isBlocked = op(tokenCount, expectedAmount)
+        diff = expectedAmount - tokenCount
+        return (isBlocked, diff)
+
 
 def getNextFreeRerollUpdateTimestamp(dailyFreeRerollUpdate, freeRerollDaysDelta, currentDatetime):
     datetimeObj = time.strptime(dailyFreeRerollUpdate, b'%H:%M')

@@ -1322,7 +1322,7 @@
                   return (G(a, /( )/, u).forEach((e) => (t = t.concat(G(e, r, O.left)))), t);
                 })(e, u);
           };
-        let j;
+        let Y;
         !(function (e) {
           ((e.SHORT_DATE = "short-date"),
             (e.SHORT_TIME = "short-time"),
@@ -1337,55 +1337,55 @@
             (e.WEEK_DAY_TIME = "week-day-time"),
             (e.YEAR = "year"),
             (e.DATE_YEAR = "date-year"));
-        })(j || (j = {}));
-        var z = t(364);
+        })(Y || (Y = {}));
+        var j = t(364);
         Date.now();
-        const Y = (e, u, t) => {
+        const z = (e, u, t) => {
           switch (u) {
-            case j.SHORT_DATE:
+            case Y.SHORT_DATE:
               return t
-                ? z.Z5.getDateFormat(e, z.kH.SHORT_FORMAT)
-                : z.cy.getTimeFormat("%d.%m.%y", e, !0);
-            case j.SHORT_TIME:
+                ? j.Z5.getDateFormat(e, j.kH.SHORT_FORMAT)
+                : j.cy.getTimeFormat("%d.%m.%y", e, !0);
+            case Y.SHORT_TIME:
               return t
-                ? z.Z5.getTimeFormat(e, z.lf.SHORT_FORMAT)
-                : z.cy.getTimeFormat("%I:%M %p", e, !0);
-            case j.SHORT_DATE_TIME:
+                ? j.Z5.getTimeFormat(e, j.lf.SHORT_FORMAT)
+                : j.cy.getTimeFormat("%I:%M %p", e, !0);
+            case Y.SHORT_DATE_TIME:
               if (t) {
-                return `${z.Z5.getDateFormat(e, z.kH.SHORT_FORMAT)}, ${z.Z5.getTimeFormat(e, z.lf.SHORT_FORMAT)}`;
+                return `${j.Z5.getDateFormat(e, j.kH.SHORT_FORMAT)}, ${j.Z5.getTimeFormat(e, j.lf.SHORT_FORMAT)}`;
               }
-              return z.cy.getTimeFormat("%d.%m.%y, %I:%M %p", e, !0);
-            case j.FULL_DATE:
+              return j.cy.getTimeFormat("%d.%m.%y, %I:%M %p", e, !0);
+            case Y.FULL_DATE:
               return t
-                ? z.Z5.getDateFormat(e, z.kH.LONG_FORMAT)
-                : z.cy.getTimeFormat("%B %d, %Y", e, !0);
-            case j.FULL_DATE_TIME:
+                ? j.Z5.getDateFormat(e, j.kH.LONG_FORMAT)
+                : j.cy.getTimeFormat("%B %d, %Y", e, !0);
+            case Y.FULL_DATE_TIME:
               if (t) {
-                return `${z.Z5.getDateFormat(e, z.kH.LONG_FORMAT)}, ${z.Z5.getTimeFormat(e, z.lf.SHORT_FORMAT)}`;
+                return `${j.Z5.getDateFormat(e, j.kH.LONG_FORMAT)}, ${j.Z5.getTimeFormat(e, j.lf.SHORT_FORMAT)}`;
               }
-              return z.cy.getTimeFormat("%B %d, %Y, %I:%M %p", e, !0);
-            case j.MONTH:
-              return z.cy.getTimeFormat("%B", e, !0);
-            case j.MONTH_DATE:
-              return z.cy.getTimeFormat("%B %e", e, !0);
-            case j.DATE_MONTH:
-              return z.cy.getTimeFormat("%e %B", e, !0);
-            case j.MONTH_YEAR:
-              return z.cy.getTimeFormat("%B %Y", e, !0);
-            case j.WEEK_DAY:
-              return z.cy.getTimeFormat("%A", e, !0);
-            case j.WEEK_DAY_TIME:
+              return j.cy.getTimeFormat("%B %d, %Y, %I:%M %p", e, !0);
+            case Y.MONTH:
+              return j.cy.getTimeFormat("%B", e, !0);
+            case Y.MONTH_DATE:
+              return j.cy.getTimeFormat("%B %e", e, !0);
+            case Y.DATE_MONTH:
+              return j.cy.getTimeFormat("%e %B", e, !0);
+            case Y.MONTH_YEAR:
+              return j.cy.getTimeFormat("%B %Y", e, !0);
+            case Y.WEEK_DAY:
+              return j.cy.getTimeFormat("%A", e, !0);
+            case Y.WEEK_DAY_TIME:
               if (t) {
-                return `${z.cy.getTimeFormat("%A", e, !0)} ${z.Z5.getTimeFormat(e, z.lf.SHORT_FORMAT)}`;
+                return `${j.cy.getTimeFormat("%A", e, !0)} ${j.Z5.getTimeFormat(e, j.lf.SHORT_FORMAT)}`;
               }
-              return z.cy.getTimeFormat("%A, %I:%M %p", e, !0);
-            case j.YEAR:
-              return z.cy.getTimeFormat("%Y", e, !0);
-            case j.DATE_YEAR:
-              return z.cy.getTimeFormat("%d, %Y", e, !0);
+              return j.cy.getTimeFormat("%A, %I:%M %p", e, !0);
+            case Y.YEAR:
+              return j.cy.getTimeFormat("%Y", e, !0);
+            case Y.DATE_YEAR:
+              return j.cy.getTimeFormat("%d, %Y", e, !0);
           }
         };
-        (0, r.memo)(({ datetime: e, format: u = j.SHORT_DATE, localize: t = !0 }) => Y(e, u, t));
+        (0, r.memo)(({ datetime: e, format: u = Y.SHORT_DATE, localize: t = !0 }) => z(e, u, t));
         var q = t(887),
           K = t.n(q);
         const Z = ["xl", "lg", "md", "sm", "xs"],
@@ -2212,7 +2212,7 @@
               Object.assign(
                 {
                   __Type: "GFViewEventProxy",
-                  type: z.B0.TOOLTIP,
+                  type: j.B0.TOOLTIP,
                   contentID: e,
                   decoratorID: u,
                   targetID: r,
@@ -2350,9 +2350,9 @@
             var y;
           },
           Xe = ["children", "body", "header", "note", "alert", "args"];
-        function je() {
+        function Ye() {
           return (
-            (je =
+            (Ye =
               Object.assign ||
               function (e) {
                 for (var u = 1; u < arguments.length; u++) {
@@ -2361,11 +2361,11 @@
                 }
                 return e;
               }),
-            je.apply(this, arguments)
+            Ye.apply(this, arguments)
           );
         }
-        const ze = R.views.common.tooltip_window.simple_tooltip_content,
-          Ye = (e) => {
+        const je = R.views.common.tooltip_window.simple_tooltip_content,
+          ze = (e) => {
             let u = e.children,
               t = e.body,
               n = e.header,
@@ -2388,11 +2388,11 @@
             }, [i, t, n, s, o]);
             return a().createElement(
               Ve,
-              je(
+              Ye(
                 {
                   contentId:
                     ((_ = null == o ? void 0 : o.hasHtmlContent),
-                    _ ? ze.SimpleTooltipHtmlContent("resId") : ze.SimpleTooltipContent("resId")),
+                    _ ? je.SimpleTooltipHtmlContent("resId") : je.SimpleTooltipContent("resId")),
                   decoratorId: R.views.common.tooltip_window.tooltip_window.TooltipWindow("resId"),
                   args: c,
                 },
@@ -2414,7 +2414,7 @@
           Ke = R.strings.event.summerSales.mainView.widget,
           Ze = (0, r.memo)(({ onClick: e, className: u, type: t }) =>
             a().createElement(
-              Ye,
+              ze,
               { header: Ke.tooltip.title.$dyn(t), body: Ke.tooltip.description.$dyn(t) },
               a().createElement(
                 "div",
@@ -2444,9 +2444,9 @@
         class Qe extends a().PureComponent {
           render() {
             let e;
-            if ("gold" === this.props.format) e = z.B3.GOLD;
-            else e = z.B3.INTEGRAL;
-            const u = z.Z5.getNumberFormat(this.props.value, e);
+            if ("gold" === this.props.format) e = j.B3.GOLD;
+            else e = j.B3.INTEGRAL;
+            const u = j.Z5.getNumberFormat(this.props.value, e);
             return void 0 !== this.props.value && void 0 !== u ? u : null;
           }
         }
@@ -2472,6 +2472,7 @@
               (e.TankmenXpFactor = "tankmenXPFactor"),
               (e.FreeXpFactor = "freeXPFactor"),
               (e.BattleToken = "battleToken"),
+              (e.Entitlements = "entitlements"),
               (e.PremiumUniversal = "premium_universal"),
               (e.Gold = "gold"),
               (e.Credits = "credits"),
@@ -2484,7 +2485,6 @@
               (e.SelectableBonus = "selectableBonus"),
               (e.StyleProgressToken = "styleProgressToken"),
               (e.TmanToken = "tmanToken"),
-              (e.PortalEventDiscount25 = "portalEventDiscountToken"),
               (e.NaturalCover = "naturalCover"),
               (e.BpCoin = "bpcoin"),
               (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -2517,7 +2517,11 @@
               (e.GoldenTicket = "goldenticket"),
               (e.LbStyleProgress = "lbStyleProgress"),
               (e.RewardsSlots = "rewardsSlots"),
-              (e.RazlomCoin = "razlom_coin"));
+              (e.NyPetGoodies = "nyPetGoodies"),
+              (e.HiddenVehicle = "hidden_vehicle"),
+              (e.NyStaticDogTag = "nyStaticDogTag"),
+              (e.NyToys = "nyToys"),
+              (e.NyLootboxFragment = "nyLootboxFragment"));
           })(Je || (Je = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -2636,6 +2640,7 @@
             Je.TankmenXpFactor,
             Je.FreeXpFactor,
             Je.BattleToken,
+            Je.Entitlements,
             Je.PremiumUniversal,
             Je.NaturalCover,
             Je.BpCoin,
@@ -2650,6 +2655,9 @@
             Je.Comp7TokenWeeklyReward,
             Je.Comp7TokenCouponReward,
             Je.BattleBoosterGift,
+            Je.NewYearFillers,
+            Je.NewYearInvoice,
+            Je.LootBoxToken,
             Je.CosmicLootboxCommon,
             Je.CosmicLootboxSilver,
             Je.SelectableBonus,
@@ -2657,8 +2665,11 @@
             Je.PremiumPlusUniversal,
             Je.GoldenTicket,
             Je.RewardsSlots,
+            Je.NyPetGoodies,
+            Je.HiddenVehicle,
+            Je.NyLootboxFragment,
           ],
-          lu = [Je.Gold, Je.Credits, Je.Crystal, Je.FreeXp],
+          lu = [Je.Gold, Je.Credits, Je.Crystal, Je.FreeXp, Je.NewYearToyFragments],
           cu = [Je.BattlePassPoints],
           _u = [Je.PremiumPlus, Je.Premium];
         let mu;
@@ -2676,14 +2687,14 @@
         })(mu || (mu = {}));
         const Eu = ["engravings", "backgrounds"],
           du = ["engraving", "background"],
-          Au = (e, u = uu.Small) => {
-            const t = e.name,
-              r = e.type,
-              a = e.value,
-              n = e.icon,
-              s = e.item,
-              i = e.dogTagType,
-              o = ((e) => {
+          Au = (e, u = uu.Small, t) => {
+            const r = e.name,
+              a = e.type,
+              n = e.value,
+              s = e.icon,
+              i = e.item,
+              o = e.dogTagType,
+              l = ((e) => {
                 switch (e) {
                   case uu.S600x450:
                     return "c_600x450";
@@ -2701,20 +2712,20 @@
                     return e;
                 }
               })(u);
-            switch (t) {
+            switch (r) {
               case "basic":
               case "plus":
-                return `R.images.gui.maps.icons.quests.bonuses.${u}.${r}_${a}`;
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${a}_${n}`;
               case "premium":
-                return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}_plus_${a}`;
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${r}_plus_${n}`;
               case "premium_plus":
-                return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}_${a}`;
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${r}_${n}`;
               case "items":
-                return `R.images.gui.maps.icons.quests.bonuses.${u}.${s}`;
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${i}`;
               case "blueprints":
               case "blueprintsAny":
               case "finalBlueprints":
-                return `R.images.gui.maps.icons.blueprints.fragment.${u}.${n}`;
+                return `R.images.gui.maps.icons.blueprints.fragment.${u}.${s}`;
               case "tokens":
               case "battleToken":
                 return ((e, u) => {
@@ -2727,8 +2738,12 @@
                       return `R.images.gui.maps.icons.quests.bonuses.${u}.${e.icon}`;
                   }
                 })(e, u);
+              case "entitlements":
+                return "big" === u
+                  ? e.iconBig.replace("..", "img://gui")
+                  : e.iconSmall.replace("..", "img://gui");
               case "crewBooks":
-                return `R.images.gui.maps.icons.crewBooks.books.${u}.${n}`;
+                return `R.images.gui.maps.icons.crewBooks.books.${u}.${s}`;
               case "dogTagComponents":
                 return ((e, u, t) => {
                   const r = Eu[e];
@@ -2743,9 +2758,9 @@
                     ),
                     ""
                   );
-                })(i, u, n);
+                })(o, u, s);
               case "dossier_badge":
-                return `R.images.gui.maps.icons.quests.bonuses.badges.${o}.${n}`;
+                return `R.images.gui.maps.icons.quests.bonuses.badges.${l}.${s}`;
               case "dossier_achievement":
                 return `R.images.gui.maps.icons.achievement.${((e) => {
                   switch (e) {
@@ -2768,7 +2783,7 @@
                     default:
                       return e;
                   }
-                })(u)}.${n}`;
+                })(u)}.${s}`;
               case "xp":
               case "xpFactor":
                 return `R.images.gui.maps.icons.quests.bonuses.${u}.exp`;
@@ -2787,13 +2802,17 @@
               case "customizations":
               case "crewSkins":
               case "goodies":
-                return `R.images.gui.maps.icons.quests.bonuses.${u}.${n}`;
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${s}`;
+              case "nyPetGoodies":
+                return `R.images.new_year.gui.maps.icons.newYear.common.categoriesIcons.${u}.${s}`;
+              case "nyLootboxFragment":
+                return `R.images.new_year.gui.maps.icons.newYear.common.rewards.fragments.${u}.lootbox_fragment`;
               case "premiumTank":
                 return `R.images.gui.maps.icons.quests.bonuses.${u}.vehicles`;
               case "styleProgressToken":
                 return `R.images.gui.maps.icons.quests.bonuses.${u}.style_3d`;
               case "collectionItem":
-                return `R.images.gui.maps.icons.collectionItems.${o}.${n}`;
+                return `R.images.gui.maps.icons.collectionItems.${l}.${s}`;
               case "premium_universal":
                 return `R.images.gui.maps.icons.quests.bonuses.${u}.premium_plus_universal`;
               case "armory_coin":
@@ -2821,11 +2840,21 @@
                 })(u)}`;
               case Je.StyleProgress:
               case Je.LbStyleProgress:
-                return Du(n, u, iu.ProgressionStyle);
-              case "portal":
-                return `R.images.gui.maps.icons.rewards.${u}.${s}`;
+                return Du(s, u, iu.ProgressionStyle);
+              case "newYearAlbumsAccess":
+                return `R.images.new_year.gui.maps.icons.newYear.rewards.${u}.albumsAccess`;
+              case "nyFillers":
+                return `R.images.new_year.gui.maps.icons.newYear.rewards.${u}.fillers`;
+              case "nyToyFragments":
+                return `R.images.new_year.gui.maps.icons.newYear.rewards.${u}.shards`;
+              case "newYearSlot":
+                return `R.images.new_year.gui.maps.icons.newYear.rewards.${u}.slot`;
+              case "hidden_vehicle":
+                return "R.images.new_year.gui.maps.icons.newYear.common.rewards.vehicles.hidden_vehicle";
+              case "nyStaticDogTag":
+                return `R.images.new_year.gui.maps.icons.newYear.common.rewards.dogtags.${u}.dogtag_${t}`;
               default:
-                return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}`;
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${r}`;
             }
           },
           pu = (e, u, t) => {
@@ -3153,7 +3182,7 @@
           leftItem: "Catalog_leftItem_d3",
         };
         t(368);
-        let ju;
+        let Yu;
         !(function (e) {
           ((e[(e.ZERO = 48)] = "ZERO"),
             (e[(e.ONE = 49)] = "ONE"),
@@ -3175,8 +3204,8 @@
             (e[(e.NUMPAD_7 = 103)] = "NUMPAD_7"),
             (e[(e.NUMPAD_8 = 104)] = "NUMPAD_8"),
             (e[(e.NUMPAD_9 = 105)] = "NUMPAD_9"));
-        })(ju || (ju = {}));
-        const zu = {
+        })(Yu || (Yu = {}));
+        const ju = {
           base: "NumericStepper_base_35",
           base__small: "NumericStepper_base__small_11",
           base__medium: "NumericStepper_base__medium_9d",
@@ -3248,7 +3277,7 @@
           "buttonDecrement__isActive-medium": "NumericStepper_buttonDecrement__isActive-medium_a3",
           "buttonDecrement__isActive-large": "NumericStepper_buttonDecrement__isActive-large_8b",
         };
-        class Yu extends a().PureComponent {
+        class zu extends a().PureComponent {
           constructor(...e) {
             (super(...e),
               (this.timer = null),
@@ -3285,7 +3314,7 @@
                   document.removeEventListener("mouseup", this.handleMouseUp));
               }),
               (this.formatValue = (e) =>
-                this.props.currencyType ? z.Z5.getNumberFormat(e, z.B3.GOLD) : e.toString()),
+                this.props.currencyType ? j.Z5.getNumberFormat(e, j.B3.GOLD) : e.toString()),
               (this.getValidValue = (e) => {
                 const u = Math.min(this.props.maximum, Math.max(this.props.minimum, e)),
                   t = this.props.stepSize;
@@ -3316,7 +3345,7 @@
                   u && 1 === a && 1 === s.length && (s = "0"));
                 const l = Number(s.trim().replace(/\D/g, "")),
                   c = Number.isSafeInteger(l) ? l : Number.MAX_SAFE_INTEGER,
-                  _ = this.props.currencyType ? z.Z5.getNumberFormat(c, z.B3.GOLD) : c.toString(),
+                  _ = this.props.currencyType ? j.Z5.getNumberFormat(c, j.B3.GOLD) : c.toString(),
                   m = !isNaN(Number(s.replace(" ", "")));
                 r.value = _;
                 const E = new RegExp(/\d/g);
@@ -3461,7 +3490,7 @@
                   }
               }),
               (this.allowOnlyNumbers = (e) => {
-                e.which in ju || e.preventDefault();
+                e.which in Yu || e.preventDefault();
               }),
               (this.increment = () => {
                 const e = Math.min(
@@ -3547,7 +3576,7 @@
           }
           get formattedValue() {
             return this.props.currencyType
-              ? z.Z5.getNumberFormat(this.state.value, z.B3.GOLD)
+              ? j.Z5.getNumberFormat(this.state.value, j.B3.GOLD)
               : this.state.value.toString();
           }
           get buttonIncrementIsDisabled() {
@@ -3562,38 +3591,38 @@
               t = e.size,
               r = e.currencyType,
               n = g()(
-                zu.base,
-                zu[`base__${t}`],
-                r && zu[`base__withCurrency-${t}`],
-                u && zu.base__isDisabled,
-                this.state.isFocused && zu.base__isFocus,
+                ju.base,
+                ju[`base__${t}`],
+                r && ju[`base__withCurrency-${t}`],
+                u && ju.base__isDisabled,
+                this.state.isFocused && ju.base__isFocus,
               ),
               s = g()(
-                zu.buttonIncrement,
-                zu[`buttonIncrement__${t}`],
-                this.buttonIncrementIsDisabled && zu.buttonIncrement__isDisabled,
+                ju.buttonIncrement,
+                ju[`buttonIncrement__${t}`],
+                this.buttonIncrementIsDisabled && ju.buttonIncrement__isDisabled,
                 this.state.activeIncrement &&
                   !this.buttonIncrementIsDisabled &&
-                  zu[`buttonIncrement__isActive-${this.props.size}`],
+                  ju[`buttonIncrement__isActive-${this.props.size}`],
               ),
               i = g()(
-                zu.buttonDecrement,
-                zu[`buttonDecrement__${t}`],
-                this.buttonDecrementIsDisabled && zu.buttonDecrement__isDisabled,
+                ju.buttonDecrement,
+                ju[`buttonDecrement__${t}`],
+                this.buttonDecrementIsDisabled && ju.buttonDecrement__isDisabled,
                 this.state.activeDecrement &&
                   !this.buttonDecrementIsDisabled &&
-                  zu[`buttonDecrement__isActive-${this.props.size}`],
+                  ju[`buttonDecrement__isActive-${this.props.size}`],
               ),
               o = g()(
-                zu.input,
-                u && zu.input__disabled,
-                r && zu.input__withCurrency,
-                r && zu[`input__${r}-${t}`],
-                r && zu[`input__${r}`],
-                r && u && zu[`input__${r}-disabled`],
+                ju.input,
+                u && ju.input__disabled,
+                r && ju.input__withCurrency,
+                r && ju[`input__${r}-${t}`],
+                r && ju[`input__${r}`],
+                r && u && ju[`input__${r}-disabled`],
               ),
-              l = g()(zu.currencyIcon, r && zu[`currencyIcon__${r}-${t}`]),
-              c = g()(zu.currency, r && zu[`currency__${r}`], r && zu[`currency__${r}-${t}`]);
+              l = g()(ju.currencyIcon, r && ju[`currencyIcon__${r}-${t}`]),
+              c = g()(ju.currency, r && ju[`currency__${r}`], r && ju[`currency__${r}-${t}`]);
             return a().createElement(
               "div",
               {
@@ -3603,12 +3632,12 @@
               },
               a().createElement(
                 "div",
-                { className: zu.inputContainer },
+                { className: ju.inputContainer },
                 r &&
                   a().createElement(
                     "div",
                     { className: c },
-                    a().createElement("span", { className: zu.dummyValue }, this.formattedValue),
+                    a().createElement("span", { className: ju.dummyValue }, this.formattedValue),
                     a().createElement("span", { className: l }),
                   ),
                 a().createElement("input", {
@@ -3628,7 +3657,7 @@
               ),
               a().createElement(
                 "div",
-                { className: zu.control },
+                { className: ju.control },
                 a().createElement("div", {
                   className: s,
                   onClick: this.setFocusOnInput,
@@ -3650,7 +3679,7 @@
             var _;
           }
         }
-        Yu.defaultProps = {
+        zu.defaultProps = {
           value: 1,
           stepSize: 1,
           minimum: 0,
@@ -3719,7 +3748,7 @@
         const Ju = ({ children: e, tooltipArgs: u, className: t }) => {
             if (!u) return e;
             const r = a().createElement("div", { className: t }, e);
-            if (u.header || u.body) return a().createElement(Ye, u, r);
+            if (u.header || u.body) return a().createElement(ze, u, r);
             const n = u.contentId,
               s = u.args,
               i = null == s ? void 0 : s.contentId;
@@ -4189,9 +4218,9 @@
           $t = "CoverPage_count__notEnough_f4",
           Vt = "CoverPage_currency_a9",
           Xt = "CoverPage_currency__count_ae",
-          jt = "CoverPage_alert_29",
-          zt = "CoverPage_alertIcon_4f",
-          Yt = "CoverPage_buyButtonWrapper_e5",
+          Yt = "CoverPage_alert_29",
+          jt = "CoverPage_alertIcon_4f",
+          zt = "CoverPage_buyButtonWrapper_e5",
           qt = "CoverPage_buyButton_3a",
           Kt = "CoverPage_addMoreButton_6d",
           Zt = "CoverPage_addMoreButtonContent_e6",
@@ -4240,7 +4269,7 @@
                 "div",
                 { className: Wt },
                 a().createElement(
-                  Ye,
+                  ze,
                   { header: ur.tooltip.header.bumblebee(), body: ur.tooltip.body.bumblebee() },
                   a().createElement(
                     "div",
@@ -4375,7 +4404,7 @@
                   className: Ot,
                 }),
                 a().createElement(
-                  Ye,
+                  ze,
                   { header: ur.tooltip.header.bumblebee(), body: ur.tooltip.body.bumblebee() },
                   a().createElement(
                     "div",
@@ -4385,11 +4414,11 @@
                   ),
                 ),
                 a().createElement(
-                  Yu,
+                  zu,
                   er({ width: m, size: _, onChange: t.stepperChange, isFocused: !1 }, d),
                 ),
                 a().createElement(
-                  Ye,
+                  ze,
                   {
                     header: ur.button.tooltip.header.bumblebee(),
                     body: ur.button.tooltip.body.bumblebee(),
@@ -4397,7 +4426,7 @@
                   },
                   a().createElement(
                     "div",
-                    { className: Yt },
+                    { className: zt },
                     a().createElement(
                       Ue,
                       {
@@ -4417,8 +4446,8 @@
               !A &&
                 a().createElement(
                   "div",
-                  { className: jt },
-                  a().createElement("div", { className: zt }),
+                  { className: Yt },
+                  a().createElement("div", { className: jt }),
                   a().createElement(be, { text: ur.alert(), className: Lt }),
                 ),
             );
@@ -4504,7 +4533,7 @@
                     }),
                   ),
                   a().createElement(
-                    Ye,
+                    ze,
                     { header: ar.tooltip.header.honey(), body: ar.tooltip.body.honey() },
                     a().createElement(
                       "div",
@@ -4530,7 +4559,7 @@
                 ),
                 !h &&
                   a().createElement(
-                    Ye,
+                    ze,
                     {
                       isEnabled: B,
                       header: ar.button.tooltip.header.disabled(),
@@ -4625,7 +4654,7 @@
                     }),
                   ),
                   a().createElement(
-                    Ye,
+                    ze,
                     { header: ir.tooltip.header.honey(), body: ir.tooltip.body.honey() },
                     a().createElement(
                       "div",
@@ -4651,7 +4680,7 @@
                 ),
                 !n &&
                   a().createElement(
-                    Ye,
+                    ze,
                     {
                       isEnabled: _,
                       header: ir.button.tooltip.header.disabled(),
@@ -5100,10 +5129,10 @@
               $ = (0, r.useState)(Cr.marketScales.button.justShowMe()),
               V = $[0],
               X = $[1],
-              j = (0, r.useState)(0),
-              z = j[0],
-              Y = (j[1], (0, r.useState)(0)),
-              q = (Y[0], Y[1], (0, r.useState)(!1)),
+              Y = (0, r.useState)(0),
+              j = Y[0],
+              z = (Y[1], (0, r.useState)(0)),
+              q = (z[0], z[1], (0, r.useState)(!1)),
               K = (q[0], q[1]),
               Z = (0, r.useState)(!1),
               Q = Z[0],
@@ -5161,7 +5190,7 @@
                   se.run(() => {
                     (D(!1), M(!1), x(!1), d(!1), K(!1));
                   }, 3800));
-              }, [o, z]),
+              }, [o, j]),
               (0, r.useEffect)(() => {
                 e
                   ? (G(Ie.secondary), X(Cr.marketScales.button.back()))
@@ -5181,7 +5210,7 @@
               ce = (0, r.useCallback)(() => {
                 J(!1);
               }, [J]);
-            (0, r.useCallback)(() => {}, [z]);
+            (0, r.useCallback)(() => {}, [j]);
             return a().createElement(
               "div",
               { className: gr.base },
@@ -5275,7 +5304,7 @@
                       onEndAnimation: ce,
                     }),
                     a().createElement(
-                      Ye,
+                      ze,
                       {
                         header: Cr.mainView.catalog.tooltip.header.honey(),
                         body: Cr.mainView.catalog.tooltip.body.honey(),
@@ -5290,7 +5319,7 @@
                     { className: gr.counterBottomWrapper },
                     a().createElement(hr, { value: O || l, isAnimationEnabled: ue }),
                     a().createElement(
-                      Ye,
+                      ze,
                       {
                         header: Cr.marketScales.tooltip.header.honey(),
                         body: Cr.marketScales.tooltip.body.honey(),
@@ -5306,7 +5335,7 @@
                 "div",
                 { className: g()(gr.buttonWrapper, e && gr.buttonWrapper__shifted) },
                 a().createElement(
-                  Ye,
+                  ze,
                   {
                     header: Cr.marketScales.tooltip.header.honey(),
                     body: Cr.marketScales.tooltip.body.honey(),
@@ -5349,11 +5378,11 @@
           ((e.Shop = "shop"), (e.Quests = "quests"));
         })(Sr || (Sr = {}));
         const yr = (e, u) => {
-            const t = Y(e, j.DATE_MONTH, !0),
-              r = Y(u, j.DATE_MONTH, !0);
+            const t = z(e, Y.DATE_MONTH, !0),
+              r = z(u, Y.DATE_MONTH, !0);
             return {
-              startDate: `${t} ${Y(e, j.YEAR, !0)}`,
-              endDate: `${r} ${Y(u, j.YEAR, !0)} ${Y(u, j.SHORT_TIME, !0)}`,
+              startDate: `${t} ${z(e, Y.YEAR, !0)}`,
+              endDate: `${r} ${z(u, Y.YEAR, !0)} ${z(u, Y.SHORT_TIME, !0)}`,
             };
           },
           wr = (0, Re.Pi)(() => {
