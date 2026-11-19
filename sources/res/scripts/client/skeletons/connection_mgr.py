@@ -6,6 +6,7 @@ class DisconnectReason(object):
     EVENT = 2
     KICK = 3
     ERROR = 4
+    NO_NETWORK = 5
 
 
 class IConnectionManager(object):
@@ -119,5 +120,9 @@ class IConnectionManager(object):
         return
 
     def setPeripheryRoutingGroup(self, routingGroup, availableHosts):
+        raise NotImplementedError
+        return
+
+    def hasNetworkConnection(self):
         raise NotImplementedError
         return

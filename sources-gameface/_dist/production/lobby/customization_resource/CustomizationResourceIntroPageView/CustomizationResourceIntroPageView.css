@@ -634,11 +634,6 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   height: 100%;
   background: url("R.images.gui.maps.icons.event.customizationResource.background") no-repeat
     center / cover;
-  opacity: 0;
-  animation-name: App_slideDown_61;
-  animation-duration: 500ms;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in;
 }
 
 .App_closeButton_fd {
@@ -830,14 +825,4 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 .App_footerButton_e5 {
   width: 170rem;
   height: 32rem;
-}
-
-@keyframes App_slideDown_61 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }

@@ -1288,6 +1288,9 @@ msgstr "Ваш аккаунт заблокирован до %(expiryTime)s.%(rea
 msgid "disconnected/messageKick"
 msgstr "Связь с сервером потеряна.%(reason)s"
 
+msgid "disconnected/messageNoNetwork"
+msgstr "Нет доступа к интернету.\nВероятная проблема в соединении или на стороне провайдера. Проверьте подключение к сети и попробуйте снова."
+
 msgid "disconnected/reason"
 msgstr " \nПричина: %s"
 

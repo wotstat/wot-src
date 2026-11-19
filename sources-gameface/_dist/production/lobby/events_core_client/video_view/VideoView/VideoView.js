@@ -190,7 +190,7 @@
             setEventHandled: () => T,
             setInputPaddingsRem: () => d,
             setSidePaddingsRem: () => h,
-            whenTutorialReady: () => k,
+            whenTutorialReady: () => N,
           }));
         var r = {};
         function n(u, e, t = 1) {
@@ -340,7 +340,7 @@
               viewEnv.getExtraSizeRem(u, e);
             },
           },
-          k = Promise.all([
+          N = Promise.all([
             new Promise((u) => {
               window.isDomBuilt ? u() : o.onDomBuilt(u);
             }),
@@ -1173,9 +1173,9 @@
             "style",
             "children",
           ];
-        function k() {
+        function N() {
           return (
-            (k =
+            (N =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -1184,11 +1184,11 @@
                 }
                 return u;
               }),
-            k.apply(this, arguments)
+            N.apply(this, arguments)
           );
         }
         Object.keys(s());
-        const N = {
+        const k = {
             XL: { mt: H.mt__XL, mr: H.mr__XL, mb: H.mb__XL, ml: H.ml__XL },
             LG: { mt: H.mt__LG, mr: H.mr__LG, mb: H.mb__LG, ml: H.ml__LG },
             MDp: { mt: H.mt__MDp, mr: H.mr__MDp, mb: H.mb__MDp, ml: H.ml__MDp },
@@ -1197,7 +1197,7 @@
             SM: { mt: H.mt__SM, mr: H.mr__SM, mb: H.mb__SM, ml: H.ml__SM },
             XS: { mt: H.mt__XS, mr: H.mr__XS, mb: H.mb__XS, ml: H.ml__XS },
           },
-          W = (Object.keys(N), ["mt", "mr", "mb", "ml"]),
+          W = (Object.keys(k), ["mt", "mr", "mb", "ml"]),
           I = { mt: "marginTop", mr: "marginRight", mb: "marginBottom", ml: "marginLeft" },
           G = y((u) => {
             let e = u.className,
@@ -1259,7 +1259,7 @@
                   e = ((u) =>
                     W.reduce((e, t) => {
                       const r = u[t];
-                      return r && "number" != typeof r ? e.concat(N[!0 === r ? "MD" : r][t]) : e;
+                      return r && "number" != typeof r ? e.concat(k[!0 === r ? "MD" : r][t]) : e;
                     }, []))(u),
                   r = ((u) =>
                     W.reduce((e, t) => {
@@ -1283,7 +1283,7 @@
               }, [t, a, A, l, D, B, V, U, S, _, O, w, L]),
               z = K.computedStyle,
               $ = K.computedClassNames;
-            return n().createElement("div", k({ className: o()(H.base, ...$, e), style: z }, X), j);
+            return n().createElement("div", N({ className: o()(H.base, ...$, e), style: z }, X), j);
           });
         let U;
         !(function (u) {
@@ -1674,6 +1674,7 @@
             "subtitlesVisible",
             "isWindowAccessible",
             "defaultVolume",
+            "needFit",
           ];
         function Tu() {
           return (
@@ -1714,7 +1715,8 @@
               p = void 0 !== f && f,
               b = u.isWindowAccessible,
               w = u.defaultVolume,
-              x = (function (u, e) {
+              x = u.needFit,
+              L = (function (u, e) {
                 if (null == u) return {};
                 var t,
                   r,
@@ -1723,69 +1725,69 @@
                 for (r = 0; r < a.length; r++) ((t = a[r]), e.indexOf(t) >= 0 || (n[t] = u[t]));
                 return n;
               })(u, Mu);
-            const L = (0, r.useRef)(null),
-              S = (0, r.useState)(!0),
-              M = S[0],
-              T = S[1],
-              O = (0, r.useState)(w || 1),
-              y = O[0],
-              R = O[1],
-              H = (0, r.useState)(!1),
-              P = H[0],
-              k = H[1],
-              N = (0, r.useState)(!1),
-              W = N[0],
-              I = N[1],
-              G = (0, r.useState)(!1),
-              U = G[0],
-              V = G[1],
-              j = (0, r.useState)(null),
-              X = j[0],
-              K = j[1],
-              z = (0, r.useState)(!1),
-              $ = z[0],
-              Y = z[1],
-              q = (0, r.useState)(!1),
-              Z = q[0],
-              Q = q[1],
-              J = (0, r.useState)(!1 === b),
-              uu = J[0],
-              eu = J[1],
-              tu = gu(D),
-              ru = (0, r.useRef)(null),
-              nu = (0, r.useRef)(!1),
+            const S = (0, r.useRef)(null),
+              M = (0, r.useState)(!0),
+              T = M[0],
+              O = M[1],
+              y = (0, r.useState)(w || 1),
+              R = y[0],
+              H = y[1],
+              P = (0, r.useState)(!1),
+              N = P[0],
+              k = P[1],
+              W = (0, r.useState)(!1),
+              I = W[0],
+              G = W[1],
+              U = (0, r.useState)(!1),
+              V = U[0],
+              j = U[1],
+              X = (0, r.useState)(null),
+              K = X[0],
+              z = X[1],
+              $ = (0, r.useState)(!1),
+              Y = $[0],
+              q = $[1],
+              Z = (0, r.useState)(!1),
+              Q = Z[0],
+              J = Z[1],
+              uu = (0, r.useState)(!1 === b),
+              eu = uu[0],
+              tu = uu[1],
+              ru = gu(D),
+              nu = (0, r.useRef)(null),
               au = (0, r.useRef)(!1),
-              iu = (0, r.useRef)(0),
+              iu = (0, r.useRef)(!1),
               Eu = (0, r.useRef)(0),
-              ou = (0, r.useRef)(!1),
-              Au = (0, pu.useSpring)({
-                width: $ || nu.current || Z ? "100rem" : "0rem",
-                opacity: $ || nu.current || Z ? 1 : 0,
+              ou = (0, r.useRef)(0),
+              Au = (0, r.useRef)(!1),
+              su = (0, pu.useSpring)({
+                width: Y || au.current || Q ? "100rem" : "0rem",
+                opacity: Y || au.current || Q ? 1 : 0,
                 config: { duration: 200 },
               }),
-              su = (0, r.useCallback)(() => {
-                iu.current && (window.clearTimeout(iu.current), (iu.current = 0));
-              }, []),
               lu = (0, r.useCallback)(() => {
                 Eu.current && (window.clearTimeout(Eu.current), (Eu.current = 0));
               }, []),
               Fu = (0, r.useCallback)(() => {
-                (Q(!0), su());
+                ou.current && (window.clearTimeout(ou.current), (ou.current = 0));
+              }, []),
+              Du = (0, r.useCallback)(() => {
+                (J(!0), lu());
                 const u = () => {
-                  nu.current || au.current
-                    ? (iu.current = window.setTimeout(u, 200))
-                    : (Q(!1), (iu.current = 0));
+                  au.current || iu.current
+                    ? (Eu.current = window.setTimeout(u, 200))
+                    : (J(!1), (Eu.current = 0));
                 };
-                iu.current = window.setTimeout(u, 1500);
-              }, [su]);
-            ((0, r.useEffect)(() => su, [su]),
-              (0, r.useEffect)(() => lu, [lu]),
+                Eu.current = window.setTimeout(u, 1500);
+              }, [lu]);
+            ((0, r.useEffect)(() => lu, [lu]),
+              (0, r.useEffect)(() => Fu, [Fu]),
               (0, r.useEffect)(() => {
                 const u = (u) => {
-                    K(u);
+                    z(u);
                   },
                   e = () => {
-                    K(null);
+                    z(null);
                   };
                 return (
                   engine.on("showSubtitle", u),
@@ -1796,105 +1798,112 @@
                 );
               }, []),
               (0, r.useEffect)(() => {
-                K(null);
+                z(null);
               }, [e]),
               (0, r.useEffect)(() => {
-                if ((lu(), b))
+                if ((Fu(), b))
                   return b
                     ? void 0
-                    : (eu(!0),
-                      void (Eu.current = window.setTimeout(() => {
-                        (eu(!1), (Eu.current = 0));
+                    : (tu(!0),
+                      void (ou.current = window.setTimeout(() => {
+                        (tu(!1), (ou.current = 0));
                       }, 300)));
-                eu(!1);
-              }, [lu, b]));
-            const Du = (0, r.useCallback)(() => {
-                ((au.current = !0), Y(!0));
+                tu(!1);
+              }, [Fu, b]));
+            const cu = (0, r.useCallback)(() => {
+                ((iu.current = !0), q(!0));
               }, []),
-              cu = (0, r.useCallback)(() => {
-                ((au.current = !1), nu.current || Y(!1));
+              Bu = (0, r.useCallback)(() => {
+                ((iu.current = !1), au.current || q(!1));
               }, []),
-              Bu = (0, r.useRef)(0),
-              mu = (0, r.useRef)(!0);
+              mu = (0, r.useRef)(0),
+              du = (0, r.useRef)(!0);
             (0, r.useEffect)(() => {
-              const u = L.current;
-              u && e && ((mu.current = !0), u.load());
+              const u = S.current;
+              u && e && ((du.current = !0), u.load());
             }, [e]);
-            const du = (0, r.useCallback)(() => {
-                Bu.current && (window.clearTimeout(Bu.current), (Bu.current = 0));
+            const Cu = (0, r.useCallback)(() => {
+                mu.current && (window.clearTimeout(mu.current), (mu.current = 0));
               }, []),
-              Cu = (0, r.useCallback)(() => {
+              hu = (0, r.useCallback)(() => {
                 var u, e;
-                (I(!0), du());
-                if (null == (u = null == (e = L.current) ? void 0 : e.paused) || u) return;
-                const t = mu.current ? 2e3 : 3500;
-                Bu.current = window.setTimeout(() => {
-                  (I(!1), (mu.current = !1));
+                (G(!0), Cu());
+                if (null == (u = null == (e = S.current) ? void 0 : e.paused) || u) return;
+                const t = du.current ? 2e3 : 3500;
+                mu.current = window.setTimeout(() => {
+                  (G(!1), (du.current = !1));
                 }, t);
-              }, [du]),
-              hu = (0, r.useRef)(0),
-              bu = (0, r.useCallback)(() => {
+              }, [Cu]),
+              bu = (0, r.useRef)(0),
+              wu = (0, r.useCallback)(() => {
                 const u = Date.now();
-                u - hu.current > 100 && (Cu(), (hu.current = u));
-              }, [Cu]);
+                u - bu.current > 100 && (hu(), (bu.current = u));
+              }, [hu]);
             (0, r.useEffect)(
               () => (
-                document.addEventListener("mousemove", bu),
+                document.addEventListener("mousemove", wu),
                 () => {
-                  (document.removeEventListener("mousemove", bu), du());
+                  (document.removeEventListener("mousemove", wu), Cu());
                 }
               ),
-              [du, bu],
+              [Cu, wu],
             );
-            const wu = (0, pu.useTransition)(W && v, {
+            const xu = (0, pu.useTransition)(I && v, {
                 from: { opacity: 0 },
                 enter: { opacity: 1 },
                 leave: { opacity: 0 },
                 config: { duration: 300 },
               }),
-              xu = (0, r.useCallback)(() => {
-                (T(!1), Cu(), m && !tu && m());
-              }, [m, tu, Cu]),
               yu = (0, r.useCallback)(() => {
-                (T(!0), Cu());
-              }, [Cu]),
+                (O(!1), hu(), m && !ru && m());
+              }, [m, ru, hu]),
               Ru = (0, r.useCallback)(() => {
-                const u = L.current;
+                (O(!0), hu());
+              }, [hu]),
+              Hu = (0, r.useCallback)(() => {
+                const u = S.current;
                 u &&
-                  (A ? ((u.currentTime = C > 0 ? u.duration - C : 0), u.play(), T(!1)) : u.pause());
+                  (A ? ((u.currentTime = C > 0 ? u.duration - C : 0), u.play(), O(!1)) : u.pause());
               }, [A, C]);
             (0, r.useEffect)(() => {
-              const u = L.current;
+              const u = S.current;
               return (
                 u &&
-                  (u.addEventListener("play", xu),
-                  u.addEventListener("pause", yu),
-                  u.addEventListener("ended", Ru)),
+                  (u.addEventListener("play", yu),
+                  u.addEventListener("pause", Ru),
+                  u.addEventListener("ended", Hu)),
                 () => {
                   u &&
-                    (u.removeEventListener("play", xu),
-                    u.removeEventListener("pause", yu),
-                    u.removeEventListener("ended", Ru));
+                    (u.removeEventListener("play", yu),
+                    u.removeEventListener("pause", Ru),
+                    u.removeEventListener("ended", Hu));
                 }
               );
-            }, [Ru, xu, yu]);
-            const Hu = vu(),
-              Pu = _u(),
-              ku = Pu.width,
-              Nu = Pu.height,
-              Wu = (0, r.useMemo)(
+            }, [Hu, yu, Ru]);
+            const Pu = vu(),
+              Nu = _u(),
+              ku = Nu.width,
+              Wu = Nu.height,
+              Iu = (0, r.useMemo)(
                 () =>
-                  ((u, e, t) => {
-                    const r = viewEnv.pxToRem(u) * t,
-                      n = viewEnv.pxToRem(e) * t,
-                      a = r / Ou,
-                      i = n > a;
-                    return { width: `${i ? n * Ou : r}rem`, height: `${i ? n : a}rem` };
-                  })(ku, Nu, Hu),
-                [ku, Nu, Hu],
+                  ((u, e, t, r) => {
+                    const n = viewEnv.pxToRem(u) * t,
+                      a = viewEnv.pxToRem(e) * t;
+                    if (r)
+                      return u < e || (u / e < 1.9 && u / e > Ou)
+                        ? { width: `${n}rem`, height: n / Ou + "rem" }
+                        : { width: a * Ou + "rem", height: `${a}rem` };
+                    {
+                      const u = n / Ou,
+                        e = a * Ou,
+                        t = a > u;
+                      return { width: `${t ? e : n}rem`, height: `${t ? a : u}rem` };
+                    }
+                  })(ku, Wu, Pu, x),
+                [ku, Wu, Pu, x],
               );
             ((0, r.useEffect)(() => {
-              if (_ && L.current) {
+              if (_ && S.current) {
                 const u = () => {
                     let u = 0;
                     const t = (function (u) {
@@ -1908,8 +1917,8 @@
                           },
                         ];
                       })(() => {
-                        if (L.current) {
-                          const t = L.current,
+                        if (S.current) {
+                          const t = S.current,
                             r = t.currentTime,
                             n = t.duration;
                           u !== r &&
@@ -1934,13 +1943,13 @@
                   ),
                   r = (u) => {
                     var e, t, r;
-                    L.current &&
-                      (L.current.currentTime =
-                        ((e = 0), (t = L.current.duration), (r = u) < e ? e : r > t ? t : r));
+                    S.current &&
+                      (S.current.currentTime =
+                        ((e = 0), (t = S.current.duration), (r = u) < e ? e : r > t ? t : r));
                   },
                   n = () => {
                     var u;
-                    return null == (u = L.current) ? void 0 : u.pause();
+                    return null == (u = S.current) ? void 0 : u.pause();
                   },
                   a = () => {
                     (n(), r(0));
@@ -1953,40 +1962,40 @@
                     on: (u, e) => {
                       var t;
                       return (
-                        null == (t = L.current) || t.addEventListener(u, e),
+                        null == (t = S.current) || t.addEventListener(u, e),
                         () => {
                           var t;
-                          return null == (t = L.current) ? void 0 : t.removeEventListener(u, e);
+                          return null == (t = S.current) ? void 0 : t.removeEventListener(u, e);
                         }
                       );
                     },
                     off: (u, e) => {
                       var t;
                       return (
-                        null == (t = L.current) || t.removeEventListener(u, e),
+                        null == (t = S.current) || t.removeEventListener(u, e),
                         () => {
                           var t;
-                          return null == (t = L.current) ? void 0 : t.removeEventListener(u, e);
+                          return null == (t = S.current) ? void 0 : t.removeEventListener(u, e);
                         }
                       );
                     },
                     play: () => {
                       var u;
-                      return null == (u = L.current) ? void 0 : u.play();
+                      return null == (u = S.current) ? void 0 : u.play();
                     },
                     pause: n,
                     stop: a,
                     cleanup: i,
                     getCurrentTime: () => {
                       var u;
-                      return null == (u = L.current) ? void 0 : u.currentTime;
+                      return null == (u = S.current) ? void 0 : u.currentTime;
                     },
                     getDuration: () => {
                       var u;
-                      return null == (u = L.current) ? void 0 : u.duration;
+                      return null == (u = S.current) ? void 0 : u.duration;
                     },
                     setCurrentTime: r,
-                    domRef: L.current,
+                    domRef: S.current,
                     onChangeTime: t,
                   }),
                   () => {
@@ -1996,41 +2005,41 @@
               }
             }, [_]),
               (0, r.useEffect)(() => {
-                const u = L.current;
+                const u = S.current;
                 if (u)
                   return (
-                    (u.volume = y),
+                    (u.volume = R),
                     () => {
                       u && (u.pause(), (u.src = ""), u.load());
                     }
                   );
               }, []),
               (0, r.useEffect)(() => {
-                const u = L.current;
-                u && (u.volume = y);
-              }, [y]));
-            const Iu = () => {
-                (V(!U), Cu());
+                const u = S.current;
+                u && (u.volume = R);
+              }, [R]));
+            const Gu = () => {
+                (j(!V), hu());
               },
-              Gu = () => {
-                (Cu(),
-                  uu || (L.current && (L.current.paused ? L.current.play() : L.current.pause())));
+              Uu = () => {
+                (hu(),
+                  eu || (S.current && (S.current.paused ? S.current.play() : S.current.pause())));
               },
-              Uu = (0, r.useRef)(y),
-              Vu = (0, r.useRef)(P),
-              ju = (0, r.useRef)(w || 1),
-              Xu = (0, r.useRef)(D);
+              Vu = (0, r.useRef)(R),
+              ju = (0, r.useRef)(N),
+              Xu = (0, r.useRef)(w || 1),
+              Ku = (0, r.useRef)(D);
             ((0, r.useEffect)(() => {
-              ((Uu.current = y), (Vu.current = P));
-            }, [y, P]),
+              ((Vu.current = R), (ju.current = N));
+            }, [R, N]),
               (0, r.useEffect)(() => {
-                y > 0 && (ju.current = y);
-              }, [y]),
+                R > 0 && (Xu.current = R);
+              }, [R]),
               (0, r.useEffect)(() => {
-                const u = L.current;
+                const u = S.current;
                 if (!u) return;
-                const e = Xu.current;
-                if (((Xu.current = D), D)) return (u.pause(), () => u.pause());
+                const e = Ku.current;
+                if (((Ku.current = D), D)) return (u.pause(), () => u.pause());
                 if (!i) return () => u.pause();
                 const t = () => {
                   try {
@@ -2049,24 +2058,24 @@
                 }
                 return (u.play(), () => u.pause());
               }, [i, D, B]));
-            const Ku = (0, r.useCallback)((u) => {
+            const zu = (0, r.useCallback)((u) => {
                 const e = Math.max(0, Math.min(1, u));
-                (R(e),
-                  L.current &&
-                    ((L.current.volume = e),
-                    e > 0 && Vu.current && (k(!1), (L.current.muted = !1))));
+                (H(e),
+                  S.current &&
+                    ((S.current.volume = e),
+                    e > 0 && ju.current && (k(!1), (S.current.muted = !1))));
               }, []),
-              zu = (0, r.useCallback)(
+              $u = (0, r.useCallback)(
                 (u) => {
-                  (Cu(), Ku(Uu.current + u));
+                  (hu(), zu(Vu.current + u));
                 },
-                [Cu, Ku],
+                [hu, zu],
               ),
-              $u = (0, r.useCallback)(() => {
-                Cu();
-                const u = L.current;
+              Yu = (0, r.useCallback)(() => {
+                hu();
+                const u = S.current;
                 u && (u.paused ? u.play() : u.pause());
-              }, [Cu]);
+              }, [hu]);
             (0, r.useEffect)(() => {
               const u = (u) => {
                   if (
@@ -2082,20 +2091,20 @@
                     return;
                   if (u.keyCode === fu.n.SPACE) {
                     if (!v) return;
-                    if (ou.current) return;
-                    return ((ou.current = !0), u.preventDefault(), void $u());
+                    if (Au.current) return;
+                    return ((Au.current = !0), u.preventDefault(), void Yu());
                   }
-                  u.keyCode === fu.n.ESCAPE && Cu();
+                  u.keyCode === fu.n.ESCAPE && hu();
                   const e = u.keyCode,
                     t = e === fu.n.ARROW_UP || e === fu.n.ARROW_RIGHT,
                     r = e === fu.n.ARROW_DOWN || e === fu.n.ARROW_LEFT;
                   if (!t && !r) return;
                   u.preventDefault();
                   const n = t ? 0.05 : -0.05;
-                  (Fu(), zu(n));
+                  (Du(), $u(n));
                 },
                 e = (u) => {
-                  u.keyCode === fu.n.SPACE && (ou.current = !1);
+                  u.keyCode === fu.n.SPACE && (Au.current = !1);
                 };
               return (
                 window.addEventListener("keydown", u, !0),
@@ -2105,73 +2114,73 @@
                     window.removeEventListener("keyup", e, !0));
                 }
               );
-            }, [v, zu, $u, Cu, Fu]);
-            const Yu = (0, r.useCallback)((u) => {
-                if (!ru.current) return 0;
-                const e = ru.current.getBoundingClientRect(),
+            }, [v, $u, Yu, hu, Du]);
+            const qu = (0, r.useCallback)((u) => {
+                if (!nu.current) return 0;
+                const e = nu.current.getBoundingClientRect(),
                   t = (u - e.left) / e.width;
                 return Math.max(0, Math.min(1, t));
               }, []),
-              qu = (0, r.useCallback)(
-                (u) => {
-                  (u.preventDefault(), Cu(), (nu.current = !0));
-                  const e = Yu(u.clientX);
-                  Ku(e);
-                },
-                [Yu, Ku, Cu],
-              ),
               Zu = (0, r.useCallback)(
                 (u) => {
-                  if (nu.current) {
-                    Cu();
-                    const e = Yu(u.clientX);
-                    Ku(e);
+                  (u.preventDefault(), hu(), (au.current = !0));
+                  const e = qu(u.clientX);
+                  zu(e);
+                },
+                [qu, zu, hu],
+              ),
+              Qu = (0, r.useCallback)(
+                (u) => {
+                  if (au.current) {
+                    hu();
+                    const e = qu(u.clientX);
+                    zu(e);
                   }
                 },
-                [Yu, Ku, Cu],
+                [qu, zu, hu],
               ),
-              Qu = (0, r.useCallback)(() => {
-                nu.current && (Cu(), (nu.current = !1), au.current ? Y((u) => u) : Y(!1));
-              }, [Cu]);
+              Ju = (0, r.useCallback)(() => {
+                au.current && (hu(), (au.current = !1), iu.current ? q((u) => u) : q(!1));
+              }, [hu]);
             (0, r.useEffect)(
               () => (
-                document.addEventListener("mousemove", Zu),
-                document.addEventListener("mouseup", Qu),
+                document.addEventListener("mousemove", Qu),
+                document.addEventListener("mouseup", Ju),
                 () => {
-                  (document.removeEventListener("mousemove", Zu),
-                    document.removeEventListener("mouseup", Qu));
+                  (document.removeEventListener("mousemove", Qu),
+                    document.removeEventListener("mouseup", Ju));
                 }
               ),
-              [Zu, Qu],
+              [Qu, Ju],
             );
-            const Ju = (0, r.useCallback)(() => {
-                Cu();
-                const u = L.current;
+            const ue = (0, r.useCallback)(() => {
+                hu();
+                const u = S.current;
                 if (!u) return;
-                if (!(Vu.current || 0 === Uu.current))
+                if (!(ju.current || 0 === Vu.current))
                   return (
-                    Uu.current > 0 && (ju.current = Uu.current),
+                    Vu.current > 0 && (Xu.current = Vu.current),
                     k(!0),
                     (u.muted = !0),
-                    void Ku(0)
+                    void zu(0)
                   );
-                const e = ju.current > 0 ? ju.current : w || 1;
-                ((u.muted = !1), Ku(e));
-              }, [w, Cu, Ku]),
-              ue = P || 0 === y;
+                const e = Xu.current > 0 ? Xu.current : w || 1;
+                ((u.muted = !1), zu(e));
+              }, [w, hu, zu]),
+              ee = N || 0 === R;
             return n().createElement(
               n().Fragment,
               null,
               n().createElement(
                 "video",
                 Tu(
-                  { muted: P, src: e, className: t, loop: l, ref: L, autoPlay: i, onClick: h },
-                  x,
-                  { onError: x.onError, style: Object.assign({}, Wu, x.style) },
+                  { muted: N, src: e, className: t, loop: l, ref: S, autoPlay: i, onClick: h },
+                  L,
+                  { onError: L.onError, style: Object.assign({}, Iu, L.style) },
                 ),
               ),
-              p && U && n().createElement(Lu, { text: X }),
-              wu(
+              p && V && n().createElement(Lu, { text: K }),
+              xu(
                 (u, e) =>
                   e &&
                   n().createElement(
@@ -2182,11 +2191,11 @@
                       { className: Su.videoControl },
                       n().createElement(
                         "div",
-                        { className: o()(Su.baseButton, Su.actionButton), onClick: Gu },
+                        { className: o()(Su.baseButton, Su.actionButton), onClick: Uu },
                         n().createElement(
                           "div",
                           { className: Su.iconWrapper },
-                          M
+                          T
                             ? n().createElement(
                                 n().Fragment,
                                 null,
@@ -2217,14 +2226,14 @@
                       ),
                       n().createElement(
                         "div",
-                        { className: Su.volumeContainer, onMouseEnter: Du, onMouseLeave: cu },
+                        { className: Su.volumeContainer, onMouseEnter: cu, onMouseLeave: Bu },
                         n().createElement(
                           "div",
-                          { className: o()(Su.baseButton, Su.muteButton), onClick: Ju },
+                          { className: o()(Su.baseButton, Su.muteButton), onClick: ue },
                           n().createElement(
                             "div",
                             { className: Su.iconWrapper },
-                            ue
+                            ee
                               ? n().createElement(
                                   n().Fragment,
                                   null,
@@ -2249,18 +2258,18 @@
                         ),
                         n().createElement(
                           pu.animated.div,
-                          { ref: ru, className: Su.volumeSlider, style: Au, onMouseDown: qu },
+                          { ref: nu, className: Su.volumeSlider, style: su, onMouseDown: Zu },
                           n().createElement(
                             "div",
                             { className: Su.volumeSliderTrack },
                             n().createElement("div", {
                               className: Su.volumeSliderFill,
-                              style: { width: 100 * (P ? 0 : y) + "%" },
+                              style: { width: 100 * (N ? 0 : R) + "%" },
                             }),
                           ),
                           n().createElement("div", {
                             className: Su.volumeSliderThumb,
-                            style: { left: 100 * (P ? 0 : y) + "%" },
+                            style: { left: 100 * (N ? 0 : R) + "%" },
                           }),
                         ),
                       ),
@@ -2268,17 +2277,17 @@
                     p &&
                       n().createElement(
                         "div",
-                        { className: o()(Su.baseButton, U && Su.baseButton__active), onClick: Iu },
+                        { className: o()(Su.baseButton, V && Su.baseButton__active), onClick: Gu },
                         n().createElement(
                           "div",
                           { className: Su.iconWrapper },
                           n().createElement("div", {
                             className: o()(
                               Su.iconLayer,
-                              U ? Su.subtitlesOnBase : Su.subtitlesOffBase,
+                              V ? Su.subtitlesOnBase : Su.subtitlesOffBase,
                             ),
                           }),
-                          !U &&
+                          !V &&
                             n().createElement("div", {
                               className: o()(Su.iconLayer, Su.iconHover, Su.subtitlesHover),
                             }),
@@ -2292,10 +2301,15 @@
             );
           });
         var Ru = t(31);
-        const Hu = (u) => {
+        function Hu() {}
+        function Pu() {
+          return !1;
+        }
+        console.log;
+        const Nu = (u) => {
           console.error(u.type + ": useKeydownListener hook :: Callback is not defined");
         };
-        function Pu(u = fu.n.NONE, e = Hu, t = !1) {
+        function ku(u = fu.n.NONE, e = Nu, t = !1) {
           (0, r.useEffect)(() => {
             if (u !== fu.n.NONE)
               return (
@@ -2312,13 +2326,8 @@
             }
           }, [e, u, t]);
         }
-        var ku = t(515);
-        function Nu() {}
-        function Wu() {
-          return !1;
-        }
-        console.log;
-        var Iu = t(174);
+        var Wu = t(515),
+          Iu = t(174);
         function Gu(u, e) {
           var t = ("undefined" != typeof Symbol && u[Symbol.iterator]) || u["@@iterator"];
           if (t) return (t = t.call(u)).next.bind(t);
@@ -2430,7 +2439,7 @@
                         observableModel: {
                           array: (u, e) => {
                             const r = null != e ? e : o(u),
-                              n = Iu.LO.box(r, { equals: Wu });
+                              n = Iu.LO.box(r, { equals: Pu });
                             return (
                               "real" === t &&
                                 E.subscribe(
@@ -2442,7 +2451,7 @@
                           },
                           object: (u, e) => {
                             const r = null != e ? e : o(u),
-                              n = Iu.LO.box(r, { equals: Wu });
+                              n = Iu.LO.box(r, { equals: Pu });
                             return (
                               "real" === t &&
                                 E.subscribe(
@@ -2536,15 +2545,23 @@
           $u = "App_close_ac",
           Yu = "App_video_03",
           qu = 16 / 9,
-          Zu = (u, e, t) => {
-            const r = viewEnv.pxToRem(u) * t,
-              n = viewEnv.pxToRem(e) * t,
-              a = r / qu,
-              i = n > a;
-            return { width: `${i ? n * qu : r}rem`, height: `${i ? n : a}rem` };
+          Zu = (u, e, t, r) => {
+            const n = viewEnv.pxToRem(u) * t,
+              a = viewEnv.pxToRem(e) * t;
+            if (r) {
+              return u < e || (u / e < 1.9 && u / e > qu)
+                ? { width: `${n}rem`, height: n / qu + "rem" }
+                : { width: a * qu + "rem", height: `${a}rem` };
+            }
+            {
+              const u = n / qu,
+                e = a * qu,
+                t = a > u;
+              return { width: `${t ? e : n}rem`, height: `${t ? a : u}rem` };
+            }
           };
         viewEnv.clearInternalCacheAfterFinalize();
-        const Qu = (0, ku.Pi)(() => {
+        const Qu = (0, Wu.Pi)(() => {
           const u = Ku(),
             e = u.controls,
             t = u.model.root.get(),
@@ -2553,16 +2570,17 @@
             E = t.videoPath,
             o = t.initialAudioVolume,
             A = t.canEscape,
-            s = (0, r.useState)(!1),
-            l = s[0],
-            D = s[1],
-            c = (0, r.useState)(!1),
-            B = c[0],
-            m = c[1],
-            d = (0, r.useState)((0, Ru.isClientAccessible)()),
-            C = d[0],
-            _ = d[1],
-            h = (() => {
+            s = t.isNewYear,
+            l = (0, r.useState)(!1),
+            D = l[0],
+            c = l[1],
+            B = (0, r.useState)(!1),
+            m = B[0],
+            d = B[1],
+            C = (0, r.useState)((0, Ru.isClientAccessible)()),
+            _ = C[0],
+            h = C[1],
+            g = (() => {
               const u = (0, r.useRef)(),
                 e = (0, r.useCallback)((e) => (u.current = e), []);
               return (
@@ -2576,38 +2594,38 @@
                 [u, e]
               );
             })(),
-            g = h[0],
-            v = h[1],
-            f = _u(),
-            p = f.width,
-            b = f.height,
-            w = vu(),
-            x = (0, r.useRef)(null),
-            L = (0, r.useCallback)(() => {
-              (D(!0),
-                x.current && clearTimeout(x.current),
-                (x.current = Number(setTimeout(() => D(!1), 5e3))));
-            }, []),
+            v = g[0],
+            f = g[1],
+            p = _u(),
+            b = p.width,
+            w = p.height,
+            x = vu(),
+            L = (0, r.useRef)(null),
             S = (0, r.useCallback)(() => {
-              (l && e.close(), L());
-            }, [e, l, L]),
+              (c(!0),
+                L.current && clearTimeout(L.current),
+                (L.current = Number(setTimeout(() => c(!1), 5e3))));
+            }, []),
             M = (0, r.useCallback)(() => {
-              B || m(!0);
-            }, [B]);
+              (D && e.close(), S());
+            }, [e, D, S]),
+            T = (0, r.useCallback)(() => {
+              m || d(!0);
+            }, [m]);
           return (
             (function ({
               key: u = fu.n.ESCAPE,
               callback: e = () => F.O.view.sendEvent.close(),
               preventPropagation: t = !0,
             } = {}) {
-              Pu(u, e, t);
-            })({ key: fu.n.ESCAPE, callback: A ? S : Nu }),
+              ku(u, e, t);
+            })({ key: fu.n.ESCAPE, callback: A ? M : Hu }),
             (0, r.useEffect)(() => {
-              const u = g.current;
+              const u = v.current;
               if (!u) return;
-              C ? u.play() : u.pause();
+              _ ? u.play() : u.pause();
               const e = (e) => {
-                (!e && u && u.pause(), _(e));
+                (!e && u && u.pause(), h(e));
               };
               return (
                 engine.on("clientAccessible", e),
@@ -2615,41 +2633,42 @@
                   engine.off("clientAccessible", e);
                 }
               );
-            }, [E, g, C]),
+            }, [E, v, _]),
             (0, r.useEffect)(() => {
-              m(!1);
+              d(!1);
             }, [E]),
             (0, r.useEffect)(
               () => () => {
-                x.current && clearTimeout(x.current);
+                L.current && clearTimeout(L.current);
               },
               [],
             ),
             n().createElement(
               "div",
-              { className: zu, onClick: L },
-              l &&
+              { className: zu, onClick: S },
+              D &&
                 n().createElement(
                   "div",
                   { className: $u },
                   n().createElement(Bu, {
-                    onClick: S,
+                    onClick: M,
                     text: R.strings.dialogs.cosmic.video.close(),
                   }),
                 ),
               E &&
                 n().createElement(yu, {
-                  setPlayer: v,
+                  setPlayer: f,
                   src: E,
                   className: Yu,
-                  style: Zu(p, b, w),
+                  needFit: s,
+                  style: Zu(b, w, x, s),
                   autoplay: !0,
-                  onPlay: M,
+                  onPlay: T,
                   onEnded: e.close,
                   controlsVisible: a,
                   subtitlesVisible: i,
                   defaultVolume: o,
-                  isWindowAccessible: C,
+                  isWindowAccessible: _,
                 }),
             )
           );

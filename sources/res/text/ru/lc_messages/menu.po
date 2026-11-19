@@ -4108,6 +4108,9 @@ msgstr "Сервер перегружен. Выберите другой сер�
 msgid "login/status/NOT_SET"
 msgstr "Вы отключены от сервера."
 
+msgid "login/status/NO_NETWORK_CONNECTION"
+msgstr "Нет доступа к интернету.\nВероятная проблема в соединении или на стороне провайдера. Проверьте подключение к сети и попробуйте снова."
+
 msgid "login/status/PUBLIC_KEY_LOOKUP_FAILED"
 msgstr "Lookup for the client public key has failed."
 

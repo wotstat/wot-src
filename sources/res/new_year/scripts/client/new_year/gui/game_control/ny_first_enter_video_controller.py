@@ -171,7 +171,7 @@ class NewYearFirstEnterVideoController(INewYearFirstEnterVideoController, Events
         return
 
     def __showVideo(self, videoSource, canEscape):
-        self.__video = showEmbeddedAudioVideoView(videoSource=videoSource, parent=getParentWindow(), onVideoStarted=self.__onVideoStarted, onVideoClosed=self.__onVideoDone, isControlsVisible=False, releaseNotificationsLockOnClose=False, canEscape=canEscape)
+        self.__video = showEmbeddedAudioVideoView(videoSource=videoSource, parent=getParentWindow(), onVideoStarted=self.__onVideoStarted, onVideoClosed=self.__onVideoDone, isControlsVisible=False, releaseNotificationsLockOnClose=False, canEscape=canEscape, isNewYear=True)
         return
 
     def __stopVideo(self, destroy=False):

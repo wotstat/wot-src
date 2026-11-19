@@ -1313,6 +1313,7 @@ EventType: Any
 FilterInterpolationType: Any
 FutureNotReady: Any
 IS_CONSUMER_CLIENT_BUILD: Any
+LOGIN_STATUS: Any
 Pinger: Any
 Proxy: Any
 PyrometerSector: Any

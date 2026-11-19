@@ -808,6 +808,14 @@ class ITamagotchiDataProvider(object):
         raise NotImplementedError
         return
 
+    def allocateLeaderboardPageRequestSeq(self, cumulative):
+        raise NotImplementedError
+        return
+
+    def isLeaderboardPageRequestSeqActual(self, cumulative, requestSeq):
+        raise NotImplementedError
+        return
+
     def applyPlayerStats(self, value, asFinalCache=False, startedWhenFinalReady=False, requestGeneration=None, requestSeq=None):
         raise NotImplementedError
         return
@@ -835,5 +843,20 @@ class ITamagotchiDataProvider(object):
         return
 
     def getLeaderboard(self, seasonId):
+        raise NotImplementedError
+        return
+
+
+class INyWindowHelper(object):
+
+    def isLocked(self, windowTag):
+        raise NotImplementedError
+        return
+
+    def lock(self, windowTag):
+        raise NotImplementedError
+        return
+
+    def unlock(self, windowTag):
         raise NotImplementedError
         return

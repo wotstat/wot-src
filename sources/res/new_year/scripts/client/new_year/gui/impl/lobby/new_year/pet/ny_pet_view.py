@@ -36,6 +36,7 @@ from new_year.tamagotchi.sys_msg.sys_msg_handler import TamagotchiSysMsgHandler
 from new_year.gui.shared.event_dispatcher import showNYPetRaidRewardWindow, openTamagotchiRaidView
 from skeletons.festivity_factory import IFestivityFactory
 from skeletons.gui.game_control import IGuiLootBoxesController
+from shared_utils import nextTick
 from new_year.gui.impl.new_year.sounds import RaccoonStates, NewYearSoundEvents
 from gui.impl.common.fade_manager import FadeManager
 from skeletons.gui.shared.utils import IHangarSpace
@@ -318,7 +319,7 @@ class NyPetView(HistorySubModelPresenter):
     def __initRaccoonFlyState(self, isLoadedFromHangar):
         if not isLoadedFromHangar:
             self.__updateInternalViewState(skipFlight=True)
-            self.__nyEnvSwitcherController.switchEnvironment(EnvironmentState.RACCOON.value)
+            nextTick(partial(self.__nyEnvSwitcherController.switchEnvironment, EnvironmentState.RACCOON.value))()
             return
         self.setSwitchState(SwitchStates.WITH_SWITCHING_OBJS)
         self.__fadeSteps.setSteps(self.__fadeStates)
@@ -402,7 +403,8 @@ class NyPetView(HistorySubModelPresenter):
         result = yield ReceiveTamagotchiRaidRewardProcessor().request()
         if result is not None and result.success:
             prepareRaidRewardResult(result)
-            showNYPetRaidRewardWindow(next(iter(result.auxData[b'bonus'])) or {}, parent=self.getParentWindow())
+            parent = self.getParentWindow() if self.isLoaded else None
+            showNYPetRaidRewardWindow(next(iter(result.auxData[b'bonus'])) or {}, parent=parent)
         else:
             TamagotchiSysMsgHandler.sendRaidRewardError()
         return
@@ -437,6 +439,8 @@ class NyPetView(HistorySubModelPresenter):
 
     def __raidViewCloseCallback(self):
         self.__isRaidViewOpened = False
+        if not self.isLoaded:
+            return
         self.__resolveAndShowSingleTip()
         return
 
@@ -466,10 +470,7 @@ class NyPetView(HistorySubModelPresenter):
 
     def __onOnboardingSkipped(self):
         SoundGroups.g_instance.playSound2D(NewYearSoundEvents.OLDMAN_ONBOARDING_SKIP)
-        self.__forceStopFillSound()
-        self.viewModel.setIsOnboarding(False)
-        self._dataProvider.isOnboarding = False
-        self.__onOnboardingRestartFinish()
+        self.__onOnboardingFinish()
         return
 
     def __onItemsActivated(self, isSuccess, *_, **__):

@@ -56,8 +56,8 @@ class GameplayLogic(IGameplayLogic):
         self.goToLoginByRQ()
         return
 
-    def goToLoginByEvent(self):
-        self.postStateEvent(PlayerEventID.NON_PLAYER_BECOME_PLAYER, disconnectReason=DisconnectReason.EVENT)
+    def goToLoginByEvent(self, hasNetworkConnection):
+        self.postStateEvent(PlayerEventID.NON_PLAYER_BECOME_PLAYER, disconnectReason=DisconnectReason.EVENT if hasNetworkConnection else DisconnectReason.NO_NETWORK)
         return
 
     def goToLoginByKick(self, reason, kickReasonType, expiryTime):

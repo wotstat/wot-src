@@ -117,7 +117,7 @@ def getTotalItemsCount(currentTab, receiptData):
 
 def _getReceiptIterator(currentTab, receiptData):
     if currentTab == TabId.HISTORY:
-        for _, receiptDataItem in sorted(receiptData.get(b'raidStatistics', {}).iteritems(), key=(lambda item: item[1].get(b'startTime', 0)), reverse=True):
+        for _, receiptDataItem in sorted(receiptData.get(b'raidStatistics', {}).iteritems(), key=(lambda item: (item[1].get(b'startTime', 0), item[0])), reverse=True):
             yield receiptDataItem
 
     else:

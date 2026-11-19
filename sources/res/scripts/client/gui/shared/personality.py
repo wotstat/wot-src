@@ -331,10 +331,10 @@ def onConnected():
     return
 
 
-def onDisconnected():
+def onDisconnected(hasNetworkConnection):
     ServicesLocator.statsCollector.noteHangarLoadingState(HANGAR_LOADING_STATE.DISCONNECTED)
     guiModsSendEvent(b'onDisconnected')
-    ServicesLocator.gameplay.goToLoginByEvent()
+    ServicesLocator.gameplay.goToLoginByEvent(hasNetworkConnection)
     ServicesLocator.battleResults.clear()
     g_prbLoader.onDisconnected()
     g_clanCache.onDisconnected()

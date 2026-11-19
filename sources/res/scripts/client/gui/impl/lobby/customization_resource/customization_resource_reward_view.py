@@ -53,7 +53,13 @@ class CustomizationResourceRewardView(ViewImpl):
 
     def _onLoading(self, *args, **kwargs):
         super(CustomizationResourceRewardView, self)._onLoading(*args, **kwargs)
+        BigWorld.worldDrawEnabled(False)
         self.__fillRewardsModel()
+        return
+
+    def _finalize(self):
+        BigWorld.worldDrawEnabled(True)
+        super(CustomizationResourceRewardView, self)._finalize()
         return
 
     def _onReady(self):

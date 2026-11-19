@@ -77,8 +77,7 @@ class NyLeaderboardRewardView(ViewImpl):
         self.__makeRequestPlayerStats()
         with self.getViewModel().transaction() as tx:
             self.__filterDogtags()
-            if not self.__isRequestInProgress:
-                self.__fillModel(tx)
+            self.__fillModel(tx)
         return
 
     def __fillModel(self, model):
@@ -86,14 +85,18 @@ class NyLeaderboardRewardView(ViewImpl):
             model.setIsPreorder(True)
             packNyLeaderboardRewards(self.__rewards, model.rewards, self.__tooltips)
             return
+        self.__fillPlayerPlace(model)
+        packNyLeaderboardRewards(self.__rewards, model.rewards, self.__tooltips, (
+         CurrentNYConstants.NY_STATIC_DOGTAG, self.__ctxUpdater))
+        return
+
+    def __fillPlayerPlace(self, model):
         playerPos, playerTop = self.__getPlayerPositionAndTop()
         isFinal = self.__dataProvider.isCumulativeFinished if self.__seasonID == NY_CUMULATIVE_LEADERBOARD_SEASON_ID else self.__dataProvider.isLeaderboardFinished
         model.setStage(self.__seasonID)
         model.setPosition(playerPos)
         model.setTop(playerTop)
         model.setIsFinal(isFinal)
-        packNyLeaderboardRewards(self.__rewards, model.rewards, self.__tooltips, (
-         CurrentNYConstants.NY_STATIC_DOGTAG, self.__ctxUpdater))
         return
 
     def __makeRequestPlayerStats(self):
@@ -110,7 +113,7 @@ class NyLeaderboardRewardView(ViewImpl):
     def __onPlayerStatsUpdated(self, isSuccess):
         self.__isRequestInProgress = False
         with self.getViewModel().transaction() as tx:
-            self.__fillModel(tx)
+            self.__fillPlayerPlace(tx)
         return
 
     def __getPlayerPositionAndTop(self):

@@ -1000,7 +1000,10 @@
               const e = { root: u.object() };
               return Object.assign({}, e, { computes: {} });
             },
-            ({ externalModel: u }) => ({ close: u.createCallbackNoArgs("onClose") }),
+            ({ externalModel: u }) => ({
+              close: u.createCallbackNoArgs("onClose"),
+              started: u.createCallbackNoArgs("onStarted"),
+            }),
           ),
           m = _[0],
           g = _[1],
@@ -1449,7 +1452,13 @@
               n().createElement(
                 "div",
                 { className: v },
-                n().createElement(X, { autoPlay: !0, src: e, className: w, onEnded: u.close }),
+                n().createElement(X, {
+                  autoPlay: !0,
+                  src: e,
+                  className: w,
+                  onEnded: u.close,
+                  onStarted: u.started,
+                }),
               )
             );
           });

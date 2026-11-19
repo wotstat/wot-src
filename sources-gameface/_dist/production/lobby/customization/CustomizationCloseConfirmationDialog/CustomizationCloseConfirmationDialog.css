@@ -4287,6 +4287,12 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   right: 20rem;
   bottom: 319rem;
 }
+.App_entryPoint__fadeIn_72 {
+  animation: App_fadeIn_86 200ms forwards linear;
+}
+.App_entryPoint__fadeOut_02 {
+  animation: App_fadeOut_98 200ms forwards linear;
+}
 .App_decalsBanner_75 {
   position: absolute;
   bottom: 249rem;

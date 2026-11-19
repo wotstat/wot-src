@@ -58,8 +58,8 @@ stubs/               # полный manifest payload IDE stubs
 
 - Target: `mt-public-test`
 - Ветка: `mt-public-test`
-- Версия: `1.47.0.8680`
+- Версия: `1.47.0.8696`
 - Publisher: `lesta`
-- GameSnapshot: `sha256:4249381b029a96dcb4f6ff3d15a219b04d5d3dff7a46151f0979d1c5153dd056`
+- GameSnapshot: `sha256:6ed9834a17696090d3d32f5139ed5b204c3f42ee262f009e866aa2b1e2ab47a7`
 
 Машиночитаемые метаданные и контрольные идентификаторы находятся в `.publication.json`.

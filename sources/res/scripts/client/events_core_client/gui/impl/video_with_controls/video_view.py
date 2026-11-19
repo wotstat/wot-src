@@ -10,7 +10,7 @@ from sound_gui_manager import CommonSoundSpaceSettings
 if t.TYPE_CHECKING:
     from frameworks.wulf import Command, Window
 SoundSpacePrerequisites = namedtuple(b'SoundSpaceSettingsPrerequisites', (b'entranceStates', b'exitStates'))
-VideoPrerequisites = namedtuple(b'VideoPrerequisites', (b'videoPath', b'subtitlesPath', b'isControlsVisible', b'isSubtitlesVisible', b'soundSpace', b'canEscape', b'handleWorldDraw'))
+VideoPrerequisites = namedtuple(b'VideoPrerequisites', (b'videoPath', b'subtitlesPath', b'isControlsVisible', b'isSubtitlesVisible', b'soundSpace', b'canEscape', b'handleWorldDraw', b'isNewYear'))
 _DEFAULT_VIEW_SOUND_SPACE = CommonSoundSpaceSettings(name=b'GF_VIDEO_VIEW', entranceStates={b'STATE_video_overlay': b'STATE_video_overlay_on'}, exitStates={b'STATE_video_overlay': b'STATE_video_overlay_off'}, persistentSounds=(), stoppableSounds=(), priorities=(), autoStart=True, enterEvent=b'', exitEvent=b'')
 _RTPC_VOLUME_MULTIPLIER_FOR_SOUND_CONTROL = 0.5
 
@@ -61,6 +61,7 @@ class VideoView(ViewImpl):
                 volume *= _RTPC_VOLUME_MULTIPLIER_FOR_SOUND_CONTROL
             model.setCanEscape(self.__prerequisites.canEscape)
             model.setInitialAudioVolume(volume)
+            model.setIsNewYear(self.__prerequisites.isNewYear)
         return
 
     def _getEvents(self):

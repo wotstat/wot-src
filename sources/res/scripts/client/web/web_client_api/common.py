@@ -154,6 +154,10 @@ class ItemPackType(CONST_CONTAINER):
     CUSTOM_BUMBLEE_COIN = b'custom/bumblebee_coin'
     CUSTOM_HONEY_COIN = b'custom/honey_coin'
     CUSTOM_NY_MANDARINS = b'custom/nyMandarins'
+    CUSTOM_NY_TOYS = b'custom/nyToys'
+    CUSTOM_NY_RFOOD = b'custom/nyrfood'
+    CUSTOM_NY_RFUN = b'custom/nyrfun'
+    CUSTOM_NY_RACTIV = b'custom/nyractiv'
     PREFERRED_MAP_SLOTS_REWARD_SLOT = b'preferredMapSlots/RewardSlot'
 
 
@@ -214,6 +218,10 @@ class ItemPackTypeGroup(CONST_CONTAINER):
      ItemPackType.CUSTOM_BUMBLEE_COIN,
      ItemPackType.CUSTOM_HONEY_COIN,
      ItemPackType.CUSTOM_NY_MANDARINS,
+     ItemPackType.CUSTOM_NY_TOYS,
+     ItemPackType.CUSTOM_NY_RFOOD,
+     ItemPackType.CUSTOM_NY_RFUN,
+     ItemPackType.CUSTOM_NY_RACTIV,
      ItemPackType.CUSTOM_GOLDENTICKET)
     CREW = (
      ItemPackType.CREW_50,

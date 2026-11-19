@@ -2064,12 +2064,12 @@
           Qu = qu[1],
           Ju = {
             base: "App_base_e5",
+            base__disabled: "App_base__disabled_1a",
+            bg: "App_bg_75",
             base__small: "App_base__small_64",
             base__medium: "App_base__medium_25",
             base__big: "App_base__big_24",
             base__large: "App_base__large_44",
-            base__disabled: "App_base__disabled_1a",
-            bg: "App_bg_75",
             base__hover: "App_base__hover_a7",
             highlight: "App_highlight_06",
             shadow: "App_shadow_12",
@@ -2271,7 +2271,7 @@
                   o && Ju.base__isAloneBanner,
                 ),
                 onMouseEnter: () => {
-                  s || (Uu.playHighlight(), d(!0));
+                  (Uu.playHighlight(), d(!0));
                 },
                 onMouseLeave: () => {
                   d(!1);

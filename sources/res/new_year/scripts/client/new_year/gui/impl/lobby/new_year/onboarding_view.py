@@ -307,7 +307,7 @@ class OnboardingView(ViewImpl, IViewCameraSync):
 
     def __showVideo(self):
         onboardingVideo = R.videos.new_year.onboarding.onboarding_day() if self.__nyEnvSwitcherController.isAppliedDay else R.videos.new_year.onboarding.onboarding_night()
-        self.__video = showEmbeddedAudioVideoView(videoSource=onboardingVideo, parent=self.getWindow(), onVideoClosed=self.__onVideoClosed, isControlsVisible=False)
+        self.__video = showEmbeddedAudioVideoView(videoSource=onboardingVideo, parent=self.getWindow(), onVideoClosed=self.__onVideoClosed, isControlsVisible=False, isNewYear=True)
         return
 
     def __onVideoClosed(self):

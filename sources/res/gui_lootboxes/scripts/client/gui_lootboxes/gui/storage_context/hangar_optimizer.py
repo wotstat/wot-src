@@ -45,6 +45,7 @@ class HangarOptimizer(object):
         return self.__enabled
 
     def __setWorldState(self, enabled):
+        MTWebBrowser.pauseExternalCache(not enabled)
         if not isPlayerAccount():
             _logger.warning(b'HangarOptimizer: skip world state %s, not a player account', enabled)
             return
@@ -53,7 +54,6 @@ class HangarOptimizer(object):
             return
         BigWorld.worldDrawEnabled(enabled)
         AnimationSequence.setEnableAnimationSequenceUpdate(enabled)
-        MTWebBrowser.pauseExternalCache(not enabled)
         return
 
     def __closeHangarViews(self):

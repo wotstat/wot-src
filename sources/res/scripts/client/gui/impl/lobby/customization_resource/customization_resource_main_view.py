@@ -1,11 +1,13 @@
 import BigWorld, logging
 from account_helpers import AccountSettings
 from account_helpers.AccountSettings import SHOWN_CUSTOMIZATION_RESOURCE_INTRO
-from adisp import adisp_process
+from constants import REQUEST_COOLDOWN
+from adisp import adisp_process, adisp_async
 from frameworks.wulf import ViewFlags, ViewSettings, WindowFlags
 from gui.Scaleform.genConsts.TOOLTIPS_CONSTANTS import TOOLTIPS_CONSTANTS
 from gui.Scaleform.Waiting import Waiting
 from gui.impl.backport import createTooltipData
+from gui.shared import g_eventBus, events
 from gui.shared.gui_items.customization import CustomizationTooltipContext
 from gui.customization_resource.customization_resource_exchange import CustomizationResourceExchangeProcessor
 from gui.customization_resource import customization_resource_notifications as notifications
@@ -64,6 +66,9 @@ class CustomizationResourceMainView(ViewImpl):
 
     def _onLoading(self, *args, **kwargs):
         super(CustomizationResourceMainView, self)._onLoading(*args, **kwargs)
+        g_eventBus.handleEvent(events.LobbySimpleEvent(events.LobbySimpleEvent.NOTIFY_CURSOR_OVER_3DSCENE, ctx={b'isOver3dScene': False}))
+        if not AccountSettings.getSettings(SHOWN_CUSTOMIZATION_RESOURCE_INTRO):
+            showCustomizationResourceIntroPageWindow(parent=self.getWindow())
         BigWorld.worldDrawEnabled(False)
         self.__dataProvider = CustomizationResourceExchangeDataProvider(self.__customizationResourceController.config.blacklist, self.__customizationResourceController.config.priceGroups)
         self.__activeTabId = self.__dataProvider.getFirstNonEmptyTab()
@@ -108,6 +113,7 @@ class CustomizationResourceMainView(ViewImpl):
           self.__customizationResourceController.onEventSettingsUpdated, self.__onEventSettingsUpdated))
 
     def _finalize(self):
+        g_eventBus.handleEvent(events.LobbySimpleEvent(events.LobbySimpleEvent.NOTIFY_CURSOR_OVER_3DSCENE, ctx={b'isOver3dScene': True}))
         self.__resetExchangeConfirmation()
         self.__selection.clear()
         self.__dataProvider = None
@@ -223,6 +229,8 @@ class CustomizationResourceMainView(ViewImpl):
         return
 
     def __onCloseExchangeConfirmation(self):
+        if self.__exchangePending:
+            return
         self.__resetExchangeConfirmation()
         self.__updateViewModel()
         return
@@ -238,6 +246,12 @@ class CustomizationResourceMainView(ViewImpl):
 
     @adisp_process
     def __onConfirmExchange(self):
+
+        @adisp_async
+        def wait(delay, callback):
+            BigWorld.callback(delay, (lambda : callback(True)))
+            return
+
         if not self.__isExchangeConfirmationVisible or self.__captchaState != ExchangeCaptchaState.VALID or self.__exchangePending:
             return
         summary = buildConfirmationSummary(self.__dataProvider, self.__selection)
@@ -252,12 +266,19 @@ class CustomizationResourceMainView(ViewImpl):
         self.__exchangeCategoryMap = self.__dataProvider.getCategoryMap(payload)
         self.__exchangePending = True
         notifications.markExchangePending()
-        allResults = []
         Waiting.show(b'loading')
-        for payloadBatch in splitByChunks(payload, self.__customizationResourceController.config.batchLimit):
+        batches = list(splitByChunks(payload, self.__customizationResourceController.config.batchLimit))
+        batchesCount = len(batches)
+        allResults = []
+        for idx, payloadBatch in enumerate(batches):
             processor = CustomizationResourceExchangeProcessor(payloadBatch)
+            requestStartTime = BigWorld.time()
             result = yield processor.request()
             allResults.append(result)
+            elapsed = BigWorld.time() - requestStartTime
+            remaining = REQUEST_COOLDOWN.CUSTOMIZATION_RESOURCE_EXCHANGE - elapsed
+            if remaining > 0 and idx + 1 < batchesCount:
+                yield wait(remaining + 0.1)
 
         result = mergeResults(allResults)
         self.__onExchangeResponse(result)
@@ -271,6 +292,7 @@ class CustomizationResourceMainView(ViewImpl):
             notifications.pushExchangeError()
             if Waiting.isOpened(b'loading'):
                 Waiting.hide(b'loading')
+            self.destroyWindow()
             return
         categoryCounts = notifications.getCategoryCounts(result[b'items'], categoryMap)
         currencyCode = self.__customizationResourceController.getCurrencyCode()
@@ -287,6 +309,8 @@ class CustomizationResourceMainView(ViewImpl):
 
     @th_async()
     def __onClose(self):
+        if self.__exchangePending:
+            return
         if self.__isExchangeConfirmationVisible:
             self.__onCloseExchangeConfirmation()
             return
