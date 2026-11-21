@@ -21,7 +21,7 @@ from new_year_common.items.new_year import getCollectionByIntID
 from new_year.helpers.ny_helpers import getCurrentObjectLevel
 from new_year.gui.shared.ny_level_helper import NewYearAtmospherePresenter
 from new_year.helpers.server_settings import getNewYearMachineConfig
-from new_year.skeletons.new_year import INewYearController
+from new_year.skeletons.new_year import INewYearController, ITamagotchiDataProvider
 from new_year.gui.shared.ny_toy_info import NewYearCurrentToyInfo
 from new_year.gui.impl.lobby.new_year.dialogs.dialogs import showBuyDialog
 from skeletons.festivity_factory import IFestivityFactory
@@ -29,6 +29,7 @@ from skeletons.gui.shared import IItemsCache
 _logger = logging.getLogger()
 if typing.TYPE_CHECKING:
     from gui.impl.lobby.dialogs.full_screen_dialog_view import FullScreenDialogWindowWrapper
+    from new_year.tamagotchi.dto.player_info import PlayerInfo
 
 class NewYearCommandsProcessor(BaseFestivityProcessor):
 
@@ -103,8 +104,8 @@ class NewYearCommandsProcessor(BaseFestivityProcessor):
         self._perform(AccountCommands.CMD_NEW_YEAR_BUY_TOY, (toyID,), callback)
         return
 
-    def startTamagotchiRaid(self, slots, callback=None):
-        self._perform(AccountCommands.CMD_NEW_YEAR_START_TAMAGOTCHI_RAID, (slots,), callback)
+    def startTamagotchiRaid(self, slots, logStr=None, callback=None):
+        self._perform(AccountCommands.CMD_NEW_YEAR_START_TAMAGOTCHI_RAID, (slots, [logStr]), callback)
         return
 
     def receiveTamagotchiRaidReward(self, callback=None):
@@ -118,6 +119,7 @@ class NewYearCommandsProcessor(BaseFestivityProcessor):
 
 class StartTamagotchiRaidProcessor(Processor):
     _festivityFactory = dependency.descriptor(IFestivityFactory)
+    _dataProvider = dependency.descriptor(ITamagotchiDataProvider)
 
     def __init__(self, slots):
         super(StartTamagotchiRaidProcessor, self).__init__()
@@ -131,8 +133,17 @@ class StartTamagotchiRaidProcessor(Processor):
         return makeSuccess()
 
     def _request(self, callback):
-        self._festivityFactory.getProcessor().startTamagotchiRaid(self.__slots, (lambda code, errStr, ext: self._response(code, callback, ctx=ext, errStr=errStr)))
+        self._festivityFactory.getProcessor().startTamagotchiRaid(self.__slots, self._getLogData(), (lambda code, errStr, ext: self._response(code, callback, ctx=ext, errStr=errStr)))
         return
+
+    def _extractPrettyLog(self, dp):
+        indicators = [(b'{}: {}').format(name, value) for name, value in dp.indicators.iteritems()]
+        return str(indicators) + b', ' + str(dp.lastUpdateTime)
+
+    def _getLogData(self):
+        currLog = b'current: ' + self._extractPrettyLog(self._dataProvider.playerInfo)
+        initialLog = b'initial: ' + self._extractPrettyLog(self._dataProvider.initialPlayerInfo)
+        return currLog + b' | ' + initialLog
 
 
 class ReceiveTamagotchiRaidRewardProcessor(Processor):
