@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "我們正在處理該問題。請稍後再試。"
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "資料無法使用"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "從 %(startDate)s到 %(endDate)s，\n您每天可打開一個內有禮物的全新降臨曆方格。您可打開當日與前一日的方格。\n%(endDate)s過後，\n僅能使用節日大作戰資源來打開方格。"
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "完成降臨曆進度以獲取額外禮物，包括一個「大新年箱子」。進度僅限在 {FFE4C0_Open}%(date)s{FFE4C0_Close}前完成。"
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "打開全部 31 個方格，藉此從中獲取獨特 2D 風格、\n花樣、《戰車世界》加值帳號天數、乘員書籍、個人儲備與其他獎勵。"
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "如何運作"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "還有更多！"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "全部打開"
+
+msgid "introScreenView/buttonTitle"
+msgstr "前往降臨曆"
+
+msgid "introScreenView/title"
+msgstr "降臨曆"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "從 {{startDate}}到 {{endDate}}，您將可{{@ colorLegacy 'dde9fc'}}每天{{/}}打開一個內有禮物的全新降臨曆方格。\n您可打開當日與前一日的方格。"
+
+msgid "mainView/footer/expired/title"
+msgstr "進度已不可用。"
+
+msgid "mainView/footer/linkButton/text"
+msgstr "下載電腦桌布"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "進度已完成。已獲得所有禮物。"
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "%(endDate)s為止，打開降臨曆方格\n來獲得額外禮物。"
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "關於活動"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "{{date}}為止，使用貨幣來每天打開內有禮物的方格。您將能免費\n打開 12 月 31 日的最後一個方格。"
+
+msgid "mainView/title"
+msgstr "降臨曆"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "個人儲備"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "通用訓練手札、重新訓練命令與\n5倍經驗加成任務"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "銀幣、《戰車世界》加值帳號天數與其他內容"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "2D 風格與花樣"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "試驗型裝備與部件"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "乘員與大新年箱子"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "打開全部方格以獲取："
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "禮物"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "每天的 %(time)s 起可打開降臨曆方格。"
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "將開放於 {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "將從{FFE4C0_Open}今天的 %(time)s{FFE4C0_Close} 起開放"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "將從{FFE4C0_Open}明天的 %(time)s{FFE4C0_Close} 起開放"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "從方格 {FFE4C0_Open}%(day)s{FFE4C0_Close} 開始打開，接著依數字順序打開。"
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "依序打開方格"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "您可打開當日與前一日的方格。\n所有錯過的方格，可從 {FFE4C0_Open}%(startDate)s到 %(endDate)s{FFE4C0_Close}使用節日大作戰資源來打開。"
+
+msgid "mainView/tooltip/expired/title"
+msgstr "未及時打開方格"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "您可透過進行戰鬥，完成每日任務，以及參與其他遊戲內活動來獲得貨幣。"
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "貨幣不足"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "領取獎勵"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "每天打開降臨曆方格並獲得禮物。"
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "降臨曆禮物已開放！"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "前往降臨曆"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "在 {{date}}以前使用貨幣打開剩餘的降臨曆方格。"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "千萬別錯過！"
+
+msgid "notification/door/opened/title"
+msgstr "已打開節日大作戰方格 %(dayNumber)s"
+
+msgid "notification/event/paused"
+msgstr "「降臨曆」活動因維護中而暫時中止。"
+
+msgid "notification/event/resumed"
+msgstr "「降臨曆」活動已恢復進行。我們為帶來的不便感到抱歉。"
+
+msgid "notification/lootbox/title"
+msgstr "大新年箱子"
+
+msgid "notification/progerssion/finished"
+msgstr "降臨曆進度已完成"
+
+msgid "notification/progerssion/recieved"
+msgstr "降臨曆進度階段已完成"
+
+msgid "notification/reward/received"
+msgstr "已獲得："
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "進度禮物僅能依數字順序獲取。"
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "獲得先前的禮物"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "您將能在 {FFE4C0_Open}%(date)s{FFE4C0_Close}探索箱子內的物品。"
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "大新年箱子"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "進度從 %(startDate)s開放至 %(endDate)s。"
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "未及時領取禮物"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s 未獲得"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "再打開 {cream_Open}%(count)s 個降臨曆方格{cream_Close}以獲取此禮物。"
+msgstr[1] "再打開 {cream_Open}%(count)s 個降臨曆方格{cream_Close}以獲取此禮物。"
+msgstr[2] "再打開 {cream_Open}%(count)s 個降臨曆方格{cream_Close}以獲取此禮物。"
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s 獲得進度中的前一個禮物以解鎖。"
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s 已獲得"
+
+msgid "purchaseView/cancel"
+msgstr "取消"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "您可透過進行戰鬥，完成每日任務，以及參與其他遊戲內活動來獲得貨幣。"
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "貨幣不足"
+
+msgid "purchaseView/open"
+msgstr "打開"
+
+msgid "purchaseView/title"
+msgstr "要打開降臨曆方格 {{@ style (color $color)}}{{day}}{{/}}？"
+
+msgid "rewardView/confirm"
+msgstr "了解！"
+
+msgid "rewardView/goToBoxes"
+msgstr "前往箱子"
+
+msgid "rewardView/loading"
+msgstr "新增獎勵中"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "您已打開{FFE4C0_Open}全部的降臨曆方格{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "已打開的降臨曆方格：{FFE4C0_Open}%(count)s 個{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "您已打開 {FFE4C0_Open}%(count)s 個降臨曆方格{FFE4C0_Close}"
+
+msgid "rewardView/title/box"
+msgstr "大新年箱子已獲得！"
+
+msgid "rewardView/title/progression"
+msgstr "獎勵已獲得！"
+
+msgid "rewardView/title/specialDoor"
+msgstr "恭喜！"
+
+msgid "server_error"
+msgstr "由於技術性原因暫時無法操作。請稍後再試。"

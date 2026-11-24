@@ -642,6 +642,38 @@ var timeFormats = { full: DateTimeFormatsEnum.FullTime, short: DateTimeFormatsEn
 function formatTime(e, t, n = !0) {
   return window.regionalDateTime.getRegionalDateTime(t, e, n);
 }
+function getDateParts(e) {
+  const t = new Date(1e3 * e);
+  return {
+    year: t.getFullYear(),
+    month: t.getMonth() + 1,
+    hours: t.getHours(),
+    minutes: t.getMinutes(),
+    seconds: t.getSeconds(),
+  };
+}
+function isSameTime(e, t) {
+  return e.hours === t.hours && e.minutes === t.minutes && e.seconds === t.seconds;
+}
+function getRangeFormatPath(e, t) {
+  const n = e.year === t.year;
+  return [
+    "datetime_formats",
+    "dateRange",
+    "dateWithYear",
+    n ? "sameYear" : "differentYear",
+    n && e.month === t.month ? "sameMonth" : "differentMonth",
+    isSameTime(e, t) ? "sameTime" : "differentTime",
+  ].join(".");
+}
+function formatRange(e, t) {
+  const n = getRangeFormatPath(getDateParts(e), getDateParts(t)),
+    r = resources.resolve("strings");
+  return {
+    start: window.regionalDateTime.getFormattedDateTime(e, r.readOrEmpty(`${n}.start`), !0),
+    end: window.regionalDateTime.getFormattedDateTime(t, r.readOrEmpty(`${n}.end`), !0),
+  };
+}
 var intl$3 = {
     isNumberFormat: isNumberFormat,
     formatNumber: formatNumber$1,
@@ -653,6 +685,7 @@ var intl$3 = {
     dateTimeFormats: DateTimeFormatsEnum,
     formatTime: formatTime,
     timeFormats: timeFormatList,
+    formatRange: formatRange,
     toUpperCase: (e) => window.systemLocale.toUpperCase(e),
     toLowerCase: (e) => window.systemLocale.toLowerCase(e),
   },
@@ -827,7 +860,7 @@ var require_react_production = __commonJSMin((e) => {
       return "object" == typeof e && null !== e && e.$$typeof === t;
     }
     var T = /\/+/g;
-    function O(e, t) {
+    function P(e, t) {
       return "object" == typeof e && null !== e && null != e.key
         ? ((n = "" + e.key),
           (r = { "=": "=0", ":": "=2" }),
@@ -838,7 +871,7 @@ var require_react_production = __commonJSMin((e) => {
         : t.toString(36);
       var n, r;
     }
-    function P(e, r, o, a, i) {
+    function O(e, r, o, a, i) {
       var s = typeof e;
       ("undefined" !== s && "boolean" !== s) || (e = null);
       var l,
@@ -859,17 +892,17 @@ var require_react_production = __commonJSMin((e) => {
                 c = !0;
                 break;
               case d:
-                return P((c = e._init)(e._payload), r, o, a, i);
+                return O((c = e._init)(e._payload), r, o, a, i);
             }
         }
       if (c)
         return (
           (i = i(e)),
-          (c = "" === a ? "." + O(e, 0) : a),
+          (c = "" === a ? "." + P(e, 0) : a),
           S(i)
             ? ((o = ""),
               null != c && (o = c.replace(T, "$&/") + "/"),
-              P(i, r, o, "", function (e) {
+              O(i, r, o, "", function (e) {
                 return e;
               }))
             : null != i &&
@@ -888,7 +921,7 @@ var require_react_production = __commonJSMin((e) => {
       c = 0;
       var f,
         m = "" === a ? "." : a + ":";
-      if (S(e)) for (var g = 0; g < e.length; g++) c += P((a = e[g]), r, o, (s = m + O(a, g)), i);
+      if (S(e)) for (var g = 0; g < e.length; g++) c += O((a = e[g]), r, o, (s = m + P(a, g)), i);
       else if (
         "function" ==
         typeof (g =
@@ -899,10 +932,10 @@ var require_react_production = __commonJSMin((e) => {
               : null)
       )
         for (e = g.call(e), g = 0; !(a = e.next()).done;)
-          c += P((a = a.value), r, o, (s = m + O(a, g++)), i);
+          c += O((a = a.value), r, o, (s = m + P(a, g++)), i);
       else if ("object" === s) {
         if ("function" == typeof e.then)
-          return P(
+          return O(
             (function (e) {
               switch (e.status) {
                 case "fulfilled":
@@ -955,7 +988,7 @@ var require_react_production = __commonJSMin((e) => {
       var r = [],
         o = 0;
       return (
-        P(e, r, "", "", function (e) {
+        O(e, r, "", "", function (e) {
           return t.call(n, e, o++);
         }),
         r
@@ -1288,7 +1321,7 @@ var require_react_production = __commonJSMin((e) => {
     function T() {
       return !!h || !(e.unstable_now() - C < R);
     }
-    function O() {
+    function P() {
       if (((h = !1), E)) {
         var t = e.unstable_now();
         C = t;
@@ -1331,18 +1364,18 @@ var require_react_production = __commonJSMin((e) => {
     }
     if ("function" == typeof v)
       w = function () {
-        v(O);
+        v(P);
       };
     else if ("undefined" != typeof MessageChannel) {
-      var P = new MessageChannel(),
-        A = P.port2;
-      ((P.port1.onmessage = O),
+      var O = new MessageChannel(),
+        A = O.port2;
+      ((O.port1.onmessage = P),
         (w = function () {
           A.postMessage(null);
         }));
     } else
       w = function () {
-        _(O, 0);
+        _(P, 0);
       };
     function k(t, n) {
       x = _(function () {
@@ -1717,10 +1750,10 @@ var require_react_production = __commonJSMin((e) => {
           ? e
           : null;
     }
-    var O = Symbol.for("react.client.reference");
-    function P(e) {
+    var P = Symbol.for("react.client.reference");
+    function O(e) {
       if (null == e) return null;
-      if ("function" == typeof e) return e.$$typeof === O ? null : e.displayName || e.name || null;
+      if ("function" == typeof e) return e.$$typeof === P ? null : e.displayName || e.name || null;
       if ("string" == typeof e) return e;
       switch (e) {
         case m:
@@ -1755,11 +1788,11 @@ var require_react_production = __commonJSMin((e) => {
               e
             );
           case w:
-            return null !== (t = e.displayName || null) ? t : P(e.type) || "Memo";
+            return null !== (t = e.displayName || null) ? t : O(e.type) || "Memo";
           case E:
             ((t = e._payload), (e = e._init));
             try {
-              return P(e(t));
+              return O(e(t));
             } catch (n) {}
         }
       return null;
@@ -2115,11 +2148,11 @@ var require_react_production = __commonJSMin((e) => {
       var e = we;
       return (!(62914560 & (we <<= 1)) && (we = 4194304), e);
     }
-    function Oe(e) {
+    function Pe(e) {
       for (var t = [], n = 0; 31 > n; n++) t.push(e);
       return t;
     }
-    function Pe(e, t) {
+    function Oe(e, t) {
       ((e.pendingLanes |= t),
         268435456 !== t && ((e.suspendedLanes = 0), (e.pingedLanes = 0), (e.warmLanes = 0)));
     }
@@ -2613,12 +2646,12 @@ var require_react_production = __commonJSMin((e) => {
       ]),
       Tt =
         /^[\u0000-\u001F ]*j[\r\n\t]*a[\r\n\t]*v[\r\n\t]*a[\r\n\t]*s[\r\n\t]*c[\r\n\t]*r[\r\n\t]*i[\r\n\t]*p[\r\n\t]*t[\r\n\t]*:/i;
-    function Ot(e) {
+    function Pt(e) {
       return Tt.test("" + e)
         ? "javascript:throw new Error('React has blocked a javascript: URL as a security precaution.')"
         : e;
     }
-    function Pt() {}
+    function Ot() {}
     var At = null;
     function kt(e) {
       return (
@@ -3041,7 +3074,7 @@ var require_react_production = __commonJSMin((e) => {
       Rn = $t && (!wn || (En && 8 < En && 11 >= En)),
       Cn = String.fromCharCode(32),
       Tn = !1;
-    function On(e, t) {
+    function Pn(e, t) {
       switch (e) {
         case "keyup":
           return -1 !== Sn.indexOf(t.keyCode);
@@ -3055,7 +3088,7 @@ var require_react_production = __commonJSMin((e) => {
           return !1;
       }
     }
-    function Pn(e) {
+    function On(e) {
       return "object" == typeof (e = e.detail) && "data" in e ? e.data : null;
     }
     var An = !1;
@@ -3338,7 +3371,7 @@ var require_react_production = __commonJSMin((e) => {
         0 !== a && kr(n, o, a);
       }
     }
-    function Or(e, t, n, r) {
+    function Pr(e, t, n, r) {
       ((xr[Rr++] = e),
         (xr[Rr++] = t),
         (xr[Rr++] = n),
@@ -3347,11 +3380,11 @@ var require_react_production = __commonJSMin((e) => {
         (e.lanes |= r),
         null !== (e = e.alternate) && (e.lanes |= r));
     }
-    function Pr(e, t, n, r) {
-      return (Or(e, t, n, r), Ir(e));
+    function Or(e, t, n, r) {
+      return (Pr(e, t, n, r), Ir(e));
     }
     function Ar(e, t) {
-      return (Or(e, null, null, t), Ir(e));
+      return (Pr(e, null, null, t), Ir(e));
     }
     function kr(e, t, n) {
       e.lanes |= n;
@@ -3688,7 +3721,7 @@ var require_react_production = __commonJSMin((e) => {
         ? (null != r.popover && (Wc("beforetoggle", t), Wc("toggle", t)),
           null != r.onScroll && Wc("scroll", t),
           null != r.onScrollEnd && Wc("scrollend", t),
-          null != r.onClick && (t.onclick = Pt),
+          null != r.onClick && (t.onclick = Ot),
           (t = !0))
         : (t = !1),
         t || po(e, !0));
@@ -3826,21 +3859,21 @@ var require_react_production = __commonJSMin((e) => {
       }
       (null !== e && Co(t, e, n, r), (t.flags |= 262144));
     }
-    function Oo(e) {
+    function Po(e) {
       for (e = e.firstContext; null !== e;) {
         if (!Yn(e.context._currentValue, e.memoizedValue)) return !0;
         e = e.next;
       }
       return !1;
     }
-    function Po(e) {
+    function Oo(e) {
       ((So = e), (wo = null), null !== (e = e.dependencies) && (e.firstContext = null));
     }
     function Ao(e) {
       return Io(So, e);
     }
     function ko(e, t) {
-      return (null === So && Po(e), Io(e, t));
+      return (null === So && Oo(e), Io(e, t));
     }
     function Io(e, t) {
       var n = t._currentValue;
@@ -3944,14 +3977,14 @@ var require_react_production = __commonJSMin((e) => {
     }
     function ea(e, t, n) {
       switch (
-        (void 0 === (n = e[n]) ? e.push(t) : n !== t && (t.then(Pt, Pt), (t = n)), t.status)
+        (void 0 === (n = e[n]) ? e.push(t) : n !== t && (t.then(Ot, Ot), (t = n)), t.status)
       ) {
         case "fulfilled":
           return t.value;
         case "rejected":
           throw (oa((e = t.reason)), e);
         default:
-          if ("string" == typeof t.status) t.then(Pt, Pt);
+          if ("string" == typeof t.status) t.then(Ot, Ot);
           else {
             if (null !== (e = du) && 100 < e.shellSuspendCounter) throw Error(o(482));
             (((e = t).status = "pending"),
@@ -4347,7 +4380,7 @@ var require_react_production = __commonJSMin((e) => {
           t
         );
       }
-      return (Or(e, r, t, n), Ir(e));
+      return (Pr(e, r, t, n), Ir(e));
     }
     function ba(e, t, n) {
       if (null !== (t = t.updateQueue) && ((t = t.shared), 4194048 & n)) {
@@ -4478,10 +4511,10 @@ var require_react_production = __commonJSMin((e) => {
     function Ta(e, t) {
       ($(Ca, (e = vu)), $(Ra, t), (vu = e | t.baseLanes));
     }
-    function Oa() {
+    function Pa() {
       ($(Ca, vu), $(Ra, Ra.current));
     }
-    function Pa() {
+    function Oa() {
       ((vu = Ca.current), L(Ra), L(Ca));
     }
     var Aa = D(null),
@@ -4509,7 +4542,7 @@ var require_react_production = __commonJSMin((e) => {
       for (var t = e; null !== t;) {
         if (13 === t.tag) {
           var n = t.memoizedState;
-          if (null !== n && (null === (n = n.dehydrated) || Od(n) || Pd(n))) return t;
+          if (null !== n && (null === (n = n.dehydrated) || Pd(n) || Od(n))) return t;
         } else if (
           19 !== t.tag ||
           ("forwards" !== t.memoizedProps.revealOrder &&
@@ -4571,7 +4604,7 @@ var require_react_production = __commonJSMin((e) => {
       var t = null !== Va && null !== Va.next;
       if (((za = 0), (Ba = Va = ja = null), (Ua = !1), (Wa = 0), (Ka = null), t))
         throw Error(o(300));
-      null === e || As || (null !== (e = e.dependencies) && Oo(e) && (As = !0));
+      null === e || As || (null !== (e = e.dependencies) && Po(e) && (As = !0));
     }
     function ei(e, t, n, r) {
       ja = e;
@@ -4961,10 +4994,10 @@ var require_react_production = __commonJSMin((e) => {
       e = e.listeners;
       for (var t = 0; t < e.length; t++) (0, e[t])();
     }
-    function Oi(e, t) {
+    function Pi(e, t) {
       return t;
     }
-    function Pi(e, t) {
+    function Oi(e, t) {
       if (lo) {
         var n = du.formState;
         if (null !== n) {
@@ -5003,7 +5036,7 @@ var require_react_production = __commonJSMin((e) => {
           pending: null,
           lanes: 0,
           dispatch: null,
-          lastRenderedReducer: Oi,
+          lastRenderedReducer: Pi,
           lastRenderedState: t,
         }),
         (n.queue = r),
@@ -5024,7 +5057,7 @@ var require_react_production = __commonJSMin((e) => {
     }
     function ki(e, t, n) {
       if (
-        ((t = fi(e, t, Oi)[0]),
+        ((t = fi(e, t, Pi)[0]),
         (e = di(ci)[0]),
         "object" == typeof t && null !== t && "function" == typeof t.then)
       )
@@ -5309,7 +5342,7 @@ var require_react_production = __commonJSMin((e) => {
         eagerState: null,
         next: null,
       }),
-        us(e) ? cs(t, n) : null !== (n = Pr(e, t, n, r)) && (Gu(n, e, r), ds(n, t, r)));
+        us(e) ? cs(t, n) : null !== (n = Or(e, t, n, r)) && (Gu(n, e, r), ds(n, t, r)));
     }
     function is(e, t, n) {
       ss(e, t, n, Uu());
@@ -5332,9 +5365,9 @@ var require_react_production = __commonJSMin((e) => {
             var i = t.lastRenderedState,
               s = a(i, n);
             if (((o.hasEagerState = !0), (o.eagerState = s), Yn(s, i)))
-              return (Or(e, t, o, 0), null === du && Tr(), !1);
+              return (Pr(e, t, o, 0), null === du && Tr(), !1);
           } catch (l) {}
-        if (null !== (n = Pr(e, t, o, r))) return (Gu(n, e, r), ds(n, t, r), !0);
+        if (null !== (n = Or(e, t, o, r))) return (Gu(n, e, r), ds(n, t, r), !0);
       }
       return !1;
     }
@@ -5352,7 +5385,7 @@ var require_react_production = __commonJSMin((e) => {
         us(e))
       ) {
         if (t) throw Error(o(479));
-      } else null !== (t = Pr(e, n, r, 2)) && Gu(t, e, 2);
+      } else null !== (t = Or(e, n, r, 2)) && Gu(t, e, 2);
     }
     function us(e) {
       var t = e.alternate;
@@ -5501,8 +5534,8 @@ var require_react_production = __commonJSMin((e) => {
           return (e.memoizedState = t);
         },
         useHostTransitionStatus: ts,
-        useFormState: Pi,
-        useActionState: Pi,
+        useFormState: Oi,
+        useActionState: Oi,
         useOptimistic: function (e) {
           var t = ai();
           t.memoizedState = t.baseState = e;
@@ -5699,7 +5732,7 @@ var require_react_production = __commonJSMin((e) => {
     function Ts(e) {
       return (((e = ha(e)).tag = 3), e);
     }
-    function Os(e, t, n, r) {
+    function Ps(e, t, n, r) {
       var o = n.type.getDerivedStateFromError;
       if ("function" == typeof o) {
         var a = r.value;
@@ -5720,7 +5753,7 @@ var require_react_production = __commonJSMin((e) => {
           this.componentDidCatch(r.value, { componentStack: null !== e ? e : "" });
         });
     }
-    var Ps = Error(o(461)),
+    var Os = Error(o(461)),
       As = !1;
     function ks(e, t, n, r) {
       t.child = null === e ? fa(t, null, n, r) : da(t, e.child, n, r);
@@ -5733,7 +5766,7 @@ var require_react_production = __commonJSMin((e) => {
         for (var s in r) "ref" !== s && (i[s] = r[s]);
       } else i = r;
       return (
-        Po(t),
+        Oo(t),
         (r = Za(e, t, n, i, a, o)),
         (s = ni()),
         null === e || As
@@ -5791,12 +5824,12 @@ var require_react_production = __commonJSMin((e) => {
           return ((r = t.lanes = 536870912), Ls(e, t, null !== a ? a.baseLanes | n : n, n, r));
         ((t.memoizedState = { baseLanes: 0, cachePool: null }),
           null !== e && Wo(0, null !== a ? a.cachePool : null),
-          null !== a ? Ta(t, a) : Oa(),
+          null !== a ? Ta(t, a) : Pa(),
           Na(t));
       } else
         null !== a
           ? (Wo(0, a.cachePool), Ta(t, a), Fa(), (t.memoizedState = null))
-          : (null !== e && Wo(0, null), Oa(), Fa());
+          : (null !== e && Wo(0, null), Pa(), Fa());
       return (ks(e, t, o, n), t.child);
     }
     function Ds(e, t) {
@@ -5818,7 +5851,7 @@ var require_react_production = __commonJSMin((e) => {
         (a = null === a ? null : { parent: Do._currentValue, pool: a }),
         (t.memoizedState = { baseLanes: n, cachePool: a }),
         null !== e && Wo(0, null),
-        Oa(),
+        Pa(),
         Na(t),
         null !== e && To(e, t, r, !0),
         (t.childLanes = o),
@@ -5852,7 +5885,7 @@ var require_react_production = __commonJSMin((e) => {
     }
     function Vs(e, t, n, r, o) {
       return (
-        Po(t),
+        Oo(t),
         (n = Za(e, t, n, r, void 0, o)),
         (r = ni()),
         null === e || As
@@ -5862,7 +5895,7 @@ var require_react_production = __commonJSMin((e) => {
     }
     function Bs(e, t, n, r, o, a) {
       return (
-        Po(t),
+        Oo(t),
         (t.updateQueue = null),
         (n = ei(t, r, n, o)),
         Ja(e),
@@ -5873,7 +5906,7 @@ var require_react_production = __commonJSMin((e) => {
       );
     }
     function Us(e, t, n, r, o) {
-      if ((Po(t), null === t.stateNode)) {
+      if ((Oo(t), null === t.stateNode)) {
         var a = Mr,
           i = n.contextType;
         ("object" == typeof i && null !== i && (a = Ao(i)),
@@ -5965,12 +5998,12 @@ var require_react_production = __commonJSMin((e) => {
           wa(t, r, a, o),
           Sa());
         var p = t.memoizedState;
-        i !== d || f !== p || pa || (null !== e && null !== e.dependencies && Oo(e.dependencies))
+        i !== d || f !== p || pa || (null !== e && null !== e.dependencies && Po(e.dependencies))
           ? ("function" == typeof s && (hs(t, n, s, r), (p = t.memoizedState)),
             (c =
               pa ||
               bs(t, n, c, r, f, p, l) ||
-              (null !== e && null !== e.dependencies && Oo(e.dependencies)))
+              (null !== e && null !== e.dependencies && Po(e.dependencies)))
               ? (u ||
                   ("function" != typeof a.UNSAFE_componentWillUpdate &&
                     "function" != typeof a.componentWillUpdate) ||
@@ -6057,7 +6090,7 @@ var require_react_production = __commonJSMin((e) => {
             null === e)
           )
             throw po(t);
-          return (Pd(e) ? (t.lanes = 32) : (t.lanes = 536870912), null);
+          return (Od(e) ? (t.lanes = 32) : (t.lanes = 536870912), null);
         }
         var l = a.children;
         return (
@@ -6098,7 +6131,7 @@ var require_react_production = __commonJSMin((e) => {
                 (a.childLanes = Ws(e, r, n)),
                 (t.memoizedState = Gs),
                 (t = Ds(null, a)));
-        else if ((Ia(t), Pd(l))) {
+        else if ((Ia(t), Od(l))) {
           if ((r = l.nextSibling && l.nextSibling.dataset)) var c = r.dgst;
           ((r = c),
             ((a = Error(o(419))).stack = ""),
@@ -6107,10 +6140,10 @@ var require_react_production = __commonJSMin((e) => {
             (t = Xs(e, t, n)));
         } else if ((As || To(e, t, n, !1), (r = 0 !== (n & e.childLanes)), As || r)) {
           if (null !== (r = du) && 0 !== (a = Ie(r, n)) && a !== u.retryLane)
-            throw ((u.retryLane = a), Ar(e, a), Gu(r, e, a), Ps);
-          (Od(l) || rc(), (t = Xs(e, t, n)));
+            throw ((u.retryLane = a), Ar(e, a), Gu(r, e, a), Os);
+          (Pd(l) || rc(), (t = Xs(e, t, n)));
         } else
-          Od(l)
+          Pd(l)
             ? ((t.flags |= 192), (t.child = e.child), (t = null))
             : ((e = u.treeContext),
               (so = Ad(l.nextSibling)),
@@ -6267,7 +6300,7 @@ var require_react_production = __commonJSMin((e) => {
       return t.child;
     }
     function nl(e, t) {
-      return 0 !== (e.lanes & t) || !(null === (e = e.dependencies) || !Oo(e));
+      return 0 !== (e.lanes & t) || !(null === (e = e.dependencies) || !Po(e));
     }
     function rl(e, t, n) {
       if (null !== e)
@@ -6349,7 +6382,7 @@ var require_react_production = __commonJSMin((e) => {
                   break e;
                 }
               }
-              throw ((t = P(e) || e), Error(o(306, t, "")));
+              throw ((t = O(e) || e), Error(o(306, t, "")));
             }
             Dr(e)
               ? ((r = ys(e, r)), (t.tag = 1), (t = Us(null, t, e, r, n)))
@@ -6557,7 +6590,7 @@ var require_react_production = __commonJSMin((e) => {
           return (
             (a = t.type._context),
             (r = t.pendingProps.children),
-            Po(t),
+            Oo(t),
             (r = r((a = Ao(a)))),
             (t.flags |= 1),
             ks(e, t, r, n),
@@ -6610,7 +6643,7 @@ var require_react_production = __commonJSMin((e) => {
                 }
               else if ((As || To(e, t, n, !1), (a = 0 !== (n & e.childLanes)), As || a)) {
                 if (null !== (r = du) && 0 !== (s = Ie(r, n)) && s !== i.retryLane)
-                  throw ((i.retryLane = s), Ar(e, s), Gu(r, e, s), Ps);
+                  throw ((i.retryLane = s), Ar(e, s), Gu(r, e, s), Os);
                 (rc(), (t = zs(e, t, n)));
               } else
                 ((e = i.treeContext),
@@ -6634,7 +6667,7 @@ var require_react_production = __commonJSMin((e) => {
           return Fs(e, t, n, t.pendingProps);
         case 24:
           return (
-            Po(t),
+            Oo(t),
             (r = Ao(Do)),
             null === e
               ? (null === (a = qo()) &&
@@ -7005,7 +7038,7 @@ var require_react_production = __commonJSMin((e) => {
         case 23:
           return (
             Da(t),
-            Pa(),
+            Oa(),
             (r = null !== t.memoizedState),
             null !== e
               ? (null !== e.memoizedState) !== r && (t.flags |= 8192)
@@ -7080,7 +7113,7 @@ var require_react_production = __commonJSMin((e) => {
         case 23:
           return (
             Da(t),
-            Pa(),
+            Oa(),
             null !== e && L(Go),
             65536 & (e = t.flags) ? ((t.flags = (-65537 & e) | 128), t) : null
           );
@@ -7117,7 +7150,7 @@ var require_react_production = __commonJSMin((e) => {
           break;
         case 22:
         case 23:
-          (Da(t), Pa(), null !== e && L(Go));
+          (Da(t), Oa(), null !== e && L(Go));
           break;
         case 24:
           xo(Do);
@@ -7499,7 +7532,7 @@ var require_react_production = __commonJSMin((e) => {
                   : "HTML" === n.nodeName
                     ? n.ownerDocument.body
                     : n).appendChild(e),
-              null != (n = n._reactRootContainer) || null !== t.onclick || (t.onclick = Pt)));
+              null != (n = n._reactRootContainer) || null !== t.onclick || (t.onclick = Ot)));
       else if (
         4 !== r &&
         (27 === r && Ed(e.type) && ((n = e.stateNode), (t = null)), null !== (e = e.child))
@@ -7524,8 +7557,8 @@ var require_react_production = __commonJSMin((e) => {
     }
     var Cl = !1,
       Tl = !1,
-      Ol = !1,
-      Pl = "function" == typeof WeakSet ? WeakSet : Set,
+      Pl = !1,
+      Ol = "function" == typeof WeakSet ? WeakSet : Set,
       Al = null;
     function kl(e, t, n) {
       var r = n.flags;
@@ -7760,10 +7793,10 @@ var require_react_production = __commonJSMin((e) => {
           case 13:
           case 19:
             var t = e.stateNode;
-            return (null === t && (t = e.stateNode = new Pl()), t);
+            return (null === t && (t = e.stateNode = new Ol()), t);
           case 22:
             return (
-              null === (t = (e = e.stateNode)._retryCache) && (t = e._retryCache = new Pl()),
+              null === (t = (e = e.stateNode)._retryCache) && (t = e._retryCache = new Ol()),
               t
             );
           default:
@@ -7928,7 +7961,7 @@ var require_react_production = __commonJSMin((e) => {
           (4 & r &&
             null != e.stateNode &&
             yl(e, (a = e.memoizedProps), null !== n ? n.memoizedProps : a),
-            1024 & r && (Ol = !0));
+            1024 & r && (Pl = !0));
           break;
         case 6:
           if ((jl(t, e), Ul(e), 4 & r)) {
@@ -7956,7 +7989,7 @@ var require_react_production = __commonJSMin((e) => {
             } catch (g) {
               yc(e, e.return, g);
             }
-          Ol && ((Ol = !1), Hl(e));
+          Pl && ((Pl = !1), Hl(e));
           break;
         case 4:
           ((r = Vl), (Vl = $d(e.stateNode.containerInfo)), jl(t, e), Ul(e), (Vl = r));
@@ -7976,7 +8009,7 @@ var require_react_production = __commonJSMin((e) => {
             Ul(e),
             8192 & e.child.flags &&
               (null !== e.memoizedState) != (null !== n && null !== n.memoizedState) &&
-              (Pu = ae()),
+              (Ou = ae()),
             4 & r && null !== (r = e.updateQueue) && ((e.updateQueue = null), zl(e, r)));
           break;
         case 22:
@@ -8511,8 +8544,8 @@ var require_react_production = __commonJSMin((e) => {
       Ru = 0,
       Cu = null,
       Tu = null,
-      Ou = !1,
-      Pu = 0,
+      Pu = !1,
+      Ou = 0,
       Au = 0,
       ku = 1 / 0,
       Iu = null,
@@ -8541,7 +8574,7 @@ var require_react_production = __commonJSMin((e) => {
     function Gu(e, t, n) {
       (((e !== du || (2 !== mu && 9 !== mu)) && null === e.cancelPendingCommit) ||
         (Zu(e, 0), Yu(e, pu, xu, !1)),
-        Pe(e, n),
+        Oe(e, n),
         (2 & cu && e === du) ||
           (e === du && (!(2 & cu) && (wu |= n), 4 === yu && Yu(e, pu, xu, !1)), Ic(e)));
     }
@@ -8686,14 +8719,14 @@ var require_react_production = __commonJSMin((e) => {
               default:
                 throw Error(o(329));
             }
-            if ((62914560 & t) === t && 10 < (a = Pu + 300 - ae())) {
+            if ((62914560 & t) === t && 10 < (a = Ou + 300 - ae())) {
               if ((Yu(r, t, xu, !hu), 0 !== xe(r, 0, !0))) break e;
               ((Lu = t),
                 (r.timeoutHandle = bd(
-                  Wu.bind(null, r, n, Tu, Iu, Ou, t, xu, wu, Ru, hu, i, "Throttled", -0, 0),
+                  Wu.bind(null, r, n, Tu, Iu, Pu, t, xu, wu, Ru, hu, i, "Throttled", -0, 0),
                   a,
                 )));
-            } else Wu(r, n, Tu, Iu, Ou, t, xu, wu, Ru, hu, i, null, -0, 0);
+            } else Wu(r, n, Tu, Iu, Pu, t, xu, wu, Ru, hu, i, null, -0, 0);
           }
           break;
         }
@@ -8714,10 +8747,10 @@ var require_react_production = __commonJSMin((e) => {
             suspenseyImages: [],
             waitingForImages: !0,
             waitingForViewTransition: !1,
-            unsuspend: Pt,
+            unsuspend: Ot,
           }),
         );
-        var m = (62914560 & a) === a ? Pu - ae() : (4194048 & a) === a ? Au - ae() : 0;
+        var m = (62914560 & a) === a ? Ou - ae() : (4194048 & a) === a ? Au - ae() : 0;
         if (
           ((m = (function (e, t) {
             return (
@@ -8871,7 +8904,7 @@ var require_react_production = __commonJSMin((e) => {
         (bu = !1),
         (Ru = xu = Eu = wu = Su = yu = 0),
         (Tu = Cu = null),
-        (Ou = !1),
+        (Pu = !1),
         8 & t && (t |= 32 & t));
       var r = e.entangledLanes;
       if (0 !== r)
@@ -8890,7 +8923,7 @@ var require_react_production = __commonJSMin((e) => {
           : t === Qo
             ? ((t = ra()), (mu = 4))
             : (mu =
-                t === Ps
+                t === Os
                   ? 8
                   : null !== t && "object" == typeof t && "function" == typeof t.then
                     ? 6
@@ -9093,7 +9126,7 @@ var require_react_production = __commonJSMin((e) => {
                       (n.flags |= 65536),
                       (a &= -a),
                       (n.lanes |= a),
-                      Os((a = Ts(a)), e, n, r),
+                      Ps((a = Ts(a)), e, n, r),
                       va(n, a),
                       !1
                     );
@@ -9489,7 +9522,7 @@ var require_react_production = __commonJSMin((e) => {
       }
     }
     function vc(e, t, n) {
-      ((t = Gr(n, t)), null !== (e = _a(e, (t = Cs(e.stateNode, t, 2)), 2)) && (Pe(e, 2), Ic(e)));
+      ((t = Gr(n, t)), null !== (e = _a(e, (t = Cs(e.stateNode, t, 2)), 2)) && (Oe(e, 2), Ic(e)));
     }
     function yc(e, t, n) {
       if (3 === e.tag) vc(e, e, n);
@@ -9506,7 +9539,7 @@ var require_react_production = __commonJSMin((e) => {
               ("function" == typeof r.componentDidCatch && (null === Mu || !Mu.has(r)))
             ) {
               ((e = Gr(n, e)),
-                null !== (r = _a(t, (n = Ts(2)), 2)) && (Os(n, r, t, e), Pe(r, 2), Ic(r)));
+                null !== (r = _a(t, (n = Ts(2)), 2)) && (Ps(n, r, t, e), Oe(r, 2), Ic(r)));
               break;
             }
           }
@@ -9529,14 +9562,14 @@ var require_react_production = __commonJSMin((e) => {
         (e.warmLanes &= ~n),
         du === e &&
           (pu & n) === n &&
-          (4 === yu || (3 === yu && (62914560 & pu) === pu && 300 > ae() - Pu)
+          (4 === yu || (3 === yu && (62914560 & pu) === pu && 300 > ae() - Ou)
             ? !(2 & cu) && Zu(e, 0)
             : (Eu |= n),
           Ru === pu && (Ru = 0)),
         Ic(e));
     }
     function Ec(e, t) {
-      (0 === t && (t = Te()), null !== (e = Ar(e, t)) && (Pe(e, t), Ic(e)));
+      (0 === t && (t = Te()), null !== (e = Ar(e, t)) && (Oe(e, t), Ic(e)));
     }
     function xc(e) {
       var t = e.memoizedState,
@@ -9565,21 +9598,21 @@ var require_react_production = __commonJSMin((e) => {
     }
     var Cc = null,
       Tc = null,
-      Oc = !1,
       Pc = !1,
+      Oc = !1,
       Ac = !1,
       kc = 0;
     function Ic(e) {
       (e !== Tc && null === e.next && (null === Tc ? (Cc = Tc = e) : (Tc = Tc.next = e)),
-        (Pc = !0),
-        Oc ||
-          ((Oc = !0),
+        (Oc = !0),
+        Pc ||
+          ((Pc = !0),
           Sd(function () {
             6 & cu ? te(se, Nc) : Fc();
           })));
     }
     function Mc(e, t) {
-      if (!Ac && Pc) {
+      if (!Ac && Oc) {
         Ac = !0;
         do {
           for (var n = !1, r = Cc; null !== r;) {
@@ -9616,7 +9649,7 @@ var require_react_production = __commonJSMin((e) => {
       Fc();
     }
     function Fc() {
-      Pc = Oc = !1;
+      Oc = Pc = !1;
       var e = 0;
       0 !== kc &&
         (function () {
@@ -9630,7 +9663,7 @@ var require_react_production = __commonJSMin((e) => {
           a = Dc(r, t);
         (0 === a
           ? ((r.next = null), null === n ? (Cc = o) : (n.next = o), null === o && (Tc = n))
-          : ((n = r), (0 !== e || 3 & a) && (Pc = !0)),
+          : ((n = r), (0 !== e || 3 & a) && (Oc = !0)),
           (r = o));
       }
       ((0 !== Nu && 5 !== Nu) || Mc(e, !1), 0 !== kc && (kc = 0));
@@ -9723,7 +9756,7 @@ var require_react_production = __commonJSMin((e) => {
         ? null
         : "function" == typeof e
           ? e
-          : Ot("" + e);
+          : Pt("" + e);
     }
     function Vc(e, t) {
       var n = t.ownerDocument.createElement("input");
@@ -10125,7 +10158,7 @@ var require_react_production = __commonJSMin((e) => {
             }
           else
             An
-              ? On(e, n) && (S = "onCompositionEnd")
+              ? Pn(e, n) && (S = "onCompositionEnd")
               : "keydown" === e && 229 === n.keyCode && (S = "onCompositionStart");
           (S &&
             (Rn &&
@@ -10136,12 +10169,12 @@ var require_react_production = __commonJSMin((e) => {
             0 < (v = ed(r, S)).length &&
               ((S = new un(S, e, null, n, o)),
               s.push({ event: S, listeners: v }),
-              y ? (S.data = y) : null !== (y = Pn(n)) && (S.data = y))),
+              y ? (S.data = y) : null !== (y = On(n)) && (S.data = y))),
             (y = xn
               ? (function (e, t) {
                   switch (e) {
                     case "compositionend":
-                      return Pn(t);
+                      return On(t);
                     case "keypress":
                       return 32 !== t.which ? null : ((Tn = !0), Cn);
                     case "textInput":
@@ -10152,7 +10185,7 @@ var require_react_production = __commonJSMin((e) => {
                 })(e, n)
               : (function (e, t) {
                   if (An)
-                    return "compositionend" === e || (!wn && On(e, t))
+                    return "compositionend" === e || (!wn && Pn(e, t))
                       ? ((e = Ht()), (Ut = Bt = Vt = null), (An = !1), e)
                       : null;
                   switch (e) {
@@ -10302,7 +10335,7 @@ var require_react_production = __commonJSMin((e) => {
             e.removeAttribute(n);
             break;
           }
-          ((r = Ot("" + r)), e.setAttribute(n, r));
+          ((r = Pt("" + r)), e.setAttribute(n, r));
           break;
         case "action":
         case "formAction":
@@ -10328,10 +10361,10 @@ var require_react_production = __commonJSMin((e) => {
             e.removeAttribute(n);
             break;
           }
-          ((r = Ot("" + r)), e.setAttribute(n, r));
+          ((r = Pt("" + r)), e.setAttribute(n, r));
           break;
         case "onClick":
-          null != r && (e.onclick = Pt);
+          null != r && (e.onclick = Ot);
           break;
         case "onScroll":
           null != r && Wc("scroll", e);
@@ -10372,7 +10405,7 @@ var require_react_production = __commonJSMin((e) => {
             e.removeAttribute("xlink:href");
             break;
           }
-          ((n = Ot("" + r)), e.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", n));
+          ((n = Pt("" + r)), e.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", n));
           break;
         case "contentEditable":
         case "spellCheck":
@@ -10502,7 +10535,7 @@ var require_react_production = __commonJSMin((e) => {
           null != r && Wc("scrollend", e);
           break;
         case "onClick":
-          null != r && (e.onclick = Pt);
+          null != r && (e.onclick = Ot);
           break;
         case "suppressContentEditableWarning":
         case "suppressHydrationWarning":
@@ -10855,10 +10888,10 @@ var require_react_production = __commonJSMin((e) => {
       }
       return e;
     }
-    function Od(e) {
+    function Pd(e) {
       return "$?" === e.data || "$~" === e.data;
     }
-    function Pd(e) {
+    function Od(e) {
       return "$!" === e.data || ("$?" === e.data && "loading" !== e.ownerDocument.readyState);
     }
     function Ad(e) {
@@ -11390,7 +11423,7 @@ var require_react_production = __commonJSMin((e) => {
           this.cancelPendingCommit =
             null),
         (this.callbackPriority = 0),
-        (this.expirationTimes = Oe(-1)),
+        (this.expirationTimes = Pe(-1)),
         (this.entangledLanes =
           this.shellSuspendCounter =
           this.errorRecoveryDisabledLanes =
@@ -11400,8 +11433,8 @@ var require_react_production = __commonJSMin((e) => {
           this.suspendedLanes =
           this.pendingLanes =
             0),
-        (this.entanglements = Oe(0)),
-        (this.hiddenUpdates = Oe(null)),
+        (this.entanglements = Pe(0)),
+        (this.hiddenUpdates = Pe(null)),
         (this.identifierPrefix = r),
         (this.onUncaughtError = o),
         (this.onCaughtError = a),
@@ -11480,7 +11513,7 @@ var require_react_production = __commonJSMin((e) => {
                 var a = o.pointerId;
                 return (Tf.set(a, If(Tf.get(a) || null, e, t, n, r, o)), !0);
               case "gotpointercapture":
-                return ((a = o.pointerId), Of.set(a, If(Of.get(a) || null, e, t, n, r, o)), !0);
+                return ((a = o.pointerId), Pf.set(a, If(Pf.get(a) || null, e, t, n, r, o)), !0);
             }
             return !1;
           })(o, e, t, n, r)
@@ -11638,8 +11671,8 @@ var require_react_production = __commonJSMin((e) => {
       Rf = null,
       Cf = null,
       Tf = new Map(),
-      Of = new Map(),
-      Pf = [],
+      Pf = new Map(),
+      Of = [],
       Af =
         "mousedown mouseup touchcancel touchend touchstart auxclick dblclick pointercancel pointerdown pointerup dragend dragstart drop compositionend compositionstart keydown keypress keyup input textInput copy cut paste click change contextmenu reset".split(
           " ",
@@ -11664,7 +11697,7 @@ var require_react_production = __commonJSMin((e) => {
           break;
         case "gotpointercapture":
         case "lostpointercapture":
-          Of.delete(t.pointerId);
+          Pf.delete(t.pointerId);
       }
     }
     function If(e, t, n, r, o, a) {
@@ -11728,7 +11761,7 @@ var require_react_production = __commonJSMin((e) => {
         null !== Rf && Nf(Rf) && (Rf = null),
         null !== Cf && Nf(Cf) && (Cf = null),
         Tf.forEach(Ff),
-        Of.forEach(Ff));
+        Pf.forEach(Ff));
     }
     function Lf(e, n) {
       e.blockedOn === n &&
@@ -11765,13 +11798,13 @@ var require_react_production = __commonJSMin((e) => {
         null !== Rf && Lf(Rf, e),
         null !== Cf && Lf(Cf, e),
         Tf.forEach(t),
-        Of.forEach(t));
-      for (var n = 0; n < Pf.length; n++) {
-        var r = Pf[n];
+        Pf.forEach(t));
+      for (var n = 0; n < Of.length; n++) {
+        var r = Of[n];
         r.blockedOn === e && (r.blockedOn = null);
       }
-      for (; 0 < Pf.length && null === (n = Pf[0]).blockedOn;)
-        (Mf(n), null === n.blockedOn && Pf.shift());
+      for (; 0 < Of.length && null === (n = Of[0]).blockedOn;)
+        (Mf(n), null === n.blockedOn && Of.shift());
       if (null != (n = (e.ownerDocument || e).$$reactFormReplay))
         for (r = 0; r < n.length; r += 3) {
           var o = n[r],
@@ -11860,8 +11893,8 @@ var require_react_production = __commonJSMin((e) => {
         if (e) {
           var t = Fe();
           e = { blockedOn: null, target: e, priority: t };
-          for (var n = 0; n < Pf.length && 0 !== t && t < Pf[n].priority; n++);
-          (Pf.splice(n, 0, e), 0 === n && Mf(e));
+          for (var n = 0; n < Of.length && 0 !== t && t < Of[n].priority; n++);
+          (Of.splice(n, 0, e), 0 === n && Mf(e));
         }
       }));
     var Hf = n.version;
@@ -19696,7 +19729,7 @@ function useTransition$1(e, t, n) {
       },
       o ? void 0 : n,
     ));
-  const O = (e) =>
+  const P = (e) =>
     import_react.createElement(
       import_react.Fragment,
       null,
@@ -19712,7 +19745,7 @@ function useTransition$1(e, t, n) {
           : o;
       }),
     );
-  return f ? [O, f] : O;
+  return f ? [P, f] : P;
 }
 var nextKey = 1;
 function getKeys(e, { key: t, keys: n = t }, r) {
@@ -20151,15 +20184,12 @@ var useScaleState = () => {
     const [e, t] = (0, import_react.useState)(getScale$2());
     return (
       (0, import_react.useEffect)(() => {
-        const e = () => {
-          t(getScale$2());
+        const e = () => t(getScale$2()),
+          n = onResize$1(e),
+          r = onRescale(e);
+        return () => {
+          (n(), r());
         };
-        return (
-          window.addEventListener("resize", e),
-          () => {
-            window.removeEventListener("resize", e);
-          }
-        );
       }, []),
       e
     );
@@ -24122,7 +24152,11 @@ function Portal({
     y = (0, import_react.useMemo)(
       () => (t ? (document.querySelector(t) ?? document.body) : document.body),
       [t],
-    );
+    ),
+    [S, w] = useSpring(() => ({
+      from: { opacity: 0, transform: v[r] },
+      config: { easing: easings$1.easeInOutCubic, duration: 250 },
+    }));
   (0, import_react.useEffect)(() => {
     m.current = void 0;
     const e = p.current;
@@ -24134,7 +24168,7 @@ function Portal({
       if (!f.opened) return void h(void 0);
       if (!1 === l(f, { callerBounding: t, containerBounding: o, bodyBounding: a })) return;
       if (s) {
-        if (m.current && !isEqual(m.current, t)) return void f.close();
+        if (m.current && !isEqual(m.current, t)) return (w.set({ opacity: 0 }), void f.close());
         m.current = t;
       }
       const i = getUpdatedPosition(r, _, t, o, a);
@@ -24145,8 +24179,8 @@ function Portal({
         }));
     });
     return (a.start(), a.stop);
-  }, [f, l, s, _, n, b, f.id, f.portal, f.trigger, r, f.opened]);
-  const S = (0, import_react.useCallback)(() => {
+  }, [f, l, s, w, _, n, b, f.id, f.portal, f.trigger, r, f.opened]);
+  const E = (0, import_react.useCallback)(() => {
     const e = p.current;
     e &&
       document.activeElement &&
@@ -24154,7 +24188,7 @@ function Portal({
       e.contains(document.activeElement) &&
       document.activeElement.blur();
   }, []);
-  ((0, import_react.useEffect)(() => f.subscribe.onBeforeClose(S), [f.subscribe, S]),
+  ((0, import_react.useEffect)(() => f.subscribe.onBeforeClose(E), [f.subscribe, E]),
     useHandleKeydown(i && f.opened ? keyCodes.ESCAPE : keyCodes.NONE, () => {
       f.close();
     }),
@@ -24191,21 +24225,17 @@ function Portal({
           }),
         ).dispose;
     }, [f]));
-  const [w, E] = useSpring(() => ({
-      from: { opacity: 0, transform: v[r] },
-      config: { easing: easings$1.easeInOutCubic, duration: 250 },
-    })),
-    x = import_react.useRef(v);
+  const x = import_react.useRef(v);
   return (
     (x.current = v),
     (0, import_react.useEffect)(() => {
       if (!g) return;
       const e = { opacity: 0, transform: x.current[g] };
-      E.start({
+      w.start({
         from: f.opened ? e : void 0,
         to: f.opened ? { opacity: 1, transform: "translate(0rem, 0rem) scale(1)" } : e,
       });
-    }, [E, g, f.opened]),
+    }, [w, g, f.opened]),
     !f.opened && a
       ? null
       : (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, {
@@ -24217,11 +24247,11 @@ function Portal({
                 position: "absolute",
                 top: "0",
                 left: "0",
-                pointerEvents: w.opacity.to((e) => (1 === e ? "auto" : "none")),
-                display: w.opacity.to((e) => (0 !== e || f.opened ? "block" : "none")),
+                pointerEvents: S.opacity.to((e) => (1 === e ? "auto" : "none")),
+                display: S.opacity.to((e) => (0 !== e || f.opened ? "block" : "none")),
                 ...d.style,
               },
-              children: (0, import_jsx_runtime.jsx)(animated.div, { style: w, children: e }),
+              children: (0, import_jsx_runtime.jsx)(animated.div, { style: S, children: e }),
             }),
             y,
           ),
@@ -24589,7 +24619,7 @@ function useScrollBounding(e, [t, n] = IGNORE_DEFAULT) {
   );
 }
 var scrollOrientations = { horizontal: "horizontal", vertical: "vertical" },
-  background = "Thumb_background_b893084a",
+  background = "Thumb_background_7f3dd6ac",
   border = "Thumb_border_5749138b",
   innerBorder = "Thumb_innerBorder_42bafd18",
   icon$3 = "Thumb_icon_dca8bf26",

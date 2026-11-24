@@ -382,6 +382,9 @@ msgstr "此車輛的炮管具有特殊裝置，可在射擊前修改部分砲彈
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "保持靜止或以低於特定數值的速度移動，可讓您校正車輛的「類比彈道計算裝置」並累積準度等級，提高您下一發砲彈的準度。若您超過速限，您的準度等級累積進度將暫停，直到您降低速度。當達到最高準度等級時，您的車輛將具有不錯的炮管穩定性，移動時或炮塔/車身迴轉時的擴散度亦會降低。此效果會在射擊後移除。"
 
+msgid "characteristics/abilities/special/description/autoreloaderSurge"
+msgstr "此機制會立即將砲彈裝填時間縮短為固定的較短時間。使用時，每加速裝填一發砲彈，就消耗一個使用次數，次數會隨時間補充 — 彈匣已滿時補充速度較快。戰鬥開始時會提供固定的使用次數。"
+
 msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
 msgstr "此車輛在炮盾上安裝了火箭發射器。啟用能力來切換至次要武器的瞄準鏡，然後按下射擊鍵來發射無導引高爆火箭。"
 

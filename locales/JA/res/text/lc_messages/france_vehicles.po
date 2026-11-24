@@ -73,6 +73,9 @@ msgstr "AMX 105 AM"
 msgid "AM_VRC_7_141"
 msgstr "AM/VRC 7 141"
 
+msgid "ANVRC_18A"
+msgstr "ANVRC 18"
+
 msgid "AN_GRC_6_Terrifiant"
 msgstr "AN/GRC-6 (Terrifiant)"
 
@@ -213,6 +216,9 @@ msgstr "Canon de 75 mm Vo 920 m/s DP"
 
 msgid "Canon_de_90mm_Vo_930_m_s"
 msgstr "Canon de 90 mm Vo 930 m/s"
+
+msgid "Caterpillar"
+msgstr "Caterpillar"
 
 msgid "Chassis_105_leFH18B2"
 msgstr "leFH18B2"
@@ -384,6 +390,9 @@ msgstr "ERAC 105 Prototype"
 
 msgid "Chassis_F124_AMX_13FL11"
 msgstr "AMX 13 Type 2A"
+
+msgid "Chassis_F125_Panhard_M6_Proto"
+msgstr "Panhard M6 Proto"
 
 msgid "Chassis_F127_AMX_ELC_901"
 msgstr "AMX ELC 901"
@@ -1146,6 +1155,21 @@ msgstr "AMX 13 FL 11"
 
 msgid "F124_AMX_13FL11_short_special"
 msgstr "優れた隠蔽率と抜群の機動性"
+
+msgid "F125_Panhard_M6_Proto"
+msgstr "Panhard M6 Proto"
+
+msgid "F125_Panhard_M6_Proto_descr"
+msgstr "1970年代初頭、フランス陸軍は新型の装甲車輌、すなわち装甲兵員輸送車 (véhicule de l'avant blindé、略称「VAB」)、歩兵戦闘車 (vehicule de combat d'infanterie、略称「VCI」)、そして偵察車輌を必要としていた。この要求に応えるべく、パナール社は2軸式の装甲車輌「M4」、3軸式の「M6」、そして4軸式の「M8」を含む、統一規格の装甲車輌シリーズを開発した。「H-90」砲塔と「90 mm DEFA F1」対戦車砲を搭載した「M6」の試作車輌が製造されたものの、量産には至らなかった。"
+
+msgid "F125_Panhard_M6_Proto_long_special"
+msgstr "「Panhard M6 Proto」はフランスTier IX軽戦車であり、初の装輪式支援型軽戦車。他の装輪車輌と同様に、機動性は非常に高く、足回りが損傷しても走行を継続できる。サイズが大きいため隠蔽性は限られるが、装填の速い90 mm砲は傑出した分間火力を誇り、短時間で大ダメージを与えられる。"
+
+msgid "F125_Panhard_M6_Proto_short"
+msgstr "Panhard M6"
+
+msgid "F125_Panhard_M6_Proto_short_special"
+msgstr "抜群の機動性と高い発射速度"
 
 msgid "F127_AMX_ELC_901"
 msgstr "AMX ELC 901"
@@ -2730,6 +2754,9 @@ msgstr "ERAC 105 Prototype"
 
 msgid "Turret_1_F124_AMX_13FL11"
 msgstr "FL-11"
+
+msgid "Turret_1_F125_Panhard_M6_Proto"
+msgstr "H-90"
 
 msgid "Turret_1_F127_AMX_ELC_901"
 msgstr "AMX ELC 901"
@@ -4420,6 +4447,9 @@ msgstr "90 mm DCA 45 (50 100)"
 msgid "_90mm_DCA_45_ARL"
 msgstr "90 mm DCA 45 (ARL)"
 
+msgid "_90mm_DEFA_F1"
+msgstr "90 mm DEFA F1"
+
 msgid "_90mm_D_914"
 msgstr "90 mm D. 914"
 
@@ -4501,6 +4531,9 @@ msgstr "OCC"
 msgid "_90mm_OCC_90_D_914"
 msgstr "OCC-90 D. 914"
 
+msgid "_90mm_OCC_90_F1"
+msgstr "OCC-90-F1"
+
 msgid "_90mm_OCC_90_SH"
 msgstr "Prf. 90"
 
@@ -4515,6 +4548,9 @@ msgstr "OE-90 D. 914"
 
 msgid "_90mm_OE_90_D_919"
 msgstr "OE-90 D. 919"
+
+msgid "_90mm_OE_90_F1"
+msgstr "OE-90-F1"
 
 msgid "_90mm_OE_F2_VCS"
 msgstr "OE F2 (VCS)"
@@ -4581,6 +4617,9 @@ msgstr "OFL-90 D. 914"
 
 msgid "_90mm_OFL_90_D_919"
 msgstr "OFL-90 D. 919"
+
+msgid "_90mm_OFL_90_F1"
+msgstr "OFL-90-F1"
 
 msgid "_90mm_OFL_F1_VCS"
 msgstr "OFL F1 (VCS)"

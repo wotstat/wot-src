@@ -118,9 +118,6 @@ msgstr "SR C45"
 msgid "C45_CFE_A"
 msgstr "SR C45"
 
-msgid "C45_FR"
-msgstr "SR C45"
-
 msgid "C45_c_7x7"
 msgstr "SR C45"
 
@@ -406,6 +403,9 @@ msgstr "Headshaker"
 msgid "Chassis_GB152_AT_FV230_Breaker"
 msgstr "AT-FV230 Breaker"
 
+msgid "Chassis_GB154_FV112_Puncher"
+msgstr "FV112 Puncher"
+
 msgid "Chassis_GB155_Pike"
 msgstr "Pike"
 
@@ -426,6 +426,9 @@ msgstr "Stuart I"
 
 msgid "Chassis_GB15_Stuart_I_2"
 msgstr "Stuart IV"
+
+msgid "Chassis_GB160_A20"
+msgstr "A20"
 
 msgid "Chassis_GB17_Grant_I"
 msgstr "Grant I"
@@ -688,9 +691,6 @@ msgstr "Centurion Action X"
 msgid "Chassis_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
 
-msgid "Chassis_GB86_Centurion_Action_X_FR"
-msgstr "Centurion Action X BS"
-
 msgid "Chassis_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
 
@@ -759,6 +759,9 @@ msgstr "Chrysler A57"
 
 msgid "Cummins_BTA_5_9"
 msgstr "Cummins BTA 5,9"
+
+msgid "DDS_6V_53NF"
+msgstr "DDS 6V 53NF"
 
 msgid "Daimler_D2458_V_8"
 msgstr "Daimler D2458 V-8"
@@ -1555,6 +1558,21 @@ msgstr "AT-FV230 Breaker는 견고한 전면 장갑과 연사력이 빠르고 �
 msgid "GB152_AT_FV230_Breaker_short"
 msgstr "Breaker"
 
+msgid "GB154_FV112_Puncher"
+msgstr "FV112 Puncher"
+
+msgid "GB154_FV112_Puncher_descr"
+msgstr "영국에서 개발한 경량 대전차 차량 기획으로 소형화, 경량화, 높은 기동성에 중점을 두어 설계되었다. 작은 차체에 강력한 무장을 탑재하였으며, 전차 부대와의 협동 작전에 필요한 속력과 기동력을 갖추었다."
+
+msgid "GB154_FV112_Puncher_long_special"
+msgstr "FV112 Puncher는 9단계 영국 구축전차입니다. 주 포탄인 고관통 고폭탄은 단발 공격력과 분당 공격력이 동급 전차 중 매우 높은 축에 속하며, 고속철갑탄으로는 장갑이 견고한 적을 상대할 수 있습니다. 기동성과 명중률이 우수하여 공격적인 저격수 역할을 수행할 수 있으며 끊임없이 위치를 변경하며 유리한 사격 각도를 찾을 수 있습니다."
+
+msgid "GB154_FV112_Puncher_short"
+msgstr "Puncher"
+
+msgid "GB154_FV112_Puncher_short_special"
+msgstr "뛰어난 분당 공격력, 완전 회전 포탑"
+
 msgid "GB155_Pike"
 msgstr "Pike"
 
@@ -1632,6 +1650,21 @@ msgstr "Stuart I-IV"
 
 msgid "GB15_Stuart_I_descr"
 msgstr "1941년부터 양산되었다. 무기대여법을 통해 M3부터 M5A1 개량 모델 총 6,889대를 영국에 공급하였다. M3 전차는 영국에서 Stuart I로 명명되었으며 M3A1 모델은 Stuart III로 명명되었다. Sidi Rezegh 전투에 처음으로 투입되었다."
+
+msgid "GB160_A20"
+msgstr "A20"
+
+msgid "GB160_A20_descr"
+msgstr "제2차 세계대전이 발발하자마자 영국 참모부는 유럽에서의 전투를 위해 A20 중보병전차 개발에 착수했다. 제1차 세계대전 당시와 같은 진지전 양상을 예상하였기에 해당 중장갑 전차는 참호와 포탄 구덩이를 극복할 수 있도록 긴 차체를 갖추고 후미에 꼬리 구조물을 장착하도록 설계되었다. 무장은 포탑과 차체에 나누어 배치되었다. 1940년부터 양산될 예정이었으나, 프랑스가 빠르게 패배하면서 예상보다 일찍 기동성 위주의 전투가 전개될 것임이 드러났다. 그 결과 A20의 대량 생산은 취소되었고, 제작된 시제 전차에는 실전용 포탑이 장착되지 않았다. 이후 해당 기획은 A22 Churchill 개발의 기반이 되었다."
+
+msgid "GB160_A20_long_special"
+msgstr "A20는 영국 4단계 중전차입니다. A22 Churchill의 기반이 된 전차이기에 마찬가지로 연사력이 뛰어나며, 정면 장갑이 비교적 견고하고, 각도 활용 전술에 적합한 긴 측면 장갑을 갖추고 있습니다. 하지만 포탄 공격력이 낮고 기동성이 떨어지므로, 적의 공격을 견디며 지속적으로 피해를 입히고 적을 향해 돌파하는 전술을 구사하기에 가장 적합합니다."
+
+msgid "GB160_A20_short"
+msgstr "A20"
+
+msgid "GB160_A20_short_special"
+msgstr "견고한 정면 장갑, 뛰어난 연사력"
 
 msgid "GB17_Grant_I"
 msgstr "Grant"
@@ -2170,15 +2203,6 @@ msgstr "Triumphant"
 msgid "GB86_Centurion_Action_X_CFE_A_short_special"
 msgstr "백마를 타고 장판파에서 활약을 펼친 은창의 장수.\n\n그 이름은 역사의 두루마리에 기록되어 전해지리라."
 
-msgid "GB86_Centurion_Action_X_FR"
-msgstr "Centurion Action X BS"
-
-msgid "GB86_Centurion_Action_X_FR_descr"
-msgstr "Action X 포탑은 Centurion 전차 개량형에 사용할 계획이었다. 시제용 포탑 하나는 Centurion Mark 7에 장착하였으며 다른 하나는 탄도 시험에 사용되었다. Action X 포탑을 장착한 전차는 양산되거나 제식 채용되지 않았다."
-
-msgid "GB86_Centurion_Action_X_FR_short"
-msgstr "Cent. AX BS"
-
 msgid "GB86_Centurion_Action_X_descr"
 msgstr "Action X 포탑은 Centurion 전차 개량형에 사용할 계획이었다. 시제용 포탑 하나는 Centurion Mark 7에 장착하였으며 다른 하나는 탄도 시험에 사용되었다. Action X 포탑을 장착한 전차는 양산되거나 제식 채용되지 않았다."
 
@@ -2469,6 +2493,9 @@ msgstr "Meadows D.A.V. O.C."
 
 msgid "Meadows_D_A_V_A13_III"
 msgstr "Meadows D.A.V. (A13 III)"
+
+msgid "Meadows_D_A_V_A20"
+msgstr "Meadows D.A.V (A20)"
 
 msgid "Meadows_D_A_V_A22"
 msgstr "Meadows D.A.V. (A22)"
@@ -3007,9 +3034,6 @@ msgstr "Rolls-Royce Meteor TTSC"
 msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_CFE_A"
 msgstr "Rolls-Royce Meteor TTSC"
 
-msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_FR"
-msgstr "Rolls-Royce Meteor TTSC"
-
 msgid "Rolls_Royce_Meteorite_202"
 msgstr "Rolls-Royce Meteorite Mk. 202"
 
@@ -3057,6 +3081,9 @@ msgstr "Rover Meteorite"
 
 msgid "SR_40_E"
 msgstr "SR 40 E"
+
+msgid "SR_C42"
+msgstr "SR C42"
 
 msgid "SR_C42F"
 msgstr "SR C42F"
@@ -3280,6 +3307,9 @@ msgstr "Headshaker"
 msgid "Turret_1_GB152_AT_FV230_Breaker"
 msgstr "Beaver"
 
+msgid "Turret_1_GB154_FV112_Puncher"
+msgstr "FV112 Puncher"
+
 msgid "Turret_1_GB155_Pike"
 msgstr "Pike"
 
@@ -3297,6 +3327,9 @@ msgstr "Victorious"
 
 msgid "Turret_1_GB15_Stuart_I"
 msgstr "Stuart I"
+
+msgid "Turret_1_GB160_A20"
+msgstr "A20"
 
 msgid "Turret_1_GB19_Sherman_Firefly"
 msgstr "Sherman I"
@@ -3447,9 +3480,6 @@ msgstr "Centurion Action X"
 
 msgid "Turret_1_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
-
-msgid "Turret_1_GB86_Centurion_Action_X_FR"
-msgstr "Centurion Action X BS"
 
 msgid "Turret_1_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
@@ -3688,6 +3718,9 @@ msgstr "WS No. 19 Mk. IIB"
 msgid "WS_No_19_Mk_III"
 msgstr "WS No. 19 Mk. III"
 
+msgid "WS_No_19_Mk_II_A20"
+msgstr "WS No. 19 Mk. II (A20)"
+
 msgid "WS_No_22_Mk_3"
 msgstr "WS No. 22 Mk. 3"
 
@@ -3748,6 +3781,9 @@ msgstr "APDS Kl/14"
 msgid "_105mm_APDS_Kl14_CFE_J"
 msgstr "APDS Kl/14"
 
+msgid "_105mm_APDS_Kl14_L"
+msgstr "LAPDS Kl/14"
+
 msgid "_105mm_APDS_L_28P"
 msgstr "APDS L-28P"
 
@@ -3762,9 +3798,6 @@ msgstr "APDS L-28 (5321)"
 
 msgid "_105mm_APDS_L_28_5321_CFE_A"
 msgstr "APDS L-28"
-
-msgid "_105mm_APDS_L_28_5321_FR"
-msgstr "APDS L-28 (5321)"
 
 msgid "_105mm_AP_EX20"
 msgstr "105 mm AP EX20"
@@ -3793,6 +3826,9 @@ msgstr "105 mm AT Gun L7A1"
 msgid "_105mm_AT_Gun_L7A1_GSOR"
 msgstr "105 mm AT Gun L7A1 GSOR"
 
+msgid "_105mm_AT_Gun_L7A1_L"
+msgstr "105mm AT Gun L7A1 L"
+
 msgid "_105mm_AT_Gun_L7_N"
 msgstr "105 mm AT Gun L7"
 
@@ -3805,9 +3841,6 @@ msgstr "105 mm Gun L7A2"
 msgid "_105mm_Gun_L7_HEAT_CFE_A"
 msgstr "105 mm Gun L7A2"
 
-msgid "_105mm_Gun_L7_HEAT_FR"
-msgstr "105 mm Gun L7A2"
-
 msgid "_105mm_Gun_L7_HEAT_SH"
 msgstr "105 mm Gun L7A2"
 
@@ -3818,9 +3851,6 @@ msgid "_105mm_HEAT_L7"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_CFE_A"
-msgstr "US HEAT M456"
-
-msgid "_105mm_HEAT_L7_FR"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_SH"
@@ -3841,6 +3871,9 @@ msgstr "HESH-T L-37"
 msgid "_105mm_HESH_L7_GSOR"
 msgstr "HESH L7 GSOR"
 
+msgid "_105mm_HESH_L7_Mk13_L"
+msgstr "LHESH L7Mk.13"
+
 msgid "_105mm_HESH_L7_N"
 msgstr "HESH-T L-37 N"
 
@@ -3855,9 +3888,6 @@ msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_35_5321_CFE_A"
 msgstr "HESH-T L-35"
-
-msgid "_105mm_HESH_L_35_5321_FR"
-msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_37_4015"
 msgstr "HESH L-37 (4015)"
@@ -3885,6 +3915,9 @@ msgstr "HE L7 Mk. 13"
 
 msgid "_105mm_HE_L7_Mk13_CFE_J"
 msgstr "HE L7 Mk. 13"
+
+msgid "_105mm_HE_L7_Mk13_L"
+msgstr "LHE L7Mk.13"
 
 msgid "_105mm_HE_L7_N"
 msgstr "HESH-T L-35 N"
@@ -4804,6 +4837,15 @@ msgstr "HE Mk. 2B"
 msgid "_3pdr_gun_Hotchkiss"
 msgstr "OQF 3-pdr Gun Mk. I"
 
+msgid "_40mm_2_pdr_APCBC_Mk_IX_A20"
+msgstr "APCBC Mk. IX (A20)"
+
+msgid "_40mm_2_pdr_APCNR_Mk_II_A20"
+msgstr "APCNR Mk. II (A20)"
+
+msgid "_40mm_2_pdr_HE_Mk_II_A20"
+msgstr "HE Mk. II (A20)"
+
 msgid "_40mm_AP"
 msgstr "AP Mk. I"
 
@@ -4854,6 +4896,9 @@ msgstr "40 mm Pom-Pom (II)"
 
 msgid "_40mm_Pom_Pom_prot"
 msgstr "40 mm Pom-Pom prototype"
+
+msgid "_40mm_QF_2_pdr_Mk_X_A20"
+msgstr "QF 2-pdr Mk. X (A20)"
 
 msgid "_40mm_SAP"
 msgstr "SAP Mk. 1T"

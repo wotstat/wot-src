@@ -283,9 +283,6 @@ msgstr "LTG improved"
 msgid "Chassis_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
 
-msgid "Chassis_R132_VNII_100LT_FR"
-msgstr "T-100 LT BS"
-
 msgid "Chassis_R133_KV_122"
 msgstr "KV-122"
 
@@ -547,6 +544,9 @@ msgstr "T-115"
 msgid "Chassis_R219_Object_265T"
 msgstr "Object 265T"
 
+msgid "Chassis_R222_KV_90"
+msgstr "KV-90"
+
 msgid "Chassis_R225_SU_100i"
 msgstr "SU-100I"
 
@@ -585,6 +585,9 @@ msgstr "T-43"
 
 msgid "Chassis_R23_T-43_2"
 msgstr "T-43 mod. 1943"
+
+msgid "Chassis_R241_T_26_76"
+msgstr "T-26A"
 
 msgid "Chassis_R24_SU-76"
 msgstr "SU-76"
@@ -849,6 +852,9 @@ msgstr "D-744"
 
 msgid "D37812_LL"
 msgstr "D37812"
+
+msgid "DD_1"
+msgstr "DD-1"
 
 msgid "DG"
 msgstr "DG"
@@ -1678,9 +1684,6 @@ msgstr "R-123M"
 msgid "R123U"
 msgstr "R-123U"
 
-msgid "R123_FR"
-msgstr "R-123"
-
 msgid "R123_K"
 msgstr "R-123K"
 
@@ -1827,15 +1830,6 @@ msgstr "LTG"
 
 msgid "R132_VNII_100LT"
 msgstr "T-100 LT"
-
-msgid "R132_VNII_100LT_FR"
-msgstr "T-100 LT BS"
-
-msgid "R132_VNII_100LT_FR_descr"
-msgstr "T-100의 무장을 적용한 경전차 개발 기획이다. 1960년대 중반 제100 연구소와 특수 설계국 GSKB-47이 공동으로 작업을 진행했으며 거리와 관계없이 90mm 포탄을 견딜 수 있도록 장갑을 단단하게 설계하였다."
-
-msgid "R132_VNII_100LT_FR_short"
-msgstr "T-100 LT BS"
 
 msgid "R132_VNII_100LT_descr"
 msgstr "T-100의 무장을 적용한 경전차 개발 기획이다. 1960년대 중반 제100 연구소와 특수 설계국 GSKB-47이 공동으로 작업을 진행했으며 거리와 관계없이 90mm 포탄을 견딜 수 있도록 장갑을 단단하게 설계하였다."
@@ -2803,6 +2797,21 @@ msgstr "Obj. 265T"
 msgid "R219_Object_265T_short_special"
 msgstr "역방식 자동 재장전 주포, 우수한 엔진 출력"
 
+msgid "R222_KV_90"
+msgstr "KV-90"
+
+msgid "R222_KV_90_descr"
+msgstr "1942년 초, 소련의 여러 설계 기관에서 초중전차 개발에 관한 아이디어가 제시하였다. 다양한 초중전차 기획이 제안되었으며 KV-90 역시 그중 하나였다. 설계에는 양산형 KV 전차 및 기타 소련 전차 부품이 활용되었다. 해당 전차는 붉은 군대의 주요 공격로에서 적 방어선을 돌파하는 임무를 맡을 예정이었다. 하지만 기획은 설계도면 제작 단계에서 중단되었다."
+
+msgid "R222_KV_90_long_special"
+msgstr "KV-90는 소련 9단계 강습 중전차입니다. 거대한 차체에 매우 두꺼운 장갑으로 무장했으며 강력한 130mm 함포를 장착하였습니다. 기동력이 뛰어나지는 않지만, 측면 전체를 봉쇄하거나 견고한 방어선도 체계적으로 돌파할 수 있습니다."
+
+msgid "R222_KV_90_short"
+msgstr "KV-90"
+
+msgid "R222_KV_90_short_special"
+msgstr "전방향으로 튼튼한 장갑, 높은 포탄 공격력"
+
 msgid "R225_SU_100i"
 msgstr "SU-100I"
 
@@ -2976,6 +2985,21 @@ msgstr "T-43"
 
 msgid "R23_T-43_descr"
 msgstr "T-34를 대체하기 위해 1942년 개발되었다. 제식 채용이 권고되었지만, T-34 전차 개선 작업에 밀려 중단되었다. 양산되지는 않았다."
+
+msgid "R241_T_26_76"
+msgstr "T-26A"
+
+msgid "R241_T_26_76_descr"
+msgstr "1933년 키로프 시제 전차 제작 공장 설계국에서 양산형 T-26을 기반으로 T-26A Artillery(T-26-4)를 개발했다. 같은 해 9월 시제 전차 시험 운행이 진행되었다. 1933년부터 1935년까지 시험용으로 5대가 생산되었다. 이후 T-26-4의 개량형 포탑은 양산형 BT-7A 전차에 사용되었다."
+
+msgid "R241_T_26_76_long_special"
+msgstr "T-26A는 소련 3단계 경전차입니다. T-26의 개량형으로, 포탄 공격력이 높지만 탄속이 느린 고폭탄과 철갑탄을 발사하는 76mm 주포를 탑재했습니다. T-26 차체를 기반으로 제작되어 최고 속력이 낮아 전선에 빠르게 도달하기 어려우므로, 최전방에서 전투를 펼치기보다는 후방에서 아군을 지원하는 것이 더 효과적입니다."
+
+msgid "R241_T_26_76_short"
+msgstr "T-26A"
+
+msgid "R241_T_26_76_short_special"
+msgstr "높은 포탄 공격력, 높은 분당 공격력"
 
 msgid "R24_SU-76"
 msgstr "SU-76M"
@@ -3592,6 +3616,9 @@ msgstr "TD-30"
 msgid "TD_30_A"
 msgstr "M-50D"
 
+msgid "T_26A"
+msgstr "T-26A"
+
 msgid "T_50_2"
 msgstr "T-50-2"
 
@@ -3777,9 +3804,6 @@ msgstr "LTG"
 
 msgid "Turret_1_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
-
-msgid "Turret_1_R132_VNII_100LT_FR"
-msgstr "T-100 LT BS"
 
 msgid "Turret_1_R133_KV_122"
 msgstr "KV-122"
@@ -4045,6 +4069,9 @@ msgstr "Veles"
 msgid "Turret_1_R23_T-43"
 msgstr "T-43 mod. 1942"
 
+msgid "Turret_1_R241_T_26_76"
+msgstr "T-26A"
+
 msgid "Turret_1_R24_SU-76"
 msgstr "SU-76M"
 
@@ -4276,6 +4303,9 @@ msgstr "IS-3"
 msgid "Turret_2_R20_T-44"
 msgstr "T-44-100"
 
+msgid "Turret_2_R222_KV_90"
+msgstr "KV-90"
+
 msgid "Turret_2_R23_T-43"
 msgstr "T-43 mod. 1943"
 
@@ -4340,9 +4370,6 @@ msgid "Turret_IS-7_fallout"
 msgstr "IS-7"
 
 msgid "UTD_20"
-msgstr "UTD-20"
-
-msgid "UTD_20_FR"
 msgstr "UTD-20"
 
 msgid "UTD_45A"
@@ -4849,22 +4876,13 @@ msgstr "3UOF (LM)"
 msgid "_100mm_3VBB"
 msgstr "3VBB"
 
-msgid "_100mm_3VBB_FR"
-msgstr "3VBB"
-
 msgid "_100mm_3VBM"
 msgstr "3VBM"
 
 msgid "_100mm_3VBM2_SH"
 msgstr "3VBM-2"
 
-msgid "_100mm_3VBM_FR"
-msgstr "3VBM"
-
 msgid "_100mm_3VOF"
-msgstr "3VOF"
-
-msgid "_100mm_3VOF_FR"
 msgstr "3VOF"
 
 msgid "_100mm_BR-412A"
@@ -4979,9 +4997,6 @@ msgid "_100mm_S_34D_IS_2_II"
 msgstr "100 mm S-34D (IS-2-II)"
 
 msgid "_100mm_T_100"
-msgstr "100 mm T-100"
-
-msgid "_100mm_T_100_FR"
 msgstr "100 mm T-100"
 
 msgid "_100mm_T_12A"
@@ -5421,6 +5436,9 @@ msgstr "10RT-26E"
 
 msgid "_10RT_26E1"
 msgstr "10RT-26"
+
+msgid "_10RT_KV"
+msgstr "10-RT"
 
 msgid "_12.7mm_AP_B32"
 msgstr "B-32"
@@ -6217,6 +6235,9 @@ msgstr "53-VOF-482VS"
 msgid "_130mm_B-13-S2"
 msgstr "130 mm B-13-S2"
 
+msgid "_130mm_B7_IIT"
+msgstr "130 mm B7-IIT"
+
 msgid "_130mm_B_13"
 msgstr "130 mm B-13"
 
@@ -6244,6 +6265,9 @@ msgstr "130 mm M-65"
 msgid "_130mm_OF-46"
 msgstr "OF-46"
 
+msgid "_130mm_OF_46_KV"
+msgstr "OF 46K"
+
 msgid "_130mm_PB-46"
 msgstr "PB-46"
 
@@ -6255,6 +6279,9 @@ msgstr "PB-46T"
 
 msgid "_130mm_PB-46TA"
 msgstr "PB-46TA"
+
+msgid "_130mm_PB_46_KV"
+msgstr "PB 46K"
 
 msgid "_130mm_S-26A"
 msgstr "130 mm S-26"
@@ -6336,6 +6363,9 @@ msgstr "UOF-482"
 
 msgid "_130mm_ZBK60M"
 msgstr "ZBK60M"
+
+msgid "_130mm_ZBK_46A_KV"
+msgstr "ZBK46A"
 
 msgid "_136mm_BK_79"
 msgstr "BK-79"
@@ -7210,6 +7240,9 @@ msgstr "71-TK-3U"
 msgid "_71-TK-IT"
 msgstr "71-TK-IT"
 
+msgid "_71_TK_1A"
+msgstr "71-TK-1A"
+
 msgid "_71_TK_1SH"
 msgstr "71-TK-1SH"
 
@@ -7284,6 +7317,9 @@ msgstr "76 mm KT-28"
 
 msgid "_76mm_KT-IT"
 msgstr "76 mm KT-IT"
+
+msgid "_76mm_KT_28B"
+msgstr "76 mm KT-28B"
 
 msgid "_76mm_L-10"
 msgstr "76 mm L-10"
@@ -7372,6 +7408,9 @@ msgstr "UBR-354A (T-34/F)"
 msgid "_76mm_UBR_354KA_T_28"
 msgstr "UBR-354KA (T-28)"
 
+msgid "_76mm_UBR_354KC"
+msgstr "UBR-354KC"
+
 msgid "_76mm_UBR_354MA_MT_25"
 msgstr "UBR-354MA (MT-25)"
 
@@ -7416,6 +7455,9 @@ msgstr "UOF-354KA"
 
 msgid "_76mm_UOF-354M"
 msgstr "UOF-354M"
+
+msgid "_76mm_UOF_354KC"
+msgstr "UOF-354KC"
 
 msgid "_76mm_UOF_354K_T_28"
 msgstr "UOF-354K (T-28)"

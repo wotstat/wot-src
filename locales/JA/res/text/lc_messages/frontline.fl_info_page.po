@@ -361,15 +361,6 @@ msgstr "弱点: {{@ colorLegacy 'FFE4C0'}}通用口 (70 mm)、換気口 (25 mm){
 msgid "rules/weapons/text"
 msgstr "戦闘の「主目標」は、防衛チームのはるか後方に設置された5基のトーチカです。攻撃チームが勝利するには、そのうち3基を破壊する必要があります。制限時間内に破壊できなければ、防衛チームの勝利となります。"
 
-msgid "subTitle/differentMonth"
-msgstr "{{@ colorLegacy 'FFE4C0'}}{{startMonth}}{{from}}日{{/}}～{{@ colorLegacy 'FFE4C0'}}{{endMonth}}{{to}}日{{/}}"
-
-msgid "subTitle/differentYears"
-msgstr "{{@ colorLegacy 'FFE4C0'}}{{startYear}}年{{startMonth}}{{from}}日{{/}}～{{@ colorLegacy 'FFE4C0'}}{{endYear}}年{{endMonth}}{{to}}日{{/}}"
-
-msgid "subTitle/sameMonth"
-msgstr "{{@ colorLegacy 'FFE4C0'}}{{endMonth}}{{from}}日{{/}}～{{@ colorLegacy 'FFE4C0'}}{{to}}日{{/}}"
-
 msgid "winStrategy/firstLine"
 msgstr "両チームとも{{@ colorLegacy 'FFE4C0'}}第1防衛線{{/}}にあたるゾーンA、B、Cから出撃します。"
 

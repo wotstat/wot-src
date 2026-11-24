@@ -1,18 +1,18 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Dn as e,
+  En as e,
   H as a,
-  Jt as l,
-  L as n,
+  L as l,
   St as c,
-  U as o,
-  V as r,
-  _t as i,
-  ct as t,
-  ln as p,
-  nt as m,
-  rt as d,
-  un as _,
+  U as n,
+  V as o,
+  at as i,
+  cn as r,
+  dt as t,
+  it as p,
+  ln as m,
+  qt as d,
+  ut as _,
   vt as b,
   yt as h,
 } from "../../chunks/lib.js";
@@ -33,14 +33,14 @@ var [g, j] = c()(
   w = "App_rewards_573bd253",
   M = "App_button_cec9cac4",
   I = "App_close_654073f5",
-  L = s(l(), 1),
+  L = s(d(), 1),
   z = R.strings.user_missions.hub.challenge_missions.notification.challenge_complete,
-  U = i(function () {
-    const { model: s, controls: l } = j(),
-      { challengeName: c, anyMissionsLeft: i, isPopUp: b } = s.root.get(),
+  U = b(function () {
+    const { model: s, controls: c } = j(),
+      { challengeName: t, anyMissionsLeft: d, isPopUp: b } = s.root.get(),
       h = s.bonuses.get(),
-      g = p(h);
-    return (0, L.jsxs)(n, {
+      g = r(h);
+    return (0, L.jsxs)(l, {
       className: e(N, b && f),
       children: [
         (0, L.jsxs)("div", {
@@ -55,8 +55,8 @@ var [g, j] = c()(
             (0, L.jsxs)("div", {
               className: y,
               children: [
-                (0, L.jsx)(t, {
-                  params: { challengeName: c },
+                (0, L.jsx)(_, {
+                  params: { challengeName: t },
                   text: z.title(),
                   className: C,
                   upgradeLegacy: !0,
@@ -65,17 +65,17 @@ var [g, j] = c()(
               ],
             }),
             (0, L.jsx)("div", { className: w, children: (0, L.jsx)(u, { bonuses: g }) }),
-            (0, L.jsx)(r, {
+            (0, L.jsx)(o, {
               className: M,
               size: a.small,
-              onClick: l.openChallenge,
-              theme: i ? o.primary : o.secondary,
-              children: i ? z.button() : z.affirmative(),
+              onClick: c.openChallenge,
+              theme: d ? n.primary : n.secondary,
+              children: d ? z.button() : z.affirmative(),
             }),
           ],
         }),
-        b && (0, L.jsx)(m, { size: d.small, onClose: _, className: I }),
+        b && (0, L.jsx)(p, { size: i.small, onClose: m, className: I }),
       ],
     });
   });
-h((0, L.jsx)(g, { children: (0, L.jsx)(b, { children: (0, L.jsx)(U, {}) }) }));
+h((0, L.jsx)(g, { children: (0, L.jsx)(t, { children: (0, L.jsx)(U, {}) }) }));

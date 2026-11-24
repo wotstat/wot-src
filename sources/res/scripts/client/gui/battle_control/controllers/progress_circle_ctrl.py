@@ -320,7 +320,7 @@ class SectorBasePlugin(ProgressTimerPlugin):
                 BigWorld.cancelCallback(self.__blockedCB)
                 self.__blockedCB = None
             self.__blockedCB = BigWorld.callback(duration, self.__stopBlockState)
-        elif action == SECTOR_BASE_ACTION.CAPTURED:
+        elif action in (SECTOR_BASE_ACTION.CAPTURED, SECTOR_BASE_ACTION.RESUME):
             return
         LOG_WARNING(b'SectorBasePlugin: NO SUCH ACTION ', action)
         return

@@ -280,9 +280,6 @@ msgstr "leKpz M 41 90 mm"
 msgid "Chassis_G121_Grille_15_L63"
 msgstr "Grille 15"
 
-msgid "Chassis_G121_Grille_15_L63_FR"
-msgstr "Grille 15 BS"
-
 msgid "Chassis_G122_VK6501H"
 msgstr "VK 65.01 (H)"
 
@@ -484,8 +481,14 @@ msgstr "Jagdpanther"
 msgid "Chassis_G18_JagdPanther_2"
 msgstr "Jagdpanther verstärkteketten"
 
+msgid "Chassis_G190_TH_72"
+msgstr "TH-72"
+
 msgid "Chassis_G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
+
+msgid "Chassis_G192_E_10"
+msgstr "E 10"
 
 msgid "Chassis_G193_Pz_Kpfw_55"
 msgstr "Pz.Kpfw. 54"
@@ -511,8 +514,17 @@ msgstr "Kampfpanzer 67"
 msgid "Chassis_G200_Chi_Go"
 msgstr "Chi-Go"
 
+msgid "Chassis_G201_Panzerjager_I_mit_7_5_cm"
+msgstr "Pz.Jäg. I 7,5 cm"
+
+msgid "Chassis_G202_PzKpfw_T_34_747_r"
+msgstr "Pz.Kpfw. T 34 747 (r)"
+
 msgid "Chassis_G204_PzVI_Tiger_P_CFE_A"
 msgstr "Tiger (P) Leoponsan"
+
+msgid "Chassis_G205_Jagdpanzer_7_Pfanne"
+msgstr "Jagdpanzer 7 Pfanne"
 
 msgid "Chassis_G23_Grille"
 msgstr "Grille"
@@ -952,6 +964,9 @@ msgstr "Daimler-Benz V12 56"
 msgid "Daimler_Benz_V12_57"
 msgstr "Daimler-Benz V12 57"
 
+msgid "Deutz_BF6M1015CF"
+msgstr "Deutz BF6M1015CF"
+
 msgid "DickerMax"
 msgstr "Dicker Max"
 
@@ -1015,6 +1030,9 @@ msgstr "FuG 12"
 msgid "FuG12_SH"
 msgstr "FuG 12 L2"
 
+msgid "FuG15"
+msgstr "FuG 15"
+
 msgid "FuG16"
 msgstr "Fu 16"
 
@@ -1041,6 +1059,9 @@ msgstr "FuG 5m"
 
 msgid "FuG5_SH"
 msgstr "FuG 5 A"
+
+msgid "FuG5_T_34"
+msgstr "FuG 5 (T 34)"
 
 msgid "FuG6"
 msgstr "FuG 6"
@@ -1074,6 +1095,9 @@ msgstr "FuG 8 (f)"
 
 msgid "FuG_7_45_01"
 msgstr "FuG 7 (45.01)"
+
+msgid "FuG_7_E"
+msgstr "FuG 7 (E)"
 
 msgid "FuG_7_F"
 msgstr "FuG 7 (F)"
@@ -1557,15 +1581,6 @@ msgstr "出色的戰車炮與良好的機動性"
 
 msgid "G121_Grille_15_L63"
 msgstr "Grille 15"
-
-msgid "G121_Grille_15_L63_FR"
-msgstr "Grille 15 BS"
-
-msgid "G121_Grille_15_L63_FR_descr"
-msgstr "1942 年夏季，Waffenamt（德意志陸軍兵器局）與 Krupp 和 Rheinmetall 公司簽署了以 Panther 戰車底盤設計驅逐戰車的協議。車輛預計裝上 128 毫米 K 43 炮管或 150 毫米 sFH 43 榴彈炮。計畫被命名為 Grille 12 與 Grille 15，車輛配備後置戰鬥室，只在火炮系統類型上有所差異。之後 Grille 15 裝載了一門長達 63 倍徑的 150 毫米炮管，使其能夠在 4,000 公尺外穿透 200 毫米的裝甲。然而，研發進度緩慢，Grille 15 最終也僅存於藍圖。"
-
-msgid "G121_Grille_15_L63_FR_short"
-msgstr "Grille 15 BS"
 
 msgid "G121_Grille_15_L63_descr"
 msgstr "1942 年夏季，Waffenamt（德意志陸軍兵器局）與 Krupp 和 Rheinmetall 公司簽署了以 Panther 戰車底盤設計驅逐戰車的協議。車輛預計裝上 128 毫米 K 43 炮管或 150 毫米 sFH 43 榴彈炮。計畫被命名為 Grille 12 與 Grille 15，車輛配備後置戰鬥室，只在火炮系統類型上有所差異。之後 Grille 15 裝載了一門長達 63 倍徑的 150 毫米炮管，使其能夠在 4,000 公尺外穿透 200 毫米的裝甲。然而，研發進度緩慢，Grille 15 最終也僅存於藍圖。"
@@ -2332,6 +2347,21 @@ msgstr "這輛驅逐戰車的研發，是以新式 VK 30.02 (MAN) 戰車的底�
 msgid "G18_JagdPanther_short"
 msgstr "JPanther"
 
+msgid "G190_TH_72"
+msgstr "TH-72"
+
+msgid "G190_TH_72_descr"
+msgstr "1970 年代晚期，Begleitpanzer 57 原定重新進行工程設計。此車輛的主要武裝安裝於載人炮塔外部。引擎與傳動裝置位於車輛前方，冷卻散熱器與排氣系統則位於後方。炮塔安裝在車身中央，彈藥架則置於其後方。由於設計複雜，此車輛的造價變得非常昂貴；因此 Thyssen Henschel 公司在未建造原型車的情況下終止了此計畫。"
+
+msgid "G190_TH_72_long_special"
+msgstr "TH-72 為德國 IX 階輕型戰車。此車輛裝備一門自動火炮，在近距離對抗裝甲薄弱的目標與遲緩的重型戰車時極具殺傷力。裝填時間較短，代表它不會脫離戰鬥太久，因此在第一輪彈匣攻擊後存活下來的敵人不該掉以輕心。"
+
+msgid "G190_TH_72_short"
+msgstr "TH-72"
+
+msgid "G190_TH_72_short_special"
+msgstr "自動火炮，出色的機動性"
+
 msgid "G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
 
@@ -2346,6 +2376,21 @@ msgstr "StuG III Kaba"
 
 msgid "G191_StuG_IIIF_CFE_A_short_special"
 msgstr "良好的機動性，較高的射速"
+
+msgid "G192_E_10"
+msgstr "E 10"
+
+msgid "G192_E_10_descr"
+msgstr "輕型驅逐戰車 E 10 的研發工作始於 1944 年，為 Entwicklung 計畫的一環，旨在最大限度地統一規格與簡化生產。就配置而言，此車輛與 Hetzer 相似，具備低矮輪廓、無炮塔，以及傾斜裝甲板。底盤採用交錯式排列路輪，每側四個路輪，懸吊則建構於固定在車身外部的橫桿上。引擎與液壓傳動裝置位於後方的單一艙室中，進而簡化維護作業並增加戰鬥室的空間，而可拆卸的後方裝甲板與引擎傳動裝置室蓋，則讓動力裝置得以快速拆卸。由於戰爭結束，該計畫停留在草圖階段，未有後續發展。"
+
+msgid "G192_E_10_long_special"
+msgstr "E 10 為德國 V 階驅逐戰車。此車輛在 Entwicklung 計畫下研發以取代 Hetzer，具有低矮輪廓與輕盈車重，賦予其絕佳的機動性、出色的隱蔽性，以及小口徑炮管的高射速。然而由於可視範圍與擴散度較差，玩家必須更為主動積極，快速且隱密地造成傷害。"
+
+msgid "G192_E_10_short"
+msgstr "E 10"
+
+msgid "G192_E_10_short_special"
+msgstr "出色的隱蔽性，較高的射速"
 
 msgid "G193_Pz_Kpfw_55"
 msgstr "Pz.Kpfw. 55"
@@ -2416,6 +2461,36 @@ msgstr "Chi-Go"
 msgid "G200_Chi_Go_short_special"
 msgstr "不錯的炮塔裝甲，較高的單發平均傷害"
 
+msgid "G201_Panzerjager_I_mit_7_5_cm"
+msgstr "Panzerjäger I mit 7,5 cm"
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_descr"
+msgstr "戰爭結束前，德國陸軍嚴重缺乏裝甲車輛。工業幾乎全毀，新車輛的產能有限，因此軍方只能利用任何可用的底盤與炮管來打造車輛。其中有以 Pz.Kpfw. I Ausf. B 為基礎所打造的車輛。在對車身進行微幅改善後，安裝了取自驅逐戰車的 7,5 cm StuK 40 炮管。據說其中一輛此類車輛曾參與 1945 年春季的柏林戰役。"
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_long_special"
+msgstr "Panzerjäger I mit 7,5 cm 為德國 III 階驅逐戰車。它擁有同階中良好的機動性，能頻繁變換位置並掩護隊友。其出色的炮管結合了絕佳的俯角、高每發傷害、強大的穿透力與良好的準度，使其能將敵方車輛逐一擊破。"
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_short"
+msgstr "Pz.Jäg. I 7,5 cm"
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_short_special"
+msgstr "較高的單發傷害，出色的炮管俯角"
+
+msgid "G202_PzKpfw_T_34_747_r"
+msgstr "Pz.Kpfw. T 34 747 (r)"
+
+msgid "G202_PzKpfw_T_34_747_r_descr"
+msgstr "1941 年至 1943 年間，德國軍方在東部戰線擄獲了大量的 T-34 戰車。1943 年 6 月 30 日，陸軍總司令部（OKH）啟動一項計畫，旨在將東部戰線的擄獲車輛標準化並重新分配。具體來說，他們打算集中進行改良，讓這些車輛符合德國標準。T-34 裝備了來自 Pz. III 或 Pz. IV 的車長塔，以及德製裝置、無線電與其他設備。然而縱使試圖統一規格，多數戰車仍有不同零件。"
+
+msgid "G202_PzKpfw_T_34_747_r_long_special"
+msgstr "Pz.Kpfw. T 34 747 (r) 為德國 V 階中型戰車，以自二戰期間德軍擄獲的蘇聯 T-34 為基礎，並依照德軍標準進行改裝。它保留了 T-34 的諸多優勢，例如傾斜裝甲與 76 毫米炮管，同時擁有更優異的準度與炮管操控性。這輛用途廣泛的車輛能勝任多種玩法 — 無論是在前線衝鋒或後方支援都得心應手。"
+
+msgid "G202_PzKpfw_T_34_747_r_short"
+msgstr "Pz. T 34"
+
+msgid "G202_PzKpfw_T_34_747_r_short_special"
+msgstr "良好的準度，兼具不錯的裝甲與良好的機動性"
+
 msgid "G204_PzVI_Tiger_P_CFE_A"
 msgstr "Tiger (P) Leoponsan"
 
@@ -2430,6 +2505,21 @@ msgstr "Tiger (P) Leo"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short_special"
 msgstr "堅固的正面裝甲，機動性改良系統"
+
+msgid "G205_Jagdpanzer_7_Pfanne"
+msgstr "Jagdpanzer 7 Pfanne"
+
+msgid "G205_Jagdpanzer_7_Pfanne_descr"
+msgstr "Jagdpanzer 7 Pfanne 計畫由西德研發，旨在打造一輛火力強大、尺寸小巧且首發命中率較高的驅逐戰車。此車輛採用了當時不尋常的平滑車身外型，本應能提升對 HEAT 與 APCR 彈的防護能力。利用液氣壓式懸吊進行垂直瞄準，水平瞄準則透過車身迴轉進行。雖然此概念頗具前景，但計畫最終因過於依賴複雜的液壓系統，並在更為多功能的主力戰車問世後遭中止。"
+
+msgid "G205_Jagdpanzer_7_Pfanne_long_special"
+msgstr "Jagdpanzer 7 Pfanne 為德國 VII 階狙擊型驅逐戰車。此為同階車輛中，首輛具備瑞典招牌攻城模式與液氣壓式懸吊的車輛，亦為稱職的遠程狙擊好手。此車輛隱蔽性佳且操控靈活，配備有一門火力強大的 105 毫米炮管，穿透力出色，但威力遭較久的裝填時間所抵銷。"
+
+msgid "G205_Jagdpanzer_7_Pfanne_short"
+msgstr "Jg.Pz. 7 Pfanne"
+
+msgid "G205_Jagdpanzer_7_Pfanne_short_special"
+msgstr "液氣壓式懸吊，很棒的準度"
 
 msgid "G20_Marder_II"
 msgstr "Marder II"
@@ -3112,6 +3202,9 @@ msgstr "具有高穿透力的精準戰車炮，可靠的裝甲"
 msgid "MAN_D2840_LXE"
 msgstr "MAN D2840 LXE"
 
+msgid "MAN_D2840_LXE_TH_72"
+msgstr "MAN D2840 LXE (TH)"
+
 msgid "MAN_H_40"
 msgstr "MAN H 40"
 
@@ -3303,6 +3396,9 @@ msgstr "Maybach HL 90"
 
 msgid "Maybach_HL_100TR_BW"
 msgstr "Maybach HL 100 TR BW"
+
+msgid "Maybach_HL_100_E"
+msgstr "Maybach HL 100 E"
 
 msgid "Maybach_HL_100_WT_IV"
 msgstr "Maybach HL 100 (WT IV)"
@@ -3676,9 +3772,6 @@ msgstr "Maybach Neues Projekt A"
 msgid "Maybach_HL_234P60_short"
 msgstr "Maybach Neues Projekt"
 
-msgid "Maybach_HL_234_FR"
-msgstr "Maybach HL 234"
-
 msgid "Maybach_HL_234_TRM_P30"
 msgstr "Maybach HL 234 TRM P30"
 
@@ -3747,6 +3840,9 @@ msgstr "Maybach HL 98"
 
 msgid "Maybach_NL38TR"
 msgstr "Maybach HL 38 TR"
+
+msgid "Maybach_NL_38TR_P"
+msgstr "Maybach NL 38TR P"
 
 msgid "Maybach_Neues_Projekt_90"
 msgstr "Maybach Neues Projekt 90"
@@ -4270,6 +4366,9 @@ msgstr "SEM 25A"
 msgid "SEM_25A"
 msgstr "SEM 25A"
 
+msgid "SEM_25A_TH_72"
+msgstr "SEM 25A (TH)"
+
 msgid "SEM_25B"
 msgstr "SEM 25B"
 
@@ -4278,6 +4377,9 @@ msgstr "SEM 25BK"
 
 msgid "SEM_25C"
 msgstr "SEM 25C funkgerät"
+
+msgid "SEM_25D"
+msgstr "SEM 25D"
 
 msgid "SEM_25E"
 msgstr "SEM 25E"
@@ -4531,9 +4633,6 @@ msgstr "leKpz M 41 90 mm"
 msgid "Turret_1_G121_Grille_15_L63"
 msgstr "Grille 15"
 
-msgid "Turret_1_G121_Grille_15_L63_FR"
-msgstr "Grille 15 BS"
-
 msgid "Turret_1_G122_VK6501H"
 msgstr "VK 65.01 (H) S.W."
 
@@ -4711,8 +4810,14 @@ msgstr "Hirschkäfer"
 msgid "Turret_1_G18_JagdPanther"
 msgstr "Jagdpanther"
 
+msgid "Turret_1_G190_TH_72"
+msgstr "TH-72"
+
 msgid "Turret_1_G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
+
+msgid "Turret_1_G192_E_10"
+msgstr "E 10"
 
 msgid "Turret_1_G193_Pz_Kpfw_55"
 msgstr "Pz.Kpfw. 54"
@@ -4732,8 +4837,17 @@ msgstr "Kampfpanzer 67"
 msgid "Turret_1_G200_Chi_Go"
 msgstr "Chi-Go"
 
+msgid "Turret_1_G201_Panzerjager_I_mit_7_5_cm"
+msgstr "Pz.Jäg. I 7,5 cm"
+
+msgid "Turret_1_G202_PzKpfw_T_34_747_r"
+msgstr "Pz.Kpfw. T 34 747 (r)"
+
 msgid "Turret_1_G204_PzVI_Tiger_P_CFE_A"
 msgstr "Tiger (P) Leoponsan"
+
+msgid "Turret_1_G205_Jagdpanzer_7_Pfanne"
+msgstr "Jagdpanzer 7 Pfanne"
 
 msgid "Turret_1_G23_Grille"
 msgstr "Grille"
@@ -5143,6 +5257,9 @@ msgstr "有著後置炮塔的超重型戰車，由 Krupp 公司研發。跟 VK 7
 msgid "VK7201_short"
 msgstr "VK 72.01 K"
 
+msgid "V_2"
+msgstr "V-2"
+
 msgid "V_2K_T"
 msgstr "V-2K"
 
@@ -5196,6 +5313,9 @@ msgstr "100 mm Panzerkanone D-10T2S L/56"
 
 msgid "_100mm_UOF-412"
 msgstr "UOF-412"
+
+msgid "_105_mm_Rh_105_20_A"
+msgstr "105 mm Rh 105 20 A"
 
 msgid "_105mmGr39H1A"
 msgstr "Gr 39 H1A"
@@ -5461,6 +5581,9 @@ msgstr "Pzgr. 39 K (B)"
 msgid "_105mm_Pzgr_39_L_100"
 msgstr "Pzgr. 39 L (100)"
 
+msgid "_105mm_Pzgr_39_L_100_A"
+msgstr "Pzgr. 39 L (100) A"
+
 msgid "_105mm_Pzgr_39_L_180A"
 msgstr "Pzgr. 39 L (180A)"
 
@@ -5475,6 +5598,9 @@ msgstr "Pzgr 40W"
 
 msgid "_105mm_Pzgr_40_100"
 msgstr "Pzgr. 40 (100)"
+
+msgid "_105mm_Pzgr_40_100_A"
+msgstr "Pzgr. 40 (100) A"
 
 msgid "_105mm_Pzgr_40_180A"
 msgstr "Pzgr. 40 (180A)"
@@ -5560,6 +5686,9 @@ msgstr "Sprgr. K (B)"
 msgid "_105mm_Sprgr_L_100"
 msgstr "Sprgr. L (100)"
 
+msgid "_105mm_Sprgr_L_100_A"
+msgstr "Sprgr. L (100) A"
+
 msgid "_105mm_Sprgr_L_180A"
 msgstr "Sprgr. L (180A)"
 
@@ -5595,9 +5724,6 @@ msgstr "10WSc"
 
 msgid "_10WSc_CFE_T"
 msgstr "10WSc T"
-
-msgid "_10WSc_FR"
-msgstr "10WSc"
 
 msgid "_10WSc_P"
 msgstr "10WSc P"
@@ -6196,9 +6322,6 @@ msgstr "Gr. 44 Hl/A"
 msgid "_150mm_Gr_HL"
 msgstr "Gr. HL"
 
-msgid "_150mm_Gr_HL_FR"
-msgstr "Gr. HL"
-
 msgid "_150mm_Gr_Hl_A"
 msgstr "Gr. Hl/A"
 
@@ -6221,9 +6344,6 @@ msgid "_150mm_Pak_L_44"
 msgstr "15 cm Pak L/44"
 
 msgid "_150mm_Pak_L_63"
-msgstr "15 cm Pak L/63"
-
-msgid "_150mm_Pak_L_63_FR"
 msgstr "15 cm Pak L/63"
 
 msgid "_150mm_PzGr39H2_SH"
@@ -6250,9 +6370,6 @@ msgstr "Pzgr. 42 (WT IV) T"
 msgid "_150mm_Pzgr_44"
 msgstr "Pzgr. 44"
 
-msgid "_150mm_Pzgr_FR"
-msgstr "Pzgr."
-
 msgid "_150mm_Pzgr_m_Hb"
 msgstr "Pzgr. (m.Hb)"
 
@@ -6276,9 +6393,6 @@ msgstr "Sprgr. 18 (Grille)"
 
 msgid "_150mm_Sprgr_36"
 msgstr "Sprgr. 36"
-
-msgid "_150mm_Sprgr_FR"
-msgstr "Sprgr."
 
 msgid "_150mm_Sprgr_G"
 msgstr "Sprgr. G"
@@ -6787,6 +6901,18 @@ msgstr "Sprgr. 18 (2801)"
 msgid "_50mm_Sprgr_18_II_L"
 msgstr "Sprgr. 18 (II L)"
 
+msgid "_57mm_57_438R_m_70_AP_T_TH_72"
+msgstr "57x438R m/70 AP-T (TH)"
+
+msgid "_57mm_57_438R_m_71_HE_T_TH_72"
+msgstr "57x438R m/71 HE-T (TH)"
+
+msgid "_57mm_57_438R_m_78_APCR_T_TH_72"
+msgstr "57x438R m/78 APCR-T (TH)"
+
+msgid "_57mm_Bofors_L_70_Mk_1_TH_72"
+msgstr "Bofors L/70 Mk.1 (TH)"
+
 msgid "_7.92mm_AP"
 msgstr "Patrone 318 SmK-Rs-L'spur"
 
@@ -6843,6 +6969,9 @@ msgstr "7,5 cm Flak L/60"
 
 msgid "_75mm_Gr_38_HL_C"
 msgstr "Gr 38 HL C"
+
+msgid "_75mm_Gr_Patr_39_HL"
+msgstr "Gr.Patr. 39 HL"
 
 msgid "_75mm_K_Gr_rot_Pz_C"
 msgstr "K.Gr.rot.Pz.C"
@@ -6925,6 +7054,9 @@ msgstr "7,5 cm Kw.K. 42 L/70 (II)"
 msgid "_75mm_PaK_39_L48"
 msgstr "7,5 cm Pak 39 L/48"
 
+msgid "_75mm_PaK_39_L48_C"
+msgstr "7,5 cm Pak 39 L/48 C"
+
 msgid "_75mm_PaK_40_2"
 msgstr "7,5 cm Pak 40/2 L/46"
 
@@ -6979,6 +7111,9 @@ msgstr "Pzgr. 39 Ausf. H"
 msgid "_75mm_Pzgr_39_B"
 msgstr "Pzgr. 39 (B)"
 
+msgid "_75mm_Pzgr_39_BL"
+msgstr "Pzgr 39 BL"
+
 msgid "_75mm_Pzgr_39_E"
 msgstr "Pzgr. 39 (E)"
 
@@ -7027,6 +7162,9 @@ msgstr "Pzgr. 40 Ausf. H"
 msgid "_75mm_Pzgr_40_B"
 msgstr "Pzgr. 40 (B)"
 
+msgid "_75mm_Pzgr_40_BL"
+msgstr "Pzgr 40 BL"
+
 msgid "_75mm_Pzgr_40_E"
 msgstr "Pzgr. 40 (E)"
 
@@ -7057,6 +7195,9 @@ msgstr "Pzgr. 40 T 3001"
 msgid "_75mm_Pzgr_40_Typ_100"
 msgstr "Pzgr. 40 Typ 100"
 
+msgid "_75mm_Pzgr_Patr_39"
+msgstr "Pzgr.Patr. 39"
+
 msgid "_75mm_Sprg.18"
 msgstr "Sprgr 18"
 
@@ -7074,6 +7215,9 @@ msgstr "Sprgr.Patr 18"
 
 msgid "_75mm_Sprg_18_B"
 msgstr "Sprgr. 18 (B)"
+
+msgid "_75mm_Sprg_18_BL"
+msgstr "Sprg 18 BL"
 
 msgid "_75mm_Sprg_34_C"
 msgstr "Sprgr 34 C"
@@ -7123,6 +7267,9 @@ msgstr "Sprgr. 18 T 3001"
 msgid "_75mm_Sprgr_18_Typ_100"
 msgstr "Sprgr. 18 Typ 100"
 
+msgid "_75mm_Sprgr_Patr_37"
+msgstr "Sprgr.Patr. 37"
+
 msgid "_75mm_StuK42_L70"
 msgstr "7,5 cm Pak 42 L/70"
 
@@ -7143,6 +7290,18 @@ msgstr "7,5 cm StuK 40 L/48 (F)"
 
 msgid "_75mm_Waffe0725_1944"
 msgstr "7,5/5,5 cm Kw.K. 44 L/53"
+
+msgid "_76_2mm_BR_350P"
+msgstr "BR-350P"
+
+msgid "_76_2mm_KwK_L41_5"
+msgstr "7.62 cm KwK 41 L/41.5"
+
+msgid "_76_2mm_UBR_350A"
+msgstr "UBR-350A"
+
+msgid "_76_2mm_UOF_350"
+msgstr "UOF-350"
 
 msgid "_76mm_PaK_36r"
 msgstr "7,62 cm Pak 36 (r)"
@@ -7182,6 +7341,9 @@ msgstr "7,5 cm Stu.K. 40 L/43 (B)"
 
 msgid "_7_5_cm_Stu_K_40_L_43_B_short"
 msgstr "7,5 cm Stu.K. 40\nL/43 (B)"
+
+msgid "_7_5_cm_Stu_K_40_L_48_B"
+msgstr "7,5 cm Stu.K. 40 L/48 B"
 
 msgid "_88mm_Flak_37_L56"
 msgstr "8,8 cm Flak 37 L/56"

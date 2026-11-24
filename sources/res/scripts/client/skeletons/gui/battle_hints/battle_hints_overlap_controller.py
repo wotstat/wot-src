@@ -9,7 +9,7 @@ class IBattleHintsOverlapController(object):
         raise NotImplementedError
         return
 
-    def hintShown(self, battleHInt):
+    def hintShown(self, battleHint):
         raise NotImplementedError
         return
 

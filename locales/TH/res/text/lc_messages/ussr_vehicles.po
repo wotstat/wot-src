@@ -283,9 +283,6 @@ msgstr "LTG improved"
 msgid "Chassis_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
 
-msgid "Chassis_R132_VNII_100LT_FR"
-msgstr "T-100 LT BS"
-
 msgid "Chassis_R133_KV_122"
 msgstr "KV-122"
 
@@ -547,6 +544,9 @@ msgstr "T-115"
 msgid "Chassis_R219_Object_265T"
 msgstr "Object 265T"
 
+msgid "Chassis_R222_KV_90"
+msgstr "KV-90"
+
 msgid "Chassis_R225_SU_100i"
 msgstr "SU-100I"
 
@@ -585,6 +585,9 @@ msgstr "T-43"
 
 msgid "Chassis_R23_T-43_2"
 msgstr "T-43 mod. 1943"
+
+msgid "Chassis_R241_T_26_76"
+msgstr "T-26A"
 
 msgid "Chassis_R24_SU-76"
 msgstr "SU-76"
@@ -849,6 +852,9 @@ msgstr "D-744"
 
 msgid "D37812_LL"
 msgstr "D37812"
+
+msgid "DD_1"
+msgstr "DD-1"
 
 msgid "DG"
 msgstr "DG"
@@ -1678,9 +1684,6 @@ msgstr "R-123M"
 msgid "R123U"
 msgstr "R-123U"
 
-msgid "R123_FR"
-msgstr "R-123"
-
 msgid "R123_K"
 msgstr "R-123K"
 
@@ -1827,15 +1830,6 @@ msgstr "LTG"
 
 msgid "R132_VNII_100LT"
 msgstr "T-100 LT"
-
-msgid "R132_VNII_100LT_FR"
-msgstr "T-100 LT BS"
-
-msgid "R132_VNII_100LT_FR_descr"
-msgstr "โครงการสำหรับรถถังเบาที่ใช้อาวุธของ T-100 พัฒนาร่วมกันโดยสถาบันวิจัยหมายเลข 100 และ GSKB-47 (สถาบันออกแบบเฉพาะทางแห่งชาติ) ในช่วงกลางทศวรรษ 1960 รถถังถูกออกแบบมาให้มีเกราะที่ดีพอที่จะกันกระสุนขนาด\n90 มม. (ในกรณีที่กระสุนเข้าด้านหน้า) ได้จากทุกระยะ"
-
-msgid "R132_VNII_100LT_FR_short"
-msgstr "T-100 LT BS"
 
 msgid "R132_VNII_100LT_descr"
 msgstr "โครงการสำหรับรถถังเบาที่ใช้อาวุธของ T-100 พัฒนาร่วมกันโดยสถาบันวิจัยหมายเลข 100 และ GSKB-47 (สถาบันออกแบบเฉพาะทางแห่งชาติ) ในช่วงกลางทศวรรษ 1960 รถถังถูกออกแบบมาให้มีเกราะที่ดีพอที่จะกันกระสุนขนาด 90 มม. (ในกรณีที่กระสุนเข้าด้านหน้า) ได้จากทุกระยะ"
@@ -2803,6 +2797,21 @@ msgstr "Obj. 265T"
 msgid "R219_Object_265T_short_special"
 msgstr "ระบบป้อนกระสุนย้อนกลับกับความว่องไวที่ดี"
 
+msgid "R222_KV_90"
+msgstr "KV-90"
+
+msgid "R222_KV_90_descr"
+msgstr "ในช่วงต้นปี 1942 มีหลายองค์กรออกแบบในสหภาพโซเวียตมีความคิดที่จะสร้างรถถังหนักยิ่งยวดขึ้นมาและทำให้มีการนำเสนอโครงการรถถังแบบหลายโครงการด้วยกัน หนึ่งในโครงการดังกล่าวคือรถถัง KV-90 ซึ่งนักออกแบบได้เลือกใช้อะไหล่และส่วนประกอบจากรถถัง KV ที่มีการผลิตจำนวนมากและยานเกราะอื่นๆของโซเวียตเข้ามาใช้ พวกเขาคาดไว้ว่ารถถังเหล่านี้น่าจะถูกนำมาใช้ในการผลักดันแนวป้องกันข้าศึกระหว่างเส้นทางการโจมตีหลักของกองทัพโซเวียต การพัฒนาของโครงการนี้ถูกหยุดลงในช่วงการขึ้นร่างแบบพิมพ์เขียว"
+
+msgid "R222_KV_90_long_special"
+msgstr "KV-90 เป็นรถถังหนักจู่โจมโซเวียตระดับ IX ยักษ์ใหญ่คันนี้มีเกราะจำนวนมหาศาลและปืนเรือ 130 มม.อันทรงพลัง แม้ว่าจะไม่ได้มีความคล่องตัวมากนัก มันก็สามารถจะปิดแนวรบทั้งแนวหรือค่อยๆผลักดันฝ่าแม้แต่แนวป้องกันที่ทนทานที่สุดได้"
+
+msgid "R222_KV_90_short"
+msgstr "KV-90"
+
+msgid "R222_KV_90_short_special"
+msgstr "เกราะโดยรวมที่ดี, ความเสียหายต่อนัด"
+
 msgid "R225_SU_100i"
 msgstr "SU-100I"
 
@@ -2976,6 +2985,21 @@ msgstr "T-43"
 
 msgid "R23_T-43_descr"
 msgstr "ออกแบบเพื่อนำมาแทน T-34 ในฤดูใบไม้ผลิปี 1942 โดย T-43 ได้รับคำแนะนำให้เข้าประจำการแต่การพัฒนาของโครงการถูกหยุดลงเพื่อหลีกทางให้กับการปรับปรุง T-34 พาหนะไม่เคยได้เข้าสายการผลิตจำนวนมาก"
+
+msgid "R241_T_26_76"
+msgstr "T-26A"
+
+msgid "R241_T_26_76_descr"
+msgstr "ในปี 1933 แผนกออกแบบของโรงผลิตเครื่องจักรทดลองคิรอฟได้พัฒนา T-26A Artillery (T-26-4) โดยมีต้นแบบจากรถถัง T-26 ที่ผลิตจำนวนมาก การทดสอบต้นแบบคันนี้เริ่มในเดือนกันยายนปีเดียวกัน ตั้งแต่ปี 1933 ถึง 1935 ชุดพาหนะทดลองห้าคันได้ถูกผลิตขึ้น ต่อมา ป้อมปืนรุ่นปรับปรุงของ T-26-4 ที่ปรับปรุงก็ถูกนำมาติดตั้งบนตัวถังรถถัง BT-7A ที่ผลิตจำนวนมาก"
+
+msgid "R241_T_26_76_long_special"
+msgstr "T-26A เป็นรถถังเบาโซเวียตระดับ III การดัดแปลงของรถถัง T-26 นี้ติดตั้งปืนใหญ่ 76 มม.ที่ใช้กระสุนเจาะเกราะและระเบิดแรงสูงที่ความเร็วต่ำแต่มีความเสียหายต่อนัดสูง อย่างไรก็ตาม T-26 นั้นไม่มีความเร็วสูงสุดเพื่อเข้าแนวรบอย่างรวดเร็วทำให้เหมาะที่สุดสำหรับการเป็นหน่วยรบสนับสนุนแนวหลังมากกว่าการขึ้นแนวหน้า"
+
+msgid "R241_T_26_76_short"
+msgstr "T-26A"
+
+msgid "R241_T_26_76_short_special"
+msgstr "ความเสียหายต่อนัดและความเสียหายต่อนาทีสูง"
 
 msgid "R24_SU-76"
 msgstr "SU-76M"
@@ -3592,6 +3616,9 @@ msgstr "TD-30"
 msgid "TD_30_A"
 msgstr "M-50D"
 
+msgid "T_26A"
+msgstr "T-26A"
+
 msgid "T_50_2"
 msgstr "T-50-2"
 
@@ -3777,9 +3804,6 @@ msgstr "LTG"
 
 msgid "Turret_1_R132_VNII_100LT"
 msgstr "T-100 LT (Article 64992)"
-
-msgid "Turret_1_R132_VNII_100LT_FR"
-msgstr "T-100 LT BS"
 
 msgid "Turret_1_R133_KV_122"
 msgstr "KV-122"
@@ -4045,6 +4069,9 @@ msgstr "Veles"
 msgid "Turret_1_R23_T-43"
 msgstr "T-43 mod. 1942"
 
+msgid "Turret_1_R241_T_26_76"
+msgstr "T-26A"
+
 msgid "Turret_1_R24_SU-76"
 msgstr "SU-76M"
 
@@ -4276,6 +4303,9 @@ msgstr "IS-3"
 msgid "Turret_2_R20_T-44"
 msgstr "T-44-100"
 
+msgid "Turret_2_R222_KV_90"
+msgstr "KV-90"
+
 msgid "Turret_2_R23_T-43"
 msgstr "T-43 mod. 1943"
 
@@ -4340,9 +4370,6 @@ msgid "Turret_IS-7_fallout"
 msgstr "IS-7"
 
 msgid "UTD_20"
-msgstr "UTD-20"
-
-msgid "UTD_20_FR"
 msgstr "UTD-20"
 
 msgid "UTD_45A"
@@ -4849,22 +4876,13 @@ msgstr "3UOF (LM)"
 msgid "_100mm_3VBB"
 msgstr "3VBB"
 
-msgid "_100mm_3VBB_FR"
-msgstr "3VBB"
-
 msgid "_100mm_3VBM"
 msgstr "3VBM"
 
 msgid "_100mm_3VBM2_SH"
 msgstr "3VBM-2"
 
-msgid "_100mm_3VBM_FR"
-msgstr "3VBM"
-
 msgid "_100mm_3VOF"
-msgstr "3VOF"
-
-msgid "_100mm_3VOF_FR"
 msgstr "3VOF"
 
 msgid "_100mm_BR-412A"
@@ -4979,9 +4997,6 @@ msgid "_100mm_S_34D_IS_2_II"
 msgstr "100 mm S-34D (IS-2-II)"
 
 msgid "_100mm_T_100"
-msgstr "100 mm T-100"
-
-msgid "_100mm_T_100_FR"
 msgstr "100 mm T-100"
 
 msgid "_100mm_T_12A"
@@ -5421,6 +5436,9 @@ msgstr "10RT-26E"
 
 msgid "_10RT_26E1"
 msgstr "10RT-26"
+
+msgid "_10RT_KV"
+msgstr "10-RT"
 
 msgid "_12.7mm_AP_B32"
 msgstr "B-32"
@@ -6217,6 +6235,9 @@ msgstr "53-VOF-482VS"
 msgid "_130mm_B-13-S2"
 msgstr "130 mm B-13-S2"
 
+msgid "_130mm_B7_IIT"
+msgstr "130 mm B7-IIT"
+
 msgid "_130mm_B_13"
 msgstr "130 mm B-13"
 
@@ -6244,6 +6265,9 @@ msgstr "130 mm M-65"
 msgid "_130mm_OF-46"
 msgstr "OF-46"
 
+msgid "_130mm_OF_46_KV"
+msgstr "OF 46K"
+
 msgid "_130mm_PB-46"
 msgstr "PB-46"
 
@@ -6255,6 +6279,9 @@ msgstr "PB-46T"
 
 msgid "_130mm_PB-46TA"
 msgstr "PB-46TA"
+
+msgid "_130mm_PB_46_KV"
+msgstr "PB 46K"
 
 msgid "_130mm_S-26A"
 msgstr "130 mm S-26"
@@ -6336,6 +6363,9 @@ msgstr "UOF-482"
 
 msgid "_130mm_ZBK60M"
 msgstr "ZBK60M"
+
+msgid "_130mm_ZBK_46A_KV"
+msgstr "ZBK46A"
 
 msgid "_136mm_BK_79"
 msgstr "BK-79"
@@ -7210,6 +7240,9 @@ msgstr "71-TK-3U"
 msgid "_71-TK-IT"
 msgstr "71-TK-IT"
 
+msgid "_71_TK_1A"
+msgstr "71-TK-1A"
+
 msgid "_71_TK_1SH"
 msgstr "71-TK-1SH"
 
@@ -7284,6 +7317,9 @@ msgstr "76 mm KT-28"
 
 msgid "_76mm_KT-IT"
 msgstr "76 mm KT-IT"
+
+msgid "_76mm_KT_28B"
+msgstr "76 mm KT-28B"
 
 msgid "_76mm_L-10"
 msgstr "76 mm L-10"
@@ -7372,6 +7408,9 @@ msgstr "UBR-354A (T-34/F)"
 msgid "_76mm_UBR_354KA_T_28"
 msgstr "UBR-354KA (T-28)"
 
+msgid "_76mm_UBR_354KC"
+msgstr "UBR-354KC"
+
 msgid "_76mm_UBR_354MA_MT_25"
 msgstr "UBR-354MA (MT-25)"
 
@@ -7416,6 +7455,9 @@ msgstr "UOF-354KA"
 
 msgid "_76mm_UOF-354M"
 msgstr "UOF-354M"
+
+msgid "_76mm_UOF_354KC"
+msgstr "UOF-354KC"
 
 msgid "_76mm_UOF_354K_T_28"
 msgstr "UOF-354K (T-28)"

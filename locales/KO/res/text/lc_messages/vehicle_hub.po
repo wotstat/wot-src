@@ -382,6 +382,9 @@ msgstr "해당 전차의 주포에 장착된 특별 장치를 사용하여 사�
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "정지 상태를 유지하거나 일정 속력 이하로 이동하면 전차의 아날로그식 탄도 계산기가 보정됨에 따라 명중률 단계가 증가하여 다음 사격 명중률이 향상됩니다. 속력 제한을 초과하면 속력을 줄일 때까지 명중률 단계 상승이 중단됩니다. 명중률 최고 단계에 도달하면 기동 또는 포탑/차체 회전 시 분산도가 감소하는 등 전차 주포 안정성이 준수한 수준으로 향상됩니다. 사격 시 효과가 사라집니다."
 
+msgid "characteristics/abilities/special/description/autoreloaderSurge"
+msgstr "해당 장치는 포탄 재장전 시간을 짧은 고정 시간으로 즉시 변경합니다. 사용할 때마다 포탄 한 발당 충전 횟수 1회가 소모되며, 충전 횟수는 시간이 지나면 보충됩니다. 클립이 전체 장전되어 있을 때 더 빠르게 보충되며, 전투 시작 시 일정량의 충전 횟수가 주어집니다."
+
 msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
 msgstr "해당 전차는 포방패에 로켓 발사기를 장착하였습니다. 능력을 활성화하면 보조 무기 조준 시점으로 전환되며 발사 버튼으로 비유도 고폭 로켓을 발사할 수 있습니다."
 

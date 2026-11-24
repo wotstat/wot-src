@@ -663,6 +663,38 @@ var timeFormats = { full: DateTimeFormatsEnum.FullTime, short: DateTimeFormatsEn
 function formatTime(e, t, n = !0) {
   return window.regionalDateTime.getRegionalDateTime(t, e, n);
 }
+function getDateParts(e) {
+  const t = new Date(1e3 * e);
+  return {
+    year: t.getFullYear(),
+    month: t.getMonth() + 1,
+    hours: t.getHours(),
+    minutes: t.getMinutes(),
+    seconds: t.getSeconds(),
+  };
+}
+function isSameTime(e, t) {
+  return e.hours === t.hours && e.minutes === t.minutes && e.seconds === t.seconds;
+}
+function getRangeFormatPath(e, t) {
+  const n = e.year === t.year;
+  return [
+    "datetime_formats",
+    "dateRange",
+    "dateWithYear",
+    n ? "sameYear" : "differentYear",
+    n && e.month === t.month ? "sameMonth" : "differentMonth",
+    isSameTime(e, t) ? "sameTime" : "differentTime",
+  ].join(".");
+}
+function formatRange(e, t) {
+  const n = getRangeFormatPath(getDateParts(e), getDateParts(t)),
+    r = resources.resolve("strings");
+  return {
+    start: window.regionalDateTime.getFormattedDateTime(e, r.readOrEmpty(`${n}.start`), !0),
+    end: window.regionalDateTime.getFormattedDateTime(t, r.readOrEmpty(`${n}.end`), !0),
+  };
+}
 var intl$3 = {
     isNumberFormat: isNumberFormat,
     formatNumber: formatNumber$1,
@@ -674,6 +706,7 @@ var intl$3 = {
     dateTimeFormats: DateTimeFormatsEnum,
     formatTime: formatTime,
     timeFormats: timeFormatList,
+    formatRange: formatRange,
     toUpperCase: (e) => window.systemLocale.toUpperCase(e),
     toLowerCase: (e) => window.systemLocale.toLowerCase(e),
   },
@@ -1840,10 +1873,10 @@ var require_react_production = __commonJSMin((e) => {
         n = _d(t, e.type);
       t !== n && (L(V, e), L(z, n));
     }
-    function K(e) {
+    function Y(e) {
       (V.current === e && (M(z), M(V)), H.current === e && (M(H), (lf._currentValue = P)));
     }
-    function Y(e) {
+    function K(e) {
       if (void 0 === U)
         try {
           throw Error();
@@ -1946,20 +1979,20 @@ var require_react_production = __commonJSMin((e) => {
       } finally {
         ((X = !1), (Error.prepareStackTrace = n));
       }
-      return (n = e ? e.displayName || e.name : "") ? Y(n) : "";
+      return (n = e ? e.displayName || e.name : "") ? K(n) : "";
     }
     function J(e, t) {
       switch (e.tag) {
         case 26:
         case 27:
         case 5:
-          return Y(e.type);
+          return K(e.type);
         case 16:
-          return Y("Lazy");
+          return K("Lazy");
         case 13:
-          return e.child !== t && null !== t ? Y("Suspense Fallback") : Y("Suspense");
+          return e.child !== t && null !== t ? K("Suspense Fallback") : K("Suspense");
         case 19:
-          return Y("SuspenseList");
+          return K("SuspenseList");
         case 0:
         case 15:
           return Z(e.type, !1);
@@ -1968,7 +2001,7 @@ var require_react_production = __commonJSMin((e) => {
         case 1:
           return Z(e.type, !0);
         case 31:
-          return Y("Activity");
+          return K("Activity");
         default:
           return "";
       }
@@ -2247,14 +2280,14 @@ var require_react_production = __commonJSMin((e) => {
       }
       return null;
     }
-    function Ke(e) {
+    function Ye(e) {
       if ((e = e[Le] || e[je])) {
         var t = e.tag;
         if (5 === t || 6 === t || 13 === t || 31 === t || 26 === t || 27 === t || 3 === t) return e;
       }
       return null;
     }
-    function Ye(e) {
+    function Ke(e) {
       var t = e.tag;
       if (5 === t || 26 === t || 27 === t || 6 === t) return e.stateNode;
       throw Error(a(33));
@@ -2654,7 +2687,7 @@ var require_react_production = __commonJSMin((e) => {
     var Rt = null,
       Pt = null;
     function $t(e) {
-      var t = Ke(e);
+      var t = Ye(e);
       if (t && (e = t.stateNode)) {
         var n = e[Ue] || null;
         e: switch (((e = t.stateNode), t.type)) {
@@ -2771,7 +2804,7 @@ var require_react_production = __commonJSMin((e) => {
         }),
           window.addEventListener("test", jt, jt),
           window.removeEventListener("test", jt, jt));
-      } catch (Yf) {
+      } catch (Kf) {
         Ut = !1;
       }
     var zt = null,
@@ -2804,7 +2837,7 @@ var require_react_production = __commonJSMin((e) => {
     function Qt() {
       return !1;
     }
-    function Kt(e) {
+    function Yt(e) {
       function t(t, n, r, a, o) {
         for (var i in ((this._reactName = t),
         (this._targetInst = r),
@@ -2849,7 +2882,7 @@ var require_react_production = __commonJSMin((e) => {
         t
       );
     }
-    var Yt,
+    var Kt,
       Xt,
       Zt,
       Jt = {
@@ -2862,9 +2895,9 @@ var require_react_production = __commonJSMin((e) => {
         defaultPrevented: 0,
         isTrusted: 0,
       },
-      en = Kt(Jt),
+      en = Yt(Jt),
       tn = d({}, Jt, { view: 0, detail: 0 }),
-      nn = Kt(tn),
+      nn = Yt(tn),
       rn = d({}, tn, {
         screenX: 0,
         screenY: 0,
@@ -2891,27 +2924,27 @@ var require_react_production = __commonJSMin((e) => {
             ? e.movementX
             : (e !== Zt &&
                 (Zt && "mousemove" === e.type
-                  ? ((Yt = e.screenX - Zt.screenX), (Xt = e.screenY - Zt.screenY))
-                  : (Xt = Yt = 0),
+                  ? ((Kt = e.screenX - Zt.screenX), (Xt = e.screenY - Zt.screenY))
+                  : (Xt = Kt = 0),
                 (Zt = e)),
-              Yt);
+              Kt);
         },
         movementY: function (e) {
           return "movementY" in e ? e.movementY : Xt;
         },
       }),
-      an = Kt(rn),
-      on = Kt(d({}, rn, { dataTransfer: 0 })),
-      sn = Kt(d({}, tn, { relatedTarget: 0 })),
-      un = Kt(d({}, Jt, { animationName: 0, elapsedTime: 0, pseudoElement: 0 })),
-      ln = Kt(
+      an = Yt(rn),
+      on = Yt(d({}, rn, { dataTransfer: 0 })),
+      sn = Yt(d({}, tn, { relatedTarget: 0 })),
+      un = Yt(d({}, Jt, { animationName: 0, elapsedTime: 0, pseudoElement: 0 })),
+      ln = Yt(
         d({}, Jt, {
           clipboardData: function (e) {
             return "clipboardData" in e ? e.clipboardData : window.clipboardData;
           },
         }),
       ),
-      cn = Kt(d({}, Jt, { data: 0 })),
+      cn = Yt(d({}, Jt, { data: 0 })),
       dn = {
         Esc: "Escape",
         Spacebar: " ",
@@ -2972,7 +3005,7 @@ var require_react_production = __commonJSMin((e) => {
     function hn() {
       return mn;
     }
-    var _n = Kt(
+    var _n = Yt(
         d({}, tn, {
           key: function (e) {
             if (e.key) {
@@ -3011,7 +3044,7 @@ var require_react_production = __commonJSMin((e) => {
           },
         }),
       ),
-      gn = Kt(
+      gn = Yt(
         d({}, rn, {
           pointerId: 0,
           width: 0,
@@ -3025,7 +3058,7 @@ var require_react_production = __commonJSMin((e) => {
           isPrimary: 0,
         }),
       ),
-      bn = Kt(
+      bn = Yt(
         d({}, tn, {
           touches: 0,
           targetTouches: 0,
@@ -3037,8 +3070,8 @@ var require_react_production = __commonJSMin((e) => {
           getModifierState: hn,
         }),
       ),
-      vn = Kt(d({}, Jt, { propertyName: 0, elapsedTime: 0, pseudoElement: 0 })),
-      yn = Kt(
+      vn = Yt(d({}, Jt, { propertyName: 0, elapsedTime: 0, pseudoElement: 0 })),
+      yn = Yt(
         d({}, rn, {
           deltaX: function (e) {
             return "deltaX" in e ? e.deltaX : "wheelDeltaX" in e ? -e.wheelDeltaX : 0;
@@ -3056,7 +3089,7 @@ var require_react_production = __commonJSMin((e) => {
           deltaMode: 0,
         }),
       ),
-      En = Kt(d({}, Jt, { newState: 0, oldState: 0 })),
+      En = Yt(d({}, Jt, { newState: 0, oldState: 0 })),
       An = [9, 13, 27, 32],
       Sn = Lt && "CompositionEvent" in window,
       wn = null;
@@ -3115,7 +3148,7 @@ var require_react_production = __commonJSMin((e) => {
       qc(e, 0);
     }
     function Mn(e) {
-      if (ft(Ye(e))) return e;
+      if (ft(Ke(e))) return e;
     }
     function Ln(e, t) {
       if ("change" === e) return t;
@@ -3153,24 +3186,24 @@ var require_react_production = __commonJSMin((e) => {
     function Qn(e, t) {
       if ("click" === e) return Mn(t);
     }
-    function Kn(e, t) {
+    function Yn(e, t) {
       if ("input" === e || "change" === e) return Mn(t);
     }
-    var Yn =
+    var Kn =
       "function" == typeof Object.is
         ? Object.is
         : function (e, t) {
             return (e === t && (0 !== e || 1 / e == 1 / t)) || (e != e && t != t);
           };
     function Xn(e, t) {
-      if (Yn(e, t)) return !0;
+      if (Kn(e, t)) return !0;
       if ("object" != typeof e || null === e || "object" != typeof t || null === t) return !1;
       var n = Object.keys(e),
         r = Object.keys(t);
       if (n.length !== r.length) return !1;
       for (r = 0; r < n.length; r++) {
         var a = n[r];
-        if (!te.call(t, a) || !Yn(e[a], t[a])) return !1;
+        if (!te.call(t, a) || !Kn(e[a], t[a])) return !1;
       }
       return !0;
     }
@@ -3602,15 +3635,15 @@ var require_react_production = __commonJSMin((e) => {
     }
     var qr = [],
       Qr = 0,
-      Kr = null,
-      Yr = 0,
+      Yr = null,
+      Kr = 0,
       Xr = [],
       Zr = 0,
       Jr = null,
       ea = 1,
       ta = "";
     function na(e, t) {
-      ((qr[Qr++] = Yr), (qr[Qr++] = Kr), (Kr = e), (Yr = t));
+      ((qr[Qr++] = Kr), (qr[Qr++] = Yr), (Yr = e), (Kr = t));
     }
     function ra(e, t, n) {
       ((Xr[Zr++] = ea), (Xr[Zr++] = ta), (Xr[Zr++] = Jr), (Jr = e));
@@ -3632,7 +3665,7 @@ var require_react_production = __commonJSMin((e) => {
       null !== e.return && (na(e, 1), ra(e, 1, 0));
     }
     function oa(e) {
-      for (; e === Kr;) ((Kr = qr[--Qr]), (qr[Qr] = null), (Yr = qr[--Qr]), (qr[Qr] = null));
+      for (; e === Yr;) ((Yr = qr[--Qr]), (qr[Qr] = null), (Kr = qr[--Qr]), (qr[Qr] = null));
       for (; e === Jr;)
         ((Jr = Xr[--Zr]),
           (Xr[Zr] = null),
@@ -3839,7 +3872,7 @@ var require_react_production = __commonJSMin((e) => {
           if (null === s) throw Error(a(387));
           if (null !== (s = s.memoizedProps)) {
             var u = o.type;
-            Yn(o.pendingProps.value, s.value) || (null !== e ? e.push(u) : (e = [u]));
+            Kn(o.pendingProps.value, s.value) || (null !== e ? e.push(u) : (e = [u]));
           }
         } else if (o === H.current) {
           if (null === (s = o.alternate)) throw Error(a(387));
@@ -3852,7 +3885,7 @@ var require_react_production = __commonJSMin((e) => {
     }
     function Da(e) {
       for (e = e.firstContext; null !== e;) {
-        if (!Yn(e.context._currentValue, e.memoizedValue)) return !0;
+        if (!Kn(e.context._currentValue, e.memoizedValue)) return !0;
         e = e.next;
       }
       return !1;
@@ -3959,8 +3992,8 @@ var require_react_production = __commonJSMin((e) => {
       var e = Ga();
       return null === e ? null : { parent: Na._currentValue, pool: e };
     }
-    var Ka = Error(a(460)),
-      Ya = Error(a(474)),
+    var Ya = Error(a(460)),
+      Ka = Error(a(474)),
       Xa = Error(a(542)),
       Za = { then: function () {} };
     function Ja(e) {
@@ -4000,14 +4033,14 @@ var require_react_production = __commonJSMin((e) => {
             case "rejected":
               throw (ao((e = t.reason)), e);
           }
-          throw ((no = t), Ka);
+          throw ((no = t), Ya);
       }
     }
     function to(e) {
       try {
         return (0, e._init)(e._payload);
       } catch (t) {
-        if (null !== t && "object" == typeof t && "function" == typeof t.then) throw ((no = t), Ka);
+        if (null !== t && "object" == typeof t && "function" == typeof t.then) throw ((no = t), Ya);
         throw t;
       }
     }
@@ -4018,7 +4051,7 @@ var require_react_production = __commonJSMin((e) => {
       return ((no = null), e);
     }
     function ao(e) {
-      if (e === Ka || e === Xa) throw Error(a(483));
+      if (e === Ya || e === Xa) throw Error(a(483));
     }
     var oo = null,
       io = 0;
@@ -4326,7 +4359,7 @@ var require_react_production = __commonJSMin((e) => {
           var a = b(e, t, n, r);
           return ((oo = null), a);
         } catch (i) {
-          if (i === Ka || i === Xa) throw i;
+          if (i === Ya || i === Xa) throw i;
           var o = Nr(29, i, null, e.mode);
           return ((o.lanes = r), (o.return = e), o);
         }
@@ -4564,14 +4597,14 @@ var require_react_production = __commonJSMin((e) => {
       Go = !1,
       qo = 0,
       Qo = 0,
-      Ko = null,
-      Yo = 0;
+      Yo = null,
+      Ko = 0;
     function Xo() {
       throw Error(a(321));
     }
     function Zo(e, t) {
       if (null === t) return !1;
-      for (var n = 0; n < t.length && n < e.length; n++) if (!Yn(e[n], t[n])) return !1;
+      for (var n = 0; n < t.length && n < e.length; n++) if (!Kn(e[n], t[n])) return !1;
       return !0;
     }
     function Jo(e, t, n, r, a, o) {
@@ -4593,7 +4626,7 @@ var require_react_production = __commonJSMin((e) => {
     function ei(e) {
       B.H = ps;
       var t = null !== zo && null !== zo.next;
-      if (((Uo = 0), (Vo = zo = jo = null), (Wo = !1), (Qo = 0), (Ko = null), t))
+      if (((Uo = 0), (Vo = zo = jo = null), (Wo = !1), (Qo = 0), (Yo = null), t))
         throw Error(a(300));
       null === e || ks || (null !== (e = e.dependencies) && Da(e) && (ks = !0));
     }
@@ -4601,7 +4634,7 @@ var require_react_production = __commonJSMin((e) => {
       jo = e;
       var o = 0;
       do {
-        if ((Ho && (Ko = null), (Qo = 0), (Ho = !1), 25 <= o)) throw Error(a(301));
+        if ((Ho && (Yo = null), (Qo = 0), (Ho = !1), 25 <= o)) throw Error(a(301));
         if (((o += 1), (Vo = zo = null), null != e.updateQueue)) {
           var i = e.updateQueue;
           ((i.lastEffect = null),
@@ -4638,7 +4671,7 @@ var require_react_production = __commonJSMin((e) => {
         }
         Wo = !1;
       }
-      ((Uo = 0), (Vo = zo = jo = null), (Ho = !1), (Qo = qo = 0), (Ko = null));
+      ((Uo = 0), (Vo = zo = jo = null), (Ho = !1), (Qo = qo = 0), (Yo = null));
     }
     function ii() {
       var e = { memoizedState: null, baseState: null, baseQueue: null, queue: null, next: null };
@@ -4671,8 +4704,8 @@ var require_react_production = __commonJSMin((e) => {
       var t = Qo;
       return (
         (Qo += 1),
-        null === Ko && (Ko = []),
-        (e = eo(Ko, e, t)),
+        null === Yo && (Yo = []),
+        (e = eo(Yo, e, t)),
         (t = jo),
         null === (null === Vo ? t.memoizedState : Vo.next) &&
           ((t = t.alternate), (B.H = null === t || null === t.memoizedState ? ms : hs)),
@@ -4790,7 +4823,7 @@ var require_react_production = __commonJSMin((e) => {
         } while (null !== c && c !== t);
         if (
           (null === l ? (s = i) : (l.next = u),
-          !Yn(i, e.memoizedState) && ((ks = !0), d && null !== (n = za)))
+          !Kn(i, e.memoizedState) && ((ks = !0), d && null !== (n = za)))
         )
           throw n;
         ((e.memoizedState = i), (e.baseState = s), (e.baseQueue = l), (r.lastRenderedState = i));
@@ -4811,7 +4844,7 @@ var require_react_production = __commonJSMin((e) => {
         do {
           ((i = e(i, s.action)), (s = s.next));
         } while (s !== o);
-        (Yn(i, t.memoizedState) || (ks = !0),
+        (Kn(i, t.memoizedState) || (ks = !0),
           (t.memoizedState = i),
           null === t.baseQueue && (t.baseState = i),
           (n.lastRenderedState = i));
@@ -4826,7 +4859,7 @@ var require_react_production = __commonJSMin((e) => {
         if (void 0 === n) throw Error(a(407));
         n = n();
       } else n = t();
-      var s = !Yn((zo || o).memoizedState, n);
+      var s = !Kn((zo || o).memoizedState, n);
       if (
         (s && ((o.memoizedState = n), (ks = !0)),
         (o = o.queue),
@@ -4867,7 +4900,7 @@ var require_react_production = __commonJSMin((e) => {
       e = e.value;
       try {
         var n = t();
-        return !Yn(e, n);
+        return !Kn(e, n);
       } catch (r) {
         return !0;
       }
@@ -5055,7 +5088,7 @@ var require_react_production = __commonJSMin((e) => {
         try {
           var r = ui(t);
         } catch (i) {
-          if (i === Ka) throw Xa;
+          if (i === Ya) throw Xa;
           throw i;
         }
       else r = t;
@@ -5181,16 +5214,16 @@ var require_react_production = __commonJSMin((e) => {
       }
       return ((n.memoizedState = [r, t]), r);
     }
-    function Ki(e, t, n) {
+    function Yi(e, t, n) {
       return void 0 === n || (1073741824 & Uo && !(261930 & ml))
         ? (e.memoizedState = t)
         : ((e.memoizedState = n), (e = Hl()), (jo.lanes |= e), (Al |= e), n);
     }
-    function Yi(e, t, n, r) {
-      return Yn(n, t)
+    function Ki(e, t, n, r) {
+      return Kn(n, t)
         ? n
         : null !== Co.current
-          ? ((e = Ki(e, n, r)), Yn(e, t) || (ks = !0), e)
+          ? ((e = Yi(e, n, r)), Kn(e, t) || (ks = !0), e)
           : 42 & Uo && (!(1073741824 & Uo) || 261930 & ml)
             ? ((e = Hl()), (jo.lanes |= e), (Al |= e), t)
             : ((ks = !0), (e.memoizedState = n));
@@ -5355,7 +5388,7 @@ var require_react_production = __commonJSMin((e) => {
           try {
             var i = t.lastRenderedState,
               s = o(i, n);
-            if (((a.hasEagerState = !0), (a.eagerState = s), Yn(s, i)))
+            if (((a.hasEagerState = !0), (a.eagerState = s), Kn(s, i)))
               return (Or(e, t, a, 0), null === fl && Dr(), !1);
           } catch (u) {}
         if (null !== (n = Fr(e, t, a, r))) return (Gl(n, e, r), fs(n, t, r), !0);
@@ -5487,7 +5520,7 @@ var require_react_production = __commonJSMin((e) => {
         },
         useDebugValue: Gi,
         useDeferredValue: function (e, t) {
-          return Ki(ii(), e, t);
+          return Yi(ii(), e, t);
         },
         useTransition: function () {
           var e = Ei(!1);
@@ -5521,7 +5554,7 @@ var require_react_production = __commonJSMin((e) => {
             ((t = "_" + t + "R_" + (n = (ea & ~(1 << (32 - be(ea) - 1))).toString(32) + n)),
               0 < (n = qo++) && (t += "H" + n.toString(32)),
               (t += "_"));
-          } else t = "_" + t + "r_" + (n = Yo++).toString(32) + "_";
+          } else t = "_" + t + "r_" + (n = Ko++).toString(32) + "_";
           return (e.memoizedState = t);
         },
         useHostTransitionStatus: ns,
@@ -5572,7 +5605,7 @@ var require_react_production = __commonJSMin((e) => {
         },
         useDebugValue: Gi,
         useDeferredValue: function (e, t) {
-          return Yi(si(), zo.memoizedState, e, t);
+          return Ki(si(), zo.memoizedState, e, t);
         },
         useTransition: function () {
           var e = fi(di)[0],
@@ -5609,7 +5642,7 @@ var require_react_production = __commonJSMin((e) => {
       useDebugValue: Gi,
       useDeferredValue: function (e, t) {
         var n = si();
-        return null === zo ? Ki(n, e, t) : Yi(n, zo.memoizedState, e, t);
+        return null === zo ? Yi(n, e, t) : Ki(n, zo.memoizedState, e, t);
       },
       useTransition: function () {
         var e = mi(di)[0],
@@ -6050,7 +6083,7 @@ var require_react_production = __commonJSMin((e) => {
     function Qs(e, t, n) {
       return ((e = null !== e ? e.childLanes & ~n : 0), t && (e |= xl), e);
     }
-    function Ks(e, t, n) {
+    function Ys(e, t, n) {
       var r,
         o = t.pendingProps,
         i = !1,
@@ -6098,7 +6131,7 @@ var require_react_production = __commonJSMin((e) => {
               (o.childLanes = Qs(e, r, n)),
               (t.memoizedState = Gs),
               Is(null, o))
-            : (Ro(t), Ys(t, u))
+            : (Ro(t), Ks(t, u))
         );
       }
       var l = e.memoizedState;
@@ -6143,7 +6176,7 @@ var require_react_production = __commonJSMin((e) => {
               (ca = null),
               (da = !1),
               null !== e && ia(t, e),
-              ((t = Ys(t, o.children)).flags |= 4096));
+              ((t = Ks(t, o.children)).flags |= 4096));
         return t;
       }
       return i
@@ -6180,7 +6213,7 @@ var require_react_production = __commonJSMin((e) => {
           (t.memoizedState = null),
           n);
     }
-    function Ys(e, t) {
+    function Ks(e, t) {
       return (((t = Xs({ mode: "visible", children: t }, e.mode)).return = e), (e.child = t));
     }
     function Xs(e, t) {
@@ -6189,7 +6222,7 @@ var require_react_production = __commonJSMin((e) => {
     function Zs(e, t, n) {
       return (
         fo(t, e.child, null, n),
-        ((e = Ys(t, t.pendingProps.children)).flags |= 2),
+        ((e = Ks(t, t.pendingProps.children)).flags |= 2),
         (t.memoizedState = null),
         e
       );
@@ -6230,7 +6263,7 @@ var require_react_production = __commonJSMin((e) => {
         (s ? ((i = (1 & i) | 2), (t.flags |= 128)) : (i &= 1),
         L(Mo, i),
         Bs(e, t, r, n),
-        (r = la ? Yr : 0),
+        (r = la ? Kr : 0),
         !s && null !== e && 128 & e.flags)
       )
         e: for (e = t.child; null !== e;) {
@@ -6324,7 +6357,7 @@ var require_react_production = __commonJSMin((e) => {
                       return null !== r.dehydrated
                         ? (Ro(t), (t.flags |= 128), null)
                         : 0 !== (n & t.child.childLanes)
-                          ? Ks(e, t, n)
+                          ? Ys(e, t, n)
                           : (Ro(t), null !== (e = nu(e, t, n)) ? e.sibling : null);
                     Ro(t);
                     break;
@@ -6356,7 +6389,7 @@ var require_react_production = __commonJSMin((e) => {
             );
           ks = !!(131072 & e.flags);
         }
-      else ((ks = !1), la && 1048576 & t.flags && ra(t, Yr, t.index));
+      else ((ks = !1), la && 1048576 & t.flags && ra(t, Kr, t.index));
       switch (((t.lanes = 0), t.tag)) {
         case 16:
           e: {
@@ -6560,7 +6593,7 @@ var require_react_production = __commonJSMin((e) => {
             null
           );
         case 13:
-          return Ks(e, t, n);
+          return Ys(e, t, n);
         case 4:
           return (
             G(t, t.stateNode.containerInfo),
@@ -6696,7 +6729,7 @@ var require_react_production = __commonJSMin((e) => {
         if (((e.flags |= 16777216), (335544128 & a) === a))
           if (e.stateNode.complete) e.flags |= 8192;
           else {
-            if (!tc()) throw ((no = Za), Ya);
+            if (!tc()) throw ((no = Za), Ka);
             e.flags |= 8192;
           }
       } else e.flags &= -16777217;
@@ -6704,7 +6737,7 @@ var require_react_production = __commonJSMin((e) => {
     function su(e, t) {
       if ("stylesheet" !== t.type || 4 & t.state.loading) e.flags &= -16777217;
       else if (((e.flags |= 16777216), !nf(t))) {
-        if (!tc()) throw ((no = Za), Ya);
+        if (!tc()) throw ((no = Za), Ka);
         e.flags |= 8192;
       }
     }
@@ -6796,7 +6829,7 @@ var require_react_production = __commonJSMin((e) => {
             null
           );
         case 27:
-          if ((K(t), (n = W.current), (o = t.type), null !== e && null != t.stateNode))
+          if ((Y(t), (n = W.current), (o = t.type), null !== e && null != t.stateNode))
             e.memoizedProps !== r && ou(t);
           else {
             if (!r) {
@@ -6807,7 +6840,7 @@ var require_react_production = __commonJSMin((e) => {
           }
           return (cu(t), null);
         case 5:
-          if ((K(t), (o = t.type), null !== e && null != t.stateNode))
+          if ((Y(t), (o = t.type), null !== e && null != t.stateNode))
             e.memoizedProps !== r && ou(t);
           else {
             if (!r) {
@@ -7081,7 +7114,7 @@ var require_react_production = __commonJSMin((e) => {
         case 26:
         case 27:
         case 5:
-          return (K(t), null);
+          return (Y(t), null);
         case 31:
           if (null !== t.memoizedState) {
             if ((Io(t), null === t.alternate)) throw Error(a(340));
@@ -7122,7 +7155,7 @@ var require_react_production = __commonJSMin((e) => {
         case 26:
         case 27:
         case 5:
-          K(t);
+          Y(t);
           break;
         case 4:
           q();
@@ -7924,13 +7957,13 @@ var require_react_production = __commonJSMin((e) => {
                   }
                   e.stateNode = r;
                 } else tf(o, e.type, e.stateNode);
-              else e.stateNode = Kd(o, r, e.memoizedProps);
+              else e.stateNode = Yd(o, r, e.memoizedProps);
             else
               i !== r
                 ? (null === i
                     ? null !== n.stateNode && (n = n.stateNode).parentNode.removeChild(n)
                     : i.count--,
-                  null === r ? tf(o, e.type, e.stateNode) : Kd(o, r, e.memoizedProps))
+                  null === r ? tf(o, e.type, e.stateNode) : Yd(o, r, e.memoizedProps))
                 : null === r && null !== e.stateNode && Eu(e, e.memoizedProps, n.memoizedProps);
           }
           break;
@@ -8210,7 +8243,7 @@ var require_react_production = __commonJSMin((e) => {
         t = t.sibling;
       }
     }
-    function Ku(e, t) {
+    function Yu(e, t) {
       var n = null;
       (null !== e &&
         null !== e.memoizedState &&
@@ -8222,7 +8255,7 @@ var require_react_production = __commonJSMin((e) => {
           (e = t.memoizedState.cachePool.pool),
         e !== n && (null != e && e.refCount++, null != n && Ma(n)));
     }
-    function Yu(e, t) {
+    function Ku(e, t) {
       ((e = null),
         null !== t.alternate && (e = t.alternate.memoizedState.cache),
         (t = t.memoizedState.cache) !== e && (t.refCount++, null != e && Ma(e)));
@@ -8277,10 +8310,10 @@ var require_react_production = __commonJSMin((e) => {
               : 2 & o._visibility
                 ? Xu(e, t, n, r)
                 : ((o._visibility |= 2), Ju(e, t, n, r, !!(10256 & t.subtreeFlags) || !1)),
-            2048 & a && Ku(i, t));
+            2048 & a && Yu(i, t));
           break;
         case 24:
-          (Xu(e, t, n, r), 2048 & a && Yu(t.alternate, t));
+          (Xu(e, t, n, r), 2048 & a && Ku(t.alternate, t));
       }
     }
     function Ju(e, t, n, r, a) {
@@ -8305,10 +8338,10 @@ var require_react_production = __commonJSMin((e) => {
                 ? Ju(o, i, s, u, a)
                 : el(o, i)
               : ((c._visibility |= 2), Ju(o, i, s, u, a)),
-              a && 2048 & l && Ku(i.alternate, i));
+              a && 2048 & l && Yu(i.alternate, i));
             break;
           case 24:
-            (Ju(o, i, s, u, a), a && 2048 & l && Yu(i.alternate, i));
+            (Ju(o, i, s, u, a), a && 2048 & l && Ku(i.alternate, i));
             break;
           default:
             Ju(o, i, s, u, a);
@@ -8324,10 +8357,10 @@ var require_react_production = __commonJSMin((e) => {
             a = r.flags;
           switch (r.tag) {
             case 22:
-              (el(n, r), 2048 & a && Ku(r.alternate, r));
+              (el(n, r), 2048 & a && Yu(r.alternate, r));
               break;
             case 24:
-              (el(n, r), 2048 & a && Yu(r.alternate, r));
+              (el(n, r), 2048 & a && Ku(r.alternate, r));
               break;
             default:
               el(n, r);
@@ -8564,10 +8597,10 @@ var require_react_production = __commonJSMin((e) => {
     }
     function Gl(e, t, n) {
       (((e !== fl || (2 !== hl && 9 !== hl)) && null === e.cancelPendingCommit) ||
-        (Jl(e, 0), Yl(e, ml, xl, !1)),
+        (Jl(e, 0), Kl(e, ml, xl, !1)),
         Fe(e, n),
         (2 & dl && e === fl) ||
-          (e === fl && (!(2 & dl) && (Sl |= n), 4 === El && Yl(e, ml, xl, !1)), Rc(e)));
+          (e === fl && (!(2 & dl) && (Sl |= n), 4 === El && Kl(e, ml, xl, !1)), Rc(e)));
     }
     function ql(e, t, n) {
       if (6 & dl) throw Error(a(327));
@@ -8660,10 +8693,10 @@ var require_react_production = __commonJSMin((e) => {
         ;
       ) {
         if (0 === o) {
-          bl && !r && Yl(e, t, 0, !1);
+          bl && !r && Kl(e, t, 0, !1);
           break;
         }
-        if (((n = e.current.alternate), !i || Kl(n))) {
+        if (((n = e.current.alternate), !i || Yl(n))) {
           if (2 === o) {
             if (((i = t), e.errorRecoveryDisabledLanes & i)) var s = 0;
             else s = 0 !== (s = -536870913 & e.pendingLanes) ? s : 536870912 & s ? 536870912 : 0;
@@ -8688,7 +8721,7 @@ var require_react_production = __commonJSMin((e) => {
             }
           }
           if (1 === o) {
-            (Jl(e, 0), Yl(e, t, 0, !0));
+            (Jl(e, 0), Kl(e, t, 0, !0));
             break;
           }
           e: {
@@ -8699,7 +8732,7 @@ var require_react_production = __commonJSMin((e) => {
               case 4:
                 if ((4194048 & t) !== t) break;
               case 6:
-                Yl(r, t, xl, !gl);
+                Kl(r, t, xl, !gl);
                 break e;
               case 2:
                 Dl = null;
@@ -8711,7 +8744,7 @@ var require_react_production = __commonJSMin((e) => {
                 throw Error(a(329));
             }
             if ((62914560 & t) === t && 10 < (o = Fl + 300 - ie())) {
-              if ((Yl(r, t, xl, !gl), 0 !== xe(r, 0, !0))) break e;
+              if ((Kl(r, t, xl, !gl), 0 !== xe(r, 0, !0))) break e;
               ((Ml = t),
                 (r.timeoutHandle = vd(
                   Ql.bind(null, r, n, Dl, Rl, Ol, t, xl, Sl, Cl, gl, i, "Throttled", -0, 0),
@@ -8818,12 +8851,12 @@ var require_react_production = __commonJSMin((e) => {
           return (
             (Ml = o),
             (e.cancelPendingCommit = m(pc.bind(null, e, t, o, n, r, a, i, s, u, c, d, null, f, p))),
-            void Yl(e, o, i, !l)
+            void Kl(e, o, i, !l)
           );
       }
       pc(e, t, o, n, r, a, i, s, u);
     }
-    function Kl(e) {
+    function Yl(e) {
       for (var t = e; ;) {
         var n = t.tag;
         if (
@@ -8837,7 +8870,7 @@ var require_react_production = __commonJSMin((e) => {
               o = a.getSnapshot;
             a = a.value;
             try {
-              if (!Yn(o(), a)) return !1;
+              if (!Kn(o(), a)) return !1;
             } catch (i) {
               return !1;
             }
@@ -8854,7 +8887,7 @@ var require_react_production = __commonJSMin((e) => {
       }
       return !0;
     }
-    function Yl(e, t, n, r) {
+    function Kl(e, t, n, r) {
       ((t &= ~wl),
         (t &= ~Sl),
         (e.suspendedLanes |= t),
@@ -8909,9 +8942,9 @@ var require_react_production = __commonJSMin((e) => {
     function ec(e, t) {
       ((jo = null),
         (B.H = ps),
-        t === Ka || t === Xa
+        t === Ya || t === Xa
           ? ((t = ro()), (hl = 3))
-          : t === Ya
+          : t === Ka
             ? ((t = ro()), (hl = 4))
             : (hl =
                 t === Fs
@@ -8942,7 +8975,7 @@ var require_react_production = __commonJSMin((e) => {
     function ac() {
       ((El = 4),
         gl || ((4194048 & ml) !== ml && null !== ko.current) || (bl = !0),
-        (!(134217727 & Al) && !(134217727 & Sl)) || null === fl || Yl(fl, ml, xl, !1));
+        (!(134217727 & Al) && !(134217727 & Sl)) || null === fl || Kl(fl, ml, xl, !1));
     }
     function oc(e, t, n) {
       var r = dl;
@@ -9854,19 +9887,19 @@ var require_react_production = __commonJSMin((e) => {
       var r = e + "__bubble";
       n.has(r) || (Zc(t, e, 2, !1), n.add(r));
     }
-    function Kc(e, t, n) {
+    function Yc(e, t, n) {
       var r = 0;
       (t && (r |= 4), Zc(n, e, r, t));
     }
-    var Yc = "_reactListening" + Math.random().toString(36).slice(2);
+    var Kc = "_reactListening" + Math.random().toString(36).slice(2);
     function Xc(e) {
-      if (!e[Yc]) {
-        ((e[Yc] = !0),
+      if (!e[Kc]) {
+        ((e[Kc] = !0),
           Je.forEach(function (t) {
-            "selectionchange" !== t && (Gc.has(t) || Kc(t, !1, e), Kc(t, !0, e));
+            "selectionchange" !== t && (Gc.has(t) || Yc(t, !1, e), Yc(t, !0, e));
           }));
         var t = 9 === e.nodeType ? e : e.ownerDocument;
-        null === t || t[Yc] || ((t[Yc] = !0), Kc("selectionchange", !1, t));
+        null === t || t[Kc] || ((t[Kc] = !0), Yc("selectionchange", !1, t));
       }
     }
     function Zc(e, t, n, r) {
@@ -10054,8 +10087,8 @@ var require_react_production = __commonJSMin((e) => {
               (h = "mouse"),
               ("pointerout" !== e && "pointerover" !== e) ||
                 ((d = gn), (_ = "onPointerLeave"), (p = "onPointerEnter"), (h = "pointer")),
-              (f = null == l ? u : Ye(l)),
-              (m = null == c ? u : Ye(c)),
+              (f = null == l ? u : Ke(l)),
+              (m = null == c ? u : Ke(c)),
               ((u = new d(_, h + "leave", l, n, a)).target = f),
               (u.relatedTarget = m),
               (_ = null),
@@ -10083,12 +10116,12 @@ var require_react_production = __commonJSMin((e) => {
             (null !== l && rd(s, u, l, d, !1), null !== c && null !== f && rd(s, f, c, d, !0));
           }
           if (
-            "select" === (l = (u = r ? Ye(r) : window).nodeName && u.nodeName.toLowerCase()) ||
+            "select" === (l = (u = r ? Ke(r) : window).nodeName && u.nodeName.toLowerCase()) ||
             ("input" === l && "file" === u.type)
           )
             var b = Ln;
           else if (Rn(u))
-            if (Un) b = Kn;
+            if (Un) b = Yn;
             else {
               b = qn;
               var v = Gn;
@@ -10108,7 +10141,7 @@ var require_react_production = __commonJSMin((e) => {
                   "number" === u.type &&
                   null != r.memoizedProps.value &&
                   bt(u, "number", u.value)),
-            (v = r ? Ye(r) : window),
+            (v = r ? Ke(r) : window),
             e)
           ) {
             case "focusin":
@@ -10970,7 +11003,7 @@ var require_react_production = __commonJSMin((e) => {
         return e || t;
       },
       r: function (e) {
-        var t = Ke(e);
+        var t = Ye(e);
         null !== t && 5 === t.tag && "form" === t.type ? ts(t) : Ud.r(e);
       },
       D: function (e) {
@@ -11088,7 +11121,7 @@ var require_react_production = __commonJSMin((e) => {
                   s.loading |= 2;
                 }),
                 (s.loading |= 4),
-                Yd(i, t, r));
+                Kd(i, t, r));
             }
             ((i = { type: "stylesheet", instance: i, count: 1, state: s }), a.set(o, i));
           }
@@ -11231,7 +11264,7 @@ var require_react_production = __commonJSMin((e) => {
     function Qd(e) {
       return "script[async]" + e;
     }
-    function Kd(e, t, n) {
+    function Yd(e, t, n) {
       if ((t.count++, null === t.instance))
         switch (t.type) {
           case "style":
@@ -11246,7 +11279,7 @@ var require_react_production = __commonJSMin((e) => {
             return (
               Ze((r = (e.ownerDocument || e).createElement("style"))),
               cd(r, "style", o),
-              Yd(r, n.precedence, e),
+              Kd(r, n.precedence, e),
               (t.instance = r)
             );
           case "stylesheet":
@@ -11263,7 +11296,7 @@ var require_react_production = __commonJSMin((e) => {
               })),
               cd(i, "link", r),
               (t.state.loading |= 4),
-              Yd(i, n.precedence, e),
+              Kd(i, n.precedence, e),
               (t.instance = i)
             );
           case "script":
@@ -11286,10 +11319,10 @@ var require_react_production = __commonJSMin((e) => {
       else
         "stylesheet" === t.type &&
           !(4 & t.state.loading) &&
-          ((r = t.instance), (t.state.loading |= 4), Yd(r, n.precedence, e));
+          ((r = t.instance), (t.state.loading |= 4), Kd(r, n.precedence, e));
       return t.instance;
     }
-    function Yd(e, t, n) {
+    function Kd(e, t, n) {
       for (
         var r = n.querySelectorAll(
             'link[rel="stylesheet"][data-precedence],style[data-precedence]',
@@ -11529,7 +11562,7 @@ var require_react_production = __commonJSMin((e) => {
           r.stopPropagation();
         else if ((Pf(e, r), 4 & t && -1 < Rf.indexOf(e))) {
           for (; null !== a;) {
-            var o = Ke(a);
+            var o = Ye(a);
             if (null !== o)
               switch (o.tag) {
                 case 3:
@@ -11717,7 +11750,7 @@ var require_react_production = __commonJSMin((e) => {
             nativeEvent: o,
             targetContainers: [a],
           }),
-          null !== t && null !== (t = Ke(t)) && _f(t),
+          null !== t && null !== (t = Ye(t)) && _f(t),
           e)
         : ((e.eventSystemFlags |= r),
           (t = e.targetContainers),
@@ -11754,7 +11787,7 @@ var require_react_production = __commonJSMin((e) => {
       if (null !== e.blockedOn) return !1;
       for (var t = e.targetContainers; 0 < t.length;) {
         var n = Af(e.nativeEvent);
-        if (null !== n) return (null !== (t = Ke(n)) && _f(t), (e.blockedOn = n), !1);
+        if (null !== n) return (null !== (t = Ye(n)) && _f(t), (e.blockedOn = n), !1);
         var r = new (n = e.nativeEvent).constructor(n.type, n);
         ((kt = r), n.target.dispatchEvent(r), (kt = null), t.shift());
       }
@@ -11790,7 +11823,7 @@ var require_react_production = __commonJSMin((e) => {
               if (null === wf(r || n)) continue;
               break;
             }
-            var o = Ke(n);
+            var o = Ye(n);
             null !== o &&
               (e.splice(t, 3),
               (t -= 3),
@@ -11983,10 +12016,10 @@ var require_react_production = __commonJSMin((e) => {
       reconcilerVersion: "19.2.3",
     };
     if ("undefined" != typeof __REACT_DEVTOOLS_GLOBAL_HOOK__) {
-      var Kf = __REACT_DEVTOOLS_GLOBAL_HOOK__;
-      if (!Kf.isDisabled && Kf.supportsFiber)
+      var Yf = __REACT_DEVTOOLS_GLOBAL_HOOK__;
+      if (!Yf.isDisabled && Yf.supportsFiber)
         try {
-          ((he = Kf.inject(Qf)), (_e = Kf));
+          ((he = Yf.inject(Qf)), (_e = Yf));
         } catch (Xf) {}
     }
     ((e.createRoot = function (e, t) {
@@ -17513,14 +17546,8 @@ var media_wrapper_exports = __exportAll({
       }, [e]),
       t.current
     );
-  };
-function useCallbackOnce(e, t = []) {
-  const n = (0, import_react.useRef)(!1);
-  return (0, import_react.useCallback)(() => {
-    n.current || (e(), (n.current = !0));
-  }, t);
-}
-var STATIC_DEPS = [];
+  },
+  STATIC_DEPS = [];
 function useEvent(e) {
   const t = (0, import_react.useRef)(e);
   return (
@@ -22248,19 +22275,6 @@ async function runView(
       ),
     r && (initExternalPaddings$1(t), enableFullScreenModeSupported$1()));
 }
-function ColorsProvider(e) {
-  return (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: e.children });
-}
-function UIProvider(e) {
-  return (0, import_jsx_runtime.jsx)(ColorsProvider, {
-    children: (0, import_jsx_runtime.jsx)(SoundsProvider, {
-      overrides: e.soundsOverrides,
-      severity: e.soundSeverity,
-      silent: e.soundsOff,
-      children: e.children,
-    }),
-  });
-}
 if (!import_react.useState) throw new Error("mobx-react-lite requires React with Hooks support");
 if (!makeObservable)
   throw new Error("mobx-react-lite@3 requires mobx at least version 6 to be available");
@@ -22601,317 +22615,7 @@ function useObserver(e, t) {
 function useStaticRendering(e) {
   enableStaticRendering(e);
 }
-var TabsContext = (0, import_react.createContext)(null);
-function useTabsContext() {
-  const e = (0, import_react.useContext)(TabsContext);
-  return (assert$1(null !== e, "You can use tabs hooks only with Tabs component"), e);
-}
-function Content({ children: e, keyOverride: t }) {
-  const n = useTabsContext();
-  return (0, import_jsx_runtime.jsx)(
-    import_react.Fragment,
-    { children: e(n.active) },
-    t ?? n.active,
-  );
-}
-var falsyToString = (e) => ("boolean" == typeof e ? `${e}` : 0 === e ? "0" : e),
-  cx$8 = clsx,
-  cva = (e, t) => (n) => {
-    var r;
-    if (null == (null == t ? void 0 : t.variants))
-      return cx$8(e, null == n ? void 0 : n.class, null == n ? void 0 : n.className);
-    const { variants: a, defaultVariants: o } = t,
-      i = Object.keys(a).map((e) => {
-        const t = null == n ? void 0 : n[e],
-          r = null == o ? void 0 : o[e];
-        if (null === t) return null;
-        const i = falsyToString(t) || falsyToString(r);
-        return a[e][i];
-      }),
-      s =
-        n &&
-        Object.entries(n).reduce((e, t) => {
-          let [n, r] = t;
-          return (void 0 === r || (e[n] = r), e);
-        }, {});
-    return cx$8(
-      e,
-      i,
-      null == t || null === (r = t.compoundVariants) || void 0 === r
-        ? void 0
-        : r.reduce((e, t) => {
-            let { class: n, className: r, ...a } = t;
-            return Object.entries(a).every((e) => {
-              let [t, n] = e;
-              return Array.isArray(n) ? n.includes({ ...o, ...s }[t]) : { ...o, ...s }[t] === n;
-            })
-              ? [...e, n, r]
-              : e;
-          }, []),
-      null == n ? void 0 : n.class,
-      null == n ? void 0 : n.className,
-    );
-  };
-function defineStyledComponent(e, t, n) {
-  const r = "object" == typeof t && "cva" in t ? t.cva?.variants : n?.variants,
-    a = r ? Object.keys(r) : [];
-  if ("object" == typeof t) {
-    const n = t,
-      r = cva(n.className, n.cva),
-      o = n.element,
-      i = (0, import_react.forwardRef)(function (e, t) {
-        return (0, import_react.createElement)(o, {
-          ...("function" == typeof o ? e : cleanProps(a, e)),
-          ref: t,
-          className: r(e),
-        });
-      });
-    return ((i.displayName = e), n.cva && (i.cva = n.cva), i);
-  }
-  const o = cva(t, n),
-    i = (0, import_react.forwardRef)(function (t, n) {
-      return (0, import_jsx_runtime.jsx)("div", {
-        "data-name": e,
-        ...cleanProps(a, t),
-        ref: n,
-        className: o(t),
-      });
-    });
-  return ((i.displayName = e), n && (i.cva = n), i);
-}
-function cleanProps(e, t) {
-  if (0 === e.length) return t;
-  const n = { ...t };
-  for (const r of e) delete n[r];
-  return n;
-}
-var themes$1 = { primary: "primary", custom: "custom" },
-  sizes$7 = { large: "large", medium: "medium", small: "small" },
-  background$4 = "HorizontalTabs_background_5e3af03e",
-  mainBorderImage = "HorizontalTabs_mainBorderImage_ee367896",
-  base$32 = "HorizontalTabs_69e3c6f3",
-  outerBorder = "HorizontalTabs_outerBorder_3255d0c5",
-  mainBorder = "HorizontalTabs_mainBorder_61e34c2c",
-  content$6 = "HorizontalTabs_content_1ae3c4bd",
-  horizontal_tabs_module_default = {
-    background: background$4,
-    mainBorderImage: mainBorderImage,
-    base: base$32,
-    "base__size-small": "HorizontalTabs_base__size-small_75fae891",
-    "base__size-medium": "HorizontalTabs_base__size-medium_afc0934f",
-    "base__size-large": "HorizontalTabs_base__size-large_12c75e24",
-    outerBorder: outerBorder,
-    "base__theme-primary": "HorizontalTabs_base__theme-primary_5e3af03e",
-    mainBorder: mainBorder,
-    content: content$6,
-  },
-  Base$10 = defineStyledComponent("Tabs", horizontal_tabs_module_default.base, {
-    variants: {
-      size: {
-        [sizes$7.large]: horizontal_tabs_module_default["base__size-large"],
-        [sizes$7.medium]: horizontal_tabs_module_default["base__size-medium"],
-        [sizes$7.small]: horizontal_tabs_module_default["base__size-small"],
-      },
-      theme: {
-        [themes$1.primary]: horizontal_tabs_module_default["base__theme-primary"],
-        [themes$1.custom]: void 0,
-      },
-    },
-  }),
-  Switcher = (0, import_react.forwardRef)(function ({ children: e, classNames: t, ...n }, r) {
-    const a = useTabsContext();
-    return (0, import_jsx_runtime.jsx)(Base$10, {
-      ...n,
-      ref: r,
-      className: clsx(n.className, t?.base),
-      size: a.size,
-      theme: a.theme,
-      children: (0, import_jsx_runtime.jsx)("div", {
-        className: clsx(horizontal_tabs_module_default.outerBorder, t?.outerBorder),
-        children: (0, import_jsx_runtime.jsxs)("div", {
-          className: clsx(horizontal_tabs_module_default.mainBorder, t?.mainBorder),
-          children: [
-            (0, import_jsx_runtime.jsx)("div", {
-              className: clsx(horizontal_tabs_module_default.mainBorderImage, t?.mainBorderImage),
-            }),
-            (0, import_jsx_runtime.jsx)("div", {
-              className: clsx(horizontal_tabs_module_default.content, t?.content),
-              children: e,
-            }),
-          ],
-        }),
-      }),
-    });
-  }),
-  border$2 = "Tab_border_d4435cf2",
-  background$3 = "Tab_background_763456",
-  backgroundPattern$1 = "Tab_backgroundPattern_32ac7949",
-  innerBorderImage = "Tab_innerBorderImage_77cde9e",
-  base$31 = "Tab_806d6908",
-  base__active$2 = "Tab_base__active_a872a63f",
-  content$5 = "Tab_content_4eefcae7",
-  base__inactive = "Tab_base__inactive_0",
-  tab_module_default = {
-    border: border$2,
-    background: background$3,
-    backgroundPattern: backgroundPattern$1,
-    innerBorderImage: innerBorderImage,
-    base: base$31,
-    "base__theme-primary": "Tab_base__theme-primary_209414fd",
-    base__active: base__active$2,
-    content: content$5,
-    "base__size-small": "Tab_base__size-small_0",
-    "base__size-medium": "Tab_base__size-medium_0",
-    "base__size-large": "Tab_base__size-large_0",
-    base__inactive: base__inactive,
-  },
-  Base$9 = defineStyledComponent("Tab", tab_module_default.base, {
-    variants: {
-      size: {
-        [sizes$7.large]: tab_module_default["base__size-large"],
-        [sizes$7.medium]: tab_module_default["base__size-medium"],
-        [sizes$7.small]: tab_module_default["base__size-small"],
-      },
-      theme: {
-        [themes$1.primary]: tab_module_default["base__theme-primary"],
-        [themes$1.custom]: void 0,
-      },
-      state: {
-        active: tab_module_default.base__active,
-        inactive: tab_module_default.base__inactive,
-      },
-    },
-    defaultVariants: { size: sizes$7.medium, theme: themes$1.primary },
-  }),
-  HeadlessTab = (0, import_react.forwardRef)(function (
-    { theme: e, size: t, tabId: n, active: r, children: a, onClick: o, onMouseEnter: i, ...s },
-    u,
-  ) {
-    const l = useSounds();
-    return (0, import_jsx_runtime.jsx)(Base$9, {
-      ...s,
-      ref: u,
-      theme: e,
-      size: t,
-      state: r === n ? "active" : "inactive",
-      onMouseEnter: function (e) {
-        (r !== n && l.play("mouse-enter", { target: Base$9.displayName, original: e }), i?.(e));
-      },
-      onClick: function (e) {
-        (r !== n && l.play("click", { target: Base$9.displayName, original: e }), o?.(e));
-      },
-      children: a,
-    });
-  });
-function Tab({ tabId: e, classNames: t, className: n, children: r, ...a }) {
-  const o = useTabsContext();
-  return (0, import_jsx_runtime.jsxs)(HeadlessTab, {
-    "data-test-id": `${e}Tab`,
-    ...a,
-    tabId: e,
-    theme: o.theme,
-    size: o.size,
-    active: o.active,
-    className: clsx(t?.base, n),
-    onClick: (t) => {
-      (a.onClick?.(t), o.change(e));
-    },
-    children: [
-      (0, import_jsx_runtime.jsx)("div", {
-        className: clsx(tab_module_default.background, t?.background),
-      }),
-      (0, import_jsx_runtime.jsx)("div", {
-        className: clsx(tab_module_default.backgroundPattern, t?.backgroundPattern),
-      }),
-      (0, import_jsx_runtime.jsx)("div", { className: clsx(tab_module_default.border, t?.border) }),
-      (0, import_jsx_runtime.jsx)("div", {
-        className: clsx(tab_module_default.innerBorderImage, t?.borderImage),
-      }),
-      (0, import_jsx_runtime.jsx)("div", {
-        className: clsx(tab_module_default.content, t?.content),
-        children: r,
-      }),
-    ],
-  });
-}
-function Tabs({ active: e, theme: t, size: n, children: r, onActiveChange: a }) {
-  const [o, i] = (0, import_react.useState)(e),
-    s = (0, import_react.useRef)(e),
-    u = (0, import_react.useMemo)(() => ({ active: o, theme: t, size: n, change: i }), [o, n, t]);
-  return (
-    (0, import_react.useLayoutEffect)(() => {
-      i(e);
-    }, [e]),
-    (0, import_react.useEffect)(() => {
-      s.current !== o && ((s.current = o), a?.(o));
-    }, [o, a]),
-    (0, import_jsx_runtime.jsx)(TabsContext.Provider, { value: u, children: r })
-  );
-}
-((Tabs.Switcher = Switcher), (Tabs.Tab = Tab), (Tabs.Content = Content));
-var scriptRel = (function () {
-    const e = "undefined" != typeof document && document.createElement("link").relList;
-    return e && e.supports && e.supports("modulepreload") ? "modulepreload" : "preload";
-  })(),
-  assetsURL = function (e, t) {
-    return new URL(e, t).href;
-  },
-  seen = {},
-  __vitePreload = function (e, t, n) {
-    let r = Promise.resolve();
-    if (t && t.length > 0) {
-      const e = document.getElementsByTagName("link"),
-        o = document.querySelector("meta[property=csp-nonce]"),
-        i = o?.nonce || o?.getAttribute("nonce");
-      ((a = t.map((t) => {
-        if ((t = assetsURL(t, n)) in seen) return;
-        seen[t] = !0;
-        const r = t.endsWith(".css"),
-          a = r ? '[rel="stylesheet"]' : "";
-        if (n)
-          for (let n = e.length - 1; n >= 0; n--) {
-            const a = e[n];
-            if (a.href === t && (!r || "stylesheet" === a.rel)) return;
-          }
-        else if (document.querySelector(`link[href="${t}"]${a}`)) return;
-        const o = document.createElement("link");
-        return (
-          (o.rel = r ? "stylesheet" : scriptRel),
-          r || (o.as = "script"),
-          (o.crossOrigin = ""),
-          (o.href = t),
-          i && o.setAttribute("nonce", i),
-          document.head.appendChild(o),
-          r
-            ? new Promise((e, n) => {
-                (o.addEventListener("load", e),
-                  o.addEventListener("error", () =>
-                    n(new Error(`Unable to preload CSS for ${t}`)),
-                  ));
-              })
-            : void 0
-        );
-      })),
-        (r = Promise.all(
-          a.map((e) =>
-            Promise.resolve(e).then(
-              (e) => ({ status: "fulfilled", value: e }),
-              (e) => ({ status: "rejected", reason: e }),
-            ),
-          ),
-        )));
-    }
-    var a;
-    function o(e) {
-      const t = new Event("vite:preloadError", { cancelable: !0 });
-      if (((t.payload = e), window.dispatchEvent(t), !t.defaultPrevented)) throw e;
-    }
-    return r.then((t) => {
-      for (const e of t || []) "rejected" === e.status && o(e.reason);
-      return e().catch(o);
-    });
-  },
-  require_react_jsx_dev_runtime_production = __commonJSMin((e) => {}),
+var require_react_jsx_dev_runtime_production = __commonJSMin((e) => {}),
   require_jsx_dev_runtime = __commonJSMin((e, t) => {
     t.exports = require_react_jsx_dev_runtime_production();
   }),
@@ -22935,7 +22639,7 @@ var scriptRel = (function () {
     children: () => children,
     createComponent: () => createComponent,
     createComputed: () => createComputed,
-    createContext: () => createContext$5,
+    createContext: () => createContext$6,
     createDeferred: () => createDeferred,
     createEffect: () => createEffect,
     createMemo: () => createMemo,
@@ -22969,7 +22673,7 @@ var scriptRel = (function () {
     splitProps: () => splitProps,
     startTransition: () => startTransition,
     untrack: () => untrack,
-    useContext: () => useContext$5,
+    useContext: () => useContext$6,
     useTransition: () => useTransition,
   }),
   taskIdCounter = 1,
@@ -23160,7 +22864,7 @@ function createRenderEffect(e, t, n) {
 function createEffect(e, t, n) {
   runEffects = runUserEffects;
   const r = createComputation(e, t, !1, STALE),
-    a = SuspenseContext && useContext$5(SuspenseContext);
+    a = SuspenseContext && useContext$6(SuspenseContext);
   (a && (r.suspense = a),
     (n && n.render) || (r.user = !0),
     Effects ? Effects.push(r) : updateComputation(r));
@@ -23175,7 +22879,7 @@ function createReaction(e, t) {
       !1,
       0,
     ),
-    a = SuspenseContext && useContext$5(SuspenseContext);
+    a = SuspenseContext && useContext$6(SuspenseContext);
   return (
     a && (r.suspense = a),
     (r.user = !0),
@@ -23242,7 +22946,7 @@ function createResource(e, t, n) {
     }, !1);
   }
   function w() {
-    const e = SuspenseContext && useContext$5(SuspenseContext),
+    const e = SuspenseContext && useContext$6(SuspenseContext),
       t = m(),
       n = _();
     if (void 0 !== n && !i) throw n;
@@ -23485,11 +23189,11 @@ function useTransition() {
 function resumeEffects(e) {
   (Effects.push.apply(Effects, e), (e.length = 0));
 }
-function createContext$5(e, t) {
+function createContext$6(e, t) {
   const n = Symbol("context");
   return { id: n, Provider: createProvider(n), defaultValue: e };
 }
-function useContext$5(e) {
+function useContext$6(e) {
   let t;
   return Owner && Owner.context && void 0 !== (t = Owner.context[e.id]) ? t : e.defaultValue;
 }
@@ -23505,7 +23209,7 @@ function children(e) {
   );
 }
 function getSuspenseContext() {
-  return SuspenseContext || (SuspenseContext = createContext$5());
+  return SuspenseContext || (SuspenseContext = createContext$6());
 }
 function enableExternalSource(e, t = (e) => e()) {
   if (ExternalSourceConfig) {
@@ -24345,11 +24049,11 @@ function ErrorBoundary(e) {
 }
 var suspenseListEquals = (e, t) =>
     e.showContent === t.showContent && e.showFallback === t.showFallback,
-  SuspenseListContext = createContext$5();
+  SuspenseListContext = createContext$6();
 function SuspenseList(e) {
   let t,
     [n, r] = createSignal(() => ({ inFallback: !1 }));
-  const a = useContext$5(SuspenseListContext),
+  const a = useContext$6(SuspenseListContext),
     [o, i] = createSignal([]);
   a && (t = a.register(createMemo(() => n()().inFallback)));
   const s = createMemo(
@@ -24440,7 +24144,7 @@ function Suspense(e) {
         ));
     }
   }
-  const f = useContext$5(SuspenseListContext);
+  const f = useContext$6(SuspenseListContext);
   let p;
   return (
     f && (t = f.register(c.inFallback)),
@@ -25517,7 +25221,7 @@ function ssrSpread(e, t, n) {}
 var isServer = !1,
   isDev = !1,
   SVG_NAMESPACE = "http://www.w3.org/2000/svg";
-function createElement(e, t = !1, n = void 0) {
+function createElement$1(e, t = !1, n = void 0) {
   return t ? document.createElementNS(SVG_NAMESPACE, e) : document.createElement(e, { is: n });
 }
 var hydrate = (...e) => (enableHydration(), hydrate$1(...e));
@@ -25538,7 +25242,7 @@ function Portal(e) {
             n = () => t(!0);
           (createRoot((t) => insert(i, () => (e() ? t() : a()), null)), onCleanup(n));
         } else {
-          const r = createElement(e.isSVG ? "g" : "div", e.isSVG),
+          const r = createElement$1(e.isSVG ? "g" : "div", e.isSVG),
             o = t && r.attachShadow ? r.attachShadow({ mode: "open" }) : r;
           (Object.defineProperty(r, "_$host", { get: () => n.parentNode, configurable: !0 }),
             insert(o, a),
@@ -25564,7 +25268,7 @@ function createDynamic(e, t) {
         const n = SVGElements.has(e),
           r = sharedConfig.context
             ? getNextElement()
-            : createElement(
+            : createElement$1(
                 e,
                 n,
                 untrack(() => t.is),
@@ -26185,12 +25889,12 @@ var html = createHTML({
     SVGNamespace: SVGNamespace,
   }),
   jsx_exports = __exportAll({
-    Fragment: () => Fragment$2,
+    Fragment: () => Fragment$3,
     jsx: () => jsx,
     jsxDEV: () => jsx,
     jsxs: () => jsx,
   });
-function Fragment$2(e) {
+function Fragment$3(e) {
   return e.children;
 }
 function jsx(e, t) {
@@ -26877,7 +26581,69 @@ function _usingCtx() {
     },
   };
 }
-var injected = !1,
+var scriptRel = (function () {
+    const e = "undefined" != typeof document && document.createElement("link").relList;
+    return e && e.supports && e.supports("modulepreload") ? "modulepreload" : "preload";
+  })(),
+  assetsURL = function (e, t) {
+    return new URL(e, t).href;
+  },
+  seen = {},
+  __vitePreload = function (e, t, n) {
+    let r = Promise.resolve();
+    if (t && t.length > 0) {
+      const e = document.getElementsByTagName("link"),
+        o = document.querySelector("meta[property=csp-nonce]"),
+        i = o?.nonce || o?.getAttribute("nonce");
+      ((a = t.map((t) => {
+        if ((t = assetsURL(t, n)) in seen) return;
+        seen[t] = !0;
+        const r = t.endsWith(".css"),
+          a = r ? '[rel="stylesheet"]' : "";
+        if (n)
+          for (let n = e.length - 1; n >= 0; n--) {
+            const a = e[n];
+            if (a.href === t && (!r || "stylesheet" === a.rel)) return;
+          }
+        else if (document.querySelector(`link[href="${t}"]${a}`)) return;
+        const o = document.createElement("link");
+        return (
+          (o.rel = r ? "stylesheet" : scriptRel),
+          r || (o.as = "script"),
+          (o.crossOrigin = ""),
+          (o.href = t),
+          i && o.setAttribute("nonce", i),
+          document.head.appendChild(o),
+          r
+            ? new Promise((e, n) => {
+                (o.addEventListener("load", e),
+                  o.addEventListener("error", () =>
+                    n(new Error(`Unable to preload CSS for ${t}`)),
+                  ));
+              })
+            : void 0
+        );
+      })),
+        (r = Promise.all(
+          a.map((e) =>
+            Promise.resolve(e).then(
+              (e) => ({ status: "fulfilled", value: e }),
+              (e) => ({ status: "rejected", reason: e }),
+            ),
+          ),
+        )));
+    }
+    var a;
+    function o(e) {
+      const t = new Event("vite:preloadError", { cancelable: !0 });
+      if (((t.payload = e), window.dispatchEvent(t), !t.defaultPrevented)) throw e;
+    }
+    return r.then((t) => {
+      for (const e of t || []) "rejected" === e.status && o(e.reason);
+      return e().catch(o);
+    });
+  },
+  injected = !1,
   plugins = new Map(),
   loading = new Map();
 function pluginFunc() {
@@ -26939,6 +26705,19 @@ function injectGFPlugins() {
         wg: { mediaWrapper: media_wrapper_exports },
       }),
       (injected = !0));
+}
+function ColorsProvider(e) {
+  return (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: e.children });
+}
+function UIProvider(e) {
+  return (0, import_jsx_runtime.jsx)(ColorsProvider, {
+    children: (0, import_jsx_runtime.jsx)(SoundsProvider, {
+      overrides: e.soundsOverrides,
+      severity: e.soundSeverity,
+      silent: e.soundsOff,
+      children: e.children,
+    }),
+  });
 }
 var NodeTypes = { Text: 1, Tag: 2, Var: 3 };
 function parseArguments(e) {
@@ -27006,12 +26785,12 @@ function parse(e, t) {
 }
 var COLORS =
     "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
-  base$30 = "FormatText_db904f12",
+  base$32 = "FormatText_db904f12",
   base__fullSize = "FormatText_base__fullSize_a514958e",
   nowrap = "FormatText_nowrap_ff69eca3",
   format_text_module_default = {
     COLORS: COLORS,
-    base: base$30,
+    base: base$32,
     base__fullSize: base__fullSize,
     nowrap: nowrap,
   },
@@ -27389,16 +27168,18 @@ function useLoadPlugin(e, t = []) {
     a = (0, import_react.useRef)(t);
   return (
     (0, import_react.useEffect)(() => {
-      const t = (async function () {
+      if (!e) return;
+      const t = e;
+      const n = (async function () {
         try {
-          const t = await loadPlugin(e);
-          return (r({ status: "loaded", result: await t.init(...a.current), instance: t }), t);
-        } catch (t) {
-          r({ status: "failure", error: t });
+          const e = await loadPlugin(t);
+          return (r({ status: "loaded", result: await e.init(...a.current), instance: e }), e);
+        } catch (e) {
+          r({ status: "failure", error: e });
         }
       })();
       return () => {
-        t.then((e) => e?.destroy());
+        n.then((e) => e?.destroy());
       };
     }, [e]),
     n
@@ -27446,28 +27227,28 @@ var require_classnames = __commonJSMin((e, t) => {
     })();
   }),
   import_classnames = __toESM(require_classnames()),
-  base$29 = "CloseButton_7488a1b8",
+  base$31 = "CloseButton_7488a1b8",
   base__medium$2 = "CloseButton_base__medium_97d04067",
   base__small$3 = "CloseButton_base__small_c1b29bae",
   base__extraSmall = "CloseButton_base__extraSmall_f52764c1",
   base__x96x96$1 = "CloseButton_base__x96x96_8157b84d",
   base__x32x32 = "CloseButton_base__x32x32_6466ea31",
   close_button_module_default = {
-    base: base$29,
+    base: base$31,
     base__medium: base__medium$2,
     base__small: base__small$3,
     base__extraSmall: base__extraSmall,
     base__x96x96: base__x96x96$1,
     base__x32x32: base__x32x32,
   },
-  sizes$6 = { medium: "medium", small: "small", extraSmall: "extraSmall" },
+  sizes$7 = { medium: "medium", small: "small", extraSmall: "extraSmall" },
   upscaleImageSizes = {
-    [sizes$6.medium]: "x96x96",
-    [sizes$6.small]: sizes$6.medium,
-    [sizes$6.extraSmall]: "x32x32",
+    [sizes$7.medium]: "x96x96",
+    [sizes$7.small]: sizes$7.medium,
+    [sizes$7.extraSmall]: "x32x32",
   };
 function CloseButton({
-  size: e = sizes$6.medium,
+  size: e = sizes$7.medium,
   hoverSound: t = sounds$1.highlight,
   clickSound: n = sounds$1.click,
   className: r,
@@ -27488,7 +27269,7 @@ function CloseButton({
     },
   });
 }
-CloseButton.size = sizes$6;
+CloseButton.size = sizes$7;
 var Context$2 = (0, import_react.createContext)(void 0);
 function useHorizontalScroll() {
   const e = (0, import_react.useContext)(Context$2);
@@ -27691,23 +27472,23 @@ function useScrollBounding(e, [t, n] = IGNORE_DEFAULT) {
   );
 }
 var scrollOrientations = { horizontal: "horizontal", vertical: "vertical" },
-  background$2 = "Thumb_background_b893084a",
-  border$1 = "Thumb_border_5749138b",
+  background$4 = "Thumb_background_7f3dd6ac",
+  border$2 = "Thumb_border_5749138b",
   innerBorder = "Thumb_innerBorder_42bafd18",
   icon$7 = "Thumb_icon_dca8bf26",
-  base$28 = "Thumb_6ff3e706",
+  base$30 = "Thumb_6ff3e706",
   base__vertical$1 = "Thumb_base__vertical_55a67c91",
   base__horizontal = "Thumb_base__horizontal_27ca7ace",
-  base__active$1 = "Thumb_base__active_830942bb",
+  base__active$2 = "Thumb_base__active_830942bb",
   thumb_module_default = {
-    background: background$2,
-    border: border$1,
+    background: background$4,
+    border: border$2,
     innerBorder: innerBorder,
     icon: icon$7,
-    base: base$28,
+    base: base$30,
     base__vertical: base__vertical$1,
     base__horizontal: base__horizontal,
-    base__active: base__active$1,
+    base__active: base__active$2,
   },
   BOUNCING_OFFSET = 2,
   FORWARD_DISABLED = "forwardDisabled",
@@ -27984,7 +27765,7 @@ function useBarHandlers(e, t, n, r, a, o, i) {
   );
 }
 var rail$1 = "HorizontalBar_rail_37858d8f",
-  base$27 = "HorizontalBar_4df27ac3",
+  base$29 = "HorizontalBar_4df27ac3",
   track$1 = "HorizontalBar_track_649dc296",
   rail__left = "HorizontalBar_rail__left_1a906b4e",
   rail__right = "HorizontalBar_rail__right_cd24364e",
@@ -27993,7 +27774,7 @@ var rail$1 = "HorizontalBar_rail_37858d8f",
   button$1 = "HorizontalBar_button_cbabd91",
   horizontal_bar_module_default = {
     rail: rail$1,
-    base: base$27,
+    base: base$29,
     track: track$1,
     rail__left: rail__left,
     rail__right: rail__right,
@@ -28113,14 +27894,14 @@ var rail$1 = "HorizontalBar_rail_37858d8f",
       ],
     });
   }),
-  base$26 = "HorizontalScroll_5b201d2b",
+  base$28 = "HorizontalScroll_5b201d2b",
   wrapper$1 = "HorizontalScroll_wrapper_2fb60496",
   wrapper__left = "HorizontalScroll_wrapper__left_adacfff",
   wrapper__right = "HorizontalScroll_wrapper__right_a6825027",
   wrapper__both = "HorizontalScroll_wrapper__both_7917ea88",
   defaultScrollArea = "HorizontalScroll_defaultScrollArea_a5c0f45",
   horizontal_scroll_module_default = {
-    base: base$26,
+    base: base$28,
     wrapper: wrapper$1,
     wrapper__left: wrapper__left,
     wrapper__right: wrapper__right,
@@ -28303,7 +28084,7 @@ function useScrollByDragElements(e, t, n, r) {
     d
   );
 }
-function Base$8({ settings: e, children: t }) {
+function Base$10({ settings: e, children: t }) {
   const n = useApi$1({ settings: e }),
     r = (0, import_react.useMemo)(() => ({ api: n }), [n]);
   return (0, import_jsx_runtime.jsx)(Context$2.Provider, { value: r, children: t });
@@ -28325,7 +28106,7 @@ var DEFAULT_VERTICAL_API_CONFIG = {
   },
   useApi = createApiHook(DEFAULT_VERTICAL_API_CONFIG),
   rail = "VerticalBar_rail_3d663c9",
-  base$25 = "VerticalBar_7187fa00",
+  base$27 = "VerticalBar_7187fa00",
   track = "VerticalBar_track_ff482708",
   rail__top = "VerticalBar_rail__top_ee531f43",
   rail__bottom = "VerticalBar_rail__bottom_3eaa33b1",
@@ -28334,7 +28115,7 @@ var DEFAULT_VERTICAL_API_CONFIG = {
   button = "VerticalBar_button_7b0e4aca",
   vertical_bar_module_default = {
     rail: rail,
-    base: base$25,
+    base: base$27,
     track: track,
     rail__top: rail__top,
     rail__bottom: rail__bottom,
@@ -28463,7 +28244,7 @@ var DEFAULT_VERTICAL_API_CONFIG = {
           : maskDirections.bottom
         : maskDirections.top
       : maskDirections.both,
-  content$4 = "VerticalScroll_content_f30246e6",
+  content$6 = "VerticalScroll_content_f30246e6",
   content__top = "VerticalScroll_content__top_b27098a4",
   content__bottom = "VerticalScroll_content__bottom_d6604290",
   content__both = "VerticalScroll_content__both_8d905712",
@@ -28471,7 +28252,7 @@ var DEFAULT_VERTICAL_API_CONFIG = {
   bar = "VerticalScroll_bar_c5afe570",
   area = "VerticalScroll_area_a3c0086a",
   vertical_scroll_module_default = {
-    content: content$4,
+    content: content$6,
     content__top: content__top,
     content__bottom: content__bottom,
     content__both: content__both,
@@ -28538,12 +28319,260 @@ function MaskArea({ classNames: e, ...t }) {
     },
   });
 }
-function Base$7({ settings: e, children: t }) {
+function Base$9({ settings: e, children: t }) {
   const n = useApi({ settings: e }),
     r = (0, import_react.useMemo)(() => ({ api: n }), [n]);
   return (0, import_jsx_runtime.jsx)(Context$1.Provider, { value: r, children: t });
 }
 Area.Default = DefaultScroll;
+var TabsContext = (0, import_react.createContext)(null);
+function useTabsContext() {
+  const e = (0, import_react.useContext)(TabsContext);
+  return (assert$1(null !== e, "You can use tabs hooks only with Tabs component"), e);
+}
+function Content({ children: e, keyOverride: t }) {
+  const n = useTabsContext();
+  return (0, import_jsx_runtime.jsx)(
+    import_react.Fragment,
+    { children: e(n.active) },
+    t ?? n.active,
+  );
+}
+var falsyToString = (e) => ("boolean" == typeof e ? `${e}` : 0 === e ? "0" : e),
+  cx$7 = clsx,
+  cva = (e, t) => (n) => {
+    var r;
+    if (null == (null == t ? void 0 : t.variants))
+      return cx$7(e, null == n ? void 0 : n.class, null == n ? void 0 : n.className);
+    const { variants: a, defaultVariants: o } = t,
+      i = Object.keys(a).map((e) => {
+        const t = null == n ? void 0 : n[e],
+          r = null == o ? void 0 : o[e];
+        if (null === t) return null;
+        const i = falsyToString(t) || falsyToString(r);
+        return a[e][i];
+      }),
+      s =
+        n &&
+        Object.entries(n).reduce((e, t) => {
+          let [n, r] = t;
+          return (void 0 === r || (e[n] = r), e);
+        }, {});
+    return cx$7(
+      e,
+      i,
+      null == t || null === (r = t.compoundVariants) || void 0 === r
+        ? void 0
+        : r.reduce((e, t) => {
+            let { class: n, className: r, ...a } = t;
+            return Object.entries(a).every((e) => {
+              let [t, n] = e;
+              return Array.isArray(n) ? n.includes({ ...o, ...s }[t]) : { ...o, ...s }[t] === n;
+            })
+              ? [...e, n, r]
+              : e;
+          }, []),
+      null == n ? void 0 : n.class,
+      null == n ? void 0 : n.className,
+    );
+  };
+function defineStyledComponent(e, t, n) {
+  const r = "object" == typeof t && "cva" in t ? t.cva?.variants : n?.variants,
+    a = r ? Object.keys(r) : [];
+  if ("object" == typeof t) {
+    const n = t,
+      r = cva(n.className, n.cva),
+      o = n.element,
+      i = (0, import_react.forwardRef)(function (e, t) {
+        return (0, import_react.createElement)(o, {
+          ...("function" == typeof o ? e : cleanProps(a, e)),
+          ref: t,
+          className: r(e),
+        });
+      });
+    return ((i.displayName = e), n.cva && (i.cva = n.cva), i);
+  }
+  const o = cva(t, n),
+    i = (0, import_react.forwardRef)(function (t, n) {
+      return (0, import_jsx_runtime.jsx)("div", {
+        "data-name": e,
+        ...cleanProps(a, t),
+        ref: n,
+        className: o(t),
+      });
+    });
+  return ((i.displayName = e), n && (i.cva = n), i);
+}
+function cleanProps(e, t) {
+  if (0 === e.length) return t;
+  const n = { ...t };
+  for (const r of e) delete n[r];
+  return n;
+}
+var themes$1 = { primary: "primary", custom: "custom" },
+  sizes$6 = { large: "large", medium: "medium", small: "small" },
+  background$3 = "HorizontalTabs_background_5e3af03e",
+  mainBorderImage = "HorizontalTabs_mainBorderImage_ee367896",
+  base$26 = "HorizontalTabs_69e3c6f3",
+  outerBorder = "HorizontalTabs_outerBorder_3255d0c5",
+  mainBorder = "HorizontalTabs_mainBorder_61e34c2c",
+  content$5 = "HorizontalTabs_content_1ae3c4bd",
+  horizontal_tabs_module_default = {
+    background: background$3,
+    mainBorderImage: mainBorderImage,
+    base: base$26,
+    "base__size-small": "HorizontalTabs_base__size-small_75fae891",
+    "base__size-medium": "HorizontalTabs_base__size-medium_afc0934f",
+    "base__size-large": "HorizontalTabs_base__size-large_12c75e24",
+    outerBorder: outerBorder,
+    "base__theme-primary": "HorizontalTabs_base__theme-primary_5e3af03e",
+    mainBorder: mainBorder,
+    content: content$5,
+  },
+  Base$8 = defineStyledComponent("Tabs", horizontal_tabs_module_default.base, {
+    variants: {
+      size: {
+        [sizes$6.large]: horizontal_tabs_module_default["base__size-large"],
+        [sizes$6.medium]: horizontal_tabs_module_default["base__size-medium"],
+        [sizes$6.small]: horizontal_tabs_module_default["base__size-small"],
+      },
+      theme: {
+        [themes$1.primary]: horizontal_tabs_module_default["base__theme-primary"],
+        [themes$1.custom]: void 0,
+      },
+    },
+  }),
+  Switcher = (0, import_react.forwardRef)(function ({ children: e, classNames: t, ...n }, r) {
+    const a = useTabsContext();
+    return (0, import_jsx_runtime.jsx)(Base$8, {
+      ...n,
+      ref: r,
+      className: clsx(n.className, t?.base),
+      size: a.size,
+      theme: a.theme,
+      children: (0, import_jsx_runtime.jsx)("div", {
+        className: clsx(horizontal_tabs_module_default.outerBorder, t?.outerBorder),
+        children: (0, import_jsx_runtime.jsxs)("div", {
+          className: clsx(horizontal_tabs_module_default.mainBorder, t?.mainBorder),
+          children: [
+            (0, import_jsx_runtime.jsx)("div", {
+              className: clsx(horizontal_tabs_module_default.mainBorderImage, t?.mainBorderImage),
+            }),
+            (0, import_jsx_runtime.jsx)("div", {
+              className: clsx(horizontal_tabs_module_default.content, t?.content),
+              children: e,
+            }),
+          ],
+        }),
+      }),
+    });
+  }),
+  border$1 = "Tab_border_d4435cf2",
+  background$2 = "Tab_background_763456",
+  backgroundPattern$1 = "Tab_backgroundPattern_32ac7949",
+  innerBorderImage = "Tab_innerBorderImage_77cde9e",
+  base$25 = "Tab_806d6908",
+  base__active$1 = "Tab_base__active_a872a63f",
+  content$4 = "Tab_content_4eefcae7",
+  base__inactive = "Tab_base__inactive_0",
+  tab_module_default = {
+    border: border$1,
+    background: background$2,
+    backgroundPattern: backgroundPattern$1,
+    innerBorderImage: innerBorderImage,
+    base: base$25,
+    "base__theme-primary": "Tab_base__theme-primary_209414fd",
+    base__active: base__active$1,
+    content: content$4,
+    "base__size-small": "Tab_base__size-small_0",
+    "base__size-medium": "Tab_base__size-medium_0",
+    "base__size-large": "Tab_base__size-large_0",
+    base__inactive: base__inactive,
+  },
+  Base$7 = defineStyledComponent("Tab", tab_module_default.base, {
+    variants: {
+      size: {
+        [sizes$6.large]: tab_module_default["base__size-large"],
+        [sizes$6.medium]: tab_module_default["base__size-medium"],
+        [sizes$6.small]: tab_module_default["base__size-small"],
+      },
+      theme: {
+        [themes$1.primary]: tab_module_default["base__theme-primary"],
+        [themes$1.custom]: void 0,
+      },
+      state: {
+        active: tab_module_default.base__active,
+        inactive: tab_module_default.base__inactive,
+      },
+    },
+    defaultVariants: { size: sizes$6.medium, theme: themes$1.primary },
+  }),
+  HeadlessTab = (0, import_react.forwardRef)(function (
+    { theme: e, size: t, tabId: n, active: r, children: a, onClick: o, onMouseEnter: i, ...s },
+    u,
+  ) {
+    const l = useSounds();
+    return (0, import_jsx_runtime.jsx)(Base$7, {
+      ...s,
+      ref: u,
+      theme: e,
+      size: t,
+      state: r === n ? "active" : "inactive",
+      onMouseEnter: function (e) {
+        (r !== n && l.play("mouse-enter", { target: Base$7.displayName, original: e }), i?.(e));
+      },
+      onClick: function (e) {
+        (r !== n && l.play("click", { target: Base$7.displayName, original: e }), o?.(e));
+      },
+      children: a,
+    });
+  });
+function Tab({ tabId: e, classNames: t, className: n, children: r, ...a }) {
+  const o = useTabsContext();
+  return (0, import_jsx_runtime.jsxs)(HeadlessTab, {
+    "data-test-id": `${e}Tab`,
+    ...a,
+    tabId: e,
+    theme: o.theme,
+    size: o.size,
+    active: o.active,
+    className: clsx(t?.base, n),
+    onClick: (t) => {
+      (a.onClick?.(t), o.change(e));
+    },
+    children: [
+      (0, import_jsx_runtime.jsx)("div", {
+        className: clsx(tab_module_default.background, t?.background),
+      }),
+      (0, import_jsx_runtime.jsx)("div", {
+        className: clsx(tab_module_default.backgroundPattern, t?.backgroundPattern),
+      }),
+      (0, import_jsx_runtime.jsx)("div", { className: clsx(tab_module_default.border, t?.border) }),
+      (0, import_jsx_runtime.jsx)("div", {
+        className: clsx(tab_module_default.innerBorderImage, t?.borderImage),
+      }),
+      (0, import_jsx_runtime.jsx)("div", {
+        className: clsx(tab_module_default.content, t?.content),
+        children: r,
+      }),
+    ],
+  });
+}
+function Tabs({ active: e, theme: t, size: n, children: r, onActiveChange: a }) {
+  const [o, i] = (0, import_react.useState)(e),
+    s = (0, import_react.useRef)(e),
+    u = (0, import_react.useMemo)(() => ({ active: o, theme: t, size: n, change: i }), [o, n, t]);
+  return (
+    (0, import_react.useLayoutEffect)(() => {
+      i(e);
+    }, [e]),
+    (0, import_react.useEffect)(() => {
+      s.current !== o && ((s.current = o), a?.(o));
+    }, [o, a]),
+    (0, import_jsx_runtime.jsx)(TabsContext.Provider, { value: u, children: r })
+  );
+}
+((Tabs.Switcher = Switcher), (Tabs.Tab = Tab), (Tabs.Content = Content));
 var themes = { primary: "primary", secondary: "secondary", custom: "custom" },
   sizes$5 = { extraSmall: "extraSmall", small: "small", medium: "medium", large: "large" },
   base$24 = "HeadlessButton_df8536fc",
@@ -28995,11 +29024,11 @@ var RewardType$1 = (function (e) {
   NOTIFICATION_MAX_HEIGHT = 500,
   NotificationWrapper = ({ children: e, ref: t, className: n }) => {
     const r = (0, import_react.useRef)(null),
-      a = NOTIFICATION_WIDTH * getScale$2(),
-      o = NOTIFICATION_MAX_HEIGHT * getScale$2();
+      a = 288 * getScale$2(),
+      o = 500 * getScale$2();
     return (
       useMount(() => {
-        resize$1(a, NOTIFICATION_MIN_HEIGHT);
+        resize$1(a, 1);
       }),
       useLayoutReady(() => {
         if (!r.current) return;
@@ -29012,189 +29041,46 @@ var RewardType$1 = (function (e) {
         children: e,
       })
     );
-  };
-function isSerializableReactNode(e) {
-  return (
-    !(null != e && !["string", "number", "boolean"].includes(typeof e)) ||
-    (!(0, import_react.isValidElement)(e) && !!Array.isArray(e) && e.every(isSerializableReactNode))
-  );
-}
-var base$21 = "MultilineOverflow_ec9f8e47",
-  content$2 = "MultilineOverflow_content_b539970d",
-  multiline_overflow_module_default = { base: base$21, content: content$2 };
-function isSerializableParams(e) {
-  return !e || Object.values(e).every(isSerializableReactNode);
-}
-function cloneNode(e) {
-  return e instanceof HTMLElement
-    ? e.cloneNode(!0)
-    : e.nodeType === Node.TEXT_NODE
-      ? document.createTextNode(e.nodeValue ?? "")
-      : void 0;
-}
-var MultilineOverflow$1 = (0, import_react.forwardRef)(function (
-  {
-    text: e,
-    brackets: t,
-    params: n,
-    formatters: r,
-    upgradeLegacy: a,
-    split: o = !0,
-    onMouseEnter: i,
-    onMouseLeave: s,
-    onClick: u,
-    tooltipDisabled: l = !1,
-    tooltip: c,
-    className: d,
-    classNames: f,
-    style: p,
-    styleBase: m,
-    styleText: h,
-    ..._
   },
-  g,
-) {
-  const b = (0, import_react.useRef)(null),
-    v = (0, import_react.useRef)(null),
-    [y, E] = (0, import_react.useState)(!1);
-  (0, import_react.useEffect)(() => {
-    if (0 === e.length) return;
-    const t = b.current,
-      n = v.current;
-    if (!t || !n) return;
-    const r = document.createElement("div");
-    function a() {
-      if (!t || !n) return;
-      const e = t.children[0];
-      if (!e) return console.warn("MultilineOverflow can't get first child to handle it", t);
-      (r.remove(),
-        (r.className = clsx(multiline_overflow_module_default.content, t.children[0].className)),
-        (r.innerHTML = ""),
-        e instanceof HTMLElement && (r.style.cssText = e.style.cssText));
-      const a = e.childNodes.length - 1;
-      let o = a;
-      for (; o >= 0; o--) {
-        const n = e.childNodes[o];
-        if (n instanceof HTMLElement && !(n.offsetTop + n.offsetHeight > t.clientHeight)) break;
-      }
-      if (o === a) E(!1);
-      else {
-        E(!0);
-        const a = relativeOffset(t.getBoundingClientRect(), e.getBoundingClientRect());
-        for (
-          r.style.visibility = "", r.style.left = `${a.x}px`, r.style.top = `${a.y}px`;
-          o >= 0;
-          o--
-        ) {
-          const t = e.childNodes[o];
-          if (
-            t instanceof HTMLElement &&
-            !(t.offsetLeft + t.offsetWidth + n.offsetWidth > e.clientWidth)
-          )
-            break;
-        }
-        for (let t = 0; t <= o; t++) {
-          const n = e.childNodes[t];
-          if (!(n instanceof HTMLElement)) continue;
-          const a = cloneNode(n);
-          a ? r.appendChild(a) : console.warn("Unexpected type of target node", n);
-        }
-        const i = n.cloneNode(!0);
-        (i.removeAttribute("style"), r.appendChild(i), t.appendChild(r));
-      }
-    }
-    const o = new ResizeObserver(a);
+  base$21 = "Tooltip_6d997cee",
+  decorator = "Tooltip_decorator_b3486d4e",
+  tooltip_module_default = { base: base$21, decorator: decorator },
+  Base$6 = defineStyledComponent("Base", tooltip_module_default.base),
+  Decorator = defineStyledComponent("Decorator", tooltip_module_default.decorator),
+  Tooltip$1 = (0, import_react.forwardRef)(function ({ children: e, ...t }, n) {
+    const r = (0, import_react.useRef)(null);
     return (
-      o.observe(t),
-      new DisposeBuilder()
-        .add(addEventListener$1(window, "resize", a))
-        .add(o.disconnect.bind(o))
-        .add(r.remove.bind(r)).dispose
+      (0, import_react.useLayoutEffect)(() => {
+        const e = getSize$2("rem");
+        ((document.body.style.width = `${e.width}rem`),
+          (document.body.style.height = `${e.height}rem`));
+      }, []),
+      useRefResizeObserver(r, (e) => {
+        const t = e.target;
+        if (!(t instanceof HTMLElement)) return;
+        const n = t.scrollWidth,
+          r = t.scrollHeight;
+        (resize$1(n, r),
+          (document.body.style.width = `${n}px`),
+          (document.body.style.height = `${r}px`));
+        const a = window.getComputedStyle(t);
+        setSidePaddingsRem$1({
+          top: parseInt(a.getPropertyValue("padding-top"), 10),
+          left: parseInt(a.getPropertyValue("padding-left"), 10),
+          right: parseInt(a.getPropertyValue("padding-right"), 10),
+          bottom: parseInt(a.getPropertyValue("padding-bottom"), 10),
+        });
+      }),
+      (0, import_jsx_runtime.jsx)(Base$6, {
+        ...t,
+        ref: function (e) {
+          ((r.current = e), "function" == typeof n ? n(e) : n && (n.current = e));
+        },
+        children: e,
+      })
     );
-  }, [g, e]);
-  const A = isSerializableParams(n),
-    S = useParamTooltip(
-      "format_text",
-      (0, import_react.useMemo)(
-        () => ({
-          text: e,
-          params: A ? n : void 0,
-          split: o,
-          upgradeLegacy: a,
-          brackets: t,
-          resId: resources.resolve("views").read((e) => e.mono.tooltips.tooltips("resId")),
-        }),
-        [e, t, o, a, n, A],
-      ),
-    ),
-    w = c ?? S;
-  if (
-    ((0, import_react.useEffect)(() => {
-      l || y || w.onMouseLeave();
-    }, [y, w, c, l, A]),
-    0 === e.length)
-  )
-    return null;
-  return (0, import_jsx_runtime.jsxs)("div", {
-    ..._,
-    onMouseEnter: function (e) {
-      (i?.(e), y && !l && w.onMouseEnter(e));
-    },
-    onClick: function (e) {
-      (u?.(e), l || w.onClick());
-    },
-    onMouseLeave: function (e) {
-      (s?.(e), l || w.onMouseLeave());
-    },
-    ref: assignRefs([g, b]),
-    className: clsx(multiline_overflow_module_default.base, d, f?.base),
-    style: { ...p, ...m },
-    children: [
-      (0, import_jsx_runtime.jsx)(FormatText$1, {
-        text: e,
-        brackets: t,
-        params: n,
-        upgradeLegacy: a,
-        split: o,
-        formatters: r,
-        className: f?.text,
-        style: { ...h, visibility: y ? "hidden" : void 0 },
-      }),
-      (0, import_jsx_runtime.jsx)("div", {
-        ref: v,
-        style: { visibility: "hidden", position: "absolute" },
-        children: "...",
-      }),
-    ],
   });
-});
-function FormatTextSplited({ className: e, ...t }) {
-  return (0, import_jsx_runtime.jsx)("div", {
-    className: e,
-    children: t.text
-      .split("\n")
-      .map((e) => (0, import_jsx_runtime.jsx)(FormatText$1, { ...t, text: e }, e)),
-  });
-}
-function ExtendedText(e) {
-  return (
-    void 0 !== e.onSizeChanged &&
-      console.warn('[ExtendedText Adapter] Property "onSizeChanged" doesn\'t support'),
-    void 0 !== e.targetId &&
-      console.warn('[ExtendedText Adapter] Property "targetId" doesn\'t support'),
-    (0, import_jsx_runtime.jsx)(
-      e.isTruncationAvailable || e.truncateIdentify ? MultilineOverflow$1 : FormatTextSplited,
-      {
-        split: e.split ?? !0,
-        text: e.text,
-        params: e.binding,
-        style: { alignContent: e.alignContent, justifyContent: e.justifyContent },
-        upgradeLegacy: !0,
-        className: clsx(e.className, e.classMix),
-      },
-    )
-  );
-}
+Tooltip$1.Decorator = Decorator;
 var formats = {
     superCompact: "superCompact",
     compact: "compact",
@@ -29436,45 +29322,6 @@ function Timer({
   });
 }
 ((Timer.format = formats), (Timer.size = sizes$4), (Timer.type = types$3));
-var base$19 = "Tooltip_6d997cee",
-  decorator = "Tooltip_decorator_b3486d4e",
-  tooltip_module_default = { base: base$19, decorator: decorator },
-  Base$6 = defineStyledComponent("Base", tooltip_module_default.base),
-  Decorator = defineStyledComponent("Decorator", tooltip_module_default.decorator),
-  Tooltip$1 = (0, import_react.forwardRef)(function ({ children: e, ...t }, n) {
-    const r = (0, import_react.useRef)(null);
-    return (
-      (0, import_react.useLayoutEffect)(() => {
-        const e = getSize$2("rem");
-        ((document.body.style.width = `${e.width}rem`),
-          (document.body.style.height = `${e.height}rem`));
-      }, []),
-      useRefResizeObserver(r, (e) => {
-        const t = e.target;
-        if (!(t instanceof HTMLElement)) return;
-        const n = t.scrollWidth,
-          r = t.scrollHeight;
-        (resize$1(n, r),
-          (document.body.style.width = `${n}px`),
-          (document.body.style.height = `${r}px`));
-        const a = window.getComputedStyle(t);
-        setSidePaddingsRem$1({
-          top: parseInt(a.getPropertyValue("padding-top"), 10),
-          left: parseInt(a.getPropertyValue("padding-left"), 10),
-          right: parseInt(a.getPropertyValue("padding-right"), 10),
-          bottom: parseInt(a.getPropertyValue("padding-bottom"), 10),
-        });
-      }),
-      (0, import_jsx_runtime.jsx)(Base$6, {
-        ...t,
-        ref: function (e) {
-          ((r.current = e), "function" == typeof n ? n(e) : n && (n.current = e));
-        },
-        children: e,
-      })
-    );
-  });
-Tooltip$1.Decorator = Decorator;
 var getFromCallStack = (e = 1) => {
     const t = new Error().stack;
     let n,
@@ -31271,21 +31118,21 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
       ? calculateFitLength({ ...e, start: t })
       : calculateFitLength({ ...e, end: t });
   },
-  base$18 = "Multilineoverflow_c23f658d",
+  base$19 = "Multilineoverflow_c23f658d",
   base__truncated = "Multilineoverflow_base__truncated_da38b33f",
   text = "Multilineoverflow_text_224088b3",
   truncatedContent = "Multilineoverflow_truncatedContent_a6e0cfa",
   singleLine = "Multilineoverflow_singleLine_17832ee4",
   line$1 = "Multilineoverflow_line_e6b06631",
   MultilineOverflow_module_default = {
-    base: base$18,
+    base: base$19,
     base__truncated: base__truncated,
     text: text,
     truncatedContent: truncatedContent,
     singleLine: singleLine,
     line: line$1,
   },
-  MultilineOverflow = (0, import_react.forwardRef)(function (
+  MultilineOverflow$1 = (0, import_react.forwardRef)(function (
     {
       text: e,
       lines: t,
@@ -31389,7 +31236,7 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
     return (0, import_jsx_runtime.jsx)(SimpleTooltip, {
       isEnabled: n,
       body: e.text,
-      children: (0, import_jsx_runtime.jsx)(MultilineOverflow, { ...e, ref: t, onChange: r }),
+      children: (0, import_jsx_runtime.jsx)(MultilineOverflow$1, { ...e, ref: t, onChange: r }),
     });
   }),
   multiValueTypes = [
@@ -31611,8 +31458,190 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
       default:
         return e;
     }
+  };
+function isSerializableReactNode(e) {
+  return (
+    !(null != e && !["string", "number", "boolean"].includes(typeof e)) ||
+    (!(0, import_react.isValidElement)(e) && !!Array.isArray(e) && e.every(isSerializableReactNode))
+  );
+}
+var base$18 = "MultilineOverflow_ec9f8e47",
+  content$2 = "MultilineOverflow_content_b539970d",
+  multiline_overflow_module_default = { base: base$18, content: content$2 };
+function isSerializableParams(e) {
+  return !e || Object.values(e).every(isSerializableReactNode);
+}
+function cloneNode(e) {
+  return e instanceof HTMLElement
+    ? e.cloneNode(!0)
+    : e.nodeType === Node.TEXT_NODE
+      ? document.createTextNode(e.nodeValue ?? "")
+      : void 0;
+}
+var MultilineOverflow = (0, import_react.forwardRef)(function (
+  {
+    text: e,
+    brackets: t,
+    params: n,
+    formatters: r,
+    upgradeLegacy: a,
+    split: o = !0,
+    onMouseEnter: i,
+    onMouseLeave: s,
+    onClick: u,
+    tooltipDisabled: l = !1,
+    tooltip: c,
+    className: d,
+    classNames: f,
+    style: p,
+    styleBase: m,
+    styleText: h,
+    ..._
   },
-  base$17 = "Formattext_bb80854d",
+  g,
+) {
+  const b = (0, import_react.useRef)(null),
+    v = (0, import_react.useRef)(null),
+    [y, E] = (0, import_react.useState)(!1);
+  (0, import_react.useEffect)(() => {
+    if (0 === e.length) return;
+    const t = b.current,
+      n = v.current;
+    if (!t || !n) return;
+    const r = document.createElement("div");
+    function a() {
+      if (!t || !n) return;
+      const e = t.children[0];
+      if (!e) return console.warn("MultilineOverflow can't get first child to handle it", t);
+      (r.remove(),
+        (r.className = clsx(multiline_overflow_module_default.content, t.children[0].className)),
+        (r.innerHTML = ""),
+        e instanceof HTMLElement && (r.style.cssText = e.style.cssText));
+      const a = e.childNodes.length - 1;
+      let o = a;
+      for (; o >= 0; o--) {
+        const n = e.childNodes[o];
+        if (n instanceof HTMLElement && !(n.offsetTop + n.offsetHeight > t.clientHeight)) break;
+      }
+      if (o === a) E(!1);
+      else {
+        E(!0);
+        const a = relativeOffset(t.getBoundingClientRect(), e.getBoundingClientRect());
+        for (
+          r.style.visibility = "", r.style.left = `${a.x}px`, r.style.top = `${a.y}px`;
+          o >= 0;
+          o--
+        ) {
+          const t = e.childNodes[o];
+          if (
+            t instanceof HTMLElement &&
+            !(t.offsetLeft + t.offsetWidth + n.offsetWidth > e.clientWidth)
+          )
+            break;
+        }
+        for (let t = 0; t <= o; t++) {
+          const n = e.childNodes[t];
+          if (!(n instanceof HTMLElement)) continue;
+          const a = cloneNode(n);
+          a ? r.appendChild(a) : console.warn("Unexpected type of target node", n);
+        }
+        const i = n.cloneNode(!0);
+        (i.removeAttribute("style"), r.appendChild(i), t.appendChild(r));
+      }
+    }
+    const o = new ResizeObserver(a);
+    return (
+      o.observe(t),
+      new DisposeBuilder()
+        .add(addEventListener$1(window, "resize", a))
+        .add(o.disconnect.bind(o))
+        .add(r.remove.bind(r)).dispose
+    );
+  }, [g, e]);
+  const A = isSerializableParams(n),
+    S = useParamTooltip(
+      "format_text",
+      (0, import_react.useMemo)(
+        () => ({
+          text: e,
+          params: A ? n : void 0,
+          split: o,
+          upgradeLegacy: a,
+          brackets: t,
+          resId: resources.resolve("views").read((e) => e.mono.tooltips.tooltips("resId")),
+        }),
+        [e, t, o, a, n, A],
+      ),
+    ),
+    w = c ?? S;
+  if (
+    ((0, import_react.useEffect)(() => {
+      l || y || w.onMouseLeave();
+    }, [y, w, c, l, A]),
+    0 === e.length)
+  )
+    return null;
+  return (0, import_jsx_runtime.jsxs)("div", {
+    ..._,
+    onMouseEnter: function (e) {
+      (i?.(e), y && !l && w.onMouseEnter(e));
+    },
+    onClick: function (e) {
+      (u?.(e), l || w.onClick());
+    },
+    onMouseLeave: function (e) {
+      (s?.(e), l || w.onMouseLeave());
+    },
+    ref: assignRefs([g, b]),
+    className: clsx(multiline_overflow_module_default.base, d, f?.base),
+    style: { ...p, ...m },
+    children: [
+      (0, import_jsx_runtime.jsx)(FormatText$1, {
+        text: e,
+        brackets: t,
+        params: n,
+        upgradeLegacy: a,
+        split: o,
+        formatters: r,
+        className: f?.text,
+        style: { ...h, visibility: y ? "hidden" : void 0 },
+      }),
+      (0, import_jsx_runtime.jsx)("div", {
+        ref: v,
+        style: { visibility: "hidden", position: "absolute" },
+        children: "...",
+      }),
+    ],
+  });
+});
+function FormatTextSplited({ className: e, ...t }) {
+  return (0, import_jsx_runtime.jsx)("div", {
+    className: e,
+    children: t.text
+      .split("\n")
+      .map((e) => (0, import_jsx_runtime.jsx)(FormatText$1, { ...t, text: e }, e)),
+  });
+}
+function ExtendedText(e) {
+  return (
+    void 0 !== e.onSizeChanged &&
+      console.warn('[ExtendedText Adapter] Property "onSizeChanged" doesn\'t support'),
+    void 0 !== e.targetId &&
+      console.warn('[ExtendedText Adapter] Property "targetId" doesn\'t support'),
+    (0, import_jsx_runtime.jsx)(
+      e.isTruncationAvailable || e.truncateIdentify ? MultilineOverflow : FormatTextSplited,
+      {
+        split: e.split ?? !0,
+        text: e.text,
+        params: e.binding,
+        style: { alignContent: e.alignContent, justifyContent: e.justifyContent },
+        upgradeLegacy: !0,
+        className: clsx(e.className, e.classMix),
+      },
+    )
+  );
+}
+var base$17 = "Formattext_bb80854d",
   FormatText_module_default = { base: base$17 },
   FormatText = ({
     binding: e,
@@ -33543,146 +33572,145 @@ var base$1 = "Bubble_df22310d",
     );
   });
 export {
-  Bar$1 as $,
-  computed as $t,
-  Tooltip$1 as A,
-  intl$3 as An,
+  useScrollByDragElements as $,
+  observable$1 as $t,
+  getRewardValueType as A,
+  ImagesRClassProvider as An,
   useSkipFrame$1 as At,
   Specials$1 as B,
   useMount as Bt,
   types$2 as C,
-  subtract as Cn,
+  toMillis as Cn,
   useSounds as Ct,
-  getRewardTooltipConfig as D,
-  clsx as Dn,
+  getOverlay as D,
+  require_react as Dn,
   useSimpleTooltip as Dt,
-  getRewardImage as E,
-  easings$1 as En,
+  MultilineOverflow as E,
+  clsx as En,
   useParamTooltip as Et,
-  ExtendedText as F,
-  asFunction as Fn,
+  types$3 as F,
   useSprings as Ft,
-  Area as G,
-  usePrevious as Gt,
+  sizes$6 as G,
+  useAdaptive as Gt,
   sizes$5 as H,
   useEmitterSubscribe as Ht,
-  MultilineOverflow$1 as I,
+  Tooltip$1 as I,
   useTransition$2 as It,
-  useVerticalScroll as J,
-  require_jsx_runtime as Jt,
-  MaskArea as K,
-  useAdaptive as Kt,
+  MaskArea as J,
+  breakpointsByType as Jt,
+  Base$9 as K,
+  useMedia as Kt,
   NotificationWrapper as L,
   useCallbackOnEsc as Lt,
-  formats as M,
-  logBySeverity as Mn,
+  Timer as M,
+  concatWithPath as Mn,
   useSpring as Mt,
-  sizes$4 as N,
-  concatWithPath as Nn,
+  formats as N,
+  resources as Nn,
   useSpringRef as Nt,
-  getRewardValueType as O,
-  require_react as On,
+  getRewardImage as O,
+  SoundsRClassProvider as On,
   useTooltip as Ot,
-  types$3 as P,
-  resources as Pn,
+  sizes$4 as P,
+  asFunction as Pn,
   useSpringValue as Pt,
-  Area$1 as Q,
-  action as Qt,
+  dragDirections as Q,
+  computed as Qt,
   getOverlay$1 as R,
   useCloseOnEsc as Rt,
   sizes$3 as S,
-  seconds as Sn,
+  subtract as Sn,
   initializeModelWithContext as St,
-  getOverlay as T,
-  toSeconds as Tn,
+  ExtendedText as T,
+  easings$1 as Tn,
   createSoundPlay as Tt,
   themes as U,
   useEvent as Ut,
   Button as V,
   useEmitter as Vt,
-  Base$7 as W,
-  useCallbackOnce as Wt,
-  dragDirections as X,
-  assert$1 as Xt,
-  Base$8 as Y,
-  breakpointsByType as Yt,
-  useScrollByDragElements as Z,
-  createLayoutReadyInEffect as Zt,
+  Tabs as W,
+  usePrevious as Wt,
+  useVerticalScroll as X,
+  createLayoutReadyInEffect as Xt,
+  Bar as Y,
+  assert$1 as Yt,
+  Base$10 as Z,
+  action as Zt,
   Alignment as _,
-  ONE_DAY as _n,
-  observer as _t,
+  format$2 as _n,
+  string as _t,
   sizes$1 as a,
-  get$1 as an,
-  useLoadPlugin as at,
+  map as an,
+  sizes$7 as at,
   Reward as b,
-  millis as bn,
+  now$1 as bn,
   JSXBuilder as bt,
   VehicleLevel as c,
-  mapNonNullable as cn,
-  FormatText$1 as ct,
+  toArray$1 as cn,
+  Image$1 as ct,
   cloneModel as d,
-  pipe as dn,
-  number as dt,
-  observable$1 as en,
-  useScrollBounding as et,
+  remToPx$1 as dn,
+  UIProvider as dt,
+  reaction as en,
+  Area$1 as et,
   CardSingle as f,
-  remToPx$1 as fn,
-  object as ft,
+  sendEvent$2 as fn,
+  injectGFPlugins as ft,
   ProgressBar as g,
-  normalizeResource as gn,
-  sizes$7 as gt,
+  ONE_DAY as gn,
+  object as gt,
   Delta as h,
-  capitalize as hn,
-  Tabs as ht,
+  normalizeResource as hn,
+  number as ht,
   VehicleInfo as i,
-  forEach as in,
-  isReactComponent as it,
-  Timer as j,
-  ImagesRClassProvider as jn,
+  get$1 as in,
+  CloseButton as it,
+  MultilineOverflowWithTooltip as j,
+  logBySeverity as jn,
   animated as jt,
-  MultilineOverflowWithTooltip as k,
-  SoundsRClassProvider as kn,
+  getRewardTooltipConfig as k,
+  intl$3 as kn,
   useUntilTimer as kt,
   Video as l,
-  toArray$1 as ln,
-  injectGFPlugins as lt,
+  noop$2 as ln,
+  FormatString as lt,
   Card as m,
-  play$1 as mn,
-  __vitePreload as mt,
+  capitalize as mn,
+  array as mt,
   Bubble as n,
-  filter as nn,
-  CloseButton as nt,
+  find as nn,
+  useScrollBounding as nt,
   types$1 as o,
-  map as on,
-  Image$1 as ot,
+  mapFilter as on,
+  isReactComponent as ot,
   CardsWrapper as p,
-  sendEvent$2 as pn,
-  string as pt,
-  Bar as q,
-  useMedia as qt,
+  play$1 as pn,
+  __vitePreload as pt,
+  Area as q,
+  require_jsx_runtime as qt,
   useVerticalDrag as r,
-  find as rn,
-  sizes$6 as rt,
+  forEach as rn,
+  useHorizontalScroll as rt,
   IconButton as s,
-  mapFilter as sn,
-  FormatString as st,
+  mapNonNullable as sn,
+  useLoadPlugin as st,
   TruncatedText as t,
-  reaction as tn,
-  useHorizontalScroll as tt,
+  filter as tn,
+  Bar$1 as tt,
   isEmptyObject as u,
-  noop$2 as un,
-  array as ut,
+  pipe as un,
+  FormatText$1 as ut,
   createParser as v,
-  format$2 as vn,
-  UIProvider as vt,
+  add as vn,
+  observer as vt,
   FormatText as w,
-  toMillis as wn,
+  toSeconds as wn,
   useSoundsOptional as wt,
   Currency as x,
-  now$1 as xn,
+  seconds as xn,
   computeds as xt,
   Rewards as y,
-  add as yn,
+  millis as yn,
   runView as yt,
   ImageSize$1 as z,
   useIsFirstRender as zt,

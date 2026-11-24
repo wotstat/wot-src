@@ -1574,9 +1574,8 @@ class _ChallengesReminderNotification(NavigationDisabledActionHandler):
         return (b'openExpiringChallenge',)
 
     def doAction(self, model, entityID, action):
-        expiringChallenge = first(self.__challenges.getSoonEndingChallenges())
-        if expiringChallenge is not None and expiringChallenge.isExpiringSoon:
-            showChallenges(expiringChallenge.challengeID)
+        challenge = first(self.__challenges.getSoonEndingChallengesForCompletions()) or first(self.__challenges.getSoonEndingChallenges())
+        showChallenges(challenge.challengeID if challenge is not None else None)
         return
 
 

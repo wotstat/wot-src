@@ -1,16 +1,16 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
-import { B as i, R as e, V as a, Z as t, _t as r, t as o } from "../../chunks/lib.js";
+import { B as i, V as e, Z as a, _t as t, t as r, z as o } from "../../chunks/lib.js";
 import "../../chunks/global.js";
-var d = s(e(), 1),
+var d = s(o(), 1),
   n = "App_d81c4b8e",
   l = "App_title_7858e66b",
   c = "App_subtitle_ea50265b",
   p = "App_description_975d9f61",
   m = "App_description__indent_bc8ac04b",
-  b = s(t(), 1),
-  _ = r.resolve("strings");
+  b = s(a(), 1),
+  _ = t.resolve("strings");
 function j() {
-  return (0, b.jsx)(o, {
+  return (0, b.jsx)(r, {
     children: (0, b.jsxs)("div", {
       className: n,
       children: [
@@ -34,4 +34,4 @@ function j() {
     }),
   });
 }
-a((0, b.jsx)(i, { children: (0, b.jsx)(j, {}) }), { immediateLayout: !1 });
+e((0, b.jsx)(i, { children: (0, b.jsx)(j, {}) }), { immediateLayout: !1 });

@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "Chúng tôi đang khắc phục vấn đề. Xin vui lòng thử lại sau."
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "Dữ liệu Không khả dụng"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "Từ %(startDate)s đến %(endDate)s, bạn có thể mở một cửa mới với quà mỗi hôm. Cửa có thể được mở cho ngày hiện tại và bữa trước. Sau %(endDate)s, bạn chỉ có thể mở cửa bằng cách dùng tài nguyên của Chiến dịch Tết."
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "Hoàn tất Tiến trình Lịch để nhận thêm quà, gồm cả một Hộp Năm Mới Lớn. Tiến trình chỉ khả dụng để làm cho đến {FFE4C0_Open}%(date)s{FFE4C0_Close}."
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "Mở hết 31 cửa để nhận nhiều kiểu mẫu 2D độc đáo, đề-can, ngày Tài khoản WoT Premium, Tài liệu Kíp lái, Trợ cấp Cá nhân, vân vân."
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "Cách Thức Hoạt Động"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "Nhưng Còn Nữa!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "Mở Hết Chúng"
+
+msgid "introScreenView/buttonTitle"
+msgstr "Đến Lịch"
+
+msgid "introScreenView/title"
+msgstr "Lịch Mùa Vọng"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "Từ {{startDate}} đến {{endDate}}, bạn sẽ có thể mở một cửa Lịch mới với quà {{@ colorLegacy 'dde9fc'}}mỗi hôm{{/}}.\nCửa có thể được mở cho ngày hiện tại và bữa trước."
+
+msgid "mainView/footer/expired/title"
+msgstr "Tiến trình không còn khả dụng."
+
+msgid "mainView/footer/linkButton/text"
+msgstr "Tải Hình nền Desktop"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "Tiến trình hoàn tất. Đã nhận mọi món quà."
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "Mở Cửa lịch cho đến %(endDate)s\nđể nhận thêm quà."
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "Chi tiết Sự kiện"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "Dùng tiền tệ để mở cửa và nhận quà mỗi hôm cho đến {{date}}. Bạn sẽ có thể mở\ncửa cuối cùng hôm 31/12 miễn phí."
+
+msgid "mainView/title"
+msgstr "Lịch Mùa Vọng"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "Trợ cấp Cá nhân"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "Sổ tay Phổ dụng, Bằng Đào tạo và nhiệm vụ х5 XP"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "Bạc, Tài khoản WoT Premium và hơn nữa"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "Kiểu mẫu 2D và đề-can"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "Thiết bị Thử nghiệm và thành phần"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "Thành viên kíp lái và Hộp Năm Mới Lớn"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "Mở các cửa Lịch để nhận:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "Quà"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "Cửa Lịch khả dụng để mở từ %(time)s mỗi ngày."
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "Sẽ khả dụng vào {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "Sẽ khả dụng {FFE4C0_Open}từ %(time)s hôm nay{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "Sẽ khả dụng {FFE4C0_Open}từ %(time)s ngày mai{FFE4C0_Close}"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "Bắt đầu với cửa {FFE4C0_Open}%(day)s{FFE4C0_Close}, rồi mở các cửa khác theo số thứ tự."
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "Mở cửa theo Thứ tự"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "Bạn có thể mở cửa Lịch cho ngày hiện tại và bữa trước.\nMọi cửa bỏ lỡ có thể mở được bằng cách dùng tài nguyên của Chiến dịch Tết {FFE4C0_Open}từ %(startDate)s đến %(endDate)s{FFE4C0_Close}. "
+
+msgid "mainView/tooltip/expired/title"
+msgstr "Cửa Không được Mở Kịp lúc"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "Bạn có thể kiếm tiền tệ bằng cách đánh, hoàn thành nhiệm vụ hàng ngày và chơi các hoạt động khác trong game."
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "Không đủ tiền"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "Lấy Thưởng"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "Mở cửa Lịch mỗi ngày và nhận quà."
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "Có Quà Lịch Mùa vọng!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "Đến Lịch"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "Dùng tiền tệ mở các cửa Lịch Mùa vọng còn lại trước {{date}}."
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "Đừng Bỏ Lỡ!"
+
+msgid "notification/door/opened/title"
+msgstr "Đã Mở Cửa Lịch Mùa vọng %(dayNumber)s"
+
+msgid "notification/event/paused"
+msgstr "Sự kiện Lịch Mùa vọng đang tạm ngưng để bảo trì."
+
+msgid "notification/event/resumed"
+msgstr "Sự kiện Lịch Mùa vọng đã tiếp tục trở lại. Chúng tôi rất xin lỗi vì sự gián đoạn này."
+
+msgid "notification/lootbox/title"
+msgstr "Hộp Năm Mới Lớn"
+
+msgid "notification/progerssion/finished"
+msgstr "Hoàn tất Tiến trình Lịch Mùa vọng"
+
+msgid "notification/progerssion/recieved"
+msgstr "Hoàn tất Giai đoạn Tiến trình Lịch Mùa vọng"
+
+msgid "notification/reward/received"
+msgstr "Nhận được:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "Quà tiến trình chỉ có thể nhận được theo thứ tự."
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "Nhận Quà Trước đó"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "Bạn sẽ có thể khám phá ra cái gì ẩn chứa trong Hộp {FFE4C0_Open}vào %(date)s{FFE4C0_Close}."
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "Hộp Năm Mới Lớn"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "Tiến trình khả dụng từ %(startDate)s đến %(endDate)s."
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "Quà không được lấy kịp lúc"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s Chưa nhận được"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "Mở thêm {cream_Open}%(count)s cửa Lịch{cream_Close} để nhận món quà này."
+msgstr[1] "Mở thêm {cream_Open}%(count)s cửa Lịch{cream_Close} để nhận món quà này."
+msgstr[2] "Mở thêm {cream_Open}%(count)s cửa Lịch{cream_Close} để nhận món quà này."
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s Nhận quà trước đó trong Tiến trình để mở khóa."
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s Đã nhận được"
+
+msgid "purchaseView/cancel"
+msgstr "Hủy"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "Bạn có thể kiếm tiền tệ bằng cách đánh, hoàn thành nhiệm vụ hàng ngày và chơi các hoạt động khác trong game."
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "Không đủ tiền"
+
+msgid "purchaseView/open"
+msgstr "Mở"
+
+msgid "purchaseView/title"
+msgstr "Mở cửa Lịch Mùa Vọng {{@ style (color $color)}}{{day}}{{/}}?"
+
+msgid "rewardView/confirm"
+msgstr "Rõ!"
+
+msgid "rewardView/goToBoxes"
+msgstr "Đến Hộp"
+
+msgid "rewardView/loading"
+msgstr "Trao thưởng"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "Bạn đã mở {FFE4C0_Open}hết mọi cửa Lịch Mùa vọng{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "Cửa Lịch Mùa vọng đã mở: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "Bạn đã mở {FFE4C0_Open}%(count)s cửa Lịch Mùa vọng{FFE4C0_Close}"
+
+msgid "rewardView/title/box"
+msgstr "Đã nhận Hộp Năm Mới Lớn!"
+
+msgid "rewardView/title/progression"
+msgstr "Đã nhận Phần thưởng!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "Xin chúc mừng!"
+
+msgid "server_error"
+msgstr "Tác vụ này tạm thời không khả dụng vì các lý do kỹ thuật. Hãy thử lại sau."

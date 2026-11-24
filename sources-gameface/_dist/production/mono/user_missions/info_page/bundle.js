@@ -1,28 +1,28 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
   Dn as s,
-  G as a,
-  Jt as n,
-  Lt as t,
-  On as r,
-  Pn as o,
-  Sn as i,
-  St as l,
-  W as c,
-  _t as d,
-  at as _,
+  En as a,
+  K as t,
+  Lt as n,
+  Nn as r,
+  St as o,
+  Y as i,
+  _n as l,
+  ct as c,
+  dt as d,
+  ft as _,
   it as m,
   lt as p,
-  nt as u,
-  ot as f,
-  q as h,
+  ot as u,
+  q as f,
+  qt as h,
   st as x,
-  vn as b,
-  vt as j,
+  vt as b,
+  xn as j,
   yt as I,
 } from "../chunks/lib.js";
 import "../chunks/_wg-global-styles.js";
-var v = e(r(), 1),
+var v = e(s(), 1),
   g = {
     base: "InfoItem_a5beac91",
     base__reversed: "InfoItem_base__reversed_36b9aa51",
@@ -33,31 +33,31 @@ var v = e(r(), 1),
     iconWrapper: "InfoItem_iconWrapper_7115ec4b",
     icon: "InfoItem_icon_9f7d5e9f",
   },
-  P = e(n(), 1),
+  P = e(h(), 1),
   N = (e, s) => (s > 0 ? (e > 0 ? "hrs_mins" : "mins") : "hrs"),
   $ = v.memo(function ({
     titlePath: e,
-    descriptionPath: a,
-    iconPath: n,
-    type: t,
+    descriptionPath: s,
+    iconPath: t,
+    type: n,
     reversed: r,
     rerollInterval: o = 0,
   }) {
-    const [l, c] = b(i(o), ["h", "m"]);
+    const [i, d] = l(j(o), ["h", "m"]);
     return (0, P.jsxs)("div", {
-      className: s(g.base, g[`base__${t}`], r && g.base__reversed),
+      className: a(g.base, g[`base__${n}`], r && g.base__reversed),
       children: [
         (0, P.jsxs)("div", {
           className: g.textBlock,
           children: [
-            (0, P.jsx)(x, { path: e, className: g.title }),
-            (0, P.jsx)(x, {
-              path: a,
+            (0, P.jsx)(p, { path: e, className: g.title }),
+            (0, P.jsx)(p, {
+              path: s,
               split: !0,
               params: {
-                time: (0, P.jsx)(x, {
-                  path: `user_missions.common.duration.${N(Number(l), Number(c))}`,
-                  params: { hours: l, minutes: c },
+                time: (0, P.jsx)(p, {
+                  path: `user_missions.common.duration.${N(Number(i), Number(d))}`,
+                  params: { hours: i, minutes: d },
                 }),
               },
               className: g.description,
@@ -66,7 +66,7 @@ var v = e(r(), 1),
         }),
         (0, P.jsx)("div", {
           className: g.iconWrapper,
-          children: (0, P.jsx)(f, { path: n, className: g.icon }),
+          children: (0, P.jsx)(c, { path: t, className: g.icon }),
         }),
       ],
     });
@@ -76,54 +76,54 @@ var v = e(r(), 1),
   w = "main",
   B = "additional",
   W = [k, "premium", y],
-  S = ["conditions", "bonus", "reward", "reroll"];
-function C({ src: e }) {
-  const s = _(e);
+  C = ["conditions", "bonus", "reward", "reroll"];
+function M({ src: e }) {
+  const s = x(e);
   if ("failure" === s.status || "loading" === s.status) return null;
   const a = s.result.component;
-  return m(a)
+  return u(a)
     ? (0, P.jsx)(a, {})
     : (console.error(`Plugin result is not a React component. Source: ${e}`), null);
 }
-var [M, A] = l()(
+var [S, q] = o()(
     ({ observableModel: e }) => e.object(),
     ({ externalModel: e }) => ({ close: e.createCallbackNoArgs("onClose") }),
   ),
-  O = "InfoPage_48433e5a",
-  q = "InfoPage_closeButton_23a55aae",
+  A = "InfoPage_48433e5a",
+  E = "InfoPage_closeButton_23a55aae",
   D = "InfoPage_wrapper_f38244dc",
-  E = "InfoPage_content_4cbf7ee4",
-  F = "InfoPage_verticalBar_a70fa964",
-  G = "InfoPage_header_47fea8de",
-  J = "InfoPage_separator_86a318ea",
-  L = o.resolve("strings"),
-  R = (e, s) => `user_missions.info_page.${e}.${s}.title`,
+  F = "InfoPage_content_4cbf7ee4",
+  K = "InfoPage_verticalBar_a70fa964",
+  L = "InfoPage_header_47fea8de",
+  O = "InfoPage_separator_86a318ea",
+  R = r.resolve("strings"),
+  Y = (e, s) => `user_missions.info_page.${e}.${s}.title`,
   z = (e, s) => `user_missions.info_page.${e}.${s}.description`,
-  H = (e) => `userMissions.info_page.${e}`,
-  K = d(function () {
-    const { model: e, controls: s } = A(),
-      { isWeeklySectionAvailable: n, rerollInterval: r, standardBlockPlugin: o } = e.get();
+  G = (e) => `userMissions.info_page.${e}`,
+  H = b(function () {
+    const { model: e, controls: s } = q(),
+      { isWeeklySectionAvailable: a, rerollInterval: r, standardBlockPlugin: o } = e.get();
     return (
-      t(s.close),
+      n(s.close),
       (0, P.jsxs)("div", {
-        className: O,
+        className: A,
         children: [
-          (0, P.jsx)(u, { className: q, onClose: s.close }),
-          (0, P.jsxs)(c, {
+          (0, P.jsx)(m, { className: E, onClose: s.close }),
+          (0, P.jsxs)(t, {
             children: [
-              (0, P.jsxs)(a, {
-                classNames: { wrapper: D, content: E },
+              (0, P.jsxs)(f, {
+                classNames: { wrapper: D, content: F },
                 children: [
                   (0, P.jsx)("div", {
-                    className: G,
-                    children: L.readOrEmpty("user_missions.info_page.header"),
+                    className: L,
+                    children: R.readOrEmpty("user_missions.info_page.header"),
                   }),
                   W.map((e, s) =>
-                    n || e !== y
+                    a || e !== y
                       ? o && e === k
                         ? (0, P.jsx)(
                             v.Fragment,
-                            { children: (0, P.jsx)(C, { src: o }) },
+                            { children: (0, P.jsx)(M, { src: o }) },
                             `index_${s}`,
                           )
                         : (0, P.jsx)(
@@ -131,24 +131,24 @@ var [M, A] = l()(
                             {
                               type: w,
                               reversed: s % 2 != 0,
-                              titlePath: R(w, e),
+                              titlePath: Y(w, e),
                               descriptionPath: z(w, e),
-                              iconPath: H(e),
+                              iconPath: G(e),
                             },
                             `index_${s}`,
                           )
                       : null,
                   ),
-                  (0, P.jsx)("div", { className: J }),
-                  S.map((e, s) =>
+                  (0, P.jsx)("div", { className: O }),
+                  C.map((e, s) =>
                     (0, P.jsx)(
                       $,
                       {
                         type: B,
                         reversed: !0,
-                        titlePath: R(B, e),
+                        titlePath: Y(B, e),
                         descriptionPath: z(B, e),
-                        iconPath: H(e),
+                        iconPath: G(e),
                         rerollInterval: r,
                       },
                       `index_${s}`,
@@ -156,11 +156,11 @@ var [M, A] = l()(
                   ),
                 ],
               }),
-              (0, P.jsx)(h, { classNames: { base: F } }),
+              (0, P.jsx)(i, { classNames: { base: K } }),
             ],
           }),
         ],
       })
     );
   });
-(p(), I((0, P.jsx)(j, { children: (0, P.jsx)(M, { children: (0, P.jsx)(K, {}) }) })));
+(_(), I((0, P.jsx)(d, { children: (0, P.jsx)(S, { children: (0, P.jsx)(H, {}) }) })));

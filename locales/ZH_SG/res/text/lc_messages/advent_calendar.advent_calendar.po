@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "我们正在努力解决这个问题。请稍后重试。"
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "无法查看数据"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "%(startDate)s至%(endDate)s期间，您每天可以开启全新日历方格获取礼物。您可开启当天和前一天的日历方格。在%(endDate)s之后，日历方格只能使用节日大作战资源开启。"
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "完成日历进度，获取额外礼物，包括一个大新年箱子。仅{FFE4C0_Open}%(date)s{FFE4C0_Close}前可完成。"
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "开启全部31个方格即可获得独特2D风格、贴花、《坦克世界》高级账号天数、乘员书籍、个人储备和其他奖励。"
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "运作规则"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "但还没完！"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "全部开启"
+
+msgid "introScreenView/buttonTitle"
+msgstr "前往日历"
+
+msgid "introScreenView/title"
+msgstr "圣诞日历"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "{{startDate}}至{{endDate}}，您{{@ colorLegacy 'dde9fc'}}每天{{/}}可以开启日历方格获取礼物。\n您可以开启当天和前一天的日历方格。"
+
+msgid "mainView/footer/expired/title"
+msgstr "进度不再开放。"
+
+msgid "mainView/footer/linkButton/text"
+msgstr "下载桌面壁纸"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "进度完成，已获得所有礼物。"
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "%(endDate)s\n前开启日历方格获取额外礼物。"
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "关于活动"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "{{date}}前每天使用货币开启内有礼物的方格。12月31日您可以免费开启\n最终方格。"
+
+msgid "mainView/title"
+msgstr "圣诞日历"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "个人储备"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "通用参考、重新训练命令、5倍经验任务"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "银币、《坦克世界》高级账号和更多"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "2D风格和贴花"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "试验型装备和部件"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "乘员和新年大箱子"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "开启全部日历方格可获得："
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "礼物"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "日历方格每天从%(time)s起可开启。"
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "将于{FFE4C0_Open}%(date)s{FFE4C0_Close}开放"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "将从{FFE4C0_Open}今日%(time)s{FFE4C0_Close}起开放"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "将从{FFE4C0_Open}明日%(time)s{FFE4C0_Close}起开放"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "从方格{FFE4C0_Open}%(day)s{FFE4C0_Close}开始，然后按序号顺序开启。"
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "按顺序开启日历方格"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "您可以开启当天和前一天的日历方格。\n{FFE4C0_Open}%(startDate)s至%(endDate)s{FFE4C0_Close}期间，错过的方格可使用节日大作战资源开启。"
+
+msgid "mainView/tooltip/expired/title"
+msgstr "未及时开启日历方格"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "您可通过进行战斗，完成每日任务，以及参与其他游戏内活动来获得货币。"
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "货币不足"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "领取奖励"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "每天开启日历方格并获得礼物。"
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "圣诞日历赠好礼！"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "前往日历"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "{{date}}前使用货币开启剩余的圣诞日历方格。"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "千万别错过！"
+
+msgid "notification/door/opened/title"
+msgstr "已开启%(dayNumber)s号圣诞日历方格"
+
+msgid "notification/event/paused"
+msgstr "由于维护，圣诞日历活动暂时中止。"
+
+msgid "notification/event/resumed"
+msgstr "圣诞日历活动已恢复。我们对造成的不便深表歉意。"
+
+msgid "notification/lootbox/title"
+msgstr "大新年箱子"
+
+msgid "notification/progerssion/finished"
+msgstr "已完成圣诞日历进度"
+
+msgid "notification/progerssion/recieved"
+msgstr "已完成圣诞日历进度阶段"
+
+msgid "notification/reward/received"
+msgstr "已获得："
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "进度礼物只能按序号顺序获取。"
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "需先获取上一个礼物"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "您可以{FFE4C0_Open}在%(date)s{FFE4C0_Close}查看箱子内容。"
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "大新年箱子"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "进度于%(startDate)s至%(endDate)s开放。"
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "未及时领取礼物"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s未获得"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "再开启{cream_Open}%(count)s个日历方格{cream_Close}可获取此礼物。"
+msgstr[1] "再开启{cream_Open}%(count)s个日历方格{cream_Close}可获取此礼物。"
+msgstr[2] "再开启{cream_Open}%(count)s个日历方格{cream_Close}可获取此礼物。"
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s领取进度中的前一个礼物以解锁。"
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s已获得"
+
+msgid "purchaseView/cancel"
+msgstr "取消"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "您可通过进行战斗，完成每日任务，以及参与其他游戏内活动来获得货币。"
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "货币不足"
+
+msgid "purchaseView/open"
+msgstr "开启"
+
+msgid "purchaseView/title"
+msgstr "要开启圣诞日历方格{{@ style (color $color)}}{{day}}{{/}}？"
+
+msgid "rewardView/confirm"
+msgstr "收到"
+
+msgid "rewardView/goToBoxes"
+msgstr "前往补给箱"
+
+msgid "rewardView/loading"
+msgstr "添加奖励中"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "您已开启{FFE4C0_Open}全部圣诞日历方格{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "已开启圣诞日历方格：{FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "您已开启{FFE4C0_Open}%(count)s个圣诞日历方格{FFE4C0_Close}"
+
+msgid "rewardView/title/box"
+msgstr "已获得大新年箱子！"
+
+msgid "rewardView/title/progression"
+msgstr "已获得奖励！"
+
+msgid "rewardView/title/specialDoor"
+msgstr "恭喜！"
+
+msgid "server_error"
+msgstr "此操作由于技术原因暂不可用。请稍后重试。"

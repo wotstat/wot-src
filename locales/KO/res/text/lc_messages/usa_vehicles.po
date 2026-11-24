@@ -1124,7 +1124,7 @@ msgid "A183_XM69_Hacker_7x7_descr"
 msgstr "전투 경험을 바탕으로 기존 M60 전차의 문제점을 개선하고자 개발된 현대화 기획이다. 설계진은 방호력이 향상된 포탑과 압연 장갑재로 구성된 차체를 제안했으며, 이에 따라 신형 현가장치의 장착도 요구되었다. 화력은 개량된 110mm 주포가 담당했으며, 포신 위치를 보정하는 광학 센서 기반의 혁신적인 안정화 시스템도 채택되었다. 하지만 현대화 전차 생산에는 양산형 M60A1보다 40%나 높은 비용이 들었고, 신형 전차를 새로 생산하는 수준의 예산이 소요되는 등 경제성이 부족했다. 여러 가지 장점에도 불구하고 몇몇 구조상 문제를 해결하지 못해 결국 개발이 중단되었다."
 
 msgid "A183_XM69_Hacker_7x7_long_special"
-msgstr "M48 패튼 전차 개념의 논리적 연장선상에 있는 XM69 Hacker는 뚜렷한 약점이 없는 다재다능한 중형전차입니다. 준수한 기동성, 우수한 장갑, 뛰어난 주포 성능의 조합으로 다양한 전투 상황에 효과적으로 대응할 수 있으며, 상황에 따라 화력을 추가로 강화할 수 있는 능력도 갖추고 있어 전방위 작전에 적합합니다."
+msgstr "M48 Patton 전차 개념의 논리적 연장선상에 있는 XM69 Hacker는 뚜렷한 약점이 없는 다재다능한 중형전차입니다. 준수한 기동성, 우수한 장갑, 뛰어난 주포 성능의 조합으로 다양한 전투 상황에 효과적으로 대응할 수 있으며, 상황에 따라 화력을 추가로 강화할 수 있는 능력도 갖추고 있어 전방위 작전에 적합합니다."
 
 msgid "A183_XM69_Hacker_7x7_short"
 msgstr "Hacker 7x7"
@@ -1281,6 +1281,21 @@ msgstr "Jezevec"
 
 msgid "A197_Jezevec_short_special"
 msgstr "뛰어난 기동력, 포탄 간 재장전 시간이 짧은 자동 재장전 주포"
+
+msgid "A198_Christie_M1921"
+msgstr "Christie M1921"
+
+msgid "A198_Christie_M1921_descr"
+msgstr "제1차 세계대전 이후, 미국 육군 병기국은 당시 전차 운용 교리에 따라 저명한 기술자 John Walter Christie에게 신형 장갑 차량 개발을 의뢰했다. 전차 요구 성능이 변화하면서 해당 설계는 여러 차례 수정을 거쳤고, 1922년 후반에 포탑이 없는 Christie Tank Model of 1921 설계가 최종안으로 제시되었다. 하지만 당시에는 이미 국방법이 발효된 상태였고, 해당 법에 따라 전차 부대는 보병 소속으로 재편되었다. 결과적으로 Christie의 설계는 더 이상 군이 추구하던 방향과 맞지 않게 되었다. 이후 개발을 이어가기 위한 시도는 계속되었으나 1924년에 중단되었다."
+
+msgid "A198_Christie_M1921_long_special"
+msgstr "Christie M1921은 미국 2단계 구축전차입니다. 우수한 연사력, 준수한 관통력, 뛰어난 조준 속도 및 주포 내림각을 자랑하는 주포를 장착하여 적의 공격을 저지하고 거점을 사수하는 데 효과적입니다. 기동력은 크게 떨어지지만, 적절한 시점에 적합한 위치를 확보한다면 해당 단점이 크게 문제가 되지는 않을 것입니다."
+
+msgid "A198_Christie_M1921_short"
+msgstr "M1921"
+
+msgid "A198_Christie_M1921_short_special"
+msgstr "우수한 연사력, 뛰어난 주포 내림각"
 
 msgid "A21_T14_long_special"
 msgstr "효율적인 정면 경사 장갑, 적절한 분당 공격력, 중전차 중에서는 우수한 기동성을 자랑하는 미국 5단계 중전차입니다. 얇은 측면 장갑은 장갑판을 장착하여 보완했습니다."
@@ -1497,15 +1512,6 @@ msgstr "T110E5 7x7"
 
 msgid "A69_T110E5_7x7_short"
 msgstr "T110E5 7x7"
-
-msgid "A69_T110E5_FR"
-msgstr "T110E5 BS"
-
-msgid "A69_T110E5_FR_descr"
-msgstr "1952년부터 개발이 시작된 전차로 T-43 (M103)과 비교하여 더욱 강력한 무장을 자랑한다. 베른 알프스의 좁은 터널을 통과할 수 있어야 했기에 차체 크기에 상당한 제약이 가해졌다. 여러 설계 버전이 고려되었지만, 기획안은 취소되었으며 제작되지 않았다."
-
-msgid "A69_T110E5_FR_short"
-msgstr "T110E5 BS"
 
 msgid "A69_T110E5_descr"
 msgstr "1952년부터 개발이 시작된 전차로 T-43(M103)와 비교하여 더 강력한 무장이 탑재될 예정이었다. 베른 알프스의 좁은 터널을 통과할 수 있어야 했기에 차체 크기에 상당한 제약이 있었다. 여러 설계 버전이 고려되었지만, 기획이 취소되어 제작되지 않았다."
@@ -1732,9 +1738,6 @@ msgstr "AN/VRC-3"
 msgid "AN_VRC-3_7x7_0"
 msgstr "AN/VRC-3"
 
-msgid "AN_VRC-3_FR"
-msgstr "AN/VRC-3"
-
 msgid "AN_VRC-3_Rush_Ep1"
 msgstr "AN/VRC-3S"
 
@@ -1796,9 +1799,6 @@ msgid "AN_VRC_47_7x7"
 msgstr "AN/VRC-47"
 
 msgid "AOI-1490"
-msgstr "Continental AOI-1490"
-
-msgid "AOI-1490_FR"
 msgstr "Continental AOI-1490"
 
 msgid "AOI-1490_short"
@@ -2212,6 +2212,9 @@ msgstr "Gorilla"
 msgid "Chassis_A197_Jezevec"
 msgstr "Jezevec"
 
+msgid "Chassis_A198_Christie_M1921"
+msgstr "Christie M1921"
+
 msgid "Chassis_A22_M5_Stuart"
 msgstr "M5 Stuart"
 
@@ -2410,9 +2413,6 @@ msgstr "VVSST48E2"
 msgid "Chassis_Sherman_Jumbo_2"
 msgstr "VVSST51E2"
 
-msgid "Chassis_T110_FR"
-msgstr "T110E5 BS"
-
 msgid "Chassis_T18"
 msgstr "T18E1"
 
@@ -2466,6 +2466,9 @@ msgstr "T95E2"
 
 msgid "Chassis_T95_E6"
 msgstr "T95E6"
+
+msgid "Christie_6_cylinder"
+msgstr "Christie 6-cylinder"
 
 msgid "Chrysler_1200_HP"
 msgstr "Chrysler 1200 HP"
@@ -3058,6 +3061,9 @@ msgstr "Curtiss Wright RC2-350 T-C"
 msgid "D51080_BPXIV"
 msgstr "D51080"
 
+msgid "ESCR_1921"
+msgstr "ESCR 1921"
+
 msgid "Ford_GAA"
 msgstr "Ford GAA"
 
@@ -3399,6 +3405,9 @@ msgstr "QF 2-pdr Mk. IX"
 
 msgid "PLT_27"
 msgstr "PLT-27"
+
+msgid "QF_6_pounder_Mk_I"
+msgstr "QF 6-pounder Mk. I"
 
 msgid "QF_6_pounder_Mk_III"
 msgstr "QF 6-pdr Mk. III"
@@ -4057,6 +4066,9 @@ msgstr "Gorilla"
 msgid "Turret_1_A197_Jezevec"
 msgstr "Jezevec"
 
+msgid "Turret_1_A198_Christie_M1921"
+msgstr "Christie M1921"
+
 msgid "Turret_1_A22_M5_Stuart"
 msgstr "M5 Stuart"
 
@@ -4308,9 +4320,6 @@ msgstr "M46T119"
 
 msgid "Turret_2_Sherman_Jumbo"
 msgstr "M4A2E2D51080"
-
-msgid "Turret_2_T110_FR"
-msgstr "T110E5 BS"
 
 msgid "Turret_2_T21"
 msgstr "T21"
@@ -5026,9 +5035,6 @@ msgstr "AP M358"
 msgid "_120mm_AP_M358E5"
 msgstr "AP M358E5"
 
-msgid "_120mm_AP_M358E5_FR"
-msgstr "AP M358E5"
-
 msgid "_120mm_AP_M358_M103"
 msgstr "AP M358 (M103)"
 
@@ -5116,9 +5122,6 @@ msgstr "120 mm Gun M58"
 msgid "_120mm_Gun_M58A"
 msgstr "120 mm Gun M58A"
 
-msgid "_120mm_Gun_M58_FR"
-msgstr "120 mm Gun M58"
-
 msgid "_120mm_Gun_M58_M103"
 msgstr "120 mm Gun M58 (M103)"
 
@@ -5176,9 +5179,6 @@ msgstr "M469 SPHT"
 msgid "_120mm_HEAT_M469E5"
 msgstr "HEAT M469E5"
 
-msgid "_120mm_HEAT_M469E5_FR"
-msgstr "HEAT M469E5"
-
 msgid "_120mm_HEAT_M469R"
 msgstr "HEAT M469R"
 
@@ -5231,9 +5231,6 @@ msgid "_120mm_HE_M356E1_M_V_Y"
 msgstr "HE M356E1 (M-V-Y)"
 
 msgid "_120mm_HE_M356E5"
-msgstr "HE M356E5"
-
-msgid "_120mm_HE_M356E5_FR"
 msgstr "HE M356E5"
 
 msgid "_120mm_HE_M356_M103"
@@ -5898,6 +5895,15 @@ msgstr "HE T18"
 
 msgid "_57mm_HE_T18_M8A1"
 msgstr "HE T18 (M8A1)"
+
+msgid "_6pdr_57mm_APC_M1"
+msgstr "APC M1"
+
+msgid "_6pdr_57mm_AP_M1"
+msgstr "AP M1"
+
+msgid "_6pdr_57mm_HE_M1"
+msgstr "HE M1"
 
 msgid "_6pdr_APCR_MK_1T"
 msgstr "APCR Mk. 1T"

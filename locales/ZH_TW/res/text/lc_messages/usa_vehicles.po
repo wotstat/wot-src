@@ -1282,6 +1282,21 @@ msgstr "Jezevec"
 msgid "A197_Jezevec_short_special"
 msgstr "出色的機動性，彈匣內裝填時間較短的自動再裝填火炮"
 
+msgid "A198_Christie_M1921"
+msgstr "Christie M1921"
+
+msgid "A198_Christie_M1921_descr"
+msgstr "第一次世界大戰後，根據當時對戰車運用的主流觀點，美國陸軍軍械部指示傑出工程師 John Walter Christie 研發一款新的裝甲車輛。隨著對戰車的要求不斷改變，該計畫經歷了數個階段的調整，並在 1922 年底以無炮塔的最終形式 Christie Tank Model of 1921 亮相。然而，當時《國防法》已生效，根據該法案，戰車師隸屬於步兵，而 Christie 的車輛不再符合此既定概念。雖然曾試圖改良並推動此戰車計畫，最終仍在 1924 年終止。"
+
+msgid "A198_Christie_M1921_long_special"
+msgstr "Christie M1921 為美國 II 階驅逐戰車。其速射炮管具有良好的穿透力、快速的瞄準速度，以及出色的炮管俯角，使其能有效擊退攻勢並固守陣地。雖然其機動性甚差，但只要在正確時間出現在正確位置，這項缺點就沒那麼要緊了。"
+
+msgid "A198_Christie_M1921_short"
+msgstr "M1921"
+
+msgid "A198_Christie_M1921_short_special"
+msgstr "較高的射速，出色的炮管俯角"
+
 msgid "A21_T14_long_special"
 msgstr "V 階美國重型戰車，有著傾斜正面裝甲、不錯的每分鐘傷害，以及對重型戰車而言良好的機動性。此車輛的側面非常薄弱，但此缺點由能夠吸收傷害的裝甲板彌補。"
 
@@ -1497,15 +1512,6 @@ msgstr "T110E5 7x7"
 
 msgid "A69_T110E5_7x7_short"
 msgstr "T110E5 7x7"
-
-msgid "A69_T110E5_FR"
-msgstr "T110E5 BS"
-
-msgid "A69_T110E5_FR_descr"
-msgstr "1952 年開始研發的重型戰車，其武器比 T-43 (M103) 更強大。為了要讓戰車能通過阿爾卑斯山狹窄的伯爾尼隧道，進而限制車輛的尺寸。考慮過數種設計，但最終計畫被取消。車輛從未投入生產。"
-
-msgid "A69_T110E5_FR_short"
-msgstr "T110E5 BS"
 
 msgid "A69_T110E5_descr"
 msgstr "1952 年開始研發的重型戰車，其武器比 T-43 (M103) 更強大。為了要讓戰車能通過阿爾卑斯山狹窄的伯爾尼隧道，進而限制車輛的尺寸。考慮過數種設計，但最終計畫被取消。車輛從未投入生產。"
@@ -1732,9 +1738,6 @@ msgstr "AN/VRC-3"
 msgid "AN_VRC-3_7x7_0"
 msgstr "AN/VRC-3"
 
-msgid "AN_VRC-3_FR"
-msgstr "AN/VRC-3"
-
 msgid "AN_VRC-3_Rush_Ep1"
 msgstr "AN/VRC-3S"
 
@@ -1796,9 +1799,6 @@ msgid "AN_VRC_47_7x7"
 msgstr "AN/VRC-47"
 
 msgid "AOI-1490"
-msgstr "Continental AOI-1490"
-
-msgid "AOI-1490_FR"
 msgstr "Continental AOI-1490"
 
 msgid "AOI-1490_short"
@@ -2212,6 +2212,9 @@ msgstr "Gorilla"
 msgid "Chassis_A197_Jezevec"
 msgstr "Jezevec"
 
+msgid "Chassis_A198_Christie_M1921"
+msgstr "Christie M1921"
+
 msgid "Chassis_A22_M5_Stuart"
 msgstr "M5 Stuart"
 
@@ -2410,9 +2413,6 @@ msgstr "VVSST48E2"
 msgid "Chassis_Sherman_Jumbo_2"
 msgstr "VVSST51E2"
 
-msgid "Chassis_T110_FR"
-msgstr "T110E5 BS"
-
 msgid "Chassis_T18"
 msgstr "T18E1"
 
@@ -2466,6 +2466,9 @@ msgstr "T95E2"
 
 msgid "Chassis_T95_E6"
 msgstr "T95E6"
+
+msgid "Christie_6_cylinder"
+msgstr "Christie 6-cylinder"
 
 msgid "Chrysler_1200_HP"
 msgstr "Chrysler 1200 HP"
@@ -3058,6 +3061,9 @@ msgstr "Curtiss Wright RC2-350 T-C"
 msgid "D51080_BPXIV"
 msgstr "D51080"
 
+msgid "ESCR_1921"
+msgstr "ESCR 1921"
+
 msgid "Ford_GAA"
 msgstr "Ford GAA"
 
@@ -3399,6 +3405,9 @@ msgstr "QF 2-pdr Mk. IX"
 
 msgid "PLT_27"
 msgstr "PLT-27"
+
+msgid "QF_6_pounder_Mk_I"
+msgstr "QF 6-pounder Mk. I"
 
 msgid "QF_6_pounder_Mk_III"
 msgstr "QF 6-pdr Mk. III"
@@ -4057,6 +4066,9 @@ msgstr "Gorilla"
 msgid "Turret_1_A197_Jezevec"
 msgstr "Jezevec"
 
+msgid "Turret_1_A198_Christie_M1921"
+msgstr "Christie M1921"
+
 msgid "Turret_1_A22_M5_Stuart"
 msgstr "M5 Stuart"
 
@@ -4308,9 +4320,6 @@ msgstr "M46T119"
 
 msgid "Turret_2_Sherman_Jumbo"
 msgstr "M4A2E2D51080"
-
-msgid "Turret_2_T110_FR"
-msgstr "T110E5 BS"
 
 msgid "Turret_2_T21"
 msgstr "T21"
@@ -5026,9 +5035,6 @@ msgstr "AP M358"
 msgid "_120mm_AP_M358E5"
 msgstr "AP M358E5"
 
-msgid "_120mm_AP_M358E5_FR"
-msgstr "AP M358E5"
-
 msgid "_120mm_AP_M358_M103"
 msgstr "AP M358 (M103)"
 
@@ -5116,9 +5122,6 @@ msgstr "120 mm Gun M58"
 msgid "_120mm_Gun_M58A"
 msgstr "120 mm Gun M58A"
 
-msgid "_120mm_Gun_M58_FR"
-msgstr "120 mm Gun M58"
-
 msgid "_120mm_Gun_M58_M103"
 msgstr "120 mm Gun M58 (M103)"
 
@@ -5176,9 +5179,6 @@ msgstr "M469 SPHT"
 msgid "_120mm_HEAT_M469E5"
 msgstr "HEAT M469E5"
 
-msgid "_120mm_HEAT_M469E5_FR"
-msgstr "HEAT M469E5"
-
 msgid "_120mm_HEAT_M469R"
 msgstr "HEAT M469R"
 
@@ -5231,9 +5231,6 @@ msgid "_120mm_HE_M356E1_M_V_Y"
 msgstr "HE M356E1 (M-V-Y)"
 
 msgid "_120mm_HE_M356E5"
-msgstr "HE M356E5"
-
-msgid "_120mm_HE_M356E5_FR"
 msgstr "HE M356E5"
 
 msgid "_120mm_HE_M356_M103"
@@ -5898,6 +5895,15 @@ msgstr "HE T18"
 
 msgid "_57mm_HE_T18_M8A1"
 msgstr "HE T18 (M8A1)"
+
+msgid "_6pdr_57mm_APC_M1"
+msgstr "APC M1"
+
+msgid "_6pdr_57mm_AP_M1"
+msgstr "AP M1"
+
+msgid "_6pdr_57mm_HE_M1"
+msgstr "HE M1"
 
 msgid "_6pdr_APCR_MK_1T"
 msgstr "APCR Mk. 1T"

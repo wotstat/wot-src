@@ -42,7 +42,6 @@ GeneralWheelsAnimatorSystem: Any
 GunAudition: Any
 GunInstallationComponent: Any
 GunRotatorAudition: Any
-HaxapodMovementLegComponent: Any
 LeveredSuspension: Final[int] = 8
 LinkedNodesPitchAnimator: Any
 LodCalculator: Any

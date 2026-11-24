@@ -366,6 +366,10 @@ class StatTrackerItem(with_metaclass(ReflectionMetaclass, AttachmentItem)):
         return
 
     @classmethod
+    def getProhibitedNumbers(cls):
+        return cls.__prohibitedNumbers
+
+    @classmethod
     def adjustToAllowedNumber(cls, number):
         while number in cls.__prohibitedNumbers:
             number -= 1
@@ -827,6 +831,9 @@ class QuestProgressForCustomization(object):
 
     def getGroupTokens(self):
         return list(self._groupTokens)
+
+    def isGroupKnown(self, token):
+        return token in self._groupTokens
 
     def isGroupConcurrent(self, token):
         return self._groupTokens[token][2]

@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "เรากำลังทำการแก้ไขปัญหานี้อยู่ โปรดมาลองใหม่ในภายหลัง"
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "ไม่มีข้อมูล"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "ประตูใหม่พร้อมของขวัญจะมีให้เปิดในแต่ละวันตั้งแต่ %(startDate)s ถึง %(endDate)s คุณสามารถเปิดประตูปฏิทินได้สำหรับวันปัจจุบันและวันก่อนหน้า หลังจาก %(endDate)s แล้ว ประตูจะเปิดได้ด้วยการใช้ทรัพยากรปฏิบัติการวันหยุดเท่านั้น"
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "มาผ่านความก้าวหน้าปฏิทินเพื่อรับของขวัญเพิ่มเติมที่มีกล่องของขวัญปีใหม่ใหญ่ด้วยซึ่งมีให้เฉพาะสำหรับการผ่านในช่วง {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "เปิดประตูทั้ง 31 บานเพื่อรับรูปแบบสองมิติเฉพาะ, ลวดลาย, วันบัญชีพิเศษ WoT, หนังสือพลรถถัง, กำลังสำรองส่วนตัวและรางวัลอื่นๆ"
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "วิธีการทำงาน"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "แต่มันก็มีมากกว่านี้!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "เปิดมันให้หมด"
+
+msgid "introScreenView/buttonTitle"
+msgstr "ไปยังปฏิทิน"
+
+msgid "introScreenView/title"
+msgstr "ปฏิทินเตรียมฉลอง"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "ตั้งแต่ {{startDate}} ถึง {{endDate}} คุณจะสามารถเปิดประตูปฏิทินใหม่กันด้วยของขวัญ {{@ colorLegacy 'dde9fc'}}ในทุกวัน{{/}}\nคุณสามารถเปิดประตูสำหรับวันปัจจุบันและวันก่อนหน้าได้"
+
+msgid "mainView/footer/expired/title"
+msgstr "ความก้าวหน้าไม่มีให้อีกต่อไป"
+
+msgid "mainView/footer/linkButton/text"
+msgstr "ดาวน์โหลดวอลล์เปเปอร์สำหรับหน้าจอ"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "ผ่านความก้าวหน้าแล้ว ได้รับของขวัญที่มีทั้งหมดแล้ว"
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "เปิดประตูปฏิทินจนถึง %(endDate)s\n สำหรับของขวัญเพิ่มเติม"
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "เกี่ยวกับกิจกรรม"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "ใช้สกุลเงินเพื่อเปิดประตูมีของขวัญในทุกวันจนถึง {{date}} คุณจะสามารถเปิด\nประตูสุดท้ายในวันที่ 31 ธันวาคมได้ฟรี"
+
+msgid "mainView/title"
+msgstr "ปฏิทินเตรียมฉลอง"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "กำลังสำรองส่วนตัว"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "อนุสารสากล, คำสั่งฝึกใหม่และภารกิจประสบการณ์ x5"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "เงิน, บัญชีพิเศษ WoT และอื่นๆอีกมากมาย"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "รูปแบบสองมิติและลวดลาย"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "อุปกรณ์รุ่นทดลองและส่วนประกอบ"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "สมาชิกพลรถถังและกล่องของขวัญปีใหม่ใหญ่"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "เปิดประตูปฏิทินทั้งหมดเพื่อรับ:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "ของขวัญ"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "ประตูปฏิทินนั้นมีให้เปิดตั้งแต่ %(time)s ในแต่ละวัน"
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "จะมีให้ใน {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "จะมีให้ {FFE4C0_Open} ตั้งแต่ %(time)s วันนี้ {FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "จะมีให้ {FFE4C0_Open} ตั้งแต่ %(time)s พรุ่งนี้ {FFE4C0_Close}"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "เริ่มด้วยประตู {FFE4C0_Open}%(day)s{FFE4C0_Close} แล้วค่อยเปิดประตูอื่นตามลำดับ"
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "เปิดประตููตามลำดับ"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "คุณสามารถเปิดประตูปฏิทินสำหรับวันปัจจุบันและวันก่อนหน้าเท่านั้น\nประตูที่พลาดไปสามารถเปิดได้ด้วยทรัพยากรปฏิบัติการวันหยุด{FFE4C0_Open}ตั้งแต่ %(startDate)s ถึง %(endDate)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/expired/title"
+msgstr "ไม่ได้เปิดประตูทันเวลา"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "คุณสามารถได้รับสกุลเงินจากการออกรบ, ปฏิบัติภารกิจประจำวันสำเร็จและเข้าร่วมกิจกรรมในเกมอื่นๆ"
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "สกุลเงินไม่พอ"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "รับรางวัล"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "เปิดประตูปฏิทินทุกวันแล้วรับของขวัญ"
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "มีของขวัญปฏิทินเตรียมฉลองให้!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "ไปยังปฏิทิน"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "เปิดประตูปฏิทินเตรียมฉลองที่เหลือด้วยการใช้สกุลเงินภายใน {{date}}"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "อย่าพลาดล่ะ!"
+
+msgid "notification/door/opened/title"
+msgstr "เปิดประตูปฏิทินเฉลิมฉลองแล้ว %(dayNumber)s บาน"
+
+msgid "notification/event/paused"
+msgstr "กิจกรรมปฏิทินเตรียมฉลองถูกพักไว้ชั่วคราวอันเนื่องด้วยการบำรุงรักษาระบบ"
+
+msgid "notification/event/resumed"
+msgstr "กิจกรรมปฏิทินเตรียมฉลองกลับมาเหมือนเดิมแล้ว ทางเราขออภัยสำหรับความไม่สะดวกที่เกิดขึ้น"
+
+msgid "notification/lootbox/title"
+msgstr "กล่องของขวัญปีใหม่ใหญ่"
+
+msgid "notification/progerssion/finished"
+msgstr "ผ่านความก้าวหน้าปฏิทินเตรียมฉลองแล้ว"
+
+msgid "notification/progerssion/recieved"
+msgstr "ผ่านด่านความก้าวหน้าปฏิทินเตรียมฉลองแล้ว"
+
+msgid "notification/reward/received"
+msgstr "ได้รับ:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "ของขวัญความก้าวหน้าสามารถได้รับตามลำดับตัวเลขเท่านั้น"
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "รับของขวัญก่อนหน้า"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "คุณจะสามารถมาดูว่ามีอะไรในกล่องได้ใน {FFE4C0_Open} %(date)s{FFE4C0_Close}"
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "กล่องของขวัญปีใหม่ใหญ่"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "ความก้าวหน้ามีให้ตั้งแต่ %(startDate)s จนถึง %(endDate)s"
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "ไม่ได้รับของขวัญในเวลา"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s ไม่ได้รับ"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "เปิดประตูปฏิทินอีก {cream_Open}%(count)s{cream_Close} บานเพื่อรับของขวัญนี้"
+msgstr[1] "เปิดประตูปฏิทินอีก {cream_Open}%(count)s{cream_Close} บานเพื่อรับของขวัญนี้"
+msgstr[2] "เปิดประตูปฏิทินอีก {cream_Open}%(count)s{cream_Close} บานเพื่อรับของขวัญนี้"
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s รับของขวัญก่อนหน้าในความก้าวหน้าเพื่อปลดล็อค"
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s ได้รับ"
+
+msgid "purchaseView/cancel"
+msgstr "ยกเลิก"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "คุณสามารถได้รับสกุลเงินจากการออกรบ, ปฏิบัติภารกิจประจำวันสำเร็จและเข้าร่วมกิจกรรมในเกมอื่นๆ"
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "สกุลเงินไม่พอ"
+
+msgid "purchaseView/open"
+msgstr "เปิด"
+
+msgid "purchaseView/title"
+msgstr "เปิดประตูปฏิทินเตรียมฉลอง {{@ style (color $color)}}{{day}}{{/}}?"
+
+msgid "rewardView/confirm"
+msgstr "รับทราบ!"
+
+msgid "rewardView/goToBoxes"
+msgstr "ไปยังกล่อง"
+
+msgid "rewardView/loading"
+msgstr "กำลังเพิ่มรางวัล"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "คุณได้เปิด{FFE4C0_Open}ประตูปฏิทินเตรียมฉลองทั้งหมดแล้ว{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "ประตูปฏิทินเตรียมฉลองที่เปิดแล้ว: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "คุณได้เปิดเปิดประตูปฏิทินเตรียมฉลองแล้ว {FFE4C0_Open}%(count)s{FFE4C0_Close} บาน"
+
+msgid "rewardView/title/box"
+msgstr "กล่องของขวัญปีใหม่ใหญ่แล้ว"
+
+msgid "rewardView/title/progression"
+msgstr "ได้รับรางวัลแล้ว!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "ยินดีด้วย!"
+
+msgid "server_error"
+msgstr "การดำเนินการไม่มีให้ชั่วคราวเนื่องจากปัญหาทางเทคนิค โปรดลองใหม่ในภายหลัง"

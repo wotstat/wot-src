@@ -1,34 +1,34 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  A as e,
-  B as a,
-  J as o,
-  P as t,
-  U as i,
-  V as n,
-  Z as l,
-  j as c,
-  w as r,
-  z as d,
+  B as e,
+  J as a,
+  N as o,
+  R as t,
+  T as i,
+  U as n,
+  V as l,
+  Z as c,
+  g as r,
+  x as d,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
-var [p, b] = i("WinbackLeaveModePopoverViewModel")(
+var [p, b] = n("WinbackLeaveModePopoverViewModel")(
     ({ observableModel: s }) => ({ ...s.primitives(["battlesCount"]) }),
     ({ externalModel: s }) => ({ close: s.createCallbackNoArgs("onClick") }),
   ),
   m = "App_5ad914ec",
   j = "App_header_1d0278d1",
-  _ = "App_title_7858e66b",
-  h = "App_info_84a9d944",
-  k = "App_description_bd5cc206",
-  x = "App_battlesLeft_43359d1b",
+  x = "App_title_7858e66b",
+  _ = "App_info_84a9d944",
+  h = "App_description_bd5cc206",
+  k = "App_battlesLeft_43359d1b",
   u = "App_battlesCount_edd27fd7",
   v = "App_button_db861d1e",
-  w = s(l(), 1),
-  A = d(function () {
-    const { model: s, controls: a } = b();
+  w = s(c(), 1),
+  f = t(function () {
+    const { model: s, controls: e } = b();
     return (
-      o(),
+      a(),
       (0, w.jsx)(r, {
         children: (0, w.jsxs)("div", {
           className: m,
@@ -36,31 +36,31 @@ var [p, b] = i("WinbackLeaveModePopoverViewModel")(
             (0, w.jsxs)("div", {
               className: j,
               children: [
-                (0, w.jsx)(c, { className: _, path: "winback.winbackPopover.title" }),
-                (0, w.jsx)(e, {
+                (0, w.jsx)(d, { className: x, path: "winback.winbackPopover.title" }),
+                (0, w.jsx)(i, {
                   contentId: R.views.mono.winback.tooltips.mode_info_tooltip("resId"),
-                  children: (0, w.jsx)("div", { className: h }),
+                  children: (0, w.jsx)("div", { className: _ }),
                 }),
               ],
             }),
-            (0, w.jsx)(c, { className: k, path: "winback.winbackPopover.description" }),
-            (0, w.jsx)(c, {
-              className: x,
+            (0, w.jsx)(d, { className: h, path: "winback.winbackPopover.description" }),
+            (0, w.jsx)(d, {
+              className: k,
               path: "winback.winbackPopover.battlesCount",
               params: {
                 battlesCount: (0, w.jsx)("span", { className: u, children: s.battlesCount.get() }),
               },
             }),
-            (0, w.jsx)(t, {
+            (0, w.jsx)(o, {
               mixClass: v,
-              onClick: a.close,
-              children: (0, w.jsx)(c, { path: "winback.winbackPopover.turnOff" }),
+              onClick: e.close,
+              children: (0, w.jsx)(d, { path: "winback.winbackPopover.turnOff" }),
             }),
           ],
         }),
       })
     );
   });
-n((0, w.jsx)(p, { children: (0, w.jsx)(a, { children: (0, w.jsx)(A, {}) }) }), {
+l((0, w.jsx)(p, { children: (0, w.jsx)(e, { children: (0, w.jsx)(f, {}) }) }), {
   immediateLayout: !1,
 });

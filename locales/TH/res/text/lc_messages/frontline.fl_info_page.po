@@ -361,15 +361,6 @@ msgstr "จุดอ่อน: {{@ colorLegacy 'FFE4C0'}}ประตู (70ม�
 msgid "rules/weapons/text"
 msgstr "จะมีป้อมปืนห้าป้อมในส่วนแนวหลัง ของทีมป้องกันซึ่งเป็นเป้าหมายหลัก ของการรบ ทีมจู่โจมจะต้องทำลาย ป้อมปืน 3 ป้อมให้ไ ในขณะที่ทีมป้องกัน จะต้องปกป้องป้อมปืนดังกล่าวให้ถึงที่สุด"
 
-msgid "subTitle/differentMonth"
-msgstr "ตั้งแต่ {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} ถึง{{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
-
-msgid "subTitle/differentYears"
-msgstr "ตั้งแต่ {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}, {{startYear}},{{/}} ถึง {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}, {{endYear}}{{/}}"
-
-msgid "subTitle/sameMonth"
-msgstr "ตั้งแต่ {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} ถึง{{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
-
 msgid "winStrategy/firstLine"
 msgstr "เขต A B และ C {{@ colorLegacy 'FFE4C0'}}ของแนวแรก{{/}}จะเป็นจุดเริ่มทำการรบของทั้งสองทีม"
 

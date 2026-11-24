@@ -382,6 +382,9 @@ msgstr "此战车的火炮配备特殊装置，可在射击前修改部分炮弹
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "保持静止或以低于特定数值的速度移动，可让您校正战车的“模拟弹道计算设备”并累计准度等级，提升您下一发炮弹的准度。若您超过速限，您的准度等级累计进度将暂停，直到您降低速度。当达到最高准度等级时，您的战车将具有不错的火炮稳定性，移动时或炮塔/车体转动时的散布误差亦会降低。此效果会在射击后移除。"
 
+msgid "characteristics/abilities/special/description/autoreloaderSurge"
+msgstr "此机制会立即将炮弹装填时间缩短为固定的较短时间。使用时，每加速装填一发炮弹，就消耗1次使用次数，次数会随时间补充——弹匣已满时补充速度较快。战斗开始时会提供固定的使用次数。"
+
 msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
 msgstr "此战车在炮盾上安装了火箭发射器。激活能力来切换至副武器的瞄准镜，然后按下开火键发射无制导高爆火箭。"
 

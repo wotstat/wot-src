@@ -361,15 +361,6 @@ msgstr "약점: {{@ colorLegacy 'FFE4C0'}}출입구(70mm), 환기구(25mm){{/}}"
 msgid "rules/weapons/text"
 msgstr "방어팀 영역 깊숙한 곳에는 대형 포대가 5개 배치되어 있습니다. 해당 대형 포대가 전투의 주요 목표물입니다. 공격팀은 대형 포대를 3개 격파해야 하며 방어팀은 대형 포대를 보호해야 합니다."
 
-msgid "subTitle/differentMonth"
-msgstr "{{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}일{{/}}부터 {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}일{{/}}까지"
-
-msgid "subTitle/differentYears"
-msgstr "{{@ colorLegacy 'FFE4C0'}}{{startYear}}년 {{startMonth}} {{from}}일{{/}}부터 {{@ colorLegacy 'FFE4C0'}}{{endYear}}년 {{endMonth}} {{to}}일{{/}}까지"
-
-msgid "subTitle/sameMonth"
-msgstr "{{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}일{{/}}부터 {{@ colorLegacy 'FFE4C0'}}{{to}}일{{/}}까지"
-
 msgid "winStrategy/firstLine"
 msgstr "{{@ colorLegacy 'FFE4C0'}}1차 방어선{{/}}의 A, B, C 구역은 양 팀의 시작 지점입니다."
 

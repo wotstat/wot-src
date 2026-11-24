@@ -382,6 +382,9 @@ msgstr "砲撃前に砲弾のパラメーターの一部を変更できる特殊
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "静止、または一定の速度以下で移動している間、次の射撃の精度を向上させる「精度レベル」が「アナログ弾道演算装置」に貯まっていく。自車輌が一定の速度を超えた場合、再び速度が下がるまで、レベルの上昇が一時停止する。最大レベルまで貯まると、射撃精度が大幅に向上するほか、移動や砲塔および車体の旋回に伴う散布界の拡大が著しく抑えられる。射撃を行うと効果はリセットされる。"
 
+msgid "characteristics/abilities/special/description/autoreloaderSurge"
+msgstr "砲弾の装填時間を即座に短い固定時間に短縮します。使用するたびに砲弾1発につきチャージを1つ消費し、チャージは時間経過とともに補充されます。弾倉が満タンの場合は、チャージの補充速度が上昇します。戦闘開始時に一定数のチャージが最初から貯まっています。"
+
 msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
 msgstr "本車輌は防盾にロケット砲を搭載している。アビリティーを有効化すると、ロケット砲の照準サイトに切り替わり、砲撃ボタンで無誘導のHEロケット弾を発射できる。"
 

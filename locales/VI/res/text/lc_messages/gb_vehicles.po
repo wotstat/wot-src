@@ -118,9 +118,6 @@ msgstr "SR C45"
 msgid "C45_CFE_A"
 msgstr "SR C45"
 
-msgid "C45_FR"
-msgstr "SR C45"
-
 msgid "C45_c_7x7"
 msgstr "SR C45"
 
@@ -406,6 +403,9 @@ msgstr "Headshaker"
 msgid "Chassis_GB152_AT_FV230_Breaker"
 msgstr "AT-FV230 Breaker"
 
+msgid "Chassis_GB154_FV112_Puncher"
+msgstr "FV112 Puncher"
+
 msgid "Chassis_GB155_Pike"
 msgstr "Pike"
 
@@ -426,6 +426,9 @@ msgstr "Stuart I"
 
 msgid "Chassis_GB15_Stuart_I_2"
 msgstr "Stuart IV"
+
+msgid "Chassis_GB160_A20"
+msgstr "A20"
 
 msgid "Chassis_GB17_Grant_I"
 msgstr "Grant I"
@@ -688,9 +691,6 @@ msgstr "Centurion Action X"
 msgid "Chassis_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
 
-msgid "Chassis_GB86_Centurion_Action_X_FR"
-msgstr "Centurion Action X BS"
-
 msgid "Chassis_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
 
@@ -759,6 +759,9 @@ msgstr "Chrysler A57"
 
 msgid "Cummins_BTA_5_9"
 msgstr "Cummins BTA 5,9"
+
+msgid "DDS_6V_53NF"
+msgstr "DDS 6V 53NF"
 
 msgid "Daimler_D2458_V_8"
 msgstr "Daimler D2458 V-8"
@@ -1555,6 +1558,21 @@ msgstr "AT-FV230 Breaker là pháo chống tăng với giáp trước xuất s�
 msgid "GB152_AT_FV230_Breaker_short"
 msgstr "Breaker"
 
+msgid "GB154_FV112_Puncher"
+msgstr "FV112 Puncher"
+
+msgid "GB154_FV112_Puncher_descr"
+msgstr "Một dự án của Anh về xe chống tăng hạng nhẹ, được phát triển dựa trên yêu cầu về độ nhỏ gọn, trọng lượng thấp và khả năng cơ động cao. Thiết kế cho phép gắn vũ khí mạnh lên khung gầm nhỏ, đảm bảo tốc độ và khả năng cơ động cần thiết để đi kèm các sư đoàn tăng."
+
+msgid "GB154_FV112_Puncher_long_special"
+msgstr "FV112 Puncher là pháo chống tăng Anh Cấp IX. Đạn HE chủ lực, xuyên giáp cao, sát thương mỗi phát lớn, DPM vượt trội so với cùng cấp, trong khi đạn APCR đủ sức đối phó mục tiêu giáp dày. Độ cơ động và chính xác xuất sắc cho phép đóng vai bắn tỉa chủ động, liên tục đổi vị trí lấy góc bắn thuận lợi."
+
+msgid "GB154_FV112_Puncher_short"
+msgstr "Puncher"
+
+msgid "GB154_FV112_Puncher_short_special"
+msgstr "DPM vượt trội, tháp pháo xoay hoàn toàn"
+
 msgid "GB155_Pike"
 msgstr "Pike"
 
@@ -1632,6 +1650,21 @@ msgstr "Stuart I-IV"
 
 msgid "GB15_Stuart_I_descr"
 msgstr "Được sản xuất hàng loạt từ năm 1941 và viện trợ cho Anh Quốc theo Thỏa thuận Thuê mượn (Lend-Lease). Có tổng cộng 6889 chiếc đã đến Anh, bao gồm nhiều phiên bản, từ M3 cho tới M5A1. Các xe tăng M3 được người Anh gọi là Stuart I, trong khi phiên bản M3A1 là Stuart III. Chúng tham chiến lần đầu tiên tại Sidi Rezegh."
+
+msgid "GB160_A20"
+msgstr "A20"
+
+msgid "GB160_A20_descr"
+msgstr "Ngay sau khi Thế Chiến II bắt đầu, Bộ Tham mưu Anh đã bắt tay phát triển tăng hạng nặng tùng thiết bộ binh A-20 để giao tranh ở Châu Âu. Được dự đoán mang tính chất như hồi Thế Chiến I, phương tiện bọc giáp dày này có thân xe kéo dài, với một “đuôi” ở phía sau để vượt hào và hố bom. Vũ khí bố trí cả trên tháp pháo lẫn thân xe. Hoạt động sản xuất hàng loạt dự kiến bắt đầu ngay từ năm 1940; tuy nhiên, thất bại nhanh chóng của Pháp cho thấy chiến trận sẽ cơ động hơn nhiều so với dự kiến. Do đó, kế hoạch sản xuất hàng loạt A-20 bị hủy bỏ, nguyên mẫu đã chế tạo không có tháp pháo vận hành, còn bản thân dự án thành nền tảng để phát triển A-22 Churchill."
+
+msgid "GB160_A20_long_special"
+msgstr "A-20 là tăng hạng nặng Anh Quốc Cấp IV, tiền thân của A22 Churchill, sở hữu súng bắn nhanh tương tự, giáp trước tương đối chắc, thân xe dài, phù hợp chiến thuật nghiêng thân \"cạ cạnh\". Tuy nhiên, sát thương mỗi phát thấp, độ cơ động kém khiến nó chỉ nên sắm vai hứng đòn trong khi gây sát thương và đều đặn tiến về phía địch."
+
+msgid "GB160_A20_short"
+msgstr "A20"
+
+msgid "GB160_A20_short_special"
+msgstr "Giáp trước cứng, súng bắn nhanh"
 
 msgid "GB17_Grant_I"
 msgstr "Grant"
@@ -2170,15 +2203,6 @@ msgstr "Triumphant"
 msgid "GB86_Centurion_Action_X_CFE_A_short_special"
 msgstr "Cưỡi ngựa trắng, thương bạc trên đồng Trường Bản,\n\nTên ông vang giữa anh hùng, sử sách ghi rõ."
 
-msgid "GB86_Centurion_Action_X_FR"
-msgstr "Centurion Action X BS"
-
-msgid "GB86_Centurion_Action_X_FR_descr"
-msgstr "Người ta đã lên kế hoạch sử dụng tháp pháo Action X cho các tăng Centurion phiên bản sau này. Một nguyên mẫu tháp pháo như thế được lắp trên khung gầm của Centurion Mark 7, trong khi một cái khác phải trải qua nhiều cuộc thử nghiệm đạn đạo. Tuy nhiên, chiếc xe sử dụng tháp pháo Action X chưa bao giờ đi vào sản xuất hàng loạt cũng như tham chiến."
-
-msgid "GB86_Centurion_Action_X_FR_short"
-msgstr "Cent. AX BS"
-
 msgid "GB86_Centurion_Action_X_descr"
 msgstr "Người ta đã lên kế hoạch sử dụng tháp pháo Action X cho các tăng Centurion phiên bản sau này. Một nguyên mẫu tháp pháo như thế được lắp trên khung gầm của Centurion Mark 7, trong khi một cái khác phải trải qua nhiều cuộc thử nghiệm đạn đạo. Tuy nhiên, chiếc xe sử dụng tháp pháo Action X chưa bao giờ đi vào sản xuất hàng loạt cũng như tham chiến."
 
@@ -2469,6 +2493,9 @@ msgstr "Meadows D.A.V. O.C."
 
 msgid "Meadows_D_A_V_A13_III"
 msgstr "Meadows D.A.V. (A13 III)"
+
+msgid "Meadows_D_A_V_A20"
+msgstr "Meadows D.A.V (A20)"
 
 msgid "Meadows_D_A_V_A22"
 msgstr "Meadows D.A.V. (A22)"
@@ -3007,9 +3034,6 @@ msgstr "Rolls-Royce Meteor TTSC"
 msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_CFE_A"
 msgstr "Rolls-Royce Meteor TTSC"
 
-msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_FR"
-msgstr "Rolls-Royce Meteor TTSC"
-
 msgid "Rolls_Royce_Meteorite_202"
 msgstr "Rolls-Royce Meteorite Mk. 202"
 
@@ -3057,6 +3081,9 @@ msgstr "Rover Meteorite"
 
 msgid "SR_40_E"
 msgstr "SR 40 E"
+
+msgid "SR_C42"
+msgstr "SR C42"
 
 msgid "SR_C42F"
 msgstr "SR C42F"
@@ -3280,6 +3307,9 @@ msgstr "Headshaker"
 msgid "Turret_1_GB152_AT_FV230_Breaker"
 msgstr "Beaver"
 
+msgid "Turret_1_GB154_FV112_Puncher"
+msgstr "FV112 Puncher"
+
 msgid "Turret_1_GB155_Pike"
 msgstr "Pike"
 
@@ -3297,6 +3327,9 @@ msgstr "Victorious"
 
 msgid "Turret_1_GB15_Stuart_I"
 msgstr "Stuart I"
+
+msgid "Turret_1_GB160_A20"
+msgstr "A20"
 
 msgid "Turret_1_GB19_Sherman_Firefly"
 msgstr "Sherman I"
@@ -3447,9 +3480,6 @@ msgstr "Centurion Action X"
 
 msgid "Turret_1_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
-
-msgid "Turret_1_GB86_Centurion_Action_X_FR"
-msgstr "Centurion Action X BS"
 
 msgid "Turret_1_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
@@ -3688,6 +3718,9 @@ msgstr "WS No. 19 Mk. IIB"
 msgid "WS_No_19_Mk_III"
 msgstr "WS No. 19 Mk. III"
 
+msgid "WS_No_19_Mk_II_A20"
+msgstr "WS No. 19 Mk. II (A20)"
+
 msgid "WS_No_22_Mk_3"
 msgstr "WS No. 22 Mk. 3"
 
@@ -3748,6 +3781,9 @@ msgstr "APDS Kl/14"
 msgid "_105mm_APDS_Kl14_CFE_J"
 msgstr "APDS Kl/14"
 
+msgid "_105mm_APDS_Kl14_L"
+msgstr "LAPDS Kl/14"
+
 msgid "_105mm_APDS_L_28P"
 msgstr "APDS L-28P"
 
@@ -3762,9 +3798,6 @@ msgstr "APDS L-28 (5321)"
 
 msgid "_105mm_APDS_L_28_5321_CFE_A"
 msgstr "APDS L-28"
-
-msgid "_105mm_APDS_L_28_5321_FR"
-msgstr "APDS L-28 (5321)"
 
 msgid "_105mm_AP_EX20"
 msgstr "105 mm AP EX20"
@@ -3793,6 +3826,9 @@ msgstr "105 mm AT Gun L7A1"
 msgid "_105mm_AT_Gun_L7A1_GSOR"
 msgstr "105 mm AT Gun L7A1 GSOR"
 
+msgid "_105mm_AT_Gun_L7A1_L"
+msgstr "105mm AT Gun L7A1 L"
+
 msgid "_105mm_AT_Gun_L7_N"
 msgstr "105 mm AT Gun L7"
 
@@ -3805,9 +3841,6 @@ msgstr "105 mm Gun L7A2"
 msgid "_105mm_Gun_L7_HEAT_CFE_A"
 msgstr "105 mm Gun L7A2"
 
-msgid "_105mm_Gun_L7_HEAT_FR"
-msgstr "105 mm Gun L7A2"
-
 msgid "_105mm_Gun_L7_HEAT_SH"
 msgstr "105 mm Gun L7A2"
 
@@ -3818,9 +3851,6 @@ msgid "_105mm_HEAT_L7"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_CFE_A"
-msgstr "US HEAT M456"
-
-msgid "_105mm_HEAT_L7_FR"
 msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_SH"
@@ -3841,6 +3871,9 @@ msgstr "HESH-T L-37"
 msgid "_105mm_HESH_L7_GSOR"
 msgstr "HESH L7 GSOR"
 
+msgid "_105mm_HESH_L7_Mk13_L"
+msgstr "LHESH L7Mk.13"
+
 msgid "_105mm_HESH_L7_N"
 msgstr "HESH-T L-37 N"
 
@@ -3855,9 +3888,6 @@ msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_35_5321_CFE_A"
 msgstr "HESH-T L-35"
-
-msgid "_105mm_HESH_L_35_5321_FR"
-msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_37_4015"
 msgstr "HESH L-37 (4015)"
@@ -3885,6 +3915,9 @@ msgstr "HE L7 Mk. 13"
 
 msgid "_105mm_HE_L7_Mk13_CFE_J"
 msgstr "HE L7 Mk. 13"
+
+msgid "_105mm_HE_L7_Mk13_L"
+msgstr "LHE L7Mk.13"
 
 msgid "_105mm_HE_L7_N"
 msgstr "HESH-T L-35 N"
@@ -4804,6 +4837,15 @@ msgstr "HE Mk. 2B"
 msgid "_3pdr_gun_Hotchkiss"
 msgstr "OQF 3-pdr Gun Mk. I"
 
+msgid "_40mm_2_pdr_APCBC_Mk_IX_A20"
+msgstr "APCBC Mk. IX (A20)"
+
+msgid "_40mm_2_pdr_APCNR_Mk_II_A20"
+msgstr "APCNR Mk. II (A20)"
+
+msgid "_40mm_2_pdr_HE_Mk_II_A20"
+msgstr "HE Mk. II (A20)"
+
 msgid "_40mm_AP"
 msgstr "AP Mk. I"
 
@@ -4854,6 +4896,9 @@ msgstr "40 mm Pom-Pom (II)"
 
 msgid "_40mm_Pom_Pom_prot"
 msgstr "40 mm Pom-Pom prototype"
+
+msgid "_40mm_QF_2_pdr_Mk_X_A20"
+msgstr "QF 2-pdr Mk. X (A20)"
 
 msgid "_40mm_SAP"
 msgstr "SAP Mk. 1T"
