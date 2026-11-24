@@ -1,63 +1,63 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
   $r as t,
-  $t as a,
-  C as s,
-  Cn as r,
-  En as n,
-  Er as o,
+  C as a,
+  Cn as s,
+  En as r,
+  Er as n,
+  Et as o,
   Fn as c,
   Fr as d,
-  Gt as l,
-  Jn as i,
-  Jt as _,
-  K as b,
-  Kt as u,
-  Ln as m,
-  Mr as p,
-  Or as f,
-  Rr as g,
-  Tn as C,
-  Vn as w,
-  Wt as h,
-  Xr as v,
-  Y as x,
-  Yn as y,
-  Yt as k,
-  Zn as j,
-  Zt as N,
-  _n as I,
-  br as T,
-  ci as B,
-  ct as S,
-  di as E,
-  dt as O,
-  en as G,
-  fn as A,
-  ft as $,
-  gn as W,
-  hr as z,
-  oi as M,
-  or as L,
-  pn as D,
-  sr as U,
-  st as F,
-  tn as P,
-  ur as q,
-  ut as Y,
-  vt as H,
-  w as J,
-  wr as K,
-  xr as Z,
+  Jn as l,
+  Jt as i,
+  K as _,
+  Ln as b,
+  Mr as u,
+  Or as m,
+  Rr as p,
+  Tn as f,
+  Tt as g,
+  Vn as C,
+  Xr as w,
+  Y as h,
+  Yn as v,
+  Yt as x,
+  Zn as y,
+  Zt as k,
+  _n as j,
+  br as N,
+  ci as I,
+  ct as T,
+  di as B,
+  dt as S,
+  en as E,
+  fn as O,
+  ft as G,
+  gn as A,
+  hr as $,
+  oi as W,
+  or as z,
+  pn as M,
+  qt as L,
+  sr as D,
+  st as U,
+  tn as q,
+  ur as F,
+  ut as P,
+  vt as Y,
+  w as H,
+  wr as J,
+  wt as Z,
+  xr as K,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { h as V } from "../chunks/vendor.js";
 import { n as X, t as Q } from "../chunks/filename.js";
-var ee = e(B()),
+var ee = e(I()),
   te = "state_limited",
   ae = "state_received",
-  se = E.resolve("strings"),
-  re = E.resolve("images");
+  se = B.resolve("strings"),
+  re = B.resolve("images");
 function ne(e) {
   const t = e.match(/(?:_(?:t|tier))?(\d+)\b/);
   if (t && void 0 !== t[1]) return t && t[1] ? parseInt(t[1], 10) : null;
@@ -86,7 +86,7 @@ function ce(e) {
 function de(e, t) {
   return t && "none" !== t ? t : e;
 }
-var le = (e, t = x.Small, a) => {
+var le = (e, t = h.Small, a) => {
     if ("modernized_device" === a) {
       const a = ne(e);
       if (a) return re.readOrEmpty(`quests.bonuses.${t}.modernized_devices_t${a}_gift`, "silent");
@@ -126,33 +126,33 @@ var ue = (e, t = "s180x135", a = "R.images.gui.maps.icons.selectableReward.rewar
 var me = (function (e) {
     return ((e.None = "none"), (e.Accepting = "accepting"), e);
   })({}),
-  [pe, fe] = I()(
+  [pe, fe] = j()(
     ({ observableModel: e }) => {
       const t = {
           root: e.object(),
           tabs: e.array("tabs"),
           rewards: e.array("rewards"),
-          animationState: z.box("none"),
+          animationState: $.box("none"),
         },
-        a = W(
+        a = A(
           (e) => {
-            const a = p(t.tabs.get(), e);
+            const a = u(t.tabs.get(), e);
             return { ...a, optDeviceType: ce(a.type) };
           },
-          { equals: g },
+          { equals: p },
         ),
-        s = W(
+        s = A(
           (e) => {
-            const a = p(t.rewards.get(), e);
+            const a = u(t.rewards.get(), e);
             return { ...a, optDeviceType: ce(a.type) };
           },
-          { equals: g },
+          { equals: p },
         ),
-        r = W(() => f(t.tabs.get(), (e, t) => e + t.limit, 0));
+        r = A(() => m(t.tabs.get(), (e, t) => e + t.limit, 0));
       return { ...t, computes: { tabByIndex: a, rewardByIndex: s, rewardsToClaimTotal: r } };
     },
     ({ externalModel: e, model: t }) => {
-      const a = q((e) => t.animationState.set(e));
+      const a = F((e) => t.animationState.set(e));
       return {
         close: e.createCallbackNoArgs("onCloseClick"),
         submit: e.createCallbackNoArgs("onOkClick"),
@@ -181,48 +181,48 @@ var me = (function (e) {
     fadeOut: "Category_fadeOut_b894c2f0",
     fadeIn: "Category_fadeIn_b894c2f0",
   },
-  Ce = y(),
-  we = E.resolve("strings"),
-  he = E.resolve("views").read((e) =>
+  Ce = v(),
+  we = B.resolve("strings"),
+  he = B.resolve("views").read((e) =>
     e.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId"),
   ),
   ve = V(({ index: e, className: t, classNames: a }) => {
     const {
         breakpoint: { weight: s },
-      } = i(),
+      } = l(),
       { model: r, controls: n } = fe(),
       o = r.animationState.get(),
-      { optDeviceType: c, count: d, limit: l, type: u } = r.computes.tabByIndex(e),
-      m = d === l,
-      p = r.root.get().selectedTab === u,
-      f = we.readOrEmpty(`selectable_reward.tabs.items.${c}`, "silent"),
-      g = s >= j.medium.weight ? x.Big : x.Small,
-      w = C((0, ee.useMemo)(() => ({ contentId: he, args: { type: u } }), [u]));
+      { optDeviceType: c, count: d, limit: i, type: b } = r.computes.tabByIndex(e),
+      u = d === i,
+      m = r.root.get().selectedTab === b,
+      p = we.readOrEmpty(`selectable_reward.tabs.items.${c}`, "silent"),
+      g = s >= y.medium.weight ? h.Big : h.Small,
+      C = f((0, ee.useMemo)(() => ({ contentId: he, args: { type: b } }), [b]));
     return (0, Ce.jsxs)("div", {
-      className: M(ge.base, m && ge.base__completed, !p && d && ge[`base__${o}`], t),
+      className: W(ge.base, u && ge.base__completed, !m && d && ge[`base__${o}`], t),
       onClick: () => {
-        (v.sound("bp_click"), n.openTab(u));
+        (w.sound("bp_click"), n.openTab(b));
       },
-      onMouseEnter: () => v.sound("bp_highlight"),
+      onMouseEnter: () => w.sound("bp_highlight"),
       children: [
         (0, Ce.jsxs)("div", {
-          ...w,
+          ...C,
           className: ge.imageContainer,
           children: [
             (0, Ce.jsx)("div", {
               className: ge.image,
-              style: { backgroundImage: `url(${le(u, g, c)})` },
+              style: { backgroundImage: `url(${le(b, g, c)})` },
             }),
             (0, Ce.jsx)("div", { className: ge.check }),
           ],
         }),
         (0, Ce.jsx)("div", {
           className: ge.counter,
-          children: b(we.readOrEmpty("selectable_reward.tabs.counter"), { count: d, limit: l }),
+          children: _(we.readOrEmpty("selectable_reward.tabs.counter"), { count: d, limit: i }),
         }),
         (0, Ce.jsx)("div", {
-          className: M(ge.title, a?.title),
-          children: (0, Ce.jsx)(_, { text: ie(u, c), params: { equipmentType: f } }),
+          className: W(ge.title, a?.title),
+          children: (0, Ce.jsx)(E, { text: ie(b, c), params: { equipmentType: p } }),
         }),
       ],
     });
@@ -246,7 +246,7 @@ var xe = {
   })({}),
   ke = ({ type: e = "plus", isEnabled: t = !0, onClick: a }) =>
     (0, Ce.jsx)("div", {
-      className: M(xe.base, xe[`base__${e}`], !t && xe.base__disabled),
+      className: W(xe.base, xe[`base__${e}`], !t && xe.base__disabled),
       onClick: (e) => {
         (e.stopPropagation(), t && a(e));
       },
@@ -279,12 +279,12 @@ var xe = {
     fadeOut: "Reward_fadeOut_21f091ec",
     fadeIn: "Reward_fadeIn_21f091ec",
   },
-  Ne = E.resolve("strings"),
-  Ie = E.resolve("views").read((e) =>
+  Ne = B.resolve("strings"),
+  Ie = B.resolve("views").read((e) =>
     e.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId"),
   ),
   Re = V(({ index: e, className: t }) => {
-    const { model: a, controls: s } = fe(),
+    const { model: a, controls: r } = fe(),
       n = a.animationState.get(),
       {
         type: o,
@@ -292,43 +292,43 @@ var xe = {
         state: d,
         storageCount: l,
         packSize: i,
-        optDeviceType: _,
+        optDeviceType: b,
       } = a.computes.rewardByIndex(e),
-      { addReward: u, reduceReward: m } = s,
+      { addReward: u, reduceReward: m } = r,
       p = "state_normal" === d,
-      f = d === te,
-      g = d === ae,
-      w = c > 0 && !g,
-      h = w || p,
-      x = n === me.Accepting && w,
-      y = r(
+      g = d === te,
+      C = d === ae,
+      h = c > 0 && !C,
+      v = h || p,
+      x = n === me.Accepting && h,
+      y = s(
         (0, ee.useMemo)(
           () =>
-            f && 0 === c
+            g && 0 === c
               ? {
                   header: Ne.readOrEmpty("selectable_reward.reward.tooltip.state_limited.header"),
                   body: Ne.readOrEmpty("selectable_reward.reward.tooltip.state_limited.body"),
                 }
               : { isEnabled: !1 },
-          [f, c],
+          [g, c],
         ),
       ),
-      k = C((0, ee.useMemo)(() => ({ contentId: Ie, args: { type: o } }), [o]));
+      k = f((0, ee.useMemo)(() => ({ contentId: Ie, args: { type: o } }), [o]));
     return (0, Ce.jsxs)("div", {
-      className: M(
+      className: W(
         je.base,
         t,
-        w && je.base__selected,
+        h && je.base__selected,
         x && je.base__accepting,
         je[`base__${((j = d), j.replace(/_\w/g, (e) => e[1]?.toUpperCase() ?? e))}`],
       ),
       onClick: () => {
-        p ? (v.sound("bp_click"), u(o)) : (f || g) && v.sound("bp_click_limit");
+        p ? (w.sound("bp_click"), u(o)) : (g || C) && w.sound("bp_click_limit");
       },
-      onMouseEnter: () => v.sound("bp_highlight"),
+      onMouseEnter: () => w.sound("bp_highlight"),
       children: [
         (0, Ce.jsxs)("div", {
-          className: M(je.storage, l <= 0 && je.storage__hidden),
+          className: W(je.storage, l <= 0 && je.storage__hidden),
           children: [(0, Ce.jsx)("div", { className: je.storageIcon }), l],
         }),
         (0, Ce.jsxs)("div", {
@@ -339,22 +339,22 @@ var xe = {
               className: je.image,
               style: { backgroundImage: `url(${ue(o)})` },
             }),
-            _ !== oe.None &&
+            b !== oe.None &&
               (0, Ce.jsx)("div", {
                 className: je.optDeviceType,
-                style: { backgroundImage: `url(${be(o, _)})` },
+                style: { backgroundImage: `url(${be(o, b)})` },
               }),
             i > 1 &&
               (0, Ce.jsx)("div", {
                 className: je.packSize,
-                children: b(Ne.readOrEmpty("selectable_reward.reward.packSizeCount"), {
+                children: _(Ne.readOrEmpty("selectable_reward.reward.packSizeCount"), {
                   packSize: i,
                 }),
               }),
           ],
         }),
         (0, Ce.jsx)("div", { className: je.label, children: _e(o) }),
-        h
+        v
           ? (0, Ce.jsxs)("div", {
               className: je.selectControls,
               children: [
@@ -364,25 +364,25 @@ var xe = {
                   children: [
                     (0, Ce.jsx)(ke, {
                       type: ye.Minus,
-                      isEnabled: w,
+                      isEnabled: h,
                       onClick: () => {
-                        (v.sound("bp_click_minus"), m(o));
+                        (w.sound("bp_click_minus"), m(o));
                       },
                     }),
                     (0, Ce.jsx)(ke, {
                       type: ye.Plus,
                       isEnabled: p,
                       onClick: () => {
-                        p && (v.sound("bp_click_plus"), u(o));
+                        p && (w.sound("bp_click_plus"), u(o));
                       },
                     }),
                   ],
                 }),
               ],
             })
-          : (f || g) &&
+          : (g || C) &&
             (0, Ce.jsx)("div", {
-              ...(f ? y : {}),
+              ...(g ? y : {}),
               className: je.state,
               children: (0, Ce.jsx)("div", {
                 className: je.stateText,
@@ -420,14 +420,14 @@ var xe = {
     fadeIn: "ContentGrid_fadeIn_e365c19f",
   },
   Be = V(({ className: e, onScrollableChange: t }) => {
-    const { model: a } = fe(),
-      { selectedTab: r } = a.root.get(),
-      n = a.rewards.get(),
-      c = a.tabs.get(),
-      d = T(c, (e) => e.type === r),
+    const { model: s } = fe(),
+      { selectedTab: r } = s.root.get(),
+      o = s.rewards.get(),
+      c = s.tabs.get(),
+      d = N(c, (e) => e.type === r),
       l = d.count >= d.limit,
-      { api: i } = $(),
-      [_, b] = H(i),
+      { api: i } = G(),
+      [_, b] = Y(i),
       [u, m] = (0, ee.useState)(!1),
       p = (0, ee.useRef)(t);
     return (
@@ -439,26 +439,26 @@ var xe = {
           m((e) => (e !== t ? t : e));
         };
         return (i.recalculateContent(), e(), i.events.on("recalculateContent", e));
-      }, [n.length, i, r]),
+      }, [o.length, i, r]),
       (0, ee.useEffect)(() => {
         p.current?.(u);
       }, [u]),
       (0, Ce.jsxs)("div", {
-        className: M(Te.base, e),
+        className: W(Te.base, e),
         children: [
           (0, Ce.jsx)("div", {
-            className: M(Te.mask, Te[`mask__${Y(_, b)}`]),
-            children: (0, Ce.jsx)(S, {
+            className: W(Te.mask, Te[`mask__${P(_, b)}`]),
+            children: (0, Ce.jsx)(T, {
               classNames: {
-                content: M(Te.scrollAreaContent, !u && Te.scrollAreaContent__centered),
+                content: W(Te.scrollAreaContent, !u && Te.scrollAreaContent__centered),
               },
               children: (0, Ce.jsx)("div", {
                 className: Te.scrollArea,
-                children: (0, Ce.jsx)(s, {
+                children: (0, Ce.jsx)(a, {
                   border: "contour",
                   enabled: !0,
                   className: Te.cardsGrid,
-                  children: o(n, (e, t) => {
+                  children: n(o, (e, t) => {
                     const { count: a, state: s, type: r } = e,
                       { disabled: n, statusType: o } = (function (e, t, a) {
                         const s = e === te,
@@ -470,7 +470,7 @@ var xe = {
                         };
                       })(s, a, l);
                     return (0, Ce.jsx)(
-                      J,
+                      H,
                       {
                         selected: a > 0,
                         disabled: n,
@@ -479,7 +479,7 @@ var xe = {
                         classNames: {
                           mainContainerContent: Te.cardContent,
                           status: {
-                            wrapper: M(Te.statusWrapper, Te[`statusWrapper__${o}`]),
+                            wrapper: W(Te.statusWrapper, Te[`statusWrapper__${o}`]),
                             icon: Te.icon,
                           },
                         },
@@ -493,24 +493,24 @@ var xe = {
               }),
             }),
           }),
-          (0, Ce.jsx)(O, { classNames: { base: Te.scrollBar } }),
+          (0, Ce.jsx)(S, { classNames: { base: Te.scrollBar } }),
         ],
       })
     );
   }),
   Se = "Footer_775b7239",
   Ee = "Footer_buttons_877c593c",
-  Oe = E.resolve("strings"),
+  Oe = B.resolve("strings"),
   Ge = V(({ buttonsSize: e, classNames: t }) => {
-    const { model: s, controls: o } = fe(),
-      { totalRewardCount: c } = s.root.get(),
+    const { model: a, controls: n } = fe(),
+      { totalRewardCount: c } = a.root.get(),
       d = c > 0,
       {
-        breakpoint: { weight: l },
-      } = i(),
-      _ = e ?? ((e) => (e > j.small.weight ? a.medium : a.small))(l),
-      b = n(),
-      u = r(
+        breakpoint: { weight: i },
+      } = l(),
+      _ = e ?? ((e) => (e > y.small.weight ? g.medium : g.small))(i),
+      b = r(),
+      u = s(
         (0, ee.useMemo)(
           () => ({ disabled: d, body: Oe.readOrEmpty("selectable_reward.tooltips.footer.body") }),
           [d],
@@ -521,13 +521,13 @@ var xe = {
       children: (0, Ce.jsx)("div", {
         ...u,
         className: Ee,
-        children: (0, Ce.jsx)(N, {
+        children: (0, Ce.jsx)(Z, {
           size: _,
-          theme: G.primary,
+          theme: o.primary,
           disabled: !d,
           className: t?.button,
           onClick: () => {
-            (o.setAnimationState(me.Accepting), b.run(o.submit, 600));
+            (n.setAnimationState(me.Accepting), b.run(n.submit, 600));
           },
           children: Oe.readOrEmpty("selectable_reward.footer.okBtn.label"),
         }),
@@ -566,70 +566,70 @@ var xe = {
   },
   $e = V(({ title: e, subTitle: t, classNames: a, buttonsSize: s }) => {
     const r = (0, ee.useRef)(!1),
-      [n, c] = (0, ee.useState)(!1),
-      [i, _] = (0, ee.useState)(null),
-      [b, p] = (0, ee.useState)(!1),
-      { model: f, controls: g } = fe(),
-      C = f.tabs.get(),
-      { selectedTab: w } = f.root.get(),
-      v = f.animationState.get(),
-      x = Z(C, (e) => e.type === w) ?? -1;
+      [o, c] = (0, ee.useState)(!1),
+      [l, _] = (0, ee.useState)(null),
+      [u, m] = (0, ee.useState)(!1),
+      { model: p, controls: f } = fe(),
+      g = p.tabs.get(),
+      { selectedTab: C } = p.root.get(),
+      w = p.animationState.get(),
+      h = K(g, (e) => e.type === C) ?? -1;
     return (
       (0, ee.useEffect)(() => {
-        if (!n)
-          return L(() => {
+        if (!o)
+          return z(() => {
             c(!0);
           }, 300);
-      }, [n]),
+      }, [o]),
       (0, ee.useEffect)(() => {
         const e = (e) => {
           (e.code !== d.ARROW_LEFT && e.code !== d.ARROW_RIGHT) || (r.current = !1);
         };
         return (window.addEventListener("keyup", e), () => window.removeEventListener("keyup", e));
       }, []),
-      m(d.ARROW_LEFT, () => {
+      b(d.ARROW_LEFT, () => {
         if (r.current) return;
-        if (((r.current = !0), x <= 0)) return;
-        const e = K(C, x - 1);
-        g.openTab(e.type);
+        if (((r.current = !0), h <= 0)) return;
+        const e = J(g, h - 1);
+        f.openTab(e.type);
       }),
-      m(d.ARROW_RIGHT, () => {
+      b(d.ARROW_RIGHT, () => {
         if (r.current) return;
-        if (((r.current = !0), x < 0 || x === C.length - 1)) return;
-        const e = K(C, x + 1);
-        g.openTab(e.type);
+        if (((r.current = !0), h < 0 || h === g.length - 1)) return;
+        const e = J(g, h + 1);
+        f.openTab(e.type);
       }),
       (0, Ce.jsxs)("div", {
-        className: M(Ae.base, Ae[`base__${v}`]),
+        className: W(Ae.base, Ae[`base__${w}`]),
         children: [
-          (0, Ce.jsxs)(h, {
-            size: l.large,
-            theme: u.custom,
-            active: w,
+          (0, Ce.jsxs)(L, {
+            size: i.large,
+            theme: x.custom,
+            active: C,
             children: [
               (0, Ce.jsxs)("div", {
-                className: M(Ae.wrapper, n && Ae.wrapper__shown),
+                className: W(Ae.wrapper, o && Ae.wrapper__shown),
                 children: [
                   (0, Ce.jsxs)("div", {
-                    className: M(Ae.heading, a?.heading),
+                    className: W(Ae.heading, a?.heading),
                     children: [
-                      (0, Ce.jsx)("div", { className: M(Ae.title, a?.title), children: e }),
-                      (0, Ce.jsx)("div", { className: M(Ae.subTitle, a?.subTitle), children: t }),
+                      (0, Ce.jsx)("div", { className: W(Ae.title, a?.title), children: e }),
+                      (0, Ce.jsx)("div", { className: W(Ae.subTitle, a?.subTitle), children: t }),
                     ],
                   }),
                   (0, Ce.jsx)("div", {
                     className: Ae.tabs,
-                    children: o(C, (e, t) => {
-                      const s = w === e.type,
-                        r = i === e.type && !s,
+                    children: n(g, (e, t) => {
+                      const s = C === e.type,
+                        r = l === e.type && !s,
                         n = {
                           base: Ae.tabBase,
-                          background: M(
+                          background: W(
                             Ae.tabBackground,
                             s && Ae.tabBackground__active,
                             r && Ae.tabBackground__hover,
                           ),
-                          borderImage: M(
+                          borderImage: W(
                             Ae.tabBorderImage,
                             s && Ae.tabBorderImage__active,
                             r && Ae.tabBorderImage__hover,
@@ -637,13 +637,13 @@ var xe = {
                           content: Ae.tabContent,
                         };
                       return (0, Ce.jsx)(
-                        h.Tab,
+                        L.Tab,
                         {
                           tabId: e.type,
                           classNames: n,
                           onMouseEnter: () => _(e.type),
                           onMouseLeave: () => _(null),
-                          onClick: () => g.openTab(e.type),
+                          onClick: () => f.openTab(e.type),
                           children: (0, Ce.jsx)(ve, {
                             index: t,
                             className: a?.category,
@@ -656,21 +656,21 @@ var xe = {
                   }),
                 ],
               }),
-              (0, Ce.jsx)(h.Content, {
+              (0, Ce.jsx)(L.Content, {
                 children: () =>
                   (0, Ce.jsx)("div", {
-                    className: M(Ae.contentTab, n && Ae.contentTab__shown),
-                    children: (0, Ce.jsx)(F, {
-                      children: (0, Ce.jsx)(Be, { onScrollableChange: p }),
+                    className: W(Ae.contentTab, o && Ae.contentTab__shown),
+                    children: (0, Ce.jsx)(U, {
+                      children: (0, Ce.jsx)(Be, { onScrollableChange: m }),
                     }),
                   }),
               }),
             ],
           }),
           (0, Ce.jsxs)("div", {
-            className: M(Ae.footer, a?.footer),
+            className: W(Ae.footer, a?.footer),
             children: [
-              b && (0, Ce.jsx)("div", { className: Ae.bottomLip }),
+              u && (0, Ce.jsx)("div", { className: Ae.bottomLip }),
               (0, Ce.jsx)(Ge, { buttonsSize: s, classNames: a?.footerClassNames }),
             ],
           }),
@@ -683,8 +683,8 @@ var xe = {
   Me = "Error_description_9cc31237",
   Le = "Error_footer_2ba80f61",
   De = "Error_button_1befe7e6",
-  Ue = E.resolve("strings"),
-  Fe = V(() => {
+  Ue = B.resolve("strings"),
+  qe = V(() => {
     const { controls: e } = fe();
     return (0, Ce.jsxs)("div", {
       className: We,
@@ -699,10 +699,10 @@ var xe = {
         }),
         (0, Ce.jsx)("div", {
           className: Le,
-          children: (0, Ce.jsx)(N, {
+          children: (0, Ce.jsx)(Z, {
             className: De,
-            theme: G.primary,
-            size: a.medium,
+            theme: o.primary,
+            size: g.medium,
             onClick: e.close,
             children: Ue.readOrEmpty("selectable_reward.error.button"),
           }),
@@ -710,31 +710,31 @@ var xe = {
       ],
     });
   }),
-  Pe = "RewardSelection_496b50e",
-  qe = V(({ title: e, subTitle: t, classNames: a, buttonsSize: s }) => {
+  Fe = "RewardSelection_496b50e",
+  Pe = V(({ title: e, subTitle: t, classNames: a, buttonsSize: s }) => {
     const { model: r } = fe(),
       n = r.tabs.get();
     return (0, Ce.jsx)("div", {
-      className: Pe,
+      className: Fe,
       children:
         n.length > 0
           ? (0, Ce.jsx)($e, { title: e, subTitle: t, classNames: a, buttonsSize: s })
-          : (0, Ce.jsx)(Fe, {}),
+          : (0, Ce.jsx)(qe, {}),
     });
   }),
   Ye = ({ title: e = "", subTitle: t = "", modelProviderContext: a }) =>
     (0, Ce.jsx)(pe, {
       options: { context: a },
-      children: (0, Ce.jsx)(qe, { title: e, subTitle: t }),
+      children: (0, Ce.jsx)(Pe, { title: e, subTitle: t }),
     }),
-  [He, Je] = I()(
+  [He, Je] = j()(
     ({ observableModel: e }) => ({ root: e.object() }),
     ({ externalModel: e }) => ({
       close: e.createCallbackNoArgs("selectableRewardModel.onCloseClick"),
     }),
   ),
-  Ke = "App_285de3af",
-  Ze = "App_background_189ce663",
+  Ze = "App_285de3af",
+  Ke = "App_background_189ce663",
   Ve = "App_backgroundBlur_b6c090aa",
   Xe = "App_shadow_b56b33f2",
   Qe = "App_content_54c70e4",
@@ -745,11 +745,11 @@ var xe = {
       { chapterID: a, level: s } = e.root.get(),
       r = Boolean(s),
       [n, o] = (0, ee.useState)(!1);
-    (w(t.close),
+    (C(t.close),
       c(t.close),
       (0, ee.useEffect)(
         () =>
-          U(() => {
+          D(() => {
             o(!0);
           }),
         [],
@@ -765,10 +765,10 @@ var xe = {
       [a, r],
     );
     return (0, Ce.jsxs)("div", {
-      className: Ke,
+      className: Ze,
       children: [
         (0, Ce.jsx)("div", {
-          className: Ze,
+          className: Ke,
           style: d,
           children: (0, Ce.jsx)("div", { className: Ve }),
         }),
@@ -787,9 +787,9 @@ var xe = {
       ],
     });
   });
-A(
-  new D()
-    .add(P)
+O(
+  new M()
+    .add(q)
     .add(He)
     .render((0, Ce.jsx)(at, {})),
 );

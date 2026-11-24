@@ -56,6 +56,12 @@ class BattleEndWarningPanel(BattleEndWarningPanelMeta, IAbstractPeriodView):
             self.__isShown = False
         return
 
+    def _dispose(self):
+        if self._getPyReloading() and self.__isShown:
+            self.as_setStateS(False)
+        super(BattleEndWarningPanel, self)._dispose()
+        return
+
     def _callWWISE(self, wwiseEventName):
         WWISE.WW_eventGlobal(wwiseEventName)
         return

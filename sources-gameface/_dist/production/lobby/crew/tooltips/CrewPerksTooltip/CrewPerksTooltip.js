@@ -2072,9 +2072,10 @@
           ju = Mu[1],
           Vu = "EfficiencyInfo_base_fa427",
           Wu = "EfficiencyInfo_container_ba56f",
-          Uu = "EfficiencyInfo_icon_b66c0",
-          zu = "EfficiencyInfo_percent_bde34",
-          Gu = (0, n.memo)(({ efficiencyValue: u, isUntrained: e }) =>
+          Uu = "EfficiencyInfo_text_ed7a5",
+          zu = "EfficiencyInfo_icon_b66c0",
+          Gu = "EfficiencyInfo_percent_bde34",
+          qu = (0, n.memo)(({ efficiencyValue: u, isUntrained: e }) =>
             r().createElement(
               b,
               null,
@@ -2085,10 +2086,10 @@
                   ? r().createElement(
                       "div",
                       { className: Wu },
-                      r().createElement("div", { className: Uu }),
+                      r().createElement("div", { className: zu }),
                       r().createElement(
                         "div",
-                        null,
+                        { className: Uu },
                         R.strings.tooltips.perks.efficiency.untrained(),
                       ),
                     )
@@ -2101,7 +2102,7 @@
                         binding: {
                           value: r().createElement(
                             "div",
-                            { className: zu },
+                            { className: Gu },
                             Z(O.Z5.getNumberFormat(100 * u, O.B3.INTEGRAL)),
                           ),
                         },
@@ -2110,13 +2111,13 @@
               ),
             ),
           ),
-          qu = "ExtraInfo_base_cf712",
-          Hu = "ExtraInfo_situationalBlock_d8c74",
-          $u = "ExtraInfo_asterisk_b56d3",
-          Ku = "ExtraInfo_situationalText_c5852",
-          Zu = "ExtraInfo_zeroPerkBlock_e2293",
-          Yu = "ExtraInfo_zeroPerkIcon_b48d3",
-          Xu = (0, n.memo)(({ skillType: u, isZeroPerk: e }) => {
+          Hu = "ExtraInfo_base_cf712",
+          $u = "ExtraInfo_situationalBlock_d8c74",
+          Ku = "ExtraInfo_asterisk_b56d3",
+          Zu = "ExtraInfo_situationalText_c5852",
+          Yu = "ExtraInfo_zeroPerkBlock_e2293",
+          Xu = "ExtraInfo_zeroPerkIcon_b48d3",
+          Qu = (0, n.memo)(({ skillType: u, isZeroPerk: e }) => {
             const t = _.Situational === u;
             return t || e
               ? r().createElement(
@@ -2124,33 +2125,33 @@
                   null,
                   r().createElement(
                     "div",
-                    { className: qu },
+                    { className: Hu },
                     t &&
                       r().createElement(
                         "div",
-                        { className: Hu },
-                        r().createElement("div", { className: s()(v, $u) }),
+                        { className: $u },
+                        r().createElement("div", { className: s()(v, Ku) }),
                         r().createElement(
                           "div",
-                          { className: Ku },
+                          { className: Zu },
                           R.strings.tooltips.perkType.info.situational(),
                         ),
                       ),
                     e &&
                       r().createElement(
                         "div",
-                        { className: Zu },
-                        r().createElement("div", { className: s()(h, Yu) }),
+                        { className: Yu },
+                        r().createElement("div", { className: s()(h, Xu) }),
                         R.strings.tooltips.perks.zeroPerkInfo(),
                       ),
                   ),
                 )
               : null;
           }),
-          Qu = "InstructionInfo_base_a4e75",
-          Ju = "InstructionInfo_icon_ffe1a",
-          ue = "InstructionInfo_text_f1ad9",
-          ee = (0, n.memo)(({ boosterType: u }) => {
+          Ju = "InstructionInfo_base_a4e75",
+          ue = "InstructionInfo_icon_ffe1a",
+          ee = "InstructionInfo_text_f1ad9",
+          te = (0, n.memo)(({ boosterType: u }) => {
             const e = u === D.Extra,
               t = e
                 ? R.strings.tooltips.perks.fullWithDirective()
@@ -2163,16 +2164,16 @@
               null,
               r().createElement(
                 "div",
-                { className: Qu },
+                { className: Ju },
                 r().createElement("div", {
-                  className: Ju,
+                  className: ue,
                   style: { backgroundImage: `url(${n})` },
                 }),
-                r().createElement("div", { className: ue }, t),
+                r().createElement("div", { className: ee }, t),
               ),
             );
           }),
-          te = {
+          ne = {
             base: "SkillsSection_base_b6674",
             skillsList: "SkillsSection_skillsList_d68e9",
             skill: "SkillsSection_skill_a8001",
@@ -2181,7 +2182,7 @@
             skillValue__neutral: "SkillsSection_skillValue__neutral_cfaff",
             skillText: "SkillsSection_skillText_fb845",
           },
-          ne = r().memo(
+          re = r().memo(
             ({
               skills: u,
               level: e,
@@ -2195,7 +2196,7 @@
                 null,
                 r().createElement(
                   "div",
-                  { className: te.base },
+                  { className: ne.base },
                   r().createElement(
                     "div",
                     null,
@@ -2212,26 +2213,26 @@
                   ),
                   r().createElement(
                     "div",
-                    { className: te.skillsList },
+                    { className: ne.skillsList },
                     Lu(u, ({ value: u, text: e, impact: t }, n) =>
                       r().createElement(
                         "div",
-                        { key: n, className: te.skill },
+                        { key: n, className: ne.skill },
                         r().createElement(
                           "div",
-                          { className: s()(te.skillValue, te[`skillValue__${t}`]) },
+                          { className: s()(ne.skillValue, ne[`skillValue__${t}`]) },
                           K(u),
                         ),
-                        r().createElement("div", { className: te.skillText }, e),
+                        r().createElement("div", { className: ne.skillText }, e),
                       ),
                     ),
                   ),
                 ),
               ),
           ),
-          re = "MainContentSection_description_b91ee",
-          ie = "MainContentSection_irrelevant_e2259",
-          oe = (0, d.Pi)(() => {
+          ie = "MainContentSection_description_b91ee",
+          oe = "MainContentSection_irrelevant_e2259",
+          ae = (0, d.Pi)(() => {
             const u = ju().model,
               e = u.level.get(),
               t = u.realLevel.get(),
@@ -2253,10 +2254,10 @@
               r().createElement(
                 b,
                 null,
-                r().createElement(hu, { classMix: re, text: u.description.get() }),
+                r().createElement(hu, { classMix: ie, text: u.description.get() }),
               ),
               c &&
-                r().createElement(ne, {
+                r().createElement(re, {
                   skills: u.computes.boosters(),
                   level: e,
                   isLowEfficiency: s,
@@ -2264,49 +2265,49 @@
                   isAnyMemberWithLowEfficiency: u.isAnyMemberWithLowEfficiency.get(),
                   isAnyMemberUntrained: u.isAnyMemberUntrained.get(),
                 }),
-              r().createElement(Xu, { skillType: n, isZeroPerk: u.isZero.get() }),
+              r().createElement(Qu, { skillType: n, isZeroPerk: u.isZero.get() }),
               o &&
                 r().createElement(
                   b,
                   null,
                   r().createElement(
                     "div",
-                    { className: ie },
+                    { className: oe },
                     R.strings.tooltips.perks.irrelevant(),
                   ),
                 ),
               s &&
                 !(l || o) &&
-                r().createElement(Gu, { isUntrained: a, efficiencyValue: u.efficiency.get() }),
-              l && r().createElement(ee, { boosterType: i }),
+                r().createElement(qu, { isUntrained: a, efficiencyValue: u.efficiency.get() }),
+              l && r().createElement(te, { boosterType: i }),
               u.isAdvancedTooltipEnable.get() && r().createElement(yu, null),
             );
           }),
-          ae = "ErrorBackground_base_ec893",
-          se = () => r().createElement("div", { className: ae }),
-          le = "CrewPerksApp_base_ae965",
-          ce = (0, d.Pi)(function () {
+          se = "ErrorBackground_base_ec893",
+          le = () => r().createElement("div", { className: se }),
+          ce = "CrewPerksApp_base_ae965",
+          Ee = (0, d.Pi)(function () {
             const u = ju().model;
             return r().createElement(
               F,
               null,
               r().createElement(
                 "div",
-                { className: le },
-                u.computes.isDisabled() && !u.isIrrelevant.get() && r().createElement(se, null),
+                { className: ce },
+                u.computes.isDisabled() && !u.isIrrelevant.get() && r().createElement(le, null),
                 r().createElement(T, {
                   userName: u.userName.get(),
                   iconName: u.iconName.get(),
                   skillType: u.skillType.get(),
                   withAsterisk: !0,
                 }),
-                r().createElement(oe, null),
+                r().createElement(ae, null),
               ),
             );
           });
         engine.whenReady.then(() => {
           o().render(
-            r().createElement(Iu, null, r().createElement(ce, null)),
+            r().createElement(Iu, null, r().createElement(Ee, null)),
             document.getElementById("root"),
           );
         });

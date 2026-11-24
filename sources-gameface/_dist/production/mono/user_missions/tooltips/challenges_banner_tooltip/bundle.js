@@ -1,22 +1,22 @@
 import { r as e } from "../../chunks/rolldown-runtime.js";
 import {
-  A as s,
-  Dn as a,
-  Jt as r,
-  N as i,
-  P as t,
-  Pn as n,
-  St as l,
-  T as c,
-  Yt as d,
-  _t as o,
-  ct as m,
-  j as _,
-  k as u,
-  ln as g,
-  on as x,
+  D as s,
+  En as a,
+  F as r,
+  I as i,
+  Jt as t,
+  Kt as n,
+  M as l,
+  Nn as c,
+  P as d,
+  St as o,
+  an as m,
+  cn as _,
+  dt as u,
+  j as g,
+  ln as x,
   qt as j,
-  un as h,
+  ut as h,
   vt as v,
   yt as p,
 } from "../../chunks/lib.js";
@@ -24,7 +24,7 @@ import "../../chunks/_wg-global-styles.js";
 /* empty css                 */ import { t as b } from "../../chunks/utils.js";
 import { i as f, t as N } from "../../chunks/get_reward_image.js";
 var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
-  [y, I] = l()(
+  [y, I] = o()(
     ({ observableModel: e }) => ({
       root: e.object(),
       ...e.primitives([
@@ -37,17 +37,17 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
       bonuses: e.array("mission.bonuses"),
       conditions: e.object("mission.postBattleCondition"),
     }),
-    h,
+    x,
   ),
   L = "Default_img_81672d94",
-  k = "Default_header_314adb08",
-  C = "Default_description_e8e99be8",
+  C = "Default_header_314adb08",
+  k = "Default_description_e8e99be8",
   O = "Default_separator_4490ce49",
   $ = "Default_timerStatus_b2f607e",
-  E = e(r(), 1),
-  M = n.resolve("strings"),
+  E = e(j(), 1),
+  M = c.resolve("strings"),
   B = "hangar_event_banners.event.ChallengeEventBanner.tooltip",
-  H = o(function () {
+  H = v(function () {
     const { model: e } = I(),
       s = e.time.get();
     return (0, E.jsxs)(E.Fragment, {
@@ -59,20 +59,20 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
           },
         }),
         (0, E.jsx)("div", {
-          className: k,
-          children: (0, E.jsx)(m, { text: M.readOrEmpty(`${B}.title`) }),
+          className: C,
+          children: (0, E.jsx)(h, { text: M.readOrEmpty(`${B}.title`) }),
         }),
         (0, E.jsx)("div", {
-          className: C,
-          children: (0, E.jsx)(m, { text: M.readOrEmpty(`${B}.description`) }),
+          className: k,
+          children: (0, E.jsx)(h, { text: M.readOrEmpty(`${B}.description`) }),
         }),
         s > 0 &&
           (0, E.jsxs)(E.Fragment, {
             children: [
               (0, E.jsx)("div", { className: O }),
-              (0, E.jsx)(m, {
+              (0, E.jsx)(h, {
                 text: M.readOrEmpty(`${B}.timer.text`),
-                params: { timer: (0, E.jsx)(_, { size: i.x24x24, type: t.accent, start: s }, s) },
+                params: { timer: (0, E.jsx)(l, { size: d.x24x24, type: r.accent, start: s }, s) },
                 className: $,
                 upgradeLegacy: !0,
               }),
@@ -82,16 +82,16 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
     });
   }),
   D = "Header_3d842ff",
-  P = "Header_title_a2935114",
-  T = "Header_info_e7e5cf7c",
-  z = "Header_progress_2c5b28cb",
-  S = "Header_accent_78fe2ee9",
-  X = "Header_divider_e9b65048",
-  A = "Header_shields_ae11a84e",
-  F = "Header_shieldsCount_eb5f7f96",
-  q = "Header_shieldIcon_155019e1",
-  K = n.resolve("strings"),
-  J = o(function () {
+  z = "Header_title_a2935114",
+  P = "Header_info_e7e5cf7c",
+  S = "Header_progress_2c5b28cb",
+  T = "Header_accent_78fe2ee9",
+  F = "Header_divider_e9b65048",
+  X = "Header_shields_ae11a84e",
+  q = "Header_shieldsCount_eb5f7f96",
+  A = "Header_shieldIcon_155019e1",
+  K = c.resolve("strings"),
+  J = v(function () {
     const { model: e } = I(),
       s = e.challengeName.get(),
       a = e.completedMissions.get(),
@@ -101,8 +101,8 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
       className: D,
       children: [
         (0, E.jsx)("div", {
-          className: P,
-          children: (0, E.jsx)(m, {
+          className: z,
+          children: (0, E.jsx)(h, {
             text: K.readOrEmpty(
               "user_missions.challenge_missions.entrypoint.tooltip.challengeTitle",
             ),
@@ -110,24 +110,24 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
           }),
         }),
         (0, E.jsxs)("div", {
-          className: T,
+          className: P,
           children: [
             (0, E.jsx)("div", {
-              className: z,
-              children: (0, E.jsx)(m, {
+              className: S,
+              children: (0, E.jsx)(h, {
                 text: K.readOrEmpty("user_missions.hub.challenge_missions.missionsCount"),
                 params: {
-                  currentMissions: (0, E.jsx)("span", { className: S, children: a }),
+                  currentMissions: (0, E.jsx)("span", { className: T, children: a }),
                   totalMissions: r,
                 },
               }),
             }),
-            (0, E.jsx)("div", { className: X }),
+            (0, E.jsx)("div", { className: F }),
             (0, E.jsxs)("div", {
-              className: A,
+              className: X,
               children: [
-                (0, E.jsx)("span", { className: F, children: i }),
-                (0, E.jsx)("div", { className: q }),
+                (0, E.jsx)("span", { className: q, children: i }),
+                (0, E.jsx)("div", { className: A }),
               ],
             }),
           ],
@@ -135,30 +135,30 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
       ],
     });
   }),
-  Y = "ConditionItem_a08966eb",
-  G = "ConditionItem_icon_3b7a4890",
-  Q = "ConditionItem_conditionBg_e5e2cf8e",
-  U = "ConditionItem_text_5a72400a",
-  V = "ConditionItem_description_a047788c",
-  W = n.resolve("images"),
+  G = "ConditionItem_a08966eb",
+  Q = "ConditionItem_icon_3b7a4890",
+  U = "ConditionItem_conditionBg_e5e2cf8e",
+  V = "ConditionItem_text_5a72400a",
+  W = "ConditionItem_description_a047788c",
+  Y = c.resolve("images"),
   Z = ({ condition: e }) => {
     const { iconKey: s, descrData: a } = e,
-      { breakpoint: r } = j(),
-      i = r.weight >= d.large.weight ? 4 : 3,
-      t = `userMissions.challenges.missionIcons.c_80.${s}`,
-      n =
-        W.readOrEmpty(t, "silent") ||
-        W.readOrEmpty("userMissions.challenges.missionIcons.c_80.folder");
+      { breakpoint: r } = n(),
+      i = r.weight >= t.large.weight ? 4 : 3,
+      l = `userMissions.challenges.missionIcons.c_80.${s}`,
+      c =
+        Y.readOrEmpty(l, "silent") ||
+        Y.readOrEmpty("userMissions.challenges.missionIcons.c_80.folder");
     return (0, E.jsxs)("div", {
-      className: Y,
+      className: G,
       children: [
         (0, E.jsx)("div", {
-          className: G,
-          children: (0, E.jsx)("div", { className: Q, style: { backgroundImage: `url(${n})` } }),
+          className: Q,
+          children: (0, E.jsx)("div", { className: U, style: { backgroundImage: `url(${c})` } }),
         }),
         (0, E.jsx)("div", {
-          className: U,
-          children: (0, E.jsx)(u, { text: `${a}`, lines: i, className: V }),
+          className: V,
+          children: (0, E.jsx)(g, { text: `${a}`, lines: i, className: W }),
         }),
       ],
     });
@@ -166,7 +166,7 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
   ee = "OrSeparator_b6b48c7a",
   se = "OrSeparator_arrow_4d71dcce",
   ae = "OrSeparator_arrow__rotate_1d0c168d",
-  re = n.resolve("strings"),
+  re = c.resolve("strings"),
   ie = () =>
     (0, E.jsxs)("div", {
       className: ee,
@@ -180,12 +180,12 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
     }),
   te = "ConditionsList_ee6c89f3",
   ne = "ConditionsList_condition_726a545",
-  le = o(function () {
+  le = v(function () {
     const { model: e } = I(),
       s = e.conditions.get();
     return (0, E.jsx)("div", {
       className: te,
-      children: x(s.items, (e, s, a) =>
+      children: m(s.items, (e, s, a) =>
         (0, E.jsxs)(
           "div",
           {
@@ -199,11 +199,11 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
   }),
   ce = "customization";
 var de = "Overlay_7ff640ef",
-  oe = n.resolve("images");
-function me({ size: e, special: s, className: r }) {
+  oe = c.resolve("images");
+function me({ size: e, special: r, className: i }) {
   return (0, E.jsx)("div", {
-    className: a(de, r),
-    style: { backgroundImage: `url(${oe.readOrEmpty(`quests.bonuses.${e}.${c(s)}_overlay`)})` },
+    className: a(de, i),
+    style: { backgroundImage: `url(${oe.readOrEmpty(`quests.bonuses.${e}.${s(r)}_overlay`)})` },
   });
 }
 var _e = "RewardImage_98da984",
@@ -214,7 +214,7 @@ function ge({ showCounter: e, count: s, image: r, className: i = "" }) {
     style: { backgroundImage: `url(${r})` },
     children:
       e &&
-      (0, E.jsx)(m, {
+      (0, E.jsx)(h, {
         text: R.strings.user_missions.hub.challenge_missions.reward.multi(),
         className: ue,
         params: { count: s },
@@ -224,7 +224,7 @@ function ge({ showCounter: e, count: s, image: r, className: i = "" }) {
 var xe = "RewardName_text_79eb0561";
 function je({ reward: e, className: s = "" }) {
   const { label: r } = e;
-  return (0, E.jsx)(m, { className: a(xe, s), text: b(r), upgradeLegacy: !0 });
+  return (0, E.jsx)(h, { className: a(xe, s), text: b(r), upgradeLegacy: !0 });
 }
 var he = {
     base: "RewardsList_397c9761",
@@ -241,10 +241,10 @@ var he = {
     label__crystal: "RewardsList_label__crystal_ad6e788d",
     label__tankXP: "RewardsList_label__tankXP_2ee96a57",
   },
-  ve = o(function () {
+  ve = v(function () {
     const { model: e } = I(),
       s = e.bonuses.get(),
-      r = g(s),
+      r = _(s),
       i = (function (e) {
         const s = e.filter((e) => e.name === ce),
           a = e.filter((e) => e.name !== ce),
@@ -295,8 +295,8 @@ function be() {
 var fe = "TimerBlock_divider_c31a7a65",
   Ne = "TimerBlock_fbeff754",
   we = "TimerBlock_timerText_66570163",
-  ye = n.resolve("strings"),
-  Ie = o(function () {
+  ye = c.resolve("strings"),
+  Ie = v(function () {
     const { model: e } = I(),
       s = e.time.get();
     return (0, E.jsxs)(E.Fragment, {
@@ -304,9 +304,9 @@ var fe = "TimerBlock_divider_c31a7a65",
         (0, E.jsx)("div", { className: fe }),
         (0, E.jsx)("div", {
           className: Ne,
-          children: (0, E.jsx)(m, {
+          children: (0, E.jsx)(h, {
             text: ye.readOrEmpty("user_missions.hub.challenge_missions.header.timer.text"),
-            params: { timer: (0, E.jsx)(_, { size: i.x24x24, type: t.accent, start: s }, s) },
+            params: { timer: (0, E.jsx)(l, { size: d.x24x24, type: r.accent, start: s }, s) },
             className: we,
             upgradeLegacy: !0,
           }),
@@ -316,13 +316,13 @@ var fe = "TimerBlock_divider_c31a7a65",
   }),
   Le = "App_b3d5c0d8",
   Re = "active",
-  ke = "default",
-  Ce = o(function () {
+  Ce = "default",
+  ke = v(function () {
     const { model: e } = I(),
       s = e.time.get() > 0,
       a = e.conditions.get(),
       r =
-        (e.challengeName.get() ? Re : ke) === Re
+        (e.challengeName.get() ? Re : Ce) === Re
           ? (0, E.jsxs)(E.Fragment, {
               children: [(0, E.jsx)(J, {}), a && (0, E.jsx)(be, {}), s && (0, E.jsx)(Ie, {})],
             })
@@ -330,10 +330,10 @@ var fe = "TimerBlock_divider_c31a7a65",
     return (0, E.jsx)("div", { className: Le, children: r });
   });
 p(
-  (0, E.jsx)(v, {
+  (0, E.jsx)(u, {
     children: (0, E.jsx)(y, {
-      children: (0, E.jsx)(s, {
-        children: (0, E.jsx)(s.Decorator, { children: (0, E.jsx)(Ce, {}) }),
+      children: (0, E.jsx)(i, {
+        children: (0, E.jsx)(i.Decorator, { children: (0, E.jsx)(ke, {}) }),
       }),
     }),
   }),

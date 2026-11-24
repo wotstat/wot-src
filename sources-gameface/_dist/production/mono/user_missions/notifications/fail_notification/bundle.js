@@ -1,22 +1,22 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Dn as e,
+  En as e,
   H as a,
-  Jt as l,
-  L as n,
-  St as o,
-  U as i,
-  V as c,
-  _t as t,
-  ct as r,
-  nt as p,
-  rt as m,
-  un as d,
+  L as l,
+  St as i,
+  U as n,
+  V as o,
+  at as c,
+  dt as t,
+  it as r,
+  ln as p,
+  qt as m,
+  ut as d,
   vt as _,
   yt as g,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
-/* empty css                 */ var [h, u] = o()(
+/* empty css                 */ var [h, u] = i()(
     ({ observableModel: s }) => ({ root: s.object() }),
     ({ externalModel: s }) => ({ openChallenge: s.createCallbackNoArgs("onClick") }),
   ),
@@ -28,13 +28,13 @@ import "../../chunks/_wg-global-styles.js";
   N = "App_title_8c05c489",
   k = "App_button_111c82e",
   v = "App_close_654073f5",
-  C = s(l(), 1),
+  C = s(m(), 1),
   y = R.strings.user_missions.hub.challenge_missions.notification.fail,
-  w = t(function () {
-    const { model: s, controls: l } = u(),
-      { challengeName: o, isPopUp: t } = s.root.get();
-    return (0, C.jsxs)(n, {
-      className: e(j, t && x),
+  w = _(function () {
+    const { model: s, controls: i } = u(),
+      { challengeName: t, isPopUp: m } = s.root.get();
+    return (0, C.jsxs)(l, {
+      className: e(j, m && x),
       children: [
         (0, C.jsxs)("div", {
           className: f,
@@ -47,24 +47,24 @@ import "../../chunks/_wg-global-styles.js";
             }),
             (0, C.jsx)("div", {
               className: A,
-              children: (0, C.jsx)(r, {
-                params: { challenge: o },
+              children: (0, C.jsx)(d, {
+                params: { challenge: t },
                 text: y.title(),
                 className: N,
                 upgradeLegacy: !0,
               }),
             }),
-            (0, C.jsx)(c, {
+            (0, C.jsx)(o, {
               className: k,
               size: a.small,
-              onClick: l.openChallenge,
-              theme: i.primary,
+              onClick: i.openChallenge,
+              theme: n.primary,
               children: y.button(),
             }),
           ],
         }),
-        t && (0, C.jsx)(p, { size: m.small, onClose: d, className: v }),
+        m && (0, C.jsx)(r, { size: c.small, onClose: p, className: v }),
       ],
     });
   });
-g((0, C.jsx)(h, { children: (0, C.jsx)(_, { children: (0, C.jsx)(w, {}) }) }));
+g((0, C.jsx)(h, { children: (0, C.jsx)(t, { children: (0, C.jsx)(w, {}) }) }));

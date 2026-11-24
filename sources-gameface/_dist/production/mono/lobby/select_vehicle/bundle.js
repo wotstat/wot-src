@@ -37,8 +37,8 @@ import {
   T as F,
   Tn as M,
   Tt as T,
-  U as A,
-  Ut as z,
+  U as z,
+  Ut as A,
   V as O,
   W as R,
   X as $,
@@ -91,11 +91,11 @@ import {
   x as Fe,
   y as Me,
   z as Te,
-  zn as Ae,
+  zn as ze,
 } from "../chunks/lib.js";
 import "../chunks/_wg-global-styles.js";
 import {
-  a as ze,
+  a as Ae,
   c as Oe,
   d as Re,
   f as $e,
@@ -341,7 +341,7 @@ var [Nt, wt] = h("FilterVehiclesProvider")(
       );
     },
   ),
-  St = e(Ae()),
+  St = e(ze()),
   It = [Ce.lightTank, Ce.mediumTank, Ce.heavyTank, Ce["AT-SPG"], Ce.SPG].reduce(
     (e, t, s) => ((e[t] = s), e),
     {},
@@ -418,11 +418,11 @@ function Ft(e, t, s = "...") {
 }
 var Mt = ee(E + s),
   Tt = () => `${Date.now().toString(16)}_${Mt(3)}`;
-function At(e, t, s = 1) {
+function zt(e, t, s = 1) {
   const a = we(t, { count: s });
-  return e.has(a) ? At(e, t, s + 1) : a;
+  return e.has(a) ? zt(e, t, s + 1) : a;
 }
-function zt(e = "", t = []) {
+function At(e = "", t = []) {
   return {
     title: "" !== e ? e : Lt.readOrEmpty("playlists.defaultName"),
     createdAt: Date.now(),
@@ -436,8 +436,8 @@ var Ot = (e) => ({ type: "ok", value: e }),
   Ht = "import",
   qt = Xe({
     title: Re(),
-    createdAt: Qe(We(), Ge(), ze(0)),
-    modifiedAt: Qe(We(), Ge(), ze(0)),
+    createdAt: Qe(We(), Ge(), Ae(0)),
+    modifiedAt: Qe(We(), Ge(), Ae(0)),
     list: Ke(Qe(We(), Ge())),
   }),
   Ut = Qe(
@@ -588,7 +588,7 @@ var Ot = (e) => ({ type: "ok", value: e }),
           }),
           create: xe((t) => {
             const { id: a = Tt(), vehicleIds: r = [], skipRedirect: i = !1 } = t ?? {};
-            s({ id: a, initial: zt(At(e.titles(), "playlists.defaultName"), r), skipRedirect: i });
+            s({ id: a, initial: At(zt(e.titles(), "playlists.defaultName"), r), skipRedirect: i });
           }),
           edit: {
             sendModify: t.createCallback(
@@ -870,7 +870,7 @@ function _s(e) {
         {
           tooltip: { header: e, body: Ye },
           event: { type: "role", role: e },
-          children: (0, cs.jsx)(A, { roleKey: e, size: A.sizes.x24x24, className: ns.icon }),
+          children: (0, cs.jsx)(z, { roleKey: e, size: z.sizes.x24x24, className: ns.icon }),
         },
         e,
       ),
@@ -1477,7 +1477,7 @@ var Bs = (e) =>
       ],
     });
   },
-  As = (e) =>
+  zs = (e) =>
     (0, cs.jsxs)("svg", {
       width: 24,
       height: 24,
@@ -1599,7 +1599,7 @@ var Bs = (e) =>
         }),
       ],
     }),
-  zs = "EditButton_e0942ef0",
+  As = "EditButton_e0942ef0",
   Os = "EditButton_icon_a08c89e9",
   Rs = g.resolve("strings");
 function $s({ id: e, className: t }) {
@@ -1611,7 +1611,7 @@ function $s({ id: e, className: t }) {
     });
   return (0, cs.jsx)("div", {
     ...r,
-    className: w(zs, t),
+    className: w(As, t),
     "data-test-id": "editButton",
     onClick: (t) => {
       (r.onClick(),
@@ -1622,7 +1622,7 @@ function $s({ id: e, className: t }) {
       (r.onMouseEnter(e),
         s.play("mouse-enter", { target: "vehicle:playlists:edit_button", original: e }));
     },
-    children: (0, cs.jsx)(As, { className: Os }),
+    children: (0, cs.jsx)(zs, { className: Os }),
   });
 }
 var Hs = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_";
@@ -1807,7 +1807,8 @@ var qs = "Item_background_5cb932c1",
   wa = g.resolve("strings"),
   Sa = [25, 25],
   Ia = le({ container: ba, icon: ja }),
-  ka = Ue(function () {
+  ka = le({ container: ba }),
+  Pa = Ue(function () {
     const { api: e } = ne(),
       [t, s] = N(e, Sa),
       { opened: a } = p();
@@ -1837,7 +1838,7 @@ Ue(function (e) {
               (0, cs.jsx)("div", {
                 className: fa,
                 children: (0, cs.jsxs)(u, {
-                  children: [(0, cs.jsx)(ka, {}), (0, cs.jsx)(a, { classNames: { base: _a } })],
+                  children: [(0, cs.jsx)(Pa, {}), (0, cs.jsx)(a, { classNames: { base: _a } })],
                 }),
               }),
               (0, cs.jsx)(oa, {}),
@@ -1851,21 +1852,26 @@ Ue(function (e) {
       })
     : null;
 });
-function Pa(e) {
+function Va(e) {
   const t = p();
   return (0, cs.jsx)(Ps, { value: "arrow_down", className: w(Ca, t.opened && Na, e.className) });
 }
-var Va = Ue(function (e) {
+var Ea = Ue(function (e) {
     const t = e.limit ? Ft(e.title, e.limit)[0] : e.title;
     return (0, cs.jsxs)("div", {
       className: w(ga, e.className),
       children: [
         (0, cs.jsx)(re, { text: t, className: ya }),
-        e.id && (0, cs.jsx)(Es, { classNames: Ia, id: e.id, size: e.alertSize }),
+        e.id &&
+          (0, cs.jsx)(Es, {
+            classNames: "lg" === e.alertSize ? ka : Ia,
+            id: e.id,
+            size: e.alertSize,
+          }),
       ],
     });
   }),
-  Ea =
+  Da =
     (Ue(function (e) {
       const t = Kt(),
         s = t?.model.current(),
@@ -1897,25 +1903,25 @@ var Va = Ue(function (e) {
               children: [
                 (0, cs.jsx)(Pe, { children: e.children }),
                 s
-                  ? (0, cs.jsx)(Va, {
+                  ? (0, cs.jsx)(Ea, {
                       limit: e.limit,
                       id: s.id,
                       title: s.title,
                       alertSize: e.alertSize,
                     })
-                  : (0, cs.jsx)(Va, { title: wa.readOrEmpty("pages.titles.allVehicles") }),
-                (0, cs.jsx)(Pa, {}),
+                  : (0, cs.jsx)(Ea, { title: wa.readOrEmpty("pages.titles.allVehicles") }),
+                (0, cs.jsx)(Va, {}),
               ],
             }),
           }),
       });
     }),
     "Item_background_5cb932c1"),
-  Da = "Item_c5163bf",
-  Ba = "Item_base__selected_5f6fcc69",
-  La = "Item_button_8b3e738d",
-  Fa = "Item_selectedIcon_eb50b3a6",
-  Ma = Ue(function (e) {
+  Ba = "Item_c5163bf",
+  La = "Item_base__selected_5f6fcc69",
+  Fa = "Item_button_8b3e738d",
+  Ma = "Item_selectedIcon_eb50b3a6",
+  Ta = Ue(function (e) {
     const { playlist: t } = e,
       s = Jt(),
       a = p(),
@@ -1923,26 +1929,26 @@ var Va = Ue(function (e) {
       [l, o] = Ft(t.title, 20);
     return (0, cs.jsxs)("div", {
       ...(o && r),
-      className: w(Da, s.model.currentId() === e.id && Ba),
+      className: w(Ba, s.model.currentId() === e.id && La),
       children: [
-        (0, cs.jsx)("div", { className: Ea }),
+        (0, cs.jsx)("div", { className: Da }),
         (0, cs.jsx)(Z, {
-          className: La,
+          className: Fa,
           onClick: () => {
             (s.controls.select(e.id), a.close());
           },
           "data-test-id": `playlist-${l}`,
           children: (0, cs.jsxs)("span", {
-            children: [(0, cs.jsx)(Ps, { value: "checked", className: Fa }), l],
+            children: [(0, cs.jsx)(Ps, { value: "checked", className: Ma }), l],
           }),
         }),
       ],
     });
   }),
-  Ta = Ue(function (e) {
+  za = Ue(function (e) {
     const t = Jt().model.byId(e.id);
     return "ok" === t.type && void 0 !== t.value
-      ? (0, cs.jsx)(Ma, { playlist: t.value, id: e.id })
+      ? (0, cs.jsx)(Ta, { playlist: t.value, id: e.id })
       : null;
   }),
   Aa = Ue(function () {
@@ -1950,18 +1956,18 @@ var Va = Ue(function (e) {
       t = p(),
       { model: s, controls: a } = ts();
     return (0, cs.jsxs)("div", {
-      className: w(Da, s.isAllVehicles.get() && !e.model.currentId() && Ba),
+      className: w(Ba, s.isAllVehicles.get() && !e.model.currentId() && La),
       children: [
-        (0, cs.jsx)("div", { className: Ea }),
+        (0, cs.jsx)("div", { className: Da }),
         (0, cs.jsx)(Z, {
-          className: La,
+          className: Fa,
           onClick: () => {
             (e.controls.select(void 0), a.setAllVehicles(!0), t.close());
           },
           "data-test-id": "playlist-AllVehicles",
           children: (0, cs.jsxs)("span", {
             children: [
-              (0, cs.jsx)(Ps, { value: "checked", className: Fa }),
+              (0, cs.jsx)(Ps, { value: "checked", className: Ma }),
               g.resolve("strings").readOrEmpty("pages.titles.allSelectVehicles"),
             ],
           }),
@@ -1969,23 +1975,23 @@ var Va = Ue(function (e) {
       ],
     });
   }),
-  za = Ue(function () {
+  Oa = Ue(function () {
     const e = Jt(),
       t = p(),
       { model: s, controls: a } = ts();
     return (0, cs.jsxs)("div", {
-      className: w(Da, !s.isAllVehicles.get() && !e.model.currentId() && Ba),
+      className: w(Ba, !s.isAllVehicles.get() && !e.model.currentId() && La),
       children: [
-        (0, cs.jsx)("div", { className: Ea }),
+        (0, cs.jsx)("div", { className: Da }),
         (0, cs.jsx)(Z, {
-          className: La,
+          className: Fa,
           onClick: () => {
             (e.controls.select(void 0), a.setAllVehicles(!1), t.close());
           },
           "data-test-id": "playlist-MyVehicles",
           children: (0, cs.jsxs)("span", {
             children: [
-              (0, cs.jsx)(Ps, { value: "checked", className: Fa }),
+              (0, cs.jsx)(Ps, { value: "checked", className: Ma }),
               g.resolve("strings").readOrEmpty("pages.titles.allVehicles"),
             ],
           }),
@@ -1993,7 +1999,7 @@ var Va = Ue(function (e) {
       ],
     });
   }),
-  Oa = {
+  Ra = {
     playlistTrigger: "Dropdown_playlistTrigger_eb63ff3b",
     playlistTitle: "Dropdown_playlistTitle_9fbceba2",
     popover: "Dropdown_popover_bdce30be",
@@ -2005,33 +2011,33 @@ var Va = Ue(function (e) {
     currentTitle: "Dropdown_currentTitle_b411f246",
     trigger: "Dropdown_trigger_f754201d",
   },
-  Ra = [25, 25],
-  $a = Ue(function () {
+  $a = [25, 25],
+  Ha = Ue(function () {
     const e = Jt().model.sortedIds();
     return (0, cs.jsxs)("div", {
       children: [
         (0, cs.jsx)(Aa, {}),
-        (0, cs.jsx)(za, {}),
-        e.map((e) => (0, cs.jsx)(Ta, { id: e }, e)),
+        (0, cs.jsx)(Oa, {}),
+        e.map((e) => (0, cs.jsx)(za, { id: e }, e)),
       ],
     });
   }),
-  Ha = Ue(function () {
+  qa = Ue(function () {
     const { api: e } = ne(),
-      [t, s] = N(e, Ra),
+      [t, s] = N(e, $a),
       { opened: a } = p();
     return (
       (0, St.useEffect)(() => {
         if (a) return je(() => je(e.recalculateContent));
       }, [a, e.recalculateContent]),
       (0, cs.jsx)(k, {
-        className: w(Oa.area, !t && Oa.area__begin, !s && Oa.area__end),
-        classNames: { content: Oa.scrollContent },
-        children: (0, cs.jsx)($a, {}),
+        className: w(Ra.area, !t && Ra.area__begin, !s && Ra.area__end),
+        classNames: { content: Ra.scrollContent },
+        children: (0, cs.jsx)(Ha, {}),
       })
     );
   }),
-  qa = Ue(function (e) {
+  Ua = Ue(function (e) {
     const t = Kt(),
       s = t?.model.current(),
       a = _(),
@@ -2060,30 +2066,30 @@ var Va = Ue(function (e) {
             onMouseLeave: o?.onMouseLeave,
             "data-name": "playlist-dropdown-trigger",
             "data-test-id": "playlistDropdown",
-            className: w(Oa.trigger, e.className),
+            className: w(Ra.trigger, e.className),
             children: [
               (0, cs.jsx)(Pe, { children: e.children }),
               s
-                ? (0, cs.jsx)(Va, {
+                ? (0, cs.jsx)(Ea, {
                     limit: e.limit,
                     id: s.id,
                     title: s.title,
                     alertSize: e.alertSize,
                   })
-                : (0, cs.jsx)(Va, {
+                : (0, cs.jsx)(Ea, {
                     title: r.readOrEmpty(
                       l.isAllVehicles.get()
                         ? "pages.titles.allSelectVehicles"
                         : "pages.titles.allVehicles",
                     ),
                   }),
-              (0, cs.jsx)(Pa, {}),
+              (0, cs.jsx)(Va, {}),
             ],
           }),
         }),
     });
   }),
-  Ua = function () {
+  Ga = function () {
     return (0, cs.jsxs)(F, {
       children: [
         (0, cs.jsx)(F.Portal, {
@@ -2091,15 +2097,15 @@ var Va = Ue(function (e) {
           children: (0, cs.jsx)(C, {
             children: (0, cs.jsxs)(F.Display, {
               "data-name": "playlist-dropdown-content",
-              className: Oa.popover,
+              className: Ra.popover,
               children: [
                 (0, cs.jsx)(F.Tip, { position: "top", size: "80rem", offset: "120rem" }),
                 (0, cs.jsx)("div", {
-                  className: Oa.list,
+                  className: Ra.list,
                   children: (0, cs.jsxs)(u, {
                     children: [
-                      (0, cs.jsx)(Ha, {}),
-                      (0, cs.jsx)(a, { classNames: { base: Oa.bar } }),
+                      (0, cs.jsx)(qa, {}),
+                      (0, cs.jsx)(a, { classNames: { base: Ra.bar } }),
                     ],
                   }),
                 }),
@@ -2107,62 +2113,42 @@ var Va = Ue(function (e) {
             }),
           }),
         }),
-        (0, cs.jsx)(qa, {
+        (0, cs.jsx)(Ua, {
           asChild: !0,
-          className: Oa.playlistTrigger,
+          className: Ra.playlistTrigger,
           fallback: null,
           limit: 15,
           children: (0, cs.jsx)(ie, {
             theme: "secondary",
-            classNames: { content: Oa.playlistTitle },
+            classNames: { content: Ra.playlistTitle },
           }),
         }),
       ],
     });
   },
-  Ga = "Filters_toggleContainer_d9b9fbcd",
-  Wa = "Filters_typeToggle_e818e249",
-  Za = "Filters_nationWrapper_752636a8",
-  Ja = "Filters_nationIcon_f766f25f",
-  Xa = "Filters_toggle_3ee9f5ac",
-  Ka = "Filters_vehicleLevel_2598a7f7",
-  Qa = "Filters_specialsIcons_94a8606c",
-  Ya = "Filters_specialsIcons__favorite_8d12da90",
-  er = "Filters_search_54176870",
-  tr = "Filters_inputField_8f369261",
-  sr = "Filters_inputPlaceholder_b010dc5a",
-  ar = ["favorite", "premium", "elite"];
-function rr(e) {
+  Wa = "Filters_toggleContainer_d9b9fbcd",
+  Za = "Filters_typeToggle_e818e249",
+  Ja = "Filters_nationWrapper_752636a8",
+  Xa = "Filters_nationIcon_f766f25f",
+  Ka = "Filters_toggle_3ee9f5ac",
+  Qa = "Filters_vehicleLevel_2598a7f7",
+  Ya = "Filters_specialsIcons_94a8606c",
+  er = "Filters_specialsIcons__favorite_8d12da90",
+  tr = "Filters_search_54176870",
+  sr = "Filters_inputField_8f369261",
+  ar = "Filters_inputPlaceholder_b010dc5a",
+  rr = ["favorite", "premium", "elite"];
+function ir(e) {
   return (0, cs.jsx)("div", {
-    className: w(Ga, e.className),
+    className: w(Wa, e.className),
     children: nt.map((e) =>
       (0, cs.jsx)(
         ds,
         {
           tooltip: { header: e, body: et },
           event: { field: dt, type: "regular", value: e },
-          className: Wa,
+          className: Za,
           children: (0, cs.jsx)(O, { type: e, size: O.sizes.x24x24 }),
-        },
-        e,
-      ),
-    ),
-  });
-}
-function ir(e) {
-  return (0, cs.jsx)("div", {
-    className: w(Ga, e.className),
-    children: e.orderedNations.map((e) =>
-      (0, cs.jsx)(
-        ds,
-        {
-          tooltip: { header: e, body: st },
-          event: { field: ut, type: "regular", value: e },
-          className: Xa,
-          children: (0, cs.jsx)("div", {
-            className: Za,
-            children: (0, cs.jsx)(J, { className: Ja, path: `flags.c_60x40.${e}` }),
-          }),
         },
         e,
       ),
@@ -2171,15 +2157,18 @@ function ir(e) {
 }
 function lr(e) {
   return (0, cs.jsx)("div", {
-    className: w(Ga, e.className),
-    children: ct.map((e) =>
+    className: w(Wa, e.className),
+    children: e.orderedNations.map((e) =>
       (0, cs.jsx)(
         ds,
         {
-          tooltip: { header: "tier", body: tt },
-          event: { field: _t, type: "regular", value: `level_${e}` },
-          className: Xa,
-          children: (0, cs.jsx)(f, { className: Ka, value: e }),
+          tooltip: { header: e, body: st },
+          event: { field: ut, type: "regular", value: e },
+          className: Ka,
+          children: (0, cs.jsx)("div", {
+            className: Ja,
+            children: (0, cs.jsx)(J, { className: Xa, path: `flags.c_60x40.${e}` }),
+          }),
         },
         e,
       ),
@@ -2187,6 +2176,23 @@ function lr(e) {
   });
 }
 function or(e) {
+  return (0, cs.jsx)("div", {
+    className: w(Wa, e.className),
+    children: ct.map((e) =>
+      (0, cs.jsx)(
+        ds,
+        {
+          tooltip: { header: "tier", body: tt },
+          event: { field: _t, type: "regular", value: `level_${e}` },
+          className: Ka,
+          children: (0, cs.jsx)(f, { className: Qa, value: e }),
+        },
+        e,
+      ),
+    ),
+  });
+}
+function nr(e) {
   const t = v(
     `hangar.filter.special.${e.imagePath}`,
     `hangar.filter.special.${e.imagePath}_upscale`,
@@ -2196,19 +2202,19 @@ function or(e) {
     {
       tooltip: { header: e.special, body: e.special },
       event: { field: pt, type: "regular", value: e.special },
-      className: Xa,
-      children: (0, cs.jsx)(J, { className: w(Qa, "favorite" === e.special && Ya), path: t }),
+      className: Ka,
+      children: (0, cs.jsx)(J, { className: w(Ya, "favorite" === e.special && er), path: t }),
     },
     e.special,
   );
 }
-function nr(e) {
+function cr(e) {
   return (0, cs.jsx)("div", {
-    className: w(Ga, e.className),
-    children: ar.map((e) => (0, cs.jsx)(or, { special: e, imagePath: e }, e)),
+    className: w(Wa, e.className),
+    children: rr.map((e) => (0, cs.jsx)(nr, { special: e, imagePath: e }, e)),
   });
 }
-var cr = Ue(function (e) {
+var dr = Ue(function (e) {
     const t = wt(),
       s = g.resolve("strings"),
       a = t.model.searchName.get();
@@ -2220,13 +2226,13 @@ var cr = Ue(function (e) {
       children: [
         (0, cs.jsx)(xs, {}),
         (0, cs.jsxs)(B.Decoration, {
-          className: w(er, e.className),
+          className: w(tr, e.className),
           children: [
             (0, cs.jsx)(B.Icon, { icon: B.icons.search }),
             (0, cs.jsx)(B.Field, {
               ...e,
-              className: tr,
-              classNames: { placeholder: sr },
+              className: sr,
+              classNames: { placeholder: ar },
               maxLength: 50,
               placeholderVisibility: De.value,
               onKeyDown: r,
@@ -2245,32 +2251,32 @@ var cr = Ue(function (e) {
       ],
     });
   }),
-  dr = "top",
-  ur = "bottom",
-  _r = "both",
-  pr = "none";
-var mr = "Content_7ccb81a0",
-  hr = "Content_disabledOverlay_a8908196",
-  fr = "Content_base__disabled_da09528a",
-  vr = "Content_base__selected_da09528a",
-  gr = "Content_base__empty_da09528a";
-function xr({ children: e, selected: t, disabled: s, empty: a }) {
+  ur = "top",
+  _r = "bottom",
+  pr = "both",
+  mr = "none";
+var hr = "Content_7ccb81a0",
+  fr = "Content_disabledOverlay_a8908196",
+  vr = "Content_base__disabled_da09528a",
+  gr = "Content_base__selected_da09528a",
+  xr = "Content_base__empty_da09528a";
+function yr({ children: e, selected: t, disabled: s, empty: a }) {
   return (0, cs.jsxs)("div", {
     "data-name": "Content",
-    className: w(mr, a && gr, t && vr, s && fr),
-    children: [e, s && (0, cs.jsx)("div", { className: hr })],
+    className: w(hr, a && xr, t && gr, s && vr),
+    children: [e, s && (0, cs.jsx)("div", { className: fr })],
   });
 }
-var yr = "Slot_977dd8f1",
-  br = "Slot_base__wrapper_ae3081b5",
-  jr = "Slot_base__disabled_334cc10f",
-  Cr = "Slot_base__empty_d386066c",
-  Nr = "Slot_content_1a27c8cf",
-  wr = "Slot_base__active_71f19f5c",
-  Sr = "Slot_base__selected_71f19f5c",
-  Ir = "Slot_selected_6e9f21df",
-  kr = "Slot_selected__border_e2a17304",
-  Pr = (0, St.memo)(function ({
+var br = "Slot_977dd8f1",
+  jr = "Slot_base__wrapper_ae3081b5",
+  Cr = "Slot_base__disabled_334cc10f",
+  Nr = "Slot_base__empty_d386066c",
+  wr = "Slot_content_1a27c8cf",
+  Sr = "Slot_base__active_71f19f5c",
+  Ir = "Slot_base__selected_71f19f5c",
+  kr = "Slot_selected_6e9f21df",
+  Pr = "Slot_selected__border_e2a17304",
+  Vr = (0, St.memo)(function ({
     children: e,
     selected: t = !1,
     disabled: s = !1,
@@ -2282,27 +2288,27 @@ var yr = "Slot_977dd8f1",
     return (0, cs.jsx)("div", {
       ...i,
       "data-name": "Slot",
-      className: w(yr, a && wr, t && Sr, s && jr, l && Cr, br, r),
+      className: w(br, a && Sr, t && Ir, s && Cr, l && Nr, jr, r),
       children: (0, cs.jsxs)("div", {
-        className: Nr,
+        className: wr,
         children: [
-          (0, cs.jsx)(xr, { selected: t, disabled: s, empty: l, children: e }),
-          t && (0, cs.jsx)("div", { className: w(Ir, kr) }),
-          (0, cs.jsx)("div", { className: Ir }),
+          (0, cs.jsx)(yr, { selected: t, disabled: s, empty: l, children: e }),
+          t && (0, cs.jsx)("div", { className: w(kr, Pr) }),
+          (0, cs.jsx)("div", { className: kr }),
         ],
       }),
     });
   }),
-  Vr = "54033",
-  Er = "50705",
-  Dr = "56833",
-  Br = "51201",
-  Lr = { [Vr]: "alpha", [Er]: "alpha", [Br]: "super", [Dr]: "super" },
-  Fr = "unsuitableToQueue";
-function Mr(e, t, s) {
-  return !(!e || "disabled" === t || !s) && s.status !== Fr && s.maxBpScore > 0;
+  Er = "54033",
+  Dr = "50705",
+  Br = "56833",
+  Lr = "51201",
+  Fr = { [Er]: "alpha", [Dr]: "alpha", [Lr]: "super", [Br]: "super" },
+  Mr = "unsuitableToQueue";
+function Tr(e, t, s) {
+  return !(!e || "disabled" === t || !s) && s.status !== Mr && s.maxBpScore > 0;
 }
-var Tr = {
+var zr = {
     base: "Information_dd628d50",
     info: "Information_info_b2948982",
     details: "Information_details_e5340a0c",
@@ -2333,10 +2339,10 @@ var Tr = {
   },
   Ar = Ee("VehicleName", {
     element: (e) => (0, cs.jsx)(l.Name, { ...e }),
-    className: Tr.text,
-    cva: { variants: { premium: { true: Tr.text__premium } } },
+    className: zr.text,
+    cva: { variants: { premium: { true: zr.text__premium } } },
   });
-function zr({ statistic: e, vehicle: t, className: s, status: a }) {
+function Or({ statistic: e, vehicle: t, className: s, status: a }) {
   const r = g.resolve("views"),
     i = g.resolve("aliases"),
     l = g.resolve("strings"),
@@ -2351,9 +2357,9 @@ function zr({ statistic: e, vehicle: t, className: s, status: a }) {
     });
   return (0, cs.jsxs)("div", {
     className: w(
-      Tr.battlePass,
-      e.maxBpScore > 0 && Tr.battlePass__active,
-      e.bpSpecial && Tr.battlePass__bonus,
+      zr.battlePass,
+      e.maxBpScore > 0 && zr.battlePass__active,
+      e.bpSpecial && zr.battlePass__bonus,
       s,
     ),
     onMouseEnter: function (e) {
@@ -2364,30 +2370,30 @@ function zr({ statistic: e, vehicle: t, className: s, status: a }) {
     },
     children: [
       (0, cs.jsxs)("div", {
-        className: Tr.bpPoints,
+        className: zr.bpPoints,
         children: [
           (0, cs.jsx)("div", {
-            className: Tr.points,
+            className: zr.points,
             children: o.formatNumber("integral", e.bpProgress),
           }),
           (0, cs.jsx)("div", {
-            className: w(Tr.points, Tr.points__slash),
+            className: w(zr.points, zr.points__slash),
             children: l.readOrEmpty("common.common.slash"),
           }),
           (0, cs.jsx)("div", {
-            className: Tr.points,
+            className: zr.points,
             children: o.formatNumber("integral", e.maxBpScore),
           }),
-          (0, cs.jsx)("div", { className: Tr.bpShadow }),
+          (0, cs.jsx)("div", { className: zr.bpShadow }),
         ],
       }),
-      (0, cs.jsx)("div", { className: Tr.bpIcon }),
+      (0, cs.jsx)("div", { className: zr.bpIcon }),
     ],
   });
 }
-function Or({ statistic: e, elite: t, vehicle: s, selected: a, classNames: r, className: i }) {
+function Rr({ statistic: e, elite: t, vehicle: s, selected: a, classNames: r, className: i }) {
   return (0, cs.jsxs)("div", {
-    className: w(Tr.details, i),
+    className: w(zr.details, i),
     children: [
       e &&
         (0, cs.jsx)(l.Prestige, {
@@ -2395,9 +2401,9 @@ function Or({ statistic: e, elite: t, vehicle: s, selected: a, classNames: r, cl
           grade: e.prestigeGrade,
           type: e.prestigeType,
           direction: R.left,
-          className: w(Tr.prestige, a && Tr.prestige__active, r?.prestige),
+          className: w(zr.prestige, a && zr.prestige__active, r?.prestige),
         }),
-      (0, cs.jsx)(l.Level, { className: w(Tr.text, Tr.text__level, r?.level), value: s.level }),
+      (0, cs.jsx)(l.Level, { className: w(zr.text, zr.text__level, r?.level), value: s.level }),
       Ie(s.type) &&
         (0, cs.jsx)(l.Type, {
           type: s.type,
@@ -2408,30 +2414,30 @@ function Or({ statistic: e, elite: t, vehicle: s, selected: a, classNames: r, cl
     ],
   });
 }
-function Rr({ vehicle: e, className: t, classNames: s }) {
-  const a = Lr[e.id],
+function $r({ vehicle: e, className: t, classNames: s }) {
+  const a = Fr[e.id],
     r = e.nationChangeAvailable,
     i = e.rent.leftTime > 0 || e.rent.leftWins > 0 || e.rent.leftBattles > 0;
   return (0, cs.jsxs)("div", {
     className: w(
-      Tr.identifier,
-      Tr[`identifier__${a}`],
-      r && Tr.identifier__changeNation,
-      i && Tr.identifier__rent,
+      zr.identifier,
+      zr[`identifier__${a}`],
+      r && zr.identifier__changeNation,
+      i && zr.identifier__rent,
       t,
     ),
     children: [
       (0, cs.jsx)(Ar, {
         className: s?.name,
         premium: e.premium,
-        children: (0, cs.jsx)(re, { className: Tr.truncatedText, text: e.shortName }),
+        children: (0, cs.jsx)(re, { className: zr.truncatedText, text: e.shortName }),
       }),
       (a || r) &&
         (0, cs.jsx)("div", {
           className: w(
-            Tr.identifierIcon,
-            Tr[`identifierIcon__${a}`],
-            r && Tr.identifierIcon__changeNation,
+            zr.identifierIcon,
+            zr[`identifierIcon__${a}`],
+            r && zr.identifierIcon__changeNation,
             s?.icon,
           ),
         }),
@@ -2444,20 +2450,20 @@ Ue(function ({ vehicle: e, statistic: t, selected: s, doubleRow: a, ...r }) {
     n = i.model.bpState.status.get();
   return (0, cs.jsxs)("div", {
     ...r,
-    className: w(Tr.base, a && Tr.base__double, r.className),
+    className: w(zr.base, a && zr.base__double, r.className),
     children: [
-      t && Mr(o, n, t) && (0, cs.jsx)(zr, { vehicle: e, statistic: t, status: n }),
+      t && Tr(o, n, t) && (0, cs.jsx)(Or, { vehicle: e, statistic: t, status: n }),
       (0, cs.jsxs)(l, {
-        className: Tr.info,
+        className: zr.info,
         children: [
-          (0, cs.jsx)(Or, { vehicle: e, statistic: t, selected: s }),
-          (0, cs.jsx)(Rr, { vehicle: e }),
+          (0, cs.jsx)(Rr, { vehicle: e, statistic: t, selected: s }),
+          (0, cs.jsx)($r, { vehicle: e }),
         ],
       }),
     ],
   });
 });
-var $r = {
+var Hr = {
     base: "ProBoost_7490b440",
     arrow: "ProBoost_arrow_346b5e61",
     glow: "ProBoost_glow_280ac9aa",
@@ -2477,40 +2483,40 @@ var $r = {
     base__deactivating: "ProBoost_base__deactivating_7b71aa2e",
     "arrow-deactivating": "ProBoost_arrow-deactivating_7b71aa2e",
   },
-  Hr = {
-    inactive: $r.base__inactive,
-    activating: $r.base__activating,
-    active: $r.base__active,
-    deactivating: $r.base__deactivating,
+  qr = {
+    inactive: Hr.base__inactive,
+    activating: Hr.base__activating,
+    active: Hr.base__active,
+    deactivating: Hr.base__deactivating,
   };
-function qr({ className: e, doubleRow: t, state: s = "inactive", isCornerHidden: a = !1 }) {
+function Ur({ className: e, doubleRow: t, state: s = "inactive", isCornerHidden: a = !1 }) {
   return "inactive" === s
     ? null
     : (0, cs.jsxs)("div", {
-        className: w($r.base, s && Hr[s], t && $r.base__double, e),
+        className: w(Hr.base, s && qr[s], t && Hr.base__double, e),
         children: [
-          (0, cs.jsx)("div", { className: $r.glow }),
-          !a && (0, cs.jsx)("div", { className: $r.corner }),
-          (0, cs.jsx)("div", { className: $r.arrow }),
-          [$r.triangle__1, $r.triangle__2, $r.triangle__3].map((e) =>
-            (0, cs.jsx)("div", { className: w($r.triangle, e) }, e),
+          (0, cs.jsx)("div", { className: Hr.glow }),
+          !a && (0, cs.jsx)("div", { className: Hr.corner }),
+          (0, cs.jsx)("div", { className: Hr.arrow }),
+          [Hr.triangle__1, Hr.triangle__2, Hr.triangle__3].map((e) =>
+            (0, cs.jsx)("div", { className: w(Hr.triangle, e) }, e),
           ),
         ],
       });
 }
-var Ur = "Background_wotPlus_3cf6035a",
-  Gr = "Background_crystal_6112fa42",
-  Wr = "Background_bpBonus_cf76872",
-  Zr = "Background_multiplier_284cda6c",
-  Jr = "Background_flag_beb58b8",
-  Xr = "Background_flag__active_de322c1b",
-  Kr = "Background_crystal__limit_61072361",
-  Qr = Ee("Favorite", "Background_favorite_d98f92cc", {
+var Gr = "Background_wotPlus_3cf6035a",
+  Wr = "Background_crystal_6112fa42",
+  Zr = "Background_bpBonus_cf76872",
+  Jr = "Background_multiplier_284cda6c",
+  Xr = "Background_flag_beb58b8",
+  Kr = "Background_flag__active_de322c1b",
+  Qr = "Background_crystal__limit_61072361",
+  Yr = Ee("Favorite", "Background_favorite_d98f92cc", {
     variants: { active: { true: "Background_favorite__active_7f14a6c7" } },
   });
-function Yr({ nationId: e, selected: t, active: s, className: a }) {
+function ei({ nationId: e, selected: t, active: s, className: a }) {
   return (0, cs.jsx)(J, {
-    className: w(Jr, t || (s && Xr), a),
+    className: w(Xr, t || (s && Kr), a),
     path: `hangar.carousel.cards.flags.x400x300.${Te(e)}`,
     position: "top left",
   });
@@ -2535,40 +2541,40 @@ Ue(function ({ vehicle: e, statistic: t, validBP: s, doubleRow: a, classNames: r
     );
   return (0, cs.jsxs)(cs.Fragment, {
     children: [
-      c && (0, cs.jsx)("div", { className: w(Ur, r?.wotPlus) }),
-      (0, cs.jsx)(qr, { state: p, className: r?.proBoostIcon, doubleRow: a, isCornerHidden: d }),
-      d && (0, cs.jsx)("div", { className: w(Gr, o && Kr, r?.crystal) }),
-      t?.bpSpecial && s && (0, cs.jsx)("div", { className: w(Wr, r?.bpBonus) }),
-      _ && (0, cs.jsx)("div", { className: Zr }),
+      c && (0, cs.jsx)("div", { className: w(Gr, r?.wotPlus) }),
+      (0, cs.jsx)(Ur, { state: p, className: r?.proBoostIcon, doubleRow: a, isCornerHidden: d }),
+      d && (0, cs.jsx)("div", { className: w(Wr, o && Qr, r?.crystal) }),
+      t?.bpSpecial && s && (0, cs.jsx)("div", { className: w(Zr, r?.bpBonus) }),
+      _ && (0, cs.jsx)("div", { className: Jr }),
     ],
   });
 });
-var ei = "Background_5a8b768e",
-  ti = "Background_vehicle_2886ef49";
-function si({ vehicle: e, ...t }) {
+var ti = "Background_5a8b768e",
+  si = "Background_vehicle_2886ef49";
+function ai({ vehicle: e, ...t }) {
   return (0, cs.jsxs)("div", {
     ...t,
-    className: ei,
+    className: ti,
     children: [
-      (0, cs.jsx)(Yr, { nationId: e.nationId }),
-      (0, cs.jsx)(pe, { className: ti, name: e.name }),
-      (0, cs.jsx)(Qr, { active: e.favorite }),
+      (0, cs.jsx)(ei, { nationId: e.nationId }),
+      (0, cs.jsx)(pe, { className: si, name: e.name }),
+      (0, cs.jsx)(Yr, { active: e.favorite }),
     ],
   });
 }
-var ai = "Card_74e86576",
-  ri = "Card_overlay_701a3ab4",
-  ii = "Card_checkMark_ad3837d8",
-  li = "Card_selectText_c740c2a2",
-  oi = "Card_info_9b8bfdb4",
-  ni = "Card_border_e9cb9a85",
-  ci = Ue(function ({ vehicleId: e, selected: t = !1, children: s, ...a }) {
+var ri = "Card_74e86576",
+  ii = "Card_overlay_701a3ab4",
+  li = "Card_checkMark_ad3837d8",
+  oi = "Card_selectText_c740c2a2",
+  ni = "Card_info_9b8bfdb4",
+  ci = "Card_border_e9cb9a85",
+  di = Ue(function ({ vehicleId: e, selected: t = !1, children: s, ...a }) {
     const r = Et().model.get(e),
       i = Pt().model.get(e),
       l = _(),
       { controls: o } = ts();
-    if (!r) return (0, cs.jsx)(Pr, { ...a });
-    return (0, cs.jsxs)(Pr, {
+    if (!r) return (0, cs.jsx)(Vr, { ...a });
+    return (0, cs.jsxs)(Vr, {
       ...a,
       className: w("vehicle-card", a.className),
       selected: t,
@@ -2583,23 +2589,23 @@ var ai = "Card_74e86576",
         (l.play("click", { target: "vehicle-card", original: t }), o.select(e));
       },
       children: [
-        (0, cs.jsx)(di, { vehicle: r }),
-        (0, cs.jsx)(_i, { statistic: i, vehicle: r, selected: t }),
+        (0, cs.jsx)(ui, { vehicle: r }),
+        (0, cs.jsx)(pi, { statistic: i, vehicle: r, selected: t }),
       ],
     });
   });
-function di(e) {
+function ui(e) {
   const [t, s] = (0, St.useState)(!0),
     [, a] = (0, St.useTransition)();
   return (
     (0, St.useEffect)(() => {
       t && a(() => s(!1));
     }, [t]),
-    t ? null : (0, cs.jsx)(si, { ...e })
+    t ? null : (0, cs.jsx)(ai, { ...e })
   );
 }
-var ui = g.resolve("strings");
-function _i({ vehicle: e, statistic: t, selected: s }) {
+var _i = g.resolve("strings");
+function pi({ vehicle: e, statistic: t, selected: s }) {
   const [a, r] = (0, St.useState)(!0),
     [, i] = (0, St.useTransition)();
   return (
@@ -2609,16 +2615,16 @@ function _i({ vehicle: e, statistic: t, selected: s }) {
     a
       ? null
       : (0, cs.jsxs)("div", {
-          className: ai,
+          className: ri,
           children: [
-            (0, cs.jsx)(pi, { vehicle: e, selected: s, statistic: t }),
+            (0, cs.jsx)(mi, { vehicle: e, selected: s, statistic: t }),
             (0, cs.jsxs)("div", {
-              className: ri,
+              className: ii,
               children: [
-                (0, cs.jsx)("div", { className: ii }),
+                (0, cs.jsx)("div", { className: li }),
                 (0, cs.jsx)("div", {
-                  className: li,
-                  children: ui.readOrEmpty("dialogs.selectVehicle.selectVehicle"),
+                  className: oi,
+                  children: _i.readOrEmpty("dialogs.selectVehicle.selectVehicle"),
                 }),
               ],
             }),
@@ -2626,16 +2632,16 @@ function _i({ vehicle: e, statistic: t, selected: s }) {
         })
   );
 }
-function pi({ vehicle: e, selected: t, statistic: s }) {
+function mi({ vehicle: e, selected: t, statistic: s }) {
   return (0, cs.jsxs)(l, {
-    className: oi,
+    className: ni,
     children: [
-      (0, cs.jsx)(Or, { vehicle: e, statistic: s, selected: t, elite: e.premium }),
-      (0, cs.jsx)(Rr, { vehicle: e }),
+      (0, cs.jsx)(Rr, { vehicle: e, statistic: s, selected: t, elite: e.premium }),
+      (0, cs.jsx)($r, { vehicle: e }),
     ],
   });
 }
-var mi = {
+var hi = {
   content: "SelectVehicleList_content_e4dca630",
   scroll: "SelectVehicleList_scroll_1a4bf433",
   scrollWrapper: "SelectVehicleList_scrollWrapper_908e61ab",
@@ -2648,20 +2654,20 @@ var mi = {
   scrollbarBar__empty: "SelectVehicleList_scrollbarBar__empty_d2148af8",
   card: "SelectVehicleList_card_a6ec1778",
 };
-function hi({ children: e, ...t }) {
+function fi({ children: e, ...t }) {
   const { api: s } = ne();
-  return (0, cs.jsx)(ke, { ...t, api: s, className: mi.content, children: e });
+  return (0, cs.jsx)(ke, { ...t, api: s, className: hi.content, children: e });
 }
-var fi = { height: 105, row: 5 },
-  vi = {
+var vi = { height: 105, row: 5 },
+  gi = {
     medium: { height: 136 },
     large: { height: 145, row: 6 },
     extraLarge: { height: 183, row: 7 },
   },
-  gi = Ue(function () {
+  xi = Ue(function () {
     const { model: e } = ts(),
       { api: t } = ne(),
-      s = z(fi, vi),
+      s = A(vi, gi),
       i = r(s.height),
       [l, o] = N(t),
       n = e.ids(),
@@ -2724,23 +2730,23 @@ var fi = { height: 105, row: 5 },
       elementHeight: i - r(1),
       direction: "vertical",
       totalElements: p,
-      wrappers: { Content: hi },
+      wrappers: { Content: fi },
       renderScroll: (e) => {
         return (0, cs.jsxs)("div", {
           className: w(
-            mi.scroll,
-            mi[`scroll__${((s = l), (r = o), s || r ? (s ? (r ? pr : ur) : dr) : _r)}`],
+            hi.scroll,
+            hi[`scroll__${((s = l), (r = o), s || r ? (s ? (r ? mr : _r) : ur) : pr)}`],
           ),
           children: [
             (0, cs.jsx)(k, {
               ...e,
               classNames: {
-                wrapper: mi.scrollWrapper,
-                content: w(mi.scrollContent, 0 === c.length && mi.scrollContent__empty),
+                wrapper: hi.scrollWrapper,
+                content: w(hi.scrollContent, 0 === c.length && hi.scrollContent__empty),
               },
               children: e.children,
             }),
-            !t.disabled && (0, cs.jsx)(a, { classNames: { base: mi.verticalBar } }),
+            !t.disabled && (0, cs.jsx)(a, { classNames: { base: hi.verticalBar } }),
           ],
         });
         var s, r;
@@ -2749,13 +2755,13 @@ var fi = { height: 105, row: 5 },
       renderElement: (t) => {
         const s = n[t];
         return n.length <= t || void 0 === s
-          ? (0, cs.jsx)(Pr, { className: w(ni, mi.card), style: h })
+          ? (0, cs.jsx)(Vr, { className: w(ci, hi.card), style: h })
           : (0, cs.jsx)(
-              ci,
+              di,
               {
                 vehicleId: s,
                 selected: n[t] === e.currentVehicleCD(),
-                className: w(ni, mi.card),
+                className: w(ci, hi.card),
                 style: h,
               },
               s,
@@ -2763,16 +2769,16 @@ var fi = { height: 105, row: 5 },
       },
     });
   }),
-  xi = "SelectVehicle_empty_c4ad0e6f",
-  yi = "SelectVehicle_4efa1b32",
-  bi = "SelectVehicle_contentLeft_df8318cc",
-  ji = "SelectVehicle_listWrapper_7143d883",
-  Ci = "SelectVehicle_category_47ad8ddc",
-  Ni = "SelectVehicle_divider_e3344f3e",
-  wi = "SelectVehicle_divider__top_69824bd2",
-  Si = "SelectVehicle_emptyTitle_f13f5f32",
-  Ii = "SelectVehicle_emptyDescription_3ea65b11",
-  ki = Ue(function () {
+  yi = "SelectVehicle_empty_c4ad0e6f",
+  bi = "SelectVehicle_4efa1b32",
+  ji = "SelectVehicle_contentLeft_df8318cc",
+  Ci = "SelectVehicle_listWrapper_7143d883",
+  Ni = "SelectVehicle_category_47ad8ddc",
+  wi = "SelectVehicle_divider_e3344f3e",
+  Si = "SelectVehicle_divider__top_69824bd2",
+  Ii = "SelectVehicle_emptyTitle_f13f5f32",
+  ki = "SelectVehicle_emptyDescription_3ea65b11",
+  Pi = Ue(function () {
     const { model: e } = ts(),
       t = 0 === e.list().length,
       s = wt(),
@@ -2796,57 +2802,57 @@ var fi = { height: 105, row: 5 },
           .replace("%(count)d", String(50)),
       });
     return (0, cs.jsxs)("div", {
-      className: yi,
+      className: bi,
       children: [
         (0, cs.jsxs)("div", {
-          className: bi,
+          className: ji,
           children: [
             (0, cs.jsxs)(ls.Provider, {
               value: r,
               children: [
-                (0, cs.jsx)(Ua, {}),
+                (0, cs.jsx)(Ga, {}),
                 (0, cs.jsx)(Is, {}),
-                (0, cs.jsx)("div", { className: w(Ni, wi) }),
+                (0, cs.jsx)("div", { className: w(wi, Si) }),
                 (0, cs.jsx)(Q, {
-                  className: Ci,
+                  className: Ni,
                   path: "tank_carousel_filter.popover.label.vehicleTypes",
                 }),
-                (0, cs.jsx)(rr, {}),
+                (0, cs.jsx)(ir, {}),
                 (0, cs.jsx)(Q, {
-                  className: Ci,
+                  className: Ni,
                   path: "tank_carousel_filter.popover.label.nations",
                 }),
-                (0, cs.jsx)(ir, { orderedNations: a }),
+                (0, cs.jsx)(lr, { orderedNations: a }),
                 (0, cs.jsx)(Q, {
-                  className: Ci,
+                  className: Ni,
                   path: "tank_carousel_filter.popover.label.levels",
                 }),
-                (0, cs.jsx)(lr, {}),
+                (0, cs.jsx)(or, {}),
                 (0, cs.jsx)(Q, {
-                  className: Ci,
+                  className: Ni,
                   path: "tank_carousel_filter.popover.label.specials",
                 }),
-                (0, cs.jsx)(nr, {}),
+                (0, cs.jsx)(cr, {}),
               ],
             }),
-            (0, cs.jsx)("div", { className: Ni }),
-            (0, cs.jsx)("div", { ...o, children: (0, cs.jsx)(cr, {}) }),
+            (0, cs.jsx)("div", { className: wi }),
+            (0, cs.jsx)("div", { ...o, children: (0, cs.jsx)(dr, {}) }),
           ],
         }),
         (0, cs.jsxs)("div", {
-          className: ji,
+          className: Ci,
           children: [
-            (0, cs.jsx)(u, { children: (0, cs.jsx)(gi, {}) }),
+            (0, cs.jsx)(u, { children: (0, cs.jsx)(xi, {}) }),
             t &&
               (0, cs.jsxs)("div", {
-                className: xi,
+                className: yi,
                 children: [
                   (0, cs.jsx)("div", {
-                    className: Si,
+                    className: Ii,
                     children: l.readOrEmpty("playlists.empty_state.not_found.title"),
                   }),
                   (0, cs.jsx)("div", {
-                    className: Ii,
+                    className: ki,
                     children: l.readOrEmpty("playlists.empty_state.not_found.body"),
                   }),
                 ],
@@ -2856,54 +2862,54 @@ var fi = { height: 105, row: 5 },
       ],
     });
   }),
-  Pi = "SelectVehicle_e71f7277",
-  Vi = "SelectVehicle_title_20f4184a",
-  Ei = "SelectVehicle_close_2b04c3e9",
-  Di = Ue(function () {
+  Vi = "SelectVehicle_e71f7277",
+  Ei = "SelectVehicle_title_20f4184a",
+  Di = "SelectVehicle_close_2b04c3e9",
+  Bi = Ue(function () {
     const { model: e } = ts();
     return (
       D(M.ESCAPE, ce.closeView),
       (0, cs.jsxs)("div", {
-        className: Pi,
+        className: Vi,
         children: [
-          (0, cs.jsx)("div", { className: Vi, children: e.title.get() }),
-          (0, cs.jsx)(fe, { onClose: ce.closeView, className: Ei }),
-          (0, cs.jsx)(ki, {}),
+          (0, cs.jsx)("div", { className: Ei, children: e.title.get() }),
+          (0, cs.jsx)(fe, { onClose: ce.closeView, className: Di }),
+          (0, cs.jsx)(Pi, {}),
         ],
       })
     );
   }),
-  Bi = g.resolve("aliases");
+  Li = g.resolve("aliases");
 d(
   new Le()
     .add(L)
     .addWithProps(kt, {
       options: {
-        rootId: Bi.read((e) => e.select_vehicle.select_vehicle.VehiclesStatistics("resId")),
+        rootId: Li.read((e) => e.select_vehicle.select_vehicle.VehiclesStatistics("resId")),
       },
     })
     .addWithProps(Vt, {
-      options: { rootId: Bi.read((e) => e.select_vehicle.select_vehicle.VehiclesInfo("resId")) },
+      options: { rootId: Li.read((e) => e.select_vehicle.select_vehicle.VehiclesInfo("resId")) },
     })
     .addWithProps(Dt, {
       options: {
-        rootId: Bi.read((e) => e.select_vehicle.select_vehicle.VehiclesInventory("resId")),
+        rootId: Li.read((e) => e.select_vehicle.select_vehicle.VehiclesInventory("resId")),
       },
     })
     .addWithProps(Nt, {
-      options: { rootId: Bi.read((e) => e.select_vehicle.select_vehicle.VehicleFilters("resId")) },
+      options: { rootId: Li.read((e) => e.select_vehicle.select_vehicle.VehicleFilters("resId")) },
     })
     .addWithProps(Zt, {
       options: {
-        rootId: Bi.read((e) => e.select_vehicle.select_vehicle.VehiclePlaylists("resId")),
+        rootId: Li.read((e) => e.select_vehicle.select_vehicle.VehiclePlaylists("resId")),
       },
     })
     .addWithProps(Qt, {
       options: {
-        rootId: Bi.read((e) => e.select_vehicle.select_vehicle.VehiclesInventory("resId")),
+        rootId: Li.read((e) => e.select_vehicle.select_vehicle.VehiclesInventory("resId")),
       },
     })
     .add(es)
-    .render((0, cs.jsx)(Di, {})),
+    .render((0, cs.jsx)(Bi, {})),
   { fullScreen: !0 },
 );

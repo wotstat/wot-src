@@ -1,4 +1,4 @@
-import { B as s, Pn as e, R as a } from "./lib.js";
+import { B as s, Nn as e, R as a } from "./lib.js";
 var i = (function (s) {
     return (
       (s.Big = "big"),
@@ -39,15 +39,15 @@ var i = (function (s) {
   f = "groups",
   k = "dossier_badge",
   y = "dossier_achievement",
-  P = "xp",
-  T = "xpFactor",
-  w = "creditsFactor",
+  T = "xp",
+  w = "xpFactor",
+  P = "creditsFactor",
   E = "crystal",
   O = "tankmenXPFactor",
   F = "dailyXPFactor",
-  X = "freeXPFactor",
-  A = "tmanToken",
-  N = "battlePassSelectToken",
+  N = "freeXPFactor",
+  X = "tmanToken",
+  A = "battlePassSelectToken",
   z = "premiumTank",
   L = "styleProgressToken",
   C = "lootBox",
@@ -130,20 +130,20 @@ var i = (function (s) {
         return `R.images.gui.maps.icons.quests.bonuses.badges.${G(a)}.${W}`;
       case y:
         return `R.images.gui.maps.icons.achievement.${G(a)}.${W}`;
-      case P:
       case T:
-        return `R.images.gui.maps.icons.quests.bonuses.${a}.exp`;
       case w:
+        return `R.images.gui.maps.icons.quests.bonuses.${a}.exp`;
+      case P:
         return `R.images.gui.maps.icons.quests.bonuses.${a}.credits`;
       case E:
         return `R.images.gui.maps.icons.quests.bonuses.${a}.crystal`;
       case O:
         return `R.images.gui.maps.icons.quests.bonuses.${a}.tankmenXP`;
       case F:
-      case X:
-        return `R.images.gui.maps.icons.quests.bonuses.${a}.freeXP`;
-      case A:
       case N:
+        return `R.images.gui.maps.icons.quests.bonuses.${a}.freeXP`;
+      case X:
+      case A:
         return e.resolve("images").has(`R.images.gui.maps.icons.quests.bonuses.${a}.${W}_${H}`)
           ? `R.images.gui.maps.icons.quests.bonuses.${a}.${W}_${H}`
           : `R.images.gui.maps.icons.quests.bonuses.${a}.${W}`;

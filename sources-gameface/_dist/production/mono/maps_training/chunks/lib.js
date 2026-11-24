@@ -642,6 +642,38 @@ var timeFormats = { full: DateTimeFormatsEnum.FullTime, short: DateTimeFormatsEn
 function formatTime(e, t, n = !0) {
   return window.regionalDateTime.getRegionalDateTime(t, e, n);
 }
+function getDateParts(e) {
+  const t = new Date(1e3 * e);
+  return {
+    year: t.getFullYear(),
+    month: t.getMonth() + 1,
+    hours: t.getHours(),
+    minutes: t.getMinutes(),
+    seconds: t.getSeconds(),
+  };
+}
+function isSameTime(e, t) {
+  return e.hours === t.hours && e.minutes === t.minutes && e.seconds === t.seconds;
+}
+function getRangeFormatPath(e, t) {
+  const n = e.year === t.year;
+  return [
+    "datetime_formats",
+    "dateRange",
+    "dateWithYear",
+    n ? "sameYear" : "differentYear",
+    n && e.month === t.month ? "sameMonth" : "differentMonth",
+    isSameTime(e, t) ? "sameTime" : "differentTime",
+  ].join(".");
+}
+function formatRange(e, t) {
+  const n = getRangeFormatPath(getDateParts(e), getDateParts(t)),
+    r = resources.resolve("strings");
+  return {
+    start: window.regionalDateTime.getFormattedDateTime(e, r.readOrEmpty(`${n}.start`), !0),
+    end: window.regionalDateTime.getFormattedDateTime(t, r.readOrEmpty(`${n}.end`), !0),
+  };
+}
 var intl$1 = {
     isNumberFormat: isNumberFormat,
     formatNumber: formatNumber,
@@ -653,6 +685,7 @@ var intl$1 = {
     dateTimeFormats: DateTimeFormatsEnum,
     formatTime: formatTime,
     timeFormats: timeFormatList,
+    formatRange: formatRange,
     toUpperCase: (e) => window.systemLocale.toUpperCase(e),
     toLowerCase: (e) => window.systemLocale.toLowerCase(e),
   },
@@ -19615,15 +19648,12 @@ var useScaleState = () => {
     const [e, t] = (0, import_react.useState)(getScale$2());
     return (
       (0, import_react.useEffect)(() => {
-        const e = () => {
-          t(getScale$2());
+        const e = () => t(getScale$2()),
+          n = onResize$1(e),
+          r = onRescale(e);
+        return () => {
+          (n(), r());
         };
-        return (
-          window.addEventListener("resize", e),
-          () => {
-            window.removeEventListener("resize", e);
-          }
-        );
       }, []),
       e
     );
@@ -23664,7 +23694,7 @@ function useScrollBounding(e, [t, n] = IGNORE_DEFAULT) {
   );
 }
 var scrollOrientations = { horizontal: "horizontal", vertical: "vertical" },
-  background$1 = "Thumb_background_b893084a",
+  background$1 = "Thumb_background_7f3dd6ac",
   border$1 = "Thumb_border_5749138b",
   innerBorder = "Thumb_innerBorder_42bafd18",
   icon = "Thumb_icon_dca8bf26",
@@ -24497,6 +24527,45 @@ function CloseButton({
   });
 }
 CloseButton.size = sizes;
+var base$1 = "Tooltip_6d997cee",
+  decorator = "Tooltip_decorator_b3486d4e",
+  tooltip_module_default = { base: base$1, decorator: decorator },
+  Base = defineStyledComponent("Base", tooltip_module_default.base),
+  Decorator = defineStyledComponent("Decorator", tooltip_module_default.decorator),
+  Tooltip = (0, import_react.forwardRef)(function ({ children: e, ...t }, n) {
+    const r = (0, import_react.useRef)(null);
+    return (
+      (0, import_react.useLayoutEffect)(() => {
+        const e = getSize$2("rem");
+        ((document.body.style.width = `${e.width}rem`),
+          (document.body.style.height = `${e.height}rem`));
+      }, []),
+      useRefResizeObserver(r, (e) => {
+        const t = e.target;
+        if (!(t instanceof HTMLElement)) return;
+        const n = t.scrollWidth,
+          r = t.scrollHeight;
+        (resize$1(n, r),
+          (document.body.style.width = `${n}px`),
+          (document.body.style.height = `${r}px`));
+        const a = window.getComputedStyle(t);
+        setSidePaddingsRem$1({
+          top: parseInt(a.getPropertyValue("padding-top"), 10),
+          left: parseInt(a.getPropertyValue("padding-left"), 10),
+          right: parseInt(a.getPropertyValue("padding-right"), 10),
+          bottom: parseInt(a.getPropertyValue("padding-bottom"), 10),
+        });
+      }),
+      (0, import_jsx_runtime.jsx)(Base, {
+        ...t,
+        ref: function (e) {
+          ((r.current = e), "function" == typeof n ? n(e) : n && (n.current = e));
+        },
+        children: e,
+      })
+    );
+  });
+Tooltip.Decorator = Decorator;
 var unicodeBlocks = [
     0, 128, 256, 384, 592, 688, 768, 880, 1024, 1280, 1328, 1424, 1536, 1792, 1872, 1920, 1984,
     2048, 2112, 2144, 2208, 2304, 2432, 2560, 2688, 2816, 2944, 3072, 3200, 3328, 3456, 3584, 3712,
@@ -25417,8 +25486,8 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
   },
   formatString = (e, t, n) =>
     e.split(/%\((.*?)\)(?:[sd])?/g).map((e) => (n && e in n ? n[e] : splitWords(e, t))),
-  base$1 = "Formattext_bb80854d",
-  FormatText_module_default = { base: base$1 },
+  base = "Formattext_bb80854d",
+  FormatText_module_default = { base: base },
   FormatText = ({
     binding: e,
     text: t = "",
@@ -25447,46 +25516,7 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
                 `${t}-${a}`,
               ),
             ),
-        }),
-  base = "Tooltip_6d997cee",
-  decorator = "Tooltip_decorator_b3486d4e",
-  tooltip_module_default = { base: base, decorator: decorator },
-  Base = defineStyledComponent("Base", tooltip_module_default.base),
-  Decorator = defineStyledComponent("Decorator", tooltip_module_default.decorator),
-  Tooltip = (0, import_react.forwardRef)(function ({ children: e, ...t }, n) {
-    const r = (0, import_react.useRef)(null);
-    return (
-      (0, import_react.useLayoutEffect)(() => {
-        const e = getSize$2("rem");
-        ((document.body.style.width = `${e.width}rem`),
-          (document.body.style.height = `${e.height}rem`));
-      }, []),
-      useRefResizeObserver(r, (e) => {
-        const t = e.target;
-        if (!(t instanceof HTMLElement)) return;
-        const n = t.scrollWidth,
-          r = t.scrollHeight;
-        (resize$1(n, r),
-          (document.body.style.width = `${n}px`),
-          (document.body.style.height = `${r}px`));
-        const a = window.getComputedStyle(t);
-        setSidePaddingsRem$1({
-          top: parseInt(a.getPropertyValue("padding-top"), 10),
-          left: parseInt(a.getPropertyValue("padding-left"), 10),
-          right: parseInt(a.getPropertyValue("padding-right"), 10),
-          bottom: parseInt(a.getPropertyValue("padding-bottom"), 10),
         });
-      }),
-      (0, import_jsx_runtime.jsx)(Base, {
-        ...t,
-        ref: function (e) {
-          ((r.current = e), "function" == typeof n ? n(e) : n && (n.current = e));
-        },
-        children: e,
-      })
-    );
-  });
-Tooltip.Decorator = Decorator;
 export {
   convertNbsp$1 as $,
   useKeydownListener as A,
@@ -25531,7 +25561,7 @@ export {
   useScaleState as k,
   useVerticalScroll as l,
   Tooltip$1 as m,
-  FormatText as n,
+  Tooltip as n,
   clsx as nt,
   Base$2 as o,
   Image$1 as p,
@@ -25539,7 +25569,7 @@ export {
   CloseButton as r,
   require_react_dom as rt,
   Area as s,
-  Tooltip as t,
+  FormatText as t,
   toUpperCase as tt,
   useScrollBounding as u,
   getRewardTooltipConfig as v,

@@ -663,6 +663,38 @@ var timeFormats = { full: DateTimeFormatsEnum.FullTime, short: DateTimeFormatsEn
 function formatTime(e, t, n = !0) {
   return window.regionalDateTime.getRegionalDateTime(t, e, n);
 }
+function getDateParts(e) {
+  const t = new Date(1e3 * e);
+  return {
+    year: t.getFullYear(),
+    month: t.getMonth() + 1,
+    hours: t.getHours(),
+    minutes: t.getMinutes(),
+    seconds: t.getSeconds(),
+  };
+}
+function isSameTime(e, t) {
+  return e.hours === t.hours && e.minutes === t.minutes && e.seconds === t.seconds;
+}
+function getRangeFormatPath(e, t) {
+  const n = e.year === t.year;
+  return [
+    "datetime_formats",
+    "dateRange",
+    "dateWithYear",
+    n ? "sameYear" : "differentYear",
+    n && e.month === t.month ? "sameMonth" : "differentMonth",
+    isSameTime(e, t) ? "sameTime" : "differentTime",
+  ].join(".");
+}
+function formatRange(e, t) {
+  const n = getRangeFormatPath(getDateParts(e), getDateParts(t)),
+    r = resources.resolve("strings");
+  return {
+    start: window.regionalDateTime.getFormattedDateTime(e, r.readOrEmpty(`${n}.start`), !0),
+    end: window.regionalDateTime.getFormattedDateTime(t, r.readOrEmpty(`${n}.end`), !0),
+  };
+}
 var intl$4 = {
     isNumberFormat: isNumberFormat,
     formatNumber: formatNumber$1,
@@ -674,6 +706,7 @@ var intl$4 = {
     dateTimeFormats: DateTimeFormatsEnum,
     formatTime: formatTime,
     timeFormats: timeFormatList,
+    formatRange: formatRange,
     toUpperCase: (e) => window.systemLocale.toUpperCase(e),
     toLowerCase: (e) => window.systemLocale.toLowerCase(e),
   },
@@ -18380,6 +18413,19 @@ var useLayoutReady = (e, t) => {
       );
     }, t);
   },
+  useLoop = (e) => {
+    const t = (0, import_react.useRef)(0);
+    (0, import_react.useEffect)(() => () => cancelAnimationFrame(t.current), []);
+    return [
+      () => {
+        const n = () => {
+          e() && (t.current = requestAnimationFrame(n));
+        };
+        n();
+      },
+      () => cancelAnimationFrame(t.current),
+    ];
+  },
   updateQueue = makeQueue(),
   raf = (e) => schedule(e, updateQueue),
   writeQueue = makeQueue();
@@ -21133,15 +21179,12 @@ var useResizeState = (e, t) => {
     const [e, t] = (0, import_react.useState)(getScale$2());
     return (
       (0, import_react.useEffect)(() => {
-        const e = () => {
-          t(getScale$2());
+        const e = () => t(getScale$2()),
+          n = onResize$1(e),
+          r = onRescale(e);
+        return () => {
+          (n(), r());
         };
-        return (
-          window.addEventListener("resize", e),
-          () => {
-            window.removeEventListener("resize", e);
-          }
-        );
       }, []),
       e
     );
@@ -24379,7 +24422,7 @@ function useScrollBounding(e, [t, n] = IGNORE_DEFAULT) {
   );
 }
 var scrollOrientations = { horizontal: "horizontal", vertical: "vertical" },
-  background$9 = "Thumb_background_b893084a",
+  background$9 = "Thumb_background_7f3dd6ac",
   border$8 = "Thumb_border_5749138b",
   innerBorder = "Thumb_innerBorder_42bafd18",
   icon$12 = "Thumb_icon_dca8bf26",
@@ -27056,7 +27099,11 @@ function Portal$1({
     y = (0, import_react.useMemo)(
       () => (t ? (document.querySelector(t) ?? document.body) : document.body),
       [t],
-    );
+    ),
+    [x, E] = useSpring(() => ({
+      from: { opacity: 0, transform: v[r] },
+      config: { easing: easings$1.easeInOutCubic, duration: 250 },
+    }));
   (0, import_react.useEffect)(() => {
     m.current = void 0;
     const e = p.current;
@@ -27068,7 +27115,7 @@ function Portal$1({
       if (!f.opened) return void h(void 0);
       if (!1 === u(f, { callerBounding: t, containerBounding: a, bodyBounding: o })) return;
       if (s) {
-        if (m.current && !isEqual(m.current, t)) return void f.close();
+        if (m.current && !isEqual(m.current, t)) return (E.set({ opacity: 0 }), void f.close());
         m.current = t;
       }
       const i = getUpdatedPosition(r, g, t, a, o);
@@ -27079,8 +27126,8 @@ function Portal$1({
         }));
     });
     return (o.start(), o.stop);
-  }, [f, u, s, g, n, b, f.id, f.portal, f.trigger, r, f.opened]);
-  const x = (0, import_react.useCallback)(() => {
+  }, [f, u, s, E, g, n, b, f.id, f.portal, f.trigger, r, f.opened]);
+  const S = (0, import_react.useCallback)(() => {
     const e = p.current;
     e &&
       document.activeElement &&
@@ -27088,7 +27135,7 @@ function Portal$1({
       e.contains(document.activeElement) &&
       document.activeElement.blur();
   }, []);
-  ((0, import_react.useEffect)(() => f.subscribe.onBeforeClose(x), [f.subscribe, x]),
+  ((0, import_react.useEffect)(() => f.subscribe.onBeforeClose(S), [f.subscribe, S]),
     useHandleKeydown(i && f.opened ? keyCodes.ESCAPE : keyCodes.NONE, () => {
       f.close();
     }),
@@ -27125,21 +27172,17 @@ function Portal$1({
           }),
         ).dispose;
     }, [f]));
-  const [E, S] = useSpring(() => ({
-      from: { opacity: 0, transform: v[r] },
-      config: { easing: easings$1.easeInOutCubic, duration: 250 },
-    })),
-    w = import_react.useRef(v);
+  const w = import_react.useRef(v);
   return (
     (w.current = v),
     (0, import_react.useEffect)(() => {
       if (!_) return;
       const e = { opacity: 0, transform: w.current[_] };
-      S.start({
+      E.start({
         from: f.opened ? e : void 0,
         to: f.opened ? { opacity: 1, transform: "translate(0rem, 0rem) scale(1)" } : e,
       });
-    }, [S, _, f.opened]),
+    }, [E, _, f.opened]),
     !f.opened && o
       ? null
       : (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, {
@@ -27151,11 +27194,11 @@ function Portal$1({
                 position: "absolute",
                 top: "0",
                 left: "0",
-                pointerEvents: E.opacity.to((e) => (1 === e ? "auto" : "none")),
-                display: E.opacity.to((e) => (0 !== e || f.opened ? "block" : "none")),
+                pointerEvents: x.opacity.to((e) => (1 === e ? "auto" : "none")),
+                display: x.opacity.to((e) => (0 !== e || f.opened ? "block" : "none")),
                 ...d.style,
               },
-              children: (0, import_jsx_runtime.jsx)(animated.div, { style: E, children: e }),
+              children: (0, import_jsx_runtime.jsx)(animated.div, { style: x, children: e }),
             }),
             y,
           ),
@@ -36352,16 +36395,18 @@ function useLoadPlugin(e, t = []) {
     a = (0, import_react.useRef)(t);
   return (
     (0, import_react.useEffect)(() => {
-      const t = (async function () {
+      if (!e) return;
+      const t = e;
+      const n = (async function () {
         try {
-          const t = await loadPlugin(e);
-          return (r({ status: "loaded", result: await t.init(...a.current), instance: t }), t);
-        } catch (t) {
-          r({ status: "failure", error: t });
+          const e = await loadPlugin(t);
+          return (r({ status: "loaded", result: await e.init(...a.current), instance: e }), e);
+        } catch (e) {
+          r({ status: "failure", error: e });
         }
       })();
       return () => {
-        t.then((e) => e?.destroy());
+        n.then((e) => e?.destroy());
       };
     }, [e]),
     n
@@ -37575,336 +37620,337 @@ var base$2 = "Counter_dc10b86a",
   };
 export {
   roles as $,
-  easings$1 as $a,
-  map$1 as $i,
+  toSeconds as $a,
+  lastElement as $i,
   FormatString as $n,
-  useUnmount as $r,
+  useMount as $r,
   WithDiscount as $t,
   sizes$4 as A,
-  mouse$1 as Aa,
-  delay as Ai,
+  writeClipboard as Aa,
+  map as Ai,
   types$4 as An,
   useTooltip as Ar,
   SimpleTooltip$1 as At,
   DragAndDrop as B,
-  days as Ba,
-  reaction as Bi,
+  convert as Ba,
+  observable$1 as Bi,
   Base$26 as Bn,
   config as Br,
   literal as Bt,
   ExtendedText as C,
-  pxToRem$1 as Ca,
-  parseValid as Ci,
+  initExternalPaddings$1 as Ca,
+  calcPercent as Ci,
   mediumTankRoles as Cn,
   createMultipleTargetOverrides as Cr,
   loadPlugin as Ct,
   Slot as D,
-  sendEvent$2 as Da,
-  createString as Di,
+  get$2 as Da,
+  NUMBERS_ALPHABET as Di,
   isTypeValidValue as Dn,
   useParamTooltip as Dr,
   directions$1 as Dt,
   SceneWrapper as E,
-  get$2 as Ea,
-  NUMBERS_ALPHABET as Ei,
+  setContentReady as Ea,
+  LOWER_ALPHABET as Ei,
   isRentVehicle as En,
   useBackdropTooltip as Er,
   sizes$10 as Et,
   sizes$6 as F,
-  MS_IN_SECOND$1 as Fa,
-  chunks as Fi,
+  normalizeResource as Fa,
+  createMockControls as Fi,
   useLazyModel as Fn,
   useThrottle as Fr,
   createParser as Ft,
   Input as G,
-  minutes as Ga,
-  find as Gi,
+  hours as Ga,
+  filterMap as Gi,
   useVerticalScroll as Gn,
   easings as Gr,
   optional as Gt,
   Toggle as H,
-  greaterThan as Ha,
-  every as Hi,
+  fromMs as Ha,
+  runInAction as Hi,
   MaskArea as Hn,
   useSpringValue as Hr,
   minValue as Ht,
   snakeToCamel as I,
-  getRealFormat as Ia,
-  makeActions as Ii,
+  MS_IN_SECOND$1 as Ia,
+  chunks as Ii,
   Button$1 as In,
   useSkipFrame as Ir,
   array as It,
   useHoverState as J,
-  subtract as Ja,
-  forEach as Ji,
+  seconds as Ja,
+  findIndexLast as Ji,
   useScrollByDragElements as Jn,
-  useHandleKeydown as Jr,
+  useKeydownListener as Jr,
   pipe as Jt,
   useInput as K,
-  now$1 as Ka,
-  findIndex$1 as Ki,
+  minutes as Ka,
+  find as Ki,
   Base$27 as Kn,
-  useLayoutReady as Kr,
+  useLoop as Kr,
   parse$1 as Kt,
   ImageSize as L,
-  format$2 as La,
-  action as Li,
+  getRealFormat as La,
+  makeActions as Li,
   HeadlessButton as Ln,
   useScaleState$1 as Lr,
   boolean as Lt,
   Waiting as M,
-  getRegionalDateTime$1 as Ma,
-  assert as Mi,
+  onRescale as Ma,
+  mapRange as Mi,
   __vitePreload as Mn,
   useSpecialPopover as Mr,
   usePopover as Mt,
   Timer as N,
-  capitalize as Na,
-  createLayoutReadyInEffect as Ni,
+  getRegionalDateTime$1 as Na,
+  assert as Ni,
   LazyModel as Nn,
   useRem as Nr,
   renderResolvedString as Nt,
   LoadoutItem as O,
-  play$1 as Oa,
-  filter as Oi,
+  sendEvent$2 as Oa,
+  createString as Oi,
   normilizeVehicleType as On,
   useSimpleTooltip as Or,
   Checkbox as Ot,
   formats as P,
-  normalizeResource as Pa,
-  createMockControls as Pi,
+  capitalize as Pa,
+  createLayoutReadyInEffect as Pi,
   createOptionalDLProvider as Pn,
   useTimeout as Pr,
   renderString as Pt,
   perkStates as Q,
-  toSeconds as Qa,
-  lastElement as Qi,
+  toMinutes as Qa,
+  insertBefore as Qi,
   Bubble as Qn,
-  useMount as Qr,
+  useIsFirstRender as Qr,
   nationById as Qt,
   Background as R,
-  compare as Ra,
-  autorun as Ri,
+  format$2 as Ra,
+  action as Ri,
   sizes$18 as Rn,
   useResize as Rr,
   enum_ as Rt,
   ProgressBar as S,
-  initExternalPaddings$1 as Sa,
-  calcPercent as Si,
+  getViewGlobalPosition$1 as Sa,
+  MAX_i32 as Si,
   lightTankRoles as Sn,
   useSoundsOptional as Sr,
   injectGFPlugins as St,
   isEmptyObject as T,
-  setContentReady as Ta,
-  LOWER_ALPHABET as Ti,
+  remToPx$1 as Ta,
+  roundTo as Ti,
   getVehicleImageKey as Tn,
   createTargetOverrides as Tr,
   VehicleRole as Tt,
   toggleSizes as U,
-  greaterThanOrEqual as Ua,
-  filter$1 as Ui,
+  greaterThan as Ua,
+  every as Ui,
   DefaultScroll as Un,
   useSprings as Ur,
   number as Ut,
   useDragAndDrop as V,
-  fromMs as Va,
-  runInAction as Vi,
+  days as Va,
+  reaction as Vi,
   Area as Vn,
   useSpring as Vr,
   minLength as Vt,
   toggleThemes as W,
-  hours as Wa,
-  filterMap as Wi,
+  greaterThanOrEqual as Wa,
+  filter$1 as Wi,
   Bar as Wn,
   useTransition$2 as Wr,
   object as Wt,
   TankmanSchema as X,
-  toHours as Xa,
-  groupMapBy as Xi,
+  toDays as Xa,
+  get$1 as Xi,
   useScrollBounding as Xn,
-  useInsideEvent as Xr,
+  useHandleKeyup as Xr,
   transform as Xt,
   Sprite as Y,
-  toDays as Ya,
-  get$1 as Yi,
+  subtract as Ya,
+  forEach as Yi,
   Area$1 as Yn,
-  useHandleKeyup as Yr,
+  useHandleKeydown as Yr,
   string as Yt,
   fromModel as Z,
-  toMinutes as Za,
-  insertBefore as Zi,
+  toHours as Za,
+  groupMapBy as Zi,
   useHorizontalScroll as Zn,
-  useIsFirstRender as Zr,
+  useInsideEvent as Zr,
   union as Zt,
   useLoadPlugin as _,
-  compose as _a,
-  readKey as _i,
+  clamp$1 as _a,
+  breakpointsByType as _i,
   vehicleState as _n,
   useExternalPaddings as _r,
   Tooltip$1 as _t,
   PrestigeEmblem as a,
-  sort as aa,
-  useRefResizeObserver as ai,
+  some as aa,
+  useSyncSizeTexture as ai,
   types$3 as an,
-  DateTimeFormatsEnum as ao,
+  intl$4 as ao,
   Image$1 as ar,
   List as at,
   getRewardImage as b,
-  forceTriggerMouseMove$1 as ba,
-  isNumber as bi,
+  enableFullScreenModeSupported$1 as ba,
+  comparer as bi,
   getRoleByKey as bn,
   SoundsProvider as br,
   asMemoized as bt,
   DateTime_default as c,
-  isNonNullable as ca,
-  useAdaptiveWidth as ci,
+  unsafeGet as ca,
+  usePrevious as ci,
   Route as cn,
-  concatWithPath as co,
+  logBySeverity as co,
   observer as cr,
   CardSingle as ct,
   Slider as d,
-  promiseWithResolvers as da,
-  useUpscale as di,
+  keyCodes as da,
+  useAdaptive as di,
   GradientText as dn,
+  asFunction as do,
   JSXBuilder as dr,
   useCardsWrapperContext as dt,
-  mapExists as ea,
-  useEmitter as ei,
+  map$1 as ea,
+  useUnmount as ei,
   Currency as en,
-  clsx as eo,
+  easings$1 as eo,
   FormatText as er,
   RentalCounter as et,
   sizes$1 as f,
-  DisposeBuilder as fa,
-  MediaWrapperElement as fi,
+  promiseWithResolvers as fa,
+  useUpscale as fi,
   Video as fn,
   assignRefs as fr,
   useCardContext as ft,
   isReactComponent as g,
-  clamp$1 as ga,
-  breakpointsByType as gi,
+  noop$2 as ga,
+  breakpoints as gi,
   sizes$17 as gn,
   createSimpleGetter as gr,
   SimpleTooltip as gt,
   themes as h,
-  noop$2 as ha,
-  breakpoints as hi,
+  identity as ha,
+  require_jsx_runtime as hi,
   VehicleType as hn,
   initializeModelWithContext as hr,
   BackportTooltip as ht,
   Counter as i,
-  some as ia,
-  useSyncSizeTexture as ii,
+  reduce as ia,
+  throttle_default as ii,
   sizes$12 as in,
-  intl$4 as io,
+  SoundsRClassProvider as io,
   Atlas as ir,
   ScrollVelocityGuardContent as it,
   Switcher$1 as j,
-  onRescale as ja,
-  mapRange as ji,
+  mouse$1 as ja,
+  delay as ji,
   VehicleLevel as jn,
   useWulfTooltip as jr,
   Popover as jt,
   overlayTypes as k,
-  writeClipboard as ka,
-  map as ki,
+  play$1 as ka,
+  filter as ki,
   sameTanksRemap as kn,
   useSpecialTooltip as kr,
   sizes$11 as kt,
   getRegionalDateTime as l,
-  iter as la,
-  UPSCALE as li,
+  isNonNullable as la,
+  useAdaptiveWidth as li,
   Switch$1 as ln,
-  resources as lo,
+  concatWithPath as lo,
   UIProvider as lr,
   CardsWrapper as lt,
   sizes$2 as m,
-  identity as ma,
-  require_jsx_runtime as mi,
+  addEventListener$1 as ma,
+  useMedia as mi,
   useRouter as mn,
   computedFn as mr,
   BackdropTooltip as mt,
   Countdown_default as n,
-  mapNonNullable as na,
-  debounce_default as ni,
+  mapFilter as na,
+  useDebounce as ni,
   discountTypes as nn,
-  require_react as no,
+  require_react_dom as no,
   sizes$19 as nr,
   VehicleImage as nt,
   grades as o,
-  toArray$1 as oa,
-  useEvent as oi,
+  sort as oa,
+  useRefResizeObserver as oi,
   PlayerInfo as on,
-  ImagesRClassProvider as oo,
+  DateTimeFormatsEnum as oo,
   ResourceImage as or,
   Discount as ot,
   Tabs as p,
-  addEventListener$1 as pa,
-  useMedia as pi,
+  DisposeBuilder as pa,
+  MediaWrapperElement as pi,
   ModelRouterProvider as pn,
   computeds as pr,
   require_classnames as pt,
   placeholderVisibility as q,
-  seconds as qa,
-  findIndexLast as qi,
+  now$1 as qa,
+  findIndex$1 as qi,
   dragDirections as qn,
-  useKeydownListener as qr,
+  useLayoutReady as qr,
   picklist as qt,
   CountdownStyle as r,
-  reduce as ra,
-  throttle_default as ri,
+  mapNonNullable as ra,
+  debounce_default as ri,
   imageSizes$1 as rn,
-  SoundsRClassProvider as ro,
+  require_react as ro,
   defineStyledComponent as rr,
   ErrorHandler as rt,
   sizes as s,
-  unsafeGet as sa,
-  usePrevious as si,
+  toArray$1 as sa,
+  useEvent as si,
   TruncatedText as sn,
-  logBySeverity as so,
+  ImagesRClassProvider as so,
   useLocalObservable as sr,
   statusTypes as st,
   TextButton as t,
-  mapFilter as ta,
-  useDebounce as ti,
+  mapExists as ta,
+  useEmitter as ti,
   currencyTypes as tn,
-  require_react_dom as to,
+  clsx as to,
   upgradeLegacy as tr,
   UnknownVehicleImage as tt,
   Tooltip as u,
-  keyCodes as ua,
-  useAdaptive as ui,
+  iter as ua,
+  UPSCALE as ui,
   matchPath as un,
-  asFunction as uo,
+  resources as uo,
   runView as ur,
   Card as ut,
   Reward as v,
-  getKeyNameFromScanCode as va,
-  mouseButtons as vi,
+  compose as va,
+  readKey as vi,
   WITHOUT_ROLE as vn,
   useClickOutside as vr,
   Slot$1 as vt,
   MultilineOverflow as w,
-  remToPx$1 as wa,
-  roundTo as wi,
+  pxToRem$1 as wa,
+  parseValid as wi,
   roles$1 as wn,
   createSoundPlay as wr,
   VehicleInfo as wt,
   getRewardValueType as x,
-  getViewGlobalPosition$1 as xa,
-  MAX_i32 as xi,
+  forceTriggerMouseMove$1 as xa,
+  isNumber as xi,
   heavyTankRoles as xn,
   useSounds as xr,
   Accordion as xt,
   formatPrintf as y,
-  enableFullScreenModeSupported$1 as ya,
-  comparer as yi,
+  getKeyNameFromScanCode as ya,
+  mouseButtons as yi,
   atSpgRoles as yn,
   useSpecialContextMenu as yr,
   Slottable as yt,
   KeyButton as z,
-  convert as za,
-  observable$1 as zi,
+  compare as za,
+  autorun as zi,
   themes$1 as zn,
   animated as zr,
   integer as zt,

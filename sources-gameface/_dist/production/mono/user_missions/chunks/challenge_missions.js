@@ -2,72 +2,72 @@ import { r as e } from "./rolldown-runtime.js";
 import {
   $ as s,
   $t as a,
-  An as t,
-  C as n,
+  C as t,
+  D as n,
   Dn as i,
   Dt as r,
-  Gt as l,
-  H as c,
-  I as o,
-  It as d,
-  J as m,
-  Jt as _,
-  K as u,
-  Kt as h,
-  M as g,
-  Mt as b,
-  N as p,
-  On as f,
-  Ot as x,
-  P as v,
-  Pn as j,
-  Q as y,
-  Qt as N,
-  S as w,
-  St as I,
-  T as C,
+  E as l,
+  En as c,
+  F as o,
+  Gt as d,
+  H as m,
+  It as _,
+  J as u,
+  Jt as h,
+  K as g,
+  Kt as b,
+  M as p,
+  Mt as f,
+  N as x,
+  Nn as v,
+  Ot as j,
+  P as y,
+  Q as N,
+  Qt as w,
+  S as I,
+  St as C,
   Tt as k,
   U as S,
   V as T,
-  W as D,
+  Wt as D,
   X as E,
-  Y as P,
-  Yt as M,
+  Xt as P,
+  Y as M,
   Z as B,
   Zt as A,
-  _n as $,
-  _t as O,
-  a as L,
-  an as z,
-  c as H,
-  ct as V,
-  en as W,
-  et as K,
-  f as q,
-  i as F,
-  j as Y,
-  jt as X,
-  ln as U,
-  mn as G,
+  a as $,
+  an as O,
+  c as L,
+  cn as z,
+  en as H,
+  et as V,
+  f as W,
+  fn as K,
+  gn as F,
+  i as q,
+  in as X,
+  jt as Y,
+  kn as U,
+  lt as G,
   n as J,
   nn as Q,
-  o as Z,
-  on as ee,
+  nt as Z,
+  o as ee,
   pn as se,
-  q as ae,
-  qt as te,
-  r as ne,
-  rn as ie,
-  s as re,
-  st as le,
-  t as ce,
-  tn as oe,
-  tt as de,
+  qt as ae,
+  r as te,
+  rt as ne,
+  s as ie,
+  t as re,
+  tn as le,
+  tt as ce,
+  ut as oe,
+  vt as de,
   w as me,
   x as _e,
 } from "./lib.js";
 import { i as ue, r as he, t as ge } from "./get_reward_image.js";
-var be = e(f(), 1),
+var be = e(i(), 1),
   pe = { tension: 800, friction: 40 },
   fe = {
     from: { opacity: 0, transform: "translateY(50px)" },
@@ -76,7 +76,7 @@ var be = e(f(), 1),
   },
   xe = (e, s, a) => {
     const t = (0, be.useRef)(!1);
-    return b({
+    return f({
       from: "left" === e ? { transform: "translateX(-100%)" } : { transform: "translateY(100%)" },
       to: { transform: "translate(0%, 0%)" },
       config: pe,
@@ -112,29 +112,29 @@ var be = e(f(), 1),
       e
     );
   })({}),
-  [Be, Ae] = I()(
+  [Be, Ae] = C()(
     ({ observableModel: e }) => {
       const s = {
           ...e.primitives(["enabled", "selectedChallengeID"]),
           root: e.object(),
           challengesPacks: e.arrayClone("challengesPacks"),
-          viewedChallenges: W.set([]),
-          scrollTargetID: W.box(null),
-          shouldScrollToActive: W.box(!1),
+          viewedChallenges: a.set([]),
+          scrollTargetID: a.box(null),
+          shouldScrollToActive: a.box(!1),
         },
-        t = a(() => {
+        t = w(() => {
           const e = s.challengesPacks.get();
           return e
-            ? ee(e, (e) => ({
+            ? O(e, (e) => ({
                 complexity: e.complexity,
-                challenges: ee(e.challenges, (e) => {
+                challenges: O(e.challenges, (e) => {
                   const a = e.challengeID;
                   return s.viewedChallenges.has(a) ? { ...e, isNew: !1 } : e;
                 }),
               }))
             : [];
         }),
-        n = a(() => {
+        n = w(() => {
           const e = new Map();
           return (
             t.get().forEach((s) => {
@@ -145,19 +145,19 @@ var be = e(f(), 1),
             e
           );
         });
-      oe(
+      H(
         () => s.root.get().activeChallengeID,
-        N((e) => {
+        A((e) => {
           s.shouldScrollToActive.get() &&
             e &&
             (s.scrollTargetID.set(e), s.shouldScrollToActive.set(!1));
         }),
       );
       const i = (e) => n.get().get(e),
-        r = N((e) => {
+        r = A((e) => {
           s.scrollTargetID.set(e);
         }),
-        l = N(() => {
+        l = A(() => {
           s.shouldScrollToActive.set(!0);
         });
       return {
@@ -168,21 +168,21 @@ var be = e(f(), 1),
           challenges: t,
           challengesById: n,
           getChallengesByComplexity: (e) =>
-            a(() => t.get().find((s) => s.complexity === e)?.challenges || []),
+            w(() => t.get().find((s) => s.complexity === e)?.challenges || []),
           getChallengeByID: i,
           getCardStatus: (e) =>
-            a(() => {
+            w(() => {
               const s = i(e);
               if (s) return s.state === Me.ACTIVE ? ve : s.isNew ? je : ye;
             }),
-          getMissionState: (e, t) =>
-            a(() => {
-              const a = i(e),
-                n = t === a?.completedMissions,
+          getMissionState: (e, a) =>
+            w(() => {
+              const t = i(e),
+                n = a === t?.completedMissions,
                 r = n && s.root.get().activeChallengeID === s.selectedChallengeID.get();
-              return t < a?.completedMissions
+              return a < t?.completedMissions
                 ? "done"
-                : n && a?.remainingAttempts < 1
+                : n && t?.remainingAttempts < 1
                   ? "failed"
                   : r
                     ? "active"
@@ -193,7 +193,7 @@ var be = e(f(), 1),
     },
     ({ externalModel: e, model: s }) => {
       const a = e.createCallback(
-          N((e) => (s.viewedChallenges.add(e), { selectedChallengeID: e })),
+          A((e) => (s.viewedChallenges.add(e), { selectedChallengeID: e })),
           "onSelectChallenge",
         ),
         t = e.createCallback((e, s = !1) => ({ action: e, isFree: s }), "onAction");
@@ -214,7 +214,7 @@ var be = e(f(), 1),
     },
   ),
   $e = (e, s = 0, a) =>
-    b({ from: fe.from, to: e ? fe.to : fe.from, config: pe, delay: e ? s : 0, onRest: a }),
+    f({ from: fe.from, to: e ? fe.to : fe.from, config: pe, delay: e ? s : 0, onRest: a }),
   Oe = (e, s, a, t) => {
     const n = s === e.completedMissions,
       i = n && a === t,
@@ -224,25 +224,25 @@ var be = e(f(), 1),
   },
   Le = { tension: 400, friction: 60, duration: 1e3 },
   ze = "ActiveLabel_e577414e",
-  He = e(_(), 1),
-  Ve = j.resolve("strings"),
+  He = e(ae(), 1),
+  Ve = v.resolve("strings"),
   We = ({ className: e }) =>
     (0, He.jsx)("div", {
-      className: i(ze, e),
+      className: c(ze, e),
       children: Ve.readOrEmpty("user_missions.hub.challenge_missions.card.activeLabel"),
     }),
   Ke = "PreviewableReward_5e9e4c84",
-  qe = "PreviewableReward_name_a3e59465",
-  Fe = "PreviewableReward_label_62ca7a49",
-  Ye = "PreviewableReward_iconPosition_9043e7b9",
-  Xe = "PreviewableReward_icon_7cb83516",
-  Ue = j.resolve("strings"),
+  Fe = "PreviewableReward_name_a3e59465",
+  qe = "PreviewableReward_label_62ca7a49",
+  Xe = "PreviewableReward_iconPosition_9043e7b9",
+  Ye = "PreviewableReward_icon_7cb83516",
+  Ue = v.resolve("strings"),
   Ge = ({ kingReward: e, openPreview: s, labelKey: a, className: t, classNames: n }) => {
-    const r = Ue.readOrEmpty(`user_missions.hub.challenge_missions.reward.${a}`);
+    const i = Ue.readOrEmpty(`user_missions.hub.challenge_missions.reward.${a}`);
     return (0, He.jsxs)("div", {
-      className: i(Ke, t),
+      className: c(Ke, t),
       children: [
-        (0, He.jsx)(re, {
+        (0, He.jsx)(ie, {
           type: "preview",
           size: "normal",
           onClick: () => {
@@ -253,19 +253,19 @@ var be = e(f(), 1),
               attachmentsToken: e.value,
             });
           },
-          className: Ye,
-          classNames: { icon: Xe },
+          className: Xe,
+          classNames: { icon: Ye },
         }),
         e.label &&
           (0, He.jsx)(me, {
-            classMix: i(qe, n?.name),
+            classMix: c(Fe, n?.name),
             text:
               "attachmentsTitle" !== a
                 ? e.label
                 : Ue.readOrEmpty(`quests.bonusName.attachments_set.${e.icon}`, "silent") ||
                   Ue.readOrEmpty("quests.bonusName.attachments_set.default"),
           }),
-        (0, He.jsx)("div", { className: i(Fe, n?.label), children: r }),
+        (0, He.jsx)("div", { className: c(qe, n?.label), children: i }),
       ],
     });
   },
@@ -280,7 +280,7 @@ var be = e(f(), 1),
     count__tankXP: "CurrenciesDescription_count__tankXP_532fa33a",
     name: "CurrenciesDescription_name_6d26e764",
   },
-  Ze = j.resolve("strings"),
+  Ze = v.resolve("strings"),
   es = "ImprovedEquipment_4bafe1ca",
   ss = "ImprovedEquipment_name_3ad02c56",
   as = "ImprovedEquipment_label_a7a4323c",
@@ -291,27 +291,27 @@ var be = e(f(), 1),
   ls = R.strings.user_missions.hub.challenge_missions.reward,
   cs = (e) => {
     switch (e) {
-      case Z.heavyTank:
-        return Z.heavyTank;
-      case Z.lightTank:
-        return Z.lightTank;
-      case Z.mediumTank:
-        return Z.mediumTank;
-      case Z.SPG:
-        return Z.SPG;
+      case ee.heavyTank:
+        return ee.heavyTank;
+      case ee.lightTank:
+        return ee.lightTank;
+      case ee.mediumTank:
+        return ee.mediumTank;
+      case ee.SPG:
+        return ee.SPG;
       default:
-        return Z["AT-SPG"];
+        return ee["AT-SPG"];
     }
   },
-  os = ({ kingReward: e, classNames: s, vehicleTypeIconSize: a = L.x48x48 }) => {
+  os = ({ kingReward: e, classNames: s, vehicleTypeIconSize: a = $.x48x48 }) => {
     const { isInHangar: t, vehicleShortName: n, type: i, level: r, isElite: l } = e;
     return (0, He.jsx)("div", {
       className: s?.base,
-      children: (0, He.jsxs)(F, {
+      children: (0, He.jsxs)(q, {
         children: [
-          (0, He.jsx)(F.Level, { className: s?.level, value: r, numberType: H.numberTypes.roman }),
-          (0, He.jsx)(F.Type, { className: s?.typeIcon, type: cs(i), premium: l, size: a }),
-          (0, He.jsx)(F.Name, { className: s?.name, children: n }),
+          (0, He.jsx)(q.Level, { className: s?.level, value: r, numberType: L.numberTypes.roman }),
+          (0, He.jsx)(q.Type, { className: s?.typeIcon, type: cs(i), premium: l, size: a }),
+          (0, He.jsx)(q.Name, { className: s?.name, children: n }),
           t && (0, He.jsx)("div", { className: s?.vehicleInHangar }),
         ],
       }),
@@ -340,7 +340,7 @@ var be = e(f(), 1),
       (0, He.jsxs)("div", {
         className: ds,
         children: [
-          (0, He.jsx)(re, {
+          (0, He.jsx)(ie, {
             type: "preview",
             size: "normal",
             onClick: () => {
@@ -375,7 +375,7 @@ var be = e(f(), 1),
       return (0, He.jsxs)("div", {
         className: es,
         children: [
-          (0, He.jsx)(V, { className: ss, text: s }),
+          (0, He.jsx)(oe, { className: ss, text: s }),
           (0, He.jsx)("div", { className: as, children: ts.improvedEquipment() }),
         ],
       });
@@ -386,9 +386,9 @@ var be = e(f(), 1),
       return (0, He.jsxs)("div", {
         className: Qe.base,
         children: [
-          (0, He.jsx)(V, {
-            className: i(Qe.count, Qe[`count__${s}`]),
-            text: t.formatNumber("integral", a),
+          (0, He.jsx)(oe, {
+            className: c(Qe.count, Qe[`count__${s}`]),
+            text: U.formatNumber("integral", a),
           }),
           (0, He.jsx)("div", {
             className: Qe.name,
@@ -404,8 +404,8 @@ var be = e(f(), 1),
       ? (0, He.jsx)(t, { kingReward: s, openPreview: a })
       : (console.warn("Unknown king reward type:", e), null);
   },
-  vs = j.resolve("images"),
-  js = j.resolve("aliases"),
+  vs = v.resolve("images"),
+  js = v.resolve("aliases"),
   ys = "KingReward_ad0db18a",
   Ns = "KingReward_background_944ce27a",
   ws = "KingReward_content_e5feff31",
@@ -414,17 +414,17 @@ var be = e(f(), 1),
   ks = "KingReward_overlay_f33628c4",
   Rs = "KingReward_count_a785a0ee",
   Ss = R.strings.user_missions.hub.challenge_missions.reward,
-  Ts = O(function ({ kingRewardType: e, kingReward: s, missionId: a, className: t }) {
-    const { model: n, controls: r } = Ae(),
-      { selectedChallengeID: l } = n.root.get(),
-      { bg: c } = ((e) => {
+  Ts = de(function ({ kingRewardType: e, kingReward: s, missionId: a, className: t }) {
+    const { model: n, controls: i } = Ae(),
+      { selectedChallengeID: r } = n.root.get(),
+      { bg: l } = ((e) => {
         const s = `userMissions.challenges.kingReward.c_${e}`;
         return {
           bg:
             vs.readOrEmpty(s, "silent") ||
             vs.readOrEmpty("userMissions.challenges.kingReward.default"),
         };
-      })(l),
+      })(r),
       { rewardImage: o, overlayImage: d } = ((e) => ({
         rewardImage: ue(e, ge.S600x450),
         overlayImage: e.overlayType
@@ -432,16 +432,16 @@ var be = e(f(), 1),
           : null,
       }))(s),
       m = ((e, s) =>
-        x({
+        j({
           resId: js.read((e) => e.user_missions.hub.challengeMissions.MainView("resId")),
           contentId: Number(e.tooltipContentId),
           args: { tooltipId: e.tooltipId, missionId: s },
         }))(s, a),
       { count: _ } = s;
     return (0, He.jsxs)("div", {
-      className: i(ys, t),
+      className: c(ys, t),
       children: [
-        (0, He.jsx)("div", { className: Ns, style: { backgroundImage: `url(${c})` } }),
+        (0, He.jsx)("div", { className: Ns, style: { backgroundImage: `url(${l})` } }),
         (0, He.jsxs)("div", {
           className: ws,
           children: [
@@ -457,10 +457,10 @@ var be = e(f(), 1),
               children: (0, He.jsx)(xs, {
                 kingRewardType: e,
                 kingReward: s,
-                openPreview: r.openPreview,
+                openPreview: i.openPreview,
               }),
             }),
-            _ > 1 && (0, He.jsx)(V, { text: Ss.multi(), className: Rs, params: { count: _ } }),
+            _ > 1 && (0, He.jsx)(oe, { text: Ss.multi(), className: Rs, params: { count: _ } }),
           ],
         }),
       ],
@@ -473,26 +473,26 @@ var be = e(f(), 1),
   Bs = "ConditionItem_conditionTitle_a283e646",
   As = "ConditionItem_conditionDescription_500fc72a",
   $s = "ConditionItem_multiline_6e29776a",
-  Os = j.resolve("images"),
+  Os = v.resolve("images"),
   Ls = ({ condition: e }) => {
     const { iconKey: s, titleData: a, descrData: t } = e,
-      { breakpoint: n } = te(),
-      i = n.weight >= M.large.weight,
+      { breakpoint: n } = b(),
+      i = n.weight >= h.large.weight,
       r = `userMissions.challenges.missionIcons.${i ? "c_128" : "c_80"}.${s}`,
-      l = `userMissions.challenges.missionIcons.${i ? "c_128" : "c_80"}.folder`,
-      c = Os.readOrEmpty(r, "silent") || Os.readOrEmpty(l);
+      c = `userMissions.challenges.missionIcons.${i ? "c_128" : "c_80"}.folder`,
+      o = Os.readOrEmpty(r, "silent") || Os.readOrEmpty(c);
     return (0, He.jsxs)("div", {
       className: Ds,
       children: [
         (0, He.jsx)("div", {
           className: Es,
-          children: (0, He.jsx)("div", { className: Ps, style: { backgroundImage: `url(${c})` } }),
+          children: (0, He.jsx)("div", { className: Ps, style: { backgroundImage: `url(${o})` } }),
         }),
         (0, He.jsxs)("div", {
           className: Ms,
           children: [
             (0, He.jsx)("div", { className: Bs, children: a }),
-            (0, He.jsx)(o, { text: `${t}`, classNames: { base: $s, text: As }, upgradeLegacy: !0 }),
+            (0, He.jsx)(l, { text: `${t}`, classNames: { base: $s, text: As }, upgradeLegacy: !0 }),
           ],
         }),
       ],
@@ -501,72 +501,72 @@ var be = e(f(), 1),
   zs = "OrSeparator_6a9b8792",
   Hs = "OrSeparator_separatorArrow_99267c4f",
   Vs = "OrSeparator_separatorArrow__rotate_d7353f8f",
-  Ws = j.resolve("strings"),
+  Ws = v.resolve("strings"),
   Ks = () =>
     (0, He.jsxs)("div", {
       className: zs,
       children: [
-        (0, He.jsx)("div", { className: i(Hs, Vs) }),
+        (0, He.jsx)("div", { className: c(Hs, Vs) }),
         (0, He.jsx)("span", {
           children: Ws.readOrEmpty("user_missions.hub.challenge_missions.card.or"),
         }),
         (0, He.jsx)("div", { className: Hs }),
       ],
     }),
-  qs = {
+  Fs = {
     base: "ConditionsList_77f64f73",
     base__locked: "ConditionsList_base__locked_2b33f65e",
     condition: "ConditionsList_condition_1282d07b",
   },
-  Fs = ({ mission: e, state: s }) =>
+  qs = ({ mission: e, state: s }) =>
     (0, He.jsx)("div", {
-      className: i(qs.base, qs[`base__${s}`]),
-      children: ee(e.postBattleCondition.items, (e, s, a) =>
+      className: c(Fs.base, Fs[`base__${s}`]),
+      children: O(e.postBattleCondition.items, (e, s, a) =>
         (0, He.jsxs)(
           "div",
           {
-            className: qs.condition,
+            className: Fs.condition,
             children: [(0, He.jsx)(Ls, { condition: e }), s < a.length - 1 && (0, He.jsx)(Ks, {})],
           },
           `${s}`,
         ),
       ),
     }),
-  Ys = "Overlay_7ff640ef",
-  Xs = j.resolve("images");
+  Xs = "Overlay_7ff640ef",
+  Ys = v.resolve("images");
 var Us = "RewardImage_5b6b980",
   Gs = "RewardImage_count_21fdceb9";
 var Js = "RewardName_text_debdee3b";
 var Qs = "Reward_cd75c111",
-  Zs = j.resolve("aliases"),
+  Zs = v.resolve("aliases"),
   ea = (0, be.forwardRef)(function (
     { reward: e, missionId: s, className: a = "", disabledRewardTooltip: t = !1, ...n },
-    r,
+    i,
   ) {
-    const { tooltipContentId: l, tooltipId: c } = e,
-      o = x({
+    const { tooltipContentId: r, tooltipId: l } = e,
+      o = j({
         resId: Zs.read((e) => e.user_missions.hub.challengeMissions.MainView("resId")),
-        contentId: Number(l),
-        args: { tooltipId: c, missionId: s },
+        contentId: Number(r),
+        args: { tooltipId: l, missionId: s },
       });
     return (
       (0, be.useEffect)(() => {
         t &&
-          se.tooltip.hide(
+          K.tooltip.hide(
             Zs.read((e) => e.user_missions.hub.challengeMissions.MainView("resId")),
-            Number(l),
+            Number(r),
           );
-      }, [t, l]),
-      (0, He.jsx)("div", { ref: r, ...o, className: i(Qs, a), children: n.children })
+      }, [t, r]),
+      (0, He.jsx)("div", { ref: i, ...o, className: c(Qs, a), children: n.children })
     );
   });
 ((ea.Image = function ({ showCounter: e, count: s, image: a, className: t = "" }) {
   return (0, He.jsx)("div", {
-    className: i(Us, t),
+    className: c(Us, t),
     style: { backgroundImage: `url(${a})` },
     children:
       e &&
-      (0, He.jsx)(V, {
+      (0, He.jsx)(oe, {
         text: R.strings.user_missions.hub.challenge_missions.reward.multi(),
         className: Gs,
         params: { count: s },
@@ -575,12 +575,12 @@ var Qs = "Reward_cd75c111",
 }),
   (ea.Name = function ({ reward: e, className: s = "" }) {
     const { label: a } = e;
-    return (0, He.jsx)(V, { className: i(Js, s), text: t.formatNumber("integral", Number(a)) });
+    return (0, He.jsx)(oe, { className: c(Js, s), text: U.formatNumber("integral", Number(a)) });
   }),
   (ea.Overlay = function ({ size: e, special: s, className: a }) {
     return (0, He.jsx)("div", {
-      className: i(Ys, a),
-      style: { backgroundImage: `url(${Xs.readOrEmpty(`quests.bonuses.${e}.${C(s)}_overlay`)})` },
+      className: c(Xs, a),
+      style: { backgroundImage: `url(${Ys.readOrEmpty(`quests.bonuses.${e}.${n(s)}_overlay`)})` },
     });
   }));
 var sa = {
@@ -598,12 +598,12 @@ var sa = {
 };
 function aa({ reward: e, missionId: s, className: a = "", disabledRewardTooltip: t = !1 }) {
   const n = e.count ?? 0,
-    r = Ne.includes(e.name ?? ""),
-    l = n > 1 && !r,
-    c = e.overlayType,
-    o = h({ size: ge.Small }, { large: { size: ge.Big } });
+    i = Ne.includes(e.name ?? ""),
+    r = n > 1 && !i,
+    l = e.overlayType,
+    o = d({ size: ge.Small }, { large: { size: ge.Big } });
   return (0, He.jsx)("div", {
-    className: i(sa.base, a),
+    className: c(sa.base, a),
     children: (0, He.jsxs)(ea, {
       reward: e,
       missionId: s,
@@ -612,16 +612,16 @@ function aa({ reward: e, missionId: s, className: a = "", disabledRewardTooltip:
         (0, He.jsxs)("div", {
           className: sa.rewardImage,
           children: [
-            (0, He.jsx)(ea.Image, { showCounter: l, count: n, image: ue(e, ge.Big) }),
-            c &&
+            (0, He.jsx)(ea.Image, { showCounter: r, count: n, image: ue(e, ge.Big) }),
+            l &&
               (0, He.jsx)(ea.Overlay, {
-                special: c,
+                special: l,
                 size: o.size,
-                className: i(sa.overlay, sa[`overlay__${o.size}`]),
+                className: c(sa.overlay, sa[`overlay__${o.size}`]),
               }),
           ],
         }),
-        r && (0, He.jsx)(ea.Name, { reward: e, className: i(sa.label, sa[`label__${e.name}`]) }),
+        i && (0, He.jsx)(ea.Name, { reward: e, className: c(sa.label, sa[`label__${e.name}`]) }),
       ],
     }),
   });
@@ -636,7 +636,7 @@ var ta = "RewardsList_bd99d393",
         e.length > 0 && (0, He.jsx)("div", { className: na }),
         (0, He.jsx)("div", {
           className: ia,
-          children: ee(e, (e, t) =>
+          children: O(e, (e, t) =>
             (0, He.jsx)(aa, { reward: e, missionId: s, disabledRewardTooltip: a }, `${t}_${e.id}`),
           ),
         }),
@@ -657,12 +657,12 @@ function ca({
   mainRewardType: t,
   disabledRewardTooltip: n = !1,
 }) {
-  const r = e.bonuses,
-    l = e.id,
-    c = ie(r, (e) => "" !== t && e.bonusType === t),
-    o = U(a && c ? Q(r, (e) => e.bonusType !== t) : r);
+  const i = e.bonuses,
+    r = e.id,
+    l = Q(i, (e) => "" !== t && e.bonusType === t),
+    o = z(a && l ? le(i, (e) => e.bonusType !== t) : i);
   return (0, He.jsxs)("div", {
-    className: i(la.base, la[`base__${s}`]),
+    className: c(la.base, la[`base__${s}`]),
     children: [
       "active" === s && (0, He.jsx)(We, { className: la.activeLabel }),
       (0, He.jsxs)("div", {
@@ -671,15 +671,15 @@ function ca({
           (0, He.jsxs)("div", {
             className: la.card,
             children: [
-              (0, He.jsx)(Fs, { mission: e, state: s }),
-              (0, He.jsx)(ra, { sortedRewards: o, missionId: l, disabledRewardTooltip: n }),
+              (0, He.jsx)(qs, { mission: e, state: s }),
+              (0, He.jsx)(ra, { sortedRewards: o, missionId: r, disabledRewardTooltip: n }),
             ],
           }),
-          c &&
+          l &&
             a &&
             (0, He.jsx)("div", {
               className: la.kingReward,
-              children: (0, He.jsx)(Ts, { kingRewardType: t, kingReward: c, missionId: l }),
+              children: (0, He.jsx)(Ts, { kingRewardType: t, kingReward: l, missionId: r }),
             }),
         ],
       }),
@@ -691,13 +691,13 @@ var oa = "MissionNumber_2f758a67",
   ma = "MissionNumber_missionNumber__active_10840043",
   _a = ({ number: e, active: s, className: a = "" }) =>
     (0, He.jsx)("div", {
-      className: i(oa, a),
-      children: (0, He.jsx)("div", { className: i(da, s && ma), children: e }),
+      className: c(oa, a),
+      children: (0, He.jsx)("div", { className: c(da, s && ma), children: e }),
     }),
   ua = "Content_fa80e432",
   ha = "Content_base__selected_da09528a";
 function ga({ children: e, selected: s }) {
-  return (0, He.jsx)("div", { className: i(ua, s && ha), children: e });
+  return (0, He.jsx)("div", { className: c(ua, s && ha), children: e });
 }
 var ba = {
   disabled: "Slot_disabled_287eb554",
@@ -712,12 +712,12 @@ function pa({ children: e, state: s, className: a, ...t }) {
   const n = "active" === s;
   return (0, He.jsx)("div", {
     ...t,
-    className: i(ba.base, ba[`base__${s}`], a),
+    className: c(ba.base, ba[`base__${s}`], a),
     children: (0, He.jsxs)("div", {
       className: ba.content,
       children: [
         ("locked" === s || "failed" === s) && (0, He.jsx)("div", { className: ba.disabled }),
-        n && (0, He.jsx)("div", { className: i(ba.selected, ba.selected__border) }),
+        n && (0, He.jsx)("div", { className: c(ba.selected, ba.selected__border) }),
         (0, He.jsx)("div", { className: ba.selected }),
         (0, He.jsx)(ga, { selected: n, children: e }),
       ],
@@ -741,7 +741,7 @@ var fa = {
   ja = ({ type: e, tooltipBodyText: s, disabled: a, className: t }) => {
     const n = r({ body: s });
     return (0, He.jsxs)("div", {
-      className: i(fa.base, fa[`base__${e}`], t),
+      className: c(fa.base, fa[`base__${e}`], t),
       children: [
         (0, He.jsx)("div", { className: fa.glowBig }),
         (0, He.jsx)("div", { className: fa.line }),
@@ -756,7 +756,7 @@ var fa = {
             children: (0, He.jsx)("circle", { cx: "21", cy: "21", r: "3" }),
           }),
         }),
-        (0, He.jsx)("div", { className: i(fa.icon, a && fa.icon__disabled), ...n }),
+        (0, He.jsx)("div", { className: c(fa.icon, a && fa.icon__disabled), ...n }),
       ],
     });
   },
@@ -773,7 +773,7 @@ var fa = {
     shimmerContainer: "Card_shimmerContainer_6c3e43d7",
     shimmer: "Card_shimmer_5d9bc25a",
   },
-  Na = j.resolve("strings"),
+  Na = v.resolve("strings"),
   wa = "user_missions.tooltip.hub.card";
 function Ia({
   mission: e,
@@ -781,12 +781,12 @@ function Ia({
   state: a,
   mainRewardType: t,
   isLastCard: n,
-  className: r,
-  disabledRewardTooltip: l = !1,
+  className: i,
+  disabledRewardTooltip: r = !1,
 }) {
-  const c = e.bonuses,
+  const l = e.bonuses,
     o = ((e) => {
-      const [s, a] = b(() => ({
+      const [s, a] = f(() => ({
         from: { transform: "skewY(-20deg) translateY(-100%)" },
         to: { transform: "skewY(-20deg) translateY(-100%)" },
         config: Le,
@@ -815,21 +815,21 @@ function Ia({
     h = ((e) => "done" === e || "locked" === e)(a);
   (0, be.useEffect)(() => {
     const e = d.current;
-    ("active" === a && "active" !== e && G.sound(Ee),
-      "failed" === a && "failed" !== e && G.sound(Pe),
+    ("active" === a && "active" !== e && se.sound(Ee),
+      "failed" === a && "failed" !== e && se.sound(Pe),
       (d.current = a));
   }, [a]);
-  const g = ie(c, (e) => "" !== t && e.bonusType === t);
+  const g = Q(l, (e) => "" !== t && e.bonusType === t);
   return (0, He.jsx)("div", {
-    className: i(ya.base, ya[`base__${a}`], r),
+    className: c(ya.base, ya[`base__${a}`], i),
     children: (0, He.jsxs)(pa, {
       state: a,
-      className: i(ya.slot, g && n && ya.slot__wideCard),
+      className: c(ya.slot, g && n && ya.slot__wideCard),
       children: [
         "active" === a &&
           (0, He.jsx)("div", {
             className: ya.shimmerContainer,
-            children: (0, He.jsx)(X.div, { style: o, className: ya.shimmer }),
+            children: (0, He.jsx)(Y.div, { style: o, className: ya.shimmer }),
           }),
         (0, He.jsx)(_a, { number: s, active: u, className: ya.missionNumber }),
         (0, He.jsx)(ca, {
@@ -837,12 +837,12 @@ function Ia({
           state: a,
           isLastCard: n,
           mainRewardType: t,
-          disabledRewardTooltip: l,
+          disabledRewardTooltip: r,
         }),
         _ &&
           (0, He.jsx)("div", {
             className: ya.status,
-            children: (0, He.jsx)(ja, { type: _, disabled: !h || l, tooltipBodyText: m }),
+            children: (0, He.jsx)(ja, { type: _, disabled: !h || r, tooltipBodyText: m }),
           }),
       ],
     }),
@@ -855,7 +855,7 @@ var Ca = "ReplayBlock_4b4cbc0b",
   Ta = "ReplayBlock_currentNumber__complete_d0a4bd99",
   Da = "ReplayBlock_completedText_b0e0a907",
   Ea = "ReplayBlock_infoIcon_d1694385",
-  Pa = j.resolve("strings"),
+  Pa = v.resolve("strings"),
   Ma = "user_missions.hub.challenge_missions";
 function Ba({ selectedChallenge: e, className: s = "" }) {
   const a = e.allowedCompletions,
@@ -865,7 +865,7 @@ function Ba({ selectedChallenge: e, className: s = "" }) {
       body: Pa.readOrEmpty("user_missions.tooltip.hub.replay.body"),
     });
   return (0, He.jsx)("div", {
-    className: i(Ca, s),
+    className: c(Ca, s),
     children: (0, He.jsxs)("div", {
       className: ka,
       ...n,
@@ -875,7 +875,7 @@ function Ba({ selectedChallenge: e, className: s = "" }) {
           children: (0, He.jsx)(me, {
             text: Pa.readOrEmpty(`${Ma}.header.numberTemplate`),
             binding: {
-              currentNumber: (0, He.jsx)("span", { className: i(Sa, a === t && Ta), children: t }),
+              currentNumber: (0, He.jsx)("span", { className: c(Sa, a === t && Ta), children: t }),
               commonNumber: (0, He.jsx)("span", { children: a }),
             },
           }),
@@ -897,35 +897,35 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
     missions: a,
     activeChallengeID: t,
     selectedChallengeID: n,
-    mainRewardType: r,
-    cardsRef: l,
-    replayRef: c,
+    mainRewardType: i,
+    cardsRef: r,
+    replayRef: l,
   }) => {
     const [o, d] = (0, be.useState)(!1);
     return (0, He.jsxs)("div", {
-      className: i(Aa, e && $a),
-      ref: l,
+      className: c(Aa, e && $a),
+      ref: r,
       onMouseDown: () => d(!0),
       onMouseUp: () => d(!1),
       onMouseLeave: () => d(!1),
       children: [
-        ee(a, (l, c, d) =>
+        O(a, (r, l, d) =>
           (0, He.jsx)(
             Ia,
             {
               disabledRewardTooltip: e || o,
-              missionNumber: c + 1,
-              mission: l,
-              className: i(Oa, c === a.length - 1 && La),
-              state: Oe(s, c, t, n),
-              mainRewardType: r,
-              isLastCard: c === d.length - 1,
+              missionNumber: l + 1,
+              mission: r,
+              className: c(Oa, l === a.length - 1 && La),
+              state: Oe(s, l, t, n),
+              mainRewardType: i,
+              isLastCard: l === d.length - 1,
             },
-            `${l.id}_${c}`,
+            `${r.id}_${l}`,
           ),
         ),
         (0, He.jsx)("div", {
-          ref: c,
+          ref: l,
           children:
             s.allowedCompletions > 1
               ? (0, He.jsx)(Ba, { selectedChallenge: s })
@@ -942,7 +942,7 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
   },
   Wa = ({ state: e, kingRewardRef: s, kingReward: a, mainRewardType: t, missionId: n }) =>
     (0, He.jsxs)("div", {
-      className: i(Va.kingReward, Va[`kingReward__${e}`]),
+      className: c(Va.kingReward, Va[`kingReward__${e}`]),
       ref: s,
       children: [
         (0, He.jsx)("div", { className: Va.lip }),
@@ -950,10 +950,10 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
       ],
     }),
   Ka = "left",
-  qa = "right",
-  Fa = "both",
-  Ya = "none",
-  Xa = {
+  Fa = "right",
+  qa = "both",
+  Xa = "none",
+  Ya = {
     base: "CardsContent_5a377872",
     mask: "CardsContent_mask_af240217",
     mask__both: "CardsContent_mask__both_e9f58edc",
@@ -965,49 +965,49 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
     kingReward: "CardsContent_kingReward_3201ccb6",
     kingReward__done: "CardsContent_kingReward__done_a3c56347",
   },
-  Ua = O(function ({ selectedChallenge: e, enableAnimation: a = !1 }) {
+  Ua = de(function ({ selectedChallenge: e, enableAnimation: a = !1 }) {
     const { model: t } = Ae(),
       n = (0, be.useRef)(null),
+      i = (0, be.useRef)(null),
       r = (0, be.useRef)(null),
       l = (0, be.useRef)(null),
-      c = (0, be.useRef)(null),
       [o, d] = (0, be.useState)(!1),
       [m, _] = (0, be.useState)(!1),
-      { api: u } = de(),
+      { api: u } = ne(),
       { animationScroll: h, applyScroll: g } = u,
-      { activeChallengeID: p } = t.root.get(),
-      f = e?.challengeID,
+      { activeChallengeID: b } = t.root.get(),
+      p = e?.challengeID,
       x = e?.missions,
       v = e?.mainRewardType ?? "",
-      j = x ? z(x, x.length - 1) : void 0,
-      N = j?.bonuses ? ie(j.bonuses, (e) => "" !== v && e.bonusType === v) : void 0,
-      [w, I] = b(() => ({ maskStop: 100, isSticky: 0, config: { precision: 0.1 } })),
-      C = B(u, E.horizontal, void 0, { gapBeforeStart: 5 }),
-      [k, R] = K(u),
+      j = x ? X(x, x.length - 1) : void 0,
+      y = j?.bonuses ? Q(j.bonuses, (e) => "" !== v && e.bonusType === v) : void 0,
+      [w, I] = f(() => ({ maskStop: 100, isSticky: 0, config: { precision: 0.1 } })),
+      C = s(u, N.horizontal, void 0, { gapBeforeStart: 5 }),
+      [k, R] = Z(u),
       S = (0, be.useCallback)(() => {
-        if (!l.current || !e) return 0;
+        if (!r.current || !e) return 0;
         const s = e.completedMissions,
-          a = l.current.children[s] || n.current;
+          a = r.current.children[s] || n.current;
         return a ? a.offsetLeft - 40 : 0;
       }, [e]),
       T = $e(a, 100, () => g(S())),
       D = (0, be.useCallback)(() => {
-        const e = r.current,
-          s = c.current;
+        const e = i.current,
+          s = l.current;
         if (!e) return;
         if (!s) return void I.start({ maskStop: e.offsetWidth, isSticky: 1, immediate: !0 });
         const a = h.scrollPosition.get(),
           t = n.current,
-          i = e.offsetWidth,
-          l = s.offsetWidth,
+          r = e.offsetWidth,
+          c = s.offsetWidth,
           o = t?.offsetWidth || 0,
           [d, m] = u.getBounds();
         if (a < m - o) {
-          const e = i - l;
+          const e = r - c;
           I.start({ maskStop: e, isSticky: 1, immediate: !0 });
-        } else I.start({ maskStop: i, isSticky: 0, immediate: !0 });
+        } else I.start({ maskStop: r, isSticky: 0, immediate: !0 });
       }, [h.scrollPosition, I, u]),
-      P = (0, be.useCallback)(() => {
+      E = (0, be.useCallback)(() => {
         (_(!0), D());
       }, [D]),
       M = (0, be.useCallback)(() => {
@@ -1016,110 +1016,110 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
     if (
       ((0, be.useEffect)(
         () => (
-          A(() => {
+          P(() => {
             D();
           }),
-          u.events.on("mouseWheel", P),
+          u.events.on("mouseWheel", E),
           u.events.on("change", M),
           u.events.on("resizeHandled", D),
           () => {
-            (u.events.off("mouseWheel", P),
+            (u.events.off("mouseWheel", E),
               u.events.off("change", M),
               u.events.off("resizeHandled", D));
           }
         ),
-        [u, P, M, I, D],
+        [u, E, M, I, D],
       ),
       (0, be.useEffect)(() => {
-        A(() => {
+        P(() => {
           "idle" === C.type && h.scrollPosition.idle && (_(!1), g(h.scrollPosition.get()));
         });
       }, [h.scrollPosition, g, C.type]),
       (0, be.useEffect)(() => d("dragging" === C.type), [C.type]),
       (0, be.useEffect)(
         () => (
-          p === f && g(S()),
+          b === p && g(S()),
           u.events.on("resizeHandled", () => g(S())),
           () => {
             u.events.off("resizeHandled", () => g(S()));
           }
         ),
-        [u, p, g, S, f],
+        [u, b, g, S, p],
       ),
       !e)
     )
       return null;
-    const $ = o || m;
-    return (0, He.jsxs)(X.div, {
+    const B = o || m;
+    return (0, He.jsxs)(Y.div, {
       style: T,
-      className: Xa.base,
+      className: Ya.base,
       children: [
         (0, He.jsx)("div", {
-          className: i(
-            Xa.mask,
-            Xa[`mask__${((O = k), (L = R), O || L ? (O ? (L ? Ya : qa) : Ka) : Fa)}`],
+          className: c(
+            Ya.mask,
+            Ya[`mask__${((A = k), ($ = R), A || $ ? (A ? ($ ? Xa : Fa) : Ka) : qa)}`],
           ),
-          ref: r,
-          children: (0, He.jsx)(X.div, {
-            className: Xa.maskReward,
+          ref: i,
+          children: (0, He.jsx)(Y.div, {
+            className: Ya.maskReward,
             style: {
               maskImage: w.maskStop.to(
                 (e) => `linear-gradient(to right, #000 ${e}px, transparent ${e}px)`,
               ),
             },
-            children: (0, He.jsx)(y, {
-              classNames: { wrapper: Xa.scrollWrapper },
+            children: (0, He.jsx)(V, {
+              classNames: { wrapper: Ya.scrollWrapper },
               children:
                 x &&
-                f &&
+                p &&
                 (0, He.jsx)(Ha, {
-                  dragging: $,
+                  dragging: B,
                   selectedChallenge: e,
                   missions: x,
-                  activeChallengeID: p,
-                  selectedChallengeID: f,
+                  activeChallengeID: b,
+                  selectedChallengeID: p,
                   mainRewardType: v,
-                  cardsRef: l,
+                  cardsRef: r,
                   replayRef: n,
                 }),
             }),
           }),
         }),
-        N &&
+        y &&
           e &&
           j &&
-          f &&
+          p &&
           x &&
-          (0, He.jsx)(X.div, {
-            className: i(
-              Xa.kingReward,
-              "done" === Oe(e, x.length - 1, p, f) && Xa.kingReward__done,
+          (0, He.jsx)(Y.div, {
+            className: c(
+              Ya.kingReward,
+              "done" === Oe(e, x.length - 1, b, p) && Ya.kingReward__done,
             ),
             style: { visibility: w.isSticky.to((e) => (1 === e ? "visible" : "hidden")) },
             children: (0, He.jsx)(Wa, {
-              state: Oe(e, x.length - 1, p, f),
-              kingRewardRef: c,
-              kingReward: N,
+              state: Oe(e, x.length - 1, b, p),
+              kingRewardRef: l,
+              kingReward: y,
               mainRewardType: v,
               missionId: j.id,
             }),
           }),
-        (0, He.jsx)(s, { classNames: { base: Xa.scrollBar } }),
+        (0, He.jsx)(ce, { classNames: { base: Ya.scrollBar } }),
       ],
     });
-    var O, L;
+    var A, $;
   }),
   Ga = "Badges_active_2b01effc",
   Ja = "Badges_active__shown_962cc4d1",
   Qa = "Badges_bubble_44df09e",
   Za = (0, be.memo)(function ({ status: e }) {
-    const s = l(e) === ve;
+    const s = D(e) === ve;
     return (0, He.jsxs)(He.Fragment, {
       children: [
         e === ve &&
           (0, He.jsx)("div", {
-            className: i(Ga, s && Ja),
-            children: (0, He.jsx)(le, {
+            className: c(Ga, s && Ja),
+            children: (0, He.jsx)(G, {
               path: "user_missions.hub.challenge_missions.missionsActive",
             }),
           }),
@@ -1151,7 +1151,7 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
     const n = t > 0;
     return (0, He.jsxs)(He.Fragment, {
       children: [
-        (0, He.jsx)("div", { className: et, children: (0, He.jsx)(ce, { text: e }) }),
+        (0, He.jsx)("div", { className: et, children: (0, He.jsx)(re, { text: e }) }),
         (0, He.jsx)("div", {
           className: st,
           children: s
@@ -1159,7 +1159,7 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
                 className: rt,
                 children: [
                   (0, He.jsx)("span", { className: lt }),
-                  (0, He.jsx)(le, {
+                  (0, He.jsx)(G, {
                     path: "user_missions.hub.challenge_missions.missionsCompleted",
                   }),
                 ],
@@ -1169,7 +1169,7 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
                   (0, He.jsx)("div", { children: a }),
                   (0, He.jsx)("div", { className: at }),
                   (0, He.jsxs)("div", {
-                    className: i(tt, !n && nt),
+                    className: c(tt, !n && nt),
                     children: [t, (0, He.jsx)("span", { className: it })],
                   }),
                 ],
@@ -1191,56 +1191,56 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
     accent: "Content_accent_9c27dd12",
   },
   dt = R.images.gui.maps.icons.userMissions.hub.challenge.background,
-  mt = O(function ({ challengeID: e, complexity: s, selected: a }) {
+  mt = de(function ({ challengeID: e, complexity: s, selected: a }) {
     const { model: t } = Ae(),
-      { breakpoint: n } = te(),
-      r = t.computes.getChallengeByID(e),
-      l = t.computes.getCardStatus(e).get(),
-      c = r?.completedMissions ?? 0,
-      o = r?.totalMissions ?? 0,
-      d = r?.type ?? "",
-      m = r?.expireTime ?? 0,
-      _ = r?.challengeName ?? "",
-      u = r?.state,
-      h = r?.remainingAttempts ?? 0,
-      b = (0, He.jsx)(le, {
+      { breakpoint: n } = b(),
+      i = t.computes.getChallengeByID(e),
+      r = t.computes.getCardStatus(e).get(),
+      l = i?.completedMissions ?? 0,
+      d = i?.totalMissions ?? 0,
+      m = i?.type ?? "",
+      _ = i?.expireTime ?? 0,
+      u = i?.challengeName ?? "",
+      g = i?.state,
+      f = i?.remainingAttempts ?? 0,
+      v = (0, He.jsx)(G, {
         path: "user_missions.hub.challenge_missions.missionsCount",
         params: {
-          currentMissions: (0, He.jsx)("span", { className: ot.accent, children: c }),
-          totalMissions: o,
+          currentMissions: (0, He.jsx)("span", { className: ot.accent, children: l }),
+          totalMissions: d,
         },
       }),
-      f = "special" === d ? dt.additional.$dyn(`c_${e}`) : dt.basic();
+      j = "special" === m ? dt.additional.$dyn(`c_${e}`) : dt.basic();
     return (0, He.jsxs)("div", {
       className: ot.base,
       children: [
-        l && (0, He.jsx)(Za, { status: l }),
+        r && (0, He.jsx)(Za, { status: r }),
         (0, He.jsx)("div", {
-          className: i(ot.background, a && ot.background__selected),
-          style: { backgroundImage: `url(${f})` },
+          className: c(ot.background, a && ot.background__selected),
+          style: { backgroundImage: `url(${j})` },
         }),
-        (0, He.jsx)("div", { className: i(ot.pattern, d && ot[`pattern__${s}`]) }),
-        r &&
+        (0, He.jsx)("div", { className: c(ot.pattern, m && ot[`pattern__${s}`]) }),
+        i &&
           (0, He.jsxs)("div", {
             className: ot.content,
             children: [
-              u !== Me.COMPLETED &&
+              g !== Me.COMPLETED &&
                 (0, He.jsx)(
-                  Y,
+                  p,
                   {
-                    type: v.accent,
-                    format: m > 86400 ? g.compact : g.default,
-                    size: n.weight < M.extraLarge.weight ? p.x24x24 : p.x32x32,
+                    type: o.accent,
+                    format: _ > 86400 ? x.compact : x.default,
+                    size: n.weight < h.extraLarge.weight ? y.x24x24 : y.x32x32,
                     className: ot.timer,
-                    start: m,
+                    start: _,
                   },
-                  m,
+                  _,
                 ),
               (0, He.jsx)(ct, {
-                challengeName: _,
-                completed: u === Me.COMPLETED,
-                formattedCount: b,
-                remainingAttempts: h,
+                challengeName: u,
+                completed: g === Me.COMPLETED,
+                formattedCount: v,
+                remainingAttempts: f,
               }),
             ],
           }),
@@ -1252,7 +1252,7 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
 function ht({ challengeID: e, isSelected: s, onSelect: a, complexity: t, className: n, ...i }) {
   return (0, He.jsx)("div", {
     ...i,
-    children: (0, He.jsx)(q, {
+    children: (0, He.jsx)(W, {
       classNames: { wrapper: _t, card: ut },
       className: n,
       selected: s,
@@ -1270,30 +1270,30 @@ var gt = {
     complexityIcon__medium: "Header_complexityIcon__medium_c8f36b2a",
     complexityIcon__easy: "Header_complexityIcon__easy_1d4962ab",
   },
-  bt = j.resolve("strings");
+  bt = v.resolve("strings");
 function pt({ complexity: e, className: s }) {
   const a = r({
     body: bt.readOrEmpty("user_missions.hub.challenge_missions.complexity.tooltip.body"),
   });
   return (0, He.jsx)("div", {
-    className: i(gt.base, s),
+    className: c(gt.base, s),
     children: (0, He.jsxs)("div", {
       className: gt.content,
       ...a,
       children: [
-        (0, He.jsx)("div", { className: i(gt.complexityIcon, gt[`complexityIcon__${e}`]) }),
-        (0, He.jsx)(le, { path: `user_missions.hub.challenge_missions.complexity.${e}` }),
+        (0, He.jsx)("div", { className: c(gt.complexityIcon, gt[`complexityIcon__${e}`]) }),
+        (0, He.jsx)(G, { path: `user_missions.hub.challenge_missions.complexity.${e}` }),
       ],
     }),
   });
 }
 var ft = "Complexity_card__selected_cd2a2f69",
-  xt = O(function ({ complexity: e }) {
+  xt = de(function ({ complexity: e }) {
     const { model: s, controls: a } = Ae(),
-      { api: t } = m(),
+      { api: t } = E(),
       n = s.selectedChallengeID.get(),
-      r = s.computes.getChallengesByComplexity(e).get(),
-      l = (0, be.useCallback)(
+      i = s.computes.getChallengesByComplexity(e).get(),
+      r = (0, be.useCallback)(
         (e) => {
           a.selectChallenge(e);
           const s = document.querySelector(`[data-challenge-id="${e}"]`);
@@ -1318,16 +1318,16 @@ var ft = "Complexity_card__selected_cd2a2f69",
     return (0, He.jsxs)(He.Fragment, {
       children: [
         (0, He.jsx)(pt, { complexity: e }),
-        ee(r, (s) => {
+        O(i, (s) => {
           const a = s.challengeID,
             t = n === a;
           return (0, He.jsx)(
             ht,
             {
-              className: i(t && ft),
+              className: c(t && ft),
               challengeID: a,
               isSelected: t,
-              onSelect: l,
+              onSelect: r,
               complexity: e,
               "data-challenge-id": a,
             },
@@ -1339,11 +1339,11 @@ var ft = "Complexity_card__selected_cd2a2f69",
   }),
   vt = "ChallengeList_eefb9f3f",
   jt = "ChallengeList_verticalBar_9881b2c2",
-  yt = O(function () {
+  yt = de(function () {
     const { model: e } = Ae(),
       s = e.computes.challenges.get(),
-      { api: a } = m();
-    ne(a);
+      { api: a } = E();
+    te(a);
     const t = e.scrollTargetID.get();
     return (
       (0, be.useEffect)(() => {
@@ -1365,13 +1365,13 @@ var ft = "Complexity_card__selected_cd2a2f69",
       (0, He.jsxs)(He.Fragment, {
         children: [
           (0, He.jsx)(u, {
-            children: ee(s, (e) =>
+            children: O(s, (e) =>
               e.challenges?.length
                 ? (0, He.jsx)(xt, { complexity: e.complexity }, `challenge__${e.complexity}`)
                 : null,
             ),
           }),
-          (0, He.jsx)(ae, { classNames: { base: jt } }),
+          (0, He.jsx)(M, { classNames: { base: jt } }),
         ],
       })
     );
@@ -1380,7 +1380,7 @@ function Nt({ isAnimating: e = !1 }) {
   return (0, He.jsx)("div", {
     className: vt,
     style: { pointerEvents: e ? "none" : "auto", cursor: e ? "default" : "auto" },
-    children: (0, He.jsx)(D, { children: (0, He.jsx)(yt, {}) }),
+    children: (0, He.jsx)(g, { children: (0, He.jsx)(yt, {}) }),
   });
 }
 var wt = {
@@ -1396,17 +1396,17 @@ var wt = {
     restartBlock: "ProgressInfo_restartBlock_f649403c",
     remaining: "ProgressInfo_remaining_3c852f20",
   },
-  It = j.resolve("aliases"),
-  Ct = j.resolve("views"),
+  It = v.resolve("aliases"),
+  Ct = v.resolve("views"),
   kt = It.read((e) => e.user_missions.hub.challengeMissions.MainView("resId")),
   Rt = Ct.read((e) => e.mono.user_missions.tooltips.challenges_shields_tooltip("resId"));
 function St({ attempts: e, remainingAttempts: s, isFailed: a, isCompleted: t, className: n = "" }) {
-  const r = x({ resId: kt, contentId: Rt });
+  const i = j({ resId: kt, contentId: Rt });
   return (0, He.jsxs)("div", {
-    className: i(wt.base, n),
+    className: c(wt.base, n),
     children: [
       (0, He.jsx)("div", {
-        className: i(wt.shields, t && wt.shields__dimmed),
+        className: c(wt.shields, t && wt.shields__dimmed),
         children: Array.from({ length: e }).map((t, n) =>
           (0, He.jsxs)(
             "div",
@@ -1414,8 +1414,8 @@ function St({ attempts: e, remainingAttempts: s, isFailed: a, isCompleted: t, cl
               className: wt.shield,
               children: [
                 (0, He.jsx)("div", {
-                  ...r,
-                  className: i(wt.shieldIcon, (a || n > s - 1) && wt.shieldIcon__fault),
+                  ...i,
+                  className: c(wt.shieldIcon, (a || n > s - 1) && wt.shieldIcon__fault),
                 }),
                 n !== e - 1 && (0, He.jsx)("div", { className: wt.dashIcon }),
               ],
@@ -1427,7 +1427,7 @@ function St({ attempts: e, remainingAttempts: s, isFailed: a, isCompleted: t, cl
       !t &&
         (0, He.jsxs)("div", {
           className: wt.attemptsText,
-          ...r,
+          ...i,
           children: [
             (0, He.jsx)(me, {
               text: Nn.readOrEmpty("user_missions.hub.challenge_missions.header.numberTemplate"),
@@ -1452,34 +1452,34 @@ var Tt = "RestartPrice_33839785",
   Mt = "RestartPrice_restartIcon__opacity_83950c61",
   Bt = "RestartPrice_currency_4cba0a13",
   At = "RestartPrice_currencyIcon_8a20d0ca",
-  $t = j.resolve("aliases"),
-  Ot = j.resolve("views"),
+  $t = v.resolve("aliases"),
+  Ot = v.resolve("views"),
   Lt = $t.read((e) => e.user_missions.hub.challengeMissions.MainView("resId")),
   zt = Ot.read((e) => e.mono.user_missions.tooltips.challenges_restart_tooltip("resId"));
 function Ht({ challengeData: e, hasOpacity: s = !1 }) {
   const a = e.restartCost,
     t = e.currencyType,
     n = e.isEnoughMoney,
-    r = e.remainingFreeRestarts,
-    l = r > 0,
-    c = x({ resId: Lt, contentId: zt }),
-    { breakpoint: o } = te(),
-    d = o.weight >= M.large.weight ? w.medium : w.small;
+    i = e.remainingFreeRestarts,
+    r = i > 0,
+    l = j({ resId: Lt, contentId: zt }),
+    { breakpoint: o } = b(),
+    d = o.weight >= h.large.weight ? I.medium : I.small;
   return (0, He.jsxs)("div", {
     className: Tt,
-    ...c,
+    ...l,
     children: [
-      (0, He.jsx)("div", { className: i(Pt, s && Mt) }),
-      l
+      (0, He.jsx)("div", { className: c(Pt, s && Mt) }),
+      r
         ? (0, He.jsx)(me, {
             text: Nn.readOrEmpty(`${wn}.multiplier`),
-            binding: { count: r },
-            classMix: i(Dt, s && Et),
+            binding: { count: i },
+            classMix: c(Dt, s && Et),
           })
         : (0, He.jsx)(_e, {
             size: d,
             type: t,
-            enough: !l && n,
+            enough: !r && n,
             reverse: !0,
             classNames: { base: Bt, icon: At },
             children: a,
@@ -1490,20 +1490,20 @@ function Ht({ challengeData: e, hasOpacity: s = !1 }) {
 var Vt = "RestartAction_6898d409",
   Wt = "RestartAction_button_3a224126",
   Kt = "RestartAction_info_6898d409",
-  qt = "RestartAction_text_2929e8aa",
-  Ft = "RestartAction_infoIcon_6c17b18",
-  Yt = j.resolve("aliases"),
-  Xt = j.resolve("views"),
-  Ut = Yt.read((e) => e.user_missions.hub.challengeMissions.MainView("resId")),
-  Gt = Xt.read((e) => e.mono.user_missions.tooltips.challenges_restart_tooltip("resId"));
+  Ft = "RestartAction_text_2929e8aa",
+  qt = "RestartAction_infoIcon_6c17b18",
+  Xt = v.resolve("aliases"),
+  Yt = v.resolve("views"),
+  Ut = Xt.read((e) => e.user_missions.hub.challengeMissions.MainView("resId")),
+  Gt = Yt.read((e) => e.mono.user_missions.tooltips.challenges_restart_tooltip("resId"));
 function Jt({ challengeData: e, onAction: s, hasButton: a }) {
-  const t = e.remainingFreeRestarts,
+  const n = e.remainingFreeRestarts,
     i = e.isEnoughMoney,
-    r = e.currencyType === n.crystal,
-    { breakpoint: l } = te(),
-    o = x({ resId: Ut, contentId: Gt }),
-    d = l.weight >= M.large.weight ? c.large : c.small,
-    m = t > 0;
+    r = e.currencyType === t.crystal,
+    { breakpoint: l } = b(),
+    c = j({ resId: Ut, contentId: Gt }),
+    o = l.weight >= h.large.weight ? m.large : m.small,
+    d = n > 0;
   return (0, He.jsxs)("div", {
     className: Vt,
     children: [
@@ -1513,22 +1513,22 @@ function Jt({ challengeData: e, onAction: s, hasButton: a }) {
             disabled: r && !i,
             onClick: () => s("restart"),
             className: Wt,
-            size: d,
-            children: m
+            size: o,
+            children: d
               ? Nn.readOrEmpty(`${wn}.buttons.freeRestart`)
               : Nn.readOrEmpty(`${wn}.buttons.restart`),
           })
         : (0, He.jsxs)("div", {
             className: Kt,
-            ...o,
+            ...c,
             children: [
-              m &&
+              d &&
                 (0, He.jsx)(me, {
                   text: Nn.readOrEmpty("user_missions.hub.challenge_missions.header.restart.text"),
-                  binding: { count: t },
-                  classMix: qt,
+                  binding: { count: n },
+                  classMix: Ft,
                 }),
-              (0, He.jsx)("div", { className: Ft }),
+              (0, He.jsx)("div", { className: qt }),
             ],
           }),
     ],
@@ -1537,14 +1537,14 @@ function Jt({ challengeData: e, onAction: s, hasButton: a }) {
 var Qt = "RestartInfo_cf799b5c",
   Zt = "RestartInfo_text_48b53e90",
   en = "RestartInfo_infoIcon_12406d73",
-  sn = j.resolve("aliases"),
-  an = j.resolve("views"),
+  sn = v.resolve("aliases"),
+  an = v.resolve("views"),
   tn = sn.read((e) => e.user_missions.hub.challengeMissions.MainView("resId")),
   nn = an.read((e) => e.mono.user_missions.tooltips.challenges_restart_tooltip("resId"));
 function rn({ challengeData: e }) {
   const s = e.remainingFreeRestarts,
     a = s > 0,
-    t = x({ resId: tn, contentId: nn });
+    t = j({ resId: tn, contentId: nn });
   return (0, He.jsxs)("div", {
     className: Qt,
     ...t,
@@ -1565,7 +1565,7 @@ function cn(e) {
   const { challengeData: s, className: a = "" } = e,
     t = s.remainingAttempts;
   return (0, He.jsx)("div", {
-    className: i(ln, a),
+    className: c(ln, a),
     children: 0 === t ? (0, He.jsx)(Jt, { ...e }) : (0, He.jsx)(rn, { challengeData: s }),
   });
 }
@@ -1587,20 +1587,20 @@ function jn({
   isAnotherActive: a,
   onAction: t,
   buttonSize: n,
-  className: r = "",
+  className: i = "",
 }) {
   return (0, He.jsxs)("div", {
-    className: i(on, r),
+    className: c(on, i),
     children: [
       (0, He.jsx)(me, {
         text: Nn.readOrEmpty(`${wn}.timer.text`),
         binding: {
           timer: (0, He.jsx)(
-            Y,
+            p,
             {
-              size: p.x24x24,
-              type: v.accent,
-              format: e > 86400 ? g.compact : g.default,
+              size: y.x24x24,
+              type: o.accent,
+              format: e > 86400 ? x.compact : x.default,
               start: e,
               classNames: { icon: mn, label: _n },
             },
@@ -1617,7 +1617,7 @@ function jn({
             (0, He.jsx)(me, {
               text: Nn.readOrEmpty("user_missions.hub.challenge_missions.header.unavailable"),
               binding: {
-                lockIcon: (0, He.jsx)("div", { className: i(pn, a && fn) }),
+                lockIcon: (0, He.jsx)("div", { className: c(pn, a && fn) }),
                 text: (0, He.jsx)("span", {
                   className: xn,
                   children: a
@@ -1627,7 +1627,7 @@ function jn({
                       ),
                 }),
               },
-              classMix: i(gn, a && bn),
+              classMix: c(gn, a && bn),
             }),
             a &&
               (0, He.jsx)(T, {
@@ -1659,60 +1659,60 @@ var yn = {
     button: "Header_button_70aa1da5",
     shimmer: "Header_shimmer_825b28be",
   },
-  Nn = j.resolve("strings"),
+  Nn = v.resolve("strings"),
   wn = "user_missions.hub.challenge_missions.header",
-  In = O(function ({ selectedChallenge: e, className: s = "", enableAnimation: a = !1 }) {
+  In = de(function ({ selectedChallenge: e, className: s = "", enableAnimation: a = !1 }) {
     const { model: t, controls: n } = Ae(),
       {
-        activeChallengeID: r,
-        isSuitableVehicles: l,
-        selectedChallengeExpireTime: o,
+        activeChallengeID: i,
+        isSuitableVehicles: r,
+        selectedChallengeExpireTime: l,
       } = t.root.get(),
-      d = e.state,
-      m = e.challengeName,
-      _ = o,
-      u = e.attempts,
-      g = e.remainingAttempts,
-      p = e.challengeID,
-      f = e.remainingFreeRestarts,
-      x = h(
-        { buttonSize: c.small },
-        { large: { buttonSize: c.medium }, extraLarge: { buttonSize: c.large } },
+      o = e.state,
+      _ = e.challengeName,
+      u = l,
+      g = e.attempts,
+      p = e.remainingAttempts,
+      x = e.challengeID,
+      v = e.remainingFreeRestarts,
+      j = d(
+        { buttonSize: m.small },
+        { large: { buttonSize: m.medium }, extraLarge: { buttonSize: m.large } },
       ),
-      { breakpoint: v } = te(),
-      j = v.weight >= M.large.weight ? c.medium : c.extraSmall,
-      y = d === Me.COMPLETED,
-      N = d === Me.FAILED,
-      w = d === Me.ACTIVE,
-      I = d === Me.INACTIVE,
-      C = Boolean(r && p !== r),
-      k = C || !l,
-      R = k || y,
-      D = w ? "surrender" : "activate",
-      E = $e(a, 0),
-      P = b({
+      { breakpoint: y } = b(),
+      N = y.weight >= h.large.weight ? m.medium : m.extraSmall,
+      w = o === Me.COMPLETED,
+      I = o === Me.FAILED,
+      C = o === Me.ACTIVE,
+      k = o === Me.INACTIVE,
+      R = Boolean(i && x !== i),
+      D = R || !r,
+      E = D || w,
+      P = C ? "surrender" : "activate",
+      M = $e(a, 0),
+      B = f({
         from: { transform: "translateX(-100%)" },
         to: { transform: "translateX(100%)" },
         config: { duration: 700 },
         delay: 2800,
         loop: !0,
       }),
-      B = (e) => {
-        n.handleAction(e, f);
+      A = (e) => {
+        n.handleAction(e, v);
       };
-    return (0, He.jsxs)(X.div, {
-      style: E,
-      className: i(yn.base, s, yn[`state_${d.toLowerCase()}`]),
+    return (0, He.jsxs)(Y.div, {
+      style: M,
+      className: c(yn.base, s, yn[`state_${o.toLowerCase()}`]),
       children: [
-        !y &&
+        !w &&
           (0, He.jsx)(jn, {
-            expireTime: _,
-            isLocked: k,
-            isAnotherActive: C,
-            onAction: B,
-            buttonSize: j,
+            expireTime: u,
+            isLocked: D,
+            isAnotherActive: R,
+            onAction: A,
+            buttonSize: N,
           }),
-        y &&
+        w &&
           (0, He.jsx)("div", {
             className: yn.completeText,
             children: (0, He.jsx)(me, {
@@ -1723,19 +1723,19 @@ var yn = {
         (0, He.jsxs)("div", {
           className: yn.controls,
           children: [
-            (0, He.jsx)("div", { className: i(yn.name, R && yn.name__disabled), children: m }),
-            (w || I) &&
-              !k &&
+            (0, He.jsx)("div", { className: c(yn.name, E && yn.name__disabled), children: _ }),
+            (C || k) &&
+              !D &&
               (0, He.jsxs)("div", {
                 className: yn.buttonWrapper,
                 children: [
                   (0, He.jsx)(T, {
-                    onClick: () => B(D),
+                    onClick: () => A(P),
                     className: yn.button,
-                    size: x.buttonSize,
-                    theme: w ? S.secondary : S.primary,
-                    disabled: k,
-                    children: w
+                    size: j.buttonSize,
+                    theme: C ? S.secondary : S.primary,
+                    disabled: D,
+                    children: C
                       ? Nn.readOrEmpty(
                           "user_missions.hub.challenge_missions.header.buttons.surrender",
                         )
@@ -1743,25 +1743,25 @@ var yn = {
                           "user_missions.hub.challenge_missions.header.buttons.activate",
                         ),
                   }),
-                  I && !k && (0, He.jsx)(X.div, { style: P, className: yn.shimmer }),
+                  k && !D && (0, He.jsx)(Y.div, { style: B, className: yn.shimmer }),
                 ],
               }),
           ],
         }),
         (0, He.jsxs)("div", {
-          className: i(yn.attemptsSection, R && yn.attemptsSection__disabled),
+          className: c(yn.attemptsSection, E && yn.attemptsSection__disabled),
           children: [
-            (0, He.jsx)(St, { attempts: u, remainingAttempts: g, isFailed: N, isCompleted: y }),
-            !y &&
+            (0, He.jsx)(St, { attempts: g, remainingAttempts: p, isFailed: I, isCompleted: w }),
+            !w &&
               (0, He.jsxs)("div", {
-                className: i(yn.restartSection, R && yn.restartSection__disabled),
+                className: c(yn.restartSection, E && yn.restartSection__disabled),
                 children: [
                   (0, He.jsx)("div", { className: yn.restartDivider }),
                   (0, He.jsx)(cn, {
                     challengeData: e,
-                    hasButton: !k,
-                    isActive: w,
-                    onAction: B,
+                    hasButton: !D,
+                    isActive: C,
+                    onAction: A,
                     className: yn.restartBlock,
                   }),
                 ],
@@ -1775,7 +1775,7 @@ var yn = {
   kn = "ChallengeContent_challengeInfo_cc1bc653",
   Rn = "ChallengeContent_transitionWrapper_2895b14e",
   Sn = "ChallengeContent_cards_ae124483",
-  Tn = O(function () {
+  Tn = de(function () {
     const { model: e } = Ae(),
       { selectedChallengeID: s } = e.root.get(),
       a = e.computes.getChallengeByID(s),
@@ -1789,14 +1789,14 @@ var yn = {
       (0, be.useEffect)(() => {
         (r(!1), c(!0));
       }, [s]));
-    const m = xe(
+    const d = xe(
         "left",
         () => {
           n(!0);
         },
         k(Te),
       ),
-      _ = xe("up"),
+      m = xe("up"),
       u =
         ((h = a),
         (g = s),
@@ -1804,7 +1804,7 @@ var yn = {
           (r(!0), c(!1));
         }),
         (p = k(De)),
-        d(h, {
+        _(h, {
           keys: g,
           from: fe.from,
           enter: () => async (e) => {
@@ -1817,11 +1817,11 @@ var yn = {
     return (0, He.jsxs)("div", {
       className: Cn,
       children: [
-        (0, He.jsx)(X.div, { style: m, children: (0, He.jsx)(Nt, { isAnimating: l }) }),
-        (0, He.jsx)(X.div, {
+        (0, He.jsx)(Y.div, { style: d, children: (0, He.jsx)(Nt, { isAnimating: l }) }),
+        (0, He.jsx)(Y.div, {
           className: kn,
           style: {
-            transform: _.transform,
+            transform: m.transform,
             pointerEvents: l ? "none" : "auto",
             cursor: l ? "default" : "auto",
           },
@@ -1829,7 +1829,7 @@ var yn = {
             if (!s) return null;
             const a = s,
               n = t && i;
-            return (0, He.jsx)(X.div, {
+            return (0, He.jsx)(Y.div, {
               className: Rn,
               style: e,
               children:
@@ -1839,7 +1839,7 @@ var yn = {
                     (0, He.jsx)(In, { selectedChallenge: a, enableAnimation: !0 }),
                     (0, He.jsx)("div", {
                       className: Sn,
-                      children: (0, He.jsx)(P, {
+                      children: (0, He.jsx)(B, {
                         children: (0, He.jsx)(Ua, { selectedChallenge: a, enableAnimation: !0 }),
                       }),
                     }),
@@ -1854,7 +1854,7 @@ var yn = {
   Dn = "ChallengesEmpty_2e7c4f64",
   En = "ChallengesEmpty_timerIcon_f155d3b5",
   Pn = "ChallengesEmpty_title_92c1e7c4",
-  Mn = j.resolve("strings");
+  Mn = v.resolve("strings");
 function Bn() {
   return (0, He.jsxs)("div", {
     className: Dn,
@@ -1869,7 +1869,7 @@ function Bn() {
 }
 var An = "ChallengeMissions_f1737fb7",
   $n = "ChallengeMissions_empty_6a671d3b",
-  On = O(function () {
+  On = de(function () {
     const { model: e } = Ae(),
       s = e.enabled.get();
     return (0, He.jsx)("div", {

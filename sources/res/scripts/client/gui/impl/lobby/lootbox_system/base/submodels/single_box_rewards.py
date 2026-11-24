@@ -71,8 +71,8 @@ class SingleBoxRewards(SubViewImpl):
         self.__isReopen = kwargs.get(b'isReopen', False)
         self.__category = kwargs.get(b'category', b'')
         self.__openCount = kwargs.get(b'count', 0)
-        self.__updateBonusesData(first(kwargs.get(b'bonuses', []), []))
         self.__eventName = kwargs.get(b'eventName', b'')
+        self.__updateBonusesData(first(kwargs.get(b'bonuses', []), []))
         with self.viewModel.transaction() as vmTx:
             self.__setWindowAccessible(model=vmTx)
             self.__updateData(model=vmTx)

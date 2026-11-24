@@ -3,7 +3,7 @@ from past.builtins import unicode
 from helpers import dependency
 from messenger import g_settings
 from messenger.ext.player_helpers import isCurrentPlayer
-from messenger.formatters import TimeFormatter
+from messenger.formatters import TimeFormatter, escapeSmileys
 from messenger.m_constants import USER_GUI_TYPE
 from messenger.storage import MessengerStorageDescriptor, UsersStorage
 from skeletons.gui.battle_session import IBattleSessionProvider
@@ -31,7 +31,7 @@ class _BattleMessageBuilder(object):
         name = name + suffix
         if isinstance(name, bytes):
             name = unicode(name, b'utf-8')
-        self._ctx[b'playerName'] = name
+        self._ctx[b'playerName'] = escapeSmileys(name)
         return self
 
     def setText(self, text):

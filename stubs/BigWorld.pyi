@@ -290,7 +290,10 @@ def enableFreeCameraModeForShadowManager(arg0: bool) -> None: ...
 
 def enableLoadingTimer(arg0: bool) -> None: ...
 
+@overload
 def entity(arg0: Any) -> Any: ...
+@overload
+def entity(arg0: Any) -> dict[interned_string, Any]: ...
 
 def fetchURL(arg0: Any, arg1: Any) -> None: ...
 
@@ -1140,6 +1143,7 @@ DrawAll: Any
 DualGunAimingSystem: Any
 DualGunAimingSystemRemote: Any
 Entity: Any
+EventType: Any
 FutureNotReady: Any
 IS_CONSUMER_CLIENT_BUILD: Any
 NULL_CLUSTER_ID: Any
@@ -1201,14 +1205,6 @@ class AvatarSubfilters:
     CAMERA_ARTY_TRANSLATION: ClassVar[AvatarSubfilters]  # native value: 2
     CAMERA_SHOT_POINT: ClassVar[AvatarSubfilters]  # native value: 0
 
-class EventType:
-    LOADING_VIEW: ClassVar[EventType]  # native value: 1
-    LOAD_CANCELLED: ClassVar[EventType]  # native value: 4
-    LOAD_FAILED: ClassVar[EventType]  # native value: 3
-    VIEW_CREATED: ClassVar[EventType]  # native value: 0
-    VIEW_DESTROYED: ClassVar[EventType]  # native value: 5
-    VIEW_LOADED: ClassVar[EventType]  # native value: 2
-
 class FilterInterpolationType:
     ANGLE_RADIANS: ClassVar[FilterInterpolationType]  # native value: 2
     LINEAR: ClassVar[FilterInterpolationType]  # native value: 0
@@ -1238,9 +1234,6 @@ CAMERA_ARTY_TRANSLATION: Final[AvatarSubfilters] = AvatarSubfilters.CAMERA_ARTY_
 CAMERA_SHOT_POINT: Final[AvatarSubfilters] = AvatarSubfilters.CAMERA_SHOT_POINT
 LINEAR: Final[FilterInterpolationType] = FilterInterpolationType.LINEAR
 LIVEKIT: Final[VOIPBackend] = VOIPBackend.LIVEKIT
-LOADING_VIEW: Final[EventType] = EventType.LOADING_VIEW
-LOAD_CANCELLED: Final[EventType] = EventType.LOAD_CANCELLED
-LOAD_FAILED: Final[EventType] = EventType.LOAD_FAILED
 Parent: Final[SpawnTarget] = SpawnTarget.Parent
 REPLAY_ABORTED_CORRUPTED_DATA: Final[ReplayTerminatedReason] = ReplayTerminatedReason.REPLAY_ABORTED_CORRUPTED_DATA
 REPLAY_ABORTED_ENTITYDEF_MISMATCH: Final[ReplayTerminatedReason] = ReplayTerminatedReason.REPLAY_ABORTED_ENTITYDEF_MISMATCH
@@ -1251,7 +1244,4 @@ Root: Final[SpawnTarget] = SpawnTarget.Root
 SLERP_OF_CARTESIAN: Final[FilterInterpolationType] = FilterInterpolationType.SLERP_OF_CARTESIAN
 SPHERICAL_RADIANS: Final[FilterInterpolationType] = FilterInterpolationType.SPHERICAL_RADIANS
 Space: Final[SpawnTarget] = SpawnTarget.Space
-VIEW_CREATED: Final[EventType] = EventType.VIEW_CREATED
-VIEW_DESTROYED: Final[EventType] = EventType.VIEW_DESTROYED
-VIEW_LOADED: Final[EventType] = EventType.VIEW_LOADED
 VIVOX: Final[VOIPBackend] = VOIPBackend.VIVOX

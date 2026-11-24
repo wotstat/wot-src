@@ -10,12 +10,12 @@ import {
   a as c,
   c as l,
   i as d,
-  j as m,
-  n as u,
-  o as p,
-  q as g,
-  r as _,
-  s as h,
+  n as m,
+  o as u,
+  q as p,
+  r as g,
+  s as _,
+  x as h,
   z as f,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
@@ -29,7 +29,7 @@ function N({ title: s, description: e, image: a }) {
   return (0, I.jsxs)("div", {
     className: w,
     children: [
-      (0, I.jsx)(h, {
+      (0, I.jsx)(_, {
         className: k,
         path: `${a}_small`,
         width: 268,
@@ -39,14 +39,14 @@ function N({ title: s, description: e, image: a }) {
           extraLarge: { width: 402, height: 272, path: `${a}_large` },
         },
       }),
-      (0, I.jsx)(m, { path: s, className: x }),
-      (0, I.jsx)(m, { className: v, path: e, params: { color: "#EEEDE9E5" }, split: !0 }),
+      (0, I.jsx)(h, { path: s, className: x }),
+      (0, I.jsx)(h, { className: v, path: e, params: { color: "#EEEDE9E5" }, split: !0 }),
     ],
   });
 }
-var A = s(a(), 1);
+var A = s(f(), 1);
 function B({ src: s }) {
-  const e = p(s);
+  const e = u(s);
   if ("failure" === e.status || "loading" === e.status) return null;
   if ("function" != typeof e.result)
     return (console.error("Incorrect type plugin result " + typeof e.result), null);
@@ -71,7 +71,7 @@ var [V, y] = i("WinbackUmgIntroViewModel")(
   U = "App_confirmButton_d8666e75",
   D = r.resolve("strings"),
   F = [R.images.gui.maps.icons.winback.umgIntro.background()],
-  Q = f(function () {
+  Q = a(function () {
     const { model: s, controls: e } = y(),
       { hasBattlePass: a, backgroundPlugin: i, dailyQuestsPlugin: t } = s.get(),
       o = ((s) =>
@@ -79,7 +79,7 @@ var [V, y] = i("WinbackUmgIntroViewModel")(
           ? { description: "battlePass", image: "questsBP" }
           : { description: "default", image: "quests" })(a),
       r = b(F) !== j.Pending;
-    g(e.close);
+    p(e.close);
     const c = n({ value: d.small }, { large: { value: d.medium } });
     return (0, I.jsxs)("div", {
       className: (0, A.default)(E, !r && P),
@@ -91,7 +91,7 @@ var [V, y] = i("WinbackUmgIntroViewModel")(
           (0, I.jsxs)("div", {
             className: C,
             children: [
-              (0, I.jsx)(u, { onClose: e.close, className: M }),
+              (0, I.jsx)(m, { onClose: e.close, className: M }),
               (0, I.jsx)("div", {
                 className: z,
                 children: D.readOrEmpty("winback.umgIntroView.title"),
@@ -120,9 +120,9 @@ var [V, y] = i("WinbackUmgIntroViewModel")(
                   }),
                 ],
               }),
-              (0, I.jsx)(_, {
+              (0, I.jsx)(g, {
                 onClick: e.close,
-                theme: _.themes.primary,
+                theme: g.themes.primary,
                 size: c.value,
                 className: U,
                 children: D.readOrEmpty("winback.umgIntroView.buttons.confirm"),

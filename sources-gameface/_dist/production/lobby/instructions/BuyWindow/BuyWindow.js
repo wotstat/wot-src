@@ -1499,6 +1499,7 @@
                     golds: e.golds,
                     crystals: e.crystals,
                     freexp: e.freexp,
+                    isWalletAvailable: e.isWalletAvailable,
                   }),
                   i().createElement("div", { className: j }),
                 ),

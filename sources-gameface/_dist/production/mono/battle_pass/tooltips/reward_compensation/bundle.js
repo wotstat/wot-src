@@ -2,17 +2,17 @@ import { r as a } from "../../chunks/rolldown-runtime.js";
 import {
   G as e,
   J as s,
-  Jt as r,
-  Mr as n,
+  Mr as r,
+  Ot as n,
   Qr as i,
   Rr as t,
-  Tt as o,
-  Vr as l,
-  X as d,
-  Yn as c,
-  _n as _,
-  ci as f,
-  di as m,
+  Vr as o,
+  X as l,
+  Yn as d,
+  _n as c,
+  ci as _,
+  di as f,
+  en as m,
   fn as b,
   gn as p,
   n as w,
@@ -24,24 +24,24 @@ import "../../chunks/global.js";
 import { h } from "../../chunks/vendor.js";
 import { a as x } from "../../chunks/utils.js";
 import { t as R } from "../../chunks/tank_name.js";
-f();
-var [I, N] = _()(({ observableModel: a }) => {
+_();
+var [I, N] = c()(({ observableModel: a }) => {
     const e = {
         root: a.object(),
         initialRewardsArray: a.array("initialReward"),
         compensationRewardsArray: a.array("compensationReward"),
       },
-      s = p((a = 0) => n(e.initialRewardsArray.get().items, a), { equals: t }),
-      r = p((a = 0) => n(e.compensationRewardsArray.get().items, a), { equals: t });
-    return { ...e, computes: { initialReward: s, compensationReward: r } };
-  }, l),
+      s = p((a = 0) => r(e.initialRewardsArray.get().items, a), { equals: t }),
+      n = p((a = 0) => r(e.compensationRewardsArray.get().items, a), { equals: t });
+    return { ...e, computes: { initialReward: s, compensationReward: n } };
+  }, o),
   k = "Arrow_c612004f",
   g = "Arrow_icon_ca620234",
-  y = c();
+  y = d();
 function D({ className: a }) {
   return (0, y.jsx)("div", { className: v(k, a), children: (0, y.jsx)("div", { className: g }) });
 }
-var A = {
+var O = {
     base: "Divider_d6b67ddd",
     base__top: "Divider_base__top_6e207943",
     base__bottom: "Divider_base__bottom_6fbb70c2",
@@ -54,10 +54,10 @@ var A = {
     fadeOut: "Divider_fadeOut_76b1f722",
     fadeIn: "Divider_fadeIn_76b1f722",
   },
-  O = "top",
+  A = "top",
   C = "bottom";
 function E({ position: a }) {
-  return (0, y.jsx)("div", { className: v(A.base, A[`base__${a}`]) });
+  return (0, y.jsx)("div", { className: v(O.base, O[`base__${a}`]) });
 }
 var S = {
     base: "RewardInfo_16031c66",
@@ -76,19 +76,19 @@ var S = {
     fadeIn: "RewardInfo_fadeIn_4a85f1a2",
   },
   q = (a) => {
-    const { name: e, value: r, userName: n } = a;
+    const { name: e, value: r, userName: i } = a;
     if (
-      e === d.Vehicles &&
+      e === l.Vehicles &&
       ((a) => ["vehicleName", "vehicleType", "vehicleLvl", "isElite"].every((e) => e in a))(a)
     ) {
       const e = { base: S.label, name: S.tankName, level: S.tankLevel };
-      return (0, y.jsx)(R, { ...a, vehicleTypeIconSize: o.x24x24, classNames: e });
+      return (0, y.jsx)(R, { ...a, vehicleTypeIconSize: n.x24x24, classNames: e });
     }
-    if (e === d.Customizations) return (0, y.jsx)("span", { className: S.label, children: n });
-    const i = u(r, s(e));
+    if (e === l.Customizations) return (0, y.jsx)("span", { className: S.label, children: i });
+    const t = u(r, s(e));
     return (0, y.jsx)("span", {
       className: v(S.label, S[`label__${e}`]),
-      children: "string" == typeof i ? i : r,
+      children: "string" == typeof t ? t : r,
     });
   };
 function L({ reward: a }) {
@@ -103,7 +103,7 @@ function F({ initialReward: a, compensationReward: e }) {
     className: U,
     children: [
       (0, y.jsx)("div", { className: W }),
-      (0, y.jsx)(E, { position: O }),
+      (0, y.jsx)(E, { position: A }),
       (0, y.jsx)(L, { reward: a }),
       (0, y.jsx)(D, { className: $ }),
       (0, y.jsx)(L, { reward: e }),
@@ -111,33 +111,33 @@ function F({ initialReward: a, compensationReward: e }) {
     ],
   });
 }
-var T = "Footer_9d3d3a12",
-  z = "Footer_compensation_b57b9f53",
-  J = m.resolve("images"),
-  M = m.resolve("strings");
-function P() {
+var z = "Footer_9d3d3a12",
+  M = "Footer_compensation_b57b9f53",
+  P = f.resolve("images"),
+  T = f.resolve("strings");
+function V() {
   const a = j(
-    J.readOrEmpty("battlePass.tooltips.compensation"),
-    J.readOrEmpty("battlePass.tooltips.compensation_large"),
+    P.readOrEmpty("battlePass.tooltips.compensation"),
+    P.readOrEmpty("battlePass.tooltips.compensation_large"),
   );
   return (0, y.jsxs)("div", {
-    className: T,
+    className: z,
     children: [
-      (0, y.jsx)("div", { className: z, style: { backgroundImage: `url(${a})` } }),
+      (0, y.jsx)("div", { className: M, style: { backgroundImage: `url(${a})` } }),
       (0, y.jsx)("span", {
-        children: M.readOrEmpty("battle_pass.tooltips.rewardCompensation.footer"),
+        children: T.readOrEmpty("battle_pass.tooltips.rewardCompensation.footer"),
       }),
     ],
   });
 }
-var V = "Header_title_487f6f3f",
-  G = m.resolve("strings");
-function H({ rewardName: a }) {
+var G = "Header_title_487f6f3f",
+  H = f.resolve("strings");
+function J({ rewardName: a }) {
   return (0, y.jsxs)(y.Fragment, {
     children: [
-      (0, y.jsx)("span", { className: V, children: i(a) }),
-      (0, y.jsx)(r, {
-        text: G.readOrEmpty(`battle_pass.tooltips.rewardCompensation.description.${a}`),
+      (0, y.jsx)("span", { className: G, children: i(a) }),
+      (0, y.jsx)(m, {
+        text: H.readOrEmpty(`battle_pass.tooltips.rewardCompensation.description.${a}`),
       }),
     ],
   });
@@ -150,9 +150,9 @@ var Q = "App_fc800ea3",
     return (0, y.jsxs)("div", {
       className: Q,
       children: [
-        (0, y.jsx)(H, { rewardName: s.name }),
+        (0, y.jsx)(J, { rewardName: s.name }),
         (0, y.jsx)(F, { initialReward: e, compensationReward: s }),
-        (0, y.jsx)(P, {}),
+        (0, y.jsx)(V, {}),
       ],
     });
   });

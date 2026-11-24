@@ -29,4 +29,5 @@ class ChallengesShieldUsedNotification(NotificationBase):
 
     def __onClick(self):
         showChallenges(self._getPayload().get(b'challengeID'))
+        self._closeNotificationCenter()
         return

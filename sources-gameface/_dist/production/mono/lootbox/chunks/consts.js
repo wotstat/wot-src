@@ -20,13 +20,13 @@ import {
   at as v,
   d as x,
   ft as y,
-  gt as b,
-  it as w,
-  j as N,
-  kt as j,
-  l as k,
-  lt as B,
-  m as C,
+  g as b,
+  gt as w,
+  h as N,
+  it as j,
+  j as k,
+  kt as B,
+  lt as C,
   nt as S,
   p as E,
   tt as O,
@@ -37,7 +37,7 @@ import { a as V, n as $, r as L, t as D } from "./getRewardImage.js";
 import { n as F, t as W } from "./sounds.js";
 import { r as H } from "./shield.js";
 import { t as M } from "./vehicle_info.js";
-import { a as J, i as G, n as K, o as Q, r as q, t as U } from "./use_video_loaded.js";
+import { c as J, i as G, n as K, o as Q, s as q, t as U } from "./use_video_loaded.js";
 import { i as X, n as Y, r as Z, t as ee } from "./vendor.js";
 var te = e(o()),
   ae = (e) => {
@@ -120,7 +120,7 @@ function se(e) {
         };
       }, [c, s, o, l, t]);
     return (
-      w(() => {
+      j(() => {
         a && d.start();
       }),
       d
@@ -273,7 +273,7 @@ function Pe({ className: e, res: t, enabled: a, minimized: s, onPlay: r, onEnded
   const [i, c] = (0, te.useState)(ze),
     l = (0, te.useRef)(null),
     d = xe(ee(ve, (e) => e.value)),
-    u = Q(I),
+    u = J(I),
     m = () => {
       (i !== Te && c(Te), ve.send({ type: _e.toRewards }));
     };
@@ -354,7 +354,7 @@ var Me = "Page_36a49111",
   (Je.Waiting = function ({ image: e, text: t, className: a }) {
     return (0, Oe.jsx)("div", {
       className: f(We, a),
-      children: (0, Oe.jsx)(J, { text: t, img: e, className: He }),
+      children: (0, Oe.jsx)(q, { text: t, img: e, className: He }),
     });
   }));
 var Ge = "Body_201f95c6";
@@ -377,7 +377,7 @@ function et({ children: e, className: t }) {
   (et.Footer = function ({ children: e, className: t }) {
     return (0, Oe.jsx)("div", { className: f(Ke, t), children: e });
   }),
-  (et.Checkbox = ({ className: e, ...t }) => (0, Oe.jsx)(G, { ...t, className: f(Xe, e) })),
+  (et.Checkbox = ({ className: e, ...t }) => (0, Oe.jsx)(Q, { ...t, className: f(Xe, e) })),
   (et.PurchaseButton = ({ className: e, ...t }) => (0, Oe.jsx)(F, { ...t, className: f(Ye, e) })),
   (et.Header = ({ className: e, ...t }) => (0, Oe.jsx)(A, { ...t, className: f(qe, e) })),
   (et.CloseButton = ({ className: e, ...t }) => (0, Oe.jsx)(m, { ...t, className: f(Ze, e) })));
@@ -480,17 +480,17 @@ function ht({ eventName: e, boxes: t, children: a, className: s }) {
   });
 }
 ((ht.Primary = function ({ actions: e, balance: t }) {
-  const { eventName: a } = (0, te.useContext)(q),
+  const { eventName: a } = (0, te.useContext)(G),
     n = h(() => e.openNext(), [e], 1100),
     r = ee(ve, (e) => e.value),
     { texts: o } = P(dt, a),
-    i = B({ buttonSize: s.sizes.medium }, { large: { buttonSize: s.sizes.large } }),
+    i = C({ buttonSize: s.sizes.medium }, { large: { buttonSize: s.sizes.large } }),
     c = t > 0;
   function l() {
     r === ue.initial && t && n();
   }
   return (
-    S(j.SPACE, l, !0),
+    S(B.SPACE, l, !0),
     (0, Oe.jsxs)(K.Control, {
       children: [
         (0, Oe.jsx)(s, {
@@ -510,13 +510,13 @@ function ht({ eventName: e, boxes: t, children: a, className: s }) {
 }),
   (ht.Secondary = function ({ actions: e, category: t, reroll: n }) {
     const o = c.resolve("views"),
-      { eventName: i } = (0, te.useContext)(q),
+      { eventName: i } = (0, te.useContext)(G),
       d = h(() => e.reroll(), [e], 1100),
       u = ee(ve, (e) => e.value),
       { isEnoughMoney: m, attemptsLeft: p, currency: f, price: g } = n,
-      _ = f === x.crystal && !m,
+      _ = f === E.crystal && !m,
       { texts: v, images: y } = P(dt, i),
-      b = B({ buttonSize: s.sizes.medium }, { large: { buttonSize: s.sizes.large } }),
+      b = C({ buttonSize: s.sizes.medium }, { large: { buttonSize: s.sizes.large } }),
       w = (function (e) {
         return e.hasSpecialReward ? gt : 0 === e.attemptsLeft ? ft : pt;
       })(n),
@@ -537,11 +537,11 @@ function ht({ eventName: e, boxes: t, children: a, className: s }) {
             },
       ),
       j = r({ body: v.rerollNotEnoughBons }),
-      C = w === pt && _ ? j : null;
+      k = w === pt && _ ? j : null;
     return (0, Oe.jsxs)(K.Control, {
       children: [
         (0, Oe.jsx)("div", {
-          ...C,
+          ...k,
           children: (0, Oe.jsx)(s, {
             size: b.buttonSize,
             disabled: w !== pt || _,
@@ -555,7 +555,7 @@ function ht({ eventName: e, boxes: t, children: a, className: s }) {
                   ? v.rerollButtonFree
                   : (0, Oe.jsx)(a, {
                       text: v.rerollButtonPaid,
-                      params: { count: (0, Oe.jsx)(k, { type: f, reverse: !0, children: g }) },
+                      params: { count: (0, Oe.jsx)(x, { type: f, reverse: !0, children: g }) },
                     })
                 : v.rerollButtonReopen,
           }),
@@ -638,7 +638,7 @@ function At({ rareBonus: e, texts: t }) {
   forceImage: r = !0,
 }) {
   const [o, i] = (0, te.useState)(!1),
-    c = Q(I),
+    c = J(I),
     l = r || o;
   return (
     le(t),
@@ -702,7 +702,7 @@ function Wt({
     }),
     de(_, p, o),
     (0, te.useEffect)(() => {
-      if (d.isLow()) return b(() => m(!0), 300);
+      if (d.isLow()) return w(() => m(!0), 300);
     }, []),
     (0, Oe.jsxs)(zt, {
       className: Tt,
@@ -733,7 +733,7 @@ function Wt({
                         text: r.rareOverlayStyleDescription,
                         params: {
                           vehicleInfo: (0, Oe.jsx)(zt.Description.Vehicle, {
-                            vehicleName: t.label,
+                            vehicleName: t.vehicle3DStyleName,
                             vehicleLvl: t.level,
                             isElite: t.isElite,
                             vehicleType: t.type,
@@ -830,7 +830,7 @@ function Qt({ className: e, style: t = {}, src: a, sound: s, show: r, onEnded: o
     (0, Oe.jsx)("div", {
       className: f(Jt, e),
       style: t,
-      children: (0, Oe.jsx)(C, { className: f(Gt, r && Kt), src: a, ref: i, onEnded: l }),
+      children: (0, Oe.jsx)(b, { className: f(Gt, r && Kt), src: a, ref: i, onEnded: l }),
     })
   );
 }
@@ -848,7 +848,7 @@ function Yt({ children: e, className: t = "" }) {
   return (0, Oe.jsx)("div", {
     className: f(qt, a),
     style: s,
-    children: (0, Oe.jsx)(E, { text: t, binding: { count: e }, formatWithBrackets: !0 }),
+    children: (0, Oe.jsx)(N, { text: t, binding: { count: e }, formatWithBrackets: !0 }),
   });
 }),
   (Yt.Overlay = function ({ reward: e, size: t, className: a = "" }) {
@@ -869,14 +869,14 @@ var ta = "Reward_21f091ec",
   aa = "Reward_count_298a4419",
   sa = (e, t) => {
     const { name: a, isRent: s } = e;
-    return a === L.vehicles && t === N.Big
+    return a === L.vehicles && t === k.Big
       ? "R.images.gui.maps.icons.quests.bonuses.big.vehicles" + (s ? "_rent" : "")
-      : a === L.customizations && t === N.Big
+      : a === L.customizations && t === k.Big
         ? D({ ...e, id: 0 }, t)
         : D(e, t);
   },
   na = (e, t) => {
-    if (t === N.Big)
+    if (t === k.Big)
       switch (e) {
         case L.tokens:
         case L.tmanToken:
