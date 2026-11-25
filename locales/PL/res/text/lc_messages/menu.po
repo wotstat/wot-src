@@ -4510,6 +4510,15 @@ msgstr "Moc silnika (turbo)"
 msgid "moduleInfo/params/weight"
 msgstr "Masa"
 
+msgid "moduleInfo/paramsSeparator/colon"
+msgstr ":"
+
+msgid "moduleInfo/paramsSeparator/dash"
+msgstr "–"
+
+msgid "moduleInfo/paramsSeparator/slash"
+msgstr "/"
+
 msgid "moduleInfo/propellantAfterburnerGun"
 msgstr "Indukcyjny dopalacz ładunku zwiększający średnie uszkodzenia"
 
@@ -7151,13 +7160,13 @@ msgid "vehicle/rentLeft/wins"
 msgstr "Pozostałe zwycięstwa: %(wins)s"
 
 msgid "vehicle/restoreCooldownLeft/days"
-msgstr "Odzyskanie będzie możliwe za %(time)s dni."
+msgstr "Odzyskanie będzie możliwe za %(time)s d."
 
 msgid "vehicle/restoreCooldownLeft/hours"
 msgstr "Odzyskanie będzie możliwe za %(time)s godz."
 
 msgid "vehicle/restoreLeft/days"
-msgstr "Możliwy do odzyskania przez kolejne %(time)s dni."
+msgstr "Możliwy do odzyskania przez kolejne %(time)s d."
 
 msgid "vehicle/restoreLeft/disabledByRent"
 msgstr "Niedostępne do końca wypożyczenia"

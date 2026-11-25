@@ -5,60 +5,60 @@ import {
   B as r,
   Bt as t,
   Ct as n,
-  D as i,
-  E as o,
-  Et as l,
-  Ft as d,
-  G as c,
-  Ht as _,
+  Et as i,
+  F as o,
+  Ft as l,
+  G as d,
+  Ht as c,
+  I as _,
   K as m,
   Kt as u,
   L as p,
   Lt as h,
-  O as b,
-  Q as g,
-  R as w,
-  T as v,
-  U as f,
-  X as R,
-  an as y,
-  at as N,
-  bt as x,
-  cn as O,
+  M as b,
+  N as g,
+  P as w,
+  Q as v,
+  R as f,
+  U as R,
+  X as y,
+  an as N,
+  at as x,
+  bt as O,
+  cn as j,
   ct as T,
-  en as j,
-  et as I,
-  ft as S,
-  gt as A,
+  en as I,
+  et as S,
+  ft as A,
+  gt as P,
   in as E,
-  ln as P,
-  lt as H,
-  m as C,
-  mt as k,
-  nn as V,
+  j as H,
+  ln as C,
+  lt as k,
+  mt as V,
+  nn as M,
   on as $,
-  ot as M,
-  pt as B,
-  q as W,
-  rn as L,
-  tn as z,
-  tt as D,
-  w as G,
+  ot as B,
+  pt as W,
+  q as L,
+  rn as z,
+  tn as D,
+  tt as G,
   xt as K,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { a as q } from "../chunks/vendor.js";
-import { a as U, i as F, r as Y } from "../chunks/helpers.js";
+import { a as F, i as U, r as Y } from "../chunks/helpers.js";
 import { t as Q } from "../chunks/style_bonus_model.js";
-var X = e(O(), 1),
+var X = e(j(), 1),
   J = (e) => () => {
     const { steps: a, autoStart: s = !0 } = e,
       r = (0, X.useRef)(null),
       t = (0, X.useRef)("idle"),
       n = (0, X.useRef)([]),
-      i = A(),
-      o = N(),
-      l = M(),
+      i = P(),
+      o = x(),
+      l = B(),
       d = (0, X.useMemo)(() => {
         const e = a[Symbol.iterator](),
           s = () => {
@@ -112,13 +112,13 @@ var X = e(O(), 1),
         };
       }, [o, i, l, a]);
     return (
-      k(() => {
+      V(() => {
         s && d.start();
       }),
       d
     );
   },
-  Z = new Set([i.Small, i.Big]),
+  Z = new Set([o.Small, o.Big]),
   ee = (e) => ({
     index: e.index,
     name: e.name,
@@ -138,16 +138,16 @@ var X = e(O(), 1),
           case "attachment":
             return `R.images.gui.maps.vehicles.attachments.${a}.${e.icon}`;
           default:
-            return G(e, a);
+            return b(e, a);
         }
       })(e, a),
     value: e.value,
     label: e.label,
     icon: e.icon,
-    valueType: o(e.name),
-    tooltipArgs: v(
-      { [F]: e.tooltipId },
-      P.resolve("views").read((e) =>
+    valueType: w(e.name),
+    tooltipArgs: g(
+      { [U]: e.tooltipId },
+      C.resolve("views").read((e) =>
         e.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId"),
       ),
     ),
@@ -161,32 +161,32 @@ var X = e(O(), 1),
     };
   },
   re = {
-    gui_random_reward_appear: D("gui_random_reward_appear"),
-    gui_hangar_simple_execution_screen: D("gui_hangar_simple_execution_screen"),
-    vid_pm_o08_s15: D("vid_pm_o08_s15"),
-    vid_pm_o09_s15: D("vid_pm_o09_s15"),
-    vid_pm_o10_s15: D("vid_pm_o10_s15"),
-    vid_pm_o11_s15: D("vid_pm_o11_s15"),
-    vid_pm_resume: D("vid_pm_resume"),
-    vid_pm_pause: D("vid_pm_pause"),
-    stopIntro: D("vid_pm_stop"),
+    gui_random_reward_appear: G("gui_random_reward_appear"),
+    gui_hangar_simple_execution_screen: G("gui_hangar_simple_execution_screen"),
+    vid_pm_o08_s15: G("vid_pm_o08_s15"),
+    vid_pm_o09_s15: G("vid_pm_o09_s15"),
+    vid_pm_o10_s15: G("vid_pm_o10_s15"),
+    vid_pm_o11_s15: G("vid_pm_o11_s15"),
+    vid_pm_resume: G("vid_pm_resume"),
+    vid_pm_pause: G("vid_pm_pause"),
+    stopIntro: G("vid_pm_stop"),
   },
-  [te, ne] = g()(
+  [te, ne] = v()(
     ({ observableModel: e }) => {
       const a = {
           root: e.object(),
           vehicle: e.object("vehicle"),
           rewards: e.transform((e) => t(e, ee), "rewards"),
         },
-        s = d.box(!1),
-        r = R.model(() => {
+        s = l.box(!1),
+        r = y.model(() => {
           const e = a.root.get().type;
-          return e === U.OPERATION || e === U.VEHICLE_PART
+          return e === F.OPERATION || e === F.VEHICLE_PART
             ? []
             : h(a.rewards.get(), (e, a) => a < 4);
         }),
-        n = R.model(() =>
-          a.root.get().type === U.OPERATION
+        n = y.model(() =>
+          a.root.get().type === F.OPERATION
             ? a.rewards.get()
             : h(a.rewards.get(), (e, a) => a >= 4),
         );
@@ -262,7 +262,7 @@ var ye = J({
     const a = xe();
     return (0, ie.jsx)(fe.Provider, { value: a, children: e });
   }),
-  Te = J({
+  je = J({
     steps: [
       { name: de, delay: 200 },
       { name: ce, delay: 200 },
@@ -272,17 +272,17 @@ var ye = J({
     ],
     autoStart: !1,
   }),
-  je = q(function ({ children: e }) {
-    const a = Te();
+  Te = q(function ({ children: e }) {
+    const a = je();
     return (0, ie.jsx)(fe.Provider, { value: a, children: e });
   }),
   Ie = q(function ({ children: e }) {
     const { model: a } = ne(),
       { type: s, nextOperationName: r } = a.root.get();
     switch (!0) {
-      case s === U.OPERATION:
-        return (0, ie.jsx)(je, { children: e });
-      case s === U.OPERATION_WITH_HONORS && Boolean(r):
+      case s === F.OPERATION:
+        return (0, ie.jsx)(Te, { children: e });
+      case s === F.OPERATION_WITH_HONORS && Boolean(r):
         return (0, ie.jsx)(Oe, { children: e });
       default:
         return (0, ie.jsx)(Ne, { children: e });
@@ -295,16 +295,16 @@ var Se = q(function ({
     index: r,
     className: t,
   }) {
-    const { model: o } = ne(),
-      { type: l } = o.root.get(),
-      d = I(),
-      { breakpoint: c } = x(),
+    const { model: i } = ne(),
+      { type: l } = i.root.get(),
+      d = S(),
+      { breakpoint: c } = O(),
       _ = (function (e, a) {
-        return e === U.OPERATION ? i.Big : Y(a, n.medium) ? i.Small : i.Big;
+        return e === F.OPERATION ? o.Big : Y(a, n.medium) ? o.Small : o.Big;
       })(l, c.weight),
-      [m, u] = H(() => ({
+      [m, u] = k(() => ({
         from: { transform: "translateY(20rem)", opacity: 0, pointerEvents: "none" },
-        config: { duration: 400, easing: y.easeOutCirc },
+        config: { duration: 400, easing: N.easeOutCirc },
         onStart: () => {
           (d.play("gui_random_reward_appear", { target: "Additional reward" }), a?.());
         },
@@ -332,13 +332,13 @@ var Se = q(function ({
       (0, ie.jsx)(T.div, {
         className: t,
         style: m,
-        children: (0, ie.jsx)(C, { ...e, size: _, image: e.image(_) }, r),
+        children: (0, ie.jsx)(H, { ...e, size: _, image: e.image(_) }, r),
       })
     );
   }),
   Ae = "AdditionalRewards_ffae6df",
-  Ee = "AdditionalRewards_title_2d8eb236",
-  Pe = "AdditionalRewards_list_81a45598",
+  Pe = "AdditionalRewards_title_2d8eb236",
+  Ee = "AdditionalRewards_list_81a45598",
   He = "AdditionalRewards_reward_ed90708c",
   Ce = q(function (e) {
     const { model: a } = ne(),
@@ -346,9 +346,9 @@ var Se = q(function ({
     return (0, ie.jsxs)("div", {
       className: $(Ae, e.className),
       children: [
-        (0, ie.jsx)(r, { path: "personal_missions_30.rewards.additional", className: Ee }),
+        (0, ie.jsx)(r, { path: "personal_missions_30.rewards.additional", className: Pe }),
         (0, ie.jsx)("div", {
-          className: Pe,
+          className: Ee,
           children: t(a.computes.additionalRewards(), (e, a, r) =>
             (0, ie.jsx)(
               Se,
@@ -371,13 +371,13 @@ var Se = q(function ({
     text: "Buttons_text_981ee64f",
   },
   Ve = { base: ke.button, content: ke.text },
-  $e = q(function (e) {
+  Me = q(function (e) {
     const { model: a, controls: s } = ne(),
       { type: r, nextOperationName: t, buttonDisabled: i, buttonVisible: o } = a.root.get(),
-      { breakpoint: l } = x(),
-      d = Y(l.weight, n.medium) ? w.small : w.medium,
-      c = I(),
-      _ = P.resolve("strings");
+      { breakpoint: l } = O(),
+      d = Y(l.weight, n.medium) ? f.small : f.medium,
+      c = S(),
+      _ = C.resolve("strings");
     function m() {
       (c.play("stopIntro", { target: "CloseButton" }), s.close());
     }
@@ -386,8 +386,8 @@ var Se = q(function ({
       children: [
         (() => {
           switch (!0) {
-            case r === U.VEHICLE_PART:
-            case r === U.OPERATION_WITH_HONORS && Boolean(t):
+            case r === F.VEHICLE_PART:
+            case r === F.OPERATION_WITH_HONORS && Boolean(t):
               return (
                 o &&
                 (0, ie.jsx)(p, {
@@ -401,8 +401,8 @@ var Se = q(function ({
                   children: _.readOrEmpty("personal_missions_30.rewards.buttons.goToOperation"),
                 })
               );
-            case r === U.CAMPAIGN_WITH_HONORS:
-            case r === U.OPERATION_WITH_HONORS && !t:
+            case r === F.CAMPAIGN_WITH_HONORS:
+            case r === F.OPERATION_WITH_HONORS && !t:
               return (0, ie.jsx)(p, {
                 theme: "primary",
                 size: d,
@@ -410,7 +410,7 @@ var Se = q(function ({
                 classNames: Ve,
                 children: _.readOrEmpty("personal_missions_30.rewards.buttons.confirm"),
               });
-            case r === U.OPERATION:
+            case r === F.OPERATION:
               return (0, ie.jsx)(p, {
                 theme: "primary",
                 size: d,
@@ -426,8 +426,8 @@ var Se = q(function ({
         })(),
         (() => {
           switch (!0) {
-            case r === U.OPERATION_WITH_HONORS && Boolean(t):
-            case r === U.OPERATION:
+            case r === F.OPERATION_WITH_HONORS && Boolean(t):
+            case r === F.OPERATION:
               return (0, ie.jsx)(p, {
                 theme: "secondary",
                 size: d,
@@ -435,7 +435,7 @@ var Se = q(function ({
                 classNames: Ve,
                 children: _.readOrEmpty("personal_missions_30.rewards.buttons.close"),
               });
-            case r === U.VEHICLE_PART:
+            case r === F.VEHICLE_PART:
               return (0, ie.jsx)(p, {
                 theme: o ? "secondary" : "primary",
                 size: d,
@@ -450,7 +450,7 @@ var Se = q(function ({
       ],
     });
   }),
-  Me = {
+  $e = {
     base: "VehicleName_cce06ab3",
     base__24x24: "VehicleName_base__24x24_e43b4676",
     base__24x24_metal: "VehicleName_base__24x24_metal_af74305d",
@@ -485,14 +485,14 @@ var Se = q(function ({
     isPremium: t = !1,
     className: n,
   }) {
-    const i = `${j(s)}${t ? "_elite" : ""}`;
+    const o = `${I(s)}${t ? "_elite" : ""}`;
     return (0, ie.jsxs)("div", {
-      className: $(Me.base, Me[`base__${r}`], n),
+      className: $($e.base, $e[`base__${r}`], n),
       children: [
-        (0, ie.jsx)("div", { children: l(a) }),
+        (0, ie.jsx)("div", { children: i(a) }),
         (0, ie.jsx)("div", {
-          className: Me.vehicleTypeContainer,
-          children: (0, ie.jsx)(f, { path: `${De(r)}.${i}`, className: Me.vehicleType }),
+          className: $e.vehicleTypeContainer,
+          children: (0, ie.jsx)(R, { path: `${De(r)}.${o}`, className: $e.vehicleType }),
         }),
         (0, ie.jsx)("div", { children: e }),
       ],
@@ -509,15 +509,15 @@ var Se = q(function ({
     upScale: "Header_upScale_65f475ba",
     rotate: "Header_rotate_65f475ba",
   },
-  qe = new Set([U.OPERATION_WITH_HONORS, U.CAMPAIGN_WITH_HONORS]),
-  Ue = new Set([U.VEHICLE_PART, U.OPERATION_WITH_HONORS, U.CAMPAIGN_WITH_HONORS]),
-  Fe = q(function (e) {
+  qe = new Set([F.OPERATION_WITH_HONORS, F.CAMPAIGN_WITH_HONORS]),
+  Fe = new Set([F.VEHICLE_PART, F.OPERATION_WITH_HONORS, F.CAMPAIGN_WITH_HONORS]),
+  Ue = q(function (e) {
     const { model: a } = ne(),
       { type: s, operationName: t, campaignName: n } = a.root.get(),
       i = a.vehicle.get(),
-      o = P.resolve("intl"),
+      o = C.resolve("intl"),
       l = Re(),
-      d = I();
+      d = S();
     return (
       (0, X.useEffect)(() => {
         const e = (e) => {
@@ -529,14 +529,14 @@ var Se = q(function ({
         className: $(Ke.base, Ke[`base__${s}`], e.classname),
         children: [
           qe.has(s) &&
-            (0, ie.jsx)(f, {
+            (0, ie.jsx)(R, {
               path: "personal_missions_30.rewards.honors_title_back",
               className: Ke.honorsBack,
             }),
-          Ue.has(s) &&
+          Fe.has(s) &&
             (0, ie.jsx)(r, {
               path: `personal_missions_30.rewards.subTitle.${s}`,
-              params: { name: s === U.CAMPAIGN_WITH_HONORS ? n : t },
+              params: { name: s === F.CAMPAIGN_WITH_HONORS ? n : t },
               className: Ke.subTitle,
             }),
           (0, ie.jsx)(r, {
@@ -544,7 +544,7 @@ var Se = q(function ({
             params: { name: o.toUpperCase(t) },
             className: Ke.title,
           }),
-          s === U.OPERATION &&
+          s === F.OPERATION &&
             (0, ie.jsx)(Ge, {
               name: i.vehicleShortName,
               type: i.vehicleType,
@@ -568,15 +568,15 @@ var Se = q(function ({
     up: "RegularMainReward_up_54e4f800",
     rotate: "RegularMainReward_rotate_54e4f800",
   };
-var Qe = new Set([b.BattleBadge, b.PremiumPlus, b.Customizations, Q, "attachment"]);
+var Qe = new Set([_.BattleBadge, _.PremiumPlus, _.Customizations, Q, "attachment"]);
 function Xe({ reward: e }) {
-  const { breakpoint: a } = x(),
-    s = ((t = a.weight), Y(t, n.large) ? i.S296x222 : i.S400x300);
+  const { breakpoint: a } = O(),
+    s = ((t = a.weight), Y(t, n.large) ? o.S296x222 : o.S400x300);
   var t;
   return (0, ie.jsxs)("div", {
     className: $(Ye.base, Ye[`base__${e.name}`]),
     children: [
-      (0, ie.jsx)(C, {
+      (0, ie.jsx)(H, {
         ...e,
         size: s,
         image: e.image(s),
@@ -600,11 +600,11 @@ var Je = "VehiclePart_15b78928",
   Ze = "VehiclePart_image_f33361cd",
   ea = "VehiclePart_label_5cfdac0";
 function aa(e) {
-  const a = P.resolve("strings");
+  const a = C.resolve("strings");
   return (0, ie.jsxs)("div", {
     className: Je,
     children: [
-      (0, ie.jsx)(f, {
+      (0, ie.jsx)(R, {
         path: `personal_missions_30.vehicle_detail.c_1200x450.${e.id}`,
         width: 720,
         height: 270,
@@ -631,11 +631,11 @@ var sa = {
     base__campaignWithHonors: "MainRewards_base__campaignWithHonors_56da68ed",
     upScale: "MainRewards_upScale_56da68ed",
   },
-  ra = [U.OPERATION_WITH_HONORS, U.CAMPAIGN_WITH_HONORS],
+  ra = [F.OPERATION_WITH_HONORS, F.CAMPAIGN_WITH_HONORS],
   ta = q(function (e) {
     const { model: a } = ne(),
       { type: s, vehicleDetailName: r } = a.root.get(),
-      n = I(),
+      n = S(),
       i = Re(),
       o = ra.includes(s) ? "ribbon_gold" : "ribbon";
     return (
@@ -651,8 +651,8 @@ var sa = {
           (0, ie.jsx)("div", {
             className: sa.ribbonWrapper,
             children:
-              s !== U.VEHICLE_PART &&
-              (0, ie.jsx)(f, {
+              s !== F.VEHICLE_PART &&
+              (0, ie.jsx)(R, {
                 path: `personal_missions_30.rewards.${o}_small`,
                 width: 1366,
                 height: 356,
@@ -689,21 +689,21 @@ var sa = {
   oa = "VehicleVideo_video_6832c75d",
   la = { 8: 40, 9: 40, 10: 36, 11: 53 },
   da = { 8: 12, 9: 13, 10: 12, 11: 14 },
-  ca = P.resolve("videos"),
+  ca = C.resolve("videos"),
   _a = q(function () {
     const { model: e, controls: s } = ne(),
       { operationId: r } = e.root.get(),
       t = e.introVideoPlaying.get(),
-      n = I(),
+      n = S(),
       i = (0, X.useRef)(null),
       [o, l] = (0, X.useState)([]),
-      d = Re(),
-      { screenWidthRem: _, screenHeightRem: m } = x(),
-      [p, h] = S(() => {
+      c = Re(),
+      { screenWidthRem: _, screenHeightRem: m } = O(),
+      [p, h] = A(() => {
         const e = i.current?.getCachedKeyframes();
         return !e?.length || (l(e), !1);
       });
-    k(() => {
+    V(() => {
       s.setIntroVideoPlaying(!0);
       const e = a((e) => {
         e ? n.play("vid_pm_pause") : n.play("vid_pm_resume");
@@ -721,7 +721,7 @@ var sa = {
         const n = (0, X.useRef)(0),
           i = (0, X.useRef)(0),
           [o, l] = (0, X.useState)(!1),
-          d = N();
+          d = x();
         (0, X.useEffect)(() => {
           if (!e || o) return;
           if (null === t.current || void 0 === r || void 0 === s) return;
@@ -730,13 +730,13 @@ var sa = {
             }),
             _ = t.current.onKeyframes((e) => {
               if (e.time >= s) {
-                const e = u(Date.now() - r - i.current, z, E),
+                const e = u(Date.now() - r - i.current, D, E),
                   a = Math.ceil(e);
                 d.run(
                   () => {
                     (t.current?.goToAndPlay(a), l(!0));
                   },
-                  u(a - e, V, L),
+                  u(a - e, M, z),
                 );
               }
             });
@@ -749,7 +749,7 @@ var sa = {
         className: na,
         children: [
           (0, ie.jsx)("div", { className: ia }),
-          (0, ie.jsx)(c, {
+          (0, ie.jsx)(d, {
             ref: i,
             src: ca.readOrEmpty(`personal_missions_30.rewards_screen.operation_${r}`),
             autoplay: !0,
@@ -760,7 +760,7 @@ var sa = {
                 (g(Date.now()), n.play(`vid_pm_o${r.toString().padStart(2, "0")}_s15`));
             },
             onEnded: () => {
-              (t && (d.start(), s.setIntroVideoPlaying(!1), s.disableVideoOverlaySound()),
+              (t && (c.start(), s.setIntroVideoPlaying(!1), s.disableVideoOverlaySound()),
                 i.current?.goToAndPlay(la[r] ?? 0));
             },
             className: oa,
@@ -794,8 +794,8 @@ var sa = {
       { type: s, vehicleDetailName: t, nextOperationName: n } = e.root.get(),
       i = e.computes.mainRegularRewards().length > 0 || Boolean(t),
       o = e.computes.additionalRewards().length > 0,
-      l = I();
-    B(_.ESCAPE, () => {
+      l = S();
+    W(c.ESCAPE, () => {
       e.introVideoPlaying.get() || (l.play("stopIntro"), a.close());
     });
     const d = Re();
@@ -806,12 +806,12 @@ var sa = {
       ref: d.rootRef,
       className: $(ma.base, ma[`base__${s}`]),
       children: [
-        s === U.OPERATION
+        s === F.OPERATION
           ? (0, ie.jsx)(_a, {})
-          : (0, ie.jsx)(f, {
+          : (0, ie.jsx)(R, {
               path:
                 "personal_missions_30.rewards.backgrounds." +
-                (s === U.VEHICLE_PART ? "vehiclePart" : "withHonors"),
+                (s === F.VEHICLE_PART ? "vehiclePart" : "withHonors"),
               fit: "cover",
               className: ma.background,
             }),
@@ -829,24 +829,24 @@ var sa = {
             className: ma.closeButton,
           }),
         }),
-        (0, ie.jsx)(Fe, {}),
+        (0, ie.jsx)(Ue, {}),
         (0, ie.jsx)("div", {
           className: ma.rewardsContainer,
           children: i && (0, ie.jsx)(ta, { className: ma.main }),
         }),
         o && (0, ie.jsx)(Ce, { className: ma.additional }),
-        s === U.OPERATION_WITH_HONORS &&
+        s === F.OPERATION_WITH_HONORS &&
           (0, ie.jsx)(r, {
             path: "personal_missions_30.rewards.operationUnlocked",
             params: { name: n },
             className: ma.nextOperation,
           }),
         (0, ie.jsx)("div", { className: ma.divider }),
-        (0, ie.jsx)($e, { className: ma.buttons }),
+        (0, ie.jsx)(Me, { className: ma.buttons }),
       ],
     });
   });
-W(
+L(
   (0, ie.jsx)(te, {
     children: (0, ie.jsx)(m, {
       soundsOverrides: re,

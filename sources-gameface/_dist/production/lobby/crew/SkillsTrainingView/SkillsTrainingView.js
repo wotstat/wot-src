@@ -4587,11 +4587,11 @@
               additionalValue: o,
               buffIconType: u,
               isEnabled: c,
-              isScrollable: _,
-              isSituational: m,
+              isScrollable: m,
+              isSituational: g,
             }) => {
-              const g = B().controls,
-                b = a && a.length > 0;
+              const b = B().controls,
+                E = a && a.length > 0;
               return l().createElement(
                 "div",
                 { className: St },
@@ -4606,10 +4606,12 @@
                     "div",
                     {
                       className: Bt,
-                      onClick: () => g.onGroupClick(e),
-                      onMouseEnter: O.$.playHighlight,
+                      onClick: () => {
+                        (_.O.sound.play.click(), b.onGroupClick(e));
+                      },
+                      onMouseEnter: _.O.sound.play.highlight,
                     },
-                    l().createElement("div", { className: d()(Nt, _ && xt) }),
+                    l().createElement("div", { className: d()(Nt, m && xt) }),
                     l().createElement(
                       "div",
                       { className: Lt },
@@ -4622,7 +4624,7 @@
                       l().createElement(
                         "div",
                         { className: Ht },
-                        m && l().createElement("div", { className: Wt }),
+                        g && l().createElement("div", { className: Wt }),
                         l().createElement(ut, { buffIconType: u, className: zt }),
                         o && l().createElement(st, { classMix: d()(jt, $t), text: o }),
                         l().createElement(st, { classMix: jt, text: s }),
@@ -4635,7 +4637,7 @@
                   "div",
                   { className: d()(Rt, t && Mt) },
                   ye.UI(n, (e) => l().createElement(Ft, Gt({ key: e.id }, e))),
-                  b && l().createElement("div", { className: Pt }),
+                  E && l().createElement("div", { className: Pt }),
                   ye.UI(a, (e) => l().createElement(Ft, Gt({ key: e.id }, e))),
                 ),
               );

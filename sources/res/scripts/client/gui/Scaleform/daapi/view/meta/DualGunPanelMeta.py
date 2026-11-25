@@ -91,3 +91,8 @@ class DualGunPanelMeta(BaseDAAPIComponent):
         if self._isDAAPIInited():
             return self.flashObject.as_setChangeGunTweenProps(duration, delay)
         return
+
+    def as_updateLayoutS(self, x, y):
+        if self._isDAAPIInited():
+            return self.flashObject.as_updateLayout(x, y)
+        return

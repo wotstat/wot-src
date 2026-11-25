@@ -1906,7 +1906,10 @@
                     (e) => ve(e),
                   );
                 }),
-                l = (0, fe.Om)(() => "breadcrumb:" + pe(t().length - 1, (e) => n(e).key).join("|"));
+                l = (0, fe.Om)(
+                  () => "breadcrumb:" + pe(t().length - 1, (e) => n(e).key).join("|"),
+                  { keepAlive: !0 },
+                );
               return Object.assign({}, u, {
                 computes: {
                   getBreadcrumbs: t,
@@ -5786,17 +5789,19 @@
                 const e = V(L);
                 return (u, t) => e({ action: I.Click, parentScreen: $.Catalog, item: u, info: t });
               })(),
-              r = q();
-            var i;
+              r = q(),
+              i = n.isNeededShowHint(),
+              o = n.getBreadcrumbs();
+            var l;
             return (
-              (i = () => {
-                if ((n.isNeededShowHint() && u.hintClose(), n.breadcrumbsLength() > 1)) {
-                  const e = n.breadcrumbsLength() - 2;
-                  (u.goToBreadcrumb(n.getBreadcrumb(e).achievementId),
+              (l = () => {
+                if ((i && u.hintClose(), o.length > 1)) {
+                  const e = o[o.length - 2];
+                  (e && u.goToBreadcrumb(e.achievementId),
                     r(t.computes.getBreadcrumbsChain(), U.Esc));
                 } else (a(H.Close, U.Esc), u.goToCatalog());
               }),
-              pr(br.n.ESCAPE, i),
+              pr(br.n.ESCAPE, l),
               s().createElement(
                 "div",
                 { className: Nr.base },

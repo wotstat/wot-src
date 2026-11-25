@@ -382,6 +382,9 @@ msgstr "The vehicle's gun has special devices that allow some shell parameters t
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Remaining stationary or moving below a certain speed allows your vehicle to calibrate its Analog Ballistic Computing Device and build accuracy levels, increasing the accuracy of your next shot. If you exceed the speed limit, your progress in building accuracy levels will be paused until you slow down. At the highest accuracy level, your vehicle gains decent gun stabilization, with reduced dispersion from movement or turret/hull rotation. The effect is removed upon firing."
 
+msgid "characteristics/abilities/special/description/autoreloaderSurge"
+msgstr "The mechanism instantly reduces shell reload to a short fixed time. Each use consumes one charge per shell, and charges replenish over time—faster when the clip is full. A set number of charges is available at the start of battle."
+
 msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
 msgstr "This vehicle is equipped with a rocket launcher mounted in the gun mantlet. Activate the ability to switch to the secondary weapon aiming sight, and then launch an unguided HE rocket with the fire button."
 

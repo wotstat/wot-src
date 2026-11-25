@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "We werken aan een oplossing. Kom later alsjeblieft terug."
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "Gegevens onbeschikbaar"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "Van %(startDate)s tot %(endDate)s kun je elke dag een nieuwe deur met cadeaus openen. Je kunt de kalenderdeur van de huidige en de vorige dag openen. Na %(endDate)s kunnen de deuren alleen met Operatie Feestdagen-grondstoffen worden geopend."
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "Voltooi de kalenderprogressie om extra beloningen te ontvangen, waaronder een grote Nieuwjaarsdoos. De progressie kan t/m {FFE4C0_Open}%(date)s{FFE4C0_Close} worden voltooid."
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "Open alle 31 deuren om unieke 2D-stijlen, stickers, dagen WoT Premium account, bemanningsboeken, persoonlijke reserves en andere beloningen te ontvangen."
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "Hoe het werkt"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "Maar dat is niet alles!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "Open ze allemaal"
+
+msgid "introScreenView/buttonTitle"
+msgstr "Naar de kalender"
+
+msgid "introScreenView/title"
+msgstr "Adventkalender"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "Van {{startDate}} tot {{endDate}} kun je {{@ colorLegacy 'dde9fc'}}elke dag{{/}} een nieuwe kalenderdeur met cadeaus openen.\nJe kunt de deur van de huidige en de vorige dag openen."
+
+msgid "mainView/footer/expired/title"
+msgstr "Progressie niet langer beschikbaar."
+
+msgid "mainView/footer/linkButton/text"
+msgstr "Download bureaubladachtergrond"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "Progressie voltooid. Alle cadeaus ontvangen."
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "Open t/m %(endDate)s kalenderdeuren\nvoor extra cadeaus."
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "Over het evenement"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "Gebruik t/m {{date}} elke dag valuta om deuren te openen en cadeaus te ontvangen. De laatste deur\nkun je op 31 december gratis openen."
+
+msgid "mainView/title"
+msgstr "Adventkalender"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "Persoonlijke reserves"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "Universele brochure, hertrainingsbevel en missies voor x5 XP"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "Credits, WoT Premium account en meer"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "2D-stijlen en stickers"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "Experimentele uitrusting en componenten"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "Bemanningslid en grote Nieuwjaarsdoos"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "Open alle kalenderdeuren en ontvang:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "Cadeaus"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "Kalenderdeuren kunnen elke dag vanaf %(time)s worden geopend."
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "Komt beschikbaar op {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "Komt vandaag {FFE4C0_Open}vanaf %(time)s{FFE4C0_Close} beschikbaar"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "Komt morgen {FFE4C0_Open}vanaf %(time)s{FFE4C0_Close} beschikbaar"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "Begin met deur {FFE4C0_Open}%(day)s{FFE4C0_Close} en open daarna de andere deuren op volgorde."
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "Open deuren op volgorde"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "Je kunt de kalenderdeur van de huidige en de vorige dag openen.\nAlle gemiste deuren kunnen {FFE4C0_Open}van %(startDate)s tot %(endDate)s{FFE4C0_Close} voor Operatie Feestdagen-grondstoffen worden geopend."
+
+msgid "mainView/tooltip/expired/title"
+msgstr "Deur niet op tijd geopend"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "Je kunt valuta verdienen door gevechten te spelen, dagelijkse missies te voltooien en deel te nemen aan andere in-game activiteiten."
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "Niet genoeg valuta"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "Beloning ophalen"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "Open elke dag kalenderdeuren om cadeaus te ontvangen."
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "Adventkalender-cadeau beschikbaar!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "Naar de kalender"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "Open uiterlijk {{date}} de resterende Adventkalender-deuren door valuta uit te geven."
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "Mis deze kans niet!"
+
+msgid "notification/door/opened/title"
+msgstr "Adventkalender-deur %(dayNumber)s geopend"
+
+msgid "notification/event/paused"
+msgstr "Het Adventkalender-evenement is wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "notification/event/resumed"
+msgstr "Het Adventkalender-evenement is hervat. Onze excuses voor het ongemak."
+
+msgid "notification/lootbox/title"
+msgstr "Grote Nieuwjaarsdoos"
+
+msgid "notification/progerssion/finished"
+msgstr "Adventkalender-progressie voltooid"
+
+msgid "notification/progerssion/recieved"
+msgstr "Adventkalender-progressiestadium voltooid"
+
+msgid "notification/reward/received"
+msgstr "Ontvangen:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "Progressiecadeaus kunnen alleen op volgorde worden ontvangen."
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "Ontvang het vorige cadeau"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "Je kunt {FFE4C0_Open}op %(date)s{FFE4C0_Close} ontdekken wat er in de doos zit."
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "Grote Nieuwjaarsdoos"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "De progressie was beschikbaar van %(startDate)s tot %(endDate)s."
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "Cadeau niet op tijd opgehaald"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s Niet ontvangen"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "Open {cream_Open}nog %(count)s kalenderdeur{cream_Close} om dit cadeau te ontvangen."
+msgstr[1] "Open {cream_Open}nog %(count)s kalenderdeuren{cream_Close} om dit cadeau te ontvangen."
+msgstr[2] "Open {cream_Open}nog %(count)s kalenderdeuren{cream_Close} om dit cadeau te ontvangen."
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s Ontvang het vorige cadeau van de progressie om dit te ontgrendelen."
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s Ontvangen"
+
+msgid "purchaseView/cancel"
+msgstr "Annuleren"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "Je kunt valuta verdienen door gevechten te spelen, dagelijkse missies te voltooien en deel te nemen aan andere in-game activiteiten."
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "Niet genoeg valuta"
+
+msgid "purchaseView/open"
+msgstr "Openen"
+
+msgid "purchaseView/title"
+msgstr "Adventkalender-deur {{@ style (color $color)}}{{day}}{{/}} openen?"
+
+msgid "rewardView/confirm"
+msgstr "Begrepen!"
+
+msgid "rewardView/goToBoxes"
+msgstr "Naar de dozen"
+
+msgid "rewardView/loading"
+msgstr "Beloning toevoegen"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "Je hebt {FFE4C0_Open}alle deuren van de Adventkalender{FFE4C0_Close} geopend"
+
+msgid "rewardView/subTitle/progression"
+msgstr "Adventkalender-deuren geopend: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "Je hebt {FFE4C0_Open}%(count)s Adventkalender-deuren{FFE4C0_Close} geopend"
+
+msgid "rewardView/title/box"
+msgstr "Grote Nieuwjaarsdoos ontvangen!"
+
+msgid "rewardView/title/progression"
+msgstr "Beloning ontvangen!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "Gefeliciteerd!"
+
+msgid "server_error"
+msgstr "De operatie is vanwege technische redenen tijdelijk onbeschikbaar. Probeer het later alsjeblieft opnieuw."

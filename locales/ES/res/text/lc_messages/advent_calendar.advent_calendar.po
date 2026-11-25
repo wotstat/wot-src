@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "Estamos trabajando para solucionar el problema. Inténtalo de nuevo más tarde."
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "Datos no disponibles"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "Del %(startDate)s al %(endDate)s, cada día podrás abrir una puerta nueva para ganar regalos. Puedes abrir las puertas del calendario del día actual y el día anterior. Después del %(endDate)s, solo podrás abrir las puertas con recursos de las Operaciones festivas."
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "Completa la progresión del calendario para recibir regalos adicionales, incluida una caja grande de Año Nuevo. Solo se puede completar hasta el {FFE4C0_Open}%(date)s{FFE4C0_Close}."
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "Abre las 31 puertas para recibir estilos 2D únicos, calcos, días de cuenta premium de WoT, libros de la tripulación, reservas personales y otras recompensas."
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "Cómo funciona"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "¡Eso no es todo!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "Ábrelas todas"
+
+msgid "introScreenView/buttonTitle"
+msgstr "Al calendario"
+
+msgid "introScreenView/title"
+msgstr "Calendario festivo"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "Del {{startDate}} al {{endDate}}, podrás abrir una puerta nueva del calendario con regalos {{@ colorLegacy 'dde9fc'}}cada día{{/}}.\nPuedes abrir las puertas del día actual y el anterior."
+
+msgid "mainView/footer/expired/title"
+msgstr "La progresión ya no está disponible."
+
+msgid "mainView/footer/linkButton/text"
+msgstr "Descargar fondo de escritorio"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "Progresión completada. Todos los regalos recibidos."
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "Abre puertas del calendario hasta el %(endDate)s\ny obtén regalos adicionales."
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "Acerca del evento"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "Usa la divisa para abrir puertas y recibir regalos cada día hasta el {{date}}. Podrás abrir\nla última puerta del 31 de diciembre gratis."
+
+msgid "mainView/title"
+msgstr "Calendario festivo"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "Reservas personales"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "Cartilla universal, orden de reentrenamiento y misiones de EXP ×5"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "Créditos, cuenta premium de WoT y más"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "Estilos 2D y calcos"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "Equipamiento experimental y componentes"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "Tripulante y caja grande de Año Nuevo"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "Abre todas las puertas del calendario para recibir:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "Regalos"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "Las puertas del calendario se pueden abrir a partir de las %(time)s cada día."
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "Disponible el {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "Disponible {FFE4C0_Open}a partir de las %(time)s hoy{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "Disponible {FFE4C0_Open}a partir de las %(time)s mañana{FFE4C0_Close}"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "Empieza con la puerta del {FFE4C0_Open}%(day)s{FFE4C0_Close}. Después, podrás abrir las demás puertas por orden numérico."
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "Abre puertas en orden"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "Puedes abrir las puertas del calendario del día y del día anterior.\nTodas las puertas que te has perdido se podrán abrir con recursos de Operaciones festivas, {FFE4C0_Open}del %(startDate)s al %(endDate)s{FFE4C0_Close}."
+
+msgid "mainView/tooltip/expired/title"
+msgstr "No se ha abierto la puerta a tiempo"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "Puedes conseguir la divisa librando batallas, completando misiones diarias y participando en otras actividades del juego."
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "Divisa insuficiente"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "Obtener recompensa"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "Abre puertas del calendario cada día y recibe regalos."
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "¡Regalo del Calendario de Adviento disponible!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "Al calendario"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "Abre las puertas que quedan del calendario de Adviento con la divisa antes del {{date}}."
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "¡No te lo pierdas!"
+
+msgid "notification/door/opened/title"
+msgstr "Puerta %(dayNumber)s del Calendario de Adviento abierta"
+
+msgid "notification/event/paused"
+msgstr "El evento «Calendario festivo» se ha suspendido temporalmente por mantenimiento."
+
+msgid "notification/event/resumed"
+msgstr "El evento «Calendario festivo» ha vuelto a empezar. Sentimos las molestias."
+
+msgid "notification/lootbox/title"
+msgstr "Caja grande de Año Nuevo"
+
+msgid "notification/progerssion/finished"
+msgstr "Progresión del Calendario de Adviento completada"
+
+msgid "notification/progerssion/recieved"
+msgstr "Etapa de progresión del Calendario de Adviento completada"
+
+msgid "notification/reward/received"
+msgstr "Recibido:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "Los regalos de progresión solo se recibirán por orden numérico."
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "Recibe el regalo previo"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "Podrás descubrir qué esconde la caja {FFE4C0_Open}el %(date)s{FFE4C0_Close}."
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "Caja grande de Año Nuevo"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "La progresión estuvo disponible del %(startDate)s al %(endDate)s."
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "Regalo no recogido a tiempo"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s no recibido"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "Abre {cream_Open}%(count)s puerta de calendario más{cream_Close} para recibir este regalo."
+msgstr[1] "Abre {cream_Open}%(count)s puertas de calendario más{cream_Close} para recibir este regalo."
+msgstr[2] "Abre {cream_Open}%(count)s puertas de calendario más{cream_Close} para recibir este regalo."
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s Recibe el regalo anterior de la progresión para desbloquearlo."
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s recibido"
+
+msgid "purchaseView/cancel"
+msgstr "Cancelar"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "Puedes conseguir la divisa librando batallas, completando misiones diarias y participando en otras actividades del juego."
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "Divisa insuficiente"
+
+msgid "purchaseView/open"
+msgstr "Abrir"
+
+msgid "purchaseView/title"
+msgstr "¿Quieres abrir la puerta {{@ style (color $color)}} del calendario de Adviento {{day}}{{/}}?"
+
+msgid "rewardView/confirm"
+msgstr "¡Afirmativo!"
+
+msgid "rewardView/goToBoxes"
+msgstr "A las cajas"
+
+msgid "rewardView/loading"
+msgstr "Añadiendo recompensa"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "Has abierto {FFE4C0_Open}todas las puertas del calendario festivo{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "Puertas del calendario festivo abiertas: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "Has abierto {FFE4C0_Open}%(count)s puertas del calendario de Adviento{FFE4C0_Close}"
+
+msgid "rewardView/title/box"
+msgstr "¡Caja grande de Año Nuevo recibida!"
+
+msgid "rewardView/title/progression"
+msgstr "¡Recompensa recibida!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "¡Enhorabuena!"
+
+msgid "server_error"
+msgstr "La operación no está disponible en este momento por problemas técnicos. Inténtalo de nuevo más tarde."

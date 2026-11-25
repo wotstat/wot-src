@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "Pracujemy nad naprawieniem tego problemu. Spróbuj ponownie później."
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "Dane niedostępne"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "Nowe drzwiczki z prezentami będą dostępne do otwarcia codziennie od %(startDate)s do %(endDate)s. Możesz otwierać drzwiczki kalendarza dla bieżącego i poprzedniego dnia. Po %(endDate)s drzwiczki można otwierać tylko przy użyciu zasobów Operacji świątecznych."
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "Ukończ postępy kalendarza, aby otrzymać dodatkowe prezenty, w tym duże pudełko noworoczne. Można je ukończyć tylko do {FFE4C0_Open}%(date)s{FFE4C0_Close}."
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "Otwórz wszystkie 31 drzwiczek, aby otrzymać unikalne style 2D, naklejki, dni konta premium WoT, podręczniki dla załogi, rezerwy osobiste i inne nagrody."
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "Jak to działa"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "Ale to nie wszystko!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "Otwórz je wszystkie"
+
+msgid "introScreenView/buttonTitle"
+msgstr "Do kalendarza"
+
+msgid "introScreenView/title"
+msgstr "Kalendarz adwentowy"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "Od {{startDate}} do {{endDate}} będzie można {{@ colorLegacy 'dde9fc'}}codziennie{{/}} otwierać nowe drzwiczki kalendarza z prezentami.\nMożesz otwierać drzwiczki dla bieżącego i poprzedniego dnia."
+
+msgid "mainView/footer/expired/title"
+msgstr "Postępy nie są już dostępne."
+
+msgid "mainView/footer/linkButton/text"
+msgstr "Pobierz tapetę na pulpit"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "Ukończono postępy. Otrzymano wszystkie prezenty."
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "Otwórz drzwiczki kalendarza do %(endDate)s,\naby otrzymać dodatkowe prezenty."
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "O wydarzeniu"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "Używaj waluty, aby otwierać drzwiczki i otrzymywać prezenty codziennie do {{date}}. Ostatnie drzwiczki za 31 grudnia\nbędzie można otworzyć za darmo."
+
+msgid "mainView/title"
+msgstr "Kalendarz adwentowy"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "Rezerwy osobiste"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "Uniwersalna książeczka szkoleniowa, rozkaz przekwalifikowania i misje 5х PD"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "Kredyty, konto premium WoT i nie tylko"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "Style 2D i naklejki"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "Wyposażenie eksperymentalne i elementy"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "Członek załogi i duże pudełko noworoczne"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "Otwórz drzwiczki kalendarza, aby otrzymać:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "Prezenty"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "Drzwiczki kalendarza są dostępne do otwarcia codziennie od %(time)s."
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "Będzie dostępne {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "Będzie dostępne {FFE4C0_Open}dzisiaj od %(time)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "Będzie dostępne {FFE4C0_Open}jutro od %(time)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "Zacznij od drzwiczek numer {FFE4C0_Open}%(day)s{FFE4C0_Close}, a potem otwieraj pozostałe drzwiczki w kolejności numerów."
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "Otwieraj drzwiczki po kolei"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "Możesz otwierać drzwiczki kalendarza dla bieżącego i poprzedniego dnia.\nWszystkie pominięte drzwiczki można otworzyć za zasoby Operacji świątecznych {FFE4C0_Open}od %(startDate)s do %(endDate)s{FFE4C0_Close}."
+
+msgid "mainView/tooltip/expired/title"
+msgstr "Drzwiczek nie otwarto na czas"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "Walutę można zdobywać za toczenie bitew, wypełnianie misji dziennych i udział w innych aktywnościach w grze."
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "Za mało waluty"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "Przyjmij nagrodę"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "Codziennie otwieraj drzwiczki kalendarza i otrzymuj prezenty."
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "Dostępny prezent z kalendarza adwentowego!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "Do kalendarza"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "Otwórz pozostałe drzwiczki kalendarza adwentowego, używając waluty do {{date}}."
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "Nie przegap!"
+
+msgid "notification/door/opened/title"
+msgstr "Otwarto drzwiczki numer %(dayNumber)s kalendarza adwentowego"
+
+msgid "notification/event/paused"
+msgstr "Wydarzenie Kalendarz adwentowy zostało chwilowo zawieszone ze względu na prace techniczne."
+
+msgid "notification/event/resumed"
+msgstr "Wydarzenie Kalendarz adwentowy zostało wznowione. Przepraszamy za niedogodności."
+
+msgid "notification/lootbox/title"
+msgstr "Duże pudełko noworoczne"
+
+msgid "notification/progerssion/finished"
+msgstr "Ukończono postępy kalendarza adwentowego"
+
+msgid "notification/progerssion/recieved"
+msgstr "Ukończono etap postępów kalendarza adwentowego"
+
+msgid "notification/reward/received"
+msgstr "Otrzymano:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "Prezenty za postępy można otrzymywać tylko w kolejności ich numerów."
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "Otrzymaj poprzedni prezent"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "Będziesz mógł odkryć, co jest w pudełku {FFE4C0_Open}%(date)s{FFE4C0_Close}."
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "Duże pudełko noworoczne"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "Postępy były dostępne od %(startDate)s do %(endDate)s."
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "Nie odebrano prezentu na czas"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s Nie otrzymano"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "Otwórz jeszcze {cream_Open}%(count)s drzwiczki kalendarza{cream_Close}, aby otrzymać ten prezent."
+msgstr[1] "Otwórz jeszcze {cream_Open}%(count)s drzwiczek kalendarza{cream_Close}, aby otrzymać ten prezent."
+msgstr[2] "Otwórz jeszcze {cream_Open}%(count)s drzwiczek kalendarza{cream_Close}, aby otrzymać ten prezent."
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s Otrzymaj poprzedni prezent w postępach, aby odblokować."
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s Otrzymano"
+
+msgid "purchaseView/cancel"
+msgstr "Anuluj"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "Walutę można zdobywać za toczenie bitew, wypełnianie misji dziennych i udział w innych aktywnościach w grze."
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "Za mało waluty"
+
+msgid "purchaseView/open"
+msgstr "Otwórz"
+
+msgid "purchaseView/title"
+msgstr "Otworzyć drzwiczki kalendarza adwentowego {{@ style (color $color)}}{{day}}{{/}}?"
+
+msgid "rewardView/confirm"
+msgstr "Tak jest!"
+
+msgid "rewardView/goToBoxes"
+msgstr "Do pudełek"
+
+msgid "rewardView/loading"
+msgstr "Dodawanie nagrody"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "Otworzyłeś {FFE4C0_Open}wszystkie drzwiczki kalendarza adwentowego{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "Otwarte drzwiczki kalendarza adwentowego: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "Otworzyłeś {FFE4C0_Open}%(count)s drzwiczek kalendarza adwentowego{FFE4C0_Close}"
+
+msgid "rewardView/title/box"
+msgstr "Otrzymano duże pudełko noworoczne!"
+
+msgid "rewardView/title/progression"
+msgstr "Otrzymano nagrodę!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "Gratulacje!"
+
+msgid "server_error"
+msgstr "Ta operacja jest tymczasowo niedostępna z powodów technicznych. Spróbuj ponownie później."

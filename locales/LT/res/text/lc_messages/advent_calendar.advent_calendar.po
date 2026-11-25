@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "Mes sprendžiame problemą. Pabandykite vėliau."
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "Duomenys nepasiekiami"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "Naujos durys su dovanomis lauks jūsų kiekvieną dieną nuo %(startDate)s iki %(endDate)s. Jūs galite atidaryti šiandienos ir vakarykštės dienos kalendoriaus duris. Nuo %(endDate)s duris galėsite atidaryti tik naudodami Šventinės operacijos resursus."
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "Vykdykite kalendoriaus seką ir gaukite dar daugiau dovanų, tarp kurių yra ir Didelė Naujametinė dėžė. Seką galite vykdyti tik {FFE4C0_Open}%(date)s{FFE4C0_Close}."
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "Atidarykite visas 31 duris ir gaukite unikalių 2D stilių, lipdukų, WoT Premium paskyros dienų, įgulos knygų, asmeninių rezervų ir kitų daiktų."
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "Kaip tai veikia"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "Bet tai dar ne viskas!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "Atidarykite jas visas"
+
+msgid "introScreenView/buttonTitle"
+msgstr "Į kalendorių"
+
+msgid "introScreenView/title"
+msgstr "Advento kalendorius"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "Nuo {{startDate}} iki {{endDate}} galėsite atidaryti po naujas kalendoriaus duris {{@ colorLegacy 'dde9fc'}}kiekvieną dieną{{/}}.\nGalėsite atidaryti šiandienos ir ankstesnės dienos duris."
+
+msgid "mainView/footer/expired/title"
+msgstr "Seka nebepasiekiama."
+
+msgid "mainView/footer/linkButton/text"
+msgstr "Atsisiųskite darbalaukio foną"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "Seka užbaigta. Gautos visos dovanos."
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "Atidarykite kalendoriaus duris iki %(endDate)s\nir gaukite daugiau dovanų."
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "Apie renginį"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "Naudodami valiutą galėsite atidaryti duris ir gauti dovanų iki pat {{date}}. Paskutines duris galėsite\nnemokamai atidaryti gruodžio 31 dieną."
+
+msgid "mainView/title"
+msgstr "Advento kalendorius"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "Asmeniniai rezervai"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "Universalus lankstinukas, Pertreniravimo įsakymas ir x5 patirties misijos"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "Kreditai, WoT Premium paskyra ir daugiau"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "2D stiliai ir lipdukai"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "Eksperimentinė įranga ir komponentai"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "Įgulos narys ir Didelė Naujametinė dėžė"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "Atidarę visas kalendoriaus duris gausite:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "Dovanos"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "Kalendoriaus duris kas dieną galite atidaryti nuo %(time)s."
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "Bus pasiekiama {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "Atsidaro {FFE4C0_Open}šiandien nuo %(time)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "Atsidaro {FFE4C0_Open}rytoj nuo %(time)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "Pradėkite nuo {FFE4C0_Open}%(day)s{FFE4C0_Close} durų, o kitas atidarykite eilės tvarka."
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "Duris atidarykite eilės tvarka"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "Jūs galite atidaryti šiandienos ir praėjusios dienos duris.\nVisas praleistas duris galėsite atidaryti naudodami Šventinės operacijos resursus {FFE4C0_Open}nuo %(startDate)s iki %(endDate)s{FFE4C0_Close}."
+
+msgid "mainView/tooltip/expired/title"
+msgstr "Durys neatidarytos laiku"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "Uždirbti valiutos galite kovodami mūšiuose, vykdydami kasdienes misijas ir dalyvaudami kitose veiklose."
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "Nepakanka valiutos"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "Gauti apdovanojimą"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "Atidarykite kalendoriaus duris kas dieną ir gaukite dovanų."
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "Advento kalendoriaus dovana laukia!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "Į kalendorių"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "Atidarykite likusias Advento kalendoriaus duris naudodami valiutą iki {{date}}."
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "Nepraleiskite progos!"
+
+msgid "notification/door/opened/title"
+msgstr "Atidarytos %(dayNumber)s Advento kalendoriaus durys"
+
+msgid "notification/event/paused"
+msgstr "Advento kalendorius laikinai nepasiekiamas dėl profilaktikos."
+
+msgid "notification/event/resumed"
+msgstr "Advento kalendorius toliau tęsiamas. Mes atsiprašome už nepatogumus."
+
+msgid "notification/lootbox/title"
+msgstr "Didelė Naujametinė dėžė"
+
+msgid "notification/progerssion/finished"
+msgstr "Advento kalendoriaus seka užbaigta"
+
+msgid "notification/progerssion/recieved"
+msgstr "Advento kalendoriaus sekos etapas užbaigtas"
+
+msgid "notification/reward/received"
+msgstr "Gauta:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "Sekos dovanas galima gauti tik eilės tvarka."
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "Gauti ankstesnę dovaną"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "Taip pat galėsite sužinoti kas dėžės viduje {FFE4C0_Open}%(date)s{FFE4C0_Close}."
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "Didelė Naujametinė dėžė"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "Seka buvo pasiekiama nuo %(startDate)s iki %(endDate)s."
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "Dovana neatsiimta laiku"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s Negauta"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "Atidarę {cream_Open}dar %(count)s kalendoriaus duris{cream_Close} gausite šią dovaną."
+msgstr[1] "Atidarę {cream_Open}dar %(count)s kalendoriaus duris{cream_Close} gausite šią dovaną."
+msgstr[2] "Atidarę {cream_Open}dar %(count)s kalendoriaus durų{cream_Close} gausite šią dovaną."
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s Atrakinsite atsiėmę ankstesnę sekos dovaną."
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s Gauta"
+
+msgid "purchaseView/cancel"
+msgstr "Atšaukti"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "Uždirbti valiutos galite kovodami mūšiuose, vykdydami kasdienes misijas ir dalyvaudami kitose veiklose."
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "Nepakanka valiutos"
+
+msgid "purchaseView/open"
+msgstr "Atidaryti"
+
+msgid "purchaseView/title"
+msgstr "Atidaryti {{@ style (color $color)}}{{day}}{{/}} Advento kalendoriaus duris?"
+
+msgid "rewardView/confirm"
+msgstr "Tikrai taip!"
+
+msgid "rewardView/goToBoxes"
+msgstr "Į dėžes"
+
+msgid "rewardView/loading"
+msgstr "Suteikiamas apdovanojimas"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "Jūs atidarėte {FFE4C0_Open}visas Advento kalendoriaus duris{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "Atidaryta Advento kalendoriaus durų: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "Jūs jau atidarėte {FFE4C0_Open}%(count)s Advento kalendoriaus duris{FFE4C0_Close}"
+
+msgid "rewardView/title/box"
+msgstr "Gauta Didelė Naujametinė dėžė!"
+
+msgid "rewardView/title/progression"
+msgstr "Gautas apdovanojimas!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "Sveikiname!"
+
+msgid "server_error"
+msgstr "Ši operacija laikinai nepasiekiama dėl techninių priežasčių. Prašome pabandykite vėliau."

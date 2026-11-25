@@ -155,7 +155,7 @@ msgid "abilities/special/description/lowChargeShot"
 msgstr "Działo tego pojazdu może strzelać wcześniej: strzały z pojedynczym doładowaniem wystrzeliwane podczas przeładowania mają zmniejszoną skuteczność, natomiast standardowe strzały z pełnym doładowaniem wystrzeliwane po przeładowaniu mają optymalne parametry balistyczne."
 
 msgid "abilities/special/description/overheatGun"
-msgstr "Działo może strzelać ciągle, bez potrzeby przeładowania. Każdy strzał generuje ciepło: wraz z wzrostem temperatury zmieniają się niektóre jego parametry. Prowadzenie ognia ciągłego spowoduje przegrzanie się działa, co uniemożliwi dalszy ostrzał aż do schłodzenia działa."
+msgstr "Działo może strzelać ciągle, bez potrzeby przeładowania. Każdy strzał generuje ciepło: wraz ze wzrostem temperatury zmieniają się niektóre jego parametry. Prowadzenie ognia ciągłego spowoduje przegrzanie się działa, co uniemożliwi dalszy ostrzał aż do schłodzenia działa."
 
 msgid "abilities/special/description/overheatStacks"
 msgstr "Pozostań w bezruchu lub poruszaj się powoli, aby zbudować rozgrzanie i zwiększyć uszkodzenia oraz celność kolejnego strzału. Przy maksymalnym rozgrzaniu, trafienie z przebiciem pojazdu przeciwnika o liczbie PW mniejszej niż Twoje średnie uszkodzenia spowoduje wybuch magazynu amunicji i zniszczy ten pojazd."
@@ -381,6 +381,9 @@ msgstr "Działo pojazdu ma specjalne urządzenia, które pozwalają na modyfikac
 
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Pozostawanie w bezruchu lub poruszanie się z prędkością poniżej określonego limitu pozwala pojazdowi skalibrować Analogowe balistyczne urządzenie obliczeniowe i nabudować poziomy celności, zwiększając celność kolejnego strzału. Jeśli przekroczysz limit prędkości, postępy nabudowania poziomów celności zostaną zatrzymane do momentu zwolnienia. Na najwyższym poziomie celności pojazd zyskuje znaczną stabilizację działa, co zapewnia zmniejszony rozrzut od ruchu lub obrotów wieży i kadłuba. Efekt znika po oddaniu strzału."
+
+msgid "characteristics/abilities/special/description/autoreloaderSurge"
+msgstr "Mechanizm natychmiast skraca przeładowanie pocisku do krótkiego, ustalonego czasu. Każde użycie zużywa jeden ładunek na pocisk, a ładunki odnawiają się z czasem – szybciej, gdy magazynek jest pełny. Na początku bitwy dostępna jest określona liczba ładunków."
 
 msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
 msgstr "Ten pojazd jest wyposażony w wyrzutnię rakiet zamontowaną w jarzmie działa. Aktywuj zdolność, aby przełączyć się na celownik broni dodatkowej, a następnie wystrzel niekierowany pocisk odłamkowo-burzący przyciskiem strzału."

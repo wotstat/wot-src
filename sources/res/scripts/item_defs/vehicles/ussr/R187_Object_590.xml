@@ -925,6 +925,24 @@
 				<clipAngle>0.689592004</clipAngle>
 				<anchorShift>0.493579</anchorShift>
 			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18000</slotId>
+				<position>-1.677 0.360848 -0.365834</position>
+				<rotation>-0 0 1.529956</rotation>
+				<scale>1 1 1</scale>
+				<applyType>universal</applyType>
+				<size>medium</size>
+			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18001</slotId>
+				<position>1.677 0.360848 -0.365834</position>
+				<rotation>-0 3.141418 1.529956</rotation>
+				<scale>1 1 1</scale>
+				<applyType>universal</applyType>
+				<size>medium</size>
+			</slot>
 		</customizationSlots>
 		<customization>
 			<customizableVehicleAreas>
@@ -1969,6 +1987,17 @@
 							<anchorShift>0.562831998</anchorShift>
 						</slot>
 						<slot>
+							<slotType>attachment</slotType>
+							<slotId>48000</slotId>
+							<size>medium</size>
+							<position>-3.00000011e-06 0.356148005 0.551644027</position>
+							<rotation>0 0 -0</rotation>
+							<scale>1 1 1</scale>
+							<enableVisTunnel>true</enableVisTunnel>
+							<applyType>gunMantlet</applyType>
+							<hangerId>2</hangerId>
+						</slot>
+						<slot>
 							<slotType>insigniaOnGun</slotType>
 							<slotId>49000</slotId>
 							<rayStart>-0 -0 1.81431</rayStart>
@@ -2557,6 +2586,27 @@
 					<showOn>256</showOn>
 					<clipAngle>1.17078</clipAngle>
 					<anchorShift>0.151660994</anchorShift>
+				</slot>
+				<slot>
+					<slotType>attachment</slotType>
+					<slotId>38000</slotId>
+					<position>-0.593402982 0.910362005 0.219928995</position>
+					<rotation>-0 -0 0</rotation>
+					<scale>1 1 1</scale>
+					<applyType>turret</applyType>
+					<size>medium</size>
+					<enableVisTunnel>true</enableVisTunnel>
+					<hangerId>6</hangerId>
+				</slot>
+				<slot>
+					<slotType>attachment</slotType>
+					<slotId>38001</slotId>
+					<position>0 0.628444 -2.611985</position>
+					<rotation>-0 -1.570797 1.570796</rotation>
+					<scale>0.999999 0.999999 1</scale>
+					<applyType>universal</applyType>
+					<size>small</size>
+					<hangerId>11</hangerId>
 				</slot>
 			</customizationSlots>
 			<customization>

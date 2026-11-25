@@ -67,6 +67,10 @@ class IChallengesController(IGameController):
         raise NotImplementedError
         return
 
+    def getSoonEndingChallengesForCompletions(self):
+        raise NotImplementedError
+        return
+
     def getChallengeProgress(self, challengeID):
         raise NotImplementedError
         return

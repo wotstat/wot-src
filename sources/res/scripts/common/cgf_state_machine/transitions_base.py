@@ -18,7 +18,10 @@ class TransitionBase(with_metaclass(abc.ABCMeta, object)):
     def transitionDisplayName(cls):
         return cls.__name__
 
-    def activate(self):
+    def activate(self, gameObject):
+        return
+
+    def deactivate(self):
         return
 
     @abc.abstractmethod

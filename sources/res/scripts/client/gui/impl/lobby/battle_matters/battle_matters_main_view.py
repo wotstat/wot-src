@@ -58,6 +58,9 @@ class BattleMattersMissionComponent(InjectComponentAdaptor, BattleMattersViewMet
     def markVisited(self):
         return
 
+    def isVehicleSelectionShown(self):
+        return isinstance(self._injectView, BattleMattersVehicleSelectionView)
+
     def _addInjectContentListeners(self):
         if getattr(self._injectView.viewModel, b'onShowView', None):
             self._injectView.viewModel.onShowView += self._onViewReady

@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "Работим по отстраняване на проблема. Моля опитайте по-късно."
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "Данните са недостъпни"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "Нова вратичка с подаръци ще бъде достъпна за отваряне всеки ден от %(startDate)s до %(endDate)s. Можете да отворите вратичките на календара за текущия и предишния ден. След %(endDate)s, вратичките могат да се отварят само с помощта на ресурси на Новогодишно настъпление."
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "Завършете календарната прогресия, за да получите допълнителни подаръци, включително голяма новогодишна кутия. Достъпно е за завършване само до {FFE4C0_Open}%(date)s{FFE4C0_Close}."
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "Отворете всичките 31 вратички, за да получите уникални двуизмерни стилове, декали, дни Танков премиум акаунт, книги на екипажа, лични резерви и други награди."
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "Как работи"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "И това не е всичко!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "Отворете ги всичките!"
+
+msgid "introScreenView/buttonTitle"
+msgstr "Към календара"
+
+msgid "introScreenView/title"
+msgstr "Празничен календар"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "От {{startDate}} до {{endDate}} можете да отваряте нова вратичка на календара с подаръци {{@ colorLegacy 'dde9fc'}}всеки ден{{/}}.\nМожете да отваряте вратички за текущия и предишния ден."
+
+msgid "mainView/footer/expired/title"
+msgstr "Прогресията вече не е налична."
+
+msgid "mainView/footer/linkButton/text"
+msgstr "Свалете тапет за работен плот"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "Прогресията е завършена. Всички подаръци са получени."
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "Отворете вратичките на календара до %(endDate)s\nза допълнителни подаръци."
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "За събитието"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "Използвайте валутата, за да отваряте вратички и да получавате подаръци всеки ден до {{date}}. Ще можете да отворите\nпоследната вратичка за 31 декември безплатно."
+
+msgid "mainView/title"
+msgstr "Празничен календар"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "Лични резерви"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "Универсална брошура, заповед за преобучение и мисии за х5 опит"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "Кредити, Танков премиум акаунт и други"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "Двуизмерни стилове и декали"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "Експериментално оборудване и компоненти"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "Член на екипажа и голяма новогодишна кутия"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "Отворете всички вратички на календара, за да получите:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "Подаръци"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "Вратичките на календара са налични за отваряне от %(time)s всеки ден."
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "Ще бъде налично на {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "Ще бъде налично {FFE4C0_Open}от %(time)s днес{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "Ще бъде налично {FFE4C0_Open}от %(time)s утре{FFE4C0_Close}"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "Започнете с вратичка {FFE4C0_Open}%(day)s{FFE4C0_Close}, след това отваряйте други вратички по ред на номерацията."
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "Отворете вратичките подред"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "Можете да отворите вратичките на календара за текущия и предишния ден.\nВсички пропуснати вратички могат да бъдат отворени срещу ресурси от Новогодишно настъпление {FFE4C0_Open}от %(startDate)s до %(endDate)s{FFE4C0_Close}."
+
+msgid "mainView/tooltip/expired/title"
+msgstr "Вратичката не е отворена навреме"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "Можете да печелите валута, като водите битки, изпълнявате ежедневни мисии и участвате в други дейности в играта."
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "Недостатъчно валута"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "Получи награда"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "Отваряйте вратичките на календара всеки ден и получавайте подаръци."
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "Наличен е Празничен календар с подаръци!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "Към календара"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "Отворете оставащите вратички на Празничния календар, като използвате валута до {{date}}."
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "Не пропускайте!"
+
+msgid "notification/door/opened/title"
+msgstr "Вратичка %(dayNumber)s на Празничния календар е отворена"
+
+msgid "notification/event/paused"
+msgstr "Събитието \"Празничен календар\" е временно спряно поради поддръжка."
+
+msgid "notification/event/resumed"
+msgstr "Събитието \"Празничен календар\" е възобновено. Извиняваме се за причиненото неудобство."
+
+msgid "notification/lootbox/title"
+msgstr "Голяма новогодишна кутия"
+
+msgid "notification/progerssion/finished"
+msgstr "Прогресията на Празничния календар е завършена"
+
+msgid "notification/progerssion/recieved"
+msgstr "Етапът от прогресията на Празничния календар е завършен"
+
+msgid "notification/reward/received"
+msgstr "Получено:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "Подаръците за прогресията могат да се получават само по ред на номерацията."
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "Получете предишен подарък"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "Ще можете да откриете какво има в кутията {FFE4C0_Open}на %(date)s{FFE4C0_Close}."
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "Голяма новогодишна кутия"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "Прогресията беше налична от %(startDate)s до %(endDate)s."
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "Подаръкът не е взет навреме"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s Не е получен"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "Отворете още {cream_Open}%(count)s вратичка на календара{cream_Close}, за да получите този подарък."
+msgstr[1] "Отворете още {cream_Open}%(count)s вратички на календара{cream_Close}, за да получите този подарък."
+msgstr[2] "Отворете още {cream_Open}%(count)s вратички на календара{cream_Close}, за да получите този подарък."
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s Вземете предишния подарък от прогресията за отключване."
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s Получен"
+
+msgid "purchaseView/cancel"
+msgstr "Отмени"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "Можете да печелите валута, като водите битки, изпълнявате ежедневни мисии и участвате в други дейности в играта."
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "Недостатъчно валута"
+
+msgid "purchaseView/open"
+msgstr "Отвори"
+
+msgid "purchaseView/title"
+msgstr "Отвори вратичка на Празничния календар {{@ style (color $color)}}{{day}}{{/}}?"
+
+msgid "rewardView/confirm"
+msgstr "Тъй вярно!"
+
+msgid "rewardView/goToBoxes"
+msgstr "Към кутиите"
+
+msgid "rewardView/loading"
+msgstr "Добавяне на награда"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "Отворихте {FFE4C0_Open}всички вратички на Празничния календар{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "Отворени вратички на Празничния календар: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "Отворихте {FFE4C0_Open}%(count)s вратички на празничния календар{FFE4C0_Close}"
+
+msgid "rewardView/title/box"
+msgstr "Получена е Голяма новогодишна кутия!"
+
+msgid "rewardView/title/progression"
+msgstr "Получена е награда!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "Поздравления!"
+
+msgid "server_error"
+msgstr "Тази функция е временно недостъпна поради технически причини. Моля опитайте отново по-късно."

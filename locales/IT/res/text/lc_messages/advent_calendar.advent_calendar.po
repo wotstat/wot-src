@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "Stiamo lavorando per risolvere il problema. Ti preghiamo di riprovare più tardi."
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "Dati indisponibili"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "Una nuova porta con dei regali potrà essere aperta ogni giorno dal %(startDate)s al %(endDate)s. Puoi aprire le porte del Calendario del giorno attuale e del giorno precedente. Dopo la data del %(endDate)s, le porte possono essere aperte solo utilizzando risorse di Operazioni delle Feste."
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "Completa la progressione del Calendario per ricevere regali aggiuntivi, tra cui un pacco grande di Capodanno. Può essere completata solo fino al {FFE4C0_Open}%(date)s{FFE4C0_Close}."
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "Apri tutte e 31 le porte per ricevere stili 2D unici, decalcomanie, giorni di account Premium WoT, Libretti per equipaggio, Riserve personali e altre ricompense."
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "Come funziona"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "Ma c'è dell'altro!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "Aprile tutte"
+
+msgid "introScreenView/buttonTitle"
+msgstr "Al Calendario"
+
+msgid "introScreenView/title"
+msgstr "Calendario dell'avvento"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "Dal {{startDate}} al {{endDate}}, potrai aprire una nuova porta del Calendario con dei regali {{@ colorLegacy 'dde9fc'}}ogni giorno{{/}}.\nPuoi aprire le porte del giorno attuale e del giorno precedente."
+
+msgid "mainView/footer/expired/title"
+msgstr "Progressione non più disponibile."
+
+msgid "mainView/footer/linkButton/text"
+msgstr "Scarica lo sfondo per il desktop"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "Progressione completata. Hai ricevuto tutti i regali."
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "Apri le porte del Calendario fino al %(endDate)s\nper ricevere regali aggiuntivi."
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "Informazioni sull'evento"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "Usa la valuta per aprire porte e ricevere dei regali ogni giorno fino al {{date}}. Potrai aprire\nla porta finale del 31 dicembre gratuitamente."
+
+msgid "mainView/title"
+msgstr "Calendario dell'avvento"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "Riserve personali"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "Opuscolo universale, Ordine di riaddestramento e missioni Exp x5"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "Crediti, account Premium WoT e altro"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "Stili 2D e decalcomanie"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "Equipaggiamento sperimentale e componenti"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "Membro dell'equipaggio e pacco grande di Capodanno"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "Apri tutte le porte del Calendario per ricevere:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "Regali"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "Le porte del Calendario possono essere aperte ogni giorno dalle %(time)s."
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "Disponibilità: dal {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "Disponibilità: {FFE4C0_Open}oggi dalle %(time)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "Disponibilità: {FFE4C0_Open}domani dalle %(time)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "Inizia con la porta {FFE4C0_Open}%(day)s{FFE4C0_Close}, poi apri le altre porte in ordine numerico."
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "Apri le porte in ordine"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "Puoi aprire le porte del Calendario per il giorno corrente e per il giorno precedente.\nTutte le porte saltate possono essere aperte con le risorse di Operazioni delle Feste {FFE4C0_Open}dal %(startDate)s al %(endDate)s{FFE4C0_Close}."
+
+msgid "mainView/tooltip/expired/title"
+msgstr "Porta non aperta in tempo"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "Puoi ottenere valuta combattendo battaglie, completando missioni giornaliere e partecipando ad altre attività di gioco."
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "Valuta insufficiente"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "Reclama ricompensa"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "Apri le porte del Calendario ogni giorno e ricevi dei regali."
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "Regalo del Calendario dell'avvento disponibile!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "Al Calendario"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "Apri le rimanenti porte del Calendario dell'avvento utilizzando la valuta entro {{date}}."
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "Non dimenticartene!"
+
+msgid "notification/door/opened/title"
+msgstr "Porta %(dayNumber)s del Calendario dell'avvento aperta"
+
+msgid "notification/event/paused"
+msgstr "L'evento Calendario dell'avvento è temporaneamente sospeso per manutenzione."
+
+msgid "notification/event/resumed"
+msgstr "L'evento Calendario dell'avvento è ripreso. Ci scusiamo per l'inconveniente."
+
+msgid "notification/lootbox/title"
+msgstr "Pacco grande di Capodanno"
+
+msgid "notification/progerssion/finished"
+msgstr "Progressione del Calendario dell'avvento completa"
+
+msgid "notification/progerssion/recieved"
+msgstr "Fase della progressione del Calendario dell'avvento completa"
+
+msgid "notification/reward/received"
+msgstr "Ricevuto:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "I regali della progressione possono essere ricevuti solo in ordine numerico."
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "Ricevi il regalo precedente"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "Potrai scoprire cosa c'è dentro il pacco {FFE4C0_Open}il giorno %(date)s{FFE4C0_Close}."
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "Pacco grande di Capodanno"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "La progressione era disponibile dal %(startDate)s al %(endDate)s."
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "Regalo non reclamato in tempo"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s Non ricevuto"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "Apri {cream_Open}%(count)s altra porta del Calendario{cream_Close} per ricevere questo regalo."
+msgstr[1] "Apri {cream_Open}altre %(count)s porte del Calendario{cream_Close} per ricevere questo regalo."
+msgstr[2] "Apri {cream_Open}altre %(count)s porte del Calendario{cream_Close} per ricevere questo regalo."
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s Ricevi il regalo precedente nella progressione per sbloccarlo."
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s Ricevuto"
+
+msgid "purchaseView/cancel"
+msgstr "Annulla"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "Puoi ottenere valuta combattendo battaglie, completando missioni giornaliere e partecipando ad altre attività di gioco."
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "Valuta insufficiente"
+
+msgid "purchaseView/open"
+msgstr "Apri"
+
+msgid "purchaseView/title"
+msgstr "Aprire la porta {{@ style (color $color)}}{{day}} del Calendario dell'avvento{{/}}?"
+
+msgid "rewardView/confirm"
+msgstr "Affermativo!"
+
+msgid "rewardView/goToBoxes"
+msgstr "Ai pacchi"
+
+msgid "rewardView/loading"
+msgstr "Aggiunta della ricompensa"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "Hai aperto {FFE4C0_Open}tutte le porte del Calendario dell'avvento{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "Porte del Calendario dell'avvento aperte: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "Hai aperto {FFE4C0_Open}%(count)s porte del Calendario dell'avvento{FFE4C0_Close}"
+
+msgid "rewardView/title/box"
+msgstr "Pacco grande di Capodanno ricevuto!"
+
+msgid "rewardView/title/progression"
+msgstr "Ricompensa ricevuta!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "Congratulazioni!"
+
+msgid "server_error"
+msgstr "L'operazione non è al momento disponibile per motivi tecnici. Riprova più tardi."

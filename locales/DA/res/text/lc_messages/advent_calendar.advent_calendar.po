@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "Vi arbejder på at rette problemet. Prøv venligst igen senere."
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "Data ikke tilgængelig"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "En ny låge med gaver vil kunne åbnes hver dag fra den %(startDate)s til den %(endDate)s. Du kan åbne kalenderlåger for den nuværende og forrige dag. Efter den %(endDate)s, kan lågerne kun åbnes med Ferie-ops-ressourcer."
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "Fuldfør kalenderfremskridtet for at modtage yderligere gaver, herunder en stor nytårsæske. Det kan kun fuldføres til den {FFE4C0_Open}%(date)s{FFE4C0_Close}."
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "Åbn alle 31 døre for at modtage unikke 2D-stile, mærker, dage med WoT premium konto, mandskabsbøger, personlige reserver og andre belønninger."
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "Sådan virker det"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "Men det er ikke alt!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "Åbn dem alle"
+
+msgid "introScreenView/buttonTitle"
+msgstr "Til kalender"
+
+msgid "introScreenView/title"
+msgstr "Adventskalender"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "Fra den {{startDate}} til den {{endDate}}, vil du kunne åbne en ny kalenderlåge med gaver {{@ colorLegacy 'dde9fc'}}hver dag{{/}}.\nDu kan åbne låger for den nuværende og forrige dag."
+
+msgid "mainView/footer/expired/title"
+msgstr "Fremskridt ikke længere tilgængeligt."
+
+msgid "mainView/footer/linkButton/text"
+msgstr "Download desktop-baggrund"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "Fremskridt fuldført. Alle gaver modtaget."
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "Åbn kalenderlåger til den %(endDate)s\nfor yderligere gaver."
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "Om event"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "Brug valuta til at åbne døre med gaver hver dag til den {{date}}. Du vil kunne åbne\nden sidste dør for den 31. december, helt gratis."
+
+msgid "mainView/title"
+msgstr "Adventskalender"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "Personlige reserver"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "Universel brochure, omskolingsordrer og missioner for x5 xp"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "Credits, WoT premium konto og mere til"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "2D-stile og mærker"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "Eksperimentelt udstyr og komponenter"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "Mandskabsmedlem og stor nytårsæske"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "Åbn alle kalenderlåger for at modtage:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "Gaver"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "Kalenderlåger kan åbnes fra kl. %(time)s hver dag."
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "Vil være tilgængelig den {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "Vil være tilgængelig {FFE4C0_Open}fra kl. %(time)s i dag{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "Vil være tilgængelig {FFE4C0_Open}fra kl. %(time)s i morgen{FFE4C0_Close}"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "Start med låge {FFE4C0_Open}%(day)s{FFE4C0_Close}, og åbn derefter lågerne i numerisk rækkefølge."
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "Åbn låger i rækkefølge"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "Du kan åbne kalenderlåger for den nuværende og forrige dag.\nAlle låger, du ikke har fået åbnet, kan åbnes med Ferie-ops-ressourcer {FFE4C0_Open}fra den %(startDate)s til den %(endDate)s{FFE4C0_Close}."
+
+msgid "mainView/tooltip/expired/title"
+msgstr "Låge blev ikke åbnet i tide"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "Du kan optjene valuta fra kampe, ved at fuldføre daglige missioner og deltage i andre in-game aktiviteter."
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "Ikke nok valuta"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "Modtag belønning"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "Åbn kalenderlåger hver dag og modtag gaver."
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "Adventskalender-gave tilgængelig!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "Til kalender"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "Åbn de resterende adventskalender-låger med valuta indtil den {{date}}."
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "Gå ikke glip af det!"
+
+msgid "notification/door/opened/title"
+msgstr "Adventskalender-låge %(dayNumber)s åbnet"
+
+msgid "notification/event/paused"
+msgstr "Adventskalender-eventet er midlertidigt afbrudt på grund af vedligeholdelse."
+
+msgid "notification/event/resumed"
+msgstr "Adventskalender-eventet er genoptaget. Vi beklager ulejligheden."
+
+msgid "notification/lootbox/title"
+msgstr "Stor nytårsæske"
+
+msgid "notification/progerssion/finished"
+msgstr "Fremskridt i adventskalender fuldført"
+
+msgid "notification/progerssion/recieved"
+msgstr "Fremskridtsstadie i adventskalender fuldført"
+
+msgid "notification/reward/received"
+msgstr "Modtaget:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "Fremskridtsgaver kan kun modtages i numerisk rækkefølge."
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "Modtag forrige gave"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "Du vil kunne opdage, hvad der er i æsken {FFE4C0_Open}den %(date)s{FFE4C0_Close}."
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "Stor nytårsæske"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "Fremskridtet var tilgængeligt fra den %(startDate)s til den %(endDate)s."
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "Gave ikke modtaget i tide"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s Ikke modtaget"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "Åbn {cream_Open}yderligere %(count)s kalenderlåge{cream_Close} for at modtage denne gave."
+msgstr[1] "Åbn {cream_Open}yderligere %(count)s kalenderlåger{cream_Close} for at modtage denne gave."
+msgstr[2] "Åbn {cream_Open}yderligere %(count)s kalenderlåger{cream_Close} for at modtage denne gave."
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s Modtag den forrige gave i fremskridtet for at åbne op."
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s Modtaget"
+
+msgid "purchaseView/cancel"
+msgstr "Afbryd"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "Du kan optjene valuta fra kampe, ved at fuldføre daglige missioner og deltage i andre in-game aktiviteter."
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "Ikke nok valuta"
+
+msgid "purchaseView/open"
+msgstr "Åbn"
+
+msgid "purchaseView/title"
+msgstr "Åbn adventskalender-låge {{@ style (color $color)}}{{day}}{{/}}?"
+
+msgid "rewardView/confirm"
+msgstr "Bekræftet!"
+
+msgid "rewardView/goToBoxes"
+msgstr "Til æsker"
+
+msgid "rewardView/loading"
+msgstr "Tilføjer belønning"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "Du har åbnet {FFE4C0_Open}alle adventskalender-låger{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "Adventskalender-låger åbnet: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "Du har åbnet {FFE4C0_Open}%(count)s adventskalender-låger{FFE4C0_Close}"
+
+msgid "rewardView/title/box"
+msgstr "Stor nytårsæske modtaget!"
+
+msgid "rewardView/title/progression"
+msgstr "Belønning modtaget!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "Tillykke!"
+
+msgid "server_error"
+msgstr "Operationen er midlertidigt utilgængelig af tekniske årsager. Prøv igen senere."

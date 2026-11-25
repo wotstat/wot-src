@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "Vi arbetar med att lösa problemet. Försök igen senare."
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "Data ej tillgänglig"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "Du kan öppna en ny lucka med presenter varje dag från %(startDate)s till %(endDate)s. Du kan öppna dagens lucka, men även gårdagens om du missat den. Efter %(endDate)s kan luckorna bara öppnas med Helg-Opsresurser."
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "Slutför adventskalendern för att få extra presenter, bl.a ett Stort nyårspaket. Kan bara slutföras fram till {FFE4C0_Open}%(date)s{FFE4C0_Close}."
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "Öppna alla 31 luckor för att få unika 2D-stilar, dekaler, WoT-Premiumdagar, läromedel, personliga reserver m.m."
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "Så funkar det"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "Men det är inte allt!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "Öppna alla"
+
+msgid "introScreenView/buttonTitle"
+msgstr "Till kalendern"
+
+msgid "introScreenView/title"
+msgstr "Adventskalender"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "Från {{startDate}} till {{endDate}} kan du {{@ colorLegacy 'dde9fc'}}varje dag{{/}} öppna en ny lucka i adventskalendern.\nDu kan bara öppna dagens och gårdagens luckor."
+
+msgid "mainView/footer/expired/title"
+msgstr "Adventskalendern är inte tillgänglig längre."
+
+msgid "mainView/footer/linkButton/text"
+msgstr "Ladda ned skrivbordsbakgrund"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "Alla delmoment i Adventskalendern slutförda. Alla belöningar mottagna."
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "Öppna luckor i adventskalendern fram till %(endDate)s\nför extra presenter."
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "Om evenemanget"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "Använd valuta för att öppna luckor och få presenter varje dag fram till {{date}}. Du kan öppna\nden sista dörren den 31 december gratis."
+
+msgid "mainView/title"
+msgstr "Adventskalender"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "Personliga reserver"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "Allmänt utbildningshäfte, omskolningsorder och uppdrag för 5× erf."
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "Krediter, WoT-Premiumkonto m.m."
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "2D-stilar och dekaler"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "Experimentell utrustning och komponenter"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "Besättningsmedlemmar och ett Stort nyårspaket"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "Öppna alla luckor i kalendern för att få:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "Presenter"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "Du kan öppna luckor från %(time)s varje dag."
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "Blir tillgänglig den {FFE4C0_Open}%(date)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "Blir tillgänglig {FFE4C0_Open}idag kl. %(time)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "Blir tillgänglig {FFE4C0_Open}imorgon kl. %(time)s{FFE4C0_Close}"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "Börja med lucka {FFE4C0_Open}%(day)s{FFE4C0_Close} och öppna sen luckorna i ordning."
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "Öppna luckorna i ordning"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "Du kan öppna dagens- och gårdagens lucka.\nAlla missade luckor kan öppnas för Helg-Opsresurser {FFE4C0_Open}från %(startDate)s till %(endDate)s{FFE4C0_Close}."
+
+msgid "mainView/tooltip/expired/title"
+msgstr "Luckan öppnades inte i tid"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "Du kan tjäna valuta genom att delta i strid, slutföra dagliga uppdrag och delta i andra spelaktiviteter."
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "Valuta saknas"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "Ta emot belöning"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "Öppna luckor i adventskalendern varje dag och få presenter."
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "Present tillgänglig i adventskalendern!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "Till kalendern"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "Öppna återstående luckor i adventskalendern med valuta fram till {{date}}."
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "Missa inte chansen!"
+
+msgid "notification/door/opened/title"
+msgstr "Lucka %(dayNumber)s i adventskalendern öppnad"
+
+msgid "notification/event/paused"
+msgstr "Adventskalendern är för tillfället inte tillgängligt på grund av underhåll."
+
+msgid "notification/event/resumed"
+msgstr "Adventskalendern är tillbaka. Vi ber om ursäkt för ev. besvär."
+
+msgid "notification/lootbox/title"
+msgstr "Stort nyårspaket"
+
+msgid "notification/progerssion/finished"
+msgstr "Alla delmoment i Adventskalendern slutförda"
+
+msgid "notification/progerssion/recieved"
+msgstr "Delmoment i Adventskalendern slutfört"
+
+msgid "notification/reward/received"
+msgstr "Mottaget:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "Presenter kan bara tas emot i ordning."
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "Ta emot föregående present"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "Du kan se vad som finns i paketet {FFE4C0_Open}den %(date)s{FFE4C0_Close}."
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "Stort nyårspaket"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "Delmomentet var tillgänglig från %(startDate)s till %(endDate)s."
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "Presenten togs inte emot i tid"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s Ej mottagen"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "Öppna {cream_Open}ytterligare %(count)s lucka{cream_Close} för att få den här presenten."
+msgstr[1] "Öppna {cream_Open}ytterligare %(count)s luckor{cream_Close} för att få den här presenten."
+msgstr[2] "Öppna {cream_Open}ytterligare %(count)s luckor{cream_Close} för att få den här presenten."
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s Ta emot föregående present för att låsa upp."
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s Mottagen"
+
+msgid "purchaseView/cancel"
+msgstr "Avbryt"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "Du kan tjäna valuta genom att delta i strid, slutföra dagliga uppdrag och delta i andra spelaktiviteter."
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "Valuta saknas"
+
+msgid "purchaseView/open"
+msgstr "Öppna"
+
+msgid "purchaseView/title"
+msgstr "Öppna lucka {{@ style (color $color)}}{{day}}{{/}}?"
+
+msgid "rewardView/confirm"
+msgstr "Uppfattat!"
+
+msgid "rewardView/goToBoxes"
+msgstr "Till paket"
+
+msgid "rewardView/loading"
+msgstr "Lägger till belöning"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "Du har öppnat {FFE4C0_Open}alla luckor i adventskalendern{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "Luckor öppnade i adventskalendern: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "Du har öppnat {FFE4C0_Open}%(count)s luckor i adventskalendern{FFE4C0_Close}"
+
+msgid "rewardView/title/box"
+msgstr "Stort nyårspaket mottaget!"
+
+msgid "rewardView/title/progression"
+msgstr "Belöning mottagen!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "Grattis!"
+
+msgid "server_error"
+msgstr "Funktionen är tillfälligt ej tillgänglig på grund av tekniskt fel. Försök igen senare."

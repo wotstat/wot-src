@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "Sorunu düzeltmek için çalışıyoruz. Lütfen daha sonra tekrar deneyin."
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "Veri Yok"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "%(startDate)s ila %(endDate)s tarihleri arasında her gün içi hediye dolu yeni bir kapı sizi bekliyor. Mevcut ve bir önceki günün Takvim kapılarını açabileceksiniz. %(endDate)s sonrasında kapılar sadece Şenlik Operasyonları kaynakları karşılığında açılabilecek."
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "Takvim Gelişimini tamamlayarak bir Büyük Yeni Yıl Kutusu da dâhil olmak üzere daha başka hediyelere uzanın. Bunu yalnızca {FFE4C0_Open}%(date)s{FFE4C0_Close} tarihine kadar tamamlama imkânınız olacak."
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "31 kapının hepsini birden açarak özgün 2B stiller, çıkartmalar, WoT Premium Hesap günleri, Mürettebat Kitapları, Kişisel Yedekler ve daha başka ödülleri kapın."
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "İşleyiş Şekli"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "Dahası Var!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "Hepsini Açın"
+
+msgid "introScreenView/buttonTitle"
+msgstr "Takvime Git"
+
+msgid "introScreenView/title"
+msgstr "Şenlik Takvimi"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "{{startDate}} ila {{endDate}} arasında {{@ colorLegacy 'dde9fc'}}her gün{{/}} hediyeler içeren yeni bir Takvim kapısı açabilirsiniz.\nMevcut ve bir önceki günün kapısını açabileceksiniz."
+
+msgid "mainView/footer/expired/title"
+msgstr "Gelişim artık mevcut değil."
+
+msgid "mainView/footer/linkButton/text"
+msgstr "Masaüstü Resmini İndirin"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "Gelişim tamamlandı. Tüm hediyeler alındı."
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "%(endDate)s tarihine kadar Takvim kapıları açarak\nek hediyelere uzanın."
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "Etkinlik Hakkında"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "{{date}} tarihine kadar her gün kapıları para türleri kullanarak açın ve hediyeler alın. Son kapıyı 31 Aralık tarihinde\nücretsiz açabileceksiniz."
+
+msgid "mainView/title"
+msgstr "Şenlik Takvimi"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "Kişisel Yedekler"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "Genel Broşür, Yeniden Eğitim Emri ve x5 DP görevleri"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "Kredi, WoT Premium Hesabı ve dahası"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "2B stiller ve çıkartmalar"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "Deneysel Donanım ve bileşenler"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "Mürettebat üyesi ve Büyük Yeni Yıl Kutusu"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "Tüm Takvim kapılarını açarak şunları elde edin:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "Hediyeler"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "Takvim kapıları her gün %(time)s itibarıyla açılabilecek."
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "{FFE4C0_Open}%(date)s{FFE4C0_Close} tarihinde açılacak"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "{FFE4C0_Open}Bugün %(time)s itibarıyla{FFE4C0_Close} açılacak"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "{FFE4C0_Open}Yarın %(time)s itibarıyla{FFE4C0_Close} açılacak"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "{FFE4C0_Open}%(day)s.{FFE4C0_Close} kapı ile başlayın, ardından diğer kapıları sayısal sırayla açın."
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "Kapıları Sırayla Açın"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "Mevcut ve bir önceki günün Takvim kapılarını açabilirsiniz.\nKaçırılan tüm kapılar {FFE4C0_Open}%(startDate)s tarihinden %(endDate)s tarihine dek{FFE4C0_Close} Şenlik Operasyonları kaynakları karşılığında açılabilecektir."
+
+msgid "mainView/tooltip/expired/title"
+msgstr "Kapı Zamanında Açılmadı"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "Para türlerini savaş yaparak, günlük görevleri tamamlayarak ve diğer oyun içi etkinliklere katılarak kazanabilirsiniz."
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "Yeterli Para Yok"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "Ödülü Alın"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "Her gün Takvim kapıları açın ve hediyelere uzanın."
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "Şenlik Takvimi Hediyesi Var!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "Takvime Gidin"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "Kalan Şenlik Takvimi kapılarını para kullanarak {{date}} tarihine kadar açın."
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "Kaçırmayın!"
+
+msgid "notification/door/opened/title"
+msgstr "Şenlik Takviminin %(dayNumber)s. Kapısı Açıldı"
+
+msgid "notification/event/paused"
+msgstr "Şenlik Takvimi etkinliği, bakım nedeniyle geçici olarak donduruldu."
+
+msgid "notification/event/resumed"
+msgstr "Şenlik Takvimi etkinliği tekrar başladı. Verdiğimiz rahatsızlık nedeniyle özür dileriz."
+
+msgid "notification/lootbox/title"
+msgstr "Büyük Yeni Yıl Kutusu"
+
+msgid "notification/progerssion/finished"
+msgstr "Şenlik Takvimi Gelişimi Tamamlandı"
+
+msgid "notification/progerssion/recieved"
+msgstr "Şenlik Takvimi Gelişim Aşaması Tamamlandı"
+
+msgid "notification/reward/received"
+msgstr "Alındı:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "Gelişim hediyeleri sadece sayısal sırayla alınabilir."
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "Önceki Hediyeyi Alın"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "Kutuda ne olduğunu {FFE4C0_Open}%(date)s tarihinde{FFE4C0_Close} keşfedebileceksiniz."
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "Büyük Yeni Yıl Kutusu"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "Gelişim %(startDate)s ila %(endDate)s tarihleri arasında geçerliydi."
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "Hediye zamanında alınmadı"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s Alınmadı"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "Bu hediyeyi almak için {cream_Open}%(count)s tane daha{cream_Close} Takvim kapısı açın."
+msgstr[1] "Bu hediyeyi almak için {cream_Open}%(count)s tane daha{cream_Close} Takvim kapısı açın."
+msgstr[2] "Bu hediyeyi almak için {cream_Open}%(count)s tane daha{cream_Close} Takvim kapısı açın."
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s Açmak için Gelişimin bir önceki hediyesini alın."
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s Alındı"
+
+msgid "purchaseView/cancel"
+msgstr "İptal"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "Para türlerini savaş yaparak, günlük görevleri tamamlayarak ve diğer oyun içi etkinliklere katılarak kazanabilirsiniz."
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "Yeterli Para Yok"
+
+msgid "purchaseView/open"
+msgstr "Aç"
+
+msgid "purchaseView/title"
+msgstr "Şenlik Takvimi kapısı {{@ style (color $color)}}{{day}} açılsın mı{{/}}?"
+
+msgid "rewardView/confirm"
+msgstr "Olumlu!"
+
+msgid "rewardView/goToBoxes"
+msgstr "Kutulara Git"
+
+msgid "rewardView/loading"
+msgstr "Hediye ekleniyor"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "{FFE4C0_Open}Tüm Şenlik Takvimi kapılarını{FFE4C0_Close} açtınız"
+
+msgid "rewardView/subTitle/progression"
+msgstr "Açılan Şenlik Takvimi kapıları: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "{FFE4C0_Open}%(count)s Şenlik Takvimi kapısı{FFE4C0_Close} açtınız"
+
+msgid "rewardView/title/box"
+msgstr "Büyük Yeni Yıl Kutusu Alındı!"
+
+msgid "rewardView/title/progression"
+msgstr "Ödül Alındı!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "Tebrikler!"
+
+msgid "server_error"
+msgstr "Bu işlem teknik nedenler sebebiyle geçici olarak devre dışıdır. Lütfen daha sonra tekrar deneyin."

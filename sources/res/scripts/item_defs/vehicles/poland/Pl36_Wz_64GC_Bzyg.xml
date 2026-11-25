@@ -381,7 +381,7 @@
 			<slot>
 				<slotType>attachment</slotType>
 				<slotId>18000</slotId>
-				<position>-1.686166 0.24617 -1.503036</position>
+				<position>-1.686166 0.24617 -1.400995</position>
 				<rotation>-0 -0 1.48353</rotation>
 				<scale>0.999997 0.999997 1</scale>
 				<applyType>universal</applyType>
@@ -390,7 +390,7 @@
 			<slot>
 				<slotType>attachment</slotType>
 				<slotId>18001</slotId>
-				<position>1.686 0.246 -1.503</position>
+				<position>1.686 0.246 -1.497589</position>
 				<rotation>0.000175 3.139847 1.48353</rotation>
 				<scale>0.999997 0.999997 1</scale>
 				<applyType>universal</applyType>
@@ -1901,11 +1901,12 @@
 				<slot>
 					<slotType>attachment</slotType>
 					<slotId>38002</slotId>
-					<position>1.01790702 0.734302998 -2.29180503</position>
-					<rotation>0 -1.570796 0.922999</rotation>
+					<position>-0.000001 0.69594 -2.550655</position>
+					<rotation>-9.99999997e-07 -1.57079697 1.57079697</rotation>
 					<scale>0.99999398 0.99999398 0.999994993</scale>
 					<applyType>universal</applyType>
-					<size>small</size>
+					<size>medium</size>
+					<hangerId>9</hangerId>
 				</slot>
 			</customizationSlots>
 			<customization>

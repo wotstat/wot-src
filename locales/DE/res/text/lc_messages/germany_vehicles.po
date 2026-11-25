@@ -280,9 +280,6 @@ msgstr "leKpz M 41 90 mm"
 msgid "Chassis_G121_Grille_15_L63"
 msgstr "Grille 15"
 
-msgid "Chassis_G121_Grille_15_L63_FR"
-msgstr "Grille 15 BS"
-
 msgid "Chassis_G122_VK6501H"
 msgstr "VK 65.01 (H)"
 
@@ -484,8 +481,14 @@ msgstr "Jagdpanther"
 msgid "Chassis_G18_JagdPanther_2"
 msgstr "Jagdpanther verstärkte Ketten"
 
+msgid "Chassis_G190_TH_72"
+msgstr "TH-72"
+
 msgid "Chassis_G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
+
+msgid "Chassis_G192_E_10"
+msgstr "E 10"
 
 msgid "Chassis_G193_Pz_Kpfw_55"
 msgstr "Pz.Kpfw. 54"
@@ -511,8 +514,17 @@ msgstr "Kampfpanzer 67"
 msgid "Chassis_G200_Chi_Go"
 msgstr "Chi-Go"
 
+msgid "Chassis_G201_Panzerjager_I_mit_7_5_cm"
+msgstr "Pz.Jäg. I 7,5 cm"
+
+msgid "Chassis_G202_PzKpfw_T_34_747_r"
+msgstr "Pz.Kpfw. T 34 747 (r)"
+
 msgid "Chassis_G204_PzVI_Tiger_P_CFE_A"
 msgstr "Tiger (P) Leoponsan"
+
+msgid "Chassis_G205_Jagdpanzer_7_Pfanne"
+msgstr "Jagdpanzer 7 Pfanne"
 
 msgid "Chassis_G23_Grille"
 msgstr "Grille"
@@ -952,6 +964,9 @@ msgstr "Daimler-Benz V12 56"
 msgid "Daimler_Benz_V12_57"
 msgstr "Daimler-Benz V12 57"
 
+msgid "Deutz_BF6M1015CF"
+msgstr "Deutz BF6M1015CF"
+
 msgid "DickerMax"
 msgstr "Dicker Max"
 
@@ -1015,6 +1030,9 @@ msgstr "FuG 12"
 msgid "FuG12_SH"
 msgstr "FuG 12 L2"
 
+msgid "FuG15"
+msgstr "FuG 15"
+
 msgid "FuG16"
 msgstr "Fu 16"
 
@@ -1041,6 +1059,9 @@ msgstr "FuG 5m"
 
 msgid "FuG5_SH"
 msgstr "FuG 5 A"
+
+msgid "FuG5_T_34"
+msgstr "FuG 5 (T 34)"
 
 msgid "FuG6"
 msgstr "FuG 6"
@@ -1074,6 +1095,9 @@ msgstr "FuG 8 (f)"
 
 msgid "FuG_7_45_01"
 msgstr "FuG 7 (45.01)"
+
+msgid "FuG_7_E"
+msgstr "FuG 7 (E)"
 
 msgid "FuG_7_F"
 msgstr "FuG 7 (F)"
@@ -1557,15 +1581,6 @@ msgstr "Ein ausgezeichnetes Geschütz und gute Manövrierbarkeit"
 
 msgid "G121_Grille_15_L63"
 msgstr "Grille 15"
-
-msgid "G121_Grille_15_L63_FR"
-msgstr "Grille 15 BS"
-
-msgid "G121_Grille_15_L63_FR_descr"
-msgstr "Im Sommer 1942 schloss das Waffenamt einen Vertrag mit Krupp und Rheinmetall zur Entwicklung eines Jagdpanzers auf dem Fahrgestell des Panthers ab. Es sollte entweder die 128 mm K 43 oder die Haubitze 150 mm sFH 43 eingebaut werden. Die Projekte liefen unter den Namen Grille 12 und Grille 15, hatten rückwärtige Kampfräume und unterschieden sich nur in Typ des Artilleriesystems. Später erhielt die Grille 15 ein 150-mm-Geschütz mit 63 Kaliberlängen, das 200 mm Panzerung auf 4 000 Metern Reichweite durchschlagen konnte. Die Entwicklung lief sehr langsam und so verblieb die Grille 15 auf dem Reißbrett."
-
-msgid "G121_Grille_15_L63_FR_short"
-msgstr "Grille 15 BS"
 
 msgid "G121_Grille_15_L63_descr"
 msgstr "Im Sommer 1942 schloss das Waffenamt einen Vertrag mit Krupp und Rheinmetall zur Entwicklung eines Jagdpanzers auf dem Fahrgestell des Panthers ab. Es sollte entweder die 128 mm K 43 oder die Haubitze 150 mm sFH 43 eingebaut werden. Die Projekte liefen unter den Namen Grille 12 und Grille 15, hatten rückwärtige Kampfräume und unterschieden sich nur in Typ des Artilleriesystems. Später erhielt die Grille 15 ein 150-mm-Geschütz mit 63 Kaliberlängen, das 200 mm Panzerung auf 4 000 Metern Reichweite durchschlagen konnte. Die Entwicklung lief sehr langsam und so verblieb die Grille 15 auf dem Reißbrett."
@@ -2332,6 +2347,21 @@ msgstr "Die Entwicklung dieses Jagdpanzers, basierend auf dem Gestell des neuen 
 msgid "G18_JagdPanther_short"
 msgstr "JPanther"
 
+msgid "G190_TH_72"
+msgstr "TH-72"
+
+msgid "G190_TH_72_descr"
+msgstr "In den späten 1970er-Jahren sollte der Begleitpanzer 57 einer technischen Überarbeitung unterzogen werden. Die Hauptbewaffnung des Fahrzeugs wurde außerhalb des bemannten Turms platziert. Motor und Getriebe befanden sich im vorderen Teil des Fahrzeugs, das Kühl- und Abgassystem war hinten untergebracht. Der Turm selbst wurde mittig auf der Wanne installiert, mit dem Munitionslager direkt dahinter. Das Fahrzeug stellte sich wegen seines komplexen Entwurfs als zu kostspielig heraus, daher stellte Thyssen-Henschel das Projekt ein, ehe auch nur ein Prototyp gebaut worden war."
+
+msgid "G190_TH_72_long_special"
+msgstr "Der TH-72 ist ein deutscher leichter Panzer der Stufe IX. Das Fahrzeug besitzt eine Maschinenkanone und wird damit leicht gepanzerten Gegnern oder langsamen schweren Panzern auf kurze Distanz äußerst gefährlich. Die kurze Nachladezeit bedeutet, dass der Panzer nie lange außen vor ist, daher sollten auch Gegner, die das erste Magazin überlebt haben, stets wachsam bleiben."
+
+msgid "G190_TH_72_short"
+msgstr "TH-72"
+
+msgid "G190_TH_72_short_special"
+msgstr "Maschinenkanone, hervorragende Beweglichkeit"
+
 msgid "G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
 
@@ -2346,6 +2376,21 @@ msgstr "StuG III Kaba"
 
 msgid "G191_StuG_IIIF_CFE_A_short_special"
 msgstr "Gute Beweglichkeit, hohe Feuerrate"
+
+msgid "G192_E_10"
+msgstr "E 10"
+
+msgid "G192_E_10_descr"
+msgstr "Die Arbeiten am leichten Jagdpanzer E 10 begannen 1944 im Rahmen des „Entwicklungsprogramms“ mit dem Ziel einer weitgehenden Vereinheitlichung und Vereinfachung der Fertigung. Konzeptionell ähnelte das Fahrzeug dem Hetzer: Es wies eine niedrige Silhouette auf, verzichtete auf einen drehbaren Turm und verfügte über geneigte Panzerplatten. Das Fahrwerk war mit einer versetzten Anordnung von vier Laufrollen pro Seite ausgestattet; die Federung basierte auf außen an der Wanne angebrachten Drehstäben. Motor und hydrodynamisches Getriebe waren gemeinsam in einem Heckabteil untergebracht, was die Wartung erleichterte und das Volumen des Kampfraums vergrößerte. Zudem ermöglichten eine abnehmbare Panzerplatte am Heck sowie eine entsprechende Abdeckung des Motor-Getriebe-Raums einen schnellen Ausbau der Antriebseinheit. Das Projekt kam nicht über das Entwurfsstadium hinaus und wurde aufgrund des Kriegsendes nicht mehr umgesetzt."
+
+msgid "G192_E_10_long_special"
+msgstr "Der E 10 ist ein deutscher Jagdpanzer der Stufe V. Als Teil des „Entwicklungsprogramms“ konzipiert, um den Hetzer abzulösen, zeichnet sich das Fahrzeug durch eine niedrige Silhouette und ein geringes Gewicht aus. Dies verleiht ihm eine großartige Beweglichkeit, ausgezeichnete Tarnung sowie – dank seines kleinkalibrigen Geschützes – eine hohe Feuerrate. Die eingeschränkte Sichtweite und die Streuung des Geschützes sprechen jedoch für eine aktive Spielweise, bei der Schaden schnell und aus der Tarnung heraus verursacht wird."
+
+msgid "G192_E_10_short"
+msgstr "E 10"
+
+msgid "G192_E_10_short_special"
+msgstr "Ausgezeichnete Tarnung, hohe Feuerrate"
 
 msgid "G193_Pz_Kpfw_55"
 msgstr "Pz.Kpfw. 55"
@@ -2416,6 +2461,36 @@ msgstr "Chi-Go"
 msgid "G200_Chi_Go_short_special"
 msgstr "Ordentliche Turmpanzerung, hoher Alphaschaden"
 
+msgid "G201_Panzerjager_I_mit_7_5_cm"
+msgstr "Panzerjäger I mit 7,5 cm"
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_descr"
+msgstr "Zum Ende des Kriegs fehlten der deutschen Armee viele Panzerfahrzeuge. Die Industrie lag weitgehend in Trümmern, neue Fahrzeuge trafen nur in geringer Stückzahl ein. Daher musste das Militär aus den verfügbaren Fahrwerken und Waffen neue Fahrzeuge zusammenstellen. Eins dieser Modelle basierte auf dem Pz.Kpfw. I Ausf. B. Die Wanne wurde minimalen Verbesserungen unterzogen und mit einem Geschütz vom Typ 7,5 cm StuK 40 von einem Jagdpanzer ausgestattet. Eins dieser Fahrzeuge wurde Berichten zufolge im Frühling 1945 in der Schlacht um Berlin eingesetzt."
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_long_special"
+msgstr "Der Panzerjäger I mit 7,5 cm ist ein deutscher Jagdpanzer der Stufe III. Er verfügt über eine für seine Stufe gute Beweglichkeit, die es ihm ermöglicht, häufig die Position zu wechseln und Verbündete zu unterstützen. Sein ausgezeichnetes Geschütz vereint einen hervorragenden Geschützneigungswinkel, hohen Schaden pro Schuss, eine starke Durchschlagskraft und eine gute Genauigkeit, wodurch er einen Gegner nach dem anderen ausschalten kann."
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_short"
+msgstr "Pz.Jäg. I 7,5 cm"
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_short_special"
+msgstr "Hoher Einzelschussschaden, ausgezeichneter Höhenrichtbereich"
+
+msgid "G202_PzKpfw_T_34_747_r"
+msgstr "Pz.Kpfw. T 34 747 (r)"
+
+msgid "G202_PzKpfw_T_34_747_r_descr"
+msgstr "Von 1941 bis 1943 erbeuteten die Deutschen an der Ostfront viele Panzer vom Modell T-34. Am 30. Juni 1943 startete das Oberkommando des Heeres ein Programm, um die erbeuteten Fahrzeuge zu vereinheitlichen und wieder an der Ostfront zum Einsatz zu bringen. Insbesondere sollten Verbesserungen zentral umgesetzt werden, damit die Fahrzeuge deutschen Standards entsprachen. Der T-34 wurde dazu mit der Kommandantenkuppel des Pz. III oder Pz. IV und deutschen Instrumenten, Funkgeräten und anderen Anlagen ausgestattet. Trotz aller Versuche der Normung und Vereinheitlichung nutzten aber viele Panzer weiterhin uneinheitliche Teilekonfigurationen."
+
+msgid "G202_PzKpfw_T_34_747_r_long_special"
+msgstr "Der Pz.Kpfw. T 34 747 (r) ist ein deutscher mittlerer Panzer der Stufe V, der auf erbeuteten sowjetischen T-34 basiert und während des Zweiten Weltkriegs deutschen Standards angepasst wurde. Er behält die Stärken des T-34 bei, wie die angewinkelte Panzerung und ein 76-mm-Geschütz, jedoch mit verbesserter Genauigkeit und Geschützhandhabung. Dieses vielseitige Fahrzeug ist für verschiedenste Spielstile geeignet – im Nahkampf wie auch aus der Ferne."
+
+msgid "G202_PzKpfw_T_34_747_r_short"
+msgstr "Pz. T 34"
+
+msgid "G202_PzKpfw_T_34_747_r_short_special"
+msgstr "Gute Genauigkeit, kombiniert ordentliche Panzerung mit guter Beweglichkeit"
+
 msgid "G204_PzVI_Tiger_P_CFE_A"
 msgstr "Tiger (P) Leoponsan"
 
@@ -2430,6 +2505,21 @@ msgstr "Tiger (P) Leo"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short_special"
 msgstr "Stabile Frontpanzerung, System zur Verbesserung der Beweglichkeit"
+
+msgid "G205_Jagdpanzer_7_Pfanne"
+msgstr "Jagdpanzer 7 Pfanne"
+
+msgid "G205_Jagdpanzer_7_Pfanne_descr"
+msgstr "Der Jagdpanzer 7 Pfanne war ein Projekt, mit dem in Westdeutschland ein mächtiger, kompakter Jagdpanzer mit hoher Genauigkeit für den ersten Schuss entwickelt wurde. Die Wanne sollte zum Schutz vor HEAT- und APCR-Granaten glatt gehalten werden, was zu jener Zeit eher ungewöhnlich war. Das hydropneumatische Fahrwerk unterstützte den Höhenrichtbereich, die Wannendrehung den Seitenrichtbereich. Trotz des vielversprechenden Konzepts war das Projekt zu abhängig von seiner komplexen Hydraulik und wurde daher zugunsten vielseitiger Kampfpanzer eingestellt."
+
+msgid "G205_Jagdpanzer_7_Pfanne_long_special"
+msgstr "Der Jagdpanzer 7 Pfanne ist ein deutscher Scharfschützenjagdpanzer der Stufe VII. Dies ist das erste Fahrzeug seiner Stufe, dass einen Feuermodus und ein hydropneumatisches Fahrwerk im Stil der schwedischen Jagdpanzer nutzt, das ihn zu einem effizienten Scharfschützen auf lange Distanz macht. Das Fahrzeug ist beweglich und unauffällig, sein schlagkräftiges 105-mm-Geschütz besitzt eine hervorragende Durchschlagskraft, die jedoch etwas durch die lange Nachladezeit ausgeglichen wird."
+
+msgid "G205_Jagdpanzer_7_Pfanne_short"
+msgstr "Jg.Pz. 7 Pfanne"
+
+msgid "G205_Jagdpanzer_7_Pfanne_short_special"
+msgstr "Hydropneumatisches Fahrwerk, großartige Genauigkeit"
 
 msgid "G20_Marder_II"
 msgstr "Marder II"
@@ -3112,6 +3202,9 @@ msgstr "Präzises Geschütz mit hoher Durchschlagskraft, verlässliche Panzerung
 msgid "MAN_D2840_LXE"
 msgstr "MAN D2840 LXE"
 
+msgid "MAN_D2840_LXE_TH_72"
+msgstr "MAN D2840 LXE (TH)"
+
 msgid "MAN_H_40"
 msgstr "MAN H 40"
 
@@ -3303,6 +3396,9 @@ msgstr "Maybach HL 90"
 
 msgid "Maybach_HL_100TR_BW"
 msgstr "Maybach HL 100 TR BW"
+
+msgid "Maybach_HL_100_E"
+msgstr "Maybach HL 100 E"
 
 msgid "Maybach_HL_100_WT_IV"
 msgstr "Maybach HL 100 (WT IV)"
@@ -3676,9 +3772,6 @@ msgstr "Maybach Neues Projekt A"
 msgid "Maybach_HL_234P60_short"
 msgstr "Maybach Neues Projekt"
 
-msgid "Maybach_HL_234_FR"
-msgstr "Maybach HL 234"
-
 msgid "Maybach_HL_234_TRM_P30"
 msgstr "Maybach HL 234 TRM P30"
 
@@ -3747,6 +3840,9 @@ msgstr "Maybach HL 98"
 
 msgid "Maybach_NL38TR"
 msgstr "Maybach HL 38 TR"
+
+msgid "Maybach_NL_38TR_P"
+msgstr "Maybach NL 38TR P"
 
 msgid "Maybach_Neues_Projekt_90"
 msgstr "Maybach Neues Projekt 90"
@@ -4270,6 +4366,9 @@ msgstr "SEM 25A"
 msgid "SEM_25A"
 msgstr "SEM 25A"
 
+msgid "SEM_25A_TH_72"
+msgstr "SEM 25A (TH)"
+
 msgid "SEM_25B"
 msgstr "SEM 25B"
 
@@ -4278,6 +4377,9 @@ msgstr "SEM 25BK"
 
 msgid "SEM_25C"
 msgstr "Funkgerät SEM 25C"
+
+msgid "SEM_25D"
+msgstr "SEM 25D"
 
 msgid "SEM_25E"
 msgstr "SEM 25E"
@@ -4531,9 +4633,6 @@ msgstr "leKpz M 41 90 mm"
 msgid "Turret_1_G121_Grille_15_L63"
 msgstr "Grille 15"
 
-msgid "Turret_1_G121_Grille_15_L63_FR"
-msgstr "Grille 15 BS"
-
 msgid "Turret_1_G122_VK6501H"
 msgstr "VK 65.01 (H) S.W."
 
@@ -4711,8 +4810,14 @@ msgstr "Hirschkäfer"
 msgid "Turret_1_G18_JagdPanther"
 msgstr "Jagdpanther"
 
+msgid "Turret_1_G190_TH_72"
+msgstr "TH-72"
+
 msgid "Turret_1_G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
+
+msgid "Turret_1_G192_E_10"
+msgstr "E 10"
 
 msgid "Turret_1_G193_Pz_Kpfw_55"
 msgstr "Pz.Kpfw. 54"
@@ -4732,8 +4837,17 @@ msgstr "Kampfpanzer 67"
 msgid "Turret_1_G200_Chi_Go"
 msgstr "Chi-Go"
 
+msgid "Turret_1_G201_Panzerjager_I_mit_7_5_cm"
+msgstr "Pz.Jäg. I 7,5 cm"
+
+msgid "Turret_1_G202_PzKpfw_T_34_747_r"
+msgstr "Pz.Kpfw. T 34 747 (r)"
+
 msgid "Turret_1_G204_PzVI_Tiger_P_CFE_A"
 msgstr "Tiger (P) Leoponsan"
+
+msgid "Turret_1_G205_Jagdpanzer_7_Pfanne"
+msgstr "Jagdpanzer 7 Pfanne"
 
 msgid "Turret_1_G23_Grille"
 msgstr "Grille"
@@ -5143,6 +5257,9 @@ msgstr "Ein überschwerer Panzer mit rückwärtigem Turm, entwickelt von Krupp. 
 msgid "VK7201_short"
 msgstr "VK 72.01 K"
 
+msgid "V_2"
+msgstr "V-2"
+
 msgid "V_2K_T"
 msgstr "V-2K"
 
@@ -5196,6 +5313,9 @@ msgstr "100 mm Panzerkanone D-10T2S L/56"
 
 msgid "_100mm_UOF-412"
 msgstr "UOF-412"
+
+msgid "_105_mm_Rh_105_20_A"
+msgstr "105 mm Rh 105 20 A"
 
 msgid "_105mmGr39H1A"
 msgstr "Gr 39 H1A"
@@ -5461,6 +5581,9 @@ msgstr "Pzgr. 39 K (B)"
 msgid "_105mm_Pzgr_39_L_100"
 msgstr "Pzgr. 39 L (100)"
 
+msgid "_105mm_Pzgr_39_L_100_A"
+msgstr "Pzgr. 39 L (100) A"
+
 msgid "_105mm_Pzgr_39_L_180A"
 msgstr "Pzgr. 39 L (180A)"
 
@@ -5475,6 +5598,9 @@ msgstr "Pzgr 40W"
 
 msgid "_105mm_Pzgr_40_100"
 msgstr "Pzgr. 40 (100)"
+
+msgid "_105mm_Pzgr_40_100_A"
+msgstr "Pzgr. 40 (100) A"
 
 msgid "_105mm_Pzgr_40_180A"
 msgstr "Pzgr. 40 (180A)"
@@ -5560,6 +5686,9 @@ msgstr "Sprgr. K (B)"
 msgid "_105mm_Sprgr_L_100"
 msgstr "Sprgr. L (100)"
 
+msgid "_105mm_Sprgr_L_100_A"
+msgstr "Sprgr. L (100) A"
+
 msgid "_105mm_Sprgr_L_180A"
 msgstr "Sprgr. L (180A)"
 
@@ -5595,9 +5724,6 @@ msgstr "10WSc"
 
 msgid "_10WSc_CFE_T"
 msgstr "10WSc T"
-
-msgid "_10WSc_FR"
-msgstr "10WSc"
 
 msgid "_10WSc_P"
 msgstr "10WSc P"
@@ -6196,9 +6322,6 @@ msgstr "Gr. 44 Hl/A"
 msgid "_150mm_Gr_HL"
 msgstr "Gr. HL"
 
-msgid "_150mm_Gr_HL_FR"
-msgstr "Gr. HL"
-
 msgid "_150mm_Gr_Hl_A"
 msgstr "Gr. Hl/A"
 
@@ -6222,9 +6345,6 @@ msgstr "15 cm Pak L/44"
 
 msgid "_150mm_Pak_L_63"
 msgstr "15 cm Pak L/63"
-
-msgid "_150mm_Pak_L_63_FR"
-msgstr "15 cm Pak L/63"
 
 msgid "_150mm_PzGr39H2_SH"
 msgstr "Pzgr 39 H2"
@@ -6250,9 +6370,6 @@ msgstr "Pzgr. 42 (WT IV) T"
 msgid "_150mm_Pzgr_44"
 msgstr "Pzgr. 44"
 
-msgid "_150mm_Pzgr_FR"
-msgstr "Pzgr."
-
 msgid "_150mm_Pzgr_m_Hb"
 msgstr "Pzgr. (m.Hb)"
 
@@ -6276,9 +6393,6 @@ msgstr "Sprgr. 18 (Grille)"
 
 msgid "_150mm_Sprgr_36"
 msgstr "Sprgr. 36"
-
-msgid "_150mm_Sprgr_FR"
-msgstr "Sprgr."
 
 msgid "_150mm_Sprgr_G"
 msgstr "Sprgr. G"
@@ -6787,6 +6901,18 @@ msgstr "Sprgr. 18 (2801)"
 msgid "_50mm_Sprgr_18_II_L"
 msgstr "Sprgr. 18 (II L)"
 
+msgid "_57mm_57_438R_m_70_AP_T_TH_72"
+msgstr "57x438R m/70 AP-T (TH)"
+
+msgid "_57mm_57_438R_m_71_HE_T_TH_72"
+msgstr "57x438R m/71 HE-T (TH)"
+
+msgid "_57mm_57_438R_m_78_APCR_T_TH_72"
+msgstr "57x438R m/78 APCR-T (TH)"
+
+msgid "_57mm_Bofors_L_70_Mk_1_TH_72"
+msgstr "Bofors L/70 Mk.1 (TH)"
+
 msgid "_7.92mm_AP"
 msgstr "Patrone 318 SmK-Rs-L’spur"
 
@@ -6843,6 +6969,9 @@ msgstr "7,5 cm Flak L/60"
 
 msgid "_75mm_Gr_38_HL_C"
 msgstr "Gr 38 HL C"
+
+msgid "_75mm_Gr_Patr_39_HL"
+msgstr "Gr.Patr. 39 HL"
 
 msgid "_75mm_K_Gr_rot_Pz_C"
 msgstr "K.Gr.rot.Pz.C"
@@ -6925,6 +7054,9 @@ msgstr "7,5 cm Kw.K. 42 L/70 (II)"
 msgid "_75mm_PaK_39_L48"
 msgstr "7,5 cm Pak 39 L/48"
 
+msgid "_75mm_PaK_39_L48_C"
+msgstr "7,5 cm Pak 39 L/48 C"
+
 msgid "_75mm_PaK_40_2"
 msgstr "7,5 cm Pak 40/2 L/46"
 
@@ -6979,6 +7111,9 @@ msgstr "Pzgr. 39 Ausf. H"
 msgid "_75mm_Pzgr_39_B"
 msgstr "Pzgr. 39 (B)"
 
+msgid "_75mm_Pzgr_39_BL"
+msgstr "Pzgr 39 BL"
+
 msgid "_75mm_Pzgr_39_E"
 msgstr "Pzgr. 39 (E)"
 
@@ -7027,6 +7162,9 @@ msgstr "Pzgr. 40 Ausf. H"
 msgid "_75mm_Pzgr_40_B"
 msgstr "Pzgr. 40 (B)"
 
+msgid "_75mm_Pzgr_40_BL"
+msgstr "Pzgr 40 BL"
+
 msgid "_75mm_Pzgr_40_E"
 msgstr "Pzgr. 40 (E)"
 
@@ -7057,6 +7195,9 @@ msgstr "Pzgr. 40 T 3001"
 msgid "_75mm_Pzgr_40_Typ_100"
 msgstr "Pzgr. 40 Typ 100"
 
+msgid "_75mm_Pzgr_Patr_39"
+msgstr "Pzgr.Patr. 39"
+
 msgid "_75mm_Sprg.18"
 msgstr "Sprgr 18"
 
@@ -7074,6 +7215,9 @@ msgstr "Sprgr.Patr 18"
 
 msgid "_75mm_Sprg_18_B"
 msgstr "Sprgr. 18 (B)"
+
+msgid "_75mm_Sprg_18_BL"
+msgstr "Sprg 18 BL"
 
 msgid "_75mm_Sprg_34_C"
 msgstr "Sprgr 34 C"
@@ -7123,6 +7267,9 @@ msgstr "Sprgr. 18 T 3001"
 msgid "_75mm_Sprgr_18_Typ_100"
 msgstr "Sprgr. 18 Typ 100"
 
+msgid "_75mm_Sprgr_Patr_37"
+msgstr "Sprgr.Patr. 37"
+
 msgid "_75mm_StuK42_L70"
 msgstr "7,5 cm Pak 42 L/70"
 
@@ -7143,6 +7290,18 @@ msgstr "7,5 cm StuK 40 L/48 (F)"
 
 msgid "_75mm_Waffe0725_1944"
 msgstr "7,5/5,5 cm Kw.K. 44 L/53"
+
+msgid "_76_2mm_BR_350P"
+msgstr "BR-350P"
+
+msgid "_76_2mm_KwK_L41_5"
+msgstr "7,62 cm KwK 41 L/41.5"
+
+msgid "_76_2mm_UBR_350A"
+msgstr "UBR-350A"
+
+msgid "_76_2mm_UOF_350"
+msgstr "UOF-350"
 
 msgid "_76mm_PaK_36r"
 msgstr "7,62 cm Pak 36 (r)"
@@ -7182,6 +7341,9 @@ msgstr "7,5 cm Stu.K. 40 L/43 (B)"
 
 msgid "_7_5_cm_Stu_K_40_L_43_B_short"
 msgstr "7,5 cm Stu.K. 40\nL/43 (B)"
+
+msgid "_7_5_cm_Stu_K_40_L_48_B"
+msgstr "7,5 cm Stu.K. 40 L/48 B"
 
 msgid "_88mm_Flak_37_L56"
 msgstr "8,8 cm Flak 37 L/56"

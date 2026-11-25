@@ -1,112 +1,112 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
   C as s,
-  E as a,
-  G as t,
-  H as r,
-  J as n,
-  K as o,
-  L as l,
-  Mt as d,
-  N as c,
-  Ot as i,
-  St as m,
-  Tt as p,
-  U as _,
-  W as v,
-  X as u,
-  Y as b,
-  Z as g,
-  at as h,
-  jt as j,
-  lt as x,
+  Ct as a,
+  E as t,
+  Et as r,
+  G as n,
+  H as o,
+  J as l,
+  K as d,
+  L as c,
+  Mt as i,
+  N as m,
+  Nt as p,
+  Tt as _,
+  U as v,
+  W as u,
+  X as b,
+  Y as g,
+  Z as h,
+  at as x,
+  kt as j,
   q as f,
-  st as w,
-  tt as y,
-  vt as N,
+  st as y,
+  tt as w,
+  ut as N,
   w as C,
-  wt as k,
+  yt as k,
   z as A,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { t as $ } from "../chunks/vendor.js";
 import { t as I } from "../chunks/synergy_rewards.js";
-var T = d.resolve("aliases"),
-  [M, E] = g()(
+var T = p.resolve("aliases"),
+  [E, M] = h()(
     ({ observableModel: e }) => {
       const s = { root: e.object(), rewards: e.array("rewards") },
-        a = u(() =>
-          N(s.rewards.get(), (e) => ({
+        a = b(() =>
+          k(s.rewards.get(), (e) => ({
             ...e,
-            image: v(e, f.Big),
-            valueType: o(e.name),
+            image: u(e, f.Big),
+            valueType: d(e.name),
             special: "overlayType" in e ? e.overlayType : void 0,
-            tooltipArgs: t(
+            tooltipArgs: n(
               { tooltipId: e.tooltipId },
               T.read((e) => e.hangar.shared.PetEvent("resId")),
             ),
           })),
         );
-      return { ...s, computes: { getRewards: a, hasRewards: u(() => a().length > 0) } };
+      return { ...s, computes: { getRewards: a, hasRewards: b(() => a().length > 0) } };
     },
     ({ externalModel: e }) => ({ close: e.createCallbackNoArgs("onClose") }),
   ),
-  z = e(j(), 1),
+  z = e(i(), 1),
   B = "Content_85b20b1b",
   H = "Content_image_a5db499f",
   S = "Content_titleText_29a98447",
-  O = "Content_title_790233a",
-  W = "Content_scrollArea_f7323c35",
-  q = "Content_scrollContent_d4a6b4f1",
-  F = "Content_scrollBar_1dba3205",
-  G = "Content_description_86d61b05",
-  J = "Content_descriptionContent_99b7791",
-  K = "Content_rewards_a0dbfbff",
-  L = "Content_flexBreak_7635e853",
+  W = "Content_title_790233a",
+  q = "Content_scrollArea_f7323c35",
+  F = "Content_scrollContent_d4a6b4f1",
+  G = "Content_scrollBar_1dba3205",
+  J = "Content_description_86d61b05",
+  K = "Content_descriptionContent_99b7791",
+  L = "Content_rewards_a0dbfbff",
+  O = "Content_flexBreak_7635e853",
   P = "Content_reward_f32884ee",
-  U = x(),
-  V = d.resolve("strings"),
-  X = d.resolve("images"),
+  U = N(),
+  V = p.resolve("strings"),
+  X = p.resolve("images"),
   Y = $(function () {
-    const { model: e, controls: t } = E(),
+    const { model: e, controls: a } = M(),
       { eventId: r } = e.root.get(),
       n = X.read(`petSystem.event_view.reward_${r}_180x128`),
       o = V.read(`pet_events.title.event_${r}`),
-      d = V.read(`pet_events.joke.event_${r}`),
-      i = V.read(`pet_events.text.event_${r}`),
-      m = e.computes.getRewards(),
+      l = V.read(`pet_events.joke.event_${r}`),
+      d = V.read(`pet_events.text.event_${r}`),
+      i = e.computes.getRewards(),
       p = e.computes.hasRewards();
     return (0, U.jsxs)("div", {
       className: B,
       children: [
         n && (0, U.jsx)("div", { className: H, style: { backgroundImage: `url(${n})` } }),
-        o && (0, U.jsx)(l, { className: O, classNames: { text: S }, text: o }),
-        i &&
+        o && (0, U.jsx)(c, { className: W, classNames: { text: S }, text: o }),
+        d &&
           (0, U.jsx)("div", {
-            className: G,
+            className: J,
             children: (0, U.jsxs)(s, {
               children: [
                 (0, U.jsxs)(C, {
-                  className: W,
-                  classNames: { content: q },
+                  className: q,
+                  classNames: { content: F },
                   children: [
                     (0, U.jsx)(A, {
-                      text: i,
-                      params: { br: (0, U.jsx)("span", { className: L }) },
-                      className: J,
+                      text: d,
+                      params: { br: (0, U.jsx)("span", { className: O }) },
+                      className: K,
                       split: !0,
                     }),
-                    d && (0, U.jsx)("div", { className: J, children: d }),
+                    l && (0, U.jsx)("div", { className: K, children: l }),
                   ],
                 }),
-                (0, U.jsx)(a, { classNames: { base: F } }),
+                (0, U.jsx)(t, { classNames: { base: G } }),
               ],
             }),
           }),
-        (0, U.jsx)(I, { rewards: m, hasRewards: p, className: K, classNames: { reward: P } }),
-        (0, U.jsx)(c, {
-          size: c.sizes.medium,
-          onClick: t.close,
+        (0, U.jsx)(I, { rewards: i, hasRewards: p, className: L, classNames: { reward: P } }),
+        (0, U.jsx)(m, {
+          size: m.sizes.medium,
+          onClick: a.close,
           children: V.readOrEmpty("pet_system.eventView.button"),
         }),
       ],
@@ -118,21 +118,21 @@ var T = d.resolve("aliases"),
   ee = "App_d9bfcf43",
   se = "App_inner_ab556db1",
   ae = "App_close_ffa318a",
-  te = d.resolve("images"),
-  re = d.resolve("sounds"),
+  te = p.resolve("images"),
+  re = p.resolve("sounds"),
   ne = $(function () {
-    const { model: e, controls: s } = E(),
+    const { model: e, controls: s } = M(),
       { eventType: a } = e.root.get(),
       t = (0, z.useRef)(null),
       n = te.read(`petSystem.event_view.background_${a}`),
-      o = y();
-    h(() => s.close());
+      l = w();
+    x(() => s.close());
     return (
-      w(() => {
-        o.run(() => {
+      y(() => {
+        l.run(() => {
           t.current &&
-            (k(t.current.scrollWidth, t.current.scrollHeight),
-            p({ top: 68, right: 68, bottom: 68, left: 68 }),
+            (_(t.current.scrollWidth, t.current.scrollHeight),
+            r({ top: 68, right: 68, bottom: 68, left: 68 }),
             re.play("pet_system_popup"));
         });
       }),
@@ -155,8 +155,8 @@ var T = d.resolve("aliases"),
               (0, U.jsxs)(U.Fragment, {
                 children: [
                   (0, U.jsx)("div", { className: Z, style: { backgroundImage: `url(${n})` } }),
-                  i.isHigh() &&
-                    (0, U.jsx)(r, {
+                  j.isHigh() &&
+                    (0, U.jsx)(o, {
                       className: Q,
                       src: R.videos.pet_system.glow(),
                       autoplay: !0,
@@ -170,10 +170,10 @@ var T = d.resolve("aliases"),
       })
     );
   });
-n(
-  new b()
-    .add(_)
-    .add(M)
+l(
+  new g()
+    .add(v)
+    .add(E)
     .render((0, U.jsx)(ne, {})),
   { withMedia: !1 },
-).then(() => m());
+).then(() => a());

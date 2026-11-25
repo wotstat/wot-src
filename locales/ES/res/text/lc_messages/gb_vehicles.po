@@ -118,9 +118,6 @@ msgstr "SR C45"
 msgid "C45_CFE_A"
 msgstr "SR C45"
 
-msgid "C45_FR"
-msgstr "SR C45"
-
 msgid "C45_c_7x7"
 msgstr "SR C45"
 
@@ -406,6 +403,9 @@ msgstr "Headshaker"
 msgid "Chassis_GB152_AT_FV230_Breaker"
 msgstr "AT-FV230 Breaker"
 
+msgid "Chassis_GB154_FV112_Puncher"
+msgstr "FV112 Puncher"
+
 msgid "Chassis_GB155_Pike"
 msgstr "Pike"
 
@@ -426,6 +426,9 @@ msgstr "Stuart I"
 
 msgid "Chassis_GB15_Stuart_I_2"
 msgstr "Stuart IV"
+
+msgid "Chassis_GB160_A20"
+msgstr "A20"
 
 msgid "Chassis_GB17_Grant_I"
 msgstr "Grant I"
@@ -688,9 +691,6 @@ msgstr "Centurion Action X"
 msgid "Chassis_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
 
-msgid "Chassis_GB86_Centurion_Action_X_FR"
-msgstr "Centurion Action X BS"
-
 msgid "Chassis_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
 
@@ -759,6 +759,9 @@ msgstr "Chrysler A57"
 
 msgid "Cummins_BTA_5_9"
 msgstr "Cummins BTA 5,9"
+
+msgid "DDS_6V_53NF"
+msgstr "DDS 6V 53NF"
 
 msgid "Daimler_D2458_V_8"
 msgstr "Daimler D2458 V-8"
@@ -1555,6 +1558,21 @@ msgstr "El AT-FV230 Breaker es un cazacarros que posee un blindaje frontal exce
 msgid "GB152_AT_FV230_Breaker_short"
 msgstr "Breaker"
 
+msgid "GB154_FV112_Puncher"
+msgstr "FV112 Puncher"
+
+msgid "GB154_FV112_Puncher_descr"
+msgstr "Un proyecto británico para un vehículo anticarro ligero, desarrollado teniendo en cuenta los requisitos de compacidad, peso reducido y alta maniobrabilidad. El diseño permitía montar un armamento potente sobre un chasis pequeño, lo que garantizaba la velocidad y movilidad necesarias para acompañar a las divisiones de carros."
+
+msgid "GB154_FV112_Puncher_long_special"
+msgstr "El FV112 Puncher es un cazacarros británico de nivel IX. Su proyectil AE principal de gran penetración tiene un valor de daño alfa elevado y un DPM excepcional para su nivel, mientras que los proyectiles APCR se encargan de los blancos con más blindaje. Su movilidad y precisión excelentes le permiten ejercer de francotirador agresivo que se reposiciona constantemente en busca de ángulos de tiro favorables."
+
+msgid "GB154_FV112_Puncher_short"
+msgstr "Puncher"
+
+msgid "GB154_FV112_Puncher_short_special"
+msgstr "DPM excelente y torreta de giro integral"
+
 msgid "GB155_Pike"
 msgstr "Pike"
 
@@ -1632,6 +1650,21 @@ msgstr "Stuart I-IV"
 
 msgid "GB15_Stuart_I_descr"
 msgstr "Fabricado en masa desde 1941 y suministrado al R.U. mediante la Ley de Préstamo y Arriendo. Se suministraron un total de 6.889 al R.U. desde la versión M3 a la M5A1. Los carros M3 fueron designados Stuart I por los británicos, mientras la versión M3A1 fue designada Stuart III. Entraron en acción por primera vez en la batalla de Sidi Rezegh."
+
+msgid "GB160_A20"
+msgstr "A20"
+
+msgid "GB160_A20_descr"
+msgstr "Inmediatamente después del inicio de la Segunda Guerra Mundial, el estado mayor general británico empezó a desarrollar el carro pesado de infantería A20 para combatir en Europa. Se esperaba que la guerra adquiriera un carácter posicional, como en los años de la Primera Guerra Mundial; por eso, el vehículo, que tenía un blindaje grueso, recibió un casco alargado con una «cola» en la parte trasera para superar trincheras y cráteres. El armamento se ubicó tanto en la torreta como en el casco. Estaba previsto que la producción en serie comenzara ya en 1940; sin embargo, la rápida derrota de Francia demostró que los combates exigirían mucha más maniobrabilidad de lo esperado. Como resultado, se canceló la producción en serie del A20, el prototipo construido no recibió una torreta operativa y el proyecto en sí sirvió de base para crear el A22 Churchill."
+
+msgid "GB160_A20_long_special"
+msgstr "El A20 es un carro pesado británico de nivel IV. Este precursor del A22 Churchill posee un cañón de disparo rápido similar, un blindaje frontal relativamente sólido y laterales largos, aptos para las maniobras «side-scraping». Sin embargo, al tener disponer de poco daño por disparo y movilidad escasa, resulta ideal para absorber impactos mientras inflige daño y avanza de forma constante hacia el enemigo."
+
+msgid "GB160_A20_short"
+msgstr "A20"
+
+msgid "GB160_A20_short_special"
+msgstr "Blindaje frontal sólido, cañón de disparo rápido"
 
 msgid "GB17_Grant_I"
 msgstr "Grant"
@@ -2170,15 +2203,6 @@ msgstr "Triumphant"
 msgid "GB86_Centurion_Action_X_CFE_A_short_special"
 msgstr "En un blanco corcel avanza, en Changban con su lanza de plata,\n\nla historia revela, su nombre entre héroes afianza."
 
-msgid "GB86_Centurion_Action_X_FR"
-msgstr "Centurion Action X BS"
-
-msgid "GB86_Centurion_Action_X_FR_descr"
-msgstr "Se planeó el uso de la torreta del Action X en los carros Centurion de las últimas variantes. Se montó un prototipo de la torreta en el chasis del Centurion Mark 7, y un prototipo más se usó en pruebas balísticas. Los vehículos con la torreta Action X nunca entraron en la producción en masa ni en servicio."
-
-msgid "GB86_Centurion_Action_X_FR_short"
-msgstr "Cent. AX BS"
-
 msgid "GB86_Centurion_Action_X_descr"
 msgstr "Se planeó el uso de la torreta del Action X en los carros Centurion de las últimas variantes. Se montó un prototipo de la torreta en el chasis del Centurion Mark 7, y un prototipo más se usó en pruebas balísticas. Los vehículos con la torreta Action X nunca entraron en la producción en masa ni en servicio."
 
@@ -2469,6 +2493,9 @@ msgstr "Meadows D.A.V. O.C."
 
 msgid "Meadows_D_A_V_A13_III"
 msgstr "Meadows D.A.V. (A13 III)"
+
+msgid "Meadows_D_A_V_A20"
+msgstr "Meadows D.A.V (A20)"
 
 msgid "Meadows_D_A_V_A22"
 msgstr "Meadows D.A.V. (A22)"
@@ -3007,9 +3034,6 @@ msgstr "Rolls-Royce Meteor TTSC"
 msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_CFE_A"
 msgstr "Rolls-Royce Meteor TTSC"
 
-msgid "Rolls_Royce_Meteor_with_twin_turbo_supercharges_FR"
-msgstr "Rolls-Royce Meteor TTSC"
-
 msgid "Rolls_Royce_Meteorite_202"
 msgstr "Rolls-Royce Meteorite Mk. 202"
 
@@ -3057,6 +3081,9 @@ msgstr "Rover Meteorite"
 
 msgid "SR_40_E"
 msgstr "SR 40 E"
+
+msgid "SR_C42"
+msgstr "SR C42"
 
 msgid "SR_C42F"
 msgstr "SR C42F"
@@ -3280,6 +3307,9 @@ msgstr "Headshaker"
 msgid "Turret_1_GB152_AT_FV230_Breaker"
 msgstr "Beaver"
 
+msgid "Turret_1_GB154_FV112_Puncher"
+msgstr "FV112 Puncher"
+
 msgid "Turret_1_GB155_Pike"
 msgstr "Pike"
 
@@ -3297,6 +3327,9 @@ msgstr "Victorious"
 
 msgid "Turret_1_GB15_Stuart_I"
 msgstr "Stuart I"
+
+msgid "Turret_1_GB160_A20"
+msgstr "A20"
 
 msgid "Turret_1_GB19_Sherman_Firefly"
 msgstr "Sherman I"
@@ -3447,9 +3480,6 @@ msgstr "Centurion Action X"
 
 msgid "Turret_1_GB86_Centurion_Action_X_CFE_A"
 msgstr "Triumphant"
-
-msgid "Turret_1_GB86_Centurion_Action_X_FR"
-msgstr "Centurion Action X BS"
 
 msgid "Turret_1_GB87_Chieftain_T95_turret"
 msgstr "Chieftain/T95"
@@ -3688,6 +3718,9 @@ msgstr "WS No. 19 Mk. IIB"
 msgid "WS_No_19_Mk_III"
 msgstr "WS No. 19 Mk. III"
 
+msgid "WS_No_19_Mk_II_A20"
+msgstr "WS No. 19 Mk. II (A20)"
+
 msgid "WS_No_22_Mk_3"
 msgstr "WS No. 22 Mk. 3"
 
@@ -3748,6 +3781,9 @@ msgstr "APDS Kl/14"
 msgid "_105mm_APDS_Kl14_CFE_J"
 msgstr "APDS Kl/14"
 
+msgid "_105mm_APDS_Kl14_L"
+msgstr "LAPDS Kl/14"
+
 msgid "_105mm_APDS_L_28P"
 msgstr "APDS L-28P"
 
@@ -3762,9 +3798,6 @@ msgstr "APDS L-28 (5321)"
 
 msgid "_105mm_APDS_L_28_5321_CFE_A"
 msgstr "APDS L-28"
-
-msgid "_105mm_APDS_L_28_5321_FR"
-msgstr "APDS L-28 (5321)"
 
 msgid "_105mm_AP_EX20"
 msgstr "105 mm AP EX20"
@@ -3793,6 +3826,9 @@ msgstr "105 mm AT Gun L7A1"
 msgid "_105mm_AT_Gun_L7A1_GSOR"
 msgstr "105 mm AT Gun L7A1 GSOR"
 
+msgid "_105mm_AT_Gun_L7A1_L"
+msgstr "105mm AT Gun L7A1 L"
+
 msgid "_105mm_AT_Gun_L7_N"
 msgstr "105 mm AT Gun L7"
 
@@ -3805,9 +3841,6 @@ msgstr "105 mm Gun L7A2"
 msgid "_105mm_Gun_L7_HEAT_CFE_A"
 msgstr "105 mm Gun L7A2"
 
-msgid "_105mm_Gun_L7_HEAT_FR"
-msgstr "105 mm Gun L7A2"
-
 msgid "_105mm_Gun_L7_HEAT_SH"
 msgstr "105 mm Gun L7A2"
 
@@ -3819,9 +3852,6 @@ msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_CFE_A"
 msgstr "US HEAT M456"
-
-msgid "_105mm_HEAT_L7_FR"
-msgstr "US HEAT M456"
 
 msgid "_105mm_HEAT_L7_SH"
 msgstr "US AP M456"
@@ -3841,6 +3871,9 @@ msgstr "HESH-T L-37"
 msgid "_105mm_HESH_L7_GSOR"
 msgstr "HESH L7 GSOR"
 
+msgid "_105mm_HESH_L7_Mk13_L"
+msgstr "LHESH L7Mk.13"
+
 msgid "_105mm_HESH_L7_N"
 msgstr "HESH-T L-37 N"
 
@@ -3855,9 +3888,6 @@ msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_35_5321_CFE_A"
 msgstr "HESH-T L-35"
-
-msgid "_105mm_HESH_L_35_5321_FR"
-msgstr "HESH L-35 (5321)"
 
 msgid "_105mm_HESH_L_37_4015"
 msgstr "HESH L-37 (4015)"
@@ -3885,6 +3915,9 @@ msgstr "HE L7 Mk. 13"
 
 msgid "_105mm_HE_L7_Mk13_CFE_J"
 msgstr "HE L7 Mk. 13"
+
+msgid "_105mm_HE_L7_Mk13_L"
+msgstr "LHE L7Mk.13"
 
 msgid "_105mm_HE_L7_N"
 msgstr "HESH-T L-35 N"
@@ -4804,6 +4837,15 @@ msgstr "HE Mk. 2B"
 msgid "_3pdr_gun_Hotchkiss"
 msgstr "OQF 3-pdr Gun Mk. I"
 
+msgid "_40mm_2_pdr_APCBC_Mk_IX_A20"
+msgstr "APCBC Mk. IX (A20)"
+
+msgid "_40mm_2_pdr_APCNR_Mk_II_A20"
+msgstr "APCNR Mk. II (A20)"
+
+msgid "_40mm_2_pdr_HE_Mk_II_A20"
+msgstr "HE Mk. II (A20)"
+
 msgid "_40mm_AP"
 msgstr "AP Mk. I"
 
@@ -4854,6 +4896,9 @@ msgstr "40 mm Pom-Pom (II)"
 
 msgid "_40mm_Pom_Pom_prot"
 msgstr "40 mm Pom-Pom prototype"
+
+msgid "_40mm_QF_2_pdr_Mk_X_A20"
+msgstr "QF 2-pdr Mk. X (A20)"
 
 msgid "_40mm_SAP"
 msgstr "SAP Mk. 1T"

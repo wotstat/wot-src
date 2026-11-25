@@ -16,9 +16,9 @@ import {
   Z as _,
   a as f,
   ft as w,
-  j as g,
-  m as v,
-  p as b,
+  g,
+  h as v,
+  j as b,
   tt as y,
   vt as x,
   wt as h,
@@ -30,7 +30,7 @@ import { a as B, t as E } from "./getRewardImage.js";
 import { t as S } from "./loupe_button.js";
 import { t as D } from "./sounds.js";
 import { t as $ } from "./divider.js";
-import { c as W, l as G } from "./use_video_loaded.js";
+import { d as W, u as G } from "./use_video_loaded.js";
 import {
   C as H,
   S as L,
@@ -133,8 +133,8 @@ var pe = {
               pe.openRare,
             );
           return {
-            [W.common]: { video: o, image: i, sound: m },
-            [W.rare]: { video: l, image: c, sound: p },
+            [G.common]: { video: o, image: i, sound: m },
+            [G.rare]: { video: l, image: c, sound: p },
           };
         });
       return {
@@ -285,7 +285,7 @@ function Fe({ children: e, className: a, ...s }) {
     return (0, Te.jsxs)("div", {
       className: u(ze.base, ze[`base__${e}`], r),
       children: [
-        (0, Te.jsx)("div", { className: ze.value, children: (0, Te.jsx)(b, { text: O(s) }) }),
+        (0, Te.jsx)("div", { className: ze.value, children: (0, Te.jsx)(v, { text: O(s) }) }),
         a && (0, Te.jsx)("span", { className: ze.plural, children: a }),
       ],
     });
@@ -337,20 +337,20 @@ var Ue = { opacity: 1, transform: "translateX(0rem)", filter: "brightness(1)" },
       { images: o, sounds: c, videos: m } = n.computes.resources(),
       { dynamicTexts: p } = n.computes.dynamicResources(),
       { name: f, value: w } = e.compensation,
-      b = (0, ge.useRef)(null),
+      v = (0, ge.useRef)(null),
       y =
         f === l.PremiumPlus
           ? p.rewardsPremiumDay.plural("premiumDay", Number(w.split(" ").at(-1)))
           : "",
       [x, h] = d(Je),
       R = ce(ve),
-      N = z(b);
+      N = z(v);
     return (
       (0, ge.useEffect)(() => {
         const e = (e) => {
           switch (e.name) {
             case Oe(je, a, s).name:
-              b.current?.play();
+              v.current?.play();
               break;
             case Oe(Ne, a, s).name:
               (t.sound(c.compensationAppear), h.start(ea()));
@@ -377,8 +377,8 @@ var Ue = { opacity: 1, transform: "translateX(0rem)", filter: "brightness(1)" },
       (0, Te.jsxs)(Fe.Compensation, {
         className: u(ta.base, i),
         children: [
-          (0, Te.jsx)(v, {
-            ref: b,
+          (0, Te.jsx)(g, {
+            ref: v,
             className: ta.particles,
             src: m.compensationParticles,
             onEnded: N,
@@ -388,7 +388,7 @@ var Ue = { opacity: 1, transform: "translateX(0rem)", filter: "brightness(1)" },
             children: (0, Te.jsx)(
               re,
               {
-                icon: E(e, g.Big, e.isCompensation),
+                icon: E(e, b.Big, e.isCompensation),
                 sizes: { height: r.rewardHeight, width: r.rewardWidth },
               },
               "compensation_image",
@@ -431,7 +431,7 @@ var Ue = { opacity: 1, transform: "translateX(0rem)", filter: "brightness(1)" },
     compensationIconHeight: "24rem",
     nameHeight: "20rem",
     descriptionHeight: "20rem",
-    imageSize: g.Big,
+    imageSize: b.Big,
     premDaysHeight: "65rem",
     premDaysWidth: "65rem",
   },
@@ -765,7 +765,7 @@ var Ue = { opacity: 1, transform: "translateX(0rem)", filter: "brightness(1)" },
       ref: m.rootRef,
       children: [
         (0, Te.jsx)(U, {
-          activeType: o ? W.rare : W.common,
+          activeType: o ? G.rare : G.common,
           minimized: !i,
           res: l,
           className: Aa,
@@ -788,7 +788,7 @@ var Ue = { opacity: 1, transform: "translateX(0rem)", filter: "brightness(1)" },
   }),
   Pa = () =>
     (0, Te.jsx)(fe, {
-      options: G.MULTIPLE_REWARD,
+      options: W.MULTIPLE_REWARD,
       children: (0, Te.jsx)(ke, { children: (0, Te.jsx)(Oa, {}) }),
     });
 export { Pa as default };

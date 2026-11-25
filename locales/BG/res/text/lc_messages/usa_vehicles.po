@@ -1282,6 +1282,21 @@ msgstr "Jezevec"
 msgid "A197_Jezevec_short_special"
 msgstr "Отлична мобилност, автоматично презареждане с кратко време за презареждане в касетата"
 
+msgid "A198_Christie_M1921"
+msgstr "Christie M1921"
+
+msgid "A198_Christie_M1921_descr"
+msgstr "След Първата световна война, в съответствие с доминиращите по онова време възгледи за използването на танкове, Отделът по въоръженията на армията на САЩ възлага на изтъкнатия инженер Джон Уолтър Кристи задачата да разработи нова бронирана машина. Тъй като изискванията към танка се променят, той преминава през няколко етапа на доработка, а в края на 1922 е представен във финалния си вид – като модел танк на Кристи от 1921 без купол. По това време обаче вече е влязъл в сила Законът за националната отбрана, според който танковите подразделения са част от пехотата, поради което машината на Кристи вече не се вписва в приетата концепция. Въпреки опитите за усъвършенстване и развитие на танка, през 1924 проектът е прекратен."
+
+msgid "A198_Christie_M1921_long_special"
+msgstr "Christie M1921 е американска ПТ-САУ ниво II. Нейното скорострелно оръдие, отличаващо се с добра бронебойност, бързо насочване и отлични ъгли на наклон, я прави ефективно средство за отблъскване на атаки и задържане на позиции. Подвижността й е много слаба, но това е от много по-малко значение, когато машината се намира на правилното място в правилния момент."
+
+msgid "A198_Christie_M1921_short"
+msgstr "M1921"
+
+msgid "A198_Christie_M1921_short_special"
+msgstr "Висока скорострелност, отлични ъгли на наклон на оръдието"
+
 msgid "A21_T14_long_special"
 msgstr "Американски тежък танк ниво V с наклонена челна броня, прилични поражения в минута и добра мобилност като за среден танк. Бордовете на машината са доста тънки, което отчасти се компенсира от екрана, които поемат поражения."
 
@@ -1497,15 +1512,6 @@ msgstr "T110E5 7x7"
 
 msgid "A69_T110E5_7x7_short"
 msgstr "T110E5 7x7"
-
-msgid "A69_T110E5_FR"
-msgstr "T110E5 BS"
-
-msgid "A69_T110E5_FR_descr"
-msgstr "Разработката започва през 1952 като тежък танк с по-силно въоръжение в сравнение с T-43 (M103). На новия танк са наложени съществени ограничения в габаритите, за да може да минава през тесните тунели под Бернските Алпи. Обмисляни са различни модификации, но проектът е прекратен. Не са произведени машини."
-
-msgid "A69_T110E5_FR_short"
-msgstr "T110E5 BS"
 
 msgid "A69_T110E5_descr"
 msgstr "Разработката започва през 1952 г. като тежък танк с по-силно въоръжение в сравнение с T-43 (M103). На новия танк са наложени съществени ограничения в габаритите, за да може да минава през тесните тунели под Бернските Алпи. Обмисляни са различни модификации, но проектът е прекратен. Не са произведени машини."
@@ -1732,9 +1738,6 @@ msgstr "AN/VRC-3"
 msgid "AN_VRC-3_7x7_0"
 msgstr "AN/VRC-3"
 
-msgid "AN_VRC-3_FR"
-msgstr "AN/VRC-3"
-
 msgid "AN_VRC-3_Rush_Ep1"
 msgstr "AN/VRC-3S"
 
@@ -1796,9 +1799,6 @@ msgid "AN_VRC_47_7x7"
 msgstr "AN/VRC-47"
 
 msgid "AOI-1490"
-msgstr "Continental AOI-1490"
-
-msgid "AOI-1490_FR"
 msgstr "Continental AOI-1490"
 
 msgid "AOI-1490_short"
@@ -2212,6 +2212,9 @@ msgstr "Gorilla"
 msgid "Chassis_A197_Jezevec"
 msgstr "Jezevec"
 
+msgid "Chassis_A198_Christie_M1921"
+msgstr "Christie M1921"
+
 msgid "Chassis_A22_M5_Stuart"
 msgstr "M5 Stuart"
 
@@ -2410,9 +2413,6 @@ msgstr "VVSST48E2"
 msgid "Chassis_Sherman_Jumbo_2"
 msgstr "VVSST51E2"
 
-msgid "Chassis_T110_FR"
-msgstr "T110E5 BS"
-
 msgid "Chassis_T18"
 msgstr "T18E1"
 
@@ -2466,6 +2466,9 @@ msgstr "T95E2"
 
 msgid "Chassis_T95_E6"
 msgstr "T95E6"
+
+msgid "Christie_6_cylinder"
+msgstr "Christie 6-cylinder"
 
 msgid "Chrysler_1200_HP"
 msgstr "Chrysler 1200 HP"
@@ -3058,6 +3061,9 @@ msgstr "Curtiss Wright RC2-350 T-C"
 msgid "D51080_BPXIV"
 msgstr "D51080"
 
+msgid "ESCR_1921"
+msgstr "ESCR 1921"
+
 msgid "Ford_GAA"
 msgstr "Ford GAA"
 
@@ -3399,6 +3405,9 @@ msgstr "QF 2-pdr Mk. IX"
 
 msgid "PLT_27"
 msgstr "PLT-27"
+
+msgid "QF_6_pounder_Mk_I"
+msgstr "QF 6-pounder Mk. I"
 
 msgid "QF_6_pounder_Mk_III"
 msgstr "QF 6-pdr Mk. III"
@@ -4057,6 +4066,9 @@ msgstr "Gorilla"
 msgid "Turret_1_A197_Jezevec"
 msgstr "Jezevec"
 
+msgid "Turret_1_A198_Christie_M1921"
+msgstr "Christie M1921"
+
 msgid "Turret_1_A22_M5_Stuart"
 msgstr "M5 Stuart"
 
@@ -4308,9 +4320,6 @@ msgstr "M46T119"
 
 msgid "Turret_2_Sherman_Jumbo"
 msgstr "M4A2E2D51080"
-
-msgid "Turret_2_T110_FR"
-msgstr "T110E5 BS"
 
 msgid "Turret_2_T21"
 msgstr "T21"
@@ -5026,9 +5035,6 @@ msgstr "AP M358"
 msgid "_120mm_AP_M358E5"
 msgstr "AP M358E5"
 
-msgid "_120mm_AP_M358E5_FR"
-msgstr "AP M358E5"
-
 msgid "_120mm_AP_M358_M103"
 msgstr "AP M358 (M103)"
 
@@ -5116,9 +5122,6 @@ msgstr "120 mm Gun M58"
 msgid "_120mm_Gun_M58A"
 msgstr "120 mm Gun M58A"
 
-msgid "_120mm_Gun_M58_FR"
-msgstr "120 mm Gun M58"
-
 msgid "_120mm_Gun_M58_M103"
 msgstr "120 mm Gun M58 (M103)"
 
@@ -5176,9 +5179,6 @@ msgstr "M469 SPHT"
 msgid "_120mm_HEAT_M469E5"
 msgstr "HEAT M469E5"
 
-msgid "_120mm_HEAT_M469E5_FR"
-msgstr "HEAT M469E5"
-
 msgid "_120mm_HEAT_M469R"
 msgstr "HEAT M469R"
 
@@ -5231,9 +5231,6 @@ msgid "_120mm_HE_M356E1_M_V_Y"
 msgstr "HE M356E1 (M-V-Y)"
 
 msgid "_120mm_HE_M356E5"
-msgstr "HE M356E5"
-
-msgid "_120mm_HE_M356E5_FR"
 msgstr "HE M356E5"
 
 msgid "_120mm_HE_M356_M103"
@@ -5898,6 +5895,15 @@ msgstr "HE T18"
 
 msgid "_57mm_HE_T18_M8A1"
 msgstr "HE T18 (M8A1)"
+
+msgid "_6pdr_57mm_APC_M1"
+msgstr "APC M1"
+
+msgid "_6pdr_57mm_AP_M1"
+msgstr "AP M1"
+
+msgid "_6pdr_57mm_HE_M1"
+msgstr "HE M1"
 
 msgid "_6pdr_APCR_MK_1T"
 msgstr "APCR Mk. 1T"

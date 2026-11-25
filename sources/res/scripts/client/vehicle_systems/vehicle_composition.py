@@ -115,6 +115,13 @@ def createDetachedTurretComposition(gameObject, prefabMap=None, extraSlots=None)
     return
 
 
+def getCompositionSlotUuid(gameObject, slotName):
+    composer = gameObject.findRead(Compound.CompoundBasedComposerComponent)
+    if composer:
+        return composer.slots.get(slotName, CGF.INVALID_UUID)
+    return CGF.INVALID_UUID
+
+
 def findParentVehicle(gameObject):
     from Vehicle import Vehicle
     from SimulatedVehicle import SimulatedVehicle

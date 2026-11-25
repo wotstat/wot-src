@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "balance/dashes"
+msgstr "- - -"
+
+msgid "balance/tooltip/unavailable/body"
+msgstr "Dolgozunk a probléma megoldásán. Kérjük, próbáld meg újra később."
+
+msgid "balance/tooltip/unavailable/header"
+msgstr "Az adatok nem érhetők el"
+
+msgid "introScreenView/blockDescription/howItWork"
+msgstr "%(startDate)s és %(endDate)s között mindennap kinyithatsz egy új ajtót. Az aktuális és az előző napi ajtókat nyithatod ki. %(endDate)s után az ünnepi hadműveleti nyersanyagok segítségével nyithatod ki az ajtókat."
+
+msgid "introScreenView/blockDescription/magicLootbox"
+msgstr "Teljesítsd a kalendáriumi előrehaladást, hogy további ajándékokhoz juss, köztük egy nagy újévi dobozt. Az előrehaladást eddig teljesítheted: {FFE4C0_Open}%(date)s{FFE4C0_Close}."
+
+msgid "introScreenView/blockDescription/whatCanYouGet"
+msgstr "Nyisd ki mind a 31 ajtót, hogy egyedi 2D-stílusokat, matricákat, WoT prémiumfiók-napokat, legénységi könyveket, személyes tartalékokat és megannyi más jutalmat szerezz!"
+
+msgid "introScreenView/blockTitle/howItWork"
+msgstr "Hogyan működik?"
+
+msgid "introScreenView/blockTitle/magicLootbox"
+msgstr "De ez még nem minden!"
+
+msgid "introScreenView/blockTitle/whatCanYouGet"
+msgstr "Nyisd ki mindet"
+
+msgid "introScreenView/buttonTitle"
+msgstr "A kalendáriumhoz"
+
+msgid "introScreenView/title"
+msgstr "Adventi kalendárium"
+
+msgid "mainView/activePhase/subTitle"
+msgstr "{{startDate}} és {{endDate}} között {{@ colorLegacy 'dde9fc'}}mindennap{{/}} kinyithatod a kalendárium egyik új, ajándékokat rejtő ajtaját.\nAz aktuális és az előző napi ajtókat nyithatod ki."
+
+msgid "mainView/footer/expired/title"
+msgstr "Az előrehaladás már nem érhető el."
+
+msgid "mainView/footer/linkButton/text"
+msgstr "Asztali háttérkép letöltése"
+
+msgid "mainView/footer/progressionFinished/title"
+msgstr "Teljesítetted az előrehaladást. Minden ajándékot megkaptál."
+
+msgid "mainView/footer/progressionNotFinished/title"
+msgstr "Nyisd ki a kalendárium ajtóit %(endDate)s napjáig\na további ajándékokért!"
+
+msgid "mainView/navigation/aboutEventBtn/label"
+msgstr "Az eseményről"
+
+msgid "mainView/postActivePhase/subTitle"
+msgstr "Használj fizetőeszközöket az ajtók kinyitásához és az ajándékok megszerzéséhez mindennap {{date}}-ig! Az utolsó ajtót\ndecember 31-én ingyen kinyithatod."
+
+msgid "mainView/title"
+msgstr "Adventi kalendárium"
+
+msgid "mainView/tooltip/allRewards/bonus/boosters"
+msgstr "Személyes tartalékok"
+
+msgid "mainView/tooltip/allRewards/bonus/crewBonusesOrX5"
+msgstr "Univerzális füzet, átképzési parancs és küldetések 5x XP-ért"
+
+msgid "mainView/tooltip/allRewards/bonus/currenciesAndPremium"
+msgstr "Kredit, WoT prémium fiók és még több"
+
+msgid "mainView/tooltip/allRewards/bonus/customizations"
+msgstr "2D-stílusok és matricák"
+
+msgid "mainView/tooltip/allRewards/bonus/experimentalEquipmentAndComponents"
+msgstr "Kísérleti felszerelések és komponensek"
+
+msgid "mainView/tooltip/allRewards/bonus/progressionRewards"
+msgstr "Egy harckocsizó és egy nagy újévi doboz"
+
+msgid "mainView/tooltip/allRewards/subTitle"
+msgstr "Nyisd ki a kalendárium összes ajtaját, hogy megszerezd a következőket:"
+
+msgid "mainView/tooltip/allRewards/title"
+msgstr "Ajándékok"
+
+msgid "mainView/tooltip/availableSometime/description"
+msgstr "A kalendárium ajtóit mindennap %(time)s után nyithatod ki."
+
+msgid "mainView/tooltip/availableSometime/title"
+msgstr "{FFE4C0_Open}%(date)s{FFE4C0_Close} napon lesz elérhető"
+
+msgid "mainView/tooltip/availableToday"
+msgstr "A {FFE4C0_Open}mai napon %(time)s órától{FFE4C0_Close} lesz elérhető"
+
+msgid "mainView/tooltip/availableTomorrow"
+msgstr "A {FFE4C0_Open}holnapi napon %(time)s órától{FFE4C0_Close} lesz elérhető"
+
+msgid "mainView/tooltip/enoughResources/description"
+msgstr "Kezdd a(z) {FFE4C0_Open}%(day)s.{FFE4C0_Close} ajtóval, majd nyisd ki az ajtókat számsorrendben."
+
+msgid "mainView/tooltip/enoughResources/title"
+msgstr "Nyisd ki az ajtókat sorban"
+
+msgid "mainView/tooltip/expired/description"
+msgstr "A kalendárium aktuális és előző napi ajtóit nyithatod ki.\nA kihagyott ajtókat ünnepi hadműveleti nyersanyagokért nyithatod ki {FFE4C0_Open}%(startDate)s és %(endDate)s között{FFE4C0_Close}."
+
+msgid "mainView/tooltip/expired/title"
+msgstr "Nem nyitottad ki időben az ajtót"
+
+msgid "mainView/tooltip/notEnoughResources/description"
+msgstr "Fizetőeszközöket csaták megvívásával, napi küldetések teljesítésével és játékbeli tevékenységeken való részvétellel szerezhetsz."
+
+msgid "mainView/tooltip/notEnoughResources/title"
+msgstr "Nincs elég fizetőeszközöd"
+
+msgid "marker/exclamationMark"
+msgstr "!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/action"
+msgstr "Jutalom átvétele"
+
+msgid "notification/adventCalendarDoorsAvailable/event/description"
+msgstr "Nyisd ki a kalendárium ajtóit mindennap, és szerezz ajándékokat!"
+
+msgid "notification/adventCalendarDoorsAvailable/event/title"
+msgstr "Elérhető egy ajándék az adventi kalendáriumban!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/action"
+msgstr "A kalendáriumhoz"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/description"
+msgstr "Nyisd ki az adventi kalendárium hátralevő ajtóit fizetőeszközök felhasználásával {{date}}-ig!"
+
+msgid "notification/adventCalendarDoorsAvailable/postEvent/title"
+msgstr "Ne hagyd ki!"
+
+msgid "notification/door/opened/title"
+msgstr "Kinyitottad az adventi kalendárium %(dayNumber)s. ajtaját"
+
+msgid "notification/event/paused"
+msgstr "Az Adventi kalendárium esemény karbantartás miatt átmenetileg szünetel."
+
+msgid "notification/event/resumed"
+msgstr "Az Adventi kalendárium esemény folytatódik. Elnézést kérünk a kellemetlenségekért."
+
+msgid "notification/lootbox/title"
+msgstr "Nagy újévi doboz"
+
+msgid "notification/progerssion/finished"
+msgstr "Teljesítetted az adventi kalendáriumi előrehaladást"
+
+msgid "notification/progerssion/recieved"
+msgstr "Teljesítetted az adventi kalendárium egy előrehaladási szakaszát"
+
+msgid "notification/reward/received"
+msgstr "Ezt kaptad:"
+
+msgid "progressionRewards/tooltip/lock/description"
+msgstr "Az előrehaladás ajándékait csak számsorrendben kaphatod meg."
+
+msgid "progressionRewards/tooltip/lock/title"
+msgstr "Az előző ajándék megszerzése"
+
+msgid "progressionRewards/tooltip/lootbox/simple/body"
+msgstr "{FFE4C0_Open}%(date)s napján{FFE4C0_Close} megtudhatod, hogy mi van a dobozban."
+
+msgid "progressionRewards/tooltip/lootbox/simple/header"
+msgstr "Nagy újévi doboz"
+
+msgid "progressionRewards/tooltip/postActivePhase/title"
+msgstr "Az előrehaladás %(startDate)s és %(endDate)s között volt elérhető."
+
+msgid "progressionRewards/tooltip/rewardExpired/description"
+msgstr "Nem vetted át időben az ajándékot"
+
+msgid "progressionRewards/tooltip/rewardExpired/title"
+msgstr "%(img)s Nem szerezted meg"
+
+msgid "progressionRewards/tooltip/rewardInProgress/title"
+msgid_plural "plural/progressionRewards/tooltip/rewardInProgress/title"
+msgstr[0] "Nyisd ki a {cream_Open}kalendárium további %(count)s ajtaját{cream_Close}, hogy megszerezd ezt az ajándékot."
+msgstr[1] "Nyisd ki a {cream_Open}kalendárium további %(count)s ajtaját{cream_Close}, hogy megszerezd ezt az ajándékot."
+msgstr[2] "Nyisd ki a {cream_Open}kalendárium további %(count)s ajtaját{cream_Close}, hogy megszerezd ezt az ajándékot."
+
+msgid "progressionRewards/tooltip/rewardLocked/title"
+msgstr "%(img)s Szerezd meg az előző ajándékot az előrehaladásban, hogy feloldd."
+
+msgid "progressionRewards/tooltip/rewardReceived/title"
+msgstr "%(img)s Megszerezted"
+
+msgid "purchaseView/cancel"
+msgstr "Mégse"
+
+msgid "purchaseView/notEnoughCurrency/subTitle"
+msgstr "Fizetőeszközöket a csaták megvívásával, a napi küldetések teljesítésével és a játékbeli tevékenységeken való részvétellel szerezhetsz."
+
+msgid "purchaseView/notEnoughCurrency/title"
+msgstr "Nincs elég fizetőeszközöd"
+
+msgid "purchaseView/open"
+msgstr "Kinyitás"
+
+msgid "purchaseView/title"
+msgstr "Kinyitod az adventi kalendárium {{@ style (color $color)}}{{day}}{{/}}. ajtaját?"
+
+msgid "rewardView/confirm"
+msgstr "Értettem!"
+
+msgid "rewardView/goToBoxes"
+msgstr "A dobozokhoz"
+
+msgid "rewardView/loading"
+msgstr "A jutalom hozzáadása"
+
+msgid "rewardView/subTitle/allDoors"
+msgstr "Kinyitottad az {FFE4C0_Open}adventi kalendárium összes ajtaját{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/progression"
+msgstr "Az adventi kalendárium kinyitott ajtói: {FFE4C0_Open}%(count)s{FFE4C0_Close}"
+
+msgid "rewardView/subTitle/specialDoor"
+msgstr "Kinyitottad az {FFE4C0_Open}adventi kalendárium %(count)s ajtaját{FFE4C0_Close}"
+
+msgid "rewardView/title/box"
+msgstr "Nagy újévi doboz megszerezve!"
+
+msgid "rewardView/title/progression"
+msgstr "Jutalom megszerezve!"
+
+msgid "rewardView/title/specialDoor"
+msgstr "Gratulálunk!"
+
+msgid "server_error"
+msgstr "Technikai okok miatt a művelet átmenetileg nem érhető el. Kérjük, próbáld meg újra később."

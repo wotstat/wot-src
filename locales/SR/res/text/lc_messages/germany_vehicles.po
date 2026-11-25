@@ -280,9 +280,6 @@ msgstr "leKpz M 41 90 mm"
 msgid "Chassis_G121_Grille_15_L63"
 msgstr "Grille 15"
 
-msgid "Chassis_G121_Grille_15_L63_FR"
-msgstr "Grille 15 BS"
-
 msgid "Chassis_G122_VK6501H"
 msgstr "VK 65.01 (H)"
 
@@ -484,8 +481,14 @@ msgstr "Jagdpanther"
 msgid "Chassis_G18_JagdPanther_2"
 msgstr "Jagdpanther verstärkteketten"
 
+msgid "Chassis_G190_TH_72"
+msgstr "TH-72"
+
 msgid "Chassis_G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
+
+msgid "Chassis_G192_E_10"
+msgstr "E 10"
 
 msgid "Chassis_G193_Pz_Kpfw_55"
 msgstr "Pz.Kpfw. 54"
@@ -511,8 +514,17 @@ msgstr "Kampfpanzer 67"
 msgid "Chassis_G200_Chi_Go"
 msgstr "Chi-Go"
 
+msgid "Chassis_G201_Panzerjager_I_mit_7_5_cm"
+msgstr "Pz.Jäg. I 7,5 cm"
+
+msgid "Chassis_G202_PzKpfw_T_34_747_r"
+msgstr "Pz.Kpfw. T 34 747 (r)"
+
 msgid "Chassis_G204_PzVI_Tiger_P_CFE_A"
 msgstr "Tiger (P) Leoponsan"
+
+msgid "Chassis_G205_Jagdpanzer_7_Pfanne"
+msgstr "Jagdpanzer 7 Pfanne"
 
 msgid "Chassis_G23_Grille"
 msgstr "Grille"
@@ -952,6 +964,9 @@ msgstr "Daimler-Benz V12 56"
 msgid "Daimler_Benz_V12_57"
 msgstr "Daimler-Benz V12 57"
 
+msgid "Deutz_BF6M1015CF"
+msgstr "Deutz BF6M1015CF"
+
 msgid "DickerMax"
 msgstr "Dicker Max"
 
@@ -1015,6 +1030,9 @@ msgstr "FuG 12"
 msgid "FuG12_SH"
 msgstr "FuG 12 L2"
 
+msgid "FuG15"
+msgstr "FuG 15"
+
 msgid "FuG16"
 msgstr "Fu 16"
 
@@ -1041,6 +1059,9 @@ msgstr "FuG 5m"
 
 msgid "FuG5_SH"
 msgstr "FuG 5 A"
+
+msgid "FuG5_T_34"
+msgstr "FuG 5 (T 34)"
 
 msgid "FuG6"
 msgstr "FuG 6"
@@ -1074,6 +1095,9 @@ msgstr "FuG 8 (f)"
 
 msgid "FuG_7_45_01"
 msgstr "FuG 7 (45.01)"
+
+msgid "FuG_7_E"
+msgstr "FuG 7 (E)"
 
 msgid "FuG_7_F"
 msgstr "FuG 7 (F)"
@@ -1557,15 +1581,6 @@ msgstr "Odličan top i dobra pokretljivost"
 
 msgid "G121_Grille_15_L63"
 msgstr "Grille 15"
-
-msgid "G121_Grille_15_L63_FR"
-msgstr "Grille 15 BS"
-
-msgid "G121_Grille_15_L63_FR_descr"
-msgstr "U leto 1942, Waffenamt (Nemačka agencija za naoružanje) je zaključila ugovor izmedju Krupp i Rheinmetall kompanija o dizajniranju lovca tenkova na šasiji Panther tenka. Planirano je da koristi 128 mm K 43 top ili 150 mm sFH 43 haubicu. Projekti su označeni kao Grille 12 i Grille 15, sa zadnje postavljenim borbenim odeljenjem, i razlikama samo u sistemu artiljerije. Kasnije, Grille 15 je dobio 150 mm top dužine 63 kalibra, koji je mogao da probije 200 mm oklopa sa 4000 metara. Ipak, razvoj je bio spor, i Grille 15 je ostao samo u planovima."
-
-msgid "G121_Grille_15_L63_FR_short"
-msgstr "Grille 15 BS"
 
 msgid "G121_Grille_15_L63_descr"
 msgstr "U leto 1942, Waffenamt (Nemačka agencija za naoružanje) je zaključila ugovor izmedju Krupp i Rheinmetall kompanija o dizajniranju lovca tenkova na šasiji Panther tenka. Planirano je da koristi 128 mm K 43 top ili 150 mm sFH 43 haubicu. Projekti su označeni kao Grille 12 i Grille 15, sa zadnje postavljenim borbenim odeljenjem, i razlikama samo u sistemu artiljerije. Kasnije, Grille 15 je dobio 150 mm top dužine 63 kalibra, koji je mogao da probije 200 mm oklopa sa 4000 metara. Ipak, razvoj je bio spor, i Grille 15 je ostao samo u planovima."
@@ -2332,6 +2347,21 @@ msgstr "Razvoj ovog lovca tenkova, baziranog na šasiji novog VK 30.02 (MAN) ten
 msgid "G18_JagdPanther_short"
 msgstr "JPanther"
 
+msgid "G190_TH_72"
+msgstr "TH-72"
+
+msgid "G190_TH_72_descr"
+msgstr "U kasnim 1970-im Begleitpanzer 57 je trebalo da prođe inženjerski redizajn. Glavno naoružanje vozila je smešteno van posednute kupole. Motor i transmisija su smešteni u prednji deo vozila, a hladnjaci i izduvni sistem su bili locirani pozadi. Kupola je montirana u centralnom delu trupa, a spremište municije iza nje. Vozilo se pokazalo kao veom askupo zbog kompleksnog dizajna, zbog toga je kompanija Thyssen Henschel zatvorila projekat čak i bez izgradnje prototipa."
+
+msgid "G190_TH_72_long_special"
+msgstr "TH-72 je nemački laki tenk IX nivoa. Vozilo je opremljeno automatskim topom, što ga čini smrtonosnim na malim razdaljinama protiv lako oklopljenih meta i sporih teških tenkova. Njegovo kratko vreme punjenja topa takođe znači da neće biti dugo van borbe, zato neprijatelji koji prežive prvi šaržer ne treba da spuštaju gard."
+
+msgid "G190_TH_72_short"
+msgstr "TH-72"
+
+msgid "G190_TH_72_short_special"
+msgstr "Automatski top, odlična pokretljivost"
+
 msgid "G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
 
@@ -2346,6 +2376,21 @@ msgstr "StuG III Kaba"
 
 msgid "G191_StuG_IIIF_CFE_A_short_special"
 msgstr "Dobra pokretljivost, visoka brzina vatre"
+
+msgid "G192_E_10"
+msgstr "E 10"
+
+msgid "G192_E_10_descr"
+msgstr "Rad na lakom lovcu tenkova E 10 je započeo 1944. kao deo Entwicklung programa sa ciljem maksimalne standardizacije i pojednostavljenja proizvodnje. U smislu dizajna, vozilo je bilo slično kao Hetzer, sa niskim profilom, bez kupole, i iskošenim oklopnim pločama. Šasija je imala raspored preklopljenih točkova, sa po četiri točka sa svake strane i vešanje je bilo izgrađeno na oprugama fiksiranim sa spoljne strane trupa. Motor i hidrodinamična transmisija su bili smešteni u zadnjem delu u jednom odeljku što je pojednostavilo održavanje i povećalo veličinu borbenog odeljka, dok su uklonjiva zadnja oklopna ploča i pokrov odeljka motora i transmisije omogućili brzu demontažu pogonske jedinice. Projekat je ostao u fazi nacrta i nije primenjen zbog kraja rata."
+
+msgid "G192_E_10_long_special"
+msgstr "E 10 je nemački lovac tenkova V nivoa. Razvijen pod programom Entwicklung kao zamena Hetzer-a ima nizak profil i malu težinu, što mu daje sjajnu pokretljivost odličnu prikrivenost i veliku brzinu vatre iz njegovog malog topa. Međutim slab vidokrug i rasipanje topa zahtevaju aktivnu igru i nanošenje štete brzo i pritajeno."
+
+msgid "G192_E_10_short"
+msgstr "E 10"
+
+msgid "G192_E_10_short_special"
+msgstr "Odlična prikrivenost, visoka brzina vatre"
 
 msgid "G193_Pz_Kpfw_55"
 msgstr "Pz.Kpfw. 55"
@@ -2416,6 +2461,36 @@ msgstr "Chi-Go"
 msgid "G200_Chi_Go_short_special"
 msgstr "Pristojan oklop kupole, visoka alfa šteta"
 
+msgid "G201_Panzerjager_I_mit_7_5_cm"
+msgstr "Panzerjäger I mit 7,5 cm"
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_descr"
+msgstr "Krajem rata, nemačka armija je imala ozbiljan manjak oklopnih vozila. Industrija je bila praktično uništena a nova vozila su stizala u ograničenim količinama, zato je vojska morala da ih pravi sama koristeći bilo koju dostupnu šasiju i topove. Jedno takvo vozilo je bilo napravljeno na bazi Pz.Kpfw I Ausf. B. Nakon minimalnih unapređenja trupa, montiran je 7,5 cm StuK 40 top sa lovca tenkova. Jedno takvo vozilo je prijavljeno u upotrebi tokom Bitke za Berlin u proleće 1945. "
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_long_special"
+msgstr "Panzerjäger I mit 7,5 cm je Nemački lovac tenkova III nivoa. Odlikuje se dobrom pokretljivošću za svoj nivo, što mu omogućava da često menja položaje i pruža podršku saveznicima. Njegov izvrstan top kombinuje odličan ugao depresije topa, veliku štetu po pogotku, snažnu penetracijui dobru preciznost, omogućavajući mu da uništava neprijatelje jednog za drugim."
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_short"
+msgstr "Pz.Jäg. I 7,5 cm"
+
+msgid "G201_Panzerjager_I_mit_7_5_cm_short_special"
+msgstr "Velika šteta odjednom, izuzetni uglovi depresije topa."
+
+msgid "G202_PzKpfw_T_34_747_r"
+msgstr "Pz.Kpfw. T 34 747 (r)"
+
+msgid "G202_PzKpfw_T_34_747_r_descr"
+msgstr "Od 1941. do 1943. Nemačka vojska je zarobila veliki broj T-34 tenkova na Istočnom frontu, 30. juna 1943, visoka komanda armije ili Oberkommando des Heeres (OKH) je pokrenula program za standardizaciju i preraspodelu trofejnih vozila na Istočnom frontu. Posebno, nameravali su da centralizuju poboljšanja i podignu vozila na Nemački standard. T-34 je bio opremljen komandirovom kupolom sa Pz. III ili Pz. IV i Nemačkim uređajima, radijima i drugom opremom. Međutim, uprkos pokušajima standardizacije, mnogi tenkovi su i dalje imali različite delove."
+
+msgid "G202_PzKpfw_T_34_747_r_long_special"
+msgstr "Pz.Kpfw. T 34 747 (r) je Nemački srednji tenk V nivoa, zasnovan na Sovjetskim tenkovima T-34 koji su zarobljeni i tokom Drugog svetskog rata modifikovani prema Nemačkim standardima. On zadržava prednosti tenka T-34, kao što su oklop pod nagibom i top kalibra 76 mm, ali uz poboljšanu preciznost i upravljanje topom. Ovo svestrano vozilo odgovara različitim stilovima igre - kako na prvoj liniji, tako i u pozadini."
+
+msgid "G202_PzKpfw_T_34_747_r_short"
+msgstr "Pz. T 34"
+
+msgid "G202_PzKpfw_T_34_747_r_short_special"
+msgstr "Dobra preciznost, kombinacija solidnog oklopa i dobre pokretljivosti"
+
 msgid "G204_PzVI_Tiger_P_CFE_A"
 msgstr "Tiger (P) Leoponsan"
 
@@ -2430,6 +2505,21 @@ msgstr "Tiger (P) Leo"
 
 msgid "G204_PzVI_Tiger_P_CFE_A_short_special"
 msgstr "Solidan prednji oklop, sistem za poboljašnje pokretljivosti"
+
+msgid "G205_Jagdpanzer_7_Pfanne"
+msgstr "Jagdpanzer 7 Pfanne"
+
+msgid "G205_Jagdpanzer_7_Pfanne_descr"
+msgstr "Jagdpanzer 7 Pfanne projekat je razvijen u Zapadnoj Nemačkoj kao snažan i komapktan lovac tenkova sa visokom preciznošću prvog hica. Vozilu je dat gladak oblik trupa, što je bilo neobično za to vreme i trebalo je da poveća zaštitu protiv kumulativnih i potkalibarnih zrna. Hidropneumatsko vešanje je bilo za vertikalno nišanjenje a rotacija trupa za horizontalno. Uprkos obećavajućem konceptu, projekat se pokazao previše zavisnim od kompleksnog hidrauličnog sistema i prekinut je zbog razvoja svestranijih glavnih borbenih tenkova."
+
+msgid "G205_Jagdpanzer_7_Pfanne_long_special"
+msgstr "Jagdpanzer 7 Pfanne je nemački snajper lovac tenkova VII nivoa. Prvo vozilo svog nivoa sa opsadnim režimom u švedskom stilu i hidropneumatskim vešanjem, sposoban je strelac na dugim distancama. Prtajen i okretan, sa topom od 105 mm koji udara jako nudeći odličnu porbojnost, donekle ometen dugim vremenom punjenja."
+
+msgid "G205_Jagdpanzer_7_Pfanne_short"
+msgstr "Jg.Pz. 7 Pfanne"
+
+msgid "G205_Jagdpanzer_7_Pfanne_short_special"
+msgstr "Hidropneumatsko vešanje, velika preciznost"
 
 msgid "G20_Marder_II"
 msgstr "Marder II"
@@ -3112,6 +3202,9 @@ msgstr "Precizan top sa velikom penetracijom, pouzdan oklop"
 msgid "MAN_D2840_LXE"
 msgstr "MAN D2840 LXE"
 
+msgid "MAN_D2840_LXE_TH_72"
+msgstr "MAN D2840 LXE (TH)"
+
 msgid "MAN_H_40"
 msgstr "MAN H 40"
 
@@ -3303,6 +3396,9 @@ msgstr "Maybach HL 90"
 
 msgid "Maybach_HL_100TR_BW"
 msgstr "Maybach HL 100 TR BW"
+
+msgid "Maybach_HL_100_E"
+msgstr "Maybach HL 100 E"
 
 msgid "Maybach_HL_100_WT_IV"
 msgstr "Maybach HL 100 (WT IV)"
@@ -3676,9 +3772,6 @@ msgstr "Maybach Neues Projekt A"
 msgid "Maybach_HL_234P60_short"
 msgstr "Maybach Neues Projekt"
 
-msgid "Maybach_HL_234_FR"
-msgstr "Maybach HL 234"
-
 msgid "Maybach_HL_234_TRM_P30"
 msgstr "Maybach HL 234 TRM P30"
 
@@ -3747,6 +3840,9 @@ msgstr "Maybach HL 98"
 
 msgid "Maybach_NL38TR"
 msgstr "Maybach HL 38 TR"
+
+msgid "Maybach_NL_38TR_P"
+msgstr "Maybach NL 38TR P"
 
 msgid "Maybach_Neues_Projekt_90"
 msgstr "Maybach Neues Projekt 90"
@@ -4270,6 +4366,9 @@ msgstr "SEM 25A"
 msgid "SEM_25A"
 msgstr "SEM 25A"
 
+msgid "SEM_25A_TH_72"
+msgstr "SEM 25A (TH)"
+
 msgid "SEM_25B"
 msgstr "SEM 25B"
 
@@ -4278,6 +4377,9 @@ msgstr "SEM 25BK"
 
 msgid "SEM_25C"
 msgstr "SEM 25C funkgerät"
+
+msgid "SEM_25D"
+msgstr "SEM 25D"
 
 msgid "SEM_25E"
 msgstr "SEM 25E"
@@ -4531,9 +4633,6 @@ msgstr "leKpz M 41 90 mm"
 msgid "Turret_1_G121_Grille_15_L63"
 msgstr "Grille 15"
 
-msgid "Turret_1_G121_Grille_15_L63_FR"
-msgstr "Grille 15 BS"
-
 msgid "Turret_1_G122_VK6501H"
 msgstr "VK 65.01 (H) S.W."
 
@@ -4711,8 +4810,14 @@ msgstr "Hirschkäfer"
 msgid "Turret_1_G18_JagdPanther"
 msgstr "Jagdpanther"
 
+msgid "Turret_1_G190_TH_72"
+msgstr "TH-72"
+
 msgid "Turret_1_G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
+
+msgid "Turret_1_G192_E_10"
+msgstr "E 10"
 
 msgid "Turret_1_G193_Pz_Kpfw_55"
 msgstr "Pz.Kpfw. 54"
@@ -4732,8 +4837,17 @@ msgstr "Kampfpanzer 67"
 msgid "Turret_1_G200_Chi_Go"
 msgstr "Chi-Go"
 
+msgid "Turret_1_G201_Panzerjager_I_mit_7_5_cm"
+msgstr "Pz.Jäg. I 7,5 cm"
+
+msgid "Turret_1_G202_PzKpfw_T_34_747_r"
+msgstr "Pz.Kpfw. T 34 747 (r)"
+
 msgid "Turret_1_G204_PzVI_Tiger_P_CFE_A"
 msgstr "Tiger (P) Leoponsan"
+
+msgid "Turret_1_G205_Jagdpanzer_7_Pfanne"
+msgstr "Jagdpanzer 7 Pfanne"
 
 msgid "Turret_1_G23_Grille"
 msgstr "Grille"
@@ -5143,6 +5257,9 @@ msgstr "Superteški tenk sa kupolom postavljenom nazad. Razvijan od strane Krupp
 msgid "VK7201_short"
 msgstr "VK 72.01 K"
 
+msgid "V_2"
+msgstr "V-2"
+
 msgid "V_2K_T"
 msgstr "V-2K"
 
@@ -5196,6 +5313,9 @@ msgstr "100 mm Panzerkanone D-10T2S L/56"
 
 msgid "_100mm_UOF-412"
 msgstr "UOF-412"
+
+msgid "_105_mm_Rh_105_20_A"
+msgstr "105 mm Rh 105 20 A"
 
 msgid "_105mmGr39H1A"
 msgstr "Gr 39 H1A"
@@ -5461,6 +5581,9 @@ msgstr "Pzgr. 39 K (B)"
 msgid "_105mm_Pzgr_39_L_100"
 msgstr "Pzgr. 39 L (100)"
 
+msgid "_105mm_Pzgr_39_L_100_A"
+msgstr "Pzgr. 39 L (100) A"
+
 msgid "_105mm_Pzgr_39_L_180A"
 msgstr "Pzgr. 39 L (180A)"
 
@@ -5475,6 +5598,9 @@ msgstr "Pzgr 40W"
 
 msgid "_105mm_Pzgr_40_100"
 msgstr "Pzgr. 40 (100)"
+
+msgid "_105mm_Pzgr_40_100_A"
+msgstr "Pzgr. 40 (100) A"
 
 msgid "_105mm_Pzgr_40_180A"
 msgstr "Pzgr. 40 (180A)"
@@ -5560,6 +5686,9 @@ msgstr "Sprgr. K (B)"
 msgid "_105mm_Sprgr_L_100"
 msgstr "Sprgr. L (100)"
 
+msgid "_105mm_Sprgr_L_100_A"
+msgstr "Sprgr. L (100) A"
+
 msgid "_105mm_Sprgr_L_180A"
 msgstr "Sprgr. L (180A)"
 
@@ -5595,9 +5724,6 @@ msgstr "10WSc"
 
 msgid "_10WSc_CFE_T"
 msgstr "10WSc T"
-
-msgid "_10WSc_FR"
-msgstr "10WSc"
 
 msgid "_10WSc_P"
 msgstr "10WSc P"
@@ -6196,9 +6322,6 @@ msgstr "Gr. 44 Hl/A"
 msgid "_150mm_Gr_HL"
 msgstr "Gr. HL"
 
-msgid "_150mm_Gr_HL_FR"
-msgstr "Gr. HL"
-
 msgid "_150mm_Gr_Hl_A"
 msgstr "Gr. Hl/A"
 
@@ -6221,9 +6344,6 @@ msgid "_150mm_Pak_L_44"
 msgstr "15 cm Pak L/44"
 
 msgid "_150mm_Pak_L_63"
-msgstr "15 cm Pak L/63"
-
-msgid "_150mm_Pak_L_63_FR"
 msgstr "15 cm Pak L/63"
 
 msgid "_150mm_PzGr39H2_SH"
@@ -6250,9 +6370,6 @@ msgstr "Pzgr. 42 (WT IV) T"
 msgid "_150mm_Pzgr_44"
 msgstr "Pzgr. 44"
 
-msgid "_150mm_Pzgr_FR"
-msgstr "Pzgr."
-
 msgid "_150mm_Pzgr_m_Hb"
 msgstr "Pzgr. (m.Hb)"
 
@@ -6276,9 +6393,6 @@ msgstr "Sprgr. 18 (Grille)"
 
 msgid "_150mm_Sprgr_36"
 msgstr "Sprgr. 36"
-
-msgid "_150mm_Sprgr_FR"
-msgstr "Sprgr."
 
 msgid "_150mm_Sprgr_G"
 msgstr "Sprgr. G"
@@ -6787,6 +6901,18 @@ msgstr "Sprgr. 18 (2801)"
 msgid "_50mm_Sprgr_18_II_L"
 msgstr "Sprgr. 18 (II L)"
 
+msgid "_57mm_57_438R_m_70_AP_T_TH_72"
+msgstr "57x438R m/70 AP-T (TH)"
+
+msgid "_57mm_57_438R_m_71_HE_T_TH_72"
+msgstr "57x438R m/71 HE-T (TH)"
+
+msgid "_57mm_57_438R_m_78_APCR_T_TH_72"
+msgstr "57x438R m/78 APCR-T (TH)"
+
+msgid "_57mm_Bofors_L_70_Mk_1_TH_72"
+msgstr "Bofors L/70 Mk.1 (TH)"
+
 msgid "_7.92mm_AP"
 msgstr "Patrone 318 SmK-Rs-L'spur"
 
@@ -6843,6 +6969,9 @@ msgstr "7,5 cm Flak L/60"
 
 msgid "_75mm_Gr_38_HL_C"
 msgstr "Gr 38 HL C"
+
+msgid "_75mm_Gr_Patr_39_HL"
+msgstr "Gr.Patr. 39 HL"
 
 msgid "_75mm_K_Gr_rot_Pz_C"
 msgstr "K.Gr.rot.Pz.C"
@@ -6925,6 +7054,9 @@ msgstr "7,5 cm Kw.K. 42 L/70 (II)"
 msgid "_75mm_PaK_39_L48"
 msgstr "7,5 cm Pak 39 L/48"
 
+msgid "_75mm_PaK_39_L48_C"
+msgstr "7,5 cm Pak 39 L/48 C"
+
 msgid "_75mm_PaK_40_2"
 msgstr "7,5 cm Pak 40/2 L/46"
 
@@ -6979,6 +7111,9 @@ msgstr "Pzgr. 39 Ausf. H"
 msgid "_75mm_Pzgr_39_B"
 msgstr "Pzgr. 39 (B)"
 
+msgid "_75mm_Pzgr_39_BL"
+msgstr "Pzgr 39 BL"
+
 msgid "_75mm_Pzgr_39_E"
 msgstr "Pzgr. 39 (E)"
 
@@ -7027,6 +7162,9 @@ msgstr "Pzgr. 40 Ausf. H"
 msgid "_75mm_Pzgr_40_B"
 msgstr "Pzgr. 40 (B)"
 
+msgid "_75mm_Pzgr_40_BL"
+msgstr "Pzgr 40 BL"
+
 msgid "_75mm_Pzgr_40_E"
 msgstr "Pzgr. 40 (E)"
 
@@ -7057,6 +7195,9 @@ msgstr "Pzgr. 40 T 3001"
 msgid "_75mm_Pzgr_40_Typ_100"
 msgstr "Pzgr. 40 Typ 100"
 
+msgid "_75mm_Pzgr_Patr_39"
+msgstr "Pzgr.Patr. 39"
+
 msgid "_75mm_Sprg.18"
 msgstr "Sprgr 18"
 
@@ -7074,6 +7215,9 @@ msgstr "Sprgr.Patr 18"
 
 msgid "_75mm_Sprg_18_B"
 msgstr "Sprgr. 18 (B)"
+
+msgid "_75mm_Sprg_18_BL"
+msgstr "Sprg 18 BL"
 
 msgid "_75mm_Sprg_34_C"
 msgstr "Sprgr 34 C"
@@ -7123,6 +7267,9 @@ msgstr "Sprgr. 18 T 3001"
 msgid "_75mm_Sprgr_18_Typ_100"
 msgstr "Sprgr. 18 Typ 100"
 
+msgid "_75mm_Sprgr_Patr_37"
+msgstr "Sprgr.Patr. 37"
+
 msgid "_75mm_StuK42_L70"
 msgstr "7,5 cm Pak 42 L/70"
 
@@ -7143,6 +7290,18 @@ msgstr "7,5 cm StuK 40 L/48 (F)"
 
 msgid "_75mm_Waffe0725_1944"
 msgstr "7,5/5,5 cm Kw.K. 44 L/53"
+
+msgid "_76_2mm_BR_350P"
+msgstr "BR-350P"
+
+msgid "_76_2mm_KwK_L41_5"
+msgstr "7.62 cm KwK 41 L/41.5"
+
+msgid "_76_2mm_UBR_350A"
+msgstr "UBR-350A"
+
+msgid "_76_2mm_UOF_350"
+msgstr "UOF-350"
 
 msgid "_76mm_PaK_36r"
 msgstr "7,62 cm Pak 36 (r)"
@@ -7182,6 +7341,9 @@ msgstr "7,5 cm Stu.K. 40 L/43 (B)"
 
 msgid "_7_5_cm_Stu_K_40_L_43_B_short"
 msgstr "7,5 cm Stu.K. 40\nL/43 (B)"
+
+msgid "_7_5_cm_Stu_K_40_L_48_B"
+msgstr "7,5 cm Stu.K. 40 L/48 B"
 
 msgid "_88mm_Flak_37_L56"
 msgstr "8,8 cm Flak 37 L/56"

@@ -37,10 +37,10 @@
             enableFullScreenModeSupported: () => pe,
             events: () => B,
             extraSize: () => fe,
-            forceTriggerMouseMove: () => ce,
+            forceTriggerMouseMove: () => ue,
             freezeTextureBeforeResize: () => ee,
             getBrowserTexturePath: () => U,
-            getDisplayStatus: () => ue,
+            getDisplayStatus: () => ce,
             getExternalPaddingsRem: () => me,
             getFontNames: () => le,
             getScale: () => ne,
@@ -60,9 +60,9 @@
             whenTutorialReady: () => ve,
           }));
         var s = t(7363),
-          c = t.n(s),
-          u = t(1533),
-          l = t.n(u);
+          u = t.n(s),
+          c = t(1533),
+          l = t.n(c);
         const d = {
           linear: (e) => e,
           easeInQuad: (e) => e * e,
@@ -336,10 +336,10 @@
         function se() {
           return viewEnv.isEventHandled();
         }
-        function ce() {
+        function ue() {
           viewEnv.forceTriggerMouseMove();
         }
-        function ue() {
+        function ce() {
           return viewEnv.getShowingStatus();
         }
         const le = (() => {
@@ -448,8 +448,8 @@
               a = e.autoplay,
               o = void 0 !== a && a,
               i = e.style,
-              u = e.loop,
-              l = void 0 !== u && u,
+              c = e.loop,
+              l = void 0 !== c && c,
               d = e.isPrebufferKeyframes,
               m = e.keyframesNameConfig,
               g = e.onClick,
@@ -594,12 +594,12 @@
                       var e;
                       return null == (e = p.current) ? void 0 : e.play();
                     },
-                    c = () => {
+                    u = () => {
                       var e;
                       return null == (e = p.current) ? void 0 : e.pause();
                     },
-                    u = () => {
-                      (c(), i(0));
+                    c = () => {
+                      (u(), i(0));
                     },
                     l = () => {
                       var e;
@@ -611,7 +611,7 @@
                       (i(e), s());
                     },
                     f = (e) => {
-                      (i(e), c());
+                      (i(e), u());
                     },
                     b = () => {
                       ((e.changeTimeHandlers = []),
@@ -643,8 +643,8 @@
                       on: h,
                       off: y,
                       play: s,
-                      pause: c,
-                      stop: u,
+                      pause: u,
+                      stop: c,
                       cleanup: b,
                       getCurrentTime: a,
                       getDuration: o,
@@ -670,7 +670,7 @@
                 null == (e = p.current) || e.pause();
               }),
               (0, s.useEffect)(() => b, []),
-              c().createElement(
+              u().createElement(
                 "video",
                 Re({ src: t, className: r, style: i, loop: l, ref: p, onClick: g }, f),
               )
@@ -693,16 +693,16 @@
             className: a,
           }) => {
             const o = Be.includes(je) ? `_${je}` : "";
-            return c().createElement(
+            return u().createElement(
               "div",
               { className: xe()(Le, a) },
-              c().createElement("div", {
+              u().createElement("div", {
                 className: De,
                 style: {
                   backgroundImage: `url(R.images.gui.maps.icons.dogtags.${t}.backgrounds.background_${e}_0)`,
                 },
               }),
-              c().createElement("div", {
+              u().createElement("div", {
                 className: ze,
                 style: {
                   backgroundImage: `url(R.images.gui.maps.icons.dogtags.${t}.engravings.engraving_${n}_${r}${o})`,
@@ -743,11 +743,11 @@
         })({});
         const Ge = ({ engraving: e, count: n, size: t }) => {
           const r = R.strings.dogtags.component.engraving.coupled.$num(e).counter();
-          return c().createElement(
+          return u().createElement(
             "div",
             { className: xe()(He.base, He[`base__${t}`]) },
-            c().createElement("div", { className: He.text }, r),
-            c().createElement("div", { className: He.count }, n),
+            u().createElement("div", { className: He.text }, r),
+            u().createElement("div", { className: He.count }, n),
           );
         };
         let Ke = (function (e) {
@@ -796,7 +796,7 @@
             animationName: a = "",
             onAnimationEnd: o,
             grade: i = 0,
-            showBackplate: u = !0,
+            showBackplate: c = !0,
             size: l = Ve.Medium,
             className: d,
             isSoundOff: m,
@@ -805,7 +805,7 @@
               f = (0, s.useState)([]),
               v = f[0],
               p = f[1],
-              b = R.videos.dogtags.$dyn(a);
+              b = a ? R.videos.dogtags.$dyn(a) : null;
             (0, s.useEffect)(() => {
               const e = g.current;
               if (e)
@@ -861,14 +861,14 @@
             const C = () => {
               g.current && (g.current.goToAndPlay(5), _e(R.sounds.ach_dog_tag_idle()));
             };
-            return c().createElement(
+            return u().createElement(
               Ee.animated.div,
               { className: xe()(Ie.base, Ie[`base__${l}`], d), style: y },
-              u &&
-                c().createElement(
+              c &&
+                u().createElement(
                   Ee.animated.div,
                   { className: Ie.backplateBox, style: E },
-                  c().createElement(
+                  u().createElement(
                     "div",
                     {
                       className: Ie.backplate,
@@ -876,17 +876,17 @@
                         backgroundImage: `url(R.images.gui.maps.icons.dogtags.${Ue[l]}.bottom_plates.bottom_plate_${e})`,
                       },
                     },
-                    c().createElement(Ge, { engraving: n, count: t, size: qe[l] }),
+                    u().createElement(Ge, { engraving: n, count: t, size: qe[l] }),
                   ),
                 ),
-              c().createElement("div", { className: Ie.shadow }),
+              u().createElement("div", { className: Ie.shadow }),
               r !== Ke.Static &&
                 T.isHigh() &&
                 Boolean(b) &&
-                c().createElement(
+                u().createElement(
                   "div",
                   { className: Ie.videoBox },
-                  c().createElement(Me, {
+                  u().createElement(Me, {
                     ref: g,
                     className: Ie.video,
                     onEnded: C,
@@ -894,7 +894,7 @@
                     src: b,
                   }),
                 ),
-              c().createElement(Ne, {
+              u().createElement(Ne, {
                 background: e,
                 engraving: n,
                 grade: i,
@@ -945,7 +945,7 @@
             const t = (0, s.createContext)({});
             return [
               function ({ mode: r = "real", options: a, children: o, mocks: i }) {
-                const u = (0, s.useRef)([]),
+                const c = (0, s.useRef)([]),
                   l = (t, r, a) => {
                     var o;
                     const i = (function ({
@@ -981,8 +981,8 @@
                         return {
                           subscribe: (t, o) => {
                             const s = "string" == typeof o ? `${r}.${o}` : r,
-                              c = he.view.addModelObserver(s, n, !0);
-                            return (a.set(c, t), e && t(i(o)), c);
+                              u = he.view.addModelObserver(s, n, !0);
+                            return (a.set(u, t), e && t(i(o)), u);
                           },
                           readByPath: i,
                           createCallback: (e, n) => {
@@ -1010,16 +1010,16 @@
                               readByPath:
                                 null != (o = null == a ? void 0 : a.getter) ? o : () => {},
                             }),
-                      c = (e) =>
+                      u = (e) =>
                         "mocks" === t ? (null == a ? void 0 : a.getter(e)) : s.readByPath(e),
-                      l = (e) => u.current.push(e),
+                      l = (e) => c.current.push(e),
                       d = e({
                         mode: t,
-                        readByPath: c,
+                        readByPath: u,
                         externalModel: s,
                         observableModel: {
                           dict: (e) => {
-                            const n = c(e),
+                            const n = u(e),
                               r = We.LO.box(n, { equals: Oe });
                             return (
                               "real" === t &&
@@ -1031,7 +1031,7 @@
                             );
                           },
                           array: (e, n) => {
-                            const r = null != n ? n : c(e),
+                            const r = null != n ? n : u(e),
                               a = We.LO.box(r, { equals: Oe });
                             return (
                               "real" === t &&
@@ -1043,7 +1043,7 @@
                             );
                           },
                           object: (e, n) => {
-                            const r = null != n ? n : c(e),
+                            const r = null != n ? n : u(e),
                               a = We.LO.box(r, { equals: Oe });
                             return (
                               "real" === t &&
@@ -1055,7 +1055,7 @@
                             );
                           },
                           primitives: (e, n) => {
-                            const r = c(n);
+                            const r = u(n);
                             if (Array.isArray(e)) {
                               const a = e.reduce((e, n) => ((e[n] = We.LO.box(r[n], {})), e), {});
                               return (
@@ -1116,11 +1116,11 @@
                   }, [r]),
                   (0, s.useEffect)(
                     () => () => {
-                      (p.externalModel.dispose(), u.current.forEach((e) => e()));
+                      (p.externalModel.dispose(), c.current.forEach((e) => e()));
                     },
                     [p],
                   ),
-                  c().createElement(t.Provider, { value: p }, o)
+                  u().createElement(t.Provider, { value: p }, o)
                 );
               },
               () => (0, s.useContext)(t),
@@ -1170,10 +1170,10 @@
                   }, 7e3),
                 [i],
               ),
-              c().createElement(
+              u().createElement(
                 Ee.animated.div,
                 { style: o, className: an },
-                c().createElement(Xe, {
+                u().createElement(Xe, {
                   background: t.id,
                   engraving: r.id,
                   progress: r.currentProgress,
@@ -1187,7 +1187,7 @@
           });
         engine.whenReady.then(() => {
           l().render(
-            c().createElement(tn, null, c().createElement(on, null)),
+            u().createElement(tn, null, u().createElement(on, null)),
             document.getElementById("root"),
           );
         });
@@ -1212,14 +1212,14 @@
       if (!t) {
         var i = 1 / 0;
         for (l = 0; l < e.length; l++) {
-          for (var [t, a, o] = e[l], s = !0, c = 0; c < t.length; c++)
-            (!1 & o || i >= o) && Object.keys(r.O).every((e) => r.O[e](t[c]))
-              ? t.splice(c--, 1)
+          for (var [t, a, o] = e[l], s = !0, u = 0; u < t.length; u++)
+            (!1 & o || i >= o) && Object.keys(r.O).every((e) => r.O[e](t[u]))
+              ? t.splice(u--, 1)
               : ((s = !1), o < i && (i = o));
           if (s) {
             e.splice(l--, 1);
-            var u = a();
-            void 0 !== u && (n = u);
+            var c = a();
+            void 0 !== c && (n = c);
           }
         }
         return n;
@@ -1258,14 +1258,14 @@
       var n = (n, t) => {
           var a,
             o,
-            [i, s, c] = t,
-            u = 0;
+            [i, s, u] = t,
+            c = 0;
           if (i.some((n) => 0 !== e[n])) {
             for (a in s) r.o(s, a) && (r.m[a] = s[a]);
-            if (c) var l = c(r);
+            if (u) var l = u(r);
           }
-          for (n && n(t); u < i.length; u++)
-            ((o = i[u]), r.o(e, o) && e[o] && e[o][0](), (e[o] = 0));
+          for (n && n(t); c < i.length; c++)
+            ((o = i[c]), r.o(e, o) && e[o] && e[o][0](), (e[o] = 0));
           return r.O(l);
         },
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);

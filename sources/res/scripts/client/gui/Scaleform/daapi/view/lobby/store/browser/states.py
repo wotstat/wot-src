@@ -47,7 +47,7 @@ class ShopState(SFViewLobbyState):
         from gui.Scaleform.daapi.view.lobby.vehicle_preview.states import StyleProgressionPreviewState
         from gui.Scaleform.daapi.view.lobby.vehicle_preview.states import StyleBuyingPreviewState
         from gui.Scaleform.daapi.view.lobby.vehicle_preview.states import ShowcaseStyleBuyingPreviewState
-        from gui.impl.lobby.battle_pass.states import BattlePassState
+        from gui.impl.lobby.battle_pass.states import BattlePassState, TankmenBattlePassState
         from gui.impl.lobby.lootbox_system.states import LootBoxMainState
         from gui.impl.lobby.lootbox_system.states import LootBoxInfoState
         from gui.impl.lobby.vehicle_hub.states import OverviewState
@@ -66,6 +66,7 @@ class ShopState(SFViewLobbyState):
         self.addNavigationTransition(lsm.getStateByCls(StyleBuyingPreviewState), record=True)
         self.addNavigationTransition(lsm.getStateByCls(ShowcaseStyleBuyingPreviewState), record=True)
         self.addNavigationTransition(lsm.getStateByCls(BattlePassState), record=True)
+        self.addNavigationTransition(lsm.getStateByCls(TankmenBattlePassState), record=True)
         self.addNavigationTransition(lsm.getStateByCls(LootBoxMainState), record=True)
         self.addNavigationTransition(lsm.getStateByCls(LootBoxInfoState), record=True)
         self.addNavigationTransition(lsm.getStateByCls(OverviewState), record=True)
