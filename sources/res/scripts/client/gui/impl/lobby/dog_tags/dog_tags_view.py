@@ -223,7 +223,7 @@ class DogTagsView(ViewImpl):
         return
 
     def __updateNotificationCounters(self, model):
-        unseenComps = self._dogTagsHelper.getUnseenComps()
+        unseenComps = self._dogTagsHelper.getUnseenCustomizableComps()
         counters = {viewType: defaultdict(int) for viewType in ComponentViewType}
         for compId in unseenComps:
             comp = componentConfigAdapter.getComponentById(compId)

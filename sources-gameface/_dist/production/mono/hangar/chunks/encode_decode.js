@@ -6,20 +6,20 @@ import {
   Ht as a,
   It as i,
   Jt as l,
-  Mi as r,
+  Ni as r,
   Nt as o,
-  Ti as c,
+  Oi as c,
   Ut as u,
   Vt as d,
   Wt as g,
   Xt as h,
   Yt as f,
   Zt as v,
-  lo as p,
-  yi as y,
+  bi as p,
+  uo as y,
   zt as m,
 } from "./lib.js";
-var b = p.resolve("strings");
+var b = y.resolve("strings");
 function _(t, e, s = "...") {
   return (
     r(
@@ -29,7 +29,7 @@ function _(t, e, s = "...") {
     t.length <= e ? [t, !1] : [`${t.slice(0, e - s.length)}${s}`, !0]
   );
 }
-var I = e(c + s),
+var I = c(s + e),
   N = () => `${Date.now().toString(16)}_${I(3)}`;
 function w(t, e, s = 1) {
   const n = o(e, { count: s });
@@ -44,15 +44,15 @@ function A(t = "", e = []) {
   };
 }
 function B(t, e) {
-  return t.title === e.title && y.shallow(t.list, e.list);
+  return t.title === e.title && p.shallow(t.list, e.list);
 }
 var E = (t) => ({ type: "ok", value: t }),
   $ = (t, e) => ({ type: "error", error: { tag: t, msg: e } });
-function k(t) {
+function O(t) {
   if ("ok" === t.type) return t.value;
 }
-var x = { delete: "delete", save: "save", import: "import" },
-  D = {
+var k = { delete: "delete", save: "save", import: "import" },
+  x = {
     delete: "delete",
     save: "save",
     import: "import",
@@ -60,7 +60,7 @@ var x = { delete: "delete", save: "save", import: "import" },
     discard: "discard",
     submit: "submit",
   },
-  O = g({
+  D = g({
     title: f(),
     createdAt: l(u(), m(), a(0)),
     modifiedAt: l(u(), m(), a(0)),
@@ -170,14 +170,14 @@ function H(t) {
 export {
   E as _,
   R as a,
-  k as b,
+  O as b,
   C as c,
-  D as d,
-  x as f,
+  x as d,
+  k as f,
   N as g,
   w as h,
   P as i,
-  O as l,
+  D as l,
   $ as m,
   G as n,
   U as o,

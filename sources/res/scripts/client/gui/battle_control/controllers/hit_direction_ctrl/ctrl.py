@@ -18,7 +18,7 @@ from skeletons.gui.lobby_context import ILobbyContext
 _logger = logging.getLogger(__name__)
 
 class HitDirectionController(IViewComponentsController):
-    __slots__ = (b'__uiHitComponents', b'__isVisible', b'__callbackIDs', b'__damageIndicatorCrits', b'__damageIndicatorAllies', b'__damageIndicatorExtType', b'__arenaDP', b'__weakref__')
+    __slots__ = (b'__uiHitComponents', b'__isVisible', b'__callbackIDs', b'__damageIndicatorCrits', b'__damageIndicatorAllies', b'__damageIndicatorExtType', b'__arenaDP', b'__controllingVehicleID', b'__weakref__')
     settingsCore = dependency.descriptor(ISettingsCore)
     sessionProvider = dependency.descriptor(IBattleSessionProvider)
     lobbyContext = dependency.descriptor(ILobbyContext)
@@ -29,6 +29,7 @@ class HitDirectionController(IViewComponentsController):
            (HitType.ARTY_HIT_PREDICTION): (BaseHitComponent(ArtyHitPredictionPull()))}
         self.__isVisible = False
         self.__arenaDP = weakref.proxy(setup.arenaDP)
+        self.__controllingVehicleID = None
         return
 
     def getControllerID(self):
@@ -156,7 +157,9 @@ class HitDirectionController(IViewComponentsController):
         return
 
     def __onVehicleControlling(self, vehicle):
-        if self.__arenaDP.getPlayerVehicleID() != self.sessionProvider.shared.vehicleState.getControllingVehicleID():
+        vehicleID = self.sessionProvider.shared.vehicleState.getControllingVehicleID()
+        if vehicleID != self.__controllingVehicleID:
+            self.__controllingVehicleID = vehicleID
             self._hideAllHits()
         return
 

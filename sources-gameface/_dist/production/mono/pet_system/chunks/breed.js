@@ -1,11 +1,11 @@
 import { r as e } from "./rolldown-runtime.js";
-import { Mt as s, V as a, jt as r, lt as l } from "./lib.js";
-r();
-var t = e(a()),
+import { Mt as s, Nt as a, V as r, ut as l } from "./lib.js";
+s();
+var t = e(r()),
   i = "Breed_7533cf8b",
   d = "Breed_animal_d884042f",
   m = l(),
-  { toUpperCase: n } = s.resolve("intl");
+  { toUpperCase: n } = a.resolve("intl");
 function o({ petType: e, breedName: s, className: a }) {
   return e || s
     ? (0, m.jsxs)("div", {

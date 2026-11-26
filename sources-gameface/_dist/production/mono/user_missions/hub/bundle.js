@@ -10,19 +10,19 @@ const __vite__mapDeps = (
 ) => i.map((i) => d[i]);
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
-  Jt as s,
-  Kt as t,
-  On as u,
+  Dn as s,
+  G as t,
+  Gt as u,
   St as a,
   Tt as n,
-  Zt as _,
-  _t as r,
+  W as _,
+  Xt as r,
+  an as l,
   bt as o,
-  gt as l,
-  ht as i,
-  mt as h,
-  on as m,
-  un as b,
+  dt as i,
+  ln as h,
+  pt as m,
+  qt as b,
   vt as c,
   yt as g,
 } from "../chunks/lib.js";
@@ -45,7 +45,7 @@ import "../chunks/_wg-global-styles.js";
   },
   k = "basic",
   C = "challenges",
-  f = e(u(), 1),
+  f = e(s(), 1),
   [v, j] = a()(
     ({ observableModel: e }) => ({
       ...e.primitives(["currentTabId"]),
@@ -63,24 +63,24 @@ import "../chunks/_wg-global-styles.js";
   y = "Hub_tabsContainer_e39aa10a",
   x = "Hub_tab_5c9743bd",
   z = "Hub_content_f95705c3",
-  E = e(s(), 1),
+  E = e(b(), 1),
   L = {
     [k]: f.lazy(() =>
-      h(() => import("../chunks/basic_missions.js"), __vite__mapDeps([0, 1]), import.meta.url),
+      m(() => import("../chunks/basic_missions.js"), __vite__mapDeps([0, 1]), import.meta.url),
     ),
     [C]: f.lazy(() =>
-      h(() => import("../chunks/challenge_missions.js"), __vite__mapDeps([0, 2]), import.meta.url),
+      m(() => import("../chunks/challenge_missions.js"), __vite__mapDeps([0, 2]), import.meta.url),
     ),
   },
-  w = r(() => {
+  w = c(() => {
     const { controls: e, model: s } = j(),
-      u = s.currentTabId.get(),
-      a = (0, f.useRef)(null),
-      n = (0, f.useCallback)(() => {
-        _(() =>
-          _(() => {
-            if (a.current) {
-              const s = a.current.getBoundingClientRect(),
+      a = s.currentTabId.get(),
+      n = (0, f.useRef)(null),
+      o = (0, f.useCallback)(() => {
+        r(() =>
+          r(() => {
+            if (n.current) {
+              const s = n.current.getBoundingClientRect(),
                 t = viewEnv.getScale();
               e.onContentLayoutChanged(Math.floor(s.y / t), Math.floor(s.height / t));
             }
@@ -89,41 +89,41 @@ import "../chunks/_wg-global-styles.js";
       }, [e]);
     ((0, f.useEffect)(
       () => (
-        window.addEventListener("resize", n),
-        engine.on("clientResized", n),
+        window.addEventListener("resize", o),
+        engine.on("clientResized", o),
         () => {
-          (window.removeEventListener("resize", n), engine.off("clientResized", n));
+          (window.removeEventListener("resize", o), engine.off("clientResized", o));
         }
       ),
-      [n],
+      [o],
     ),
       (0, f.useEffect)(() => {
-        n();
-      }, [a, n]));
-    const r = t({ tabSize: l.small }, { large: { tabSize: l.medium } });
+        o();
+      }, [n, o]));
+    const i = u({ tabSize: t.small }, { large: { tabSize: t.medium } });
     return (0, E.jsxs)("div", {
       className: q,
       children: [
-        (0, E.jsx)(i, {
-          active: u,
+        (0, E.jsx)(_, {
+          active: a,
           theme: "primary",
-          size: r.tabSize,
+          size: i.tabSize,
           onActiveChange: e.onTabChange,
-          children: (0, E.jsx)(i.Switcher, {
+          children: (0, E.jsx)(_.Switcher, {
             classNames: { base: y },
-            children: m(s.tabsList.get(), (e) =>
-              (0, E.jsx)(i.Tab, { tabId: e.id, className: x, children: e.title }, `tab_${e.id}`),
+            children: l(s.tabsList.get(), (e) =>
+              (0, E.jsx)(_.Tab, { tabId: e.id, className: x, children: e.title }, `tab_${e.id}`),
             ),
           }),
         }),
         (0, E.jsx)("div", {
           className: z,
-          ref: a,
+          ref: n,
           children:
-            L[u] &&
+            L[a] &&
             (0, E.jsx)(f.Suspense, {
               fallback: (0, E.jsx)("div", {}),
-              children: f.createElement(L[u]),
+              children: f.createElement(L[a]),
             }),
         }),
       ],
@@ -131,8 +131,8 @@ import "../chunks/_wg-global-styles.js";
   });
 g(
   new o()
-    .addWithProps(c, { soundsOverrides: p })
+    .addWithProps(i, { soundsOverrides: p })
     .add(v)
     .render((0, E.jsx)(w, {})),
-).then(b);
+).then(h);
 export { d as t };

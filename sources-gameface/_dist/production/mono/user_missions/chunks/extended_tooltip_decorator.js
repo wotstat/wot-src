@@ -1,5 +1,5 @@
 import { r as e } from "./rolldown-runtime.js";
-import { A as t, Dn as r, F as s, Jt as o, ct as i, j as a, st as d } from "./lib.js";
+import { En as t, I as r, M as o, T as s, lt as i, qt as a, ut as d } from "./lib.js";
 import { t as c } from "./divider.js";
 var n = "ExtendedTooltipDecorator_312a767e",
   l = "ExtendedTooltipDecorator_header_37374fa6",
@@ -7,31 +7,31 @@ var n = "ExtendedTooltipDecorator_312a767e",
   x = "ExtendedTooltipDecorator_description_edb17499",
   p = "ExtendedTooltipDecorator_timerBlock_7b7647e1",
   _ = "ExtendedTooltipDecorator_divider_24cd0041",
-  j = e(o(), 1);
+  j = e(a(), 1);
 function h({
   header: e,
-  description: o,
+  description: a,
   descriptionParams: h,
-  invertedColors: D,
+  invertedColors: T,
   timerTimeLeft: f = 0,
   timerPath: v = "user_missions.tooltip.common.timer",
-  className: T,
+  className: D,
   children: E,
 }) {
-  return (0, j.jsx)(t, {
-    children: (0, j.jsx)(t.Decorator, {
+  return (0, j.jsx)(r, {
+    children: (0, j.jsx)(r.Decorator, {
       children: (0, j.jsxs)("div", {
-        className: r(n, D && m, T),
+        className: t(n, T && m, D),
         children: [
-          e && (0, j.jsx)(i, { text: e, className: l }),
-          (0, j.jsx)(s, { text: o, binding: h, classMix: x }),
+          e && (0, j.jsx)(d, { text: e, className: l }),
+          (0, j.jsx)(s, { text: a, binding: h, classMix: x }),
           E,
           f > 0 &&
             (0, j.jsxs)("div", {
               className: p,
               children: [
                 (0, j.jsx)(c, { className: _ }),
-                (0, j.jsx)(d, { path: v, params: { timeLeft: (0, j.jsx)(a, { start: f }) } }),
+                (0, j.jsx)(i, { path: v, params: { timeLeft: (0, j.jsx)(o, { start: f }) } }),
               ],
             }),
         ],

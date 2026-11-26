@@ -2,6 +2,7 @@ from __future__ import absolute_import
 import typing
 from frameworks.wulf import WindowLayer
 from gui.impl.gen import R
+from gui.impl.lobby.dialogs.full_screen_dialog_view import FullScreenDialogWindowWrapper
 from gui.impl.pub.view_component import ViewComponent
 from helpers import dependency
 from gui.impl.pub import ViewImpl
@@ -146,3 +147,39 @@ class EventLobbyNotificationWindow(LobbyNotificationWindow):
             containerManager.onViewAddedToContainer -= self.__onViewLoaded
         super(EventLobbyNotificationWindow, self)._finalize()
         return
+
+
+class EventDialogWindow(FullScreenDialogWindowWrapper):
+    __appLoader = dependency.descriptor(IAppLoader)
+
+    def _initialize(self):
+        super(EventDialogWindow, self)._initialize()
+        containerManager = self.__getContainerManager()
+        if containerManager:
+            containerManager.onViewAddedToContainer += self.__onViewLoaded
+        return
+
+    def __onViewLoaded(self, _, pyView):
+        if pyView.layer is not None and pyView.layer < self.layer:
+            self.__resetBlur()
+        return
+
+    def _finalize(self):
+        containerManager = self.__getContainerManager()
+        if containerManager:
+            containerManager.onViewAddedToContainer -= self.__onViewLoaded
+        super(EventDialogWindow, self)._finalize()
+        return
+
+    def __resetBlur(self):
+        if self._blur is not None:
+            self._blur.fini()
+        self._blur = CachedBlur(enabled=True, ownLayer=self.layer - 1)
+        return
+
+    def __getContainerManager(self):
+        app = self.__appLoader.getApp()
+        if app:
+            return app.containerManager
+        else:
+            return

@@ -116,6 +116,7 @@ class PLATOON(object):
     MEMBERS_FOOTER_VEHICLESGROUPISFULL_HEAVYTANK = b'#platoon:members/footer/vehiclesGroupIsFull/heavyTank'
     MEMBERS_FOOTER_VEHICLESGROUPISFULL_AT_SPG = b'#platoon:members/footer/vehiclesGroupIsFull/AT_SPG'
     MEMBERS_FOOTER_VEHICLESGROUPISFULL_SPG = b'#platoon:members/footer/vehiclesGroupIsFull/SPG'
+    MEMBERS_FOOTER_VEHICLESGROUPISFULL_AUTOCANNON = b'#platoon:members/footer/vehiclesGroupIsFull/autocannon'
     MEMBERS_FOOTER_COMP7TOPPLAYER = b'#platoon:members/footer/comp7TopPlayer'
     MEMBERS_FOOTER_COMP7LIMITATIONS = b'#platoon:members/footer/comp7Limitations'
     MEMBERS_FOOTER_COMP7INVITE = b'#platoon:members/footer/comp7Invite'

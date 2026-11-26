@@ -286,7 +286,7 @@ class _AlwaysReadyFuture(object):
 
 
 class _Future(object):
-    __slots__ = (b'__promise', b'__callback', b'__callback_set', b'__result', b'__result_set', b'__timerID', b'__expired')
+    __slots__ = (b'__promise', b'__callback', b'__callback_set', b'__result', b'__result_set', b'__timerID')
 
     def __init__(self, promise):
         self.__promise = weakref.proxy(promise)
@@ -295,7 +295,6 @@ class _Future(object):
         self.__result = None
         self.__result_set = False
         self.__timerID = None
-        self.__expired = False
         return
 
     def __del__(self):
@@ -309,7 +308,7 @@ class _Future(object):
         return
 
     def set_result(self, result):
-        if self.__expired:
+        if self.__result_set:
             try:
                 result.get()
             except:
@@ -370,8 +369,12 @@ class _Future(object):
         try:
             self.set_result(_ExpiredPromiseResult())
         finally:
-            self.__expired = True
-            self.__promise.cancel()
+            try:
+                cancel = self.__promise.cancel
+            except ReferenceError:
+                pass
+            else:
+                cancel()
 
         return
 

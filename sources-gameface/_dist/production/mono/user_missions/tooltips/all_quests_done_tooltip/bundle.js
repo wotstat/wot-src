@@ -1,10 +1,10 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
-import { Jt as o, Pn as t, St as e, un as i, yt as r } from "../../chunks/lib.js";
+import { Nn as o, St as t, ln as e, qt as i, yt as r } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
 /* empty css                 */ import { t as l } from "../../chunks/extended_tooltip_decorator.js";
-var [n, a] = e()(({ observableModel: s }) => ({ ...s.primitives(["countdown"]) }), i),
-  d = s(o(), 1),
-  m = t.resolve("strings"),
+var [n, a] = t()(({ observableModel: s }) => ({ ...s.primitives(["countdown"]) }), e),
+  d = s(i(), 1),
+  m = o.resolve("strings"),
   u = () => {
     const { model: s } = a();
     return (0, d.jsx)(l, {

@@ -409,8 +409,12 @@ class _PreBattleDispatcher(ListenersCollection):
 
     def pe_onPrebattleJoinFailure(self, errorCode):
         SystemMessages.pushMessage(messages.getJoinFailureMessage(errorCode), type=SystemMessages.SM_TYPE.Error)
-        self.__setDefault()
-        g_eventDispatcher.loadHangar()
+        prevEntity = self.__prevEntity
+        if prevEntity is not None and prevEntity.getEntityFlags() & FUNCTIONAL_FLAG.LEGACY_INTRO:
+            self.restorePrevious()
+        else:
+            self.__setDefault()
+            g_eventDispatcher.loadHangar()
         return
 
     def pe_onPrebattleLeft(self):
@@ -426,8 +430,14 @@ class _PreBattleDispatcher(ListenersCollection):
         return
 
     def pe_onKickedFromPrebattle(self, kickReason):
+        prbType = 0
+        if self.__entity.getModeFlags() & FUNCTIONAL_FLAG.TRAINING:
+            prbType = self.__entity.getEntityType()
         self.__unsetEntity()
-        self.__setDefault()
+        if prbType:
+            self.__setLegacy(prbType=prbType)
+        else:
+            self.__setDefault()
         return
 
     def ctrl_onLegacyIntroModeJoined(self, prbType):

@@ -1,48 +1,48 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
   C as s,
-  E as a,
-  G as t,
-  J as r,
+  Ct as a,
+  E as t,
+  G as r,
+  J as p,
   L as l,
-  Mt as o,
-  N as p,
-  Ot as d,
-  S as i,
-  St as n,
+  Mt as i,
+  N as o,
+  Nt as d,
+  S as n,
   U as c,
   W as _,
   X as m,
-  Z as v,
-  at as y,
-  it as j,
-  jt as x,
-  lt as h,
-  nt as w,
-  q as g,
-  rt as u,
-  vt as A,
-  w as f,
+  Z as y,
+  at as v,
+  it as x,
+  kt as j,
+  nt as h,
+  q as w,
+  rt as g,
+  ut as u,
+  w as A,
   x as N,
+  yt as f,
   z as b,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { t as k } from "../chunks/vendor.js";
 import { t as E } from "../chunks/synergy_rewards.js";
-x();
-var O = o.resolve("aliases"),
-  [S, C] = v()(
+i();
+var C = d.resolve("aliases"),
+  [O, S] = y()(
     ({ observableModel: e }) => {
       const s = { root: e.object(), rewards: e.array("rewards") },
         a = m(() =>
-          A(s.rewards.get(), (e) => ({
+          f(s.rewards.get(), (e) => ({
             ...e,
-            image: _(e, g.Big),
+            image: _(e, w.Big),
             valueType: N(e.name),
             special: "overlayType" in e ? e.overlayType : void 0,
-            tooltipArgs: t(
+            tooltipArgs: r(
               { tooltipId: e.tooltipId },
-              O.read((e) => e.hangar.shared.PetEvent("resId")),
+              C.read((e) => e.hangar.shared.PetEvent("resId")),
             ),
           })),
         );
@@ -66,31 +66,31 @@ var O = o.resolve("aliases"),
   U = "App_rewards_d0d451da",
   X = "App_reward_d2e6a341",
   Z = "App_buttons_149abdc7",
-  D = h(),
-  H = o.resolve("strings"),
-  K = o.resolve("images"),
-  Q = o.resolve("sounds"),
+  D = u(),
+  H = d.resolve("strings"),
+  K = d.resolve("images"),
+  Q = d.resolve("sounds"),
   V = k(function () {
-    const { model: e, controls: t } = C(),
+    const { model: e, controls: a } = S(),
       r = e.root.get().eventId,
-      o = H.readOrEmpty(`pet_events.joke.event_${r}`),
-      n = K.read(`petSystem.event_view.reward_${r}_400x400`),
-      c = [...Array(o ? 5 : 4).keys()],
-      _ = e.computes.getRewards(),
-      m = e.computes.hasRewards();
-    y(t.close);
-    const v = u(
-      c.length,
-      c.map((e, s) => ({
+      p = H.readOrEmpty(`pet_events.joke.event_${r}`),
+      i = K.read(`petSystem.event_view.reward_${r}_400x400`),
+      d = [...Array(p ? 5 : 4).keys()],
+      c = e.computes.getRewards(),
+      _ = e.computes.hasRewards();
+    v(a.close);
+    const m = g(
+      d.length,
+      d.map((e, s) => ({
         from: { y: 20, opacity: 0 },
         to: { y: 0, opacity: 1 },
         delay: 250 * (s + 1),
-        config: { duration: 250, easing: j.easeOutSine },
+        config: { duration: 250, easing: x.easeOutSine },
         onStart: () => {
           let e = "pet_system_window_item_02";
           (0 === s
             ? (e = "pet_system_window_item_01")
-            : s === c.length - 1 && (e = "pet_system_window_item_03"),
+            : s === d.length - 1 && (e = "pet_system_window_item_03"),
             Q.play(e));
         },
       })),
@@ -100,15 +100,15 @@ var O = o.resolve("aliases"),
       children: (0, D.jsxs)("div", {
         className: $,
         children: [
-          (0, D.jsxs)(w.div, {
-            style: v[0],
+          (0, D.jsxs)(h.div, {
+            style: m[0],
             children: [
-              n &&
+              i &&
                 (0, D.jsxs)(D.Fragment, {
                   children: [
-                    (0, D.jsx)("div", { className: z, style: { backgroundImage: `url(${n})` } }),
-                    !d.isLow() &&
-                      (0, D.jsx)(i, {
+                    (0, D.jsx)("div", { className: z, style: { backgroundImage: `url(${i})` } }),
+                    !j.isLow() &&
+                      (0, D.jsx)(n, {
                         className: T,
                         src: R.videos.pet_system.pet_rays(),
                         autoplay: !0,
@@ -119,52 +119,48 @@ var O = o.resolve("aliases"),
               (0, D.jsx)(l, { className: W, text: H.readOrEmpty(`pet_events.title.event_${r}`) }),
             ],
           }),
-          (0, D.jsx)(w.div, {
-            style: v[1],
+          (0, D.jsx)(h.div, {
+            style: m[1],
             className: B,
             children: (0, D.jsxs)(s, {
               children: [
-                (0, D.jsx)(f, {
+                (0, D.jsx)(A, {
                   classNames: { wrapper: M, content: L },
                   children: (0, D.jsx)(b, {
                     text: H.readOrEmpty(`pet_events.text.event_${r}`),
-                    params: {
-                      color: "#eeede9e6",
-                      defaultColor: "#eeede980",
-                      br: (0, D.jsx)("span", { className: P }),
-                    },
+                    params: { br: (0, D.jsx)("span", { className: P }) },
                     className: F,
                     split: !0,
                   }),
                 }),
-                (0, D.jsx)(a, { classNames: { base: q } }),
+                (0, D.jsx)(t, { classNames: { base: q } }),
               ],
             }),
           }),
-          (0, D.jsxs)(w.div, {
-            style: v[2],
+          (0, D.jsxs)(h.div, {
+            style: m[2],
             children: [
               (0, D.jsx)("div", {
                 className: J,
                 children: H.readOrEmpty("pet_events.rewards.title"),
               }),
               (0, D.jsx)(E, {
-                rewards: _,
-                hasRewards: m,
+                rewards: c,
+                hasRewards: _,
                 className: U,
                 classNames: { reward: X },
                 imageSize: 80,
               }),
             ],
           }),
-          o &&
-            (0, D.jsx)(w.div, { style: v[3], children: (0, D.jsx)(l, { className: G, text: o }) }),
-          (0, D.jsx)(w.div, {
-            style: v[o ? 4 : 3],
+          p &&
+            (0, D.jsx)(h.div, { style: m[3], children: (0, D.jsx)(l, { className: G, text: p }) }),
+          (0, D.jsx)(h.div, {
+            style: m[p ? 4 : 3],
             className: Z,
-            children: (0, D.jsx)(p, {
-              size: p.sizes.medium,
-              onClick: t.close,
+            children: (0, D.jsx)(o, {
+              size: o.sizes.medium,
+              onClick: a.close,
               children: H.readOrEmpty("pet_events.submit"),
             }),
           }),
@@ -172,4 +168,4 @@ var O = o.resolve("aliases"),
       }),
     });
   });
-r((0, D.jsx)(S, { children: (0, D.jsx)(c, { children: (0, D.jsx)(V, {}) }) })).then(() => n());
+p((0, D.jsx)(O, { children: (0, D.jsx)(c, { children: (0, D.jsx)(V, {}) }) })).then(() => a());

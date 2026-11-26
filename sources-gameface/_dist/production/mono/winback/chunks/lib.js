@@ -663,6 +663,38 @@ var timeFormats = { full: DateTimeFormatsEnum.FullTime, short: DateTimeFormatsEn
 function formatTime(e, t, n = !0) {
   return window.regionalDateTime.getRegionalDateTime(t, e, n);
 }
+function getDateParts(e) {
+  const t = new Date(1e3 * e);
+  return {
+    year: t.getFullYear(),
+    month: t.getMonth() + 1,
+    hours: t.getHours(),
+    minutes: t.getMinutes(),
+    seconds: t.getSeconds(),
+  };
+}
+function isSameTime(e, t) {
+  return e.hours === t.hours && e.minutes === t.minutes && e.seconds === t.seconds;
+}
+function getRangeFormatPath(e, t) {
+  const n = e.year === t.year;
+  return [
+    "datetime_formats",
+    "dateRange",
+    "dateWithYear",
+    n ? "sameYear" : "differentYear",
+    n && e.month === t.month ? "sameMonth" : "differentMonth",
+    isSameTime(e, t) ? "sameTime" : "differentTime",
+  ].join(".");
+}
+function formatRange(e, t) {
+  const n = getRangeFormatPath(getDateParts(e), getDateParts(t)),
+    r = resources.resolve("strings");
+  return {
+    start: window.regionalDateTime.getFormattedDateTime(e, r.readOrEmpty(`${n}.start`), !0),
+    end: window.regionalDateTime.getFormattedDateTime(t, r.readOrEmpty(`${n}.end`), !0),
+  };
+}
 var intl$1 = {
     isNumberFormat: isNumberFormat,
     formatNumber: formatNumber,
@@ -674,6 +706,7 @@ var intl$1 = {
     dateTimeFormats: DateTimeFormatsEnum,
     formatTime: formatTime,
     timeFormats: timeFormatList,
+    formatRange: formatRange,
     toUpperCase: (e) => window.systemLocale.toUpperCase(e),
     toLowerCase: (e) => window.systemLocale.toLowerCase(e),
   },
@@ -21528,6 +21561,42 @@ function UIProvider(e) {
     }),
   });
 }
+var require_classnames = __commonJSMin((e, t) => {
+    !(function () {
+      var e = {}.hasOwnProperty;
+      function n() {
+        for (var e = "", t = 0; t < arguments.length; t++) {
+          var n = arguments[t];
+          n && (e = a(e, r(n)));
+        }
+        return e;
+      }
+      function r(t) {
+        if ("string" == typeof t || "number" == typeof t) return t;
+        if ("object" != typeof t) return "";
+        if (Array.isArray(t)) return n.apply(null, t);
+        if (
+          t.toString !== Object.prototype.toString &&
+          !t.toString.toString().includes("[native code]")
+        )
+          return t.toString();
+        var r = "";
+        for (var o in t) e.call(t, o) && t[o] && (r = a(r, o));
+        return r;
+      }
+      function a(e, t) {
+        return t ? (e ? e + " " + t : e + t) : e;
+      }
+      void 0 !== t && t.exports
+        ? ((n.default = n), (t.exports = n))
+        : "function" == typeof define && "object" == typeof define.amd && define.amd
+          ? define("classnames", [], function () {
+              return n;
+            })
+          : (window.classNames = n);
+    })();
+  }),
+  import_classnames = __toESM(require_classnames());
 if (!import_react.useState) throw new Error("mobx-react-lite requires React with Hooks support");
 if (!makeObservable)
   throw new Error("mobx-react-lite@3 requires mobx at least version 6 to be available");
@@ -21868,235 +21937,6 @@ function useObserver(e, t) {
 function useStaticRendering(e) {
   enableStaticRendering(e);
 }
-var require_classnames = __commonJSMin((e, t) => {
-    !(function () {
-      var e = {}.hasOwnProperty;
-      function n() {
-        for (var e = "", t = 0; t < arguments.length; t++) {
-          var n = arguments[t];
-          n && (e = a(e, r(n)));
-        }
-        return e;
-      }
-      function r(t) {
-        if ("string" == typeof t || "number" == typeof t) return t;
-        if ("object" != typeof t) return "";
-        if (Array.isArray(t)) return n.apply(null, t);
-        if (
-          t.toString !== Object.prototype.toString &&
-          !t.toString.toString().includes("[native code]")
-        )
-          return t.toString();
-        var r = "";
-        for (var o in t) e.call(t, o) && t[o] && (r = a(r, o));
-        return r;
-      }
-      function a(e, t) {
-        return t ? (e ? e + " " + t : e + t) : e;
-      }
-      void 0 !== t && t.exports
-        ? ((n.default = n), (t.exports = n))
-        : "function" == typeof define && "object" == typeof define.amd && define.amd
-          ? define("classnames", [], function () {
-              return n;
-            })
-          : (window.classNames = n);
-    })();
-  }),
-  import_classnames = __toESM(require_classnames()),
-  MOUSE_BUTTON_CODES = (function (e) {
-    return (
-      (e[(e.LEFT = 0)] = "LEFT"),
-      (e[(e.WHEEL = 1)] = "WHEEL"),
-      (e[(e.RIGHT = 2)] = "RIGHT"),
-      (e[(e.FOURTH = 3)] = "FOURTH"),
-      (e[(e.FIFTH = 4)] = "FIFTH"),
-      e
-    );
-  })({});
-function playSound$1(e) {
-  engine.call("PlaySound", e).catch((t) => {
-    console.error("[lib/sounds.js] playSound(", e, "): ", t);
-  });
-}
-var Sound = {
-    playHighlight() {
-      playSound$1("highlight");
-    },
-    playClick() {
-      playSound$1("play");
-    },
-    playYes() {
-      playSound$1("yes1");
-    },
-  },
-  ButtonType = (function (e) {
-    return (
-      (e.main = "main"),
-      (e.primary = "primary"),
-      (e.primaryGreen = "primaryGreen"),
-      (e.primaryRed = "primaryRed"),
-      (e.secondary = "secondary"),
-      (e.ghost = "ghost"),
-      e
-    );
-  })({}),
-  ButtonSize = (function (e) {
-    return (
-      (e.extraSmall = "extraSmall"),
-      (e.small = "small"),
-      (e.medium = "medium"),
-      (e.large = "large"),
-      e
-    );
-  })({}),
-  base$15 = "Cbutton_24fc9a0c",
-  base__main = "Cbutton_base__main_2f199578",
-  base__primary = "Cbutton_base__primary_9da8a692",
-  base__primaryGreen = "Cbutton_base__primaryGreen_74301f4e",
-  base__primaryRed = "Cbutton_base__primaryRed_d184ac",
-  base__secondary = "Cbutton_base__secondary_22ff48c2",
-  base__ghost = "Cbutton_base__ghost_fd3acf91",
-  base__extraSmall$1 = "Cbutton_base__extraSmall_f64ebb9e",
-  base__small$5 = "Cbutton_base__small_a71bc2a9",
-  base__medium$3 = "Cbutton_base__medium_d82a1b14",
-  base__large$3 = "Cbutton_base__large_f02aee17",
-  base__disabled$2 = "Cbutton_base__disabled_96f239bb",
-  back = "Cbutton_back_ffaa618f",
-  texture = "Cbutton_texture_f462b307",
-  state = "Cbutton_state_bf8d0bab",
-  base__focus = "Cbutton_base__focus_180a9717",
-  stateHighlightHover = "Cbutton_stateHighlightHover_7e2b860e",
-  stateHighlightActive = "Cbutton_stateHighlightActive_f3d8fd6a",
-  stateDisabled = "Cbutton_stateDisabled_7b91392f",
-  base__highlightActive = "Cbutton_base__highlightActive_180a9717",
-  content$3 = "Cbutton_content_faaa9067",
-  CButton_module_default = {
-    base: base$15,
-    base__main: base__main,
-    base__primary: base__primary,
-    base__primaryGreen: base__primaryGreen,
-    base__primaryRed: base__primaryRed,
-    base__secondary: base__secondary,
-    base__ghost: base__ghost,
-    base__extraSmall: base__extraSmall$1,
-    base__small: base__small$5,
-    base__medium: base__medium$3,
-    base__large: base__large$3,
-    base__disabled: base__disabled$2,
-    back: back,
-    texture: texture,
-    state: state,
-    base__focus: base__focus,
-    stateHighlightHover: stateHighlightHover,
-    stateHighlightActive: stateHighlightActive,
-    stateDisabled: stateDisabled,
-    base__highlightActive: base__highlightActive,
-    content: content$3,
-  },
-  Button$1 = ({
-    children: e,
-    size: t,
-    disabled: n,
-    mixClass: r,
-    onMouseEnter: a,
-    onMouseMove: o,
-    onMouseDown: i,
-    onMouseUp: s,
-    onMouseLeave: l,
-    onClick: u,
-    isFocused: c = !1,
-    type: d = ButtonType.primary,
-    soundHover: f = "highlight",
-    soundClick: p = "play",
-  }) => {
-    const m = (0, import_react.useRef)(null),
-      [h, g] = (0, import_react.useState)(c),
-      [b, v] = (0, import_react.useState)(!1);
-    return (
-      (0, import_react.useEffect)(() => {
-        function e(e) {
-          h && null !== m.current && !m.current.contains(e.target) && g(!1);
-        }
-        return (
-          document.addEventListener("mousedown", e),
-          () => {
-            document.removeEventListener("mousedown", e);
-          }
-        );
-      }, [h]),
-      (0, import_react.useEffect)(() => {
-        g(c);
-      }, [c]),
-      (0, import_jsx_runtime.jsxs)("div", {
-        ref: m,
-        className: (0, import_classnames.default)(
-          CButton_module_default.base,
-          CButton_module_default[`base__${d}`],
-          n && CButton_module_default.base__disabled,
-          t && CButton_module_default[`base__${t}`],
-          h && CButton_module_default.base__focus,
-          b && CButton_module_default.base__highlightActive,
-          r,
-        ),
-        onMouseEnter: function (e) {
-          n || (null !== f && playSound$1(f), a && a(e));
-        },
-        onMouseMove: function (e) {
-          o && o(e);
-        },
-        onMouseUp: function (e) {
-          n || (s && s(e), v(!1));
-        },
-        onMouseDown: function (e) {
-          if (n) return;
-          const t = e.button === MOUSE_BUTTON_CODES.LEFT;
-          (null !== p && t && playSound$1(p),
-            i && i(e),
-            c && (n || (m.current && (m.current.focus(), g(!0)))),
-            t && v(!0));
-        },
-        onMouseLeave: function (e) {
-          n || (l && l(e), v(!1));
-        },
-        onClick: function (e) {
-          n || (u && u(e));
-        },
-        children: [
-          d !== ButtonType.ghost &&
-            (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, {
-              children: [
-                (0, import_jsx_runtime.jsx)("div", { className: CButton_module_default.back }),
-                (0, import_jsx_runtime.jsx)("span", { className: CButton_module_default.texture }),
-              ],
-            }),
-          (0, import_jsx_runtime.jsxs)("span", {
-            className: (0, import_classnames.default)(
-              CButton_module_default.state,
-              CButton_module_default.state__default,
-            ),
-            children: [
-              (0, import_jsx_runtime.jsx)("span", {
-                className: CButton_module_default.stateDisabled,
-              }),
-              (0, import_jsx_runtime.jsx)("span", {
-                className: CButton_module_default.stateHighlightHover,
-              }),
-              (0, import_jsx_runtime.jsx)("span", {
-                className: CButton_module_default.stateHighlightActive,
-              }),
-            ],
-          }),
-          (0, import_jsx_runtime.jsx)("span", {
-            className: CButton_module_default.content,
-            lang: R.strings.settings.LANGUAGE_CODE(),
-            children: e,
-          }),
-        ],
-      })
-    );
-  },
-  CButton = Button$1;
 function makeEngineEvent(e) {
   return (t) => (
     engine.on(e, t),
@@ -22186,7 +22026,7 @@ function initMouseEvents() {
   };
 }
 var mouse = initMouseEvents();
-function playSound(e) {
+function playSound$1(e) {
   engine.call("PlaySound", e).catch((t) => {
     console.error(`playSound('${e}'): `, t);
   });
@@ -22201,7 +22041,7 @@ var client_exports = __exportAll({
   getMouseGlobalPosition: () => getMouseGlobalPosition,
   getSize: () => getSize$1,
   graphicsQuality: () => graphicsQuality,
-  playSound: () => playSound,
+  playSound: () => playSound$1,
   setRTPC: () => setRTPC,
 });
 function getSize$1(e = "px") {
@@ -22220,8 +22060,8 @@ var graphicsQuality = {
     toLowerCase: (e) => window.systemLocale.toLowerCase(e),
   },
   sounds = { highlight: "highlight", click: "play", yes1: "yes1" },
-  plays = Object.keys(sounds).reduce((e, t) => ((e[t] = () => playSound(sounds[t])), e), {}),
-  play = { ...plays, sound: playSound },
+  plays = Object.keys(sounds).reduce((e, t) => ((e[t] = () => playSound$1(sounds[t])), e), {}),
+  play = { ...plays, sound: playSound$1 },
   sound_default = { play: play, setRTPC: setRTPC },
   ROMAN = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
   ARABIC = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
@@ -22424,7 +22264,7 @@ function initExternalPaddings(e) {
   (t(), engine.on("self.onPaddingsUpdated", () => t()));
 }
 var env = { view: view_exports, client: client_exports, sound: sound_default, intl: intl },
-  base$14 = "Textbutton_b1283086",
+  base$15 = "Textbutton_b1283086",
   base__right = "Textbutton_base__right_78d4c03f",
   icon$4 = "Textbutton_icon_9ba4c60",
   icon__back = "Textbutton_icon__back_599b35e4",
@@ -22441,7 +22281,7 @@ var env = { view: view_exports, client: client_exports, sound: sound_default, in
   base__left = "Textbutton_base__left_599b35e4",
   shine = "Textbutton_shine_527e4656",
   TextButton_module_default = {
-    base: base$14,
+    base: base$15,
     base__right: base__right,
     icon: icon$4,
     icon__back: icon__back,
@@ -22540,334 +22380,199 @@ var env = { view: view_exports, client: client_exports, sound: sound_default, in
       ],
     });
   },
-  NodeTypes = { Text: 1, Tag: 2, Var: 3 };
-function parseArguments(e) {
-  const t = [];
-  let n = "",
-    r = !1,
-    a = !1,
-    o = "";
-  for (let i = 0; i < e.length; i++) {
-    const s = e[i];
-    ("'" !== s && '"' !== s) || a || r
-      ? s === o && a
-        ? ((a = !1), (n += s))
-        : "(" !== s || a
-          ? ")" === s && r && !a
-            ? ((r = !1), (n += s))
-            : " " !== s || r || a
-              ? (n += s)
-              : n && (t.push(n), (n = ""))
-          : ((r = !0), (n += s))
-      : ((a = !0), (o = s), (n += s));
-  }
-  return (n && t.push(n), t);
-}
-function parse$1(e, t) {
-  const n = [],
-    r = [];
-  let a = "",
-    o = !1,
-    i = "",
-    s = 0;
-  for (let l = 0; l < e.length; l++) {
-    const u = e[l];
-    if (u === t.start[0] && e.slice(l, l + t.start.length) === t.start)
-      (a &&
-        (r.length > 0
-          ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
-          : n.push({ type: NodeTypes.Text, value: a }),
-        (a = "")),
-        (o = !0),
-        (l += t.start.length - 1));
-    else if (u === t.end[0] && e.slice(l, l + t.end.length) === t.end) {
-      ((o = !1), (l += t.end.length - 1));
-      const e = i.trim();
-      if (e.startsWith("@")) {
-        const t = e.slice(1).trim(),
-          a = { type: NodeTypes.Tag, attrs: t.split("|"), instanceId: ++s, children: [] };
-        (r.length > 0 ? r[r.length - 1].node.children.push(a) : n.push(a),
-          r.push({ node: a, startIndex: n.length }));
-      } else if ("/" === e) r.length > 0 && r.pop();
-      else {
-        const t = { type: NodeTypes.Var, instanceId: ++s, name: e };
-        r.length > 0 ? r[r.length - 1].node.children.push(t) : n.push(t);
-      }
-      i = "";
-    } else o ? (i += u) : (a += u);
-  }
-  return (
-    a &&
-      (r.length
-        ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
-        : n.push({ type: NodeTypes.Text, value: a })),
-    n
-  );
-}
-var COLORS =
-    "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
-  base$13 = "FormatText_db904f12",
-  base__fullSize = "FormatText_base__fullSize_a514958e",
-  nowrap = "FormatText_nowrap_ff69eca3",
-  format_text_module_default = {
-    COLORS: COLORS,
-    base: base$13,
-    base__fullSize: base__fullSize,
-    nowrap: nowrap,
-  },
-  legacyColors = new Set(format_text_module_default.COLORS?.split(", ") ?? []),
-  keyId = 0;
-function takeKey() {
-  return ++keyId;
-}
-var startsWithPunctuationRe =
-  /^[*"'ー.,、。，:;：；！？》」•%)(!?\u0EAF\u0E3B\u0E3F\u0E31\u0E32\u0E33\u0E47-\u0E4F\u0E5A-\u0E5F\u0E00-\u0E7F\u3000-\u303F\uFF00-\uFFEF\]]/u;
-function splitString(e) {
-  const t = resources.resolve("langCode");
-  return addSpaceAndMap(
-    splitLocale(e, t),
-    t,
-    (e, t) => e && (0, import_jsx_runtime.jsx)("span", { children: e }, `${e}${t}`),
-  );
-}
-function splitArray(e) {
-  const t = [];
-  for (let n = 0; n < e.length; n++) {
-    const r = e[n],
-      a = e[n + 1];
-    if ("string" != typeof a || !startsWithPunctuationRe.test(a)) {
-      t.push(split(r));
-      continue;
-    }
-    const o = splitString(a.slice(1));
-    (t.push(
-      (0, import_jsx_runtime.jsxs)(
-        import_react.Fragment,
-        {
-          children: [
-            (0, import_jsx_runtime.jsxs)("span", {
-              className: format_text_module_default.nowrap,
-              children: [split(r), a[0]],
-            }),
-            o,
-          ],
-        },
-        takeKey(),
-      ),
-    ),
-      (n += 1));
-  }
-  return t;
-}
-function split(e) {
-  return Array.isArray(e)
-    ? splitArray(e)
-    : "string" == typeof e
-      ? (0, import_jsx_runtime.jsx)(import_react.Fragment, { children: splitString(e) }, takeKey())
-      : e;
-}
-function style$1(e, ...t) {
-  return (0, import_jsx_runtime.jsx)(
-    "span",
-    {
-      style: t.reduce((n, r) => {
-        if (Array.isArray(r)) {
-          const [e, t] = r;
-          return ((n[e] = t), n);
-        }
-        return (console.warn(`Invalid argument ${r} in ${e}: ${t}`), n);
-      }, {}),
-      children: e,
-    },
-    takeKey(),
-  );
-}
-function className$1(e, ...t) {
-  return (0, import_jsx_runtime.jsx)(
-    "span",
-    { className: t.filter((e) => "string" == typeof e && e.length > 0).join(" "), children: e },
-    takeKey(),
-  );
-}
-var color = (e, t) => ["color", t],
-  fontSize = (e, t) => ["fontSize", t],
-  fontWeight = (e, t) => ["fontWeight", t],
-  textDecoration = (e, t) => ["textDecoration", t],
-  bold = (e) => ["fontWeight", "bold"];
-function colorLegacy(e, t) {
-  const n = takeKey();
-  return legacyColors.has(String(t))
-    ? (0, import_jsx_runtime.jsx)(
-        "span",
-        { className: `FormatText_colorLegacy__${t}`, children: e },
-        n,
-      )
-    : (0, import_jsx_runtime.jsx)("span", { style: { color: `#${t}` }, children: e }, n);
-}
-var defaultFormatters = {
-  class: className$1,
-  colorLegacy: colorLegacy,
-  bold: bold,
-  split: split,
-  style: style$1,
-  color: color,
-  fontSize: fontSize,
-  fontWeight: fontWeight,
-  textDecoration: textDecoration,
-};
-function applyFunction(e, t, n, r) {
-  const a = n.map((t) => {
-      if ("string" != typeof t) return t;
-      const n = t.trim();
-      if (n.startsWith("(") && n.endsWith(")")) {
-        const [t, ...a] = n.slice(1, -1).split(" ");
-        return t ? applyFunction(e, t, a, r) : e;
-      }
-      return n.startsWith("'") && n.endsWith("'") ? n.slice(1, -1) : n;
-    }),
-    o = r[t];
-  return o ? o(e, ...a) : (console.error(`Function ${t} is not registered`), e);
-}
-function applyFunctions(e, t, n) {
-  return e.reduce((e, t) => {
-    const [r, ...a] = parseArguments(t.trim());
-    return r ? applyFunction(e, r, a, n) : e;
-  }, t);
-}
-function isEnd(e) {
-  return !((e >= "a" && e <= "z") || (e >= "A" && e <= "Z") || (e >= "0" && e <= "9") || "_" === e);
-}
-function resolveAttrParams(e, t) {
-  for (let n = 0; n < e.length; n++)
-    if ("$" === e[n]) {
-      let r = n + 1;
-      for (; r < e.length && !isEnd(e[r]);) r++;
-      const a = e.slice(n + 1, r),
-        o = t[a];
-      if (o) return resolveAttrParams(e.replace(`$${a}`, String(o)), t);
-    }
-  return e;
-}
-function resolveAttrsParams(e, t) {
-  const n = [];
-  for (let r = 0; r < e.length; r++) n[r] = resolveAttrParams(e[r], t);
-  return n;
-}
-var primitives = ["number", "string", "undefined"];
-function render$1(e, t, n = {}, r = !0) {
-  r && (keyId = 0);
-  const a = [];
-  function o(e) {
-    if (primitives.includes(typeof e)) {
-      const t = a.at(-1);
-      if ("string" == typeof t) return void (a[a.length - 1] = t + e);
-    }
-    a.push(e);
-  }
-  for (const i of e)
-    if (i.type === NodeTypes.Text) o(i.value);
-    else if (i.type === NodeTypes.Var)
-      null === n[i.name] || primitives.includes(typeof n[i.name])
-        ? o(n[i.name] ?? `{{${i.name}}}`)
-        : a.push(
-            (0, import_jsx_runtime.jsx)(
-              import_react.Fragment,
-              { children: n[i.name] },
-              `var-${i.name}-${i.instanceId}`,
-            ),
-          );
-    else if (i.type === NodeTypes.Tag) {
-      const e = render$1(i.children, t, n, !1),
-        r = applyFunctions(resolveAttrsParams(i.attrs, n), e, t);
-      a.push(r);
-    }
-  return a;
-}
-function upgradeColorTag(e) {
-  return e
-    .replace(
-      /%\(([a-zA-Z0-9]+)_(Open|Start)\)s(.+?)%\(\1_(Close|End)\)s/,
-      "{{@ colorLegacy '$1'}}$3{{/}}",
-    )
-    .replace(
-      /\{([a-zA-Z0-9]+)_(Open|Start)\}(.+?)\{\1_(Close|End)\}/gi,
-      "{{@ colorLegacy '$1'}}$3{{/}}",
-    );
-}
-function upgradeVariables(e) {
-  return e.replace(/%\((\w+|\d)\)(?:s|d)?/gi, "{{$1}}").replace(/(?<!\{)\{(\w+|\d)\}/g, "{{$1}}");
-}
-function upgradeSymbols(e) {
-  return e.replaceAll("&nbsp;", " ").replaceAll("&zwnbsp;", "\ufeff");
-}
-function upgradeLegacy(e) {
-  return pipe(e, upgradeSymbols, upgradeColorTag, upgradeVariables);
-}
-var defaultBrackets = { start: "{{", end: "}}" },
-  FormatText = (0, import_react.memo)(function (e) {
-    const {
-        brackets: t = defaultBrackets,
-        text: n,
-        params: r,
-        upgradeLegacy: a,
-        fullSize: o,
-        inline: i,
-        formatters: s,
-        split: l,
-        ...u
-      } = e,
-      c = (0, import_react.useMemo)(
-        () => (e.upgradeLegacy ? upgradeLegacy(e.text) : e.text),
-        [e.text, e.upgradeLegacy],
-      ),
-      d = (0, import_react.useMemo)(
-        () => (e.formatters ? { ...defaultFormatters, ...e.formatters } : defaultFormatters),
-        [e.formatters],
-      ),
-      f = (0, import_react.useMemo)(() => parse$1(l ? `{{@ split}}${c}{{/}}` : c, t), [t, c, l]),
-      p = (0, import_react.useMemo)(() => render$1(f, d, e.params), [f, d, e.params]),
-      m = clsx(
-        format_text_module_default.base,
-        o && format_text_module_default.base__fullSize,
-        u.className,
-      );
-    return e.inline
-      ? (console.warn(
-          "[FormatText] using the 'inline' props causes memory leaks due to incorrect working of the 'cohinline' attribute in GF version 1.48.2.3. Can cause client crashes.",
-          "Use 'split' prop instead.",
-        ),
-        (0, import_jsx_runtime.jsx)("p", {
-          ...u,
-          className: m,
-          ref: (e) => {
-            e?.setAttribute("cohinline", "true");
-          },
-          children: p,
-        }))
-      : (0, import_jsx_runtime.jsx)("span", { ...u, className: m, children: p });
-  });
-function FormatString({ path: e, ...t }) {
-  return (0, import_jsx_runtime.jsx)(FormatText, {
-    text: resources.resolve("strings").readOrEmpty(e),
-    ...t,
-  });
-}
-var getFromCallStack = (e = 1) => {
-    const t = new Error().stack;
-    let n,
-      r = R.invalid("resId"),
-      a = "";
+  MOUSE_BUTTON_CODES = (function (e) {
     return (
-      t &&
-        ((a = t.match(/(coui:\/\/[^\s]+\.js)/)?.[0] || ""),
-        (n = t.split("\n")[e].split(".js")[0].split("/").pop() || ""),
-        window.__feature &&
-          window.__feature !== n &&
-          window.subViews[n] &&
-          (r = window.subViews[n].id)),
-      { callerUrl: a, caller: n, stack: t, resId: r }
+      (e[(e.LEFT = 0)] = "LEFT"),
+      (e[(e.WHEEL = 1)] = "WHEEL"),
+      (e[(e.RIGHT = 2)] = "RIGHT"),
+      (e[(e.FOURTH = 3)] = "FOURTH"),
+      (e[(e.FIFTH = 4)] = "FIFTH"),
+      e
+    );
+  })({});
+function playSound(e) {
+  engine.call("PlaySound", e).catch((t) => {
+    console.error("[lib/sounds.js] playSound(", e, "): ", t);
+  });
+}
+var Sound = {
+    playHighlight() {
+      playSound("highlight");
+    },
+    playClick() {
+      playSound("play");
+    },
+    playYes() {
+      playSound("yes1");
+    },
+  },
+  ButtonType = (function (e) {
+    return (
+      (e.main = "main"),
+      (e.primary = "primary"),
+      (e.primaryGreen = "primaryGreen"),
+      (e.primaryRed = "primaryRed"),
+      (e.secondary = "secondary"),
+      (e.ghost = "ghost"),
+      e
+    );
+  })({}),
+  ButtonSize = (function (e) {
+    return (
+      (e.extraSmall = "extraSmall"),
+      (e.small = "small"),
+      (e.medium = "medium"),
+      (e.large = "large"),
+      e
+    );
+  })({}),
+  base$14 = "Cbutton_24fc9a0c",
+  base__main = "Cbutton_base__main_2f199578",
+  base__primary = "Cbutton_base__primary_9da8a692",
+  base__primaryGreen = "Cbutton_base__primaryGreen_74301f4e",
+  base__primaryRed = "Cbutton_base__primaryRed_d184ac",
+  base__secondary = "Cbutton_base__secondary_22ff48c2",
+  base__ghost = "Cbutton_base__ghost_fd3acf91",
+  base__extraSmall$1 = "Cbutton_base__extraSmall_f64ebb9e",
+  base__small$5 = "Cbutton_base__small_a71bc2a9",
+  base__medium$3 = "Cbutton_base__medium_d82a1b14",
+  base__large$3 = "Cbutton_base__large_f02aee17",
+  base__disabled$2 = "Cbutton_base__disabled_96f239bb",
+  back = "Cbutton_back_ffaa618f",
+  texture = "Cbutton_texture_f462b307",
+  state = "Cbutton_state_bf8d0bab",
+  base__focus = "Cbutton_base__focus_180a9717",
+  stateHighlightHover = "Cbutton_stateHighlightHover_7e2b860e",
+  stateHighlightActive = "Cbutton_stateHighlightActive_f3d8fd6a",
+  stateDisabled = "Cbutton_stateDisabled_7b91392f",
+  base__highlightActive = "Cbutton_base__highlightActive_180a9717",
+  content$3 = "Cbutton_content_faaa9067",
+  CButton_module_default = {
+    base: base$14,
+    base__main: base__main,
+    base__primary: base__primary,
+    base__primaryGreen: base__primaryGreen,
+    base__primaryRed: base__primaryRed,
+    base__secondary: base__secondary,
+    base__ghost: base__ghost,
+    base__extraSmall: base__extraSmall$1,
+    base__small: base__small$5,
+    base__medium: base__medium$3,
+    base__large: base__large$3,
+    base__disabled: base__disabled$2,
+    back: back,
+    texture: texture,
+    state: state,
+    base__focus: base__focus,
+    stateHighlightHover: stateHighlightHover,
+    stateHighlightActive: stateHighlightActive,
+    stateDisabled: stateDisabled,
+    base__highlightActive: base__highlightActive,
+    content: content$3,
+  },
+  Button$1 = ({
+    children: e,
+    size: t,
+    disabled: n,
+    mixClass: r,
+    onMouseEnter: a,
+    onMouseMove: o,
+    onMouseDown: i,
+    onMouseUp: s,
+    onMouseLeave: l,
+    onClick: u,
+    isFocused: c = !1,
+    type: d = ButtonType.primary,
+    soundHover: f = "highlight",
+    soundClick: p = "play",
+  }) => {
+    const m = (0, import_react.useRef)(null),
+      [h, g] = (0, import_react.useState)(c),
+      [b, v] = (0, import_react.useState)(!1);
+    return (
+      (0, import_react.useEffect)(() => {
+        function e(e) {
+          h && null !== m.current && !m.current.contains(e.target) && g(!1);
+        }
+        return (
+          document.addEventListener("mousedown", e),
+          () => {
+            document.removeEventListener("mousedown", e);
+          }
+        );
+      }, [h]),
+      (0, import_react.useEffect)(() => {
+        g(c);
+      }, [c]),
+      (0, import_jsx_runtime.jsxs)("div", {
+        ref: m,
+        className: (0, import_classnames.default)(
+          CButton_module_default.base,
+          CButton_module_default[`base__${d}`],
+          n && CButton_module_default.base__disabled,
+          t && CButton_module_default[`base__${t}`],
+          h && CButton_module_default.base__focus,
+          b && CButton_module_default.base__highlightActive,
+          r,
+        ),
+        onMouseEnter: function (e) {
+          n || (null !== f && playSound(f), a && a(e));
+        },
+        onMouseMove: function (e) {
+          o && o(e);
+        },
+        onMouseUp: function (e) {
+          n || (s && s(e), v(!1));
+        },
+        onMouseDown: function (e) {
+          if (n) return;
+          const t = e.button === MOUSE_BUTTON_CODES.LEFT;
+          (null !== p && t && playSound(p),
+            i && i(e),
+            c && (n || (m.current && (m.current.focus(), g(!0)))),
+            t && v(!0));
+        },
+        onMouseLeave: function (e) {
+          n || (l && l(e), v(!1));
+        },
+        onClick: function (e) {
+          n || (u && u(e));
+        },
+        children: [
+          d !== ButtonType.ghost &&
+            (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, {
+              children: [
+                (0, import_jsx_runtime.jsx)("div", { className: CButton_module_default.back }),
+                (0, import_jsx_runtime.jsx)("span", { className: CButton_module_default.texture }),
+              ],
+            }),
+          (0, import_jsx_runtime.jsxs)("span", {
+            className: (0, import_classnames.default)(
+              CButton_module_default.state,
+              CButton_module_default.state__default,
+            ),
+            children: [
+              (0, import_jsx_runtime.jsx)("span", {
+                className: CButton_module_default.stateDisabled,
+              }),
+              (0, import_jsx_runtime.jsx)("span", {
+                className: CButton_module_default.stateHighlightHover,
+              }),
+              (0, import_jsx_runtime.jsx)("span", {
+                className: CButton_module_default.stateHighlightActive,
+              }),
+            ],
+          }),
+          (0, import_jsx_runtime.jsx)("span", {
+            className: CButton_module_default.content,
+            lang: R.strings.settings.LANGUAGE_CODE(),
+            children: e,
+          }),
+        ],
+      })
     );
   },
+  CButton = Button$1,
   ClickOutsideManager$1 = class e {
     entries = [];
     _listenMouse = !1;
@@ -23196,8 +22901,439 @@ var SystemLocale = {
     SystemLocale: SystemLocale,
     UserLocale: UserLocale,
   };
+function getNumberFormatType(e) {
+  return "gold" === e ? NumberFormatType.GOLD : NumberFormatType.INTEGRAL;
+}
 window.ViewEnvHelper = ViewEnvHelper;
-var SHOW_DELAY_MIN = 100,
+var FormatNumber = ({ value: e, format: t = "integral" }) => {
+    const n = getNumberFormatType(t),
+      r = SystemLocale.getNumberFormat(e, n);
+    return void 0 !== e && void 0 !== r ? r : null;
+  },
+  RewardType = (function (e) {
+    return (
+      (e.Items = "items"),
+      (e.Equipment = "equipment"),
+      (e.Xp = "xp"),
+      (e.XpFactor = "xpFactor"),
+      (e.Blueprints = "blueprints"),
+      (e.BlueprintsAny = "blueprintsAny"),
+      (e.Goodies = "goodies"),
+      (e.Berths = "berths"),
+      (e.Slots = "slots"),
+      (e.Tokens = "tokens"),
+      (e.CrewSkins = "crewSkins"),
+      (e.CrewBooks = "crewBooks"),
+      (e.Customizations = "customizations"),
+      (e.CreditsFactor = "creditsFactor"),
+      (e.Tankman = "tankman"),
+      (e.Tankwoman = "tankwoman"),
+      (e.TankmenXp = "tankmenXP"),
+      (e.TankmenXpFactor = "tankmenXPFactor"),
+      (e.FreeXpFactor = "freeXPFactor"),
+      (e.BattleToken = "battleToken"),
+      (e.PremiumUniversal = "premium_universal"),
+      (e.Gold = "gold"),
+      (e.Credits = "credits"),
+      (e.Crystal = "crystal"),
+      (e.FreeXp = "freeXP"),
+      (e.Premium = "premium"),
+      (e.PremiumPlus = "premium_plus"),
+      (e.BattlePassPoints = "battlePassPoints"),
+      (e.BattlePassSelectToken = "battlePassSelectToken"),
+      (e.BattlePassTicket = "lootBox_commonTicket"),
+      (e.BattlePassTaler = "bptaler"),
+      (e.StyleProgressToken = "styleProgressToken"),
+      (e.TmanToken = "tmanToken"),
+      (e.NaturalCover = "naturalCover"),
+      (e.BpCoin = "bpcoin"),
+      (e.BattlaPassFinalAchievement = "dossier_achievement"),
+      (e.BattleBadge = "dossier_badge"),
+      (e.BonusX5 = "battle_bonus_x5"),
+      (e.CrewBonusX3 = "crew_bonus_x3"),
+      (e.Vehicles = "vehicles"),
+      (e.EpicSelectToken = "epicSelectToken"),
+      (e.Comp7TokenWeeklyReward = "comp7TokenWeeklyReward"),
+      (e.DeluxeGift = "deluxe_gift"),
+      (e.BattleBoosterGift = "battleBooster_gift"),
+      (e.ModernizedDevicesT1Gift = "modernized_devices_t1_gift"),
+      (e.ModernizedDevicesT2Gift = "modernized_devices_t2_gift"),
+      (e.ModernizedDevicesT3Gift = "modernized_devices_t3_gift"),
+      (e.OptionalDevice = "optionalDevice"),
+      (e.EquipCoin = "equipCoin"),
+      (e.LootBox = "lootBox"),
+      (e.BrCoin = "brcoin"),
+      (e.Attachment = "attachment"),
+      (e.Pet = "pet"),
+      e
+    );
+  })({}),
+  BonusNames = (function (e) {
+    return (
+      (e.Gold = "gold"),
+      (e.Credits = "credits"),
+      (e.Crystal = "crystal"),
+      (e.Premium = "premium"),
+      (e.PremiumPlus = "premium_plus"),
+      (e.Vehicles = "vehicles"),
+      (e.Customizations = "customizations"),
+      (e.Blueprints = "blueprints"),
+      (e.BlueprintsAny = "blueprintsAny"),
+      (e.BlueprintsFinal = "finalBlueprints"),
+      (e.Goodies = "goodies"),
+      (e.CrewSkins = "crewSkins"),
+      (e.Xp = "xp"),
+      (e.XpFactor = "xpFactor"),
+      (e.FreeXp = "freeXP"),
+      (e.FreeXPFactor = "freeXPFactor"),
+      (e.TankmenXP = "tankmenXP"),
+      (e.TankmenXPFactor = "tankmenXPFactor"),
+      (e.DailyXPFactor = "dailyXPFactor"),
+      (e.CreditsFactor = "creditsFactor"),
+      (e.Items = "items"),
+      (e.StrBonus = "strBonus"),
+      (e.Groups = "groups"),
+      (e.Berths = "berths"),
+      (e.Slots = "slots"),
+      (e.Meta = "meta"),
+      (e.Tokens = "tokens"),
+      (e.Dossier = "dossier"),
+      (e.OneOf = "oneof"),
+      (e.PremiumUniversal = "premium_universal"),
+      (e.BadgesGroup = "badgesGroup"),
+      (e.Entitlements = "entitlements"),
+      (e.RankedDailyBattles = "rankedDailyBattles"),
+      (e.RankedBonusBattles = "rankedBonusBattles"),
+      (e.BattlePassPoints = "battlePassPoints"),
+      (e.BattleBadge = "dossier_badge"),
+      (e.BattleAchievement = "dossier_achievement"),
+      (e.EquipCoin = "equipCoin"),
+      e
+    );
+  })({}),
+  ImageSize = (function (e) {
+    return (
+      (e.Big = "big"),
+      (e.Small = "small"),
+      (e.Mini = "mini"),
+      (e.S600x450 = "s600x450"),
+      (e.S400x300 = "s400x300"),
+      (e.S296x222 = "s296x222"),
+      (e.S232x174 = "s232x174"),
+      (e.S180x135 = "s180x135"),
+      (e.S128x100 = "s128x100"),
+      (e.S80x80 = "s80x80"),
+      (e.S64x64 = "s64x64"),
+      (e.S48x48 = "s48x48"),
+      e
+    );
+  })({}),
+  ValueTypes = (function (e) {
+    return (
+      (e.MULTI = "multi"),
+      (e.CURRENCY = "currency"),
+      (e.PREMIUM_PLUS = "premium_plus"),
+      (e.NUMBER = "number"),
+      (e.STRING = "string"),
+      e
+    );
+  })({}),
+  Specials = (function (e) {
+    return (
+      (e.ATTACHMENT_RARE = "rare"),
+      (e.ATTACHMENT_EPIC = "epic"),
+      (e.ATTACHMENT_LEGENDARY = "legendary"),
+      (e.BATTLE_BOOSTER = "battleBooster"),
+      (e.BATTLE_BOOSTER_REPLACE = "battleBoosterReplace"),
+      (e.BUILT_IN_EQUIPMENT = "builtInEquipment"),
+      (e.EQUIPMENT_PLUS = "equipmentPlus"),
+      (e.EQUIPMENT_TROPHY_BASIC = "equipmentTrophyBasic"),
+      (e.EQUIPMENT_TROPHY_UPGRADED = "equipmentTrophyUpgraded"),
+      (e.EQUIPMENT_MODERNIZED_UPGRADED_1 = "equipmentModernized_1"),
+      (e.EQUIPMENT_MODERNIZED_UPGRADED_2 = "equipmentModernized_2"),
+      (e.EQUIPMENT_MODERNIZED_UPGRADED_3 = "equipmentModernized_3"),
+      (e.PROGRESSION_STYLE_UPGRADED_1 = "progressionStyleUpgraded_1"),
+      (e.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
+      (e.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
+      (e.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"),
+      (e.PROGRESSION_STYLE_UPGRADED_5 = "progressionStyleUpgraded_5"),
+      (e.PROGRESSION_STYLE_UPGRADED_6 = "progressionStyleUpgraded_6"),
+      e
+    );
+  })({}),
+  HighlightClasses = (function (e) {
+    return ((e.BATTLE_BOOSTER = "battleBooster"), e);
+  })({}),
+  OverlayClasses = (function (e) {
+    return (
+      (e.ATTACHMENT_RARE = "rare"),
+      (e.ATTACHMENT_EPIC = "epic"),
+      (e.ATTACHMENT_LEGENDARY = "legendary"),
+      (e.BATTLE_BOOSTER = "battleBooster"),
+      (e.BATTLE_BOOSTER_REPLACE = "battleBoosterReplace"),
+      (e.BUILT_IN_EQUIPMENT = "builtInEquipment"),
+      (e.EQUIPMENT_PLUS = "equipmentPlus"),
+      (e.EQUIPMENT_TROPHY_BASIC = "equipmentTrophyBasic"),
+      (e.EQUIPMENT_TROPHY_UPGRADED = "equipmentTrophyUpgraded"),
+      (e.EQUIPMENT_MODERNIZED_UPGRADED_1 = "equipmentModernized_1"),
+      (e.EQUIPMENT_MODERNIZED_UPGRADED_2 = "equipmentModernized_2"),
+      (e.EQUIPMENT_MODERNIZED_UPGRADED_3 = "equipmentModernized_3"),
+      (e.PROGRESSION_STYLE_UPGRADED_1 = "progressionStyleUpgraded_1"),
+      (e.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
+      (e.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
+      (e.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"),
+      (e.PROGRESSION_STYLE_UPGRADED_5 = "progressionStyleUpgraded_5"),
+      (e.PROGRESSION_STYLE_UPGRADED_6 = "progressionStyleUpgraded_6"),
+      e
+    );
+  })({}),
+  NORMALIZE_OVERLAYS_LIST = ["attachment"],
+  multiValueTypes = [
+    RewardType.Items,
+    RewardType.Equipment,
+    RewardType.Xp,
+    RewardType.XpFactor,
+    RewardType.Blueprints,
+    RewardType.BlueprintsAny,
+    RewardType.Goodies,
+    RewardType.Berths,
+    RewardType.Slots,
+    RewardType.Tokens,
+    RewardType.CrewSkins,
+    RewardType.CrewBooks,
+    RewardType.Customizations,
+    RewardType.CreditsFactor,
+    RewardType.TankmenXp,
+    RewardType.TankmenXpFactor,
+    RewardType.FreeXpFactor,
+    RewardType.BattleToken,
+    RewardType.LootBox,
+    RewardType.PremiumUniversal,
+    RewardType.NaturalCover,
+    RewardType.BpCoin,
+    RewardType.BattlePassSelectToken,
+    RewardType.BattlaPassFinalAchievement,
+    RewardType.BattleBadge,
+    RewardType.BattlePassTicket,
+    RewardType.BonusX5,
+    RewardType.CrewBonusX3,
+    RewardType.EpicSelectToken,
+    RewardType.Comp7TokenWeeklyReward,
+    RewardType.DeluxeGift,
+    RewardType.ModernizedDevicesT1Gift,
+    RewardType.ModernizedDevicesT2Gift,
+    RewardType.ModernizedDevicesT3Gift,
+    RewardType.BattleBoosterGift,
+    RewardType.OptionalDevice,
+    RewardType.Attachment,
+    RewardType.TmanToken,
+  ],
+  currencyValueTypes = [RewardType.Gold, RewardType.Credits, RewardType.Crystal, RewardType.FreeXp],
+  numberValueTypes = [RewardType.BattlePassPoints, RewardType.EquipCoin],
+  premiumValueTypes = [RewardType.PremiumPlus, RewardType.Premium],
+  getSizeFolder = (e) => {
+    switch (e) {
+      case ImageSize.S600x450:
+        return "c_600x450";
+      case ImageSize.S400x300:
+        return "c_400x300";
+      case ImageSize.S296x222:
+        return "c_296x222";
+      case ImageSize.S232x174:
+        return "c_232x174";
+      case ImageSize.Big:
+        return "c_80x80";
+      case ImageSize.Small:
+        return "c_48x48";
+      default:
+        return e;
+    }
+  },
+  getRewardValueType = (e) =>
+    multiValueTypes.includes(e)
+      ? ValueTypes.MULTI
+      : currencyValueTypes.includes(e)
+        ? ValueTypes.CURRENCY
+        : numberValueTypes.includes(e)
+          ? ValueTypes.NUMBER
+          : premiumValueTypes.includes(e)
+            ? ValueTypes.PREMIUM_PLUS
+            : ValueTypes.STRING,
+  DOG_TAG_FOLDER_NAMES = ["engravings", "backgrounds"],
+  DOG_TAG_DEFAULT_ICON_NAME = ["engraving", "background"],
+  getDogTypeImage = (e, t, n) => {
+    const r = DOG_TAG_FOLDER_NAMES[e];
+    if (r) {
+      const a = R.images.gui.maps.icons.dogtags.$dyn(t).$dyn(r),
+        o = a.$dyn(n);
+      return o ? `${o}` : `${a.$dyn(DOG_TAG_DEFAULT_ICON_NAME[e])}`;
+    }
+    return (
+      console.error(
+        "Unreachable branch: add dogTagType and icon folder for corresponding icon matching",
+      ),
+      ""
+    );
+  },
+  getRewardImage = (e, t = ImageSize.Small) => {
+    const { name: n, type: r, value: a, icon: o, item: i, dogTagType: s } = e,
+      l = getSizeFolder(t);
+    switch (n) {
+      case "basic":
+      case "plus":
+        return `R.images.gui.maps.icons.quests.bonuses.${t}.${r}_${a}`;
+      case "premium":
+      case "premium_plus":
+        return `R.images.gui.maps.icons.quests.bonuses.${t}.${n}_${a}`;
+      case "items":
+        return `R.images.gui.maps.icons.quests.bonuses.${t}.${i}`;
+      case "blueprints":
+      case "blueprintsAny":
+      case "finalBlueprints":
+        return `R.images.gui.maps.icons.blueprints.fragment.${t}.${o}`;
+      case "tokens":
+      case "lootBox":
+      case "battleToken":
+        return "big" === t
+          ? e.iconBig.replace("..", "img://gui")
+          : e.iconSmall.replace("..", "img://gui");
+      case "customizations":
+      case "styleProgress":
+      case "crewSkins":
+      case "goodies":
+      case "groups":
+      case "tmanToken":
+      case "battlePassSelectToken":
+      case "pet":
+        return `R.images.gui.maps.icons.quests.bonuses.${t}.${o}`;
+      case "crewBooks":
+        return `R.images.gui.maps.icons.crewBooks.books.${t}.${o}`;
+      case "dogTagComponents":
+        return getDogTypeImage(s, t, o);
+      case "dossier_badge":
+        return `R.images.gui.maps.icons.quests.bonuses.badges.${l}.${o}`;
+      case "dossier_achievement":
+        return `R.images.gui.maps.icons.achievement.${l}.${o}`;
+      case "xp":
+      case "xpFactor":
+        return `R.images.gui.maps.icons.quests.bonuses.${t}.exp`;
+      case "creditsFactor":
+        return `R.images.gui.maps.icons.quests.bonuses.${t}.credits`;
+      case "tankmenXPFactor":
+        return `R.images.gui.maps.icons.quests.bonuses.${t}.tankmenXP`;
+      case "dailyXPFactor":
+      case "freeXPFactor":
+        return `R.images.gui.maps.icons.quests.bonuses.${t}.freeXP`;
+      case "premiumTank":
+        return `R.images.gui.maps.icons.quests.bonuses.${t}.vehicles`;
+      case "styleProgressToken":
+        return `R.images.gui.maps.icons.quests.bonuses.${t}.style_3d`;
+      case "collectionItem":
+        return `R.images.gui.maps.icons.collectionItems.${l}.${o}`;
+      case "attachment":
+        return `R.images.gui.maps.vehicles.attachments.${t}.${o}`;
+      case "statTracker":
+        return `R.images.gui.maps.vehicles.statTrackers.${t}.${o}`;
+      default:
+        return `R.images.gui.maps.icons.quests.bonuses.${t}.${n}`;
+    }
+  },
+  getRewardTooltipConfig = (e, t, n) => {
+    const r = t && { contentId: t };
+    return {
+      args: e,
+      isEnabled: Boolean((e && e.tooltipId) || t),
+      ignoreMouseClick: !0,
+      ignoreShowDelay: !t,
+      ...r,
+      ...n,
+    };
+  },
+  SIZES_WITH_BOTTOM_HIGHLIGHT = [ImageSize.Small, ImageSize.Big],
+  getBottomHighlight = (e, t) => {
+    if (void 0 === t || !SIZES_WITH_BOTTOM_HIGHLIGHT.includes(e)) return null;
+    switch (t) {
+      case Specials.BATTLE_BOOSTER:
+      case Specials.BATTLE_BOOSTER_REPLACE:
+        return HighlightClasses.BATTLE_BOOSTER;
+    }
+  },
+  getOverlay = (e) => {
+    if (void 0 === e) return null;
+    switch (e) {
+      case Specials.BATTLE_BOOSTER:
+        return OverlayClasses.BATTLE_BOOSTER;
+      case Specials.BATTLE_BOOSTER_REPLACE:
+        return OverlayClasses.BATTLE_BOOSTER_REPLACE;
+      case Specials.BUILT_IN_EQUIPMENT:
+        return OverlayClasses.BUILT_IN_EQUIPMENT;
+      case Specials.EQUIPMENT_PLUS:
+        return OverlayClasses.EQUIPMENT_PLUS;
+      case Specials.EQUIPMENT_TROPHY_BASIC:
+        return OverlayClasses.EQUIPMENT_TROPHY_BASIC;
+      case Specials.EQUIPMENT_TROPHY_UPGRADED:
+        return OverlayClasses.EQUIPMENT_TROPHY_UPGRADED;
+      case Specials.EQUIPMENT_MODERNIZED_UPGRADED_1:
+        return OverlayClasses.EQUIPMENT_MODERNIZED_UPGRADED_1;
+      case Specials.EQUIPMENT_MODERNIZED_UPGRADED_2:
+        return OverlayClasses.EQUIPMENT_MODERNIZED_UPGRADED_2;
+      case Specials.EQUIPMENT_MODERNIZED_UPGRADED_3:
+        return OverlayClasses.EQUIPMENT_MODERNIZED_UPGRADED_3;
+      case Specials.PROGRESSION_STYLE_UPGRADED_1:
+        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_1;
+      case Specials.PROGRESSION_STYLE_UPGRADED_2:
+        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_2;
+      case Specials.PROGRESSION_STYLE_UPGRADED_3:
+        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_3;
+      case Specials.PROGRESSION_STYLE_UPGRADED_4:
+        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_4;
+      case Specials.PROGRESSION_STYLE_UPGRADED_5:
+        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_5;
+      case Specials.PROGRESSION_STYLE_UPGRADED_6:
+        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_6;
+      case Specials.ATTACHMENT_RARE:
+        return OverlayClasses.ATTACHMENT_RARE;
+      case Specials.ATTACHMENT_EPIC:
+        return OverlayClasses.ATTACHMENT_EPIC;
+      case Specials.ATTACHMENT_LEGENDARY:
+        return OverlayClasses.ATTACHMENT_LEGENDARY;
+    }
+  },
+  getFormattedValue = (e, t) => {
+    if (void 0 === e) return null;
+    switch (t) {
+      case ValueTypes.MULTI: {
+        const t = Number(e);
+        return isFinite(t) && t > 1 ? `x${Math.floor(t)}` : null;
+      }
+      case ValueTypes.CURRENCY:
+      case ValueTypes.NUMBER:
+        return (0, import_jsx_runtime.jsx)(FormatNumber, { format: "integral", value: Number(e) });
+      case ValueTypes.PREMIUM_PLUS: {
+        const t = Number(e);
+        return isNaN(t) ? e : null;
+      }
+      default:
+        return e;
+    }
+  },
+  getFromCallStack = (e = 1) => {
+    const t = new Error().stack;
+    let n,
+      r = R.invalid("resId"),
+      a = "";
+    return (
+      t &&
+        ((a = t.match(/(coui:\/\/[^\s]+\.js)/)?.[0] || ""),
+        (n = t.split("\n")[e].split(".js")[0].split("/").pop() || ""),
+        window.__feature &&
+          window.__feature !== n &&
+          window.subViews[n] &&
+          (r = window.subViews[n].id)),
+      { callerUrl: a, caller: n, stack: t, resId: r }
+    );
+  },
+  SHOW_DELAY_MIN = 100,
   SHOW_DELAY_DEFAULT = 400;
 function getViewEventArguments(e) {
   return Object.entries(e || {}).map(([e, t]) => {
@@ -23365,6 +23501,468 @@ var handleViewEvent = (e, t, n = {}, r = 0) => {
       ? (0, import_jsx_runtime.jsx)(Tooltip, { ...t, contentId: a, children: r })
       : (0, import_jsx_runtime.jsx)(BackportTooltip, { ...t, children: r });
   },
+  NodeTypes = { Text: 1, Tag: 2, Var: 3 };
+function parseArguments(e) {
+  const t = [];
+  let n = "",
+    r = !1,
+    a = !1,
+    o = "";
+  for (let i = 0; i < e.length; i++) {
+    const s = e[i];
+    ("'" !== s && '"' !== s) || a || r
+      ? s === o && a
+        ? ((a = !1), (n += s))
+        : "(" !== s || a
+          ? ")" === s && r && !a
+            ? ((r = !1), (n += s))
+            : " " !== s || r || a
+              ? (n += s)
+              : n && (t.push(n), (n = ""))
+          : ((r = !0), (n += s))
+      : ((a = !0), (o = s), (n += s));
+  }
+  return (n && t.push(n), t);
+}
+function parse$1(e, t) {
+  const n = [],
+    r = [];
+  let a = "",
+    o = !1,
+    i = "",
+    s = 0;
+  for (let l = 0; l < e.length; l++) {
+    const u = e[l];
+    if (u === t.start[0] && e.slice(l, l + t.start.length) === t.start)
+      (a &&
+        (r.length > 0
+          ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
+          : n.push({ type: NodeTypes.Text, value: a }),
+        (a = "")),
+        (o = !0),
+        (l += t.start.length - 1));
+    else if (u === t.end[0] && e.slice(l, l + t.end.length) === t.end) {
+      ((o = !1), (l += t.end.length - 1));
+      const e = i.trim();
+      if (e.startsWith("@")) {
+        const t = e.slice(1).trim(),
+          a = { type: NodeTypes.Tag, attrs: t.split("|"), instanceId: ++s, children: [] };
+        (r.length > 0 ? r[r.length - 1].node.children.push(a) : n.push(a),
+          r.push({ node: a, startIndex: n.length }));
+      } else if ("/" === e) r.length > 0 && r.pop();
+      else {
+        const t = { type: NodeTypes.Var, instanceId: ++s, name: e };
+        r.length > 0 ? r[r.length - 1].node.children.push(t) : n.push(t);
+      }
+      i = "";
+    } else o ? (i += u) : (a += u);
+  }
+  return (
+    a &&
+      (r.length
+        ? r[r.length - 1].node.children.push({ type: NodeTypes.Text, value: a })
+        : n.push({ type: NodeTypes.Text, value: a })),
+    n
+  );
+}
+var COLORS =
+    "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
+  base$13 = "FormatText_db904f12",
+  base__fullSize = "FormatText_base__fullSize_a514958e",
+  nowrap = "FormatText_nowrap_ff69eca3",
+  format_text_module_default = {
+    COLORS: COLORS,
+    base: base$13,
+    base__fullSize: base__fullSize,
+    nowrap: nowrap,
+  },
+  legacyColors = new Set(format_text_module_default.COLORS?.split(", ") ?? []),
+  keyId = 0;
+function takeKey() {
+  return ++keyId;
+}
+var startsWithPunctuationRe =
+  /^[*"'ー.,、。，:;：；！？》」•%)(!?\u0EAF\u0E3B\u0E3F\u0E31\u0E32\u0E33\u0E47-\u0E4F\u0E5A-\u0E5F\u0E00-\u0E7F\u3000-\u303F\uFF00-\uFFEF\]]/u;
+function splitString(e) {
+  const t = resources.resolve("langCode");
+  return addSpaceAndMap(
+    splitLocale(e, t),
+    t,
+    (e, t) => e && (0, import_jsx_runtime.jsx)("span", { children: e }, `${e}${t}`),
+  );
+}
+function splitArray(e) {
+  const t = [];
+  for (let n = 0; n < e.length; n++) {
+    const r = e[n],
+      a = e[n + 1];
+    if ("string" != typeof a || !startsWithPunctuationRe.test(a)) {
+      t.push(split(r));
+      continue;
+    }
+    const o = splitString(a.slice(1));
+    (t.push(
+      (0, import_jsx_runtime.jsxs)(
+        import_react.Fragment,
+        {
+          children: [
+            (0, import_jsx_runtime.jsxs)("span", {
+              className: format_text_module_default.nowrap,
+              children: [split(r), a[0]],
+            }),
+            o,
+          ],
+        },
+        takeKey(),
+      ),
+    ),
+      (n += 1));
+  }
+  return t;
+}
+function split(e) {
+  return Array.isArray(e)
+    ? splitArray(e)
+    : "string" == typeof e
+      ? (0, import_jsx_runtime.jsx)(import_react.Fragment, { children: splitString(e) }, takeKey())
+      : e;
+}
+function style$1(e, ...t) {
+  return (0, import_jsx_runtime.jsx)(
+    "span",
+    {
+      style: t.reduce((n, r) => {
+        if (Array.isArray(r)) {
+          const [e, t] = r;
+          return ((n[e] = t), n);
+        }
+        return (console.warn(`Invalid argument ${r} in ${e}: ${t}`), n);
+      }, {}),
+      children: e,
+    },
+    takeKey(),
+  );
+}
+function className$1(e, ...t) {
+  return (0, import_jsx_runtime.jsx)(
+    "span",
+    { className: t.filter((e) => "string" == typeof e && e.length > 0).join(" "), children: e },
+    takeKey(),
+  );
+}
+var color = (e, t) => ["color", t],
+  fontSize = (e, t) => ["fontSize", t],
+  fontWeight = (e, t) => ["fontWeight", t],
+  textDecoration = (e, t) => ["textDecoration", t],
+  bold = (e) => ["fontWeight", "bold"];
+function colorLegacy(e, t) {
+  const n = takeKey();
+  return legacyColors.has(String(t))
+    ? (0, import_jsx_runtime.jsx)(
+        "span",
+        { className: `FormatText_colorLegacy__${t}`, children: e },
+        n,
+      )
+    : (0, import_jsx_runtime.jsx)("span", { style: { color: `#${t}` }, children: e }, n);
+}
+var defaultFormatters = {
+  class: className$1,
+  colorLegacy: colorLegacy,
+  bold: bold,
+  split: split,
+  style: style$1,
+  color: color,
+  fontSize: fontSize,
+  fontWeight: fontWeight,
+  textDecoration: textDecoration,
+};
+function applyFunction(e, t, n, r) {
+  const a = n.map((t) => {
+      if ("string" != typeof t) return t;
+      const n = t.trim();
+      if (n.startsWith("(") && n.endsWith(")")) {
+        const [t, ...a] = n.slice(1, -1).split(" ");
+        return t ? applyFunction(e, t, a, r) : e;
+      }
+      return n.startsWith("'") && n.endsWith("'") ? n.slice(1, -1) : n;
+    }),
+    o = r[t];
+  return o ? o(e, ...a) : (console.error(`Function ${t} is not registered`), e);
+}
+function applyFunctions(e, t, n) {
+  return e.reduce((e, t) => {
+    const [r, ...a] = parseArguments(t.trim());
+    return r ? applyFunction(e, r, a, n) : e;
+  }, t);
+}
+function isEnd(e) {
+  return !((e >= "a" && e <= "z") || (e >= "A" && e <= "Z") || (e >= "0" && e <= "9") || "_" === e);
+}
+function resolveAttrParams(e, t) {
+  for (let n = 0; n < e.length; n++)
+    if ("$" === e[n]) {
+      let r = n + 1;
+      for (; r < e.length && !isEnd(e[r]);) r++;
+      const a = e.slice(n + 1, r),
+        o = t[a];
+      if (o) return resolveAttrParams(e.replace(`$${a}`, String(o)), t);
+    }
+  return e;
+}
+function resolveAttrsParams(e, t) {
+  const n = [];
+  for (let r = 0; r < e.length; r++) n[r] = resolveAttrParams(e[r], t);
+  return n;
+}
+var primitives = ["number", "string", "undefined"];
+function render$1(e, t, n = {}, r = !0) {
+  r && (keyId = 0);
+  const a = [];
+  function o(e) {
+    if (primitives.includes(typeof e)) {
+      const t = a.at(-1);
+      if ("string" == typeof t) return void (a[a.length - 1] = t + e);
+    }
+    a.push(e);
+  }
+  for (const i of e)
+    if (i.type === NodeTypes.Text) o(i.value);
+    else if (i.type === NodeTypes.Var)
+      null === n[i.name] || primitives.includes(typeof n[i.name])
+        ? o(n[i.name] ?? `{{${i.name}}}`)
+        : a.push(
+            (0, import_jsx_runtime.jsx)(
+              import_react.Fragment,
+              { children: n[i.name] },
+              `var-${i.name}-${i.instanceId}`,
+            ),
+          );
+    else if (i.type === NodeTypes.Tag) {
+      const e = render$1(i.children, t, n, !1),
+        r = applyFunctions(resolveAttrsParams(i.attrs, n), e, t);
+      a.push(r);
+    }
+  return a;
+}
+function upgradeColorTag(e) {
+  return e
+    .replace(
+      /%\(([a-zA-Z0-9]+)_(Open|Start)\)s(.+?)%\(\1_(Close|End)\)s/,
+      "{{@ colorLegacy '$1'}}$3{{/}}",
+    )
+    .replace(
+      /\{([a-zA-Z0-9]+)_(Open|Start)\}(.+?)\{\1_(Close|End)\}/gi,
+      "{{@ colorLegacy '$1'}}$3{{/}}",
+    );
+}
+function upgradeVariables(e) {
+  return e.replace(/%\((\w+|\d)\)(?:s|d)?/gi, "{{$1}}").replace(/(?<!\{)\{(\w+|\d)\}/g, "{{$1}}");
+}
+function upgradeSymbols(e) {
+  return e.replaceAll("&nbsp;", " ").replaceAll("&zwnbsp;", "\ufeff");
+}
+function upgradeLegacy(e) {
+  return pipe(e, upgradeSymbols, upgradeColorTag, upgradeVariables);
+}
+var defaultBrackets = { start: "{{", end: "}}" },
+  FormatText = (0, import_react.memo)(function (e) {
+    const {
+        brackets: t = defaultBrackets,
+        text: n,
+        params: r,
+        upgradeLegacy: a,
+        fullSize: o,
+        inline: i,
+        formatters: s,
+        split: l,
+        ...u
+      } = e,
+      c = (0, import_react.useMemo)(
+        () => (e.upgradeLegacy ? upgradeLegacy(e.text) : e.text),
+        [e.text, e.upgradeLegacy],
+      ),
+      d = (0, import_react.useMemo)(
+        () => (e.formatters ? { ...defaultFormatters, ...e.formatters } : defaultFormatters),
+        [e.formatters],
+      ),
+      f = (0, import_react.useMemo)(() => parse$1(l ? `{{@ split}}${c}{{/}}` : c, t), [t, c, l]),
+      p = (0, import_react.useMemo)(() => render$1(f, d, e.params), [f, d, e.params]),
+      m = clsx(
+        format_text_module_default.base,
+        o && format_text_module_default.base__fullSize,
+        u.className,
+      );
+    return e.inline
+      ? (console.warn(
+          "[FormatText] using the 'inline' props causes memory leaks due to incorrect working of the 'cohinline' attribute in GF version 1.48.2.3. Can cause client crashes.",
+          "Use 'split' prop instead.",
+        ),
+        (0, import_jsx_runtime.jsx)("p", {
+          ...u,
+          className: m,
+          ref: (e) => {
+            e?.setAttribute("cohinline", "true");
+          },
+          children: p,
+        }))
+      : (0, import_jsx_runtime.jsx)("span", { ...u, className: m, children: p });
+  });
+function FormatString({ path: e, ...t }) {
+  return (0, import_jsx_runtime.jsx)(FormatText, {
+    text: resources.resolve("strings").readOrEmpty(e),
+    ...t,
+  });
+}
+var base$12 = "Reward_c5dc614c",
+  base__s48x48 = "Reward_base__s48x48_ab59d545",
+  base__small$4 = "Reward_base__small_69779e9c",
+  base__s80x80 = "Reward_base__s80x80_ab59d545",
+  base__big$1 = "Reward_base__big_4733a488",
+  base__s128x100 = "Reward_base__s128x100_fb15aafa",
+  base__s180x135 = "Reward_base__s180x135_16cc707b",
+  base__s232x174 = "Reward_base__s232x174_e32aac73",
+  base__s296x222 = "Reward_base__s296x222_c9fbf416",
+  base__s400x300 = "Reward_base__s400x300_76ba5081",
+  base__s600x450 = "Reward_base__s600x450_aba4634a",
+  tooltipWrapper = "Reward_tooltipWrapper_5c2caa5a",
+  icon$3 = "Reward_icon_ae345d69",
+  overlay$1 = "Reward_overlay_ff0a7872",
+  base__normalize = "Reward_base__normalize_ab59d545",
+  highlight = "Reward_highlight_ac5e429a",
+  image = "Reward_image_d9c7ed84",
+  info = "Reward_info_29e76ef9",
+  info__multi = "Reward_info__multi_14b911c",
+  info__credits = "Reward_info__credits_a7e7bbe",
+  info__gold = "Reward_info__gold_c2d9d72c",
+  info__bptaler = "Reward_info__bptaler_ab59d545",
+  info__crystal = "Reward_info__crystal_ec55d024",
+  info__premiumTank = "Reward_info__premiumTank_67c21f6d",
+  title = "Reward_title_50579ad9",
+  timer = "Reward_timer_98cb5bca",
+  Reward_module_default = {
+    base: base$12,
+    base__s48x48: base__s48x48,
+    base__small: base__small$4,
+    base__s80x80: base__s80x80,
+    base__big: base__big$1,
+    base__s128x100: base__s128x100,
+    base__s180x135: base__s180x135,
+    base__s232x174: base__s232x174,
+    base__s296x222: base__s296x222,
+    base__s400x300: base__s400x300,
+    base__s600x450: base__s600x450,
+    tooltipWrapper: tooltipWrapper,
+    icon: icon$3,
+    overlay: overlay$1,
+    base__normalize: base__normalize,
+    highlight: highlight,
+    image: image,
+    info: info,
+    info__multi: info__multi,
+    info__credits: info__credits,
+    info__gold: info__gold,
+    info__bptaler: info__bptaler,
+    info__crystal: info__crystal,
+    info__premiumTank: info__premiumTank,
+    title: title,
+    timer: timer,
+  },
+  Reward = ({
+    name: e,
+    image: t,
+    isPeriodic: n = !1,
+    size: r = ImageSize.Big,
+    special: a,
+    value: o,
+    valueType: i,
+    title: s,
+    style: l,
+    className: u,
+    classNames: c,
+    tooltipArgs: d,
+    periodicIconTooltipArgs: f,
+  }) => {
+    const p = getBottomHighlight(r, a),
+      m = getOverlay(a),
+      h = getFormattedValue(o, i);
+    return (0, import_jsx_runtime.jsxs)("div", {
+      className: (0, import_classnames.default)(
+        Reward_module_default.base,
+        Reward_module_default[`base__${r}`],
+        NORMALIZE_OVERLAYS_LIST.includes(e) && Reward_module_default.base__normalize,
+        u,
+      ),
+      style: l,
+      children: [
+        (0, import_jsx_runtime.jsx)(DynamicTooltipWrapper, {
+          tooltipArgs: d,
+          className: Reward_module_default.tooltipWrapper,
+          children: (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, {
+            children: [
+              (0, import_jsx_runtime.jsxs)("div", {
+                className: (0, import_classnames.default)(Reward_module_default.image, c?.image),
+                children: [
+                  p &&
+                    (0, import_jsx_runtime.jsx)("div", {
+                      className: (0, import_classnames.default)(
+                        Reward_module_default.highlight,
+                        c?.highlight,
+                      ),
+                      style: {
+                        backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${p}_highlight)`,
+                      },
+                    }),
+                  t &&
+                    (0, import_jsx_runtime.jsx)("div", {
+                      className: (0, import_classnames.default)(
+                        Reward_module_default.icon,
+                        c?.rewardIcon,
+                      ),
+                      style: { backgroundImage: `url(${t})` },
+                    }),
+                  m &&
+                    (0, import_jsx_runtime.jsx)("div", {
+                      className: (0, import_classnames.default)(
+                        Reward_module_default.overlay,
+                        c?.overlay,
+                      ),
+                      style: {
+                        backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${m}_overlay)`,
+                      },
+                    }),
+                ],
+              }),
+              h &&
+                (0, import_jsx_runtime.jsx)("div", {
+                  className: (0, import_classnames.default)(
+                    Reward_module_default.info,
+                    Reward_module_default[`info__${e}`],
+                    i === ValueTypes.MULTI && Reward_module_default.info__multi,
+                    c?.info,
+                  ),
+                  children: h,
+                }),
+              s &&
+                (0, import_jsx_runtime.jsx)("div", {
+                  className: (0, import_classnames.default)(Reward_module_default.title, c?.title),
+                  children: s,
+                }),
+            ],
+          }),
+        }),
+        n &&
+          (0, import_jsx_runtime.jsx)(DynamicTooltipWrapper, {
+            tooltipArgs: f,
+            children: (0, import_jsx_runtime.jsx)("div", {
+              className: (0, import_classnames.default)(
+                Reward_module_default.timer,
+                c?.periodicIcon,
+              ),
+            }),
+          }),
+      ],
+    });
+  },
   InputType = { Default: "default", Search: "search", Email: "email", Password: "password" },
   InputVariant = {
     Normal: "normal",
@@ -23408,17 +24006,17 @@ function validateEmail(e) {
 function performDefaultValidation(e, t) {
   return t !== InputType.Email || validateEmail(e);
 }
-var base$12 = "Helpermessage_e43ecb4b",
+var base$11 = "Helpermessage_e43ecb4b",
   base__shown = "Helpermessage_base__shown_28b28c74",
-  icon$3 = "Helpermessage_icon_85f835c3",
+  icon$2 = "Helpermessage_icon_85f835c3",
   message = "Helpermessage_message_f2ba82e2",
   message__alert = "Helpermessage_message__alert_69e4761c",
   message__error = "Helpermessage_message__error_87d8a8a1",
   message__done = "Helpermessage_message__done_dd4f50f2",
   HelperMessage_module_default = {
-    base: base$12,
+    base: base$11,
     base__shown: base__shown,
-    icon: icon$3,
+    icon: icon$2,
     message: message,
     message__alert: message__alert,
     message__error: message__error,
@@ -23450,14 +24048,14 @@ var base$12 = "Helpermessage_e43ecb4b",
       ],
     });
   },
-  base$11 = "Inputcontrol_ef855555",
+  base$10 = "Inputcontrol_ef855555",
   base__focused = "Inputcontrol_base__focused_dbb7783b",
   base__alert = "Inputcontrol_base__alert_4288729",
   base__error = "Inputcontrol_base__error_b0980004",
   base__done = "Inputcontrol_base__done_420d2fbe",
   base__disabled$1 = "Inputcontrol_base__disabled_1443472e",
   input = "Inputcontrol_input_13480315",
-  base__small$4 = "Inputcontrol_base__small_95506303",
+  base__small$3 = "Inputcontrol_base__small_95506303",
   base__medium$2 = "Inputcontrol_base__medium_95506303",
   base__large$2 = "Inputcontrol_base__large_95506303",
   base__withIcon = "Inputcontrol_base__withIcon_95506303",
@@ -23465,18 +24063,18 @@ var base$12 = "Helpermessage_e43ecb4b",
   disabled = "Inputcontrol_disabled_ae37311b",
   placeholder = "Inputcontrol_placeholder_b37a5d38",
   placeholder__search = "Inputcontrol_placeholder__search_c228534f",
-  icon$2 = "Inputcontrol_icon_253aeaaf",
+  icon$1 = "Inputcontrol_icon_253aeaaf",
   icon__search = "Inputcontrol_icon__search_dc77e54f",
   clear = "Inputcontrol_clear_48eaf250",
   InputControl_module_default = {
-    base: base$11,
+    base: base$10,
     base__focused: base__focused,
     base__alert: base__alert,
     base__error: base__error,
     base__done: base__done,
     base__disabled: base__disabled$1,
     input: input,
-    base__small: base__small$4,
+    base__small: base__small$3,
     base__medium: base__medium$2,
     base__large: base__large$2,
     base__withIcon: base__withIcon,
@@ -23484,7 +24082,7 @@ var base$12 = "Helpermessage_e43ecb4b",
     disabled: disabled,
     placeholder: placeholder,
     placeholder__search: placeholder__search,
-    icon: icon$2,
+    icon: icon$1,
     icon__search: icon__search,
     clear: clear,
   },
@@ -23627,14 +24225,14 @@ var base$12 = "Helpermessage_e43ecb4b",
     });
   },
   InputControl = import_react.memo(ControlComponent),
-  base$10 = "Input_bb86d5c5",
-  base__small$3 = "Input_base__small_1baff0ec",
+  base$9 = "Input_bb86d5c5",
+  base__small$2 = "Input_base__small_1baff0ec",
   base__medium$1 = "Input_base__medium_8fb9a9d9",
   base__large$1 = "Input_base__large_ca84f140",
   helper = "Input_helper_7ec902d2",
   Input_module_default = {
-    base: base$10,
-    base__small: base__small$3,
+    base: base$9,
+    base__small: base__small$2,
     base__medium: base__medium$1,
     base__large: base__large$1,
     helper: helper,
@@ -23830,7 +24428,7 @@ var makeCancelable = (e) => {
       },
     };
   },
-  base$9 = "Popoverdecorator_a558c74b",
+  base$8 = "Popoverdecorator_a558c74b",
   decorator$1 = "Popoverdecorator_decorator_79bd913c",
   arrow = "Popoverdecorator_arrow_f2e5d047",
   arrow__bottom = "Popoverdecorator_arrow__bottom_7d41b48a",
@@ -23840,7 +24438,7 @@ var makeCancelable = (e) => {
   closeBtn = "Popoverdecorator_closeBtn_eaee89c3",
   content$2 = "Popoverdecorator_content_1624656c",
   PopoverDecorator_module_default = {
-    base: base$9,
+    base: base$8,
     decorator: decorator$1,
     arrow: arrow,
     arrow__bottom: arrow__bottom,
@@ -24292,7 +24890,7 @@ var Direction = (function (e) {
     forceTriggerMouseMove: env.view.forceTriggerMouseMove,
   },
   useHorizontalScrollApi = createApiHook(DEFAULT_HORIZONTAL_API_CONTEXT),
-  base$8 = "Horizontalbar_bdf22414",
+  base$7 = "Horizontalbar_bdf22414",
   base__active$1 = "Horizontalbar_base__active_5a3d92a0",
   leftButton = "Horizontalbar_leftButton_ba80ec4f",
   rightButton = "Horizontalbar_rightButton_847c1c78",
@@ -24300,7 +24898,7 @@ var Direction = (function (e) {
   thumb$1 = "Horizontalbar_thumb_9d4dd30f",
   rail$1 = "Horizontalbar_rail_b8667e3c",
   HorizontalBar_module_default = {
-    base: base$8,
+    base: base$7,
     base__active: base__active$1,
     leftButton: leftButton,
     rightButton: rightButton,
@@ -24444,7 +25042,7 @@ var Direction = (function (e) {
       [g],
     );
     const b = (e) => {
-      e.target.classList.contains(DISABLE_CLASS$1) || playSound$1("highlight");
+      e.target.classList.contains(DISABLE_CLASS$1) || playSound("highlight");
     };
     return (0, import_jsx_runtime.jsxs)("div", {
       className: (0, import_classnames.default)(HorizontalBar_module_default.base, t.base),
@@ -24459,7 +25057,7 @@ var Direction = (function (e) {
           onMouseDown: (e) => {
             e.target.classList.contains(DISABLE_CLASS$1) ||
               e.button !== MOUSE_BUTTON_LEFT$1 ||
-              (playSound$1("play"), h(Direction.Next));
+              (playSound("play"), h(Direction.Next));
           },
           onMouseUp: g,
           ref: o,
@@ -24471,7 +25069,7 @@ var Direction = (function (e) {
             const r = l.current;
             r &&
               t.button === MOUSE_BUTTON_LEFT$1 &&
-              (playSound$1("play"),
+              (playSound("play"),
               t.target === r
                 ? f({ pending: !0, offset: t.screenX - r.getBoundingClientRect().x })
                 : ((t) => {
@@ -24505,7 +25103,7 @@ var Direction = (function (e) {
           onMouseDown: (e) => {
             e.target.classList.contains(DISABLE_CLASS$1) ||
               e.button !== MOUSE_BUTTON_LEFT$1 ||
-              (playSound$1("play"), h(Direction.Prev));
+              (playSound("play"), h(Direction.Prev));
           },
           onMouseUp: g,
           ref: i,
@@ -24515,11 +25113,11 @@ var Direction = (function (e) {
     });
   },
   Bar$1 = (0, import_react.memo)(BarFC$1),
-  base$7 = "Horizontalscroll_f316f2c6",
+  base$6 = "Horizontalscroll_f316f2c6",
   wrapper = "Horizontalscroll_wrapper_a8daa0f5",
   defaultScrollArea = "Horizontalscroll_defaultScrollArea_a99fc00c",
   HorizontalScroll_module_default = {
-    base: base$7,
+    base: base$6,
     wrapper: wrapper,
     defaultScrollArea: defaultScrollArea,
   },
@@ -24608,7 +25206,7 @@ var DEFAULT_VERTICAL_API_CONTEXT = {
     getDirection: (e) => (e.deltaY > 1 ? Direction.Next : Direction.Prev),
   },
   useVerticalScrollApi = createApiHook(DEFAULT_VERTICAL_API_CONTEXT),
-  base$6 = "Verticalbar_89dc020b",
+  base$5 = "Verticalbar_89dc020b",
   base__active = "Verticalbar_base__active_1e0d5e44",
   topButton = "Verticalbar_topButton_1ce852b9",
   bottomButton = "Verticalbar_bottomButton_bc76d779",
@@ -24616,7 +25214,7 @@ var DEFAULT_VERTICAL_API_CONTEXT = {
   thumb = "Verticalbar_thumb_264988ce",
   rail = "Verticalbar_rail_85a58f07",
   VerticalBar_module_default = {
-    base: base$6,
+    base: base$5,
     base__active: base__active,
     topButton: topButton,
     bottomButton: bottomButton,
@@ -24765,7 +25363,7 @@ var DEFAULT_VERTICAL_API_CONTEXT = {
       [b],
     );
     const v = (e) => {
-      e.target.classList.contains(DISABLE_CLASS) || playSound$1("highlight");
+      e.target.classList.contains(DISABLE_CLASS) || playSound("highlight");
     };
     return (0, import_jsx_runtime.jsxs)("div", {
       className: (0, import_classnames.default)(VerticalBar_module_default.base, t.base),
@@ -24780,7 +25378,7 @@ var DEFAULT_VERTICAL_API_CONTEXT = {
           onMouseDown: (e) => {
             e.target.classList.contains(DISABLE_CLASS) ||
               e.button !== MOUSE_BUTTON_LEFT ||
-              (playSound$1("play"), g(Direction.Next));
+              (playSound("play"), g(Direction.Next));
           },
           ref: o,
           onMouseEnter: v,
@@ -24792,7 +25390,7 @@ var DEFAULT_VERTICAL_API_CONTEXT = {
             var a;
             r &&
               t.button === MOUSE_BUTTON_LEFT &&
-              (playSound$1("play"),
+              (playSound("play"),
               t.target === r
                 ? f({ pending: !0, offset: t.screenY - r.getBoundingClientRect().y })
                 : ((a = t.screenY > r.getBoundingClientRect().y ? Direction.Prev : Direction.Next),
@@ -24824,7 +25422,7 @@ var DEFAULT_VERTICAL_API_CONTEXT = {
           onMouseDown: (e) => {
             e.target.classList.contains(DISABLE_CLASS) ||
               e.button !== MOUSE_BUTTON_LEFT ||
-              (playSound$1("play"), g(Direction.Prev));
+              (playSound("play"), g(Direction.Prev));
           },
           onMouseUp: b,
           ref: i,
@@ -24908,422 +25506,7 @@ var DEFAULT_VERTICAL_API_CONTEXT = {
     })
   );
 Area.Default = DefaultScroll;
-var Scroll = { Vertical: VerticalScroll_exports, Horizontal: HorizontalScroll_exports };
-function getNumberFormatType(e) {
-  return "gold" === e ? NumberFormatType.GOLD : NumberFormatType.INTEGRAL;
-}
-var FormatNumber = ({ value: e, format: t = "integral" }) => {
-    const n = getNumberFormatType(t),
-      r = SystemLocale.getNumberFormat(e, n);
-    return void 0 !== e && void 0 !== r ? r : null;
-  },
-  RewardType = (function (e) {
-    return (
-      (e.Items = "items"),
-      (e.Equipment = "equipment"),
-      (e.Xp = "xp"),
-      (e.XpFactor = "xpFactor"),
-      (e.Blueprints = "blueprints"),
-      (e.BlueprintsAny = "blueprintsAny"),
-      (e.Goodies = "goodies"),
-      (e.Berths = "berths"),
-      (e.Slots = "slots"),
-      (e.Tokens = "tokens"),
-      (e.CrewSkins = "crewSkins"),
-      (e.CrewBooks = "crewBooks"),
-      (e.Customizations = "customizations"),
-      (e.CreditsFactor = "creditsFactor"),
-      (e.Tankman = "tankman"),
-      (e.Tankwoman = "tankwoman"),
-      (e.TankmenXp = "tankmenXP"),
-      (e.TankmenXpFactor = "tankmenXPFactor"),
-      (e.FreeXpFactor = "freeXPFactor"),
-      (e.BattleToken = "battleToken"),
-      (e.PremiumUniversal = "premium_universal"),
-      (e.Gold = "gold"),
-      (e.Credits = "credits"),
-      (e.Crystal = "crystal"),
-      (e.FreeXp = "freeXP"),
-      (e.Premium = "premium"),
-      (e.PremiumPlus = "premium_plus"),
-      (e.BattlePassPoints = "battlePassPoints"),
-      (e.BattlePassSelectToken = "battlePassSelectToken"),
-      (e.BattlePassTicket = "lootBox_commonTicket"),
-      (e.BattlePassTaler = "bptaler"),
-      (e.StyleProgressToken = "styleProgressToken"),
-      (e.TmanToken = "tmanToken"),
-      (e.NaturalCover = "naturalCover"),
-      (e.BpCoin = "bpcoin"),
-      (e.BattlaPassFinalAchievement = "dossier_achievement"),
-      (e.BattleBadge = "dossier_badge"),
-      (e.BonusX5 = "battle_bonus_x5"),
-      (e.CrewBonusX3 = "crew_bonus_x3"),
-      (e.Vehicles = "vehicles"),
-      (e.EpicSelectToken = "epicSelectToken"),
-      (e.Comp7TokenWeeklyReward = "comp7TokenWeeklyReward"),
-      (e.DeluxeGift = "deluxe_gift"),
-      (e.BattleBoosterGift = "battleBooster_gift"),
-      (e.ModernizedDevicesT1Gift = "modernized_devices_t1_gift"),
-      (e.ModernizedDevicesT2Gift = "modernized_devices_t2_gift"),
-      (e.ModernizedDevicesT3Gift = "modernized_devices_t3_gift"),
-      (e.OptionalDevice = "optionalDevice"),
-      (e.EquipCoin = "equipCoin"),
-      (e.LootBox = "lootBox"),
-      (e.BrCoin = "brcoin"),
-      (e.Attachment = "attachment"),
-      (e.Pet = "pet"),
-      e
-    );
-  })({}),
-  BonusNames = (function (e) {
-    return (
-      (e.Gold = "gold"),
-      (e.Credits = "credits"),
-      (e.Crystal = "crystal"),
-      (e.Premium = "premium"),
-      (e.PremiumPlus = "premium_plus"),
-      (e.Vehicles = "vehicles"),
-      (e.Customizations = "customizations"),
-      (e.Blueprints = "blueprints"),
-      (e.BlueprintsAny = "blueprintsAny"),
-      (e.BlueprintsFinal = "finalBlueprints"),
-      (e.Goodies = "goodies"),
-      (e.CrewSkins = "crewSkins"),
-      (e.Xp = "xp"),
-      (e.XpFactor = "xpFactor"),
-      (e.FreeXp = "freeXP"),
-      (e.FreeXPFactor = "freeXPFactor"),
-      (e.TankmenXP = "tankmenXP"),
-      (e.TankmenXPFactor = "tankmenXPFactor"),
-      (e.DailyXPFactor = "dailyXPFactor"),
-      (e.CreditsFactor = "creditsFactor"),
-      (e.Items = "items"),
-      (e.StrBonus = "strBonus"),
-      (e.Groups = "groups"),
-      (e.Berths = "berths"),
-      (e.Slots = "slots"),
-      (e.Meta = "meta"),
-      (e.Tokens = "tokens"),
-      (e.Dossier = "dossier"),
-      (e.OneOf = "oneof"),
-      (e.PremiumUniversal = "premium_universal"),
-      (e.BadgesGroup = "badgesGroup"),
-      (e.Entitlements = "entitlements"),
-      (e.RankedDailyBattles = "rankedDailyBattles"),
-      (e.RankedBonusBattles = "rankedBonusBattles"),
-      (e.BattlePassPoints = "battlePassPoints"),
-      (e.BattleBadge = "dossier_badge"),
-      (e.BattleAchievement = "dossier_achievement"),
-      (e.EquipCoin = "equipCoin"),
-      e
-    );
-  })({}),
-  ImageSize = (function (e) {
-    return (
-      (e.Big = "big"),
-      (e.Small = "small"),
-      (e.Mini = "mini"),
-      (e.S600x450 = "s600x450"),
-      (e.S400x300 = "s400x300"),
-      (e.S296x222 = "s296x222"),
-      (e.S232x174 = "s232x174"),
-      (e.S180x135 = "s180x135"),
-      (e.S128x100 = "s128x100"),
-      (e.S80x80 = "s80x80"),
-      (e.S64x64 = "s64x64"),
-      (e.S48x48 = "s48x48"),
-      e
-    );
-  })({}),
-  ValueTypes = (function (e) {
-    return (
-      (e.MULTI = "multi"),
-      (e.CURRENCY = "currency"),
-      (e.PREMIUM_PLUS = "premium_plus"),
-      (e.NUMBER = "number"),
-      (e.STRING = "string"),
-      e
-    );
-  })({}),
-  Specials = (function (e) {
-    return (
-      (e.ATTACHMENT_RARE = "rare"),
-      (e.ATTACHMENT_EPIC = "epic"),
-      (e.ATTACHMENT_LEGENDARY = "legendary"),
-      (e.BATTLE_BOOSTER = "battleBooster"),
-      (e.BATTLE_BOOSTER_REPLACE = "battleBoosterReplace"),
-      (e.BUILT_IN_EQUIPMENT = "builtInEquipment"),
-      (e.EQUIPMENT_PLUS = "equipmentPlus"),
-      (e.EQUIPMENT_TROPHY_BASIC = "equipmentTrophyBasic"),
-      (e.EQUIPMENT_TROPHY_UPGRADED = "equipmentTrophyUpgraded"),
-      (e.EQUIPMENT_MODERNIZED_UPGRADED_1 = "equipmentModernized_1"),
-      (e.EQUIPMENT_MODERNIZED_UPGRADED_2 = "equipmentModernized_2"),
-      (e.EQUIPMENT_MODERNIZED_UPGRADED_3 = "equipmentModernized_3"),
-      (e.PROGRESSION_STYLE_UPGRADED_1 = "progressionStyleUpgraded_1"),
-      (e.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
-      (e.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
-      (e.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"),
-      (e.PROGRESSION_STYLE_UPGRADED_5 = "progressionStyleUpgraded_5"),
-      (e.PROGRESSION_STYLE_UPGRADED_6 = "progressionStyleUpgraded_6"),
-      e
-    );
-  })({}),
-  HighlightClasses = (function (e) {
-    return ((e.BATTLE_BOOSTER = "battleBooster"), e);
-  })({}),
-  OverlayClasses = (function (e) {
-    return (
-      (e.ATTACHMENT_RARE = "rare"),
-      (e.ATTACHMENT_EPIC = "epic"),
-      (e.ATTACHMENT_LEGENDARY = "legendary"),
-      (e.BATTLE_BOOSTER = "battleBooster"),
-      (e.BATTLE_BOOSTER_REPLACE = "battleBoosterReplace"),
-      (e.BUILT_IN_EQUIPMENT = "builtInEquipment"),
-      (e.EQUIPMENT_PLUS = "equipmentPlus"),
-      (e.EQUIPMENT_TROPHY_BASIC = "equipmentTrophyBasic"),
-      (e.EQUIPMENT_TROPHY_UPGRADED = "equipmentTrophyUpgraded"),
-      (e.EQUIPMENT_MODERNIZED_UPGRADED_1 = "equipmentModernized_1"),
-      (e.EQUIPMENT_MODERNIZED_UPGRADED_2 = "equipmentModernized_2"),
-      (e.EQUIPMENT_MODERNIZED_UPGRADED_3 = "equipmentModernized_3"),
-      (e.PROGRESSION_STYLE_UPGRADED_1 = "progressionStyleUpgraded_1"),
-      (e.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
-      (e.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
-      (e.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"),
-      (e.PROGRESSION_STYLE_UPGRADED_5 = "progressionStyleUpgraded_5"),
-      (e.PROGRESSION_STYLE_UPGRADED_6 = "progressionStyleUpgraded_6"),
-      e
-    );
-  })({}),
-  NORMALIZE_OVERLAYS_LIST = ["attachment"],
-  multiValueTypes = [
-    RewardType.Items,
-    RewardType.Equipment,
-    RewardType.Xp,
-    RewardType.XpFactor,
-    RewardType.Blueprints,
-    RewardType.BlueprintsAny,
-    RewardType.Goodies,
-    RewardType.Berths,
-    RewardType.Slots,
-    RewardType.Tokens,
-    RewardType.CrewSkins,
-    RewardType.CrewBooks,
-    RewardType.Customizations,
-    RewardType.CreditsFactor,
-    RewardType.TankmenXp,
-    RewardType.TankmenXpFactor,
-    RewardType.FreeXpFactor,
-    RewardType.BattleToken,
-    RewardType.LootBox,
-    RewardType.PremiumUniversal,
-    RewardType.NaturalCover,
-    RewardType.BpCoin,
-    RewardType.BattlePassSelectToken,
-    RewardType.BattlaPassFinalAchievement,
-    RewardType.BattleBadge,
-    RewardType.BattlePassTicket,
-    RewardType.BonusX5,
-    RewardType.CrewBonusX3,
-    RewardType.EpicSelectToken,
-    RewardType.Comp7TokenWeeklyReward,
-    RewardType.DeluxeGift,
-    RewardType.ModernizedDevicesT1Gift,
-    RewardType.ModernizedDevicesT2Gift,
-    RewardType.ModernizedDevicesT3Gift,
-    RewardType.BattleBoosterGift,
-    RewardType.OptionalDevice,
-    RewardType.Attachment,
-    RewardType.TmanToken,
-  ],
-  currencyValueTypes = [RewardType.Gold, RewardType.Credits, RewardType.Crystal, RewardType.FreeXp],
-  numberValueTypes = [RewardType.BattlePassPoints, RewardType.EquipCoin],
-  premiumValueTypes = [RewardType.PremiumPlus, RewardType.Premium],
-  getSizeFolder = (e) => {
-    switch (e) {
-      case ImageSize.S600x450:
-        return "c_600x450";
-      case ImageSize.S400x300:
-        return "c_400x300";
-      case ImageSize.S296x222:
-        return "c_296x222";
-      case ImageSize.S232x174:
-        return "c_232x174";
-      case ImageSize.Big:
-        return "c_80x80";
-      case ImageSize.Small:
-        return "c_48x48";
-      default:
-        return e;
-    }
-  },
-  getRewardValueType = (e) =>
-    multiValueTypes.includes(e)
-      ? ValueTypes.MULTI
-      : currencyValueTypes.includes(e)
-        ? ValueTypes.CURRENCY
-        : numberValueTypes.includes(e)
-          ? ValueTypes.NUMBER
-          : premiumValueTypes.includes(e)
-            ? ValueTypes.PREMIUM_PLUS
-            : ValueTypes.STRING,
-  DOG_TAG_FOLDER_NAMES = ["engravings", "backgrounds"],
-  DOG_TAG_DEFAULT_ICON_NAME = ["engraving", "background"],
-  getDogTypeImage = (e, t, n) => {
-    const r = DOG_TAG_FOLDER_NAMES[e];
-    if (r) {
-      const a = R.images.gui.maps.icons.dogtags.$dyn(t).$dyn(r),
-        o = a.$dyn(n);
-      return o ? `${o}` : `${a.$dyn(DOG_TAG_DEFAULT_ICON_NAME[e])}`;
-    }
-    return (
-      console.error(
-        "Unreachable branch: add dogTagType and icon folder for corresponding icon matching",
-      ),
-      ""
-    );
-  },
-  getRewardImage = (e, t = ImageSize.Small) => {
-    const { name: n, type: r, value: a, icon: o, item: i, dogTagType: s } = e,
-      l = getSizeFolder(t);
-    switch (n) {
-      case "basic":
-      case "plus":
-        return `R.images.gui.maps.icons.quests.bonuses.${t}.${r}_${a}`;
-      case "premium":
-      case "premium_plus":
-        return `R.images.gui.maps.icons.quests.bonuses.${t}.${n}_${a}`;
-      case "items":
-        return `R.images.gui.maps.icons.quests.bonuses.${t}.${i}`;
-      case "blueprints":
-      case "blueprintsAny":
-      case "finalBlueprints":
-        return `R.images.gui.maps.icons.blueprints.fragment.${t}.${o}`;
-      case "tokens":
-      case "lootBox":
-      case "battleToken":
-        return "big" === t
-          ? e.iconBig.replace("..", "img://gui")
-          : e.iconSmall.replace("..", "img://gui");
-      case "customizations":
-      case "styleProgress":
-      case "crewSkins":
-      case "goodies":
-      case "groups":
-      case "tmanToken":
-      case "battlePassSelectToken":
-      case "pet":
-        return `R.images.gui.maps.icons.quests.bonuses.${t}.${o}`;
-      case "crewBooks":
-        return `R.images.gui.maps.icons.crewBooks.books.${t}.${o}`;
-      case "dogTagComponents":
-        return getDogTypeImage(s, t, o);
-      case "dossier_badge":
-        return `R.images.gui.maps.icons.quests.bonuses.badges.${l}.${o}`;
-      case "dossier_achievement":
-        return `R.images.gui.maps.icons.achievement.${l}.${o}`;
-      case "xp":
-      case "xpFactor":
-        return `R.images.gui.maps.icons.quests.bonuses.${t}.exp`;
-      case "creditsFactor":
-        return `R.images.gui.maps.icons.quests.bonuses.${t}.credits`;
-      case "tankmenXPFactor":
-        return `R.images.gui.maps.icons.quests.bonuses.${t}.tankmenXP`;
-      case "dailyXPFactor":
-      case "freeXPFactor":
-        return `R.images.gui.maps.icons.quests.bonuses.${t}.freeXP`;
-      case "premiumTank":
-        return `R.images.gui.maps.icons.quests.bonuses.${t}.vehicles`;
-      case "styleProgressToken":
-        return `R.images.gui.maps.icons.quests.bonuses.${t}.style_3d`;
-      case "collectionItem":
-        return `R.images.gui.maps.icons.collectionItems.${l}.${o}`;
-      case "attachment":
-        return `R.images.gui.maps.vehicles.attachments.${t}.${o}`;
-      case "statTracker":
-        return `R.images.gui.maps.vehicles.statTrackers.${t}.${o}`;
-      default:
-        return `R.images.gui.maps.icons.quests.bonuses.${t}.${n}`;
-    }
-  },
-  getRewardTooltipConfig = (e, t, n) => {
-    const r = t && { contentId: t };
-    return {
-      args: e,
-      isEnabled: Boolean((e && e.tooltipId) || t),
-      ignoreMouseClick: !0,
-      ignoreShowDelay: !t,
-      ...r,
-      ...n,
-    };
-  },
-  SIZES_WITH_BOTTOM_HIGHLIGHT = [ImageSize.Small, ImageSize.Big],
-  getBottomHighlight = (e, t) => {
-    if (void 0 === t || !SIZES_WITH_BOTTOM_HIGHLIGHT.includes(e)) return null;
-    switch (t) {
-      case Specials.BATTLE_BOOSTER:
-      case Specials.BATTLE_BOOSTER_REPLACE:
-        return HighlightClasses.BATTLE_BOOSTER;
-    }
-  },
-  getOverlay = (e) => {
-    if (void 0 === e) return null;
-    switch (e) {
-      case Specials.BATTLE_BOOSTER:
-        return OverlayClasses.BATTLE_BOOSTER;
-      case Specials.BATTLE_BOOSTER_REPLACE:
-        return OverlayClasses.BATTLE_BOOSTER_REPLACE;
-      case Specials.BUILT_IN_EQUIPMENT:
-        return OverlayClasses.BUILT_IN_EQUIPMENT;
-      case Specials.EQUIPMENT_PLUS:
-        return OverlayClasses.EQUIPMENT_PLUS;
-      case Specials.EQUIPMENT_TROPHY_BASIC:
-        return OverlayClasses.EQUIPMENT_TROPHY_BASIC;
-      case Specials.EQUIPMENT_TROPHY_UPGRADED:
-        return OverlayClasses.EQUIPMENT_TROPHY_UPGRADED;
-      case Specials.EQUIPMENT_MODERNIZED_UPGRADED_1:
-        return OverlayClasses.EQUIPMENT_MODERNIZED_UPGRADED_1;
-      case Specials.EQUIPMENT_MODERNIZED_UPGRADED_2:
-        return OverlayClasses.EQUIPMENT_MODERNIZED_UPGRADED_2;
-      case Specials.EQUIPMENT_MODERNIZED_UPGRADED_3:
-        return OverlayClasses.EQUIPMENT_MODERNIZED_UPGRADED_3;
-      case Specials.PROGRESSION_STYLE_UPGRADED_1:
-        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_1;
-      case Specials.PROGRESSION_STYLE_UPGRADED_2:
-        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_2;
-      case Specials.PROGRESSION_STYLE_UPGRADED_3:
-        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_3;
-      case Specials.PROGRESSION_STYLE_UPGRADED_4:
-        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_4;
-      case Specials.PROGRESSION_STYLE_UPGRADED_5:
-        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_5;
-      case Specials.PROGRESSION_STYLE_UPGRADED_6:
-        return OverlayClasses.PROGRESSION_STYLE_UPGRADED_6;
-      case Specials.ATTACHMENT_RARE:
-        return OverlayClasses.ATTACHMENT_RARE;
-      case Specials.ATTACHMENT_EPIC:
-        return OverlayClasses.ATTACHMENT_EPIC;
-      case Specials.ATTACHMENT_LEGENDARY:
-        return OverlayClasses.ATTACHMENT_LEGENDARY;
-    }
-  },
-  getFormattedValue = (e, t) => {
-    if (void 0 === e) return null;
-    switch (t) {
-      case ValueTypes.MULTI: {
-        const t = Number(e);
-        return isFinite(t) && t > 1 ? `x${Math.floor(t)}` : null;
-      }
-      case ValueTypes.CURRENCY:
-      case ValueTypes.NUMBER:
-        return (0, import_jsx_runtime.jsx)(FormatNumber, { format: "integral", value: Number(e) });
-      case ValueTypes.PREMIUM_PLUS: {
-        const t = Number(e);
-        return isNaN(t) ? e : null;
-      }
-      default:
-        return e;
-    }
-  },
+var Scroll = { Vertical: VerticalScroll_exports, Horizontal: HorizontalScroll_exports },
   CurrencySize = (function (e) {
     return (
       (e.small = "small"),
@@ -25348,10 +25531,10 @@ var FormatNumber = ({ value: e, format: t = "integral" }) => {
   StockBackgroundName = (function (e) {
     return ((e.Red = "RedActionBG"), (e.Blue = "BlueActionBG"), e);
   })({}),
-  base$5 = "Currency_37b937ed",
-  icon$1 = "Currency_icon_7e0ceeb1",
-  base__small$2 = "Currency_base__small_3c6cfaf0",
-  base__big$1 = "Currency_base__big_3c6cfaf0",
+  base$4 = "Currency_37b937ed",
+  icon = "Currency_icon_7e0ceeb1",
+  base__small$1 = "Currency_base__small_3c6cfaf0",
+  base__big = "Currency_base__big_3c6cfaf0",
   base__large = "Currency_base__large_3c6cfaf0",
   base__extraLarge = "Currency_base__extraLarge_3c6cfaf0",
   value = "Currency_value_cb375db",
@@ -25368,10 +25551,10 @@ var FormatNumber = ({ value: e, format: t = "integral" }) => {
   stock__interactive = "Currency_stock__interactive_ff7f7510",
   stockBackground = "Currency_stockBackground_aab4a285",
   Currency_module_default = {
-    base: base$5,
-    icon: icon$1,
-    base__small: base__small$2,
-    base__big: base__big$1,
+    base: base$4,
+    icon: icon,
+    base__small: base__small$1,
+    base__big: base__big,
     base__large: base__large,
     base__extraLarge: base__extraLarge,
     "icon__credits-small": "Currency_icon__credits-small_76c23d6f",
@@ -25477,156 +25660,6 @@ var FormatNumber = ({ value: e, format: t = "integral" }) => {
       ],
     }),
   Currency = (0, import_react.memo)(CurrencyComponent),
-  base$4 = "Reward_c5dc614c",
-  base__s48x48 = "Reward_base__s48x48_ab59d545",
-  base__small$1 = "Reward_base__small_69779e9c",
-  base__s80x80 = "Reward_base__s80x80_ab59d545",
-  base__big = "Reward_base__big_4733a488",
-  base__s128x100 = "Reward_base__s128x100_fb15aafa",
-  base__s180x135 = "Reward_base__s180x135_16cc707b",
-  base__s232x174 = "Reward_base__s232x174_e32aac73",
-  base__s296x222 = "Reward_base__s296x222_c9fbf416",
-  base__s400x300 = "Reward_base__s400x300_76ba5081",
-  base__s600x450 = "Reward_base__s600x450_aba4634a",
-  tooltipWrapper = "Reward_tooltipWrapper_5c2caa5a",
-  icon = "Reward_icon_ae345d69",
-  overlay$1 = "Reward_overlay_ff0a7872",
-  base__normalize = "Reward_base__normalize_ab59d545",
-  highlight = "Reward_highlight_ac5e429a",
-  image = "Reward_image_d9c7ed84",
-  info = "Reward_info_29e76ef9",
-  info__multi = "Reward_info__multi_14b911c",
-  info__credits = "Reward_info__credits_a7e7bbe",
-  info__gold = "Reward_info__gold_c2d9d72c",
-  info__bptaler = "Reward_info__bptaler_ab59d545",
-  info__crystal = "Reward_info__crystal_ec55d024",
-  info__premiumTank = "Reward_info__premiumTank_67c21f6d",
-  title = "Reward_title_50579ad9",
-  timer = "Reward_timer_98cb5bca",
-  Reward_module_default = {
-    base: base$4,
-    base__s48x48: base__s48x48,
-    base__small: base__small$1,
-    base__s80x80: base__s80x80,
-    base__big: base__big,
-    base__s128x100: base__s128x100,
-    base__s180x135: base__s180x135,
-    base__s232x174: base__s232x174,
-    base__s296x222: base__s296x222,
-    base__s400x300: base__s400x300,
-    base__s600x450: base__s600x450,
-    tooltipWrapper: tooltipWrapper,
-    icon: icon,
-    overlay: overlay$1,
-    base__normalize: base__normalize,
-    highlight: highlight,
-    image: image,
-    info: info,
-    info__multi: info__multi,
-    info__credits: info__credits,
-    info__gold: info__gold,
-    info__bptaler: info__bptaler,
-    info__crystal: info__crystal,
-    info__premiumTank: info__premiumTank,
-    title: title,
-    timer: timer,
-  },
-  Reward = ({
-    name: e,
-    image: t,
-    isPeriodic: n = !1,
-    size: r = ImageSize.Big,
-    special: a,
-    value: o,
-    valueType: i,
-    title: s,
-    style: l,
-    className: u,
-    classNames: c,
-    tooltipArgs: d,
-    periodicIconTooltipArgs: f,
-  }) => {
-    const p = getBottomHighlight(r, a),
-      m = getOverlay(a),
-      h = getFormattedValue(o, i);
-    return (0, import_jsx_runtime.jsxs)("div", {
-      className: (0, import_classnames.default)(
-        Reward_module_default.base,
-        Reward_module_default[`base__${r}`],
-        NORMALIZE_OVERLAYS_LIST.includes(e) && Reward_module_default.base__normalize,
-        u,
-      ),
-      style: l,
-      children: [
-        (0, import_jsx_runtime.jsx)(DynamicTooltipWrapper, {
-          tooltipArgs: d,
-          className: Reward_module_default.tooltipWrapper,
-          children: (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, {
-            children: [
-              (0, import_jsx_runtime.jsxs)("div", {
-                className: (0, import_classnames.default)(Reward_module_default.image, c?.image),
-                children: [
-                  p &&
-                    (0, import_jsx_runtime.jsx)("div", {
-                      className: (0, import_classnames.default)(
-                        Reward_module_default.highlight,
-                        c?.highlight,
-                      ),
-                      style: {
-                        backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${p}_highlight)`,
-                      },
-                    }),
-                  t &&
-                    (0, import_jsx_runtime.jsx)("div", {
-                      className: (0, import_classnames.default)(
-                        Reward_module_default.icon,
-                        c?.rewardIcon,
-                      ),
-                      style: { backgroundImage: `url(${t})` },
-                    }),
-                  m &&
-                    (0, import_jsx_runtime.jsx)("div", {
-                      className: (0, import_classnames.default)(
-                        Reward_module_default.overlay,
-                        c?.overlay,
-                      ),
-                      style: {
-                        backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${m}_overlay)`,
-                      },
-                    }),
-                ],
-              }),
-              h &&
-                (0, import_jsx_runtime.jsx)("div", {
-                  className: (0, import_classnames.default)(
-                    Reward_module_default.info,
-                    Reward_module_default[`info__${e}`],
-                    i === ValueTypes.MULTI && Reward_module_default.info__multi,
-                    c?.info,
-                  ),
-                  children: h,
-                }),
-              s &&
-                (0, import_jsx_runtime.jsx)("div", {
-                  className: (0, import_classnames.default)(Reward_module_default.title, c?.title),
-                  children: s,
-                }),
-            ],
-          }),
-        }),
-        n &&
-          (0, import_jsx_runtime.jsx)(DynamicTooltipWrapper, {
-            tooltipArgs: f,
-            children: (0, import_jsx_runtime.jsx)("div", {
-              className: (0, import_classnames.default)(
-                Reward_module_default.timer,
-                c?.periodicIcon,
-              ),
-            }),
-          }),
-      ],
-    });
-  },
   require_react_jsx_dev_runtime_production = __commonJSMin((e) => {}),
   require_jsx_dev_runtime = __commonJSMin((e, t) => {
     t.exports = require_react_jsx_dev_runtime_production();
@@ -29773,16 +29806,18 @@ function useLoadPlugin(e, t = []) {
     a = (0, import_react.useRef)(t);
   return (
     (0, import_react.useEffect)(() => {
-      const t = (async function () {
+      if (!e) return;
+      const t = e;
+      const n = (async function () {
         try {
-          const t = await loadPlugin(e);
-          return (r({ status: "loaded", result: await t.init(...a.current), instance: t }), t);
-        } catch (t) {
-          r({ status: "failure", error: t });
+          const e = await loadPlugin(t);
+          return (r({ status: "loaded", result: await e.init(...a.current), instance: e }), e);
+        } catch (e) {
+          r({ status: "failure", error: e });
         }
       })();
       return () => {
-        t.then((e) => e?.destroy());
+        n.then((e) => e?.destroy());
       };
     }, [e]),
     n
@@ -30076,61 +30111,61 @@ var base = "Tooltipdecorator_ea72f443",
   });
 export {
   breakpoints as $,
-  Tooltip as A,
+  getRewardValueType as A,
   UIProvider as B,
-  Popover as C,
-  InputType as D,
-  Input as E,
-  CButton_module_default as F,
+  DynamicTooltipWrapper as C,
+  getOverlay as D,
+  getFormattedValue as E,
+  ButtonSize as F,
   animated as G,
   computedFn as H,
-  ButtonSize as I,
+  ButtonType as I,
   useCloseOnEsc as J,
   useSpring as K,
-  ButtonType as L,
-  FormatText as M,
-  TextButton as N,
-  DynamicTooltipWrapper as O,
-  CButton as P,
+  TextButton as L,
+  ImageSize as M,
+  CButton as N,
+  getRewardImage as O,
+  CButton_module_default as P,
   MediaSize as Q,
-  require_classnames as R,
-  useVerticalScrollApi as S,
-  PopoverDirections as T,
+  observer as R,
+  FormatText as S,
+  Tooltip as T,
   initializeModelWithContext as U,
   runView as V,
   useSkipFrame$1 as W,
   useMedia as X,
   useAdaptive as Y,
   require_jsx_runtime as Z,
-  getRewardTooltipConfig as _,
+  PopoverDirections as _,
   resources as _t,
   isReactComponent as a,
   reaction as at,
-  ImageSize as b,
+  Reward as b,
   injectGFPlugins as c,
   get$1 as ct,
-  CurrencySize as d,
+  CurrencyType as d,
   identity as dt,
   breakpointsByType as et,
-  CurrencyType as f,
+  StockBackgroundName as f,
   noop$2 as ft,
-  getRewardImage as g,
+  PopoverDecoratorForwarded as g,
   require_react as gt,
-  getOverlay as h,
+  Popover as h,
   normalizeResource as ht,
   sizes$1 as i,
   observable$1 as it,
-  FormatString as j,
-  SimpleTooltip as k,
-  Reward as l,
+  BonusNames as j,
+  getRewardTooltipConfig as k,
+  Currency as l,
   map as lt,
-  getFormattedValue as m,
+  useVerticalScrollApi as m,
   playSound$2 as mt,
   CloseButton as n,
   createLayoutReadyInEffect$1 as nt,
   useLoadPlugin as o,
   filter as ot,
-  StockBackgroundName as p,
+  Scroll as p,
   pxToRem$1 as pt,
   useCallbackOnEsc as q,
   Button as r,
@@ -30139,11 +30174,11 @@ export {
   findIndex$1 as st,
   TooltipDecorator as t,
   toRoman as tt,
-  Currency as u,
+  CurrencySize as u,
   constFalse as ut,
-  getRewardValueType as v,
-  PopoverDecoratorForwarded as w,
-  Scroll as x,
-  BonusNames as y,
-  observer as z,
+  Input as v,
+  SimpleTooltip as w,
+  FormatString as x,
+  InputType as y,
+  require_classnames as z,
 };

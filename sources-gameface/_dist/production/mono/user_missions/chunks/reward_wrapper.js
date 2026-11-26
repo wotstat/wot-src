@@ -1,25 +1,25 @@
 import { r as o } from "./rolldown-runtime.js";
-import { B as e, D as t, E as s, Jt as a, O as r, on as n, y as i } from "./lib.js";
-var l = o(a(), 1);
-function p({ bonuses: o, questId: a, size: p, resId: d, ...v }) {
-  const u = n(o, (o) => {
+import { A as e, B as t, O as a, an as s, k as r, qt as n, y as i } from "./lib.js";
+var l = o(n(), 1);
+function p({ bonuses: o, questId: n, size: p, resId: d, ...v }) {
+  const u = s(o, (o) => {
       return {
         size: p,
         name: o.name,
-        image: s(o, p),
+        image: a(o, p),
         value: o.value,
-        valueType: r(o.name),
+        valueType: e(o.name),
         special:
           "overlayType" in o &&
           o.overlayType &&
-          ((n = o.overlayType),
-          ("string" == typeof n && Object.values(e).includes(n)) ||
-            (console.warn(`Invalid overlayType value: ${n}`), 0))
+          ((s = o.overlayType),
+          ("string" == typeof s && Object.values(t).includes(s)) ||
+            (console.warn(`Invalid overlayType value: ${s}`), 0))
             ? o.overlayType
             : void 0,
         tooltipArgs: {
-          ...t(
-            { tooltipId: `${a}:${o.tooltipId}` },
+          ...r(
+            { tooltipId: `${n}:${o.tooltipId}` },
             Number(o.tooltipContentId) ||
               R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent(
                 "resId",
@@ -28,11 +28,11 @@ function p({ bonuses: o, questId: a, size: p, resId: d, ...v }) {
           resId: d,
         },
       };
-      var n;
+      var s;
     }),
     y = {
       contentId: R.views.lobby.tooltips.AdditionalRewardsTooltip("resId"),
-      args: { showFromIndex: v.count, questId: a },
+      args: { showFromIndex: v.count, questId: n },
       resId: d,
     };
   return (0, l.jsx)(i, { ...v, data: u, boxRewardTooltip: y, size: p });

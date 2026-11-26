@@ -8,14 +8,14 @@ import {
   _t as i,
   ft as c,
   gt as d,
-  j as n,
-  lt as o,
-  t as w,
-  tt as u,
+  lt as n,
+  t as o,
+  tt as w,
+  x as u,
   z as m,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
-var b = e(t(), 1),
+var b = e(m(), 1),
   [_, p] = s("SelectedRewardsTooltipModel")(({ observableModel: e }) => {
     const t = { selectedRewards: e.array("selectedRewards", []) },
       s = a(() => t.selectedRewards.get().length);
@@ -25,19 +25,19 @@ var b = e(t(), 1),
   f = "Header_title_93e43275",
   h = "Header_subtitle_446e5135",
   v = e(l(), 1),
-  N = i.resolve("strings");
-function x({ className: e, rewardsAmount: a }) {
+  x = i.resolve("strings");
+function N({ className: e, rewardsAmount: a }) {
   return (0, v.jsxs)("div", {
     className: (0, b.default)(R, e),
     children: [
-      (0, v.jsx)(n, {
+      (0, v.jsx)(u, {
         path: "winback.winbackSelectableRewardView.selectedReward.tooltip.title",
         params: { amountRewards: a, color: "#fefeec" },
         className: f,
       }),
       (0, v.jsx)("div", {
         className: h,
-        children: N.readOrEmpty(
+        children: x.readOrEmpty(
           "winback.winbackSelectableRewardView.selectedReward.tooltip.subtitle",
         ),
       }),
@@ -86,7 +86,7 @@ function D({
   nation: l,
   classNames: i,
 }) {
-  const c = u(a);
+  const c = w(a);
   return (0, v.jsxs)("div", {
     className: (0, b.default)(k, i),
     children: [
@@ -103,8 +103,8 @@ function D({
       (0, v.jsxs)("div", {
         className: L,
         children: [
-          (0, v.jsx)(n, { path: T(e), params: { level: c }, className: F }),
-          (0, v.jsx)(n, {
+          (0, v.jsx)(u, { path: T(e), params: { level: c }, className: F }),
+          (0, v.jsx)(u, {
             path: H(e),
             params: {
               name: t,
@@ -129,15 +129,15 @@ var A = "App_980cfdcc",
   U = "App_reward__lastInColumn_6a1828d9",
   P = e(d(), 1),
   B = (e) => ({ exp: e.expDiscount, credit: e.creditDiscount }),
-  M = m(function () {
+  M = t(function () {
     const { model: e } = p(),
       a = e.computes.selectedRewardsLength();
     return (0, v.jsxs)("div", {
       className: A,
       children: [
-        (0, v.jsx)(x, { rewardsAmount: a, className: G }),
+        (0, v.jsx)(N, { rewardsAmount: a, className: G }),
         (0, v.jsx)("div", { className: O }),
-        o(e.selectedRewards.get(), (e, t) =>
+        n(e.selectedRewards.get(), (e, t) =>
           (0, P.createElement)(D, {
             ...e,
             discount: B(e),
@@ -148,6 +148,6 @@ var A = "App_980cfdcc",
       ],
     });
   });
-r((0, v.jsx)(_, { children: (0, v.jsx)(w, { children: (0, v.jsx)(M, {}) }) }), {
+r((0, v.jsx)(_, { children: (0, v.jsx)(o, { children: (0, v.jsx)(M, {}) }) }), {
   immediateLayout: !1,
 });

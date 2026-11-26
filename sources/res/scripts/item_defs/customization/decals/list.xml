@@ -8287,6 +8287,9 @@
 			<exclude>
 				<vehicles>poland:Pl15_60TP_Lewandowskiego_CFE_A usa:A174_T57_58_Rush_Ep1</vehicles>
 			</exclude>
+			<exclude>
+				<tags>excluded_from_customization</tags>
+			</exclude>
 		</vehicleFilter>
 		<decal>
 			<id>1231</id>
@@ -8501,6 +8504,25 @@
 		<type>EMBLEM</type>
 	</itemGroup>
 	<itemGroup>
+		<userString>#vehicle_customization:emblem/special</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>emblems 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<tags>excluded_from_customization</tags>
+			</exclude>
+		</vehicleFilter>
+		<decal>
+			<id>1366</id>
+			<texture>gui/maps/vehicles/decals/player_stickers/special/sticker_887.dds</texture>
+			<userString>#vehicle_customization:emblem/special/sticker_887</userString>
+			<mirror>true</mirror>
+		</decal>
+		<name>Girls und Panzer</name>
+		<type>EMBLEM</type>
+	</itemGroup>
+	<itemGroup>
 		<name>Fortrush 2026 Emblem</name>
 		<type>EMBLEM</type>
 		<userString>#vehicle_customization:emblem/special</userString>
@@ -8531,12 +8553,12 @@
 			</exclude>
 		</vehicleFilter>
 		<decal>
-			<id>1366</id>
-			<texture>gui/maps/vehicles/decals/player_stickers/special/sticker_887.dds</texture>
-			<userString>#vehicle_customization:emblem/special/sticker_887</userString>
-			<mirror>true</mirror>
+			<id>1392</id>
+			<texture>gui/maps/vehicles/decals/player_stickers/special/sticker_894.dds</texture>
+			<userString>#vehicle_customization:emblem/special/sticker_894</userString>
+			<mirror>false</mirror>
 		</decal>
-		<name>Girls und Panzer</name>
+		<name>CN</name>
 		<type>EMBLEM</type>
 	</itemGroup>
 	<itemGroup>
@@ -8601,6 +8623,26 @@
 				<tags>excluded_from_customization</tags>
 			</exclude>
 		</vehicleFilter>
+	</itemGroup>
+	<itemGroup>
+		<name>CN</name>
+		<userString>#vehicle_customization:emblem/special</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>emblems 150g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<tags>excluded_from_customization</tags>
+			</exclude>
+		</vehicleFilter>
+		<type>EMBLEM</type>
+		<decal>
+			<id>1393</id>
+			<texture>gui/maps/vehicles/decals/player_stickers/special/sticker_895.dds</texture>
+			<userString>#vehicle_customization:emblem/special/sticker_895</userString>
+			<mirror>true</mirror>
+			<tags>hiddenInUI</tags>
+		</decal>
 	</itemGroup>
 	<itemGroup>
 		<userString>#vehicle_customization:emblem/special</userString>
@@ -16721,6 +16763,9 @@
 			<exclude>
 				<vehicles>poland:Pl15_60TP_Lewandowskiego_CFE_A usa:A174_T57_58_Rush_Ep1</vehicles>
 			</exclude>
+			<exclude>
+				<tags>excluded_from_customization</tags>
+			</exclude>
 		</vehicleFilter>
 		<decal>
 			<id>1246</id>
@@ -16851,6 +16896,24 @@
 			<userString>#vehicle_customization:inscription/special/special_877</userString>
 			<mirror>false</mirror>
 		</decal>
+		<decal>
+			<id>1372</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_888.dds</texture>
+			<userString>#vehicle_customization:inscription/special/special_888</userString>
+			<mirror>false</mirror>
+		</decal>
+		<decal>
+			<id>1373</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_889.dds</texture>
+			<userString>#vehicle_customization:inscription/special/special_889</userString>
+			<mirror>false</mirror>
+		</decal>
+		<decal>
+			<id>1374</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_890.dds</texture>
+			<userString>#vehicle_customization:inscription/special/special_890</userString>
+			<mirror>false</mirror>
+		</decal>
 		<name>BattlePass 2026</name>
 		<type>INSCRIPTION</type>
 	</itemGroup>
@@ -16882,24 +16945,6 @@
 			<userString>#vehicle_customization:inscription/special/special_883</userString>
 			<mirror>false</mirror>
 		</decal>
-		<decal>
-			<id>1372</id>
-			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_888.dds</texture>
-			<userString>#vehicle_customization:inscription/special/special_888</userString>
-			<mirror>false</mirror>
-		</decal>
-		<decal>
-			<id>1373</id>
-			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_889.dds</texture>
-			<userString>#vehicle_customization:inscription/special/special_889</userString>
-			<mirror>false</mirror>
-		</decal>
-		<decal>
-			<id>1374</id>
-			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_890.dds</texture>
-			<userString>#vehicle_customization:inscription/special/special_890</userString>
-			<mirror>false</mirror>
-		</decal>
 		<name>BattlePass 2026</name>
 		<type>INSCRIPTION</type>
 	</itemGroup>
@@ -16917,6 +16962,13 @@
 			<id>1356</id>
 			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_880.dds</texture>
 			<userString>#vehicle_customization:inscription/special/special_880</userString>
+			<mirror>false</mirror>
+			<tags>styleOnly</tags>
+		</decal>
+		<decal>
+			<id>1394</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_907.dds</texture>
+			<userString>#vehicle_customization:inscription/special/special_907</userString>
 			<mirror>false</mirror>
 			<tags>styleOnly</tags>
 		</decal>
@@ -17376,6 +17428,26 @@
 				<tags>excluded_from_customization</tags>
 			</exclude>
 		</vehicleFilter>
+	</itemGroup>
+	<itemGroup>
+		<userString>#vehicle_customization:inscription/special</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>inscriptions 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<tags>excluded_from_customization</tags>
+			</exclude>
+		</vehicleFilter>
+		<decal>
+			<id>1391</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/inscription_906.dds</texture>
+			<userString>#vehicle_customization:inscription/special/special_906</userString>
+			<mirror>false</mirror>
+			<tags>hiddenInUI</tags>
+		</decal>
+		<name>CN</name>
+		<type>INSCRIPTION</type>
 	</itemGroup>
 	<itemGroup>
 		<userString>#vehicle_customization:inscription/special</userString>

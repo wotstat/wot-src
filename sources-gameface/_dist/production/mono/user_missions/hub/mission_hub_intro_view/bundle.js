@@ -1,17 +1,17 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
   H as e,
-  Jt as i,
-  Rt as n,
-  St as o,
-  U as t,
-  V as r,
-  _t as a,
+  Rt as i,
+  St as n,
+  U as o,
+  V as t,
+  dt as r,
+  qt as a,
   vt as l,
   yt as c,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
-var [d, m] = o()(
+var [d, m] = n()(
     ({ observableModel: s }) => ({
       ...s.primitives(["header", "description", "buttonText", "icon"]),
     }),
@@ -19,34 +19,34 @@ var [d, m] = o()(
   ),
   u = "MissionHubIntroView_23a12109",
   b = "MissionHubIntroView_content_61444cea",
-  _ = "MissionHubIntroView_image_c296ca82",
-  h = "MissionHubIntroView_info_938a77f3",
-  j = "MissionHubIntroView_title_d8509827",
-  x = "MissionHubIntroView_description_f111e687",
+  h = "MissionHubIntroView_image_c296ca82",
+  j = "MissionHubIntroView_info_938a77f3",
+  x = "MissionHubIntroView_title_d8509827",
+  _ = "MissionHubIntroView_description_f111e687",
   v = "MissionHubIntroView_divider_c63a837",
-  g = s(i(), 1),
-  p = a(() => {
-    n();
-    const { model: s, controls: i } = m();
+  g = s(a(), 1),
+  p = l(() => {
+    i();
+    const { model: s, controls: n } = m();
     return (0, g.jsx)("div", {
       className: u,
       children: (0, g.jsxs)("div", {
         className: b,
         children: [
           (0, g.jsx)("div", {
-            className: _,
+            className: h,
             style: { background: `url(${s.icon.get()}) no-repeat center` },
           }),
           (0, g.jsxs)("div", {
-            className: h,
+            className: j,
             children: [
-              (0, g.jsx)("div", { className: j, children: s.header.get() }),
-              (0, g.jsx)("div", { className: x, children: s.description.get() }),
+              (0, g.jsx)("div", { className: x, children: s.header.get() }),
+              (0, g.jsx)("div", { className: _, children: s.description.get() }),
               (0, g.jsx)("div", { className: v }),
-              (0, g.jsx)(r, {
+              (0, g.jsx)(t, {
                 size: e.small,
-                theme: t.primary,
-                onClick: i.onClose,
+                theme: o.primary,
+                onClick: n.onClose,
                 children: s.buttonText.get(),
               }),
             ],
@@ -55,4 +55,4 @@ var [d, m] = o()(
       }),
     });
   });
-c((0, g.jsx)(l, { children: (0, g.jsx)(d, { children: (0, g.jsx)(p, {}) }) }));
+c((0, g.jsx)(r, { children: (0, g.jsx)(d, { children: (0, g.jsx)(p, {}) }) }));
