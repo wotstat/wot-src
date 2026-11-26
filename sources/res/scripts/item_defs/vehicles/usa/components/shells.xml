@@ -1334,33 +1334,18 @@
 	<_120mm_HEAT_M469_A185>
 		<id>31097</id>
 		<userString>#usa_vehicles:_120mm_HEAT_M469_A185</userString>
-		<icon>ap_fsds_premium</icon>
-		<price>5200</price>
+		<icon>hc_premium</icon>
+		<price>4800</price>
 		<improved>true</improved>
-		<kind>ARMOR_PIERCING_FSDS</kind>
+		<kind>HOLLOW_CHARGE</kind>
 		<caliber>120</caliber>
 		<isTracer>true</isTracer>
-		<effects>largeAPFSDS</effects>
+		<effects>largeHollowCharge</effects>
 		<damage>
 			<armor>440</armor>
-			<devices>160</devices>
+			<devices>165</devices>
 		</damage>
-		<maxDistanceInsideVehicle>40</maxDistanceInsideVehicle>
-		<damageRandomization>0.0</damageRandomization>
-		<distanceDamage>
-			<isEnabled>true</isEnabled>
-			<damage>
-				<min>154</min>
-				<max>726</max>
-			</damage>
-			<distance>
-				<min>1.0</min>
-				<max>6.0</max>
-			</distance>
-			<ignoreModules>true</ignoreModules>
-		</distanceDamage>
-		<hitDeviceChanceMultiplier>0.3</hitDeviceChanceMultiplier>
-		<hitCrewChanceMultiplier>0.3</hitCrewChanceMultiplier>
+		<piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
 	</_120mm_HEAT_M469_A185>
 	<_120mm_HEAT_M469_A186>
 		<id>31100</id>

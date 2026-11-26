@@ -112,6 +112,28 @@ class NyRaidConsts(object):
     RECEIPTS_CONFIG_NAME = b'receipts_config'
 
 
+class RaidResponseText(object):
+    SUCCESS = b'Success'
+    FAILURE_NOT_ENOUGH_RESOURCES = b'Not enough resources'
+    FAILURE_ALREADY_ACTIVE = b'Already active'
+    FAILURE_SERVICE_VALIDATION = b'Service validation error'
+    FAILURE_INVALID_REQUEST = b'Invalid request'
+    FAILURE_PAYMENT_IS_NOT_PERFORMED = b'Payment is not performed'
+    FAILURE_NO_SUCH_COMPONENTS = b'No such components'
+    FAILURE_TAMAGOTCHI_NOT_UNLOCKED = b'Tamagotchi is not unlocked'
+    FAILURE_NOT_ACTIVE = b'Not active'
+    FAILURE_DAILY_LIMIT_REACHED = b'Daily limit reached'
+    FAILURE_NOT_ENOUGH_GOLD = b'Not enough gold'
+    FAILURE_HAS_UNRECEIVED_REWARD = b'Has unreceived reward'
+    FAILURE_NOT_FINISHED_YET = b'Not finished'
+    FAILURE_HAS_NO_BOOSTS = b'No boosts'
+    FAILURE_CANNOT_PROCESS_REWARD = b"Cannot't process reward"
+    FAILURE_NOT_ENOUGH_RESOURCES_WHILE_PAYMENT = b'Not enough resources while payment'
+    FAILURE_SERVICE_BAD_RESPONSE = b'Service bad response'
+    FAILURE_ENTITY_NOT_ALIVE = b'Entity not alive'
+    FAILURE_HAS_RAID_AFTER_RESPONSE = b'Has raid after response'
+
+
 @enum.unique
 class ReceiptType(enum.IntEnum):
     PUBLIC = 1

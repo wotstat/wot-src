@@ -1,3 +1,5 @@
+import sys, BigWorld
+from debug_utils import LOG_ERROR
 from frameworks.wulf import ViewFlags, ViewSettings, WindowFlags
 from gui.impl.gen import R
 from gui.impl.gui_decorators import args2params
@@ -5,7 +7,7 @@ from gui.impl.lobby.common.view_wrappers import createBackportTooltipDecorator
 from gui.impl.pub import ViewImpl, WindowImpl
 from gui.server_events.bonuses import getNonQuestBonuses
 from helpers import dependency, time_utils
-from helpers.time_utils import getServerUTCTime
+from helpers.time_utils import getServerUTCTime, getCurrentTimestamp
 from new_year.gui.impl.new_year.new_year_bonus_packer import packBonusModelAndTooltipData, getNewYearBonusPacker
 from new_year.gui.impl.lobby.new_year.tooltips.ny_pet_raid_boost_tooltip import NyPetRaidBoostTooltip
 from new_year.gui.impl.new_year.sounds import NY_RAID_SOUND_SPACE
@@ -17,10 +19,11 @@ from new_year.gui.impl.lobby.new_year.ny_tamagotchi_raid_bonus_packer import pac
 from new_year.gui.impl.lobby.new_year.ny_raid_reward_helpers import prepareRaidRewardResult
 from new_year.gui.impl.lobby.new_year.ny_raid_receipt_helpers import prepareReceiptStates, calcReceiptState, getVisibleReceipts, getFirstDisabledIndex, getTotalItemsCount, hasEnoughResourcesForComponents, getTabData, DEFAULT_FIRST_DISABLED_INDEX
 from new_year.gui.shared.gui_items.processors.ny_processor import ReceiveTamagotchiRaidRewardProcessor, StartTamagotchiRaidProcessor, UseTamagotchiRaidSpeedupProcessor
+from new_year.gui.shared.ny_level_helper import NewYearAtmospherePresenter
 from new_year.helpers.ny_helpers import collectRaidReservedResources, isRaidComponentEnabled
 from new_year.helpers.server_settings import getNewYearServerSettings, getNewYearRaidConfig
 from new_year_account_settings import getNYSetting, setNYSettings
-from new_year_common.settings import NyRaidConsts
+from new_year_common.settings import NyRaidConsts, RaidResponseText
 from account_helpers.settings_core.settings_constants import NewYearStorageKeys
 from new_year.ny_constants import NY_TAMAGOTCHI_RAID_REPEAT_ONBOARDING_COUNT
 from new_year.tamagotchi.sys_msg.sys_msg_handler import TamagotchiSysMsgHandler
@@ -28,13 +31,13 @@ from new_year.gui.shared.event_dispatcher import showNYPetRaidRewardWindow
 from new_year.skeletons.new_year import INewYearController, INewYearTamagotchiController, ITamagotchiDataProvider, INewYearMetricsLogger
 from skeletons.account_helpers.settings_core import ISettingsCore
 from skeletons.gui.lobby_context import ILobbyContext
-from new_year_common.items.components.ny_constants import RaidState
+from new_year_common.items.components.ny_constants import RaidState, ENT_TAMAGOCHI
 from skeletons.festivity_factory import IFestivityFactory
 from skeletons.gui.shared import IItemsCache
 from adisp import adisp_process
 from new_year.gui.impl.lobby.new_year.tooltips.ny_common_tooltip import NyCommonTooltip, getCommonTooltipArgsFromEvent
 from shared_utils import first
-_FAILURE_NOT_ENOUGH_RESOURCES_CODE = -1
+from soft_exception import SoftException
 
 class NyTamagotchiRaidView(ViewImpl):
     __slots__ = (b'__selectedBonuses', b'__tooltipData', b'__isReceiptsTabsOpened', b'__raidComponents', b'__isBoostMode', b'__closeCallback', b'__receiptData', b'__receiptsOffset')
@@ -265,10 +268,11 @@ class NyTamagotchiRaidView(ViewImpl):
     def __onRaidStart(self, firstItem, secondItem, thirdItem):
         raidInput = [firstItem, secondItem, thirdItem]
         if not self.__hasEnoughResourcesForSelectedComponents(raidInput):
-            self.__raidStartError(True)
+            self.__raidStartError(RaidResponseText.FAILURE_NOT_ENOUGH_RESOURCES)
             return
+        self.__dataProvider.setRaidReady()
         if not self.__dataProvider.isReadyForRaid():
-            self.__raidStartError(False)
+            self.__raidStartError(RaidResponseText.FAILURE_SERVICE_VALIDATION)
             return
         result = yield StartTamagotchiRaidProcessor(raidInput).request()
         if result.success:
@@ -276,16 +280,52 @@ class NyTamagotchiRaidView(ViewImpl):
             if self.isBound():
                 self.__onClose()
         else:
-            self.__raidStartError(result.auxData == _FAILURE_NOT_ENOUGH_RESOURCES_CODE)
+            self.__logFailedRaid(result.auxData)
+            self.__raidStartError(result.auxData)
         return
 
-    def __raidStartError(self, isNotEnoughResources=True):
+    def __logFailedRaid(self, auxData):
+        simulationInfo = self.__dataProvider.playerInfo
+        initialInfo = self.__dataProvider.initialPlayerInfo
+        data = {b'auxData': auxData, 
+           b'localTimestamp': (getCurrentTimestamp()), 
+           b'serverTimestamp': (getServerUTCTime()), 
+           b'nyLevel': (NewYearAtmospherePresenter.getLevel()), 
+           b'entitlements': (self.__itemsCache.items.stats.entitlements.get(ENT_TAMAGOCHI, 0)), 
+           b'simulationInfo': {b'indicators': (dict(simulationInfo.indicators)), 
+                               b'lastUpdateTime': (simulationInfo.lastUpdateTime)}, 
+           b'initialInfo': {b'indicators': (dict(initialInfo.indicators)), 
+                            b'lastUpdateTime': (initialInfo.lastUpdateTime)}}
+        if self.isBound():
+            model = self.viewModel
+            data[b'viewModel'] = {b'timeLeft': (model.getTimeLeft()), 
+               b'remainingTime': (model.getRemainingTime()), 
+               b'previewTime': (model.getPreviewTime()), 
+               b'isTamagotchiForRaidReady': (model.getIsTamagotchiForRaidReady()), 
+               b'isHasUnreceivedReward': (model.getIsHasUnreceivedReward()), 
+               b'isBoostMode': (model.getIsBoostMode()), 
+               b'isFirstOnboardingEnter': (model.getIsFirstOnboardingEnter()), 
+               b'boostAmount': (model.getBoostAmount()), 
+               b'maxBoostLimit': (model.getMaxBoostLimit()), 
+               b'boostTime': (model.getBoostTime()), 
+               b'isReceiptsTabsOpened': (model.getIsReceiptsTabsOpened()), 
+               b'boostAccrualTime': (model.getBoostAccrualTime()), 
+               b'boostsToAdd': (model.getBoostsToAdd())}
+        LOG_ERROR(b'[NY_RAID] Failed to start raid:', data)
+        try:
+            raise SoftException(b'[NY_RAID] Failed to start raid')
+        except SoftException:
+            BigWorld.catReportException(sys.exc_info())
+
+        return
+
+    def __raidStartError(self, error=b''):
         if self.isBound():
             self.__selectedBonuses = []
             self.__fillSelectedItems({b'componentIDs': []})
             self.__fillRegularInventoryItems()
             self.viewModel.setIsTamagotchiForRaidReady(self.__dataProvider.isReadyForRaid())
-        TamagotchiSysMsgHandler.sendRaidStartError(isNotEnoughResources)
+        TamagotchiSysMsgHandler.sendRaidStartError(error)
         return
 
     @args2params(int)

@@ -14401,6 +14401,9 @@ class VEHICLE_CUSTOMIZATION(object):
     NY27_05_STYLE_147_NAME = b'#vehicle_customization:NY27_05_Style_147/name'
     NY27_05_STYLE_147_DESCRIPTION = b'#vehicle_customization:NY27_05_Style_147/description'
     NY27_05_STYLE_147_LONGDESCRIPTION = b'#vehicle_customization:NY27_05_Style_147/longDescription'
+    SPECIAL_STYLE_A100_T49_02_3DST_01 = b'#vehicle_customization:special_style/A100_T49_02_3Dst_01'
+    SPECIAL_STYLE_A100_T49_02_3DST_01_LONG = b'#vehicle_customization:special_style/A100_T49_02_3Dst_01/long'
+    SPECIAL_STYLE_R250_NST_130_03_3DST_01_NAME = b'#vehicle_customization:special_style/R250_NST_130_03_3Dst_01/name'
     BONUS_NAME_ENUM = (
      BONUS_NAME_CAMOUFLAGE,
      BONUS_NAME_EXTENDED_CAMOUFLAGE)

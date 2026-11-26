@@ -1,23 +1,23 @@
 {
   "branch": "mt-public-test",
   "client_type": "sd",
-  "commit_subject": "1.47.0.0 #2327",
+  "commit_subject": "1.47.0.0 #2330",
   "counts": {
     "locales": {},
-    "sources": 18657,
+    "sources": 18666,
     "sources_as3": 6486,
     "sources_gameface": 1683,
     "stubs": 68
   },
-  "descriptor_sha256": "5607a2ab142b5b52c2f5c7ede25668e579e88b0e4989a670b1291fababf243bd",
+  "descriptor_sha256": "74576eeadcf6ef5ef8bfc4ad90c1b7bf9d91268f784078d516c4379c387cd10d",
   "languages": [
     "RU"
   ],
   "publisher": "lesta",
   "schema_version": 1,
   "snapshot_contract_version": "1.1.0",
-  "snapshot_created_at": "2026-11-21T03:10:28.805299Z",
-  "snapshot_id": "sha256:01abf64a16a415740d93f0ce324a0211715f4ffbebc0be46b91f8efdc3023b52",
+  "snapshot_created_at": "2026-11-26T16:12:31.921596Z",
+  "snapshot_id": "sha256:b02f73fc67638d832d50dc207e5744fa54395a01a9b8d650f6d5bedd1d17d706",
   "target": "mt-public-test",
-  "version_name": "1.47.0.8724"
+  "version_name": "1.47.0.8766"
 }

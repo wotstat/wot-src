@@ -7,7 +7,11 @@ from new_year.gui.shared.shop_helpers import getNewYearOldCollectionRewardUrl
 from new_year.gui.impl.new_year.sounds import OVERLAY_HANGAR_SOUND_SPACE
 from new_year.helpers.server_settings import getNewYearGeneralConfig
 from frameworks.wulf import ViewFlags, ViewSettings
+from frameworks.wulf import WindowFlags
+from frameworks.wulf import WindowLayer
+from gui.impl.gen import R
 from gui.impl.pub import ViewImpl
+from gui.impl.pub.lobby_window import LobbyWindow
 from gui.shop import showIngameShop
 
 class NyProgressView(ViewImpl):
@@ -85,10 +89,18 @@ class NyProgressView(ViewImpl):
         return
 
     def __onSelectVehicleDiscount(self, event):
-        showVehicleDiscountOverlay(event.get(b'discountID'))
+        showVehicleDiscountOverlay(event.get(b'discountID'), parent=self.getParentWindow())
         return
 
     def __onShowAnimationEnd(self):
         self.__isWorldDrawDisabled = True
         BigWorld.worldDrawEnabled(False)
+        return
+
+
+class NyProgressViewWindow(LobbyWindow):
+    __slots__ = ()
+
+    def __init__(self, parent=None):
+        super(NyProgressViewWindow, self).__init__(wndFlags=WindowFlags.WINDOW | WindowFlags.WINDOW_FULLSCREEN, content=NyProgressView(R.views.new_year.lobby.new_year.NyProgressView()), parent=parent, layer=WindowLayer.FULLSCREEN_WINDOW)
         return

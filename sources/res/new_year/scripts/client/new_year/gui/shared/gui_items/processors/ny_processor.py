@@ -127,7 +127,7 @@ class StartTamagotchiRaidProcessor(Processor):
         return
 
     def _errorHandler(self, code, errStr=b'', ctx=None):
-        return makeError(backport.text(R.strings.ny.systemMessage.raccoon.server_error()), auxData=code)
+        return makeError(backport.text(R.strings.ny.systemMessage.raccoon.server_error()), auxData=errStr)
 
     def _successHandler(self, code, ctx=None):
         return makeSuccess()

@@ -42,7 +42,7 @@ REWARD_VIDEO_CONFIG = {b'common': {b'vehicles': {b'hasFooter': True,
                                             {b'videoResName': None, 
                                                b'duration': 16, 
                                                b'showFooterTiming': 2, 
-                                               b'overridesDuration': {b'A175_OTAC_MT_58_02': 23}}]}, 
+                                               b'overridesDuration': {b'R250_NST_130_03': 21}}]}, 
                     b'lootBoxToken': {b'hasFooter': True, 
                                       b'videos': [
                                                 {b'videoResName': b'intro', 
@@ -59,4 +59,9 @@ REWARD_VIDEO_CONFIG = {b'common': {b'vehicles': {b'hasFooter': True,
                                     b'videos': [
                                               {b'videoResName': None, 
                                                  b'duration': 7, 
-                                                 b'showFooterTiming': 2}]}}}
+                                                 b'showFooterTiming': 2}]}}, 
+   b'ny_2027_tanks_test': {b'vehicles': {b'hasFooter': True, 
+                                         b'videos': [
+                                                   {b'videoResName': None, 
+                                                      b'duration': 7, 
+                                                      b'showFooterTiming': 2}]}}}

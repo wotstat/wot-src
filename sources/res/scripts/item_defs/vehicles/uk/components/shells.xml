@@ -879,6 +879,36 @@
 			<devices>150</devices>
 		</damage>
 	</_105mm_MV_APDS>
+	<_105mm_MV_APDS_02>
+		<id>31083</id>
+		<userString>#gb_vehicles:_105mm_MV_APDS_02</userString>
+		<icon>hc_premium</icon>
+		<price>4800</price>
+		<improved>true</improved>
+		<kind>HOLLOW_CHARGE</kind>
+		<caliber>105</caliber>
+		<isTracer>true</isTracer>
+		<effects>mainHollowCharge</effects>
+		<damage>
+			<armor>360</armor>
+			<devices>150</devices>
+		</damage>
+		<piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
+	</_105mm_MV_APDS_02>
+	<_105mm_MV_AP_02>
+		<id>31082</id>
+		<userString>#gb_vehicles:_105mm_MV_AP_02</userString>
+		<icon>ap_cr</icon>
+		<price>1090</price>
+		<kind>ARMOR_PIERCING_CR</kind>
+		<caliber>105</caliber>
+		<isTracer>true</isTracer>
+		<effects>mainAPCR</effects>
+		<damage>
+			<armor>360</armor>
+			<devices>150</devices>
+		</damage>
+	</_105mm_MV_AP_02>
 	<_105mm_MV_HE>
 		<id>218</id>
 		<userString>#gb_vehicles:_105mm_MV_HE</userString>
@@ -903,6 +933,30 @@
 			</damage>
 		</armorSpalls>
 	</_105mm_MV_HE>
+	<_105mm_MV_HE_02>
+		<id>31084</id>
+		<userString>#gb_vehicles:_105mm_MV_HE_02</userString>
+		<icon>he_modern</icon>
+		<price>670</price>
+		<kind>HIGH_EXPLOSIVE</kind>
+		<mechanics>MODERN</mechanics>
+		<caliber>105</caliber>
+		<explosionRadius>1.91</explosionRadius>
+		<isTracer>true</isTracer>
+		<effects>mainHighExplosive</effects>
+		<damage>
+			<armor>460</armor>
+			<devices>150</devices>
+		</damage>
+		<armorSpalls>
+			<impactRadius>1.91</impactRadius>
+			<coneAngle>90</coneAngle>
+			<damage>
+				<armor>230</armor>
+				<devices>75</devices>
+			</damage>
+		</armorSpalls>
+	</_105mm_MV_HE_02>
 	<_110mm_MV_AP>
 		<id>213</id>
 		<userString>#gb_vehicles:_110mm_MV_AP</userString>
@@ -1569,33 +1623,17 @@
 	<_127mm_APFSDS_Mk50_GB146>
 		<id>31070</id>
 		<userString>#gb_vehicles:_127mm_APFSDS_Mk50_GB146</userString>
-		<icon>ap_fsds_premium</icon>
-		<price>5200</price>
+		<icon>ap_cr_premium</icon>
+		<price>4800</price>
 		<improved>true</improved>
-		<kind>ARMOR_PIERCING_FSDS</kind>
+		<kind>ARMOR_PIERCING_CR</kind>
 		<caliber>127</caliber>
 		<isTracer>true</isTracer>
-		<effects>largeAPFSDS</effects>
+		<effects>largeAPCR</effects>
 		<damage>
-			<armor>470</armor>
+			<armor>510</armor>
 			<devices>178</devices>
 		</damage>
-		<maxDistanceInsideVehicle>40</maxDistanceInsideVehicle>
-		<damageRandomization>0.0</damageRandomization>
-		<distanceDamage>
-			<isEnabled>true</isEnabled>
-			<damage>
-				<min>165</min>
-				<max>776</max>
-			</damage>
-			<distance>
-				<min>1.0</min>
-				<max>6.0</max>
-			</distance>
-			<ignoreModules>true</ignoreModules>
-		</distanceDamage>
-		<hitDeviceChanceMultiplier>0.25</hitDeviceChanceMultiplier>
-		<hitCrewChanceMultiplier>0.25</hitCrewChanceMultiplier>
 	</_127mm_APFSDS_Mk50_GB146>
 	<_127mm_AP_Mk41_GB146>
 		<id>31069</id>
@@ -1607,7 +1645,7 @@
 		<isTracer>true</isTracer>
 		<effects>largeArmorPiercing</effects>
 		<damage>
-			<armor>470</armor>
+			<armor>510</armor>
 			<devices>178</devices>
 		</damage>
 	</_127mm_AP_Mk41_GB146>
@@ -1623,14 +1661,14 @@
 		<isTracer>true</isTracer>
 		<effects>largeHighExplosive</effects>
 		<damage>
-			<armor>560</armor>
+			<armor>620</armor>
 			<devices>178</devices>
 		</damage>
 		<armorSpalls>
 			<impactRadius>2.67</impactRadius>
 			<coneAngle>90</coneAngle>
 			<damage>
-				<armor>280</armor>
+				<armor>310</armor>
 				<devices>90</devices>
 			</damage>
 		</armorSpalls>

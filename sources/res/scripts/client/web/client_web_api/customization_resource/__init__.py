@@ -1,4 +1,5 @@
 from constants import Configs
+from gui.shared.gui_items import GUI_ITEM_TYPE
 from helpers import dependency
 from skeletons.gui.lobby_context import ILobbyContext
 from skeletons.gui.shared import IItemsCache
@@ -26,8 +27,9 @@ class CustomizationResourceEventHandler(C2WHandler):
             self.__sendState()
         return
 
-    def __onItemsSyncCompleted(self, *_):
-        self.__sendState()
+    def __onItemsSyncCompleted(self, syncReason, syncedItems):
+        if GUI_ITEM_TYPE.CUSTOMIZATION in syncedItems.keys():
+            self.__sendState()
         return
 
     @c2w(name=b'customization_resource_state_update')

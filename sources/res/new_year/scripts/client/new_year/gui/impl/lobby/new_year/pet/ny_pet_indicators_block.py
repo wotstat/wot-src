@@ -88,9 +88,7 @@ class NyPetIndicatorsBlock(SubModelPresenter):
         vm.setMaxPoint(config.maxPoints)
         vm.setItemScalePoint(config.item.scalePoint)
         cls.applyUnlockState(vm, name)
-        if points < 0 and not cls.isIndicatorLocked(name):
-            points = 0
-        vm.setCurPoint(min(max(points, 0), config.maxPoints))
+        vm.setCurPoint(min(points, config.maxPoints))
         vm.setItemCount(cls._dataProvider.getIndicatorCurrency(name))
         vm.setBonus(cls._dataProvider.getIndicatorDeb(name))
         vm.setScaleDowngradeTime(cls._dataProvider.getIndicatorStateDecayTime(name))
@@ -197,7 +195,6 @@ class NyPetIndicatorsBlock(SubModelPresenter):
         return
 
     def __onSyncCompleted(self, *_, **__):
-        self._dataProvider.syncOpenedIndicators()
         self.updateViewModel()
         return
 

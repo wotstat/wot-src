@@ -464,7 +464,7 @@ msgid "currencyPanel/tooltip/hint/gold"
 msgstr "Нажмите, чтобы перейти на страницу покупки золота."
 
 msgid "currencyPanel/tooltip/hint/nyGiftMachineToken"
-msgstr "Нажмите, чтобы перейти к автомату."
+msgstr "Нажмите, чтобы перейти к Автомату."
 
 msgid "currencyPanel/tooltip/hint/ny_mandarin/completedProgression"
 msgstr "Нажмите, чтобы перейти к Автомату."
@@ -1829,10 +1829,10 @@ msgid "newYear/challenge/card/timerHeading"
 msgstr "До следующей задачи"
 
 msgid "newYear/challenge/card/timerHours"
-msgstr "ч"
+msgstr "ч."
 
 msgid "newYear/challenge/card/timerMinutes"
-msgstr "мин"
+msgstr "мин."
 
 msgid "newYear/challenge/card/tooltip/maximumSimplification/description"
 msgstr "Задача уже выполняется на минимальной сложности."
@@ -2036,7 +2036,7 @@ msgid "newYearInfoView/pet/button"
 msgstr "К Еноту"
 
 msgid "newYearInfoView/pet/description"
-msgstr "Чем выше показатели енота — тем больший экономический бонус по итогам боёв он добавляет. Енота, чьи показатели открыты и заполнены до 3-го уровня, можно отправить в поход за ценным имуществом. Пополнять показатели можно удалённо, пока Енот в походе."
+msgstr "Чем выше показатели Енота — тем больший экономический бонус по итогам боёв он добавляет. Енота, чьи показатели открыты и заполнены до 3-го уровня, можно отправить в поход за ценным имуществом. Пополнять показатели можно удалённо, пока Енот в походе."
 
 msgid "newYearInfoView/pet/notice"
 msgstr "Используйте яблоки, расчёски и мячики, которые можно купить в магазине предметов, получить из контейнеров, за уровни атмосферы праздника, а также за задачи и из походов."
@@ -2054,7 +2054,7 @@ msgid "newYearInfoView/pet/pointsTitle"
 msgstr "Показатели:"
 
 msgid "newYearInfoView/pet/title"
-msgstr "Что делать с енотом?"
+msgstr "Что делать с Енотом?"
 
 msgid "newYearInfoView/quests/button"
 msgstr "К задачам"
@@ -2087,7 +2087,7 @@ msgid "newYearInfoView/raid/button"
 msgstr "К Еноту"
 
 msgid "newYearInfoView/raid/description"
-msgstr "Для похода Еноту нужно три ингридиента, которые формируют комбинацию. Можно выбрать уже известные комбинации или разблокировать скрытые. Енот может принести фрагмент легендарного контейнера; собрав три фрагмента вы получите этот контейнер."
+msgstr "Для похода Еноту нужно три ингредиента, которые формируют комбинацию. Можно выбрать уже известные комбинации или разблокировать скрытые. Енот может принести фрагмент легендарного контейнера; собрав три фрагмента вы получите этот контейнер."
 
 msgid "newYearInfoView/raid/notice"
 msgstr "Есть скрытые рецепты, где нужно угадать заданную комбинацию компонентов, чтобы открыть рецепт и получить ценную награду."
@@ -2126,16 +2126,16 @@ msgid "newYearInfoView/surpriseMachine/pointsTitle"
 msgstr "Среди подарков вам может попасться:"
 
 msgid "newYearInfoView/surpriseMachine/subtitle"
-msgstr "Автомат удачи выдаёт подарки за жетоны, которые вы можете получить от Енота и выполняя соответствующие задачи. По достижении ХI уровня атмосферы праздника ваши мандарины можно будет обменять на жетоны."
+msgstr "Автомат удачи выдаёт подарки за жетоны, которые вы можете получить выполняя соответствующие задачи. По достижении ХI уровня атмосферы праздника ваши мандарины можно будет обменять на жетоны."
 
 msgid "newYearInfoView/surpriseMachine/title"
 msgstr "Автомат удачи"
 
 msgid "newYearInfoView/timePeriod/hour"
-msgstr "ч"
+msgstr "ч."
 
 msgid "newYearInfoView/timePeriod/minute"
-msgstr "мин"
+msgstr "мин."
 
 msgid "newYearInfoView/timePeriod/second"
 msgstr "сек"
@@ -2345,7 +2345,7 @@ msgid "notification/racoon/activated/subHeader/activity"
 msgstr "Добавлено предметов в показатель: %(count)s"
 
 msgid "notification/racoon/activated/subHeader/food"
-msgstr "Добавлено продуктов в показатель: %(count)s"
+msgstr "Добавлено предметов в показатель: %(count)s"
 
 msgid "notification/racoon/activated/subHeader/fun"
 msgstr "Добавлено предметов в показатель: %(count)s"
@@ -2357,7 +2357,7 @@ msgid "notification/racoon/buyToy/header"
 msgstr "Финансовая операция"
 
 msgid "notification/racoon/buyToy/text"
-msgstr "Предмет «%(toyName)s» успешно приобретён.  Дата: %(time)s  Списано золота: %(goldCount)s"
+msgstr "Предмет «%(toyName)s» успешно приобретён. Дата: %(time)s  Списано золота: %(goldCount)s"
 
 msgid "notification/racoon/header"
 msgstr "Енотова нора"
@@ -2430,6 +2430,9 @@ msgstr "Получено имущество:"
 
 msgid "notification/racoon/raid/start/error"
 msgstr "Что-то пошло не так. Попробуйте чуть позже, всё должно починиться."
+
+msgid "notification/racoon/raid/start/errorIndicators"
+msgstr "Во время подготовки похода показатели Енота опустились ниже необходимого уровня. Используйте соответствующие предметы, чтобы покормить, поиграть либо поухаживать за ним. Отправить Енота в поход можно лишь тогда, когда все его показатели достигли третьего уровня."
 
 msgid "notification/racoon/raid/start/errorResources"
 msgstr "Недостаточно ресурсов для отправки Енота в поход."
@@ -3194,10 +3197,10 @@ msgid "questsView/timeSpend/hours"
 msgstr "%(hours)s ч"
 
 msgid "questsView/timeSpend/hoursMinutes"
-msgstr "%(hours)s ч %(minutes)s мин"
+msgstr "%(hours)s ч. %(minutes)s мин."
 
 msgid "questsView/timeSpend/minutes"
-msgstr "%(minutes)s мин"
+msgstr "%(minutes)s мин."
 
 msgid "questsView/timeSpend/text/default"
 msgstr "Обновление задач:"
@@ -3245,7 +3248,7 @@ msgid "raidRewards/button/toMachine"
 msgstr "К автомату"
 
 msgid "raidRewards/button/toPet"
-msgstr "К еноту"
+msgstr "К Еноту"
 
 msgid "raidRewards/close"
 msgstr "ЗАКРЫТЬ"
@@ -3323,7 +3326,7 @@ msgid "raidView/finishText"
 msgstr "Поход завершён, заберите награды!"
 
 msgid "raidView/hoursTime"
-msgstr "%(hours)s ч. %(min)s м."
+msgstr "%(hours)s ч. %(min)s мин."
 
 msgid "raidView/inventory/title/available"
 msgstr "ДОСТУПНЫЕ ИНГРЕДИЕНТЫ"
@@ -3481,14 +3484,14 @@ msgstr "Для отправки Енота в поход заполните вс
 msgid "rent/battles"
 msgid_plural "battles"
 msgstr[0] "В аренду на %(battles)d бой"
-msgstr[1] "Напракат на %(battles)d баі"
-msgstr[2] "Напракат на %(battles)d баёў"
+msgstr[1] "В аренду на %(battles)d боя"
+msgstr[2] "В аренду на %(battles)d боёв"
 
 msgid "rent/days"
 msgid_plural "days"
 msgstr[0] "В аренду на %(days)d день"
-msgstr[1] "Напракат на %(days)d дні"
-msgstr[2] "Напракат на %(days)d дзён"
+msgstr[1] "В аренду на %(days)d дня"
+msgstr[2] "В аренду на %(days)d дней"
 
 msgid "reward/label/blueprint/national"
 msgstr "Национальные фрагменты: %(count)s"
@@ -3908,7 +3911,7 @@ msgid "weeklyRewards/participateInDraw/active"
 msgstr "(ВЫ УЧАСТВУЕТЕ В РОЗЫГРЫШЕ)"
 
 msgid "weeklyRewards/participateInDraw/claimed"
-msgstr "(Получена награда за РОЗЫГРЫШ)"
+msgstr "(Получена награда за розыгрыш)"
 
 msgid "weeklyRewards/secretVehicle/tooltip/body"
 msgstr "Самая желанная, но скрытая до поры до времени награда для самых заряженных."
@@ -3941,7 +3944,7 @@ msgid "weeklyRewards/stage/index/3"
 msgstr "Третий"
 
 msgid "weeklyRewards/stage/index/4"
-msgstr "Четвертый"
+msgstr "Четвёртый"
 
 msgid "weeklyRewards/stage/index/5"
 msgstr "Пятый"

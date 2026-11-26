@@ -693,3 +693,9 @@ class VOIPManager(VOIPHandler):
         if actionID in (USER_ACTION_ID.MUTE_SET, USER_ACTION_ID.MUTE_UNSET):
             self.__onChatActionMute(user.getID(), user.isMuted())
         return
+
+    def setEchoSuppression(self, _):
+        return
+
+    def isEchoSuppressionEnabled(self):
+        return False

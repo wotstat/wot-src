@@ -740,10 +740,6 @@ class ITamagotchiDataProvider(object):
         raise NotImplementedError
         return
 
-    def syncOpenedIndicators(self):
-        raise NotImplementedError
-        return
-
     def setRaidReady(self, isReady=None):
         raise NotImplementedError
         return
