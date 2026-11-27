@@ -1,7 +1,7 @@
 {
   "branch": "wot-asia",
   "client_type": "sd",
-  "commit_subject": "2.4.2.0 #998",
+  "commit_subject": "2.4.2.0 #1006",
   "counts": {
     "locales": {
       "EN": 278,
@@ -18,7 +18,7 @@
     "stubs": 101
   },
   "default_locale": "EN",
-  "descriptor_sha256": "ac08f81846e2ed2bc2d877628e92103f0436dcec1bba40a3d72e4ff3c5560ed9",
+  "descriptor_sha256": "5835e03b93856501acd65d6c368b3589acb2866e8ddddeec9f5090c803b7f521",
   "languages": [
     "EN",
     "JA",
@@ -31,8 +31,8 @@
   "publisher": "wargaming",
   "schema_version": 1,
   "snapshot_contract_version": "1.1.0",
-  "snapshot_created_at": "2026-11-24T02:58:03.940364Z",
-  "snapshot_id": "sha256:11e71710a9e130d31d593d4a6ac70b73c52b14260f41c313907a09f539fc5077",
+  "snapshot_created_at": "2026-11-27T22:37:45.117844Z",
+  "snapshot_id": "sha256:883efff8470a33f30f72c9c252337440d83efedd7911f1b95c2d658e02d39e1a",
   "target": "wot-asia",
-  "version_name": "2.4.2.5526"
+  "version_name": "2.4.2.5532"
 }

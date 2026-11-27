@@ -1,4 +1,4 @@
-# wot-src • wot-asia • 2.4.2.0 #998
+# wot-src • wot-asia • 2.4.2.0 #1006
 
 [![wot-eu status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-eu.json)](https://github.com/wotstat/wot-src/tree/wot-eu)
 [![wot-na status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-na.json)](https://github.com/wotstat/wot-src/tree/wot-na)
@@ -58,8 +58,8 @@ stubs/               # полный manifest payload IDE stubs
 
 - Target: `wot-asia`
 - Ветка: `wot-asia`
-- Версия: `2.4.2.5526`
+- Версия: `2.4.2.5532`
 - Publisher: `wargaming`
-- GameSnapshot: `sha256:11e71710a9e130d31d593d4a6ac70b73c52b14260f41c313907a09f539fc5077`
+- GameSnapshot: `sha256:883efff8470a33f30f72c9c252337440d83efedd7911f1b95c2d658e02d39e1a`
 
 Машиночитаемые метаданные и контрольные идентификаторы находятся в `.publication.json`.
