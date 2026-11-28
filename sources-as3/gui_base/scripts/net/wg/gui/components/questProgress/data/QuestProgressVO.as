@@ -84,9 +84,7 @@ package net.wg.gui.components.questProgress.data
             {
                _loc8_ = new HeaderProgressDataVO(_loc6_[_loc9_]);
                this._headerConditions.push(_loc8_);
-               §§push(this);
-               §§push(this._isHeaderHasProgress && _loc8_.progressType != QUEST_PROGRESS_BASE.HEADER_PROGRESS_TYPE_NONE);
-               §§pop()._isHeaderHasProgress = §§pop();
+               this._isHeaderHasProgress = this._isHeaderHasProgress && _loc8_.progressType != QUEST_PROGRESS_BASE.HEADER_PROGRESS_TYPE_NONE;
                _loc9_++;
             }
             return false;
